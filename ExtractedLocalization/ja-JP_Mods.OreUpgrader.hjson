@@ -1,48 +1,48 @@
-Items: {
-	CobaltUpgrader: {
-		Tooltip:
-			'''
-			Used for upgrading ore tier of tools, weapons, armor and etc...
-			Used also for basic crafting
-			'''
-		DisplayName: Cobalt Upgrader
-	}
-
-	CopperUpgrader: {
-		Tooltip:
-			'''
-			Used for upgrading ore tier of tools, weapons, armor and etc...
-			Used also for basic crafting
-			'''
-		DisplayName: Copper Upgrader
-	}
-
-	PalladiumUpgrader: {
-		Tooltip:
-			'''
-			Used for upgrading ore tier of tools, weapons, armor and etc...
-			Used also for basic crafting
-			'''
-		DisplayName: Palladium Upgrader
-	}
-
-	TinUpgrader: {
-		Tooltip:
-			'''
-			Used for upgrading ore tier of tools, weapons, armor and etc...
-			Used also for basic crafting
-			'''
-		DisplayName: Tin Upgrader
-	}
-}
-
 Tiles: {
+	PreHardUpgraders: {
+		MapEntry: Copper Upgrader
+	}
+
 	HardUpgraders: {
 		MapEntry: Cobalt Upgrader
 	}
+}
 
-	PreHardUpgraders: {
-		MapEntry: Copper Upgrader
+Items: {
+	TinUpgrader: {
+		DisplayName: Tin Upgrader
+		Tooltip:
+			'''
+			Used for upgrading ore tier of tools, weapons, armor and etc...
+			Used also for basic crafting
+			'''
+	}
+
+	PalladiumUpgrader: {
+		DisplayName: Palladium Upgrader
+		Tooltip:
+			'''
+			Used for upgrading ore tier of tools, weapons, armor and etc...
+			Used also for basic crafting
+			'''
+	}
+
+	CopperUpgrader: {
+		DisplayName: Copper Upgrader
+		Tooltip:
+			'''
+			Used for upgrading ore tier of tools, weapons, armor and etc...
+			Used also for basic crafting
+			'''
+	}
+
+	CobaltUpgrader: {
+		DisplayName: Cobalt Upgrader
+		Tooltip:
+			'''
+			Used for upgrading ore tier of tools, weapons, armor and etc...
+			Used also for basic crafting
+			'''
 	}
 }
 

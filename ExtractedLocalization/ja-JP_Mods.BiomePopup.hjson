@@ -1,260 +1,260 @@
-Configs: {
-	BiomePopupConfig: {
-		DisplayName: Config
-
-		scaleWithUI: {
-			Label: Scale with UI
-			Tooltip: If enabled, the popup will scale along with the UI scale.
-		}
-
-		customScale: {
-			Label: Custom Popup Scale
-			Tooltip: Choose the popup size scale, between 50% and 200%.
-		}
-
-		animationTime: {
-			Label: Animation Time
-			Tooltip: The time in frames for the popup to animate in/out.
-		}
-
-		stationaryTime: {
-			Label: Display Time
-			Tooltip: The time in frames for the popup to remain stationary.
-		}
-
-		BiomeCheckDelay: {
-			Tooltip: Interval between biome checks in seconds
-			Label: Biome Check Interval
-		}
-
-		Headers: {
-			Animation: Animations
-			Advanced: Advanced
-			Visuals: Visuals
-		}
-
-		TitleAnimation: {
-			Tooltip: Title appear and disappear animation
-			Label: Animation Type
-		}
-
-		HideWhileBossIsAlive: {
-			Tooltip: Should titles be hidden while a boss is alive
-			Label: Hide While Boss Is Alive
-		}
-
-		HideWhileInventoryOpen: {
-			Tooltip: Should titles be hidden when the player inventory is open
-			Label: Hide While Inventory Open
-		}
-
-		Position: {
-			Tooltip: Choose the position of the Title
-			Label: Position
-		}
-	}
-
-	AnimationType: {
-		Slide: {
-			Label: Slide
-		}
-
-		FadeSwipe: {
-			Label: Fade with swipe
-		}
-
-		Fade: {
-			Label: Fade
-		}
-
-		None: {
-			Label: No animation
-		}
-
-		Tooltip: ""
-	}
-
-	PositionOption: {
-		Custom: {
-			Label: Custom
-		}
-
-		Bottom: {
-			Label: Bottom
-		}
-
-		Top: {
-			Label: Top
-		}
-
-		Tooltip: ""
-	}
-}
-
 Mod: {
 	Configs: {
-		BiomePopupConfig: {
-			DisplayName: Biome Popup Config
-
-			Headers: {
-				Animation: Animation Header
-				Advanced: Advanced Header
-				Visuals: Visuals Header
-			}
-
-			position: {
-				Label: Position
-				Tooltip: Choose the position of the Title
-			}
-
-			scaleWithUI: {
-				Label: Scale with UI
-				Tooltip: If enabled, the popup will scale along with the UI scale.
-			}
-
-			customScale: {
-				Label: Custom Popup Scale
-				Tooltip: Choose the popup size scale, between 50% and 200%.
-			}
-
-			isHideWhileInventoryOpen: {
-				Label: Hide While Inventory Open
-				Tooltip: Should popup be hidden when the player inventory is open
-			}
-
-			isHideWhileBossAlive: {
-				Label: Hide While Boss Is Alive
-				Tooltip: Should popup be hidden while a boss is alive
-			}
-
-			animationType: {
-				Label: Animation Type
-				Tooltip: Title appear and disappear animation
-			}
-
-			stationaryTime: {
-				Label: Display Time
-				Tooltip: The time in frames for the popup to remain stationary.
-			}
-
-			animationTime: {
-				Label: Animation Time
-				Tooltip: "Time for the popup to animate in/out, in frames "
-			}
-
-			animationOutTime: {
-				Label: Animation Out Duration
-				Tooltip: Time for titles to disappear from screen in seconds
-			}
-
-			biomeCheckDelay: {
-				Label: Biome Check Interval
-				Tooltip: Interval (in ticks) between biome checks
-			}
-
-			AnimationOutTime: {
-				Tooltip: Duration (in tics) for the popup to animate out (disappear)
-				Label: Animation-Out Duration
-			}
-
-			AnimateInDuration: {
-				Tooltip: Duration (in tics) for the popup to animate in
-				Label: Animation-In Duration
-			}
-
-			VisibleDuration: {
-				Tooltip: Duration (in tics) for the popup to remain stationary between animations (-1 means infinite)
-				Label: Display Duration
-			}
-
-			Position: {
-				Label: Position
-				Tooltip: Choose the position of the Popup
-			}
-
-			ScaleWithUI: {
-				Label: Scale with UI
-				Tooltip: If enabled, the popup will scale along with the UI scale
-			}
-
-			CustomScale: {
-				Label: Custom Popup Scale
-				Tooltip: Choose the popup size scale, between 50% and 200%
-			}
-
-			AnimationType: {
-				Label: Animation Type
-				Tooltip: Title appear and disappear animation
-			}
-
-			IsScaleWithUI: {
-				Label: Scale with UI
-				Tooltip: If enabled, the popup will scale along with the UI scale
-			}
-
-			IsHideWhileInventoryOpen: {
-				Label: Hide While Inventory Open
-				Tooltip: Should popup be hidden when the player inventory is open
-			}
-
-			IsHideWhileBossAlive: {
-				Label: Hide While Boss Is Alive
-				Tooltip: Should popup be hidden while a boss is alive
-			}
-
-			BiomeCheckDelay: {
-				Label: Biome Check Interval
-				Tooltip: Interval (in ticks) between biome checks
-			}
-		}
-
-		PositionOption: {
-			Tooltip: ""
-
-			Top: {
-				Label: Top
-			}
-
-			Bottom: {
-				Label: Bottom
-			}
-
-			Custom: {
-				Label: Custom
-			}
-
-			BottomRight: {
-				Label: Bottom Right
-			}
-
-			BottomLeft: {
-				Label: Bottom Left
-			}
-		}
-
 		AnimationType: {
-			Tooltip: ""
-
-			None: {
-				Label: No animation
-			}
-
-			Fade: {
-				Label: Fade
-			}
-
-			FadeSwipe: {
-				Label: Fade with swipe
+			FadeSlide: {
+				Label: Fade with Slide
 			}
 
 			Slide: {
 				Label: Slide
 			}
 
-			FadeSlide: {
-				Label: Fade with Slide
+			FadeSwipe: {
+				Label: Fade with swipe
 			}
+
+			Fade: {
+				Label: Fade
+			}
+
+			None: {
+				Label: No animation
+			}
+
+			Tooltip: ""
 		}
+
+		PositionOption: {
+			BottomLeft: {
+				Label: Bottom Left
+			}
+
+			BottomRight: {
+				Label: Bottom Right
+			}
+
+			Custom: {
+				Label: Custom
+			}
+
+			Bottom: {
+				Label: Bottom
+			}
+
+			Top: {
+				Label: Top
+			}
+
+			Tooltip: ""
+		}
+
+		BiomePopupConfig: {
+			BiomeCheckDelay: {
+				Tooltip: Interval (in ticks) between biome checks
+				Label: Biome Check Interval
+			}
+
+			IsHideWhileBossAlive: {
+				Tooltip: Should popup be hidden while a boss is alive
+				Label: Hide While Boss Is Alive
+			}
+
+			IsHideWhileInventoryOpen: {
+				Tooltip: Should popup be hidden when the player inventory is open
+				Label: Hide While Inventory Open
+			}
+
+			IsScaleWithUI: {
+				Tooltip: If enabled, the popup will scale along with the UI scale
+				Label: Scale with UI
+			}
+
+			AnimationType: {
+				Tooltip: Title appear and disappear animation
+				Label: Animation Type
+			}
+
+			CustomScale: {
+				Tooltip: Choose the popup size scale, between 50% and 200%
+				Label: Custom Popup Scale
+			}
+
+			ScaleWithUI: {
+				Tooltip: If enabled, the popup will scale along with the UI scale
+				Label: Scale with UI
+			}
+
+			Position: {
+				Tooltip: Choose the position of the Popup
+				Label: Position
+			}
+
+			VisibleDuration: {
+				Label: Display Duration
+				Tooltip: Duration (in tics) for the popup to remain stationary between animations (-1 means infinite)
+			}
+
+			AnimateInDuration: {
+				Label: Animation-In Duration
+				Tooltip: Duration (in tics) for the popup to animate in
+			}
+
+			AnimationOutTime: {
+				Label: Animation-Out Duration
+				Tooltip: Duration (in tics) for the popup to animate out (disappear)
+			}
+
+			biomeCheckDelay: {
+				Tooltip: Interval (in ticks) between biome checks
+				Label: Biome Check Interval
+			}
+
+			animationOutTime: {
+				Tooltip: Time for titles to disappear from screen in seconds
+				Label: Animation Out Duration
+			}
+
+			animationTime: {
+				Tooltip: "Time for the popup to animate in/out, in frames "
+				Label: Animation Time
+			}
+
+			stationaryTime: {
+				Tooltip: The time in frames for the popup to remain stationary.
+				Label: Display Time
+			}
+
+			animationType: {
+				Tooltip: Title appear and disappear animation
+				Label: Animation Type
+			}
+
+			isHideWhileBossAlive: {
+				Tooltip: Should popup be hidden while a boss is alive
+				Label: Hide While Boss Is Alive
+			}
+
+			isHideWhileInventoryOpen: {
+				Tooltip: Should popup be hidden when the player inventory is open
+				Label: Hide While Inventory Open
+			}
+
+			customScale: {
+				Tooltip: Choose the popup size scale, between 50% and 200%.
+				Label: Custom Popup Scale
+			}
+
+			scaleWithUI: {
+				Tooltip: If enabled, the popup will scale along with the UI scale.
+				Label: Scale with UI
+			}
+
+			position: {
+				Tooltip: Choose the position of the Title
+				Label: Position
+			}
+
+			Headers: {
+				Visuals: Visuals Header
+				Advanced: Advanced Header
+				Animation: Animation Header
+			}
+
+			DisplayName: Biome Popup Config
+		}
+	}
+}
+
+Configs: {
+	PositionOption: {
+		Tooltip: ""
+
+		Top: {
+			Label: Top
+		}
+
+		Bottom: {
+			Label: Bottom
+		}
+
+		Custom: {
+			Label: Custom
+		}
+	}
+
+	AnimationType: {
+		Tooltip: ""
+
+		None: {
+			Label: No animation
+		}
+
+		Fade: {
+			Label: Fade
+		}
+
+		FadeSwipe: {
+			Label: Fade with swipe
+		}
+
+		Slide: {
+			Label: Slide
+		}
+	}
+
+	BiomePopupConfig: {
+		Position: {
+			Label: Position
+			Tooltip: Choose the position of the Title
+		}
+
+		HideWhileInventoryOpen: {
+			Label: Hide While Inventory Open
+			Tooltip: Should titles be hidden when the player inventory is open
+		}
+
+		HideWhileBossIsAlive: {
+			Label: Hide While Boss Is Alive
+			Tooltip: Should titles be hidden while a boss is alive
+		}
+
+		TitleAnimation: {
+			Label: Animation Type
+			Tooltip: Title appear and disappear animation
+		}
+
+		Headers: {
+			Visuals: Visuals
+			Advanced: Advanced
+			Animation: Animations
+		}
+
+		BiomeCheckDelay: {
+			Label: Biome Check Interval
+			Tooltip: Interval between biome checks in seconds
+		}
+
+		stationaryTime: {
+			Tooltip: The time in frames for the popup to remain stationary.
+			Label: Display Time
+		}
+
+		animationTime: {
+			Tooltip: The time in frames for the popup to animate in/out.
+			Label: Animation Time
+		}
+
+		customScale: {
+			Tooltip: Choose the popup size scale, between 50% and 200%.
+			Label: Custom Popup Scale
+		}
+
+		scaleWithUI: {
+			Tooltip: If enabled, the popup will scale along with the UI scale.
+			Label: Scale with UI
+		}
+
+		DisplayName: Config
 	}
 }
 

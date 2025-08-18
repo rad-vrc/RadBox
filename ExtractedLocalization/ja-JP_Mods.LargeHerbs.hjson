@@ -1,151 +1,151 @@
-Items: {
-	LargeBlinkrootItem: {
-		DisplayName: Large Blinkroot
-		Tooltip:
-			'''
-			Drops multiple Blinkroot when harvested
-			Slowly spreads Blinkroot to nearby soil
-			'''
-	}
-
-	LargeDaybloomItem: {
-		DisplayName: Large Daybloom
-		Tooltip:
-			'''
-			Drops multiple Daybloom when harvested
-			Slowly spreads Daybloom to nearby grass
-			'''
-	}
-
-	LargeDeathweedItem: {
-		DisplayName: Large Deathweed
-		Tooltip:
-			'''
-			Drops multiple Deathweed when harvested
-			Slowly spreads Deathweed to nearby corrupt or crimson grass
-			'''
-	}
-
-	LargeFireblossomItem: {
-		DisplayName: Large Fireblossom
-		Tooltip:
-			'''
-			Drops multiple Fireblossom when harvested
-			Slowly spreads Fireblossom to nearby ash blocks
-			'''
-	}
-
-	LargeGlowingMushroomItem: {
-		DisplayName: Large Glowing Mushroom
-		Tooltip:
-			'''
-			Drops multiple Glowing Mushrooms when harvested
-			Slowly spreads Glowing Mushrooms to nearby mushroom grass
-			'''
-	}
-
-	LargeMoonglowItem: {
-		DisplayName: Large Moonglow
-		Tooltip:
-			'''
-			Drops multiple Moonglow when harvested
-			Slowly spreads Moonglow to nearby jungle grass
-			'''
-	}
-
-	LargeMushroomItem: {
-		DisplayName: Large Mushroom
-		Tooltip:
-			'''
-			Drops multiple Mushrooms when harvested
-			Slowly spreads Mushrooms to nearby grass
-			'''
-	}
-
-	LargeShiverthornItem: {
-		DisplayName: Large Shiverthorn
-		Tooltip:
-			'''
-			Drops multiple Shiverthorn when harvested
-			Slowly spreads Shiverthorn to nearby snow and ice
-			'''
-	}
-
-	LargeViciousMushroomItem: {
-		DisplayName: Large Vicious Mushroom
-		Tooltip:
-			'''
-			Drops multiple Vicious Mushrooms when harvested
-			Slowly spreads Vicious Mushrooms to nearby crimson grass
-			'''
-	}
-
-	LargeVileMushroomItem: {
-		DisplayName: Large Vile Mushroom
-		Tooltip:
-			'''
-			Drops multiple Vile Mushrooms when harvested
-			Slowly spreads Vile Mushrooms to nearby corrupt grass
-			'''
-	}
-
-	LargeWaterleafItem: {
-		DisplayName: Large Waterleaf
-		Tooltip:
-			'''
-			Drops multiple Waterleaf when harvested
-			Slowly spreads Waterleaf to nearby sand
-			'''
-	}
-}
-
 Tiles: {
-	LargeHerbTile: {
-		MapEntry: Large Herb
-	}
-
-	LargeBlinkrootTile: {
-		MapEntry: Large Blinkroot
-	}
-
-	LargeDaybloomTile: {
-		MapEntry: Large Daybloom
-	}
-
-	LargeDeathweedTile: {
-		MapEntry: Large Deathweed
-	}
-
-	LargeFireblossomTile: {
-		MapEntry: Large Fireblossom
-	}
-
-	LargeGlowingMushroomTile: {
-		MapEntry: Large Glowing Mushroom
-	}
-
-	LargeMoonglowTile: {
-		MapEntry: Large Moonglow
-	}
-
-	LargeMushroomTile: {
-		MapEntry: Large Mushroom
-	}
-
-	LargeShiverthornTile: {
-		MapEntry: Large Shiverthorn
-	}
-
-	LargeViciousMushroomTile: {
-		MapEntry: Large Vicious Mushroom
+	LargeWaterleafTile: {
+		MapEntry: Large Waterleaf
 	}
 
 	LargeVileMushroomTile: {
 		MapEntry: Large Vile Mushroom
 	}
 
-	LargeWaterleafTile: {
-		MapEntry: Large Waterleaf
+	LargeViciousMushroomTile: {
+		MapEntry: Large Vicious Mushroom
+	}
+
+	LargeShiverthornTile: {
+		MapEntry: Large Shiverthorn
+	}
+
+	LargeMushroomTile: {
+		MapEntry: Large Mushroom
+	}
+
+	LargeMoonglowTile: {
+		MapEntry: Large Moonglow
+	}
+
+	LargeGlowingMushroomTile: {
+		MapEntry: Large Glowing Mushroom
+	}
+
+	LargeFireblossomTile: {
+		MapEntry: Large Fireblossom
+	}
+
+	LargeDeathweedTile: {
+		MapEntry: Large Deathweed
+	}
+
+	LargeDaybloomTile: {
+		MapEntry: Large Daybloom
+	}
+
+	LargeBlinkrootTile: {
+		MapEntry: Large Blinkroot
+	}
+
+	LargeHerbTile: {
+		MapEntry: Large Herb
+	}
+}
+
+Items: {
+	LargeWaterleafItem: {
+		Tooltip:
+			'''
+			Drops multiple Waterleaf when harvested
+			Slowly spreads Waterleaf to nearby sand
+			'''
+		DisplayName: Large Waterleaf
+	}
+
+	LargeVileMushroomItem: {
+		Tooltip:
+			'''
+			Drops multiple Vile Mushrooms when harvested
+			Slowly spreads Vile Mushrooms to nearby corrupt grass
+			'''
+		DisplayName: Large Vile Mushroom
+	}
+
+	LargeViciousMushroomItem: {
+		Tooltip:
+			'''
+			Drops multiple Vicious Mushrooms when harvested
+			Slowly spreads Vicious Mushrooms to nearby crimson grass
+			'''
+		DisplayName: Large Vicious Mushroom
+	}
+
+	LargeShiverthornItem: {
+		Tooltip:
+			'''
+			Drops multiple Shiverthorn when harvested
+			Slowly spreads Shiverthorn to nearby snow and ice
+			'''
+		DisplayName: Large Shiverthorn
+	}
+
+	LargeMushroomItem: {
+		Tooltip:
+			'''
+			Drops multiple Mushrooms when harvested
+			Slowly spreads Mushrooms to nearby grass
+			'''
+		DisplayName: Large Mushroom
+	}
+
+	LargeMoonglowItem: {
+		Tooltip:
+			'''
+			Drops multiple Moonglow when harvested
+			Slowly spreads Moonglow to nearby jungle grass
+			'''
+		DisplayName: Large Moonglow
+	}
+
+	LargeGlowingMushroomItem: {
+		Tooltip:
+			'''
+			Drops multiple Glowing Mushrooms when harvested
+			Slowly spreads Glowing Mushrooms to nearby mushroom grass
+			'''
+		DisplayName: Large Glowing Mushroom
+	}
+
+	LargeFireblossomItem: {
+		Tooltip:
+			'''
+			Drops multiple Fireblossom when harvested
+			Slowly spreads Fireblossom to nearby ash blocks
+			'''
+		DisplayName: Large Fireblossom
+	}
+
+	LargeDeathweedItem: {
+		Tooltip:
+			'''
+			Drops multiple Deathweed when harvested
+			Slowly spreads Deathweed to nearby corrupt or crimson grass
+			'''
+		DisplayName: Large Deathweed
+	}
+
+	LargeDaybloomItem: {
+		Tooltip:
+			'''
+			Drops multiple Daybloom when harvested
+			Slowly spreads Daybloom to nearby grass
+			'''
+		DisplayName: Large Daybloom
+	}
+
+	LargeBlinkrootItem: {
+		Tooltip:
+			'''
+			Drops multiple Blinkroot when harvested
+			Slowly spreads Blinkroot to nearby soil
+			'''
+		DisplayName: Large Blinkroot
 	}
 }
 

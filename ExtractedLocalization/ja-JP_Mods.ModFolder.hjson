@@ -1,3 +1,468 @@
+Configs: {
+	LayoutTypes: {
+		BlockWithName: {
+			Label: Block With Name
+		}
+
+		Block: {
+			Label: Block
+		}
+
+		Stripe: {
+			Label: Stripe
+		}
+
+		Tooltip: ""
+	}
+
+	ShowType: {
+		Always: {
+			Label: 常に表示
+		}
+
+		WhenNotZero: {
+			Label: ゼロでない時表示
+		}
+
+		Never: {
+			Label: 決して表示しない
+		}
+
+		Tooltip: ""
+	}
+
+	ShowEnableStatusClass: {
+		ToDisableColor: {
+			Tooltip: ""
+			Label: 無効化予定カラー
+		}
+
+		ToEnableColor: {
+			Tooltip: ""
+			Label: 有効化予定カラー
+		}
+
+		EnabledColor: {
+			Tooltip: ""
+			Label: 有効カラー
+		}
+
+		AllModsColor: {
+			Tooltip: ""
+			Label: すべてのModカラー
+		}
+
+		Seperator: {
+			Tooltip: ""
+			Label: 区切り
+		}
+
+		ToDisable: {
+			Tooltip: ""
+			Label: 無効化予定
+		}
+
+		ToEnable: {
+			Tooltip: ""
+			Label: 有効化予定
+		}
+
+		Enabled: {
+			Tooltip: ""
+			Label: 有効
+		}
+
+		AllMods: {
+			Tooltip: ""
+			Label: すべてのMod
+		}
+
+		ShowNone: {
+			Tooltip: ""
+			Label: 何も表示しない
+		}
+
+		ShowAllWhenNotZero: {
+			Tooltip: ""
+			Label: ゼロでないときにすべて表示
+		}
+
+		ShowAllAlways: {
+			Tooltip: ""
+			Label: 常に全てを表示
+		}
+
+		ShowBackground: {
+			Tooltip: ""
+			Label: 背景を表示
+		}
+
+		Headers: {
+			Text: テキスト
+			Background: 背景
+		}
+
+		Tooltip: ""
+	}
+
+	SeeChangelogClass: {
+		ChangelogDisplay: {
+			Tooltip: ""
+			Label: アップデートログを表示
+		}
+
+		Tooltip: ""
+	}
+
+	CommonConfig: {
+		ShowAllModsByDefault: {
+			Tooltip: Or show folder system by default
+			Label: Show All Mods By Default
+		}
+
+		ScrollingName: {
+			Tooltip: ""
+			Label: Scrolling Name
+		}
+
+		DefaultLayout: {
+			Tooltip: ""
+			Label: Default Layout
+		}
+
+		SeeChangelog: {
+			Tooltip: ""
+			Label: アップデートログを見る
+		}
+
+		LogModLoading: {
+			Tooltip: 有効にすると、Modの読み込み時にラグが発生する可能性がある
+			Label: Mod読み込みログ
+		}
+
+		TotallyReload: {
+			Tooltip: フォルダシステムに再度入るときに完全にリロード
+			Label: 完全にリロード
+		}
+
+		RemoveRedundantData: {
+			Tooltip: 購読されていないか、フォルダシステムに含まれないModのデータを削除
+			Label: 重複データを削除
+		}
+
+		ShowEnableStatus: {
+			Tooltip: ""
+			Label: 有効化状態を表示
+		}
+
+		ShowModVersion: {
+			Tooltip: ""
+			Label: Modバージョンを表示
+		}
+
+		DataSavePath: {
+			Tooltip:
+				'''
+				データは「ModFolderData.json」として指定されたパスに保存される
+				空の場合、データはModフォルダ（tmlがModを配置する場所）に保存される
+				'''
+			Label: データ保存パス
+		}
+
+		AutoMoveListWhenDragging: {
+			Tooltip: ""
+			Label: ドラッグ時にリストを自動移動
+		}
+
+		AlwaysNeedConfirmWhenDeletingFolder: {
+			Tooltip:
+				'''
+				無効にすると、ShiftまたはAltを押しながら削除ボタンをクリックするとフォルダのインデックスが直接削除されるが、
+				Ctrlを押すと、すべての購読解除を確認する必要がある
+				'''
+			Label: フォルダ削除時に常に確認
+		}
+
+		SaveWhenChanged: {
+			Tooltip: 無効の場合、データは戻るときのみ保存される
+			Label: 変更時に保存
+		}
+
+		ShowModLocation: {
+			Tooltip: ModがSteamワークショップ、ローカル、またはModパックからのものであるかを表示する
+			Label: Modの場所を表示
+		}
+
+		LeftClickToEnterFolderSystem: {
+			Tooltip:
+				'''
+				有効にすると、右クリックで元のModマネージャに入る
+				無効にすると、右クリックでフォルダシステムに入る
+				'''
+			Label: フォルダシステムに入るには左クリック
+		}
+
+		DisplayName: 設定
+	}
+}
+
+UI: {
+	PopupInfos: {
+		ResetNotAllowedWhenLoading: 読み込み中はModをリセットできません！
+		DisableNotAllowedWhenLoading: 読み込み中はModを無効化できません！
+		EnableNotAllowedWhenLoading: 読み込み中はModを有効化できません！
+		CantFindModInWorkshop: ワークショップでModが見つかりません: {0} ({1})
+		DownloadModError: Modのダウンロードエラー！詳細はログを確認してください。
+		SteamNotAvailable: Steamが利用できません！
+		Imported: フォルダがクリップボードから現在のフォルダにインポートされました！
+		ImportClipboardInvalid: クリップボードの内容が無効です！
+		ImportNotAllowedWhenShowingAllMods: 全Modを表示中はインポートできません。フォルダシステムを使用してください！
+		Exported: フォルダ内容がクリップボードにエクスポートされました！
+		CantSubscribeWhenLoading: 読み込み中はサブスクライブできません！完了するまでお待ちください！
+		CantSubscribeWhenSubscribing: サブスクライブ中です！繰り返しクリックしないでください！
+		CantSubscribeWhenDownloading: Modをダウンロード中！
+		CantSubscribeForMissingPublishId: サブスクライブできません！Mod情報が保存されていません！
+	}
+
+	FilteredByLoaded: "{0} 個のModが読み込みフィルタによって絞り込まれました。"
+	CycleImageDisabled:
+		'''
+		[c/999999:現在使用不可]
+		[c/999999:{0}]
+		'''
+	FolderEnableStatus:
+		'''
+		全Mod: {0}
+		有効: {1}
+		有効化予定: {2}
+		無効化予定: {3}
+		'''
+	Rename: 名前変更
+
+	ConfigButtons: {
+		OpenFolder: {
+			Tooltip: フォルダを開く...
+		}
+	}
+
+	DeleteFolderUnloadedConfirmText:
+		'''
+		フォルダを削除してもよろしいですか？
+		内容はまだ読み込まれていないため、インデックスのみ削除されます
+		Altキーを押すと内容を現在のフォルダに移動します
+		'''
+	DeleteFolderDoubleConfirmText: フォルダ内のすべてのModをサブスクライブ解除してもよろしいですか？
+	DeleteFolderConfirmText:
+		'''
+		フォルダを削除してもよろしいですか？
+		Shiftキーを押すとインデックスを削除します
+			Ctrlキーを押すとフォルダ内のすべてのModを購読解除します
+		Altキーを押すとインデックスを削除し、内容を現在のフォルダに移動します
+		'''
+	DeleteModItemUnloadedComfirmTextToAdd: Modは削除せずインデックスのみを削除
+	DeleteModItemCofirmTextToAdd:
+		'''
+		Shiftキーを押すとインデックスを削除
+		Ctrlキーを押すとサブスクライブ解除
+		両方押すとModを完全に削除
+		'''
+	NewFolderDefaultName: 新規フォルダ
+
+	SortButtons: {
+		BlockWithNameLayout: {
+			Tooltip: Block with name layout
+		}
+
+		BlockLayout: {
+			Tooltip: Block layout
+		}
+
+		StripeLayout: {
+			Tooltip: Stripe layout
+		}
+
+		Unloaded: {
+			Tooltip: 未読み込みのModを表示
+		}
+
+		Loaded: {
+			Tooltip: 読み込み済みのModを表示
+		}
+
+		AllMods: {
+			Tooltip: すべてのModを表示
+		}
+
+		FolderSystem: {
+			Tooltip: フォルダシステムを使用
+		}
+
+		WouldBeDisabled: {
+			Tooltip: 無効になる予定のModのみ表示
+		}
+
+		WouldBeEnabled: {
+			Tooltip: 有効になる予定のModのみ表示
+		}
+
+		ToBeToggled: {
+			Tooltip: 切り替え予定のModのみ表示
+		}
+
+		ToBeDisabled: {
+			Tooltip: 無効化予定のModのみ表示
+		}
+
+		ToBeEnabled: {
+			Tooltip: 有効化予定のModのみ表示
+		}
+
+		ModFirst: {
+			Tooltip: Modを先に表示
+		}
+
+		FolderFirst: {
+			Tooltip: フォルダを先に表示
+		}
+
+		CustomFM: {
+			Tooltip: フォルダとModのカスタム順序
+		}
+
+		ReverseRecently: {
+			Tooltip: 変更が古い順に並べ替え
+		}
+
+		Custom: {
+			Tooltip: カスタム順序
+		}
+	}
+
+	Buttons: {
+		Import: {
+			Tooltip:
+				'''
+				クリップボードから現在のフォルダにフォルダをインポートします
+				Shiftキーを押しながら操作すると既存の表示名やエイリアスを置き換えます
+				Altキーを押しながら操作するとお気に入り状態をインポートします
+				'''
+			DisplayName: フォルダをインポート
+		}
+
+		Export: {
+			Tooltip:
+				'''
+				クリップボードにエクスポートします。
+				Shiftキーを押しながら操作すると表示名をエクスポートしません。
+				Ctrlキーを押しながら操作するとエイリアスをエクスポートします。
+				Altキーを押しながら操作するとお気に入り状態をエクスポートします。
+				'''
+		}
+
+		Update: {
+			NoModsToUpdate: 更新できるModがありません。
+			DialogText: 以下のModを更新してもよろしいですか？
+			SearchingForMods: Modのアップデートデータを検索中...
+			NewItemPattern: "{0}: {1}"
+			UpdateItemPattern: "{0}: {1} -> {2}"
+			Tooltip: ""
+			DisplayName: Modを更新
+		}
+
+		Delete: {
+			Tooltips: {
+				CantDeleteInModPack: Modパック内のModは削除できません
+				CantDeleteEnabled: 有効なModは削除できません
+			}
+		}
+
+		Subscribe: {
+			Tooltips: {
+				Subscribe: サブスクライブ
+				Loading: 読み込み中...
+				Subscribing: サブスクライブ中...
+				Downloading: ダウンロード中 {0} / {1}
+			}
+		}
+
+		DisableRedundant: {
+			Tooltip:
+				'''
+				不要な依存Mod（依存先が有効になっていないMod）を無効にします
+				デフォルトでは現在のフォルダ内のModを対象とします。
+				Altキーを押しながら操作するとサブフォルダも対象に含めます。
+				Shiftキーを押すとすべてのModが対象になります。
+				Ctrlキーを押すとお気に入りのModも無効化の対象に含めます。
+				左クリックでブロックがあるModを無効化し、右クリックでブロックがあるModを無効化します
+				（依存関係と依存先の両方を持つMod（例: Calamity）は、右クリック時に依存先がない場合に無効化されます）
+				'''
+			DisplayName: 不要な依存関係の無効化
+		}
+
+		CopyEnabled: {
+			Tooltip:
+				'''
+				現在のフォルダに有効なModをコピーします（ルートディレクトリまたはすべてのModを表示中は無効）
+				デフォルトでは、すでに有効（読み込まれている）Modのみを含みます。
+				Shiftキーを押しながら操作すると、有効になる予定のModのみを含みます（無効になる予定のModは含まれません）
+				Ctrlキーを押しながら操作すると古い内容を削除します。
+				'''
+			DisplayName: 有効Modのコピー
+		}
+
+		More: {
+			DisplayName: 次のページ
+		}
+
+		ToggleShowButtons: {
+			TooltipOff:
+				'''
+				ボタンを非表示にします。
+				ミドルクリックでデフォルトにリセットされます。
+				'''
+			TooltipOn:
+				'''
+				ボタンを表示します。
+				ミドルクリックでデフォルトにリセットされます。
+				'''
+		}
+
+		Back: {
+			Tooltip:
+				'''
+				ディレクトリを1つ上の階層に変更します（デフォルト）
+				ルートディレクトリの場合、メインメニューに戻ります。
+				Shiftキーを押すと直接メインメニューに移動します。
+				Ctrlキーを押しながらメインメニューに戻るとModを強制的に再読み込みします。
+				'''
+		}
+
+		AllMods: {
+			Tooltip:
+				'''
+				左クリックでMODを有効、右クリックで無効にします
+				ミドルクリックをすると、Modを以前有効だった状態にリセットします。
+				Modは通常、現在のフォルダから読み込まれます。
+				Altキーを押しながら操作すると、サブフォルダも含めて検索します。
+				Shiftキーを押しながら操作すると、すべてのModが対象になります。
+				Ctrlキーを押しながら操作すると、お気に入りのModを無視せず処理します。
+				ただし、Ctrlキーを押しながら右クリックをすると、通常の右クリックとして扱われ、不要な依存Modが自動的に解除されます。
+				（お気に入りのModはデフォルトで無効化されません）)
+				'''
+			DisplayName: 有効化＆無効化
+		}
+
+		CreateFolder: {
+			DisplayName: フォルダを作成
+		}
+
+		Mods: {
+			DescriptionWhenLeftClick: 右クリックでオリジナルのUIを開く。
+			DescriptionToAdd: 右クリックでフォルダシステムを開く。
+		}
+	}
+}
+
 Changelog:
 	'''
 	[c/00ff00:v0.4.0]
@@ -93,469 +558,4 @@ Changelog:
 	[c/00ff00:v0.1.0]
 	- publish
 	'''
-
-UI: {
-	Buttons: {
-		Mods: {
-			DescriptionToAdd: 右クリックでフォルダシステムを開く。
-			DescriptionWhenLeftClick: 右クリックでオリジナルのUIを開く。
-		}
-
-		CreateFolder: {
-			DisplayName: フォルダを作成
-		}
-
-		AllMods: {
-			DisplayName: 有効化＆無効化
-			Tooltip:
-				'''
-				左クリックでMODを有効、右クリックで無効にします
-				ミドルクリックをすると、Modを以前有効だった状態にリセットします。
-				Modは通常、現在のフォルダから読み込まれます。
-				Altキーを押しながら操作すると、サブフォルダも含めて検索します。
-				Shiftキーを押しながら操作すると、すべてのModが対象になります。
-				Ctrlキーを押しながら操作すると、お気に入りのModを無視せず処理します。
-				ただし、Ctrlキーを押しながら右クリックをすると、通常の右クリックとして扱われ、不要な依存Modが自動的に解除されます。
-				（お気に入りのModはデフォルトで無効化されません）)
-				'''
-		}
-
-		Back: {
-			Tooltip:
-				'''
-				ディレクトリを1つ上の階層に変更します（デフォルト）
-				ルートディレクトリの場合、メインメニューに戻ります。
-				Shiftキーを押すと直接メインメニューに移動します。
-				Ctrlキーを押しながらメインメニューに戻るとModを強制的に再読み込みします。
-				'''
-		}
-
-		ToggleShowButtons: {
-			TooltipOn:
-				'''
-				ボタンを表示します。
-				ミドルクリックでデフォルトにリセットされます。
-				'''
-			TooltipOff:
-				'''
-				ボタンを非表示にします。
-				ミドルクリックでデフォルトにリセットされます。
-				'''
-		}
-
-		More: {
-			DisplayName: 次のページ
-		}
-
-		CopyEnabled: {
-			DisplayName: 有効Modのコピー
-			Tooltip:
-				'''
-				現在のフォルダに有効なModをコピーします（ルートディレクトリまたはすべてのModを表示中は無効）
-				デフォルトでは、すでに有効（読み込まれている）Modのみを含みます。
-				Shiftキーを押しながら操作すると、有効になる予定のModのみを含みます（無効になる予定のModは含まれません）
-				Ctrlキーを押しながら操作すると古い内容を削除します。
-				'''
-		}
-
-		DisableRedundant: {
-			DisplayName: 不要な依存関係の無効化
-			Tooltip:
-				'''
-				不要な依存Mod（依存先が有効になっていないMod）を無効にします
-				デフォルトでは現在のフォルダ内のModを対象とします。
-				Altキーを押しながら操作するとサブフォルダも対象に含めます。
-				Shiftキーを押すとすべてのModが対象になります。
-				Ctrlキーを押すとお気に入りのModも無効化の対象に含めます。
-				左クリックでブロックがあるModを無効化し、右クリックでブロックがあるModを無効化します
-				（依存関係と依存先の両方を持つMod（例: Calamity）は、右クリック時に依存先がない場合に無効化されます）
-				'''
-		}
-
-		Subscribe: {
-			Tooltips: {
-				Downloading: ダウンロード中 {0} / {1}
-				Subscribing: サブスクライブ中...
-				Loading: 読み込み中...
-				Subscribe: サブスクライブ
-			}
-		}
-
-		Delete: {
-			Tooltips: {
-				CantDeleteEnabled: 有効なModは削除できません
-				CantDeleteInModPack: Modパック内のModは削除できません
-			}
-		}
-
-		Update: {
-			DisplayName: Modを更新
-			Tooltip: ""
-			UpdateItemPattern: "{0}: {1} -> {2}"
-			NewItemPattern: "{0}: {1}"
-			SearchingForMods: Modのアップデートデータを検索中...
-			DialogText: 以下のModを更新してもよろしいですか？
-			NoModsToUpdate: 更新できるModがありません。
-		}
-
-		Export: {
-			Tooltip:
-				'''
-				クリップボードにエクスポートします。
-				Shiftキーを押しながら操作すると表示名をエクスポートしません。
-				Ctrlキーを押しながら操作するとエイリアスをエクスポートします。
-				Altキーを押しながら操作するとお気に入り状態をエクスポートします。
-				'''
-		}
-
-		Import: {
-			DisplayName: フォルダをインポート
-			Tooltip:
-				'''
-				クリップボードから現在のフォルダにフォルダをインポートします
-				Shiftキーを押しながら操作すると既存の表示名やエイリアスを置き換えます
-				Altキーを押しながら操作するとお気に入り状態をインポートします
-				'''
-		}
-	}
-
-	SortButtons: {
-		Custom: {
-			Tooltip: カスタム順序
-		}
-
-		ReverseRecently: {
-			Tooltip: 変更が古い順に並べ替え
-		}
-
-		CustomFM: {
-			Tooltip: フォルダとModのカスタム順序
-		}
-
-		FolderFirst: {
-			Tooltip: フォルダを先に表示
-		}
-
-		ModFirst: {
-			Tooltip: Modを先に表示
-		}
-
-		ToBeEnabled: {
-			Tooltip: 有効化予定のModのみ表示
-		}
-
-		ToBeDisabled: {
-			Tooltip: 無効化予定のModのみ表示
-		}
-
-		ToBeToggled: {
-			Tooltip: 切り替え予定のModのみ表示
-		}
-
-		WouldBeEnabled: {
-			Tooltip: 有効になる予定のModのみ表示
-		}
-
-		WouldBeDisabled: {
-			Tooltip: 無効になる予定のModのみ表示
-		}
-
-		FolderSystem: {
-			Tooltip: フォルダシステムを使用
-		}
-
-		AllMods: {
-			Tooltip: すべてのModを表示
-		}
-
-		Loaded: {
-			Tooltip: 読み込み済みのModを表示
-		}
-
-		Unloaded: {
-			Tooltip: 未読み込みのModを表示
-		}
-
-		StripeLayout: {
-			Tooltip: Stripe layout
-		}
-
-		BlockLayout: {
-			Tooltip: Block layout
-		}
-
-		BlockWithNameLayout: {
-			Tooltip: Block with name layout
-		}
-	}
-
-	NewFolderDefaultName: 新規フォルダ
-	DeleteModItemCofirmTextToAdd:
-		'''
-		Shiftキーを押すとインデックスを削除
-		Ctrlキーを押すとサブスクライブ解除
-		両方押すとModを完全に削除
-		'''
-	DeleteModItemUnloadedComfirmTextToAdd: Modは削除せずインデックスのみを削除
-	DeleteFolderConfirmText:
-		'''
-		フォルダを削除してもよろしいですか？
-		Shiftキーを押すとインデックスを削除します
-			Ctrlキーを押すとフォルダ内のすべてのModを購読解除します
-		Altキーを押すとインデックスを削除し、内容を現在のフォルダに移動します
-		'''
-	DeleteFolderDoubleConfirmText: フォルダ内のすべてのModをサブスクライブ解除してもよろしいですか？
-	DeleteFolderUnloadedConfirmText:
-		'''
-		フォルダを削除してもよろしいですか？
-		内容はまだ読み込まれていないため、インデックスのみ削除されます
-		Altキーを押すと内容を現在のフォルダに移動します
-		'''
-
-	ConfigButtons: {
-		OpenFolder: {
-			Tooltip: フォルダを開く...
-		}
-	}
-
-	Rename: 名前変更
-	FolderEnableStatus:
-		'''
-		全Mod: {0}
-		有効: {1}
-		有効化予定: {2}
-		無効化予定: {3}
-		'''
-	CycleImageDisabled:
-		'''
-		[c/999999:現在使用不可]
-		[c/999999:{0}]
-		'''
-	FilteredByLoaded: "{0} 個のModが読み込みフィルタによって絞り込まれました。"
-
-	PopupInfos: {
-		CantSubscribeForMissingPublishId: サブスクライブできません！Mod情報が保存されていません！
-		CantSubscribeWhenDownloading: Modをダウンロード中！
-		CantSubscribeWhenSubscribing: サブスクライブ中です！繰り返しクリックしないでください！
-		CantSubscribeWhenLoading: 読み込み中はサブスクライブできません！完了するまでお待ちください！
-		Exported: フォルダ内容がクリップボードにエクスポートされました！
-		ImportNotAllowedWhenShowingAllMods: 全Modを表示中はインポートできません。フォルダシステムを使用してください！
-		ImportClipboardInvalid: クリップボードの内容が無効です！
-		Imported: フォルダがクリップボードから現在のフォルダにインポートされました！
-		SteamNotAvailable: Steamが利用できません！
-		DownloadModError: Modのダウンロードエラー！詳細はログを確認してください。
-		CantFindModInWorkshop: ワークショップでModが見つかりません: {0} ({1})
-		EnableNotAllowedWhenLoading: 読み込み中はModを有効化できません！
-		DisableNotAllowedWhenLoading: 読み込み中はModを無効化できません！
-		ResetNotAllowedWhenLoading: 読み込み中はModをリセットできません！
-	}
-}
-
-Configs: {
-	CommonConfig: {
-		DisplayName: 設定
-
-		LeftClickToEnterFolderSystem: {
-			Label: フォルダシステムに入るには左クリック
-			Tooltip:
-				'''
-				有効にすると、右クリックで元のModマネージャに入る
-				無効にすると、右クリックでフォルダシステムに入る
-				'''
-		}
-
-		ShowModLocation: {
-			Label: Modの場所を表示
-			Tooltip: ModがSteamワークショップ、ローカル、またはModパックからのものであるかを表示する
-		}
-
-		SaveWhenChanged: {
-			Label: 変更時に保存
-			Tooltip: 無効の場合、データは戻るときのみ保存される
-		}
-
-		AlwaysNeedConfirmWhenDeletingFolder: {
-			Label: フォルダ削除時に常に確認
-			Tooltip:
-				'''
-				無効にすると、ShiftまたはAltを押しながら削除ボタンをクリックするとフォルダのインデックスが直接削除されるが、
-				Ctrlを押すと、すべての購読解除を確認する必要がある
-				'''
-		}
-
-		AutoMoveListWhenDragging: {
-			Label: ドラッグ時にリストを自動移動
-			Tooltip: ""
-		}
-
-		DataSavePath: {
-			Label: データ保存パス
-			Tooltip:
-				'''
-				データは「ModFolderData.json」として指定されたパスに保存される
-				空の場合、データはModフォルダ（tmlがModを配置する場所）に保存される
-				'''
-		}
-
-		ShowModVersion: {
-			Label: Modバージョンを表示
-			Tooltip: ""
-		}
-
-		ShowEnableStatus: {
-			Label: 有効化状態を表示
-			Tooltip: ""
-		}
-
-		RemoveRedundantData: {
-			Label: 重複データを削除
-			Tooltip: 購読されていないか、フォルダシステムに含まれないModのデータを削除
-		}
-
-		TotallyReload: {
-			Label: 完全にリロード
-			Tooltip: フォルダシステムに再度入るときに完全にリロード
-		}
-
-		LogModLoading: {
-			Label: Mod読み込みログ
-			Tooltip: 有効にすると、Modの読み込み時にラグが発生する可能性がある
-		}
-
-		SeeChangelog: {
-			Label: アップデートログを見る
-			Tooltip: ""
-		}
-
-		DefaultLayout: {
-			Label: Default Layout
-			Tooltip: ""
-		}
-
-		ScrollingName: {
-			Label: Scrolling Name
-			Tooltip: ""
-		}
-
-		ShowAllModsByDefault: {
-			Label: Show All Mods By Default
-			Tooltip: Or show folder system by default
-		}
-	}
-
-	SeeChangelogClass: {
-		Tooltip: ""
-
-		ChangelogDisplay: {
-			Label: アップデートログを表示
-			Tooltip: ""
-		}
-	}
-
-	ShowEnableStatusClass: {
-		Tooltip: ""
-
-		Headers: {
-			Background: 背景
-			Text: テキスト
-		}
-
-		ShowBackground: {
-			Label: 背景を表示
-			Tooltip: ""
-		}
-
-		ShowAllAlways: {
-			Label: 常に全てを表示
-			Tooltip: ""
-		}
-
-		ShowAllWhenNotZero: {
-			Label: ゼロでないときにすべて表示
-			Tooltip: ""
-		}
-
-		ShowNone: {
-			Label: 何も表示しない
-			Tooltip: ""
-		}
-
-		AllMods: {
-			Label: すべてのMod
-			Tooltip: ""
-		}
-
-		Enabled: {
-			Label: 有効
-			Tooltip: ""
-		}
-
-		ToEnable: {
-			Label: 有効化予定
-			Tooltip: ""
-		}
-
-		ToDisable: {
-			Label: 無効化予定
-			Tooltip: ""
-		}
-
-		Seperator: {
-			Label: 区切り
-			Tooltip: ""
-		}
-
-		AllModsColor: {
-			Label: すべてのModカラー
-			Tooltip: ""
-		}
-
-		EnabledColor: {
-			Label: 有効カラー
-			Tooltip: ""
-		}
-
-		ToEnableColor: {
-			Label: 有効化予定カラー
-			Tooltip: ""
-		}
-
-		ToDisableColor: {
-			Label: 無効化予定カラー
-			Tooltip: ""
-		}
-	}
-
-	ShowType: {
-		Tooltip: ""
-
-		Never: {
-			Label: 決して表示しない
-		}
-
-		WhenNotZero: {
-			Label: ゼロでない時表示
-		}
-
-		Always: {
-			Label: 常に表示
-		}
-	}
-
-	LayoutTypes: {
-		Tooltip: ""
-
-		Stripe: {
-			Label: Stripe
-		}
-
-		Block: {
-			Label: Block
-		}
-
-		BlockWithName: {
-			Label: Block With Name
-		}
-	}
-}
 

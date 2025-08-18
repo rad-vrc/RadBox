@@ -1,25 +1,25 @@
-Items: {
-	ArrowLeft: {
-		DisplayName: 前のページ
-		Tooltip: ""
-	}
-
-	ArrowRight: {
-		DisplayName: 次のページ
-		Tooltip: ""
-	}
-
-	Buyback: Buyback
-}
-
 Configs: {
 	ShopExpanderConfig: {
-		DisplayName: Shop Expander 設定
-
 		DisableShopPagingForNPCs: {
-			Label: NPCのショップページ機能を無効化
 			Tooltip: このリストにNPCを追加すると、ショップのページ機能を無効にできます
+			Label: NPCのショップページ機能を無効化
 		}
+
+		DisplayName: Shop Expander 設定
+	}
+}
+
+Items: {
+	Buyback: Buyback
+
+	ArrowRight: {
+		Tooltip: ""
+		DisplayName: 次のページ
+	}
+
+	ArrowLeft: {
+		Tooltip: ""
+		DisplayName: 前のページ
 	}
 }
 

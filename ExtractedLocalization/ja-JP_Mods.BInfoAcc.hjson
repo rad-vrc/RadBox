@@ -1,335 +1,16 @@
-CommonItemtooltip: {
-	ScannerCondition: ブラッドムーンまたは日食の間、または地下バイオームのバリエーション内
-	MerchantSaleCondition: 設定で有効化されている場合
-	MerchantAccConditionG: 設定で有効化されている場合 & 上弦の月
-	MerchantAccConditionQ: 設定で有効化されている場合 & 半月
-	MerchantAccConditionC: 設定で有効化されている場合 & 三日月
-	LuckDisplay: "{0} 運"
-	MinionDisplay: "{0}/{1} ミニオンスロット使用中"
-	SentryDisplay: "{0}/{1} セントリースロット使用中"
-	RegenDisplayFull: ライフ満タン
-	RegenDisplayPos: +{0} ライフ/秒
-	RegenDisplayNeg: "{0} ライフ/秒"
-	SpawnRateDisplayS: "{0} スポーン/秒"
-	SpawnRateDisplayP: "{0} スポーン/秒"
-	SpawnCapDisplay: "{0}体までの敵スポーン上限"
-	SpawnRateDisplayError: エラー：敵の出現率が極端に高/低すぎます！
-	ComboDisplayNone: コンボなし
-	ComboDisplayTime: "{0} ヒット（持続時間：{1}）"
-	ComboDisplayDmg: "{0} ヒット（合計ダメージ：{1}）"
-	ComboError: エラー：値がオーバーフロー
-	AggroDisplay: "{0} 注目度"
-	ManaDisplayFull: マナ満タン
-	ManaDisplayPos: +{0} マナ/秒
-	ManaDisplayNeg: "{0} マナ/秒"
-	SuffixThousand: " 千"
-	SuffixMillion: " 百万"
-	SuffixBillion: " 十億"
-	SuffixSeconds: " 秒"
-	SuffixMinutes: " 分"
-	SuffixHours: " 時間"
-	BrokenSpawnRate: 警告：マルチプレイヤーでの出現率/上限の追跡が現在壊れています！
-}
-
-Biomes: {
-	Neutral: なし
-
-	Vanilla: {
-		Space: 宇宙
-		Underworld: 地下世界
-		Underground: 地下
-		Solar: ソーラーピラー
-		Vortex: ボルテックスピラー
-		Nebula: ネビュラピラー
-		Stardust: スターダストピラー
-		Meteor: 隕石
-		Dungeon: ダンジョン
-		Temple: ジャングル寺院
-		Aether: エーテル
-		Spider: クモの巣
-		Corruption: 不浄の地
-		Crimson: 真紅の地
-		Shroom: キノコ群生地
-		Jungle: ジャングル
-		Hallow: 聖域
-		Ocean: 海
-		Snow: 雪原
-		Desert: 砂漠
-		Beehive: ハチの巣
-		Granite: 御影石の洞窟
-		Marble: 大理石の洞窟
-		Graveyard: 墓地
-		Forest: 森林
-		Town: 町
-	}
-
-	Thorium: {
-		Depths: アクアティックデプス
-	}
-
-	Calamity: {
-		Astral: アストラル感染
-		Crags: ブリムストーンクラッグス
-		SulphurousSea: 硫黄の海
-		SunkenSea: 沈んだ海
-		AbyssMain: 深淵
-		Abyss1: サルファラスデプス
-		Abyss2: 濁った水域
-		Abyss3: サーマルベント
-		Abyss4: 虚空
-	}
-
-	Redemption: {
-		Lab: 廃棄された研究所
-		Soulless: ソウルレスキャバーン
-		Wasteland: 荒れ地
-	}
-
-	Aequus: {
-		Crevice: クラブクリーヴィス
-	}
-
-	Confection: {
-		Confection: コンフェクション
-	}
-
-	FFF: {
-		Celestial: セレスティアル
-		Garden: ガーデン
-	}
-
-	Avalon: {
-		PhantomGardens: ファントムガーデン
-		Hellcastle: ヘルキャッスル
-		Blastplains: セシウムブラストプレイン
-		Contagion: コンタジョン
-		AshenOvergrowth: アシェンオーバーグロース
-		SkyFortress: スカイフォートレス
-		DarkMatter: ダークマター
-		Tropics: サバンナ
-		TuhrtlOutpost: タートルアウトポスト
-		BasaltObelisk: バサルトオベリスク
-	}
-
-	Spirit: {
-		Reach: ブライア
-		Spirit: スピリット
-		Asteroid: 小惑星フィールド
-		Savanna: サバンナ
-	}
-
-	StarsAbove: {
-		Observatory: オブザーバトリーハイパーボレア
-		Astarte: アスタルテドライバー
-		Bleached: ブリーチドワールド
-		Corvus: コルヴス
-		Lyra: リラ
-		Pyxis: ピクシス
-		Moon: 月
-		StarSea: 星の海
-	}
-
-	Depths: {
-		Depths: デプス
-	}
-
-	Spooky: {
-		Spooky: スプーキー
-		Catacomb: カタコンベ
-	}
-
-	Verdant: {
-		Verdant: ヴァーダント
-	}
-
-	Valhalla: {
-		Tar: タールキャバーン
-	}
-
-	Remnants: {
-		Undergrowth: Undergrowth
-		MagicLab: Magical Lab
-		Tomb: Forgotten Tomb
-		AerialGarden: Aerial Garden
-		EchoingHalls: Echoing Halls
-	}
-
-	RiseOfAges: {
-		Backwoods: Backwoods
-	}
-}
-
-Items: {
-	EngiRegistry: {
-		DisplayName: エンジニアのレジストリ
-		Tooltip:
-			'''
-			使用中のセントリースロットの数と合計数を表示する
-			「セントリーの限界に近付いている‥」
-			'''
-	}
-
-	AttendanceLog: {
-		DisplayName: 召喚ログ
-		Tooltip: 使用中のミニオンスロットの数と合計数を表示する
-	}
-
-	FortuneMirror: {
-		DisplayName: フォーチュンミラー
-		Tooltip: 運を表示する
-	}
-
-	HitMarker: {
-		DisplayName: ヒットマーカー
-		Tooltip:
-			'''
-			コンボのヒット数、持続時間、合計ダメージを表示する
-			コンボは3秒以内に連続して命中したヒットで構成される
-			'''
-	}
-
-	RSH: {
-		DisplayName: C.R.M.カウンター
-		Tooltip: コンボ、ライフ自然回復率、マナ消費率を表示する
-	}
-
-	SafteyScanner: {
-		DisplayName: セーフティスキャナー
-		Tooltip: 敵の出現率を表示する
-	}
-
-	ScryingMirror: {
-		DisplayName: スクライングミラー
-		Tooltip: 運、ミニオンスロット、セントリースロットを表示する
-	}
-
-	SmartHeart: {
-		DisplayName: スマートハート
-		Tooltip:
-			'''
-			ライフ自然回復率または減少率を表示する
-			「しっかり歩数を稼いでね！」
-			'''
-	}
-
-	BiomeCrystal: {
-		DisplayName: バイオームクリスタル
-		Tooltip: 現在いるバイオームを表示する
-	}
-
-	Magimeter: {
-		DisplayName: マジメーター
-		Tooltip: マナを消費するアイテム使用時のマナ再生または消費を表示する
-	}
-
-	WantedPoster: {
-		DisplayName: 指名手配ポスター
-		Tooltip:
-			'''
-			注目度を表示する
-			注目度は敵があなたをターゲットにする可能性を示す
-			「「生け捕り」という選択肢は、初めから無かったらしい…」
-			'''
-	}
-
-	ThreatAnalyzer: {
-		DisplayName: 脅威検出器
-		Tooltip: 敵の出現率、注目度、バイオームを表示する
-	}
-}
-
-InfoDisplays: {
-	InfoDisplay8: {
-		DisplayName: セントリー
-	}
-
-	InfoDisplay7: {
-		DisplayName: ミニオン
-	}
-
-	InfoDisplay0: {
-		DisplayName: 運
-	}
-
-	InfoDisplay3: {
-		DisplayName: 敵の出現率
-	}
-
-	InfoDisplay1: {
-		DisplayName: ライフ自然回復率
-	}
-
-	InfoDisplay6: {
-		DisplayName: コンボ
-	}
-
-	InfoDisplay4: {
-		DisplayName: 近くのバイオーム
-	}
-
-	InfoDisplay5: {
-		DisplayName: 注目度
-	}
-
-	InfoDisplay2: {
-		DisplayName: マナ消費率
-	}
-}
-
 Configs: {
 	ConfigServer: {
-		DisplayName: 基本設定
-
-		easySell: {
-			Label: 商人が新しい情報アクセサリーを販売
+		simpleDisplay: {
 			Tooltip:
 				'''
-				trueに設定すると、商人は月の位相に基づいてこのMODの情報アクセサリーを販売します
-				新しい情報ディスプレイを簡単に取得したい場合に便利です
+				特定のディスプレイから余計な記号を削除します。具体的には、複数の情報を切り替えるディスプレイの「+」記号を削除します
+				また、敵の出現率/上限ディスプレイの「~」（「おおよそ」の略）を削除します
+				バイオーム、コンボ、敵の出現率/上限ディスプレイに影響します
 				'''
-		}
-
-		extendedRecipe: {
-			Label: PDAのレシピに新しいアクセサリーを追加
-			Tooltip:
-				'''
-				このMODのスクライングミラー、C.R.M.カウンター、脅威検出器をPDAのレシピに必要とするかどうかを切り替えます
-				携帯デバイスに余計な手間をかけたくない場合は、これをオフにしてください
-				'''
-		}
-
-		updatedPhones: {
-			Label: PDA、携帯電話、シェルフォンで新しい情報ディスプレイを有効化
-			Tooltip:
-				'''
-				PDAとそのアップグレードがこのMODの新しい情報ディスプレイを継承するかどうかを決定します
-				Thorium Modのウィッシンググラスアイテムもサポートしています
-				'''
-		}
-
-		refreshRate: {
-			Label: 情報更新レート
-			Tooltip:
-				'''
-				特定の情報ディスプレイ（敵の出現率/上限、バイオーム）は毎フレーム情報を更新しません
-				これはテキストのちらつきを防ぎ、潜在的なラグを軽減するためです
-				ここで更新間の遅延をカスタマイズできます。設定値は各更新間のティックの数です
-				参考：1秒 = 60ティック
-				'''
-		}
-
-		cycleRate: {
-			Label: 情報ディスプレイのサイクルレート
-			Tooltip:
-				'''
-				特定の情報ディスプレイ（敵の出現率/上限、コンボ、バイオーム）は複数の情報をサイクルで表示します
-				この動作は、砂嵐中のバニラの天気ラジオと似ています
-				この設定は、異なる情報のサイクル速度を倍にします
-				'''
+			Label: 簡易ディスプレイ
 		}
 
 		prioModBiomes: {
-			Label: バイオームディスプレイがMODバイオームを優先
 			Tooltip:
 				'''
 				バイオームディスプレイが（サポートされている）MODのバイオームを（ほとんどの）バニラバイオームより先に表示するようにします
@@ -338,17 +19,336 @@ Configs: {
 				「Thorium Mod」「Calamity Mod」「Mod of Redemption」「Exxo Avalon Origins」「The Stars Above」「Spirit Mod」「Spooky Mod」
 				「Confection Rebaked」「The Depths」「Aequus」「Verdant」「Food, Furniture & Fun」「Remnants」
 				'''
+			Label: バイオームディスプレイがMODバイオームを優先
 		}
 
-		simpleDisplay: {
-			Label: 簡易ディスプレイ
+		cycleRate: {
 			Tooltip:
 				'''
-				特定のディスプレイから余計な記号を削除します。具体的には、複数の情報を切り替えるディスプレイの「+」記号を削除します
-				また、敵の出現率/上限ディスプレイの「~」（「おおよそ」の略）を削除します
-				バイオーム、コンボ、敵の出現率/上限ディスプレイに影響します
+				特定の情報ディスプレイ（敵の出現率/上限、コンボ、バイオーム）は複数の情報をサイクルで表示します
+				この動作は、砂嵐中のバニラの天気ラジオと似ています
+				この設定は、異なる情報のサイクル速度を倍にします
 				'''
+			Label: 情報ディスプレイのサイクルレート
 		}
+
+		refreshRate: {
+			Tooltip:
+				'''
+				特定の情報ディスプレイ（敵の出現率/上限、バイオーム）は毎フレーム情報を更新しません
+				これはテキストのちらつきを防ぎ、潜在的なラグを軽減するためです
+				ここで更新間の遅延をカスタマイズできます。設定値は各更新間のティックの数です
+				参考：1秒 = 60ティック
+				'''
+			Label: 情報更新レート
+		}
+
+		updatedPhones: {
+			Tooltip:
+				'''
+				PDAとそのアップグレードがこのMODの新しい情報ディスプレイを継承するかどうかを決定します
+				Thorium Modのウィッシンググラスアイテムもサポートしています
+				'''
+			Label: PDA、携帯電話、シェルフォンで新しい情報ディスプレイを有効化
+		}
+
+		extendedRecipe: {
+			Tooltip:
+				'''
+				このMODのスクライングミラー、C.R.M.カウンター、脅威検出器をPDAのレシピに必要とするかどうかを切り替えます
+				携帯デバイスに余計な手間をかけたくない場合は、これをオフにしてください
+				'''
+			Label: PDAのレシピに新しいアクセサリーを追加
+		}
+
+		easySell: {
+			Tooltip:
+				'''
+				trueに設定すると、商人は月の位相に基づいてこのMODの情報アクセサリーを販売します
+				新しい情報ディスプレイを簡単に取得したい場合に便利です
+				'''
+			Label: 商人が新しい情報アクセサリーを販売
+		}
+
+		DisplayName: 基本設定
 	}
+}
+
+InfoDisplays: {
+	InfoDisplay2: {
+		DisplayName: マナ消費率
+	}
+
+	InfoDisplay5: {
+		DisplayName: 注目度
+	}
+
+	InfoDisplay4: {
+		DisplayName: 近くのバイオーム
+	}
+
+	InfoDisplay6: {
+		DisplayName: コンボ
+	}
+
+	InfoDisplay1: {
+		DisplayName: ライフ自然回復率
+	}
+
+	InfoDisplay3: {
+		DisplayName: 敵の出現率
+	}
+
+	InfoDisplay0: {
+		DisplayName: 運
+	}
+
+	InfoDisplay7: {
+		DisplayName: ミニオン
+	}
+
+	InfoDisplay8: {
+		DisplayName: セントリー
+	}
+}
+
+Items: {
+	ThreatAnalyzer: {
+		Tooltip: 敵の出現率、注目度、バイオームを表示する
+		DisplayName: 脅威検出器
+	}
+
+	WantedPoster: {
+		Tooltip:
+			'''
+			注目度を表示する
+			注目度は敵があなたをターゲットにする可能性を示す
+			「「生け捕り」という選択肢は、初めから無かったらしい…」
+			'''
+		DisplayName: 指名手配ポスター
+	}
+
+	Magimeter: {
+		Tooltip: マナを消費するアイテム使用時のマナ再生または消費を表示する
+		DisplayName: マジメーター
+	}
+
+	BiomeCrystal: {
+		Tooltip: 現在いるバイオームを表示する
+		DisplayName: バイオームクリスタル
+	}
+
+	SmartHeart: {
+		Tooltip:
+			'''
+			ライフ自然回復率または減少率を表示する
+			「しっかり歩数を稼いでね！」
+			'''
+		DisplayName: スマートハート
+	}
+
+	ScryingMirror: {
+		Tooltip: 運、ミニオンスロット、セントリースロットを表示する
+		DisplayName: スクライングミラー
+	}
+
+	SafteyScanner: {
+		Tooltip: 敵の出現率を表示する
+		DisplayName: セーフティスキャナー
+	}
+
+	RSH: {
+		Tooltip: コンボ、ライフ自然回復率、マナ消費率を表示する
+		DisplayName: C.R.M.カウンター
+	}
+
+	HitMarker: {
+		Tooltip:
+			'''
+			コンボのヒット数、持続時間、合計ダメージを表示する
+			コンボは3秒以内に連続して命中したヒットで構成される
+			'''
+		DisplayName: ヒットマーカー
+	}
+
+	FortuneMirror: {
+		Tooltip: 運を表示する
+		DisplayName: フォーチュンミラー
+	}
+
+	AttendanceLog: {
+		Tooltip: 使用中のミニオンスロットの数と合計数を表示する
+		DisplayName: 召喚ログ
+	}
+
+	EngiRegistry: {
+		Tooltip:
+			'''
+			使用中のセントリースロットの数と合計数を表示する
+			「セントリーの限界に近付いている‥」
+			'''
+		DisplayName: エンジニアのレジストリ
+	}
+}
+
+Biomes: {
+	RiseOfAges: {
+		Backwoods: Backwoods
+	}
+
+	Remnants: {
+		EchoingHalls: Echoing Halls
+		AerialGarden: Aerial Garden
+		Tomb: Forgotten Tomb
+		MagicLab: Magical Lab
+		Undergrowth: Undergrowth
+	}
+
+	Valhalla: {
+		Tar: タールキャバーン
+	}
+
+	Verdant: {
+		Verdant: ヴァーダント
+	}
+
+	Spooky: {
+		Catacomb: カタコンベ
+		Spooky: スプーキー
+	}
+
+	Depths: {
+		Depths: デプス
+	}
+
+	StarsAbove: {
+		StarSea: 星の海
+		Moon: 月
+		Pyxis: ピクシス
+		Lyra: リラ
+		Corvus: コルヴス
+		Bleached: ブリーチドワールド
+		Astarte: アスタルテドライバー
+		Observatory: オブザーバトリーハイパーボレア
+	}
+
+	Spirit: {
+		Savanna: サバンナ
+		Asteroid: 小惑星フィールド
+		Spirit: スピリット
+		Reach: ブライア
+	}
+
+	Avalon: {
+		BasaltObelisk: バサルトオベリスク
+		TuhrtlOutpost: タートルアウトポスト
+		Tropics: サバンナ
+		DarkMatter: ダークマター
+		SkyFortress: スカイフォートレス
+		AshenOvergrowth: アシェンオーバーグロース
+		Contagion: コンタジョン
+		Blastplains: セシウムブラストプレイン
+		Hellcastle: ヘルキャッスル
+		PhantomGardens: ファントムガーデン
+	}
+
+	FFF: {
+		Garden: ガーデン
+		Celestial: セレスティアル
+	}
+
+	Confection: {
+		Confection: コンフェクション
+	}
+
+	Aequus: {
+		Crevice: クラブクリーヴィス
+	}
+
+	Redemption: {
+		Wasteland: 荒れ地
+		Soulless: ソウルレスキャバーン
+		Lab: 廃棄された研究所
+	}
+
+	Calamity: {
+		Abyss4: 虚空
+		Abyss3: サーマルベント
+		Abyss2: 濁った水域
+		Abyss1: サルファラスデプス
+		AbyssMain: 深淵
+		SunkenSea: 沈んだ海
+		SulphurousSea: 硫黄の海
+		Crags: ブリムストーンクラッグス
+		Astral: アストラル感染
+	}
+
+	Thorium: {
+		Depths: アクアティックデプス
+	}
+
+	Vanilla: {
+		Town: 町
+		Forest: 森林
+		Graveyard: 墓地
+		Marble: 大理石の洞窟
+		Granite: 御影石の洞窟
+		Beehive: ハチの巣
+		Desert: 砂漠
+		Snow: 雪原
+		Ocean: 海
+		Hallow: 聖域
+		Jungle: ジャングル
+		Shroom: キノコ群生地
+		Crimson: 真紅の地
+		Corruption: 不浄の地
+		Spider: クモの巣
+		Aether: エーテル
+		Temple: ジャングル寺院
+		Dungeon: ダンジョン
+		Meteor: 隕石
+		Stardust: スターダストピラー
+		Nebula: ネビュラピラー
+		Vortex: ボルテックスピラー
+		Solar: ソーラーピラー
+		Underground: 地下
+		Underworld: 地下世界
+		Space: 宇宙
+	}
+
+	Neutral: なし
+}
+
+CommonItemtooltip: {
+	BrokenSpawnRate: 警告：マルチプレイヤーでの出現率/上限の追跡が現在壊れています！
+	SuffixHours: " 時間"
+	SuffixMinutes: " 分"
+	SuffixSeconds: " 秒"
+	SuffixBillion: " 十億"
+	SuffixMillion: " 百万"
+	SuffixThousand: " 千"
+	ManaDisplayNeg: "{0} マナ/秒"
+	ManaDisplayPos: +{0} マナ/秒
+	ManaDisplayFull: マナ満タン
+	AggroDisplay: "{0} 注目度"
+	ComboError: エラー：値がオーバーフロー
+	ComboDisplayDmg: "{0} ヒット（合計ダメージ：{1}）"
+	ComboDisplayTime: "{0} ヒット（持続時間：{1}）"
+	ComboDisplayNone: コンボなし
+	SpawnRateDisplayError: エラー：敵の出現率が極端に高/低すぎます！
+	SpawnCapDisplay: "{0}体までの敵スポーン上限"
+	SpawnRateDisplayP: "{0} スポーン/秒"
+	SpawnRateDisplayS: "{0} スポーン/秒"
+	RegenDisplayNeg: "{0} ライフ/秒"
+	RegenDisplayPos: +{0} ライフ/秒
+	RegenDisplayFull: ライフ満タン
+	SentryDisplay: "{0}/{1} セントリースロット使用中"
+	MinionDisplay: "{0}/{1} ミニオンスロット使用中"
+	LuckDisplay: "{0} 運"
+	MerchantAccConditionC: 設定で有効化されている場合 & 三日月
+	MerchantAccConditionQ: 設定で有効化されている場合 & 半月
+	MerchantAccConditionG: 設定で有効化されている場合 & 上弦の月
+	MerchantSaleCondition: 設定で有効化されている場合
+	ScannerCondition: ブラッドムーンまたは日食の間、または地下バイオームのバリエーション内
 }
 

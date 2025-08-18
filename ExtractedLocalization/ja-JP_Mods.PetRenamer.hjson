@@ -1,57 +1,15 @@
-Keybinds: {
-	RenamePet: {
-		DisplayName: リネーム ペット
-	}
-
-	Unbound: <unbound>
-}
-
-Configs: {
-	Config: {
-		DisplayName: 設定
-
-		EnableChatAutofill: {
-			Label: チャットの自動入力を有効にする
-			Tooltip: ペットアイテムが選択されたとき、チャットがコマンドを自動入力するようにする
-		}
-
-		ShowPetNameInSelectScreen: {
-			Label: セレクト画面にペット名を表示
-			Tooltip: プレイヤー選択画面にペットの名前が表示される
-		}
-	}
-}
-
-Commands: {
-	PRCommand: {
-		Description: マウスでペットアイテムの名前を設定または変更します。{0} = {1} -> 名前を削除
-		NicknameReset: ニックネーム{0}リセット
-		NamedNew: "{0} が召喚したペットに{1} と名付ける。"
-		NamedSame: ペットはすでに{0}と呼ばれている
-		Renamed: " {0}が召喚したペットの名前を{1}から{2}に変更しました。"
-		NoItem: 名前を変更するアイテムがない！ペット召喚アイテムをカーソルに合わせる
-		InvalidItem: 「{0}は有効なアイテムではありません！」
-	}
-}
-
-Buffs: {
-	PetBuff: {
-		Name: 名前: {0}
-	}
-}
-
-Items: {
-	PetItems: {
-		PetName: ペットネーム: {0}
-		PetOwner: " 飼い主: {0}"
-		PetRename: ペットリネーマー: {0} を押してペットに名前をつける
-	}
+PlayerSelectScreenUI: {
+	PetNameInSelectScreen: "{0} & {1}"
 }
 
 UI: {
 	RenamePetUI: {
-		Title: リネームペット
-		SlotMouseover: ペット召喚アイテムをここに置く
+		CloseButton: 閉じる
+		ClearButton: クリア
+		RandomButton: ランダム
+		ApplyButton: 適用
+		Input: ここに名前を入力
+		SlotMouseoverVerySlowEasterEgg: サンタは存在しない
 		SlotMouseoverSlow:
 			'''
 			1. ペット召喚アイテムをここに置く
@@ -63,16 +21,58 @@ UI: {
 			4. 「X」を押して閉じます。アイテムがUIに残っている場合、アイテムはあなたに返却されます。
 			注：アイテムが入ったUIを開いたままゲームを終了すると、次回プレイ時に再びアイテムが表示されます。
 			'''
-		SlotMouseoverVerySlowEasterEgg: サンタは存在しない
-		Input: ここに名前を入力
-		ApplyButton: 適用
-		RandomButton: ランダム
-		ClearButton: クリア
-		CloseButton: 閉じる
+		SlotMouseover: ペット召喚アイテムをここに置く
+		Title: リネームペット
 	}
 }
 
-PlayerSelectScreenUI: {
-	PetNameInSelectScreen: "{0} & {1}"
+Items: {
+	PetItems: {
+		PetRename: ペットリネーマー: {0} を押してペットに名前をつける
+		PetOwner: " 飼い主: {0}"
+		PetName: ペットネーム: {0}
+	}
+}
+
+Buffs: {
+	PetBuff: {
+		Name: 名前: {0}
+	}
+}
+
+Commands: {
+	PRCommand: {
+		InvalidItem: 「{0}は有効なアイテムではありません！」
+		NoItem: 名前を変更するアイテムがない！ペット召喚アイテムをカーソルに合わせる
+		Renamed: " {0}が召喚したペットの名前を{1}から{2}に変更しました。"
+		NamedSame: ペットはすでに{0}と呼ばれている
+		NamedNew: "{0} が召喚したペットに{1} と名付ける。"
+		NicknameReset: ニックネーム{0}リセット
+		Description: マウスでペットアイテムの名前を設定または変更します。{0} = {1} -> 名前を削除
+	}
+}
+
+Configs: {
+	Config: {
+		ShowPetNameInSelectScreen: {
+			Tooltip: プレイヤー選択画面にペットの名前が表示される
+			Label: セレクト画面にペット名を表示
+		}
+
+		EnableChatAutofill: {
+			Tooltip: ペットアイテムが選択されたとき、チャットがコマンドを自動入力するようにする
+			Label: チャットの自動入力を有効にする
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Keybinds: {
+	Unbound: <unbound>
+
+	RenamePet: {
+		DisplayName: リネーム ペット
+	}
 }
 

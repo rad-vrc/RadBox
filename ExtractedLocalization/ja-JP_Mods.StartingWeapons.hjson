@@ -1,97 +1,97 @@
-Items: {
-	GrassWhipItem: {
-		DisplayName: 草の鞭
-		Tooltip:
-			'''
-			右クリックで足場や木からスイングする
-			「草の縄で棒を二本縛っただけのようだ」
-			'''
-	}
-
-	StickGunItem: {
-		DisplayName: スティックガン
-		Tooltip:
-			'''
-			右クリックで木製の弾を発射し その弾を撃ち当てるとダメージが増加し 最も近い敵へ自動照準する
-			発射物は連鎖する
-			「子どもの頃の記憶が燃料」
-			'''
-	}
-
-	WoodenDaggerItem: {
-		DisplayName: 木のダガー
-		Tooltip:
-			'''
-			命中時に敵の間で跳ね返る
-			「これ以上ないほど鋭い木片」
-			'''
-	}
-
-	WandOfPlantingItem: {
-		DisplayName: 植え付けの杖
-		Tooltip:
-			'''
-			葉が敵に貼り付き 右クリックで葉を引きはがして一時的に誘導する
-			右クリックを離すと葉の爆発を起こす
-			「先端で突くと……いてっ」
-			'''
-	}
-
-	WoodenStickItem: {
-		DisplayName: 木の棒
-		Tooltip:
-			'''
-			弱い敵を吹き飛ばして気絶させる
-			「子どもの頃に拾ったのと同じだ」
-			'''
-	}
-}
-
 Projectiles: {
-	StickGunProjectile: {
-		DisplayName: スティックガン
-	}
-
-	StickGunRicochetProjectile: {
-		DisplayName: 木の跳弾
-	}
-
-	WoodenDaggerProjectile: {
-		DisplayName: 木のダガー
-	}
-
-	WoodenStickSwingProjectile: {
-		DisplayName: 木の棒
-	}
-
-	WoodenStickSlamProjectile: {
-		DisplayName: 木の棒
-	}
-
-	GrassWhipProjectile: {
-		DisplayName: 草の鞭
-	}
-
-	GrassHookProjectile: {
-		DisplayName: 草の鞭
-	}
-
-	WandOfPlantingProjectile: {
-		DisplayName: 植え付けの杖
-	}
-
-	WandOfPlantingExplosionProjectile: {
-		DisplayName: 植え付けの杖
+	Rogue: {
+		WoodenDaggerProjectile: {
+			DisplayName: 木のダガーの発射物
+		}
 	}
 
 	WoodenStickProjectile: {
 		DisplayName: 木の棒の発射物
 	}
 
-	Rogue: {
-		WoodenDaggerProjectile: {
-			DisplayName: 木のダガーの発射物
-		}
+	WandOfPlantingExplosionProjectile: {
+		DisplayName: 植え付けの杖
+	}
+
+	WandOfPlantingProjectile: {
+		DisplayName: 植え付けの杖
+	}
+
+	GrassHookProjectile: {
+		DisplayName: 草の鞭
+	}
+
+	GrassWhipProjectile: {
+		DisplayName: 草の鞭
+	}
+
+	WoodenStickSlamProjectile: {
+		DisplayName: 木の棒
+	}
+
+	WoodenStickSwingProjectile: {
+		DisplayName: 木の棒
+	}
+
+	WoodenDaggerProjectile: {
+		DisplayName: 木のダガー
+	}
+
+	StickGunRicochetProjectile: {
+		DisplayName: 木の跳弾
+	}
+
+	StickGunProjectile: {
+		DisplayName: スティックガン
+	}
+}
+
+Items: {
+	WoodenStickItem: {
+		Tooltip:
+			'''
+			弱い敵を吹き飛ばして気絶させる
+			「子どもの頃に拾ったのと同じだ」
+			'''
+		DisplayName: 木の棒
+	}
+
+	WandOfPlantingItem: {
+		Tooltip:
+			'''
+			葉が敵に貼り付き 右クリックで葉を引きはがして一時的に誘導する
+			右クリックを離すと葉の爆発を起こす
+			「先端で突くと……いてっ」
+			'''
+		DisplayName: 植え付けの杖
+	}
+
+	WoodenDaggerItem: {
+		Tooltip:
+			'''
+			命中時に敵の間で跳ね返る
+			「これ以上ないほど鋭い木片」
+			'''
+		DisplayName: 木のダガー
+	}
+
+	StickGunItem: {
+		Tooltip:
+			'''
+			右クリックで木製の弾を発射し その弾を撃ち当てるとダメージが増加し 最も近い敵へ自動照準する
+			発射物は連鎖する
+			「子どもの頃の記憶が燃料」
+			'''
+		DisplayName: スティックガン
+	}
+
+	GrassWhipItem: {
+		Tooltip:
+			'''
+			右クリックで足場や木からスイングする
+			「草の縄で棒を二本縛っただけのようだ」
+			'''
+		DisplayName: 草の鞭
 	}
 }
 

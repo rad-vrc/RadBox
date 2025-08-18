@@ -1,595 +1,595 @@
-NPCs: {
-	VillagerMale: {
-		Census: {
-			SpawnCondition: タウンNPCが1人いる
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			LoveNPC: "{NPCName}が大好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-		}
-
-		DisplayName: 村人（男）
-	}
-
-	VillagerFemale: {
-		Census: {
-			SpawnCondition: タウンNPCが1人いる
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			LoveNPC: "{NPCName}が大好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-		}
-
-		DisplayName: 村人（女）
-	}
-
-	Rancher: {
-		Census: {
-			SpawnCondition: タウンNPCが5人いる
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			LoveNPC: "{NPCName}が大好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-		}
-
-		DisplayName: 牧場主
-	}
-
-	GuardWood: {
-		Census: {
-			SpawnCondition: クトゥルフの目を倒し、タウンNPCが5人いる
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-			LoveNPC: "{NPCName}が大好きです"
-		}
-
-		DisplayName: 衛兵（木）
-	}
-
-	GuardLead: {
-		Census: {
-			SpawnCondition: イーターオブワールドまたはクトゥルフの脳を倒し、タウンNPCが10人いる
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			LoveNPC: "{NPCName}が大好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-		}
-
-		DisplayName: 衛兵（鉛）
-	}
-
-	Forester: {
-		Census: {
-			SpawnCondition: クトゥルフの目を倒す
-		}
-
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			HateNPC: "{NPCName}が大嫌いです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			LoveNPC: "{NPCName}が大好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LikeBiome: "{BiomeName}が好きです"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-		}
-
-		DisplayName: 森林官
-	}
-
-	Farmer: {
-		TownNPCMood: {
-			Princess_LovesNPC: "{NPCName}が好きです"
-			LikeNPC_Princess: "{NPCName}が好きです"
-			DislikeNPC: "{NPCName}は好きではありません"
-			LikeNPC: "{NPCName}が好きです"
-			DislikeBiome: "{BiomeName}は好きではありません"
-			LoveBiome: "{BiomeName}が大好きです"
-			HateCrowded: 混み合っていて大嫌いです
-			DislikeCrowded: 混み合っていて好きではありません
-			LoveSpace: 広々としていて大好きです
-			FarFromHome: 家から遠すぎます
-			NoHome: 家がないのは大嫌いです
-			Content: 満足しています
-			LoveNPC: "{NPCName}が大好きです"
-			LikeBiome: "{BiomeName}が好きです"
-		}
-
-		DisplayName: 農夫
-
-		Census: {
-			SpawnCondition: タウンNPCが3人いる
-		}
-	}
-
-	GuardBoreal: {
-		DisplayName: Guard (Boreal)
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Guard Post (Boreal) in inventory + Defeat Slime King and have 5 Town NPCs
-		}
-	}
-
-	FishermanIce: {
-		DisplayName: Fisherman (Ice)
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			DislikeBiome: I dislike {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			DislikeNPC: I dislike {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Ice Fishing Cabin in inventory + Save Angler and have 5 Town NPCs
-		}
-	}
-
-	GuardIron: {
-		DisplayName: Guard (Iron)
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LikeBiome: I like {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Guard Post (Iron) in inventory + Defeat EoW or BoC and have 10 Town NPCs
-		}
-	}
-
-	Lumberjack: {
-		DisplayName: Lumberjack
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			DislikeBiome: I dislike {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			DislikeNPC: I dislike {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Log Cabin in inventory + Defeat Eye of Cthulu
-		}
-	}
-
-	Trapper: {
-		DisplayName: Trapper
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			DislikeBiome: I dislike {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			DislikeNPC: I dislike {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Trapper's Camp in inventory + Defeat Deerclops
-		}
-	}
-
-	VillagerSnowFemale: {
-		DisplayName: Villager (Snow Female)
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Cottage (Two) in inventory + Have 1 Town NPC
-		}
-	}
-
-	VillagerSnowMale: {
-		DisplayName: Villager (Snow Male)
-
-		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LoveBiome: I love {BiomeName}.
-			LikeBiome: I like {BiomeName}.
-			LoveNPC: I love {NPCName}.
-			LikeNPC: I like {NPCName}.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
-		}
-
-		Census: {
-			SpawnCondition: Deed - Cottage (One) in inventory + Have 1 Town NPC
-		}
-	}
-}
-
-Configs: {
-	GlaciersConfig: {
-		GuardLead: {
-			Tooltip: 衛兵（鉛）の出現を有効/無効にします。
-			Label: 衛兵（鉛）
-		}
-
-		GuardWood: {
-			Tooltip: 衛兵（木）の出現を有効/無効にします。
-			Label: 衛兵（木）
-		}
-
-		VillagerFemale: {
-			Tooltip: 村人（女）の出現を有効/無効にします。
-			Label: 村人（女）
-		}
-
-		VillagerMale: {
-			Tooltip: 村人（男）の出現を有効/無効にします。
-			Label: 村人（男）
-		}
-
-		Forester: {
-			Tooltip: 森林官の出現を有効/無効にします。
-			Label: 森林官
-		}
-
-		Rancher: {
-			Tooltip: 牧場主の出現を有効/無効にします。
-			Label: 牧場主
-		}
-
-		Farmer: {
-			Tooltip: 農夫の出現を有効/無効にします。
-			Label: 農夫
-		}
-
-		Headers: {
-			HeaderSpawn: "[c/2eb6e6:タウンNPCの出現設定]"
-		}
-
-		DisplayName: Glacier's NPCs 設定
-
-		GuardBoreal: {
-			Label: Guard (Boreal)
-			Tooltip: Enable/Disable Guard (Boreal) Spawn
-		}
-
-		Trapper: {
-			Label: Trapper
-			Tooltip: Enable/Disable Trapper Spawn
-		}
-
-		FishermanIce: {
-			Label: Fisherman (Ice)
-			Tooltip: Enable/Disable Fisherman (Ice) Spawn
-		}
-
-		Lumberjack: {
-			Label: Lumberjack
-			Tooltip: Enable/Disable Lumberjack Spawn
-		}
-
-		VillagerSnowMale: {
-			Label: Villager (Snow Male)
-			Tooltip: Enable/Disable Villager (Snow Male) Spawn
-		}
-
-		VillagerSnowFemale: {
-			Label: Villager (Snow Female)
-			Tooltip: Enable/Disable Villager (Snow Female) Spawn
-		}
-
-		GuardIron: {
-			Label: Guard (Iron)
-			Tooltip: Enable/Disable Guard (Iron) Spawn
-		}
-	}
-}
-
-Items: {
-	TownhouseTwoDeed: {
-		Tooltip: 村人（女）が出現するようになる
-		DisplayName: 権利書 - タウンハウス（2）
-	}
-
-	TownhouseDeed: {
-		Tooltip: 村人（男）が出現するようになる
-		DisplayName: 権利書 - タウンハウス（1）
-	}
-
-	RealtorsDesk: {
-		Tooltip: 権利書を作成できる
-		DisplayName: 不動産屋の机
-	}
-
-	RanchDeed: {
-		Tooltip: 牧場主が出現するようになる
-		DisplayName: 権利書 - 牧場
-	}
-
-	GuardPostTwoDeed: {
-		Tooltip: 衛兵（木）が出現するようになる
-		DisplayName: 権利書 - 衛兵詰所（木）
-	}
-
-	GuardPostOneDeed: {
-		Tooltip: 衛兵（鉛）が出現するようになる
-		DisplayName: 権利書 - 衛兵詰所（鉛）
-	}
-
-	ForestersHutDeed: {
-		Tooltip: 森林官が出現するようになる
-		DisplayName: 権利書 - 森林官の小屋
-	}
-
-	ForesterAxe: {
-		DisplayName: 森林官の斧
-		Tooltip: ""
-	}
-
-	GuardHalberd: {
-		DisplayName: 衛兵のハルバード
-		Tooltip: ""
-	}
-
-	GuardSpear: {
-		DisplayName: 衛兵の槍
-		Tooltip: ""
-	}
-
-	Pitchfork: {
-		DisplayName: 熊手
-		Tooltip: ""
-	}
-
-	FarmhouseDeed: {
-		DisplayName: 権利書 - 農家
-		Tooltip: 農夫が出現するようになる
-	}
-
-	FriendshipAcorn: {
-		DisplayName: Friendship Acorn
-		Tooltip: Summons a Pet Squirrel
-	}
-
-	Carrot: {
-		DisplayName: Friendship Carrot
-		Tooltip: Summons a Pet Bunny
-	}
-
-	CottageOneDeed: {
-		DisplayName: Deed - Cottage (One)
-		Tooltip: Allows the Villager (Snow Male) to spawn
-	}
-
-	CottageTwoDeed: {
-		DisplayName: Deed - Cottage (Two)
-		Tooltip: Allows the Villager (Snow Female) to spawn
-	}
-
-	GuardPostBorealDeed: {
-		DisplayName: Deed - Guard Post (Boreal)
-		Tooltip: Allows the Guard (Boreal) to spawn
-	}
-
-	GuardPostIronDeed: {
-		DisplayName: Deed - Guard Post (Iron)
-		Tooltip: Allows the Guard (Iron) to spawn
-	}
-
-	IceFishingCabinDeed: {
-		DisplayName: Deed - Ice Fishing Cabin
-		Tooltip: Allows the Fisherman (Ice) to spawn
-	}
-
-	LogCabinDeed: {
-		DisplayName: Deed - Log Cabin
-		Tooltip: Allows the Lumberjack to spawn
-	}
-
-	TrappersCampDeed: {
-		DisplayName: Deed - Trappers Camp
-		Tooltip: Allows the Trapper to spawn
-	}
-
-	GuardHalberdIron: {
-		DisplayName: Guard Halberd Iron
-		Tooltip: ""
-	}
-
-	GuardSpearBoreal: {
-		DisplayName: Guard Spear Boreal
-		Tooltip: ""
-	}
-
-	LumberjackAxe: {
-		DisplayName: Lumberjack Axe
-		Tooltip: ""
-	}
-
-	MinnowBait: {
-		DisplayName: Minnow Bait
-		Tooltip: Summons a Pet Frost Minnow
-	}
-
-	BasicChainsaw: {
-		DisplayName: Basic Chainsaw
-		Tooltip: ""
-	}
-}
-
-Buffs: {
-	FriendshipAcornBuff: {
-		DisplayName: Friendship Acorn
-		Description: A Squirrel Pet
-	}
-
-	CarrotBuff: {
-		DisplayName: Friendship Carrot
-		Description: A Bunny Pet
-	}
-
-	MinnowBaitBuff: {
-		DisplayName: Minnow Bait
-		Description: A Frost Minnow Pet
-	}
-}
-
 Projectiles: {
-	FriendshipAcornProjectile: {
-		DisplayName: Friendship Squirrel Pet
-	}
-
-	CarrotProjectile: {
-		DisplayName: Friendship Bunny Pet
+	BasicChainsawProjectile: {
+		DisplayName: Basic Chainsaw
 	}
 
 	MinnowBaitProjectile: {
 		DisplayName: Frost Minnow Pet
 	}
 
-	BasicChainsawProjectile: {
+	CarrotProjectile: {
+		DisplayName: Friendship Bunny Pet
+	}
+
+	FriendshipAcornProjectile: {
+		DisplayName: Friendship Squirrel Pet
+	}
+}
+
+Buffs: {
+	MinnowBaitBuff: {
+		Description: A Frost Minnow Pet
+		DisplayName: Minnow Bait
+	}
+
+	CarrotBuff: {
+		Description: A Bunny Pet
+		DisplayName: Friendship Carrot
+	}
+
+	FriendshipAcornBuff: {
+		Description: A Squirrel Pet
+		DisplayName: Friendship Acorn
+	}
+}
+
+Items: {
+	BasicChainsaw: {
+		Tooltip: ""
 		DisplayName: Basic Chainsaw
+	}
+
+	MinnowBait: {
+		Tooltip: Summons a Pet Frost Minnow
+		DisplayName: Minnow Bait
+	}
+
+	LumberjackAxe: {
+		Tooltip: ""
+		DisplayName: Lumberjack Axe
+	}
+
+	GuardSpearBoreal: {
+		Tooltip: ""
+		DisplayName: Guard Spear Boreal
+	}
+
+	GuardHalberdIron: {
+		Tooltip: ""
+		DisplayName: Guard Halberd Iron
+	}
+
+	TrappersCampDeed: {
+		Tooltip: Allows the Trapper to spawn
+		DisplayName: Deed - Trappers Camp
+	}
+
+	LogCabinDeed: {
+		Tooltip: Allows the Lumberjack to spawn
+		DisplayName: Deed - Log Cabin
+	}
+
+	IceFishingCabinDeed: {
+		Tooltip: Allows the Fisherman (Ice) to spawn
+		DisplayName: Deed - Ice Fishing Cabin
+	}
+
+	GuardPostIronDeed: {
+		Tooltip: Allows the Guard (Iron) to spawn
+		DisplayName: Deed - Guard Post (Iron)
+	}
+
+	GuardPostBorealDeed: {
+		Tooltip: Allows the Guard (Boreal) to spawn
+		DisplayName: Deed - Guard Post (Boreal)
+	}
+
+	CottageTwoDeed: {
+		Tooltip: Allows the Villager (Snow Female) to spawn
+		DisplayName: Deed - Cottage (Two)
+	}
+
+	CottageOneDeed: {
+		Tooltip: Allows the Villager (Snow Male) to spawn
+		DisplayName: Deed - Cottage (One)
+	}
+
+	Carrot: {
+		Tooltip: Summons a Pet Bunny
+		DisplayName: Friendship Carrot
+	}
+
+	FriendshipAcorn: {
+		Tooltip: Summons a Pet Squirrel
+		DisplayName: Friendship Acorn
+	}
+
+	FarmhouseDeed: {
+		Tooltip: 農夫が出現するようになる
+		DisplayName: 権利書 - 農家
+	}
+
+	Pitchfork: {
+		Tooltip: ""
+		DisplayName: 熊手
+	}
+
+	GuardSpear: {
+		Tooltip: ""
+		DisplayName: 衛兵の槍
+	}
+
+	GuardHalberd: {
+		Tooltip: ""
+		DisplayName: 衛兵のハルバード
+	}
+
+	ForesterAxe: {
+		Tooltip: ""
+		DisplayName: 森林官の斧
+	}
+
+	ForestersHutDeed: {
+		DisplayName: 権利書 - 森林官の小屋
+		Tooltip: 森林官が出現するようになる
+	}
+
+	GuardPostOneDeed: {
+		DisplayName: 権利書 - 衛兵詰所（鉛）
+		Tooltip: 衛兵（鉛）が出現するようになる
+	}
+
+	GuardPostTwoDeed: {
+		DisplayName: 権利書 - 衛兵詰所（木）
+		Tooltip: 衛兵（木）が出現するようになる
+	}
+
+	RanchDeed: {
+		DisplayName: 権利書 - 牧場
+		Tooltip: 牧場主が出現するようになる
+	}
+
+	RealtorsDesk: {
+		DisplayName: 不動産屋の机
+		Tooltip: 権利書を作成できる
+	}
+
+	TownhouseDeed: {
+		DisplayName: 権利書 - タウンハウス（1）
+		Tooltip: 村人（男）が出現するようになる
+	}
+
+	TownhouseTwoDeed: {
+		DisplayName: 権利書 - タウンハウス（2）
+		Tooltip: 村人（女）が出現するようになる
+	}
+}
+
+Configs: {
+	GlaciersConfig: {
+		GuardIron: {
+			Tooltip: Enable/Disable Guard (Iron) Spawn
+			Label: Guard (Iron)
+		}
+
+		VillagerSnowFemale: {
+			Tooltip: Enable/Disable Villager (Snow Female) Spawn
+			Label: Villager (Snow Female)
+		}
+
+		VillagerSnowMale: {
+			Tooltip: Enable/Disable Villager (Snow Male) Spawn
+			Label: Villager (Snow Male)
+		}
+
+		Lumberjack: {
+			Tooltip: Enable/Disable Lumberjack Spawn
+			Label: Lumberjack
+		}
+
+		FishermanIce: {
+			Tooltip: Enable/Disable Fisherman (Ice) Spawn
+			Label: Fisherman (Ice)
+		}
+
+		Trapper: {
+			Tooltip: Enable/Disable Trapper Spawn
+			Label: Trapper
+		}
+
+		GuardBoreal: {
+			Tooltip: Enable/Disable Guard (Boreal) Spawn
+			Label: Guard (Boreal)
+		}
+
+		DisplayName: Glacier's NPCs 設定
+
+		Headers: {
+			HeaderSpawn: "[c/2eb6e6:タウンNPCの出現設定]"
+		}
+
+		Farmer: {
+			Label: 農夫
+			Tooltip: 農夫の出現を有効/無効にします。
+		}
+
+		Rancher: {
+			Label: 牧場主
+			Tooltip: 牧場主の出現を有効/無効にします。
+		}
+
+		Forester: {
+			Label: 森林官
+			Tooltip: 森林官の出現を有効/無効にします。
+		}
+
+		VillagerMale: {
+			Label: 村人（男）
+			Tooltip: 村人（男）の出現を有効/無効にします。
+		}
+
+		VillagerFemale: {
+			Label: 村人（女）
+			Tooltip: 村人（女）の出現を有効/無効にします。
+		}
+
+		GuardWood: {
+			Label: 衛兵（木）
+			Tooltip: 衛兵（木）の出現を有効/無効にします。
+		}
+
+		GuardLead: {
+			Label: 衛兵（鉛）
+			Tooltip: 衛兵（鉛）の出現を有効/無効にします。
+		}
+	}
+}
+
+NPCs: {
+	VillagerSnowMale: {
+		Census: {
+			SpawnCondition: Deed - Cottage (One) in inventory + Have 1 Town NPC
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Villager (Snow Male)
+	}
+
+	VillagerSnowFemale: {
+		Census: {
+			SpawnCondition: Deed - Cottage (Two) in inventory + Have 1 Town NPC
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Villager (Snow Female)
+	}
+
+	Trapper: {
+		Census: {
+			SpawnCondition: Deed - Trapper's Camp in inventory + Defeat Deerclops
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Trapper
+	}
+
+	Lumberjack: {
+		Census: {
+			SpawnCondition: Deed - Log Cabin in inventory + Defeat Eye of Cthulu
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Lumberjack
+	}
+
+	GuardIron: {
+		Census: {
+			SpawnCondition: Deed - Guard Post (Iron) in inventory + Defeat EoW or BoC and have 10 Town NPCs
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Guard (Iron)
+	}
+
+	FishermanIce: {
+		Census: {
+			SpawnCondition: Deed - Ice Fishing Cabin in inventory + Save Angler and have 5 Town NPCs
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Fisherman (Ice)
+	}
+
+	GuardBoreal: {
+		Census: {
+			SpawnCondition: Deed - Guard Post (Boreal) in inventory + Defeat Slime King and have 5 Town NPCs
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Guard (Boreal)
+	}
+
+	Farmer: {
+		Census: {
+			SpawnCondition: タウンNPCが3人いる
+		}
+
+		DisplayName: 農夫
+
+		TownNPCMood: {
+			LikeBiome: "{BiomeName}が好きです"
+			LoveNPC: "{NPCName}が大好きです"
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+	}
+
+	Forester: {
+		DisplayName: 森林官
+
+		TownNPCMood: {
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	GuardLead: {
+		DisplayName: 衛兵（鉛）
+
+		TownNPCMood: {
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: イーターオブワールドまたはクトゥルフの脳を倒し、タウンNPCが10人いる
+		}
+	}
+
+	GuardWood: {
+		DisplayName: 衛兵（木）
+
+		TownNPCMood: {
+			LoveNPC: "{NPCName}が大好きです"
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒し、タウンNPCが5人いる
+		}
+	}
+
+	Rancher: {
+		DisplayName: 牧場主
+
+		TownNPCMood: {
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが5人いる
+		}
+	}
+
+	VillagerFemale: {
+		DisplayName: 村人（女）
+
+		TownNPCMood: {
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが1人いる
+		}
+	}
+
+	VillagerMale: {
+		DisplayName: 村人（男）
+
+		TownNPCMood: {
+			Content: 満足しています
+			NoHome: 家がないのは大嫌いです
+			FarFromHome: 家から遠すぎます
+			LoveSpace: 広々としていて大好きです
+			DislikeCrowded: 混み合っていて好きではありません
+			HateCrowded: 混み合っていて大嫌いです
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが1人いる
+		}
 	}
 }
 

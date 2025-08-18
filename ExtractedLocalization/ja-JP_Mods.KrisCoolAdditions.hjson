@@ -1,257 +1,181 @@
-Items: {
-	FrostBolt: {
-		DisplayName: フロストボルト
-		Tooltip: 氷のボルトを放つ
+Buffs: {
+	StillnessOnCooldown: {
+		Description: Cannot cast Stillness
+		DisplayName: Spiritmaster's Staff Cooldown
 	}
 
-	SacredNightBreastplate: {
-		DisplayName: 聖騎士の胸当て
-		Tooltip: 近接と遠距離クリティカル率が{0}%上昇
+	Stillness: {
+		Description: All damage is nullified
+		DisplayName: Stillness
 	}
 
-	SacredNightHat: {
-		DisplayName: 聖騎士の帽子
-		Tooltip:
-			'''
-			近接と遠距離ダメージが{0}%増加
-			近接と遠距離クリティカル率が{1}%上昇
-			'''
+	GarbageMinionBuff: {
+		Description: ゴミ箱があなたのために戦う
+		DisplayName: 生きたゴミ箱
 	}
 
-	SacredNightLeggings: {
-		DisplayName: 聖騎士のブーツ
-		Tooltip:
-			'''
-			近接と遠距離ダメージが{0}%増加
-			近接攻撃速度が{1}%上昇
-			移動速度が{2}%上昇
-			'''
+	NebulaInferno: {
+		Description: 宇宙の恐怖が防御力を減少させ、ダメージを与える
+		DisplayName: ネビュラインフェルノ
 	}
 
-	HallowedCape: {
-		DisplayName: 神聖なケープ
-		Tooltip: 「回避は別売りです」
+	Intimidated: {
+		Description: 防御力が減少している
+		DisplayName: 威嚇
 	}
 
-	Oathkeeper: {
-		DisplayName: オースキーパー
-		Tooltip:
-			'''
-			負傷した敵により多くのダメージを与える
-			近くの敵を傷つけるスパークを放つ
-			'''
+	ElectrifiedEnemy: {
+		Description: 体力を失っている
+		DisplayName: 感電
 	}
 
-	Oblivion: {
-		DisplayName: オブリビオン
-		Tooltip:
+	Impassioned: {
+		Description:
 			'''
-			負傷していない敵により多くのダメージを与える
-			着弾時にダークスパークを放つ
-			'''
-	}
-
-	GraySuperscoper: {
-		DisplayName: グレイスーパースコーパー
-		Tooltip:
-			'''
-			<right>で連射と溜め撃ちを切り替える
-			「間違いなく壊れている」
-			'''
-	}
-
-	OrangeSuperscoper: {
-		DisplayName: オレンジスーパースコーパー
-		Tooltip:
-			'''
-			<right>で連射と溜め撃ちを切り替える
-			「間違いなく壊れている」
-			'''
-	}
-
-	Magatama: {
-		DisplayName: 勾玉
-		Tooltip:
-			'''
-			魔法クリティカル率が{0}％上昇
-			召喚できるミニオンの数が{1}体増える
-			最大マナが{2}増加
-			'''
-	}
-
-	TerraphibianBoots: {
-		DisplayName: テラフィビアンブーツ
-		Tooltip:
-			'''
-			飛行を可能にし、超高速走行、氷の上ですべらなくなる
-			移動速度が10%上昇
-			水と蜂蜜と溶岩の上を歩行可能
-			燃えるブロックのダメージを無効化
-			溶岩のダメージを7秒間無効化し、溶岩のダメージを減少
-			ジャンプ速度が上昇し、自動ジャンプが可能となる
-			落下耐性を増加
-			'''
-	}
-
-	Forseti: {
-		DisplayName: フォルセティ
-		Tooltip:
-			'''
-			伝説の風の魔導書
-			竜巻を発射し、カミソリ風に分裂させる
-			'''
-	}
-
-	FlowerOfSuperball: {
-		DisplayName: スーパーボールフラワー
-		Tooltip:
-			'''
-			跳ね返るスーパーボールを発射する
-			「これを使って「Ball Game」で勝つことができた」
-			'''
-	}
-
-	ProfanedDayHood: {
-		DisplayName: プロファンドデイフード
-		Tooltip:
-			'''
-			魔法と召喚ダメージが{0}％増加
-			魔法クリティカル率が{1}％上昇
-			召喚できるミニオンの数が{2}体増える
-			最大マナが{3}増加
-			'''
-	}
-
-	ProfanedDayPlateMail: {
-		DisplayName: プロファンドデイプレートメイル
-		Tooltip:
-			'''
-			魔法と召喚ダメージが{0}％増加
-			魔法クリティカル率が{1}％上昇
-			鞭の攻撃範囲が{2}％増加
-			召喚できるミニオンの数が{3}体増える
-			最大マナが{4}増加
-			'''
-	}
-
-	ProfanedDayTreads: {
-		DisplayName: プロファンドデイトレッド
-		Tooltip:
-			'''
-			魔法と召喚ダメージが{0}％増加
-			移動速度が{1}％上昇
-			召喚できるミニオンの数が{2}体増える
-			最大マナが{3}増加
-			'''
-	}
-
-	SolarChakram: {
-		DisplayName: ソーラーチャクラム
-		Tooltip: 「地獄の威力で引き裂き、切り刻め」
-	}
-
-	NebulaBolt: {
-		DisplayName: ネビュラウィズダム
-		Tooltip:
-			'''
-			破滅的な宇宙のボルトを召喚する
-			「宇宙の恐るべき知識よ！」
-			'''
-	}
-
-	TyrantsThunderblade: {
-		DisplayName: 司令官のサンダーブレード
-		Tooltip:
-			'''
-			ヒット時に敵の防御力を下げる
-			ヒット時にサンダースパークを召喚する
-			'''
-	}
-
-	PlaywrightsQuill: {
-		DisplayName: 劇作家の羽ペン
-		Tooltip:
-			'''
-			移動速度が{0}％上昇
-			敵を倒した時や同チームのプレイヤーが死亡した時にバフを付与する
+			"ダメージとクリティカル率が{0}％上昇、攻撃速度が{2}％上昇"
 			「素晴らしい！」
 			'''
+		DisplayName: 情熱
 	}
 
-	PlutocratsMask: {
-		DisplayName: プルトクラートのマスク
-		Tooltip:
-			'''
-			クリティカル率が{0}％上昇
-			あなたの富に基づいてダメージと防御力が増加する
-			'''
+	ProfanedDodgeBuff: {
+		Description: 次の攻撃を回避する
+		DisplayName: プロファンドドッジ
 	}
 
-	SawotovCocktail: {
+	SacredDodgeBuff: {
+		Description: 次の攻撃を回避する
+		DisplayName: セイクリッドドッジ
+	}
+}
+
+DamageClasses: {
+	ProfanedWhipDamageClass: {
+		DisplayName: 召喚&魔法ダメージ
+	}
+}
+
+Projectiles: {
+	SpiritmastersStaffProjectile: {
+		DisplayName: スピリットマスターの杖
+	}
+
+	GarbageShot: {
+		DisplayName: ガベージショット
+	}
+
+	GarbageMinion: {
+		DisplayName: 生きたゴミ箱
+	}
+
+	StardustSentryLaser: {
+		DisplayName: スーパーレーザーピス
+	}
+
+	StardustSentry: {
+		DisplayName: スターダストキャノン
+	}
+
+	NebulaBoltBook: {
+		DisplayName: ネビュラウィズダム
+	}
+
+	SawotovCocktailProjectile: {
 		DisplayName: サワトフカクテル
+	}
+
+	Sawotov3: {
+		DisplayName: スクラップネル
+	}
+
+	Sawotov2: {
+		DisplayName: スクラップネル
+	}
+
+	Sawotov1: {
+		DisplayName: スクラップネル
+	}
+
+	TyrantsThunder: {
+		DisplayName: 司令官の雷鳴
+	}
+
+	NebulaBoltProjectile: {
+		DisplayName: ネビュラウィズダム
+	}
+
+	SolarChakramProjectile: {
+		DisplayName: ソーラーチャクラム
+	}
+
+	Superball: {
+		DisplayName: スーパーボール
+	}
+
+	ForsetiChasingWind: {
+		DisplayName: フォルセティ
+	}
+
+	ForsetiWind: {
+		DisplayName: フォルセティ
+	}
+
+	SuperscoperCharge: {
+		DisplayName: スーパースコーパー
+	}
+
+	DarkSpark: {
+		DisplayName: ダークスパーク
+	}
+
+	FrostBoltProjectile: {
+		DisplayName: フロストボルト
+	}
+}
+
+Items: {
+	KnightDye: {
+		Tooltip: "'Great for aura farming!'"
+		DisplayName: Roaring Dye
+	}
+
+	CapeOfHatred: {
 		Tooltip:
 			'''
-			着弾時に金属屑を撒き散らす
-			「千本のカミソリによる死」
+			近接攻撃と魔法攻撃がシャドウフレイムを付与する
+			HPが{0}％を下回るとダメージが{2}％増加
+			HPが{1}％を下回ると全ての攻撃がクリティカルになる
+			Shift + <right>でオーラを切り替える
+			「悪魔よ！これまでの絆と称号を捨て去るのだ！」
 			'''
+		DisplayName: 憎悪のマント
 	}
 
-	StardustSentryStaff: {
-		DisplayName: スターダストキャノンの杖
+	SpiritmastersStaff: {
 		Tooltip:
 			'''
-			セントリーを召喚する
-			敵に強力なレーザーを発射するスターダストキャノンを召喚する
-			<right>でキャノンを自分に追従させる
-			一度に召喚できるキャノンは1つまで
-			「どうだいオバマ？」
+			<right>で近接攻撃を実行する
+			敵に命中した近接攻撃でマナが回復する
 			'''
+		DisplayName: スピリットマスタースタッフ
 	}
 
-	DitrainaHat: {
-		DisplayName: 救済の魔女の帽子
-		Tooltip: 「さあ、救済の魔女の驚くべき力をご覧あれ！」
+	FourBarreledBlunderbuss: {
+		Tooltip: 「デイヴィ・ジョーンズの海底神殿の名において...」
+		DisplayName: 四銃身ブランダーバス
 	}
 
-	DitrainaCatHat: {
-		DisplayName: 救済の魔女の猫帽子
-		Tooltip: 「ニャウ！救済の魔女の驚くべき力をご覧あれ！」
-	}
-
-	AmmoSwitcher: {
-		DisplayName: バンドリア
-		Tooltip: 5発ごとに弾薬スロットの使用順序を変更する
-		AmmoSlotTip: 現在の弾薬スロットの順序（上から下へ）：
-	}
-
-	FortniteBlueprint: {
-		DisplayName: バトルロワイヤルの設計図
+	Shotototogun: {
 		Tooltip:
 			'''
-			ブロック設置速度が{0}％上昇
-			採掘速度が{1}％上昇
-			道具ダメージが{2}％増加
-			召喚できるセントリーの数が{3}体増える"
+			<left>で全銃身を同時発射する
+			<right>で1銃身ずつ発射する
+			「バルカン工学の最高傑作」
 			'''
-	}
-
-	GarbageMinionStaff: {
-		DisplayName: ゴミ箱の杖
-		Tooltip: あなたのために戦う生きたゴミ箱を召喚する
-	}
-
-	FlamebringerRing: {
-		DisplayName: フレイムブリンガーの指輪
-		Tooltip:
-			'''
-			召喚ダメージが{0}％増加
-			自動的にあらゆるミニオンを召喚する
-			「聖なる炎があなたを導かんことを」
-			'''
+		DisplayName: ショトトトガン
 	}
 
 	PrismaticBoots: {
-		DisplayName: プリズマティックブーツ
 		Tooltip:
 			'''
 			飛行を可能にし、超高速走行、氷の上ですべらなくなる
@@ -265,182 +189,258 @@ Items: {
 			落下ダメージを無効化する
 			「究極の履物」
 			'''
+		DisplayName: プリズマティックブーツ
 	}
 
-	Shotototogun: {
-		DisplayName: ショトトトガン
+	FlamebringerRing: {
 		Tooltip:
 			'''
-			<left>で全銃身を同時発射する
-			<right>で1銃身ずつ発射する
-			「バルカン工学の最高傑作」
+			召喚ダメージが{0}％増加
+			自動的にあらゆるミニオンを召喚する
+			「聖なる炎があなたを導かんことを」
 			'''
+		DisplayName: フレイムブリンガーの指輪
 	}
 
-	FourBarreledBlunderbuss: {
-		DisplayName: 四銃身ブランダーバス
-		Tooltip: 「デイヴィ・ジョーンズの海底神殿の名において...」
+	GarbageMinionStaff: {
+		Tooltip: あなたのために戦う生きたゴミ箱を召喚する
+		DisplayName: ゴミ箱の杖
 	}
 
-	SpiritmastersStaff: {
-		DisplayName: スピリットマスタースタッフ
+	FortniteBlueprint: {
 		Tooltip:
 			'''
-			<right>で近接攻撃を実行する
-			敵に命中した近接攻撃でマナが回復する
+			ブロック設置速度が{0}％上昇
+			採掘速度が{1}％上昇
+			道具ダメージが{2}％増加
+			召喚できるセントリーの数が{3}体増える"
 			'''
+		DisplayName: バトルロワイヤルの設計図
 	}
 
-	CapeOfHatred: {
-		DisplayName: 憎悪のマント
+	AmmoSwitcher: {
+		AmmoSlotTip: 現在の弾薬スロットの順序（上から下へ）：
+		Tooltip: 5発ごとに弾薬スロットの使用順序を変更する
+		DisplayName: バンドリア
+	}
+
+	DitrainaCatHat: {
+		Tooltip: 「ニャウ！救済の魔女の驚くべき力をご覧あれ！」
+		DisplayName: 救済の魔女の猫帽子
+	}
+
+	DitrainaHat: {
+		Tooltip: 「さあ、救済の魔女の驚くべき力をご覧あれ！」
+		DisplayName: 救済の魔女の帽子
+	}
+
+	StardustSentryStaff: {
 		Tooltip:
 			'''
-			近接攻撃と魔法攻撃がシャドウフレイムを付与する
-			HPが{0}％を下回るとダメージが{2}％増加
-			HPが{1}％を下回ると全ての攻撃がクリティカルになる
-			Shift + <right>でオーラを切り替える
-			「悪魔よ！これまでの絆と称号を捨て去るのだ！」
+			セントリーを召喚する
+			敵に強力なレーザーを発射するスターダストキャノンを召喚する
+			<right>でキャノンを自分に追従させる
+			一度に召喚できるキャノンは1つまで
+			「どうだいオバマ？」
 			'''
+		DisplayName: スターダストキャノンの杖
 	}
 
-	KnightDye: {
-		DisplayName: Roaring Dye
-		Tooltip: "'Great for aura farming!'"
-	}
-}
-
-Projectiles: {
-	FrostBoltProjectile: {
-		DisplayName: フロストボルト
-	}
-
-	DarkSpark: {
-		DisplayName: ダークスパーク
-	}
-
-	SuperscoperCharge: {
-		DisplayName: スーパースコーパー
-	}
-
-	ForsetiWind: {
-		DisplayName: フォルセティ
-	}
-
-	ForsetiChasingWind: {
-		DisplayName: フォルセティ
-	}
-
-	Superball: {
-		DisplayName: スーパーボール
-	}
-
-	SolarChakramProjectile: {
-		DisplayName: ソーラーチャクラム
-	}
-
-	NebulaBoltProjectile: {
-		DisplayName: ネビュラウィズダム
-	}
-
-	TyrantsThunder: {
-		DisplayName: 司令官の雷鳴
-	}
-
-	Sawotov1: {
-		DisplayName: スクラップネル
-	}
-
-	Sawotov2: {
-		DisplayName: スクラップネル
-	}
-
-	Sawotov3: {
-		DisplayName: スクラップネル
-	}
-
-	SawotovCocktailProjectile: {
+	SawotovCocktail: {
+		Tooltip:
+			'''
+			着弾時に金属屑を撒き散らす
+			「千本のカミソリによる死」
+			'''
 		DisplayName: サワトフカクテル
 	}
 
-	NebulaBoltBook: {
+	PlutocratsMask: {
+		Tooltip:
+			'''
+			クリティカル率が{0}％上昇
+			あなたの富に基づいてダメージと防御力が増加する
+			'''
+		DisplayName: プルトクラートのマスク
+	}
+
+	PlaywrightsQuill: {
+		Tooltip:
+			'''
+			移動速度が{0}％上昇
+			敵を倒した時や同チームのプレイヤーが死亡した時にバフを付与する
+			「素晴らしい！」
+			'''
+		DisplayName: 劇作家の羽ペン
+	}
+
+	TyrantsThunderblade: {
+		Tooltip:
+			'''
+			ヒット時に敵の防御力を下げる
+			ヒット時にサンダースパークを召喚する
+			'''
+		DisplayName: 司令官のサンダーブレード
+	}
+
+	NebulaBolt: {
+		Tooltip:
+			'''
+			破滅的な宇宙のボルトを召喚する
+			「宇宙の恐るべき知識よ！」
+			'''
 		DisplayName: ネビュラウィズダム
 	}
 
-	StardustSentry: {
-		DisplayName: スターダストキャノン
+	SolarChakram: {
+		Tooltip: 「地獄の威力で引き裂き、切り刻め」
+		DisplayName: ソーラーチャクラム
 	}
 
-	StardustSentryLaser: {
-		DisplayName: スーパーレーザーピス
-	}
-
-	GarbageMinion: {
-		DisplayName: 生きたゴミ箱
-	}
-
-	GarbageShot: {
-		DisplayName: ガベージショット
-	}
-
-	SpiritmastersStaffProjectile: {
-		DisplayName: スピリットマスターの杖
-	}
-}
-
-DamageClasses: {
-	ProfanedWhipDamageClass: {
-		DisplayName: 召喚&魔法ダメージ
-	}
-}
-
-Buffs: {
-	SacredDodgeBuff: {
-		DisplayName: セイクリッドドッジ
-		Description: 次の攻撃を回避する
-	}
-
-	ProfanedDodgeBuff: {
-		DisplayName: プロファンドドッジ
-		Description: 次の攻撃を回避する
-	}
-
-	Impassioned: {
-		DisplayName: 情熱
-		Description:
+	ProfanedDayTreads: {
+		Tooltip:
 			'''
-			"ダメージとクリティカル率が{0}％上昇、攻撃速度が{2}％上昇"
-			「素晴らしい！」
+			魔法と召喚ダメージが{0}％増加
+			移動速度が{1}％上昇
+			召喚できるミニオンの数が{2}体増える
+			最大マナが{3}増加
 			'''
+		DisplayName: プロファンドデイトレッド
 	}
 
-	ElectrifiedEnemy: {
-		DisplayName: 感電
-		Description: 体力を失っている
+	ProfanedDayPlateMail: {
+		Tooltip:
+			'''
+			魔法と召喚ダメージが{0}％増加
+			魔法クリティカル率が{1}％上昇
+			鞭の攻撃範囲が{2}％増加
+			召喚できるミニオンの数が{3}体増える
+			最大マナが{4}増加
+			'''
+		DisplayName: プロファンドデイプレートメイル
 	}
 
-	Intimidated: {
-		DisplayName: 威嚇
-		Description: 防御力が減少している
+	ProfanedDayHood: {
+		Tooltip:
+			'''
+			魔法と召喚ダメージが{0}％増加
+			魔法クリティカル率が{1}％上昇
+			召喚できるミニオンの数が{2}体増える
+			最大マナが{3}増加
+			'''
+		DisplayName: プロファンドデイフード
 	}
 
-	NebulaInferno: {
-		DisplayName: ネビュラインフェルノ
-		Description: 宇宙の恐怖が防御力を減少させ、ダメージを与える
+	FlowerOfSuperball: {
+		Tooltip:
+			'''
+			跳ね返るスーパーボールを発射する
+			「これを使って「Ball Game」で勝つことができた」
+			'''
+		DisplayName: スーパーボールフラワー
 	}
 
-	GarbageMinionBuff: {
-		DisplayName: 生きたゴミ箱
-		Description: ゴミ箱があなたのために戦う
+	Forseti: {
+		Tooltip:
+			'''
+			伝説の風の魔導書
+			竜巻を発射し、カミソリ風に分裂させる
+			'''
+		DisplayName: フォルセティ
 	}
 
-	Stillness: {
-		DisplayName: Stillness
-		Description: All damage is nullified
+	TerraphibianBoots: {
+		Tooltip:
+			'''
+			飛行を可能にし、超高速走行、氷の上ですべらなくなる
+			移動速度が10%上昇
+			水と蜂蜜と溶岩の上を歩行可能
+			燃えるブロックのダメージを無効化
+			溶岩のダメージを7秒間無効化し、溶岩のダメージを減少
+			ジャンプ速度が上昇し、自動ジャンプが可能となる
+			落下耐性を増加
+			'''
+		DisplayName: テラフィビアンブーツ
 	}
 
-	StillnessOnCooldown: {
-		DisplayName: Spiritmaster's Staff Cooldown
-		Description: Cannot cast Stillness
+	Magatama: {
+		Tooltip:
+			'''
+			魔法クリティカル率が{0}％上昇
+			召喚できるミニオンの数が{1}体増える
+			最大マナが{2}増加
+			'''
+		DisplayName: 勾玉
+	}
+
+	OrangeSuperscoper: {
+		Tooltip:
+			'''
+			<right>で連射と溜め撃ちを切り替える
+			「間違いなく壊れている」
+			'''
+		DisplayName: オレンジスーパースコーパー
+	}
+
+	GraySuperscoper: {
+		Tooltip:
+			'''
+			<right>で連射と溜め撃ちを切り替える
+			「間違いなく壊れている」
+			'''
+		DisplayName: グレイスーパースコーパー
+	}
+
+	Oblivion: {
+		Tooltip:
+			'''
+			負傷していない敵により多くのダメージを与える
+			着弾時にダークスパークを放つ
+			'''
+		DisplayName: オブリビオン
+	}
+
+	Oathkeeper: {
+		Tooltip:
+			'''
+			負傷した敵により多くのダメージを与える
+			近くの敵を傷つけるスパークを放つ
+			'''
+		DisplayName: オースキーパー
+	}
+
+	HallowedCape: {
+		Tooltip: 「回避は別売りです」
+		DisplayName: 神聖なケープ
+	}
+
+	SacredNightLeggings: {
+		Tooltip:
+			'''
+			近接と遠距離ダメージが{0}%増加
+			近接攻撃速度が{1}%上昇
+			移動速度が{2}%上昇
+			'''
+		DisplayName: 聖騎士のブーツ
+	}
+
+	SacredNightHat: {
+		Tooltip:
+			'''
+			近接と遠距離ダメージが{0}%増加
+			近接と遠距離クリティカル率が{1}%上昇
+			'''
+		DisplayName: 聖騎士の帽子
+	}
+
+	SacredNightBreastplate: {
+		Tooltip: 近接と遠距離クリティカル率が{0}%上昇
+		DisplayName: 聖騎士の胸当て
+	}
+
+	FrostBolt: {
+		Tooltip: 氷のボルトを放つ
+		DisplayName: フロストボルト
 	}
 }
 

@@ -1,11 +1,11 @@
 Configs: {
 	BannerCollectorConfig: {
-		DisplayName: バナーコレクター設定
-
 		EnableBannerBuff: {
-			Label: コレクション内のバナーバフを有効にする
 			Tooltip: ""
+			Label: コレクション内のバナーバフを有効にする
 		}
+
+		DisplayName: バナーコレクター設定
 	}
 }
 

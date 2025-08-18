@@ -1,44 +1,120 @@
-Keybinds: {
-	OpenUI: {
-		DisplayName: QERブラウザの切り替え
+Conditions: {
+	Invalid: 無効なドロップ条件({0})
+	BannerDrop: "{0}キルごとに1回ドロップ"
+}
+
+Tooltips: {
+	RecipeAddedBy: "{0} によるレシピ追加"
+	DropChance: "{0} ドロップ確率"
+}
+
+OptionGroups: {
+	Mods: {
+		ModName: "{0}"
+		Name: Mods
 	}
 
-	HoverSources: {
-		DisplayName: ホバーしたアイテムのソースを表示する
+	NPCSorts: {
+		ByRarity: レアリティ順に並び変え
+		ByName: アルファベット順に並べ替え
+		ByID: ID順に並べ替え
+		ByBestiary: 図鑑順に並べ替え
+		Name: NPC並べ替え
 	}
 
-	HoverUses: {
-		DisplayName: ホバーされたアイテムの用途を表示する
+	NPCFilters: {
+		IsTownNPC: タウンNPC
+		IsBoss: ボス
+		Name: NPCカテゴリー
 	}
 
-	Back: {
-		DisplayName: 前のレシピページへ
+	ItemSorts: {
+		ByValue: 価格順に並べ替え
+		ByRarity: レアリティ順に並び変え
+		ByName: アルファベット順に並べ替え
+		ByID: ID順に並べ替え
+		ByCreative: クラフト可能順に並べ替え
+		Name: アイテム並べ替え
+	}
+
+	ItemFilters: {
+		Weapons: {
+			IsOtherWeapon: "{0} 武器"
+			IsThrowingWeapon: 投擲武器
+			IsClasslessWeapon: 無系統武器
+			IsSummonWeapon: 召喚武器
+			IsMagicWeapon: 魔法武器
+			IsRangedWeapon: 遠距離武器
+			IsMeleeWeapon: 近接武器
+			Name: 武器カテゴリー
+		}
+
+		Misc: {
+			IsResearched: リサーチ済み
+			IsHook: フック
+			IsMount: マウント
+			IsPet: ペット
+			IsWings: 翼
+			IsFood: 食べ物
+			IsPotion: ポーション
+			IsVanity: 衣装
+			IsArmor: 防具
+			IsTool: 道具
+			IsAccessory: アクセサリー
+			IsDye: 染料
+			IsFishing: 釣り
+			IsLootItem: 戦利品
+			IsBossSummon: ボス召喚
+			IsCraftingStation: 作業台
+			IsTile: タイル
+			Name: その他
+		}
+	}
+}
+
+Tabs: {
+	GlobalDrops: グローバルな戦利品
+	NPCDrops: NPCによるドロップ
+	ItemDrops: アイテム内からのドロップ
+	Shops: NPCショップ
+	Shimmer: シマー変換
+	Tiles: この作業台を必要とするレシピ
+	Recipes: レシピ
+	NPCList: NPC
+	ItemList: アイテム
+}
+
+Configs: {
+	QERConfig: {
+		DisplayName: QER 設定
+
+		ShowDropChancesInTooltips: {
+			Tooltip: アイテムのドロップ確率をアイテムの上に表示する代わりに、ツールチップ上に表示するようにします
+			Label: ツールチップにドロップ確率を表示
+		}
+
+		AutoFocusSearchBars: {
+			Tooltip:
+				'''
+				この設定がオンの場合、QERブラウザを開いたりタブを切り替える際に、
+				検索バーを自動的に選択します
+				'''
+			Label: 検索バーを自動選択
+		}
+
+		ShouldPreloadItems: {
+			Tooltip:
+				'''
+				この設定がオンの場合、ワールドがロードされたときにアイテムのテクスチャが事前にロードされます
+				これによって、アイテムリストをスクロールするときのラグが軽減されるはずです
+				セッションで最初にワールドをロードする時間が大幅に増加する可能性があります
+				'''
+			Label: アイテムテクスチャを事前ロード
+		}
 	}
 }
 
 UI: {
-	SearchBarDefault: 検索
-	FilterHover: フィルター
-	SortHover: 並べ替えオプション
-	RightClickToClear: 右クリックでクリア
-	ShiftRightClickToClearLocks: Shift + 右クリックでロックを解除しデフォルトに戻す
-	ResultCount: "{0}/{1} ({2} フィルターで除外)"
-	ItemSearchHelp:
-		'''
-		[c/32FF82:検索構文]
-		[c/3B95DA:#] に続くテキストは、アイテムのツールチップ内で検索されます
-
-		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
-		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
-		'''
-	NPCSearchHelp:
-		'''
-		[c/32FF82:検索構文]
-		[c/3B95DA:#] に続くテキストは、NPCの図鑑のフレーバーテキスト内で検索されます。
-
-		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
-		 		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
-		'''
 	FilterHelp:
 		'''
 		[c/32FF82:使用方法]
@@ -50,121 +126,45 @@ UI: {
 
 		このパネル内で [c/3B95DA:右クリック] すると、ロックされていないすべてのフィルターがリセットされます。このパネル内で [c/3B95DA:Shift + 右クリック] すると、ロックされたフィルターもリセットされます
 		'''
+	NPCSearchHelp:
+		'''
+		[c/32FF82:検索構文]
+		[c/3B95DA:#] に続くテキストは、NPCの図鑑のフレーバーテキスト内で検索されます。
+
+		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
+		 		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
+		'''
+	ItemSearchHelp:
+		'''
+		[c/32FF82:検索構文]
+		[c/3B95DA:#] に続くテキストは、アイテムのツールチップ内で検索されます
+
+		MOD単位で検索するには、検索に [c/3B95DA:@ModName] を含めましょう
+		ここで [c/3B95DA:ModName] は、MODの名前にスペースを除いたものです
+		'''
+	ResultCount: "{0}/{1} ({2} フィルターで除外)"
+	ShiftRightClickToClearLocks: Shift + 右クリックでロックを解除しデフォルトに戻す
+	RightClickToClear: 右クリックでクリア
+	SortHover: 並べ替えオプション
+	FilterHover: フィルター
+	SearchBarDefault: 検索
 }
 
-Configs: {
-	QERConfig: {
-		ShouldPreloadItems: {
-			Label: アイテムテクスチャを事前ロード
-			Tooltip:
-				'''
-				この設定がオンの場合、ワールドがロードされたときにアイテムのテクスチャが事前にロードされます
-				これによって、アイテムリストをスクロールするときのラグが軽減されるはずです
-				セッションで最初にワールドをロードする時間が大幅に増加する可能性があります
-				'''
-		}
-
-		AutoFocusSearchBars: {
-			Label: 検索バーを自動選択
-			Tooltip:
-				'''
-				この設定がオンの場合、QERブラウザを開いたりタブを切り替える際に、
-				検索バーを自動的に選択します
-				'''
-		}
-
-		ShowDropChancesInTooltips: {
-			Label: ツールチップにドロップ確率を表示
-			Tooltip: アイテムのドロップ確率をアイテムの上に表示する代わりに、ツールチップ上に表示するようにします
-		}
-
-		DisplayName: QER 設定
-	}
-}
-
-Tabs: {
-	ItemList: アイテム
-	NPCList: NPC
-	Recipes: レシピ
-	Tiles: この作業台を必要とするレシピ
-	Shimmer: シマー変換
-	Shops: NPCショップ
-	ItemDrops: アイテム内からのドロップ
-	NPCDrops: NPCによるドロップ
-	GlobalDrops: グローバルな戦利品
-}
-
-OptionGroups: {
-	ItemFilters: {
-		Misc: {
-			Name: その他
-			IsTile: タイル
-			IsCraftingStation: 作業台
-			IsBossSummon: ボス召喚
-			IsLootItem: 戦利品
-			IsFishing: 釣り
-			IsDye: 染料
-			IsAccessory: アクセサリー
-			IsTool: 道具
-			IsArmor: 防具
-			IsVanity: 衣装
-			IsPotion: ポーション
-			IsFood: 食べ物
-			IsWings: 翼
-			IsPet: ペット
-			IsMount: マウント
-			IsHook: フック
-			IsResearched: リサーチ済み
-		}
-
-		Weapons: {
-			Name: 武器カテゴリー
-			IsMeleeWeapon: 近接武器
-			IsRangedWeapon: 遠距離武器
-			IsMagicWeapon: 魔法武器
-			IsSummonWeapon: 召喚武器
-			IsClasslessWeapon: 無系統武器
-			IsThrowingWeapon: 投擲武器
-			IsOtherWeapon: "{0} 武器"
-		}
+Keybinds: {
+	Back: {
+		DisplayName: 前のレシピページへ
 	}
 
-	ItemSorts: {
-		Name: アイテム並べ替え
-		ByCreative: クラフト可能順に並べ替え
-		ByID: ID順に並べ替え
-		ByName: アルファベット順に並べ替え
-		ByRarity: レアリティ順に並び変え
-		ByValue: 価格順に並べ替え
+	HoverUses: {
+		DisplayName: ホバーされたアイテムの用途を表示する
 	}
 
-	NPCFilters: {
-		Name: NPCカテゴリー
-		IsBoss: ボス
-		IsTownNPC: タウンNPC
+	HoverSources: {
+		DisplayName: ホバーしたアイテムのソースを表示する
 	}
 
-	NPCSorts: {
-		Name: NPC並べ替え
-		ByBestiary: 図鑑順に並べ替え
-		ByID: ID順に並べ替え
-		ByName: アルファベット順に並べ替え
-		ByRarity: レアリティ順に並び変え
+	OpenUI: {
+		DisplayName: QERブラウザの切り替え
 	}
-
-	Mods: {
-		Name: Mods
-		ModName: "{0}"
-	}
-}
-
-Tooltips: {
-	DropChance: "{0} ドロップ確率"
-	RecipeAddedBy: "{0} によるレシピ追加"
-}
-
-Conditions: {
-	BannerDrop: "{0}キルごとに1回ドロップ"
-	Invalid: 無効なドロップ条件({0})
 }
 

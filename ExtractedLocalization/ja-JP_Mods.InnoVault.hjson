@@ -1,41 +1,41 @@
-Configs: {
-	VaultClientConfig: {
-		DisplayName: Client Config
-
-		HideWorldLoadingScreen: {
-			Label: Hide World Loading Screen
-			Tooltip:
-				'''
-				Hides the loading UI when entering a world
-				Disabled by default — enable to load the world silently in the background
-				'''
-		}
-
-		TileProcessorBoxSizeDraw: {
-			Label: Tile Processor Bounding Box Draw [c/06e33f:(Developer Option)]
-			Tooltip:
-				'''
-				[c/c20909:Not recommended for non-developers]
-				Used for debugging and observing the collision structure of TileProcessor.
-				When enabled, TileProcessor will draw its bounding boxes, type names, and other data in the world.
-				'''
-		}
-	}
-}
-
 Loadings: {
 	WorldLoadingText: {
-		Text1: Loading The World
-		Text2: Loading Save Data
-		Text3: Loading Tile Processor
-		Text4: Receive Network Data
-		Text5: Save World
 		NetWaringTimeoutMsg:
 			'''
 			[VaultNet] Network loading has timed out. Some network data may have been lost or delayed.
 			This may lead to incomplete world entities or inconsistent state.
 			Please Check your network connection and consider rejoining the server.
 			'''
+		Text5: Save World
+		Text4: Receive Network Data
+		Text3: Loading Tile Processor
+		Text2: Loading Save Data
+		Text1: Loading The World
+	}
+}
+
+Configs: {
+	VaultClientConfig: {
+		TileProcessorBoxSizeDraw: {
+			Tooltip:
+				'''
+				[c/c20909:Not recommended for non-developers]
+				Used for debugging and observing the collision structure of TileProcessor.
+				When enabled, TileProcessor will draw its bounding boxes, type names, and other data in the world.
+				'''
+			Label: Tile Processor Bounding Box Draw [c/06e33f:(Developer Option)]
+		}
+
+		HideWorldLoadingScreen: {
+			Tooltip:
+				'''
+				Hides the loading UI when entering a world
+				Disabled by default — enable to load the world silently in the background
+				'''
+			Label: Hide World Loading Screen
+		}
+
+		DisplayName: Client Config
 	}
 }
 

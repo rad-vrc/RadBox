@@ -1,3 +1,24 @@
+Configs: {
+	CoyoteConfig: {
+		CoyoteTimeFramesDefault: {
+			Tooltip: フェアプレーを意識する場合、9フレーム以上の適用は推奨しません。
+			Label: 適用コヨーテ・フレーム
+		}
+
+		DisplayName: Coyote frames 設定
+
+		Headers: {
+			Frames: フレームヘッダー
+			Messages: メッセージ
+		}
+
+		WelcomeMessageToggle: {
+			Label: メッセージ表示切り替え
+			Tooltip: この設定を有効にすると、ワールドに入ったときに、感謝のメッセージと支援を求めるメッセージが表示されます。
+		}
+	}
+}
+
 Welcome:
 	'''
 	Project Furi開発チームからのご挨拶です！
@@ -11,25 +32,4 @@ Welcome:
 
 	このメッセージを表示したくない場合は、MODの設定で無効にしてください。
 	'''
-
-Configs: {
-	CoyoteConfig: {
-		WelcomeMessageToggle: {
-			Tooltip: この設定を有効にすると、ワールドに入ったときに、感謝のメッセージと支援を求めるメッセージが表示されます。
-			Label: メッセージ表示切り替え
-		}
-
-		Headers: {
-			Messages: メッセージ
-			Frames: フレームヘッダー
-		}
-
-		DisplayName: Coyote frames 設定
-
-		CoyoteTimeFramesDefault: {
-			Label: 適用コヨーテ・フレーム
-			Tooltip: フェアプレーを意識する場合、9フレーム以上の適用は推奨しません。
-		}
-	}
-}
 

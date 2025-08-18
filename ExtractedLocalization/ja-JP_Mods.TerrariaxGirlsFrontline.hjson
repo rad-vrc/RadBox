@@ -1,0 +1,4085 @@
+BossChecklistIntegration: {
+	ButterflySkirmishTier2: {
+		SpawnInfo: Use [i:BoxofHavoc] post-Plantera
+		EntryName: Mods.TerrariaxGirlsFrontline.ModChecklistNames.BSkirmishTier2
+	}
+
+	ButterflySkirmishTier1: {
+		SpawnInfo: Use [i:BoxofHavoc] pre-Plantera
+		EntryName: Mods.TerrariaxGirlsFrontline.ModChecklistNames.BSkirmishTier1
+	}
+}
+
+Tiles: {
+	DormLighting003: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.GreatLibraryClassicalChandelier
+	}
+
+	WallMisc001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.StoreOldTerebi
+	}
+
+	DormTable002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.LodgeLoungeTable
+	}
+
+	DormTable001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.KitchenCookingCounter
+	}
+
+	DormSofa006: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.TopJetDisplayBench
+	}
+
+	DormSofa005: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.LodgeRedSofa
+	}
+
+	DormSofa004: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PromenadeOutdoorBench
+	}
+
+	DormSofa003: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.CoffeeShopRestaurantSofa
+	}
+
+	DormSofa002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.LoungeChangingRoomBench
+	}
+
+	DormSofa001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.StarryWhiteQueen
+	}
+
+	DormPoster001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.TheIslandThatWasNotThereBefore
+	}
+
+	DormMisc005: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.SubwayPlatformBarricade
+	}
+
+	DormMisc004: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PeacefulRefrigerator
+	}
+
+	DormMisc003: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PromenadeOutdoorShade
+	}
+
+	DormMisc002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.OniPublicNoticeBoard
+	}
+
+	DormMisc001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PromenadeTownMailbox
+	}
+
+	DormLighting002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.DarkVowsGuidingLamp
+	}
+
+	DormLighting001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.HangingWallLamp
+	}
+
+	DormCampfire001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PassionateFlamingHeart
+	}
+
+	DormChair012: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.WeddingChair
+	}
+
+	DormChair011: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.LoftEamesChair
+	}
+
+	DormChair010: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.CoffeeShopMetalChair
+	}
+
+	DormChair009: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.DarkVowsChair
+	}
+
+	DormChair008: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.StoreHighRiseStool
+	}
+
+	DormChair007: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.ColorfulClubChair
+	}
+
+	DormChair006: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.RotatingStool
+	}
+
+	DormChair005: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.ClassroomChair
+	}
+
+	DormChair004: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.DelinquencyChair
+	}
+
+	DormChair003: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.SangvisHomeMetalChair
+	}
+
+	DormChair002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.StudioRollerHighStool
+	}
+
+	DormChair001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.CardboardBoxChair
+	}
+
+	DormBed004: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.SangvisHomeRestingUnit
+	}
+
+	DormBed003: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.StarryToTheMoon
+	}
+
+	DormBed002: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.PeacefulComfortableBed
+	}
+
+	DormBed001: {
+		MapEntry: Mods.TerrariaxGirlsFrontline.ItemName.LoftLazingBed
+	}
+}
+
+Dialogue: {
+	PartyGirl: {
+		TxGFLCMSDialogue: You're telling me this is a gun from Sweden? Call me intrigued, but both of us are playing with a hot potato here!
+		TxGFLAT4Dialogue: Wow! Is that from Sweden too? You should probably fit some firework rockets into the thing instead of what the Cyborg said about it, it'll be a great conversation starter!
+	}
+
+	Guide: {
+		TxGFLBSkirmishDialogue: I've heard rumors of a far out army summoned with a hallowed container rather than a glowing crystal. You should find out if that's the case.
+		TxGFLCommunicatorDialogue: I'm detecting weak signals from beyond. Create a device using wires and Meteorite Bars to communicate effectively with it.
+	}
+
+	DD2Bartender: {
+		HelianthusDialogue: Madame Helian actually visits me once in a while to try out some brews when she's exhausted with work. I actually got her to swap some drink recipes one time.
+	}
+
+	Steampunker: {
+		HelianthusDialogue: Helian told me I looked much like a HK45 doll. I'm just yet to find out what that hubbub meant.
+	}
+
+	Mechanic: {
+		HelianthusDialogue: I like the fact Helian is trustworthy enough to help me with machinery. She's not a bad person to work with once you're acquainted with her.
+	}
+
+	Helianthus: {
+		AntiRainAvailableDialogue: I'm just about ready to have you use the Anti-Rain Core you might have kept around for special weapons. Persica managed to have prepared these just in time.
+		StandardDialogue6: I'm afraid traces of Yegor and Carter's armies are rearing their ugly heads again. Stay alert for more foes from the frontline.
+		StandardDialogue5: More foes may have leaked from my world that I've came from. Don't hesitate to show them what you're made of.
+		StandardDialogue4: I've seen things that may have looked like machines Paradeus would have designed. Be wary of them.
+		StandardDialogue3: I'm providing several Tactical Doll cores that will allow you to make their firearms. They somehow came with special properties.
+		StandardDialogue2: "{0}, I'm not sure if I should call you the Commander since you don't look the part."
+		StandardDialogue1: Sometime I wonder why I had to come here from Hong Kong...
+		BloodMoonDialogue: You're in my way. I'm pretty likely to shed some bullets on you if you keep on bothering me.
+		WindyDialogue2: My ancestors told me the days before the Beilan Island incident felt like this. I guess they were right.
+		WindyDialogue1: The sunflowers are so nice when they're in the wind. It's all in my name of course. My father named me after the flower due to my purity.
+		GraveyardDialogue2: Zombies at this time of year, at this time of day, in this part of {0}, localized entirely within a graveyard? What a relief it's not ELID mutants!
+		GraveyardDialogue1: Let me take a moment of silence to remember the fallen...
+		StormDialogue2: The thunder's clapping is like our own Thunder firing her handgun whenever she gets under pressure.
+		StormDialogue1: Seems like there's a natural enemy of T-Dolls around right now!
+		RainDialogue: Not a good day to have T-Dolls outside fighting in the rain. I know.
+		PartyDialogue: Hey, even a person from a post-apocalyptic world needs some fun in their lives. Didn't think I was all that, didn't you?
+		MechanicDialogue: "{0} must have been the first person to warn me several of our enemies were prepared to come to {1}."
+		ArmsDealerDialogue: "{0} seems to want to show me his arms. I tried to politely decline his request."
+		FirstArrivalDialogue: A communicator must have led me from Griffin's tutelage to this strange place. I happened to have this core here for you to keep. Somebody said this would of be of great use to you.
+	}
+}
+
+TownNPCMood: {
+	Helianthus: {
+		DislikeNPC: Even though we both dabble in similar things, {NPCName} just makes me uncomfortable.
+		LikeNPC_Princess: Ah - {NPCName} is so full of joy and innocence... if only M4A1 would have kept that outlook when Griffin got duped...
+		LikeNPC_Cyborg: "{NPCName} shows me that man and machine can work together as one. His hybridization might interest someone like Angelia."
+		LikeNPC: The ears on {NPCName}? They remind me a bit of Persica and a T-Doll who liked being praised by commanders. Pretty amusing.
+		HateBiome: The {BiomeName} is just like ELID, mutated and seemingly invincible.
+		DislikeBiome: I'm not pleased with you putting me in a place like the {BiomeName}. Clashes with my style.
+		LikeBiome: The {BiomeName}'s landscape is nice. Reminds me of home back in Eastern Europe.
+		HateCrowded: This would make our T-Doll housing facilities look tidy in comparison. I'm getting a headache just sitting around here.
+		DislikeCrowded: This is like working in a cubicle. Not the greatest area to do duties.
+		FarFromHome: I need to make my way back to my base first. Just be patient, OK?
+		LoveSpace: Perfect. This is enough room to keep in contact with my allied factions.
+		NoHome: Aren't you supposed to give me a hideout to watch the land over?
+		Content: Nothing currently bothering me now.
+	}
+}
+
+Bestiary: {
+	Brute: The proverbial "ninja" units of Sangvis Ferri's armed forces, they can slice through foes and possibly even deflect attacks with the littlest effort.
+	StreletP: Cyborgs from Paradeus forces in full body armor; these are actually "Plus" models that are stronger than usual. They didn't waste time sending inferior Strelet models, eh?
+	CyclopsS: Machine-like robots with the usual human firearm repertoire, armed to the teeth with shotguns sporting anti-personnel grenade launching attachments.
+	CyclopsA: Machine-like robots with the usual human firearm repertoire. They have assault rifles backed up with missile launching addons. Didn't we have things that do this too?
+	Manticore: Armored machines confiscated from World War III armies; now used by Sangvis Ferri. They're faster than you think — and their shots sting like hell.
+	Tarantula: Armored Dinergate-type models built with victim-electrocuting tasers. Will the new armor fix its older model's fragility? Maybe not.
+	AegisMilitary: Compared to the Aegis robots used by SF, these seem to be built to be harder, better, faster, and stronger than those inferior models.
+	Rodelero: These humanoid entities are not like the ones from SF and Griffin. They are property of Paradeus and are half organic material, half machine. Beware their beamlances.
+	BOSSDreamer: SF's capricious chessmistress with raven-colored hair. She is armed with a laser-emitting high-class heavyweight weapon befitting her belligerent nature in battle.
+	BOSSDestroyer: White-haired twintailed wielder of explosive ammunitions and an elite unit of Sangvis Ferri. Her stature is short... and her cannons are very, very large.
+	BOSSIntruder: A skilled analyst from Sangvis Ferri. She can pick off foes quickly with a few bullets or feed them lead by many. Allegedly disrupted a Boundary of another world.
+	BOSSHunter: An agile warrior headed under the higher tiers of the Sangvis Ferri hierarchy. Her dual handguns turns her usual tactics of cornering her targets highly efficient.
+	BOSSScarecrowBit: Attack drones firing lethal lime-colored bullets; these objects can only accept complex instructions from their master.
+	BOSSScarecrow: An elite administrator from Sangvis Ferri, skilled at intel collection and analysis. She commands her drones, called Bits, to orchestrate various attack patterns.
+	Prowler: Formerly used for mundane surveillance tasks, these wheeled mechs employ rudimentary firing cannons. Can't seem to aim upwards at airborne targets.
+	Aegis: Bulky humanoid-skeleton robots once created by World War III armies, they have been repurposed by Sangvis Ferri for their assault operations.
+	Guard: Sangvis Ferri combat dolls that have equipped a riot shield to protect themselves from various attacks. Somewhat shortsighted with their handguns.
+	Dragoon: Riding a miniature armored walker as a mount, they can use the assault weapons attached to them to relentlessly mow down unlucky victims.
+	Striker: Humanoid androids manufactured by Sangvis Ferri. Tomboyish and ruthless, their fast-firing miniguns means you should take them down from afar.
+	Jaeger: Sangvis Ferri combat doll armed with accurate and deadly sniper rifles. If you avoid all of their shots, it's suprisingly easy to take them down.
+	Vespid: Humanoid androids manufactured by SF with highly tight helmets made for softening bullet headshots. Inside that helmet are glorious violet locks.
+	Ripper: Humanoid androids manufactured in high quantity by SF. They're quite unprecedented in the warfare department for dual-wielding SMG guns.
+	Scout: Levitating mechs with high mobility built for reconnaissance. Allegedly high in evasion. Hey, at least it doesn't get evasion here. ...Right?
+	Nemeum: These robots serve as SF's lower-ranked units of its armored corps. Its ranged talents serve a parallel to the Aegis's melee combat techniques.
+	Golyat: Kamikaze robots filled with lethal explosives encased in a metal shell. Its explosions do horrific amounts of damage, so destroy it fast!
+	Dinergate: Small mech designed by Sangvis Ferri; often produced at a low cost, and thus are fragile. Its weapons are unusually high-damaging.
+	Centaurus: KCCO's regular combat units armed with special arrows with exploding arrowheads. Handle these elite, well-trained units with care.
+	Helianthus: High-ranked officer of Griffin & Kryuger, a private military contractor. She might be in a similar situation to how the Tavernkeep came here.
+}
+
+Items: {
+	GreatLibraryClassicalChandelier: {
+		Tooltip: ""
+		DisplayName: Great Library Classical Chandelier
+	}
+
+	StarryWhiteQueen: {
+		Tooltip: ""
+		DisplayName: Starry White Queen
+	}
+
+	CoffeeShopMetalChair: {
+		Tooltip: ""
+		DisplayName: Coffee Shop Metal Chair
+	}
+
+	TopJetDisplayBench: {
+		Tooltip: ""
+		DisplayName: Top Jet Display Bench
+	}
+
+	LodgeRedSofa: {
+		Tooltip: ""
+		DisplayName: Lodge Red Leisure Sofa
+	}
+
+	LoftEamesChair: {
+		Tooltip: ""
+		DisplayName: Loft Eames Chair
+	}
+
+	PromenadeOutdoorBench: {
+		Tooltip: ""
+		DisplayName: Promenade Outdoor Bench
+	}
+
+	DarkVowsChair: {
+		Tooltip: ""
+		DisplayName: Dark Vows Chair
+	}
+
+	StudioRollerHighStool: {
+		Tooltip: ""
+		DisplayName: Studio High Roller Stool
+	}
+
+	StoreHighRiseStool: {
+		Tooltip: ""
+		DisplayName: Store High Rise Stool
+	}
+
+	SangvisHomeMetalChair: {
+		Tooltip: ""
+		DisplayName: Sangvis Home Metal Chair
+	}
+
+	RotatingStool: {
+		Tooltip: ""
+		DisplayName: Rotating Stool
+	}
+
+	DelinquencyChair: {
+		Tooltip: ""
+		DisplayName: Delinquency Chair
+	}
+
+	ColorfulClubChair: {
+		Tooltip: ""
+		DisplayName: Colorful Club Chair
+	}
+
+	ClassroomChair: {
+		Tooltip: ""
+		DisplayName: Classroom Chair
+	}
+
+	CardboardBoxChair: {
+		Tooltip: ""
+		DisplayName: Cardboard Box Chair
+	}
+
+	PeacefulComfortableBed: {
+		Tooltip: ""
+		DisplayName: Peaceful Comfortable Bed
+	}
+
+	LoftLazingBed: {
+		Tooltip: ""
+		DisplayName: Loft Lazing Bed
+	}
+
+	ExtractedDefenseEssence: {
+		Tooltip: ""
+		DisplayName: Extracted Defense Essence
+	}
+
+	Type100SupplyBox: {
+		DisplayName: 100 Shiki's Oriental Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	SRSSupplyBox: {
+		DisplayName: SRS's School Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	RFBSupplyBox: {
+		DisplayName: RFB's Leisure Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	OperaPhantomSupplyBox: {
+		DisplayName: Passadou's Holiday Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	GenericFlakesSupplyBox: {
+		DisplayName: Daylight Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	FiveSeveNSupplyBox: {
+		DisplayName: Five-seveN's Travel Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	EnfieldSupplyBox: {
+		DisplayName: Enfield's Ornate Supply Pod
+		Tooltip: <right>で開く
+	}
+
+	ZasM21: {
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			The last shot is a small rocket affected by gravity
+			'How much stronger have I become, wanna try?'
+			'''
+		DisplayName: Zas M21
+	}
+
+	C96: {
+		Tooltip: Boosts critical damage by 5% at night
+		DisplayName: C96
+	}
+
+	APC9K: {
+		Tooltip:
+			'''
+			Shoots a powerful, high-velocity bullet
+			Nearby players on your team gain slight contributions to their defense from this gun
+			'''
+		DisplayName: APC9K
+	}
+
+	VSK94: {
+		Tooltip:
+			'''
+			Small chance to fire an extra bullet
+			Right click to zoom out
+			'The point is, Shikikan, I'm here - here for you'
+			'''
+		DisplayName: VSK-94
+	}
+
+	Type79: {
+		DisplayName: Type 79
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Critical hits with this weapon slows down enemies
+			Enemies stay slowed down for a short time
+			Right click to slightly zoom out
+			'An arm that can never shrink'
+			'''
+	}
+
+	KCCOPinkPhasesaber: {
+		DisplayName: Pink Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of pink electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOCyanPhasesaber: {
+		DisplayName: Cyan Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of cyan electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	UMP45MOD3: {
+		DisplayName: UMP45 Mod III
+		Tooltip:
+			'''
+			45% chance to save ammo
+			Critical hits with this weapon confuses enemies
+			Right click to zoom out a bit
+			'Let's get a complete makeover, shall we?'
+			'''
+	}
+
+	AUG: {
+		DisplayName: AUG
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			Gradually increase damage in exchange for accuracy
+			'The morning sun has vanquished the horrible night'
+			'''
+	}
+
+	MDR: {
+		DisplayName: MDR
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Does not understand the concept of constant bullet velocity
+			'Memes, the DNA of the soul'
+			'''
+	}
+
+	Eula: {
+		DisplayName: SCR
+		Tooltip:
+			'''
+			Four shot burst
+			Only the last shot consumes ammo
+			Various effects depending on (north-based) season
+			Slows foes during the spring and summer
+			Gives foes frostbite during the autumn and winter
+			'Vengeance will be mine!'
+			'''
+	}
+
+	DP12MOD3: {
+		DisplayName: DP-12 Mod III
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Fired bullets leech defense from enemies, inflicting Broken Armor and dropping armor essences
+			Essences boosts damage reduction by 10%
+			Increases damage by 10% when equipped with the Shield of Helena
+			'I do like my mom and her seven-hit multi-target attacks'
+			'''
+	}
+
+	SCARAmaris: {
+		DisplayName: SCAR-H
+		Tooltip:
+			'''
+			Critical strikes frostbites enemies during the night
+			Critical strikes slows enemies during the day
+			During an eclipse, critical strikes inflicts both Frostbite and Slow
+			Right click to zoom out
+			'Let's get through this forest together'
+			'''
+	}
+
+	Mk153: {
+		DisplayName: Mk153
+		Tooltip:
+			'''
+			Fires a two round burst of rockets
+			Only the first shot consumes ammo
+			Rockets have higher velocity than usual
+			'Completely SMAWsome'
+			'''
+	}
+
+	Maggie: {
+		DisplayName: Colt Walker
+		Tooltip:
+			'''
+			Replaces musket balls with explosive bullets
+			Autofiring decreases fire rate
+			Reduces taken damage by 3% if user is standing or walking
+			Damage increases by 3% if user is standing or walking
+			'Hey, what's the matter?! I'm walkin' here!'
+			'''
+	}
+
+	SOPMODIIMOD3: {
+		DisplayName: M4 SOPMOD II Mod III
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			The last shot is a small cluster rocket affected by gravity
+			'Rip and tear, until it is done'
+			'''
+	}
+
+	Edith: {
+		DisplayName: LS26
+		Tooltip:
+			'''
+			26% chance to save ammo
+			'Your edithing crew'
+			'''
+	}
+
+	Brigitte: {
+		DisplayName: PPQ
+		Tooltip:
+			'''
+			Every third shot becomes a Mercury Bullet
+			Targets hit by mercury bullets lose life gradually and deal less contact damage
+			'Brigitte to Terabithia'
+			'''
+	}
+
+	Dagmar: {
+		DisplayName: TF-Q
+		Tooltip:
+			'''
+			Musket balls turn into enemy-chasing magical purple spinel bullets
+			Right click to zoom out
+			'Dagmarked for death'
+			'''
+	}
+
+	Leni: {
+		DisplayName: MG338
+		Tooltip:
+			'''
+			Doubles in critical damage if user is under 50% life
+			25% chance to save ammo
+			'Leni you a hand, sometimes literally'
+			'''
+	}
+
+	Mia: {
+		DisplayName: APC556
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Nearby players on your team gain slight contributions to their damage from this gun
+			'Formerly missing in action'
+			'''
+	}
+
+	Mona: {
+		DisplayName: SP9
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			'Not an astrologist'
+			'''
+	}
+
+	RFB: {
+		DisplayName: RFB
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			Critical strike chance increased when jumping or flying
+			'Life is a god-tier game!'
+			'''
+	}
+
+	SRS: {
+		DisplayName: SRS
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			Damage gradually increases the more you fire
+			Resets damage increase if you get hit
+			'Seatbelts, everyone!'
+			'''
+	}
+
+	Supernova: {
+		DisplayName: Nova
+		Tooltip:
+			'''
+			Fires a spread of bullets and a single fallen star
+			Damage increased when user is sprinting
+			'She has a pretty face, but her head's up in space'
+			'''
+	}
+
+	SuperSASS: {
+		DisplayName: Super SASS
+		Tooltip:
+			'''
+			Musket balls turn into super tiny demon eyes of eldritch proportions
+			Demon eye bullets chase and ram straight into targets
+			Right click to zoom out
+			'That is not dead which can eternal lie, and with strange aeons even death may die'
+			'''
+	}
+
+	Kolibri: {
+		DisplayName: Kolibri
+		Tooltip:
+			'''
+			Deals double damage to targets smaller than you
+			'I feel like I'm gonna break this damn thing!'
+			'''
+	}
+
+	WelrodMkII: {
+		DisplayName: Welrod MkII
+		Tooltip:
+			'''
+			Damage increases by 20% and adds a 80% chance to save ammo when not moving
+			'To strive, to seek, to find - and not to yield'
+			'''
+	}
+
+	WA2000: {
+		DisplayName: WA2000
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			'Like putting salt into sweet vanilla'
+			'''
+	}
+
+	Vector: {
+		DisplayName: Vector
+		Tooltip:
+			'''
+			All bullets fired by this gun will set enemies ablaze
+			Chance to save ammo is based on velocity
+			'Burn! Burn to the ground!'
+			'''
+	}
+
+	UMP9: {
+		DisplayName: UMP9
+		Tooltip:
+			'''
+			Every ninth shot will not consume ammo
+			Critical hits with this weapon slows down enemies
+			Enemies stay slowed down for a short time
+			'Don't Reina on my parade'
+			'''
+	}
+
+	UMP45: {
+		DisplayName: UMP45
+		Tooltip:
+			'''
+			45% chance to save ammo
+			Critical hits with this weapon confuses enemies
+			'Let's get along from now on'
+			'''
+	}
+
+	UMP40: {
+		DisplayName: UMP40
+		Tooltip:
+			'''
+			40% chance to save ammo
+			Fires starsoul bullets, chasing nearby enemies
+			'In deep memoriam'
+			'''
+	}
+
+	UKM2000: {
+		DisplayName: UKM-2000
+		Tooltip:
+			'''
+			Right click to zoom out
+			Small chance to replace bullets with piercing lasers
+			'The truth is out of the bag'
+			'''
+	}
+
+	Type97: {
+		DisplayName: Type 97
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			'Swift death unto evil!'
+			'''
+	}
+
+	Type561: {
+		DisplayName: Type 56-1
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			The last shot is a small rocket affected by gravity
+			'Bamboozle the substitutes'
+			'''
+	}
+
+	Tokarev: {
+		DisplayName: Tokarev
+		Tooltip:
+			'''
+			Every third shot calls down a icy crystallized star from the skies
+			'Only shooting stars break the wall'
+			'''
+	}
+
+	TMP: {
+		DisplayName: TMP
+		Tooltip:
+			'''
+			Musket balls turn into kitty shots
+			'Angel in the streets, demon in the sheets'
+			'''
+	}
+
+	Thunder: {
+		DisplayName: Thunder
+		Tooltip:
+			'''
+			Shoots Thunderbird bullets
+			Bullets track enemies while in flight
+			Electrocutes foes
+			'Scarred in the stone'
+			'''
+	}
+
+	TAC50: {
+		DisplayName: TAC-50
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			50% chance to save ammo when zooming out
+			'A lifetime journey for the traveler'
+			'''
+	}
+
+	SVD: {
+		DisplayName: SVD
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			'I always find my prey!'
+			'''
+	}
+
+	SuperShorty: {
+		DisplayName: Super-Shorty
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Bullets inflicts defense-based debuffs onto enemies if user is under same debuff
+			'Bang!'
+			'''
+	}
+
+	Suomi: {
+		DisplayName: Suomi
+		Tooltip:
+			'''
+			80% chance to save ammo if in the tundra
+			Bullets gives foes frostbite if in anywhere else
+			'Has the rippling of the waves and the waver of the pine trees'
+			'''
+	}
+
+	StG940: {
+		DisplayName: StG-940
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			The last shot is always a Crystal Bullet
+			'She might say the W-word'
+			'''
+	}
+
+	StenMkII: {
+		DisplayName: Sten MkII
+		Tooltip: May replace bullets with explosive bullets
+	}
+
+	Stechkin: {
+		DisplayName: Stechkin
+		Tooltip: Every fourth bullet will not consume ammo
+	}
+
+	Springfield: {
+		DisplayName: Springfield
+		Tooltip:
+			'''
+			Musket balls will turn into tea spurts
+			'It's a battle in which the smallest mistake can affect the outcome'
+			'''
+	}
+
+	SPAS12: {
+		DisplayName: SPAS-12
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Increases damage when user is well-fed
+			'Run, coward! I hunger!'
+			'''
+	}
+
+	SOPMODII: {
+		DisplayName: M4 SOPMOD II
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			The last shot is a small rocket affected by gravity
+			'Rip and tear your guts'
+			'''
+	}
+
+	SKS: {
+		DisplayName: SKS
+		Tooltip:
+			'''
+			Has a small chance to fire an extra bullet
+			'Secretary Power!'
+			'''
+	}
+
+	Shiki100: {
+		DisplayName: 100 Shiki
+		Tooltip:
+			'''
+			Turns bullets into Cherrybomb Bullets
+			Cherrybomb bullets inflict Sakurascorch
+			'Coming in like the traces of a dream'
+			'''
+	}
+
+	SAT8: {
+		DisplayName: S.A.T.8
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			25% chance to reduce damage taken from enemy hits by 30
+			'If I flip the pizzas, Mr. Aziz will flip out!'
+			'''
+	}
+
+	SAR21: {
+		DisplayName: SAR-21
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			'I'm in another game? Where got?'
+			'''
+	}
+
+	SangvisteelRepeater: {
+		DisplayName: Sangvisteel Repeater
+		Tooltip: Critical hits add a flat 13 damage to total
+	}
+
+	Saiga12: {
+		DisplayName: Saiga-12
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Critical strikes deal more damage than usual
+			'Is it a dream come true? Is it a nightmare too?'
+			'''
+	}
+
+	SAA: {
+		DisplayName: SAA
+		Tooltip:
+			'''
+			Autofiring incurs an accuracy loss
+			'Cola should always be within an arm's reach of desire'
+			'''
+	}
+
+	RO635: {
+		DisplayName: RO635
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Being killed respawns you with a damage reduction buff
+			'Your peaceful life is no more!'
+			'''
+	}
+
+	Ribeyrolles: {
+		DisplayName: Ribeyrolles
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Every third bullet will not fire when user is above 50% life
+			'''
+	}
+
+	R93: {
+		DisplayName: R93
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Bullets have increased attack damage randomness
+			Right click to zoom out
+			'Luck. Lots of luck'
+			'''
+	}
+
+	QJY88: {
+		DisplayName: QJY-88
+		Tooltip:
+			'''
+			88% chance to save ammo after getting hurt for a while
+			'Neither man or mouse'
+			'''
+	}
+
+	Python: {
+		DisplayName: Python
+		Tooltip:
+			'''
+			Autofiring halves velocity
+			'On the hunt for 84 days'
+			'''
+	}
+
+	PPsh41: {
+		DisplayName: PPsh-41
+		Tooltip:
+			'''
+			50% chance to save ammo when user is on a mount
+			'Welcome to the horrific world of the gods of pleasure'
+			'''
+	}
+
+	PKP: {
+		DisplayName: PKP
+		Tooltip: 10% chance to fire an extra bullet
+	}
+
+	PK: {
+		DisplayName: PK
+		Tooltip:
+			'''
+			Every fourth shot will not consume ammo
+			Shoots a powerful, high velocity bullet
+			'''
+	}
+
+	PA15: {
+		DisplayName: PA-15
+		Tooltip:
+			'''
+			Bullets inflict Slow
+			'Say hello to our little friend'
+			'''
+	}
+
+	P90: {
+		DisplayName: P90
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Having an acorn increases firing speed by 12%
+			'Is this a bullet hose?'
+			'''
+	}
+
+	P7: {
+		DisplayName: P7
+		Tooltip:
+			'''
+			20% chance to replace bullets with shadow sickle projectiles
+			'I will snuff out these ashes for good'
+			'''
+	}
+
+	P38: {
+		DisplayName: P38
+		Tooltip:
+			'''
+			Deals 10% more damage during night
+			'Let's go forward with our best'
+			'''
+	}
+
+	NTW20: {
+		DisplayName: NTW-20
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			'Let's show them what we're made of'
+			'''
+	}
+
+	NS2000: {
+		DisplayName: NS2000
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Volley includes a carrot dart that drains nutrients from hit enemies
+			'Ain't I a stinker?'
+			'''
+	}
+
+	NimogenShotgun: {
+		DisplayName: Pleiades Quad-Shot
+		Tooltip:
+			'''
+			Fires two-volley spreads of bullets in a four round burst mode
+			Only the first shot volley consumes ammo
+			'Give me the chance to fix this connection'
+			'''
+	}
+
+	Negev: {
+		DisplayName: Negev
+		Tooltip:
+			'''
+			50% chance to save ammo
+			Getting hurt while using this weapon enrages you, boosting combat prowess
+			'Anger is power - unleash it!'
+			'''
+	}
+
+	MP7: {
+		DisplayName: MP7
+		Tooltip:
+			'''
+			Every seventh bullet will not consume ammo
+			Small chance for a bullet to dispense Candy Apples on impact
+			Spawned candy apples grant evasion powers
+			'A punch of sucker'
+			'''
+	}
+
+	MP5: {
+		DisplayName: MP5
+		Tooltip:
+			'''
+			Critical hits with this weapon summon a barrier to defend you
+			Barrier increases defense by 10 and damage resistance by 5%
+			'''
+	}
+
+	MP446: {
+		DisplayName: MP-446
+		Tooltip:
+			'''
+			Will not consume ammo if used with Viking Helmet
+			'Just call me Viking!'
+			'''
+	}
+
+	MP40: {
+		DisplayName: MP40
+		Tooltip: "'Say hello to my MP40!'"
+	}
+
+	MosinNagant: {
+		DisplayName: Mosin-Nagant
+		Tooltip:
+			'''
+			Increased fire rate when user is on a mount
+			'Comrade, хорошо!'
+			'''
+	}
+
+	Mk23: {
+		DisplayName: Mk23
+		Tooltip:
+			'''
+			23% chance to save ammo
+			Resorts to kitty shots when user is at low health
+			'A splendid darling'
+			'''
+	}
+
+	MG4: {
+		DisplayName: MG4
+		Tooltip:
+			'''
+			Every fourth bullet will not consume ammo
+			Additional 33% chance to save ammo a while after a critical hit
+			'A care-free angel right by your side'
+			'''
+	}
+
+	MG5: {
+		DisplayName: MG5
+		Tooltip: Every fifth bullet will not consume ammo
+	}
+
+	MAC10: {
+		DisplayName: Ingram
+		Tooltip:
+			'''
+			10% chance to save ammo
+			Every tenth shot will not consume ammo
+			Deals extra damage to enemies under movement-based debuffs
+			'''
+	}
+
+	M950A: {
+		DisplayName: M950A
+		Tooltip: "'Let's meet again countless times'"
+	}
+
+	M870: {
+		DisplayName: M870
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Musket balls become hellish slugs that burn in a blaze upon impact
+			'This power... this overwhelming power that ruins everything!'
+			'''
+	}
+
+	M82A1: {
+		DisplayName: M82A1
+		Tooltip:
+			'''
+			Shoots a powerful, divine, high velocity Sacrament Shot
+			Sacrament Shots summon falling stars on impact
+			Right click to zoom out
+			'Blow them up like juicy watermelons'
+			'''
+	}
+
+	M60: {
+		DisplayName: M60
+		Tooltip:
+			'''
+			60% chance to save ammo
+			'I will fight to keep their memory alive forever'
+			'''
+	}
+
+	M4A1MOD3Skill2: {
+		DisplayName: Avenger's Seal
+		Tooltip:
+			'''
+			44% chance to save ammo
+			Rockets have slightly higher velocity than usual
+			'They'll have to repair you back together in hell'
+			'''
+	}
+
+	M4A1MOD3: {
+		DisplayName: M4A1 Mod III
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			Killing enemies boosts combat prowess for a short time
+			'There is no more mercy left in my heart'
+			'''
+	}
+
+	M4A1: {
+		DisplayName: M4A1
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			'Before the lament of innocence'
+			'''
+	}
+
+	M37: {
+		DisplayName: M37
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			'Huge tracts of land'
+			'''
+	}
+
+	M2HB: {
+		DisplayName: M2HB
+		Tooltip:
+			'''
+			Every other bullet will not consume ammo
+			Tripod not required
+			'Are you ready to rain a hail of lead onto the enemy? I know I am'
+			'''
+	}
+
+	M1Garand: {
+		DisplayName: M1 Garand
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Pings after every shot
+			'Possibly the greatest battle implement ever devised'
+			'''
+	}
+
+	M200: {
+		DisplayName: M200
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			10% extra damage if not zooming out
+			'Oh baby, a triple!'
+			'''
+	}
+
+	M99: {
+		DisplayName: M99
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			Gradually increases damage the longer it isn't in use
+			'Standing here in silence, missing all the violence~'
+			'''
+	}
+
+	M1918: {
+		DisplayName: M1918
+		Tooltip:
+			'''
+			35% chance to save ammo
+			'There's no way I'm leaving this bridge'
+			'''
+	}
+
+	M1911: {
+		DisplayName: M1911
+		Tooltip:
+			'''
+			'AKA the cooler Handgun'
+			'...and cuter!'
+			'''
+	}
+
+	M1895: {
+		DisplayName: M1895
+		Tooltip:
+			'''
+			Autofiring decreases fire rate
+			'Colder and wiser'
+			'''
+	}
+
+	M1887: {
+		DisplayName: M1887
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			10% chance to increase knockback for each bullet fired
+			'Hasta la vista, baby'
+			'''
+	}
+
+	M16A1BOSS: {
+		DisplayName: Sangvious M16A1
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			Will do something dangerous when user is at low health
+			Right click to launch a beacon on treads
+			Beacons have area-of-effect hitboxes and boosts the user's stats
+			'Shikikan, I'm already a demon'
+			'''
+	}
+
+	M16A1: {
+		DisplayName: M16A1
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			Will do something dangerous when user is at low health
+			'No fortunate daughter'
+			'''
+	}
+
+	M14: {
+		DisplayName: M14
+		Tooltip: "'The ever reliable war goddess'"
+	}
+
+	LWMMG: {
+		DisplayName: LWMMG
+		Tooltip: Right click to zoom out
+	}
+
+	Lewis: {
+		DisplayName: Lewis
+		Tooltip: Up to 60% chance to save ammo based on user's current life
+	}
+
+	LeeEnfield: {
+		DisplayName: Lee Enfield
+		Tooltip:
+			'''
+			Right click to zoom out
+			'Now I shall take you under my wing'
+			'''
+	}
+
+	L85A1: {
+		DisplayName: L85A1
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			May misfire, shooting tea spurts
+			'Care for a cup of tea?'
+			'''
+	}
+
+	KSVK: {
+		DisplayName: KSVK
+		Tooltip:
+			'''
+			Bullets create a bone projectile on impact
+			Right click to zoom out
+			'The call of the wild'
+			'''
+	}
+
+	KS23: {
+		DisplayName: KS-23
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			50% chance to save ammo
+			'Megashark's distant cousin'
+			'''
+	}
+
+	Kord: {
+		DisplayName: Kord
+		Tooltip:
+			'''
+			Right click to zoom out
+			Small chance to replace bullets with ones that pierce enemies and travel insanely fast
+			'Nice! Critical hit!'
+			'''
+	}
+
+	KLIN: {
+		DisplayName: KLIN
+		Tooltip:
+			'''
+			Sets foes ablaze with thermite when critically striking with any bullets
+			'no talk me im angy'
+			'''
+	}
+
+	KCCOCentaurBow: {
+		DisplayName: Bow of Tyrants
+		Tooltip:
+			'''
+			Overclocks arrows with KCCO's punishing rage, increasing their velocity
+			'Whatever it takes'
+			'''
+	}
+
+	Kar98k: {
+		DisplayName: Kar98k
+		Tooltip:
+			'''
+			Small chance for bullets to hit enemies two times more than usual
+			Heralds the first era of command
+			'They'll not see it coming'
+			'''
+	}
+
+	Jericho: {
+		DisplayName: Jericho
+		Tooltip:
+			'''
+			Every fourth bullet consumed turns into a meteor shot
+			'Whatever happens, happens'
+			'''
+	}
+
+	IDW: {
+		DisplayName: IDW
+		Tooltip:
+			'''
+			Musket Balls may transform into arcing Kitty Shots
+			'Da nya!'
+			'''
+	}
+
+	HS2000: {
+		DisplayName: HS2000
+		Tooltip:
+			'''
+			Getting hit will grant a 40 defense boost that disappears when hit afterwards
+			'Life ain't nothing but stitches and tragedy'
+			'''
+	}
+
+	HK416: {
+		DisplayName: "416"
+		Tooltip:
+			'''
+			Four round burst
+			Only the last shot consumes ammo
+			Right click to zoom out
+			Musket balls are replaced with explosive shots
+			'All you need'
+			'''
+	}
+
+	HanyangMaidMOD3: {
+		DisplayName: Type 88 Mod III
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			Additionally shoots a blue energy blast from its bayonet
+			'Promise to never stop'
+			'''
+	}
+
+	HanyangMaid: {
+		DisplayName: Type 88
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			'Somewhat conventional'
+			'''
+	}
+
+	Groza: {
+		DisplayName: OTs-14
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			14% chance to save ammo
+			Bullets shock enemies on hit during the night
+			Right click to zoom out
+			Heralds the second era of command
+			'You've been thunderstruck'
+			'''
+	}
+
+	GrizzlyMkV: {
+		DisplayName: Grizzly
+		Tooltip:
+			'''
+			Every fifth shot is slightly stronger and preemptively gives player Honey buff
+			'Viens avec moi - ai besoin de toi'
+			'''
+	}
+
+	Galil: {
+		DisplayName: Galil
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			'''
+	}
+
+	GaiaGrenadeLauncher: {
+		DisplayName: Gaia Grenade Launcher
+		Tooltip:
+			'''
+			Shoots anti-personnel grenades that are affected by gravity
+			20% chance to save ammo
+			Highly inaccurate
+			'Remember thy name: SP5NANO'
+			'''
+	}
+
+	G43: {
+		DisplayName: G43
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			'Guten tag!'
+			'''
+	}
+
+	G36C: {
+		DisplayName: G36C
+		Tooltip:
+			'''
+			Critical hits with this weapon summon a barrier to defend you
+			Barrier increases defense by 10 and damage resistance by 5%
+			'Oh me, oh my'
+			'''
+	}
+
+	G36: {
+		DisplayName: G36
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			36% chance to save ammo
+			'Can you keep my secret?'
+			'''
+	}
+
+	G28: {
+		DisplayName: G28
+		Tooltip:
+			'''
+			28% chance to save ammo
+			Right click to zoom out
+			'My sister isn't all you need'
+			'''
+	}
+
+	G11: {
+		DisplayName: G11
+		Tooltip:
+			'''
+			Three round burst
+			Only the third shot consumes ammo
+			Right click to zoom out
+			May replace normal bullets with bullets that harshly restrict movement
+			The special bullets's effects will not work on bosses
+			'There are things that people can and cannot do'
+			'''
+	}
+
+	FoolsUzi: {
+		DisplayName: Fool's Uzi
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Stupidly inaccurate
+			'I'm smarter than you think, OK?'
+			'''
+	}
+
+	FiveSeven: {
+		DisplayName: Five-seveN
+		Tooltip:
+			'''
+			57% chance to save ammo
+			'Hoxy?'
+			'''
+	}
+
+	Falcon: {
+		DisplayName: Falcon
+		Tooltip:
+			'''
+			Profane feathers attack hit targets
+			Right click to zoom out
+			'I will put my all into this fight!'
+			'''
+	}
+
+	FAL: {
+		DisplayName: FAL
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			'I'm so fancy'
+			'''
+	}
+
+	F1: {
+		DisplayName: F1
+		Tooltip:
+			'''
+			Its down under nature turns musket balls into ichor bullets
+			'G'day mate!'
+			'''
+	}
+
+	DP28: {
+		DisplayName: DP28
+		Tooltip: Additional 33% chance to save ammo a while after a critical hit
+	}
+
+	DP12: {
+		DisplayName: DP-12
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Fired bullets leech defense from enemies, inflicting Broken Armor and dropping armor essences
+			Essences boosts damage reduction by 10%
+			'Do you like your mom and her seven-hit multi-target attacks?'
+			'''
+	}
+
+	DesertEagle: {
+		DisplayName: Desert Eagle
+		Tooltip:
+			'''
+			Additionally showers the area with homing feathers
+			'Strike down upon thee with great vengeance and furious anger'
+			'''
+	}
+
+	DandelionUpgradeClockworkAR: {
+		DisplayName: Deus ex Machina
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Shoots bullets that ignore enemy immunity frames and pierce infinitely
+			'A weapon to surpass Ares Gear'
+			'''
+	}
+
+	CZ75: {
+		DisplayName: CZ75
+		Tooltip:
+			'''
+			Damage increases by 10% if certain tomahawk weapons are in the inventory
+			'The pinnacle of semiautomatic handgun evolution'
+			'''
+	}
+
+	Contender: {
+		DisplayName: Contender
+		Tooltip:
+			'''
+			Fires anti-magic root bullets
+			Bullets are designed to combat mage enemies
+			Deadly at longer ranges than normal
+			'If it will save the world, I'll gladly do it'
+			'''
+	}
+
+	CMS: {
+		DisplayName: C-MS
+		Tooltip:
+			'''
+			Transforms musket balls into echoing Skweee bullets
+			Redirects minion attacks to hit enemy
+			'No one can tell me what I can or can not do'
+			'''
+	}
+
+	CAWS: {
+		DisplayName: CAWS
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Musket balls become icicle-shrapnel bullets that inflict Frostburn
+			Right click to zoom out
+			'Don't gimme excuses, gimme results!'
+			'''
+	}
+
+	CarcanoIchigo: {
+		DisplayName: Carcano M1891
+		Tooltip:
+			'''
+			Right click to zoom out
+			Bayonet grants gun the ability to damage enemies that touch it
+			'I feel one step closer to my dreams'
+			'''
+	}
+
+	CarcanoBudou: {
+		DisplayName: Carcano M91/38
+		Tooltip:
+			'''
+			Right click to zoom out
+			Critical hits are empowered when zooming out
+			'Lies as naturally as it breathes'
+			'''
+	}
+
+	Bren: {
+		DisplayName: Bren
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Additional 33% chance to save ammo a while after a critical hit
+			'''
+	}
+
+	AT4: {
+		DisplayName: AT4
+		Tooltip:
+			'''
+			Rockets ignores a substantial amount of enemy defense
+			Rockets have higher velocity than usual
+			'From Sweden with a bang'
+			'''
+	}
+
+	AstraRevolver: {
+		DisplayName: Astra Revolver
+		Tooltip:
+			'''
+			Small chance to call stars from the skies when consuming ammo
+			'Per aspera ad astra'
+			'''
+	}
+
+	ASh127: {
+		DisplayName: ASh-12.7
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			12% chance to save ammo
+			'I've got big bores'
+			'''
+	}
+
+	AR15: {
+		DisplayName: AR-15
+		Tooltip:
+			'''
+			Four round burst
+			Only the first shot consumes ammo
+			Right click to zoom out
+			Explosive under certain pressure
+			'The fast and the Sirius'
+			'''
+	}
+
+	AN94: {
+		DisplayName: AN-94
+		Tooltip:
+			'''
+			Two round burst
+			Only the first shot consumes ammo
+			Critically struck enemies deal less damage to the user
+			'Improvise. Adapt. Overcome'
+			'''
+	}
+
+	Alpaca: {
+		DisplayName: RPK-16
+		Tooltip:
+			'''
+			66% chance to save ammo
+			Replaces bullets with ones that slashes hit targets
+			Right click to zoom out
+			'A moment of your nightmare'
+			'''
+	}
+
+	AKAlfa: {
+		DisplayName: AK-Alfa
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			Deals more damage to unhurt enemies
+			'Honorary DEFY member'
+			'''
+	}
+
+	AK47: {
+		DisplayName: AK-47
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			All bullets fired by item gun may inflict Confused
+			Stronger when user is drunk
+			'''
+	}
+
+	AK12: {
+		DisplayName: AK-12
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			'I have special eyes...'
+			'''
+	}
+
+	AEK999: {
+		DisplayName: AEK-999
+		Tooltip:
+			'''
+			66% chance to save ammo during the night
+			Accuracy is dependent on time of day
+			'''
+	}
+
+	AA12: {
+		DisplayName: AA-12
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Small chance for a bullet to dispense Candy Apples on impact
+			Spawned candy apples boost damage reduction
+			'A new meaning to the term sugar high'
+			'''
+	}
+
+	SubwayPlatformBarricade: {
+		Tooltip: "'Apparently some architects thought this was effective'"
+		DisplayName: Subway Platform Barricade
+	}
+
+	SangvisHomeRestingUnit: {
+		DisplayName: Sangvis Home Resting Unit
+		Tooltip: "'Lighting rigs taken down due to request'"
+	}
+
+	PassionateFlamingHeart: {
+		DisplayName: Passionate Flaming Heart
+		Tooltip: "'Wizards don't like marshmallows'"
+	}
+
+	TheIslandThatWasNotThereBefore: {
+		DisplayName: The Island That Was Not There Before
+		Tooltip: "'P. Claidheamh Moore'"
+	}
+
+	DarkVowsGuidingLamp: {
+		DisplayName: Dark Vows Guiding Lamp
+		Tooltip: "'Wasn't this supposed to be askew?'"
+	}
+
+	WeddingChair: {
+		DisplayName: Wedding Chair
+		Tooltip: "'Hey, this feels a little bit empty...'"
+	}
+
+	HangingWallLamp: {
+		DisplayName: Hanging Wall Lamp
+		Tooltip: "'Contrary to the name, does not require a wall for support'"
+	}
+
+	StarryToTheMoon: {
+		DisplayName: Starry To The Moon
+		Tooltip: "'The decorative rose ribbon had to be removed because people were sleeping right on it'"
+	}
+
+	CoffeeShopRestaurantSofa: {
+		DisplayName: Coffee Shop Restaurant Sofa
+		Tooltip: "'Lights sold separately'"
+	}
+
+	PeacefulRefrigerator: {
+		DisplayName: Peaceful Refrigerator
+		Tooltip: "'Dammit, locked again'"
+	}
+
+	LoungeChangingRoomBench: {
+		DisplayName: Lodge Changing Room Bench
+		Tooltip: "'We have courteously cleaned off the clothes on this bench for your use'"
+	}
+
+	PromenadeOutdoorShade: {
+		DisplayName: Promenade Outdoor Sunshade
+		Tooltip: "'Wait, what's on the menu?'"
+	}
+
+	PromenadeTownMailbox: {
+		DisplayName: Promenade Town Mailbox
+		Tooltip: It's empty, so don't bother
+	}
+
+	OniPublicNoticeBoard: {
+		DisplayName: Oni Public Notice Board
+		Tooltip: "'Eh? I can't read this! This must be youkai script!'"
+	}
+
+	LodgeLoungeTable: {
+		DisplayName: Lodge Lounge Table
+		Tooltip: "'No cocktails and cakes for you~'"
+	}
+
+	KitchenCookingCounter: {
+		DisplayName: Kitchen Cooking Counter
+		Tooltip: "'Toaster and fruit plate not included'"
+	}
+
+	StoreOldTerebi: {
+		DisplayName: Store Old Television
+		Tooltip: "'Fifty-seven channels and nothin' on'"
+	}
+
+	BannerRipperItem: {
+		DisplayName: Ripper Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Ripper
+	}
+
+	BannerScoutItem: {
+		DisplayName: Scout Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Scout
+	}
+
+	BannerNemeumItem: {
+		DisplayName: Nemeum Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Nemeum
+	}
+
+	BannerGolyatItem: {
+		DisplayName: Goliath Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Golyat
+	}
+
+	BannerDinergateItem: {
+		DisplayName: Dinergate Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Dinergate
+	}
+
+	BannerCentaurusItem: {
+		DisplayName: Centaurus Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Mods.TerrariaxGirlsFrontline.NPCName.Centaurus
+	}
+
+	WhipMrsGray: {
+		DisplayName: Timberwolf Tail
+		Tooltip:
+			'''
+			30 summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			Ignores 10 points of enemy Defense
+			'THIS is why humans have no tails!'
+			'''
+	}
+
+	ParadeusRainbowWhipUpgrade: {
+		DisplayName: Chains of William
+		Tooltip:
+			'''
+			13 summon tag damage
+			20% summon tag critical damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			Inflicts Isomelt
+			'We do what we must, because we can'
+			'''
+	}
+
+	NytoTareusMinionStaff: {
+		DisplayName: Tareus Staff
+		Tooltip:
+			'''
+			Summons highly advanced laser drones to smite your enemies
+			'Get in the damn robot'
+			'''
+	}
+
+	MorridowStaff: {
+		DisplayName: Morridow Widow Staff
+		Tooltip:
+			'''
+			Summons mechanical cyborg spiders to fight for you
+			Its bites inflicts Isomelt
+			'The beast under Machlian's bed'
+			'''
+	}
+
+	MinogameStaff: {
+		DisplayName: Giant Tortoise Hatchling Staff
+		Tooltip:
+			'''
+			セントリーを召喚する
+			Summons a candid turtle friend to violently hurl sticks at your foes
+			'A thousand years worth the wait'
+			'''
+	}
+
+	LandmineFairyStaff: {
+		DisplayName: Landmine Fairy Staff
+		Tooltip:
+			'''
+			Summons a chibi semi-holographic girl that will fight for you
+			Arms mines when in close proximity to targets
+			'It's planted!'
+			'''
+	}
+
+	BitStaff: {
+		DisplayName: Bit Staff
+		Tooltip:
+			'''
+			Summons Scarecrow's drones to fight for you
+			'Begin the extermination operation'
+			'''
+	}
+
+	WorldsEndStarWrath: {
+		DisplayName: Star Apocalypse
+		Tooltip:
+			'''
+			Causes miniature Collapse Fluid comets to rain from the skies
+			Comets causes splash damage and inflict Isomelt
+			'Labeled as: return to sender'
+			'''
+	}
+
+	MosinNagantFlareBlade: {
+		DisplayName: Catherine's Claymore
+		Tooltip:
+			'''
+			Swings additionally produce flames increasing overall sword reach
+			Such aura sets enemies ablaze with hellfire
+			'git gud'
+			'''
+	}
+
+	BrigitteDungeonThrowingScythe: {
+		DisplayName: Digit Severer
+		Tooltip:
+			'''
+			Throws a scythe inbued with the wrath of an assassin
+			'It's finger-bitin' good'
+			'''
+	}
+
+	UroborosYoyo: {
+		DisplayName: Grim Weaver
+		Tooltip:
+			'''
+			Sprays bullets randomly while in flight
+			'The real fight begins now'
+			'''
+	}
+
+	SwitchaxePick: {
+		DisplayName: Switchaxe Pick
+		Tooltip:
+			'''
+			Right click to mine at reversed tool power and mining speed
+			'Here's the biggest experiment of this century'
+			'''
+	}
+
+	SP524Blade: {
+		DisplayName: Execution Cleaver
+		Tooltip:
+			'''
+			Inflicts Broken Armor on hit enemies
+			'A massive blade for massive hands'
+			'''
+	}
+
+	SangvisteelSpear: {
+		DisplayName: Sangvisteel Spear
+		Tooltip: Critical hits add a flat 13 damage to total
+	}
+
+	SangvisteelSaber: {
+		DisplayName: Sangvisteel Saber
+		Tooltip: Critical hits add a flat 13 damage to total
+	}
+
+	SangvisteelHamaxe: {
+		DisplayName: Sangvisteel Hamaxe
+		Tooltip: Critical hits add a flat 13 damage to total
+	}
+
+	ParadeusInfluxWaver: {
+		DisplayName: Miasma Waver
+		Tooltip:
+			'''
+			Blade and beams inflict Isomelt
+			'Sword that unfolds like lotus bloom'
+			'''
+	}
+
+	P90CostumeVampireKnivesClone: {
+		DisplayName: Squirrel Knives
+		Tooltip:
+			'''
+			Rapidly throws imitative daggers that aren't life-stealing
+			'Eh? You're approaching me?'
+			'''
+	}
+
+	ObserverStriker: {
+		DisplayName: Observer's Striker
+		Tooltip:
+			'''
+			Damage increases by 10% when a CZ75 is in your inventory
+			'Let me axe you a question'
+			'''
+	}
+
+	NTW20Ragnell: {
+		DisplayName: Arid Arondight
+		Tooltip:
+			'''
+			Divine powers imbue this blade with the flames of war
+			Inflicts On Fire and Thermite Burst
+			'You'll get no sympathy from me'
+			'''
+	}
+
+	MP446CandyBroadsword: {
+		DisplayName: Sweet Hits
+		Tooltip:
+			'''
+			Sporadically sprays hard candy
+			'Valkyrie needs food, badly'
+			'''
+	}
+
+	KSVKBrush: {
+		DisplayName: Lupine Paintbrush
+		Tooltip:
+			'''
+			Shoots a spray of paint
+			'Winter Rider is Winner'
+			'''
+	}
+
+	KordNurseScalpel: {
+		DisplayName: Silent Scalpel
+		Tooltip:
+			'''
+			Life steals from hit enemies, leaking blood globs
+			Globs that run into other enemies make them vigorously bleed
+			'The fear of blood tends to create fear for the flesh'
+			'''
+	}
+
+	KittenDagger: {
+		DisplayName: Kitten Dagger
+		Tooltip: "'Curiosity killed everything except the cat'"
+	}
+
+	KCCOHamaxe: {
+		DisplayName: Grave Carver
+		Tooltip: "'Here's Tronny!'"
+	}
+
+	KCCOWhitePhasesaber: {
+		DisplayName: White Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of white electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOVioletPhasesaber: {
+		DisplayName: Purple Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of purple electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOYellowPhasesaber: {
+		DisplayName: Yellow Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of yellow electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOOrangePhasesaber: {
+		DisplayName: Orange Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of orange electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOGreenPhasesaber: {
+		DisplayName: Green Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of green electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCORedPhasesaber: {
+		DisplayName: Red Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of red electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOBluePhasesaber: {
+		DisplayName: Blue Polarized Phasesaber
+		Tooltip:
+			'''
+			Shoots a superfast bouncing blast of blue electricity that eventually slows down
+			Electrocutes enemies
+			'We reserve the right to use force'
+			'''
+	}
+
+	KCCOBeastGlove: {
+		DisplayName: Orthrus Baghnakhs
+		Tooltip: "'You are merely a bothersome insect, RO635!'"
+	}
+
+	G11Hammer: {
+		DisplayName: Sleepy Slammer
+		Tooltip:
+			'''
+			Hit enemies bleed out brain-numbing magic pillows
+			'Let 'er Rip Van Winkle'
+			'''
+	}
+
+	EpiphyllumTrishula: {
+		DisplayName: Photon Trishula
+		Tooltip:
+			'''
+			Shoots a fairly wide laser that summons homing bolts on hit enemies
+			Inflicts Isomelt
+			'''
+	}
+
+	ELIDGolemFist: {
+		DisplayName: Smasher Fist
+		Tooltip:
+			'''
+			Punches with the force of a Level B ELID mutant
+			Disembodied fist has explosive punching power
+			'TANK!!!'
+			'''
+	}
+
+	Colossus: {
+		DisplayName: Colossus
+		Tooltip:
+			'''
+			Explodes on enemy hits
+			'You friccin moron, you just got beaned!'
+			'''
+	}
+
+	AxeofPureSpirit: {
+		DisplayName: Axe of Pure Spirit
+		Tooltip:
+			'''
+			Automatically locks down on targets
+			Axe leaves notes in its wake
+			'When the world has no time for idols'
+			'''
+	}
+
+	AlpacaKnife: {
+		DisplayName: Renate's Razor
+		Tooltip:
+			'''
+			Right click to throw illusionary shadowflame clones of the knife
+			'Putting the laughter in slaughter'
+			'''
+	}
+
+	AR15PantyKnife: {
+		DisplayName: Secret Stellar Stabber
+		Tooltip:
+			'''
+			Right click to throw multiple copies of the knife
+			'Stop right there, pervert!'
+			'''
+	}
+
+	AlchemistReaper: {
+		DisplayName: Alchemist Reaper
+		Tooltip:
+			'''
+			Too big to be called a shortsword
+			May fire lasers on enemy hits
+			'This power, where shall I use this?'
+			'''
+	}
+
+	NimeylanQuartzTome: {
+		DisplayName: Quartz Scrapshoot
+		Tooltip:
+			'''
+			Summons glowing moth balls that splits apart upon impact
+			Moth balls in humid or cold areas and the Hallow act differently
+			'It's morphin' time!'
+			'''
+	}
+
+	WhitePlasmaStaff: {
+		DisplayName: White Plasma Staff
+		Tooltip:
+			'''
+			Fires a seven-shot volley of hypermatter rays of light
+			'Strip away your tears, and you'll be almost there'
+			'''
+	}
+
+	Type97UnholyTrident: {
+		DisplayName: Succubus Trident
+		Tooltip:
+			'''
+			Summons Lilith's alluring trident
+			Drains life from targets
+			Keep hitting targets to regenerate life
+			'My mind tells me no, but my body tells me yes'
+			'''
+	}
+
+	SPACALaser: {
+		DisplayName: Dreamer Waverifle
+		Tooltip:
+			'''
+			Shoots a hot pink ray beam
+			'Hahahaha, vaporize!'
+			'''
+	}
+
+	SoulstormFan: {
+		DisplayName: Soulstorm Fan
+		Tooltip:
+			'''
+			Summons mysterious projectiles that stop midair and then home in on enemies
+			'Like a child with a new beginning'
+			'''
+	}
+
+	SabrinaTuba: {
+		DisplayName: Tuba of Gluttony
+		Tooltip:
+			'''
+			Shoots terribly toned and aimed notes that explode in a lard-filled frenzy
+			'Fool! Sabrina toots as she pleases!'
+			'''
+	}
+
+	ROMegaphone: {
+		DisplayName: Colt Megaphone
+		Tooltip:
+			'''
+			Fires a volley of ear-piercing sound waves
+			Immunity to Silenced
+			Deals more damage to enemies that might use silencable attacks
+			'It's not a silencer, it's a loud-encer'
+			'''
+	}
+
+	NegevRoseStaff: {
+		DisplayName: Obsidian Rose Staff
+		Tooltip:
+			'''
+			Fires magic petals that split into flames upon impact
+			May inflict one of three flame debuffs
+			'It's your blood that's red like roses'
+			'''
+	}
+
+	MG5ShandianLuweiStaff: {
+		DisplayName: Pestilent Lightning Rod
+		Tooltip:
+			'''
+			Fires instantaneous sharply-angled golden lightning bolts that jumps between enemies
+			'Unlimited power!'
+			'''
+	}
+
+	M200AhogeGuitar: {
+		DisplayName: Soul Strummer
+		Tooltip: "'Anyways, here's Wonderward'"
+	}
+
+	KCCOLaserRifle: {
+		DisplayName: Sinner's Laser Rifle
+		Tooltip: "'Set phasers to apocalypsize'"
+	}
+
+	Kar98kBouquet: {
+		DisplayName: Iron Cross Bouquet
+		Tooltip: "'The magna Kar-ta'"
+	}
+
+	FlowerofEpiphyllum: {
+		DisplayName: Flower of Epiphyllum
+		Tooltip:
+			'''
+			Throws mysterious balls of eldritch, alien energy
+			Inflicts Isomelt
+			'''
+	}
+
+	EpiphyllumNettleBurst: {
+		DisplayName: Thorn of the Cosmos
+		Tooltip:
+			'''
+			Summons an alien pike of thorns and roses
+			Infects enemies with Isomelt
+			'''
+	}
+
+	ElisaPulsar: {
+		DisplayName: Elisa Pulsar
+		Tooltip:
+			'''
+			Fires a spread of lasers
+			'Knowledge is power'
+			'''
+	}
+
+	CombinationCursedFlames: {
+		DisplayName: Flame Mixer
+		Tooltip:
+			'''
+			Summons fireballs of a malicious menagerie
+			Inflicts On Fire, Cursed Inferno, Thermite Burst, and Phospherno
+			'Colors weave into a spire of flame'
+			'''
+	}
+
+	CollapseFluidGoldenShower: {
+		DisplayName: Bile of Beilan
+		Tooltip:
+			'''
+			Sprays a shower of liquid of a questionable hue
+			Inflicts Ichor and Isomelt
+			'Eat your heart out, Tiberium'
+			'''
+	}
+
+	UnfoundCore: {
+		DisplayName: Unfound Class Core
+		Tooltip:
+			'''
+			Filled with terabytes of AI data
+			A core fit for a select few T-Dolls
+			'For those who are lost'
+			'''
+	}
+
+	TundraCulture: {
+		DisplayName: Tundra Culture
+		Tooltip: Contains the valor of the cold countries
+	}
+
+	TemperateCulture: {
+		DisplayName: Temperate Culture
+		Tooltip: Contains the valor of the temperate countries
+	}
+
+	SangvisParts: {
+		DisplayName: Sangvis Scrap
+		Tooltip: Made of sinister material of unknown origin
+	}
+
+	RareClassCore: {
+		DisplayName: Rare Class Core
+		Tooltip:
+			'''
+			Filled with gigabytes of AI data
+			Creates medium-rarity weapons from so-called T-Dolls
+			'''
+	}
+
+	ParapluicVial: {
+		DisplayName: Parapluic Vial
+		Tooltip: Infects Android/Tactical Dolls with OGAS programming
+	}
+
+	OceanicCulture: {
+		DisplayName: Oceanic Culture
+		Tooltip: Contains the valor of the island countries
+	}
+
+	NeuralFragments: {
+		DisplayName: Memory Fragments
+		Tooltip:
+			'''
+			Awakens the potential of certain T-Doll firearms
+			A potentially irreversible process, ushering in their MOD3
+			'''
+	}
+
+	MilitaryDebris: {
+		DisplayName: Military Debris
+		Tooltip: Made of ballistic material of unknown origin
+	}
+
+	MilitaryBar: {
+		DisplayName: Military Bar
+		Tooltip: Tough mid-21st century alloy used in elaborate war machines
+	}
+
+	LivingParadeicCore: {
+		DisplayName: Living Paradeic Core
+		Tooltip:
+			'''
+			Made of hazardous material of unknown origin
+			An unholy, mechanical combination of eye, heart, and orb
+			'''
+	}
+
+	LegendaryClassCore: {
+		DisplayName: Legendary Class Core
+		Tooltip:
+			'''
+			Filled with gigabytes of AI data
+			Creates high-rarity weapons from so-called T-Dolls
+			'''
+	}
+
+	JungleCulture: {
+		DisplayName: Jungle Culture
+		Tooltip: Contains the valor of the tropical countries
+	}
+
+	GeneralClassCore: {
+		DisplayName: General Class Core
+		Tooltip:
+			'''
+			Filled with gigabytes of AI data
+			Creates low-rarity weapons from so-called T-Dolls
+			'''
+	}
+
+	FairyConversionCore: {
+		DisplayName: Fairy Conversion Core
+		Tooltip:
+			'''
+			Filled with holographic fae essence
+			Reacts to Pixie Dust
+			'A changeling tale'
+			'''
+	}
+
+	EpochalClassCore: {
+		DisplayName: Epochal Class Core
+		Tooltip:
+			'''
+			Filled with gigabytes of AI data
+			Creates high-rarity weapons from so-called T-Dolls
+			'''
+	}
+
+	ElementofLament: {
+		DisplayName: Element of Lament
+		Tooltip:
+			'''
+			Shed from the spiritual distress of Dandelion/Isomer Black
+			'Kills you softly'
+			'''
+	}
+
+	DesertCulture: {
+		DisplayName: Desert Culture
+		Tooltip: Contains the valor of the dry countries
+	}
+
+	DefianceCore: {
+		DisplayName: Defiance Class Core
+		Tooltip:
+			'''
+			Filled with terabytes of AI data
+			A core fit for a select few T-Dolls
+			'For those who defy destiny'
+			'''
+	}
+
+	BatteryFluidBottle: {
+		DisplayName: Battery Fluid Bottle
+		Tooltip:
+			'''
+			Mysterious acidic fluid gathered from the mid-21st century
+			Used to help craft mysterious weapons from real-life countries
+			'''
+	}
+
+	AntiRainCore: {
+		DisplayName: Anti-Rain Class Core
+		Tooltip:
+			'''
+			Filled with terabytes of AI data
+			A core fit for a select few T-Dolls
+			'For the sacrifices others have made'
+			'''
+	}
+
+	NimeylanMothronWings: {
+		DisplayName: Nemhran Mantle
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			下入力でホバリングする
+			上入力でホバリングをやめる
+			'Like a moth to a flame'
+			'''
+	}
+
+	LycorisLocket: {
+		DisplayName: Elisa's Venom Locket
+		Tooltip:
+			'''
+			Magic attacks envenom hit enemies
+			15% increased mana usage
+			Releases bees, douses the user in honey and increases movement speed when damaged
+			'A memory of what once was'
+			'''
+	}
+
+	JambaHeartJuice: {
+		DisplayName: Jamba Heart Smoothie
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			'Happy birthday, Dark Lord! Happy birthday!'
+			'''
+	}
+
+	StrawberryLemonade: {
+		DisplayName: Strawberry Lemonade
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			'Best of both worlds'
+			'''
+	}
+
+	Strawberry: {
+		DisplayName: Strawberry
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			'Light and fluffy, sweetly melting away'
+			'''
+	}
+
+	EpiphyllumArrow: {
+		DisplayName: Paradeic Arrow
+		Tooltip:
+			'''
+			Arrows inflict Isomelt
+			Arrows split into mirroring children projectiles on impact
+			'Almost no bark and almost all bite'
+			'''
+	}
+
+	ShieldOfHelena: {
+		DisplayName: Helena's Barrier
+		Tooltip:
+			'''
+			Allows the player to do armor-breaking dashes into enemies
+			Grants immunity to knockback
+			Reduces taken damage by 11%
+			With DP-12 MOD III, reduces taken damage even further by 6%
+			'Come give your mom a big hug!'
+			'''
+	}
+
+	VelrodGavntlet: {
+		DisplayName: Carmillan Glove
+		Tooltip:
+			'''
+			Allows a good amount of minion attacks to drain life from hit enemies
+			Minions cannot critically hit, even if critical hit buffs exist
+			'I do not fail. Ever.'
+			'''
+	}
+
+	Suppressor: {
+		DisplayName: Suppressor
+		Tooltip:
+			'''
+			Enemies are less likely to target you
+			4% increased ranged critical damage
+			'''
+	}
+
+	SubMGDTE: {
+		DisplayName: Submachine Gun Insignia
+		Tooltip:
+			'''
+			15% increased damage for submachine gun-type guns
+			Holding such guns prevents you from taking fatal damage
+			This effect has a 45s cooldown
+			'''
+	}
+
+	ShotgunDTE: {
+		DisplayName: Shotgun Insignia
+		Tooltip:
+			'''
+			15% increased damage for shotgun-type guns
+			12 extra defense when wielding such guns
+			'''
+	}
+
+	RushBBooze: {
+		DisplayName: Rusher's Vodka
+		Tooltip:
+			'''
+			Increases ranged velocity and speed by 8% for various weapons
+			Decreases defense by 10
+			'Cyka blyat!'
+			'''
+	}
+
+	RodeleroHeadpack: {
+		DisplayName: Rodelero Jetpack
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			下入力でホバリングする
+			上入力でホバリングをやめる
+			Halves mana usage for most laser weapons
+			'Unable to fly across the world in less than 12 parsecs'
+			'''
+	}
+
+	RifleDTE: {
+		DisplayName: Rifle Insignia
+		Tooltip: 15% increased damage and bullet velocity for rifle-type guns
+	}
+
+	RescueFairyCharm: {
+		DisplayName: Rescue Fairy Charm
+		Tooltip:
+			'''
+			When in the inventory, allows certain enemies to drop rare T-Doll weapons
+			'It's elementary, shikikan'
+			'''
+	}
+
+	MysteryRemote: {
+		DisplayName: Caustic Communicator
+		Tooltip:
+			'''
+			A mysterious device made with the aid of meteorite
+			Use to contact a half-empty world
+			'''
+	}
+
+	MachineGunDTE: {
+		DisplayName: Machine Gun Insignia
+		Tooltip:
+			'''
+			15% increased damage for machine gun-type guns
+			Such guns get a bonus 25% chance to save ammo
+			'''
+	}
+
+	M16A1Whiskey: {
+		DisplayName: Punisher Whiskey
+		Tooltip:
+			'''
+			Increases ranged damage and gives 20% chance to save ammo for various weapons
+			Decreases all other damage by 10%
+			'Liquid sunshine'
+			'''
+	}
+
+	Lollipop: {
+		DisplayName: Ball Lollipop
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			'Man, you haven't got the chance'
+			'''
+	}
+
+	LethalSuppressor: {
+		DisplayName: Lethal Suppressor
+		Tooltip:
+			'''
+			Enemies are less likely to target you
+			5% increased ranged damage
+			12% increased ranged critical damage
+			'Going sneaky beaky like'
+			'''
+	}
+
+	HollowPointBullet: {
+		DisplayName: Hollow Point Bullet
+		Tooltip:
+			'''
+			Less effective on enemy defense than other bullets
+			'Hollowed be thy bullet'
+			'''
+	}
+
+	HandgunDTE: {
+		DisplayName: Handgun Insignia
+		Tooltip:
+			'''
+			15% increased damage for handgun-type guns
+			Nearby players on your team gain combat bonuses
+			'''
+	}
+
+	ElfTAC50CrossbowArrow: {
+		DisplayName: Syrup Arrow
+		Tooltip:
+			'''
+			Arrows inflict debuff that causes target to have life stolen when hurt
+			'What aboot side to side with you, friend?'
+			'''
+	}
+
+	CinnamonRoll: {
+		DisplayName: Cinnamon Roll
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			'Too good for this sinful earth'
+			'''
+	}
+
+	CentaurNapalmArrow: {
+		DisplayName: Demolition Arrow
+		Tooltip:
+			'''
+			Explodes into fire shards
+			Arrow inflicts Thermite Burst, shards inflict On Fire
+			'Shatters your connexion'
+			'''
+	}
+
+	BuckshotShell: {
+		DisplayName: Buckshot Shell
+		Tooltip:
+			'''
+			Critical strikes with this bullet deal 3x damage instead of 2x
+			'Not your average Buckshot'
+			'''
+	}
+
+	AssaultRifleDTE: {
+		DisplayName: Assault Rifle Insignia
+		Tooltip:
+			'''
+			15% increased damage for assualt rifle-type guns
+			Slightly increases life regeneration when moving
+			'''
+	}
+
+	ArmorPiercingBullet: {
+		DisplayName: Armor-Piercing Bullet
+		Tooltip:
+			'''
+			Bypasses a significant amount of enemy defense
+			Bypasses damage reduction of certain enemies partially
+			'Looks like I erased your clothes instead'
+			'''
+	}
+
+	BoxofHavoc: {
+		DisplayName: Box of Havoc
+		Tooltip:
+			'''
+			Summons an army of a thousand soldiers
+			Length of its effects depend on your player progression
+			'You have chosen... poorly'
+			'''
+	}
+}
+
+Projectiles: {
+	BOSSDreamerMiniLaserAlarm: {
+		DisplayName: BOSS Dreamer Mini Laser Alarm
+	}
+
+	WhiteSteelSlash: {
+		DisplayName: White Steel Slash
+	}
+
+	WeaverThrowProj: {
+		DisplayName: Weaver Throw Proj
+	}
+
+	SyrupHeal: {
+		DisplayName: Syrup Heal
+	}
+
+	GoliathBean: {
+		DisplayName: Colossal Explosion
+	}
+
+	GoliathYoyo: {
+		DisplayName: Goliath Yoyo
+	}
+
+	CarrotHeal: {
+		DisplayName: Carrot Heal
+	}
+
+	BrigitteDungeonThrowingScytheProj: {
+		DisplayName: Brigitte Dungeon Throwing Scythe Proj
+	}
+
+	AquamarineBuster: {
+		DisplayName: Cyan Busterblast
+	}
+
+	OpalBuster: {
+		DisplayName: Pink Busterblast
+	}
+
+	NimeylanPollenPuffJungleLeaf: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffJungle: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffHallowCrystal: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffHallow: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffIceShard: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffIce: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuffScrap: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	NimeylanPollenPuff: {
+		DisplayName: Quartz Scrapshoot
+	}
+
+	WindBornMagicBullet: {
+		DisplayName: Spinel Bullet
+	}
+
+	BrigitteBullet: {
+		DisplayName: Mercury Shot
+	}
+
+	EpiphyllumArrowResidue: {
+		DisplayName: Paradeic Arrow
+	}
+
+	EpiphyllumArrowProj: {
+		DisplayName: Paradeic Arrow
+	}
+
+	BulletEyeofCthuwu: {
+		DisplayName: Mini Chibi Demon Eye
+	}
+
+	ZombieUrine: {
+		DisplayName: Bile of Beilan
+	}
+
+	WhitePlasmaRay: {
+		DisplayName: White Plasma Ray
+	}
+
+	WeaverBullet: {
+		DisplayName: Grim Weaver Bullet
+	}
+
+	TopazBuster: {
+		DisplayName: Yellow Busterblast
+	}
+
+	ToneDeafNoteVerTQuaver: {
+		DisplayName: Tone-Deaf Tuba Note
+	}
+
+	ToneDeafNoteVerQuaver: {
+		DisplayName: Tone-Deaf Tuba Note
+	}
+
+	ToneDeafNoteVerCrochet: {
+		DisplayName: Tone-Deaf Tuba Note
+	}
+
+	TokarevStar: {
+		DisplayName: Tokarev Star
+	}
+
+	ThunderbirdBulletBolt: {
+		DisplayName: Lightning Beam
+	}
+
+	ThunderbirdBullet: {
+		DisplayName: Thunderbird Bullet
+	}
+
+	TeaBullet: {
+		DisplayName: Tea Bullet
+	}
+
+	SyrupArrow: {
+		DisplayName: Syrup Arrow
+	}
+
+	SunsetAngelSpear: {
+		DisplayName: Sunset Angel Spear
+	}
+
+	StarSoulBullet: {
+		DisplayName: Star Soul Bullet
+	}
+
+	SpiritronBullet: {
+		DisplayName: Spiritron Bullet
+	}
+
+	SmasherSmash: {
+		DisplayName: Smasher Fist
+	}
+
+	SmasherFist: {
+		DisplayName: Smasher Fist
+	}
+
+	SkweeeShot: {
+		DisplayName: Skweee Bullet
+	}
+
+	SkadiSweet: {
+		DisplayName: Soviet Sweet
+	}
+
+	SeveringGift: {
+		DisplayName: Pandora's Severing Gift
+	}
+
+	SapphireBuster: {
+		DisplayName: Blue Busterblast
+	}
+
+	SangvisteelSpearProj: {
+		DisplayName: Sangvisteel Spear
+	}
+
+	SacramentShot: {
+		DisplayName: Sacrament Shot
+	}
+
+	RubyBuster: {
+		DisplayName: Red Busterblast
+	}
+
+	ROSonarBlast: {
+		DisplayName: Colt Sonar Wave
+	}
+
+	RenateRound: {
+		DisplayName: Renate Round
+	}
+
+	ReichPetals: {
+		DisplayName: TerrariaxGirlsFrontline.ItemName.Kar98kBouquet.DisplayName
+	}
+
+	PyroclasticPetal: {
+		DisplayName: Pyroclastic Petal
+	}
+
+	PolarizedLaser: {
+		DisplayName: Polarized Laser
+	}
+
+	PillowProj: {
+		DisplayName: Kraut Space Magic Pillow
+	}
+
+	PersephonicShadowflameBeam: {
+		DisplayName: Persephonic Shadowflame Beam
+	}
+
+	ParadeusInfluxWavebeam: {
+		DisplayName: TerrariaxGirlsFrontline.ItemName.ParadeusInfluxWaver.DisplayName
+	}
+
+	PandoraShot: {
+		DisplayName: Pandora Shot
+	}
+
+	PaintBlobs: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.KSVKBrush.DisplayName}"
+	}
+
+	P90DioImitation: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.P90CostumeVampireKnivesClone.DisplayName}"
+	}
+
+	NoteM200VerTQuaver: {
+		DisplayName: CheyTac Note
+	}
+
+	NoteM200VerQuaver: {
+		DisplayName: CheyTac Note
+	}
+
+	NoteM200VerCrochet: {
+		DisplayName: CheyTac Note
+	}
+
+	NoteCalicoVerTQuaver: {
+		DisplayName: Soul Liver
+	}
+
+	NoteCalicoVerQuaver: {
+		DisplayName: Soul Liver
+	}
+
+	NoteCalicoVerCrochet: {
+		DisplayName: Soul Liver
+	}
+
+	NimogenLaser: {
+		DisplayName: Photon Trishula Beam
+	}
+
+	NimogenBolt: {
+		DisplayName: Paradeic Photon
+	}
+
+	NapalmArrowClone: {
+		DisplayName: Demolition Arrow
+	}
+
+	NapalmArrowBulletVer: {
+		DisplayName: Napalm Bomb
+	}
+
+	MoltenIronEmber: {
+		DisplayName: Molten Iron Ember
+	}
+
+	Mk153CartGriefStrong: {
+		DisplayName: Mk153
+	}
+
+	Mk153CartGriefCluster: {
+		DisplayName: Mk153
+	}
+
+	Mk153CartGrief: {
+		DisplayName: Mk153
+	}
+
+	Mk153CartStrong: {
+		DisplayName: Mk153
+	}
+
+	Mk153CartCluster: {
+		DisplayName: Mk153
+	}
+
+	Mk153Cart: {
+		DisplayName: Mk153
+	}
+
+	Meidobimu: {
+		DisplayName: Maiden Beam
+	}
+
+	M16A1BOSSMarker: {
+		DisplayName: Marker of Betrayal
+	}
+
+	LycorisBeam: {
+		DisplayName: Lycoris Beam
+	}
+
+	KittyShot: {
+		DisplayName: Kitty Shot
+	}
+
+	JupiterM4A1GriefStrong: {
+		DisplayName: Mark of the Sinner
+	}
+
+	JupiterM4A1GriefCluster: {
+		DisplayName: Mark of the Sinner
+	}
+
+	JupiterM4A1Grief: {
+		DisplayName: Mark of the Sinner
+	}
+
+	JupiterM4A1Strong: {
+		DisplayName: Mark of the Avenger
+	}
+
+	JupiterM4A1Cluster: {
+		DisplayName: Mark of the Avenger
+	}
+
+	JupiterM4A1: {
+		DisplayName: Mark of the Avenger
+	}
+
+	IsomeltDebuffFireball: {
+		DisplayName: Epiphyla Flame
+	}
+
+	InfectionNettleHead: {
+		DisplayName: Infective Epiphyllum Spear
+	}
+
+	InfectionNettleBody: {
+		DisplayName: Infective Epiphyllum Spear
+	}
+
+	HumorLeecherTrident: {
+		DisplayName: Succubus Trident
+	}
+
+	HollowPointAmmoShot: {
+		DisplayName: Hollow Point Bullet
+	}
+
+	HighPressureAssaultBullet: {
+		DisplayName: High Pressure Assault Bullet
+	}
+
+	GraveriserLightning: {
+		DisplayName: Pestilent Lightning Rod
+	}
+
+	GoldLycorisBeam: {
+		DisplayName: Lycoris Beam
+	}
+
+	GodkarmachineBullet: {
+		DisplayName: Deus ex Machina
+	}
+
+	FriedeanSickle: {
+		DisplayName: Friedean Sickle
+	}
+
+	FlareOfRuin: {
+		DisplayName: Flare of Ruin
+	}
+
+	FlamesOfPain: {
+		DisplayName: Flames of Pain
+	}
+
+	FatBlast: {
+		DisplayName: Gula Blast
+	}
+
+	EpiphyllumTrishulaProj: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.EpiphyllumTrishula.DisplayName}"
+	}
+
+	EmeraldBuster: {
+		DisplayName: Green Busterblast
+	}
+
+	EagleFeather: {
+		DisplayName: Eagle Feather
+	}
+
+	DSI8BeamAftereffect: {
+		DisplayName: Dreamer Waverifle
+	}
+
+	DSI8Beam: {
+		DisplayName: Dreamer Waverifle
+	}
+
+	DiamondBuster: {
+		DisplayName: White Busterblast
+	}
+
+	DaNyaife: {
+		DisplayName: Kitten Dagger
+	}
+
+	CoagulatedInsanity: {
+		DisplayName: Coagulated Insanity
+	}
+
+	CherrybombBullet: {
+		DisplayName: Cherrybomb Bullet
+	}
+
+	CarrotDart: {
+		DisplayName: Carrot Dart
+	}
+
+	BuckshotBullet: {
+		DisplayName: Buckshot Bullet
+	}
+
+	BoneKSVKVer: {
+		DisplayName: 骨
+	}
+
+	BleedingFlames: {
+		DisplayName: Pyroclastic Petal Shard
+	}
+
+	BelialBullet: {
+		DisplayName: Belial Bullet
+	}
+
+	BayonetHitbox: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.CarcanoIchigo.DisplayName}"
+	}
+
+	Axecution: {
+		DisplayName: Observer's Striker
+	}
+
+	Axeco: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.AxeofPureSpirit.DisplayName}"
+	}
+
+	AT4CartGriefStrong: {
+		DisplayName: AT4
+	}
+
+	AT4CartGriefCluster: {
+		DisplayName: AT4
+	}
+
+	AT4CartGrief: {
+		DisplayName: AT4
+	}
+
+	AT4CartStrong: {
+		DisplayName: AT4
+	}
+
+	AT4CartCluster: {
+		DisplayName: AT4
+	}
+
+	AT4Cart: {
+		DisplayName: AT4
+	}
+
+	AstraStar: {
+		DisplayName: Astra Star
+	}
+
+	ArmorPiercingBullet: {
+		DisplayName: Armor-Piercing Bullet
+	}
+
+	ArcticIcicle: {
+		DisplayName: Arctic Icicle
+	}
+
+	AR15PantyKnifeThrown: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.AR15PantyKnife.DisplayName}"
+	}
+
+	AquaticSpirit: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.SoulstormFan.DisplayName}"
+	}
+
+	AntiPersonnelGrenadeGriefStrong: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntiPersonnelGrenadeGriefCluster: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntiPersonnelGrenadeGrief: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntiPersonnelGrenadeStrong: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntiPersonnelGrenadeCluster: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntiPersonnelGrenade: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	AntarcticBullet: {
+		DisplayName: Antarctic Bullet
+	}
+
+	AmethystBuster: {
+		DisplayName: Purple Busterblast
+	}
+
+	AmberBuster: {
+		DisplayName: Orange Busterblast
+	}
+
+	AmalgamFlame: {
+		DisplayName: Amalgam Flame
+	}
+
+	AcedicBullet: {
+		DisplayName: Acedic Bullet
+	}
+
+	TareusDroneLaser: {
+		DisplayName: Tareus Drone
+	}
+
+	TareusDrone: {
+		DisplayName: Tareus Drone
+	}
+
+	OrientalWarTurtleStick: {
+		DisplayName: Dynasty Wood Stick
+	}
+
+	OrientalWarTurtle: {
+		DisplayName: Giant Oriental Tortoise
+	}
+
+	MorridowSpider: {
+		DisplayName: Morridow Widow
+	}
+
+	LandmineFairy: {
+		DisplayName: Landmine Fairy
+	}
+
+	ClaymoreProj: {
+		DisplayName: Landmine Fairy Claymore
+	}
+
+	StarApocalypseSplash: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.WorldsEndStarWrath.DisplayName}"
+	}
+
+	StarApocalypse: {
+		DisplayName: "{TerrariaxGirlsFrontline.Items.WorldsEndStarWrath.DisplayName}"
+	}
+
+	BitFriendly: {
+		DisplayName: Bit
+	}
+
+	BitBulletFriendly: {
+		DisplayName: Bit
+	}
+
+	WhipMrsGrayProj: {
+		DisplayName: Timberwolf Tail
+	}
+
+	ParadeusRainbowWhipUpgradeProj: {
+		DisplayName: Chains of William
+	}
+
+	AR15PantyKnifeProj: {
+		DisplayName: Secret Stellar Stabber
+	}
+
+	AlpacaKnifeProj: {
+		DisplayName: Renate's Razor
+	}
+
+	AlchemistReaperProj: {
+		DisplayName: Alchemist Reaper
+	}
+
+	RodeleroLaser: {
+		DisplayName: Beamlance Laser
+	}
+
+	NemeumChargeShot: {
+		DisplayName: Nemeum Cannon
+	}
+
+	MachineBulletP1: {
+		DisplayName: 弾丸
+	}
+
+	MachineBulletW1: {
+		DisplayName: 弾丸
+	}
+
+	MachineBulletS4: {
+		DisplayName: 弾丸
+	}
+
+	MachineBulletS3: {
+		DisplayName: 弾丸
+	}
+
+	MachineBulletS2: {
+		DisplayName: 弾丸
+	}
+
+	MachineBulletS1: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet6: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet5: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet4: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet3: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet2: {
+		DisplayName: 弾丸
+	}
+
+	MachineBullet1: {
+		DisplayName: 弾丸
+	}
+
+	HostileNapalmArrowClone: {
+		DisplayName: Demolition Arrow
+	}
+
+	HostileAntiPersonnelGrenadeAirDeployed: {
+		DisplayName: Hostile Anti Personnel Grenade Air Deployed
+	}
+
+	HostileAntiPersonnelGrenadeLight: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	HostileAntiPersonnelGrenade: {
+		DisplayName: Anti-Personnel Grenade
+	}
+
+	BOSSDreamerMiniLaser: {
+		DisplayName: Dreamer Waverifle
+	}
+
+	BOSSDreamerLaser: {
+		DisplayName: Nirvanic Destruction Beam
+	}
+}
+
+ModChecklistConditions: {
+	DreamerSpawnCondition: Found in Butterfly Skirmish Wave 6, summoned with [i:{0}]
+	DestroyerSpawnCondition: Found in Butterfly Skirmish Wave 5, summoned with [i:{0}]
+	IntruderSpawnCondition: Found in Butterfly Skirmish Wave 4, summoned with [i:{0}]
+	HunterSpawnCondition: Found in Butterfly Skirmish Wave 3, summoned with [i:{0}]
+	ScarecrowSpawnCondition: Found in Butterfly Skirmish Wave 1, summoned with [i:{0}]
+	UseItemRequirementT3: After clearing the Martian Madness, use a [i:{0}]
+	UseItemRequirementT2: Before clearing the Martian Madness, use a [i:{0}]
+	UseItemRequirementT1: Before defeating Plantera, use a [i:{0}]
+}
+
+ModChecklistNames: {
+	BSkirmishTier3: Butterfly Skirmish Tier 3
+	BSkirmishTier2: Butterfly Skirmish Tier 2
+	BSkirmishTier1: Butterfly Skirmish Tier 1
+}
+
+Conditions: {
+	SupplyBoxConditionSakura: A 100 Shiki is in your inventory
+	HelianthusIsInTown: Helian has moved in
+	SupplyBoxConditionHoxy: A Five-seveN is in your inventory
+	SupplyBoxConditionLazy: A RFB is in your inventory
+	SupplyBoxConditionAcademy: A SRS is in your inventory
+	SupplyBoxConditionReceivedPronunciation: A Lee-Enfield is in your inventory
+	SupplyBoxConditionHoliday: Halloween or Christmas is active
+	DefeatedButterflySkirmishTAny: Defetaed the Butterfly Skirmish at least once
+}
+
+DropConditions: {
+	BiomeReqGraveyard: Drops in a Graveyard
+	BiomeReqSpace: Drops in the Space layer
+	BiomeReqDungeon: Drops in the Dungeon
+	BiomeReqIce: Drops in the Hardmode Underground Snow
+	BiomeReqSnow: Drops in the Hardmode Snow
+	BiomeReqHallow: Drops in the Hardmode Hallow
+	BiomeReqCrimson: Drops in the Hardmode Crimson
+	BiomeReqCorrupt: Drops in the Hardmode Corruption
+	BiomeReqCavern: Drops in pure Hardmode Cavern layer
+	BiomeReqForest: Drops in the Hardmode Forest
+	PlayerHasWelrodReq: Player must have Welrod MkII in inventory
+	EmpressDeagleReq:
+		'''
+		Requires the Rescue Fairy Charm
+		Only drops by itself on Classic Mode
+		'''
+	RescueFairyCharmReq: Requires the Rescue Fairy Charm
+}
+
+NPCs: {
+	CyclopsS: {
+		DisplayName: Cyclops
+	}
+
+	CyclopsA: {
+		DisplayName: Cyclops
+	}
+
+	Tarantula: {
+		DisplayName: Tarantula
+	}
+
+	AegisMilitary: {
+		DisplayName: Aegis
+	}
+
+	StreletP: {
+		DisplayName: Strelet
+	}
+
+	Rodelero: {
+		DisplayName: Rodelero
+	}
+
+	BOSSDreamer: {
+		DisplayName: Dreamer
+	}
+
+	BOSSDestroyer: {
+		DisplayName: Destroyer
+	}
+
+	BOSSIntruder: {
+		DisplayName: Intruder
+	}
+
+	BOSSHunter: {
+		DisplayName: Hunter
+	}
+
+	BOSSScarecrowBit: {
+		DisplayName: Bit
+	}
+
+	BOSSScarecrow: {
+		DisplayName: Scarecrow
+	}
+
+	Manticore: {
+		DisplayName: Manticore
+	}
+
+	Prowler: {
+		DisplayName: Prowler
+	}
+
+	Aegis: {
+		DisplayName: Aegis
+	}
+
+	Guard: {
+		DisplayName: Guard
+	}
+
+	Dragoon: {
+		DisplayName: Dragoon
+	}
+
+	Brute: {
+		DisplayName: Brute
+	}
+
+	Striker: {
+		DisplayName: Striker
+	}
+
+	Jaeger: {
+		DisplayName: Jaeger
+	}
+
+	Vespid: {
+		DisplayName: Vespid
+	}
+
+	Ripper: {
+		DisplayName: Ripper
+	}
+
+	Scout: {
+		DisplayName: Scout
+	}
+
+	Nemeum: {
+		DisplayName: Nemeum
+	}
+
+	Golyat: {
+		DisplayName: Goliath
+	}
+
+	Dinergate: {
+		DisplayName: Dinergate
+	}
+
+	Centaurus: {
+		DisplayName: Centaurus
+	}
+
+	Helianthus: {
+		Census: {
+			SpawnCondition: Use [i:{0}]
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I adore {NPCName}! She is a super-hardworking woman! I do wonder what makes her tick though?
+			LikeNPC_Princess: Ah - {NPCName} is so full of joy and innocence... if only M4A1 would have kept that outlook when Griffin got duped...
+			DislikeNPC: Even though we both dabble in similar things, {NPCName} just makes me uncomfortable.
+			LikeNPC_Cyborg: "{NPCName} shows me that man and machine can work together as one. His hybridization might interest someone like Angelia."
+			LikeNPC: The ears on {NPCName}? They remind me a bit of Persica and a T-Doll who liked being praised by commanders. Pretty amusing.
+			DislikeBiome: I'm not pleased with you putting me in a place like the {BiomeName}. Clashes with my style.
+			LikeBiome: The {BiomeName}'s landscape is nice. Reminds me of home back in Eastern Europe.
+			HateCrowded: This would make our T-Doll housing facilities look tidy in comparison. I'm getting a headache just sitting around here.
+			DislikeCrowded: This is like working in a cubicle. Not the greatest area to do duties.
+			LoveSpace: Perfect. This is enough room to keep in contact with my allied factions.
+			FarFromHome: I need to make my way back to my base first. Just be patient, OK?
+			NoHome: Aren't you supposed to give me a hideout to watch the land over?
+			Content: Nothing currently bothering me now.
+		}
+
+		DisplayName: Officer
+	}
+}
+
+Buffs: {
+	ParadeusRainbowWhipUpgradeNPCDebuff: {
+		Description: Mods.TerrariaxGirlsFrontline.BuffDescription.ParadeusRainbowWhipUpgradeNPCDebuff
+		DisplayName: Mods.TerrariaxGirlsFrontline.BuffName.ParadeusRainbowWhipUpgradeNPCDebuff
+	}
+
+	MrsGrayWhipNPCDebuff: {
+		Description: Mods.TerrariaxGirlsFrontline.BuffDescription.MrsGrayWhipNPCDebuff
+		DisplayName: Mods.TerrariaxGirlsFrontline.BuffName.MrsGrayWhipNPCDebuff
+	}
+
+	BrigitteBulletDebuff: {
+		Description:
+			'''
+			Losing life
+			Weakened damage potential
+			'''
+		DisplayName: Bone-Scrapped
+	}
+
+	TileEffectMiasis: {
+		Description: The APC9K is contributing some bonus defense to your armor
+		DisplayName: Bodyguard's Tango
+	}
+
+	TileEffectMia: {
+		Description: The APC556 is contributing some added passive damage
+		DisplayName: Bodyguard's Waltz
+	}
+
+	XueDrain: {
+		Description: Increased life regeneration
+		DisplayName: Xue Drain
+	}
+
+	VodkaVengeance: {
+		Description: Increased ranged velocity and damage for Russian weapons, lowered defense
+		DisplayName: Vodka Vengeance
+	}
+
+	VitaminNeostead: {
+		Description: Provides health regeneration from South African carrots
+		DisplayName: Vitamin Neostead
+	}
+
+	UMPLastStandCooldown: {
+		Description: You almost lost your arm there!
+		DisplayName: Heroine's Last Stand
+	}
+
+	TraitorRage: {
+		Description:
+			'''
+			'You messin' with me?'
+			Boosts defense, damage, and armor penetration
+			Boosts depend on marker condition
+			'''
+		DisplayName: Traitor's Rage
+	}
+
+	TileEffect: {
+		Description:
+			'''
+			Increases damage and critical damage by 7%
+			Increased night vision
+			'''
+		DisplayName: Tile Effect
+	}
+
+	ThermiteBurst: {
+		Description: Losing life
+		DisplayName: Thermite Burst
+	}
+
+	TeddyBearrier: {
+		Description: Increases defense by 40 until after next hit
+		DisplayName: Revenger's Barrier
+	}
+
+	Teatarred: {
+		Description: Doused in hot liquid
+		DisplayName: Teatarred
+	}
+
+	SolarBarrier: {
+		Description: Reduces damage taken by 10%
+		DisplayName: Solar Caramelization
+	}
+
+	SmokeSuppression: {
+		Description: Weakened damage potential
+		DisplayName: Damage Suppression
+	}
+
+	Sakurascorch: {
+		Description: Feeling a touch of death
+		DisplayName: Sakurascorch
+	}
+
+	RainofRevenge: {
+		Description:
+			'''
+			Increases damage and critical damage by 10%
+			Now is scum spine ripping time!
+			'''
+		DisplayName: Rain of Revenge
+	}
+
+	PunishinglyDrunk: {
+		Description:
+			'''
+			Various Vietnam War-era United States weapons gain boosts
+			Decreases non-ranged damage
+			'''
+		DisplayName: Punishingly Drunk
+	}
+
+	Psychobleed: {
+		Description: Overdrawn at the blood bank
+		DisplayName: Psychobleeding
+	}
+
+	Phospherno: {
+		Description: Losing life
+		DisplayName: Phospherno
+	}
+
+	MapleSyrupd: {
+		Description: Hosing your life away
+		DisplayName: Maple Syrup'd
+	}
+
+	ManicFrenzy: {
+		Description: Increases damage and critical damage by 5%
+		DisplayName: Manic Frenzy
+	}
+
+	LunarDodge: {
+		Description: Grants 10% chance to dodge incoming attacks
+		DisplayName: Lunar Waltz
+	}
+
+	LockandLoad: {
+		Description: 33% chance to save ammo
+		DisplayName: Lock and Load
+	}
+
+	Isomelt: {
+		Description:
+			'''
+			A true biohazard
+			Defense reduced by 50
+			'''
+		DisplayName: Isomelt
+	}
+
+	HelenaArmorLeech: {
+		Description: Reduces damage taken by 10%
+		DisplayName: Armor Leech Successful
+	}
+
+	ForceShield: {
+		Description: Increases defense by 10 & reduces damage taken by 5%
+		DisplayName: Force Shield
+	}
+
+	DonkeyRage: {
+		Description: 88% chance to save ammo
+		DisplayName: Slothful Vengeance
+	}
+
+	Bruhnana: {
+		Description: Reduces damage taken by 40% shortly after respawning
+		DisplayName: Fortunate Backup
+	}
+
+	Asleep: {
+		Description:
+			'''
+			You cannot move for a short while
+			How can you sleep while standing?
+			'''
+		DisplayName: Asleep
+	}
+
+	TareusSummons: {
+		Description: Hunt down your foes with Tareus's sentinels
+		DisplayName: Tareus Drone
+	}
+
+	ScarecrowBits: {
+		Description: Scarecrow's drones will fight for you
+		DisplayName: Bit
+	}
+
+	Morriwidow: {
+		Description: Instill terror in your foes with Paradeus spiders
+		DisplayName: Morriwidow
+	}
+
+	LandmineFairy: {
+		Description: The Technical Fairy will fight for you
+		DisplayName: Landmine Fairy
+	}
+}
+
+GameTips: {
+	ArmorPiercingShotTip: Need extra oomph for your weaker firearms? There's an ammo type that'll give your bullets some powerful armor penetration.
+	PumpkinMoonWelrodTip: Battling the Pumpkin Moon using a certain gun might get you something that might help your Summon-using friends greatly.
+	SubMachineGunTip: Not satisfied with a Uzi from the Jungle? There's two craftable guns like it that can inflict Hellfire or Frostbite for no added cost.
+	CyborgHelianthusTip: If a certain middle-aged lady is around your world - try checking out if the Cyborg might have something new to sell.
+	FairyCharmTip: There's a certain curious trinket you can place in your inventory that allows some enemies to drop some strange items...
+	CausticCommunicatorTip: Has the Clothier's curse lifted? Your world is recieving some strange codec signals. Could Meteorite help solve this issue?
+}
+
+Biomes: {
+	ButterflySkirmishBestiaryOnlyBiome: {
+		TownNPCDialogueName: the Butterfly Skirmish Bestiary Only Biome
+		DisplayName: Butterfly Skirmish
+	}
+}
+
+BossDialogue: {
+	DreamerDeath: Ugh! Another low-life catches me, huh? Alchemist is on her way here soon... Ha. Don't think the battles aren't over yet. See you, punk.
+	DreamerSuperLaser2: Let your bloodlust fill the battlefield!
+	DreamerSuperLaser: Get in my line of sight!
+	Dreamer20PercentHealth: Hahahaha! This isn't enough!
+	DreamerHalfHealth: Don't let it get over your head, I'm just getting started!
+	DreamerSpawn: Keheheh. I've been watching your combat performance up until now... I'm hiding out of your sight, filthy human. I've got my eye on you!
+	DestroyerDeath: Ah... what is happening to me?! Everything's going dark... Dreamer, please hold out for me soon!
+	Destroyer20PercentHealth: H-huh?... my right arm... I can't move it... ...no! I'm not losing to another human! Not by you jerks in a long shot!!
+	DestroyerHalfHealth: Ngh... now, you've done it! You've made me angry! I'm going to bombard you with everything that I have!
+	DestroyerAirFire2: Stop trying to dodge my attacks!
+	DestroyerAirFire: Take this!
+	DestroyerSpawn: Ohhh! Look! It's the human that destroyed some of our ringleaders already! I, Destroyer, have been sent here to stop its advance!
+	IntruderDeath: Gah... my show's over. It was disappointing that I couldn't take you down, but I have to give you a pass for that spectacular performance.
+	Intruder30PercentHealth: You're an interesting human. Your actions' captivating my sense of logic! I want more of it! Give me the inspiration that I need!
+	IntruderHalfHealth: Mm! Act 1 is complete. now it's time for Act 2! Let's bring it up to the climax, shall we?
+	IntruderSpawn: Kuku, so you're that blockhead who managed to defeat Hunter and made it this far. I'll make your next death one never to forget!
+	HunterDeath: ...I see. So I was the prey this time... The hunter has become the hunted, I suppose. Maybe this assault mission was too much for me...
+	HunterDesperationStart: Ngh... I won't let their deaths be in vain! I'll put as much lead as I can into you before I die!
+	HunterHalfHealth: Still alive, eh? Hunters do not let their prey escape, so I'll endlessly track your movements as I long as I can.
+	HunterSpawn: Our command-type ringleaders couldn't keep you down? I'll make sure to reserve a special place in hell for you.
+	ScarecrowDeath: Ah... At least this way, the Mastermind can just... make another me from my neural cloud database... to come after you.
+	ScarecrowSummonZeal: Enough!
+	ScarecrowSummon: You might have destroyed those, but I always have reserves.
+	ScarecrowSpawn: Ho? So you're the one who's been destroying our army's units left and right. Very well, I'll at least entertain you before you die.
+}
+
+MessageInfo: {
+	ButterflySkirmishWave10: Wave: 10: Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Cyclops, Striker, Cerynitis, Aegis, Tarantula, Hydra, Goliath, Centaurus, Orthrus, Minotaurus, Kratos (BOSS: Judge)
+	ButterflySkirmishWave9: Wave: 9: Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Cyclops, Striker, Cerynitis, Aegis, Tarantula, Manticore, Goliath, Centaurus, Orthrus, Minotaurus (BOSS: Gager)
+	ButterflySkirmishWave8: Wave: 8: Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Cyclops, Striker, Cerynitis, Aegis, Tarantula, Manticore, Goliath (BOSS: Ouroboros)
+	ButterflySkirmishWave7: Wave: 7: Dinergate, Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Striker, Nemeum, Aegis, Tarantula, Manticore, Goliath (BOSS: Alchemist)
+	ButterflySkirmishWave6: Wave: 6: Dinergate, Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Striker, Nemeum, Aegis, Tarantula, Manticore (BOSS: Dreamer)
+	ButterflySkirmishWave5: Wave: 5: Dinergate, Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Striker, Nemeum, Aegis, Tarantula (BOSS: Destroyer)
+	ButterflySkirmishWave4: Wave: 4: Dinergate, Scout, Prowler, Ripper, Vespid, Jaeger, Guard, Brute, Dragoon, Striker, Nemeum (BOSS: Intruder)
+	ButterflySkirmishWave3: Wave: 3: Dinergate, Scout, Prowler, Ripper, Vespid, Jaeger, Guard (BOSS: Hunter)
+	ButterflySkirmishWave2: Wave: 2: Dinergate, Scout, Prowler, Ripper, Vespid (BOSS: Executioner)
+	ButterflySkirmishWave1: First Wave: Dinergate, Scout, Prowler (BOSS: Scarecrow)
+	ButterflySkirmishEndString: The Butterfly Skirmish has ended...
+	ButterflySkirmishBeginString: The Butterfly Skirmish has begun...
+	IsomeltDeathString: "{0} became the next ELID infectee."
+	SakurascorchDeathString: "{0} withered in the flames."
+	TeatarredDeathString: "{0} couldn't handle the boiling tea."
+	NaturalSpawnString: Terrible automatons start roaming the world freely...
+	MysteryRemoteString: A faint pulse emanates from the communicator as it vanishes within your hands...
+}
+
+Currencies: {
+	AntiRainCorePurchaseString: Anti-Rain Core
+}
+
+Common: {
+	HelianthusTownNPCName1: Helian
+}
+
