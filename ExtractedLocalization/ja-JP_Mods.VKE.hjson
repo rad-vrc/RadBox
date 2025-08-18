@@ -1,529 +1,529 @@
 Items: {
 	Hammer: {
-		Tooltip: ナイフ作業台のクラフトに使用
-		DisplayName: ハンマー
+		Tooltip: Used in crafting the knife workbench
+		DisplayName: Hammer
 	}
 
 	IronKnivesMold: {
-		DisplayName: 鉄のナイフ型
+		DisplayName: Iron Knives Mold
 		Tooltip: ""
 	}
 
 	IronKnives: {
-		Tooltip: 投げナイフの弾を使用
-		DisplayName: 鉄のナイフ
+		Tooltip: Uses throwing knife ammo
+		DisplayName: Iron Knives
 	}
 
 	LivingTissue: {
-		DisplayName: 生きている組織
+		DisplayName: Living Tissue
 		Tooltip:
 			'''
-			手の中でうねり蠢く肉
-			日食中にブッチャーがドロップ
+			Flesh that wrigles and squirms in your hands
+			Dropped by the Butcher during a solar eclipse
 			'''
 	}
 
 	PiercingTip: {
-		DisplayName: 貫通チップ
+		DisplayName: Piercing Tip
 		Tooltip:
 			'''
-			ナイフ強化用素材
-			スケルトンやアーチャーがドロップ
+			Knife Upgrade Resource
+			Dropped by skeletons and archers
 			'''
 	}
 
 	PlanteraCloth: {
-		DisplayName: プランテラの布
-		Tooltip: フードの作成に使用
+		DisplayName: Plantera Cloth
+		Tooltip: Used in the crafting of Hoods
 	}
 
 	PlantFiber: {
-		DisplayName: 植物繊維
+		DisplayName: Plant Fiber
 		Tooltip:
 			'''
-			魔力を帯びた繊維
-			リビングウッドの織機で精製するか、ブラッドアルター付近に落とすと1つにつき3〜6のブラッドポイントを得る
-			プランテラがドロップ
+			Fiber that holds magical properties
+			Can be refined at a Living Loom or dropped near a blood altar to gain between 3 and 6 blood points each
+			Dropped by Plantera
 			'''
 	}
 
 	AdamantitePlate: {
-		DisplayName: アダマンタイトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Adamantite Plate
+		Tooltip: Used to make defense knives
 	}
 
 	ChlorophytePlate: {
-		DisplayName: クロロファイトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Chlorophyte Plate
+		Tooltip: Used to make defense knives
 	}
 
 	CobaltPlate: {
-		DisplayName: コバルトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Cobalt Plate
+		Tooltip: Used to make defense knives
 	}
 
 	CopperPlate: {
-		DisplayName: 銅のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Copper Plate
+		Tooltip: Used to make defense knives
 	}
 
 	CrimtanePlate: {
-		DisplayName: クリムタンのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Crimtane Plate
+		Tooltip: Used to make defense knives
 	}
 
 	DemonitePlate: {
-		DisplayName: デモナイトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Demonite Plate
+		Tooltip: Used to make defense knives
 	}
 
 	GoldPlate: {
-		DisplayName: 金のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Gold Plate
+		Tooltip: Used to make defense knives
 	}
 
 	HallowedPlate: {
-		DisplayName: 神聖なプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Hallowed Plate
+		Tooltip: Used to make defense knives
 	}
 
 	IronPlate: {
-		DisplayName: 鉄のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Iron Plate
+		Tooltip: Used to make defense knives
 	}
 
 	LeadPlate: {
-		DisplayName: 鉛のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Lead Plate
+		Tooltip: Used to make defense knives
 	}
 
 	LuminitePlate: {
-		DisplayName: ルミナイトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Luminite Plate
+		Tooltip: Used to make defense knives
 	}
 
 	MeteoritePlate: {
-		DisplayName: メテオライトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Meteorite Plate
+		Tooltip: Used to make defense knives
 	}
 
 	MythrilPlate: {
-		DisplayName: ミスリルのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Mythril Plate
+		Tooltip: Used to make defense knives
 	}
 
 	OrichalcumPlate: {
-		DisplayName: オリハルコンのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Orichalcum Plate
+		Tooltip: Used to make defense knives
 	}
 
 	PalladiumPlate: {
-		DisplayName: パラジウムのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Palladium Plate
+		Tooltip: Used to make defense knives
 	}
 
 	PlatinumPlate: {
-		DisplayName: プラチナのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Platinum Plate
+		Tooltip: Used to make defense knives
 	}
 
 	ShroomitePlate: {
-		DisplayName: シュルーマイトのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Shroomite Plate
+		Tooltip: Used to make defense knives
 	}
 
 	SilverPlate: {
-		DisplayName: 銀のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Silver Plate
+		Tooltip: Used to make defense knives
 	}
 
 	SpectrePlate: {
-		DisplayName: スペクターのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Spectre Plate
+		Tooltip: Used to make defense knives
 	}
 
 	TinPlate: {
-		DisplayName: 錫のプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Tin Plate
+		Tooltip: Used to make defense knives
 	}
 
 	TitaniumPlate: {
-		DisplayName: チタンのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Titanium Plate
+		Tooltip: Used to make defense knives
 	}
 
 	TungstenPlate: {
-		DisplayName: タングステンのプレート
-		Tooltip: 防御ナイフの作成に使用
+		DisplayName: Tungsten Plate
+		Tooltip: Used to make defense knives
 	}
 
 	ProcessingUnit: {
-		DisplayName: 処理ユニット
+		DisplayName: Processing Unit
 		Tooltip:
 			'''
-			高性能処理ユニットや原始技術の作成に使用
-			機械系の敵と火星人がドロップ
-			サイボーグが販売
+			Used in crafting of Advanced Processing Units and Primitive technology
+			Dropped by Mechanical enemies and martians
+			Sold by the Cyborg
 			'''
 	}
 
 	ProcessingUnitAdvanced: {
-		DisplayName: 高性能処理ユニット
-		Tooltip: 先端技術の作成に使用
+		DisplayName: Processing Unit Advanced
+		Tooltip: Used in crafting of advanced technology
 	}
 
 	RicochetEssence: {
-		DisplayName: 跳弾のエッセンス
+		DisplayName: Ricochet Essence
 		Tooltip:
 			'''
-			ナイフ強化用素材
-			スライムがドロップ
+			Knife Upgrade Resource
+			Dropped by slimes
 			'''
 	}
 
 	SharpeningRodCast: {
-		DisplayName: 研磨棒の鋳型
+		DisplayName: Sharpening Rod Cast
 		Tooltip: ""
 	}
 
 	SharpeningRod: {
 		Tooltip:
 			'''
-			ナイフダメージが30%増加
-			ナイフのクリティカルダメージが15%上昇
+			30% increase knife damage
+			15% increased knife critical damage
 			'''
-		DisplayName: 研磨棒
+		DisplayName: Sharpening Rod
 	}
 
 	StableCorruptionCrystal: {
-		DisplayName: 安定した不浄のクリスタル
-		Tooltip: 高エネルギーで封印された不浄のクリスタル
+		DisplayName: Stable Corruption Crystal
+		Tooltip: A high energy, sealed corrupted crystal
 	}
 
 	StableCrimsonCrystal: {
-		DisplayName: 安定した真紅のクリスタル
+		DisplayName: Stable Crimson Crystal
 		Tooltip:
 			'''
-			高エネルギーで封印された真紅のクリスタル
-			ナイフ強化用素材
+			A high energy, sealed crimson crystal
+			Knife Upgrade Resource
 			'''
 	}
 
 	StoneAmmoSculpt: {
-		DisplayName: 石弾の原型
+		DisplayName: Stone Ammo Sculpt
 		Tooltip: ""
 	}
 
 	StoneAmmoSculptComplete: {
-		DisplayName: 石弾の原型・完成
+		DisplayName: Stone Ammo Sculpt Complete
 		Tooltip: ""
 	}
 
 	StoneKnifeSculpt: {
-		DisplayName: 石ナイフの原型
+		DisplayName: Stone Knife Sculpt
 		Tooltip: ""
 	}
 
 	StoneRodSculpt: {
-		DisplayName: 石の棒の原型
+		DisplayName: Stone Rod Sculpt
 		Tooltip: ""
 	}
 
 	Superglue: {
-		DisplayName: 強力接着剤
-		Tooltip: 不安定なクリスタル内のエネルギーを封印するために使用
+		DisplayName: Superglue
+		Tooltip: Used to seal the energy inside of unstable crystals
 	}
 
 	BalitiusDagger: {
-		DisplayName: バリティウスのダガー
-		Tooltip: 敵にタグを付与し、その魂を収集して空の血のクリスタルに格納する力を宿す
+		DisplayName: Balitius Dagger
+		Tooltip: Holds the power to apply a tag on an enemy that collects their soul and stores it into an Empty Blood Crystal
 	}
 
 	Bandage: {
-		DisplayName: 包帯
-		Tooltip: 生贄のダガーによる出血を止めるために使用
+		DisplayName: Bandage
+		Tooltip: Used to stop bleeds from a sacrificial dagger
 	}
 
 	BloodCrystalSoul: {
-		DisplayName: 血のクリスタルの魂
+		DisplayName: Blood Crystal Soul
 		Tooltip:
 			'''
-			インベントリにある状態で、敵がバリティウスのダガーでタグ付けされると、その敵の魂が格納される
-			アルターに設置すると、格納された魂を無制限に召喚できる
+			When in inventory and an enemy is tagged with Balitiu's Dagger, that enemies soul is stored
+			Can be placed in an altar to summon the stored soul indefinitely
 			'''
 	}
 
 	DamagedWyvernHead: {
-		DisplayName: 損傷したワイバーンヘッド
-		Tooltip: ブラッドアルターに投げ込むと血のエッセンスに変換できる
+		DisplayName: Damaged Wyvern Head
+		Tooltip: Can be tossed into a blood altar and converted to blood essence
 	}
 
 	LivingHeart: {
-		DisplayName: 生きている心臓
+		DisplayName: Living Heart
 		Tooltip:
 			'''
-			生者の敵からは稀に、ボスからは必ずドロップ
-			ブラッドアルターに投げ込むと血のエッセンスに変換できる
+			Rarely drops from mortal enemies and always from mortal bosses
+			Can be tossed into a blood altar and converted to blood essence
 			'''
 	}
 
 	MortalHeart: {
-		DisplayName: 生者の心臓
+		DisplayName: Mortal Heart
 		Tooltip:
 			'''
-			心臓を持つ生者の敵がドロップ
-			ブラッドアルターに投げ込むと血のエッセンスに変換できる
+			Dropped by mortal enemies with a heart
+			Can be tossed into a blood altar and converted to blood essence
 			'''
 	}
 
 	NotePad: {
-		DisplayName: メモ帳
+		DisplayName: Note Pad
 		Tooltip: ""
 	}
 
 	RitualBook: {
-		DisplayName: 儀式の書
-		Tooltip: 利用可能な儀式の説明を収録（Wikiへのリンク付き）
+		DisplayName: Ritual Book
+		Tooltip: Contains descriptions of rituals available. *Also contains link to wiki!*
 	}
 
 	SacrificialDagger: {
-		DisplayName: 生贄のダガー
-		Tooltip: 血のエッセンスの蓄えに少量の血を追加できる
+		DisplayName: Sacrificial Dagger
+		Tooltip: Can be used to add a small amount of blood to your blood essence reserves
 	}
 
 	SacrificialDaggerCreative: {
-		DisplayName: 生贄のダガー（クリエイティブ）
-		Tooltip: 「無限の血のエッセンス」
+		DisplayName: Sacrificial Dagger Creative
+		Tooltip: Infinite blood essence~
 	}
 
 	ShaderTest: {
-		DisplayName: シェーダーテスト
-		Tooltip: デバッグ
+		DisplayName: Shader Test
+		Tooltip: Debug
 	}
 
 	TilePosTest: {
-		DisplayName: タイル位置テスト
-		Tooltip: デバッグ
+		DisplayName: Tile Pos Test
+		Tooltip: Debug
 	}
 
 	DeltaKnives: {
-		DisplayName: デルタナイフ
+		DisplayName: Delta Knives
 		Tooltip: ""
 	}
 
 	LuminiteKnives: {
-		DisplayName: ルミナイトナイフ
-		Tooltip: ムーンロードの触手が、プレイヤーの狙いへと伸びる
+		DisplayName: Luminite Knives
+		Tooltip: Moon Lord tendrils lash out to wherever the player is aiming
 	}
 
 	MoonLordsHand: {
-		DisplayName: ムーンロードの手
-		Tooltip: ムーンロードの触手が、プレイヤーの狙いへと伸びる
+		DisplayName: Moon Lords Hand
+		Tooltip: Moon Lord tendrils lash out to wherever the player is aiming
 	}
 
 	PsiKnives: {
-		DisplayName: プサイナイフ
+		DisplayName: Psi Knives
 		Tooltip: ""
 	}
 
 	ThetaKnives: {
-		DisplayName: シータナイフ
+		DisplayName: Theta Knives
 		Tooltip: ""
 	}
 
 	LifeStealPotion: {
-		DisplayName: ライフ吸収ポーション
-		Tooltip: 3分間、ライフ吸収が10%増加
+		DisplayName: Life Steal Potion
+		Tooltip: 10% increased life steal for 3 minutes
 	}
 
 	MurderPotion: {
-		DisplayName: マーダーポーション
+		DisplayName: Murder Potion
 		Tooltip:
 			'''
-			15秒間、クリティカル率が100%上昇
-			その後1分間、「出来の悪い」でクリティカル率0%
+			100% Crit chance for 15 sec
+			Lethargic & 0% crit chance for 1 minute after
 			'''
 	}
 
 	ResetPotion: {
-		DisplayName: リセットポーション
-		Tooltip: デバッグ（血のエッセンスをリセット）
+		DisplayName: Reset Potion
+		Tooltip: Debug (Resets blood essence)
 	}
 
 	BeeKnives: {
-		DisplayName: 蜂のナイフ
-		Tooltip: 蜂の群れを放つ
+		DisplayName: Bee Knives
+		Tooltip: Fires a swarm of bees
 	}
 
 	ButchersKnives: {
-		DisplayName: ブッチャーズナイフ
-		Tooltip: 敵に突き刺さり出血を与えるナイフの束を投げる
+		DisplayName: Butchers Knives
+		Tooltip: Throw a cluster of knives that stick into enemies and cause bleeding
 	}
 
 	CorruptionNestKnives: {
-		DisplayName: 不浄の巣のナイフ
-		Tooltip: ミニ・イーターの群れを放ち、敵に食らいつく
+		DisplayName: Corruption Nest Knives
+		Tooltip: Fires a swarm of mini-eaters that latch onto enemies
 	}
 
 	CrimsonNestKnives: {
-		DisplayName: 真紅の巣のナイフ
-		Tooltip: 敵に食らいつくミニ・クリメラの群れを放つ
+		DisplayName: Crimson Nest Knives
+		Tooltip: Fires a swarm of mini-crimeras that latch onto enemies
 	}
 
 	EnchantedKnives: {
-		DisplayName: エンチャントナイフ
+		DisplayName: Enchanted Knives
 		Tooltip: ""
 	}
 
 	FieryKnives: {
-		DisplayName: 炎のナイフ
-		Tooltip: 命中時に敵を発火させる
+		DisplayName: Fiery Knives
+		Tooltip: Knives that cause enemies to immolate upon being hit
 	}
 
 	HarpyKnives: {
-		DisplayName: ハーピーナイフ
+		DisplayName: Harpy Knives
 		Tooltip: ""
 	}
 
 	JungleKnives: {
-		DisplayName: ジャングルナイフ
-		Tooltip: 狙った方向へトゲのあるツタを3本放つ
+		DisplayName: Jungle Knives
+		Tooltip: Shoots out three prickly vines towards where you aim
 	}
 
 	LightandDark: {
-		DisplayName: ライト・アンド・ダーク
-		Tooltip: 衝突すると戻ってくる飛び道具を放つ
+		DisplayName: Light and Dark
+		Tooltip: Fires projectiles that return upon collision
 	}
 
 	ManaKnivesAnimated: {
-		DisplayName: マナのナイフ
-		Tooltip: マナを吸収する飛び道具を放つ
+		DisplayName: Mana Knives
+		Tooltip: Fires mana stealing projectiles
 	}
 
 	MandibleKnives: {
-		DisplayName: 大顎のナイフ
-		Tooltip: 命中時、20%の確率で敵を追尾するアリ地獄を召喚する
+		DisplayName: Mandible Knives
+		Tooltip: Upon hitting an enemy has a 20% chance to spawn an antlion that homes into the target
 	}
 
 	SengosForgottenBlades: {
-		DisplayName: センゴの忘れられた刃
-		Tooltip: 命中すると急速に回転し、星座のような軌跡で動き始める
+		DisplayName: Sengos Forgotten Blades
+		Tooltip: Upon hitting an enemy gains rapid rotational force and begins to move in a constelation type pattern
 	}
 
 	ShadowKnives: {
-		DisplayName: ペナンブラ
-		Tooltip: 衝突すると戻ってくる飛び道具を放つ
+		DisplayName: Penumbra
+		Tooltip: Fires projectiles that return upon collision
 	}
 
 	StarfuryKnives: {
-		DisplayName: スターフューリーのナイフ
-		Tooltip: 上空からスターフューリーの刃が降り注ぐ
+		DisplayName: Starfury Knives
+		Tooltip: Starfury blades rain down from above
 	}
 
 	WeakVampireKnives: {
-		DisplayName: 弱いヴァンパイアナイフ
-		Tooltip: ライフ吸収発動率が2倍のシンプルなライフ吸収ナイフ
+		DisplayName: Weak Vampire Knives
+		Tooltip: Simple life stealing knives with double chance to heal
 	}
 
 	EverscreamsBranch: {
-		DisplayName: エバースクリームの枝
-		Tooltip: 祝祭の枝を素早く連射する
+		DisplayName: Everscreams Branch
+		Tooltip: Rapidly launches festive branches
 	}
 
 	HarvestersSoul: {
-		DisplayName: 収穫者のソウル
+		DisplayName: Harvesters Soul
 		Tooltip:
 			'''
-			Primary Attack: 素早く広範囲に霊鎌を召喚
-			Secondary Attack: 無限に貫通する大型の霊鎌を召喚
+			Primary Attack: Rapidly summons ethereal sickles in a wide spread
+			Secondary Attack: Summons a large ethereal infinitely piercing sickle
 			'''
 	}
 
 	HorsemansKnives: {
-		DisplayName: カボチャ騎手のナイフ
-		Tooltip: カボチャ騎手の刃を射出し、命中時にホーミングカボチャを召喚することがある
+		DisplayName: Horsemans Knives
+		Tooltip: Launches horseman's blades which have a chance to summon a homing pumpkin on hit
 	}
 
 	RukasusTeslaKnives: {
-		DisplayName: ルカサスのテスラナイフ
-		Tooltip: 範囲ダメージを与える大きなエネルギー球を確率で発生させる
+		DisplayName: Rukasus Tesla Knives
+		Tooltip: Chance to spawn a large ball of energy that does AoE damage
 	}
 
 	Scimitars: {
-		DisplayName: シミター
-		Tooltip: 貫通する回転刃
+		DisplayName: Scimitars
+		Tooltip: Piercing spinning blades
 	}
 
 	BombPouch: {
-		DisplayName: 無限の爆弾ポーチ
-		Tooltip: 投げられる爆弾が無限に出るポーチ
+		DisplayName: Bomb Pouch
+		Tooltip: Infinite pouch of throwable bombs
 	}
 
 	DynamitePouch: {
-		DisplayName: 無限のダイナマイトポーチ
-		Tooltip: 投げられるダイナマイトが無限に出るポーチ
+		DisplayName: Dynamite Pouch
+		Tooltip: Infinite pouch of throwable dynamite
 	}
 
 	GrenadePouch: {
-		DisplayName: 無限のグレネードポーチ
-		Tooltip: 投げられるグレネードが無限に出るポーチ
+		DisplayName: Grenade Pouch
+		Tooltip: Infinite pouch of throwable grenades
 	}
 
 	StickyBombPouch: {
-		DisplayName: 無限の粘着爆弾ポーチ
-		Tooltip: 投げられる粘着爆弾が無限に出るポーチ
+		DisplayName: Sticky Bomb Pouch
+		Tooltip: Infinite pouch of throwable sticky bombs
 	}
 
 	StickyDynamitePouch: {
-		DisplayName: 無限の粘着ダイナマイトポーチ
-		Tooltip: 粘着ダイナマイトが無限に出るポーチ
+		DisplayName: Sticky Dynamite Pouch
+		Tooltip: Infinite pouch of sticky dynamite
 	}
 
 	AltarFakeWallItem: {
-		DisplayName: アルターの偽壁（アイテム）
-		Tooltip: デバッグ
+		DisplayName: Altar Fake Wall Item
+		Tooltip: DEBUG
 	}
 
 	AltarPillar: {
-		DisplayName: アルターの柱
-		Tooltip: デバッグ
+		DisplayName: Altar Pillar
+		Tooltip: DEBUG
 	}
 
 	BloodAltarItem: {
-		DisplayName: ブラッドアルター
+		DisplayName: Blood Altar
 		Tooltip:
 			'''
-			複数の儀式を行えるブラッドアルター
-			血のエッセンスと引き換えに、ブロックやコイン、敵などを召喚できる
+			A blood altar with multiple different rituals allowing you to 
+			summon blocks, coins, enemies and more in exchange for blood essence
 			'''
 	}
 
 	BloodMinerItem: {
-		DisplayName: ブラッドマイナー
+		DisplayName: Blood Miner
 		Tooltip:
 			'''
-			先端の横または上に置かれたブロックを採掘する
-			ハンマーで上部を叩くと採掘する向きを設定できる
+			Mines blocks placed next to or above its tip
+			Sides mined can be configured by hitting top with hammer
 			'''
 	}
 
 	KnifeBenchItem: {
-		DisplayName: ナイフの作業台
+		DisplayName: Knife Workbench
 		Tooltip:
 			'''
-			ナイフを作るための基本作業台
-			右クリックで強化メニューを開く
+			Basic workbench used to craft knives
+			Right-click to open upgrade menu
 			'''
 	}
 
 	PrimitiveAutoMinerItem: {
-		DisplayName: 原始的な自動採掘機
-		Tooltip: 先端の横または上に置かれたブロックを採掘する
+		DisplayName: Primitive Auto Miner Item
+		Tooltip: Mines blocks placed next or above its tip
 	}
 
 	VampTable: {
-		DisplayName: ヴァンパイアアルター
-		Tooltip: ブラッドアルターで作らない全アイテムを作るための終盤作業台
+		DisplayName: Vampire Altar
+		Tooltip: End-game workbench used to craft any item not crafted in blood altar
 	}
 
 	BhleggGun: {
@@ -592,1770 +592,1769 @@ Items: {
 	}
 
 	SuccubusHeartCorset: {
-		DisplayName: サキュバスのハートコルセット
-		Tooltip: ソーダ W リズ
+		DisplayName: Succubus Heart Corset
+		Tooltip: Soda W Rizz
 	}
 
 	VeiKnife: {
-		DisplayName: ヴェイナイフ
-		Tooltip: えーと
+		DisplayName: Vei Knife
+		Tooltip: Erm
 	}
 
 	VeiTailKnives: {
-		DisplayName: ヴェイテールナイフ
-		Tooltip: えーっと
+		DisplayName: Vei Tail Knives
+		Tooltip: Ermm
 	}
 
 	VeiWhip: {
-		DisplayName: ヴェイのムチ
-		Tooltip: えーーっと
+		DisplayName: Vei Whip
+		Tooltip: Ermmm
 	}
 
 	VeiWingItem: {
-		DisplayName: ヴェイの翼（アイテム）
-		Tooltip: ルバーブ帽を作りたかったけど、もうPC的にダメかもって思った
+		DisplayName: Vei Wing Item
+		Tooltip: Wanted to make a rhubarb hat but thought it might not be pc anymore
 	}
 
 	EmptyPouch: {
-		Tooltip: 一度いっぱいに満たすと、中身が無限供給されるようだ
-		DisplayName: 空のポーチ
+		Tooltip: Seems to have an infinite supply of whatever's put in it once completely filled
+		DisplayName: Empty Pouch
 	}
 
 	DartCast: {
-		Tooltip: 非推奨
-		DisplayName: ダートの鋳型
+		Tooltip: DEPRECIATED
+		DisplayName: Dart Cast
 	}
 
 	CrimsonShard: {
-		Tooltip: これを5個組み合わせて完全なクリスタルを作成
-		DisplayName: 真紅の欠片
+		Tooltip: Combine 5 of these to create a complete crystal
+		DisplayName: Crimson Shard
 	}
 
 	CrimsonCrystal: {
-		Tooltip: 強力接着剤でこのクリスタルを安定させる
-		DisplayName: 真紅のクリスタル
+		Tooltip: Use superglue to stabalize this crystal
+		DisplayName: Crimson Crystal
 	}
 
 	CorruptionShard: {
-		Tooltip: これを5個組み合わせて完全なクリスタルを作成
-		DisplayName: 不浄の欠片
+		Tooltip: Combine 5 of these to create a complete crystal
+		DisplayName: Corruption Shard
 	}
 
 	CorruptionCrystal: {
-		Tooltip: 強力接着剤でこのクリスタルを安定させる
-		DisplayName: 不浄のクリスタル
+		Tooltip: Use superglue to stabalize this crystal
+		DisplayName: Corruption Crystal
 	}
 
 	Chisel: {
-		Tooltip: ナイフの作業台の作成に使用
-		DisplayName: ノミ
+		Tooltip: Used in crafting the knife workbench
+		DisplayName: Chisel
 	}
 
 	BrokenHeroKnives: {
-		Tooltip: モスロンを倒すと入手
-		DisplayName: 壊れた英雄のナイフ
+		Tooltip: Obtained from killing Mothra
+		DisplayName: Broken Hero Knives
 	}
 
 	TungstenKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: タングステンのナイフ
+		DisplayName: Tungsten Knives
 	}
 
 	TitaniumKnives: {
-		Tooltip: 正弦波の軌道で飛ぶナイフを発射
-		DisplayName: チタンのナイフ
+		Tooltip: Fires knives that follow a sinusoidal pattern
+		DisplayName: Titanium Knives
 	}
 
 	TinKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 錫のナイフ
+		DisplayName: Tin Knives
 	}
 
 	SilverKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 銀のナイフ
+		DisplayName: Silver Knives
 	}
 
 	ReaverHead: {
-		Tooltip: 歯の投擲弾を使用
-		DisplayName: リーヴァーの頭部
+		Tooltip: Uses throwing teeth ammo
+		DisplayName: Reaver Head
 	}
 
 	PlatinumKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: プラチナのナイフ
+		DisplayName: Platinum Knives
 	}
 
 	PalladiumBlades: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: パラジウムブレード
+		DisplayName: Palladium Blades
 	}
 
 	OrichalcumKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: オリハルコンのナイフ
+		DisplayName: Orichalcum Knives
 	}
 
 	MythrilKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: ミスリルのナイフ
+		DisplayName: Mythril Knives
 	}
 
 	MoltenKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 溶岩のナイフ
+		DisplayName: Molten Knives
 	}
 
 	LeadKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 鉛のナイフ
+		DisplayName: Lead Knives
 	}
 
 	GoldKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 金ナイフ
+		DisplayName: Gold Knives
 	}
 
 	DemoniteKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: デモナイトのナイフ
+		DisplayName: Demonite Knives
 	}
 
 	CrimtaneKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: クリムタンのナイフ
+		DisplayName: Crimtane Knives
 	}
 
 	CopperKnives: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: 銅のナイフ
+		DisplayName: Copper Knives
 	}
 
 	CobaltKunai: {
 		Tooltip:
 			'''
-			投げナイフの弾を使用
-			敵の防御力を減少
+			Uses throwing knives as ammo
+			Reduces enemy defense
 			'''
-		DisplayName: コバルトのクナイ
+		DisplayName: Cobalt Kunai
 	}
 
 	ChlorophyteKnives: {
-		Tooltip: 追尾するナイフを発射
-		DisplayName: クロロファイトのナイフ
+		Tooltip: Fires homing knives
+		DisplayName: Chlorophyte Knives
 	}
 
 	AdamantiteKnives: {
-		Tooltip: 正弦波の軌道で飛ぶナイフを発射
-		DisplayName: アダマンタイトのナイフ
+		Tooltip: Fires knives that follow a sinusoidal pattern
+		DisplayName: Adamantite Knives
 	}
 
 	WyvernHead: {
-		Tooltip: 命中時、ワイバーンの羽が戻ってきてもう一度命中する
-		DisplayName: ワイバーンヘッド
+		Tooltip: Upon hitting an enemy, wyvern feathers continue to return back to hit enemy another time
+		DisplayName: Wyvern Head
 	}
 
 	WrathfulStar: {
-		Tooltip: 巨大な憤怒の刃が上空から降り注ぐ
-		DisplayName: 憤怒の星
+		Tooltip: Large wrathful blades fall from above
+		DisplayName: Wrathful Star
 	}
 
 	WaspKnives: {
-		Tooltip: スズメバチの群れを放つ
-		DisplayName: ワスプナイフ
+		Tooltip: Fires a swarm of bees
+		DisplayName: Wasp Knives
 	}
 
 	VortexKnives: {
-		Tooltip: 命中時に渦を生成することがある
-		DisplayName: ヴォルテックスナイフ
+		Tooltip: Have a chance to spawn a vortex upon hitting an enemy
+		DisplayName: Vortex Knives
 	}
 
 	VampiricPrism: {
-		Tooltip: ライフを消費して血のダガーを高速射出
-		DisplayName: 吸血のプリズム
+		Tooltip: Rapidly fires blood daggers at the cost of life
+		DisplayName: Vampiric Prism
 	}
 
 	VampireKnivesMagic: {
 		Tooltip: ""
-		DisplayName: ヴァンパイアナイフ（魔法）
+		DisplayName: Vampire Knives Magic
 	}
 
 	TrueShadowKnives: {
-		Tooltip: 重力に逆らい、しばらくしてからプレイヤーのもとへ戻るナイフ
-		DisplayName: アンブラ
+		Tooltip: Knives that resist gravity and return to the player after some time
+		DisplayName: Umbra
 	}
 
 	TrueExcaliburKnives: {
 		Tooltip: ""
-		DisplayName: 真・エクスカリバーナイフ
+		DisplayName: True Excalibur Knives
 	}
 
 	TerraKnives: {
 		Tooltip: ""
-		DisplayName: テラナイフ
+		DisplayName: Terra Knives
 	}
 
 	StardustKnives: {
-		Tooltip: ナイフが敵にスターダストセルを植え付け、急速に増殖して他の敵にもダメージを与える
-		DisplayName: スターダストナイフ
+		Tooltip: Knives infest enemies with a stardust cell that multiplies rapidly and damages other enemies
+		DisplayName: Stardust Knives
 	}
 
 	SpectreGlove: {
-		Tooltip: 放たれるスペクターのドクロが段々と増える
-		DisplayName: スペクターグローブ
+		Tooltip: Fires out increasing amounts of spectral skulls
+		DisplayName: Spectre Glove
 	}
 
 	SolarKnives: {
-		Tooltip: 着弾時に爆発し、敵を燃やす
-		DisplayName: ソーラーナイフ
+		Tooltip: Knifes explode on impact and set enemies on fire
+		DisplayName: Solar Knives
 	}
 
 	PillarKnives: {
-		Tooltip: 各ピラーのナイフをランダムに投げる
-		DisplayName: ピラーナイフ
+		Tooltip: Throws out each of the pillar knives at random
+		DisplayName: Pillar Knives
 	}
 
 	Nyives: {
 		Tooltip: ""
-		DisplayName: ナイヴス
+		DisplayName: Nyives
 	}
 
 	NebulaKnives: {
-		Tooltip: 命中時に星雲の爆発を起こす
-		DisplayName: ネビュラナイフ
+		Tooltip: Create a nebulous burst upon impacting an enemy
+		DisplayName: Nebula Knives
 	}
 
 	HallowedGauntlet: {
 		Tooltip: ""
-		DisplayName: 神聖なガントレット
+		DisplayName: Hallowed Gauntlet
 	}
 
 	ExcaliburKnives: {
 		Tooltip: ""
-		DisplayName: エクスカリバーナイフ
+		DisplayName: Excalibur Knives
 	}
 
 	DaedalusStormblades: {
-		Tooltip: 空からストームブレードが降り、稲妻を呼ぶことがある
-		DisplayName: ダイダロス・ストームブレード
+		Tooltip: Storm blades fall from the sky with a chance to call down a lightning strike
+		DisplayName: Daedalus Stormblades
 	}
 
 	ChainKnives: {
 		Tooltip: ""
-		DisplayName: チェーンナイフ
+		DisplayName: Chain Knives
 	}
 
 	BloomingTerror: {
 		Tooltip: ""
-		DisplayName: ブルーミングテラー
+		DisplayName: Blooming Terror
 	}
 
 	TopazKnives: {
 		Tooltip:
 			'''
-			Primary Attack: クリックした先へ追尾するエネルギー光線を放つ
-			Secondary Attack: 多くの敵の進入を防ぐ壁を作る
+			Primary Attack: Shoot beams of energy that home to wherever you click
+			Secondary Attack: Create a wall that stops most enemies from passing through
 			'''
-		DisplayName: トパーズのトライスタッフ
+		DisplayName: Topaz Tri-Staff
 	}
 
 	SapphireKnives: {
 		Tooltip:
 			'''
-			Primary Attack: 何かに当たると水の矢に変わる氷の弾を撃つ
-			Secondary Attack: プレイヤーの近くに水の触手を呼び出して打ち据える
+			Primary Attack: Shoot bolts of ice that melt into bolts of water upon colliding with anything
+			Secondary Attack: Summon lashing tentacles of water in close range around the player
 			'''
-		DisplayName: サファイアのトライスタッフ
+		DisplayName: Sapphire Tri-Staff
 	}
 
 	RubyKnives: {
 		Tooltip:
 			'''
-			Primary Attack: 狙った敵のライフを吸収する
-			Secondary Attack: 低体力時に回復し、それ以外は敵を攻撃する回復セントリーを設置
+			Primary Attack: Steal the life of enemies you aim at
+			Secondary Attack: Place a healing sentry that will heal you when low and will otherwise attack enemies
 			'''
-		DisplayName: ルビーのトライスタッフ
+		DisplayName: Ruby Tri-Staff
 	}
 
 	EmeraldKnives: {
 		Tooltip:
 			'''
-			Primary Attack: 近くの敵へ追尾するエメラルド弾を撃つ
-			Secondary Attack: 4方向にエメラルド弾を放つエメラルドのセントリーを設置
+			Primary Attack: Shoot emerald bolts that home in on nearby enemies
+			Secondary Attack: Place an emerald sentry that shoots emerald bolts in 4 directions
 			'''
-		DisplayName: エメラルドのトライスタッフ
+		DisplayName: Emerald Tri-Staff
 	}
 
 	DiamondKnives: {
 		Tooltip:
 			'''
-			Primary Attack: カーソル位置にダイヤのシャワーを呼ぶ
-			Secondary Attack: 大量の地形を削り取れるダイヤドリルを召喚（速度はダメージ依存）
+			Primary Attack: Call a diamond shower at your cursor
+			Secondary Attack: Summon a diamond drill that is capable of removing massive amounts of terrain (speed determined by damage)
 			'''
-		DisplayName: ダイヤのトライスタッフ
+		DisplayName: Diamond Tri-Staff
 	}
 
 	AmethystKnives: {
 		Tooltip:
 			'''
-			Primary Attack: 敵に当たると分裂するアメジストの破片を撃つ
-			Secondary Attack: 貫通するギザギザの大きなアメジスト塊を撃つ
+			Primary Attack: Shoot amethyst shards that split upon hitting an enemy
+			Secondary Attack: Shoot a large jagged amethyst chunk capable of piercing enemies and penetrating through
 			'''
-		DisplayName: アメジストのトライスタッフ
+		DisplayName: Amethyst Tri-Staff
 	}
 
 	AmberKnives: {
 		Tooltip:
 			'''
-			Primary Attack: 敵からエネルギーを吸い取り杖を充電する 
-			Secondary Attack: 杖に蓄えたエネルギーを強力な光線に凝縮して放つ
-			Energy Basics: 日中、地上にいる間は自動的に充電される
-			周囲の明るさが60%以上（たいまつから6タイル以内）または日中は、消費エネルギーが半減
-			聖域／海岸／砂漠ではダメージ2倍
-			真紅／不浄や日食中は半減
+			Primary Attack: Suck energy out of enemies to charge the staff 
+			Secondary Attack: Concentrates energy stored in staff into powerful beams of light
+			Energy Basics: Staff charges passively while above ground during the day. 
+			Energy consumption halved during the day or while when light surrounding player is greater than 60% (6 tiles away from torch).
+			Damage doubled in Hallow, beach, and desert biomes, Halved in crimson/corruption biomes and during eclipses.
 			'''
-		DisplayName: コハクのトライスタッフ
+		DisplayName: Amber Tri-Staff
 	}
 
 	TungstenDefenseKnives: {
 		Tooltip: ""
-		DisplayName: タングステンの防御ナイフ
+		DisplayName: Tungsten Defense Knives
 	}
 
 	TitaniumDefenseKnives: {
 		Tooltip: ""
-		DisplayName: チタンの防御ナイフ
+		DisplayName: Titanium Defense Knives
 	}
 
 	TinDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 錫の防御ナイフ
+		DisplayName: Tin Defense Knives
 	}
 
 	SpectreDefenseKnives: {
 		Tooltip: ""
-		DisplayName: スペクターの防御ナイフ
+		DisplayName: Spectre Defense Knives
 	}
 
 	SilverDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 銀の防御ナイフ
+		DisplayName: Silver Defense Knives
 	}
 
 	ShroomiteDefenseKnives: {
 		Tooltip: ""
-		DisplayName: シュルーマイトの防御ナイフ
+		DisplayName: Shroomite Defense Knives
 	}
 
 	PlatinumDefenseKnives: {
 		Tooltip: ""
-		DisplayName: プラチナの防御ナイフ
+		DisplayName: Platinum Defense Knives
 	}
 
 	PalladiumDefenseKnives: {
 		Tooltip: ""
-		DisplayName: パラジウムの防御ナイフ
+		DisplayName: Palladium Defense Knives
 	}
 
 	OrichalcumDefenseKnives: {
 		Tooltip: ""
-		DisplayName: オリハルコンの防御ナイフ
+		DisplayName: Orichalcum Defense Knives
 	}
 
 	MythrilDefenseKnives: {
 		Tooltip: ""
-		DisplayName: ミスリルの防御ナイフ
+		DisplayName: Mythril Defense Knives
 	}
 
 	MeteoriteDefenseKnives: {
 		Tooltip: ""
-		DisplayName: メテオライトの防御ナイフ
+		DisplayName: Meteorite Defense Knives
 	}
 
 	LeadDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 鉛の防御ナイフ
+		DisplayName: Lead Defense Knives
 	}
 
 	IronDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 鉄の防御ナイフ
+		DisplayName: Iron Defense Knives
 	}
 
 	HallowedDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 神聖な防御ナイフ
+		DisplayName: Hallowed Defense Knives
 	}
 
 	GoldDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 金の防御ナイフ
+		DisplayName: Gold Defense Knives
 	}
 
 	ElementalDefenseKnives: {
 		Tooltip: ""
-		DisplayName: エレメンタル防御ナイフ
+		DisplayName: Elemental Defense Knives
 	}
 
 	DemoniteDefenseKnives: {
 		Tooltip: ""
-		DisplayName: デモナイトの防御ナイフ
+		DisplayName: Demonite Defense Knives
 	}
 
 	CrimtaneDefenseKnives: {
 		Tooltip: ""
-		DisplayName: クリムタンの防御ナイフ
+		DisplayName: Crimtane Defense Knives
 	}
 
 	CopperDefenseKnives: {
 		Tooltip: ""
-		DisplayName: 銅の防御ナイフ
+		DisplayName: Copper Defense Knives
 	}
 
 	CobaltDefenseKnives: {
 		Tooltip: ""
-		DisplayName: コバルトの防御ナイフ
+		DisplayName: Cobalt Defense Knives
 	}
 
 	ChlorophyteDefenseKnives: {
 		Tooltip: ""
-		DisplayName: クロロファイトの防御ナイフ
+		DisplayName: Chlorophyte Defense Knives
 	}
 
 	AdamantiteDefenseKnives: {
 		Tooltip: ""
-		DisplayName: アダマンタイトの防御ナイフ
+		DisplayName: Adamantite Defense Knives
 	}
 
 	VampiricHelm: {
 		Tooltip: ""
-		DisplayName: 吸血の兜
+		DisplayName: Vampiric Helm
 	}
 
 	VampiricGreaves: {
 		Tooltip: ""
-		DisplayName: 吸血のグリーヴ
+		DisplayName: Vampiric Greaves
 	}
 
 	VampiricChestplate: {
 		Tooltip: ""
-		DisplayName: 吸血の胸当て
+		DisplayName: Vampiric Chestplate
 	}
 
 	PsionicLeggings: {
 		Tooltip: ""
-		DisplayName: サイオニックレギンス
+		DisplayName: Psionic Leggings
 	}
 
 	PsionicHood: {
 		Tooltip: ""
-		DisplayName: サイオニックフード
+		DisplayName: Psionic Hood
 	}
 
 	PsionicChestplate: {
 		Tooltip: ""
-		DisplayName: サイオニックの胸当て
+		DisplayName: Psionic Chestplate
 	}
 
 	ThrowingTeeth: {
 		Tooltip: ""
-		DisplayName: 投げ歯
+		DisplayName: Throwing Teeth
 	}
 
 	ThrowingKnivesTungsten: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（タングステン）
+		DisplayName: Throwing Knives Tungsten
 	}
 
 	ThrowingKnivesTin: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（錫）
+		DisplayName: Throwing Knives Tin
 	}
 
 	ThrowingKnivesSilver: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（銀）
+		DisplayName: Throwing Knives Silver
 	}
 
 	ThrowingKnivesPlatinum: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（プラチナ）
+		DisplayName: Throwing Knives Platinum
 	}
 
 	ThrowingKnivesPalladium: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（パラジウム）
+		DisplayName: Throwing Knives Palladium
 	}
 
 	ThrowingKnivesOrichalcum: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（オリハルコン）
+		DisplayName: Throwing Knives Orichalcum
 	}
 
 	ThrowingKnivesMythril: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（ミスリル）
+		DisplayName: Throwing Knives Mythril
 	}
 
 	ThrowingKnivesMolten: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（溶岩）
+		DisplayName: Throwing Knives Molten
 	}
 
 	ThrowingKnivesIron: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（鉄）
+		DisplayName: Throwing Knives Iron
 	}
 
 	ThrowingKnivesGold: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（金）
+		DisplayName: Throwing Knives Gold
 	}
 
 	ThrowingKnivesDemonite: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（デモナイト）
+		DisplayName: Throwing Knives Demonite
 	}
 
 	ThrowingKnivesCrimtane: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（クリムタン）
+		DisplayName: Throwing Knives Crimtane
 	}
 
 	ThrowingKnivesCopper: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（銅）
+		DisplayName: Throwing Knives Copper
 	}
 
 	ThrowingKnivesCobalt: {
 		Tooltip: ""
-		DisplayName: 投げナイフ（コバルト）
+		DisplayName: Throwing Knives Cobalt
 	}
 
 	TrueDemonsScourge: {
-		Tooltip: カーソルを追尾する悪魔の火弾を放つ
-		DisplayName: 真・デーモンスカージ
+		Tooltip: Casts demonic firebolts that follow your cursor
+		DisplayName: True Demons Scourge
 	}
 
 	SorcerersSarukh: {
-		Tooltip: カーソルを追尾する魔法弾を放つ
-		DisplayName: 魔術師のサルク
+		Tooltip: Casts magic bolts that follow your cursor
+		DisplayName: Sorcerers Sarukh
 	}
 
 	PrismaticArcanum: {
-		Tooltip: カーソルを追尾するプリズマティックボルトを放つ
-		DisplayName: プリズムアルカナム
+		Tooltip: Casts prismatic bolts that follow your cursor
+		DisplayName: Prismatic Arcanum
 	}
 
 	Whetstone: {
 		Tooltip:
 			'''
-			2000番と5000番の砥石を
-			ひとつに組み合わせたブロック
-			ナイフダメージが20%増加
-			ナイフ強化用素材
+			2,000 grit stone and 5,000 grit stone
+			put together in one brick
+			20% increased knife damage
+			Knife Upgrade Resource
 			'''
-		DisplayName: 砥石
+		DisplayName: Whetstone
 	}
 
 	VampNecklaceWof: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（ウォール・オブ・フレッシュ）
+		DisplayName: Vamp Necklace Wof
 	}
 
 	VampNecklaceTwins: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（ツインズ）
+		DisplayName: Vamp Necklace Twins
 	}
 
 	VampNecklaceSlime: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（スライム）
+		DisplayName: Vamp Necklace Slime
 	}
 
 	VampNecklaceSkeletronPrime: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（スケルトロン・プライム）
+		DisplayName: Vamp Necklace Skeletron Prime
 	}
 
 	VampNecklaceSkeletron: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（スケルトロン）
+		DisplayName: Vamp Necklace Skeletron
 	}
 
 	VampNecklacePlantera: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（プランテラ）
+		DisplayName: Vamp Necklace Plantera
 	}
 
 	VampNecklaceMoonLord: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（ムーンロード）
+		DisplayName: Vamp Necklace Moon Lord
 	}
 
 	VampNecklaceGolem: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（ゴーレム）
+		DisplayName: Vamp Necklace Golem
 	}
 
 	VampNecklaceEye: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（アイ）
+		DisplayName: Vamp Necklace Eye
 	}
 
 	VampNecklaceEow: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（イーター・オブ・ワールド）
+		DisplayName: Vamp Necklace Eow
 	}
 
 	VampNecklaceDukeFishron: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（デューク・フィッシュロン）
+		DisplayName: Vamp Necklace Duke Fishron
 	}
 
 	VampNecklaceDestroyer: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（デストロイヤー）
+		DisplayName: Vamp Necklace Destroyer
 	}
 
 	VampNecklaceCultist: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（狂気の崇拝者）
+		DisplayName: Vamp Necklace Cultist
 	}
 
 	VampNecklaceBrain: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（クトゥルフの脳）
+		DisplayName: Vamp Necklace Brain
 	}
 
 	VampNecklaceBee: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス（クイーンビー）
+		DisplayName: Vamp Necklace Bee
 	}
 
 	VampNecklace: {
 		Tooltip: ""
-		DisplayName: 吸血のネックレス
+		DisplayName: Vamp Necklace
 	}
 
 	MechanicalFingers: {
-		Tooltip: 投擲ナイフ攻撃にナイフをさらに2本追加
-		DisplayName: メカニカルフィンガー
+		Tooltip: Adds another two knives to each throwing knife attack
+		DisplayName: Mechanical Fingers
 	}
 
 	MakeshiftWhetstone: {
 		Tooltip:
 			'''
-			ナイフを研ぐための粗い石
-			ナイフのクリティカルダメージが15%増加
+			A crude stone used to sharpen your knives
+			15% increased knife critical damage
 			'''
-		DisplayName: 簡易砥石
+		DisplayName: Makeshift Whetstone
 	}
 
 	LuminitePalm: {
 		Tooltip:
 			'''
-			ムーンロードの断たれた手のひら
-			投擲ナイフ攻撃にナイフをさらに2本追加
+			The severed palm of the Moodlord
+			Adds another two knives to each throwing knife attack
 			'''
-		DisplayName: ルミナイトの掌
+		DisplayName: Luminite Palm
 	}
 
 	WitchDoctorHood: {
 		Tooltip: DISABLED
-		DisplayName: ウィッチドクターのフード
+		DisplayName: Witch Doctor Hood
 	}
 
 	TransmutersHood: {
 		Tooltip:
 			'''
-			使用者のナイフに強欲の力を付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with the powers of midas
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: 変成者のフード
+		DisplayName: Transmuters Hood
 	}
 
 	TechnomancersHood: {
 		Tooltip:
 			'''
-			使用者のナイフにナナイトを付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with nanites
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: テクノマンサーのフード
+		DisplayName: Technomancers Hood
 	}
 
 	ShamansHood: {
 		Tooltip:
 			'''
-			使用者のナイフに毒を付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with Poison
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: シャーマンのフード
+		DisplayName: Shamans Hood
 	}
 
 	PyromancersHood: {
 		Tooltip:
 			'''
-			使用者のナイフに炎を付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with fire
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: パイロマンサーのフード
+		DisplayName: Pyromancers Hood
 	}
 
 	PartyHood: {
 		Tooltip:
 			'''
-			使用者のナイフに楽しさを付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with fun
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: パーティーのフード
+		DisplayName: Party Hood
 	}
 
 	MagesHood: {
 		Tooltip:
 			'''
-			真のメイジのフード
-			フードキーでフードを被ると効果が強くなる
+			The hood of a true mage
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: メイジのフード
+		DisplayName: Mages Hood
 	}
 
 	InvokersHood: {
 		Tooltip:
 			'''
-			使用者のナイフに霊液を付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with ichor
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: 祈祷者のフード
+		DisplayName: Invokers Hood
 	}
 
 	DarkPyromancersHood: {
 		Tooltip:
 			'''
-			使用者のナイフに呪いの炎を付与
-			フードキーでフードを被ると効果が強くなる
+			Imbues the user's knives with cursed flames
+			Press the hood key to pull up the hood for a stronger effect
 			(set the hood key in the settings)
 			'''
-		DisplayName: ダーク・パイロマンサーのフード
+		DisplayName: Dark Pyromancers Hood
 	}
 
 	ExtraHand: {
-		Tooltip: 各投擲ナイフ攻撃にナイフを5本追加
-		DisplayName: エクストラハンド
+		Tooltip: Adds 5 additional knives to each throwing knife attack
+		DisplayName: Extra Hand
 	}
 
 	ExtraFinger: {
-		Tooltip: 各投擲ナイフ攻撃にナイフを1本追加
-		DisplayName: エクストラフィンガー
+		Tooltip: Adds another knife to each throwing knife attack
+		DisplayName: Extra Finger
 	}
 
 	CritEmblem: {
 		Tooltip:
 			'''
-			全てのダメージタイプのクリティカルダメージが8%増加
-			ナイフ強化素材
+			8% increased critical damage to all damage types
+			Knife Upgrade Resource
 			'''
-		DisplayName: 会心の紋章
+		DisplayName: Crit Emblem
 	}
 
 	AncientVampiricTablet: {
-		Tooltip: 変身キーをダブルタップ（キー設定を確認）でコウモリに変身
-		DisplayName: 古代の吸血石板
+		Tooltip: Double-tap transform key (check key config) to transform into a bat
+		DisplayName: Ancient Vampiric Tablet
 	}
 }
 
 NPCs: {
 	VampireNPC: {
-		DisplayName: ヴァンパイアNPC
+		DisplayName: Vampire N P C
 
 		TownNPCMood: {
-			Content: 満足してるよ。
-			NoHome: 家がないのは大嫌いだ。
-			FarFromHome: 家から遠すぎる。
-			LoveSpace: こんなに広いのは大好きだ。
-			DislikeCrowded: 混雑しているのは好きじゃない。
-			HateCrowded: こんな混雑は大嫌いだ。
-			LoveBiome: "{BiomeName}は大好きだ。"
-			LikeBiome: "{BiomeName}は好きだ。"
-			HateBiome: "{BiomeName}は嫌いだ。"
-			LoveNPC: "{NPCName}は大好きだ。"
-			LikeNPC: "{NPCName}は好きだ。"
-			HateNPC: "{NPCName}は嫌いだ。"
-			LikeNPC_Princess: "{NPCName}は好きだ。"
-			Princess_LovesNPC: "{NPCName}は好きだ。"
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LoveBiome: I love {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateBiome: I hate {BiomeName}.
+			LoveNPC: I love {NPCName}.
+			LikeNPC: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
 		}
 	}
 }
 
 Projectiles: {
 	PrismaticArcanumProj: {
-		DisplayName: プリズマティック・アルカナム（発射体）
+		DisplayName: Prismatic Arcanum Proj
 	}
 
 	SorcerersSarukhProj: {
-		DisplayName: ソーサラーズ・サルク（発射体）
+		DisplayName: Sorcerers Sarukh Proj
 	}
 
 	TrueDemonsScourgeProj: {
-		DisplayName: 真・デモンズスカージ（発射体）
+		DisplayName: True Demons Scourge Proj
 	}
 
 	AdamantiteProj: {
-		DisplayName: アダマンタイト（発射体）
+		DisplayName: Adamantite Proj
 	}
 
 	ChlorophyteProj: {
-		DisplayName: クロロファイト（発射体）
+		DisplayName: Chlorophyte Proj
 	}
 
 	CopperProj: {
-		DisplayName: 銅（発射体）
+		DisplayName: Copper Proj
 	}
 
 	CrimtaneProj: {
-		DisplayName: クリムタン（発射体）
+		DisplayName: Crimtane Proj
 	}
 
 	DemoniteProj: {
-		DisplayName: デモナイト（発射体）
+		DisplayName: Demonite Proj
 	}
 
 	GoldProj: {
-		DisplayName: 金（発射体）
+		DisplayName: Gold Proj
 	}
 
 	IronProj: {
-		DisplayName: 鉄（発射体）
+		DisplayName: Iron Proj
 	}
 
 	KunaiProj: {
-		DisplayName: クナイ（発射体）
+		DisplayName: Kunai Proj
 	}
 
 	MoltenProj: {
-		DisplayName: 溶岩（発射体）
+		DisplayName: Molten Proj
 	}
 
 	MythrilProj: {
-		DisplayName: ミスリル（発射体）
+		DisplayName: Mythril Proj
 	}
 
 	MythrilProjLaser: {
-		DisplayName: ミスリル（レーザー）
+		DisplayName: Mythril Proj Laser
 	}
 
 	OrichalcumProj: {
-		DisplayName: オリハルコン（発射体）
+		DisplayName: Orichalcum Proj
 	}
 
 	PalladiumProj: {
-		DisplayName: パラジウム（発射体）
+		DisplayName: Palladium Proj
 	}
 
 	PlatinumProj: {
-		DisplayName: プラチナ（発射体）
+		DisplayName: Platinum Proj
 	}
 
 	SilverProj: {
-		DisplayName: 銀（発射体）
+		DisplayName: Silver Proj
 	}
 
 	TinProj: {
-		DisplayName: スズ（発射体）
+		DisplayName: Tin Proj
 	}
 
 	TitaniumProj: {
-		DisplayName: チタニウム（発射体）
+		DisplayName: Titanium Proj
 	}
 
 	ToothProj: {
-		DisplayName: 歯（発射体）
+		DisplayName: Tooth Proj
 	}
 
 	TungstenProj: {
-		DisplayName: タングステン（発射体）
+		DisplayName: Tungsten Proj
 	}
 
 	BalitiusDaggerProj: {
-		DisplayName: バリティウス・ダガー（発射体）
+		DisplayName: Balitius Dagger Proj
 	}
 
 	BloodCrystalProj: {
-		DisplayName: ブラッドクリスタル（発射体）
+		DisplayName: Blood Crystal Proj
 	}
 
 	ExtraFingerProj: {
-		DisplayName: 追加の指（発射体）
+		DisplayName: Extra Finger Proj
 	}
 
 	FireblossomProj: {
-		DisplayName: ファイアブロッサム（発射体）
+		DisplayName: Fireblossom Proj
 	}
 
 	HellstoneProj: {
-		DisplayName: ヘルストーン（発射体）
+		DisplayName: Hellstone Proj
 	}
 
 	LuminitePalmProj: {
-		DisplayName: ルミナイトの掌（発射体）
+		DisplayName: Luminite Palm Proj
 	}
 
 	MechanicalFingerProj: {
-		DisplayName: 機械の指（発射体）
+		DisplayName: Mechanical Finger Proj
 	}
 
 	AdamantiteDefenseKnivesProj: {
-		DisplayName: アダマンタイトの防御ナイフ（発射体）
+		DisplayName: Adamantite Defense Knives Proj
 	}
 
 	ChlorophyteDefenseKnivesProj: {
-		DisplayName: クロロファイト防御ナイフ（発射体）
+		DisplayName: Chlorophyte Defense Knives Proj
 	}
 
 	ChlorophytePetals: {
-		DisplayName: クロロファイトの花びら
+		DisplayName: Chlorophyte Petals
 	}
 
 	CobaltDefenseKnivesProj: {
-		DisplayName: コバルト防御ナイフ（発射体）
+		DisplayName: Cobalt Defense Knives Proj
 	}
 
 	CopperDefenseKnivesProj: {
-		DisplayName: 銅の防御ナイフ（発射体）
+		DisplayName: Copper Defense Knives Proj
 	}
 
 	CrimtaneDefenseKnivesProj: {
-		DisplayName: クリムタン防御ナイフ（発射体）
+		DisplayName: Crimtane Defense Knives Proj
 	}
 
 	DemoniteDefenseKnivesProj: {
-		DisplayName: デモナイト防御ナイフ（発射体）
+		DisplayName: Demonite Defense Knives Proj
 	}
 
 	ElementalDefenseKnivesProj: {
-		DisplayName: 元素防御ナイフ（発射体）
+		DisplayName: Elemental Defense Knives Proj
 	}
 
 	ElementalDefProj: {
-		DisplayName: 元素防御（発射体）
+		DisplayName: Elemental Def Proj
 	}
 
 	GoldDefenseKnivesProj: {
-		DisplayName: 金の防御ナイフ（発射体）
+		DisplayName: Gold Defense Knives Proj
 	}
 
 	HallowedDefenseKnivesProj: {
-		DisplayName: ハロウド防御ナイフ（発射体）
+		DisplayName: Hallowed Defense Knives Proj
 	}
 
 	IronDefenseKnivesProj: {
-		DisplayName: 鉄の防御ナイフ（発射体）
+		DisplayName: Iron Defense Knives Proj
 	}
 
 	LeadDefenseKnivesProj: {
-		DisplayName: 鉛の防御ナイフ（発射体）
+		DisplayName: Lead Defense Knives Proj
 	}
 
 	MeteoriteDefenseKnivesProj: {
-		DisplayName: 隕石の防御ナイフ（発射体）
+		DisplayName: Meteorite Defense Knives Proj
 	}
 
 	MythrilDefenseKnivesProj: {
-		DisplayName: ミスリル防御ナイフ（発射体）
+		DisplayName: Mythril Defense Knives Proj
 	}
 
 	OrichalcumDefenseKnivesProj: {
-		DisplayName: オリハルコン防御ナイフ（発射体）
+		DisplayName: Orichalcum Defense Knives Proj
 	}
 
 	OrichalcumPetals: {
-		DisplayName: オリハルコンの花びら
+		DisplayName: Orichalcum Petals
 	}
 
 	PalladiumDefenseKnivesProj: {
-		DisplayName: パラジウム防御ナイフ（発射体）
+		DisplayName: Palladium Defense Knives Proj
 	}
 
 	PlatinumDefenseKnivesProj: {
-		DisplayName: プラチナ防御ナイフ（発射体）
+		DisplayName: Platinum Defense Knives Proj
 	}
 
 	ReflectiveProj: {
-		DisplayName: 反射（発射体）
+		DisplayName: Reflective Proj
 	}
 
 	ResilienceKnivesProj: {
-		DisplayName: レジリエンスナイフ（発射体）
+		DisplayName: Resilience Knives Proj
 	}
 
 	ShroomiteDefenseKnivesProj: {
-		DisplayName: シュルーマイト防御ナイフ（発射体）
+		DisplayName: Shroomite Defense Knives Proj
 	}
 
 	ShroomiteGas: {
-		DisplayName: シュルーマイトガス
+		DisplayName: Shroomite Gas
 	}
 
 	SilverDefenseKnivesProj: {
-		DisplayName: 銀の防御ナイフ（発射体）
+		DisplayName: Silver Defense Knives Proj
 	}
 
 	SpectreDefenseKnivesProj: {
-		DisplayName: スペクター防御ナイフ（発射体）
+		DisplayName: Spectre Defense Knives Proj
 	}
 
 	SpectreDefProj: {
-		DisplayName: スペクター防御（発射体）
+		DisplayName: Spectre Def Proj
 	}
 
 	TinDefenseKnivesProj: {
-		DisplayName: スズの防御ナイフ（発射体）
+		DisplayName: Tin Defense Knives Proj
 	}
 
 	TitaniumDefenseKnivesProj: {
-		DisplayName: チタニウム防御ナイフ（発射体）
+		DisplayName: Titanium Defense Knives Proj
 	}
 
 	TitaniumDefenseProj: {
-		DisplayName: チタニウム防御（発射体）
+		DisplayName: Titanium Defense Proj
 	}
 
 	TungstenDefenseKnivesProj: {
-		DisplayName: タングステン防御ナイフ（発射体）
+		DisplayName: Tungsten Defense Knives Proj
 	}
 
 	AmethystBolt: {
-		DisplayName: アメジストのボルト
+		DisplayName: Amethyst Bolt
 	}
 
 	AmethystProj: {
-		DisplayName: アメジスト（発射体）
+		DisplayName: Amethyst Proj
 	}
 
 	AmethystProjExplosion: {
-		DisplayName: アメジスト（爆発）
+		DisplayName: Amethyst Proj Explosion
 	}
 
 	AmethystShard: {
-		DisplayName: アメジストの破片
+		DisplayName: Amethyst Shard
 	}
 
 	EmeraldBolt: {
-		DisplayName: エメラルドのボルト
+		DisplayName: Emerald Bolt
 	}
 
 	EmeraldProj: {
-		DisplayName: エメラルド（発射体）
+		DisplayName: Emerald Proj
 	}
 
 	SapphireBolt: {
-		DisplayName: サファイアのボルト
+		DisplayName: Sapphire Bolt
 	}
 
 	SapphireProj: {
-		DisplayName: サファイア（発射体）
+		DisplayName: Sapphire Proj
 	}
 
 	BloomingTerrorHeldProj: {
-		DisplayName: ブルーミングテラー（保持発射体）
+		DisplayName: Blooming Terror Held Proj
 	}
 
 	BloomingTerrorMandible: {
-		DisplayName: ブルーミングテラーの大顎
+		DisplayName: Blooming Terror Mandible
 	}
 
 	BloomingTerrorProj: {
-		DisplayName: ブルーミングテラー（発射体）
+		DisplayName: Blooming Terror Proj
 	}
 
 	BloomingTerrorSeed: {
-		DisplayName: ブルーミングテラーの種
+		DisplayName: Blooming Terror Seed
 	}
 
 	DaedalusStormblades_Lightning: {
-		DisplayName: ダイダロス・ストームブレード（稲妻）
+		DisplayName: Daedalus Stormblades_ Lightning
 	}
 
 	DaedalusStormbladesProj: {
-		DisplayName: ダイダロス・ストームブレード（発射体）
+		DisplayName: Daedalus Stormblades Proj
 	}
 
 	ExcaliburProj: {
-		DisplayName: エクスカリバー（発射体）
+		DisplayName: Excalibur Proj
 	}
 
 	HallowedGauntletProj: {
-		DisplayName: ハロウド・ガントレット（発射体）
+		DisplayName: Hallowed Gauntlet Proj
 	}
 
 	HallowedGauntletShatteredProj: {
-		DisplayName: ハロウド・ガントレット（破砕発射体）
+		DisplayName: Hallowed Gauntlet Shattered Proj
 	}
 
 	HallowedStealProj: {
-		DisplayName: ハロウド・スティール（発射体）
+		DisplayName: Hallowed Steal Proj
 	}
 
 	NebulaProj: {
-		DisplayName: ネビュラ（発射体）
+		DisplayName: Nebula Proj
 	}
 
 	NyivesBigProj: {
-		DisplayName: Nyives（大・発射体）
+		DisplayName: Nyives Big Proj
 	}
 
 	NyivesSmallProj: {
-		DisplayName: Nyives（小・発射体）
+		DisplayName: Nyives Small Proj
 	}
 
 	SolarProj: {
-		DisplayName: ソーラー（発射体）
+		DisplayName: Solar Proj
 	}
 
 	SpectreGloveProj: {
-		DisplayName: スペクターグローブ（発射体）
+		DisplayName: Spectre Glove Proj
 	}
 
 	SpectreProj: {
-		DisplayName: スペクター（発射体）
+		DisplayName: Spectre Proj
 	}
 
 	StardustProj: {
-		DisplayName: スターダスト（発射体）
+		DisplayName: Stardust Proj
 	}
 
 	StardustProjCell: {
-		DisplayName: スターダスト（セル）
+		DisplayName: Stardust Proj Cell
 	}
 
 	TerraKnivesProj: {
-		DisplayName: テラナイフ（発射体）
+		DisplayName: Terra Knives Proj
 	}
 
 	TrueExcaliburProj: {
-		DisplayName: 真・エクスカリバー（発射体）
+		DisplayName: True Excalibur Proj
 	}
 
 	TrueShadowProj: {
-		DisplayName: アンブラ（発射体）
+		DisplayName: True Shadow Proj
 	}
 
 	VampiricPrismHeldProj: {
-		DisplayName: 吸血のプリズム（保持発射体）
+		DisplayName: Vampiric Prism Held Proj
 	}
 
 	VampiricPrismProj: {
-		DisplayName: 吸血のプリズム（発射体）
+		DisplayName: Vampiric Prism Proj
 	}
 
 	VortexProj: {
-		DisplayName: ボルテックス（発射体）
+		DisplayName: Vortex Proj
 	}
 
 	VortexProjVortex: {
-		DisplayName: ボルテックス（渦）
+		DisplayName: Vortex Proj Vortex
 	}
 
 	Wasp: {
-		DisplayName: スズメバチ
+		DisplayName: Wasp
 	}
 
 	WaspKnifeProj: {
-		DisplayName: ワスプナイフ（発射体）
+		DisplayName: Wasp Knife Proj
 	}
 
 	WrathfulStarProj: {
-		DisplayName: 憤怒の星（発射体）
+		DisplayName: Wrathful Star Proj
 	}
 
 	WyvernProj: {
-		DisplayName: ワイバーン（発射体）
+		DisplayName: Wyvern Proj
 	}
 
 	HealProj: {
-		DisplayName: 回復（発射体）
+		DisplayName: Heal Proj
 	}
 
 	ManaHeal: {
-		DisplayName: マナ回復
+		DisplayName: Mana Heal
 	}
 
 	DeltaKnivesProj: {
-		DisplayName: デルタナイフ（発射体）
+		DisplayName: Delta Knives Proj
 	}
 
 	DeltaKnivesProjExplosion: {
-		DisplayName: デルタナイフ（爆発）
+		DisplayName: Delta Knives Proj Explosion
 	}
 
 	DeltaKnivesProjExplosionBakup: {
-		DisplayName: デルタナイフ（爆発・バックアップ）
+		DisplayName: Delta Knives Proj Explosion Bakup
 	}
 
 	LuminiteKnifeProj: {
-		DisplayName: ルミナイトナイフ（発射体）
+		DisplayName: Luminite Knife Proj
 	}
 
 	MoonLordsHandProj: {
-		DisplayName: ムーンロードの手（発射体）
+		DisplayName: Moon Lords Hand Proj
 	}
 
 	PsiKnivesProj: {
-		DisplayName: プサイナイフ（発射体）
+		DisplayName: Psi Knives Proj
 	}
 
 	PsiKnivesProjExplosion: {
-		DisplayName: プサイナイフ（爆発）
+		DisplayName: Psi Knives Proj Explosion
 	}
 
 	ThetaKnivesProj: {
-		DisplayName: シータナイフ（発射体）
+		DisplayName: Theta Knives Proj
 	}
 
 	ThetaKnivesProjSpear: {
-		DisplayName: シータナイフ（スピア）
+		DisplayName: Theta Knives Proj Spear
 	}
 
 	BeeKnifeProj: {
-		DisplayName: ビーナイフ（発射体）
+		DisplayName: Bee Knife Proj
 	}
 
 	ButchersKnivesProj: {
-		DisplayName: ブッチャーナイフ（発射体）
+		DisplayName: Butchers Knives Proj
 	}
 
 	ChainProj: {
-		DisplayName: チェーン（発射体）
+		DisplayName: Chain Proj
 	}
 
 	CorruptionNestKnivesProj: {
-		DisplayName: 不浄の巣ナイフ（発射体）
+		DisplayName: Corruption Nest Knives Proj
 	}
 
 	CrimsonNestKnivesProj: {
-		DisplayName: クリムゾンの巣ナイフ（発射体）
+		DisplayName: Crimson Nest Knives Proj
 	}
 
 	EnchantedKnivesProj: {
-		DisplayName: エンチャンテッドナイフ（発射体）
+		DisplayName: Enchanted Knives Proj
 	}
 
 	FieryKnivesProj: {
-		DisplayName: 炎のナイフ（発射体）
+		DisplayName: Fiery Knives Proj
 	}
 
 	HarpyProj: {
-		DisplayName: ハーピー（発射体）
+		DisplayName: Harpy Proj
 	}
 
 	JungleKnivesProj: {
-		DisplayName: ジャングルナイフ（発射体）
+		DisplayName: Jungle Knives Proj
 	}
 
 	LightandDarkProj: {
-		DisplayName: 光と闇（発射体）
+		DisplayName: Lightand Dark Proj
 	}
 
 	ManaKnivesProj: {
-		DisplayName: マナナイフ（発射体）
+		DisplayName: Mana Knives Proj
 	}
 
 	MandibleProj: {
-		DisplayName: 大顎（発射体）
+		DisplayName: Mandible Proj
 	}
 
 	MandibleSummonProj: {
-		DisplayName: 大顎（召喚・発射体）
+		DisplayName: Mandible Summon Proj
 	}
 
 	SengosForgottenProj: {
-		DisplayName: Sengos Forgotten（発射体）
+		DisplayName: Sengos Forgotten Proj
 	}
 
 	ShadowProj: {
-		DisplayName: シャドウ（発射体）
+		DisplayName: Shadow Proj
 	}
 
 	StarfuryKnivesProj: {
-		DisplayName: スターフューリーナイフ（発射体）
+		DisplayName: Starfury Knives Proj
 	}
 
 	WeakVampireProj: {
-		DisplayName: 弱いヴァンパイア（発射体）
+		DisplayName: Weak Vampire Proj
 	}
 
 	EverscreamsBranchHeldProj: {
-		DisplayName: エバースクリームの枝（保持発射体）
+		DisplayName: Everscreams Branch Held Proj
 	}
 
 	EverscreamsBranchProj: {
-		DisplayName: エバースクリームの枝（発射体）
+		DisplayName: Everscreams Branch Proj
 	}
 
 	HarvestersSoulHeldProj: {
-		DisplayName: ハーベスターの魂（保持発射体）
+		DisplayName: Harvesters Soul Held Proj
 	}
 
 	HarvestersSoulProj: {
-		DisplayName: ハーベスターの魂（発射体）
+		DisplayName: Harvesters Soul Proj
 	}
 
 	HarvestersSoulProj2: {
-		DisplayName: ハーベスターの魂（発射体2）
+		DisplayName: Harvesters Soul Proj2
 	}
 
 	HorsemansKnivesProj: {
-		DisplayName: ホースマンのナイフ（発射体）
+		DisplayName: Horsemans Knives Proj
 	}
 
 	RukasusTeslaBall: {
-		DisplayName: ルカサスのテスラ・ボール
+		DisplayName: Rukasus Tesla Ball
 	}
 
 	RukasusTeslaProj: {
-		DisplayName: ルカサスのテスラ（発射体）
+		DisplayName: Rukasus Tesla Proj
 	}
 
 	ScimitarProj: {
-		DisplayName: シミター（発射体）
+		DisplayName: Scimitar Proj
 	}
 
 	BhleggGunProj: {
-		DisplayName: Bhlegg ガン（発射体）
+		DisplayName: Bhlegg Gun Proj
 	}
 
 	BhleggProj: {
-		DisplayName: Bhlegg（発射体）
+		DisplayName: Bhlegg Proj
 	}
 
 	CaneSwordSlash: {
-		DisplayName: ステッキ剣の斬撃
+		DisplayName: Cane Sword Slash
 	}
 
 	CaneSwordStab: {
-		DisplayName: ステッキ剣の突き
+		DisplayName: Cane Sword Stab
 	}
 
 	DemonicEnsuranceProj: {
-		DisplayName: デーモニック・エンシュア（発射体）
+		DisplayName: Demonic Ensurance Proj
 	}
 
 	MaracasHeldProj: {
-		DisplayName: マラカス（保持発射体）
+		DisplayName: Maracas Held Proj
 	}
 
 	MaracasProj: {
-		DisplayName: マラカス（発射体）
+		DisplayName: Maracas Proj
 	}
 
 	NottomMinionLaser: {
-		DisplayName: ナットム・ミニオン（レーザー）
+		DisplayName: Nottom Minion Laser
 	}
 
 	NottomMinionProj: {
-		DisplayName: ナットム・ミニオン（発射体）
+		DisplayName: Nottom Minion Proj
 	}
 
 	VeiKnifeProj: {
-		DisplayName: Vei ナイフ（発射体）
+		DisplayName: Vei Knife Proj
 	}
 
 	VeiTailProj: {
-		DisplayName: Vei の尾（発射体）
+		DisplayName: Vei Tail Proj
 	}
 
 	VeiWhipProj: {
-		DisplayName: Vei のムチ（発射体）
+		DisplayName: Vei Whip Proj
 	}
 
 	AmethystSpear: {
-		DisplayName: アメジストの槍
+		DisplayName: Amethyst Spear
 	}
 
 	EmeraldBullet: {
-		DisplayName: エメラルドの弾丸
+		DisplayName: Emerald Bullet
 	}
 
 	RubyBullet: {
-		DisplayName: ルビーの弾丸
+		DisplayName: Ruby Bullet
 	}
 
 	RubyProj: {
-		DisplayName: ルビー（発射体）
+		DisplayName: Ruby Proj
 	}
 
 	RubyDrain: {
-		DisplayName: ルビーの吸収
+		DisplayName: Ruby Drain
 	}
 
 	AmberBeam: {
-		DisplayName: アンバーの光線
+		DisplayName: Amber Beam
 	}
 
 	AmberBullet: {
-		DisplayName: アンバーの弾丸
+		DisplayName: Amber Bullet
 	}
 
 	AmberProj: {
-		DisplayName: アンバー（発射体）
+		DisplayName: Amber Proj
 	}
 
 	TopazProj: {
-		DisplayName: トパーズ（発射体）
+		DisplayName: Topaz Proj
 	}
 
 	TopazWall: {
-		DisplayName: トパーズの壁
+		DisplayName: Topaz Wall
 	}
 
 	DiamondProj: {
-		DisplayName: ダイヤ（発射体）
+		DisplayName: Diamond Proj
 	}
 
 	DiamondDrill: {
-		DisplayName: ダイヤのドリル
+		DisplayName: Diamond Drill
 	}
 }
 
 Configs: {
 	VampConfig: {
-		DisplayName: ヴァンプ設定
+		DisplayName: Vamp Config
 
 		Easy: {
-			Label: イージー
+			Label: Easy
 			Tooltip: ""
 		}
 
 		Normal: {
-			Label: ノーマル
+			Label: Normal
 			Tooltip: ""
 		}
 
 		Hard: {
-			Label: ハード
+			Label: Hard
 			Tooltip: ""
 		}
 
 		Expert: {
-			Label: エキスパート
+			Label: Expert
 			Tooltip: ""
 		}
 
 		DamageMultiplier: {
-			Label: ダメージ倍率
-			Tooltip: ナイフのダメージ量を変更 1未満で減少 1超で増加
+			Label: Damage multiplier
+			Tooltip: This changes the amount of damage knives do, under 1 decreases damage, over 1 increases damage.
 		}
 
 		HealAmntMultiplier: {
-			Label: 回復量倍率
-			Tooltip: 回復弾で得る回復量を変更 1未満で減少 1超で増加
+			Label: Heal Amount Multiplier
+			Tooltip: This changes the amount of healing you get from healing projectiles, under 1 decreases healing, over 1 increases healing
 		}
 
 		HealProjectileSpawnChance: {
-			Label: 回復弾生成率
-			Tooltip: ナイフが回復弾を生成する確率を変更 0は0% 1は100%
+			Label: Heal Projectile Spawn Chance
+			Tooltip: This changes the rate at which knives spawn healing projectiles, 0 is no chance, 1 is 100% chance
 		}
 
 		AmmoKnivesDefenceBreakMult: {
-			Label: 弾薬ナイフの防御低下倍率
-			Tooltip: 弾薬系ナイフが敵から奪う防御値を変更 0は防御低下なし 1は基本値
+			Label: Ammo Knives Defence-Break Multiplier
+			Tooltip: This changes the amount of defence that is stripped from enemies by ammo-based knives, 0 is no defense, 1 is the base value
 		}
 
 		ActiveDefenseKnives: {
-			Label: 有効な防御ナイフ数
-			Tooltip: 同時に展開できる防御ナイフの数を変更 警告: 高い値はパフォーマンスを大幅に低下
+			Label: Allowed Active Defense Knives
+			Tooltip: This changes the number of possible active defense knives. WARNING: HIGHER VALUES GREATLY DECREASE PERFORMANCE
 		}
 
 		NumRicochet: {
-			Label: リコシェ回数
-			Tooltip: 跳弾が発生する回数を変更
+			Label: Ricochet Number
+			Tooltip: This changes the number of ricochets that occur on a knife with ricochet
 		}
 
 		BloodyMess: {
-			Label: 血まみれ
-			Tooltip: 敵が血しぶきになって爆散
+			Label: Bloody Mess
+			Tooltip: This makes your enemies explode into blood
 		}
 
 		Headers: {
-			DifficultyPresets: "[c/FF0000:難易度プリセット（同時に1つのみ選択）]"
-			AdvancedSettings: "[c/FF0000:詳細設定]"
-			FunSettings: "[c/FF0000:お楽しみ設定]"
+			DifficultyPresets: "[c/FF0000:Difficulty Presets (Select only one at a time)]"
+			AdvancedSettings: "[c/FF0000:Advanced Settings]"
+			FunSettings: "[c/FF0000:Fun Settings]"
 		}
 
 		FunDust: {
-			Label: ファンダスト
-			Tooltip: ゲーム内のダストを全て弾むダストに置換 *色未定義のダストは見た目が変わる場合あり*
+			Label: Fun Dust
+			Tooltip: Replaces all dust in game with bouncy dust *May misrepresent dusts that do not explicitly define a color*
 		}
 	}
 }
 
 Keybinds: {
 	"Pull hood up or down": {
-		DisplayName: フードの上げ下げ
+		DisplayName: Pull hood up or down
 	}
 
 	"Key to add/remove support debuff": {
-		DisplayName: 支援デバフの付与/解除キー
+		DisplayName: Key to add/remove support debuff
 	}
 
 	"Double tap to transform into a bat for a few seconds(Requires vampiric armor)": {
-		DisplayName: 数秒間コウモリに変身（吸血防具が必要）
+		DisplayName: Double tap to transform into a bat for a few seconds( Requires vampiric armor)
 	}
 
 	"Key to open the in-game guide": {
-		DisplayName: ゲーム内ガイドを開くキー
+		DisplayName: Key to open the in-game guide
 	}
 
 	"Key to use the support armor's buff": {
-		DisplayName: 支援防具のバフを使うキー
+		DisplayName: Key to use the support armor's buff
 	}
 }
 
 Buffs: {
 	VeiLoveDebuff: {
 		Description: Mods.VKE.Buffs.VeiLoveDebuff.Description
-		DisplayName: Veiの愛
+		DisplayName: Vei Love Debuff
 	}
 
 	NottomBuff: {
-		Description: ナットム 決してトムではない
-		DisplayName: ナットム
+		Description: Nottom, definitely NotTom
+		DisplayName: Nottom
 	}
 
 	MeatBicycleBuff: {
-		Description: 肉
-		DisplayName: 肉の自転車
+		Description: Meat
+		DisplayName: Meat Bicycle
 	}
 
 	Latched: {
 		Description: Mods.VKE.Buffs.Latched.Description
-		DisplayName: しがみつき
+		DisplayName: Latched
 	}
 
 	ImEnsured: {
-		Description: 移動速度上昇 与ダメ上昇 被ダメ減少
-		DisplayName: エンシュア状態
+		Description: Move faster, do more damage, and take less damage
+		DisplayName: I'm Ensured
 	}
 
 	VortexDebuff: {
 		Description: Mods.VKE.Buffs.VortexDebuff.Description
-		DisplayName: ボルテックス（デバフ）
+		DisplayName: Vortex Debuff
 	}
 
 	ShroomitePoison: {
 		Description: Mods.VKE.Buffs.ShroomitePoison.Description
-		DisplayName: シュルーマイトの毒
+		DisplayName: Shroomite Poison
 	}
 
 	ShroomiteBuff: {
-		Description: クリティカル不可だが大きなダメージ潜在
-		DisplayName: キノコ強化
+		Description: You can no longer crit, but have massive damage potential
+		DisplayName: On Shrooms
 	}
 
 	PenetratingPoison: {
-		Description: 骨まで蝕む強毒
-		DisplayName: 貫通毒
+		Description: So potent it degrades bones
+		DisplayName: Penetrating Poison
 	}
 
 	MurderPotionBuff: {
-		Description: クリティカル率100%
-		DisplayName: 殺意が湧いてきた！
+		Description: 100% crit chance
+		DisplayName: Feeling murderous!
 	}
 
 	LifeStealPotionBuff: {
-		Description: ライフ吸収が20%増加
-		DisplayName: ライフ吸収ポーション
+		Description: Lifesteal increased by 20%
+		DisplayName: Life Steal Potion
 	}
 
 	IchorUproar: {
 		Description: Mods.VKE.Buffs.IchorUproar.Description
-		DisplayName: 霊液の騒乱
+		DisplayName: Ichor Uproar
 	}
 
 	WitchDoctorHoodBuff: {
 		Description: DisplayName: Witch Doctor Hood Buff
-		DisplayName: ウィッチドクターのフード（バフ）
+		DisplayName: Witch Doctor Hood Buff
 	}
 
 	TransmuterHoodBuff: {
 		Description: DisplayName: Transmuter Hood Buff
-		DisplayName: 変成者のフード（バフ）
+		DisplayName: Transmuter Hood Buff
 	}
 
 	TechnomancerHoodBuff: {
 		Description: DisplayName: Technomancer Hood Buff
-		DisplayName: テクノマンサーのフード（バフ）
+		DisplayName: Technomancer Hood Buff
 	}
 
 	ShamanHoodBuff: {
 		Description: DisplayName: Shaman Hood Buff
-		DisplayName: シャーマンのフード（バフ）
+		DisplayName: Shaman Hood Buff
 	}
 
 	PyroHoodBuff: {
 		Description: DisplayName: Pyro Hood Buff
-		DisplayName: パイロマンサーのフード（バフ）
+		DisplayName: Pyro Hood Buff
 	}
 
 	PartyHoodBuff: {
 		Description: DisplayName: Party Hood Buff
-		DisplayName: パーティーのフード（バフ）
+		DisplayName: Party Hood Buff
 	}
 
 	PartyBuff: {
 		Description: DisplayName: Party Buff
-		DisplayName: パーティーバフ
+		DisplayName: Party Buff
 	}
 
 	MageHoodBuff: {
 		Description: DisplayName: Mage Hood Buff
-		DisplayName: メイジのフード（バフ）
+		DisplayName: Mage Hood Buff
 	}
 
 	InvokerHoodBuff: {
 		Description: DisplayName: Invoker Hood Buff
-		DisplayName: 祈祷者のフード（バフ）
+		DisplayName: Invoker Hood Buff
 	}
 
 	DPyroHoodBuff: {
 		Description: DisplayName: D Pyro Hood Buff
-		DisplayName: ダーク・パイロマンサーのフード（バフ）
+		DisplayName: D Pyro Hood Buff
 	}
 
 	Hellfire: {
 		Description: Mods.VKE.Buffs.Hellfire.Description
-		DisplayName: ヘルファイア
+		DisplayName: Hellfire
 	}
 
 	GildedCurse: {
 		Description: Mods.VKE.Buffs.GildedCurse.Description
-		DisplayName: 黄金の呪い
+		DisplayName: Gilded Curse
 	}
 
 	CursedFire: {
 		Description: Mods.VKE.Buffs.CursedFire.Description
-		DisplayName: 呪いの炎
+		DisplayName: Cursed Fire
 	}
 
 	BleedingOutDebuff: {
-		Description: 出血している！ 包帯で巻こう
-		DisplayName: 出血多量
+		Description: You're bleeding out! Wrap it with a bandage!
+		DisplayName: Bleeding Out
 	}
 
 	BleedingOut2: {
-		Description: 出血している！ 包帯で巻こう
-		DisplayName: 出血多量
+		Description: You're bleeding out! Wrap it with a bandage!
+		DisplayName: Bleeding Out
 	}
 
 	BleedingOut: {
-		Description: 出血している！ 包帯で巻こう
-		DisplayName: 出血多量
+		Description: You're bleeding out! Wrap it with a bandage!
+		DisplayName: Bleeding Out
 	}
 
 	BandageBuff: {
-		Description: 出血が止まり回復が必要
-		DisplayName: 包帯済み！
+		Description: You've stopped the bleeding and must recover
+		DisplayName: Bandaged!
 	}
 
 	MurderPotionDebuff: {
-		DisplayName: 出来が悪い
+		DisplayName: Lethargic
 		Description:
 			'''
-			クリティカル率0%
-			ダメージ-25%
-			移動速度-50%
+			0% Crit Chance
+			-25% damage
+			-50% Move speed
 			'''
 	}
 }
 
 Tiles: {
 	VampTableTile: {
-		MapEntry: ヴァンプのテーブル
+		MapEntry: Vamp Table Tile
 	}
 
 	PrimitiveAutoMiner: {
-		MapEntry: 原始的な自動採掘機
+		MapEntry: Primitive Auto Miner
 	}
 
 	KnifeBench: {
-		MapEntry: ナイフの作業台
+		MapEntry: Knife Bench
 	}
 
 	BloodMiner: {
-		MapEntry: ブラッドマイナー
+		MapEntry: Blood Miner
 	}
 
 	BloodAltar: {
-		MapEntry: ブラッドアルター
+		MapEntry: Blood Altar
 	}
 
 	VampireAltar: {
-		MapEntry: ヴァンパイアアルター
+		MapEntry: Vampire Altar
 	}
 }
 
 DamageClasses: {
 	KnifeDamageClass: {
-		DisplayName: ナイフダメージ
+		DisplayName: Knife Damage Class
 	}
 }
 

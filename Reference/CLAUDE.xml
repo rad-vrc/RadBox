@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocalizationGuidelines version="2025-08-08" scope="hjson ja-JP/en-US">
+  <Title>Terraria Mod 翻訳ガイドライン（機械可読版）</Title>
+  <Priority>
+    <Rule rank="P1">バニラ ja-JP.hjson の既存表現</Rule>
+    <Rule rank="P2">本ガイドライン（Hard Rules &gt; Soft Rules）</Rule>
+    <Rule rank="P3">文脈に応じた自然な日本語</Rule>
+  </Priority>
+
+  <LocRefGuide server="#loc-ref" transport="stdio">
+    <Purpose>バニラの Localization/ja-JP.hjson を唯一の基準（P1）として参照し、表記を統一する。</Purpose>
+    <Tools>
+      <Tool name="loc_getByKey" purpose="exact lookup">
+        <Example>
+          <Call><![CDATA[{ "tool": "loc_getByKey", "args": { "key": "TerraBlade" } }]]></Call>
+          <Result><![CDATA[{ "key": "TerraBlade", "value": "テラブレード", "exists": true }]]></Result>
+        </Example>
+      </Tool>
+      <Tool name="loc_fuzzySearch" purpose="fuzzy search over keys/values (normalized: True→真・)">
+        <Example>
+          <Call><![CDATA[{ "tool": "loc_fuzzySearch", "args": { "query": "Rod of Discord", "opts": { "limit": 5 } } }]]></Call>
+          <Result><![CDATA[{ "normalizedQuery": "Rod of Discord", "matches": [ { "key": "RodofDiscord", "score": 0.02 } ] }]]></Result>
+        </Example>
+      </Tool>
+      <Tool name="loc_placeholderCheck" purpose="extract placeholders from text">
+        <Example>
+          <Call><![CDATA[{ "tool": "loc_placeholderCheck", "args": { "text": "{0} レベル…" } }]]></Call>
+          <Result><![CDATA[{ "placeholders": ["{0}"] }]]></Result>
+        </Example>
+      </Tool>
+      <Tool name="loc_checkPlaceholdersParity" purpose="compare placeholder sets between source and target"/>
+      <Tool name="loc_auditText" purpose="guideline checks for a single value (T-1/T-2/T-2b/T-3/Q-2)"/>
+      <Tool name="loc_auditFile" purpose="file-wide guideline scan with line numbers"/>
+      <Tool name="loc_normalizeName" purpose="suggest name normalization (e.g., True→真・, glossary)"/>
+      <Tool name="loc_reload" purpose="reload canonical ja-JP.hjson and rebuild index"/>
+    </Tools>
+    <Workflow>
+  <Step order="1">MUST: loc_getByKey または loc_fuzzySearch を実行し、結果を証跡（Trace）に記録してバニラ表記（P1）を確定。複合語は語幹（例: "Altar" など）で部分一致検索も行い、既存表記を採用。</Step>
+      <Step order="2">固有名詞は loc_normalizeName で正規化ルールを再確認（True→真・、Rod of …）。</Step>
+      <Step order="3">翻訳作成。HARD RULES を順守（先頭 {} / [] / {0} は必ず "…"）。</Step>
+      <Step order="4">loc_placeholderCheck / loc_checkPlaceholdersParity でプレースホルダー整合（Trace に missing/extra を記録）。</Step>
+      <Step order="5">loc_auditText / loc_auditFile を実行し、QA サマリー（issue 件数、重大度）を Trace に記録してから保存。構造行（オブジェクト/配列の開始行）に起因する T-1 は「structural-only」と注記して許容。</Step>
+      <Step order="6">迷ったら P1→P2→P3。語法は E-1/E-2/E-3 で統一。</Step>
+    </Workflow>
+
+    <Evidence>
+      <TraceRequired>true</TraceRequired>
+      <TraceItems>
+        <Item>Lookup: key または normalizedQuery と一致候補（上位3件）</Item>
+        <Item>Normalization: loc_normalizeName の提案と適用有無</Item>
+        <Item>Placeholders: source/target の missing/extra</Item>
+        <Item>QA: loc_auditText/loc_auditFile の結果要約（rule別件数）。構造由来は structural-only と明記</Item>
+      </TraceItems>
+    </Evidence>
+  </LocRefGuide>
+
+  <HardRules>
+    <Rule code="T-2">プレースホルダーが先頭（{0},{1},…）は必ず "..." で囲む。</Rule>
+    <Rule code="T-2b">名前付きプレースホルダーが先頭（{Keybind},{NPCName},…）も必ず "..." で囲む。</Rule>
+    <Rule code="T-3">プレースホルダー名は ASCII の {} のまま。日本語括弧にしない。</Rule>
+    <Rule code="Q-1">セリフ調 'text' / "text" は「text」に統一（日本語は一重の鉤括弧）。</Rule>
+    <Rule code="Q-1a">TownNPCMood の台詞は "…" を用いる（値は "…" のみ）。</Rule>
+    <Rule code="Q-2">二重鉤括弧「「…」」は禁止。常に一重「…」。</Rule>
+    <Rule code="S-1">Items の Tooltip/Description は常体・句点なし。</Rule>
+    <Rule code="S-1a">Tooltip 内の引用は原則「…」。</Rule>
+    <Rule code="S-2">NPC/Config の説明文は丁寧語を許可（句点は文脈次第）。</Rule>
+  </HardRules>
+
+  <SoftRules>
+    <Names id="N-1">
+      <Pattern type="ja">Iron Sword → 鉄の剣</Pattern>
+      <Pattern type="katakana">Terra Blade → テラブレード</Pattern>
+      <Pattern type="true">True Excalibur → 真・エクスカリバー</Pattern>
+      <Pattern type="of">Rod of Discord → ロッド・オブ・ディスコード</Pattern>
+  <Pattern type="altar">X Altar → Xアルター（例: Demon Altar → デーモンアルター, Crimson Altar → クリムゾンアルター）</Pattern>
+    </Names>
+    <Effects id="E-1">
+      <Verb attr="damage|knockback|immunity|jump height|mana usage">増加</Verb>
+      <Verb attr="crit chance|drop chance|spawn rate|speed">上昇</Verb>
+      <Verb attr="life/mana regeneration">増進</Verb>
+      <Verb attr="luck">増加/減少</Verb>
+    </Effects>
+    <Composition id="E-2">複合効果は文末側の属性に合わせる。</Composition>
+    <Order id="E-3">{数値}%{属性}が{動詞} → {属性}が{数値}％{動詞}</Order>
+    <Phrases id="X-1">
+      <Item key="not-consume">○%の確率でXを消費しない</Item>
+      <Item key="minion-sentry">召喚できる…の数がX体増える</Item>
+      <Item key="def-penetration-unknown">防御無視値が増加/減少</Item>
+      <Item key="def-penetration-known">敵の防御力をX無視する</Item>
+      <Item key="whip-speed">鞭の攻撃速度</Item>
+      <Item key="whip-range">鞭の攻撃範囲</Item>
+    </Phrases>
+  </SoftRules>
+
+  <Cheatsheet>
+    <Item>弾薬節約: 「{P}%の確率で弾薬を消費しない」</Item>
+    <Item>ロケット等の弾種指定: 「{P}%の確率で{弾種}を消費しない」</Item>
+    <Item>防御無視（数値あり）: 「敵の防御力を{N}無視する」</Item>
+    <Item>防御無視（数値不明）: 「防御無視値が増加」</Item>
+    <Item>ムチ関連: 「鞭の攻撃速度」「鞭の攻撃範囲」</Item>
+    <Item>Luck（運）: 「運が{N}増加／減少」</Item>
+  </Cheatsheet>
+
+  <Glossary>
+    <Term en="Ichor" ja="霊液"/>
+  <Term en="Midas" ja="強欲"/>
+    <Term en="mana cost" ja="消費マナ"/>
+    <Term en="true (item)" ja="真・(アイテム)"/>
+    <Term en="molten" ja="溶岩"/>
+    <Term en="Granite" ja="御影石"/>
+    <Term en="immunity" ja="耐性"/>
+    <Term en="Emblem" ja="紋章"/>
+    <Term en="Fragment" ja="断片"/>
+    <Term en="Lesser [X] Potion" ja="小型[X]ポーション"/>
+  <Term en="Corruption" ja="不浄"/>
+    <Example>"Lesser Healing Potion" → 「小型回復ポーション」</Example>
+    <Example>"Lesser Mana Potion" → 「小型マナポーション」</Example>
+    <Term en="luck" ja="運（「増加/減少」を用いる）"/>
+  <Term en="Altar" ja="アルター"/>
+  </Glossary>
+
+  <Examples>
+    <Example id="quotes">
+      <Before>'Rainbow effects!'</Before>
+      <After>「レインボー効果！」</After>
+      <Before>"Who said..."</Before>
+      <After>「誰が…」</After>
+    </Example>
+    <Example id="leading-placeholder">
+      <Before>Key: {0} bonus</Before>
+      <After>Key: "{0} ボーナス"</After>
+    </Example>
+    <Example id="structure">
+      <Before>Tooltip: 『…』</Before>
+      <After>Tooltip: 「…」</After>
+    </Example>
+  </Examples>
+
+  <Checklist>
+    <Item id="S-Style">文体統一（常体/丁寧語）</Item>
+    <Item id="G-Glossary">用語対訳の一致</Item>
+    <Item id="V-Vanilla">バニラ表現と整合</Item>
+    <Item id="J-JSON">先頭 {} / [] / {0} の値は "..." で囲む（T-1/T-2）</Item>
+    <Item id="Q-Quotes">二重鉤括弧禁止（Q-2）、セリフは「…」（Q-1）</Item>
+    <Item id="P-Placeholder">{Name} の括弧は ASCII の {} のまま（T-3）</Item>
+    <Item id="R-Ref">#loc-ref で key/表記/用語/プレースホルダー整合を確認（getByKey / fuzzy / normalize / parity / audit）</Item>
+  <Item id="E-Trace">ツール呼び出しの証跡（Trace）を出力（Lookup/Normalization/Placeholders/QA）</Item>
+  </Checklist>
+
+  <RegexDetectors>
+    <Pattern id="double-kakko" type="NG">
+      <Regex><![CDATA[「「|」」]]></Regex>
+    </Pattern>
+    <Pattern id="leading-index-placeholder" type="NG">
+      <Regex><![CDATA[^[^#\n]*:\s*\{\d+\}(?!\s*\")]]></Regex>
+    </Pattern>
+    <Pattern id="leading-named-placeholder" type="NG">
+      <Regex><![CDATA[^[^#\n]*:\s*\{[A-Za-z_][A-Za-z0-9_]*\}(?!\s*\")]]></Regex>
+    </Pattern>
+    <Pattern id="jp-brackets-placeholder" type="NG">
+      <Regex><![CDATA[[｛］［｝]]]></Regex>
+    </Pattern>
+    <Pattern id="townnpc-doublequote-missing" type="WARN">
+      <Regex><![CDATA[TownNPCMood:[\s\S]*?:\s*[^'\"]]]></Regex>
+      <Note>要目視確認</Note>
+    </Pattern>
+  </RegexDetectors>
+
+  <Notes>
+    <Note>hjson では値の文字列化は原則任意だが、T-1/T-2 ケースは必ず "..." で囲む。</Note>
+    <Note>迷ったら P1→P2→P3 の順で決定。Hard Rules を優先。</Note>
+  </Notes>
+</LocalizationGuidelines>
