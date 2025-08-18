@@ -1,0 +1,328 @@
+{
+	Projectiles: {
+		BlightedBall: {
+			DisplayName: "ブライテッドボール"
+		}
+		BlightedBolt: {
+			DisplayName: "ブライテッドボルト"
+		}
+		BlightedCanister: {
+			DisplayName: "ブライテッドキャニスター"
+		}
+		GlisteningBall: {
+			DisplayName: "グリッスニングボール"
+		}
+		GlisteningBlob: {
+			DisplayName: "グリッスニングブロブ"
+		}
+		GlisteningCanister: {
+			DisplayName: "グリッスニングキャニスター"
+		}
+		HarmonicCanister: {
+			DisplayName: "ハーモニックキャニスター"
+		}
+		HelixBolt: {
+			DisplayName: "ヘリックスボルト"
+		}
+		ToxicBarb: {
+			DisplayName: "トキシックバーブ"
+		}
+		ToxicCanister: {
+			DisplayName: "トキシックキャニスター"
+		}
+		VerdantCanister: {
+			DisplayName: "ヴァーダントキャニスター"
+		}
+		VerdantGas: {
+			DisplayName: "ヴァーダントガス"
+		}
+		VerdantGas_Helper: {
+			DisplayName: "ヴァーダントガスヘルパー"
+		}
+		VerdantVine: {
+			DisplayName: "ヴァーダントヴァイン"
+		}
+		GelBall: {
+			DisplayName: "ジェルボール"
+		}
+		VolatileCanister: {
+			DisplayName: "揮発性キャニスター"
+		}
+		Nanites: {
+			DisplayName: "ナノマシン"
+		}
+		NaniteCanister: {
+			DisplayName: "ナノマシンキャニスター"
+		}
+		NaniteBlob: {
+			DisplayName: "ナノマシンブロブ"
+		}
+		GhastlyShot: {
+			DisplayName: "ゴーストリーショット"
+		}
+		GhastlyExplosion: {
+			DisplayName: "ゴーストリーエクスプロージョン"
+		}
+		GhastlyCanister: {
+			DisplayName: "ゴーストリーキャニスター"
+		}
+		LunarCanister: {
+			DisplayName: "ルナーキャニスター"
+		}
+		LunarShot: {
+			DisplayName: "ルナーショット"
+		}
+		LunarExplosion: {
+			DisplayName: "ルナーエクスプロージョン"
+		}
+		VerdantGasEmitter: {
+			DisplayName: "ヴァーダントガスエミッター"
+		}
+		GhastlyExplosionEmitter: {
+			DisplayName: "ゴーストリーエクスプロージョンエミッター"
+		}
+		HarmonicExplosion: {
+			DisplayName: "ハーモニックエクスプロージョン"
+		}
+		LunarLightningEmitter: {
+			DisplayName: "ルナーライトニングエミッター"
+		}
+		ToxicFogEmitter: {
+			DisplayName: "トキシックフォグエミッター"
+		}
+		ToxicFog: {
+			DisplayName: "トキシックフォグ"
+		}
+		NaniteMist: {
+			DisplayName: "ナノマシンミスト"
+		}
+		NaniteMistEmitter: {
+			DisplayName: "ナノマシンミストエミッター"
+		}
+		AetherBlob: {
+			DisplayName: "エーテルブロブ"
+		}
+		AetherianCanister: {
+			DisplayName: "エーテリアンキャニスター"
+		}
+		FiredAetherianCanister: {
+			DisplayName: "射出されたエーテリアンキャニスター"
+		}
+		FiredBlightedCanister: {
+			DisplayName: "射出されたブライテッドキャニスター"
+		}
+		FiredGhastlyCanister: {
+			DisplayName: "射出されたゴーストリーキャニスター"
+		}
+		FiredGlisteningCanister: {
+			DisplayName: "射出されたグリッスニングキャニスター"
+		}
+		FiredHarmonicCanister: {
+			DisplayName: "射出されたハーモニックキャニスター"
+		}
+		FiredLunarCanister: {
+			DisplayName: "射出されたルナーキャニスター"
+		}
+		FiredNaniteCanister: {
+			DisplayName: "射出されたナノマシンキャニスター"
+		}
+		FiredToxicCanister: {
+			DisplayName: "射出されたトキシックキャニスター"
+		}
+		FiredVerdantCanister: {
+			DisplayName: "射出されたヴァーダントキャニスター"
+		}
+		DepletedVolatileCanister: {
+			DisplayName: "空の揮発性キャニスター"
+		}
+		FiredVolatileCanister: {
+			DisplayName: "射出された揮発性キャニスター"
+		}
+		GelBallEmitter: {
+			DisplayName: "ジェルボールエミッター"
+		}
+		LunarMark: {
+			DisplayName: "ルナーマーク"
+		}
+		PrismaticAnnihilationStar: {
+			DisplayName: "プリズマティック・アナイアレーション・スター"
+		}
+		ArcticCoolantSnowflake: {
+			DisplayName: "アークティッククーラント・スノーフレーク"
+		}
+		HomingNaniteBolt: {
+			DisplayName: "ホーミングナノマシンボルト"
+		}
+		NaniteShot: {
+			DisplayName: "ナノマシンショット"
+		}
+		NaniteLaserLine: {
+			DisplayName: "ナノマシンレーザーライン"
+		}
+		NaniteLaserLineEmitter: {
+			DisplayName: "ナノマシンレーザーラインエミッター"
+		}
+		HelixBoltEmitter: {
+			DisplayName: "ヘリックスボルトエミッター"
+		}
+	}
+	Items: {
+		WoodenSlingshot: {
+			Tooltip: "キャニスターを発射する"
+			DisplayName: "木のスリングショット"
+		}
+		ModifiedHandgun: {
+			Tooltip: "キャニスターを消費する"
+			DisplayName: "改造ハンドガン"
+		}
+		VolatileCanister: {
+			Tooltip: "発射されると燃え盛る爆発を起こす\n消費されると敵を炎に弱くするジェルの流れを発射する"
+			DisplayName: "揮発性キャニスター"
+		}
+		VerdantCanister: {
+			Tooltip: "発射されるとツタが炸裂する\n消費されると毒ガスの雲を発射する"
+			DisplayName: "ヴァーダントキャニスター"
+		}
+		ToxicCanister: {
+			Tooltip: "発射されると有毒な放射物を残す\n消費されるとスマートバウンドする毒のウィスプを発射する"
+			DisplayName: "毒性のキャニスター"
+		}
+		HarmonicCanister: {
+			Tooltip: "発射されると貫通するキャニスターを撃つ\n消費されると螺旋状のヘリックスを発射する"
+			DisplayName: "ハーモニックキャニスター"
+		}
+		GlisteningCanister: {
+			Tooltip: "発射されると跳ねる霊液のボールに爆発する\n消費されると分裂する霊液のブロブを発射する"
+			DisplayName: "霊液のキャニスター"
+		}
+		EmptyCanister: {
+			Tooltip: "様々な種類の弾薬をクラフトするために使用する"
+			DisplayName: "空のキャニスター"
+		}
+		BlightedCanister: {
+			Tooltip: "発射されると呪われた火の玉の渦を放出する\n消費されると呪われたエネルギーのボルトを発射する"
+			DisplayName: "荒廃のキャニスター"
+		}
+		NaniteCanister: {
+			Tooltip: "発射されると熱追尾ダーツを放出する\n消費されると貫通するレーザーラインを発射する"
+			DisplayName: "ナノマシンキャニスター"
+		}
+		GhastlyCanister: {
+			Tooltip: "発射されるとクラスター爆弾として爆発する\n消費されるとスペクトルボルトのショットガンブラストを発射する"
+			DisplayName: "ゴーストのキャニスター"
+		}
+		LunarCanister: {
+			Tooltip: "発射されると雷の渦に爆発する\n消費されるとマーキングする月のエネルギーを発射する\n「ああ、暗闇で光るよ。いや、ナイトライトとしては使えない」"
+			DisplayName: "月のキャニスター"
+		}
+		GraniteCannon: {
+			DisplayName: "グラナイトキャノン"
+			Tooltip: "キャニスターを発射する"
+		}
+		AncientSprayer: {
+			Tooltip: "キャニスターを消費する\n20%の確率で弾薬を節約する"
+			DisplayName: "エンシェントスプレイヤー"
+		}
+		BarkBellower: {
+			DisplayName: "バークベロワー"
+			Tooltip: "消費されたキャニスターの弾が「自然の災い」を付与する"
+		}
+		LushSlinger: {
+			DisplayName: "ラッシュスリンガー"
+			Tooltip: "発射されたヴァーダントキャニスターがより攻撃的なツタを生成する"
+		}
+		TheColony: {
+			DisplayName: "ザ・コロニー"
+			Tooltip: "キャニスターを拡散して消費する"
+		}
+		InfernalCannon: {
+			DisplayName: "インファーナルキャノン"
+			Tooltip: "発射されたキャニスターがシャドウフレイムに包まれる"
+		}
+		RepurposedSprayBottle: {
+			DisplayName: "再利用スプレーボトル"
+			Tooltip: "情けない速度だが、とてつもない連射速度でキャニスターを消費する\n40%の確率で弾薬を節約する"
+		}
+		Icemire: {
+			DisplayName: "アイスマイア"
+			Tooltip: "超冷却されたキャニスターの短いバーストを発射する"
+		}
+		Resonance: {
+			DisplayName: "レゾナンス"
+			Tooltip: "2つの調和した弾でキャニスターを消費する\n30%の確率で弾薬を節約する"
+		}
+		Pneumaticannon: {
+			DisplayName: "ニューマティキャノン"
+			Tooltip: "とてつもない速度でキャニスターを発射する"
+		}
+		SlimeySlinger: {
+			DisplayName: "スライミースリンガー"
+			Tooltip: "跳ねるスライムでコーティングされたキャニスターを発射する\n「戦術的跳弾！」"
+		}
+		Splattergun: {
+			DisplayName: "スプラッターガン"
+			Tooltip: "キャニスターを消費する\n射撃時間が長くなるほど連射速度が加速する\n25%の確率で弾薬を節約する"
+		}
+		Reverence: {
+			DisplayName: "リヴァレンス"
+			Tooltip: "左クリックでキャニスターを発射する\n右クリックでキャニスターを消費する"
+		}
+		ChlorophyteSlugger: {
+			DisplayName: "クロロファイトスラッガー"
+			Tooltip: "キャニスターを消費する\n射撃時間が長くなるほど連射速度が飛躍的に加速する\n60%の確率で弾薬を節約する"
+		}
+		AetherianCanister: {
+			Tooltip: "発射されると跳ねるエーテルブロブの拡散になる\n消費されると二重に爆発するキャニスターを放出する"
+			DisplayName: "エーテルのキャニスター"
+		}
+		FungalFury: {
+			DisplayName: "ファンガルヒューリー"
+			Tooltip: "4ラウンドバーストでキャニスターを消費する\n20%の確率で弾薬を節約する"
+		}
+		PneumaticPump: {
+			DisplayName: "ニューマティックポンプ"
+			Tooltip: "発射されたキャニスターの爆発半径を50%増加させる\n消費されたキャニスターの連射速度を8%上昇させる"
+		}
+		AbyssalBlaster: {
+			DisplayName: "アビサルブラスター"
+			Tooltip: "3つのキャニスターを拡散発射する\n「部屋の大きさなんて聞いてない…」"
+		}
+		HypernovaRailgun: {
+			DisplayName: "ハイパーノヴァレールガン"
+			Tooltip: "比類なき速度でキャニスターを発射し、飛距離に応じて最大20%までダメージを増加させる"
+		}
+		QuantumFluxCannon: {
+			DisplayName: "クオンタムフラックスキャノン"
+			Tooltip: "最先端の量子技術を使用してキャニスターを同時に発射および消費する\n20%の確率で弾薬を節約する\n「これはバグじゃない――仕様だ！」"
+		}
+		PrismaticAnnihilation: {
+			DisplayName: "プリズマティック・アナイアレーション"
+			Tooltip: "キャニスターを消費し、4ショットごとにプリズマティックスターを放出する\n射撃時間が長くなるほど連射速度が加速する\n50%の確率で弾薬を節約する"
+		}
+		Coelacannon: {
+			DisplayName: "シーラカノン"
+			Tooltip: "ホーミングする「キャニスター」を発射する\n「この武器の製造において動物は一切傷つけられていません！」"
+		}
+		ArcticCoolant: {
+			DisplayName: "アークティッククーラント"
+			Tooltip: "発射されたキャニスターが爆発する際にホーミングする北極の雪の結晶を放出する"
+		}
+		CryoPumpAssembly: {
+			DisplayName: "クライオポンプアセンブリ"
+			Tooltip: "発射されたキャニスターの爆発半径を50%増加させる\n発射されたキャニスターが爆発する際にホーミングする北極の雪の結晶を放出する"
+		}
+		SolarSigil: {
+			DisplayName: "太陽のシジル"
+			Tooltip: "消費されたキャニスターの弾によるクリティカルヒットが、太陽光線で近くの敵にダメージを与える"
+		}
+		SunBlessedTech: {
+			DisplayName: "サンブレスドテック"
+			Tooltip: "消費されたキャニスターの弾の連射速度を15%上昇させる\n発射されたキャニスターの弾によるクリティカルヒットが、太陽光線で近くの敵にダメージを与える"
+		}
+	}
+	Configs: {
+		ServerConfig: {
+			DisplayName: "サーバー設定"
+		}
+	}
+}

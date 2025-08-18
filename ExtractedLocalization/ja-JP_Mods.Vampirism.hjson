@@ -1,0 +1,64 @@
+Buffs: {
+	UltimateVampire: {
+		DisplayName: Ultimate Vampire
+		Description: Mods.Vampirism.Buffs.UltimateVampire.Description
+	}
+
+	VampireTierOne: {
+		DisplayName: Vampire Tier One
+		Description: Mods.Vampirism.Buffs.VampireTierOne.Description
+	}
+
+	VampireTierThree: {
+		DisplayName: Vampire Tier Three
+		Description: Mods.Vampirism.Buffs.VampireTierThree.Description
+	}
+
+	VampireTierTwo: {
+		DisplayName: Vampire Tier Two
+		Description: Mods.Vampirism.Buffs.VampireTierTwo.Description
+	}
+
+	VampiricRecovery: {
+		DisplayName: Vampiric Recovery
+		Description: Mods.Vampirism.Buffs.VampiricRecovery.Description
+	}
+}
+
+Items: {
+	AwakenedBlood: {
+		DisplayName: Awakened Blood
+		Tooltip: ""
+	}
+
+	AwakenedBloodEssence: {
+		DisplayName: Awakened Blood Essence
+		Tooltip: ""
+	}
+
+	blood: {
+		DisplayName: blood
+		Tooltip: ""
+	}
+
+	ElderBloodEssence: {
+		DisplayName: Elder Blood Essence
+		Tooltip: ""
+	}
+
+	EvolvingBlood: {
+		DisplayName: Evolving Blood
+		Tooltip: ""
+	}
+
+	UltimateBlood: {
+		DisplayName: Ultimate Blood
+		Tooltip: ""
+	}
+
+	testSword: {
+		DisplayName: test Sword
+		Tooltip: ""
+	}
+}
+

@@ -1,0 +1,953 @@
+{
+	Mods: {
+		MEAC: {
+			VanillaItemTooltips: {
+				EmpressButterfly: {
+					Text5: "この生物を殺す",
+					Text4: "光の女皇の聖遺物のそばで",
+					Text3: "プレイヤーが日の出の方向に向けて設置した",
+					Text2: "、",
+					Text1: "正午に",
+					Text0: "一部の情報は強力な生物によって封印されている"
+				},
+				NightsEdge: {
+					Tooltip: "攻撃方法をリワーク、夜間に能力が大幅に強化される"
+				},
+				BeeKeeper: {
+					Tooltip: "攻撃方法をリワーク、近接ゲージが半分以上の時に右クリックでダッシュ攻撃が可能"
+				},
+				DarkLance: {
+					Tooltip: "攻撃方法をリワーク"
+				},
+				Frostbrand: {
+					Tooltip: "攻撃方法をリワーク、近接ゲージが半分以上の時に強化攻撃が可能"
+				},
+				IceBlade: {
+					Tooltip: "攻撃方法をリワーク、近接ゲージが半分以上の時に強化攻撃が可能"
+				},
+				Katana: {
+					Tooltip: "攻撃方法をリワーク、近接ゲージが半分以上の時に強化攻撃が可能"
+				},
+				Starfury: {
+					Tooltip: "右クリックで近接攻撃が可能、ヒット時に追尾する星を生成する"
+				},
+				Muramasa: {
+					Tooltip: "攻撃方法をリワーク、近接ゲージが半分以上の時に強化攻撃が可能"
+				},
+				BladeofGrass: {
+					Tooltip: "攻撃方法をリワーク"
+				},
+				FieryGreatsword: {
+					Tooltip: "攻撃方法をリワーク、右クリックでチャージ攻撃、空中で右クリックで落下攻撃"
+				},
+				EnchantedBoomerang: {
+					Tooltip: "ノックバックが低下、飛行速度が増加し、敵を追尾できる"
+				},
+				ThunderSpear: {
+					Tooltip2: "、右クリックでチャージ攻撃",
+					Tooltip1: "、デューク・フィッシュロンを倒した後、さらなる特殊強化を得る",
+					Tooltip0: "攻撃方法をリワーク、水中の敵に2倍のダメージを与える"
+				},
+				BloodButcherer: {
+					Tooltip1: "攻撃に貫通する剣気を付与する",
+					Tooltip0: "クトゥルフの目を倒した後に特殊強化を得る"
+				},
+				LightsBane: {
+					Tooltip1: "攻撃に3つの斬撃を付与する",
+					Tooltip0: "クトゥルフの目を倒した後に特殊強化を得る"
+				},
+				CrimsonRod: {
+					Tooltip: "右クリックで少量のマナを消費して血雨雲をマウスカーソル上に移動できる"
+				},
+				ReaverShark: {
+					Tooltip: "ツルハシパワーが60になり、採掘速度が増加する"
+				},
+				ZombieArm: {
+					Tooltip: "ノックバック能力が強化される"
+				},
+				CactusSword: {
+					Tooltip: "ダメージ、クリティカル率、サイズが向上するが、クリティカル時に自分も半分のダメージを受ける"
+				},
+				VampireKnife: {
+					Tooltip2: "現在のキル数：",
+					Tooltip1: "キル数が多いほどダメージが高くなる",
+					Tooltip0: "リフォージ不可"
+				}
+			},
+			Configs: {
+				MEACConfig: {
+					showMeleeDisplay: {
+						Tooltip: "",
+						Label: "近接ボーナスバーを表示"
+					},
+					Headers: {
+						"以下修改需要重新加载或重启游戏才能生效": "以下の変更は、ゲームの再読み込みまたは再起動後に有効になる"
+					},
+					itemChange: {
+						Tooltip: "一部のバニラアイテムを変更する",
+						Label: "アイテム変更"
+					},
+					bossChange: {
+						Tooltip: "一部のバニラボスを変更する",
+						Label: "ボスAI変更"
+					},
+					coverAI: {
+						Tooltip: "他のMODによるボスAIの変更を上書きし、AIの競合を避ける（実験的機能、成功は保証されない）",
+						Label: "ボスAI上書き"
+					},
+					DisplayName: "MEAC設定"
+				}
+			},
+			Buffs: {
+				CantDashMeleeBuff: {
+					DisplayName: "近接ダッシュ不可バフ",
+					Description: "近接ダッシュ不可"
+				},
+				DashMeleeBuff: {
+					DisplayName: "近接ダッシュバフ",
+					Description: "近接ダッシュ"
+				}
+			},
+			Items: {
+				ClockworkAssaultRifle: {
+					Tooltip: "",
+					DisplayName: "クロックワークスナイパーライフル"
+				},
+				SniperRifle: {
+					Tooltip: "（Risk of Rain 2より）\n右クリックでターゲットの弱点を表示し、攻撃精度を向上させる\n弱点に命中すると必ずクリティカルヒットし、クリティカル率がクリティカルダメージに変換される\n攻撃後、適切なタイミングでリロードすると次の攻撃のダメージが増加する",
+					DisplayName: "スナイパーライフル"
+				},
+				SpriteHookItem: {
+					Tooltip: "",
+					DisplayName: "スプライトフックアイテム"
+				},
+				DarkFlower: {
+					Tooltip: "",
+					DisplayName: "ダークフラワー"
+				},
+				CharonDoubleSickle_Item: {
+					Tooltip: "",
+					DisplayName: "カロンのダブルシックルアイテム"
+				},
+				CharonDoubleSickle: {
+					Tooltip: "",
+					DisplayName: "カロンのダブルシックル"
+				},
+				HASummoner: {
+					DisplayName: "怪しげなハンマーアックス",
+					Tooltip: "呪われたハンマーアックスを召喚する"
+				},
+				BossSummon: {
+					DisplayName: "ボス召喚",
+					Tooltip: ""
+				},
+				BossRushControler: {
+					DisplayName: "ボスラッシュコントローラー",
+					Tooltip: ""
+				},
+				FlyingSword: {
+					DisplayName: "飛ぶ剣",
+					Tooltip: ""
+				},
+				LegendSunfury: {
+					DisplayName: "伝説のサンフューリー",
+					Tooltip: ""
+				},
+				XiHeMagicItem: {
+					DisplayName: "羲和の魔法アイテム",
+					Tooltip: ""
+				},
+				IcarusBow: {
+					DisplayName: "イカロスの弓",
+					Tooltip2: "「翼を広げ太陽を追い、蒼穹を破る。焼ける翼は身を焦がし、永遠に輝く」——DeepSeek",
+					Tooltip1: "飛行時間が残っている場合、それを消費して攻撃回数を増やす",
+					Tooltip0: "このアイテムを所持している間、無限飛行が無効になる",
+					Tooltip: ""
+				},
+				PhaseBladeItem: {
+					DisplayName: "フェイズブレードアイテム",
+					Tooltip: ""
+				},
+				Serenade: {
+					DisplayName: "セレナーデ",
+					Tooltip: ""
+				},
+				StarCannonEX: {
+					DisplayName: "スターキャノンEX",
+					Tooltip: ""
+				},
+				SymmetricalLance: {
+					DisplayName: "シンメトリカルランス",
+					Tooltip: ""
+				},
+				"「生命终结者」": {
+					DisplayName: "「生命の終結者」",
+					Tooltip: ""
+				},
+				Tester: {
+					DisplayName: "テスター",
+					Tooltip: ""
+				},
+				Tester2: {
+					DisplayName: "テスター2",
+					Tooltip: ""
+				},
+				XiheSummonItem: {
+					DisplayName: "羲和召喚アイテム",
+					Tooltip: ""
+				}
+			},
+			NPCs: {
+				HexaGhost: {
+					DisplayName: "六火の亡霊"
+				},
+				BloodSpiritBoss: {
+					DisplayName: "ブラッドスピリットボス"
+				},
+				BloodServant: {
+					DisplayName": "ブラッドサーバント"
+				},
+				ZenithBoss: {
+					DisplayName": "ゼニスボス"
+				},
+				CursedDummy: {
+					DisplayName": "呪われたダミー"
+				},
+				XiHe: {
+					DisplayName": "羲和"
+				},
+				Corruptor: {
+					DisplayName": "コラプター"
+				},
+				CrimsonAxe: {
+					DisplayName": "クリムゾンアックス"
+				},
+				CursedHammer: {
+					DisplayName": "カースドハンマー"
+				},
+				RSBoss: {
+					DisplayName": "レインボーロッド"
+				},
+				RSBossClone: {
+					DisplayName": "レインボーロッドクローン"
+				},
+				TSBoss: {
+					DisplayName": "TSボス"
+				},
+				SSS: {
+					DisplayName": "SSS"
+				},
+				SwordBoss: {
+					DisplayName": "ソードボス"
+				},
+				SwordBoss_BossRush: {
+					DisplayName": "ソードボス ボスラッシュ"
+				},
+				TitanShadowBoss: {
+					DisplayName": "タイタンシャドウボス"
+				}
+			},
+			Projectiles: {
+				RailGunProj1: {
+					DisplayName": "レールガンProj1"
+				},
+				RailGunProj: {
+					DisplayName": "レールガンProj"
+				},
+				ZenithStar1: {
+					DisplayName": "ゼニススター1"
+				},
+				ZenithStar0: {
+					DisplayName": "ゼニススター0"
+				},
+				ZenithStar: {
+					DisplayName": "ゼニススター"
+				},
+				VampireKnife: {
+					DisplayName": "ヴァンパイアナイフ"
+				},
+				InfluxWaver: {
+					DisplayName": "インフラックスウェーバー"
+				},
+				InfluxWaverProj: {
+					DisplayName": "インフラックスウェーバーProj"
+				},
+				HexaLaser: {
+					DisplayName": "ヘキサレーザー"
+				},
+				HexaRealm_Center: {
+					DisplayName": "ヘキサレルム センター"
+				},
+				HexaRealmRing: {
+					DisplayName": "ヘキサレルムリング"
+				},
+				HexaRealm: {
+					DisplayName": "ヘキサレルム"
+				},
+				HexaFireball_SP: {
+					DisplayName": "ヘキサファイアボール SP"
+				},
+				HexaFireball: {
+					DisplayName": "ヘキサファイアボール"
+				},
+				TNightEye_Hostile: {
+					DisplayName": "Tナイトアイ 敵対的"
+				},
+				TNightBeam_Hostile: {
+					DisplayName": "Tナイトビーム 敵対的"
+				},
+				ZenithMeleeWave: {
+					DisplayName": "ゼニス近接波"
+				},
+				ZenithSwordProj_Friendly: {
+					DisplayName": "ゼニスソードProj 友好的"
+				},
+				ZenithSwordProj: {
+					DisplayName": "ゼニスソードProj"
+				},
+				BloodThornMagic: {
+					DisplayName": "ブラッドソーンマジック"
+				},
+				BloodThorn: {
+					DisplayName": "ブラッドソーン"
+				},
+				ShrinkVortex: {
+					DisplayName": "シュリンクヴォーテックス"
+				},
+				BloodVortex: {
+					DisplayName": "ブラッドヴォーテックス"
+				},
+				BloodDashing: {
+					DisplayName": "ブラッドダッシュ"
+				},
+				BloodLaser: {
+					DisplayName": "ブラッドレーザー"
+				},
+				BloodCrossMark: {
+					DisplayName": "ブラッドクロス​​マーク"
+				},
+				StardustSword: {
+					DisplayName": "スターダストソード"
+				},
+				StardustProj: {
+					DisplayName": "スターダストProj"
+				},
+				BaseProj: {
+					DisplayName": "ベースProj"
+				},
+				SpriteHook: {
+					DisplayName": "スプライトフック"
+				},
+				BloodHealProj: {
+					DisplayName": "ブラッドヒールProj"
+				},
+				RedLilyTrailProj1: {
+					DisplayName": "レッドリリートレイルProj1"
+				},
+				RedLilyTrailProj: {
+					DisplayName": "レッドリリートレイルProj"
+				},
+				SummonMagic: {
+					DisplayName": "サモンマジック"
+				},
+				BloodSpiritProj0: {
+					DisplayName": "ブラッドスピリットProj0"
+				},
+				Terra_WaveDashing: {
+					DisplayName": "テラ ウェイブダッシュ"
+				},
+				EoLBigLaser_Friendly: {
+					DisplayName": "EoLビッグレーザー 友好的"
+				},
+				XiheMagicControler: {
+					DisplayName": "羲和マジックコントローラー"
+				},
+				DarkFlower_Proj: {
+					DisplayName": "ダークフラワー Proj"
+				},
+				BloodSpiritProj: {
+					DisplayName": "ブラッドスピリットProj"
+				},
+				BloodSpirit: {
+					DisplayName": "ブラッドスピリット"
+				},
+				BloodSpear: {
+					DisplayName": "ブラッドスピア"
+				},
+				BloodLine: {
+					DisplayName": "ブラッドライン"
+				},
+				CharonDoubleSickle: {
+					DisplayName": "カロンのダブルシックル"
+				},
+				CharonDoubleSickle_sickle: {
+					DisplayName": "カロンのダブルシックル シックル"
+				},
+				MilkyWay_Proj: {
+					DisplayName": "天の川 Proj"
+				},
+				YinYang: {
+					DisplayName": "陰陽"
+				},
+				FlowerPowPetal: {
+					DisplayName": "フラワーパワーペタル"
+				},
+				FlowerPow: {
+					DisplayName": "フラワーパワー"
+				},
+				SeedlerSeed: {
+					DisplayName": "シードラーシード"
+				},
+				Seedler: {
+					DisplayName": "シードラー"
+				},
+				NewLaser: {
+					DisplayName": "ニューレーザー"
+				},
+				ZenithMark: {
+					DisplayName": "ゼニスマーク"
+				},
+				ZenithBeam: {
+					DisplayName": "ゼニスビーム"
+				},
+				ZenithDashing: {
+					DisplayName": "ゼニスダッシュ"
+				},
+				Zenith_WaveDashing: {
+					DisplayName": "ゼニス ウェイブダッシュ"
+				},
+				ZenithBoss_CollidingAndDraw: {
+					DisplayName": "ゼニスボス 衝突と描画"
+				},
+				TheHorsemansBlade: {
+					DisplayName": "ホースマンズブレード"
+				},
+				TerraProj: {
+					DisplayName": "テラProj"
+				},
+				TerraSeed: {
+					DisplayName": "テラシード"
+				},
+				BocTentacle: {
+					DisplayName": "Bocテンタクル"
+				},
+				EocProj: {
+					DisplayName": "EocProj"
+				},
+				CrystalArrow: {
+					DisplayName": "クリスタルアロー"
+				},
+				Cycloid: {
+					DisplayName": "サイクロイド"
+				},
+				EoLBigLaser: {
+					DisplayName": "EoLビッグレーザー"
+				},
+				EoLCube: {
+					DisplayName": "EoLキューブ"
+				},
+				EoLFire: {
+					DisplayName": "EoLファイア"
+				},
+				EoLLance: {
+					DisplayName": "EoLランス"
+				},
+				EoLLaser: {
+					DisplayName": "EoLレーザー"
+				},
+				EoLLaser1: {
+					DisplayName": "EoLレーザー1"
+				},
+				EoLLaser2: {
+					DisplayName": "EoLレーザー2"
+				},
+				EoLLight: {
+					DisplayName": "EoLライト"
+				},
+				SolarProminence: {
+					DisplayName": "ソーラープロミネンス"
+				},
+				SunProj: {
+					DisplayName": "サンProj"
+				},
+				CorProj1: {
+					DisplayName": "CorProj1"
+				},
+				CorProj2: {
+					DisplayName": "CorProj2"
+				},
+				Corruption: {
+					DisplayName": "コラプション"
+				},
+				CurDashing: {
+					DisplayName": "Curダッシュ"
+				},
+				AimLine2: {
+					DisplayName": "エイムライン2"
+				},
+				CorShakeWave: {
+					DisplayName": "Corシェイクウェーブ"
+				},
+				CosmicFireBall: {
+					DisplayName": "コズミックファイアボール"
+				},
+				CosmicLaser: {
+					DisplayName": "コズミックレーザー"
+				},
+				CosmicLightning: {
+					DisplayName": "コズミックライトニング"
+				},
+				CosmicMark: {
+					DisplayName": "コズミックマーク"
+				},
+				CrimsonAim: {
+					DisplayName": "クリムゾンエイム"
+				},
+				CrimsonProj: {
+					DisplayName": "クリムゾンProj"
+				},
+				CursedFireBall: {
+					DisplayName": "カースドファイアボール"
+				},
+				CursedFireBurst: {
+					DisplayName": "カースドファイアバースト"
+				},
+				CursedFireWall: {
+					DisplayName": "カースドファイアウォール"
+				},
+				SCCut: {
+					DisplayName": "SCカット"
+				},
+				VEffProj: {
+					DisplayName": "V Eff Proj"
+				},
+				SlimeBall: {
+					DisplayName": "スライムボール"
+				},
+				AimLine1: {
+					DisplayName": "エイムライン1"
+				},
+				RS3DProj1: {
+					DisplayName": "RS3D Proj1"
+				},
+				RS3DProj2: {
+					DisplayName": "RS3D Proj2"
+				},
+				RS3DProj3: {
+					DisplayName": "RS3D Proj3"
+				},
+				RSAimLine: {
+					DisplayName": "RSエイムライン"
+				},
+				RSEffProj: {
+					DisplayName": "RS Eff Proj"
+				},
+				RSfProj4: {
+					DisplayName": "RSf Proj4"
+				},
+				RSLaser: {
+					DisplayName": "RSレーザー"
+				},
+				RSLaser1: {
+					DisplayName": "RSレーザー1"
+				},
+				RSLaser2: {
+					DisplayName": "RSレーザー2"
+				},
+				RSLaserFinal: {
+					DisplayName": "RSレーザーファイナル"
+				},
+				RSLaserFinal2: {
+					DisplayName": "RSレーザーファイナル2"
+				},
+				RSMark0: {
+					DisplayName": "RSマーク0"
+				},
+				RSMark1: {
+					DisplayName": "RSマーク1"
+				},
+				RSProj0: {
+					DisplayName": "RS Proj0"
+				},
+				RSProj1: {
+					DisplayName": "RS Proj1"
+				},
+				RSProj2: {
+					DisplayName": "RS Proj2"
+				},
+				RSProj3: {
+					DisplayName": "RS Proj3"
+				},
+				RSProj5: {
+					DisplayName": "RS Proj5"
+				},
+				RSProj7: {
+					DisplayName": "RS Proj7"
+				},
+				Coord: {
+					DisplayName": "座標"
+				},
+				Tangent: {
+					DisplayName": "タンジェント"
+				},
+				BossBeam2: {
+					DisplayName": "ボスビーム2"
+				},
+				BossBeam2Ray: {
+					DisplayName": "ボスビーム2レイ"
+				},
+				BossBeam3: {
+					DisplayName": "ボスビーム3"
+				},
+				BossBeam4: {
+					DisplayName": "ボスビーム4"
+				},
+				BossBeam5: {
+					DisplayName": "ボスビーム5"
+				},
+				BossBeam6: {
+					DisplayName": "ボスビーム6"
+				},
+				BossBeam7: {
+					DisplayName": "ボスビーム7"
+				},
+				Dashing: {
+					DisplayName": "ダッシュ"
+				},
+				Mark: {
+					DisplayName": "マーク"
+				},
+				SwordBoss_Proj: {
+					DisplayName": "ソードボス Proj"
+				},
+				CursedBall: {
+					DisplayName": "カースドボール"
+				},
+				CursedFire0: {
+					DisplayName": "カースドファイア0"
+				},
+				EyeFire: {
+					DisplayName": "アイファイア"
+				},
+				RetaProj0: {
+					DisplayName": "レタProj0"
+				},
+				SpazProj0: {
+					DisplayName": "スパズProj0"
+				},
+				TSAimLine: {
+					DisplayName": "TSエイムライン"
+				},
+				TSLaser0: {
+					DisplayName": "TSレーザー0"
+				},
+				TSLaserProj0: {
+					DisplayName": "TSレーザーProj0"
+				},
+				TSProj0: {
+					DisplayName": "TS Proj0"
+				},
+				RedGiantLaser: {
+					DisplayName": "レッドジャイアントレーザー"
+				},
+				RedLaser: {
+					DisplayName": "レッドレーザー"
+				},
+				BossBeam1: {
+					DisplayName": "ボスビーム1"
+				},
+				BossBeam1_BR: {
+					DisplayName": "ボスビーム1 BR"
+				},
+				BRStart: {
+					DisplayName": "BRスタート"
+				},
+				HolyLaser0: {
+					DisplayName": "ホーリーレーザー0"
+				},
+				Laser1: {
+					DisplayName": "レーザー1"
+				},
+				SSSLaser1: {
+					DisplayName": "SSSレーザー1"
+				},
+				SSSMark0: {
+					DisplayName": "SSSマーク0"
+				},
+				SSSMark1: {
+					DisplayName": "SSSマーク1"
+				},
+				SSStar: {
+					DisplayName": "SSスター"
+				},
+				SSStar3: {
+					DisplayName": "SSスター3"
+				},
+				SSStar4: {
+					DisplayName": "SSスター4"
+				},
+				SSStarEx: {
+					DisplayName": "SSスターEx"
+				},
+				TitanBeam: {
+					DisplayName": "タイタンビーム"
+				},
+				FlyingSword_Proj: {
+					DisplayName": "飛ぶ剣 Proj"
+				},
+				FlyingSword_SubProj: {
+					DisplayName": "飛ぶ剣 サブProj"
+				},
+				EoLProj: {
+					DisplayName": "EoL Proj"
+				},
+				EoLProj_F: {
+					DisplayName": "EoL Proj F"
+				},
+				LegendSunfury_Proj: {
+					DisplayName": "伝説のサンフューリー Proj"
+				},
+				LightArrow: {
+					DisplayName": "ライトアロー"
+				},
+				XiheSummonProj: {
+					DisplayName": "羲和召喚Proj"
+				},
+				HostileDashing: {
+					DisplayName": "敵対的ダッシュ"
+				},
+				SymmetricalLanceProj: {
+					DisplayName": "シンメトリカルランスProj"
+				},
+				TerminatorOfLife: {
+					DisplayName": "生命の終結者"
+				},
+				SpearEffect: {
+					DisplayName": "スピアエフェクト"
+				},
+				TitanSwordHostile: {
+					DisplayName": "タイタンソード敵対的"
+				},
+				AdamantiteGlaive: {
+					DisplayName": "アダマンタイトグレイブ"
+				},
+				AdamantiteSword: {
+					DisplayName": "アダマンタイトソード"
+				},
+				Bladetongue: {
+					DisplayName": "ブレードタング"
+				},
+				BreakerBlade: {
+					DisplayName": "ブレイカーブレード"
+				},
+				ChlorophytePartisan: {
+					DisplayName": "クロロファイトパルチザン"
+				},
+				CobaltNaginata: {
+					DisplayName": "コバルトナギナタ"
+				},
+				CobaltSword: {
+					DisplayName": "コバルトソード"
+				},
+				DeathSickle: {
+					DisplayName": "デスシックル"
+				},
+				Frostbrand: {
+					DisplayName": "フロストブランド"
+				},
+				IceBlade: {
+					DisplayName": "アイスブレード"
+				},
+				MonkStaffT2: {
+					DisplayName": "モンクスタッフT2"
+				},
+				MythrilHalberd: {
+					DisplayName": "ミスリルハルバード"
+				},
+				MythrilSword: {
+					DisplayName": "ミスリルソード"
+				},
+				OrichalcumHalberd: {
+					DisplayName": "オリハルコンハルバード"
+				},
+				OrichalSword: {
+					DisplayName": "オリハルソード"
+				},
+				PalladiumPike: {
+					DisplayName": "パラディウムパイク"
+				},
+				TerraBlade: {
+					DisplayName": "テラブレード"
+				},
+				TExcalibur: {
+					DisplayName": "Tエクスカリバー"
+				},
+				TitaniumSword: {
+					DisplayName": "チタンソード"
+				},
+				TrueNightsEdge: {
+					DisplayName": "トゥルーナイツエッジ"
+				},
+				BeeKeeper: {
+					DisplayName": "ビーキーパー"
+				},
+				BladeOfGrass: {
+					DisplayName": "ブレードオブグラス"
+				},
+				FieryGreatsword: {
+					DisplayName": "炎のグレートソード"
+				},
+				Katana: {
+					DisplayName": "刀"
+				},
+				Muramasa: {
+					DisplayName": "ムラマサ"
+				},
+				NightsEdge: {
+					DisplayName": "ナイツエッジ"
+				},
+				Starfury: {
+					DisplayName": "スターフューリー"
+				},
+				MeleeWave: {
+					DisplayName": "近接波"
+				},
+				MeleeWave_Small: {
+					DisplayName": "近接波 小"
+				},
+				Base3DProjectile: {
+					DisplayName": "ベース3D射出物"
+				},
+				BloodProj: {
+					DisplayName": "ブラッドProj"
+				},
+				Bubble: {
+					DisplayName": "バブル"
+				},
+				CrystalProj: {
+					DisplayName": "クリスタルProj"
+				},
+				DarkLance: {
+					DisplayName": "ダークランス"
+				},
+				DarkLanceProj: {
+					DisplayName": "ダークランスProj"
+				},
+				DreamStar_FallenStar: {
+					DisplayName": "ドリームスター フォーリングスター"
+				},
+				FireProj: {
+					DisplayName": "ファイアProj"
+				},
+				GrassDashing: {
+					DisplayName": "グラスダッシュ"
+				},
+				Gungnir: {
+					DisplayName": "グングニル"
+				},
+				GungnirDashing: {
+					DisplayName": "グングニルダッシュ"
+				},
+				LightningProj: {
+					DisplayName": "ライトニングProj"
+				},
+				PersTest: {
+					DisplayName": "パーステスト"
+				},
+				Thunder_Friendly: {
+					DisplayName": "サンダー 友好的"
+				},
+				ThunderSpear: {
+					DisplayName": "サンダースピア"
+				},
+				ThunderSpear_Sub: {
+					DisplayName": "サンダースピア サブ"
+				},
+				TitanAimline: {
+					DisplayName": "タイタンエイムライン"
+				},
+				TitanFinalProj: {
+					DisplayName": "タイタンファイナルProj"
+				},
+				Serenade_Melee: {
+					DisplayName": "セレナーデ 近接"
+				},
+				SerenadeMinion: {
+					DisplayName": "セレナーデミニオン"
+				},
+				SmashDamageProj: {
+					DisplayName": "スマッシュダメージProj"
+				},
+				StarCannonAim: {
+					DisplayName": "スターキャノンエイム"
+				},
+				StarCannonShoot: {
+					DisplayName": "スターキャノンシュート"
+				},
+				ExampleProj: {
+					DisplayName": "サンプルProj"
+				},
+				TestWave: {
+					DisplayName": "テストウェーブ"
+				},
+				AdamBeam: {
+					DisplayName": "アダムビーム"
+				},
+				ChargeProj: {
+					DisplayName": "チャージProj"
+				},
+				CrimsonBeam: {
+					DisplayName": "クリムゾンビーム"
+				},
+				DSproj: {
+					DisplayName": "DSproj"
+				},
+				Excalibur: {
+					DisplayName": "エクスカリバー"
+				},
+				ExcaliburProj: {
+					DisplayName": "エクスカリバーProj"
+				},
+				FireFlowerProj: {
+					DisplayName": "ファイアフラワーProj"
+				},
+				Flamarang: {
+					DisplayName": "フラマラン"
+				},
+				GungnirShoot: {
+					DisplayName": "グングニルシュート"
+				},
+				IceProj: {
+					DisplayName": "アイスProj"
+				},
+				IchorProj: {
+					DisplayName": "イコールProj"
+				},
+				IchorProjFriendly: {
+					DisplayName": "イコールProj友好的"
+				},
+				LightBane: {
+					DisplayName": "ライトベイン"
+				},
+				NightsDashing: {
+					DisplayName": "ナイツダッシュ"
+				},
+				NightSlash: {
+					DisplayName": "ナイトスラッシュ"
+				},
+				TNightBeam: {
+					DisplayName": "Tナイトビーム"
+				},
+				TNightEye: {
+					DisplayName": "Tナイトアイ"
+				},
+				OrichalcumDashing: {
+					DisplayName": "オリハルコンダッシュ"
+				},
+				TitanSmash: {
+					DisplayName": "タイタンスマッシュ"
+				}
+			}
+		}
+	}
+}

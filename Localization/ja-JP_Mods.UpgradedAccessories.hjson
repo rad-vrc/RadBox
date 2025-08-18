@@ -1,0 +1,267 @@
+Buffs: {
+	LastResortBuff1: {
+		DisplayName: トリック#1
+		Description: ダメージが10％増加
+	}
+
+	LastResortBuff2: {
+		DisplayName: トリック#2
+		Description: ダメージが20％増加
+	}
+
+	LastResortBuff3: {
+		DisplayName: トリック#3
+		Description: ダメージが30％増加
+	}
+}
+
+Items: {
+	TheSeed: {
+		DisplayName: ザ・シード
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「ここで始まり、今ここで終わる」
+			[c/64EAEA:被弾すると自然または宇宙の怒りを解き放つ]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	ManaBracelet: {
+		DisplayName: マナのブレスレット
+		Tooltip:
+			'''
+			消費マナが8％減少
+			必要に応じて自動的にマナポーションを使用
+			被弾時にマナを回復
+			最大マナが20増加
+			'''
+	}
+
+	NebulaBalancer: {
+		DisplayName: ネビュラ・バランサー
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「膨大なダメージ」
+			[c/64EAEA:ダメージ、ライフ/マナ自然回復をそれぞれ増進させる変動バフを付与]
+			[c/64EAEA:ライフ/マナが十分にあると] [c/FF2020:代わりに他のステータスを強化]
+			[c/64EAEA:ライフ/マナが危機的だと] [c/FF2020:他のステータスを犠牲にして自身を強化]
+			[c/64EAEA:見た目を非表示にするとUIを無効化]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	SolarFlareDestablizer: {
+		DisplayName: ソーラーフレア・デスタブライザー
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「太陽の力を手懐けろ」
+			[c/64EAEA:近接攻撃がソーラーフレアの爆発を放ち周囲の敵へ伝播]
+			[c/64EAEA:飛来物から受けるダメージを10％軽減]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	StardustManual: {
+		DisplayName: スターダスト・マニュアル
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「古の知識を指先に」
+			[c/64EAEA:あらゆる攻撃を定期的に無効化する守護者を召喚し、その後] [c/FF2020:激昂モードに入る]
+			[c/64EAEA:ブロックのクールダウンは防いだダメージに応じて変動し、] [c/FF2020:召喚数上限が高いほど短縮]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	VortexController: {
+		DisplayName: ボルテックス・コントローラー
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「人間の能力の模範：ドローン認定」
+			[c/64EAEA:敵を追尾するボルテックスアローを召喚]
+			[c/64EAEA:さらにボルテックスドローンを充電し近くの敵を攻撃]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	Gajetpack: {
+		DisplayName: ガジェットパック
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「ガジェットパックと混同しないこと」
+			[c/64EAEA:ホットキーを設定・使用すると非常に速い移動で無限ホバー] [c/FF2020:与えるダメージは5％に低下]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	LastResort: {
+		DisplayName: ラストリゾート
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「我が師匠の巻物に陳腐な手はない、[Player Name]」
+			[c/64EAEA:回避率が上昇するデコイを3体付与]
+			[c/64EAEA:デコイを消費すると短時間ダメージが増加]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	SGTrio: {
+		DisplayName: S. G.トリオ
+		Tooltip:
+			'''
+			二段ジャンプが可能
+			ジャンプ高度が上昇し落下ダメージを無効化
+			ジャンプ速度が上昇し自動ジャンプが可能
+			'''
+	}
+
+	EyeoftheSea: {
+		DisplayName: 大海の目
+		Tooltip:
+			'''
+			クリティカル率が8％上昇
+			敵の防御力を6無視する
+			'''
+	}
+
+	MonsterVoodooDoll: {
+		DisplayName: モンスターのブードゥー人形
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「あなたは素晴らしい人だ」
+			[c/64EAEA:弱い敵やその発射物を完全に無視]
+			[c/64EAEA:強敵に攻撃で呪いを付与し強力なDOTデバフを与える]
+			[c/64EAEA:見た目を非表示にすると呪いインジケーターを無効化]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	PutridKnuckles: {
+		DisplayName: ピュートリッド・ナックル
+		Tooltip: ダメージとクリティカル率が5％上昇
+	}
+
+	PirateLordsStash: {
+		DisplayName: 海賊王のスタッシュ
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「この世界の全てをそこに置いてきた」
+			[c/64EAEA:釣りに関する高度な能力を付与]
+			[c/64EAEA:NPCの幸福度が大きく上昇]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	DesertDivingGear: {
+		DisplayName: 砂漠の潜水具
+		Tooltip:
+			'''
+			泳げるようになり、水中での呼吸時間が大幅に延長
+			水中で光を放つ
+			強風による押し戻しを防ぐ
+			砂上でさらに速く走れる
+			'''
+	}
+
+	ShieldofSwth: {
+		DisplayName: 潜水の盾
+		Tooltip:
+			'''
+			「別名：セトの盾」
+			泳げるようになり水中呼吸時間が大幅に延長
+			水中で光を放つ
+			強風による押し戻しを防ぐ
+			ノックバックと火炎ブロックへの耐性を付与
+			ほとんどのデバフへの耐性を付与
+			砂上でさらに速く走れる
+			'''
+	}
+
+	ThePathfinder: {
+		DisplayName: ザ・パスファインダー
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「旅の始まり」
+			[c/64EAEA:3秒後に被ダメージの15％を回復]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+
+	HeartcrossNecklace: {
+		DisplayName: ハートクロスのネックレス
+		Tooltip:
+			'''
+			被弾後に移動速度が上昇
+			被ダメージ後の無敵時間が延長
+			'''
+	}
+
+	Vengeance: {
+		DisplayName: 復讐の王冠
+		Tooltip:
+			'''
+			[c/55f055:-Uber Item-]
+			「大いなる力には大いなる責任が伴う」
+			[c/64EAEA:爆発する星が降り注ぎ、被弾時に非常に強力なビーサイルを放つ]
+			SHIFTで詳細ツールチップを表示
+			'''
+	}
+}
+
+Projectiles: {
+	Beesile: {
+		DisplayName: ビーサイル
+	}
+
+	BlackHole: {
+		DisplayName: ブラックホール
+	}
+
+	LastResortDecoy: {
+		DisplayName: ラストリゾートのデコイ
+	}
+
+	RevengeStar: {
+		DisplayName: リベンジスター
+	}
+
+	SolarFlareChaser: {
+		DisplayName: ソーラーフレア・チェイサー
+	}
+
+	SolarFlareExplosion: {
+		DisplayName: ソーラーフレア・エクスプロージョン
+	}
+
+	StardustManualGuardian: {
+		DisplayName: スターダスト・マニュアル・ガーディアン
+	}
+
+	TerraLeaf: {
+		DisplayName: テラリーフ
+	}
+
+	VortexArrow: {
+		DisplayName: ボルテックスアロー
+	}
+
+	VortexDrone: {
+		DisplayName: ボルテックスドローン
+	}
+}
+
+Keybinds: {
+	"Toggle Gajetpack Hover": {
+		DisplayName: ガジェットパックのホバー切替
+	}
+}
+

@@ -1,0 +1,317 @@
+{
+	Buffs: {
+		EmpressChargeDebuff: {
+			Description: "プリズムの光が敵を焼き尽くす"
+			DisplayName: "ラディアントジャッジメント"
+		}
+
+		TerraCutterDebuff: {
+			Description: "テラリアの力がこの敵を打ちのめす"
+			DisplayName: "テラレンド"
+		}
+
+		TrueTwilightPlungeDebuff: {
+			Description: "闇のエネルギーが敵の生命力を蝕む"
+			DisplayName: "ダークネスプランジ"
+		}
+	}
+
+	Items: {
+		OmegaBlades: {
+			Tooltip: '''
+			3つの高速ナイフを連射する
+			敵や地形に最初に当たると、ナイフはその場に停止する
+			停止したナイフは少しの間を置いてカーソルに向かって方向転換する
+			「時の終焉を受け入れよ…抵抗は無意味だ」
+			'''
+			DisplayName: "オメガブレード"
+		}
+
+		LunarFury: {
+			Tooltip: "「今、堕ちた者たちが天へと昇る」"
+			DisplayName: "ルナーフューリー"
+		}
+
+
+
+		GrandStar: {
+			Tooltip: "「選ばれし者の武器」"
+			DisplayName: "グランドスター"
+		}
+
+		EntropicMatter: {
+			Tooltip: '''
+			使用者の動きによって速度が影響される不安定な物質の不正確なバーストを放つ
+			「揮発性の天界の力の断片を兵器化する？ああ、それは全く安全そうだ」
+			'''
+			DisplayName: "エントロピックボレー"
+		}
+
+		SingularityMine: {
+			Tooltip: ""
+			DisplayName: "シンギュラリティマイン"
+		}
+
+		DimensionalCollapse: {
+			Tooltip: ""
+			DisplayName: "ディメンショナルコラプス"
+		}
+
+		Voidbringer: {
+			Tooltip: '''
+			敵やタイルに付着し、時間と共に追尾するエネルギーを放出する
+			「誰も虚空の絶え間ない存在から逃れることはできない」
+			'''
+			DisplayName: "ヴォイドブリンガー"
+		}
+
+		HorizonRazor: {
+			Tooltip: ""
+			DisplayName: "ホライゾンレーザー"
+		}
+
+		SpacialRend: {
+			Tooltip: '''
+			空間そのものを粉砕し、ターゲットに一連の重ね合わせた攻撃を与える
+			「妖精に完璧に効果的だ、そうでないわけがないだろう？」
+			'''
+			DisplayName: "スペーシャルレンド"
+		}
+
+		Ultima: {
+			Tooltip: ""
+			DisplayName: "アルテマ"
+		}
+
+		BlockThrower: {
+			Tooltip: '''
+			土を投げる
+			「Mod開発者の真似をするのに最適！」
+			「今こそブロックの投擲使いModだ！」
+			'''
+			DisplayName: "ブロックスローワー"
+		}
+
+		EmpressCharge: {
+			PrismaNerf: "テラプリズマの存在下ではダメージが減少する"
+			Tooltip: "投げ槍を投げ、それと一緒に飛ぶプリズムのクローンの群れを生成する"
+			DisplayName: "エンプレスチャージ"
+		}
+
+		Chimera: {
+			Tooltip: "「これはイカれてる…ネジが外れてるくらいに！」"
+			DisplayName: "キメラ"
+		}
+
+		MechimeraMayhem: {
+			Tooltip: '''
+			「混沌から秩序を、不完全な部品から完璧さを引き裂け…」
+			レジェンダリー
+			'''
+			DisplayName: "メキメラメイヘム"
+		}
+
+		TerraCutter: {
+			Tooltip: ""
+			DisplayName: "テラカッター"
+		}
+
+		TrueDivineStar: {
+			Tooltip: ""
+			DisplayName: "真・ディバインスター"
+		}
+
+		TrueTwilightPlunge: {
+			Tooltip: ""
+			DisplayName: "真・トワイライトプランジ"
+		}
+
+		TwilightPlunge: {
+			Tooltip: ""
+			DisplayName: "トワイライトプランジ"
+		}
+	}
+
+	Projectiles: {
+		OmegaBladeProj: {
+			DisplayName: "オメガブレード"
+		}
+
+		LunarFurySpark: {
+			DisplayName: "ルナーフューリースパーク"
+		}
+
+		LunarFuryProj: {
+			DisplayName: "ルナーフューリー発射体"
+		}
+
+		GrandStarMini: {
+			DisplayName: "グランドスターミニ"
+		}
+
+		GrandStarProj: {
+			DisplayName: "グランドスター発射体"
+		}
+
+		EntropicMatterProj: {
+			DisplayName: "エントロピックマター発射体"
+		}
+
+		SingularityVortex: {
+			DisplayName: "シンギュラリティヴォーテックス"
+		}
+
+		SingularityMineProj: {
+			DisplayName: "シンギュラリティマイン発射体"
+		}
+
+		DimensionalCollapseProj: {
+			DisplayName: "ディメンショナルコラプス発射体"
+		}
+
+		VoidBlast: {
+			DisplayName: "ヴォイドブラスト"
+		}
+
+		VoidbringerProj: {
+			DisplayName: "ヴォイドブリンガー"
+		}
+
+		VoidEnergy: {
+			DisplayName: "ヴォイドエネルギー"
+		}
+
+		HorizonRazorProj: {
+			DisplayName: "ホライゾンレーザー"
+		}
+
+		SpacialRendProj: {
+			DisplayName: "スペーシャルレンド"
+		}
+
+		VoidFissure: {
+			DisplayName: "ヴォイドフィッシャー"
+		}
+
+		UltimaOrbital: {
+			DisplayName: "アルテマ"
+		}
+
+		UltimaProj: {
+			DisplayName: "アルテマ"
+		}
+
+		BlockThrowerProj: {
+			DisplayName: "土ブロック"
+		}
+
+		EmpressChargeProj: {
+			DisplayName: "エンプレスチャージ"
+		}
+
+		EmpressChargeClone: {
+			DisplayName: "エンプレスチャージ"
+		}
+
+		MechimeraMine: {
+			DisplayName: "メキメラマイン"
+		}
+
+		MechimeraMayhemProj: {
+			DisplayName: "メキメラレンダー"
+		}
+
+		MechimeraLance: {
+			DisplayName: "メキメラボルト"
+		}
+
+		ChimeraProj: {
+			DisplayName: "キメラ"
+		}
+
+		ChimeraMine: {
+			DisplayName: "キメラマイン"
+		}
+
+		TerraCutterProj: {
+			DisplayName: "テラカッター"
+		}
+
+		TerraCutterSlash: {
+			DisplayName: "テラスラッシュ"
+		}
+
+		TrueDivineStarBeam: {
+			DisplayName: "ディバインビーム"
+		}
+
+		TrueDivineStarProj: {
+			DisplayName: "真なるディバインスター"
+		}
+
+		TwilightPlungeProj: {
+			DisplayName: "トワイライトプランジ"
+		}
+
+		TwilightPlungeClone: {
+			DisplayName: "トワイライトプランジ"
+		}
+
+		TrueTwilightPlungeProj: {
+			DisplayName: "真なるトワイライトプランジ"
+		}
+
+		TrueTwilightPlungeClone: {
+			DisplayName: "真なるトワイライトプランジ"
+		}
+
+		HolyHandGrenadeProj: {
+			DisplayName: "聖なる手榴弾"
+		}
+	}
+
+	Configs: {
+		Config: {
+			slimenobiConv: {
+				Tooltip: "この武器のダメージクラスを投擲に変更する"
+				Label: "スライメノビを投擲に変換"
+			}
+
+			flaskConv: {
+				Tooltip: '''
+				この武器のダメージクラスを投擲に変更する
+				さらに消費マナを削除するが、それに応じてダメージは低下する
+				元のダメージタイプのため、この武器は変換時に汎用（クラス固有でない）の接頭辞しか受け取れなくなる
+				'''
+				Label: "コンバスチョンフラスコを投擲に変換"
+			}
+
+			tridentConv: {
+				Tooltip: '''
+				この武器のダメージクラスを投擲に変更する
+				元のダメージタイプのため、この武器は変換時に汎用（クラス固有でない）の接頭辞しか受け取れなくなる
+				'''
+				Label: "カーストライデントを投擲に変換"
+			}
+
+			daggerConv: {
+				Tooltip: '''
+				この武器のダメージクラスを投擲に変更する
+				元のダメージタイプのため、この武器は変換時に汎用（クラス固有でない）の接頭辞しか受け取れなくなる
+				'''
+				Label: "流血のダガーを投擲に変換"
+			}
+
+			hhgRework: {
+				Tooltip: '''
+				この武器のダメージクラスを投擲に変更する
+				また、武器としての使用に対応するためにダメージなどの他のステータスも調整する
+				さらに、攻撃の挙動も微調整される 最も注目すべきは、グレネードがタイルを破壊しなくなることだ
+				'''
+				Label: "聖なる手榴弾のリワーク"
+			}
+
+			DisplayName: "設定"
+		}
+	}
+}

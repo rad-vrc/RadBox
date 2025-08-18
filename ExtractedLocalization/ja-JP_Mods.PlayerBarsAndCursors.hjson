@@ -1,0 +1,153 @@
+Keybinds: {
+	"Toggle Player Bars": {
+		DisplayName: プレイヤーバーの切り替え
+	}
+}
+
+Config: {
+	BarSettings: {
+		Show: 常に表示
+		AutoHideWhenFull: 満タン時に自動非表示
+		OnlyShowInBossFight: ボス戦時のみ表示
+		Scale: サイズ
+		Offset: オフセット
+	}
+
+	CursorSettings: {
+		ShowBossPointer: ボスポインタ表示
+		ShowMousePointer: マウスポインタ表示
+		AutoHideOnMapStyle: マップスタイル時に自動非表示
+		OnlyShowInBossFight: ボス戦時のみ表示
+		ShowBossIcons: ボスアイコン表示
+		MaxBossPointers: 最大ボスポインタ数
+		Scale: サイズ
+		PointerRadius: ポインタ半径
+		CloseDistanceThreshold: 近距離閾値
+		GlowScaleMultiplier: 発光倍率
+		BossPointerColor: ボスポインタ色
+		BossGlowColor: ボス発光色
+		MousePointerColor: マウスポインタ色
+		MouseGlowColor: マウス発光色
+	}
+
+	Headers: {
+		BarHeader: バー設定ヘッダー
+		CursorHeader: カーソル設定ヘッダー
+	}
+}
+
+Configs: {
+	BarSettings: {
+		Tooltip: ""
+
+		Show: {
+			Tooltip: ""
+		}
+
+		AutoHideWhenFull: {
+			Tooltip: ""
+		}
+
+		OnlyShowInBossFight: {
+			Tooltip: ""
+		}
+
+		Scale: {
+			Tooltip: ""
+		}
+
+		Offset: {
+			Tooltip: ""
+		}
+
+		DebugInfo: {
+			Label: デバッグ情報
+			Tooltip: ""
+		}
+	}
+
+	CursorSettings: {
+		Tooltip: ""
+
+		ShowBossPointer: {
+			Tooltip: ""
+		}
+
+		ShowMousePointer: {
+			Tooltip: ""
+		}
+
+		AutoHideOnMapStyle: {
+			Tooltip: ""
+		}
+
+		OnlyShowInBossFight: {
+			Tooltip: ""
+		}
+
+		ShowBossIcons: {
+			Tooltip: ""
+		}
+
+		MaxBossPointers: {
+			Tooltip: ""
+		}
+
+		Scale: {
+			Tooltip: ""
+		}
+
+		PointerRadius: {
+			Tooltip: ""
+		}
+
+		CloseDistanceThreshold: {
+			Tooltip: ""
+		}
+
+		GlowScaleMultiplier: {
+			Tooltip: ""
+		}
+
+		BossPointerColor: {
+			Tooltip: ""
+		}
+
+		BossGlowColor: {
+			Tooltip: ""
+		}
+
+		MousePointerColor: {
+			Tooltip: ""
+		}
+
+		MouseGlowColor: {
+			Tooltip: ""
+		}
+	}
+
+	PlayerBarsAndCursors: {
+		DisplayName: プレイヤーバーとカーソル
+
+		HealthBar: {
+			Label: バー【ライフ】
+			Tooltip: ""
+		}
+
+		ManaBar: {
+			Label: バー【マナ】
+			Tooltip: ""
+		}
+
+		WingTimeBar: {
+			Label: バー【飛行時間】
+			Tooltip: ""
+		}
+
+		CursorSettings: {
+			Label: カーソル設定
+			Tooltip: ""
+		}
+	}
+}
+

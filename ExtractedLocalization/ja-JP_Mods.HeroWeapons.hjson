@@ -1,0 +1,1364 @@
+Items: {
+	CommonTooltips: {
+		ShiftView: Hold shift to view stat boosts and skill perks
+		DamageBoost: x{0} damage
+		AttackSpeedBoost: x{0} attack speed
+		CritBoost: x{0} critical strike chance
+		CritBoostFlat: +{0}% critical strike chance
+		KnockbackBoost: x{0} knockback
+		VelocityBoost: x{0} velocity
+
+		AdviceTips: {
+			General1: Check the Advice button often, as its tips may change as you defeat (vanilla) bosses!
+			General2: Hero Weapons gain a Skill Point every 10 levels; be sure to return to this Altar to invest any new Skill Points you earn!
+			General3:
+				'''
+				Hero Weapons' leveling mechanics obey most of the config options in Block's Leveling Mod
+				However, their stat scaling is independent from BLM, and can instead be adjusted by this mod's config
+				'''
+			Prestige:
+				'''
+				If you want even more power for your weapon, you can Prestige it at level 100 with a Prestige Rune
+				This will enable it to continue earning more bonus damage (though other stats will not scale further)
+				Each Prestige a weapon has will also grant it a bonus Skill Point
+				'''
+			Postgame:
+				'''
+				This advice system doesn't support modded content, so uh, good luck with any post-ML content you may have ahead of you
+				You'll probably want to Prestige your weapon so it can keep getting stronger with you
+				Also, good job beating ML with this mod!
+				'''
+		}
+	}
+
+	ArsenalAltarItem: {
+		DisplayName: Arsenal Altar
+		Tooltip:
+			'''
+			Used to manage Hero Weapons and their Skill Perks
+			Right click on a placed Altar to access its UI
+			About Skill Perks:
+			Every 10 levels (and/or every Prestige) a Hero Weapon gains a Skill Point (Up to 10 from levels, and up to 3 from Prestige)
+			Using this Altar, Skill Points can be invested into Skill Perks, granting extra upgrades to your weapon!
+			Skill Perks are arranged into skill trees; many have prerequisite level thresholds and prerequisite Skills
+			'''
+	}
+
+	DebugAltar: {
+		DisplayName: Debug Altar
+		Tooltip:
+			'''
+			While in your inventory, the Arsenal Altar UI will appear whenever you open your inventory
+			Also works from the Piggy Bank, Void Vault, Safe, and Defender's Forge
+			Unobtainable; used for testing purposes
+			'''
+	}
+
+	LegendMedallion: {
+		DisplayName: Medallion of Legends
+		Tooltip:
+			'''
+			Crafted into one of various Hero Weapon Medallions, which bestow their respective weapon
+			If you change your mind about a weapon, you can craft its Medallion back into this one
+			If needed, more copies of this Medallion can be crafted from Gold Coins at an Arsenal Altar
+			About Hero Weapons:
+			These are special weapons that utilize leveling mechanics from Block's Leveling Mod
+			The are inteded to be used throughout an entire playthrough, starting weak but scaling greatly in power as they level up
+			Each has a unique playstyles that utilizes a secondary action or attack (via. Right Click)
+			Hero Weapons also have a unique 'Skill Perk' mechanic that enables them to acquire other, unique upgrades
+			'Your legend begins'
+			'''
+	}
+
+	StickyBlasterMedallion: {
+		DisplayName: Sticky Blaster Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Ranged weapon; Sticky Blaster
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About the Sticky Blaster:
+			Cover enemies and terrain in sticky gel, then detonate it for big splash damage!
+			Its close-range playstyle is unconventional, but boasts potent burst damage and good AoE potential
+			This weapon is challenging to master (especially as it struggles in the endgame), but can be fun to play!
+			'It Takes tMod'
+			'''
+	}
+
+	StickyBlaster: {
+		DisplayName: Sticky Blaster
+		Tooltip:
+			'''
+			Left click to spray gel that sticks to enemies and terrain, and right click to shoot a torch
+			On impact, the torch causes a small blast that can cause nearby gel globs to explode
+			Detonated gel can blow up other gel globs for a powerful chain reaction
+			Explosions ignore 25 points of enemy defense
+			'It takes Terrarian ingenuity to devise a weapon as unconventionally effective as this'
+			'''
+
+		Perks: {
+			Aa1: Bigger Blast I: Detonated gel causes 25% larger explosions
+			Aa2: Bigger Blast II: Detonated gel causes 60% larger explosions
+			Ab1: Acidic Burn I: Enemies take DoT (10 DPS) when gel is stuck to them
+			Ab2:
+				'''
+				Acidic Burn II: Enemies take DoT (10 DPS) when gel is stuck to them
+				DoT effect scales based on how much gel there is (Up to 30 DPS at 30 gel)
+				'''
+			Ac1: Gel Glue I: Non-boss enemies are slowed by 10% when gel is stuck to them
+			Ac2:
+				'''
+				Gel Glue II: Non-boss enemies are slowed by 10% when gel is stuck to them
+				Slowing effect scales based on how much gel there is (Up to 25% at 30 gel)
+				'''
+			Ba1: Armor Dissolve I: All attacks gain +15 armor penetration
+			Ba2: Armor Dissolve II: All attacks gain +35 armor penetration
+			Bb1:
+				'''
+				Fuel the Fire I: Can consume Gel as ammo for +10% damage
+				33% chance to not consume ammo
+				'''
+			Bb2:
+				'''
+				Fuel the Fire II: Can consume Gel/Pink Gel as ammo for +10%/+25% damage
+				67% chance to not consume ammo
+				'''
+			Bc1: Pelting I: Torches have +33% firerate
+			Bc2:
+				'''
+				Pelting II: Torches have +33% firerate
+				Gel spray has a 1/6 chance to fire doubled projectiles each shot
+				'''
+			Ca1: Deadly Torches I: Torches deal 75% more damage
+			Ca2: Deadly Torches II: Torches deal 150% more damage
+			Cb1: Matchstick Missile I: Torches have +50% velocity and aren't affected by gravity
+			Cb2:
+				'''
+				Matchstick Missile II: Torches have +100% velocity and aren't affected by gravity
+				Torches' explosions are 40% larger
+				'''
+			Cc1: Inferno I: Torches inflict Hellfire for 2-6 seconds on hit
+			Cc2:
+				'''
+				Inferno II: Torches inflict Hellfire for 8-16 seconds on hit
+				Gel blasts inflict Hellfire for 2-6 seconds on hit
+				'''
+		}
+
+		StatBoosts: {
+			GelVelocity: x{0} velocity for gel
+		}
+
+		AdviceTips: {
+			General1: Once attached to something, gel lasts for roughly 10 seconds. Make sure to detonate it in time!
+			General2: You can attach gel to terrain and set up traps for approaching enemies. This technique can also be used to hit foes behind thin walls!
+			General3: When fighting groups of enemies, wait for them to bunch up before detonating gelled targets
+			KS:
+				'''
+				Despite the nature of its attacks, the Sticky Blaster doesn't consume gel like conventional flamethrowers do
+				However, if you plan on using the 'Fuel the Fire' Skill Perk, King Slime makes for a good source of gel, alongside Slime Statues
+				'''
+			EoC:
+				'''
+				The Eye of Cthulhu's dashes (particularly in Expert Mode) can make it difficult to hit in phase 2
+				When it gets close to entering phase 2, stick as much gel on it as you can before detonating it
+				This will allow you to get a large amount of cheap damage before phase 2 properly begins
+				In Expert Mode, this tactic may also help early on in phase 2, when it is easier to land hits
+				'''
+			EoW:
+				'''
+				Worms like the Eater of World are - naturally - especially vulnerable to gel blasts
+				Try spreading gel along the length of the Eater before detonating it all for a devastating chain reaction!
+				'''
+			BoC:
+				'''
+				The Brain of Cthulhu's Creepers can be taken out in just a few fell swoops if you detonate them while they're clumped up around the Brain
+				The Brain itself can be easily discerned from its clones in Expert Mode as the clones won't mirror attached gel
+				'''
+			QB:
+				'''
+				If you detonate gel on Queen Bee while she is spawning smaller bees, some will get taken out in the blast too
+				Alternativley, spraying gel during this phase will cover the spawned bees in gel, making them vulnerable to your torches
+				'''
+			Skeletron:
+				'''
+				Detonated gel can pierce Skeletron's defense, meaning it is no less vulnerable while spinning
+				In Expert Mode, this isn't true while Skeletron's hands are alive. However, once 1 hand is killed, the head IS vulnerable while spinning
+				Alternatively, the 'Armor Dissolve' Skill Perk will let you bypass these defenses at all times once 1 hand is killed
+				'''
+			WoF:
+				'''
+				Hungries are very troublesome in the Wall of Flesh fight as they block your attacks from reaching the Wall itself
+				This fight becomes one of the hardest in Expert Mode, due to the Hungires respawning. Prepare a very long arena
+				'''
+			Hardmode1:
+				'''
+				In hardmode - especially later in the game - enemies gain enough defense to become problematic for the Sticky Blaster
+				At this point, it would be wise to invest in the 'Armor Dissolve' Skill Perk, and/or other forms of armor penetration
+				'''
+			Hardmode2: Frost Armor pairs great with the Sticky Blaster in early hardmode, as it allows gel to inflict damage with a powerful debuff even before it's detonated!
+			Hardmode3:
+				'''
+				If you're struggling to get by with just your Sticky Blaster, a hybrid summoner build (Such as with OOA armors) could come in handy
+				Minions/sentries can help watch your back while you set up with gel attacks
+				'''
+			Mechs1:
+				'''
+				The Sticky Blaster is one of many weapons capable of exploiting The Destroyer's coiled-up state when it spawns
+				If you want an easy win, just rush over to where it spawned and quickly spray and detonate the coil before it fully unravels
+				'''
+			Mechs2:
+				'''
+				When fighting Skeletron Prime, avoid detonating gel while it is spinning and has extra defense
+				Its spinning phase is - however - a good opportunity to cover the head in gel
+				'''
+			Mechs3:
+				'''
+				Like with the Eye of Cthulhu, try sticking large amounts of gel to the Twins before setting off their 2nd phase
+				In fact, this technique can also work against future bosses with phase transitions, like Plantera, Duke Fishron, and EoL
+				'''
+			Plantera:
+				'''
+				The Sticky Blaster struggles with Plantera's second phase due to her tentacles spreading out and moving erratically
+				Defeating the tentacles will greatly simplify the rest of the fight, but you'll need a LOT of room unfortunatley
+				'''
+			Plantera2: Chlorophyte Armor may be preferable over Hallowed moving forward; its Leaf Crystal provides a consistent source of damage, which is something the Sticky Blaster doesn't do
+			Lategame:
+				'''
+				The lategame bosses - namely Duke Fishron, EoL, Lunatic Cultist, and Moon Lord - all have states in which they throw off attached gel
+				If you're struggling to successfully attach and detonate gel, try upgrade your Torch's attack instead with Skill Perks like 'Deadly Torches'
+				'''
+			Duke:
+				'''
+				Duke Fishron is most vulnerable to attack when he briefly stops to summon Sharknados. This is a good chance to detonate gel
+				Detonating Bubbles can be easily dealt with by spraying gel at them. Sharkrons - on the other hand - will just block your attacks
+				In Expert Mode, beware that Duke's third phase is much harder as he throws off attached gel when teleporting
+				'''
+			EoL: The Empress of Light will throw off gel whenever she dashes, keep track of her attack cycles and detonate gel before then!
+			LC:
+				'''
+				The Lunatic Cultist is uniquely difficult to fight using the Sticky Blaster, as it'll throw off gel every time it moves
+				As mentioned in another tip, it may be easier to simpily rely on your Torch attack and invest Skill Perks in it
+				'''
+			ML:
+				'''
+				Gel attached to the Moon Lord's eyes will fall off whenever the eyes close, so avoid leaving gel undetonated for too long!
+				On a related note, the top eye only opens for a short time to fire Deathrays; make sure to attack it every chance you get!
+				Leech Clots are troublesome to take down with gel, but using the 'Deadly Torches' Skill Perk will enable your Torch attack to take care of them
+				'''
+		}
+	}
+
+	JadeEdgeMedallion: {
+		DisplayName: Jade Edge Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Melee weapon; Jade Edge
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About the Jade Edge:
+			Cut down enemies with a barrage of arcing slashes, and dash through foes who get too close for comfort!
+			Its aggressive, fast-paced playstyle forces you to get up close and personal to fight...
+			...Fortuantely, wise use of this weapon's dash attack will allow you to avoid enemy contact damage
+			'Slash and Dash!'
+			'''
+	}
+
+	JadeEdge: {
+		DisplayName: Jade Edge
+		Tooltip:
+			'''
+			Left click to perform a rapid combo of arcing slashes
+			The last swing in the combo deals extra damage, which increases further against recently-struck foes
+			Right click to thrust the blade towards the cursor, performing a short dash
+			You won't take contact damage during this attack
+			The dash causes a short attack delay after use, and it doesn't work while mounted
+			'Wield the green power!'
+			'''
+
+		Perks: {
+			Aa1: Reaching Blade I: Slashes have 25% more reach
+			Aa2: Reaching Blade II: Slashes have 60% more reach and can hit through tiles
+			Ab1: Final Blow I: Slash combo finisher deals an additional +45% damage
+			Ab2: Final Blow II: Slash combo finisher deals an additional +100% damage
+			Ac1: Ceaseless Sword I: Slash combo is 4 attacks long, and its attack speed is increased by 20%
+			Ac2: Ceaseless Sword II: Slash combo is 5 attacks long, and its attack speed is increased by 30%
+			Ba1: Clean Cuts I: All attacks gain +15 armor penetration
+			Ba2:
+				'''
+				Clean Cuts II: All attacks gain +25 armor penetration
+				This effect can reduce enemy defense below 0, causing bonus damage
+				'''
+			Bb1: Lethal Precision I: Critical hits deal an extra +25% damage
+			Bb2: Lethal Precision II: Critical hits deal an extra +50% damage
+			Bc1:
+				'''
+				Bleedout I: Enemies now visibly bleed when vulnerable to the slash combo finisher
+				This effect also causes damage over time (10 DPS)
+				'''
+			Bc2:
+				'''
+				Bleedout II: Enemies now visibly bleed when vulnerable to the slash combo finisher
+				The effect becomes more prominent the more vulnerable the target is
+				This effect also causes damage over time (10-25 DPS, based on vulnerability)
+				'''
+			Ca1: Gale Thrust I: dash attack has 25% more velocity
+			Ca2: Gale Thrust II: dash attack has 60% more velocity
+			Cb1: Rush Combo I: Performing a slash right after a dash results in the slash combo finisher
+			Cb2:
+				'''
+				Rush Combo II: Performing a slash right after a dash results in the slash combo finisher
+				Dashes can be chained; up to 3 dashes in a row
+				However, chaining dashes causes a longer attack delay afterwards
+				'''
+			Cc1:
+				'''
+				Lightning Strikes I: Enemies hit by the dash attack are struck twice
+				The bonus hit deals 60% of the inital hit's damage
+				'''
+			Cc2:
+				'''
+				Lightning Strikes II: Enemies hit by the dash attack are struck three extra times by an assult of slashes
+				The bonus hits deal 40% of the inital hit's damage
+				'''
+		}
+
+		AdviceTips: {
+			General1:
+				'''
+				While the Jade Edge is capable of high damage, its reach is very poor
+				Hence, it's recommended to take advantage of Melee's high defense and go for a tank build
+				'''
+			General2: While your slashes have a wide arc, be mindful that they don't quite reach behind you, unlike weapons such as the True Excalibur
+			General3: Remember that your dash attack makes you immune to contact damage! You can use this to dash through enemies that have cornered you
+			General4: The extra velocity from your dash attack can help you reach higher places in the earlygame when you lack mobility
+			General5:
+				'''
+				The Jade Edge's dash attack is a good substitue for accessory-granted dashes
+				Don't be afraid to take advanage of this and free up an accessory slot!
+				'''
+			General6:
+				'''
+				By investing in attack speed, not only can you use slashes more, but also your dash attack!
+				Pairing a high attack speed with the Skill Perk 'Gale Thrust' will allow you to repeatedly dash and move at high speeds!
+				'''
+			KS:
+				'''
+				When fighting King Slime, if you find there are too many enemies to dash through, it's safe to rely on your slashes
+				The slimes' knockback resistance is low enough that they can simpily be juggled aside!
+				'''
+			EoC:
+				'''
+				It's possible to 'joust' with dashing bosses like the Eye of Cthulhu!
+				Perform a well-timed dash towards the Eye when it dashes at you, and you'll score some cheap damage
+				Just be wary of its chain dashes; your dash attack may not be able to keep up
+				'''
+			EoW:
+				'''
+				The Jade Edge's large slash attacks make quick work of the Eater of World's many segments
+				Better yet, they easily destroy any incoming vile spit when you're playing in Expert Mode!
+				This fight is easy enough that it's viable to take on before any other bosses!
+				'''
+			BoC:
+				'''
+				The Jade Edge's rapid, arcing slashes make it near-impossible for the Brain of Cthulhu or its Creepers to safely reach you
+				That is to say; this fight is extremely easy (as usual). If you want you could safely take on the Brain before any other boss!
+				'''
+			QB:
+				'''
+				Queen Bee tends to hover out of your slashes' reach, so you'll have to play aggressive to reach her, or wait for a good oppertunity
+				She can be easily attacked while spawning bees, which will be easily killed by your attacks at the same time
+				The 'jousting' strategy comes in handy for dealing with her dash attack
+				'''
+			Skeletron:
+				'''
+				It may be dangerous to attempt attacking Skeletron's head while it hovering above you, especailly in Expert Mode
+				It's better to wait for Skeletron to come to you while using the spin attack
+				'''
+			WoF:
+				'''
+				Due to the Jade Edge's short reach, you'll be forced to play hyper-aggressive against the Wall of Flesh
+				The fight will boil down to a DPS race. Make sure your build can facetank the Wall's assult
+				'''
+			Hardmode1: If you got Titanium ore in your world, its armor may synergize well with the aggressive, close-ranged playstyle of the Jade Edge
+			Hardmode2:
+				'''
+				At higher levels, the Jade Edge gains bonus critical strike chance
+				The Skill Perk 'Lethal Precision' pairs nicely with this, as well as boosts to crit chance in general
+				'''
+			QueenSlime:
+				'''
+				To defeat Queen Slime you'll have to be aggressive in the second phase in order to reach her
+				Also be mindful of her minions; clear them out before their chip damage starts adding up
+				'''
+			Mechs1:
+				'''
+				The Jade Edge is one of many weapons capable of exploiting The Destroyer's coiled-up state when it spawns
+				If you want an easy win, just rush over to where it spawned and slice up the coil before it fully unravels
+				Even without this exploit, the Jade Edge has excellent damage output against The Destroyer's many segments
+				'''
+			Mechs2:
+				'''
+				Like the original Skeletron, Prime is difficult to hit while hovering above you
+				It's easy to land hits on Prime or any of the arms during the spin attack. Try attacking the Prime Saw and/or Prime Vice inbetween spin cycles
+				'''
+			Mechs3:
+				'''
+				The Twins are the hardest mech boss to fight with the Jade Edge, as they spend most of their time hovering out of reach
+				Make sure to go on the offense when either Twin gets up close with their dash attacks
+				Retainzer's second phase is the most dangerous part of the fight, since Retainzer swaps to soley ranged attacks
+				'''
+			Plantera:
+				'''
+				The Jade Edge makes quick work of Plantera since it's easy to stay right next to her
+				You should be able to get away with a small arena, just make sure you have good defense, as usual
+				'''
+			Plantera2:
+				'''
+				Turtle Armor may be preferable over Hallowed moving forward; your thorns damage is likely to trigger often due to the Jade Edge's close-range attacks
+				Its excellent defensive stats don't hurt, either
+				'''
+			Duke:
+				'''
+				Good use of your dash attack can trivialize Duke Fishron's dash attacks
+				This alone may make it worth trying an early Duke fight if you're daring enough
+				Just be ready for a long battle!
+				'''
+			EoL:
+				'''
+				The Empress of Light is one of the Jade Edge's harder fights, as she hovers out of its reach
+				Try investing Skill Perks into your dash attack and 'jousting' her when she dashes at you
+				'''
+			ML:
+				'''
+				It may be hard to stay close enough to the Moon Lord's eyes without a flying mount
+				If you go this route, remember you'll be without your dash attack; invest in your slashes!
+				'''
+		}
+	}
+
+	SacrificeMedallion: {
+		DisplayName: Staff of Sacrifice Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Magic weapon; Staff of Sacrifice
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About the Staff of Sacrifice:
+			This weapon is all about managing your HP, having an attack that grants life, and another that takes it
+			You can rely on the weaker, life-stealing attack when you need to play defensively
+			When you have HP to spare, spend some of it on your stronger attack to deal big damage!
+			'Blood for blood'
+			'''
+	}
+
+	SacrificeStaff: {
+		DisplayName: Staff of Sacrifice
+		Tooltip:
+			'''
+			[placeholder]
+			'Are you willing to pay the price?'
+			'''
+		ActualTooltip:
+			'''
+			Left click to fire bolts of magic with weak homing and lifesteal
+			Up to {0} HP can be siphoned per attack
+			Right click to fire much stronger, piercing magic attacks
+			However, this attack drains you of {1} HP!
+			'''
+
+		Perks: {
+			Aa1: Scarlet Siphon I: Lifesteal attack has 20% more potent healing, and can heal up to 4 HP per attack
+			Aa2: Scarlet Siphon II: Lifesteal attack has 50% more potent healing, and can heal up to 5 HP per attack
+			Ab1: Wisps of Will I: Lifesteal attack's homing is 40% stronger
+			Ab2:
+				'''
+				Wisps of Will II: Lifesteal attack's homing is 100% stronger
+				Lifesteal attack's velocity is increased by 25%
+				'''
+			Ac1: Saving Grace I: Lifesteal attack deals up to 15% more damage based on how low your health is (Reaches max at <20% HP)
+			Ac2:
+				'''
+				Saving Grace II: Lifesteal attack deals up to 25% more damage based on how low your health is (Reaches max at <20% HP)
+				Lifesteal healing is increased by +1 when under half health
+				'''
+			Ba1: Resonate Soul I: Sacrifice attack's mana cost is reduced by 40%
+			Ba2: Resonate Soul II: All mana costs are reduced by 40%
+			Bb1: One for All I: 1/3 of spent life is used to heal nearby allies
+			Bb2:
+				'''
+				One for All II: 1/3 of spent life is used to heal nearby allies
+				Being healed by your lifesteal attack may also heal a nearby ally for 1 HP
+				'''
+			Bc1: Double-Edge I: Both life gained and spent from using attacks is increased by 20%
+			Bc2: Double-Edge II: Both life gained and spent from using attacks is increased by 50%
+			Ca1: Sanguine Satiation I: Sacrifice attack spends 1 less HP
+			Ca2: Sanguine Satiation II: Sacrifice attack spends 2 less HP
+			Cb1: Wrathful Will I: Sacrifice attack can pierce an additional target, and gains +40% knockback
+			Cb2:
+				'''
+				Wrathful Will II: Sacrifice attack can pierce two additional targets, and gains +40% knockback
+				Sacrifice attack's projectiles explode upon expiring, dealing splash damage
+				'''
+			Cc1: Glorious Offering I: Lifesteal attack deals up to 10% more damage based on how high your health is (Reaches max at >80% HP)
+			Cc2: Glorious Offering II: Lifesteal attack deals up to 25% more damage based on how high your health is (Reaches max at >80% HP)
+		}
+
+		StatBoosts: {
+			SecondaryPower: Sacrifice attack deals x{0} base damage
+		}
+
+		AdviceTips: {
+			General1:
+				'''
+				As with other magic weapons, max out your mana stat as soon as possible so that you can properly use the Staff of Sacrifice
+				You'll also want to max out your HP in order to fuel the Staff's powerful secondary attack!
+				'''
+			General2:
+				'''
+				Note that whenever you spend HP on the Staff of Sacrifice, your life regen is briefly paused and the ramping of natural regen resets
+				This means constant use of the Sacrifice attack prevents life regen; keep this in mind!
+				'''
+			General3:
+				'''
+				Consider using tankier builds when playing with the Staff of Sacrifice
+				This way, less damage will spent on enemy hits, and more is avaliable for using the Sacrifice attack
+				'''
+			Bosses1:
+				'''
+				With enough HP to spend, you can spam the Sacrifice attack to steamroll many pre-Hardmode bosses!
+				...Just keep an eye on your health bar
+				'''
+			Bosses2:
+				'''
+				When fighting bosses with weak minions - such as the Eye of Cthulhu or Queen Bee - consider taking them out with your Lifesteal attack
+				It should be strong enough to kill the minions in 1-2 hits - just like the Sacrifice attack - but you'll get HP instead of losing it
+				'''
+			Skeletron:
+				'''
+				The Staff of Sacrifice's attacks - especially its Sacrifice attack - have enough raw power to break through Skeletron's high defense in Expert Mode
+				If you're feeling bold, you could try skipping the hands and going straight for the head
+				That said, this fight - unlike most others before it - lasts long enough that you won't be able to get away with blindly spamming Sacrifice attacks
+				'''
+			WoF:
+				'''
+				Try playing defensivley for as long as possible when fighting the Wall of Flesh, so you can preserve your HP
+				This HP is especially important for the final leg of the fight, when you can use it on Sacrifice attacks to finish the Wall quickly
+				'''
+			Hardmode1:
+				'''
+				At this point in the game, it's less likely you can get away with spamming Sacrifice attacks due to fights being longer
+				That said, Sacrifice attacks get stronger with the Staff's level, so keep using them; just make sure to manage your HP
+				'''
+			Hardmode2:
+				'''
+				If you got Palladium ore in your world, its armor complements the Staff of Sacrifice nicely thanks to the extra life regen
+				Forbidden armor is another good choice if you don't mind the hybrid playstyle; summons can help keep your DPS up when you need to play defensively
+				This remains true going forward; the OOA armor sets can fulfill such a role, too
+				'''
+			Hardmode3: Lifeforce Potions are especially useful when using the Staff of Sacrifice, since they provide with more HP to use
+			Destroyer:
+				'''
+				Consider using the Skill Perk 'Wrathful Will' against The Destroyer; it'll be easy to take advantage of the Perk's bonus piercing!
+				The homing properties of the lifesteal attack - especially with the Skill Perk 'Wisps of Will' - is useful for easily taking out Probes in this fight, too!
+				'''
+			Lategame:
+				'''
+				When using Spectre Armor with the Staff of Sacrifice, it's actually better to use the Mask than the Hood
+				This is because the Staff's lifesteal attack shares a general healing cap with the Spectre Hood; using both will hit the cap
+				Then again, if you want to rely heavily on the Sacrifice attack, you could still utilize the Hood and get back the HP you spend
+				'''
+			LC:
+				'''
+				Keep in mind that the Lunatic Cultist takes less damage from homing attacks, include the Staff of Sacrifice's
+				Thus, your lifesteal attack will be less potent than usual
+				'''
+			ML:
+				'''
+				Unlike other sources of lifesteal, the Staff of Sacrifice's lifesteal still works under the effects of Moon Bite!
+				No need to make any drastic changes to your strategy for fighting the Moon Lord, go get em'!
+				'''
+		}
+	}
+
+	SacrificeStaff_Alt: {
+		DisplayName: ecifircaS fo ffatS
+		Tooltip:
+			'''
+			This item is used internally to faciltate the Staff of Sacrifice being held 'upside down' for its secondary attack
+			It has no other purpose, and is functionless in-game
+			Unobtainable
+			'''
+	}
+
+	StrikerBeadsMedallion: {
+		DisplayName: Striker Beads Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Summon weapon; Striker Beads
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About the Striker Beads:
+			A whip-type weapon with two unique attacks; a modified swing that can hit rapidly, and a projectile attack
+			As with normal whips, the whip flick works well against groups
+			Alternatively, the bullet attack will let you attack and tag single targets from afar
+			'Crack-Shot!'
+			'''
+	}
+
+	StrikerBeads: {
+		DisplayName: Striker Beads
+		Tooltip:
+			'''
+			Left click to use the beads as a whip, rapidly striking foes while the whip is fully extended
+			Right click to rapidly shoot the beads at high velocity
+			Both attacks tag struck enemies
+			[tag effect placeholder]
+			'A divine insturment of combat'
+			'''
+
+		TagTooltips: {
+			Damage: "{0} summon tag damage"
+			Knockback1: Extremely weak summon tag knockback
+			Knockback2: Weak summon tag knockback
+			Crit: "{0} summon tag critical strike chance"
+		}
+
+		Perks: {
+			Aa1: Extension I: Whip range increased by 40%
+			Aa2: Extension II: Whip range increased by 100%
+			Ab1: Crowd Controller I: Whip loses 30% less damage to on-hit damage fall-off
+			Ab2: Crowd Controller II: Whip loses 75% less damage to on-hit damage fall-off
+			Ac1: Relentless Whip I: Whip's attack is now a rapid series of two full swings instead of a flick
+			Ac2:
+				'''
+				Relentless Whip II: Whip's attack is now a rapid series of two full swings instead of a flick
+				Striking enemies with a whip attack boosts attack speed by 25% for 3 seconds
+				'''
+			Ba1: Lasting Tag I: Tag effects last 40% longer
+			Ba2: Lasting Tag II: Tag effects last 100% longer
+			Bb1: Mark of Force I: Summons gain +1.5 knockback against tagged foes
+			Bb2: Mark of Force II: Summons gain +4 knockback against tagged foes
+			Bc1: Mark of Precision I: Summons gain a 4% critical hit chance against tagged foes
+			Bc2: Mark of Precision II: Summons gain a 10% critical hit chance against tagged foes
+			Ca1: Mach Beads I: Bead Bullets' velocity increased by 100%
+			Ca2: Mach Beads II: Bead Bullets' velocity increased by 150%, and their spread is halved
+			Cb1: Piercing Blow I: Bead Bullets can now pierce one enemy, striking up to 2
+			Cb2: Piercing Blow II: Bead Bullets can now pierce two enemies, striking up to 3
+			Cc1:
+				'''
+				Skipping Stones I: Instead of being destroyed, Bead Bullets fall to the ground on impact
+				Bullets linger on the ground for up to 4 seconds, lightly damaging enemies that touch them
+				'''
+			Cc2:
+				'''
+				Skipping Stones II: Bead Bullets can now ricochet off tiles once
+				Instead of being destroyed, Bead Bullets fall to the ground on impact
+				Bullets briefly on the ground for up to 6 seconds, lightly damaging enemies that touch them
+				'''
+		}
+
+		StatBoosts: {
+			TagDamage: x{0} tag damage
+		}
+
+		AdviceTips: {
+			General1:
+				'''
+				Generally, the Whip Flick performs better against groups but has shorter range, whereas Bead Bullets is single-target but has longrt range
+				Swap between the two attacks to best suit your current situation!
+				'''
+			General2:
+				'''
+				A word of warning; higher attack speed has a tendency to be detrimental to the DPS of the Whip Flick
+				This is because the whip cannot inflict as many hits per-swing due to the accelerated animation
+				On the flip side, Bead Bullets do benefit from whip speed, so it is still a viable strategy if you want to focus on Bullets
+				'''
+			General3:
+				'''
+				The Striker Beads tend to sport higher tag damage than other whips due to it scaling with the Beads' level
+				You can use this to your advantage by pairing it with minions that have high hit-rates, such as the Blade Staff
+				'''
+			General4:
+				'''
+				Be mindful of the Whip Flick's modified swing; it has less coverage than standard whip swings
+				This makes it harder to attack a wide area in front of you, which is valuable for tasks such as clearing out destructible projectiles
+				You can change the Whip Flick's attack to a more traditional swing by using the Skill Perk 'Unrelenting Whip'
+				'''
+			General5:
+				'''
+				Unlike the Whip Flick, Bullet Beads cannot apply flask effects
+				Even if you prefer to predominatley use Bullet Beads, try to make a habit of landing a Whip Flick on targets every now and then if using flasks
+				'''
+		}
+	}
+
+	PolynailMedallion: {
+		DisplayName: Polynail Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Throwing weapon; Polynail
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About Polynail:
+			Throw and retrieve large nails that can embed themselves in enemies and terrain
+			Repeatedly throw nails for direct damage, impale foes for high DoT, or stick nails into the ground as traps
+			Just make sure to keep track of your nails; you can only have a limited amount deployed at once!
+			Keep in mind this is a Throwing Class weapon; don't use it if you don't have mod(s) that re-add Thrower content!
+			'Heavy-duty Hardware'
+			'''
+	}
+
+	Polynail: {
+		DisplayName: Polynail
+		Tooltip:
+			'''
+			[placeholder]
+			'Who makes nails this large?'
+			'''
+		ActualTooltip:
+			'''
+			Left click to throw a large, high-velocity nail
+			Nails will perstistently impale enemies or terrain they strike
+			You can only have up to {0} nails thrown out at once
+			Right click to recall {1} nail(s) to you
+			When recalling, nails closest to the cursor are priotized
+			'''
+
+		StatBoosts: {
+			dotDamage: Impale base DPS equals x{0} base damage
+		}
+
+		Perks: {
+			Aa1: More Nails I: Up to 4 nails can be thrown out at once
+			Aa2: More Nails II: Up to 5 nails can be thrown out at once
+			Ab1: Massive Spike I: Enemies take 15% more damage when initially impaled by a nail
+			Ab2: Massive Spike II: Enemies take 35% more damage when initially impaled by a nail
+			Ac1: Foot Hazard I: Nails deal 25% more damage when imbedded in terrain
+			Ac2: Foot Hazard II: Nails deal 60% more damage when imbedded in terrain
+			Ba1: Deep Gouge I: Nails' impale DoT is 20% stronger
+			Ba2: Deep Gouge II: Nails' impale DoT is 50% stronger
+			Bb1:
+				'''
+				Lingering Wounds I: Impaled enemies take extra DoT (+12 DPS) while impaled
+				This additional DoT lingers for 10 seconds after nails are removed
+				'''
+			Bb2:
+				'''
+				Lingering Wounds II: Impaled enemies take extra DoT (+24 DPS) while impaled
+				This additional DoT lingers for 20 seconds after nails are removed
+				'''
+			Bc1: Armor Bore I: All attacks gain +15 armor penetration
+			Bc2:
+				'''
+				Armor Bore II: All attacks gain +15 armor penetration
+				Impaled enemies have their defense reduced by 10 for each nail in them
+				'''
+			Ca1: Quick Return I: Nails return to you 50% faster
+			Ca2: Quick Return II: Nails return to you 150% faster
+			Cb1: Collateral Damage I: Nails deal 10% more damage while returning
+			Cb2: Collateral Damage II: Nails deal 25% more damage while returning
+			Cc1: Multi-Recall I: Recalling causes up to 2 nails to return at once
+			Cc2: Multi-Recall II: Recalling causes up to 3 nails to return at once
+		}
+
+		AdviceTips: {
+			General1:
+				'''
+				The DoT inflicted by nails while impaling an enemy scales with the weapon's base damage!
+				Boosting your damage over crit chance will make the most of this
+				'''
+			General2: Try leaving your nails impaled in foes if you need to focus on dodging; their DoT is quite strong!
+			General3: When dealing with grounded enemies, try leaving a nail stuck in the floor as a trap
+			General4: If you need single-target DPS, throwing all of your nails at a target and then recalling them generally yields the best results
+			General5:
+				'''
+				Similar to with thrown flails and the harpoon, you can attack groups of enemies with Polynail by throwing a nail behind the group and recalling it
+				If you're lined up correctly, the nail will pass through the enemy group as it returns, damaing them all in the process!
+				'''
+			General6:
+				'''
+				Nails will stay impaled in enemies even if you swap to a weapon other than Polynail, though they will deal inflict less DoT in this case
+				Regardless, you can take advantage of this to get a little extra DPS if using multiple weapons
+				'''
+			KS:
+				'''
+				You can easily deal with King Slime's minions by throwing your nails behind groups of foes and recalling the nails
+				This will hopefully cause the nails to strike any grounded targets as it returns to you
+				'''
+			EoC:
+				'''
+				When the Eye of Cthulhu enters its second phase, try leaving nails impaled in it
+				This is particularly useful in Expert Mode, where the Eye's chain dashes can make it otherwise hard to hit
+				'''
+			EoW:
+				'''
+				A strong tactic for fighting the Eater of Worlds is sticking some nails into the ground and luring the Eater into them
+				This will cause almost every segment to be hit by the nails as the Eater passes through them
+				'''
+			BoC:
+				'''
+				While fighting the Brain of Cthulhu, try impaling Creepers and then recalling the nail while the Creepers are bunched up
+				This will hit a bunch of Creepers when the nail returns
+				In Expert Mode, the true Brain can be easily discerned from its clonse by leaving a nail in it; the clones will not have nail(s) in them
+				'''
+			QB: Be wary of the bees Queen Bee spawn; they can be tough to hit with the nails, and missing may leave you vulnerable
+			Skeletron:
+				'''
+				DoT can bypass defense, making it a viable option to skip Skeletron's hands in Expert Mode
+				That said, the Polynail has enough raw power behind it to easily deal with the hands, which is probably safer
+				'''
+			WoF:
+				'''
+				The Wall of Flesh's many Hungries can give the Polynail trouble
+				Try leaving some of your nails stuck into the Wall, that way you can keep your distance
+				'''
+			Mechs1:
+				'''
+				Like the EoW, The Destroyer is vulnerable to being lured into nails stuck into the ground
+				It can be challenging to successfully line The Destroyer up due to its size, but this deals a ton of damage if pulled off
+				Just be wary of probe swarms
+				'''
+			Mechs2:
+				'''
+				When fighting multi-part bosses like Skeletron Prime or The Twins, try leaving a nail in one target while focusing on another
+				This can help passivley spread damage around, if you find that useful
+				This strategy may be undesirable against The Twins, as you can end up with both in phase 2 simultaneously
+				'''
+			Mechs3:
+				'''
+				Watch out when fighting The Destroyer or Skeletron Prime; they are immune to Polynail's impale DoT due to their debuff immunities!
+				You'll have to rely on other attack methods to deal damage
+				However, Prime's arms ARE vulnerable to DoT, so you can still impale those
+				'''
+			Plantera:
+				'''
+				The Polynail may struggle with Plantera's second phase due to her numerous tentacles
+				Defeating the tentacles will greatly simplify the rest of the fight, or you can stick your nails in Plantera and focus on doding
+				Either way, you'll likely need alot of room to fight
+				'''
+			Lategame:
+				'''
+				The lategame bosses - namely Duke Fishron, EoL, Lunatic Cultist, and Moon Lord - all have states in which they throw off impaled nails
+				Thus, it's better to rely on activley attacking these foes instead of leaving nails in them
+				For this purpose, try using Skill Perks like 'Massive Spike'!
+				'''
+		}
+	}
+
+	HardlockMedallion: {
+		DisplayName: Hardlock Medallion
+		Tooltip:
+			'''
+			Right Click (like a grab-bag) to recieve the following Ranged weapon; Hardlock
+			There's no going back once you do this, so choose wisely!
+			An Arsenal Altar will drop alongside your weapon; use it to manage the weapon's unique Skill Perks!
+			About Hardlock:
+			An easy-to-use rocket launcher with a lock-on function
+			Right click to lock onto an enemy near your cursor
+			Once locked onto, your target will be relentlessly pursued by all fired missiles
+			'Aimbot engaged!'
+			'''
+	}
+
+	Hardlock: {
+		DisplayName: Hardlock
+		Tooltip:
+			'''
+			Fires slow, powerful missiles with lock-on capabilities
+			Right click to place a reticle on an enemy near your cursor
+			Once you have a target, fired missiles will permanently pursue the enemy
+			'Dodge this, ya filthy casual!'
+			'''
+
+		Perks: {
+			Aa1: Jet Boost I: 50% increased missile velocity
+			Aa2: Jet Boost II: 100% increased missile velocity
+			Ab1: More Boom I: Missile blast size increased by 30%
+			Ab2: More Boom II: Missile blast size increased by 75%
+			Ac1: Pure Skill I: Missiles deal 10% more damage when not locked onto a target
+			Ac2:
+				'''
+				Pure Skill II: Missiles deal 10% more damage when not locked onto a target
+				They also deal a 15% extra damage to any target that hasn't been locked onto
+				'''
+			Ba1: Sharp Homing I: Missiles' homing is 50% more potent
+			Ba2: Sharp Homing II: Missiles' homing is 100% more potent
+			Bb1:
+				'''
+				Locked & Loaded I: Can consume rockets as ammo, gaining up to +10% damage based on the ammo's base damage
+				Note that ammo damage is NOT added onto Hardlock's attack damage
+				'''
+			Bb2:
+				'''
+				Locked & Loaded II: Can consume rockets as ammo, gaining up to +25% damage based on the ammo's base damage
+				50% chance to not consume ammo
+				Note that ammo damage is NOT added onto Hardlock's attack damage
+				'''
+			Bc1: Lock & Unload I: Locking onto an enemy immediatley fires a weak missile at them
+			Bc2:
+				'''
+				Lock & Unload II: Locking onto an enemy immediatley fires a weak missile at them
+				Locking onto an enemy also boosts Hardlock's firerate by 15% for 3 seconds
+				'''
+			Ca1:
+				'''
+				Multi-target I: Up to 3 reticles can now be placed at once
+				When locked onto multiple enemies, fired missiles will randomly select their target
+				'''
+			Ca2:
+				'''
+				Multi-target II: Up to 5 reticles can now be placed at once
+				When locked onto multiple enemies, fired missiles will randomly select their target
+				'''
+			Cb1:
+				'''
+				No Escape I: Missiles that are locked onto an enemy can burrow through tiles to pursue them
+				Burrowing reduces the missile speed, however
+				'''
+			Cb2:
+				'''
+				No Escape II: Missiles that are locked onto an enemy can phase through tiles to pursue them
+				Targets can no longer shake off lock-ons by becoming invulnerable or otherwise un-chasable
+				'''
+			Cc1: Deathmark I: Enemies that have been locked onto take 10% more damage from Hardlock
+			Cc2:
+				'''
+				Deathmark II: Enemies that have been locked onto take 10% more damage from all sources
+				They also take a further 10% increased damage from Hardlock
+				'''
+		}
+
+		AdviceTips: {
+			General1:
+				'''
+				If you're in a situation where you need to rapidly switch targets, it may be better to forgo using Hardlock's lock-on to save time
+				In fact, some Skill Perks, namely 'Pure Skill' are beneficial when firing without lock-on
+				'''
+			General2:
+				'''
+				Note that Hardlock's missiles will attempt to chase targets through terrain. However, by default Hardlock's missiles cannot pass through walls
+				Hence, try to avoid targetting enemies that are behind walls and such. Alternativley, the Skill Perk 'No Escape' will let you fire through walls!
+				'''
+			General3:
+				'''
+				Missiles will home in on targets no matter how far away they are
+				You can use this to your advantage to keep a large distance between yourself and bosses
+				Just keep in mind that most bosses may despawn if left off-screen for too long
+				'''
+			General4:
+				'''
+				Hardlock's missiles DO have recoil damage, so be careful!
+				Fortunately, recoil damage does NOT scale with the weapon's level, so you shouldn't take too much damage if you have good defense
+				'''
+			General5:
+				'''
+				If you ever need to quickly disengage your lock-on(s), simpily stop holding Hardlock
+				Not holding Hardlock will automatically cause all lock-on(s) to deactivate
+				'''
+			EoC:
+				'''
+				The Eye of Cthulhu's second phase - particularly in Expert Mode - is trivialized by Hardlock
+				Simpily lock onto the Eye, and fire away. Your attacks will eventually hit no matter how fast the Eye dashes around
+				For this purpose, it is ideal to have an elevated arena so the Eye doesn't dash underground and lead missiles into blowing up on terrain
+				'''
+			EoW:
+				'''
+				Due to the Eater of World's many segments, it's hard to miss even without locking on
+				Indeed, it may be better to not lock onto segments, since they often burrow into the ground where they can't be easily hit
+				Regardless, the Eater is an easy foe due to its weakness to splash damage
+				'''
+			BoC:
+				'''
+				It may not be worth the effort to lock onto the Brain of Cthulhu's Creepers, as they are easily killed
+				Locking onto the Brain itself, however, makes the second phase a breeze
+				'''
+			QB:
+				'''
+				Queen Bee is generally easy to deal with once locked onto
+				Just be careful when she spawns smaller bees; you won't be able to easily hit them if you stay locked onto the Queen
+				'''
+			Skeletron:
+				'''
+				Thanks to Hardlock's strong damage and homing, it's easy to target and take down any of Skeletron's parts in any order
+				Lock onto the hands for a traditional approach, or go straight for the head if you want a challenge!
+				If you use the Skill Perk 'Multi-target', you can even target all 3 parts at once!
+				'''
+			Deerclops:
+				'''
+				When fighting Deerclops, be extra-sure to stay close to the boss
+				You'll lose your lock on if you trigger Deerclop's invulnerable state
+				'''
+			WoF:
+				'''
+				Smart use of Hardlock's lock-on will allow you to shoot at the Wall of Flesh from behind terrain
+				While generally a 'safe' weapon for fighting the Wall, Hardlock can take a long time to finish the fight as Hungries often block missiles
+				Hence, make sure to prepare a long arena
+				'''
+			Hardmode1:
+				'''
+				While Hardlock is easy to use, its DPS tends to be subpar
+				This weakness begins showing itself more keenly in the later parts of the game, so prepare yourself for longer battles
+				'''
+			Mechs1:
+				'''
+				Due to The Destroyer's sheer size, there is little need to lock onto it
+				You can take advantage of this with the Skill Perk 'Pure Skill', which boosts damage when not locked onto anything
+				Lock-on is, however, great for dealing with troublesome probes
+				'''
+			Mechs2: As with normal Skeletron, Hardlock can dissasemble Skeletron Prime in whatever order you see fit; just use your lock-on!
+			Mechs3:
+				'''
+				It's easy to take down The Twins one at a time; just pick your target and fire away, as usual
+				Alternativley - for the brave - you can use the Skill Perk 'Multi-target' to lock onto both at once
+				This will likely result in having to deal with both Twins in phase 2, of course
+				'''
+			Plantera:
+				'''
+				By using the Skill Perk 'No Escape' you can enemies that are behind or inside blocks
+				You can use this to your advantage while fighting Plantera, as you can prevent her from shooting projectiles by luring her inside blocks
+				Note that this does not hold entriely true in Expert Mode, where Plantera can attack from behind blocks if being activley damaged
+				'''
+			Plantera2: Chlorophyte Armor may be preferable over Hallowed moving forward; its Leaf Crystal can attack other enemies while you focus on those you've locked onto
+			Lategame1:
+				'''
+				The lategame bosses - namely Duke Fishron, EoL, Lunatic Cultist, and Moon Lord - all have states in which they throw off lock-ons
+				If you find it aggrivating to constantly re-lock onto these foes, the Skill Perk 'No Escape II' will prevent this from happening
+				'''
+			Lategame2:
+				'''
+				Once you have access to proper rocket ammo, consider using the Skill Perk 'Locked & Loaded'
+				This will grant bonus damage based on the base damage of the ammo. Use mini nukes for the best results!
+				Note that the ammo's damage is NOT added to Hardlock's attack damage, unlike other weapons
+				'''
+			ML1:
+				'''
+				Using the Skill Perk 'Multi-target' will let you target all 3 of Moon Lord's eyes at once
+				However, note that using this strategy will greatly reduce your control over when each eye is released
+				'''
+			ML2:
+				'''
+				If using the Skill perk 'No Escape II' when fighting the Moon Lord, beware that your lock-on will persist even after releasing an eye from its socket
+				Make sure to remove the reticles from the sockets of released eyes!
+				'''
+		}
+	}
+
+	HardlockMissileItem: {
+		DisplayName: Hardlock Missile
+		Tooltip:
+			'''
+			Can be used as ammo exclusivley by Hardlock
+			By default, Hardlock does not require ammo to fire
+			Hence, this ammo has no purpose if the 'Ranged Weapons NEED Ammo' config option is disabled
+			Note that ammo damage is NOT added onto Hardlock's attack damage
+			'''
+	}
+}
+
+Projectiles: {
+	StickyBlasterTorch: {
+		DisplayName: Torch
+	}
+
+	StickyBlasterGel: {
+		DisplayName: Gel
+	}
+
+	JadeEdgeSlash: {
+		DisplayName: Jade Slash
+	}
+
+	JadeEdgeDash: {
+		DisplayName: Jade Dash
+	}
+
+	JadeLightningSlash: {
+		DisplayName: Dash Cut
+	}
+
+	SiphonShot: {
+		DisplayName: Siphon Shot
+	}
+
+	SiphonLifesteal: {
+		DisplayName: Siphon Lifesteal
+	}
+
+	SacrificeShot: {
+		DisplayName: Sacrifice Shot
+	}
+
+	BeadWhip: {
+		DisplayName: Bead Whip
+	}
+
+	BeadBullet: {
+		DisplayName: Bead Bullet
+	}
+
+	PolynailProj: {
+		DisplayName: Polynail
+	}
+
+	HardlockMissile: {
+		DisplayName: Hardlock Missile
+	}
+
+	HardlockReticle: {
+		DisplayName: Hardlock Reticle
+	}
+
+	BeadWhipNew: {
+		DisplayName: Bead Whip New
+	}
+}
+
+Buffs: {
+	StickyBlasterDebuff: {
+		DisplayName: Gel-ed
+		Description: The enemy is slowed and/or taking DoT from Sticky Blaster gel
+	}
+
+	JadeEdgeDebuff: {
+		DisplayName: Jade Combo
+		Description: This enemy is more vulnerable to the Jade Edge's combo finisher
+	}
+
+	BeadTag: {
+		DisplayName: Striker Beads Tag
+		Description: This enemy is more vulnerable to summons' attacks
+	}
+
+	BeadBuff: {
+		DisplayName: Relentless Whip
+		Description: Whip speed is increased
+	}
+
+	PolynailDebuff: {
+		DisplayName: Polynailed
+		Description: Large nails are stuck in this enemy, dealing high damage over time
+	}
+
+	LingeringWounds2: {
+		DisplayName: Lingering Wounds II
+		Description: The enemy is taking damage over time
+	}
+
+	LingeringWounds1: {
+		DisplayName: Lingering Wounds I
+		Description: The enemy is taking damage over time
+	}
+
+	HardlockBuff: {
+		DisplayName: Lock & Unload!
+		Description: Hardlock fires 15% faster
+	}
+}
+
+Tiles: {
+	ArsenalAltarTile: {
+		MapEntry: Arsenal Altar
+	}
+}
+
+Configs: {
+	HeroConfig: {
+		DisplayName: Server Config
+
+		Headers: {
+			HeaderWeapons: "[i:HeroWeapons/LegendMedallion] Hero Weapons [i:HeroWeapons/LegendMedallion]"
+			HeaderUI: "[i:3611] Main UI [i:3611]"
+		}
+
+		statScaling: {
+			Label: "[i:HeroWeapons/SacrificeStaff_Alt] Stat Scaling"
+			Tooltip:
+				'''
+				Controls how much Hero Weapons' stats increase based on level
+				Hero Weapons' scaling is independent from other weapons, and controlled by this setting, NOT Block's Weapon Leveling
+				Has no effect on the potency of Skill Perks
+				While Hero Weapons may scale stats other than damage, most are hard-capped at a certain value
+				Similarly, Prestige levels ONLY scale damage. Additionally, Prestige levels grant reduced bonus damage to most Hero Weapons
+				'''
+		}
+
+		bonusPerks: {
+			Label: "[i:HeroWeapons/ArsenalAltarItem] Extra Skill Points"
+			Tooltip:
+				'''
+				Enables additional Skill Points for all Hero Weapons
+				For balanced play, it is recommended this remains at the default value of 0
+				Total Skill Points is capped at 18, since that is how many different Skill Perks there are per weapon
+				'''
+		}
+
+		demandAmmo: {
+			Label: "[i:HeroWeapons/StickyBlaster] Ranged Weapons NEED Ammo"
+			Tooltip:
+				'''
+				Normally, ranged class Hero Weapons with rare/exotic ammo are allowed to fire without ammo
+				This is done to avoid ammo supply issues at the start of the game
+				However, you can turn this setting on to make weapons always require their respective ammo
+				Be warned, this may make certain weapons unusable depending on their ammo type!
+				With this setting and 'Generous Medallions' on, some weapons will spawn alongside ammo when their weapon Medallion is used
+				'''
+		}
+
+		generousMedallions: {
+			Label: "[i:HeroWeapons/SacrificeMedallion] Generous Medallions"
+			Tooltip:
+				'''
+				Enables certain weapon Medallions to drop additional items aside from their Hero Weapon and an Arsenal Altar
+				For example, magic weapons like the Staff of Sacrifice will grant a few Mana Crystals
+				Recommended for use, so that you aren't as likely to have ammo/mana problems at the start of your playthorugh
+				'''
+		}
+
+		heroWepDmg: {
+			Label: "[i:HeroWeapons/JadeEdge] Hero Weapon Damage"
+			Tooltip:
+				'''
+				Multiplies the base damage of all Hero Weapons
+				Useful for if you want to tweak balancing
+				'''
+		}
+
+		debugUI: {
+			Label: UI debug
+			Tooltip:
+				'''
+				Automatically opens the Arsenal Altar UI every time you open the inventory
+				For testing purposes
+				'''
+		}
+	}
+
+	HeroConfigClient: {
+		DisplayName: Client Config
+
+		Headers: {
+			HeaderWeapons: "[i:HeroWeapons/LegendMedallion] Hero Weapons [i:HeroWeapons/LegendMedallion]"
+			HeaderUI: "[i:3611] UI [i:3611]"
+		}
+
+		disableScopes: {
+			Label: "[i:4005] Hero Weapons Disable Scopes"
+			Tooltip:
+				'''
+				Makes it so that holding any Hero Weapon disables zoom-out effects
+				This includes the effects granted by the Binoculars, Sniper Scope, Recon Scope, etc.
+				Useful if you find zoom effects annoying when trying to use Hero Weapons' secondary attacks
+				'''
+		}
+
+		uiDisplacement: {
+			Label: "[i:2799] UI Displacement"
+			Tooltip:
+				'''
+				Nudge the Arsenal Altar UI's placement by a set amount of pixels; (x,y).
+				Negative numbers move the UI closer to the top left of the screen.
+				Positive numbers move it closer to the bottom right.
+				Defaults to below the inventory's trash slot.
+				Note that extreme values can move the UI off screen!
+				'''
+		}
+
+		altUiDisplacement: {
+			Label: "[i:407] Override Vector Displacement"
+			Tooltip:
+				'''
+				Toggle between using the Vector-based setting above, and the Integer-based settings below for the purposes of UI displacement.
+				When false, the Vector setting above is used.
+				When true, the Integer settings are used.
+				Use of integers may be preferable to some, since values can be typed in percisely instead of using a slider.
+				'''
+		}
+
+		uiNudgeX: {
+			Label: "[i:486] Integer-based Displacement (X)"
+			Tooltip:
+				'''
+				Nudges the Arsenal Altar UI's horizontal placement by the amount of pixels set here.
+				Negative numbers move the UI closer to the left of the screen.
+				Positive numbers move it closer to the right.
+				0 Defaults to near the right edge of your inventory.
+				Note that extreme values can move the UI off screen!
+				Also note that this config does nothing unless 'Override Vector Displacement' is true.
+				'''
+		}
+
+		uiNudgeY: {
+			Label: "[i:486] Integer-based Displacement (Y)"
+			Tooltip:
+				'''
+				Nudges the Arsenal Altar UI's vertical placement by the amount of pixels set here.
+				Negative numbers move the UI closer to the top of the screen.
+				Positive numbers move it closer to the bottom.
+				0 Defaults to below the inventory's trash slot.
+				Note that extreme values can move the UI off screen!
+				Also note that this config does nothing unless 'Override Vector Displacement' is true.
+				'''
+		}
+	}
+}
+
+UI: {
+	Title: Manage Hero Weapons
+
+	WeaponSlot: {
+		Tooltip:
+			'''
+			Insert a compatible Hero Weapon here
+			Hero Weapons can be distinguished by their unique, gold-colored item rarity
+			'''
+	}
+
+	SkillPointDisplay: Skill Points: {0}/{1}
+	SkillLevelPrereq: Requires level {0} or higher
+	EmptySkillPerk: Insert a valid weapon to view its Skill Perks
+	CloseButton: Close
+
+	TipButton: {
+		Name: Advice
+		Tooltip:
+			'''
+			Get advice on using the currently inserted weapon
+			The tips will change based on your progression
+			'''
+	}
+
+	RespecButton: {
+		Name: Respec
+		Tooltip:
+			'''
+			Removes all Skill Perks from this weapon, returning the Skill Points so that they may be re-invested
+			You can do this as often as you'd like at no expense; experiement and find the setup that works for you!
+			'''
+	}
+
+	Feedback: {
+		MissingGear: Error: Valid weapon not inserted or couldn't be found!
+		NoTips: Unfortunately, this Hero Weapon currently has no weapon-specific tips implemented. Sorry for the inconvenience!
+		RespecSuccess: Respec of {0} successful!
+		PerkAlreadyOn:
+			'''
+			This Skill Perk has already been unlocked
+			Use the Respec button to reset and re-invest Skill Points
+			'''
+		NeedMorePoints:
+			'''
+			You don't have a Skill Point avaliable to invest in this Skill Perk
+			Every 10 levels your weapon will earn a Skill Point; up to 10 at level 100
+			Up to 3 additional Skill Points are granted by Prestige; 1 per Prestige
+			Alternativley, use the Respec button to reset and re-invest Skill Points
+			'''
+		NeedPrereqLevel: This weapon isn't high-leveled enough to unlock this Skill Perk
+		NeedPrereqSkill:
+			'''
+			Previous Skill Perk(s) must be unlocked before this one
+			Unlock the Skill Perk(s) earlier in the skill tree first
+			'''
+	}
+}
+

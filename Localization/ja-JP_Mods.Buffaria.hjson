@@ -1,0 +1,771 @@
+{
+	Configs: {
+		BuffariaConfig: {
+			DisablePhialEffects: {
+				Tooltip: "フラスコ使用時にダストが生成されるかを切り替える"
+				Label: "フラスコのエフェクトを無効化"
+			}
+			DisableDashing: {
+				Tooltip: "アップグレードされたポーションで2回タップダッシュが有効になるかを切り替える"
+				Label: "ダッシュを無効化"
+			}
+			DisableBiomeSight: {
+				Tooltip: "アップグレードされたポーションでバイオームサイトが有効になるかを切り替える"
+				Label: "バイオームサイトを無効化"
+			}
+			DisableGravitation: {
+				Tooltip: "アップグレードされたポーションで重力反転が有効になるかを切り替える"
+				Label: "重力反転を無効化"
+			}
+			DisableFeatherfall: {
+				Tooltip: "アップグレードされたポーションで落下制御が有効になるかを切り替える"
+				Label: "落下制御を無効化"
+			}
+			DisableImmunities: {
+				Tooltip: "ポーションのスタックが許可されるかを切り替える"
+				Label: "免疫を無効化"
+			}
+			DisableInLegendary: {
+				Tooltip: "For The WorthyまたはZenithワールドで水中呼吸を無効にする"
+				Label: "Legendaryワールドで無効化"
+			}
+			AuraVisuals: {
+				Tooltip: "オーラのビジュアルを切り替える"
+				Label: "オーラのビジュアル"
+			}
+			DisplayName: "バッファリア設定"
+		}
+	}
+	RecipeSystem: {
+		EnabledInConfig: "アイテム設定で有効"
+		CorruptionOrCrimsonPotion: "不浄または真紅のポーション"
+		Alcohols: "酒またはエール"
+		LunarFragments: "いずれかのルナーフラグメント"
+		ShadowScaleOrTissueSample: "シャドウスケールまたは組織サンプル"
+		EbonkoiOrHemopiranha: "漆黒コイまたは吸血ピラニア"
+		GoldOrPlatinum: "金またはプラチナ鉱石"
+		SilverOrTungsten: "銀またはタングステン鉱石"
+		IronOrLead: "鉄または鉛鉱石"
+		CopperOrTin: "銅または錫鉱石"
+	}
+	Projectiles: {
+		ElectricAura: {
+			DisplayName: "エレクトリックオーラ"
+		}
+	}
+	CommonTooltips: {
+		Disabled: "（無効）"
+	}
+	Headers: {
+		Phials: "フラスコ"
+		Potions: "ポーション"
+	}
+	Items: {
+		ForcePotion: {
+			DisplayName: "強化のポーション"
+			Tooltip: "'''\n攻撃者は半分のダメージを受ける\nクリティカル率が5%上昇\n最大ライフとマナが20%増加\n近くの敵を感電させる\n'''"
+		}
+		CloseQuartersPotion: {
+			DisplayName: "近接戦闘ポーション"
+			Tooltip: "ダイレクト近接ダメージが10%増加"
+		}
+		TrawlerPotion: {
+			DisplayName: "トロール船のポーション"
+			Tooltip: "'''\n箱を入手する確率が上昇\nフィッシング・パワーが15増加\nフックした魚を検知\n'''"
+		}
+		IncendiaryPhial: {
+			DisplayName: "焼夷のフラスコ"
+			Tooltip: "攻撃が敵に呪炎、炎、凍傷、シャドウフレイムを与える"
+		}
+		ToxinPhial: {
+			DisplayName: "毒性のフラスコ"
+			Tooltip: "攻撃が敵にベッツィの呪い、出血、霊液、毒、猛毒を与える"
+		}
+		VoltaicPhial: {
+			DisplayName: "流電気のフラスコ"
+			Tooltip: "攻撃が敵に混乱、感電、強欲を与え、爆発させる"
+		}
+		NebulaPhial: {
+			DisplayName: "ネビュラのフラスコ"
+			Tooltip: "攻撃がネビュラブースターをスポーンさせる"
+		}
+		MagnetPotion: {
+			DisplayName: "磁石のポーション"
+			Tooltip: "ライフハート、マナスター、ネビュラブースターの取得範囲が増加"
+		}
+		StarreachPotion: {
+			DisplayName: "スター回収ポーション"
+			Tooltip: "マナスターの取得範囲が増加"
+		}
+		BoosterreachPotion: {
+			DisplayName: "ブースター回収ポーション"
+			Tooltip: "ネビュラブースターの取得範囲が増加"
+		}
+		MegaHoneyedHealingPotion: {
+			DisplayName: "メガ蜂蜜ヒーリングポーション"
+			Tooltip: "短時間、ライフ自然回復を増進させる"
+		}
+		MegaRestorationPotion: {
+			DisplayName: "メガリストアポーション"
+			Tooltip: "ポーションのクールダウンを短縮"
+		}
+		SpellswordPotion: {
+			DisplayName: "魔法剣のポーション"
+			Tooltip: "'''\n近接ステータスがわずかに向上し、防御力が低下\n剣のサイズが10%増加\n近接攻撃がダメージを与えるキノコを放出\nダイレクト近接ダメージが10%増加\n魔法ダメージが20%増加\nマナ消費が10%減少\n'''"
+		}
+		TrapperPotion: {
+			DisplayName: "罠師のポーション"
+			Tooltip: "'''\n20%の確率で弾薬を節約\n弓のダメージが10%増加し、矢の速度が20%増加\nミニオンがヒット時に20%の確率でハチを放出\n投射物のダメージが10%増加\nミニオンとセントリーの最大数が増加\n'''"
+		}
+		RadarPotion: {
+			DisplayName: "レーダーポーション"
+			Tooltip: "敵の投射物の位置を表示"
+		}
+		SuperScalingManaPotion: {
+			Tooltip: "失われたマナの100%を回復する"
+			DisplayName: "スーパースケーリングマナポーション"
+		}
+		ScalingManaPotion: {
+			Tooltip: "失われたマナの50%を回復する"
+			DisplayName: "スケーリングマナポーション"
+		}
+		LesserScalingManaPotion: {
+			Tooltip: "失われたマナの25%を回復する"
+			DisplayName: "小型スケーリングマナポーション"
+		}
+		GreaterScalingManaPotion: {
+			Tooltip: "失われたマナの75%を回復する"
+			DisplayName: "グレートスケーリングマナポーション"
+		}
+		SuperScalingHealingPotion: {
+			Tooltip: "失われた体力の100%を回復する"
+			DisplayName: "スーパースケーリングライフポーション"
+		}
+		ScalingHealingPotion: {
+			Tooltip: "失われた体力の50%を回復する"
+			DisplayName: "スケーリングライフポーション"
+		}
+		LesserScalingHealingPotion: {
+			Tooltip: "失われた体力の25%を回復する"
+			DisplayName: "小型スケーリングライフポーション"
+		}
+		GreaterScalingHealingPotion: {
+			Tooltip: "失われた体力の75%を回復する"
+			DisplayName: "グレートスケーリングライフポーション"
+		}
+		LegendaryPhial: {
+			Tooltip: "攻撃が敵に多くのデバフを与え、爆発させる"
+			DisplayName: "伝説のフラスコ"
+		}
+		WeightlessPotion: {
+			Tooltip: "'''\n落下速度が50%増加\n落下速度を遅くする\n飛行時間が25%増加\n重力を制御できるようになる\nジャンプ速度が10%上昇し、落下ダメージ耐性が25増加し、ジャンプの高さが増加\n落下ダメージを無効化\n'''"
+			DisplayName: "無重力のポーション"
+		}
+		WayfarerPotion: {
+			Tooltip: "'''\n洞窟にいる間、採掘速度が25%上昇\n不浄または真紅の地にいる間、ダメージが10%増加\n砂漠にいる間、運が10%増加\n汚染されていない地にいる間、移動速度が10%上昇\n聖域にいる間、飛行時間が25%増加\n地底世界にいる間、炎上を無効化\nジャングルにいる間、毒を無効化\n海にいる間、フィッシング・パワーが15向上\n雪原にいる間、冷気を無効化\n'''"
+			DisplayName: "旅人のポーション"
+		}
+		WarfarePotion: {
+			Tooltip: "'''\n近接ステータスがわずかに向上し、防御力が低下\n20%の確率で弾薬を節約\n弓のダメージが10%増加し、矢の速度が20%上昇\n敵の出現率が上昇\nミニオンがヒット時に20%の確率でハチを放出\n剣のサイズが10%増加\n投射物のダメージが10%増加\n近接攻撃がダメージを与えるキノコを放出\nダイレクト近接ダメージが10%増加\n魔法ダメージが20%増加\nクリティカル率が10%上昇\nミニオンとセントリーの最大数が増加\nノックバックが増加\nダメージが10%増加\nマナ消費が10%減少\n'''"
+			DisplayName: "戦闘準備ポーション"
+		}
+		VisionaryPotion: {
+			Tooltip: "'''\n汚染されたブロックの位置を表示\n近くの危険源を見ることができる\n敵の位置を表示\n暗視能力が向上\n敵の投射物の位置を表示\n光のオーラを放つ\n宝物と鉱石の位置を表示\n'''"
+			DisplayName: "視覚のポーション"
+		}
+		UltimaPotion: {
+			Tooltip: "全てのMODポーションの効果"
+			DisplayName: "究極のポーション"
+		}
+		TerminatorPotion: {
+			Tooltip: "'''\n2回タップでダッシュする能力を付与\n近くの敵を炎上させる\n5分間のクールダウンで復活する能力を付与\nボスへの攻撃が20%の追加ダメージを与える\n装甲貫通力が8増加\n攻撃者もダメージを受ける\n'''"
+			DisplayName: "終局のポーション"
+		}
+		SurvivalPotion: {
+			Tooltip: "'''\nライフとマナの自然回復を増進\n敵を攻撃した後、ライフ自然回復を大幅に増進\n'''"
+			DisplayName: "生存のポーション"
+		}
+		SuperLuckPotion: {
+			Tooltip: "運が50%上昇"
+			DisplayName: "スーパーラックポーション"
+		}
+		MermaidPotion: {
+			Tooltip: "'''\n水中での自由な移動を付与\n液体中を素早く移動できる\n空気の代わりに水で呼吸する\n水上を歩く能力を付与\n'''"
+			DisplayName: "人魚のポーション"
+		}
+		GoliathPotion: {
+			Tooltip: "'''\n防御力が13増加\n被ダメージを15%減少\n敵を攻撃した後、無敵になる\n被ダメージ後の無敵時間が増加\nノックバックを無効化\n'''"
+			DisplayName: "ゴライアスのポーション"
+		}
+		DoubleRegenerationPotion: {
+			Tooltip: "'''\nライフ自然回復を提供する\nマナ自然回復を増進\n'''"
+			DisplayName: "ダブル自然回復ポーション"
+		}
+		CreationPotion: {
+			Tooltip: "'''\n採掘速度が25%上昇\n設置速度が25%上昇\n設置範囲が増加\n'''"
+			DisplayName: "創造のポーション"
+		}
+		BurningPotion: {
+			Tooltip: "'''\n炎上が敵間で広がる\n溶岩、炎上、燃焼を無効化\n冷気によるダメージを減少\n'''"
+			DisplayName: "炎上のポーション"
+		}
+		AgilityPotion: {
+			Tooltip: "'''\n攻撃速度が5%上昇\n走行速度と加速度が5%上昇\n移動速度が25%上昇\n'''"
+			DisplayName: "俊敏のポーション"
+		}
+		WisdomPotion: {
+			Tooltip: "マナ消費が10%減少"
+			DisplayName: "知恵のポーション"
+		}
+		UnflinchingPotion: {
+			Tooltip: "被ダメージ後の無敵時間が増加"
+			DisplayName: "不屈のポーション"
+		}
+		SteadfastPotion: {
+			Tooltip: "ノックバックを無効化"
+			DisplayName: "不動のポーション"
+		}
+		StabbingPotion: {
+			Tooltip: "装甲貫通力が8増加"
+			DisplayName: "貫通のポーション"
+		}
+		SoftfallPotion: {
+			Tooltip: "落下ダメージを無効化"
+			DisplayName: "柔軟落下ポーション"
+		}
+		SnowPotion: {
+			Tooltip: "雪原にいる間、冷気を無効化"
+			DisplayName: "雪のポーション"
+		}
+		ShredderPotion: {
+			Tooltip: "ボスへの攻撃が20%の追加ダメージを与える"
+			DisplayName: "斬裂者のポーション"
+		}
+		ShockPotion: {
+			Tooltip: "近くの敵を感電させる"
+			DisplayName: "感電のポーション"
+		}
+		SentryPotion: {
+			Tooltip: "セントリーの最大数が1増加"
+			DisplayName: "セントリーのポーション"
+		}
+		PhoenixPotion: {
+			Tooltip: "5分間のクールダウンで復活する能力を付与"
+			DisplayName: "不死鳥のポーション"
+		}
+		PalladiumRegenerationPotion: {
+			Tooltip: "敵を攻撃した後、ライフ回復を大幅に増進"
+			DisplayName: "パラジウムの自然回復ポーション"
+		}
+		OceanPotion: {
+			Tooltip: "海にいる間、フィッシング・パワーが15向上"
+			DisplayName: "海のポーション"
+		}
+		ManaforcePotion: {
+			Tooltip: "最大マナが20%増加"
+			DisplayName: "マナ強化ポーション"
+		}
+		JunglePotion: {
+			Tooltip: "ジャングルにいる間、毒を無効化"
+			DisplayName: "ジャングルのポーション"
+		}
+		InfestedPotion: {
+			Tooltip: "近接攻撃がダメージを与えるキノコを放出"
+			DisplayName: "寄生のポーション"
+		}
+		ImpactPotion: {
+			Tooltip: "投射物のダメージが10%増加"
+			DisplayName: "衝撃のポーション"
+		}
+		HyperPotion: {
+			Tooltip: "走行速度と加速度が5%上昇"
+			DisplayName: "超速のポーション"
+		}
+		HoppingPotion: {
+			Tooltip: "ジャンプ速度が10%増加し、落下ダメージ耐性が25増加し、ジャンプの高さが増加"
+			DisplayName: "跳躍のポーション"
+		}
+		HolyPotion: {
+			Tooltip: "敵を攻撃した後、無敵になる"
+			DisplayName: "神聖なポーション"
+		}
+		HellPotion: {
+			Tooltip: "地底世界にいる間、炎上を無効化"
+			DisplayName: "地底のポーション"
+		}
+		HallowPotion: {
+			Tooltip: "聖域にいる間、飛行時間が25%増加"
+			DisplayName: "聖域のポーション"
+		}
+		ForestPotion: {
+			Tooltip: "汚染されていない地にいる間、移動速度が10%上昇"
+			DisplayName: "森林のポーション"
+		}
+		FlightPotion: {
+			Tooltip: "飛行時間が25%増加"
+			DisplayName: "飛行のポーション"
+		}
+		FirestarterPotion: {
+			Tooltip: "炎上が近くの敵に広がる"
+			DisplayName: "火起こしのポーション"
+		}
+		FastHandsPotion: {
+			Tooltip: "攻撃速度が5%上昇"
+			DisplayName: "先手のポーション"
+		}
+		FastfallPotion: {
+			Tooltip: "落下速度が50%上昇"
+			DisplayName: "高速落下ポーション"
+		}
+		DesertPotion: {
+			Tooltip: "砂漠にいる間、運が10%増加"
+			DisplayName: "砂漠のポーション"
+		}
+		DemoniteProtectionPotion: {
+			Tooltip: "被ダメージを5%減少し、防御力が5増加"
+			DisplayName: "暗影の防護ポーション"
+		}
+		CrimtaneAssaultPotion: {
+			Tooltip: "'''\n攻撃者は半分のダメージを受ける\nクリティカル率が5%増加\n'''"
+			DisplayName: "クリムゾンの襲撃ポーション"
+		}
+		CrimsonPotion: {
+			Tooltip: "真紅の地にいる間、ダメージが10%増加"
+			DisplayName: "真紅のポーション"
+		}
+		CorruptionPotion: {
+			Tooltip: "不浄の地にいる間、ダメージが10%増加"
+			DisplayName: "不浄のポーション"
+		}
+		CavernPotion: {
+			Tooltip: "洞窟にいる間、採掘速度が25%上昇"
+			DisplayName: "洞窟のポーション"
+		}
+		BreakerPotion: {
+			Tooltip: "剣のサイズが10%増加"
+			DisplayName: "破壊者のポーション"
+		}
+		BoostPotion: {
+			Tooltip: "2回タップでダッシュする能力を付与"
+			DisplayName: "ブーストポーション"
+		}
+		BeePotion: {
+			Tooltip: "ミニオンがヒット時に20%の確率でハチを放出"
+			DisplayName: "蜂のポーション"
+		}
+		AquaAffinityPotion: {
+			Tooltip: "水中での自由な移動を付与"
+			DisplayName: "水中適応ポーション"
+		}
+		VenomPhial: {
+			Tooltip: "攻撃が敵に猛毒を与える"
+			DisplayName: "猛毒のフラスコ"
+		}
+		ShadowflamePhial: {
+			Tooltip: "攻撃が敵にシャドウフレイムを与える"
+			DisplayName: "シャドウフレイムのフラスコ"
+		}
+		PoisonPhial: {
+			Tooltip: "攻撃が敵に毒を与える"
+			DisplayName: "毒のフラスコ"
+		}
+		IchorPhial: {
+			Tooltip: "攻撃が敵に霊液を与える"
+			DisplayName: "霊液のフラスコ"
+		}
+		GoldPhial: {
+			Tooltip: "攻撃が敵に強欲を与える"
+			DisplayName: "黄金のフラスコ"
+		}
+		FrostburnPhial: {
+			Tooltip: "攻撃が敵に凍傷を与える"
+			DisplayName: "凍傷のフラスコ"
+		}
+		FirePhial: {
+			Tooltip: "攻撃が敵に炎を与える"
+			DisplayName: "炎のフラスコ"
+		}
+		ExplosivePhial: {
+			Tooltip: "攻撃が爆発する"
+			DisplayName: "爆発のフラスコ"
+		}
+		ElectricityPhial: {
+			Tooltip: "攻撃が敵を感電させる"
+			DisplayName: "感電のフラスコ"
+		}
+		DaybreakPhial: {
+			Tooltip: "攻撃が敵にデイブレイクを与える"
+			DisplayName: "デイブレイクのフラスコ"
+		}
+		CursedFlamesPhial: {
+			Tooltip: "攻撃が敵に呪炎を与える"
+			DisplayName: "呪炎のフラスコ"
+		}
+		ConfusedPhial: {
+			Tooltip: "攻撃が敵に混乱を与える"
+			DisplayName: "混乱のフラスコ"
+		}
+		BleedingPhial: {
+			Tooltip: "攻撃が敵に出血を与える"
+			DisplayName: "出血のフラスコ"
+		}
+		BetsyPhial: {
+			Tooltip: "攻撃が敵にベッツィの呪いを与える"
+			DisplayName: "ベッツィのフラスコ"
+		}
+		SuperRestorationPotion: {
+			Tooltip: "ポーションのクールダウンを短縮"
+			DisplayName: "スーパーリストアポーション"
+		}
+		SuperHoneyedHealingPotion: {
+			Tooltip: "短時間、自然治癒を向上させる"
+			DisplayName: "スーパー蜂蜜ヒーリングポーション"
+		}
+		LesserRestorationPotion: {
+			Tooltip: "ポーションのクールダウンを短縮"
+			DisplayName: "小型リストアポーション"
+		}
+		LesserHoneyedHealingPotion: {
+			Tooltip: "短時間、自然治癒を向上させる"
+			DisplayName: "小型蜂蜜ヒーリングポーション"
+		}
+		HoneyedHealingPotion: {
+			Tooltip: "短時間、自然治癒を向上させる"
+			DisplayName: "蜂蜜ヒーリングポーション"
+		}
+		GreaterRestorationPotion: {
+			Tooltip: "ポーションのクールダウンを短縮"
+			DisplayName: "グレートリストアポーション"
+		}
+		GreaterHoneyedHealingPotion: {
+			Tooltip: "短時間、自然治癒を向上させる"
+			DisplayName: "グレート蜂蜜ヒーリングポーション"
+		}
+	}
+	Buffs: {
+		ForceBuff: {
+			DisplayName: "強化"
+			Description: "'''\n最大ライフとマナが20%増加\n攻撃者は半分のダメージを受ける\nクリティカル率が5%上昇\n近くの敵が感電する\n'''"
+		}
+		CloseQuartersBuff: {
+			DisplayName: "近接戦闘"
+			Description: "ダイレクト近接ダメージが10%増加"
+		}
+		TrawlerBuff: {
+			DisplayName: "トロール船"
+			Description: "'''\n箱を釣り上げる確率が上昇\nフィッシング・パワーが15向上\nフックにかかった魚を見ることができる\n'''"
+		}
+		IncendiaryPhialBuff: {
+			DisplayName: "武器エンチャント：焼夷"
+			Description: "攻撃が敵に呪炎、炎、凍傷、シャドウフレイムを与える"
+		}
+		ToxinPhialBuff: {
+			DisplayName: "武器エンチャント：毒性"
+			Description: "攻撃が敵にベッツィの呪い、出血、霊液、毒、猛毒を与える"
+		}
+		VoltaicPhialBuff: {
+			DisplayName: "武器エンチャント：流電気"
+			Description: "攻撃が敵に混乱、感電、強欲を与え、爆発させる"
+		}
+		NebulaPhialBuff: {
+			DisplayName: "武器エンチャント：ネビュラ"
+			Description: "攻撃がネビュラブースターをスポーンさせる"
+		}
+		MagnetBuff: {
+			DisplayName: "磁石"
+			Description: "ライフハート、マナスター、ネビュラブースターの取得範囲が増加"
+		}
+		BoosterreachBuff: {
+			DisplayName: "ブースター回収"
+			Description: "ネビュラブースターの取得範囲が増加"
+		}
+		StarreachBuff: {
+			DisplayName: "スター回収"
+			Description: "マナスターの取得範囲が増加"
+		}
+		SpellswordBuff: {
+			DisplayName: "魔法剣"
+			Description: "'''\n近接能力が向上\n剣が10%大きくなる\n近接攻撃がダメージを与えるキノコを放出\nダイレクト近接ダメージが10%増加\n魔法ダメージが20%増加\nマナ消費が10%減少\n'''"
+		}
+		TrapperBuff: {
+			DisplayName: "罠師"
+			Description: "'''\n20%の確率で弾薬を節約\n弓のダメージが10%増加し、矢の速度が20%上昇\nミニオンがヒット時に20%の確率でハチを放出\n投射物が10%多くのダメージを与える\nミニオンとセントリーの最大数が増加\n'''"
+		}
+		RadarBuff: {
+			DisplayName: "レーダー"
+			Description: "敵の投射物の位置を表示"
+		}
+		LegendaryPhialBuff: {
+			Description: "攻撃が敵に多くのデバフを与え、爆発させる"
+			DisplayName: "武器エンチャント：伝説"
+		}
+		WeightlessBuff: {
+			Description: "'''\n落下速度が50%上昇\n上または下を押して降下速度を制御\n飛行時間が25%増加\n上を押して重力を反転\nジャンプ速度が10%上昇し、落下ダメージ耐性が25増加し、ジャンプの高さが増加\n落下ダメージを無効化\n'''"
+			DisplayName: "無重力"
+		}
+		WayfarerBuff: {
+			Description: "'''\n洞窟にいる間、採掘速度が25%上昇\n不浄または真紅の地にいる間、ダメージが10%増加\n砂漠にいる間、運が10%増加\n純潔の地にいる間、移動速度が10%上昇\n聖域にいる間、飛行時間が25%増加\n地底世界にいる間、炎上を無効化\nジャングルにいる間、毒を無効化\n海にいる間、フィッシング・パワーが15%向上\n雪原にいる間、冷気を無効化\n'''"
+			DisplayName: "旅人"
+		}
+		WarfareBuff: {
+			Description: "'''\n近接能力が向上\n20%の確率で弾薬を節約\n弓のダメージが10%増加し、矢の速度が20%上昇\n敵の出現率が上昇\nミニオンがヒット時に20%の確率でハチを放出\n剣が10%大きくなる\n投射物が10%多くのダメージを与える\n近接攻撃がダメージを与えるキノコを放出\nダイレクト近接ダメージが10%増加\n魔法ダメージが20%増加\nクリティカル率が10%上昇\nミニオンとセントリーの最大数が増加\nノックバックが増加\nダメージが10%増加\nマナ消費が10%減少\n'''"
+			DisplayName: "戦闘準備"
+		}
+		VisionaryBuff: {
+			Description: "'''\n汚染されたブロックの位置を表示\n近くの危険源を見ることができる\n敵の位置を表示\n暗視能力が向上\n敵の投射物の位置を表示\n光を放つ\n宝物と鉱石の位置を表示\n'''"
+			DisplayName: "視覚"
+		}
+		UltimaBuff: {
+			Description: "全てのMODポーションの効果"
+			DisplayName: "究極"
+		}
+		TerminatorBuff: {
+			Description: "'''\n2回タップでダッシュできる\n近くの敵が炎上する\n5分間のクールダウンで復活する\nボスへの攻撃が20%の追加ダメージを与える\n装甲貫通力が8増加\n攻撃者もダメージを受ける\n'''"
+			DisplayName: "終局"
+		}
+		SurvivalBuff: {
+			Description: "'''\nライフとマナの自然回復を増進\n敵を攻撃した後、ライフ自然回復を大幅に増進\n'''"
+			DisplayName: "生存"
+		}
+		SuperLuckyBuff: {
+			Description: "運が50%増加"
+			DisplayName: "スーパーラッキー"
+		}
+		MermaidBuff: {
+			Description: "'''\n水中での移動が妨げられない\n水中で泳ぐことができる\n空気の代わりに水を呼吸する\n下を押して水に入る\n'''"
+			DisplayName: "人魚"
+		}
+		GoliathBuff: {
+			Description: "'''\n防御力が13増加\n被ダメージを15%減少\n敵を攻撃した後、無敵になる\n被ダメージ後の無敵時間が増加\nノックバック無効\n'''"
+			DisplayName: "ゴライアス"
+		}
+		DoubleRegenerationBuff: {
+			Description: "'''\nライフ自然回復を提供する\nマナ自然回復を増進\n'''"
+			DisplayName: "ダブル自然回復"
+		}
+		CreationBuff: {
+			Description: "'''\n採掘速度が25%上昇\n設置速度が25%上昇\n設置範囲が増加\n'''"
+			DisplayName: "創造"
+		}
+		BurningBuff: {
+			Description: "'''\n炎上が近くの敵に広がる\n溶岩、炎上、燃焼を無効化\n冷気によるダメージを減少\n'''"
+			DisplayName: "炎上"
+		}
+		AgilityBuff: {
+			Description: "'''\n攻撃速度が5%上昇\n走行速度と加速度が5%上昇\n移動速度が25%上昇\n'''"
+			DisplayName: "俊敏"
+		}
+		WisdomBuff: {
+			Description: "マナ消費が10%減少"
+			DisplayName: "知恵"
+		}
+		UnflinchingBuff: {
+			Description: "被ダメージ後の無敵時間が増加"
+			DisplayName: "不屈"
+		}
+		SteadfastBuff: {
+			Description: "ノックバック無効"
+			DisplayName: "不動"
+		}
+		StabbingBuff: {
+			Description: "装甲貫通力が8増加"
+			DisplayName: "貫通"
+		}
+		SoftfallBuff: {
+			Description: "落下ダメージを無効化"
+			DisplayName: "柔軟落下"
+		}
+		SnowBuff: {
+			Description: "ツンドラにいる間、冷気を無効化"
+			DisplayName: "雪"
+		}
+		ShredderBuff: {
+			Description: "ボスへの攻撃が20%の追加ダメージを与える"
+			DisplayName: "斬裂者"
+		}
+		ShockBuff: {
+			Description: "近くの敵が感電する"
+			DisplayName: "感電"
+		}
+		SentryBuff: {
+			Description: "セントリーの最大数が1増加"
+			DisplayName: "セントリー"
+		}
+		PhoenixBuff: {
+			Description: "5分間のクールダウンで復活する"
+			DisplayName: "不死鳥"
+		}
+		PalladiumRegenerationBuff: {
+			Description: "敵を攻撃した後、ライフ回復を大幅に増進"
+			DisplayName: "パラジウムの自然回復"
+		}
+		OceanBuff: {
+			Description: "海にいる間、フィッシング・パワーが15%向上"
+			DisplayName: "海"
+		}
+		ManaforceBuff: {
+			Description: "最大マナが20%増加"
+			DisplayName: "マナ強化"
+		}
+		JungleBuff: {
+			Description: "ジャングルにいる間、毒を無効化"
+			DisplayName: "ジャングル"
+		}
+		InfestedBuff: {
+			Description: "近接攻撃がダメージを与えるキノコを放出"
+			DisplayName: "寄生"
+		}
+		ImpactBuff: {
+			Description: "投射物が10%多くのダメージを与える"
+			DisplayName: "衝撃"
+		}
+		HyperBuff: {
+			Description: "走行速度と加速度が5%上昇"
+			DisplayName: "超越"
+		}
+		HoppingBuff: {
+			Description: "ジャンプ速度が10%上昇し、落下ダメージ耐性が25増加し、ジャンプ高度が増加"
+			DisplayName: "跳躍"
+		}
+		HolyBuff: {
+			Description: "敵を攻撃した後、無敵になる"
+			DisplayName: "神聖"
+		}
+		HellBuff: {
+			Description: "地底世界にいる間、炎上を無効化"
+			DisplayName: "地底"
+		}
+		HallowBuff: {
+			Description: "聖域にいる間、飛行時間が25%増加"
+			DisplayName: "聖域"
+		}
+		ForestBuff: {
+			Description: "汚染されていない地にいる間、移動速度が10%上昇"
+			DisplayName: "森林"
+		}
+		FlightBuff: {
+			Description: "飛行時間が25%増加"
+			DisplayName: "飛行"
+		}
+		FirestarterBuff: {
+			Description: "炎上デバフが近くの敵に広がる"
+			DisplayName: "火起こし"
+		}
+		FastHandsBuff: {
+			Description: "攻撃速度が5%上昇"
+			DisplayName: "先手"
+		}
+		FastfallBuff: {
+			Description: "落下速度が50%上昇"
+			DisplayName: "高速落下"
+		}
+		DesertBuff: {
+			Description: "砂漠にいる間、運が10%増加"
+			DisplayName: "砂漠"
+		}
+		DemoniteProtectionBuff: {
+			Description: "被ダメージを5%減少し、防御力が5増加"
+			DisplayName: "暗影の防護"
+		}
+		CrimtaneAssaultBuff: {
+			Description: "'''\n攻撃者は半分のダメージを受ける\nクリティカル率が5%上昇\n'''"
+			DisplayName: "クリムゾンの襲撃"
+		}
+		CrimsonBuff: {
+			Description: "真紅の地にいる間、ダメージが10%増加"
+			DisplayName: "真紅"
+		}
+		CorruptionBuff: {
+			Description: "不浄の地にいる間、ダメージが10%増加"
+			DisplayName: "不浄"
+		}
+		CavernBuff: {
+			Description: "洞窟にいる間、採掘速度が25%上昇"
+			DisplayName: "洞窟"
+		}
+		BreakerBuff: {
+			Description: "剣が10%大きくなる"
+			DisplayName: "破壊者"
+		}
+		BoostBuff: {
+			Description: "2回タップでダッシュできる"
+			DisplayName: "ブースト"
+		}
+		BeeBuff: {
+			Description: "ミニオンがヒット時に20%の確率でハチを放出"
+			DisplayName: "蜂"
+		}
+		AquaAffinityBuff: {
+			Description: "水中での移動が妨げられない"
+			DisplayName: "水中適応"
+		}
+		VenomPhialBuff: {
+			Description: "攻撃が敵に猛毒を与える"
+			DisplayName: "武器エンチャント：猛毒"
+		}
+		ShadowflamePhialBuff: {
+			Description: "攻撃が敵にシャドウフレイムを与える"
+			DisplayName: "武器エンチャント：シャドウフレイム"
+		}
+		PoisonPhialBuff: {
+			Description: "攻撃が敵に毒を与える"
+			DisplayName: "武器エンチャント：毒"
+		}
+		IchorPhialBuff: {
+			Description: "攻撃が敵に霊液を与える"
+			DisplayName: "武器エンチャント：霊液"
+		}
+		GoldPhialBuff: {
+			Description: "攻撃が敵に強欲を与える"
+			DisplayName: "武器エンチャント：黄金"
+		}
+		FrostburnPhialBuff: {
+			Description: "攻撃が敵に凍傷を与える"
+			DisplayName: "武器エンチャント：凍傷"
+		}
+		FirePhialBuff: {
+			Description: "攻撃が敵に炎を与える"
+			DisplayName: "武器エンチャント：炎"
+		}
+		ExplosivePhialBuff: {
+			Description: "攻撃が敵を爆発させる"
+			DisplayName: "武器エンチャント：爆発"
+		}
+		ElectricityPhialBuff: {
+			Description: "攻撃が敵を感電させる"
+			DisplayName: "武器エンチャント：電気"
+		}
+		DaybreakPhialBuff: {
+			Description: "攻撃が敵にデイブロークンを与える"
+			DisplayName: "武器エンチャント：デイブレイク"
+		}
+		CursedFlamesPhialBuff: {
+			Description: "攻撃が敵に呪炎を与える"
+			DisplayName: "武器エンチャント：呪炎"
+		}
+		ConfusedPhialBuff: {
+			Description: "攻撃が敵に混乱を与える"
+			DisplayName: "武器エンチャント：混乱"
+		}
+		BleedingPhialBuff: {
+			Description: "攻撃が敵に出血を与える"
+			DisplayName: "武器エンチャント：出血"
+		}
+		BetsyPhialBuff: {
+			Description: "攻撃が敵にベッツィの呪いを与える"
+			DisplayName: "武器エンチャント：ベッツィの呪い"
+		}
+		PhoenixCooldownBuff: {
+			Description: "あなたは復活した"
+			DisplayName: "不死鳥の再生"
+		}
+		NPCBleeding: {
+			Description: "ゆっくりとライフが減少"
+			DisplayName: "出血"
+		}
+		NPCElectrified: {
+			Description: "動くと痛い！"
+			DisplayName: "感電"
+		}
+	}
+}

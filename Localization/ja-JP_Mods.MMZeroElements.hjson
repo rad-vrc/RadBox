@@ -1,0 +1,42 @@
+{
+	Items: {
+		WoodIcon: {
+			Tooltip: ""
+			DisplayName: "ウッドアイコン"
+		}
+		ElecIcon: {
+			Tooltip: ""
+			DisplayName: "エレキアイコン"
+		}
+		IceIcon: {
+			Tooltip: ""
+			DisplayName: "アイスアイコン"
+		}
+		AquaIcon: {
+			Tooltip: ""
+			DisplayName: "アクアアイコン"
+		}
+		FireIcon: {
+			Tooltip: ""
+			DisplayName: "ファイアアイコン"
+		}
+		DamageIcon: {
+			Tooltip: ""
+			DisplayName: "ダメージアイコン"
+		}
+	}
+	ConfigDesc: {
+		LegacySystem: "有効にすると、以前の3属性システムを使用する\n木属性は無効化される\n水属性は氷属性に名称変更される\n木属性武器リストの毒テーマ武器は、火属性武器リストに移動される\n属性ごとのデフォルト倍率：\n-火属性NPC：火：0.8倍、氷：0.5倍、雷：2.0倍\n-氷属性NPC：火：2.0倍、氷：0.8倍、雷：0.5倍\n-雷属性NPC：火：0.5倍、氷：2.0倍、雷：0.8倍"
+	}
+	Config: {
+		LegacySystem: "レガシーシステム"
+		ServerLabel: "サーバー設定"
+	}
+	Element: {
+		Wood: "[i:MMZeroElements/WoodIcon] 木属性"
+		Electric: "[i:MMZeroElements/ElecIcon] 雷属性"
+		Ice: "[i:MMZeroElements/IceIcon] 氷属性"
+		Aqua: "[i:MMZeroElements/AquaIcon] 水属性"
+		Fire: "[i:MMZeroElements/FireIcon] 火属性"
+	}
+}

@@ -1,0 +1,37 @@
+Items: {
+	TerraPickaxe: {
+		DisplayName: テラピッケル
+		Tooltip:
+			'''
+			すべての名だたるつるはしから鍛造された究極の道具
+			テラエネルギーで光る
+			つるはしと斧の機能を持つ
+			'''
+	}
+
+	LunarExcavatorEmblem: {
+		DisplayName: 月の採掘者の紋章
+		Tooltip:
+			'''
+			採掘速度が33%上昇する
+			ムーンロードの伝説のつるはしから鍛造された
+			'''
+	}
+}
+
+Mods: {
+	TerraPickaxe: {
+		Items: {
+			LunarExcavatorEmblem: {
+				DisplayName: 月の採掘者の紋章
+				Tooltip: ""
+			}
+
+			TerraPickaxe: {
+				DisplayName: テラピッケル
+				Tooltip: ""
+			}
+		}
+	}
+}
+

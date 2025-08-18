@@ -1,0 +1,2481 @@
+Configs: {
+	TRAERetextureConfig: {
+		Resprites: {
+			Tooltip: "Modによって引き起こされる強制的なリスプライトをオフにする。\nこれは、それらに行われた変更を元に戻すものではない。"
+			Label: "リスプライト"
+		}
+
+		Headers: {
+			TextureSwaps: "テクスチャスワップヘッダー"
+		}
+
+		DisplayName: "TRAEリテクスチャ設定"
+	}
+
+	BossConfig: {
+		CultistChanges: {
+			Tooltip: ""
+			Label: "カルティストの変更"
+		}
+
+		FishronChanges: {
+			Tooltip: ""
+			Label: "フィッシュロンの変更"
+		}
+
+		PlanteraTentacle: {
+			Tooltip: "プランテラの触手のHP減少を1000から300に戻す"
+			Label: "プランテラの触手"
+		}
+
+		PlanteraRework: {
+			Tooltip: "非常にバグが多く、未完成。"
+			Label: "実験的なプランテラリワーク"
+		}
+
+		DestroyerRework: {
+			Tooltip: ""
+			Label: "デストロイヤーリワーク"
+		}
+
+		PrimeRework: {
+			Tooltip: ""
+			Label: "プライムリワーク"
+		}
+
+		TwinsRework: {
+			Tooltip: ""
+			Label: "ツインズリワーク"
+		}
+
+		DeerclopsChanges: {
+			Tooltip: ""
+			Label: "ディアクロップスの変更"
+		}
+
+		SkeletronChanges: {
+			Tooltip: ""
+			Label: "スケルトロンの変更"
+		}
+
+		QBChanges: {
+			Tooltip: ""
+			Label: "QBの変更"
+		}
+
+		EoWChanges: {
+			Tooltip: ""
+			Label: "EoWの変更"
+		}
+
+		BoCChanges: {
+			Tooltip: ""
+			Label: "BoCの変更"
+		}
+
+		EOCChanges: {
+			Tooltip: ""
+			Label: "EoCの変更"
+		}
+
+		Headers: {
+			BossChanges: "ボス変更ヘッダー"
+		}
+
+		DisplayName: "ボス設定"
+	}
+
+	TRAEConfig: {
+		FurtherImprovedMovement: {
+			Tooltip: "プレイヤーの加速と減速を2倍にする。\nTRAEはこの設定を有効にした状態でバランス調整されていない。"
+			Label: "基本加速の改善"
+		}
+
+		Resprites: {
+			Tooltip: "強制的なスプライトの変更を無効にする。\nこれは、アイテムに行われた変更を元に戻すものではない。"
+			Label: "リスプライト"
+		}
+
+		Headers: {
+			GameMechanics: "ゲームメカニクスヘッダー"
+		}
+
+		DefenseRework: {
+			Tooltip: "防御リワークと関連する全てのアイテム変更を無効にする。\n他のModとの互換性を向上させることを目的としているが、TRAEの変更と追加はリワークを念頭に置いて設計されている。"
+			Label: "防御リワーク"
+		}
+
+		TerrasparkLineRework: {
+			Tooltip: "テラスパークブーツ系統のリワークを元に戻すには無効にする。\nTRAEはこの設定を有効にした状態で設計されている。"
+			Label: "テラスパーク系統リワーク"
+		}
+
+		MobilityRework: {
+			Tooltip: "機動力リワークと関連する全てのアイテム変更を無効にする。\nTRAEの変更と追加はリワークを念頭に置いて設計されているため、他のModとの互換性を向上させることを目的としている。"
+			Label: "機動力リワーク"
+		}
+
+		ManaRework: {
+			Tooltip: "マナリワークと関連する全てのアイテム変更を無効にする。\nTRAEの変更と追加はリワークを念頭に置いて設計されているため、他のModとの互換性を向上させることを目的としている。"
+			Label: "マナリワーク"
+		}
+
+		DisplayName: "一般設定"
+	}
+}
+
+Tiles: {
+	SalalavaBannerPlaced: {
+		MapEntry: "サララヴァのバナー"
+	}
+
+	PhoenixBannerPlaced: {
+		MapEntry: "フェニックスのバナー"
+	}
+
+	OniRoninBannerPlaced: {
+		MapEntry: "鬼浪人のバナー"
+	}
+
+	ObsidianBasiliskBannerPlaced: {
+		MapEntry: "黒曜石のバジリスクのバナー"
+	}
+
+	MagmanderBannerPlaced: {
+		MapEntry: "マグマンダーのバナー"
+	}
+
+	LavamanderBannerPlaced: {
+		MapEntry: "ラヴァマンダーのバナー"
+	}
+
+	GraniteOvergrowthBannerPlaced: {
+		MapEntry: "グラナイトオーバーグロウスのバナー"
+	}
+
+	FroggabombaBannerPlaced: {
+		MapEntry: "フロッガボンバのバナー"
+	}
+
+	BoomxieBannerPlaced: {
+		MapEntry: "ブームクシーのバナー"
+	}
+
+	BomberBonesBannerPlaced: {
+		MapEntry: "ボンバーボーンズのバナー"
+
+	}
+}
+
+NPCs: {
+	Kinnara: {
+		DisplayName: "キンナラ"
+	}
+
+	GriffinWalker: {
+		DisplayName: "グリフィンウォーカー"
+	}
+
+	GriffinFlier: {
+		DisplayName: "グリフィンフライヤー"
+	}
+
+	Gargoyle: {
+		DisplayName: "ガーゴイル"
+	}
+
+	EchoStalker: {
+		DisplayName: "エコストーカー"
+	}
+
+	EchoSprite: {
+		DisplayName: "エコスプライト"
+	}
+
+	EchoLocator: {
+		DisplayName: "エコロケーター"
+	}
+
+	EchoLeviathanTail: {
+		DisplayName: "エコ・リヴァイアサンの尾"
+	}
+
+	EchoLeviathanHead: {
+		DisplayName: "エコ・リヴァイアサンの頭"
+	}
+
+	EchoLeviathanBody3: {
+		DisplayName: "エコ・リヴァイアサンの体3"
+	}
+
+	EchoLeviathanBody2: {
+		DisplayName: "エコ・リヴァイアサンの体2"
+	}
+
+	EchoLeviathanBody1: {
+		DisplayName: "エコ・リヴァイアサンの体1"
+	}
+
+	PrimeLauncher: {
+		DisplayName: "プライムランチャー"
+	}
+
+	PrimeMace: {
+		DisplayName: "プライムメイス"
+	}
+
+	PrimeRail: {
+		DisplayName: "プライムレール"
+	}
+
+	GraniteOvergrowthNPC: {
+		DisplayName: "グラナイトオーバーグロウス"
+	}
+
+	BomberBonesNPC: {
+		DisplayName: "ボンバーボーンズ"
+	}
+
+	SalalavaNPC: {
+		DisplayName: "サララヴァ"
+	}
+
+	Lavalarva: {
+		DisplayName: "マグマンダー"
+	}
+
+	LavaBubble: {
+		DisplayName: "溶岩の泡"
+	}
+
+	PhoenixNPC: {
+		DisplayName: "不死のフェニックス"
+	}
+
+	PhoenixAsh: {
+		DisplayName: "フェニックスの灰"
+	}
+
+	OniRoninNPC: {
+		DisplayName: "鬼浪人"
+	}
+
+	ObsidianBasiliskTail: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	ObsidianBasiliskHead: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	ObsidianBasiliskBody: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	LavamanderNPC: {
+		DisplayName: "ラヴァマンダー"
+	}
+
+	FroggabombaClone: {
+		DisplayName: "フロッガボンバのコピー"
+	}
+
+	Froggabomba: {
+		DisplayName: "フロッガボンバ"
+	}
+
+	LittleBoomxie: {
+		DisplayName: "ブームダスト"
+	}
+
+	Boomxie: {
+		DisplayName: "ブームピクシー"
+	}
+
+	BeholderNPC: {
+		DisplayName: "ビホルダー"
+	}
+
+	GraniteOvergrowth: {
+		DisplayName: "グラナイトオーバーグロウス"
+	}
+
+	GraniteCore: {
+		DisplayName: "グラナイトコア"
+	}
+
+	BomberBones: {
+		DisplayName: "ボンバーボーンズ"
+	}
+}
+
+Items: {
+	CloudChasers: {
+		Tooltip: "移動速度が20%上昇\n3段ジャンプが可能\n砂の上での移動速度が20%上昇\nロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化"
+		DisplayName: "クラウドチェイサー"
+	}
+
+	FroststrideBoots: {
+		DisplayName: "フロストストライドブーツ"
+		Tooltip: "移動速度が20%上昇\n地面でダブルタップすることでスケートが可能\n2段ジャンプが可能\n2段ジャンプを使用して強力な空中ダッシュが可能"
+	}
+
+	HeartcrossNecklace: {
+		DisplayName: "神聖なネックレス"
+		Tooltip: "ダメージを受けたときに移動速度が上昇する\nダメージを受けた後の無敵時間が増加する"
+	}
+
+	HeartOfGold: {
+		DisplayName: "ハートオブゴールド"
+		Tooltip: "ダメージを受けたときにハチを放ち、ハチミツを浴びて移動速度が上昇する\n蜂の巣を重ねて効率とライフ自然回復を増進させる\nダメージを受けた後の無敵時間が増加する"
+	}
+
+	FlashRay: {
+		DisplayName: "フラッシュレイ"
+		Tooltip: "敵をスタンさせる光線を放つ"
+	}
+
+	MagicGrenade: {
+		Tooltip: "短時間放置すると、確定クリティカルとより大きな爆発を起こす"
+		DisplayName: "マジックグレネード"
+	}
+
+	ConfuseRay: {
+		Tooltip: "敵を混乱させる光線を放つ"
+		DisplayName: "コンフューズレイ"
+
+	}
+
+	ManaSurgePotion: {
+		DisplayName: "マナ急増ポーション"
+		Tooltip: "4秒間、マナ消費を100%削減する"
+	}
+
+	StarfuryTempleTestItem: {
+		DisplayName: "スターフューリーテンプルテストアイテム"
+		Tooltip: ""
+	}
+
+	MagicBundle: {
+		Tooltip: "3段ジャンプが可能になり、最初のジャンプで短時間の無敵を得る\nジャンプ速度と落下耐性が大幅に増加する\n自動ジャンプと重力軽減が可能"
+		DisplayName: "魔法の風船の束"
+	}
+
+	AlligatorBalloonItem: {
+		Tooltip: "2段ジャンプが可能\nジャンプ速度と落下耐性が大幅に増加する\n自動ジャンプが可能"
+		DisplayName: "クロコダイルの風船"
+	}
+
+	SalalavaBanner: {
+		Tooltip: "近くのプレイヤーはサララヴァに対してボーナスを得る"
+		DisplayName: "サララヴァのバナー"
+	}
+
+	PhoenixBanner: {
+		Tooltip: "近くのプレイヤーは不死のフェニックスに対してボーナスを得る"
+		DisplayName: "不死のフェニックスのバナー"
+	}
+
+	OniRoninBanner: {
+		Tooltip: "近くのプレイヤーは鬼浪人に対してボーナスを得る"
+		DisplayName: "鬼浪人のバナー"
+	}
+
+	ObsidianBasiliskBanner: {
+		Tooltip: "近くのプレイヤーは黒曜石のバジリスクに対してボーナスを得る"
+		DisplayName: "黒曜石のバジリスクのバナー"
+	}
+
+	MagmanderBanner: {
+		Tooltip: "近くのプレイヤーはマグマンダーに対してボーナスを得る"
+		DisplayName: "マグマンダーのバナー"
+	}
+
+	LavamanderBanner: {
+		Tooltip: "近くのプレイヤーはラヴァマンダーに対してボーナスを得る"
+		DisplayName: "ラヴァマンダーのバナー"
+	}
+
+	GraniteOvergrowthBanner: {
+		Tooltip: "近くのプレイヤーはグラナイトオーバーグロウスに対してボーナスを得る"
+		DisplayName: "グラナイトオーバーグロウスのバナー"
+	}
+
+	FroggabombaBanner: {
+		Tooltip: "近くのプレイヤーはフロッガボンバに対してボーナスを得る"
+		DisplayName: "フロッガボンバのバナー"
+	}
+
+	BoomxieBanner: {
+		Tooltip: "近くのプレイヤーはブームピクシーに対してボーナスを得る"
+		DisplayName: "ブームピクシーのバナー"
+	}
+
+	BomberBonesBanner: {
+		Tooltip: "近くのプレイヤーはボンバーボーンズに対してボーナスを得る"
+		DisplayName: "ボンバーボーンズのバナー"
+	}
+
+	WillOfTheWisp: {
+		Tooltip: "スマートに跳ねる火の玉を撃つ"
+		DisplayName: "ウィル・O・ウィスプ"
+	}
+
+	SuperRose: {
+		Tooltip: "マナをチャージして定期的に追尾する花びらを召喚する"
+		DisplayName: "呪われた花"
+	}
+
+	TailWhip: {
+		Tooltip: "ミニオンが攻撃された敵を狙う\n11の召喚タグダメージ\nヒット時に防御力を16ポイント減少させる"
+		DisplayName: "テイルウィップ"
+	}
+
+	Starflow: {
+		Tooltip: "ミニオンが攻撃された敵を狙う\n22の召喚タグダメージ\n攻撃中にスターフローインベーダーを召喚する"
+		DisplayName: "スターダストトレイル"
+	}
+
+	SpikedWhip: {
+		Tooltip: "ミニオンが攻撃された敵を狙う\n5の召喚タグダメージ\n召喚タグのクリティカル率が8%上昇\nほとんどの鞭より複数のターゲットに対して優れた性能を発揮する"
+		DisplayName: "スパイクウィップ"
+	}
+
+	YoungQueenBeeStaff: {
+		Tooltip: "敵にハチを撃つハチのセントリーを召喚する"
+		DisplayName: "若い女王蜂の杖"
+	}
+
+	GraniteShockerStaff: {
+		Tooltip: "連鎖する稲妻を放つショッカーセントリーを召喚する"
+		DisplayName: "グラナイトショッカースタッフ"
+	}
+
+	BoomfrogStaff: {
+		Tooltip: "カミカゼフロッグをスポーンさせる親のブームフロッグセントリーを召喚する"
+		DisplayName: "ブームフロッグスタッフ"
+	}
+
+	AbsoluteZero: {
+		Tooltip: "ミニオンが攻撃された敵を狙う\n12の召喚タグダメージ\nミニオンによって攻撃された敵から凍てつくエネルギーがほとばしり、3倍のダメージを与える"
+		DisplayName: "アブソリュート・ゼロ"
+	}
+
+	SharpLament: {
+		Tooltip: "燃える木を撃つ"
+		DisplayName: "シャープティアーズ"
+	}
+
+	OnyxCurseDoll: {
+		Tooltip: "3つの火の玉を召喚して周りを旋回させる\n近くの敵を呪い、継続ダメージを与え、攻撃力か防御力を低下させる\n右クリックで解除"
+		DisplayName: "オニキスカーズドール"
+	}
+
+	NebulaMaelstrom: {
+		Tooltip: "敵に粒子の嵐を解き放つ\n右クリックで解除"
+		DisplayName: "ネビュラメイルシュトローム"
+	}
+
+	TitaniumBazooka: {
+		Tooltip: "一度に2～3発のロケットを発射する"
+		DisplayName: "チタニウムバズーカ"
+	}
+
+	AdamantiteLauncher: {
+		Tooltip: "ロケットを発射する"
+		DisplayName: "アダマンタイトランチャー"
+	}
+
+	SkullCannon: {
+		Tooltip: "ロケットを発射する"
+		DisplayName: "スカルキャノン"
+	}
+
+	H410WFLASH: {
+		Tooltip: "「Fairy Launching Assault Shoulder weapon」\nカーソルを追従する爆発性のピクシーロケットを発射する"
+		DisplayName: "HA-110W FLASH"
+	}
+
+	CryoCannon: {
+		Tooltip: "凍結ロケットを発射する"
+		DisplayName: "クライオキャノン"
+	}
+
+	Jungla: {
+		Tooltip: "一度に3本のダーツを発射する"
+		DisplayName: "ジャングラ"
+	}
+
+	HeadHarvester: {
+		Tooltip: ""
+		DisplayName: "ヘッドハーベスター"
+	}
+
+	GraniteBook: {
+		Tooltip: "周囲に電気のリングを召喚する"
+		DisplayName: "エレクトロシールド"
+	}
+
+	DoubleHaxor: {
+
+		Tooltip: "追尾する斧と強力なハンマー"
+		DisplayName: "ダブルハクサー"
+	}
+
+	BAM: {
+		Tooltip: "「Bombardment Assault Multitool」\nジェル、ロケット、ダーツを発射する"
+		DisplayName: "B.A.M."
+	}
+
+	SolarArrow: {
+		Tooltip: "5%の確率で大幅に増加したダメージを与える"
+		DisplayName: "太陽の矢"
+	}
+
+	ShroomiteBullet: {
+		Tooltip: "クリティカルヒットは25%多くのダメージを与える"
+		DisplayName: "シュル―マイトの弾"
+	}
+
+	LuminiteRocket: {
+		Tooltip: "巨大な爆発\n複数回爆発する"
+		DisplayName: "ロケット弾（ルミナイト）"
+	}
+
+	GhostDart: {
+		Tooltip: "タイルや敵を貫通する\nターゲットに近づくと6つに分裂する"
+		DisplayName: "スペクターダーツ"
+	}
+
+	GhostBullet: {
+		Tooltip: "タイルや敵を貫通する\n敵の内部に最大9発のゴーストバレットを残し、倒されるとそれらを解放する"
+		DisplayName: "スペクター弾"
+	}
+
+	ChargedBullet: {
+		Tooltip: "ヒットした敵の間を飛び跳ねる"
+		DisplayName: "帯電の弾"
+	}
+
+	ChargedArrow: {
+		Tooltip: "ヒットした敵の周りにダメージを与えるリングを生成する\n最大5回までスタックし、範囲が広がる"
+		DisplayName: "帯電の矢"
+	}
+
+	BoneBullet: {
+
+		Tooltip: "確率で骨に分裂する"
+		DisplayName: "骨の弾"
+	}
+
+	BloodyArrow: {
+		Tooltip: "軌跡に血の滴を残す"
+		DisplayName: "血の矢"
+	}
+
+	BeetleDart: {
+		Tooltip: "33%の確率で敵をスタンさせ、3倍のダメージを与える"
+		DisplayName: "甲虫のダーツ"
+	}
+
+	BeetleArrow: {
+		Tooltip: "25%の確率でスタンさせ、ダメージを与える衝撃波を生成する"
+		DisplayName: "甲虫の矢"
+	}
+
+	TeleportationVial: {
+		Tooltip: "マウスの位置にテレポートする"
+		DisplayName: "テレポートの小瓶"
+	}
+
+	SweetElixir: {
+		Tooltip: "45秒間ハチミツの効果を付与する"
+		DisplayName: "スイートエリクサー"
+	}
+
+	PowerBrew: {
+		Tooltip: "飲んだ後、20秒間ダメージを30%増加させる"
+		DisplayName: "パワービール"
+	}
+
+	SpeedWish: {
+		Tooltip: "移動速度を恒久的に15%上昇させる\n「どんな願いも1つだけ叶えてやろう…それが移動速度15%アップである限りはな」"
+		DisplayName: "スピードの願い"
+	}
+
+	HeatproofSaddle: {
+		Tooltip: "騎乗可能なラヴァウォーカーマウントを召喚する"
+		DisplayName: "耐熱サドル"
+	}
+
+	SalamanderTail: {
+		Tooltip: "まだ動いている…"
+		DisplayName: "サラマンダーの尾"
+	}
+
+	ObsidianScale: {
+		Tooltip: "非常に硬くて割れにくい"
+		DisplayName: "黒曜石の鱗"
+	}
+
+	MagicalAsh: {
+		Tooltip: "これらからフェニックスが生まれないことを願おう"
+		DisplayName: "魔法の灰"
+	}
+
+	LuminiteFeather: {
+		Tooltip: "究極の翼を作るために使用する"
+		DisplayName: "ルミナイトの羽"
+	}
+
+	IceQueenJewel: {
+		Tooltip: "氷の女王の力を保持している"
+		DisplayName: "氷河のダイヤモンド"
+	}
+
+	GraniteBattery: {
+		Tooltip: "見た目以上の力を保持している"
+		DisplayName: "グラナイトバッテリー"
+	}
+
+	DriedRose: {
+		Tooltip: "少し魔力が残っている"
+		DisplayName: "乾燥した花"
+	}
+
+	SolarGel: {
+		Tooltip: "集中したフレアを発射する"
+		DisplayName: "焼却のジェル"
+	}
+
+	LavaGel: {
+		Tooltip: "本物の火が何かを知るために火をつけろ！"
+		DisplayName: "溶岩のジェル"
+	}
+
+	IchorGel: {
+		Tooltip: "非常に揮発性が高い"
+		DisplayName: "霊液のジェル"
+	}
+
+	FrozenGel: {
+		Tooltip: "最も冷たい炎を作り出す"
+		DisplayName: "氷河のジェル"
+	}
+
+	CursedGel: {
+		Tooltip: "炎がターゲットを追い求める"
+		DisplayName: "呪炎のジェル"
+	}
+
+	CrystalGel: {
+		Tooltip: "3つの炎に分裂し、敵の防御を25無視する"
+		DisplayName: "クリスタルジェル"
+	}
+
+	BloodyGel: {
+		Tooltip: "内側から敵を破壊する"
+		DisplayName: "血のジェル"
+	}
+
+	BlessedGel: {
+		Tooltip: "ターゲットに跳ねる熱湯"
+		DisplayName: "水のジェル"
+	}
+
+	ShellSpinner: {
+		Tooltip: "スピンして勝て！"
+		DisplayName: "シェルスピナー"
+	}
+
+	RedPearl: {
+		Tooltip: "敵の出現率と運を増加させる"
+		DisplayName: "真珠（赤）"
+	}
+
+	DreadTrophy: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラスのトロフィー"
+	}
+
+	DreadSummon: {
+		Tooltip: "強力なブラッドムーンのモンスターを捕まえるために使用する"
+		DisplayName: "血海のワスプ"
+	}
+
+	DreadnautilusRelic: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラスのレリック"
+	}
+
+	DreadMask: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラスのマスク"
+	}
+
+	Brimstone: {
+		Tooltip: "ブラッドレーザーの弾幕"
+		DisplayName: "ブリムストーン"
+	}
+
+	BottomlessChumBucket: {
+		Tooltip: "水に最大3回投げてフィッシング・パワーを増加させる\nこれが失敗するはずがない！"
+		DisplayName: "底なしの撒き餌バケツ"
+	}
+
+	DreadBag: {
+		Tooltip: "<right>で開く"
+		DisplayName: "トレジャーバッグ（ドレッドノーチラス）"
+	}
+
+	BloodWings: {
+		Tooltip: "飛行と落下速度低下が可能\nダメージを受けると飛行がブーストされる"
+		DisplayName: "血のヒレの翼"
+	}
+
+	BloodSquidEgg: {
+		Tooltip: "ベビーブラッドスクイッドを召喚する"
+		DisplayName: "ブラッドスクイッドの卵"
+	}
+
+	BloodBoiler: {
+		Tooltip: "「血の沸騰」に新たな意味を与える"
+		DisplayName: "ブラッドボイラー"
+	}
+
+	WandOfDisintegration: {
+		Tooltip: "進路上のすべてを崩壊させる\n自己責任で使用すること"
+		DisplayName: "崩壊の杖"
+	}
+
+	ScrollOfWipeout: {
+		Tooltip: "近くの全ての敵に大ダメージを与える"
+		DisplayName: "消却の巻物"
+	}
+
+	RingOfTenacity: {
+		Tooltip: "最大ライフが22%増加\n合計ダメージが6%減少"
+		DisplayName: "不屈の指輪"
+	}
+
+	RingOfMight: {
+		Tooltip: "最大ライフが11%増加\n合計ダメージが6%増加"
+		DisplayName: "力の指輪"
+	}
+
+	RingOfFuror: {
+		Tooltip: "合計ダメージが12%増加\n最大ライフが11%減少"
+		DisplayName: "激怒の指輪"
+	}
+
+	MasterEmblem: {
+		Tooltip: "近接攻撃速度が12%上昇\n遠距離クリティカルヒットダメージが12%増加\nマナ回復速度が12%上昇\n最大ミニオン数が1増加"
+		DisplayName: "達人の紋章"
+	}
+
+	GreaterRestorationPotion: {
+		Tooltip: ""
+		DisplayName: "グレートリストレーションポーション"
+	}
+
+	EvilLookingEye: {
+
+		Tooltip: "ベビービホルダーを召喚する"
+		DisplayName: "邪悪な見た目の卵"
+	}
+
+	BeholderTrophyItem: {
+		Tooltip: ""
+		DisplayName: "ビホルダーのトロフィー"
+	}
+
+	BeholderRelicItem: {
+
+		Tooltip: ""
+		DisplayName: "ビホルダーのレリック"
+	}
+
+	BeholderMask: {
+		Tooltip: ""
+		DisplayName: "ビホルダーのマスク"
+	}
+
+	BeholderBag: {
+		Tooltip: "<right>で開く"
+		DisplayName: "トレジャーバッグ（ビホルダー）"
+	}
+
+	UnderworldWarriorHelmet: {
+		Tooltip: "ダメージが15%増加\nマナ消費が25%減少"
+		DisplayName: "冥界の戦士の兜"
+	}
+
+	UnderworldWarriorGreaves: {
+		Tooltip: "クリティカル率が15%上昇\n近接攻撃速度が25%上昇"
+		DisplayName: "冥界の戦士のすね当て"
+	}
+
+	UnderworldWarriorChestplate: {
+		Tooltip: "ダメージが15%増加\n遠距離攻撃の速度が25%上昇"
+		DisplayName: "冥界の戦士の胸当て"
+	}
+
+	AshRoninRobes: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "灰の浪人のローブ"
+	}
+
+	AshRoninPants: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n移動速度が11%上昇"
+		DisplayName: "灰の浪人のパンツ"
+	}
+
+	AshRoninHat: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n魔法クリティカル率が7%上昇\n最大マナが80増加"
+		DisplayName: "灰の浪人の仮面"
+	}
+
+	ReptilianMask: {
+		Tooltip: "近接と召喚ダメージが11%増加\n近接クリティカル率が7%上昇\n鞭の攻撃範囲が15%増加"
+		DisplayName: "レプティリアンの仮面"
+	}
+
+	ReptilianGreaves: {
+		Tooltip: "近接と召喚ダメージが11%増加\n移動速度が11%上昇"
+		DisplayName: "レプティリアンのすね当て"
+	}
+
+	ReptilianBulwark: {
+		Tooltip: "近接と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "レプティリアンの胸当て"
+	}
+
+	PhoenixTunic: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "不死鳥のチュニック"
+	}
+
+	PhoenixLeggings: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n移動速度が11%上昇"
+		DisplayName: "不死鳥のすね当て"
+	}
+
+	PhoenixHeadgear: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n遠距離クリティカルヒットチャンスが7%増加\nジャンプ速度が10%上昇"
+		DisplayName: "不死鳥の額当て"
+	}
+
+	LeatherTunic: {
+		Tooltip: "鞭の攻撃速度が10%上昇"
+		DisplayName: "革のチュニック"
+	}
+
+	LeatherPants: {
+		Tooltip: "召喚ダメージが3%増加"
+		DisplayName: "革のパンツ"
+	}
+
+	LeatherHat: {
+		Tooltip: "召喚ダメージが3%増加"
+		DisplayName: "革のフード"
+	}
+
+	JoterTrident: {
+		Tooltip: "ジョーターイート"
+		DisplayName: "道化師のトライデント"
+	}
+
+	JoterMask: {
+		Tooltip: "開発者を装う忌まわしき者どもを装うのに最適！"
+		DisplayName: "道化師の仮面"
+	}
+
+	FinalBoss: {
+		Tooltip: "！るすなにすらでをるすなうそみわまあおるすなうそみわまあお"
+		DisplayName: "ファイナルボス"
+	}
+
+	IceMajestyLeggings: {
+		Tooltip: "召喚ダメージと鞭の攻撃速度が10%上昇\n移動速度が20%上昇"
+		DisplayName: "鞭のすね当て"
+	}
+
+	IceMajestyCrown: {
+		Tooltip: "最大ミニオン数が1増加\n鞭の攻撃速度が20%上昇"
+		DisplayName: "氷河の王冠"
+	}
+
+	IceMajestyBreastplate: {
+		Tooltip: "召喚ダメージが15%増加\n鞭の攻撃範囲が30%増加"
+		DisplayName: "氷河の胸当て"
+	}
+
+	ChlorophyteHood: {
+		Tooltip: "最大ミニオン数が2増加"
+		DisplayName: "クロロファイトのフード"
+	}
+
+	BundleOfWeirdBalloons: {
+		Tooltip: "3段ジャンプが可能\nジャンプの高さが増加\nダメージを受けるとハチを放ち、ハチミツを浴びる\nハニカムを重ねて効率とライフ回復を増進させる"
+		DisplayName: "奇妙な風船の束"
+	}
+
+	TwoFlowers: {
+		Tooltip: "魔法クリティカルヒットのダメージが10%増加\nマナ消費が12%減少"
+		DisplayName: "ミスティックブーケ"
+	}
+
+	TheBlackCross: {
+		Tooltip: "ダメージを受けた後の無敵時間が増加する\n攻撃を回避するチャンスを得る"
+		DisplayName: "ブラッククロス"
+	}
+
+	SpaceBalloonItem: {
+		Tooltip: "ジャンプの高さが増加\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "宇宙の風船"
+	}
+
+	SoaringCarpet: {
+		Tooltip: "舞い上がる絨毯を付与し、上キーを押し続けることで使用\n絨毯でホバリングすると移動速度が30%上昇\n加速度が上昇\n落下ダメージを無効化"
+		DisplayName: "舞い上がる絨毯"
+	}
+
+	SkeletonBeetle: {
+		Tooltip: "最大ミニオン数とセントリー数が1増加\nミニオンの攻撃のノックバックが増加"
+		DisplayName: "トライバルビートル"
+	}
+
+	ShamanNecklace: {
+		Tooltip: "最大ミニオン数が1増加\n召喚ダメージが12%増加"
+		DisplayName: "シャーマンのネックレス"
+	}
+
+	ShadowflameCharmItem: {
+		Tooltip: "ミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\n鞭攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "影のお守り"
+	}
+
+	ShadowClaws: {
+		Tooltip: "近接攻撃速度が12%上昇し、全ての近接武器と鞭が自動スイングになる\nミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\n鞭攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "影の爪"
+	}
+
+	SandstormBoots: {
+		Tooltip: "移動速度が20%上昇\n改良された2段ジャンプが可能\n砂の上での移動速度が20%上昇"
+		DisplayName: "サンドストームブーツ"
+	}
+
+	RuneCobra: {
+		Tooltip: "ミニオンのクリティカル率が13%上昇\n近接攻撃速度が12%上昇し、全ての近接武器と鞭が自動スイングになる\nミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\n鞭攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "ルーンコブラ"
+	}
+
+	PutridToothNecklace: {
+		Tooltip: "防御無視値が5増加\nダメージとクリティカル率が4%上昇\n敵に狙われにくくなる"
+		DisplayName: "ボーンバイターのネックレス"
+	}
+
+	PalladiumShield: {
+		Tooltip: "最大ライフが50増加"
+		DisplayName: "パラジウムの盾"
+	}
+
+	Moonwalkers: {
+		Tooltip: "ジャンプの高さを増加させ、落下ダメージを防ぎ、長時間の飛行を可能にする\n下キーを押して速く落下する\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "ムーンウォーカー"
+	}
+
+	MirrorShield: {
+		Tooltip: "最大ライフが50増加\n発射物はダメージ10ごとに1%少ないダメージを与える\n最大25%のダメージ軽減\n軽減されたダメージは敵に反射される"
+		DisplayName: "鏡の盾"
+	}
+
+	MechanicalEyeItem: {
+		Tooltip: "ロケットの直撃は1.1倍のダメージを与え、敵を1秒間スタンさせる"
+		DisplayName: "サイバーアイ"
+	}
+
+	EyeOfTheDestroyer: {
+		Tooltip: "遠距離クリティカルヒットチャンスが10%増加\nロケットの直撃は1.1倍のダメージを与え、敵を1秒間スタンさせる"
+		DisplayName: "デストロイヤーの目"
+	}
+
+	AlphaScope: {
+		Tooltip: "遠距離攻撃の速度を上昇させ、銃の拡散を狭める\nロケット、弾丸、矢がスマートに跳ね返り、直撃で1.05倍のダメージを与える\n「覚悟しろ」"
+		DisplayName: "アルファスコープ"
+	}
+
+	MasochistChains: {
+		Tooltip: "ダメージを受けると一時的にダメージが20%増加し、移動速度が上昇する"
+		DisplayName: "マゾヒストチェーン"
+	}
+
+	MagicalCarpet: {
+		Tooltip: "飛行と落下速度低下が可能\n下キーを押し続けてホバリングすると移動速度が25%上昇\n「君に世界を見せてあげよう…」"
+		DisplayName: "魔法の絨毯"
+	}
+
+	LifeCuffs: {
+		Tooltip: "ダメージを受けるとダメージが20%増加する"
+		DisplayName: "体力のカフス"
+	}
+
+	GravityTabi: {
+		Tooltip: "重力制御、高速落下、ダッシュが可能\n落下ダメージを防ぐ"
+		DisplayName: "重力の足袋"
+	}
+
+	LevitationJuice: {
+		Tooltip: "長時間持続する2段ジャンプを提供する"
+		DisplayName: "レビテーションジュース"
+	}
+
+	LevitatingSoles: {
+		Tooltip: "長時間持続する2段ジャンプを提供する\n移動速度が20%上昇\nジャンプ速度が24%上昇"
+		DisplayName: "レビテーティングソール"
+	}
+
+	JetBoots: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化\nロケットブーツ飛行を提供する\n全方向ブースターを提供する"
+		DisplayName: "ジェットブーツ"
+	}
+
+	FlightForecast: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化\n2段ジャンプを提供する"
+		DisplayName: "航空気象予報"
+	}
+
+	FantasyPack: {
+		Tooltip: "全方向ブースター、レビテーションジャンプ、妖精のジャンプを提供する"
+		DisplayName: "ファンタジーパック"
+	}
+
+	FaeInABottle: {
+		Tooltip: "無敵時間を付与する弱い2段ジャンプ"
+		DisplayName: "瓶詰めの妖精"
+	}
+
+	FaeInABalloon: {
+		Tooltip: "無敵時間を付与する弱い2段ジャンプ\nジャンプの高さを増加\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "妖精の風船"
+	}
+
+	Booster: {
+		Tooltip: "全方向ジェットパックを提供する\n「サンタが煙突をこんなに速く下りられるのはこのおかげさ」"
+		DisplayName: "クリスマスブースター"
+	}
+
+	AdvFlightSystem: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化"
+		DisplayName: "先進飛行システム"
+	}
+
+	AdvFlightBoots: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n拡張されたロケットブーツでの飛行を提供する\n落下ダメージを無効化"
+		DisplayName: "アドバンスフライトブーツ"
+	}
+
+	EvilEye: {
+		Tooltip: "ダメージを受けると術者と近くの敵に呪いを解き放つ\n発射物はダメージ10ごとに1%少ないダメージを与える\n最大25%のダメージ軽減\n軽減されたダメージは全ての呪いを付与する呪われた弾として敵に反射される"
+		DisplayName: "邪眼"
+	}
+
+	DemonShield: {
+		Tooltip: "ライフが25%以上のとき、チームのプレイヤーが受けたダメージの25%を吸収する\nノックバックを無効にする\n近くの敵へのダメージが8%増加"
+		DisplayName: "デーモンの盾"
+	}
+
+	CounterweightString: {
+		Tooltip: "ヨーヨーの範囲を増加\nヨーヨーで敵にヒットした後、カウンターウェイトを投げる"
+		DisplayName: "糸とカウンターウェイト"
+	}
+
+	ChainShield: {
+		Tooltip: "最大ライフが50増加\nダメージを受けると一時的に防御力が増加"
+		DisplayName: "チェーンシールド"
+	}
+
+	BlizzardSkates: {
+		Tooltip: "地面でダブルタップすることでスケートが可能\n2段ジャンプが可能\n2段ジャンプを使用して強力な空中ダッシュが可能"
+		DisplayName: "吹雪のスケート靴"
+	}
+
+	BigBundle: {
+		Tooltip: "6段ジャンプが可能！\nジャンプの高さを増加させ、落下ダメージを防ぐ\n上キーを押し続けることで重力を軽減できる\nダメージを受けるとハチを放ち、ハチミツで覆われる\n蜂の巣を重ねて効率とライフ回復を増進させる"
+		DisplayName: "巨大な風船の束"
+	}
+
+	BalanceCuffs: {
+		Tooltip: "ダメージを受けるとダメージが20%増加\n最大マナが20増加\nダメージを受けるとマナを回復し、受けたダメージの10%を回復する"
+		DisplayName: "バランスのカフス"
+	}
+
+	AngelicStone: {
+		Tooltip: "マナ回復速度が10%上昇\n必要なときに自動的にマナポーションを使用する\nマナ酔いのクールダウンを50%減少させる"
+		DisplayName: "天使の石"
+	}
+
+	AlligatorBalloon: {
+		Tooltip: "2段ジャンプが可能\nジャンプ速度と落下耐性が大幅に増加する\n自動ジャンプが可能"
+		DisplayName: "クロコダイルの風船"
+	}
+}
+
+Buffs: {
+	TheFlysSpeed: {
+		Description: "Mods.TRAEProject.Buffs.TheFlysSpeed.Description"
+		DisplayName: "フライのスピード"
+	}
+
+	TheFlysLevitation: {
+		Description: "Mods.TRAEProject.Buffs.TheFlysLevitation.Description"
+		DisplayName: "フライのレビテーション"
+	}
+
+	TheFlysEndurance: {
+		Description: "Mods.TRAEProject.Buffs.TheFlysEndurance.Description"
+		DisplayName: "フライのエンデュランス"
+	}
+
+	WishForSpeedBuff: {
+		Description: "どんな願いも1つだけ叶う…その願いが移動速度15%上昇である限り"
+		DisplayName: "スピードの願い"
+	}
+
+	AZSecondTag: {
+		Description: "Mods.TRAEProject.Buffs.AZSecondTag.Description"
+		DisplayName: "AZセカンドタグ"
+	}
+
+	Surge: {
+		DisplayName: "サージ"
+		Description: "Mods.TRAEProject.Buffs.Surge.Description"
+	}
+
+	TailWhipTag: {
+		Description: "このクリティカルタグはポケモンの通常のクリティカル率と同じにしたかったが、6.25%は低すぎた"
+		DisplayName: "テイルウィップタグ"
+	}
+
+	StarflowTag: {
+		Description: "22タグダメージ"
+		DisplayName: "スターフロータグ"
+	}
+
+	SpikedTag: {
+		Description: "「スパイクウィップ」よりクールな名前があったと思うか？\n時にはシンプルな方が良いのかもしれない"
+		DisplayName: "スパイクタグ"
+	}
+
+	AbsoluteZeroTag: {
+		Description: "クリティカルヒットを受けると凍結する。\nただし、あなたは敵ではなくプレイヤーなので、そうはならないが"
+		DisplayName: "アブソリュートゼロタグ"
+	}
+
+	Power: {
+		Description: "ダメージが30%増加"
+		DisplayName: "パワー"
+	}
+
+	LavamanderBuff: {
+		Description: "もう足が冷えることはない"
+		DisplayName: "ラヴァマンダー"
+	}
+
+	BloodRush: {
+		Description: "飛んでいけ！"
+		DisplayName: "ブラッドラッシュ"
+	}
+
+	BloodSquidBuff: {
+		Description: "滴り、跳ねる！"
+		DisplayName: "ベビーブラッドスクイッド"
+	}
+
+	Wipeout: {
+		Description: "巻物は再充電が必要"
+		DisplayName: "ワイプアウト"
+	}
+
+	Restoring2: {
+		Description: "ライフを回復中"
+		DisplayName: "回復中"
+	}
+
+	Restoring1: {
+		Description: "ライフを回復中"
+		DisplayName: "回復中"
+	}
+
+	EvilLookingEyeBuff: {
+		Description: "まだレーザーは撃てない。と思う。"
+		DisplayName: "ベビービホルダー"
+	}
+
+	BurntOut: {
+		Description: "再充電が必要"
+		DisplayName: "バーンアウト"
+	}
+
+	ReptilianMight: {
+		Description: "近接攻撃速度が30%上昇"
+		DisplayName: "レプティリアンマイト"
+	}
+
+	PhoenixRush: {
+		Description: "移動速度とジャンプ速度が15%上昇"
+		DisplayName: "アッシュラッシュ"
+	}
+
+	MadFlockos: {
+		Description: "マッドフロッコスがあなたのために戦う"
+		DisplayName: "フロッコフロック"
+	}
+
+	HeartAttack: {
+		Description: "ダメージが乗算で20%増加"
+		DisplayName: "ハートアタック！"
+	}
+
+	WaterAffinity: {
+		Description: "移動速度が上昇"
+		DisplayName: "水の親和性"
+	}
+
+	StrongerPoisoned: {
+		Description: "これがベゾアールの目的と正反対であることは重々承知している"
+		DisplayName: "強化された毒"
+	}
+
+	ShackledDefenses: {
+		Description: "防御力が10増加"
+		DisplayName: "束縛の防御"
+	}
+
+	SBandAidFix: {
+		Description: "待て、絆創膏って実際に傷を治すのに役立つのでは？"
+		DisplayName: "バンドエイドフィックス"
+	}
+
+	SandRush: {
+		Description: "移動速度が20%上昇"
+		DisplayName: "サンドラッシュ"
+	}
+
+	NeoFeralBite: {
+		Description: "混乱を引き起こす"
+		DisplayName: "フェラルバイト"
+	}
+
+	NanoHealing: {
+		Description: "ナナイトによって修復中"
+		DisplayName: "ナノヒーリング"
+	}
+
+	MagicBoost: {
+		Description: "魔法ダメージが20%増加"
+		DisplayName: "マジックブースト"
+	}
+
+	LavaShield: {
+		Description: "防御力が12増加"
+		DisplayName: "溶岩の盾"
+	}
+
+	KaleidoscopeSecondTag: {
+		Description: "Mods.TRAEProject.Buffs.KaleidoscopeSecondTag.Description"
+		DisplayName: "カレイドスコープニューデバフ"
+	}
+
+	Impaled: {
+		Description: "痛い！"
+		DisplayName: "串刺し"
+	}
+
+	Celled: {
+		Description: "細胞に食べられている"
+		DisplayName: "細胞化"
+	}
+}
+
+Prefixes: {
+	Zoned: {
+		DisplayName: "ゾーンに入った"
+	}
+
+	Tricky: {
+		DisplayName: "トリッキーな"
+	}
+
+	Spiked: {
+		DisplayName: "スパイク付きの"
+	}
+
+	Relentless: {
+		DisplayName: "執拗な"
+	}
+
+	Radical: {
+		DisplayName: "徹底的な"
+	}
+
+	Pounding: {
+		DisplayName: "激しい"
+	}
+
+	Piercing: {
+		DisplayName: "貫通する"
+	}
+
+	Pathetic: {
+		DisplayName: "哀れな"
+	}
+
+	Kinetic: {
+		DisplayName: "動的な"
+	}
+
+	Extreme: {
+		DisplayName: "極端な"
+	}
+
+	Extended: {
+		DisplayName: "拡張された"
+	}
+
+	Enchanted: {
+		DisplayName: "エンチャントされた"
+	}
+
+	Devastating: {
+		DisplayName: "壊滅的な"
+	}
+
+	Dense: {
+		DisplayName: "高密度の"
+	}
+
+	Brutal: {
+		DisplayName: "残忍な"
+	}
+
+	Bad: {
+		DisplayName: "悪い"
+	}
+
+	Aerodynamic: {
+		DisplayName: "空力的な"
+	}
+}
+
+Projectiles: {
+	KinnaraFeather: {
+		DisplayName: "キンナラの羽根"
+	}
+
+	EchoStalkerSonicWave: {
+
+		DisplayName: "エコーストーカーのソニックウェーブ"
+	}
+
+	EchoSpriteProj: {
+		DisplayName: "エコスプライト発射体"
+	}
+
+	EchoLeviathanPortal: {
+		DisplayName: "エコ・リヴァイアサンポータル"
+	}
+
+	NeoShadowbeam: {
+		DisplayName: "ネオシャドウビーム"
+	}
+
+	MirrorShotEvil: {
+		DisplayName: "ミラーショット（悪）"
+	}
+
+	MirrorShot: {
+		DisplayName: "ミラーショット"
+	}
+
+	PrimeMissile: {
+		DisplayName: "プライムミサイル"
+	}
+
+	RailShot: {
+		DisplayName: "レールショット"
+	}
+
+	SpamatizmFire: {
+		DisplayName: "スパマティズムファイア"
+	}
+
+	FlashRayBeam: {
+		DisplayName: "フラッシュレイビーム"
+	}
+
+	MagicGrenadeP: {
+		DisplayName: "マジックグレネードP"
+	}
+
+	ConfuseRayBeam: {
+		DisplayName: "コンフューズレイビーム"
+	}
+
+	PalProjectile: {
+		DisplayName: "パル発射体"
+	}
+
+	PhaseSaberProjectile: {
+		DisplayName: "フェイズセイバー発射体"
+	}
+
+	PhaseBladeProjectile: {
+		DisplayName: "フェイズブレード発射体"
+	}
+
+	PhaseSwordProjectile: {
+		DisplayName: "フェイズソード発射体"
+	}
+
+	BezierCurveProjThing: {
+		DisplayName: "ベジェ曲線発射体シング"
+	}
+
+	EnchantedAura: {
+		DisplayName: "エンチャントオーラ"
+	}
+
+	ClaymoreAura: {
+		DisplayName: "クレイモアオーラ"
+	}
+
+	SaberAura: {
+		DisplayName: "セイバーオーラ"
+	}
+
+	HelAura: {
+		DisplayName: "ヘルオーラ"
+	}
+
+	CrystalGelSplitPurple: {
+		DisplayName: "クリスタルジェルスプリット（紫）"
+	}
+
+	CrystalGelSplitPink: {
+		DisplayName: "クリスタルジェルスプリット（ピンク）"
+	}
+
+	BloodFlameP: {
+		DisplayName: "ブラッドフレイムP"
+	}
+
+	PearlwoodAura: {
+		DisplayName: "パールウッドオーラ"
+	}
+
+	TitaniumAura: {
+		DisplayName: "チタンオーラ"
+	}
+
+	ShortAura: {
+		DisplayName: "ショートオーラ"
+	}
+
+	PallaAura: {
+		DisplayName: "パラオーラ"
+	}
+
+	OrichalcumAura: {
+		DisplayName: "オリハルコンオーラ"
+	}
+
+	BreakerAura: {
+		DisplayName: "ブレーカーオーラ"
+	}
+
+	BeekeeperAura: {
+		DisplayName: "ビーキーパーオーラ"
+	}
+
+	CrystalGelSplitP: {
+		DisplayName: "クリスタルジェルスプリットP"
+	}
+
+	CrystaP: {
+		DisplayName: "クリスタP"
+	}
+
+	FrostFlameP: {
+		DisplayName: "フロストフレイムP"
+	}
+
+	FlameP: {
+		DisplayName: "フレイムP"
+	}
+
+	OniPetalSpiralingFire: {
+		DisplayName: "鬼花びら螺旋火"
+	}
+
+	OniPetalSpiraling: {
+		DisplayName: "鬼花びら螺旋"
+	}
+
+	OniPetalCirclingFire: {
+		DisplayName: "鬼花びら旋回火"
+	}
+
+	OniPetalCircling: {
+		DisplayName: "鬼花びら旋回"
+	}
+
+	StarWrathAura: {
+		DisplayName: "スターラスオーラ"
+	}
+
+	InfluxAura: {
+		DisplayName: "インフラックスオーラ"
+
+	}
+
+	DrgngnAura: {
+		DisplayName: "ドラゴンオーラ"
+	}
+
+	BrandAura: {
+		DisplayName: "ブランドオーラ"
+	}
+
+	MythrilAura: {
+		DisplayName: "ミスリルオーラ"
+	}
+
+	CobaltAura: {
+		DisplayName: "コバルトオーラ"
+	}
+
+	AdamantiteAura: {
+		DisplayName: "アダマンタイトオーラ"
+	}
+
+	KeybrandAura: {
+		DisplayName: "キーブランドオーラ"
+	}
+
+	ToxicDrop: {
+		DisplayName: "トキシックドロップ"
+	}
+
+	ToxicCloud: {
+		DisplayName: "トキシッククラウド"
+	}
+
+	ThrownLucy: {
+		DisplayName: "スローインルーシー"
+	}
+
+	StyngerShrapnel: {
+		DisplayName: "スティンガーシュラプネル"
+	}
+
+	Stynger: {
+		DisplayName: "スティンガー"
+	}
+
+	Starrow: {
+		DisplayName: "スタロー"
+	}
+
+	Star1: {
+		DisplayName: "スター1"
+	}
+
+	SolarExplosion: {
+		DisplayName: "ソーラーエクスプロージョン"
+	}
+
+	PhantomTentacle: {
+		DisplayName: "ファントムテンタクル"
+	}
+
+	NightsBeam: {
+		DisplayName: "ナイツビーム"
+	}
+
+	LilRocket: {
+		DisplayName: "リルロケット"
+	}
+
+	LightsLong: {
+		DisplayName: "ライツロング"
+	}
+
+	LightningBolt: {
+		DisplayName: "ライトニングボルト"
+	}
+
+	Harpoon: {
+		DisplayName: "ハープーン"
+	}
+
+	CosmicStingy: {
+		DisplayName: "コズミックスティンギー"
+	}
+
+	BuzzyStar: {
+		DisplayName: "バジースター"
+	}
+
+	Blizzard: {
+		DisplayName: "ブリザード"
+	}
+
+	Blank: {
+		DisplayName: "ブランク"
+	}
+
+	BigBubble: {
+		DisplayName: "ビッグバブル"
+	}
+
+	OniPetal2: {
+		DisplayName: "鬼の花びら"
+	}
+
+	OniPetal: {
+		DisplayName: "鬼の花びら"
+	}
+
+	OniFirePetal2: {
+		DisplayName: "炎の花びら"
+	}
+
+	OniFirePetal: {
+		DisplayName: "炎の花びら"
+	}
+
+	Boom: {
+		DisplayName: "ブーム"
+	}
+
+	YellowScythe: {
+		DisplayName: "イエローサイス"
+	}
+
+	WhiteScythe: {
+		DisplayName: "ホワイトサイス"
+	}
+
+	OrangeScythe: {
+		DisplayName: "オレンジサイス"
+	}
+
+	GreenScythe: {
+		DisplayName: "グリーンサイス"
+	}
+
+	DeathgazeBeam: {
+		DisplayName: "デスゲイズ"
+	}
+
+	GraniteBoom: {
+		DisplayName: "グラナイトブーム"
+	}
+
+	GraniteBolt: {
+		DisplayName: "グラナイトボルト"
+	}
+
+	BomberBonesGrenade: {
+		DisplayName: "ボンバーボーンズグレネード"
+	}
+
+	WillOfTheWispFlame: {
+		DisplayName: "ウィルオウィスプフレイム"
+	}
+
+	SuperRoseProj: {
+		DisplayName: "花びらスポナー"
+	}
+
+	PetalFriendly: {
+		DisplayName: "花びら"
+	}
+
+	FirePetalFriendly: {
+		DisplayName: "炎の花びら"
+	}
+
+	TailWhipP: {
+		DisplayName: "テイルウィップ"
+	}
+
+	StarflowP: {
+		DisplayName: "スターフロー"
+	}
+
+	StarflowInvader: {
+		DisplayName: "スターフローインベーダー"
+	}
+
+	SpikedWhipP: {
+		DisplayName: "スパイクウィップ"
+	}
+
+	YoungQueenBee: {
+		DisplayName: "若い女王蜂"
+	}
+
+	GraniteShockerSentry: {
+		DisplayName: "グラナイトショッカー"
+	}
+
+	GraniteShock: {
+		DisplayName: "グラナイトショック"
+	}
+
+	Froggy: {
+		DisplayName: "フロッギー"
+	}
+
+	Boomfrog: {
+		DisplayName: "ブームフロッグ"
+	}
+
+	AbsoluteZeroP: {
+		DisplayName: "アブソリュートゼロ"
+	}
+
+	FlamingWood: {
+		DisplayName: "燃える木"
+	}
+
+	CurseDollWeaponflame: {
+		DisplayName: "カースドール武器の炎"
+	}
+
+	CurseDollShadowflame: {
+		DisplayName: "カースドールシャドウフレイム"
+	}
+
+	CurseDollArmorflame: {
+		DisplayName: "カースドールアーマーの炎"
+	}
+
+	MaelstromZap: {
+		DisplayName: "ネビュラザップ"
+	}
+
+	MaelstromSubshot: {
+		DisplayName: "ネビュラボルト"
+	}
+
+	MaelstromLaser: {
+		DisplayName: "ネビュラレーザー"
+	}
+
+	MaelstromBall: {
+		DisplayName: "ネビュラボール"
+	}
+
+	WetPixie: {
+		DisplayName: "ウェットピクシー"
+	}
+
+	SuperPixie: {
+		DisplayName: "スーパーピクシー"
+	}
+
+	PixieRocket: {
+		DisplayName: "ピクシーロケット"
+	}
+
+	MiniNukePixie: {
+		DisplayName: "ミニニュークピクシー"
+	}
+
+	LuminitePixie: {
+		DisplayName: "ルミナイトピクシー"
+	}
+
+	LavaPixie: {
+		DisplayName: "ラヴァピクシー"
+	}
+
+	HoneyPixie: {
+		DisplayName: "ハニーピクシー"
+	}
+
+	HeavyPixie: {
+		DisplayName: "ヘビーピクシー"
+	}
+
+	DryPixie: {
+		DisplayName: "ドライピクシー"
+
+	}
+
+	DirectPixie: {
+		DisplayName: "ダイレクトピクシー"
+	}
+
+	DestructivePixie: {
+		DisplayName: "デストラクティブピクシー"
+	}
+
+	DestructiveMiniNukePixie: {
+		DisplayName: "デストラクティブミニニュークピクシー"
+	}
+
+	ClusterPixie: {
+		DisplayName: "クラスターピクシー"
+	}
+
+	WetCryo: {
+		DisplayName: "ウェットクライオ"
+	}
+
+	SuperCryo: {
+		DisplayName: "スーパークライオ"
+	}
+
+	MiniNukeCryo: {
+
+		DisplayName: "ミニニューククライオ"
+	}
+
+	LuminiteCryo: {
+		DisplayName: "ルミナイトクライオ"
+	}
+
+	LavaCryo: {
+		DisplayName: "ラヴァクライオ"
+	}
+
+	HoneyCryo: {
+		DisplayName: "ハニークライオ"
+	}
+
+	HeavyCryo: {
+		DisplayName: "ヘビークライオ"
+	}
+
+	DryCryo: {
+		DisplayName: "ドライクライオ"
+	}
+
+	DirectCryo: {
+		DisplayName: "ダイレクトクライオ"
+	}
+
+	DestructiveMiniNukeCryo: {
+		DisplayName: "デストラクティブミニニューククライオ"
+	}
+
+	DestructiveCryo: {
+		DisplayName: "デストラクティブクライオ"
+	}
+
+	CryoRocket: {
+		DisplayName: "クライオロケット"
+	}
+
+	ClusterCryo: {
+		DisplayName: "クラスタークライオ"
+	}
+
+	FlamingScythe: {
+		DisplayName: "フレーミングサイス"
+	}
+
+	ElectricRIng: {
+		DisplayName: "エレクトリックリング"
+	}
+
+	HaxorSmall: {
+		DisplayName: "ハクサー（小）"
+	}
+
+	HaxorBig: {
+		DisplayName: "ハクサー（大）"
+	}
+
+	BAMRocketWet: {
+		DisplayName: "BAMロケット（ウェット）"
+	}
+
+	BAMRocketSuper: {
+		DisplayName: "BAMロケット（スーパー）"
+	}
+
+	BAMRocketMiniNuke: {
+		DisplayName: "BAMロケット（ミニニューク）"
+	}
+
+	BAMRocketLuminite: {
+		DisplayName: "BAMロケット（ルミナイト）"
+	}
+
+	BAMRocketLava: {
+		DisplayName: "BAMロケット（ラヴァ）"
+	}
+
+	BAMRocketHoney: {
+		DisplayName: "BAMロケット（ハニー）"
+	}
+
+	BAMRocketHeavy: {
+		DisplayName: "BAMロケット（ヘビー）"
+	}
+
+	BAMRocketDry: {
+		DisplayName: "BAMロケット（ドライ）"
+	}
+
+	BAMRocketDMiniNuke: {
+		DisplayName: "BAMロケットDミニニューク"
+	}
+
+	BAMRocketDirect: {
+		DisplayName: "BAMロケット（ダイレクト）"
+	}
+
+	BAMRocketDestructive: {
+		DisplayName: "BAMロケット（デストラクティブ）"
+	}
+
+	BAMRocketCluster: {
+		DisplayName: "BAMロケット（クラスター）"
+	}
+
+	BAMRocket: {
+		DisplayName: "BAMロケット"
+	}
+
+	BAMGel: {
+		DisplayName: "BAMジェル"
+	}
+
+	SolarArrowShot: {
+		DisplayName: "ソーラーアロー"
+	}
+
+	ShroomiteShot: {
+		DisplayName: "シュルームライトショット"
+	}
+
+	GhostShot: {
+		DisplayName: "ゴーストショット"
+	}
+
+	GhostDartSubShot: {
+		DisplayName: "ゴーストショット"
+	}
+
+	GhostDartShot: {
+		DisplayName: "ゴーストショット"
+	}
+
+	ChargedBulletShot: {
+		DisplayName: "チャージドショット"
+	}
+
+	ChargedArrowShot: {
+		DisplayName: "チャージドアロー"
+	}
+
+	BoneBulletShot: {
+		DisplayName: "ボーンショット"
+	}
+
+	BloodyArrowShot: {
+		DisplayName: "ブラッディアロー"
+	}
+
+	BloodyArrowDrop: {
+		DisplayName: "血の滴"
+	}
+
+	BeetleDartShot: {
+		DisplayName: "ビートルショット"
+	}
+
+	BeetleArrowShot: {
+		DisplayName: "ビートルアロー"
+	}
+
+	SolarGelP: {
+		DisplayName: "ソーラーフレイムスロワー"
+	}
+
+	PinkGelP: {
+		DisplayName: "ピンクフレイムスロワー"
+	}
+
+	LavaGelP: {
+		DisplayName: "ラヴァフレイムスロワー"
+	}
+
+	Ichorthrower: {
+		DisplayName: "イカースロワー"
+	}
+
+	IchorGelP: {
+		DisplayName: "イカースロワー"
+	}
+
+	FrozenGelP: {
+		DisplayName: "グレイシャルフレイムスロワー"
+	}
+
+	CursedGelP: {
+		DisplayName: "カースドフレイムスロワー"
+	}
+
+	CrystalGelP: {
+		DisplayName: "クリスタルフレイムスロワー"
+	}
+
+	BloodyGelP: {
+		DisplayName: "ブラッディジェル"
+	}
+
+	BlessedGelP: {
+		DisplayName: "ブレスドフレイムスロワー"
+	}
+
+	ShellSpinnerP: {
+		DisplayName: "シェルスピナーP"
+	}
+
+	BrimstoneBeam: {
+		DisplayName: "ブリムストーンビーム"
+	}
+
+	BloodSquidPet: {
+		DisplayName: "ベビーブラッドスクイッド"
+	}
+
+	EvilLookingEyePet: {
+		DisplayName: "ベビービホルダー"
+	}
+
+	DisintegrationBeam: {
+		DisplayName: "ディスインテグレーションビーム"
+	}
+
+	Jottie: {
+		DisplayName: "ジョッティー"
+	}
+
+	JoterTridentThrow: {
+		DisplayName: "ジョータートライデント（投擲）"
+	}
+
+	JoterTridentSpear: {
+		DisplayName: "ジョータートライデント（槍）"
+	}
+
+	MadFlocko: {
+		DisplayName: "マッドフロッコ"
+	}
+
+	ShadowflameApparition: {
+		DisplayName: "シャドウフレイムの幻影"
+	}
+
+	MoltenApparition: {
+		DisplayName: "シャドウフレイムの幻影"
+	}
+
+	PirateHook: {
+		DisplayName: "パイレーツフック"
+	}
+
+	TitaniumShrapnel: {
+		DisplayName: "チタンの破片"
+	}
+
+	SuperSnowmanRocket: {
+		DisplayName: "スーパー雪だるまロケット"
+	}
+
+	SuperRocket: {
+		DisplayName: "スーパーロケット"
+	}
+
+	SuperMine: {
+		DisplayName: "スーパー地雷"
+	}
+
+	SuperGrenade: {
+		DisplayName: "スーパーグレネード"
+	}
+
+	SnowmanRocket: {
+		DisplayName: "雪だるまロケット"
+	}
+
+	Rocket: {
+		DisplayName: "ロケット"
+	}
+
+	MiniNukeSnowman: {
+		DisplayName: "ミニニューク雪だるま"
+	}
+
+	MiniNukeMine: {
+		DisplayName: "ミニニューク地雷"
+	}
+
+	MiniNukeGrenade: {
+		DisplayName: "ミニニュークグレネード"
+	}
+
+	MiniNuke: {
+		DisplayName: "ミニニューク"
+	}
+
+	Mine: {
+		DisplayName: "地雷"
+	}
+
+	LuminiteSnowmanRocket: {
+		DisplayName: "ルミナイト雪だるまロケット"
+	}
+
+	LuminiteRocketP: {
+		DisplayName: "ルミナイトロケットP"
+	}
+
+	LuminiteMine: {
+		DisplayName: "ルミナイト地雷"
+	}
+
+	LuminiteGrenade: {
+		DisplayName: "ルミナイトグレネード"
+	}
+
+	LuminiteBoom: {
+		DisplayName: "ルミナイトブーム"
+	}
+
+	HeavySnowmanRocket: {
+		DisplayName: "ヘビー雪だるまロケット"
+	}
+
+	HeavyRocket: {
+		DisplayName: "ヘビーロケット"
+	}
+
+	HeavyMine: {
+		DisplayName: "ヘビー地雷"
+	}
+
+	HeavyGrenade: {
+		DisplayName: "ヘビーグレネード"
+	}
+
+	Grenade: {
+		DisplayName: "グレネード"
+	}
+
+	DirectSnowmanRocket: {
+		DisplayName: "ダイレクト雪だるまロケット"
+	}
+
+	DirectRocket: {
+		DisplayName: "ダイレクトロケット"
+	}
+
+	DirectMine: {
+		DisplayName: "ダイレクト地雷"
+	}
+
+	DirectGrenade: {
+		DisplayName: "ダイレクトグレネード"
+	}
+
+	DestructiveSnowmanRocket: {
+		DisplayName: "デストラクティブ雪だるまロケット"
+	}
+
+	DestructiveRocket: {
+		DisplayName: "デストラクティブロケット"
+	}
+
+	DestructiveMiniNukeSnowman: {
+		DisplayName: "デストラクティブミニニューク雪だるま"
+	}
+
+	DestructiveMiniNukeMine: {
+		DisplayName: "デストラクティブミニニューク地雷"
+	}
+
+	DestructiveMiniNukeGrenade: {
+		DisplayName: "デストラクティブミニニュークグレネード"
+	}
+
+	DestructiveMiniNuke: {
+		DisplayName: "デストラクティブミニニューク"
+	}
+
+	DestructiveMine: {
+		DisplayName: "デストラクティブ地雷"
+	}
+
+	DestructiveGrenade: {
+		DisplayName: "デストラクティブグレネード"
+	}
+
+	ClusterSnowmanRocket: {
+		DisplayName: "クラスター雪だるまロケット"
+	}
+
+	ClusterRocket: {
+		DisplayName: "クラスターロケット"
+	}
+
+	ClusterMine: {
+		DisplayName: "クラスター地雷"
+	}
+
+	ClusterGrenade: {
+		DisplayName: "クラスターグレネード"
+	}
+
+	TridentThrow: {
+		DisplayName: "トライデント（投擲）"
+	}
+
+	Trident: {
+		DisplayName: "トライデント"
+	}
+
+	TitaniumTridentThrow: {
+		DisplayName: "チタンのトライデント（投擲）"
+	}
+
+	TitaniumTrident: {
+		DisplayName: "チタンのトライデント"
+	}
+
+	SwordfishThrow: {
+		DisplayName: "メカジキ（投擲）"
+	}
+
+	Swordfish: {
+		DisplayName: "メカジキ"
+	}
+
+	StormSpearThrow: {
+		DisplayName: "ストームスピア（投擲）"
+	}
+
+	StormSpear: {
+		DisplayName: "ストームスピア"
+	}
+
+	SoTCThrow: {
+		DisplayName: "SoTC（投擲）"
+	}
+
+	SoTC: {
+		DisplayName: "SoTC"
+	}
+
+	RottedForkThrow: {
+		DisplayName: "腐ったフォーク（投擲）"
+	}
+
+	RottedFork: {
+		DisplayName: "腐ったフォーク"
+	}
+
+	PalladiumPikeThrow: {
+		DisplayName: "パラジウムパイク（投擲）"
+	}
+
+	PalladiumPike: {
+		DisplayName: "パラジウムパイク"
+	}
+
+	OrichalcumHookbillThrow: {
+		DisplayName: "オリハルコンフックビル（投擲）"
+	}
+
+	OrichalcumHookbill: {
+		DisplayName: "オリハルコンフックビル"
+	}
+
+	ObsidianSwordfishThrow: {
+		DisplayName: "黒曜石のメカジキ（投擲）"
+	}
+
+	ObsidianSwordfish: {
+		DisplayName: "黒曜石のメカジキ"
+	}
+
+	NorthStar: {
+		DisplayName: "ノーススター"
+	}
+
+	NorthPoleThrow: {
+		DisplayName: "ノースポール（投擲）"
+	}
+
+	NorthPole: {
+		DisplayName: "ノースポール"
+	}
+
+	MythrilHalberdThrow: {
+		DisplayName: "ミスリルハルバード（投擲）"
+	}
+
+	MythrilHalberd: {
+		DisplayName: "ミスリルハルバード"
+	}
+
+	MushroomSpearThrow: {
+		DisplayName: "マッシュルームスピア（投擲）"
+	}
+
+	MushroomSpear: {
+		DisplayName: "マッシュルームスピア"
+	}
+
+	JavelinThrow: {
+		DisplayName: "ジャベリン（投擲）"
+	}
+
+	Javelin: {
+		DisplayName: "ジャベリン"
+	}
+
+	GungnirThrow: {
+		DisplayName: "グングニル（投擲）"
+	}
+
+	Gungnir: {
+		DisplayName: "グングニル"
+	}
+
+	GhastlyGlaiveThrow: {
+		DisplayName: "ゴーストリーグレイブ（投擲）"
+	}
+
+	GhastlyGlaive: {
+		DisplayName: "ゴーストリーグレイブ"
+	}
+
+	DaybreakThrow: {
+		DisplayName: "デイブレーク（投擲）"
+	}
+
+	Daybreak: {
+		DisplayName: "デイブレーク"
+	}
+
+	DarkLanceThrow: {
+		DisplayName: "ダークランス（投擲）"
+	}
+
+	DarkLance: {
+		DisplayName: "ダークランス"
+	}
+
+	CobaltNaginataThrow: {
+		DisplayName: "コバルトナギナタ（投擲）"
+	}
+
+	CobaltNaginata: {
+		DisplayName: "コバルトナギナタ"
+	}
+
+	ChloroPartisanThrow: {
+		DisplayName: "クロロパルチザン（投擲）"
+	}
+
+	ChloroPartisan: {
+		DisplayName: "クロロパルチザン"
+	}
+
+	BoneSpearThrow: {
+		DisplayName: "ボーンドスピア（投擲）"
+	}
+
+	BoneSpear: {
+		DisplayName: "ボーンドスピア"
+	}
+
+	BasicSpearThrow: {
+		DisplayName: "ベーシックスピア（投擲）"
+	}
+
+	BasicSpear: {
+		DisplayName: "ベーシックスピア"
+	}
+
+	AdamantiteGlaiveThrow: {
+		DisplayName: "アダマンタイトグレイブ（投擲）"
+	}
+
+	AdamantiteGlaive: {
+		DisplayName: "アダマンタイトグレイブ"
+	}
+
+	Target: {
+		DisplayName: "ターゲット"
+	}
+
+	Scanline: {
+		DisplayName: "スキャンライン"
+	}
+
+	Ornament: {
+		DisplayName: "オーナメント"
+	}
+
+	Everstar: {
+		DisplayName: "エバースター"
+	}
+
+	ShadowflameSkull: {
+		DisplayName: "シャドウフレイムスカル"
+	}
+
+	VineRing: {
+		DisplayName: "ヴァインリング"
+	}
+
+	PlanteraHook2: {
+		DisplayName: "プランテラのフック"
+	}
+
+	PlanteraHook: {
+		DisplayName: "プランテラのフック"
+	}
+
+	HostileCloud: {
+		DisplayName: "敵対的な雲"
+	}
+
+	EyeNuke: {
+		DisplayName: "アイニューク"
+	}
+
+	BloodSnipe: {
+		DisplayName: "ブラッドスナイプ"
+	}
+
+
+
+	BloodBeam: {
+		DisplayName: "ブラッドビーム"
+	}
+
+	BouncingFlames: {
+		DisplayName: "バウンシングフレイム"
+	}
+}

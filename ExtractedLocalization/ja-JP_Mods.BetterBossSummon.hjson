@@ -1,0 +1,245 @@
+NPCs: {
+	ViciousWormCritter: {
+		DisplayName: Vicious Worm
+	}
+
+	ViciousWorm: {
+		BestiaryEntry: Worms outside during a Blood Moon mutate into leech-like organisms seeking to feed for the Crimson hive.
+		DisplayName: Vicious Worm
+	}
+
+	ViciousWormName: Vicious Worm
+
+	CorruptWormCritter: {
+		DisplayName: Corrupt Worm
+	}
+
+	CorruptWorm: {
+		BestiaryEntry: Worms exposed to the corrupting influence of a Blood Moon mutate into the likeness of one of the Corruption's own.
+		DisplayName: Corrupt Worm
+	}
+
+	CorruptWormName: Corrupt Worm
+}
+
+Projectiles: {
+	GuideVoodooStringDoll: {
+		DisplayName: Guide Voodoo Doll
+	}
+}
+
+Configs: {
+	OrbSummonDropRate: {
+		Impossible: {
+			Label: Impossible
+		}
+
+		Rare: {
+			Label: Rare
+		}
+
+		Default: {
+			Label: Default
+		}
+
+		Common: {
+			Label: Common
+		}
+
+		Guarenteed: {
+			Label: Guarenteed
+		}
+
+		Tooltip: ""
+	}
+
+	EvilSummonAvailibility: {
+		Cheap: {
+			Label: Cheap
+		}
+
+		Impossible: {
+			Label: Impossible
+		}
+
+		Expensive: {
+			Label: Expensive
+		}
+
+		Default: {
+			Label: Vanilla
+		}
+
+		Tooltip: ""
+	}
+
+	BetterBossSummonConfig: {
+		wormNpcsExist: {
+			Tooltip:
+				'''
+				Turning this off will remove the Corrupt and Vicious Worm enemies and replace them
+				with a crafting recipe to get them instead of catching them with a net.
+				'''
+			Label: Corrupt and Vicious Worms are Enemies
+		}
+
+		noMechsBeforePlantera: {
+			Tooltip: Good for if you want to play slightly less linearly.
+			Label: Craft Plantera's Seeds before defeating Mechs
+		}
+
+		orbsRegenerate: {
+			Tooltip:
+				'''
+				Toggle off to disable the regeneration mechanic entirely, if you don't want to play like that.
+				Will not destroy existing orbs/hearts in the regenerating state.
+				'''
+			Label: Orbs and Hearts Regenerate
+		}
+
+		boringTooltips: {
+			Tooltip: Replaces some of the tooltips with less descriptive but more blunt versions
+			Label: Boring Tooltips
+		}
+
+		OrbSummonDropRate: {
+			Tooltip:
+				'''
+				Controls the probability of a respective evil boss summon 
+				dropping from either a shadow orb or a crimson heart.
+				Ranges from guarenteed to impossible.
+				'''
+			Label: Drop Rate of Evil Summons
+		}
+
+		MineWithPick: {
+			Label: Must mine with Pickaxe
+			Tooltip:
+				'''
+				Toggling this on will make regenerating Shadow Orbs and Crimson Hearts 
+				only destructible with a pickaxe instead of a hammer.
+				Good for making sure you don't accidentally destroy the regenerating orb/heart.
+				'''
+		}
+
+		EvilSummonAvailibility: {
+			Tooltip: "Changes the crafting recipe of the evil boss summons to be cheaper, more difficult, or impossible. "
+			Label: Evil Summon Craftability
+		}
+
+		calConsumeOverride: {
+			Tooltip:
+				'''
+				Makes vanilla summons that Calamity makes non-consumable consumable again.
+				Only applies to vanilla summons, as many of Calamity's summons are designed
+				around being crafted only once.
+				'''
+			Label: Overide Calamity Nonconsumability of Boss Summons
+		}
+
+		Headers: {
+			Other: Other
+			Orbs+Hearts: Shadow Orbs and Crimson Hearts
+		}
+
+		DisplayName: Slightly Better Boss Summons Config
+	}
+}
+
+Tiles: {
+	RegeneratingShadowOrb: {
+		shadowOrbName: Shadow Orb (Regenerating)
+		crimHeartName: Crimson Heart (Regenerating)
+	}
+
+	PlanteraBud: {
+		MapEntry: Plantera's Bud
+	}
+}
+
+Items: {
+	RottingChumClump: {
+		BoringTooltip: Summons Dreadnautlis when used as bait during a Blood Moon.
+		Tooltip: "'Guarenteed to grab the attention of the dread of the sanguine waters.'"
+		DisplayName: Rotting Chum Clump
+	}
+
+	BloodChumBall: {
+		BoringTooltip: Summons either a Hemogoblin Shark or a Blood Eel when used as bait during a Blood Moon
+		Tooltip: "'Only the most vicious of fish could be attracted to this.'"
+		DisplayName: Blood Chum Ball
+	}
+
+	ViciousWorm_Banner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Vicious Worm
+		DisplayName: Vicious Worm Banner
+	}
+
+	CorruptWorm_Banner: {
+		DisplayName: Corrupt Worm Banner
+		Tooltip: 以下のモンスターに対してボーナスを得る：Corrupt Worm
+	}
+
+	CorruptWormItem: {
+		DisplayName: Corrupt Worm
+		BoringTooltip: Summons either a Zombie Merman or a Wandering Eye Fish during a Blood Moon
+		Tooltip: "'May attract deadly fish in sanguine seas'"
+	}
+
+	ViciousWormItem: {
+		DisplayName: Vicious Worm
+		BoringTooltip: Summons either a Wandering Eye Fish or a Zombie Merman during a Blood Moon
+		Tooltip: "'May attract deadly fish in sanguine seas'"
+	}
+
+	GuideVoodooString: {
+		Tooltip:
+			'''
+			Throw with <left>
+			'You are a HORRIBLE person'
+			'''
+		DisplayName: Guide Voodoo Doll on a String
+	}
+
+	HangingPlanteraBudItem: {
+		Tooltip: ""
+		DisplayName: Hanging Plantera's Bud Pot
+	}
+
+	MarsProbePiece: {
+		Tooltip: "'You think they'll miss this?'"
+		DisplayName: Extraterrestrial Circuitry
+	}
+
+	MarsRadio: {
+		Tooltip: Summons Martian Madness
+		DisplayName: Interplanetary Ham Radio
+	}
+
+	BottomlessTruffleCan: {
+		Tooltip: Not consumable
+		DisplayName: Bottomless Can of Truffle Worms
+	}
+
+	PlanteraBudItem: {
+		Tooltip:
+			'''
+			Able to be transmuted into any other herb at a Crystal Ball
+			Transmuted herbs cannot be transmuted back in Shimmer
+			'Not to be confused with Plantera's Bell'
+			'''
+		DisplayName: Plantera's Bud
+	}
+
+	PlanteraSeeds: {
+		Tooltip:
+			'''
+			Used to grow Plantera's Bulb in the Underground Jungle
+			When planted elsewhere, it will grow into Plantera's Bud, which can be used to harvest more seeds.
+			Will also grown into Plantera's Bud in clay pots or planter boxes
+			'The young seedlings of a powerful Jungle creature'
+			'''
+		DisplayName: Plantera's Seeds
+	}
+}
+

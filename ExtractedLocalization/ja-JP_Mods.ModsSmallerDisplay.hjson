@@ -1,0 +1,15 @@
+Configs: {
+	Title: Config
+	SmallerDisplay_Label: Display mods that are supported only v1.4.4 smaller
+	SmallerDisplay_Tooltip:
+		'''
+		Mods that are supported only v1.4.4 will display only
+		the Title, the Delete button and the More Info button
+		On by default
+		'''
+
+	ModsSmallerDisplayConfig: {
+		DisplayName: Config
+	}
+}
+

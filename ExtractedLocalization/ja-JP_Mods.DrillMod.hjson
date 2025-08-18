@@ -1,0 +1,232 @@
+Items: {
+	ZenithDrill: {
+		Tooltip: ""
+		DisplayName: ドリル・オブ・ゼニス
+	}
+
+	CactusDrill: {
+		Tooltip: ""
+		DisplayName: サボテンのドリル
+	}
+
+	CopperDrill: {
+		DisplayName: 銅のドリル
+		Tooltip: ""
+	}
+
+	TinDrill: {
+		DisplayName: 錫のドリル
+		Tooltip: ""
+	}
+
+	LeadDrill: {
+		DisplayName: 鉛のドリル
+		Tooltip: ""
+	}
+
+	BloodLustDrill: {
+		DisplayName: Blood Lust Drill
+		Tooltip: ""
+	}
+
+	IronDrill: {
+		DisplayName: 鉄のドリル
+		Tooltip: ""
+	}
+
+	SilverDrill: {
+		DisplayName: 銀のドリル
+		Tooltip: ""
+	}
+
+	DeathBringerDrill: {
+		DisplayName: デスブリンガーのドリル
+		Tooltip: ""
+	}
+
+	DeathbringerDrill: {
+		DisplayName: デスブリンガーのドリル
+		Tooltip: ヘルストーンを採掘可能
+	}
+
+	FossilDrill: {
+		DisplayName: 化石のドリル
+		Tooltip: ""
+	}
+
+	GoldDrill: {
+		DisplayName: 金のドリル
+		Tooltip: メテオライトを採掘可能
+	}
+
+	MoltenDrill: {
+		DisplayName: 溶岩のドリル
+		Tooltip: ""
+	}
+
+	NightmareDrill: {
+		DisplayName: 悪夢のドリル
+		Tooltip: ヘルストーンを採掘可能
+	}
+
+	PlatinumDrill: {
+		DisplayName: プラチナのドリル
+		Tooltip: メテオライトを採掘可能
+	}
+
+	SpectreDrill: {
+		DisplayName: スペクターのドリル
+		Tooltip: ""
+	}
+
+	TungstenDrill: {
+		DisplayName: タングステンのドリル
+		Tooltip: メテオライトを採掘可能
+	}
+
+	BlossomDrill: {
+		DisplayName: Blossom Drill
+		Tooltip: Can mine Auric Ore
+	}
+
+	GenesisDrill: {
+		Tooltip: Can mine Uelibloom Ore
+		DisplayName: Genesis Drill
+	}
+
+	AstralDrill: {
+		Tooltip: ""
+		DisplayName: Astral Drill
+	}
+
+	SeismicDrill: {
+		Tooltip: Capable of mining Lihzahrd Bricks
+		DisplayName: Seismic Drill
+	}
+
+	BeastialDrill: {
+		Tooltip: ""
+		DisplayName: Beastial Drill
+	}
+
+	ShardlightDrill: {
+		Tooltip: ""
+		DisplayName: Shardlight Drill
+	}
+
+	GelDrill: {
+		Tooltip: ""
+		DisplayName: Gel Drill
+	}
+}
+
+Projectiles: {
+	ZenithDrillProjectile: {
+		DisplayName: Zenith Drill
+	}
+
+	CactusDrillProjectile: {
+		DisplayName: Cactus Drill
+	}
+
+	CopperDrillProjectile: {
+		DisplayName: Copper Drill
+	}
+
+	TinDrillProjectile: {
+		DisplayName: Tin Drill
+	}
+
+	LeadDrillProjectile: {
+		DisplayName: Lead Drill
+	}
+
+	BloodLustDrillProjectile: {
+		DisplayName: Blood Lust Drill
+	}
+
+	IronDrillProjectile: {
+		DisplayName: Iron Drill
+	}
+
+	SilverDrillProjectile: {
+		DisplayName: Silver Drill
+	}
+
+	DeathBringerDrillProjectile: {
+		DisplayName: Death Bringer Drill
+	}
+
+	DeathbringerDrillProjectile: {
+		DisplayName: Deathbringer Drill
+	}
+
+	FossilDrillProjectile: {
+		DisplayName: Fossil Drill
+	}
+
+	GoldDrillProjectile: {
+		DisplayName: Gold Drill
+	}
+
+	MoltenDrillProjectile: {
+		DisplayName: Molten Drill
+	}
+
+	NightmareDrillProjectile: {
+		DisplayName: Nightmare Drill
+	}
+
+	PlatinumDrillProjectile: {
+		DisplayName: Platinum Drill
+	}
+
+	SpectreDrillProjectile: {
+		DisplayName: Spectre Drill
+	}
+
+	TungstenDrillProjectile: {
+		DisplayName: Tungsten Drill
+	}
+
+	AuricDrillProjectile: {
+		DisplayName: Auric Drill Projectile
+	}
+
+	ZenithDrillLaser: {
+		DisplayName: Zenith Drill Laser
+	}
+
+	ZenithDrillDefender: {
+		DisplayName: Zenith Drill Defender
+	}
+
+	GenesisDrillProjectile: {
+		DisplayName: Genesis Drill Projectile
+	}
+
+	BlossomDrillProjectile: {
+		DisplayName: Blossom Drill Projectile
+	}
+
+	AstralDrillProjectile: {
+		DisplayName: Astral Drill Projectile
+	}
+
+	SeismicDrillProjectile: {
+		DisplayName: Seismic Drill Projectile
+	}
+
+	BeastialDrillProjectile: {
+		DisplayName: Beastial Drill Projectile
+	}
+
+	ShardlightDrillProjectile: {
+		DisplayName: Shardlight Drill Projectile
+	}
+
+	GelDrillProjectile: {
+		DisplayName: Gel Drill Projectile
+	}
+}
+

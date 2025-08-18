@@ -1,0 +1,386 @@
+Configs: {
+	ClientConfig: {
+		CacheDeepL: {
+			Tooltip: Cache translated strings locally to avoid repeated DeepL requests.
+			Label: Cache DeepL
+		}
+
+		UseDeepL: {
+			Tooltip: Enable DeepL translation for tooltips and item names. Requires API key.
+			Label: Use DeepL
+		}
+
+		TargetLang: {
+			Tooltip: DeepL target language code, e.g. JA, EN-US, EN-GB, ZH.
+			Label: Target Language
+		}
+
+		DeepLApiKey: {
+			Tooltip: Enter your DeepL API auth_key. Stored client-side only.
+			Label: DeepL API Key
+		}
+
+		Headers: {
+			DeepL: DeepL Settings
+		}
+
+		DisplayName: Client Settings
+
+		ShowShiftIndicator: {
+			Tooltip: Show a small "[Shift-Translate]" marker when translation is active.
+			Label: Show Shift Indicator
+		}
+
+		EnableNameReconstruction: {
+			Tooltip: Reconstruct item names like 'Legendary ... of ...' into natural Japanese order
+			Label: Enable Name Reconstruction
+		}
+
+		SkipBracketContentInNames: {
+			Tooltip: Do not translate content inside square brackets in item names (e.g., [ModName]).
+			Label: Skip [brackets] in names
+		}
+
+		DeepLBatchMax: {
+			Tooltip: Maximum number of texts to send per batch request.
+			Label: DeepL Batch Size
+		}
+
+		DeepLBatchIntervalMs: {
+			Tooltip: Wait time to accumulate texts before sending a batch (milliseconds).
+			Label: DeepL Batch Interval (ms)
+		}
+
+		DeepLTimeoutMs: {
+			Tooltip: HTTP timeout per DeepL request (milliseconds).
+			Label: DeepL Timeout (ms)
+		}
+
+		ProxyUrl: {
+			Tooltip: Optional HTTP proxy URL (e.g. http://127.0.0.1:8080). Leave empty to disable.
+			Label: Proxy Url
+		}
+
+		DeepLRetryInitialDelayMs: {
+			Tooltip: Initial delay before retrying failed requests (milliseconds). Doubles each attempt.
+			Label: DeepL Retry Initial Delay (ms)
+		}
+
+		DeepLRetryCount: {
+			Tooltip: Number of retry attempts when a request fails.
+			Label: DeepL Retry Count
+		}
+
+		DeepLEndpointPreference: {
+			Tooltip: Choose which endpoint to use: auto, free, or paid.
+			Label: DeepL Endpoint Preference
+		}
+	}
+}
+
+Keybinds: {
+	"DeepL Status": {
+		DisplayName: DeepL Status
+	}
+}
+
+"": {
+	Configs: {
+		ClientConfig: {
+			DeepLTimeoutMs: {
+				Tooltip: ""
+				Label: Deep L Timeout Ms
+			}
+
+			SkipBracketContentInNames: {
+				Tooltip: ""
+				Label: Skip Bracket Content In Names
+			}
+
+			EnableNameReconstruction: {
+				Tooltip: ""
+				Label: Enable Name Reconstruction
+			}
+
+			ShowShiftIndicator: {
+				Tooltip: ""
+				Label: Show Shift Indicator
+			}
+
+			CacheDeepL: {
+				Tooltip: ""
+				Label: Cache Deep L
+			}
+
+			UseDeepL: {
+				Tooltip: ""
+				Label: Use Deep L
+			}
+
+			TargetLang: {
+				Tooltip: ""
+				Label: Target Lang
+			}
+
+			DeepLApiKey: {
+				Tooltip: ""
+				Label: Deep L Api Key
+			}
+
+			DisplayName: Client Config
+
+			DeepLBatchIntervalMs: {
+				Label: Deep L Batch Interval Ms
+				Tooltip: ""
+			}
+
+			DeepLBatchMax: {
+				Label: Deep L Batch Max
+				Tooltip: ""
+			}
+
+			DeepLEndpointPreference: {
+				Label: Deep L Endpoint Preference
+				Tooltip: ""
+			}
+
+			DeepLRetryCount: {
+				Label: Deep L Retry Count
+				Tooltip: ""
+			}
+
+			DeepLRetryInitialDelayMs: {
+				Label: Deep L Retry Initial Delay Ms
+				Tooltip: ""
+			}
+
+			ProxyUrl: {
+				Label: Proxy Url
+				Tooltip: ""
+			}
+		}
+	}
+
+	Projectiles: {
+		ElectricLaser: {
+			DisplayName: Electric Laser
+		}
+	}
+
+	Prefixes: {
+		Focused_Whip: {
+			DisplayName: Focused_ Whip
+		}
+
+		Fabled: {
+			DisplayName: Fabled
+		}
+
+		Extended: {
+			DisplayName: Extended
+		}
+
+		Electrified: {
+			DisplayName: Electrified
+		}
+
+		Echo: {
+			DisplayName: Echo
+		}
+
+		Devoted: {
+			DisplayName: Devoted
+		}
+
+		Deviation: {
+			DisplayName: Deviation
+		}
+
+		Contract: {
+			DisplayName: Contract
+		}
+
+		Blessing: {
+			DisplayName: Blessing
+		}
+
+		Abusive: {
+			DisplayName: Abusive
+		}
+	}
+
+	PrefixFocused_WhipDescr: Mods.TranslateTest2.PrefixFocused_WhipDescr
+	PrefixFabledDescr: Mods.TranslateTest2.PrefixFabledDescr
+	PrefixExtendedDescr: Mods.TranslateTest2.PrefixExtendedDescr
+	PrefixElectrifiedDescr: Mods.TranslateTest2.PrefixElectrifiedDescr
+	PrefixEchoDescr: Mods.TranslateTest2.PrefixEchoDescr
+	PrefixDevotedDescr: Mods.TranslateTest2.PrefixDevotedDescr
+	PrefixDeviationDescr: Mods.TranslateTest2.PrefixDeviationDescr
+	PrefixContractDescr: Mods.TranslateTest2.PrefixContractDescr
+	PrefixBlessingDescr: Mods.TranslateTest2.PrefixBlessingDescr
+	PrefixAbusiveDescr: Mods.TranslateTest2.PrefixAbusiveDescr
+}
+
+Prefixes: {
+	Vengeful: {
+		DisplayName: Vengeful
+	}
+
+	Extended: {
+		DisplayName: Extended
+	}
+
+	Affable: {
+		DisplayName: Affable
+	}
+
+	Mega: {
+		DisplayName: Mega
+	}
+
+	Brisk: {
+		DisplayName: Brisk
+	}
+
+	Deviation: {
+		DisplayName: Deviation
+	}
+
+	Steady: {
+		DisplayName: Steady
+	}
+
+	Huge: {
+		DisplayName: Huge
+	}
+
+	Echo: {
+		DisplayName: Echo
+	}
+
+	Blessing: {
+		DisplayName: Blessing
+	}
+
+	Contract: {
+		DisplayName: Contract
+	}
+
+	Devoted: {
+		DisplayName: Devoted
+	}
+
+	Overload: {
+		DisplayName: Overload
+	}
+
+	Abusive: {
+		DisplayName: Abusive
+	}
+
+	Eager: {
+		DisplayName: Eager
+	}
+
+	Focused: {
+		DisplayName: Focused
+	}
+
+	Loyal: {
+		DisplayName: Loyal
+	}
+
+	Fabled: {
+		DisplayName: Fabled
+	}
+
+	Oracle: {
+		DisplayName: Oracle
+	}
+
+	Electrified: {
+		DisplayName: Electrified
+	}
+
+	Focused_Whip: {
+		DisplayName: Focused
+	}
+}
+
+PrefixVengefulDescr: Apply additional tag to the target, increasing the damage of minions by {A}% of item damage({B})
+
+PrefixExtendedDescr: +{V}% Whip Range
+
+PrefixAffableDescr: -{A}%({B}) Minion Slots using
+
+PrefixMegaDescr:
+	'''
+	+100% Minion Slot using
+	+100% Minion Size
+	+100% Minion Knockback
+	'''
+
+PrefixBriskDescr: +{}% Minion Attack Speed
+
+PrefixDeviationDescr: The projectile of the summoning object is even more inaccurate
+
+PrefixSteadyDescr: -{}% Minion Attack Speed
+
+PrefixHugeDescr: +{}% Minion Size
+
+PrefixEchoDescr: Minions has a chance to shoot double projectiles
+
+PrefixBlessingDescr: Minions will provide players nearby some bonus
+
+PrefixContractDescr:
+	'''
+	Minions heal you for {A}% max HP per hit
+	-{B} armor per minion
+	'''
+
+PrefixDevotedDescr:
+	'''
+	Tag hitted enemies
+	+{A}% Damage to enemies that has tag
+	otherwise -{B}% Damage
+	'''
+
+PrefixOverloadDescr: +100% Minion Attack Speed
+
+PrefixAbusiveDescr: +{}% Minion Crit Chance
+
+PrefixEagerDescr: +{}% Minion Attack Speed
+
+PrefixFocusedDescr: +{A}%({B}) Minion Slots using
+
+PrefixLoyalDescr:
+	'''
+	+{A}%({B}) Minion Slots using
+	+{C}% Minion Crit Chance
+	'''
+
+PrefixFabledDescr:
+	'''
+	-{A}%({B}) Minion Slots using
+	+{C}% Minion Crit Chance
+	+{D}% Minion Knockback
+	'''
+
+PrefixOracleDescr:
+	'''
+	Apply additional tag to the target, 
+	increasing the damage of minions by {A}% of item damage({B}),
+	gain {C}% minion crit chance
+	+{D}% Whip Range
+	'''
+
+Projectiles: {
+	ElectricLaser: {
+		DisplayName: Electric Laser
+	}
+}
+
+PrefixElectrifiedDescr: Continuously generate lightning chains to connect you and minions, with lightning damage based on your maximum health
+
+PrefixFocused_WhipDescr: When helding, +{A}%Summon Damage, but -{B} Minion Slot
+

@@ -1,0 +1,299 @@
+Exceptions: {
+	RockUnderHell: 高さが足りない！
+}
+
+Config: {
+	FasterWorldgen: {
+		Label: ワールド生成オーバーホール
+		Tooltip:
+			'''
+			ワールド生成がより速く、カスタムサイズのワールドに適応するように調整されました
+			4200 x ... より小さいワールドは、この機能なしでは生成できません
+			'''
+	}
+
+	SaveOnFail: {
+		Label: 失敗したワールド生成を保存
+		Tooltip: ワールド生成が失敗したり中止された場合は、その時点で保存します
+	}
+
+	ZenithEnabler: {
+		Label: ゼニスで他のオプションを有効化
+		Tooltip: ゼニスを有効にすると、「Drunk World」「The Constant」「For the Worthy」「No Traps」「Remix」のシードオプションが適用されます
+	}
+
+	VanillaWeight: {
+		Label: ワールド生成予測時間の精度を落とす
+		Tooltip: MODのデバッグ用です
+	}
+}
+
+WorldGenMessage: {
+	Evil: ピュアさを取り除く
+	Random: タイルのランダム化
+	SnowReplace: 世界をよりクールに
+}
+
+InvalidSizes: {
+	TooBigFromRAM: " {0}×{1}の大きさの世界は、このコンピューターでは利用できません"
+	OverhauledMinX: ワールドはこの値以下では生成できません under x={0}.
+	OverhauledMinY: ワールドはこの値以下では生成できません under y={0}.
+	NormalMinX:
+		'''
+		MODの設定でオーバーホールされたワールド生成を有効にする必要があります
+		x={0} のワールドを生成できるようにする必要があります
+		'''
+	ComfortNormalMaxX:
+		'''
+		大きなワールド生成には時間がかかります
+		MOD設定でオーバーホールされたワールド生成を有効にしてくださいまた、クラッシュする可能性があります
+		'''
+	NormalMaxX:
+		'''
+		大きすぎる世界を生成しようとすると、ワールド生成がクラッシュします
+		そのような世界を生成するには、MOD設定でオーバーホールされたワールド生成を有効にする必要があります
+		'''
+	ClamityMinX: Calamityではスモールワールドを利用できません
+	ClamityMaxX: CalamityではXLワールドを利用できません
+}
+
+Celebrationmk10: {
+	$parentVal: Celebrationmk10
+
+	BeachSpawn: {
+		$parentVal: Beach Spawn
+		Description: 海岸でプレイヤーとNPCがスポーンします
+	}
+
+	Description: 10周年の秘密シード
+
+	Painted: {
+		$parentVal: Painted
+		Description: 祝いの色で世界を彩ります
+	}
+}
+
+Drunk: {
+	$parentVal: Drunk world
+
+	BothOres: {
+		$parentVal: Both Ores
+		Description: 両方の鉱石が生成されます
+	}
+
+	Crimruption: {
+		$parentVal: Crimruption
+		Description: 不浄と真紅の両方が世界に生成されます
+	}
+
+	Description: 9周年の秘密シード
+
+	MiddleLavaOcean: {
+		$parentVal: Middle Lava Ocean
+		Description: 地底世界には世界の真ん中に溶岩の海が生成されます
+	}
+}
+
+Entropy: {
+	$parentVal: Entropy
+	Description: 夕暮れと夜明けのたびに、世界の一部が1種類のタイルと壁になる世界
+}
+
+Evil: {
+	$parentVal: Evil
+
+	Conflicts: {
+		NotTheBees: {
+			JungleWorld: Not the beesは汚染できるブロックがほとんどありません
+		}
+
+		Random: Evilでは、ランダム化できるブロックがほとんどありません
+	}
+
+	Description: すべてのブロックを汚染されたものに変更します
+}
+
+ForTheWorthy: {
+	$parentVal: For the worthy
+	Description: 「価値ある者のため」の秘密シード
+}
+
+NoTraps: {
+	$parentVal: No Traps
+	Description: 「罠なき」秘密シード
+}
+
+NotTheBees: {
+	$parentVal: Not the bees
+	Description: 「ハチはやめてくれ」秘密シード
+
+	JungleWorld: {
+		$parentVal: Jungle World
+
+		Conflicts: {
+			Evil: Not the beesは汚染できるブロックがほとんどありません
+			Random: Not the beesでは、ランダム化できるブロックがほとんどありません
+			Santa: SantaはNot the beesの世界には影響を与えることはできません
+		}
+
+		Description: 世界中がジャングルになる
+	}
+}
+
+Random: {
+	$parentVal: Randam
+
+	Conflicts: {
+		Evil: Evilでは、ランダム化できるブロックがほとんどありません
+
+		NotTheBees: {
+			JungleWorld: Not the beesでは、ランダム化できるブロックがほとんどありません
+		}
+
+		Santa: Santaでは、ランダム化できるブロックがほとんどありません
+	}
+
+	Description: 各ブロックと壁の種類がランダム化された世界
+
+	Painted: {
+		$parentVal: Painted
+		Description: ブロックや壁の種類ごとにペイントされた世界
+	}
+}
+
+Remix: {
+	$parentVal: Remix
+	Description: リミックスされた秘密シード
+}
+
+Santa: {
+	$parentVal: Santa
+
+	Conflicts: {
+		NotTheBees: {
+			JungleWorld: SantaはNot the beesのワールドに影響を与えることはできません
+		}
+
+		Random: Santaでは、ランダム化できるブロックがほとんどありません
+	}
+
+	Description: クリスマスがテーマの世界
+}
+
+SortedWorld: {
+	$parentVal: Sorted World
+	Description: 世界を高さでソート
+}
+
+Spooky: {
+	$parentVal: Spooky
+	Description: ハロウィーンがテーマの世界
+}
+
+TheConstant: {
+	$parentVal: The Constant
+	Description: Don't Starveコラボの秘密シード
+}
+
+Zenith: {
+	$parentVal: Zenith(Get fixed boi)
+	Description: Zenithの秘密シード
+
+	StarGame: {
+		$parentVal: スターゲーム
+		Description: 星のミニゲームを有効にします
+	}
+}
+
+Abort: 中止する
+
+CopySettings: コピー設定
+
+CopiedSettings: コピーされた設定
+
+CustomSize: カスタムサイズ
+
+CustomSizedWorld: "{0}x{1}"
+
+DedServ: {
+	Import: i <options> : インポートオプション
+	InvalidId: 有効な数字ではない
+	InvalidImport: 有効なインポートではありません
+	InvalidInput: 入力が認識されていません
+	Selected: (選択)
+	ShowHidden: h : 非表示のオプションを表示します
+	Validate: y : 検証
+}
+
+DeleteWorlds: 最後のワールド以外はすべて削除
+
+DownLevel: このシードから使用されるものを編集します
+
+Export: クリップボードにエクスポート
+
+HideHidden: {
+	Description: マイナーで不安定な機能は隠します
+}
+
+Import: クリップボードからのインポート
+
+NoOptions: 選択肢なき世界
+
+NoneSelected: {
+	Description: ご希望のオプションを選択してください
+}
+
+OptionButton: ワールド生成の設定を選択
+
+Randomize: オプションのランダム化
+
+Presets: プリセット
+
+ShowHidden: {
+	Description: マイナーまたは不安定な特徴を示します
+}
+
+Timer: 残り時間 : {0}
+
+VanillaConfig: バニラ設定
+
+OverhauledConfig: 設定の見直し
+
+OverhauledDisabled: ワールド生成をオーバーホールし、より多くのオプションを選べるようにしよう
+
+Warning: 警告
+
+Items: {
+	CorruptionOrb: {
+		DisplayName: 腐敗のオーブ
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	WorldgenSettings: {
+		DisplayName: ワールド生成設定
+	}
+}
+
+CustomSizes: {
+	SizeX: 横サイズ :
+	SizeY: 縦サイズ :
+	TempleMultiplier: 寺院サイズの倍率：
+	DungeonMultiplier: ダンジョンサイズ倍率：
+	BeachMultiplier: ビーチサイズの倍率：
+	ScaledBeaches: 世界の大きさに合わせたビーチのスケール
+	EditTerrainPass: ワールド生成中に別のカスタマイズを有効にします
+	TerrainType: 地形タイプ
+}
+
+Vanilla: {
+	"Passes['Micro_Biomes']": {
+		CorruptionPitCount: {
+			Min: バイオーム内の腐敗穴の最小数
+			Max: バイオーム内の腐敗穴の最大数
+			ScaleWith: 腐敗穴の数：
+		}
+	}
+}
+

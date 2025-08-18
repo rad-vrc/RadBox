@@ -1,0 +1,3880 @@
+Configs: {
+	RutheniumModConfiguration: {
+		ParticleLimit: {
+			Tooltip: ""
+			Label: Particle Limit
+		}
+
+		MaxDustParticles: {
+			Tooltip: ""
+			Label: Max Particle Count
+		}
+
+		TeachAbilities: {
+			Tooltip: Disable/Renable a small tutorial of the movement abilities.
+			Label: Enable Ability Teachings
+		}
+
+		DisplayName: Ruthenium Mod Configuration
+	}
+
+	CustomEnergyConfig: {
+		TeachAbilitiesInChat: {
+			Tooltip: Disable/Renable a small tutorial of the movement abilities.
+			Label: Enable Ability Teachings
+		}
+
+		DisplayName: Custom Energy Config
+	}
+}
+
+Keybinds: {
+	"Flamespire Dash": {
+		DisplayName: Flamespire  Dash
+	}
+
+	"Ball Form": {
+		DisplayName: Ball  Form
+	}
+
+	"Switch Armor Mode": {
+		DisplayName: Switch Armor Mode
+	}
+
+	"Throw Smoke Bomb": {
+		DisplayName: Throw Smoke Bomb
+	}
+
+	PyroclasmicTeleportation: {
+		DisplayName: Pyroclasmic Teleportation
+	}
+}
+
+Tiles: {
+	MicrowaveBlock: {
+		MapEntry: Microwave Block
+	}
+
+	PollutionCollectorTile: {
+		MapEntry: Pollution Collector
+	}
+
+	SummonTile: {
+		MapEntry: Summon Tile
+	}
+
+	TrashChest: {
+		MapEntry0: Trash Chest
+		MapEntry1: Trash Chest
+		MapEntry: Trash Chest
+		ContainerName: Trash Chest
+	}
+
+	HDFBlock: {
+		MapEntry: Heat Death Fragment Block
+	}
+
+	Shardcap: {
+		MapEntry: Shardcap
+	}
+
+	GalaxiteTile: {
+		MapEntry: Galaxite Ore
+	}
+
+	TrashTorch: {
+		MapEntry: Torch
+	}
+
+	TrashTile: {
+		MapEntry: Trash
+	}
+
+	TitleMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpPMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	ScrapOre: {
+		MapEntry: Scrap Metal
+	}
+
+	RFlag: {
+		MapEntry: Romanian Flag
+	}
+
+	RawUranium: {
+		MapEntry: Raw Uranium
+	}
+
+	PMusicBoxTile4: {
+		MapEntry: Music Box
+	}
+
+	PMusicBoxTile3: {
+		MapEntry: Music Box
+	}
+
+	PMusicBoxTile2: {
+		MapEntry: Music Box
+	}
+
+	PMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	BannerTile: {
+		MapEntry: Banner
+	}
+
+	AmalMusicBoxTile: {
+		MapEntry: Music Box
+	}
+
+	DSTTorch1: {
+		MapEntry: Throwing Torch
+	}
+
+	ScorchForge: {
+		MapEntry: Scorchplate Forge
+	}
+
+	OmegaCrafter: {
+		MapEntry: Omega Crafter
+	}
+
+	GlurchChest: {
+		MapEntry0: Glurch Chest
+		MapEntry1: Glurch Chest
+		MapEntry: Glurch Chest
+		ContainerName: Glurch Chest
+	}
+}
+
+Projectiles: {
+	GalaxiteExplosion: {
+		DisplayName: Galaxite Explosion
+	}
+
+	DiseasedSpore: {
+		DisplayName: Diseased Spore
+	}
+
+	SolidPencilProjectile: {
+		DisplayName: Solid Pencil
+	}
+
+	SmokeBombProjectile: {
+		DisplayName: Smoke Bomb
+	}
+
+	SmokeRingProj: {
+		DisplayName: Smoke Ring Proj
+	}
+
+	QuasarProjectile: {
+		DisplayName: Quasar
+	}
+
+	QuasarExplosion: {
+		DisplayName: Quasar Explosion
+	}
+
+	CoronaEmber: {
+		DisplayName: Corona Ember
+	}
+
+	Sunbeam2: {
+		DisplayName: Sunbeam2
+	}
+
+	OceanWaveProj: {
+		DisplayName: Ocean Wave Proj
+	}
+
+	CoralSpikeProj: {
+		DisplayName: Coral Spike Proj
+	}
+
+	BakerBombBoom: {
+		DisplayName: Baker Bomb Boom
+	}
+
+	ResinSpit: {
+		DisplayName: Resin Spit
+	}
+
+	Sunray: {
+		DisplayName: Sunray
+	}
+
+	Sunbeam: {
+		DisplayName: Sunbeam
+	}
+
+	ScorchedPunch2: {
+		DisplayName: Scorched Punch
+	}
+
+	ScorchedPunch: {
+		DisplayName: Scorched Punch
+	}
+
+	SolarOrb: {
+		DisplayName: Solar Orb
+	}
+
+	OriginPoint: {
+		DisplayName: Origin Point
+	}
+
+	HologramSpike: {
+		DisplayName: Hologram Spike
+	}
+
+	EarthFallingProjectile: {
+		DisplayName: Meteor
+	}
+
+	EarthProjectile: {
+		DisplayName: Meteor
+	}
+
+	CancerousCloud: {
+		DisplayName: Cancerous Cloud
+	}
+
+	CodeStar: {
+		DisplayName: Code Star
+	}
+
+	GalaxiteChakramProj: {
+		DisplayName: Galaxite Chakram
+	}
+
+	GalaxiteChakramProjProj: {
+		DisplayName: Galaxite Chakram
+	}
+
+	InfusedEnergy: {
+		DisplayName: Infused Energy
+	}
+
+	Pencil: {
+		DisplayName: Pencil
+	}
+
+	PencilPlatform: {
+		DisplayName: Pencil Platform
+	}
+
+	PencilProjectile: {
+		DisplayName: Pencil Projectile
+	}
+
+	SteamExplosion: {
+		DisplayName: Steam Explosion
+	}
+
+	SteamBurst: {
+		DisplayName: Steam Burst
+	}
+
+	RetractorProjectile: {
+		DisplayName: Retractor
+	}
+
+	LodgedSpearProjectile: {
+		DisplayName: Spear
+	}
+
+	ForshadowFragment: {
+		DisplayName: Forshadow Fragment
+	}
+
+	ForshadowProj: {
+		DisplayName: Forshadow
+	}
+
+	DarkSwarm: {
+		DisplayName: Dark Swarm
+	}
+
+	Puddle: {
+		DisplayName: Slime Puddle
+	}
+
+	SteamVortex: {
+		DisplayName: Steam Vortex
+	}
+
+	ExplosiveFumes: {
+		DisplayName: Explosive Fumes
+	}
+
+	Cogwheel: {
+		DisplayName: Cogwheel
+	}
+
+	CHomeinBOIIIIII2: {
+		DisplayName: C Homein B O I I I I I I2
+	}
+
+	YellowFish: {
+		DisplayName: Yellow Fish
+	}
+
+	RedFish: {
+		DisplayName: Red Fish
+	}
+
+	OrangeFish: {
+		DisplayName: Orange Fish
+	}
+
+	GreenFish: {
+		DisplayName: Green Fish
+	}
+
+	FireRoe: {
+		DisplayName: Fire Roe
+	}
+
+	BlueFish: {
+		DisplayName: Blue Fish
+	}
+
+	PoisonCloudProjectile: {
+		DisplayName: Poison Cloud
+	}
+
+	SmokeCloud: {
+		DisplayName: Smoke Cloud
+	}
+
+	AshenStingerProjectile: {
+		DisplayName: Ashen Stinger
+	}
+
+	ParliamentShard: {
+		DisplayName: Parliament Shard
+	}
+
+	ParliamentProj: {
+		DisplayName: Parliament
+	}
+
+	SlimeBall: {
+		DisplayName: Slime Ball
+	}
+
+	SlimeBlobMinion: {
+		DisplayName: Slime Blob Minion
+	}
+
+	SmolderingCloud: {
+		DisplayName: Smoldering Cloud
+	}
+
+	SmokePuff: {
+		DisplayName: Smoke Puff
+	}
+
+	FlamingGelOrb: {
+		DisplayName: Flaming Gel Orb
+	}
+
+	CactusSpike: {
+		DisplayName: Cactus Spike
+	}
+
+	CactusFlailProj: {
+		DisplayName: Cactus Flail
+	}
+
+	HauntedSpiritMinion: {
+		DisplayName: Haunted Spirit Minion
+	}
+
+	HauntedLanternCustomProjectile: {
+		DisplayName: Haunted Lantern Custom
+	}
+
+	ShockWave: {
+		DisplayName: Shock Wave
+	}
+
+	TideboundSplashProjectile: {
+		DisplayName: Tidebound Splash
+	}
+
+	TideboundProjectile: {
+		DisplayName: Tidebound
+	}
+
+	IcyHookProjectile: {
+		DisplayName: Icy Hook
+	}
+
+	IcyExplosion: {
+		DisplayName: Icy Explosion
+	}
+
+	IcyBlast: {
+		DisplayName: Icy Blast
+	}
+
+	SubspaceSpearos: {
+		DisplayName: Subspace Spearos
+	}
+
+	WormholeProjectile: {
+		DisplayName: Wormhole
+	}
+
+	SpaceTimeFracture: {
+		DisplayName: Space Time Fracture
+	}
+
+	GalaxiaShard: {
+		DisplayName: Galaxia Shard
+	}
+
+	SmokeHexTentacle: {
+		DisplayName: Smoke Hex Tentacle
+	}
+
+	OtherworldProj: {
+		DisplayName: Otherworld
+	}
+
+	BlacksteelDrillProjectile: {
+		DisplayName: Blacksteel Drill
+	}
+
+	BlackHookProj: {
+		DisplayName: Black Hook
+	}
+
+	BlacksteelBullet: {
+		DisplayName: Blacksteel Bullet
+	}
+
+	Steelblack: {
+		DisplayName: Steelblack
+	}
+
+	GreenSmoke: {
+		DisplayName: Green Smoke
+	}
+
+	BlacksteelOrb: {
+		DisplayName: Blacksteel Orb
+	}
+
+	BlacksteelPanProj: {
+		DisplayName: Blacksteel Pan
+	}
+
+	BlacksteelMinion: {
+		DisplayName: Blacksteel Minion
+	}
+
+	VoidRingProjectile: {
+		DisplayName: Void Ring
+	}
+
+	RealityCrystal: {
+		DisplayName: Reality Crystal
+	}
+
+	DreamSpire: {
+		DisplayName: Dream Spire
+	}
+
+	BlacksteelEnergy: {
+		DisplayName: Blacksteel Energy
+	}
+
+	BlacksteelChakramProj: {
+		DisplayName: Blacksteel Chakram
+	}
+
+	SoulKnifeProj: {
+		DisplayName: Soul Knife
+	}
+
+	InfusedScrapFlailProj: {
+		DisplayName: Infused Scrap Flail
+	}
+
+	InfusedRustSpearProj: {
+		DisplayName: Infused Scrap Spear
+	}
+
+	InfusedRustShortProj: {
+		DisplayName: Infused Scrap Shortsword
+	}
+
+	ScrapFlailProj: {
+		DisplayName: Scrap Flail
+	}
+
+	SpinningHomingProjectile: {
+		DisplayName: Spinning Homing
+	}
+
+	NonHomingMiniProjectile: {
+		DisplayName: Non Homing Mini
+	}
+
+	BioEaterProj: {
+		DisplayName: Bio Eater
+	}
+
+	AbyssSythe: {
+		DisplayName: Abyss Sythe
+	}
+
+	Zap: {
+		DisplayName: Bolt
+	}
+
+	WoodenFlailProj: {
+		DisplayName: Wooden Flail
+	}
+
+	VortexLightningFriendly3: {
+		DisplayName: Pan-ning
+	}
+
+	VortexLightningFriendly2: {
+		DisplayName: Stormfolly
+	}
+
+	VortexLightningFriendly: {
+		DisplayName: Vortex
+	}
+
+	UnnaturalProjectile: {
+		DisplayName: Unnatural
+	}
+
+	True: {
+		DisplayName: Hells Callback
+	}
+
+	TrashBall: {
+		DisplayName: Trash Ball
+	}
+
+	Tp: {
+		DisplayName: Tp
+	}
+
+	TentacleWhipProj: {
+		DisplayName: Tentacle Whip
+	}
+
+	Target: {
+		DisplayName: Follower Star
+	}
+
+	SteamSickleProj2: {
+		DisplayName: Steampunk Scythe
+	}
+
+	SteamSickleProj: {
+		DisplayName: Steampunk Scythe
+	}
+
+	Sprinkle: {
+		DisplayName: Sprinkle
+	}
+
+	SpiritArrow: {
+		DisplayName: Spirit Arrow
+	}
+
+	SpiralProjectile: {
+		DisplayName: Spiral
+	}
+
+	SolsticeProj: {
+		DisplayName: Solstice
+	}
+
+	SmokeProj2: {
+		DisplayName: Smoke
+	}
+
+	SmokeProj: {
+		DisplayName: Smoke
+	}
+
+	SmokeB: {
+		DisplayName: Smoke Bomb
+	}
+
+	ShroomProj2: {
+		DisplayName: Glowing Mushroom
+	}
+
+	ShovelProj: {
+		DisplayName: Shovel Blade
+	}
+
+	SBallzProj: {
+		DisplayName: S Ballz
+	}
+
+	SadaaaProj: {
+		DisplayName: Sadaaa
+	}
+
+	RustSpearProj: {
+		DisplayName: Scrap Spear
+	}
+
+	RustShortProj: {
+		DisplayName: Scrap Shortsword
+	}
+
+	RustBobber: {
+		DisplayName: Rusty Bobber
+	}
+
+	RStar: {
+		DisplayName: Rainbow Starfolly
+	}
+
+	RandomSpawnProjectile: {
+		DisplayName: Random Spawn
+	}
+
+	NailProj2: {
+		DisplayName: Hollow Nail
+	}
+
+	NailProj: {
+		DisplayName: Hollow Nail
+	}
+
+	LightningArc3: {
+		DisplayName: Lightning
+	}
+
+	LightningArc2: {
+		DisplayName: Lightning
+	}
+
+	LightningArc: {
+		DisplayName: Lightning
+	}
+
+	KelpBall: {
+		DisplayName: Kelp Ball
+	}
+
+	IchorFlameProj: {
+		DisplayName: Ichor Flame
+	}
+
+	GalBobber: {
+		DisplayName: Galaxia Bobber
+	}
+
+	GalaxiaShot: {
+		DisplayName: Galaxia Shot
+	}
+
+	FireWhipProj: {
+		DisplayName: Fire Whip
+	}
+
+	EquinoxProjSwing: {
+		DisplayName: Equinox
+	}
+
+	EquinoxProjGun: {
+		DisplayName: Equinox
+	}
+
+	Doom: {
+		DisplayName: Doom
+	}
+
+	Death: {
+		DisplayName: Death
+	}
+
+	DawnProj: {
+		DisplayName: Impending Dawn
+	}
+
+	CodeatexProj: {
+		DisplayName: Code Blade
+	}
+
+	CHomeinBOIIIIII3: {
+		DisplayName: Rainbow Starfolly Burst
+	}
+
+	CHomeinBOIIIIII: {
+		DisplayName: Homing Cherry Spark
+	}
+
+	CelestialBeamProjectile: {
+		DisplayName: Celestial Beam
+	}
+
+	CavelingScolarGhost: {
+		DisplayName: Caveling Scholar Ghost
+	}
+
+	BombProj: {
+		DisplayName: Cherry Bomb
+	}
+
+	BloodyKatanaProjectile2: {
+		DisplayName: Bloody Katana
+	}
+
+	BloodyKatanaProjectile: {
+		DisplayName: Bloody Katana
+	}
+
+	BloodProj: {
+		DisplayName: Blood
+	}
+
+	Blaze: {
+		DisplayName: Blazing Bullet
+	}
+
+	Blacken: {
+		DisplayName: Black Hole
+	}
+
+	Blacked: {
+		DisplayName: Black Hole
+	}
+
+	Ball2: {
+		DisplayName: Hohographic Ballzzzzzzzzzzzzzz
+	}
+
+	Ball: {
+		DisplayName: Ballz
+	}
+
+	AmalMaceProj: {
+		DisplayName: Amalgam Arm
+	}
+
+	AmalgamicWhipProj: {
+		DisplayName: Amalgamic Whip
+	}
+
+	AequarianProjProj: {
+		DisplayName: Aequarian Phantom
+	}
+
+	AequarianProj: {
+		DisplayName: Aequarian
+	}
+
+	TempleGuardian: {
+		DisplayName: Temple Guardian
+	}
+
+	SPetProj2: {
+		DisplayName: Steampunkot MK II
+	}
+
+	SPetProj: {
+		DisplayName: Steampunkot
+	}
+
+	SkullPet: {
+		DisplayName: Skull Pet
+	}
+
+	GalProj: {
+		DisplayName: Galaxia Spearos
+	}
+
+	EPetProj: {
+		DisplayName: Baby Eelectrike
+	}
+
+	AmalPetProjectile: {
+		DisplayName: Amal
+	}
+
+	_BurnProj: {
+		DisplayName: Pyrosolera
+	}
+
+	ShroomProj: {
+		DisplayName: Glowing Mushroom Spores
+	}
+
+	CursedProj: {
+		DisplayName: Cursed Arrowicatic
+	}
+
+	EyeballProj: {
+		DisplayName: Eyeball
+	}
+
+	PoisonInk: {
+		DisplayName: Death Ink
+	}
+
+	BadInk: {
+		DisplayName: Blood Ink
+	}
+
+	BadInk2: {
+		DisplayName: Terror Ink
+	}
+
+	ShroomWhipProj: {
+		DisplayName: Shroom Whip
+	}
+
+	FishMinion: {
+		DisplayName: Jellyfish
+	}
+
+	EyeMin2: {
+		DisplayName: Holographic Construct
+	}
+
+	EyeMin: {
+		DisplayName: Steampunk Construct
+	}
+
+	AmalTooth: {
+		DisplayName: Amalgamic Tooth
+	}
+
+	StrangeProjectile: {
+		DisplayName: Strange
+	}
+
+	ShroomExplode: {
+		DisplayName: Glowing Mushroom Spores
+	}
+
+	MushroomBomb: {
+		DisplayName: Sporeshroom Bomb
+	}
+
+	TorchProj: {
+		DisplayName: Torch
+	}
+
+	CelestialWave: {
+		DisplayName: Celestial Wave
+	}
+
+	CelestialOrb: {
+		DisplayName: Celestial Orb
+	}
+
+	BasherHook: {
+		DisplayName: Basher
+	}
+
+	MoosherProj: {
+		DisplayName: Glowing Mushroom Spores
+	}
+
+	FlarezonProjectile: {
+		DisplayName: Burning Spiral
+	}
+
+	VoidBolt: {
+		DisplayName: Soul Knife
+	}
+
+	Stick: {
+		DisplayName: Chopstick
+	}
+
+	RustPanProjProj: {
+		DisplayName: Rusty Pan Energy
+	}
+
+	RustPanProj: {
+		DisplayName: Rusty Pan
+	}
+
+	PanProj2: {
+		DisplayName: Holographic Pan
+	}
+
+	PanProj: {
+		DisplayName: Pan
+	}
+
+	MetalStick: {
+		DisplayName: Metal Chopstick
+	}
+
+	HotStick: {
+		DisplayName: Shotstick
+	}
+
+	GiantSpatulerProj: {
+		DisplayName: Giant Spatula
+	}
+
+	ScrapHookProj: {
+		DisplayName: Scrap Grappling Hook
+	}
+
+	GalaxiaHookProj: {
+		DisplayName: Galaxia Grappling Hook
+	}
+
+	StopAmmoProjectile: {
+		DisplayName: Stop Ammo
+	}
+
+	FireballProjectile: {
+		DisplayName: Scorchplate Ammunition
+	}
+
+	VoidProjectile: {
+		DisplayName: Sun's Embrace
+	}
+
+	HellProjectile: {
+		DisplayName: Pyroclasmic Eruption
+	}
+
+	EyeballProj2: {
+		DisplayName: Eyeball
+	}
+}
+
+Items: {
+	WallWalker: {
+		Tooltip:
+			'''
+			'I wumbo, you wumbo, he, she, we wumbo. Wumbo, wumboing, wumbology, the study of wumbo!'
+			Allows the wearer to walk through walls
+			'''
+		DisplayName: Wall Walker
+	}
+
+	ParasiteLeggings: {
+		Tooltip:
+			'''
+			'Spread through movement...'
+			5% increased movement speed
+			9% increased smoke damage
+			'''
+		DisplayName: Parasite Leggings
+	}
+
+	ParasiteHelmet: {
+		Tooltip:
+			'''
+			'Feed off heart...'
+			8% increased smoke damage
+			'''
+		DisplayName: Parasite Helmet
+	}
+
+	ParasiteBreastplate: {
+		Tooltip:
+			'''
+			'Your mind... your... mind...'
+			12% increased smoke damage
+			'''
+		DisplayName: Parasite Breastplate
+	}
+
+	LungExpansionPill: {
+		DisplayName: Lung Expansion Pill
+		Tooltip: Use to increase the smoke meter by 20 permanently
+	}
+
+	QuasarGun: {
+		Tooltip: ""
+		DisplayName: Quasar Gun
+	}
+
+	CoronaEmberCigars: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: ""
+		DisplayName: Corona Ember Cigars
+	}
+
+	CoralCleaver: {
+		Tooltip: Coral spikes emerge with every swing
+		DisplayName: Coral Cleaver
+	}
+
+	MicrowaveWallI: {
+		Tooltip: ""
+		DisplayName: Microwave Wall
+	}
+
+	MicrowavePlatformI: {
+		Tooltip: ""
+		DisplayName: Microwave Platform
+	}
+
+	MicrowaveBlockI: {
+		Tooltip: ""
+		DisplayName: Microwave Brick
+	}
+
+	HDFDoorI: {
+		Tooltip: ""
+		DisplayName: Heat Death Door
+	}
+
+	ResinSpitter: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: ""
+		DisplayName: Resin Spitter
+	}
+
+	SunStaff: {
+		DisplayName: Sun Staff
+		Tooltip:
+			'''
+			Fires a sunray towards the cursor
+			Sunray ignores immunity frames
+			(Somewhat bugged visually, just FYI)
+			'''
+	}
+
+	ScorchedFuryGauntlets: {
+		Tooltip:
+			'''
+			Each punch propels you forward and shoots a spread of fire
+			On enemy hit, flames spawn above the enemy
+			'''
+		DisplayName: Scorched Fury Gauntlets
+	}
+
+	SolarEmbrace: {
+		Tooltip: Summons a powerful sun that rains flames above enemies
+		DisplayName: Solar Embrace
+	}
+
+	BOTE: {
+		Tooltip:
+			'''
+			Fires a spread of 2-3 meteors that on enemy hit, cause more meteors to fall from the sky
+			Every 3 swings, fires a huge spread of 6-12 meteors
+			Being in different biomes gives different stat boosts
+			Standing on natural ground gives stat boosts:
+			15% Increased damage,
+			15% Increased movement speed,
+			10 defense
+			'''
+		DisplayName: Blade Of The Earth
+	}
+
+	PlagueBrambleBanner: {
+		Tooltip: ""
+		DisplayName: Plague Bramble Banner
+	}
+
+	CancerousGrowthBanner: {
+		DisplayName: Cancerous Growth Banner
+		Tooltip: ""
+	}
+
+	GroundSlimeBanner: {
+		DisplayName: Ground Slime Banner
+		Tooltip: ""
+	}
+
+	ToxicSludgeBanner: {
+		DisplayName: Toxic Sludge Banner
+		Tooltip: ""
+	}
+
+	ManaStone: {
+		DisplayName: Mana Stone
+		Tooltip: Enemies have a 10% chance to drop Mana Stars
+	}
+
+	GalaxiteChakram: {
+		DisplayName: Galaxite Chakram
+		Tooltip: Chakrams thrown burst into smaller projectiles on enemy hit, giving them a draining debuff
+	}
+
+	InfusedScrapBroadsword: {
+		DisplayName: Infused Scrap Broadsword
+		Tooltip: "'Infused with the strength of a powerful machine.'"
+	}
+
+	ScrapBroadsword: {
+		DisplayName: Scrap Broadsword
+		Tooltip: ""
+	}
+
+	PencilOfCreation: {
+		DisplayName: Pencil Of Creation
+		Tooltip: ""
+	}
+
+	Skulore: {
+		DisplayName: Spore Covered Note
+		Tooltip:
+			'''
+
+			Strange... we found a giant humanoid skeleton.
+			Seems it died from the spores in this place.
+			Hold on... where's it's head? It's missing...
+			this is really strange, this will need much more
+			researching to get the hang of.
+			'''
+	}
+
+	ShipLore: {
+		DisplayName: Thoran Captians Log
+		Tooltip:
+			'''
+			A planet with life? Finally the search is complete!
+			Strange... the life seems similar to ours. Yet they have no 
+			trace of our world... no matter! I must send this data
+			to the government this instant! Much to do, this may need
+			some paperwork though.
+			'''
+	}
+
+	SunLore: {
+		DisplayName: Ancient Solar Tablet
+		Tooltip:
+			'''
+			From dawn to dusk.
+			The origin point, heart of stars.
+			Life sparked, then to now.
+
+			Yet to awake, yet to sin.
+			Long awaiting, time soon nearing.
+			Power unfathomed, yet unseen.
+			Endless and keen.
+			'''
+	}
+
+	EelLore: {
+		DisplayName: Research Log - The Great Electric Eel
+		Tooltip:
+			'''
+
+			After monitering ocean life for a while, we noticed something... huge.
+			After examining closer, it appeared to be an eel?
+			We may need to catch a specimen to more closely examine it.
+
+			Update: We successfully caught one! After a few weeks of searching for another,
+			we can conclude that it is nearly extinct for reasons unknown.
+			Anyways, they seem to live incredibly deep in the ocean, about
+			6,000 meters deep? We learned that they tend to surface for easier access to food.
+			No clue as to why it doesn't hunt in it's natural depths, maybe for mating?
+			That'll need further reaseach.
+			I'll set the deadline to 2 more weeks till we release it back.
+			'''
+	}
+
+	DataLog2: {
+		Tooltip:
+			'''
+
+			The Sentry, made to guard the factory from unregistered people from entering the factory.
+			Normal security guards can get expensive, plus, they aren't always accurate,
+			since they are normal people, they can't see in the dark, survive gunshots,
+			or identify employees working late shifts. As a plus, Sentry won't damage 
+			equipment or get distracted by anything since it has 360 degree radius sight!
+			Now we really need to recover finacially or else we could go bunkrupt...
+			I'll just postpone that for now.
+			'''
+		DisplayName: Data Log: Sentry MK: I
+	}
+
+	BoilerCoreStaff: {
+		Tooltip: "After reaching 100 heat you erupt into an explosion that prevents further use for a short period "
+		DisplayName: Boiler Core Staff
+	}
+
+	DataLog1: {
+		Tooltip:
+			'''
+
+			My prized creation, my esteamed companion. Used primarily as a therapy 
+			machine so the factory workers feel better about their sorrows,
+			job, or anything else that makes them upset. This isn't for
+			an increase of production, I just care about my employees.
+			For they are the lifeblood, the joy, that comes from The Factory.
+			Though, I am truly proud of myself. I managed to make a sentient
+			machine! The board would love to hear about this!
+			End of log.
+			'''
+		DisplayName: Data Log: Steampunk Eye
+	}
+
+	Retractor: {
+		Tooltip: Throws a Metal Retractor that comes back towards the player after a set distance
+		DisplayName: Metal Retractor
+	}
+
+	LodgedSpear: {
+		Tooltip: rain world weapon. currently a WIP, just to lazy to remove it from the code rn
+		DisplayName: Spear
+	}
+
+	GalaxiaLog: {
+		DisplayName: Error Log - Cosmic Corruption
+		Tooltip:
+			'''
+
+			-LODGED. ENGAGING UNLODGING PROTOCOL.
+			-PRIMARY SERVOS MALFUCTIONING.
+			-SECONDARY BOOSTERS ACTIVATED.
+			-EXERTION LEVEL: CRITICAL.
+			-ERROR. SYSTEM OVERLOAD IMMINENT.
+			-REVERTING TO BACKUP POWER.
+			-UNLODGING SUCCESSFUL.
+			-CONTACT WITH UNKNOWN COSMIC MATERIAL.
+			-INITIATING REPAIR AND SELF-ENHANCEMENT SEQUENCE.
+			'''
+	}
+
+	GlurchLore: {
+		DisplayName: Ritual Note - World Crossing
+		Tooltip:
+			'''
+			Worlds... there's more of them... they seem to have
+			much more power than ours. If I can harness it,
+			we could do nearly anything! Maybe we'll be able 
+			to cross through them? The possibilities are endless!
+			So much to do, yet so much to gain.
+
+			-H
+			'''
+	}
+
+	Trashotoxis: {
+		DisplayName: Research Log - Outpost Tarxis
+		Tooltip:
+			'''
+
+			A marvel of a creation! A disease-like hivemind capable of inteligent behavior, it 
+			could possibly save millions of lives by using them to eat harmful diseases! 
+			I'll have to give them a name... maybe... something with toxis 
+			due to the disease-like behavior... eckh, what is that stench? Smells like garbage...
+			is it coming from the samples?
+			'''
+	}
+
+	Forshadow: {
+		DisplayName: Forshadow
+		Tooltip: ""
+	}
+
+	GalaxiaTrophyItem: {
+		Tooltip: ""
+		DisplayName: Galaxia Spearos Trophy
+	}
+
+	BlackTrophyItem: {
+		Tooltip: ""
+		DisplayName: Ancient Blacksteel Trophy
+	}
+
+	BlackRelicItem: {
+		Tooltip: ""
+		DisplayName: Ancient Blacksteel Relic
+	}
+
+	GalMask: {
+		Tooltip: ""
+		DisplayName: Galaxia Spearos Mask
+	}
+
+	BlackMask: {
+		Tooltip: WIP sprite (too lazy rn wait for a bit)
+		DisplayName: Ancient Blacksteel Mask
+	}
+
+	GalBag: {
+		Tooltip: ""
+		DisplayName: Galaxia Spearos Bag
+	}
+
+	BlackBag: {
+		Tooltip: ""
+		DisplayName: Ancient Blacksteel Bag
+	}
+
+	HealthToken: {
+		Tooltip: Chance to heal you when you deal damage
+		DisplayName: Health Token
+	}
+
+	HealingPole: {
+		Tooltip: More life regen
+		DisplayName: Healing Pole
+	}
+
+	Remembrance: {
+		DisplayName: Remembrance
+		Tooltip:
+			'''
+			Automatically uses a Lung Cure when afflicted with Smokers Lungs.
+			Increases Smoke Meter regeneration rate (3 every second)
+			5% more damage recieved
+			'''
+	}
+
+	ParasiteSample: {
+		DisplayName: Parasite Sample
+		Tooltip: "'It's sticky and slimy.'"
+	}
+
+	GalaxiaVoid: {
+		Tooltip: Summons the Galaxia Spearos when in hardmode
+		DisplayName: Galaxia Void
+	}
+
+	ParaBanner: {
+		Tooltip: ""
+		DisplayName: Parasite Banner
+	}
+
+	SootboundLeggings: {
+		Tooltip:
+			'''
+			3% Smoke Crit Chance
+			6% Movement Speed 
+			2% smoke damage
+			'''
+		DisplayName: Sootbound Leggings
+	}
+
+	SootboundHelmet: {
+		Tooltip:
+			'''
+			5% Smoke Damage 
+			3% Smoke Crit Chance
+			'''
+		DisplayName: Sootbound Helmet
+	}
+
+	SootboundChestplate: {
+		Tooltip:
+			'''
+			7% Smoke Damage 
+			3% Smoke Crit Chance
+			'''
+		DisplayName: Sootbound Chestplate
+	}
+
+	PuffLeggings: {
+		Tooltip: 1% smoke damage
+		DisplayName: Puff Leggings
+	}
+
+	PuffHelm: {
+		Tooltip: 1% smoke damage
+		DisplayName: Puff Helm
+	}
+
+	PuffChestplate: {
+		Tooltip: 2% smoke damage
+		DisplayName: Puff Chestplate
+	}
+
+	OklahFishLauncher: {
+		Tooltip:
+			'''
+			Shoots 5 random fish in a spread to deal massive damage 
+			'Thank you Oklah for playing! <3'
+			'''
+		DisplayName: Oklah Fish Launcher
+	}
+
+	AshenStinger: {
+		UsesXSmokeResource: Uses {0} Smoke
+		DisplayName: Ashen Stinger
+		Tooltip: Shoots smoke that explodes after a while
+	}
+
+	PollutionCollector: {
+		Tooltip:
+			'''
+			Generates Smoke over time 
+			Smoke is used for quite a few smoke class items
+			(Sorry bout' the text being so far, I gotta figure that out, lol)
+			'''
+		DisplayName: Pollution Collector
+	}
+
+	SlimeBlobWhistle: {
+		Tooltip: Summons a slime blob
+		DisplayName: Slime Blob Whistle
+	}
+
+	SlimySlasher: {
+		Tooltip: Spawns a bouncy slime projectile
+		DisplayName: Slimy Slasher
+	}
+
+	SmolderingCigarette: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'It burns your mouth.'"
+		DisplayName: Smoldering Cigarette
+	}
+
+	Puffstick: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Start to the addiction.'"
+		DisplayName: Puffstick
+	}
+
+	FlamingSlimeStick: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Don't even say it.'"
+		DisplayName: Flaming Slime Stick
+	}
+
+	CactusFlail: {
+		Tooltip: Fires Cactus Spike projectiles in a circular pattern when dropping
+		DisplayName: Cactus Flail
+	}
+
+	Lanterstaff: {
+		Tooltip: Summons a Haunted Lantern to fight for you
+		DisplayName: Lanterstaff
+	}
+
+	Tidebound: {
+		Tooltip: Fires a projectile that follows the cursor and explodes when left click is released
+		DisplayName: Tidebound
+	}
+
+	GalRelicI: {
+		Tooltip: ""
+		DisplayName: Galaxia Spearos Relic
+	}
+
+	DRelicI: {
+		Tooltip: ""
+		DisplayName: Dumpster Relic
+	}
+
+	PhaseShard: {
+		Tooltip: "'A relic from a galactic machine.'"
+		DisplayName: Phase Shard
+	}
+
+	StaminaGem: {
+		Tooltip:
+			'''
+			Grants the user 20 extra max stamina permanently 
+			(500 max)
+			'''
+		DisplayName: Stamina Gem
+	}
+
+	TatteredRobe: {
+		Tooltip:
+			'''
+			10% increased smoke critical strike chance
+			13% increased smoke damage
+			'''
+		DisplayName: Tattered Robe
+	}
+
+	TatteredLegs: {
+		Tooltip:
+			'''
+			8% increased smoke critical strike chance
+			8% increased movement speed
+			10% increased smoke damage
+			'''
+		DisplayName: Tattered Leggings
+	}
+
+	TatteredHood: {
+		Tooltip:
+			'''
+			7% increased smoke critical strike chance
+			12% increased smoke damage
+			'''
+		DisplayName: Tattered Hood
+	}
+
+	TrashChestItem: {
+		Tooltip: Now it smells like ASS!
+		DisplayName: Trash Chest
+	}
+
+	Smoke: {
+		Tooltip: Obtained with the Pollution Collector
+		DisplayName: Smoke
+	}
+
+	SmokeEmblem: {
+		Tooltip: 15% increased smoke damage
+		DisplayName: Smoke Emblem
+	}
+
+	BakerEmblem: {
+		Tooltip: 15% increased baker damage
+		DisplayName: Baker Emblem
+	}
+
+	BlacksteelDrill: {
+		Tooltip: ""
+		DisplayName: Blacksteel Drill
+	}
+
+	BlackCart: {
+		Tooltip: "'I, am speed.'"
+		DisplayName: Black Cart
+	}
+
+	BlacksteelHookItem: {
+		Tooltip: ""
+		DisplayName: Blacksteel Hook
+	}
+
+	BlacksteelWings: {
+		Tooltip: ""
+		DisplayName: Blacksteel Wings
+	}
+
+	BlacksteelYoYo: {
+		Tooltip: ""
+		DisplayName: Steelblack
+	}
+
+	BlacksteelLegs: {
+		Tooltip:
+			'''
+			6% increased damage 
+			Increased regen
+			'''
+		DisplayName: Blacksteel Legs
+	}
+
+	BlacksteelHelmet: {
+		Tooltip:
+			'''
+			5% increased damage 
+			Increased regen
+			'''
+		DisplayName: Blacksteel Helmet
+	}
+
+	BlacksteelBody: {
+		Tooltip:
+			'''
+			8% increased damage 
+			Increased regen
+			'''
+		DisplayName: Blacksteel Body
+	}
+
+	Blacksmoke: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip:
+			'''
+			Smokes homing green smoke 
+			Smoke heals the user on enemy hit
+			'''
+		DisplayName: Blacksmoke
+	}
+
+	BlacksteelWand: {
+		Tooltip: Fires a healing projectile
+		DisplayName: Blacksteel Wand
+	}
+
+	BlacksteelPan: {
+		Tooltip: Heals the user on enemy hit
+		DisplayName: Blacksteel Pan
+	}
+
+	BlacksteelSummoner: {
+		Tooltip: Summons a Blacksteel Drone to fight for you!
+		DisplayName: Blacksteel Summoner
+	}
+
+	BlacksteelPickaxe: {
+		Tooltip: ""
+		DisplayName: Blacksteel Pickaxe
+	}
+
+	BlacksteelHamaxe: {
+		Tooltip: ""
+		DisplayName: Blacksteel Hamaxe
+	}
+
+	AlienGlass: {
+		Tooltip: "'It has a unique healing property.'"
+		DisplayName: Alien Glass
+	}
+
+	BlacksteelSaber: {
+		Tooltip: Fires healing projectiles
+		DisplayName: Blacksteel Saber
+	}
+
+	BlacksteelChakram: {
+		Tooltip: Heals the user on enemy hit
+		DisplayName: Blacksteel Chakram
+	}
+
+	BlacksteelScrap: {
+		Tooltip: "'Used for advanced alien technology.'"
+		DisplayName: Blacksteel Scrap
+	}
+
+	AlienBeacon: {
+		Tooltip: Summons the Ancient Blacksteel
+		DisplayName: Alien Beacon
+	}
+
+	SpongeBanner: {
+		Tooltip: ""
+		DisplayName: Sponge Banner
+	}
+
+	BlacksteelPylonBanner: {
+		DisplayName: Blacksteel Pylon Banner
+		Tooltip: ""
+	}
+
+	DragonBanner: {
+		DisplayName: Dragon Skull Banner
+		Tooltip: ""
+	}
+
+	LampBanner: {
+		DisplayName: Haunted Lantern Banner
+		Tooltip: ""
+	}
+
+	SoulKnife: {
+		Tooltip:
+			'''
+			Knives latch onto enemies dealing continous damage, before falling downwards
+			Only 15 can exist at once
+			'''
+		DisplayName: Soul Knife
+	}
+
+	InfusedScrapFlail: {
+		Tooltip: "'Infused with the strength of a powerful machine.'"
+		DisplayName: Infused Scrap Flail
+	}
+
+	InfusedRustSpearItem: {
+		Tooltip: "'Infused with the strength of a powerful machine.'"
+		DisplayName: Infused Scrap Spear
+	}
+
+	InfusedRustShortsword: {
+		Tooltip: "'Infused with the strength of a powerful machine.'"
+		DisplayName: Infused Scrap Shortsword
+	}
+
+	ScrapFlail: {
+		Tooltip: ""
+		DisplayName: Scrap Flail
+	}
+
+	HDFWallItem: {
+		Tooltip: ""
+		DisplayName: Heat Death Fragment Wall
+	}
+
+	HDFBlockI: {
+		Tooltip: ""
+		DisplayName: Heat Death Fragment Block
+	}
+
+	ShardcapSeeds: {
+		Tooltip: Plant on trash to grow a shardcap
+		DisplayName: Shardcap Seeds
+	}
+
+	ShardcapItem: {
+		Tooltip: ""
+		DisplayName: Shardcap
+	}
+
+	LungCure: {
+		Tooltip: Cures Smokers Lungs
+		DisplayName: Lung Cure
+	}
+
+	AshLegs: {
+		Tooltip: 6% baker damage
+		DisplayName: Ashen Leggings
+	}
+
+	AshHelm: {
+		Tooltip: 4% baker damage
+		DisplayName: Ashen Chef Hat
+	}
+
+	AshChest: {
+		Tooltip: 6% baker damage
+		DisplayName: Ashen Chestplate
+	}
+
+	GatlingMinigun: {
+		Tooltip: Fires a barrage of projectiles
+		DisplayName: Gatling Minigun
+	}
+
+	SBallz: {
+		Tooltip: ""
+		DisplayName: Super Ballz
+	}
+
+	STrophyI2: {
+		Tooltip: ""
+		DisplayName: The Sentry Trophy
+	}
+
+	STrophyI: {
+		Tooltip: ""
+		DisplayName: Steampunk Eye Trophy
+	}
+
+	PTrophyI: {
+		Tooltip: ""
+		DisplayName: The Suns Origin Trophy
+	}
+
+	GTrophyI: {
+		Tooltip: ""
+		DisplayName: Glurch, The Abominous Mass Trophy
+	}
+
+	ETrophyI: {
+		Tooltip: ""
+		DisplayName: The Great Electric Eel Trophy
+	}
+
+	BTrophyI: {
+		Tooltip: ""
+		DisplayName: The Amalgam Trophy
+	}
+
+	ATrophyI: {
+		Tooltip: ""
+		DisplayName: The Amalgam Trophy
+	}
+
+	TitleMusicBox: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName:
+			'''
+			Music Box (Genuine Menuine) 
+			'Pronounced Gen-U-Ien'
+			'''
+	}
+
+	SpPMusicBox: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Steampunk Peril)
+	}
+
+	SMusicBox: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Always Watching)
+	}
+
+	RFlagI: {
+		Tooltip: Increased regen when nearby
+		DisplayName: Romanian Flag
+	}
+
+	SteamRelicItem: {
+		Tooltip: ""
+		DisplayName: Steampunk Eye Relic
+	}
+
+	SteamRelic2Item: {
+		Tooltip: ""
+		DisplayName: The Sentry Relic
+	}
+
+	PRelicI: {
+		Tooltip: ""
+		DisplayName: Pyrosolara Relic
+	}
+
+	GRelicItem: {
+		Tooltip: ""
+		DisplayName: Glurch, The Abominous Mass Relic
+	}
+
+	ERelicItem: {
+		Tooltip: ""
+		DisplayName: Steampunk Eye Relic
+	}
+
+	BRelicI: {
+		Tooltip: ""
+		DisplayName: Infested Skull Relic
+	}
+
+	ARelicItem: {
+		Tooltip: ""
+		DisplayName: Amalgam Relic
+	}
+
+	PMusicBox4: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Against The Clock)
+	}
+
+	PMusicBox3: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Just Waiting...)
+	}
+
+	PMusicBox2: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Fight The Damned)
+	}
+
+	PMusicBox: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (This Has Only Just Begun)
+	}
+
+	GlurchChestItem: {
+		Tooltip: ""
+		DisplayName: Glurch Chest
+	}
+
+	AmalMusicBox: {
+		Tooltip: "[MUSIC SUBJECT TO CHANGE]"
+		DisplayName: Music Box (Amalgamic Beings)
+	}
+
+	SPetItem2: {
+		Tooltip: Attracts a Holographic Antomaton to follow you
+		DisplayName: Holographic Atractor MK II
+	}
+
+	SPetItem: {
+		Tooltip: Attracts a Steamy Antomaton to follow you
+		DisplayName: Atractor
+	}
+
+	SkullPetI: {
+		Tooltip: Attracts a Mini Amal to follow you
+		DisplayName: Shroom Skull
+	}
+
+	GalGift: {
+		Tooltip: Attracts the Galaxia Spearos to like(?) you
+		DisplayName: A Gift For An Aware Spearos
+	}
+
+	EPetI: {
+		Tooltip:
+			'''
+			Hatches a Baby Eelectrike 
+			[WIP NOT ADVISED TO USE CAN CAUSE ISSUES]
+			'''
+		DisplayName: Discarded Egg
+	}
+
+	BurnItem: {
+		Tooltip:
+			'''
+			Rebirths Pyrosolera 
+			'You ripped this piece off him...'
+			'''
+		DisplayName: Pyrosolera Ritual Awakaner
+	}
+
+	BTB: {
+		Tooltip: Attracts a Guardian Of The Temple to follow you
+		DisplayName: Broken Temple Blade
+	}
+
+	AmalPetItem: {
+		Tooltip: Attracts a Mini Amal to follow you
+		DisplayName: Maggot Shrimp
+	}
+
+	Heart: {
+		Tooltip: yep, its just for glurch's inside sprite (:
+		DisplayName: Glurch_Heart_Sprite_Item_Unusable
+	}
+
+	TrashShrimp: {
+		Tooltip:
+			'''
+			This attracts a Mini Amal. 
+			'Creb'
+			'''
+		DisplayName: Maggot Shrimp
+	}
+
+	TrashShark: {
+		Tooltip: "Now you can ride an Amalgam! "
+		DisplayName: Trash Leech
+	}
+
+	TempleBlade: {
+		Tooltip:
+			'''
+			Uses mana, and slashes at a quick succession 
+			Multiclass
+			'''
+		DisplayName: Temple's Bane
+	}
+
+	TentacleWhip: {
+		Tooltip: Has autofire
+		DisplayName: Tentacle Whip
+	}
+
+	ShroomWhip: {
+		Tooltip: ""
+		DisplayName: Shrooip
+	}
+
+	ReefBiter: {
+		Tooltip: Summons a Jellyfish to fight for you
+		DisplayName: Jellyfish Amulet
+	}
+
+	FireWhip: {
+		Tooltip:
+			'''
+			Shoots a spread of 5 whips 
+			'Somehow usable.'
+			'''
+		DisplayName: Scorchplate Whip
+	}
+
+	ElecSummon2: {
+		Tooltip:
+			'''
+			Summons a Holographic Steampunk Construct to fight for you 
+			Uses 1 minion slots
+			'''
+		DisplayName: Holographic Construct Staff
+	}
+
+	ElecSummon: {
+		Tooltip:
+			'''
+			Summons a Steampunk Construct to fight for you 
+			Uses 2 minion slots
+			'''
+		DisplayName: Construct Staff
+	}
+
+	AmalStaff: {
+		Tooltip: Summons an amalgamic tooth to fight for you
+		DisplayName: Amalgamic Staff
+	}
+
+	AmalgamicWhip: {
+		Tooltip: ""
+		DisplayName: Amalgamic Whip
+	}
+
+	Windon2: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Smoking REALLY bad no do.'"
+		DisplayName: Windon Squared
+	}
+
+	Windon: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Smoking bad no do.'"
+		DisplayName: Windon
+	}
+
+	ParliamentAquaBlue: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Smoking kills'"
+		DisplayName: Parliament
+	}
+
+	Parliament: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Smoking kills'"
+		DisplayName: Smokers Lung
+	}
+
+	Malbalo: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip: "'Don't smoke kids.'"
+		DisplayName: Pack Of Cigarettes
+	}
+
+	Burnsmoke: {
+		UsesXSmokeResource: Uses {0} Smoke
+		Tooltip:
+			'''
+			Shoots a spread of 15 projectiles 
+			'Now this is a hot ciggarette!'
+			SERIOUSLY, do not smoke.
+			'''
+		DisplayName: Scorchplate Cigarette Burner
+	}
+
+	Throw: {
+		Tooltip: Mushrooms explode into spores upon hitting a tile
+		DisplayName: Sporeshroom Bomb
+	}
+
+	SteamGun: {
+		Tooltip: Hold left-click to charge up and release to fire a laser barrage
+		DisplayName: High Power Steampunk Laser Cannon
+	}
+
+	ScrapPlatedRifle: {
+		Tooltip:
+			'''
+			Fires a burst of 2 bullets 
+			5% chance not to consume ammo
+			'''
+		DisplayName: Scrap Plated Rifle
+	}
+
+	ScorchGun: {
+		Tooltip:
+			'''
+			Locks on to the nearest enemy 
+			Shoots a spread of 5 bullets 
+			Consumes 2 bullets a shot
+			'''
+		DisplayName: Scorchplate Rifle
+	}
+
+	PhantomSpark: {
+		Tooltip:
+			'''
+			Secondary use: Spread Shot
+			20% chance to summon a Ghost Caveling when killing any enemy 
+			Doesn't use ammo
+			'''
+		DisplayName: Phantom Spark
+	}
+
+	KelpBlaster: {
+		Tooltip: Shoots bouncy explosive balls of kelp without the cost of bullets
+		DisplayName: Kelp Blaster
+	}
+
+	Gun: {
+		Tooltip: Shoots unpredictable projectiles
+		DisplayName: Quantum Orbiter
+	}
+
+	ThrowTorch: {
+		Tooltip: "'Something to hold back the night.'"
+		DisplayName: Throwing Torch
+	}
+
+	Balls2: {
+		Tooltip:
+			'''
+			'Now I have blue balls.' 
+			-Eevee
+			'''
+		DisplayName: The  B I G  Ballzzzzzzzzzzzzzzz
+	}
+
+	Balls: {
+		Tooltip:
+			'''
+			'Why doesn't anyone else like balls?' 
+			-SoupTime (SoDemUp) & Eevee
+			'''
+		DisplayName: The Ballzzz
+	}
+
+	AmalGunLol: {
+		Tooltip:
+			'''
+			Fires a burst bullets 
+			40% chance not to consume ammo
+			'''
+		DisplayName: Amalgamic Rifle
+	}
+
+	WoodenFlail: {
+		Tooltip: "'I like wood.'"
+		DisplayName: Wooden Flail
+	}
+
+	Thunderstorm: {
+		Tooltip:
+			'''
+			Use this weapon to spawn lightning above the cursor 
+			'Ripped from an electric crystallic'
+			'''
+		DisplayName: Thunderstorm
+	}
+
+	SteamSickle: {
+		Tooltip:
+			'''
+			On use, spawns smaller scythes that home into enemies and explode into smaller scythes
+			Smaller scythes have no special behavior
+
+			Once a scythe belonging to The Founder but his original design disapeared without a trace...
+			Never used by The Founder, made only in case of a real emergency.
+			Now, it is in your hands, take care of it, friend.
+			'''
+		DisplayName: Steampunk Scythe
+	}
+
+	Solstice: {
+		Tooltip:
+			'''
+			On enemy hit, it spawns 6 Rainbow Starfolly Burst projectiles 
+			Rainbow Starfolly Bursts home in on nearby enemies
+			'''
+		DisplayName: Solstice
+	}
+
+	ShovelBlade: {
+		Tooltip: "'STRIKE THE EARTH!'"
+		DisplayName: Shovel Blade
+	}
+
+	ScorchSword: {
+		Tooltip: Makes fire rain from the sky
+		DisplayName: Scorchplate Blade
+	}
+
+	Sadaaa: {
+		Tooltip: Summons electric bolts
+		DisplayName: Sadaaa
+	}
+
+	RustSpearItem: {
+		Tooltip: "'Tetnis, on a stick'"
+		DisplayName: Scrap Spear
+	}
+
+	RustShort: {
+		Tooltip: ""
+		DisplayName: Scrap Shortsword
+	}
+
+	RuneSong: {
+		Tooltip:
+			'''
+			Increases maximum health by 62 while in the hand
+			Striking enemies heals you for 3 HP
+			35% chance to instantly kill targets with lower health 
+			A legendary sword that hums when swung through the air.
+			'''
+		DisplayName: Rune Song
+	}
+
+	Muashler: {
+		Tooltip: Shrooms fall from the sky
+		DisplayName: Muashler
+	}
+
+	HVX: {
+		Tooltip:
+			'''
+			Spawns black holes
+			(PLEASE NOTE: This weapon is constantly changing due to being either strange, or uselessly underpowered)
+			'''
+		DisplayName: Hyperion Vanguard
+	}
+
+	HollowKnightNailFromHKofcAndSpiritMod: {
+		Tooltip: Use it above enemies to bounce on them
+		DisplayName: Pure Nail
+	}
+
+	Equinox: {
+		Tooltip:
+			'''
+			Cycles between a slash to a bolt upon being swung 
+			'So expertly forged that it's impossible to replicate'
+			'''
+		DisplayName: Equinox
+	}
+
+	ElecBlade2: {
+		Tooltip:
+			'''
+			Shoots a spread 10 electrical bolts 
+			Right click to lunge towards the cursor
+			'''
+		DisplayName: Electrical Blade MK II
+	}
+
+	ElecBlade: {
+		Tooltip: Shoots a spread of 3 to 7 electrical bolts
+		DisplayName: Electrical Blade
+	}
+
+	CodeBlade: {
+		Tooltip:
+			'''
+			It rots the mind 
+			[c/000000:I][c/00ff00:t][c/000000:'][c/00ff00:s] [c/000000:q][c/00ff00:u][c/000000:i][c/00ff00:t][c/000000:e] [c/00ff00:a] [c/000000:s][c/00ff00:t][c/000000:r][c/00ff00:a][c/000000:n][c/00ff00:g][c/000000:e] [c/00ff00:i][c/000000:t][c/00ff00:e][c/000000:m] 
+			Right click to surround an area with code
+			'''
+		DisplayName: Coded Blade Of the Forgotten Realms
+	}
+
+	BloddyKatana: {
+		Tooltip: "[c/8c322f:'Don't cut your fingers.']"
+		DisplayName: Bloody Katana
+	}
+
+	Basher: {
+		Tooltip: "'First grappling hook to hurt enemies!'"
+		DisplayName: Basher
+	}
+
+	AmalSickle: {
+		Tooltip: "'Sick em'!'"
+		DisplayName: Amalgamic Scythe
+	}
+
+	AmalMace: {
+		Tooltip: "'Severed from a creature who diddn't need it.'"
+		DisplayName: Amalgam's Arm
+	}
+
+	Aequarian: {
+		Tooltip:
+			'''
+			On enemy hit, it spawns 10 Aequarian Phantoms 
+			Aequarian Phantoms home in on nearby enemies
+			'Thanks for being so smart!'
+			'''
+		DisplayName: Aequarian
+	}
+
+	TreshRain: {
+		Tooltip: '''Causes trash to fall at the cursors	position'''
+		DisplayName: Rain Of Trash
+	}
+
+	Storm: {
+		Tooltip: Causes lightning to strike at any enemies position
+		DisplayName: Stormfolly
+	}
+
+	ScholarStaff: {
+		Tooltip: Shoots a burst of magical energy
+		DisplayName: Scholar's Staff
+	}
+
+	Moosher: {
+		Tooltip:
+			'''
+			Fires glowing Mushy Spores
+			'Mushy Spores!'
+			'''
+		DisplayName: Mushy Spores
+	}
+
+	Holoshot: {
+		Tooltip: Shoots a burst of magical energy from the sky
+		DisplayName: Holoshot
+	}
+
+	Flarezon: {
+		Tooltip: Shoots fireballs in a strange spiral pattern
+		DisplayName: Burning Spiral
+	}
+
+	CrescentDawn: {
+		Tooltip: Shoots a burst of magical energy
+		DisplayName: Crescent Dawn
+	}
+
+	StickItem: {
+		Tooltip: "'Too hard? Throw it!'"
+		DisplayName: Wooden Chopstick
+	}
+
+	SprinkleCannon: {
+		Tooltip:
+			'''
+			Fires 6 lines of sprinkles
+			Sprinkles have homing
+			'''
+		DisplayName: Sprinkle Cannon
+	}
+
+	SexiestPanEver2: {
+		Tooltip: "'Makes tasty [ZOLTS] with just one swing!'"
+		DisplayName: Cryogenic Syrupy Pan
+	}
+
+	SexiestPanEver: {
+		Tooltip: "'Bonk em!'"
+		DisplayName: Syrupy Pan
+	}
+
+	RustPan: {
+		Tooltip:
+			'''
+			Explodes when hitting the ground 
+			'You can't cook with this garbage!'
+			'''
+		DisplayName: Rusty Pan
+	}
+
+	RitualDagger: {
+		Tooltip:
+			'''
+			Knives latch onto enemies dealing continous damage, before falling downwards
+			Only 15 can exist at once
+			'''
+		DisplayName: Soul Knife
+	}
+
+	MicroCherryBomb: {
+		Tooltip:
+			'''
+			Throw explosive Cherry Bombs that explode after 3 seconds or on enemy contact 
+			When a bomb explodes it'll spawn 6 homing projectiles that inflict On Fire! upon contact of enemies 
+			'Note to self, these can't break stuff.'
+			'''
+		DisplayName: Cherry Bomb
+	}
+
+	MetalChopstick: {
+		Tooltip: "'There, all fixed!'"
+		DisplayName: Metal Chopstick
+	}
+
+	HotStick1: {
+		Tooltip: Chopsticks inflict On Fire!
+		DisplayName: Super-Heated Shotstick
+	}
+
+	UraniumBar: {
+		Tooltip: "'Touch it, and you get radiation poisoning.'"
+		DisplayName: Uranium Bar
+	}
+
+	TrashTorch: {
+		Tooltip: "'smells like a candle, only if it was trash scented.'"
+		DisplayName: Trash Torch
+	}
+
+	ScrapHookItem: {
+		Tooltip: ""
+		DisplayName: Scrap Grappling Hook
+	}
+
+	ScrapHamaxe: {
+		Tooltip: "'Don't even ask.'"
+		DisplayName: Scrap Pickham
+	}
+
+	ScrapFishingRod: {
+		Tooltip:
+			'''
+			Fires multiple lines at once. 
+			The fishing line never snaps. 
+			What fish would bite onto rusted metal?!?!??
+			'''
+		DisplayName: Scrap Plated Fishing Rod
+	}
+
+	Otherworld: {
+		Tooltip: "Lets you lunge towards your cursor when right clicking "
+		DisplayName: Otherworld
+	}
+
+	GalaxiaHookItem: {
+		Tooltip: ""
+		DisplayName: Galaxia Hook
+	}
+
+	GalaxiaFishingRod: {
+		Tooltip:
+			'''
+			Fires multiple lines at once. 
+			The fishing line never snaps. 
+			'Better than a devourer of cods!'
+			'''
+		DisplayName: Galaxia Fishing Rod
+	}
+
+	DevPick: {
+		Tooltip:
+			'''
+			fuck the fact that theres no caps at each letter in the title, thats how epic this pickaxe is 
+			[c/fd26fd:Developer Item]
+			'''
+		DisplayName: Donut Dudes most FUCKING SON OF A BITCH PIECE OF ASS of a pickaxe, I CANT DESCRIBE HOW SEXY IT IS AAAAAAAAAAA-
+	}
+
+	DevHam: {
+		Tooltip:
+			'''
+			ham liek hamr yeee. Also the hammer does actually taste like ham. Don't eat it though, it's made of cyanide.
+			[c/fd26fd:Developer Item]
+			'''
+		DisplayName: Donut Dude's hamer that tasts lik a ham. Jeez i love making these names lol.
+	}
+
+	DevAxe: {
+		Tooltip:
+			'''
+			this is an epic ax is... uhm... yeah... yeah im out
+			[c/fd26fd:Developer Item]
+			'''
+		DisplayName: Donut Dude's sexy acks of the sexy forrbidden realm of dead couches and sugar, spice and everything fucking nice. 2 The squeekual
+	}
+
+	SVNSMH: {
+		Tooltip: "'The essence of all of the Pillars energy made into this strange mesh.'"
+		DisplayName: Essence Mesh
+	}
+
+	SpEPr: {
+		Tooltip:
+			'''
+			'An old 3D model used as a refrence to create the Steapunk Eye.'
+			Grants immunity to Tetanus
+			'''
+		DisplayName: Steapunk Eye Prototype Model
+	}
+
+	SoulOfMechanight: {
+		Tooltip: "'The essence of the eye from a steampunk era'"
+		DisplayName: Soul of Right
+	}
+
+	ScrapWallItem: {
+		Tooltip: (Resprites for WALLs are hard, please wait.)
+		DisplayName: Scrap Metal Wall Plating
+	}
+
+	ScrapOreItem: {
+		Tooltip: "'This isn't useful.'"
+		DisplayName: Scrap Metal
+	}
+
+	ScrapMetalTileItem: {
+		Tooltip: (Resprites for tiles are hard, please wait.)
+		DisplayName: Scrap Metal Plating
+	}
+
+	ScrapBar: {
+		Tooltip: "'Now it's useful!'"
+		DisplayName: Scrap Metal Bar
+	}
+
+	ScorchBar: {
+		Tooltip: "'It's boiling to the touch.'"
+		DisplayName: Scorchplate Bar
+	}
+
+	RawUraniumItem: {
+		Tooltip: "'Not to be confused with uranium!'"
+		DisplayName: Raw Uranium
+	}
+
+	RainbowSoul: {
+		Tooltip: "'The essence of a celestial, destructive machine'"
+		DisplayName: Soul of Starlight
+	}
+
+	Q: {
+		Tooltip: ""
+		DisplayName: Quantum Energy Core
+	}
+
+	PH: {
+		Tooltip: (WILL BE) Used for advanced fire-themed equipment
+		DisplayName: Pyroclasmic Heart
+	}
+
+	OceanSandstone: {
+		Tooltip: "'From the depths of the eels habitat.'"
+		DisplayName: Oceanic Sandstone
+	}
+
+	NukeRemote: {
+		Tooltip:
+			'''
+			Sends a nuke to your location 
+			[c/ff0000: Once activated you have 30 seconds until the nuke arrives]
+			'''
+		DisplayName: Nuke Remote
+	}
+
+	Mold: {
+		Tooltip: "'Ick.'"
+		DisplayName: Mold
+	}
+
+	MicrowaveFragment: {
+		Tooltip: "'Radiation emits off of this fragment'"
+		DisplayName: Microwave Fragment
+	}
+
+	IceCrystal: {
+		Tooltip: Dropped from icy Crystallics
+		DisplayName: Ice Crystal
+	}
+
+	HeatDeathFragment: {
+		Tooltip: "'The feeling of demise resinates within this fragment'"
+		DisplayName: Heat Death Fragment
+	}
+
+	Garbo: {
+		Tooltip: "'It smells horrid!'"
+		DisplayName: Trash
+	}
+
+	GalaxiteOre: {
+		Tooltip: "'It shimmers in the light.'"
+		DisplayName: Galaxite Ore
+	}
+
+	GalaxiteBar: {
+		Tooltip: "'It radiates celestial energies.'"
+		DisplayName: Galaxite Bar
+	}
+
+	FireCrystal: {
+		Tooltip: Dropped from flaming Crystallics
+		DisplayName: Fire Crystal
+	}
+
+	EternalFlame: {
+		Tooltip: "'The heat from this burns your nerves.'"
+		DisplayName: Eternal Flame
+	}
+
+	ElecCrystal: {
+		Tooltip: Dropped from electrical Crystallics
+		DisplayName: Electric Crystal
+	}
+
+	DedWood: {
+		Tooltip: The wood is rotted beyond belief
+		DisplayName: Rotwood
+	}
+
+	WarpBanner: {
+		Tooltip: ""
+		DisplayName: Condensed Energy Banner
+	}
+
+	Stage1Banner: {
+		Tooltip: ""
+		DisplayName: Infected Grunt Banner
+	}
+
+	SpearBanner: {
+		Tooltip: ""
+		DisplayName: Spearos Banner
+	}
+
+	SpDBanner: {
+		Tooltip: ""
+		DisplayName: Steampunk Drone Banner
+	}
+
+	SnowmanBanner: {
+		Tooltip: ""
+		DisplayName: Snowman Banner
+	}
+
+	RustSpearBanner: {
+		Tooltip: ""
+		DisplayName: Rusty Spearos Banner
+	}
+
+	PyroIBanner: {
+		Tooltip: ""
+		DisplayName: Ichor-Bane Pyroclasm Banner
+	}
+
+	PyroCBanner: {
+		Tooltip: ""
+		DisplayName: Cursed Pyroclasm Banner
+	}
+
+	PyroBanner: {
+		Tooltip: ""
+		DisplayName: Pyroclasm Banner
+	}
+
+	MoltenCrystallicBanner: {
+		Tooltip: ""
+		DisplayName: Molten Crystallic Banner
+	}
+
+	IceMouldBanner: {
+		Tooltip: ""
+		DisplayName: Ice Crystallic Banner
+	}
+
+	ElecCrystalBanner: {
+		Tooltip: ""
+		DisplayName: Electric Crystallic Banner
+	}
+
+	CarrotBanner: {
+		Tooltip: ""
+		DisplayName: Rotten Carrot Banner
+	}
+
+	SteamMask2: {
+		Tooltip: ""
+		DisplayName: The Sentry Mask
+	}
+
+	SteamMask: {
+		Tooltip: ""
+		DisplayName: Steampunk Eye Mask
+	}
+
+	SnowmanMask: {
+		Tooltip: "'Who needs a polar bear mask when you have THIS?!'"
+		DisplayName: Snowman Mask
+	}
+
+	SkullMask: {
+		Tooltip: ""
+		DisplayName: Infested Skull Mask
+	}
+
+	ShovelHelm: {
+		Tooltip: "'Smells... fishy...'"
+		DisplayName: Strange Blue Helmet
+	}
+
+	PyroMask: {
+		Tooltip: ""
+		DisplayName: Pyrosolera Mask
+	}
+
+	GlurchMask: {
+		Tooltip: ""
+		DisplayName: Glurch, The Abominous Mass Mask
+	}
+
+	EelMask: {
+		Tooltip: ""
+		DisplayName: The Great Electric Eel Mask
+	}
+
+	AmalMask: {
+		Tooltip: ""
+		DisplayName: Amalgam Mask
+	}
+
+	TerraBucket: {
+		Tooltip:
+			'''
+			Has a 20% chance to confuse enemies upon being hurt 
+			'Dear god...'
+			'''
+		DisplayName: Terra Bucket
+	}
+
+	ScrapLeggings: {
+		Tooltip:
+			'''
+			1% increased movement speed 
+			4% Increased damage
+			'''
+		DisplayName: Scrap Leggings
+	}
+
+	ScrapHelm: {
+		Tooltip: 2% Increased damage
+		DisplayName: Scrap Helmet
+	}
+
+	ScrapChest: {
+		Tooltip:
+			'''
+			2% Increased damage 
+			'Don't get scratched'
+			'''
+		DisplayName: Scraped Breastplate
+	}
+
+	OceanLegs: {
+		Tooltip:
+			'''
+			2% Increased baker damage
+			3% increased movement speed 
+			'''
+		DisplayName: Oceanic Leggings
+	}
+
+	OceanHelm: {
+		Tooltip: 3% baker damage
+		DisplayName: Oceanic Helmet
+	}
+
+	OceanChest: {
+		Tooltip: 6% Increased baker damage
+		DisplayName: Oceanic Chestplate
+	}
+
+	HDLegs: {
+		Tooltip:
+			'''
+			9% increased movement speed 
+			20% smoke damage
+			'''
+		DisplayName: Heat Death Leggings
+	}
+
+	HDHelm: {
+		Tooltip:
+			'''
+			25% Increased smoke damage 
+			Gives the wearer 25 health 
+			'''
+		DisplayName: Heat Death Helmet
+	}
+
+	HDChest: {
+		Tooltip: 20% Increased smoke damage
+		DisplayName: Heat Death Breastplate
+	}
+
+	GalaxiteTorso: {
+		Tooltip:
+			'''
+			Increases wearers max health by 10 
+			8% Increased damage 
+			5% Increased critical chance 
+			5% Increased attack speed 
+			2% Increased knockBack
+			'''
+		DisplayName: Galaxite Chestplate
+	}
+
+	GalaxitePants: {
+		Tooltip:
+			'''
+			Increases wearers max health by 20 
+			7% Increased damage 
+			10% Increased critical chance 
+			4% Increased attack speed 
+			2% Increased knockBack 
+			8% Increased movement speed
+			'''
+		DisplayName: Galaxite Leggings
+	}
+
+	GalaxiteHelm: {
+		Tooltip:
+			'''
+			Increases wearers max health by 30 
+			8% Increased damage 
+			6% Increased critical chance 
+			10% Increased attack speed 
+			2% knockBack
+			'''
+		DisplayName: Galaxite Helmet
+	}
+
+	ForgeL: {
+		Tooltip:
+			'''
+			Increases wearers max health by 55 
+			10% Increased damage 
+			10% Increased critical chance 
+			15% Increased attack speed 
+			22% Increased movement speed
+			Immune to Burning and On Fire! 
+			'''
+		DisplayName: Scorchplate Leggings
+	}
+
+	ForgeH: {
+		Tooltip:
+			'''
+			Increases wearers max health by 50 
+			10% Increased damage 
+			10% Increased critical chance 
+			6% Increased attack speed 
+			Immune to Frostburn and Hellfire
+			'''
+		DisplayName: Scorchplate Helmet
+	}
+
+	Forge: {
+		Tooltip:
+			'''
+			Increases wearers max health by 60 
+			15% Increased damage 
+			8% Increased armor penetration 
+			15% Increased critical chance 
+			Immune to Cursed Inferno and Shadowflame
+			'''
+		DisplayName: Scorchplate Breastplate
+	}
+
+	BakerFragLegs: {
+		Tooltip:
+			'''
+			8% Increased movement speed 
+			15% Increased baker damage
+			'''
+		DisplayName: Microwave Leggings
+	}
+
+	BakerFragHelm: {
+		Tooltip:
+			'''
+			20% Increased baker damage 
+			Gives the wearer 50 health 
+			'''
+		DisplayName: Microwave Helmet
+	}
+
+	BakerFragChestplate: {
+		Tooltip: 20% Increased baker damage
+		DisplayName: Microwave Breastplate
+	}
+
+	StrangeAmmo: {
+		Tooltip:
+			'''
+			Moves in a strange pattern 
+			'Not too viable!'
+			'''
+		DisplayName: Wardic Rounds
+	}
+
+	StopAmmo: {
+		Tooltip: Stops moving when it reaches the cursor's position
+		DisplayName: Stabilizing Rounds
+	}
+
+	ScorchAmmo: {
+		Tooltip: Explodes on impact, spawning fireballs above and below the enemy
+		DisplayName: Scorchplate Ammunition
+	}
+
+	GalaxiaShot: {
+		Tooltip: Orbits enemies and then goes in for the strike.
+		DisplayName: Galaxia Shot
+	}
+
+	AmalMatter: {
+		Tooltip: It's practically garbage, but useful.
+		DisplayName: Amalgamic Matter
+	}
+
+	ScrapWings: {
+		Tooltip: ""
+		DisplayName: Scrap Wings
+	}
+
+	PyroExpertItem: {
+		Tooltip:
+			'''
+			Allows you to teleport and spawn powerful projectiles
+			Press [P] to activate the teleport
+			20% Increased damage
+			15% Increased attack speed
+			'You are now a true god. Be gratefull you'll never see this strength again...'
+			'''
+		DisplayName: Eradication Ember
+	}
+
+	MicroWings: {
+		Tooltip: "'Cookin' in the sky!'"
+		DisplayName: Microwave Wings
+	}
+
+	HoloWings: {
+		Tooltip: When in air, you spawn holographic spikes below you
+		DisplayName: Holographic Wings
+	}
+
+	HDWings: {
+		Tooltip: "'HAIL CLIMATE CHANGE!'"
+		DisplayName: Heat Death Smoke Flappers
+	}
+
+	FW: {
+		Tooltip:
+			'''
+			Increases health by 20 
+			Increases damage by 5% 
+			15% chance to spawn fireballs on enemy hit with base weapons or projectiles 
+			Grants life regeneration
+			'''
+		DisplayName: Scorchplate Jetpack
+	}
+
+	ForgeShield: {
+		Tooltip:
+			'''
+			Allows the player to dash 
+			Increases damage by 20% 
+			Grants life regeneration
+			'''
+		DisplayName: Scorchplate Shield
+	}
+
+	Feather: {
+		Tooltip: Allows you to dash.
+		DisplayName: Swift Feather
+	}
+
+	DumpHeart: {
+		Tooltip:
+			'''
+			Allows you to spawn bouncy eyes while you fall 
+			'Allows you to use the power that The Dumpster once held.'
+			'''
+		DisplayName: Dumpster's Soul
+	}
+
+	DumpEye: {
+		Tooltip: Spawns projectiles all around when hurt
+		DisplayName: Dumpster's Eye
+	}
+
+	DumpCombo: {
+		Tooltip: Allows you to periodically spawn electric bolts, and spawn bouncy eyes while you fall
+		DisplayName: Dumpster's Lenses
+	}
+
+	CogwheelLens2: {
+		Tooltip:
+			'''
+			Harness the chaotic energy of the Sentry to enhance your abilities
+			Increases damage by 15% and attack speed by 15%
+			Provides a 20% chance to block incoming attacks
+			Double-tap a movement key to perform a charged dash
+			'''
+		DisplayName: Sentry's Power Core
+	}
+
+	CogwheelLens: {
+		Tooltip: Spawns Electrical bolts periodically
+		DisplayName: Cogwheel Lens
+	}
+
+	AzeosFeather: {
+		Tooltip: Allows you to dash left, right, and down
+		DisplayName: Azeos' Dash Feather
+	}
+
+	ScorchForgeI: {
+		Tooltip: "Used to craft scorchplate equipment "
+		DisplayName: Scorchplate Forge
+	}
+
+	OmegaCrafterItem: {
+		Tooltip: Fuses the components of atoms, quarks, and dark matter.
+		DisplayName: Omega Crafter
+	}
+
+	YumBait: {
+		Tooltip:
+			'''
+			Summons the Great Electric Eel 
+			Only usable in the ocean biome
+			'''
+		DisplayName: Tasty Smelling Bait
+	}
+
+	SteamBag2: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	SteamBag1: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	SSR: {
+		Tooltip:
+			'''
+			Summons the Steampunk Eye
+			Only usable at night
+			'''
+		DisplayName: Steampunk Signaling Remote
+	}
+
+	SkullBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	Shot: {
+		Tooltip: Cures Tetanus
+		DisplayName: Tetanus Shot
+	}
+
+	PyroBossSummon2: {
+		Tooltip: Summons 8 random npcs
+		DisplayName: Infinity Tear
+	}
+
+	PyroBossSummon: {
+		Tooltip: "Summons Pyrosolera when used at night "
+		DisplayName: Pyroclasmic Energy Beamer
+	}
+
+	PyroBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	Muskull: {
+		Tooltip:
+			'''
+			Summons the Infested Skull
+			Only usable in the Glowing Mushroom Biome
+			'''
+		DisplayName: Shroomy Skull
+	}
+
+	HSR: {
+		Tooltip:
+			'''
+			Summons the Sentry 
+			Only usable at night
+			'''
+		DisplayName: Holographic Signaling Remote
+	}
+
+	HealingPotion: {
+		Tooltip: ""
+		DisplayName: Hyper Healing Potion
+	}
+
+	GlurchBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	GiantSlimeSummoningIdol: {
+		Tooltip:
+			'''
+			Summons something from a different world
+			Only usable at night
+			'''
+		DisplayName: Suspicious Looking Relic
+	}
+
+	EelBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+
+	AmalSpawn: {
+		Tooltip:
+			'''
+			Summons the Amalgam 
+			Only usable in Hardmode in Trashed Wastelands
+			'''
+		DisplayName: Amalgamic Crab Bait
+	}
+
+	AmalBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag
+	}
+}
+
+Buffs: {
+	ScrapSentinelBuff: {
+		Description: Mods.PHME.Buffs.ScrapSentinelBuff.Description
+		DisplayName: Scrap Sentinel Buff
+	}
+
+	SmokeCloak: {
+		Description: Mods.PHME.Buffs.SmokeCloak.Description
+		DisplayName: Smoke Cloak
+	}
+
+	Microwaved: {
+		Description: Mods.PHME.Buffs.Microwaved.Description
+		DisplayName: Microwaved
+	}
+
+	ChokingDebuff: {
+		Description: Mods.PHME.Buffs.ChokingDebuff.Description
+		DisplayName: Choking Debuff
+	}
+
+	SolarStare: {
+		Description: A powerful sun looms near!
+		DisplayName: Origin Point
+	}
+
+	Sick: {
+		DisplayName: Sick
+		Description: Can't use Lung Cures
+	}
+
+	GalaxyDrain: {
+		DisplayName: Galaxy Drain
+		Description: Health draining
+	}
+
+	Overload: {
+		Description: Strong explosion attack soon!
+		DisplayName: Overload
+	}
+
+	RomanianFlag: {
+		DisplayName: Romanian Flag
+		Description: Defense, Health Regen, And Mana Regen increased exponentially
+	}
+
+	ParasiticInfection: {
+		Description: Parasites are controlling your every move!
+		DisplayName: Parasitic Infection
+	}
+
+	SlimeBlob: {
+		Description: "'It eminates a soft whistling tune.'"
+		DisplayName: Slime Blob
+	}
+
+	HauntedLanternBuff: {
+		Description: A haunted lantern is following you
+		DisplayName: Haunted Lantern
+	}
+
+	Despair: {
+		Description: yeah idk
+		DisplayName: Despair
+	}
+
+	BlacksteelMinionBuff: {
+		Description: A blacksteel drone follows and generates a damaging healing aura near enemies
+		DisplayName: Blacksteel Drone
+	}
+
+	DisableSpawnsBuff: {
+		DisplayName: Peace
+		Description: Monsters are banished from spawning
+	}
+
+	TGB: {
+		Description: You have earned it's strength.
+		DisplayName: Temple's Curse
+	}
+
+	SPetBuff2: {
+		Description: A Holographic Antomaton is following you
+		DisplayName: Holographic Antomaton
+	}
+
+	SPetBuff: {
+		Description: A Steamed Antomaton is following you
+		DisplayName: Steamed Antomaton
+	}
+
+	SkullBuff: {
+		Description: "'Don't you dare put me in the pot!'"
+		DisplayName: Skully
+	}
+
+	GalPetBuff: {
+		Description: Nearby enemies are marked with a scope icon
+		DisplayName: Galaxia Galaxy
+	}
+
+	EPetBuff: {
+		Description: It is truly the last of it's kind...
+		DisplayName: Baby Eelectrike
+	}
+
+	BurnBuff: {
+		Description: The gift of the sun, it's beckoning.
+		DisplayName: Burning Inferno
+	}
+
+	AmalPetBuff: {
+		Description: Yes, Amal.
+		DisplayName: Amal
+	}
+
+	AmalCarBuff: {
+		Description: It hasn't even grown it's chompers yet!
+		DisplayName: Mini Amal
+	}
+
+	Reef: {
+		Description: A Jellyfish will fight for you
+		DisplayName: Jellyfish
+	}
+
+	ElecBuff2: {
+		Description: A Holographic Steampunk Construct will fight for you
+		DisplayName: Holographic Steampunk Construct
+	}
+
+	ElecBuff: {
+		Description: A Steampunk Construct will fight for you
+		DisplayName: Steampunk Construct
+	}
+
+	AmalBuff: {
+		Description: An amalgamic tooth will fight for you
+		DisplayName: Amalgamic Tooth
+	}
+
+	ChaosShieldBuff: {
+		Description: 50% reduced damage taken
+		DisplayName: Chaos Shield
+	}
+
+	Void: {
+		Description: Your eyes have stopped working
+		DisplayName: Voidsight
+	}
+
+	Tetanus: {
+		Description: Losing life due to tetanus entering the body. Too bad you don't have a tetanus shot, don't ya'!
+		DisplayName: Tetanus
+	}
+
+	SoulLeechDebuff: {
+		Description: Your torment feeds nearby creatures.
+		DisplayName: Life Leech
+	}
+
+	ONoSmokinHurtsYaSoDamage2U: {
+		Description:
+			'''
+			Your lungs feel heavy and your breathing is labored. 
+			Reduces defense by 8 
+			Reduces movement speed by 3%
+			'''
+		DisplayName: Smoker's Lungs
+	}
+
+	OcellioTeleport: {
+		Description: It's as if reality itself can't decide where you belong.
+		DisplayName: Transmission Error
+	}
+
+	OcellioFreeze: {
+		Description: You cannot move.
+		DisplayName: Frozen
+	}
+
+	NoMovementDebuff: {
+		Description: You must keep moving or suffer demise!
+		DisplayName: No Movement
+	}
+
+	GroundedDebuff: {
+		Description: Gravity is increased to a deadly degree
+		DisplayName: Grounded
+	}
+
+	FlightRestriction: {
+		Description: You are unable to fly or use mounts.
+		DisplayName: Flight And Mount Restriction
+	}
+
+	FireBuff: {
+		Description: Mods.PHME.BuffDescription.FireBuff
+		DisplayName: Mods.PHME.BuffName.FireBuff
+	}
+
+	Emberspark: {
+		Description: Losing life
+		DisplayName: Emberspark
+	}
+
+	Contamination: {
+		Description: Taking damage from contamination.
+		DisplayName: Contamination
+	}
+
+	Cancer: {
+		Description: Losing life
+		DisplayName: Trash Cancer
+	}
+
+	ByeBye: {
+		Description: Bye bye!
+		DisplayName: Infernal Annihilation
+	}
+
+	BritteBones: {
+		Description: Move speed lowered
+		DisplayName: Brittle Bones
+	}
+}
+
+NPCs: {
+	Fly: {
+		DisplayName: Fly
+	}
+
+	PlagueBramble: {
+		DisplayName: Plague Bramble
+	}
+
+	CancerousGrowth: {
+		DisplayName: Cancerous Growth
+	}
+
+	ToxicSludge: {
+		DisplayName: Toxic Sludge
+	}
+
+	EEyeE: {
+		DisplayName: E Eye E
+	}
+
+	ShadowEye: {
+		DisplayName: Shadow Eye
+	}
+
+	ShadowOrb: {
+		DisplayName: Shadow Orb
+	}
+
+	Herbalist: {
+		DisplayName: Herbalist
+
+		TownNPCMood: {
+			LoveBiome: I love {BiomeName}.
+			Content: I am perfectly fine!
+			NoHome: Could I have a home?
+			FarFromHome: I'm quite far from my house.
+			LoveSpace: All this space? SO many plants!
+			DislikeCrowded: All my plants are dying! There's too many people!
+			HateCrowded: All these people isn't great for plants.
+			LikeBiome: "{BiomeName} is pretty calming."
+			HateBiome: Nothing grows here!
+			DislikeNPC: "{NPCName} is pretty rude."
+			LoveNPC: I love {NPCName}.
+			LikeNPC: "{NPCName} is pretty nice. Always good to see!"
+			HateNPC: "{NPCName} keeps trampling my plants!"
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: "{NPCName} seems interesting."
+		}
+	}
+
+	Parasite: {
+		DisplayName: Parasite
+	}
+
+	OcellioHook: {
+		DisplayName: Ocellio Hook
+	}
+
+	Ocellio: {
+		DisplayName: Ocellio
+	}
+
+	QuantumspaceSpearos: {
+		DisplayName: Quantumspace Spearos
+	}
+
+	GalaxiaSpearos: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:PHME/GalaxiaVoid] in hardmode
+		}
+
+		DisplayName: Galaxia Spearos
+	}
+
+	FounderTown: {
+		DisplayName: Founder
+
+		TownNPCMood: {
+			LikeNPC: "{NPCName} is incredible! It's impressive!"
+			DislikeNPC: '''"{NPCName} seems very... disruptive, to say the least."'''
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: "{NPCName} is incredibly distracting, could you move me somewhere? Even for a little?"
+			HateBiome: I... uh, why {BiomeName}? This... isn't my fault... right?
+			LoveBiome: Hey! How'd you know I loved {BiomeName}!?
+			HateCrowded: I can't get any research done with this crowd!
+			DislikeCrowded: There are a LOT, of people here.
+			LoveSpace: This place is perfect! Thanks for this opportunity!
+			FarFromHome: My house seems to be pretty far from here... I'll manage.
+			Content: I'm fine. Why'd you ask?
+			NoHome: Do I have somewhere to live?
+		}
+	}
+
+	BlacksteelSight: {
+		DisplayName: Blacksteel Sight
+	}
+
+	BlacksteelEscapePod: {
+		DisplayName: Blacksteel Escape Pod
+	}
+
+	"Friendly Blacksteel Soldier": {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Blacksteel Soldier
+	}
+
+	BlacksteelSoldierTown: {
+		TownNPCMood: {
+			Princess_LovesNPC: A princess is always unique.
+			LikeNPC_Princess: A princess? Neat!
+			HateCrowded: I'd like to personally request a mission, please?
+			DislikeCrowded: There is a ton of people here, is it time for a mission?
+			LoveSpace: Hey, I could actually see myself loving it here!
+			FarFromHome: I am too far from home.
+			NoHome: A home? No need! I'm here to serve you!
+			Content: Me? Aww, I'm great, thanks!
+		}
+
+		DisplayName: Blacksteel Soldier
+	}
+
+	BlacksteelSoldier: {
+		DisplayName: Blacksteel Soldier
+	}
+
+	DreamEaterTail: {
+		DisplayName: Dream Eater
+	}
+
+	DreamEaterHead: {
+		DisplayName: Dream Eater
+	}
+
+	DreamEaterBody: {
+		DisplayName: Dream Eater
+	}
+
+	LaserMine: {
+		DisplayName: Laser Mine
+	}
+
+	BlacksteelDrone: {
+		DisplayName: Blacksteel Drone
+	}
+
+	AncientBlacksteel: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:PHME/AlienBeacon]
+		}
+
+		DisplayName: Ancient Blacksteel
+	}
+
+	BlacksteelPylon: {
+		DisplayName: Blacksteel Pylon
+	}
+
+	AmalClaw: {
+		DisplayName: Amalgam's Claw
+	}
+
+	"Multiversal Genius": {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LoveNPC: I love {NPCName}.
+			HateBiome: I hate {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Multiversal  Genius
+	}
+
+	"Cool guy": {
+		TownNPCMood: {
+			LikeNPC_Princess: "{NPCName} REALLY needs some candy."
+			Princess_LovesNPC: "{NPCName} needs some candy."
+			HateNPC: AAAAAAAAAAA- ALIEN! KILL IT WITH FIRE, WHATEVER AJYAFKUJCGHAVY
+			DislikeNPC: "{NPCName} sucks balls."
+			LoveNPC: Boy oh boi some people are lookin FOIINE O; (i'd smash the zoologist)
+			LikeNPC: that goblin is a good hustler
+			HateBiome: Bruh this place smells like ass, don't ask how i know what that smells like.
+			DislikeBiome: all the wood in this place makes it feel so basic...
+			LoveBiome: WOOOOO I LOVE THE COLD
+			LikeBiome: it's aight here
+			HateCrowded: All the noise make me want to explode
+			DislikeCrowded: get some people outa here!
+			FarFromHome: can you carry me to my house?
+			LoveSpace: this is the best place ive ever seen in my entire fucking life.
+			NoHome: Bruh, I need a house. dumbass...
+			Content: yo, i feel gooooooooooooooooood.
+		}
+
+		DisplayName: Cool guy
+	}
+
+	CircleBoss2: {
+		DisplayName: Circle Boss2
+	}
+
+	CircleBoss: {
+		DisplayName: Circle Boss
+	}
+
+	Tper: {
+		DisplayName: Condensed Energy
+	}
+
+	Vetaran: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			HateBiome: I hate {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Vetaran
+	}
+
+	Multiversal_Genius: {
+		DisplayName: Multiversal Genius
+	}
+
+	Cool_guy: {
+		DisplayName: Cool guy
+	}
+
+	SteampunkDrone: {
+		DisplayName: Steampunk Drone
+	}
+
+	Spearos: {
+		DisplayName: Spearos
+	}
+
+	SnowmanAssociate: {
+		DisplayName: Snowman
+	}
+
+	S1: {
+		DisplayName: Infected Grunt
+	}
+
+	RustSpearos: {
+		DisplayName: Rusted Spearos
+	}
+
+	RoyalPyro: {
+		DisplayName: Royal Pyroclasm
+	}
+
+	RottenCarrot: {
+		DisplayName: Rotten Carrot
+	}
+
+	npc_dragon_skull: {
+		DisplayName: Dragon Skull
+	}
+
+	MoltenCrystallic: {
+		DisplayName: Molten Crystallic
+	}
+
+	IceCrystallic: {
+		DisplayName: Ice Crystallic
+	}
+
+	HauntedLantern: {
+		DisplayName: Haunted Lantern
+	}
+
+	FirosI: {
+		DisplayName: Ichor-Bane Pyroclasm
+	}
+
+	FirosC: {
+		DisplayName: Curesd Pyroclasm
+	}
+
+	Firos: {
+		DisplayName: Pyroclasm
+	}
+
+	ElectricCrystallic: {
+		DisplayName: Electric Crystallic
+	}
+
+	TempleGuardian: {
+		DisplayName: Guardian Of The Temple
+	}
+
+	SteamEye: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:PHME/SSR] at night
+		}
+
+		DisplayName: Steampunk Eye
+	}
+
+	ShroomSkull: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:PHME/Muskull] in the Glowing Mushroom biome
+		}
+
+		DisplayName: Infested Skull
+	}
+
+	SteampunkEye: {
+		BossChecklistIntegration: {
+			EntryName: The Sentry
+			SpawnInfo: Use a [i:PHME/HSR] at night
+		}
+
+		DisplayName: The Sentry
+	}
+
+	PyroBoss: {
+		BossChecklistIntegration: {
+			EntryName: The Sun's Origin
+			SpawnInfo: Use a [i:PHME/PyroBossSummon] at night
+		}
+
+		DisplayName: The Sun's Origin
+	}
+
+	Dumpster: {
+		DisplayName: The Dumpster
+	}
+
+	GlurchTheAbominousMass: {
+		BossChecklistIntegration: {
+			EntryName: Glurch, the Abominous Mass
+			SpawnInfo: Use a [i:PHME/GiantSlimeSummoningIdol] at night
+		}
+
+		DisplayName: Glurch, The Abominous Mass
+	}
+
+	GlurchSlime: {
+		DisplayName: Slime
+	}
+
+	ElecEelTail: {
+		DisplayName: The Great Electric Eel
+	}
+
+	ElecEelBody: {
+		DisplayName: The Great Electric Eel
+	}
+
+	ElecEelHead: {
+		BossChecklistIntegration: {
+			EntryName: The Great Electric Eel
+			SpawnInfo: Use a [i:PHME/YumBait] in the beach
+		}
+
+		DisplayName: The Great Electric Eel
+	}
+
+	Amalgam: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:PHME/AmalSpawn] in the Trash Wastelands (underground trash biome)
+		}
+
+		DisplayName: The Amalgam
+	}
+
+	AmalArm: {
+		DisplayName: The Amalgam's Arm
+	}
+
+	SkeletronUltra: {
+		DisplayName: Skeletron Ultra, the sexiest beast of all time!
+	}
+}
+
+GameTips: {
+	Tip5: Blacksteel becomes way more usseful in hardmode!
+	Tip4: Ruthenium has Boss Checklist compatability!
+	Tip3: Ever wanted to gamble? Well Donut Dudes your dude!
+	Tip2: There's a few small structures that add to Rutheniums lore! Keep your eyes peeled!
+	Tip1: Uranium may seem useless, but wait for what it's truly worth!
+	Tip0: Ruthenium updates frequently! Be sure to stay tuned!
+}
+
+Prefixes: {
+	Weapon: {
+		Smoky: {
+			DisplayName: Smoky
+		}
+
+		Burning: {
+			DisplayName: Burning
+		}
+	}
+
+	Burning: {
+		DisplayName: Burning
+	}
+
+	Smoky: {
+		DisplayName: Smoky
+	}
+
+	Flawless: {
+		DisplayName: Flawless
+	}
+
+	RustPrefix: {
+		DisplayName: Rusty
+	}
+}
+
+Biomes: {
+	TrashUnderground: {
+		TownNPCDialogueName: Trashed Wastelands
+		DisplayName: Trashed Wastelands
+	}
+
+	TrashSurface: {
+		TownNPCDialogueName: Trashed Wastelands
+		DisplayName: Trashed Wastelands
+	}
+
+	FactorySurfaceBiome: {
+		DisplayName: The Factory
+	}
+}
+
+TownNPCMood: {
+	FounderTown: {
+		HateNPC: "{NPCName} is incredibly distracting, could you move me somewhere? Even for a little?"
+		DislikeNPC: '''"{NPCName} seems very... disruptive, to say the least."'''
+		LoveNPC: Hey! {NPCName} seems to understand the complexity of my reaseach! I love it!
+		LikeNPC: "{NPCName} is incredible! It's impressive!"
+		HateBiome: I... uh, why {BiomeName}? This... isn't my fault... right?
+		DislikeBiome: The sand seems to seep into my important documents, not too biggie, but still a bit of an annoyance.
+		LoveBiome: Hey! How'd you know I loved {BiomeName}!?
+		LikeBiome: It's nice here, nice, calm, serene, thanks!
+		HateCrowded: I can't get any research done with this crowd!
+		DislikeCrowded: There are a LOT, of people here.
+		FarFromHome: My house seems to be pretty far from here... I'll manage.
+		LoveSpace: This place is perfect! Thanks for this opportunity!
+		NoHome: Do I have somewhere to live?
+		Content: I'm fine. Why'd you ask?
+	}
+
+	DonutDude: {
+		LikeNPC_Princess: "{NPCName} REALLY needs some candy."
+		Princess_LovesNPC: "{NPCName} needs some candy."
+		HateNPC: AAAAAAAAAAA- ALIEN! KILL IT WITH FIRE, WHATEVER AJYAFKUJCGHAVY
+		DislikeNPC: "{NPCName} sucks balls."
+		LoveNPC: Boy oh boi some people are lookin FOIINE O; (i'd smash the zoologist)
+		LikeNPC: that goblin is a good hustler
+		HateBiome: Bruh this place smells like ass, don't ask how i know what that smells like.
+		DislikeBiome: all the wood in this place makes it feel so basic...
+		LoveBiome: WOOOOO I LOVE THE COLD
+		LikeBiome: it's aight here
+		HateCrowded: All the noise make me want to explode
+		DislikeCrowded: get some people outa here!
+		FarFromHome: can you carry me to my house?
+		LoveSpace: this is the best place ive ever seen in my entire fucking life.
+		NoHome: Bruh, I need a house. dumbass...
+		Content: yo, i feel gooooooooooooooooood.
+	}
+
+	Veteran: {
+		HateNPC: I hate all the loud noises caused by {NPCName} and his explosives! I just want peace and quiet.
+		DislikeNPC: '''"{NPCName} keeps rambling on about "payed mods"... Wish I could convince him how terrible of an idea that is."'''
+		LoveNPC: Do you think {NPCName} notices me?
+		LikeNPC: I can respect {NPCName} as a fellow guide and educator!
+		HateBiome: Its kind of hard to mod while being attacked by monsters in {BiomeName}.
+		DislikeBiome: It's way too cold in {BiomeName}, I'm freezing!
+		LoveBiome: I love {BiomeName}.
+		LikeBiome: "{BiomeName} is a very nice place to test mods in."
+		HateCrowded: I can't test my mod with so many people around!
+		DislikeCrowded: There are too many people around, it makes it hard for me to focus on mod making.
+		FarFromHome: Could you please get me back to my house?
+		LoveSpace: I love how there is so much space here to code tModLoader mods!
+		NoHome: I would very much like a house, all the colorful monsters scare me.
+		Content: I feel pretty fine right now.
+	}
+}
+
+DamageClasses: {
+	Gen: {
+		DisplayName: damage
+	}
+
+	SmokeClass: {
+		DisplayName: smoke damage
+	}
+
+	BakerClass: {
+		DisplayName: baker damage
+	}
+}
+
+Config: {
+	IncreaseMaxStack: "[i:2] Increased Max Stacks"
+}
+

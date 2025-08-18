@@ -1,0 +1,30 @@
+Items: {
+	ArmorPolishDye: {
+		DisplayName: Armor Polish Dye
+		Tooltip: Unobtainable, only used to set an ID for the dye to be used when necessary
+	}
+
+	CatEars: {
+		DisplayName: Cat Ears
+		Tooltip:
+			'''
+			Glows in the dark!
+			Dev Item
+			'''
+	}
+
+	MathewsStylishBowtie: {
+		DisplayName: Maple's Stylish Bowtie
+		Tooltip:
+			'''
+			Great for impersonating idiots!
+			Dev Item
+			'''
+	}
+
+	MaplesStylishBowtie: {
+		DisplayName: Maples Stylish Bowtie
+		Tooltip: ""
+	}
+}
+

@@ -1,0 +1,784 @@
+Projectiles: {
+	SantaWaterPuddleProjectile: {
+		DisplayName: Santa Water Puddle Projectile
+	}
+
+	SantaWaterControllerProjectile: {
+		DisplayName: Santa Water Controller Projectile
+	}
+
+	SantaWaterBottleProjectile: {
+		DisplayName: Santa Water Bottle Projectile
+	}
+
+	KingBibleProjectile: {
+		DisplayName: King Bible Projectile
+	}
+
+	KingBibleControllerProjectile: {
+		DisplayName: King Bible Controller Projectile
+	}
+
+	CrossProjectile: {
+		DisplayName: Cross Projectile
+	}
+
+	CrossControllerProjectile: {
+		DisplayName: Cross Controller Projectile
+	}
+
+	AxeProjectile: {
+		DisplayName: Axe Projectile
+	}
+
+	AxeControllerProjectile: {
+		DisplayName: Axe Controller Projectile
+	}
+
+	WhipProjectile: {
+		DisplayName: Whip Projectile
+	}
+
+	WhipControllerProjectile: {
+		DisplayName: Whip Controller Projectile
+	}
+
+	BoneProjectile: {
+		DisplayName: Bone Projectile
+	}
+
+	BoneControllerProjectile: {
+		DisplayName: Bone Controller Projectile
+	}
+
+	KnifeProjectile: {
+		DisplayName: Knife Projectile
+	}
+
+	KnifeControllerProjectile: {
+		DisplayName: Knife Controller Projectile
+	}
+
+	boneProjectile: {
+		DisplayName: bone Projectile
+	}
+
+	boneControllerProjectile: {
+		DisplayName: bone Controller Projectile
+	}
+
+	RuneTracerProjectile: {
+		DisplayName: Rune Tracer Projectile
+	}
+
+	RuneTracerControllerProjectile: {
+		DisplayName: Rune Tracer Controller Projectile
+	}
+
+	FireWandProjectile: {
+		DisplayName: Fire Wand Projectile
+	}
+
+	FireWandControllerProjectile: {
+		DisplayName: Fire Wand Controller Projectile
+	}
+
+	MagicWandProjectile: {
+		DisplayName: Magic Wand Projectile
+	}
+
+	MagicWandControllerProjectile: {
+		DisplayName: Magic Wand Controller Projectile
+	}
+
+	GarlicAuraProjectileLvl1: {
+		DisplayName: Garlic Aura Projectile Lvl1
+	}
+
+	GarlicAuraProjectile: {
+		DisplayName: Garlic Aura Projectile
+	}
+}
+
+Items: {
+	SantaWaterLvl8: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl8
+	}
+
+	SantaWaterLvl7: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl7
+	}
+
+	SantaWaterLvl6: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl6
+	}
+
+	SantaWaterLvl5: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl5
+	}
+
+	SantaWaterLvl4: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl4
+	}
+
+	SantaWaterLvl3: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl3
+	}
+
+	SantaWaterLvl2: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl2
+	}
+
+	SantaWaterLvl1: {
+		Tooltip: ""
+		DisplayName: Santa Water Lvl1
+	}
+
+	KingBibleLvl8: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl8
+	}
+
+	KingBibleLvl7: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl7
+	}
+
+	KingBibleLvl6: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl6
+	}
+
+	KingBibleLvl5: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl5
+	}
+
+	KingBibleLvl4: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl4
+	}
+
+	KingBibleLvl3: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl3
+	}
+
+	KingBibleLvl2: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl2
+	}
+
+	KingBibleLvl1: {
+		Tooltip: ""
+		DisplayName: King Bible Lvl1
+	}
+
+	CrossLvl8: {
+		Tooltip: ""
+		DisplayName: Cross Lvl8
+	}
+
+	CrossLvl7: {
+		Tooltip: ""
+		DisplayName: Cross Lvl7
+	}
+
+	CrossLvl6: {
+		Tooltip: ""
+		DisplayName: Cross Lvl6
+	}
+
+	CrossLvl5: {
+		Tooltip: ""
+		DisplayName: Cross Lvl5
+	}
+
+	CrossLvl4: {
+		Tooltip: ""
+		DisplayName: Cross Lvl4
+	}
+
+	CrossLvl3: {
+		Tooltip: ""
+		DisplayName: Cross Lvl3
+	}
+
+	CrossLvl2: {
+		Tooltip: ""
+		DisplayName: Cross Lvl2
+	}
+
+	CrossLvl1: {
+		Tooltip: ""
+		DisplayName: Cross Lvl1
+	}
+
+	SpellbinderLvl5: {
+		Tooltip: ""
+		DisplayName: Spellbinder Lvl5
+	}
+
+	SpellbinderLvl4: {
+		Tooltip: ""
+		DisplayName: Spellbinder Lvl4
+	}
+
+	SpellbinderLvl3: {
+		Tooltip: ""
+		DisplayName: Spellbinder Lvl3
+	}
+
+	SpellbinderLvl2: {
+		Tooltip: ""
+		DisplayName: Spellbinder Lvl2
+	}
+
+	SpellbinderLvl1: {
+		Tooltip: ""
+		DisplayName: Spellbinder Lvl1
+	}
+
+	HollowHeartLvl5: {
+		Tooltip: ""
+		DisplayName: Hollow Heart Lvl5
+	}
+
+	HollowHeartLvl4: {
+		Tooltip: ""
+		DisplayName: Hollow Heart Lvl4
+	}
+
+	HollowHeartLvl3: {
+		Tooltip: ""
+		DisplayName: Hollow Heart Lvl3
+	}
+
+	HollowHeartLvl2: {
+		Tooltip: ""
+		DisplayName: Hollow Heart Lvl2
+	}
+
+	HollowHeartLvl1: {
+		Tooltip: ""
+		DisplayName: Hollow Heart Lvl1
+	}
+
+	PummarolaLvl5: {
+		Tooltip: ""
+		DisplayName: Pummarola Lvl5
+	}
+
+	PummarolaLvl4: {
+		Tooltip: ""
+		DisplayName: Pummarola Lvl4
+	}
+
+	PummarolaLvl3: {
+		Tooltip: ""
+		DisplayName: Pummarola Lvl3
+	}
+
+	PummarolaLvl2: {
+		Tooltip: ""
+		DisplayName: Pummarola Lvl2
+	}
+
+	PummarolaLvl1: {
+		Tooltip: ""
+		DisplayName: Pummarola Lvl1
+	}
+
+	BracerLvl5: {
+		Tooltip: ""
+		DisplayName: Bracer Lvl5
+	}
+
+	BracerLvl4: {
+		Tooltip: ""
+		DisplayName: Bracer Lvl4
+	}
+
+	BracerLvl3: {
+		Tooltip: ""
+		DisplayName: Bracer Lvl3
+	}
+
+	BracerLvl2: {
+		Tooltip: ""
+		DisplayName: Bracer Lvl2
+	}
+
+	BracerLvl1: {
+		Tooltip: ""
+		DisplayName: Bracer Lvl1
+	}
+
+	CandelabradorLvl5: {
+		Tooltip: ""
+		DisplayName: Candelabrador Lvl5
+	}
+
+	CandelabradorLvl4: {
+		Tooltip: ""
+		DisplayName: Candelabrador Lvl4
+	}
+
+	CandelabradorLvl3: {
+		Tooltip: ""
+		DisplayName: Candelabrador Lvl3
+	}
+
+	CandelabradorLvl2: {
+		Tooltip: ""
+		DisplayName: Candelabrador Lvl2
+	}
+
+	CandelabradorLvl1: {
+		Tooltip: ""
+		DisplayName: Candelabrador Lvl1
+	}
+
+	SpinachLvl5: {
+		Tooltip: ""
+		DisplayName: Spinach Lvl5
+	}
+
+	SpinachLvl4: {
+		Tooltip: ""
+		DisplayName: Spinach Lvl4
+	}
+
+	SpinachLvl3: {
+		Tooltip: ""
+		DisplayName: Spinach Lvl3
+	}
+
+	SpinachLvl2: {
+		Tooltip: ""
+		DisplayName: Spinach Lvl2
+	}
+
+	SpinachLvl1: {
+		Tooltip: ""
+		DisplayName: Spinach Lvl1
+	}
+
+	DuplicatorLvl2: {
+		Tooltip: ""
+		DisplayName: Duplicator Lvl2
+	}
+
+	DuplicatorLvl1: {
+		Tooltip: ""
+		DisplayName: Duplicator Lvl1
+	}
+
+	EmptyTomeLvl5: {
+		Tooltip: ""
+		DisplayName: Empty Tome Lvl5
+	}
+
+	EmptyTomeLvl4: {
+		Tooltip: ""
+		DisplayName: Empty Tome Lvl4
+	}
+
+	EmptyTomeLvl3: {
+		Tooltip: ""
+		DisplayName: Empty Tome Lvl3
+	}
+
+	EmptyTomeLvl2: {
+		Tooltip: ""
+		DisplayName: Empty Tome Lvl2
+	}
+
+	EmptyTomeLvl1: {
+		Tooltip: ""
+		DisplayName: Empty Tome Lvl1
+	}
+
+	AxeLvl8: {
+		Tooltip: ""
+		DisplayName: Axe Lvl8
+	}
+
+	AxeLvl7: {
+		Tooltip: ""
+		DisplayName: Axe Lvl7
+	}
+
+	AxeLvl6: {
+		Tooltip: ""
+		DisplayName: Axe Lvl6
+	}
+
+	AxeLvl5: {
+		Tooltip: ""
+		DisplayName: Axe Lvl5
+	}
+
+	AxeLvl4: {
+		Tooltip: ""
+		DisplayName: Axe Lvl4
+	}
+
+	AxeLvl3: {
+		Tooltip: ""
+		DisplayName: Axe Lvl3
+	}
+
+	AxeLvl2: {
+		Tooltip: ""
+		DisplayName: Axe Lvl2
+	}
+
+	AxeLvl1: {
+		Tooltip: ""
+		DisplayName: Axe Lvl1
+	}
+
+	WhipLvl8: {
+		Tooltip: ""
+		DisplayName: Whip Lvl8
+	}
+
+	WhipLvl7: {
+		Tooltip: ""
+		DisplayName: Whip Lvl7
+	}
+
+	WhipLvl6: {
+		Tooltip: ""
+		DisplayName: Whip Lvl6
+	}
+
+	WhipLvl5: {
+		Tooltip: ""
+		DisplayName: Whip Lvl5
+	}
+
+	WhipLvl4: {
+		Tooltip: ""
+		DisplayName: Whip Lvl4
+	}
+
+	WhipLvl3: {
+		Tooltip: ""
+		DisplayName: Whip Lvl3
+	}
+
+	WhipLvl2: {
+		Tooltip: ""
+		DisplayName: Whip Lvl2
+	}
+
+	WhipLvl1: {
+		Tooltip: ""
+		DisplayName: Whip Lvl1
+	}
+
+	BoneLvl8: {
+		Tooltip: ""
+		DisplayName: Bone Lvl8
+	}
+
+	BoneLvl7: {
+		Tooltip: ""
+		DisplayName: Bone Lvl7
+	}
+
+	BoneLvl6: {
+		Tooltip: ""
+		DisplayName: Bone Lvl6
+	}
+
+	BoneLvl5: {
+		Tooltip: ""
+		DisplayName: Bone Lvl5
+	}
+
+	BoneLvl4: {
+		Tooltip: ""
+		DisplayName: Bone Lvl4
+	}
+
+	BoneLvl3: {
+		Tooltip: ""
+		DisplayName: Bone Lvl3
+	}
+
+	BoneLvl2: {
+		Tooltip: ""
+		DisplayName: Bone Lvl2
+	}
+
+	BoneLvl1: {
+		Tooltip: ""
+		DisplayName: Bone Lvl1
+	}
+
+	KnifeLvl8: {
+		Tooltip: ""
+		DisplayName: Knife Lvl8
+	}
+
+	KnifeLvl7: {
+		Tooltip: ""
+		DisplayName: Knife Lvl7
+	}
+
+	KnifeLvl6: {
+		Tooltip: ""
+		DisplayName: Knife Lvl6
+	}
+
+	KnifeLvl5: {
+		Tooltip: ""
+		DisplayName: Knife Lvl5
+	}
+
+	KnifeLvl4: {
+		Tooltip: ""
+		DisplayName: Knife Lvl4
+	}
+
+	KnifeLvl3: {
+		Tooltip: ""
+		DisplayName: Knife Lvl3
+	}
+
+	KnifeLvl2: {
+		Tooltip: ""
+		DisplayName: Knife Lvl2
+	}
+
+	KnifeLvl1: {
+		Tooltip: ""
+		DisplayName: Knife Lvl1
+	}
+
+	boneLvl8: {
+		Tooltip: ""
+		DisplayName: bone Lvl8
+	}
+
+	boneLvl7: {
+		Tooltip: ""
+		DisplayName: bone Lvl7
+	}
+
+	boneLvl6: {
+		Tooltip: ""
+		DisplayName: bone Lvl6
+	}
+
+	boneLvl5: {
+		Tooltip: ""
+		DisplayName: bone Lvl5
+	}
+
+	boneLvl4: {
+		Tooltip: ""
+		DisplayName: bone Lvl4
+	}
+
+	boneLvl3: {
+		Tooltip: ""
+		DisplayName: bone Lvl3
+	}
+
+	boneLvl2: {
+		Tooltip: ""
+		DisplayName: bone Lvl2
+	}
+
+	boneLvl1: {
+		Tooltip: ""
+		DisplayName: bone Lvl1
+	}
+
+	RuneTracerLvl8: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl8
+	}
+
+	RuneTracerLvl7: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl7
+	}
+
+	RuneTracerLvl6: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl6
+	}
+
+	RuneTracerLvl5: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl5
+	}
+
+	RuneTracerLvl4: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl4
+	}
+
+	RuneTracerLvl3: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl3
+	}
+
+	RuneTracerLvl2: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl2
+	}
+
+	RuneTracerLvl1: {
+		Tooltip: ""
+		DisplayName: Rune Tracer Lvl1
+	}
+
+	FireWandLvl8: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl8
+	}
+
+	FireWandLvl7: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl7
+	}
+
+	FireWandLvl6: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl6
+	}
+
+	FireWandLvl5: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl5
+	}
+
+	FireWandLvl4: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl4
+	}
+
+	FireWandLvl3: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl3
+	}
+
+	FireWandLvl2: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl2
+	}
+
+	FireWandLvl1: {
+		Tooltip: ""
+		DisplayName: Fire Wand Lvl1
+	}
+
+	MagicWandLvl8: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl8
+	}
+
+	MagicWandLvl7: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl7
+	}
+
+	MagicWandLvl6: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl6
+	}
+
+	MagicWandLvl5: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl5
+	}
+
+	MagicWandLvl4: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl4
+	}
+
+	MagicWandLvl3: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl3
+	}
+
+	MagicWandLvl2: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl2
+	}
+
+	MagicWandLvl1: {
+		Tooltip: ""
+		DisplayName: Magic Wand Lvl1
+	}
+
+	VampariaChest: {
+		Tooltip: ""
+		DisplayName: Vamparia Chest
+	}
+
+	GarlicLvl8: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl8
+	}
+
+	GarlicLvl7: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl7
+	}
+
+	GarlicLvl6: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl6
+	}
+
+	GarlicLvl5: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl5
+	}
+
+	GarlicLvl4: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl4
+	}
+
+	GarlicLvl3: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl3
+	}
+
+	GarlicLvl2: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl2
+	}
+
+	GarlicLvl1: {
+		Tooltip: ""
+		DisplayName: Garlic Lvl1
+	}
+
+	Garlic: {
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+		DisplayName: Garlic
+	}
+}
+

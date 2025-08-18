@@ -1,0 +1,420 @@
+CommonTooltips: {
+	Shield: " Shield"
+}
+
+Configs: {
+	Config: {
+		Headers: {
+			HeaderGeneral: "[i:1344] General [i:1344]"
+			HeaderSpecials: "[i:3230] Special Display Cases [i:3230]"
+			HeaderAppearance: "[i:3629] Bar Appearance [i:3629]"
+			HeaderAppearance2: "[i:1096] Bar Colors [i:1096]"
+			HeaderVFX: "[i:1345] Bar VFX [i:1345]"
+			HeaderAppearance3: "[i:5126] Bar Offset [i:5126]"
+		}
+
+		DisplayName: Main Config
+
+		betterHPDisplay: {
+			Label: "[i:3617] Modded text display"
+			Tooltip:
+				'''
+				Toggles if a text display should be used with the new Boss Bar style
+				It can also replace the vanilla text display, so long as it is toggled off
+				Unlike vanilla, this display will also show the boss's name
+				Also, the Special Display Cases settings below can display certain Bosses' HP in new ways
+				Defaults to true
+				'''
+		}
+
+		percentHPDisplay: {
+			Label: "[i:3095] Percent HP text display"
+			Tooltip:
+				'''
+				Toggles an addition to the modded text display that shows the boss's remaining HP in percent form
+				Note that this only effects the Modded text display and will do nothing if that setting is false
+				Defaults to false
+				'''
+		}
+
+		brainCreepers: {
+			Label: "[i:1331] Brain of Cthulhu - Creepers"
+			Tooltip:
+				'''
+				Toggles if the Brain of Cthulhu's Creepers are counted towards BoC's cumulative HP for text displays
+				Both this mod's and vanilla's Boss Bars account for this in their display
+				Defaults to true
+				'''
+		}
+
+		skeletronHands: {
+			Label: "[i:1307] Skeletron - Hands"
+			Tooltip:
+				'''
+				Toggles if Skeletron's hands are counted towards Skeletron's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		primeHands: {
+			Label: "[i:557] Skeletron Prime - Hands"
+			Tooltip:
+				'''
+				Toggles if Skeletron Prime's limbs are counted towards Prime's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		golemHands: {
+			Label: "[i:1293] Golem - Hands"
+			Tooltip:
+				'''
+				Toggles if Golem's hands are counted towards Golem's cumulative HP for text displays
+				Defaults to false
+				'''
+		}
+
+		optionalPartAccounting: {
+			Label: "[i:1273] Boss Bar accounts for optional parts"
+			Tooltip:
+				'''
+				Toggles if optional boss parts (Ex: Prime's limbs) that have their text displays activated (See config. above) also are accounted for by this mod's boss bars
+				If set to false, boss parts not mandatory to a boss's defeat won't be used in the boss bar's calculations when determining how full their bar should be
+				Defaults to true
+				'''
+		}
+
+		twinsDisplay: {
+			Label: "[i:544] The Twins"
+			Tooltip:
+				'''
+				Toggles how The Twins health is managed and displayed
+				Cumulative Text: The culumative HP of the Twins is used for the text display
+				Singular Text: The HP of the most recently hit Twin is used for the text display
+				Cumulative Text & HP: The culumative HP of the Twins is used for the text display and the (modded) boss bar
+				Seperate: Each Twin is tracked completely seperatley for both text display and the (modded) boss bar
+				Vanilla: Uses cumulative text and boss bar while both Twins are alive, and then swaps to singular text and boss bar when there is only one Twin left
+				Applies to text displays, and in the case of the 'Cumulative Text & HP', 'Seperate', and 'Vanilla' options, this mod's Boss Bar
+				Note that using options other than 'Seperate' will result in duplicate info if both Twins are displaying a boss bar simultaneously
+				'''
+		}
+
+		mechDisplay: {
+			Label: "[i:5334] Mechdusa"
+			Tooltip:
+				'''
+				Note: Only applicable in Get Fixed Boi worlds
+				Determines how to display the Mechdusa's boss bar text display(s)
+				Naming Only: Just display Mechdusa's name in place of its component bosses'. Each mech's bar(s) behave independently
+				Name & HP: The (modded) boss bar uses the cumulative HP of Mechdusa (regardless of remaining component bosses) in addition to naming
+				Vanilla: Completly prevent the mod from checking for Mechdusa, instead acting as though each Mech is an independent boss, like Vanilla
+				Applies to text displays, and in the case of the 'Name & HP' option, this mod's Boss Bar
+				'''
+		}
+
+		barThemeOverride: {
+			Label: "[i:5229] Boss Bar Theme"
+			Tooltip:
+				'''
+				Allows you to override the boss bar theme and choose one to always display
+				The theme mainly affects the bar's color, and - unless overriden here - is normally dependent on world difficulty;
+				- Classic Silver is gray-colored and normally appears in Classic Mode (or lower, if in Journey Mode)
+				- Expert Gold is yellow-colored and normally appears in Expert Mode
+				- Master Platinum is blue-colored and normally appears in Master Mode
+				- Worthy Crimson is red-colored and normally appears in For The Worthy worlds (any difficulty)
+				- Legendary Emerald is green-colored and normally appears in Get Fixed Boi worlds (Master Mode)
+				- Mini Copper is brown-colored, smaller than average, and normally appears on minibosses (any difficulty/world)
+				Note that bars for minibosses are unaffected by this setting, as they always use the Mini Copper theme
+				'''
+		}
+
+		barStyle: {
+			Label: "[i:5061] Boss Bar Style"
+			Tooltip:
+				'''
+				Sets the style for boss bars, affecting their appearance
+				This is seperate from Boss Bar Theme; each style has a unqiue appearance for each theme, and vice versa
+				The currently-avaliable styles are as follows;
+				- Default: The standard appearance for Block's Boss Bars. Hybrid of vanilla and YABHB styles
+				- Legacy: The standard appearance prior to the v1.2.2 update. Similar to its successor
+				- Vanilla-Style: An appearance that is very similar to the vanilla boss bar
+				- YABHB-Style: An appearance that is very similar to the boss bars from Flashkirby's Yet Another Boss Health Bar mod (from tML 1.3)
+				'''
+		}
+
+		barScale: {
+			Label: "[i:2799] Boss Bar Scale"
+			Tooltip:
+				'''
+				Multiplies the scale of the boss bar by the specified amount
+				Note that this stacks with vanilla's universal UI scale setting
+				'''
+		}
+
+		barShake: {
+			Label: "[i:1262] Boss Bar Shake"
+			Tooltip:
+				'''
+				Controls the intensity of a shaking effect applied to the boss bar when the boss takes damage
+				Set to 0 to disable the effect entirely
+				'''
+		}
+
+		barChip: {
+			Label: "[i:579] Boss Bar Health Chipping"
+			Tooltip: Causes a chipping effect on the boss bar's life (or shield) fill, representing damage dealt in concession
+		}
+
+		extraBarNPCs: {
+			Label: "[i:3828] Additional NPCs to give Boss Bars"
+			Tooltip:
+				'''
+				Add NPCs to this list to make this mod draw its boss bars for them
+				Bosses with built-in support are prioritized over these, and this setting has no effect if the added NPC already draws a boss bar
+				Note that when NPCs are given bars this way, the bars will NOT support multiple parts (Ex: Skeletron Hands) or shield bars
+				Worms should have their head (But not their body or tail) added, and NPCs which 'transform' (Ex: Wall Creepers's walking/climbing states) should have all forms added
+				If desired, modders can add more intricate support with advanced behaviors for their bosses via. Calls
+				'''
+		}
+
+		prioAddOnBarLogic: {
+			Label: "[i:3619] Prioritize Add-On Bar Logic"
+			Tooltip:
+				'''
+				Other mods may add custom boss bar logic for their boss(es) via. Calls, allowing this mod's boss bar to support the boss(es)
+				When this setting is active, bosses with custom logic added in this manner will be prioritized over vanilla/built-in boss bar logic
+				Note that this has the ramification of causing modded bosses' bars to override vanilla bosses' bars, if both are present at once
+				'''
+		}
+
+		getGoodBars: {
+			Label: "[i:4938] Allow Worthy Bars"
+			Tooltip:
+				'''
+				In addition to bar styles for Classic, Expert, and Master mode, there are also two bars for FTW and GFB
+				This toggle determines if these bars are allowed to show on FTW or GFB worlds
+				When active, Classic and Expert FTW/GFB worlds use the 'Worthy Crimson' style, and Master FTW/GFB worlds use 'Legendary Emerald'
+				'''
+		}
+
+		getFixedBars: {
+			Label: "[i:5382] Restrict Legendary Bar to GFB"
+			Tooltip:
+				'''
+				When paired with 'Allow Worthy Bars', this causes the 'Legendary Emerald' style to only appear in Master GFB worlds
+				Otherwise, 'Legendary Emerald' may appear in Master FTW worlds as well
+				'''
+		}
+
+		barOffset: {
+			Label: "[i:3611] Bar Position Offset"
+			Tooltip:
+				'''
+				Moves the draw position of the boss bar by the specified vector2
+				The X value impacts horizontal positioning, and the Y value impacts vertial positioning
+				Negative values move the bar towards the top left of the screen, and positive values move the bar towards the bottom right
+				'''
+		}
+
+		minibossNPCs: {
+			Label: "[i:2770] NPCs to give Miniboss Bars"
+			Tooltip:
+				'''
+				Add NPCs to this list to make this mod draw its boss bars for them
+				Boss bars drawn for NPCs in this list will recieve a special, smaller bar style
+				This functions much like the 'Additional NPCs to give Boss Bars' config and has identical limitations
+				Note that full boss bars have priority over miniboss bars
+				'''
+		}
+
+		barFillAnimation: {
+			Label: "[i:4820] Boss Bar Fill Animation"
+			Tooltip:
+				'''
+				Controls how quickly the boss bar will fill up when initially engaging a boss
+				By default, this fill animation lasts about 2 seconds
+				Set it higher for a faster animation, or lower for a slower animation
+				Set to 0 to disable the animation, making the bar start filled
+				'''
+		}
+
+		multibarScaling: {
+			Label: "[i:5169] Multibar Resizing"
+			Tooltip:
+				'''
+				When multiple boss bars are displayed at once, they are condensed to save space
+				This setting determines how much smaller bars are made in this scenario
+				Higher values result in bars becoming smaller, lower values result in bars staying closer to full size
+				'''
+		}
+
+		multibar: {
+			Label: "[i:5187] Multibar Cap"
+			Tooltip:
+				'''
+				Controls how many different bosses the mod can simultaneously display boss bars for
+				When multiple bars are displayed at once, they will be stacked vertically
+				Bosses closest to the player will be prioritized when deciding which boss(es) to display bars for
+				'''
+		}
+
+		longBars: {
+			Label: "[i:2215] Long Bars"
+			Tooltip:
+				'''
+				When enabled, boss bar textures are swapped for extended versions
+				These extended versions are roughly 50% wider
+				'''
+		}
+
+		customColorFull: {
+			Label: "[i:1089] Full Health Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss is at full health
+				Based on the boss health, the color will smoothly transition between this color and the half health color
+				'''
+		}
+
+		customColorHalf: {
+			Label: "[i:1087] Half Health Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss is at half health
+				Based on the boss health, the color will smoothly transition between this color and the empty health color
+				'''
+		}
+
+		customColorEmpty: {
+			Label: "[i:1085] Empty Health Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss is out health
+				Based on the boss health, the color will smoothly transition between the half health color and this color
+				'''
+		}
+
+		customColorFullShield: {
+			Label: "[i:1091] Full Shield Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss has a full shield bar
+				Based on the boss health, the color will smoothly transition between this color and the half shield color
+				'''
+		}
+
+		customColorHalfShield: {
+			Label: "[i:1093] Half Shield Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss has half a shield bar
+				Based on the boss health, the color will smoothly transition between this color and the empty shield color
+				'''
+		}
+
+		customColorEmptyShield: {
+			Label: "[i:1094] Empty Shield Fill Color"
+			Tooltip:
+				'''
+				The color of the bar's fill when the boss's shield bar is depleted
+				Based on the boss health, the color will smoothly transition between the half shield color and this color
+				'''
+		}
+
+		altBarOffset: {
+			Label: "[i:407] Override Vector Offset"
+			Tooltip:
+				'''
+				Toggle between using the Vector-based setting above, and the Integer-based settings below for setting the boss bar offset
+				When false, the Vector setting above is used
+				When true, the Integer settings are used
+				Use of integers may be preferable to some, since values can be typed in percisely instead of using a slider
+				'''
+		}
+
+		barNudgeX: {
+			Label: "[i:486] Integer-based Offset (X)"
+			Tooltip:
+				'''
+				Nudges the boss bar's horizontal placement by the amount of pixels set here
+				Negative numbers move the UI closer to the left of the screen
+				Positive numbers move it closer to the right
+				Note that extreme values can move the UI off screen!
+				Also note that this config does nothing unless 'Override Vector Displacement' is true
+				'''
+		}
+
+		barNudgeY: {
+			Label: "[i:486] Integer-based Offset (Y)"
+			Tooltip:
+				'''
+				Nudges the boss bar's vertical placement by the amount of pixels set here
+				Negative numbers move the UI closer to the top of the screen
+				Positive numbers move it closer to the bottom
+				Note that extreme values can move the UI off screen!
+				Also note that this config does nothing unless 'Override Vector Displacement' is true
+				'''
+		}
+
+		multibarOffset: {
+			Label: "[i:5186] Multibar Offset"
+			Tooltip:
+				'''
+				Determines how much vertical space is between bars when multiple are being displayed at once
+				Lower numbers result in the bars being closer together, and higher values result in them being farther apart
+				Note that low values may cause bars to overlap
+				'''
+		}
+
+		textTint: {
+			Label: "[i:171] Text Draw Color"
+			Tooltip: Determines the color of the boss bar's text
+		}
+
+		barTint: {
+			Label: "[i:4668] Bar Draw Color"
+			Tooltip:
+				'''
+				Determines the color in which the boss bar renders
+				Bars will draw in their original color when this is set to white
+				Other colors will distort the coloration of the bar
+				Doesn't affect the color of the bar's fill (This has its own settings)
+				'''
+		}
+
+		bgOpacity: {
+			Label: "[i:392] Bar Background Opacity"
+			Tooltip:
+				'''
+				Adjusts how translucent the bar's background is
+				Lower values result in a more transparent background, higher values result in a more opaque background
+				Note that certain special bar styles don't support background transparency and always have opaque backgrounds
+				'''
+		}
+
+		fillOpacity: {
+			Label: "[i:170] Fill Opacity"
+			Tooltip:
+				'''
+				Adjusts how translucent the bar's fill is
+				Lower values result in a more transparent fill, higher values result in a more opaque fill
+				Note that certain special bar styles don't support fill transparency and always have opaque fills
+				'''
+		}
+
+		specialBar: {
+			Label: "[i:5354] Special Bar Style"
+			Tooltip:
+				'''
+				Additional options for bar style which override the default Boss Bar Style setting
+				Unlike standard styles, these special styles don't come with multiple themes
+				Thus, the Boss Bar Theme setting has no effect on these styles (Though some will react to the 'Mini Copper' option if they support miniboss bars)
+				The currently-avaliable styles are as follows;
+				- None: Don't use a special style. Let style instead be determined by the Boss Bar Style setting
+				- Borderless: A very minimialistic appearance based on common enemy health bars. Supports miniboss bars, but not head icons
+				- Simple: Similar to Borderless, but includes a frame around the fill. Supports miniboss bars, but not head icons
+				'''
+		}
+	}
+}
+

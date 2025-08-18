@@ -1,0 +1,37 @@
+Items: {
+	TerraPickaxe: {
+		DisplayName: Terra Pickaxe
+		Tooltip:
+			'''
+			The ultimate tool forged from every known pickaxe.
+			Glows with the energy of Terra.
+			Functions as a pickaxe and an axe.
+			'''
+	}
+
+	LunarExcavatorEmblem: {
+		DisplayName: Lunar Excavator Emblem
+		Tooltip:
+			'''
+			Increases mining speed by 33%
+			Forged from the Moon Lord's legendary pickaxes.
+			'''
+	}
+}
+
+Mods: {
+	TerraPickaxe: {
+		Items: {
+			LunarExcavatorEmblem: {
+				DisplayName: Lunar Excavator Emblem
+				Tooltip: ""
+			}
+
+			TerraPickaxe: {
+				DisplayName: Terra Pickaxe
+				Tooltip: ""
+			}
+		}
+	}
+}
+

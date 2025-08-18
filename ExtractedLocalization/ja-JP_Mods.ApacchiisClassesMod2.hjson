@@ -1,0 +1,1262 @@
+{
+	Changelog: {
+		Text:
+			'''
+			Modバージョン: [1.5.7]
+			--------------------------------------------[概要]--------------------------------------------
+
+			--------------------------------------------[全般]--------------------------------------------
+			- 全体的なクラスの回復力をナーフ
+			- クラスのステータスボーナスが適用されない問題を修正
+			- メモし忘れたいくつかのバグ修正
+			--------------------------------------------[クラス]--------------------------------------------
+			ブラッドメイジ
+			- アビリティ1 [輸血] のクールダウンを39秒から42秒に増加
+			- アルティメット [再生] のティック毎の基本回復量を1.6%から1.4%に減少
+			
+			クルセイダー
+			- アビリティ1 [保護] の基本回復量を13%から12%に減少
+
+			ソウルマンサー
+			- クラスメニューの全てのアビリティ値が誤って表示される問題を修正
+			- アビリティ1 [消費] が体力50%以上でも使用可能に
+			- アビリティ1が体力50%以上のプレイヤーも回復するようになったが、回復量は大幅に減少
+			- アビリティ1の基本持続時間を5秒から6秒に増加
+			- アビリティ1のクールダウンを29秒から42秒に増加
+			- アビリティ2 [魂の粉砕] のアガニムの笏/シャードによる効果範囲の縮小を175から150に減少
+
+			--------------------------------------------[レリック]--------------------------------------------
+
+			--------------------------------------------[アイテム]--------------------------------------------
+			'''
+	}
+
+	Configs: {
+		ACMConfigClient: {
+			Headers: {
+				"Effects/Feeback": "エフェクト/フィードバック"
+				TeamHUD: "チームHUD"
+				QuestsHUD: "クエストHUD"
+				HUD: "HUD"
+			}
+
+			DisplayName: "ACM クライアント設定"
+		}
+
+		_ACMConfigServer: {
+			Headers: {
+				Mod: {
+					Compatibility: "Mod互換性"
+				}
+
+				Balance: "バランス"
+				General: "全般"
+			}
+
+			DisplayName: "ACM サーバー設定"
+		}
+	}
+
+	Config: {
+		ApothecaryHelpPanel: {
+			Tooltip: ""
+			Label: "薬剤師ヘルプパネル"
+		}
+
+		ReworkedHudVerticalPosition: {
+			Tooltip: ""
+			Label: "再設計HUD垂直位置"
+		}
+
+		ReworkedHudHorizontalPosition: {
+			Tooltip: ""
+			Label: "再設計HUD水平位置"
+		}
+
+		HUDStyle: {
+			Tooltip:
+				'''
+				HUDの構造を変更する、画面上のHUD位置には影響しない
+				（デフォルト：左）
+				'''
+			Label: "HUDスタイル"
+		}
+
+		ScreenShakeIntensity: {
+			Tooltip:
+				'''
+				画面揺れエフェクトの強さを変更する
+				（デフォルト：1）
+				'''
+			Label: "画面揺れの強さ"
+		}
+
+		ScreenShake: {
+			Tooltip:
+				'''
+				画面揺れエフェクトを有効または無効にする
+				（デフォルト：オン）
+				'''
+			Label: "画面揺れ"
+		}
+
+		FragmentDrop: {
+			Tooltip:
+				'''
+				敵がルーンの断片をドロップする可能性があるかどうかを変更する
+				（デフォルト：オン）
+				'''
+			Label: "敵がルーンの断片をドロップ"
+		}
+
+		TeamHUDPlacementVertical: {
+			Tooltip:
+				'''
+				チームHUDを画面の垂直方向に配置する場所を変更する
+				値は画面の高さのパーセンテージを意味し、0は画面の上部、100は下部
+				（デフォルト：0.04）
+				'''
+			Label: "チームHUD垂直配置"
+		}
+
+		TeamHUDPlacementHorizontal: {
+			Tooltip:
+				'''
+				チームHUDを画面の水平方向に配置する場所を変更する
+				値は画面の幅のパーセンテージを意味し、0は左側、100は右側
+				（デフォルト：0.8）
+				'''
+			Label: "チームHUD水平配置"
+		}
+
+		TeamHUD: {
+			Tooltip:
+				'''
+				他のプレイヤーの体力値、選択したクラス、リスポーンタイマーを画面に表示する
+				特に支援クラスに便利
+				（デフォルト：オン）
+				'''
+			Label: "チームHUD"
+		}
+
+		QuestDescTextWidth: {
+			Tooltip:
+				'''
+				クエスト目標テキストが占める最大幅を変更する、テキストが他のHUD要素と重なる場合は減少させる
+				低解像度で便利
+				（デフォルト：700）
+				'''
+			Label: "クエスト説明テキスト幅"
+		}
+
+		NewQuestChatMessage: {
+			Tooltip:
+				'''
+				新しいデイリークエストがプレイヤーに与えられるたびにチャットメッセージを送信するかどうかを切り替える
+				（デフォルト：オフ）
+				'''
+			Label: "新規クエストチャットメッセージ"
+		}
+
+		ShowQuestHUD: {
+			Tooltip:
+				'''
+				画面上部のクエストHUDの表示を切り替える
+				（デフォルト：オン）
+				'''
+			Label: "クエストHUDを表示"
+		}
+
+		AnnounceLevelUp: {
+			Tooltip:
+				'''
+				クラスがレベルアップするたびにチャットにメッセージを表示する
+				（デフォルト：オフ）
+				'''
+			Label: "レベルアップメッセージを告知"
+		}
+
+		ZoomEffects: {
+			Tooltip:
+				'''
+				一部のアビリティは一時的に画面のズームを変更する
+				（デフォルト：オン）
+				'''
+			Label: "ズームエフェクト"
+		}
+
+		SmallerAbilityVFX: {
+			Tooltip:
+				'''
+				ブラッドメイジの[ブラッドエンチャント]などのアビリティからの視覚効果を縮小し、視界の妨げを減らす
+				（デフォルト：オフ）
+				'''
+			Label: "アビリティVFXを縮小"
+		}
+
+		BlinkingHUD: {
+			Tooltip:
+				'''
+				アビリティとアルティメットのバーとテキストは、使用可能で戦闘中にのみ点滅する
+				（デフォルト：オン）
+				'''
+			Label: "点滅HUD"
+		}
+
+		CompactHUD: {
+			Tooltip:
+				'''
+				HUDからアビリティのクールダウンバーを削除し、視界の妨げを減らす
+				（デフォルト：オフ）
+				'''
+			Label: "コンパクトHUD"
+		}
+
+		CalamityScaling: {
+			Tooltip:
+				'''
+				有効にすると、ハードモード突入後にボスを倒すごとに、クラスのバナーステータスから得られるステータスの量がわずかに増加する
+				（動作にCalamityのインストール/有効化は実際には必要ない）
+				（デフォルト：オフ）
+				'''
+			Label: "Calamityスケーリング"
+		}
+
+		ThoriumHealingScaling: {
+			Tooltip:
+				'''
+				このModから得られるヒーリングパワーの割合で、Thoriumのヒーラークラスのボーナスヒーリングを増加させる
+				（動作には'Thorium Mod'が必要）
+				（デフォルト：0.50（50%））
+				'''
+			Label: "Thoriumヒーリングボーナス割合"
+		}
+
+		APWeaponDPS: {
+			Tooltip:
+				'''
+				現在持っている武器の基本DPSに応じてプレイヤーが得るアビリティパワーの量を変更する
+				これが高いほど、より多くのアビリティパワーを得る
+				（デフォルト：0.05）
+				'''
+			Label: "所持武器の基本DPSによるアビリティパワー獲得量"
+		}
+
+		RuneStatsMultiplier: {
+			Tooltip:
+				'''
+				ルーンが与えるステータスの量を変更する
+				（デフォルト：1）
+				'''
+			Label: "ルーンステータス乗数"
+		}
+
+		NegativeClassStatsMultiplier: {
+			Tooltip:
+				'''
+				クラスがレベルごとに与えるマイナスステータスの量を変更する
+				（デフォルト：1）
+				'''
+			Label: "マイナスクラスステータス乗数"
+		}
+
+		ClassStatsMultiplier: {
+			Tooltip:
+				'''
+				クラスがレベルごとに与えるステータスの量を変更する
+				（デフォルト：1）
+				'''
+			Label: "クラスステータス乗数"
+		}
+
+		BossHealthMultiplier: {
+			Tooltip:
+				'''
+				ボスの最大体力を増加させる
+				（デフォルト：1.05x）
+				'''
+			Label: "ボス体力乗数"
+		}
+
+		EnemyNonBossHealthMultiplier: {
+			Tooltip:
+				'''
+				ボスではない敵の最大体力を増加させる
+				（デフォルト：1.05x）
+				'''
+			Label: "敵（非ボス）体力乗数"
+		}
+
+		EnemyDamageMultiplier: {
+			Tooltip:
+				'''
+				敵がプレイヤーに与えるダメージを増加させる
+				（デフォルト：1.05x）
+				'''
+			Label: "敵ダメージ乗数"
+		}
+
+		HiddenAccStats: {
+			Tooltip:
+				'''
+				trueの場合、アクセサリスロットの表示が非表示のとき、すべてのクラスはステータスを付与しない
+				（デフォルト：オフ）
+				'''
+			Label: "非表示アクセサリはステータスを無効化"
+		}
+
+		ChatMessageSupportAbility: {
+			Tooltip:
+				'''
+				誰かがヒーリングやバフなどの支援系アビリティを使用するたびに、ゲームのチャットに全員にメッセージを表示する
+				（デフォルト：オン）
+				'''
+			Label: "支援アビリティ使用時のチャットメッセージ"
+		}
+
+		ExtraRelicSlot: {
+			Tooltip:
+				'''
+				trueの場合、1つだけでなく2つのレリックを同時に装備できる
+				（このスロットに装備されたレリックは、この設定が無効でも削除されるまで残り続ける）
+				（レリックを保持したい場合は、このオプションを無効にする前に必ず削除すること）
+				（デフォルト：オフ）
+				'''
+			Label: "追加レリックスロット"
+		}
+
+		MaxClassLevel: {
+			Tooltip:
+				'''
+				すべてのクラスが到達できる最大レベルを変更する
+				（デフォルト：100）
+				'''
+			Label: "最大クラスレベル"
+		}
+	}
+
+	Projectiles: {
+		RevengeSpirit: {
+			DisplayName: "リベンジスピリット"
+		}
+
+		TitaniaPixie: {
+			DisplayName: "ティターニアピクシー"
+		}
+
+		TrainingRapier: {
+			DisplayName: "修練するレイピア"
+		}
+
+		SoulBurn: {
+			DisplayName: "魂を燃やす者"
+		}
+
+		SeekingSpirit: {
+			DisplayName: "探求する魂"
+		}
+
+		FadingDagger: {
+			DisplayName: "色褪せた刃"
+		}
+
+		BloodSpray: {
+			DisplayName: "血の噴霧者"
+		}
+
+		VanguardUltimate: {
+			DisplayName: "十字軍のアルティメット"
+		}
+
+		VanguardSpear: {
+			DisplayName: "十字軍の槍"
+		}
+
+		SoulShatter: {
+			DisplayName: "魂の粉砕"
+		}
+
+		SoulFragmentAbsorb: {
+			DisplayName: "魂の断片吸収"
+		}
+
+		SoulFragment: {
+			DisplayName: "魂の断片"
+		}
+
+		ScoutTrap: {
+			DisplayName: "斥候の罠"
+		}
+
+		PlagueInsect: {
+			DisplayName: "感染昆虫"
+		}
+
+		MajorsCareProj: {
+			DisplayName: "メジャーケアの発射物"
+		}
+
+		SentryShot: {
+			DisplayName: "セントリーの弾"
+		}
+
+		Sentry: {
+			DisplayName: "セントリー"
+		}
+
+		Cog: {
+			DisplayName: "歯車"
+		}
+
+		Dice: {
+			DisplayName: "ダイス"
+		}
+
+		WarBanner: {
+			DisplayName: "軍旗"
+		}
+
+		BattleCry: {
+			DisplayName: "戦いの咆哮"
+		}
+
+		Transfusion: {
+			DisplayName: "輸血"
+		}
+
+		BloodEnchantment4: {
+			DisplayName: "血のエンチャント4"
+		}
+
+		BloodEnchantment3: {
+			DisplayName: "血のエンチャント3"
+		}
+
+		BloodEnchantment2: {
+			DisplayName: "血のエンチャント2"
+		}
+
+		BloodEnchantment: {
+			DisplayName: "血のエンチャント"
+		}
+	}
+
+	Items: {
+		Apothecary: {
+			Tooltip: ""
+			DisplayName: "薬剤師"
+		}
+
+		RevengeSpirit: {
+			Tooltip: ""
+			DisplayName: "リベンジスピリット"
+		}
+
+		ImperialMandate: {
+			Tooltip: ""
+			DisplayName: "皇帝の指令"
+		}
+
+		Sacrifice: {
+			Tooltip: ""
+			DisplayName: "犠牲"
+		}
+
+		ArcaneBarrier: {
+			Tooltip: ""
+			DisplayName: "アーケインバリア"
+		}
+
+		BlackBaloon: {
+			Tooltip: ""
+			DisplayName: "後悔"
+		}
+
+		StaffOfTheMaster: {
+			Tooltip: ""
+			DisplayName: "マスターの杖"
+		}
+
+		StaffOfTheApprentice: {
+			Tooltip: ""
+			DisplayName: "見習いの杖"
+		}
+
+		Titania: {
+			Tooltip: ""
+			DisplayName: "ティターニア"
+		}
+
+		WindsRoar: {
+			Tooltip: ""
+			DisplayName: "風の咆哮"
+		}
+
+		RelicFragment: {
+			Tooltip: ""
+			DisplayName: "遺物の断片"
+		}
+
+		AghanimsShard: {
+			Tooltip: "遺物のアガニムの笏の効果を永続的に付与する"
+			DisplayName: "アガニムの欠片"
+		}
+
+		Spike: {
+			Tooltip: ""
+			DisplayName: "トゲ"
+		}
+
+		Scholar: {
+			Tooltip: ""
+			DisplayName: "学者"
+		}
+
+		ScholarJournal: {
+			Tooltip: ""
+			DisplayName: "学者の日誌"
+		}
+
+		ScholarBasicOres: {
+			Tooltip: ""
+			DisplayName: "学者の基本鉱石"
+		}
+
+		ZIP: {
+			Tooltip: "現在装備しているクラスをレベル0に戻す"
+			DisplayName: "ZIP"
+		}
+
+		WhiteCloth: {
+			Tooltip: "選択したクラスのダメージタイプを作成するために使用する"
+			DisplayName: "白色の布"
+		}
+
+		WornGloves: {
+			Tooltip: ""
+			DisplayName: "古い手袋"
+		}
+
+		VoidMirror: {
+			Tooltip: ""
+			DisplayName: "虚空の鏡"
+		}
+
+		UnstableConcoction: {
+			Tooltip: ""
+			DisplayName: "不安定な調合物"
+		}
+
+		TornWhipPart: {
+			Tooltip: ""
+			DisplayName: "トゲ鞭の部品"
+		}
+
+		TheosCollar: {
+			Tooltip: ""
+			DisplayName: "テオの襟"
+		}
+
+		TearsOfLife: {
+			Tooltip: ""
+			DisplayName: "人生の涙"
+		}
+
+		StrangeMushroom: {
+			Tooltip: ""
+			DisplayName: "奇妙なマッシュルーム"
+		}
+
+		StrangeGem: {
+			Tooltip: ""
+			DisplayName: "奇妙な宝石"
+		}
+
+		Stopwatch: {
+			Tooltip: ""
+			DisplayName: "ストップウォッチ"
+		}
+
+		SleepingBabySqueaker: {
+			Tooltip: ""
+			DisplayName: "眠る赤ちゃんの鳴き声"
+		}
+
+		ScalingWarbanner: {
+			Tooltip: ""
+			DisplayName: "攻城軍旗"
+		}
+
+		RapidFirecannon: {
+			Tooltip: ""
+			DisplayName: "ラピッドファイヤーキャノン"
+		}
+
+		RandomRelic: {
+			Tooltip: "右クリックで開く"
+			DisplayName: "不特定の遺物"
+		}
+
+		PorcelainMask: {
+			Tooltip: ""
+			DisplayName: "磁器の仮面"
+		}
+
+		PocketSlime: {
+			Tooltip: ""
+			DisplayName: "携帯スライム"
+		}
+
+		Peanut: {
+			Tooltip: ""
+			DisplayName: "137番目のピーナッツ"
+		}
+
+		OldShield: {
+			Tooltip: ""
+			DisplayName: "古い盾"
+		}
+
+		OldBlood: {
+			Tooltip: ""
+			DisplayName: "古い血"
+		}
+
+		OldBelt: {
+			Tooltip: ""
+			DisplayName: "古いベルト"
+		}
+
+		NiterihsJewelryBox: {
+			Tooltip: ""
+			DisplayName: "ニテフリの宝石箱"
+		}
+
+		NiterihsRing: {
+			Tooltip: ""
+			DisplayName: "ニテフリの指輪"
+		}
+
+		NiterihsNecklace: {
+			Tooltip: ""
+			DisplayName: "ニテフリのネックレス"
+		}
+
+		NiterihsLuckyToken: {
+			Tooltip: ""
+			DisplayName: "ニテフリの幸運トークン"
+		}
+
+		NiterihsEarring: {
+			Tooltip: ""
+			DisplayName: "ニテフリのイヤリング"
+		}
+
+		NiterihsBracelet: {
+			Tooltip: ""
+			DisplayName: "ニテフリのブレスレット"
+		}
+
+		Nessie: {
+			Tooltip: ""
+			DisplayName: "ネッシー"
+		}
+
+		MushroomConcentrate: {
+			Tooltip: ""
+			DisplayName: "マッシュルームの集中"
+		}
+
+		MinionsRightsContract: {
+			Tooltip: ""
+			DisplayName: "ミニオンの権利協定"
+		}
+
+		ManaInhibitor: {
+			Tooltip: ""
+			DisplayName: "マナ抑制剤"
+		}
+
+		ManaBag: {
+			Tooltip: ""
+			DisplayName: "マナのかばん"
+		}
+
+		MajorsCare: {
+			Tooltip: ""
+			DisplayName: "メジャーケア"
+		}
+
+		LuckyLeaf: {
+			Tooltip: ""
+			DisplayName: "幸運の葉っぱ"
+		}
+
+		LeysMushroom: {
+			Tooltip: ""
+			DisplayName: "レイのマッシュルーム"
+		}
+
+		Hourglass: {
+			Tooltip: ""
+			DisplayName: "砂時計"
+		}
+
+		EldritchInoculation: {
+			Tooltip: ""
+			DisplayName: "エルドリッチの植菌"
+		}
+
+		DerelictCactusRing: {
+			Tooltip: ""
+			DisplayName: "廃棄されたサボテンの指輪"
+		}
+
+		DarkSign: {
+			Tooltip: ""
+			DisplayName: "闇の印"
+		}
+
+		CursedCandle: {
+			Tooltip: ""
+			DisplayName: "呪われたろうそく"
+		}
+
+		Croissant: {
+			Tooltip: ""
+			DisplayName: "クロワッサン"
+		}
+
+		ChocolatePudding: {
+			Tooltip: ""
+			DisplayName: "チョコレートプリン"
+		}
+
+		ChocolateBar: {
+			Tooltip: ""
+			DisplayName: "チョコレート"
+		}
+
+		ChaosAccelerant: {
+			Tooltip: ""
+			DisplayName: "混沌の促進剤"
+		}
+
+		BrokenHeart: {
+			Tooltip: ""
+			DisplayName: "壊れたハート"
+		}
+
+		BloodGem: {
+			Tooltip: ""
+			DisplayName: "血のジェム"
+		}
+
+		BleedingMoonStone: {
+			Tooltip: ""
+			DisplayName: "血月の石"
+		}
+
+		BerserkersBrew: {
+			Tooltip: ""
+			DisplayName: "狂戦士のビール"
+		}
+
+		ArcaneBlade: {
+			Tooltip: ""
+			DisplayName: "奥義の刃"
+		}
+
+		AghanimsScepter: {
+			Tooltip: ""
+			DisplayName: "アガニムの笏"
+		}
+
+		AccountantRat: {
+			Tooltip: ""
+			DisplayName: "会計係のネズミ"
+		}
+
+		RedCloth: {
+			Tooltip: "近接ダメージクラスのクラフトに使用"
+			DisplayName: "赤色の布"
+		}
+
+		PinkCloth: {
+			Tooltip: "???クラスのクラフトに使用"
+			DisplayName: "桃色の布"
+		}
+
+		OrangeCloth: {
+			Tooltip: "召喚ダメージクラスに使用"
+			DisplayName: "橙色の布"
+		}
+
+		LostRuneFragment: {
+			Tooltip: "古代のルーン、まだなにも刻まれていない"
+			DisplayName: "失われたルーンの断片"
+		}
+
+		LostRune: {
+			Tooltip: "右クリックで描かれたルーンを得る"
+			DisplayName: "失われたルーン"
+		}
+
+		GreenCloth: {
+			Tooltip: "遠距離ダメージクラスのクラフトに使用"
+			DisplayName: "緑色の布"
+		}
+
+		TrainingRapier: {
+			Tooltip: ""
+			DisplayName: "修練するレイピア"
+		}
+
+		SoulBurner: {
+			Tooltip: ""
+			DisplayName: "魂を燃やす者"
+		}
+
+		SeekingSpirit: {
+			Tooltip: ""
+			DisplayName: "探求する魂"
+		}
+
+		FadingDagger: {
+			Tooltip: ""
+			DisplayName: "色褪せた刃"
+		}
+
+		BloodSpray: {
+			Tooltip: ""
+			DisplayName: "血の噴霧者"
+		}
+
+		Vanguard: {
+			Tooltip: ""
+			DisplayName: "前衛"
+		}
+
+		Soulmancer: {
+			Tooltip: ""
+			DisplayName: "霊媒師"
+		}
+
+		Scout: {
+			Tooltip: ""
+			DisplayName: "斥候"
+		}
+
+		Plague: {
+			Tooltip: ""
+			DisplayName: "ペスト医師"
+		}
+
+		Gambler: {
+			Tooltip: ""
+			DisplayName: "賭博師"
+		}
+
+		Crusader: {
+			Tooltip: ""
+			DisplayName: "十字軍"
+		}
+
+		Commander: {
+			Tooltip: ""
+			DisplayName: "司令官"
+		}
+
+		BloodMage: {
+			Tooltip: ""
+			DisplayName: "血の魔術師"
+		}
+
+		ClassBook: {
+			Tooltip: ""
+			DisplayName: "クラスの本"
+		}
+
+		BlueCloth: {
+			Tooltip: "魔法ダメージクラスのクラフトに使用"
+			DisplayName: "青色の布"
+		}
+
+		DevCooldownAcc: {
+			Tooltip: ""
+			DisplayName: "開発者用クールダウン加速器"
+		}
+	}
+
+	Buffs: {
+		ImperialMandate: {
+			Description: "皇帝の指令によるマークが付与されている"
+			DisplayName: "皇帝の指令"
+		}
+
+		SacrificeDot2: {
+			Description: "犠牲による継続ダメージを受けている"
+			DisplayName: "犠牲DOT2"
+		}
+
+		SacrificeDot1: {
+			Description: "犠牲による継続ダメージを受けている"
+			DisplayName: "犠牲DOT1"
+		}
+
+		PlagueInsectHit: {
+			Description: "昆虫のヒット数"
+			DisplayName: "ペスト昆虫ヒット"
+		}
+
+		PlagueInfection: {
+			Description: "大ダメージを受けている"
+			DisplayName: "ペスト感染"
+		}
+
+		LeysEndurance: {
+			Description: "受けるダメージを減少させている"
+			DisplayName: "レイの持久力"
+		}
+
+		LeysDamage: {
+			Description: "与えるダメージを増加させている"
+			DisplayName: "レイのダメージ"
+		}
+
+		LeysCrit: {
+			Description: "クリティカルヒット率を増加させている"
+			DisplayName: "レイのクリティカル"
+		}
+
+		LeysAttackSpeed: {
+			Description: "攻撃速度を増加させている"
+			DisplayName: "レイの攻撃速度"
+		}
+
+		InventorPassive: {
+			Description: "あなたとタレットの両方の攻撃速度を増加させている"
+			DisplayName: "発明家のパッシブ"
+		}
+
+		LuckyStreak: {
+			Description: "パッシブの最小および最大ダメージを増加させている"
+			DisplayName: "幸運の連続"
+		}
+
+		Jackpot: {
+			Description:
+				'''
+				クラスのバナークリティカル損失が反転し、代わりにプラスのクリティカル率を付与する
+				攻撃速度が増加
+				クールダウン短縮が増加
+				'''
+			DisplayName: "ジャックポット"
+		}
+
+		GuardianAngel: {
+			Description: "受けるダメージを大幅に減少させている"
+			DisplayName: "ガーディアンエンジェル"
+		}
+
+		WarBanner: {
+			Description:
+				'''
+				与えるダメージが増加
+				受けるダメージが減少
+				'''
+			DisplayName: "軍旗"
+		}
+
+		Inspire: {
+			Description: "全ての攻撃がクリティカルヒットになることが保証される、ミニオンも影響を受ける"
+			DisplayName: "鼓舞"
+		}
+	}
+
+	Tiles: {
+		LostRuneFragment: {
+			MapEntry: "失われたルーンの断片"
+		}
+	}
+
+	Keybinds: {
+		Menu: {
+			DisplayName: "メニュー"
+		}
+
+		"Class Ability: Ultimate": {
+			DisplayName: "クラスアビリティ: アルティメット"
+		}
+
+		"Class Ability: 2": {
+			DisplayName: "クラスアビリティ: 2"
+		}
+
+		"Class Ability: 1": {
+			DisplayName: "クラスアビリティ: 1"
+		}
+	}
+
+	Plague: {
+		Ult_Prev: "自身の周囲にデッドゾーンを生成し、継続的に敵を攻撃し、真ダメージを与える"
+		Ult_Name: "デッドゾーン"
+		A2_Prev: "ペストに感染した敵にダメージを与え、より短い持続時間で継続ダメージを再適用する"
+		A2_Name: "感染バースト"
+		A1_Prev:
+			'''
+			昆虫を放ち敵にダメージを与え、ペストに感染させる。昆虫はヒット時に自己増殖することがある
+			ペストに感染した敵は、最大体力に基づいて継続的に大ダメージを受ける
+			'''
+		A1_Name: "感染"
+		P_Prev:
+			'''
+			ミニオンは敵にクリティカルヒットを与える可能性がある
+			ミニオンはペストに感染した敵に対して与えるダメージが増加し、クリティカル率も増加する
+			'''
+		P_Name: "致死性"
+	}
+
+	Gambler_Aghanims: "a"
+
+	Gambler_Ult_Prev2: "さらに、クラスのレベル毎のクリティカル損失が反転し、プラスになる"
+	Gambler_Ult_Prev: "一定時間、攻撃速度、アビリティパワーを増加させ、[ダイスを振る]のアビリティクールダウンを短縮する"
+	Gambler_Ult_Name: "ジャックポット"
+
+	Gambler_A2_Prev: "パッシブの最小および最大ダメージが一時的に増加する"
+	Gambler_A2_Name: "幸運の連続"
+
+	Gambler_A1_Prev: "3つのダイスを振り、ダイスは敵をターゲットにして攻撃する"
+	Gambler_A1_Name: "ダイスを振る"
+
+	Gambler_P_Feedback_Disabled: "クリックしてパッシブの視覚フィードバックを有効にする"
+
+	Gambler_P_Feedback_Enabled: "クリックしてパッシブの視覚フィードバックを無効にする"
+	Gambler_P_Prev: "与える全てのダメージが75%から125%の間でランダム化される"
+	Gambler_P_Name: "運次第"
+
+	Vanguard_Aghanims: "a"
+
+	Vanguard_Ult_Prev: "巨大な剣が空から降り注ぎ、大ダメージを与え敵を処刑する"
+	Vanguard_Ult_Name: "審判の剣"
+
+	Vanguard_A2_Prev: "自身の周りに光のバリアを張り、受けるダメージを減少させる"
+	Vanguard_A2_Name: "光のバリア"
+
+	Vanguard_A1_Prev: "光の槍を投げ、槍は敵に近づくと爆発し、周囲の全ての敵にダメージを与える"
+	Vanguard_A1_Name: "光の槍"
+
+	Vanguard_P_Prev: "敵があなたを攻撃するとダメージを受ける"
+	Vanguard_P_Name: "エンチャントされた鎧"
+
+	Soulmancer_Aghanims: "a"
+
+	Soulmancer_Ult_Prev: "自身の魂の断片を急速に引き裂き、断片ごとに自身の体力をわずかに消耗する\n各魂の断片は[魂の裂け目]の1.5倍のダメージを与える"
+
+	Soulmancer_Ult_Name: "自己犠牲"
+
+	Soulmancer_A2_Prev: "近くの敵の魂を粉砕し、大ダメージを与え、粉砕された魂ごとに追加の断片を引き裂く"
+	Soulmancer_A2_Name: "魂の粉砕"
+
+	Soulmancer_A1_Prev_2: "自分自身に呼び戻し、それを消費して消費された断片ごとに最大体力のわずかな割合を回復する"
+	Soulmancer_A1_Prev: "短時間、体力が50%未満の場合、魂の断片で敵に命中するたびに"
+
+	Soulmancer_A1_Name: "消費"
+
+	Soulmancer_P_Prev_2: "これらの魂の断片はクリティカルヒットすることがある"
+	Soulmancer_P_Prev_1: "魔法武器で敵に命中させると、その魂の断片を引き裂く可能性があり、近くの敵に害を及ぼす"
+	Soulmancer_P_Name: "魂の裂け目"
+
+	Scout_Aghanims: "a"
+
+	Scout_Ult_Prev_2: "秒間無敵になり、移動力が増加する"
+
+	Scout_Ult_Prev_1: ""
+
+	Scout_Ult_Name: "ニュークリア・スラップ(TM)"
+
+	Scout_A2_Prev: "カーソルの下に低クールダウンの爆発性の罠を設置し、罠に近づきすぎた敵はダメージを受ける"
+	Scout_A2_Name: "爆発性の罠"
+
+	Scout_A1_Prev: "自作のエナジードリンクを一口飲み、一時的に与えるダメージを増加させる"
+	Scout_A1_Name: "ヒット・ア・ソーダ"
+
+	Scout_P_EnableDoubleJump: "斥候のパッシブ二段ジャンプを有効にする"
+
+	Scout_P_DisableDoubleJump: "斥候のパッシブ二段ジャンプを無効にする"
+
+	Scout_P_Prev: "斥候は二段ジャンプができ、移動速度がわずかに増加している"
+	Scout_P_Name: "俊敏性"
+
+	Crusader_Aghanims: "a"
+
+	Crusader_Ult_Prev: "守護天使が皆を見守り、全てのプレイヤーに10秒間、受けるダメージの減少を付与する"
+	Crusader_Ult_Name: "ガーディアンエンジェル"
+
+	Crusader_A2_Prev: "カーソルに向かって聖なるハンマーを投げ、ハンマーはその軌道上の全ての敵にダメージを与える"
+	Crusader_A2_Name: "聖なるハンマー"
+
+	Crusader_A1_Prev: "全てのプレイヤーに、毎秒ゆっくりと回復するヒーリングバフを適用する\nプレイヤーは毎秒最大体力の1%の割合で体力を回復する"
+
+	Crusader_A1_Name: "保護"
+
+	Crusader_P_Prev: "受けるダメージを3%減少させる\nこの効果はヒーリングバフの効果中はさらに4%増加する"
+	Crusader_P_Name: "粘り強さ"
+
+	Commander_Aghanims: "a"
+
+	Commander_Ult_Prev: "自分自身とチームメイトを鼓舞し、一定時間全員に確定クリティカルヒットを付与する（ミニオンにも影響）"
+	Commander_Ult_Name: "鼓舞"
+
+	Commander_A2_Prev: "大声で叫び、周りの敵を威嚇し、一定時間彼らが受けるダメージを増加させる"
+	Commander_A2_Name: "戦いの咆哮"
+
+	Commander_A1_Prev: "足元に軍旗を設置し、そのエリア内にいるプレイヤーは与えるダメージが増加し、受けるダメージが減少する"
+	Commander_A1_Name: "軍旗"
+
+	Commander_P_Prev: "持っているミニオンスロットごとに、わずかなダメージ軽減を得る"
+	Commander_P_Name: "司令官の意志"
+
+	BloodMage_Aghanims: "a"
+
+	BloodMage_Ult_Prev: "一定時間かけて体力を回復する"
+	BloodMage_Ult_Name: "再生"
+
+	BloodMage_A2_Prev_2: "与えるダメージを増加させ、敵に命中した場合は体力コストを払い戻す"
+	BloodMage_A2_Prev: "自身の血で魔法武器をエンチャントし、使用するマナと同じ量の体力を消費するようにする"
+	BloodMage_A2_Name: "血のエンチャント"
+
+	BloodMage_A1_Prev: "自身の血の塊を投げ、最も近い敵を探し出してダメージを与え、その血の一部を持って戻ってきて体力を回復する"
+	BloodMage_A1_Name: "輸血"
+
+	BloodMage_P_Prev: "魔法武器で敵に命中させると、その血管を引き裂く可能性があり、所持武器のダメージの割合に基づいた追加ダメージを与える"
+	BloodMage_P_Name: "血管裂き"
+
+	Runes: "ルーン"
+
+	RelicsList: "遺物一覧"
+
+	Locked: "ロック中"
+
+	UnlocksAfter10Text: "才能ツリーでスキルポイントを10ポイント消費すると開放される"
+
+	Specializations: "専門分野"
+
+	Talents: "才能"
+
+	EquipableTank: "タンククラスで装備可能"
+
+	EquipableSupport: "支援クラスで装備可能"
+
+	EquipableCarry: "運搬クラスで装備可能"
+
+	EquipableFighter: "戦闘クラスで装備可能"
+
+	CraftableRelic: "装備可能でクラフト可能な遺物"
+
+	EquipableRelic: "装備可能な遺物"
+
+	GivesRelic: "ランダムな遺物を得る"
+
+	RelicPrefix: "遺物"
+
+	Ultimate: "アルティメット"
+
+	Ability2: "アビリティ 2"
+
+	Ability1: "アビリティ 1"
+
+	Passive: "パッシブ"
+
+	ClassPrefix: "クラス"
+
+	HoldToPreviewAbilities: "'上'キーを長押しでアビリティをプレビュー"
+
+	Level: "レベル"
+
+	HighestCrit: "最大クリティカル"
+
+	DamageTaken: "受けたダメージ"
+
+	EnemiesKilled: "敵を倒した数"
+
+	TimesDied: "死亡回数"
+
+	DodgeChance: "回避確率"
+
+	UltCostReduction: "ウルトコスト削減"
+
+	UltCost: "アルティメットコスト"
+
+	CooldownReduction: "クールダウン削減"
+
+	HealingPower: "回復力"
+
+	AbilityPower: "アビリティ力"
+
+	AttackSpeed: "攻撃速度"
+
+	MovementAcceleration: "移動加速度"
+
+	MovementSpeed: "移動速度"
+
+	DamageReduction: "ダメージ軽減"
+
+	WhipRange: "鞭範囲"
+
+	MaxMinions: "最大召喚数"
+
+	ManaCost: "マナコスト"
+
+	Defense: "防御力"
+
+	MaxMana: "最大マナ"
+
+	MaxHealth: "最大HP"
+
+	AllCrit: "全クリティカル"
+
+	AllDamage: "全ダメージ"
+
+	SummonCrit: "召喚クリティカル"
+
+	SummonDamage: "召喚ダメージ"
+
+	RangedCrit: "遠距離クリティカル"
+
+	RangedDamage: "遠距離ダメージ"
+
+	MeleeCrit: "近接クリティカル"
+
+	MeleeDamage: "近接ダメージ"
+
+	MagicCrit: "魔法クリティカル"
+
+	MagicDamage: "魔法ダメージ"
+
+
+	PlayerStatsText: "プレイヤーステータス"
+
+	ItemName: {
+		TrainingRapier: "修練するレイピア"
+		SoulBurner: "魂を燃やすもの"
+		SeekingSpirit: "探求する魂"
+		FadingDagger: "色褪せた刃"
+		BloodSpray: "血の噴霧者"
+		Plague: "クラス: ペスト医師"
+		Gambler: "クラス: 賭博師"
+		Vanguard: "クラス: 前衛"
+		Soulmancer: "クラス: 霊媒師"
+		Scout: "クラス: 斥候"
+		Commander: "クラス: 司令官"
+		BloodMage: "クラス: 血の魔術師"
+		RedCloth: "赤色の布"
+		PinkCloth: "桃色の布"
+		OrangeCloth: "橙色の布"
+		GreenCloth: "緑色の布"
+		BlueCloth: "青色の布"
+		WhiteCloth: "白色の布"
+		ClassBook: "クラスの本"
+		RandomRelic: "不特定の遺物"
+	}
+}

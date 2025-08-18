@@ -1,0 +1,46 @@
+Buffs: {
+	TotallyALightPetBuff: {
+		DisplayName: すべてのライトペット
+		Description: Mods.TalismanOfFriendship.Buffs.TotallyALightPetBuff.Description
+	}
+
+	TotallyAPetBuff: {
+		DisplayName: すべてのペット
+		Description: Mods.TalismanOfFriendship.Buffs.TotallyAPetBuff.Description
+	}
+}
+
+Items: {
+	TalismanOfFriendship: {
+		DisplayName: 友情のお守り
+		Tooltip:
+			'''
+			ペットを安全に保管する
+			ペットをカーソルに持った状態で右クリックすると収納する
+			Shift+右クリックですべてのペットを解放する
+			装備するとペットの群れを召喚
+			'''
+	}
+
+	TalismanOfLuminance: {
+		DisplayName: 光輝のお守り
+		Tooltip:
+			'''
+			ライトペットを安全に保管する
+			ライトペットをカーソルに持った状態で右クリックすると収納する
+			Shift+右クリックですべてのライトペットを解放する
+			装備するとライトペットの群れを召喚
+			'''
+	}
+}
+
+Projectiles: {
+	TotallyALightPetProjectile: {
+		DisplayName: 完全にライトペットの発射物
+	}
+
+	TotallyAPetProjectile: {
+		DisplayName: 完全にペットの発射物
+	}
+}
+

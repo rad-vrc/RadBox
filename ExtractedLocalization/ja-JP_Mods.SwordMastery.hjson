@@ -1,0 +1,629 @@
+Buffs: {
+	BuffsFlyingIronBroadsword: {
+		DisplayName: Flying Iron Broadsword
+		Description: Flying Iron Broadsword will fight for you
+	}
+
+	BuffsFlyingSilverBroadsword: {
+		DisplayName: Flying Silver Broadsword
+		Description: Flying Silver Broadsword will fight for you
+	}
+
+	BuffsFlyingGoldBroadsword: {
+		DisplayName: Flying Gold Broadsword
+		Description: Flying Gold Broadsword will fight for you
+	}
+
+	BuffsFlyingLightsBane: {
+		DisplayName: Flying Lights Bane
+		Description: Flying Lights Bane will fight for you
+	}
+
+	BuffsFlyingBloodButcherer: {
+		DisplayName: Flying Blood Butcherer
+		Description: Flying Blood Butcherer will fight for you
+	}
+
+	BuffsFlyingBladeofGrass: {
+		DisplayName: Flying Bladeof Grass
+		Description: Flying Bladeof Grass will fight for you
+	}
+
+	BuffsFlyingBeeKeeper: {
+		DisplayName: Flying Bee Keeper
+		Description: Flying Bee Keeper will fight for you
+	}
+
+	BuffsFlyingStarfury: {
+		DisplayName: Flying Starfury
+		Description: Flying Starfury will fight for you
+	}
+
+	BuffsFlyingEnchantedSword: {
+		DisplayName: Flying Enchanted Sword
+		Description: Flying Enchanted Sword will fight for you
+	}
+
+	BuffsFlyingIceBlade: {
+		DisplayName: Flying Ice Blade
+		Description: Flying Ice Blade will fight for you
+	}
+
+	BuffsFlyingFieryGreatsword: {
+		DisplayName: Flying Fiery Greatsword
+		Description: Flying Fiery Greatsword will fight for you
+	}
+
+	BuffsFlyingBoneSword: {
+		DisplayName: Flying Bone Sword
+		Description: Flying Bone Sword will fight for you
+	}
+
+	BuffsFlyingBoneSword_: {
+		DisplayName: Unforgettable
+		Description: Reduces the enemy's defense by 1 and stacks infinitely
+	}
+
+	BuffsFlyingTerragrim: {
+		DisplayName: Flying Terragrim
+		Description: Flying Terragrim will fight for you
+	}
+
+	BuffsFlyingNightsEdge: {
+		DisplayName: Flying Nights Edge
+		Description: Flying Nights Edge will fight for you
+	}
+
+	BuffsDemonBlade: {
+		DisplayName: Demon Blade
+		Description: Demon Blade will fight for you
+	}
+
+	BuffsFlyingLeadBroadsword: {
+		DisplayName: Flying Lead Broadsword
+		Description: Flying Lead Broadsword will fight for you
+	}
+
+	BuffsFlyingPlatinumBroadsword: {
+		DisplayName: Flying Platinum Broadsword
+		Description: Flying Platinum Broadsword will fight for you
+	}
+
+	BuffsFlyingTungstenBroadsword: {
+		DisplayName: Flying Tungsten Broadsword
+		Description: Flying Tungsten Broadsword will fight for you
+	}
+
+	BuffsFlyingCobaltSword: {
+		DisplayName: Flying Cobalt Sword
+		Description: Flying Cobalt Sword will fight for you
+	}
+
+	BuffsDemonBladAddRecipes: {
+		DisplayName: The sacrifice of Longkui
+		Description: Brother, after a thousand years, Longkui is finally able to assist you.
+	}
+
+	BuffsFlyingPalladiumSword: {
+		DisplayName: Flying Palladium Sword
+		Description: Flying Palladium Sword will fight for you
+	}
+
+	BuffsFlyingMuramasa: {
+		DisplayName: Flying Muramasa
+		Description: Flying Muramasa will fight for you
+	}
+
+	BuffsFlyingMythrilSword: {
+		DisplayName: Flying Mythril Sword
+		Description: Flying Mythril Sword will fight for you
+	}
+
+	BuffsFlyingOrichalcumSword: {
+		DisplayName: Flying Orichalcum Sword
+		Description: Flying Orichalcum Sword will fight for you
+	}
+
+	BuffsFlyingTitaniumSword: {
+		DisplayName: Flying Titanium Sword
+		Description: Flying Titanium Sword will fight for you
+	}
+
+	BuffsFlyingAdamantiteSword: {
+		DisplayName: Flying Adamantite Sword
+		Description: Flying Adamantite Sword will fight for you
+	}
+
+	BuffsFlyingExcalibur: {
+		DisplayName: Flying Excalibur
+		Description: Flying Excalibur will fight for you
+	}
+
+	BuffsFlyingTrueExcalibur: {
+		DisplayName: Flying True Excalibur
+		Description: Flying True Excalibur will fight for you
+	}
+
+	BuffsFlyingTrueNightsEdge: {
+		DisplayName: Flying True Nights Edge
+		Description: Flying True Nights Edge will fight for you
+	}
+
+	BuffsFlyingTerraBlade: {
+		DisplayName: Flying Terra Blade
+		Description: Flying Terra Blade will fight for you
+	}
+}
+
+Items: {
+	FlyingIronBroadsword: {
+		DisplayName: Flying Iron Broadsword
+		Tooltip: ""
+	}
+
+	FlyingSilverBroadsword: {
+		DisplayName: Flying Silver Broadsword
+		Tooltip: ""
+	}
+
+	FlyingGoldBroadsword: {
+		DisplayName: Flying Gold Broadsword
+		Tooltip: ""
+	}
+
+	FlyingLightsBane: {
+		DisplayName: Flying Lights Bane
+		Tooltip:
+			'''
+			"Magic Lights Sword Yu" attacks the enemy
+			Triggers a Dark Slash attack
+			'''
+	}
+
+	FlyingBloodButcherer: {
+		DisplayName: Flying Blood Butcherer
+		Tooltip:
+			'''
+			"Flying Blood Butcherer" attacks the enemy
+			Triggers the "Bloody Slaughter" effect
+			'''
+	}
+
+	FlyingBladeofGrass: {
+		DisplayName: Flying Bladeof Grass
+		Tooltip:
+			'''
+			"Flying Bladeof Grass" attacks the enemy
+			Triggers a leaf blade attack
+			'''
+	}
+
+	FlyingBeeKeeper: {
+		DisplayName: Flying Bee Keeper
+		Tooltip:
+			'''
+			"Flying Bee Keeper" attacks the enemy
+			Triggers a killer bee attack
+			25% confusion effect
+			'''
+	}
+
+	FlyingStarfury: {
+		DisplayName: Flying Starfury
+		Tooltip:
+			'''
+			"Flying Starfury" attacks the enemy
+			33% triggers star attacks
+			'''
+	}
+
+	FlyingEnchantedSword: {
+		DisplayName: Flying Enchanted Sword
+		Tooltip:
+			'''
+			"Flying Enchanted Sword" attacks the enemy
+			Triggers a sword attack
+			'''
+	}
+
+	FlyingIceBlade: {
+		DisplayName: Flying Ice Blade
+		Tooltip:
+			'''
+			When the "Flying Ice Blade" flies
+			Triggers an ice arrow attack
+			'''
+	}
+
+	FlyingFieryGreatsword: {
+		DisplayName: Flying Fiery Greatsword
+		Tooltip:
+			'''
+			"Flying Fiery Greatsword" attacks the enemy
+			Triggers an explosive attack
+			'''
+	}
+
+	FlyingBoneSword: {
+		DisplayName: Flying Bone Sword
+		Tooltip:
+			'''
+			"Flying Bone Sword" attacks the enemy
+			Reduces enemy defense by 1
+			Lasts 2 seconds
+			stackable
+			'''
+	}
+
+	FlyingTerragrim: {
+		DisplayName: Flying Terragrim
+		Tooltip:
+			'''
+			"Flying Terragrim" attacks enemies
+			Triggers a cutting attack
+			'''
+	}
+
+	FlyingNightsEdge: {
+		DisplayName: Flying Nights Edge
+		Tooltip:
+			'''
+			"Flying Nights Edge" attacks the enemy
+			Triggers the Luminous Slash attack
+			'''
+	}
+
+	DemonBlade: {
+		DisplayName: Demon Blade
+		Tooltip:
+			'''
+			"Demon Blade" attacks the enemy
+			80% triggers demonic attacks
+			Demonic energy comes with a blood-stealing effect
+			'''
+	}
+
+	BladeForge: {
+		DisplayName: Blade Forge
+		Tooltip: ""
+	}
+
+	FlyingLeadBroadsword: {
+		DisplayName: Flying Lead Broadsword
+		Tooltip: ""
+	}
+
+	FlyingPlatinumBroadsword: {
+		DisplayName: Flying Platinum Broadsword
+		Tooltip: ""
+	}
+
+	FlyingTungstenBroadsword: {
+		DisplayName: Flying Tungsten Broadsword
+		Tooltip: ""
+	}
+
+	FlyingCobaltSword: {
+		DisplayName: Flying Cobalt Sword
+		Tooltip:
+			'''
+			"Flying Cobalt Sword" attacks the enemy
+			Triggers a cobalt solo slash attack
+			+10% Whip Attack Speed
+			Lasts 2 seconds
+			'''
+	}
+
+	LongkuiVoodooDoll: {
+		DisplayName: Longkui Voodoo Doll
+		Tooltip: ""
+	}
+
+	RemoveLightStone: {
+		DisplayName: Remove Light Stone
+		Tooltip: ""
+	}
+
+	FlyingPalladiumSword: {
+		DisplayName: Flying Palladium Sword
+		Tooltip:
+			'''
+			"Flying Pygmy Necklace" attacks the enemy
+			Triggers a Palladium Stone attack
+			50% triggers a quick healing effect
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingMuramasa: {
+		DisplayName: Flying Muramasa
+		Tooltip:
+			'''
+			"Muramasa" attacks the enemy
+			Triggers a Lanzhan attack
+			'''
+	}
+
+	FlyingMythrilSword: {
+		DisplayName: Flying Mythril Sword
+		Tooltip:
+			'''
+			"Flying Mythril Sword" attacks the enemy
+			Triggers the Petal Dance attack
+			+20 Whip Penetration
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingOrichalcumSword: {
+		DisplayName: Flying Orichalcum Sword
+		Tooltip:
+			'''
+			"Flying Orichalcum Sword" attacks the enemy
+			Triggers the Petal Dance attack
+			+20 Whip Penetration
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingTitaniumSword: {
+		DisplayName: Flying Titanium Sword
+		Tooltip:
+			'''
+			"Flying Titanium Sword" attacks the enemy
+			Titanium barrier effect
+			(Expires when wearing a titanium set)
+			(1 sword/5 titanium shards)
+			+10% Endurance
+			+10% Whip Damage
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingAdamantiteSword: {
+		DisplayName: Flying Adamantite Sword
+		Tooltip:
+			'''
+			"Flying Adamantite Sword" attacks the enemy
+			Triggers the Adamantium Guard effect
+			Wielding a whip weapon, the guards will open fire
+			(3 imperial guards for the first sword, 1 sword for the rest / 1 imperial guard)
+			+10% Whip Attack Speed
+			+10% Movement Speed
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingExcalibur: {
+		DisplayName: Flying Excalibur
+		Tooltip:
+			'''
+			"Flying Excalibur" attacks the enemy
+			Triggers the Steel Slash attack
+			+10% Whip Range
+			+10% Summon Damage
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingTrueExcalibur: {
+		DisplayName: Flying True Excalibur
+		Tooltip:
+			'''
+			"Flying True Excalibur" attacks enemies
+			Triggers the True Steel Slash attack
+			 15% Whip Range
+			 15% Summon Damage
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingTrueNightsEdge: {
+		DisplayName: Flying True Nights Edge
+		Tooltip:
+			'''
+			"Flying True Nights Edge" when flying and attacking
+			Triggers the Aurora Spinning Slash and Luminous Micro Slash attacks
+			+15% Whip Attack Speed
+			+15% Whip Damage
+			Lasts 2 seconds
+			'''
+	}
+
+	FlyingTerraBlade: {
+		DisplayName: Flying Terra Blade
+		Tooltip:
+			'''
+			"Flying Terra Blade" when flying and attacking
+			Triggers Terra Light Slash and Terra Blade Slash attacks
+			+20% Summon Damage
+			+20% Whip Damage
+			+20% Whip attack Speed
+			+20% Whip Range
+			Lasts 2 seconds
+			'''
+	}
+}
+
+Projectiles: {
+	FlyingIronBroadswordProj: {
+		DisplayName: Flying Iron Broadsword Proj
+	}
+
+	FlyingSilverBroadswordProj: {
+		DisplayName: Flying Silver Broadsword Proj
+	}
+
+	FlyingGoldBroadswordProj: {
+		DisplayName: Flying Gold Broadsword Proj
+	}
+
+	FlyingLightsBaneProj: {
+		DisplayName: Flying Lights Bane Proj
+	}
+
+	FlyingBloodButchererProj: {
+		DisplayName: Flying Blood Butcherer Proj
+	}
+
+	FlyingBladeofGrassProj: {
+		DisplayName: Flying Bladeof Grass Proj
+	}
+
+	FlyingBeeKeeperProj: {
+		DisplayName: Flying Bee Keeper Proj
+	}
+
+	FlyingStarfuryProj: {
+		DisplayName: Flying Starfury Proj
+	}
+
+	FlyingEnchantedSwordProj: {
+		DisplayName: Flying Enchanted Sword Proj
+	}
+
+	FlyingEnchantedSwordProj_: {
+		DisplayName: Flying Enchanted Sword Proj_
+	}
+
+	FlyingIceBladeProj: {
+		DisplayName: Flying Ice Blade Proj
+	}
+
+	FlyingFieryGreatswordProj: {
+		DisplayName: Flying Fiery Greatsword Proj
+	}
+
+	FlyingBoneSwordProj: {
+		DisplayName: Flying Bone Sword Proj
+	}
+
+	FlyingTerragrimProj: {
+		DisplayName: Flying Terragrim Proj
+	}
+
+	FlyingTerragrimProj_: {
+		DisplayName: Flying Terragrim Proj_
+	}
+
+	FlyingNightsEdgeProj: {
+		DisplayName: Flying Nights Edge Proj
+	}
+
+	FlyingNightsEdgeProj_: {
+		DisplayName: Flying Nights Edge Proj_
+	}
+
+	DemonBladeProj: {
+		DisplayName: Demon Blade Proj
+	}
+
+	DemonBlade_Swing: {
+		DisplayName: Demon Blade_ Swing
+	}
+
+	DemonBladeProj_: {
+		DisplayName: Demon Blade Proj_
+	}
+
+	DemonBladeProj_R: {
+		DisplayName: Demon Blade Proj_ R
+	}
+
+	FlyingLeadBroadswordProj: {
+		DisplayName: Flying Lead Broadsword Proj
+	}
+
+	FlyingPlatinumBroadswordProj: {
+		DisplayName: Flying Platinum Broadsword Proj
+	}
+
+	FlyingTungstenBroadswordProj: {
+		DisplayName: Flying Tungsten Broadsword Proj
+	}
+
+	FlyingCobaltSwordProj: {
+		DisplayName: Flying Cobalt Sword Proj
+	}
+
+	FlyingCobaltSwordProj_P: {
+		DisplayName: Flying Cobalt Sword Proj_ P
+	}
+
+	FlyingPalladiumSwordProj: {
+		DisplayName: Flying Palladium Sword Proj
+	}
+
+	FlyingPalladiumSwordProj_P: {
+		DisplayName: Flying Palladium Sword Proj_ P
+	}
+
+	FlyingMuramasaProj: {
+		DisplayName: Flying Muramasa Proj
+	}
+
+	FlyingMythrilSwordProj: {
+		DisplayName: Flying Mythril Sword Proj
+	}
+
+	FlyingMythrilSwordProj_P: {
+		DisplayName: Flying Mythril Sword Proj_ P
+	}
+
+	FlyingOrichalcumSwordProj: {
+		DisplayName: Flying Orichalcum Sword Proj
+	}
+
+	FlyingOrichalcumSwordProj_P: {
+		DisplayName: Flying Orichalcum Sword Proj_ P
+	}
+
+	FlyingTitaniumSwordProj: {
+		DisplayName: Flying Titanium Sword Proj
+	}
+
+	FlyingAdamantiteSwordProj: {
+		DisplayName: Flying Adamantite Sword Proj
+	}
+
+	FlyingAdamantiteSwordProj_P: {
+		DisplayName: Flying Adamantite Sword Proj_ P
+	}
+
+	FlyingExcaliburProj: {
+		DisplayName: Flying Excalibur Proj
+	}
+
+	FlyingExcaliburProj_P: {
+		DisplayName: Flying Excalibur Proj_ P
+	}
+
+	FlyingTrueExcaliburProj: {
+		DisplayName: Flying True Excalibur Proj
+	}
+
+	FlyingTrueExcaliburProj_P: {
+		DisplayName: Flying True Excalibur Proj_ P
+	}
+
+	FlyingTrueNightsEdgeProj: {
+		DisplayName: Flying True Nights Edge Proj
+	}
+
+	FlyingTrueNightsEdgeProj_P: {
+		DisplayName: Flying True Nights Edge Proj_ P
+	}
+
+	FlyingTerraBladeProj: {
+		DisplayName: Flying Terra Blade Proj
+	}
+
+	FlyingTerraBladeProj_P: {
+		DisplayName: Flying Terra Blade Proj_ P
+	}
+
+	FlyingTerraBladeProj_P_: {
+		DisplayName: Flying Terra Blade Proj_ P_
+	}
+}
+

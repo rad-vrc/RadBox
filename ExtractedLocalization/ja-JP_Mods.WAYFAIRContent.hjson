@@ -1,0 +1,447 @@
+Configs: {
+	WAYConfig: {
+		DisplayName: WAYFAIR Config
+
+		strengthEnabled: {
+			Label: Accessory System Rework
+			Tooltip: Determines whether the WAYFAIR Content Pack system for accessory slots replaces the vanilla one.
+		}
+
+		npcReworksEnabled: {
+			Label: Enemy/Boss Reworks
+			Tooltip: Determines whether or not vanilla enemies and bosses will be reworked.
+		}
+	}
+}
+
+Items: {
+	WorldgenTest: {
+		DisplayName: Worldgen
+		Tooltip: ""
+	}
+
+	Dirtroot: {
+		DisplayName: Dirtroot Fiber
+		Tooltip: Place below a dirt ceiling to plant it
+	}
+
+	TanglerootStaff: {
+		DisplayName: Tangleroot Staff
+		Tooltip: Summons roots in the ground that ensnare a single enemy at a time, dealing gradual damage and rendering it immobile
+	}
+
+	RootweaverCirclet: {
+		DisplayName: Rootweaver Circlet
+		Tooltip: +1 minion slot
+	}
+
+	RootweaverGreaves: {
+		DisplayName: Rootweaver Greaves
+		Tooltip: ""
+	}
+
+	RootweaverMail: {
+		DisplayName: Rootweaver Mail
+		Tooltip: +3% summon damage
+	}
+
+	HeartOfOak: {
+		DisplayName: Heart Of Oak
+		Tooltip: Summons a close-range volley of druidic thorns
+	}
+
+	FlinxFurCrest: {
+		DisplayName: Flinx Fur Crest
+		Tooltip: ""
+	}
+
+	LivingLeaf: {
+		DisplayName: Living Leaf
+		Tooltip: Very living!
+	}
+
+	WoodlandMirror: {
+		DisplayName: Woodland Mirror
+		Tooltip: Gaze in the mirror to return to the world's surface
+	}
+
+	RestorativePetal: {
+		DisplayName: Restorative Petal
+		Tooltip: Greatly increases the effectiveness of health and mana potions
+	}
+
+	LightblossomTreasureBag: {
+		DisplayName: Lightblossom Treasure Bag
+		Tooltip: ""
+	}
+
+	PetalPelter: {
+		DisplayName: Petal Pelter
+		Tooltip: Firing the gun charges a photosynthetic blast that can be unleashed by releasing left click
+	}
+
+	Thornseed: {
+		DisplayName: Vine Buster
+		Tooltip: On hitting a target, release a lunging slash that pierces through enemies close by
+	}
+
+	GreenburnStaff: {
+		DisplayName: Greenburn Staff
+		Tooltip:
+			'''
+			Fires lingering pollen that deals no damage but poisons enemies
+			Right click to charge up a nature bolt 
+			This nature bolt causes pollen to explode into a chain reaction on contact
+			'''
+	}
+
+	BlossomCap: {
+		DisplayName: Blossom Cap
+		Tooltip: Slightly increased life regeneration
+	}
+
+	BlossomPants: {
+		DisplayName: Blossom Pants
+		Tooltip: +1% damage
+	}
+
+	BlossomShirt: {
+		DisplayName: Blossom Shirt
+		Tooltip: +2% damage
+	}
+
+	ShockerChestgear: {
+		DisplayName: Shocker Chestgear
+		Tooltip:
+			'''
+			+5% melee knockback
+			+10% melee speed
+			'''
+	}
+
+	ShockerGreaves: {
+		DisplayName: Shocker Greaves
+		Tooltip: +3% melee damage
+	}
+
+	ShockerHelmet: {
+		DisplayName: Shocker Helmet
+		Tooltip: +3% melee damage
+	}
+
+	RustCutter: {
+		DisplayName: Rust Cutter
+		Tooltip:
+			'''
+			Left click to rev up the saw, shocking enemies at close-range and slowing them down
+			Right click to overcharge, firing the saw like a boomerang
+			'''
+	}
+
+	ScrapperHeadgear: {
+		DisplayName: Scrapper Headgear
+		Tooltip: +10% ranged critical strike chance
+	}
+
+	ScrapperLeggings: {
+		DisplayName: Scrapper Leggings
+		Tooltip: +3% ranged damage
+	}
+
+	ScrapperPlatemail: {
+		DisplayName: Scrapper Platemail
+		Tooltip:
+			'''
+			+3% ranged damage
+			+7% ranged attack speed
+			'''
+	}
+
+	MagicShard: {
+		DisplayName: Magic Shard
+		Tooltip: Imbued with magical essence
+	}
+
+	MagicFertilizer: {
+		DisplayName: Magic Fertilizer
+		Tooltip: Summons Manaflora
+	}
+
+	GrandKatana: {
+		DisplayName: Grand Katana
+		Tooltip:
+			'''
+			Hold left click to slash. Enough consecutive hits and you gain a short attack speed bonus
+			Hold right click to lunge forward, dealing large damage and barreling through enemies
+			'''
+	}
+
+	Stickshift: {
+		DisplayName: Stickshift
+		Tooltip:
+			'''
+			Left click to fire a shotgun blast
+			Right click to rapid-fire pellets
+			'''
+	}
+
+	KingsKunai: {
+		DisplayName: King's Kunai
+		Tooltip:
+			'''
+			Throw a piercing kunai
+			Right click and hold to twirl the kunai and build up finesse. Release to throw
+			More finesse means a stronger throw
+			'''
+	}
+
+	ShinobiCuirass: {
+		DisplayName: Shinobi Cuirass
+		Tooltip: +10% ranged knockback
+	}
+
+	ShinobiMask: {
+		DisplayName: Shinobi Mask
+		Tooltip: +5% ranged critical strike chance
+	}
+
+	ShinobiGreaves: {
+		DisplayName: Shinobi Greaves
+		Tooltip: +5% ranged knockback
+	}
+
+	ParafalconFeather: {
+		DisplayName: Parafalcon Feather
+		Tooltip: ""
+	}
+
+	VultureFeather: {
+		DisplayName: Vulture Feather
+		Tooltip: ""
+	}
+
+	Killswitch: {
+		DisplayName: Killswitch
+		Tooltip: ""
+	}
+
+	Teslagun: {
+		DisplayName: Teslagun
+		Tooltip: Fires lightning that arcs between up to three enemies
+	}
+
+	SkullBow: {
+		DisplayName: Skull Bow
+		Tooltip:
+			'''
+			Fires an arrow that lodges into enemies
+			Hitting the first arrow with another will shatter it into shrapnel
+			'''
+	}
+
+	StrengthCrystal: {
+		DisplayName: Strength Crystal
+		Tooltip: Increases your strength by 1
+	}
+}
+
+Biomes: {
+	GroveBiome: {
+		DisplayName: Grove
+	}
+
+	SpawnGrove: {
+		DisplayName: Grove
+		TownNPCDialogueName: the Grove
+	}
+}
+
+NPCs: {
+	NatureElemental: {
+		DisplayName: Nature Elemental
+	}
+
+	Lifebloom: {
+		DisplayName: Manaflora
+	}
+
+	Parafalcon: {
+		DisplayName: Parafalcon
+	}
+}
+
+Projectiles: {
+	Tangleroot: {
+		DisplayName: Tangleroot
+	}
+
+	TanglerootThorn: {
+		DisplayName: Tangleroot Thorn
+	}
+
+	OakThorn: {
+		DisplayName: Oak Thorn
+	}
+
+	DaybloomPetal: {
+		DisplayName: Daybloom Petal
+	}
+
+	GrassyThornBall: {
+		DisplayName: Grassy Thorn Ball
+	}
+
+	NatureBomb: {
+		DisplayName: Nature Bomb
+	}
+
+	NatureShockwave: {
+		DisplayName: Nature Shockwave
+	}
+
+	NatureBolt: {
+		DisplayName: Nature Bolt
+	}
+
+	NatureLightning: {
+		DisplayName: Nature Lightning
+	}
+
+	PetalPelterPetal: {
+		DisplayName: Petal Pelter Petal
+	}
+
+	PetalPelterProj: {
+		DisplayName: Petal Pelter
+	}
+
+	ThornseedProj: {
+		DisplayName: Thornseed
+	}
+
+	GreenburnExplosion: {
+		DisplayName: Greenburn Explosion
+	}
+
+	GreenburnStaffProj: {
+		DisplayName: Greenburn Staff
+	}
+
+	NatureBoltFriendly: {
+		DisplayName: Nature Bolt Friendly
+	}
+
+	Pollen: {
+		DisplayName: Pollen
+	}
+
+	RootweaverThorn: {
+		DisplayName: Rootweaver Thorn
+	}
+
+	RustCutterProj: {
+		DisplayName: Rust Cutter
+	}
+
+	RustSaw: {
+		DisplayName: Rust Saw
+	}
+
+	ScrapCannonShot: {
+		DisplayName: Scrap Cannon Shot
+	}
+
+	SlimyShockwave: {
+		DisplayName: Slimy Shockwave
+	}
+
+	GrandKatanaProj: {
+		DisplayName: Grand Katana
+	}
+
+	StickshiftBullet: {
+		DisplayName: Stickshift Bullet
+	}
+
+	StickshiftProj: {
+		DisplayName: Stickshift
+	}
+
+	KingsKunaiFinesse: {
+		DisplayName: King's Kunai Finesse
+	}
+
+	KingsKunaiProj: {
+		DisplayName: King's Kunai
+	}
+
+	CursedSkullProj: {
+		DisplayName: Cursed Skull
+	}
+
+	ShadowflameProj: {
+		DisplayName: Shadowflame
+	}
+
+	VineBusterSlash: {
+		DisplayName: Vine Buster Slash
+	}
+
+	SkeletronBoneProjectile: {
+		DisplayName: Skeletron Bone
+	}
+
+	KillswitchProjectile: {
+		DisplayName: Killswitch Projectile
+	}
+
+	TeslaBolt: {
+		DisplayName: Tesla Bolt
+	}
+
+	TeslagunProjectile: {
+		DisplayName: Teslagun Projectile
+	}
+
+	CoreSkull: {
+		DisplayName: Core Skull
+	}
+
+	TomeSkull: {
+		DisplayName: Tome Skull
+	}
+
+	HighFiveHookProjectile: {
+		DisplayName: High Five Hook Projectile
+	}
+
+	MarrowArrow: {
+		DisplayName: Marrow Arrow
+	}
+
+	BoneShrapnel: {
+		DisplayName: Bone Shrapnel
+	}
+
+	SkullArrow: {
+		DisplayName: Skull Arrow
+	}
+
+	SkullBowProj: {
+		DisplayName: Skull Bow Proj
+	}
+}
+
+Buffs: {
+	TangleSlow: {
+		DisplayName: Tangled
+		Description: You are immobile!
+	}
+}
+
+ConfigKeys: {
+	WAYConfig: {
+		DisplayName: Gameplay Configuration
+	}
+}
+

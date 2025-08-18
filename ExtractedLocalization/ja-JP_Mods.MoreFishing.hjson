@@ -1,0 +1,105 @@
+Tiles: {
+	ChlorophyteCrate: {
+		MapEntry: Chlorophyte Crate
+	}
+
+	MushroomCrate: {
+		MapEntry: Mushroom Crate
+	}
+
+	MyceliumCrate: {
+		MapEntry: Mycelium Crate
+	}
+
+	BrickCrate: {
+		MapEntry: Brick Crate
+	}
+
+	EclipseCrate: {
+		MapEntry: Eclipse Crate
+	}
+
+	LihzahrdCrate: {
+		MapEntry: Lihzahrd Crate
+	}
+
+	CelestialCrate: {
+		MapEntry: Celestial Crate
+	}
+}
+
+Items: {
+	ChlorophyteCrate: {
+		DisplayName: Chlorophyte Crate
+		Tooltip: <right>で開く
+	}
+
+	ChlorophyteSnack: {
+		DisplayName: Chlorophyte Snack
+		Tooltip:
+			'''
+			Consumable
+			'Tasty plants yummy :)'
+			'''
+	}
+
+	VineSlinger: {
+		DisplayName: Vine Slinger
+		Tooltip:
+			'''
+			Has a chance to poison enemies
+			Shoots leaves
+			'''
+	}
+
+	VineTome: {
+		DisplayName: Tome of Vines
+		Tooltip: Shoots out vines
+	}
+
+	MushroomCrate: {
+		DisplayName: Mushroom Crate
+		Tooltip: <right>で開く
+	}
+
+	MyceliumCrate: {
+		DisplayName: Mycelium Crate
+		Tooltip: <right>で開く
+	}
+
+	BrickCrate: {
+		DisplayName: Brick Crate
+		Tooltip: <right>で開く
+	}
+
+	EclipseCrate: {
+		DisplayName: Eclipse Crate
+		Tooltip: <right>で開く
+	}
+
+	LihzahrdCrate: {
+		DisplayName: Lihzahrd Crate
+		Tooltip: <right>で開く
+	}
+
+	CelestialCrate: {
+		DisplayName: Celestial Crate
+		Tooltip: <right>で開く
+	}
+
+	ChlorophyteFishingRod: {
+		DisplayName: Chlorophyte Fishing Rod
+		Tooltip: Always catches a crate
+	}
+}
+
+Projectiles: {
+	VineSlingerProj: {
+		DisplayName: Vine Slinger
+	}
+
+	ChlorophyteBobber: {
+		DisplayName: Chlorophyte Bobber
+	}
+}
+

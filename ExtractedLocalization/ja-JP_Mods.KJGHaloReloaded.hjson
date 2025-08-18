@@ -1,0 +1,785 @@
+Buffs: {
+	Supercombine: {
+		Description: Mods.KJGHaloReloaded.Buffs.Supercombine.Description
+		DisplayName: Supercombine
+	}
+
+	Incinerating: {
+		Description: Mods.KJGHaloReloaded.Buffs.Incinerating.Description
+		DisplayName: Incinerating
+	}
+}
+
+Projectiles: {
+	KopasamadaPlasmaLauncherProjectile: {
+		DisplayName: Kopasamada Plasma Launcher Projectile
+	}
+
+	EosMakPlasmaPistolProjectile: {
+		DisplayName: Eos Mak Plasma Pistol Projectile
+	}
+
+	EosMakPlasmaPistolEMP: {
+		DisplayName: Eos Mak Plasma Pistol E M P
+	}
+
+	Z130RequiemSuppressorBullet: {
+		DisplayName: Z130 Requiem Suppressor Bullet
+	}
+
+	Z180RequiemScattershotBeam: {
+		DisplayName: Z180 Requiem Scattershot Beam
+	}
+
+	Z250RequiemLightRifleBeamPrecision: {
+		DisplayName: Z250 Requiem Light Rifle Beam Precision
+	}
+
+	Z250RequiemLightRifleBeam: {
+		DisplayName: Z250 Requiem Light Rifle Beam
+	}
+
+	Z390RequiemIncinerationCannonSmallBlastExplosionNoSound: {
+		DisplayName: Z390 Requiem Incineration Cannon Small Blast Explosion No Sound
+	}
+
+	Z390RequiemIncinerationCannonSmallBlastExplosion: {
+		DisplayName: Z390 Requiem Incineration Cannon Small Blast Explosion
+	}
+
+	Z390RequiemIncinerationCannonSmallBlast: {
+		DisplayName: Z390 Requiem Incineration Cannon Small Blast
+	}
+
+	Z390RequiemIncinerationCannonExplosion: {
+		DisplayName: Z390 Requiem Incineration Cannon Explosion
+	}
+
+	Z390RequiemIncinerationCannonChargedShot: {
+		DisplayName: Z390 Requiem Incineration Cannon Charged Shot
+	}
+
+	Z110RequiemBoltshotBeam: {
+		DisplayName: Z110 Requiem Boltshot Beam
+	}
+
+	OrkadaphaaPlasmaRifleProjectile: {
+		DisplayName: Orkadaphaa Plasma Rifle Projectile
+	}
+
+	NakatavhoPlasmaRepeaterProjectile: {
+		DisplayName: Nakatavho Plasma Repeater Projectile
+	}
+
+	EosMakHesdurosPlasmaPistolProjectile: {
+		DisplayName: Eos Mak Hesduros Plasma Pistol Projectile
+	}
+
+	EosMakHesdurosPlasmaPistolEMP: {
+		DisplayName: Eos Mak Hesduros Plasma Pistol E M P
+	}
+
+	AnskumGlyph1PlasmaGrenadeProjectile: {
+		DisplayName: Anskum Glyph1 Plasma Grenade Projectile
+	}
+
+	GaduloNeedleRifleSupercombine: {
+		DisplayName: Gadulo Needle Rifle Supercombine
+	}
+
+	GaduloNeedleRifleBullet: {
+		DisplayName: Gadulo Needle Rifle Bullet
+	}
+
+	NahlehaxNeedlerSupercombine: {
+		DisplayName: Nahlehax Needler Supercombine
+	}
+
+	NahlehaxNeedlerBullet: {
+		DisplayName: Nahlehax Needler Bullet
+	}
+
+	GespuFuelRodBombExplosion: {
+		DisplayName: Gespu Fuel Rod Bomb Explosion
+	}
+
+	GespuFuelRodBomb: {
+		DisplayName: Gespu Fuel Rod Bomb
+	}
+
+	KorvaFuelRodBombExplosion: {
+		DisplayName: Korva Fuel Rod Bomb Explosion
+	}
+
+	KorvaFuelRodBomb: {
+		DisplayName: Korva Fuel Rod Bomb
+	}
+
+	PeztkFuelRodBombExplosion: {
+		DisplayName: Peztk Fuel Rod Bomb Explosion
+	}
+
+	PeztkFuelRodBomb: {
+		DisplayName: Peztk Fuel Rod Bomb
+	}
+
+	ZasqiFuelRodBombExplosion: {
+		DisplayName: Zasqi Fuel Rod Bomb Explosion
+	}
+
+	ZasqiFuelRodBomb: {
+		DisplayName: Zasqi Fuel Rod Bomb
+	}
+
+	MtaraFocusRifleDisplay: {
+		DisplayName: Mtara Focus Rifle Display
+	}
+
+	MtaraFocusRifleBeam: {
+		DisplayName: Mtara Focus Rifle Beam
+	}
+
+	EloNakadaConcussionRifleExplode: {
+		DisplayName: Elo Nakada Concussion Rifle Explode
+	}
+
+	EloNakadaConcussionRifleBlast: {
+		DisplayName: Elo Nakada Concussion Rifle Blast
+	}
+
+	PaegaasSpikerBullet: {
+		DisplayName: Paegaas Spiker Bullet
+	}
+
+	PaegaasGravityHammerProjectile: {
+		DisplayName: Paegaas Gravity Hammer Projectile
+	}
+
+	PaegaasGravityHammerExplosion: {
+		DisplayName: Paegaas Gravity Hammer Explosion
+	}
+
+	KewuRshikChromePlasmaRifleProjectile: {
+		DisplayName: Kewu Rshik Chrome Plasma Rifle Projectile
+	}
+
+	M41GuardianSPNKrRocket: {
+		DisplayName: M41 Guardian S P N Kr Rocket
+	}
+
+	M41GuardianSPNKrExplode: {
+		DisplayName: M41 Guardian S P N Kr Explode
+	}
+
+	M41ReachSPNKrRocket: {
+		DisplayName: M41 Reach S P N Kr Rocket
+	}
+
+	M41ReachSPNKrExplode: {
+		DisplayName: M41 Reach S P N Kr Explode
+	}
+
+	M6VSpartanLaserTargetingBeam: {
+		DisplayName: M6 V Spartan Laser Targeting Beam
+	}
+
+	M6VSpartanLaserBeam: {
+		DisplayName: M6 V Spartan Laser Beam
+	}
+
+	M247HHeavyMachineGunProjectile: {
+		DisplayName: M247 H Heavy Machine Gun Projectile
+	}
+
+	M9SpartanFragGrenadeProjectile: {
+		DisplayName: M9 Spartan Frag Grenade Projectile
+	}
+
+	Type52FocusRifleDisplay: {
+		DisplayName: Type52 Focus Rifle Display
+	}
+
+	Type52FocusRifleBeam: {
+		DisplayName: Type52 Focus Rifle Beam
+	}
+
+	Type2RGravityHammerExplosion: {
+		DisplayName: Type2 R Gravity Hammer Explosion
+	}
+
+	Type2RGravityHammerProjectile: {
+		DisplayName: Type2 R Gravity Hammer Projectile
+	}
+
+	M247HRHeavyMachineGunProjectile: {
+		DisplayName: M247 H R Heavy Machine Gun Projectile
+	}
+
+	M6RSpartanLaserTargetingBeam: {
+		DisplayName: M6 R Spartan Laser Targeting Beam
+	}
+
+	M6RSpartanLaserBeam: {
+		DisplayName: M6 R Spartan Laser Beam
+	}
+
+	M41RSPNKrRocket: {
+		DisplayName: M41 R S P N Kr Rocket
+	}
+
+	M41RSPNKrExplode: {
+		DisplayName: M41 R S P N Kr Explode
+	}
+
+	M41GSPNKrRocket: {
+		DisplayName: M41 G S P N Kr Rocket
+	}
+
+	M41GSPNKrExplode: {
+		DisplayName: M41 G S P N Kr Explode
+	}
+
+	SRS99AMSniperRifleProjectile: {
+		DisplayName: S R S99 A M Sniper Rifle Projectile
+	}
+
+	M45ShotgunProjectile: {
+		DisplayName: M45 Shotgun Projectile
+	}
+
+	M45DSmartScopeShotgunProjectile: {
+		DisplayName: M45 D Smart Scope Shotgun Projectile
+	}
+
+	M6GMagnumProjectile: {
+		DisplayName: M6 G Magnum Projectile
+	}
+
+	M6DMagnumProjectile: {
+		DisplayName: M6 D Magnum Projectile
+	}
+
+	M319GrenadeLauncherProjectile: {
+		DisplayName: M319 Grenade Launcher Projectile
+	}
+
+	M319GrenadeLauncherExplosionEMP: {
+		DisplayName: M319 Grenade Launcher Explosion E M P
+	}
+
+	M319GrenadeLauncherExplosion: {
+		DisplayName: M319 Grenade Launcher Explosion
+	}
+
+	M9RFragGrenadeProjectile: {
+		DisplayName: M9 R Frag Grenade Projectile
+	}
+
+	M392DMRProjectile: {
+		DisplayName: M392 D M R Projectile
+	}
+
+	MA37AssaultRifleProjectile: {
+		DisplayName: M A37 Assault Rifle Projectile
+	}
+
+	MA5CAssaultRifleProjectile: {
+		DisplayName: M A5 C Assault Rifle Projectile
+	}
+
+	MA5BAssaultRifleProjectile: {
+		DisplayName: M A5 B Assault Rifle Projectile
+	}
+
+	Z130GSuppressorBullet: {
+		DisplayName: Z130 G Suppressor Bullet
+	}
+
+	Z180GScattershotBeam: {
+		DisplayName: Z180 G Scattershot Beam
+	}
+
+	Z250GLightRifleBeamPrecision: {
+		DisplayName: Z250 G Light Rifle Beam Precision
+	}
+
+	Z250GLightRifleBeam: {
+		DisplayName: Z250 G Light Rifle Beam
+	}
+
+	Z390GIncinerationCannonSmallBlastExplosionNoSound: {
+		DisplayName: Z390 G Incineration Cannon Small Blast Explosion No Sound
+	}
+
+	Z390GIncinerationCannonSmallBlastExplosion: {
+		DisplayName: Z390 G Incineration Cannon Small Blast Explosion
+	}
+
+	Z390GIncinerationCannonSmallBlast: {
+		DisplayName: Z390 G Incineration Cannon Small Blast
+	}
+
+	Z390GIncinerationCannonExplosion: {
+		DisplayName: Z390 G Incineration Cannon Explosion
+	}
+
+	Z390GIncinerationCannonChargedShot: {
+		DisplayName: Z390 G Incineration Cannon Charged Shot
+	}
+
+	Z110GBoltshotBeam: {
+		DisplayName: Z110 G Boltshot Beam
+	}
+
+	Type25RPlasmaRifleProjectile: {
+		DisplayName: Type25 R Plasma Rifle Projectile
+	}
+
+	Type51PlasmaRepeaterProjectile: {
+		DisplayName: Type51 Plasma Repeater Projectile
+	}
+
+	Type25DPlasmaPistolProjectile: {
+		DisplayName: Type25 D Plasma Pistol Projectile
+	}
+
+	Type25DPlasmaPistolEMP: {
+		DisplayName: Type25 D Plasma Pistol E M P
+	}
+
+	Type1RPlasmaGrenadeProjectile: {
+		DisplayName: Type1 R Plasma Grenade Projectile
+	}
+
+	Type31NeedleRifleSupercombine: {
+		DisplayName: Type31 Needle Rifle Supercombine
+	}
+
+	Type31NeedleRifleBullet: {
+		DisplayName: Type31 Needle Rifle Bullet
+	}
+
+	Type33RNeedlerSupercombine: {
+		DisplayName: Type33 R Needler Supercombine
+	}
+
+	Type33RNeedlerBullet: {
+		DisplayName: Type33 R Needler Bullet
+	}
+
+	UnidentifiedFuelRodBombExplosion: {
+		DisplayName: Unidentified Fuel Rod Bomb Explosion
+	}
+
+	UnidentifiedFuelRodBomb: {
+		DisplayName: Unidentified Fuel Rod Bomb
+	}
+
+	Type58FuelRodBombExplosion: {
+		DisplayName: Type58 Fuel Rod Bomb Explosion
+	}
+
+	Type58FuelRodBomb: {
+		DisplayName: Type58 Fuel Rod Bomb
+	}
+
+	Type33RFuelRodBombExplosion: {
+		DisplayName: Type33 R Fuel Rod Bomb Explosion
+	}
+
+	Type33RFuelRodBomb: {
+		DisplayName: Type33 R Fuel Rod Bomb
+	}
+
+	Type33CFuelRodBombExplosion: {
+		DisplayName: Type33 C Fuel Rod Bomb Explosion
+	}
+
+	Type33CFuelRodBomb: {
+		DisplayName: Type33 C Fuel Rod Bomb
+	}
+
+	Type50RConcussionRifleExplode: {
+		DisplayName: Type50 R Concussion Rifle Explode
+	}
+
+	Type50RConcussionRifleBlast: {
+		DisplayName: Type50 R Concussion Rifle Blast
+	}
+
+	Type25RSpikerBullet: {
+		DisplayName: Type25 R Spiker Bullet
+	}
+
+	Type25CBrutePlasmaRifleProjectile: {
+		DisplayName: Type25 C Brute Plasma Rifle Projectile
+	}
+}
+
+Items: {
+	KopasamadaPlasmaLauncher: {
+		Tooltip: ""
+		DisplayName: Kopasa'mada Plasma Launcher
+	}
+
+	EosMakPlasmaPistol: {
+		Tooltip: ""
+		DisplayName: Eos'Mak Plasma Pistol
+	}
+
+	SubaneseCrystal: {
+		Tooltip: ""
+		DisplayName: Subanese Crystal
+	}
+
+	ConcussionCharge: {
+		Tooltip: ""
+		DisplayName: Concussion Charge
+	}
+
+	Z130RequiemSuppressor: {
+		Tooltip: ""
+		DisplayName: Z130 Requiem Suppressor
+	}
+
+	Z180RequiemScattershot: {
+		Tooltip: ""
+		DisplayName: Z180 Requiem Scattershot
+	}
+
+	Z250RequiemLightRifle: {
+		Tooltip: ""
+		DisplayName: Z250 Requiem Light Rifle
+	}
+
+	Z390RequiemIncinerationCannon: {
+		Tooltip: ""
+		DisplayName: Z390 Requiem Incineration Cannon
+	}
+
+	Z110RequiemBoltshot: {
+		Tooltip: ""
+		DisplayName: Z110 Requiem Boltshot
+	}
+
+	OrkadaphaaPlasmaRifle: {
+		Tooltip: ""
+		DisplayName: Okarda'phaa Plasma Rifle
+	}
+
+	NakatavhoPlasmaRepeater: {
+		Tooltip: ""
+		DisplayName: Nakata'vho Plasma Repeater
+	}
+
+	EosMakHesdurosPlasmaPistol: {
+		Tooltip: ""
+		DisplayName: Eos'Mak Hesduros Plasma Pistol
+	}
+
+	AnskumGlyph1PlasmaGrenade: {
+		Tooltip: ""
+		DisplayName: Anskum Glyph-1 Plasma Grenade
+	}
+
+	GaduloNeedleRifle: {
+		Tooltip: ""
+		DisplayName: Gadulo Needle Rifle
+	}
+
+	NahlehaxNeedler: {
+		Tooltip: ""
+		DisplayName: Nahle'hax Needler
+	}
+
+	GespuFuelRodGun: {
+		Tooltip: ""
+		DisplayName: Gespu Fuel Rod Gun
+	}
+
+	KorvaFuelRodGun: {
+		Tooltip: ""
+		DisplayName: Korva Fuel Rod Gun
+	}
+
+	PeztkFuelRodGun: {
+		Tooltip: ""
+		DisplayName: Pez'tk Fuel Rod Gun
+	}
+
+	ZasqiFuelRodGun: {
+		Tooltip: ""
+		DisplayName: Zasqi Fuel Rod Gun
+	}
+
+	ZasqiFuelRodGunGold: {
+		Tooltip: ""
+		DisplayName: Zasqi Fuel Rod Gun
+	}
+
+	MtaraFocusRifle: {
+		Tooltip: ""
+		DisplayName: M'tara Focus Rifle
+	}
+
+	UnidentifiedEnergySword: {
+		Tooltip: ""
+		DisplayName: Unidentified Energy Sword
+	}
+
+	EloNakadaConcussionRifle: {
+		Tooltip: ""
+		DisplayName: Elo'Nakada Concussion Rifle
+	}
+
+	PaegaasSpiker: {
+		Tooltip: ""
+		DisplayName: Paegaas Spiker
+	}
+
+	PaegaasGravityHammer: {
+		Tooltip: ""
+		DisplayName: Paegaas Gravity Hammer
+	}
+
+	KewuRshikChromePlasmaRifle: {
+		Tooltip: ""
+		DisplayName: Kewu R'shi'k Chrome Plasma Rifle
+	}
+
+	M41GuardianSPNKr: {
+		Tooltip: ""
+		DisplayName: M41 Guardian SPNKr
+	}
+
+	M41ReachSPNKr: {
+		Tooltip: ""
+		DisplayName: M41 Reach SPNKr
+	}
+
+	M6VSpartanLaser: {
+		Tooltip: ""
+		DisplayName: M6V Spartan Laser
+	}
+
+	M247HHeavyMachineGun: {
+		Tooltip: ""
+		DisplayName: M247H Heavy Machine Gun
+	}
+
+	M9SpartanFragGrenade: {
+		Tooltip: ""
+		DisplayName: M9 Spartan Fragmentation Grenade
+	}
+
+	UnidentifiedFuelRodCannonGold: {
+		Tooltip: ""
+		DisplayName: Unidentified Fuel Rod Cannon Gold
+	}
+
+	Type52FocusRifle: {
+		Tooltip: ""
+		DisplayName: Type52 Focus Rifle
+	}
+
+	Type2RGravityHammer: {
+		Tooltip: ""
+		DisplayName: Type2 R Gravity Hammer
+	}
+
+	M247HRHeavyMachineGun: {
+		Tooltip: ""
+		DisplayName: M247 H R Heavy Machine Gun
+	}
+
+	M6RSpartanLaser: {
+		Tooltip: ""
+		DisplayName: M6 R Spartan Laser
+	}
+
+	M41RSPNKr: {
+		Tooltip: ""
+		DisplayName: M41 R S P N Kr
+	}
+
+	M41GSPNKr: {
+		Tooltip: ""
+		DisplayName: M41 G S P N Kr
+	}
+
+	SRS99AMSniperRifle: {
+		Tooltip: ""
+		DisplayName: SRS99-AM Sniper Rifle
+	}
+
+	M45Shotgun: {
+		Tooltip: ""
+		DisplayName: M45 Shotgun
+	}
+
+	M45DSmartScopeShotgun: {
+		Tooltip: ""
+		DisplayName: M45D Smart Scope Shotgun
+	}
+
+	M6GMagnum: {
+		Tooltip: ""
+		DisplayName: M6G Magnum
+	}
+
+	M6DMagnum: {
+		Tooltip: ""
+		DisplayName: M6D Magnum
+	}
+
+	M319GrenadeLauncher: {
+		Tooltip: ""
+		DisplayName: M319 Grenade Launcher
+	}
+
+	M319Grenade: {
+		Tooltip: ""
+		DisplayName: M319 Grenade
+	}
+
+	M9RFragGrenade: {
+		Tooltip: ""
+		DisplayName: M9 R Frag Grenade
+	}
+
+	M392DMR: {
+		Tooltip: ""
+		DisplayName: M392 DMR
+	}
+
+	MA37AssaultRifle: {
+		Tooltip: ""
+		DisplayName: MA37 Assault Rifle
+	}
+
+	MA5CAssaultRifle: {
+		Tooltip: ""
+		DisplayName: MA5C Assault Rifle
+	}
+
+	MA5BAssaultRifle: {
+		Tooltip: ""
+		DisplayName: MA5B Assault Rifle
+	}
+
+	Z130GSuppressor: {
+		Tooltip: ""
+		DisplayName: Z130 G Suppressor
+	}
+
+	Z180GScattershot: {
+		Tooltip: ""
+		DisplayName: Z180 G Scattershot
+	}
+
+	Z250GLightRifle: {
+		Tooltip: ""
+		DisplayName: Z250 G Light Rifle
+	}
+
+	Z390GIncinerationCannon: {
+		Tooltip: ""
+		DisplayName: Z390 G Incineration Cannon
+	}
+
+	Z110GBoltshot: {
+		Tooltip: ""
+		DisplayName: Z110 G Boltshot
+	}
+
+	PhotonCell: {
+		Tooltip: ""
+		DisplayName: Photon Cell
+	}
+
+	Type25RPlasmaRifle: {
+		Tooltip: ""
+		DisplayName: Type25 R Plasma Rifle
+	}
+
+	Type51PlasmaRepeater: {
+		Tooltip: ""
+		DisplayName: Type51 Plasma Repeater
+	}
+
+	Type25DPlasmaPistol: {
+		Tooltip: ""
+		DisplayName: Type25 D Plasma Pistol
+	}
+
+	Type1RPlasmaGrenade: {
+		Tooltip: ""
+		DisplayName: Type1 R Plasma Grenade
+	}
+
+	Type31NeedleRifle: {
+		Tooltip: ""
+		DisplayName: Type31 Needle Rifle
+	}
+
+	Type33RNeedler: {
+		Tooltip: ""
+		DisplayName: Type33 R Needler
+	}
+
+	BlamiteCrystal: {
+		Tooltip: ""
+		DisplayName: Blamite Crystal
+	}
+
+	UnidentifiedFuelRodCannon: {
+		Tooltip: ""
+		DisplayName: Unidentified Fuel Rod Cannon
+	}
+
+	Type58FuelRodCannon: {
+		Tooltip: ""
+		DisplayName: Type58 Fuel Rod Cannon
+	}
+
+	Type33RFuelRodCannon: {
+		Tooltip: ""
+		DisplayName: Type33 R Fuel Rod Cannon
+	}
+
+	Type33CFuelRodCannon: {
+		Tooltip: ""
+		DisplayName: Type33 C Fuel Rod Cannon
+	}
+
+	FuelRod: {
+		Tooltip: ""
+		DisplayName: Fuel Rod
+	}
+
+	Type1REnergySword: {
+		Tooltip: ""
+		DisplayName: Type1 R Energy Sword
+	}
+
+	Type50RConcussionRifle: {
+		Tooltip: ""
+		DisplayName: Type50 R Concussion Rifle
+	}
+
+	ConcussionRocket: {
+		Tooltip: ""
+		DisplayName: Concussion Rocket
+	}
+
+	Type25RSpiker: {
+		Tooltip: ""
+		DisplayName: Type25 R Spiker
+	}
+
+	Type25CBrutePlasmaRifle: {
+		Tooltip: ""
+		DisplayName: Type25 C Brute Plasma Rifle
+	}
+}
+

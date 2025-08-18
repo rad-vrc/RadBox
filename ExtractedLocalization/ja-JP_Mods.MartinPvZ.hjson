@@ -1,0 +1,152 @@
+UI: {
+	Sun: "{0}"
+}
+
+NPCs: {
+	Crazy: {
+		DisplayName: Crazy
+
+		TownNPCMood: {
+			Content: I've been holding onto this taco for forever!
+			FarFromHome: I'm sure my taco is around here somewhere...
+			NoHome: Oxygen is great, but I think I'm getting homesick.
+			LoveSpace: I love space.
+			DislikeCrowded: I'd like space.
+			HateCrowded: There's no free room for my tacos!
+			LoveBiome: Woah! {BiomeName}!
+			LikeBiome: Where else would I find my lost taco, except {BiomeName}?
+			DislikeBiome: Brrrrr. It's colder than a polar bear eating an ice pop!
+			HateBiome: This {BiomeName} doesn't smell right.
+			LoveNPC: "{NPCName} says REALLY fun things."
+			LikeNPC: "{NPCName} says funny things."
+			DislikeNPC: I feel threatened by {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census: {
+			SpawnCondition: Have a placeable that slowly breaks underwater in your inventory.
+		}
+	}
+
+	Browncoat: {
+		DisplayName: Browncoat Zombie
+	}
+
+	FlagBrowncoat: {
+		DisplayName: Flag Zombie
+	}
+}
+
+Dialogue: {
+	Game: {
+		WaveSpawned: A huge wave of zombies approaches!
+	}
+
+	Crazy: {
+		Chat1: Greetings, neighbor!
+		Chat2: I'm CRAAAZY!!!!!
+		Chat3: Why'd I put a wallnut in your hand?
+		Chat4: Crazy Dave's Twiddydinkies is open for business!
+		Raining1: It's raining! Raining seeds!
+		Raining2: You know, they used to call me 'Fog Man'
+		Party1: YES! THE TACO IS MINE!
+		Party2: It's about time!
+		Graveyard1: The zombies are coming!
+		Graveyard2: Those zombies just won't let up, will they?
+		Ew1: GUH?!
+		Ew2: This can't be good.
+	}
+}
+
+Bestiary: {
+	Crazy: He is rarely seen without a pot on his head and speaks only in weird grumbles and gibberish. Despite his eccentric behavior, he has repeatedly proven himself to be a highly competent inventor and engineer.
+	Browncoat: Just a regular office zombie in a brown coat. Zombies love brains.
+	Conehead: His traffic cone headpiece makes him twice as tough as normal zombies.
+	Buckethead: His bucket hat makes him more resistant to damage.
+	FlagBrowncoat: Flag Zombie marks the arrival of a huge pile or 'wave' of zombies.
+}
+
+Items: {
+	UsesXSun: Uses {0} sun
+
+	PeashooterSP: {
+		DisplayName: Peashooter Seed Packet
+		Tooltip: They shoot peas at attacking foes
+	}
+
+	SunflowerSP: {
+		DisplayName: Sunflower Seed Packet
+		Tooltip: Essential to produce extra sun
+	}
+
+	CherryBombSP: {
+		DisplayName: Cherry Bomb Seed Packet
+		Tooltip: Short fuse, blows up all foes in an area
+	}
+
+	WallnutSP: {
+		DisplayName: Wallnut Seed Packet
+		Tooltip: Their hard shells can protect other plants
+	}
+
+	PotatoMineSP: {
+		DisplayName: Potato Mine Seed Packet
+		Tooltip: Will explode on contact, but nees a while to arm themselves
+	}
+
+	SnowPeaSP: {
+		DisplayName: Snow Pea Seed Packet
+		Tooltip: Shoots frozen peas that damage and slow foes
+	}
+
+	ChomperSP: {
+		DisplayName: Chomper Seed Packet
+		Tooltip: Can devour foes whole, but are vulnerable while chewing
+	}
+
+	RepeaterSP: {
+		DisplayName: Repeater Seed Packet
+		Tooltip: Fires two peas at a time
+	}
+
+	Sun: {
+		DisplayName: Sun
+		Tooltip: Gives 50 sun
+	}
+
+	ZombieLure: {
+		DisplayName: Zombie Lure
+		Tooltip: <right> to summon a zombie wave
+	}
+}
+
+Projectiles: {
+	Peashooter: {
+		DisplayName: Peashooter
+	}
+
+	Pea: {
+		DisplayName: Pea
+	}
+
+	Sunflower: {
+		DisplayName: Sunflower
+	}
+
+	CherryBomb: {
+		DisplayName: Cherry Bomb
+	}
+
+	Wallnut: {
+		DisplayName: Wallnut
+	}
+}
+
+Tiles: {
+	ZombieLure: {
+		MapEntry: Zombie Lure
+	}
+}
+

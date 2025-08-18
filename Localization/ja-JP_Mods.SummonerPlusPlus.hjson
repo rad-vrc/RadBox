@@ -1,0 +1,423 @@
+Configs: {
+	SummonerPlusPlusModConfig: {
+		DisplayUpdateText: {
+			Tooltip: ""
+			Label: 更新テキストを表示
+		}
+
+		Headers: {
+			Misc: その他
+		}
+
+		DisplayName: Summoner++ 設定
+	}
+}
+
+Projectiles: {
+	PiercerMinion: {
+		DisplayName: ピアサーミニオン
+	}
+
+	ExecutionerMinion: {
+		DisplayName: エグゼキューショナーミニオン
+	}
+
+	FairyProjectile: {
+		DisplayName: フェアリーの弾
+	}
+
+	PinkFairyProjectile: {
+		DisplayName: ピンクフェアリーの弾
+	}
+
+	FairyMinion: {
+		DisplayName: フェアリーミニオン
+	}
+
+	BoneSawSentry: {
+		DisplayName: 骨鋸のセントリー
+	}
+
+	LivingFlameMinion: {
+		DisplayName: 生ける火球ミニオン
+	}
+
+	LeadFistMinion: {
+		DisplayName: 鉛の拳ミニオン
+	}
+
+	IronFistMinion: {
+		DisplayName: 鉄の拳ミニオン
+	}
+
+	QueensStingerProjectile: {
+		DisplayName: 女王の毒針の弾
+	}
+
+	Bubble: {
+		DisplayName: 泡
+	}
+
+	CoralReefSentry: {
+		DisplayName: サンゴ礁のセントリー
+	}
+
+	MiniSlashProjectile: {
+		DisplayName: ミニスラッシュの弾
+	}
+
+	BloodSpillerProjectile: {
+		DisplayName: ブラッドスピラーの弾
+	}
+
+	SpinningStarProjectile: {
+		DisplayName: 回転星の弾
+	}
+
+	SpinningStarMinion: {
+		DisplayName: 回転星ミニオン
+	}
+
+	MagicBroomMinion: {
+		DisplayName: 魔法のほうきミニオン
+	}
+
+	CactusMinionSpike: {
+		DisplayName: サボテンミニオンの棘
+	}
+
+	CactusMinion: {
+		DisplayName: サボテンミニオン
+	}
+
+	GiantHiveStaffBee: {
+		DisplayName: 巨大蜂
+	}
+
+	HiveStaffBee: {
+		DisplayName: 巣杖の蜂
+	}
+
+	HiveSentry: {
+		DisplayName: 巣のセントリー
+	}
+
+	KnifeMinion: {
+		DisplayName: ナイフミニオン
+	}
+}
+
+Buffs: {
+	PiercerMinionBuff: {
+		Description: 汚染の槍があなたのために戦う
+		DisplayName: 汚染の槍
+	}
+
+	ExecutionerMinionBuff: {
+		Description: 真紅の斧があなたのために戦う
+		DisplayName: 真紅の斧
+	}
+
+	FairyMinionBuff: {
+		Description: フェアリーがあなたのために戦う
+		DisplayName: フェアリー
+	}
+
+	LivingFlameMinionBuff: {
+		Description: 生ける火球があなたのために戦う
+		DisplayName: 生ける火球
+	}
+
+	LeadFistMinionBuff: {
+		Description: 鉛の拳があなたのために戦う
+		DisplayName: 鉛の拳
+	}
+
+	IronFistMinionBuff: {
+		Description: 鉄の拳があなたのために戦う
+		DisplayName: 鉄の拳
+	}
+
+	QueensStingerDebuff: {
+		Description: 女王の毒針に標的とされている
+		DisplayName: 女王の毒針
+	}
+
+	MiniSlashDebuff: {
+		Description: 召喚タグのダメージが増加する対象
+		DisplayName: ミニスラッシュ
+	}
+
+	BloodSpillerDebuff: {
+		Description: 次の召喚ダメージが2倍になる
+		DisplayName: ブラッドスピラー
+	}
+
+	SpinningStarMinionBuff: {
+		Description: 回転星があなたのために戦う
+		DisplayName: 回転星
+	}
+
+	MagicBroomMinionBuff: {
+		Description: 魔法のほうきがあなたのために戦う
+		DisplayName: 魔法のほうき
+	}
+
+	CactusMinionBuff: {
+		Description: 生けるサボテンがあなたのために戦う
+		DisplayName: 生けるサボテン
+	}
+
+	KnifeMinionBuff: {
+		Description: ナイフがあなたのために戦う
+		DisplayName: ナイフ
+	}
+}
+
+Items: {
+	MoltenGlove: {
+		Tooltip:
+			'''
+			召喚タグダメージ+3
+			鞭の攻撃範囲が20%上昇
+			鞭の攻撃速度が12%上昇
+			鞭と近接武器のオート攻撃を有効化
+			'''
+		DisplayName: 溶岩の手袋
+	}
+
+	WhistleOfYin: {
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			鞭のタグ持続を2秒に短縮
+			'''
+		DisplayName: 陰の笛
+	}
+
+	WhistleOfYang: {
+		Tooltip:
+			'''
+			召喚タグダメージ+1
+			鞭のタグ持続を6秒に延長
+			'''
+		DisplayName: 陽の笛
+	}
+
+	GoblinWarBanner: {
+		Tooltip: ""
+		DisplayName: ゴブリンの軍旗
+	}
+
+	StoneOfIllusions: {
+		Tooltip:
+			'''
+			ミニオンの分身を召喚 元のミニオンのダメージの20%を与える
+			分身はタグダメージが50%低下
+			1体限定のミニオンには無効（アビゲイル/スピニングスターなど）
+			'''
+		DisplayName: 幻影の石
+	}
+
+	Piercer: {
+		Tooltip: 汚染の槍を召喚して戦わせる
+		DisplayName: 汚染の刺突者
+	}
+
+	Executioner: {
+		Tooltip:
+			'''
+			真紅の斧を召喚して戦わせる
+			回転中の速度が大幅に上昇    
+			'''
+		DisplayName: 真紅の死刑執行人
+	}
+
+	FairyStaff: {
+		Tooltip: フェアリーを召喚して戦わせる
+		DisplayName: フェアリースタッフ
+	}
+
+	BoneSaw: {
+		Tooltip:
+			'''
+			セントリーを召喚
+			鋸があなたのために戦う         
+			'''
+		DisplayName: ボーンソー
+	}
+
+	LivingFlameStaff: {
+		Tooltip:
+			'''
+			生ける火球を召喚して戦わせる
+			火球は呪われた炎デバフを拡散     
+			'''
+		DisplayName: 生ける炎の杖
+	}
+
+	LeadFist: {
+		Tooltip: 鉛の拳を召喚して戦わせる
+		DisplayName: 鉛の拳
+	}
+
+	IronFist: {
+		Tooltip: 鉄の拳を召喚して戦わせる
+		DisplayName: 鉄の拳
+	}
+
+	BatTooth: {
+		Tooltip:
+			'''
+			ミニオンとセントリーの防御無視値+5
+			召喚物が攻撃時 近くの敵を混乱させることがある
+			'''
+		DisplayName: コウモリの牙
+	}
+
+	QueensStinger: {
+		Tooltip:
+			'''
+			召喚物は攻撃した敵を優先
+			敵を攻撃すると「ハニー！」バフを得る
+			味方の蜂とスズメバチはタグ付与された敵に与ダメージ+50%
+			'''
+		DisplayName: 女王の毒針
+	}
+
+	CoralStaff: {
+		Tooltip:
+			'''
+			セントリーを召喚
+			サンゴ礁があなたのために戦う         
+			'''
+		DisplayName: サンゴの杖
+	}
+
+	BoneWhistle: {
+		Tooltip:
+			'''
+			召喚タグダメージ+1
+			召喚タグクリティカル率+5%
+			'''
+		DisplayName: 骨の笛
+	}
+
+	DemoniteWhistle: {
+		Tooltip: 召喚タグダメージ+2
+		DisplayName: デモナイトの笛
+	}
+
+	CrimtaneWhistle: {
+		Tooltip: 召喚タグダメージ+2
+		DisplayName: クリムタンの笛
+	}
+
+	MoltenCord: {
+		Tooltip: 鞭の攻撃範囲が20%上昇
+		DisplayName: 溶岩のコード
+	}
+
+	VineCord: {
+		Tooltip: 鞭の攻撃範囲が15%上昇
+		DisplayName: ヴァインコード
+	}
+
+	FlinxFurCord: {
+		Tooltip: 鞭の攻撃範囲と攻撃速度が8%上昇
+		DisplayName: フリンクスの毛のコード
+	}
+
+	TungestenWhistle: {
+		Tooltip: 召喚タグダメージ+1
+		DisplayName: タングステンの笛
+	}
+
+	SilverWhistle: {
+		Tooltip: 召喚タグダメージ+1
+		DisplayName: 銀の笛
+	}
+
+	MoltenWhistle: {
+		Tooltip: 召喚タグダメージ+3
+		DisplayName: 溶岩の笛
+	}
+
+	MiniSlash: {
+		Tooltip:
+			'''
+			召喚タグダメージ+4
+			召喚物は攻撃した敵を優先
+			連続ヒットでタグダメージが最大+10まで上昇
+			'''
+		DisplayName: ミニスラッシュ
+	}
+
+	BloodSpiller: {
+		Tooltip:
+			'''
+			召喚物は攻撃した敵を優先
+			タグ付与された敵は次の召喚攻撃で与ダメージ2倍   
+			'''
+		DisplayName: ブラッドスピラー
+	}
+
+	RodOfRelocation: {
+		Tooltip: すべてのミニオンを自分の元へ呼び戻す
+		DisplayName: 転送の杖
+	}
+
+	SpinningStarStaff: {
+		Tooltip: 回転星を召喚して戦わせる
+		DisplayName: スピニングスタースタッフ
+	}
+
+	MagicBroom: {
+		Tooltip:
+			'''
+			魔法のほうきを召喚して戦わせる
+			このほうきはボス/ミニボスを狙わない      
+			'''
+		DisplayName: 魔法のほうき
+	}
+
+	DesertCrown: {
+		SetBonus: 鞭の攻撃範囲が15%増加
+		Tooltip:
+			'''
+			召喚ダメージが5%増加
+			セントリーの上限数+1      
+			'''
+		DisplayName: 砂漠の冠
+	}
+
+	CactusStaff: {
+		Tooltip:
+			'''
+			生けるサボテンを召喚して戦わせる
+			被弾時に棘を放つ       
+			'''
+		DisplayName: サボテンの杖
+	}
+
+	HiveStaff: {
+		Tooltip:
+			'''
+			セントリーを召喚
+			蜜蜂を放つ味方の巣を召喚          
+			'''
+		DisplayName: 巣の杖
+	}
+
+	KnifeStaff: {
+		Tooltip:
+			'''
+			ナイフを召喚して戦わせる
+			敵の防御力を一部無視する
+			タグダメージを50%失う代わりに手数が多い
+			[c/FFF014:強力なリフォージは付かない]             
+			'''
+		DisplayName: ナイフスタッフ
+	}
+}
+

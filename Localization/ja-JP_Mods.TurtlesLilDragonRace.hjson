@@ -1,0 +1,4332 @@
+Configs: {
+	DragonConfigServer: {
+		breathTiredAmount: {
+			Label: スタミナ 疲弊閾値
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 疲弊閾値]
+				スタミナがこの値以下になると目が完全に閉じ、
+				移動低下デバフを受ける
+				最大容量のおよそ12％に設定するのを推奨
+				[c/888888:既定: 300]
+				'''
+		}
+
+		breathHealthyWarningBuffer: {
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 健全警告バッファ]
+				スタミナが『スタミナ健全値』よりこの量だけ高い状態で
+				同値以下になると、目が半分閉じて早期警告となる
+				ブレスを長く使いすぎてペナルティが始まる合図
+				スタミナが全回復可能になると再び目は開く
+				[c/888888:既定: 500]
+				'''
+			Label: スタミナ 健全警告バッファ
+		}
+
+		breathHealthyAmount: {
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 健全値]
+				ブレス攻撃の威力が低下し始める閾値
+				既定では最大スタミナのおよそ3分の1
+				[c/888888:既定: 850]
+				'''
+			Label: スタミナ 健全値
+		}
+
+		breathCapacity: {
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 最大容量]
+				ドラゴンが保持できる『ブレス』の最大量
+				ブレス攻撃で発射するごとに『スタミナ消費量』ぶん減少し、
+				最小は0まで下がる
+				[c/888888:既定: 2500]
+				'''
+			Label: スタミナ 最大容量
+		}
+
+		breathAttacksEnabled: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス攻撃を有効にする]
+				ドラゴンがブレス攻撃を使用できるかどうか
+				無効でもブレス宝石は使用できるが、攻撃自体は発動しない
+				[c/888888:既定: 有効]
+				'''
+			Label: ブレス攻撃を有効にする
+		}
+
+		dragonPendantAdditionalBuffTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:ペンダント 追加バフ時間]
+				石のペンダント使用時に得られる追加バフの時間
+				秒数 単位 石化時間に加算
+				0で無効
+				[c/888888:既定: 0秒]
+				'''
+			Label: ペンダント 追加バフ時間
+		}
+
+		dragonPendantAdditionalBuff: {
+			Tooltip:
+				'''
+				[c/FFCC44:ペンダント 追加バフ]
+				石のペンダント使用時に石化デバフに加えて
+				ドラゴンへ適用するバフ
+				[c/888888:既定: 朦朧 デバフ]
+				'''
+			Label: ペンダント 追加バフ
+		}
+
+		dragonPedestalAdditionalBuffTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:台座 追加バフ時間]
+				台座にいるときに得られる追加バフの時間
+				単位は秒
+				0で無効
+				[c/888888:既定: 0秒]
+				'''
+			Label: 台座 追加バフ時間
+		}
+
+		dragonPedestalAdditionalBuff: {
+			Tooltip:
+				'''
+				[c/FFCC44:台座 追加バフ]
+				台座にいるドラゴンへ適用するバフ
+				[c/888888:既定: 朦朧 デバフ]
+				'''
+			Label: 台座 追加バフ
+		}
+
+		dragonPetrifyAdditionalBuffTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:石化 追加バフ時間]
+				像としてスポーンしたときに得られる追加バフの時間
+				秒数 単位 石化時間に加算
+				0で無効
+				[c/888888:既定: 0秒]
+				'''
+			Label: 石化 追加バフ時間
+		}
+
+		dragonPetrifyAdditionalBuff: {
+			Tooltip:
+				'''
+				[c/FFCC44:石化 追加バフ]
+				像としてスポーンしたとき 石化デバフに加えて
+				ドラゴンへ適用するバフ
+				『石化 追加バフ時間』の設定も必要
+				[c/888888:既定: 朦朧 デバフ]
+				'''
+			Label: 石化 追加バフ
+		}
+
+		dragonRespawnPetrifyTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:リスポーン時 石化時間]
+				『リスポーン時に像になる』が有効なときの石化時間を変更
+				秒数 単位
+				最大値の601では自力解除できず、救出が必要になる
+				危険性は説明不要だと思う
+				[c/888888:既定: 3秒]
+				'''
+			Label: リスポーン時 石化時間
+		}
+
+		dragonJoinPetrifyTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:ワールド参加時 石化時間]
+				『ワールド参加時に像になる』が有効なときの石化時間を変更
+				『初回スポーンは像』が有効な場合は大きいほうの値を使用
+				秒数 単位
+				最大値の601では自力解除できず、救出が必要になる
+				危険性は説明不要だと思う
+				[c/888888:既定: 3秒]
+				'''
+			Label: ワールド参加時 石化時間
+		}
+
+		dragonStartingPetrifyTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:初回スポーン 石化時間]
+				『初回スポーンは像』が有効なときの石化時間を変更
+				秒数 単位
+				最大値の601では自力解除できず、救出が必要になる
+				[c/888888:既定: 3秒]
+				'''
+			Label: 初回スポーン 石化時間
+		}
+
+		dragonsPetrifyOnRespawn: {
+			Tooltip:
+				'''
+				[c/FFCC44:リスポーン時に像になる]
+				有効にすると、ドラゴンはリスポーン時に石化する
+				[c/FF4444:スポーンキルの原因になり得る]
+				[c/888888:既定: 無効]
+				'''
+			Label: リスポーン時に像になる
+		}
+
+		dragonsPetrifyOnWorldJoin: {
+			Tooltip:
+				'''
+				[c/FFCC44:ワールド参加時に像になる]
+				有効にすると、ワールド入場時は常に石化状態で開始する
+				[c/888888:既定: 無効]
+				'''
+			Label: ワールド参加時に像になる
+		}
+
+		dragonsPetrifyOnFirstSpawn: {
+			Tooltip:
+				'''
+				[c/FFCC44:初回スポーンは像]
+				有効にすると、新規作成のドラゴンは石化状態で開始する
+				そのドラゴンで最初にワールドへ入ったときの一度だけ発生
+				[c/888888:既定: 有効]
+				'''
+			Label: 初回スポーンは像
+		}
+
+		dragonsNeverBrokeFree: {
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンは決して目覚めなかった]
+				「本当に残念だ 連れてきたリル・ドラゴンの像が
+				命を吹き込まれることを期待してたんだけど
+				結局一度も動かなかったんだ」
+				[c/888888:既定: 無効]
+				'''
+			Label: ドラゴンは決して目覚めなかった
+		}
+
+		mountedPlayersCantPickupItems: {
+			Tooltip:
+				'''
+				[c/FFCC44:騎乗者はアイテムを拾えない]
+				有効にすると、騎乗中のプレイヤーはアイテムを拾えない
+				これは [i/s1:4346][c/8686E5:重石] と同様の挙動
+				[c/888888:既定: 無効]
+				'''
+			Label: 騎乗者はアイテムを拾えない
+		}
+
+		ridersAreIntangible: {
+			Tooltip:
+				'''
+				[c/FFCC44:同乗者は非実体]
+				有効にすると、他者に騎乗しているプレイヤーは完全に非実体となり、
+				攻撃を受けなくなる
+				[c/888888:既定: 無効]
+				'''
+			Label: 同乗者は非実体
+		}
+
+		mountedResistance: {
+			Tooltip:
+				'''
+				[c/FFCC44:騎乗時 被ダメージ倍率]
+				騎乗中プレイヤーの最終被ダメージに乗算する値
+				単位はパーセンテージ
+				0％では直接攻撃は1ダメージ
+				100％では通常どおりのダメージ
+				[c/888888:既定: 50％]
+				'''
+			Label: 騎乗時 被ダメージ倍率
+		}
+
+		ignoreMountingSizes: {
+			Tooltip:
+				'''
+				[c/FFCC44:騎乗制限を無視]
+				有効にすると、見た目の大きさに関わらず全種族が互いに騎乗可能
+				当然ながら『騎乗を有効にする』が無効だと効果なし
+				[c/888888:既定: 無効]
+				'''
+			Label: 騎乗制限を無視
+		}
+
+		allowMountingSameSize: {
+			Tooltip:
+				'''
+				[c/FFCC44:同サイズ間の騎乗を許可]
+				有効にすると、同じ騎乗サイズ同士で互いに乗れる
+				無効だと乗れない
+				『騎乗制限を無視』が有効な場合は何もしない
+				[c/888888:既定: 無効]
+				'''
+			Label: 同サイズ間の騎乗を許可
+		}
+
+		enableMounting: {
+			Tooltip:
+				'''
+				[c/FFCC44:騎乗を有効にする]
+				対象より『サイズ』が小さい場合に相互騎乗を許可する
+				リル・ドラゴン系以外の種族の『サイズ』は0
+				リル・ドラゴン系は設定可能な手動サイズを持つ
+				相手へインタラクト（既定は右クリック）で騎乗
+				ジャンプまたは再度インタラクトで降りる
+				種族によってはこの性質を上書きする場合がある
+				[c/888888:既定: 有効]
+				'''
+			Label: 騎乗を有効にする
+		}
+
+		anyoneCanUsePedestals: {
+			Tooltip:
+				'''
+				[c/FFCC44:非ドラゴンの台座使用]
+				有効にすると、リル・ドラゴン系コードベースの全種族が台座を使用可能
+				無効だと、使用できるのはリル/ビッグドラゴンのみ
+				注: リル・ドラゴン系でない種族は常に台座を使用できない
+				[c/888888:既定: 有効]
+				'''
+			Label: 非ドラゴンの台座使用
+		}
+
+		dragonItemInMouth: {
+			Tooltip:
+				'''
+				[c/FFCC44:口にアイテムを咥える]
+				リル・ドラゴン系の多くの種族は、アイテムを体の横に浮かべず
+				口に咥える表示になる
+				これにより近接の当たり判定位置が変わるが、
+				投射物の発射位置は変わらない
+				種族ごとにこの挙動を上書きする場合がある
+				[c/888888:既定: 有効]
+				'''
+			Label: 口にアイテムを咥える
+		}
+
+		dragonsCanCrouch: {
+			Tooltip:
+				'''
+				[c/FFCC44:しゃがみを許可]
+				リル・ドラゴン系の一部種族が、下入力でしゃがめるようにする
+				[c/888888:既定: 有効]
+				'''
+			Label: しゃがみを許可
+		}
+
+		DisplayName: リル 一般設定 - サーバー
+
+		breathMinMultiplier: {
+			Label: ブレス 最低威力
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス 最低威力]
+				消耗時にブレス攻撃が到達し得る威力の下限倍率
+				消耗は連射速度とダメージに影響
+				スタミナが『スタミナ健全値』を下回ると100％から直線的に下がり、
+				0に近づくほどこの最小値へ近づく
+				単位はパーセンテージ
+				[c/888888:既定: 10％]
+				'''
+		}
+
+		breathRecoveryAmount: {
+			Label: スタミナ 回復速度
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 回復速度]
+				『スタミナ回復遅延』経過後に、1ティックごとに回復するスタミナ量
+				ゲームは既定で毎秒60ティック
+				[c/888888:既定: 8]
+				'''
+		}
+
+		breathRecoveryDelay: {
+			Label: スタミナ 回復遅延
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 回復遅延]
+				ブレス攻撃をやめてからスタミナ回復が始まるまでの待機ティック数
+				ゲームは既定で毎秒60ティック
+				[c/888888:既定: 90]
+				'''
+		}
+
+		breathRecoveryScalesWithMax: {
+			Label: スタミナ回復 最高値比例
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ回復 最高値比例]
+				有効にすると、ブレスパワー上昇で最大スタミナが増えるのに伴い
+				回復量も比例して増加する
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		breathDrainAmount: {
+			Label: スタミナ 消費量
+			Tooltip:
+				'''
+				[c/FFCC44:スタミナ 消費量]
+				ブレス攻撃で投射物を1発撃つごとに消費するスタミナ量
+				[c/888888:既定: 13]
+				'''
+		}
+
+		breathFireDelay: {
+			Label: ブレス 発射間隔
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス 発射間隔]
+				ブレス攻撃使用中に、設定値Xティックごとに投射物を発射する
+				ゲームは既定で毎秒60ティック
+				[c/888888:既定: 2]
+				'''
+		}
+
+		breathDamageMult: {
+			Label: ブレス ダメージ倍率
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス ダメージ倍率]
+				生成されるすべてのブレス投射物のダメージに乗算する倍率
+				単位はパーセンテージ
+				[c/888888:既定: 100％]
+				'''
+		}
+
+		breathKnockbackMult: {
+			Label: ブレス ノックバック倍率
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス ノックバック倍率]
+				生成されるすべてのブレス投射物のノックバックに乗算する倍率
+				単位はパーセンテージ
+				[c/888888:既定: 100％]
+				'''
+		}
+
+		breathVelocityScaling: {
+			Label: ブレス 弾速スケーリング
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス 弾速スケーリング]
+				ブレスパワーに応じてブレス投射物の速度を上昇させる
+				初期値を超えるブレスパワー1ポイントあたりの増加率（％）
+				[c/888888:既定: 1％]
+				'''
+		}
+
+		breathVelocityScalingCap: {
+			Label: ブレス 弾速スケーリング上限
+			Tooltip:
+				'''
+				[c/FFCC44:ブレス 弾速スケーリング上限]
+				ブレスパワーが初期値からこの値だけ上回ると弾速はそれ以上上がらない
+				極端なブレスパワーで投射物が速くなりすぎるのを防ぐための上限
+				[c/888888:既定: 100]
+				'''
+		}
+
+		statuesImmuneToBreathing: {
+			Label: 石化中は水中呼吸
+			Tooltip:
+				'''
+				[c/FFCC44:石化中は水中呼吸]
+				石化したプレイヤーが水中呼吸できるようにするか
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statuesImmuneToFire: {
+			Label: 石化中は火炎無効
+			Tooltip:
+				'''
+				[c/FFCC44:石化中は火炎無効]
+				ヘルストーンなどの熱いブロックのダメージを無効にするか
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statuesImmuneToLava: {
+			Label: 石化中は溶岩無効
+			Tooltip:
+				'''
+				[c/FFCC44:石化中は溶岩無効]
+				石化したプレイヤーを溶岩耐性にするか
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statuesImmuneToFallDamage: {
+			Label: 石化中は落下無効
+			Tooltip:
+				'''
+				[c/FFCC44:石化中は落下無効]
+				石化したプレイヤーの落下ダメージを0にするか
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		afkStatueImmuneToFallDamage: {
+			Label: フォーカス喪失 石化は落下無効
+			Tooltip:
+				'''
+				[c/FFCC44:フォーカス喪失 石化は落下無効]
+				『フォーカス喪失で自己石化』のクライアント設定で石化した場合、
+				落下ダメージを無効にするか
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statuesGetPendantBuffs: {
+			Label: 像でも石のペンダント効果を付与
+			Tooltip:
+				'''
+				[c/FFCC44:像でも石のペンダント効果を付与]
+				石化中は石のペンダント装備扱いとして関連ボーナスを与えるか
+				実際に全員を石化するわけではない
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statueStatsApplyOnPedestal: {
+			Label: 台座でも石のペンダント効果
+			Tooltip:
+				'''
+				[c/FFCC44:台座でも石のペンダント効果]
+				台座でポーズ中も、石のペンダント装備時と同様の強化を与えるか
+				通常 台座でのポーズは『石化扱い』ではない（操作が封じられるため）
+				別種の石化表現を行う台座（例: リル・フォックスの生け垣プランター）
+				ではこの設定は無視される
+				[c/FFFF88:ドラゴンに限らず全プレイヤーに適用]
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		photosensitivePetrificationToggle: {
+			Label: 感光石化
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化]
+				有効にすると、日光/月光に長く晒されると朦朧を経て石化に至る
+				ドラゴン（のみ）向けの石化システムを有効化
+				この方法で石化したプレイヤーは、近くでインタラクトして『救出』可能
+				詳細は以下の設定を参照
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		photosensitiveDazedDebuff: {
+			Label: 感光石化 用デバフ
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化 用デバフ]
+				晒されている間に適用されるデバフ 最終的な石化へ至る前段階
+				[c/888888:既定: 朦朧 デバフ]
+				'''
+		}
+
+		photosensitivePetrifyLingerTime: {
+			Label: 感光石化 残留時間
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化 残留時間]
+				ドラゴンが長時間晒されたときに適用される石化デバフの継続時間（秒）
+				通常は救出が必要な石化から連打で抜け出せる設定にしている場合は、
+				少し長めに設定するのを推奨
+				[c/888888:既定: 1秒]
+				'''
+		}
+
+		photosensitiveMaxDazedTime: {
+			Label: 感光石化 必要露出時間
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化 必要露出時間]
+				晒されてから石化に至るまで上昇するデバフの上限時間（秒）
+				言い換えると、石化するまでに必要な露出秒数
+				[c/888888:既定: 5秒]
+				'''
+		}
+
+		photosensitiveTimeOfDay: {
+			Label: 感光石化 昼夜切替
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化 昼夜切替]
+				有効: 日光に反応 無効: 月光と日食に反応
+				地下や雨天（強度問わず）では感光は発生しない
+				[c/888888:既定: 有効（日光）]
+				'''
+		}
+
+		photosensitiveAllowSleep: {
+			Label: 感光石化 睡眠扱い
+			Tooltip:
+				'''
+				[c/FFCC44:感光石化 睡眠扱い]
+				感光で石化した場合『睡眠中』として扱う
+				全員が睡眠中の場合の時間経過が少し早まる
+				[c/888888:既定: 有効]
+				'''
+		}
+
+		dragonsPetrifyOnDeath: {
+			Label: 死亡の代わりに石化
+			Tooltip:
+				'''
+				[c/FFCC44:死亡の代わりに石化]
+				体力が0になったとき死なずに石化する
+				近くでインタラクトすれば他プレイヤーが『救出』できる
+
+				モードは3種類:
+				0 - 無効 通常どおり死亡
+				1 - リル・ドラゴン系で 元が無生物という設定の種族のみ石化
+				例: リル・ドラゴン ビッグ・ドラゴン リル・フォックス
+				2 - すべての種族が死亡の代わりに石化
+
+				この方法で石化したプレイヤーは救出まで非実体
+				ログアウト→ログインで救出待ち状態は解除
+				全員が石化した場合の対処は下の設定を参照
+				[c/888888:既定: 0]
+				'''
+		}
+
+		petrifyOnDeathAutoRescueMethod: {
+			Label: 自動救出の方法
+			Tooltip:
+				'''
+				[c/FFCC44:自動救出の方法]
+				『死亡の代わりに石化』によりサーバー上の全員が石化した場合の処理
+				『自動救出の遅延』経過後 指定の番号に応じて実行:
+				0 - 何もしない 全員石化のまま
+				1 - 全員即死
+				2 - 全員に回復ボーナスを与え 全快で石化解除
+				[c/888888:既定: 0]
+				'''
+		}
+
+		petrifyOnDeathAutoRescueDelay: {
+			Label: 自動救出の遅延
+			Tooltip:
+				'''
+				[c/FFCC44:自動救出の遅延]
+				サーバー上の全員が救出待ちの石化状態になった際に
+				『自動救出の方法』が発動するまでの遅延（秒）
+				[c/888888:既定: 5秒]
+				'''
+		}
+
+		petrifyOnDeathAutoRescueMaxRespawn: {
+			Label: 自動救出 死亡時の最大リスポーン時間
+			Tooltip:
+				'''
+				[c/FFCC44:自動救出 死亡時の最大リスポーン時間]
+				『自動救出の方法 1』でのみ有効
+				方法1で殺された場合のリスポーン時間の上限（秒）
+				ボス戦中の死亡で極端に長いリスポーン待機を避けるための上限
+				[c/888888:既定: 10秒]
+				'''
+		}
+
+		petrifyOnDeathMaxDamageToBlock: {
+			Label: 死亡防止の最大許容ダメージ
+			Tooltip:
+				'''
+				[c/FFCC44:死亡防止の最大許容ダメージ]
+				救出システムが即死に切り替えるまで許容する最大ダメージ
+				-1 の場合は常に死亡せず『戦闘不能』になる
+				[c/888888:既定: -1]
+				'''
+		}
+
+		petrifyRescueGraceTime: {
+			Label: 救出加護の時間
+			Tooltip:
+				'''
+				[c/FFCC44:救出加護の時間]
+				救出後に付与される救出加護バフの時間（秒）
+				このバフ中は追加の石化と死亡に対しては無敵だが被弾自体はする
+				[c/888888:既定: 3秒]
+				'''
+		}
+
+		petrifyRescueGraceMinHealth: {
+			Label: 救出加護 最低体力割合
+			Tooltip:
+				'''
+				[c/FFCC44:救出加護 最低体力割合]
+				救出加護バフ中は、体力が常に少なくともこの割合まで自動回復する
+				0％では回復しないが、バフ中は死亡だけはしない
+				[c/888888:既定: 0％]
+				'''
+		}
+
+		petrifyRescueLockoutTime: {
+			Label: 救出ロックアウト時間
+			Tooltip:
+				'''
+				[c/FFCC44:救出ロックアウト時間]
+				救出待ちになってから実際に救出可能になるまでの待ち時間（秒）
+				この間は『石化ホッピング』もできない
+				頭上のアイコンで救出可否を示す
+				『…』は待機中 『!』は救出可能
+				[c/888888:既定: 5秒]
+				'''
+		}
+
+		petrifyRescueLingerTime: {
+			Label: 救出待ち デバフ時間
+			Tooltip:
+				'''
+				[c/FFCC44:救出待ち デバフ時間]
+				救出待ちの間に適用するデバフ（例: 石化）の持続時間（秒）
+				救出回避のためのログアウト対策や、連打での解除を有効にしている場合に有用
+				[c/888888:既定: 10秒]
+				'''
+		}
+
+		allowPetrifiedHopping: {
+			Label: 石化ホッピングを許可
+			Tooltip:
+				'''
+				[c/FFCC44:石化ホッピングを許可]
+				有効にすると、リル・ドラゴン系種族は石化中でも小さく跳べる
+				左右入力で左右へ小ジャンプも可能
+				[c/888888:既定: 有効]
+				'''
+		}
+
+		statueHopCooldown: {
+			Label: 石化ホッピング クールダウン
+			Tooltip:
+				'''
+				[c/FFCC44:石化ホッピング クールダウン]
+				像として跳ぶたびの待機ティック数
+				空中にいる場合もこのタイマーが設定される
+				1秒は60ティック
+				[c/888888:既定: 60]
+				'''
+		}
+
+		statueHopHorizontalForce: {
+			Label: 石化ホッピング 横速度
+			Tooltip:
+				'''
+				[c/FFCC44:石化ホッピング 横速度]
+				左右入力しながら像として跳んだときの横方向の力
+				[c/888888:既定: 75]
+				'''
+		}
+
+		statueHopVerticalForce: {
+			Label: 石化ホッピング 縦速度
+			Tooltip:
+				'''
+				[c/FFCC44:石化ホッピング 縦速度]
+				像として跳んだときの縦方向の力
+				[c/888888:既定: 225]
+				'''
+		}
+
+		statueHopNoFrictionTime: {
+			Label: 石化ホッピング 無摩擦時間
+			Tooltip:
+				'''
+				[c/FFCC44:石化ホッピング 無摩擦時間]
+				像として跳んだ後、このティック数のあいだほぼ摩擦なしになる
+				地面に着くと即座に解除
+				1秒は60ティック
+				[c/888888:既定: 20]
+				'''
+		}
+
+		allowStatueMashingMechanic: {
+			Label: 石化連打を許可
+			Tooltip:
+				'''
+				[c/FFCC44:石化連打を許可]
+				石化中に入力キー（上 下 左 右 ジャンプ）を連打して解除を早められる
+				同一フレームの複数入力は1回として扱われる点に注意
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		statueMashingDragonCodebaseOnly: {
+			Label: 連打可はドラゴン系のみ
+			Tooltip:
+				'''
+				[c/FFCC44:連打可はドラゴン系のみ]
+				有効にすると、リル・ドラゴン系以外の種族では石化連打が機能しない
+				『石化連打を許可』が有効でないと効果なし
+				[c/888888:既定: 無効]
+				'''
+		}
+
+		allowMashingOutOfRescue: {
+			Label: 連打で自力救出を許可
+			Tooltip:
+				'''
+				[c/FFCC44:連打で自力救出を許可]
+				有効にすると、救出待ちの石化中でも連打で解除できるようになり、
+				自分で自分を救える
+				感光石化にも適用
+				[c/888888:既定: 有効]
+				'''
+		}
+
+		pauseStatueTimeWithMashingMechanic: {
+			Label: 石化デバフの時間を停止
+			Tooltip:
+				'''
+				[c/FFCC44:石化デバフの時間を停止]
+				『石化連打を許可』が有効のとき、この設定を有効にすると
+				石化デバフが時間経過で減らず、解除には連打が必要になる
+				有効のままを推奨
+				リル・フォックスの生け垣デバフ（救出状態）にも影響
+				『石化連打を許可』が無効のときは効果なし
+				『連打可はドラゴン系のみ』が有効のときはドラゴン系以外に効果なし
+				[c/888888:既定: 有効]
+				'''
+		}
+
+		statueMashingReductionPerInput: {
+			Label: 連打1回あたりの短縮ティック
+			Tooltip:
+				'''
+				[c/FFCC44:連打1回あたりの短縮ティック]
+				連打が有効なとき、入力1回で石化時間を短縮するティック数
+				単位はティック 1秒は60ティック
+				[c/888888:既定: 6]
+				'''
+		}
+
+		statuesDontStarve: {
+			Label: 石像は空腹にならない
+			Tooltip:
+				'''
+				[c/FFCC44:石像は空腹にならない]
+				有効にすると、Don't Starve 系シードで与えられる空腹バフの残り時間が
+				石化中や台座上では減らない
+				見た目が石化でなくとも 他MODの台座にも適用
+				[c/888888:既定: 有効]
+				'''
+		}
+
+		doHitboxModifications: {
+			Label: 種族別 当たり判定変更
+			Tooltip:
+				'''
+				[c/FFCC44:種族別 当たり判定変更]
+				有効にすると、リル・ドラゴン系種族に種族ごとのカスタムヒットボックスを適用
+				無効だと当たり判定の変更コードは走らない
+				他MODと当たり判定のサイズ変更で深刻な競合がある場合は無効化を検討
+				[c/888888:既定: 有効]
+				'''
+		}
+	}
+
+	DragonConfigClient: {
+		focusedPendantToggleOffColour: {
+			Tooltip:
+				'''
+				[c/FFCC44:集中ペンダント ON色]
+				集中ペンダントを無効化したときに出るパーティクルの色
+				『集中ペンダント 切替パーティクル』が無効なら効果なし
+				[c/888888:既定: RGBA 255, 255, 75, 255]
+				'''
+			Label: 集中ペンダント 切替オフ色
+		}
+
+		focusedPendantToggleOnColour: {
+			Tooltip:
+				'''
+				[c/FFCC44:集中ペンダント ON色]
+				集中ペンダントを有効化したときに出るパーティクルの色
+				『集中ペンダント 切替パーティクル』が無効なら効果なし
+				[c/888888:既定: RGBA 50, 155, 255, 255]
+				'''
+			Label: 集中ペンダント 切替オン色
+		}
+
+		focusedPendantToggleParticles: {
+			Tooltip:
+				'''
+				[c/FFCC44:集中ペンダント 切替パーティクル]
+				有効にすると、石のペンダント（集中）を切替えた際に色付きパーティクルを出す
+				マルチでは自分の画面にのみ影響
+				注: リル・フォックスの集中生け垣ペンダントにも影響
+				[c/888888:既定: 有効]
+				'''
+			Label: 集中ペンダント 切替パーティクル
+		}
+
+		tetherConnectionsShowParticles: {
+			Tooltip:
+				'''
+				[c/FFCC44:テザー接続のパーティクル]
+				有効にすると、テザーでつながれたプレイヤーの首元から接続先（プレイヤー/ポスト）まで
+				線状のパーティクルを表示
+				[c/888888:既定: 有効]
+				'''
+			Label: テザー接続のパーティクル
+		}
+
+		dragonVanitySetEffects: {
+			Tooltip:
+				'''
+				[c/FFCC44:専用見た目セット効果を表示]
+				有効にすると、専用ドラゴン防具が対応するバニラ防具の
+				セット効果の見た目を再現しようとする
+				無効にすると自キャラには表示されない
+				他プレイヤーにも見える
+				[c/888888:既定: 有効]
+				'''
+			Label: 専用見た目セット効果を表示
+		}
+
+		hearOtherBreathSounds: {
+			Tooltip:
+				'''
+				[c/FFCC44:他人のブレス音を聞く]
+				有効にすると、他プレイヤーのメインブレス使用時のループ音を聞こえるようにする
+				無効にすると自分の音のみ
+				[c/888888:既定: 有効]
+				'''
+			Label: 他人のブレス音を聞く
+		}
+
+		handParticlesAboveDragon: {
+			Tooltip:
+				'''
+				[c/FFCC44:手のエフェクトをドラゴンの上に表示]
+				有効にすると [i/s1:3542][c/E10643:ネビュラブレイズ] など一部アイテムのパーティクルが
+				ドラゴンの上に生成される
+				無効だとこれらは表示されない
+				[c/888888:既定: 無効]
+				'''
+			Label: 手のエフェクトをドラゴンの上に表示
+		}
+
+		useDontStarveHitSounds: {
+			Tooltip:
+				'''
+				[c/FFCC44:特殊ワールドのプレイヤー音を使用]
+				有効にすると、種族の被弾/死亡音をワールド専用の音（Don't Starve シード等）に置き換える
+				無効だとワールド種別に関わらず通常の種族音になる
+				[c/888888:既定: 有効]
+				'''
+			Label: 特殊ワールドのプレイヤー音を使用
+		}
+
+		dragonWingIsWhiteWhenDyed: {
+			Tooltip:
+				'''
+				[c/FFCC44:翼の代替染色モード]
+				有効にすると、リル・ドラゴン系の専用翼は染料適用時に真っ白（キャラ作成時に白くした状態）で着色される
+				一部の染料が『透けて見える』のを軽減できる一方、翼全体に色が乗らない染料では見た目が不自然になることも
+				使う染料に合わせて見栄えの良いほうを選んでほしい
+				この設定は他プレイヤーからの自分の見え方に影響し、他人の見え方には影響しない
+				[c/888888:既定: 無効]
+				'''
+			Label: 翼の代替染色モード
+		}
+
+		showPersonalRescueIcon: {
+			Tooltip:
+				'''
+				[c/FFCC44:自分の救出インジケーターを表示]
+				有効にすると、自分の頭上に救出インジケーターを表示
+				無効にすると表示しない
+				他者からの見え方には影響しない
+				救出システムを利用するサーバー設定が有効でないと機能しない
+				[c/888888:既定: 有効]
+				'''
+			Label: 自分の救出インジケーターを表示
+		}
+
+		showRescueIndicatorOfOthers: {
+			Tooltip:
+				'''
+				[c/FFCC44:他人の救出インジケーターを表示]
+				有効にすると、許可している他プレイヤーの頭上に救出インジケーターを表示
+				無効だと誰が救出を必要としているか分かりにくくなる
+				救出システムを利用するサーバー設定が有効でないと機能しない
+				[c/888888:既定: 有効]
+				'''
+			Label: 他人の救出インジケーターを表示
+		}
+
+		showRescueIndicatorToOthers: {
+			Tooltip:
+				'''
+				[c/FFCC44:他人に自分の救出インジケーターを見せる]
+				有効にすると、救出が必要なとき自分の頭上にインジケーターを表示（他人から見える）
+				無効だと誰にも表示されない
+				救出システムを利用するサーバー設定が有効でないと機能しない
+				[c/888888:既定: 有効]
+				'''
+			Label: 他人に自分の救出インジケーターを見せる
+		}
+
+		allowDisplayingRescueRequests: {
+			Tooltip:
+				'''
+				[c/FFCC44:救出アラートを受信]
+				有効にすると、救出を必要としていて送信を許可したプレイヤーのアラートを受け取る
+				救出システムを利用するサーバー設定が有効でないと機能しない
+				[c/888888:既定: 有効]
+				'''
+			Label: 救出アラートを受信
+		}
+
+		automaticallySendRescueRequest: {
+			Tooltip:
+				'''
+				[c/FFCC44:救出アラートを送信]
+				有効にすると、救出が必要になったときに通知を送る
+				他のプレイヤー側で『救出アラートを受信』が有効である必要がある
+				救出システムを利用するサーバー設定が有効でないと機能しない
+				[c/888888:既定: 有効]
+				'''
+			Label: 救出アラートを送信
+		}
+
+		focusedPendantIsToggle: {
+			Tooltip:
+				'''
+				[c/FFCC44:集中ペンダントは切替式]
+				有効にすると、石のペンダント（集中）は石化のON/OFF切替で操作する
+				無効だと、石化を維持するあいだキーを押し続ける方式になる
+				どちらでも、無効化後はしばらく石化が残留する
+				[c/888888:既定: 有効]
+				'''
+			Label: 集中ペンダントは切替式
+		}
+
+		breathBarFadeoutTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレスバー フェード時間]
+				ブレスバーがフェードし始めてから完全に消えるまでの現実時間（ミリ秒）
+				最小値の1では実質的に即座に消える
+				[c/888888:既定: 500ms]
+				'''
+			Label: ブレスバー フェード時間
+		}
+
+		breathBarAutoHideTime: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレスバー 自動非表示時間]
+				スタミナ満タン時に、この時間後自動的にフェードを開始
+				現実時間のミリ秒で指定
+				例:
+				0 なら非表示にならない
+				1 なら満タン到達と同時にフェード開始
+				1500 なら1.5秒後にフェード開始
+				[c/888888:既定: 1000ms]
+				'''
+			Label: ブレスバー 自動非表示時間
+		}
+
+		breathBarOffsetY: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレスバー Y位置]
+				画面中心からの相対で、ブレスバーを下方向へ何ピクセル配置するか
+				[c/888888:既定: 17px]
+				'''
+			Label: ブレスバー Y位置
+		}
+
+		breathBarOffsetX: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレスバー X位置]
+				画面中心からの相対で、ブレスバーを右方向へ何ピクセル配置するか
+				[c/888888:既定: 4px]
+				'''
+			Label: ブレスバー X位置
+		}
+
+		breathBarIsDisplayed: {
+			Tooltip:
+				'''
+				[c/FFCC44:ブレスバーを表示]
+				有効にすると、ブレス攻撃用に残っているスタミナ量を示すバーを画面に表示
+				まだブレス攻撃を解放していない場合は表示されない
+				[c/888888:既定: 有効]
+				'''
+			Label: ブレスバーを表示
+		}
+
+		mountingRespectsFurniture: {
+			Tooltip:
+				'''
+				[c/FFCC44:騎乗操作は家具を優先]
+				有効にすると、対象プレイヤーの背後のタイルをクリックした場合は
+				騎乗/降車の操作が失敗する
+				無効だと、チェスト等の前に立つプレイヤーに誤って騎乗する場合がある
+				[c/888888:既定: 無効]
+				'''
+			Label: 騎乗操作は家具を優先
+		}
+
+		bridleForcesFocus: {
+			Tooltip:
+				'''
+				[c/FFCC44:くつわでフォーカス固定]
+				有効にすると、くつわ装備中はウィンドウが非アクティブでも
+				騎乗者からの入力が通るように一時的に『フォーカス有り』扱いにする
+				[c/888888:既定: 有効]
+				'''
+			Label: くつわでフォーカス固定
+		}
+
+		allowFluteByOthers: {
+			Tooltip:
+				'''
+				[c/FFCC44:他人からのフルート召喚を許可]
+				有効にすると、他プレイヤーが召喚のフルートであなたを呼び出せる
+				荒らし行為があるなら無効化しよう 強制テレポートされなくなる
+				[c/888888:既定: 有効]
+				'''
+			Label: 他人からのフルート召喚を許可
+		}
+
+		allowPickupByOthers: {
+			Tooltip:
+				'''
+				[c/FFCC44:他人による抱え上げを許可]
+				有効にすると、騎乗可能な他プレイヤーがインタラクトであなたを背中に乗せられる
+				荒らし行為があるなら無効化しよう 強制的に拾い上げられなくなる
+				[c/888888:既定: 有効]
+				'''
+			Label: 他人による抱え上げを許可
+		}
+
+		petrifySelfOnLostFocus: {
+			Tooltip:
+				'''
+				[c/FFCC44:フォーカス喪失で自己石化]
+				有効にすると、ゲームウィンドウのフォーカスを失ったとき石化する
+				この石化では通常のようなダメージは受けない
+
+				『石化中は水中呼吸』『像でも石のペンダント効果』等のサーバー設定は、
+				この設定有効かつウィンドウが非アクティブの間は適用されない
+				（その時点でこの設定由来で論理的に石化していなくても同様）
+				ただし石のペンダントなどのアイテムは通常どおり機能する
+
+				シングルプレイでは機能しない場合がある
+				リル・ドラゴン系種族でプレイしているときのみ影響
+				[c/888888:既定: 無効]
+				'''
+			Label: フォーカス喪失で自己石化
+		}
+
+		dragonStatueUsesPendantDye: {
+			Tooltip:
+				'''
+				[c/FFCC44:像にペンダントの染料を適用]
+				有効にすると、石のペンダント（装備中）に適用した染料が像にも反映される
+				リル・フォックスの生け垣ペンダントなど、他種族の類似効果にも影響
+				この設定はマルチで同期され、他プレイヤーにも見えるが、影響するのはあなたの像のみ
+
+				[c/888888:技術的注意: 正確には「現在表示中の首スロットアクセ」に付けた染料を継承する]
+				[c/888888:そのうえで、石のペンダントを装備していないと一切効果は発生しない]
+				[c/888888:これは技術的制約による仕様]
+				[c/888888:既定: 有効]
+				'''
+			Label: 像にペンダントの染料を適用
+		}
+
+		mustJumpToGetOffPedestal: {
+			Tooltip:
+				'''
+				[c/FFCC44:台座上の操作を制限]
+				有効にすると、台座から降りる操作は [JUMP] のみに限定される
+				この設定に関わらず、台座に対して [INTERACT] すれば降りられ、
+				同時にスポーン地点の設定も解除される
+				[c/888888:既定: 無効]
+				'''
+			Label: 台座上の操作を制限
+		}
+
+		offsetShootingItems: {
+			Tooltip:
+				'''
+				[c/FFCC44:射撃アイテムの表示位置をずらす]
+				有効にすると、リル・ドラゴン系の射撃武器をツルハシ等の振る武器と同じ位置で表示する
+				これにより発射位置と見た目がずれる場合がある
+				無効にすると、発射位置を中心に回転する表示となり見た目は不自然になり得るが
+				投射物の位置は見た目と一致しやすくなる
+				[c/888888:既定: 有効]
+				'''
+			Label: 射撃アイテムの表示位置をずらす
+		}
+
+		dragonDrawsHindBoots: {
+			Tooltip:
+				'''
+				[c/FFCC44:後脚のブーツを表示]
+				有効にすると、リル・ドラゴン系の多くの種族で後脚にもブーツ表示を行う
+				[c/888888:既定: 有効]
+				'''
+			Label: 後脚のブーツを表示
+		}
+
+		canUseInteractToDismount: {
+			Tooltip:
+				'''
+				[c/FFCC44:インタラクトで降りられる]
+				一部のリル・ドラゴン系種族は [INTERACT] で騎乗可能
+				この切替を有効にすると、同じ方法で搭乗相手へインタラクトして降車できる
+				くつわで操縦を許可していない限り、[JUMP] でも降車可能
+				有効のままを推奨 無効にすると くつわ装備者から降りにくくなる
+				[c/888888:既定: 有効]
+				'''
+			Label: インタラクトで降りられる
+		}
+
+		dragonHidesMagicWeapons: {
+			Tooltip:
+				'''
+				[c/FFCC44:魔法武器を非表示]
+				有効にすると、リル・ドラゴン系は魔法武器を手に持つ見た目を表示しない
+				他プレイヤーにも見えるが、影響するのは自分のみ
+				[c/888888:既定: 無効]
+				'''
+			Label: 魔法武器を非表示
+		}
+
+		dragonDisplaysVanillaWings: {
+			Tooltip:
+				'''
+				[c/FFCC44:バニラの翼を表示]
+				有効にすると、専用翼の代わりにバニラの翼を表示しようとする
+				他プレイヤーにも見えるが、影響するのは自分のみ
+				[c/FF4444:種族によっては非常に不自然に見える場合がある]
+				[c/FF4444:自己責任で]
+				[c/888888:既定: 無効]
+				'''
+			Label: バニラの翼を表示
+		}
+
+		dragonTailMovement: {
+			Tooltip:
+				'''
+				[c/FFCC44:しっぽのアニメーション]
+				リル・ドラゴン系の一部種族のしっぽは、プレイヤーの上下移動に応じて動く
+				無効にすると動かない
+				[c/888888:既定: 有効]
+				'''
+			Label: しっぽのアニメーション
+		}
+
+		dragonSleepAnimation: {
+			Tooltip:
+				'''
+				[c/FFCC44:カスタム睡眠アニメーション]
+				リル・ドラゴン系はベッドで眠るときカスタムの睡眠アニメーションを使用
+				無効にすると代わりに90度回転するだけになる
+				種族によってはこの設定を上書きする
+				[c/888888:既定: 有効]
+				'''
+			Label: カスタム睡眠アニメーション
+		}
+
+		alwaysShowDragonWings: {
+			Tooltip:
+				'''
+				[c/FFCC44:専用の翼を常に表示]
+				リル・ドラゴン系は翼を装備していなくても常に翼を描画する
+				[c/888888:既定: 無効]
+				'''
+			Label: 専用の翼を常に表示
+		}
+
+		minecartsAreTransformations: {
+			Tooltip:
+				'''
+				[c/FFCC44:トロッコは変身扱い]
+				すべてのトロッコを変身と同様に扱う
+				キャラクターは非表示になるがアイテムは使用可能
+				当たり判定は変わらないため、思わぬ頭ぶつけが起き得る
+				[c/FFFF88:Turtle's Riderless Mounts を入れている場合はそちらの設定が優先]
+				[c/88FF88:理由はともあれトロッコになりたいならオンオフしてどうぞ]
+				[c/888888:既定: 無効]
+				'''
+			Label: トロッコは変身扱い
+		}
+
+		mountsAreTransformations: {
+			Tooltip:
+				'''
+				[c/FFCC44:マウントは変身扱い]
+				トロッコ以外のすべてのマウントを変身と同様に扱う
+				キャラクターは非表示になるがアイテムは使用可能
+				当たり判定は変わらないため、思わぬ頭ぶつけが起き得る
+				[c/FFFF88:Turtle's Riderless Mounts を入れている場合はそちらの設定が優先]
+				[c/FF4444:リル・ドラゴン系の騎乗はしばしば描画不具合を引き起こす]
+				[c/FF4444:自己責任で切り替えを]
+				[c/888888:既定: 有効]
+				'''
+			Label: マウントは変身扱い
+		}
+
+		DisplayName: リル クライアント設定 - クライアント
+	}
+
+	DragonConfigItemsServer: {
+		DisplayName: L'il Item Config - Server
+
+		stonePendantFinalDamageMult: {
+			Label: Final Damage Taken Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Final Damage Taken Multiplier]
+				How much is the final damage taken multiplied
+				by while wearing the Pendant of Stone?
+				Measured as a percentage.
+				At 0, you get full intangibility (can't be hit!).
+				At 100, no damage resistance is given.
+				[c/888888:Default: 20%]
+				'''
+		}
+
+		stonePendantKnockbackImmunity: {
+			Label: Grant Knockback Immunity
+			Tooltip:
+				'''
+				[c/FFCC44:Grant Knockback Immunity]
+				Should the Pendant of Stone grant knockback
+				immunity while the player is petrified?
+				[c/888888:Default: On]
+				'''
+		}
+
+		stonePendantAggroChange: {
+			Label: Aggro Override
+			Tooltip:
+				'''
+				[c/FFCC44:Aggro Override]
+				How much to set the player's 'aggro' to
+				while the Pendant of Stone is worn.
+				High aggro draws enemy attention, while
+				low, negative aggro makes some enemies ignore you.
+				Values of 999 or -999 usually achieve what you're
+				looking for.
+				Players have 0 aggro by default.
+				Some enemies like bosses will always seek you.
+				[c/888888:Default: 999]
+				'''
+		}
+
+		stonePendantBasePetrifyTime: {
+			Label: Initial Petrify Time
+			Tooltip:
+				'''
+				[c/FFCC44:Initial Petrify Time]
+				How long should the Pendant of Stone petrify
+				the wearer for initially?
+				Measured in seconds.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		stonePendantLingeringPetrifyTime: {
+			Label: Lingering Petrify Time
+			Tooltip:
+				'''
+				[c/FFCC44:Lingering Petrify Time]
+				If continued to be worn, what's the minimum
+				time on the petrification debuff that we should
+				allow while wearing the Pendant of Stone?
+				Measured in seconds.
+				[c/888888:Default: 1s]
+				'''
+		}
+
+		allowSolarLunarPendantRecipes: {
+			Label: Enable Solar/Lunar Pendant Recipes
+			Tooltip:
+				'''
+				[c/FFCC44:Enable Solar/Lunar Pendant Recipes]
+				When enabled, the Solar and Lunar Pendants of Stone
+				become available to craft.
+				These versions are always active, even in the inventory,
+				but only at their respective times of day.
+				I have no idea why you would want that, but...
+				[c/888888:Default: Off]
+				'''
+		}
+
+		pendantGivesCrushDamage: {
+			Label: Enable Crush Damage
+			Tooltip:
+				'''
+				[c/FFCC44:Enable Crush Damage]
+				When enabled, wearing the Pendant of Stone or its variants
+				will allow you to deal contact damage to enemies if you
+				fall or move fast horizontally while petrified.
+				[c/888888:Default: On]
+				'''
+		}
+
+		crushDamageMultiplier: {
+			Label: Crush Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Crush Damage Multiplier]
+				For every block you fall since the last time you began
+				moving downwards, how much damage should be accumulated?
+				This also affects damage dealt when moving horizontally at fast
+				speeds while petrified.
+				[c/888888:Default: 6]
+				'''
+		}
+
+		petrificationPotionDuration: {
+			Label: Stone Potion Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Stone Potion Duration]
+				The duration, in seconds, of the Stone Potion.
+				At 601s (the limit), players
+				will need another player to interact
+				with them in order to remove the effects.
+				[c/888888:Default: 10s]
+				'''
+		}
+
+		stoneGunHasRecipe: {
+			Label: Status Guns Have Recipes
+			Tooltip:
+				'''
+				[c/FFCC44:Status Guns Have Recipes]
+				When enabled, allows the Stone Gun, Web Gun and Freeze Gun
+				to be crafted. They can be made at a Heavy Workbench with
+				the following materials:
+				Stone Gun - 100 Stone Blocks
+				Web Gun - 100 Cobwebs
+				Freeze Gun - 100 Ice Blocks
+				[c/888888:Default: Off]
+				'''
+		}
+
+		stoneGunPetrifyTime: {
+			Label: Stone Gun Effect Time
+			Tooltip:
+				'''
+				[c/FFCC44:Stone Gun Effect Time]
+				Measured in seconds, how long the
+				Stone Gun's effect lasts for when it
+				hits.
+				At 601s (the limit), players hit by the
+				Stone Gun will need another player to interact
+				with them in order to remove the effects.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		freezeGunFreezeTime: {
+			Label: Freeze Gun Effect Time
+			Tooltip:
+				'''
+				[c/FFCC44:Freeze Gun Effect Time]
+				Measured in seconds, how long the
+				Freeze Gun's effect lasts for when it
+				hits.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		webGunWebTime: {
+			Label: Web Gun Effect Time
+			Tooltip:
+				'''
+				[c/FFCC44:Web Gun Effect Time]
+				Measured in seconds, how long the
+				Web Gun's effect lasts for when it
+				hits.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		shieldTrinketGraceTime: {
+			Label: Extra Petrification Immunity Time
+			Tooltip:
+				'''
+				[c/FFCC44:Extra Petrification Immunity Time]
+				How long the Stone Shield Trinket's effect should
+				make you immune to petrification, added on top of the
+				immunity time.
+				In other words, how long after immunity wears off
+				in which you'll still be immune to petrification.
+				Measured in seconds.
+				[c/888888:Default: 2s]
+				'''
+		}
+
+		shieldTrinketImmuneTime: {
+			Label: Damage Immunity Time
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Immunity Time]
+				How long the Stone Shield Trinket's effect should
+				make you immune to further damage for, when it
+				triggers.
+				Measured in seconds.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		shieldTrinketPetrifyTime: {
+			Label: Petrification Time
+			Tooltip:
+				'''
+				[c/FFCC44:Petrification Time]
+				After taking damage while not petrified,
+				how long should the Stone Shield Trinket
+				petrify you for?
+				Measured in seconds.
+				[c/888888:Default: 3s]
+				'''
+		}
+
+		shieldTrinketPetrifyNoHitTime: {
+			Label: On-petrify Immunity Frames
+			Tooltip:
+				'''
+				[c/FFCC44:On-petrify Immunity Frames]
+				After being hit and petrified due to the Stone Shield Trinket's effects,
+				how many frames of invincibility should the player receive?
+				This helps to prevent being broken out of stone immediately, which
+				can feel odd.
+				Measured in game ticks. The game runs at 60 ticks per second.
+				[c/888888:Default: 30]
+				'''
+		}
+
+		shieldTrinketBadDamageMult: {
+			Label: Curse Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Curse Damage Multiplier]
+				If taking damage when NOT petrified,
+				damage taken will be multiplied by this
+				amount if the Stone Shield Trinket is active.
+				[c/888888:Default: 140%]
+				'''
+		}
+
+		dragonFledglingWingsRecipeTier: {
+			Label: Dragon Fledgling Wings Recipe Difficulty
+			Tooltip:
+				'''
+				[c/FFCC44:Dragon Fledgling Wings Recipe Difficulty]
+				Only dragons can craft these wings, but depending on the
+				number provided, the recipe of the
+				Dragon Fledgling Wings item will change:
+				0 - The item is free to craft with no station.
+				1 - Craft the item at a Loom with 5 Silk.
+				2 - Craft the item at an Anvil with a
+				Lucky Horseshoe and 10 Feathers.
+				3 - The item cannot be crafted.
+				[c/888888:Default: 2]
+				'''
+		}
+
+		summonFluteCanDoNameLookup: {
+			Label: Flute Attunes By Name
+			Tooltip:
+				'''
+				[c/FFCC44:Flute Attunes By Name]
+				When enabled, the Summoning Flute only tracks its
+				target by name, allowing it to be used without needing
+				the target to re-assign themselves each session.
+				This option is a slightly risky, but convenient when
+				playing with trusted groups.
+
+				When disabled, the flute will also check that the player's
+				slot number is correct and was assigned in the current session,
+				otherwise it will deem the player as 'Not Found'.
+				This option is safer, but less convenient as it will require
+				players to re-assign themselves after restarts.
+
+				This config also affects the Observation Crystal.
+				[c/888888:Default: On]
+				'''
+		}
+
+		observationCrystalChallenge: {
+			Label: Observation Challenge
+			Tooltip:
+				'''
+				[c/FFCC44:Observation Challenge]
+				When enabled, players will always be treated
+				as if they have an attuned Observation Crystal equipped,
+				attuned to the player with the next internal ID in sequence.
+
+				All players should end up viewing a different player as a result.
+				Obviously, this challenge is pointless in singleplayer.
+				[c/888888:Default: Off]
+				'''
+		}
+	}
+
+	DragonConfigTetherServer: {
+		DisplayName: リル テザー設定 - サーバー
+
+		tetherPullStartDistance: {
+			Label: テザー引き開始距離
+			Tooltip:
+				'''
+				[c/FFCC44:テザー引き開始距離]
+				テザーが元の位置へ向けてプレイヤーを引き始める距離。
+				単位: ピクセル。
+				[c/888888:Default: 100]
+				'''
+		}
+
+		tetherBreakDistance: {
+			Label: テザー切断距離
+			Tooltip:
+				'''
+				[c/FFCC44:テザー切断距離]
+				この距離を超えるとテザーが切断され、強制的に接続が解除されます。
+				単位: ピクセル。
+				[c/888888:Default: 300]
+				'''
+		}
+
+		tetherPullMaxSpeed: {
+			Label: テザー最大引っ張り速度
+			Tooltip:
+				'''
+				[c/FFCC44:テザー最大引っ張り速度]
+				テザーがプレイヤーを引っ張る際の最大速度。
+				値が低すぎると、対象に追従できない場合があります。
+				高すぎると、遠距離から引かれる際にラバーバンドのような挙動が発生することがあります。
+				[c/888888:Default: 1000]
+				'''
+		}
+
+		tetherPreventRacialAbilities: {
+			Label: テザーは種族アビリティを無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーは種族アビリティを無効化]
+				有効にすると、テザーされているプレイヤーは
+				MrPlague's Authentic Races による種族アビリティ用のキーを使用できなくなります。
+				他Modで追加された追加ホットキーは通常どおり機能します。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherPreventBasicMovement: {
+			Label: テザーは基本移動を無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーは基本移動を無効化]
+				有効にすると、テザーされているプレイヤーは
+				LEFT/RIGHT/UP/DOWN/JUMP の移動入力を使用できなくなります。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherPreventHookUse: {
+			Label: テザーはフック使用を無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーはフック使用を無効化]
+				有効にすると、テザーされているプレイヤーは
+				フックショットおよびフック用キーに関連する機能を使用できなくなります。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherPreventMountUse: {
+			Label: テザーはマウント使用を無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーはマウント使用を無効化]
+				有効にすると、テザーされているプレイヤーは
+				マウント系アイテムを使用できなくなります。
+				この設定が有効の間にテザーされた場合、既にマウント中のプレイヤーも強制的に降ろされます。
+				これはドラゴンの騎乗システムには一切影響しません。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherPreventLeftClick: {
+			Label: テザーは左クリックを無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーは左クリックを無効化]
+				有効にすると、テザーされているプレイヤーは
+				左クリック機能（多くのアイテムの使用）を行えなくなります。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherPreventRightClick: {
+			Label: テザーは右クリックを無効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザーは右クリックを無効化]
+				有効にすると、テザーされているプレイヤーは
+				チェストやドアの操作、アイテムのセカンダリ機能などの
+				右クリック機能を使用できなくなります。
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherEyeState: {
+			Label: テザー時の目の状態
+			Tooltip:
+				'''
+				[c/FFCC44:テザー時の目の状態]
+				テザー中にプレイヤーの目の状態をどのように見た目変更するかを設定します。
+
+				-1: 自動。'Tether Prevents ...' のいずれかが有効なら半眼、
+				それらが全て有効なら完全に目を閉じます（'Tethering Prevents Item Pickup' は除外）。
+
+				0: テザー中でも目の状態を変更しない。
+
+				1: テザー中は半眼を強制。
+
+				2: テザー中は完全に目を閉じることを強制。
+
+				見た目上の演出のみです。
+				[c/888888:Default: -1]
+				'''
+		}
+
+		tetherCollarAlwaysOn: {
+			Label: テザー首輪を常時有効化
+			Tooltip:
+				'''
+				[c/FFCC44:テザー首輪を常時有効化]
+				有効にすると、全プレイヤーはテザー首輪を装備していなくても、
+				あるいは非アクティブでも、常に装備しているものとして扱われます。
+				[c/FF4444:'Tether Prevents ...' 設定と組み合わせるとプレイヤーを]
+				[c/FF4444:ソフトロックさせる可能性があります。自己責任で有効化してください。]
+				[c/888888:Default: Off]
+				'''
+		}
+
+		tetherBreakOnCollarRemoval: {
+			Label: 首輪解除でテザー切断
+			Tooltip:
+				'''
+				[c/FFCC44:首輪解除でテザー切断]
+				有効にすると、テザー首輪の装備を外した際に、
+				そのプレイヤーを引いている全てのテザー接続を切断します。
+				無効の場合、他の手段で解除されるまで接続は維持されます。
+				[c/FF4444:'Tether Prevents ...' 設定と組み合わせるとプレイヤーを]
+				[c/FF4444:ソフトロックさせる可能性があります。自己責任で有効化してください。]
+				[c/888888:Default: On]
+				'''
+		}
+
+		tetherPostsCanOverrideWand: {
+			Label: テザーポストはワンドを上書き可
+			Tooltip:
+				'''
+				[c/FFCC44:テザーポストはワンドを上書き可]
+				有効にすると、テザーポストがプレイヤー同士のテザー接続を上書きできます。
+				無効の場合、テザーポストは未テザーのプレイヤーか、
+				既に別のポストにテザーされているプレイヤーにのみ接続できます。
+				[c/888888:Default: On]
+				'''
+		}
+
+		tetherPullStrengthMult: {
+			Label: テザー引き強度 %
+			Tooltip:
+				'''
+				[c/FFCC44:テザー引き強度]
+				テザーの「引き開始距離」を超えたプレイヤーに対する引きの強さを乗算します。
+				値が高いほど、より早く強く引っ張ります。
+				極端に低い値では重力に打ち勝てない場合があります。
+				単位: パーセント。
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		tethersPreventItemPickup: {
+			Label: テザー中はアイテム回収不可
+			Tooltip:
+				'''
+				[c/FFCC44:テザー中はアイテム回収不可]
+				有効にすると、テザーされているプレイヤーはアイテムを回収できません。
+				これは [i/s1:4346][c/8686E5:Encumbering Stone] と同様の挙動です。
+				[c/888888:Default: Off]
+				'''
+		}
+	}
+
+	DragonConfigRaceServer: {
+		DisplayName: L'il Race Config - Server
+
+		dragonSpeedAffectsAccessories: {
+			Label: L'il Dragon Speed Stat Affects Accessories
+			Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon Speed Stat Affects Accessories]
+				When enabled, the dragon's racial speed modifier
+				will also apply to accessories
+				like [i/s1:54][c/8686E5:Hermes Boots].
+				Normally, accessories that provide speed changes
+				will override your max speed, making racial adjustments do nothing.
+				[c/FF4444:It's highly suggested to leave this on.]
+				[c/888888:Default: On]
+				'''
+		}
+
+		raceRunAccelMultiplier: {
+			Label: Acceleration Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Acceleration Modifier]
+				Modifies the dragon's acceleration
+				by the given percentage.
+				This is also multiplied by the
+				Overall Speed Modifier.
+				[c/888888:Default: 150%]
+				'''
+		}
+
+		raceRunSlowdownMultiplier: {
+			Label: Slowdown Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Slowdown Modifier]
+				Modifies how fast the dragon can slow down
+				while at high speed, by the given percentage.
+				This is NOT multiplied by the
+				Overall Speed Modifier.
+				[c/888888:Default: 150%]
+				'''
+		}
+
+		raceSpeedMultiplier: {
+			Label: Overall Speed Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Overall Speed Modifier]
+				Modifies the dragon's max speed and acceleration
+				by the given percentage.
+				This modifier also affects speed changes from
+				accessories, like [i/s1:54][c/8686E5:Hermes Boots],
+				unless that feature is disabled.
+				[c/888888:Default: 80%]
+				'''
+		}
+
+		raceMaxFlySpeedMultiplier: {
+			Label: Max Flight Speed Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Max Flight Speed Modifier]
+				Modifies the dragon's maximum horizontal speed
+				while midair with wings equipped.
+				This value is added on top of the Overall Speed Modifier,
+				so keep that in mind during calculations.
+				[c/888888:Default: 140%]
+				'''
+		}
+
+		raceJumpBoost: {
+			Label: Jump Modifier
+			Tooltip:
+				'''
+				[c/FFCC44:Jump Modifier]
+				Modifies the dragon's upwards force when jumping.
+				Can affect upwards lift while flying, too.
+				Values too low may prevent jumping completely.
+				The player's default jump power is 501 (5.01 internally).
+				[c/888888:Default: -50]
+				'''
+		}
+
+		raceDamageReduction: {
+			Label: Damage Reduction %
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Reduction]
+				Reduces damage taken by a percentage.
+				Stacks additively with other similar effects.
+				[c/FF4444:Be careful setting this too high, as it can lead]
+				[c/FF4444:to being able to achieve 100% damage reduction in certain modpacks!]
+				[c/888888:Default: 10%]
+				'''
+		}
+
+		raceArmourBoost: {
+			Label: Armour Boost (flat)
+			Tooltip:
+				'''
+				[c/FFCC44:Armour Boost]
+				Raises the dragon's defence by a flat value.
+				[c/888888:Default: 10]
+				'''
+		}
+
+		raceHealthMultiplier: {
+			Label: Health Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Health Modifier]
+				Multiplies the dragon's final max health by the given percentage.
+				This includes boosts from [i/s1:29][c/92F892:Life Crystals] and similar items.
+				[c/888888:Default: 130%]
+				'''
+		}
+
+		raceManaMultiplier: {
+			Label: Mana Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Mana Modifier]
+				Multiplies the dragon's final max mana by the given percentage.
+				This includes boosts from [i/s1:109][c/92F892:Mana Crystals] and similar items.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		racePhysicalWidth: {
+			Label: Hitbox Width (pixels)
+			Tooltip:
+				'''
+				[c/FFCC44:Hitbox Width]
+				The size of the dragon's hitbox on the X axis,
+				measured in pixels.
+				A block is 16 pixels wide and high.
+				The normal player is 20 pixels wide.
+				[c/888888:Default: 28]
+				'''
+		}
+
+		raceDamageBoost: {
+			Label: Damage Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Increase]
+				Increases damage for all types by the given percentage.
+				This is additive, not multiplicative.
+				For example, if equipment provides +200% and this is set to
+				20%, then the final damage bonus will be +220%, resulting in 320% damage dealt.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceCritChance: {
+			Label: Crit Increase
+			Tooltip:
+				'''
+				[c/FFCC44:Crit Increase]
+				Increases the dragon's critical strike chance by
+				a flat amount.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceMiningDelay: {
+			Label: Mining Speed Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Mining Speed Increase]
+				Reduces the dragon's delay between hits while
+				mining by a percentage.
+				The value can be negative to make mining slower.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceTileXReachBoost: {
+			Label: Horizontal Reach Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Horizontal Reach Boost]
+				In tiles, how much extra horizontal reach
+				should the dragon get?
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceTileYReachBoost: {
+			Label: Vertical Reach Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Vertical Reach Boost]
+				In tiles, how much extra vertical reach
+				should the dragon get?
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceMaxMinions: {
+			Label: Max Minion Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Max Minion Boost]
+				Increases the dragon's max minion count.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceMaxSentries: {
+			Label: Max Sentry Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Max Minion Boost]
+				Increases the dragon's max sentry count.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceKnockbackImmunity: {
+			Label: Knockback Immunity
+			Tooltip:
+				'''
+				[c/FFCC44:Knockback Immunity]
+				Should the dragon be immune to knockback innately?
+				[c/888888:Default: Off]
+				'''
+		}
+
+		raceMountSize: {
+			Label: L'il Dragon Mount Size
+			Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon Mount Size]
+				The 'size' value used for the mounting system.
+				Any race with a size value smaller than this will be able
+				to mount this race.
+				[c/888888:Default: 1]
+				'''
+		}
+
+		dragonInnateAffinityFire: {
+			Label: Innate Fire Affinity
+			Tooltip:
+				'''
+				[c/FFCC44:Innate Fire Affinity]
+				When enabled, races capable of elemental breath via gems
+				will always gain the benefits and penalties of the fire affinity,
+				even without having the correct breath type and affinities unlocked.
+				[c/888888:Default: Off]
+				'''
+		}
+
+		dragonInnateAffinityIce: {
+			Label: Innate Ice Affinity
+			Tooltip:
+				'''
+				[c/FFCC44:Innate Ice Affinity]
+				When enabled, races capable of elemental breath via gems
+				will always gain the benefits and penalties of the ice affinity,
+				even without having the correct breath type and affinities unlocked.
+				[c/888888:Default: Off]
+				'''
+		}
+
+		dragonInnateAffinityElectric: {
+			Label: Innate Electricity Affinity
+			Tooltip:
+				'''
+				[c/FFCC44:Innate Electricity Affinity]
+				When enabled, races capable of elemental breath via gems
+				will always gain the benefits and penalties of the electricity affinity,
+				even without having the correct breath type and affinities unlocked.
+				[c/888888:Default: Off]
+				'''
+		}
+
+		dragonInnateAffinityLife: {
+			Label: Innate Life Affinity
+			Tooltip:
+				'''
+				[c/FFCC44:Innate Life Affinity]
+				When enabled, races capable of elemental breath via gems
+				will always gain the benefits and penalties of the life affinity,
+				even without having the correct breath type and affinities unlocked.
+				[c/888888:Default: Off]
+				'''
+		}
+
+		fireAffinityImmuneToBurning: {
+			Label: Fire - Fireproof
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Fireproof]
+				When enabled, the fire affinity grants immunity to
+				most vanilla burning debuffs, as well as hot blocks,
+				as if you had the [i/s1:193][c/92F892:Obsidian Skull] equipped at all times.
+				[c/888888:Default: On]
+				'''
+		}
+
+		fireAffinityWaterDamage: {
+			Label: Fire - Water Damage
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Water Damage]
+				When above zero, the fire affinity causes you
+				to take this much damage as long as you're submerged in water.
+				Shimmer and Lava will not deal damage, but Honey will.
+				Damage is reduced by damage reduction %, but not defence.
+				[c/888888:Default: 6]
+				'''
+		}
+
+		fireAffinityLavaSafeTime: {
+			Label: Fire - Lava Immunity Time
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Lava Immunity Time]
+				When enabled, the fire affinity grants this much
+				extra lava immunity time, in seconds.
+				Stacks with items such as the [i/s1:906][c/E9B688:Lava Charm].
+				Does nothing is Full Lava Immunity is enabled.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		fireAffinityLavaImmune: {
+			Label: Fire - Full Lava Immunity
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Full Lava Immunity]
+				When enabled, the fire affinity grants lava immunity.
+				Overrides Lava Immunity Time.
+				[c/888888:Default: On]
+				'''
+		}
+
+		fireAffinityMovespeedMult: {
+			Label: Fire - Dry Movement Multiplier %
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Dry Movement Multiplier]
+				With fire affinity, multiplies the dragon's movement
+				speed by this much when not in water or rain.
+				[c/888888:Default: 120%]
+				'''
+		}
+
+		fireAffinityMovespeedMultUnderworld: {
+			Label: Fire - Underworld Movement Multiplier %
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Underworld Movement Multiplier]
+				With fire affinity, multiplies the dragon's movement
+				speed by this much when in The Underworld, and not in water.
+				This value overrides the value in 'Dry Movement Multiplier' when
+				the player is in The Underworld and not in water.
+				[c/888888:Default: 135%]
+				'''
+		}
+
+		fireAffinityMovespeedMultWater: {
+			Label: Fire - Water Movement Multiplier %
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Water Movement Multiplier]
+				With fire affinity, multiplies the dragon's movement
+				speed by this much when in water.
+				[c/888888:Default: 70%]
+				'''
+		}
+
+		fireAffinityUpwardsVelMultWater: {
+			Label: Fire - Water Upwards Velocity Retain
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Water Upwards Velocity Retain]
+				With fire affinity, multiplies the dragon's upwards velocity
+				by this much every frame. Does not affect downwards velocity.
+				Values lower than around 960 can prove extremely difficult to rise out of.
+				Be careful.
+				At 1000, upwards velocity is not reduced.
+				At 0, you can't move upwards beyond jump frames.
+				[c/888888:Default: 990]
+				'''
+		}
+
+		fireAffinityMaxJumpFramesWater: {
+			Label: Fire - Water Max Jump Frames
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Water Max Jump Frames]
+				With fire affinity, limits how many frames the dragon can rise
+				by holding the JUMP key after a grounded jump or swimming effects.
+				The 'Water Upwards Velocity Dampening' setting does not affect you during
+				jump frames.
+				[c/888888:Default: 2]
+				'''
+		}
+
+		fireAffinityLavaFreeMovement: {
+			Label: Fire - Free Lava Movement
+			Tooltip:
+				'''
+				[c/FFCC44:Fire - Free Lava Movement]
+				When enabled, the fire affinity grants unhindered
+				movement when in lava.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityImmuneToFrostburn: {
+			Label: Ice - Immune to Frostburn
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Immune to Frostburn]
+				When enabled, the ice affinity grants immunity
+				to the Frostburn and Frostbite debuffs.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinitySlipImmune: {
+			Label: Ice - Slip Grip
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Slip Grip]
+				When enabled, the ice affinity removes
+				slipperiness caused by Ice.
+				Blocks like Frozen Slime still affect you.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityImmuneToChill: {
+			Label: Ice - Immune to Chill
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Immune to Chill]
+				When enabled, the ice affinity grants
+				immunity to the Chilled debuff.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityImmuneToFreeze: {
+			Label: Ice - Immune to Freeze
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Immune to Freeze]
+				When enabled, the ice affinity grants
+				immunity to the Frozen debuff.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityColdResist: {
+			Label: Ice - Cold Damage Resist
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Cold Damage Resist]
+				When enabled, grants the same resistance that the
+				[i/s1:2359][c/8686E5:Warmth Potion] grants, which is 30%
+				against 'cold' attacks.
+				Note that no buff will visually appear, and the effect
+				also does not stack.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityWaterWalk: {
+			Label: Ice - Innate Water Walking
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Innate Water Walking]
+				When enabled, ice affinity grants the ability to walk on
+				fluids, except for lava.
+				[c/888888:Default: On]
+				'''
+		}
+
+		iceAffinityMobilityMult: {
+			Label: Ice - Mobility Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Mobility Modifier]
+				When enabled, the ice affinity reduces
+				your speed and acceleration.
+				Measured as a percentage, where 100 makes no change,
+				and 0 would make it impossible to move.
+				[c/888888:Default: 80%]
+				'''
+		}
+
+		iceAffinityFinalDamageMult: {
+			Label: Ice - Resistance Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Ice - Resistance Modifier]
+				When enabled, the ice affinity reduces
+				your final damage taken.
+				Measured as a percentage, where 100 makes no change,
+				and 0 reduces all damage to 1.
+				[c/888888:Default: 85%]
+				'''
+		}
+
+		electricAffinityWaterBreathing: {
+			Label: Electricity - Water Breathing
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Water Breathing]
+				When enabled, the electricity affinity gives
+				water breathing.
+				[c/888888:Default: On]
+				'''
+		}
+
+		electricAffinityElectrifiedImmune: {
+			Label: Electricity - Electrified Immune
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Electrified Immune]
+				When enabled, the electricity affinity gives
+				immunity to the Electrified debuff.
+				[c/888888:Default: On]
+				'''
+		}
+
+		electricAffinityFlippers: {
+			Label: Electricity - Flippers
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Flippers]
+				When enabled, the electricity affinity gives
+				the effects of the [i/s1:187][c/8686E5:Flipper] item.
+				[c/888888:Default: On]
+				'''
+		}
+
+		electricAffinityFreeMovement: {
+			Label: Electricity - Free Water Movement
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Free Water Movement]
+				When enabled, the electricity affinity allows
+				you to move quickly in water.
+				Lava, honey and shimmer still slow you, though.
+				[c/888888:Default: On]
+				'''
+		}
+
+		electricAffinityWaterLight: {
+			Label: Electricity - Underwater Illumination
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Underwater Illumination]
+				When enabled, the electricity affinity gives
+				a light similar to the [i/s1:1303][c/92F892:Jellyfish Necklace] item
+				while submerged in a fluid.
+				[c/888888:Default: On]
+				'''
+		}
+
+		electricAffinityWetArmourIgnoreForBreath: {
+			Label: Electricity - Breath Ignored Defence While Hydrated
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Breath Ignored Defence While Hydrated]
+				This many points of defence will be ignored by electric breath projectiles
+				while the dragon is hydrated, assuming they have affinity enabled too.
+				[c/888888:Default: 10]
+				'''
+		}
+
+		electricAffinityHydrationTime: {
+			Label: Electricity - Hydration Time
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Hydration Time]
+				How long in seconds the Hydrated buff can last, given
+				you stand in water for long enough to charge it.
+				[c/888888:Default: 360s]
+				'''
+		}
+
+		electricAffinityDrySpeedMultiplier: {
+			Label: Electricity - Dry Speed Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Dry Speed Multiplier]
+				When the dragon isn't hydrated, its movement speed and
+				acceleration will be multiplied by this value.
+				[c/888888:Default: 70%]
+				'''
+		}
+
+		electricAffinityDryResistancePenalty: {
+			Label: Electricity - Dry Damage Reduction Modifier
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Dry Damage Reduction Modifier]
+				Adds a percentage to your damage reduction stat when you are
+				not hydrated. This value is a flat value, measured as a percentage
+				change in damage taken.
+				Please note that this uses Terraria's 'endurance' system, and may
+				not exactly correlate to a change in damage taken equivalent to
+				the value provided as a result.
+				[c/888888:Default: -25%]
+				'''
+		}
+
+		electricAffinityWetDamageTakenMult: {
+			Label: Electricity - Damage Taken In Water
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Damage Taken In Water]
+				Multiplies the final damage taken while in water.
+				Yes, specifically water.
+				Measured as a percentage.
+				[c/888888:Default: 90%]
+				'''
+		}
+
+		electricAffinityBreathRegenEveryX: {
+			Label: Electricity - Breath Regen Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity - Breath Regen Interval]
+				When playing with mods like Calamity which can directly drain
+				your breath meter through effects which normally block breath drain,
+				this will help to keep your breath meter topped up.
+				Every X ticks, where X is the number defined by this config, you will regain 1 point of breath.
+				The player has 200 breath points by default.
+				There are 60 ticks in a second.
+				[c/888888:Default: 10]
+				'''
+		}
+
+		lifeAffinityPoisonImmune: {
+			Label: Life - Poison Immunity
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Poison Immunity]
+				When enabled, the life affinity gives
+				immunity to the Poisoned and Acid Venom debuffs.
+				[c/888888:Default: On]
+				'''
+		}
+
+		lifeAffinityFlowerFeet: {
+			Label: Life - Flower Feet
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Flower Feet]
+				When enabled, the life affinity grants
+				the effects of the [i/s1:3017][c/8CF10A:Flower Boots],
+				causing flowers to grow when you walk.
+				[c/888888:Default: On]
+				'''
+		}
+
+		lifeAffinityBonusRegen: {
+			Label: Life - Regeneration Rampup Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Regeneration Rampup Boost]
+				When enabled, the life affinity makes
+				life regeneration ramp up sooner after taking damage.
+				Higher value = regen reaches its peak sooner.
+				The internal value is set to 0 after taking damage, and
+				rises by 1 each game tick (the game runs at 60 ticks per second).
+				This config increases that further every tick.
+				At an internal value of 3600, life regeneration reaches its peak.
+				In other words, it takes 60 seconds by default to reach peak life regen
+				without any boosts.
+				This is a fairly technical setting, so don't worry if
+				it doesn't make sense!
+				[c/888888:Default: 60]
+				'''
+		}
+
+		lifeAffinityAirTimeBeforeGrounded: {
+			Label: Life - Air Time Before Grounding
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Air Time Before Grounding]
+				The duration in ticks before the player is given the
+				Grounded debuff.
+				There are 60 ticks in a second by default.
+				[c/888888:Default: 180]
+				'''
+		}
+
+		lifeAffinityGroundedDuration: {
+			Label: Life - Grounded Debuff Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Grounded Debuff Duration]
+				The duration in ticks of the Grounded debuff
+				the player gets when airborne for too long.
+				This effectively sets a time that the player can't jump for,
+				even after landing again.
+				There are 60 ticks in a second.
+				[c/888888:Default: 90]
+				'''
+		}
+
+		lifeAffinityAggroMod: {
+			Label: Life - Aggro Modifier
+			Tooltip:
+				'''
+				[c/FFCC44:Life - Aggro Modifier]
+				Modifies the likeliness enemies are to target the player.
+				Higher = more likely.
+				Less = less likely.
+				[c/888888:Default: -5000]
+				'''
+		}
+
+		breathFireDamageMult: {
+			Label: Fire Breath - Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Fire Breath - Damage Multiplier]
+				Multiplies how much damage fire breath deals per hit.
+				Measured as a percentage.
+				[c/888888:Default: 130%]
+				'''
+		}
+
+		breathFireKnockbackMult: {
+			Label: Fire Breath - Knockback Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Fire Breath - Knockback Multiplier]
+				Multiplies how much knockback fire breath applies.
+				Measured as a percentage.
+				[c/888888:Default: 125%]
+				'''
+		}
+
+		breathFireDebuffDoT: {
+			Label: Fire Breath - Debuff DoT
+			Tooltip:
+				'''
+				[c/FFCC44:Fire Breath - Debuff DoT]
+				The amount of damage per second fire breath's debuff
+				deals to enemies.
+				DoT stands for Damage over Time if you're wondering~
+				[c/888888:Default: 10]
+				'''
+		}
+
+		breathIceDamageMult: {
+			Label: Ice Breath - Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Ice Breath - Damage Multiplier]
+				Multiplies how much damage ice breath deals per hit.
+				Measured as a percentage.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		breathIceKnockbackMult: {
+			Label: Ice Breath - Knockback Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Ice Breath - Knockback Multiplier]
+				Multiplies how much knockback ice breath applies.
+				Measured as a percentage.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		breathElectricDamageMult: {
+			Label: Electricity Breath - Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity Breath - Damage Multiplier]
+				Multiplies how much damage electricity breath deals per hit.
+				Measured as a percentage.
+				[c/888888:Default: 65%]
+				'''
+		}
+
+		breathElectricKnockbackMult: {
+			Label: Electricity Breath - Knockback Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Electricity Breath - Knockback Multiplier]
+				Multiplies how much knockback electricity breath applies.
+				Measured as a percentage.
+				[c/888888:Default: 30%]
+				'''
+		}
+
+		breathLifeDamageMult: {
+			Label: Life Breath - Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Life Breath - Damage Multiplier]
+				Multiplies how much damage life breath deals per hit.
+				Measured as a percentage.
+				[c/888888:Default: 70%]
+				'''
+		}
+
+		breathLifeKnockbackMult: {
+			Label: Life Breath - Knockback Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Life Breath - Knockback Multiplier]
+				Multiplies how much knockback life breath applies.
+				Measured as a percentage.
+				[c/888888:Default: 250%]
+				'''
+		}
+
+		breathLifeHealingPercent: {
+			Label: Life Breath - Healing Percentage
+			Tooltip:
+				'''
+				[c/FFCC44:Life Breath - Healing Percentage]
+				Controls the base amount of healing life breath gives
+				when hitting other players.
+				This is a percentage of the user's Breath Power value.
+				The healing is applied at intervals according to the
+				Life Breath - Healing Interval config, and is reduced
+				by diminishing returns, controlled by the
+				Life Breath - Healing Diminish config.
+				[c/888888:Default: 25%]
+				'''
+		}
+
+		breathLifeHealingInterval: {
+			Label: Life Breath - Healing Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Life Breath - Healing Interval]
+				Controls how many frames between each healing 'tick' provided
+				to other players by life breath projectiles.
+				Lower values mean you can heal players more frequently with life breath.
+				There are 60 frames in a second.
+				[c/888888:Default: 30]
+				'''
+		}
+
+		breathLifeHealingDiminish: {
+			Label: Life Breath - Healing Diminish
+			Tooltip:
+				'''
+				[c/FFCC44:Life Breath - Healing Diminish]
+				A technical value used to control diminishing returns
+				on the healing given by life breath as Breath Power grows.
+				Higher values flatten the curve, making healing growth
+				diminish quicker.
+				At zero, diminishing returns are disabled and healing will
+				grow linearly.
+				[c/888888:Default: 15]
+				'''
+		}
+
+		raceAttackSpeedBoost: {
+			Label: Attack Speed Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Attack Speed Increase]
+				Increases attack speed for all types by the given percentage.
+				This is additive, not multiplicative.
+				For example, if equipment provides +50% and this is set to
+				20%, then the final bonus will be +70%, resulting in 170% attack speed.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceMeleeAttackSpeedBoost: {
+			Label: Melee Attack Speed Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Melee Attack Speed Increase]
+				Increases attack speed for melee weapons by the given percentage.
+				This is additive, not multiplicative.
+				For example, if equipment provides +50% and this is set to
+				20%, then the final bonus will be +70%, resulting in 170% attack speed.
+				[c/888888:Default: 0%]
+				'''
+		}
+	}
+}
+
+Items: {
+	BreathGemFireBreathCAIntense: {
+		DisplayName: 強化ブレスジェム - 火炎
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに強化された火炎ブレスを与える強力な宝石
+				強化ブレスの投射物はダメージが増え、持続が長く、
+				敵へのデバフ時間も長くなる
+				強化火炎ブレスはブロックを貫通
+				親和性効果は通常の火炎ブレスと同じだが、水中での減速が軽減
+				[c/FFCCFF:使用しても消費しない]
+				'''
+	}
+
+		BreathGemIceBreathCAIntense: {
+		DisplayName: 強化ブレスジェム - 氷
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに強化された氷結ブレスを与える強力な宝石
+				強化ブレスの投射物はダメージが増え、持続が長く、
+				敵へのデバフ時間も長くなる
+				強化氷結ブレスはブロックを貫通
+				親和性効果は通常の氷結ブレスと同じだが、地獄でのペナルティを無視
+				[c/FFCCFF:使用しても消費しない]
+				'''
+	}
+
+		BreathGemLifeBreathCAIntense: {
+		DisplayName: 強化ブレスジェム - 生命
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに強化された生命ブレスを与える強力な宝石
+				強化ブレスの投射物はダメージが増え、持続が長く、
+				敵へのデバフ時間も長くなる
+				見た目に反して、味方は依然として回復する
+				強化生命ブレスはブロックに当たると滑り落ちる
+				親和性効果は通常の生命ブレスと同じだが、
+				接地ペナルティが入るまでの滞空許容量が2倍
+				[c/FFCCFF:使用しても消費しない]
+				'''
+	}
+
+	BreathGemNull: {
+		DisplayName: ブレスジェム - ヌル
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンの属性ブレス能力を無効化する空の宝石
+				ブレス系の能力強化は失われない
+				Null ブレスには親和性ボーナスはない
+				'''
+	}
+
+	BreathPowerGemCrimson: {
+		DisplayName: ブレスパワージェム - クリムテイン
+		Tooltip: ""
+	}
+
+	BreathPowerGemDemonite: {
+		DisplayName: ブレスパワージェム - デモナイト
+		Tooltip: ""
+	}
+
+	BreathPowerGemHellstone: {
+		DisplayName: ブレスパワージェム - ヘルストーン
+		Tooltip: ""
+	}
+
+	BreathPowerGemLightDark: {
+		DisplayName: ブレスパワージェム - ライト/ダーク
+		Tooltip: ""
+	}
+
+	BreathPowerGemHallowed: {
+		DisplayName: ブレスパワージェム - ハロウ
+		Tooltip: ""
+	}
+
+	BreathPowerGemChlorophyte: {
+		DisplayName: ブレスパワージェム - クロロファイト
+		Tooltip: ""
+	}
+
+	BreathPowerGemCosmic: {
+		DisplayName: ブレスパワージェム - コズミック
+		Tooltip: ""
+	}
+
+	BreathPowerGemLuminite: {
+		DisplayName: ブレスパワージェム - ルミナイト
+		Tooltip: ""
+	}
+
+	BreathPowerGemBeetle: {
+		DisplayName: ブレスパワージェム - ビートル
+		Tooltip: ""
+	}
+
+	BreathPowerGemSpectre: {
+		DisplayName: ブレスパワージェム - スペクター
+		Tooltip: ""
+	}
+
+	BreathPowerGemCADivineGeode: {
+		DisplayName: ブレスパワージェム - ディバイン
+		Tooltip: ""
+	}
+
+	BreathPowerGemCAAuric: {
+		DisplayName: ブレスパワージェム - オーリック
+		Tooltip: ""
+	}
+
+		DragonPedestalItem: {
+		DisplayName: Large Dragon Pedestal
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				'''
+	}
+
+		DragonPedestalSmallItem: {
+		DisplayName: Small Dragon Pedestal
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				'''
+	}
+
+		DragonVanityBenchItem: {
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ここでドラゴン用の見た目アイテムを作成できる
+				'''
+		DisplayName: ドラゴン虚飾作業台
+	}
+
+		DragonBreathBenchItem: {
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ここでドラゴン用のブレス宝石を作成し、
+				ブレス攻撃を変更・強化できる
+				'''
+		DisplayName: ドラゴンブレス作業台
+	}
+
+		WinterCapeLilDragon: {
+		DisplayName: L'il Dragon Winter Cape
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		SaddleLeatherLilDragon: {
+		DisplayName: リルドラゴンレザーサドル
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		CopperArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Copper Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		CopperArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Copper Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		TinArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Tin Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		TinArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Tin Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		SilverArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Silver Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		SilverArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Silver Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		SilverArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Silver Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		TungstenArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Tungsten Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		TungstenArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Tungsten Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		TungstenArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Tungsten Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		IronArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Iron Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		LeadArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Lead Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		IronArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Iron Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		LeadArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Lead Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		BeardSmallSnoutSpikeLilDragon: {
+		DisplayName: L'il Dragon Small Snout Spike
+		Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon 用に設計]
+				[c/FFCC44:B'ig Dragon にも適合]
+				'''
+	}
+
+		BeardBigSnoutSpikeLilDragon: {
+		DisplayName: L'il Dragon Big Snout Spike
+		Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon 用に設計]
+				[c/FFCC44:B'ig Dragon にも適合]
+				'''
+	}
+
+		ShadowArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Shadow Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		ShadowArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Shadow Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		HandOnShackleLilDragon: {
+		DisplayName: L'il Dragon Shackle
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		CrimsonArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Crimson Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		CrimsonArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Crimson Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		BreathGemFireBreath: {
+		DisplayName: ブレスジェム - 火炎
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに火炎ブレスを与える強力な宝石
+				種族の主要キー（既定はZ）を押し続けて属性ブレスを使用
+				火炎ブレスはダメージとノックバックが増え、数秒間
+				敵の防御力を30％低下させる
+				[c/FF8844:親和性効果][c/999999: - ][c/FF8844:炎上/溶岩に耐性、移動速度上昇、地獄でさらに高速、溶岩内で素早く移動]
+				[c/FF4422:ただし雨中では速度ボーナスなし、水中では減速し、浮上しにくくなる]
+				[c/888888:親和性効果を得るには、先に親和性の宝石を有効化する必要がある]
+				[c/888888:効果はサーバー側の設定によりこの説明と異なる場合がある]
+				'''
+	}
+
+		BreathGemIceBreath: {
+		DisplayName: ブレスジェム - 氷
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに氷結ブレスを与える強力な宝石
+				種族の主要キー（既定はZ）を押し続けて属性ブレスを使用
+				氷結ブレスは敵の動きを阻害し、一定時間、
+				対する攻撃の25％をクリティカルに変換する
+				[c/888888:一部の敵には減速の効果が小さい]
+				[c/88CCFF:親和性効果][c/999999: - ][c/88CCFF:冷気/凍結/氷の滑りに耐性、被ダメージ減少、]
+				[c/88CCFF:水上歩行（溶岩を除く）と寒冷ダメージ耐性 ][c/3388FF:ただし速度低下]
+				[c/3388FF:さらに地獄では水上歩行と被ダメージ減少が無効]
+				[c/888888:親和性効果を得るには、先に親和性の宝石を有効化する必要がある]
+				[c/888888:効果はサーバー側の設定によりこの説明と異なる場合がある]
+				'''
+	}
+
+		BreathGemElectricBreath: {
+		DisplayName: ブレスジェム - 雷撃
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに雷撃ブレスを与える強力な宝石
+				種族の主要キー（既定はZ）を押し続けて属性ブレスを使用
+				連続攻撃で、貫通しない
+				命中でクリティカルダメージ倍率を30％上げるデバフを数秒付与
+				類似効果とは加算で重複
+				[c/888888:(通常のクリ倍率は200％のため、230％になる)]
+				[c/FFFF55:親和性効果][c/999999: - ][c/FFFF55:エラ呼吸、水中での高速移動＆発光]
+				[c/FFFF55:感電無効＋水中で被ダメージが減少]
+				[c/FFFF55:水分補給中はブレス攻撃が敵の防御を少し無視]
+				[c/DDAA33:ただし定期的に水で水分補給しないと速度と耐性にペナルティ]
+				[c/888888:親和性効果を得るには、先に親和性の宝石を有効化する必要がある]
+				[c/888888:効果はサーバー側の設定によりこの説明と異なる場合がある]
+				'''
+	}
+
+		BreathGemLifeBreath: {
+		DisplayName: ブレスジェム - 生命
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに生命ブレスを与える強力な宝石
+				種族の主要キー（既定はZ）を押し続けて属性ブレスを使用
+				生命ブレスはダメージが低いがノックバックが大きい
+				敵に当てると毒を与え、同時に使用者に再生バフを付与
+				味方に当てると回復し、弱い再生効果を付与
+				[c/44DD44:親和性効果][c/999999: - ][c/44DD44:毒/猛毒に耐性、ライフ再生が速い]
+				[c/44DD44:足元に花が咲き、ヘイトが減少 ][c/66AA33:ただし長時間空中にいると「接地」状態になる]
+				[c/888888:親和性効果を得るには、先に親和性の宝石を有効化する必要がある]
+				[c/888888:効果はサーバー側の設定によりこの説明と異なる場合がある]
+				'''
+	}
+
+		BreathGemElectricBreathCAIntense: {
+		DisplayName: 強化ブレスジェム - 雷撃
+			Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンに強化された雷撃ブレスを与える強力な宝石
+				強化ブレスの投射物はダメージが増え、持続が長く、
+				敵へのデバフ時間も長くなる
+				強化雷撃ブレスはブロックで跳ね返る
+				親和性効果は通常の雷撃ブレスと同じだが、
+				水分補給の有効時間が3倍
+				[c/FFCCFF:使用しても消費しない]
+				'''
+	}
+
+		JungleArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Jungle Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		JungleArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Jungle Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		JungleArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Jungle Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MoltenArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Molten Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MoltenArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Molten Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MoltenArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Molten Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NecroArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Necro Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NecroArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Necro Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NecroArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Necro Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MeteorArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Meteor Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MeteorArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Meteor Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		MeteorArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Meteor Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		BeeArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Bee Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		BeeArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Bee Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		BeeArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Bee Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		FossilArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Fossil Body Armour
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		FossilArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Fossil Helmet
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		FossilArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Fossil Leggings
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NinjaArmourBodyLilDragon: {
+		DisplayName: L'il Dragon Ninja Suit
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NinjaArmourHeadLilDragon: {
+		DisplayName: L'il Dragon Ninja Hood
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		NinjaArmourLegsLilDragon: {
+		DisplayName: L'il Dragon Ninja Pants
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		HandOnManaBandLilDragon: {
+		DisplayName: L'il Dragon Mana Band
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		HandOnLifeBandLilDragon: {
+		DisplayName: L'il Dragon Regen Band
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		EmeraldRobeLilDragon: {
+		DisplayName: L'il Dragon Emerald Robe
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		DiamondRobeLilDragon: {
+		DisplayName: L'il Dragon Diamond Robe
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		RubyRobeLilDragon: {
+		DisplayName: L'il Dragon Ruby Robe
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		SapphireRobeLilDragon: {
+		DisplayName: L'il Dragon Sapphire Robe
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		FinBasicLilDragon: {
+		DisplayName: Broad Dragon Fin
+		Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon 用に設計]
+				[c/FFCC44:B'ig Dragon にも適合]
+				'''
+	}
+
+		SaddleOvergrown: {
+		DisplayName: リルドラゴン過繁茂サドル
+			Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+		RobesTestItemBody: {
+		DisplayName: Robes Test Item - Body
+			Tooltip: ドラゴン用ローブ系アイテムのテスト用 通常入手不可
+	}
+
+		TransformationEssence: {
+		DisplayName: 変身エッセンス - リルドラゴン
+			Tooltip: ""
+	}
+
+		PetrificationPotion: {
+			Tooltip: '''「岩を飲んでるみたいだ！」'''
+		DisplayName: 石化ポーション
+	}
+
+		PetrificationGun: {
+		DisplayName: ストーンガン
+			Tooltip: '''「何かの冗談か？」'''
+	}
+
+		FreezeGun: {
+		DisplayName: フリーズガン
+			Tooltip: '''「こういうのが欲しかったのか？」'''
+	}
+
+		WebGun: {
+		DisplayName: ウェブガン
+			Tooltip: '''「楽しい時間の過ごし方じゃないって？」'''
+	}
+
+		BridleLilDragon: {
+		DisplayName: リルドラゴンブライドル
+		Tooltip:
+				'''
+				[c/FFCC44:L'il Dragon 用に設計]
+				リル・ドラゴンのインベントリにあると、
+				他プレイヤーが騎乗時に操作できるようになる
+				アクセサリー/虚飾スロット装備中も有効
+				[c/FFFF88:手綱装備中のプレイヤーからはJUMPで降りられない]
+				[c/FFFF88:代わりにINTERACTで降りてください]
+				'''
+	}
+
+	NeckPendantOfStone: {
+		DisplayName: 石のペンダント
+		Tooltip: ""
+	}
+
+	NeckPendantOfStoneActive: {
+		DisplayName: フォーカス石のペンダント
+		Tooltip: ""
+	}
+
+	NeckPendantOfStoneLunar: {
+		DisplayName: 月の石のペンダント
+		Tooltip: ""
+	}
+
+	NeckPendantOfStoneSolar: {
+		DisplayName: 太陽の石のペンダント
+		Tooltip: ""
+	}
+
+	StoneShieldTrinket: {
+		DisplayName: ストーンシールドのアクセサリー
+		Tooltip: ""
+	}
+
+		AffinityGem: {
+		DisplayName: アフィニティジェム
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				親和性の力を付与/剥奪する
+				親和性が有効な間、ブレスの種類に応じた追加効果を得る
+				親和性効果は各ブレス宝石の説明を参照
+				使用時に消費 親和性が有効な間は発光
+				'''
+	}
+
+		DragonHoardGoldSeatItem: {
+		DisplayName: ドラゴンゴールドパイル
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				椅子として機能 横5タイルのどこにでも
+				座れる
+				ここでは眠れない ごめんね！
+				'''
+	}
+
+		DragonHoardPlatinumSeatItem: {
+		DisplayName: ドラゴンプラチナパイル
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				「金持ちの誰かがいる…泥棒に気をつけて！」
+				椅子として機能 横5タイルのどこにでも
+				座れる
+				ここでは眠れない ごめんね！
+				'''
+	}
+
+		DragonFledglingWings: {
+		DisplayName: ひなドラゴンの翼
+		Tooltip:
+				'''
+				落下ダメージを無効化し、ゆっくり落下できるが、
+				飛行時間は付与しない
+				ドラゴンでのみ正しく機能
+				'''
+	}
+
+	StatueLilNormalItem: {
+		DisplayName: リルドラゴン像
+		Tooltip: ""
+	}
+
+	StatueLilNormalPedestalItem: {
+		DisplayName: リルドラゴン像（小台座）
+		Tooltip: ""
+	}
+
+	StatueLilNormalPedestalBigItem: {
+		DisplayName: リルドラゴン像（大台座）
+		Tooltip: ""
+	}
+
+	StatueLilWingedPedestalItem: {
+		DisplayName: リルドラゴン像（小台座、翼あり）
+		Tooltip: ""
+	}
+
+	StatueLilWingedItem: {
+		DisplayName: リルドラゴン像（翼あり）
+		Tooltip: ""
+	}
+
+	StatueLilWingedPedestalBigItem: {
+		DisplayName: リルドラゴン像（大台座、翼あり）
+		Tooltip: ""
+	}
+
+	SummoningFlute: {
+		DisplayName: 召喚のフルート
+		Tooltip: ""
+	}
+
+		StoneClawNormal: {
+		DisplayName: ストーンクロー - 石
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawGold: {
+		DisplayName: ストーンクロー - 金
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawGranite: {
+		DisplayName: ストーンクロー - 花崗岩
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawIce: {
+		DisplayName: ストーンクロー - 氷
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawMarble: {
+		DisplayName: ストーンクロー - 大理石
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		DragonPedestalStoneItem: {
+		DisplayName: 大ドラゴン台座（石）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalStoneSmallItem: {
+		DisplayName: 小ドラゴン台座（石）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalGoldItem: {
+		DisplayName: 大ドラゴン台座（金）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「金」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalGraniteItem: {
+		DisplayName: 大ドラゴン台座（花崗岩）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「御影石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalIceItem: {
+		DisplayName: 大ドラゴン台座（氷）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「氷」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalMarbleItem: {
+		DisplayName: 大ドラゴン台座（大理石）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「大理石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalGoldSmallItem: {
+		DisplayName: 小ドラゴン台座（金）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「金」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalGraniteSmallItem: {
+		DisplayName: 小ドラゴン台座（花崗岩）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「御影石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalIceSmallItem: {
+		DisplayName: 小ドラゴン台座（氷）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「氷」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalMarbleSmallItem: {
+		DisplayName: 小ドラゴン台座（大理石）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「大理石」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+	NeckPendantOfStoneActiveHidden: {
+		DisplayName: フォーカス石のペンダント（隠し）
+		Tooltip: ""
+	}
+
+		StoneClawAmber: {
+		DisplayName: ストーンクロー - アンバー
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawAmethyst: {
+		DisplayName: ストーンクロー - アメジスト
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawDiamond: {
+		DisplayName: ストーンクロー - ダイヤモンド
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawEmerald: {
+		DisplayName: ストーンクロー - エメラルド
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawRosequartz: {
+		DisplayName: ストーンクロー - ローズクォーツ
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawRuby: {
+		DisplayName: ストーンクロー - ルビー
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawSapphire: {
+		DisplayName: ストーンクロー - サファイア
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		StoneClawTopaz: {
+		DisplayName: ストーンクロー - トパーズ
+		Tooltip:
+				'''
+				使用すると、石化時の像の見た目を変更しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				使用時に消費
+				'''
+	}
+
+		DragonPedestalAmberItem: {
+		DisplayName: 大ドラゴン台座（アンバー）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「アンバー」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalAmberSmallItem: {
+		DisplayName: 小ドラゴン台座（アンバー）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「アンバー」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalAmethystItem: {
+		DisplayName: 大ドラゴン台座（アメジスト）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「アメジスト」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+		DragonPedestalAmethystSmallItem: {
+		DisplayName: 小ドラゴン台座（アメジスト）
+		Tooltip:
+				'''
+				[c/FFCC44:ドラゴンアイテム]
+				ドラゴンがここで像のポーズを取れる
+				ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+				スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+				このタイプは像の材質として「アメジスト」を強制しようとする
+				すべての種族がすべての材質に対応しているわけではない
+				'''
+	}
+
+	DragonPedestalDiamondItem: {
+		DisplayName: 大ドラゴン台座（ダイヤモンド）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ダイヤモンド」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalDiamondSmallItem: {
+		DisplayName: 小ドラゴン台座（ダイヤモンド）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ダイヤモンド」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalEmeraldItem: {
+		DisplayName: 大ドラゴン台座（エメラルド）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「エメラルド」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalEmeraldSmallItem: {
+		DisplayName: 小ドラゴン台座（エメラルド）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「エメラルド」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalRosequartzItem: {
+		DisplayName: 大ドラゴン台座（ローズクォーツ）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ローズクォーツ」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalRosequartzSmallItem: {
+		DisplayName: 小ドラゴン台座（ローズクォーツ）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ローズクォーツ」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalRubyItem: {
+		DisplayName: 大ドラゴン台座（ルビー）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ルビー」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalRubySmallItem: {
+		DisplayName: 小ドラゴン台座（ルビー）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「ルビー」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalSapphireItem: {
+		DisplayName: 大ドラゴン台座（サファイア）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「サファイア」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalSapphireSmallItem: {
+		DisplayName: 小ドラゴン台座（サファイア）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「サファイア」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalTopazItem: {
+		DisplayName: 大ドラゴン台座（トパーズ）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「トパーズ」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	DragonPedestalTopazSmallItem: {
+		DisplayName: 小ドラゴン台座（トパーズ）
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンがここで像のポーズを取れる
+			ベッドとして機能し、使用時にスポーン地点を設定し、時間経過が早まる
+			スポーン地点を解除するには、すでにポーズ中に台座を再度操作する
+			このタイプは像の材質として「トパーズ」を強制しようとする
+			すべての種族がすべての材質に対応しているわけではない
+			'''
+	}
+
+	InnerEssence: {
+		DisplayName: インナーエッセンス
+		Tooltip: ""
+	}
+
+	DyableDemonHorns: {
+		DisplayName: 染色可能デーモンホーン
+		Tooltip: Kesslan 用に作られた 表記どおりの働きをする
+	}
+
+	DragonFakeWings: {
+		DisplayName: 偽ドラゴンウィング
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			リル・ドラゴン系のコードベース上の種族が装備すると、
+			翼は常に表示されるが、常にたたまれた見た目になる
+			他の翼を装備していても折りたたんだままにしたり、
+			ホバーボード装備中でも翼を表示させたりできる
+			'''
+	}
+
+	NeckLilCollarRed: {
+		DisplayName: リル赤い首輪
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	SmoothSkinHead: {
+		DisplayName: リル鱗なしジョー
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	SmoothSkinBody: {
+		DisplayName: リル鱗なしボディ
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	DyableLegs: {
+		DisplayName: リル奇怪染色可能レッグス
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	DyableSmoothBody: {
+		DisplayName: リル奇怪染色可能ボディ
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	DyableSmoothHead: {
+		DisplayName: リル奇怪染色可能ヘッド
+		Tooltip:
+			'''
+			[c/FFCC44:L'il Dragon 用に設計]
+			[c/888888:注: 黒曜石のドクロなどのアイテムとは相性が悪い]
+			'''
+	}
+
+	BreathPowerGemNull: {
+		DisplayName: ブレスパワージェム - ヌル
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			ドラゴンのブレス能力をリセットするための宝石
+			'''
+	}
+
+	DragonTetheringPostItem: {
+		DisplayName: テザーポスト
+		Tooltip:
+			'''
+			テザー首輪と接続できる魔法の金属製ポスト
+			設置すると、起動状態のテザー首輪を装備している近くのプレイヤーが
+			ポストに接続される
+			ポストを操作できる テザー首輪を装備して操作した場合、
+			ポストへの接続・切断を切り替える
+			テザー首輪を装備していない場合は、ポストの操作で
+			近くのテザー首輪装備者全員との再接続を試みる
+			'''
+	}
+
+	NeckTetherCollar: {
+		DisplayName: テザー首輪
+		Tooltip:
+			'''
+			テザーポストと接続できる特別な首輪
+			起動中は発光 インベントリ内で右クリック（装備していない必要あり）で
+			オン/オフを切り替え可能
+			アクセサリー（虚飾）スロットに装備し、かつ起動中のときのみ効果を発揮
+			'''
+	}
+
+	TetheringWand: {
+		DisplayName: テザーリングワンド
+		Tooltip:
+			'''
+			テザー首輪を装備している他プレイヤーに使用して
+			自分へ接続させる 再使用で接続解除
+			カーソル位置の全プレイヤーが対象
+			距離が離れすぎるとテザーが切れる
+			'''
+	}
+
+	SmoothSkinBodyDetail: {
+		DisplayName: リルスムースボディ
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	SmoothSkinHeadDetail: {
+		DisplayName: リルスムースジョー
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	DragonHiddenWings: {
+		DisplayName: 隠しドラゴンウィング
+		Tooltip:
+			'''
+			[c/FFCC44:ドラゴンアイテム]
+			リル・ドラゴン系のコードベース上の種族が装備すると、
+			翼は一切表示されなくなる
+			飛行自体は可能だが、カスタム翼スプライトは表示されない
+			ちょっと…変に見えるかもしれない
+			'''
+	}
+
+	ObservationCrystal: {
+		Tooltip: ""
+		DisplayName: 観測のクリスタル
+	}
+
+	FaceTiredExpression: {
+		DisplayName: リルドラゴン疲労表情
+		Tooltip:
+			'''
+			[c/FFCC44:L'il Dragon 用に設計]
+			[c/FFCC44:B'ig Dragon にも適合]
+			'''
+	}
+
+	FaceAngryExpressionLilDragon: {
+		DisplayName: L'il Dragon Angry Expression
+		Tooltip:
+			'''
+			[c/FFCC44:L'il Dragon 用に設計]
+			[c/FFCC44:B'ig Dragon にも適合]
+			「この小さなドラゴン、めちゃくちゃ怒ってる」
+			'''
+	}
+
+	FaceSquintExpression: {
+		DisplayName: リルドラゴン細目表情
+		Tooltip:
+			'''
+			[c/FFCC44:L'il Dragon 用に設計]
+			[c/FFCC44:B'ig Dragon にも適合]
+			'''
+	}
+
+	PoemDragonHead: {
+		DisplayName: 詩竜の頭部
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	PoemDragonHeadNoEyes: {
+		DisplayName: 詩竜の頭部（目なし）
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+
+	TailSpikedLilDragon: {
+		DisplayName: とげとげリルドラゴンテール
+		Tooltip: "[c/FFCC44:L'il Dragon 用に設計]"
+	}
+}
+
+Config: {
+	Headers: {
+		BreathBar: ブレスバー
+		Rendering: レンダリング
+		RenderingSynced: レンダリング（同期）
+		GameplaySynced: ゲームプレイ（同期）
+		RacialStatConfig: 種族ステータス
+		FeatureToggles: 機能
+		Breaths: ブレス
+		Affinities: 親和性
+		Hitbox: 当たり判定
+		Mounting: 騎乗
+		Petrification: 石化 一般設定
+		Controls: 操作
+		BreathConfig: ブレス攻撃
+		PendantOfStone: 石のペンダント
+		PetrificationPotion: 石化ポーション
+		StoneGun: 状態異常ガン
+		StoneShieldTrinket: ストーンシールドのアクセサリー
+		DragonFledglingWings: ひなドラゴンの翼
+		SummoningFlute: 召喚のフルート
+		Audio: オーディオ
+		Tethers: テザー
+		ObservationCrystal: 観測のクリスタル
+		RescueSystem: 救出システム
+		Photosensitivity: 感光石化
+		PetrificationHopping: 石化ホッピング
+		PetrificationMashing: 石化連打メカニクス
+		PetrificationOnSpawn: スポーン時石化
+		TetherRestrictions: テザー制限
+	}
+}
+
+Buffs: {
+	BuffMounted: {
+		DisplayName: 騎乗
+		Description: 騎乗中は被ダメージが軽減
+	}
+
+	DebuffDragonFire: {
+		DisplayName: 竜炎
+		Description: 竜の炎に引き裂かれている！
+	}
+
+	DebuffDragonFreeze: {
+		Description: とても寒い…
+		DisplayName: 氷結
+	}
+
+	DebuffDragonElectrified: {
+		DisplayName: 竜の感電
+		Description: ビリビリ～！
+	}
+
+	DebuffElectricAffinityShock: {
+		DisplayName: 親和性ショック
+		Description: 与えるダメージが大きく減少
+	}
+
+	DebuffLifeAffinityGrounded: {
+		DisplayName: 接地
+		Description: 跳ぶのが…つらい…！
+	}
+
+	BuffRescueRegen: {
+		DisplayName: 救出回復
+		Description: まもなく戦線復帰！
+	}
+
+	BuffRescueGrace: {
+		DisplayName: 救出加護
+		Description: 一息つける！
+	}
+
+	BuffShieldTrinketIntangibility: {
+		DisplayName: 非実体
+		Description: ダメージを受けない！
+	}
+
+	BuffShieldTrinketPetrifyImmune: {
+		DisplayName: 石化防護
+		Description: 石化しない！
+	}
+
+	BuffHydrated: {
+		DisplayName: 水分補給
+		Description: 水分を保て！
+	}
+
+	DebuffFirstSpawnRescue: {
+		DisplayName: 新たな始まり
+		Description: 世界へようこそ！
+	}
+
+	DebuffFluteStasis: {
+		Description: 少々お待ちを…
+		DisplayName: フルート停滞
+	}
+}
+
+Conditions: {
+	CanCraftDragonBench: ドラゴン
+	EnableRecipeInConfig: コンフィグで有効
+}
+
+Projectiles: {
+	BreathFireProjectile: {
+		DisplayName: 竜の火炎ブレス
+	}
+
+	BreathIceProjectile: {
+		DisplayName: 竜の氷結ブレス
+	}
+
+	BreathElectricityProjectile: {
+		DisplayName: 竜の雷撃ブレス
+	}
+
+	BreathLifeProjectile: {
+		DisplayName: 竜の生命ブレス
+	}
+
+	BreathElectricityProjectileIntense: {
+		DisplayName: 強化・竜の雷撃ブレス
+	}
+
+	BreathFireProjectileIntense: {
+		DisplayName: 強化・竜の火炎ブレス
+	}
+
+	BreathIceProjectileIntense: {
+		DisplayName: 強化・竜の氷結ブレス
+	}
+
+	BreathLifeProjectileIntense: {
+		DisplayName: 強化・竜の生命ブレス
+	}
+
+	PetrificationShotProjectile: {
+		DisplayName: 石化弾
+	}
+
+	BlankProjectile: {
+		DisplayName: 空の投射物
+	}
+
+	StatueHitBoxProjectile: {
+		DisplayName: 動く像
+	}
+
+	FreezeShotProjectile: {
+		DisplayName: 凍結弾
+	}
+
+	WebShotProjectile: {
+		DisplayName: 蜘蛛糸弾
+	}
+}
+
+Misc: {
+	KickedOffByMount: 乗っていたプレイヤーに降ろされた
+	AskedToRideOtherPlayer: "{0} があなたを背中に乗せた！"
+	DeniedPickupPlayer: "{0} は騎乗できるプレイヤーによる持ち上げを無効にしている…"
+	BreathPowerGemCannotUse: この宝石はブレスパワーを{0}まで上げるが、あなたはすでに{1}を持っている
+	BreathPowerGemUsed: 宝石の力を取り込み、ブレスパワーが{0}から{1}に上昇！
+	BreathGemNotADragon: 宝石は使用を拒否した
+	BreathGemCannotUse: 宝石が共鳴した。今は得られるものがない
+	BreathGemUseFire: 宝石の力を取り込み、内側で猛火が燃え上がる！
+	BreathGemUseIce: 宝石の力を取り込み、内側から氷の冷気が湧き上がる！
+	BreathGemUseElectric: 宝石の力を取り込み、内から電撃が走る！
+	BreathGemUseLife: 宝石の力を取り込み、内から生命の奔流を感じる！
+	BreathGemUseFireIntense: 宝石の力を取り込み、星々の熱が体内で燃えさかる！
+	BreathGemUseIceIntense: 宝石の力を取り込み、内に強烈な吹雪が渦巻く！
+	BreathGemUseElectricIntense: 宝石の力を取り込み、内から嵐の力が湧き上がる！
+	BreathGemUseLifeIntense: 宝石の力を取り込み、内に毒々しい力が芽生える！
+	BreathGemUseNull: 宝石があなたの力を吸い取り、内側が空っぽになったように感じる
+	AffinityGemTurnOn: 宝石が親和性の力を解放した！
+	AffinityGemTurnOff: 宝石が親和性の力を封印した
+	EssenceUseDenied: すでにこのエッセンスで満たされている
+	EssenceUseSuccess: エッセンスに呼応して、姿が一変するのを感じる！
+	EssenceCommonTooltip:
+		'''
+		使用すると、即座にこのエッセンスが示す種族に
+		あなたの種族を変更します。
+		[c/FFCC44:種族固有の副作用があるかもしれません。]
+		[c/FF4444:すべての種族に対応するエッセンスがあるわけではないため、]
+		[c/FF4444:現在の種族に戻れなくなる可能性があります！]
+		[c/FF4444:本当に実行してよいかご確認ください。]
+		[c/FF4444:非推奨アイテム。上記は元の説明を念のため残しています。]
+		'''
+	NeckPendantOfStoneDesc:
+		'''
+		[c/DDAA22:Legacy Dragon Item]
+		「岩なんて、なぜ身に着けるの？」
+		[c/CC88FF:ペンダントに染料を適用すると、像にも染料が反映されます！]
+		[c/FFAAFF:装備者を石化し、石化中は次の効果を付与します:]{0}
+		[c/BBBBFF:- 最終被ダメージ{1}%減少]{2}{3}
+		[c/FFBBBB:- ただし像の間はほとんど動けず、アイテムも使えません]
+		[c/888888:ホットキーで石化を制御できる、]
+		[c/888888:フォーカス版の石のペンダントの使用を推奨します]
+		'''
+	NeckPendantOfStoneLunarDesc:
+		'''
+		[c/CC66FF:呪われたドラゴンアイテム]
+		「持っているだけで冷たい」
+		[c/CC88FF:装備していなくても夜間は常に有効]
+		[c/CC88FF:これで石化すると睡眠扱いになります]
+		[c/CC88FF:ペンダントに染料を適用すると、像にも染料が反映されます！]
+		[c/FFAAFF:装備者を石化し、石化中は次の効果を付与します:]{0}
+		[c/BBBBFF:- 最終被ダメージ{1}%減少]{2}{3}
+		[c/FFBBBB:- ただし像の間はほとんど動けず、アイテムも使えません]
+		[c/888888:対となるアイテムがより上のスロットにある場合は機能しません]
+		[c/888888:通常のゲームプレイで有用に設計されていないアイテムです]
+		'''
+	NeckPendantOfStoneSolarDesc:
+		'''
+		[c/CC66FF:呪われたドラゴンアイテム]
+		「これは熱い石だ！」
+		[c/CC88FF:装備していなくても日中は常に有効]
+		[c/CC88FF:これで石化すると睡眠扱いになります]
+		[c/CC88FF:ペンダントに染料を適用すると、像にも染料が反映されます！]
+		[c/FFAAFF:装備者を石化し、石化中は次の効果を付与します:]{0}
+		[c/BBBBFF:- 最終被ダメージ{1}%減少]{2}{3}
+		[c/FFBBBB:- ただし像の間はほとんど動けず、アイテムも使えません]
+		[c/888888:対となるアイテムがより上のスロットにある場合は機能しません]
+		[c/888888:通常のゲームプレイで有用に設計されていないアイテムです]
+		'''
+	NeckPendantOfStoneActiveDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		「だからこそ石を身に着ける」
+		[c/CC88FF:ペンダントに染料を適用すると、像にも染料が反映されます！]
+		望んだときに自分を石化できます。装備中に第3種族キー（既定はC）で
+		有効/無効を切り替えます。
+		無効化後もしばらく石化が残ります。
+		[c/FFAAFF:石化中は次の効果を付与します:]{0}
+		[c/BBBBFF:- 最終被ダメージ{1}%減少]{2}{3}
+		[c/FFBBBB:- ただし像の間はほとんど動けず、アイテムも使えません]
+		[c/888888:無効化していても石化中はボーナスが有効です]
+		'''
+	NeckPendantOfStoneActiveHiddenDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		「私の石はどこに消えた!?」
+		[c/CC88FF:このバージョンは首元で不可視になります]
+		[c/CC88FF:ペンダントに染料を適用すると、像にも染料が反映されます！]
+		望んだときに自分を石化できます。装備中に第3種族キー（既定はC）で
+		有効/無効を切り替えます。
+		無効化後もしばらく石化が残ります。
+		[c/FFAAFF:石化中は次の効果を付与します:]{0}
+		[c/BBBBFF:- 最終被ダメージ{1}%減少]{2}{3}
+		[c/FFBBBB:- ただし像の間はほとんど動けず、アイテムも使えません]
+		[c/888888:無効化していても石化中はボーナスが有効です]
+		'''
+	NeckPendantOfStoneKBDesc:
+		'''
+
+		[c/BBBBFF:- ノックバック無効]
+		'''
+	NeckPendantOfStoneCrushDesc:
+		'''
+
+		[c/BBBBFF:- 落下や高速接触で敵を押し潰す]
+		'''
+	NeckPendantOfStoneDrawAttention:
+		'''
+
+		[c/BBBBFF:- 敵に狙われやすくなる]
+		'''
+	NeckPendantOfStoneReduceAttention:
+		'''
+
+		[c/BBBBFF:- 敵に狙われにくくなる]
+		'''
+	StoneShieldTrinketDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		「多分呪われてる。でも役に立つかも」
+		右クリックで切り替え。インベントリ内で有効な間…
+		[c/8888FF:石化時:]
+		[c/BBBBFF:- 受けるダメージは1になる]
+		[c/BBBBFF:- 地上/水中でダメージを受けると石化が解除され、]
+		[c/BBBBFF:{0}の完全無敵、その後{1}の]
+		[c/BBBBFF:追加の石化耐性を得る]
+		[c/FF8888:非石化時:]
+		[c/FFBBBB:- 受けるダメージが{2}%に乗算される]
+		[c/FFBBBB:- ダメージを受けると{3}のあいだ石化する]
+		'''
+	SummoningFluteDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		インベントリ内でこのフルートを右クリックすると、
+		自分をフルートの対象に設定します。
+		使用すると対象を使用者のもとへテレポートさせます。
+		対象または使用者が互いに騎乗可能な場合、自動で試行されます。
+		[c/CC88FF:現在の同調先: {0}]
+		[c/888888:すでに自分が対象の状態で再割り当てすると解除されます]
+		'''
+	FluteUseTargetNotAssigned: フルートは誰にも同調しておらず、何も起きない
+	FluteUseNoExist: フルートを吹いたが、割り当てられた対象が見つからなかった
+	FluteUseTargetNotValid: フルートを吹いたが、対象は今テレポートできない状態だ
+	FluteUseTargetYourself: フルートを吹くと、微かな痺れを感じた
+	FluteUseTargetDoesNotAllow: フルートを吹いたが、対象は呼び出しを拒否した
+	StoneClawSuccess: 爪の力が体に流れ込み、像の材質が変化した！
+	StoneClawNotADragon: 爪は使用を拒否した
+	StoneClawNoAsset: あなたの種族はこの像の材質に対応していない。ごめんね！
+	StoneClawAlreadySame: あなたの像の材質は、この爪が付与する材質と同じだ
+	InnerEssenceNotLilRace: エッセンスは使用を拒否した
+	InnerEssenceUsed: エッセンスが反応した。現在: {0}
+	InnerEssenceDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		台座に乗っている間に、
+		リスポーン地点の設定/解除や時間経過を
+		許可するかどうかを切り替えます。
+		台座を使用できる種族でのみ機能します。
+		使用してもアイテムは消費されません。
+		[c/CC88FF:現在の状態: {0}]
+		'''
+	BreathPowerGemDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		ドラゴンのブレスパワーを{0}まで
+		引き上げるための宝石
+		{1}
+		'''
+	BreathPowerGemPowerValue: "[c/CC88FF:現在のブレスパワー: ]"
+	BreathPowerGemPowerValueNotDragon: "[c/888888:ドラゴンのみ使用可能]"
+	ObservationCrystalDesc:
+		'''
+		[c/FFCC44:ドラゴンアイテム]
+		インベントリ内でこのクリスタルを右クリックすると、
+		自分をクリスタルの対象に設定します。
+		アクセサリー/虚飾スロットに装備すると、
+		カメラが現在同調しているプレイヤーに追従します。
+		[c/CC88FF:現在の同調先: {0}]
+		[c/888888:すでに自分が対象の状態で再割り当てすると解除されます]
+		[c/888888:技術メモ - 投射物やNPCダメージ数値など、]
+		[c/888888:遠距離では送信されないネットワークイベントがあります]
+		'''
+}
+
+Keybinds: {
+	"Rescue Giveup Key": {
+		DisplayName: 救出あきらめキー
+	}
+}
+

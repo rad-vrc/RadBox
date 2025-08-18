@@ -1,0 +1,2697 @@
+Items: {
+	rekill: {
+		DisplayName: リキル
+		Tooltip: 「長く苦しいスポーンへの帰路」
+	}
+
+	Rekill: {
+		DisplayName: リキル
+		Tooltip: ""
+	}
+
+	IsorOre: {
+		DisplayName: アイソル鉱石
+		Tooltip: ""
+	}
+
+	IsorBar: {
+		DisplayName: アイソルのインゴット
+		Tooltip: ""
+	}
+
+	IsorGreaves: {
+		DisplayName: アイソルのグリーブ
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+	}
+
+	IsorPlate: {
+		DisplayName: アイソルのチェストプレート
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+	}
+
+	IsorHelm: {
+		DisplayName: アイソルのヘルメット
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+		SetBonus: ジャンプ力が100%上昇
+	}
+
+	IsorHopeknot: {
+		DisplayName: アイソルのホープノット
+		Tooltip:
+			'''
+			召喚タグダメージ+{0}
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+	}
+
+	SuperheavyShot: {
+		DisplayName: 超重量弾
+		Tooltip: 重力の影響を受ける
+	}
+
+	UberHeavyShot: {
+		DisplayName: 極重量弾
+		Tooltip: 重力の影響を受ける
+	}
+
+	Qlippoth: {
+		DisplayName: クリフォト
+		Tooltip: ""
+	}
+
+	BloodmoonChampion: {
+		DisplayName: ブラッドムーンの勇士
+		Tooltip: ""
+	}
+
+	BlackRubble: {
+		DisplayName: マグネタイト鉱石
+		Tooltip: ""
+	}
+
+	ElectromagneticBar: {
+		DisplayName: 電磁のインゴット
+		Tooltip: ""
+	}
+
+	ElectromagneticJacket: {
+		DisplayName: 電磁ジャケット
+		Tooltip: "ダメージが{0}%増加（乗算補正）"
+	}
+
+	ElectromagneticPants: {
+		DisplayName: 電磁パンツ
+		Tooltip: "ダメージが{0}%増加（乗算補正）"
+	}
+
+	ElectromagneticShades: {
+		DisplayName: 電磁サングラス
+		Tooltip: "ダメージが{0}%増加（乗算補正）"
+		SetBonus: なし
+	}
+
+	BlueSkewer: {
+		DisplayName: ブルー・スキュアー
+		Tooltip: ""
+	}
+
+	WhaleRifle: {
+		DisplayName: ホエールライフル
+		Tooltip: ""
+	}
+
+	Eyebite: {
+		DisplayName: アイバイト
+		Tooltip: 反射する紫の弾を発射
+	}
+
+	ExampleSword: {
+		DisplayName: サンプルソード
+		Tooltip: ""
+	}
+
+	Bonesaber: {
+		DisplayName: ボーンセイバー
+		Tooltip: 骨を射出
+	}
+
+	GoldRush: {
+		DisplayName: ゴールドラッシュ
+		Tooltip: 壁を貫通して進む発光エナジーボールを発射 タイルを照らす
+	}
+
+	AerstoneOre: {
+		DisplayName: エアストーン鉱石
+		Tooltip: ""
+	}
+
+	CometBar: {
+		DisplayName: コメットインゴット
+		Tooltip: ""
+	}
+
+	CometHeadgear: {
+		DisplayName: コメット・ヘッドギア
+		Tooltip: "移動速度が{0}%上昇"
+		SetBonus: "移動速度が{0}%上昇"
+	}
+
+	CometMail: {
+		DisplayName: コメット・メイル
+		Tooltip: "移動速度が{0}%上昇"
+	}
+
+	CometRunners: {
+		DisplayName: コメット・ランナー
+		Tooltip: "移動速度が{0}%上昇"
+	}
+
+	Aeradicator: {
+		DisplayName: エアラディケーター
+		Tooltip: ""
+	}
+
+	CometPellet: {
+		DisplayName: コメットペレット
+		Tooltip: 壁に当たると跳ね返る
+	}
+
+	Longshot: {
+		DisplayName: ロングショット
+		Tooltip: ""
+	}
+
+	FlyMash: {
+		DisplayName: ハエマッシュ
+		Tooltip: ""
+	}
+
+	FlySauce: {
+		DisplayName: ハエソース
+		Tooltip: ""
+	}
+
+	BeetleSauce: {
+		DisplayName: ビートルソース
+		Tooltip: ""
+	}
+
+	PixieSauce: {
+		DisplayName: ピクシーソース
+		Tooltip: ""
+	}
+
+	Snowver: {
+		DisplayName: スノーバー
+		Tooltip:
+			'''
+			弾として雪球を消費
+			「お前にはスノーバーがお似合いだぜ」
+			'''
+	}
+
+	Snowver9000: {
+		DisplayName: スノーバー 9000
+		Tooltip:
+			'''
+			弾として雪球を消費
+			「スノーバー9000だ!!!」
+			'''
+	}
+
+	NaturalBubblingFormula: {
+		DisplayName: 天然発泡フォーミュラ
+		Tooltip: 上昇する有毒な泡を放つ
+	}
+
+	FrostbiterRound: {
+		DisplayName: フロストバイター弾
+		Tooltip: ""
+	}
+
+	GlassPoint: {
+		DisplayName: グラスポイント
+		Tooltip: ""
+	}
+
+	WandOfBadAir: {
+		DisplayName: 悪臭の杖
+		Tooltip: 悪臭の空気の塊を放つ
+	}
+
+	WallmasterArrow: {
+		DisplayName: ウォールマスターアロー
+		Tooltip: タイルを貫通
+	}
+
+	SaltPile: {
+		Tooltip: ""
+		DisplayName: 塩の山
+	}
+
+	Saline: {
+		DisplayName: 塩水
+		Tooltip: ""
+	}
+
+	RingOfWoundSalting: {
+		DisplayName: 塩擦りの指輪
+		Tooltip: "防御貫通+{0}"
+	}
+
+	OceanPolyps: {
+		DisplayName: 海のポリプ
+		Tooltip: ""
+	}
+
+	MonsoonCrown: {
+		DisplayName: モンスーンクラウン
+		Tooltip: "遠距離ダメージが{0}%増加"
+	}
+
+	MonsoonVest: {
+		DisplayName: モンスーンベスト
+		Tooltip: "遠距離ダメージが{0}%増加"
+	}
+
+	MonsoonStompers: {
+		DisplayName: モンスーンストンパーズ
+		Tooltip: "遠距離ダメージが{0}%増加"
+	}
+
+	GunnerCamo: {
+		DisplayName: ガンナーカモ
+		Tooltip:
+			'''
+			遠距離ダメージが{0}%増加
+			遠距離クリティカル率が{1}%上昇
+			'''
+	}
+
+	GunnerHood: {
+		DisplayName: ガンナーフード
+		Tooltip:
+			'''
+			遠距離ダメージが{0}%増加
+			遠距離クリティカル率が{1}%上昇
+			'''
+		SetBonus: "遠距離クリティカル率が{0}%上昇"
+	}
+
+	GunnerBoots: {
+		DisplayName: ガンナーブーツ
+		Tooltip:
+			'''
+			遠距離ダメージが{0}%増加
+			遠距離クリティカル率が{1}%上昇
+			'''
+	}
+
+	Eradicator: {
+		DisplayName: エラディケーター
+		Tooltip: ""
+	}
+
+	SoulOfBirthright: {
+		DisplayName: ソウル・オブ・バースライト
+		Tooltip: 「生まれながらに強大な力を持つ存在の精髄」
+	}
+
+	Dustpetal: {
+		DisplayName: ダストペタル
+		Tooltip: ""
+	}
+
+	DustpetalSeeds: {
+		DisplayName: ダストペタルの種
+		Tooltip: ""
+	}
+
+	Futsor: {
+		DisplayName: フッツァー
+		Tooltip: 「踏むとフッツァーになる」
+	}
+
+	Striker: {
+		DisplayName: ストライカー
+		Tooltip: ""
+	}
+
+	PetalDuster: {
+		DisplayName: ペタルダスター
+		Tooltip: 鋭い花弁を射出
+	}
+
+	WarhawkFeather: {
+		DisplayName: ウォーホークの羽
+		Tooltip: ""
+	}
+
+	Excalibolt: {
+		Tooltip: 光の剣を放つ
+		DisplayName: エクスカリボルト
+	}
+
+	Ignorer: {
+		Tooltip: タイルを貫通
+		DisplayName: イグノアラー
+	}
+
+	Preacherman: {
+		DisplayName: 説教師
+		Tooltip: 「テラリアン 20:11 — 他人の落としたコインを決して盗むな」
+	}
+
+	MineralWater: {
+		DisplayName: ミネラルウォーター
+		Tooltip: ""
+	}
+
+	GreenTonic: {
+		DisplayName: グリーントニック
+		Tooltip: ""
+	}
+
+	LavenderCola: {
+		DisplayName: ラベンダーコーラ
+		Tooltip: ""
+	}
+
+	Lemonoid: {
+		DisplayName: レモノイド
+		Tooltip: ""
+	}
+
+	GolfJuice: {
+		DisplayName: ゴルフジュース
+		Tooltip: 「搾りたてのゴルフボールで作られている」
+	}
+
+	WarhawkFishbone: {
+		DisplayName: ウォーホークの魚骨
+		Tooltip: ""
+	}
+
+	PetalRound: {
+		DisplayName: ペタル弾
+		Tooltip: ごく近距離の花弁を射出
+	}
+
+	ExtractedGoodies: {
+		DisplayName: 採取品の詰め合わせ
+		Tooltip: 右クリックで開く
+	}
+
+	OldOre: {
+		DisplayName: 古びた鉱石
+		Tooltip: ""
+	}
+
+	PreciousPebble: {
+		DisplayName: 貴重な小石
+		Tooltip: ""
+	}
+
+	ArchWyvernScale: {
+		DisplayName: アークワイバーンの鱗
+		Tooltip:
+			'''
+			移動速度が{0}%上昇
+			近接攻撃速度が18%上昇
+			'''
+	}
+
+	FossilPipe: {
+		DisplayName: 化石パイプ
+		Tooltip: 2連射
+	}
+
+	HeftyStick: {
+		DisplayName: 重たい棒
+		Tooltip: ""
+	}
+
+	DiatomaceousRay: {
+		Tooltip: 30連射
+		DisplayName: 珪藻レーザー
+	}
+
+	CopperPistol: {
+		DisplayName: 銅のピストル
+		Tooltip: ""
+	}
+
+	GoldPistol: {
+		DisplayName: 金のピストル
+		Tooltip: ""
+	}
+
+	IronPistol: {
+		DisplayName: 鉄のピストル
+		Tooltip: ""
+	}
+
+	LeadPistol: {
+		DisplayName: 鉛のピストル
+		Tooltip: ""
+	}
+
+	PlatinumPistol: {
+		DisplayName: プラチナのピストル
+		Tooltip: ""
+	}
+
+	SilverPistol: {
+		DisplayName: 銀のピストル
+		Tooltip: ""
+	}
+
+	TinPistol: {
+		DisplayName: スズのピストル
+		Tooltip: ""
+	}
+
+	TungstenPistol: {
+		DisplayName: タングステンのピストル
+		Tooltip: ""
+	}
+
+	PreciousCharm: {
+		DisplayName: 貴石のお守り
+		Tooltip:
+			'''
+			最大マナ-40
+			魔法ダメージが{1}%増加
+			'''
+	}
+
+	WarhawkCoat: {
+		DisplayName: ウォーホークのコート
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+	}
+
+	WarhawkMask: {
+		DisplayName: ウォーホークのマスク
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+		SetBonus: 召喚数が{0}体増える
+	}
+
+	WarhawkPants: {
+		DisplayName: ウォーホークのパンツ
+		Tooltip:
+			'''
+			召喚ダメージが{0}%上昇
+			召喚数が{1}体増える
+			'''
+	}
+
+	WaterJolt: {
+		DisplayName: ウォータージョルト
+		Tooltip: 強化された水の矢を放つ
+	}
+
+	MalleablePlantMass: {
+		DisplayName: 可塑植物の塊
+		Tooltip:
+			'''
+			右クリックでランダムな果物をひと握り生成
+			特別なアイテムが出ることがある
+			'''
+	}
+
+	Bornana: {
+		DisplayName: ボルナナ
+		Tooltip:
+			'''
+			移動速度が{0}%上昇
+			攻撃速度が15%上昇
+			最大ライフ-100
+			「オレンジとバナナの交雑種みたいなもの」
+			'''
+	}
+
+	OnionRing: {
+		DisplayName: 玉ねぎリングの半分みたいな突然変異野菜
+		Tooltip:
+			'''
+			召喚クリティカル率が13%上昇
+			「今日は運がいい！」
+			'''
+	}
+
+	PhotoCartridge: {
+		DisplayName: フォトカートリッジ
+		Tooltip: 目に見えない閃光を放つ
+	}
+
+	Isword: {
+		DisplayName: アイソード
+		Tooltip: 直進するか落下する刃を投げる
+	}
+
+	ImpalementRod: {
+		DisplayName: インペイルメントロッド
+		Tooltip: 敵を串刺しにするエナジースピアを放つ
+	}
+
+	PreciousHook: {
+		Tooltip: ""
+		DisplayName: 貴石のフック
+	}
+
+	FeathermageRod: {
+		DisplayName: フェザーメイジロッド
+		Tooltip: 戻ってくる羽を放つ
+	}
+
+	TidalMultibow: {
+		DisplayName: タイダル・マルチボウ
+		Tooltip: 複数の矢を放つ
+	}
+
+	OldBar: {
+		DisplayName: 古びたインゴット
+		Tooltip: ""
+	}
+
+	RoyalShank: {
+		DisplayName: ロイヤルシャンク
+		Tooltip: ""
+	}
+
+	WorldlyDroplet: {
+		DisplayName: この世の雫
+		Tooltip: 「惑星の凝縮された力」
+	}
+
+	Frostburn: {
+		DisplayName: フロストバーン
+		Tooltip: 炎または冷気の球を放つ
+	}
+
+	GloryDays: {
+		DisplayName: グローリーデイズ
+		Tooltip:
+			'''
+			熱線を放つことがある
+			「血と汗と涙と痛み」
+			'''
+	}
+
+	FruitFlavors: {
+		DisplayName: フルーツフレーバー
+		Tooltip: ""
+	}
+
+	BlueberryJellyBean: {
+		DisplayName: ブルーベリー・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	ColaJellyBean: {
+		DisplayName: コーラ・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	GrapeJellyBean: {
+		DisplayName: グレープ・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	JellyBeanSyrup: {
+		DisplayName: ジェリービーンズシロップ
+		Tooltip: 右クリックでジェリービーンズを作成
+	}
+
+	OrangeJellyBean: {
+		DisplayName: オレンジ・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	RosewaterJellyBean: {
+		DisplayName: ローズウォーター・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	BluePlumJellyBean: {
+		DisplayName: ブループラム・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	BlueRaspberryJellyBean: {
+		DisplayName: ブルーラズベリー・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	CoolMintJellyBean: {
+		DisplayName: クールミント・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	DragonfruitJellyBean: {
+		DisplayName: ドラゴンフルーツ・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	GinJellyBean: {
+		DisplayName: ジン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	MangoJellyBean: {
+		DisplayName: マンゴー・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	MintJellyBean: {
+		DisplayName: ミント・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	PlumJellyBean: {
+		DisplayName: プラム・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	PumpkinJellyBean: {
+		DisplayName: パンプキン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	TangerineJellyBean: {
+		DisplayName: タンジェリン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	BubblegumJellyBean: {
+		DisplayName: バブルガム・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	CandyCaneJellyBean: {
+		DisplayName: キャンディケイン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	CaneSugarJellyBean: {
+		DisplayName: さとうきび・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	LavenderJellyBean: {
+		DisplayName: ラベンダー・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	LemonJellyBean: {
+		DisplayName: レモン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	LicoriceJellyBean: {
+		DisplayName: リコリス・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	LimeJellyBean: {
+		DisplayName: ライム・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	PepperJellyBean: {
+		DisplayName: ペッパー・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	WintergreenJellyBean: {
+		DisplayName: ウィンターグリーン・ジェリービーンズ
+		Tooltip: ""
+	}
+
+	SourAppleJellyBean: {
+		Tooltip: ""
+		DisplayName: サワーアップル・ジェリービーンズ
+	}
+
+	PeachJellyBean: {
+		Tooltip: ""
+		DisplayName: ピーチ・ジェリービーンズ
+	}
+
+	MapleJellyBean: {
+		Tooltip: ""
+		DisplayName: メープル・ジェリービーンズ
+	}
+
+	ElderflowerJellyBean: {
+		Tooltip: ""
+		DisplayName: エルダーフラワー・ジェリービーンズ
+	}
+
+	BlackberryJellyBean: {
+		Tooltip: ""
+		DisplayName: ブラックベリー・ジェリービーンズ
+	}
+
+	AppleJellyBean: {
+		Tooltip: ""
+		DisplayName: アップル・ジェリービーンズ
+	}
+
+	PricklyPearJellyBean: {
+		Tooltip: ""
+		DisplayName: ウチワサボテン・ジェリービーンズ
+	}
+
+	MelonJellyBean: {
+		Tooltip: ""
+		DisplayName: メロン・ジェリービーンズ
+	}
+
+	MatchaJellyBean: {
+		Tooltip: ""
+		DisplayName: 抹茶・ジェリービーンズ
+	}
+
+	LemonLimeJellyBean: {
+		Tooltip: ""
+		DisplayName: レモンライム・ジェリービーンズ
+	}
+
+	DiscontinuedRumJellyBean: {
+		Tooltip: ""
+		DisplayName: 終売ラム・ジェリービーンズ
+	}
+
+	CinnamonJellyBean: {
+		Tooltip: ""
+		DisplayName: シナモン・ジェリービーンズ
+	}
+
+	BeerJellyBean: {
+		Tooltip: ""
+		DisplayName: ビール・ジェリービーンズ
+	}
+
+	Bamboom: {
+		DisplayName: バンブーム
+		Tooltip: ""
+	}
+
+	ShivSword: {
+		DisplayName: シヴソード
+		Tooltip: ""
+	}
+
+	SeaSlug: {
+		DisplayName: シースラッグ
+		Tooltip: 水しぶきを放つ
+	}
+
+	ShellFromHell: {
+		DisplayName: 地獄の貝殻
+		Tooltip: 跳ね返る火の玉を放つ
+	}
+
+	Motherplate: {
+		DisplayName: マザープレート
+		Tooltip: ""
+	}
+
+	Punch: {
+		DisplayName: パンチ
+		Tooltip: ""
+	}
+
+	Atlas: {
+		DisplayName: アトラス
+		Tooltip: ""
+	}
+
+	FlyFighting: {
+		DisplayName: フライファイティング
+		Tooltip: ""
+	}
+
+	SavageScratching: {
+		DisplayName: サベージスクラッチ
+		Tooltip: ""
+	}
+
+	HellFu: {
+		DisplayName: 地獄流
+		Tooltip: 確率で発射物が変化: 火球
+	}
+
+	FistsOfMist: {
+		DisplayName: 霞の拳
+		Tooltip: 確率で発射物が変化: 胞子雲
+	}
+
+	Sunfinger: {
+		Tooltip: 拳が発光する
+		DisplayName: サンフィンガー
+	}
+
+	Rush: {
+		Tooltip: ""
+		DisplayName: ラッシュ
+	}
+
+	Glowstrike: {
+		Tooltip: 確率で発射物が変化: グロウスティック
+		DisplayName: グロウストライク
+	}
+
+	Spearhand: {
+		Tooltip: 確率で発射物が変化: 槍拳
+		DisplayName: スピアハンド
+	}
+
+	DarkArts: {
+		DisplayName: ダークアーツ
+		Tooltip: 確率で発射物が変化: ブラックボルト
+	}
+
+	HermitsWay: {
+		DisplayName: 隠者の道
+		Tooltip: 確率で発射物が変化: エナジーブラスト
+	}
+
+	MadRush: {
+		DisplayName: マッドラッシュ
+		Tooltip: ""
+	}
+
+	CursedKi: {
+		DisplayName: カースド・キ
+		Tooltip: 確率で発射物が変化: 呪われた炎
+	}
+
+	ChallengePissing: {
+		DisplayName: 挑戦の放水
+		Tooltip:
+			'''
+			確率で発射物が変化: ゴールデンシャワー
+			'If you can piss six feet up in the air and not get wet, you get no down payment!'
+			'''
+	}
+
+	FightingSpirit: {
+		DisplayName: 闘志
+		Tooltip: ""
+	}
+
+	GooPugilism: {
+		Tooltip: 確率で発射物が変化: 粘液の塊
+		DisplayName: 粘液拳闘
+	}
+
+	BattleStation: {
+		Tooltip: ""
+		DisplayName: バトルステーション
+	}
+
+	DemonEyegouge: {
+		Tooltip: 確率で発射物が変化: 赤い爆発
+		DisplayName: 悪魔の目潰し
+	}
+
+	PocketSand: {
+		DisplayName: ポケットサンド
+		Tooltip: ""
+	}
+
+	DwellerStyle: {
+		DisplayName: ディウェラー流
+		Tooltip: 確率で発射物が変化: ディウェラースタイル
+	}
+
+	SpiderFangFist: {
+		DisplayName: スパイダーファング・フィスト
+		Tooltip: 確率で発射物が変化: スパイダーファング
+	}
+
+	Minestrike: {
+		DisplayName: マインストライク
+		Tooltip: 確率で発射物が変化: 洞窟探検家のグロウスティック
+	}
+
+	ShellSmash: {
+		DisplayName: シェルスマッシュ
+		Tooltip: 確率で発射物が変化: 珪藻
+	}
+
+	ManeaterStyle: {
+		DisplayName: マンイーター流
+		Tooltip: 確率で発射物が変化: マンイーター・ストライク
+	}
+
+	RipAndTear: {
+		DisplayName: リップ・アンド・テア
+		Tooltip: 確率で発射物が変化: 骨
+	}
+
+	VultureCulture: {
+		DisplayName: バルチャー・カルチャー
+		Tooltip: ""
+	}
+
+	SurfaceworldTechnique: {
+		Tooltip: 確率で発射物が変化: 胞子雲、粘液爆発
+		DisplayName: サーフィスワールド・テクニック
+	}
+
+	MeteorHand: {
+		DisplayName: メテオハンド
+		Tooltip: ""
+	}
+
+	BruteChestplate: {
+		DisplayName: ブルートのチェストプレート
+		Tooltip:
+			'''
+			格闘攻撃速度が7%上昇
+			移動速度が{0}%上昇
+			'''
+	}
+
+	BrassPlating: {
+		DisplayName: 真鍮メッキ
+		Tooltip: ""
+	}
+
+	BruteLeggear: {
+		DisplayName: ブルートのレッグギア
+		Tooltip:
+			'''
+			格闘ダメージが7%増加
+			移動速度が{0}%上昇
+			'''
+	}
+
+	BruteVisage: {
+		DisplayName: ブルートの仮面
+		Tooltip:
+			'''
+			格闘クリティカル率が7%上昇
+			移動速度が{0}%上昇
+			'''
+		SetBonus: 格闘攻撃速度が12%上昇
+	}
+
+	ForbiddenFlavors: {
+		DisplayName: 禁断のフレーバー
+		Tooltip: ミントとオレンジ味の泡が混ざった弾を放つ
+	}
+
+	HellTicket: {
+		DisplayName: ヘルチケット
+		Tooltip: ""
+	}
+
+	PaddleBass: {
+		DisplayName: パドルベース
+		Tooltip: 「パドルバスに見える」
+	}
+
+	Painbringer: {
+		DisplayName: ペインブリンガー
+		Tooltip: ""
+	}
+
+	Rotsaber: {
+		DisplayName: ロットセイバー
+		Tooltip: ""
+	}
+
+	Kingmaker: {
+		DisplayName: キングメイカー
+		Tooltip: ""
+	}
+
+	Guide: {
+		DisplayName: ガイド
+		Tooltip:
+			'''
+			The old Goddess of the Jungle had been rogue for quite a while by the
+			time the Powers that Be decided to host a contest to see who would replace
+			her as the world's guardian. The candidates were picked among powerful 
+			Mutated beings. An entire forest, a Lihzahrd engineer, and even the Duke
+			of the Pigrons, the world's strongest being, fell to the cunning and knowledge
+			of the Human champion.
+			'''
+	}
+
+	Pinky: {
+		DisplayName: ピンキー
+		Tooltip:
+			'''
+			When a world guardian was finally decided in the Human champion,
+			most of the more powerful spirits were locked up, consumed by the
+			champion's power. He did miss one, however. Because he couldn't see it.
+			'''
+	}
+
+	Corruption: {
+		DisplayName: コラプション
+		Tooltip:
+			'''
+			The various alchemy stations around the dungeon had a purpose beyond
+			making potions. The head of the Dungeon Cult had thousands of his own men
+			worked to the bone to create a single seed which he would use to claim this world
+			for his Master, and if he couldn't have it, he would eat it.
+			'''
+	}
+
+	Crimson: {
+		DisplayName: クリムゾン
+		Tooltip:
+			'''
+			The great Lord of All Space has annihilated many planets, driving great pillars
+			from their soil and using them to generate an unlimited number of elite soldiers.
+			However, of his five most prized pillars, the one driven from the symbiotic 
+			Red World had proven the most effective in weakening the population of a victim
+			world. The pillar would burrow into the planet, seeping its deadly legion into
+			the very ichor of the world, leaving all in its wake a bloody trail of Crimson.
+			'''
+	}
+
+	Skeletron: {
+		DisplayName: スケルトロン
+		Tooltip:
+			'''
+			The first signs that Plantera was mad were subtle, though upon the creation
+			of a curse so powerful it manifested in physical form, the Powers that Be
+			knew that she was no longer fit to rule as the world's guardian. After
+			a new guardian was 'elected' through 'democratic means,' the mutated
+			Jungle plant created one last curse, on the prized artifacts of all the
+			world's treasures. Unable to open them, the Dungeon Cult decided to
+			hoard the locked chests away, awaiting the death of the disgruntled
+			guardian to regain their true power.
+			'''
+	}
+
+	Cthulu: {
+		DisplayName: クトゥルフ
+		Tooltip:
+			'''
+			The Daybreaker. The Phantasm. The Nebula Blaze.
+			The Dragon of the Stars. The Blood Butcher. The Moon Lord.
+			This individual had been given many, many titles by
+			the worlds that knew him as God.
+			'''
+	}
+
+	KingSlime: {
+		DisplayName: スライムの戯言
+		Tooltip:
+			'''
+			While it would seem that these single-celled organisms
+			lack any intelligence, their ancient feud with the Dutchman Crew
+			ended with an ultimate victory for the Slimes. How did it happen?
+			Well it all started when a ninja hired by one of the Pirate 
+			Captains was absorbed by a powerful slime baron, which he used
+			to claim ultimate power among the slimes of the surface. This
+			Slime started a complex system of color-based feudalism which
+			left out the various crystal and illuminated castes, until
+			their own leader struck up a deal with the Hallow, a powerful
+			sentient forest. The Hallow recieved the power of crystals, and
+			the newly born Queen Slime received a core which propelled her
+			power above the combined might of the Pirate Army. So why is 
+			this story about King Slime? Well, history is written by the
+			victors, and after that stupid pink blob got sealed away,
+			the cool and intelligent and badass and awesome King Slime
+			dealt the final blow to the Pirates and cursed all of their
+			Captains. The End. 
+
+			PS. If one of the Queen's slimes is reading this, at least 
+			we can all agree the toxic sludges suck.
+			'''
+	}
+
+	Mutation: {
+		DisplayName: ミューテーション
+		Tooltip:
+			'''
+			Some creatures in this world were born with incredible power.
+			From Goblins able to weild shadowflames, to humans capable
+			of absorbing hell's power, to plants powerful enough to 
+			be considered gods, one stands above the rest. Duke Fishron.
+			The second most powerful being in the planet, first if
+			you don't count using the magic of an entire forest to be 
+			one's own power.
+			'''
+	}
+
+	EyeOfCthulu: {
+		DisplayName: クトゥルフの目
+		Tooltip:
+			'''
+			There were once four wise sages. The sage of War,
+			of Fire, of Lasers, and of Magic. Powerful by human 
+			standards, these three were strong enough to stand up to the
+			Crimson Pillar when it first descended. Something
+			had to be done, and so the Lord of the Cosmos temporarily
+			flashed the power of the Solar Pillar, scorching them
+			until only one eye from each was left. Waste not,
+			want not, and so he infused some of his power
+			into the eyeballs, causing them to swell up immensely.
+			And of the Sage of Magic? He sold out and now
+			heads a cult.
+			'''
+	}
+
+	Mimic: {
+		DisplayName: ミミック
+		Tooltip:
+			'''
+			The Mechanic had many tasks from the Dungeon Cult
+			while she was captive there, one of which being
+			a new security system to guard their loot. Unfortunately
+			the Paladin, the right-hand of the Cult, had his
+			nose chomped off by his own personal stash and the 
+			prototypes were dumped into the caverns.
+			'''
+	}
+
+	Plantera: {
+		DisplayName: プランテラ
+		Tooltip:
+			'''
+			The Mad Goddess. Her actions had caused the need
+			for a new world guardian, and many rose up to
+			the challenge. Duke Fishron, while powerful,
+			lacked discipline, only surfacing to gorge
+			himself on truffle worms. The Hallow was too 
+			ambiguous to follow. The human, well, there
+			was little respect for humans back then. But
+			the Lihzahrd engineer was a true threat to
+			her position, and right before she was sealed,
+			Plantera stole the key to his monastery, locking
+			him inside with his Golems, where he would
+			die with nothing.
+			'''
+	}
+
+	BloodMoon: {
+		DisplayName: ブラッドムーン
+		Tooltip:
+			'''
+			The symbiotic Planet Crimson was destroyed,
+			rather easily, by the Lord of Moons, but the
+			planet itself impressed him, so in addition
+			to extracting a pillar from it's soil, he
+			kept its moon to use as a weapon when invading
+			new worlds.
+			'''
+	}
+
+	PlanetNeptune: {
+		DisplayName: 惑星ネプチューン
+		Tooltip:
+			'''
+			Neptune's main denizens were far, far weaker
+			than the soldiers of the Moon Collector's army,
+			so he didn't even bother to make a pillar, destroying
+			the planet with ease. On the other hand, the moon of the world
+			was home to a queen and her army, powerful enough for him to
+			keep the moon for himself. As for Neptune, the 
+			blast was so powerful that chunks of the world 
+			rocketed as far as Earth, freezing wherever they touched. 
+			The locals gave them the name Isor, after the first one
+			described the rocks as an 'eyesore.'
+			'''
+	}
+
+	PlanetSamhain: {
+		DisplayName: 惑星サウィン
+		Tooltip:
+			'''
+			The Moon Lord's name is known far and wide around
+			the universe, though few know how he got the name.
+			During his first invasion, of a world named 
+			Planet Samhain, long before he had the capability
+			to create pillars, he destroyed the planet. Later,
+			he discovered that the planet's king had taken
+			refuge on the world's moon. Not wanting to waste 
+			more time, the Moon Lord made a deal with the rebel
+			king. The Moon Lord would add the moon to his army,
+			a battle vessel more powerful than any in existence.
+			In exchange, the Pumking would be granted the permission
+			to go wild and do whatever he wanted, but only on
+			one specific rotation of whatever planet they were seiging.
+			'''
+	}
+
+	Mars: {
+		DisplayName: 地球への手紙
+		Tooltip:
+			'''
+			He has destroyed our planet. It is now us or you,
+			and we cannot coexist. Our clentaminators will
+			scorch your planet of all it is worth and I will
+			enjoy every minute of it. Because you were harboring
+			his right hand man, that lunatic cultist. It doesn't 
+			matter where he hides, he won't survive when we
+			turn this planet into New Mars.
+			'''
+	}
+
+	SageOfFire: {
+		DisplayName: 火の賢者
+		Tooltip:
+			'''
+			The eye of the Sage of Fire, swelled to immense
+			proportions, and then altered by a mechanic
+			under duress. The Dungeon Cult's leader,
+			receiving orders from the Cosmic King himself,
+			decided to torture the Sage in death, loading
+			his eye with flames so powerful even he
+			couldn't resist them.
+			'''
+	}
+
+	SageOfLasers: {
+		DisplayName: レーザーの賢者
+		Tooltip:
+			'''
+			The Sage of Lasers may have been destroyed
+			by the God of the Stars, but he was secretly
+			training a pupil, an individual known as
+			Eyezor. Then the Dungeon Cult's leader found
+			him and killed him anyway. 
+			'''
+	}
+
+	QueenBee: {
+		DisplayName: クイーンビー
+		Tooltip:
+			'''
+			The jungle was inhabited by two factions
+			of insects: the Bees and the Moths. They both
+			had their allies, in the hornets and butterflies,
+			but the Bees won through sheer numbers. While
+			the Moths were more powerful, they could not
+			build anything and they could not control territory.
+			One fateful night, under a solar eclipse, the
+			Queen Bee drove the moths out into the dark,
+			where they confused the sun for some kind of
+			divine light, flying into space, never to
+			be seen again. Or so they say.
+			'''
+	}
+
+	Tim: {
+		DisplayName: ティム
+		Tooltip:
+			'''
+			The Dungeon Cult has had many infamous
+			members, but none were more infamous than
+			Tim. He was the one to kidnap the Mechanic,
+			teach the cult about Water Magic, and
+			recruit the Paladin. One day, after
+			making a joke about the Paladin's lack
+			of a nose, the Paladin killed him.
+			The leader of the Cult did not tolerate
+			this, and instantly rended off all of
+			the Paladin's skin, forcing him to wear 
+			armor for the rest of his life. Tim
+			eventually was brought back to life,
+			but has decided to go his own way.
+			'''
+	}
+
+	Paladin: {
+		DisplayName: パラディン
+		Tooltip:
+			'''
+			The Paladin is among the strongest
+			humans to ever be born. While most
+			gain power through their equipment,
+			he was born this strong. When Tim discovered
+			this specimen, the Dungeon Cult's leader
+			gladly made him the Cult's third-in-command.
+			Apart from the leader, he is the only
+			living member of the Dungeon Cult, though
+			none of them can truly be considered alive.
+			'''
+	}
+
+	Pirates: {
+		DisplayName: 海賊
+		Tooltip:
+			'''
+			The Pirate Armadas have sailed the seas
+			as far as records can show. They backed
+			the Human champion in his bid for the title
+			of guardian of the world, and in turn
+			the champion sealed away the monstrous sea Duke
+			that had been terrorizing them. Now that
+			the Duke is back, they have been moving
+			from island to island, stealing everything
+			they can get their hands on.
+			'''
+	}
+
+	DungeonCult: {
+		DisplayName: 地下の教団
+		Tooltip:
+			'''
+			The Dungeon Cult was formed by the
+			Sage of Magic in a deal with a cosmic being
+			known by many names. The Sage of Magic was the 
+			most powerful of the Sages, and with his
+			forbidden magic, he was able to infinitely
+			bring back the dead. The invasion of the 
+			Moon Lord was supposed to be a silent one,
+			but with his right hand gone, the four cosmic
+			armies have been alerted, and the pillars
+			of the conquered realms descend upon Earth.
+			Their Lord's interest has been peaked by
+			this planet, and it will make a good addition
+			to his collection of pillars.
+			'''
+	}
+
+	IceOrePickaxe: {
+		DisplayName: 氷鉱石のつるはし
+		Tooltip: 採掘効率低下
+	}
+
+	WandOfCoralFury: {
+		DisplayName: サンゴの激怒の杖
+		Tooltip: サンゴの針を放つ
+	}
+
+	MetamorphicStone: {
+		DisplayName: 変成岩
+		Tooltip: ""
+	}
+
+	Schiststomp: {
+		DisplayName: シストストンプ
+		Tooltip: 確率で発射物が変化: 片岩の石
+	}
+
+	SchistScraper: {
+		DisplayName: シストスクレーパー
+		Tooltip: ""
+	}
+
+	Schiststorm: {
+		DisplayName: シストストーム
+		Tooltip: 小石の雹を降らせる
+	}
+
+	Schistshow: {
+		DisplayName: シストショー
+		Tooltip: ""
+	}
+
+	SturdyArrow: {
+		DisplayName: 頑丈な矢
+		Tooltip: ""
+	}
+
+	Gelatin: {
+		DisplayName: ゼラチン
+		Tooltip: ""
+	}
+
+	BounceBasher: {
+		DisplayName: バウンスバッシャー
+		Tooltip: ""
+	}
+
+	GelpowerGun: {
+		DisplayName: ジェルパワーガン
+		Tooltip: ""
+	}
+
+	GelatinCartridge: {
+		DisplayName: ゼラチン弾
+		Tooltip: ""
+	}
+
+	InstantPush: {
+		DisplayName: インスタント・プッシュ
+		Tooltip: ゼラチンの波を放つ
+	}
+
+	JelloBelt: {
+		DisplayName: ジェロ・ベルト
+		Tooltip: 確率で発射物が変化: ゼラチンの塊
+	}
+
+	Elixir: {
+		DisplayName: エリクサー
+		Tooltip: ""
+	}
+
+	MortalKnifestick: {
+		DisplayName: モータル・ナイフスティック
+		Tooltip: ""
+	}
+
+	MarksmanArrow: {
+		DisplayName: マークスマンアロー
+		Tooltip: ""
+	}
+
+	MarksmanBow: {
+		DisplayName: マークスマンボウ
+		Tooltip: ""
+	}
+
+	ElixirSpewer: {
+		DisplayName: エリクサー噴出器
+		Tooltip: エリクサーのしずくを噴出
+	}
+
+	HandsOfThePhilosopher: {
+		DisplayName: 哲学者の手
+		Tooltip: 確率で発射物が変化: 哲学者ビーム
+	}
+
+	Egg: {
+		DisplayName: 卵
+		Tooltip: ""
+	}
+
+	WormbloodTumor: {
+		DisplayName: ワームブラッド腫瘍
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	WeasterWegg: {
+		DisplayName: ウィースター・ウェッグ
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	WormbloodBar: {
+		DisplayName: ワームブラッドインゴット
+		Tooltip: ""
+	}
+
+	WormCudgel: {
+		DisplayName: ワームカジェル
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	Eliminator: {
+		DisplayName: エリミネーター
+		Tooltip: ""
+	}
+
+	WormbloodBall: {
+		DisplayName: ワームブラッドボール
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	WormbloodArrow: {
+		DisplayName: ワームブラッドアロー
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	WormRoar: {
+		DisplayName: ワームの咆哮
+		Tooltip: 対象をワームブラッドに浸すワームの幻影を放つ
+	}
+
+	WayOfTheWorm: {
+		DisplayName: ワームの道
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	TrueSkill: {
+		DisplayName: 真の技量
+		Tooltip: 使いこなせる者に神懸かった力を授ける
+	}
+
+	CatsEyeGemstone: {
+		DisplayName: 猫目石の原石
+		Tooltip: ""
+	}
+
+	Rainbullet: {
+		DisplayName: レインバレット
+		Tooltip: ""
+	}
+
+	CubeManipulator: {
+		DisplayName: キューブマニピュレーター
+		Tooltip: 加速する猫目石のキューブを放つ
+	}
+
+	Revel: {
+		DisplayName: レヴェル
+		Tooltip: ""
+	}
+
+	AcceleratorArrow: {
+		DisplayName: アクセラレーターアロー
+		Tooltip: 時間経過で速度が上昇
+	}
+
+	Caterwaul: {
+		DisplayName: キャタワウル
+		Tooltip: ""
+	}
+
+	CatclawStyle: {
+		DisplayName: 猫爪流
+		Tooltip: ""
+	}
+
+	NitroCanister: {
+		DisplayName: ニトロ缶
+		Tooltip: ""
+	}
+
+	JetCrusher: {
+		DisplayName: ジェットクラッシャー
+		Tooltip: ""
+	}
+
+	Turbow: {
+		DisplayName: ターボウ
+		Tooltip: ""
+	}
+
+	ShockArrow: {
+		DisplayName: ショックアロー
+		Tooltip: ロケットのように爆発する
+	}
+
+	Gorejutsu: {
+		DisplayName: ゴア術
+		Tooltip: 確率で発射物が変化: 肉片
+	}
+
+	DogFighting: {
+		DisplayName: ドッグファイティング
+		Tooltip: 確率で発射物が変化: 犬のひっかき
+	}
+
+	PrimalClaws: {
+		DisplayName: 原初のツメ
+		Tooltip: 確率で発射物が変化: マンイーター・ストライク、犬のひっかき
+	}
+
+	Eyesore: {
+		DisplayName: アイソア
+		Tooltip:
+			'''
+			格闘ダメージが15%増加
+			移動速度が{0}%上昇
+			'''
+	}
+
+	StarBar: {
+		DisplayName: スターバー
+		Tooltip: ""
+	}
+
+	Starsweeper: {
+		DisplayName: スタースウィーパー
+		Tooltip: 敵にスターバーンを付与
+	}
+
+	FlaskOfWormblood: {
+		DisplayName: ワームブラッドのフラスコ
+		Tooltip: ""
+	}
+
+	Killstar: {
+		DisplayName: キルスター
+		Tooltip: 敵にスターバーンを付与
+	}
+
+	Lettuce: {
+		DisplayName: レタス
+		Tooltip: ""
+	}
+
+	LettuceSeeds: {
+		DisplayName: レタスの種
+		Tooltip: ""
+	}
+
+	Greenfist: {
+		DisplayName: グリーンフィスト
+		Tooltip: 確率で発射物が変化: グリーンスライス、グレート・グリーンスライス
+	}
+
+	HopeCrystal: {
+		DisplayName: ホープクリスタル
+		Tooltip:
+			'''
+			最大ライフが25%増加
+			ライフ再生量が半減
+			'''
+	}
+
+	Malachite: {
+		DisplayName: マラカイト
+		Tooltip: ""
+	}
+
+	MalachiteBar: {
+		DisplayName: マラカイトインゴット
+		Tooltip: ""
+	}
+
+	MalachiteRepeater: {
+		DisplayName: マラカイト・リピーター
+		Tooltip: ""
+	}
+
+	PoopKnife: {
+		DisplayName: 糞ナイフ
+		Tooltip: 「糞を切るように石も切り裂く」
+	}
+
+	BattleBowl: {
+		DisplayName: バトルボウル
+		Tooltip: べっとりした糞塊を放つ
+	}
+
+	MalachitePickaxe: {
+		DisplayName: マラカイトピッケル
+		Tooltip: ""
+	}
+
+	MalachiteClub: {
+		DisplayName: マラカイトクラブ
+		Tooltip: 敵にマラカイト中毒を付与
+	}
+
+	UnsafetyScissors: {
+		DisplayName: 危険ハサミ
+		Tooltip: 露出神経を引き起こす
+	}
+
+	TwoFolder: {
+		DisplayName: ツーフォルダー
+		Tooltip: 右クリック: より強力で素早い矢を放つ
+	}
+
+	MalachiteFrenzy: {
+		DisplayName: マラカイト・フレンジー
+		Tooltip:
+			'''
+			マラカイト中毒を与えるマラカイトの岩を放つ
+			右クリック: より大きな岩を放つ
+			'''
+	}
+
+	BalancedBlade: {
+		DisplayName: バランスドブレード
+		Tooltip:
+			'''
+			Inflicts enemies with Malachite Poisoning
+			右クリック: 重い振りを行う
+			'If this thing touches your Cells, they'd be Dead'
+			'''
+	}
+
+	Wormscale: {
+		DisplayName: ワームスケール
+		Tooltip: ""
+	}
+
+	WormrockWall: {
+		DisplayName: ワームロックの壁
+		Tooltip: ""
+	}
+
+	WormbloodSolution: {
+		DisplayName: ワームブラッド溶液
+		Tooltip: ""
+	}
+
+	WormscaleWall: {
+		DisplayName: ワームスケールの壁
+		Tooltip: ""
+	}
+
+	Oil: {
+		DisplayName: オイル
+		Tooltip: ""
+	}
+
+	WormMeat: {
+		DisplayName: ワームミート
+		Tooltip: ""
+	}
+
+	CuredWormMeat: {
+		DisplayName: 加工ワームミート
+		Tooltip: ""
+	}
+
+	Slaughterer: {
+		DisplayName: 屠殺者
+		Tooltip: ""
+	}
+
+	MysteryMeat: {
+		DisplayName: ミステリーミート
+		Tooltip: ""
+	}
+
+	FlayingKnife: {
+		DisplayName: 皮剥ぎナイフ
+		Tooltip: 右クリック: 溜めたナイフを投げ、より多くのダメージを与える
+	}
+
+	Shuriflake: {
+		DisplayName: シュリフレイク
+		Tooltip: ""
+	}
+
+	BloodCougher: {
+		DisplayName: 血吐き
+		Tooltip: ""
+	}
+
+	DeathBreath: {
+		DisplayName: 死の吐息
+		Tooltip: ""
+	}
+
+	Predator: {
+		DisplayName: プレデター
+		Tooltip: ""
+	}
+
+	NSpear: {
+		DisplayName: Nスピア
+		Tooltip: ""
+	}
+
+	DartsPlayerGlove: {
+		DisplayName: ダーツプレイヤーの手袋
+		Tooltip: ""
+	}
+
+	Wight: {
+		DisplayName: ワイト
+		Tooltip: ""
+	}
+
+	ScavHelmet: {
+		SetBonus: 攻撃速度が6%上昇
+		DisplayName: スカベンジャーのヘルメット
+		Tooltip: 攻撃速度が3%上昇
+	}
+
+	ScavGarments: {
+		DisplayName: スカベンジャーの衣
+		Tooltip: 攻撃速度が3%上昇
+	}
+
+	ScavLegwear: {
+		DisplayName: スカベンジャーの脚衣
+		Tooltip: 攻撃速度が3%上昇
+	}
+
+	Godshame: {
+		DisplayName: ゴッドシェイム
+		Tooltip: 「信仰は手段を選ばず広めよ」
+	}
+
+	BusinessShank: {
+		DisplayName: ビジネス・シャンク
+		Tooltip: 「ビジネスマンの骨で作られている」
+	}
+
+	Lacerator: {
+		DisplayName: レーサレーター
+		Tooltip: "'Throw me to the wolves and I'll come back with a cool sword'"
+	}
+
+	Kneecapper: {
+		DisplayName: ニーカッパー
+		Tooltip: "'With 250 joints in your body, can't you just spare 2?'"
+	}
+
+	Killsaber: {
+		DisplayName: キルセイバー
+		Tooltip: "'All edge and no lord'"
+	}
+
+	TypeP: {
+		DisplayName: タイプP
+		Tooltip: ""
+	}
+
+	TypeC: {
+		DisplayName: タイプC
+		Tooltip: ""
+	}
+
+	Oathbreaker: {
+		DisplayName: オースブレイカー
+		Tooltip: 「ほかに何もなくとも、売れる魂くらいはあるさ」
+	}
+
+	Otherbite: {
+		DisplayName: アザー・バイト
+		Tooltip: 対象をワームブラッドに浸す
+	}
+
+	Stalagmight: {
+		DisplayName: スタラグマイト
+		Tooltip: ""
+	}
+
+	MiddleFinger: {
+		DisplayName: ミドルフィンガー
+		Tooltip: ""
+	}
+
+	Clickaxe: {
+		DisplayName: クリックアックス
+		Tooltip: ""
+	}
+
+	SnowBlow: {
+		DisplayName: スノーブロウ
+		Tooltip: ""
+	}
+
+	EurichiumRing: {
+		DisplayName: ユーリキウムの指輪
+		Tooltip: ""
+	}
+
+	Dragonslayer: {
+		DisplayName: ドラゴンスレイヤー
+		Tooltip: ""
+	}
+
+	EurichiumDart: {
+		DisplayName: ユーリキウム・ダーツ
+		Tooltip: ""
+	}
+
+	FunnymanJacket: {
+		DisplayName: ファニーマン・ジャケット
+		Tooltip:
+			'''
+			近接攻撃速度が30%上昇
+			移動速度が25%上昇
+			'''
+	}
+
+	MysticCrate: {
+		DisplayName: ミスティック木箱
+		Tooltip: ""
+	}
+
+	Vigilante: {
+		DisplayName: ヴィジランテ
+		Tooltip: ""
+	}
+
+	SkySpitter: {
+		DisplayName: スカイスピッター
+		Tooltip: ""
+	}
+
+	AngelChip: {
+		DisplayName: エンジェルチップ
+		Tooltip: ""
+	}
+
+	AngelicBludgeon: {
+		DisplayName: エンジェリック・ブラッジオン
+		Tooltip: ""
+	}
+
+	Bellows: {
+		DisplayName: ふいご
+		Tooltip: ""
+	}
+
+	PocketBattery: {
+		Tooltip: 1 Battery
+		DisplayName: ポケットバッテリー
+	}
+
+	Taser: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: テイザー
+		Tooltip: ""
+	}
+
+	CopperBattery: {
+		DisplayName: 銅のバッテリー
+		Tooltip: 1 Battery
+	}
+
+	TinBattery: {
+		DisplayName: スズのバッテリー
+		Tooltip: 1 Battery
+	}
+
+	IronBattery: {
+		DisplayName: 鉄のバッテリー
+		Tooltip: 1 Battery
+	}
+
+	LeadBattery: {
+		DisplayName: 鉛のバッテリー
+		Tooltip: 1 Battery
+	}
+
+	SilverBattery: {
+		DisplayName: 銀のバッテリー
+		Tooltip: 1 Battery
+	}
+
+	TungstenBattery: {
+		DisplayName: タングステンのバッテリー
+		Tooltip: 1 Battery
+	}
+
+	GoldBattery: {
+		DisplayName: 金のバッテリー
+		Tooltip: ""
+	}
+
+	PlatinumBattery: {
+		DisplayName: プラチナのバッテリー
+		Tooltip: ""
+	}
+
+	WoodSpeargun: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 木のスピアガン
+		Tooltip: ""
+	}
+
+	Burner: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: バーナー
+		Tooltip: "'Flint and steel!'"
+	}
+
+	CopperRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 銅のリパルサー
+		Tooltip: "'I am... Copper Man!'"
+	}
+
+	TinRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: スズのリパルサー
+		Tooltip: "'I am... Tin Man!'"
+	}
+
+	IronRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 鉄のリパルサー
+		Tooltip: "'I am... Iron Man!'"
+	}
+
+	LeadRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 鉛のリパルサー
+		Tooltip: "'I am... Lead Man!'"
+	}
+
+	GoldRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 金のリパルサー
+		Tooltip: "'I am... Gold Man!'"
+	}
+
+	PlatinumRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: プラチナのリパルサー
+		Tooltip: "'I am... Platinum Man!'"
+	}
+
+	SilverRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: 銀のリパルサー
+		Tooltip: ""
+	}
+
+	TungstenRepulsor: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: タングステンのリパルサー
+		Tooltip: ""
+	}
+
+	ToxicSprayer: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: トキシック・スプレイヤー
+		Tooltip: ""
+	}
+
+	Telenade: {
+		DisplayName: テレネード
+		Tooltip: ""
+		UsesXBattery: Uses {0} battery
+	}
+
+	BloodyBaller: {
+		UsesXBattery: Uses {0} battery
+		DisplayName: ブラッディ・ボーラー
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	IsorOre: {
+		MapEntry: アイソル鉱石
+	}
+
+	BlackRubble: {
+		MapEntry: 磁鉄鉱
+	}
+
+	AerstoneOre: {
+		MapEntry: エアストーン鉱石
+	}
+
+	VermilliumOre: {
+		MapEntry: 変成岩
+	}
+
+	Dustpetal: {
+		MapEntry: ダストペタル
+	}
+
+	OldOre: {
+		MapEntry: 古びた鉱石
+	}
+
+	PreciousPebble: {
+		MapEntry: 貴重な小石
+	}
+
+	Motherplate: {
+		MapEntry: マザープレート
+	}
+
+	BrassPlating: {
+		MapEntry: 真鍮メッキ
+	}
+
+	Gelatin: {
+		MapEntry: ゼラチン
+	}
+
+	Lettuce: {
+		MapEntry: レタス
+	}
+
+	Malachite: {
+		MapEntry: マラカイト
+	}
+
+	Wormscale: {
+		MapEntry: ワームスケール
+	}
+
+	WormMeat: {
+		MapEntry: ワームミート
+	}
+
+	CuredWormMeat: {
+		MapEntry: 加工ワームミート
+	}
+}
+
+WorldGen: {
+	IsorOrePassMessage: Mods.Lordnose.WorldGen.IsorOrePassMessage
+	BlessedWithIsorOreMessage: Mods.Lordnose.WorldGen.BlessedWithIsorOreMessage
+	BlackRubblePassMessage: Mods.Lordnose.WorldGen.BlackRubblePassMessage
+	BlessedWithBlackRubbleMessage: Mods.Lordnose.WorldGen.BlessedWithBlackRubbleMessage
+	AerstoneOrePassMessage: Mods.Lordnose.WorldGen.AerstoneOrePassMessage
+	BlessedWithAerstoneOreMessage: Mods.Lordnose.WorldGen.BlessedWithAerstoneOreMessage
+	VermilliumOrePassMessage: Mods.Lordnose.WorldGen.VermilliumOrePassMessage
+	BlessedWithVermilliumOreMessage: Mods.Lordnose.WorldGen.BlessedWithVermilliumOreMessage
+	SaltPassMessage: Mods.Lordnose.WorldGen.SaltPassMessage
+	BlessedWithSaltMessage: Mods.Lordnose.WorldGen.BlessedWithSaltMessage
+}
+
+Projectiles: {
+	IsorHopeknotProjectile: {
+		DisplayName: アイソルのホープノット
+	}
+
+	SuperheavyShotProjectile: {
+		DisplayName: 超重量弾
+	}
+
+	UberHeavyShotProjectile: {
+		DisplayName: 極重量弾
+	}
+
+	QlippothProjectile: {
+		DisplayName: クリフォト
+	}
+
+	BloodmoonChampionProjectile: {
+		DisplayName: ブラッドムーンの勇士
+	}
+
+	BlueSkewerProjectile: {
+		DisplayName: ブルー・スキュアー
+	}
+
+	EyebiteProjectile: {
+		DisplayName: アイバイト
+	}
+
+	GoldRushProjectile: {
+		DisplayName: ゴールドラッシュ
+	}
+
+	CometPelletProjectile: {
+		DisplayName: コメットペレット
+	}
+
+	LongshotProjectile: {
+		DisplayName: ロングショット
+	}
+
+	GlassPointProjectile: {
+		DisplayName: グラスポイント
+	}
+
+	WallmasterArrowProjectile: {
+		DisplayName: ウォールマスターアロー
+	}
+
+	SaltBallGunProjectile: {
+		DisplayName: 塩玉
+	}
+
+	SaltBallFallingProjectile: {
+		DisplayName: 塩玉
+	}
+
+	FutsorProjectile: {
+		DisplayName: フッツァー
+	}
+
+	StrikerProjectile: {
+		DisplayName: ストライカー・スラッシュ
+	}
+
+	PetalDusterProjectile: {
+		DisplayName: 鋭い花弁
+	}
+
+	IgnorerProjectile: {
+		DisplayName: イグノアラー
+	}
+
+	WarhawkFishboneProjectile: {
+		DisplayName: ウォーホークの魚骨
+	}
+
+	DiatomaceousRayProjectile: {
+		DisplayName: 珪藻
+	}
+
+	WaterJoltProjectile: {
+		DisplayName: ウォータージョルト
+	}
+
+	PhotoCartridgeProjectile: {
+		DisplayName: フォトカートリッジ
+	}
+
+	IswordProjectile: {
+		DisplayName: アイソード
+	}
+
+	IswordProjectileSpin: {
+		DisplayName: アイソード
+	}
+
+	ImpalementRodProjectile: {
+		DisplayName: マジックスピア
+	}
+
+	PreciousHookProjectile: {
+		DisplayName: 貴石のフック
+	}
+
+	FeathermageRodProjectile: {
+		DisplayName: 切り裂く羽
+	}
+
+	RoyalShankProjectile: {
+		DisplayName: ロイヤルシャンク
+	}
+
+	MartialProjectile: {
+		DisplayName: 拳
+	}
+
+	SunMartialProjectile: {
+		DisplayName: サンフィスト
+	}
+
+	SpearhandProjectile: {
+		DisplayName: スピアハンド
+	}
+
+	GooPugilismProjectile: {
+		DisplayName: 粘液の塊
+	}
+
+	SpiderFangFistProjectile: {
+		DisplayName: スパイダーファング
+	}
+
+	ManeaterStyleProjectile: {
+		DisplayName: マンイーター・ストライク
+	}
+
+	VultureCultureProjectile: {
+		DisplayName: 臓物
+	}
+
+	ForbiddenMintProjectile: {
+		DisplayName: 禁断のミント泡
+	}
+
+	ForbiddenOrangeProjectile: {
+		DisplayName: 禁断のオレンジ泡
+	}
+
+	KingmakerBlueProjectile: {
+		DisplayName: 青の剣
+	}
+
+	KingmakerGreenProjectile: {
+		DisplayName: 緑の剣
+	}
+
+	WandOfCoralFuryProjectile: {
+		DisplayName: コーラル・フューリー
+	}
+
+	SchiststompProjectile: {
+		DisplayName: 片岩の石
+	}
+
+	SchiststormProjectile: {
+		DisplayName: シストストーム
+	}
+
+	SturdyArrowProjectile: {
+		DisplayName: 頑丈な矢
+	}
+
+	GelatinCartridgeProjectile: {
+		DisplayName: ゼラチン弾
+	}
+
+	InstantPushProjectile: {
+		DisplayName: インスタント・プッシュ
+	}
+
+	JelloBeltProjectile: {
+		DisplayName: ゼラチンの塊
+	}
+
+	MortalKnifestickProjectile: {
+		DisplayName: モータル・ナイフスティック
+	}
+
+	MarksmanArrowProjectile: {
+		DisplayName: マークスマンアロー
+	}
+
+	ElixirSpewerProjectile: {
+		DisplayName: エリクサー飛沫
+	}
+
+	HandsOfThePhilosopherProjectile: {
+		DisplayName: 哲学者ビーム
+	}
+
+	EggProjectile: {
+		DisplayName: 卵
+	}
+
+	WeasterWeggProjectile: {
+		DisplayName: ウィースター・ウェッグ
+	}
+
+	WormCudgelProjectile: {
+		DisplayName: ワームカジェル
+	}
+
+	WormbloodBallProjectile: {
+		DisplayName: ワームブラッドボール
+	}
+
+	WormbloodArrowProjectile: {
+		DisplayName: ワームブラッドアロー
+	}
+
+	WormRoarProjectile: {
+		DisplayName: ワームの咆哮
+	}
+
+	WormMartialProjectile: {
+		DisplayName: ワームフィスト
+	}
+
+	RainbulletProjectile: {
+		DisplayName: レインバレット
+	}
+
+	CubeManipulatorProjectile: {
+		DisplayName: 猫目石のキューブ
+	}
+
+	RevelProjectile: {
+		DisplayName: レヴェル
+	}
+
+	AcceleratorArrowProjectile: {
+		DisplayName: アクセラレーターアロー
+	}
+
+	NitroCanisterProjectile: {
+		DisplayName: ニトロ缶
+	}
+
+	JetCrusherProjectile: {
+		DisplayName: ジェットクラッシャー
+	}
+
+	ShockArrowProjectile: {
+		DisplayName: ショックアロー
+	}
+
+	GorejutsuProjectile: {
+		DisplayName: 肉片
+	}
+
+	DogFightingProjectile: {
+		DisplayName: 犬のひっかき
+	}
+
+	StarsweeperProjectile: {
+		DisplayName: スタースウィーパー
+	}
+
+	KillstarProjectile: {
+		DisplayName: キルスター
+	}
+
+	GreenfistProjectile: {
+		DisplayName: グリーンスライス
+	}
+
+	GreenfistProjectileLarge: {
+		DisplayName: グレート・グリーンスライス
+	}
+
+	BattleBowlProjectile: {
+		DisplayName: べっとり糞
+	}
+
+	MalachiteFrenzyProjectile: {
+		DisplayName: マラカイトの小石
+	}
+
+	MalachiteFrenzyProjectileLarge: {
+		DisplayName: マラカイトの塊
+	}
+
+	WormbloodSolutionProjectile: {
+		DisplayName: ワームブラッド溶液
+	}
+
+	SlaughtererProjectile: {
+		DisplayName: 屠殺者
+	}
+
+	MysteryMeatProjectile: {
+		DisplayName: ミステリーミート
+	}
+
+	FlayingKnifeProjectile: {
+		DisplayName: 皮剥ぎナイフ
+	}
+
+	FlayingKnifeProjectileBlue: {
+		DisplayName: チャージド皮剥ぎナイフ
+	}
+
+	ShuriflakeProjectile: {
+		DisplayName: シュリフレイク
+	}
+
+	NSpearProjectile: {
+		DisplayName: Nスピア
+	}
+
+	BusinessShankProjectile: {
+		DisplayName: ビジネス・シャンク
+	}
+
+	EurichiumDartProjectile: {
+		DisplayName: ユーリキウム・ダーツ
+	}
+
+	AngelicBludgeonProjectile: {
+		DisplayName: エンジェリック・ブラッジオン
+	}
+
+	SpeargunProjectile: {
+		DisplayName: 飛び槍
+	}
+
+	TelenadeProjectile: {
+		DisplayName: テレネードの弾
+	}
+
+	ToxicSprayerProjectile: {
+		DisplayName: トキシック・スプレイヤーの弾
+	}
+
+	BloodyBallerProjectile: {
+		DisplayName: ブラッディ・ボーラーの弾
+	}
+}
+
+NPCs: {
+	FruitFly: {
+		DisplayName: フルーツフライ
+	}
+
+	AntlionFossil: {
+		DisplayName: アントリオン化石
+	}
+
+	TheLoneWobbler: {
+		DisplayName: 孤独なワブラー
+	}
+
+	WalkingWater: {
+		DisplayName: 歩く水
+	}
+
+	GoblinVeteran: {
+		DisplayName: ゴブリンの老兵
+	}
+
+	Warhawk: {
+		DisplayName: ウォーホーク
+	}
+
+	TungstenLord: {
+		DisplayName: タングステン卿
+	}
+
+	DarkMaster: {
+		DisplayName: 闇の師
+	}
+
+	ExoticHornet: {
+		DisplayName: エキゾチック・ホーネット
+	}
+
+	Cavernlost: {
+		DisplayName: 迷洞者
+	}
+
+	WormbloodCarrier: {
+		DisplayName: ワームブラッド・キャリア
+	}
+
+	CatsEye: {
+		DisplayName: 猫の目
+	}
+
+	Halo: {
+		DisplayName: 光輪
+	}
+
+	SentinelSpirit: {
+		DisplayName: センチネルの精霊
+	}
+
+	Wormslime: {
+		DisplayName: ワームスライム
+	}
+
+	Bloodfly: {
+		DisplayName: ブラッドフライ
+	}
+
+	CongealedSphere: {
+		DisplayName: 凝固した球体
+	}
+
+	ZeroBat: {
+		DisplayName: ゼロバット
+	}
+}
+
+Buffs: {
+	Infused: {
+		DisplayName: インフューズ
+		Description: 最大マナ+40
+	}
+
+	GreenedUp: {
+		DisplayName: グリーンドアップ
+		Description: 最大ライフ+40
+	}
+
+	FlavorGhostTown: {
+		DisplayName: フレーバー・ゴーストタウン
+		Description: 最大ライフ-100、最大マナ+100、ダメージ+35%
+	}
+
+	NoidRage: {
+		DisplayName: ノイド・レイジ
+		Description: 攻撃速度+25%
+	}
+
+	BallsOfGolf: {
+		DisplayName: ゴルフボールズ
+		Description: 防御力+6
+	}
+
+	Wormblood: {
+		DisplayName: ワームブラッド
+		Description: 古の疫病が血潮を巡る
+	}
+
+	Starburn: {
+		DisplayName: スターバーン
+		Description: 星の熱が肌で噴き上がる
+	}
+
+	MalachitePoisoning: {
+		DisplayName: マラカイト中毒
+		Description: Mods.Lordnose.Buffs.MalachitePoisoning.Description
+	}
+
+	ExposedNerve: {
+		DisplayName: 露出神経
+		Description: 痛い！
+	}
+}
+
+DamageClasses: {
+	Martial: {
+		DisplayName: 格闘ダメージ
+	}
+
+	Inventor: {
+		DisplayName: ガジェットダメージ
+	}
+}
+
+Prefixes: {
+	PainBringing: {
+		DisplayName: 痛みをもたらす
+	}
+
+	HomeRun: {
+		DisplayName: ホームラン
+	}
+
+	Undeniable: {
+		DisplayName: 否定できない
+	}
+
+	Deniable: {
+		DisplayName: 否定可能
+	}
+
+	Concussive: {
+		DisplayName: 震撼
+	}
+
+	Cruddy: {
+		DisplayName: 粗悪
+	}
+
+	Cruel: {
+		DisplayName: 冷酷
+	}
+
+	Grand: {
+		DisplayName: 偉大
+	}
+
+	Training: {
+		DisplayName: 訓練用
+	}
+
+	Lesser: {
+		DisplayName: 劣った
+	}
+
+	Slayer: {
+		DisplayName: スレイヤー
+	}
+
+	Sporting: {
+		DisplayName: スポーティ
+	}
+
+	Disastrous: {
+		DisplayName: 破滅的
+	}
+
+	Vorpal: {
+		DisplayName: ヴォーパル
+	}
+
+	Ergonomic: {
+		DisplayName: 人間工学
+	}
+}
+
+Biomes: {
+	Wormgrave: {
+		DisplayName: ワームグレイブ
+		TownNPCDialogueName: ワームグレイブ
+	}
+}
+
+UI: {
+	Battery: バッテリー
+}
+

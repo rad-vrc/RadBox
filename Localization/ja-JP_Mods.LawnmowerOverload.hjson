@@ -1,0 +1,1517 @@
+Configs: {
+	TRAERetextureConfig: {
+		Resprites: {
+			Tooltip: "Modによって引き起こされる強制的なリスプライトをオフにする。\nこれは、それらに行われた変更を元に戻すものではない。"
+			Label: "リスプライト"
+		}
+
+		Headers: {
+			TextureSwaps: "テクスチャスワップヘッダー"
+		}
+
+		DisplayName: "TRAEリテクスチャ設定"
+	}
+
+	BossConfig: {
+		CultistChanges: {
+			Tooltip: ""
+			Label: "カルティストの変更"
+		}
+
+		FishronChanges: {
+			Tooltip: ""
+			Label: "フィッシュロンの変更"
+		}
+
+		PlanteraTentacle: {
+			Tooltip: "プランテラの触手のHP減少を1000から300に戻す"
+			Label: "プランテラの触手"
+		}
+
+		PlanteraRework: {
+			Tooltip: "非常にバグが多く、未完成。"
+			Label: "実験的なプランテラリワーク"
+		}
+
+		DestroyerRework: {
+			Tooltip: ""
+			Label: "デストロイヤーリワーク"
+		}
+
+		PrimeRework: {
+			Tooltip: ""
+			Label: "プライムリワーク"
+		}
+
+		TwinsRework: {
+			Tooltip: ""
+			Label: "ツインズリワーク"
+		}
+
+		DeerclopsChanges: {
+			Tooltip: ""
+			Label: "ディアクロップスの変更"
+		}
+
+		SkeletronChanges: {
+			Tooltip: ""
+			Label: "スケルトロンの変更"
+		}
+
+		QBChanges: {
+			Tooltip: ""
+			Label: "QBの変更"
+		}
+
+		EoWChanges: {
+			Tooltip: ""
+			Label: "EoWの変更"
+		}
+
+		BoCChanges: {
+			Tooltip: ""
+			Label: "BoCの変更"
+		}
+
+		EOCChanges: {
+			Tooltip: ""
+			Label: "EoCの変更"
+		}
+
+		Headers: {
+			BossChanges: "ボス変更ヘッダー"
+		}
+
+		DisplayName: "ボス設定"
+	}
+
+	TRAEConfig: {
+		FurtherImprovedMovement: {
+			Tooltip: "プレイヤーの加速と減速を2倍にする。\nTRAEはこの設定を有効にした状態でバランス調整されていない。"
+			Label: "基本加速の改善"
+		}
+
+		Resprites: {
+			Tooltip: "強制的なスプライトの変更を無効にする。\nこれは、アイテムに行われた変更を元に戻すものではない。"
+			Label: "リスプライト"
+		}
+
+		Headers: {
+			GameMechanics: "ゲームメカニクスヘッダー"
+		}
+
+		DefenseRework: {
+			Tooltip: "防御リワークと関連する全てのアイテム変更を無効にする。\n他のModとの互換性を向上させることを目的としているが、TRAEの変更と追加はリワークを念頭に置いて設計されている。"
+			Label: "防御リワーク"
+		}
+
+		TerrasparkLineRework: {
+			Tooltip: "テラスパークブーツ系統のリワークを元に戻すには無効にする。\nTRAEはこの設定を有効にした状態で設計されている。"
+			Label: "テラスパーク系統リワーク"
+		}
+
+		MobilityRework: {
+			Tooltip: "機動力リワークと関連する全てのアイテム変更を無効にする。\nTRAEの変更と追加はリワークを念頭に置いて設計されているため、他のModとの互換性を向上させることを目的としている。"
+			Label: "機動力リワーク"
+		}
+
+		ManaRework: {
+			Tooltip: "マナリワークと関連する全てのアイテム変更を無効にする。\nTRAEの変更と追加はリワークを念頭に置いて設計されているため、他のModとの互換性を向上させることを目的としている。"
+			Label: "マナリワーク"
+		}
+
+		DisplayName: "一般設定"
+	}
+
+	LawnmowerConfig: {
+		DisplayName: "芝刈り機設定"
+
+		Headers: {
+			Items: "アイテム"
+		}
+
+		RemoveFancyEffects: {
+			Label: "派手なエフェクトを削除"
+			Tooltip: "ラグを引き起こす可能性のある、一部の視覚的な芝刈り機エフェクトを変更/削除する\nこの影響を受ける武器には[c/969696:'派手なエフェクトを使用']というツールチップが付く"
+		}
+
+		OreRemovalService: {
+			Label: "鉱石ドロップ停止サービス"
+			Tooltip: "鉱石芝刈り機がヒット時にそれぞれの鉱石をドロップするのを停止させる"
+		}
+	}
+}
+
+Tiles: {
+	SalalavaBannerPlaced: {
+		MapEntry: "サララヴァのバナー"
+	}
+
+	PhoenixBannerPlaced: {
+		MapEntry: "フェニックスのバナー"
+	}
+
+	OniRoninBannerPlaced: {
+		MapEntry: "鬼浪人のバナー"
+	}
+
+	ObsidianBasiliskBannerPlaced: {
+		MapEntry: "黒曜石のバジリスクのバナー"
+	}
+
+	MagmanderBannerPlaced: {
+		MapEntry: "マグマンダーのバナー"
+	}
+
+	LavamanderBannerPlaced: {
+		MapEntry: "ラヴァマンダーのバナー"
+	}
+
+	GraniteOvergrowthBannerPlaced: {
+		MapEntry: "グラナイトオーバーグロウスのバナー"
+	}
+
+	FroggabombaBannerPlaced: {
+		MapEntry: "フロッガボンバのバナー"
+	}
+
+	BoomxieBannerPlaced: {
+		MapEntry: "ブームクシーのバナー"
+	}
+
+	BomberBonesBannerPlaced: {
+		MapEntry: "ボンバーボーンズのバナー"
+	}
+}
+
+NPCs: {
+	Kinnara: {
+		DisplayName: "キンナラ"
+	}
+
+	GriffinWalker: {
+		DisplayName: "グリフィンウォーカー"
+	}
+
+	GriffinFlier: {
+		DisplayName: "グリフィンフライヤー"
+	}
+
+	Gargoyle: {
+		DisplayName: "ガーゴイル"
+	}
+
+	EchoStalker: {
+		DisplayName: "エコストーカー"
+	}
+
+	EchoSprite: {
+		DisplayName: "エコスプライト"
+	}
+
+	EchoLocator: {
+		DisplayName: "エコロケーター"
+	}
+
+	EchoLeviathanTail: {
+		DisplayName: "エコ・リヴァイアサンの尾"
+	}
+
+	EchoLeviathanHead: {
+		DisplayName: "エコ・リヴァイアサンの頭"
+	}
+
+	EchoLeviathanBody3: {
+		DisplayName: "エコ・リヴァイアサンの体3"
+	}
+
+	EchoLeviathanBody2: {
+		DisplayName: "エコ・リヴァイアサンの体2"
+	}
+
+	EchoLeviathanBody1: {
+		DisplayName: "エコ・リヴァイアサンの体1"
+	}
+
+	PrimeLauncher: {
+		DisplayName: "プライムランチャー"
+	}
+
+	PrimeMace: {
+		DisplayName: "プライムメイス"
+	}
+
+	PrimeRail: {
+		DisplayName: "プライムレール"
+	}
+
+	GraniteOvergrowthNPC: {
+		DisplayName: "グラナイトオーバーグロウス"
+	}
+
+	BomberBonesNPC: {
+		DisplayName: "ボンバーボーンズ"
+	}
+
+	SalalavaNPC: {
+		DisplayName: "サララヴァ"
+	}
+
+	Lavalarva: {
+		DisplayName: "マグマンダー"
+	}
+
+	LavaBubble: {
+		DisplayName: "溶岩の泡"
+	}
+
+	PhoenixNPC: {
+		DisplayName: "不死のフェニックス"
+	}
+
+	PhoenixAsh: {
+		DisplayName: "フェニックスの灰"
+	}
+
+	OniRoninNPC: {
+		DisplayName: "鬼浪人"
+	}
+
+	ObsidianBasiliskTail: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	ObsidianBasiliskHead: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	ObsidianBasiliskBody: {
+		DisplayName: "黒曜石のバジリスク"
+	}
+
+	LavamanderNPC: {
+		DisplayName: "ラヴァマンダー"
+	}
+
+	FroggabombaClone: {
+		DisplayName: "フロッガボンバのコピー"
+	}
+
+	Froggabomba: {
+		DisplayName: "フロッガボンバ"
+	}
+
+	LittleBoomxie: {
+		DisplayName: "ブームダスト"
+	}
+
+	Boomxie: {
+		DisplayName: "ブームピクシー"
+	}
+
+	BeholderNPC: {
+		DisplayName: "ビホルダー"
+	}
+
+	GraniteOvergrowth: {
+		DisplayName: "グラナイトオーバーグロウス"
+	}
+
+	GraniteCore: {
+		DisplayName: "グラナイトコア"
+	}
+
+	BomberBones: {
+		DisplayName: "ボンバーボーンズ"
+	}
+}
+
+Items: {
+	CloudChasers: {
+		Tooltip: "移動速度が20%増加\n3段ジャンプが可能\n砂の上での移動速度が20%増加\nロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化"
+		DisplayName: "クラウドチェイサー"
+	}
+
+	FroststrideBoots: {
+		DisplayName: "フロストストライドブーツ"
+		Tooltip: "移動速度が20%増加\n地面でダブルタップすることでスケートが可能\n2段ジャンプが可能\n2段ジャンプを使用して強力な空中ダッシュが可能"
+	}
+
+	HeartcrossNecklace: {
+		DisplayName: "セイクリッドネックレス"
+		Tooltip: "ダメージを受けたときに移動速度が増加する\nダメージを受けた後の無敵時間が増加する"
+	}
+
+	HeartOfGold: {
+		DisplayName: "ハートオブゴールド"
+		Tooltip: "ダメージを受けたときにハチを放ち、ハチミツを浴びて移動速度が増加する\nハニカムを重ねて効率とライフ回復を向上させる\nダメージを受けた後の無敵時間が増加する"
+	}
+
+	FlashRay: {
+		DisplayName: "フラッシュレイ"
+		Tooltip: "敵をスタンさせる光線を放つ"
+	}
+
+	MagicGrenade: {
+		Tooltip: "短時間放置すると、確定クリティカルとより大きな爆発を起こす"
+		DisplayName: "マジックグレネード"
+	}
+
+	ConfuseRay: {
+		Tooltip: "敵を混乱させる光線を放つ"
+		DisplayName: "コンフューズレイ"
+	}
+
+	ManaSurgePotion: {
+		DisplayName: "マナサージポーション"
+		Tooltip: "4秒間、マナ消費を100%削減する"
+	}
+
+	StarfuryTempleTestItem: {
+		DisplayName: "スターフューリーテンプルテストアイテム"
+		Tooltip: ""
+	}
+
+	MagicBundle: {
+		Tooltip: "3段ジャンプが可能になり、最初のジャンプで短時間の無敵を得る\nジャンプ速度と落下耐性が大幅に増加する\nオートジャンプと重力軽減が可能"
+		DisplayName: "マジックバンドル"
+	}
+
+	AlligatorBalloonItem: {
+		Tooltip: "2段ジャンプが可能\nジャンプ速度と落下耐性が大幅に増加する\nオートジャンプが可能"
+		DisplayName: "クロコバルーン"
+	}
+
+	SalalavaBanner: {
+		Tooltip: "近くのプレイヤーはサララヴァに対してボーナスを得る"
+		DisplayName: "サララヴァのバナー"
+	}
+
+	PhoenixBanner: {
+		Tooltip: "近くのプレイヤーは不死のフェニックスに対してボーナスを得る"
+		DisplayName: "不死のフェニックスのバナー"
+	}
+
+	OniRoninBanner: {
+		Tooltip: "近くのプレイヤーは鬼浪人に対してボーナスを得る"
+		DisplayName: "鬼浪人のバナー"
+	}
+
+	ObsidianBasiliskBanner: {
+		Tooltip: "近くのプレイヤーは黒曜石のバジリスクに対してボーナスを得る"
+		DisplayName: "黒曜石のバジリスクのバナー"
+	}
+
+	MagmanderBanner: {
+		Tooltip: "近くのプレイヤーはマグマンダーに対してボーナスを得る"
+		DisplayName: "マグマンダーのバナー"
+	}
+
+	LavamanderBanner: {
+		Tooltip: "近くのプレイヤーはラヴァマンダーに対してボーナスを得る"
+		DisplayName: "ラヴァマンダーのバナー"
+	}
+
+	GraniteOvergrowthBanner: {
+		Tooltip: "近くのプレイヤーはグラナイトオーバーグロウスに対してボーナスを得る"
+		DisplayName: "グラナイトオーバーグロウスのバナー"
+	}
+
+	FroggabombaBanner: {
+		Tooltip: "近くのプレイヤーはフロッガボンバに対してボーナスを得る"
+		DisplayName: "フロッガボンバのバナー"
+	}
+
+	BoomxieBanner: {
+		Tooltip: "近くのプレイヤーはブームピクシーに対してボーナスを得る"
+		DisplayName: "ブームピクシーのバナー"
+	}
+
+	BomberBonesBanner: {
+		Tooltip: "近くのプレイヤーはボンバーボーンズに対してボーナスを得る"
+		DisplayName: "ボンバーボーンズのバナー"
+	}
+
+	WillOfTheWisp: {
+		Tooltip: "スマートに跳ねる火の玉を撃つ"
+		DisplayName: "ウィルオウィスプ"
+	}
+
+	SuperRose: {
+		Tooltip: "マナをチャージして定期的に追尾する花びらを召喚する"
+		DisplayName: "呪われた花"
+	}
+
+	TailWhip: {
+		Tooltip: "召喚物が攻撃された敵を狙う\n11の召喚タグダメージ\nヒット時に防御力を16ポイント減少させる"
+		DisplayName: "テイルウィップ"
+	}
+
+	Starflow: {
+		Tooltip: "召喚物が攻撃された敵を狙う\n22の召喚タグダメージ\n攻撃中にスターフローインベーダーを召喚する"
+		DisplayName: "スターダストトレイル"
+	}
+
+	SpikedWhip: {
+		Tooltip: "召喚物が攻撃された敵を狙う\n5の召喚タグダメージ\n召喚タグのクリティカルヒットチャンスが8%増加\nほとんどのムチより複数のターゲットに対して優れた性能を発揮する"
+		DisplayName: "スパイクウィップ"
+	}
+
+	YoungQueenBeeStaff: {
+		Tooltip: "敵にハチを撃つハチのセントリーを召喚する"
+		DisplayName: "若い女王蜂の杖"
+	}
+
+	GraniteShockerStaff: {
+		Tooltip: "連鎖する稲妻を放つショッカーセントリーを召喚する"
+		DisplayName: "グラナイトショッカースタッフ"
+	}
+
+	BoomfrogStaff: {
+		Tooltip: "カミカゼフロッグをスポーンさせる親ブームフロッグセントリーを召喚する"
+		DisplayName: "ブームフロッグスタッフ"
+	}
+
+	AbsoluteZero: {
+		Tooltip: "召喚物が攻撃された敵を狙う\n12の召喚タグダメージ\n召喚物によって攻撃された敵から凍てつくエネルギーがほとばしり、3倍のダメージを与える"
+		DisplayName: "アブソリュートゼロ"
+	}
+
+	SharpLament: {
+		Tooltip: "燃える木を撃つ"
+		DisplayName: "シャープティアーズ"
+	}
+
+	OnyxCurseDoll: {
+		Tooltip: "3つの火の玉を召喚して周りを旋回させる\n近くの敵を呪い、継続ダメージを与え、ダメージか防御力を低下させる\n右クリックで解除"
+		DisplayName: "オニキスカーズドール"
+	}
+
+	NebulaMaelstrom: {
+		Tooltip: "敵に粒子の嵐を解き放つ\n右クリックで解除"
+		DisplayName: "ネビュラメイルストロム"
+	}
+
+	TitaniumBazooka: {
+		Tooltip: "一度に2～3発のロケットを発射する"
+		DisplayName: "チタニウムバズーカ"
+	}
+
+	AdamantiteLauncher: {
+		Tooltip: "ロケットを発射する"
+		DisplayName: "アダマンタイトランチャー"
+	}
+
+	SkullCannon: {
+		Tooltip: "ロケットを発射する"
+		DisplayName: "スカルキャノン"
+	}
+
+	H410WFLASH: {
+		Tooltip: "「Fairy Launching Assault Shoulder weapon」\nカーソルを追従する爆発性のピクシーロケットを発射する"
+		DisplayName: "HA-110W FLASH"
+	}
+
+	CryoCannon: {
+		Tooltip: "凍結ロケットを発射する"
+		DisplayName: "クライオキャノン"
+	}
+
+	Jungla: {
+		Tooltip: "一度に3本のダーツを発射する"
+		DisplayName: "ジャングラ"
+	}
+
+	HeadHarvester: {
+		Tooltip: ""
+		DisplayName: "ヘッドハーベスター"
+	}
+
+	GraniteBook: {
+		Tooltip: "周囲に電気のリングを召喚する"
+		DisplayName: "エレクトロシールド"
+	}
+
+	DoubleHaxor: {
+		Tooltip: "追尾する斧と強力なハンマー"
+		DisplayName: "ダブルハクサー"
+	}
+
+	BAM: {
+		Tooltip: "「Bombardment Assault Multitool」\nジェル、ロケット、ダーツを発射する"
+		DisplayName: "B.A.M."
+	}
+
+	SolarArrow: {
+		Tooltip: "5%の確率で大幅に増加したダメージを与える"
+		DisplayName: "サンアロー"
+	}
+
+	ShroomiteBullet: {
+		Tooltip: "クリティカルヒットは25%多くのダメージを与える"
+		DisplayName: "シュルームライトバレット"
+	}
+
+	LuminiteRocket: {
+		Tooltip: "巨大な爆発\n複数回爆発する"
+		DisplayName: "ルミナイトロケット"
+	}
+
+	GhostDart: {
+		Tooltip: "タイルや敵を貫通する\nターゲットに近づくと6つに分裂する"
+		DisplayName: "ゴーストダーツ"
+	}
+
+	GhostBullet: {
+		Tooltip: "タイルや敵を貫通する\n敵の内部に最大9発のゴーストバレットを残し、倒されるとそれらを解放する"
+		DisplayName: "ゴーストバレット"
+	}
+
+	ChargedBullet: {
+		Tooltip: "ヒットした敵の間を飛び跳ねる"
+		DisplayName: "チャージドバレット"
+	}
+
+	ChargedArrow: {
+		Tooltip: "ヒットした敵の周りにダメージを与えるリングを生成する\n最大5回までスタックし、範囲が広がる"
+		DisplayName: "チャージドアロー"
+	}
+
+	BoneBullet: {
+		Tooltip: "確率で骨に分裂する"
+		DisplayName: "ボーンバレット"
+	}
+
+	BloodyArrow: {
+		Tooltip: "軌跡に血の滴を残す"
+		DisplayName: "ブラッディアロー"
+	}
+
+	BeetleDart: {
+		Tooltip: "33%の確率で敵をスタンさせ、3倍のダメージを与える"
+		DisplayName: "ビートルダーツ"
+	}
+
+	BeetleArrow: {
+		Tooltip: "25%の確率でスタンさせ、ダメージを与える衝撃波を生成する"
+		DisplayName: "ビートルアロー"
+	}
+
+	TeleportationVial: {
+		Tooltip: "マウスの位置にテレポートする"
+		DisplayName: "テレポートの小瓶"
+	}
+
+	SweetElixir: {
+		Tooltip: "45秒間ハチミツ効果を付与する"
+		DisplayName: "スイートエリクサー"
+	}
+
+	PowerBrew: {
+		Tooltip: "飲んだ後、20秒間ダメージを30%増加させる"
+		DisplayName: "パワーブリュー"
+	}
+
+	SpeedWish: {
+		Tooltip: "移動速度を恒久的に15%増加させる\n「どんな願いも1つだけ叶えてやろう…それが移動速度15%アップである限りはな」"
+		DisplayName: "スピードの願い"
+	}
+
+	HeatproofSaddle: {
+		Tooltip: "騎乗可能なラヴァウォーカーマウントを召喚する"
+		DisplayName: "耐熱サドル"
+	}
+
+	SalamanderTail: {
+		Tooltip: "まだ動いている…"
+		DisplayName: "サラマンダーの尾"
+	}
+
+	ObsidianScale: {
+		Tooltip: "非常に硬くて割れにくい"
+		DisplayName: "黒曜石の鱗"
+	}
+
+	MagicalAsh: {
+		Tooltip: "これらからフェニックスが生まれないことを願おう"
+		DisplayName: "魔法の灰"
+	}
+
+	LuminiteFeather: {
+		Tooltip: "究極の翼を作るために使用する"
+		DisplayName: "ルミナイトフェザー"
+	}
+
+	IceQueenJewel: {
+		Tooltip: "氷の女王の力を保持している"
+		DisplayName: "グレイシャルダイヤモンド"
+	}
+
+	GraniteBattery: {
+		Tooltip: "見た目以上の力を保持している"
+		DisplayName: "グラナイトバッテリー"
+	}
+
+	DriedRose: {
+		Tooltip: "少し魔法が残っている"
+		DisplayName: "ドライローズ"
+	}
+
+	SolarGel: {
+		Tooltip: "集中したフレアを発射する"
+		DisplayName: "クレメータージェル"
+	}
+
+	LavaGel: {
+		Tooltip: "本物の火が何かを知るために火をつけろ！"
+		DisplayName: "ラヴァジェル"
+	}
+
+	IchorGel: {
+		Tooltip: "非常に揮発性が高い"
+		DisplayName: "イカージェル"
+	}
+
+	FrozenGel: {
+		Tooltip: "最も冷たい炎を作り出す"
+		DisplayName: "グレイシャルジェル"
+	}
+
+	CursedGel: {
+		Tooltip: "炎がターゲットを追い求める"
+		DisplayName: "カースドジェル"
+	}
+
+	CrystalGel: {
+		Tooltip: "3つの炎に分裂し、25の防御を無視する"
+		DisplayName: "クリスタルジェル"
+	}
+
+	BloodyGel: {
+		Tooltip: "内側から敵を破壊する"
+		DisplayName: "ブラッディジェル"
+	}
+
+	BlessedGel: {
+		Tooltip: "ターゲットに跳ねる熱湯"
+		DisplayName: "ウォータージェル"
+	}
+
+	ShellSpinner: {
+		Tooltip: "スピンして勝て！"
+		DisplayName: "シェルスピナー"
+	}
+
+	RedPearl: {
+		Tooltip: "敵の出現率と運を増加させる"
+		DisplayName: "レッドパール"
+	}
+
+	DreadTrophy: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラストロフィー"
+	}
+
+	DreadSummon: {
+		Tooltip: "強力なブラッドムーンのモンスターを捕まえるために使用する"
+		DisplayName: "ブラッディシーワスプ"
+	}
+
+	DreadnautilusRelic: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラスレリック"
+	}
+
+	DreadMask: {
+		Tooltip: ""
+		DisplayName: "ドレッドノーチラスマスク"
+	}
+
+	Brimstone: {
+		Tooltip: "ブラッドレーザーの弾幕"
+		DisplayName: "ブリムストーン"
+	}
+
+	BottomlessChumBucket: {
+		Tooltip: "水に最大3回投げて釣りのパワーを増加させる\nこれが失敗するはずがない！"
+		DisplayName: "底なしのチャムバケツ"
+	}
+
+	DreadBag: {
+		Tooltip: "<right>で開く"
+		DisplayName: "トレジャーバッグ"
+	}
+
+	BloodWings: {
+		Tooltip: "飛行と落下速度低下が可能\nダメージを受けると飛行がブーストされる"
+		DisplayName: "ブラッドフィンウィング"
+	}
+
+	BloodSquidEgg: {
+		Tooltip: "ベビーブラッドスクイッドを召喚する"
+		DisplayName: "ブラッドスクイッドの卵"
+	}
+
+	BloodBoiler: {
+		Tooltip: "「血が沸騰する」に新たな意味を与える"
+		DisplayName: "ブラッドボイラー"
+	}
+
+	WandOfDisintegration: {
+		Tooltip: "進路上のすべてを崩壊させる\n自己責任で使用すること"
+		DisplayName: "崩壊の杖"
+	}
+
+	ScrollOfWipeout: {
+		Tooltip: "近くの全ての敵に大ダメージを与える"
+		DisplayName: "ワイプアウトの巻物"
+	}
+
+	RingOfTenacity: {
+		Tooltip: "最大ライフが22%増加\n合計ダメージが6%減少"
+		DisplayName: "粘り強さの指輪"
+	}
+
+	RingOfMight: {
+		Tooltip: "最大ライフが11%増加\n合計ダメージが6%増加"
+		DisplayName: "力の指輪"
+	}
+
+	RingOfFuror: {
+		Tooltip: "合計ダメージが12%増加\n最大ライフが11%減少"
+		DisplayName: "激怒の指輪"
+	}
+
+	MasterEmblem: {
+		Tooltip: "近接攻撃速度が12%増加\n遠距離クリティカルヒットダメージが12%増加\nマナ回復速度が12%増加\n最大ミニオン数が1増加"
+		DisplayName: "マスターエンブレム"
+	}
+
+	GreaterRestorationPotion: {
+		Tooltip: ""
+		DisplayName: "グレートリストレーションポーション"
+	}
+
+	EvilLookingEye: {
+		Tooltip: "ベビービホルダーを召喚する"
+		DisplayName: "邪悪な見た目の卵"
+	}
+
+	BeholderTrophyItem: {
+		Tooltip: ""
+		DisplayName: "ビホルダートロフィー"
+	}
+
+	BeholderRelicItem: {
+		Tooltip: ""
+		DisplayName: "ビホルダーレリック"
+	}
+
+	BeholderMask: {
+		Tooltip: ""
+		DisplayName: "ビホルダーマスク"
+	}
+
+	BeholderBag: {
+		Tooltip: "<right>で開く"
+		DisplayName: "トレジャーバッグ"
+	}
+
+	UnderworldWarriorHelmet: {
+		Tooltip: "ダメージが15%増加\nマナ消費が25%減少"
+		DisplayName: "アンダーワールドウォリアーヘルメット"
+	}
+
+	UnderworldWarriorGreaves: {
+		Tooltip: "クリティカルヒットチャンスが15%増加\n近接攻撃速度が25%増加"
+		DisplayName: "アンダーワールドウォリアーグリーヴ"
+	}
+
+	UnderworldWarriorChestplate: {
+		Tooltip: "ダメージが15%増加\n遠距離攻撃の速度が25%増加"
+		DisplayName: "アンダーワールドウォリアーチェストプレート"
+	}
+
+	AshRoninRobes: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "アッシュローニンローブ"
+	}
+
+	AshRoninPants: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n移動速度が11%増加"
+		DisplayName: "アッシュローニンパンツ"
+	}
+
+	AshRoninHat: {
+		Tooltip: "魔法と召喚ダメージが11%増加\n魔法クリティカルヒットチャンスが7%増加\n最大マナが80増加"
+		DisplayName: "アッシュローニンマスク"
+	}
+
+	ReptilianMask: {
+		Tooltip: "近接と召喚ダメージが11%増加\n近接クリティカルヒットチャンスが7%増加\nムチの範囲が15%増加"
+		DisplayName: "レプティリアンマスク"
+	}
+
+	ReptilianGreaves: {
+		Tooltip: "近接と召喚ダメージが11%増加\n移動速度が11%増加"
+		DisplayName: "レプティリアントレッド"
+	}
+
+	ReptilianBulwark: {
+		Tooltip: "近接と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "レプティリアンブルワーク"
+	}
+
+	PhoenixTunic: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n最大ミニオン数が1増加"
+		DisplayName: "フェニックスチュニック"
+	}
+
+	PhoenixLeggings: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n移動速度が11%増加"
+		DisplayName: "フェニックスレギンス"
+	}
+
+	PhoenixHeadgear: {
+		Tooltip: "遠距離と召喚ダメージが11%増加\n遠距離クリティカルヒットチャンスが7%増加\nジャンプ速度が10%増加"
+		DisplayName: "フェニックスヘッドギア"
+	}
+
+	LeatherTunic: {
+		Tooltip: "ムチの速度が10%増加"
+		DisplayName: "レザーチュニック"
+	}
+
+	LeatherPants: {
+		Tooltip: "召喚ダメージが3%増加"
+		DisplayName: "レザーパンツ"
+	}
+
+	LeatherHat: {
+		Tooltip: "召喚ダメージが3%増加"
+		DisplayName: "レザーフード"
+	}
+
+	JoterTrident: {
+		Tooltip: "ジョータイート"
+		DisplayName: "ジョータートライデント"
+	}
+
+	JoterMask: {
+		Tooltip: "開発者を装う忌まわしき者どもを装うのに最適！"
+		DisplayName: "ジョーターマスク"
+	}
+
+	FinalBoss: {
+		Tooltip: "！るすなにすらでをるすなうそみわまあおるすなうそみわまあお"
+		DisplayName: "ファイナルボス"
+	}
+
+	IceMajestyLeggings: {
+		Tooltip: "召喚ダメージとムチの速度が10%増加\n移動速度が20%増加"
+		DisplayName: "グレイシャルレギンス"
+	}
+
+	IceMajestyCrown: {
+		Tooltip: "最大ミニオン数が1増加\nムチの速度が20%増加"
+		DisplayName: "グレイシャルクラウン"
+	}
+
+	IceMajestyBreastplate: {
+		Tooltip: "召喚ダメージが15%増加\nムチの範囲が30%増加"
+		DisplayName: "グレイシャルブレストプレート"
+	}
+
+	ChlorophyteHood: {
+		Tooltip: "最大ミニオン数が2増加"
+		DisplayName: "クロロファイトフード"
+	}
+
+	BundleOfWeirdBalloons: {
+		Tooltip: "3段ジャンプが可能\nジャンプの高さが増加\nダメージを受けるとハチを放ち、ハチミツを浴びる\nハニカムを重ねて効率とライフ回復を向上させる"
+		DisplayName: "奇妙な風船の束"
+	}
+
+	TwoFlowers: {
+		Tooltip: "魔法クリティカルヒットのダメージが10%増加\nマナ消費が12%減少"
+		DisplayName: "ミスティックブーケ"
+	}
+
+	TheBlackCross: {
+		Tooltip: "ダメージを受けた後の無敵時間が増加する\n攻撃を回避するチャンスを得る"
+		DisplayName: "ブラッククロス"
+	}
+
+	SpaceBalloonItem: {
+		Tooltip: "ジャンプの高さが増加\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "スペースバルーン"
+	}
+
+	SoaringCarpet: {
+		Tooltip: "舞い上がる絨毯を付与し、上キーを押し続けることで使用\n絨毯でホバリングすると移動速度が30%増加\n加速度が増加\n落下ダメージを無効化"
+		DisplayName: "舞い上がる絨毯"
+	}
+
+	SkeletonBeetle: {
+		Tooltip: "最大ミニオン数とセントリー数が1増加\n召喚物のノックバックが増加"
+		DisplayName: "トライバルビートル"
+	}
+
+	ShamanNecklace: {
+		Tooltip: "最大ミニオン数が1増加\n召喚ダメージが12%増加"
+		DisplayName: "シャーマンネックレス"
+	}
+
+	ShadowflameCharmItem: {
+		Tooltip: "ミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\nムチ攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "シャドウフレイムチャーム"
+	}
+
+	ShadowClaws: {
+		Tooltip: "近接攻撃速度が12%増加し、全ての近接武器とムチがオートスイングになる\nミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\nムチ攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "シャドウクロー"
+	}
+
+	SandstormBoots: {
+		Tooltip: "移動速度が20%増加\n改善された2段ジャンプが可能\n砂の上での移動速度が20%増加"
+		DisplayName: "サンドストームブーツ"
+	}
+
+	RuneCobra: {
+		Tooltip: "ミニオンのクリティカルヒットチャンスが13%増加\n近接攻撃速度が12%増加し、全ての近接武器とムチがオートスイングになる\nミニオンのダメージはシャドウフレイムエネルギーとして最大3000まで蓄積される\nムチ攻撃は蓄積されたダメージ750ごとに味方のシャドウフレイムの幻影をスポーンさせる"
+		DisplayName: "ルーンコブラ"
+	}
+
+	PutridToothNecklace: {
+		Tooltip: "装甲貫通が5増加\nダメージとクリティカルヒットチャンスが4%増加\n敵に狙われにくくなる"
+		DisplayName: "ボーンバイターネックレス"
+	}
+
+	PalladiumShield: {
+		Tooltip: "最大ライフが50増加"
+		DisplayName: "パラジウムシールド"
+	}
+
+	Moonwalkers: {
+		Tooltip: "ジャンプの高さを増加させ、落下ダメージを防ぎ、長時間の飛行を可能にする\n下キーを押して速く落下する\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "ムーンウォーカー"
+	}
+
+	MirrorShield: {
+		Tooltip: "最大ライフが50増加\n発射物はダメージ10ごとに1%少ないダメージを与える\n最大25%のダメージ軽減\n軽減されたダメージは敵に反射される"
+		DisplayName: "ミラーシールド"
+	}
+
+	MechanicalEyeItem: {
+		Tooltip: "ロケットの直撃は1.1倍のダメージを与え、敵を1秒間スタンさせる"
+		DisplayName: "サイバーアイ"
+	}
+
+	EyeOfTheDestroyer: {
+		Tooltip: "遠距離クリティカルヒットチャンスが10%増加\nロケットの直撃は1.1倍のダメージを与え、敵を1秒間スタンさせる"
+		DisplayName: "デストロイヤーの目"
+	}
+
+	AlphaScope: {
+		Tooltip: "遠距離攻撃の速度を増加させ、銃の拡散を狭める\nロケット、弾丸、矢がスマートに跳ね返り、直撃で1.05倍のダメージを与える\n「覚悟しろ」"
+		DisplayName: "アルファスコープ"
+	}
+
+	MasochistChains: {
+		Tooltip: "ダメージを受けると一時的にダメージが20%増加し、移動速度が上昇する"
+		DisplayName: "マゾヒストチェーン"
+	}
+
+	MagicalCarpet: {
+		Tooltip: "飛行と落下速度低下が可能\n下キーを押し続けてホバリングすると移動速度が25%増加\n「君に世界を見せてあげよう…」"
+		DisplayName: "魔法の絨毯"
+	}
+
+	LifeCuffs: {
+		Tooltip: "ダメージを受けるとダメージが20%増加する"
+		DisplayName: "ライフカフス"
+	}
+
+	GravityTabi: {
+		Tooltip: "重力制御、高速落下、ダッシュが可能\n落下ダメージを防ぐ"
+		DisplayName: "グラビティ足袋"
+	}
+
+	LevitationJuice: {
+		Tooltip: "長時間持続する2段ジャンプを提供する"
+		DisplayName: "レビテーションジュース"
+	}
+
+	LevitatingSoles: {
+		Tooltip: "長時間持続する2段ジャンプを提供する\n移動速度が20%増加\nジャンプ速度が24%増加"
+		DisplayName: "レビテーティングソール"
+	}
+
+	JetBoots: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化\nロケットブーツ飛行を提供する\n全方向ブースターを提供する"
+		DisplayName: "ジェットブーツ"
+	}
+
+	FlightForecast: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化\n2段ジャンプを提供する"
+		DisplayName: "フライトフォーキャスト"
+	}
+
+	FantasyPack: {
+		Tooltip: "全方向ブースター、レビテーションジャンプ、フェイジャンプを提供する"
+		DisplayName: "ファンタジーパック"
+	}
+
+	FaeInABottle: {
+		Tooltip: "無敵フレームを付与する弱い2段ジャンプ"
+		DisplayName: "瓶詰めの妖精"
+	}
+
+	FaeInABalloon: {
+		Tooltip: "無敵フレームを付与する弱い2段ジャンプ\nジャンプの高さを増加\n上キーを押し続けることで重力を軽減できる"
+		DisplayName: "フェイバルーン"
+	}
+
+	Booster: {
+		Tooltip: "全方向ジェットパックを提供する\n「サンタが煙突をこんなに速く下りられるのはこのおかげさ」"
+		DisplayName: "クリスマスブースター"
+	}
+
+	AdvFlightSystem: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n落下ダメージを無効化"
+		DisplayName: "先進飛行システム"
+	}
+
+	AdvFlightBoots: {
+		Tooltip: "ロケットブーツと翼はジャンプではなく上キーで起動する\n飛行時間が40%増加\n拡張ロケットブーツ飛行を提供する\n落下ダメージを無効化"
+		DisplayName: "先進飛行ブーツ"
+	}
+
+	EvilEye: {
+		Tooltip: "ダメージを受けると術者と近くの敵に呪いを解き放つ\n発射物はダメージ10ごとに1%少ないダメージを与える\n最大25%のダメージ軽減\n軽減されたダメージは全ての呪いを付与する呪われたショットとして敵に反射される"
+		DisplayName: "邪眼"
+	}
+
+	DemonShield: {
+		Tooltip: "ライフが25%以上のとき、チームのプレイヤーが受けたダメージの25%を吸収する\nノックバックを無効にする\n近くの敵へのダメージが8%増加"
+		DisplayName: "デーモンシールド"
+	}
+
+	CounterweightString: {
+		Tooltip: "ヨーヨーの範囲を増加\nヨーヨーで敵にヒットした後、カウンターウェイトを投げる"
+		DisplayName: "カウンターウェイトストリング"
+	}
+
+	ChainShield: {
+		Tooltip: "最大ライフが50増加\nダメージを受けると一時的に防御力が増加"
+		DisplayName: "チェーンシールド"
+	}
+
+	BlizzardSkates: {
+		Tooltip: "地面でダブルタップすることでスケートが可能\n2段ジャンプが可能\n2段ジャンプを使用して強力な空中ダッシュが可能"
+		DisplayName: "ブリザードスケート"
+	}
+
+	BigBundle: {
+		Tooltip: "6段ジャンプが可能！\nジャンプの高さを増加させ、落下ダメージを防ぐ\n上キーを押し続けることで重力を軽減できる\nダメージを受けるとハチを放ち、ハチミツで覆われる\nハニカムを重ねて効率とライフ回復を向上させる"
+		DisplayName: "ビッグバンドル"
+	}
+
+	BalanceCuffs: {
+		Tooltip: "ダメージを受けるとダメージが20%増加\n最大マナが20増加\nダメージを受けるとマナを回復し、受けたダメージの10%を回復する"
+		DisplayName: "バランスカフス"
+	}
+
+	AngelicStone: {
+		Tooltip: "マナ回復速度が10%増加\n必要なときに自動的にマナポーションを使用する\nマナ酔いのクールダウンを50%減少させる"
+		DisplayName: "エンジェリックストーン"
+	}
+
+	AlligatorBalloon: {
+		Tooltip: "2段ジャンプが可能\nジャンプ速度と落下耐性が大幅に増加する\nオートジャンプが可能"
+		DisplayName: "クロコバルーン"
+	}
+
+	DamageClasses: {
+		LawnmowerDamageGeneric: {
+			DisplayName: "芝刈り機ダメージ"
+		}
+
+		LawnmowerDamageCelestial: {
+			DisplayName: "セレスティアル芝刈り機ダメージ"
+		}
+	}
+
+	CopperLawnmower: {
+		DisplayName: "銅の芝刈り機"
+		Tooltip: "芝刈り機オーバーロードの武器は芝を刈らない\n静止時または空中にいるとダメージとノックバックが-60%になる\n[c/969696:「旅が始まる」]\n-\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:マルチプレイヤーでは（まだ）機能しない]\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	FleshMower: {
+		DisplayName: "フレッシュモウワー"
+		Tooltip: "静止時または空中にいるとダメージが-70%、ノックバックが-50%になる\n[c/BE90E5:饗宴]\nダメージを与えると、ヒットごとに1～2ライフ回復する\nクリティカルヒットでは回復量が2倍になる\n[c/969696:「脳みそ…」]"
+	}
+
+	LawnmowerEmblemEngine: {
+		DisplayName: "芝刈り機エンジンエンブレム"
+		Tooltip: "シマーで変換可能\n芝刈り機ダメージとノックバックが15%増加"
+	}
+
+	LawnmowerEmblemWheel: {
+		DisplayName: "芝刈り機ホイールエンブレム"
+		Tooltip: "シマーで変換可能\n芝刈り機クリティカルチャンスが5%増加\n芝刈り機攻撃速度が15%増加"
+	}
+
+	LawnmowerEmblemAvenger: {
+		DisplayName: "芝刈り機エンブレム"
+		Tooltip: "芝刈り機クリティカルヒットチャンスが4%増加\n芝刈り機ダメージ、ノックバック、攻撃速度が10%増加"
+	}
+
+	WyvernLawnmower: {
+		DisplayName: "ワイバーン芝刈り機"
+		Tooltip: "敵の防御力を7ポイント無視する\n静止しているとダメージが-30%、ノックバックが-80%になる\n空中にいるとダメージが+70%になり、持っている間は無限に飛行できる\n[c/969696:「広告よりも著しく長い！」]"
+	}
+
+	TerraLawnmower: {
+		DisplayName: "テラ芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n[c/8CF10A:テラ]\nボスに対するダメージが+15%増加\n接触ヒットは非常に速くダメージを与え、ターゲットを溶かす\n[c/FE9E23:チャージング芝刈り機]\n前方にチャージングテラ芝刈り機の発射体を撃つ\n発射体はあなたから80タイル以上離れると方向と速度を反転させ、最大3回まで繰り返す\n発射体はヒットごとに10%ダメージが減少するが、反転するたびに全ダメージに戻る\nカーソルの位置が芝刈り機のショットの速度を決定する\n[c/969696:「本気か？これが壊れた英雄の剣の使い道か？」]"
+	}
+
+	GoblinLawnmower: {
+		DisplayName: "スパイクスピューワー"
+		Tooltip: "静止しているとダメージとノックバックが-20%になる\nヒット時に基本ダメージの60%を与えるスパイクボールを吐き出す\n[c/E9B688:ゴブリンの職人技]\nマイナスの修飾子が付かない\nユニークな操作性：移動方向に刈る"
+	}
+
+	EnchantedGoblinLawnmower: {
+		DisplayName: "エンチャントされたスパイクスピューワー"
+		Tooltip: "地面を移動中にノックバックが+40%増加\nヒット時に基本ダメージの80%を与えるエンチャントされたスパイクボールを降らせる\n[c/E9B688:ゴブリンの職人技]\nマイナスの修飾子が付かない\nユニークな操作性：移動方向に刈る\n-\n[c/F892F8:ゴブリンテレポート]\n<right>でカーソル位置に素早く3回テレポートする\nテレポートは80マナを消費し、「ゴブリンテレポート」デバフを付与する\nデバフ中に再度テレポートするとダメージを受ける\nテレポートによるダメージを受けると、敵を追いかけるシャドウマジックの群れを召喚する"
+	}
+
+	RustBucket: {
+		DisplayName: "ラストバケット"
+		Tooltip: "弾丸を弾薬として使用する\n地面にいて移動中のみ接触ダメージを与えることができる\n[c/E9B688:ブームスティック]\n使用時に50%のダメージを与える弾丸を前方に撃つ\n4発ごとに強化され、強力なショットガンバーストになる"
+	}
+
+	Juggernaught: {
+		DisplayName: "ジャガーノート"
+		Tooltip: "敵の防御力を3ポイント無視する\n持っている間、受けるダメージを12%減少させる\n静止時または空中にいるとダメージが-50%、ノックバックが-80%になる\n-\n[c/8686E5:鉄の岩]\n落下する岩に注意！\n岩は敵に250%、ボスに500%のダメージを与える\n近くに落ちた岩はあなたを跳ね上げ、「危機一髪」を付与する\n危機一髪：ダメージとクリティカルチャンスを増加させ、空中ペナルティを解除する\n-\n[c/92F892:価値ある挑戦者]\n「for the worthy」ワールドでは、落下する岩に追加のダメージと特性がある"
+	}
+
+	LawnmowerBook: {
+		DisplayName: "芝刈り機百科事典：第I巻"
+		Tooltip: "芝刈り機オーバーロードの全ての芝刈り機を収録\n第I巻：白、[c/8686E5:青]\n[c/92F892:インベントリで<right>を押して第II巻に切り替え]\n作業台で土ブロック[i:2]1個でクラフト\n芝刈り機[i:4049]\n-----\n銅/スズの芝刈り機\n鉄/鉛の芝刈り機\n銀/タングステンの芝刈り機\n金/プラチナの芝刈り機\nヴァルチャーマルチャー\nフレッシュモウワー\nスリッパリースロープ\n怪しげな芝刈り機\n[c/8686E5:ファンギ]\n[c/8686E5:ドロップアウト]\n[c/8686E5:シマーされた芝刈り機]\n[c/8686E5:ジャガーノート]\n[c/8686E5:マーベラス]\n[c/8686E5:ブラッドタックス]\n[c/8686E5:スパイクスピューワー]\n[c/8686E5:スティッキーシチュエーション]\n[c/8686E5:ライトペイン | ブレッドブッチャーラー]\n[c/8686E5:ミートグラインダー]\n[c/8686E5:イーターオブローン | 混乱した芝刈り機]\n[c/8686E5:クラッシュ＆バーン]\n[c/8686E5:テレスト]"
+	}
+
+	LawnmowerBookHardmode: {
+		DisplayName: "芝刈り機百科事典：第III巻"
+		Tooltip: "芝刈り機オーバーロードの全ての芝刈り機を収録\n第III巻：ハードモード、[c/f89292:薄赤、][c/F892F8:ピンク]\n[c/BE90E5:インベントリで<right>を押して第IV巻に切り替え]\n芝刈り機[i:4049]\n-----\n[c/f89292:ザ・スピードスター、ミスティック、タイタン]\n[c/f89292:スリークショット]\n[c/f89292:レイスの怒り]\n[c/f89292:ワイバーン芝刈り機]\n[c/f89292:憑依された芝刈り機]\n[c/f89292:アラクニド]\n[c/f89292:ルーンの遺跡]\n[c/f89292:ヴァーミンスプリーム]\n[c/f89292:古代の芸術]\n[c/F892F8:エンチャントされたスパイクスピューワー]\n[c/F892F8:ベルズ＆ホイッスルズ]\n[c/F892F8:ホットロッド]\n[c/F892F8:トゥルースシーカー]\n[c/F892F8:メカビーのバケツ]\n[c/F892F8:光の使者]\n[c/F892F8:夜の先駆者]"
+	}
+
+	MowerOfGrass: {
+		DisplayName: "草の芝刈り機"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-15%になる\n[c/92F892:グラスチャージ]\n芝刈り機で敵にヒットするとグラスチャージが+1され、草の刃を撃てるようになる\nグラスチャージは40で上限に達し、芝刈り機の宝石エンジンの輝度を増加させる\n20以上のチャージで「50%チャージ」バフ、40チャージで「フルチャージ」バフを付与する\n[c/E9B688:草の刃]\n刈り取り中に<right>を押すと、1チャージを消費して短距離の草の刃のバーストを撃つ\n草の刃は毒を付与し、グラスチャージのレベルごとに5%多くのダメージを与える\n[c/969696:「そうではない」]"
+	}
+
+	CubeEngine: {
+		DisplayName: "キューブエンジン"
+		Tooltip: "ボスに対するダメージが+15%増加\n持っている間、受けるダメージを5%減少させる\n[c/8686E5:運動量伝達]\n敵の防御力を5ポイント無視する\n持っている間、移動速度を大幅に増加させる\n速度が速いほど攻撃力が増加する\n[c/04C3F9:ファントムモウワー]\nヒット時に40%の確率でファントムモウワーをスポーン、ボスに対しては100%\nファントムモウワーはあなたの前後160タイルにスポーンし、\nヒット時に敵の上下にテッセラクトバレットを生成する\n[c/969696:「キューブは全てを知っている」]"
+	}
+
+	IllegalLawnmowerParts: {
+		DisplayName: "違法な芝刈り機パーツ"
+		Tooltip: "夜に武器商人、昼にゴルファーが販売する\n[c/969696:「なぜこれらが違法なのか？」]"
+	}
+
+	Eruption: {
+		DisplayName: "エラプション"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-35%になる\n敵との接触時に60%のダメージを与える爆発を生成する\n-\n[c/FE9E23:マグマベルチ]\n<right>で巨大な跳ねる火の玉を撃つ、マナ100を消費\n基本ダメージの130%を与え、マナ回復バフが有効な場合は100%\n設定された弧を描いて発射物を発射し、カーソルの位置に影響されない\n火の玉はヘルファイアを付与し、ダメージを与える炎を残す\n[c/969696:「それは火でできている！」]"
+	}
+
+	WheelUpgrade: {
+		DisplayName: "強化ホイール"
+		Tooltip: "芝刈り機を持っている間の移動速度を大幅に増加させる\n[c/f89292:テストアイテム入手不可]"
+	}
+
+	LightsPain: {
+		DisplayName: "ライトペイン"
+		Tooltip: "静止しているとダメージとノックバックが-40%になる\n非常に長い芝刈り機で、空中にいるとダメージが+10%増加\n[c/d780d7:二元性]\nシマーでブレッドブッチャーラーに変わる\nクトゥルフの脳とクリムゾンエネミーに対してボーナスダメージを与える\n[c/BE90E5:シュレッダー]\n敵の防御力を2ポイント無視する\nターゲットを素早く攻撃し、1回の使用で最大3回まで\n[c/969696:「バゲット！」]"
+	}
+
+	BreadButcherer: {
+		DisplayName: "ブレッドブッチャーラー"
+		Tooltip: "1回の使用でターゲットを2回攻撃できる\n空中にいるとダメージが-25%になり、静止している場合はペナルティなし\n非常に背の高い芝刈り機で、上方のターゲットに+33%のダメージを与える\n[c/d780d7:二元性]\nシマーでライトペインに変わる\nイーターオブワールドとコラプションエネミーに対してボーナスダメージを与える\n[c/f89292:ブラッドボーンカート]\nライフが25%未満のとき、ヒット時に50%の確率で回復する\nダメージ、ノックバック、輝きはライフの割合に基づき、\nライフが50%を超えるごとに芝刈り機は強くなるが、\n50%未満で失われたライフポイントごとに弱くなる\n[c/969696:「バゲット！」]"
+	}
+
+	BlightsEdge: {
+		DisplayName: "ブライトエッジ"
+		Tooltip: "静止時または空中にいるとダメージが-25%、ノックバックが-75%になる\n[c/BE90E5:オクラムの目]\n刈り取り中に<right>を押し続けると、致命的なレーザーを撃つ\nレーザーは1回の使用で最大3回まで撃ち、近くの敵を追いかける\nマナを急速に消費し、<right>を押している間はカミソリを撃てない\n[c/f89292:オクラムのカミソリ]\n3回目の使用ごとに、イコルを付与する跳ねるカミソリの刃を撃つ\n跳ねた後、カミソリは40%のダメージを失い、ターゲットを追いかけ、カースドインフェルノを付与する\n6回目のカミソリショットごとに、8枚のカミソリを周囲に均等に撃つ"
+	}
+
+	OreLawnmowerTin: {
+		DisplayName: "スズの芝刈り機"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-70%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerIron: {
+		DisplayName: "鉄の芝刈り機"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-65%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerLead: {
+		DisplayName: "鉛の芝刈り機"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-65%になる\nヒット時に毒を付与し、ダメージが高いほど持続時間が長くなる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerSilver: {
+		DisplayName: "銀の芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n静止時または空中にいるとダメージとノックバックが-50%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerTungsten: {
+		DisplayName: "タングステンの芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n静止時または空中にいるとダメージとノックバックが-50%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerGold: {
+		DisplayName: "金の芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n静止時または空中にいるとダメージとノックバックが-20%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	OreLawnmowerPlatinum: {
+		DisplayName: "プラチナの芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n静止しているとダメージが+30%、ノックバックが-30%になる\n[c/FE9E23:鉱石芝刈り機]\nこの武器で攻撃すると、低確率で鉱石をドロップする\nキルすると、1～4個の鉱石クラスターをドロップする確率が高くなる\nシマーは鉱石芝刈り機を前の鉱石ティアにダウングレードする\n[c/969696:<right>で鉱石ドロップ効果の削除/有効化を切り替える]"
+	}
+
+	GoblinLawnmowerParts: {
+		DisplayName: "サルスの盾"
+		Tooltip: "ポーション酔いを付与する\n回復する代わりに、このアイテムは防御ステータスを付与する\nステータスブーストはポーション酔いの持続時間中続く\n消耗品ではない"
+	}
+
+	MeteoriteLawnmower: {
+		DisplayName: "クラッシュ＆バーン"
+		Tooltip: "勢いをつけて攻撃力を増加させる\n芝刈り機の方向に前方に飛ばされる\nクリティカルヒットで少量のマナを得る\n-\n[c/FE9E23:メテオチャージ]\n使用中に<right>を押し続けるとメテオチャージが発動する\nダメージと飛行速度の両方を大幅に増加させる\nマナが必要で急速に消費するが、メテオセットを着用している場合は除く\nクリティカルヒットで得られるマナが2倍になる"
+	}
+
+	WheelWood: {
+		DisplayName: "木のホイール"
+		Tooltip: "芝刈り機を持っていると移動速度が15%増加する\n[c/969696:+3または+4の修飾子は付かない]"
+	}
+
+	WheelCactus: {
+		DisplayName: "カクタスホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき…]\n移動速度が10%増加\n[c/92F892:カクタスの棘]\nダメージを受けると6～12本のカクタススパイクを放つ\nスパイクは敵を貫通し、受けたダメージの33%に等しいダメージを与える"
+	}
+
+	PossessedLawnmower: {
+		DisplayName: "憑依された芝刈り機"
+		Tooltip: "シマーで変換可能\n[c/BE90E5:独自の意志]\n100タイル以内のターゲットを素早く追いかけ、シャドウフレイムを付与する\nシャドウフレイムで呪われた敵や最近ヒットした敵は追いかけない\n芝刈り機が急速に跳ね返って動けなくなった場合、大きな爆発を起こす\n範囲内に敵がいない場合、速度を落としてカーソル位置を追いかける\n[c/BE90E5:一緒に乗って]\n芝刈り機が敵/カーソルを追いかけるとき、あなたも一緒に連れて行く\nアクティブなとき、「憑依アーマー」を付与して受けるダメージを減少させる"
+	}
+
+	TheCreeper: {
+		DisplayName: "クリーパー"
+		Tooltip: "[c/E9B688:TNT]\nヒット時に広範囲にダメージを与える大規模な爆発を起こす\n[c/92F892:不気味]\n仕立て屋がクリーパーのバニティセットを販売する\n[c/969696:アーマースロット]にフルクリーパーセットを着用すると武器が変更される\n[c/969696:「あぁ、もう」]"
+	}
+
+	Telesto: {
+		DisplayName: "テレスト"
+		Tooltip: "マナ酔い中はダメージが減少する\n静止していると接触ダメージが-60%、ノックバックが減少する\n-\n[c/92F892:円環の理]\n円運動でレーザーを素早く撃ち、1回の使用で8本のレーザー\nメテオアーマーセットボーナスの「スペースガン」としてカウントされる\n[c/969696:「土星には146個の衛星があり、この芝刈り機もその一つだ」]"
+	}
+
+	Truthseeker: {
+		DisplayName: "トゥルースシーカー"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n[c/d780d7:二重らせん]\nボスに対するダメージが+15%増加\n前後に1つずつ、2つの聖なる芝刈り機を撃ち出す\nあなたの位置から前後に素早く往復し、広大な範囲を与える\n1回の使用で同じ敵に最大4回までヒットし、ヒットごとに7%ダメージが減少する"
+	}
+
+	Truthteller: {
+		DisplayName: "トゥルーステラー"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n[c/d780d7:四重らせん]\nボスに対するダメージが+15%増加\n四方に聖なる芝刈り機を撃ち出す\nあなたの位置から前後に素早く往復し、広大な範囲を与える\n1回の使用で同じ敵に最大8回までヒットし、ヒットごとに6%ダメージが減少する\n[c/d780d7:真の狙い]\n<right>を押し続けると、プレイヤーではなくカーソル位置から芝刈り機を発射する\n「真の狙い」は1回のキャストで32マナを消費し、マナ酔い中はダメージが減少する"
+	}
+
+	SPEffectPotion: {
+		DisplayName: "特殊効果ポーション"
+		Tooltip: "[c/f89292:非推奨アイテム]\nまだ使用できるが、Mod設定での切り替えが推奨される\n-\n非消耗品\nラグを引き起こす可能性のある一部の視覚的な芝刈り機エフェクトを変更/削除する\nこれによって影響を受ける武器には[c/969696:「派手なエフェクトを使用」]というツールチップが付く"
+	}
+
+	BlightsEdgeTrue: {
+		DisplayName: "真・ブライトエンジン"
+		Tooltip: "芝刈り機の接触ダメージは、ライフが低いほど増加する\n静止時または空中にいるとダメージが-25%、ノックバックが-75%になる\n[c/BE90E5:夜の目]\n近くに敵がいると、目が素早くレーザーを発射する\nレーザーは1回の使用で3回撃ち、24%のダメージを与え、敵を追いかける\n[c/f89292:オクラムのカミソリ]\n2回目の使用ごとに、四方から1つずつ、4つの跳ねるカミソリの刃を撃ち出す\nカミソリは基本ダメージの50%を与え、イコルを付与する\n跳ねた後は40%のダメージを失うが、追尾能力を得て、カースドインフェルノを付与する\n6回目のカミソリショットごとに、16枚のカミソリを周囲に均等に撃つ"
+	}
+
+	Hallelujah: {
+		DisplayName: "ハレルヤ"
+		Tooltip: "静止していると接触ダメージとノックバックが-40%になる\n[c/d780d7:天使の]\n空中にいると接触ダメージとノックバックが+20%増加\nヒット時に3秒間「ハレルヤ」を付与し、移動速度を25%増加させる\n「ハレルヤ」がアクティブな間、芝刈り機は空から町のNPCを降らせる\n「ハレルヤ」が現在アクティブでない場合、接触ヒットは2.5倍のダメージを与える\n[c/FE9E23:NPCの雨]\n「ハレルヤ」がアクティブな場合、使用時に1～2種類の異なるNPCを空から降らせる\nNPCはヒット時とバウンド時に、彼らのNPC武器に基づいて発射体を撃つ\n[c/969696:「男たちの雨が降る」]"
+	}
+
+	Starchild: {
+		DisplayName: "スターチャイルド"
+		Tooltip: "静止していると接触ダメージとノックバックが-60%になる\n[c/f9f909:スターチャイルド]\n芝刈り機の水平範囲が拡大\n空中にいると接触ダメージとノックバックが+20%増加\n2回目の使用ごとにカーソル位置の上から星を撃つ\n4回目の使用ごとにカーソル位置の後ろから星を撃つ\n[c/FE9E23:星月夜]\n<right>で両方の発射体を同時に発射、マナ16を消費\n<left>の接触ダメージで与えたダメージの0.5倍のマナを得る"
+	}
+
+	WheelStar: {
+		DisplayName: "スターリーホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき…]\n空中での移動速度が100%増加\n空中での芝刈り機接触ダメージが20%増加\nマナ消費を20%削減し、必要なときに自動的にマナポーションを使用する"
+	}
+
+	EnchantedLawnmower: {
+		DisplayName: "エンチャントされた芝刈り機"
+		Tooltip: "静止していると接触ダメージとノックバックが-20%になる\n[c/8686E5:分裂ビーム]\nエンチャントされた芝刈り機のビームを撃つ\nビームは0.75秒間持続してから消える\n消えるとビームは2つに分裂し、それぞれ60%のダメージを与える\n分裂したビームは0.75秒間直接上下に飛び、その後左右に飛ぶ\n[c/969696:商人が販売、月の満ち欠け：新月]"
+	}
+
+	SlimeFriend: {
+		DisplayName: "スライムフレンズ"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-60%になる\n[c/92F892:友達！]\n持っている間、全ての基本的なスライムタイプに対して無敵になる\n基本スライム：ピンキー、緑、青、紫、赤、黒、黄色のスライム\nこれらのスライムにダメージを与えることはできない—失礼だから\n[c/969696:「彼らは私を愛している :)」]"
+	}
+
+	WheelMeteorite: {
+		DisplayName: "メテオライトホイール"
+		Tooltip: "[c/969696:空中で芝刈り機を持っているとき…]\n移動速度が20%増加\n芝刈り機の接触ダメージが20%増加"
+	}
+
+	WheelMana: {
+		DisplayName: "マジックホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき]\nマナ消費を20%削減\n必要なときに自動的にマナポーションを使用する"
+	}
+
+	WheelHarpy: {
+		DisplayName: "ハーピーホイール"
+		Tooltip: "空中で芝刈り機を持っていると移動速度が80%増加する"
+	}
+
+	BubbleBath: {
+		DisplayName: "バブルバス"
+		Tooltip: "静止しているとダメージとノックバックが-60%になる\n[c/04C3F9:バブル！]\n使用時に75%のダメージを与える泡の軌跡を作り、爆発させる\n<right>で全ての泡を割り、短時間ダメージを与えられるようにする\n泡は割れる前に数フレーム、近くの敵を追いかける"
+	}
+
+	Mars: {
+		DisplayName: "アレス"
+		Tooltip: "空中にいるとダメージが-30%、ノックバックが-40%になる\n[c/E9B688:ゴーレム]\nボスに対して+33%のダメージを与える\n持っている間、受けるダメージを16%減少させる\n[c/FE9E23:恐怖と畏怖]\nフォボスとダイモスに周回され、接触時に70%のダメージを与える\nダメージを与えると、衛星の周回速度、半径、ダメージが増加する\n攻撃中は衛星が速く周回し、ダメージ効果は時間と共に減少する"
+	}
+
+	Starman: {
+		DisplayName: "スターマン"
+		Tooltip: "シマーで変換可能\n[c/04C3F9:セレスティアル]\n全てのダメージクラスの特殊効果を継承する\n芝刈り機以外の全てのクラスから統計的ブーストの50%を得る\n[c/f9f909:スターマン]\n芝刈り機の水平範囲が大幅に拡大\n空中にいると接触ダメージとノックバックが+30%増加\n使用するたびに2つの星を撃ち、垂直と水平を交互に切り替える\n[c/FE9E23:星月夜]\n<right>で両方の発射体を同時に発射、マナ16を消費\n<left>の接触ダメージで与えたダメージの0.5倍のマナを得る\n[c/969696:「空に芝刈り機が待っている」]"
+	}
+
+	Dissonance: {
+		DisplayName: "ディソナンス"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-20%になる\n[c/F892F8:不協和音]\n攻撃されたターゲットをカーソル位置にテレポートさせる\n効果は味方の町のNPCにも有効\n[c/F892F8:不和]\n<right>で敵の代わりに自分をカーソル位置にテレポートさせる\n7秒間「カオス状態」を付与し、デバフ中にテレポートするとダメージを受ける\n「カオス状態」がアクティブなとき、ダメージが+40%増加する"
+	}
+
+	Wastelander: {
+		DisplayName: "ウェイストランダー"
+		Tooltip: "静止しているとダメージとノックバックが-20%になる\n[c/969696:「この世界は何も育たない荒れ地…」]\n[c/F892F8:興奮しろ]\nこの武器でキルすると6秒間「興奮しろ」を付与、最大x3までスタック\nダメージを10/15/20%、攻撃速度を10/20/30%、移動速度を50/100/150%増加させる\n-\n[c/92F892:私の最高の敵]\nPvPで2倍のダメージとノックバックを与える\n近くのターゲットをランダムにマークして赤くし、クリティカルヒットはマークされたターゲットに400%のダメージを与える\n-\n[c/04C3F9:町を青く塗れ]\n4回目の使用ごとに55%のダメージを与えるグレネードを3つ投げる\nグレネードは1.5～4秒間持続し、ヒット時に「粉まみれ」を付与し、敵の防御力を33%減少させる\n-\n[c/BE90E5:ありえたかもしれない]\n接触ヒットでこの武器の「チャージ」が1増加、ボスに対するヒットは3倍のチャージを付与\nチャージが24に達すると<right>で武器モードを切り替え、「ありえたかもしれない」を発動\nアクティブな間、攻撃を2秒間押し続けて強力なブラストをチャージし、自分をノックバックさせて500%のダメージを与える"
+	}
+
+	WheelMolten: {
+		DisplayName: "ホットホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき…]\nダメージと移動速度を10%増加\n芝刈り機のダメージで敵を燃やす"
+	}
+
+	WheelIron: {
+		DisplayName: "鉄壁のホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき…]\n[c/92F892:受けるダメージを7%減少させる]\n[c/92F892:芝刈り機のノックバックを15%増加させる]\n[c/f89292:移動速度を20%減少させる]"
+	}
+
+	Frostpunk: {
+		DisplayName: "フロストパンク"
+		Tooltip: "静止していると接触とビームの両方が+40%のダメージを与える\n[c/04C3F9:氷のビーコン]\n芝刈り機の真上に氷のビームを撃つ\nフロストビームは基本ダメージの55%を素早く与えるが、ノックバックは与えない"
+	}
+
+	WheelHallowed: {
+		DisplayName: "聖なるホイール"
+		Tooltip: "[c/969696:芝刈り機を持っているとき…]\n移動速度を35%増加させ、移動中に光を生成する"
+	}
+
+	RainBoots: {
+		SetBonus: "[c/8686E5:レインダンス]\n+4防御力\n芝刈り機ダメージと移動速度を10%増加\n雨が降っているか、水中にいる場合、これらの効果は2倍になる"
+		DisplayName: "レインブーツ"
+		Tooltip: ""
+	}
+
+	TitaniumHat: {
+		DisplayName: "チタンの帽子"
+		Tooltip: "受けるダメージを11%減少\n芝刈り機ダメージとクリティカルヒットチャンスが11%増加"
+		SetBonus: "[c/04C3F9:チタンストーム]\n攻撃するとチタンの破片の防御バリアを生成する"
+	}
+
+	AdamantiteHat: {
+		DisplayName: "アダマンタイトの帽子"
+		Tooltip: "受けるダメージを10%減少\n芝刈り機攻撃速度とクリティカルヒットチャンスが10%増加"
+		SetBonus: "[c/f89292:ヘルメスの帽子]\n空中にいると移動速度が30%、芝刈り機ダメージが13%増加する"
+	}
+
+	HallowedCrown: {
+		DisplayName: "聖なるサークレット"
+		Tooltip: "受けるダメージを12%減少\n芝刈り機ダメージ、攻撃速度、クリティカルヒットチャンスが10%増加"
+		SetBonus: "敵に攻撃を当てた後、無敵になる"
+	}
+
+	ChlorophyteCrown: {
+		DisplayName: "クロロファイトクラウン"
+		Tooltip: "受けるダメージを10%減少\n芝刈り機ダメージが16%増加\n芝刈り機クリティカルヒットチャンスが6%増加\n[c/f89292:古代]\n「上」キーを押しながらインベントリで<right>クラウンをクリックすると、クリスタルバリアントを切り替える\nバニラのクロロファイトセットボーナスとカスタムの芝刈り機セットボーナスを切り替える"
+		SetBonus: "近くの敵に強力な芝刈り機クリスタルを発射する"
+	}
+
+	EnchantedSpikyBall: {
+		DisplayName: "エンチャントされたスパイキーボール"
+		Tooltip: "シャドウフレイムを付与する\n敵の防御力を3ポイント無視する\n<right>で使用するとボールがプラットフォームを無視する"
+	}
+
+	BeeLawnmower: {
+		DisplayName: "ハチのバケツ"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-10%になる\n[c/E9B688:群れ]\nヒット時に基本ダメージの60%を与えるキラービーを1～3匹召喚する\nハイブパックは、ハチが巨大になり、ボーナスダメージを与えるチャンスを追加する\n[c/BE90E5:混乱]\nヒット時に33%の確率でターゲットに2秒間混乱を付与する\n混乱したターゲットに対して+15%のダメージを与え、追加のハチをスポーンさせる"
+	}
+
+	NinthCircle: {
+		DisplayName: "第九圏"
+		Tooltip: "静止時または空中にいるとダメージとノックバックが-30%になる\n[c/FE9E23:第九圏]\n接触ダメージで攻撃された敵の周りにカボチャのリングを召喚する\nカボチャはターゲットを追いかけ、基本ダメージの133%を与える\n[c/e10643:狂気]\n防御力が21以下の場合、武器のダメージが+67%増加する\n[c/969696:不気味]"
+	}
+
+	Sentinel: {
+		DisplayName: "センチネル"
+		Tooltip: "[c/969696:シマーでカリプソに変わる]\n1回の使用で複数回ヒット可能\n空中にいるとダメージが+33%、ノックバックが-50%になる\n[c/04C3F9:アブダクター]\n芝刈り機の下から敵を吸い上げる重力ビームを撃つ\nアブダクタービームで持ち上げられた敵にヒットすると、彼らの速度がキャンセルされ、素早いヒットが可能になる\n<right>で芝刈り機を頭上に持ち、急速に上方に飛ぶ\n[c/969696:「ビームで上げてくれ」]"
+	}
+
+	PlantLawnmower: {
+		DisplayName: "プラントシュレッダー"
+		Tooltip: "接触ヒットは非常に速くダメージを与える\n静止時または空中にいるとダメージとノックバックが-15%になる\n[c/92F892:グラスチャージ]\n芝刈り機で敵にヒットするとグラスチャージが+0.5され、貫通する花びらの刃を撃てるようになる\nグラスチャージは40で上限に達し、芝刈り機の宝石エンジンの輝度を増加させる\n20以上のチャージで「50%チャージ」バフ、40チャージで「フルチャージ」バフを付与する\n[c/E9B688:貫通する花びら]\n刈り取り中に<right>を押すと、最も近い敵から花を咲かせ、2チャージを消費する\n花びらの刃は毒を付与し、グラスチャージのレベルごとに5%多くのダメージを与える\n[c/969696:「草であることは、植え替え可能な日だ」]"
+	}
+
+	LawnmowerShimmer: {
+		DisplayName: "シマーされた芝刈り機"
+		Tooltip: "[c/969696:「派手なエフェクトを使用」]\n敵の防御力を70ポイント無視する\n静止時または空中にいるとダメージとノックバックが+20%になる\n[c/92F892:上昇する芝刈り機]\n前方に上昇するシマーされた芝刈り機の発射体を撃つ\nヒットごとに15%ダメージが減少し、カーソルの位置が速度を決定する\n発射体は上方のターゲットに+40%のダメージを与える"
+	}
+
+	RustBucket2: {
+		DisplayName: "スリークショット"
+		Tooltip: "弾丸を弾薬として使用する\n地面にいて移動中のみ接触ダメージを与えることができる\n[c/E9B688:ショットガン]\n使用時に75%のダメージを与える弾丸を前方に撃つ\n2発ごとに強化され、強力なショットガンバーストになる"
+	}
+
+	KingSlimeLawnmower: {
+		DisplayName: "スティッキーシチュエーション"
+		Tooltip: "静止時または空中にいるとダメージが-25%になる\n[c/8686E5:強制移転]\n攻撃されたターゲットはこの芝刈り機に付着し、位置が固定される\n攻撃を停止するとターゲットを解放し、ノックバックに弱い場合は後方に投げる\n味方の町のNPCにも有効、ボスには無効\n[c/969696:このアイテムは壊れている]"
+	}
+
+	TheHivemind: {
+		DisplayName: "ハイブマインド"
+		Tooltip: "[c/04C3F9:セレスティアル]\n全てのダメージクラスの特殊効果を継承する\n芝刈り機以外の全てのクラスから統計的ブーストの50%を得る\n[c/d780d7:八重らせん]\n周囲に8つの星雲の芝刈り機を円状に撃ち出す\nあなたの位置から前後に素早く往復し、広大な範囲を与える\n1回の使用で同じ敵に最大16回までヒットし、ヒットごとに8%ダメージが減少する\n[c/FE9E23:集団的義務]\n<right>を押し続けると、プレイヤーではなくカーソル位置から芝刈り機を発射する\n「義務」は1回のキャストで40マナを消費し、マナ酔い中はダメージが減少する\n<left>での攻撃はヒット時にマナを与え、与えたダメージの5%に等しい"
+	}
+
+	PhantomLawnmower: {
+		DisplayName: "ファントムペイン"
+		Tooltip: "デバフを付与する…全てのデバフを\nクリティカルヒットではデバフの持続時間が2倍になる"
+	}
+
+	BeeLawnmowerMech: {
+		DisplayName: "メカビーのバケツ"
+		Tooltip: "[c/F892F8:メカビー]\nヒット時に基本ダメージの70%を与えるキラーメカビーを1～3匹召喚する\nヒット時に33%の確率でターゲットに2.5秒間混乱を付与する\n混乱したターゲットに対して+15%のダメージを与え、追加のメカビーをスポーンさせる\n[c/f9f909:ハイブパック]\nハチのダメージを85%に増加させ、スポーンするハチの数を2～5匹に増やす\nメカビーが巨大になり、ボーナスダメージを与える確率を50%追加する\n-\n[c/4BB9E9:カルティストワスプ]\nルナティックバッテリーアクセサリーと併用すると、ボーナスダメージ、ビジュアル、エフェクトを得る\n全てのメカビーを強力なカルティストワスプに変身させる\nカルティストワスプはヒット時に4種類の異なる属性の発射体を1つ撃つ\n[c/60F8C2:氷は遠距離ダメージ、][c/FE9E23:火は近接ダメージ]\n[c/EE86E7:影は魔法ダメージ、][c/4BB9E9:ビジョンは召喚ダメージ]"
+	}
+
+	WheelBone: {
+		DisplayName: "ボーンホイール"
+		Tooltip: "地面で芝刈り機を持っているとき\n芝刈り機ダメージを15%、移動速度を20%増加させる"
+	}
+
+	WheelCorruption: {
+		DisplayName: "コラプトホイール"
+		Tooltip: "[c/969696:シマーで変換可能]\n最大

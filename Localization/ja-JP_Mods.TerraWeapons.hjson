@@ -1,0 +1,580 @@
+Configs: {
+	TerraConfig: {
+		WhipFix: {
+			Tooltip: バニラの鞭コードにパッチを適用し、リフォージのサイズ統計に基づいてリーチの延長を可能にする
+			Label: 鞭の修正
+		}
+
+		TerraBlade: {
+			Tooltip: テラブレードの攻撃アニメーションを変更する。これを有効にするにはワールドを再起動してください
+			Label: テラブレードのリワーク
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Projectiles: {
+	TreeofLife: {
+		DisplayName: 生命の樹
+	}
+
+	Terrifle: {
+		DisplayName: テリフル
+	}
+
+	Terravolver: {
+		DisplayName: テラボルバー
+	}
+
+	Terrasynthesis: {
+		DisplayName: テラシンセシス
+	}
+
+	TerraShield: {
+		DisplayName: テラシールド
+	}
+
+	TerraRift: {
+		DisplayName: テラリフト
+	}
+
+	Terrambourine: {
+		DisplayName: テランブリン
+	}
+
+	TerralithSlash: {
+		DisplayName: テラリススラッシュ
+	}
+
+	Terralith: {
+		DisplayName: テラリス
+	}
+
+	Terradactyl: {
+		DisplayName: テラダクティル
+	}
+
+	TerraBloom: {
+		DisplayName: テラブルーム
+	}
+
+	TerraBlade: {
+		DisplayName: テラブレード
+	}
+
+	TerraBeam: {
+		DisplayName: テラビーム
+	}
+
+	SpiritArrow: {
+		DisplayName: スピリット矢
+	}
+
+	RejuvenatingBellFlower: {
+		DisplayName: 回復のベルフラワー
+	}
+
+	PristineStrike: {
+		DisplayName: プリスタインストライク
+	}
+
+	PristineEater: {
+		DisplayName: プリスタインイーター
+	}
+
+	NatureDart: {
+		DisplayName: ネイチャーダート
+	}
+
+	LoyalButterfly: {
+		DisplayName: 忠実な蝶
+	}
+
+	LifeLeaf: {
+		DisplayName: 生命の葉
+	}
+
+	HealingFlame: {
+		DisplayName: ヒーリングフレイム
+	}
+
+	GreatFairy: {
+		DisplayName: 大妖精
+	}
+
+	GeoGlaive: {
+		DisplayName: ジオグレイブ
+	}
+
+	GeoBeam: {
+		DisplayName: ジオビーム
+	}
+
+	ForceofNature: {
+		DisplayName: フォース・オブ・ネイチャー
+	}
+
+	FloralEnergy: {
+		DisplayName: フローラルエナジー
+	}
+
+	Flora: {
+		DisplayName: フローラ
+	}
+
+	FairyShot: {
+		DisplayName: フェアリーショット
+	}
+
+	EnergyWave: {
+		DisplayName: エナジーウェーブ
+	}
+
+	EcoShield: {
+		DisplayName: エコシールド
+	}
+
+	EarthSpirit: {
+		DisplayName: アーススピリット
+	}
+
+	EarthNote: {
+		DisplayName: アースノート
+	}
+
+	EarthArrow: {
+		DisplayName: アース矢
+	}
+
+	DeitysWrath: {
+		DisplayName: 神の怒り
+	}
+
+	DeitysRage: {
+		DisplayName: 神の憤怒
+	}
+
+	DeitysFury: {
+		DisplayName: 神の激怒
+	}
+
+	CardiogramLaser: {
+		DisplayName: 心電図レーザー
+	}
+
+	ButterflyArrow: {
+		DisplayName: バタフライ矢
+	}
+
+	Butterfly: {
+		DisplayName: バタフライ矢
+	}
+
+	BlossomWings: {
+		DisplayName: ブロッサムウィング
+	}
+
+	BlossomScythe: {
+		DisplayName: ブロッサムサイス
+	}
+
+	Biosphere: {
+		DisplayName: バイオスフィア
+	}
+}
+
+Buffs: {
+	TerrifleCooldown: {
+		Description: まだ爆発できない！
+		DisplayName: テリフルクールダウン
+	}
+
+	TectonicThroes: {
+		Description: 疲労から急速に回復中
+		DisplayName: テクトニックスロー
+	}
+
+	TectonicStrike: {
+		Description: ステルス生成増加
+		DisplayName: テクトニックストライク
+	}
+
+	TectonicSpells: {
+		Description:
+			'''
+			魔法ダメージが40%増加する
+			マナ使用量が25%減少する
+			'''
+		DisplayName: テクトニックスペル
+	}
+
+	TectonicRounds: {
+		Description: 遠距離ダメージが40%増加する
+		DisplayName: テクトニックラウンド
+	}
+
+	TectonicRhythm: {
+		Description:
+			'''
+			アクティブなエンパワーメント総数に基づいて治癒ボーナスが増加する
+			暗黒の輝く呪文と仲間の治癒でエンパワーメントが延長される
+			'''
+		DisplayName: テクトニックリズム
+	}
+
+	TectonicBlades: {
+		Description: 近接ダメージが40%増加する
+		DisplayName: テクトニックブレード
+	}
+}
+
+Items: {
+	Terrifle: {
+		Tooltip:
+			'''
+			遠距離攻撃時にテリフルを召喚することがある。現在持っている武器の3倍のダメージでパルスを撃つ
+			テリフルバーストホットキー（デフォルト：Q）を押すとバースト火炎攻撃を行う
+			視認性をトグルしてこの効果を切り替える
+			'''
+		DisplayName: テリフル
+	}
+
+	Terravolver: {
+		Tooltip:
+			'''
+			遠距離攻撃時にテラボルバーを召喚することがある。現在持っている武器の3倍のダメージでホーミング弾を撃つ
+			視認性を使用してこの効果を切り替える
+			'''
+		DisplayName: テラボルバー
+	}
+
+	Terrasynthesis: {
+		Tooltip:
+			'''
+			光の光線をチャージしてカーソル位置に放つ
+			「今や太陽光を食べることができる！」
+			'''
+		DisplayName: テラシンセシス
+	}
+
+	TerraShield: {
+		Tooltip:
+			'''
+			ほとんどのデバフとノックバック、燃えるブロックへの免疫を付与する
+			ライフが10%以上の時、仲間が受けるダメージの25%を吸収する
+			ライフが少ない時にプレイヤーの周りに氷のバリアを作成する
+			回復ポーションのクールダウンを減少させ、パッシブな回復ボーナスを与える
+			1つの弾丸をブロックしてから壊れる花のシールドを召喚する
+			壊れた時、受けたダメージの一部でプレイヤーを治癒する
+			シールドは10秒ごとに補充される
+			シールドがリチャージ中の間、プレイヤーはシールドが与える防御ボーナスを失う
+			'''
+		DisplayName: テラシールド
+	}
+
+	Terrambourine: {
+		Tooltip:
+			'''
+			演奏中にテラノーツを放つ
+			<left>を押し続けてこの武器をチャージする
+			しばらく後、離すと投げる
+			'''
+		DisplayName: テランブリン
+	}
+
+	Terralith: {
+		Tooltip:
+			'''
+			3回目と4回目の振りで回転する
+			ヒット時にテラエネルギーの斬撃を作成する
+			'''
+		DisplayName: テラリス
+	}
+
+	SpiritTorch: {
+		Tooltip:
+			'''
+			ミニオンダメージが10%増加する
+			ミニオンが敵を攻撃した時に治癒の炎を生成する可能性がある
+			視認性が有効な時に少量の光を提供する
+			'''
+		DisplayName: スピリットトーチ
+	}
+
+	RejuvenatingBellFlower: {
+		Tooltip:
+			'''
+			光の光線を撃つテラフラワーベルを召喚する
+			「目覚めのベルが再び鳴る...」
+			'''
+		DisplayName: 回復のベルフラワー
+	}
+
+	PureRune: {
+		Tooltip:
+			'''
+			パッシブなマナ回復ボーナスを与える
+			魔法攻撃時に敵を撃つ
+			'''
+		DisplayName: ピュアルーン
+	}
+
+	PurePelter: {
+		Tooltip:
+			'''
+			適切な弾薬を純粋弾に変換する
+			3発目ごとにテラレーザーを撃つ
+			'''
+		DisplayName: ピュアペルター
+	}
+
+	PristineEater: {
+		Tooltip:
+			'''
+			操作可能なテラワームを召喚する
+			最大ミニオンスロット数が多いほどワームが長くなる
+			使用中にマナを消費する
+			使用者のマナが尽きるとワームは制御を失う
+			無敵時間を無視する
+			'''
+		DisplayName: プリスタインイーター
+	}
+
+	PangeaHelmet: {
+		Tooltip:
+			'''
+			暗視能力を付与する
+			明るい緑色の光を放つ
+			'''
+		DisplayName: ラウラシアヘルメット
+	}
+
+	PangeaGreaves: {
+		Tooltip:
+			'''
+			移動速度が25%上昇する
+			自動ジャンプ、壁登り、泳ぎを可能にする
+			ジャンプ高度が増加し、落下ダメージが減少する
+			翼を装備していない時はJUMPまたはUPを押し続けて滑空する
+			'''
+		DisplayName: ゴンドワナグリーヴ
+	}
+
+	PangeaArmor: {
+		SetBonus: 使用するクラスに基づいて特殊効果を付与する
+		SetBonusRogueThrower:
+			'''
+			使用するクラスに基づいて特殊効果を付与する
+			ローグ・投擲：
+			投擲・ローグダメージと速度が20%上昇する
+			最大ステルスが150、テクニックポイントが2増加する
+			使用者を疲労させる投擲武器はステルスの恩恵を受ける
+			ステルスストライクやテクニック使用で疲労から回復する
+			テクニック使用時にステルスメーターが即座に満タンになる
+			'''
+		SetBonusBardHealer:
+			'''
+			使用するクラスに基づいて特殊効果を付与する
+			吟遊詩人・ヒーラー：
+			シンフォニックダメージが20%、輝くダメージが60%増加する
+			エンパワーメント持続時間が5秒、治癒ボーナスが10増加する
+			楽器演奏でアクティブなエンパワーメント総数に基づいて治癒ボーナス増加期間を得る
+			暗黒の輝く呪文使用や仲間治癒でエンパワーメント持続時間延長とインスピレーション回復
+			この効果は治癒ボーナスバフがアクティブな時のみ動作する
+			'''
+		SetBonusMagicSummon:
+			'''
+			使用するクラスに基づいて特殊効果を付与する
+			魔法・召喚：
+			魔法・召喚ダメージと鞭の攻撃範囲が20%増加する
+			マナ使用量が25%減少する
+			最大ミニオンが6、セントリーが2増加する
+			召喚タグ付きのターゲットにヒットするとマナ回復、魔法ダメージでテラダクティル召喚
+			テラダクティルは敵を攻撃し、最大ミニオン・セントリースロット総数が多いほど長く持続する
+			テラダクティル消失時、しばらく出現できないが消費マナ減少と魔法ダメージ増加
+			'''
+		SetBonusMeleeRanged:
+			'''
+			使用するクラスに基づいて特殊効果を付与する
+			近接・遠距離：
+			近接・遠距離ダメージが20%増加する
+			攻撃速度と連射速度が15%上昇する
+			低ライフ時に近距離ダメージでライフ回復
+			近距離での近接ダメージで遠距離ダメージ増加
+			長距離での遠距離ダメージで近接ダメージ増加
+			'''
+		Tooltip:
+			'''
+			受けるダメージが10%減少する
+			最大ライフが100増加する
+			ライフ回復が大幅に増進する
+			'''
+		DisplayName: パンゲアプレート
+	}
+
+	LoyalButterfly: {
+		Tooltip: 曲線軌道でブーメランを投げる
+		DisplayName: 忠実な蝶
+	}
+
+	Lifeline: {
+		Tooltip:
+			'''
+			心電図パターンで移動する弾丸を撃つ
+			弾丸が敵にヒットすると平らになって加速する
+			「ピッ、ピッ、ピッ、ピッ、ピーーーー！」
+			'''
+		DisplayName: ライフライン
+	}
+
+	GeoGlaive: {
+		Tooltip: 一度振ってから連続で突き、ジオグレイブ弾を撃つ
+		DisplayName: ジオグレイブ
+	}
+
+	ForceofNature: {
+		Tooltip:
+			'''
+			ホーミングテラダーツを撃つ
+			攻撃中に<right>でショットを集中させる
+			ショットが集中している時、大幅に速く移動するがホーミングしない
+			時間経過で速度が上昇する
+			弾薬を消費しない
+			'''
+		DisplayName: フォース・オブ・ネイチャー
+	}
+
+	Flora: {
+		Tooltip: フローラルエナジーがヨーヨーを周回する
+		DisplayName: フローラ
+	}
+
+	FairyLantern: {
+		Tooltip:
+			'''
+			あなたのために戦う妖精を召喚する
+			ミニオンスロットを使用しないが、一度に一体のみ出現可能
+			ミニオンスロット数が多いほど妖精が強くなる
+			インベントリでも動作する
+			'''
+		DisplayName: フェアリーランタン
+	}
+
+	ExaltedHilt: {
+		Tooltip:
+			'''
+			近接攻撃の防御無視値が5増加する
+			近接攻撃時に追加の弾丸を発射する
+			使用する近接武器の種類により弾丸の挙動が変化する
+			視認性をトグルしてこの効果を切り替える
+			攻撃速度バフは弾丸の速度に60%影響する
+			「非常に強力で独自の刃が生えた！」
+			'''
+		DisplayName: エグゾルテッドヒルト
+	}
+
+	EternalSpring: {
+		Tooltip:
+			'''
+			ホーミングする花びらに爆発する花を召喚する
+			「春が来た！春が来た！」
+			'''
+		DisplayName: エターナルスプリング
+	}
+
+	Ecosystem: {
+		Tooltip:
+			'''
+			<right>で以下のモードを切り替える
+			樹木伐採モード：ピッケルと斧として機能し、根元から成長した木を伐採すると自動的に植え直す
+			世界形成モード：ハンマーとして機能する
+			再生モード：草と木を再生させ、歩く場所に植生を育てる
+			持った時に光を放つ
+			'''
+		DisplayName: エコシステム
+	}
+
+	EarthSpirit: {
+		Tooltip:
+			'''
+			チャージしてからリリースしてアースの矢を撃つ
+			フルチャージ時にアースの矢はホーミングアーススピリットに爆発する
+			チャージ速度は攻撃速度に影響される
+			'''
+		DisplayName: アーススピリット
+	}
+
+	DeitysRage: {
+		Tooltip:
+			'''
+			風、雷、葉の攻撃を循環する
+			軽微な反動があるが飛翔記章で無効化できる
+			「お前は神々を怒らせた！」
+			'''
+		DisplayName: 神の憤怒
+	}
+
+	ButterflyArrow: {
+		Tooltip:
+			'''
+			防御力を10無視し、ブロックを通り抜ける
+			インパクト時に敵をホーミングするテラバタフライを召喚する
+			さらに、敵ヒット時に前方に光の爆発を放ち、前方の全てにダメージを与える
+			「世界の反対側で、最強の嵐が起こっている...」
+			'''
+		DisplayName: バタフライアロー
+	}
+
+	BranchofLife: {
+		Tooltip:
+			'''
+			あなたのために戦う生命の樹を召喚する
+			近くの敵が多いほど速く攻撃する
+			プラットフォーム上には設置できない
+			'''
+		DisplayName: ブランチ・オブ・ライフ
+	}
+
+	BlossomWings: {
+		Tooltip:
+			'''
+			飛行と低速落下を可能にする
+			ブロッサムの翼キーバインド（デフォルト：X）を押すと自由な範囲移動状態に入る
+			グラップルまたはマウントで自動的に無効化される
+			'''
+		DisplayName: ブロッサムの翼
+	}
+
+	Biosphere: {
+		Tooltip:
+			'''
+			連続攻撃とコンボを行う
+			コンボ中にクリティカルを決めると短時間武器の攻撃速度が上昇する
+			最大4回スタック可能、攻撃速度バフでさらに上昇する
+			攻撃速度バフはコンボ効率も改善する
+			成功したコンボ実行中に追加攻撃が発生する場合がある
+			<right>でマウスカーソルに向かって飛ぶ千の剣を召喚する
+			'''
+		DisplayName: バイオスフィア
+	}
+}
+
+Keybinds: {
+	"Blossom Wings Free Flight": {
+		DisplayName: ブロッサムの翼の自由飛行
+	}
+
+	"Terrifle Burst Fire": {
+		DisplayName: テリフルバーストの射撃
+	}
+
+	"Terrifle burst fire": {
+		DisplayName: テリフルバーストの射撃
+	}
+
+	"Blossom wings free flight": {
+		DisplayName: ブロッサムの翼の自由飛行
+	}
+}
+

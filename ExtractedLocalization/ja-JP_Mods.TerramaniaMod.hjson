@@ -1,0 +1,452 @@
+Buffs: {
+	WispMinionBuff: {
+		Description: The skeletal wisp will fight for you
+		DisplayName: Skeletal Wisp
+	}
+
+	FlickerWhipDebuff: {
+		Description: Mods.TerramaniaMod.Buffs.FlickerWhipDebuff.Description
+		DisplayName: Flicker Whip Debuff
+	}
+
+	LaserLasherDebuff: {
+		Description: Mods.TerramaniaMod.Buffs.LaserLasherDebuff.Description
+		DisplayName: Laser Lasher Debuff
+	}
+
+	FireflyMinionBuff: {
+		DisplayName: Fireflies
+		Description: The fireflies will fight for you
+	}
+
+	LightningBugMinionBuff: {
+		DisplayName: Lightning Bugs
+		Description: The lightning bugs will fight for you
+	}
+
+	TranquilizerDebuff: {
+		DisplayName: Tranquilizer Debuff
+		Description: Mods.TerramaniaMod.Buffs.TranquilizerDebuff.Description
+	}
+
+	WhiplashDebuff: {
+		DisplayName: Whiplash Debuff
+		Description: Mods.TerramaniaMod.Buffs.WhiplashDebuff.Description
+	}
+}
+
+Items: {
+	SkeletonStaff: {
+		Tooltip:
+			'''
+			Summons a skeletal wisp to fight for you
+			Takes up 2 minion slots
+			'''
+		DisplayName: Skeleton Staff
+	}
+
+	RainCrest: {
+		Tooltip: Summons a rainstorm
+		DisplayName: Rain Crest
+	}
+
+	FlickerWhip: {
+		DisplayName: Flicker Whip
+		Tooltip:
+			'''
+			7 summon tag damage
+			Your summons will focus struck enemies
+			Fires bursts of lasers
+			'''
+	}
+
+	FlowerBracelet: {
+		DisplayName: Flower Bracelet
+		Tooltip: Makes its wearer 'Happy!'
+	}
+
+	FroggyBoots: {
+		DisplayName: Froggy Boots
+		Tooltip:
+			'''
+			Jumping is faster than walking
+			Standing still increases jump height
+			'''
+	}
+
+	GoblinProtein: {
+		DisplayName: Goblin Protein
+		Tooltip:
+			'''
+			Increases maximum life by 25
+			6% increased melee damage
+			'''
+	}
+
+	ChubbleCoat: {
+		DisplayName: Chubble Coat
+		Tooltip: 12% increased magic damage
+	}
+
+	ChubbleHat: {
+		DisplayName: Chubble Hat
+		Tooltip:
+			'''
+			Increases maximum mana by 20 
+			12% increased magic critical strike chance
+			'''
+	}
+
+	ChubblePants: {
+		DisplayName: Chubble Pants
+		Tooltip:
+			'''
+			Increases maximum mana by 20 
+			Reduces mana usage by 16%
+			'''
+	}
+
+	ChubbleFur: {
+		DisplayName: Chubble Fur
+		Tooltip: ""
+	}
+
+	Dewdrop: {
+		DisplayName: Dewdrop
+		Tooltip: ""
+	}
+
+	LiquidBowstring: {
+		DisplayName: Liquid Bowstring
+		Tooltip: ""
+	}
+
+	ShellFragment: {
+		DisplayName: Shell Fragment
+		Tooltip: ""
+	}
+
+	SnakeSkin: {
+		DisplayName: Snake Scales
+		Tooltip: ""
+	}
+
+	Tranquilizer: {
+		DisplayName: Tranquilizer
+		Tooltip: Drastically slows down enemies, making them vulnerable
+	}
+
+	GooglyGoggles: {
+		DisplayName: DaTacoX's Goggles
+		Tooltip: ":D"
+	}
+
+	OrangeScarf: {
+		DisplayName: DaTacoX's Scarf
+		Tooltip: ":D"
+	}
+
+	Scrap: {
+		DisplayName: Wood Scraps
+		Tooltip: Used by shredders
+	}
+
+	SpectreArrow: {
+		DisplayName: Spectre Arrow
+		Tooltip: Releases homing spectre flames when broken
+	}
+
+	SpectreBullet: {
+		DisplayName: Spectre Bullet
+		Tooltip: Relentlessly hunts down enemies
+	}
+
+	Coldsnap: {
+		DisplayName: Coldsnap
+		Tooltip: ""
+	}
+
+	Diffractinator: {
+		DisplayName: Diffractinator
+		Tooltip: Rapidly fires a spread of piercing lasers
+	}
+
+	Grinder: {
+		DisplayName: Grinder
+		Tooltip: ""
+	}
+
+	SporeGun: {
+		DisplayName: Spore Gun
+		Tooltip: Shoots out splitting clumps of spores
+	}
+
+	ToxiGun: {
+		DisplayName: Toxigun
+		Tooltip: ""
+	}
+
+	BowlingBall: {
+		DisplayName: Bowling Ball
+		Tooltip: "'Ssstrike!'"
+	}
+
+	Echolok: {
+		DisplayName: Echolok
+		Tooltip: Sends out small sound waves
+	}
+
+	Taser: {
+		DisplayName: Taser
+		Tooltip: ""
+	}
+
+	TheJungleSpear: {
+		DisplayName: The Jungle Spear
+		Tooltip: ""
+	}
+
+	TribalSpear: {
+		DisplayName: Tribal Spear
+		Tooltip: ""
+	}
+
+	Fusillade: {
+		DisplayName: Fusillade
+		Tooltip: "'Twice as fun!'"
+	}
+
+	Repetide: {
+		DisplayName: Repetide
+		Tooltip: Wooden arrows fire faster & turn into splashing water arrows
+	}
+
+	SixShooter: {
+		DisplayName: Six Shooter
+		Tooltip: ""
+	}
+
+	Splitstick: {
+		DisplayName: Splitstick
+		Tooltip: Fires a spread of slow-moving bullets
+	}
+
+	Viper: {
+		DisplayName: Viper
+		Tooltip: ""
+	}
+
+	Chipper: {
+		DisplayName: Chipper
+		Tooltip: 33% chance to not consume ammo
+	}
+
+	FireflyStaff: {
+		DisplayName: Firefly Staff
+		Tooltip: Summons fireflies to fight for you
+	}
+
+	LightningBugStaff: {
+		DisplayName: Lightning Rod
+		Tooltip: Summons lightning bugs to fight for you
+	}
+
+	Whiplash: {
+		DisplayName: Whiplash
+		Tooltip:
+			'''
+			5 summon tag damage
+			Your summons will focus struck enemies
+			Has a chance to cause confusion
+			'''
+	}
+}
+
+NPCs: {
+	ExileFireball: {
+		DisplayName: Exile Fireball
+	}
+
+	Exile: {
+		DisplayName: Exile
+	}
+
+	ChubbleBody: {
+		DisplayName: Chubble
+	}
+
+	ChubbleHead: {
+		DisplayName: Chubble
+	}
+
+	ChubbleTail: {
+		DisplayName: Chubble
+	}
+
+	GoblinBeast: {
+		DisplayName: Goblin Beast
+	}
+
+	GoblinTrainer: {
+		DisplayName: Goblin Trainer
+	}
+
+	Leapfrog: {
+		DisplayName: Leapfrog
+	}
+
+	MistyBody: {
+		DisplayName: Misty
+	}
+
+	MistyHead: {
+		DisplayName: Misty
+	}
+
+	MistyTail: {
+		DisplayName: Misty
+	}
+}
+
+Projectiles: {
+	WispMinion: {
+		DisplayName: Wisp Minion
+	}
+
+	WispFireball: {
+		DisplayName: Wisp Fireball
+	}
+
+	WispExplosion: {
+		DisplayName: Wisp Explosion
+	}
+
+	ExileFireball: {
+		DisplayName: Exile Fireball
+	}
+
+	WhiplashProj: {
+		DisplayName: Whiplash Proj
+	}
+
+	FlickerWhipProj: {
+		DisplayName: Flicker Whip Proj
+	}
+
+	FlickerWhipLaser: {
+		DisplayName: Flicker Whip Laser
+	}
+
+	LasherLaser: {
+		DisplayName: Lasher Laser
+	}
+
+	LaserLasherProj: {
+		DisplayName: Laser Lasher Proj
+	}
+
+	BatScree: {
+		DisplayName: Bat Scree
+	}
+
+	BowlingBallProj: {
+		DisplayName: Bowling Ball Proj
+	}
+
+	ColdsnapProj: {
+		DisplayName: Coldsnap Proj
+	}
+
+	DiffractionLaser1: {
+		DisplayName: Diffraction Laser1
+	}
+
+	DiffractionLaser2: {
+		DisplayName: Diffraction Laser2
+	}
+
+	DiffractionLaser3: {
+		DisplayName: Diffraction Laser3
+	}
+
+	FireflyMinion: {
+		DisplayName: Firefly Minion
+	}
+
+	GoblinBeastBall: {
+		DisplayName: Goblin Beast Ball
+	}
+
+	GoblinBeastSpawn: {
+		DisplayName: Goblin Beast Spawn
+	}
+
+	JungleSpearProj: {
+		DisplayName: Jungle Spear Proj
+	}
+
+	LightningBugMinion: {
+		DisplayName: Lightning Bug Minion
+	}
+
+	PoisonBlob: {
+		DisplayName: Poison Blob
+	}
+
+	SingleSpore: {
+		DisplayName: Single Spore
+	}
+
+	Sludge: {
+		DisplayName: Sludge
+	}
+
+	Spark: {
+		DisplayName: Spark
+	}
+
+	SpectreArrow: {
+		DisplayName: Spectre Arrow
+	}
+
+	SpectreBullet: {
+		DisplayName: Spectre Bullet
+	}
+
+	SpectreSpirit: {
+		DisplayName: Spectre Spirit
+	}
+
+	SporeClump: {
+		DisplayName: Spore Clump
+	}
+
+	TaserProj: {
+		DisplayName: Taser Proj
+	}
+
+	TranquilizerDart: {
+		DisplayName: Tranquilizer Dart
+	}
+
+	VenomBlob: {
+		DisplayName: Venom Blob
+	}
+
+	VenomSpearProj: {
+		DisplayName: Venom Spear Proj
+	}
+
+	WaterArrow: {
+		DisplayName: Water Arrow
+	}
+
+	WaterArrowSplash: {
+		DisplayName: Water Arrow Splash
+	}
+
+	WoodScraps: {
+		DisplayName: Wood Scraps
+	}
+}
+

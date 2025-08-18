@@ -1,0 +1,169 @@
+{
+	Keybinds: {
+		"Toggle Headlights": {
+			DisplayName: "ヘッドライト切り替え"
+		}
+	}
+	InfoDisplays: {
+		CarInfoDisplay: {
+			DisplayName: "車情報表示"
+		}
+	}
+	NPCs: {
+		Salesman: {
+			DisplayName: "カーセールスマン"
+			TownNPCMood: {
+				Princess_LovesNPC: "うーん…{NPCName}"
+				LikeNPC_Princess: "ああ、{NPCName}を好きじゃない人なんていないさ"
+				Content: "まあ、悪くはない"
+				NoHome: "住宅市場はそんなに悪いのか？"
+				FarFromHome: "車で来るべきだった"
+				LoveSpace: "駐車場の一つや二つには十分なスペースだ！"
+				DislikeCrowded: "大事な電話をしないといけないんだ 周りの騒音じゃ無理だ"
+				HateCrowded: "なんだここは、アパートか？責任者を呼んでくれ"
+				LikeBiome: "まあ聞けよ、{BiomeName}に4車線の高速道路があれば最高なんだがな"
+				DislikeBiome: "なんだこの場所は…{BiomeName}だって？なるほど…"
+				HateBiome: "雪は大嫌いだ…{BiomeName}はディーラーシップには最悪の場所だろう 湿っていて滑りやすく、車の錆も早い…しかも冬用タイヤすらない！"
+				LoveNPC: "やれやれ、{NPCName}は命の恩人だ 彼女がどれだけの「サルベージタイトル」の車を新車同様に変えられるか、見るべきだよ…まあ、これは誰にも言うな"
+				LikeNPC: "「{NPCName}と私は大の仲良しで、週に一度はゴルフに行くんだ 彼も私の大事な顧客さ！」"
+				DislikeNPC: "｛NPCName｝が私の価格を交渉し続けるのは好かないな おい、無理だ 「需要が低い」からって価格を50%も下げるつもりはないぞ"
+				HateNPC: "おい、ええと… {NPCName}が俺の車から触媒コンバーターを盗むのを見たんだが？"
+			}
+		}
+	}
+	Dialogue: {
+		Salesman: {
+			Line3: "少し忙しいんだ、手短に頼む"
+			Line2: "融資も提供しているぞ！なんだって、クレジットスコアが良くない？素晴らしい！コホン、こちらへどうぞ"
+			Line1: "…で、どんな車に乗りたいんだ？"
+		}
+	}
+	Items: {
+		F40Item: {
+			Tooltip: "時速200マイルを初めて超えた量産車！"
+			DisplayName: "フェラーリ F40の鍵"
+		}
+		ExigeItem: {
+			Tooltip: "スリリング！"
+			DisplayName: "ロータス エキシージの鍵"
+		}
+		AE86Item: {
+			Tooltip: "トーキョードリフト？？？"
+			DisplayName: "トヨタ カローラ AE86の鍵"
+		}
+		FleetwoodItem: {
+			Tooltip: "俺たちはキメてるぜ"
+			DisplayName: "キャデラック フリートウッドの鍵"
+		}
+		FocusItem: {
+			Tooltip: "安いのには理由がある…"
+			DisplayName: "フォード フォーカスの鍵"
+		}
+		CelicaItem: {
+			Tooltip: "90年代直系の洗練されたスポーツカー！"
+			DisplayName: "トヨタ セリカの鍵"
+		}
+		SilveradoItem: {
+			Tooltip: "アメリカーーーーーーーー！！！！！！！！"
+			DisplayName: "シボレー シルバラードの鍵"
+		}
+		MetalMolderItem: {
+			Tooltip: "このアイテムはいったい何なんだ（TODO 削除）"
+			DisplayName: "メタルモルダーアイテム"
+		}
+		MiataItem: {
+			DisplayName: "マツダ ミアータの鍵"
+			Tooltip: "ちっこい車 :D"
+		}
+		YarisItem: {
+			Tooltip: "まあ、車だな"
+			DisplayName: "トヨタ ヤリスの鍵"
+		}
+		AudiQuattroItem: {
+			Tooltip: "おお、ラリーカー！"
+			DisplayName: "アウディ クワトロの鍵"
+		}
+		S14Item: {
+			Tooltip: "JDM！"
+			DisplayName: "日産 シルビアの鍵"
+		}
+		Nine11Item: {
+			Tooltip: "ドイツの象徴"
+			DisplayName: "ポルシェ 911の鍵"
+		}
+		CherryItem: {
+			Tooltip: "かなり古そうだ…"
+			DisplayName: "ダットサン チェリーの鍵"
+		}
+		Mazda6Item: {
+			DisplayName: "マツダ 6の鍵"
+			Tooltip: "賢明な車の選択"
+		}
+		TercelItem: {
+			Tooltip: "たぶん君が初めて乗った車！"
+			DisplayName: "トヨタ ターセルの鍵"
+		}
+	}
+	Buffs: {
+		F40Buff: {
+			Description: "速い！！！！！！！！！"
+			DisplayName: "F40バフ"
+		}
+		ExigeBuff: {
+			Description: "ここに何を書けばいいのかさっぱり分からない（TODO）"
+			DisplayName: "エキシージバフ"
+		}
+		AE86Buff: {
+			Description: "ピンクスリップのためだけにレースする"
+			DisplayName: "トヨタ カローラ AE86"
+		}
+		FleetwoodBuff: {
+			Description: "イケてる気分だ *サングラスの絵文字*"
+			DisplayName: "キャデラック フリートウッド"
+		}
+		FocusBuff: {
+			Description: "なんだか…こうなるはずじゃなかった気がする"
+			DisplayName: "壊れたフォードフォーカス"
+		}
+		CelicaBuff: {
+			Description: "車のノイズ"
+			DisplayName: "トヨタ セリカ"
+		}
+		SilveradoBuff: {
+			Description: "デカいトラックだぜイェーイ！！！！！！"
+			DisplayName: "シボレー シルバラード"
+		}
+		MiataBuff: {
+			DisplayName: "マツダ ミアータ"
+			Description: "キビキビ走るちびっこだ！"
+		}
+		YarisBuff: {
+			Description: "トヨタの現代的なサブコンパクトカー"
+			DisplayName: "トヨタ ヤリス"
+		}
+		AudiQuattroBuff: {
+			Description: "80年代のラリーチャンピオン！"
+			DisplayName: "アウディ クワトロ"
+		}
+		S14Buff: {
+			Description: "ドリフトの伝説！"
+			DisplayName: "日産 シルビア"
+		}
+		Nine11Buff: {
+			Description: "すごく、すごくクール！"
+			DisplayName: "ポルシェ 911"
+		}
+		CherryBuff: {
+			Description: "小さい！"
+			DisplayName: "ダットサン チェリー"
+		}
+		Mazda6Buff: {
+			DisplayName: "マツダ 6"
+			Description: "こんなに退屈な気分は初めてだ"
+		}
+		TercelBuff: {
+			Description: "なんだか…無敵な気分だ！"
+			DisplayName: "トヨタ ターセル"
+		}
+	}
+}

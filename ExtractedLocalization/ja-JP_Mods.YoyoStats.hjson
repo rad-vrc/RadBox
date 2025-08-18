@@ -1,0 +1,26 @@
+Configs: {
+	YoyoStatsConfig: {
+		DisplayName: Yoyo Stats Config
+
+		YoyoSpeed: {
+			Label: Show Yoyo Speed
+			Tooltip: ""
+		}
+
+		YoyoRange: {
+			Label: Show Yoyo Range
+			Tooltip: ""
+		}
+
+		YoyoLifetime: {
+			Label: Show Yoyo Lifetime
+			Tooltip: ""
+		}
+
+		YoyoHits: {
+			Label: Show Yoyo Maximum Hits
+			Tooltip: ""
+		}
+	}
+}
+

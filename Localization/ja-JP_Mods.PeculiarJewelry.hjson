@@ -1,0 +1,2101 @@
+{
+	Buffs: {
+		HealTriggerBuff: {
+			DisplayName: "ライフ吸収クールダウン"
+			Description: "ライフ吸収を発動できない！"
+		}
+		ImmuneFrameTriggerBuff: {
+			DisplayName: "無敵クールダウン"
+			Description: "無敵時間を発生させられない！"
+		}
+		TitaniumDefenseDebuff: {
+			DisplayName: "チタンの防御デバフ"
+			Description: "これは表示されるべきではない。"
+		}
+		LifeCrystalCopper5SetCooldown: {
+			DisplayName: "クリスタルヒール"
+			Description: "クリスタルで回復できない！"
+		}
+		LifeFruitCopper5SetCooldown: {
+			DisplayName: "フルーツヒール"
+			Description: "フルーツで回復できない！"
+		}
+		Iron5SetDefenseBonus: {
+			DisplayName: "カウンターディフェンス"
+			Description: "防御力が{0}増加する"
+		}
+		OrichalcumDamageBuff: {
+			DisplayName: "オリハルコンのダメージバフ"
+			Description: "ダメージが{0}%増加する"
+		}
+		CrimtaneAggressionDebuff: {
+			DisplayName: "真紅の怒り"
+			Description: "痛みは力"
+		}
+		DemoniteAggressionDebuff: {
+			DisplayName: "悪魔の怒り"
+			Description: "弱さこそ至高"
+		}
+		DamageTriggerBuff: {
+			DisplayName: "ダメージブースト"
+			Description: "ダメージ増加"
+		}
+		CritTriggerBuff: {
+			DisplayName: "クリティカルブースト"
+			Description: "クリティカル率上昇"
+		}
+		DefenseTriggerBuff: {
+			DisplayName: "防御ブースト"
+			Description: "防御力増加"
+		}
+		RegenTriggerBuff: {
+			DisplayName: "リジェネブースト"
+			Description: "ライフ自然回復を増進"
+		}
+		DodgeTriggerBuff: {
+			DisplayName: "回避ブースト"
+			Description: "回避率上昇"
+		}
+		SpeedTriggerBuff: {
+			DisplayName: "スピードブースト"
+			Description: "移動速度上昇"
+		}
+	}
+	Configs: {
+		JewelryStatConfig: {
+			DisplayName: "[i:PeculiarJewelry/MajorJewel] ジュエリーステータス設定 [i:PeculiarJewelry/MajorJewel]"
+			ChanceForMajor: {
+				Label: "[i:PeculiarJewelry/MajorJewel] メジャージュエルの確率"
+				Tooltip: "生成されるマイナージュエルに対するメジャージュエルの割合。値0.33は1/3の確率を意味する。"
+			}
+			GlobalPowerScaleSteps: {
+				Label: "[i:PeculiarJewelry/MajorJewel] パワースケール範囲"
+				Tooltip: "ジュエルが生成されうる強さの範囲。範囲は（パワースケール - (範囲 * 2)）から（パワースケール）までで計算される。"
+			}
+			GlobalPowerScale: {
+				Label: "[i:PeculiarJewelry/MajorJewel] グローバルパワースケール"
+				Tooltip: "全てのステータス効果の強さ。スケール60の場合、全てのステータスがデフォルトの60%の強さになる。"
+			}
+			Headers: {
+				Mods: {
+					PeculiarJewelry: {
+						Config: {
+							StatConfigHeader: "[i:PeculiarJewelry/MinorJewel] 特定のステータス設定"
+							DesecrationHeader: "[i:1274] 冒涜の道の設定"
+						}
+					}
+				}
+			}
+			AbsolutionStrength: {
+				Label: "赦免の強さ"
+				Tooltip: "アップグレードごとの防御貫通ダメージの増加量を制御する。"
+			}
+			AbundanceStrength: {
+				Label: "豊穣の強さ"
+				Tooltip: "アップグレードごとの最大ミニオン数の増加量を制御する。"
+			}
+			ArcaneStrength: {
+				Label: "アルカナの強さ"
+				Tooltip: "アップグレードごとの最大マナの増加量を制御する。"
+			}
+			CelerityStrength: {
+				Label: "迅速の強さ"
+				Tooltip: "アップグレードごとの移動速度の上昇量を制御する。"
+			}
+			DexterityStrength: {
+				Label: "器用さの強さ"
+				Tooltip: "アップグレードごとの移動制御の増加量を制御する。"
+			}
+			ExactitudeStrength: {
+				Label: "精密の強さ"
+				Tooltip: "アップグレードごとのクリティカル率の上昇量を制御する。"
+			}
+			ExploitationStrength: {
+				Label: "搾取の強さ"
+				Tooltip: "アップグレードごとのクリティカルダメージの増加量を制御する。"
+			}
+			FrenzyStrength: {
+				Label: "狂乱の強さ"
+				Tooltip: "アップグレードごとの近接武器使用時間の減少量を制御する。"
+			}
+			GigantismStrength: {
+				Label: "巨大化の強さ"
+				Tooltip: "アップグレードごとの近接武器サイズの増加量を制御する。"
+			}
+			MightStrength: {
+				Label: "剛力の強さ"
+				Tooltip: "アップグレードごとの近接ダメージの増加量を制御する。"
+			}
+			OrderStrength: {
+				Label: "秩序の強さ"
+				Tooltip: "アップグレードごとの召喚ダメージの増加量を制御する。"
+			}
+			Permenance: {
+				Label: "永続"
+				Tooltip: "アップグレードごとの防御力の増加量を制御する。"
+			}
+			PotencyStrength: {
+				Label: "効力の強さ"
+				Tooltip: "アップグレードごとの全ダメージの増加量を制御する。"
+			}
+			PrecisionStrength: {
+				Label: "精度の強さ"
+				Tooltip: "アップグレードごとの遠距離ダメージの増加量を制御する。"
+			}
+			PreservationStrength: {
+				Label: "保存の強さ"
+				Tooltip: "アップグレードごとの弾薬消費減少確率を制御する。"
+			}
+			RenewalStrength: {
+				Label: "再生の強さ"
+				Tooltip: "アップグレードごとのライフ自然回復速度の上昇量を制御する。"
+			}
+			ResurgenceStrength: {
+				Label: "復活の強さ"
+				Tooltip: "アップグレードごとのマナ自然回復速度の上昇量を制御する。"
+			}
+			TenacityStrength: {
+				Label: "不屈の強さ"
+				Tooltip: "アップグレードごとのダメージ耐性の増加量を制御する。"
+			}
+			TensionStrength: {
+				Label: "緊張の強さ"
+				Tooltip: "アップグレードごとの遠距離発射体の射出速度の上昇量を制御する。"
+			}
+			LegionStrength: {
+				Label: "軍団の強さ"
+				Tooltip: "アップグレードごとの最大ミニオン数の増加量を制御する。"
+			}
+			VigorStrength: {
+				Label: "活力の強さ"
+				Tooltip: "アップグレードごとの最大ライフの増加量を制御する。"
+			}
+			WillpowerStat: {
+				Label: "意志のステータス"
+				Tooltip: "アップグレードごとの魔法ダメージの増加量を制御する。"
+			}
+			PermenanceStrength: {
+				Label: "永続の強さ"
+				Tooltip: "アップグレードごとの防御力の増加量を制御する。"
+			}
+			PowerScaleStepCount: {
+				Label: "パワースケールステップ数"
+				Tooltip: ""
+			}
+			GlobalPowerScaleMinimum: {
+				Label: "グローバルパワースケール最小値"
+				Tooltip: ""
+			}
+			ProfanityStrength: {
+				Label: "冒涜の強さ"
+				Tooltip: "冒涜ごとに得られる冒涜の量。"
+			}
+			AllureStrength: {
+				Label: "誘惑の強さ"
+				Tooltip: "アップグレードごとのフィッシング・パワーの向上量を制御する。"
+			}
+			DiligenceStrength: {
+				Label: "勤勉の強さ"
+				Tooltip: "アップグレードごとの採掘速度、タイル到達範囲、アイテム引き寄せ範囲の増加量を制御する。"
+			}
+			ToleranceStrength: {
+				Label: "寛容の強さ"
+				Tooltip: ""
+			}
+		}
+	}
+	Desecrations: {
+		GiveUp: "あなたは臆病にも逃げ出した。この地に道は二度と現れない。"
+		HealthBoostDesecration: {
+			Name: "よりタフな敵"
+			Description: "敵の最大ライフがスタックごとに+50%"
+		}
+		DamageDesecration: {
+			Name: "より痛い敵"
+			Description: "敵のダメージがスタックごとに+33%"
+		}
+		BehaviourBoostDesecration: {
+			Name: "より速い敵"
+			Description: "敵の行動速度がスタックごとに+33%"
+		}
+		DamageResistDesecration: {
+			Name: "より硬い敵"
+			Description: "ダメージ耐性がスタックごとに+15%"
+		}
+		FullBoostDesecration: {
+			Name: "強大な敵"
+			Description: "敵のダメージ+10%、敵のライフ+10%、防御力+2、敵の行動速度+5%（スタックごと）"
+		}
+		SpawnRateDesecration: {
+			Name: "より多くの敵"
+			Description: "出現率がスタックごとに+50%"
+		}
+		PotionHealReductionDesecration: {
+			Name: "プレイヤーの回復量減少"
+			Description: "回復量がスタックごとに-25%"
+		}
+		LongerHealCooldownDesecration: {
+			Name: "プレイヤーの回復クールダウン延長"
+			Description: "ポーション病の時間がスタックごとに+25%"
+		}
+		TrapDoTBuffDesecration: {
+			Name: "より強力なトラップとデバフ"
+			Description: "トラップのダメージが150%増加し、継続ダメージデバフが150%強力になる"
+		}
+		DeathMineDesecration: {
+			Name: "爆発する敵と発射体"
+			Description: "敵と敵が放つ発射体は消滅時に爆発する"
+		}
+		BossHealDesecration: {
+			Name: "ボスの回復"
+			Description: "ボスはライフが2/3と1/3になった時に最大ライフの25%を回復する"
+		}
+		DebuffNPCDesecration: {
+			Name: "デバフを付与する敵"
+			Description: "敵は長時間のデバフを適用するチャンスを持つ"
+		}
+		BossEnragementDesecration: {
+			Name: "激怒したボス"
+			Description: "ボスはスタックごとにダメージ+100%、防御力+75%、ダメージ耐性+10%を得て、100%または150%速く移動する"
+		}
+		EliteNPCDesecration: {
+			Name: "エリートの敵"
+			Description: "敵はスタックごとにダメージ、防御力、最大ライフ、行動速度が+33%になるチャンスを持つ"
+		}
+	}
+	Projectiles: {
+		StellarJadeProjectile: {
+			DisplayName: "星玉"
+		}
+		TrapperMinion: {
+			DisplayName: "トラッパー"
+		}
+		EchoProjectile: {
+			DisplayName: "エコー"
+		}
+		AoEProjectile: {
+			DisplayName: "デバフウェーブ"
+		}
+		Smoke: {
+			DisplayName: "煙"
+		}
+		SoulProjectile: {
+			DisplayName: "魂"
+		}
+		TriggerProj: {
+			DisplayName: "トリガー発射体"
+		}
+	}
+	TierCutoffCondition: "ティア{0}以上のバッグからのみ。"
+	OnceADay: "1日1回"
+	StackableBuffTimeLeft: "残りs"
+	Items: {
+		MinorJewel: {
+			DisplayName: "マイナージュエル"
+			Prefix: "マイナー"
+			Tooltip: "いくらかの力を秘めた小さなジュエル"
+		}
+		MajorJewel: {
+			DisplayName: "メジャージュエル"
+			Prefix: "メジャー"
+			Tooltip: "大きく、多くの可能性を秘めている"
+		}
+		BasicJewelry: {
+			DisplayName: "ベーシックジュエリー"
+			Tooltip: "ジュエルを装着できる"
+		}
+		SparklyDust: {
+			DisplayName: "光り輝くダスト"
+			Tooltip: "「なんてキラキラしてるんだ！」"
+		}
+		BagOfShinies: {
+			DisplayName: "光り輝く袋"
+			Tooltip: "ジュエルを含む多くの品物が入っている"
+			Contains: "{0}ジュエルが1つ入っている"
+		}
+		AncientCoffer: {
+			DisplayName: "古代の金庫"
+			Tooltip: "'''\nジュエルを含む多くの品物が入っている\n設置すると修復不可能なほどに損傷する、賢く設置すること！\n'''"
+		}
+		BrokenAncientCoffer: {
+			DisplayName: "壊れた古代の金庫"
+			Tooltip: "「過ぎ去りし時代の装飾品」"
+		}
+		StellarJade: {
+			DisplayName: "星玉"
+			Tooltip: "'''\nジュエルを1回カットする試みを保証する\n使用時に消費される\n「異世界の、きらめく美しさ」\n'''"
+		}
+		CursedDollar: {
+			DisplayName: "呪われたコイン"
+			Tooltip: "'''\nジュエルカットの成功率を50/50にする\n使用時に消費される\n「生と死、両方のオーラをまとっている」\n'''"
+		}
+		DoubleLayeredLens: {
+			DisplayName: "二層レンズ"
+			Tooltip: "'''\nジュエルカットの成功率をわずかに上げる\n使用時に消費される\n'''"
+		}
+		CelestialEye: {
+			DisplayName: "天の目"
+			Tooltip: "'''\n24回目以降のジュエルカットの成功率を向上させる。\n「恐ろしくも壮大な光景」\n'''"
+		}
+		GoldenCarpScales: {
+			DisplayName: "金色の鯉の鱗"
+			Tooltip: "'''\n16回目以降のジュエルカットの成功率を向上させる。\n「確かな魔法で輝く」\n'''"
+		}
+		IrradiatedPearl: {
+			DisplayName: "放射性真珠"
+			Tooltip: "'''\n8回目以降のジュエルカットの成功率を向上させる。\n「色彩の瘴気が内部で踊る」\n'''"
+		}
+		RadiantEcho: {
+			DisplayName: "輝くエコー"
+			Tooltip: "カット7から8へのジュエルのアップグレードに使用できる"
+		}
+		DoubleRadiantEcho: {
+			DisplayName: "二重鍛造の輝くエコー"
+			Tooltip: "カット15から16へのジュエルのアップグレードに使用できる"
+		}
+		TripleRadiantEcho: {
+			DisplayName: "三重鍛造の輝くエコー"
+			Tooltip: "カット23から24へのジュエルのアップグレードに使用できる"
+		}
+		QuadRadiantEcho: {
+			DisplayName: "四重鍛造の輝くエコー"
+			Tooltip: "カット31から32へのジュエルのアップグレードに使用できる"
+		}
+		QuintRadiantEcho: {
+			DisplayName: "五重鍛造の輝くエコー"
+			Tooltip: "カット39から40へのジュエルのアップグレードに使用できる"
+		}
+		RoughPliers: {
+			DisplayName: "粗末なペンチ"
+			CommonTooltip: "'''\nジュエリーから装着されたジュエルを取り出すことができる\n成功するとペンチは壊れる\n'''"
+			Tooltip: "'''\nジュエリーから装着されたジュエルを取り出すことができる\n成功するとペンチは壊れる\n成功率25%\n'''"
+		}
+		NicePliers: {
+			DisplayName: "良いペンチ"
+			Tooltip: "'''\nジュエリーから装着されたジュエルを取り出すことができる\n成功するとペンチは壊れる\n成功率50%\n'''"
+		}
+		GentlePliers: {
+			DisplayName: "優しいペンチ"
+			Tooltip: "'''\nジュエリーから装着されたジュエルを取り出すことができる\n成功するとペンチは壊れる\n成功率75%\n'''"
+		}
+		SilkenPliers: {
+			DisplayName: "絹のペンチ"
+			Tooltip: "'''\nジュエリーから装着されたジュエルを取り出すことができる\n成功するとペンチは壊れる\n常に成功する\n'''"
+		}
+		BrokenStopwatch: {
+			DisplayName: "壊れたストップウォッチ"
+			Tooltip: "'''\nジュエルの改造が失敗してもアイテムが消費されるのを防ぐ\n一度使用すると壊れる\n「中心からかすかに不規則なカチカチという音が聞こえる」\n'''"
+		}
+		CopperTiara: {
+			DisplayName: "銅のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		IronTiara: {
+			DisplayName: "鉄のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadTiara: {
+			DisplayName: "鉛のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		TinTiara: {
+			DisplayName: "錫のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		GoldTiara: {
+			DisplayName: "金のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumTiara: {
+			DisplayName: "プラチナのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%向上する\n'''"
+		}
+		SilverTiara: {
+			DisplayName: "銀のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenTiara: {
+			DisplayName: "タングステンのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		CobaltTiara: {
+			DisplayName: "コバルトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		CrimtaneTiara: {
+			DisplayName: "クリムゾンのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteTiara: {
+			DisplayName: "メテオライトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		MythrilTiara: {
+			DisplayName: "ミスリルのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumTiara: {
+			DisplayName: "オリハルコンのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		PalladiumTiara: {
+			DisplayName: "パラジウムのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		AdamantiteTiara: {
+			DisplayName: "アダマンタイトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumTiara: {
+			DisplayName: "チタンのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		BeetleTiara: {
+			DisplayName: "甲虫のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ChlorophyteTiara: {
+			DisplayName: "クロロファイトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		DemoniteTiara: {
+			DisplayName: "暗影のティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		HallowedTiara: {
+			DisplayName: "神聖なティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		LuminiteTiara: {
+			DisplayName: "ルミナイトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		ShroomiteTiara: {
+			DisplayName: "シュル―マイトのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		GoldEarring: {
+			DisplayName: "金のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		HellstoneTiara: {
+			DisplayName: "ヘルストーンのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		ChlorophyteEarring: {
+			DisplayName: "クロロファイトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		CopperEarring: {
+			DisplayName: "銅のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		LeadEarring: {
+			DisplayName: "鉛のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverEarring: {
+			DisplayName: "銀のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TinEarring: {
+			DisplayName: "錫のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		TungstenEarring: {
+			DisplayName: "タングステンのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		AdamantiteEarring: {
+			DisplayName: "アダマンタイトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		CobaltEarring: {
+			DisplayName: "コバルトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		CrimtaneEarring: {
+			DisplayName: "クリムゾンのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		DemoniteEarring: {
+			DisplayName: "暗影のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		HallowedEarring: {
+			DisplayName: "神聖なイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		HellstoneEarring: {
+			DisplayName: "ヘルストーンのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		IronEarring: {
+			DisplayName: "鉄のイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LuminiteEarring: {
+			DisplayName: "ルミナイトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		MeteoriteEarring: {
+			DisplayName: "メテオライトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		MythrilEarring: {
+			DisplayName: "ミスリルのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumEarring: {
+			DisplayName: "オリハルコンのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		PalladiumEarring: {
+			DisplayName: "パラジウムのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		PlatinumEarring: {
+			DisplayName: "プラチナのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		ShroomiteEarring: {
+			DisplayName: "シュル―マイトのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreEarring: {
+			DisplayName: "スペクターのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyEarring: {
+			DisplayName: "不気味なイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		TitaniumEarring: {
+			DisplayName: "チタンのイヤリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		SilverNecklace: {
+			DisplayName: "銀のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		CopperNecklace: {
+			DisplayName: "銅のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		GoldNecklace: {
+			DisplayName: "金のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		IronNecklace: {
+			DisplayName: "鉄のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		TinNecklace: {
+			DisplayName: "錫のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		CrimtaneNecklace: {
+			DisplayName: "クリムゾンのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		DemoniteNecklace: {
+			DisplayName: "暗影のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		HellstoneNecklace: {
+			DisplayName: "ヘルストーンのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		LeadNecklace: {
+			DisplayName: "鉛のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		PlatinumNecklace: {
+			DisplayName: "プラチナのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		TungstenNecklace: {
+			DisplayName: "タングステンのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		MeteoriteNecklace: {
+			DisplayName: "メテオライトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		PalladiumNecklace: {
+			DisplayName: "パラジウムのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilNecklace: {
+			DisplayName: "ミスリルのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumNecklace: {
+			DisplayName: "オリハルコンのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteNecklace: {
+			DisplayName: "アダマンタイトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		HallowedNecklace: {
+			DisplayName: "神聖なネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteNecklace: {
+			DisplayName: "クロロファイトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		ShroomiteNecklace: {
+			DisplayName: "シュル―マイトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreNecklace: {
+			DisplayName: "スペクターのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpectreTiara: {
+			DisplayName: "スペクターのティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyTiara: {
+			DisplayName: "不気味なティアラ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		BeetleNecklace: {
+			DisplayName: "甲虫のネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		SpookyNecklace: {
+			DisplayName: "不気味なネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteNecklace: {
+			DisplayName: "ルミナイトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		TitaniumNecklace: {
+			DisplayName: "チタンのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		CobaltNecklace: {
+			DisplayName: "コバルトのネックレス"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		GoldRing: {
+			DisplayName: "金のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		LeadRing: {
+			DisplayName: "鉛のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		IronRing: {
+			DisplayName: "鉄のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		AdamantiteRing: {
+			DisplayName: "アダマンタイトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		ChlorophyteRing: {
+			DisplayName: "クロロファイトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		CobaltRing: {
+			DisplayName: "コバルトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		CopperRing: {
+			DisplayName: "銅のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		CrimtaneRing: {
+			DisplayName: "クリムゾンのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		DemoniteRing: {
+			DisplayName: "暗影のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		HellstoneRing: {
+			DisplayName: "ヘルストーンのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		LuminiteRing: {
+			DisplayName: "ルミナイトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		MeteoriteRing: {
+			DisplayName: "メテオライトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		MythrilRing: {
+			DisplayName: "ミスリルのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumRing: {
+			DisplayName: "オリハルコンのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		PalladiumRing: {
+			DisplayName: "パラジウムのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		PlatinumRing: {
+			DisplayName: "プラチナのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		ShroomiteRing: {
+			DisplayName: "シュル―マイトのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SilverRing: {
+			DisplayName: "銀のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		SpectreRing: {
+			DisplayName: "スペクターのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyRing: {
+			DisplayName: "不気味なリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		TinRing: {
+			DisplayName: "錫のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		TitaniumRing: {
+			DisplayName: "チタンのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		TungstenRing: {
+			DisplayName: "タングステンのリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		CopperBrooch: {
+			DisplayName: "銅のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinBrooch: {
+			DisplayName: "錫のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronBrooch: {
+			DisplayName: "鉄のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadBrooch: {
+			DisplayName: "鉛のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverBrooch: {
+			DisplayName: "銀のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenBrooch: {
+			DisplayName: "タングステンのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldBrooch: {
+			DisplayName: "金のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumBrooch: {
+			DisplayName: "プラチナのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteBrooch: {
+			DisplayName: "暗影のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneBrooch: {
+			DisplayName: "クリムゾンのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteBrooch: {
+			DisplayName: "メテオライトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneBrooch: {
+			DisplayName: "ヘルストーンのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltBrooch: {
+			DisplayName: "コバルトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumBrooch: {
+			DisplayName: "パラジウムのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilBrooch: {
+			DisplayName: "ミスリルのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumBrooch: {
+			DisplayName: "オリハルコンのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteBrooch: {
+			DisplayName: "アダマンタイトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumBrooch: {
+			DisplayName: "チタンのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedBrooch: {
+			DisplayName: "神聖なブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteBrooch: {
+			DisplayName: "クロロファイトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleBrooch: {
+			DisplayName: "甲虫のブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteBrooch: {
+			DisplayName: "シュル―マイトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreBrooch: {
+			DisplayName: "スペクターのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyBrooch: {
+			DisplayName: "不気味なブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteBrooch: {
+			DisplayName: "ルミナイトのブローチ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		HallowedRing: {
+			DisplayName: "神聖なリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		CopperHairpin: {
+			DisplayName: "銅のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinHairpin: {
+			DisplayName: "錫のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronHairpin: {
+			DisplayName: "鉄のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadHairpin: {
+			DisplayName: "鉛のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverHairpin: {
+			DisplayName: "銀のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenHairpin: {
+			DisplayName: "タングステンのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldHairpin: {
+			DisplayName: "金のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumHairpin: {
+			DisplayName: "プラチナのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteHairpin: {
+			DisplayName: "暗影のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneHairpin: {
+			DisplayName: "クリムゾンのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteHairpin: {
+			DisplayName: "メテオライトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneHairpin: {
+			DisplayName: "ヘルストーンのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltHairpin: {
+			DisplayName: "コバルトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumHairpin: {
+			DisplayName: "パラジウムのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilHairpin: {
+			DisplayName: "ミスリルのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumHairpin: {
+			DisplayName: "オリハルコンのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteHairpin: {
+			DisplayName: "アダマンタイトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumHairpin: {
+			DisplayName: "チタンのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedHairpin: {
+			DisplayName: "神聖なヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteHairpin: {
+			DisplayName: "クロロファイトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleHairpin: {
+			DisplayName: "甲虫のヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteHairpin: {
+			DisplayName: "シュル―マイトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreHairpin: {
+			DisplayName: "スペクターのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyHairpin: {
+			DisplayName: "不気味なヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteHairpin: {
+			DisplayName: "ルミナイトのヘアピン"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		CopperBracelet: {
+			DisplayName: "銅のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		GoldBracelet: {
+			DisplayName: "金のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		TinBracelet: {
+			DisplayName: "錫のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronBracelet: {
+			DisplayName: "鉄のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadBracelet: {
+			DisplayName: "鉛のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverBracelet: {
+			DisplayName: "銀のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenBracelet: {
+			DisplayName: "タングステンのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		PlatinumBracelet: {
+			DisplayName: "プラチナのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteBracelet: {
+			DisplayName: "暗影のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneBracelet: {
+			DisplayName: "クリムゾンのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteBracelet: {
+			DisplayName: "メテオライトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneBracelet: {
+			DisplayName: "ヘルストーンのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltBracelet: {
+			DisplayName: "コバルトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumBracelet: {
+			DisplayName: "パラジウムのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilBracelet: {
+			DisplayName: "ミスリルのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumBracelet: {
+			DisplayName: "オリハルコンのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteBracelet: {
+			DisplayName: "アダマンタイトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumBracelet: {
+			DisplayName: "チタンのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedBracelet: {
+			DisplayName: "神聖なブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteBracelet: {
+			DisplayName: "クロロファイトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleBracelet: {
+			DisplayName: "甲虫のブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteBracelet: {
+			DisplayName: "シュル―マイトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreBracelet: {
+			DisplayName: "スペクターのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyBracelet: {
+			DisplayName: "不気味なブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteBracelet: {
+			DisplayName: "ルミナイトのブレスレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		CopperChoker: {
+			DisplayName: "銅のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinChoker: {
+			DisplayName: "錫のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronChoker: {
+			DisplayName: "鉄のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadChoker: {
+			DisplayName: "鉛のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverChoker: {
+			DisplayName: "銀のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenChoker: {
+			DisplayName: "タングステンのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldChoker: {
+			DisplayName: "金のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumChoker: {
+			DisplayName: "プラチナのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteChoker: {
+			DisplayName: "暗影のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneChoker: {
+			DisplayName: "クリムゾンのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteChoker: {
+			DisplayName: "メテオライトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneChoker: {
+			DisplayName: "ヘルストーンのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltChoker: {
+			DisplayName: "コバルトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumChoker: {
+			DisplayName: "パラジウムのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilChoker: {
+			DisplayName: "ミスリルのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumChoker: {
+			DisplayName: "オリハルコンのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteChoker: {
+			DisplayName: "アダマンタイトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumChoker: {
+			DisplayName: "チタンのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedChoker: {
+			DisplayName: "神聖なチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteChoker: {
+			DisplayName: "クロロファイトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleChoker: {
+			DisplayName: "甲虫のチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteChoker: {
+			DisplayName: "シュル―マイトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreChoker: {
+			DisplayName: "スペクターのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyChoker: {
+			DisplayName: "不気味なチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteChoker: {
+			DisplayName: "ルミナイトのチョーカー"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		CopperAnklet: {
+			DisplayName: "銅のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinAnklet: {
+			DisplayName: "錫のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronAnklet: {
+			DisplayName: "鉄のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadAnklet: {
+			DisplayName: "鉛のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverAnklet: {
+			DisplayName: "銀のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenAnklet: {
+			DisplayName: "タングステンのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldAnklet: {
+			DisplayName: "金のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumAnklet: {
+			DisplayName: "プラチナのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteAnklet: {
+			DisplayName: "暗影のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneAnklet: {
+			DisplayName: "クリムゾンのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteAnklet: {
+			DisplayName: "メテオライトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneAnklet: {
+			DisplayName: "ヘルストーンのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltAnklet: {
+			DisplayName: "コバルトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumAnklet: {
+			DisplayName: "パラジウムのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilAnklet: {
+			DisplayName: "ミスリルのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumAnklet: {
+			DisplayName: "オリハルコンのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteAnklet: {
+			DisplayName: "アダマンタイトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumAnklet: {
+			DisplayName: "チタンのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedAnklet: {
+			DisplayName: "神聖なアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteAnklet: {
+			DisplayName: "クロロファイトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleAnklet: {
+			DisplayName: "甲虫のアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteAnklet: {
+			DisplayName: "シュル―マイトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreAnklet: {
+			DisplayName: "スペクターのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyAnklet: {
+			DisplayName: "不気味なアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteAnklet: {
+			DisplayName: "ルミナイトのアンクレット"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		How2GetRich: {
+			DisplayName: "金持ちになる方法"
+			Tooltip: "'''\nランダムな品質のジュエリーを手作業で作成できる\n「著者 ミル・E・オネア」\n'''"
+		}
+		DisplayCase: {
+			DisplayName: "ディスプレイケース"
+			Tooltip: "ジュエルやジュエリーを1つ飾ることができる"
+		}
+		HeavenlyRevelation: {
+			DisplayName: "天啓"
+			Tooltip: "'''\n次に作成するジュエリーが「豪華」になる\n「強力な何かがあなたに語りかけ、強力だが一時的な知識を授ける」\n'''"
+		}
+		TranscendantEcho: {
+			DisplayName: "真なる超越のエコー"
+			Tooltip: "'''\n任意の輝くエコーの代わりとして使用できる\nエコー使用時に優先されるため、誤って使用しないように注意！\n「何千もの言葉と思考が同時に含まれている」\n'''"
+		}
+		LuckyCoin: {
+			DisplayName: "幸運の硬貨"
+			Tooltip: "ジュエルをセットしたりカットしたりする際に、自分以外のものが消費されるのを防ぐ"
+		}
+		SubShard: {
+			DisplayName: "サブシャード"
+			Tooltip: "ジュエルに使用できる少量の力を含んでいる"
+		}
+		Grindstone: {
+			DisplayName: "砥石"
+			Tooltip: "'''\n左クリックでジュエルを[i:PeculiarJewelry/SparklyDust]と[i:PeculiarJewelry/SubShard]に粉砕するのに使用する\n右クリックで素材からジュエリーを作成するのにも使用する\n「斑点と破片で覆われている」\n'''"
+		}
+		CopperSkirt: {
+			DisplayName: "銅のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinSkirt: {
+			DisplayName: "錫のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronSkirt: {
+			DisplayName: "鉄のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadSkirt: {
+			DisplayName: "鉛のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverSkirt: {
+			DisplayName: "銀のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenSkirt: {
+			DisplayName: "タングステンのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldSkirt: {
+			DisplayName: "金のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumSkirt: {
+			DisplayName: "プラチナのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteSkirt: {
+			DisplayName: "暗影のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneSkirt: {
+			DisplayName: "クリムゾンのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteSkirt: {
+			DisplayName: "メテオライトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneSkirt: {
+			DisplayName: "ヘルストーンのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		BeetleRing: {
+			DisplayName: "甲虫のリング"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		CobaltSkirt: {
+			DisplayName: "コバルトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumSkirt: {
+			DisplayName: "パラジウムのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilSkirt: {
+			DisplayName: "ミスリルのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumSkirt: {
+			DisplayName: "オリハルコンのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteSkirt: {
+			DisplayName: "アダマンタイトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumSkirt: {
+			DisplayName: "チタンのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedSkirt: {
+			DisplayName: "神聖なスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteSkirt: {
+			DisplayName: "クロロファイトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleSkirt: {
+			DisplayName: "甲虫のスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteSkirt: {
+			DisplayName: "シュル―マイトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreSkirt: {
+			DisplayName: "スペクターのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookySkirt: {
+			DisplayName: "不気味なスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteSkirt: {
+			DisplayName: "ルミナイトのスカート"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		CopperChatelaine: {
+			DisplayName: "銅のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinChatelaine: {
+			DisplayName: "錫のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronChatelaine: {
+			DisplayName: "鉄のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadChatelaine: {
+			DisplayName: "鉛のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverChatelaine: {
+			DisplayName: "銀のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenChatelaine: {
+			DisplayName: "タングステンのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldChatelaine: {
+			DisplayName: "金のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumChatelaine: {
+			DisplayName: "プラチナのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemoniteChatelaine: {
+			DisplayName: "暗影のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtaneChatelaine: {
+			DisplayName: "クリムゾンのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoriteChatelaine: {
+			DisplayName: "メテオライトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstoneChatelaine: {
+			DisplayName: "ヘルストーンのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltChatelaine: {
+			DisplayName: "コバルトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumChatelaine: {
+			DisplayName: "パラジウムのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilChatelaine: {
+			DisplayName: "ミスリルのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumChatelaine: {
+			DisplayName: "オリハルコンのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantiteChatelaine: {
+			DisplayName: "アダマンタイトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumChatelaine: {
+			DisplayName: "チタンのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedChatelaine: {
+			DisplayName: "神聖なシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophyteChatelaine: {
+			DisplayName: "クロロファイトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetleChatelaine: {
+			DisplayName: "甲虫のシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomiteChatelaine: {
+			DisplayName: "シュル―マイトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectreChatelaine: {
+			DisplayName: "スペクターのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyChatelaine: {
+			DisplayName: "不気味なシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminiteChatelaine: {
+			DisplayName: "ルミナイトのシャトレーヌ"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		CopperPauldrons: {
+			DisplayName: "銅の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる\n'''"
+		}
+		TinPauldrons: {
+			DisplayName: "錫の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる\n'''"
+		}
+		IronPauldrons: {
+			DisplayName: "鉄の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる\n'''"
+		}
+		LeadPauldrons: {
+			DisplayName: "鉛の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる\n'''"
+		}
+		SilverPauldrons: {
+			DisplayName: "銀の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる\n'''"
+		}
+		TungstenPauldrons: {
+			DisplayName: "タングステンの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる\n'''"
+		}
+		GoldPauldrons: {
+			DisplayName: "金の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 運が増加する\n'''"
+		}
+		PlatinumPauldrons: {
+			DisplayName: "プラチナの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する\n'''"
+		}
+		DemonitePauldrons: {
+			DisplayName: "暗影の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+		}
+		CrimtanePauldrons: {
+			DisplayName: "クリムゾンの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+		}
+		MeteoritePauldrons: {
+			DisplayName: "メテオライトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する\n'''"
+		}
+		HellstonePauldrons: {
+			DisplayName: "ヘルストーンの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエルのトリガー効果がより強力になる\n'''"
+		}
+		CobaltPauldrons: {
+			DisplayName: "コバルトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる\n'''"
+		}
+		PalladiumPauldrons: {
+			DisplayName: "パラジウムの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる\n'''"
+		}
+		MythrilPauldrons: {
+			DisplayName: "ミスリルの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる\n'''"
+		}
+		OrichalcumPauldrons: {
+			DisplayName: "オリハルコンの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる\n'''"
+		}
+		AdamantitePauldrons: {
+			DisplayName: "アダマンタイトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる\n'''"
+		}
+		TitaniumPauldrons: {
+			DisplayName: "チタンの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる\n'''"
+		}
+		HallowedPauldrons: {
+			DisplayName: "神聖な肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える\n'''"
+		}
+		ChlorophytePauldrons: {
+			DisplayName: "クロロファイトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、このジュエルのダメージ耐性、防御力、ライフ回復、最大ライフは+25%される\n'''"
+		}
+		BeetlePauldrons: {
+			DisplayName: "甲虫の肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、このジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+		}
+		ShroomitePauldrons: {
+			DisplayName: "シュル―マイトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、このジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+		}
+		SpectrePauldrons: {
+			DisplayName: "スペクターの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、このジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+		}
+		SpookyPauldrons: {
+			DisplayName: "不気味な肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、このジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+		}
+		LuminitePauldrons: {
+			DisplayName: "ルミナイトの肩当て"
+			Tooltip: "'''\nジュエルを装着できる\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+		}
+		SextupleRadiantEcho: {
+			DisplayName: "六重鍛造の輝くエコー"
+			Tooltip: "カット47から48へのジュエルのアップグレードに使用できる"
+		}
+		SeptRadiantEcho: {
+			DisplayName: "七重鍛造の輝くエコー"
+			Tooltip: "カット55から56へのジュエルのアップグレードに使用できる"
+		}
+		OctoRadiantEcho: {
+			DisplayName: "八重鍛造の輝くエコー"
+			Tooltip: "カット63から64へのジュエルのアップグレードに使用できる"
+		}
+		NonaRadiantEcho: {
+			DisplayName: "九重鍛造の輝くエコー"
+			Tooltip: "カット71から72へのジュエルのアップグレードに使用できる"
+		}
+		KeepsakeChest: {
+			DisplayName: "形見のチェスト"
+			Tooltip: "'''\n奇妙なジュエリーアイテムを無制限に保管するために使用する。\nアイテムをドロップするとストレージに追加される。\nこのストレージは貯金箱のようにプレイヤーごとである。\n'''"
+		}
+	}
+	Jewelry: {
+		Jewel: "ジュエル"
+		Main: "メイン"
+		Sub: "サブ"
+		TierTooltip: "ティア{0}ジュエル"
+		CutsRemaining: "カット残り回数"
+		HoldShift: "Shiftキーでステータス表示"
+		ChanceTo: "{0}%の確率で"
+		TierPrefixes: {
+			Natural: "天然の"
+			Mutated: "変異した"
+			Mythical: "神話の"
+			Celestial: "天界の"
+			Stellar: "星の"
+		}
+		JewelryPrefixes: {
+			Ordinary: "普遍的な"
+			Pretty: "綺麗な"
+			Elegant: "優雅な"
+			Elaborate: "精巧な"
+			Extravagant: "豪華な"
+		}
+		StatExclusivities: {
+			Melee: "[c/990000:近接]専用"
+			Ranged: "[c/ff6600:遠距離]専用"
+			Magic: "[c/0066ff:魔法]専用"
+			Summon: "[c/fed558:召喚]専用"
+			Generic: "[c/ffffcc:汎用]専用"
+			Utility: "[c/996633:ユーティリティ]専用"
+		}
+		TriggerContexts: {
+			OnTakeDamage: "被弾時:"
+			OnHeal: "回復ポーション使用時:"
+			OnUseMana: "マナ使用時:"
+			OnRunOutOfMana: "マナ切れ時:"
+			OnJump: "ジャンプ時:"
+			OnHitEnemy: "敵にヒット時:"
+			OnLand: "着地時:"
+			WhenBelowHalfHealth: "ライフが半分以下の時:"
+			WhenAboveHalfHealth: "ライフが半分以上の時:"
+			WhenFullHealth: "ライフが満タンの時:"
+			WhenBelowHalfMana: "マナが半分以下の時:"
+			WhenAboveHalfMana: "マナが半分以上の時:"
+			WhenFullMana: "マナが満タンの時:"
+			WhenHaveDebuff: "デバフを受けている時:"
+			WhenOver10Buffs: "バフが10個以上ある時:"
+			WhenPotionSick: "ポーション酔いの時:"
+			WhenNoBuffs: "バフがない時:"
+			WhenIdle: "静止時:"
+			WhenNotHitFor15Seconds: "15秒以上被弾していない時:"
+			WhenHitWithinPast5Seconds: "過去5秒以内に被弾した時:"
+		}
+		TriggerEffects: {
+			HealTrigger: "{0}ライフ回復。"
+			ManaTrigger: "{0}マナ回復。"
+			ImmuneFrameTrigger: "{0}フレームの無敵時間を得る。"
+			DamageTriggerConditional: "{0}%ダメージ増加"
+			DamageTriggerInstant: "{0}%ダメージ増加"
+			DefenseTriggerConditional: "{0}防御力増加"
+			DefenseTriggerInstant: "{0}防御力増加"
+			RegenTriggerConditional: "{0}ライフ回復増加"
+			RegenTriggerInstant: "{0}ライフ回復増加"
+			CritTriggerConditional: "{0}%クリティカル率増加"
+			CritTriggerInstant: "{0}%クリティカル率増加"
+			SpeedTriggerConditional: "{0}%移動速度上昇"
+			SpeedTriggerInstant: "{0}%移動速度上昇"
+			DodgeTrigger: "{0}%の回避率を得る"
+			SpawnProjTrigger: "{0}ダメージを与える発射体を生成する"
+			KBAndClearTrigger: "半径{0}タイル内の敵を押し戻し、発射体を消去する"
+			DebuffWaveTrigger: "半径{0}ハーフタイル内の敵に{0}秒間デバフを付与する"
+		}
+		StatTypes: {
+			Vigor: {
+				DisplayName: "活力"
+				Description: "最大ライフ{0}"
+			}
+			Renewal: {
+				DisplayName: "再生"
+				Description: "ライフ回復{0}%"
+			}
+			Permenance: {
+				DisplayName: "永続"
+				Description: "防御力{0}"
+			}
+			Tenacity: {
+				DisplayName: "不屈"
+				Description: "ダメージ耐性{0}%"
+			}
+			Exactitude: {
+				DisplayName: "精密"
+				Description: "クリティカル率{0}%"
+			}
+			Exploitation: {
+				DisplayName: "搾取"
+				Description: "クリティカルダメージ{0}%"
+			}
+			Celerity: {
+				DisplayName: "迅速"
+				Description: "移動速度{0}%"
+			}
+			Dexterity: {
+				DisplayName: "器用さ"
+				Description: "移動加速度{0}%"
+			}
+			Might: {
+				DisplayName: "剛力"
+				Description: "近接ダメージ{0}%"
+			}
+			Gigantism: {
+				DisplayName: "巨大化"
+				Description: "近接武器サイズ{0}%"
+			}
+			Frenzy: {
+				DisplayName: "狂乱"
+				Description: "使用時間{0}%短縮"
+			}
+			Precision: {
+				DisplayName: "精度"
+				Description: "遠距離ダメージ{0}%"
+			}
+			Preservation: {
+				DisplayName: "保存"
+				Description: "弾薬節約チャンス{0}%"
+			}
+			Tension: {
+				DisplayName: "緊張"
+				Description: "発射体速度{0}%"
+			}
+			Willpower: {
+				DisplayName: "意志"
+				Description: "魔法ダメージ{0}%"
+			}
+			Arcane: {
+				DisplayName: "神秘"
+				Description: "最大マナ{0}%"
+			}
+			Resurgence: {
+				DisplayName: "復活"
+				Description: "マナ回復{0}"
+			}
+			Order: {
+				DisplayName: "秩序"
+				Description: "召喚ダメージ{0}%"
+			}
+			Abundance: {
+				DisplayName: "豊穣"
+				Description: "最大ミニオン数{0}"
+			}
+			Legion: {
+				DisplayName: "軍団"
+				Description: "ミニオン行動速度{0}%"
+			}
+			Potency: {
+				DisplayName: "効力"
+				Description: "全ダメージ{0}%"
+			}
+			Absolution: {
+				DisplayName: "赦免"
+				Description: "防御無視{0}%"
+			}
+			Allure: {
+				DisplayName: "誘惑"
+				Description: "フィッシング・パワー{0}"
+			}
+			Diligence: {
+				DisplayName: "勤勉"
+				Description: "採掘速度、設置範囲、アイテム取得範囲{0}%"
+			}
+			Tolerance: {
+				DisplayName: "寛容"
+				Description: "バフ時間と最大呼吸時間{0}%、デバフ時間-{0}%"
+			}
+		}
+	}
+	Material: {
+		JewelStatBonusLine: "このジュエリーのジュエルは15%多くの"
+		1Bonus: "素材ボーナス:"
+		3Bonus: "3セットボーナス:"
+		5Bonus: "5セットボーナス:"
+		Bonuses: {
+			Copper: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは最大ライフを15%増加させる"
+				3Set: "3セットボーナス: あなたの防御力が最大ライフに追加される"
+				5Set: "'''\n5セットボーナス: ライフクリスタルを消費して最大ライフの50%を回復できる。\nこれには2分間のクリスタル酔いが付与される\nライフフルーツも同様だが、回復量は最大ライフの10%のみである\n'''"
+			}
+			Tin: {
+				1Set: "素材ボーナス: このジュエリーのジュエルはライフ自然回復を15%増進させる"
+				3Set: "3セットボーナス: 被弾すると、被弾ダメージ以上に回復するまで現在の回復量が3倍になる"
+				5Set: "5セットボーナス: ライフ回復量が増加するとダメージが増加する"
+			}
+			Iron: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは防御力を15%増加させる"
+				3Set: "3セットボーナス: 防御力の2倍以下のダメージは半減される"
+				5Set: "'''\n5セットボーナス: 被弾時、受けたダメージの一部だけ一時的に防御力を増加させる\nこのバフはスタックするが、時間と共に減衰する\n'''"
+			}
+			Lead: {
+				1Set: "素材ボーナス: このジュエリーのジュエルはダメージ耐性を15%増加させる"
+				3Set: "3セットボーナス: ノックバック無効"
+				5Set: "5セットボーナス: 30秒ごとに、1回の攻撃を無効化するスピリットシールドを生成する。最大3回までスタック可能"
+			}
+			Silver: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは速度を15%上昇させる"
+				3Set: "3セットボーナス: 走行速度が大幅に上昇する"
+				5Set: "5セットボーナス: ダッシュが可能になる"
+			}
+			Tungsten: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは移動制御を15%増加させる"
+				3Set: "3セットボーナス: ジャンプ高度が大幅に増加する"
+				5Set: "5セットボーナス: 上キー長押しでホバリング、下キー長押しで高速落下する"
+			}
+			Gold: {
+				1Set: "素材ボーナス: 運が増加する"
+				3Set: "'''\n3セットボーナス: 特定のバイオームで敵を攻撃すると、そのバイオームのポーション素材をドロップすることがある。\nまた、ツルハシやオノで敵を攻撃すると、ランダムな鉱石や木材をそれぞれドロップする。\n'''"
+				5Set: "5セットボーナス: ランダムで非常に有益な効果が発生するチャンスがある"
+			}
+			Platinum: {
+				1Set: "素材ボーナス: ジュエルのユーティリティと釣りステータスが25%増加する"
+				3Set: "3セットボーナス: アイテムを非常に速く設置でき、ソナーポーションの効果が永続する"
+				5Set: "5セットボーナス: ワームホールポーションと箱のポーションの効果が永続し、パイロンがどこでも使用可能になる"
+			}
+			Meteorite: {
+				1Set: "素材ボーナス: トリガー効果が長続きし、条件付き効果が持続する"
+				3Set: "3セットボーナス: トリガー効果が保証され、条件付きトリガー効果は条件を満たさない場合でも減少した比率で適用される"
+				5Set: "'''\n5セットボーナス: あなたの速度が速いほどダメージが増加する\n非常に速く移動すると彗星の力を得る\n'''"
+			}
+			Cobalt: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは召喚士ステータスを15%増加させる"
+				3Set: "3セットボーナス: 召喚物が一部のダメージを与える影分身を得る"
+				5Set: "5セットボーナス: 召喚物が大幅に速くなる"
+			}
+			Palladium: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは近接ステータスを15%増加させる"
+				3Set: "3セットボーナス: 武器本体による直接の近接攻撃をすると、次の攻撃の速度が大幅に上昇する"
+				5Set: "5セットボーナス: 武器本体による直接の近接攻撃は敵の発射体を破壊できる"
+			}
+			Crimtane: {
+				1Set: "'''\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての最大ライフとライフ回復ボーナスが6%減少する\n'''"
+				3Set: "3セットボーナス: 攻撃ステータスがさらに増加するが、回復とライフ吸収が無効になる"
+				5Set: "5セットボーナス: 攻撃を外すとプレイヤーがダメージを受けるが、ダメージが大幅に増加する"
+			}
+			Mythril: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは遠距離ステータスを15%増加させる"
+				3Set: "3セットボーナス: 完全に静止していると発射速度が大幅に上昇する"
+				5Set: "5セットボーナス: 連続でヒットさせるごとに、次の攻撃のダメージが徐々に増加する"
+			}
+			Orichalcum: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは魔法ステータスを15%増加させる"
+				3Set: "'''\n3セットボーナス: 3回目の詠唱ごとに、魔法攻撃が2倍の大きさになり、2倍のダメージを与えるが、\nその攻撃で消費するマナも2倍になる\n'''"
+				5Set: "5セットボーナス: マナスターを拾うと、スタック可能で減衰するダメージブーストが追加される"
+			}
+			Adamantite: {
+				1Set: "素材ボーナス: このジュエリーのジュエルはクリティカルヒットステータスを15%増加させる"
+				3Set: "3セットボーナス: クリティカルヒットを出すと、確率が半分になり、ロールが失敗するまで与えるダメージが増加する"
+				5Set: "5セットボーナス: クリティカルヒットの機会を逃した場合、もう一度クリティカルを得るチャンスがある"
+			}
+			Titanium: {
+				1Set: "素材ボーナス: このジュエリーのジュエルは汎用ステータスを15%増加させる"
+				3Set: "3セットボーナス: 敵への各攻撃は、別の敵にヒットするまでその防御力を1減少させる"
+				5Set: "5セットボーナス: 敵にヒットすると、元のダメージの半分を与え、防御力を無視するエコー発射体を生成する"
+			}
+			Hallowed: {
+				1Set: "素材ボーナス: このジュエリーの全てのジュエルが5%多くのステータスを与える"
+				3Set: "3セットボーナス: ボスやイベントがアクティブでない時、あなたは不死身になる"
+				5Set: "5セットボーナス: 装着しているジュエルごとに、全てのステータスが追加で+1%される"
+			}
+			Chlorophyte: {
+				1Set: "'''\n素材ボーナス: 全てのジュエリーの全ステータスが-5%されるが、\nこのジュエルのダメージ耐性、防御力、ライフ自然回復、最大ライフは+25%される\n'''"
+				3Set: "3セットボーナス: あなたから小さなスナッチャーが生え、ライフ吸収効果のある噛みつきで攻撃する"
+				5Set: "5セットボーナス: ヒット時に、もう一度ヒットさせることで回復し、ハートを生成する芽を育てるチャンスがある"
+			}
+			Shroomite: {
+				1Set: "'''\n素材ボーナス: 全てのジュエリーの最大ライフとライフ回復ステータスが-6%されるが、\nこのジュエルのクリティカル率とクリティカルダメージは25%増加する\n'''"
+				3Set: "3セットボーナス: 100%を超えるクリティカル率は追加のクリティカルダメージを与える"
+				5Set: "5セットボーナス: クリティカル攻撃は発射体を2倍にする"
+			}
+			Spectre: {
+				1Set: "'''\n素材ボーナス: 全てのジュエリーの防御力とダメージ耐性ステータスが-6%されるが、\nこのジュエルの移動制御と速度ステータスは25%上昇する\n'''"
+				3Set: "3セットボーナス: 強力で一時的な翼が無料で与えられる"
+				5Set: "'''\n5セットボーナス: 下キー長押しでウィスプを召喚する\nキーを離すかジャンプキーを押すとウィスプの場所にテレポートする\n壁の中にはテレポートできない\n'''"
+			}
+			Beetle: {
+				1Set: "'''\n素材ボーナス: 全てのジュエリーの速度と移動制御ステータスが-6%されるが、\nこのジュエルの防御力とダメージ耐性ステータスは25%増加する\n'''"
+				3Set: "3セットボーナス: 静止していると2倍のダメージを与える"
+				5Set: "5セットボーナス: 完全に静止していると最終ダメージを50%軽減する"
+			}
+			Spooky: {
+				1Set: "'''\n素材ボーナス: 全てのジュエリーのクリティカル率とクリティカルダメージが-6%されるが、\nこのジュエルの最大ライフとライフ回復ステータスは25%増加する\n'''"
+				3Set: "'''\n3セットボーナス: ライフ自然回復はダメージによって中断されたり遅くされたりしない\n出血に対する耐性\n'''"
+				5Set: "'''\n5セットボーナス: 受けたダメージは代わりに10秒かけて徐々に適用される\n回復ポーションを使用すると、保留中の全てのダメージがキャンセルされる\n'''"
+			}
+			Luminite: {
+				1Set: "'''\n素材ボーナス: このジュエリーの全てのステータスが15%少なくなる\n追加のメジャージュエルを装着できる\n'''"
+				3Set: "3セットボーナス: 時刻とワールド内の場所に基づいてボーナスを得る"
+				5Set: "5セットボーナス: 発射体はあなたに近づくほど減速する"
+			}
+			Demonite: {
+				1Set: "'''\n素材ボーナス: このジュエリーのジュエルは全ダメージバフをさらに25%増加させる\n全ての防御力とダメージ耐性ボーナスが6%減少する\n'''"
+				3Set: "3セットボーナス: 攻撃ステータスがさらに増加するが、回復とライフ吸収が無効になる"
+				5Set: "5セットボーナス: 攻撃を外すと防御力とダメージ耐性が無効になるが、ダメージが大幅に増加する"
+			}
+			Hellstone: {
+				1Set: "素材ボーナス: このジュエルのトリガー効果がより強力になる"
+				3Set: "3セットボーナス: 即時トリガー効果は2回発生するチャンスがあり、条件付きトリガー効果は33%強力になる"
+				5Set: "5セットボーナス: 攻撃と発射体のサイズが2倍になる"
+			}
+		}
+	}
+	NPCs: {
+		Lapidarist: {
+			DisplayName: "宝石彫刻師"
+			TownNPCMood: {
+				Content: "ここでは私の技術を磨ける。"
+				NoHome: "外では仕事がしにくいんだ。部屋を貸してくれないか？"
+				FarFromHome: "仕事場から遠すぎる！ジュエリーが台無しになったらどうするんだ？"
+				LoveSpace: "静寂は集中を保ち、集中は完璧を保つ。"
+				DislikeCrowded: "部屋が揺れて仕方ない！どうやって仕事しろって言うんだ？"
+				HateCrowded: "こんなに混んでるのは嫌いだ。"
+				LikeBiome: "{BiomeName}は私の仕事に最適な場所だ！"
+				DislikeBiome: "{BiomeName}より、もっと仕事に適した環境で働きたいものだ。"
+				HateBiome: "{BiomeName}は大嫌いだ。"
+				LoveNPC: "{NPCName}のことは大好きだ。"
+				LikeNPC: "{NPCName}のことは好きだ。"
+				DislikeNPC: "{NPCName}は嫌いだ。"
+				HateNPC: "{NPCName}は大嫌いだ。"
+				LikeNPC_Princess: "{NPCName}のことは好きだ。"
+				Princess_LovesNPC: "{NPCName}のことは好きだ。"
+			}
+			Names: {
+				"0": "マーシャ"
+				"1": "マダム・ボヴァリー"
+				"2": "リンナ"
+				"3": "テイラ"
+				"4": "ジューン"
+				"5": "テイ"
+				"6": "ハスター"
+				"7": "ハ'アズトレ"
+				"8": "カイワン"
+				"9": "フェンリック"
+			}
+			Bestiary: "少々気取っているが、あなたのジュエリーをどこまでも高めたいなら非常に役立つだろう。この男は自分の仕事を熟知している。"
+			Dialogue: {
+				"0": "ジュエルは誰でも優れた殺戮兵器に変えることができる！"
+				"1": "神話級以下のジュエルなんて、死んでも身につけたくないね、絶対に！"
+				"2": "時々思うんだ、どうして好きなだけジュエルをはめられないんだろうって。でも気づくんだ、きっとすごく重くなるだろうなって、な？"
+				"3": "私の商品をじっくり見ていってくれると嬉しいんだが、ん？"
+				"4": "「『エコー』って何？と聞かれるが、そんなことは気にするな！ジュエルを買いなさい！」"
+			}
+			UIDialogue: {
+				OpenSelectionMenu: "何について作業しましょうか？"
+				MenuName: "ジュエルメニュー"
+				SuccessfulSets: {
+					"0": "どうぞ！これは自信作だ。"
+					"1": "また一つ、素晴らしいジュエルができた。楽しんでくれ！"
+					"2": "誰かが私の芸術を楽しんでくれるのを見るのは、いつも嬉しいものだ。"
+				}
+				SuccessfulCuts: {
+					"0": "なんて素晴らしいジュエルだろう、え？"
+					"1": "原石を磨くのは、いつだって楽しい時間だ。"
+					"2": "それらが美しくなっていくのを見るのは、いつだって素晴らしい。"
+				}
+				FailedCuts: {
+					"0": "いつも成功するわけじゃないんだ、申し訳ない。"
+					"1": "うーん、これは上手くいかなかったな。"
+					"2": "時々、私の機械は少し扱いにくいんだ… "
+				}
+				Help: {
+					Cut: "カットはジュエルの外見も機能も向上させる。"
+					Set: "セットすることで、ジュエリーにジュエルをはめ込み、その潜在能力を解放し、見た目も良くすることができる。"
+					Imposition: "同じカット数の完成したジュエルを2つ使うことで、両方の長所を組み合わせたジュエルを作成できる。"
+					Desecration: "より薄暗い芸術だ。自分を傷つけ、敵に利益を与えることで、より大きな報酬を得ることができる。"
+				}
+				Open: {
+					Cut: "ジュエルを改良したいのか？私に任せなさい。"
+					Set: "ついに私の専門分野だ。ジュエルをセットするのは私の一番の趣味なんだ。"
+					Imposition: "同じカット数、メジャーステータス、サイズ、名前の完成したジュエルを2つ持っていることを確認してくれ。この部分でいつも人々は混乱するんだ。"
+					Desecration: "いくつか取引をしたいのか、え？無理はするなよ。"
+					NoDesecration: "おっと、諦めたようだな。その選択は覆せないぞ。"
+				}
+			}
+			Census: {
+				SpawnCondition: "ジュエルまたはジュエリーアイテムを1つ以上所持している時"
+			}
+		}
+		Chlorosprout: {
+			DisplayName: "クロロの芽"
+		}
+	}
+	UI: {
+		CutMenu: {
+			NoJewel: "（ジュエルが挿入されていません）"
+			Gold: "ゴールド"
+			Dust: "ダスト"
+			SuccessChance: "成功確率"
+			SubstatUpgrade: "サブステータスが1つ"
+			Upgraded: "アップグレードされます"
+			Added: "追加されます"
+			Name: "ジュエルカット"
+			Cut: "カット"
+			Support: "サポート"
+			MissingJewel: "[c/ff0000:ジュエルがありません]！"
+			NoCuts: "'''\n[c/ff0000:ジュエルはこれ以上]カット\nできません！\n'''"
+			NoCoins: "[c/ff0000:コイン]が足りません！"
+			NoDust: "[i:{0}] [c/ff0000:光り輝くダスト]が足りません！"
+			NotEnough: "足りません"
+			SuccessfulCut: "カット[c/00FF00:成功！]"
+			FailedCut: "カット[c/FF0000:失敗。]"
+			Help: "'''\n[c/189DE3:ジュエルカット]は非常にシンプルである。\n各カットには成功確率があり（左に表示）、成功するたびにジュエルが一定量強化される。\n[c/189DE3:メジャーステータス]は、成功したカットごとに必ず+1の強度を得る。\n[c/189DE3:4回成功するごと]に、ランダムなサブステータスが追加されるか、サブスロットが満杯の場合はアップグレードされる。\n成功確率を上げたり、コストをなくしたりする様々な[c/189DE3:サポートアイテム]を使用できる。\n'''"
+		}
+		Misc: {
+			CutJewels: "ジュエルをカット"
+			SetJewels: "ジュエルをセット"
+			Path: "冒涜の道"
+			GiveUp: "諦める"
+			Confirm: "確定"
+			Reset: "リセット"
+			Exit: "終了"
+			AreYouSure: "よろしいですか？"
+			TotalProfanity: "総宇宙的冒涜:"
+			EnemyLoot: "敵のルート"
+			JewelTiers: "ジュエルのティア"
+			Craft: "クラフト"
+			Material: "素材"
+			Type: "タイプ"
+			DesecrationHelp: "'''\n[c/B74646:冒涜]は、敵やボスを強化し、自分自身を弱体化させることで、より大きな報酬を得ることを可能にする。\n具体的には、ボスは[c/B74646:大幅に]多くのアイテムとより強力なジュエルをドロップするようになる。\n[c/B74646:いずれかの]冒涜を増やすと、あなたの冒涜が増加し、その効果が適用される。\n[c/b74646:いずれかの]冒涜を削除するには、次第に金額が増加するので注意すること！\n'''"
+			StorageTitle: "ジュエリーストレージ"
+			Search: "検索"
+			OrderBy: "並び順: "
+			OrderType: {
+				Default: "デフォルト"
+				Material: "素材"
+				Tier: "ティア"
+				CutsRemaining: "残りカット数"
+				MainStat: "メインステータス"
+				SuccessfulCuts: "成功カット数"
+				JewelryQuality: "ジュエリー品質"
+				DustCost: "ダストコスト"
+			}
+			SortType: {
+				All: "全て"
+				Jewelry: "ジュエリー"
+				Jewel: "ジュエル"
+				Misc: "その他"
+			}
+			StorageHelp: "'''\n通常のテキストで検索するか、以下のタグのいずれかを使用できる：\n[c/AAFFAA:ジュエリー用]:\n\"material\" - 素材に一致、\"jewelrytier\" - ジュエリーティアに一致\n[c/AAFFAA:ジュエル用]:\n\"tier\" - ジュエルティアに一致、\"cut\" - カット数に一致、\"type\" - ジュエリータイプに一致、メジャーまたはマイナー - \"sub\" - ジュエルの任意のサブステータスに一致、\"successfulcuts\" - 成功カット数に一致\n[c/AAFFAA:例]:\n\"material:iron jewelrytier:extravagant sub:vigor\"\nこれは、少なくとも1つの活力のサブステータスを持つ、豪華な鉄のジュエリーを取得する。\nジュエリーにセットされた全てのジュエルは、ジュエリーで検索している場合でも検索対象となる。\n'''"
+		}
+		SetMenu: {
+			Contains: "内容"
+			WillContain: "内容予定"
+			Full: "[c/FF8888:ジュエリーはこれ以上ジュエルを受け付けられません！]"
+			Empty: "ジュエリーにはジュエルがありません！"
+			Name: "ジュエルセッティング"
+			Jewelry: "ジュエリー"
+			NoJewelry: "（ジュエリーが挿入されていません）"
+			Jewels: "ジュエル"
+			SupportItems: "サポートアイテム"
+			Help: "'''\n[c/C04AF0:ジュエリー]は、その品質に応じて一定数のジュエルを保持できる：\n普遍的な: 1、綺麗な: 2、優雅な: 3、精巧な: 4、豪華な: 5。\n[c/C04AF0:ジュエリー]には好きなだけマイナージュエルを装着できるが、メジャージュエルは1つだけである。\n[c/C04AF0:確定する]と、ジュエルがセットされ、ジュエリーの新たな潜在能力を発揮できるようになる。\nジュエリーからジュエルを取り外したい場合は、宝石彫刻師から様々なペンチを購入できる。\nペンチが良いほど、ジュエルに...[c/C04AF0:何か悪いこと]...が起こる可能性が低くなる。\n'''"
+		}
+		Superimposition: {
+			Superimposition: "重ね合わせ"
+			Stats: "ステータス"
+			Effects: "効果"
+			Result: "結果"
+			Combine: "結合！"
+			Shard: "サブシャード"
+			Help: "'''\n[c/DDB04A:重ね合わせ]には、2つの似たジュエルが必要である。\n具体的には、次のものが必要である：\n同じカット数、ティア、タイプ（メジャーまたはマイナー）、成功カット数、そしてメジャーステータス。\n[c/DDB04A:簡単な見分け方]は、両方が同じ名前、例えば「勤勉のメジャー星のジュエル+6」などを共有している場合、それらは重ね合わせが可能であるということだ。\n[c/DDB04A:重ね合わせ]は、具体的には、2つのジュエルを結合し、それらのいくつかの側面を選択して、より専門的なジュエルを簡単に手に入れることを可能にする。\n1つ（マイナー）または2つ（メジャー）のサブステータスを保証でき、[c/DDB04A:サブシャード]で追加の1つを保証できる。\n'''"
+		}
+	}
+}

@@ -1,0 +1,1731 @@
+Weapons: {
+	Ranged: {
+		BurningScars: {
+			Tooltip: ""
+			DisplayName: Burning Scars
+		}
+
+		Vague: {
+			DisplayName: Vague
+			Tooltip: Nan Wu Gatling Bodhisattva in the south Six roots are pure Depleted uranium bombs One breath is 3,600 rpm Great compassion and great compassion for the world
+		}
+
+		Glittering: {
+			Tooltip: ""
+			DisplayName: Glittering
+		}
+
+		Pathos: {
+			Tooltip: ""
+			DisplayName: Pathos
+		}
+
+		SnowfieldMedicalDartGun: {
+			Tooltip: ""
+			DisplayName: Snowfield Medical DartGun
+		}
+
+		ParadiseAmbulance: {
+			Tooltip: ""
+			DisplayName: Paradise Ambulance
+		}
+
+		HellstoneTractor: {
+			Tooltip: ""
+			DisplayName: Hellstone Tractor
+		}
+
+		FieldMedicalDartGun: {
+			Tooltip: Can fire darts that only heal players
+			DisplayName: Field Medical Dart Gun
+		}
+
+		SmithDartGun: {
+			Tooltip: ""
+			DisplayName: Smith Dart Gun
+		}
+
+		MauserDartGun: {
+			Tooltip: ""
+			DisplayName: Mauser Dart Gun
+		}
+
+		AncestralLauncher: {
+			Tooltip: ""
+			DisplayName: Ancestral Launcher
+		}
+
+		TitaniumBazooka: {
+			Tooltip: ""
+			DisplayName: Titanium Bazooka
+		}
+
+		PalladiumBazooka: {
+			Tooltip: ""
+			DisplayName: Palladium Bazooka
+		}
+
+		CobaltBazooka: {
+			Tooltip: ""
+			DisplayName: Cobalt Bazooka
+		}
+
+		AdamantiteBazooka: {
+			Tooltip: ""
+			DisplayName: Adamantite Bazooka
+		}
+
+		MedicalFlyDartGun: {
+			Tooltip: Can fire darts that only heal players
+			DisplayName: Medical Fly Dart Gun
+		}
+
+		MartianPlatingMedicalDartGun: {
+			Tooltip: Can fire darts that only heal players
+			DisplayName: Martian Plating Medical Dart Gun
+		}
+
+		MedicalDartGun: {
+			Tooltip: Can fire darts that only heal players
+			DisplayName: Medical Dart Gun
+		}
+
+		CeremonyAIIRevolver: {
+			DisplayName: Ceremony A II Revolver
+			Tooltip: ""
+		}
+
+		CeremonyAIAK47: {
+			DisplayName: Ceremony A I AK47
+			Tooltip: ""
+		}
+
+		CeremonyAIIISrM200: {
+			DisplayName: Ceremony A III Sr. M200
+			Tooltip: ""
+		}
+
+		CeremonyAIVSrBarrett: {
+			DisplayName: Ceremony A IV Sr. Barrett
+			Tooltip: ""
+		}
+
+		CeremonyAVSrSVD: {
+			DisplayName: Ceremony A V Sr. SVD
+			Tooltip: ""
+		}
+
+		WhiteWingExplodingBow: {
+			Tooltip: ""
+			DisplayName: White Wing Exploding Bow
+		}
+
+		CelebrationMk1: {
+			Tooltip:
+				'''
+				-1 ranged damage 
+				Rest assured, now it's absolutely harmless!
+				'''
+			DisplayName: Celebration NI 1
+		}
+
+		CherryDuskBazooka: {
+			Tooltip: ""
+			DisplayName: Cherry Dusk Bazooka
+		}
+
+		BiscuitResidueBazooka: {
+			Tooltip: ""
+			DisplayName: Biscuit Residue Bazooka
+		}
+
+		WoodBazooka: {
+			Tooltip: ""
+			DisplayName: Wood Bazooka
+		}
+
+		TungstenBazooka: {
+			Tooltip: ""
+			DisplayName: Tungsten Bazooka
+		}
+
+		TinBazooka: {
+			Tooltip: ""
+			DisplayName: Tin Bazooka
+		}
+
+		SilverBazooka: {
+			Tooltip: ""
+			DisplayName: Silver Bazooka
+		}
+
+		PlatinumBazooka: {
+			Tooltip: ""
+			DisplayName: Platinum Bazooka
+		}
+
+		LeadBazooka: {
+			Tooltip: ""
+			DisplayName: Lead Bazooka
+		}
+
+		IronBazooka: {
+			Tooltip: ""
+			DisplayName: Iron Bazooka
+		}
+
+		HellHeavyArtillery: {
+			Tooltip: ""
+			DisplayName: Hell Heavy Artillery
+		}
+
+		GoldBazooka: {
+			Tooltip: ""
+			DisplayName: Gold Bazooka
+		}
+
+		CopperBazooka: {
+			Tooltip: ""
+			DisplayName: Copper Bazooka
+		}
+
+		ChlorophyteSubmachineGun: {
+			DisplayName: Chlorophyte Submachine Gun
+			Tooltip: ""
+		}
+
+		PolarisFlamethrower: {
+			DisplayName: Polaris Flamethrower
+			Tooltip: ""
+		}
+
+		Eschatological: {
+			DisplayName: Sr. Eschatological
+			Tooltip:
+				'''
+				Rumor has it that she is a terrible sniper who loves pink guns,
+				Actually, only the sniper scope is pink.
+				'''
+		}
+
+		Glacier: {
+			DisplayName: Sr. Glacier
+			Tooltip: ""
+		}
+
+		KnifeDance: {
+			DisplayName: Sr. Knife Dance
+			Tooltip: ""
+		}
+
+		LemonJuiceBox: {
+			DisplayName: Lemon Juice Box
+			Tooltip: ""
+		}
+
+		CrimtaneRevolver: {
+			DisplayName: Crimtane Revolver
+			Tooltip: Perhaps firepower is more formidable than range
+		}
+
+		Nibbled: {
+			DisplayName: Nibbled
+			Tooltip: ""
+		}
+
+		Shadow: {
+			DisplayName: Sr. Shadow
+			Tooltip: ""
+		}
+
+		Violin: {
+			DisplayName: Violin
+			Tooltip: ""
+		}
+
+		Violoncello: {
+			DisplayName: Violoncello
+			Tooltip: ""
+		}
+	}
+
+	Throwing: {
+		ChlorophyteDeliveryAgreement: {
+			DisplayName: Chlorophyte Delivery Agreement
+			Tooltip: ""
+		}
+
+		HellstoneDeliveryAgreement: {
+			DisplayName: Hellstone Delivery Agreement
+			Tooltip: ""
+		}
+
+		PinkGelClicker: {
+			DisplayName: Pink Gel Clicker
+			Tooltip: ""
+		}
+	}
+}
+
+Ammo: {
+	Arrow: {
+		HallowedArrow: {
+			DisplayName: Hallowed Arrow
+			Tooltip:
+				'''
+				Maximum Effect: 
+				Health Regeneration -5
+				Damage +20%
+				Attack Cooldown -15(minimum 10)
+				'''
+		}
+
+		FrostArrow: {
+			DisplayName: Frost Arrow
+			Tooltip: ""
+		}
+
+		ShadowFlameArrow: {
+			DisplayName: Shadow Flame Arrow
+			Tooltip: ""
+		}
+
+		AdamantiteArrow: {
+			DisplayName: Adamantite Arrow
+			Tooltip: ""
+		}
+
+		TitaniumArrow: {
+			DisplayName: Titanium Arrow
+			Tooltip: ""
+		}
+
+		PalladiumArrow: {
+			DisplayName: Palladium Arrow
+			Tooltip: ""
+		}
+
+		CobaltArrow: {
+			Tooltip: ""
+			DisplayName: Cobalt Arrow
+		}
+
+		SilverArrow: {
+			DisplayName: Silver Arrow
+			Tooltip: ""
+		}
+
+		BeeArrow: {
+			DisplayName: Bee Arrow
+			Tooltip: ""
+		}
+
+		BetsyArrow: {
+			DisplayName: Betsy Arrow
+			Tooltip: ""
+		}
+
+		EatersBiteArrow: {
+			DisplayName: Eaters Bite Arrow
+			Tooltip: ""
+		}
+
+		PlumageArrow: {
+			DisplayName: Bi. Plumage Arrow
+			Tooltip: ""
+		}
+
+		PhantasmArrow: {
+			DisplayName: Phantasm Arrow
+			Tooltip: ""
+		}
+
+		PulseBolt: {
+			DisplayName: Pulse Bolt
+			Tooltip: ""
+		}
+
+		Hellwings: {
+			DisplayName: Hellwings
+			Tooltip: ""
+		}
+
+		BoomCrystalArrow: {
+			DisplayName: Boom Crystal Arrow
+			Tooltip: ""
+		}
+
+		BloodBolt: {
+			DisplayName: Blood Bolt
+			Tooltip: ""
+		}
+
+		DecorationArrow: {
+			DisplayName: Decoration Arrow
+			Tooltip: ""
+		}
+
+		HorizonTurbulenceArrow: {
+			DisplayName: Horizon Turbulence Arrow
+			Tooltip: ""
+		}
+
+		OceanFractureArrow: {
+			DisplayName: Ocean Fracture Arrow
+			Tooltip: Drag enemies to yourself, the closer you get, the higher the damage
+		}
+	}
+
+	Bullet: {
+		HallowedBullet: {
+			DisplayName: Hallowed Bullet
+			Tooltip:
+				'''
+				Maximum Effect: 
+				Health Regeneration -5
+				Damage +20%
+				Attack Cooldown -15(minimum 10)
+				'''
+		}
+
+		FrostBullet: {
+			DisplayName: Frost Bullet
+			Tooltip: ""
+		}
+
+		ShadowFlameBullet: {
+			DisplayName: Shadow Flame Bullet
+			Tooltip: ""
+		}
+
+		AdamantiteBullet: {
+			DisplayName: Adamantite Bullet
+			Tooltip: ""
+		}
+
+		TitaniumBullet: {
+			Tooltip: ""
+			DisplayName: Titanium Bullet
+		}
+
+		OrichalcumBullet: {
+			Tooltip: ""
+			DisplayName: Orichalcum Bullet
+		}
+
+		MythrilBullet: {
+			Tooltip: ""
+			DisplayName: Mythril Bullet
+		}
+
+		HellstoneBullet: {
+			DisplayName: Hellstone Bullet
+			Tooltip: ""
+		}
+
+		EarlBullet: {
+			DisplayName: Earl Bullet
+			Tooltip: ""
+		}
+
+		SpectreBullet: {
+			DisplayName: Spectre Bullet
+			Tooltip: ""
+		}
+
+		SpiderBullet: {
+			DisplayName: Spider Bullet
+			Tooltip: ""
+		}
+
+		HorizonTearBullet: {
+			DisplayName: Horizon Tear Bullet
+			Tooltip: ""
+		}
+
+		CopperBullet: {
+			DisplayName: Copper Bullet
+			Tooltip: ""
+		}
+
+		RubberBullet: {
+			Tooltip: ""
+			DisplayName: Rubber Bullet
+		}
+
+		TinBullet: {
+			DisplayName: Tin Bullet
+			Tooltip: ""
+		}
+
+		IronBullet: {
+			DisplayName: Iron Bullet
+			Tooltip: ""
+		}
+
+		LeadBullet: {
+			DisplayName: Lead Bullet
+			Tooltip: ""
+		}
+
+		ShaleSlagBullet: {
+			DisplayName: Shale Slag Bullet
+			Tooltip: Explode a huge amount of fragments, only for extreme violence output
+		}
+	}
+
+	Dart: {
+		AnalgesicDart: {
+			DisplayName: Analgesic Dart
+			Tooltip:
+				'''
+				Maximum Effect: 
+				move Speed +10%
+				life Regen -5
+				endurance +5%
+				Armor Penetration +20
+				'''
+		}
+
+		BeeDart: {
+			DisplayName: Bee Dart
+			Tooltip: ""
+		}
+
+		FrostDart: {
+			DisplayName: Frost Dart
+			Tooltip: ""
+		}
+
+		HellstoneDart: {
+			DisplayName: Hellstone Dart
+			Tooltip: ""
+		}
+
+		ShroomiteDart: {
+			DisplayName: Shroomite Dart
+			Tooltip: ""
+		}
+
+		MartianPlatingDart: {
+			DisplayName: Martian Plating Dart
+			Tooltip: ""
+		}
+
+		MetalDart: {
+			DisplayName: Metal Dart
+			Tooltip: ""
+		}
+	}
+
+	Rocket: {
+		MiniSharkronRocket: {
+			DisplayName: Mini Sharkron Rocket
+			Tooltip: ""
+		}
+
+		RocketZ: {
+			DisplayName: Rocket Z
+			Tooltip: ""
+		}
+
+		RudderTorpedo: {
+			DisplayName: Rudder Torpedo
+			Tooltip: ""
+		}
+
+		TNTDrum: {
+			DisplayName: TNT Drum
+			Tooltip: ""
+		}
+
+		WoodGrenade: {
+			DisplayName: Wood Grenade
+			Tooltip: ""
+		}
+
+		BetsyRocket: {
+			DisplayName: Betsy Rocket
+			Tooltip: ""
+		}
+
+		Cherry: {
+			DisplayName: Cherry
+			Tooltip: ""
+		}
+
+		Cookie: {
+			DisplayName: Cookie
+			Tooltip: ""
+		}
+
+		ElectrosphereMissile: {
+			DisplayName: Electrosphere Missile
+			Tooltip: ""
+		}
+
+		AvalancheGrenade: {
+			DisplayName: Avalanche Grenade
+			Tooltip: ""
+		}
+
+		CursedFlameGrenade: {
+			DisplayName: Cursed Flame Grenade
+			Tooltip: ""
+		}
+
+		IchorGrenade: {
+			DisplayName: Ichor Grenade
+			Tooltip: ""
+		}
+
+		VortexBeaterRocket: {
+			DisplayName: Vortex Beater Rocket
+			Tooltip: ""
+		}
+	}
+}
+
+AmmoExp: {
+	Arrow: {
+		EndlessHallowedArrow: {
+			DisplayName: Endless Hallowed Arrow
+			Tooltip: ""
+		}
+
+		EndlessAdamantiteArrow: {
+			DisplayName: Endless Adamantite Arrow
+			Tooltip: ""
+		}
+
+		EndlessFrostArrow: {
+			DisplayName: Endless Frost Arrow
+			Tooltip: ""
+		}
+
+		EndlessShadowFlameArrow: {
+			DisplayName: Endless Shadow Flame Arrow
+			Tooltip: ""
+		}
+
+		EndlessTitaniumArrow: {
+			DisplayName: Endless Titanium Arrow
+			Tooltip: ""
+		}
+
+		EndlessCobaltArrow: {
+			DisplayName: Endless Cobalt Arrow
+			Tooltip: ""
+		}
+
+		EndlessPalladiumArrow: {
+			DisplayName: Endless Palladium Arrow
+			Tooltip: ""
+		}
+
+		EndlessSilverArrow: {
+			DisplayName: Endless Silver Arrow
+			Tooltip: ""
+		}
+
+		EndlessBeeArrow: {
+			DisplayName: Endless Bee Arrow
+			Tooltip: ""
+		}
+
+		EndlessBetsyArrow: {
+			DisplayName: Endless Betsy Arrow
+			Tooltip: ""
+		}
+
+		EndlessEatersBiteArrow: {
+			DisplayName: Endless Eaters Bite Arrow
+			Tooltip: ""
+		}
+
+		EndlessPhantasmArrow: {
+			DisplayName: Endless Phantasm Arrow
+			Tooltip: ""
+		}
+
+		EndlessPulseBolt: {
+			DisplayName: Endless Pulse Bolt
+			Tooltip: ""
+		}
+
+		EndlessPlumageArrow: {
+			DisplayName: Bi. Endless Plumage Arrow
+			Tooltip: ""
+		}
+
+		EndlessCursedArrow: {
+			DisplayName: Endless Cursed Arrow
+			Tooltip: ""
+		}
+
+		EndlessIchorArrow: {
+			DisplayName: Endless Ichor Arrow
+			Tooltip: ""
+		}
+
+		EndlessLuminiteArrow: {
+			DisplayName: Endless Luminite Arrow
+			Tooltip: ""
+		}
+
+		EndlessBoneArrow: {
+			DisplayName: Endless Bone Arrow
+			Tooltip: ""
+		}
+
+		EndlessBoomCrystalArrow: {
+			DisplayName: Endless Boom Crystal Arrow
+			Tooltip: ""
+		}
+
+		EndlessChlorophyteArrow: {
+			DisplayName: Endless Chlorophyte Arrow
+			Tooltip: ""
+		}
+
+		EndlessFlamingArrow: {
+			DisplayName: Endless Flaming Arrow
+			Tooltip: ""
+		}
+
+		EndlessFrostburnArrow: {
+			DisplayName: Endless Frostburn Arrow
+			Tooltip: ""
+		}
+
+		EndlessHellfireArrow: {
+			DisplayName: Endless Hellfire Arrow
+			Tooltip: ""
+		}
+
+		EndlessHolyArrow: {
+			DisplayName: Endless Holy Arrow
+			Tooltip: ""
+		}
+
+		EndlessJestersArrow: {
+			DisplayName: Endless Jesters Arrow
+			Tooltip: ""
+		}
+
+		EndlessShimmerArrow: {
+			DisplayName: Endless Shimmer Arrow
+			Tooltip: ""
+		}
+
+		EndlessUnholyArrow: {
+			DisplayName: Endless Unholy Arrow
+			Tooltip: ""
+		}
+
+		EndlessVenomArrow: {
+			DisplayName: Endless Venom Arrow
+			Tooltip: ""
+		}
+
+		EndlessBloodBolt: {
+			DisplayName: Endless Blood Bolt
+			Tooltip: ""
+		}
+
+		EndlessDecorationArrow: {
+			DisplayName: Endless Decoration Arrow
+			Tooltip: ""
+		}
+
+		EndlessHorizonTurbulenceArrow: {
+			DisplayName: Endless Horizon Turbulence Arrow
+			Tooltip: ""
+		}
+
+		EndlessOceanFractureArrow: {
+			DisplayName: Endless Ocean Fracture Arrow
+			Tooltip: ""
+		}
+	}
+
+	Bullet: {
+		EndlessTitaniumBullet: {
+			Tooltip: ""
+			DisplayName: Endless Titanium Bullet
+		}
+
+		EndlessShadowFlameBullet: {
+			Tooltip: ""
+			DisplayName: Endless Shadow Flame Bullet
+		}
+
+		EndlessHallowedBullet: {
+			Tooltip: ""
+			DisplayName: Endless Hallowed Bullet
+		}
+
+		EndlessFrostBullet: {
+			Tooltip: ""
+			DisplayName: Endless Frost Bullet
+		}
+
+		EndlessAdamantiteBullet: {
+			DisplayName: Endless Adamantite Bullet
+			Tooltip: ""
+		}
+
+		EndlessMythrilBullet: {
+			Tooltip: ""
+			DisplayName: Endless Mythril Bullet
+		}
+
+		EndlessOrichalcumBullet: {
+			DisplayName: Endless Orichalcum Bullet
+			Tooltip: ""
+		}
+
+		EndlessHellstoneBullet: {
+			DisplayName: Endless Hellstone Bullet
+			Tooltip: ""
+		}
+
+		EndlessEarlBullet: {
+			DisplayName: Endless Earl Bullet
+			Tooltip: ""
+		}
+
+		EndlessSpectreBullet: {
+			DisplayName: Endless Spectre Bullet
+			Tooltip: ""
+		}
+
+		EndlessSpiderBullet: {
+			DisplayName: Endless Spider Bullet
+			Tooltip: ""
+		}
+
+		EndlessHorizonTearBullet: {
+			DisplayName: Endless Horizon Tear Bullet
+			Tooltip: ""
+		}
+
+		EndlessCopperBullet: {
+			DisplayName: Endless Copper Bullet
+			Tooltip: ""
+		}
+
+		EndlessRubberBullet: {
+			DisplayName: Endless Rubber Bullet
+			Tooltip: ""
+		}
+
+		EndlessTinBullet: {
+			DisplayName: Endless Tin Bullet
+			Tooltip: ""
+		}
+
+		EndlessIchorBullet: {
+			DisplayName: Endless Ichor Bullet
+			Tooltip: ""
+		}
+
+		EndlessCursedBullet: {
+			DisplayName: Endless Cursed Bullet
+			Tooltip: ""
+		}
+
+		EndlessLuminiteBullet: {
+			DisplayName: Endless Luminite Bullet
+			Tooltip: ""
+		}
+
+		EndlessChlorophyteBullet: {
+			DisplayName: Endless Chlorophyte Bullet
+			Tooltip: ""
+		}
+
+		EndlessCrystalBullet: {
+			DisplayName: Endless Crystal Bullet
+			Tooltip: ""
+		}
+
+		EndlessExplodingBullet: {
+			DisplayName: Endless Exploding Bullet
+			Tooltip: ""
+		}
+
+		EndlessGoldenBullet: {
+			DisplayName: Endless Golden Bullet
+			Tooltip: ""
+		}
+
+		EndlessHighVelocityBullet: {
+			DisplayName: Endless High Velocity Bullet
+			Tooltip: ""
+		}
+
+		EndlessIronBullet: {
+			DisplayName: Endless Iron Bullet
+			Tooltip: ""
+		}
+
+		EndlessLeadBullet: {
+			DisplayName: Endless Lead Bullet
+			Tooltip: ""
+		}
+
+		EndlessMeteorShot: {
+			DisplayName: Endless Meteor Shot
+			Tooltip: ""
+		}
+
+		EndlessNanoBullet: {
+			DisplayName: Endless Nano Bullet
+			Tooltip: ""
+		}
+
+		EndlessPartyBullet: {
+			DisplayName: Endless Party Bullet
+			Tooltip: ""
+		}
+
+		EndlessSilverBullet: {
+			DisplayName: Endless Silver Bullet
+			Tooltip: ""
+		}
+
+		EndlessTungstenBullet: {
+			DisplayName: Endless Tungsten Bullet
+			Tooltip: ""
+		}
+
+		EndlessVenomBullet: {
+			DisplayName: Endless Venom Bullet
+			Tooltip: ""
+		}
+
+		EndlessShaleSlagBullet: {
+			DisplayName: Endless Shale Slag Bullet
+			Tooltip: ""
+		}
+	}
+
+	Dart: {
+		CrystalDartCourierBox: {
+			DisplayName: Crystal Dart Courier Box
+			Tooltip: ""
+		}
+
+		CursedDartCourierBox: {
+			DisplayName: Cursed Dart Courier Box
+			Tooltip: ""
+		}
+
+		EndlessBeeDart: {
+			DisplayName: Endless Bee Dart
+			Tooltip: ""
+		}
+
+		EndlessFrostDart: {
+			DisplayName: Endless Frost Dart
+			Tooltip: ""
+		}
+
+		EndlessHellstoneDart: {
+			DisplayName: Endless Hellstone Dart
+			Tooltip: ""
+		}
+
+		EndlessShroomiteDart: {
+			DisplayName: Endless Shroomite Dart
+			Tooltip: ""
+		}
+
+		IchorDartCourierBox: {
+			DisplayName: Ichor Dart Courier Box
+			Tooltip: ""
+		}
+
+		EndlessMartianPlatingDart: {
+			DisplayName: Endless Martian Plating Dart
+			Tooltip: ""
+		}
+
+		EndlessAnalgesicDart: {
+			DisplayName: Endless Analgesic Dart
+			Tooltip: ""
+		}
+
+		EndlessMetalDart: {
+			DisplayName: Endless Metal Dart
+			Tooltip: ""
+		}
+	}
+
+	Rocket: {
+		EndlessIchorGrenade: {
+			Tooltip: ""
+			DisplayName: Endless Ichor Grenade
+		}
+
+		EndlessCursedFlameGrenade: {
+			Tooltip: ""
+			DisplayName: Endless Cursed Flame Grenade
+		}
+
+		EndlessAvalancheGrenade: {
+			Tooltip: ""
+			DisplayName: Endless Avalanche Grenade
+		}
+
+		EndlessVortexBeaterRocket: {
+			Tooltip: ""
+			DisplayName: Endless Vortex Beater Rocket
+		}
+
+		EndlessElectrosphereMissile: {
+			Tooltip: ""
+			DisplayName: Endless Electrosphere Missile
+		}
+
+		EndlessCookie: {
+			Tooltip: ""
+			DisplayName: Endless Cookie
+		}
+
+		EndlessCherry: {
+			Tooltip: ""
+			DisplayName: Endless Cherry
+		}
+
+		EndlessBetsyRocket: {
+			Tooltip: ""
+			DisplayName: Endless Betsy Rocket
+		}
+
+		MolotovCocktailCourierBox: {
+			Tooltip: ""
+			DisplayName: Molotov Cocktail Courier Box
+		}
+
+		EndlessWoodGrenade: {
+			Tooltip: ""
+			DisplayName: Endless Wood Grenade
+		}
+
+		EndlessWetRocket: {
+			Tooltip: ""
+			DisplayName: Endless Wet Rocket
+		}
+
+		EndlessRudderTorpedo: {
+			Tooltip: ""
+			DisplayName: Endless Rudder Torpedo
+		}
+
+		EndlessRocketZ: {
+			Tooltip: ""
+			DisplayName: Endless Rocket Z
+		}
+
+		EndlessRocketIV: {
+			Tooltip: ""
+			DisplayName: Endless Rocket IV
+		}
+
+		EndlessRocketIII: {
+			Tooltip: ""
+			DisplayName: Endless Rocket III
+		}
+
+		EndlessRocketII: {
+			Tooltip: ""
+			DisplayName: Endless Rocket II
+		}
+
+		EndlessRocketI: {
+			Tooltip: ""
+			DisplayName: Endless Rocket I
+		}
+
+		EndlessMiniNukeII: {
+			Tooltip: ""
+			DisplayName: Endless Mini Nuke II
+		}
+
+		EndlessMiniNukeI: {
+			Tooltip: ""
+			DisplayName: Endless Mini Nuke I
+		}
+
+		EndlessLavaRocket: {
+			Tooltip: ""
+			DisplayName: Endless Lava Rocket
+		}
+
+		EndlessHoneyRocket: {
+			Tooltip: ""
+			DisplayName: Endless Honey Rocket
+		}
+
+		EndlessDryRocket: {
+			Tooltip: ""
+			DisplayName: Endless Dry Rocket
+		}
+
+		EndlessClusterRocketII: {
+			Tooltip: ""
+			DisplayName: Endless Cluster Rocket II
+		}
+
+		EndlessClusterRocketI: {
+			Tooltip: ""
+			DisplayName: Endless Cluster Rocket I
+		}
+	}
+}
+
+Projectiles: {
+	MetalDart: {
+		DisplayName: Metal Dart
+	}
+
+	AnalgesicDart: {
+		DisplayName: Analgesic Dart
+	}
+
+	MedicalFlyDartII: {
+		DisplayName: Medical Fly Dart II
+	}
+
+	FlyII: {
+		DisplayName: Fly II
+	}
+
+	Energy: {
+		BurstDawnIII: {
+			DisplayName: Burst Dawn III
+		}
+
+		BurstDawnII: {
+			DisplayName: Burst Dawn II
+		}
+
+		BurstDawn: {
+			DisplayName: Burst Dawn
+		}
+	}
+
+	ChainLightning: {
+		DisplayName: Chain Lightning
+	}
+
+	MedicalFlyDart: {
+		DisplayName: Medical Fly Dart
+	}
+
+	MedicalDartII: {
+		DisplayName: Medical Dart II
+	}
+
+	MartianPlatingDart: {
+		DisplayName: Martian Plating Dart
+	}
+
+	OceanFracture: {
+		DisplayName: Ocean Fracture
+	}
+
+	OceanFractureArrow: {
+		DisplayName: Ocean Fracture Arrow
+	}
+
+	MetallicSparks: {
+		DisplayName: Metallic Sparks
+	}
+
+	ShaleSlagBullet: {
+		DisplayName: Shale Slag Bullet
+	}
+
+	MedicalDart: {
+		DisplayName: Medical Dart
+	}
+
+	Throwing: {
+		DangerousAirdropsB1: {
+			DisplayName: Dangerous Airdrops B1
+		}
+
+		DangerousAirdropsB2: {
+			DisplayName: Dangerous Airdrops B2
+		}
+
+		DangerousAirdropsIIC: {
+			DisplayName: Dangerous Airdrops II
+		}
+
+		DangerousAirdrops: {
+			DisplayName: Dangerous Airdrops
+		}
+	}
+
+	IchorGrenade: {
+		DisplayName: Ichor Grenade
+	}
+
+	CursedFlameGrenade: {
+		DisplayName: Cursed Flame Grenade
+	}
+
+	AvalancheGrenade: {
+		DisplayName: Avalanche Grenade
+	}
+
+	SlagCookie: {
+		DisplayName: Slag Cookie
+	}
+
+	MapleCookie: {
+		DisplayName: Maple Cookie
+	}
+
+	CreamCookie: {
+		DisplayName: Cream Cookie
+	}
+
+	CookieResidue: {
+		DisplayName: Cookie Residue
+	}
+
+	CookieBoom: {
+		DisplayName: Cookie Boom
+	}
+
+	Cookie: {
+		DisplayName: Cookie
+	}
+
+	VortexCherry: {
+		DisplayName: Vortex Cherry
+	}
+
+	PinkCrystal: {
+		DisplayName: Pink Crystal
+	}
+
+	IslandCherry: {
+		DisplayName: Island Cherry
+	}
+
+	ColdCherry: {
+		DisplayName: Cold Cherry
+	}
+
+	CherryBoom: {
+		DisplayName: Cherry Boom
+	}
+
+	Cherry: {
+		DisplayName: Cherry
+	}
+
+	WaterSpout: {
+		DisplayName: Water Spout
+	}
+
+	TorpedoBoom: {
+		DisplayName: Torpedo Boom
+	}
+
+	RudderMine: {
+		DisplayName: Rudder Mine
+	}
+
+	Rudder: {
+		DisplayName: Rudder
+	}
+
+	Fly: {
+		DisplayName: Fly
+	}
+
+	FlyingTorpedo: {
+		DisplayName: Flying Torpedo
+	}
+
+	TNTDrum: {
+		DisplayName: TNT Drum
+	}
+
+	TNTBoom: {
+		DisplayName: TNT Boom
+	}
+
+	MiniSharkron: {
+		DisplayName: Mini Sharkron
+	}
+
+	WoodGrenade: {
+		DisplayName: Wood Grenade
+	}
+
+	GrenadeBoom: {
+		DisplayName: Grenade Boom
+	}
+
+	Turbulence: {
+		DisplayName: Turbulence
+	}
+
+	HorizonArrow: {
+		DisplayName: Horizon Arrow
+	}
+
+	DecorationArrow: {
+		DisplayName: Decoration Arrow
+	}
+
+	BloodBolt: {
+		DisplayName: Blood Bolt
+	}
+
+	BoomCrystalArrow: {
+		DisplayName: Boom Crystal Arrow
+	}
+
+	LeadBullet: {
+		DisplayName: Lead Bullet
+	}
+
+	IronBullet: {
+		DisplayName: Iron Bullet
+	}
+
+	BoomCornCandy: {
+		DisplayName: Boom Corn Candy
+	}
+
+	ShroomiteDart: {
+		DisplayName: Shroomite Dart
+	}
+
+	PowerfulIchorDartII: {
+		DisplayName: Powerful Ichor Dart II
+	}
+
+	PowerfulIchorDart: {
+		DisplayName: Powerful Ichor Dart
+	}
+
+	PowerfulCursedDart: {
+		DisplayName: Powerful Cursed Dart
+	}
+
+	PowerfulCrystalDartII: {
+		DisplayName: Powerful Crystal Dart II
+	}
+
+	PowerfulCrystalDart: {
+		DisplayName: Powerful Crystal Dart
+	}
+
+	HellstoneDart: {
+		DisplayName: Hellstone Dart
+	}
+
+	FrostDart: {
+		DisplayName: Frost Dart
+	}
+
+	BeeDart: {
+		DisplayName: Bee Dart
+	}
+
+	TinBullet: {
+		DisplayName: Tin Bullet
+	}
+
+	Hellwings: {
+		DisplayName: Hellwings
+	}
+
+	RubberBullet: {
+		DisplayName: Rubber Bullet
+	}
+
+	CopperBullet: {
+		DisplayName: Copper Bullet
+	}
+
+	HorizonTearII: {
+		DisplayName: Horizon Tear II
+	}
+
+	HorizonTear: {
+		DisplayName: Horizon Tear
+	}
+
+	HorizonBullet: {
+		DisplayName: Horizon Bullet
+	}
+
+	PhantasmArrow: {
+		DisplayName: Phantasm Arrow
+	}
+
+	PlumageSplash: {
+		DisplayName: Plumage Splash
+	}
+
+	PlumageBullseye: {
+		DisplayName: Plumage Bullseye
+	}
+
+	PlumageArrow: {
+		DisplayName: Plumage Arrow
+	}
+
+	DepletedUraniumBullet: {
+		DisplayName: Depleted Uranium Bullet
+	}
+
+	EatersBiteArrow: {
+		DisplayName: Eaters Bite Arrow
+	}
+
+	SpiderBullet: {
+		DisplayName: Spider Bullet
+	}
+
+	SpectreBullet: {
+		DisplayName: Spectre Bullet
+	}
+
+	EarlBullet: {
+		DisplayName: Earl Bullet
+	}
+
+	TinDross: {
+		DisplayName: Tin Dross
+	}
+
+	DaylightExplodes: {
+		DisplayName: Daylight Explodes
+	}
+
+	HellstoneBullet: {
+		DisplayName: Hellstone Bullet
+	}
+
+	SilverArrow: {
+		DisplayName: Silver Arrow
+	}
+
+	PalladiumArrow: {
+		DisplayName: Palladium Arrow
+	}
+
+	CobaltProjective: {
+		DisplayName: Cobalt Projective
+	}
+
+	CobaltArrow: {
+		DisplayName: Cobalt Arrow
+	}
+
+	OrichalcumBullet: {
+		DisplayName: Orichalcum Bullet
+	}
+
+	MythrilLight: {
+		DisplayName: Mythril Light
+	}
+
+	MythrilBullet: {
+		DisplayName: Mythril Bullet
+	}
+
+	TitaniumBullet: {
+		DisplayName: Titanium Bullet
+	}
+
+	TitaniumPetals: {
+		DisplayName: Titanium Petals
+	}
+
+	PetalsDebris: {
+		DisplayName: Petals Debris
+	}
+
+	TitaniumArrow: {
+		DisplayName: Titanium Arrow
+	}
+
+	AdamantiteBullet: {
+		DisplayName: Adamantite Bullet
+	}
+
+	AdamantiteArrow: {
+		DisplayName: Adamantite Arrow
+	}
+
+	TrueHallowedBullet: {
+		DisplayName: True Hallowed Bullet
+	}
+
+	HighVelocityNanoBullet: {
+		DisplayName: High Velocity Nano Bullet
+	}
+
+	ShadowFlameBullet: {
+		DisplayName: Shadow Flame Bullet
+	}
+
+	CursedFlamePrism: {
+		DisplayName: Cursed Flame Prism
+	}
+
+	FrostBullet: {
+		DisplayName: Frost Bullet
+	}
+
+	ShadowPrism: {
+		DisplayName: Shadow Prism
+	}
+
+	Prism: {
+		DisplayName: Prism
+	}
+
+	GlacierEnergy: {
+		DisplayName: Glacier Energy
+	}
+
+	GlacierBomb: {
+		DisplayName: Glacier Bomb
+	}
+
+	HallowedArrow: {
+		DisplayName: Hallowed Arrow
+	}
+
+	HallowedBullet: {
+		DisplayName: Hallowed Bullet
+	}
+
+	LifeLight: {
+		DisplayName: Life Light
+	}
+
+	ChlorophyteEnergy: {
+		DisplayName: Chlorophyte Energy
+	}
+
+	ChlorophyteBomb: {
+		DisplayName: Chlorophyte Bomb
+	}
+}
+
+NPCs: {
+	Moer: {
+		TownNPCMood: {
+			Princess_LovesNPC: 我喜欢 {NPCName}。
+			LikeNPC_Princess: 我喜欢 {NPCName}。
+			HateCrowded: There are so many people in the way!
+			DislikeCrowded: Please leave me some space.
+			LoveSpace: It's a bit empty, isn't it?
+			FarFromHome: desolate.
+			NoHome: It's good to be alone.
+			Content: I am satisfied.
+		}
+
+		DisplayName: Moer
+	}
+}
+
+Accessories: {
+	TechnologyChip: {
+		Tooltip:
+			'''
+			Armor Penetration +2
+			move Speed +20%
+			'''
+		DisplayName: Technology Chip
+	}
+
+	NatureChip: {
+		Tooltip:
+			'''
+			max Minions +1
+			Knock back +20%
+			'''
+		DisplayName: Nature Chip
+	}
+
+	MagicChip: {
+		Tooltip:
+			'''
+			Magic Armor Penetration +8
+			Mana Max +20
+			'''
+		DisplayName: Magic Chip
+	}
+
+	LifeChip: {
+		Tooltip:
+			'''
+			No Fall Dmg
+			life Regen +3
+			move Speed +8%
+			Knock back +40%
+			'''
+		DisplayName: Life Chip
+	}
+
+	DestroyChip: {
+		Tooltip:
+			'''
+			Armor Penetration +1
+			Base Damage +1
+			Flat Damage +1
+			'''
+		DisplayName: Destroy Chip
+	}
+}
+
+Configs: {
+	AmmoExpressConfig: {
+		EnableBroadcastEffects: {
+			Tooltip: 是否启用特殊的广播动画效果
+			Label: 启用广播效果
+		}
+
+		ShowWelcomeMessage: {
+			Tooltip: ""
+			Label: Show Welcome Message
+		}
+
+		DisplayName: Ammo Express Config
+	}
+}
+
+Important: {
+	CoralteSystem: {
+		UpdateNotice: Mods.AmmoExpress.Important.CoralteSystem.UpdateNotice
+		OnEnterWorld: Test text
+	}
+}
+
+Materials: {
+	SteelPipe: {
+		Tooltip: ""
+		DisplayName: Steel Pipe
+	}
+
+	SteelBlade: {
+		Tooltip: ""
+		DisplayName: Steel Blade
+	}
+
+	ChlorophyteExpressBox: {
+		DisplayName: Chlorophyte Express Box
+		Tooltip: ""
+	}
+
+	HellstoneExpressBox: {
+		DisplayName: Hellstone Express Box
+		Tooltip: ""
+	}
+}
+
+Items: {
+	EndlessSilverCoin: {
+		Tooltip: ""
+		DisplayName: Endless Silver Coin
+	}
+
+	EndlessPlatinumCoin: {
+		Tooltip: ""
+		DisplayName: Endless Platinum Coin
+	}
+
+	EndlessGoldCoin: {
+		Tooltip: ""
+		DisplayName: Endless Gold Coin
+	}
+
+	EndlessCopperCoin: {
+		Tooltip: ""
+		DisplayName: Endless Copper Coin
+	}
+
+	StakeCourierBox: {
+		Tooltip: ""
+		DisplayName: Stake Courier Box
+	}
+
+	SnowballCourierBox: {
+		Tooltip: ""
+		DisplayName: Snowball Courier Box
+	}
+
+	EndlessFallenStar: {
+		Tooltip: ""
+		DisplayName: Endless Fallen Star
+	}
+
+	CornCandyCourierBox: {
+		Tooltip: ""
+		DisplayName: Corn Candy Courier Box
+	}
+
+	DepletedUraniumBullet: {
+		Tooltip: ""
+		DisplayName: Depleted Uranium Bullet
+	}
+
+	DepletedUraniumBulletSupplyBox: {
+		Tooltip: ""
+		DisplayName: Re. Depleted Uranium Bullet Supply Box
+	}
+
+	EndlessGel: {
+		Tooltip: ""
+		DisplayName: Endless Gel
+	}
+}
+
+Buffs: {
+	Analgesic: {
+		Description: Mods.AmmoExpress.Buffs.Analgesic.Description
+		DisplayName: Analgesic
+	}
+
+	HallowedHunting: {
+		Description: Faster, more ruthless, regardless of the scars!
+		DisplayName: Hallowed Hunting
+	}
+
+	Tetanus: {
+		Description: You may not have much time
+		DisplayName: Tetanus
+	}
+
+	LeadPoisoning: {
+		Description: The Market Supervision Bureau will arrest you!
+		DisplayName: Lead Poisoning
+	}
+
+	KillTheSoCalledGods: {
+		Description: Kill You!
+		DisplayName: Kill The So Called Gods
+	}
+
+	UraniumRadiation: {
+		Description: As we all know, life requires energy intake, but not this energy
+		DisplayName: Uranium Radiation
+	}
+}
+

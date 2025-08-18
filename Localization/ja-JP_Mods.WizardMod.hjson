@@ -1,0 +1,1200 @@
+{
+	Items: {
+		DeepslatePickaxe: {
+			Tooltip: ""
+			DisplayName: "ディープスレートピッケル"
+		}
+		DeepslateHamaxe: {
+			Tooltip: "「木々は彼を憎んでいる！」"
+			DisplayName: "ディープスレートウォーアックス"
+		}
+		DarkTome: {
+			Tooltip: "'''\n闇の魔法のボルトを撃つ\n敵を腐敗させる\n'闇の魔法の力を使いこなせ'\n'''"
+			DisplayName: "ダークトーム"
+		}
+		Cyclone: {
+			Tooltip: "'''\n左クリックで無数の稲妻を放つ\n右クリックで25マナを消費し、壊滅的な雷を落とす\n分岐した稲妻は近くの敵に飛び移る\n'''"
+			DisplayName: "ザ・サイクロン"
+		}
+		CursedFlames: {
+			Tooltip: "'''\n呪いの炎とクリスタルの混合物を噴出する\nやや不正確\n'''"
+			DisplayName: "クリスタルフレイム"
+		}
+		ChainSpaceGun: {
+			Tooltip: "'''\nレーザーを連射する\nやや不正確\n'ピューピュー！'\n'''"
+			DisplayName: "チェーンスペースガン"
+		}
+		CelestialSky: {
+			Tooltip: "敵を追尾する高速回転する星のディスクを一対撃つ"
+			DisplayName: "セレスティアルスカイ"
+		}
+		BuriedTome: {
+			Tooltip: "着弾時に砕けて敵を混乱させる岩を撃つ"
+			DisplayName: "埋もれた書物"
+		}
+		BloodRippleStaff: {
+			Tooltip: "着弾時に血の渦巻く衝撃波を作り出す"
+			DisplayName: "ザ・ブラッドリッパー"
+		}
+		BatStaff: {
+			Tooltip: "コウモリを敵に群がらせる毒の塊を投射する"
+			DisplayName: "バットスワームスタッフ"
+		}
+		AurorStaff: {
+			Tooltip: "'''\nプレイヤーを電気でチャージする\n近くに来るか攻撃してきた敵を感電させる\n複数の敵をターゲットにできる\n'''"
+			DisplayName: "オーラースタッフ"
+		}
+		AshenStaff: {
+			Tooltip: "燃える岩の弾幕を放つ"
+			DisplayName: "ディープスレートスタッフ"
+		}
+		AquaticFury: {
+			Tooltip: "'''\n強力な水の爆風を発射\n着弾時にミニウォーターボルトを放出\n'''"
+			DisplayName: "アクアティックフューリー"
+		}
+		ApprenticeTome: {
+			Tooltip: "'''\n弱い魔法のボルトを撃つ\n敵にクレンジングデバフを与え、ヒーリングオーブを放出させる\nヒーリングオーブの力は魔法の威力に比例する\n'''"
+			DisplayName: "イネプトトーム"
+		}
+
+		AmethystScepter: {
+			Tooltip: "アメジストボルトの弾幕を放つ"
+			DisplayName: "アメジストトライデント"
+		}
+		PocketFireball: {
+			Tooltip: "'''\n逃走中のメイジに便利\n敵を短時間炎上させる\n'''"
+			DisplayName: "ポケットファイアボール"
+		}
+		EnchantedDagger: {
+			Tooltip: "ナイフのようだが、魔法だ"
+			DisplayName: "エンチャントダガー"
+		}
+		WizardTableItem: {
+			Tooltip: "強力な天界の装備を鍛造するために使用"
+			DisplayName: "ジ・アルカナム"
+		}
+		ArcaneTableItem: {
+			Tooltip: "'''\n'お前は魔法使いだ！'\n魔法のアイテムを作るために使用\n'''"
+			DisplayName: "アーケインテーブル"
+		}
+		LivingWoodRobe: {
+			Tooltip: "'''\n最大マナが20増加\nマナ消費が5%減少\n'''"
+			DisplayName: "リビングチュニック"
+		}
+		LivingWoodMask: {
+			Tooltip: "魔法ダメージが5%増加"
+			DisplayName: "リビングフード"
+		}
+		LivingWoodLegs: {
+			Tooltip: "移動速度が5%増加"
+			DisplayName: "リビングレギンス"
+		}
+		GandalfRobe: {
+			Tooltip: "'''\n魔法ダメージとクリティカル率が7%増加\n最大マナが120増加\n'''"
+			DisplayName: "デスイーターのローブ"
+		}
+		GandalfLegs: {
+			Tooltip: "'''\n移動速度が15%増加\nクリティカル時のマナ回復量が4増加\n魔法の威力が5増加\n'''"
+			DisplayName: "デスイーターのパンツ"
+		}
+		GandalfHat: {
+			Tooltip: "'''\n魔法ダメージが15%増加\nマナ消費が12%減少\n'''"
+			DisplayName: "デスイーターのハット"
+		}
+		EnchantedTunic: {
+			Tooltip: "'''\n魔法ダメージとクリティカル率が3%増加\nマナ消費が7%減少\n最大マナが20増加\nクリティカル時のマナ回復量が1増加\n'''"
+			DisplayName: "エンチャントチュニック"
+		}
+		EnchantedLegs: {
+			Tooltip: "'''\n魔法ダメージが5%増加\n移動速度が7%増加\n'''"
+			DisplayName: "エンチャントレッグ"
+		}
+		EnchantedHead: {
+			Tooltip: "'''\n魔法ダメージが5%増加\n最大マナが40増加\n'''"
+			DisplayName: "エンチャントカウル"
+		}
+		DeepslateLegs: {
+			Tooltip: "'''\n移動速度が12%増加\nクリティカル時のマナ回復量が2増加\n'''"
+			DisplayName: "ディープスレートレギンス"
+		}
+		DeepslateHood: {
+			Tooltip: "'''\n魔法ダメージが12%増加\n最大マナが80増加\n'''"
+			DisplayName: "ディープスレートフード"
+		}
+		DeepslateChestplate: {
+			Tooltip: "魔法クリティカル率とダメージが6%増加"
+			DisplayName: "ディープスレートチェストプレート"
+		}
+		Beard: {
+			Tooltip: "髪の遺伝子が悪い人々のための髭"
+			DisplayName: "見覚えのある髭"
+		}
+		VampireRing: {
+			Tooltip: "'''\n魔法攻撃が敵を出血させることがある\n300ダメージを与えた後、小さなホーミングする真紅の粒子が放出される\nホーミング粒子はライフを奪う\n'''"
+			DisplayName: "ヴァンパイアのサークレット"
+		}
+		OvergrownPendant: {
+			Tooltip: "'''\n敵は倒されるとヴァイルソーンに爆発する\n魔法攻撃が敵を毒にすることがある\n'''"
+			DisplayName: "生い茂ったペンダント"
+		}
+		MoltenRing: {
+			Tooltip: "'''\n戦闘中、フェニックスが時々敵に急降下爆撃する\n魔法攻撃が深い火傷を負わせることがある\n'''"
+			DisplayName: "モルテンリング"
+		}
+		LunarLoop: {
+			Tooltip: "'''\n最大マナが20増加\n魔法ダメージが7%増加\n魔法の威力が1増加\n'''"
+			DisplayName: "スターダストループホール"
+		}
+		LifeCrystal: {
+			Tooltip: "'''\n最大ライフが40増加\nライフ回復がわずかに増加\n'''"
+			DisplayName: "ピュアストーン"
+		}
+		EnchantedWard: {
+			Tooltip: "'''\n'あなたは魔法に守られている'\n魔法で防御力を増加させる\n体力が低いほど、防御は大きくなる\n最大防御力は12\n'''"
+			DisplayName: "エンチャントシールド"
+		}
+		CorruptRing: {
+			Tooltip: "'''\n魔法攻撃が敵を腐敗または腐食させることがある\n250ダメージを与えた後、小さなホーミングする不浄な粒子が放出される\n'''"
+			DisplayName: "コラプトリングレット"
+		}
+		ConjurerCrystal: {
+			Tooltip: "'''\n最大マナが40増加\n最大ライフが40増加\nマナとライフの回復が増加\nクリティカル時のマナ回復量が2増加\n魔法の威力が1増加\n'''"
+			DisplayName: "コンジュラーズクリスタル"
+		}
+		ClearCrystal: {
+			Tooltip: "'''\n最大マナが40増加\nクリティカル時のマナ回復量が1増加\n魔法の威力が1増加\n'''"
+			DisplayName: "クリアストーン"
+		}
+		ChaosEnchantment: {
+			Tooltip: "'''\n'混沌よ、支配せよ！'\nデバフは毎秒近くの敵に広がる\n再適用されたデバフはすぐに消える\n'''"
+			DisplayName: "カオスエンチャントメント"
+		}
+		CelestialHoop: {
+			Tooltip: "'''\n最大マナが40増加\n魔法ダメージとクリティカル率が7%増加\n魔法の威力が1増加\n攻撃されるとスターダストサイスを放出する\n'''"
+			DisplayName: "セレスティアルフープ"
+		}
+		ArcaneShield: {
+			Tooltip: "'''\n'あなたは魔法に守られている'\n防御力が12%増加\n攻撃されると、プレイヤーの周りに魔法のバリアが作られ、近づくもの全てにダメージを与える\n魔法のバリアの力は魔法クリティカル率に比例する\n10秒のクールダウンがある\nノックバックと炎ブロックへの耐性を付与\n'''"
+			DisplayName: "アーケインシールド"
+		}
+		ArcaneOrb: {
+			Tooltip: "'''\n純粋な魔術の魔法を保持\n魔法ダメージとクリティカル率が5%増加\n魔法の威力が1増加\n'''"
+			DisplayName: "アーケインオーブ"
+		}
+		AetherAmulet: {
+			Tooltip: "'''\n攻撃された後の無敵時間が大幅に増加\n攻撃されると、プレイヤーは魔法能力を向上させるアーケインバフを受ける\nアーケインバフは発動後30秒のクールダウンがある\n'''"
+			DisplayName: "エーテルアミュレット"
+		}
+		DeepslateTome: {
+			DisplayName: "アッシュントーム"
+			Tooltip: "空からディープスレートの猛攻撃を放つ"
+		}
+		DemonGauntlet: {
+			DisplayName: "ドレッドカッター [未完成]"
+			Tooltip: "'''\n左クリックで敵を突き刺し、振り回す\n右クリックで複数の敵を斬りつける\n'''"
+		}
+		DemonWaveStaff: {
+			DisplayName: "デーモンウェーブスタッフ"
+			Tooltip: "着弾時に渦巻く衝撃波を作り出す"
+		}
+		DiamondScepter: {
+			DisplayName: "ザ・ダイヤモンドテンドリル"
+			Tooltip: "ダイヤモンドボルトの弾幕を投射"
+		}
+		EbonwoodStaff: {
+			DisplayName: "エボンウッドスタッフ"
+			Tooltip: "闇のボルトを撃つ"
+		}
+		EmeraldScepter: {
+			DisplayName: "エメラルドセプター"
+			Tooltip: "敵にエメラルドの水を吹きかける"
+		}
+		EnchantedGauntlet: {
+			DisplayName: "エンチャントガントレット"
+			Tooltip: "'''\n左クリックで拳を放つ\n右クリックで10マナを消費して一時的に拳をチャージ\n'''"
+		}
+		EnchantedTome: {
+			DisplayName: "エンチャントトーム"
+			Tooltip: "純粋な魔法のボルトを連射"
+		}
+		Energizer: {
+			DisplayName: "エナジーブラスター"
+			Tooltip: "ミニチュアホーミング粒子に爆発する緑のエネルギー球を放つ"
+		}
+		EnergyStaff: {
+			DisplayName: "エンシェントワンド"
+			Tooltip: "'''\nカーソルの周りに魔法の威力に比例するヒーリングルーンを作成\nルーンに触れた敵は毒になる\n'''"
+		}
+		Fiendfyre: {
+			DisplayName: "フィーンドファイア"
+			Tooltip: "'''\n左クリックを長押しして、深く燃える炎の巨大な集中爆風を放つ\n'この場所を全部燃やし尽くせ！'\n'''"
+		}
+		FireBolt: {
+			DisplayName: "マグマウェーブ"
+			Tooltip: "ゆっくりと動くマグマの波を撃つ"
+		}
+		FrostBolt: {
+			DisplayName: "パーマフロスト"
+			Tooltip: "'''\n氷のボルトを連射\n弱い敵を凍らせることがある\n'''"
+		}
+		Glacier: {
+			DisplayName: "ザ・グレイシャー"
+			Tooltip: "'''\n高速で貫通する氷の巨大な爆風を撃つ\n発射物から飛び散る氷のかけらで空を満たす\n'''"
+		}
+		GoreDrinker: {
+			DisplayName: "ゴアドリンカー"
+			Tooltip: "'''\n左クリックで血まみれの背骨を放ち、消耗デバフの敵からライフを奪う\n右クリックで消耗デバフを与える血まみれの発射物を撃つ\n'''"
+		}
+		GreenGauntlet: {
+			DisplayName: "ブランブルブレーサー"
+			Tooltip: "'''\n左クリックで毒のある木の棘をバースト射撃\n右クリックで敵を斬りつける\n'''"
+		}
+		Hailstorm: {
+			DisplayName: "ヘイルストーム"
+			Tooltip: "空から凍った爆弾を連射"
+		}
+		LavacoreStaff: {
+			DisplayName: "ラヴァコアスタッフ"
+			Tooltip: "凍った岩と燃える岩の弾幕を放つ"
+		}
+		LeafTome: {
+			DisplayName: "リーフトーム"
+			Tooltip: "'''\n敵に葉を連射\nやや不正確\n'''"
+		}
+		LightningTome: {
+			DisplayName: "ザ・ザップ"
+			Tooltip: "プレイヤーのカーソルに短い電流を作り出し、電気の触手を放出"
+		}
+		LivingStaff: {
+			DisplayName: "モッシーワンド"
+			Tooltip: "'''\n自然エネルギーの球を撃つ\n近くの敵に緑のエネルギーボルトを放出\n'''"
+		}
+		MagmaSphere: {
+			DisplayName: "マグマスフィア"
+			Tooltip: "'''\n近くの敵を感電させる燃えるエネルギーの輝く球を投射\n複数の球が同時に存在できる\n'''"
+		}
+		MasterTome: {
+			DisplayName: "ソーサラーズトーム"
+			Tooltip: "'''\n敵にわずかにホーミングする強力な魔法のコイルを撃つ\nクレンジングデバフを与える\n'''"
+		}
+		Molder: {
+			DisplayName: "ザ・モルダラー"
+			Tooltip: "'''\n左クリックで貫通する腐った歯を放ち、腐敗した敵に対してより多くのダメージを与える\n右クリックで腐敗デバフを与える感染性の発射物を撃つ\n'''"
+		}
+		Monsoon: {
+			DisplayName: "ザ・モンスーン"
+			Tooltip: "'''\n複数の強力な水の爆風を発射\n着弾時に小さな水の台風を作り出す\n'''"
+		}
+		MotherEarth: {
+			DisplayName: "マザーアース [未コード]"
+			Tooltip: "「地球そのものの破壊的な力を含む」"
+		}
+		NecroticTome: {
+			DisplayName: "ネクロティックトーム"
+			Tooltip: "'''\nライフを奪う闇のオーブの弾幕を放つ\n壁で跳ね返る\n'''"
+		}
+		RadiationCannon: {
+			DisplayName: "放射線キャノン"
+			Tooltip: "'''\n多数のホーミング粒子に爆発するイオン爆風を放つ\n着弾時に放射線病デバフを与える\n'''"
+		}
+		RainbowStaff: {
+			DisplayName: "ジェムスパークフラッシュ"
+			Tooltip: "'''\n全ての宝石スタッフの効果を持つ\n2回目の攻撃ごとにエメラルドの雨粒を投射\n3回目の攻撃ごとにトパーズのビームを投射\n4回目の攻撃ごとに虹色のビームをバースト射撃\n槍としても機能する\n'''"
+		}
+		Reaper: {
+			DisplayName: "ザ・リーパー"
+			Tooltip: "'''\n敵を闇の魔法で消費する\n'それは禁断のセクションにあった'\n'''"
+		}
+		Relic: {
+			DisplayName: "ザ・レリック"
+			Tooltip: "'''\n着弾時に砂の爆発を起こすほこりっぽい化石を放つ\n地面に残り、踏んだ敵にダメージを与える貫通する岩を作り出す\n残った岩は縮小し、最終的に爆発する\n'''"
+		}
+		RubyScepter: {
+			DisplayName: "ルビーパイク"
+			Tooltip: "敵を突き刺しながらルビーのビームを投射"
+		}
+		SapphireScepter: {
+			DisplayName: "サファイアカドゥケウス"
+			Tooltip: "4回目のショットごとに小さなサファイアボルトを放出するサファイアのビームを投射"
+		}
+		ShadewoodStaff: {
+			DisplayName: "シェイドウッドスタッフ"
+			Tooltip: "血のボルトを撃つ"
+		}
+		ShadowTome: {
+			DisplayName: "シャドウトーム"
+			Tooltip: "'''\n貫通する闇の魔法のボルトを放つ\n敵を腐敗させる\n腐敗効果は2回スタックする\n'''"
+		}
+		SorcererTome: {
+			DisplayName: "アプレンティストーム"
+			Tooltip: "'''\n壁で跳ね返り、着弾時にヒーリングボルトを放出する魔法のボルトを撃つ\nクレンジングデバフを与える\n'''"
+		}
+		SparkStaff: {
+			DisplayName: "スパークスタッフ"
+			Tooltip: "火花の波を投射"
+		}
+		SpiralWand: {
+			DisplayName: "デスイーターワンド"
+			Tooltip: "'''\n左クリックを長押しして闇の螺旋に変わる\nマナを急速に消耗する\n活動中はホーミングする腐敗した頭蓋骨が放出される\nプレイヤーが壁を通り抜けられるようにする\n'''"
+		}
+		StardustStaff: {
+			DisplayName: "スターダストスライサー"
+			Tooltip: "高速回転する星のディスクを撃つ"
+		}
+		StormSender: {
+			DisplayName: "ストームセンダー"
+			Tooltip: "'''\n壁で跳ね返る複数の稲妻を投射\n分岐した稲妻はダメージが半減する\n'''"
+		}
+		Supernova: {
+			DisplayName: "スーパーノヴァ"
+			Tooltip: "'''\n左クリックで敵にホーミングする高速回転する星のディスクを一対撃つ\n右クリックで100マナを消費して致命的な超新星を設置\n真のマナを使用\n'''"
+		}
+		ThunderStaff: {
+			DisplayName: "サンダースタッフ"
+			Tooltip: "'''\n小さな稲妻を投射\n'それは赤ちゃんの頃のゼウスのお気に入りのおもちゃだった'\n'''"
+		}
+		TopazScepter: {
+			DisplayName: "トパーズステイブ"
+			Tooltip: "壁で跳ね返る黄色い光のビームを撃つ"
+		}
+		TumorTome: {
+			DisplayName: "ザ・チューマー"
+			Tooltip: "'''\n敵が死ぬまで短時間くっつく腫瘍を撃つ\nクリティカルヒット時に敵のライフを消耗させる\n一度に1つの腫瘍しか存在できない\n'''"
+		}
+		WaterFront: {
+			DisplayName: "ザ・ウォーターフロント"
+			Tooltip: "'''\n深い水のゆっくり動くボルトを投射\n着弾時に上方に飛んでから降り注ぐミニチュアウォーターボルトを作り出す\n'''"
+		}
+		Weeper: {
+			DisplayName: "ザ・ウィーパー"
+			Tooltip: "'''\n闇の魔法の爆風を投射\n敵をより長く腐敗させる\n腐敗効果は3回スタックする\n'''"
+		}
+		WildFire: {
+			DisplayName: "ワイルドファイア"
+			Tooltip: "'''\n左クリックを長押しして集中した炎の爆風を放つ\n'ロラックスがお前を追ってくる…'\n'''"
+		}
+		WizardTome: {
+			DisplayName: "ウィザーズトーム"
+			Tooltip: "'''\n魔法の連射を放つ\n中央のボルトは敵にホーミングする\n味方を大幅に回復する\n'''"
+		}
+		XionTome: {
+			DisplayName: "シオンの夢の書"
+			Tooltip: "'''\nプレイヤーの周りに夢のような炎のコイルを召喚\n色のしぶきと共に爆発\n'''"
+		}
+		BookRecipe: {
+			DisplayName: "本のレシピ"
+			Tooltip: ""
+		}
+		DeepslateBar: {
+			DisplayName: "ディープスレートバー"
+			Tooltip: "「灰の中から生まれ変わる」"
+		}
+		EnchantedBook: {
+			DisplayName: "エンチャントされた本"
+			Tooltip: "魔法の書をクラフトするために使用"
+		}
+		EnchantedShard: {
+			DisplayName: "エンチャントされた破片"
+			Tooltip: "強力な魔法の装備を作成するために使用"
+		}
+		EnchantedSilk: {
+			DisplayName: "エンチャントされたシルク"
+			Tooltip: "'''\n「青くなった！」\n魔法の装備を作成するために使用\n'''"
+		}
+		FrozenShard: {
+			DisplayName: "凍った破片"
+			Tooltip: "「氷の魔法が込められている」"
+		}
+		InfusedCrystal: {
+			DisplayName: "ウィザーズクリスタル"
+			Tooltip: "'''\n最大マナを永久に200に上げる\n一度しか使用できない\n'''"
+		}
+		InfusedStar: {
+			DisplayName: "ルナエッセンス"
+			Tooltip: "'''\n魔法の武器や呪文をクラフトするために使用\n'必要なのは信仰、信頼、そしてスターダストだけ！'\n'''"
+		}
+		LivingShard: {
+			DisplayName: "リビングシャード"
+			Tooltip: "「母なる自然の力が込められている」"
+		}
+		LunarBar: {
+			DisplayName: "クリスタルスラブ"
+			Tooltip: "'''\n致命的な武器を鍛造するために使用\n'古代の力を含む'\n'''"
+		}
+		MagicSoul: {
+			DisplayName: "魔法のエッセンス"
+			Tooltip: "'''\n魔法のアイテムをクラフトするために使用\n見習いと交換できる\n'''"
+		}
+		MetalBand: {
+			DisplayName: "メタルバンド"
+			Tooltip: "'''\n魔法の指輪をクラフトするために使用\n'ビヨンセも大好き！'\n'''"
+		}
+		MoltenShard: {
+			DisplayName: "モルテンシャード"
+			Tooltip: "「火の魔法が込められている」"
+		}
+		Paper: {
+			DisplayName: "紙"
+			Tooltip: "巻物や本をクラフトするために使用"
+		}
+		Scroll: {
+			DisplayName: "巻物"
+			Tooltip: "魔法の巻物やルーンをクラフトするために使用"
+		}
+		SkyCrystal: {
+			DisplayName: "スカイクリスタル"
+			Tooltip: "「空の魔法が込められている」"
+		}
+		StarterBag: {
+			DisplayName: "ウィザーズポーチ"
+			Tooltip: "'''\n右クリックで開ける\n魔法の品々の詰め合わせが入っている\n'''"
+		}
+		XionTomeDamaged: {
+			DisplayName: "破損したシオンの書"
+			Tooltip: "'''\n内側から古代の力が響くのを感じる\n修理可能\n'''"
+		}
+		Cauldron: {
+			DisplayName: "大釜"
+			Tooltip: ""
+		}
+		CloudBottle: {
+			DisplayName: "雲の瓶"
+			Tooltip: ""
+		}
+		CrimtaneBar: {
+			DisplayName: "クリムタンインゴット"
+			Tooltip: ""
+		}
+		CrystalShard: {
+			DisplayName: "クリスタルの破片"
+			Tooltip: ""
+		}
+		DemoniteBar: {
+			DisplayName: "デモナイトインゴット"
+			Tooltip: ""
+		}
+		HerbBag: {
+			DisplayName: "ハーブバッグ"
+			Tooltip: ""
+		}
+		LifeBand: {
+			DisplayName: "ライフバンド"
+			Tooltip: ""
+		}
+		LivingWoodWand: {
+			DisplayName: "リビングウッドワンド"
+			Tooltip: ""
+		}
+		MagicHat: {
+			DisplayName: "マジックハット"
+			Tooltip: ""
+		}
+		ManaFlower: {
+			DisplayName: "マナフラワー"
+			Tooltip: ""
+		}
+		ShadowScale: {
+			DisplayName: "シャドウスケール"
+			Tooltip: ""
+		}
+		SorcererEmblem: {
+			DisplayName: "ソーサラーエンブレム"
+			Tooltip: ""
+		}
+		StarBand: {
+			DisplayName: "スターバンド"
+			Tooltip: ""
+		}
+		TissueSample: {
+			DisplayName: "ティッシュサンプル"
+			Tooltip: ""
+		}
+		WandOfSparking: {
+			DisplayName: "スパークの杖"
+			Tooltip: ""
+		}
+		CharredScroll: {
+			DisplayName: "焦げた巻物"
+			Tooltip: ""
+		}
+		IceScroll: {
+			DisplayName: "氷の巻物"
+			Tooltip: ""
+		}
+		LivingScroll: {
+			DisplayName: "リビングスクロール"
+			Tooltip: ""
+		}
+		WaterScroll: {
+			DisplayName: "水の巻物"
+			Tooltip: ""
+		}
+		BestHealingSpell: {
+			DisplayName: "最高のヒーリングスペル"
+			Tooltip: ""
+		}
+		GlassVial: {
+			DisplayName: "ガラスの小瓶"
+			Tooltip: ""
+		}
+		GreaterManaSpell: {
+			DisplayName: "グレーターマナスペル"
+			Tooltip: ""
+		}
+		GreatHealingSpell: {
+			DisplayName: "グレートヒーリングスペル"
+			Tooltip: ""
+		}
+		GreatManaSpell: {
+			DisplayName: "グレートマナスペル"
+			Tooltip: ""
+		}
+		HealVialSpell: {
+			DisplayName: "ヒールバイアルスペル"
+			Tooltip: ""
+		}
+		HoneySpell: {
+			DisplayName: "ハニースペル"
+			Tooltip: ""
+		}
+		HoneyVial: {
+			DisplayName: "ハニーバイアル"
+			Tooltip: ""
+		}
+		ManaSpell: {
+			DisplayName: "マナスペル"
+			Tooltip: ""
+		}
+		PoisonSpell: {
+			DisplayName: "ポイズンスペル"
+			Tooltip: ""
+		}
+		WaterVial: {
+			DisplayName: "ウォーターバイアル"
+			Tooltip: ""
+		}
+	}
+	Buffs: {
+		SpellDebuff: {
+			Description: "呪文を投げられない！"
+			DisplayName: "スペルショック"
+		}
+		SlowBuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		RottenDebuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		RadiationDebuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		ManaBuff: {
+			Description: ""
+			DisplayName: ""
+		}
+		LightDebuff4: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		LightDebuff3: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		LightDebuff2: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		LightDebuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		LifestealDebuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		ElectrifiedBuff: {
+			Description: "あなたは電気を帯びている"
+			DisplayName: "感電"
+		}
+		DeepslateBuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		DarknessDebuff_3: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		DarknessDebuff_2: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		DarknessDebuff: {
+			Description: "矢のダメージが10%増加"
+			DisplayName: "鋭利な矢"
+		}
+		ArcaneShieldCooldown: {
+			Description: "マジックバリアはクールダウン中"
+			DisplayName: "マジックバリアクールダウン"
+		}
+		ArcaneShieldBuff: {
+			Description: "魔法のバリアがあなたを囲む"
+			DisplayName: "マジックバリア"
+		}
+		ArcaneDebuff: {
+			Description: "アーケインパワーバフはクールダウン中"
+			DisplayName: "アーケインクールダウン"
+		}
+		ArcaneBuff: {
+			Description: "魔法と戦闘能力が大幅に向上"
+			DisplayName: "アーケインパワー"
+		}
+	}
+	Tiles: {
+		WizardTable: {
+			MapEntry: "ジ・アルカナム"
+		}
+		ArcaneTable: {
+			MapEntry: "アーケインテーブル"
+		}
+	}
+	NPCs: {
+		GemSlime: {
+			DisplayName: "ジェムスライム"
+		}
+		SpellSlime: {
+			DisplayName: "スペルスライム"
+		}
+		Apprentice: {
+			DisplayName: "見習い"
+			TownNPCMood: {
+				Content: "私は満足だ"
+				NoHome: "家がないのは嫌だ"
+				FarFromHome: "家から遠すぎる"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeBiome: "私は{BiomeName}が好き"
+				LikeNPC: "私は{NPCName}が好き"
+			}
+			Census: {
+				SpawnCondition: "条件不明"
+			}
+		}
+	}
+	Prefixes: {
+		Bewitched: {
+			DisplayName: "魔法にかかった"
+		}
+		Blessed: {
+			DisplayName: "祝福された"
+		}
+		Cursed: {
+			DisplayName: "呪われた"
+		}
+		Divine: {
+			DisplayName: "神聖な"
+		}
+		Enchanted: {
+			DisplayName: "エンチャントされた"
+		}
+	}
+	Projectiles: {
+		EnchantedDaggerProjectile: {
+			DisplayName: "エンチャントダガー発射体"
+		}
+		AmethystBeam: {
+			DisplayName: "アメジストビーム"
+		}
+		ApprenticeProj: {
+			DisplayName: "見習いの発射体"
+		}
+		AquaticFuryProj1: {
+			DisplayName: "アクアティックフューリー発射体1"
+		}
+		AquaticFuryProj2: {
+			DisplayName: "アクアティックフューリー発射体2"
+		}
+		ArcaneShieldProj: {
+			DisplayName: "アーケインシールド発射体"
+		}
+		ArcaneShieldProj2: {
+			DisplayName: "アーケインシールド発射体2"
+		}
+		ArcaneShieldProj3: {
+			DisplayName: "アーケインシールド発射体3"
+		}
+		ArcaneShieldProj4: {
+			DisplayName: "アーケインシールド発射体4"
+		}
+		AshenProj: {
+			DisplayName: "アッシュン発射体"
+		}
+		AshenProj2: {
+			DisplayName: "アッシュン発射体2"
+		}
+		AshenTomeProj: {
+			DisplayName: "アッシュントーム発射体"
+		}
+		AurorProj: {
+			DisplayName: "オーラー発射体"
+		}
+		BatOrbProj: {
+			DisplayName: "バットオーブ発射体"
+		}
+		BatProj: {
+			DisplayName: "バット発射体"
+		}
+		BatProj2: {
+			DisplayName: "バット発射体2"
+		}
+		BloodyProj: {
+			DisplayName: "ブラッディ発射体"
+		}
+		BlueMagicProj: {
+			DisplayName: "ブルーマジック発射体"
+		}
+		BunnyProj: {
+			DisplayName: "バニー発射体"
+		}
+		CactusProj: {
+			DisplayName: "カクタス発射体"
+		}
+		CelestialSkyProj: {
+			DisplayName: "セレスティアルスカイ発射体"
+		}
+		ChainSpaceLaser: {
+			DisplayName: "チェーンスペースレーザー"
+		}
+		CrimsonWave: {
+			DisplayName: "クリムゾンウェーブ"
+		}
+		CrimsonWaveProj: {
+			DisplayName: "クリムゾンウェーブ発射体"
+		}
+		CycloneLightning: {
+			DisplayName: "サイクロンライトニング"
+		}
+		CycloneLightningForked: {
+			DisplayName: "サイクロンライトニング（分岐）"
+		}
+		DarkExplosion: {
+			DisplayName: "ダークエクスプロージョン"
+		}
+		DarkProj: {
+			DisplayName: "ダーク発射体"
+		}
+		DeathEaterProj: {
+			DisplayName: "デスイーター発射体"
+		}
+		DeathEaterSkullPlayer: {
+			DisplayName: "デスイータースカルプレイヤー"
+		}
+		DeathProj: {
+			DisplayName: "デス発射体"
+		}
+		DeepslateBolt: {
+			DisplayName: "ディープスレートボルト"
+		}
+		DemonGauntletProjectile: {
+			DisplayName: "デーモンガントレット発射体"
+		}
+		DemonWave: {
+			DisplayName: "デーモンウェーブ"
+		}
+		DemonWaveProj: {
+			DisplayName: "デーモンウェーブ発射体"
+		}
+		DiamondBeam: {
+			DisplayName: "ダイヤモンドビーム"
+		}
+		DreamProj: {
+			DisplayName: "ドリーム発射体"
+		}
+		DreamProj2: {
+			DisplayName: "ドリーム発射体2"
+		}
+		EbonwoodProj: {
+			DisplayName: "エボンウッド発射体"
+		}
+		EmeraldBeam: {
+			DisplayName: "エメラルドビーム"
+		}
+		EmeraldBeamReal: {
+			DisplayName: "エメラルドビーム（リアル）"
+		}
+		EmeraldSnakeBody: {
+			DisplayName: "エメラルドスネーク（胴体）"
+		}
+		EmeraldSnakeHead: {
+			DisplayName: "エメラルドスネーク（頭）"
+		}
+		EnchantedGauntletCharged: {
+			DisplayName: "エンチャントガントレット（チャージ）"
+		}
+		EnchantedGauntletProjectile: {
+			DisplayName: "エンチャントガントレット発射体"
+		}
+		EnchantedGauntletShield: {
+			DisplayName: "エンチャントガントレットシールド"
+		}
+		EnchantedProj: {
+			DisplayName: "エンチャント発射体"
+		}
+		EnergizerLaser: {
+			DisplayName: "エナジャイザーレーザー"
+		}
+		EnergizerLightning: {
+			DisplayName: "エナジャイザーライトニング"
+		}
+		EnergyLightning: {
+			DisplayName: "エネルギーライトニング"
+		}
+		EnergyProj: {
+			DisplayName: "エネルギー発射体"
+		}
+		EnergyProjMiddle: {
+			DisplayName: "エネルギー発射体（中央）"
+		}
+		ExampleLaser: {
+			DisplayName: "サンプルレーザー"
+		}
+		Explosion: {
+			DisplayName: "爆発"
+		}
+		ExplosionDark: {
+			DisplayName: "ダークエクスプロージョン"
+		}
+		ExplosionIce: {
+			DisplayName: "アイスエクスプロージョン"
+		}
+		ExplosionLarge: {
+			DisplayName: "大爆発"
+		}
+		FiendfyreLaser: {
+			DisplayName: "フィーンドファイアレーザー"
+		}
+		FireballDie: {
+			DisplayName: "ファイアボール消滅"
+		}
+		FireballDieIce: {
+			DisplayName: "アイスファイアボール消滅"
+		}
+		FireBoltHeld: {
+			DisplayName: "ファイアボルト（保持）"
+		}
+		FireBoltNormal: {
+			DisplayName: "ファイアボルト（通常）"
+		}
+		FireBoltProj: {
+			DisplayName: "ファイアボルト発射体"
+		}
+		FlameProj: {
+			DisplayName: "フレイム発射体"
+		}
+		FreezeFlameProj: {
+			DisplayName: "フリーズフレイム発射体"
+		}
+		FreezeFlameProj2: {
+			DisplayName: "フリーズフレイム発射体2"
+		}
+		FrostBoltProj: {
+			DisplayName: "フロストボルト発射体"
+		}
+		FrostProj: {
+			DisplayName: "フロスト発射体"
+		}
+		FrozenProj: {
+			DisplayName: "フローズン発射体"
+		}
+		FrozenProj2: {
+			DisplayName: "フローズン発射体2"
+		}
+		GandalfFireProj: {
+			DisplayName: "ガンダルフファイア発射体"
+		}
+		GlacierProj: {
+			DisplayName: "グレイシャー発射体"
+		}
+		GreenGauntletHeld: {
+			DisplayName: "グリーンガントレット（保持）"
+		}
+		HealingOrb: {
+			DisplayName: "ヒーリングオーブ"
+		}
+		HealingOrb2: {
+			DisplayName: "ヒーリングオーブ2"
+		}
+		HealingOrb3: {
+			DisplayName: "ヒーリングオーブ3"
+		}
+		HealingOrb4: {
+			DisplayName: "ヒーリングオーブ4"
+		}
+		HellFireBolt: {
+			DisplayName: "ヘルファイアボルト"
+		}
+		HomingCrimson: {
+			DisplayName: "ホーミングクリムゾン"
+		}
+		IceBoltProj: {
+			DisplayName: "アイスボルト発射体"
+		}
+		IcicleProj: {
+			DisplayName: "つらら発射体"
+		}
+		LifestealProj: {
+			DisplayName: "ライフスティール発射体"
+		}
+		LightExplosion: {
+			DisplayName: "ライトエクスプロージョン"
+		}
+		LightningDirection: {
+			DisplayName: "ライトニングディレクション"
+		}
+		LightningProj: {
+			DisplayName: "ライトニング発射体"
+		}
+		LivingOrb: {
+			DisplayName: "リビングオーブ"
+		}
+		LivingProj: {
+			DisplayName: "リビング発射体"
+		}
+		MagicProjBasic: {
+			DisplayName: "基本魔法発射体"
+		}
+		MagicProjSmall: {
+			DisplayName: "小型魔法発射体"
+		}
+		MagicWandProj: {
+			DisplayName: "魔法の杖発射体"
+		}
+		MagmaLightning: {
+			DisplayName: "マグマライトニング"
+		}
+		MasterProj: {
+			DisplayName: "マスター発射体"
+		}
+		MoltenSphere: {
+			DisplayName: "モルテンスフィア"
+		}
+		MonsoonBlast: {
+			DisplayName: "モンスーンブラスト"
+		}
+		NecroticExplosion: {
+			DisplayName: "ネクロティックエクスプロージョン"
+		}
+		NecroticOrb: {
+			DisplayName: "ネクロティックオーブ"
+		}
+		PocketFireballProjectile: {
+			DisplayName: "ポケットファイアボール発射体"
+		}
+		RadiationLaser: {
+			DisplayName: "放射線レーザー"
+		}
+		RadiationLightning: {
+			DisplayName: "放射線ライトニング"
+		}
+		RadiationProjectile: {
+			DisplayName: "放射線発射体"
+		}
+		RainbowBeam: {
+			DisplayName: "レインボービーム"
+		}
+		RainbowSpear: {
+			DisplayName: "レインボースピア"
+		}
+		ReaperProj: {
+			DisplayName: "リーパー発射体"
+		}
+		RelicRock: {
+			DisplayName: "レリックロック"
+		}
+		RelicRockSmash: {
+			DisplayName: "レリックロックスマッシュ"
+		}
+		RockSmashPartProj: {
+			DisplayName: "ロックスマッシュパーツ発射体"
+		}
+		RockSmashProj: {
+			DisplayName: "ロックスマッシュ発射体"
+		}
+		RottenProj: {
+			DisplayName: "腐敗発射体"
+		}
+		RubyBeam: {
+			DisplayName: "ルビービーム"
+		}
+		RubySpear: {
+			DisplayName: "ルビースピア"
+		}
+		SapphireBeam: {
+			DisplayName: "サファイアビーム"
+		}
+		SapphireBeamMini: {
+			DisplayName: "サファイアビームミニ"
+		}
+		ShadewoodProj: {
+			DisplayName: "シェイドウッド発射体"
+		}
+		ShadowExplosion: {
+			DisplayName: "シャドウエクスプロージョン"
+		}
+		ShadowProj: {
+			DisplayName: "シャドウ発射体"
+		}
+		SorcererProj: {
+			DisplayName: "ソーサラー発射体"
+		}
+		SparkProj: {
+			DisplayName: "スパーク発射体"
+		}
+		SpellSlimeProj: {
+			DisplayName: "スペルスライム発射体"
+		}
+		SpiralProj: {
+			DisplayName: "スパイラル発射体"
+		}
+		StardustProj: {
+			DisplayName: "スターダスト発射体"
+		}
+		StardustProjMini: {
+			DisplayName: "スターダスト発射体ミニ"
+		}
+		StormSenderProj: {
+			DisplayName: "ストームセンダー発射体"
+		}
+		SuperExplosion: {
+			DisplayName: "スーパーエクスプロージョン"
+		}
+		SuperNova: {
+			DisplayName: "スーパーノヴァ"
+		}
+		SuperNovaDisc: {
+			DisplayName: "スーパーノヴァディスク"
+		}
+		SuperNovaSlice: {
+			DisplayName: "スーパーノヴァスライス"
+		}
+		ThornProj: {
+			DisplayName: "ソーン発射体"
+		}
+		ThunderboltStrike: {
+			DisplayName: "サンダーボルトストライク"
+		}
+		ThunderDust: {
+			DisplayName: "サンダーダスト"
+		}
+		ThunderDustDamage: {
+			DisplayName: "サンダーダストダメージ"
+		}
+		ThunderProj: {
+			DisplayName: "サンダー発射体"
+		}
+		ThunderStaffProj: {
+			DisplayName: "サンダースタッフ発射体"
+		}
+		ThunderStrikeProj: {
+			DisplayName: "サンダーストライク発射体"
+		}
+		ToothProj: {
+			DisplayName: "トゥース発射体"
+		}
+		TopazBeam: {
+			DisplayName: "トパーズビーム"
+		}
+		TopazBeamReal: {
+			DisplayName: "トパーズビーム（リアル）"
+		}
+		TumorClump: {
+			DisplayName: "チューマークランプ"
+		}
+		UnicornPatronus: {
+			DisplayName: "ユニコーンの守護霊"
+		}
+		UnicornPatronusRight: {
+			DisplayName: "ユニコーンの守護霊（右）"
+		}
+		WaterboltMini: {
+			DisplayName: "ウォーターボルトミニ"
+		}
+		WaterExplosion: {
+			DisplayName: "ウォーターエクスプロージョン"
+		}
+		WaterfrontProj: {
+			DisplayName: "ウォーターフロント発射体"
+		}
+		WeeperProj: {
+			DisplayName: "ウィーパー発射体"
+		}
+		WizardProj: {
+			DisplayName: "ウィザード発射体"
+		}
+		CharredScrollProj: {
+			DisplayName: "焦げた巻物発射体"
+		}
+		IceScrollProj: {
+			DisplayName: "氷の巻物発射体"
+		}
+		LivingScrollProj: {
+			DisplayName: "リビングスクロール発射体"
+		}
+		WaterScrollProj: {
+			DisplayName: "水の巻物発射体"
+		}
+		BestHealingSpellProj: {
+			DisplayName: "最高のヒーリングスペル発射体"
+		}
+		BestHealLinger: {
+			DisplayName: "最高のヒールリンガー"
+		}
+		GreaterManaLinger: {
+			DisplayName: "グレーターマナリンガー"
+		}
+		GreaterManaSpellProj: {
+			DisplayName: "グレーターマナスペル発射体"
+		}
+		GreatHealingSpellProj: {
+			DisplayName: "グレートヒーリングスペル発射体"
+		}
+		GreatHealLinger: {
+			DisplayName: "グレートヒールリンガー"
+		}
+		GreatManaLinger: {
+			DisplayName: "グレートマナリンガー"
+		}
+		GreatManaSpellProj: {
+			DisplayName: "グレートマナスペル発射体"
+		}
+		HealLinger: {
+			DisplayName: "ヒールリンガー"
+		}
+		HealVialProj: {
+			DisplayName: "ヒールバイアル発射体"
+		}
+		HoneyLinger: {
+			DisplayName: "ハニーリンガー"
+		}
+		HoneySpellProj: {
+			DisplayName: "ハニースペル発射体"
+		}
+		ManaLinger: {
+			DisplayName: "マナリンガー"
+		}
+		ManaSpellProj: {
+			DisplayName: "マナスペル発射体"
+		}
+		PoisonLinger: {
+			DisplayName: "ポイズンリンガー"
+		}
+		PoisonSpellProj: {
+			DisplayName: "ポイズンスペル発射体"
+		}
+	}
+}

@@ -1,0 +1,433 @@
+NPCs: {
+	Goku: {
+		DisplayName: 悟空
+
+		TownNPCMood: {
+			Content: 満足してるぞ！
+			NoHome: ん？オラにも家くれんのか？
+			FarFromHome: なんでだ‥瞬間移動が使えねえ‥
+			LoveSpace: ここは広くて修業しやすいぞ‥サンキューな！
+			DislikeCrowded: ここは狭えぞ‥広いところで修行しようぜ！
+			HateCrowded: なあ、ここちょっと狭すぎねえか？
+			LikeNPC_Princess: "{NPCName}ってすげえいいヤツだよな！"
+			Princess_LovesNPC: "{NPCName}はオラの仲間だ！"
+			LikeBiome: オラ{BiomeName}大好きだぞ！
+			DislikeBiome: "{BiomeName}か？オラの苦手な場所だ‥"
+			HateBiome: げっ！{BiomeName}じゃねえか！
+			DislikeNPC: オラ{NPCName}なんかニガテだな～
+		}
+	}
+}
+
+Projectiles: {
+	KiBlastGoku: {
+		DisplayName: 悟空の気弾
+	}
+
+	DragonFistHead: {
+		DisplayName: 龍拳（頭）
+	}
+
+	DragonFistBody: {
+		DisplayName: 龍拳（胴体）
+	}
+
+	DragonFistTail: {
+		DisplayName: 龍拳（尾）
+	}
+
+	FistProj: {
+		DisplayName: フィスト発射体
+	}
+
+	SSJ3Effectremake: {
+		DisplayName: SSJ3エフェクトリメイク
+	}
+
+	GolemStarProjectile: {
+		DisplayName: ゴーレムスター発射体
+	}
+
+	MeteorFistProj: {
+		DisplayName: メテオフィスト発射体
+	}
+
+	MeteorShieldProjectile: {
+		DisplayName: メテオシールド発射体
+	}
+
+	KaiokenFistProj: {
+		DisplayName: 界王拳フィスト発射体
+	}
+
+	KaiokenShieldProjectile: {
+		DisplayName: 界王拳シールド発射体
+	}
+
+	StarFallFistProj: {
+		DisplayName: スターフォールフィスト発射体
+	}
+
+	StarFallShieldProjectile: {
+		DisplayName: スターフォールシールド発射体
+	}
+
+	RadiantFistProj: {
+		DisplayName: ラディアントフィスト発射体
+	}
+
+	RadiantShieldProjectile: {
+		DisplayName: ラディアントシールド発射体
+	}
+
+	TrunksSwordMaxSwing: {
+		DisplayName: トランクスの剣マックススイング
+	}
+
+	TrunksSwordSwing: {
+		DisplayName: トランクスの剣スイング
+	}
+
+	MechFistProj: {
+		DisplayName: メックフィスト発射体
+	}
+
+	MechShieldProjectile: {
+		DisplayName: メックシールド発射体
+	}
+
+	WormBody: {
+		DisplayName: ワーム（胴体）
+	}
+
+	WormHead: {
+		DisplayName: ワーム（頭）
+	}
+
+	WormTail: {
+		DisplayName: ワーム（尾）
+	}
+
+	MegaMechFistProj: {
+		DisplayName: メガメックフィスト発射体
+	}
+
+	retLaser: {
+		DisplayName: レットレーザー
+	}
+
+	Betterlightning: {
+		DisplayName: ベターライトニング
+	}
+
+	ThunderFistProj: {
+		DisplayName: サンダーフィスト発射体
+	}
+
+	BlazingGauntletProj: {
+		DisplayName: ブレイジングガントレット発射体
+	}
+
+	FireShield: {
+		DisplayName: ファイアシールド
+	}
+
+	SpiritBomb: {
+		DisplayName: 元気玉
+	}
+
+	Blast: {
+		DisplayName: ブラスト
+	}
+
+	StarDustFallProj: {
+		DisplayName: スターダストフォール発射体
+	}
+
+	BurningAttackProj: {
+		DisplayName: バーニングアタック発射体
+	}
+
+	BurningattackHold: {
+		DisplayName: バーニングアタックホールド
+	}
+
+	kamehameha: {
+		DisplayName: かめはめ波
+	}
+
+	kamehamehaKaioken: {
+		DisplayName: "界王拳かめはめ波"
+	}
+
+	DragonFistBodyWeapon: {
+		DisplayName: "龍拳（胴体武器）"
+	}
+
+	DragonFistHeadWeapon: {
+		DisplayName: "龍拳（頭武器）"
+	}
+
+	DragonFistTailWeapon: {
+		DisplayName: "龍拳（尾武器）"
+	}
+
+	DragonGauntletProj: {
+		DisplayName: "ドラゴンガントレット発射体"
+	}
+
+	MultiModeProjectile: {
+		DisplayName: "マルチモード発射体"
+	}
+
+	BlastKI: {
+		DisplayName: "ブラストKI"
+	}
+}
+
+Buffs: {
+	MeteorDefenseBuff: {
+		DisplayName: ラッシュ攻撃
+		Description: 防御力が増加
+	}
+
+	KaiokenDefenseBuff: {
+		DisplayName: 界王拳ラッシュ攻撃
+		Description: 防御力が増加
+	}
+
+	StarFallDefenseBuff: {
+		DisplayName: スターフォールパリィ
+		Description: 防御力が増加
+	}
+
+	SoulBondCooldownDebuff: {
+		DisplayName: フュージョンクールダウン
+		Description: まだフュージョンできない
+	}
+
+	SoulBondedBuff: {
+		DisplayName: フュージョン
+		Description: あなたとパートナーのステータスが合算され、さらに50%のブーストが与えられる
+	}
+
+	SoulBondActiveBuff: {
+		DisplayName: フュージョン
+		Description: あなたとパートナーのステータスが合算され、さらに50%のブーストが与えられる
+	}
+
+	SoulBondCooldownBuff: {
+		DisplayName: フュージョンクールダウン
+		Description: まだフュージョンできない
+	}
+
+	RadiantGauntletCooldown: {
+		DisplayName: ラディアントクールダウン
+		Description: 右クリック攻撃は使用不可
+	}
+
+	MechGauntletCooldown: {
+		DisplayName: メックパンチクールダウン
+		Description: 右クリック攻撃は使用不可
+	}
+
+	ThunderGauntletCooldown: {
+		DisplayName: サンダークールダウン
+		Description: 右クリック攻撃は使用不可
+	}
+
+	FireCooldown: {
+		DisplayName: ファイアクールダウン
+		Description: 右クリックアビリティは使用不可
+	}
+
+	FlamingBuff: {
+		DisplayName: フレイミングバフ
+		Description: 炎の盾はあなたに30%以下のダメージしか与えない投射物を反射する
+	}
+
+	SolarBuff: {
+		DisplayName: "太陽"
+		Description: "太陽の効果が発動中"
+	}
+
+	EnchantedBuff: {
+		DisplayName: "エンチャント"
+		Description: "エンチャントの効果が発動中"
+	}
+
+	HallowBuff: {
+		DisplayName: "神聖"
+		Description: "神聖の効果が発動中"
+	}
+
+	DragonCooldown: {
+		DisplayName: "ドラゴンクールダウン"
+		Description: "ドラゴン技は使用不可"
+	}
+
+	DefenseBoostBuff: {
+		DisplayName: "防御力増加"
+		Description: "防御力が増加している"
+	}
+}
+
+Items: {
+	SoulBondingAmulet: {
+		DisplayName: 偽りのフュージョンネックレス
+		Tooltip: "'''\n2人のプレイヤーを短時間融合させる\nフュージョンUIボタンをバインドしてフュージョンUIを開く\n'''"
+	}
+
+	MeteorCombo: {
+		Tooltip: 右クリック攻撃：ベーシックラッシュ、3倍のダメージを与え、プレイヤーをカーソルまで突進させる
+		DisplayName: ベーシックコンボ
+	}
+
+	KaiokenComboItem: {
+		DisplayName: 界王拳フィスト
+		Tooltip: 右クリック攻撃：界王拳ラッシュ、3倍のダメージを与え、プレイヤーをカーソルまで突進させる
+	}
+
+	StarFallItem: {
+		DisplayName: スターフィスト
+		Tooltip: 右クリックアビリティ：スターカウンター、これを使用中に攻撃されると、空から6つの星を召喚し、それぞれが60ダメージを与える
+	}
+
+	RadiantGauntletItem: {
+		DisplayName: ラディアントガントレット
+		Tooltip: 右クリック攻撃：ラディアントチャージ、4倍のダメージを与え、プレイヤーをカーソルまで突進させる
+	}
+
+	MechGauntletItem: {
+		DisplayName: メカガントレット
+		Tooltip: "'''\n右クリック攻撃：メックパンチ、2倍のダメージを与える\n赤い拳は死亡時にランダムな方向にレーザービームを召喚する\n「緑の拳は敵を呪炎で燃やす」\n'''"
+	}
+
+	ThunderFist: {
+		DisplayName: サンダーフィスト
+		Tooltip: 右クリック攻撃：ライトニングスロー、2倍のダメージを与える
+	}
+
+	BlazingGauntlet: {
+		DisplayName: ブレイジングガントレット
+		Tooltip: 右クリックアビリティ：ファイアシールド、炎の盾は30%のダメージしか返さない投射物を反射する
+	}
+
+	StardustFall: {
+		DisplayName: スターダストフォール
+		Tooltip: ""
+	}
+
+	BurningAttack: {
+		DisplayName: バーニングアタック
+		Tooltip: ""
+	}
+
+	GodSoul: {
+		DisplayName: ゴッドソウル
+		Tooltip: ""
+	}
+
+	PolterghastSoul: {
+		DisplayName: ポルターガイストソウル
+		Tooltip: ""
+	}
+
+	WitchSoul: {
+		DisplayName: ウィッチソウル
+		Tooltip: ""
+	}
+
+	GokuSenzuBean: {
+		DisplayName: "悟空の仙豆"
+		Tooltip: ""
+	}
+
+	DragonGauntlet: {
+		DisplayName: "ドラゴンガントレット"
+		Tooltip: ""
+	}
+
+	StatEditorItem: {
+		DisplayName: "カスタマイズ可能なKI武器"
+		Tooltip:
+			'''
+			右クリックでUIを開く
+			ポイントを使用して武器のステータスを強化できる
+			ボス・イベントを倒すことでポイントを獲得できる
+			ステータスにポイントを追加するには剣アイコンを左クリック、削除するには右クリック。Shift+（任意のクリック）で10ポイント削除/追加も可能
+			UIを閉じるには右上のアイコンを押し、変更を適用するには閉じるアイコンの下のアイコンを押す
+			'''
+	}
+}
+
+Configs: {
+	DragonSettings: {
+		DisplayName: 設定
+
+		Headers: {
+			Items: "アイテムヘッダー"
+			Graphics: "グラフィックヘッダー"
+			Content: "コンテンツヘッダー"
+			Reworks: "リワークヘッダー"
+		}
+
+		BetterHitBoxes: {
+			Label: "ヒットボックス修正"
+			Tooltip: "発射物のヒットボックスを四角形にして修正します"
+		}
+
+		MoreContent: {
+			Label: "追加コンテンツ"
+			Tooltip: "チーフのドラゴンボールコンテンツを追加します"
+		}
+
+		TrunksRework: {
+			Label: "剣のリワーク"
+			Tooltip: "DBT MODのすべての剣をリワークします"
+		}
+
+		SendStartupMessage: {
+			Label: "メッセージを無効化"
+			Tooltip: "起動メッセージを無効にします"
+		}
+
+		EnableGoku: {
+			Label: "悟空"
+			Tooltip: "これを有効にすると悟空がスポーンします（狂気の崇拝者を倒すと悟空がスポーンし、ボス戦で助けてくれます）"
+		}
+
+		KIReworks: {
+			Label: "KI武器リワーク"
+			Tooltip: "KI武器をリワークします"
+		}
+
+		ClassForms: {
+			Label: "クラスフォーム"
+			Tooltip: "クラスフォーム機能を有効にします"
+		}
+	}
+}
+
+Keybinds: {
+	"Boost Spirit Bomb": {
+		DisplayName: 元気玉をブースト
+	}
+
+	"Toggle Forms UI": {
+		DisplayName: フォームUI切り替え
+	}
+
+	"Use Fusion attack": {
+		DisplayName: フュージョン攻撃を使用
+	}
+
+	"Toggle Fusion UI": {
+		DisplayName: フュージョンUI切り替え
+	}
+
+	"Goku HP UI": {
+		DisplayName: 悟空HP UI
+	}
+}
+

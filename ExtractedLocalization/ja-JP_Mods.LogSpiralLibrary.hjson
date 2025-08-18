@@ -1,0 +1,696 @@
+SequenceUI: {
+	DefaultPage: メニュー
+	DefaultPageHint:
+		'''
+		ここはデフォルトページです。編集を始めるにはシーケンスを選択してください。
+		「完成済みシーケンス」は武器に直接使えるシーケンスです。
+		「ライブラリシーケンス」は繰り返し呼び出して編集に使える素材のようなものです。
+		両者に明確な違いはありません。気分で使い分けてください。
+		'''
+	FinishedSequences: 完成済みシーケンス
+	LibrarySequences: ライブラリシーケンス
+	Save: 保存
+	SaveAs: 名前を付けて保存...
+	Revert: 変更を元に戻す
+	SaveOrRevertPlz: 保存（別名保存）または元に戻してください
+	InfoTitle: 現在のページシーケンスの情報
+	PropTitle: 選択中モジュールの情報
+	ActionLibrary: アクションライブラリ
+	SequenceLibrary: シーケンスライブラリ
+	Cancel: キャンセル
+	OK: OK
+	EmptyFileNameException: ファイル名を入力してください
+	EmptyDisplayNameException: 表示名を入力してください
+	InvalidFileNameException: ファイル名が使用できません（重複）
+	UnknownModException: 存在しないModです
+	SaveSucceed: 保存成功！
+	RepeatedNameHint: 表示名の重複は避けることをおすすめします
+	CantEditHere: この場所ではパラメータを編集できません。シーケンスにドラッグして編集してください
+	SwitchToSequencePage: このシーケンスのページに移動
+	LeastOneElementHint: これが最後の要素のため、移動や削除はできません
+	OpenHomePage:
+		'''
+		BilibiliのLogSpiralのページを開きます。
+		UI編集のバグについて文句を言ってもOKです。
+		'''
+	OpenSquenceFolder:
+		'''
+		ローカルシーケンスのフォルダを開きます。
+		ファイルを使って友達と作品を共有できます（やったね！ :P
+		'''
+	resetSequence: このシーケンスを初期値にリセット
+	deleteSequence: このシーケンスを削除
+	SequenceFailed: シーケンスが見つかりません:
+	ActionFailed: アクションが見つかりません:
+}
+
+Items: {
+	FractalSpawnItem: {
+		DisplayName: フラクタル召喚アイテム
+		Tooltip: ""
+	}
+
+	GeogebraShin: {
+		DisplayName: ジオジェブラ真
+		Tooltip: ""
+	}
+
+	TestBlade: {
+		DisplayName: テストブレード
+		Tooltip: ""
+	}
+
+	TestBlade2: {
+		DisplayName: テストブレード2
+		Tooltip: ""
+	}
+
+	TestBlade3: {
+		DisplayName: テストブレード3
+		Tooltip: ""
+	}
+
+	TestBlade3V2: {
+		DisplayName: テストブレード3 V2
+		Tooltip: ""
+	}
+
+	HyperCube: {
+		DisplayName: ハイパーキューブ
+		Tooltip: ""
+	}
+
+	BCurveTestItem: {
+		DisplayName: Bカーブテスト用アイテム
+		Tooltip: ""
+	}
+
+	ColorfulMushroom: {
+		DisplayName: カラフルきのこ
+		Tooltip: ""
+	}
+}
+
+MeleeAction: {
+	Category: {
+		LsLibrary: 標準
+		Vanilla: バニラ風
+		Extended: 拡張
+	}
+
+	StabInfo: {
+		DisplayName: 突き
+	}
+
+	SwooshInfo: {
+		DisplayName: 風斬り
+	}
+
+	RapidlyStabInfo: {
+		DisplayName: 高速突き
+	}
+
+	ConvoluteInfo: {
+		DisplayName: ねじれ斬り
+	}
+
+	ChargingInfo: {
+		DisplayName: チャージ
+	}
+
+	ArkhalisInfo: {
+		DisplayName: アルカリス
+	}
+
+	BoardSwordInfo: {
+		DisplayName: ブロードソード
+	}
+
+	BoomerangInfo: {
+		DisplayName: ブーメラン
+	}
+
+	EruptionInfo: {
+		DisplayName: 噴火
+	}
+
+	FistInfo: {
+		DisplayName: 拳
+	}
+
+	FlailInfo: {
+		DisplayName: フレイル
+	}
+
+	HammerInfo: {
+		DisplayName: ハンマー
+	}
+
+	KnivesInfo: {
+		DisplayName: 投げナイフ
+	}
+
+	LanceInfo: {
+		DisplayName: ランス
+	}
+
+	RotatingInfo: {
+		DisplayName: 回転攻撃
+	}
+
+	ShockingDashInfo: {
+		DisplayName: 衝撃ダッシュ
+	}
+
+	ShortSwordInfo: {
+		DisplayName: 短剣
+	}
+
+	SpearInfo: {
+		DisplayName: 槍
+	}
+
+	StarlightInfo: {
+		DisplayName: スターライト
+	}
+
+	TerraprismaInfo: {
+		DisplayName: テラプリズマ
+	}
+
+	YoyoInfo: {
+		DisplayName: ヨーヨー
+	}
+
+	ZenithInfo: {
+		DisplayName: ゼニス
+	}
+
+	TestBladeSwooshInfo: {
+		DisplayName: テスト・風斬り
+	}
+
+	TestBladeGrayStabInfo: {
+		DisplayName: テスト・灰色突き
+	}
+
+	TestBladeConvoluteInfo: {
+		DisplayName: テスト・ねじれ斬り
+	}
+
+	CutInfo: {
+		DisplayName: 斬撃
+	}
+
+	ExtendedMelee: {
+		DisplayName: 拡張近接攻撃
+	}
+
+	PunctureInfo: {
+		DisplayName: 貫通
+	}
+
+	StormInfo: {
+		DisplayName: 嵐
+	}
+}
+
+Configs: {
+	StringInputHint: ここに入力してください
+
+	AirDistortConfigs: {
+		intensity: {
+			Label: 強度
+			Tooltip: 値が大きいほど効果がはっきりします
+		}
+
+		rotation: {
+			Label: 角度オフセット
+			Tooltip: あまり目立ちません :P
+		}
+
+		colorOffset: {
+			Label: カラーオフセット
+			Tooltip: 最大値か半分に設定してみてください
+		}
+
+		tier: {
+			Label: ティア
+			Tooltip: ""
+		}
+
+		Available: {
+			Label: 有効
+			Tooltip: エアディストート、有効！
+		}
+
+		Tooltip: ""
+	}
+
+	BloomConfigs: {
+		threshold: {
+			Label: 閾値
+			Tooltip: この値より明るいピクセルが発光します
+		}
+
+		intensity: {
+			Label: 強度
+			Tooltip: 目がぁぁぁ
+		}
+
+		range: {
+			Label: ステップ
+			Tooltip: 広い範囲を照らします
+		}
+
+		times: {
+			Label: 繰り返し回数
+			Tooltip: 値が大きすぎるとラグが発生します
+		}
+
+		downSampleLevel: {
+			Label: ダウンサンプルレベル
+			Tooltip:
+				'''
+				レベルが高いほど範囲は広くなり、計算コストは低くなります。
+				ただし、見た目はぼやけやすくなります。
+				'''
+		}
+
+		useModeMK: {
+			Label: 詳細なサンプルモードを使用
+			Tooltip: ""
+		}
+
+		Available: {
+			Label: 有効
+			Tooltip: ブルーム、有効！
+		}
+
+		Tooltip: ""
+	}
+
+	MaskConfigs: {
+		SkyStyle: {
+			Label: 星空スタイル
+			Tooltip: 複数の空のスタイルから選択可能です(x
+		}
+
+		glowColor: {
+			Label: メインカラー
+			Tooltip: ""
+		}
+
+		boundColor: {
+			Label: 境界色
+			Tooltip: ""
+		}
+
+		tier1: {
+			Label: 境界閾値
+			Tooltip: この値より暗い部分がメインカラーに置き換わります
+		}
+
+		tier2: {
+			Label: マスク閾値
+			Tooltip: この値より明るい部分がマスクテクスチャに置き換わります
+		}
+
+		lightAsAlpha: {
+			Label: 明度を透明度に影響させる
+			Tooltip: オフにすることも可能です
+		}
+
+		inverse: {
+			Label: 明度を反転
+			Tooltip: 暗い部分がマスクに置き換えられます
+		}
+
+		Available: {
+			Label: 有効
+			Tooltip: マスク、有効！
+		}
+
+		Tooltip: ""
+	}
+
+	DyeConfigs: {
+		dye: {
+			Label: 染料
+			Tooltip: ""
+		}
+
+		Available: {
+			Label: 有効
+			Tooltip: 防具染色、有効！
+		}
+	}
+
+	RapidlyStabInfo: {
+		rangeOffsetMax: {
+			Label: 実行回数上限補正
+			Tooltip: _
+		}
+
+		rangeOffsetMin: {
+			Label: 実行回数下限補正
+			Tooltip: _
+		}
+
+		givenCycle: {
+			Label: 実行回数（基本）
+			Tooltip: _
+		}
+	}
+
+	ChargingInfo: {
+		AutoNext: {
+			Label: 自動で次へ移行
+			Tooltip: _
+		}
+
+		ChargingRotation: {
+			Label: 終了回転
+			Tooltip: _
+		}
+
+		StartRotation: {
+			Label: 開始回転
+			Tooltip: _
+		}
+	}
+
+	SwooshInfo: {
+		minKValue: {
+			Label: 最小ﾌﾗｯﾄ
+			Tooltip: _
+		}
+
+		KValueRange: {
+			Label: ﾌﾗｯﾄ
+			Tooltip: _
+		}
+
+		mode: {
+			Label: モード
+			Tooltip: _
+		}
+
+		randAngleRange: {
+			Label: 角度ﾗﾝﾀﾞﾑ
+		}
+	}
+
+	StabInfo: {
+		minKValue: {
+			Label: 最小ﾌﾗｯﾄ表示
+			Tooltip: _
+		}
+
+		KValueRange: {
+			Label: ﾌﾗｯﾄ範囲
+			Tooltip: _
+		}
+
+		visualCentered: {
+			Label: 中心視覚
+			Tooltip: _
+		}
+
+		randAngleRange: {
+			Label: 角度ﾗﾝﾀﾞﾑ範囲
+		}
+	}
+
+	SwooshMode: {
+		Chop: {
+			Label: 叩き切り
+		}
+
+		Slash: {
+			Label: 斬撃
+		}
+
+		Storm: {
+			Label: 嵐
+		}
+	}
+
+	MeleeAction: {
+		ModifyData: {
+			Label: 修正データ
+			Tooltip: _
+		}
+
+		Cycle: {
+			Label: 実行回数
+			Tooltip: _
+		}
+
+		OnEndAttackDelegate: {
+			Label: 攻撃終了時
+			Tooltip: _
+		}
+
+		OnStartAttackDelegate: {
+			Label: 攻撃開始時
+			Tooltip: _
+		}
+
+		OnAttackDelegate: {
+			Label: 攻撃時
+			Tooltip: _
+		}
+
+		OnChargeDelegate: {
+			Label: チャージ時
+			Tooltip: _
+		}
+
+		OnActiveDelegate: {
+			Label: アクティブ時
+			Tooltip: _
+		}
+
+		OnDeactiveDelegate: {
+			Label: 非アクティブ時
+			Tooltip: _
+		}
+
+		OnEndSingleDelegate: {
+			Label: 単体終了時
+			Tooltip: _
+		}
+
+		OnStartSingleDelegate: {
+			Label: 単体開始時
+			Tooltip: _
+		}
+
+		OnHitTargetDelegate: {
+			Label: 命中時
+			Tooltip: _
+		}
+	}
+
+	WraperBase: {
+		conditionDefinition: {
+			Label: 実行条件
+			Tooltip: _
+		}
+	}
+
+	ActionModifyData: {
+		sizeScaler: {
+			Label: ｻｲｽﾞ倍率
+			Tooltip: 元の値に対してスケーリングします
+		}
+
+		timeScaler: {
+			Label: 時間倍率
+			Tooltip: 元の値に対してスケーリングします
+		}
+
+		knockBack: {
+			Label: ﾉｯｸﾊﾞｯｸ倍率
+			Tooltip: 元の値に対してスケーリングします
+		}
+
+		damage: {
+			Label: ﾀﾞﾒｰｼﾞ倍率
+			Tooltip: 元の値に対してスケーリングします
+		}
+
+		critAdd: {
+			Label: ｸﾘﾃｨｶﾙ加算
+			Tooltip: パネル値に加算されます
+		}
+
+		critMul: {
+			Label: ｸﾘﾃｨｶﾙ倍率
+			Tooltip: 加算後にこの値を掛けます
+		}
+	}
+
+	SequenceBasicInfo: {
+		AuthorName: {
+			Label: 作者
+			Tooltip: このシーケンスの作成者
+		}
+
+		Description: {
+			Label: 説明
+			Tooltip: このシーケンスの紹介文を書いてください
+		}
+
+		FileName: {
+			Label: ファイル名
+			Tooltip: ディレクトリ上の名前\n特殊文字は避けましょう
+		}
+
+		DisplayName: {
+			Label: 表示名
+			Tooltip: UIパネルに表示される名前です。
+		}
+
+		ModName: {
+			Label: 所属Mod
+			Tooltip: __
+		}
+
+		ModDefinition: {
+			Label: 所属Mod
+			Tooltip: 次は必ずLSL依存にするつもり(
+		}
+
+		createDate: {
+			Label: 作成日
+			Tooltip: シーケンスの誕生日!!
+		}
+
+		lastModifyDate: {
+			Label: 更新日
+			Tooltip: 最終更新日時
+		}
+
+		passWord: {
+			Label: パスワード
+			Tooltip: パスワードは「Password」だよ（笑）
+		}
+
+		Finished: {
+			Label: 完了済みとして表示
+			Tooltip: __
+		}
+	}
+
+	SurroundStateConfig: {
+		DisplayName: 周囲状態設定
+
+		CheckCycleLength: {
+			Label: サイクル長の確認
+			Tooltip: ""
+		}
+	}
+
+	SequenceConfig: {
+		DisplayName: シーケンス設定
+
+		ShowWrapBox: {
+			Label: ラップボックスを表示
+			Tooltip: ""
+		}
+
+		ShowGroupBox: {
+			Label: グループボックスを表示
+			Tooltip: ""
+		}
+
+		ShowSequenceBox: {
+			Label: シーケンスボックスを表示
+			Tooltip: ""
+		}
+
+		Step: {
+			Label: ステップ／間隔
+			Tooltip: ""
+		}
+	}
+
+	LogSpiralLibraryMiscConfig: {
+		DisplayName: 対数螺旋ライブラリ・その他設定
+
+		screenShakingSetting: {
+			Label: 画面の揺れ設定
+			Tooltip: ""
+		}
+
+		WTHConfig: {
+			Label: 謎の設定!!
+			Tooltip:
+				'''
+				これは実は、ベータ版に残っていたデバッグ用コードです。
+				友人たちが面白がったので、そのまま残しました。
+				'''
+		}
+	}
+
+	ShakingSetting: {
+		Tooltip: ""
+
+		strength: {
+			Label: 揺れの強さ
+			Tooltip: ""
+		}
+
+		Available: {
+			Label: 有効
+			Tooltip: ""
+		}
+	}
+
+	StormInfo: {
+		angleRange: {
+			Label: 角度範囲
+		}
+
+		xScaler: {
+			Label: Xスケーラー
+		}
+	}
+}
+
+Keybinds: {
+	ShowSequenceModifier: {
+		DisplayName: シーケンス修正器を表示
+	}
+
+	ShowScreenProjector: {
+		DisplayName: 画面変形投影を表示（ドラッグ可・お遊び用）
+	}
+}
+
+Condition: {
+	MouseLeft: マウス左ボタン
+	MouseRight: マウス右ボタン
+	ControlUp: 上キーを押す
+	ControlDown: 下キーを押す
+	FrontThreat: 正面の脅威!!
+	SurroundThreat: 周囲の脅威!!
+	Always: 常に実行
+}
+
+Projectiles: {
+	TestBladeProj: {
+		DisplayName: テストブレード射出体
+	}
+
+	TestBlade2Proj: {
+		DisplayName: テストブレード2射出体
+	}
+
+	TestBlade3Proj: {
+		DisplayName: テストブレード3射出体
+	}
+}
+

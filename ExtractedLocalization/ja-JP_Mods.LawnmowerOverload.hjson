@@ -1,0 +1,4159 @@
+DamageClasses: {
+	LawnmowerDamageGeneric: {
+		DisplayName: lawnmower damage
+	}
+
+	LawnmowerDamageCelestial: {
+		DisplayName: celestial lawnmower damage
+	}
+}
+
+Items: {
+	CopperLawnmower: {
+		DisplayName: Copper Lawnmower
+		Tooltip:
+			'''
+			Lawnmower Overload weapons do not mow the lawn
+			Deals -60% damage and knockback when standing still or airborne
+			[c/969696:'The journey begins']
+			-
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:Does not work in multiplayer (yet)]
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	FleshMower: {
+		DisplayName: Fleshmower
+		Tooltip:
+			'''
+			Deals -70% damage and -50% knockback when standing still or airborne
+			[c/BE90E5:Feast]
+			Dealing damage heals 1-2 life per hit
+			Healing amount is doubled on crits
+			[c/969696:'brains...']
+			'''
+	}
+
+	LawnmowerEmblemEngine: {
+		DisplayName: Lawnmower-Engine Emblem
+		Tooltip:
+			'''
+			Can be shimmered
+			15% increased lawnmower damage and knockback
+			'''
+	}
+
+	LawnmowerEmblemWheel: {
+		DisplayName: Lawnmower-Wheel Emblem
+		Tooltip:
+			'''
+			Can be shimmered
+			5% increased lawnmower crit chance
+			15% increased lawnmower attack speed
+			'''
+	}
+
+	LawnmowerEmblemAvenger: {
+		DisplayName: Lawnmower Emblem
+		Tooltip:
+			'''
+			4% increased lawnmower critical strike chance
+			10% increased lawnmower damage, knockback, and attack speed
+			'''
+	}
+
+	WyvernLawnmower: {
+		DisplayName: Wyvern Lawnmower
+		Tooltip:
+			'''
+			Ignores 7 points of enemy Defense
+			Deals -30% damage and -80% knockback when standing still
+			Deals +70% damage when airborne, grants infinite flight when held
+			[c/969696:'Significantly longer than advertised!']
+			'''
+	}
+
+	TerraLawnmower: {
+		DisplayName: Terra Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			[c/8CF10A:Terra]
+			Deals +15% damage to bosses
+			Contact hits deal damage incredibly fast, melting through targets
+			[c/FE9E23:Charging Lawnmower]
+			Shoots forward a charging terra-lawnmower projectile
+			Projectile flips direction and velocity when 80+ tiles from you, up to 3 times
+			Projectile deals 10% less damage per hit, but returns to full damage every flip
+			Cursor position determines velocity of lawnmower shot
+			[c/969696:'Seriously? THIS is what you used the Broken Hero Sword for?']
+			'''
+	}
+
+	GoblinLawnmower: {
+		DisplayName: Spike-spewer
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still
+			Spews out spiky balls on hit that deal 60% of base damage
+			[c/E9B688:Goblin Craftsmanship]
+			Cannot roll negative modifiers
+			Unique handling: Mows in movement direction
+			'''
+	}
+
+	EnchantedGoblinLawnmower: {
+		DisplayName: Enchanted Spike-spewer
+		Tooltip:
+			'''
+			Deals +40% knockback when moving whilst grounded
+			Rains down enchanted-spiky balls on hit that deal 80% of base damage
+			[c/E9B688:Goblin Craftsmanship]
+			Cannot roll negative modifiers
+			Unique handling: Mows in movement direction
+			-
+			[c/F892F8:Goblin Teleport]
+			<right> to teleport to cursor position 3 times in rapid succession
+			Teleport costs 80 mana, and inflicts 'goblin teleport' debuff
+			Teleporting again whilst debuff is active will damage you
+			Taking damage from teleport summons a swarm of shadow magic that chases enemies
+			'''
+	}
+
+	RustBucket: {
+		DisplayName: Rustbucket
+		Tooltip:
+			'''
+			Uses bullets as ammo
+			Can only deal contact damage when grounded and moving
+			[c/E9B688:Boomstick]
+			Shoots a bullet straight forward on use that deals 50% damage
+			Every 4th shot is enhanced and becomes a powerful shotgun burst
+			'''
+	}
+
+	Juggernaught: {
+		DisplayName: The Juggernaut
+		Tooltip:
+			'''
+			Ignores 3 points of enemy defense
+			Reduces damage taken by 12% when held
+			Deals -50% damage and -80% knockback when standing still or airborne
+			-
+			[c/8686E5:Iron Boulders]
+			Watch out for falling boulders!
+			Boulders deal 250% damage to enemies, and 500% damage to bosses
+			Boulders that land nearby bouce you up and grant 'close call'
+			Close Call: Increases damage and crit chance, removes airborne penalty
+			-
+			[c/92F892:Worthy Contender]
+			Falling boulders have extra damage and properties in 'for the worthy'
+			'''
+	}
+
+	LawnmowerBook: {
+		DisplayName: Lawnmower Encyclopedia: Page I
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload lawnmowers
+			Page I: White, [c/8686E5:Blue]
+			[c/92F892:<right> in inventory to swap to page II]
+			Craft at workbench for 1 dirt block [i:2]
+			Lawnmowers [i:4049]
+			-----
+			Copper/Tin Lawnmower
+			Iron/Lead Lawnmower
+			Silver/Tungsten Lawnmower
+			Gold/Platinum Lawnmower
+			Vulture Mulcher
+			Fleshmower
+			Slippery Slope
+			Suspicious-Looking Lawnmower
+			[c/8686E5:Fungi]
+			[c/8686E5:Dropout]
+			[c/8686E5:Shimmered Lawnmower]
+			[c/8686E5:The Juggernaut]
+			[c/8686E5:Marblous]
+			[c/8686E5:Blood Tax]
+			[c/8686E5:Spike-spewer]
+			[c/8686E5:Sticky Situation]
+			[c/8686E5:Light's Pain | Bread Butcherer]
+			[c/8686E5:The Meat Grinder]
+			[c/8686E5:Eater of Lawns | Confused Lawnmower]
+			[c/8686E5:Crash & Burn]
+			[c/8686E5:Telesto]
+			'''
+	}
+
+	LawnmowerBookHardmode: {
+		DisplayName: Lawnmower Encyclopedia: Page III
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload lawnmowers
+			Page III: Hardmode, [c/f89292:Light red,] [c/F892F8:Pink]
+			[c/BE90E5:<right> in inventory to swap to page IV]
+			Lawnmowers [i:4049]
+			-----
+			[c/f89292:The: Speedster, Mystic, Titan]
+			[c/f89292:Sleekshot]
+			[c/f89292:Wraith's Wrath]
+			[c/f89292:Wyvern Lawnmower]
+			[c/f89292:Possessed Lawnmower]
+			[c/f89292:Arachnid]
+			[c/f89292:Runed Ruins]
+			[c/f89292:Vermin Supreme]
+			[c/f89292:Ancient Artistry]
+			[c/F892F8:Enchanted Spike-spewer]
+			[c/F892F8:Bells & Whistles]
+			[c/F892F8:Hotrod]
+			[c/F892F8:Truthseeker]
+			[c/F892F8:Bucket O' Mech-Bees]
+			[c/F892F8:Herald of the Light]
+			[c/F892F8:Harbinger of the Night]
+			'''
+	}
+
+	MowerOfGrass: {
+		DisplayName: Mower of Grass
+		Tooltip:
+			'''
+			Deals -15% damage and knockback when standing still or airborne
+			[c/92F892:Grass Charges]
+			Hitting enemies with lawnmower adds +1 grass charge, allowing grass blades to be shot
+			Grass charges cap at 40, and increase the luminosity of the lawnmower's gem-engine
+			Grants '50% charged' buff at 20+ charges, and 'fully charged' buff at 40 charges
+			[c/E9B688:Grass Blades]
+			<right> whilst mowing to shoot out a short range burst of grass blades, consuming 1 charge
+			Grass blades inflict poison and deal 5% more damage per level of grass charge
+			[c/969696:'It does not']
+			'''
+	}
+
+	CubeEngine: {
+		DisplayName: Cube Engine
+		Tooltip:
+			'''
+			Deals +15% damage to bosses
+			Reduces damage taken by 5% when held
+			[c/8686E5:Momentum Transfer]
+			Ignores 5 points of enemy defense
+			Greatly increases movement speed when held
+			Attack power increases at higher speeds
+			[c/04C3F9:Phantom Mowers]
+			40% chance on hit to spawn a phantom mower, 100% vs bosses
+			Phantom Mowers spawn 160 tiles either behind or infront of you,
+			and create tesseract-bullets either above or below enemies on hit
+			[c/969696:'The cube knows all']
+			'''
+	}
+
+	IllegalLawnmowerParts: {
+		DisplayName: Illegal Lawnmower Parts
+		Tooltip:
+			'''
+			Sold by the arms dealer at night, and the golfer during the day
+			[c/969696:'Why are these illegal?']
+			'''
+	}
+
+	Eruption: {
+		DisplayName: Eruption
+		Tooltip:
+			'''
+			Deals -35% damage and knockback when standing still or airborne
+			Creates explosions that deal 60% damage upon contact with enemies
+			-
+			[c/FE9E23:Magma Belch]
+			<right> to shoot a giant bouncing ball of fire, costs 100 mana
+			Deals 130% of base damage, 100% if mana regeneration buff is active
+			Launches projectile in a set arc, uneffected by cursor position
+			Fire ball inflicts hellfire and leaves behind damaging flames
+			[c/969696:'It's made out of fire!']
+			'''
+	}
+
+	WheelUpgrade: {
+		DisplayName: Reinforced Wheel
+		Tooltip:
+			'''
+			Greatly increases movement speed whilst holding lawnmowers
+			[c/f89292:testItemUnobtainable]
+			'''
+	}
+
+	LightsPain: {
+		DisplayName: Light's Pain
+		Tooltip:
+			'''
+			Deals -40% damage and knockback when standing still
+			Incredibly long lawnmower that deals +10% damage when airborne
+			[c/d780d7:Duality]
+			Shimmers into Bread Butcherer
+			Deals bonus damage vs brain of cuthulu and crimson enemies
+			[c/BE90E5:Shredder]
+			Ignores 2 points of enemy Defense
+			Rapidly strikes targets, up to 3 times per use
+			[c/969696:'Baguette!']
+			'''
+	}
+
+	BreadButcherer: {
+		DisplayName: Bread Butcherer
+		Tooltip:
+			'''
+			Can strike targets twice per use
+			Deals -25% damage when airborne, no penalty for being stationary
+			Incredibly tall lawnmower that deals +33% damage to targets above you
+			[c/d780d7:Duality]
+			Shimmers into Light's Pain
+			Deals bonus damage vs eater of worlds and corrupt enemies
+			[c/f89292:Bloodborne Kart]
+			Hits have a 50% chance to heal you when below 25% life
+			Damage, knockback, and glow are based on percentage of life,
+			Lawnmower becomes stronger for each life point over 50%,
+			but becomes weaker for each missing life point under 50%
+			[c/969696:'Baguette!']
+			'''
+	}
+
+	BlightsEdge: {
+		DisplayName: Blight's Edge
+		Tooltip:
+			'''
+			Deals -25% damage and -75% knockback when standing still or airborne
+			[c/BE90E5:Ocram's Eye]
+			Hold <right> whilst mowing to shoot a deadly laser
+			Lasers shoot up to 3 times per use and chase nearby enemies
+			Rapidly consumes mana, can't shoot razors whilst holding <right>
+			[c/f89292:Ocram's razor]
+			Every third use shoots out a bouncing razor blade that inflicts ichor
+			After bouncing razor loses 40% damage, chases targets, and inflicts cursed inferno
+			Every 6th razor shot will shoot 8 razors in an even spread around you
+			'''
+	}
+
+	OreLawnmowerTin: {
+		DisplayName: Tin Lawnmower
+		Tooltip:
+			'''
+			Deals -70% damage and knockback when standing still or airborne
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerIron: {
+		DisplayName: Iron Lawnmower
+		Tooltip:
+			'''
+			Deals -65% damage and knockback when standing still or airborne
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerLead: {
+		DisplayName: Lead Lawnmower
+		Tooltip:
+			'''
+			Deals -65% damage and knockback when standing still or airborne
+			Inflicts poison on hit, duration is increased with higher damage
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerSilver: {
+		DisplayName: Silver Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Deals -50% damage and knockback when standing still or airborne
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerTungsten: {
+		DisplayName: Tungsten Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Deals -50% damage and knockback when standing still or airborne
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerGold: {
+		DisplayName: Gold Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Deals -20% damage and knockback when standing still or airborne
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerPlatinum: {
+		DisplayName: Platinum Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Deals +30% damage and -30% knockback when standing still
+			[c/FE9E23:Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a greater chance to drop a cluster 1-4 of ore
+			Shimmer downgrades ore-lawnmowers to previous ore-tier
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	GoblinLawnmowerParts: {
+		DisplayName: Salus' Shield
+		Tooltip:
+			'''
+			Inflicts potion sickness
+			Rather than healing, this item grants defensive stats
+			Stat boosts last for duration of potion sickness
+			Non-Consumable
+			'''
+	}
+
+	MeteoriteLawnmower: {
+		DisplayName: Crash & Burn
+		Tooltip:
+			'''
+			Build momentum to increase attack power
+			Sends you flying forward in lawnmowers direction
+			Critical hits grant a small amount of mana
+			-
+			[c/FE9E23:Meteoric Charge]
+			Holding <right> whilst using activates meteoric charge
+			Greatly increases both damage and flying speed
+			Requires and rapidly drains mana, unless wearing meteorite set
+			Mana gained from critical hits is doubled
+			'''
+	}
+
+	WheelWood: {
+		DisplayName: Wooden Wheel
+		Tooltip:
+			'''
+			Increases movement speed by 15% when holding a lawnmower
+			[c/969696:Can't roll +3 or +4 modifiers]
+			'''
+	}
+
+	WheelCactus: {
+		DisplayName: Cactus Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/92F892:Cactus Thorns]
+			Taking damage releases 6-12 cactus-spikes
+			Spikes pierce enemies and deal damage equal to 33% of damage taken
+			'''
+	}
+
+	PossessedLawnmower: {
+		DisplayName: Possessed Lawnmower
+		Tooltip:
+			'''
+			Can be shimmered
+			[c/BE90E5:Mind of its own]
+			Rapidly chases targets within a 100 tile radius and inflicts shadowflame
+			Will not attempt to chase enemies cursed by shadowflame, or recently hit
+			If lawnmower gets stuck rapidly bouncing, it will let off a large explosion
+			If no enemies are within range, slows down and chases cursor position
+			[c/BE90E5:Along for the ride]
+			Lawnmower takes you with it as it chases enemies/cursor
+			Grants 'possessed armor' when active to reduce damage taken
+			'''
+	}
+
+	TheCreeper: {
+		DisplayName: The Creeper
+		Tooltip:
+			'''
+			[c/E9B688:TNT]
+			Creates a massive explosion on hit that deals damage in a large area
+			[c/92F892:Creepy]
+			The clothier will sell the creeper vanity set
+			Wearing the full creeper set in [c/969696:armor slots] modifies weapon
+			[c/969696:'Aww man']
+			'''
+	}
+
+	Telesto: {
+		DisplayName: Telesto
+		Tooltip:
+			'''
+			Deals reduced damage when mana sick
+			Contact deals -60% damage and knockback when standing still
+			-
+			[c/92F892:Circular Reasoning]
+			Rapidly shoots lasers in a circular motion, 8 lasers per use
+			Counts as a 'space gun' for meteorite armor set bonus
+			[c/969696:'Saturn has 146 moons, this lawnmower is one of them']
+			'''
+	}
+
+	Truthseeker: {
+		DisplayName: Truthseeker
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			[c/d780d7:Double Helix]
+			Deals +15% damage to bosses
+			Shoots out 2 hallowed lawnmowers, one forward, and one backwards
+			Rapidly mows back and forth from your position, granting massive range
+			Can hit the same enemy up to 4 times per use, deals 7% less damage per hit
+			'''
+	}
+
+	Truthteller: {
+		DisplayName: Truthteller
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			[c/d780d7:Quadruple Helix]
+			Deals +15% damage to bosses
+			Shoots out hallowed lawnmowers in the four cardinal directions
+			Rapidly mows back and forth from your position, granting massive range
+			Can hit the same enemy up to 8 times per use, deals 6% less damage per hit
+			[c/d780d7:Aim True]
+			Hold <right> to cast lawnmowers from cursor position, rather than player
+			Aim True costs 32 mana per cast, and deals reduced damage when mana sick
+			'''
+	}
+
+	SPEffectPotion: {
+		DisplayName: Special-Effect Potion
+		Tooltip:
+			'''
+			[c/f89292:Depricated Item]
+			Can still be used, but toggling through mod config is recommended
+			-
+			Non consumable
+			Changes/Removes some visual lawnmower effects that may produce lag
+			Weapons affected by this will have the tooltip [c/969696:'Uses fancy effects']
+			'''
+	}
+
+	BlightsEdgeTrue: {
+		DisplayName: True Blight-Engine
+		Tooltip:
+			'''
+			Lawnmower contact deals more damage the lower your life gets
+			Deals -25% damage and -75% knockback when standing still or airborne
+			[c/BE90E5:Night's Eye]
+			Eye will rapidly fire lasers when enemies are nearby
+			Lasers shoot 3 times per use, deal 24% damage, and chase enemies
+			[c/f89292:Ocram's razors]
+			Every second use shoots out 4 bouncing razor blades, one from each cardinal direction
+			Razors deal 50% of base damage and inflict ichor
+			Loses 40% damage after bouncing, but gains tracking, inflicts cursed inferno
+			Every 6th razor shot will shoot 16 razors in an even spread around you
+			'''
+	}
+
+	Hallelujah: {
+		DisplayName: Hallelujah
+		Tooltip:
+			'''
+			Contact deals -40% damage and knockback when standing still
+			[c/d780d7:Angelic]
+			Contact deals +20% damage and knockback when airborne
+			Grants 'hallelujah' on hit for 3s, increasing movement speed by 25%
+			Whilst 'hallelujah' is active lawnmower will rain town NPCs from the sky
+			Contact hits deal 2.5x damage if 'hallelujah' is not currently active
+			[c/FE9E23:NPC Rain]
+			Rains 1-2 different NPCs from the sky on use, if 'hallelujah' is active
+			NPCs shoot out projectiles on hit and on bounce, based on their NPC weapons
+			[c/969696:'It's raining men']
+			'''
+	}
+
+	Starchild: {
+		DisplayName: Starchild
+		Tooltip:
+			'''
+			Contact deals -60% damage and knockback when standing still
+			[c/f9f909:Starchild]
+			Lawnmower has increased horizontal range
+			Contact deals +20% damage and knockback when airborne
+			Every second use shoots a star from above cursor position
+			Every fourth use shoots a star from behind cursor position
+			[c/FE9E23:Starry Night]
+			<right> to fire both projectiles at once, at the cost of 16 mana
+			<left> contact damage will grant mana equal to damage dealt x0.5
+			'''
+	}
+
+	WheelStar: {
+		DisplayName: Starry Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases airborne movement speed by 100%
+			Increases airborne lawnmower contact damage by 20%
+			Reduces mana costs by 20% and automatically uses mana potions when needed
+			'''
+	}
+
+	EnchantedLawnmower: {
+		DisplayName: Enchanted Lawnmower
+		Tooltip:
+			'''
+			Contact deals -20% damage and knockback when standing still
+			[c/8686E5:Splitting Beam]
+			Shoots an enchanted lawnmower beam
+			Beam lasts 0.75 seconds before dissapearing
+			Upon dissapearing beam splits into 2, dealing 60% damage each
+			Split beams fly directly up or down for 0.75 seconds, then left/right
+			[c/969696:Sold by the merchant, during moon phase: new moon]
+			'''
+	}
+
+	SlimeFriend: {
+		DisplayName: Slime Friends
+		Tooltip:
+			'''
+			Deals -60% damage and knockback when standing still or airborne
+			[c/92F892:Friends!]
+			Grants immunity to all basic slime types when held
+			Basic Slime: pinkies, green, blue, purple, red, black, and yellow slimes
+			Cannot deal damage to these slimes-because that would be rude
+			[c/969696:'They love me :)']
+			'''
+	}
+
+	WheelMeteorite: {
+		DisplayName: Meteorite Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower whilst airborne...]
+			Increases movement speed by 20%
+			Increases lawnmower contact damage by 20%
+			'''
+	}
+
+	WheelMana: {
+		DisplayName: Magic Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower]
+			Reduces mana costs by 20%
+			Automatically use mana potions when needed
+			'''
+	}
+
+	WheelHarpy: {
+		DisplayName: Harpy Wheel
+		Tooltip: Increases movement speed by 80% when holding a lawnmower whilst airborne
+	}
+
+	BubbleBath: {
+		DisplayName: Bubble Bath
+		Tooltip:
+			'''
+			Deals -60% damage and knockback when standing still
+			[c/04C3F9:Bubbles!]
+			Creates a trail of bubbles on use that deal 75% damage when detonated
+			<right> to pop all bubbles, allowing them to briefly deal damage
+			Bubbles will chase nearby enemies for a few frames before popping
+			'''
+	}
+
+	Mars: {
+		DisplayName: Ares
+		Tooltip:
+			'''
+			Deals -30% damage and -40% knockback when airborne
+			[c/E9B688:Golem]
+			Deals +33% damage vs bosses
+			Reduces damage taken by 16% when held
+			[c/FE9E23:Fear and Dread]
+			Orbited by Phobos and Deimos, dealing 70% damage upon contact
+			Dealing damage increases moons orbit speed, radius, and damage
+			Moons orbits faster when attacking, damage effects degrade over time
+			'''
+	}
+
+	Starman: {
+		DisplayName: Starman
+		Tooltip:
+			'''
+			Can be shimmered
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/f9f909:Starman]
+			Lawnmower has greatly increased horizontal range
+			Contact deals +30% damage and knockback when airborne
+			Every use shoots two stars, alternating from vertical and horizontal
+			[c/FE9E23:Starry Night]
+			<right> to fire both projectiles at once, at the cost of 16 mana
+			<left> contact damage will grant mana equal to damage dealt x0.5
+			[c/969696:'There's a lawnmower waiting in the sky']
+			'''
+	}
+
+	Dissonance: {
+		DisplayName: Dissonance
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still or airborne
+			[c/F892F8:Dissonance]
+			Teleports struck targets to cursor position
+			Effect also works on friendly town NPCs
+			[c/F892F8:Discord]
+			<right> teleports you to cursor position on hit instead of enemy
+			Inflicts 'chaos state' for 7s, teleporting whilst debuffed damages you
+			Deals +40% damage when 'chaos state' is active
+			'''
+	}
+
+	Wastelander: {
+		DisplayName: Wastelander
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still
+			[c/969696:'This world is a wasteland where nothing can grow...']
+			[c/F892F8:Get Excited]
+			Kills with this weapon grant 'get excited' for 6s, stacks up to x3
+			Increases damage by 10/15/20%, attack speed by 10/20/30% and movement speed by 50/100/150%
+			-
+			[c/92F892:Ma Meilleure Ennemie]
+			Deals double damage and knockback in PvP
+			Randomly marks nearby targets, turning them red, critical hits do 400% damage to marked targets
+			-
+			[c/04C3F9:Paint the Town Blue]
+			Every fourth use throws out 3 grenades that deal 55% damage
+			Grenades last anywhere from 1.5 - 4 seconds, and inflict 'powdered' on hit, reducing enemy defense by 33%
+			-
+			[c/BE90E5:What could've been]
+			Landing contact hits increases this weapons 'charge' by 1, hits vs bosses grant 3x charges
+			When charge reaches 24 <right> to swap weapon modes, activating 'what could've been'
+			Whilst active hold attack for 2 seconds to charge a powerful blast that knocks you back and deals 500% damage
+			'''
+	}
+
+	WheelMolten: {
+		DisplayName: Hot Wheels
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases damage and movement speed by 10%
+			Lawnmower damage sets enemies ablaze
+			'''
+	}
+
+	WheelIron: {
+		DisplayName: Ironclad Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			[c/92F892:Reduces damage taken by 7%]
+			[c/92F892:Increases lawnmower knockback by 15%]
+			[c/f89292:Reduces movement speed by 20%]
+			'''
+	}
+
+	Frostpunk: {
+		DisplayName: Frostpunk
+		Tooltip:
+			'''
+			Contact and beam both deal +40% damage when standing still
+			[c/04C3F9:Beacon of Ice]
+			Shoots a beam of frost directly above lawnmower
+			Frost beam rapidly deals 55% of base damage, but does not deal any knockback
+			'''
+	}
+
+	WheelHallowed: {
+		DisplayName: Hallowed Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 35% and generates light when moving
+			'''
+	}
+
+	RainBoots: {
+		SetBonus:
+			'''
+			[c/8686E5:Rain Dance]
+			+4 defense
+			Increases lawnmower damage and movement speed by 10%
+			These effects are doubled if it's raining or you are in water
+			'''
+		DisplayName: Rain Boots
+		Tooltip: ""
+	}
+
+	TitaniumHat: {
+		DisplayName: Titanium Hat
+		Tooltip:
+			'''
+			Reduces damage taken by 11%
+			11% increased lawnmower damage and critical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/04C3F9:Titanium Storm]
+			Attacking generates a defensive barrier of titanium shards
+			'''
+	}
+
+	AdamantiteHat: {
+		DisplayName: Adamantite Hat
+		Tooltip:
+			'''
+			Reduces damage taken by 10%
+			10% increased lawnmower attack speed and critical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/f89292:Hermes Hat]
+			Increases movement speed by 30% and lawnmower damage by 13% when airborne
+			'''
+	}
+
+	HallowedCrown: {
+		DisplayName: Hallowed Circlet
+		Tooltip:
+			'''
+			Reduces damage taken by 12%
+			10% increased lawnmower damage, attack speed, and critical strike chance
+			'''
+		SetBonus: Become immune after striking an enemy
+	}
+
+	ChlorophyteCrown: {
+		DisplayName: Chlorophyte Crown
+		Tooltip:
+			'''
+			Reduces damage taken by 10%
+			16% increased lawnmower damage
+			6% increased lawnmower critical strike chance
+			[c/f89292:Ancient]
+			<right> crown in inventory whilst holding 'up' to toggle crystal variants
+			Swaps between vanilla chlorophyte set bonus, and custom lawnmower one
+			'''
+		SetBonus: Summons a powerful lawnmower crystal to shoot at nearby enemies
+	}
+
+	EnchantedSpikyBall: {
+		DisplayName: Enchanted Spiky-Ball
+		Tooltip:
+			'''
+			Inflicts shadowflame
+			Ignores 3 points of enemy defense
+			<right> use to make balls ignore platforms
+			'''
+	}
+
+	BeeLawnmower: {
+		DisplayName: Bucket O' Bees
+		Tooltip:
+			'''
+			Deals -10% damage and knockback when standing still or airborne
+			[c/E9B688:The Swarm]
+			Summon 1-3 killer bees on hit that deal 60% of base damage
+			Hive Pack adds a chance for bees to become giant, dealing bonus damage
+			[c/BE90E5:Discombobulation]
+			33% chance on hit to inflict targets with confusion for 2s
+			Deals +15% damage to confused targets, and spawns an extra bee
+			'''
+	}
+
+	NinthCircle: {
+		DisplayName: Ninth Circle
+		Tooltip:
+			'''
+			Deals -30% damage and knockback when standing still or airborne
+			[c/FE9E23:Ninth Circle]
+			Contact damage summons a ring of pumpkins around struck enemy
+			Pumpkins chase targets and deal 133% of base damage
+			[c/e10643:Insanity]
+			Weapon deals +67% damage if your defense is no higher than 21
+			[c/969696:Spooky]
+			'''
+	}
+
+	Sentinel: {
+		DisplayName: Sentinel
+		Tooltip:
+			'''
+			[c/969696:Shimmers into Calypso]
+			Can hit multiple times per use
+			Deals +33% damage and -50% knockback when airborne
+			[c/04C3F9:Abductor]
+			Shoots a gravity beam from beneath lawnmower that sucks up enemies
+			Hitting enemies lifted by abductor beam cancels their velocity, allowing rapid hits
+			<right> to hold lawnmower above your head, sending you rapidly flying upwards
+			[c/969696:'Beam me up']
+			'''
+	}
+
+	PlantLawnmower: {
+		DisplayName: Plant Shredder
+		Tooltip:
+			'''
+			Contact hits deal damage incredibly fast
+			Deals -15% damage and knockback when standing still or airborne
+			[c/92F892:Grass Charges]
+			Hitting enemies with lawnmower adds +0.5 grass charges, allowing piercing petal blades to be shot
+			Grass charges cap at 40, and increase the luminosity of the lawnmower's gem-engine
+			Grants '50% charged' buff at 20+ charges, and 'fully charged' buff at 40 charges
+			[c/E9B688:Piercing Petals]
+			<right> whilst mowing to sprout a flower from the closest enemy, consuming 2 charges
+			Petal blades inflict venom and deal 5% more damage per level of grass charge
+			[c/969696:'It's a planterrable day to be grass']
+			'''
+	}
+
+	LawnmowerShimmer: {
+		DisplayName: Shimmered Lawnmower
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Ignores 70 points of enemy Defense
+			Deals +20% damage and knockback when standing still or airborne
+			[c/92F892:Ascending Lawnmower]
+			Shoots forward an ascending shimmered-lawnmower projectile
+			Deals 15% less damage per hit, Cursor position determines velocity
+			Projectile deals +40% damage to targets that are above you
+			'''
+	}
+
+	RustBucket2: {
+		DisplayName: Sleekshot
+		Tooltip:
+			'''
+			Uses bullets as ammo
+			Can only deal contact damage when grounded and moving
+			[c/E9B688:Shotgun]
+			Shoots a bullet straight forward on use that deals 75% damage
+			Every 2nd shot is enhanced and becomes a powerful shotgun burst
+			'''
+	}
+
+	KingSlimeLawnmower: {
+		DisplayName: Sticky Situation
+		Tooltip:
+			'''
+			Deals -25% damage when standing still or airborne
+			[c/8686E5:Forcible Relocation]
+			Struck targets get stuck on this lawnmower, locking their position to this lawnmower
+			Releases targets when attack is stopped, throwing them back if they are susceptible to knockback
+			Works on friendly town npcs, Does not work against bosses
+			[c/969696:This thing is broken]
+			'''
+	}
+
+	TheHivemind: {
+		DisplayName: The Hivemind
+		Tooltip:
+			'''
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/d780d7:Octuple Helix]
+			Shoots out 8 nebulous lawnmowers in a circle around you
+			Rapidly mows back and forth from your position, granting massive range
+			Can hit the same enemy up to 16 times per use, deals 8% less damage per hit
+			[c/FE9E23:Collective Obligation]
+			Hold <right> to cast lawnmowers from cursor position, rather than player
+			Obligation costs 40 mana per cast, and deals reduced damage when mana sick
+			Attacks with <left> grant mana on hit, equal to 5% of damage dealt
+			'''
+	}
+
+	PhantomLawnmower: {
+		DisplayName: Phantom's Pain
+		Tooltip:
+			'''
+			Inflicts debuffs.... all of them
+			Debuff duration is doubled on critical hits
+			'''
+	}
+
+	BeeLawnmowerMech: {
+		DisplayName: Bucket O' Mech-Bees
+		Tooltip:
+			'''
+			[c/F892F8:Mech-Bees]
+			Summon 1-3 killer mech-bees on hit that deal 70% of base damage
+			33% chance on hit to inflict targets with confusion for 2.5s
+			Deals +15% damage to confused targets, and spawns an extra mech-bee
+			[c/f9f909:Hive Pack]
+			Increases bee damage to 85% and number of bees spawned to 2-5
+			Adds a 50% chance for mech-bees to become giant, dealing bonus damage
+			-
+			[c/4BB9E9:Cultist Wasps]
+			Gains bonus damage, visuals and effects when used with Lunatic Battery accessory
+			Transforms all mech-bees into powerful cultist wasps
+			Cultist wasps shoot 1 of 4 different elemental projectiles on hit
+			[c/60F8C2:Ice deals ranged damage,] [c/FE9E23:Fire deals melee damage]
+			[c/EE86E7:Shadow deals magic damage,] [c/4BB9E9:Vision deals summon damage]
+			'''
+	}
+
+	WheelBone: {
+		DisplayName: Bone Wheel
+		Tooltip:
+			'''
+			When holding a lawnmower whilst grounded
+			Increases lawnmower damage by 15% and movement speed by 20%
+			'''
+	}
+
+	WheelCorruption: {
+		DisplayName: Corrupted Wheel
+		Tooltip:
+			'''
+			[c/969696:Can be shimmered]
+			Holding a lawnmower whilst at max life grants...
+			[c/BE90E5:High Confidence]
+			15% increased damage
+			30% increased movement speed
+			Stat boosts are multiplicative
+			Sparkle glowing dust when effect is active
+			'''
+	}
+
+	WheelCrimson: {
+		DisplayName: Crimson Wheel
+		Tooltip:
+			'''
+			[c/969696:Can be shimmered]
+			Holding a lawnmower when under 20% life grants...
+			[c/f89292:Desperation]
+			15% increased damage
+			30% increased movement speed
+			Stat boosts are multiplicative
+			Sparkle glowing dust when effect is active
+			'''
+	}
+
+	WheelGolem: {
+		DisplayName: Lihzahrd Wheel
+		Tooltip:
+			'''
+			Increases the size of lawnmowers
+			Increases lawnmower damage by 15% and knockback by 40%
+			[c/969696:Ares gains greater stat boosts from these bonuses]
+			'''
+	}
+
+	CultistBattery: {
+		DisplayName: Lunatic Battery
+		Tooltip:
+			'''
+			Brings some outclassed lawnmowers to endgame tier, increasing their damage and effects
+			Individually tuned for each weapon, balance will probably be a bit wack
+			-
+			Work in progress, currently effects
+			Pre-Hardmode Ore Lawnmowers
+			[c/8686E5:Shimmered Lawnmower]
+			[c/8686E5:Confused Lawnmower]
+			[c/92F892:Skull Crusher]
+			[c/E9B688:Happy New Year!]
+			[c/E9B688:Aphrodite Engine]
+			[c/F892F8:Enchanted Spike-Spewer]
+			[c/F892F8:Bucket O' Mech-Bees]
+			[c/8CF10A:Chlorophyte Crown]
+			[c/969696:Only a lunatic would make an accessory like this]
+			'''
+	}
+
+	VortexLawnmower: {
+		DisplayName: Event Horizon
+		Tooltip:
+			'''
+			Increases defense by 25% when held
+			Deals +20% damage when standing still or airborne
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/B227FD:Vortex]
+			Lawnmower sucks in all nearby life forms, and rapidly deals damage to them
+			[c/FE9E23:Repulser Blast]
+			<right> use to create a small gravitational blast, pushing enemies back
+			'''
+	}
+
+	ChlorophyteCrownAncient: {
+		DisplayName: Ancient Chlorophyte Crown
+		Tooltip:
+			'''
+			Depricated item: unobtainable
+			[c/f89292:<right> in inventory to swap to new version]
+			'''
+	}
+
+	InfernalChest: {
+		DisplayName: Infernal Breastplate
+		Tooltip:
+			'''
+			Increases lawnmower damage by 13%
+			Increases lawnmower attack speed by 13%
+			Grants immunity to On Fire! and fire blocks
+			'''
+	}
+
+	InfernalLegs: {
+		DisplayName: Infernal Leggings
+		Tooltip:
+			'''
+			20% increased movement speed
+			Increases lawnmower damage by 13%
+			'''
+	}
+
+	InfernalHead: {
+		DisplayName: Infernal Face-Hellmet
+		Tooltip:
+			'''
+			Provides light when worn
+			Increases lawnmower crit chance by 13%
+			[c/969696:'Fits perfectly!']
+			'''
+		SetBonus:
+			'''
+			[c/fe9e23:O' Flame!]
+			Reduces damage taken by 13%
+			Increases max life and mana by 60
+			Lawnmower attacks inflict fire damage
+			[c/969696:Fire on movement effect can be toggled with special-effect potion]
+			'''
+	}
+
+	InfernalBar: {
+		DisplayName: Brimstone Bar
+		Tooltip:
+			'''
+			Used to forge Infernal lawnmower items
+			[c/969696:'Hot']
+			'''
+	}
+
+	InfernalSoul: {
+		DisplayName: Soul of Spite
+		Tooltip:
+			'''
+			Dropped by Hell Armored Bones in the dungeon
+			[c/969696:'Hot']
+			'''
+	}
+
+	SusLawnmower: {
+		DisplayName: Suspicious-Looking Lawnmower
+		Tooltip:
+			'''
+			Reduces struck enemies knockback resist to 0
+			Effect works vs knockback immune enemies, but not bosses
+			[c/969696:amogus]
+			'''
+	}
+
+	RatLawnmower: {
+		DisplayName: Vermin Supreme
+		Tooltip:
+			'''
+			[c/BE90E5:Vermin]
+			Kills with this weapon grant invisibility for 6s
+			Deals 6x damage when striking whilst invis, removes invis on hit
+			Holding this weapon without attacking for 3s will also grant invis
+			[c/BE90E5:Rat Pack]
+			Grants nearby players a small buff to lawnmower stats and damage negation
+			This lawnmower gains significantly greater effects from rat pack
+			[c/969696:'Rats, rats, we're the rats]
+			[c/969696:We prey at night, we stalk at night, we're the rats']
+			'''
+	}
+
+	MeowLawnmower: {
+		DisplayName: Phase 2
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Can be shimmered
+			Deals damage rapidly and gains +30% damage and knockback when airborne
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/F892F8:Meow]
+			Every 6th use drops a wave of meowmere cats above you that deal 70% damage
+			Spawn frequency is doubled if 'phase-2' buff is active
+			[c/04C3F9:P][c/F892F8:h]as[c/F892F8:e] [c/04C3F9:2]
+			Upon reaching <50% life, instantly recover a small amount, and activate 'phase-2'
+			Phase-2 grants life regen, +20% damage, attack speed, and movement speed
+			Buff effects only activate when holding this weapon
+			25s duration, 5m cooldown
+			'''
+	}
+
+	PillarsOfCreation: {
+		DisplayName: Pillars of Creation
+		Tooltip:
+			'''
+			Reduces damage taken by 16% when held
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/8CF10A:Terra]
+			Deals +15% damage to bosses
+			Contact hits deal damage incredibly fast, melting through targets
+			[c/FE9E23:Pillars of Creation]
+			Hits with this weapon summons a great pillar of damaging lawnmowers
+			Lawnmower pillar spawn is based on your cursor position, half spawn below you and fly up
+			Spawns 1 lawnmower per 35 damage dealt, lawnmowers deal 70% of base damage and 20% knockback
+			[c/969696:Zenith lawnmower be like]
+			'''
+	}
+
+	TheSolarPillar: {
+		DisplayName: The Solar Pillar
+		Tooltip:
+			'''
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/FE9E23:Pillars of Flame]
+			Hits with this weapon cause a great column of fireballs to rain down on your enemy
+			Spawns 1 fireball per 20 damage dealt, fireballs deal 20% of base damage and knockback
+			[c/969696:'Hit 'em with a celestial pillar']
+			'''
+	}
+
+	BloodTax: {
+		DisplayName: Blood Tax
+		Tooltip:
+			'''
+			Contact hits deal +100% damage and knockback
+			[c/f89292:Blood Tax]
+			Rapidly drains your life on use
+			Summons phantom lawnmowers all around you that chase enemies
+			Phantom lawnmowers deal +30% per hit, but lose tracking after first hit
+			Critical hits heal a small amount of life
+			'''
+	}
+
+	LawnmowerBook2: {
+		DisplayName: Lawnmower Encyclopedia: Page II
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload lawnmowers
+			Page II: [c/92F892:Green,] [c/E9B688:Orange,] [c/f89292:Light Red]
+			[c/d780d7:<right> in inventory to swap to page III]
+			Lawnmowers [i:4049]
+			-----
+			[c/92F892:Microplastics]
+			[c/92F892:Mini-Octopoda]
+			[c/92F892:Enchanted Lawnmower]
+			[c/92F892:Garden Guardian]
+			[c/92F892:The Charger]
+			[c/92F892:Midas Machine]
+			[c/92F892:Starchild]
+			[c/92F892:Rustbucket]
+			[c/92F892:The Creeper]
+			[c/92F892:Skull Crusher]
+			[c/92F892:Cube Engine]
+			[c/E9B688:Happy New Year!]
+			[c/E9B688:Slime Friends]
+			[c/E9B688:Mower of Grass]
+			[c/E9B688:Bucket O' Bees]
+			[c/E9B688:Dave's Mower]
+			[c/E9B688:Hot Drop]
+			[c/E9B688:Aphrodite Engine]
+			[c/E9B688:Eruption]
+			[c/f89292:Blight's Edge]
+			'''
+	}
+
+	LawnmowerBookHardmode2: {
+		DisplayName: Lawnmower Encyclopedia: Page IV
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload lawnmowers
+			Page IV: Hardmode, [c/BE90E5:Light Purple,] [c/8CF10A:Lime,] [c/f9f909:Yellow]
+			[c/04C3F9:<right> in inventory to swap to page V]
+			Lawnmowers [i:4049]
+			-----
+			[c/BE90E5:Hallelujah]
+			[c/BE90E5:Clutch of Cupidity]
+			[c/BE90E5:Lawnmower from the Deep]
+			[c/BE90E5:Wastelander]
+			[c/BE90E5:Phantom's Pain]
+			[c/8CF10A:Dissonance]
+			[c/8CF10A:Plant Shredder]
+			[c/8CF10A:Infestation]
+			[c/8CF10A:Arch-Wyvern Lawnmower]
+			[c/8CF10A:Ares]
+			[c/f9f909:Truthteller]
+			[c/f9f909:True Blight-Engine]
+			[c/f9f909:Infernal Lawnmower]
+			[c/f9f909:Radiance]
+			[c/f9f909:Ninth Circle]
+			[c/f9f909:Harrowed Heart]
+			[c/f9f909:Christmas-Tree Lawnmower]
+			[c/f9f909:Coldrod]
+			[c/f9f909:Gaia's Grace]
+			[c/f9f909:Terra Lawnmower]
+			'''
+	}
+
+	MidasMachine: {
+		DisplayName: Midas Machine
+		Tooltip:
+			'''
+			Deals -50% damage and knockback when standing still or airborne
+			[c/BE90E5:Feast]
+			Dealing damage heals 1-2 life per hit
+			Healing amount is doubled on crits
+			[c/f9f909:Midas]
+			Enemies drop extra coins
+			Hitting enemies will sometimes drop coins
+			[c/969696:'I like money']
+			'''
+	}
+
+	WheelDirt: {
+		DisplayName: Dirt Wheel
+		Tooltip:
+			'''
+			Increases movement speed by 25% when holding a lawnmower whilst grounded
+			[c/969696:Can't roll +3 or +4 modifiers]
+			'''
+	}
+
+	WheelOfReturn: {
+		DisplayName: Wheel of Return
+		Tooltip:
+			'''
+			Increases movement speed by 15% when holding a lawnmower
+			[c/BE90E5:Return]
+			Creates a portal on death that acts as a respawn point
+			Hold <right> for 2s whilst dead to despawn portal
+			'''
+	}
+
+	WheelFrog: {
+		DisplayName: Frog Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 20%
+			Increases jump speed by +300% and allows auto-jump
+			Increases fall resistance by 14
+			'''
+	}
+
+	ShroomiteLawnmower: {
+		DisplayName: Fungi
+		Tooltip:
+			'''
+			Deals +20% damage and knockback when standing still or airborne
+			[c/8686E5:Mushroom Traps]
+			Leaves behind a trail of mushroom spores that explode on contact with enemies
+			Spores deal 40% of base damage
+			[c/969696:Mushroom dance]
+			[c/969696:Mushroom dance]
+			[c/969696:Whatever could it mean]
+			'''
+	}
+
+	WraithLawnmower: {
+		DisplayName: Wraith's Wrath
+		Tooltip:
+			'''
+			Deals -20% damage and -10% knockback when standing still
+			[c/f89292:Wrathful]
+			Critical hits deal 5.5x damage, rather than 2x
+			Always crits on enemies with more than 90% life
+			Spawns seeking souls on kill
+			Always crits against enemies recently damaged by souls
+			[c/BE90E5:Soul Siphon]
+			10% chance on hit to summon a seeking soul
+			Soul spawn chance is doubled vs bosses
+			[c/BE90E5:Soulbound]
+			Souls inflict a 5 summon tag damage debuff
+			Your minions will also crit on targets recently hit by a soul
+			'''
+	}
+
+	SkullCrusher: {
+		DisplayName: Skull Crusher
+		Tooltip:
+			'''
+			Deals -25% damage and -10% knockback when standing still or airborne
+			[c/BE90E5:Fatality]
+			Crushes the bone out of enemies on kill
+			Bones deal 60% damage and can also create bones on kill
+			Shoots crossbones twice as often when used with bone glove
+			[c/969696:Spooky]
+			'''
+	}
+
+	ChristmasLawnmower: {
+		DisplayName: Christmas-Tree Lawnmower
+		Tooltip:
+			'''
+			Deals +20% damage and knockback when airborne
+			[c/FE9E23:Decorations]
+			Rains down christmas ornaments onto enemies below
+			Ornaments deal 60% of base damage, and 40% knockback
+			[c/F892F8:Special Delivery]
+			Rains down a bunch of christmas presents that contain hearts and stars
+			Presents spawn more hearts and stars based on the number of players in world
+			45s cooldown between uses
+			'''
+	}
+
+	SpiderLawnmower: {
+		DisplayName: Arachnid
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still or airborne
+			[c/BE90E5:Suspicious-Looking Whip]
+			13 summon tag damage
+			Your summons will focus struck targets
+			Deals and scales with summon damage, rather than lawnmower
+			[c/f89292:Spider Dance]
+			<right> to shoot a web towards cursor position
+			Web greatly slows enemy movement speed for a few seconds
+			Slowdown effect is reduced vs bosses
+			4s cooldown between uses
+			[c/969696:ssscary]
+			'''
+	}
+
+	AntlionLawnmower: {
+		DisplayName: The Charger
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when airborne
+			[c/E9B688:Zoomies]
+			Build momentum to increase attack power
+			Sends you forward in antlion's direction when held whilst grounded, speed is increased on use
+			[c/969696:Antlion friend :)]
+			'''
+	}
+
+	WheelHeart: {
+		DisplayName: Heart-Shaped Wheel
+		Tooltip:
+			'''
+			Increases your max life by 20
+			Rapidly heals you for 7s after respawning
+			Increases movement speed by 10% when holding a lawnmower
+			'''
+	}
+
+	TheMeatGrinder: {
+		DisplayName: The Meat Grinder
+		Tooltip:
+			'''
+			Ignores 3 points of enemy Defense
+			Rapidly strikes targets, can hit multiple times per use
+			Deals -30% damage and knockback when standing still or airborne
+			[c/f89292:Butcher]
+			Dealing damage spews out bouncing eyeballs that damage enemies
+			Critical hits don't deal extra damage, but double eyeballs spawned
+			Kills spawn 900% more eyeballs than hits, multiplies with crit bonus
+			[c/969696:'Okay, if I... if I chop you up in a meat grinder, and the only thing that comes out,]
+			[c/969696:that's left of you, is your eyeball, you'r- you're PROBABLY DEAD!']
+			'''
+	}
+
+	PossessedHat: {
+		DisplayName: Possessed Hat
+		Tooltip:
+			'''
+			Can be shimmered
+			13% increased lawnmower damage and crit chance
+			[c/BE90E5:Set bonus activates if wearing no other armor]
+			[c/969696:Removes your head!]
+			'''
+		SetBonus:
+			'''
+			23 defense
+			Reduces damage taken by 13%
+			[c/BE90E5:Lawnmower-Clone Jutsu]
+			Summons possessed-lawnmower clones when mowing
+			Clones fly towards cursor, and inflict shadowflame on crit
+			'''
+	}
+
+	HeartLawnmower: {
+		DisplayName: Aphrodite Engine
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still or airborne
+			[c/f89292:Lovestruck]
+			Makes enemies fall in love with you!
+			Attacking inflicts 'love' equal to 50% of damage dealt
+			When an enemy's love is greater than their life they become lovestruck
+			Inflicting lovestruck makes enemies friendly and heals you +20 life
+			You cannot damage lovestruck enemies, but other enemies can
+			[c/92F892:Shameless Attitude]
+			Deals damage based on your current life
+			Damage formula = life x 0.125 (2.5 damage per 20 life)
+			[c/969696:The power of friendship wins again!]
+			'''
+	}
+
+	HappyNewYear: {
+		DisplayName: Happy New Year!
+		Tooltip:
+			'''
+			Deals +15% damage and knockback when airborne
+			Deals -10% damage and knockback when standing still 
+			[c/f9f909:Celebration]
+			Shoots 5 explosive fireworks up into the sky on use
+			Fireworks deal 80% of base damage and knockback
+			[c/969696::)]
+			'''
+	}
+
+	WheelTeleportitis: {
+		DisplayName: Teleportitis Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower gain...]
+			[c/E9B688:Teleportitis]
+			Every time you take damage, you teleport away
+			This includes damage from debuffs like 'on fire!'
+			After teleporting gain +20% damage negation and movement speed for 10s
+			'''
+	}
+
+	Dreamscape: {
+		DisplayName: Dreamscape
+		Tooltip:
+			'''
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/f9f909:Stardust Storm]
+			Summons a rampaging storm of stardust lawnmowers that chase enemies
+			Stardust lawnmowers deal +20% per hit, but lose tracking after first hit
+			[c/FE9E23:Healing Potion]
+			This weapon is a healing potion, and cannot be used when potion sick
+			Dealing damage with this weapon heals you equal to 4% of damage dealt
+			Healing effect is doubled to 8% when hitting bosses
+			Causes 45s of potion sicknes, 36s with philosopher's stone
+			[c/969696:Does not work with potion hotkey, must be manually used]
+			'''
+	}
+
+	FlareLawnmower: {
+		DisplayName: Dropout
+		Tooltip:
+			'''
+			Uses flares as ammo
+			33% chance to save ammo
+			Deals -30% damage and knockback when standing still 
+			[c/FE9E23:Flare Drop]
+			Rains down flares onto enemies below
+			Flares deal 60% of base damage, and 30% knockback
+			[c/969696:Red/Blue flares use custom flares that despawn after 1m]
+			'''
+	}
+
+	WyvernLawnmowerArch: {
+		DisplayName: Arch-Wyvern Lawnmower
+		Tooltip:
+			'''
+			Ignores 11 points of enemy Defense
+			Cannot roll modifiers that reduce weapon scale
+			[c/f9f909:Flight]
+			Deals +33% damage when airborne, grants infinite flight when held
+			[c/FE9E23:Might]
+			Deals +33% knockback, grants +12 defense, and inflicts ichor when grounded
+			[c/969696:'Even Longer!']
+			'''
+	}
+
+	Radiance: {
+		DisplayName: Radiance
+		Tooltip:
+			'''
+			[c/F892F8:Inner Peace]
+			+25% crit chance when standing still or airborne
+			Deals -25% crit damage when standing still or airborne
+			Critical hits heal you +1-3 life
+			[c/f9f909:Radiance]
+			Dealing damage with this weapon grants 'Radiance' to you and nearby allies
+			Radiance greatly increases life regeneration, and critical strike chance
+			'''
+	}
+
+	FlareLawnmower2: {
+		DisplayName: Hot Drop
+		Tooltip:
+			'''
+			Uses flares as ammo
+			33% chance to save ammo
+			Deals -30% damage and knockback when standing still
+			[c/FE9E23:Flare Drop]
+			Rains down flares onto enemies below
+			Flares deal 60% of base damage, and 30% knockback
+			[c/f89292:Brimstone]
+			Converts red/blue flares into hell-flares
+			80% chance to set enemies ablaze, 20% chance to inflict hellfire
+			Hell-Flares explode after a short delay once it strikes a tile
+			Explosion deals 30 damage and inflicts hellfire for 5s
+			'''
+	}
+
+	RustBucket3: {
+		DisplayName: Harbinger of the Night
+		Tooltip:
+			'''
+			Uses bullets as ammo
+			[c/969696:Shimmers into Herald of the Light]
+			[c/BE90E5:Grounded]
+			Contact hits deal 1.6x damage when grounded
+			[c/F892F8:Onyx]
+			Rapidly shoots forward onyx bolts on use that deal 70% damage
+			Every 2nd shot is enhanced and also shoots a powerful shotgun burst
+			[c/969696:'Bring forth night']
+			'''
+	}
+
+	EaterOfLawns: {
+		DisplayName: Eater of Lawns
+		Tooltip:
+			'''
+			Can be shimmered
+			Hits both infront and behind you
+			Deals -70% damage and -33% knockback when airborne
+			Deals +33% damage and knockback when standing still
+			[c/92F892:Vile-Spit Machine-Gun]
+			<right> to toggle weapon mode from lawnmower to machine gun
+			Machine gun mode rapidly fires vile-spit at enemies
+			Vile-Spit deals 3 damage and inflicts poison for a short duration
+			<left> contact hits deal +70% damage to poisoned enemies
+			'''
+	}
+
+	ConfusedLawnmower: {
+		DisplayName: Confused Lawnmower
+		Tooltip:
+			'''
+			Can be shimmered
+			[c/B227FD:Confusion]
+			Inflicts confusion on hit for 2s
+			Sentry Summon, gains benefits from both lawnmower and summon effects
+			Spins in place for 3 seconds, then launches itself at closest enemy
+			[c/e10643:Bloodbath]
+			Creates 2 blood explosions on hit, one at enemy location, one at summon point
+			Respawns at summon point after hits, despawning also creates a blood explosion
+			[c/969696:'This isn't a lawnmower...  it must be confused!']
+			'''
+	}
+
+	Egocentrism: {
+		DisplayName: Egocentrism
+		Tooltip:
+			'''
+			Contact deals 2.4x damage when airborne and not moving left or right
+			[c/B227FD:Center of Attention]
+			Rapidly shoots lasers at enemies within a 18 tile radius
+			Lasers deal 30% damage, 20% knockback, and ignore 7 points of enemy Defense
+			Shoots 3 lasers per use for each enemy within range, no cap on max lasers
+			[c/969696:'Lasers!']
+			'''
+	}
+
+	WheelOfReturnHeart: {
+		DisplayName: Wheel of Heartfelt Return
+		Tooltip:
+			'''
+			Increases movement speed by 15% when holding a lawnmower
+			[c/F892F8:Heartfelt]
+			Increases your max life by 20
+			Rapidly heals you for 7s after respawning
+			[c/BE90E5:Return]
+			Creates a portal on death that acts as a respawn point
+			Hold <right> for 2s whilst dead to despawn portal
+			'''
+	}
+
+	Microplastics: {
+		DisplayName: Microplastics
+		Tooltip:
+			'''
+			Ignores 6 points of enemy Defense
+			Contact deals -90% damage when standing still or airborne
+			[c/E9B688:Microplastics]
+			Sheds a trail of microplastics on use that damage enemies
+			Microplastic pierces enemies and slowly floats towards the ground
+			Plastic deals 40% less damage and fades out after hitting tiles
+			[c/04C3F9:'Not The Turtles!']
+			Deals +400% damage to ocean/water based enemies
+			[c/969696:'Great for the environment!']
+			'''
+	}
+
+	SwampLawnmower: {
+		DisplayName: Lawnmower from the Deep
+		Tooltip:
+			'''
+			Deals -20% damage and knockback when standing still or airborne
+			[c/E9B688:Growing Pains]
+			Slowly grows in size until hits max, then starts shrinking
+			Damage is multiplied by scale, deals more damage the bigger it gets
+			Attack speed has no effect on this weapon
+			[c/92F892:Swamp-Orbs]
+			Bursts into swamp-orbs on hit that deal 40% of damage dealt
+			Greater scale increases the amount of swamp-orbs spawned
+			Big orbs burst into many smaller orbs on death
+			Small orbs chase enemies and ignore 4 points of enemy Defense
+			[c/969696:'Stinky']
+			'''
+	}
+
+	MiniOctopus: {
+		DisplayName: Mini-Octopoda
+		Tooltip:
+			'''
+			Uses bullets or arrows as ammo
+			Contact deals -40% damage and knockback when standing still or airborne
+			[c/E9B688:Octopus]
+			Shoots forward 8 projectiles per use that deal 33% damage and knockback
+			Octuples movement speed and doubles fire-rate when submerged in liquids
+			[c/92F892:Crafty Critter]
+			[c/E9B688:<right>] to change firing/ammo mode from [c/E9B688:bullets to arrows]
+			Using <right> whilst stuck in blocks will teleport you to cursor position
+			[c/969696:'Half octopus, half lawnmower, completely awesome.']
+			'''
+	}
+
+	OreLawnmowerTitan: {
+		DisplayName: The Titan
+		Tooltip:
+			'''
+			Deals +20% damage and knockback when standing still
+			[c/04C3F9:Titanium Storm]
+			Attacking generates a defensive barrier of titanium shards
+			[c/e10643:Adamantite Anvil]
+			Greatly increases falling speed when attacking
+			Deals +350% bonus damage when attacking whilst falling
+			-
+			[c/FE9E23:Hardmore Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a 33% chance to drop a cluster 1-4 of ore
+			Drops both Adamantite and Titanium
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerSpeed: {
+		DisplayName: The Speedster
+		Tooltip:
+			'''
+			Deals +10% damage and knockback when airborne
+			Sends you flying forward in lawnmowers direction
+			[c/8686E5:Cobalt Clash]
+			Attack power increases at higher speeds
+			Critical hits deal 3x damage rather than 2x
+			[c/E9B688:Palladium's Protection]
+			Grants +5 defense when held
+			Gain 2 frames of the 'Rapid Healing' buff for every 1 damage dealt
+			-
+			[c/FE9E23:Hardmore Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a 33% chance to drop a cluster 1-4 of ore
+			Drops both Cobalt and Palladium
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	OreLawnmowerMystic: {
+		DisplayName: The Mystic
+		Tooltip:
+			'''
+			Contact deals +20% damage and knockback when airborne
+			[c/92F892:Mystic Arts]
+			Dealing contact damage grants mana equal to 50% of damage done
+			Every 4th use summons a powerful circle of magic orbs that deal 40% damage
+			[c/F892F8:Flower Power]
+			Flower petals will fall on your target for extra damage
+			Pink orb circle deals 50% more damage than green orbs, and spawn away from you
+			-
+			[c/FE9E23:Hardmore Ore-Lawnmower]
+			Hits with this weapon have a small chance to drop ore
+			Kills have a 33% chance to drop a cluster 1-4 of ore
+			Drops both Mythril and Orichalcum
+			[c/969696:<right> to toggle remove/enable ore drop effects]
+			'''
+	}
+
+	HappyNewYearMK2: {
+		DisplayName: Happy New Year! Mk2
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Contact deals damage rapidly and gains +15% damage and knockback when airborne
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/B227FD:Celebration Mk2]
+			Shoots 5 explosive firework-rockets up into the sky on use
+			Projectiles deal 80% of base damage and 60% of base knockback
+			7 different rocket types, each with different effects
+			[c/969696:Sold by the Party Girl once Golem has been defeated]
+			[c/969696:0w0]
+			'''
+	}
+
+	WheelAsh: {
+		DisplayName: Ashen Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower gain...]
+			[c/E9B688:Molten]
+			7% increased damage and movement speed
+			Lawnmower damage sets enemies ablaze
+			[c/92F892:Skeletal]
+			Additionaly increases effects when grounded
+			Increases damage by 11% and movement speed by 18%
+			'''
+	}
+
+	WheelDuality: {
+		DisplayName: Wheel of Duality
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower gain...]
+			[c/F892F8:Good]
+			Increases movement speed by 30% and generates light when moving
+			Glowing dust/light changes based on life to indicate what effects are active
+			[c/e10643:& Evil]
+			When at maximum or below 20% life gain
+			13% increased damage
+			25% increased movement speed
+			Stat boosts are multiplicative
+			'''
+	}
+
+	Infestation: {
+		DisplayName: Infestation
+		Tooltip:
+			'''
+			Deals +25% damage and knockback when airborne or standing still
+			[c/f9f909:Broodmother]
+			Kills lay mothron boulder-eggs at target's position
+			Eggs hatch on hit, or after a short duration, summoning moth-minions
+			Moth-Minions attack eneimes and synergizes with summon/minion effects
+			[c/FE9E23:Swarm of Moths]
+			Moth-Minions...
+			Live for 14s before despawning, and all chase seperate targets
+			Become significantly stronger and faster the more moths are active
+			Moth-Minions and Boulder-Eggs both also lay eggs on kill
+			[c/969696:'Bugs!']
+			'''
+	}
+
+	CoinLawnmower: {
+		DisplayName: Clutch of Cupidity
+		Tooltip:
+			'''
+			Ignores 3 points of enemy Defense
+			Rapidly strikes targets, can hit multiple times per use
+			Deals -30% damage and knockback when airborne or standing still
+			[c/f9f909:Midas]
+			Enemies drop extra coins
+			Hitting enemies will sometimes drop coins
+			[c/BE90E5:Overwhelming Wealth]
+			Rapidly spews out boincing coins on hit
+			Coins deal more damage based on their worth
+			[c/969696:'Who says you can't buy happiness']
+			'''
+	}
+
+	WheelMartian: {
+		DisplayName: Martian Warp-Wheel
+		Tooltip:
+			'''
+			Increases movement speed by 22.5%
+			Increases lawnmower damage by 15% when airborne
+			[c/B227FD:Alien Tech]
+			Allows the holder to reverse gravity
+			Press Up whilst holding a lawnmower to change gravity
+			[c/969696:This accessories %effects are doubled when upside-down]
+			'''
+	}
+
+	FlareLawnmower3: {
+		DisplayName: Gaia's Grace
+		Tooltip:
+			'''
+			Uses flares as ammo
+			50% chance to save ammo
+			[c/FE9E23:Flare Drop]
+			Rains down flares onto enemies below
+			Flares deal 80% of base damage, and 40% knockback
+			[c/f9f909:Terra-Flares]
+			Converts red/blue flares into terra-flares
+			Terra-Flares have a chance to inflict every debuff
+			[c/92F892:Earthbound]
+			Fires flare upward when grounded
+			Deals +67% contact damage and knockback when grounded
+			[c/969696:Inflicts debuffs.... all of them]
+			'''
+	}
+
+	Marblous: {
+		DisplayName: Marblous
+		Tooltip:
+			'''
+			Deals +40% damage and -100% knockback when airborne or standing still
+			[c/f89292:Valiant Charge]
+			Contact damage grants +1 'Valiant Charge'
+			Charge stacks up to 60, with each stack increasing crit chance by 1%
+			Charge granted is trippled on critical hits, or when hitting bosses
+			Critical hits deal 230% damage, rather than the normal 200%
+			[c/E9B688:Barrage]
+			Hold <right> whilst using weapon to summon a barrage of spears
+			Spears rain down from the sky near cursor position, and deal 67% damage
+			Activating barrage consumes 0.5 Valiant Charge per spear summoned
+			[c/969696:'Are you not entertained?!']
+			'''
+	}
+
+	WheelBlight: {
+		DisplayName: Wheel of Blight
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			[c/f89292:Reduces lawnmower damage by 13%]
+			[c/92F892:Increases movement speed by 13%]
+			[c/92F892:Increases lawnmower crit chance by 33%]
+			'''
+	}
+
+	GnomeLawnmower: {
+		DisplayName: Garden Guardian
+		Tooltip:
+			'''
+			[c/969696:Uses 'fancy effects']
+			Deals -33% crit damage when standing still or airborne
+			[c/92F892:Eden]
+			Does not destroy plants
+			Holding this lawnmower increases luck by 0.3
+			Critical hits deal random damage and heal you +5 life
+			[c/969696:'you've been gnomed!']
+			'''
+	}
+
+	WheelUniverse: {
+		DisplayName: Universal Constant
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			[c/f89292:Starbound]
+			Increases airborne movement speed by 70%
+			Increases airborne lawnmower damage by 10%, 30% for contact
+			Reduces mana costs by 20% and automatically uses mana potions when needed
+			-
+			[c/BE90E5:Duality]
+			Increases movement speed by 30% and generates light when moving
+			When at maximum or below 20% life: Increases damage by 1.1x and movement speed by 1.2x
+			Glowing dust/light changes based on life to indicate what effects are active
+			-
+			[c/f9f909:Warp-Tech]
+			Allows the holder to reverse gravity
+			Press Up whilst holding a lawnmower to change gravity
+			<right> in inventory whilst holding 'up' to toggle gravity control on/off
+			Slightly increases damage and movement speed when upside down
+			[c/969696:'13.8 billion years ago, the first lawnmower wheel was created' - John Lawnmower]
+			'''
+	}
+
+	RuneLawnmower: {
+		DisplayName: Runed Ruins
+		Tooltip:
+			'''
+			Deals -50% damage when airborne or standing still, but +200% crit damage
+			[c/FE9E23:Runic]
+			Contact damage restores mana equal to damage dealt
+			Shoots 2 alternating rune-blasts thet deal 80% damage on use
+			Hold <right> to greatly increase attack speed of runes, rapidly draining mana
+			[c/969696:'Tim's more powerful and much better-looking older brother's lawnmower']
+			'''
+	}
+
+	WheelOreTitanium: {
+		DisplayName: Titanium Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/04C3F9:Titanium Storm]
+			Attacking generates a defensive barrier of titanium shards
+			'''
+	}
+
+	WheelOreOrichalcum: {
+		DisplayName: Orichalcum Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/d780d7:Flower Power]
+			Flower petals will fall on your target for extra damage
+			'''
+	}
+
+	WheelOrePalladium: {
+		DisplayName: Palladium Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/E9B688:Rapid Healing]
+			Greatly increases life regeneration after striking an enemy
+			50% slower healing than palladium set bonus
+			'''
+	}
+
+	WheelOreFusion: {
+		DisplayName: Metallic Maestro
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/E9B688:Rapid Healing]
+			Increases life regeneration after striking an enemy
+			[c/d780d7:Flower Power]
+			Flower petals will fall on your target for extra damage
+			[c/04C3F9:Titanium Storm]
+			Attacking generates a defensive barrier of titanium shards
+			[c/8CF10A:Metallic Thorns]
+			Taking damage releases 8-16 metallic cactus-spikes
+			'''
+	}
+
+	SlipperySlope: {
+		DisplayName: Slippery Slope
+		Tooltip:
+			'''
+			Deals -60% damage and -20% knockback when standing still or airborne
+			[c/04C3F9:Iced Wheels]
+			Significantly reduces traction when held, making your movement slippery
+			Useful for conserving momentum when moving at high speeds
+			'''
+	}
+
+	AncientLawnmower: {
+		DisplayName: Ancient Artistry
+		Tooltip:
+			'''
+			Can hit multiple times per use
+			Deals +25% damage and knockback when grounded
+			[c/f9f909:Sandstorm]
+			Every 5th use shoots forward a raging tornado of sand
+			Sandnados deal 70% damage and 150% knockback
+			Contact damage has a 10% chance to summon a sandnado
+			[c/FE9E23:Sandshark]
+			Hold <right> to rapidly burrow through nearby blocks
+			Burrows towards cursor position, preserves some momentum
+			[c/969696:'Ancient storms brew within']
+			'''
+	}
+
+	CobaltCap: {
+		DisplayName: Cobalt Cap
+		Tooltip:
+			'''
+			Reduces damage taken by 8%
+			12% increased lawnmower attack speed
+			'''
+		SetBonus:
+			'''
+			[c/8686E5:Swift Strike]
+			15% increased movement speed
+			12% increased lawnmower attack speed
+			'''
+	}
+
+	PalladiumEyeProtection: {
+		DisplayName: Palladium Eye-Protection
+		Tooltip:
+			'''
+			Reduces damage taken by 12%
+			3% increased lawnmower damage
+			3% increased lawnmower ctitical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/E9B688:Rapid Healing]
+			Greatly increases life regeneration after striking an enemy
+			'''
+	}
+
+	MythrilOrbHat: {
+		DisplayName: Mythril Face-Orb
+		Tooltip:
+			'''
+			Reduces damage taken by 6%
+			Increases maximum mana by 60
+			16% increased lawnmower critical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/92F892:Mystical Mowing]
+			12% increased movement speed
+			Reduces lawnmower mana costs by 30%
+			'''
+	}
+
+	OrichalcumFlowerCrown: {
+		DisplayName: Orichalcum Flower-Crown
+		Tooltip:
+			'''
+			7% increased lawnmower damage
+			7% increased lawnmower attack speed
+			7% increased lawnmower ctitical strike chance
+			[c/04C3F9:Doubles amount of petals spawned from setbonus]
+			'''
+		SetBonus:
+			'''
+			[c/d780d7:Flower Power]
+			Flower petals will fall on your target for extra damage
+			'''
+	}
+
+	LawnmowerBookHardmode3: {
+		DisplayName: Lawnmower Encyclopedia: Page V
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload lawnmowers
+			Page V: Hardmode, [c/04C3F9:Cyan,] [c/e10643:Red,] [c/B227FD:Purple]
+			[c/8686E5:<right> in inventory to return to page I]
+			Lawnmowers [i:4049]
+			-----
+			[c/04C3F9:Omen]
+			[c/04C3F9:Egocentrism]
+			[c/04C3F9:Happy New Year! Mk2]
+			[c/04C3F9:Calypso]
+			[c/04C3F9:Sentinel]
+			[c/04C3F9:Bubble Bath]
+			[c/04C3F9:Macroplastics]
+			[c/04C3F9:Frostpunk]
+			[c/e10643:Celestial Body]
+			[c/e10643:Dreamscape]
+			[c/e10643:The Hivemind]
+			[c/e10643:Event Horizon]
+			[c/e10643:The Solar Pillar]
+			[c/e10643:Phase 2]
+			[c/e10643:Starman]
+			[c/B227FD:Pillars of Creation]
+			'''
+	}
+
+	Microplastics2: {
+		DisplayName: Macroplastics
+		Tooltip:
+			'''
+			Ignores 13 points of enemy Defense
+			Contact deals -70% damage and -30% knockback when standing still or airborne
+			[c/E9B688:Microplastics]
+			Sheds a trail of microplastics on use that damage enemies
+			Microplastic pierces enemies and slowly floats towards the ground
+			Plastic deals 40% less damage and fades out after hitting tiles
+			[c/FE9E23:Macroplastics]
+			Large plastic pieces occasionaly shed from lawnmower
+			Macroplastics...
+			Bounce on collisions and deal 170% damage
+			Lose 30% damage on bounce, but spilit into two pieces
+			Explode into lots of microplastic on death
+			[c/04C3F9:'Not The Turtles!']
+			Deals +400% damage to ocean/water based enemies
+			[c/969696:'Great for the environment!']
+			'''
+	}
+
+	RustBucket4: {
+		DisplayName: Herald of the Light
+		Tooltip:
+			'''
+			Uses arrows as ammo
+			[c/969696:Shimmers into Harbinger of the Night]
+			[c/8686E5:Feather]
+			Contact hits deal 1.5x damage, 2x when airborne
+			[c/04C3F9:Fracture]
+			Shoots forward 3 magic blades per use that deal 80% damage
+			Hold <right> to greatly increase blade summon rate, at the cost of mana
+			Every 2nd shot is enhanced and also shoots a powerful arrow barrage
+			[c/969696:'Bring forth light']
+			'''
+	}
+
+	SpookyHat: {
+		DisplayName: Spooky Hat
+		Tooltip:
+			'''
+			Reduces damage taken by 13%
+			7% increased summon damage
+			7% increased lawnmower damage
+			'''
+		SetBonus:
+			'''
+			14% increased summon damage
+			14% increased lawnmower damage
+			'''
+	}
+
+	TelestoUpgrade: {
+		DisplayName: Calypso
+		Tooltip:
+			'''
+			[c/969696:Shimmers into Sentinel]
+			Contact deals +40% damage and -40% knockback when airborne
+			Contact deals -40% damage and +40% knockback when standing still
+			[c/04C3F9:Circular Reasoning]
+			Rapidly shoots lasers in a circular motion, 8 lasers per use
+			Upon completing a full circle, all lasers will fire for a second time
+			[c/FE9E23:Spaceman]
+			Counts as a 'space gun' for meteorite armor set bonus
+			Gains +30% damage from Meteorite Wheel, rather than the base +20%
+			[c/969696:'Saturn has 146 moons, this lawnmower is one of them']
+			'''
+	}
+
+	WheelNano: {
+		DisplayName: Nanite Wheel
+		Tooltip:
+			'''
+			[c/F892F8:if] ([c/04C3F9:standingStill] && [c/04C3F9:holdingLawnmower])
+			{
+			    [c/04C3F9:player].noKnockback = [c/8686E5:true];
+			    [c/04C3F9:player].[c/f9f909:GetDamage]([c/92F892:LawnmowerDamage.Instance]) += 0.25f;  [c/92F892:// Increases damage by 25%]
+			    [c/04C3F9:player].endurance = 1f - (0.85f * (1f - [c/04C3F9:player].endurance)); [c/92F892:// Reduces damage taken by 15%]
+			}
+			[c/969696:'Nanomachines, son!']
+			'''
+	}
+
+	BubbleCharm: {
+		DisplayName: Bubble Charm
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Generates protective bubble foam around you after not getting hit for 5s
+			Bubble foam reduces damage taken by 30% 
+			Timer resets back to 0s when hurt
+			[c/969696:'Bubbles!']
+			'''
+	}
+
+	Omen: {
+		DisplayName: Omen
+		Tooltip:
+			'''
+			Deals +42% damage and knockback when below 20% life
+			[c/B227FD:Memento Mori]
+			Critical hits inflict confusion
+			Dealing damage summons a burst of Duality Skulls
+			[c/B227FD:Unus Annus]
+			Summons more skulls based on amount of damage dealt
+			Skulls chase after enemies, and rapidly deal damage
+			Skulls deal magic damage and synergize with magic effects
+			[c/969696:-]
+			[c/969696:'Rogue, do you know about the inevitability of the clock?']
+			[c/969696:'How death comes for us all?']
+			[c/969696:'No matter how many times you smash it, it'll never stop, yeah.']
+			[c/969696:'yeah.']
+			[c/969696:'What do you think about the inevitability of our doom?']
+			[c/969696:'We'll get there when we get there.']
+			[c/969696:'Nicely put, nicely put.']
+			[c/969696:'I'm gonna go jump off the cliff.']
+			[c/969696:231:11:46:55]
+			'''
+	}
+
+	WheelTorch: {
+		DisplayName: Candlelit Wood-Wheel
+		Tooltip:
+			'''
+			Provides a small amount of light when dry
+			Increases movement speed by 10% when holding a lawnmower
+			'''
+	}
+
+	WheelCactus2: {
+		DisplayName: Metallic-Cactus Wheel
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Increases movement speed by 10%
+			[c/8CF10A:Metallic Thorns]
+			Taking damage releases 8-16 metallic spikes
+			Metallic spikes...
+			Ignore 7 points of enemy Defense
+			Deal damage equal to 50% of damage taken
+			Pierce enemies and bounce after hitting tiles
+			Gain the ability to chase targets after bouncing
+			'''
+	}
+
+	BeeTophat: {
+		DisplayName: Bee Top-Hat
+		Tooltip:
+			'''
+			Increases lawnmower damage by 4%
+			Increases your max number of minions by 1
+			'''
+		SetBonus:
+			'''
+			[c/E9B688:Lawnmower Bees!]
+			Dealing lawnmower or summon damage has a 33% chance to summon 1-3 bees
+			Bees attacks deal 60% of the damage that summoned them
+			'''
+	}
+
+	TreasureBagRain: {
+		DisplayName: Rain Set
+		Tooltip:
+			'''
+			<right> to open
+			Contains within the Rain: hat, coat, and boots
+			This armor set now increases lawnmower stats
+			[c/8686E5:Sold by the Merchant during rain]
+			'''
+	}
+
+	Bioluminescence: {
+		DisplayName: Bioluminescence
+		Tooltip:
+			'''
+			Increases movement speed, acceleration, and jump height
+			Movement is further increased when holding a lawnmower
+			Provides light when worn, light intensity increses when wet
+			[c/969696:'A brief warmth in my cold life.']
+			'''
+	}
+
+	CloudStrider0Head: {
+		DisplayName: Cloud-Strider's Circlet
+		Tooltip: Increases lawnmower damage by 7%
+		SetBonus:
+			'''
+			[c/04C3F9:Skywalker]
+			Increases movement speed by 7%
+			Increases lawnmower damage by 15% when airborne
+			Using a lawnmower whilst airborn allows you to walk on air
+			Hold 'down' or 'up' when active to cancel effect
+			'''
+	}
+
+	CloudStrider1Chest: {
+		DisplayName: Cloud-Strider's Breastplate
+		Tooltip: Increases airborne movement speed by 7%
+	}
+
+	CloudStrider2Legs: {
+		DisplayName: Cloud-Strider's Greaves
+		Tooltip: Increases airborne movement speed by 7%
+	}
+
+	Frostborne0Head: {
+		DisplayName: Frostborne Facade
+		Tooltip:
+			'''
+			7% increased lawnmower damage
+			7% increased lawnmower critical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/04C3F9:Hailstorm]
+			Double tap any direction to dash
+			Can also dash up and down, and whilst mounted
+			Rapidly shoots frost-needles into the air when dashing
+			3s cooldown
+			'''
+	}
+
+	Frostborne1Chest: {
+		DisplayName: Frostborne Breastplate
+		Tooltip:
+			'''
+			5% increased lawnmower damage
+			11% increased lawnmower attack speed
+			'''
+	}
+
+	Frostborne2Legs: {
+		DisplayName: Frostborne Treads
+		Tooltip:
+			'''
+			12% increased movement speed
+			2% increased lawnmower critical strike chance
+			Provides extra mobility on ice, will not break when you fall on it
+			'''
+	}
+
+	SkywalkerBoots: {
+		DisplayName: Skywalker Boots
+		Tooltip:
+			'''
+			Allows flight, super fast running
+			Negates fall damage, 8% increased movement speed
+			[c/04C3F9:Cloud Strider]
+			Using an item whilst airborn greatly reduces fall speed
+			Increases lawnmower damage by 8% when active
+			Hold 'down' or 'up' when active to cancel effect
+			'''
+	}
+
+	MechanicalChest: {
+		DisplayName: Mechanical Cuirass
+		Tooltip:
+			'''
+			9% increased lawnmower critical strike chance
+			15% increased lawnmower damage and knockback
+			[c/d780d7:Set bonus changes based on worn mech-boss mask]
+			'''
+		SetBonus:
+			'''
+			[c/e10643:Triborg]
+			-
+			[c/f89292:Skeletron Prime]
+			Reduces damage taken by 10%
+			Explode into mechanical-skulls on death dealing massive damage
+			Double tap down to call an orbital strike on cursor position
+			1m cooldown between strikes
+			-
+			[c/8686E5:Destroyer]
+			Summons 3 mini-probe friends that bounce around and follow you
+			Increases defense by 8 and movement speed by 20% when grounded
+			-
+			[c/92F892:The Twins]
+			16% increased lawnmower damage
+			20% increased airborne movement speed
+			Inflicts hellfire and cursed inferno to all enemies within line of sight
+			Death Stare debuffs ignore enemy debuff immunity
+			'''
+	}
+
+	MechanicalLegs: {
+		DisplayName: Mechanical Treads
+		Tooltip:
+			'''
+			4% increased lawnmower critical strike chance
+			16% increased movement speed when grounded
+			[c/d780d7:Set bonus changes based on worn mech-boss mask]
+			'''
+	}
+
+	Shellpile0Shellmet: {
+		DisplayName: Shellpile Shellmet
+		Tooltip:
+			'''
+			5% increased lawnmower damage
+			3% increased lawnmower critical strike chance
+			'''
+		SetBonus:
+			'''
+			10 defense
+			Reduces damage taken by 6%
+			[c/8686E5:Brittle]
+			Taking damage inflicts 'brittle' for 9s
+			Reduces defense by 7, stacks up to 3x
+			Brittle does not activate if wet when damaged
+			'''
+	}
+
+	Shellpile1Shirt: {
+		DisplayName: Shellpile Shirt
+		Tooltip:
+			'''
+			8% increased lawnmower knockback
+			2% increased lawnmower critical strike chance
+			'''
+	}
+
+	Shellpile2Shoes: {
+		DisplayName: Shellpile Shoes
+		Tooltip:
+			'''
+			20% increased movement speed when wet
+			30% increased movement speed when running on sand
+			'''
+	}
+
+	HateEngine: {
+		DisplayName: Hate Engine
+		Tooltip: Greatly increases enemy spawn rates when holding a lawnmower
+	}
+
+	CultistLawnmower: {
+		DisplayName: Celestial Body
+		Tooltip:
+			'''
+			[c/04C3F9:Celestial]
+			Inherits special effects from every damage class
+			Gains 50% of statistical boosts from all non-lawnmower classes
+			[c/f9f909:Sentry Satellite]
+			Sentry Summon: Synergizes with minion effects
+			Summons a flying cosmic lawnmower that rapidly orbits around you
+			<right> to summon max sentry amount in one use, with an even orbit
+			Orbiting lawnmowers deal +350% damage and knockback when holding this weapon out
+			'''
+	}
+
+	FriendshipBracelet: {
+		DisplayName: Friendship Bracelet
+		Tooltip:
+			'''
+			Increases stats when mounted
+			+6 defense
+			+10% lawnmower damage and attack speed
+			+20% lawnmower knockback
+			'''
+	}
+
+	LawnmowerBookZArmor: {
+		DisplayName: Lawnmower Encyclopedia: Armor
+		Tooltip:
+			'''
+			Contains within all Lawnmower Overload armor
+			Craft at workbench for 1 dirt block [i:2]
+			----
+			Sets
+			[c/8686E5:Shellpile Set]
+			[c/8686E5:Cloudstrider's Set]
+			[c/92F892:Frostborne Set]
+			[c/f89292:Possessed Hat]
+			[c/BE90E5:Mechanical Set]
+			[c/f9f909:Infernal Set]
+			[c/04C3F9:Starfarer's Set]
+			[c/e10643:Celestial Set]
+			----
+			Misc: Vanilla Set Additions
+			[c/8686E5:Rain Boots]
+			[c/E9B688:Bee Top-Hat]
+			[c/f89292:Cobalt Cap]
+			[c/f89292:Palladium Eye-Protection]
+			[c/f89292:Mythril Face-Orb]
+			[c/f89292:Orichalcum Flower-Crown]
+			[c/f89292:Adamantite Hat]
+			[c/f89292:Titanium Hat]
+			[c/d780d7:Hallowed Circlet]
+			[c/f9f909:Spooky Hat]
+			[c/8CF10A:Chlorophyte Crown]
+			'''
+	}
+
+	Celestial1Sunglasses: {
+		DisplayName: Celestial Sunnies
+		Tooltip:
+			'''
+			Increases maximum life by 20
+			Increases maximum mana by 40
+			12% increased lawnmower attack speed
+			14% increased lawnmower critical strike chance
+			'''
+		SetBonus:
+			'''
+			[c/B227FD:Lawnmower Overload]
+			Double tap left or right to dash
+			Dashing rains down celestial lawnmowers on use
+			-
+			[c/04C3F9:Celestial Sword]
+			Double tap up to activate
+			12% increased lawnmower damage and critical strike chance
+			Lawnmowers summoned from dashing aggressively chase enemies
+			-
+			[c/04C3F9:Celestial Shield]
+			Double tap down to activate
+			Increases defense by 12, Reduces damage taken by 16%
+			Summons damaging celestial fragments that orbit around you
+			Fragments orbit faster and deal more damage when mowing
+			'''
+	}
+
+	Celestial4Chest: {
+		DisplayName: Celestial Chestplate
+		Tooltip:
+			'''
+			Increases maximum life by 60
+			Increases maximum mana by 20
+			8% increased lawnmower critical strike chance
+			14% increased lawnmower damage and knockback
+			'''
+	}
+
+	Celestial5Legs: {
+		DisplayName: Celestial Greaves
+		Tooltip:
+			'''
+			Increases maximum life by 20
+			Increases maximum mana by 40
+			16% increased lawnmower damage
+			20% increased movement speed
+			'''
+	}
+
+	AutoTurret: {
+		DisplayName: Auto Turret
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Automatically shoots a burst of bullets at enemies every 4.5s
+			'''
+	}
+
+	AutoTurretII: {
+		DisplayName: Auto Turret MkII
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Automatically shoots a burst of high-velocity bullets at enemies every 3s
+			'''
+	}
+
+	InfernalWings: {
+		DisplayName: Infernal Wings
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			[c/FE9E23:Demonic]
+			Reduces max life by 60
+			Increases lawnmower damage by 15% when airborne
+			Rains down fire when damaged in the air
+			Fire rain is modified when holding a lawnmower
+			-
+			[c/8686E5:Wing Stats]
+			Flight time: 2.67s
+			Flight height: 95
+			Horizontal speed: 40
+			Vertical multiplier: 175%
+			'''
+	}
+
+	InfernalLawnmower: {
+		DisplayName: Infernal Lawnmower
+		Tooltip:
+			'''
+			[c/fe9e23:Internal Eruption]
+			Dealing damage inflicts all nearby enemies with Internal Eruption
+			Affected enemies spew out deadly lingering flames from within
+			[c/969696:'Burn O' Flame!']
+			'''
+	}
+
+	QueenLawnmower: {
+		DisplayName: Bells & Whistles
+		Tooltip:
+			'''
+			[c/d780d7:Sparkles!]
+			Every third use throws up 3 sparkling slime balloons that deal 70% damage
+			Ballons inflict the Sparkle Slime debuff in a small area when popped
+			[c/BE90E5:Rawr xD]
+			Critical hits...
+			Deal random damage, anywhere from -200% to +500%
+			Inflicts random debuffs vs 'Sparkle Slimed' enemies
+			[c/969696:'Filled with Party Girl bathwater']
+			'''
+	}
+
+	AutoTurretIII_Infernal: {
+		DisplayName: Auto Turret MkIII: Infernal
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Automatically shoots a constant barrage of explosive bullets at enemies
+			[c/fe9e23:Explosive Personality]
+			Ignores 9 points of enemy Defense
+			Enemies targeted by this turret have a small chance to burst into flames
+			'''
+	}
+
+	AutoTurretIII_Shroomite: {
+		DisplayName: Auto Turret MkIII: Shroomite
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Shoots a single powerful mushroom at enemies every 3.5 seconds
+			[c/8686E5:Mushroom Traps]
+			Projectile periodically spawns mushroom traps as it flies
+			Mushrooms fly straight, and bounce off both blocks and enemies
+			[c/04C3F9:Circle of Life]
+			Every half second, a circle of mushrooms burst out, dealing 60% damage
+			Circle spawns 12 mushrooms on first use, but shrinks by 2 each burst
+			'''
+	}
+
+	AutoTurretIII_Spectre: {
+		DisplayName: Auto Turret MkIII: Spectre
+		Tooltip:
+			'''
+			[c/969696:When holding a lawnmower...]
+			Automatically shoots a burst of spectre bolts at enemies every 5s
+			[c/04C3F9:Ghost Bullets]
+			Spectre Bolts travel through blocks and deal magic damage
+			Heals you a small amount of life and mana on hit
+			'''
+	}
+
+	LawnOfBlood: {
+		DisplayName: Lawn of Blood's Exaltation
+		Tooltip:
+			'''
+			Multiplicatively reduces lawnmower damage by 30%
+			[c/f89292:Bloodloss]
+			Dealing lawnmower damage inflicts bloodloss buildup
+			Buildup inflicted is equal to damage lost from multiplicative reduction
+			Bloodloss greater than 20% of targets max life activates Hemorrhage
+			[c/f89292:Hemorrhage]
+			Instantly deals 20% of enemies max life as damage
+			Enemies become more resistant to bloodloss after each hemorrhage
+			[c/e10643:Lawn of Blood's Favor]
+			Raises attack power when blood loss occurs in the vicinity
+			Buff grants +15% lawnmower damage, and +20% bleed damage
+			[c/969696:'Render up your offerings of blood to your Lawn']
+			'''
+	}
+
+	Potion_Ironheart: {
+		DisplayName: Ironheart Potion
+		Tooltip: Grants immunity to knockback when holding lawnmowers
+	}
+
+	HexEngine: {
+		DisplayName: Hex Core
+		Tooltip: Shadowflame tentacles burst out from your lawnmower on use
+	}
+
+	PvZmower: {
+		DisplayName: Dave's Mower
+		Tooltip:
+			'''
+			Shoots forward a charging lawnmower
+			[c/969696:'Great Vs Zombies!']
+			'''
+	}
+
+	NomaiMask: {
+		DisplayName: Starfarer's Mask
+		Tooltip:
+			'''
+			Increases max mana by 60
+			12% increased lawnmower critical strike chance
+			6% increased celestial lawnmower critical strike chance
+			[c/969696:'The Starfarers graciously allow you to wear pants']
+			'''
+		SetBonus:
+			'''
+			[c/B227FD:Quantum Journey]
+			Reduces damage taken by 8%
+			Lawnmowers generate celestial stars at cursor position
+			Stars deal celestial damage and orbit around nearby enemies
+			If no enemies are with range, stars will orbit your cursor
+			Celestial Star critical hits heal you a small amount of life
+			'''
+	}
+
+	NomaiRobes: {
+		DisplayName: Starfarer's Robes
+		Tooltip:
+			'''
+			Increases max mana by 40
+			20% increased lawnmower damage
+			10% increased celestial lawnmower damage
+			[c/969696:'The Starfarers graciously allow you to wear pants']
+			'''
+	}
+
+	MartianBar: {
+		DisplayName: Martian Bar
+		Tooltip: Used to craft alien lawnmower items
+	}
+
+	VultureMulcher: {
+		DisplayName: Vulture Mulcher
+		Tooltip:
+			'''
+			Deals -30% damage when airborne
+			Tall lawnmower that deals +30% damage to targets above you
+			[c/92F892:Spiky]
+			Attackers also take damage
+			Rapidly hits enemies, up to 3 times per use
+			[c/969696:'Mulches Vultures!']
+			'''
+	}
+
+	LawnmowerStatue: {
+		DisplayName: Lawnmower Statue
+		Tooltip:
+			'''
+			Shoots forward a stone lawnmower when activated
+			20 lawnmower damage
+			Weak knockback
+			3s cooldown
+			'''
+	}
+
+	Hotrod: {
+		DisplayName: Hotrod
+		Tooltip:
+			'''
+			Contact deals -20% damage when standing still or airborne
+			[c/E9B688:Flamethrower]
+			Uses gel as ammo
+			Ignores 15 points of enemy Defense
+			Shoots forward a continuous stream of flames that deal 40% damage
+			[c/f89292:Trailblazer]
+			Leavs behind a trail of lingering flames when grounded
+			Contact damage vs oiled targets inflicts internal eruption
+			[c/969696:'Flamin' Hot']
+			'''
+	}
+
+	Hotrod2: {
+		DisplayName: Coldrod
+		Tooltip:
+			'''
+			Deals double contact damage
+			Contact deals -20% damage when standing still or airborne
+			[c/04C3F9:Elf Melter]
+			Uses gel as ammo
+			Ignores 15 points of enemy Defense
+			Shoots forward a continuous stream of flames that deal 55% damage
+			[c/f89292:Trailblazer]
+			Leavs behind a trail of lingering flames when grounded
+			Contact damage vs oiled targets inflicts internal eruption
+			[c/969696:'Flamin' Cold']
+			'''
+	}
+
+	HarrowedHeart: {
+		DisplayName: Harrowed Heart
+		Tooltip:
+			'''
+			Deals -15% damage when standing still or airborne
+			Contact hits deal damage incredibly fast, melting through targets
+			[c/e10643:Shared Suffering]
+			Dealing non critical damage to enemies rapidly drains you life
+			Deals significantly more damage the lower your percentage of life is
+			[c/969696:'The cost is your soul']
+			'''
+	}
+
+	HiChat: {
+		DisplayName: Hi Chat!
+		Tooltip:
+			'''
+			Hi Gameraiders, hi chat! :)
+			Thank you for playing Lawnmower Overload, hope you enjoyed!
+			This community has been so supportive! This mod only has 2k downloads - so most of them are you guys!
+			:)
+			Solo dev is hard (no programming/art exp), so thanks for the encouragement/final push to create armor sets.
+			- Shoutout to Lucid Lizard from chat for creating the Shellpile set!
+			[c/969696:Stay Tuned: Paper-Plane Overload coming soon!]
+			'''
+	}
+}
+
+Projectiles: {
+	CopperLawnmowerProj: {
+		DisplayName: Copper Lawnmower
+	}
+
+	FleshmowerProj: {
+		DisplayName: Fleshmower
+	}
+
+	WyvernLawnmowerProj: {
+		DisplayName: Wyvern Lawnmower
+	}
+
+	TerraLawnmowerProj: {
+		DisplayName: Charging Terra-Lawnmower
+	}
+
+	EnchantedSpikyBallLawnmower: {
+		DisplayName: Enchanted Spiky-Ball
+	}
+
+	RustBucketProj: {
+		DisplayName: Rust Bucket
+	}
+
+	ShotgunSpawner: {
+		DisplayName: ShotgunSpawner
+	}
+
+	SniperSpawner: {
+		DisplayName: SniperSpawner
+	}
+
+	JuggernaughtProj: {
+		DisplayName: The Juggernaut
+	}
+
+	IronBoulder: {
+		DisplayName: Iron Boulder
+	}
+
+	MowerOfGrassProj: {
+		DisplayName: Mower of Grass
+	}
+
+	CubeEngineProj: {
+		DisplayName: Cube Engine
+	}
+
+	CubeEngineProj2: {
+		DisplayName: Phantom-Mower
+	}
+
+	CubeEngineBullet: {
+		DisplayName: Tesseract Bullet
+	}
+
+	EruptionProj: {
+		DisplayName: Eruption
+	}
+
+	EruptionFireball: {
+		DisplayName: Magma Belch
+	}
+
+	IronBoulderMini: {
+		DisplayName: Mini Iron-Boulder
+	}
+
+	LightsPainProj: {
+		DisplayName: Light's Pain
+	}
+
+	BreadButchererProj: {
+		DisplayName: Bread Butcherer
+	}
+
+	BlightsEdgeProj: {
+		DisplayName: Blight's Edge
+	}
+
+	OcramRazorProj: {
+		DisplayName: Ocram's Razor
+	}
+
+	OcramEyeLaser: {
+		DisplayName: Ocram's Eye
+	}
+
+	OreLawnmowerTinProj: {
+		DisplayName: Tin Lawnmower
+	}
+
+	OreLawnmowerIronProj: {
+		DisplayName: Iron Lawnmower
+	}
+
+	OreLawnmowerLeadProj: {
+		DisplayName: Lead Lawnmower
+	}
+
+	OreLawnmowerSilverProj: {
+		DisplayName: Silver Lawnmower
+	}
+
+	OreLawnmowerTungstenProj: {
+		DisplayName: Tungsten Lawnmower
+	}
+
+	OreLawnmowerGoldProj: {
+		DisplayName: Gold Lawnmower
+	}
+
+	OreLawnmowerPlatinumProj: {
+		DisplayName: Platinum Lawnmower
+	}
+
+	CultistWaspShadowball: {
+		DisplayName: Cultist Shadowball
+	}
+
+	CultistWasp: {
+		DisplayName: Cultist Wasp
+	}
+
+	MeteoriteLawnmowerProj: {
+		DisplayName: Crash & Burn
+	}
+
+	PossessedLawnmowerProj: {
+		DisplayName: Possessed Lawnmower
+	}
+
+	PossessedExplosion: {
+		DisplayName: Possessed Explosion
+	}
+
+	TheCreeperProj: {
+		DisplayName: The Creeper
+	}
+
+	TheCreeperEXP: {
+		DisplayName: The Creeper
+	}
+
+	TelestoProj: {
+		DisplayName: Telesto
+	}
+
+	TruthseekerProj: {
+		DisplayName: Truthseeker
+	}
+
+	TruthseekerProj2: {
+		DisplayName: Truthseeker
+	}
+
+	TruthtellerProj: {
+		DisplayName: Truthteller
+	}
+
+	BlightsEdgeTrueProj: {
+		DisplayName: Blight-Engine
+	}
+
+	TerraMeleeProj: {
+		DisplayName: Terra Lawnmower
+	}
+
+	HallelujahProj: {
+		DisplayName: Hallelujah
+	}
+
+	NPCRain: {
+		DisplayName: NPC rain
+	}
+
+	NPCRainGolfball: {
+		DisplayName: Hallelujah Golfball
+	}
+
+	NPCRainDye: {
+		DisplayName: Hallelujah Acid-Dye
+	}
+
+	NPCRainGrenade: {
+		DisplayName: Hallelujah Grenade
+	}
+
+	StarchildProj: {
+		DisplayName: Starchild
+	}
+
+	StarchildStar: {
+		DisplayName: Starchild Star
+	}
+
+	EnchantedLawnmowerProj: {
+		DisplayName: Enchanted Lawnmower
+	}
+
+	SlimeFriendProj: {
+		DisplayName: Slime Friends!
+	}
+
+	BubbleBathProj: {
+		DisplayName: Bubble Bath
+	}
+
+	BubbleBathBubble: {
+		DisplayName: Bath Bubble
+	}
+
+	MarsProj: {
+		DisplayName: Ares
+	}
+
+	MarsRocks: {
+		DisplayName: Phobos & Deimos (Ancient)
+	}
+
+	StarmanProj: {
+		DisplayName: Starman
+	}
+
+	DissonanceProj: {
+		DisplayName: Dissonance
+	}
+
+	WastelanderProj: {
+		DisplayName: Wastelander
+	}
+
+	WastelanderHoldout: {
+		DisplayName: Fishbones
+	}
+
+	WastelanderRocket: {
+		DisplayName: The monster you created
+	}
+
+	WastelanderGrenade: {
+		DisplayName: Powder's Grenade
+	}
+
+	MarsFist: {
+		DisplayName: Ares Fist
+	}
+
+	FrostpunkProj: {
+		DisplayName: Frostpunk
+	}
+
+	FrostpunkBeam: {
+		DisplayName: Frostpunk Ice-Beam
+	}
+
+	EnchantedSpikyBallProj: {
+		DisplayName: Enchanted Spiky-Ball
+	}
+
+	BeeLawnmowerProj: {
+		DisplayName: Bucket O' Bees
+	}
+
+	NinthCircleProj: {
+		DisplayName: Ninth Circle
+	}
+
+	SentinelProj: {
+		DisplayName: Sentinel
+	}
+
+	SentinelBeam: {
+		DisplayName: Sentinel Beam
+	}
+
+	PlantLawnmowerProj: {
+		DisplayName: Plant Shredder
+	}
+
+	FlowerBullet: {
+		DisplayName: Flower Bullet
+	}
+
+	FlowerBullet2: {
+		DisplayName: Piercing Petal
+	}
+
+	LawnmowerShimmerProj: {
+		DisplayName: Shimmered Lawnmower
+	}
+
+	LawnmowerShimmerArrow: {
+		DisplayName: Ascending Lawnmower
+	}
+
+	RustBucketProj2: {
+		DisplayName: Sleekshot
+	}
+
+	KingSlimeLawnmowerProj: {
+		DisplayName: Sticky Situation
+	}
+
+	TheHivemindProj: {
+		DisplayName: The Hivemind
+	}
+
+	PhantomLawnmowerProj: {
+		DisplayName: Phantom's Pain
+	}
+
+	BeeLawnmowerProjMech: {
+		DisplayName: Bucket O' Mech-Bees
+	}
+
+	MechBee: {
+		DisplayName: Mech-Bee
+	}
+
+	MechBeeLaser: {
+		DisplayName: Mech Laser
+	}
+
+	MechBeeGiant: {
+		DisplayName: Giant Mech-Bee
+	}
+
+	CultWaspLawnmowerHoldout: {
+		DisplayName: CultLawnmowerHoldout
+	}
+
+	VortexLawnmowerProj: {
+		DisplayName: Event Horizon
+	}
+
+	CultistWaspGiant: {
+		DisplayName: Giant Cultist-Wasp
+	}
+
+	CultistWaspIce: {
+		DisplayName: Cultist Iceicle
+	}
+
+	CultistWaspFireball: {
+		DisplayName: Cultist Fireball
+	}
+
+	CultistWaspSummon: {
+		DisplayName: Ancient Vision
+	}
+
+	CrystalLawnmower: {
+		DisplayName: Crystal Lawnmower
+	}
+
+	LawnmowerCrystal: {
+		DisplayName: Lawnmower Crystal
+	}
+
+	CrystalLawnmower2: {
+		DisplayName: Lunatic Lawnmower
+	}
+
+	WastelanderBullet: {
+		DisplayName: Ma Meilleure Ennemie
+	}
+
+	SusLawnmowerProj: {
+		DisplayName: Suspicious-Looking Lawnmower
+	}
+
+	RatLawnmowerProj: {
+		DisplayName: Vermin Supreme
+	}
+
+	MeowLawnmowerProj: {
+		DisplayName: Phase 2
+	}
+
+	PillarsOfCreationProj: {
+		DisplayName: Pillars of Creation
+	}
+
+	TheSolarPillarProj: {
+		DisplayName: The Solar Pillar
+	}
+
+	ZenithLawnmowerProj: {
+		DisplayName: Pillars of Creation
+	}
+
+	BloodTaxAura: {
+		DisplayName: Blood Aura
+	}
+
+	BloodTaxProj: {
+		DisplayName: Blood Tax
+	}
+
+	BloodTaxProj2: {
+		DisplayName: Blood-Tax Phantom
+	}
+
+	MidasMachineProj: {
+		DisplayName: Midas Machine
+	}
+
+	WheelOfReturnPortal: {
+		DisplayName: WheelReturnPortal
+	}
+
+	WheelOfReturnPortal2: {
+		DisplayName: WheelReturnPortal2
+	}
+
+	ShroomiteLawnmowerProj: {
+		DisplayName: Fungi
+	}
+
+	WraithLawnmowerProj: {
+		DisplayName: Wraith's Wrath
+	}
+
+	WraithLawnmowerSoul: {
+		DisplayName: Wraith Soul
+	}
+
+	SkullCrusherProj: {
+		DisplayName: Skull Crusher
+	}
+
+	SkullCrusherBomb: {
+		DisplayName: SkullCrusherBomb
+	}
+
+	SkullCrusherEXP: {
+		DisplayName: Crushed Bones
+	}
+
+	ChristmasLawnmowerProj: {
+		DisplayName: Christmas-Tree Lawnmower
+	}
+
+	ChristmasLawnmowerPresent: {
+		DisplayName: Christmas Present
+	}
+
+	FruitcakeStarBallLO: {
+		DisplayName: Fruitcake Star
+	}
+
+	SpiderLawnmowerProj: {
+		DisplayName: Arachnid
+	}
+
+	SpiderLawnmowerWeb: {
+		DisplayName: Arachnid Web
+	}
+
+	AntlionLawnmowerProj: {
+		DisplayName: The Charger
+	}
+
+	TheMeatGrinderProj: {
+		DisplayName: The Meat Grinder
+	}
+
+	MiniBouncingEye: {
+		DisplayName: Meatgrinder Eyeball
+	}
+
+	OreLawnmowerProjectiles: {
+		DisplayName: Bouncing Ore
+	}
+
+	HeartLawnmowerProj: {
+		DisplayName: Aphrodite Engine
+	}
+
+	HappyNewYearProj: {
+		DisplayName: Happy New Year!
+	}
+
+	DreamscapeAura: {
+		DisplayName: Dreamscape Aura
+	}
+
+	DreamscapeProj: {
+		DisplayName: Dreamscape
+	}
+
+	DreamscapeProj2: {
+		DisplayName: Stardust Lawnmower
+	}
+
+	FlareLawnmowerProj: {
+		DisplayName: Dropout
+	}
+
+	FlareFade: {
+		DisplayName: Dropout Flare
+	}
+
+	FlareFadeBlue: {
+		DisplayName: Blue Dropout Flare
+	}
+
+	WyvernLawnmowerArchProj: {
+		DisplayName: Arch-Wyvern Lawnmower
+	}
+
+	RadianceProj: {
+		DisplayName: Radiance
+	}
+
+	FlareLawnmower2Proj: {
+		DisplayName: Hot Drop
+	}
+
+	HellFlare: {
+		DisplayName: Hell Flare
+	}
+
+	HellFlareEXP: {
+		DisplayName: Hell-Flare Explosion
+	}
+
+	RustBucketProj3: {
+		DisplayName: Harbinger of the Night
+	}
+
+	EaterOfLawnsProj: {
+		DisplayName: Eater of Lawns
+	}
+
+	EaterOfLawnsHoldout: {
+		DisplayName: EaterGunHoldout
+	}
+
+	EaterOfLawnsSpit: {
+		DisplayName: Vile Spit
+	}
+
+	ConfusedLawnmowerSentry: {
+		DisplayName: Confused Lawnmower
+	}
+
+	ConfusedLawnmowerEXP: {
+		DisplayName: Cerebral-Blood Explosion
+	}
+
+	EgocentrismProj: {
+		DisplayName: Egocentrism
+	}
+
+	EgocentrismLaser: {
+		DisplayName: Egocentrism Laser
+	}
+
+	MicroplasticsProj: {
+		DisplayName: Microplastics
+	}
+
+	MicroplasticTrail: {
+		DisplayName: Microplastic Trail
+	}
+
+	SwampLawnmowerProj: {
+		DisplayName: Lawnmower from the Deep
+	}
+
+	SwampOrb: {
+		DisplayName: Swamp-Orb
+	}
+
+	SwampOrbBig: {
+		DisplayName: Great Swamp-Orb
+	}
+
+	MiniOctopusProj: {
+		DisplayName: Mini-Octopoda
+	}
+
+	OreLawnmowerTitanProj: {
+		DisplayName: The Titan
+	}
+
+	OreLawnmowerSpeedProj: {
+		DisplayName: The Speedster
+	}
+
+	OreLawnmowerMysticProj: {
+		DisplayName: The Mystic
+	}
+
+	HappyNewYearMK2Proj: {
+		DisplayName: Happy New Year! Mk2
+	}
+
+	InfestationProj: {
+		DisplayName: Infestation
+	}
+
+	InfestationEgg: {
+		DisplayName: Infestation Egg
+	}
+
+	InfestationMinion: {
+		DisplayName: Infestation Minion
+	}
+
+	CoinLawnmowerProj: {
+		DisplayName: Clutch of Cupidity
+	}
+
+	BouncingCoin_Gold: {
+		DisplayName: Bouncing Gold Coin
+	}
+
+	BouncingCoin_Copper: {
+		DisplayName: Bouncing Copper Coin
+	}
+
+	BouncingCoin_Silver: {
+		DisplayName: Bouncing Silver Coin
+	}
+
+	FlareLawnmower3Proj: {
+		DisplayName: Gaia's Grace
+	}
+
+	TerraFlare: {
+		DisplayName: Terra Flare
+	}
+
+	MarblousProj: {
+		DisplayName: Marblous
+	}
+
+	MarblousJavelin: {
+		DisplayName: Marblous Javelin
+	}
+
+	GnomeLawnmowerProj: {
+		DisplayName: Garden Guardian
+	}
+
+	RuneLawnmowerProj: {
+		DisplayName: Runed Ruins
+	}
+
+	SlipperySlopeProj: {
+		DisplayName: Slippery Slope
+	}
+
+	AncientLawnmowerProj: {
+		DisplayName: Ancient Artistry
+	}
+
+	MicroplasticsProj2: {
+		DisplayName: Macroplastics
+	}
+
+	MacroplasticTrail: {
+		DisplayName: Bouncing Plastic
+	}
+
+	RustBucketProj4: {
+		DisplayName: Herald of the Light
+	}
+
+	TelestoProj2: {
+		DisplayName: Calypso
+	}
+
+	OmenProj: {
+		DisplayName: Omen
+	}
+
+	OmenSkull: {
+		DisplayName: Omen Skull
+	}
+
+	CactusWheelSpike: {
+		DisplayName: Cactus Spike
+	}
+
+	CactusWheelSpike2: {
+		DisplayName: Metallic-Cactus Spike
+	}
+
+	FrostborneDashIce: {
+		DisplayName: Frost Needles
+	}
+
+	SandSharkProjectile: {
+		DisplayName: TunnellingProj
+	}
+
+	MechSelfDestructExplosion: {
+		DisplayName: Mechanical Failure
+	}
+
+	MechSkullBookProj: {
+		DisplayName: Mechanical Skull
+	}
+
+	MiniProbe: {
+		DisplayName: Mini Probe
+	}
+
+	MarsRock1: {
+		DisplayName: Phobos & Deimos
+	}
+
+	CultistLawnmowerProj: {
+		DisplayName: Celestial Body
+	}
+
+	OrbitalStrikeLawnmower: {
+		DisplayName: Orbital Strike
+	}
+
+	OrbitalStrikeTarget: {
+		DisplayName: Orbital Target
+	}
+
+	CelestialShield: {
+		DisplayName: Celestial Shield
+	}
+
+	AutoTurretBullet: {
+		DisplayName: Auto-Turret Bullet
+	}
+
+	AutoTurretIIBullet: {
+		DisplayName: Auto-TurretII Bullet
+	}
+
+	InfernalWingsLawnmower: {
+		DisplayName: Infernal-Wings' Revenge
+	}
+
+	InfernalLawnmowerProj: {
+		DisplayName: Infernal Lawnmower
+	}
+
+	QueenLawnmowerProj: {
+		DisplayName: Bells & Whistles
+	}
+
+	AutoTurretIII_InfernalBullet: {
+		DisplayName: Auto TurretIII: Infernal Bullet
+	}
+
+	AutoTurretIII_ShroomiteBullet: {
+		DisplayName: Auto TurretIII: Shroomite Bullet
+	}
+
+	ShroomiteSniperBullet: {
+		DisplayName: Mushroom Sniper
+	}
+
+	AutoTurretIII_SpectreBullet: {
+		DisplayName: Auto TurretIII: Spectre Bullet
+	}
+
+	SpectreBolt: {
+		DisplayName: Spectre Bolt
+	}
+
+	PvZmowerProj: {
+		DisplayName: Dave's Mower
+	}
+
+	NomaiStar: {
+		DisplayName: Celestial Star
+	}
+
+	VultureMulcherProj: {
+		DisplayName: Vulture Mulcher
+	}
+
+	HotrodProj: {
+		DisplayName: Hotrod
+	}
+
+	HotrodProj2: {
+		DisplayName: Coldrod
+	}
+
+	PossessedHatProjectile: {
+		DisplayName: Lawnmower-Clone Jutsu
+	}
+
+	HarrowedHeartProj: {
+		DisplayName: Harrowed Heart
+	}
+
+	LawnmowerStatueProj: {
+		DisplayName: Lawnmower Statue
+	}
+}
+
+Buffs: {
+	RemoveFancyEffects: {
+		DisplayName: Remove fancy effects
+		Description:
+			'''
+			Changes/Removes some fancy effects that may produce lag
+			Right Click to remove buff and restore effects
+			'''
+	}
+
+	JuggernaughtBuff: {
+		DisplayName: Juggernaut
+		Description: Reduces damage taken by 12%
+	}
+
+	CloseCall: {
+		DisplayName: Close Call
+		Description:
+			'''
+			10% increased damage, 4% increased crit chance
+			Removes Juggernaut's -50% airborne penalty
+			'That was close!'
+			'''
+	}
+
+	GrassChargeBuff: {
+		DisplayName: 50% Charged
+		Description:
+			'''
+			20+ grass charges
+			Increases damage negation and crit chance by 4%
+			'''
+	}
+
+	GrassChargeBuff2: {
+		DisplayName: Fully Charged
+		Description:
+			'''
+			Max grass charges
+			Increases damage negation and crit chance by 8%
+			'''
+	}
+
+	CubeEngineBuff: {
+		DisplayName: Cube Engine
+		Description: Greatly increases movement speed
+	}
+
+	GolfSetbonusBuff: {
+		DisplayName: Golf Setbonus
+		Description:
+			'''
+			Reduces damage taken by 5%
+			Increases lawnmower damage and knockback by 9%
+			'''
+	}
+
+	GoblinLawnmowerTeleport: {
+		DisplayName: Goblin Teleport
+		Description:
+			'''
+			Weapon teleportation cooldown
+			Teleporting again will deal 1/7th of your max life as damage
+			'''
+	}
+
+	CactusLawnmowerThorns: {
+		DisplayName: Cactus Thorns
+		Description: Attackers also take damage
+	}
+
+	PossessedArmorBuff: {
+		DisplayName: Possessed Armor
+		Description:
+			'''
+			+18 defense
+			Reduces damage taken by 10%
+			'''
+	}
+
+	PossessedLawnmowerDebuff: {
+		DisplayName: Possessed-Target Cooldown
+		Description: Hit by a possessed lawnmower!
+	}
+
+	CreeperBuff: {
+		DisplayName: Creeper
+		Description:
+			'''
+			Modifies 'The Creeper' lawnmower
+			Explosion no longer damages you, but deals 60% reduced damage
+			'''
+	}
+
+	HallelujahBuff: {
+		DisplayName: Hallelujah
+		Description: "'It's raining men'"
+	}
+
+	SlimeFriendBuff: {
+		DisplayName: Slime Friends
+		Description:
+			'''
+			'They love me :)'
+			Immune to all damage from basic slimes
+			'''
+	}
+
+	BubbleBathBuff: {
+		DisplayName: Bubble Pop!
+		Description: Pops all bubble-bath bubbles
+	}
+
+	MarsBuff: {
+		DisplayName: Mars
+		Description:
+			'''
+			Reduces damage taken by 16%
+			Orbited by Phobos and Deimos
+			'''
+	}
+
+	GetExited: {
+		DisplayName: Get Excited!
+		Description:
+			'''
+			+15% damage
+			+20% attack speed
+			+100% movement speed
+			'''
+	}
+
+	FishbonesBuff: {
+		DisplayName: Fully Charged
+		Description: Right Click with Wastelander to swap to rocket mode
+	}
+
+	PowderedDebuff: {
+		DisplayName: Powdered
+		Description: Reduces defense by 33%
+	}
+
+	FishbonesBuff2: {
+		DisplayName: What could've been
+		Description: Hold attack to charge a giant blast
+	}
+
+	StickyLawnmowerDebuff: {
+		DisplayName: Sticky Situation
+		Description: Stuck to a lawnmower!
+	}
+
+	CrystalLawnmowerBuff: {
+		DisplayName: Crystal Lawnmower
+		Description: Shoots crystal lawnmowers at nearby enemies
+	}
+
+	MyBestEnemy: {
+		DisplayName: My Best Enemy
+		Description: Critical hits vs marked targets deal 300% damage, rather than 200%
+	}
+
+	RatPack: {
+		DisplayName: Rat Pack
+		Description:
+			'''
+			7% increased lawnmower damage and attack speed, 7% damage resist
+			If holding Vermin Supreme: 33% increased lawnmower damage and attack speed, 13% damage resist
+			'''
+	}
+
+	GetExcited: {
+		DisplayName: Get Excited!
+		Description:
+			'''
+			+10% damage
+			+10% attack speed
+			+50% movement speed
+			'''
+	}
+
+	GetExcited2: {
+		DisplayName: Get Excited! x2
+		Description:
+			'''
+			+15% damage
+			+20% attack speed
+			+100% movement speed
+			'''
+	}
+
+	GetExcited3: {
+		DisplayName: Get Excited! x3
+		Description:
+			'''
+			+20% damage
+			+30% attack speed
+			+150% movement speed
+			'''
+	}
+
+	Phase2Buff: {
+		DisplayName: Phase-2
+		Description:
+			'''
+			Whilst holding Phase-2 lawnmower gain...
+			Greatly increased life regen, damage, attack speed, and movement speed
+			'''
+	}
+
+	Phase2Cooldown: {
+		DisplayName: Phase-2 Cooldown
+		Description: Cannot activate phase-2 buff
+	}
+
+	CreationBuff: {
+		DisplayName: Pillars of Creation
+		Description: Reduces damage taken by 16%
+	}
+
+	GolfSetbonusBuff2: {
+		DisplayName: Golf Setbonus
+		Description:
+			'''
+			Increases movement speed by 25%
+			Increases lawnmower damage and knockback by 11%
+			'''
+	}
+
+	ChristmasCooldown: {
+		DisplayName: Christmas-Present Cooldown
+		Description: Cooldown between Christmas-Tree Lawnmowers presents
+	}
+
+	SpiderLawnmowerDebuff: {
+		DisplayName: Spider Tag-Debuff
+		Description: 13 summon tag damage
+	}
+
+	SpiderWebCooldown: {
+		DisplayName: Arachnid-Web Cooldown
+		Description: Cooldown for Arachnid web
+	}
+
+	WheelHeartBuff: {
+		DisplayName: Respawn Regen
+		Description: +20 life per second after respawning
+	}
+
+	OreRemovalService: {
+		DisplayName: Ore Removal Service
+		Description:
+			'''
+			Stops ore-lawnmowers from dropping their respective ore
+			Right Click with lawnmower to remove/enable
+			'''
+	}
+
+	TeleportitisWheelBuff: {
+		DisplayName: Teleportitis
+		Description:
+			'''
+			Emits a small amount of light
+			Increases damage negation and movement speed by 20%
+			'''
+	}
+
+	WraithLawnmowerDebuff: {
+		DisplayName: Wraith's Wrath
+		Description:
+			'''
+			5 summon tag damage, 50% summon tag crit chance
+			Wraith's Wrath will crit 100% vs this target
+			'''
+	}
+
+	RadianceBuff: {
+		DisplayName: Radiance
+		Description:
+			'''
+			+8 critical strike chance
+			Greatly increased life regeneration
+			'''
+	}
+
+	EaterOfLawnsBuff: {
+		DisplayName: Vile-Spit Machine-Gun
+		Description:
+			'''
+			Alt-Fire Mode Active
+			Erratically fires poisonous vile spit at enemies
+			Deals 3 damage, ignores armor, poison duration is doubled on crit
+			'''
+	}
+
+	ConfusedLawnmowerBuff: {
+		DisplayName: Confused Lawnmower-Sentry
+		Description:
+			'''
+			The Confused Lawnmower fights for you
+			Right Click buff to despawn lawnmower-sentry
+			'This isn't a lawnmower!'
+			'''
+	}
+
+	MiniOctopusBuff: {
+		DisplayName: Mini-Octopoda
+		Description: Octuples movement speed and doubles fire-rate when submerged in liquids
+	}
+
+	ValliantChargeMax: {
+		DisplayName: Maximum Valiant Charge
+		Description: 60 Valiant Charges, activate 'Barrage' Right Click to consume
+	}
+
+	MarblousJavelinDOT: {
+		DisplayName: Marblous-Javelin Bleed
+		Description: Deals 3 damage per second for each lodged javelin
+	}
+
+	SlipperyBuff: {
+		DisplayName: Slippery!
+		Description: Reduces traction by 95%, making your movement slippery
+	}
+
+	InfestationBuff: {
+		DisplayName: Moth-Minions
+		Description: Cancel buff to despawn moths
+	}
+
+	FrostborneCooldown: {
+		DisplayName: Hailstorm Cooldown
+		Description: Frostborne hailstorm-dash cooldown
+	}
+
+	BrittleDebuff: {
+		DisplayName: Brittle
+		Description: Reduces defense by 7
+	}
+
+	BrittleDebuff2: {
+		DisplayName: Brittle x2
+		Description: Reduces defense by 14
+	}
+
+	BrittleDebuff3: {
+		DisplayName: Brittle x3
+		Description: Reduces defense by 21
+	}
+
+	HateEngineBuff: {
+		DisplayName: Hate Engine
+		Description: Greatly increases enemy spawn rates
+	}
+
+	CultistLawnmowerBuff: {
+		DisplayName: Celestial Body
+		Description: Cosmic lawnmowers orbit around you
+	}
+
+	OrbitalStrikeCooldown: {
+		DisplayName: Orbital Strike Cooldown
+		Description: Cannot use orbital strike ability
+	}
+
+	CelestialShieldBuff: {
+		DisplayName: Celestial Shield
+		Description:
+			'''
+			Increases defense by 12, Reduces damage taken by 16%
+			Damaging celestial fragments orbit around you
+			'''
+	}
+
+	CelestialSwordBuff: {
+		DisplayName: Celestial Sword
+		Description:
+			'''
+			12% increased lawnmower damage and critical strike chance
+			Lawnmowers summoned from dashing chase enemies and deal bonus damage
+			'''
+	}
+
+	SalusShield: {
+		DisplayName: Salus' Shield
+		Description:
+			'''
+			12 Defense
+			Reduces damage taken by 5%
+			Slightly increases life regeneration
+			'''
+	}
+
+	InternalEruption: {
+		DisplayName: Internal Eruption
+		Description: Bursting with flames!
+	}
+
+	LawnOfBloodBuff: {
+		DisplayName: Lawn of Blood's Favour
+		Description:
+			'''
+			15% increased lawnmower damage
+			20% increased lawnmower bleed damage
+			'''
+	}
+
+	HemorrhageDebuff: {
+		DisplayName: Hemorrhage
+		Description: Deals 20% of max life as damage
+	}
+
+	IronheartBuff: {
+		DisplayName: Ironheart
+		Description: Grants immunity to knockback when holding lawnmowers
+	}
+
+	AphroditeTagBuff: {
+		DisplayName: Aphrodite Tag-Buff
+		Description: Aphrodite Engine Tag-Buff
+	}
+}
+
+Prefixes: {
+	GiantTooltip: +5 armor penetration
+
+	GiantLawnmower: {
+		DisplayName: Giant
+	}
+
+	NefariousPrefix: {
+		DisplayName: Nefarious
+	}
+
+	BrutalPrefix: {
+		DisplayName: Brutal
+	}
+}
+
+Configs: {
+	LawnmowerConfig: {
+		DisplayName: Lawnmower Config
+
+		Headers: {
+			Items: Items
+		}
+
+		RemoveFancyEffects: {
+			Label: Remove Fancy Effects
+			Tooltip:
+				'''
+				Changes/Removes some visual lawnmower effects that may produce lag
+				Weapons affected by this will have the tooltip [c/969696:Uses 'fancy effects']
+				'''
+		}
+
+		OreRemovalService: {
+			Label: Ore Removal Service
+			Tooltip: Stops ore-lawnmowers from dropping their respective ore on hit
+		}
+	}
+}
+

@@ -1,0 +1,131 @@
+Keybinds: {
+	ToggleListen: {
+		DisplayName: 試聴モードの切り替え
+	}
+
+	PlayOrStop: {
+		DisplayName: 音楽の再生/停止
+	}
+
+	PreviousSong: {
+		DisplayName: 前の曲
+	}
+
+	NextSong: {
+		DisplayName: 次の曲
+	}
+}
+
+BuilderToggles: {
+	MusicPlayer_BuilderToggle: {
+		OnText: 音楽プレーヤー表示
+		OffText: 音楽プレーヤー非表示
+	}
+}
+
+Configs: {
+	TMPConfig: {
+		DisplayName: 音楽プレーヤーをカスタマイズ！
+
+		Headers: {
+			Defaults: "[c/ffeb6e:デフォルト設定]"
+			Accessibility: "[c/ffeb6e:アクセシビリティ]"
+		}
+
+		ResetPanels: {
+			Label: パネルの位置をリセット
+			Tooltip: ゲーム内でのみ変更を受け付ける
+		}
+
+		StartWithSmall: {
+			Label: 音楽プレーヤーのデフォルトをミニモードにする
+			Tooltip: ""
+		}
+
+		StartWithListView: {
+			Label: 選択パネルのデフォルトをリストビューにする
+			Tooltip: デフォルトでは、選択パネルはグリッドビューを使用する。
+		}
+
+		EnableMoreTooltips: {
+			Label: スマートカーソル：ボタンのツールチップを有効にする
+			Tooltip: スマートカーソルがオンの間、ほとんどのボタンに情報が表示される。
+		}
+
+		HoverTextPopOut: {
+			Label: リストビューでテキストをポップアウト
+			Tooltip:
+				'''
+				リストビューを使用している場合、エントリテキストにカーソルを合わせるとポップアウトする。
+				これは、ミュージックボックス名やMod名が長すぎる場合に便利。
+				'''
+		}
+
+		EnableDebugMode: {
+			Label: デバッグモードを有効にする
+			Tooltip:
+				'''
+				デバッグモードの機能：
+				* ミュージックボックスが再生可能リストに追加または削除されたときのチャットメッセージ
+				'''
+		}
+	}
+}
+
+MusicData: {
+	UnknownBox: 割り当てられたミュージックボックスなし
+}
+
+HoverButton: {
+	Enable: 有効化
+	Disable: 無効化
+	Close: 閉じる：
+	Open: 開く：
+	Grid: グリッド
+	List: リスト
+	Max: 最大化
+	Min: 最小化
+	Play: 再生
+	Stop: 停止
+	Listen: "{0}試聴中"
+	Record: "{0}録音中"
+	Selection: "{0}リスト選択"
+	ViewMode: "{0}ビューに変更"
+	Prev: 前の曲
+	Next: 次の曲
+	Fav: お気に入りの音楽を表示
+	All: 全ての音楽を表示
+	SortID: IDでソート
+	SortName: 名前でソート
+	FilterMod: Modでフィルター
+	ClearMod: Modフィルターをクリア
+	Obtained: 入手済みのミュージックボックスを表示中
+	Unobtained: 未入手のミュージックボックスを表示中
+	NoFilter: 利用可能なフィルターなし
+	EntrySlot:
+		'''
+		まだ所有していないミュージックボックスを挿入するか、
+		最大20個の空のミュージックボックスを保管して音楽を録音する
+		'''
+	Eject:
+		'''
+		左クリックでミュージックボックスを1つインベントリに取り出す
+		右クリックで保存されている全てのミュージックボックスをインベントリに入れる
+		'''
+}
+
+DebugMessages: {
+	EntryState: "[i:{0}] [#{0}] は {1} されました ({2})"
+	Added: 追加済み
+	Removed: 削除済み
+	Recorded: 録音済み
+
+	Via: {
+		EntrySlot: エントリスロット経由
+		Recording: 録音経由
+		SelectionPanel: 選択パネル経由
+		ShiftClick: インベントリからシフトクリック経由
+		NotAccepted: しかし、すでに取得済み
+	}
+}
+

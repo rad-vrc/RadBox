@@ -1,0 +1,201 @@
+Configs: {
+	CharacterStatsConfig: {
+		DisplayName: Display Character Stats Configs
+
+		Headers: {
+			StatVisibility: Toggle Stat Visibility
+		}
+
+		DamageMultiplier: {
+			Label: "[i:4] Damage Multiplier"
+			Tooltip: ""
+		}
+
+		CriticalHitChance: {
+			Label: "[i:3520] Critical Hit Chance"
+			Tooltip: ""
+		}
+
+		AttackSpeed: {
+			Label: "[i:936] Attack Speed"
+			Tooltip: ""
+		}
+
+		Knockback: {
+			Label: "[i:442] Knockback"
+			Tooltip: ""
+		}
+
+		ArmorPenetration: {
+			Label: "[i:3212] Armor Penetration"
+			Tooltip: ""
+		}
+
+		Defense: {
+			Label: "[i:156] Defense"
+			Tooltip: ""
+		}
+
+		Endurance: {
+			Label: "[i:938] Endurance"
+			Tooltip: ""
+		}
+
+		LifeRegeneration: {
+			Label: "[i:49] Life Regeneration"
+			Tooltip: ""
+		}
+
+		AmmoCost: {
+			Label: "[i:2177] Ammo Cost"
+			Tooltip: ""
+		}
+
+		MovementSpeed: {
+			Label: "[i:54] Movement Speed"
+			Tooltip: ""
+		}
+
+		JumpHeight: {
+			Label: "[i:159] Jump Height"
+			Tooltip: ""
+		}
+
+		MiningSpeed: {
+			Label: "[i:1] Mining Speed"
+			Tooltip: ""
+		}
+
+		EnemyAggro: {
+			Label: "[i:193] Enemy Aggro"
+			Tooltip: ""
+		}
+
+		Luck: {
+			Label: "[i:4414] Luck"
+			Tooltip: ""
+		}
+
+		FishingPower: {
+			Label: "[i:2291] Fishing Power"
+			Tooltip: ""
+		}
+
+		ManaRegeneration: {
+			Label: "[i:111] Mana Regeneration"
+			Tooltip: ""
+		}
+
+		ManaCost: {
+			Label: "[i:109] Mana Cost"
+			Tooltip: ""
+		}
+
+		MaxMinions: {
+			Label: "[i:5069] Max Minions"
+			Tooltip: ""
+		}
+
+		MaxSentries: {
+			Label: "[i:3825] Max Sentries"
+			Tooltip: ""
+		}
+	}
+}
+
+Keybinds: {
+	ChangeStatClassKeybind: {
+		DisplayName: Change Damage Class
+	}
+
+	StatVisibilityKeybind: {
+		DisplayName: Toggle Stats Visibility
+	}
+}
+
+InfoDisplays: {
+	d1_Aggro: {
+		DisplayName: Enemy Aggro
+	}
+
+	a5_ArmorPenetration: {
+		DisplayName: Armor Penetration
+	}
+
+	a3_AttackSpeed: {
+		DisplayName: Attack Speed
+	}
+
+	a2_CriticalChance: {
+		DisplayName: Critical Chance
+	}
+
+	a1_Damage: {
+		DisplayName: Damage
+	}
+
+	b2_Endurance: {
+		DisplayName: Endurance
+	}
+
+	c2_JumpHeight: {
+		DisplayName: Jump Height
+	}
+
+	a4_Knockback: {
+		DisplayName: Knockback
+	}
+
+	b3_LifeRegeneration: {
+		DisplayName: Life Regen
+	}
+
+	d2_Luck: {
+		DisplayName: Luck
+	}
+
+	e2_ManaCost: {
+		DisplayName: Mana Efficiency
+	}
+
+	e1_ManaRegeneration: {
+		DisplayName: Mana Regen
+	}
+
+	e3_MaxMinions: {
+		DisplayName: Max Minions
+	}
+
+	c3_MiningSpeed: {
+		DisplayName: Mining Speed
+	}
+
+	c1_MovementSpeed: {
+		DisplayName: Movement Speed
+	}
+
+	e4_MaxSentries: {
+		DisplayName: Max Sentries
+	}
+
+	b1_Defense: {
+		DisplayName: Defense
+	}
+
+	d3_FishingPower: {
+		DisplayName: Fishing Power
+	}
+
+	b4_AmmoCost: {
+		DisplayName: Ammo Reserve
+	}
+}
+
+Common: {
+	strVisibility: Player Stats Visibility
+	strHidden: Hidden
+	strShown: Shown
+	strDamageClass: Player Stats Damage Class
+	strAutomatic: Automatic
+}
+

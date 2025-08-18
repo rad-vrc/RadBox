@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "loc-ref": {
+      "command": "node",
+      "args": [
+        "d:/dorad/Documents/My Games/Terraria/tModLoader/ExternalLocalizer/mcp/loc-ref-mcp/src/server.improved.js"
+      ],
+      "type": "stdio"
+    }
+  }
+}

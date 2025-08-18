@@ -1,0 +1,442 @@
+Configs: {
+	ReclasserConfig: {
+		daybreak: {
+			Tooltip: ""
+			Label: Daybreak
+		}
+
+		shadowflameKnife: {
+			Tooltip: ""
+			Label: Shadowflame Knife
+		}
+
+		toxicFlask: {
+			Tooltip: Removes the mana requirement
+			Label: Toxic Flask
+		}
+
+		magicDagger: {
+			Tooltip: Removes the mana requirement
+			Label: Magic Dagger
+		}
+
+		vampireKnives: {
+			Tooltip: Technically throwing knives, but more fit to melee tank builds
+			Label: Vampire Knives
+		}
+
+		scourgeOfTheCorruptor: {
+			Tooltip: Not used as much as Vampire Knives, and much more ranged
+			Label: Scourge Of The Corruptor
+		}
+
+		flyingKnife: {
+			Tooltip: Kind of a boomerang, kind of not
+			Label: Flying Knife
+		}
+
+		yoyos: {
+			Tooltip: You technically throw a yoyo, right? No new yoyos are added by this mod
+			Label: Yoyos
+		}
+
+		boomerangs: {
+			Tooltip: Melee weapons that return on throw. No new boomerangs are added by this mod
+			Label: Boomerangs
+		}
+
+		paperAirplanes: {
+			Tooltip: The two airplanes
+			Label: Paper Airplanes
+		}
+
+		Headers: {
+			individualItems: Unique Items
+			itemClasses: Item Types
+		}
+
+		formerThrowing: {
+			Tooltip: The old thrower weapons
+			Label: Ranged Consumables
+		}
+
+		DisplayName: Reclasser Config
+	}
+}
+
+SetBonusNinja:
+	'''
+	{0}% decreased assassin strike cooldown
+	{1}% increased throwing velocity
+	'''
+
+Buffs: {
+	JunglesWrath: {
+		DisplayName: Jungles Wrath
+		Description: Impaled by Jungle's Vengeance
+	}
+
+	VoidRend: {
+		Description: You're being ripped apart.
+		DisplayName: Void Rend
+	}
+
+	BloodyBoost: {
+		DisplayName: Bloody Boost
+		Description:
+			'''
+			{0}% increased throwing damage
+			Increased life regeneration
+			'''
+	}
+
+	Blazing: {
+		Description: It burns!
+		DisplayName: Blazing
+	}
+
+	Impaled: {
+		Description: Defense is reduced by 10
+		DisplayName: Impaled
+	}
+
+	Sparking: {
+		Description: Sparks fly out of your body
+		DisplayName: Sparking
+	}
+
+	AssassinCooldown: {
+		Description: Cannot use assassin weapons
+		DisplayName: Assassin Cooldown
+	}
+}
+
+Prefixes: {
+	TraitorousPrefix: {
+		DisplayName: Traitorous
+	}
+
+	RestlessPrefix: {
+		DisplayName: Restless
+	}
+
+	MaleficentPrefix: {
+		DisplayName: Maleficent
+	}
+
+	BarbaricPrefix: {
+		DisplayName: Barbaric
+	}
+
+	VindictivePrefix: {
+		DisplayName: Vindictive
+	}
+
+	SerratedPrefix: {
+		DisplayName: Serrated
+	}
+}
+
+Projectiles: {
+	CoralFlame: {
+		DisplayName: Deep Strike
+	}
+
+	JunglesVengeanceHeal: {
+		DisplayName: Jungle's Vengeance Heal
+	}
+
+	JunglesVengeanceProj: {
+		DisplayName: Jungle's Vengeance
+	}
+
+	VoidExplosion: {
+		DisplayName: Void Explosion
+	}
+
+	VoidBombShockwave: {
+		DisplayName: Void Bomb Shockwave
+	}
+
+	VoidBombProj: {
+		DisplayName: Void Bomb
+	}
+
+	ShimmerKnifeProj: {
+		DisplayName: Shimmer Knife
+	}
+
+	ObsidianKnifeProj: {
+		DisplayName: Obsidian Knife
+	}
+
+	ChromapurgeSplit: {
+		DisplayName: Chromaknife
+	}
+
+	ChromapurgeProj: {
+		DisplayName: Chromapurge
+	}
+
+	BlazingExplosion: {
+		DisplayName: Blazing Explosion
+	}
+
+	BlazingFalaricaProj: {
+		DisplayName: Blazing Falarica
+	}
+
+	BrambleShurikenProj: {
+		DisplayName: Bramble Shuriken
+	}
+
+	HydroMesanglyonSweetSpot: {
+		DisplayName: Hydro Mesanglyon Critical Spot
+	}
+
+	HydroMesanglyonReleased: {
+		DisplayName: Hydro Mesanglyon
+	}
+
+	HydroMesanglyonProj: {
+		DisplayName: Hydro Mesanglyon Rope
+	}
+
+	ImpalingJavelinProj: {
+		DisplayName: Impaling Javelin
+	}
+
+	BambooStickProj: {
+		DisplayName: Bamboo Stick
+	}
+
+	BloodstainedKunaiProj: {
+		DisplayName: Bloodstained Kunai
+	}
+
+	DuskShadow: {
+		DisplayName: Dusk Shadow
+	}
+
+	DuskChakramProj: {
+		DisplayName: Dusk Chakram
+	}
+
+	WingedStrikeProj: {
+		DisplayName: Winged Strike
+	}
+
+	LightningSpark: {
+		DisplayName: Lightning Spark
+	}
+
+	LightningRodProj: {
+		DisplayName: Lightning Rod
+	}
+
+	EnchantedDaggerProjDepleted: {
+		DisplayName: Depleted Dagger
+	}
+
+	EnchantedDaggerProjBeam: {
+		DisplayName: Enchanted Dagger Beam
+	}
+
+	EnchantedDaggerProj: {
+		DisplayName: Enchanted Dagger
+	}
+}
+
+Items: {
+	JunglesVengeance: {
+		DisplayName: Jungle's Vengeance
+		Tooltip:
+			'''
+			<TIME> seconds of shared cooldown between all assassin weapons
+			Heals the player with the lowest life on your team
+			'''
+	}
+
+	VoidBomb: {
+		Tooltip:
+			'''
+			<TIME> seconds of shared cooldown between all assassin weapons
+			Explodes on contact with anything
+			Causes a massive shockwave
+			'''
+		DisplayName: Void Bomb
+	}
+
+	ShimmerKnife: {
+		Tooltip: Teleports behind hit enemies
+		DisplayName: Shimmer Knife
+	}
+
+	ObsidianKnife: {
+		Tooltip: ""
+		DisplayName: Obsidian Knife
+	}
+
+	CoralLeggings: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			泳げるようになる
+			'''
+		DisplayName: Deep Leggings
+	}
+
+	CoralPlate: {
+		Tooltip:
+			'''
+			{0}% chance not to consume thrown weapon
+			{1}% decreased assassin strike cooldown
+			'''
+		DisplayName: Deep Plate
+	}
+
+	CoralHelm: {
+		SetBonus: Throwing critical strikes slash enemies for extra damage
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			Provides a coral light when visible
+			Doubles underwater air capacity
+			'''
+		DisplayName: Deep Helm
+	}
+
+	Chromapurge: {
+		DisplayName: Chromapurge
+		Tooltip:
+			'''
+			<TIME> seconds of shared cooldown between all assassin weapons
+			Summons chromatic swords on hit to rapidly damage enemies
+			'''
+	}
+
+	BlazingFalarica: {
+		Tooltip:
+			'''
+			Sticks into enemies
+			Explodes on destruction
+			'''
+		DisplayName: Blazing Falarica
+	}
+
+	BrambleShuriken: {
+		DisplayName: Bramble Shuriken
+		Tooltip: Ricochets between enemies
+	}
+
+	HydroMesanglyon: {
+		Tooltip:
+			'''
+			Thrown with a rope for extra velocity
+			Enemies hit at the point of release take critical damage
+			'''
+		DisplayName: Hydro Mesanglyon
+	}
+
+	ImpalingJavelin: {
+		Tooltip:
+			'''
+			<TIME> seconds of shared cooldown between all assassin weapons
+			Impaled enemies have their defense reduced by 10 for 10 seconds
+			'''
+		DisplayName: Impaling Javelin
+	}
+
+	TwilightRing: {
+		Tooltip:
+			'''
+			{0}% increased assassin strike damage
+			Thrown weapons inflict shadowflame
+			'''
+		DisplayName: Twilight Ring
+	}
+
+	SilkPants: {
+		Tooltip: "{0}% increased throwing critical strike chance"
+		DisplayName: Silk Pants
+	}
+
+	SilkMask: {
+		SetBonus: "{0}% decreased assassin strike cooldown"
+		Tooltip: Throwing damage increased by 1
+		DisplayName: Silk Mask
+	}
+
+	BambooStick: {
+		Tooltip: ""
+		DisplayName: Bamboo Stick
+	}
+
+	BloodstainedKunai: {
+		Tooltip: Killing enemies grants a boost to life regeneration and throwing damage
+		DisplayName: Bloodstained Kunai
+	}
+
+	DuskChakram: {
+		Tooltip: Four shadows fire alongside the chakram
+		DisplayName: Dusk Chakram
+	}
+
+	SilkCloak: {
+		Tooltip:
+			'''
+			{0}% chance not to consume thrown weapon
+			{1}% increased throwing velocity
+			'''
+		DisplayName: Silk Cloak
+	}
+
+	TravelersPouch: {
+		Tooltip:
+			'''
+			{0}% chance not to consume thrown weapon
+			Every tenth throwing attack shoots an additional projectile
+			'''
+		DisplayName: Traveler's Pouch
+	}
+
+	WingedStrike: {
+		Tooltip: ""
+		DisplayName: Winged Strike
+	}
+
+	LightningRod: {
+		Tooltip:
+			'''
+			<TIME> seconds of shared cooldown between all assassin weapons
+			Enemies hit directly by this weapon will spark on hit for 7 seconds
+			Sparks have a chance to cause enemies to spark more for 3 seconds
+			'''
+		DisplayName: Lightning Rod
+	}
+
+	EnchantedDagger: {
+		Tooltip: Throws a dagger that loses its enchantment after flying
+		DisplayName: Enchanted Dagger
+	}
+
+	VelocityMaximizer: {
+		Tooltip:
+			'''
+			Maximizes both assassin strike cooldown reduction and throwing velocity
+			Used for debug purposes
+			'''
+		DisplayName: Velocity Maximizer
+	}
+}
+
+CommonItemTooltip: {
+	IsAssassinWeapon: <TIME> seconds of shared cooldown between all assassin weapons
+	PercentAssassinDamageIncrease: "{0}% increased assassin strike damage"
+	PercentAssassinCooldownDecrease: "{0}% decreased assassin strike cooldown"
+	PercentThrowingConsumeDecrease: "{0}% chance not to consume thrown weapon"
+	PercentThrowingVelocityIncrease: "{0}% increased throwing velocity"
+	PercentThrowingCritChanceIncrease: "{0}% increased throwing critical strike chance"
+	PercentThrowingDamageIncrease: "{0}% increased throwing damage"
+}
+

@@ -1,0 +1,116 @@
+Configs: {
+	PriceOverride: {
+		SellPrice: {
+			Tooltip: ""
+			Label: Sell Price
+		}
+
+		BuyPrice: {
+			Tooltip: ""
+			Label: Buy Price
+		}
+
+		Headers: {
+			CustomPricing: Custom Pricing Header
+		}
+
+		Item: {
+			Tooltip: ""
+			Label: Item
+		}
+
+		Tooltip: ""
+	}
+
+	PriceConfig: {
+		Overrides: {
+			Tooltip: ""
+			Label: Item Price Overrides
+		}
+
+		DisplayName: Price Config
+	}
+
+	QuickBuyConfig: {
+		ShowAutoBuyTimerHud: {
+			Tooltip: ""
+			Label: Show Auto Buy Timer
+		}
+
+		ShowQbBalanceHud: {
+			Tooltip: ""
+			Label: Show Qb Balance
+		}
+
+		Headers: {
+			HUDSettings: H U D Settings
+		}
+
+		DisplayName: Quick Buy Config
+	}
+}
+
+Mods: {
+	QuickBuy: {
+		Configs: {
+			PriceConfig: {
+				PriceOverride: {
+					SellPrice: {
+						Label: Sell Price
+					}
+
+					BuyPrice: {
+						Label: Buy Price
+					}
+
+					Item: {
+						Label: Item
+					}
+
+					CustomPricing: {
+						Header: Custom Pricing
+					}
+				}
+
+				Overrides: {
+					Label: Item Price Overrides
+				}
+
+				DisplayName: QuickBuy Price Config
+			}
+
+			QuickBuyConfig: {
+				HudSettings: {
+					Header: HUD Settings
+				}
+
+				ShowAutoBuyTimerHud: {
+					Tooltip: Shows a countdown for the next Auto-BUY check.
+					Label: Enable Auto-BUY Timer HUD
+				}
+
+				ShowQbBalanceHud: {
+					Tooltip: Shows your current QB balance on screen.
+					Label: Enable QB Balance HUD
+				}
+			}
+		}
+	}
+}
+
+Keybinds: {
+	"Recipe Quick Buy": {
+		DisplayName: Recipe Quick Buy
+	}
+
+	"Toggle QuickBuy UI": {
+		DisplayName: Toggle Quick Buy UI
+	}
+}
+
+Projectiles: {
+	DeliveryBoxProj: {
+		DisplayName: Delivery Box Proj
+	}
+}
+

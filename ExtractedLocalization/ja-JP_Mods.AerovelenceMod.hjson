@@ -1,0 +1,1599 @@
+Keybinds: {
+	"Armor Set Bonus": {
+		DisplayName: 防具セットボーナス
+	}
+}
+
+Biomes: {
+	ZonePlayer: {
+		DisplayName: ゾーンプレイヤー
+		TownNPCDialogueName: ゾーンプレイヤー
+	}
+
+	CrystalCavernsBiome: {
+		DisplayName: クリスタルの洞窟バイオーム
+		TownNPCDialogueName: クリスタルの洞窟バイオーム
+	}
+}
+
+Buffs: {
+	FlareFire: {
+		DisplayName: フレアファイア
+		Description: Mods.AerovelenceMod.Buffs.FlareFire.Description
+	}
+
+	FlareFrostburn: {
+		DisplayName: フレアの霜焼け
+		Description: Mods.AerovelenceMod.Buffs.FlareFrostburn.Description
+	}
+
+	AuroraFire: {
+		DisplayName: オーロラファイア
+		Description: Mods.AerovelenceMod.Buffs.AuroraFire.Description
+	}
+
+	EmberFire: {
+		DisplayName: エンバーファイア
+		Description: Mods.AerovelenceMod.Buffs.EmberFire.Description
+	}
+
+	ManaLeech: {
+		DisplayName: マナリーチ
+		Description: マナが漏れている！
+	}
+
+	CyverBotBuff: {
+		DisplayName: サイバーボットバフ
+		Description: Mods.AerovelenceMod.Buffs.CyverBotBuff.Description
+	}
+
+	ShotgunAxeDebuff: {
+		DisplayName: えぐられた
+		Description: これほどの出血は体に良いはずがない
+	}
+
+	CerobaMark: {
+		DisplayName: セロバマーク
+		Description: Mods.AerovelenceMod.Buffs.CerobaMark.Description
+	}
+
+	FearsomeFoe: {
+		DisplayName: 恐ろしい敵
+		Description: 敵のスポーン率が大幅に低下
+	}
+}
+
+Items: {
+	EnergyShield: {
+		DisplayName: エネルギーシールド
+		Tooltip: ""
+	}
+
+	ObsidianEye: {
+		DisplayName: 黒曜石の目
+		Tooltip:
+			'''
+			消費しない
+			サイバークライを召喚する
+			夜間のみ使用可能
+			'''
+	}
+
+	DebugItem: {
+		DisplayName: デバッグアイテム
+		Tooltip: これはデバッグアイテムです
+	}
+
+	Emoji: {
+		DisplayName: 絵文字
+		Tooltip: ""
+	}
+
+	ExampleSwingSwordItem: {
+		DisplayName: 例振り剣アイテム
+		Tooltip: これはデバッグアイテムです
+	}
+
+	LaserTrapItem: {
+		DisplayName: レーザートラップアイテム
+		Tooltip: ""
+	}
+
+	MilitaryMetalItem: {
+		DisplayName: ミリタリーメタルアイテム
+		Tooltip: ""
+	}
+
+	MilitaryMetalPlatformItem: {
+		DisplayName: ミリタリーメタルプラットフォームアイテム
+		Tooltip: ""
+	}
+
+	AntiquePistol: {
+		DisplayName: アンティークピストル
+		Tooltip: このアイテムは品質基準を満たしていないため入手不可能ですが、まだかなり良いと思うので残しました
+	}
+
+	ElementalShift: {
+		DisplayName: エレメンタルシフト
+		Tooltip:
+			'''
+			攻撃すると打ち回せるエネルギー球を作成する
+			右クリックで球を破壊する
+			'''
+	}
+
+	BurningJealousy: {
+		DisplayName: ヘルブリゲード
+		Tooltip:
+			'''
+			右クリック長押しでガードし、大幅な防御ボーナスを得る
+			ガード中に攻撃を受けると爆発的なカウンターアタックで反撃する
+			'''
+	}
+
+	Solsear: {
+		DisplayName: ソルシア
+		Tooltip:
+			'''
+			先端でより多くのダメージを与える連続レーザーを発射する
+			右クリックで爆弾を発射する
+			レーザーの先端を爆弾に向けるとダメージとサイズが増加する
+			「大きな火力には大きな無責任が伴う」
+			'''
+	}
+
+	FlareGun: {
+		DisplayName: 戦闘フレアガン
+		Tooltip:
+			'''
+			弾薬を必要としない
+			召喚タグクリティカル率5%
+			タイミング良く再度クリックするとより速く発射する
+			'''
+	}
+
+	DeepFreeze: {
+		DisplayName: ディープフリーズ
+		Tooltip: 「ここは寒いのか、それとも私だけなのか？」
+	}
+
+	TetraBlades: {
+		DisplayName: テトラブレード
+		Tooltip: 右クリックで最大4回ダッシュする
+	}
+
+	ClockworkLazinator: {
+		DisplayName: クロックワークレイジネーター
+		Tooltip:
+			'''
+			右クリックで武器を巻き上げ、発射時間を延長する
+			最大4回まで巻き上げ可能
+			'''
+	}
+
+	CthulhusWrath: {
+		DisplayName: キンドリングラス（未完成）
+		Tooltip:
+			'''
+			この武器は非常にバグが多いため、入手不可能になっています
+			将来のパッチで復活することを願っています
+			'''
+	}
+
+	TheBeacon: {
+		DisplayName: ザ・ビーコン
+		Tooltip:
+			'''
+			マウスに最も近い敵をターゲットにする
+			ターゲットした敵の周りに炎の触手を放つ
+			'''
+	}
+
+	TheFlashlight: {
+		DisplayName: ザ・フラッシュライト
+		Tooltip: マウスに最も近い敵をターゲットにする
+	}
+
+	TheLaserPointer: {
+		DisplayName: ザ・レーザーポインター
+		Tooltip:
+			'''
+			マウスに最も近い敵をターゲットにする
+			同じ敵に長時間照準を合わせると追尾スパークを放つ
+			'''
+	}
+
+	WandOfExploding: {
+		DisplayName: 爆発の杖
+		Tooltip: マナバーンを与え、敵にマナを回復する星を漏出させる
+	}
+
+	EntourageCrusher: {
+		DisplayName: エントラージクラッシャー
+		Tooltip: ""
+	}
+
+	TheSahara: {
+		DisplayName: ザ・サハラ
+		Tooltip:
+			'''
+			長押しでチャージし、ダメージと速度が上昇する
+			フルチャージで炎の渦を放つ
+			'''
+	}
+
+	WarBow: {
+		DisplayName: 戦弓
+		Tooltip:
+			'''
+			長押しでチャージし、ダメージと速度が上昇する
+			フルチャージで敵に棘を埋め込む
+			'''
+	}
+
+	GraniteCannon: {
+		DisplayName: グラナイトキャノン
+		Tooltip:
+			'''
+			弾薬を御影石のチャンクに変換する
+			2つのチャンクが空中で衝突すると、追尾エネルギーコアに分裂する
+			'''
+	}
+
+	AdamantitePulsar: {
+		DisplayName: アダマンタイトパルサー
+		Tooltip:
+			'''
+			弾薬を必要としない
+			右クリックでモードを変更する
+			'''
+	}
+
+	ShotgunAxe: {
+		DisplayName: ショットガンアックス
+		Tooltip:
+			'''
+			弾薬を特殊な弾に変換する
+			右クリックで斧で切り、敵をえぐる
+			'''
+	}
+
+	TitaniumRocketLauncher: {
+		DisplayName: チタニウムロケットランチャー
+		Tooltip:
+			'''
+			弾薬を必要としない
+			右クリックでマウスを追尾する大型ロケットを発射する
+			'''
+	}
+
+	OceanMist: {
+		DisplayName: オーシャンミスト
+		Tooltip: ""
+	}
+
+	CitadelBrickItem: {
+		DisplayName: シタデルレンガアイテム
+		Tooltip: ""
+	}
+
+	CitadelStoneItem: {
+		DisplayName: シタデル石アイテム
+		Tooltip: ""
+	}
+
+	RuinedCitadelBrickItem: {
+		DisplayName: 廃墟シタデルレンガアイテム
+		Tooltip: ""
+	}
+
+	AncientChunkItem: {
+		DisplayName: 古代のチャンクアイテム
+		Tooltip: ""
+	}
+
+	CavernSandItem: {
+		DisplayName: 洞窟砂アイテム
+		Tooltip: ""
+	}
+
+	CavernStoneItem: {
+		DisplayName: 洞窟石アイテム
+		Tooltip: ""
+	}
+
+	ChargedStoneItem: {
+		DisplayName: 帯電石アイテム
+		Tooltip: ""
+	}
+
+	SmoothCavernStoneItem: {
+		DisplayName: 滑らかな洞窟石アイテム
+		Tooltip: ""
+	}
+
+	VoidArenaItem: {
+		DisplayName: ヴォイドアリーナアイテム
+		Tooltip: ""
+	}
+
+	GlowDustDye: {
+		DisplayName: 光る塵染料
+		Tooltip: ""
+	}
+
+	Skylight: {
+		DisplayName: スカイライト
+		Tooltip:
+			'''
+			弾薬を必要としない
+			右クリックで空から巨大な雷を召喚する
+			'''
+	}
+
+	StormRazor: {
+		DisplayName: ストームレイザー
+		Tooltip: ""
+	}
+
+	Eos: {
+		DisplayName: エオス
+		Tooltip:
+			'''
+			コンボをスピンアタックで終了する
+			ダッシュ中にスピンで敵を攻撃すると敵から跳ね返り、短時間の無敵状態を得る
+			敵を跳ね返した後、次の2回のコンボで弾を発射する
+			'''
+	}
+
+	CrystalGlade: {
+		DisplayName: クリスタルグレード
+		Tooltip: 右クリックでポータルを召喚し、射撃の起点を変更する
+	}
+
+	PoundOfFeathers: {
+		DisplayName: 羽の束
+		Tooltip: 「レンガ1ポンドより軽い！」
+	}
+
+	CerobaStaffItem: {
+		DisplayName: デヴォーション
+		Tooltip:
+			'''
+			右クリックで敵にマークを付ける護りで攻撃
+			マークされた敵はこの武器から大幅に増加したダメージを受ける
+			'''
+	}
+
+	MarbleMusket: {
+		DisplayName: 大理石のマスケット銃
+		Tooltip:
+			'''
+			弾薬を重力の影響を受ける特殊な弾に変換する
+			3発連続で命中すると追尾する星を放つ
+			'''
+	}
+
+	CyvercryThumbnailHelper: {
+		DisplayName: サイバークライサムネイルヘルパー
+		Tooltip:
+			'''
+			サイバークライを召喚して静止させ、プレイヤーの方を向かせる
+			サムネイル作成に便利
+			'''
+	}
+
+	CyverSummonSkipIntro: {
+		DisplayName: サイバー召喚イントロスキップ
+		Tooltip:
+			'''
+			消費しない
+			サイバークライを召喚するが、イントロアニメーションをスキップする
+			ただし、音楽同期は機能しなくなる
+			夜間のみ使用可能
+			'''
+	}
+
+	CyvercryIOU: {
+		DisplayName: サイバークライIOU
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	CyverBot: {
+		DisplayName: サイバーボット
+	}
+
+	CyverBotOrbiter: {
+		DisplayName: サイバーボット軌道機
+	}
+
+	Cyvercry2: {
+		DisplayName: サイバークライ
+	}
+
+	MovingPlatform: {
+		DisplayName: 移動プラットフォーム
+	}
+
+	FeatheredFoe: {
+		DisplayName: 羽毛の敵
+	}
+}
+
+Projectiles: {
+	SkillCritImpact: {
+		DisplayName: スキルクリティカルインパクト
+	}
+
+	SkillStrikeProj: {
+		DisplayName: スキルストライク弾
+	}
+
+	EnergyShieldDash: {
+		DisplayName: エネルギーシールドダッシュ
+	}
+
+	BulletTest: {
+		DisplayName: 弾テスト
+	}
+
+	ExampleSwingSwordProj: {
+		DisplayName: 例振り剣弾
+	}
+
+	InkProjTest: {
+		DisplayName: インク弾テスト
+	}
+
+	EvilAura: {
+		DisplayName: イビルオーラ
+	}
+
+	EvilRay: {
+		DisplayName: イビルレイ
+	}
+
+	TrailTest: {
+		DisplayName: トレイルテスト
+	}
+
+	AmmoUI: {
+		DisplayName: 弾薬UI
+	}
+
+	ErinAltFireHeldProjectile: {
+		DisplayName: エリン代替射撃保持弾
+	}
+
+	ErinCircle: {
+		DisplayName: エリンサークル
+	}
+
+	ErinGunFireSuck: {
+		DisplayName: エリンガンファイアサック
+	}
+
+	ErinGunMuzzleFlash: {
+		DisplayName: エリンガンマズルフラッシュ
+	}
+
+	ErinImpact: {
+		DisplayName: エリンインパクト
+	}
+
+	ReloadProj: {
+		DisplayName: リロード弾
+	}
+
+	AuroraPillar: {
+		DisplayName: オーロラピラー
+	}
+
+	ElementalShiftBall: {
+		DisplayName: エレメンタルシフト球
+	}
+
+	ElementalShiftImpact: {
+		DisplayName: エレメンタルシフトインパクト
+	}
+
+	ElementalShiftProj: {
+		DisplayName: エレメンタルシフト弾
+	}
+
+	ElementalShiftPulse: {
+		DisplayName: エレメンタルシフトパルス
+	}
+
+	FlashLightBeam: {
+		DisplayName: フラッシュライトビーム
+	}
+
+	CannonSplit: {
+		DisplayName: キャノン分裂
+	}
+
+	CyverBotProj: {
+		DisplayName: サイバーボット弾
+	}
+
+	CyverCannonProj: {
+		DisplayName: サイバーキャノン弾
+	}
+
+	CyverWhipProj: {
+		DisplayName: サイバー鞭弾
+	}
+
+	DarkLaser: {
+		DisplayName: ダークレーザー
+	}
+
+	DarkLaserOld: {
+		DisplayName: ダークレーザー（旧）
+	}
+
+	DrawingTest: {
+		DisplayName: 描画テスト
+	}
+
+	Oblivion2ElectricBoogaloo: {
+		DisplayName: オブリビオン2エレクトリックブガルー
+	}
+
+	OblivionHeldProj: {
+		DisplayName: オブリビオン保持弾
+	}
+
+	OblivionPulse: {
+		DisplayName: オブリビオンパルス
+	}
+
+	PinkExplosion: {
+		DisplayName: ピンク爆発
+	}
+
+	PinkStar: {
+		DisplayName: ピンクスター
+	}
+
+	StarSpawnerProj: {
+		DisplayName: スタースポナー弾
+	}
+
+	ElectrapulseCanisterProj: {
+		DisplayName: エレクトラパルスキャニスター弾
+	}
+
+	ElectrapulseCanisterProj2: {
+		DisplayName: エレクトラパルスキャニスター弾2
+	}
+
+	SandBolt: {
+		DisplayName: サンドボルト
+	}
+
+	StaffOfShiftingSandsHeldProj: {
+		DisplayName: 移動砂の杖保持弾
+	}
+
+	BlockFX: {
+		DisplayName: ブロックエフェクト
+	}
+
+	BurningJealousyExplode: {
+		DisplayName: 燃える嫉妬爆発
+	}
+
+	BurningJealousyGuard: {
+		DisplayName: 燃える嫉妬ガード
+	}
+
+	BurningJealousyHeldProj: {
+		DisplayName: 燃える嫉妬保持弾
+	}
+
+	BurningJealousyPulse: {
+		DisplayName: 燃える嫉妬パルス
+	}
+
+	MagmaBall: {
+		DisplayName: マグマボール
+	}
+
+	PagesOfDawnProj: {
+		DisplayName: 暁のページ弾
+	}
+
+	SolsearHeld2: {
+		DisplayName: ソルシア保持2
+	}
+
+	SolsearHeldProj: {
+		DisplayName: ソルシア保持弾
+	}
+
+	SolsearLaser: {
+		DisplayName: ソルシアレーザー
+	}
+
+	ChloroFlare: {
+		DisplayName: クロロフレア
+	}
+
+	FireFlare: {
+		DisplayName: ファイアフレア
+	}
+
+	FireFlareExplosion: {
+		DisplayName: ファイアフレア爆発
+	}
+
+	FlareGunHeldProjectile: {
+		DisplayName: フレアガン保持弾
+	}
+
+	FrostFlare: {
+		DisplayName: フロストフレア
+	}
+
+	FrostFlareExplosion: {
+		DisplayName: フロストフレア爆発
+	}
+
+	FrostFlareIcicle: {
+		DisplayName: フロストフレアつらら
+	}
+
+	VenomFlare: {
+		DisplayName: ヴェノムフレア
+	}
+
+	AuroraBlast: {
+		DisplayName: オーロラブラスト
+	}
+
+	DeepFreezeHeldProjectile: {
+		DisplayName: ディープフリーズ保持弾
+	}
+
+	DeepFreezeProj: {
+		DisplayName: ディープフリーズ弾
+	}
+
+	TetraBladeRefreshFX: {
+		DisplayName: テトラブレードリフレッシュエフェクト
+	}
+
+	TetraBladeStrike: {
+		DisplayName: テトラブレードストライク
+	}
+
+	CrystalSprayHeldProj: {
+		DisplayName: クリスタルスプレー保持弾
+	}
+
+	FireWave: {
+		DisplayName: ファイアウェーブ
+	}
+
+	BeaconShot: {
+		DisplayName: ビーコンショット
+	}
+
+	TheBeaconProj: {
+		DisplayName: ザ・ビーコン弾
+	}
+
+	TheFlashlightProj: {
+		DisplayName: ザ・フラッシュライト弾
+	}
+
+	TheLaserPointerProj: {
+		DisplayName: ザ・レーザーポインター弾
+	}
+
+	IridianShot1: {
+		DisplayName: イリディアンショット1
+	}
+
+	LazinatorHeldProj: {
+		DisplayName: レイジネーター保持弾
+	}
+
+	LazinatorShot: {
+		DisplayName: レイジネーターショット
+	}
+
+	LazinatorWindUp: {
+		DisplayName: レイジネーターワインドアップ
+	}
+
+	WandOfExplodingExplosion: {
+		DisplayName: 爆発の杖爆発
+	}
+
+	WandOfExplodingHeldProj: {
+		DisplayName: 爆発の杖保持弾
+	}
+
+	WandOfExplodingProj: {
+		DisplayName: 爆発の杖弾
+	}
+
+	AlibanProj: {
+		DisplayName: アリバン弾
+	}
+
+	AlibanSwing: {
+		DisplayName: アリバン振り
+	}
+
+	EntourageCrusherHeldProj: {
+		DisplayName: エントラージクラッシャー保持弾
+	}
+
+	FlailTestProj: {
+		DisplayName: フレイルテスト弾
+	}
+
+	OzoneShredderHeldProj: {
+		DisplayName: オゾンシュレッダー保持弾
+	}
+
+	OzoneShredderImpact: {
+		DisplayName: オゾンシュレッダーインパクト
+	}
+
+	AsunderHeldProj: {
+		DisplayName: アサンダー保持弾
+	}
+
+	SaharaFirePulse: {
+		DisplayName: サハラ炎パルス
+	}
+
+	SaharaFireVortex: {
+		DisplayName: サハラ炎の渦
+	}
+
+	TheSaharaHeldProj: {
+		DisplayName: ザ・サハラ保持弾
+	}
+
+	WarBowHeldProj: {
+		DisplayName: 戦弓保持弾
+	}
+
+	FirePyreProj: {
+		DisplayName: ファイアパイア弾
+	}
+
+	GaussExplosion: {
+		DisplayName: ガウス爆発
+	}
+
+	GaussianStar: {
+		DisplayName: ガウシアン星
+	}
+
+	GraniteCannonHeldProj: {
+		DisplayName: 御影石キャノン保持弾
+	}
+
+	GraniteChunk: {
+		DisplayName: 御影石チャンク
+	}
+
+	GraniteCore: {
+		DisplayName: 御影石コア
+	}
+
+	AdamantitePulsarHeldProj: {
+		DisplayName: アダマンタイトパルサー保持弾
+	}
+
+	AdamantitePulseShot: {
+		DisplayName: アダマンタイトパルスショット
+	}
+
+	AdamSmallShot: {
+		DisplayName: アダム小ショット
+	}
+
+	ShotgunAxeBlood: {
+		DisplayName: ショットガン斧血液
+	}
+
+	ShotgunAxeBullet: {
+		DisplayName: ショットガン斧弾
+	}
+
+	ShotgunAxeHeldProj: {
+		DisplayName: ショットガン斧保持弾
+	}
+
+	ShotgunAxeMeleeProj: {
+		DisplayName: ショットガン斧近接弾
+	}
+
+	ICERHeldProj: {
+		DisplayName: ICER保持弾
+	}
+
+	ICERProj: {
+		DisplayName: ICER弾
+	}
+
+	TitaniumMiniRocket: {
+		DisplayName: チタニウムミニロケット
+	}
+
+	TitaniumRocket: {
+		DisplayName: チタニウムロケット
+	}
+
+	WoodImpact: {
+		DisplayName: 木材インパクト
+	}
+
+	WoodpeckerArrow: {
+		DisplayName: キツツキアロー
+	}
+
+	OceanMistHeldProj: {
+		DisplayName: オーシャンミスト保持弾
+	}
+
+	OceanMistShot: {
+		DisplayName: オーシャンミストショット
+	}
+
+	DeerclopsRock: {
+		DisplayName: ディアクロプス岩
+	}
+
+	SlateArrow: {
+		DisplayName: スレートアロー
+	}
+
+	SlateAxeRangedHeldProj: {
+		DisplayName: スレート斧遠距離保持弾
+	}
+
+	SlateChunk: {
+		DisplayName: スレートチャンク
+	}
+
+	SlateStaffHeldProj: {
+		DisplayName: スレートスタッフ保持弾
+	}
+
+	SlateSwordHeldProj: {
+		DisplayName: スレート剣保持弾
+	}
+
+	SlateSwordThrown: {
+		DisplayName: 投擲スレート剣
+	}
+
+	StaffRock: {
+		DisplayName: スタッフロック
+	}
+
+	StarglassTestVFX: {
+		DisplayName: スターグラステストVFX
+	}
+
+	BigExplosionCyver: {
+		DisplayName: 大爆発サイバー
+	}
+
+	Cyver2EnergyBall: {
+		DisplayName: サイバー2エネルギー球
+	}
+
+	CyverBeam: {
+		DisplayName: サイバービーム
+	}
+
+	CyverDangerSign: {
+		DisplayName: サイバー危険サイン
+	}
+
+	CyverExplosionBall: {
+		DisplayName: サイバー爆発球
+	}
+
+	CyverHyperBeam: {
+		DisplayName: サイバーハイパービーム
+	}
+
+	CyverLaser: {
+		DisplayName: サイバーレーザー
+	}
+
+	CyverLaserBomb: {
+		DisplayName: サイバーレーザー爆弾
+	}
+
+	CyverPulse: {
+		DisplayName: サイバーパルス
+	}
+
+	CyverReticle: {
+		DisplayName: サイバーレティクル
+	}
+
+	DarkDagger: {
+		DisplayName: ダークダガー
+	}
+
+	DifferentExplodeBall: {
+		DisplayName: 異なる爆発球
+	}
+
+	DookieTelegraph: {
+		DisplayName: ドゥーキー予告
+	}
+
+	EnergyBall: {
+		DisplayName: エネルギー球
+	}
+
+	ESABall: {
+		DisplayName: ESA球
+	}
+
+	FinaleBeam: {
+		DisplayName: フィナーレビーム
+	}
+
+	FocusedLaser: {
+		DisplayName: 集中レーザー
+	}
+
+	LaserExplosionBall: {
+		DisplayName: レーザー爆発球
+	}
+
+	LightningBorder: {
+		DisplayName: 雷の境界
+	}
+
+	PhantomLaser: {
+		DisplayName: ファントムレーザー
+	}
+
+	PhantomLaserTelegraph: {
+		DisplayName: ファントムレーザー予告
+	}
+
+	ShadowBlade: {
+		DisplayName: シャドウブレード
+	}
+
+	ShadowClone: {
+		DisplayName: シャドウクローン
+	}
+
+	ShadowClonePink: {
+		DisplayName: シャドウクローンピンク
+	}
+
+	ShadowCyvercry: {
+		DisplayName: シャドウサイバークライ
+	}
+
+	SplittingLaser: {
+		DisplayName: 分裂レーザー
+	}
+
+	StretchLaser: {
+		DisplayName: サイバーレーザー
+	}
+
+	SweepLaserTell: {
+		DisplayName: スイープレーザー予告
+	}
+
+	TelegraphLineCyver: {
+		DisplayName: 予告ラインサイバー
+	}
+
+	TeleportFXCyver: {
+		DisplayName: テレポートエフェクトサイバー
+	}
+
+	BigSoul: {
+		DisplayName: ビッグソウル
+	}
+
+	FrostWave: {
+		DisplayName: フロストウェーブ
+	}
+
+	HomingIceBolt: {
+		DisplayName: 追尾アイスボルト
+	}
+
+	HomingWispSouls: {
+		DisplayName: 追尾ウィスプソウル
+	}
+
+	IceBlast: {
+		DisplayName: アイスブラスト
+	}
+
+	IceBolt: {
+		DisplayName: アイスボルト
+	}
+
+	IceCube: {
+		DisplayName: アイスキューブ
+	}
+
+	IceShot: {
+		DisplayName: アイスショット
+	}
+
+	IcyLaserProj: {
+		DisplayName: 氷レーザー弾
+	}
+
+	IcySpike: {
+		DisplayName: 氷の棘
+	}
+
+	IcySpike2: {
+		DisplayName: 氷の棘2
+	}
+
+	IcySpikeOrbit: {
+		DisplayName: 氷の棘軌道
+	}
+
+	RainbowBlast: {
+		DisplayName: レインボーブラスト
+	}
+
+	RimeIceCube: {
+		DisplayName: 霜氷キューブ
+	}
+
+	StarflakeTelegraph: {
+		DisplayName: スターフレーク予告
+	}
+
+	VoidStone: {
+		DisplayName: ヴォイドストーン
+	}
+
+	WispSouls: {
+		DisplayName: ウィスプソウル
+	}
+
+	ArrowTelegraph: {
+		DisplayName: 矢予告
+	}
+
+	CrystalBullet: {
+		DisplayName: クリスタル弾
+	}
+
+	CursedBullet: {
+		DisplayName: 呪われた弾
+	}
+
+	ExplosiveBullet: {
+		DisplayName: 爆発弾
+	}
+
+	IchorBullet: {
+		DisplayName: 霊液弾
+	}
+
+	MeteorBullet: {
+		DisplayName: 隕石弾
+	}
+
+	MusketBall: {
+		DisplayName: マスケット弾
+	}
+
+	NanoBullet: {
+		DisplayName: ナノ弾
+	}
+
+	NanoReticle: {
+		DisplayName: ナノレティクル
+	}
+
+	DoubleTrailTest: {
+		DisplayName: ダブルトレイルテスト
+	}
+
+	ExampleTrailProj: {
+		DisplayName: 例トレイル弾
+	}
+
+	JadeFirePulse: {
+		DisplayName: 翡翠炎パルス
+	}
+
+	JadeMagmaPulse: {
+		DisplayName: 翡翠マグマパルス
+	}
+
+	ManaLeechStar: {
+		DisplayName: マナリーチ星
+	}
+
+	DistortProj: {
+		DisplayName: 歪み弾
+	}
+
+	FadeExplosion: {
+		DisplayName: フェード爆発
+	}
+
+	FadeExplosionHighRes: {
+		DisplayName: フェード爆発高解像度
+	}
+
+	GlowyPixelPulse: {
+		DisplayName: 光るピクセルパルス
+	}
+
+	H3Impact: {
+		DisplayName: H3インパクト
+	}
+
+	HollowPulse: {
+		DisplayName: ホローパルス
+	}
+
+	MuraLineHandler: {
+		DisplayName: ムララインハンドラー
+	}
+
+	otherHollowPulseTestDearFutureMePleaseRewriteAndMoveThisInsteadOfUsingItInTheFutureDearGod: {
+		DisplayName: その他ホローパルステスト将来の私よどうかこれを使い続けずに書き直して移動してお願いします
+	}
+
+	RoAHit: {
+		DisplayName: RoAヒット
+	}
+
+	ScreenShaderTest: {
+		DisplayName: スクリーンシェーダーテスト
+	}
+
+	TrailGradientTest: {
+		DisplayName: トレイルグラデーションテスト
+	}
+
+	CrystalSpray_Proj: {
+		DisplayName: クリスタルスプレー弾
+	}
+
+	WaterOrb: {
+		DisplayName: ウォーターオーブ
+	}
+
+	WaterTrailTest: {
+		DisplayName: 水トレイルテスト
+	}
+
+	LightningTrailTest: {
+		DisplayName: 雷トレイルテスト
+	}
+
+	ThunderBall: {
+		DisplayName: サンダーボール
+	}
+
+	CyverMasterAccessoryVFX: {
+		DisplayName: サイバーマスターアクセサリーVFX
+	}
+
+	ThunderPop: {
+		DisplayName: サンダーポップ
+	}
+
+	LanceViusalTest: {
+		DisplayName: ランス視覚テスト
+	}
+
+	ThunderLanceProj: {
+		DisplayName: サンダーランス弾
+	}
+
+	LightningHitFX: {
+		DisplayName: 雷撃ヒットエフェクト
+	}
+
+	ThunderStrikeTest: {
+		DisplayName: サンダーストライクテスト
+	}
+
+	SkylightElectricShot: {
+		DisplayName: スカイライト電撃ショット
+	}
+
+	SkylightHeldProjectile: {
+		DisplayName: スカイライト保持弾
+	}
+
+	SkylightThunderStrike: {
+		DisplayName: スカイライトサンダーストライク
+	}
+
+	SkylightVFX: {
+		DisplayName: スカイライトVFX
+	}
+
+	SkylightHitFlare: {
+		DisplayName: スカイライトヒットフレア
+	}
+
+	StormRazorProj: {
+		DisplayName: ストームレイザー弾
+	}
+
+	SkylightAltHeldProjectile: {
+		DisplayName: スカイライト代替保持弾
+	}
+
+	EosSwing: {
+		DisplayName: エオス振り
+	}
+
+	EosBuster: {
+		DisplayName: エオスバスター
+	}
+
+	EosDart: {
+		DisplayName: エオスダーツ
+	}
+
+	EosSlash: {
+		DisplayName: エオススラッシュ
+	}
+
+	GaiaSwing: {
+		DisplayName: ガイア振り
+	}
+
+	EosIDK: {
+		DisplayName: エオス不明
+	}
+
+	EosDash: {
+		DisplayName: エオスダッシュ
+	}
+
+	EosHitFlare: {
+		DisplayName: エオスヒットフレア
+	}
+
+	PagesOfDawnFireball: {
+		DisplayName: 暁のページファイアボール
+	}
+
+	StarParticleHandler: {
+		DisplayName: 星パーティクルハンドラー
+	}
+
+	BunnyShot: {
+		DisplayName: バニーショット
+	}
+
+	VFXTest: {
+		DisplayName: VFXテスト
+	}
+
+	VFXTest2: {
+		DisplayName: VFXテスト2
+	}
+
+	CrystalGladeHeld: {
+		DisplayName: クリスタルグレード保持
+	}
+
+	CrystalGladeShot: {
+		DisplayName: クリスタルグレードショット
+	}
+
+	CrystalGladeFirst: {
+		DisplayName: クリスタルグレード最初
+	}
+
+	CrystalGladePulse: {
+		DisplayName: クリスタルグレードパルス
+	}
+
+	FireShot: {
+		DisplayName: ファイアショット
+	}
+
+	ThunderStar: {
+		DisplayName: サンダースター
+	}
+
+	SlashTest: {
+		DisplayName: スラッシュテスト
+	}
+
+	LaserPointerSpark: {
+		DisplayName: レーザーポインタースパーク
+	}
+
+	PhanticDiamond: {
+		DisplayName: ファンティックダイアモンド
+	}
+
+	FireBlast: {
+		DisplayName: ファイアブラスト
+	}
+
+	FadeExplosionHandler: {
+		DisplayName: フェード爆発ハンドラー
+	}
+
+	CirclePulse: {
+		DisplayName: サークルパルス
+	}
+
+	DreadDart: {
+		DisplayName: ドレッドダーツ
+	}
+
+	AdamantitePulsarHeldBurst: {
+		DisplayName: アダマンタイトパルサー
+	}
+
+	TitaniumLauncherHeldLarge: {
+		DisplayName: チタニウムランチャー
+	}
+
+	TitaniumLauncherHeldSmall: {
+		DisplayName: チタニウムランチャー
+	}
+
+	NewDarknessDischargeStar: {
+		DisplayName: 新闇放電星
+	}
+
+	AnotherTrailTest: {
+		DisplayName: もう一つのトレイルテスト
+	}
+
+	AnotherTrailTestTheSqueakquel: {
+		DisplayName: もう一つのトレイルテスト続編
+	}
+
+	AnothaOne: {
+		DisplayName: もう一つ
+	}
+
+	ArcriTrail: {
+		DisplayName: アルクリトレイル
+	}
+
+	FireDart: {
+		DisplayName: ファイアダーツ
+	}
+
+	GreenStarThing: {
+		DisplayName: 緑星の何か
+	}
+
+	BisexualIceCreamCone: {
+		DisplayName: バイセクシャルアイスクリームコーン
+	}
+
+	FireBlastAlt: {
+		DisplayName: ファイアブラスト代替
+	}
+
+	CyverDeathExplosion: {
+		DisplayName: サイバー死の爆発
+	}
+
+	CyverRoarPulse: {
+		DisplayName: サイバー咆哮パルス
+	}
+
+	ComboLaserTest: {
+		DisplayName: コンボレーザーテスト
+	}
+
+	ComboVertexTest: {
+		DisplayName: コンボ頂点テスト
+	}
+
+	EyeSword: {
+		DisplayName: ハイパーブレード
+	}
+
+	CurveLineTelegraph: {
+		DisplayName: カーブライン予告
+	}
+
+	CurveDashShot: {
+		DisplayName: カーブダッシュショット
+	}
+
+	NewEntourageCrusherHeldProj: {
+		DisplayName: エントラージクラッシャー
+	}
+
+	NewCyverBombBeam: {
+		DisplayName: サイバービーム
+	}
+
+	CyverBotProjOld: {
+		DisplayName: サイバーボット弾（旧）
+	}
+
+	CyverWhipProjOld: {
+		DisplayName: サイバー鞭弾（旧）
+	}
+
+	TrojanForceBot: {
+		DisplayName: トロイの力ボット
+	}
+
+	LowTierPrime: {
+		DisplayName: 下位プライム
+	}
+
+	OtherVertexLaserTest: {
+		DisplayName: その他頂点レーザーテスト
+	}
+
+	BigShot: {
+		DisplayName: 大射撃
+	}
+
+	SigilForBlast: {
+		DisplayName: 爆破のシジル
+	}
+
+	WarBowSpike: {
+		DisplayName: 戦弓の棘
+	}
+
+	SolsearBomb: {
+		DisplayName: ソルシア爆弾
+	}
+
+	SolsearBombExplosion: {
+		DisplayName: ソルシア爆弾爆発
+	}
+
+	FeatherProjTest: {
+		DisplayName: 羽弾テスト
+	}
+
+	PoundOfFeatherProj: {
+		DisplayName: 羽の束弾
+	}
+
+	OrbitingFeather: {
+		DisplayName: 軌道羽
+	}
+
+	StraightFeather: {
+		DisplayName: 直進羽
+	}
+
+	WindBarrierTest: {
+		DisplayName: 風の壁テスト
+	}
+
+	WindBarrier: {
+		DisplayName: 風の壁
+	}
+
+	OrbitingFeatherOld: {
+		DisplayName: 軌道羽（旧）
+	}
+
+	StraightFeatherOld: {
+		DisplayName: 直進羽（旧）
+	}
+
+	TempJadeFirePulse: {
+		DisplayName: 仮翡翠炎パルス
+	}
+
+	CerobaFireBall: {
+		DisplayName: セロバファイアボール
+	}
+
+	CerobaIdleHeldProj: {
+		DisplayName: セロバ待機保持弾
+	}
+
+	CerobaWard: {
+		DisplayName: セロバの護り
+	}
+
+	CerobaM1HeldProj: {
+		DisplayName: セロバM1保持弾
+	}
+
+	CerobaSwing: {
+		DisplayName: セロバ振り
+	}
+
+	CerobaPrimarySwing: {
+		DisplayName: セロバ一次振り
+	}
+
+	CerobaSkillStrikeFX: {
+		DisplayName: セロバスキルストライクエフェクト
+	}
+
+	CerobaSpinProj: {
+		DisplayName: セロバスピン弾
+	}
+
+	StopAndStartFeather: {
+		DisplayName: 止まりながら進む羽
+	}
+
+	NewElementalShiftProj: {
+		DisplayName: エレメンタルシフト
+	}
+
+	MarbleBullet: {
+		DisplayName: 大理石弾
+	}
+
+	MarbleStar: {
+		DisplayName: 大理石の星
+	}
+
+	MarbleMusketHeldProjectile: {
+		DisplayName: 大理石マスケット
+	}
+
+	SmokeTest: {
+		DisplayName: 煙テスト
+	}
+
+	TendrilTest: {
+		DisplayName: 触手テスト
+	}
+
+	BeaconTendril: {
+		DisplayName: ビーコンの触手
+	}
+
+	PoundOfFeathersProj: {
+		DisplayName: 羽の束
+	}
+}
+
+Configs: {
+	AeroClientConfig: {
+		DisplayName: Aero クライアント設定
+
+		ScreenshakeIntensity: {
+			Label: 画面揺れの強度
+			Tooltip: 0 に設定すると画面揺れを完全にオフにします
+		}
+
+		CyvercryAIOverride: {
+			Label: Cyvercry 難易度オーバーライド
+			Tooltip: 実際の難易度に関係なく、Cyvercryの AI の難易度を設定できます
+		}
+	}
+}
+

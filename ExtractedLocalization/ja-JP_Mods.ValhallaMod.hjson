@@ -1,0 +1,7884 @@
+InfoDisplays: {
+	QuestDisplay: {
+		DisplayName: Quest Display
+	}
+}
+
+Configs: {
+	AuraModConfigs: {
+		OrbVisibility: {
+			Tooltip: ""
+			Label: Orb Visibility
+		}
+
+		RingVisibility: {
+			Tooltip: ""
+			Label: Ring Visibility
+		}
+
+		AuraVisibility: {
+			Tooltip: ""
+			Label: Aura Visibility
+		}
+
+		VisualAuraVisibility: {
+			Tooltip: ""
+			Label: Visual Aura Visibility
+		}
+
+		Headers: {
+			Visual: Visual
+			LinkAuraToPlayer: Link Aura To Player
+		}
+
+		PlayerAuraPlaySound: {
+			Tooltip: ""
+			Label: Play Sound when player not found
+		}
+
+		PlayerAuraShowMessage: {
+			Tooltip: ""
+			Label: Show Message when player not found
+		}
+
+		PlayerAuraTileDistance: {
+			Tooltip: ""
+			Label: Tile Distance
+		}
+
+		DisplayName: Aura Mod Configs
+	}
+
+	WeaponBarStyle: {
+		Fancy: {
+			Label: Fancy
+		}
+
+		Console: {
+			Label: Console
+		}
+
+		Classic: {
+			Label: Classic
+		}
+
+		Unique: {
+			Label: Unique
+		}
+
+		Tooltip: ""
+	}
+
+	ActiveAccessoryModConfigs: {
+		ActiveAccessoryTooltipIcon: {
+			Tooltip: ""
+			Label: Active Accessory Tooltip Icon
+		}
+
+		Headers: {
+			Tooltips: Tooltips Header
+			Cooldown: Cooldown Header
+		}
+
+		ActiveAccessoryCooldownOffSound: {
+			Tooltip: ""
+			Label: Play Sound when cooldown ended
+		}
+
+		DisplayName: Active Accessory Mod Configs
+	}
+
+	ShortswordModConfigs: {
+		ShortswordBarPosition: {
+			Tooltip: ""
+			Label: Position
+		}
+
+		Headers: {
+			Sound: Sound
+			Position: Position
+			ShortswordBarStyle: Style
+		}
+
+		ShortswordBarScale: {
+			Tooltip: ""
+			Label: Scale
+		}
+
+		ShortswordBarStyle: {
+			Tooltip: ""
+			Label: Style
+		}
+
+		ShortswordBarUniqueBar: {
+			Tooltip: W.I.P.
+			Label: Use Unique Progress Bar
+		}
+
+		ShortswordBarUniqueColor: {
+			Tooltip: ""
+			Label: Use Unique Progress Color
+		}
+
+		ShortswordBarSound: {
+			Tooltip: ""
+			Label: Play Sound at Full Shortsword Bar
+		}
+
+		ShortswordBarVisibility: {
+			Tooltip: ""
+			Label: Visibility
+		}
+
+		DisplayName: Shortsword Bar Configs
+	}
+}
+
+GlassDebuff: {
+	Description: Mods.ValhallaMod.GlassDebuff.Description
+}
+
+UI: {
+	Scrap: Scrap
+}
+
+Keybinds: {
+	"Active Accessory": {
+		DisplayName: Active  Accessory
+	}
+}
+
+TownNPCMood: {
+	Artist: {
+		HateNPC: I hate all the loud noises caused by {NPCName} and his explosives! I just want peace and quiet.
+		DislikeNPC: '''"{NPCName} keeps rambling on how his pickaxe is this big. Get a new story Old Man."'''
+		LoveNPC: Do you think {NPCName} has made new stuff for me to try?
+		LikeNPC: I can respect {NPCName} for their passions and hobbies
+		HateBiome: It sucks here, {BiomeName} is ...
+		DislikeBiome: It's way too cold in {BiomeName}, can't play while my fingers are freezing!
+		LoveBiome: My in the middle of the {BiomeName}.
+		LikeBiome: My in the middle of the {BiomeName}.
+		HateCrowded: I can't breathe in here! It feels like I'am stuck inside a marble statue.
+		DislikeCrowded: I love big crowds but this is too much!
+		FarFromHome: Oh no. The party went a bit too hard, I need to find my House.
+		LoveSpace: This place is os inspiring, and free from old folk!
+		NoHome: I need a house, I don't want to feel like a Gypsy Woman.
+		Content: I feel pretty epic right now.
+	}
+
+	Dwarf: {
+		HateNPC: I hate all the loud noises caused by {NPCName} and his explosives! I just want peace and quiet.
+		DislikeNPC: '''"{NPCName} keeps rambling on about "payed mods"... Wish I could convince him how terrible of an idea that is."'''
+		LoveNPC: Do you think {NPCName} will bring me a gift this year?
+		LikeNPC: I love to drink with {NPCName}, I still can drink more than them!
+		HateBiome: It's hot in here, i hate {BiomeName}.
+		DislikeBiome: way too calm for my liking, {BiomeName} has no cool ores to smelt
+		LoveBiome: I love {BiomeName}, Feels like home.
+		LikeBiome: "{BiomeName} is a very calm place for a smith like me."
+		HateCrowded: This reminds me of a dwarven tavern, too many heads!
+		DislikeCrowded: There are too many people around, Reminds me of my fortress.
+		FarFromHome: I am Lost. Were is my Anvil?
+		LoveSpace: I love this place, so much space to store my bars.
+		NoHome: I would like a house, i can't stand all day long.
+		Content: I feel pretty well.
+	}
+}
+
+Tiles: {
+	Millstone: {
+		MapEntry: Millstone
+	}
+
+	Mill: {
+		MapEntry: Mill
+	}
+
+	FreddyBear: {
+		MapEntry: Freddy Bear
+	}
+
+	Scarecrow: {
+		MapEntry: Scarecrow
+	}
+
+	Firestarter: {
+		MapEntry: Firestarter
+	}
+
+	Workbench: {
+		MapEntry: Workbench
+	}
+
+	IceSpikes: {
+		MapEntry: Ice Spikes
+	}
+
+	DwarvenBrick: {
+		MapEntry: Dwarven Brick
+	}
+
+	Table: {
+		MapEntry: Table
+	}
+
+	Tables: {
+		MapEntry: Tables
+	}
+
+	HugeTable: {
+		MapEntry: Huge Table
+	}
+
+	DwarvenAnvil: {
+		MapEntry: Dwarven Anvil
+	}
+
+	Chest: {
+		MapEntry: Chest
+	}
+
+	Chests: {
+		MapEntry: Chests
+	}
+
+	SmelterUI: {
+		MapEntry: Smelter (UI)
+	}
+
+	Saplings: {
+		MapEntry: Sapling
+	}
+
+	PlantPots: {
+		MapEntry: Plant Pot
+	}
+
+	Painting6x4: {
+		MapEntry: Painting
+	}
+
+	Painting4x4: {
+		MapEntry: Picture
+	}
+
+	Painting3x4: {
+		MapEntry: Picture
+	}
+
+	Painting3x3: {
+		MapEntry: Picture
+	}
+
+	WeaponWorkshop: {
+		MapEntry: Weapon Workshop
+	}
+
+	Trophy: {
+		MapEntry: Trophy
+	}
+
+	Statue: {
+		MapEntry: Statue
+	}
+
+	Smelter: {
+		MapEntry: Smelter
+	}
+
+	SinstoneStatue: {
+		MapEntry: Statue
+	}
+
+	ScarabCage: {
+		MapEntry: Scarab Cage
+	}
+
+	Relic: {
+		MapEntry: Trophy
+	}
+
+	Pots: {
+		MapEntry: Statue
+	}
+
+	MetalBrazier: {
+		MapEntry: Metal Brazier
+	}
+
+	MarblePillarBroken: {
+		MapEntry: Pillar
+	}
+
+	MarblePillar: {
+		MapEntry: Pillar
+	}
+
+	LiquidTankWater: {
+		MapEntry: Liquid Tank
+	}
+
+	LiquidTankLava: {
+		MapEntry: Liquid Tank
+	}
+
+	LiquidTankHoney: {
+		MapEntry: Liquid Tank
+	}
+
+	LiquidTank: {
+		MapEntry: Liquid Tank
+	}
+
+	IceFrogCage: {
+		MapEntry: Ice Frog Cage
+	}
+
+	HologramMale: {
+		MapEntry: Hologram
+	}
+
+	HologramFemale: {
+		MapEntry: Hologram
+	}
+
+	GoldScarabCage: {
+		MapEntry: Scarab Cage
+	}
+
+	EnchantingTable: {
+		MapEntry: Enchanting Table
+	}
+
+	DwarfAnvil: {
+		MapEntry: Dwarven Anvil
+	}
+
+	WildRootDirt: {
+		MapEntry: Wild Root
+	}
+
+	WildRoot: {
+		MapEntry: Wild Root
+	}
+
+	ValhalliteOre: {
+		MapEntry: Valhallite
+	}
+
+	ValhalliteBrick: {
+		MapEntry: Mods.ValhallaMod.MapObject.ValhalliteBrick
+	}
+
+	ThunderstoneBrick: {
+		MapEntry: Mods.ValhallaMod.MapObject.ThunderstoneBrick
+	}
+
+	Thunderstone: {
+		MapEntry: Thundernite
+	}
+
+	TestBlock: {
+		MapEntry: Test Block
+	}
+
+	TarOre: {
+		MapEntry: Pure Tar
+	}
+
+	SinstoneMagma: {
+		MapEntry: Gem
+	}
+
+	SinstoneGem: {
+		MapEntry: Gem
+	}
+
+	ScorchedSulfur: {
+		MapEntry: Scorched Sulfur
+	}
+
+	SandstoneAmber: {
+		MapEntry: Amber
+	}
+
+	JadeFragment: {
+		MapEntry: Jade Shard
+	}
+
+	HellstoneRoof: {
+		MapEntry: Mods.ValhallaMod.MapObject.HellstoneRoof
+	}
+
+	FieryBrimstone: {
+		MapEntry: Fiery Brimstone
+	}
+
+	CorrodeOre: {
+		MapEntry: Corrode
+	}
+
+	CorrodeBrick: {
+		MapEntry: Mods.ValhallaMod.MapObject.CorrodeBrick
+	}
+
+	AncientDebris: {
+		MapEntry: Mods.ValhallaMod.MapObject.AncientDebris
+	}
+}
+
+NPCs: {
+	DinoBoss: {
+		DisplayName: Dino Boss
+	}
+
+	TravelingFungus: {
+		DisplayName: Traveling Fungus
+	}
+
+	Centurion2Shieldless: {
+		DisplayName: Centurion2 Shieldless
+	}
+
+	Centurion2: {
+		DisplayName: Centurion2
+	}
+
+	Leshy: {
+		DisplayName: Leshy
+	}
+
+	VileDecomposerHook: {
+		DisplayName: Vile Decomposer Hook
+	}
+
+	VileDecomposer: {
+		DisplayName: Vile Decomposer
+	}
+
+	TheBigFungus: {
+		DisplayName: The Big Fungus
+	}
+
+	CenturionShieldless: {
+		DisplayName: Centurion Shieldless
+	}
+
+	Tombstone: {
+		DisplayName: Tombstone
+	}
+
+	Dave: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Dave
+	}
+
+	CursedPainting: {
+		DisplayName: Cursed Painting
+	}
+
+	Jotunn: {
+		DisplayName: Target Dummy
+	}
+
+	WoodHorse: {
+		DisplayName: Wood Horse
+	}
+
+	ChargingSpearbones: {
+		DisplayName: Charging Spearbones
+	}
+
+	Centurion: {
+		DisplayName: Centurion
+	}
+
+	TempleGolem: {
+		DisplayName: Temple Golem
+	}
+
+	LihzahrdTrickster: {
+		DisplayName: Lihzahrd Trickster
+	}
+
+	InfectedMan: {
+		DisplayName: Infected Man
+	}
+
+	Croc: {
+		DisplayName: Croc
+	}
+
+	BeePrincess: {
+		DisplayName: Bee Princess
+	}
+
+	ZombieUnicorn: {
+		DisplayName: Unicorn Zombie
+	}
+
+	ZombieUmbrella3: {
+		DisplayName: Umbrella Zombie
+	}
+
+	ZombieUmbrella2: {
+		DisplayName: Umbrella Zombie
+	}
+
+	ZombieUmbrella: {
+		DisplayName: Umbrella Zombie
+	}
+
+	ZombieTactical2: {
+		DisplayName: Tactical Zombie
+	}
+
+	ZombieTactical: {
+		DisplayName: Tactical Zombie
+	}
+
+	ZombieNinja: {
+		DisplayName: Ninja Zombie
+	}
+
+	ZombieLibrarian: {
+		DisplayName: Zombie Librarian
+	}
+
+	ZombieBucket: {
+		DisplayName: Zombie
+	}
+
+	ZombieBalloon3: {
+		DisplayName: Zombie
+	}
+
+	ZombieBalloon2: {
+		DisplayName: Zombie
+	}
+
+	ZombieBalloon: {
+		DisplayName: Zombie
+	}
+
+	SporeSmasher: {
+		DisplayName: "[Test] Spore Smasher"
+	}
+
+	SporeSlinger: {
+		DisplayName: "[Hell] Spore Slinger"
+	}
+
+	SinSerpantTail: {
+		DisplayName: Sin Serpant
+	}
+
+	SinSerpantHead: {
+		DisplayName: Sin Serpent
+	}
+
+	SinSerpantBody: {
+		DisplayName: Sin Serpant
+	}
+
+	LavaJellyfish: {
+		DisplayName: Lava Jellyfish
+	}
+
+	IfritSkull: {
+		DisplayName: Ifrit Skull
+	}
+
+	Ifrit: {
+		DisplayName: Ifrit
+	}
+
+	HeaterWinged: {
+		DisplayName: Winged Heater
+	}
+
+	Heater: {
+		DisplayName: Heater
+	}
+
+	Firebird: {
+		DisplayName: "[Hell] Firebird"
+	}
+
+	Cacodemon: {
+		DisplayName: Cacodemon
+	}
+
+	ArchImp: {
+		DisplayName: "[Hell] Imp 2"
+	}
+
+	TinyToxicSludge: {
+		DisplayName: Tiny Toxic Sludge
+	}
+
+	Sludger: {
+		DisplayName: Sludger
+	}
+
+	SkeletonTrapper: {
+		DisplayName: Skeleton Trapper
+	}
+
+	ShaftSentinel: {
+		DisplayName: Shaft Sentinel
+	}
+
+	Geomancer: {
+		DisplayName: Geomancer
+	}
+
+	Dwarf: {
+		Census: {
+			SpawnCondition: Always available
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: '''"{NPCName} keeps rambling on about "payed mods"... Wish I could convince him how terrible of an idea that is."'''
+			LikeNPC: I love to drink with {NPCName}, I still can drink more than them!
+			LoveNPC: Do you think {NPCName} will bring me a gift this year?
+			DislikeBiome: way too calm for my liking, {BiomeName} has no cool ores to smelt
+			LikeBiome: "{BiomeName} is a very calm place for a smith like me."
+			HateCrowded: This reminds me of a dwarven tavern, too many heads!
+			DislikeCrowded: There are too many people around, Reminds me of my fortress.
+			LoveSpace: I love this place, so much space to store my bars.
+			FarFromHome: I am Lost. Were is my Anvil?
+			NoHome: I would like a house, i can't stand all day long.
+			Content: I feel pretty well.
+		}
+
+		DisplayName: Dwarven Smith
+	}
+
+	Artist: {
+		Census: {
+			SpawnCondition: Always available
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: '''"{NPCName} keeps rambling on how his pickaxe is this big. Get a new story Old Man."'''
+			LikeNPC: I can respect {NPCName} for their passions and hobbies
+			LoveNPC: Do you think {NPCName} has made new stuff for me to try?
+			DislikeBiome: It's way too cold in {BiomeName}, can't play while my fingers are freezing!
+			LikeBiome: My in the middle of the {BiomeName}.
+			HateCrowded: I can't breathe in here! It feels like I'am stuck inside a marble statue.
+			DislikeCrowded: I love big crowds but this is too much!
+			LoveSpace: This place is os inspiring, and free from old folk!
+			FarFromHome: Oh no. The party went a bit too hard, I need to find my House.
+			NoHome: I need a house, I don't want to feel like a Gypsy Woman.
+			Content: I feel pretty epic right now.
+		}
+
+		DisplayName: Artist
+	}
+
+	PirateSquid: {
+		BossChecklistIntegration: {
+			SpawnInfo: Fishing in the lake using bait using the [i:ValhallaMod/ShinyBait] as a bait during the daytime
+		}
+
+		DisplayName: Colossal Carnage
+	}
+
+	Emperor: {
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:ValhallaMod/HeavensSeal] at night
+		}
+
+		DisplayName: The Emperor
+	}
+
+	ColdFather: {
+		BossChecklistIntegration: {
+			SpawnInfo: Occasionally appears during a Frost Legion event!
+		}
+
+		DisplayName: Cold Father
+	}
+
+	TarSwordsman: {
+		DisplayName: Tar Swordsman
+	}
+
+	TarSlime2: {
+		DisplayName: Tar Slime
+	}
+
+	TarSlime: {
+		DisplayName: Tar Slime
+	}
+
+	SkeletonBat: {
+		DisplayName: Skeleton Bat
+	}
+
+	SnowmanTrasher: {
+		DisplayName: Snowman Trasher
+	}
+
+	MisterShotty: {
+		DisplayName: Mister Shotty
+	}
+
+	Coldmando: {
+		DisplayName: Coldmando
+	}
+
+	Squidling: {
+		DisplayName: Squidling=
+	}
+
+	InkSlimeFall: {
+		DisplayName: Ink Slime
+	}
+
+	InkSlimeBall: {
+		DisplayName: Ink Slime
+	}
+
+	InkSlime: {
+		DisplayName: Ink Slime
+	}
+
+	GoldenSquidling: {
+		DisplayName: Golden Squidling
+	}
+
+	BootyMimic: {
+		DisplayName: Booty Mimic
+	}
+
+	Gargoyle: {
+		DisplayName: Granite Gargoyle
+	}
+
+	WolfRider: {
+		DisplayName: Wolf Rider
+	}
+
+	WitchDoctor: {
+		DisplayName: Witch Doctor
+	}
+
+	VoodooCultistAlt: {
+		DisplayName: Voodoo Goblin Sorcerer
+	}
+
+	VoodooCultist: {
+		DisplayName: Voodoo Goblin Sorcerer
+	}
+
+	ShadowFlameBall: {
+		DisplayName: Shadow Ball
+	}
+
+	GoblinBunny: {
+		DisplayName: Goblin Bunny
+	}
+
+	DemonicSpirit: {
+		DisplayName: Demonic Spirit
+	}
+
+	BlueGoblin: {
+		DisplayName: Goblin Raider
+	}
+
+	MotherFungus: {
+		DisplayName: Mother Fungus
+	}
+
+	FungusSlime: {
+		DisplayName: Spore Slime
+	}
+
+	FungusEye: {
+		DisplayName: Fungeye
+	}
+
+	BabyFungus: {
+		DisplayName: Baby Fungus
+	}
+
+	Valkyrie: {
+		DisplayName: "[WIP] Valkyrie"
+	}
+
+	FrozenSoul: {
+		DisplayName: Warrior Soul
+	}
+
+	FrozenNimbus: {
+		DisplayName: Blizzard Nimbus
+	}
+
+	FrozenEye: {
+		DisplayName: Frozen Eye
+	}
+
+	DraugSpearman: {
+		DisplayName: Draug
+	}
+
+	DraugAtArmsAlt: {
+		DisplayName: Draug
+	}
+
+	DraugAtArms: {
+		DisplayName: Draug
+	}
+
+	Draug: {
+		DisplayName: Draug
+	}
+
+	JadeOrb: {
+		DisplayName: Jade Orb
+	}
+
+	Radiator2: {
+		DisplayName: Radiator Wizard
+	}
+
+	Radiator: {
+		DisplayName: Radiator Wizard
+	}
+
+	RadiantBones4: {
+		DisplayName: Radiant Armored Bones
+	}
+
+	RadiantBones3: {
+		DisplayName: Radiant Armored Bones
+	}
+
+	RadiantBones2: {
+		DisplayName: Radiant Armored Bones
+	}
+
+	RadiantBones: {
+		DisplayName: Radiant Armored Bones
+	}
+
+	RadiantBall: {
+		DisplayName: Radiant
+	}
+
+	CobaltSkeleton: {
+		DisplayName: Cobalt Bones
+	}
+
+	Scarab: {
+		DisplayName: Scarab
+	}
+
+	IceFrog: {
+		DisplayName: Ice Frog
+	}
+
+	GoldScarab: {
+		DisplayName: Gold Scarab
+	}
+
+	OrbOfCorruption: {
+		DisplayName: Orb of Corruption
+	}
+
+	BigFungus: {
+		DisplayName: Big Fungus
+	}
+}
+
+Projectiles: {
+	LemonGrass: {
+		DisplayName: Lemon Grass
+	}
+
+	TrueGungirProjectile: {
+		DisplayName: True Gungir Projectile
+	}
+
+	TrueDarkLanceProjectile: {
+		DisplayName: True Dark Lance Projectile
+	}
+
+	TerraTridientProjectile: {
+		DisplayName: Terra Tridient Projectile
+	}
+
+	TetheredBlade: {
+		DisplayName: Tethered Blade
+	}
+
+	TrueGungirShockwave: {
+		DisplayName: True Gungir Shockwave
+	}
+
+	FlourFalling: {
+		DisplayName: Flour Falling
+	}
+
+	MyMagic2: {
+		DisplayName: My Magic2
+	}
+
+	MyMagic: {
+		DisplayName: My Magic
+	}
+
+	ValhalliteLongbow: {
+		DisplayName: Valhallite Longbow
+	}
+
+	TranquilizerGun: {
+		DisplayName: Tranquilizer Gun
+	}
+
+	PalladiumLongbow: {
+		DisplayName: Palladium Longbow
+	}
+
+	CobaltLongbow: {
+		DisplayName: Cobalt Longbow
+	}
+
+	HungryQuickhookProjectile: {
+		DisplayName: Hungry Quickhook Projectile
+	}
+
+	ElasticQuickhookProjectile: {
+		DisplayName: Elastic Quickhook Projectile
+	}
+
+	Needle: {
+		DisplayName: Needle
+	}
+
+	TungstenStake: {
+		DisplayName: Tungsten Stake
+	}
+
+	StalloyStake: {
+		DisplayName: Stalloy Stake
+	}
+
+	SilverStake: {
+		DisplayName: Silver Stake
+	}
+
+	LyreNote: {
+		DisplayName: Lyre Note
+	}
+
+	LyreNote3: {
+		DisplayName: Lyre Note3
+	}
+
+	LyreNote2: {
+		DisplayName: Lyre Note2
+	}
+
+	LyreNote1: {
+		DisplayName: Lyre Note1
+	}
+
+	HarbingerOfDawn: {
+		DisplayName: Harbinger Of Dawn
+	}
+
+	Thumper: {
+		DisplayName: Thumper
+	}
+
+	BambooLongbow: {
+		DisplayName: Bamboo Longbow
+	}
+
+	StalloyScrew: {
+		DisplayName: Stalloy Screw
+	}
+
+	GarlicCloud3: {
+		DisplayName: Garlic Cloud3
+	}
+
+	GarlicCloud2: {
+		DisplayName: Garlic Cloud2
+	}
+
+	GarlicCloud: {
+		DisplayName: Garlic Cloud
+	}
+
+	Garlic: {
+		DisplayName: Garlic
+	}
+
+	CrystalCutter: {
+		DisplayName: Crystal Cutter
+	}
+
+	ToothBlade: {
+		DisplayName: Tooth Blade
+	}
+
+	SpiderSaber2: {
+		DisplayName: Spider Saber2
+	}
+
+	SpiderSaber: {
+		DisplayName: Spider Saber
+	}
+
+	Scraplass: {
+		DisplayName: Scraplass
+	}
+
+	BambooStickSpear: {
+		DisplayName: Bamboo Stick Spear
+	}
+
+	BambooStick: {
+		DisplayName: Bamboo Stick
+	}
+
+	CanWater: {
+		DisplayName: Can Water
+	}
+
+	AlphaTest2: {
+		DisplayName: Alpha Test2
+	}
+
+	AlphaTest: {
+		DisplayName: Alpha Test
+	}
+
+	Enchanting: {
+		DisplayName: Enchanting
+	}
+
+	WindUp: {
+		DisplayName: Wind Up
+	}
+
+	StardustAuraScytheCut: {
+		DisplayName: Stardust Aura Scythe Cut
+	}
+
+	SpiderAuraScytheCut: {
+		DisplayName: Spider Aura Scythe Cut
+	}
+
+	PumpkingAuraScytheCut: {
+		DisplayName: Pumpking Aura Scythe Cut
+	}
+
+	ScytheCut: {
+		DisplayName: Scythe Cut
+	}
+
+	Scythe: {
+		DisplayName: Scythe
+	}
+
+	DartMonkeyDart: {
+		DisplayName: Dart Monkey Dart
+	}
+
+	DartMonkey: {
+		DisplayName: Dart Monkey
+	}
+
+	RainbowDarter: {
+		DisplayName: Rainbow Darter
+	}
+
+	Sunflower: {
+		DisplayName: Sunflower
+	}
+
+	GiantWallNutBowler: {
+		DisplayName: Giant Walnut
+	}
+
+	WallNutExplodeBowler: {
+		DisplayName: Walnut
+	}
+
+	WallNutBowler: {
+		DisplayName: Walnut
+	}
+
+	ScissorKnife2: {
+		DisplayName: Scissor Knife2
+	}
+
+	MonkeyKingSpear: {
+		DisplayName: Monkey King Spear
+	}
+
+	WindFlame: {
+		DisplayName: Wind Flame
+	}
+
+	SentryFlame: {
+		DisplayName: Sentry Flame
+	}
+
+	FortressTurret: {
+		DisplayName: Fortress Turret
+	}
+
+	FlameTurret: {
+		DisplayName: Flame Turret
+	}
+
+	NorfleetRocket: {
+		DisplayName: Norfleet Rocket
+	}
+
+	Norfleet: {
+		DisplayName: Norfleet
+	}
+
+	LeshyBramble: {
+		DisplayName: Leshy Bramble
+	}
+
+	TheGalleonBall: {
+		DisplayName: The Galleon Ball
+	}
+
+	MonkeyKingBar: {
+		DisplayName: Monkey King Bar
+	}
+
+	CorrodeLongbow: {
+		DisplayName: Corrode Longbow
+	}
+
+	ChasingLight: {
+		DisplayName: Chasing Light
+	}
+
+	RopeLongbow: {
+		DisplayName: Rope Longbow
+	}
+
+	RokkerShocker: {
+		DisplayName: Rokker Shocker
+	}
+
+	JadeGreatJavelin: {
+		DisplayName: Jade Great Javelin
+	}
+
+	JadeLight: {
+		DisplayName: Jade Light
+	}
+
+	TheRocket: {
+		DisplayName: The Rocket
+	}
+
+	GreenArrow: {
+		DisplayName: Green Arrow
+	}
+
+	MoltenDip: {
+		DisplayName: Molten Dip
+	}
+
+	TarBlade: {
+		DisplayName: Tar Blade
+	}
+
+	BloodstoneHeal: {
+		DisplayName: Bloodstone Heal
+	}
+
+	BackupMagazine: {
+		DisplayName: Backup Magazine
+	}
+
+	TentaslapShort: {
+		DisplayName: Tentaslap Short
+	}
+
+	Tentaslap: {
+		DisplayName: Tentaslap
+	}
+
+	Extinguish: {
+		DisplayName: Extinguish
+	}
+
+	Starpiercer: {
+		DisplayName: Starpiercer
+	}
+
+	TarrifierFrost: {
+		DisplayName: Tarrifier
+	}
+
+	TarrifierFire: {
+		DisplayName: Tarrifier
+	}
+
+	TarshotFrost: {
+		DisplayName: Tarshot
+	}
+
+	TarshotFire: {
+		DisplayName: Tarshot
+	}
+
+	DartTest: {
+		DisplayName: Dart Test
+	}
+
+	NecroReapeter: {
+		DisplayName: Necro Reapeter
+	}
+
+	SquidLaser3: {
+		DisplayName: Squid Laser3
+	}
+
+	DamoclesFall: {
+		DisplayName: Damocles Fall
+	}
+
+	DamoclesPet: {
+		DisplayName: Damocles Pet
+	}
+
+	Card: {
+		DisplayName: Card
+	}
+
+	SolPet: {
+		DisplayName: Sol Pet
+	}
+
+	ShortNightBeam: {
+		DisplayName: Cresento Beam
+	}
+
+	TricksterEffect: {
+		DisplayName: Trickster Effect
+	}
+
+	MarrowScraperBeam: {
+		DisplayName: Marrow Scraper Beam
+	}
+
+	LightsNightmareBeam: {
+		DisplayName: Sinners Serenity Beam
+	}
+
+	MarrowScraper: {
+		DisplayName: Marrow Scraper
+	}
+
+	RopeWhip: {
+		DisplayName: Rope Whip
+	}
+
+	ForbiddenCrescent: {
+		DisplayName: Forbidden Crescent
+	}
+
+	BambooWhip: {
+		DisplayName: Bamboo Whip
+	}
+
+	WidowsWhip: {
+		DisplayName: Widows Whip
+	}
+
+	TitaniumBian: {
+		DisplayName: Titanium Bian
+	}
+
+	SturdyStockwhip: {
+		DisplayName: Sturdy Stockwhip
+	}
+
+	Ripple: {
+		DisplayName: Ripple
+	}
+
+	AdamantiteUrumi: {
+		DisplayName: Adamantite Urumi
+	}
+
+	ExampleWhipProjectileAdvanced: {
+		DisplayName: Example Whip Projectile Advanced
+	}
+
+	ExampleWhipProjectile: {
+		DisplayName: Example Whip Projectile
+	}
+
+	ExampleAdvancedFlailProjectile: {
+		DisplayName: Example Advanced Flail Projectile
+	}
+
+	Mark1: {
+		DisplayName: Mark1
+	}
+
+	Mark0: {
+		DisplayName: Mark0
+	}
+
+	TarArrow: {
+		DisplayName: Tar Arrow
+	}
+
+	SnowPeashooter: {
+		DisplayName: Snow Peashooter
+	}
+
+	SnowPea: {
+		DisplayName: Snow Pea
+	}
+
+	FirePeashooter: {
+		DisplayName: Fire Peashooter
+	}
+
+	FirePea: {
+		DisplayName: Fire Pea
+	}
+
+	CactusStar: {
+		DisplayName: Cactus Star
+	}
+
+	CactusSpike: {
+		DisplayName: Cactus Spike
+	}
+
+	CactusKnife: {
+		DisplayName: Cactus Knife
+	}
+
+	SwingingRadience: {
+		DisplayName: Swinging Radience
+	}
+
+	Sabre: {
+		DisplayName: Sabre
+	}
+
+	ReptileRavager: {
+		DisplayName: Reptile Ravager
+	}
+
+	PaneOfPain: {
+		DisplayName: Pane Of Pain
+	}
+
+	ExampleCustomSwingProjectile: {
+		DisplayName: Example Custom Swing Projectile
+	}
+
+	FaceMace: {
+		DisplayName: Face Mace
+	}
+
+	Unlighter: {
+		DisplayName: Unlighter
+	}
+
+	BloodLight: {
+		DisplayName: Blood Light
+	}
+
+	TrueShortNight: {
+		DisplayName: True Cresento
+	}
+
+	TerraShiv: {
+		DisplayName: Terra Shiv
+	}
+
+	ShortNight: {
+		DisplayName: Cresento
+	}
+
+	MatterSlasher: {
+		DisplayName: Matter Slasher
+	}
+
+	AncientCutlass: {
+		DisplayName: Ancient Cutlass
+	}
+
+	CoolMeteor2: {
+		DisplayName: Cool Meteor2
+	}
+
+	CoolMeteor: {
+		DisplayName: Cool Meteor
+	}
+
+	TimeEscape: {
+		DisplayName: Time Escape
+	}
+
+	AcornDart: {
+		DisplayName: Acorn Dart
+	}
+
+	CoolLaser: {
+		DisplayName: Cool Laser
+	}
+
+	RotoCannon: {
+		DisplayName: Roto Cannon
+	}
+
+	SpikeArrow: {
+		DisplayName: Spike Arrow
+	}
+
+	PanicMine: {
+		DisplayName: Panic Mine
+	}
+
+	VenusYoyo: {
+		DisplayName: Venus Yoyo
+	}
+
+	UranusYoyo: {
+		DisplayName: Uranus Yoyo
+	}
+
+	SolarYoyo: {
+		DisplayName: Solar Yoyo
+	}
+
+	SaturnYoyo: {
+		DisplayName: Saturn Yoyo
+	}
+
+	NanoYoyo: {
+		DisplayName: Nano Yoyo
+	}
+
+	MercuryYoyo: {
+		DisplayName: Mercury Yoyo
+	}
+
+	FossilYoyoBall: {
+		DisplayName: Sand
+	}
+
+	FossilYoyo: {
+		DisplayName: Fossil Yoyo
+	}
+
+	Derpfling: {
+		DisplayName: Derpfling
+	}
+
+	Lizhlash: {
+		DisplayName: Lizhlash
+	}
+
+	WaterFighterProj: {
+		DisplayName: Water Fighter
+	}
+
+	WaterFighter: {
+		DisplayName: Water Fighter
+	}
+
+	Water: {
+		DisplayName: Water
+	}
+
+	DryadWater: {
+		DisplayName: Dryad Water
+	}
+
+	CorrosiveAcid: {
+		DisplayName: Corrosive Acid
+	}
+
+	SmallAxe: {
+		DisplayName: Axe
+	}
+
+	Paintnade: {
+		DisplayName: Paintnade
+	}
+
+	ArtistNote: {
+		DisplayName: Note
+	}
+
+	SpectreJacksaw: {
+		DisplayName: Spectre Jacksaw
+	}
+
+	SpectreDrill: {
+		DisplayName: Spectre Drill
+	}
+
+	JadeSaw: {
+		DisplayName: Jade Saw
+	}
+
+	JadeJackhammer: {
+		DisplayName: Jade Jackhammer
+	}
+
+	JadeDrill: {
+		DisplayName: Jade Drill
+	}
+
+	ElfJacksaw: {
+		DisplayName: Elf Jacksaw
+	}
+
+	AutoPwnhammer: {
+		DisplayName: Auto Pwnhammer
+	}
+
+	Thunder: {
+		DisplayName: Thunder
+	}
+
+	ThunderTridentProjectile: {
+		DisplayName: Thunder Trident
+	}
+
+	ThunderProjectile: {
+		DisplayName: Thunder
+	}
+
+	SpiderKnife: {
+		DisplayName: Spider Knife
+	}
+
+	SpiderEgg: {
+		DisplayName: Spider Egg
+	}
+
+	RadiantXBone: {
+		DisplayName: Radiant Bone
+	}
+
+	RadiantBone: {
+		DisplayName: Radiant Bone
+	}
+
+	Pumpkinade: {
+		DisplayName: Pumpkinade
+	}
+
+	IncendiaryGrenade: {
+		DisplayName: Incendiary Grenade
+	}
+
+	IchorMolotov: {
+		DisplayName: Ichor Coctail
+	}
+
+	IceDagger: {
+		DisplayName: Ice Dagger
+	}
+
+	GoldenBombCoin: {
+		DisplayName: Golden Bomb
+	}
+
+	GoldenBomb: {
+		DisplayName: Golden Bomb
+	}
+
+	ExplosiveCharge: {
+		DisplayName: Explosive Charge
+	}
+
+	CursedMolotov: {
+		DisplayName: Cursed Coctail
+	}
+
+	CorrodeShuriken: {
+		DisplayName: Corrode Shuriken
+	}
+
+	ChitinShuriken: {
+		DisplayName: Chitin Shuriken
+	}
+
+	BigBeeNadeSeed: {
+		DisplayName: Cluster Beenade
+	}
+
+	BigBeeNade: {
+		DisplayName: Cluster Beenade
+	}
+
+	TheGalleon: {
+		DisplayName: Cannon Ball
+	}
+
+	Tear: {
+		DisplayName: Huntress's Arrow
+	}
+
+	Tarshot: {
+		DisplayName: Tarshot
+	}
+
+	ScissorKnife: {
+		DisplayName: Scissor Knife
+	}
+
+	Granitbur: {
+		DisplayName: Granitbur
+	}
+
+	FlamingBlade: {
+		DisplayName: Flaming Blade
+	}
+
+	VoodooDevil: {
+		DisplayName: Voodoo Devil
+	}
+
+	VoodooBall: {
+		DisplayName: Voodoo Devil
+	}
+
+	TerrorTomatoesBall: {
+		DisplayName: Terror Tomato
+	}
+
+	TerrorTomatoes: {
+		DisplayName: Terror Tomatoes
+	}
+
+	StardustSkull: {
+		DisplayName: Stardust Skull
+	}
+
+	SpikyOrb: {
+		DisplayName: Spiky Orb
+	}
+
+	SnowDropperBall: {
+		DisplayName: Snowball
+	}
+
+	SnowDropper: {
+		DisplayName: Snow Dropper
+	}
+
+	Sludge: {
+		DisplayName: Sludge
+	}
+
+	RoseSentry: {
+		DisplayName: Rose Sentry
+	}
+
+	RedArrow: {
+		DisplayName: Red Arrow
+	}
+
+	ParrotStaff5: {
+		DisplayName: Parrot Staff5
+	}
+
+	ParrotStaff4: {
+		DisplayName: Parrot Staff4
+	}
+
+	ParrotStaff3: {
+		DisplayName: Parrot Staff3
+	}
+
+	ParrotStaff2: {
+		DisplayName: Parrot Staff2
+	}
+
+	ParrotStaff1: {
+		DisplayName: Parrot Staff1
+	}
+
+	NimbusSum: {
+		DisplayName: Nimbus Sum
+	}
+
+	NimbusFlakeSum: {
+		DisplayName: Snowflake
+	}
+
+	MossHornet: {
+		DisplayName: Moss Hornet
+	}
+
+	JadeOrbBall: {
+		DisplayName: Jade Shard
+	}
+
+	JadeOrb: {
+		DisplayName: Jade Orb
+	}
+
+	ImpSum: {
+		DisplayName: Imp Sum
+	}
+
+	ImpIceBall: {
+		DisplayName: Ice Ball
+	}
+
+	ImpFireBall: {
+		DisplayName: Fire Ball
+	}
+
+	Imp_Poison: {
+		DisplayName: Imp_ Poison
+	}
+
+	Imp_Normal: {
+		DisplayName: Imp_ Normal
+	}
+
+	Imp_Ice: {
+		DisplayName: Imp_ Ice
+	}
+
+	Imp_Fire: {
+		DisplayName: Imp_ Fire
+	}
+
+	FlyingElites: {
+		DisplayName: Flying Elites
+	}
+
+	FireSkull: {
+		DisplayName: Fire Skull
+	}
+
+	FireOrb: {
+		DisplayName: Fire Orb
+	}
+
+	BlessedStake: {
+		DisplayName: Blessed Stake
+	}
+
+	Spiders: {
+		DisplayName: Baby Spider
+	}
+
+	Tarrifier: {
+		DisplayName: Tarrifier
+	}
+
+	SpiderPhantom: {
+		DisplayName: Spider Phantom
+	}
+
+	ShadowFlare: {
+		DisplayName: Shadow Flare
+	}
+
+	ShadowBolt: {
+		DisplayName: Shadow Bolt
+	}
+
+	RodBeam2: {
+		DisplayName: RodBeam
+	}
+
+	RodBeam: {
+		DisplayName: Beam
+	}
+
+	RayDeathBeam: {
+		DisplayName: "[Test] Death Ray"
+	}
+
+	RayBeam: {
+		DisplayName: Ray
+	}
+
+	NebularParasiteStick: {
+		DisplayName: Nebular Parasite Stick
+	}
+
+	NebularParasite: {
+		DisplayName: Nebular Parasite
+	}
+
+	NebulaBall: {
+		DisplayName: Nebula Ball
+	}
+
+	MagicClaw: {
+		DisplayName: Magic Claw
+	}
+
+	LightSpell2: {
+		DisplayName: Light
+	}
+
+	LightSpell: {
+		DisplayName: Light
+	}
+
+	LeafShield: {
+		DisplayName: Leaf Shield
+	}
+
+	JungleSpore: {
+		DisplayName: Jungle Spore
+	}
+
+	JadeBall: {
+		DisplayName: Jade Shard
+	}
+
+	FrostBowling: {
+		DisplayName: Bowling Snowball
+	}
+
+	Firecracker: {
+		DisplayName: Firecracker
+	}
+
+	DarkBall: {
+		DisplayName: Dark Ball
+	}
+
+	CactusBall: {
+		DisplayName: Cactus
+	}
+
+	BrimstoneBlaze: {
+		DisplayName: Brimstone Blaze
+	}
+
+	ValhalliteSpear: {
+		DisplayName: Valhallite Spear
+	}
+
+	TrueGungirProj: {
+		DisplayName: True Gungir
+	}
+
+	TrueGungir: {
+		DisplayName: True Gungir
+	}
+
+	TrueDarkLanceProj: {
+		DisplayName: True Dark Lance
+	}
+
+	TrueDarkLance: {
+		DisplayName: True Dark Lance
+	}
+
+	TerraTridientProj: {
+		DisplayName: Terra Tridient
+	}
+
+	TerraSpear: {
+		DisplayName: Terra Spear
+	}
+
+	ScaleBreaker: {
+		DisplayName: Scale Breaker
+	}
+
+	Pumpkill: {
+		DisplayName: Pumpkill
+	}
+
+	PaintRoller: {
+		DisplayName: Paint Roller
+	}
+
+	NeptuneProj: {
+		DisplayName: Neptune
+	}
+
+	Neptune: {
+		DisplayName: Neptune Spear
+	}
+
+	MarbleShieldBreaker: {
+		DisplayName: Marble Shield Breaker
+	}
+
+	LampSpear: {
+		DisplayName: Lamp Spear
+	}
+
+	CorrodeSpear: {
+		DisplayName: Corrode Spear
+	}
+
+	CandiestCane: {
+		DisplayName: Candiest Cane
+	}
+
+	AncientSpear: {
+		DisplayName: Ancient Spear
+	}
+
+	WoodenHeroSword: {
+		DisplayName: Wooden Hero Sword
+	}
+
+	WaveHarvester: {
+		DisplayName: Wave Harvester
+	}
+
+	ValhalliteShortsword: {
+		DisplayName: Valhallite Shortsword
+	}
+
+	TrueNight: {
+		DisplayName: True Night
+	}
+
+	TrueCaliburn: {
+		DisplayName: True Joyeuse
+	}
+
+	Terra: {
+		DisplayName: Terra
+	}
+
+	SpookyShortsword: {
+		DisplayName: Spooky Shortsword
+	}
+
+	SparkingShortsword: {
+		DisplayName: Sparking Shortsword
+	}
+
+	Night: {
+		DisplayName: Night
+	}
+
+	LivingSnowShortsword: {
+		DisplayName: Living Snow Shortsword
+	}
+
+	LightsNightmare: {
+		DisplayName: Sinners Serenity
+	}
+
+	JadeShortsword: {
+		DisplayName: Jade Shortsword
+	}
+
+	Icydagger: {
+		DisplayName: Icydagger
+	}
+
+	HiveStabby: {
+		DisplayName: Hive Stabby
+	}
+
+	GlassShortsword: {
+		DisplayName: Glass Shortsword
+	}
+
+	ChlorophyteShortsword: {
+		DisplayName: Chlorophyte Shortsword
+	}
+
+	Caliburn: {
+		DisplayName: Joyeuse
+	}
+
+	Bulbasword: {
+		DisplayName: Bulbasword
+	}
+
+	BloodSlaughter: {
+		DisplayName: Blood Slaughter
+	}
+
+	ShinyExtinguisher3: {
+		DisplayName: Shiny Extinguisher
+	}
+
+	ShinyExtinguisher2: {
+		DisplayName: Shiny Extinguisher
+	}
+
+	ShinyExtinguisher1: {
+		DisplayName: Shiny Extinguisher
+	}
+
+	Shell: {
+		DisplayName: Shell
+	}
+
+	Torchwood: {
+		DisplayName: Torchwood
+	}
+
+	Rift: {
+		DisplayName: Rift
+	}
+
+	RiftSquid: {
+		DisplayName: Rift Squid
+	}
+
+	RiftRod: {
+		DisplayName: Rift
+	}
+
+	Peashooter: {
+		DisplayName: Peashooter
+	}
+
+	Pea: {
+		DisplayName: Pea
+	}
+
+	GolemBeamHead: {
+		DisplayName: Golem Beam Head
+	}
+
+	GolemBeam: {
+		DisplayName: Beam
+	}
+
+	CoalBurnerCoal: {
+		DisplayName: Coal
+	}
+
+	CoalBurner: {
+		DisplayName: Coal Burner
+	}
+
+	ClockmakersTurretBullet: {
+		DisplayName: Bullet
+	}
+
+	ClockmakersTurret: {
+		DisplayName: Clockmakers Turret
+	}
+
+	StardustScythe: {
+		DisplayName: Stardust Scythe
+	}
+
+	SpiderScythe: {
+		DisplayName: Spider Scythe
+	}
+
+	PumpkingScythe: {
+		DisplayName: Pumpking's Scythe
+	}
+
+	WyvernPet: {
+		DisplayName: Wyvern Pet
+	}
+
+	PumpkinLight: {
+		DisplayName: Pumpkin Light
+	}
+
+	LittleMatey: {
+		DisplayName: Little Matey
+	}
+
+	CommandoPet: {
+		DisplayName: Commando Pet
+	}
+
+	AxolotlPet: {
+		DisplayName: Axolotl Pet
+	}
+
+	Orb: {
+		DisplayName: Orb
+	}
+
+	BlunderBass3: {
+		DisplayName: Note
+	}
+
+	BlunderBass2: {
+		DisplayName: Note
+	}
+
+	BlunderBass: {
+		DisplayName: Note
+	}
+
+	WaterStream: {
+		DisplayName: Water
+	}
+
+	Rocket76: {
+		DisplayName: Rocket
+	}
+
+	Microbomb: {
+		DisplayName: Microbomb
+	}
+
+	CoconutHalf: {
+		DisplayName: Coconut
+	}
+
+	Coconut: {
+		DisplayName: Coconut
+	}
+
+	BunnyRocketMK2: {
+		DisplayName: Bunny Rocket
+	}
+
+	BunnyRocket: {
+		DisplayName: Bunny Rocket
+	}
+
+	BeezonNadeSeed: {
+		DisplayName: Beenade
+	}
+
+	AntBomb: {
+		DisplayName: Antlion Bomb
+	}
+
+	Ant: {
+		DisplayName: Baby Antlion
+	}
+
+	AcornShot: {
+		DisplayName: Acorn
+	}
+
+	KnockOut: {
+		DisplayName: Knock Out
+	}
+
+	SunJavelin: {
+		DisplayName: Sun Javelin
+	}
+
+	HuskJavelin: {
+		DisplayName: Fire Javelin
+	}
+
+	DarkImpaler: {
+		DisplayName: Dark Impaler
+	}
+
+	CarrotDagger: {
+		DisplayName: Carrot Dagger
+	}
+
+	AzraelsHeartStopper: {
+		DisplayName: Azraels Heart Stopper
+	}
+
+	JadeWallExpert: {
+		DisplayName: Jade Wall
+	}
+
+	InkPaintball: {
+		DisplayName: Ink
+	}
+
+	HandCoolerSpawn: {
+		DisplayName: Hand Cooler
+	}
+
+	HandCooler: {
+		DisplayName: Hand Cooler
+	}
+
+	TrueNightGlaive: {
+		DisplayName: True Moon Cycle
+	}
+
+	TrueLightDisc: {
+		DisplayName: True Light Disc
+	}
+
+	TestCutter: {
+		DisplayName: Test Cutter
+	}
+
+	TerraGlaive: {
+		DisplayName: Terra Glaive
+	}
+
+	TeethBreaker: {
+		DisplayName: Teeth Breaker
+	}
+
+	SnowGlaive: {
+		DisplayName: Snow Glaive
+	}
+
+	OmegaDisc: {
+		DisplayName: Omega Disc
+	}
+
+	NightGlaive: {
+		DisplayName: Moon Cycle
+	}
+
+	HuntressGlaive: {
+		DisplayName: Huntress's Glaive
+	}
+
+	DungeonGlaive: {
+		DisplayName: Dungeon Glaive
+	}
+
+	DemoniteGlaive: {
+		DisplayName: Demonite Glaive
+	}
+
+	DeathmansCutter: {
+		DisplayName: Deathmans Cutter
+	}
+
+	CrimiteGlaive: {
+		DisplayName: Crimite Glaive
+	}
+
+	ChlorophyleGlaive: {
+		DisplayName: Chlorophyle Glaive
+	}
+
+	LunarGel: {
+		DisplayName: Lunar Flame
+	}
+
+	FrostGelFast: {
+		DisplayName: Frost Burn
+	}
+
+	FrostGel: {
+		DisplayName: Frost Burn
+	}
+
+	IchorFire3: {
+		DisplayName: Ichor Flame
+	}
+
+	IchorFire2: {
+		DisplayName: Ichor Flame
+	}
+
+	IchorFire: {
+		DisplayName: Ichor Flame
+	}
+
+	Fire3: {
+		DisplayName: Fire
+	}
+
+	Fire2: {
+		DisplayName: Fire
+	}
+
+	Fire: {
+		DisplayName: Fire
+	}
+
+	CursedFire3: {
+		DisplayName: Cursed Flame
+	}
+
+	CursedFire2: {
+		DisplayName: Cursed Flame
+	}
+
+	CursedFire: {
+		DisplayName: Cursed Flame
+	}
+
+	CrematorFire3: {
+		DisplayName: Vortex Flame
+	}
+
+	CrematorFire2: {
+		DisplayName: Vortex Flame
+	}
+
+	CrematorFire: {
+		DisplayName: Vortex Flame
+	}
+
+	ValkyrieJavelin: {
+		DisplayName: Valkyrie Javelin
+	}
+
+	SquidLaser2: {
+		DisplayName: Squid Laser2
+	}
+
+	SporeSmasher: {
+		DisplayName: Spore Smasher
+	}
+
+	SnowmanRocket: {
+		DisplayName: Rocket
+	}
+
+	SnowmanLivingBall: {
+		DisplayName: Living Snowball
+	}
+
+	SnowmanIceShard: {
+		DisplayName: Ice Shard
+	}
+
+	SnowmanIceBall: {
+		DisplayName: Ice Ball
+	}
+
+	SnowmanBowling: {
+		DisplayName: Bowling Snowball
+	}
+
+	SnowFlake: {
+		DisplayName: Snowflake
+	}
+
+	SlingerRock: {
+		DisplayName: Rock
+	}
+
+	SlingerFireRock: {
+		DisplayName: Fire Rock
+	}
+
+	ShaftSentinelPickaxe: {
+		DisplayName: Pickaxe
+	}
+
+	JungleSporeEnemy: {
+		DisplayName: Jungle Spore
+	}
+
+	JadeWall: {
+		DisplayName: Jade Wall
+	}
+
+	JadeShard: {
+		DisplayName: Jade Shard
+	}
+
+	JadeOrbGore: {
+		DisplayName: Jade Orb
+	}
+
+	JadeJavelin: {
+		DisplayName: Jade Javelin
+	}
+
+	InkWave: {
+		DisplayName: Ink Wave
+	}
+
+	InkCloud3: {
+		DisplayName: Ink
+	}
+
+	InkCloud2: {
+		DisplayName: Ink
+	}
+
+	InkCloud1: {
+		DisplayName: Ink
+	}
+
+	InkBubble: {
+		DisplayName: Ink
+	}
+
+	InkBall1: {
+		DisplayName: Ink
+	}
+
+	IfritSkull: {
+		DisplayName: Fire Skull
+	}
+
+	IceFall: {
+		DisplayName: Ice
+	}
+
+	HarpyLeaf: {
+		DisplayName: Leaf
+	}
+
+	GemRing: {
+		DisplayName: Gems
+	}
+
+	FungusCloud: {
+		DisplayName: Fungus Cloud
+	}
+
+	CorruptedFlame3: {
+		DisplayName: Cursed Flame
+	}
+
+	CorruptedFlame2: {
+		DisplayName: Cursed Flame
+	}
+
+	CorruptedFlame: {
+		DisplayName: Cursed Flame
+	}
+
+	Cacodemon: {
+		DisplayName: Cacodemon
+	}
+
+	ShockWave: {
+		DisplayName: Shock Wave
+	}
+
+	NinjaEffect: {
+		DisplayName: Smoke
+	}
+
+	EyeShine: {
+		DisplayName: Eye Shine
+	}
+
+	Dartyl: {
+		DisplayName: Vortex Dart
+	}
+
+	DartVenom: {
+		DisplayName: Venom Dart
+	}
+
+	DartSpider: {
+		DisplayName: Spider Dart
+	}
+
+	DartPumpkinPart: {
+		DisplayName: Pumpkin Dart
+	}
+
+	DartPumpkin: {
+		DisplayName: Pumpkin Dart
+	}
+
+	DartNanoMine: {
+		DisplayName: Nano Dart
+	}
+
+	DartNano: {
+		DisplayName: Nano Dart
+	}
+
+	DartLuminiteBack: {
+		DisplayName: Luminite Dart
+	}
+
+	DartLuminite: {
+		DisplayName: Luminite Dart
+	}
+
+	DartIce: {
+		DisplayName: FrostBurn Dart
+	}
+
+	DartGold: {
+		DisplayName: Gold Dart
+	}
+
+	DartFire: {
+		DisplayName: Fire Dart
+	}
+
+	DartExplode2: {
+		DisplayName: Explode Dart II
+	}
+
+	DartExplode: {
+		DisplayName: Explode Dart I
+	}
+
+	DartConfetti: {
+		DisplayName: Confetti Dart
+	}
+
+	DartCogSpawn: {
+		DisplayName: High Velocity Dart
+	}
+
+	DartCog: {
+		DisplayName: High Velocity Dart
+	}
+
+	DartChlorophyle: {
+		DisplayName: Chlorophyle Dart
+	}
+
+	Dart: {
+		DisplayName: Dart
+	}
+
+	ConiferousFan: {
+		DisplayName: Coniferous
+	}
+
+	HeatwaveMana: {
+		DisplayName: Heatwave
+	}
+
+	HeatwaveBlood: {
+		DisplayName: Heatwave
+	}
+
+	HeatwaveBase: {
+		DisplayName: Heatwave
+	}
+
+	CindershotMana: {
+		DisplayName: Cindershot
+	}
+
+	CindershotBlood: {
+		DisplayName: Cindershot
+	}
+
+	CindershotBase: {
+		DisplayName: Cindershot
+	}
+
+	CorrodeBullet: {
+		DisplayName: Corrode Bullet
+	}
+
+	BulletM1: {
+		DisplayName: Bullet
+	}
+
+	BlazingRing: {
+		DisplayName: BlazingRing
+	}
+
+	WoodenSword: {
+		DisplayName: Wooden Hero Sword
+	}
+
+	WoodenBeam: {
+		DisplayName: Wooden Sword
+	}
+
+	TerraBeam: {
+		DisplayName: Terra
+	}
+
+	SandstormBall: {
+		DisplayName: Sandstorm
+	}
+
+	RuneRed: {
+		DisplayName: Rune Scythe
+	}
+
+	RuneGreen: {
+		DisplayName: Rune Scythe
+	}
+
+	RisingTide: {
+		DisplayName: Rising Tide
+	}
+
+	NightBeam: {
+		DisplayName: True Moon Cycle
+	}
+
+	IchormoureSpawn: {
+		DisplayName: Ichormoure
+	}
+
+	CursemoureSpawn: {
+		DisplayName: Cursemoure
+	}
+
+	ChlorophyleBeam: {
+		DisplayName: Chrolophyle Shortsword
+	}
+
+	CaliburnBeam: {
+		DisplayName: True Joyeuse
+	}
+
+	WaterAura: {
+		DisplayName: Water Aura
+	}
+
+	StardustAura: {
+		DisplayName: Stardust Aura
+	}
+
+	StarAuraDamage: {
+		DisplayName: Star
+	}
+
+	StarAura: {
+		DisplayName: Star Aura
+	}
+
+	SpiderAuraDamage: {
+		DisplayName: Spider
+	}
+
+	SpiderAura: {
+		DisplayName: Spider Aura
+	}
+
+	SpectreAura: {
+		DisplayName: Spectre Aura
+	}
+
+	ShadowflameAuraDamage: {
+		DisplayName: Shadowflame
+	}
+
+	ShadowflameAura: {
+		DisplayName: Shadowflame Aura
+	}
+
+	PumpkinAuraDamage: {
+		DisplayName: Pumpkin
+	}
+
+	PumpkinAura: {
+		DisplayName: Pumpkin Aura
+	}
+
+	JungleAura: {
+		DisplayName: Jungle Spirits Aura
+	}
+
+	IchorAuraDamage: {
+		DisplayName: Ichor
+	}
+
+	IchorAura: {
+		DisplayName: Ichor Aura
+	}
+
+	HellAuraDamage: {
+		DisplayName: Fire Ball
+	}
+
+	HellAura: {
+		DisplayName: Hell Aura
+	}
+
+	HealingAura2: {
+		DisplayName: Healing Aura
+	}
+
+	HealingAura: {
+		DisplayName: Healing Aura
+	}
+
+	GreedAuraDamage: {
+		DisplayName: Golden Spike Ball
+	}
+
+	GreedAura: {
+		DisplayName: Greed Aura
+	}
+
+	FrostAuraDamage: {
+		DisplayName: Frost Ball
+	}
+
+	FrostAura: {
+		DisplayName: Frost Aura
+	}
+
+	DruidAura: {
+		DisplayName: Druid Aura
+	}
+
+	CursedAuraDamage: {
+		DisplayName: Cursed Fire
+	}
+
+	CursedAura: {
+		DisplayName: Cursed Aura
+	}
+
+	BloodLustAura: {
+		DisplayName: Blood Lust Aura
+	}
+
+	AuraDamage: {
+		DisplayName: Aura
+	}
+
+	SecondWind: {
+		DisplayName: Fire
+	}
+
+	PoisonArrow: {
+		DisplayName: Poisoned Arrow
+	}
+
+	MeteoFall: {
+		DisplayName: Star
+	}
+
+	JadeArrow: {
+		DisplayName: Jade Arrow
+	}
+
+	HuntressArrow: {
+		DisplayName: Huntress's Arrow
+	}
+
+	HarpyArrow: {
+		DisplayName: Harpy Feather
+	}
+
+	CorrodeArrow: {
+		DisplayName: Corrode Arrow
+	}
+
+	BowArrow: {
+		DisplayName: Bow Arrow
+	}
+
+	ArcaneArrow: {
+		DisplayName: Arcane Arrow
+	}
+
+	ShivasGuard: {
+		DisplayName: Shiva's Guard
+	}
+
+	RocketPackRocket: {
+		DisplayName: Rocket
+	}
+
+	RocketPack: {
+		DisplayName: Rocket
+	}
+
+	BouncingBrain: {
+		DisplayName: Brain
+	}
+
+	WellHookProjectile: {
+		DisplayName: ${ProjectileName.GemHookAmethyst}
+	}
+
+	BeeHookProjectile: {
+		DisplayName: ${ProjectileName.GemHookAmethyst}
+	}
+}
+
+Items: {
+	WheelOfFortune: {
+		Tooltip: ""
+		DisplayName: Wheel Of Fortune
+	}
+
+	Windmill: {
+		Tooltip: ""
+		DisplayName: Windmill
+	}
+
+	LemonGrass: {
+		Tooltip: ""
+		DisplayName: Lemon Grass
+	}
+
+	BreadLoaf: {
+		Tooltip: ""
+		DisplayName: Bread Loaf
+	}
+
+	Breadbowl: {
+		Tooltip: ""
+		DisplayName: Breadbowl
+	}
+
+	TetheredBlade: {
+		Tooltip: ""
+		DisplayName: Tethered Blade
+	}
+
+	MagicParticles: {
+		Tooltip: ""
+		DisplayName: Magic Particles
+	}
+
+	FlourSackRipped: {
+		Tooltip: ""
+		DisplayName: Flour Sack Ripped
+	}
+
+	FlourSackOpen: {
+		Tooltip: ""
+		DisplayName: Flour Sack Open
+	}
+
+	FlourSack: {
+		Tooltip: ""
+		DisplayName: Flour Sack
+	}
+
+	Flour: {
+		Tooltip: ""
+		DisplayName: Flour
+	}
+
+	Millstone: {
+		Tooltip: ""
+		DisplayName: Millstone
+	}
+
+	CactusHammaxe: {
+		Tooltip: ""
+		DisplayName: Cactus Hammaxe
+	}
+
+	HungryQuickhook: {
+		Tooltip: ""
+		DisplayName: Hungry Quickhook
+	}
+
+	ElasticQuickhook: {
+		Tooltip: ""
+		DisplayName: Elastic Quickhook
+	}
+
+	Needle: {
+		Tooltip: ""
+		DisplayName: Needle
+	}
+
+	Mill: {
+		Tooltip: ""
+		DisplayName: Mill
+	}
+
+	WheatFlour: {
+		Tooltip: ""
+		DisplayName: Wheat Flour
+	}
+
+	PortalDye: {
+		Tooltip: ""
+		DisplayName: Portal Dye
+	}
+
+	Decoy: {
+		Passive: Mods.ValhallaMod.Items.Decoy.Passive
+		Active: Mods.ValhallaMod.Items.Decoy.Active
+		DisplayName: Decoy
+		Tooltip: ""
+	}
+
+	EnchantmentDye: {
+		Tooltip: ""
+		DisplayName: Enchantment Dye
+	}
+
+	StalloyBeam: {
+		Tooltip: ""
+		DisplayName: Stalloy Beam
+	}
+
+	TungstenStake: {
+		Tooltip: ""
+		DisplayName: Tungsten Stake
+	}
+
+	StalloyStake: {
+		Tooltip: ""
+		DisplayName: Stalloy Stake
+	}
+
+	SilverStake: {
+		Tooltip: ""
+		DisplayName: Silver Stake
+	}
+
+	ActiveAccessoryIcon: {
+		Tooltip: ""
+		DisplayName: Active Accessory Icon
+	}
+
+	LunarCoin: {
+		Tooltip: ""
+		DisplayName: Lunar Coin
+	}
+
+	GoldenDoubloon: {
+		Tooltip: ""
+		DisplayName: Golden Doubloon
+	}
+
+	DungeonCoinPink: {
+		Tooltip: ""
+		DisplayName: Dungeon Coin Pink
+	}
+
+	DungeonCoinGreen: {
+		Tooltip: ""
+		DisplayName: Dungeon Coin Green
+	}
+
+	DungeonCoinBlue: {
+		Tooltip: ""
+		DisplayName: Dungeon Coin Blue
+	}
+
+	Thumper: {
+		DisplayName: Thumper
+		Tooltip: ""
+	}
+
+	ScissorsKnives: {
+		Tooltip: ""
+		DisplayName: Laser Bladed Scissors
+	}
+
+	StalloyScrew: {
+		Tooltip: Screw You!
+		DisplayName: Stalloy Screw
+	}
+
+	ValhalliteLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Valhallite Longbow
+	}
+
+	BambooLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Bamboo Longbow
+	}
+
+	PalladiumLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Palladium Longbow
+	}
+
+	CobaltLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Cobalt Longbow
+	}
+
+	RopeLyre: {
+		Tooltip: ""
+		DisplayName: Rope Lyre
+	}
+
+	RopeClub: {
+		Tooltip: ""
+		DisplayName: Rope Club
+	}
+
+	ClumsyNet: {
+		Tooltip: ""
+		DisplayName: Clumsy Net
+	}
+
+	ElasticCord: {
+		Tooltip: Perfectly made for Weapons and Quickhooks
+		DisplayName: Elastic Cord
+	}
+
+	RainbowResin: {
+		Tooltip: ""
+		DisplayName: Rainbow Resin
+	}
+
+	CogTin: {
+		Tooltip: Don't put your hand in there!
+		DisplayName: Tin Mechanism
+	}
+
+	CogCopper: {
+		Tooltip: Don't put your hand in there!
+		DisplayName: Copper Mechanism
+	}
+
+	JadeArcanum: {
+		Tooltip: ""
+		DisplayName: Jade Arcanum
+	}
+
+	GarlicSeeds: {
+		Tooltip: Can be planted on farmland
+		DisplayName: Garlic Seeds
+	}
+
+	Garlic: {
+		Tooltip: It's smells, alot
+		DisplayName: Garlic
+	}
+
+	Scraplass: {
+		Tooltip: ""
+		DisplayName: Scraplass
+	}
+
+	ToothBlade: {
+		Tooltip: ""
+		DisplayName: Tooth Blade
+	}
+
+	ObsidianObliterator: {
+		Tooltip: ""
+		DisplayName: Obsidian Obliterator
+	}
+
+	BambooStick: {
+		Tooltip: Swing and Smack with a right click attack
+		DisplayName: Bamboo Stick
+	}
+
+	WateringCan: {
+		Tooltip: Can water farmlands
+		DisplayName: Watering Can
+	}
+
+	HarpyGreatbow: {
+		Tooltip: Right click to launches in the air and increase power of bow
+		DisplayName: Harpy Greatbow
+	}
+
+	TreeTapper: {
+		Tooltip: Attach it to the side of trees
+		DisplayName: Tree Tapper
+	}
+
+	WheatSeeds: {
+		Tooltip: Can be planted on farmland
+		DisplayName: Wheat Seeds
+	}
+
+	BeetrootSeeds: {
+		Tooltip: Can be planted on farmland
+		DisplayName: Glooptroot Seeds
+	}
+
+	FreddyBear: {
+		Tooltip: "'Is That Freddy Fazbear?'"
+		DisplayName: Freddy Bear
+	}
+
+	Wheat: {
+		Tooltip: ""
+		DisplayName: Wheat
+	}
+
+	Beetroot: {
+		Tooltip: Sticky and Sweet
+		DisplayName: Glooptroot
+	}
+
+	Scythe: {
+		Tooltip: Can cut crops
+		DisplayName: Gardener's Scythe
+	}
+
+	Scarecrow: {
+		Tooltip: ""
+		DisplayName: Scarecrow
+	}
+
+	MixedSeeds: {
+		Tooltip: Can be planted on farmland
+		DisplayName: Mixed Seeds
+	}
+
+	DartMonkey: {
+		Tooltip: ""
+		DisplayName: Dart Monkey
+	}
+
+	Hoe: {
+		Tooltip: Can till dirt into farmland
+		DisplayName: Gardener's Hoe
+	}
+
+	RainbowDarter: {
+		Tooltip: Any dart any time
+		DisplayName: Rainbow Darter
+	}
+
+	Sun: {
+		Tooltip: ""
+		DisplayName: Sun
+	}
+
+	SunflowerSentryStaff: {
+		Tooltip: Summons a sunflower that produce suns for you
+		DisplayName: Sunny Sunflower
+	}
+
+	GiantWallNutBowler: {
+		Tooltip: ""
+		DisplayName: Giant Walnut Bowling Glove
+	}
+
+	WallNutExplodeBowler: {
+		Tooltip: ""
+		DisplayName: Explosive Walnut Bowling Glove
+	}
+
+	WallNutBowler: {
+		Tooltip: ""
+		DisplayName: Walnut Bowling Glove
+	}
+
+	ScissorsKnifes: {
+		Tooltip: ""
+		DisplayName: Scissors Knifes
+	}
+
+	Widowmaker: {
+		DisplayName: Widowmaker
+		Tooltip: ""
+	}
+
+	FortressTurretTool: {
+		Tooltip: ""
+		DisplayName: Fortress Turret Tool
+	}
+
+	FlameTurretTool: {
+		Tooltip: ""
+		DisplayName: Flame Turret Tool
+	}
+
+	Norfleet_Shock: {
+		DisplayName: Norfleet_ Shock
+		Tooltip: ""
+	}
+
+	Norfleet: {
+		Tooltip: "[c/FF0000:Blows up everything!]"
+		DisplayName: Norfleet
+	}
+
+	ScrapGun: {
+		Tooltip: ""
+		DisplayName: Scrap Gun
+	}
+
+	ArrowStrike: {
+		Tooltip: ""
+		DisplayName: Arrow Strike
+		Active: Mods.ValhallaMod.Items.ArrowStrike.Active
+		Passive: Mods.ValhallaMod.Items.ArrowStrike.Passive
+	}
+
+	MonkeyKingBar: {
+		Tooltip: Swing and Smack with a right click attack
+		DisplayName: Monkey King Bar
+	}
+
+	Cloud: {
+		Tooltip: ""
+		DisplayName: Cloud
+	}
+
+	CorrodeLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Corrode Longbow
+	}
+
+	RopeLongbow: {
+		Tooltip: Hold to charge up your next shot
+		DisplayName: Rope Longbow
+	}
+
+	FlowerPetals: {
+		Tooltip: ""
+		DisplayName: Flower Petals
+	}
+
+	RocketPotion: {
+		Tooltip: ""
+		DisplayName: Rocket Potion
+	}
+
+	TestBanner: {
+		Tooltip: ""
+		DisplayName: Test Banner
+	}
+
+	MoltenDip: {
+		Tooltip: ""
+		DisplayName: Molten Dip
+	}
+
+	TarBlade: {
+		Tooltip: ""
+		DisplayName: Tar Blade
+	}
+
+	ArmletOfMordiggian: {
+		Tooltip: ""
+		DisplayName: Armlet Of Mordiggian
+		Active: Bleed for up to 50% more melee and blood damage
+		Passive: 20% increased melee and blood speed
+	}
+
+	Bloodstone: {
+		Tooltip: ""
+		DisplayName: Bloodstone
+		Active: Mods.ValhallaMod.Items.Bloodstone.Active
+		Passive: Mods.ValhallaMod.Items.Bloodstone.Passive
+	}
+
+	BackupMagazine: {
+		Tooltip: ""
+		DisplayName: Backup Magazine
+		Active: Gives a chance to not consume bullets
+		Passive: Increases gun damage by 3
+	}
+
+	MagicMagnum: {
+		Tooltip: ""
+		DisplayName: Magic Magnum
+	}
+
+	FlinxFurBolero: {
+		Tooltip: Increases summon damage by 5%
+		DisplayName: Flinx Fur Bolero
+	}
+
+	TheFirestarter: {
+		Tooltip: ""
+		DisplayName: The Firestarter
+	}
+
+	Firestarter: {
+		Tooltip: ""
+		DisplayName: Firestarter
+	}
+
+	SandstoneBrickBed: {
+		Tooltip: ""
+		DisplayName: Sandstone Brick Bed
+	}
+
+	LaminatedBed: {
+		Tooltip: ""
+		DisplayName: Laminated Bed
+	}
+
+	DwarvenBed: {
+		Tooltip: ""
+		DisplayName: Dwarven Bed
+	}
+
+	DeadWoodBed: {
+		Tooltip: ""
+		DisplayName: Dead Wood Bed
+	}
+
+	BirchBed: {
+		Tooltip: ""
+		DisplayName: Birch Bed
+	}
+
+	SandstoneBrickWorkbench: {
+		Tooltip: ""
+		DisplayName: Sandstone Brick Workbench
+	}
+
+	LaminatedWorkbench: {
+		Tooltip: ""
+		DisplayName: Laminated Workbench
+	}
+
+	DwarvenWorkbench: {
+		Tooltip: ""
+		DisplayName: Dwarven Workbench
+	}
+
+	DeadWoodWorkbench: {
+		Tooltip: ""
+		DisplayName: Dead Wood Workbench
+	}
+
+	BirchWorkbench: {
+		Tooltip: ""
+		DisplayName: Birch Workbench
+	}
+
+	SandstoneBrickTable: {
+		Tooltip: ""
+		DisplayName: Sandstone Brick Table
+	}
+
+	LaminatedTable: {
+		Tooltip: ""
+		DisplayName: Laminated Table
+	}
+
+	DeadWoodTable: {
+		Tooltip: ""
+		DisplayName: Dead Wood Table
+	}
+
+	BirchTable: {
+		Tooltip: ""
+		DisplayName: Birch Table
+	}
+
+	DwarvenFrostChest: {
+		Tooltip: ""
+		DisplayName: Dwarven Frost Chest
+	}
+
+	DwarvenChairSmall: {
+		Tooltip: ""
+		DisplayName: Dwarven Chair Small
+	}
+
+	GreenScreenWall: {
+		Tooltip: ""
+		DisplayName: Green Screen Wall
+	}
+
+	Starpiercer: {
+		Tooltip: ""
+		DisplayName: Starpiercer
+	}
+
+	TestDart: {
+		Tooltip: ""
+		DisplayName: Test Dart
+	}
+
+	Damocles: {
+		Tooltip: ""
+		DisplayName: Damocles
+	}
+
+	VoidDeck: {
+		Tooltip: ""
+		DisplayName: Void Deck
+	}
+
+	SolTest: {
+		Tooltip: ""
+		DisplayName: Sol Test
+	}
+
+	BasicTears: {
+		Tooltip: ""
+		DisplayName: Basic Tears
+	}
+
+	PlantFood: {
+		Tooltip: ""
+		DisplayName: Plant Food
+	}
+
+	SquidBossRelic: {
+		Tooltip: ""
+		DisplayName: Colossal Carnage Relic
+	}
+
+	EmperorBossRelic: {
+		Tooltip: ""
+		DisplayName: The Emperor Relic
+	}
+
+	ColdFatherBossRelic: {
+		Tooltip: ""
+		DisplayName: Cold Father Relic
+	}
+
+	CrazyDaveFertilizer: {
+		Tooltip: ""
+		DisplayName: Crazy Dave Fertilizer
+	}
+
+	TricksterCloak: {
+		Active: Grants invisibility and movement speed, confuses enemies around
+		Passive: 15% increased ranged damage
+		Tooltip: ""
+		DisplayName: Trickster Cloak
+	}
+
+	SandstoneBrickChair: {
+		Tooltip: ""
+		DisplayName: Sandstone Brick Chair
+	}
+
+	LaminatedChair: {
+		Tooltip: ""
+		DisplayName: Laminated Chair
+	}
+
+	DeadWoodChair: {
+		Tooltip: ""
+		DisplayName: Dead Wood Chair
+	}
+
+	BirchChair: {
+		Tooltip: ""
+		DisplayName: Birch Chair
+	}
+
+	WoodenTile: {
+		Tooltip: ""
+		DisplayName: Wooden Tile
+	}
+
+	DeadWood: {
+		Tooltip: ""
+		DisplayName: Dead Wood
+	}
+
+	BirchWood: {
+		Tooltip: ""
+		DisplayName: Birch Wood
+	}
+
+	AncientMahogany: {
+		DisplayName: Ancient Mahogany
+		Tooltip: ""
+	}
+
+	ThunderstoneBrickWall: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunderstone Brick Wall"
+	}
+
+	SnowShaftWall: {
+		Tooltip: ""
+		DisplayName: "[Test] Snow Shaft Wall"
+	}
+
+	FortifiedSnowBirckWall: {
+		Tooltip: ""
+		DisplayName: "[Test] Fortified Snow Birck Wall"
+	}
+
+	DwarvenSlabWall: {
+		Tooltip: ""
+		DisplayName: "[Test] Dwarven Slab Wall"
+	}
+
+	DwarvenBrickWallFancy: {
+		Tooltip: ""
+		DisplayName: "[Test] Dwarven Brick Wall Fancy"
+	}
+
+	DwarvenBrickWall: {
+		Tooltip: ""
+		DisplayName: "[Test] Dwarven Brick Wall"
+	}
+
+	DwarvenBrick: {
+		Tooltip: ""
+		DisplayName: "[Test] Dwarven Brick"
+	}
+
+	MaceOfGaze: {
+		Tooltip: Shoots projectiles while it's spinning
+		DisplayName: "[Test] Mace Of Gaze"
+	}
+
+	BrazierPack: {
+		Tooltip: Rightclick a Brazier to hold it's fire for 10 minutes
+		DisplayName: Brazier Pack
+	}
+
+	CopyStaff: {
+		Tooltip: ""
+		DisplayName: "[Test Only] Copy Staff"
+	}
+
+	GlassPickaxe: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Pickaxe
+	}
+
+	CultistTest: {
+		Tooltip: ""
+		DisplayName: Cultist Test
+	}
+
+	ActiveAccessoryItem: {
+		Passive: Passive
+		Cooldown: Cooldown {0} seconds
+		Tooltip: ""
+		DisplayName: Active Accessory Item
+	}
+
+	TarArrow: {
+		Tooltip: Braziers ignite arrows and increase their damage
+		DisplayName: Tar Arrow
+	}
+
+	RocketFuel: {
+		Tooltip: ""
+		DisplayName: "[Test] Rocket Fuel"
+	}
+
+	SnowPeashooterSentryStaff: {
+		Tooltip: "Summons a snow peashooter to fight for you "
+		DisplayName: Snowy Pea Pod Rod
+	}
+
+	FirePeashooterSentryStaff: {
+		Tooltip: "Summons a fire peashooter to fight for you "
+		DisplayName: Fiery Pea Pod Rod
+	}
+
+	CactusStar: {
+		Tooltip: Splits into sticky Thorns
+		DisplayName: Cactus Star
+	}
+
+	CactusKnife: {
+		Tooltip: Shatters into sticky Thorns
+		DisplayName: Cactus Knife
+	}
+
+	ReptileRavager: {
+		Tooltip: ""
+		DisplayName: Reptile Ravager
+	}
+
+	FaceMace: {
+		Tooltip: ""
+		DisplayName: Face Mace
+	}
+
+	ForgottenPickaxe: {
+		Tooltip: I have Forgotten about this
+		DisplayName: "[Test] Forgotten Pickaxe"
+	}
+
+	ForgottenBlade: {
+		Tooltip: I have Forgotten about this
+		DisplayName: "[Test] Forgotten Blade"
+	}
+
+	PulseLaucher: {
+		Tooltip: ""
+		DisplayName: "[Test] Pulse Laucher"
+	}
+
+	Skullust: {
+		Tooltip: ""
+		DisplayName: "[Test] Skullust"
+	}
+
+	DeathDesire: {
+		Tooltip: ""
+		DisplayName: "[Test] Death Desire"
+	}
+
+	DungeonFlamer: {
+		Tooltip: Burn them all!
+		DisplayName: "[Test] Dungeon Flamer"
+	}
+
+	MercsShotty: {
+		Tooltip: ""
+		DisplayName: "[Test] Mercs Shotty"
+	}
+
+	BulletRain: {
+		Tooltip: ""
+		DisplayName: "[Test] Bullet Rain"
+	}
+
+	SlashingSpine: {
+		Tooltip: ""
+		DisplayName: "[Test] Slashing Spine"
+	}
+
+	MothMotherAuraStaff: {
+		Tooltip: ""
+		DisplayName: "[Test] Moth Mother Aura Staff"
+	}
+
+	RokkerShocker: {
+		Tooltip: ""
+		DisplayName: "[Test] Rokker Shocker"
+	}
+
+	NecroReapeter: {
+		Tooltip: ""
+		DisplayName: "[Test] Necro Reapeter"
+	}
+
+	ChasingLight: {
+		Tooltip:
+			'''
+			Hold to charge up your next shot
+			Charge up the shot for a volley of flames
+			Stikes apply Hunters Mark
+			'''
+		DisplayName: "[Test] Chasing Light"
+	}
+
+	IvyBag: {
+		Tooltip: ""
+		DisplayName: "[Test] Ivy Bag"
+	}
+
+	Sap: {
+		Tooltip: ""
+		DisplayName: Sap
+	}
+
+	SappersSatchel: {
+		Active: ""
+		Passive: ""
+		Tooltip: On Use drop a bunch of proximity mines
+		DisplayName: "[Test] Sapper's Satchel"
+	}
+
+	DendralFan: {
+		Tooltip: ""
+		DisplayName: "[Test] Dendral Fan"
+	}
+
+	ClayMore: {
+		Tooltip: ""
+		NoTooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			"One day it will"
+			'''
+		DisplayName: Clay More
+	}
+
+	Tentaslap: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Right click to use 8 tentacles
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: Tentaslap
+	}
+
+	ForbiddenCrescent: {
+		Tooltip:
+			'''
+			8 summon-magic tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: Forbidden Crescent
+	}
+
+	WidowsWhip: {
+		Tooltip:
+			'''
+			10% summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		NoTooltip: Stikes will apply Venom Acid to enemies
+		DisplayName: Widows Whip
+	}
+
+	Ripple: {
+		Tooltip:
+			'''
+			1 summon tag damage up to 10 for each strike
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: Ripple
+	}
+
+	BambooWhip: {
+		Tooltip:
+			'''
+			3 summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			'''
+		DisplayName: Bamboo Whip
+	}
+
+	RopeWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			1 summon tag damage
+			'''
+		NoTooltip: Pure Summoners wet dream
+		DisplayName: Rope Whip
+	}
+
+	PaneOfPain: {
+		Tooltip: Right click to do a spin attack
+		DisplayName: Pane Of Pain
+	}
+
+	SkadisWrath: {
+		Tooltip: ""
+		DisplayName: "[Test] Skadis Wrath"
+	}
+
+	JotunnsShiv: {
+		Tooltip: ""
+		DisplayName: "[Test] Jotunns Shiv"
+	}
+
+	MatterSlasher: {
+		Tooltip: ""
+		DisplayName: "[Test] Matter Slasher"
+	}
+
+	TrueShortNight: {
+		Tooltip: ""
+		DisplayName: True Crescento
+	}
+
+	TerraShiv: {
+		Tooltip: ""
+		DisplayName: Terrapier
+	}
+
+	ShortNight: {
+		Tooltip:
+			'''
+			Right click to use special ability.
+			Right click while empty bar to change ability.
+			'''
+		DisplayName: Crescento
+	}
+
+	MarrowScraper: {
+		Tooltip: Right click to send burst of swords
+		DisplayName: Marrow Scraper
+	}
+
+	CrystalCutter: {
+		Tooltip:
+			'''
+			Strike enemies to gain whip attack speed
+			Projectiles don't count!
+			'''
+		DisplayName: "[Test] Crystal Cutter"
+	}
+
+	AncientCutlass: {
+		Tooltip: ""
+		DisplayName: "[Test] Ancient Cutlass"
+	}
+
+	Unlighter: {
+		Tooltip: ""
+		DisplayName: "[Test] Unlighter"
+	}
+
+	Potioneer: {
+		Tooltip: ""
+		DisplayName: "[Test] Potioneer"
+	}
+
+	BunnyRocket2: {
+		Tooltip: ""
+		DisplayName: Bunny Rocket MK2
+	}
+
+	SpookyFlamer: {
+		Tooltip: Flames are scary
+		DisplayName: Spooky Flamer
+	}
+
+	VenomDart: {
+		Tooltip: ""
+		DisplayName: Venom Dart
+	}
+
+	SpiderDart: {
+		Tooltip: ""
+		DisplayName: Spider Dart
+	}
+
+	NanoDart: {
+		Tooltip: ""
+		DisplayName: Nano Dart
+	}
+
+	LuminiteDart: {
+		Tooltip: ""
+		DisplayName: Luminite Dart
+	}
+
+	HighVelocityDart: {
+		Tooltip: ""
+		DisplayName: High Velocity Dart
+	}
+
+	GoldenDart: {
+		Tooltip: ""
+		DisplayName: Golden Dart
+	}
+
+	FrostburnDart: {
+		Tooltip: ""
+		DisplayName: Frostburn Dart
+	}
+
+	FlamingDart: {
+		Tooltip: ""
+		DisplayName: Flaming Dart
+	}
+
+	ExplosiveDart2: {
+		Tooltip: ""
+		DisplayName: Explosive Dart2
+	}
+
+	ExplosiveDart: {
+		Tooltip: ""
+		DisplayName: Explosive Dart
+	}
+
+	ConfettiDart: {
+		Tooltip: ""
+		DisplayName: Confetti Dart
+	}
+
+	ChlorophyleDart: {
+		Tooltip: ""
+		DisplayName: Chlorophyle Dart
+	}
+
+	BoneDartgunSoul: {
+		Tooltip: ""
+		DisplayName: Bone Dartgun Soul
+	}
+
+	AcornDart: {
+		Tooltip: ""
+		DisplayName: Acorn Dart
+	}
+
+	RotoCannon: {
+		Tooltip: ""
+		DisplayName: Roto Cannon
+	}
+
+	Rifle76: {
+		Tooltip: ""
+		DisplayName: Rifle 76
+	}
+
+	HuskarJavelin: {
+		Tooltip: ""
+		DisplayName: Huskar Javelin
+	}
+
+	BloodLight: {
+		Tooltip: ""
+		DisplayName: Blood Light
+	}
+
+	ValhalliteLongBow: {
+		Tooltip: ""
+		DisplayName: Valhallite Long Bow
+	}
+
+	IluminantBatbow: {
+		Tooltip: ""
+		DisplayName: Iluminant Batbow
+	}
+
+	PickaxeofExcavation: {
+		Tooltip:
+			'''
+			Digs in a bigger area than a pickaxe
+			Able to mine Hellstone
+			'''
+		DisplayName: Pickaxe of Excavation
+	}
+
+	BirchHammer: {
+		Tooltip: ""
+		DisplayName: Birch Hammer
+	}
+
+	TestStaff: {
+		Tooltip: ""
+		DisplayName: Test Staff
+	}
+
+	TestersMusket: {
+		Tooltip: ""
+		DisplayName: Testers Musket
+	}
+
+	TestersDive: {
+		Tooltip: ""
+		DisplayName: Testers Dive
+	}
+
+	Tester: {
+		Tooltip: ""
+		DisplayName: Tester
+	}
+
+	HugeTable: {
+		Tooltip: ""
+		DisplayName: Huge Table
+	}
+
+	DwarvenTable: {
+		Tooltip: ""
+		DisplayName: Dwarven Table
+	}
+
+	DwarvenGoldenChest: {
+		Tooltip: ""
+		DisplayName: Dwarven Golden Chest
+	}
+
+	DwarvenChest: {
+		Tooltip: ""
+		DisplayName: Dwarven Chest
+	}
+
+	DwarvenChair2: {
+		Tooltip: ""
+		DisplayName: Dwarven Chair2
+	}
+
+	DwarvenChair: {
+		Tooltip: ""
+		DisplayName: Dwarven Chair
+	}
+
+	DwarvenAnvil: {
+		Tooltip: ""
+		DisplayName: Dwarven Anvil
+	}
+
+	TheUkulele: {
+		Tooltip: "'...and his music was electric.'"
+		DisplayName: The Ukulele
+	}
+
+	PumpkinLights: {
+		Tooltip: Summons Jack 'O Lanterns to provide light
+		DisplayName: Pumpkin Lights
+	}
+
+	WolfFood: {
+		Tooltip: Summons a rideable Wolf mount
+		DisplayName: Wolf Food
+	}
+
+	TarOre: {
+		Tooltip: ""
+		DisplayName: Tar Ore
+	}
+
+	LegalParts: {
+		Tooltip: ""
+		DisplayName: Legal Parts
+	}
+
+	FragmentsOfTime: {
+		Tooltip: ""
+		DisplayName: "[Test] Fragments Of Time"
+	}
+
+	Dungel: {
+		Tooltip: ""
+		DisplayName: Dungel
+	}
+
+	BrokenWoodenSword: {
+		Tooltip: ""
+		DisplayName: Broken Wooden Sword
+	}
+
+	TrekkersPotion: {
+		Tooltip: ""
+		DisplayName: Trekkers Potion
+	}
+
+	ImmunityPotion: {
+		Tooltip: ""
+		DisplayName: Immunity Potion
+	}
+
+	KeeperMask: {
+		Tooltip: ""
+		DisplayName: Keeper Mask
+	}
+
+	KeeperLegs: {
+		Tooltip: ""
+		DisplayName: Keeper Legs
+	}
+
+	KeeperBody: {
+		Tooltip: ""
+		DisplayName: Keeper Body
+	}
+
+	BeeMask: {
+		Tooltip: Increases your max number of sentries and auras by 1
+		DisplayName: Bee Mask
+	}
+
+	BeeHelmet: {
+		Tooltip: Increases whip range by 15% and speed by 10%
+		DisplayName: Bee Helmet
+	}
+
+	UnstableTeleportMirror: {
+		Tooltip: ""
+		DisplayName: Unstable Teleport Mirror
+	}
+
+	TimeTest: {
+		Tooltip: ""
+		DisplayName: Time Test
+	}
+
+	NutfulNecklace: {
+		Tooltip: +4% summon damage
+		DisplayName: Nutful Necklace
+	}
+
+	PanicMines: {
+		Tooltip: ""
+		DisplayName: Panic Mines
+	}
+
+	SuperPotionBelt: {
+		Active: Gives 4 random potion buffs for 60 seconds
+		Passive: Has a big chance to give short buff after getting hit
+		Tooltip: ""
+		DisplayName: Super Potion Belt
+	}
+
+	GreaterPotionBelt: {
+		Active: Gives 3 random potion buffs for 60 seconds
+		Passive: Has a chance to give short buff after getting hit
+		Tooltip: ""
+		DisplayName: Greater Potion Belt
+	}
+
+	PotionBelt: {
+		Active: Gives 2 random potion buffs for 60 seconds
+		Passive: Has a chance to give short buff after getting hit
+		Tooltip: ""
+		DisplayName: Potion Belt
+	}
+
+	LesserPotionBelt: {
+		Active: Gives a random potion buff for 60 seconds
+		Passive: Has a low chance to give short buff after getting hit
+		Tooltip: ""
+		DisplayName: Lesser Potion Belt
+	}
+
+	EatersGland: {
+		Active: ""
+		Passive: ""
+		Tooltip: ""
+		DisplayName: "[Test] Eaters Gland"
+	}
+
+	ScarabItem: {
+		Tooltip: ""
+		DisplayName: Scarab
+	}
+
+	ScarabCage: {
+		Tooltip: ""
+		DisplayName: Scarab Cage
+	}
+
+	IceFrogItem: {
+		Tooltip: ""
+		DisplayName: Ice Frog
+	}
+
+	IceFrogCage: {
+		Tooltip: ""
+		DisplayName: Ice Frog Cage
+	}
+
+	GoldScarabItem: {
+		Tooltip: ""
+		DisplayName: Gold Scarab
+	}
+
+	GoldScarabCage: {
+		Tooltip: ""
+		DisplayName: Gold Scarab Cage
+	}
+
+	SolarYoyo: {
+		Tooltip: Explode on contact
+		DisplayName: Helios
+	}
+
+	NanoYoyo: {
+		Tooltip: ""
+		DisplayName: "[Test] Nano Yoyo"
+	}
+
+	FossilYoyo: {
+		Tooltip: ""
+		DisplayName: Fossil Yoyo
+	}
+
+	Derpfling: {
+		Tooltip: ""
+		DisplayName: Derpfling
+	}
+
+	SpiderKnife: {
+		Tooltip: ""
+		DisplayName: Spider Knife
+	}
+
+	SpiderEgg: {
+		Tooltip: ""
+		DisplayName: Spider Eggnade
+	}
+
+	Pumpkinade: {
+		Tooltip: ""
+		DisplayName: Pumpkinade
+	}
+
+	IncendiaryGrenade: {
+		Tooltip: ""
+		DisplayName: Incendiary Grenade
+	}
+
+	IchorCoctail: {
+		Tooltip:
+			'''
+			A small explosion that puts enemies on ichor
+			Lights nearby area on ichor for a while
+			'''
+		DisplayName: Ichor Coctail
+	}
+
+	ExplosiveCharge: {
+		Tooltip: ""
+		DisplayName: Explosive Charge
+	}
+
+	CursedCoctail: {
+		Tooltip:
+			'''
+			A small explosion that puts enemies on cursed fire
+			Lights nearby area on cursed fire for a while
+			'''
+		DisplayName: Cursed Fire Coctail
+	}
+
+	CorrodeShuriken: {
+		Tooltip: ""
+		DisplayName: Corrode Shuriken
+	}
+
+	ChitinShuriken: {
+		Tooltip: ""
+		DisplayName: "[Test] Chitin Shuriken"
+	}
+
+	BigBeeNade: {
+		Tooltip: ""
+		DisplayName: Cluster Beenade
+	}
+
+	WildRootSword: {
+		Tooltip: ""
+		DisplayName: Wild Root Sword
+	}
+
+	ValhalliteSword: {
+		Tooltip: ""
+		DisplayName: Valhallite Sword
+	}
+
+	ThunderSword: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Sword"
+	}
+
+	SpiderSaber2: {
+		Tooltip:
+			'''
+			Hitted enemy is venomed
+			Every 3rd swing summons spider
+			'''
+		DisplayName: Venom Spider Saber
+	}
+
+	SpiderSaber: {
+		Tooltip: Hitted enemy is poisoned
+		DisplayName: Spider Saber
+	}
+
+	SeaScrapSword: {
+		Tooltip: ""
+		DisplayName: "[Test] SeaScrapSword"
+	}
+
+	ScissorsKnife: {
+		Tooltip: ""
+		DisplayName: Scissors Knife
+	}
+
+	RuneScythe: {
+		Tooltip: ""
+		DisplayName: Rune Sickle
+	}
+
+	RoseSword: {
+		Tooltip: Hitted enemy is poisoned
+		DisplayName: Rose Sword
+	}
+
+	RisingTide: {
+		Tooltip: ""
+		DisplayName: Rising Tide
+	}
+
+	Radiance: {
+		Tooltip:
+			'''
+			A divine weapon that causes damage to nearby enemies
+			Right click to turn on/off burning
+			'''
+		DisplayName: Radiance
+	}
+
+	ParadoxSword: {
+		Tooltip: Gives holder a chance to dodge attacks
+		DisplayName: Sword of Paradox
+	}
+
+	PaintSplasher: {
+		Tooltip: ""
+		DisplayName: Paint Splasher
+	}
+
+	OlimpusSlasher: {
+		Tooltip: ""
+		DisplayName: "[Test] Olympus Slasher"
+	}
+
+	JadeSword: {
+		Tooltip: ""
+		DisplayName: Jade Sword
+	}
+
+	Ichormore: {
+		Tooltip: ""
+		DisplayName: "[Test] Ichormore"
+	}
+
+	Granitbur: {
+		Tooltip: "'Code name 368'"
+		DisplayName: Granitbur
+	}
+
+	GlassSword: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Sword
+	}
+
+	GlassGreatsword: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Greatsword
+	}
+
+	FossilSword: {
+		Tooltip: Shoots an amber bolt
+		DisplayName: Fossil Sword
+	}
+
+	FlamingBlade: {
+		Tooltip: ""
+		DisplayName: Flaming Blade
+	}
+
+	DiamondSword2: {
+		Tooltip: Sharpness V
+		DisplayName: Diamond Sword
+	}
+
+	DiamondSword: {
+		Tooltip: ""
+		DisplayName: Diamond Sword
+	}
+
+	DeathmansCutter: {
+		Tooltip: Right click to throw axes
+		DisplayName: Deathman's Cutter
+	}
+
+	Cursemore: {
+		Tooltip: ""
+		DisplayName: "[Test] Cursemore"
+	}
+
+	CorrodeBlade: {
+		Tooltip: Inflicts Corrode Break debuff that decreases target's defense
+		DisplayName: Corrode Blade
+	}
+
+	Cactusmoure: {
+		Tooltip: ""
+		DisplayName: Cactusmoure
+	}
+
+	BlueSlice: {
+		Tooltip: Shoots an icy bolt
+		DisplayName: Blue Slice
+	}
+
+	BladeEvil: {
+		Tooltip: Right click to summon an imp of your choice
+		DisplayName: Blade of Evil
+	}
+
+	Beesting: {
+		Tooltip:
+			'''
+			Summons killer bees after striking your foe
+			Chance to cause confusion
+			'''
+		DisplayName: Bee's Sting
+	}
+
+	SupportBannerEvil: {
+		Tooltip: "'Team up!'"
+		DisplayName: "[Test] Support Banner of Evil"
+	}
+
+	SupportBanner: {
+		Tooltip: "'Team up!'"
+		DisplayName: "[Test] Support Banner"
+	}
+
+	VoodooDevilStaff: {
+		Tooltip: "Summons a voodoo devil to fight for you "
+		DisplayName: Voodoo Devil Staff
+	}
+
+	TerrorTomatoes: {
+		Tooltip: "Summons a moss hornet to fight for you "
+		DisplayName: Terror Tomatoes
+	}
+
+	SpikyOrbStaff: {
+		Tooltip: Summons a spiky orb to fight for you
+		DisplayName: "[Test] Spiky Ball Staff"
+	}
+
+	SnowDropperStaff: {
+		Tooltip: "Summons a snow dropper to fight for you "
+		DisplayName: Snow Dropper Staff
+	}
+
+	SludgeStaff: {
+		Tooltip: "Summons a baby sludge to fight for you "
+		DisplayName: Sludge Staff
+	}
+
+	RoseSentryStaff: {
+		Tooltip: "Summons a rose to fight for you "
+		DisplayName: "[Test] Rose Staff"
+	}
+
+	RiftRod: {
+		Tooltip: "Summons a rift squid to fight for you "
+		DisplayName: Rift Rod
+	}
+
+	PeashooterSentryStaff: {
+		Tooltip: "Summons a peashooter to fight for you "
+		DisplayName: Pea Pod Rod
+	}
+
+	ParrotStaff: {
+		Tooltip: "Summons a parrot to fight for you "
+		DisplayName: Parrot Staff
+	}
+
+	NimbusStaff: {
+		Tooltip: "Summons a nimbus to fight for you "
+		DisplayName: Frozen Nimbus Staff
+	}
+
+	MossHornetStaff: {
+		Tooltip: "Summons a moss hornet to fight for you "
+		DisplayName: Moss Hornet Staff
+	}
+
+	JadeOrbStaff: {
+		Tooltip: Summons a jade orb to fight for you and to increase your defense
+		DisplayName: Jade Orb Staff
+	}
+
+	GolemSentryStaff: {
+		Tooltip: "Summons a golem head to fight for you "
+		DisplayName: Golem Staff
+	}
+
+	FlyingElites: {
+		Tooltip: ""
+		DisplayName: Flying Elites
+	}
+
+	FireOrbStaff: {
+		Tooltip:
+			'''
+			Summons a fire orb to fight for you
+			Every orb grants 2 seconds of immunity to lava
+			'''
+		DisplayName: "[Test] Fire Orb Staff"
+	}
+
+	CoalBurnerStaff: {
+		Tooltip: "Summons a coal burner to fight for you "
+		DisplayName: Coal Burner Staff
+	}
+
+	ClockmakersTurretTool: {
+		Tooltip: ""
+		DisplayName: Clockmakers Turret Tool
+	}
+
+	Purificator: {
+		Tooltip: ""
+		DisplayName: "[Test] Purificator"
+	}
+
+	BlessedStake: {
+		Tooltip: ""
+		DisplayName: "[Test] Blessed Stake"
+	}
+
+	ValhalliteSpear: {
+		Tooltip: ""
+		DisplayName: Valhallite Spear
+	}
+
+	TrueGungnir: {
+		Tooltip: ""
+		DisplayName: True Gungnir
+	}
+
+	TrueDarkLance: {
+		Tooltip: ""
+		DisplayName: True Dark Lance
+	}
+
+	TerraSpear: {
+		Tooltip: ""
+		DisplayName: Terra Tridient
+	}
+
+	ScaleBreaker: {
+		Tooltip: ""
+		DisplayName: Scale Breaker
+	}
+
+	Pumpkill: {
+		Tooltip: Summons Pumpkin heads to attack your enemies
+		DisplayName: Serial Pumpkiller
+	}
+
+	PaintRoller: {
+		Tooltip: ""
+		DisplayName: The Roller
+	}
+
+	MarbleShieldBreaker: {
+		Tooltip: ""
+		DisplayName: "[Test] Marble Shield Breaker"
+	}
+
+	LampSpear: {
+		Tooltip: ""
+		DisplayName: Lamp Spear
+	}
+
+	JadeSpear: {
+		Tooltip: ""
+		DisplayName: Jade Naginata
+	}
+
+	CorrodeSpear: {
+		Tooltip: Inflicts Corrode Break debuff that decreases target's defense
+		DisplayName: Corrode Spear
+	}
+
+	CandiestCane: {
+		Tooltip: Increases your move speed while held
+		DisplayName: Candiest Cane
+	}
+
+	WoodenHeroSword: {
+		Tooltip: ""
+		DisplayName: Wooden Hero Sword
+	}
+
+	WaveHarvester: {
+		Tooltip: Right click to perform a deadly dash
+		DisplayName: Wave Harvester
+	}
+
+	ValhalliteShortsword: {
+		Tooltip: ""
+		DisplayName: Valhallite Shortsword
+	}
+
+	TrueCaliburn: {
+		Tooltip: ""
+		DisplayName: True Joyeuse
+	}
+
+	Terra: {
+		DisplayName: Terra
+	}
+
+	SpookyShortsword: {
+		Tooltip: ""
+		DisplayName: Spooky Shortsword
+	}
+
+	SparkingShortsword: {
+		Tooltip: ""
+		DisplayName: Sparking Shortsword
+	}
+
+	LivingSnowShortsword: {
+		Tooltip: ""
+		DisplayName: Living Snow Shortsword
+	}
+
+	LightsNightmare: {
+		Tooltip: Right click to send burst of swords
+		DisplayName: Sinners Serenity
+	}
+
+	JadeShortsword: {
+		Tooltip: ""
+		DisplayName: Jade Shortsword
+	}
+
+	Icydagger: {
+		Tooltip: ""
+		DisplayName: Icydagger
+	}
+
+	HiveStabby: {
+		Tooltip: ""
+		DisplayName: Hive Stabby
+	}
+
+	GlassShortsword: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Shortsword
+	}
+
+	ChlorophyteShortsword: {
+		Tooltip: ""
+		DisplayName: Chlorophyte Shortsword
+	}
+
+	Caliburn: {
+		Tooltip: ""
+		DisplayName: Joyeuse
+	}
+
+	Bulbasword: {
+		Tooltip: ""
+		DisplayName: Bulbasword
+	}
+
+	Blunderbass: {
+		Tooltip: Shoots out a spread of notes
+		DisplayName: Blunderbass
+	}
+
+	WaterFighter: {
+		Tooltip:
+			'''
+			Right click to drop hydrant
+			Deals critical damage to fire enemies
+			'''
+		DisplayName: Water Fighter
+	}
+
+	Tarshot: {
+		Tooltip: Braziers ignite tar and increase it damage
+		DisplayName: Tarshot
+	}
+
+	Tarrifier: {
+		Tooltip: Braziers ignite tar and increase it damage
+		DisplayName: Tarrifier
+	}
+
+	SporeStaff: {
+		Tooltip: ""
+		DisplayName: Staff of Spore
+	}
+
+	ShinyExtinguisher: {
+		Tooltip: Deals critical damage to fire enemies
+		DisplayName: Shiny Extinguisher
+	}
+
+	ShellStaff: {
+		Tooltip: ""
+		DisplayName: Shell Staff
+	}
+
+	ShadowFlare: {
+		Tooltip: ""
+		DisplayName: Shadow Flare
+	}
+
+	ShadowBolt: {
+		Tooltip: ""
+		DisplayName: Shadow Bolt
+	}
+
+	SacredScales: {
+		Tooltip: Right click to use special attack
+		DisplayName: Sacred Scales
+	}
+
+	NebulaRod: {
+		Tooltip: ""
+		DisplayName: Nebula Lyre
+	}
+
+	MagicWand2: {
+		Tooltip: ""
+		DisplayName: Kamek's Wand
+	}
+
+	MagicWand: {
+		Tooltip: ""
+		DisplayName: Turtle Wand
+	}
+
+	MagicClaw: {
+		Tooltip: ""
+		DisplayName: Magic Claw
+	}
+
+	LeafShield: {
+		Tooltip: ""
+		DisplayName: Leaf Shield
+	}
+
+	KnockOut: {
+		Tooltip: ""
+		DisplayName: "[Test] Knock Out"
+	}
+
+	JadeBook: {
+		Tooltip: ""
+		DisplayName: Jade Arcanun
+	}
+
+	HandCooler: {
+		Tooltip: Slowly throw ice daggers
+		DisplayName: Hand Cooler
+	}
+
+	GoldenBomb: {
+		Tooltip: ""
+		DisplayName: Golden Bomb
+	}
+
+	GhostVenomStaff: {
+		Tooltip: Shoots a venom fang that chases after your enemy
+		DisplayName: Ghost Venom Staff
+	}
+
+	FrostBowlingStaff: {
+		Tooltip: Hey let's go Bowling!
+		DisplayName: Frost Bowling Staff
+	}
+
+	FirecrackerStaff: {
+		Tooltip: ""
+		DisplayName: Firecracker Wand
+	}
+
+	DarkTome: {
+		Tooltip:
+			'''
+			Deals critical damage to enemy targeted by your summons
+			Right click to target enemy
+			'''
+		DisplayName: Dark Tome
+	}
+
+	CactusStaff: {
+		Tooltip: ""
+		DisplayName: Cactus Staff
+	}
+
+	BrimstoneBlaze: {
+		Tooltip: ""
+		DisplayName: "[Test] Brimstone Blaze"
+	}
+
+	Beenigun: {
+		Tooltip: Shoots bees that will chase your enemy
+		DisplayName: Beenigun
+	}
+
+	BagOfSand: {
+		Tooltip: "'Pocket Sand!'"
+		DisplayName: Bag of Sand
+	}
+
+	StickyBombLauncher2: {
+		Tooltip: Detonates stickybombs near the cursor
+		DisplayName: Stickybomb Launcher
+	}
+
+	StickyBombLauncher: {
+		Tooltip: ""
+		DisplayName: Stickybomb Launcher
+	}
+
+	Splatterink: {
+		Tooltip: ""
+		DisplayName: Splatterink
+	}
+
+	NetherLauncher: {
+		Tooltip: ""
+		DisplayName: Nether Launcher
+	}
+
+	NailShotgun: {
+		Tooltip: ""
+		DisplayName: "[Test] Nail Shotgun"
+	}
+
+	Missiletoe: {
+		Tooltip: Shoots out a volley of mistletoe missiles
+		DisplayName: Missiletoe
+	}
+
+	MicrobombDispenser: {
+		Tooltip: ""
+		DisplayName: Microbomb Dispenser
+	}
+
+	Microbomb: {
+		Tooltip: ""
+		DisplayName: Microbomb
+	}
+
+	CoconutGun: {
+		Tooltip: ""
+		DisplayName: Coconut Gun
+	}
+
+	Bunzooka: {
+		Tooltip: Uses Bunny Rockets as ammo
+		DisplayName: Bunzooka
+	}
+
+	BunnyRocketMK2: {
+		DisplayName: Hopping Bunny Rocket
+	}
+
+	BunnyRocket: {
+		Tooltip: ""
+		DisplayName: Bunny Rocket
+	}
+
+	AntlionBomb: {
+		Tooltip: ""
+		DisplayName: Antlion Bomb
+	}
+
+	Antlauncher: {
+		Tooltip: Uses Antlion Bombs as ammo
+		DisplayName: Antlion's Roar
+	}
+
+	AcornCannon: {
+		Tooltip:
+			'''
+			Uses acorns as ammo
+			0% chance not to consume ammo
+			'''
+		DisplayName: Acorn Cannon
+	}
+
+	FrostDaggers: {
+		Tooltip: Slowly throw ice daggers
+		DisplayName: Frost Daggers
+	}
+
+	ConiferousFan: {
+		Tooltip: Throw out a bunch of needles
+		DisplayName: Coniferous Fan
+	}
+
+	SunJavelin: {
+		Tooltip: ""
+		DisplayName: Sun Javelin
+	}
+
+	DarkImpaler: {
+		Tooltip: ""
+		DisplayName: "[Test] Dark Impaler"
+	}
+
+	CarrotDagger: {
+		Tooltip: ""
+		DisplayName: Carrot Dagger
+	}
+
+	AzraelsHeartStopper: {
+		Tooltip: ""
+		DisplayName: Azraels Heart Stopper
+	}
+
+	TrueNightGlaive: {
+		Tooltip: 3 bounces
+		DisplayName: True Moon Cycle
+	}
+
+	TrueLightDisc: {
+		Tooltip: ""
+		DisplayName: True Light Disc
+	}
+
+	TerraGlaive: {
+		Tooltip: 5 bounces
+		DisplayName: Terra Glaive
+	}
+
+	TeethBreaker: {
+		Tooltip: ""
+		DisplayName: Teeth Breaker
+	}
+
+	SnowGlaive: {
+		Tooltip: 2 bounces
+		DisplayName: "[Test] Snowflake"
+	}
+
+	OmegaDisc: {
+		Tooltip: ""
+		DisplayName: Omega Disc
+	}
+
+	NightGlaive: {
+		Tooltip: 3 bounces
+		DisplayName: Moon Cycle
+	}
+
+	HuntressGlaive: {
+		Tooltip: Many bounces
+		DisplayName: "[Test] Huntress's Glaive"
+	}
+
+	DungeonGlaive: {
+		Tooltip: 4 bounces
+		DisplayName: Mekurabe
+	}
+
+	DemoniteGlaive: {
+		Tooltip: ""
+		DisplayName: Corruption's Servant
+	}
+
+	CrimiteGlaive: {
+		Tooltip: ""
+		DisplayName: Flesh Grinder
+	}
+
+	ChlorophyleGlaive: {
+		Tooltip: 5 Bounces
+		DisplayName: Chlorophyle Glaive
+	}
+
+	VortexCremator: {
+		Tooltip: 66% chance not to consume ammo
+		DisplayName: Vortex Cremator
+	}
+
+	SpinalIgniter: {
+		Tooltip: ""
+		DisplayName: "[Test] Spinal Igniter"
+	}
+
+	RagingDreki: {
+		Tooltip: ""
+		DisplayName: Raging Dreki
+	}
+
+	LunarGel: {
+		Tooltip: Fuel for flamethrowers
+		DisplayName: Lunar Gel
+	}
+
+	FreezeSpreader: {
+		Tooltip: ""
+		DisplayName: Freeze Spreader
+	}
+
+	FossilFlamethrower: {
+		Tooltip: ""
+		DisplayName: Fossil Flamethrower
+	}
+
+	BoneFlamethrowerSoul: {
+		Tooltip: ""
+		DisplayName: "[Test] Bone Flamethrower"
+	}
+
+	BoneFlamethrower: {
+		Tooltip: ""
+		DisplayName: "[Test] Bone Flamethrower"
+	}
+
+	ValhalliteBlowpipe: {
+		Tooltip: Allows the collection of seeds for ammo
+		DisplayName: Valhallite Blowpipe
+	}
+
+	TungstenDartShotgun: {
+		Tooltip: ""
+		DisplayName: Tungsten Dart Shotgun
+	}
+
+	SpookyDart: {
+		Tooltip: ""
+		DisplayName: Spooky Dart
+	}
+
+	SpookyDartgun: {
+		Tooltip: 25% chance not to consume ammo
+		DisplayName: Black Cat
+	}
+
+	SnakeSpitter: {
+		Tooltip: ""
+		DisplayName: "[Test] SnakeSpitter"
+	}
+
+	SilverDartRifle: {
+		Tooltip: 25% chance not to consume ammo
+		DisplayName: Silver Dart Rifle
+	}
+
+	JadeBalista: {
+		Tooltip: ""
+		DisplayName: Jade Hwacha
+	}
+
+	IcePipe: {
+		Tooltip: Allows the collection of seeds for ammo
+		DisplayName: Ice Pipe
+	}
+
+	Icarus: {
+		Tooltip: Shoots darts from the sky
+		DisplayName: Icarus
+	}
+
+	Dartyl: {
+		Tooltip: 66% chance not to consume ammo
+		DisplayName: Dart Collider
+	}
+
+	DartVenom: {
+		Tooltip: Inflicts target with venom
+		DisplayName: Venom Dart
+	}
+
+	DartSpider: {
+		Tooltip: It's filled with spiders
+		DisplayName: Spider Dart
+	}
+
+	DartPumpkin: {
+		Tooltip: Shatters on contact
+		DisplayName: Spooky Dart
+	}
+
+	DartNano: {
+		Tooltip: Causes Confusion
+		DisplayName: Nano Dart
+	}
+
+	DartLuminite: {
+		Tooltip: "'They only die twice'"
+		DisplayName: Luminite Dart
+	}
+
+	DartIce: {
+		Tooltip: The longer they fly, the longer they burn
+		DisplayName: Frostburn Dart
+	}
+
+	DartGold: {
+		Tooltip: Enemies killed will drop more money
+		DisplayName: Golden Dart
+	}
+
+	DartFire: {
+		Tooltip: The longer they fly, the longer they burn
+		DisplayName: Flaming Dart
+	}
+
+	DartExplode2: {
+		Tooltip:
+			'''
+			Explodes on impact
+			Will destroy tiles
+			'''
+		DisplayName: Explosive Dart II
+	}
+
+	DartExplode: {
+		Tooltip:
+			'''
+			Explodes on impact
+			Will not destroy tiles
+			'''
+		DisplayName: Explosive Dart I
+	}
+
+	DartConfetti: {
+		Tooltip: Explodes into confetti on impact
+		DisplayName: Confetti Dart
+	}
+
+	DartCog: {
+		Tooltip: Faster than sound
+		DisplayName: High Velocity Dart
+	}
+
+	DartChlorophyle: {
+		Tooltip: Follows your cursor
+		DisplayName: Chlorophyle Dart
+	}
+
+	Dart: {
+		Tooltip: ""
+		DisplayName: Wooden Dart
+	}
+
+	Chainbreaker: {
+		Tooltip: Combines mana and darts into one
+		DisplayName: Chainbreaker
+	}
+
+	Cerberus: {
+		Tooltip: Fires a spread of darts
+		DisplayName: Cerberus
+	}
+
+	BoneDartgun: {
+		Tooltip: ""
+		DisplayName: Bone Dartgun
+	}
+
+	Heatwave: {
+		Tooltip: Consumes 3 cells
+		DisplayName: "[Test] Heatwave"
+	}
+
+	Cindershot: {
+		Tooltip: Consumes 2 cells
+		DisplayName: "[Test] Cindershot"
+	}
+
+	CellMana: {
+		Tooltip: ""
+		DisplayName: Mana Cell
+	}
+
+	CellGun: {
+		Tooltip: Consumes 3 cells
+		DisplayName: "[Test] Cell Gun"
+	}
+
+	CellBase: {
+		Tooltip: ""
+		DisplayName: Basic Cell
+	}
+
+	Thunderbird: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunderbird"
+	}
+
+	Thomass: {
+		Tooltip: Your shooting skills are increased when not moving
+		DisplayName: Little Tommy
+	}
+
+	TheGalleon: {
+		Tooltip:
+			'''
+			33% chance not to consume ammo
+			`Cannon ready!`
+			'''
+		DisplayName: The Galleon
+	}
+
+	Scarabine: {
+		Tooltip:
+			'''
+			Right click to change single/burst mode
+			25% chance not to consume ammo
+			'''
+		DisplayName: Scarabine
+	}
+
+	PlagueRifleV: {
+		Tooltip: "[c/a962b3:-Venomous damage-]"
+		DisplayName: Venom Rifle
+	}
+
+	PlagueRifleH: {
+		Tooltip: Shoots a life stealing bullets
+		DisplayName: Hallowed Rifle
+	}
+
+	PlagueRifle: {
+		Tooltip: "[c/2dae4c:-Poisonous damage-]"
+		DisplayName: Plague Rifle
+	}
+
+	MacEleven: {
+		Tooltip: Burns your enemies
+		DisplayName: Mac Eleven
+	}
+
+	LittleFriend: {
+		Tooltip:
+			'''
+			Right click to shoot grenade
+			66% chance not to consume ammo
+			'''
+		DisplayName: Little Friend
+	}
+
+	Gun76: {
+		Tooltip:
+			'''
+			Right click to shoot rocket
+			66% chance not to consume ammo
+			'''
+		DisplayName: "[Test] Rifle 76mm"
+	}
+
+	GlassCannon: {
+		Tooltip:
+			'''
+			Decreases your defense
+			Right click to zoom out
+			'''
+		DisplayName: Glass Cannon
+	}
+
+	CorruptedMusket: {
+		Tooltip: ""
+		DisplayName: "[Test] Corrupted Musket"
+	}
+
+	CorrodeShotgun: {
+		Tooltip: Shoots corrode bullets
+		DisplayName: Corrode Shotgun
+	}
+
+	CobaltGun: {
+		Tooltip: ""
+		DisplayName: Cobalt Revolver
+	}
+
+	Beezon: {
+		Tooltip: Right click to shoot beebomb
+		DisplayName: Beezon
+	}
+
+	WaterAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Water Aura Staff
+	}
+
+	StardustAuraStaff: {
+		Tooltip:
+			'''
+			Not available for now
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Stardust Scythe
+	}
+
+	StarAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that puts you in low gravity and shoots out stars
+			Minion damage increases aura's range
+			'''
+		DisplayName: Astral Aura Staff
+	}
+
+	SpiderAuraScythe: {
+		Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Spider Aura Scythe
+	}
+
+	SpectreAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Spectre Aura Staff
+	}
+
+	ShadowFlameAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that inflicts Shadowflame
+			Minion damage increases aura's range
+			'''
+		DisplayName: Shadowflame Aura Staff
+	}
+
+	PumpkingAuraScythe: {
+		Tooltip:
+			'''
+			Summons an aura that deals damage to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Pumpking's Aura Scythe
+	}
+
+	IchorAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that inflicts the Ichor debuff to enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Ichor Aura Staff
+	}
+
+	HellAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that burns enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Hell Aura Staff
+	}
+
+	HealingGreaterAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that heals players and Town NPC
+			Minion damage increases aura's range
+			'''
+		DisplayName: Greater Healing Aura Staff
+	}
+
+	HealingAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that heals players and Town NPC
+			Minion damage increases aura's range
+			'''
+		DisplayName: Healing Aura Staff
+	}
+
+	GreedAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that increases gold drops of enemies. and spins a golden mace that deals damage
+			Minion damage increases aura's range
+			'''
+		DisplayName: Greed Aura Staff
+	}
+
+	FrostburnAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that inflicts frostburn
+			Minion damage increases aura's range
+			'''
+		DisplayName: Frostburn Aura Staff
+	}
+
+	CursedFlameAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that burns enemies
+			Minion damage increases aura's range
+			'''
+		DisplayName: Cursed Flame Aura Staff
+	}
+
+	BloodLustAuraStaff: {
+		Tooltip:
+			'''
+			Summons an aura that buffs players and Town NPC
+			Minion damage increases aura's range
+			'''
+		DisplayName: Blood Lust Aura Staff
+	}
+
+	WildRootBow: {
+		Tooltip: ""
+		DisplayName: Wild Root Bow
+	}
+
+	ValhalliteBow: {
+		DisplayName: Valhallite Bow
+	}
+
+	ThunderBow: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Bow"
+	}
+
+	StarCrusader: {
+		Tooltip: Causes meteor to rain from the sky after striking an enemy
+		DisplayName: Star Crusader
+	}
+
+	SpookyBow: {
+		Tooltip: ""
+		DisplayName: "[Test] Spooky Bow"
+	}
+
+	SpikeArrow: {
+		Tooltip: ""
+		DisplayName: Spike Arrow
+	}
+
+	SecondWind: {
+		Tooltip: ""
+		DisplayName: Second Wind
+	}
+
+	PoisonArrow: {
+		Tooltip: ""
+		DisplayName: Poisoned Arrow
+	}
+
+	JadeRepeater: {
+		Tooltip: ""
+		DisplayName: Jade Repeater
+	}
+
+	JadeArrow: {
+		Tooltip: ""
+		DisplayName: Jade Arrow
+	}
+
+	HuntressBow: {
+		Tooltip: Wooden arrows turn into a homing arrows
+		DisplayName: Huntress's Bow
+	}
+
+	HarpyBow: {
+		Tooltip: Right click to launches in the air and increase power of bow
+		DisplayName: Harpy Bow
+	}
+
+	HarbingerOfDawn: {
+		Tooltip: ""
+		DisplayName: "[Test] Harbinger Of Dawn"
+	}
+
+	GlassCrossbow: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Crossbow
+	}
+
+	FossilBow: {
+		Tooltip: ""
+		DisplayName: Fossil Bow
+	}
+
+	FallenSky: {
+		Tooltip: ""
+		DisplayName: "[Test] Fallen Sky"
+	}
+
+	DynastyBow: {
+		Tooltip: ""
+		DisplayName: Dynasty Wood Bow
+	}
+
+	Crossarrow: {
+		Tooltip: Shoots Bows that shoot arrows that you used to shoot bows
+		DisplayName: Crossarrow
+	}
+
+	CorrodeBow: {
+		Tooltip: ""
+		DisplayName: Corrode Bow
+	}
+
+	Beepeater: {
+		Tooltip: Wooden arrows turn into 3 columns of bees
+		DisplayName: Beepeater
+	}
+
+	ArcaneArrow: {
+		Tooltip: Increases a Magic damage done to struck enemies.
+		DisplayName: Arcane Arrow
+	}
+
+	AncietRepeater: {
+		Tooltip: 20% chance to deal triple damage
+		DisplayName: Ancient Repeater
+	}
+
+	UndertaleLegs_Alt: {
+		Tooltip: ""
+		DisplayName: Child Trousers (Alt)
+	}
+
+	UndertaleLegs: {
+		Tooltip: ""
+		DisplayName: Child Trousers
+	}
+
+	UndertaleHead_Alt: {
+		Tooltip: ""
+		DisplayName: Child Mask (Alt)
+	}
+
+	UndertaleHead: {
+		Tooltip: ""
+		DisplayName: Child Mask
+	}
+
+	UndertaleBody_Alt: {
+		Tooltip: ""
+		DisplayName: Child Shirt (Alt)
+	}
+
+	UndertaleBody: {
+		Tooltip: ""
+		DisplayName: Child Shirt
+	}
+
+	TracksuitLegs: {
+		Tooltip: ""
+		DisplayName: Tracksuit
+	}
+
+	TracksuitBody: {
+		Tooltip: ""
+		DisplayName: Tracksuit
+	}
+
+	TealshroomHead: {
+		Tooltip: ""
+		DisplayName: Tealshroom Hat
+	}
+
+	TametMask: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Tamet's Helmet
+	}
+
+	TametGreaves: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Tamet's Legs
+	}
+
+	TametCoat: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Tamet's Body
+	}
+
+	SnowmanHead: {
+		Tooltip: ""
+		DisplayName: Snowman Mask
+	}
+
+	RobotThomas: {
+		Tooltip: ""
+		DisplayName: TH0M45 Mask
+	}
+
+	RobotGuy: {
+		Tooltip: ""
+		DisplayName: GUY-M4N Mask
+	}
+
+	PirateSquidMask: {
+		Tooltip: ""
+		DisplayName: Squid Mask
+	}
+
+	PigronMask: {
+		Tooltip: ""
+		DisplayName: Pigron Mask
+	}
+
+	GasMask: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Gas's Mask
+	}
+
+	GasGreaves: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Gas's Greaves
+	}
+
+	GasCoat: {
+		Tooltip: "'Great for impersonating mod devs!'"
+		DisplayName: Gas's Coat
+	}
+
+	Flathat: {
+		Tooltip: ""
+		DisplayName: Flathat
+	}
+
+	EmperorMask: {
+		Tooltip: ""
+		DisplayName: Emperor Mask
+	}
+
+	DwarfHelmet: {
+		Tooltip: ""
+		DisplayName: Dwarf Helmet
+	}
+
+	CptClaw: {
+		Tooltip: ""
+		DisplayName: Capitan Cat Mask
+	}
+
+	ClaymanPot: {
+		Tooltip: Could it be protection from this cruel reality, or maybe just to hide the scars from this brutal planet.
+		DisplayName: Tar Man's Pot
+	}
+
+	BombLegs: {
+		Tooltip: ""
+		DisplayName: Minesweeper Leggins
+	}
+
+	BombHead: {
+		Tooltip: ""
+		DisplayName: Minesweeper Mask
+	}
+
+	BombBody: {
+		Tooltip: ""
+		DisplayName: Minesweeper Shirt
+	}
+
+	BombBlackLegs: {
+		Tooltip: ""
+		DisplayName: Minesweeper Leggins (Alt)
+	}
+
+	BombBlackHead: {
+		Tooltip: ""
+		DisplayName: Minesweeper Mask (Alt)
+	}
+
+	BombBlackBody: {
+		Tooltip: ""
+		DisplayName: Minesweeper Shirt (Alt)
+	}
+
+	Bandana: {
+		Tooltip: "'Prepare your molotovs!'"
+		DisplayName: Bandana
+	}
+
+	WildRootHammer: {
+		Tooltip: ""
+		DisplayName: Wild Root Hammer
+	}
+
+	ValhallitePickaxe: {
+		Tooltip: ""
+		DisplayName: Valhallite Pickaxe
+	}
+
+	ValhalliteHammer: {
+		Tooltip: ""
+		DisplayName: Valhallite Hammer
+	}
+
+	ValhalliteAxe: {
+		Tooltip: ""
+		DisplayName: Valhallite Axe
+	}
+
+	SpookyHammer: {
+		Tooltip: ""
+		DisplayName: Spooky Hammer
+	}
+
+	SpectreJacksaw: {
+		Tooltip: ""
+		DisplayName: Spectre Jacksaw
+	}
+
+	SpectreDrill: {
+		Tooltip: ""
+		DisplayName: Spectre Drill
+	}
+
+	RedFinMiningGlove: {
+		Tooltip: ""
+		DisplayName: "[Test] Red Fin Mining Glove"
+	}
+
+	PillagePickAxe: {
+		Tooltip: ""
+		DisplayName: Pillage Pick Axe
+	}
+
+	PillageHammer: {
+		Tooltip: ""
+		DisplayName: Pillage Hammer
+	}
+
+	NightPickaxe: {
+		Tooltip: ""
+		DisplayName: Shade Pickaxe
+	}
+
+	LivingSnowPickaxe: {
+		Tooltip: ""
+		DisplayName: Living Snow Pickaxe
+	}
+
+	LivingSnowHamaxe: {
+		Tooltip: ""
+		DisplayName: Living Snow Hamaxe
+	}
+
+	LightBook2: {
+		Tooltip: Creates great source of light that last 60 seconds
+		DisplayName: Greater Tome of Light
+	}
+
+	LightBook: {
+		Tooltip: Creates source of light that last 30 seconds
+		DisplayName: Tome of Light
+	}
+
+	JadeSaw: {
+		Tooltip: ""
+		DisplayName: "[Test] Jade Chainsaw"
+	}
+
+	JadePickaxe: {
+		Tooltip: ""
+		DisplayName: Jade Pickaxe
+	}
+
+	JadeDrill: {
+		Tooltip: ""
+		DisplayName: "[Test] Jade Drill"
+	}
+
+	JadeAxe: {
+		Tooltip: ""
+		DisplayName: Jade Axe
+	}
+
+	Hologram: {
+		Tooltip: Teleport to the last set hologram
+		DisplayName: Hologram Teleporter
+	}
+
+	GlassPicaxe: {
+		Tooltip: You need to fix your pickaxe!
+		DisplayName: Broken Glass Pickaxe
+	}
+
+	GlassHamaxe: {
+		Tooltip: Decreases your defense
+		DisplayName: Glass Hamaxe
+	}
+
+	FossilMiningGlove: {
+		Tooltip: ""
+		DisplayName: Fossil Mining Glove
+	}
+
+	ElfJacksaw: {
+		Tooltip: ""
+		DisplayName: Elf Jacksaw
+	}
+
+	DynastyHammer: {
+		Tooltip: ""
+		DisplayName: Dynasty Hammer
+	}
+
+	DryadWater: {
+		Tooltip: Spreads the Purity to some blocks
+		DisplayName: Dryad's Water
+	}
+
+	CorrosiveAcid: {
+		Tooltip: Kills plants and turns stone into Corrode Ore
+		DisplayName: Corrosive Acid
+	}
+
+	ChitinPickaxe: {
+		Tooltip: ""
+		DisplayName: "[Test] Chitin Pickaxe"
+	}
+
+	ChitinHammaxe: {
+		Tooltip: ""
+		DisplayName: "[Test] Chitin Hammaxe"
+	}
+
+	ChaosFlicker: {
+		Active: Teleports you to a random nearby location, most of the time...
+		Passive: 15% increased movement speed
+		Tooltip: ""
+		DisplayName: Chaos Flicker
+	}
+
+	AutoPwnhammer: {
+		Tooltip: Strong enough to destroy Demon Altars
+		DisplayName: Auto Pwnhammer
+	}
+
+	Test3: {
+		Tooltip: +4 orbs
+		DisplayName: "[Test] Test3"
+	}
+
+	Test2: {
+		Tooltip: +2 orbs
+		DisplayName: "[Test] Test2"
+	}
+
+	Test1: {
+		Tooltip:
+			'''
+			+1 Orb
+			Crit x10 (Summon additional x10)
+			'''
+		DisplayName: "[Test] Cursed!"
+	}
+
+	WeaponWorkshopT: {
+		Tooltip: ""
+		DisplayName: Tungsten Weapon Workshop
+	}
+
+	WeaponWorkshopS: {
+		Tooltip: ""
+		DisplayName: Silver Weapon Workshop
+	}
+
+	TerracottaWall: {
+		Tooltip: ""
+		DisplayName: Terracotta Wall
+	}
+
+	TarWall: {
+		Tooltip: ""
+		DisplayName: Tar Wall
+	}
+
+	SinstoneBrickWall: {
+		Tooltip: ""
+		DisplayName: Sinstone Brick Wall
+	}
+
+	KelpyHardenedSandWall: {
+		Tooltip: ""
+		DisplayName: Kelpy Hardened Sand Wall
+	}
+
+	ChargedPearlStoneWall: {
+		Tooltip: ""
+		DisplayName: Charged Pearl Stone Wall
+	}
+
+	BurntCobbleWall: {
+		Tooltip: ""
+		DisplayName: Burnt Cobble Wall
+	}
+
+	PirateSquidTrophy: {
+		Tooltip: ""
+		DisplayName: Squid Trophy
+	}
+
+	EmperorTrophy: {
+		Tooltip: ""
+		DisplayName: Emperor Trophy
+	}
+
+	ColdFatherTrophy: {
+		Tooltip: ""
+		DisplayName: Cold Father Trophy
+	}
+
+	Smelter: {
+		Tooltip: ""
+		DisplayName: Smelter
+	}
+
+	StarPlantPot: {
+		Tooltip:
+			'''
+			Grows everywhere
+			Stars can be collected only at night
+			'''
+		DisplayName: Star Plant Pot
+	}
+
+	SporePlantPot: {
+		Tooltip: Grows everywhere
+		DisplayName: Jungle Spores Plant Pot
+	}
+
+	RosePlantPot: {
+		Tooltip: Grows everywhere
+		DisplayName: Rose Plant Pot
+	}
+
+	MeteoritePlantPot: {
+		Tooltip: Grows everywhere
+		DisplayName: Meteorite Plant Pot
+	}
+
+	GemPlantPot: {
+		Tooltip: Grows in caves
+		DisplayName: Gem Plant Pot
+	}
+
+	YouAreNext: {
+		Tooltip: "'Gasstein'"
+		DisplayName: You Are Next
+	}
+
+	WhispersOfTheWisps: {
+		Tooltip: "'S. ValhallaMod'"
+		DisplayName: Whispers of the Wisps
+	}
+
+	UnderworldsVanity: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Underworld's Vanity
+	}
+
+	ToxicFriend: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Toxic Friend
+	}
+
+	SeaLevel: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Sea Level
+	}
+
+	RiseOfTheOldGod: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Rise of the Old God
+	}
+
+	PwnHammer: {
+		Tooltip: "'Gasstein'"
+		DisplayName: PwnHammer Deuce
+	}
+
+	MemoriesOfFire: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Memories Of Fire
+	}
+
+	HellUnderEarth: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Hell under Earth
+	}
+
+	HalloweenHarvestHorror: {
+		Tooltip: "'S. ValhallaMod'"
+		DisplayName: Halloween Harvest Horror
+	}
+
+	EyeOfTheEater: {
+		Tooltip: "'S. ValhallaMod'"
+		DisplayName: Eye of the Eater
+	}
+
+	DeathFromAbove: {
+		Tooltip: "'S. Tamet'"
+		DisplayName: Death from Above
+	}
+
+	ComingOfWinter: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Coming of Winter
+	}
+
+	BloodToIchor: {
+		Tooltip: "'S. Tamet'"
+		DisplayName: Blood To Ichor
+	}
+
+	AlbumTrilogy: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Pentalogy
+	}
+
+	AlbumTheWall: {
+		Tooltip: "'Gasstein'"
+		DisplayName: The Wall
+	}
+
+	AlbumSmallTown: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Small Town
+	}
+
+	AlbumRAM: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Read-Only Memories
+	}
+
+	AlbumOneHundredMornings: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Mornings 101
+	}
+
+	AlbumNevermind: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Nevermind
+	}
+
+	AlbumIgor: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Igor
+	}
+
+	AlbumEtazhi: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Floors
+	}
+
+	AlbumDemonDays: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Celestial Days
+	}
+
+	AlbumCross: {
+		Tooltip: "'Gasstein'"
+		DisplayName: Cross
+	}
+
+	MetalBrazier: {
+		Tooltip: Increases arrow damage by 10% when placed nearby
+		DisplayName: Metal Brazier
+	}
+
+	MarblePillarBroken: {
+		Tooltip: ""
+		DisplayName: Broken Marble Pillar
+	}
+
+	MarblePillar: {
+		Tooltip: ""
+		DisplayName: Marble Pillar
+	}
+
+	LiquidTankWater: {
+		Tooltip: ""
+		DisplayName: Liquid Tank
+	}
+
+	LiquidTankLava: {
+		Tooltip: ""
+		DisplayName: Lava Liquid Tank
+	}
+
+	LiquidTankHoney: {
+		Tooltip: ""
+		DisplayName: Honey Liquid Tank
+	}
+
+	LiquidTankChemical: {
+		Tooltip: ""
+		DisplayName: Chemical Liquid Tank
+	}
+
+	LiquidTank: {
+		Tooltip: ""
+		DisplayName: Liquid Tank
+	}
+
+	IceBrazier: {
+		Tooltip: Increases arrow damage by 10% when placed nearby
+		DisplayName: Ice Brazier
+	}
+
+	HologramMale: {
+		Tooltip: ""
+		DisplayName: Hologram (Male)
+	}
+
+	HologramFemale: {
+		Tooltip: ""
+		DisplayName: Hologram (Female)
+	}
+
+	EnchantingTable: {
+		Tooltip: ""
+		DisplayName: Enchanting Table
+	}
+
+	DwarfAnvil: {
+		DisplayName: Dwarven Anvil
+	}
+
+	WildRootDirt: {
+		Tooltip: ""
+		DisplayName: Rooted Dirt
+	}
+
+	ValhalliteBrick: {
+		Tooltip: ""
+		DisplayName: Valhallite Brick
+	}
+
+	ThunderstoneBrick: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunderstone Brick"
+	}
+
+	Thunderstone: {
+		Tooltip: ""
+		DisplayName: "[Test] Thundernite Ore"
+	}
+
+	Terracotta: {
+		Tooltip: ""
+		DisplayName: Terracotta Block
+	}
+
+	TarBrick: {
+		Tooltip: ""
+		DisplayName: Tar Brick
+	}
+
+	TarBlock: {
+		Tooltip: Sticky and very brown
+		DisplayName: Tar Block
+	}
+
+	PureTar: {
+		Tooltip: Sticky and quite flamable
+		DisplayName: Pure Tar
+	}
+
+	LivingSnowBlock: {
+		Tooltip: ""
+		DisplayName: Living Snow Block
+	}
+
+	HardGlassBlock: {
+		Tooltip: ""
+		DisplayName: Hardened Glass Block
+	}
+
+	LavaGrass: {
+		Tooltip: ""
+		DisplayName: "[Test] Lava Grass"
+	}
+
+	SporeGrass: {
+		Tooltip: ""
+		DisplayName: "[Test] Spore Grass"
+	}
+
+	Sporeshroom: {
+		Tooltip: It had a family, you know
+		DisplayName: "[Test] Sporeshroom"
+	}
+
+	ScorchedSulfur: {
+		Tooltip: Smells like burned rotten eggs
+		DisplayName: "[Test] Scorched Sulfur"
+	}
+
+	FieryBrimstone: {
+		Tooltip: It glows and stinks!
+		DisplayName: "[Test] Fiery Brimstone"
+	}
+
+	HellstoneRoof: {
+		Tooltip: ""
+		DisplayName: "[Test] HellstoneRoof"
+	}
+
+	BurntCobble: {
+		Tooltip: ""
+		DisplayName: Burnt Cobble
+	}
+
+	SinstoneMagma: {
+		Tooltip: ""
+		DisplayName: "[Test] Magma Sinstone"
+	}
+
+	SinstoneGem: {
+		Tooltip: ""
+		DisplayName: "[Test] Gemful Sinstone"
+	}
+
+	SinstoneBrick: {
+		Tooltip: ""
+		DisplayName: Sinstone Brick
+	}
+
+	Sinstone: {
+		Tooltip: ""
+		DisplayName: Sinstone
+	}
+
+	SandstoneAmber: {
+		Tooltip: ""
+		DisplayName: "[Test] Sandstone Amber Block"
+	}
+
+	KelpyHardenedSand: {
+		Tooltip: ""
+		DisplayName: "[Test] Kelpy Sand"
+	}
+
+	ScrapySand: {
+		Tooltip: ""
+		DisplayName: "[Test] Scrapy Sand"
+	}
+
+	UnderwaterStone: {
+		Tooltip: ""
+		DisplayName: "[Test] Underwater Stone"
+	}
+
+	HardenedCoral: {
+		Tooltip: ""
+		DisplayName: "[Test] Hardened Coral"
+	}
+
+	SeaScrap: {
+		Tooltip: Where has this metal come from
+		DisplayName: "[Test] Sea Scrap"
+	}
+
+	CorrodeBrick: {
+		Tooltip: ""
+		DisplayName: Corrode Brick
+	}
+
+	ChargedPearlstone: {
+		Tooltip: ""
+		DisplayName: "[Test] Charged Pearlstone"
+	}
+
+	WyvernStaff: {
+		Tooltip: Summons a wyvern to follow you
+		DisplayName: Wyvern Staff
+	}
+
+	PacketOfSquips: {
+		Tooltip: Summons an Little Squid Matey
+		DisplayName: Packet Of Squips
+	}
+
+	BubblySnack: {
+		Tooltip: Summons an Axolotl in a bubble
+		DisplayName: Bubbly Snack
+	}
+
+	ArrowPet: {
+		Tooltip: Summons a arrow to fight for you
+		DisplayName: "[Test] Homing Arrow"
+	}
+
+	WolfMount: {
+		Tooltip: Summons a rideable Wolf mount
+		DisplayName: Wolf Food
+	}
+
+	SnowSledKeys: {
+		Tooltip: Summons a rideable Snow Sled mount
+		DisplayName: Snow Sled Keys
+	}
+
+	BoarMount: {
+		Tooltip: Summons a rideable Boar mount
+		DisplayName: "[Test] Frosty Truffle"
+	}
+
+	WildRoot: {
+		Tooltip: A potent and durable piece of flora
+		DisplayName: Wild Root
+	}
+
+	ValhalliteOre: {
+		Tooltip: ""
+		DisplayName: Valhallite Ore
+	}
+
+	TreatedWood: {
+		Tooltip: Covered with a thick protective layer
+		DisplayName: Treated Wood
+	}
+
+	ToxicGel: {
+		Tooltip: Handle with care
+		DisplayName: Toxic Sludge
+	}
+
+	ThunderShard: {
+		Tooltip: You shouldn't have this pure power
+		DisplayName: "[Test] Thunder Shard"
+	}
+
+	RadiantBone: {
+		Tooltip: ""
+		DisplayName: "[Test] Radiant Bone"
+	}
+
+	PureGoldChunk: {
+		Tooltip: Can't get more karats than this
+		DisplayName: Pure Gold Chunk
+	}
+
+	LivingSnow: {
+		Tooltip: It winks back
+		DisplayName: Living Snow
+	}
+
+	JadeFragment: {
+		Tooltip: This piece of jade has been corrupted
+		DisplayName: Jade Shard
+	}
+
+	JadeCloth: {
+		Tooltip: ""
+		DisplayName: Imperial Cloth
+	}
+
+	HiveIngot: {
+		Tooltip: ""
+		DisplayName: Hive Ingot
+	}
+
+	GargoyleFeather: {
+		Tooltip: ""
+		DisplayName: Broken Gargoyle Wing
+	}
+
+	TarQuestFish: {
+		Tooltip: ""
+		DisplayName: Tar Fish
+	}
+
+	EvilIngot: {
+		Tooltip: ""
+		DisplayName: Evil Ingot
+	}
+
+	Emberbark: {
+		Tooltip: ""
+		DisplayName: "[Test] Emberbark"
+	}
+
+	DemonGem: {
+		Tooltip: ""
+		DisplayName: "[Test] Demon Gem"
+	}
+
+	DamagedBook: {
+		Tooltip: ""
+		DisplayName: Damaged Tome
+	}
+
+	CorrodeOre: {
+		Tooltip: ""
+		DisplayName: Corrode Ore
+	}
+
+	BrokenSpear: {
+		Tooltip: ""
+		DisplayName: Broken Hero Spear
+	}
+
+	BrokenPigronWing: {
+		Tooltip: ""
+		DisplayName: Broken Pigron Wing
+	}
+
+	BrokenGranitbur: {
+		Tooltip: ""
+		DisplayName: Broken Granitbur
+	}
+
+	BrokenGlaive: {
+		Tooltip: ""
+		DisplayName: Broken Hero Glaive
+	}
+
+	ValhalliteBar: {
+		Tooltip: Cold to the touch
+		DisplayName: Valhallite Bar
+	}
+
+	ThunderBar: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Bar"
+	}
+
+	SeaScrapBar: {
+		Tooltip: ""
+		DisplayName: "[Test] Sea Scrap Bar"
+	}
+
+	HardenedGlass: {
+		Tooltip: ""
+		DisplayName: Hardened Glass
+	}
+
+	CorrodeBar: {
+		Tooltip: Don't put this next to other bars, it might bite
+		DisplayName: Corrode Bar
+	}
+
+	AquaBar: {
+		Tooltip: ""
+		DisplayName: "[Test] Aqua Bar"
+	}
+
+	AncientDebris: {
+		Tooltip: ""
+		DisplayName: "[Test] Ancient Debris"
+	}
+
+	RoseIcon: {
+		Tooltip: ""
+		DisplayName: Rose
+	}
+
+	GoldenItem: {
+		Tooltip: ""
+		DisplayName: Golden Item
+	}
+
+	GemIcon2: {
+		Tooltip: ""
+		DisplayName: Gem
+	}
+
+	GemIcon: {
+		Tooltip: ""
+		DisplayName: Gem
+	}
+
+	ShinyBait: {
+		Tooltip: Summons the Colossal Carnage
+		DisplayName: Shiny Bait
+	}
+
+	SentryPlusPotion: {
+		Tooltip: Increased max number of sentries by 1
+		DisplayName: Guardian Potion
+	}
+
+	InfiniteManaPotion: {
+		Tooltip: Not Consumable
+		DisplayName: Infinite Mana Potion
+	}
+
+	HoneyPotion4: {
+		Tooltip: Heals and applies a sweet buff
+		DisplayName: Super Sweet Healing Potion
+	}
+
+	HoneyPotion3: {
+		Tooltip: Heals and applies a sweet buff
+		DisplayName: Greater Sweet Healing Potion
+	}
+
+	HoneyPotion2: {
+		Tooltip: Heals and applies a sweet buff
+		DisplayName: Sweet Healing Potion
+	}
+
+	HoneyPotion: {
+		Tooltip: Heals and applies a sweet buff
+		DisplayName: Lesser Sweet Healing Potion
+	}
+
+	FrostburnFlask: {
+		Tooltip: Melee  attacks set enemies on frostburn
+		DisplayName: "[Test] Flask of Frostburn"
+	}
+
+	DartPotion: {
+		Tooltip: 25% increased dart damage
+		DisplayName: Bullseye Potion
+	}
+
+	AuraPlusPotion: {
+		Tooltip: Increased max number of auras
+		DisplayName: Shamanism Potion
+	}
+
+	HellishRadish: {
+		Tooltip: Summons the Cragworm
+		DisplayName: "[Test] Hellish Radish"
+	}
+
+	HeavensSeal: {
+		Tooltip: Summons the Jade Emperor
+		DisplayName: Heaven's Seal
+	}
+
+	Starshroom: {
+		Tooltip: Can cause gravity anomalies
+		DisplayName: Starshroom
+	}
+
+	Sparkshroom: {
+		Tooltip: Can cause fires
+		DisplayName: Sparkshroom
+	}
+
+	BigSquidRings: {
+		Tooltip: 全ステータスが中程度強化
+		DisplayName: Pretty Big Squid Rings
+	}
+
+	PirateSquidBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag (Colossal Carnage)
+	}
+
+	GreatPresent: {
+		Tooltip:
+			'''
+			'It's tModLoader 64! Oh my god! Thank you, Santa!'
+			<right>で開く
+			'''
+		DisplayName: Great Present
+	}
+
+	EmperorBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag (Emperor)
+	}
+
+	BigFungusBag: {
+		Tooltip: <right>で開く
+		DisplayName: Treasure Bag (BigFungus)
+	}
+
+	WaterLegs: {
+		Tooltip: ""
+		DisplayName: "[Test] Water Legs"
+	}
+
+	WaterHead: {
+		Tooltip: ""
+		DisplayName: "[Test] Water Hood"
+	}
+
+	WaterBody: {
+		Tooltip: ""
+		DisplayName: "[Test] Water Chestplate"
+	}
+
+	ValhalliteLegs: {
+		Tooltip: ""
+		DisplayName: Valhallite Leggings
+	}
+
+	ValhalliteHead: {
+		Tooltip: ""
+		DisplayName: Vallhalite Mask
+	}
+
+	ValhalliteBody: {
+		Tooltip: ""
+		DisplayName: Vallhalite Armlets
+	}
+
+	ThunderLegs: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Leggins"
+	}
+
+	ThunderHead: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Helmet"
+	}
+
+	ThunderBody: {
+		Tooltip: ""
+		DisplayName: "[Test] Thunder Chestplate"
+	}
+
+	SniperLegs: {
+		Tooltip: 11% increased melee critical strike chance 9% increased melee attack speed
+		DisplayName: "[Test] Sniper Legs"
+	}
+
+	SniperHead: {
+		Tooltip: 20% increased ranged damage and critical strike chance
+		DisplayName: "[Test] Sniper Hat"
+	}
+
+	SniperBody: {
+		Tooltip: Increases armor penetration for ranged weapons by 20
+		DisplayName: "[Test] Sniper Armor"
+	}
+
+	ShroomiteHead: {
+		Tooltip:
+			'''
+			15% increased dart damage
+			5% increased ranged critical strike chance
+			'''
+		DisplayName: Shroomite Hood
+	}
+
+	OldBucket: {
+		Tooltip: ""
+		DisplayName: Ancient Bucket
+	}
+
+	LivingSnowLegs: {
+		Tooltip: ""
+		DisplayName: Living Snow Legs
+	}
+
+	LivingSnowHead: {
+		Tooltip: ""
+		DisplayName: Living Snow Helmet
+	}
+
+	LivingSnowBody: {
+		Tooltip: ""
+		DisplayName: Living Snow Tunic
+	}
+
+	JadeMask: {
+		Tooltip: 6% increased damage
+		DisplayName: Jade Dragon Mask
+	}
+
+	JadeLegs: {
+		Tooltip: 3% increased movement speed and critical strike
+		DisplayName: Jade Greaves
+	}
+
+	JadeHead: {
+		Tooltip: 10% increased movement speed
+		DisplayName: Jade Kabuto
+	}
+
+	JadeBody: {
+		Tooltip: 6% increased critical strike
+		DisplayName: Jade Cuirass
+	}
+
+	HiveMask: {
+		Tooltip:
+			'''
+			Increases minion damage by 8%
+			Increases your max number of minions by 1
+			'''
+		DisplayName: Hive Mask
+	}
+
+	HiveLegs: {
+		Tooltip:
+			'''
+			Increases minion damage by 10%
+			Increases your max number of minions by 1
+			'''
+		DisplayName: Hive Greaves
+	}
+
+	HiveHead: {
+		Tooltip: Increases minion damage by 12%
+		DisplayName: Hive Hat
+	}
+
+	HiveBody: {
+		Tooltip:
+			'''
+			Increases minion damage by 8%
+			Increases your max number of minions by 1
+			'''
+		DisplayName: Hive Breastplate
+	}
+
+	GreedyLegs: {
+		Tooltip:
+			'''
+			Reduces damage taken by 4%
+			20% increased movement speed
+			'''
+		DisplayName: Greedy Greaves
+	}
+
+	GreedyHead: {
+		Tooltip:
+			'''
+			Reduces damage taken by 4%
+			15% increased critical strike chance
+			'''
+		DisplayName: Greedy Mask
+	}
+
+	GreedyBody: {
+		Tooltip:
+			'''
+			Reduces damage taken by 5%
+			20% increased critical strike damage
+			'''
+		DisplayName: Greedy Tunic
+	}
+
+	GreediestLegs: {
+		Tooltip:
+			'''
+			Reduces damage taken by 7%
+			30% increased movement speed
+			'''
+		DisplayName: Greediest Greaves
+	}
+
+	GreediestHead: {
+		Tooltip:
+			'''
+			Reduces damage taken by 8%
+			30% increased critical strike chance
+			'''
+		DisplayName: Greediest Mask
+	}
+
+	GreediestBody: {
+		Tooltip:
+			'''
+			Reduces damage taken by 10%
+			40% increased critical strike damage
+			'''
+		DisplayName: Greediest Tunic
+	}
+
+	EvilLegs: {
+		Tooltip: 11% increased melee critical strike chance 9% increased melee attack speed
+		DisplayName: Evil Lord Leggins
+	}
+
+	EvilHead: {
+		Tooltip: Increases your max number of minions by 2
+		DisplayName: Evil Lord Helmet
+	}
+
+	EvilBody: {
+		Tooltip: 20% increased melee and minion damage
+		DisplayName: Evil Lord Chestplate
+	}
+
+	DynastyLegs: {
+		Tooltip: ""
+		DisplayName: Dynasty Leggins
+	}
+
+	DynastyHead: {
+		Tooltip: ""
+		DisplayName: Dynasty Helmet
+	}
+
+	DynastyBody: {
+		Tooltip: ""
+		DisplayName: Dynasty Chestplate
+	}
+
+	DuneLegs: {
+		Tooltip: ""
+		DisplayName: Crusader Leggins
+	}
+
+	DuneHead: {
+		Tooltip: ""
+		DisplayName: Crusader Helmet
+	}
+
+	DuneBody: {
+		Tooltip: ""
+		DisplayName: Crusader Chestplate
+	}
+
+	DruidHead: {
+		Tooltip:
+			'''
+			Increases minion damage by 4%
+			Increases maximum mana by 20
+			'''
+		DisplayName: "[Test] Rose Druid Hood"
+	}
+
+	DruidBody: {
+		Tooltip: Increases minion damage by 6%
+		DisplayName: "[Test] Rose Druid Robe"
+	}
+
+	CorrodeSword: {
+		Tooltip: Striking an enemy corrodes their armor
+		DisplayName: Corrode Sword
+	}
+
+	CorrodeMask: {
+		Tooltip:
+			'''
+			7% increased ranged damage
+			10% increased ranged critical strike chance
+			'''
+		DisplayName: Corrode Mask
+	}
+
+	CorrodeLegs: {
+		Tooltip:
+			'''
+			Increases armor penetration by 5
+			8% increased movement speed
+			'''
+		DisplayName: Corrode Leggins
+	}
+
+	CorrodeHood: {
+		Tooltip:
+			'''
+			10% increased magic damage and critical strike chance
+			12% reduced mana usage
+			'''
+		DisplayName: Corrode Hood
+	}
+
+	CorrodeHelmet: {
+		Tooltip:
+			'''
+			10% increased melee damage and speed
+			6% increased critical strike chance
+			'''
+		DisplayName: Corrode Hat
+	}
+
+	CorrodeHead: {
+		Tooltip: Increases minion damage by 12%
+		DisplayName: Corrode Headgear
+	}
+
+	CorrodeBody: {
+		Tooltip:
+			'''
+			Increases armor penetration by 5
+			7% increased damage
+			'''
+		DisplayName: Corrode Breastplate
+	}
+
+	PigronWings: {
+		Tooltip: Allows flight and slow fall
+		DisplayName: Pigron Wings
+	}
+
+	IcePillar: {
+		Tooltip: Allows flight and slow fall
+		DisplayName: Ice Pillar
+	}
+
+	GargoyleWings: {
+		Tooltip: Allows flight and slow fall
+		DisplayName: Gargoyle Wings
+	}
+
+	UnstableTeleportCore: {
+		Tooltip: "'Not fully tested!'"
+		DisplayName: Unstable Teleport Core
+	}
+
+	UniversalMagnifyingGlass: {
+		Tooltip: 5% increased magical critical strike damage and chance
+		DisplayName: Universal Magnifying Glass
+	}
+
+	TrueSight: {
+		Tooltip: Grants the ability to detect creatures, treasures and traps!
+		DisplayName: Gem of True Sight
+	}
+
+	TinOfTuna: {
+		Tooltip:
+			'''
+			10% increased magic damage
+			Fishing power increased by 10
+			Doubles bonuses during rain
+			'''
+		DisplayName: Tin of Tuna
+	}
+
+	TimeLens: {
+		Tooltip:
+			'''
+			Buffs and Debuffs last longer after walking out of aura's range
+			Increases your max number of auras
+			'''
+		DisplayName: Time Lens
+	}
+
+	TarJar: {
+		Tooltip: ""
+		DisplayName: Tar Jar
+	}
+
+	SummonerItem1: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 3
+			Decreases minion damage by 20%
+			'''
+		DisplayName: Summoner Item1
+	}
+
+	SquareRoot: {
+		Tooltip:
+			'''
+			Changes shape of auras into squares
+			Increases range of your auras by 20%
+			'''
+		DisplayName: Square Root
+	}
+
+	Spyglass: {
+		Tooltip: 25% increased critical strike damage
+		DisplayName: Spyglass
+	}
+
+	SpectreCape: {
+		Tooltip: After taking damage returns it to nearby enemies
+		DisplayName: Spectre Cape
+	}
+
+	SkullCuffs: {
+		Tooltip:
+			'''
+			Restores mana and increases magic abilities after being struck
+			Increases pickup range for star
+			'''
+		DisplayName: Celestial Skull Cuffs
+	}
+
+	SpaceHoppers: {
+		Tooltip: Reduces wearer's gravity
+		DisplayName: Space Hoppers
+	}
+
+	GroundCrashers: {
+		Active: Mods.ValhallaMod.Items.GroundCrashers.Active
+		Passive: Mods.ValhallaMod.Items.GroundCrashers.Passive
+		Tooltip: Reduces wearer's gravity
+		DisplayName: "[Nano] Ground Crashers"
+	}
+
+	CowboyBeeBoots: {
+		Tooltip: ""
+		DisplayName: "[Test] Cowboy Bee Boots"
+	}
+
+	ArtistBoots: {
+		Tooltip: ""
+		DisplayName: Artist Boots
+	}
+
+	RiotShield: {
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Grants 1 defense for each nearby enemy up to 15
+			'''
+		DisplayName: Riot Shield
+	}
+
+	NecroBuckler: {
+		Tooltip: ""
+		DisplayName: "[Test] Necro Buckler"
+	}
+
+	GlassShield: {
+		Tooltip: Grants 25 defense but you lose it after taking damage
+		DisplayName: Glass Shield
+	}
+
+	BlessedHeroShield: {
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Increases length of invincibility after taking damage
+			Absorbs 25% of damage done to players on your team when above 25% life
+			Enemies are more likely to target you
+			'''
+		DisplayName: Blessed Hero Shield
+	}
+
+	RestorationRose: {
+		Tooltip:
+			'''
+			8% reduced mana usage
+			Reduces the cooldown of healing potions by 5 seconds
+			Automatically use healing and mana potions when needed
+			'''
+		DisplayName: Restoration Rose
+	}
+
+	NightScope: {
+		Tooltip:
+			'''
+			Increases view range for guns (Right click to zoom out)
+			10% increased ranged damage and critical strike chance
+			Increases armor penetration for ranged weapons by 10
+			'''
+		DisplayName: Nightvision Sniper Scope
+	}
+
+	ManaForDummies: {
+		Tooltip:
+			'''
+			10% reduced mana usage
+			Increases maximum mana by 40
+			'''
+		DisplayName: Mana For Dummies
+	}
+
+	MagnetHorseshoe: {
+		Tooltip:
+			'''
+			Negates fall damage
+			Grants immunity to fire blocks
+			Slightly increases pickup range for mana stars and life hearts
+			'''
+		DisplayName: Magnet Horseshoe
+	}
+
+	LostPegleg: {
+		Tooltip:
+			'''
+			Increases melee damage up to 20% while moving
+			Increases ranged damage up to 20% while not moving
+			'''
+		DisplayName: Lost Pegleg
+	}
+
+	LifeFlower: {
+		Tooltip:
+			'''
+			Reduces the cooldown of healing potions by 5 seconds
+			Automatically use healing potions before death
+			'''
+		DisplayName: Life Flower
+	}
+
+	JadeElephant: {
+		Tooltip:
+			'''
+			Increases defense while in an aura
+			Increases your max number of auras by 1
+			'''
+		DisplayName: Jade Elephant
+	}
+
+	JadeBrooch: {
+		Tooltip: Summons a wall that protects your back
+		DisplayName: Jade Brooch
+	}
+
+	WellHook: {
+		Tooltip: ""
+		DisplayName: Quick Hook of Flesh
+	}
+
+	BeeHook: {
+		Tooltip: ""
+		DisplayName: Bee Hook
+	}
+
+	GoldenSpyglass: {
+		Tooltip:
+			'''
+			20% increased critical strike damage
+			10% increased critical strike chance
+			'''
+		DisplayName: Golden Spyglass
+	}
+
+	CursedSummonEmblem: {
+		Tooltip:
+			'''
+			25% increased minion damage
+			Decreases all other damage by 50%
+			'''
+		DisplayName: Cursed Summoner Emblem
+	}
+
+	CursedRangedEmblem: {
+		Tooltip:
+			'''
+			25% increased ranged damage
+			Decreases all other damage by 50%
+			'''
+		DisplayName: Cursed Ranger Emblem
+	}
+
+	CursedMeleeEmblem: {
+		Tooltip:
+			'''
+			25% increased melee damage
+			Decreases all other damage by 50%
+			'''
+		DisplayName: Cursed Warrior Emblem
+	}
+
+	CursedMagicEmblem: {
+		Tooltip:
+			'''
+			25% increased magic damage
+			Decreases all other damage by 50%
+			'''
+		DisplayName: Cursed Sorcerer Emblem
+	}
+
+	CrystalSkull: {
+		Tooltip:
+			'''
+			5% increased magical critical strike chance
+			Magic critical strikes restore some mana
+			'''
+		DisplayName: Crystal Skull
+	}
+
+	CondensedKnowledge: {
+		Tooltip:
+			'''
+			2% increased magic damage and critical strike chance
+			3% reduced mana usage
+			Automatically use mana potions when needed
+			Increases maximum mana by 20
+			'''
+		DisplayName: "[Test] Condensed Knowledge"
+	}
+
+	BlastProtectionVest: {
+		Tooltip: Decreases self damage
+		DisplayName: Blast Protection Vest
+	}
+
+	BerserkNeck: {
+		Tooltip: Increased melee abilities after being struck
+		DisplayName: Berserker's Necklace
+	}
+
+	BeeNecklace: {
+		Tooltip: Releases bees, douses the user in honey and increased movement speed, melee abilities after being struck
+		DisplayName: Honey Amok Necklace
+	}
+
+	AmokNecklace: {
+		Tooltip: Increased movement speed, melee abilities after being struck
+		DisplayName: Amok Necklace
+	}
+
+	ShivasGuard: {
+		Active: Emits a freezing wave that applies debuff that deals damage and increases magic damage taken by 15%
+		Passive: Increases maximum mana by 50 and applies mana regen buff to nearby allies
+		Tooltip: ""
+		DisplayName: Shiva's Guard
+	}
+
+	RocketPack: {
+		Active: Fires rockets that deals damage
+		Passive: Not available for now
+		Tooltip: ""
+		DisplayName: "[Test] Rocket Pack"
+	}
+
+	DropSpikyBall: {
+		Active: Drops spikes that deals damage
+		Passive: Not available for now
+		Tooltip: ""
+		DisplayName: "[Test] Spike Pack"
+	}
+
+	BouncingBrain: {
+		Active: Drops brain that bounces and deals damage
+		Passive: Not available for now
+		Tooltip: ""
+		DisplayName: "[Test] Bouncing Brain"
+	}
+}
+
+DamageClassName: {
+	PlanterDamageClass: magic (nature) damage
+	TechnicianDamageClass: ranged (scrap) damage
+	ScrapDamageClass: scrap damage
+	EngineerDamageClass: summon (scrap) damage
+	GunSummonerDamageClass: gun summoner damage
+	CultistDamageClass: cultist damage
+	TearDamageClass: tear damage
+	NatureDamageClass: nature damage
+	GardenerDamageClass: summon (nature) damage
+	OverlordDamageClass: melee-summon damage
+	AccessoryDamageClass: damage
+	MagicMarkerDamageClass: magic damage
+	GunwitchDamageClass: ranged-magic damage
+	BloodDamageClass: blood damage
+	WarlockDamageClass: magic (blood) damage
+	BerserkerDamageClass: melee (blood) damage
+}
+
+DamageClasses: {
+	PlanterDamageClass: {
+		DisplayName: magic (nature) damage
+	}
+
+	TechnicianDamageClass: {
+		DisplayName: ranged (scrap) damage
+	}
+
+	ScrapDamageClass: {
+		DisplayName: scrap damage
+	}
+
+	EngineerDamageClass: {
+		DisplayName: summon (scrap) damage
+	}
+
+	GunSummonerDamageClass: {
+		DisplayName: gun summoner damage
+	}
+
+	CultistDamageClass: {
+		DisplayName: cultist damage
+	}
+
+	TearDamageClass: {
+		DisplayName: tear damage
+	}
+
+	NatureDamageClass: {
+		DisplayName: nature damage
+	}
+
+	GardenerDamageClass: {
+		DisplayName: summon (nature) damage
+	}
+
+	OverlordDamageClass: {
+		DisplayName: melee-summon damage
+	}
+
+	AccessoryDamageClass: {
+		DisplayName: damage
+	}
+
+	MagicMarkerDamageClass: {
+		DisplayName: magic-summon damage
+	}
+
+	GunwitchDamageClass: {
+		DisplayName: ranged-magic damage
+	}
+
+	BloodDamageClass: {
+		DisplayName: blood damage
+	}
+
+	WarlockDamageClass: {
+		DisplayName: magic (blood)
+	}
+
+	BerserkerDamageClass: {
+		DisplayName: melee (blood)
+	}
+}
+
+Buffs: {
+	AuraLifeRegen2: {
+		Description: Mods.ValhallaMod.Buffs.AuraLifeRegen2.Description
+		DisplayName: Aura Life Regen2
+	}
+
+	AuraLifeRegen: {
+		Description: Mods.ValhallaMod.Buffs.AuraLifeRegen.Description
+		DisplayName: Aura Life Regen
+	}
+
+	Decoy: {
+		DisplayName: Decoy
+		Description: Mods.ValhallaMod.Buffs.Decoy.Description
+	}
+
+	TiedDebuff: {
+		Description: Mods.ValhallaMod.Buffs.TiedDebuff.Description
+		DisplayName: Tied Debuff
+	}
+
+	CloudMountBuff: {
+		Description: Mods.ValhallaMod.Buffs.CloudMountBuff.Description
+		DisplayName: Cloud Mount Buff
+	}
+
+	TheRocketReady: {
+		Description: Mods.ValhallaMod.Buffs.TheRocketReady.Description
+		DisplayName: The Rocket Ready
+	}
+
+	TheRocket: {
+		Description: Mods.ValhallaMod.Buffs.TheRocket.Description
+		DisplayName: The Rocket
+	}
+
+	Frozen2: {
+		Description: Mods.ValhallaMod.Buffs.Frozen2.Description
+		DisplayName: Frozen2
+	}
+
+	FlyingElitesMinion: {
+		Description: ""
+		DisplayName: Flying Elites Minion
+	}
+
+	GroundCrash: {
+		Description: Mods.ValhallaMod.Buffs.GroundCrash.Description
+		DisplayName: Ground Crash
+	}
+
+	HarpyBowBuff: {
+		Description: Increased strength of Harpy Bows
+		DisplayName: Harpy Take Off
+	}
+
+	ArmletOfMordiggian: {
+		Description: "{0}% increased melee and blood damage"
+		DisplayName: Armlet Of Mordiggian
+	}
+
+	Bloodstone: {
+		Description: Mods.ValhallaMod.Buffs.Bloodstone.Description
+		DisplayName: Bloodstone
+	}
+
+	BackupMagazine: {
+		Description: "{0}% chance not to consume bullets"
+		DisplayName: Backup Magazine
+	}
+
+	WhipCooldown: {
+		DisplayName: Whip Cooldown
+		Description: Can't use whip special attack
+	}
+
+	RopeWhipDebuff: {
+		DisplayName: Rope Whip Debuff
+		Description: Mods.ValhallaMod.Buffs.RopeWhipDebuff.Description
+	}
+
+	TentaslapDebuff: {
+		Description: Mods.ValhallaMod.Buffs.TentaslapDebuff.Description
+		DisplayName: Tentaslap Debuff
+	}
+
+	DamoclesPet: {
+		Description: Mods.ValhallaMod.Buffs.DamoclesPet.Description
+		DisplayName: Damocles Pet
+	}
+
+	BrokenScreen: {
+		Description: Mods.ValhallaMod.Buffs.BrokenScreen.Description
+		DisplayName: Broken Screen
+	}
+
+	TheFear: {
+		Description: Mods.ValhallaMod.Buffs.TheFear.Description
+		DisplayName: The Fear
+	}
+
+	Draw: {
+		Description: Mods.ValhallaMod.Buffs.Draw.Description
+		DisplayName: Draw
+	}
+
+	SolPet: {
+		Description: Mods.ValhallaMod.Buffs.SolPet.Description
+		DisplayName: Sol Pet
+	}
+
+	MagicVulnerability: {
+		Description: Mods.ValhallaMod.Buffs.MagicVulnerability.Description
+		DisplayName: Magic Vulnerability
+	}
+
+	PlantFood: {
+		Description: Increased nature weapon damage, speed and crit chance
+		DisplayName: Plant Food
+	}
+
+	BulbaProtectionBuff: {
+		Description: Increases defense and movement speed
+		DisplayName: Bulba Protection Buff
+	}
+
+	TricksterCloak: {
+		Description: Grants invisibility and movement speed
+		DisplayName: Trickster Cloak
+	}
+
+	BootsManaRegen: {
+		Description: Mana regeneration increased
+		DisplayName: Boots Mana Regen
+	}
+
+	PaintedDebuff: {
+		Description: Mods.ValhallaMod.Buffs.PaintedDebuff.Description
+		DisplayName: Painted Debuff
+	}
+
+	OverheatedBuff: {
+		Description: Increase attack and movement speed
+		DisplayName: Overheated Buff
+	}
+
+	DamageDeley: {
+		Description: Mods.ValhallaMod.Buffs.DamageDeley.Description
+		DisplayName: Damage Deley
+	}
+
+	ShortswordCooldown: {
+		Description: Can't use shortsword special effect
+		DisplayName: Shortsword Cooldown
+	}
+
+	WidowsWhipDebuff: {
+		Description: Mods.ValhallaMod.Buffs.WidowsWhipDebuff.Description
+		DisplayName: Widows Whip Debuff
+	}
+
+	TitaniumBianDebuff: {
+		Description: Mods.ValhallaMod.Buffs.TitaniumBianDebuff.Description
+		DisplayName: Titanium Bian Debuff
+	}
+
+	RippleDebuff: {
+		Description: Mods.ValhallaMod.Buffs.RippleDebuff.Description
+		DisplayName: Ripple Debuff
+	}
+
+	LizhlashWhipDebuff: {
+		Description: Mods.ValhallaMod.Buffs.LizhlashWhipDebuff.Description
+		DisplayName: Lizhlash Whip Debuff
+	}
+
+	LizhlashDebuff: {
+		Description: Mods.ValhallaMod.Buffs.LizhlashDebuff.Description
+		DisplayName: Lizhlash Debuff
+	}
+
+	ForbiddenCrescentDebuff: {
+		Description: Mods.ValhallaMod.Buffs.ForbiddenCrescentDebuff.Description
+		DisplayName: Forbidden Crescent Debuff
+	}
+
+	BambooWhipDebuff: {
+		Description: Mods.ValhallaMod.Buffs.BambooWhipDebuff.Description
+		DisplayName: Bamboo Whip Debuff
+	}
+
+	AdamantiteUrumiDebuff: {
+		Description: Mods.ValhallaMod.Buffs.AdamantiteUrumiDebuff.Description
+		DisplayName: Adamantite Urumi Debuff
+	}
+
+	JavelinDebuff: {
+		Description: Mods.ValhallaMod.Buffs.JavelinDebuff.Description
+		DisplayName: Javelin Debuff
+	}
+
+	Pill: {
+		Description: Mods.ValhallaMod.Buffs.Pill.Description
+		DisplayName: Pill
+	}
+
+	BrokenShield: {
+		Description: Mods.ValhallaMod.Buffs.BrokenShield.Description
+		DisplayName: Broken Shield
+	}
+
+	BrazierBuff: {
+		Description: 10% increased arrow damage
+		DisplayName: Brazier Buff
+	}
+
+	SwordCooldown: {
+		Description: Cannot use special function of your swords and maces
+		DisplayName: Alt Attack Cooldown
+	}
+
+	GunCooldown: {
+		Description: Cannot use special function of your guns
+		DisplayName: Alt Attack Cooldown
+	}
+
+	RocketMountBuff: {
+		Description: Nothing here to see. Bye!
+		DisplayName: "[Test] Rocket Mount Buff"
+	}
+
+	MetalBrazierBuff: {
+		Description: 10% increased arrow damage
+		DisplayName: Metal Brazier
+	}
+
+	IceBrazierBuff: {
+		Description: 10% increased arrow damage
+		DisplayName: Ice Brazier
+	}
+
+	HeliosFlameBuff: {
+		Description: Increased movement speed and damage
+		DisplayName: Helios Flame
+	}
+
+	TarDebuff: {
+		Description: Reduced defense by 10 and movement speed by 15%
+		DisplayName: Tar Debuff
+	}
+
+	SupportBannerEvilBuff: {
+		Description: Increased movement speed, damage and regeneration
+		DisplayName: Support Banner
+	}
+
+	SupportBannerBuff: {
+		Description: Increased movement speed, damage and regeneration
+		DisplayName: Support Banner
+	}
+
+	SugarRush: {
+		Description: 25% increased movement
+		DisplayName: Sugar Rush
+	}
+
+	StardustDebuff: {
+		Description: Mods.ValhallaMod.Buffs.StardustDebuff.Description
+		DisplayName: Stardust Skull Debuff
+	}
+
+	StardustBuff: {
+		Description: Increased movement speed, damage and defense
+		DisplayName: Stardust Strength
+	}
+
+	SpaceDebuff: {
+		Description: Low gravity and loss of oxygen
+		DisplayName: Free Roaming
+	}
+
+	SlowDebuff: {
+		Description: Mods.ValhallaMod.BuffDescription.SlowDebuff
+		DisplayName: Slow
+	}
+
+	SentryPlusBuff: {
+		Description: Increased max number of sentries
+		DisplayName: Guardian
+	}
+
+	RadianceDebuff: {
+		Description: Slowly losing life
+		DisplayName: Radiance Burn
+	}
+
+	WyvernPet: {
+		Description: An wyvern is following you
+		DisplayName: Wyvern
+	}
+
+	PumpkinLightPet: {
+		Description: Spooky!
+		DisplayName: Pumpkin Lights
+	}
+
+	LittleMateyPet: {
+		Description: A little matey is following you
+		DisplayName: Little Squid Matey
+	}
+
+	CommandoPet: {
+		Description: ..and so he left, with everything but his humanity.
+		DisplayName: Little Commando
+	}
+
+	AxolotlPet: {
+		Description: An axolotl is following you
+		DisplayName: Axolotl in a bubble
+	}
+
+	ArrowPet: {
+		Description: "'Come a little bit closer!'"
+		DisplayName: Homing Arrow
+	}
+
+	ObuchDebuff: {
+		Description: Mods.ValhallaMod.BuffDescription.ObuchDebuff
+		DisplayName: Obuch Break
+	}
+
+	WolfMountBuff: {
+		Description: Don't hunt alone!
+		DisplayName: Forest Wolf Mount
+	}
+
+	SnowSledMountBuff: {
+		Description: Don't hunt alone!
+		DisplayName: Snow Sled Mount
+	}
+
+	BoarMountBuff: {
+		Description: Don't hunt alone!
+		DisplayName: Boar Mount
+	}
+
+	VoodooDevilMinion: {
+		Description: The voodoo devils will fight for you
+		DisplayName: Voodoo Devil
+	}
+
+	TerrorTomatoesMinion: {
+		Description: The cacodemon will fight for you
+		DisplayName: Terror Tomato
+	}
+
+	SpikyOrbMinion: {
+		Description: The jade orbs will fight for you
+		DisplayName: Jade Orb
+	}
+
+	SnowDropperMinion: {
+		Description: The snow dropper will fight for you
+		DisplayName: Snow Dropper
+	}
+
+	SludgeMinion: {
+		Description: The sludge will fight for you
+		DisplayName: Sludge
+	}
+
+	PumpkingMinion: {
+		Description: The Pumpking Jr. will fight for you
+		DisplayName: Pumpking Jr.
+	}
+
+	ParrotMinion: {
+		Description: The parrots will fight for you
+		DisplayName: Parrot
+	}
+
+	NimbusMinion: {
+		Description: The nimbuses will fight for you
+		DisplayName: Nimbus
+	}
+
+	MossHornetMinion: {
+		Description: The moss hornets will fight for you
+		DisplayName: Moss Hornet
+	}
+
+	JadeOrbMinion: {
+		Description: The jade orbs will fight for you
+		DisplayName: Jade Orb
+	}
+
+	ImpMinion: {
+		Description: The minion will fight for you
+		DisplayName: Minion
+	}
+
+	FireOrbMinion: {
+		Description: The fire orbs will fight for you
+		DisplayName: Fire Orb
+	}
+
+	LowGravityBuff: {
+		Description: Jump higher, fall slower
+		DisplayName: Low Gravity
+	}
+
+	LeafShieldBuff: {
+		Description: Increased defense
+		DisplayName: Leaf Shield
+	}
+
+	JumpEffect: {
+		Description: You steped on the jump pad
+		DisplayName: High Jump Effect
+	}
+
+	JadeElephantBuff: {
+		Description: Defense increased by 20
+		DisplayName: Jade Elephant
+	}
+
+	InvokerBuff: {
+		Description: Increased magic abilities
+		DisplayName: Invoker Buff
+	}
+
+	InkDebuff: {
+		Description: Decreased vision and movement speed
+		DisplayName: Inked
+	}
+
+	IceBurnDebuff: {
+		Description: Losing life!
+		DisplayName: Shiva's Burn
+	}
+
+	RadianceBuff: {
+		Description: Scorches nearby enemies
+		DisplayName: Radiance - Active
+	}
+
+	GlassDebuff: {
+		Description: Defense decreased by {0}
+		DisplayName: Glass Cannon
+	}
+
+	GlassShieldBuff: {
+		Description: Defense increased by 25
+		DisplayName: Glass Shield
+	}
+
+	FrostburnFlask: {
+		Description: Melee attacks cause frostburn
+		DisplayName: Weapon Imbue Frostburn
+	}
+
+	PartyBuff: {
+		Description: "'A little party never killed nobody'"
+		DisplayName: Party Buff
+	}
+
+	CritHitBuff: {
+		Description: Hit
+		DisplayName: Hit Effect
+	}
+
+	DefenseDebuff: {
+		Description: Mods.ValhallaMod.BuffDescription.DefenseDebuff
+		DisplayName: Jungle Defense Debuff
+	}
+
+	DefenseBuff: {
+		Description: Increase defense
+		DisplayName: Jungle Defense Buff
+	}
+
+	DartBuff: {
+		Description: 25% increased dart damage
+		DisplayName: Bullseye
+	}
+
+	CorrodeShieldBuff: {
+		Description: Defense increased
+		DisplayName: Corrode Shield
+	}
+
+	CorrodeDebuff: {
+		Description: Damage taken increased by 10%
+		DisplayName: Corrosive Haze
+	}
+
+	PhoenixCooldown: {
+		Description: Mods.ValhallaMod.Buffs.PhoenixCooldown.Description
+		DisplayName: Phoenix Cooldown
+	}
+
+	HologramCooldown: {
+		Description: Can not use anymore Hologram!
+		DisplayName: Hologram Cooldown
+	}
+
+	GlassShieldCooldown: {
+		Description: No defense granted
+		DisplayName: Broken Glass Shield
+	}
+
+	CooldownScales: {
+		Description: Cannot use special attack of Sacred Scales
+		DisplayName: Sacred Scales Cooldown
+	}
+
+	ActiveAccessoryCooldown: {
+		Description: Cannot use active accessories
+		DisplayName: Active accessory cooldown
+	}
+
+	CobaltShieldBuff: {
+		Description: Grants immunity to knockback and increases defense
+		DisplayName: Cobalt Titan
+	}
+
+	VineCircle: {
+		Description: Deals damage to nearby enemies
+		DisplayName: Vine
+	}
+
+	BlurBuff: {
+		Description: Gives a chance to dodge attacks
+		DisplayName: Blur
+	}
+
+	BloodLustBuff: {
+		Description: Increased movement and melee speed
+		DisplayName: Blood Lust
+	}
+
+	BerserkMBuff: {
+		Description: Increased magic abilities
+		DisplayName: Warlock's Buff
+	}
+
+	BerserkBuff: {
+		Description: Increased melee
+		DisplayName: Fallen Berserker's Buff
+	}
+
+	AuraPlusBuff: {
+		Description: Increased max number of auras
+		DisplayName: Shamanism
+	}
+
+	AuraHealBuff2: {
+		Description: Life regeneration is increased
+		DisplayName: Greater Healing
+	}
+
+	AuraHealBuff: {
+		Description: Life regeneration is increased
+		DisplayName: Healing
+	}
+
+	ArcaneDebuff: {
+		Description: Mods.ValhallaMod.BuffDescription.ArcaneDebuff
+		DisplayName: Arcane Weakness
+	}
+}
+
+Biomes: {
+	TarBiome: {
+		TownNPCDialogueName: the Tar Biome
+		DisplayName: Tar Cavern
+	}
+}
+
+CommonItemTooltip: {
+	Longbows: Hold to charge up your next shot
+}
+
+Text: {
+	Ahoy: Ahoy!
+}
+

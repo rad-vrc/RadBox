@@ -1,0 +1,2392 @@
+Configs: {
+	Headers: {
+		Advanced: 上級者向け
+		Beta: ベータ機能
+		Buff: バフ
+		Control: 操作
+		CrossMods: 連携MOD
+		Gameplay: ゲームプレイ調整
+		ItemClient: アイテム（ツールチップ・使用）
+		ItemTweaks: アイテム調整
+		NPCDrop: NPCドロップ調整
+		Recipe: レシピ
+		Projectile: 飛び道具
+		UI: インターフェース・描画
+		WorldGen: ワールド生成
+	}
+
+	Client: {
+		Title: クライアント設定
+		Buff_ExtraSlots_Label: "[i:289] 追加バフスロット"
+		Buff_ExtraSlots_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: 5
+			'''
+		Item_Favorite_Label: "[i:75] お気に入りアイテムの表示"
+		Item_Favorite_Tooltip:
+			'''
+			マーク: アイテム名の後にお気に入りマーク（星）を追加
+			2行ツールチップ: バニラと同じ
+			1行ツールチップ: 「お気に入りとしてマーク済み」のみ表示
+			デフォルト: 「マークのみ」
+			'''
+		Item_ThrowableAmmo_Label: "[i:949] 投げられる弾薬のツールチップ"
+		Item_ThrowableAmmo_Tooltip:
+			'''
+			手で投げることができる弾薬のツールチップを「弾薬」から「（弾薬）」に変更
+			デフォルト: ON
+			'''
+		Item_HookTip_Label: "[i:84] フックのツールチップ"
+		Item_HookTip_Tooltip:
+			'''
+			フックにツールチップを追加
+			デフォルト: ON
+			'''
+		Item_RemoveAccVanityTip_Label: "[i:158] アクセサリーの装飾ツールチップを削除"
+		Item_RemoveAccVanityTip_Tooltip:
+			'''
+			「装飾スロットに装備可能」のツールチップを削除
+			サーバー設定「全アクセサリーを装飾スロットに装備可能」がONの場合に利用可能
+			デフォルト: OFF
+			'''
+		Item_ModName_Label: アイテムツールチップにMOD名を表示
+		Item_ModName_Tooltip:
+			'''
+			ツールチップの最後の行にMOD名を追加
+			バニラアイテムには影響しません
+			デフォルト: ON
+			'''
+		Item_RecoilUsesEndlessMusketPouch_Label: "[i:BlewsKyORmAd/RecoilSlug] リコイルスラッグが無限マスケット弾袋を優先使用するか"
+		Item_RecoilUsesEndlessMusketPouch_Tooltip:
+			'''
+			リコイルスラッグの発射には弾薬が必要
+			ONにすると、プレイヤーが無限マスケット弾袋を持っている場合、リコイルスラッグがそれを選択
+			デフォルト: ON
+			'''
+		Item_ChemicalsOpacity1_Label: "[i:BlueSkyOre/EmptyFlask] 薬品表示の透明度"
+		Item_ChemicalsOpacity1_Tooltip:
+			'''
+			[0.25 - 1.00]
+			マウスカーソル上に表示される薬品アイテムの透明度
+			薬品と組み合わせ可能な化学ダメージ武器を持っている場合のみ表示
+			値が小さいほど透明
+			デフォルト: 1.0
+			'''
+		Item_ChemicalsOpacity2_Label: 薬品表示の透明度（UI上でのカーソル）
+		Item_ChemicalsOpacity2_Tooltip:
+			'''
+			[0.00 - 0.75]
+			UI上でカーソルが重なった時の薬品表示の透明度
+			薬品と組み合わせ可能な化学ダメージ武器を持っている場合のみ表示
+			値が小さいほど透明
+			デフォルト: 0.5
+			'''
+		Control_SmartSelect_Label: 一部のMODアイテムのスマートセレクトを無効化
+		Control_SmartSelect_Tooltip:
+			'''
+			一部のアイテムの操作にはShiftキーを押す必要があります
+			このオプションは、アイテムがホットバーにある場合に便利です
+			デフォルト: ON
+			'''
+		Control_QuickHealWithAnotherPotion_Label: "[i:BlewsKyORmAd/AnotherLesserHealingPotion] クイックヒールでアナザーヒーリングポーションを使用"
+		Control_QuickHealWithAnotherPotion_Tooltip: デフォルト: OFF
+		Control_RightClickOpen_Label: "[i:3093] アイテムを開く操作"
+		Control_RightClickOpen_Tooltip:
+			'''
+			アイテムを開く操作をここで変更できます
+			デフォルト: 「右クリック」
+			'''
+		Control_ShiftControlTrash_Label: "[i:48] チェストアイテムを直接削除"
+		Control_ShiftControlTrash_Tooltip:
+			'''
+			ShiftキーとControlキーを押しながらクリックして、チェスト内のアイテムを削除可能
+			デフォルト: OFF
+			'''
+		UI_GameTipsModName_Label: このMODが追加したヒントのテキストの前に「Blue Sky Ore Mod」を追加
+		UI_GameTipsModName_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		UI_IconInWorldSelection_Label: ワールド選択メニューで、このMODで生成されたワールドにアイコンを表示
+		UI_IconInWorldSelection_Tooltip: デフォルト: ON
+		UI_Bestiary_Label: "[i:4767] 図鑑表示中にゲームを一時停止"
+		UI_Bestiary_Tooltip:
+			'''
+			マルチプレイヤーでは効果がありません
+			デフォルト: ON
+			'''
+		UI_CountExtra_Label: エクストラ実績を合計にカウントするか
+		UI_CountExtra_Tooltip:
+			'''
+			有効にすると、実績の進行度計算にエクストラ難易度実績を含めます
+			デフォルト: OFF
+			'''
+		UI_MeteoCrasherIcon_Label: "[i:BlewsKyORmAd/MeteoriteCrasher] メテオライトクラッシャーの設置状況を表示"
+		UI_MeteoCrasherIcon_Tooltip:
+			'''
+			有効にすると、メテオライトクラッシャーが設置されている間、インベントリを開いた時にアイテムアイコンが表示されます
+			デフォルト: ON
+			'''
+		UI_Map_FloatingItem_Label: "[i:1315] マップ上に浮遊アイテムの位置を表示"
+		UI_Map_FloatingItem_Tooltip: デフォルト: ON
+		UI_Map_RareItem_Label: "[i:1315] マップ上にドロップしたレアアイテムの位置を表示"
+		UI_Map_RareItem_Tooltip:
+			'''
+			以下のアイテムがドロップしたレアアイテムとして定義されています:
+			- エキスパートアイテム
+			- マスターアイテム
+			- 一部のボスドロップ
+			- 溶岩チャーム
+			- 全てのソウル
+			- ロッド・オブ・ディスコード
+			- バイオームキー
+			- 各ピラーフラグメント
+			- 一部のBlue Sky Ore Modアイテム
+			デフォルト: ON
+			'''
+		UI_MapPinDistance_Label: マップ上のピン留めした場所への距離を表示
+		UI_MapPinDistance_Tooltip: デフォルト: OFF
+		UI_AntennaDistance_Label: トランシーバー選択時にパラボラアンテナまでの距離を表示
+		UI_AntennaDistance_Tooltip: デフォルト: OFF
+		CrossMod_ItemChecklist_HideUnrecommendedItems_Label: Item Checklist: 非推奨アイテムを非表示
+		CrossMod_ItemChecklist_HideUnrecommendedItems_Tooltip:
+			'''
+			[再読み込み必要]
+			Item ChecklistMODが有効な場合のみ動作
+			作者が失敗作または良くないアイデアと考えるアイテムをItem ChecklistMODから非表示
+			デフォルト: ON
+			'''
+		CrossMod_AutoTrash_AdjAddInvSlotPosition_Label: Auto Trash: 追加インベントリスロットの位置を調整
+		CrossMod_AutoTrash_AdjAddInvSlotPosition_Tooltip:
+			'''
+			Auto TrashMODが有効な場合のみ動作
+			Auto Trashのスロットのデフォルト位置に基づいて位置を調整
+			Auto Trashでデフォルト設定を使用している場合は有効にすることを推奨
+			デフォルト: ON
+			'''
+		CrossMod_BossChecklist_AdjMenuButtonPosition_Label: Boss Checklist: Blue Sky Ore Modメニューボタンの位置を調整
+		CrossMod_BossChecklist_AdjMenuButtonPosition_Tooltip:
+			'''
+			Boss ChecklistMODが有効な場合のみ動作
+			Boss Checklistの本ボタンのデフォルト位置に基づいて位置を調整
+			Boss Checklistでデフォルト設定を使用している場合は有効にすることを推奨
+			デフォルト: ON
+			'''
+		CrossMod_DialoguePanelRework_NurseShop_Label: Dialogue Panel Rework: ナースショップボタン
+		CrossMod_DialoguePanelRework_NurseShop_Tooltip:
+			'''
+			[上級者向けオプション]
+			[再読み込み必要]
+			Dialogue Panel ReworkMODが有効な場合のみ動作
+			有効にすることを推奨
+			（Blue Sky Ore ModとDialogue Panel Reworkの間で問題が発生した場合のみ無効化）
+			デフォルト: ON
+			'''
+		Item_TextureSwap_Label: 一部のバニラアイテムのテクスチャを置き換え
+		Item_TextureSwap_Tooltip:
+			'''
+			[再読み込み必要]
+			対応アイテムのテクスチャが置き換えられている場合、常に正しく表示されます
+			問題が発生した場合（特に読み込み問題）は無効にすることを推奨
+			デフォルト: ON
+			'''
+		UI_MapPinTile_Label: タイルレイヤーにマップピンを表示
+		UI_MapPinTile_Tooltip:
+			'''
+			マップピンがブロックのように表示されます
+			デフォルト: OFF
+			'''
+		UI_ChooseMediumWorldByDefault_Label: ワールド作成UIでデフォルトで「中」サイズを選択
+		UI_ChooseMediumWorldByDefault_Tooltip: デフォルト: ON
+		Item_Unconsumable_Label: 一部の非消費アイテムのツールチップに「消費されない」を表示するか
+		Item_Unconsumable_Tooltip:
+			'''
+			一部のMODアイテムが消費されないかどうかを理解するのが困難な場合があります
+			基本的にはアイテムの最大スタック数から確認できますが、このオプションで明確にできます
+			デフォルト: OFF
+			'''
+		UI_NoHitLifeRegenShield_Label:
+			'''
+			無被弾ライフ再生シールドの表示スタイル
+
+			'''
+		UI_NoHitLifeRegenShield_Tooltip: デフォルト: 「常時」
+	}
+
+	Server: {
+		Title: サーバー設定
+		Game_FastRespawn_Label: "[i:3099] 高速リスポーン"
+		Game_FastRespawn_Tooltip:
+			'''
+			以下の条件でリスポーン時間を短縮:
+			- 近くにボスがいない場合（50%短縮）
+			- マルチプレイヤーで近くにボスがいる場合（25%短縮）
+			PvPには影響しません
+			デフォルト: ON
+			'''
+		Game_PirateSpawnCondition_Label: "[i:672] 海賊侵攻の発生条件を変更"
+		Game_PirateSpawnCondition_Tooltip:
+			'''
+			ONにすると、機械系ボスを少なくとも1体倒した後に海賊侵攻が発生
+			デフォルト: OFF
+			'''
+		Item_AllAccessoriesEquipableOnVanity_Label: "[i:158] 全アクセサリーを装飾スロットに装備可能"
+		Item_AllAccessoriesEquipableOnVanity_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Item_FloatingCloud_Label: "[i:751] 雲を浮遊させる"
+		Item_FloatingCloud_Tooltip:
+			'''
+			[再読み込み必要]
+			雲アイテム（雲、雨雲、雪雲）を浮遊させます
+			デフォルト: ON
+			'''
+		Item_LavaSourceVolcano_Label: "[i:4869] 大型火山を溶岩源にするか"
+		Item_LavaSourceVolcano_Tooltip:
+			'''
+			[再読み込み必要]
+			ONにすると、大型火山を溶岩が必要なクラフトに使用可能
+			デフォルト: ON
+			'''
+		Item_Excalibur_Label: "[i:368] エクスカリバーを強化"
+		Item_Excalibur_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Item_TrueExcalibur_Label: "[i:674] トゥルーエクスカリバーを強化"
+		Item_TrueExcalibur_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Item_TerraBlade_Label: "[i:757] テラブレードを強化"
+		Item_TerraBlade_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Item_SuperStarShooter_Label: "[i:4060] スーパースターシューターを強化"
+		Item_SuperStarShooter_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Item_PearlwoodArmor_Label: "[i:659] パールウッド武器・防具をリワーク"
+		Item_PearlwoodArmor_Tooltip:
+			'''
+			[再読み込み必要]
+			パールウッドソードとパールウッドボウに防御貫通を追加
+			パールウッド防具がライフ再生とダメージ軽減を提供するようになります
+			デフォルト: ON
+			'''
+		Recipe_ManaCrystal_Label: "[i:109] マナクリスタルのレシピを簡単に"
+		Recipe_ManaCrystal_Tooltip:
+			'''
+			[再読み込み必要]
+			必要な流れ星の数を削減: 5 → 3
+			デフォルト: ON
+			'''
+		Recipe_Sorting_Label: MODのレシピをソート
+		Recipe_Sorting_Tooltip:
+			'''
+			[再読み込み必要]
+			有効にすると、このMODで追加されるレシピがバニラのようにソートされます
+			デフォルト: ON
+			'''
+		NPC_Meteor_Label: "[i:116] メテオヘッドがメテオライトをドロップする確率を増加"
+		NPC_Meteor_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		NPC_LavaSlime_Label: "[i:906] ハードモードでラバスライムが溶岩チャームをドロップするか"
+		NPC_LavaSlime_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		NPC_PoD_Label: "[i:BlewsKyORmAd/PotionOfDiscord] カオスエレメンタルがポーション・オブ・ディスコードをドロップするか"
+		NPC_PoD_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		NPC_IncreaseGolemDrops_Label: "[i:2218] クラシックモードでカブトムシの殻のドロップ量を増加"
+		NPC_IncreaseGolemDrops_Tooltip:
+			'''
+			[再読み込み必要]
+			ONにすると、ゴーレムからのカブトムシの殻のドロップ量が増加
+			デフォルト: ON
+			'''
+		NPC_IncreaseLunarDrops_Label: "[i:3460] クラシックモードでルミナイトのドロップ量を増加"
+		NPC_IncreaseLunarDrops_Tooltip:
+			'''
+			[再読み込み必要]
+			ONにすると、ムーンロードからのルミナイトのドロップ量が増加
+			デフォルト: ON
+			'''
+		NPC_Fennec_Label: "[i:4604] サンドポーチャーがエキゾチックチューおもちゃをドロップするか"
+		NPC_Fennec_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: ON
+			'''
+		Projectile_GrassFriendlyLeafCrystal_Label: "[i:1004] 草に優しいリーフクリスタル"
+		Projectile_GrassFriendlyLeafCrystal_Tooltip:
+			'''
+			[再読み込み必要]
+			ONにすると、クロロファイト防具のセットボーナスであるリーフクリスタルがタイルを切らなくなります
+			デフォルト: ON
+			'''
+		WorldGen_AdventureBiomes_Label: "[i:1] ワールドのデフォルトアドベンチャーオプションをアドベンチャーに設定"
+		WorldGen_AdventureBiomes_Tooltip:
+			'''
+			ワールド作成メニューでアドベンチャーオプションを変更できます
+			デフォルト: ON
+			'''
+		CrossMod_BossChecklist_AdjustDropItems_Label: Boss Checklist: ドロップアイテムリストから入手不可能なアイテムを非表示
+		CrossMod_BossChecklist_AdjustDropItems_Tooltip:
+			'''
+			[上級者向けオプション]
+			[再読み込み必要]
+			Boss ChecklistMODが有効な場合のみ動作
+			有効にすることを推奨
+			（Blue Sky Ore ModとBoss Checklistの間で問題が発生した場合のみ無効化）
+			デフォルト: ON
+			'''
+		Adv_MaxTerradialUpdateRate_Label: "[i:BlewsKyORmAd/TerraDial] 早送りタイル速度の倍率"
+		Adv_MaxTerradialUpdateRate_Tooltip:
+			'''
+			地下に設置されたテラダイアルによる時間早送りの倍率
+			地下に設置されたテラダイアルは、同時にタイルの拡散速度も早送り可能
+			タイル拡散速度の早送りが速すぎると、ゲームがラグを起こす可能性があります
+			デフォルト: 20
+			'''
+		Adv_ForcedWorldGen_Label: このMODのワールド生成を強制実行
+		Adv_ForcedWorldGen_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: OFF
+			'''
+		Game_Solution_Label: ソリューションの入手方法
+		Game_Solution_Tooltip:
+			'''
+			[再読み込み必要]
+			クラフトのみ: ソリューションをクラフトのみで入手するチャレンジ
+			クラフト: 基本的にクラフト、ただしドライアドがグリーンソリューションを販売
+			コイン: バニラ仕様。正直退屈
+			デフォルト: 「クラフト（アドベンチャー）」
+			'''
+		Game_DryadSellsGreenSolution_Label: "[i:780] ドライアドがグリーンソリューションを販売 [アドベンチャーワールドのみ]"
+		Game_DryadSellsGreenSolution_Tooltip:
+			'''
+			アドベンチャーワールドでは、グリーンソリューションをクラフトする必要があります
+			ドライアドがクラフトの代わりにグリーンソリューションを販売
+			デフォルト: ON
+			'''
+		Adv_DisableEvent_Label: このMODで追加されたイベントを無効化
+		Adv_DisableEvent_Tooltip:
+			'''
+			[再読み込み必要]
+			デフォルト: OFF
+			'''
+	}
+
+	BlueSkyOreServerConfig: {
+		DisplayName: サーバー設定
+	}
+
+	BlueSkyOreClientConfig: {
+		DisplayName: クライアント設定
+	}
+}
+
+GameTips: {
+	Tip0: Blue Sky Ore Modの設定から仕様を変更できます
+	Tip1: 空色のキャンドルはスカイ鉱石を生成します。見つけたら火を灯しましょう
+	Tip2: ブルースカイ鉱石の加工には雲が必要です
+	Tip3: ヒーリングポーションが足りないと感じたら、アナザーヒーリングポーションを試してみてください。グレイスカイ鉱石から作れます
+	Tip6: 上向きの矢には、上空に発射するための特別な弓が必要です。まずシルバーボウかタングステンボウを用意して弓をクラフトしましょう
+	Tip7: 怪しいブロックを破壊してみるといいかもしれません。ドロップしたアイテムのツールチップにヒントが書かれている可能性が...？
+	Tip10: これはライト版です。より多くの便利で奇抜なアイテムに出会いたければフル版をプレイしてください！
+	Tip0_BSOM: Blue Sky Ore Mod: Blue Sky Ore Modの設定から仕様を変更できます
+	Tip1_BSOM: Blue Sky Ore Mod: 空色のキャンドルはスカイ鉱石を生成します。見つけたら火を灯しましょう
+	Tip2_BSOM: Blue Sky Ore Mod: ブルースカイ鉱石の加工には雲が必要です
+	Tip3_BSOM: Blue Sky Ore Mod: ヒーリングポーションが足りないと感じたら、アナザーヒーリングポーションを試してみてください。グレイスカイ鉱石から作れます
+	Tip6_BSOM: Blue Sky Ore Mod: 上向きの矢には、上空に発射するための特別な弓が必要です。まずシルバーボウかタングステンボウを用意して弓をクラフトしましょう
+	Tip7_BSOM: 怪しいブロックを破壊してみるといいかもしれません。ドロップしたアイテムのツールチップにヒントが書かれている可能性が...？
+	Tip10_BSOM: Blue Sky Ore Mod: これはライト版です。より多くの便利で奇抜なアイテムに出会いたければフル版をプレイしてください！
+}
+
+RecipeCondition: {
+	NotNearbyAbsoluteSkyMill: （サンダーミル未設置）
+	NotNearbyBlueSkyMill: （スペースミル未設置）
+	NotNearbyMythrilAnvil: （ミスリルアンビル未設置）
+	NearbyPlanteraBulb: プランテラのバルブ
+	PlanteraPlanter: プランテラプランターバイオームにいる必要があります
+	SunsetFloatingIsland: 夕日の時間に夕日の浮島バイオームにいる必要があります
+	DownedAllMechBosses: 全ての機械系ボスを倒した後
+}
+
+ShopCondition: {
+	AfterDownedPlantBossAndDownedPirates: Mods.BlewsKyORmAd.ShopCondition.AfterDownedPlantBossAndDownedPirates
+	AfterDownedPlantBossAndDownedGoblins: Mods.BlewsKyORmAd.ShopCondition.AfterDownedPlantBossAndDownedGoblins
+	InCrimsonWorld_NightAfterEvilOrHardmode: Mods.BlewsKyORmAd.ShopCondition.InCrimsonWorld_NightAfterEvilOrHardmode
+	InCorruptWorld_NightAfterEvilOrHardmode: Mods.BlewsKyORmAd.ShopCondition.InCorruptWorld_NightAfterEvilOrHardmode
+}
+
+Projectiles: {
+	ModThrownPowderProjectile: {
+		DisplayName: MOD投げパウダー弾
+	}
+
+	SkyStarBobber: {
+		DisplayName: スカイスターボバー
+	}
+
+	TorchFlare: {
+		DisplayName: Torch Flare
+	}
+
+	SolarFlare: {
+		DisplayName: Explosive Flare
+	}
+
+	SquareBomb: {
+		DisplayName: Square Bomb
+	}
+
+	IcicleThrowingKnifeMini: {
+		DisplayName: Icicle Throwing Knife
+	}
+
+	IcicleThrowingKnife: {
+		DisplayName: Icicle Throwing Knife
+	}
+
+	IcicleJavelin: {
+		DisplayName: Icicle Javelin
+	}
+
+	VirtuousPowder: {
+		DisplayName: Virtuous Powder Dusts
+	}
+
+	SolutionPowder: {
+		DisplayName: Non-colored Powder
+	}
+
+	YellowSolidSolution: {
+		DisplayName: Yellow Solid Solution
+	}
+
+	ShinySolidSolution: {
+		DisplayName: Shiny Solid Solution
+	}
+
+	RedSolidSolution: {
+		DisplayName: Red Solid Solution
+	}
+
+	BlueSolidSolution: {
+		DisplayName: Blue Solid Solution
+	}
+
+	RevertWater: {
+		DisplayName: Reverting Water
+	}
+
+	BloodyArrow: {
+		DisplayName: Bloody Arrow
+	}
+
+	SandBall: {
+		DisplayName: Sandball
+	}
+
+	AbsoluteThrowingKnife: {
+		DisplayName: Absolute Throwing Knife
+	}
+
+	SkyJavelin: {
+		DisplayName: Sky Stinger
+	}
+
+	WindArrow: {
+		DisplayName: Windy Arrow
+	}
+
+	TempestArrow: {
+		DisplayName: Tempest Arrow
+	}
+
+	SunnyArrow: {
+		DisplayName: Sunny Arrow
+	}
+
+	SkyGelArrow: {
+		DisplayName: Sky Gel Arrow
+	}
+
+	RainyArrow: {
+		DisplayName: Rainy Arrow
+	}
+
+	CalmArrow: {
+		DisplayName: Calm Arrow
+	}
+
+	AntiSlimeRainArrow: {
+		DisplayName: Anti Slime Rain Arrow
+	}
+
+	RedStarMagic: {
+		DisplayName: Star
+	}
+
+	LargeSkySlimePet: {
+		DisplayName: Tiny Large Sky Slime Pet
+	}
+
+	RedStarHostile: {
+		DisplayName: Star
+	}
+
+	RedStar: {
+		DisplayName: Star
+	}
+
+	GreenStarHostileForRemix: {
+		DisplayName: Star
+	}
+
+	GreenStarHostile: {
+		DisplayName: Star
+	}
+
+	GravitonHostile: {
+		DisplayName: Graviton
+	}
+
+	BlueStarHostile: {
+		DisplayName: Star
+	}
+
+	BlueStar: {
+		DisplayName: Star
+	}
+
+	BlueSkyQuartzHostile: {
+		DisplayName: Blue Sky Quartz
+	}
+
+	GravitonHammer: {
+		DisplayName: Graviton Hammer
+	}
+
+	Graviton: {
+		DisplayName: Graviton
+	}
+
+	CloudienerCloud: {
+		DisplayName: Cloudiener's Cloud
+	}
+
+	AntiGravitonHammer: {
+		DisplayName: Anti-Graviton Hammer
+	}
+
+	SpaceJavelin: {
+		DisplayName: Space Ripper
+	}
+
+	WhiteStar: {
+		DisplayName: Star
+	}
+
+	StarFireBullet: {
+		DisplayName: Star Flame Bullet
+	}
+
+	StarFireArrow: {
+		DisplayName: Star Flame Arrow
+	}
+
+	StardustPowder: {
+		DisplayName: Stardust
+	}
+
+	UniverseFlameExplosion: {
+		DisplayName: Nuclear Fusion Explosion
+	}
+
+	NuclearFusionFlameExplosion: {
+		DisplayName: Nuclear Fusion Explosion
+	}
+
+	NuclearFusionExplosionHostile: {
+		DisplayName: Nuclear Fusion Explosion
+	}
+
+	NFDustExplosion_Ranged: {
+		DisplayName: Explosion
+	}
+
+	NFDustExplosion_MeleeNoSpeed: {
+		DisplayName: Explosion
+	}
+
+	NFDustExplosion: {
+		DisplayName: Explosion
+	}
+
+	FixedStarFlameExplosion: {
+		DisplayName: Nuclear Fusion Explosion
+	}
+
+	ErrorBullet: {
+		DisplayName: Error
+	}
+
+	BlackHoleSafe: {
+		DisplayName: Black Hole
+	}
+
+	BlackHole: {
+		DisplayName: Black Hole
+	}
+}
+
+Items: {
+	FakeItemForUI: {
+		Tooltip: ""
+		DisplayName: ""
+	}
+
+	ShimmeredStar: {
+		Tooltip: ""
+		DisplayName: Strange Star
+	}
+
+	SolarFlare: {
+		Tooltip: ""
+		DisplayName: Solar Flare
+	}
+
+	BloodyArrow: {
+		Tooltip: ""
+		DisplayName: Bloody Arrow
+	}
+
+	PlanteraTorch: {
+		Tooltip: ""
+		DisplayName: Plantera Torch
+	}
+
+	FakePlanterasBulb: {
+		Tooltip: ""
+		DisplayName: Calmed Plantera's Bulb
+	}
+
+	NonCrackedStoneTable: {
+		Tooltip: ""
+		DisplayName: Stone Table
+	}
+
+	NonCrackedStoneChair: {
+		Tooltip: ""
+		DisplayName: Stone Chair
+	}
+
+	JungleGrassVine: {
+		Tooltip: ""
+		DisplayName: Jungle Grass Vine
+	}
+
+	HallowedGrassVine: {
+		Tooltip: ""
+		DisplayName: Hallowed Vine
+	}
+
+	GrassVine: {
+		Tooltip: ""
+		DisplayName: Grass Vine
+	}
+
+	FlowerVine: {
+		Tooltip: ""
+		DisplayName: Flower Vine
+	}
+
+	CrimsonGrassVine: {
+		Tooltip: ""
+		DisplayName: Crimson Vine
+	}
+
+	CorruptGrassVine: {
+		Tooltip: ""
+		DisplayName: Corrupt Vine
+	}
+
+	AshGrassVine: {
+		Tooltip: ""
+		DisplayName: Ash Grass Vine
+	}
+
+	VirtuousMushroom: {
+		Tooltip: ""
+		DisplayName: Virtuous Mushroom
+	}
+
+	Vial: {
+		Tooltip: ""
+		DisplayName: Vial
+	}
+
+	SpiderTooth: {
+		Tooltip: ""
+		DisplayName: Spider Tooth
+	}
+
+	ScorpionTail: {
+		Tooltip: ""
+		DisplayName: Scorpion Tail
+	}
+
+	AncientAlloy: {
+		Tooltip: ""
+		DisplayName: Ancient Alloy
+	}
+
+	IcicleThrowingKnife: {
+		Tooltip: ""
+		DisplayName: Icicle Throwing Knife
+	}
+
+	IcicleJavelin: {
+		Tooltip: ""
+		DisplayName: Icicle Javelin
+	}
+
+	FrozenFossil: {
+		Tooltip: ""
+		DisplayName: Frozen Fossil
+	}
+
+	SolutionPowder: {
+		Tooltip: ""
+		DisplayName: Non-colored Powder
+	}
+
+	EmptySolution: {
+		Tooltip: ""
+		DisplayName: Empty Solution
+	}
+
+	SnowCloudMatter: {
+		Tooltip: ""
+		DisplayName: Raw Snow Cloud
+	}
+
+	RainCloudMatter: {
+		Tooltip: ""
+		DisplayName: Raw Rain Cloud
+	}
+
+	CloudMatter: {
+		Tooltip: ""
+		DisplayName: Raw Cloud
+	}
+
+	BrokenWhiteBoard: {
+		Tooltip: ""
+		DisplayName: Broken Whiteboard
+	}
+
+	BlewShovel: {
+		Tooltip: ""
+		DisplayName: sh0ve1
+	}
+
+	StoneTable: {
+		Tooltip: ""
+		DisplayName: Cracked Stone Table
+	}
+
+	StoneChair: {
+		Tooltip: ""
+		DisplayName: Cracked Stone Chair
+	}
+
+	DebugInfoItem: {
+		Tooltip: ""
+		DisplayName: Debugger
+	}
+
+	SoulOfMiner: {
+		Tooltip: ""
+		DisplayName: Soul of Miner
+	}
+
+	AbsoluteThrowingKnife: {
+		Tooltip: ""
+		DisplayName: Absolute Throwing Knife
+	}
+
+	SkyJavelin: {
+		Tooltip: ""
+		DisplayName: Sky Stinger
+	}
+
+	SkyGel: {
+		Tooltip: ""
+		DisplayName: Sky Gel
+	}
+
+	RoundStar: {
+		Tooltip: ""
+		DisplayName: The Encirclement
+	}
+
+	LargeSkySlimeTrophy: {
+		Tooltip: ""
+		DisplayName: Large Sky Slime Trophy
+	}
+
+	LargeSkySlimeRelic: {
+		Tooltip: ""
+		DisplayName: Large Sky Slime Relic
+	}
+
+	Cloudiener: {
+		Tooltip: ""
+		DisplayName: Cloudiener
+	}
+
+	WeatherCloud: {
+		Tooltip: ""
+		DisplayName: Fragment of Weather
+	}
+
+	SkyTorch: {
+		Tooltip: ""
+		DisplayName: Sky Torch
+	}
+
+	PurifiedGrassSeeds: {
+		Tooltip: ""
+		DisplayName: Purified Grass Seeds
+	}
+
+	ConstantMushroom: {
+		Tooltip: ""
+		DisplayName: Purification Mushroom
+	}
+
+	CloudCandle: {
+		Tooltip: ""
+		DisplayName: Cloud Candle
+	}
+
+	CloudBrickWall: {
+		Tooltip: ""
+		DisplayName: White Brick Wall
+	}
+
+	CloudBrickPlatform: {
+		Tooltip: ""
+		DisplayName: Cloud Platform
+	}
+
+	CloudBrick: {
+		Tooltip: Brick fluffy as cloud
+		DisplayName: White Brick
+	}
+
+	SpaceJavelin: {
+		Tooltip: ""
+		DisplayName: Space Ripper
+	}
+
+	SpaceGel: {
+		Tooltip: ""
+		DisplayName: Space Gel
+	}
+
+	AnotherSuperHealingPotion: {
+		Tooltip: ""
+		DisplayName: Another Super Healing Potion
+	}
+
+	AnotherLesserHealingPotion: {
+		Tooltip: ""
+		DisplayName: Another Lesser Healing Potion
+	}
+
+	AnotherHealingPotion: {
+		Tooltip: ""
+		DisplayName: Another Healing Potion
+	}
+
+	AnotherGreaterHealingPotion: {
+		Tooltip: ""
+		DisplayName: Another Greater Healing Potion
+	}
+
+	StateFixedDarkBlueSkyPlatform: {
+		Tooltip: ""
+		DisplayName: State-Fixed Dark Blue Sky Brick Platform
+	}
+
+	StateFixedDarkBlueSkyBrickWall: {
+		Tooltip: ""
+		DisplayName: State-Fixed Dark Blue Sky Brick Wall
+	}
+
+	StateFixedDarkBlueSkyBrick: {
+		Tooltip: ""
+		DisplayName: State-Fixed Dark Blue Sky Brick
+	}
+
+	StarFireBullet: {
+		Tooltip: ""
+		DisplayName: Star Flame Bullet
+	}
+
+	StarFireArrow: {
+		Tooltip: ""
+		DisplayName: Star Flame Arrow
+	}
+
+	StardustPowder: {
+		Tooltip: ""
+		DisplayName: Bagged Stardust
+	}
+
+	DarkBlueSkyPlatform: {
+		Tooltip: ""
+		DisplayName: Dark Blue Sky Brick Platform
+	}
+
+	DarkBlueSkyBrickWall: {
+		Tooltip: ""
+		DisplayName: Dark Blue Sky Brick Wall
+	}
+
+	DarkBlueSkyBrick: {
+		Tooltip: ""
+		DisplayName: Dark Blue Sky Brick
+	}
+
+	DarkBlueSkyBar: {
+		Tooltip: ""
+		DisplayName: Dark Blue Sky Bar
+	}
+
+	StateFixedBlueSkyPlatform: {
+		Tooltip: ""
+		DisplayName: State-Fixed Blue Sky Brick Platform
+	}
+
+	StateFixedBlueSkyBrickWall: {
+		Tooltip: ""
+		DisplayName: State-Fixed Blue Sky Brick Wall
+	}
+
+	StateFixedBlueSkyBrick: {
+		Tooltip: ""
+		DisplayName: State-Fixed Blue Sky Brick
+	}
+
+	BlueSkyPlatform: {
+		Tooltip: ""
+		DisplayName: Blue Sky Brick Platform
+	}
+
+	BlueSkyBrickWall: {
+		Tooltip: ""
+		DisplayName: Blue Sky Brick Wall
+	}
+
+	BlueSkyBrick: {
+		Tooltip: ""
+		DisplayName: Blue Sky Brick
+	}
+
+	BlueSkyBar: {
+		Tooltip: ""
+		DisplayName: Blue Sky Bar
+	}
+
+	TempBlueSkyCandle: {
+		Tooltip: Solidifies surrounding sky to Sky Ores
+		DisplayName: Blue Sky Candle (Temp)
+	}
+
+	CraftedBlueSkyCandle: {
+		Tooltip: Solidifies surrounding sky to Sky Ores
+		DisplayName: Crafted Blue Sky Candle
+	}
+
+	TorchFlare: {
+		Tooltip: Places a torch on impact
+		DisplayName: Torch Flare
+	}
+
+	RainbowSword2: {
+		Tooltip:
+			'''
+			Colors your enemies in rainbow
+			'THIS is the legendary...!'
+			'''
+		DisplayName: Rainbow Blade
+	}
+
+	RainbowSword: {
+		Tooltip:
+			'''
+			Colors your enemies in rainbow
+			'Rainbow colored weapons must be strongest...!'
+			'''
+		DisplayName: Rainbow Sword
+	}
+
+	ShineNightOwlPotion: {
+		Tooltip:
+			'''
+			Emits an aura of light
+			Increases night vision
+			'''
+		DisplayName: Shine & Night Owl Potion
+	}
+
+	ComponentExtractor: {
+		Tooltip: Used for advanced crafting potions
+		DisplayName: Component Extractor
+	}
+
+	BrightnessPotion: {
+		Tooltip:
+			'''
+			Emits an aura of light
+			Increases night vision
+			'''
+		DisplayName: Brightness Potion
+	}
+
+	RealPlanterasBulb: {
+		Tooltip: Places the Plantera's Bulb
+		DisplayName: Awoken Plantera's Bulb
+	}
+
+	PlanteraShovel: {
+		Tooltip:
+			'''
+			Digs Plantera's Bulb and Bee Hive safely
+			Able to break some large plants by swing
+			Able to harvest potted herbs by swing
+			Right click to remove slope of only 7x1 soft tiles
+			'''
+		DisplayName: Planter's Shovel
+	}
+
+	PlanteraSeeds: {
+		Tooltip: Plants Plantera's Bulb
+		DisplayName: Plantera Seeds
+	}
+
+	JungleBottle: {
+		Tooltip: "'Handle with care'"
+		DisplayName: Broken Jungle Orb
+	}
+
+	TrapBox: {
+		Tooltip: Used for trap crafting
+		DisplayName: Trap Tool Box
+	}
+
+	HeavyLever: {
+		Tooltip: Enables again when be received signal
+		DisplayName: Heavy Lever
+	}
+
+	BulkyStone: {
+		Tooltip:
+			'''
+			Prevents to slip on ice
+			Prevents extra mobility by Ice Skates
+			'So heavy...'
+			'''
+		DisplayName: Bulky Stone
+	}
+
+	SquareBomb: {
+		Tooltip:
+			'''
+			A narrow explosion that will destroy most tiles
+			Exploded terrain will be square
+			'''
+		DisplayName: Sqaure Bomb
+	}
+
+	VirtuousPowder: {
+		Tooltip: Spreads the Hallow
+		DisplayName: Virtuous Powder
+	}
+
+	YellowSolidSolution: {
+		Tooltip: Turns liquid into honey
+		DisplayName: Yellow Solid Solution
+	}
+
+	ShinySolidSolution: {
+		Tooltip: Turns liquid into shimmer
+		DisplayName: Shiny Solid Solution
+	}
+
+	RedSolidSolution: {
+		Tooltip: Turns liquid into lava
+		DisplayName: Red Solid Solution
+	}
+
+	BlueSolidSolution: {
+		Tooltip: Turns liquid into water
+		DisplayName: Blue Solid Solution
+	}
+
+	RevertWater: {
+		Tooltip: Reverts some infected blocks
+		DisplayName: Reverting Water
+	}
+
+	SeedShovel: {
+		Tooltip:
+			'''
+			Can sometimes collect some grass seeds
+			Can collect grass vines
+			'''
+		DisplayName: Uncolorable Shovel
+	}
+
+	NonColoredSlimeBanner: {
+		Tooltip: Nearby players get a bonus against: Non-colored Slime Banner
+		DisplayName: Non-colored Slime Banner
+	}
+
+	NonColoredSlime: {
+		Tooltip: Releases a slime which can generate grass seeds
+		DisplayName: Non-colored Slime
+	}
+
+	ColorableTorch: {
+		Tooltip: Can be changed flame color by paint
+		DisplayName: Colorable Torch
+	}
+
+	PirateInvasionTerminator: {
+		Tooltip: Terminates pirate invasion
+		DisplayName: Travel Ban
+	}
+
+	GoblinArmyTerminator: {
+		Tooltip: Terminates Goblin Army
+		DisplayName: Non-aggression Pact
+	}
+
+	BottleFilledSlime: {
+		Tooltip: Summons a Slime Rain
+		DisplayName: Bottle Filled Slime
+	}
+
+	SandstormCloudInBalloons: {
+		Tooltip:
+			'''
+			Allows the holder to triple jump
+			Increases jump height
+			'''
+		DisplayName: Sandstorm Cloud in Balloons
+	}
+
+	HealingNecklace: {
+		Tooltip:
+			'''
+			Provides life regeneration
+			Reduces the cooldown of healing potions by 25%
+			Increases length of invincibility after taking damage
+			Immunity to Poison
+			Immunity to Acid Venom
+			'''
+		DisplayName: Healing Necklace
+	}
+
+	BlizzardCloudInBalloons: {
+		Tooltip:
+			'''
+			Allows the holder to triple jump
+			Increases jump height
+			'''
+		DisplayName: Blizzard Cloud in Balloons
+	}
+
+	SkyGlobe: {
+		Tooltip: Permanently increases total healing amount by 5 on No Hit Life Regeneration
+		DisplayName: Sky Globe
+	}
+
+	ShimmerShield: {
+		Tooltip:
+			'''
+			Permanently providing to reflect some damages to enemies
+			(Not reducing damage)
+			'''
+		DisplayName: Reflect Shield
+	}
+
+	PlanteraFruit: {
+		Tooltip: Permanently reducing damage taken by 2.5%
+		DisplayName: Plantera Fruit
+	}
+
+	NoHitLifeRegenClock_Shimmer: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration by 0.08 s (5 frame) only while you don't move
+		DisplayName: Regeneration Clock
+	}
+
+	HahaHaveYouThoughtYouCanObtainDarkBlueSkyOreOnPreHardmodeHaventYou_ShimmeringDarkBlueSkyBrick: {
+		Tooltip: Can be transformed to Blue Sky Brick by putting into the shimmer
+		DisplayName: Haha, have you thought you can obtain Dark Blue Sky Ore on pre-hardmode, haven't you?
+	}
+
+	BlewSkyOre: {
+		Tooltip: "'The ore which had better not to exist'"
+		DisplayName: Blew sKy ORe
+	}
+
+	BlewSkyBar: {
+		Tooltip: "'Smells like noisy'"
+		DisplayName: Blew sKy BAr
+	}
+
+	QuickMagicMirror: {
+		Tooltip: Gaze in the mirror to return home
+		DisplayName: Quick Magic Mirror
+	}
+
+	PotionOfDiscord: {
+		Tooltip:
+			'''
+			Teleports you to the position of the mouse
+			Causes the chaos state
+			'''
+		DisplayName: Potion of Discord
+	}
+
+	MoreBobberPotion: {
+		Tooltip: Throws multiplied bobbers
+		DisplayName: Multi Bobber Potion
+	}
+
+	InfiniteFlightPotion: {
+		Tooltip: Provides infinite wing flight
+		DisplayName: Infinite Flight Potion
+	}
+
+	DarkGraySkyOre: {
+		Tooltip:
+			'''
+			The ore which solidified sky when tempest
+			'So prickly and painful'
+			'''
+		DisplayName: Dark Gray Sky Ore
+	}
+
+	AbsoluteSkyMill: {
+		Tooltip: Used for special crafting
+		DisplayName: Thunder Mill
+	}
+
+	AbsoluteFragment: {
+		Tooltip: The crystal filled with absolutance and space
+		DisplayName: Fragment of Absolute
+	}
+
+	SandBall: {
+		Tooltip: "'Sand is overpowered'"
+		DisplayName: Sandball
+	}
+
+	SkySlimeBanner: {
+		Tooltip: Nearby players get a bonus against: Sky Slime
+		DisplayName: Sky Slime Banner
+	}
+
+	SkyLantern: {
+		Tooltip:
+			'''
+			Can be placed on nothing
+			Minor improvements to stats of movement, jump, and flight mobilities while holding this
+			'''
+		DisplayName: Sky Lantern
+	}
+
+	SkyCandle: {
+		Tooltip: Solidifies surrounding sky to Sky Ores
+		DisplayName: Sky Candle
+	}
+
+	WindArrow: {
+		Tooltip:
+			'''
+			Makes a strong wind blow
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Windy Arrow
+	}
+
+	TempestArrow: {
+		Tooltip:
+			'''
+			Summons cumulonimbus clouds
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Tempest Arrow
+	}
+
+	SunnyArrow: {
+		Tooltip:
+			'''
+			Removes rain clouds
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Sunny Arrow
+	}
+
+	SkyBow: {
+		Tooltip:
+			'''
+			Tells something to the sky with special arrows
+			Changes the weather with the weather arrows
+			'For shoot up sky-high'
+			'''
+		DisplayName: Prayer Bow
+	}
+
+	RainyArrow: {
+		Tooltip:
+			'''
+			Summons rain clouds
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Rainy Arrow
+	}
+
+	CalmArrow: {
+		Tooltip:
+			'''
+			Makes a wind stop
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Calm Arrow
+	}
+
+	AntiSlimeRainArrow: {
+		Tooltip:
+			'''
+			Terminate Slime Rain
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Anti Slime Rain Arrow
+	}
+
+	JumpBoostPotion: {
+		Tooltip: Increases jump height
+		DisplayName: Jump Boost Potion
+	}
+
+	GravitonHammer: {
+		Tooltip:
+			'''
+			Gravitate your enemies
+			'Swing bye!'
+			'''
+		DisplayName: Graviton Hammer
+	}
+
+	GravitonGenerator: {
+		Tooltip:
+			'''
+			Generates graviton gravitating your projectiles
+			Right click to remove graviton generated
+			'''
+		DisplayName: Graviton Generator
+	}
+
+	SkyShotgun: {
+		Tooltip:
+			'''
+			Fires a spread of bullets
+			Fires one of the bullets into cursor
+			'''
+		DisplayName: High-Dimensional Shotgun
+	}
+
+	SkyGelArrow: {
+		Tooltip:
+			'''
+			Summons the Large Sky Slime
+			'Shoot up sky-high!'
+			'''
+		DisplayName: Sky Gel Arrow
+	}
+
+	LargeSkySlimePet: {
+		Tooltip:
+			'''
+			Summons a Satellite Slime
+			'A sky blue drink not brought from the sky'
+			'''
+		DisplayName: Soda Float
+	}
+
+	LargeSkySlimeBossBag: {
+		Tooltip: Right Click to open
+		DisplayName: Treasure Bag (Large Sky Slime)
+	}
+
+	BrokenSkyBow: {
+		Tooltip:
+			'''
+			Tells something to the sky with special arrows
+			'For shoot up...'
+			'''
+		DisplayName: Unfinished Sky Blue Bow
+	}
+
+	BlueSkyQuartz: {
+		Tooltip: "'Smells like gravity'"
+		DisplayName: Blue Sky Quartz
+	}
+
+	BlueSkyFishingRod: {
+		Tooltip: Throws 2 bobbers
+		DisplayName: Blue Sky Fishing Pole
+	}
+
+	AntiGraviton: {
+		Tooltip:
+			'''
+			Prevents to be gravitated from any gravity source
+			Has a chance to generate anti-gravitation on taken damage
+			Anti-Graviton will pull away enemies and hostile projectiles
+			Increases the chance depended on health and damage
+			'In real, antiparticle of graviton is graviton'
+			'''
+		DisplayName: Anti-Graviton
+	}
+
+	AntiGravitonHammer: {
+		Tooltip:
+			'''
+			Ungravitate your enemies
+			'Wait, what is anti-graviton?'
+			'''
+		DisplayName: Anti-Graviton Hammer
+	}
+
+	WeatheredSkyBrick: {
+		Tooltip: "'Seems to be used for foundation of some structure...'"
+		DisplayName: Weathered Sky Brick
+	}
+
+	SunsetCloudInABottle: {
+		Tooltip:
+			'''
+			Makes items craftable in Sunset Floating Island even not during the sunset
+			'A bottle filled with a power of the sunset'
+			'''
+		DisplayName: Sunset Cloud in a Bottle
+	}
+
+	SunsetCloud: {
+		Tooltip: Prevents fall damage
+		DisplayName: Sunset Cloud
+	}
+
+	PetrifiedFallenStar: {
+		Tooltip: Not disappears after the sunrise
+		DisplayName: Petrified Fallen Star
+	}
+
+	Moonflower: {
+		Tooltip:
+			'''
+			Purifies blocks surrounding planted it
+			'Not moonflower'
+			'''
+		DisplayName: Moon-flower
+	}
+
+	SunsetCloudBucket: {
+		Tooltip: Contains a small amount of sunset cloud
+		DisplayName: Sunset Cloud Bucket
+	}
+
+	SnowCloudBucket: {
+		Tooltip:
+			'''
+			Contains a small amount of snow cloud
+			Minor improvements to stats of combat
+			Minor worsenings to stats of horizontal movement
+			10 minute duration
+			'''
+		DisplayName: Snow Cloud Bucket
+	}
+
+	SkyBucket: {
+		Tooltip:
+			'''
+			Can be used to scoop up a small amount of cloud
+			Can be used to scoop up a raw cloud
+			'''
+		DisplayName: Sky Scooping Bucket
+	}
+
+	RainCloudBucket: {
+		Tooltip:
+			'''
+			Contains a small amount of rain cloud
+			Allows the swoop
+			Minor improvements to stats of combat and water movement
+			Minor worsenings to stats of damage reduction
+			10 minute duration
+			'''
+		DisplayName: Rain Cloud Bucket
+	}
+
+	CloudBucket: {
+		Tooltip:
+			'''
+			Contains a small amount of cloud
+			Minor improvements to stats of movement and placement
+			Minor worsenings to stats of combat
+			10 minute duration
+			'''
+		DisplayName: Cloud Bucket
+	}
+
+	StainlessSteelWithAluminum: {
+		Tooltip: Seems to have resistance of high pressure and extreme temperature
+		DisplayName: Thick Metal Plate
+	}
+
+	SmallSatelliteBanner_Panel: {
+		Tooltip: Nearby players get a bonus against: Spiteful Satellite
+		DisplayName: Spiteful Satellite Banner (Solar Panel)
+	}
+
+	SmallSatelliteBanner: {
+		Tooltip: Nearby players get a bonus against: Spiteful Satellite
+		DisplayName: Spiteful Satellite Banner
+	}
+
+	BirdPotion: {
+		Tooltip: Increases flight and jump mobility
+		DisplayName: Bird Potion
+	}
+
+	LifeFragment: {
+		Tooltip: The crystal filled with kindness and time
+		DisplayName: Fragment of Life
+	}
+
+	GraySkyOre: {
+		Tooltip:
+			'''
+			The ore which solidified cloudy sky
+			'So fluffy as cloud'
+			'''
+		DisplayName: Gray Sky Ore
+	}
+
+	DashPotion: {
+		Tooltip: Provides the ability to dash
+		DisplayName: Dash Potion
+	}
+
+	BaitReservationPotion: {
+		Tooltip: Decreases chance of bait consumption
+		DisplayName: Bait Reservation Potion
+	}
+
+	Antidote: {
+		Tooltip:
+			'''
+			Removes poison faster
+			持続時間 6分
+			'This is medicine. Don't drink without poisoned.'
+			'''
+		DisplayName: Antidote
+	}
+
+	SoulShield: {
+		Tooltip:
+			'''
+			Permanently increases hit ignoring by 1
+			The cooldown is 3 minutes
+			'''
+		DisplayName: Soul Shield
+	}
+
+	RainGlobe: {
+		Tooltip: Permanently increases healing amount at one time by 1 on No Hit Life Regeneration
+		DisplayName: Rain Globe
+	}
+
+	NoHitLifeRegenClock_Plantera: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.42 s (25 frame)
+		DisplayName: Jungle Life Clock
+	}
+
+	NoHitLifeRegenClock_Life: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.92 s (55 frame)
+		DisplayName: Life Clock
+	}
+
+	NoHitLifeRegenClock_Honey: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.75 s (45 frame)
+		DisplayName: Honey Life Clock
+	}
+
+	NoHitLifeRegenClock_Hallow: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.58 s (35 frame)
+		DisplayName: Hallowed Life Clock
+	}
+
+	NoHitLifeRegenClock_DarkBlueSky: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.50 s (30 frame)
+		DisplayName: Dark Blue Sky Life Clock
+	}
+
+	NoHitLifeRegenClock_Crystal: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.67 s (40 frame)
+		DisplayName: Crystal Life Clock
+	}
+
+	NoHitLifeRegenClock_BlueSky: {
+		Tooltip: Permanently shortens the time interval of No Hit Life Regeneration to 0.83 s (50 frame)
+		DisplayName: Blue Sky Life Clock
+	}
+
+	BoneShield: {
+		Tooltip:
+			'''
+			Permanently increases hit ignoring by 1
+			The cooldown is 4 minutes
+			'''
+		DisplayName: Bone Shield
+	}
+
+	BeetleShield: {
+		Tooltip:
+			'''
+			Permanently increases hit ignoring by 1
+			The cooldown is 2 minutes
+			'''
+		DisplayName: Beetle Shield
+	}
+
+	AnotherRegenPotion: {
+		Tooltip: Increases healing amount at one time by 1 on No Hit Life Regeneration
+		DisplayName: Another Regeneration Potion
+	}
+
+	SwoopPotion: {
+		Tooltip: Allows the swoop
+		DisplayName: Swoop Potion
+	}
+
+	WhiteStarAmmo: {
+		Tooltip:
+			'''
+			Shoots white star, which passes through blocks and flames your enemy
+			Shoots all types of stars
+			Explodes when shooting
+			The ammo of Star Shot-Cannon
+			'''
+		DisplayName: Neutron Star Shotshell
+	}
+
+	StarShotCannon: {
+		Tooltip:
+			'''
+			50% chance to not consume ammo
+			'Strongest ammo needs strongest launcher'
+			'''
+		DisplayName: Star Shot-Cannon
+	}
+
+	StarAmmo: {
+		Tooltip: The ammo of Star Shot-Cannon
+		DisplayName: Star Shotshell
+	}
+
+	RedStarAmmo: {
+		Tooltip:
+			'''
+			Shoots red stars, which chases after your enemy
+			The ammo of Star Shot-Cannon
+			'''
+		DisplayName: Red Star Shotshell
+	}
+
+	EmptyStarAmmo: {
+		Tooltip: Material which is ammo of Star Shot-Cannon
+		DisplayName: Empty Pressure-proof Shotshell
+	}
+
+	BlueStarAmmo: {
+		Tooltip:
+			'''
+			Shoots blue stars, which flames your enemy
+			The ammo of Star Shot-Cannon
+			'''
+		DisplayName: Blue Star Shotshell
+	}
+
+	BlackHoleAmmoSafe: {
+		Tooltip:
+			'''
+			! W A R N I N G !
+			Shoots black hole, which can erase entities ...include you
+			100% chance to be consumed
+			The ammo of Star Shot-Cannon
+			'Things most powerful in the universe'
+			'''
+		DisplayName: Black Hole Slug
+	}
+
+	BlackHoleAmmo: {
+		Tooltip:
+			'''
+			! D A N G E R !
+			Shoots real black hole, which destroys your world
+			100% chance to be consumed
+			The ammo of Star Shot-Cannon
+			'That is NOT good idea to use this for solving some issue'
+			'''
+		DisplayName: Real Black Hole Slug
+	}
+
+	ProfessionalCarpenterPotion: {
+		Tooltip:
+			'''
+			Increases mining speed by 10%
+			Increases placement speed and range
+			'''
+		DisplayName: Professional Carpenter Potion
+	}
+
+	PowerfulStarSightPotion: {
+		Tooltip:
+			'''
+			Shows the location of Fallen Stars on the map
+			Increases pickup range for Fallen Star
+			'''
+		DisplayName: Astronomer Potion
+	}
+
+	GravityStone: {
+		Tooltip: Disable space low gravity while be in inventory
+		DisplayName: High-densely Stone
+	}
+
+	DarkBlueSkyPickaxe: {
+		Tooltip: "'To dig faster and more'"
+		DisplayName: Dark Blue Sky Pickaxe
+	}
+
+	DarkBlueSkyOre: {
+		Tooltip:
+			'''
+			The ore which solidified night sky
+			'Feels heat of fixed stars nuclear fusion'
+			'''
+		DisplayName: Dark Blue Sky Ore
+	}
+
+	DarkBlueSkyFragment: {
+		Tooltip: A form that made it easier to process Dark Blue Sky Ore
+		DisplayName: Fragment of Dark Blue Sky
+	}
+
+	BlueSkyMill: {
+		Tooltip: Used for special crafting
+		DisplayName: Space Mill
+	}
+
+	StarSightPotion: {
+		Tooltip:
+			'''
+			Shows the location of Fallen Stars fallen on surface on the map
+			Increases pickup range for Fallen Star
+			'''
+		DisplayName: Telescope Potion
+	}
+
+	HorizontalPlacementPotion: {
+		Tooltip:
+			'''
+			Provides horizontal placement
+			Placeable blocks horizontally like placing rope
+			'''
+		DisplayName: Horizontal Placement Potion
+	}
+
+	CarpenterPotion: {
+		Tooltip:
+			'''
+			Increases mining speed by 10%
+			Increases placement speed and range
+			'''
+		DisplayName: Carpenter Potion
+	}
+
+	BlueSkyPickaxe: {
+		Tooltip: "'So light pickaxe'"
+		DisplayName: Blue Sky Pickaxe
+	}
+
+	BlueSkyOre: {
+		Tooltip:
+			'''
+			The ore which solidified blue sky
+			'Unbelievably light for an ore'
+			'''
+		DisplayName: Blue Sky Ore
+	}
+
+	BlueSkyFragment: {
+		Tooltip: A form that made it easier to process Blue Sky Ore
+		DisplayName: Fragment of Blue Sky
+	}
+
+	AnotherSwiftnessPotion: {
+		Tooltip:
+			'''
+			50% increased movement speed
+			20% increased boots speed
+			20% decreased defence instead of above buffs
+			'''
+		DisplayName: Another Swiftness Potion
+	}
+
+	SuperRevivalPotion: {
+		Tooltip:
+			'''
+			Makes you undying
+			Restores 50% of max life on fatal damage
+			Inflicts all Potion Sickness longer on revival
+			5 second duration
+			The duration is decreased by Potion Sickness
+			'''
+		DisplayName: Super Revival Potion
+	}
+
+	RevivalPotion: {
+		Tooltip:
+			'''
+			Makes you undying
+			Restores 25% of max life on fatal damage
+			Inflicts all Potion Sickness longer on revival
+			5 second duration
+			The duration is decreased by Potion Sickness
+			'''
+		DisplayName: Revival Potion
+	}
+
+	CelestialPickaxe: {
+		Tooltip: "'Fastest pickaxe'"
+		DisplayName: Celestial Pickaxe
+	}
+
+	BlueSkyCandle: {
+		Tooltip: Solidifies surrounding sky to Sky Ores
+		DisplayName: Blue Sky Candle
+	}
+}
+
+Tiles: {
+	TempBlueSkyCandle: {
+		MapEntry: Blue Sky Candle (Temp)
+	}
+
+	CraftedBlueSkyCandle: {
+		MapEntry: Crafted Blue Sky Candle
+	}
+
+	TrapBox: {
+		MapEntry: Trap Tool Box
+	}
+
+	ComponentExtractor: {
+		MapEntry: Component Extractor
+	}
+
+	RealPlanterasBulb: {
+		MapEntry: Plantera's Bulb
+	}
+
+	PlanteraTorch: {
+		MapEntry: Torch
+	}
+
+	GrowingPlanteraBulb: {
+		MapEntry: Growing Plantera's Bulb
+	}
+
+	FakePlanterasBulb: {
+		MapEntry: Plantera's Bulb
+	}
+
+	NonCrackedStoneTable: {
+		MapEntry: Table
+	}
+
+	NonCrackedStoneChair: {
+		MapEntry: Chair
+	}
+
+	FrozenFossil: {
+		MapEntry: Frozen Fossil
+	}
+
+	HeavyLever: {
+		MapEntry: Heavy Lever
+	}
+
+	NonColoredSlimeBanner: {
+		MapEntry: Banner
+	}
+
+	ColorableTorch: {
+		MapEntry: Torch
+	}
+
+	EmptySolution: {
+		MapEntry: Empty Solution
+	}
+
+	BrokenWhiteBoard: {
+		MapEntry: Whiteboard
+	}
+
+	BlewSkyOre: {
+		MapEntry: Blew sKy ORe
+	}
+
+	DarkGraySkyOre: {
+		MapEntry: Dark Gray Sky Ore
+	}
+
+	AbsoluteSkyMill: {
+		MapEntry: Thunder Mill
+	}
+
+	SkySlimeBanner: {
+		MapEntry: Banner
+	}
+
+	SkyLantern: {
+		MapEntry: Sky Lantern
+	}
+
+	SkyCandle: {
+		MapEntry: Sky Candle
+	}
+
+	SunsetSunflower: {
+		MapEntry_Flower: ""
+		MapEntry: Sunflower
+	}
+
+	SunsetCloudInABottle: {
+		MapEntry: Bottle
+	}
+
+	SkyTorch: {
+		MapEntry: Torch
+	}
+
+	Moonflower: {
+		MapEntry_Flower: ""
+		MapEntry: Moon-flower
+	}
+
+	CloudCandle: {
+		MapEntry: Candle
+	}
+
+	SmallSatelliteBanner: {
+		MapEntry: Banner
+	}
+
+	GraySkyOre: {
+		MapEntry: Gray Sky Ore
+	}
+
+	DarkBlueSkyOre: {
+		MapEntry: Dark Blue Sky Ore
+	}
+
+	BlueSkyMill: {
+		MapEntry: Space Mill
+	}
+
+	BlueSkyOre: {
+		MapEntry: Blue Sky Ore
+	}
+
+	BlueSkyCandle: {
+		MapEntry: Blue Sky Candle
+	}
+}
+
+NPCs: {
+	NonColoredSlime: {
+		DisplayName: Non-colored Slime
+	}
+
+	SkySlime: {
+		DisplayName: Sky Slime
+	}
+
+	SmallSatellite: {
+		DisplayName: Spiteful Satellite
+	}
+
+	ServantSkySlime: {
+		DisplayName: Servant of Large Sky Slime
+	}
+
+	LargeSkySlime: {
+		DisplayName: Large Sky Slime
+	}
+}
+
+Buffs: {
+	Rainbowed: {
+		Description: Shining in rainbow!
+		DisplayName: Rainbowed
+	}
+
+	ShineNightOwl: {
+		Description:
+			'''
+			Emits an aura of light
+			Increased night vision
+			'''
+		DisplayName: Shine & Night Owl
+	}
+
+	Brightness: {
+		Description:
+			'''
+			Emits an aura of light
+			Increased night vision
+			'''
+		DisplayName: Brightness
+	}
+
+	LargeSkySlimePet: {
+		Description: Feels to become the Earth
+		DisplayName: Satellite Slime
+	}
+
+	StarSight: {
+		Description:
+			'''
+			Shows the location of Fallen Stars on surface on the map
+			Increased Fallen Star pickup range
+			'''
+		DisplayName: Telescope
+	}
+
+	PowerfulStarSight: {
+		Description:
+			'''
+			Shows the location of Fallen Stars on the map
+			Increased Fallen Star pickup range
+			'''
+		DisplayName: Astronomer
+	}
+
+	RevivalSickness: {
+		Description: Your body cannot take revival potion any more
+		DisplayName: Too Powerful Medicine
+	}
+
+	Revival: {
+		Description: You're undying
+		DisplayName: Revival
+	}
+
+	ProfessionalCarpenter: {
+		Description:
+			'''
+			10% increased mining speed
+			Increased placement speed and range
+			'''
+		DisplayName: Professional Carpenter
+	}
+
+	HorizontalPlacement: {
+		Description: Placeable horizontally like ropes
+		DisplayName: Horizontal Placement
+	}
+
+	Carpenter: {
+		Description:
+			'''
+			10% increased mining speed
+			Increased placement speed and range
+			'''
+		DisplayName: Carpenter
+	}
+
+	DarkBlueSkyPickaxe: {
+		Description: 20% increased mining speed
+		DisplayName: Mining
+	}
+
+	CelestialPickaxe: {
+		Description: 25% increased mining speed
+		DisplayName: Mining
+	}
+
+	BlueSkyPickaxe: {
+		Description: 15% increased mining speed
+		DisplayName: Mining
+	}
+
+	Swoop: {
+		Description: Press DOWN to swoop
+		DisplayName: Swoop
+	}
+
+	SkyLantern: {
+		Description: Minor improvements to stats of movement, jump, and flight mobilities
+		DisplayName: Sky Lantern
+	}
+
+	Dash: {
+		Description:
+			'''
+			Allows the ability to dash
+			Double tap a direction
+			'''
+		DisplayName: Dash
+	}
+
+	JumpBoost: {
+		Description: Increases jump height
+		DisplayName: Jump Boost
+	}
+
+	InfiniteFlight: {
+		Description: Grants infinite wing flight
+		DisplayName: Infinite Flight
+	}
+
+	Bird: {
+		Description: Increased flight and jump mobility
+		DisplayName: Bird
+	}
+
+	MoreBobber: {
+		Description: Adds 1 bobber more
+		DisplayName: Multi Bobber
+	}
+
+	BaitReservation: {
+		Description: Decreased chance of bait consumption
+		DisplayName: Bait Reservation
+	}
+
+	AntiGraviton: {
+		Description: Pulls away enemies and hostile projectiles
+		DisplayName: Anti-Graviton
+	}
+
+	Sunset: {
+		Description:
+			'''
+			Prevents enemy spawn
+			Life regen is slightly increased
+			'''
+		DisplayName: Quiet
+	}
+
+	DarkGraySkyOreFloor: {
+		Description: Your sole hurts
+		DisplayName: Prickly
+	}
+
+	DarkBlueSkyOreFloor: {
+		Description: Slowly melting body
+		DisplayName: Meltdown
+	}
+
+	BlackHole: {
+		Description: You can't feel outside of the event horizon
+		DisplayName: Into the Black Hole
+	}
+
+	UniverseFlame: {
+		Description: Big Bang occurs in the body
+		DisplayName: Universe Flame
+	}
+
+	NuclearFusionFlame: {
+		Description: Burning with nuclear fusion
+		DisplayName: Nuclear Fusion Flame
+	}
+
+	FixedStarFlame: {
+		Description: Burning with nuclear fusion of fixed star
+		DisplayName: Fixed Star Flame
+	}
+
+	DisablingGravitation: {
+		Description: You cannot reverse gravity
+		DisplayName: Repulsion from the Sky
+	}
+
+	GravitationalAccelerating: {
+		Description: Powerful G-force applies to you
+		DisplayName: Excessive Speed
+	}
+
+	SnowCloudificated: {
+		Description:
+			'''
+			Minor improvements to stats of combat
+			Minor worsenings to stats of horizontal movement
+			'''
+		DisplayName: Snow-Cloudificated
+	}
+
+	RainCloudificated: {
+		Description:
+			'''
+			Press DOWN to swoop
+			Minor improvements to stats of combat and water movement
+			Minor worsenings to stats of damage reduction
+			'''
+		DisplayName: Rain-Cloudificated
+	}
+
+	Cloudificated: {
+		Description:
+			'''
+			Minor improvements to stats of movement and placement
+			Minor worsenings to stats of combat
+			'''
+		DisplayName: Cloudificated
+	}
+
+	Overdose: {
+		Description: You over-consumed antidote
+		DisplayName: Nausea
+	}
+
+	Detoxification: {
+		Description: Faster removing poison
+		DisplayName: Detoxification
+	}
+
+	NoHitLifeRegen: {
+		Description: Provides life regeneration during you haven't took any damage
+		DisplayName: No Hit Life Regeneration
+	}
+
+	AnotherSwiftness: {
+		Description:
+			'''
+			50% increased movement speed
+			20% increased boots speed
+			20% decreased defence
+			'''
+		DisplayName: Another Swiftness
+	}
+
+	AnotherSickness: {
+		Description: Cannot consume anymore another healing items
+		DisplayName: Another Potion Sickness
+	}
+
+	AnotherLifeRegen: {
+		Description: Increased healing amount at one time by 1 on No Hit Life Regeneration
+		DisplayName: Another Regeneration
+	}
+}
+
+Biomes: {
+	PlanteraBiome: {
+		TownNPCDialogueName: プランテラバイオーム
+		DisplayName: Plantera Planter
+	}
+
+	SunsetArea: {
+		TownNPCDialogueName: 夕日エリア
+		DisplayName: Sunset Floating Island
+	}
+
+	BlueSkyCandleZone: {
+		TownNPCDialogueName: ブルースカイキャンドルゾーン
+		DisplayName: ブルースカイキャンドルゾーン
+	}
+}
+
+InfoDisplays: {
+	DebugInfos_Saves_BSOWG_LP: {
+		DisplayName: ""
+	}
+
+	DebugInfos_Saves_BSOP_LPV: {
+		DisplayName: ""
+	}
+
+	DebugInfos_Saves_BSOP_IUS_SDBP: {
+		DisplayName: ""
+	}
+
+	DebugInfos_Saves_BKORWG_B: {
+		DisplayName: ""
+	}
+
+	DebugInfo: {
+		DisplayName: ""
+	}
+}
+
+DamageClasses: {
+	AbsoluteDamageClass: {
+		DisplayName: absolute damage
+	}
+}
+
+Keybinds: {
+	"Quick Revival": {
+		DisplayName: クイックリバイバル
+	}
+
+	"Quick Another Heal": {
+		DisplayName: クイックアナザーヒール
+	}
+}
+

@@ -1,0 +1,982 @@
+{
+	TownNPCMood: {
+		BagNPC: {
+			Content: "ここはいいね"
+			NoHome: "自然は素晴らしいけど、それでも今は家が欲しいな"
+			LoveSpace: "やっと一人になれた"
+			FarFromHome: "私の家がどこだったか、もう一度教えてくれないか？"
+			DislikeCrowded: "うぅ…もうちょっとスペースが欲しい"
+			HateCrowded: "少し窮屈に感じる"
+			LikeBiome: "自然が好きだ、森はいい場所だ"
+			DislikeBiome: "さむすぎるぅぅぅ…"
+		}
+		BagNPC2: {
+			Content: "ここはいいね"
+			NoHome: "うーん、家か…あったらいいな"
+			LoveSpace: "この辺りはとても自由な感じがする"
+			FarFromHome: "えーっと、私の家はどこだっけ？"
+			DislikeCrowded: "一か所に人が多すぎないか？"
+			HateCrowded: "うわ…人が多すぎる"
+			LikeBiome: "森っていい場所だと思わないかい？"
+			DislikeBiome: "ジャングルには気持ち悪い生き物が多すぎる、ここから出してくれ"
+		}
+	}
+	Buffs: {
+		AbsoluteLuck: {
+			DisplayName: "絶対的な幸運"
+			Description: "バッグのドロップ率が100%増加する"
+		}
+		BeginnersLuck: {
+			DisplayName: "ビギナーズラック"
+			Description: "バッグのドロップ率が25%増加する"
+		}
+		Fortune: {
+			DisplayName: "フォーチュン"
+			Description: "バッグのドロップ率が75%増加する"
+		}
+		Tier01: {
+			DisplayName: "Tier 1"
+			Description: "現在のバッグの代わりにキングスライム討伐後のバッグがドロップする"
+		}
+		Tier02: {
+			DisplayName: "Tier 2"
+			Description: "現在のバッグの代わりにデザートスカージ討伐後のバッグがドロップする"
+		}
+		Tier03: {
+			DisplayName: "Tier 3"
+			Description: "現在のバッグの代わりにクトゥルフの目討伐後のバッグがドロップする"
+		}
+		Tier04: {
+			DisplayName: "Tier 4"
+			Description: "現在のバッグの代わりにクラビュロン討伐後のバッグがドロップする"
+		}
+		Tier05_1: {
+			DisplayName: "Tier 5"
+			Description: "現在のバッグの代わりにイーターオブワールド討伐後のバッグがドロップする"
+		}
+		Tier05_2: {
+			DisplayName: "Tier 5"
+			Description: "現在のバッグの代わりにクトゥルフの脳討伐後のバッグがドロップする"
+		}
+		Tier06_1: {
+			DisplayName: "Tier 6"
+			Description: "現在のバッグの代わりにハイヴマインド討伐後のバッグがドロップする"
+		}
+		Tier06_2: {
+			DisplayName: "Tier 6"
+			Description: "現在のバッグの代わりにパーフォレーター討伐後のバッグがドロップする"
+		}
+		Tier07: {
+			DisplayName: "Tier 7"
+			Description: "現在のバッグの代わりにクイーンビー討伐後のバッグがドロップする"
+		}
+		Tier09: {
+			DisplayName: "Tier 9"
+			Description: "現在のバッグの代わりにスケルトロン討伐後のバッグがドロップする"
+		}
+		Tier08: {
+			DisplayName: "Tier 8"
+			Description: "現在のバッグの代わりにディアクロプス討伐後のバッグがドロップする"
+		}
+		Tier10: {
+			DisplayName: "Tier 10"
+			Description: "現在のバッグの代わりにスライムゴッド討伐後のバッグがドロップする"
+		}
+		Tier11: {
+			DisplayName: "Tier 11"
+			Description: "現在のバッグの代わりにウォールオブフレッシュ討伐後のバッグがドロップする"
+		}
+		Tier12: {
+			DisplayName: "Tier 12"
+			Description: "現在のバッグの代わりにクイーンスライム討伐後のバッグがドロップする"
+		}
+		Tier13: {
+			DisplayName: "Tier 13"
+			Description: "現在のバッグの代わりにアクアティックスカージ討伐後のバッグがドロップする"
+		}
+		Tier14: {
+			DisplayName: "Tier 14"
+			Description: "現在のバッグの代わりにメカボス1体討伐後のバッグがドロップする"
+		}
+		Tier15: {
+			DisplayName: "Tier 15"
+			Description: "現在のバッグの代わりにブリムストーンエレメンタル討伐後のバッグがドロップする"
+		}
+		Tier16: {
+			DisplayName: "Tier 16"
+			Description: "現在のバッグの代わりにメカボス2体討伐後のバッグがドロップする"
+		}
+		Tier17: {
+			DisplayName: "Tier 17"
+			Description: "現在のバッグの代わりにクライオジェン討伐後のバッグがドロップする"
+		}
+		Tier18: {
+			DisplayName: "Tier 18"
+			Description: "現在のバッグの代わりにメカボス3体討伐後のバッグがドロップする"
+		}
+		Tier19: {
+			DisplayName: "Tier 19"
+			Description: "現在のバッグの代わりにカラミタス討伐後のバッグがドロップする"
+		}
+		Tier20: {
+			DisplayName: "Tier 20"
+			Description: "現在のバッグの代わりにプランテラ討伐後のバッグがドロップする"
+		}
+		Tier21: {
+			DisplayName: "Tier 21"
+			Description: "現在のバッグの代わりにアナヒータ＆リヴァイアサン討伐後のバッグがドロップする"
+		}
+		Tier22: {
+			DisplayName: "Tier 22"
+			Description: "現在のバッグの代わりにアストラム・アウレウス討伐後のバッグがドロップする"
+		}
+		Tier23: {
+			DisplayName: "Tier 23"
+			Description: "現在のバッグの代わりにゴーレム討伐後のバッグがドロップする"
+		}
+		Tier24: {
+			DisplayName: "Tier 24"
+			Description: "現在のバッグの代わりにプレイグブリンガー・ゴライアス討伐後のバッグがドロップする"
+		}
+		Tier25: {
+			DisplayName: "Tier 25"
+			Description: "現在のバッグの代わりにエンプレスオブライト討伐後のバッグがドロップする"
+		}
+		Tier26: {
+			DisplayName: "Tier 26"
+			Description: "現在のバッグの代わりにデュークフィッシュロン討伐後のバッグがドロップする"
+		}
+		Tier27: {
+			DisplayName: "Tier 27"
+			Description: "現在のバッグの代わりにラヴァジャー討伐後のバッグがドロップする"
+		}
+		Tier28: {
+			DisplayName: "Tier 28"
+			Description: "現在のバッグの代わりにルナティックカルティスト討伐後のバッグがドロップする"
+		}
+		Tier29: {
+			DisplayName: "Tier 29"
+			Description: "現在のバッグの代わりにアストラム・デウス討伐後のバッグがドロップする"
+		}
+		Tier30: {
+			DisplayName: "Tier 30"
+			Description: "現在のバッグの代わりにムーンロード討伐後のバッグがドロップする"
+		}
+		Tier31: {
+			DisplayName: "Tier 31"
+			Description: "現在のバッグの代わりにプロファンドガーディアン討伐後のバッグがドロップする"
+		}
+		Tier32: {
+			DisplayName: "Tier 32"
+			Description: "現在のバッグの代わりにドラゴンフォリー討伐後のバッグがドロップする"
+		}
+		Tier33: {
+			DisplayName: "Tier 33"
+			Description: "現在のバッグの代わりにプロヴィデンス討伐後のバッグがドロップする"
+		}
+		Tier34: {
+			DisplayName: "Tier 34"
+			Description: "現在のバッグの代わりにセンティネルオブザデヴァウラー討伐後のバッグがドロップする"
+		}
+		Tier35: {
+			DisplayName: "Tier 35"
+			Description: "現在のバッグの代わりにポルターガスト討伐後のバッグがドロップする"
+		}
+		Tier36: {
+			DisplayName: "Tier 36"
+			Description: "現在のバッグの代わりにオールドデューク討伐後のバッグがドロップする"
+		}
+		Tier37: {
+			DisplayName: "Tier 37"
+			Description: "現在のバッグの代わりにデヴァウラーオブゴッド討伐後のバッグがドロップする"
+		}
+		Tier38: {
+			DisplayName: "Tier 38"
+			Description: "現在のバッグの代わりにヤロン討伐後のバッグがドロップする"
+		}
+		Tier39D: {
+			DisplayName: "Tier 39 (Exo Mechs)"
+			Description: "現在のバッグの代わりにExo Mechs討伐後のバッグがドロップする"
+		}
+		Tier39S: {
+			DisplayName: "Tier 39 (Supreme Calamitas)"
+			Description: "現在のバッグの代わりにシュプリームカラミタス討伐後のバッグがドロップする"
+		}
+		Wealth: {
+			DisplayName: "ウェルス"
+			Description: "バッグのドロップ率が50%増加する"
+		}
+	}
+	Items: {
+		ActivatorAbyss: {
+			DisplayName: "アビス起動クリスタル（スケルトロン討伐後）"
+			Tooltip: "'''\nバッグからアビスのシャドウチェストドロップを有効にするために使用\n（あなたのシャドウキーは失われず、返却される）\n'''"
+		}
+		ActivatorAbyssT2: {
+			DisplayName: "アビス起動クリスタル（リヴァイアサン討伐後）"
+			Tooltip: "バッグからリヴァイアサン討伐後のアビスルートを有効にするために使用"
+		}
+		ActivatorAbyssT3: {
+			DisplayName: "アビス起動クリスタル（ポルターガスト討伐後）"
+			Tooltip: "バッグからポルターガスト討伐後のアビスルートを有効にするために使用"
+		}
+		ActivatorCorruption: {
+			DisplayName: "不浄の起動クリスタル"
+			Tooltip: "バッグから不浄の地のルートを有効にするために使用"
+		}
+		ActivatorCrimson: {
+			DisplayName: "真紅の起動クリスタル"
+			Tooltip: "バッグから真紅の地のルートを有効にするために使用"
+		}
+		ActivatorGems: {
+			DisplayName: "輝く起動クリスタル"
+			Tooltip: "ジェムバッグからの貴重な宝石のドロップ率を増加させるために使用"
+		}
+		ActivatorGold: {
+			DisplayName: "金の起動クリスタル"
+			Tooltip: "'''\nバッグからロックされた金のチェストのドロップを有効にするために使用\n（あなたのゴールデンキーは失われず、返却される）\n'''"
+		}
+		ActivatorHallow: {
+			DisplayName: "神聖な起動クリスタル"
+			Tooltip: "バッグから聖域のルートを有効にするために使用"
+		}
+		ActivatorShadow: {
+			DisplayName: "影の起動クリスタル"
+			Tooltip: "'''\nバッグからシャドウチェストのドロップを有効にするために使用\n（あなたのシャドウキーは失われず、返却される）\n'''"
+		}
+		ActuatorBag: {
+			DisplayName: "アクチュエーターバッグ"
+			Tooltip: "999個のアクチュエーターを含む"
+		}
+		EmptyBulletBag: {
+			DisplayName: "空の弾丸バッグ"
+			Tooltip: "999個の空の弾丸を含む"
+		}
+		ExplosivePowderBag: {
+			DisplayName: "爆発性火薬バッグ"
+			Tooltip: "999個の爆発性火薬を含む"
+		}
+		FlareBag: {
+			DisplayName: "フレアバッグ"
+			Tooltip: "999個のフレアを含む"
+		}
+		HellfireArrowBag: {
+			DisplayName: "ヘルファイアアローバッグ"
+			Tooltip: "999本のヘルファイアアローを含む"
+		}
+		IcicleArrowBag: {
+			DisplayName: "つららの矢バッグ"
+			Tooltip: "999本のつららの矢を含む"
+		}
+		IcyBulletBag: {
+			DisplayName: "氷の弾丸バッグ"
+			Tooltip: "999個の氷の弾丸を含む"
+		}
+		MusketBallBag: {
+			DisplayName: "マスケット弾バッグ"
+			Tooltip: "999個のマスケット弾を含む"
+		}
+		SilverBulletBag: {
+			DisplayName: "銀の弾丸バッグ"
+			Tooltip: "999個の銀の弾丸を含む"
+		}
+		SmallActuatorBag: {
+			DisplayName: "小さなアクチュエーターバッグ"
+			Tooltip: "99個のアクチュエーターを含む"
+		}
+		SmallExplosivePowderBag: {
+			DisplayName: "小さな爆発性火薬バッグ"
+			Tooltip: "99個の爆発性火薬を含む"
+		}
+		UnholyArrowBag: {
+			DisplayName: "アンホーリーアローバッグ"
+			Tooltip: "999本のアンホーリーアローを含む"
+		}
+		WireBag: {
+			DisplayName: "ワイヤーバッグ"
+			Tooltip: "999個のワイヤーを含む"
+		}
+		WoodenArrowBag: {
+			DisplayName: "木の矢バッグ"
+			Tooltip: "999本の木の矢を含む"
+		}
+		Bag00: {
+			DisplayName: "ボス前バッグ"
+			Tooltip: "'''\n[c/BDBDBD:ボス前]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\nこのバッグはMod設定でオン/オフを切り替え可能\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag01: {
+			DisplayName: "キングスライム討伐後のバッグ"
+			Tooltip: "'''\n[c/0080FF:Tier 1 バッグ]\n[c/0080FF:キングスライム討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag02: {
+			DisplayName: "デザートスカージ討伐後のバッグ"
+			Tooltip: "'''\n[c/4C312A:Tier 2 バッグ]\n[c/4C312A:デザートスカージ討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag03: {
+			DisplayName: "クトゥルフの目討伐後のバッグ"
+			Tooltip: "'''\n[c/A0A0A0:Tier 3 バッグ]\n[c/A0A0A0:クトゥルフの目討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag04: {
+			DisplayName: "クラビュロン討伐後のバッグ"
+			Tooltip: "'''\n[c/5F6EFF:Tier 4 バッグ]\n[c/5F6EFF:クラビュロン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag05_1: {
+			DisplayName: "イーターオブワールド討伐後のバッグ"
+			Tooltip: "'''\n[c/604D4F:Tier 5 バッグ]\n[c/604D4F:イーターオブワールド討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag05_2: {
+			DisplayName: "クトゥルフの脳討伐後のバッグ"
+			Tooltip: "'''\n[c/CA7073:Tier 5 バッグ]\n[c/CA7073:クトゥルフの脳討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag06_1: {
+			DisplayName: "ハイヴマインド討伐後のバッグ"
+			Tooltip: "'''\n[c/7759E3:Tier 6 バッグ]\n[c/7759E3:ハイヴマインド討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag06_2: {
+			DisplayName: "パーフォレーター討伐後のバッグ"
+			Tooltip: "'''\n[c/B44448:Tier 6 バッグ]\n[c/B44448:パーフォレーター討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag07: {
+			DisplayName: "クイーンビー討伐後のバッグ"
+			Tooltip: "'''\n[c/CCC741:Tier 7 バッグ]\n[c/CCC741:クイーンビー討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag09: {
+			DisplayName: "スケルトロン討伐後のバッグ"
+			Tooltip: "'''\n[c/B29B80:Tier 9 バッグ]\n[c/B29B80:スケルトロン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag08: {
+			DisplayName: "ディアクロプス討伐後のバッグ"
+			Tooltip: "'''\n[c/A19899:Tier 8 バッグ]\n[c/A19899:ディアクロプス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag10: {
+			DisplayName: "スライムゴッド討伐後のバッグ"
+			Tooltip: "'''\n[c/5647FF:Tier][c/D34249: 10 バッグ]\n[c/5647FF:スライム][c/D34249:ゴッド討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag11: {
+			DisplayName: "ウォールオブフレッシュ討伐後のバッグ"
+			Tooltip: "'''\n[c/9E2F53:Tier 11 バッグ]\n[c/9E2F53:ウォールオブフレッシュ討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag12: {
+			DisplayName: "クイーンスライム討伐後のバッグ"
+			Tooltip: "'''\n[c/DB90CF:Tier 12 バッグ]\n[c/DB90CF:クイーンスライム討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag17: {
+			DisplayName: "クライオジェン討伐後のバッグ"
+			Tooltip: "'''\n[c/57D2FF:Tier 17 バッグ]\n[c/57D2FF:クライオジェン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag14: {
+			DisplayName: "メカボス1体討伐後のバッグ"
+			Tooltip: "'''\n[c/B3B3B3:Tier 14 バッグ]\n[c/B3B3B3:メカボス1体討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag13: {
+			DisplayName: "アクアティックスカージ討伐後のバッグ"
+			Tooltip: "'''\n[c/49A677:Tier 13 バッグ]\n[c/49A677:アクアティックスカージ討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag16: {
+			DisplayName: "メカボス2体討伐後のバッグ"
+			Tooltip: "'''\n[c/B3B3B3:Tier 16 バッグ]\n[c/B3B3B3:メカボス2体討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag15: {
+			DisplayName: "ブリムストーンエレメンタル討伐後のバッグ"
+			Tooltip: "'''\n[c/A31C1C:Tier 15 バッグ]\n[c/A31C1C:ブリムストーンエレメンタル討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag18: {
+			DisplayName: "メカボス3体討伐後のバッグ"
+			Tooltip: "'''\n[c/B3B3B3:Tier 18 バッグ]\n[c/B3B3B3:メカボス3体討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag19: {
+			DisplayName: "カラミタス討伐後のバッグ"
+			Tooltip: "'''\n[c/8A2030:Tier 19 バッグ]\n[c/8A2030:カラミタス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag20: {
+			DisplayName: "プランテラ討伐後のバッグ"
+			Tooltip: "'''\n[c/527D08:Tier 20 バッグ]\n[c/527D08:プランテラ討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag21: {
+			DisplayName: "アナヒータ＆リヴァイアサン討伐後のバッグ"
+			Tooltip: "'''\n[c/0C797A:Tier 21 バッグ]\n[c/0C797A:アナヒータ＆リヴァイアサン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag22: {
+			DisplayName: "アストラム・アウレウス討伐後のバッグ"
+			Tooltip: "'''\n[c/206F85:Tier 22 バッグ]\n[c/206F85:アストラム・アウレウス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag23: {
+			DisplayName: "ゴーレム討伐後のバッグ"
+			Tooltip: "'''\n[c/8D3800:Tier 23 バッグ]\n[c/8D3800:ゴーレム討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag24: {
+			DisplayName: "プレイグブリンガー・ゴライアス討伐後のバッグ"
+			Tooltip: "'''\n[c/284246:Tier 24 バッグ]\n[c/284246:プレイグブリンガー・ゴライアス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag25: {
+			DisplayName: "エンプレスオブライト討伐後のバッグ"
+			Tooltip: "'''\n[c/FFFA39:Tier 25 バッグ]\n[c/FFFA39:エンプレスオブライト討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag26: {
+			DisplayName: "デュークフィッシュロン討伐後のバッグ"
+			Tooltip: "'''\n[c/2BAF72:Tier 26 バッグ]\n[c/2BAF72:デュークフィッシュロン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag27: {
+			DisplayName: "ラヴァジャー討伐後のバッグ"
+			Tooltip: "'''\n[c/715B5B:Tier 27 バッグ]\n[c/715B5B:ラヴァジャー討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag28: {
+			DisplayName: "ルナティックカルティスト討伐後のバッグ"
+			Tooltip: "'''\n[c/3454BE:Tier 28 バッグ]\n[c/3454BE:ルナティックカルティスト討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag29: {
+			DisplayName: "アストラム・デウス討伐後のバッグ"
+			Tooltip: "'''\n[c/ED5D53:Tier 2][c/6DF2C4:9 バッグ]\n[c/ED5D53:アストラム・][c/6DF2C4:デウス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag30: {
+			DisplayName: "ムーンロード討伐後のバッグ"
+			Tooltip: "'''\n[c/21A08D:Tier 30 バッグ]\n[c/21A08D:ムーンロード討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag31: {
+			DisplayName: "プロファンドガーディアン討伐後のバッグ"
+			Tooltip: "'''\n[c/7A423B:Tier 31 バッグ]\n[c/7A423B:プロファンドガーディアン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag32: {
+			DisplayName: "ドラゴンフォリー討伐後のバッグ"
+			Tooltip: "'''\n[c/B36650:Tier 32 バッグ]\n[c/B36650:ドラゴンフォリー討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag33: {
+			DisplayName: "プロヴィデンス討伐後のバッグ"
+			Tooltip: "'''\n[c/BE906A:Tier 33 バッグ]\n[c/BE906A:プロヴィデンス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag34: {
+			DisplayName: "センティネルオブザデヴァウラー討伐後のバッグ"
+			Tooltip: "'''\n[c/73C1DD:Tie][c/7F3E72:r 34][c/1D1637: バッグ]\n[c/73C1DD:センティネル][c/7F3E72:オブザ][c/1D1637:デヴァウラー討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag35: {
+			DisplayName: "ポルターガスト討伐後のバッグ"
+			Tooltip: "'''\n[c/454E63:Tier 35 バッグ]\n[c/454E63:ポルターガスト討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag36: {
+			DisplayName: "オールドデューク討伐後のバッグ"
+			Tooltip: "'''\n[c/715A47:Tier 36 バッグ]\n[c/715A47:オールドデューク討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag37: {
+			DisplayName: "デヴァウラーオブゴッド討伐後のバッグ"
+			Tooltip: "'''\n[c/48A4B1:Tier 3][c/BD61B4:7 バッグ]\n[c/48A4B1:デヴァウラー][c/BD61B4:オブゴッド討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag38: {
+			DisplayName: "ヤロン討伐後のバッグ"
+			Tooltip: "'''\n[c/B4832E:Tier 3][c/B74047:8 バッグ]\n[c/B4832E:ヤ][c/B74047:ロン討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n'''"
+		}
+		Bag39D: {
+			DisplayName: "Exo Mechs討伐後のバッグ"
+			Tooltip: "'''\n[c/4F5866:Tier 39 バッグ]\n[c/4F5866:Exo Mechs討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n[c/FF8080:Exo Mechsとシュプリームカラミタスは同じTierを共有する\n両方が倒された場合、両方のバッグがそれぞれ50%の確率でドロップする]\n'''"
+		}
+		Bag39S: {
+			DisplayName: "シュプリームカラミタス討伐後のバッグ"
+			Tooltip: "'''\n[c/E34F4F:Tier 39 バッグ]\n[c/E34F4F:シュプリームカラミタス討伐後]のルートと装備を含む\n[c/2E64FE:右クリックで開ける]\n[c/9A2EFE:左クリックで10個素早く開ける]\n[c/FF8080:/bag コマンドでドロップの依存関係に関する情報を表示]\n[c/FF8080:Exo Mechsとシュプリームカラミタスは同じTierを共有する\n両方が倒された場合、両方のバッグがそれぞれ50%の確率でドロップする]\n'''"
+		}
+		Info01_Bags: {
+			DisplayName: "バッグに関する情報"
+			Tooltip: "'''\nこのショップのアイテムは情報提供のみを目的としており、購入するためのものではない\n-Bags Modは全てのボスに対応する41種類のバッグを追加し、それぞれ異なるドロップを持つ\n-ドロップするバッグは、あなたが倒したCalamityの進行状況における最後のボスに依存する\n-バッグは全ての敵から5～10%の確率でドロップする（像からスポーンした敵は除く）\n 確率はその時点での敵のファームのしやすさに依存する\n-また、一部の弾薬タイプのバッグをショップに追加し、弾薬の購入を楽にする\n-このModは、ファーミングや待機に少し焦点を当てる代わりに、アクションにもう少し焦点を当てる目的で作成された\n（注意：AlchemistNPCまたはAlchemistNPC Liteを使用している場合、オペレーターを無効にすることを推奨する なぜなら彼女はBags Modのシステムを壊す可能性があるからだ）\n'''"
+		}
+		Info02_Command: {
+			DisplayName: "/bag コマンド"
+			Tooltip: "'''\n使用法：[c/FF5500:'/bag c'] で現在のバッグに関する情報を表示\n[c/FF5500:'/bag {Tier}'] (可能なTierは0-37) で任意のバッグの情報を表示\nこのコマンドは、各バッグのドロップの依存関係について知る必要がある全てを表示する\nまた、これらのドロップが依存する要件が満たされているかどうかも教えてくれる\n新しいTierを解放するたび、言い換えればボスを倒すたびにコマンドを使用することを推奨する\n'''"
+		}
+		Info03_DT: {
+			DisplayName: "ドロップテーブルドキュメント"
+			Tooltip: "'''\nドロップテーブルや全てのドロップの詳細に興味がある場合は、\nModリストでMod情報を入力し、ホームページボタンをクリックする\n私のDiscordサーバーにリンクされ、そこで#drop-tablesチャンネルを見つけることができる\nそこには全てのドロップテーブル、ドロップ確率などが記載されたドキュメントが含まれている\nドキュメントはMod自体がアップデートされるたびに更新される\n'''"
+		}
+		Info04_DM: {
+			DisplayName: "難易度モードに関する情報"
+			Tooltip: "'''\n難易度モードはそれほど多くを変えるものではない\nエキスパートまたはリベンジェンス限定のドロップは、バッグからもエキスパートまたはリベンジェンス限定である\nデスモードではバッグマニピュレーターのポーションの価格が2倍になる\n'''"
+		}
+		Info05_Dep: {
+			DisplayName: "依存関係に関する情報"
+			Tooltip: "'''\nドロップテーブルには多数の依存関係がある\n特定のボスがまだ倒されていないためにバッグの外で入手する方法がない場合、\nバッグからアイテムを入手することはできない\n例：クライオジェンをスキップした場合、ツインズ討伐後のバッグからクライオニック鉱石はドロップしない\n\n全ての依存関係は/bagsを使用すると一覧表示される\n/bagsの使用方法については、\nこのショップの2番目の情報アイテムを読むこと\n'''"
+		}
+		Info06_AC: {
+			DisplayName: "起動クリスタルに関する情報"
+			Tooltip: "'''\n最初に起動する必要がある特定のドロップがある\nロックされた金のチェスト、シャドウチェスト、\nアビスチェスト、不浄、真紅、聖域のドロップ用の起動クリスタルがある\nこれらのドロップが実際にドロップするためには、起動クリスタルをクラフトして使用する必要がある\n（クリスタルが起動されているかどうかは、現在のワールドで使用されたかどうかではなく、プレイヤーが使用したかどうかに基づくため、複数のプレイヤーがいる場合は複数のクリスタルが必要になる）\n\nクリスタルのレシピ：\n金：ゴールデンキー、骨20個\n影：シャドウキー\nアビス：シャドウキー、アビスグラベル20個、プランティマッシュ20個\n不浄：エボンストーンブロック50個、夜のソウル5個、腐肉5個\n真紅：クリムストーンブロック50個、夜のソウル5個、脊椎5個\n聖域：パールストーンブロック50個、光のソウル5個、ピクシーダスト10個\n'''"
+		}
+		Info07_MiniBags: {
+			DisplayName: "ミニボス＆イベントバッグに関する情報"
+			Tooltip: "'''\nミニボス＆イベントバッグは、\nそれぞれのイベント中や、それぞれのミニボスが\n以前に倒されている場合に他のバッグからドロップする、より小さなバージョンのバッグである\n一部のミニボスバッグのドロップ率は特定の討伐数で増加する（詳細は/bagsを参照）\n\nミニボス＆イベントバッグの異なるバリアントは：\nジャイアントクラム、アースエレメンタル、3つのバイオームミミック、マーシャン、パンプキンムーン、フロストムーン\n（さらに近日追加予定！）\n'''"
+		}
+		Info08_LuckPotions: {
+			DisplayName: "ラックポーションに関する情報"
+			Tooltip: "'''\n重要：ラックポーションはもはや4つのフラグメントで作られていない\nそれらは削除された\n\n4種類の異なるハマグリを釣ることができるようになる\n1つは森林バイオーム、1つは不浄、\n1つは真紅、1つは聖域で釣れる\nそしてハマグリを開けると、真珠を手に入れるチャンスがある\nこれらは現在バッグのドロップ率を増加させるラックポーションのクラフトに使用される\n'''"
+		}
+		Info09_Manipulation: {
+			DisplayName: "操作に関する情報"
+			Tooltip: "'''\nバッグマニピュレーターのショップを使用してTierポーションを購入できる\n彼女は過去に倒した全てのボスのポーションを販売することができる\nこれらのポーションは、敵からドロップするバッグの種類を短時間変更し、\nより低いTierのバッグへのアクセスを提供する\n'''"
+		}
+		Info10_AmmoBags: {
+			DisplayName: "弾薬バッグに関する情報"
+			Tooltip: "'''\n大量の弾薬を購入するのを楽にするいくつかの弾薬バッグがある\nそれらはそれぞれの弾薬タイプと同じショップで見つけることができる\n価格は同じで、開けると99/999個のアイテムがドロップする、それだけだ\n'''"
+		}
+		Info11_Progression: {
+			DisplayName: "推奨ボス進行"
+			Tooltip: "'''\n言い換えれば、このModの全てのバッグを使用し、どれもスキップしないために使用する必要がある進行\nハードモード前：1. King Slime, 2. Desert Scourge, 3. Eye of Cthulhu, 4. Crabulon, 5. Eater of Worlds/Brain of Cthulhu,\n6. Hive Mind/Perforators, 7. Queen Bee, 8. Deerclops, 9. Skeletron, 10. Slime God, 11. Wall of Flesh\n\nハードモード：12. Queen Slime, 13. Cryogen, 14. One Mechanical Boss, 15. Aquatic Scourge, 16. Two Mechanical Bosses, 17. Brimstone Elemental,\n18. Three Mechanical Bosses, 19. Calamitas, 20. Plantera, 21. Anahita and Leviathan, 22. Astrum Aureus, 23. Golem,\n24. Plaguebringer Goliath, 25. Empress of Light, 26. Duke Fishron, 27. Ravager, 28. Lunatic Cultist, 29. Astrum Deus, 30. Moon Lord\n\nムーンロード後：31. Profaned Guardians, 32. Dragonfolly, 33. Providence, 34. Sentinels of the Devourer, 35. Polterghast\n36. The Old Duke, 37. The Devourer of Gods, 38. Yharon, 39. Exo Mechs and Supreme Calamitas\n'''"
+		}
+		ClamCorrupt: {
+			DisplayName: "不浄なハマグリ"
+			Tooltip: "'''\n不浄バイオームで釣れる\n紫色の真珠を含むことがある\n右クリックで開ける\n'''"
+		}
+		ClamCrimson: {
+			DisplayName: "真紅のハマグリ"
+			Tooltip: "'''\n真紅バイオームで釣れる\n赤色の真珠を含むことがある\n右クリックで開ける\n'''"
+		}
+		ClamForest: {
+			DisplayName: "硬いハマグリ"
+			Tooltip: "'''\n森林バイオームで釣れる\n緑色の真珠を含むことがある\n右クリックで開ける\n'''"
+		}
+		ClamHallowed: {
+			DisplayName: "神聖なハマグリ"
+			Tooltip: "'''\n聖域バイオームで釣れる\n青色の真珠を含むことがある\n右クリックで開ける\n'''"
+		}
+		PearlBlue: {
+			DisplayName: "青い真珠"
+			Tooltip: "'''\n神聖なハマグリから入手\nフォーチュンと絶対的な幸運のポーションに使用\n'''"
+		}
+		PearlGreen: {
+			DisplayName: "緑の真珠"
+			Tooltip: "'''\n硬いハマグリから入手\nビギナーズと絶対的な幸運のポーションに使用\n'''"
+		}
+		PearlPurple: {
+			DisplayName: "紫の真珠"
+			Tooltip: "'''\n不浄なハマグリから入手\nウェルス、フォーチュン、絶対的な幸運のポーションに使用\n'''"
+		}
+		PearlRed: {
+			DisplayName: "赤い真珠"
+			Tooltip: "'''\n真紅のハマグリから入手\nウェルス、フォーチュン、絶対的な幸運のポーションに使用\n'''"
+		}
+		PotionofAbsoluteLuck: {
+			DisplayName: "絶対的な幸運のポーション"
+			Tooltip: "'''\n絶対的な幸運バフを付与し、バッグのドロップ率を100%増加させる\nフォーチュン、ウェルス、ビギナーズラックとは重複しない\n'''"
+		}
+		PotionofBeginnersLuck: {
+			DisplayName: "ビギナーズラックのポーション"
+			Tooltip: "'''\nビギナーズラックバフを付与し、バッグのドロップ率を25%増加させる\n絶対的な幸運、フォーチュン、ウェルスとは重複しない\n'''"
+		}
+		PotionofFortune1: {
+			DisplayName: "フォーチュンのポーション"
+			Tooltip: "'''\nフォーチュンバフを付与し、バッグのドロップ率を75%増加させる\n絶対的な幸運、ウェルス、ビギナーズラックとは重複しない\n'''"
+		}
+		PotionofFortune2: {
+			DisplayName: "フォーチュンのポーション"
+			Tooltip: "'''\nフォーチュンバフを付与し、バッグのドロップ率を75%増加させる\n絶対的な幸運、ウェルス、ビギナーズラックとは重複しない\n'''"
+		}
+		PotionofWealth1: {
+			DisplayName: "ウェルスのポーション"
+			Tooltip: "'''\nウェルスバフを付与し、バッグのドロップ率を50%増加させる\n絶対的な幸運、フォーチュン、ビギナーズラックとは重複しない\n'''"
+		}
+		PotionofWealth2: {
+			DisplayName: "ウェルスのポーション"
+			Tooltip: "'''\nウェルスバフを付与し、バッグのドロップ率を50%増加させる\n絶対的な幸運、フォーチュン、ビギナーズラックとは重複しない\n'''"
+		}
+		Mini_CorruptMimic: {
+			DisplayName: "不浄なミミックバッグ"
+			Tooltip: "'''\n不浄なミミックのルートを含む\nプレイヤーが不浄の起動クリスタルを使用した場合のみ入手可能\n'''"
+		}
+		Mini_CrimsonMimic: {
+			DisplayName: "真紅のミミックバッグ"
+			Tooltip: "'''\n真紅のミミックのルートを含む\nプレイヤーが真紅の起動クリスタルを使用した場合のみ入手可能\n'''"
+		}
+		Mini_EarthElemental: {
+			DisplayName: "アースエレメンタルバッグ"
+			Tooltip: "'''\nアースエレメンタルのルートを含む\nアースエレメンタルが以前に倒されている場合のみ入手可能\n'''"
+		}
+		Mini_FrostMoon: {
+			DisplayName: "フロストムーンバッグ"
+			Tooltip: "'''\nフロストムーンのルートを含む\n全てのフロストムーンボスが以前に倒されている場合のみ入手可能\nフロストムーンの敵からもドロップすることがある\n'''"
+		}
+		Mini_Gem: {
+			DisplayName: "ジェムバッグ"
+			Tooltip: "'''\n一種類の宝石を含む\n全てのハードモード前のバッグからドロップすることがある（後になるほど珍しくなる）\n'''"
+		}
+		Mini_GiantClam: {
+			DisplayName: "ジャイアントクラムバッグ"
+			Tooltip: "'''\nジャイアントクラムのルートを含む\nジャイアントクラムが以前に倒されている場合のみ入手可能\n'''"
+		}
+		Mini_HallowedMimic: {
+			DisplayName: "神聖なミミックバッグ"
+			Tooltip: "'''\n神聖なミミックのルートを含む\nプレイヤーが神聖な起動クリスタルを使用した場合のみ入手可能\n'''"
+		}
+		Mini_HMOre: {
+			DisplayName: "ハードモード鉱石バッグ"
+			Tooltip: "'''\n初期ハードモードの鉱石を含む\nCalamity Configの'Early Hardmode Progression Rework'がオンの場合のみ入手可能\n現在ワールドに存在する鉱石のみドロップする\n'''"
+		}
+		Mini_Martian: {
+			DisplayName: "マーシャンバッグ"
+			Tooltip: "'''\nマーシャンマッドネスのルートを含む\nマーシャンが以前に倒されている場合のみ入手可能\nマーシャンマッドネスの敵からもドロップすることがある\n'''"
+		}
+		Mini_PumpkinMoon: {
+			DisplayName: "パンプキンムーンバッグ"
+			Tooltip: "'''\nパンプキンムーンのルートを含む\n全てのパンプキンムーンボスが以前に倒されている場合のみ入手可能\nパンプキンムーンの敵からもドロップすることがある\n'''"
+		}
+		PotionTier01: {
+			DisplayName: "Tier 1 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにキングスライム討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier02: {
+			DisplayName: "Tier 2 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにデザートスカージ討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier03: {
+			DisplayName: "Tier 3 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクトゥルフの目討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier04: {
+			DisplayName: "Tier 4 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクラビュロン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier05_1: {
+			DisplayName: "Tier 5 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにイーターオブワールド討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier05_2: {
+			DisplayName: "Tier 5 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクトゥルフの脳討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier06_1: {
+			DisplayName: "Tier 6 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにハイヴマインド討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier06_2: {
+			DisplayName: "Tier 6 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにパーフォレーター討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier07: {
+			DisplayName: "Tier 7 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクイーンビー討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier09: {
+			DisplayName: "Tier 9 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにスケルトロン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier08: {
+			DisplayName: "Tier 8 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにディアクロプス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier10: {
+			DisplayName: "Tier 10 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにスライムゴッド討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier11: {
+			DisplayName: "Tier 11 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにウォールオブフレッシュ討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier12: {
+			DisplayName: "Tier 12 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクイーンスライム討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier17: {
+			DisplayName: "Tier 17 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにクライオジェン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier14: {
+			DisplayName: "Tier 14 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにメカボス1体討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier13: {
+			DisplayName: "Tier 13 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにアクアティックスカージ討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier16: {
+			DisplayName: "Tier 16 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにメカボス2体討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier15: {
+			DisplayName: "Tier 15 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにブリムストーンエレメンタル討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier18: {
+			DisplayName: "Tier 18 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにメカボス3体討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier19: {
+			DisplayName: "Tier 19 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにカラミタス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier20: {
+			DisplayName: "Tier 20 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにプランテラ討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier21: {
+			DisplayName: "Tier 21 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにアナヒータ＆リヴァイアサン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier22: {
+			DisplayName: "Tier 22 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにアストラム・アウレウス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier23: {
+			DisplayName: "Tier 23 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにゴーレム討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier24: {
+			DisplayName: "Tier 24 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにプレイグブリンガー・ゴライアス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier25: {
+			DisplayName: "Tier 25 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにエンプレスオブライト討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier26: {
+			DisplayName: "Tier 26 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにデュークフィッシュロン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier27: {
+			DisplayName: "Tier 27 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにラヴァジャー討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier28: {
+			DisplayName: "Tier 28 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにルナティックカルティスト討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier29: {
+			DisplayName: "Tier 29 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにアストラム・デウス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier30: {
+			DisplayName: "Tier 30 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにムーンロード討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier31: {
+			DisplayName: "Tier 31 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにプロファンドガーディアン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier32: {
+			DisplayName: "Tier 32 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにドラゴンフォリー討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier33: {
+			DisplayName: "Tier 33 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにプロヴィデンス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier34: {
+			DisplayName: "Tier 34 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにセンティネルオブザデヴァウラー討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier35: {
+			DisplayName: "Tier 35 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにポルターガスト討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier36: {
+			DisplayName: "Tier 36 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにオールドデューク討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier37: {
+			DisplayName: "Tier 37 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにデヴァウラーオブゴッド討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier38: {
+			DisplayName: "Tier 38 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにヤロン討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier39D: {
+			DisplayName: "Tier 39 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにExo Mechs討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+		PotionTier39S: {
+			DisplayName: "Tier 39 ポーション"
+			Tooltip: "'''\nワールドでドロップするバッグを操作する\n5分間、現在のバッグの代わりにシュプリームカラミタス討伐後のバッグがドロップする\nこれはプレイヤーが敵を倒した場合のみ機能する\n'''"
+		}
+	}
+	NPCs: {
+		BagNPC: {
+			DisplayName: "バッグの専門家"
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				DislikeBiome: "さむすぎるぅぅぅ…"
+				LikeBiome: "自然が好きだ、森はいい場所だ"
+				HateCrowded: "少し窮屈に感じる"
+				DislikeCrowded: "うぅ…もうちょっとスペースが欲しい"
+				LoveSpace: "やっと一人になれた"
+				FarFromHome: "私の家がどこだったか、もう一度教えてくれないか？"
+				NoHome: "自然は素晴らしいけど、それでも今は家が欲しいな"
+				Content: "ここはいいね"
+			}
+			Census: {
+				SpawnCondition: "条件不明"
+			}
+		}
+		BagNPC2: {
+			DisplayName: "バッグマニピュレーター"
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				DislikeBiome: "ジャングルには気持ち悪い生き物が多すぎる、ここから出してくれ"
+				LikeBiome: "森っていい場所だと思わないかい？"
+				HateCrowded: "うわ…人が多すぎる"
+				DislikeCrowded: "一か所に人が多すぎないか？"
+				LoveSpace: "この辺りはとても自由な感じがする"
+				FarFromHome: "えーっと、私の家はどこだっけ？"
+				NoHome: "うーん、家か…あったらいいな"
+				Content: "ここはいいね"
+			}
+			Census: {
+				SpawnCondition: "条件不明"
+			}
+		}
+	}
+	Conditions: {
+		PotionTier39D: "Tier 39 ポーション"
+		PotionTier38: "Tier 38 ポーション"
+		PotionTier37: "Tier 37 ポーション"
+		PotionTier36: "Tier 36 ポーション"
+		PotionTier35: "Tier 35 ポーション"
+		PotionTier34: "Tier 34 ポーション"
+		PotionTier33: "Tier 33 ポーション"
+		PotionTier32: "Tier 32 ポーション"
+		PotionTier31: "Tier 31 ポーション"
+		PotionTier30: "Tier 30 ポーション"
+		PotionTier29: "Tier 29 ポーション"
+		PotionTier28: "Tier 28 ポーション"
+		PotionTier27: "Tier 27 ポーション"
+		PotionTier26: "Tier 26 ポーション"
+		PotionTier25: "Tier 25 ポーション"
+		PotionTier24: "Tier 24 ポーション"
+		PotionTier23: "Tier 23 ポーション"
+		PotionTier22: "Tier 22 ポーション"
+		PotionTier21: "Tier 21 ポーション"
+		PotionTier20: "Tier 20 ポーション"
+		PotionTier19: "Tier 19 ポーション"
+		PotionTier18: "Tier 18 ポーション"
+		PotionTier17: "Tier 17 ポーション"
+		PotionTier16: "Tier 16 ポーション"
+		PotionTier15: "Tier 15 ポーション"
+		PotionTier14: "Tier 14 ポーション"
+		PotionTier13: "Tier 13 ポーション"
+		PotionTier12: "Tier 12 ポーション"
+		PotionTier11: "Tier 11 ポーション"
+		PotionTier10: "Tier 10 ポーション"
+		PotionTier09: "Tier 9 ポーション"
+		PotionTier08: "Tier 8 ポーション"
+		PotionTier07: "Tier 7 ポーション"
+		PotionTier06_2: "Tier 6 ポーション"
+		PotionTier06_1: "Tier 6 ポーション"
+		PotionTier05_2: "Tier 5 ポーション"
+		PotionTier05_1: "Tier 5 ポーション"
+		PotionTier04: "Tier 4 ポーション"
+		PotionTier03: "Tier 3 ポーション"
+		PotionTier02: "Tier 2 ポーション"
+		PotionTier01: "Tier 1 ポーション"
+		PotionTier39S: "Tier 39 ポーション"
+	}
+	Configs: {
+		ModConfiguration: {
+			keys_droprate: {
+				Tooltip: "このオプションで金と影の鍵のドロップ率を増減できる"
+				Label: "金と影の鍵のレアリティ"
+			}
+			keys: {
+				Tooltip: "'''\nこのオプションでバッグから金と影の鍵がドロップするかを有効/無効にできる\n2つのアイテムを含む：シャドウキー、ゴールデンキー（ダンジョンで開けた場合のみ）\n'''"
+				Label: "金と影の鍵"
+			}
+			Headers: {
+				Golden: "金と影の鍵の変更"
+				ShadowKeysModification: "金と影の鍵の変更"
+				BiomeChestKeysModification: "バイオームチェストキーの変更"
+				ShrineItemModification: "祠アイテムの変更"
+				LifeUpgradeModification: "ライフアップグレードの変更"
+				Mounts: "マウント＆ツールの変更"
+				ToolsModification: "マウント＆ツールの変更"
+				MoneyModification: "お金の変更"
+				AccessoryModification: "アクセサリーの変更"
+				WeaponModification: "武器の変更"
+				OresModification: "鉱石の変更"
+				MaterialModification: "素材の変更"
+				General: "一般"
+			}
+			biomechestkeys_droprate: {
+				Tooltip: "このオプションでバイオームチェストキーのドロップ率を増減できる"
+				Label: "バイオームチェストキーのレアリティ"
+			}
+			biomechestkeys: {
+				Tooltip: "'''\nこのオプションでバッグからバイオームチェストキーがドロップするかを有効/無効にできる\nダンジョンのバイオームチェストキーの入手確率が少し上がるのが気にならなければ、これを無効にしないこと\n'''"
+				Label: "バイオームチェストキー"
+			}
+			shrineitems_droprate: {
+				Tooltip: "このオプションで祠アイテムのドロップ率を増減できる"
+				Label: "祠アイテムのレアリティ"
+			}
+			shrineitems: {
+				Tooltip: "'''\nこのオプションでバッグから祠アイテムがドロップするかを有効/無効にできる\n非常にレアないくつかの祠アイテムのみを含むため、無効にしてもあまり変わらない\n'''"
+				Label: "祠アイテム"
+			}
+			lifeupgrades_droprate: {
+				Tooltip: "このオプションでライフアップグレードのドロップ率を増減できる"
+				Label: "ライフアップグレードのレアリティ"
+			}
+			lifeupgrades: {
+				Tooltip: "'''\nこのオプションでバッグからライフアップグレードがドロップするかを有効/無効にできる\n2つのアイテムを含む：ライフクリスタル、ライフフルーツ\n'''"
+				Label: "ライフアップグレード"
+			}
+			mountstools_droprate: {
+				Tooltip: "このオプションでマウント＆ツールのドロップ率を増減できる"
+				Label: "マウント＆ツールのレアリティ"
+			}
+			mountstools: {
+				Tooltip: "'''\nこのオプションでバッグからマウント＆ツールがドロップするかを有効/無効にできる\nいくつかのアイテム（例：スライミーサドル、トーレンシャルティアー）のみを含むため、無効にしてもあまり変わらない\n'''"
+				Label: "マウント＆ツール"
+			}
+			money_droprate: {
+				Tooltip: "このオプションでお金のドロップ率を増減できる"
+				Label: "お金のレアリティ"
+			}
+			money: {
+				Tooltip: "'''\nこのオプションでバッグからお金がドロップするかを有効/無効にできる\nお金のブーストが全く不要な場合は、これを無効にする\n'''"
+				Label: "お金"
+			}
+			accessories_droprate: {
+				Tooltip: "このオプションでアクセサリーのドロップ率を増減できる"
+				Label: "アクセサリーのレアリティ"
+			}
+			accessories: {
+				Tooltip: "'''\nこのオプションでバッグからアクセサリーがドロップするかを有効/無効にできる\n警告：無効にするとバッグから多くのレアドロップが削除される アクセサリーである伝説のアイテムも無効になる\n'''"
+				Label: "アクセサリー"
+			}
+			weapons_droprate: {
+				Tooltip: "このオプションで武器のドロップ率を増減できる"
+				Label: "武器のレアリティ"
+			}
+			weapons: {
+				Tooltip: "'''\nこのオプションでバッグから武器がドロップするかを有効/無効にできる\n警告：無効にするとバッグからほとんどのレアドロップが削除される 武器である伝説のアイテムも無効になる\n'''"
+				Label: "武器"
+			}
+			ores_droprate: {
+				Tooltip: "このオプションで鉱石のドロップ率を増減できる"
+				Label: "鉱石のレアリティ"
+			}
+			ores: {
+				Tooltip: "'''\nこのオプションでバッグから鉱石がドロップするかを有効/無効にできる\n手に入れる鉱石を100%自分で採掘したい場合は、これを無効にする\n'''"
+				Label: "鉱石"
+			}
+			material_droprate: {
+				Tooltip: "このオプションで素材のドロップ率を増減できる"
+				Label: "素材のレアリティ"
+			}
+			material: {
+				Tooltip: "'''\nこのオプションでバッグから素材がドロップするかを有効/無効にできる\n警告：素材は最も一般的なドロップである\nこれを無効にすると多くのバッグが空になる\n'''"
+				Label: "素材"
+			}
+			info: {
+				Tooltip: "このオプションは、コマンドについて既に知っている場合にワールドに参加した際にチャットが情報メッセージを投稿するのを防ぐ"
+				Label: "情報メッセージ"
+			}
+			bagnpc: {
+				Tooltip: "このオプションは、無効にするとバッグの専門家タウンNPCのスポーンを防ぐ"
+				Label: "バッグの専門家"
+			}
+			b0: {
+				Tooltip: "このオプションは、ボスを倒す前にボス前バッグがドロップするかを有効/無効にする"
+				Label: "ボス前バッグ"
+			}
+			dropratechange: {
+				Tooltip: "もしドロップ率が高すぎると感じるなら、ここでバッグのドロップ率を下げることができる 例えば、0.5はデフォルトのドロップ率の50%を意味する"
+				Label: "バッグのドロップ率"
+			}
+			DisplayName: "Mod設定"
+		}
+	}
+}

@@ -1,0 +1,3638 @@
+GenericTooltips: {
+	ArmorSetBonus: {
+		Hardlight: {
+			Keybind: Select a keybind for [Special Ability Key] in Controls
+			Press: "Press "
+			Support:
+				'''
+				 to get support from the Ship of the Slayer
+
+				'''
+			Hat: Fires a missile barrage from the SoS, targetting the enemy nearest to the cursor position
+		}
+
+		DiceCube: {
+			Keybind: Select a keybind for [Special Ability Key] in Controls
+			Press: "Press "
+			Description:
+				'''
+				 to use the mystic energy known as Chance in the form of a Dice roll
+				Each roll applies a buff or debuff depending on the number rolled,
+				The buff or debuff will last for a minute, until it can be rolled again,
+				On a roll of a 1 apply a massive debuff
+				On a roll of a 2 apply a small debuff
+				On a roll of a 3 apply a minscule buff
+				On a roll of a 4 apply a small buff
+				On a roll of a 5 apply a medium buff
+				On a roll of a 6 apply a massive buff
+				'''
+		}
+	}
+}
+
+SpecialTooltips: {
+	Viewer: Hold [Shift] to view lore
+	Unbreakable: "[c/ff0000:Unbreakable]"
+}
+
+Keybinds: {
+	"Special Ability Key": {
+		DisplayName: Special Ability Key
+	}
+}
+
+DamageClasses: {
+	ChanceClass: {
+		DisplayName: chance damage
+	}
+}
+
+Items: {
+	PaperSaturno: {
+		DisplayName: Paper Saturno
+		Tooltip:
+			'''
+			+2 increased chance damage
+			2% increased chance critical strike chance
+			'''
+	}
+
+	PaperRobe: {
+		DisplayName: Paper Robe
+		Tooltip: +3 increased chance damage
+	}
+
+	WhitePaperSaturno: {
+		DisplayName: Paper Saturno
+		Tooltip:
+			'''
+			+2 increased chance damage
+			2% increased chance critical strike chance
+			'''
+	}
+
+	WhitePaperRobe: {
+		DisplayName: Paper Robe
+		Tooltip: +3 increased chance damage
+	}
+
+	WhitePaper: {
+		DisplayName: White Paper
+		Tooltip: ""
+	}
+
+	DiceMask: {
+		DisplayName: Dice Mask
+		Tooltip:
+			'''
+			3% increased chance damage
+			2% increased critical strike chance
+			'''
+	}
+
+	DiceCubeplate: {
+		DisplayName: Dice Cubeplate
+		Tooltip: 4% increased chance damage
+	}
+
+	DiceCubeBoots: {
+		DisplayName: Dice Cube Boots
+		Tooltip:
+			'''
+			3% increased chance damage
+			8% increased movement speed
+			'''
+	}
+
+	AncientDiceCubeHelmet: {
+		DisplayName: Ancient Dice Cube Helmet
+		Tooltip:
+			'''
+			3% increased chance damage
+			2% increased critical strike chance
+			'''
+	}
+
+	AncientDiceCubeChest: {
+		DisplayName: Ancient Dice Cube Chest
+		Tooltip: 4% increased chance damage
+	}
+
+	AncientDiceCubeGreeves: {
+		DisplayName: Ancient Dice Cube Greeves
+		Tooltip:
+			'''
+			3% increased chance damage
+			8% increased movement speed
+			'''
+	}
+
+	CardHoldoutDevice: {
+		DisplayName: Card Holdout Device
+		Tooltip: 5% increased chance damage
+	}
+
+	CardReader: {
+		DisplayName: Card Reader
+		Tooltip: 5% increased chance critical strike chance
+	}
+
+	CrapsStick: {
+		DisplayName: Crap's Stick
+		Tooltip: Increased likelihood of a successful roll by 1
+	}
+
+	GamblerEmblem: {
+		DisplayName: Gambler Emblem
+		Tooltip: 15% increased chance damage
+	}
+
+	ImprovedHoldoutDevice: {
+		DisplayName: Improved Holdout Device
+		Tooltip:
+			'''
+			Increased likelihood of a successful roll by 1
+			5% increased chance critical strike chance
+			'''
+	}
+
+	SnakeEye: {
+		DisplayName: Snake Eye
+		Tooltip: 5% increased chance critical strike chance
+	}
+
+	SnakeEyeonaStick: {
+		DisplayName: Snake Eye on a Stick
+		Tooltip:
+			'''
+			Increased likelihood of a successful roll by 1
+			5% increased chance critical strike chance
+			'''
+	}
+
+	UltimateGamblingDevice: {
+		DisplayName: Ultimate Gambling Device
+		Tooltip:
+			'''
+			Increased likelihood of a successful roll by 1
+			5% increased chance damage
+			10% increased chance critical strike chance
+			'''
+	}
+
+	AuroraBreastplate: {
+		DisplayName: Aurora Breastplate
+		Tooltip: 22% increased chance damage
+	}
+
+	AuroraGreeves: {
+		DisplayName: Aurora Greeves
+		Tooltip:
+			'''
+			22% increased chance damage
+			25% increased movement speed
+			10% increased jump speed
+			'''
+	}
+
+	AuroraHat: {
+		DisplayName: Aurora Hat
+		Tooltip:
+			'''
+			22% increased chance damage
+			16% increased chance critical strike chance
+			'''
+	}
+
+	CardSharkChestplate: {
+		DisplayName: Card Shark Chestplate
+		Tooltip: 4% increased chance damage
+	}
+
+	CardSharkHelmet: {
+		DisplayName: Card Shark Helmet
+		Tooltip:
+			'''
+			4% increased chance damage
+			6% increased chance critical strike chance
+			'''
+	}
+
+	CardSharkLeggings: {
+		DisplayName: Card Shark Leggings
+		Tooltip:
+			'''
+			4% increased chance damage
+			15% increased movement speed
+			'''
+	}
+
+	DealerPants: {
+		DisplayName: Dealer Pants
+		Tooltip:
+			'''
+			6% increased chance damage
+			20% increased movement speed
+			'''
+	}
+
+	DealerVest: {
+		DisplayName: Dealer Vest
+		Tooltip: 5% increased chance damage
+	}
+
+	DealerVisor: {
+		DisplayName: Dealer Visor
+		Tooltip:
+			'''
+			6% increased chance damage
+			10% increased chance critical strike chance
+			'''
+	}
+
+	HallowedAkubra: {
+		DisplayName: Hallowed Akubra
+		Tooltip:
+			'''
+			12% increased chance damage
+			12% increased chance critical strike chance
+			'''
+	}
+
+	HighRollerBoots: {
+		DisplayName: High Roller Boots
+		Tooltip:
+			'''
+			12% increased chance damage
+			25% increased movement speed
+			'''
+	}
+
+	HighRollerShirt: {
+		DisplayName: High Roller Shirt
+		Tooltip: 12% increased chance damage
+	}
+
+	HighRollerTopHat: {
+		DisplayName: High Roller Top Hat
+		Tooltip:
+			'''
+			12% increased chance damage
+			12% increased chance critical strike chance
+			'''
+	}
+
+	MimicDiceBag: {
+		DisplayName: Treasure Bag (Mimic Dice)
+		Tooltip: <right>で開く
+	}
+
+	SandpaperSharkBag: {
+		DisplayName: Treasure Bag (Sandpaper Shark)
+		Tooltip: <right>で開く
+	}
+
+	DiceKey: {
+		DisplayName: Dice Key
+		Tooltip: Summons a cursed Mimic Dice
+	}
+
+	SandpaperSharkSummon: {
+		DisplayName: Sandpaper Shark Effigy
+		Tooltip: Summons the Sandpaper Shark when used in the Desert biome
+	}
+
+	SandpaperSharkFinSoup: {
+		DisplayName: Sandpaper Shark Fin Soup
+		Tooltip: Gives well fed for ten minutes.
+	}
+
+	ChancePotion: {
+		DisplayName: Chance Potion
+		Tooltip: 10% increased chance damage
+	}
+
+	AuroraFragment: {
+		DisplayName: Aurora Fragment
+		Tooltip: ""
+	}
+
+	BrokenHeroDice: {
+		DisplayName: Broken Gambler Dice
+		Tooltip: ""
+	}
+
+	ChewedDice: {
+		DisplayName: Chewed Dice
+		Tooltip: "'What use could this have?'"
+	}
+
+	DiceChunks: {
+		DisplayName: Dice Chunks
+		Tooltip: ""
+	}
+
+	LuckySilk: {
+		DisplayName: Lucky Silk
+		Tooltip: ""
+	}
+
+	MoltenPaper: {
+		DisplayName: Molten Paper
+		Tooltip: ""
+	}
+
+	Paper: {
+		DisplayName: Paper
+		Tooltip: ""
+	}
+
+	SandPaper: {
+		DisplayName: Sand Paper
+		Tooltip: ""
+	}
+
+	SandpaperSharkFin: {
+		DisplayName: Sandpaper Shark Fin
+		Tooltip: ""
+	}
+
+	SandpaperSharkScales: {
+		DisplayName: Sandpaper Shark Scales
+		Tooltip: ""
+	}
+
+	SoulofSleight: {
+		DisplayName: Soul of Sleight
+		Tooltip: "'The essence of Unlucky Gamblers.'"
+	}
+
+	GildedWhistle: {
+		DisplayName: Gilded Whistle
+		Tooltip: ""
+	}
+
+	Fourdrinier: {
+		DisplayName: Fourdrinier
+		Tooltip: ""
+	}
+
+	MimicDiceRelic: {
+		DisplayName: Mimic Dice Relic
+		Tooltip: ""
+	}
+
+	MimicDiceTrophy: {
+		DisplayName: Mimic Dice Trophy
+		Tooltip: ""
+	}
+
+	SandpaperSharkRelic: {
+		DisplayName: Sandpaper Shark Relic
+		Tooltip: ""
+	}
+
+	SandpaperSharkTrophy: {
+		DisplayName: Sandpaper Shark Trophy
+		Tooltip: ""
+	}
+
+	DiceBabyRattle: {
+		DisplayName: Dice Baby Rattle
+		Tooltip: "'A Dice Baby Rattle, should call forth a Baby Mimic Dice, hopefully not the parent too.'"
+	}
+
+	MimicDiceMask: {
+		DisplayName: Mimic Dice Mask
+		Tooltip: ""
+	}
+
+	SandpaperSharkMask: {
+		DisplayName: Sandpaper Shark Mask
+		Tooltip: ""
+	}
+
+	DeckofCards: {
+		DisplayName: Deck of Cards
+		Tooltip:
+			'''
+			On a successful draw do half increased, double, or triple Damage
+			On a unsuccessful draw do half damage
+			'''
+	}
+
+	DeckofSandpaper: {
+		DisplayName: Deck of Sandpaper
+		Tooltip: ""
+	}
+
+	InfernalDeck: {
+		DisplayName: Infernal Deck
+		Tooltip:
+			'''
+			On a successful draw either inflict on fire or do half increased damage or triple Damage
+			On a unsuccessful draw do half damage
+			'''
+	}
+
+	AdamantiteDice: {
+		DisplayName: Adamantite Dice
+		Tooltip:
+			'''
+			On a roll of an even number,
+			release adamantite nails corresponding to the rolled number
+			On a roll of an odd number, release nothing
+			'''
+	}
+
+	BrightsEndDice: {
+		DisplayName: Bright's End
+		Tooltip: On a successful roll release a slash of darkness
+	}
+
+	ChlorophyteDice: {
+		DisplayName: Chlorophyte Dice
+		Tooltip: On a successful roll release a homing chlorophyte bullet
+	}
+
+	CobaltDice: {
+		DisplayName: Cobalt Dice
+		Tooltip:
+			'''
+			On a roll of an even number, release nothing
+			On a roll of an odd number, 
+			release cobalt nails corresponding to the rolled number
+			'''
+	}
+
+	CopperDice: {
+		DisplayName: Copper Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	CurtanaDice: {
+		DisplayName: Curtana
+		Tooltip: ""
+	}
+
+	EmissionDice: {
+		DisplayName: Emission
+		Tooltip:
+			'''
+			Inflicts On Fire!
+			On a successful roll release a cloud of smog
+			'''
+	}
+
+	GoldDice: {
+		DisplayName: Gold Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	IronDice: {
+		DisplayName: Iron Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	LeadDice: {
+		DisplayName: Lead Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	MeteoriteDice: {
+		DisplayName: Meteorite Dice
+		Tooltip: ""
+	}
+
+	MythrilDice: {
+		DisplayName: Mythril Dice
+		Tooltip:
+			'''
+			On a roll of an even number, release nothing
+			On a roll of an odd number, 
+			release mythril nails corresponding to the rolled number
+			'''
+	}
+
+	OrichalcumDice: {
+		DisplayName: Orichalcum Dice
+		Tooltip:
+			'''
+			On a roll of an even number, release nothing
+			On a roll of an odd number, 
+			release orichalcum nails corresponding to the rolled number
+			'''
+	}
+
+	PalladiumDice: {
+		DisplayName: Palladium Dice
+		Tooltip:
+			'''
+			On a roll of an even number, release nothing
+			On a roll of an odd number, 
+			release palladium nails corresponding to the rolled number
+			'''
+	}
+
+	PlatinumDice: {
+		DisplayName: Platinum Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	SilverDice: {
+		DisplayName: Silver Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	SkinnerDice: {
+		DisplayName: Flesh Skinner
+		Tooltip: On a successful roll inflict blood butchered
+	}
+
+	TerraDice: {
+		DisplayName: Terra Dice
+		Tooltip: On a successful roll release two terra beams
+	}
+
+	TinDice: {
+		DisplayName: Tin Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	TitaniumDice: {
+		DisplayName: Titanium Dice
+		Tooltip:
+			'''
+			On a roll of an even number,
+			release titanium nails corresponding to the rolled number
+			On a roll of an odd number, release nothing
+			'''
+	}
+
+	TrueCurtanaDice: {
+		DisplayName: True Curtana
+		Tooltip: ""
+	}
+
+	TrueTwilightsVergeDice: {
+		DisplayName: True Twilight's Verge
+		Tooltip: ""
+	}
+
+	TungstenDice: {
+		DisplayName: Tungsten Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	AuroraDice: {
+		DisplayName: Auroran Wind
+		Tooltip: ""
+	}
+
+	CactusDice: {
+		DisplayName: Cactus Dice
+		Tooltip: On a successful roll release poisoned cactus spines
+	}
+
+	ClumpofSporesDice: {
+		DisplayName: Clump of Spores
+		Tooltip:
+			'''
+			Inflicts Poison
+			On a successful roll release a spore cloud
+			'''
+	}
+
+	CubeofFlesh: {
+		DisplayName: Cube of Flesh
+		Tooltip: ""
+	}
+
+	D20: {
+		DisplayName: D20
+		Tooltip: ""
+	}
+
+	Dice: {
+		DisplayName: D6
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	FinnedDice: {
+		DisplayName: Finned Dice
+		Tooltip: On a successful roll release a sandball
+	}
+
+	GlassDice: {
+		DisplayName: Glass Dice
+		Tooltip: On a successful roll shatter into penetrating glass shards
+	}
+
+	GolemDice: {
+		DisplayName: Golem Dice
+		Tooltip:
+			'''
+			On a successful roll inflict double damage
+			and inflict severe knockback
+			'''
+	}
+
+	HorsemensHeadDice: {
+		DisplayName: The Horsemen's Head
+		Tooltip: On a successful roll release a flaming pumpkin
+	}
+
+	IceDice: {
+		DisplayName: Ice Dice
+		Tooltip: On a successful roll release a homing ice shard
+	}
+
+	MiscelleneaDice: {
+		DisplayName: Miscellenea
+		Tooltip: On a successful roll release a homing nightglow shard
+	}
+
+	TwilightsVergeDice: {
+		DisplayName: Twilight's Verge
+		Tooltip: ""
+	}
+
+	BorealDice: {
+		DisplayName: Boreal Wood Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	DynastyDice: {
+		DisplayName: Dynasty Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	EbonwoodDice: {
+		DisplayName: Ebonwood Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	MahoganyDice: {
+		DisplayName: Rich Mahogany Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	PalmDice: {
+		DisplayName: Palm Wood Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	PearlwoodDice: {
+		DisplayName: Pearlwood Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	ShadewoodDice: {
+		DisplayName: Shadewood Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	SpookyDice: {
+		DisplayName: Spooky Dice
+		Tooltip: On a successful rol release a raven
+	}
+
+	WoodenDice: {
+		DisplayName: Wooden Dice
+		Tooltip: On a successful roll inflict severe knockback.
+	}
+
+	DicedBlade: {
+		DisplayName: Diced Blade
+		Tooltip: Chance on hit to throw out a D6
+	}
+
+	Khopesh: {
+		DisplayName: Khopesh
+		Tooltip: ""
+	}
+
+	NecklaceofSandstorms: {
+		DisplayName: Necklace of Sandstorms
+		Tooltip: Hold to shoot out a homing sandstorm.
+	}
+
+	Tailshot: {
+		DisplayName: Tailshot
+		Tooltip: Fires a spread of arrows
+	}
+
+	ControllingDiceWand: {
+		DisplayName: Dice Gremlin Staff
+		Tooltip: Summons living Dice Gremlins to defend you.
+	}
+
+	SeededPaper: {
+		DisplayName: Seeded Paper
+		Tooltip: ""
+	}
+
+	ArcanaDeck: {
+		DisplayName: Arcana Deck
+		Tooltip: ""
+	}
+
+	AuroranDeck: {
+		DisplayName: Auroran Deck
+		Tooltip: ""
+	}
+
+	DarkDeck: {
+		DisplayName: Dark Deck
+		Tooltip: ""
+	}
+
+	DeckofManyThings: {
+		DisplayName: Deck of Many Things
+		Tooltip: ""
+	}
+
+	HanafudaDeck: {
+		DisplayName: Hanafuda Deck
+		Tooltip:
+			'''
+			On a successful draw inflict half increased, double, or triple Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	LightDeck: {
+		DisplayName: Light Deck
+		Tooltip: ""
+	}
+
+	SeededDeck: {
+		DisplayName: Seeded Deck
+		Tooltip: ""
+	}
+
+	YugiohDeck: {
+		DisplayName: Yu-Gi-Oh! Deck
+		Tooltip: "'You must believe in the Heart of the Cards, Yugi!'"
+	}
+
+	AshDice: {
+		DisplayName: Ash Wood Dice
+		Tooltip: On a successful roll inflict severe knockback
+	}
+
+	PinnacleDice: {
+		DisplayName: Pinnacle Dice
+		Tooltip:
+			'''
+			On a roll of a 1 inflict double damage,
+			and severe knockback
+			On a roll of a 2 release a shooting star
+			On a roll of a 3 release an ancient storm
+			On a roll of a 4 release blizzard shards
+			On a roll of a 5 release flaming pumpkins
+			On a roll of a 6 release terra beams
+			'''
+	}
+
+	CasinoChipItem: {
+		DisplayName: Casino Chip
+		Tooltip: ""
+	}
+
+	GelPaper: {
+		DisplayName: Gel Paper
+		Tooltip: ""
+	}
+
+	DeckofGel: {
+		DisplayName: Deck of Gel
+		Tooltip: ""
+	}
+
+	BundleofDynamiteDice: {
+		DisplayName: Bundle of Dynamite
+		Tooltip: On a successful roll release a bundle of anhiliation
+	}
+
+	StarRuinDice: {
+		DisplayName: Starruin
+		Tooltip: On a successful roll release a shooting star
+	}
+
+	DeckofBlood: {
+		DisplayName: Deck of Blood
+		Tooltip: ""
+	}
+
+	DeckofEclipse: {
+		DisplayName: Deck of Eclipse
+		Tooltip: ""
+	}
+
+	DeckofIceandFire: {
+		DisplayName: Deck of Ice and Fire
+		Tooltip:
+			'''
+			On a successful draw either inflict Frostburn, on fire or double Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	EverscreamDeck: {
+		DisplayName: Everscream Deck
+		Tooltip: ""
+	}
+
+	IceQueenDeck: {
+		DisplayName: Ice Queen Deck
+		Tooltip: ""
+	}
+
+	FrostyDice: {
+		DisplayName: Frosty Dice
+		Tooltip:
+			'''
+			Inflicts Frostburn
+			On a successful roll release a blizzard shard
+			'''
+	}
+
+	HellfirePassionClover: {
+		DisplayName: Hellfire Passion Clover
+		Tooltip: Increased likelihood of a successful roll by 1
+	}
+
+	HauntedSlotsBag: {
+		DisplayName: Treasure Bag (Haunted Slots)
+		Tooltip: <right>で開く
+	}
+
+	HauntedCasinoChip: {
+		DisplayName: Haunted Casino Chip
+		Tooltip: Summons the immobile Haunted Slots
+	}
+
+	LuxuriousCloth: {
+		DisplayName: Luxurious Cloth
+		Tooltip: ""
+	}
+
+	BonePaper: {
+		DisplayName: Bone Paper
+		Tooltip: ""
+	}
+
+	PaperPulp: {
+		DisplayName: Paper Pulp
+		Tooltip: ""
+	}
+
+	HauntedSlotsRelic: {
+		DisplayName: Haunted Slots Relic
+		Tooltip: ""
+	}
+
+	HauntedSlotsTrophy: {
+		DisplayName: Haunted Slots Trophy
+		Tooltip: ""
+	}
+
+	SlotMachine: {
+		DisplayName: Slot Machine
+		Tooltip: ""
+	}
+
+	GachaCapsule: {
+		DisplayName: Gacha Capsule
+		Tooltip:
+			'''
+			On a successful roll inflict double damage
+			On a unsuccessful roll inflict half damage
+			'''
+	}
+
+	Pokeball: {
+		DisplayName: Pokeball
+		Tooltip: ""
+	}
+
+	DeckofCursing: {
+		DisplayName: Deck of Cursing
+		Tooltip:
+			'''
+			On a successful draw either inflict cursed flame, or inflict double Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	DeckofIceandFireandShadow: {
+		DisplayName: Deck of Ice and Fire and Shadow
+		Tooltip:
+			'''
+			On a successful draw either inflict frostburn, on fire or shadowflame
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	DeckofIchor: {
+		DisplayName: Deck of Ichor
+		Tooltip:
+			'''
+			On a successful draw either inflict ichor, or double Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	ShadowflameDeck: {
+		DisplayName: Shadowflame Deck
+		Tooltip:
+			'''
+			On a successful draw either inflict shadowflame, or double Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	DeckofBone: {
+		DisplayName: Deck of Bone
+		Tooltip:
+			'''
+			On a successful draw inflict half increased, double, or triple Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	D3: {
+		DisplayName: D3
+		Tooltip: On any roll either inflict, double, triple or quadruple damage.
+	}
+
+	D8: {
+		DisplayName: D8
+		Tooltip:
+			'''
+			On a successful roll inflict quintuple damage
+			On a unsuccessful roll inflict half damage
+			'''
+	}
+
+	DungeonDiceMonstersDice: {
+		DisplayName: Dungeon Dice Monsters Dice
+		Tooltip: ""
+	}
+
+	Sevenarang: {
+		DisplayName: Sevenarang
+		Tooltip: ""
+	}
+
+	SlotMachineGun: {
+		DisplayName: Slot Machine Gun
+		Tooltip: ""
+	}
+
+	PaperSlimeStaff: {
+		DisplayName: Paper Slime Staff
+		Tooltip: Summon forth a growing Paper Slime
+	}
+
+	GhostDogWhistle: {
+		DisplayName: Ghost Dog Whistle
+		Tooltip: Summons the spirit of a dog
+	}
+
+	HauntedSlotsBossMask: {
+		DisplayName: Haunted Slots Boss Mask
+		Tooltip: ""
+	}
+
+	PaperSlimeBanner: {
+		DisplayName: Paper Slime Banner
+		Tooltip: ""
+	}
+
+	MoltenGreatHelm: {
+		DisplayName: Molten Great Helm
+		Tooltip:
+			'''
+			3% increased chance damage
+			6% increased chance critical strike chance
+			'''
+	}
+
+	DeckofHoney: {
+		DisplayName: Deck of Honey
+		Tooltip: ""
+	}
+
+	HoneycombDice: {
+		DisplayName: Honey Comb Dice
+		Tooltip: On a successful roll release a swarm of bees
+	}
+
+	AuroraPillarSummon: {
+		DisplayName: Aurora Pillar Summon
+		Tooltip: Summons the Aurora Pillar
+	}
+
+	AuroraHamaxe: {
+		Tooltip: ""
+		DisplayName: Aurora Hamaxe
+	}
+
+	AuroraPickaxe: {
+		DisplayName: Aurora Pickaxe
+		Tooltip: ""
+	}
+
+	AuroraWings: {
+		DisplayName: Aurora Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	EmblematicLegendsGamblingDevice: {
+		DisplayName: Emblematic Legends Gambling Device
+		Tooltip:
+			'''
+			Increased likelihood of a successful roll by 1
+			20% increased chance damage
+			10% increased chance critical strike chance
+			'''
+	}
+
+	CelestialGamblingDevice: {
+		DisplayName: Celestial Gambling Device
+		Tooltip:
+			'''
+			Increased likelihood of a successful roll by 1
+			25% increased chance damage
+			15% increased chance critical strike chance
+			'''
+	}
+
+	GraveSteelDice: {
+		DisplayName: Grave Steel Dice
+		Tooltip: On a successful roll inflict double damage
+	}
+
+	PureIronDice: {
+		DisplayName: Pure-Iron Dice
+		Tooltip: On a successful roll release a ice bolt
+	}
+
+	DragonLeadDice: {
+		DisplayName: Dragon-Lead Ripper
+		Tooltip: On a successful roll release a dragon skull
+	}
+
+	ForbiddenDice: {
+		DisplayName: Forbidden Dice
+		Tooltip: On a successful roll release an ancient storm
+	}
+
+	CommonGuardBastardHelm: {
+		DisplayName: Common Guard Bastard Helm
+		Tooltip: +2 increased chance damage
+	}
+
+	CursedThornDice: {
+		DisplayName: Cursed Thorn Dice
+		Tooltip: On a successful roll release a thorn arrow
+	}
+
+	DukesDearDice: {
+		DisplayName: Duke's Dear Dice
+		Tooltip: On a successful roll release a fast moving razorwheel
+	}
+
+	DeckofScripture: {
+		DisplayName: Deck of Scripture
+		Tooltip:
+			'''
+			On a successful draw inflict half increased, double, or triple Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	HyperNanoTechDice: {
+		DisplayName: Hyper-Nanotech Dice
+		Tooltip:
+			'''
+			On a successful roll release a swarm of nanites,
+			and energy bolts
+			'''
+	}
+
+	GamblersMutagen: {
+		DisplayName: Gambler's Mutagen
+		Tooltip:
+			'''
+			15% increased chance damage
+			10% increased chance critical strike chance
+			'''
+	}
+
+	DissonatingGreaves: {
+		DisplayName: Dissonating Greaves
+		Tooltip: "'Great for impersonating the Dev!'"
+	}
+
+	DissonatingHelm: {
+		DisplayName: Dissonating Helm
+		Tooltip: "'Great for impersonating the Dev!'"
+	}
+
+	DissonatingPlate: {
+		DisplayName: Dissonating Plate
+		Tooltip: "'Great for impersonating the Dev!'"
+	}
+
+	HardlightHat: {
+		DisplayName: Hardlight Hat
+		Tooltip:
+			'''
+			13% increased chance damage
+			6% increased chance critical strike chance
+			'''
+	}
+
+	ElderWoodDice: {
+		DisplayName: Elder Wood Dice
+		Tooltip: On a successful roll inflict severe knockback
+	}
+
+	MoonflareComet: {
+		DisplayName: Moonflare Comet
+		Tooltip: On a successful roll release a moonflare bolt
+	}
+
+	KentuckyFriedCards: {
+		DisplayName: Kentucky Fried Cards
+		Tooltip:
+			'''
+			On a successful draw inflict half increased, double, or triple Damage
+			On a unsuccessful draw inflict half damage
+			'''
+	}
+
+	PetrifiedWoodDice: {
+		DisplayName: Petrified Wood Dice
+		Tooltip: On a successful roll inflict severe knockback
+	}
+
+	CorruptedRIE: {
+		DisplayName: Corrupted RIE
+		Tooltip: On a successful roll release tunneling drill bits
+	}
+
+	GroundZero: {
+		DisplayName: Ground Zero
+		Tooltip: On a successful roll release infected growths
+	}
+
+	Noppa: {
+		DisplayName: Noppa
+		Tooltip: On a successful roll release Ukonvasara-tipped arrows
+	}
+
+	StrikingOphiuchus: {
+		DisplayName: Striking Ophiuchus
+		Tooltip: On a successful roll release Constellations
+	}
+
+	XeniumDice: {
+		DisplayName: Xenium Dice
+		Tooltip: On a successful roll release Xenium grenades
+	}
+
+	DiceofEaglecrest: {
+		DisplayName: Dice of Eaglecrest
+		Tooltip: On a successful roll release a Eaglecrest boulder
+	}
+
+	DieoftheMountain: {
+		DisplayName: Die of the Mountain
+		Tooltip: On a successful roll release ice crystals
+	}
+
+	InfectedDice: {
+		DisplayName: Infected Dice
+		Tooltip: On a successful roll release toxic grenades
+	}
+
+	KeepersEyes: {
+		DisplayName: Keeper's Eyes
+		Tooltip:
+			'''
+			On a successful roll release Shivs,
+			and poisoned Shivs
+			'''
+	}
+
+	ExampleCustomResourceWeapon: {
+		DisplayName: Kojaku
+		Tooltip: ""
+	}
+
+	TheOneAboveAll: {
+		DisplayName: The One Above All
+		Tooltip: ""
+	}
+
+	OrigamiThrowingStar: {
+		DisplayName: Origami Throwing Star
+		Tooltip: ""
+	}
+
+	WhiteOrigamiThrowingStar: {
+		DisplayName: White Origami Throwing Star
+		Tooltip: ""
+	}
+
+	Chlorine: {
+		DisplayName: Chlorine
+		Tooltip: Applies poisoned
+	}
+
+	WhitePaperPulp: {
+		DisplayName: White Paper Pulp
+		Tooltip: ""
+	}
+
+	PulpSlimeBanner: {
+		DisplayName: Pulp Slime Banner
+		Tooltip: ""
+	}
+
+	WhitePulpSlimeBanner: {
+		DisplayName: White Pulp Slime Banner
+		Tooltip: ""
+	}
+
+	PaperBow: {
+		DisplayName: Paper Bow
+		Tooltip: ""
+	}
+
+	DiceCubePlating: {
+		DisplayName: Dice Cube Plating
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	DiceCubeBuff1: {
+		DisplayName: Failed Roll!
+		Description:
+			'''
+			15% decreased chance damage
+			2% decreased critical strike chance
+			'''
+	}
+
+	DiceCubeBuff2: {
+		DisplayName: Rolled a 2
+		Description: 10% decreased chance damage
+	}
+
+	DiceCubeBuff3: {
+		DisplayName: Rolled a 3
+		Description:
+			'''
+			5% increased chance damage
+			5% increased movement speed
+			'''
+	}
+
+	DiceCubeBuff4: {
+		DisplayName: Rolled a 4
+		Description:
+			'''
+			10% increased chance damage
+			2% increased critical strike chance
+			'''
+	}
+
+	DiceCubeBuff5: {
+		DisplayName: Rolled a 5
+		Description:
+			'''
+			15% increased chance damage
+			4% increased critical strike chance
+			'''
+	}
+
+	DiceCubeBuff6: {
+		DisplayName: Successful Roll!
+		Description:
+			'''
+			20% increased chance damage
+			10% increased movement speed
+			'''
+	}
+
+	ChanceBuff: {
+		DisplayName: Chance Buff
+		Description: 10% increased chance damage
+	}
+
+	DiceGremlinBuff: {
+		DisplayName: Dice Gremlin
+		Description: A Dice Gremlin is fighting for you
+	}
+
+	SandpaperSharkMountBuff: {
+		DisplayName: Sandpaper Shark Mount Buff
+		Description: A trusty, sharky and rough companion.
+	}
+
+	DicePetBuff: {
+		DisplayName: Baby Dice Pet
+		Description: A Baby Mimic Dice is following you, don't worry he's not harmful.
+	}
+
+	PaperSlimeStaffBuff: {
+		DisplayName: Growing Paper Slime
+		Description: A growing paper slime has decided to fight for you!
+	}
+
+	GhostDogBuff: {
+		DisplayName: Ghost Dog Buff
+		Description: The ghost of a dog has come to you, it never did get Timmy out of the well.
+	}
+}
+
+NPCs: {
+	MimicDice: {
+		DisplayName: Mimic Dice
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5566]
+		}
+	}
+
+	SandpaperShark: {
+		DisplayName: Sandpaper Shark
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5566]
+		}
+	}
+
+	HauntedSlots: {
+		DisplayName: Haunted Slots
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5566]
+		}
+	}
+
+	AuroraPillar: {
+		DisplayName: Aurora Pillar
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5566]
+		}
+	}
+
+	PaperSlime: {
+		DisplayName: Paper Slime
+	}
+
+	HauntedSlotsMinion: {
+		DisplayName: Haunted Spirit
+	}
+
+	GamblerNPC: {
+		DisplayName: Gambler
+
+		TownNPCMood: {
+			Content: Not too good, not too bad.
+			NoHome: I bloodly hate not having a place to lay my head down.
+			FarFromHome: I didn't get lost, no idea what you're talking about, but wheres the way back?
+			LoveSpace: Lot of room to gamble here.
+			DislikeCrowded: Bit crammed here.
+			HateCrowded: How am I supposed to gamble in this place?
+			LoveBiome: Say what you want about it, but I love the desert it has a certain vibe, great for gambling.
+			LikeBiome: The oceans just a mini desert you know? I like it.
+			DislikeBiome: Nobody likes the {BiomeName}.
+			HateBiome: The Hallowed is too pretty and too pink for me I hate it.
+			LoveNPC: The Succubus is easy to look at, though a bit naive, and I feel that her hearts already set.
+			LikeNPC: Merchant's got deep pockets, and I like deep pockets.
+			DislikeNPC: Don't know what everybody likes about the truffle.
+			HateNPC: You can tell the Tax Collector to bug off, I earned these winnings.
+			LikeNPC_Princess: Try as I might, I can't hate the Princess.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census: {
+			SpawnCondition: Defeat the Sandpaper Shark.
+		}
+	}
+
+	SuccubusNPC: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: The Tax Collector asked me to do something weird for him, I said no because it reminded me of a disgusting situation.
+			DislikeNPC: Barks orders at me and everyone else, though he is only a kid.
+			LikeNPC: The Gamblers a fun character, I like him.
+			LoveNPC: Us Gals have to stick together, me and {NPCName}.
+			HateBiome: I hate {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: Everybody likes the {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: Too many people crammed together, me not like get me out.
+			DislikeCrowded: Slowly getting a bit stuffy.
+			LoveSpace: The space is nice, though being alone from the others is a bit sad.
+			FarFromHome: I can't exactly fly back home you know..
+			NoHome: I'm not dressed for this.
+			Content: I feel content here with you.
+		}
+
+		DisplayName: Succubus
+
+		Census: {
+			SpawnCondition: Hold onto that Pwnhammer.
+		}
+	}
+
+	FemaleNPCTemplate: {
+		DisplayName: Female N P C Template
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeBiome: I like {BiomeName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeNPC: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census: {
+			SpawnCondition: Conditions unknown
+		}
+	}
+
+	HauntingSpirit: {
+		DisplayName: Haunting Spirit
+	}
+
+	PulpSlime: {
+		DisplayName: Pulp Slime
+	}
+
+	WhitePulpSlime: {
+		DisplayName: White Pulp Slime
+	}
+}
+
+Dialogue: {
+	GamblerNPC: {
+		StandardDialogue1: That cult over by the dungeons creepy, don't let them possess you.
+		StandardDialogue2: Hey, if it isn't the Hero, returning triumphent.
+		StandardDialogue3: Care to view my wares? None of them are stolen.
+		StandardDialogue4: I get the feeling the Mechanic doesn't like me, I understand why. But I can't even tell her that it wasn't my fault, shame too.
+		StandardDialogue5: The Steampunkers cool, the things she can do with tech is wild. I wonder if she can help me improve my devices..
+		CommonDialogue: Hey! it's you. I appreciate you helping me out of the Sandpaper Shark, as thanks and compensation for that and letting me live here, I'll lower my prices..
+		RareDialogue1: There's this girl I caught wind of, escaped servitude from a depressed warlord. Believe her name was Calamitas.
+		RareDialogue2: I've heard of these three beings, real powerful folks. Seem to only be able to be defeated by someone channeling the power of Thor.. who ever that is.
+		RareDialogue3: Out in the stars above, I've heard theres beings called Starfarers, in particular two have caught my eye, one whos real hot and the other one whos real hot.
+		TalkALot: You're talking to me an awful lot, like to lose more of your money?
+	}
+
+	SuccubusNPC: {
+		StandardDialogue1: Hello there! With that big mound of flesh defeated, I decided to fully leave the underworld!
+		StandardDialogue2: Ah, hello!
+		StandardDialogue3: Uhh.. You seem to be throbing with pain, want me to help... Alright, I'll go get the nurse.
+		StandardDialogue4: Yes, I do have natural green hair.
+		StandardDialogue5: No, you cannot touch my horns.
+		CommonDialogue: I came here because of your big Pwnhammer… What, that’s what your hammer is called? Isn’t it?
+		RareDialogue1: Your looking rather big and bold today..
+		RareDialogue2: My wings? Oh, I don't like to talk about that, but it happened to me when I disobeyed a demon..
+		RareDialogue3: I was disgraced by demons, I despise them, they think they can take what they want, and that us Succubus' have to obey.
+		TalkALot: Please, keep coming... Why are you looking at me like that?
+		PostQueenSlime: Her name is Slime? Right, Queen Slime, if she was Queen of Slimes her name would be Slime Queen.
+		PostDestroyer: Destroyed the destroyer, most impressive, are you adept at conquering bendy worms.. What?
+		PostTwins: They didn't see their demise coming.
+		PostPrime: Primed and ready, he was no match for you..
+		PostPlanterra: You grow stronger day by day, now defeating an element of nature.
+		PostCultist: Come back to me after you defeat these blasted pillars.
+		PostEmpress: A queen, an Empress, next you will defeat a Lord.. Just come back to me after that..
+		PostMoonLord: You've defeated the Moon lord, you are strong enough now.. meet me in my house later tonight..
+	}
+}
+
+Projectiles: {
+	DicePetProjectile: {
+		DisplayName: Baby Dice Pet Projectile
+	}
+
+	DeckofCardsProjectile: {
+		DisplayName: Deck of Cards 1
+	}
+
+	DeckofSandpaperProjectile: {
+		DisplayName: Deck of Sandpaper 1
+	}
+
+	InfernalDeckProjectile: {
+		DisplayName: Infernal Deck 1
+	}
+
+	AdamantiteDiceProjectile6: {
+		DisplayName: Adamantite Dice 6
+	}
+
+	AuroraDiceProjectile6: {
+		DisplayName: Aurora Dice 6
+	}
+
+	BorealDiceProjectile6: {
+		DisplayName: Boreal Dice 6
+	}
+
+	BrightsEndDiceProjectile6: {
+		DisplayName: Brights End Dice 6
+	}
+
+	CactusDiceProjectile6: {
+		DisplayName: Cactus Dice 6
+	}
+
+	ChlorophyteDiceProjectile6: {
+		DisplayName: Chlorophyte Dice 6
+	}
+
+	ClumpofSporesDiceProjectile6: {
+		DisplayName: Clump of Moss Dice 6
+	}
+
+	CobaltDiceProjectile6: {
+		DisplayName: Cobalt Dice 6
+	}
+
+	CopperDiceProjectile6: {
+		DisplayName: Copper Dice 6
+	}
+
+	CubeofFleshDiceProjectile6: {
+		DisplayName: Cube of Flesh Dice 6
+	}
+
+	CurtanaDiceProjectile6: {
+		DisplayName: Curtana Dice 6
+	}
+
+	D20DiceProjectile: {
+		DisplayName: D20 Dice
+	}
+
+	DiceProjectile6: {
+		DisplayName: Dice 6
+	}
+
+	DynastyDiceProjectile6: {
+		DisplayName: Dynasty Dice 6
+	}
+
+	EbonwoodDiceProjectile6: {
+		DisplayName: Ebonwood Dice 6
+	}
+
+	EmissionDiceProjectile6: {
+		DisplayName: Emission Dice 6
+	}
+
+	FinnedDiceProjectile6: {
+		DisplayName: Finned Dice 6
+	}
+
+	GlassDiceProjectile6: {
+		DisplayName: Glass Dice 6
+	}
+
+	GoldDiceProjectile6: {
+		DisplayName: Gold Dice 6
+	}
+
+	GolemDiceProjectile6: {
+		DisplayName: Golem Head Dice 6
+	}
+
+	HorsemensHeadDiceProjectile: {
+		DisplayName: Horsemens Head Dice
+	}
+
+	IceDiceProjectile6: {
+		DisplayName: Ice Dice 6
+	}
+
+	IronDiceProjectile6: {
+		DisplayName: Iron Dice 6
+	}
+
+	LeadDiceProjectile6: {
+		DisplayName: Lead Dice 6
+	}
+
+	MahoganyDiceProjectile6: {
+		DisplayName: Mahogany Dice 6
+	}
+
+	MeteoriteDiceProjectile6: {
+		DisplayName: Meteorite Dice 6
+	}
+
+	MiscelleneaDiceProjectile6: {
+		DisplayName: Miscellnea Dice 6
+	}
+
+	MythrilDiceProjectile6: {
+		DisplayName: Mythril Dice 6
+	}
+
+	OrichalcumDiceProjectile6: {
+		DisplayName: Orichalcum Dice 6
+	}
+
+	PalladiumDiceProjectile6: {
+		DisplayName: Palladium Dice 6
+	}
+
+	PalmDiceProjectile6: {
+		DisplayName: Palm Dice 6
+	}
+
+	PearlwoodDiceProjectile6: {
+		DisplayName: Pearlwood Dice 6
+	}
+
+	PlatinumDiceProjectile6: {
+		DisplayName: Platinum Dice 6
+	}
+
+	ShadewoodDiceProjectile6: {
+		DisplayName: Shadewood Dice 6
+	}
+
+	SilverDiceProjectile6: {
+		DisplayName: Silver Dice 6
+	}
+
+	SkinnerDiceProjectile6: {
+		DisplayName: Skinner Dice 6
+	}
+
+	SpookyDiceProjectile6: {
+		DisplayName: Spooky Dice 6
+	}
+
+	TerraDiceProjectile6: {
+		DisplayName: Terra Dice 6
+	}
+
+	TinDiceProjectile6: {
+		DisplayName: Tin Dice 6
+	}
+
+	TitaniumDiceProjectile6: {
+		DisplayName: Titanium Dice 6
+	}
+
+	TrueCurtanaDiceProjectile6: {
+		DisplayName: True Curtana Dice 6
+	}
+
+	TrueTwilightsVergeDiceProjectile6: {
+		DisplayName: True Twilight's Verge Dice 6
+	}
+
+	TungstenDiceProjectile6: {
+		DisplayName: Tungsten Dice 6
+	}
+
+	TwilightsVergeDiceProjectile6: {
+		DisplayName: Twilights Verge Dice 6
+	}
+
+	WoodenDiceProjectile6: {
+		DisplayName: Wooden Dice 6
+	}
+
+	DiceGremlinMinion: {
+		DisplayName: Dice Gremlin Minion
+	}
+
+	DiceGremlin: {
+		DisplayName: Dice Gremlin
+	}
+
+	SandstormProjectile: {
+		DisplayName: Sandstorm
+	}
+
+	ArcanaDeckProjectile: {
+		DisplayName: Arcana Deck Projectile
+	}
+
+	AuroraDeckProjectile: {
+		DisplayName: Aurora Deck Projectile
+	}
+
+	DarkDeckProjectile: {
+		DisplayName: Dark Deck Projectile
+	}
+
+	DeckofManyThingsProjectile: {
+		DisplayName: Deckof Many Things Projectile
+	}
+
+	HanafudaProjectile: {
+		DisplayName: Hanafuda Projectile
+	}
+
+	LightDeckProjectile: {
+		DisplayName: Light Deck Projectile
+	}
+
+	SeededDeckProjectile: {
+		DisplayName: Seeded Deck Projectile
+	}
+
+	YugiohDeckProjectile: {
+		DisplayName: Yugioh Deck Projectile
+	}
+
+	AshDiceProjectile6: {
+		DisplayName: Ash Dice Projectile6
+	}
+
+	PinnacleDiceProjectile6: {
+		DisplayName: Pinnacle Dice Projectile6
+	}
+
+	DeckofGelProjectile: {
+		DisplayName: Deckof Gel Projectile
+	}
+
+	BundleofDynamiteDiceProjectile6: {
+		DisplayName: Bundleof Dynamite Dice Projectile6
+	}
+
+	StarRuinDiceProjectile6: {
+		DisplayName: Star Ruin Dice Projectile6
+	}
+
+	DeckofBloodProjectile: {
+		DisplayName: Deckof Blood Projectile
+	}
+
+	DeckofEclipseProjectile: {
+		DisplayName: Deckof Eclipse Projectile
+	}
+
+	DeckofIceandFireProjectile: {
+		DisplayName: Deckof Iceand Fire Projectile
+	}
+
+	EverscreamDeckProjectile: {
+		DisplayName: Everscream Deck Projectile
+	}
+
+	IceQueenProjectile: {
+		DisplayName: Ice Queen Projectile
+	}
+
+	FrostyDiceProjectile6: {
+		DisplayName: Frosty Dice Projectile6
+	}
+
+	GachaCapsuleProjectile: {
+		DisplayName: Gacha Capsule Projectile
+	}
+
+	PokeballProjectile: {
+		DisplayName: Pokeball Projectile
+	}
+
+	DeckofCursingProjectile: {
+		DisplayName: Deckof Cursing Projectile
+	}
+
+	DeckofIceandFireandShadowProjectile: {
+		DisplayName: Deckof Iceand Fireand Shadow Projectile
+	}
+
+	DeckofIchorProjectile: {
+		DisplayName: Deckof Ichor Projectile
+	}
+
+	ShadowflameDeckProjectile: {
+		DisplayName: Shadowflame Deck Projectile
+	}
+
+	DeckofBoneProjectile: {
+		DisplayName: Deckof Bone Projectile
+	}
+
+	D3Projectile: {
+		DisplayName: D3 Projectile
+	}
+
+	D8Projectile: {
+		DisplayName: D8 Projectile
+	}
+
+	DungeonDiceMonstersDiceProjectile: {
+		DisplayName: Dungeon Dice Monsters Dice Projectile
+	}
+
+	PaperSlimeStaffMinion: {
+		DisplayName: Paper Slime Staff Minion
+	}
+
+	SevenarangProjectile: {
+		DisplayName: Sevenarang Projectile
+	}
+
+	GhostDogProjectile: {
+		DisplayName: Ghost Dog Projectile
+	}
+
+	GachaCapsuleProjectileHostile: {
+		DisplayName: Gacha Capsule Projectile Hostile
+	}
+
+	HauntedSlotsProjectile: {
+		DisplayName: Haunted Slots Projectile
+	}
+
+	DeckofHoneyProjectile: {
+		DisplayName: Deckof Honey Projectile
+	}
+
+	HoneycombDiceProjectile: {
+		DisplayName: Honeycomb Dice Projectile
+	}
+
+	EmissionProjectile: {
+		DisplayName: Emission Projectile
+	}
+
+	CactusSpine: {
+		DisplayName: Cactus Spine
+	}
+
+	IceShard: {
+		DisplayName: Ice Shard
+	}
+
+	GraveSteelDiceProjectile: {
+		DisplayName: Grave Steel Dice Projectile
+	}
+
+	ForbiddenDiceProjectile: {
+		DisplayName: Forbidden Dice Projectile
+	}
+
+	DragonLeadDiceProjectile6: {
+		DisplayName: Dragon Lead Dice Projectile6
+	}
+
+	PureIronDiceProjectile6: {
+		DisplayName: Pure Iron Dice Projectile6
+	}
+
+	CursedThornDiceProjectile6: {
+		DisplayName: Cursed Thorn Dice Projectile6
+	}
+
+	DeckofScriptureProjectile: {
+		DisplayName: Deckof Scripture Projectile
+	}
+
+	DukesDearDiceProjectile6: {
+		DisplayName: Dukes Dear Dice Projectile6
+	}
+
+	HyperNanoTechDiceProjectile6: {
+		DisplayName: Hyper Nano Tech Dice Projectile6
+	}
+
+	ElderWoodDiceProjectile6: {
+		DisplayName: Elder Wood Dice Projectile6
+	}
+
+	MoonflareCometProjectile: {
+		DisplayName: Moonflare Comet Projectile
+	}
+
+	KentuckyFriedCardsProjectile: {
+		DisplayName: Kentucky Fried Cards Projectile
+	}
+
+	PaperSlimeStaffMinionBackup: {
+		DisplayName: Paper Slime Staff Minion Backup
+	}
+
+	PetrifiedWoodDiceProjectile6: {
+		DisplayName: Petrified Wood Dice Projectile6
+	}
+
+	CorruptedRIEProjectile: {
+		DisplayName: Corrupted R I E Projectile
+	}
+
+	GroundZeroProjectile: {
+		DisplayName: Ground Zero Projectile
+	}
+
+	NoppaProjectile6: {
+		DisplayName: Noppa Projectile6
+	}
+
+	StrikingOphiuchusProjectile6: {
+		DisplayName: Striking Ophiuchus Projectile6
+	}
+
+	XeniumDiceProjectile6: {
+		DisplayName: Xenium Dice Projectile6
+	}
+
+	DiceofEaglecrestProjectile: {
+		DisplayName: Diceof Eaglecrest Projectile
+	}
+
+	DieoftheMountainProjectile6: {
+		DisplayName: Dieofthe Mountain Projectile6
+	}
+
+	InfectedDiceProjectile: {
+		DisplayName: Infected Dice Projectile
+	}
+
+	KeepersEyesProjectile6: {
+		DisplayName: Keepers Eyes Projectile6
+	}
+
+	BloodRainBowHeld: {
+		DisplayName: Blood Rain Bow Held
+	}
+
+	BowReworkClass: {
+		DisplayName: Bow Rework Class
+	}
+
+	HeiligPfeil: {
+		DisplayName: Heilig Pfeil
+	}
+
+	CactusDiceProjectile2: {
+		DisplayName: Cactus Dice Projectile2
+	}
+
+	CactusDiceProjectile1: {
+		DisplayName: Cactus Dice Projectile1
+	}
+
+	CactusDiceProjectile3: {
+		DisplayName: Cactus Dice Projectile3
+	}
+
+	CactusDiceProjectile4: {
+		DisplayName: Cactus Dice Projectile4
+	}
+
+	CactusDiceProjectile5: {
+		DisplayName: Cactus Dice Projectile5
+	}
+
+	D6Projectile1: {
+		DisplayName: D6 Projectile1
+	}
+
+	D6Projectile2: {
+		DisplayName: D6 Projectile2
+	}
+
+	D6Projectile3: {
+		DisplayName: D6 Projectile3
+	}
+
+	D6Projectile4: {
+		DisplayName: D6 Projectile4
+	}
+
+	D6Projectile5: {
+		DisplayName: D6 Projectile5
+	}
+
+	D6Projectile6: {
+		DisplayName: D6 Projectile6
+	}
+
+	GlassDiceProjectile2: {
+		DisplayName: Glass Dice Projectile2
+	}
+
+	GlassDiceProjectile1: {
+		DisplayName: Glass Dice Projectile1
+	}
+
+	GlassDiceProjectile3: {
+		DisplayName: Glass Dice Projectile3
+	}
+
+	GlassDiceProjectile4: {
+		DisplayName: Glass Dice Projectile4
+	}
+
+	GlassDiceProjectile5: {
+		DisplayName: Glass Dice Projectile5
+	}
+
+	WoodenDiceProjectile1: {
+		DisplayName: Wooden Dice Projectile1
+	}
+
+	WoodenDiceProjectile2: {
+		DisplayName: Wooden Dice Projectile2
+	}
+
+	WoodenDiceProjectile3: {
+		DisplayName: Wooden Dice Projectile3
+	}
+
+	WoodenDiceProjectile4: {
+		DisplayName: Wooden Dice Projectile4
+	}
+
+	WoodenDiceProjectile5: {
+		DisplayName: Wooden Dice Projectile5
+	}
+
+	AshDiceProjectile1: {
+		DisplayName: Ash Dice Projectile1
+	}
+
+	AshDiceProjectile2: {
+		DisplayName: Ash Dice Projectile2
+	}
+
+	AshDiceProjectile3: {
+		DisplayName: Ash Dice Projectile3
+	}
+
+	AshDiceProjectile4: {
+		DisplayName: Ash Dice Projectile4
+	}
+
+	AshDiceProjectile5: {
+		DisplayName: Ash Dice Projectile5
+	}
+
+	BorealDiceProjectile1: {
+		DisplayName: Boreal Dice Projectile1
+	}
+
+	BorealDiceProjectile2: {
+		DisplayName: Boreal Dice Projectile2
+	}
+
+	BorealDiceProjectile3: {
+		DisplayName: Boreal Dice Projectile3
+	}
+
+	BorealDiceProjectile4: {
+		DisplayName: Boreal Dice Projectile4
+	}
+
+	BorealDiceProjectile5: {
+		DisplayName: Boreal Dice Projectile5
+	}
+
+	DynastyDiceProjectile1: {
+		DisplayName: Dynasty Dice Projectile1
+	}
+
+	DynastyDiceProjectile2: {
+		DisplayName: Dynasty Dice Projectile2
+	}
+
+	DynastyDiceProjectile3: {
+		DisplayName: Dynasty Dice Projectile3
+	}
+
+	DynastyDiceProjectile4: {
+		DisplayName: Dynasty Dice Projectile4
+	}
+
+	DynastyDiceProjectile5: {
+		DisplayName: Dynasty Dice Projectile5
+	}
+
+	EbonwoodDiceProjectile1: {
+		DisplayName: Ebonwood Dice Projectile1
+	}
+
+	EbonwoodDiceProjectile2: {
+		DisplayName: Ebonwood Dice Projectile2
+	}
+
+	EbonwoodDiceProjectile3: {
+		DisplayName: Ebonwood Dice Projectile3
+	}
+
+	EbonwoodDiceProjectile4: {
+		DisplayName: Ebonwood Dice Projectile4
+	}
+
+	EbonwoodDiceProjectile5: {
+		DisplayName: Ebonwood Dice Projectile5
+	}
+
+	MahoganyDiceProjectile1: {
+		DisplayName: Mahogany Dice Projectile1
+	}
+
+	MahoganyDiceProjectile2: {
+		DisplayName: Mahogany Dice Projectile2
+	}
+
+	MahoganyDiceProjectile3: {
+		DisplayName: Mahogany Dice Projectile3
+	}
+
+	MahoganyDiceProjectile4: {
+		DisplayName: Mahogany Dice Projectile4
+	}
+
+	MahoganyDiceProjectile5: {
+		DisplayName: Mahogany Dice Projectile5
+	}
+
+	PalmDiceProjectile1: {
+		DisplayName: Palm Dice Projectile1
+	}
+
+	PalmDiceProjectile2: {
+		DisplayName: Palm Dice Projectile2
+	}
+
+	PalmDiceProjectile3: {
+		DisplayName: Palm Dice Projectile3
+	}
+
+	PalmDiceProjectile4: {
+		DisplayName: Palm Dice Projectile4
+	}
+
+	PalmDiceProjectile5: {
+		DisplayName: Palm Dice Projectile5
+	}
+
+	ShadewoodDiceProjectile1: {
+		DisplayName: Shadewood Dice Projectile1
+	}
+
+	ShadewoodDiceProjectile2: {
+		DisplayName: Shadewood Dice Projectile2
+	}
+
+	ShadewoodDiceProjectile3: {
+		DisplayName: Shadewood Dice Projectile3
+	}
+
+	ShadewoodDiceProjectile4: {
+		DisplayName: Shadewood Dice Projectile4
+	}
+
+	ShadewoodDiceProjectile5: {
+		DisplayName: Shadewood Dice Projectile5
+	}
+
+	BundleofDynamiteProjectile1: {
+		DisplayName: Bundleof Dynamite Projectile1
+	}
+
+	BundleofDynamiteProjectile2: {
+		DisplayName: Bundleof Dynamite Projectile2
+	}
+
+	BundleofDynamiteProjectile3: {
+		DisplayName: Bundleof Dynamite Projectile3
+	}
+
+	BundleofDynamiteProjectile4: {
+		DisplayName: Bundleof Dynamite Projectile4
+	}
+
+	BundleofDynamiteProjectile5: {
+		DisplayName: Bundleof Dynamite Projectile5
+	}
+
+	BundleofDynamiteProjectile6: {
+		DisplayName: Bundleof Dynamite Projectile6
+	}
+
+	GachaCapsuleProjectileBottomHalf: {
+		DisplayName: Gacha Capsule Projectile Bottom Half
+	}
+
+	GachaCapsuleProjectileUpperHalf: {
+		DisplayName: Gacha Capsule Projectile Upper Half
+	}
+
+	IceDiceProjectile1: {
+		DisplayName: Ice Dice Projectile1
+	}
+
+	IceDiceProjectile2: {
+		DisplayName: Ice Dice Projectile2
+	}
+
+	IceDiceProjectile3: {
+		DisplayName: Ice Dice Projectile3
+	}
+
+	IceDiceProjectile4: {
+		DisplayName: Ice Dice Projectile4
+	}
+
+	IceDiceProjectile5: {
+		DisplayName: Ice Dice Projectile5
+	}
+
+	ClumpofSporesProjectile1: {
+		DisplayName: Clumpof Spores Projectile1
+	}
+
+	ClumpofSporesProjectile2: {
+		DisplayName: Clumpof Spores Projectile2
+	}
+
+	ClumpofSporesProjectile3: {
+		DisplayName: Clumpof Spores Projectile3
+	}
+
+	ClumpofSporesProjectile4: {
+		DisplayName: Clumpof Spores Projectile4
+	}
+
+	ClumpofSporesProjectile5: {
+		DisplayName: Clumpof Spores Projectile5
+	}
+
+	ClumpofSporesProjectile6: {
+		DisplayName: Clumpof Spores Projectile6
+	}
+
+	HoneyCombDiceProjectile1: {
+		DisplayName: Honey Comb Dice Projectile1
+	}
+
+	HoneyCombDiceProjectile2: {
+		DisplayName: Honey Comb Dice Projectile2
+	}
+
+	HoneyCombDiceProjectile3: {
+		DisplayName: Honey Comb Dice Projectile3
+	}
+
+	HoneyCombDiceProjectile4: {
+		DisplayName: Honey Comb Dice Projectile4
+	}
+
+	HoneyCombDiceProjectile5: {
+		DisplayName: Honey Comb Dice Projectile5
+	}
+
+	HoneyCombDiceProjectile6: {
+		DisplayName: Honey Comb Dice Projectile6
+	}
+
+	StarruinProjectile1: {
+		DisplayName: Starruin Projectile1
+	}
+
+	StarruinProjectile2: {
+		DisplayName: Starruin Projectile2
+	}
+
+	StarruinProjectile3: {
+		DisplayName: Starruin Projectile3
+	}
+
+	StarruinProjectile4: {
+		DisplayName: Starruin Projectile4
+	}
+
+	StarruinProjectile5: {
+		DisplayName: Starruin Projectile5
+	}
+
+	StarruinProjectile6: {
+		DisplayName: Starruin Projectile6
+	}
+
+	FinnedDiceProjectile1: {
+		DisplayName: Finned Dice Projectile1
+	}
+
+	FinnedDiceProjectile2: {
+		DisplayName: Finned Dice Projectile2
+	}
+
+	FinnedDiceProjectile3: {
+		DisplayName: Finned Dice Projectile3
+	}
+
+	FinnedDiceProjectile4: {
+		DisplayName: Finned Dice Projectile4
+	}
+
+	FinnedDiceProjectile5: {
+		DisplayName: Finned Dice Projectile5
+	}
+
+	TwilightsVergeProjectile1: {
+		DisplayName: Twilights Verge Projectile1
+	}
+
+	TwilightsVergeProjectile2: {
+		DisplayName: Twilights Verge Projectile2
+	}
+
+	TwilightsVergeProjectile3: {
+		DisplayName: Twilights Verge Projectile3
+	}
+
+	TwilightsVergeProjectile4: {
+		DisplayName: Twilights Verge Projectile4
+	}
+
+	TwilightsVergeProjectile5: {
+		DisplayName: Twilights Verge Projectile5
+	}
+
+	TwilightsVergeProjectile6: {
+		DisplayName: Twilights Verge Projectile6
+	}
+
+	BloodSkinnerProjectile1: {
+		DisplayName: Blood Skinner Projectile1
+	}
+
+	BloodSkinnerProjectile2: {
+		DisplayName: Blood Skinner Projectile2
+	}
+
+	BloodSkinnerProjectile3: {
+		DisplayName: Blood Skinner Projectile3
+	}
+
+	BloodSkinnerProjectile4: {
+		DisplayName: Blood Skinner Projectile4
+	}
+
+	BloodSkinnerProjectile5: {
+		DisplayName: Blood Skinner Projectile5
+	}
+
+	BloodSkinnerProjectile6: {
+		DisplayName: Blood Skinner Projectile6
+	}
+
+	BrightsEndProjectile1: {
+		DisplayName: Brights End Projectile1
+	}
+
+	BrightsEndProjectile2: {
+		DisplayName: Brights End Projectile2
+	}
+
+	BrightsEndProjectile3: {
+		DisplayName: Brights End Projectile3
+	}
+
+	BrightsEndProjectile4: {
+		DisplayName: Brights End Projectile4
+	}
+
+	BrightsEndProjectile5: {
+		DisplayName: Brights End Projectile5
+	}
+
+	BrightsEndProjectile6: {
+		DisplayName: Brights End Projectile6
+	}
+
+	CopperDiceProjectile1: {
+		DisplayName: Copper Dice Projectile1
+	}
+
+	CopperDiceProjectile2: {
+		DisplayName: Copper Dice Projectile2
+	}
+
+	CopperDiceProjectile3: {
+		DisplayName: Copper Dice Projectile3
+	}
+
+	CopperDiceProjectile4: {
+		DisplayName: Copper Dice Projectile4
+	}
+
+	CopperDiceProjectile5: {
+		DisplayName: Copper Dice Projectile5
+	}
+
+	EmissionProjectile1: {
+		DisplayName: Emission Projectile1
+	}
+
+	EmissionProjectile2: {
+		DisplayName: Emission Projectile2
+	}
+
+	EmissionProjectile3: {
+		DisplayName: Emission Projectile3
+	}
+
+	EmissionProjectile4: {
+		DisplayName: Emission Projectile4
+	}
+
+	EmissionProjectile5: {
+		DisplayName: Emission Projectile5
+	}
+
+	EmissionProjectile6: {
+		DisplayName: Emission Projectile6
+	}
+
+	GoldDiceProjectile1: {
+		DisplayName: Gold Dice Projectile1
+	}
+
+	GoldDiceProjectile2: {
+		DisplayName: Gold Dice Projectile2
+	}
+
+	GoldDiceProjectile3: {
+		DisplayName: Gold Dice Projectile3
+	}
+
+	GoldDiceProjectile4: {
+		DisplayName: Gold Dice Projectile4
+	}
+
+	GoldDiceProjectile5: {
+		DisplayName: Gold Dice Projectile5
+	}
+
+	IronDiceProjectile1: {
+		DisplayName: Iron Dice Projectile1
+	}
+
+	IronDiceProjectile2: {
+		DisplayName: Iron Dice Projectile2
+	}
+
+	IronDiceProjectile3: {
+		DisplayName: Iron Dice Projectile3
+	}
+
+	IronDiceProjectile4: {
+		DisplayName: Iron Dice Projectile4
+	}
+
+	IronDiceProjectile5: {
+		DisplayName: Iron Dice Projectile5
+	}
+
+	LeadDiceProjectile1: {
+		DisplayName: Lead Dice Projectile1
+	}
+
+	LeadDiceProjectile2: {
+		DisplayName: Lead Dice Projectile2
+	}
+
+	LeadDiceProjectile3: {
+		DisplayName: Lead Dice Projectile3
+	}
+
+	LeadDiceProjectile4: {
+		DisplayName: Lead Dice Projectile4
+	}
+
+	LeadDiceProjectile5: {
+		DisplayName: Lead Dice Projectile5
+	}
+
+	MeteoriteDiceProjectile1: {
+		DisplayName: Meteorite Dice Projectile1
+	}
+
+	MeteoriteDiceProjectile2: {
+		DisplayName: Meteorite Dice Projectile2
+	}
+
+	MeteoriteDiceProjectile3: {
+		DisplayName: Meteorite Dice Projectile3
+	}
+
+	MeteoriteDiceProjectile4: {
+		DisplayName: Meteorite Dice Projectile4
+	}
+
+	MeteoriteDiceProjectile5: {
+		DisplayName: Meteorite Dice Projectile5
+	}
+
+	PlatinumDiceProjectile1: {
+		DisplayName: Platinum Dice Projectile1
+	}
+
+	PlatinumDiceProjectile2: {
+		DisplayName: Platinum Dice Projectile2
+	}
+
+	PlatinumDiceProjectile3: {
+		DisplayName: Platinum Dice Projectile3
+	}
+
+	PlatinumDiceProjectile4: {
+		DisplayName: Platinum Dice Projectile4
+	}
+
+	PlatinumDiceProjectile5: {
+		DisplayName: Platinum Dice Projectile5
+	}
+
+	SilverDiceProjectile1: {
+		DisplayName: Silver Dice Projectile1
+	}
+
+	SilverDiceProjectile2: {
+		DisplayName: Silver Dice Projectile2
+	}
+
+	SilverDiceProjectile3: {
+		DisplayName: Silver Dice Projectile3
+	}
+
+	SilverDiceProjectile4: {
+		DisplayName: Silver Dice Projectile4
+	}
+
+	SilverDiceProjectile5: {
+		DisplayName: Silver Dice Projectile5
+	}
+
+	TinDiceProjectile1: {
+		DisplayName: Tin Dice Projectile1
+	}
+
+	TinDiceProjectile2: {
+		DisplayName: Tin Dice Projectile2
+	}
+
+	TinDiceProjectile3: {
+		DisplayName: Tin Dice Projectile3
+	}
+
+	TinDiceProjectile4: {
+		DisplayName: Tin Dice Projectile4
+	}
+
+	TinDiceProjectile5: {
+		DisplayName: Tin Dice Projectile5
+	}
+
+	TungstenDiceProjectile1: {
+		DisplayName: Tungsten Dice Projectile1
+	}
+
+	TungstenDiceProjectile2: {
+		DisplayName: Tungsten Dice Projectile2
+	}
+
+	TungstenDiceProjectile3: {
+		DisplayName: Tungsten Dice Projectile3
+	}
+
+	TungstenDiceProjectile4: {
+		DisplayName: Tungsten Dice Projectile4
+	}
+
+	TungstenDiceProjectile5: {
+		DisplayName: Tungsten Dice Projectile5
+	}
+
+	FleshSkinnerProjectile1: {
+		DisplayName: Flesh Skinner Projectile1
+	}
+
+	FleshSkinnerProjectile2: {
+		DisplayName: Flesh Skinner Projectile2
+	}
+
+	FleshSkinnerProjectile3: {
+		DisplayName: Flesh Skinner Projectile3
+	}
+
+	FleshSkinnerProjectile4: {
+		DisplayName: Flesh Skinner Projectile4
+	}
+
+	FleshSkinnerProjectile5: {
+		DisplayName: Flesh Skinner Projectile5
+	}
+
+	FleshSkinnerProjectile6: {
+		DisplayName: Flesh Skinner Projectile6
+	}
+
+	PearlwoodDiceProjectile1: {
+		DisplayName: Pearlwood Dice Projectile1
+	}
+
+	PearlwoodDiceProjectile2: {
+		DisplayName: Pearlwood Dice Projectile2
+	}
+
+	PearlwoodDiceProjectile3: {
+		DisplayName: Pearlwood Dice Projectile3
+	}
+
+	PearlwoodDiceProjectile4: {
+		DisplayName: Pearlwood Dice Projectile4
+	}
+
+	PearlwoodDiceProjectile5: {
+		DisplayName: Pearlwood Dice Projectile5
+	}
+
+	SpookyDiceProjectile1: {
+		DisplayName: Spooky Dice Projectile1
+	}
+
+	SpookyDiceProjectile2: {
+		DisplayName: Spooky Dice Projectile2
+	}
+
+	SpookyDiceProjectile3: {
+		DisplayName: Spooky Dice Projectile3
+	}
+
+	SpookyDiceProjectile4: {
+		DisplayName: Spooky Dice Projectile4
+	}
+
+	SpookyDiceProjectile5: {
+		DisplayName: Spooky Dice Projectile5
+	}
+
+	AdamantiteDiceProjectile1: {
+		DisplayName: Adamantite Dice Projectile1
+	}
+
+	AdamantiteDiceProjectile2: {
+		DisplayName: Adamantite Dice Projectile2
+	}
+
+	AdamantiteDiceProjectile3: {
+		DisplayName: Adamantite Dice Projectile3
+	}
+
+	AdamantiteDiceProjectile4: {
+		DisplayName: Adamantite Dice Projectile4
+	}
+
+	AdamantiteDiceProjectile5: {
+		DisplayName: Adamantite Dice Projectile5
+	}
+
+	ChlorophyteDiceProjectile1: {
+		DisplayName: Chlorophyte Dice Projectile1
+	}
+
+	ChlorophyteDiceProjectile2: {
+		DisplayName: Chlorophyte Dice Projectile2
+	}
+
+	ChlorophyteDiceProjectile3: {
+		DisplayName: Chlorophyte Dice Projectile3
+	}
+
+	ChlorophyteDiceProjectile4: {
+		DisplayName: Chlorophyte Dice Projectile4
+	}
+
+	ChlorophyteDiceProjectile5: {
+		DisplayName: Chlorophyte Dice Projectile5
+	}
+
+	CobaltDiceProjectile1: {
+		DisplayName: Cobalt Dice Projectile1
+	}
+
+	CobaltDiceProjectile2: {
+		DisplayName: Cobalt Dice Projectile2
+	}
+
+	CobaltDiceProjectile3: {
+		DisplayName: Cobalt Dice Projectile3
+	}
+
+	CobaltDiceProjectile4: {
+		DisplayName: Cobalt Dice Projectile4
+	}
+
+	CobaltDiceProjectile5: {
+		DisplayName: Cobalt Dice Projectile5
+	}
+
+	CurtanaDiceProjectile1: {
+		DisplayName: Curtana Dice Projectile1
+	}
+
+	CurtanaDiceProjectile2: {
+		DisplayName: Curtana Dice Projectile2
+	}
+
+	CurtanaDiceProjectile3: {
+		DisplayName: Curtana Dice Projectile3
+	}
+
+	CurtanaDiceProjectile4: {
+		DisplayName: Curtana Dice Projectile4
+	}
+
+	CurtanaDiceProjectile5: {
+		DisplayName: Curtana Dice Projectile5
+	}
+
+	MythrilDiceProjectile1: {
+		DisplayName: Mythril Dice Projectile1
+	}
+
+	MythrilDiceProjectile2: {
+		DisplayName: Mythril Dice Projectile2
+	}
+
+	MythrilDiceProjectile3: {
+		DisplayName: Mythril Dice Projectile3
+	}
+
+	MythrilDiceProjectile4: {
+		DisplayName: Mythril Dice Projectile4
+	}
+
+	MythrilDiceProjectile5: {
+		DisplayName: Mythril Dice Projectile5
+	}
+
+	OrichalcumDiceProjectile1: {
+		DisplayName: Orichalcum Dice Projectile1
+	}
+
+	OrichalcumDiceProjectile2: {
+		DisplayName: Orichalcum Dice Projectile2
+	}
+
+	OrichalcumDiceProjectile3: {
+		DisplayName: Orichalcum Dice Projectile3
+	}
+
+	OrichalcumDiceProjectile4: {
+		DisplayName: Orichalcum Dice Projectile4
+	}
+
+	OrichalcumDiceProjectile5: {
+		DisplayName: Orichalcum Dice Projectile5
+	}
+
+	PalladiumDiceProjectile1: {
+		DisplayName: Palladium Dice Projectile1
+	}
+
+	PalladiumDiceProjectile2: {
+		DisplayName: Palladium Dice Projectile2
+	}
+
+	PalladiumDiceProjectile3: {
+		DisplayName: Palladium Dice Projectile3
+	}
+
+	PalladiumDiceProjectile4: {
+		DisplayName: Palladium Dice Projectile4
+	}
+
+	PalladiumDiceProjectile5: {
+		DisplayName: Palladium Dice Projectile5
+	}
+
+	TitaniumDiceProjectile1: {
+		DisplayName: Titanium Dice Projectile1
+	}
+
+	TitaniumDiceProjectile2: {
+		DisplayName: Titanium Dice Projectile2
+	}
+
+	TitaniumDiceProjectile3: {
+		DisplayName: Titanium Dice Projectile3
+	}
+
+	TitaniumDiceProjectile4: {
+		DisplayName: Titanium Dice Projectile4
+	}
+
+	TitaniumDiceProjectile5: {
+		DisplayName: Titanium Dice Projectile5
+	}
+
+	TrueCurtanaProjectile1: {
+		DisplayName: True Curtana Projectile1
+	}
+
+	TrueCurtanaProjectile2: {
+		DisplayName: True Curtana Projectile2
+	}
+
+	TrueCurtanaProjectile3: {
+		DisplayName: True Curtana Projectile3
+	}
+
+	TrueCurtanaProjectile4: {
+		DisplayName: True Curtana Projectile4
+	}
+
+	TrueCurtanaProjectile5: {
+		DisplayName: True Curtana Projectile5
+	}
+
+	TrueCurtanaProjectile6: {
+		DisplayName: True Curtana Projectile6
+	}
+
+	TrueTwilightsVergeProjectile1: {
+		DisplayName: True Twilights Verge Projectile1
+	}
+
+	TrueTwilightsVergeProjectile2: {
+		DisplayName: True Twilights Verge Projectile2
+	}
+
+	TrueTwilightsVergeProjectile3: {
+		DisplayName: True Twilights Verge Projectile3
+	}
+
+	TrueTwilightsVergeProjectile4: {
+		DisplayName: True Twilights Verge Projectile4
+	}
+
+	TrueTwilightsVergeProjectile5: {
+		DisplayName: True Twilights Verge Projectile5
+	}
+
+	TrueTwilightsVergeProjectile6: {
+		DisplayName: True Twilights Verge Projectile6
+	}
+
+	HyperNanoTechDiceProjectile1: {
+		DisplayName: Hyper Nano Tech Dice Projectile1
+	}
+
+	HyperNanoTechDiceProjectile2: {
+		DisplayName: Hyper Nano Tech Dice Projectile2
+	}
+
+	HyperNanoTechDiceProjectile3: {
+		DisplayName: Hyper Nano Tech Dice Projectile3
+	}
+
+	HyperNanoTechDiceProjectile4: {
+		DisplayName: Hyper Nano Tech Dice Projectile4
+	}
+
+	HyperNanoTechDiceProjectile5: {
+		DisplayName: Hyper Nano Tech Dice Projectile5
+	}
+
+	PetrifiedWoodDiceProjectile1: {
+		DisplayName: Petrified Wood Dice Projectile1
+	}
+
+	PetrifiedWoodDiceProjectile2: {
+		DisplayName: Petrified Wood Dice Projectile2
+	}
+
+	PetrifiedWoodDiceProjectile3: {
+		DisplayName: Petrified Wood Dice Projectile3
+	}
+
+	PetrifiedWoodDiceProjectile4: {
+		DisplayName: Petrified Wood Dice Projectile4
+	}
+
+	PetrifiedWoodDiceProjectile5: {
+		DisplayName: Petrified Wood Dice Projectile5
+	}
+
+	CorruptedRIEProjectile1: {
+		DisplayName: Corrupted R I E Projectile1
+	}
+
+	CorruptedRIEProjectile2: {
+		DisplayName: Corrupted R I E Projectile2
+	}
+
+	CorruptedRIEProjectile3: {
+		DisplayName: Corrupted R I E Projectile3
+	}
+
+	CorruptedRIEProjectile4: {
+		DisplayName: Corrupted R I E Projectile4
+	}
+
+	CorruptedRIEProjectile5: {
+		DisplayName: Corrupted R I E Projectile5
+	}
+
+	CorruptedRIEProjectile6: {
+		DisplayName: Corrupted R I E Projectile6
+	}
+
+	NoppaProjectile1: {
+		DisplayName: Noppa Projectile1
+	}
+
+	NoppaProjectile2: {
+		DisplayName: Noppa Projectile2
+	}
+
+	NoppaProjectile3: {
+		DisplayName: Noppa Projectile3
+	}
+
+	NoppaProjectile4: {
+		DisplayName: Noppa Projectile4
+	}
+
+	NoppaProjectile5: {
+		DisplayName: Noppa Projectile5
+	}
+
+	StrikingOphiuchusProjectile1: {
+		DisplayName: Striking Ophiuchus Projectile1
+	}
+
+	StrikingOphiuchusProjectile2: {
+		DisplayName: Striking Ophiuchus Projectile2
+	}
+
+	StrikingOphiuchusProjectile3: {
+		DisplayName: Striking Ophiuchus Projectile3
+	}
+
+	StrikingOphiuchusProjectile4: {
+		DisplayName: Striking Ophiuchus Projectile4
+	}
+
+	StrikingOphiuchusProjectile5: {
+		DisplayName: Striking Ophiuchus Projectile5
+	}
+
+	XeniumDiceProjectile1: {
+		DisplayName: Xenium Dice Projectile1
+	}
+
+	XeniumDiceProjectile2: {
+		DisplayName: Xenium Dice Projectile2
+	}
+
+	XeniumDiceProjectile3: {
+		DisplayName: Xenium Dice Projectile3
+	}
+
+	XeniumDiceProjectile4: {
+		DisplayName: Xenium Dice Projectile4
+	}
+
+	XeniumDiceProjectile5: {
+		DisplayName: Xenium Dice Projectile5
+	}
+
+	GroundZeroProjectile1: {
+		DisplayName: Ground Zero Projectile1
+	}
+
+	GroundZeroProjectile2: {
+		DisplayName: Ground Zero Projectile2
+	}
+
+	GroundZeroProjectile3: {
+		DisplayName: Ground Zero Projectile3
+	}
+
+	GroundZeroProjectile4: {
+		DisplayName: Ground Zero Projectile4
+	}
+
+	GroundZeroProjectile5: {
+		DisplayName: Ground Zero Projectile5
+	}
+
+	GroundZeroProjectile6: {
+		DisplayName: Ground Zero Projectile6
+	}
+
+	DragonLeadDiceProjectile1: {
+		DisplayName: Dragon Lead Dice Projectile1
+	}
+
+	DragonLeadDiceProjectile2: {
+		DisplayName: Dragon Lead Dice Projectile2
+	}
+
+	DragonLeadDiceProjectile3: {
+		DisplayName: Dragon Lead Dice Projectile3
+	}
+
+	DragonLeadDiceProjectile4: {
+		DisplayName: Dragon Lead Dice Projectile4
+	}
+
+	DragonLeadDiceProjectile5: {
+		DisplayName: Dragon Lead Dice Projectile5
+	}
+
+	DiceofEaglecrestProjectile1: {
+		DisplayName: Diceof Eaglecrest Projectile1
+	}
+
+	DiceofEaglecrestProjectile2: {
+		DisplayName: Diceof Eaglecrest Projectile2
+	}
+
+	DiceofEaglecrestProjectile3: {
+		DisplayName: Diceof Eaglecrest Projectile3
+	}
+
+	DiceofEaglecrestProjectile4: {
+		DisplayName: Diceof Eaglecrest Projectile4
+	}
+
+	DiceofEaglecrestProjectile5: {
+		DisplayName: Diceof Eaglecrest Projectile5
+	}
+
+	DiceofEaglecrestProjectile6: {
+		DisplayName: Diceof Eaglecrest Projectile6
+	}
+
+	ElderWoodDiceProjectile1: {
+		DisplayName: Elder Wood Dice Projectile1
+	}
+
+	ElderWoodDiceProjectile2: {
+		DisplayName: Elder Wood Dice Projectile2
+	}
+
+	ElderWoodDiceProjectile3: {
+		DisplayName: Elder Wood Dice Projectile3
+	}
+
+	ElderWoodDiceProjectile4: {
+		DisplayName: Elder Wood Dice Projectile4
+	}
+
+	ElderWoodDiceProjectile5: {
+		DisplayName: Elder Wood Dice Projectile5
+	}
+
+	GraveSteelDiceProjectile1: {
+		DisplayName: Grave Steel Dice Projectile1
+	}
+
+	GraveSteelDiceProjectile2: {
+		DisplayName: Grave Steel Dice Projectile2
+	}
+
+	GraveSteelDiceProjectile3: {
+		DisplayName: Grave Steel Dice Projectile3
+	}
+
+	GraveSteelDiceProjectile4: {
+		DisplayName: Grave Steel Dice Projectile4
+	}
+
+	GraveSteelDiceProjectile5: {
+		DisplayName: Grave Steel Dice Projectile5
+	}
+
+	GraveSteelDiceProjectile6: {
+		DisplayName: Grave Steel Dice Projectile6
+	}
+
+	InfectedDiceProjectile1: {
+		DisplayName: Infected Dice Projectile1
+	}
+
+	InfectedDiceProjectile2: {
+		DisplayName: Infected Dice Projectile2
+	}
+
+	InfectedDiceProjectile3: {
+		DisplayName: Infected Dice Projectile3
+	}
+
+	InfectedDiceProjectile4: {
+		DisplayName: Infected Dice Projectile4
+	}
+
+	InfectedDiceProjectile5: {
+		DisplayName: Infected Dice Projectile5
+	}
+
+	InfectedDiceProjectile6: {
+		DisplayName: Infected Dice Projectile6
+	}
+
+	KeepersEyesProjectile1: {
+		DisplayName: Keepers Eyes Projectile1
+	}
+
+	KeepersEyesProjectile2: {
+		DisplayName: Keepers Eyes Projectile2
+	}
+
+	KeepersEyesProjectile3: {
+		DisplayName: Keepers Eyes Projectile3
+	}
+
+	KeepersEyesProjectile4: {
+		DisplayName: Keepers Eyes Projectile4
+	}
+
+	KeepersEyesProjectile5: {
+		DisplayName: Keepers Eyes Projectile5
+	}
+
+	MoonflareCometProjectile1: {
+		DisplayName: Moonflare Comet Projectile1
+	}
+
+	MoonflareCometProjectile2: {
+		DisplayName: Moonflare Comet Projectile2
+	}
+
+	MoonflareCometProjectile3: {
+		DisplayName: Moonflare Comet Projectile3
+	}
+
+	MoonflareCometProjectile4: {
+		DisplayName: Moonflare Comet Projectile4
+	}
+
+	MoonflareCometProjectile5: {
+		DisplayName: Moonflare Comet Projectile5
+	}
+
+	MoonflareCometProjectile6: {
+		DisplayName: Moonflare Comet Projectile6
+	}
+
+	DieoftheMountainProjectile1: {
+		DisplayName: Dieofthe Mountain Projectile1
+	}
+
+	DieoftheMountainProjectile2: {
+		DisplayName: Dieofthe Mountain Projectile2
+	}
+
+	DieoftheMountainProjectile3: {
+		DisplayName: Dieofthe Mountain Projectile3
+	}
+
+	DieoftheMountainProjectile4: {
+		DisplayName: Dieofthe Mountain Projectile4
+	}
+
+	DieoftheMountainProjectile5: {
+		DisplayName: Dieofthe Mountain Projectile5
+	}
+
+	PureIronDiceProjectile1: {
+		DisplayName: Pure Iron Dice Projectile1
+	}
+
+	PureIronDiceProjectile2: {
+		DisplayName: Pure Iron Dice Projectile2
+	}
+
+	PureIronDiceProjectile3: {
+		DisplayName: Pure Iron Dice Projectile3
+	}
+
+	PureIronDiceProjectile4: {
+		DisplayName: Pure Iron Dice Projectile4
+	}
+
+	PureIronDiceProjectile5: {
+		DisplayName: Pure Iron Dice Projectile5
+	}
+
+	CursedThornDiceProjectile1: {
+		DisplayName: Cursed Thorn Dice Projectile1
+	}
+
+	CursedThornDiceProjectile2: {
+		DisplayName: Cursed Thorn Dice Projectile2
+	}
+
+	CursedThornDiceProjectile3: {
+		DisplayName: Cursed Thorn Dice Projectile3
+	}
+
+	CursedThornDiceProjectile4: {
+		DisplayName: Cursed Thorn Dice Projectile4
+	}
+
+	CursedThornDiceProjectile5: {
+		DisplayName: Cursed Thorn Dice Projectile5
+	}
+
+	AuroraDiceProjectile1: {
+		DisplayName: Aurora Dice Projectile1
+	}
+
+	AuroraDiceProjectile2: {
+		DisplayName: Aurora Dice Projectile2
+	}
+
+	AuroraDiceProjectile3: {
+		DisplayName: Aurora Dice Projectile3
+	}
+
+	AuroraDiceProjectile4: {
+		DisplayName: Aurora Dice Projectile4
+	}
+
+	AuroraDiceProjectile5: {
+		DisplayName: Aurora Dice Projectile5
+	}
+
+	CubeofFleshProjectile1: {
+		DisplayName: Cubeof Flesh Projectile1
+	}
+
+	CubeofFleshProjectile2: {
+		DisplayName: Cubeof Flesh Projectile2
+	}
+
+	CubeofFleshProjectile3: {
+		DisplayName: Cubeof Flesh Projectile3
+	}
+
+	CubeofFleshProjectile4: {
+		DisplayName: Cubeof Flesh Projectile4
+	}
+
+	CubeofFleshProjectile5: {
+		DisplayName: Cubeof Flesh Projectile5
+	}
+
+	CubeofFleshProjectile6: {
+		DisplayName: Cubeof Flesh Projectile6
+	}
+
+	DukesDearDiceProjectile1: {
+		DisplayName: Dukes Dear Dice Projectile1
+	}
+
+	DukesDearDiceProjectile2: {
+		DisplayName: Dukes Dear Dice Projectile2
+	}
+
+	DukesDearDiceProjectile3: {
+		DisplayName: Dukes Dear Dice Projectile3
+	}
+
+	DukesDearDiceProjectile4: {
+		DisplayName: Dukes Dear Dice Projectile4
+	}
+
+	DukesDearDiceProjectile5: {
+		DisplayName: Dukes Dear Dice Projectile5
+	}
+
+	ForbiddenDiceProjectile1: {
+		DisplayName: Forbidden Dice Projectile1
+	}
+
+	ForbiddenDiceProjectile2: {
+		DisplayName: Forbidden Dice Projectile2
+	}
+
+	ForbiddenDiceProjectile3: {
+		DisplayName: Forbidden Dice Projectile3
+	}
+
+	ForbiddenDiceProjectile4: {
+		DisplayName: Forbidden Dice Projectile4
+	}
+
+	ForbiddenDiceProjectile5: {
+		DisplayName: Forbidden Dice Projectile5
+	}
+
+	ForbiddenDiceProjectile6: {
+		DisplayName: Forbidden Dice Projectile6
+	}
+
+	FrostyDiceProjectile1: {
+		DisplayName: Frosty Dice Projectile1
+	}
+
+	FrostyDiceProjectile2: {
+		DisplayName: Frosty Dice Projectile2
+	}
+
+	FrostyDiceProjectile3: {
+		DisplayName: Frosty Dice Projectile3
+	}
+
+	FrostyDiceProjectile4: {
+		DisplayName: Frosty Dice Projectile4
+	}
+
+	FrostyDiceProjectile5: {
+		DisplayName: Frosty Dice Projectile5
+	}
+
+	GolemDiceProjectile1: {
+		DisplayName: Golem Dice Projectile1
+	}
+
+	GolemDiceProjectile2: {
+		DisplayName: Golem Dice Projectile2
+	}
+
+	GolemDiceProjectile3: {
+		DisplayName: Golem Dice Projectile3
+	}
+
+	GolemDiceProjectile4: {
+		DisplayName: Golem Dice Projectile4
+	}
+
+	GolemDiceProjectile5: {
+		DisplayName: Golem Dice Projectile5
+	}
+
+	HorsemensHeadProjectile1: {
+		DisplayName: Horsemens Head Projectile1
+	}
+
+	HorsemensHeadProjectile2: {
+		DisplayName: Horsemens Head Projectile2
+	}
+
+	HorsemensHeadProjectile3: {
+		DisplayName: Horsemens Head Projectile3
+	}
+
+	HorsemensHeadProjectile4: {
+		DisplayName: Horsemens Head Projectile4
+	}
+
+	HorsemensHeadProjectile5: {
+		DisplayName: Horsemens Head Projectile5
+	}
+
+	HorsemensHeadProjectile6: {
+		DisplayName: Horsemens Head Projectile6
+	}
+
+	MiscelleneaDiceProjectile1: {
+		DisplayName: Miscellenea Dice Projectile1
+	}
+
+	MiscelleneaDiceProjectile2: {
+		DisplayName: Miscellenea Dice Projectile2
+	}
+
+	MiscelleneaDiceProjectile3: {
+		DisplayName: Miscellenea Dice Projectile3
+	}
+
+	MiscelleneaDiceProjectile4: {
+		DisplayName: Miscellenea Dice Projectile4
+	}
+
+	MiscelleneaDiceProjectile5: {
+		DisplayName: Miscellenea Dice Projectile5
+	}
+
+	PinnacleDiceProjectile1: {
+		DisplayName: Pinnacle Dice Projectile1
+	}
+
+	PinnacleDiceProjectile2: {
+		DisplayName: Pinnacle Dice Projectile2
+	}
+
+	PinnacleDiceProjectile3: {
+		DisplayName: Pinnacle Dice Projectile3
+	}
+
+	PinnacleDiceProjectile4: {
+		DisplayName: Pinnacle Dice Projectile4
+	}
+
+	PinnacleDiceProjectile5: {
+		DisplayName: Pinnacle Dice Projectile5
+	}
+
+	TerraDiceProjectile1: {
+		DisplayName: Terra Dice Projectile1
+	}
+
+	TerraDiceProjectile2: {
+		DisplayName: Terra Dice Projectile2
+	}
+
+	TerraDiceProjectile3: {
+		DisplayName: Terra Dice Projectile3
+	}
+
+	TerraDiceProjectile4: {
+		DisplayName: Terra Dice Projectile4
+	}
+
+	TerraDiceProjectile5: {
+		DisplayName: Terra Dice Projectile5
+	}
+
+	AdamantiteNail: {
+		DisplayName: Adamantite Nail
+	}
+
+	CobaltNail: {
+		DisplayName: Cobalt Nail
+	}
+
+	MythrilNail: {
+		DisplayName: Mythril Nail
+	}
+
+	OrichalcumNail: {
+		DisplayName: Orichalcum Nail
+	}
+
+	PalladiumNail: {
+		DisplayName: Palladium Nail
+	}
+
+	TitaniumNail: {
+		DisplayName: Titanium Nail
+	}
+
+	DungeonDiceMonstersProjectile1: {
+		DisplayName: Dungeon Dice Monsters Projectile1
+	}
+
+	DungeonDiceMonstersProjectile2: {
+		DisplayName: Dungeon Dice Monsters Projectile2
+	}
+
+	DungeonDiceMonstersProjectile3: {
+		DisplayName: Dungeon Dice Monsters Projectile3
+	}
+
+	DungeonDiceMonstersProjectile4: {
+		DisplayName: Dungeon Dice Monsters Projectile4
+	}
+
+	DungeonDiceMonstersProjectile5: {
+		DisplayName: Dungeon Dice Monsters Projectile5
+	}
+
+	DungeonDiceMonstersProjectile6: {
+		DisplayName: Dungeon Dice Monsters Projectile6
+	}
+
+	GlassShard: {
+		DisplayName: Glass Shard
+	}
+
+	TerratomereHoldoutProj: {
+		DisplayName: Terratomere Holdout Proj
+	}
+
+	TerratomereMeleeSlash: {
+		DisplayName: Terratomere Melee Slash
+	}
+
+	TerratomereSlash: {
+		DisplayName: Terratomere Slash
+	}
+
+	TerratomereSlashCreator: {
+		DisplayName: Terratomere Slash Creator
+	}
+
+	OrigamiThrowingStarProj: {
+		DisplayName: Origami Throwing Star Proj
+	}
+
+	WhiteOrigamiThrowingStarProj: {
+		DisplayName: White Origami Throwing Star Proj
+	}
+}
+
+Tiles: {
+	Fourdrinier_Tile: {
+		MapEntry: Fourdrinier
+	}
+
+	SlotMachine_Tile: {
+		MapEntry: Slot Machine
+	}
+
+	BannerTile: {
+		MapEntry: Banner Tile
+	}
+}
+
+Prefixes: {
+	Cold: {
+		DisplayName: Cold
+	}
+
+	Hot: {
+		DisplayName: Hot
+	}
+
+	Pushed: {
+		DisplayName: Pushed
+	}
+
+	Toppling: {
+		DisplayName: Toppling
+	}
+
+	Weighted: {
+		DisplayName: Weighted
+	}
+
+	Whirling: {
+		DisplayName: Whirling
+	}
+}
+
+Configs: {
+	ChanceClassModClientConfig: {
+		DisplayName: Chance Class Mod Client Config
+
+		Headers: {
+			General: General Header
+		}
+
+		ShowClassTags: {
+			Label: Show Class Tags
+			Tooltip: ""
+		}
+
+		ShowModTags: {
+			Label: Show Mod Tags
+			Tooltip: ""
+		}
+	}
+
+	ChanceClassModServerConfig: {
+		DisplayName: Chance Class Mod Server Config
+
+		Headers: {
+			General: General Header
+		}
+
+		LoadCrossmodContentWithoutRequiredMods: {
+			Label: Load Crossmod Content Without Required Mods
+			Tooltip: ""
+		}
+	}
+}
+

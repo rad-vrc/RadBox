@@ -1,0 +1,79 @@
+InfoDisplays: {
+	SCCDisplay: {
+		DisplayName: 海の生き物の捕獲率
+		CurrentSCCText: %の敵の捕獲率
+	}
+}
+Items: {
+	Accessories: {
+		GoldenCage: {
+			DisplayName: 金色のテラリウム
+			Tooltip: 金色の生き物を捕まえられるようにする
+		}
+		SeaCreatureBonusAcc: {
+			DisplayName: 海の生き物のボーナスアクセサリー
+			Tooltip: どうやってこれを手に入れたの？テスト用のアクセサリだよ
+		}
+		TwinHook: {
+			DisplayName: ツインフック
+			Tooltip: ""
+		}
+		IchthyologicalSonar: {
+			DisplayName: 魚類学のソナー
+			Tooltip: ""
+		}
+	}
+	Baits: {
+		MagneticBait: {
+			DisplayName: 磁力の餌
+			Tooltip: 鉱石を釣れるようにする
+		}
+		SlimyBait: {
+			DisplayName: ネバネバした餌
+			Tooltip: 海の生き物の捕獲率を上昇させる
+		}
+		FishBait: {
+			DisplayName: 魚の餌
+			Tooltip: もう厄介なクリーチャーは釣れない！
+		}
+	}
+	Tools: {
+		SlimyRod: {
+			DisplayName: ネバネバした釣竿
+			Tooltip: 海の生き物を捕まえる確率が上昇する！
+		}
+	}
+	Fish: {
+		Obelfish: {
+			DisplayName: オーベルフィッシュ
+			Tooltip: 少し迷子になっているようだ…
+		}
+		Puffer: {
+			DisplayName: フグ
+			Tooltip: 注意：爆発の危険あり！
+		}
+		WitheredFish: {
+			DisplayName: 干からびた魚
+			Tooltip: 「今は見る影もない」
+		}
+	}
+	Armor: {
+		DivingHelmet: {
+			DisplayName: 潜水ヘルメット
+			Tooltip: 呼吸時間を延長し、海の生き物の捕獲率が上昇する
+		}
+		DivingChestplate: {
+			DisplayName: 潜水の胸当て
+			Tooltip: 海の生き物から受けるダメージを軽減し、フィッシング・パワーが向上する
+		}
+		DivingLeggings: {
+			DisplayName: 潜水のすね当て
+			Tooltip: 海の生き物に与えるダメージが増加し、ダブルフックの確率を上げる
+		}
+	}
+}
+Projectiles: {
+	SlimeBobber: {
+		DisplayName: スライムの浮き
+	}
+}

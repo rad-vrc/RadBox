@@ -1,0 +1,378 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		Headers: {
+			Improvements: 改善
+			Misc: その他
+			ExtraInfo: 表示
+			ModsToReload: 再読み込みするMOD
+			ReloadOptions: 再読み込み設定
+		}
+
+		ModsToReload: {
+			Label: 再読み込みするMOD
+			Tooltip: ""
+		}
+
+		AutoJoinWorld: {
+			Label: ワールドに自動参加
+			Tooltip: MODの再読み込み後に選択したワールドに自動的に参加します
+		}
+
+		Player: {
+			Label: プレイヤー
+			Tooltip: 再読み込み時にワールドに参加するプレイヤーを選択
+		}
+
+		World: {
+			Label: ワールド
+			Tooltip: 再読み込み時に参加するワールドを選択
+		}
+
+		LogDebugMessages: {
+			Label: デバッグメッセージをログ
+			Tooltip: （オプション）MOD内のアクションの流れをログに記録します。バグの原因を見つけるのに役立ちます
+		}
+
+		ShowDebugInfo: {
+			Label: デバッグ情報を表示
+			Tooltip:
+				'''
+				ワールド内にいる際、左下にデバッグテキストを追加します
+				名前、ID、モード、FPS、設定を開くが含まれます
+				'''
+		}
+
+		ShowMainMenuInfo: {
+			Label: メインメニュー情報を表示
+			Tooltip: メインメニューのすべてのオプションをその画面に追加します
+		}
+
+		ShowErrorMenuInfo: {
+			Label: エラーメニュー情報を表示
+			Tooltip: エラーメニューのすべてのオプションをその画面に追加します
+		}
+
+		ShowCopyToClipboardButton: {
+			Label: クリップボードにコピーボタンを表示
+			Tooltip: エラーメニューでメッセージをコピーできる新しいボタンが表示されます
+		}
+
+		RightClickToolOptions: {
+			Label: 右クリックツールオプション
+			Tooltip: ツールに右クリックオプションで追加の機能を持たせるオプションを追加します
+		}
+
+		MoveChat: {
+			Label: チャットを移動
+			Tooltip: デバッグ情報のスペースを確保するためにチャットボックスの位置を少し移動します
+		}
+
+		LogLevelPersistOnReloads: {
+			Tooltip: 再読み込み後にログレベルを保持します。この設定をオフにすると、ログレベルはデフォルトのままになります
+			Label: ログレベルを再読み込み後も保持
+		}
+
+		BuilderToggle: {
+			Label: ビルダー切り替え
+			Tooltip: インベントリの左側に新しいビルダー切り替えを表示し、すべてのツールを切り替えます
+		}
+
+		ShowBuilderToggle: {
+			Label: ビルダー切り替えを表示
+			Tooltip: ""
+		}
+
+		ClearLogOnReload: {
+			Label: 再読み込み時にログをクリア
+			Tooltip: ""
+		}
+
+		SaveWorld: {
+			Label: Save World
+			Tooltip:
+				'''
+				Save player and world data before reloading. 
+				Takes more time to reload but saves the your player and world
+				'''
+		}
+
+		CreateTestWorldSize: {
+			Label: Create Test World Size
+			Tooltip: Size set to a world created from the main menu option
+		}
+
+		CreateTestWorldDifficulty: {
+			Label: Create Test World Difficulty
+			Tooltip: Difficulty set to a world created from the main menu option
+		}
+	}
+
+	WorldSize: {
+		Tooltip: ""
+
+		Small: {
+			Label: Small
+		}
+
+		Medium: {
+			Label: Medium
+		}
+
+		Large: {
+			Label: Large
+		}
+
+		ExtraSmall: {
+			Label: Extra Small (Risky)
+		}
+	}
+
+	WorldDifficulty: {
+		Tooltip: ""
+
+		Normal: {
+			Label: Normal
+		}
+
+		Expert: {
+			Label: Expert
+		}
+
+		Master: {
+			Label: Master
+		}
+
+		Journey: {
+			Label: Journey
+		}
+	}
+}
+
+BuilderToggles: {
+	MainStateBuilderToggle: {
+		OffText: Mod Reloader オフ
+		OnText: Mod Reloader オン
+	}
+}
+
+MainMenu: {
+	WelcomeTooltip: Mod Reloader のメインメニューへようこそ！
+	OpenConfigText: 設定を開く
+	OpenConfigTooltip: クリックしてMod Reloader の設定を開く
+	ReloadText: 再読み込み
+	ReloadTooltip: "{0} を再読み込み"
+	ReloadNoMods: MODが選択されていません
+	OptionsHeader: 設定
+	OptionsTooltip: テスト用の一般的なオプション
+	StartServerText: サーバーを開始
+	StartServerTooltip: ｺﾏﾝﾄﾞﾗｲﾝでｻｰﾊﾞｰｲﾝｽﾀﾝｽを開始
+	StartClientText: クライアントを開始
+	StartClientTooltip:
+		'''
+		このインスタンスに加えて、
+		ｺﾏﾝﾄﾞﾗｲﾝで別のtMLインスタンスを開始
+		'''
+	OpenLogText: ログを開く
+	OpenLogTooltip: クリックして {0} を開く
+	ClearLogText: ログをクリア
+	ClearLogTooltip: クリックして {0} をクリア
+	SingleplayerHeader: シングルプレイヤー
+	SingleplayerTooltip: シングルプレイヤーワールドに素早く参加
+	JoinSingleplayerText: シングルプレイを開始
+	JoinSingleplayerTooltip: 設定で選択したプレイヤーとワールドで開始
+	JoinSingleplayerTooltipNoData: Enter singleplayer with some player and some world
+	MultiplayerHeader: マルチプレイヤー
+	MultiplayerTooltip: マルチプレイヤーのホストとテスト
+	HostMultiplayerText: ホストでマルチプレイを開始
+	HostMultiplayerTooltip: ローカルマルチプレイヤーワールドを開始
+	JoinMultiplayerText: マルチプレイヤーに参加
+	JoinMultiplayerTooltip:
+		'''
+		利用可能な最初のプレイヤーで
+		ﾛｰｶﾙﾏﾙﾁﾌﾟﾚｲﾔｰﾜｰﾙﾄﾞに参加（サーバー必須）
+		'''
+	LoadingPlayer: Loading player: {0}
+	LoadingWorld: ワールドを読み込み中: {0}
+	WorldHeader: World
+	WorldTooltip: Quickly create worlds
+	CreateNewWorld: Create New World
+	CreateNewWorldTooltip:
+		'''
+		Create world with name {0}, 
+		 size {1} and difficulty {2}
+		'''
+}
+
+ExceptionMenu: {
+	TitleTooltip: Mod Reloader のエラーメニューへようこそ！
+	ReloadText: 再読み込み
+	ReloadTooltip: "{0} を再読み込み"
+	OpenLogText: ログを開く
+	OpenLogTooltip: クリックして {0} を開く
+	ClearLogText: ログをクリア
+	ClearLogTooltip: クリックして {0} をクリア
+	CopyText: コピー
+	CopyTooltip: クリップボードにコピー
+	GoToFileText: ファイルに移動
+	GoToFileTooltip: 例外のソースファイルをVSで開く
+	Copied: コピーしました！
+}
+
+ModsButton: {
+	Text: MOD
+	HoverText: MODリスト
+	HoverDesc: MODのオン/オフを切り替え
+	HoverTooltipOn: MODリストを閉じる
+	HoverTooltipOff: MODリストを開く
+}
+
+UIElementButton: {
+	Text: UI
+	HoverText: UIエレメントヒットボックス
+	HoverDescBase: UIエレメントのヒットボックスを切り替え
+	HoverDescRightClick: 右クリックで全てのUIエレメントを切り替え
+	HoverTooltipOn: UIエレメントパネルを閉じる
+	HoverTooltipOff: UIエレメントパネルを開く
+}
+
+LogButton: {
+	Text: ログ
+	HoverText: ログオプション
+	HoverDescBase: ここでログオプションを変更
+	HoverDescRightClick: 右クリックで {0} を開く
+	HoverTooltipOn: ログパネルを閉じる
+	HoverTooltipOff: ログパネルを開く
+}
+
+ReloadButton: {
+	Text: 再読み込み
+	HoverText: "{0} を再読み込み"
+	HoverDescNoMods: MODが選択されていません
+	HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
+}
+
+ReloadMPButton: {
+	Text: ﾏﾙﾁﾌﾟﾚｲ 再読み込み
+	HoverText: "{0} を再読み込み"
+	HoverDescNoMods: MODが選択されていません
+	HoverDescRightClick: 右クリックでMODをビルドせずに再読み込み
+}
+
+Keybinds: {
+	DragonLensLogPanel: {
+		DisplayName: Dragon Lens ログパネル
+	}
+
+	DragonLensLogPanelRightClick: {
+		DisplayName: Dragon Lens ログパネル右クリック
+	}
+
+	DragonLensModsPanel: {
+		DisplayName: Dragon Lens MODパネル
+	}
+
+	DragonLensReload: {
+		DisplayName: Dragon Lens 再読み込み
+	}
+
+	DragonLensReloadRightClick: {
+		DisplayName: Dragon Lens 再読み込み右クリック
+	}
+
+	DragonLensReloadMP: {
+		DisplayName: Dragon Lens 再読み込み ﾏﾙﾁﾌﾟﾚｲ
+	}
+
+	DragonLensReloadMPRightClick: {
+		DisplayName: Dragon Lens 再読み込み ﾏﾙﾁﾌﾟﾚｲ 右クリック
+	}
+
+	DragonLensUIPanel: {
+		DisplayName: Dragon Lens UIパネル
+	}
+
+	DragonLensUIPanelRightClick: {
+		DisplayName: Dragon Lens UIパネル右クリック
+	}
+}
+
+Tools: {
+	DragonLensLogPanel: {
+		DisplayName: Dragon Lens ログパネル
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+		RightClickName: Dragon Lens ログパネル 右クリック
+	}
+
+	DragonLensModsPanel: {
+		DisplayName: Dragon Lens MODパネル
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+	}
+
+	DragonLensReload: {
+		DisplayName: Dragon Lens 再読み込み
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+		RightClickName: Dragon Lens 再読み込み 右クリック
+	}
+
+	DragonLensReloadMP: {
+		DisplayName: Dragon Lens 再読み込み ﾏﾙﾁﾌﾟﾚｲ
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+		RightClickName: Dragon Lens 再読み込み ﾏﾙﾁﾌﾟﾚｲ 右クリック
+	}
+
+	DragonLensUIPanel: {
+		DisplayName: Dragon Lens UIパネル
+		Description: このツールには説明がありません！.hjsonファイルに追加してください！
+		RightClickName: Dragon Lens UIパネル 右クリック
+	}
+}
+
+DebugText: {
+	ClickToHide: クリックしてデバッグ情報を非表示
+	RightClickOpenConfig: 右クリックで設定を開く
+	RightClickCloseConfig: 右クリックで設定を閉じる
+}
+
+ModSourceLastBuilt: {
+	Seconds: "{0}秒前"
+	Minute: "{0}分前"
+	Minutes: "{0}分前"
+	Hour: "{0}時間前"
+	Hours: "{0}時間前"
+	Day: "{0}日前"
+	Days: "{0}日前"
+	LastBuilt: 最終ビルド
+}
+
+LogPanel: {
+	LogTitle: ログ
+	LogTitleHover: クリックして Steam/steamapps/common/tModLoader/tModLoader-Logs のフォルダを開く
+	OpenClientLog: クライアントログを開く
+	OpenClientLogHover: クリックして {0} を開く
+	OpenServerLog: サーバーログを開く
+	OpenServerLogHover: クリックしてサーバーログを開く
+	ClearClientLog: クライアントログをクリア
+	ClearClientLogHover: クリックして {0} をクリア
+	LogLevelTitle: ログレベル
+	LogLevelHeader: 各ログのログレベルを設定：オフ、エラー、警告、情報、デバッグ、すべて
+	LogLevelPersistOnReloads: このログレベルは再読み込み後も保持されます！
+	SetLogLevelFor: "{0} のログレベルを設定"
+	Off: オフ
+	Error: エラー
+	Warn: 警告
+	Info: 情報
+	Debug: デバッグ
+	All: すべて
+}
+
+UIElementPanel: {
+	ShowAll: すべてのUIを表示します
+	HideAll: すべてのUIを非表示にします
+}
+
+LeftClickHelper: {
+	ModReloaderOffTooltip: Mod Reloader がオフです。切り替えるには、インベントリを開き、ホットバーの左側を見て、目を切り替えてMod Reloader のツールをすべて表示または非表示にします。
+}
+

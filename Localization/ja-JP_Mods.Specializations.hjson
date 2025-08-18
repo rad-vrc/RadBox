@@ -1,0 +1,243 @@
+Projectiles: {
+	TitaniumRapierProjectile: {
+		DisplayName: チタンレイピアの弾
+	}
+
+	PalladiumRapierProjectile: {
+		DisplayName: パラジウムレイピアの弾
+	}
+
+	OrichalcumRapierProjectile: {
+		DisplayName: オリハルコンレイピアの弾
+	}
+
+	MythrilRapierProjectile: {
+		DisplayName: ミスリルレイピアの弾
+	}
+
+	HallowedRapierProjectile: {
+		DisplayName: 神聖レイピアの弾
+	}
+
+	CobaltRapierProjectile: {
+		DisplayName: コバルトレイピアの弾
+	}
+
+	ChlorophyteRapierProjectile: {
+		DisplayName: クロロファイトレイピアの弾
+	}
+
+	AdamantiteRapierProjectile: {
+		DisplayName: アダマンタイトレイピアの弾
+	}
+
+	TitaniumJavelinProjectile: {
+		DisplayName: チタンジャベリンの弾
+	}
+
+	RedLaser: {
+		DisplayName: 赤色レーザー
+	}
+
+	PalladiumThrowingHammerProjectile: {
+		DisplayName: パラジウム投擲ハンマーの弾
+	}
+
+	OrichalcumCaltropProjectile: {
+		DisplayName: オリハルコン・カルトロップの弾
+	}
+
+	MythrilThrowingDaggerProjectile: {
+		DisplayName: ミスリル投げナイフの弾
+	}
+
+	HallowedGrenadeProjectile: {
+		DisplayName: 神聖グレネードの弾
+	}
+
+	CobaltShurikenProjectile: {
+		DisplayName: コバルト手裏剣の弾
+	}
+
+	ChlorophyteSpearProjectile: {
+		DisplayName: クロロファイトスピアの弾
+	}
+
+	AdamantiteBoneProjectile: {
+		DisplayName: アダマンタイト・ボーンの弾
+	}
+}
+
+Items: {
+	TitaniumJavelin: {
+		Tooltip: ""
+		DisplayName: チタンのジャベリン
+	}
+
+	PalladiumThrowingHammer: {
+		Tooltip: ""
+		DisplayName: パラジウムのスローイングハンマー
+	}
+
+	OrichalcumCaltrop: {
+		Tooltip: ""
+		DisplayName: オリハルコンのカルトロップ
+	}
+
+	MythrilThrowingDagger: {
+		Tooltip: ""
+		DisplayName: ミスリルの投げナイフ
+	}
+
+	HallowedGrenade: {
+		Tooltip: ""
+		DisplayName: 神聖なグレネード
+	}
+
+	CobaltShuriken: {
+		Tooltip: ""
+		DisplayName: コバルトの手裏剣
+	}
+
+	ChlorophyteSpear: {
+		Tooltip: ""
+		DisplayName: クロロファイトスピア
+	}
+
+	AdamantiteBone: {
+		Tooltip: ""
+		DisplayName: アダマンタイトの骨
+	}
+
+	TitaniumRapier: {
+		Tooltip: 命中時 出血を付与し 持ち主にアイアンスキンを付与
+		DisplayName: チタンのレイピア
+	}
+
+	PalladiumRapier: {
+		Tooltip: 3回に1回 弾を発射
+		DisplayName: パラジウムのレイピア
+	}
+
+	OrichalcumRapier: {
+		Tooltip: 命中時 出血を付与 1回おきに壁貫通するピンクの花弁を発射
+		DisplayName: オリハルコンのレイピア
+	}
+
+	MythrilRapier: {
+		Tooltip: 命中時 出血を付与し 自らを研ぎ澄ます
+		DisplayName: ミスリルのレイピア
+	}
+
+	HallowedRapier: {
+		Tooltip: 命中時 出血を付与 赤熱レーザーを発射 まれに命中時に持ち主へバフを付与
+		DisplayName: 神聖なレイピア
+	}
+
+	CobaltRapier: {
+		Tooltip: 命中時 出血を付与し 持ち主に俊足を付与
+		DisplayName: コバルトのレイピア
+	}
+
+	ChlorophyteRapier: {
+		Tooltip: 命中時 出血を付与 振るたび胞子の雲を2つ放つ
+		DisplayName: クロロファイトのレイピア
+	}
+
+	AdamantiteRapier: {
+		Tooltip: 1回おきに赤熱のレーザーを発射
+		DisplayName: アダマンタイトのレイピア
+	}
+
+	TitaniumCarbine: {
+		Tooltip: ""
+		DisplayName: チタンのカービン
+	}
+
+	TitaniumBlaster: {
+		Tooltip: 強力な爆発弾を発射
+		DisplayName: チタンブラスター
+	}
+
+	PalladiumRifle: {
+		Tooltip:
+			'''
+			3点バースト
+			最初の1発のみ弾薬を消費
+			'''
+		DisplayName: パラジウムのライフル
+	}
+
+	PalladiumMagnum: {
+		Tooltip: ""
+		DisplayName: パラジウムのマグナム
+	}
+
+	OrichalcumMachinePistol: {
+		Tooltip: 50%の確率で弾薬を消費しない
+		DisplayName: オリハルコンのマシンピストル
+	}
+
+	OrichalcumMachineGun: {
+		Tooltip: 40%の確率で弾薬を消費しない
+		DisplayName: オリハルコンのマシンガン
+	}
+
+	MythrilShotgun: {
+		Tooltip: ""
+		DisplayName: ミスリルのショットガン
+	}
+
+	MythrilRevolver: {
+		Tooltip: ""
+		DisplayName: ミスリルのリボルバー
+	}
+
+	HallowedRifle: {
+		Tooltip: 赤熱レーザーを発射
+		DisplayName: 神聖なライフル
+	}
+
+	HallowedMachinePistol: {
+		Tooltip: ""
+		DisplayName: 神聖なマシンピストル
+	}
+
+	CobaltPistol: {
+		Tooltip: ""
+		DisplayName: コバルトの拳銃
+	}
+
+	CobaltCarbine: {
+		Tooltip: ""
+		DisplayName: コバルトのカービン
+	}
+
+	ChlorophyteMusket: {
+		Tooltip: ""
+		DisplayName: クロロファイトのマスケット銃
+	}
+
+	ChlorophyteFlintlock: {
+		Tooltip: ""
+		DisplayName: クロロファイトのフリントロック
+	}
+
+	AdamantiteShotgun: {
+		Tooltip: ""
+		DisplayName: アダマンタイトのショットガン
+	}
+
+	AdamantiteBlaster: {
+		Tooltip: ""
+		DisplayName: アダマンタイトブラスター
+	}
+}
+
+Buffs: {
+	RapierBleed: {
+		Description: ライフが減少
+		DisplayName: 出血
+	}
+}
+

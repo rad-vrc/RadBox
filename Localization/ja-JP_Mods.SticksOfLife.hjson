@@ -1,0 +1,879 @@
+{
+	Buffs: {
+		BloodFlame: {
+			DisplayName: "血の炎"
+			Description: "継続的なダメージを与える"
+		}
+		Wounded: {
+			DisplayName: "負傷"
+			Description: "移動速度が低下し、生命回復が無効になる"
+		}
+	}
+	Items: {
+		StickNecklace: {
+			DisplayName: "スティックネックレス"
+			Tooltip: "スティックのダメージを5%上昇させる"
+		}
+		StickRing: {
+			DisplayName: "スティックリング"
+			Tooltip: "スティックのダメージを3%上昇させる"
+		}
+		StickHat: {
+			DisplayName: "スティックハット"
+			Tooltip: ""
+		}
+		StickPants: {
+			DisplayName: "スティックパンツ"
+			Tooltip: ""
+		}
+		StickShirt: {
+			DisplayName: "スティックシャツ"
+			Tooltip: ""
+		}
+		BrokenStick: {
+			DisplayName: "壊れた棒"
+			Tooltip: "ジェシー、棒が壊れちまった"
+		}
+		AcornStick: {
+			DisplayName: "どんぐりのスティック"
+			Tooltip: "木の実付きの棒だ…へへ"
+		}
+		AdamantiteStick: {
+			DisplayName: "アダマンタイトのスティック"
+			Tooltip: "アダムって誰だ？"
+		}
+		AmberStick: {
+			DisplayName: "コハクのスティック"
+			Tooltip: "琥珀の中に古代のジョークが眠っている"
+		}
+		AmethystStick: {
+			DisplayName: "アメジストのスティック"
+			Tooltip: "アメのように甘い…わけではない"
+		}
+		BeeStick: {
+			DisplayName: "ハチのスティック"
+			Tooltip: "ブーンと音を立てるが、刺さない"
+		}
+		BloodStick: {
+			DisplayName: "血のスティック"
+			Tooltip: "ぐはぁ？？？"
+		}
+		BoneStick: {
+			DisplayName: "骨のスティック"
+			Tooltip: "このスプライトが何に基づいているか当ててみな"
+		}
+		BorealStick: {
+			DisplayName: "ボーリアルスティック"
+			Tooltip: "これは…ただの別の棒だ"
+		}
+		BrainStick: {
+			DisplayName: "脳みそのスティック"
+			Tooltip: "そう、天才的なひらめきの時間だ"
+		}
+		CactusStick: {
+			DisplayName: "サボテンのスティック"
+			Tooltip: "触ると痛いかも"
+		}
+		CannonStick: {
+			DisplayName: "キャノンのスティック"
+			Tooltip: "えーっと、うーん、えーっと"
+		}
+		ChlorophyteStick: {
+			DisplayName: "クロロファイトのスティック"
+			Tooltip: "地下室の子供のジョークが尽きた"
+		}
+		CobaltStick: {
+			DisplayName: "コバルトのスティック"
+			Tooltip: "コバルトに関するジョークは思いつかなかった。悪かったな"
+		}
+		CopperStick: {
+			DisplayName: "銅のスティック"
+			Tooltip: "ぴかぴかだが価値はそこそこ"
+		}
+		CrimtaneStick: {
+			DisplayName: "クリムゾンのスティック"
+			Tooltip: "地下室に閉じ込められてる、助けて"
+		}
+		CrystalStick: {
+			DisplayName: "クリスタルのスティック"
+			Tooltip: "ウォルター、作るぞウォルター"
+		}
+		DemoniteStick: {
+			DisplayName: "デモナイトのスティック"
+			Tooltip: "全アイテムにジョークを作るのがどれだけ大変か、やってみろよ"
+		}
+		DestroyerStick: {
+			DisplayName: "破壊のスティック"
+			Tooltip: "ピューピュー"
+		}
+		DiamondStick: {
+			DisplayName: "ダイヤモンドのスティック"
+			Tooltip: "祖父の最後の願いは、彼の遺灰をダイヤモンドに変えることだった。それはすごいプレッシャーだ"
+		}
+		DukeStickron: {
+			DisplayName: "デュークスティックロン"
+			Tooltip: "面白い名前だろ？"
+		}
+		DynastyWoodStick: {
+			DisplayName: "ダイナスティウッドのスティック"
+			Tooltip: "ただの木の棒、それだけだ"
+		}
+		EbonwoodStick: {
+			DisplayName: "エボンウッドのスティック"
+			Tooltip: "ただの棒…だが汚染されている！"
+		}
+		EmeraldStick: {
+			DisplayName: "エメラルドのスティック"
+			Tooltip: "エメラルドスプラッシュ！…は出ない"
+		}
+		FeatheredStick: {
+			DisplayName: "羽のスティック"
+			Tooltip: "1000kgの鉄と1000kgの羽、どっちが重い？"
+		}
+		FieryStick: {
+			DisplayName: "燃え盛るスティック"
+			Tooltip: "こいつは燃えるぜ！"
+		}
+		FishStick: {
+			DisplayName: "魚のスティック"
+			Tooltip: "マシュマロの串刺しなんて誰がいる？魚がいればいいだろ？\n[c/beffab:雨天時クリティカル率50%]"
+		}
+		GoldStick: {
+			DisplayName: "金のスティック"
+			Tooltip: "パラリンピックの金メダルより良いものは？ 両足だ"
+		}
+		HallowedStick: {
+			DisplayName: "神聖なスティック"
+			Tooltip: "少し空虚な感じがする"
+		}
+		HellstoneStick: {
+			DisplayName: "ヘルストーンのスティック"
+			Tooltip: "地獄(hell)の石から作られている…一体(the HELL)何を期待してたんだ"
+		}
+		IronStick: {
+			DisplayName: "鉄のスティック"
+			Tooltip: "鉄の意志を持つ者のための棒"
+		}
+		LeadStick: {
+			DisplayName: "鉛のスティック"
+			Tooltip: "馬を水辺に導く(lead)ことはできるが、背泳ぎをさせることはできない…待て、そのリード(lead)じゃない"
+		}
+		LihzahrdStick: {
+			DisplayName: "リザードのスティック"
+			Tooltip: "正しくスペルできるか？"
+		}
+		MageStick: {
+			DisplayName: "メイジのスティック"
+			Tooltip: "核爆弾を合法化せよ"
+		}
+		MagicStick: {
+			DisplayName: "エルダーのスティック"
+			Tooltip: "ランダムなデタラメ、行け！"
+		}
+		MahoganyStick: {
+			DisplayName: "マホガニーのスティック"
+			Tooltip: "ご想像の通り…ただの棒だ"
+		}
+		MeteoriteStick: {
+			DisplayName: "隕石のスティック"
+			Tooltip: "隕石は惑星に何て言った？\nぶっ潰させて"
+		}
+		MoonStick: {
+			DisplayName: "月のスティック"
+			Tooltip: "シグマ、シグマ、壁の上…そう、ゲームをクリアしてもらえるのはこれだけだ"
+		}
+		MythrilStick: {
+			DisplayName: "ミスリルのスティック"
+			Tooltip: "どの世界に住んでいるかによって、Mithrilと綴るかもしれない"
+		}
+		NebulaStick: {
+			DisplayName: "ネビュラのスティック"
+			Tooltip: "たった今Apex Legendsで死んだ"
+		}
+		NightsStick: {
+			DisplayName: "ナイトスティック"
+			Tooltip: "ウォルター、俺を舐めるなウォルター"
+		}
+		ObsidianStick: {
+			DisplayName: "黒曜石のスティック"
+			Tooltip: "硬い棒だ、重いかもしれない、お前の母さんのようにな"
+		}
+		OrichalcumStick: {
+			DisplayName: "オリハルコンのスティック"
+			Tooltip: "オリハルコンをオリハル抜きで綴ってみろ、へへ"
+		}
+		PalladiumStick: {
+			DisplayName: "パラジウムのスティック"
+			Tooltip: "この鉱石のジョークを見つける苦労がお前にわかるか"
+		}
+		PalmWoodStick: {
+			DisplayName: "パームウッドのスティック"
+			Tooltip: "まあ…ただの棒だな"
+		}
+		PearlwoodStick: {
+			DisplayName: "パールウッドのスティック"
+			Tooltip: "これが棒でなければ"
+		}
+		PixieStick: {
+			DisplayName: "ピクシーのスティック"
+			Tooltip: "フォートナイトの鳥"
+		}
+		PlantStick: {
+			DisplayName: "プラントのスティック"
+			Tooltip: "最近、植物(plant)を植えた(plant)かい？"
+		}
+		PlatinumStick: {
+			DisplayName: "プラチナのスティック"
+			Tooltip: "プラチナ級のジョークがあるんだが、君は中身がないと思うかもしれない"
+		}
+		PrimeMechStick: {
+			DisplayName: "プライムソー"
+			Tooltip: "俺の全盛期(prime)は一度もなかった"
+		}
+		RainbowStick: {
+			DisplayName: "レインボースティック"
+			Tooltip: "弓(bow)の雨(rain)が降る"
+		}
+		RubyStick: {
+			DisplayName: "ルビーのスティック"
+			Tooltip: "ああ、こいつのアイデアは尽きた"
+		}
+		SapphireStick: {
+			DisplayName: "サファイアのスティック"
+			Tooltip: "アーティストはシアン、コバルト、ロイヤル、サファイアの絵の具がないと言った。全く青天の霹靂だった"
+		}
+		ShadewoodStick: {
+			DisplayName: "シェイドウッドのスティック"
+			Tooltip: "普通の棒だ…だが少し怪しい(shady)"
+		}
+		ShadowStick: {
+			DisplayName: "シャドウフレイムのスティック"
+			Tooltip: "自分の影は信用できない、彼は怪しい(shady)やつだ"
+		}
+		ShroomiteStick: {
+			DisplayName: "シュルーマイトのスティック"
+			Tooltip: "今キノコでキマってるところだ"
+		}
+		SilverStick: {
+			DisplayName: "銀のスティック"
+			Tooltip: "銀(silver)のないドラゴンを何と呼ぶ？\n'A dron' (ドラゴン)"
+		}
+		SkullStick: {
+			DisplayName: "骸骨のスティック"
+			Tooltip: "💀"
+		}
+		SlimyStick: {
+			DisplayName: "スライムスティック"
+			Tooltip: "ちょっと滑りやすい"
+		}
+		SmashStick: {
+			DisplayName: "スマッシュスティック"
+			Tooltip: "スマッシュ"
+		}
+		SolarStick: {
+			DisplayName: "ソーラーフレアのスティック"
+			Tooltip: "君と太陽の違いは何だ？\n俺は君に飛び込みたくない"
+		}
+		SpectralStick: {
+			DisplayName: "スペクタースティック"
+			Tooltip: "正気を失いつつある"
+		}
+		SpookyWoodStick: {
+			DisplayName: "不気味な木のスティック"
+			Tooltip: "不気味な棒だ"
+		}
+		SporeStick: {
+			DisplayName: "スポアスティック"
+			Tooltip: "今キノコでキマってればなあ"
+		}
+		StardustStick: {
+			DisplayName: "スターダストのスティック"
+			Tooltip: "星に飛び込むのも悪くない"
+		}
+		Starick: {
+			DisplayName: "スター「打」スティック"
+			Tooltip: "なぜ宇宙人は地球を訪れない？\n評価が星1つだからだ"
+		}
+		Stickmasa: {
+			DisplayName: "スティックマサ"
+			Tooltip: "俺の内面は空っぽだ"
+		}
+		StickOfGrass: {
+			DisplayName: "草のスティック"
+			Tooltip: "ジェシー、代わりに草を精製しよう"
+		}
+		StickOfSparking: {
+			DisplayName: "スパークスティック"
+			Tooltip: "キラキラ"
+		}
+		StingerStick: {
+			DisplayName: "スティンガースティック"
+			Tooltip: "痛っ"
+		}
+		StoneStick: {
+			DisplayName: "石のスティック"
+			Tooltip: "棒だ…だが石でできている"
+		}
+		TerraStick: {
+			DisplayName: "テラスティック"
+			Tooltip: "テラスティック？むしろ悪質な万引き(devious lick)だろ"
+		}
+		TinStick: {
+			DisplayName: "錫のスティック"
+			Tooltip: "缶切り(tin opener)のモノマネを見たことがあるか？気味が悪い(uncanny)ほどだ"
+		}
+		TitaniumStick: {
+			DisplayName: "チタンのスティック"
+			Tooltip: "なぜチタンは鉄とアルゴンを恐れた？\nFEAR(FeAr)そのもの以外に恐れるものはないからだ"
+		}
+		TopazStick: {
+			DisplayName: "トパーズのスティック"
+			Tooltip: "宝石の試験があるんだ。合格(pass)できる気がしない(topaz)"
+		}
+		TrueHallowedStick: {
+			DisplayName: "真・神聖なスティック"
+			Tooltip: "本当に空虚な感じがする"
+		}
+		TrueNightsStick: {
+			DisplayName: "真・ナイトスティック"
+			Tooltip: "ウォルター、俺を食うなウォルター"
+		}
+		TungstenStick: {
+			DisplayName: "タングステンのスティック"
+			Tooltip: "一番美味しい元素は？ タング(舌)ステン"
+		}
+		TurtleStick: {
+			DisplayName: "亀甲のスティック"
+			Tooltip: "なぜカメは立ち上がれなかった？ 爬虫類機能不全(reptile disfunction)だったからだ"
+		}
+		TwinsStick: {
+			DisplayName: "ツインズのスティック"
+			Tooltip: "'''\nいつも誰かに見られているような気がする\n[c/beffab:右クリックで発射モードを切り替え]\n'''"
+		}
+		VortexStick: {
+			DisplayName: "ボルテックスティック"
+			Tooltip: "最悪だ"
+		}
+		WallStick: {
+			DisplayName: "ハングリングスティック"
+			Tooltip: "殺せ"
+		}
+		WatchingStick: {
+			DisplayName: "ウォッチングスティック"
+			Tooltip: "くそ、そのジョークはもう使った"
+		}
+		WoodenStick: {
+			DisplayName: "木の棒"
+			Tooltip: "棒だ…何を期待してたんだ？"
+		}
+		WormStick: {
+			DisplayName: "ワームのスティック"
+			Tooltip: "他にミミズに見えるものが何か知ってるか？"
+		}
+		ZenithStick: {
+			DisplayName: "ゼニスティック"
+			Tooltip: "[c/c2ffe0:粗末な近接武器の頂点。]"
+		}
+		Zombick: {
+			DisplayName: "ゾンビック"
+			Tooltip: "ゾンビの脚のようだ、俺の好きなファストフードはKFCだ"
+		}
+		HeartStick: {
+			DisplayName: "ハートスティック"
+			Tooltip: "彼女のBが大好きだ"
+		}
+		AshWoodStick: {
+			DisplayName: "アッシュウッドの棒"
+			Tooltip: "ウォルター…犬を食べるなウォルター"
+		}
+		ManaStick: {
+			DisplayName: "マナスティック"
+			Tooltip: "豆知識、今は午前9時34分だ"
+		}
+		TastyStick: {
+			DisplayName: "おいしいスティック"
+			Tooltip: "なぜ棒を食べるんだ？"
+		}
+		StickKunai: {
+			DisplayName: "スティッククナイ"
+			Tooltip: "これはキリコか？"
+		}
+		ExplosiveStickKunai: {
+			DisplayName: "爆発性スティッククナイ"
+			Tooltip: "バンバン部屋に入ってくる"
+		}
+		Stickastar: {
+			DisplayName: "スティッカスター"
+			Tooltip: "'''\nこれはゲンジか？\n[c/beffab:右クリックでスティッカスターを3つ投げる]\n'''"
+		}
+		StickJavelin: {
+			DisplayName: "スティックジャベリン"
+			Tooltip: "'''\nこれはオリーサか\n[c/beffab:右クリックで投げる]\n'''"
+		}
+		StickBullet: {
+			DisplayName: "スティック弾"
+			Tooltip: "弾丸だけど棒、なんて天才的！"
+		}
+		MegaStark: {
+			DisplayName: "メガスターク"
+			Tooltip: "トニー？"
+		}
+		FamiliarStick: {
+			DisplayName: "見慣れたスティック"
+			Tooltip: "どこかで見覚えがある"
+		}
+		Stoyo: {
+			DisplayName: "ストーヨー"
+			Tooltip: "ヨーヨーがバーに入ってきて…"
+		}
+		VerdantTrident: {
+			Tooltip: "'''\n実に棒(ばう)らしい\n[c/beffab:右クリックで敵を突き刺し、左クリックで絶大な力で投げつける]\n'''"
+			DisplayName: "緑のトライデント"
+		}
+		HellwoodStoyo: {
+			Tooltip: "'''\n狂ってる？俺も昔は狂ってた\n[c/beffab:10ヒットごとに爆発する]\n'''"
+			DisplayName: "ヘルウッドストーヨー"
+		}
+		StickShoes: {
+			DisplayName: "スティックシューズ"
+			Tooltip: "神よ、これはひどい"
+		}
+		JumpingStick: {
+			Tooltip: "跳ねる"
+			DisplayName: "ジャンピングスティック"
+		}
+		RogisLog: {
+			DisplayName: "ロギの丸太"
+			Tooltip: "[c/6196e7:-友達の棒-]"
+		}
+		DangoStick: {
+			DisplayName: "団子のスティック"
+			Tooltip: "うまっ"
+		}
+		RoyalLuminaryStick: {
+			Tooltip: "'''\nシグマスティック\n[c/beffab:右クリックで発射]\n'''"
+			DisplayName: "ロイヤルルミナリースティック"
+		}
+		IceBreakerStick: {
+			DisplayName: "アイスブレーカースティック"
+			Tooltip: "寒い"
+		}
+		TheStickOfDiscord: {
+			Tooltip: "ブギウギ？"
+			DisplayName: "不和のスティック"
+		}
+		StickOfNight: {
+			DisplayName: "闇夜のスティック"
+			Tooltip: "'''\n月があなたを悩ませる\n[c/beffab:夜間に使用すると真の力が解放される]\n'''"
+		}
+		SunStick: {
+			DisplayName: "太陽のスティック"
+			Tooltip: "'''\n明るすぎだ\n[c/beffab:昼間に使用すると真の力が解放される]\n'''"
+		}
+		StickaflyItem: {
+			DisplayName: "スティッカフライアイテム"
+			Tooltip: ""
+		}
+		ShadewoodStickaflyItem: {
+			DisplayName: "シェイドウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		AshwoodStickaflyItem: {
+			DisplayName: "アッシュウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		BorealWoodStickaflyItem: {
+			DisplayName: "ボリアルウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		EbonwoodStickaflyItem: {
+			DisplayName: "エボンウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		PalmwoodStickaflyItem: {
+			DisplayName: "パームウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		PearlwoodStickaflyItem: {
+			DisplayName: "パールウッド・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		RichMahoganyStickaflyItem: {
+			DisplayName: "リッチマホガニー・スティッカフライアイテム"
+			Tooltip: ""
+		}
+		StickPistol: {
+			DisplayName: "スティックピストル"
+			Tooltip: "ピューピュー"
+		}
+		LuckyStick: {
+			DisplayName: "ラッキースティック"
+			Tooltip: "というよりギャンブラースティック"
+		}
+		MStixteen: {
+			DisplayName: "M-スティックティーン"
+			Tooltip: "'''\nシグマ\n[c/beffab:右クリックでスナイパーモード]\n'''"
+		}
+		Siffema: {
+			DisplayName: "シフェマ"
+			Tooltip: "'''\nイカした棒だな\n[c/beffab:チャージを溜めて右クリックで刺突爆発を放つ]\n'''"
+		}
+		Starrow: {
+			DisplayName: "スタロウ"
+			Tooltip: "矢の棒だ！！！！！"
+		}
+		Stow: {
+			DisplayName: "ストウ"
+			Tooltip: "スティックボウ？イエス！"
+		}
+		HellStow: {
+			DisplayName: "ヘルストウ"
+			Tooltip: "ヘルボウ、イエス！"
+		}
+		SlimyStow: {
+			DisplayName: "スライミーストウ"
+			Tooltip: "うぇ"
+		}
+		SlimyStoyo: {
+			DisplayName: "スライミーストーヨー"
+			Tooltip: "うぇぇ"
+		}
+		TideStow: {
+			Tooltip: "泡立つ"
+			DisplayName: "タイドストウ"
+		}
+		StarickLance: {
+			DisplayName: "スタリックランス"
+			Tooltip: "イカしてるぜ"
+		}
+		SticksEnd: {
+			DisplayName: "スティックスエンド"
+			Tooltip: "'''\nもちろん、とんでもない裏設定があるが、教えるつもりはない\n[c/beffab:右クリックでスティックスエンドを1本投げる]\n'''"
+		}
+		FireStick: {
+			DisplayName: "ファイアスティック"
+			Tooltip: ""
+		}
+		StankiatHelmet: {
+			SetBonus: "スティックダメージ+20%、移動速度+10%、近接速度+10%。ダメージを受けると近くの敵にスティックを発射する。"
+			DisplayName: "スタンキアットヘルメット"
+			Tooltip: ""
+		}
+		TimeStow: {
+			DisplayName: "タイムストウ"
+			Tooltip: ""
+		}
+		ArchaeocraticStick: {
+			DisplayName: "アーキオクラティック・スティック"
+			Tooltip: ""
+		}
+		OmbrolatricStick: {
+			DisplayName: "オンブロラトリック・スティック"
+			Tooltip: "高尚な言葉を使わなければ、どうやって賢いと分かってもらえるんだ？"
+		}
+	}
+	Projectiles: {
+		AcornProj: {
+			DisplayName: "どんぐりの発射体"
+		}
+		BoneStickProjectile: {
+			DisplayName: "骨のスティック発射体"
+		}
+		BoneStickProj: {
+			DisplayName: "骨のスティック発射体"
+		}
+		BrainStickProj: {
+			DisplayName: "脳みそスティック発射体"
+		}
+		EyeProjectile: {
+			DisplayName: "目の発射体"
+		}
+		EyeProj: {
+			DisplayName: "目の発射体"
+		}
+		MageStickProj: {
+			DisplayName: "メイジスティック発射体"
+		}
+		MageStickProjD: {
+			DisplayName: "メイジスティック発射体D"
+		}
+		MageStickProjE: {
+			DisplayName: "メイジスティック発射体E"
+		}
+		MoonStickProj: {
+			DisplayName: "ルナスティック発射体"
+		}
+		NebulaStickProj: {
+			DisplayName: "ネビュラスティック発射体"
+		}
+		PixieStickStab: {
+			DisplayName: "ピクシースティックの刺突"
+		}
+		PrimeMechStickHoldout: {
+			DisplayName: "プライムメカスティック（構え）"
+		}
+		SporeStickHoldout: {
+			DisplayName: "スポアスティック（構え）"
+		}
+		StardustStickExplosion: {
+			DisplayName: "スターダストスティックの爆発"
+		}
+		StickmasaHoldout: {
+			DisplayName: "スティックマサ（構え）"
+		}
+		StickOfSparkingHoldout: {
+			DisplayName: "スパークスティック（構え）"
+		}
+		StickOfSparkingProj: {
+			DisplayName: "スパークスティックの発射体"
+		}
+		TerraStickProj: {
+			DisplayName: "テラスティックの発射体"
+		}
+		TerraStickProj2: {
+			DisplayName: "テラスティックの発射体2"
+		}
+		TrueHallowedStickHoldout: {
+			DisplayName: "真・神聖なスティック（構え）"
+		}
+		TrueHallowedStickProj: {
+			DisplayName: "真・神聖なスティックの発射体"
+		}
+		TurtleStickProj: {
+			DisplayName: "タートルスティックの発射体"
+		}
+		TurtleStickProjD: {
+			DisplayName: "タートルスティックの発射体D"
+		}
+		VortexStickProj: {
+			DisplayName: "ボルテックスティックの発射体"
+		}
+		WallStickProj: {
+			DisplayName: "ウォールスティックの発射体"
+		}
+		ZenithStickProjectile: {
+			DisplayName: "生命のスティックの発射体"
+		}
+		ZenithStickProj: {
+			DisplayName: "生命のスティックの発射体"
+		}
+		CannonStickProj: {
+			DisplayName: "キャノンスティックの発射体"
+		}
+		SporeStickProjectile: {
+			DisplayName: "スポアスティックの発射体"
+		}
+		StickKunaiProj: {
+			DisplayName: "スティッククナイの発射体"
+		}
+		ExplosiveStickKunaiProj: {
+			DisplayName: "爆発性スティッククナイの発射体"
+		}
+		StickastarProj: {
+			DisplayName: "スティッカスターの発射体"
+		}
+		StickJavelinProj: {
+			DisplayName: "スティックジャベリンの発射体"
+		}
+		StickJavelinProjectile: {
+			DisplayName: "スティックジャベリンの発射体"
+		}
+		StickBulletProj: {
+			DisplayName: "スティック弾の発射体"
+		}
+		NebulaLaser: {
+			DisplayName: "ネビュラレーザー"
+		}
+		NebulaStickHeld: {
+			DisplayName: "ネビュラスティック（構え）"
+		}
+		NebulaBolt: {
+			DisplayName: "ネビュラボルト"
+		}
+		StoyoProj: {
+			DisplayName: "ストーヨーの発射体"
+		}
+		VerdantTridentProjectile: {
+			DisplayName: "緑のトライデントの発射体"
+		}
+		VerdantTridentThrownProjectile: {
+			DisplayName: "投げられた緑のトライデント"
+		}
+		HellwoodStoyoProjectile: {
+			DisplayName: "ヘルウッドストーヨーの発射体"
+		}
+		MegaStarkHeldProj: {
+			DisplayName: "メガスターク（構え）"
+		}
+		RoyalLuminaryStickProj: {
+			DisplayName: "ロイヤルルミナリースティックの発射体"
+		}
+		RoyalLuminaryStickProj2: {
+			DisplayName: "ロイヤルルミナリースティックの発射体2"
+		}
+		RoyalLuminaryStickProj3: {
+			DisplayName: "ロイヤルルミナリースティックの発射体3"
+		}
+		IceBreakerStickProj: {
+			DisplayName: "アイスブレーカースティックの発射体"
+		}
+		DiscordProj: {
+			DisplayName: "不和の発射体"
+		}
+		JumpingStickGunHeldProj: {
+			DisplayName: "ジャンピングスティックガン（構え）"
+		}
+		StickOfNightProj: {
+			DisplayName: "夜のスティックの発射体"
+		}
+		SunStickProj: {
+			DisplayName: "太陽のスティックの発射体"
+		}
+		StickPistolHeldProj: {
+			DisplayName: "スティックピストル（構え）"
+		}
+		ChopsticksProjectile: {
+			DisplayName: "箸の発射体"
+		}
+		ChopstickProj: {
+			DisplayName: "箸の発射体"
+		}
+		MStixteenHeldProj: {
+			DisplayName: "M-スティックティーン（構え）"
+		}
+		TheRune: {
+			DisplayName: "ルーン"
+		}
+		SiffemaExplosionProjectile: {
+			DisplayName: "シフェマの爆発発射体"
+		}
+		SiffemaHeldProjectile: {
+			DisplayName: "シフェマ（構え）"
+		}
+		StarrowProj: {
+			DisplayName: "スタロウの発射体"
+		}
+		FireStarrowProj: {
+			DisplayName: "ファイアスタロウの発射体"
+		}
+		SlimyStarrowProj: {
+			DisplayName: "スライミースタロウの発射体"
+		}
+		SlimyStoyoProj: {
+			DisplayName: "スライミーストーヨーの発射体"
+		}
+		TideBubble: {
+			DisplayName: "タイドバブル"
+		}
+		TideStarrow: {
+			DisplayName: "タイドスタロウ"
+		}
+		StarrickLanceProj: {
+			DisplayName: "スタリックランスの発射体"
+		}
+		StarickLanceProj: {
+			DisplayName: "スタリックランスの発射体"
+		}
+		SticksEndProj: {
+			DisplayName: "スティックスエンドの発射体"
+		}
+		FireStickProj: {
+			DisplayName: "ファイアスティックの発射体"
+		}
+		ASecondFireProj: {
+			DisplayName: "セカンドファイアの発射体"
+		}
+		TimeStarrow: {
+			DisplayName: "タイムスタロウ"
+		}
+		MoonTreeProj: {
+			DisplayName: "月の木の発射体"
+		}
+		SunTreeProj: {
+			DisplayName: "太陽の木の発射体"
+		}
+		Cumulonimbus: {
+			DisplayName: "積乱雲"
+		}
+		Rain: {
+			DisplayName: "雨"
+		}
+	}
+	NPCs: {
+		Stark: {
+			DisplayName: "スターク"
+		}
+		StickBug: {
+			DisplayName: "ナナフシ"
+		}
+		Stickafly: {
+			DisplayName: "スティッカフライ"
+		}
+		ShadewoodStickafly: {
+			DisplayName: "シェイドウッド・スティッカフライ"
+		}
+		AshwoodStickafly: {
+			DisplayName: "アッシュウッド・スティッカフライ"
+		}
+		BorealWoodStickafly: {
+			DisplayName: "ボリアルウッド・スティッカフライ"
+		}
+		EbonwoodStickafly: {
+			DisplayName: "エボンウッド・スティッカフライ"
+		}
+		PalmwoodStickafly: {
+			DisplayName: "パームウッド・スティッカフライ"
+		}
+		PearlwoodStickafly: {
+			DisplayName: "パールウッド・スティッカフライ"
+		}
+		RichMahoganyStickafly: {
+			DisplayName: "リッチマホガニー・スティッカフライ"
+		}
+		LogMantis: {
+			DisplayName: "丸太カマキリ"
+		}
+		LogMantis2: {
+			DisplayName: "丸太カマキリ"
+		}
+		MoonTree: {
+			DisplayName: "月の木"
+		}
+		SunTree: {
+			DisplayName: "太陽の木"
+		}
+	}
+	DamageClasses: {
+		StickDamage: {
+			DisplayName: "スティックダメージ"
+		}
+	}
+	Keybinds: {
+		jumpingStick: {
+			DisplayName: "ジャンピングスティック"
+		}
+	}
+	Configs: {
+		ScreenShakeConfig: {
+			DisplayName: "画面揺れ設定"
+			EnableCameraShake: {
+				Label: "カメラの揺れを有効化"
+				Tooltip: ""
+			}
+		}
+		ItemScreenShake: {
+			DisplayName: "アイテムの画面揺れ"
+			EnableCameraShake: {
+				Label: "カメラの揺れを有効化"
+				Tooltip: ""
+			}
+		}
+		NpcScreenShake: {
+			DisplayName: "NPCの画面揺れ"
+			EnableCameraShake: {
+				Label: "カメラの揺れを有効化"
+				Tooltip: ""
+			}
+		}
+	}
+}

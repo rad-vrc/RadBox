@@ -1,0 +1,2120 @@
+Items: {
+	LargeMagicMirror: {
+		DisplayName: Large Magic Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	LargeIceMirror: {
+		DisplayName: Large Ice Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	WaterMirror: {
+		DisplayName: Water Mirror
+		Tooltip: If you look closely, you can see the ocean
+	}
+
+	LavaMirror: {
+		DisplayName: Lava Mirror
+		Tooltip: If you look closely, you can see lava. Lots of lava
+	}
+
+	RecallMirror: {
+		DisplayName: Recall Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	TeleportationMirror: {
+		DisplayName: Random Teleportation Mirror
+		Tooltip: Teleports to... somewhere
+	}
+
+	WormholeMirror: {
+		DisplayName: Wormhole Mirror
+		Tooltip: Use to teleport to a player
+	}
+
+	ReturnMirror: {
+		DisplayName: Mirror of Return
+		Tooltip: Teleports you home and creates a portal
+	}
+
+	ForestMirror: {
+		DisplayName: Forest Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	JungleMirror: {
+		DisplayName: Jungle Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	HallowMirror: {
+		DisplayName: Hallow Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	CavernMirror: {
+		DisplayName: Cavern Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	OceanMirror: {
+		DisplayName: Ocean Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	DesertMirror: {
+		DisplayName: Desert Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	SnowMirror: {
+		DisplayName: Snow Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	MushroomMirror: {
+		DisplayName: Mushroom Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	UniversialMirror: {
+		DisplayName: Universial Mirror
+		Tooltip:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+	}
+
+	CellMirror: {
+		DisplayName: Cell Mirror
+		Tooltip:
+			'''
+			Allows you to call home
+			Achievement complete! [c/add8e6:Black Mirror]
+			'''
+	}
+
+	ShellMirror: {
+		DisplayName: Shell Mirror
+		Tooltip: Teleports to Ocean, Underworld, Spawn, or Home
+	}
+
+	TeleporterMirror: {
+		DisplayName: Teleporter Mirror
+		Tooltip:
+			'''
+			Use to teleport to another Teleporter Mirror
+			No wires required
+			'''
+	}
+
+	ShimmerMirror: {
+		DisplayName: Shimmer Mirror
+		Tooltip:
+			'''
+			Teleports to Spawn or Home
+			A Mirror of Shimmer
+			'''
+	}
+
+	TerraMirror: {
+		DisplayName: Terra Mirror
+		Tooltip: The coolest mirror
+	}
+
+	ZenithMirror: {
+		DisplayName: Zenith Mirror
+		Tooltip:
+			'''
+			The true coolest Mirror
+			Functions depending on where it is clicked
+			'''
+	}
+
+	WoodenWallMirror: {
+		DisplayName: Wooden Mirror
+		Tooltip: Place on a wall
+	}
+
+	EbonwoodWallMirror: {
+		DisplayName: Ebonwood Mirror
+		Tooltip: Place on a wall
+	}
+
+	RichMahoganyWallMirror: {
+		DisplayName: Rich Mahogany Mirror
+		Tooltip: Place on a wall
+	}
+
+	PearlwoodWallMirror: {
+		DisplayName: Pearlwood Mirror
+		Tooltip: Place on a wall
+	}
+
+	CactusWallMirror: {
+		DisplayName: Cactus Mirror
+		Tooltip: Place on a wall
+	}
+
+	FleshWallMirror: {
+		DisplayName: Flesh Mirror
+		Tooltip: Place on a wall
+	}
+
+	MushroomWallMirror: {
+		DisplayName: Mushroom Mirror
+		Tooltip: Place on a wall
+	}
+
+	LivingWoodWallMirror: {
+		DisplayName: Living Wood Mirror
+		Tooltip: Place on a wall
+	}
+
+	BoneWallMirror: {
+		DisplayName: Bone Mirror
+		Tooltip: Place on a wall
+	}
+
+	SkywareWallMirror: {
+		DisplayName: Skyware Mirror
+		Tooltip: Place on a wall
+	}
+
+	ShadewoodWallMirror: {
+		DisplayName: Shadewood Mirror
+		Tooltip: Place on a wall
+	}
+
+	LihzahrdWallMirror: {
+		DisplayName: Lihzahrd Mirror
+		Tooltip: Place on a wall
+	}
+
+	BlueDungeonWallMirror: {
+		DisplayName: Blue Dungeon Mirror
+		Tooltip: Place on a wall
+	}
+
+	GreenDungeonWallMirror: {
+		DisplayName: Green Dungeon Mirror
+		Tooltip: Place on a wall
+	}
+
+	PinkDungeonWallMirror: {
+		DisplayName: Pink Dungeon Mirror
+		Tooltip: Place on a wall
+	}
+
+	ObsidianWallMirror: {
+		DisplayName: Obsidian Mirror
+		Tooltip: Place on a wall
+	}
+
+	GlassWallMirror: {
+		DisplayName: Glass Mirror
+		Tooltip: Place on a wall
+	}
+
+	GoldenWallMirror: {
+		DisplayName: Golden Mirror
+		Tooltip: Place on a wall
+	}
+
+	HoneyWallMirror: {
+		DisplayName: Honey Mirror
+		Tooltip: Place on a wall
+	}
+
+	SteampunkWallMirror: {
+		DisplayName: Steampunk Mirror
+		Tooltip: Place on a wall
+	}
+
+	PumpkinWallMirror: {
+		DisplayName: Pumpkin Mirror
+		Tooltip: Place on a wall
+	}
+
+	SpookyWallMirror: {
+		DisplayName: Spooky Mirror
+		Tooltip: Place on a wall
+	}
+
+	FrozenWallMirror: {
+		DisplayName: Frozen Mirror
+		Tooltip: Place on a wall
+	}
+
+	DynastyWallMirror: {
+		DisplayName: Dynasty Mirror
+		Tooltip: Place on a wall
+	}
+
+	PalmWoodWallMirror: {
+		DisplayName: Palm Wood Mirror
+		Tooltip: Place on a wall
+	}
+
+	BorealWoodWallMirror: {
+		DisplayName: Boreal Wood Mirror
+		Tooltip: Place on a wall
+	}
+
+	SlimeWallMirror: {
+		DisplayName: Slime Mirror
+		Tooltip: Place on a wall
+	}
+
+	MartianWallMirror: {
+		DisplayName: Martian Mirror
+		Tooltip: Place on a wall
+	}
+
+	MeteoriteWallMirror: {
+		DisplayName: Meteorite Mirror
+		Tooltip: Place on a wall
+	}
+
+	GraniteWallMirror: {
+		DisplayName: Granite Mirror
+		Tooltip: Place on a wall
+	}
+
+	MarbleWallMirror: {
+		DisplayName: Marble Mirror
+		Tooltip: Place on a wall
+	}
+
+	CrystalWallMirror: {
+		DisplayName: Crystal Mirror
+		Tooltip: Place on a wall
+	}
+
+	SpiderWallMirror: {
+		DisplayName: Spider Mirror
+		Tooltip: Place on a wall
+	}
+
+	LesionWallMirror: {
+		DisplayName: Lesion Mirror
+		Tooltip: Place on a wall
+	}
+
+	SolarWallMirror: {
+		DisplayName: Solar Mirror
+		Tooltip: Place on a wall
+	}
+
+	VortexWallMirror: {
+		DisplayName: Vortex Mirror
+		Tooltip: Place on a wall
+	}
+
+	NebulaWallMirror: {
+		DisplayName: Nebula Mirror
+		Tooltip: Place on a wall
+	}
+
+	StardustWallMirror: {
+		DisplayName: Stardust Mirror
+		Tooltip: Place on a wall
+	}
+
+	SandstoneWallMirror: {
+		DisplayName: Sandstone Mirror
+		Tooltip: Place on a wall
+	}
+
+	BambooWallMirror: {
+		DisplayName: Bamboo Mirror
+		Tooltip: Place on a wall
+	}
+
+	ReefWallMirror: {
+		DisplayName: Reef Mirror
+		Tooltip: Place on a wall
+	}
+
+	BalloonWallMirror: {
+		DisplayName: Balloon Mirror
+		Tooltip: Place on a wall
+	}
+
+	AshWoodWallMirror: {
+		DisplayName: Ash Wood Mirror
+		Tooltip: Place on a wall
+	}
+
+	DungeonWallMirror: {
+		DisplayName: Dungeon Mirror
+		Tooltip: Place on a wall
+	}
+
+	GothicWallMirror: {
+		DisplayName: Gothic Mirror
+		Tooltip: Place on a wall
+	}
+
+	PineWallMirror: {
+		DisplayName: Pine Mirror
+		Tooltip: Place on a wall
+	}
+
+	StoneWallMirror: {
+		DisplayName: Stone Mirror
+		Tooltip: Place on a wall
+	}
+
+	CopperWallMirror: {
+		DisplayName: Copper Shortmirror
+		Tooltip: The shortest mirror
+	}
+
+	TinWallMirror: {
+		DisplayName: Tin Shortmirror
+		Tooltip: Place on a wall
+	}
+
+	AdamantiteWallMirror: {
+		DisplayName: Adamantite Mirror
+		Tooltip: This mirror is ace
+	}
+
+	FunctionalWoodenWallMirror: {
+		DisplayName: Magical Wooden Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalEbonwoodWallMirror: {
+		DisplayName: Magical Ebonwood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalRichMahoganyWallMirror: {
+		DisplayName: Magical Rich Mahogany Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalPearlwoodWallMirror: {
+		DisplayName: Magical Pearlwood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalCactusWallMirror: {
+		DisplayName: Magical Cactus Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalFleshWallMirror: {
+		DisplayName: Magical Flesh Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalMushroomWallMirror: {
+		DisplayName: Magical Mushroom Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalLivingWoodWallMirror: {
+		DisplayName: Magical Living Wood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalBoneWallMirror: {
+		DisplayName: Magical Bone Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSkywareWallMirror: {
+		DisplayName: Magical Skyware Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalShadewoodWallMirror: {
+		DisplayName: Magical Shadewood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalLihzahrdWallMirror: {
+		DisplayName: Magical Lihzahrd Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalBlueDungeonWallMirror: {
+		DisplayName: Magical Blue Dungeon Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalGreenDungeonWallMirror: {
+		DisplayName: Magical Green Dungeon Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalPinkDungeonWallMirror: {
+		DisplayName: Magical Pink Dungeon Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalObsidianWallMirror: {
+		DisplayName: Magical Obsidian Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalGlassWallMirror: {
+		DisplayName: Magical Glass Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalGoldenWallMirror: {
+		DisplayName: Magical Golden Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalHoneyWallMirror: {
+		DisplayName: Magical Honey Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSteampunkWallMirror: {
+		DisplayName: Magical Steampunk Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalPumpkinWallMirror: {
+		DisplayName: Magical Pumpkin Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSpookyWallMirror: {
+		DisplayName: Magical Spooky Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalFrozenWallMirror: {
+		DisplayName: Magical Frozen Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalDynastyWallMirror: {
+		DisplayName: Magical Dynasty Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalPalmWoodWallMirror: {
+		DisplayName: Magical Palm Wood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalBorealWoodWallMirror: {
+		DisplayName: Magical Boreal Wood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSlimeWallMirror: {
+		DisplayName: Magical Slime Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalMartianWallMirror: {
+		DisplayName: Magical Martian Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalMeteoriteWallMirror: {
+		DisplayName: Magical Meteorite Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalGraniteWallMirror: {
+		DisplayName: Magical Granite Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalMarbleWallMirror: {
+		DisplayName: Magical Marble Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalCrystalWallMirror: {
+		DisplayName: Magical Crystal Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSpiderWallMirror: {
+		DisplayName: Magical Spider Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalLesionWallMirror: {
+		DisplayName: Magical Lesion Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSolarWallMirror: {
+		DisplayName: Magical Solar Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalVortexWallMirror: {
+		DisplayName: Magical Vortex Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalNebulaWallMirror: {
+		DisplayName: Magical Nebula Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalStardustWallMirror: {
+		DisplayName: Magical Stardust Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalSandstoneWallMirror: {
+		DisplayName: Magical Sandstone Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalBambooWallMirror: {
+		DisplayName: Magical Bamboo Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalReefWallMirror: {
+		DisplayName: Magical Reef Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalBalloonWallMirror: {
+		DisplayName: Magical Balloon Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalAshWoodWallMirror: {
+		DisplayName: Magical Ash Wood Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalDungeonWallMirror: {
+		DisplayName: Magical Dungeon Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalGothicWallMirror: {
+		DisplayName: Magical Gothic Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalPineWallMirror: {
+		DisplayName: Magical Pine Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalStoneWallMirror: {
+		DisplayName: Magical Stone Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalCopperWallMirror: {
+		DisplayName: Magical Copper Shortmirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalTinWallMirror: {
+		DisplayName: Magical Tin Shortmirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	FunctionalAdamantiteWallMirror: {
+		DisplayName: Magical Adamantite Mirror
+		Tooltip: Place and gaze in the mirror to return home
+	}
+
+	TeleporterWoodenWallMirror: {
+		DisplayName: Teleporter Wooden Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterEbonwoodWallMirror: {
+		DisplayName: Teleporter Ebonwood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterRichMahoganyWallMirror: {
+		DisplayName: Teleporter Rich Mahogany Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterPearlwoodWallMirror: {
+		DisplayName: Teleporter Pearlwood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterCactusWallMirror: {
+		DisplayName: Teleporter Cactus Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterFleshWallMirror: {
+		DisplayName: Teleporter Flesh Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterMushroomWallMirror: {
+		DisplayName: Teleporter Mushroom Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterLivingWoodWallMirror: {
+		DisplayName: Teleporter Living Wood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterBoneWallMirror: {
+		DisplayName: Teleporter Bone Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSkywareWallMirror: {
+		DisplayName: Teleporter Skyware Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterShadewoodWallMirror: {
+		DisplayName: Teleporter Shadewood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterLihzahrdWallMirror: {
+		DisplayName: Teleporter Lihzahrd Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterBlueDungeonWallMirror: {
+		DisplayName: Teleporter Blue Dungeon Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterGreenDungeonWallMirror: {
+		DisplayName: Teleporter Green Dungeon Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterPinkDungeonWallMirror: {
+		DisplayName: Teleporter Pink Dungeon Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterObsidianWallMirror: {
+		DisplayName: Teleporter Obsidian Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterGlassWallMirror: {
+		DisplayName: Teleporter Glass Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterGoldenWallMirror: {
+		DisplayName: Teleporter Golden Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterHoneyWallMirror: {
+		DisplayName: Teleporter Honey Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSteampunkWallMirror: {
+		DisplayName: Teleporter Steampunk Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterPumpkinWallMirror: {
+		DisplayName: Teleporter Pumpkin Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSpookyWallMirror: {
+		DisplayName: Teleporter Spooky Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterFrozenWallMirror: {
+		DisplayName: Teleporter Frozen Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterDynastyWallMirror: {
+		DisplayName: Teleporter Dynasty Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterPalmWoodWallMirror: {
+		DisplayName: Teleporter Palm Wood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterBorealWoodWallMirror: {
+		DisplayName: Teleporter Boreal Wood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSlimeWallMirror: {
+		DisplayName: Teleporter Slime Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterMartianWallMirror: {
+		DisplayName: Teleporter Martian Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterMeteoriteWallMirror: {
+		DisplayName: Teleporter Meteorite Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterGraniteWallMirror: {
+		DisplayName: Teleporter Granite Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterMarbleWallMirror: {
+		DisplayName: Teleporter Marble Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterCrystalWallMirror: {
+		DisplayName: Teleporter Crystal Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSpiderWallMirror: {
+		DisplayName: Teleporter Spider Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterLesionWallMirror: {
+		DisplayName: Teleporter Lesion Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSolarWallMirror: {
+		DisplayName: Teleporter Solar Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterVortexWallMirror: {
+		DisplayName: Teleporter Vortex Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterNebulaWallMirror: {
+		DisplayName: Teleporter Nebula Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterStardustWallMirror: {
+		DisplayName: Teleporter Stardust Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterSandstoneWallMirror: {
+		DisplayName: Teleporter Sandstone Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterBambooWallMirror: {
+		DisplayName: Teleporter Bamboo Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterReefWallMirror: {
+		DisplayName: Teleporter Reef Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterBalloonWallMirror: {
+		DisplayName: Teleporter Balloon Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterAshWoodWallMirror: {
+		DisplayName: Teleporter Ash Wood Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterDungeonWallMirror: {
+		DisplayName: Teleporter Dungeon Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterGothicWallMirror: {
+		DisplayName: Teleporter Gothic Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterPineWallMirror: {
+		DisplayName: Teleporter Pine Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterStoneWallMirror: {
+		DisplayName: Teleporter Stone Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterCopperWallMirror: {
+		DisplayName: Teleporter Copper Shortmirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterTinWallMirror: {
+		DisplayName: Teleporter Tin Shortmirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	TeleporterAdamantiteWallMirror: {
+		DisplayName: Teleporter Adamantite Mirror
+		Tooltip: Use to teleport to another Teleporter Mirror of the same type
+	}
+
+	MagicMirrorBlock: {
+		DisplayName: Magic Mirror Block
+		Tooltip: For decoration
+	}
+
+	MagicMirrorBackgroundBlock: {
+		DisplayName: Magic Mirror Background Block
+		Tooltip: The non-solid type
+	}
+
+	MagicMirrorWall: {
+		DisplayName: Magic Mirror Wall
+		Tooltip: See for yourself
+	}
+
+	MagicMirrorPlatform: {
+		DisplayName: Magic Mirror Platform
+		Tooltip: What?
+	}
+
+	WoodenMirrorBlock: {
+		DisplayName: Mirror Block
+		Tooltip: For decoration
+	}
+
+	WoodenMirrorBackgroundBlock: {
+		DisplayName: Mirror Background Block
+		Tooltip: The non-solid type
+	}
+
+	SmallMagicMirror: {
+		DisplayName: Small Magic Mirror
+		Tooltip: This is a mirror
+	}
+
+	SmallIceMirror: {
+		DisplayName: Small Ice Mirror
+		Tooltip: A mirror in a mod about mirrors
+	}
+
+	SmallMagicConch: {
+		DisplayName: Small Magic Conch
+		Tooltip: Wait! This isn't a mirror!
+	}
+
+	SmallDemonConch: {
+		DisplayName: Small Demon Conch
+		Tooltip: Oh no! Non-mirrors in a mod about mirrors!
+	}
+
+	AmazingMirror: {
+		DisplayName: Amazing Mirror
+		Tooltip:
+			'''
+			A mirror that can float
+			"Poyo Poyo!"
+			'''
+	}
+
+	GrandAmazingMirror: {
+		DisplayName: Grand Amazing Mirror
+		Tooltip:
+			'''
+			A large mirror that can float
+			"Poyo Poyo!"
+			'''
+	}
+
+	Tooltip: {
+		MagicMirror: Place and gaze in the mirror to return home
+		PylonMirror:
+			'''
+			Teleports to the pylon of the same type
+			Must be placed near a functional pylon
+			'''
+		TeleporterMirrorLimit: Up to {0} can be placed
+		WallMirror: Place on a wall
+		FunctionalWallMirror: Place and gaze in the mirror to return home
+		TeleporterWallMirror: Use to teleport to another Teleporter Mirror of the same type
+	}
+}
+
+Tiles: {
+	LargeMagicMirror: {
+		MapEntry: Large Magic Mirror
+	}
+
+	LargeIceMirror: {
+		MapEntry: Large Ice Mirror
+	}
+
+	WaterMirror: {
+		MapEntry: Water Mirror
+	}
+
+	LavaMirror: {
+		MapEntry: Lava Mirror
+	}
+
+	RecallMirror: {
+		MapEntry: Recall Mirror
+	}
+
+	TeleportationMirror: {
+		MapEntry: Random Teleportation Mirror
+	}
+
+	WormholeMirror: {
+		MapEntry: Wormhole Mirror
+	}
+
+	ReturnMirror: {
+		MapEntry: Mirror of Return
+	}
+
+	PylonMirror: {
+		MapEntry: Pylon Mirror
+	}
+
+	CellMirror: {
+		MapEntry: Cell Mirror
+	}
+
+	ShellMirror: {
+		MapEntry: Shell Mirror
+	}
+
+	TeleporterMirror: {
+		MapEntry: Teleporter Mirror
+		MapEntryWithNumber: Teleporter Mirror {0}
+	}
+
+	ShimmerMirror: {
+		MapEntry: Shimmer Mirror
+	}
+
+	TerraMirror: {
+		MapEntry: Terra Mirror
+	}
+
+	ZenithMirror: {
+		MapEntry: Zenith Mirror
+	}
+
+	WallMirror: {
+		MapEntry: Wall Mirror
+	}
+
+	ExtraWallMirror: {
+		MapEntry: Wall Mirror
+	}
+
+	MetalWallMirror: {
+		MapEntry: Wall Mirror
+	}
+
+	FunctionalWallMirror: {
+		MapEntry: Magical Wall Mirror
+	}
+
+	FunctionalExtraWallMirror: {
+		MapEntry: Magical Wall Mirror
+	}
+
+	FunctionalMetalWallMirror: {
+		MapEntry: Magical Wall Mirror
+	}
+
+	TeleporterWallMirror: {
+		MapEntry: Teleporter Wall Mirror
+	}
+
+	TeleporterExtraWallMirror: {
+		MapEntry: Teleporter Wall Mirror
+	}
+
+	TeleporterMetalWallMirror: {
+		MapEntry: Teleporter  Wall Mirror
+	}
+
+	MagicMirrorBlock: {
+		MapEntry: Magic Mirror Block
+	}
+
+	MagicMirrorBackgroundBlock: {
+		MapEntry: Magic Mirror Background Block
+	}
+
+	MagicMirrorWall: {
+		MapEntry: Magic Mirror Wall
+	}
+
+	MagicMirrorPlatform: {
+		MapEntry: Magic Mirror Platform
+	}
+
+	WoodenMirrorBlock: {
+		MapEntry: Mirror Block
+	}
+
+	WoodenMirrorBackgroundBlock: {
+		MapEntry: Mirror Background Block
+	}
+
+	SmallMirror: {
+		MapEntry: Smallest Mirror
+	}
+
+	SmallConch: {
+		MapEntry: Smallest Conch
+	}
+
+	AmazingMirror: {
+		MapEntry: Amazing Mirror
+	}
+
+	GrandAmazingMirror: {
+		MapEntry: Grand Amazing Mirror
+	}
+}
+
+Walls: {
+	MagicMirrorWall: {
+		MapEntry: Magic Mirror Wall
+	}
+}
+
+Text: {
+	NoPylonFound: There is no pylon of this type
+	OutOfBoundsMirror: Mirror type out of bounds
+	UnsetMirror: Unset mirror type
+	NoTeleporterLocation: No avaliable location to teleport to
+	UnknownTeleporterLocation: This is not a valid teleporter
+	CommandError: Incorrect input: {0}, must be a byte
+	NoAccessToTemple: Cannot teleport inside Temple
+	NoAccessToTemple1: Nice try!
+	NoAccessToTemple2: Teleporting inside the Temple early won't work!
+	NoAccessToTemple3: Have you try using hammered platforms?
+	NoAccessToTemple4: Just place 3 platforms against the Temple's door...
+	NoAccessToTemple5: And hammer the platforms so that they slope against the door...
+	NoAccessToTemple6: Make sure to hold the down key when you walk through.
+	NoAccessToTemple7: Hope that helps.
+	NoAccessToTemple8: Good luck!
+	NoAccessToTemple20: Something breaks due to refusal to work
+	NoAccessToTemple21: Lol
+}
+
+Configs: {
+	PlaceableMirrorsClientConfig: {
+		DisplayName: Client
+
+		Header: {
+			SmartInteract: Smart Interact
+			DustEffects: Dust Effects
+			ItemScale: Scale
+		}
+
+		EnableSmartInteractMagicMirror: {
+			Label: Smart Interact Over Large Magic Mirrors [i:PlaceableMirrors/LargeMagicMirror]
+			Tooltip: Allow the use of Smart Interact over Large Magic Mirrors
+		}
+
+		EnableSmartInteractIceMirror: {
+			Label: Smart Interact Over Large Ice Mirrors [i:PlaceableMirrors/LargeIceMirror]
+			Tooltip: Allow the use of Smart Interact over Large Ice Mirrors
+		}
+
+		EnableSmartInteractWaterMirror: {
+			Label: Smart Interact Over Water Mirrors [i:PlaceableMirrors/WaterMirror]
+			Tooltip: Allow the use of Smart Interact over Water Mirrors
+		}
+
+		EnableSmartInteractLavaMirror: {
+			Label: Smart Interact Over Lava Mirrors [i:PlaceableMirrors/LavaMirror]
+			Tooltip: Allow the use of Smart Interact over Lava Mirrors
+		}
+
+		EnableSmartInteractRecallMirror: {
+			Label: Smart Interact Over Recall Mirrors [i:PlaceableMirrors/RecallMirror]
+			Tooltip: Allow the use of Smart Interact over Recall Mirrors
+		}
+
+		EnableSmartInteractTeleportationMirror: {
+			Label: Smart Interact Over Random Teleportation Mirrors [i:PlaceableMirrors/TeleportationMirror]
+			Tooltip: Allow the use of Smart Interact over Random Teleportation Mirrors
+		}
+
+		EnableSmartInteractWormholeMirror: {
+			Label: Smart Interact Over Wormhole Mirrors [i:PlaceableMirrors/WormholeMirror]
+			Tooltip: Allow the use of Smart Interact over Wormhole Mirrors
+		}
+
+		EnableSmartInteractReturnMirror: {
+			Label: Smart Interact Over Mirrors of Return [i:PlaceableMirrors/ReturnMirror]
+			Tooltip: Allow the use of Smart Interact over Mirrors of Return
+		}
+
+		EnableSmartInteractPylonMirror: {
+			Label: Smart Interact Over Pylon Mirrors [i:PlaceableMirrors/ForestMirror]
+			Tooltip: Allow the use of Smart Interact over Pylon Mirrors
+		}
+
+		EnableSmartInteractCellMirror: {
+			Label: Smart Interact Over Cell Mirrors [i:PlaceableMirrors/CellMirror]
+			Tooltip: Allow the use of Smart Interact over Cell Mirrors
+		}
+
+		EnableSmartInteractShellMirror: {
+			Label: Smart Interact Over Shell Mirrors [i:PlaceableMirrors/ShellMirror]
+			Tooltip: Allow the use of Smart Interact over Shell Mirrors
+		}
+
+		EnableSmartInteractTeleporterMirror: {
+			Label: Smart Interact Over Teleporter Mirrors [i:PlaceableMirrors/TeleporterMirror]
+			Tooltip: Allow the use of Smart Interact over Teleporter Mirrors
+		}
+
+		EnableSmartInteractTerraMirror: {
+			Label: Smart Interact Over Terra Mirrors [i:PlaceableMirrors/TerraMirror]
+			Tooltip: Allow the use of Smart Interact over Terra Mirrors
+		}
+
+		EnableSmartInteractZenithMirror: {
+			Label: Smart Interact Over Zenith Mirrors [i:PlaceableMirrors/ZenithMirror]
+			Tooltip: Allow the use of Smart Interact over Zenith Mirrors
+		}
+
+		EnableSmartInteractFunctionalMirror: {
+			Label: Smart Interact Over Decorative Magical Mirrors [i:PlaceableMirrors/FunctionalWoodenWallMirror]
+			Tooltip: Allow the use of Smart Interact over Decorative Magical Mirrors
+		}
+
+		EnableSmartInteractFunctionalTeleporterMirror: {
+			Label: Smart Interact Over Decorative Teleporter Mirrors [i:PlaceableMirrors/TeleporterWoodenWallMirror]
+			Tooltip: Allow the use of Smart Interact over Decorative Teleporter Mirrors
+		}
+
+		EnableDustEffects: {
+			Label: Mirror Dust Effects
+			Tooltip: Mirrors give off dust
+		}
+
+		ItemDotScale: {
+			Label: Item Dot Scale [i:PlaceableMirrors/FunctionalSkywareWallMirror]
+			Tooltip: Changes the scale of the dot on Magical and Teleporter Mirror items
+		}
+
+		ItemMapScale: {
+			Label: Mirrors on Map Scale [i:PlaceableMirrors/TeleporterMirror]
+			Tooltip: Changes the scale of Teleporter Mirrors on the map
+		}
+	}
+
+	PlaceableMirrorsServerRecipesConfig: {
+		DisplayName: Sever Recipes
+
+		Header: {
+			RecipesSpecial: Crafting Recipes for Special Mirrors
+			AltRecipesSpecial: Alternate Crafting Recipes for Special Mirrors
+			RecipesSmallItems: Small Items Recipes
+			RecipesBlocks: Block Recipes
+			RecipesDecorative: Decorative and Decorative Functional Mirrors
+			RecipesFurniture: Crafting Recipes for Furniture Mirrors
+			RecipesMetal: Crafting Recipes for Metal Mirrors
+			RecipesIngredientAmounts: Crafting Ingredient Amounts
+			RecipesCraftingStations: Crafting Stations
+		}
+
+		EnableRecipeMagicMirror: {
+			Label: Recipe for Large Magic Mirrors [i:PlaceableMirrors/LargeMagicMirror]
+			Tooltip:
+				'''
+				Large Magic Mirrors can be crafted using a Magic Mirror
+				[i:MagicMirror][i:Glass]
+				'''
+		}
+
+		EnableRecipeIceMirror: {
+			Label: Recipe for Large Ice Mirrors [i:PlaceableMirrors/LargeIceMirror]
+			Tooltip:
+				'''
+				Large Ice Mirrors can be crafted using an Ice Mirror
+				[i:IceMirror][i:Glass]
+				'''
+		}
+
+		EnableRecipeWaterMirror: {
+			Label: Recipe for Water Mirrors [i:PlaceableMirrors/WaterMirror]
+			Tooltip:
+				'''
+				Water Mirrors can be crafted using a Small Magic Conch
+				([i:PlaceableMirrors/PalmWoodWallMirror]/[i:PalmWood][i:Glass])[i:PlaceableMirrors/SmallMagicConch]
+				'''
+		}
+
+		EnableRecipeLavaMirror: {
+			Label: Recipe for Lava Mirrors [i:PlaceableMirrors/LavaMirror]
+			Tooltip:
+				'''
+				Lava Mirrors can be crafted using a Small Demon Conch
+				([i:PlaceableMirrors/ObsidianWallMirror]/[i:Obsidian][i:Hellstone][i:Glass])[i:PlaceableMirrors/SmallDemonConch]
+				'''
+		}
+
+		EnableRecipeRecallMirror: {
+			Label: Recipe for Recall Mirrors [i:PlaceableMirrors/RecallMirror]
+			Tooltip:
+				'''
+				Recall Mirrors can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:RecallPotion]
+				'''
+		}
+
+		EnableRecipeTeleportationMirror: {
+			Label: Recipe for Random Teleportation Mirrors [i:PlaceableMirrors/TeleportationMirror]
+			Tooltip:
+				'''
+				Random Teleportation Mirrors can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:TeleportationPotion]
+				'''
+		}
+
+		EnableRecipeWormholeMirror: {
+			Label: Recipe for Wormhole Mirrors [i:PlaceableMirrors/WormholeMirror]
+			Tooltip:
+				'''
+				Wormhole Mirrors can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:WormholePotion]
+				'''
+		}
+
+		EnableRecipeReturnMirror: {
+			Label: Recipe for Mirrors of Return [i:PlaceableMirrors/ReturnMirror]
+			Tooltip:
+				'''
+				Mirrors of Return can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:PotionOfReturn]
+				'''
+		}
+
+		EnableRecipeCellMirror: {
+			Label: Recipe for Cell Mirrors [i:PlaceableMirrors/CellMirror]
+			Tooltip:
+				'''
+				Cell Mirrors can be crafted using a Cell Phone
+				[i:CellPhone][i:Glass]
+				'''
+		}
+
+		EnableRecipeShellMirror: {
+			Label: Recipe for Shell Mirrors [i:PlaceableMirrors/ShellMirror]
+			Tooltip:
+				'''
+				Shell Mirrors can be crafted using Small Magic and Demon Conches
+				[[i:PlaceableMirrors/FunctionalReefWallMirror]/[i:PlaceableMirrors/ReefWallMirror]([i:PlaceableMirrors/SmallMagicMirror]/[i:RecallPotion])/[i:ReefBlock][i:Glass]([i:PlaceableMirrors/SmallMagicMirror]/[i:RecallPotion])][i:PlaceableMirrors/SmallMagicConch][i:PlaceableMirrors/SmallDemonConch]
+				'''
+		}
+
+		EnableRecipeTeleporterMirror: {
+			Label: Recipe for Teleporter Mirrors [i:PlaceableMirrors/TeleporterMirror]
+			Tooltip:
+				'''
+				Teleporter Mirrors can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:Teleporter]
+				'''
+		}
+
+		EnableRecipeTerraMirror: {
+			Label: Recipe for Terra Mirrors [i:PlaceableMirrors/TerraMirror]
+			Tooltip:
+				'''
+				Terra Mirrors can be crafted using a Large Magic Mirror
+				[i:PlaceableMirrors/LargeMagicMirror][i:BrokenHeroSword]
+				'''
+		}
+
+		EnableRecipeZenithMirror: {
+			Label: Recipe for Zenith Mirrors [i:PlaceableMirrors/ZenithMirror]
+			Tooltip:
+				'''
+				Zenith Mirrors can be crafted using Copper, Terra, Water, Lava, Random Teleportation, Wormhole, and Return Mirrors
+				[i:PlaceableMirrors/CopperWallMirror][i:PlaceableMirrors/TerraMirror][i:PlaceableMirrors/WaterMirror][i:PlaceableMirrors/LavaMirror][i:PlaceableMirrors/TeleportationMirror][i:PlaceableMirrors/WormholeMirror][i:PlaceableMirrors/ReturnMirror]
+				'''
+		}
+
+		EnableAltRecipeMagicMirror: {
+			Label: Alternate Recipe for Large Magic Mirrors [i:PlaceableMirrors/LargeMagicMirror]
+			Tooltip:
+				'''
+				Large Magic Mirrors can be crafted without a Magic Mirror, uses Recall Potions instead
+				[i:RecallPotion][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeIceMirror: {
+			Label: Alternate Recipe for Large Ice Mirrors [i:PlaceableMirrors/LargeIceMirror]
+			Tooltip:
+				'''
+				Large Ice Mirrors can be crafted without an Ice Mirror, uses Large Magic Mirror and Ice Blocks instead
+				[i:PlaceableMirrors/LargeMagicMirror][i:IceBlock]
+				'''
+		}
+
+		EnableAltRecipeWaterMirror: {
+			Label: Alternate Recipe for Water Mirrors [i:PlaceableMirrors/WaterMirror]
+			Tooltip:
+				'''
+				Water Mirrors can be crafted without a Small Magic Conch, uses Seashells instead
+				([i:PlaceableMirrors/PalmWoodWallMirror]/[i:PalmWood][i:Glass])[i:Seashell]
+				'''
+		}
+
+		EnableAltRecipeLavaMirror: {
+			Label: Alternate Recipe for Lava Mirrors [i:PlaceableMirrors/LavaMirror]
+			Tooltip:
+				'''
+				Lava Mirrors can be crafted without a Small Demon Conch, uses Hellstone Bars instead
+				([i:PlaceableMirrors/ObsidianWallMirror]/[i:Obsidian][i:Hellstone][i:Glass])[i:HellstoneBar]
+				'''
+		}
+
+		EnableAltRecipeRecallMirror: {
+			Label: Alternate Recipe for Recall Mirrors [i:PlaceableMirrors/RecallMirror]
+			Tooltip:
+				'''
+				Recall Mirrors can be crafted without a Large Magic Mirror, uses Glass instead
+				[i:RecallPotion][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeTeleportationMirror: {
+			Label: Alternate Recipe for Random Teleportation Mirrors [i:PlaceableMirrors/TeleportationMirror]
+			Tooltip:
+				'''
+				Random Teleportation Mirrors can be crafted without a Large Magic Mirror, uses Glass instead
+				[i:TeleportationPotion][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeWormholeMirror: {
+			Label: Alternate Recipe for Wormhole Mirrors [i:PlaceableMirrors/WormholeMirror]
+			Tooltip:
+				'''
+				Wormhole Mirrors can be crafted without a Large Magic Mirror, uses Glass instead
+				[i:WormholePotion][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeReturnMirror: {
+			Label: Alternate Recipe for Mirrors of Return [i:PlaceableMirrors/ReturnMirror]
+			Tooltip:
+				'''
+				Mirrors of Return can be crafted without a Large Magic Mirror, uses Glass instead
+				[i:PotionOfReturn][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeCellMirror: {
+			Label: Alternate Recipe for Cell Mirrors [i:PlaceableMirrors/CellMirror]
+			Tooltip:
+				'''
+				Cell Mirrors can be crafted without a Cell Phone, uses Wire instead
+				[i:PlaceableMirrors/LargeMagicMirror][i:Wire]
+				'''
+		}
+
+		EnableAltRecipeShellMirror: {
+			Label: Alternate Recipe for Shell Mirrors [i:PlaceableMirrors/ShellMirror]
+			Tooltip:
+				'''
+				Shell Mirrors can be crafted without Small Conches, uses Seashells and Hellstone Bars instead
+				[[i:PlaceableMirrors/FunctionalReefWallMirror]/[i:PlaceableMirrors/ReefWallMirror]([i:PlaceableMirrors/SmallMagicMirror]/[i:RecallPotion])/[i:ReefBlock][i:Glass]([i:PlaceableMirrors/SmallMagicMirror]/[i:RecallPotion])][i:Seashell][i:HellstoneBar]
+				'''
+		}
+
+		EnableAltRecipeTeleporterMirror: {
+			Label: Alternate Recipe for Teleporter Mirrors [i:PlaceableMirrors/TeleporterMirror]
+			Tooltip:
+				'''
+				Teleporter Mirrors can be crafted without a Large Magic Mirror, uses Glass instead
+				[i:Teleporter][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeTerraMirror: {
+			Label: Alternate Recipe for Terra Mirrors [i:PlaceableMirrors/TerraMirror]
+			Tooltip:
+				'''
+				Terra Mirrors can be crafted without a Large Magic Mirror, uses a Wooden Mirror instead
+				[i:PlaceableMirrors/WoodenWallMirror][i:BrokenHeroSword]
+				'''
+		}
+
+		EnableAltRecipeZenithMirror: {
+			Label: Alternate Recipe for Zenith Mirrors [i:PlaceableMirrors/ZenithMirror]
+			Tooltip:
+				'''
+				Zenith Mirrors can be crafted using Copper, Magic, Water, Lava, Random Teleportation, Wormhole, and Return Mirrors
+				[i:PlaceableMirrors/CopperWallMirror][i:PlaceableMirrors/LargeMagicMirror][i:PlaceableMirrors/WaterMirror][i:PlaceableMirrors/LavaMirror][i:PlaceableMirrors/TeleportationMirror][i:PlaceableMirrors/WormholeMirror][i:PlaceableMirrors/ReturnMirror]
+				'''
+		}
+
+		EnableOldRecipeZenithMirror: {
+			Label: Older verson 0.9 Recipe for Zenith Mirrors  [i:PlaceableMirrors/ZenithMirror]
+			Tooltip:
+				'''
+				Zenith Mirrors has its 0.9 crafting recipe (Terra/Magic, Water, Lava, Return)
+				([i:PlaceableMirrors/TerraMirror]/[i:PlaceableMirrors/LargeMagicMirror])[i:PlaceableMirrors/WaterMirror][i:PlaceableMirrors/LavaMirror][i:PlaceableMirrors/ReturnMirror]
+				'''
+		}
+
+		EnableSmallMagicMirrorRecipe: {
+			Label: Recipe for Small Magic Mirror [i:PlaceableMirrors/SmallMagicMirror]
+			Tooltip:
+				'''
+				Small Magic Mirror can be crafted
+				(Note: Small Magic Mirrors are used to craft Magical Mirrors, Shell Mirrors, and Magic Mirror Blocks.
+				Turn on Alternate Recipe to be able to still craft them!)
+				'''
+		}
+
+		EnableSmallIceMirrorRecipe: {
+			Label: Recipe for Small Ice Mirror [i:PlaceableMirrors/SmallIceMirror]
+			Tooltip: Small Ice Mirror can be crafted
+		}
+
+		EnableSmallMagicConchRecipe: {
+			Label: Recipe for Small Magic Conch [i:PlaceableMirrors/SmallMagicConch]
+			Tooltip:
+				'''
+				Small Magic Conch can be crafted
+				(Note: Small Magic Conches are used to craft Water and Shell Mirrors.
+				Turn on Alternate Recipe to be able to still craft them!)
+				'''
+		}
+
+		EnableSmallDemonConchRecipe: {
+			Label: Recipe for Small Demon Conch [i:PlaceableMirrors/SmallDemonConch]
+			Tooltip:
+				'''
+				Small Demon Conch can be crafted
+				(Note: Small Demon Conches are used to craft Lava and Shell Mirrors.
+				Turn on Alternate Recipe to be able to still craft them!)
+				'''
+		}
+
+		EnableRecipeMagicMirrorBlock: {
+			Label: Recipe for Magic Mirror Blocks [i:PlaceableMirrors/MagicMirrorBlock]
+			Tooltip:
+				'''
+				Magic Mirror Blocks can be crafted using a Small Magic Mirror
+				[i:PlaceableMirrors/SmallMagicMirror][i:Glass]
+				'''
+		}
+
+		EnableAltRecipeMagicMirrorBlock: {
+			Label: Alternate Recipe for Magic Mirror Blocks [i:PlaceableMirrors/MagicMirrorBackgroundBlock]
+			Tooltip:
+				'''
+				Magic Mirror Blocks can be crafted without a Small Magic Mirror, uses Recall Potions instead
+				[i:RecallPotion][i:Glass]
+				'''
+		}
+
+		EnableRecipeWoodenMirrorBlock: {
+			Label: Recipe for Mirror Blocks [i:PlaceableMirrors/WoodenMirrorBlock]
+			Tooltip:
+				'''
+				Wooden Mirror Blocks can be crafted
+				[i:Wood][i:Glass]
+				'''
+		}
+
+		EnableRecipeDecorativeMirror: {
+			Label: Recipe for Decorative Mirrors [i:PlaceableMirrors/WoodenWallMirror]
+			Tooltip:
+				'''
+				Disables recipes for ALL Furniture and Metal Mirrors if off
+				See sections below to disable individual Decorative Mirrors
+				'''
+		}
+
+		EnableRecipeFunctionalMirror: {
+			Label: Recipe for Decorative Magical Mirrors [i:PlaceableMirrors/FunctionalWoodenWallMirror]
+			Tooltip:
+				'''
+				Decorative Mirrors can be crafted into Decorative Magical Mirrors
+				[i:PlaceableMirrors/WoodenWallMirror][i:PlaceableMirrors/SmallMagicMirror]
+				'''
+		}
+
+		EnableRecipeFunctionalTeleporterMirror: {
+			Label: Recipe for Decorative Teleporter Mirrors [i:PlaceableMirrors/TeleporterWoodenWallMirror]
+			Tooltip:
+				'''
+				Decorative Magical Mirrors can be crafted into Decorative Teleporter Mirrors
+				[i:PlaceableMirrors/FunctionalWoodenWallMirror][i:Teleporter]
+				'''
+		}
+
+		EnableAltRecipeFunctionalMirror: {
+			Label: Alternate Recipe for Decorative Magical Mirrors [i:PlaceableMirrors/FunctionalEbonwoodWallMirror]
+			Tooltip:
+				'''
+				Decorative Magical Mirrors can be crafted without a Small Magic Mirror, uses Recall Potions instead
+				[i:PlaceableMirrors/EbonwoodWallMirror][i:RecallPotion]
+				'''
+		}
+
+		EnableAltRecipeFunctionalTeleporterMirror: {
+			Label: Alternate Recipe for Decorative Teleporter Mirrors [i:PlaceableMirrors/TeleporterEbonwoodWallMirror]
+			Tooltip:
+				'''
+				Decorative Teleporter Mirrors can be crafted without a Decorative Magical Mirror, uses Normal Decorative Mirrors instead
+				[i:PlaceableMirrors/EbonwoodWallMirror][i:Teleporter]
+				'''
+		}
+
+		EnableRecipeWoodenMirror: {
+			Label: Recipe for Wooden Mirrors [i:PlaceableMirrors/WoodenWallMirror]
+			Tooltip: Wooden Mirrors can be crafted
+		}
+
+		EnableRecipeEbonwoodMirror: {
+			Label: Recipe for Ebonwood Mirrors [i:PlaceableMirrors/EbonwoodWallMirror]
+			Tooltip: Ebonwood Mirrors can be crafted
+		}
+
+		EnableRecipeRichMahoganyMirror: {
+			Label: Recipe for Rich Mahogany Mirrors [i:PlaceableMirrors/RichMahoganyWallMirror]
+			Tooltip: Rich Mahogany Mirrors can be crafted
+		}
+
+		EnableRecipePearlwoodMirror: {
+			Label: Recipe for Pearlwood Mirrors [i:PlaceableMirrors/PearlwoodWallMirror]
+			Tooltip: Pearlwood Mirrors can be crafted
+		}
+
+		EnableRecipeCactusMirror: {
+			Label: Recipe for Cactus Mirrors [i:PlaceableMirrors/CactusWallMirror]
+			Tooltip: Cactus Mirrors can be crafted
+		}
+
+		EnableRecipeFleshMirror: {
+			Label: Recipe for Flesh Mirrors [i:PlaceableMirrors/FleshWallMirror]
+			Tooltip: Flesh Mirrors can be crafted
+		}
+
+		EnableRecipeMushroomMirror: {
+			Label: Recipe for Mushroom Mirrors [i:PlaceableMirrors/MushroomWallMirror]
+			Tooltip: Mushroom Mirrors can be crafted
+		}
+
+		EnableRecipeLivingWoodMirror: {
+			Label: Recipe for Living Wood Mirrors [i:PlaceableMirrors/LivingWoodWallMirror]
+			Tooltip: Living Wood Mirrors can be crafted
+		}
+
+		EnableRecipeBoneMirror: {
+			Label: Recipe for Bone Mirrors [i:PlaceableMirrors/BoneWallMirror]
+			Tooltip: Bone Mirrors can be crafted
+		}
+
+		EnableRecipeSkywareMirror: {
+			Label: Recipe for Skyware Mirrors [i:PlaceableMirrors/SkywareWallMirror]
+			Tooltip: Skyware Mirrors can be crafted
+		}
+
+		EnableRecipeShadewoodMirror: {
+			Label: Recipe for Shadewood Mirrors [i:PlaceableMirrors/ShadewoodWallMirror]
+			Tooltip: Shadewood Mirrors can be crafted
+		}
+
+		EnableRecipeLihzahrdMirror: {
+			Label: Recipe for Lihzahrd Mirrors [i:PlaceableMirrors/LihzahrdWallMirror]
+			Tooltip: Lihzahrd Mirrors can be crafted
+		}
+
+		EnableRecipeBlueDungeonMirror: {
+			Label: Recipe for Blue Dungeon Mirrors [i:PlaceableMirrors/BlueDungeonWallMirror]
+			Tooltip: Blue Dungeon Mirrors can be crafted
+		}
+
+		EnableRecipeGreenDungeonMirror: {
+			Label: Recipe for Green Dungeon Mirrors [i:PlaceableMirrors/GreenDungeonWallMirror]
+			Tooltip: Green Dungeon Mirrors can be crafted
+		}
+
+		EnableRecipePinkDungeonMirror: {
+			Label: Recipe for Pink Dungeon Mirrors [i:PlaceableMirrors/PinkDungeonWallMirror]
+			Tooltip: Pink Dungeon Mirrors can be crafted
+		}
+
+		EnableRecipeObsidianMirror: {
+			Label: Recipe for Obsidian Mirrors [i:PlaceableMirrors/ObsidianWallMirror]
+			Tooltip:
+				'''
+				Obsidian Mirrors can be crafted
+				(Note: Lava Mirrors can still be crafted if off)
+				'''
+		}
+
+		EnableRecipeGlassMirror: {
+			Label: Recipe for Glass Mirrors [i:PlaceableMirrors/GlassWallMirror]
+			Tooltip: Glass Mirrors can be crafted
+		}
+
+		EnableRecipeGoldenMirror: {
+			Label: Recipe for Golden Mirrors [i:PlaceableMirrors/GoldenWallMirror]
+			Tooltip: Golden Mirrors can be crafted
+		}
+
+		EnableRecipeHoneyMirror: {
+			Label: Recipe for Honey Mirrors [i:PlaceableMirrors/HoneyWallMirror]
+			Tooltip: Honey Mirrors can be crafted
+		}
+
+		EnableRecipeSteampunkMirror: {
+			Label: Recipe for Steampunk Mirrors [i:PlaceableMirrors/SteampunkWallMirror]
+			Tooltip: Steampunk Mirrors can be crafted
+		}
+
+		EnableRecipePumpkinMirror: {
+			Label: Recipe for Pumpkin Mirrors [i:PlaceableMirrors/PumpkinWallMirror]
+			Tooltip: Pumpkin Mirrors can be crafted
+		}
+
+		EnableRecipeSpookyMirror: {
+			Label: Recipe for Spooky Mirrors [i:PlaceableMirrors/SpookyWallMirror]
+			Tooltip: Spooky Mirrors can be crafted
+		}
+
+		EnableRecipeFrozenMirror: {
+			Label: Recipe for Frozen Mirrors [i:PlaceableMirrors/FrozenWallMirror]
+			Tooltip: Frozen Mirrors can be crafted
+		}
+
+		EnableRecipeDynastyMirror: {
+			Label: Recipe for Dynasty Mirrors [i:PlaceableMirrors/DynastyWallMirror]
+			Tooltip: Dynasty Mirrors can be crafted
+		}
+
+		EnableRecipePalmWoodMirror: {
+			Label: Recipe for Palm Wood Mirrors [i:PlaceableMirrors/PalmWoodWallMirror]
+			Tooltip:
+				'''
+				Palm Wood Mirrors can be crafted
+				(Note: Water Mirrors can still be crafted if off)
+				'''
+		}
+
+		EnableRecipeBorealWoodMirror: {
+			Label: Recipe for Boreal Wood Mirrors [i:PlaceableMirrors/BorealWoodWallMirror]
+			Tooltip: Boreal Wood Mirrors can be crafted
+		}
+
+		EnableRecipeSlimeMirror: {
+			Label: Recipe for Slime Mirrors [i:PlaceableMirrors/SlimeWallMirror]
+			Tooltip: Slime Mirrors can be crafted
+		}
+
+		EnableRecipeMartianMirror: {
+			Label: Recipe for Martian Mirrors [i:PlaceableMirrors/MartianWallMirror]
+			Tooltip: Martian Mirrors can be crafted
+		}
+
+		EnableRecipeMeteoriteMirror: {
+			Label: Recipe for Meteorite Mirrors [i:PlaceableMirrors/MeteoriteWallMirror]
+			Tooltip: Meteorite Mirrors can be crafted
+		}
+
+		EnableRecipeGraniteMirror: {
+			Label: Recipe for Granite Mirrors [i:PlaceableMirrors/GraniteWallMirror]
+			Tooltip: Granite Mirrors can be crafted
+		}
+
+		EnableRecipeMarbleMirror: {
+			Label: Recipe for Marble Mirrors [i:PlaceableMirrors/MarbleWallMirror]
+			Tooltip: Marble Mirrors can be crafted
+		}
+
+		EnableRecipeCrystalMirror: {
+			Label: Recipe for Crystal Mirrors [i:PlaceableMirrors/CrystalWallMirror]
+			Tooltip: Crystal Mirrors can be crafted
+		}
+
+		EnableRecipeSpiderMirror: {
+			Label: Recipe for Spider Mirrors [i:PlaceableMirrors/SpiderWallMirror]
+			Tooltip: Spider Mirrors can be crafted
+		}
+
+		EnableRecipeLesionMirror: {
+			Label: Recipe for Lesion Mirrors [i:PlaceableMirrors/LesionWallMirror]
+			Tooltip: Lesion Mirrors can be crafted
+		}
+
+		EnableRecipeSolarMirror: {
+			Label: Recipe for Solar Mirrors [i:PlaceableMirrors/SolarWallMirror]
+			Tooltip: Solar Mirrors can be crafted
+		}
+
+		EnableRecipeVortexMirror: {
+			Label: Recipe for Vortex Mirrors [i:PlaceableMirrors/VortexWallMirror]
+			Tooltip: Vortex Mirrors can be crafted
+		}
+
+		EnableRecipeNebulaMirror: {
+			Label: Recipe for Nebula Mirrors [i:PlaceableMirrors/NebulaWallMirror]
+			Tooltip: Nebula Mirrors can be crafted
+		}
+
+		EnableRecipeStardustMirror: {
+			Label: Recipe for Stardust Mirrors [i:PlaceableMirrors/StardustWallMirror]
+			Tooltip: Stardust Mirrors can be crafted
+		}
+
+		EnableRecipeSandstoneMirror: {
+			Label: Recipe for Sandstone Mirrors [i:PlaceableMirrors/SandstoneWallMirror]
+			Tooltip: Sandstone Mirrors can be crafted
+		}
+
+		EnableRecipeBambooMirror: {
+			Label: Recipe for Bamboo Mirrors [i:PlaceableMirrors/BambooWallMirror]
+			Tooltip: Bamboo Mirrors can be crafted
+		}
+
+		EnableRecipeReefMirror: {
+			Label: Recipe for Reef Mirrors [i:PlaceableMirrors/ReefWallMirror]
+			Tooltip:
+				'''
+				Reef Mirrors can be crafted
+				(Note: Shell Mirrors can still be crafted if off)
+				'''
+		}
+
+		EnableRecipeBalloonMirror: {
+			Label: Recipe for Balloon Mirrors [i:PlaceableMirrors/BalloonWallMirror]
+			Tooltip: Balloon Mirrors can be crafted
+		}
+
+		EnableRecipeAshWoodMirror: {
+			Label: Recipe for Ash Wood Mirrors [i:PlaceableMirrors/AshWoodWallMirror]
+			Tooltip: Ash Wood Mirrors can be crafted
+		}
+
+		EnableRecipeDungeonMirror: {
+			Label: Recipe for Dungeon Mirrors [i:PlaceableMirrors/DungeonWallMirror]
+			Tooltip: Dungeon Mirrors can be crafted
+		}
+
+		EnableRecipeGothicMirror: {
+			Label: Recipe for Gothic Mirrors [i:PlaceableMirrors/GothicWallMirror]
+			Tooltip: Gothic Mirrors can be crafted
+		}
+
+		EnableRecipePineMirror: {
+			Label: Recipe for Pine Mirrors [i:PlaceableMirrors/PineWallMirror]
+			Tooltip: Pine Mirrors can be crafted
+		}
+
+		EnableRecipeStoneMirror: {
+			Label: Recipe for Stone Mirrors [i:PlaceableMirrors/StoneWallMirror]
+			Tooltip: Stone Mirrors can be crafted
+		}
+
+		EnableRecipeCopperMirror: {
+			Label: Recipe for Copper Mirrors [i:PlaceableMirrors/CopperWallMirror]
+			Tooltip: Copper Mirrors can be crafted
+		}
+
+		EnableRecipeTinMirror: {
+			Label: Recipe for Tin Mirrors [i:PlaceableMirrors/TinWallMirror]
+			Tooltip: Tin Mirrors can be crafted
+		}
+
+		EnableRecipeAdamantiteMirror: {
+			Label: Recipe for Adamantite Mirrors [i:PlaceableMirrors/AdamantiteWallMirror]
+			Tooltip: Adamantite Mirrors can be crafted
+		}
+
+		GlassAmount: {
+			Label: Glass in Crafting Mirrors [i:Glass]
+			Tooltip: How much Glass is needed for mirror recipes
+		}
+
+		GlassAmountForBlocks: {
+			Label: Glass in Crafting Blocks [i:Glass]
+			Tooltip: How much Glass is needed for mirror blocks and how many blocks will be crafted
+		}
+
+		FurnitureSetsMaterialAmount: {
+			Label: Materials in Crafting Furniture Mirrors [i:Wood]
+			Tooltip: How much of a material is needed to craft its respective mirror
+		}
+
+		MetalBarAmount: {
+			Label: Metal Bars in Crafting Metal Mirrors [i:CopperBar]
+			Tooltip: How much Metal Bars are needed to craft its respective mirror
+		}
+
+		RecallPotionAmount: {
+			Label: Recall Potions in Crafting Recall Mirrors [i:RecallPotion]
+			Tooltip: How much Recall Potions are required in Recall Mirror recipes
+		}
+
+		TeleportationPotionAmount: {
+			Label: Teleportation Potions in Crafting Random Teleportation Mirrors [i:TeleportationPotion]
+			Tooltip: How much Teleportation Potions are required in Random Teleportation Mirror recipes
+		}
+
+		WormholePotionAmount: {
+			Label: Wormhole Potions in Crafting Wormhole Mirrors [i:WormholePotion]
+			Tooltip: How much Wormhole Potions are required in Wormhole Mirror recipes
+		}
+
+		PotionOfReturnAmount: {
+			Label: Potions Of Return in Crafting Mirrors of Return [i:PotionOfReturn]
+			Tooltip: How much Potions of Return are required in Mirror of Return recipes
+		}
+
+		RecallPotionAmountAlt: {
+			Label: Recall Potions in Alternate Crafting Recipes [i:RecallPotion]
+			Tooltip: How much Recall Potions are required in alternate recipes
+		}
+
+		SeashellAmountAlt: {
+			Label: Seashells in Alternate Recipes [i:Seashell]
+			Tooltip: How much Seashells are required to make Water/Shell Mirrors in alternate recipes
+		}
+
+		HellstoneBarAmountAlt: {
+			Label: Hellstone Bars in Alternate Recipes [i:HellstoneBar]
+			Tooltip: How much Hellstone Bars are required to make Lava/Shell Mirrors in alternate recipes
+		}
+
+		WireAmountAlt: {
+			Label: Wire in Alternate Recipes [i:Wire]
+			Tooltip: How much Wire is required to make the Cell Mirror in alternate recipe
+		}
+
+		CraftingStation: {
+			Label: Crafting Station for Mirrors [i:Furnace]
+			Tooltip:
+				'''
+				The tile used to craft mirrors
+				(Anvils = 16, Furnaces = 17, Workbenches = 18, Glass Kiln = 302)
+				'''
+		}
+
+		CraftingStationCombine: {
+			Label: Crafting Station for Adding to Mirrors [i:IronAnvil]
+			Tooltip:
+				'''
+				The tile used to combine items with mirrors
+				(Anvils = 16, Furnaces = 17, Workbenches = 18, Glass Kiln = 302)
+				'''
+		}
+
+		SmallItemsCraftingStation: {
+			Label: Crafting Station for Small Items [i:WorkBench]
+			Tooltip:
+				'''
+				The tile used to craft Small Items
+				(None = 0, Anvils = 16, Furnaces = 17, Workbenches = 18)
+				'''
+		}
+
+		SpecialCrafting: {
+			Label: Some Furniture Mirrors are Crafted at Special Crafting Stations [i:Solidifier]
+			Tooltip:
+				'''
+				Mirrors that are part of furniture sets crafted from
+				special crafting stations are crafted at special crafting stations
+				(Example: Slime Mirror crafted at Solidifier)
+				'''
+		}
+	}
+
+	PlaceableMirrorsServerMiscConfig: {
+		DisplayName: Server Misc.
+
+		Header: {
+			NPCDrops: NPC Drops
+			NPCShops: NPC Shops
+			TeleporterMirror: Teleporter Mirror Limits
+			ZenithMirror: Zenith Mirror Functions
+			PlacementPreview: Placement Preview
+			Experimental: Experimental
+		}
+
+		EnablePirateGoldenMirrorDrop: {
+			Label: Pirates Drops Golden Mirrors [i:PlaceableMirrors/GoldenWallMirror]
+			Tooltip: Pirates will have a chance to drop Golden Mirrors
+		}
+
+		GoldenMirrorDropChance: {
+			Label: Golden Mirror Drop Chance [i:PlaceableMirrors/GoldenWallMirror]
+			Tooltip: The chance of a pirate dropping a Golden Mirror, higher number = less common drop
+		}
+
+		EnablePirateShipGoldenMirrorDrop: {
+			Label: Flying Dutchman Drops Golden Mirror [i:PlaceableMirrors/GoldenWallMirror]
+			Tooltip: Golden Mirror is added to the Golden Furniture loot table of the Flying Dutchman
+		}
+
+		EnableMerchantSellsPylonMirrors: {
+			Label: Shops Sells Pylon Mirrors [i:PlaceableMirrors/ForestMirror]
+			Tooltip: Any shop that sells a Pylon will also sell its matching Pylon Mirror
+		}
+
+		PylonMirrorValue: {
+			Label: Pylon Mirror Price [i:PlaceableMirrors/ForestMirror]
+			Tooltip: The price of Pylon Mirrors
+		}
+
+		EnableMerchantSellsCopperMirror: {
+			Label: Merchant Sells Copper Shortmirror [i:PlaceableMirrors/CopperWallMirror]
+			Tooltip: The Merchant will sell Copper Shortmirrors
+		}
+
+		CopperMirrorValue: {
+			Label: Copper Shortmirror Price [i:PlaceableMirrors/CopperWallMirror]
+			Tooltip: The price of a Copper Shortmirror when The Merchant sells one
+		}
+
+		EnableMerchantSellsAmazingMirror: {
+			Label: Merchant Sells Amazing Mirror [i:PlaceableMirrors/AmazingMirror]
+			Tooltip: The Merchant will sell Amazing Mirrors after defeating Eye of Cthulhu
+		}
+
+		AmazingMirrorValue: {
+			Label: Amazing Mirror Price [i:PlaceableMirrors/AmazingMirror]
+			Tooltip: The price of an Amazing Mirror
+		}
+
+		EnableMerchantSellsGrandAmazingMirror: {
+			Label: Wizard Sells Grand Amazing Mirror [i:PlaceableMirrors/GrandAmazingMirror]
+			Tooltip: The Wizard will sell Grand Amazing Mirrors
+		}
+
+		GrandAmazingMirrorValue: {
+			Label: Grand Amazing Mirror Price [i:PlaceableMirrors/GrandAmazingMirror]
+			Tooltip: The price of a Grand Amazing Mirror
+		}
+
+		TeleporterMirrorLimit: {
+			Label: Teleporter Mirror Limit [i:PlaceableMirrors/TeleporterMirror]
+			Tooltip: The amount of Non-Decorative Teleporter Mirrors allowed to be placed
+		}
+
+		DefaultTeleporterMirrorLimit: {
+			Label: Decorative Teleporter Mirror Limit [i:PlaceableMirrors/TeleporterWoodenWallMirror]
+			Tooltip: The amount of Decorative Teleporter Mirrors allowed to be placed
+		}
+
+		ZenithMirrorFunctionMagic: {
+			Label: Magic Mirror Function [i:PlaceableMirrors/LargeMagicMirror]
+			Tooltip: Adds a Magic Mirror function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionWater: {
+			Label: Water Mirror Function [i:PlaceableMirrors/WaterMirror]
+			Tooltip: Adds a Water Mirror (Magic Conch) function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionLava: {
+			Label: Lava Mirror Function [i:PlaceableMirrors/LavaMirror]
+			Tooltip: Adds a Lava Mirror (Demon Conch) function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionTeleportation: {
+			Label: Random Teleportation Mirror Function [i:PlaceableMirrors/TeleportationMirror]
+			Tooltip: Adds a Random Teleportation Mirror/Potion function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionWormhole: {
+			Label: Wormhole Mirror Function [i:PlaceableMirrors/WormholeMirror]
+			Tooltip: Adds a Wormhole Mirror/Potion function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionReturn: {
+			Label: Mirror of Return Function [i:PlaceableMirrors/ReturnMirror]
+			Tooltip: Adds a Mirror/Potion of Return function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionShell: {
+			Label: Shell Mirror (World Spawn) Function [i:PlaceableMirrors/ShellMirror]
+			Tooltip: Adds a Shell Mirror/Shellphone (Spawn) function to Zenith Mirror
+		}
+
+		ZenithMirrorFunctionUltimate: {
+			Label: Copper Shortmirror Function [i:PlaceableMirrors/CopperWallMirror]
+			Tooltip: Adds a randomized function to Zenith Mirror (Where will you go?)
+		}
+
+		RequireWallForPlacement: {
+			Label: Require Wall
+			Tooltip: Mirrors will need walls to be placed
+		}
+	}
+}
+

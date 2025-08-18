@@ -1,0 +1,112 @@
+Configs: {
+	ServerConfig: {
+		DisplayName: Server Config
+
+		RequireAuricBars: {
+			Label: Recipes Require Auric Bars
+			Tooltip: Toggles whether recipes require Auric Bars when the Calamity Mod is enabled
+		}
+	}
+}
+
+Projectiles: {
+	ZenithRoundProjectile2: {
+		DisplayName: Zenith Round Projectile2
+	}
+
+	ZenithRoundProjectile3: {
+		DisplayName: Zenith Round Projectile3
+	}
+
+	ZenithRoundProjectile4: {
+		DisplayName: Zenith Round Projectile4
+	}
+
+	GunMinion: {
+		DisplayName: Gun Minion
+	}
+
+	ZenithRoundProjectile: {
+		DisplayName: Zenith Round Projectile
+	}
+
+	ChainGunMinion: {
+		DisplayName: Apogee Chain Gun
+	}
+
+	ClockworkAssaultRifleMinion: {
+		DisplayName: Apogee Clockwork Assault Rifle
+	}
+
+	MegasharkMinion: {
+		DisplayName: Apogee Megashark
+	}
+
+	MusketMinion: {
+		DisplayName: Apogee Musket
+	}
+
+	OnyxBlasterMinion: {
+		DisplayName: Apogee Onyx Blaster
+	}
+
+	PhoenixBlasterMinion: {
+		DisplayName: Apogee Phoenix Blaster
+	}
+
+	SDMGMinion: {
+		DisplayName: Apogee SDMG
+	}
+
+	TheUndertakerMinion: {
+		DisplayName: Apogee The Undertaker
+	}
+
+	VenusMagnumMinion: {
+		DisplayName: Apogee Venus Magnum
+	}
+
+	VortexBeaterMinion: {
+		DisplayName: Apogee Vortex Beater
+	}
+
+	XenopopperMinion: {
+		DisplayName: Apogee Xenopopper
+	}
+}
+
+Items: {
+	ZenithArrow: {
+		DisplayName: Apotheosis Bolt
+		Tooltip: "'A flare? Really?'"
+	}
+
+	ZenithFlare: {
+		DisplayName: Eterniflare
+		Tooltip: "'A flare? Really?'"
+	}
+
+	ZenithRound: {
+		DisplayName: Pinnacle Round
+		Tooltip:
+			'''
+			Explodes on impact  
+			Bounces, causing it to chase enemies  
+			Inflicts a plethora of debuffs
+			'No need to choose an ammo type when you can use all of them at once'
+			'''
+	}
+
+	ZenithGun: {
+		Tooltip:
+			'''
+			Summons an orbital arsenal to fight for you
+			Musket balls are reformed into various bullets from your past
+			Right click to zoom out
+			66% chance to not consume ammo
+			'The amalgamation of all your efforts'
+			'''
+		DisplayName: Apogee
+	}
+}
+

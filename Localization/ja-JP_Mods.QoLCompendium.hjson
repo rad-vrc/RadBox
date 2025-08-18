@@ -1,0 +1,5361 @@
+Buffs: {
+	SnakeBuff: {
+		Description: なるほど
+		DisplayName: スネーク
+	}
+
+	OwlBuff: {
+		Description: フクロウの鳴き声
+		DisplayName: フクロウ
+	}
+
+	MothBuff: {
+		Description: 全ステータスが恒久的に上昇？
+		DisplayName: ガ
+	}
+
+	LittleYagiBuff: {
+		DisplayName: ちいさなヤギ
+		Description: とってもねむい
+	}
+}
+
+Tiles: {
+	BasicCalamityMonolithTile: {
+		MapEntry: カラミティ・クラフティング・モノリス（基本）
+	}
+
+	CalamityMonolithTile: {
+		MapEntry: カラミティ・クラフティング・モノリス
+	}
+
+	HardmodeCalamityMonolithTile: {
+		MapEntry: カラミティ・クラフティング・モノリス（ハード）
+	}
+
+	ThoriumMonolithTile: {
+		MapEntry: ソリウム・クラフティング・モノリス
+	}
+
+	BasicThoriumMonolithTile: {
+		MapEntry: ソリウム・クラフティング・モノリス（基本）
+	}
+
+	UnderworldCollectorTile: {
+		MapEntry: 地獄コレクター
+	}
+
+	TreeCollectorTile: {
+		MapEntry: 樹木コレクター
+	}
+
+	TempleCollectorTile: {
+		MapEntry: 神殿コレクター
+	}
+
+	SnowCollectorTile: {
+		MapEntry: 雪原コレクター
+	}
+
+	SkyCollectorTile: {
+		MapEntry: 空コレクター
+	}
+
+	OreCollectorTile: {
+		MapEntry: 鉱石コレクター
+	}
+
+	OceanCollectorTile: {
+		MapEntry: 海コレクター
+	}
+
+	NaturalBlockCollectorTile: {
+		MapEntry: 自然ブロック・コレクター
+	}
+
+	MushroomCollectorTile: {
+		MapEntry: キノココレクター
+	}
+
+	ModBiomeCollectorTile: {
+		MapEntry: Modバイオーム・コレクター
+	}
+
+	MeteorCollectorTile: {
+		MapEntry: 隕石コレクター
+	}
+
+	LunarCollectorTile: {
+		MapEntry: ルナ・コレクター
+	}
+
+	LiquidCollectorTile: {
+		MapEntry: 液体コレクター
+	}
+
+	JungleCollectorTile: {
+		MapEntry: ジャングル・コレクター
+	}
+
+	HerbCollectorTile: {
+		MapEntry: ハーブ・コレクター
+	}
+
+	HallowCollectorTile: {
+		MapEntry: 聖域コレクター
+	}
+
+	GemCollectorTile: {
+		MapEntry: 宝石コレクター
+	}
+
+	ForestCollectorTile: {
+		MapEntry: 森林コレクター
+	}
+
+	FishCollectorTile: {
+		MapEntry: 魚コレクター
+	}
+
+	EnemyCollectorTile: {
+		MapEntry: 敵コレクター
+	}
+
+	DyePlantCollectorTile: {
+		MapEntry: 染料植物コレクター
+	}
+
+	DungeonCollectorTile: {
+		MapEntry: ダンジョン・コレクター
+	}
+
+	DesertCollectorTile: {
+		MapEntry: 砂漠コレクター
+	}
+
+	CrimsonCollectorTile: {
+		MapEntry: 真紅コレクター
+	}
+
+	CorruptionCollectorTile: {
+		MapEntry: 不浄コレクター
+	}
+
+	CavernCollectorTile: {
+		MapEntry: 洞窟コレクター
+	}
+
+	BossCollectorTile: {
+		MapEntry: ボス・コレクター
+	}
+
+	BaitCollectorTile: {
+		MapEntry: 釣り餌コレクター
+	}
+
+	TemplePylonTile: {
+		MapEntry: 寺院のパイロン
+	}
+
+	AetherPylonTile: {
+		MapEntry: エーテルのパイロン
+	}
+
+	AetherAltarTile: {
+		MapEntry: エーテルアルター
+	}
+
+	CorruptionPylonTile: {
+		MapEntry: 不浄パイロン
+	}
+
+	CrimsonPylonTile: {
+		MapEntry: 真紅パイロン
+	}
+
+	DungeonPylonTile: {
+		MapEntry: ダンジョン・パイロン
+	}
+
+	HellPylonTile: {
+		MapEntry: 地獄パイロン
+	}
+
+	SkyPylonTile: {
+		MapEntry: 空パイロン
+	}
+
+	CrimsonAltarTile: {
+		MapEntry: 真紅アルター
+	}
+
+	DemonAltarTile: {
+		MapEntry: デーモンアルター
+	}
+
+	SpecializedMonolithTile: {
+		MapEntry: 専用クラフティング・モノリス
+	}
+
+	LunarMonolithTile: {
+		MapEntry: ルナ・クラフティング・モノリス
+	}
+
+	HardmodeMonolithTile: {
+		MapEntry: ハードモード・クラフティング・モノリス
+	}
+
+	BasicMonolithTile: {
+		MapEntry: 基本クラフティング・モノリス
+	}
+}
+
+ModConditions: {
+	downedLuminaris: Downed Luminaris
+	ItemObtained: Sold when item is obtained at a stack of {0}
+	downedProphet: Downed Prophet
+	downedNihilityTwin: Downed Nihility Twin
+	downedOrdealAny: Downed any Ordeal
+	downedCursedCoffin: Downed Cursed Coffin
+	downedCruiser: Downed Cruiser
+	shimmerableAfterMoonLordOrSupremeCalamitas: Downed Moon Lord, or downed Supreme Calamitas with Calamity enabled
+	downedCockatrice: Downed Cockatrice
+	downedBasan: Downed Basan
+	downedSkullDigger: Downed Skull Digger
+	downedEaglecrestGolem: Downed Eaglecrest Golem
+	downedCalavia: Downed Calavia
+	downedTheJanitor: Downed Janitor
+	downedIrradiatedBehemoth: Downed Irradiated Behemoth
+	downedBlisterface: Downed Blisterface
+	downedProtectorVolt: Downed Protector Volt
+	downedMACEProject: Downed MACE Project
+	downedNamelessDeityOfLight: Downed Nameless Deity of Light
+	downedNoxus: Downed Entropic God, Noxus
+	talkedToTravelingMerchant: Talked to Traveling Merchant
+	talkedToSkeletonMerchant: Talked to Skeleton Merchant
+	beenToJadeLake: Been to the Jade Lake biome
+	downedDecree: Downed Decree
+	downedFlamingPumpkin: Downed Flaming Pumpkin
+	downedZombiePiglinBrute: Downed Zombie Piglin Brute
+	downedJensenTheGrandHarpy: Downed Jensen
+	downedAraneas: Downed Araneas
+	downedHarpyQueenRaynare: Downed Raynare
+	downedPrimordia: Downed Primordia
+	downedAbaddon: Downed Abaddon
+	downedAraghur: Downed Araghur
+	downedLostSiblings: Downed Lost Siblings
+	downedErazor: Downed Erazor
+	downedNihilus: Downed Nihilus
+	beenToCinderForest: Been to the Cinder Forest biome
+	downedDirtball: Downed Dirtball
+	downedMetelord: Downed Metelord
+	downedAdeneb: Downed Adeneb
+	downedEldritchJellyfish: Downed Eldritch Jellyfish
+	downedSaburRex: Downed Sabur Rex
+	downedOphiopede: Downed Ophiopede
+	downedOphiocoon: Downed Ophiocoon
+	downedOphiofly: Downed Ophiofly
+	downedLifeGuardian: Downed Life Guardian
+	downedManaGuardian: Downed Mana Guardian
+	downedMeteorExcavator: Downed Meteor Excavator
+	downedMeteorAnnihilator: Downed Meteor Annihilator
+	downedHellfireSerpent: Downed Hellfire Serpent
+	downedWitheredAcornSpirit: Downed Withered Acorn Spirit
+	downedGoblinSorcererChieftain: Downed Goblin Sorcerer Chieftain
+	downedExodygen: Downed Exodygen
+	downedNiflheim: Downed Niflheim
+	downedStellarStarship: Downed Stellar Starship
+	notDownedMechBossAll: Not Downed All Mech Bosses
+	downedMosquitoMonarch: Downed Mosquito Monarch
+	downedCoreBoss: Downed Corrupt or Crimson Core
+	downedRediancie: Downed Rediancie
+	downedBabyIceDragon: Downed Baby Ice Dragon
+	downedSlimeEmperor: Downed Slime Emperor
+	downedBloodiancie: Downed Bloodiancie
+	downedThunderveinDragon: Downed Thundervein Dragon
+	downedNightmarePlantera: Downed Nightmare Plantera
+	downedForestGuardian: Downed Forest Guardian
+	downedCryoGuardian: Downed Cryo Guardian
+	downedPrimordialWorm: Downed Primordial Worm
+	downedTheGuardianOfHell: Downed The Guardian Of Hell
+	downedVoid: Downed Void
+	downedArmagem: Downed Armagem
+	downedStarfarers: Downed Asphodene and Eridani
+	downedThespian: Downed Thespian, the Act of Alchemy
+	downedBacteriumPrime: Downed Bacterium Prime
+	downedAvalonEvilBosses: Downed any evil boss
+	downedDesertBeak: Downed Desert Beak
+	downedKingSting: Downed King Sting
+	downedMechasting: Downed Mechasting
+	downedPhantasm: Downed Phantasm
+	beenToContagion: Been to the Contagion biome
+	beenToAvalonEvilBiomes: Been to any evil biome
+	downedSuperVoltaicMotherSlime: Downed Super Voltaic Mother Slime
+	downedTreeToad: Downed Tree Toad
+	downedSeseKitsugai: Downed Sese Kitsugai
+	downedEyeOfTheStorm: Downed Eye Of The Storm
+	downedFrigidius: Downed Frigidius
+	downedBritzz: Downed Britzz
+	downedTheAlchemist: Downed Alchemist
+	downedCarnagePillar: Downed Carnage Pillar
+	downedVoidDigger: Downed Void Digger
+	downedPrinceSlime: Downed Prince Slime
+	downedTriplets: Downed Triplets
+	downedJungleDefenders: Downed Jungle Defenders
+	beenToSpiderCave: Been to the Spider Grotto biome
+	downedPyrogen: Downed Pyrogen
+	downedWallOfBronze: Downed Wall Of Bronze
+	downedBloodweaver: Downed Bloodweaver
+	downedEidolonWyrm: Downed Eidolon Wyrm
+	downedWulfrumExcavator: Downed Wulfrum Excavator
+	downedBlazingSerpentOrPandorasFlamebox: Downed Blazing Serpent or Pandoras Flamebox
+	downedCogworkOrSparn: Downed Cogwork or Sparn
+	downedWaterJellyfishOrWaterCogwork: Downed Water Jellyfish or Water Cogwork
+	downedSTARBOMBER: Downed STARBOMBER
+	downedPandorasFlamebox: Downed Pandoras Flamebox
+	downedSparn: Downed Sparn
+	downedWaterJellyfish: Downed Water Jellyfish
+	downedWaterCogwork: Downed Water Cogwork
+	downedCogwork: Downed Cogwork
+	downedBlazingSerpent: Downed Blazing Serpent
+	downedFenix: Downed Fenix
+	downedSylia: Downed Sylia
+	downedIrradia: Downed Irradia
+	downedVerlia: Downed Verlia
+	downedStoneGuardian: Downed StoneGuardian
+	downedManaflora: Downed Manaflora
+	downedPaladinSpirit: Downed Paladin Spirit
+	downedChaosbringer: Downed Chaosbringer
+	downedAnarchulesBeetle: Downed Anarchules Beetle
+	downedDreadnaught: Downed Dreadnaught
+	downedMoonlightDragonfly: Downed Moonlight Dragonfly
+	downedGemstoneElemental: Downed Gemstone Elemental
+	downedGrandAntlion: Downed Grand Antlion
+	downedStormCloud: Downed Storm Cloud
+	beenToVerdant: Been to the Verdant biome
+	downedYurnero: Downed Yurnero
+	downedColossalCarnage: Downed Colossal Carnage
+	downedEvilFlyingBlade: Downed Evil Flying Blade
+	downedCosmicMenace: Downed Cosmic Menace
+	downedCharcoolSnowman: Downed Charcool Snowman
+	downedDredger: Downed Dredger
+	downedBeholder: Downed Beholder
+	downedGraniteOvergrowth: Downed Granite Overgrowth
+	beenToAquaticDepths: Been to the Aquatic Depths biome
+	downedIllusionist: Downed Illusionist
+	downedCorpseBloom: Downed Corpse Bloom
+	downedPatchWerk: Downed Patch Werk
+	downedPrimordials: Downed Primordials
+	downedForgottenOne: Downed Forgotten One
+	downedLich: Downed Lich
+	downedFallenBeholder: Downed Fallen Beholder
+	downedBoreanStrider: Downed Borean Strider
+	downedStarScouter: Downed Star Scouter
+	downedBuriedChampion: Downed Buried Champion
+	downedGraniteEnergyStorm: Downed Granite Energy Storm
+	downedViscount: Downed Viscount
+	downedQueenJellyfish: Downed Queen Jellyfish
+	downedGrandThunderBird: Downed Grand Thunder Bird
+	downedPrototypeI: Downed Prototype I
+	downedShadowcrawler: Downed Shadowcrawler
+	downedHexedConstructor: Downed Hexed Constructor
+	downedDunestock: Downed Dunestock
+	downedTidalTitan: Downed Tidal Titan
+	downedInfectedIncarnate: Downed Infected Incarnate
+	downedStoneMantaRay: Downed Stone Manta Ray
+	downedFlyingTerror: Downed Flying Terror
+	downedHarbingerOfAnnihilation: Downed Harbinger of Annihilation
+	downedPainbringer: Downed Painbringer
+	downedOverloadedScandrone: Downed Overloaded Scandrone
+	downedAncientHusk: Downed Ancient Husk
+	downedTsukiyomi: Downed Tsukiyomi, the First Starfarer
+	downedWarriorOfLight: Downed the Warrior of Light
+	downedArbitration: Downed Arbitration
+	downedPenthesilea: Downed Penthesilea, the Witch of Ink
+	downedNalhaun: Downed Nalhaun, the Burnished King
+	downedDioskouroi: Downed Dioskouroi, the Twin Forces
+	downedVagrantofSpace: Downed the Vagrant of Space and Time
+	beenToVitricTemple: Been to the Vitric Temple biome
+	beenToVitricDesert: Been to the Vitric Desert biome
+	beenToAuroracleTemple: Been to the Auroracle Temple biome
+	downedGlassweaver: Downed Glassweaver
+	downedCeiros: Downed Ceiros
+	downedAuroracle: Downed Auroracle
+	beenToCemetery: Been to the Cemetery biome
+	beenToCatacombs: Been to the Catacombs biome
+	beenToEyeValley: Been to the Eye Valley biome
+	beenToSpookyUnderground: Been to the Spooky Underground biome
+	beenToSpookyForest: Been to the Spooky Forest biome
+	downedBigBone: Downed Big Bone
+	downedOrroBoro: Downed Orro Boro
+	downedDaffodil: Downed Daffodil
+	downedMoco: Downed Moco
+	downedRotGourd: Downed Rot Gourd
+	downedSpookySpirit: Downed Spooky Spirit
+	beenToSpirit: Been to the Spirit biome
+	beenToBriar: Been to the Briar biome
+	downedMysticMoon: Downed Mystic Moon
+	downedTide: Downed Tide
+	downedJellyDeluge: Downed Jelly Deluge
+	downedAtlas: Downed Atlas
+	downedDusking: Downed Dusking
+	downedInfernon: Downed Infernon
+	downedStarplateVoyager: Downed Starplate Voyager
+	downedAncientAvian: Downed Ancient Avian
+	downedVinewrathBane: Downed Vinewrath Bane
+	downedMoonJellyWizard: Downed Moon Jelly Wizard
+	downedScarabeus: Downed Scarabeus
+	beenToPlanetarium: Been to the Planetarium biome
+	beenToPyramid: Been to the Pyramid biome
+	downedChaosSpirit: Downed Chaos Spirit
+	downedInfernoSpirit: Downed Inferno Spirit
+	downedEvilSpirit: Downed Evil Spirit
+	downedOtherworldlySpirit: Downed Otherworldly Spirit
+	downedTidalSpirit: Downed Tidal Spirit
+	downedPermafrostSpirit: Downed Permafrost Spirit
+	downedEarthenSpirit: Downed Earthen Spirit
+	downedNatureSpirit: Downed Nature Spirit
+	downedChaosConstruct: Downed Chaos Construct
+	downedInfernoConstruct: Downed Inferno Construct
+	downedEvilConstruct: Downed Evil Construct
+	downedOtherworldlyConstruct: Downed Otherworldly Construct
+	downedTidalConstruct: Downed Tidal Construct
+	downedPermafrostConstruct: Downed Permafrost Construct
+	downedEarthenConstruct: Downed Earthen Construct
+	downedNatureConstruct: Downed Nature Construct
+	downedSubspaceSerpent: Downed Subspace Serpent
+	downedLux: Downed Lux
+	downedPolaris: Downed Polaris
+	downedAdvisor: Downed Advisor
+	downedPharaohsCurse: Downed Pharaohs Curse
+	downedGlowmoth: Downed Glowmoth
+	downedPutridPinky: Downed Putrid Pinky
+	beenToWasteland: Been to the Wasteland biome
+	beenToLab: Been to the Lab biome
+	downedRaveyard: Downed Raveyard
+	downedFowlMorning: Downed FowlMorning
+	downedFowlEmperor: Downed FowlEmperor
+	downedNebuleus: Downed Nebuleus
+	downedAncientDeityDuo: Downed Ancient Deity Duo
+	downedUkko: Downed Ukko
+	downedAkka: Downed Akka
+	downedPatientZero: Downed Patient Zero
+	downedOmegaObliterator: Downed Omega Obliterator
+	downedOmegaGigapora: Downed Omega Gigapora
+	downedOmegaCleaver: Downed Omega Cleaver
+	downedKingSlayerIII: Downed King Slayer III
+	downedSeedOfInfection: Downed Seed of Infection
+	downedKeeper: Downed Keeper
+	downedErhan: Downed Erhan
+	downedThorn: Downed Thorn
+	beenToSkyFortress: Been to the Sky Fortress biome
+	downedInvaders: Downed Invaders
+	downedDinoMilitia: Downed Dino Militia
+	downedGreatTyrannosaurus: Downed Great Tyrannosaurus
+	downedOLORD: Downed O.L.O.R.D.
+	downedInvaderNoehtnap: Downed Invader Noehtnap
+	downedInvaderBattleship: Downed Invader Battleship
+	downedRuneGhost: Downed Rune Ghost
+	downedImperious: Downed Imperious
+	downedHydra: Downed Hydra
+	downedNoehtnap: Downed Noehtnap
+	downedAncientMachine: Downed Ancient Machine
+	downedDivineLight: Downed Divine Light
+	downedPolarExterminator: Downed Polar Exterminator
+	downedConvectiveWanderer: Downed Convective Wanderer
+	downedEsophage: Downed Esophage
+	downedSunPixie: Downed Sun Pixie
+	downedGigabat: Downed Gigabat
+	downedStarConstruct: Downed Star Construct
+	downedStormCloudfish: Downed Storm Cloudfish
+	downedGoldenTorizo: Downed Golden Torizo
+	downedNightmare: Downed Nightmare
+	downedOmegaPirate: Downed Omega Pirate
+	downedPhantoon: Downed Phantoon
+	downedKraid: Downed Kraid
+	downedSerris: Downed Serris
+	downedTorizo: Downed Torizo
+	downedSiegeEngine: Downed Siege Engine
+	downedCaretaker: Downed Caretaker
+	downedTerminator: Downed Terminator
+	downedSt4sys: Downed St4sys
+	beenToMorrowUnderground: Been to the Morrow Underground biome
+	beenToMarrowSurface: Been to the Marrow Surface biome
+	beenToCathedral: Been to the Cathedral biome
+	beenToGovheilCastle: Been to the Govheil Castle biome
+	beenToFable: Been to the Fable biome
+	beenToAurelus: Been to the Aurelus biome
+	beenToAcid: Been to the Acid biome
+	beenToLunarVeilAbyss: Been to the Abyss biome
+	downedGintzeArmy: Downed Gintze Army
+	downedGothivia: Downed Gothivia
+	downedVerliaB: Downed Verlia B
+	downedSingularityFragment: Downed Singularity Fragment
+	downedDreadMire: Downed Dread Mire
+	downedForgottenPuppetDaedus: Downed Forgotten Puppet Daedus
+	downedPumpkinJack: Downed Pumpkin Jack
+	downedSunStalker: Downed Sun Stalker
+	downedCommanderGintzia: Downed Commander Gintzia
+	beenToProfanedGardens: Been to the Profaned Gardens biome
+	downedBereftVassal: Downed Bereft Vassal
+	downedGoozma: Downed Goozma
+	beenToHomewardAbyss: Been to the Abyss biome
+	downedUnderworldOrdeal: Downed Underworld Ordeal
+	downedSnowOrdeal: Downed Snow Ordeal
+	downedSkyOrdeal: Downed Sky Ordeal
+	downedJungleOrdeal: Downed Jungle Ordeal
+	downedHallowOrdeal: Downed Hallow Ordeal
+	downedForestOrdeal: Downed Forest Ordeal
+	downedDesertOrdeal: Downed Desert Ordeal
+	downedCrimsonOrdeal: Downed Crimson Ordeal
+	downedCorruptOrdeal: Downed Corrupt Ordeal
+	downedCaveOrdeal: Downed Cave Ordeal
+	downedSon: Downed the Son
+	downedWorldsEndWhale: Downed World's End Everlasting Falling Whale
+	downedScarabBelief: Downed Scarab Belief
+	downedMaterealizer: Downed Materealizer
+	downedLifebringer: Downed Lifebringer
+	downedOverwatcher: Downed Overwatcher
+	downedSunSlimeGod: Downed Slime God
+	downedWallOfShadow: Downed Wall of Shadow
+	downedMotherbrain: Downed Motherbrain
+	downedDiver: Downed Diver
+	downedPriestessRod: Downed Priestess Rod
+	downedMarquisMoonsquid: Downed Marquis Moonsquid
+	downedAcheron: Downed Acheron
+	downedJack: Downed Jack
+	downedMagmaEye: Downed MagmaEye
+	downedTrerios: Downed Trerios
+	downedKisume: Downed Kisume
+	downedTenshiHinanawi: Downed Tenshi Hinanawi
+	downedUtsuhoReiuji: Downed Utsuho Reiuji
+	downedKaguyaHouraisan: Downed Kaguya Houraisan
+	downedToyosatomimiNoMiko: Downed Toyosatomimi no Miko
+	downedMayumiJoutouguu: Downed Mayumi Joutouguu
+	downedSeijaKijin: Downed Seija Kijin
+	downedSakuyaIzayoi: Downed Sakuya Izayoi
+	downedAliceMargatroid: Downed Alice Margatroid
+	downedMinamitsuMurasa: Downed Minamitsu Murasa
+	downedCirno: Downed Cirno
+	downedMedicineMelancholy: Downed Medicine Melancholy
+	downedNitoriKawashiro: Downed Nitori Kawashiro
+	downedSeiran: Downed Seiran
+	downedSekibanki: Downed Sekibanki
+	downedHinaKagiyama: Downed Hina Kagiyama
+	downedNazrin: Downed Nazrin
+	downedEternityLarva: Downed Eternity Larva
+	downedRumia: Downed Rumia
+	downedLilyWhite: Downed Lily White
+	downedStoffie: Downed Stoffie
+	downedSnowDon: Downed Snow Don
+	downedHornlitz: Downed Hornlitz
+	downedLad: Downed Lad
+	beenToDread: Been to the Dread biome
+	downedSanguineElemental: Downed Sanguine Elemental
+	downedAlphaFrostjaw: Downed Alpha Frostjaw
+	downedMutant: Downed Mutant
+	downedAbominationn: Downed Abominationn
+	downedEridanus: Downed Eridanus
+	downedLifelight: Downed Lifelight
+	downedBanishedBaron: Downed Banished Baron
+	downedDeviantt: Downed Deviantt
+	downedTrojanSquirrel: Downed Trojan Squirrel
+	downedIceLich: Downed Ice Lich
+	downedEffulgence: Downed Effulgence
+	downedCursePreacher: Downed Curse Preacher
+	downedHandOfCthulhu: Downed Hand of Cthulhu
+	downedGlaciation: Downed Glaciation
+	downedGardener: Downed Gardener
+	downedBlightKing: Downed BlightKing
+	downedDestruction: Downed Destruction
+	downedCreation: Downed Creation
+	downedGalahis: Downed Galahis
+	beenToDepthsOrUnderworld: Been to the Depths or Underworld biomes
+	beenToDepths: Been to the Depths biome
+	downedChasme: Downed Chasme
+	downedOcram: Downed Ocram
+	downedTurkor: Downed Turkor
+	downedLepus: Downed Lepus
+	beenToConfectionOrHallow: Been to the Confection or Hallow biomes
+	beenToConfection: Been to the Confection biome
+	downedClamitas: Downed Clamitas
+	downedAstrageldon: Downed Astrageldon
+	beenToAstralBlight: Been to the Astral Blight biome
+	beenToAbyssLayer4: Been to the fourth Abyss layer
+	beenToAbyssLayer3: Been to the third Abyss layer
+	beenToAbyssLayer2: Been to the second Abyss layer
+	beenToAbyssLayer1: Been to the first Abyss layer
+	beenToAbyss: Been to the Abyss Biome
+	beenToSulphurSea: Been to the Sulphur Sea biome
+	beenToSunkenSea: Been to the Sunken Sea biome
+	beenToAstral: Been to the Astral biome
+	beenToCrags: Been to the Brimstone Crag biome
+	downedBossRush: Downed Boss Rush
+	downedAcidRain2: Downed Acid Rain Tier 2
+	downedAcidRain1: Downed Acid Rain Tier 1
+	downedMauler: Downed Mauler
+	downedNuclearTerror: Downed Nuclear Terror
+	downedGreatSandShark: Downed Great Sand Shark
+	downedCragmawMire: Downed Cragmaw Mire
+	downedGiantClam: Downed Giant Clam
+	downedSupremeCalamitas: Downed Supreme Calamitas
+	downedExoMechs: Downed Exo Mechs
+	downedYharon: Downed Yharon
+	downedDevourerOfGods: Downed Devourer of Gods
+	downedOldDuke: Downed Old Duke
+	downedPolterghast: Downed Polterghast
+	downedSignus: Downed Signus
+	downedCeaselessVoid: Downed Ceaseless Void
+	downedStormWeaver: Downed Storm Weaver
+	downedProvidence: Downed Providence
+	downedDragonfolly: Downed Dragonfolly
+	downedProfanedGuardians: Downed Profaned Guardians
+	downedAstrumDeus: Downed Astrum Deus
+	downedRavager: Downed Ravager
+	downedPlaguebringerGoliath: Downed Plaguebringer Goliath
+	downedAstrumAureus: Downed Astrum Aureus
+	downedLeviathanAndAnahita: Downed Leviathan and Anahita
+	downedCalamitasClone: Downed Calamitas Clone
+	downedBrimstoneElemental: Downed Brimstone Elemental
+	downedAquaticScourge: Downed Aquatic Scourge
+	downedCryogen: Downed Cryogen
+	downedSlimeGod: Downed Slime God
+	downedPerfOrHive: Downed Perforators or Hive Mind
+	downedPerforators: Downed Perforators
+	downedHiveMind: Downed Hive Mind
+	downedCrabulon: Downed Crabulon
+	downedDesertScourge: Downed Desert Scourge
+	downedSoulHarvester: Downed Soul Harvester
+	downedGuardianOfFrost: Downed Guardian of Frost
+	downedUndeadChef: Downed Undead Chef
+	downedSecurityBot: Downed Security Bot
+	downedHoloSlime: Downed Holographic Slime
+	downedHeroicSlime: Downed Heroic Slime
+	downedAncientGuardian: Downed the Ancient Guardian
+	downedIsaac: Downed Isaac
+	downedHarpyAirforce: Downed Royal Harpy Airforce
+	downedOkiku: Downed Okiku
+	downedBunnyZeppelin: Downed Bunny Zeppelin
+	downedAntony: Downed Antony, the Novice Necromancer
+	downedLavalGolem: Downed Laval Golem
+	downedAncientTrio: Downed Ancient Trio
+	downedPoliticianSlime: Downed Politician Slime
+	downedSlimesHope: Downed Slimes Last Hope
+	downedDrFetus: Downed Dr. Fetus
+	downedSATLA: Downed SATLA-001
+	downedSlayerOfEvil: Downed Slayer Of Evil
+	beenToCrabCrevice: Been to the Crab Crevice biome
+	downedGaleStreams: Downed the Gale Streams
+	downedGlimmer: Downed the Glimmer
+	downedDemonSiege: Downed Demon Siege
+	downedSpaceSquid: Downed Space Squid
+	downedRedSprite: Downed Red Sprite
+	downedUltraStarite: Downed Ultra Starite
+	downedHyperStarite: Downed Hyper Starite
+	downedDustDevil: Downed Dust Devil
+	downedOmegaStarite: Downed Omega Starite
+	downedCrabson: Downed Crabson
+	beenToAether: Been to the aether biome
+	beenToDungeon: Been to the Dungeon
+	beenToTemple: Been to the Lihzahrd Temple
+	beenToHallow: Been to the hallow biome
+	beenToEvil: Been to the corruption or crimson biomes
+	beenToCrimson: Been to the crimson biome
+	beenToCorruption: Been to the corruption biome
+	beenToMushroom: Been to the glowing mushroom biome
+	beenToJungle: Been to the jungle biome
+	beenToOcean: Been to the ocean biome
+	beenToDesert: Been to the desert biome
+	beenToSnow: Been to the snow biome
+	beenToSky: Been to the sky biome
+	beenToUnderworld: Been to the underworld biome
+	beenToCavernsOrUnderground: Been to caverns or underground biome
+	beenToPurity: Been to the forest biome
+	inExpertOrMaster: In Expert or Master mode
+	downedDreadnautilus: Downed Dreadnautilus
+	downedMartianSaucer: Downed Martian Saucer
+	downedLunarPillarAny: Downed any Lunar Pillar
+	downedBloodMoon: Completed a Blood Moon
+	downedEclipse: Completed a Solar Eclipse
+	downedLunarEvent: Completed the Lunar Event
+	beenThroughNight: Nighttime occurred at least once
+}
+
+Keybinds: {
+	QuickRodBind: {
+		DisplayName: ロッド・オブ・ディスコード（クイック）
+	}
+
+	PermanentBuffUIToggleBind: {
+		DisplayName: 永続バフUIの切替
+	}
+
+	DashBind: {
+		DisplayName: ダッシュ
+	}
+
+	MosaicMirrorBind: {
+		DisplayName: モザイクミラー（クイック）
+	}
+
+	RecallBind: {
+		DisplayName: リコール（クイック）
+	}
+
+	RemoveWhitelistedTileBind: {
+		DisplayName: ホワイトリスト登録タイルを削除
+	}
+
+	WhitelistTileBind: {
+		DisplayName: タイルをホワイトリスト登録
+	}
+
+	SendNPCsHomeBind: {
+		DisplayName: 住民を家にテレポート
+	}
+}
+
+QoLCConfig: {
+	Headers: {
+		PermanentBuffs: 永続バフの切替
+		Tooltips: ツールチップの切替
+		Prices: 価格の補正
+		ECShop: エーテリアル収集家のショップ切替
+		BMShop: 闇市の商人のショップ切替
+		World: ワールドの変更
+		Player: プレイヤーの変更
+		Projectiles: 飛来物の変更
+		NPCs: NPCの変更
+		Items2: アイテムの変更
+		Items: アイテムの切替
+		Endless: 無尽化の変更
+	}
+}
+
+Configs: {
+	ConfigGlintID: {
+		Tooltip: ""
+
+		White: {
+			Label: 白
+		}
+
+		Red: {
+			Label: 赤
+		}
+
+		Orange: {
+			Label: オレンジ
+		}
+
+		Yellow: {
+			Label: 黄
+		}
+
+		Green: {
+			Label: 緑
+		}
+
+		Lime: {
+			Label: ライム
+		}
+
+		Blue: {
+			Label: 青
+		}
+
+		Cyan: {
+			Label: シアン
+		}
+
+		SkyBlue: {
+			Label: 空色
+		}
+
+		Purple: {
+			Label: 紫
+		}
+
+		Magenta: {
+			Label: マゼンタ
+		}
+
+		Pink: {
+			Label: ピンク
+		}
+
+		Rainbow: {
+			Label: レインボー
+		}
+	}
+
+	MainClientConfig: {
+		GlintColor: {
+			Label: "[i:1067] きらめきの色"
+			Tooltip: アイテムのきらめき効果の色を変更します
+		}
+
+		DisableDashDoubleTap: {
+			Tooltip: ダブルタップによるダッシュの可否を切り替えます
+			Label: "[i:3097] ダッシュのダブルタップを無効化"
+		}
+
+		CombatTextLimit: {
+			Tooltip: 表示できる戦闘テキストの上限を変更します
+			Label: "[i:3119] 戦闘テキストの上限"
+		}
+
+		NoAuraVisuals: {
+			Tooltip: インフェルノのオーラを可視にするか切り替えます
+			Label: "[i:2348] オーラの視覚効果を非表示"
+		}
+
+		FavoriteResearching: {
+			Label: "[i:75] お気に入りの自動研究"
+			Tooltip: スタック条件を満たすお気に入りアイテムを自動で研究するか切り替えます
+		}
+
+		DisplayName: クライアント設定（中央）
+	}
+
+	TooltipConfig: {
+		ClassTagTooltip: {
+			Label: "[i:3121] クラスタグのツールチップ"
+			Tooltip: アイテム名の下に所属クラスを表示するツールチップを追加します
+		}
+
+		FromModTooltip: {
+			Label: "[i:3084] Mod名のツールチップ"
+			Tooltip: アイテム名の下に出典Mod名を表示するツールチップを追加します
+		}
+
+		NoYoyoTooltip: {
+			Label: "[i:3285] ヨーヨーのロゴ非表示"
+			Tooltip: 一部のヨーヨーのロゴツールチップを削除します
+		}
+
+		ActiveTooltip: {
+			Label: "[i:292] 効果の有効表示"
+			Tooltip: アイテムの効果が発動中かどうかを表示するツールチップを追加します
+		}
+
+		AmmoTooltip: {
+			Label: "[i:3104] 使用弾薬のツールチップ"
+			Tooltip: アイテムが使用する弾薬の種類を表示するツールチップを追加します
+		}
+
+		UsedPermanentUpgradeTooltip: {
+			Label: "[i:5337] 永続アップグレード使用済み表示"
+			Tooltip: 永続アップグレードの使用有無を表示するツールチップを追加します
+		}
+
+		HookStatsTooltips: {
+			Tooltip: グラップリングフックの性能を表示するツールチップを2行追加します
+			Label: "[i:84] フック性能のツールチップ"
+		}
+
+		WingStatsTooltips: {
+			Tooltip: 翼の性能を表示するツールチップを3行追加します
+			Label: "[i:493] 翼性能のツールチップ"
+		}
+
+		WorksInBanksTooltip: {
+			Label: "[i:87] 銀行で機能する表示"
+			Tooltip:
+				'''
+				銀行内から機能するアイテムかどうかを示すツールチップを追加します
+				動作には「銀行内の情報アクセサリ」を有効にする必要があります
+				'''
+		}
+
+		NoFavoriteTooltip: {
+			Tooltip: お気に入りのツールチップを削除します
+			Label: "[i:75] お気に入りツールチップを非表示"
+		}
+
+		ShimmerableTooltip: {
+			Label: "[i:5342] シマー可能表示"
+			Tooltip: アイテムがシマー可能かどうかを示すツールチップを追加します
+		}
+
+		DisplayName: ツールチップ設定
+	}
+
+	ShopConfig: {
+		BossScaling: {
+			Tooltip: バニラの進行度に応じてボスバッグの価格が上がります
+			Label: "[i:560] ボス進行度に応じた価格"
+		}
+
+		AmmoPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 弾薬の価格倍率"
+		}
+
+		MountPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] マウントの価格倍率"
+		}
+
+		FishPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 魚の価格倍率"
+		}
+
+		HerbPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] ハーブの価格倍率"
+		}
+
+		BuildingBlockPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 建築ブロックの価格倍率"
+		}
+
+		NaturalBlockPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 自然ブロックの価格倍率"
+		}
+
+		OrePriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 鉱石の価格倍率"
+		}
+
+		CratePriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] クレートの価格倍率"
+		}
+
+		BagPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] バッグの価格倍率"
+		}
+
+		AccessoryPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] アクセサリの価格倍率"
+		}
+
+		MaterialPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 素材の価格倍率"
+		}
+
+		StationPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 設備の価格倍率"
+		}
+
+		PotionPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] ポーションの価格倍率"
+		}
+
+		GlobalPriceMultiplier: {
+			Tooltip: 1〜1000の範囲で設定します
+			Label: "[i:161] 全体の価格倍率"
+		}
+
+		ECFishShop: {
+			Tooltip: ""
+			Label: "[i:2290] 魚ショップ"
+		}
+
+		ECHerbShop: {
+			Tooltip: ""
+			Label: "[i:313] ハーブショップ"
+		}
+
+		ECBuildingBlocksShop: {
+			Tooltip: ""
+			Label: "[i:129] 建築ブロックショップ"
+		}
+
+		ECNaturalBlocksShop: {
+			Tooltip: ""
+			Label: "[i:2] 自然ブロックショップ"
+		}
+
+		ECOreShop: {
+			Tooltip: ""
+			Label: "[i:11] 鉱石ショップ"
+		}
+
+		ECCrateShop: {
+			Tooltip: ""
+			Label: "[i:2334] クレートショップ"
+		}
+
+		ECBagShop: {
+			Tooltip: ""
+			Label: "[i:3332] バッグショップ"
+		}
+
+		ECMaterialShop: {
+			Tooltip: ""
+			Label: "[i:23] 素材ショップ"
+		}
+
+		ECStationShop: {
+			Tooltip: ""
+			Label: "[i:3198] 設備ショップ"
+		}
+
+		ECPotionShop: {
+			Tooltip: ""
+			Label: "[i:28] ポーションショップ"
+		}
+
+		BMAmmoShop: {
+			Tooltip: ""
+			Label: "[i:3104] 弾薬ショップ"
+		}
+
+		BMMountShop: {
+			Tooltip: ""
+			Label: "[i:2430] マウントショップ"
+		}
+
+		BMFishShop: {
+			Tooltip: ""
+			Label: "[i:2290] 魚ショップ"
+		}
+
+		BMHerbShop: {
+			Tooltip: ""
+			Label: "[i:313] ハーブショップ"
+		}
+
+		BMBuildingBlockShop: {
+			Tooltip: ""
+			Label: "[i:129] 建築ブロックショップ"
+		}
+
+		BMNaturalBlockShop: {
+			Tooltip: ""
+			Label: "[i:2] 自然ブロックショップ"
+		}
+
+		BMOreShop: {
+			Tooltip: ""
+			Label: "[i:11] 鉱石ショップ"
+		}
+
+		BMCrateShop: {
+			Tooltip: ""
+			Label: "[i:2334] クレートショップ"
+		}
+
+		BMBagShop: {
+			Tooltip: ""
+			Label: "[i:3332] バッグショップ"
+		}
+
+		BMInformationShop: {
+			Tooltip: ""
+			Label: "[i:3123] 情報アクセサリショップ"
+		}
+
+		BMCombatAccessoryShop: {
+			Tooltip: ""
+			Label: "[i:3212] 戦闘アクセサリショップ"
+		}
+
+		BMMovementAccessoryShop: {
+			Tooltip: ""
+			Label: "[i:54] 移動アクセサリショップ"
+		}
+
+		BMMaterialShop: {
+			Tooltip: ""
+			Label: "[i:23] 素材ショップ"
+		}
+
+		BMStationShop: {
+			Tooltip: ""
+			Label: "[i:3198] 設備ショップ"
+		}
+
+		BMPotionShop: {
+			Tooltip: ""
+			Label: "[i:28] ポーションショップ"
+		}
+
+		DisplayName: ショップ設定
+	}
+
+	ItemConfig: {
+		PermanentBuffs: {
+			Tooltip: 永続バフ・アイテムを切り替えます
+			Label: "[i:QoLCompendium/PermanentIronskin] 永続バフ"
+		}
+
+		BossSummons: {
+			Label: "[i:QoLCompendium/CultistSummon] ボス召喚"
+			Tooltip: ボス召喚アイテムを切り替えます
+		}
+
+		CrossModItems: {
+			Tooltip: クロスModアイテムを切り替えます
+			Label: "[i:QoLCompendium/ForgottenOneSummon] クロスModアイテム"
+		}
+
+		FishingAccessories: {
+			Tooltip: 釣り関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/AnglerRadar] 釣りアクセサリ"
+		}
+
+		ConstructionAccessories: {
+			Label: "[i:QoLCompendium/ConstructionEmblem] 建築アクセサリ"
+			Tooltip: 建築関連アイテムを切り替えます
+		}
+
+		Eightworm: {
+			Tooltip: Eightwormアイテムを切り替えます
+			Label: "[i:QoLCompendium/Eightworm] Eightworm"
+		}
+
+		LegendaryCatcher: {
+			Tooltip: Legendary Catcherアイテムを切り替えます
+			Label: "[i:QoLCompendium/LegendaryCatcher] Legendary Catcher"
+		}
+
+		GoldenPowder: {
+			Label: "[i:QoLCompendium/GoldenPowder] ゴールデンパウダー"
+			Tooltip: ゴールデンパウダーのアイテムを切り替えます
+		}
+
+		GoldenLockpick: {
+			Label: "[i:QoLCompendium/GoldenLockpick] ゴールデン・ロックピック"
+			Tooltip: ゴールデン・ロックピックのアイテムを切り替えます
+		}
+
+		EndlessAmmo: {
+			Tooltip: 無尽の弾薬関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/EndlessFlareBox] 無尽の弾薬"
+		}
+
+		TravelersMannequin: {
+			Tooltip: トラベラーのマネキンのアイテムを切り替えます
+			Label: "[i:QoLCompendium/TravelersMannequin] トラベラーのマネキン"
+		}
+
+		SkeletonRucksack: {
+			Tooltip: スケルトン・ラックサックのアイテムを切り替えます
+			Label: "[i:QoLCompendium/SkeletonRucksack] スケルトン・ラックサック"
+		}
+
+		RestockNotice: {
+			Tooltip: 在庫補充通知のアイテムを切り替えます
+			Label: "[i:QoLCompendium/RestockNotice] 在庫補充通知"
+		}
+
+		SuperDummy: {
+			Tooltip: スーパーダミーのアイテムを切り替えます
+			Label: "[i:QoLCompendium/SuperDummy] スーパーダミー"
+		}
+
+		PhaseInterrupter: {
+			Tooltip: フェーズ・インタラプターのアイテムを切り替えます
+			Label: "[i:QoLCompendium/PhaseInterrupter] フェーズ・インタラプター"
+		}
+
+		CustomItemQuantities: {
+			Tooltip: 各数値は追加する各アイテムの数量に対応します。未指定のアイテムは1個として扱われます
+			Label: "[i:3119] カスタムアイテム数量"
+		}
+
+		CustomItems: {
+			Tooltip: このリストに追加したアイテムはスターターバッグを開くと配布されます
+			Label: "[i:QoLCompendium/StarterBag] カスタムアイテム"
+		}
+
+		UltimateChecklist: {
+			Tooltip: 究極のチェックリストのアイテムを切り替えます
+			Label: "[i:QoLCompendium/UltimateChecklist] 究極のチェックリスト"
+		}
+
+		TheFinalList: {
+			Tooltip: 最終リストのアイテムを切り替えます
+			Label: "[i:QoLCompendium/TheFinalList] 最終リスト"
+		}
+
+		Pylons: {
+			Tooltip: パイロン関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/CorruptionPylon] パイロン"
+		}
+
+		RegrowthStaves: {
+			Tooltip: 成長系の杖関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/Omnistaff] 成長の杖"
+		}
+
+		CraftingStations: {
+			Label: "[i:QoLCompendium/BasicCraftingMonolith] 作業台・設備"
+			Tooltip: 作業台や設備の関連アイテムを切り替えます
+		}
+
+		PotionCrate: {
+			Tooltip: ポーションクレートのアイテムを切り替えます
+			Label: "[i:QoLCompendium/PotionCrate] ポーションクレート"
+		}
+
+		DestinationGlobe: {
+			Tooltip: デスティネーショングローブのアイテムを切り替えます
+			Label: "[i:QoLCompendium/DestinationGlobe] デスティネーショングローブ"
+		}
+
+		WatchingEye: {
+			Tooltip: 見張り目玉のアイテムを切り替えます
+			Label: "[i:QoLCompendium/WatchingEye] 見張り目玉"
+		}
+
+		StarterBag: {
+			Tooltip:
+				'''
+				スターターバッグのアイテムを切り替えます
+				開ける前に内容物を設定してください
+				'''
+			Label: "[i:QoLCompendium/StarterBag] スターターバッグ"
+		}
+
+		Paperweight: {
+			Tooltip: ペーパーウェイトのアイテムを切り替えます
+			Label: "[i:QoLCompendium/Paperweight] ペーパーウェイト"
+		}
+
+		MoonPedestals: {
+			Tooltip: 月の台座関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/MoonPedestal] 月の台座"
+		}
+
+		MobileStorages: {
+			Tooltip: モバイルストレージ関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/FlyingSafe] モバイルストレージ"
+		}
+
+		Magnets: {
+			Tooltip: 磁力系アイテムを切り替えます
+			Label: "[i:QoLCompendium/Magnet] マグネット"
+		}
+
+		InformationAccessories: {
+			Tooltip: 情報系アイテムを切り替えます
+			Label: "[i:QoLCompendium/HeartbeatSensor] 情報アクセサリ"
+		}
+
+		MiniSundial: {
+			Tooltip: ミニ日時計のアイテムを切り替えます
+			Label: "[i:QoLCompendium/MiniSundial] ミニ日時計"
+		}
+
+		EntityManipulator: {
+			Tooltip: エンティティ・マニピュレーターのアイテムを切り替えます
+			Label: "[i:QoLCompendium/EntityManipulator] エンティティ・マニピュレーター"
+		}
+
+		DedicatedItems: {
+			Tooltip: 献呈アイテムを切り替えます
+			Label: "[i:QoLCompendium/SillySlapper] 献呈アイテム"
+		}
+
+		Mirrors: {
+			Tooltip: 鏡関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/CursedMirror] 鏡"
+		}
+
+		SummoningRemote: {
+			Tooltip: 召喚リモコンのアイテムを切り替えます
+			Label: "[i:QoLCompendium/SummoningRemote] 召喚リモコン"
+		}
+
+		ChallengersCoin: {
+			Tooltip: チャレンジャー・コインのアイテムを切り替えます
+			Label: "[i:QoLCompendium/ChallengersCoin] チャレンジャー・コイン"
+		}
+
+		BottomlessBuckets: {
+			Tooltip: 無尽のバケツ関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/BottomlessChumBucket] 無尽のバケツ"
+		}
+
+		BannerBox: {
+			Tooltip: バナーボックスのアイテムを切り替えます
+			Label: "[i:QoLCompendium/BannerBox] バナーボックス"
+		}
+
+		AutoStructures: {
+			Tooltip: 自動構造物関連アイテムを切り替えます
+			Label: "[i:QoLCompendium/HellevatorCreator] 自動建設"
+		}
+
+		AsphaltPlatform: {
+			Tooltip: アスファルト・プラットフォームのアイテムを切り替えます
+			Label: "[i:QoLCompendium/AsphaltPlatform] アスファルト・プラットフォーム"
+		}
+
+		DisableModdedItems: {
+			Tooltip:
+				'''
+				切り替え時にQoL Compendiumのアイテムを完全に無効化するかどうかを制御します（入手不可になります）
+				無効化されている場合、この設定画面ではアイテムアイコンが表示されません
+				'''
+			Label: "[i:509] Modアイテムを無効化"
+		}
+
+		DisplayName: アイテム設定
+	}
+
+	QoLCConfig: {
+		RequireItemObtainedForShops: {
+			Label: ショップ解禁に入手済みを要求
+			Tooltip: ""
+		}
+
+		BreakAllDungeonBricks: {
+			Tooltip: ひび割れたダンジョンレンガが1つ壊れたとき全て落下するか切り替えます
+			Label: "[i:134] ひび割れたダンジョンレンガを一斉落下"
+		}
+
+		DangersenseHighlightsSiltAndSlush: {
+			Tooltip: 危険感知で砂泥・スラッシュをハイライトするか切り替えます
+			Label: "[i:424] 危険感知で砂泥・スラッシュを表示"
+		}
+
+		DangersenseIgnoresThinIce: {
+			Tooltip: 危険感知で薄氷をハイライトするか切り替えます
+			Label: "[i:4391] 危険感知で薄氷を表示"
+		}
+
+		HellstoneSpelunker: {
+			Tooltip: 採掘家でヘルストーンをハイライトするか切り替えます
+			Label: "[i:174] 採掘家でヘルストーンを表示"
+		}
+
+		HideBuffs: {
+			Tooltip:
+				'''
+				バフをホットバー下に隠すか切り替えます
+				デバフ／ミニオン／マウント／ペットは表示されます
+				'''
+			Label: "[i:298] バフを非表示"
+		}
+
+		VeinMinerTileWhitelist: {
+			Label: "[i:3509] 鉱脈採掘ホワイトリスト"
+			Tooltip: 鉱脈採掘の対象とするタイルのリストです
+		}
+
+		FullyDisableRecipes: {
+			Tooltip:
+				'''
+				Modレシピを読み込むかどうかを切り替えます
+				対象:
+				 - エーテルアルターレシピ
+				 - ボスバッグのレシピ
+				 - クレートのレシピ
+				 - バナーのレシピ
+				 - グラブバッグのレシピ
+				 - パリティのレシピ
+				 - コンバージョンのレシピ
+				'''
+			Label: "[i:3507] レシピを完全に無効化"
+		}
+
+		ExpertSlot: {
+			Tooltip: エキスパート専用アクセサリ用のスロットを切り替えます
+			Label: "[i:3335] エキスパート用スロット"
+		}
+
+		ShieldSlot: {
+			Tooltip: 盾用アクセサリスロットを切り替えます
+			Label: "[i:156] シールドスロット"
+		}
+
+		BootSlot: {
+			Tooltip: ブーツ用アクセサリスロットを切り替えます
+			Label: "[i:54] ブーツスロット"
+		}
+
+		WingSlot: {
+			Tooltip: 翼用アクセサリスロットを切り替えます
+			Label: "[i:4978] ウィングスロット"
+		}
+
+		MapTeleporting: {
+			Tooltip: フルスクリーンマップを右クリックしてその位置にテレポートできるか切り替えます
+			Label: "[i:2351] マップテレポート"
+		}
+
+		AutoReuseUpgrades: {
+			Tooltip: ライフクリスタルなどの複数回使用する永続アップグレードでオート連射を有効にするか切り替えます
+			Label: "[i:29] 永続アップグレードの自動連続使用"
+		}
+
+		GoodPrefixesHaveEnchantedEffects: {
+			Tooltip: 良い接頭辞を持つアイテムにエンチャント風の輝きを付与するか切り替えます
+			Label: "[i:273] 良接頭辞でエンチャント効果"
+		}
+
+		ActiveBuffsHaveEnchantedEffects: {
+			Tooltip: 発動中のバフ系アイテムにエンチャント風の輝きを付与するか切り替えます
+			Label: "[i:487] バフ発動中はエンチャント効果"
+		}
+
+		FountainsWorkFromInventories: {
+			Tooltip: インベントリ／個人ストレージ内の噴水で対応バイオーム効果を発生させるか切り替えます
+			Label: "[i:909] 噴水は所持品から機能"
+		}
+
+		NonConsumableKeys: {
+			Tooltip: シャドウキー／ゴールデン・ロックピックをクラフト素材として消費しないよう切り替えます
+			Label: "[i:329] キーを消費しない"
+		}
+
+		FountainsCauseBiomes: {
+			Tooltip: 噴水の近くで対応バイオーム効果を発生させるか切り替えます
+			Label: "[i:909] 噴水でバイオーム発生"
+		}
+
+		VeinMinerTileLimit: {
+			Label: "[i:3509] 鉱脈採掘の上限数"
+			Tooltip: 一度に鉱脈採掘できるタイル数を設定します
+		}
+
+		VeinMinerSpeed: {
+			Tooltip:
+				'''
+				鉱脈採掘でタイルが壊れる速度を設定します
+				数値が小さいほど速くなります
+				'''
+			Label: "[i:3509] 鉱脈採掘の速度"
+		}
+
+		VeinMiner: {
+			Tooltip: 鉱脈採掘機能を切り替えます
+			Label: "[i:3509] 鉱脈採掘"
+		}
+
+		DisableCredits: {
+			Label: "[i:264] クレジットを無効化"
+			Tooltip: ムーンロード撃破後にクレジットを流すか切り替えます
+		}
+
+		HalloweenActive: {
+			Label: "[i:1844] ハロウィンの季節イベント"
+			Tooltip: ハロウィンの季節イベントを切り替えます
+		}
+
+		ChristmasActive: {
+			Label: "[i:1958] クリスマスの季節イベント"
+			Tooltip: クリスマスの季節イベントを切り替えます
+		}
+
+		NoMeteorSpawns: {
+			Label: "[i:116] 隕石の落下を無効化"
+			Tooltip:
+				'''
+				隕石が落下するかどうかを切り替えます
+				落下しようとした場合は代わりにメテオライトを授与します
+				'''
+		}
+
+		MoreFallenStars: {
+			Tooltip:
+				'''
+				落ちてくる星の数を増やします
+				1〜500で設定し、1が通常の発生率です
+				'''
+			Label: "[i:75] 流れ星の増加"
+		}
+
+		TreesDropMoreWhenShook: {
+			Tooltip: 木を揺らしたときの果物や宝石の落下量を増やすか切り替えます
+			Label: "[i:4856] 揺すると木の収穫量増加"
+		}
+
+		FastHerbGrowth: {
+			Tooltip: ハーブの成長を早めるか切り替えます
+			Label: "[i:313] ハーブの高速成長"
+		}
+
+		FastTreeGrowth: {
+			Tooltip: 木の成長を早めるか切り替えます
+			Label: "[i:27] 木の高速成長"
+		}
+
+		DisableEvilBiomeSpread: {
+			Tooltip: 不浄／真紅／聖域の伝播を切り替えます
+			Label: "[i:59] 邪悪バイオームの拡散を無効化"
+		}
+
+		FullHealthRespawn: {
+			Tooltip: リスポーン時にライフとマナを最大で復帰するか切り替えます
+			Label: "[i:29] リスポーン時に全回復"
+		}
+
+		InstantRespawn: {
+			Tooltip:
+				'''
+				即時リスポーンを切り替えます。有効時は死亡時に敵対NPCをすべて消滅させます
+				シングルプレイのみ対応です
+				'''
+			Label: "[i:583] 即時リスポーン"
+		}
+
+		NoPylonTeleportRestrictions: {
+			Tooltip: パイロンのテレポート制限を無効化するか切り替えます
+			Label: "[i:4951] パイロン制限なし"
+		}
+
+		AutoFishing: {
+			Tooltip: 自動釣りを切り替えます
+			Label: "[i:2294] 自動釣り"
+		}
+
+		NoTombstoneDrops: {
+			Tooltip: 死亡時に墓石を落とさないよう切り替えます
+			Label: "[i:321] 墓石ドロップなし"
+		}
+
+		AllHairStylesAvailable: {
+			Tooltip: キャラ作成時にすべての髪型を選択可能にするか切り替えます
+			Label: "[i:1990] 髪型をすべて解放"
+		}
+
+		AutoTeams: {
+			Tooltip:
+				'''
+				マルチプレイ接続時に選択したチームへ自動参加します
+				0 = 無効
+				1 = 赤
+				2 = 緑
+				3 = 青
+				4 = 黄
+				5 = ピンク
+				'''
+			Label: "[i:3621] チーム自動参加"
+		}
+
+		NoShimmerSink: {
+			Label: "[i:5364] シマーで沈み込まない"
+			Tooltip: シマーに浸かったときブロックに沈み込むかどうかを切り替えます
+		}
+
+		NoExpertIceWaterChilled: {
+			Tooltip: エキスパート以上の氷バイオームの水による冷気に耐性を得ます
+			Label: "[i:664] エキスパート氷水の冷気を無効化"
+		}
+
+		LifeformAnalyzerPointer: {
+			Tooltip: 生命体検出器使用時に希少生物の方向を矢印で示すか切り替えます
+			Label: "[i:3118] 生物探知の矢印"
+		}
+
+		RegrowthAutoReplant: {
+			Tooltip:
+				'''
+				成長の杖／斧が刈り取ったハーブを植え直せるようにします
+				成長の斧が刈り取った宝石のどんぐりも植え直せるようにします
+				'''
+			Label: "[i:213] 成長で自動植え直し"
+		}
+
+		InfiniteSliceOfCake: {
+			Label: "[i:3750] ケーキの効果を無限化"
+			Tooltip: シュガーラッシュを他の設備バフ同様に無限化するか切り替えます
+		}
+
+		KeepDebuffsOnDeath: {
+			Label: "[i:4870] 死亡時にデバフを維持"
+			Tooltip: 死亡してもデバフを維持するか切り替えます
+		}
+
+		KeepBuffsOnDeath: {
+			Label: "[i:4870] 死亡時にバフを維持"
+			Tooltip: 死亡してもバフを維持するか切り替えます
+		}
+
+		ExtraBuffSlots: {
+			Tooltip: 利用可能なバフスロット数を変更します
+			Label: "[i:296] 追加のバフスロット"
+		}
+
+		FasterExtractinator: {
+			Tooltip: 抽出機の処理速度を上げるか切り替えます
+			Label: "[i:997] 抽出機を高速化"
+		}
+
+		IncreaseToolSpeed: {
+			Tooltip: ツールの使用速度を上げます
+			Label: "[i:1] ツール使用速度を上昇"
+		}
+
+		IncreasePlaceRange: {
+			Tooltip: タイル設置距離を伸ばします
+			Label: "[i:2215] タイル設置範囲を拡張"
+		}
+
+		IncreasePlaceSpeed: {
+			Tooltip: タイル設置速度を上げます
+			Label: "[i:2214] タイル設置速度を上昇"
+		}
+
+		PurificationPowderCleansesWalls: {
+			Tooltip:
+				'''
+				浄化の粉を壁に使用できるか切り替えます
+				バニラの壁のみ浄化可能です
+				'''
+			Label: "[i:66] 浄化の粉で壁を浄化"
+		}
+
+		NoLarvaBreak: {
+			Tooltip: 女王蜂の幼虫を採掘以外では壊せないようにするか切り替えます
+			Label: "[i:1133] 女王蜂の幼虫は採掘のみ破壊可"
+		}
+
+		NoLittering: {
+			Tooltip: 砂・雪・墓石の落下物がタイルを設置するかどうかを切り替えます
+			Label: "[i:169] ブロック散乱を抑止"
+		}
+
+		NoFallingSandDamage: {
+			Tooltip: 落下ブロックでプレイヤーがダメージを受けるか切り替えます
+			Label: "[i:169] 落下ブロックのダメージ無効"
+		}
+
+		MobileStoragesFollowThePlayer: {
+			Tooltip: モバイルストレージがプレイヤーについてくるか切り替えます
+			Label: "[i:3213] モバイルストレージが追従"
+		}
+
+		ExtraLures: {
+			Tooltip: 釣り竿が投げるウキの本数を変更します
+			Label: "[i:5139] 追加の釣り糸"
+		}
+
+		NoNaturalBossSpawns: {
+			Tooltip:
+				'''
+				ボスが自然発生するか切り替えます
+				自然発生を無効化する対象:
+				 - 目玉の化け物（クトゥルフの目）
+				 - ツインズ
+				 - デストロイヤー
+				 - スケルトン・プライム
+				'''
+			Label: "[i:560] ボスの自然発生を無効化"
+		}
+
+		NoSpawnsDuringBosses: {
+			Tooltip: ボス戦中に通常の敵が発生するか切り替えます
+			Label: "[i:2324] ボス戦中の敵発生なし"
+		}
+
+		RelicsInExpert: {
+			Label: "[i:4924] マスター限定アイテムをエキスパートでドロップ"
+			Tooltip:
+				'''
+				マスターモード限定アイテムがエキスパートでもドロップするか切り替えます
+				マスターモード専用の全アイテムが対象です
+				'''
+		}
+
+		ExtraDefenderMedalDrops: {
+			Label: "[i:3817] ディフェンダーズメダルの追加ドロップ"
+			Tooltip: オールドワンズ・アーミーのミニボスがディフェンダーズメダルを落とすか切り替えます
+		}
+
+		LavaSlimesDontDropLava: {
+			Tooltip: エキスパート以上で溶岩スライムが溶岩を落とすか切り替えます
+			Label: "[i:207] 溶岩スライムの溶岩ドロップ無効"
+		}
+
+		OneKillForBestiaryEntries: {
+			Tooltip: 1体討伐でその敵の図鑑の全情報を解放するか切り替えます
+			Label: "[i:583] 図鑑を1キルで解放"
+		}
+
+		LunarEnemiesDropFragments: {
+			Tooltip: 月からの侵攻者たちが断片をドロップするか切り替えます
+			Label: "[i:3456] 宇宙の生物が断片をドロップ"
+		}
+
+		LunarPillarsDropMoreFragments: {
+			Tooltip: セレスタルピラーの断片ドロップ量を大幅に増やすか切り替えます
+			Label: "[i:3458] 断片ドロップ増加"
+		}
+
+		LunarPillarShieldHeath: {
+			Tooltip: セレスタルピラーのシールド耐久を変更します
+			Label: "[i:3539] セレスタルピラーのシールド耐久"
+		}
+
+		AnglerQuestInstantReset: {
+			Tooltip: 釣り人のクエストが完了後すぐに更新されるか切り替えます
+			Label: "[i:2374] 釣りクエスト即時更新"
+		}
+
+		ReforgePriceChange: {
+			Tooltip: リフォージ費用の倍率を変更します
+			Label: "[i:73] リフォージ費用の変更"
+		}
+
+		HappinessPriceChange: {
+			Tooltip:
+				'''
+				住民NPCの価格倍率を変更します
+				数値が低いほど機嫌が良い状態になります
+				幸福度が無効のときのみ有効です
+				'''
+			Label: "[i:74] 幸福度価格の変更"
+		}
+
+		OverridePylonSales: {
+			Tooltip: NPCが常にパイロンを販売するか切り替えます
+			Label: "[i:4876] パイロン販売を常時有効"
+		}
+
+		DisableHappiness: {
+			Tooltip: 住民NPCの幸福度要素を無効化します
+			Label: "[i:58] 住民の幸福度を無効化"
+		}
+
+		TownNPCsLiveInEvil: {
+			Tooltip: 住民NPCが不浄／真紅のバイオームに住めるか切り替えます
+			Label: "[i:61] 邪悪なバイオームに居住可"
+		}
+
+		NoTownSlimes: {
+			Tooltip: タウンスライムの入居を防ぎます
+			Label: "[i:23] タウンスライムを許可しない"
+		}
+
+		TownNPCSpawnImprovements: {
+			Tooltip:
+				'''
+				救出せずに住民NPCが入居できるようにします
+				対象:
+				- 釣り人
+				- ゴルファー
+				- スタイリスト
+				- ゴブリンの細工師
+				- 居酒屋
+				- メカニック
+				- ウィザード
+				- 取り立て屋
+				'''
+			Label: "[i:985] 救出不要で入居可"
+		}
+
+		FastTownNPCSpawns: {
+			Tooltip: 住民NPCの出現速度を変更します
+			Label: "[i:17] 住民NPCの高速出現"
+		}
+
+		TownNPCsDontDie: {
+			Tooltip:
+				'''
+				住民NPCがダメージを受けるかどうかを切り替えます
+				溶岩とプレイヤーの攻撃では死亡します
+				'''
+			Label: "[i:1175] 住民NPCはダメージを受けない"
+		}
+
+		RemoveBiomeShopRequirements: {
+			Tooltip:
+				'''
+				特定バイオームの訪問をショップ解禁条件にするか切り替えます
+				ワールド単位で恒久設定です
+				'''
+			Label: "[i:4766] ショップのバイオーム訪問要件"
+		}
+
+		EtherealCollectorCanSpawn: {
+			Tooltip: エーテリアル収集家が入居できるか切り替えます
+			Label: "[i:4412] エーテリアル収集家が入居可"
+		}
+
+		BlackMarketDealerCanSpawn: {
+			Tooltip: 闇市の商人が入居できるか切り替えます
+			Label: "[i:4413] 闇市の商人が入居可"
+		}
+
+		EasierUniversalPylon: {
+			Tooltip: ユニバーサルパイロンをクラフト可能にするか切り替えます
+			Label: "[i:4951] ユニバーサルパイロンをクラフト可能に"
+		}
+
+		GoldenCarpDelight: {
+			Tooltip: 金色のコイでゴールデンディライトを作れるよう切り替えます
+			Label: "[i:2308] 金色のコイでゴールデンディライト"
+		}
+
+		AutoMoneyQuickStack: {
+			Tooltip:
+				'''
+				コインを自動的に豚の貯金箱へ収納するか切り替えます
+				所持金がなくても商人は入居できます
+				'''
+			Label: "[i:87] コインの自動クイック収納"
+		}
+
+		EncumberingStoneAllowsCoins: {
+			Tooltip: 重荷の石が有効なときもコインを拾えるよう切り替えます
+			Label: "[i:4346] 重荷の石でもコイン拾得可"
+		}
+
+		EnemiesDropMoreCoins: {
+			Tooltip: 敵からのコインドロップ量に倍率をかけます
+			Label: "[i:855] コインドロップ増加"
+		}
+
+		NoDeveloperSetsFromBossBags: {
+			Tooltip: ボスのトレジャーバッグから開発者セットが出るか切り替えます
+			Label: "[i:3287] ボスバッグからの開発者セットなし"
+		}
+
+		BannerRecipes: {
+			Tooltip: 敵のバナーを用いたドロップの代替レシピを追加するか切り替えます
+			Label: "[i:1683] 敵バナーのレシピ"
+		}
+
+		CrateRecipes: {
+			Tooltip: 釣りクレートを用いた代替レシピを追加するか切り替えます
+			Label: "[i:2334] 釣りクレートのレシピ"
+		}
+
+		BossBagRecipes: {
+			Tooltip: ボスのトレジャーバッグを用いた代替レシピを追加するか切り替えます
+			Label: "[i:3318] ボスのトレジャーバッグのレシピ"
+		}
+
+		ItemConversions: {
+			Tooltip:
+				'''
+				簡単なアイテム変換用のレシピを追加するか切り替えます
+				一部のシマー変換もこの設定で利用できます
+				'''
+			Label: "[i:86] 変換レシピと転成"
+		}
+
+		BossItemTransmutation: {
+			Tooltip: ボスドロップをシマーで巡回変換できるようにするか切り替えます
+			Label: "[i:5349] ボスドロップのシマー転成"
+		}
+
+		StackableQuestItems: {
+			Tooltip: クエストアイテムをスタック可能にするか切り替えます
+			Label: "[i:2452] スタック可能なクエストアイテム"
+		}
+
+		UtilityAccessoriesWorkInBanks: {
+			Tooltip:
+				'''
+				便利系アクセサリが個人ストレージ内から機能するか切り替えます
+				対応:
+				 - 情報系アクセサリ
+				 - 配線アクセサリ／グランドデザイン
+				 - 建築アクセサリ
+				 - 釣りアクセサリ
+				 - 一部のその他アクセサリ
+				 - 上記カテゴリに該当する多くのModアクセサリ
+				'''
+			Label: "[i:3084] 便利系アクセが個人ストレージで機能"
+		}
+
+		IncreaseMaxStack: {
+			Tooltip:
+				'''
+				スタック可能アイテムの最大スタック数を変更します
+				上限は99999です
+				'''
+			Label: "[i:2] 最大スタック数"
+		}
+
+		EndlessBaitAmount: {
+			Label: "[i:3119] 無尽の釣り餌に必要なスタック"
+			Tooltip: 無尽の釣り餌に必要なアイテム数を変更します
+		}
+
+		EndlessAmmoAmount: {
+			Label: "[i:3119] 無尽の弾薬に必要なスタック"
+			Tooltip: 無尽の弾薬に必要なアイテム数を変更します
+		}
+
+		EndlessWeaponAmount: {
+			Tooltip: 無尽化に必要な消費型武器のアイテム数を変更します
+			Label: "[i:3119] 無尽の消費型武器に必要なスタック"
+		}
+
+		EndlessItemAmount: {
+			Tooltip: 無尽化に必要な消費アイテムの数を変更します
+			Label: "[i:3119] 無尽の消費アイテムに必要なスタック"
+		}
+
+		EndlessHealingAmount: {
+			Tooltip: 無尽の回復／マナポーションに必要な数を変更します
+			Label: "[i:3119] 無尽の回復・マナポーションに必要なスタック"
+		}
+
+		EndlessStationAmount: {
+			Tooltip: 無尽のバフ設備に必要な数を変更します
+			Label: "[i:3119] 無尽のバフ設備に必要なスタック"
+		}
+
+		EndlessBuffAmount: {
+			Tooltip: 無尽のポーションバフに必要な数を変更します
+			Label: "[i:3119] 無尽のポーションバフに必要なスタック"
+		}
+
+		EndlessWeapons: {
+			Tooltip:
+				'''
+				消費型武器の無尽化を切り替えます
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:42] 無尽の消費型武器"
+		}
+
+		EndlessConsumables: {
+			Tooltip:
+				'''
+				消費アイテムの無尽化を切り替えます
+				タイル・壁・その他雑多なアイテムを含みます
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:3] 無尽の消費アイテム"
+		}
+
+		EndlessBossSummons: {
+			Tooltip:
+				'''
+				ボス召喚アイテムの無尽化を切り替えます
+				ボス召喚アイテムは非消費になります
+				ボス召喚アイテムの最大スタックを1に設定します
+				'''
+			Label: "[i:43] 無尽のボス召喚"
+		}
+
+		EndlessBait: {
+			Tooltip:
+				'''
+				釣り餌の無尽化を切り替えます
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:2676] 無尽の釣り餌"
+		}
+
+		EndlessAmmo: {
+			Tooltip:
+				'''
+				弾薬の無尽化を切り替えます
+				すべての弾種に対応します
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:2177] 無尽の弾薬"
+		}
+
+		EndlessHealing: {
+			Tooltip:
+				'''
+				回復／マナポーションの無尽化を切り替えます
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:188] 無尽の回復・マナポーション"
+		}
+
+		EndlessBuffs: {
+			Tooltip:
+				'''
+				バフの無尽化を切り替えます
+				ポーションやバフ設備に対応します
+				必要スタック数は「無尽の必要数」系の設定で変更できます
+				'''
+			Label: "[i:292] 無尽のバフ"
+		}
+
+		DisplayName: 中央設定
+	}
+}
+
+WingSlot: {
+	Dye: 染料
+	SocialWings: 見た目の翼
+	Wings: 翼
+}
+
+ShieldSlot: {
+	Dye: 染料
+	SocialShield: 見た目の盾
+	Shield: 盾
+}
+
+ExpertSlot: {
+	Dye: 染料
+	SocialExpert: 見た目のエキスパート装備
+	Expert: エキスパート装備
+}
+
+BootSlot: {
+	Dye: 染料
+	SocialBoots: 見た目のブーツ
+	Boots: ブーツ
+}
+
+InfoDisplays: {
+	QuestFishInfoDisplay: {
+		DisplayName: クエスト魚
+	}
+
+	DebuffDamageInfoDisplay: {
+		DisplayName: デバフDPS
+	}
+
+	DeathsInfoDisplay: {
+		DisplayName: 死亡数
+	}
+
+	WingTimeInfoDisplay: {
+		DisplayName: 翼の残り時間
+	}
+
+	SpawnInfoDisplay: {
+		DisplayName: 出現率
+	}
+
+	SentryInfoDisplay: {
+		DisplayName: セントリースロット
+	}
+
+	RegenInfoDisplay: {
+		DisplayName: ライフ自然回復
+	}
+
+	MinionInfoDisplay: {
+		DisplayName: ミニオンスロット
+	}
+
+	MiningSpeedInfoDisplay: {
+		DisplayName: 採掘速度
+	}
+
+	ManaRegenInfoDisplay: {
+		DisplayName: マナ自然回復
+	}
+
+	LuckInfoDisplay: {
+		DisplayName: 運
+	}
+
+	EnduranceInfoDisplay: {
+		DisplayName: 被ダメージ軽減
+	}
+
+	DamageInfoDisplay: {
+		DisplayName: ダメージ倍率
+	}
+
+	CritInfoDisplay: {
+		DisplayName: クリティカル率
+	}
+
+	ArmorPenetrationInfoDisplay: {
+		DisplayName: 防御無視値
+	}
+}
+
+Projectiles: {
+	NPCSpawner: {
+		DisplayName: NPCスポナー
+	}
+
+		GoldenPowderProjectile: {
+		DisplayName: ゴールデンパウダー
+		}
+
+		BuildIndicatorProjectile: {
+		DisplayName: 建設インジケーター
+		}
+
+		MinibridgeProj: {
+		DisplayName: ミニブリッジ
+		}
+
+		FlyingSafeProjectile: {
+		DisplayName: 空飛ぶ金庫
+		}
+
+		EtherianConstructProjectile: {
+		DisplayName: エーテリアン・コンストラクト
+		}
+
+		LegendaryBobber: {
+		DisplayName: 伝説のウキ
+		}
+
+		Snake: {
+		DisplayName: スネーク
+		}
+
+		Owl: {
+		DisplayName: フクロウ
+		}
+
+		Moth: {
+		DisplayName: ガ
+		}
+
+		AsphaltAutohighwaySingleProj: {
+		DisplayName: アスファルト自動道（単列）
+		}
+
+		AsphaltAutohighwayProj: {
+		DisplayName: アスファルト自動道
+		}
+
+		LittleYagi: {
+		DisplayName: ちいさなヤギ
+		}
+
+		SuperbomberProj: {
+		DisplayName: スーパーボンバー
+		}
+
+		LakemakerProj: {
+		DisplayName: レイクメーカー
+		}
+
+		SkybridgerSingleProj: {
+		DisplayName: スカイブリッジャー（単列）
+		}
+
+		SkybridgerProj: {
+		DisplayName: スカイブリッジャー
+		}
+
+		HellbridgerSingleProj: {
+		DisplayName: ヘルブリッジャー（単列）
+		}
+
+		HellbridgerProj: {
+		DisplayName: ヘルブリッジャー
+		}
+
+		SillySlapperWhip: {
+		DisplayName: シリー・スラッパー
+		}
+
+		LifeformLocator: {
+		DisplayName: ライフフォーム・ロケーター
+		}
+
+		HellevatorCreatorProj: {
+		DisplayName: ヘレベーター・クリエイター
+		}
+
+		AutoHouserProj: {
+		DisplayName: 自動建築機
+		}
+}
+
+NPCs: {
+	SuperDummy: {
+		DisplayName: スーパーダミー
+	}
+
+	EtherealCollectorNPC: {
+		ShopName: {
+			"Modded Fish & Fishing Gear": エーテリアル収集家: Modの魚・釣り用品
+			"Modded Herbs & Plants": エーテリアル収集家: Modのハーブ・植物
+			"Modded Building Blocks": エーテリアル収集家: Modの建築ブロック
+			"Modded Natural Blocks": エーテリアル収集家: Modの自然ブロック
+			"Modded Ores & Bars": エーテリアル収集家: Modの鉱石・インゴット
+			"Modded Crates & Grab Bags": エーテリアル収集家: Modのクレート・袋
+			"Modded Treasure Bags": エーテリアル収集家: Modのトレジャーバッグ
+			"Modded Materials 2": エーテリアル収集家: Modの素材2
+			"Modded Materials": エーテリアル収集家: Modの素材
+			"Modded Flasks, Stations & Foods": エーテリアル収集家: Modのフラスコ・設備・食料
+			"Modded Potions": エーテリアル収集家: Modのポーション
+		}
+
+		Census: {
+			SpawnCondition: 条件なし
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: "「{NPCName} は最高！」"
+			LikeNPC_Princess: 「王女ってクールだよな」
+			HateNPC: 「取り立て屋、{NPCName}、は稼ぎの邪魔だ」
+			DislikeNPC: 「あの{NPCName}って奴、うるさすぎ」
+			LikeNPC: 「友達の{NPCName}はイカした物をいっぱい持ってる」
+			LoveNPC: 「{NPCName}が呪文を唱えるのが大好き」
+			DislikeBiome: 「この{BiomeName}は乾燥しすぎ」
+			LikeBiome: 「{BiomeName}は好きだ」
+			LoveBiome: 「この{BiomeName}はだいぶ居心地がいい」
+			HateCrowded: 「何人かどかしてくれ」
+			DislikeCrowded: 「人が多すぎ」
+			LoveSpace: 「ここは最高の場所だ」
+			FarFromHome: 「なんでここにいるんだ？」
+			NoHome: 「家を作ってくれないか？」
+			Content: 「ここはなかなか悪くない」
+		}
+
+		DisplayName: エーテリアル収集家
+	}
+
+	BMDealerNPC: {
+		ShopName: {
+			Ammo: 闇市の商人: 弾薬
+			"Mounts & Hooks": 闇市の商人: マウント・フック
+			"Fish & Fishing Gear": 闇市の商人: 魚・釣り用品
+			"Herbs & Plants": 闇市の商人: ハーブ・植物
+			"Building Blocks": 闇市の商人: 建築ブロック
+			"Natural Blocks": 闇市の商人: 自然ブロック
+			"Ores & Bars": 闇市の商人: 鉱石・インゴット
+			"Crates & Grab Bags": 闇市の商人: クレート・袋
+			"Treasure Bags": 闇市の商人: トレジャーバッグ
+			"Informative/Building Gear": 闇市の商人: 情報／建築用品
+			"Combat Accessories": 闇市の商人: 戦闘アクセサリ
+			"Movement Accessories": 闇市の商人: 移動アクセサリ
+			Materials: 闇市の商人: 素材
+			"Flasks, Stations & Foods": 闇市の商人: フラスコ・設備・食料
+			Potions: 闇市の商人: ポーション
+		}
+
+		Census: {
+			SpawnCondition: 条件なし
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: "「{NPCName} は最高！」"
+			LikeNPC_Princess: 「王女ってクールだよな」
+			HateNPC: 「取り立て屋、{NPCName}、は稼ぎの邪魔だ」
+			DislikeNPC: 「あの{NPCName}って子、うるさすぎ」
+			LikeNPC: 「友達の{NPCName}はイカした物をいっぱい持ってる」
+			LoveNPC: 「{NPCName}が一杯くれるのが大好き」
+			DislikeBiome: 「この{BiomeName}は乾燥しすぎ」
+			LikeBiome: 「{BiomeName}は好きだ」
+			LoveBiome: 「この{BiomeName}はだいぶ居心地がいい」
+			HateCrowded: 「何人かどかしてくれ」
+			DislikeCrowded: 「人が多すぎ」
+			LoveSpace: 「ここは最高の場所だ」
+			FarFromHome: 「なんでここにいるんだ？」
+			NoHome: 「家を作ってくれないか？」
+			Content: 「ここはなかなか悪くない」
+		}
+
+		DisplayName: 闇市の商人
+	}
+}
+
+Items: {
+	PermanentEverything: {
+		Tooltip: すべてのバフを付与
+		DisplayName: 永続すべて
+	}
+
+	BasicThoriumCraftingMonolith: {
+		DisplayName: Thorium 作業台のモノリス（基本）
+		Tooltip: Thorium の基本作業台として機能
+	}
+
+	ThoriumCraftingMonolith: {
+		DisplayName: Thorium 作業台のモノリス
+		Tooltip: Thorium の全作業台として機能
+	}
+
+	HardmodeCalamityCraftingMonolith: {
+		Tooltip: Calamity のハードモード作業台として機能
+		DisplayName: Calamity 作業台のモノリス（ハード）
+	}
+
+	CalamityCraftingMonolith: {
+		Tooltip: Calamity の全作業台として機能
+		DisplayName: Calamity 作業台のモノリス
+	}
+
+	BasicCalamityCraftingMonolith: {
+		Tooltip: Calamity の基本作業台として機能
+		DisplayName: Calamity 作業台のモノリス（基本）
+	}
+
+	PermanentSecretsOfTheShadows: {
+		Tooltip: Secrets of the Shadows の全バフを付与
+		DisplayName: 永続 Secrets of the Shadows
+	}
+
+	PermanentAssassination: {
+		DisplayName: 永続アサシネーション
+		Tooltip: ライフ10%未満の敵を処刑
+	}
+
+	PermanentBluefire: {
+		DisplayName: 永続ブルーファイア
+		Tooltip: 敵撃破時、止めの一撃の40%ぶんの炎ダメージで爆発
+	}
+
+	PermanentBrittle: {
+		DisplayName: 永続ブリトル
+		Tooltip: 被弾時、氷片が周囲に発生
+	}
+
+	PermanentDoubleVision: {
+		DisplayName: 永続ダブルビジョン
+		Tooltip: 釣り竿に追加の糸を張る
+	}
+
+	PermanentHarmony: {
+		DisplayName: 永続ハーモニー
+		Tooltip:
+			'''
+			有効中、他のバフの残り時間が減らない
+			残り30秒未満の多くのバフには効果なし
+			'''
+	}
+
+	PermanentNightmare: {
+		DisplayName: 永続ナイトメア
+		Tooltip: クリティカル時、10%ダメージのナイトメアアームで敵を引き寄せる
+	}
+
+	PermanentRipple: {
+		DisplayName: 永続リップル
+		Tooltip: 定期的にダメージの波を放つ
+	}
+
+	PermanentRoughskin: {
+		DisplayName: 永続ラフスキン
+		Tooltip: 防御+4、ダメージ+4%
+	}
+
+	PermanentSoulAccess: {
+		DisplayName: 永続ソウルアクセス
+		Tooltip: ヴォイド自然回復速度+10%
+	}
+
+	PermanentVibe: {
+		DisplayName: 永続バイブ
+		Tooltip:
+			'''
+			静止時攻撃速度+20%、移動時+5%
+			静止時、ライフ自然回復+4
+			'''
+	}
+
+	PermanentDigitalDisplay: {
+		DisplayName: 永続デジタルディスプレイ
+		Tooltip: ヴォイドダメージ+10%
+	}
+
+	PermanentCalamityEntropy: {
+		Tooltip: Calamity Entropy の全バフを付与
+		DisplayName: 永続 Calamity Entropy
+	}
+
+	PermanentYharimsStimulants: {
+		Tooltip: 攻撃・防御の全ステータスがそこそこ向上
+		DisplayName: 永続ヤーリムの刺激剤
+	}
+
+	PermanentSoyMilk: {
+		Tooltip: 攻撃速度が上昇し、ダメージが低下
+		DisplayName: 永続豆乳
+	}
+
+	PermanentVoidCandle: {
+		Tooltip: 攻撃が Void Touch を付与
+		DisplayName: 永続ヴォイド蝋燭
+	}
+
+	PermanentSpiritClassicCandies: {
+		Tooltip: Spirit Classic のキャンディ系バフをすべて付与
+		DisplayName: 永続スピリットクラシック・キャンディ
+	}
+
+	PermanentTaffy: {
+		Tooltip: 防御が増加
+		DisplayName: 永続タフィー
+	}
+
+	PermanentManaCandy: {
+		Tooltip: マナが増加
+		DisplayName: 永続マナキャンディ
+	}
+
+	PermanentLollipop: {
+		Tooltip: ライフ自然回復が増進
+		DisplayName: 永続ロリポップ
+	}
+
+	PermanentHealthCandy: {
+		Tooltip: ライフが増加
+		DisplayName: 永続ヘルスキャンディ
+	}
+
+	PermanentChocolateBar: {
+		Tooltip: 移動速度が増加
+		DisplayName: 永続チョコレートバー
+	}
+
+	PermanentCandy: {
+		Tooltip: 全ステータスが少し向上
+		DisplayName: 永続キャンディ
+	}
+
+	PermanentCoiledEnergizer: {
+		DisplayName: 永続コイルドエナジャイザー
+		Tooltip: 移動・近接速度が増加
+	}
+
+	PermanentKoiTotem: {
+		DisplayName: 永続コイ・トーテム
+		Tooltip: 釣りスキルが増加
+	}
+
+	PermanentSunPot: {
+		DisplayName: 永続サンポット
+		Tooltip: ライフ自然回復が増進
+	}
+
+	PermanentTheCouch: {
+		DisplayName: 永続ソファー
+		Tooltip: 防御が上がるが移動速度が低下
+	}
+
+	PermanentSpiritClassicArena: {
+		DisplayName: 永続スピリットクラシック・アリーナ
+		Tooltip: Spirit Classic の闘技場系バフを付与
+	}
+
+	PermanentWiesnbrau: {
+		Tooltip: 被ダメージを軽減するが、与ダメージが低下
+		DisplayName: 永続ヴィースンブロイ
+	}
+
+	PermanentMoonJelly: {
+		Tooltip: ライフ自然回復が大幅に上昇
+		DisplayName: 永続ムーンジェリー
+	}
+
+	PermanentMirrorCoat: {
+		Tooltip: Stoned に免疫
+		DisplayName: 永続ミラーコート
+	}
+
+	PermanentJump: {
+		Tooltip: ジャンプ高度が上昇
+		DisplayName: 永続ジャンプ
+	}
+
+	PermanentRunescribe: {
+		DisplayName: 永続ルーンスクライブ
+		Tooltip:
+			'''
+			魔法攻撃で敵がルーンを噴き出すことがある
+			魔法ダメージ+5%
+			'''
+	}
+
+	PermanentSoulguard: {
+		DisplayName: 永続ソウルガード
+		Tooltip:
+			'''
+			被ダメージを5%軽減
+			被弾時、短時間すべての敵に『Soul Burn』を与えることがある
+			'''
+	}
+
+	PermanentSporecoid: {
+		DisplayName: 永続スポアコイド
+		Tooltip: 進んだ跡にダメージを与えるキノコを残す
+	}
+
+	PermanentStarburn: {
+		DisplayName: 永続スターバーン
+		Tooltip:
+			'''
+			クリティカル時、星が降ることがある
+			移動中、遠距離ダメージとクリティカル率が4%増加
+			'''
+	}
+
+	PermanentSteadfast: {
+		DisplayName: 永続ステッドファスト
+		Tooltip:
+			'''
+			ライフが減るほど防御力が上昇
+			被ダメージを5%軽減
+			'''
+	}
+
+	PermanentToxin: {
+		DisplayName: 永続トキシン
+		Tooltip:
+			'''
+			クリティカル時に Festering Wounds を付与
+			クリティカル率が4%増加
+			'''
+	}
+
+	PermanentZephyr: {
+		DisplayName: 永続ゼファー
+		Tooltip: 追加ジャンプを得る
+	}
+
+	PermanentSpiritSoaring: {
+		DisplayName: 永続ソアリング
+		Tooltip: 飛行時間が25%増加
+	}
+
+	PermanentSpirit: {
+		DisplayName: 永続スピリット
+		Tooltip:
+			'''
+			ダメージとクリティカル率が5%増加
+			被弾時、時々敵を追尾するダメージ弾を発生
+			'''
+	}
+
+	PermanentSpiritClassic: {
+		DisplayName: 永続スピリットクラシック
+		Tooltip: Spirit Classic の全バフを付与
+	}
+
+	PermanentSpiritClassicDamage: {
+		DisplayName: 永続スピリットクラシック（ダメージ）
+		Tooltip: Spirit Classic のダメージ系バフをすべて付与
+	}
+
+	PermanentSpiritClassicDefense: {
+		DisplayName: 永続スピリットクラシック（防御）
+		Tooltip: Spirit Classic の防御系バフをすべて付与
+	}
+
+	PermanentSpiritClassicMovement: {
+		DisplayName: 永続スピリットクラシック（移動）
+		Tooltip: Spirit Classic の移動系バフをすべて付与
+	}
+
+	PermanentDeathsinger: {
+		DisplayName: 永続デスシンガー
+		Tooltip: 交響ダメージと演奏速度が7%増加
+	}
+
+	PermanentInspirationRegeneration: {
+		DisplayName: 永続インスピレーション自然回復
+		Tooltip: インスピレーションの自然回復が増進
+	}
+
+	PermanentClamity: {
+		Tooltip: Clamity の全バフを付与
+		DisplayName: 永続 Clamity
+	}
+
+	PermanentDesktopComputer: {
+		Tooltip: クリック効果の必要クリック数を10%減少
+		DisplayName: 永続デスクトップコンピューター
+	}
+
+	PermanentInfluence: {
+		Tooltip: 基本クリック範囲を20%拡大
+		DisplayName: 永続インフルエンス
+	}
+
+	PermanentThoriumThrower: {
+		Tooltip: Thorium の投擲系バフをすべて付与
+		DisplayName: 永続 Thorium（投擲）
+	}
+
+	PermanentThoriumStations: {
+		Tooltip: Thorium の設備系バフをすべて付与
+		DisplayName: 永続 Thorium（設備）
+	}
+
+	PermanentThoriumRepellent: {
+		Tooltip: Thorium の忌避系バフをすべて付与
+		DisplayName: 永続 Thorium（忌避）
+	}
+
+	PermanentThoriumMovement: {
+		Tooltip: Thorium の移動系バフをすべて付与
+		DisplayName: 永続 Thorium（移動）
+	}
+
+	PermanentThoriumHealer: {
+		Tooltip: Thorium のヒーラー系バフをすべて付与
+		DisplayName: 永続 Thorium（ヒーラー）
+	}
+
+	PermanentThoriumDamage: {
+		Tooltip: Thorium のダメージ系バフをすべて付与
+		DisplayName: 永続 Thorium（ダメージ）
+	}
+
+	PermanentThoriumCoatings: {
+		Tooltip:
+			'''
+			投擲攻撃が選択したコーティングを付与
+			インベントリで右クリックしてコーティングを切替
+			'''
+		DisplayName: 永続 Thorium（コーティング）
+	}
+
+	PermanentThoriumBard: {
+		Tooltip: Thorium のバード系バフをすべて付与
+		DisplayName: 永続 Thorium（バード）
+	}
+
+	PermanentThorium: {
+		Tooltip: Thorium の全バフを付与
+		DisplayName: 永続 Thorium（全）
+	}
+
+	PermanentNinjaRack: {
+		Tooltip: 投擲の弾速・速度・クリティカル率が増加
+		DisplayName: 永続ニンジャラック
+	}
+
+	PermanentConductorsStand: {
+		Tooltip: エンパワーの継続時間と効果範囲が増加
+		DisplayName: 永続コンダクターズ・スタンド
+	}
+
+	PermanentAltar: {
+		Tooltip: 回復魔法の回復量が増加
+		DisplayName: 永続祭壇
+	}
+
+	PermanentZombieRepellent: {
+		Tooltip: 多くのゾンビが友好化
+		DisplayName: 永続ゾンビ忌避
+	}
+
+	PermanentWarmonger: {
+		Tooltip: 敵の出現率が上昇
+		DisplayName: 永続ウォーモンガー
+	}
+
+	PermanentSkeletonRepellent: {
+		Tooltip: 多くのスケルトンが友好化
+		DisplayName: 永続スケルトン忌避
+	}
+
+	PermanentPotentExtract: {
+		Tooltip: 何かがおかしい…
+		DisplayName: 永続ポテントエキス
+	}
+
+	PermanentKinetic: {
+		Tooltip: ダブルタップでダッシュ可能
+		DisplayName: 永続キネティック
+	}
+
+	PermanentInspirationalReach: {
+		Tooltip: インスピレーション音符の取得範囲が拡大
+		DisplayName: 永続インスピレーション到達
+	}
+
+	PermanentInsectRepellent: {
+		Tooltip: 多くの昆虫が友好化
+		DisplayName: 永続昆虫忌避
+	}
+
+	PermanentHydration: {
+		Tooltip: 疲労とテクニックポイントの回復が加速
+		DisplayName: 永続水分補給
+	}
+
+	PermanentHoly: {
+		Tooltip: 回復魔法の回復量が1増加
+		DisplayName: 永続ホーリー
+	}
+
+	PermanentGlowing: {
+		Tooltip: ラジアントダメージが10%増加
+		DisplayName: 永続発光
+	}
+
+	PermanentFrenzy: {
+		Tooltip: 攻撃速度が8%増加
+		DisplayName: 永続フレンジー
+	}
+
+	PermanentFishRepellent: {
+		Tooltip: 多くの魚が友好化
+		DisplayName: 永続魚類忌避
+	}
+
+	PermanentEarworm: {
+		Tooltip: エンパワーの継続時間が2秒延長
+		DisplayName: 永続イアワーム
+	}
+
+	PermanentCreativity: {
+		Tooltip: 基本インスピレーション出現率が2倍
+		DisplayName: 永続クリエイティビティ
+	}
+
+	PermanentConflagration: {
+		Tooltip: 内側が燃えるが、与えるダメージが増加
+		DisplayName: 永続業火
+	}
+
+	PermanentCactusFruit: {
+		Tooltip: 多くの状態異常デバフに免疫
+		DisplayName: 永続サボテンフルーツ
+	}
+
+	PermanentBouncingFlames: {
+		Tooltip: 付与した炎上系デバフが周囲の敵に伝播
+		DisplayName: 永続跳ねる炎
+	}
+
+	PermanentBloodRush: {
+		Tooltip: 採掘速度と移動速度が15%増加
+		DisplayName: 永続ブラッドラッシュ
+	}
+
+	PermanentBatRepellent: {
+		Tooltip: 多くのコウモリが友好化
+		DisplayName: 永続コウモリ忌避
+	}
+
+	PermanentAssassin: {
+		Tooltip: 非戦闘時、投擲攻撃は確定クリティカルで4倍ダメージ
+		DisplayName: 永続アサシン
+	}
+
+	PermanentArtillery: {
+		Tooltip: セントリー上限数が増加
+		DisplayName: 永続アーティラリー
+	}
+
+	PermanentArcane: {
+		Tooltip: 魔法・ラジアントダメージで小さな星を生成
+		DisplayName: 永続アーケイン
+	}
+
+	PermanentMistletoe: {
+		Tooltip: ライフ・マナ・インスピレーションの自然回復が増進
+		DisplayName: 永続ヤドリギ
+	}
+
+	PermanentMartinsOrderStations: {
+		Tooltip: Martin's Order の設備系バフをすべて付与
+		DisplayName: 永続マーティンのオーダー（設備）
+	}
+
+	PermanentMartinsOrderDefense: {
+		Tooltip: Martin's Order の防御系バフをすべて付与
+		DisplayName: 永続マーティンのオーダー（防御）
+	}
+
+	PermanentMartinsOrderDamage: {
+		Tooltip: Martin's Order のダメージ系バフをすべて付与
+		DisplayName: 永続マーティンのオーダー（ダメージ）
+	}
+
+	PermanentMartinsOrder: {
+		Tooltip: Martin's Order の全バフを付与
+		DisplayName: 永続マーティンのオーダー
+	}
+
+	PermanentRockskin: {
+		Tooltip: ノックバックに一時的に免疫
+		DisplayName: 永続ロックスキン
+	}
+
+	PermanentHealing: {
+		Tooltip: ライフを回復中…
+		DisplayName: 永続ヒーリング
+	}
+
+	PermanentHaste: {
+		Tooltip: アイテム使用速度が増加
+		DisplayName: 永続ヘイスト
+	}
+
+	PermanentGourmetFlavor: {
+		Tooltip:
+			'''
+			全ステータスが向上
+			ライフとマナの自然回復が増進
+			'''
+		DisplayName: 永続グルメフレーバー
+	}
+
+	PermanentEvocation: {
+		Tooltip: 召喚速度が増加
+		DisplayName: 永続エヴォケーション
+	}
+
+	PermanentEmpowerment: {
+		Tooltip: 最大マナが20%増加
+		DisplayName: 永続エンパワーメント
+	}
+
+	PermanentDefender: {
+		Tooltip: セントリー上限数が増加
+		DisplayName: 永続ディフェンダー
+	}
+
+	PermanentCharging: {
+		Tooltip: マナをチャージ中…
+		DisplayName: 永続チャージング
+	}
+
+	PermanentBlackHole: {
+		Tooltip: アイテム吸引範囲が大幅に拡大
+		DisplayName: 永続ブラックホール
+	}
+
+	PermanentShooter: {
+		DisplayName: 永続シューター
+		Tooltip: 遠距離クリティカル率が増加
+	}
+
+	PermanentSoul: {
+		DisplayName: 永続ソウル
+		Tooltip: 全ステータスが増加
+	}
+
+	PermanentSpellCaster: {
+		DisplayName: 永続スペルキャスター
+		Tooltip: マナ消費が減少
+	}
+
+	PermanentStarreach: {
+		DisplayName: 永続スターリーチ
+		Tooltip: 星の取得範囲が拡大
+	}
+
+	PermanentSweeper: {
+		DisplayName: 永続スウィーパー
+		Tooltip: 近接速度が増加
+	}
+
+	PermanentThrower: {
+		DisplayName: 永続スロワー
+		Tooltip: 投擲の弾速が増加
+	}
+
+	PermanentWhipper: {
+		DisplayName: 永続ウィッパー
+		Tooltip: 鞭の射程が増加
+	}
+
+	PermanentZincPill: {
+		DisplayName: 永続亜鉛錠
+		Tooltip:
+			'''
+			防御と被ダメージ軽減が上昇
+			ヒーローモードでは Fracture に一時的に免疫
+			'''
+	}
+
+	PermanentArcheology: {
+		DisplayName: 永続アーケオロジー
+		Tooltip: 探索能力が向上
+	}
+
+	PermanentSporeFarm: {
+		DisplayName: 永続胞子農場
+		Tooltip: 弾薬や投擲武器を消費しない確率がある
+	}
+
+	PermanentExoBaguette: {
+		DisplayName: 永続エクソバゲット
+		Tooltip:
+			'''
+			赤ワインの効果を強化
+			アルコール中毒の閾値をバフ1つ分引き上げ
+			'''
+	}
+
+	PermanentSupremeLuck: {
+		DisplayName: 永続至高の運
+		Tooltip: 使用者の運を大きく増加
+	}
+
+	PermanentTitanScale: {
+		DisplayName: 永続タイタンスケール
+		Tooltip:
+			'''
+			ノックバックを強化し、防御+5、被ダメージ軽減+5%
+			真の近接攻撃命中後、数秒間 防御+20、被ダメージ軽減+5%
+			'''
+	}
+
+	PermanentScrewdriver: {
+		Tooltip:
+			'''
+			貫通弾のダメージを1.05倍
+			ライフ自然回復を毎秒0.5減少
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続スクリュードライバー
+	}
+
+	PermanentRum: {
+		Tooltip:
+			'''
+			ライフ自然回復+1 HP/s、移動速度+10%
+			防御-5%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続ラム
+	}
+
+	PermanentRedWine: {
+		Tooltip:
+			'''
+			15秒間、ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続赤ワイン
+	}
+
+	PermanentOldFashioned: {
+		Tooltip:
+			'''
+			アクセサリとセットボーナスのダメージを1.5倍
+			全ダメージを25%低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続オールドファッションド
+	}
+
+	PermanentMoscowMule: {
+		Tooltip:
+			'''
+			ダメージ+9%、ノックバック+50%、クリティカル率+3%
+			ライフ自然回復を毎秒2低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続モスコミュール
+	}
+
+	PermanentMoonshine: {
+		Tooltip:
+			'''
+			防御+10、被ダメージ軽減+3%
+			ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続ムーンシャイン
+	}
+
+	PermanentMargarita: {
+		Tooltip:
+			'''
+			多くの有害デバフの持続時間を半減
+			防御-6%、ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			持続時間3分
+			'''
+		DisplayName: 永続マルガリータ
+	}
+
+	PermanentGrapeBeer: {
+		Tooltip:
+			'''
+			15秒間、防御-3%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続葡萄ビール
+	}
+
+	PermanentFireball: {
+		Tooltip:
+			'''
+			炎系デバフのダメージを1.25倍
+			ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続ファイアボール
+	}
+
+	PermanentPurpleHaze: {
+		Tooltip:
+			'''
+			ダメージ+8%、防御-5%
+			被弾後の無敵時間が増加
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続パープルヘイズ
+	}
+
+	PermanentEvergreenGin: {
+		Tooltip:
+			'''
+			病気・水関連デバフのダメージを1.25倍
+			ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続エバーグリーン・ジン
+	}
+
+	PermanentEverclear: {
+		Tooltip:
+			'''
+			ダメージ+25%
+			ライフ自然回復-5 HP/s、防御-30%
+			アルコール中毒のカウントを2として扱う
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続エバークリア
+	}
+
+	PermanentCinnamonRoll: {
+		Tooltip:
+			'''
+			マナ自然回復率を上昇し、炎系デバフのダメージを1.5倍
+			防御-10%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続シナモンロール
+	}
+
+	PermanentCaribbeanRum: {
+		Tooltip:
+			'''
+			ライフ自然回復+1 HP/s、移動速度+10%、翼の飛行時間+20%
+			浮遊感が増し、防御-10%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+		DisplayName: 永続カリビアン・ラム
+	}
+
+	PermanentStarBeamRye: {
+		DisplayName: 永続スタービーム・ライ
+		Tooltip:
+			'''
+			最大マナ+50、魔法ダメージ+8%、
+			マナ消費-10%
+			防御-6%、ライフ自然回復-1 HP/s
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentTequila: {
+		DisplayName: 永続テキーラ
+		Tooltip:
+			'''
+			昼間はノックバック+10%、クリ率+4%、防御+5
+			ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentTequilaSunrise: {
+		DisplayName: 永続テキーラサンライズ
+		Tooltip:
+			'''
+			昼間はノックバック+20%、クリ率+8%、防御+10
+			ライフ自然回復を毎秒1低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentVodka: {
+		DisplayName: 永続ウォッカ
+		Tooltip:
+			'''
+			ダメージ+6%、クリティカル率+2%
+			ライフ自然回復を毎秒0.5低下、防御-5%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentWhiskey: {
+		DisplayName: 永続ウイスキー
+		Tooltip:
+			'''
+			ダメージ+4%、ノックバック+20%、クリティカル率+2%
+			防御-5%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentWhiteWine: {
+		DisplayName: 永続白ワイン
+		Tooltip:
+			'''
+			魔法ダメージ+8%
+			防御-6%、ライフ自然回復を毎秒0.5低下
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentBloodyMary: {
+		DisplayName: 永続ブラッディ・マリー
+		Tooltip:
+			'''
+			ブラッドムーン中はダメージと移動速度が10%増加
+			ライフ自然回復-2 HP/s、防御-4%
+			異なる酒を3種超えて飲むと肝臓に良くないかもしれない
+			'''
+	}
+
+	PermanentFlasks: {
+		Tooltip:
+			'''
+			近接攻撃が選択したデバフを付与
+			インベントリで右クリックしてフラスコを切替
+			'''
+		DisplayName: 永続フラスコ
+	}
+
+	PermanentToxicCoating: {
+		Tooltip: 投擲ダメージにより命中した敵を毒にすることがある
+		DisplayName: 永続毒性コーティング
+	}
+
+	PermanentSporeCoating: {
+		Tooltip: 投擲ダメージにより敵を菌糸に感染させることがある
+		DisplayName: 永続胞子コーティング
+	}
+
+	PermanentGorgonCoating: {
+		Tooltip: 投擲ダメージにより命中した敵を石化させることがある
+		DisplayName: 永続ゴルゴン・コーティング
+	}
+
+	PermanentExplosiveCoating: {
+		Tooltip: 投擲ダメージにより爆ぜて周囲の敵を炎上させることがある
+		DisplayName: 永続爆発コーティング
+	}
+
+	PermanentDeepFreezeCoating: {
+		Tooltip: 投擲ダメージにより命中した敵の移動を大きく阻害することがある
+		DisplayName: 永続ディープフリーズ・コーティング
+	}
+
+	PermanentAstraJelly: {
+		Tooltip: 最大マナとマナ自然回復が増進
+		DisplayName: 永続アストラジェリー
+	}
+
+	PermanentAstracola: {
+		Tooltip:
+			'''
+			最大マナが増加
+			魔法ダメージ+20%
+			マナ自然回復が増進
+			'''
+		DisplayName: 永続アストラコーラ
+	}
+
+	PermanentCalamityMovement: {
+		Tooltip: Calamity の移動系バフをすべて付与
+		DisplayName: 永続 Calamity（移動）
+	}
+
+	PermanentCalamityFarming: {
+		Tooltip: Calamity の採集系バフをすべて付与
+		DisplayName: 永続 Calamity（採集）
+	}
+
+	PermanentCalamityDefense: {
+		Tooltip: Calamity の防御系バフをすべて付与
+		DisplayName: 永続 Calamity（防御）
+	}
+
+	PermanentCalamityDamage: {
+		Tooltip: Calamity のダメージ系バフをすべて付与
+		DisplayName: 永続 Calamity（ダメージ）
+	}
+
+	PermanentCalamityArena: {
+		Tooltip: Calamity の闘技場系バフをすべて付与
+		DisplayName: 永続 Calamity（闘技場）
+	}
+
+	PermanentCalamity: {
+		Tooltip: Calamity の全バフを付与
+		DisplayName: 永続 Calamity（全）
+	}
+
+	PermanentCalamityAbyss: {
+		Tooltip: Calamity の深淵系バフをすべて付与
+		DisplayName: 永続 Calamity（深淵）
+	}
+
+	PermanentZerg: {
+		Tooltip: 出現率が大幅に上昇
+		DisplayName: 永続ザーグ
+	}
+
+	PermanentZen: {
+		Tooltip: 出現率が大幅に減少
+		DisplayName: 永続禅
+	}
+
+	PermanentTrippy: {
+		Tooltip: 世界の真実が見える… さらに全ダメージが50%増加
+		DisplayName: 永続トリッピー
+	}
+
+	PermanentTesla: {
+		Tooltip: 電気のオーラを展開
+		DisplayName: 永続テスラ
+	}
+
+	PermanentSulphurskin: {
+		Tooltip: 硫黄の水の影響を軽減
+		DisplayName: 永続サルファースキン
+	}
+
+	PermanentSoaring: {
+		Tooltip:
+			'''
+			翼の飛行時間と速度が10%増加
+			真の近接攻撃命中で飛行時間を少し回復
+			'''
+		DisplayName: 永続ソアリング
+	}
+
+	PermanentShadow: {
+		Tooltip:
+			'''
+			影と化す
+			ローグ武器は命中時に飛来物を生成
+			ステルス生成が8%上昇
+			'''
+		DisplayName: 永続シャドウ
+	}
+
+	PermanentPhotosynthesis: {
+		Tooltip: ライフ自然回復が増進（日中はさらに上昇）、ハートの回復量が増加
+		DisplayName: 永続光合成
+	}
+
+	PermanentOmniscience: {
+		Tooltip: すべてを見通せる
+		DisplayName: 永続全知
+	}
+
+	PermanentGravityNormalizer: {
+		Tooltip: 宇宙でも重力が通常に戻り、Distorted に免疫
+		DisplayName: 永続重力正常化
+	}
+
+	PermanentCeaselessHunger: {
+		Tooltip: アイテムを吸い寄せる
+		DisplayName: 永続飽くなき飢え
+	}
+
+	PermanentCalcium: {
+		Tooltip: 落下ダメージに免疫
+		DisplayName: 永続カルシウム
+	}
+
+	PermanentBounding: {
+		Tooltip: ジャンプ高度・ジャンプ速度・落下耐性が上昇
+		DisplayName: 永続バウンディング
+	}
+
+	PermanentBloodfin: {
+		Tooltip: ライフ自然回復+5、被ダメ系デバフ中は+10
+		DisplayName: 永続ブラッドフィン
+	}
+
+	PermanentBaguette: {
+		Tooltip: 赤ワインの回復量が250に、ただしライフ自然回復-2 HP/s
+		DisplayName: 永続バゲット
+	}
+
+	PermanentFlaskOfHolyFlames: {
+		Tooltip: 近接・鞭・ローグ攻撃が敵を聖炎で焼き尽くす
+		DisplayName: 永続聖炎のフラスコ
+	}
+
+	PermanentFlaskOfCrumbling: {
+		Tooltip: 近接・鞭・ローグ攻撃が敵の被ダメージ軽減を低下
+		DisplayName: 永続崩壊のフラスコ
+	}
+
+	PermanentFlaskOfBrimstone: {
+		Tooltip: 近接・鞭・ローグ攻撃が敵を硫黄炎で発火
+		DisplayName: 永続硫黄炎のフラスコ
+	}
+
+	PermanentWeightlessCandle: {
+		Tooltip: 移動速度・飛行時間・加速度を10%強化
+		DisplayName: 永続無重力蝋燭
+	}
+
+	PermanentVigorousCandle: {
+		Tooltip: 行動に関わらず毎秒、プレイヤー最大ライフの0.4%ぶんライフ自然回復を強化
+		DisplayName: 永続活力蝋燭
+	}
+
+	PermanentTranquilityCandle: {
+		Tooltip: 敵の出現率を28.57%低下、最大湧き数を60%低下
+		DisplayName: 永続静寂蝋燭
+	}
+
+	PermanentSpitefulCandle: {
+		Tooltip: 敵の被ダメージを0.07x増加（防御と被ダメージ軽減を無視）
+		DisplayName: 永続悪意蝋燭
+	}
+
+	PermanentResilientCandle: {
+		Tooltip: 防御の有効度を10%強化
+		DisplayName: 永続レジリエント蝋燭
+	}
+
+	PermanentEffigyOfDecay: {
+		Tooltip: 硫黄の海の水に対する免疫と水中呼吸を付与
+		DisplayName: 永続腐敗のエフィジー
+	}
+
+	PermanentCrimsonEffigy: {
+		Tooltip: ダメージ+15%、防御+10。最大ライフ-10%
+		DisplayName: 永続クリムゾンエフィジー
+	}
+
+	PermanentCorruptionEffigy: {
+		Tooltip: 移動速度+10%、クリティカル率+10%。被ダメージ軽減-5%
+		DisplayName: 永続コラプションエフィジー
+	}
+
+	PermanentChaosCandle: {
+		Tooltip: 全出現率+66.67%、最大湧き数+150%
+		DisplayName: 永続カオス蝋燭
+	}
+
+	PermanentVision: {
+		Tooltip: 視覚系バフをすべて付与
+		DisplayName: 永続視覚
+	}
+
+	PermanentTrawler: {
+		Tooltip: 釣り系バフをすべて付与
+		DisplayName: 永続トローラー
+	}
+
+	PermanentStation: {
+		Tooltip: 設備系バフをすべて付与
+		DisplayName: 永続設備
+	}
+
+	PermanentMovement: {
+		Tooltip: 移動系バフをすべて付与
+		DisplayName: 永続移動
+	}
+
+	PermanentVanilla: {
+		Tooltip: バニラの全バフを付与
+		DisplayName: 永続バニラ
+	}
+
+	PermanentDefense: {
+		Tooltip: 防御系バフをすべて付与
+		DisplayName: 永続防御
+	}
+
+	PermanentDamage: {
+		Tooltip: ダメージ系バフをすべて付与
+		DisplayName: 永続ダメージ
+	}
+
+	PermanentConstruction: {
+		Tooltip: 建築系バフをすべて付与
+		DisplayName: 永続建築
+	}
+
+	PermanentArena: {
+		Tooltip: 闘技場系バフをすべて付与
+		DisplayName: 永続闘技場
+	}
+
+	PermanentAquatic: {
+		Tooltip: 水中系バフをすべて付与
+		DisplayName: 永続水中
+	}
+
+	PermanentHoney: {
+		Tooltip: ライフ自然回復が増進
+		DisplayName: 永続ハチミツ
+	}
+
+	PermanentHeartLantern: {
+		Tooltip: ライフ自然回復が増進
+		DisplayName: 永続ハートランタン
+	}
+
+	PermanentGardenGnome: {
+		Tooltip: "'幸運を呼び、悪霊を遠ざけると言い伝えられている'"
+		DisplayName: 永続ガーデンノーム
+	}
+
+	PermanentCampfire: {
+		Tooltip: ライフ自然回復が少し増加
+		DisplayName: 永続たき火
+	}
+
+	PermanentBastStatue: {
+		Tooltip: 防御+5
+		DisplayName: 永続バステトの像
+	}
+
+	PermanentPeaceCandle: {
+		DisplayName: 永続平和の蝋燭
+		Tooltip: 敵の出現率が低下
+	}
+
+	PermanentStarInABottle: {
+		DisplayName: 永続瓶詰めの星
+		Tooltip: マナ自然回復が増進
+	}
+
+	PermanentSunflower: {
+		DisplayName: 永続ヒマワリ
+		Tooltip: 移動速度が上昇し、敵の出現が減少
+	}
+
+	PermanentShadowCandle: {
+		DisplayName: 永続影の蝋燭
+		Tooltip: 町の平穏を打ち消す
+	}
+
+	PermanentWaterCandle: {
+		DisplayName: 永続水の蝋燭
+		Tooltip: 敵の出現率が上昇
+	}
+
+	PermanentFlaskOfCursedFlames: {
+		DisplayName: 永続呪炎のフラスコ
+		Tooltip: 近接攻撃が敵に呪炎を付与
+	}
+
+	PermanentFlaskOfFire: {
+		DisplayName: 永続炎のフラスコ
+		Tooltip: 近接攻撃が敵を発火
+	}
+
+	PermanentFlaskOfGold: {
+		DisplayName: 永続金のフラスコ
+		Tooltip: 近接攻撃で敵の落とすゴールドが増加
+	}
+
+	PermanentFlaskOfIchor: {
+		DisplayName: 永続霊液のフラスコ
+		Tooltip: 近接攻撃が敵の防御を低下
+	}
+
+	PermanentFlaskOfNanites: {
+		DisplayName: 永続ナナイトのフラスコ
+		Tooltip: 近接攻撃が敵を混乱
+	}
+
+	PermanentFlaskOfParty: {
+		DisplayName: 永続パーティーのフラスコ
+		Tooltip: 近接攻撃で紙吹雪が舞う
+	}
+
+	PermanentFlaskOfPoison: {
+		DisplayName: 永続毒のフラスコ
+		Tooltip: 近接攻撃が敵に毒を付与
+	}
+
+	PermanentFlaskOfVenom: {
+		DisplayName: 永続猛毒のフラスコ
+		Tooltip: 近接攻撃が標的に酸の毒を付与
+	}
+
+	PermanentAmmoBox: {
+		DisplayName: 永続弾薬箱
+		Tooltip: 弾薬を20%で節約
+	}
+
+	PermanentBewitchingTable: {
+		DisplayName: 永続魔術台
+		Tooltip: ミニオン上限数が増加
+	}
+
+	PermanentCrystalBall: {
+		DisplayName: 永続水晶玉
+		Tooltip: 魔法能力が上昇
+	}
+
+	PermanentSharpeningStation: {
+		DisplayName: 永続研磨台
+		Tooltip: 近接武器に防御無視値を付与
+	}
+
+	PermanentSliceOfCake: {
+		DisplayName: 永続ケーキの一切れ
+		Tooltip: 移動・採掘速度+20%
+	}
+
+	PermanentWarTable: {
+		DisplayName: 永続ウォーテーブル
+		Tooltip: セントリー上限数が増加
+	}
+
+	PermanentWrath: {
+		Tooltip: ダメージ+10%
+		DisplayName: 永続憤怒
+	}
+
+	PermanentWellFed: {
+		Tooltip: 全ステータスが少し向上
+		DisplayName: 永続満腹
+	}
+
+	PermanentWaterWalking: {
+		Tooltip: DOWN を押すと水に入れる
+		DisplayName: 永続水上歩行
+	}
+
+	PermanentWarmth: {
+		Tooltip: 冷気による被ダメージを軽減
+		DisplayName: 永続防寒
+	}
+
+	PermanentTitan: {
+		Tooltip: ノックバックが増加
+		DisplayName: 永続タイタン
+	}
+
+	PermanentTipsy: {
+		Tooltip: 近接能力が上昇、防御が低下
+		DisplayName: 永続酩酊
+	}
+
+	PermanentThorns: {
+		Tooltip: 攻撃者もダメージを受ける
+		DisplayName: 永続とげ
+	}
+
+	PermanentSwiftness: {
+		Tooltip: 移動速度+25%
+		DisplayName: 永続俊足
+	}
+
+	PermanentSummoning: {
+		Tooltip: ミニオン上限数が増加
+		DisplayName: 永続召喚
+	}
+
+	PermanentSpelunker: {
+		Tooltip: 宝と鉱石の位置を表示
+		DisplayName: 永続探鉱
+	}
+
+	PermanentSonar: {
+		Tooltip: 釣り針に食いついたものが見える
+		DisplayName: 永続ソナー
+	}
+
+	PermanentShine: {
+		Tooltip: 光を放つ
+		DisplayName: 永続発光
+	}
+
+	PermanentRegeneration: {
+		Tooltip: ライフ自然回復を付与
+		DisplayName: 永続自然回復
+	}
+
+	PermanentRage: {
+		Tooltip: クリティカル率+10%
+		DisplayName: 永続激昂
+	}
+
+	PermanentPlentySatisfied: {
+		Tooltip: 全ステータスがそこそこ向上
+		DisplayName: 永続大満足
+	}
+
+	PermanentObsidianSkin: {
+		Tooltip: 溶岩に免疫
+		DisplayName: 永続黒曜石の肌
+	}
+
+	PermanentNightOwl: {
+		Tooltip: 暗視が向上
+		DisplayName: 永続夜目
+	}
+
+	PermanentMining: {
+		Tooltip: 採掘速度+25%
+		DisplayName: 永続採掘
+	}
+
+	PermanentManaRegeneration: {
+		Tooltip: マナ自然回復が増進
+		DisplayName: 永続マナ自然回復
+	}
+
+	PermanentMagicPower: {
+		Tooltip: 魔法ダメージ+20%
+		DisplayName: 永続魔力
+	}
+
+	PermanentLucky: {
+		Tooltip: かなりツイている気がする
+		DisplayName: 永続幸運
+	}
+
+	PermanentLifeforce: {
+		Tooltip: 最大ライフ+20%
+		DisplayName: 永続生命力
+	}
+
+	PermanentIronskin: {
+		Tooltip: 防御+8
+		DisplayName: 永続鉄皮
+	}
+
+	PermanentInvisibility: {
+		Tooltip: 透明化を付与
+		DisplayName: 永続透明化
+	}
+
+	PermanentInferno: {
+		Tooltip: 周囲の敵を発火
+		DisplayName: 永続インフェルノ
+	}
+
+	PermanentHunter: {
+		Tooltip: 敵の位置を表示
+		DisplayName: 永続ハンター
+	}
+
+	PermanentHeartreach: {
+		Tooltip: ハートの取得範囲が拡大
+		DisplayName: 永続ハートリーチ
+	}
+
+	PermanentGravitation: {
+		Tooltip: UP を押すと重力を反転
+		DisplayName: 永続重力
+	}
+
+	PermanentGills: {
+		Tooltip: 空気の代わりに水を呼吸
+		DisplayName: 永続エラ呼吸
+	}
+
+	PermanentFlipper: {
+		Tooltip: 水中でも通常通りに移動
+		DisplayName: 永続フィン
+	}
+
+	PermanentFishing: {
+		Tooltip: 釣りパワーが増加
+		DisplayName: 永続釣り
+	}
+
+	PermanentArchery: {
+		DisplayName: 永続弓術
+		Tooltip: 弓ダメージ+10%、矢速度+20%
+	}
+
+	PermanentBattle: {
+		DisplayName: 永続戦闘
+		Tooltip: 敵の出現率が上昇
+	}
+
+	PermanentBiomeSight: {
+		DisplayName: 永続バイオームサイト
+		Tooltip: 不浄ブロックの位置を表示
+	}
+
+	PermanentBuilder: {
+		DisplayName: 永続建築
+		Tooltip: 設置速度と範囲が増加
+	}
+
+	PermanentCalm: {
+		DisplayName: 永続静穏
+		Tooltip: 敵の出現率が低下
+	}
+
+	PermanentCrate: {
+		DisplayName: 永続クレート
+		Tooltip: クレートが釣れる確率が上昇
+	}
+
+	PermanentDangersense: {
+		DisplayName: 永続危険感知
+		Tooltip: 近くの危険を可視化
+	}
+
+	PermanentEndurance: {
+		DisplayName: 永続耐久
+		Tooltip: 被ダメージ-10%
+	}
+
+	PermanentExquisitelyStuffed: {
+		DisplayName: 永続絶品満腹
+		Tooltip: 全ステータスが大幅に向上
+	}
+
+	PermanentFeatherfall: {
+		DisplayName: 永続羽落下
+		Tooltip: UP/DOWN で降下速度を調整
+	}
+
+	PermanentAstralInjection: {
+		Tooltip: マナを大幅に回復
+		DisplayName: 永続アストラルインジェクション
+	}
+
+	PermanentAnechoicCoating: {
+		Tooltip: 深淵の生物の探知範囲を縮小
+		DisplayName: 永続無反響コーティング
+	}
+
+	PermanentAquaAffinity: {
+		DisplayName: 永続水中親和
+		Tooltip: 濡れている間、移動が上昇
+	}
+
+	PermanentAmmoReservation: {
+		Tooltip: 弾薬を20%で節約
+		DisplayName: 永続弾薬節約
+	}
+
+	EndlessShimmerQuiver: {
+		DisplayName: 無限シマーの矢筒
+		Tooltip: ""
+	}
+
+	WallOfFleshSummon: {
+		Tooltip: Wall of Flesh を召喚
+		DisplayName: 肉の唐辛子
+	}
+
+	SkeletronSummon: {
+		Tooltip: Skeletron を召喚
+		DisplayName: 老人のブードゥー人形
+	}
+
+	PlanteraSummon: {
+		Tooltip: Plantera を召喚
+		DisplayName: 青々としたハイビスカス
+	}
+
+	EmpressOfLightSummon: {
+		Tooltip: Empress of Light を召喚
+		DisplayName: 聖域の水晶
+	}
+
+	DukeFishronSummon: {
+		Tooltip: Duke Fishron を召喚
+		DisplayName: トリュフボウル
+	}
+
+	CultistSummon: {
+		Tooltip: Lunatic Cultist を召喚
+		DisplayName: 月のシジル
+	}
+
+	OldDukeSummon: {
+		Tooltip: Old Duke を召喚
+		DisplayName: 血虫ボウル
+	}
+
+	LeviathanAnahitaSummon: {
+		Tooltip: Leviathan と Anahita を召喚
+		DisplayName: 魅惑の真珠
+	}
+
+	GiantClamSummon: {
+		Tooltip: Giant Clam を召喚
+		DisplayName: 紺のハマグリ殻
+	}
+
+	ForgottenOneSummon: {
+		Tooltip: Forgotten One を召喚
+		DisplayName: 海洋の卵
+	}
+
+	AnglerRadar: {
+		Tooltip: 現在のクエスト魚を表示
+		DisplayName: 釣り師のレーダー
+	}
+
+	SonarDevice: {
+		Tooltip: 釣り針にかかった魚を探知
+		DisplayName: 魚探知デバイス
+	}
+
+	AnglersDream: {
+		Tooltip:
+			'''
+			釣り糸が切れなくなる
+			エサ消費の確率を低下
+			釣りパワー+20
+			溶岩での釣りを可能にする
+			釣り針にかかった魚を探知
+			現在のクエスト魚を表示
+			'''
+		DisplayName: 釣り人の夢
+	}
+
+	CreationClubMembersPass: {
+		Tooltip:
+			'''
+			採掘速度+50%
+			ブロック/壁の設置速度+75%
+			ブロック設置範囲+5
+			アイテムの回収範囲が拡大
+			設置物を自動でペイント/コーティング
+			設置物にアクチュエーターを自動設置
+			エコー視界を有効化し、隠しブロックを可視化
+			UP を長押しでより高い位置に届く
+			'"Skyrim Deluxe Edition Remastered Game of the Year Edition" のご購入に含まれます'
+			'''
+		DisplayName: クリエイションクラブの会員証
+	}
+
+	ConstructionEmblem: {
+		Tooltip: ブロック/壁の設置速度+15%
+		DisplayName: 建築の紋章
+	}
+
+	MiningEmblem: {
+		Tooltip: 採掘速度+15%
+		DisplayName: 採掘の紋章
+	}
+
+	DeteriorationDisplay: {
+		Tooltip: デバフの毎秒ダメージを表示
+		DisplayName: 劣化ディスプレイ
+	}
+
+	Minibridge: {
+		Tooltip:
+			'''
+			200タイルの長さの足場を作るドリル爆弾を生成
+			使用地点を中心に左右100タイル
+			'''
+		DisplayName: ミニブリッジ
+	}
+
+	WarpMirror: {
+		Tooltip:
+			'''
+			街のNPCのもとへテレポート
+			全画面マップでNPCの頭をクリック
+			'''
+		DisplayName: ワープミラー
+	}
+
+	ChallengersCoin: {
+		Tooltip:
+			'''
+			ワールドの難易度を変更
+			右クリックでジャーニーモードを切り替え
+			'''
+		DisplayName: 挑戦者のコイン
+	}
+
+	BottomlessLiquidBucket: {
+		Tooltip:
+			'''
+			無尽蔵の液体を含む
+			注ぎ出せる
+			右クリックで液体を切り替え
+			'''
+		DisplayName: 底なしの液体バケツ
+	}
+
+	BottomlessChumBucket: {
+		Tooltip:
+			'''
+			無尽蔵の撒き餌を含む
+			水に最大3回投げて釣りパワーを上げる
+			ブラッドムーン中の釣りで入手
+			'''
+		DisplayName: 底なしの撒き餌バケツ
+	}
+
+	SkullWatch: {
+		Tooltip: 死亡数を表示
+		DisplayName: ドクロ時計
+	}
+
+	SoulMagnet: {
+		DisplayName: ソウルマグネット
+		Tooltip: このアイテムをお気に入り登録すると取得範囲が2100タイル拡大
+	}
+
+	Eightworm: {
+		Tooltip: "「無限 + ワーム」"
+		DisplayName: エイトワーム
+	}
+
+	GlowingMossStaff: {
+		DisplayName: 輝く苔の杖
+		Tooltip: ""
+	}
+
+	MossStaff: {
+		Tooltip: ""
+		DisplayName: 苔の杖
+	}
+
+	WormholeMirror: {
+		Tooltip:
+			'''
+			パーティメンバーのもとへテレポート
+			全画面マップで頭をクリック
+			'''
+		DisplayName: ワームホールミラー
+	}
+
+	UnderworldCollector: {
+		Tooltip: ""
+		DisplayName: 冥界コレクター
+	}
+
+	TreeCollector: {
+		Tooltip: ""
+		DisplayName: 樹木コレクター
+	}
+
+	TempleCollector: {
+		Tooltip: ""
+		DisplayName: 神殿コレクター
+	}
+
+	SnowCollector: {
+		Tooltip: ""
+		DisplayName: 雪原コレクター
+	}
+
+	SkyCollector: {
+		Tooltip: ""
+		DisplayName: 空のコレクター
+	}
+
+	OreCollector: {
+		Tooltip: ""
+		DisplayName: 鉱石コレクター
+	}
+
+	OceanCollector: {
+		Tooltip: ""
+		DisplayName: 海洋コレクター
+	}
+
+	NaturalBlockCollector: {
+		Tooltip: ""
+		DisplayName: 自然ブロックコレクター
+	}
+
+	MushroomCollector: {
+		Tooltip: ""
+		DisplayName: きのこコレクター
+	}
+
+	ModBiomeCollector: {
+		Tooltip: ""
+		DisplayName: Modバイオームコレクター
+	}
+
+	MeteorCollector: {
+		Tooltip: ""
+		DisplayName: 隕石コレクター
+	}
+
+	LunarCollector: {
+		Tooltip: ""
+		DisplayName: 月のコレクター
+	}
+
+	LiquidCollector: {
+		Tooltip: ""
+		DisplayName: 液体コレクター
+	}
+
+	JungleCollector: {
+		Tooltip: ""
+		DisplayName: ジャングルコレクター
+	}
+
+	HerbCollector: {
+		Tooltip: ""
+		DisplayName: ハーブコレクター
+	}
+
+	HallowCollector: {
+		Tooltip: ""
+		DisplayName: 聖域コレクター
+	}
+
+	GemCollector: {
+		Tooltip: ""
+		DisplayName: 宝石コレクター
+	}
+
+	ForestCollector: {
+		Tooltip: ""
+		DisplayName: 森林コレクター
+	}
+
+	FishCollector: {
+		Tooltip: ""
+		DisplayName: 魚コレクター
+	}
+
+	EnemyCollector: {
+		Tooltip: ""
+		DisplayName: 敵コレクター
+	}
+
+	DyePlantCollector: {
+		Tooltip: ""
+		DisplayName: 染料植物コレクター
+	}
+
+	DungeonCollector: {
+		Tooltip: ""
+		DisplayName: ダンジョンコレクター
+	}
+
+	DesertCollector: {
+		Tooltip: ""
+		DisplayName: 砂漠コレクター
+	}
+
+	CrimsonCollector: {
+		Tooltip: ""
+		DisplayName: クリムゾンコレクター
+	}
+
+	CorruptionCollector: {
+		Tooltip: ""
+		DisplayName: コラプションコレクター
+	}
+
+	CavernCollector: {
+		Tooltip: ""
+		DisplayName: 洞窟コレクター
+	}
+
+	BossCollector: {
+		Tooltip: ""
+		DisplayName: ボスコレクター
+	}
+
+	BaitCollector: {
+		Tooltip: ""
+		DisplayName: エサコレクター
+	}
+
+	LegendaryCatcher: {
+		Tooltip:
+			'''
+			とんでもない数の釣り糸を投げる
+			溶岩で釣りが可能
+			釣り糸が切れない
+			雨天または夜間に釣り竿の釣りパワーが上昇
+			エサ1個で無限に使用可能
+			'''
+		DisplayName: レジェンダリーキャッチャー
+	}
+
+	GoldenPowder: {
+		Tooltip: 小動物を金の個体に変える
+		DisplayName: 黄金の粉
+	}
+
+	GoldenLockpick: {
+		Tooltip: ゴールドチェストとゴールドロックボックスを開ける
+		DisplayName: 黄金のロックピック
+	}
+
+	PausePedestal: {
+		Tooltip: このアイテムをお気に入り登録すると時間を停止
+		DisplayName: 一時停止の台座
+	}
+
+	EndlessBoneQuiver: {
+		DisplayName: 無限骨の矢筒
+		Tooltip: ""
+	}
+
+	EndlessChlorophyteQuiver: {
+		DisplayName: 無限クロロファイトの矢筒
+		Tooltip: ""
+	}
+
+	EndlessCursedQuiver: {
+		DisplayName: 無限呪いの矢筒
+		Tooltip: ""
+	}
+
+	EndlessFlamingQuiver: {
+		DisplayName: 無限火の矢筒
+		Tooltip: ""
+	}
+
+	EndlessFrostburnQuiver: {
+		DisplayName: 無限フロストバーンの矢筒
+		Tooltip: ""
+	}
+
+	EndlessHellfireQuiver: {
+		DisplayName: 無限ヘルファイアの矢筒
+		Tooltip: ""
+	}
+
+	EndlessHolyQuiver: {
+		DisplayName: 無限聖なる矢筒
+		Tooltip: ""
+	}
+
+	EndlessIchorQuiver: {
+		DisplayName: 無限霊液の矢筒
+		Tooltip: ""
+	}
+
+	EndlessJestersQuiver: {
+		DisplayName: 無限道化師の矢筒
+		Tooltip: ""
+	}
+
+	EndlessLuminiteQuiver: {
+		DisplayName: 無限ルミナイトの矢筒
+		Tooltip: ""
+	}
+
+	EndlessUnholyQuiver: {
+		DisplayName: 無限不浄の矢筒
+		Tooltip: ""
+	}
+
+	EndlessVenomQuiver: {
+		DisplayName: 無限猛毒の矢筒
+		Tooltip: ""
+	}
+
+	EndlessCrystalDartPouch: {
+		DisplayName: 無限クリスタルダーツポーチ
+		Tooltip: ""
+	}
+
+	EndlessCursedDartPouch: {
+		DisplayName: 無限呪いのダーツポーチ
+		Tooltip: ""
+	}
+
+	EndlessIchorDartPouch: {
+		DisplayName: 無限霊液ダーツポーチ
+		Tooltip: ""
+	}
+
+	EndlessPoisonDartPouch: {
+		DisplayName: 無限毒のダーツポーチ
+		Tooltip: ""
+	}
+
+	EndlessSeedPouch: {
+		DisplayName: 無限種ポーチ
+		Tooltip: ""
+	}
+
+	EndlessBonePouch: {
+		DisplayName: 無限骨ポーチ
+		Tooltip: ""
+	}
+
+	EndlessCandyCornPie: {
+		DisplayName: 無限キャンディコーンパイ
+		Tooltip: ""
+	}
+
+	EndlessCopperCoinPouch: {
+		DisplayName: 無限カッパーコインポーチ
+		Tooltip: ""
+	}
+
+	EndlessExplosiveJackOLantern: {
+		DisplayName: 無限爆発ジャック・オー・ランタン爆弾
+		Tooltip: ""
+	}
+
+	EndlessGelTank: {
+		DisplayName: 無限ジェルタンク
+		Tooltip: ""
+	}
+
+	EndlessGoldCoinPouch: {
+		DisplayName: 無限ゴールドコインポーチ
+		Tooltip: ""
+	}
+
+	EndlessNailPouch: {
+		DisplayName: 無限釘ポーチ
+		Tooltip: ""
+	}
+
+	EndlessPlatinumCoinPouch: {
+		DisplayName: 無限プラチナコインポーチ
+		Tooltip: ""
+	}
+
+	EndlessSandPouch: {
+		DisplayName: 無限砂ポーチ
+		Tooltip: ""
+	}
+
+	EndlessSilverCoinPouch: {
+		DisplayName: 無限シルバーコインポーチ
+		Tooltip: ""
+	}
+
+	EndlessSnowballPouch: {
+		DisplayName: 無限雪球ポーチ
+		Tooltip: ""
+	}
+
+	EndlessStakeBundle: {
+		DisplayName: 無限杭束
+		Tooltip: ""
+	}
+
+	EndlessStarPouch: {
+		DisplayName: 無限流れ星ポーチ
+		Tooltip: ""
+	}
+
+	EndlessStyngerBoltQuiver: {
+		DisplayName: 無限スティンガーボルト筒
+		Tooltip: ""
+	}
+
+	EndlessClusterRocketIIPouch: {
+		DisplayName: 無限クラスター・ロケットIIポーチ
+		Tooltip: ""
+	}
+
+	EndlessClusterRocketIPouch: {
+		DisplayName: 無限クラスター・ロケットIポーチ
+		Tooltip: ""
+	}
+
+	EndlessDryRocketPouch: {
+		DisplayName: 無限乾燥ロケットポーチ
+		Tooltip: ""
+	}
+
+	EndlessHoneyRocketPouch: {
+		DisplayName: 無限蜂蜜ロケットポーチ
+		Tooltip: ""
+	}
+
+	EndlessLavaRocketPouch: {
+		DisplayName: 無限溶岩ロケットポーチ
+		Tooltip: ""
+	}
+
+	EndlessMiniNukeIIPouch: {
+		DisplayName: 無限ミニ核IIポーチ
+		Tooltip: ""
+	}
+
+	EndlessMiniNukeIPouch: {
+		DisplayName: 無限ミニ核Iポーチ
+		Tooltip: ""
+	}
+
+	EndlessRocketIIIPouch: {
+		DisplayName: 無限ロケットIIIポーチ
+		Tooltip: ""
+	}
+
+	EndlessRocketIIPouch: {
+		DisplayName: 無限ロケットIIポーチ
+		Tooltip: ""
+	}
+
+	EndlessRocketIPouch: {
+		DisplayName: 無限ロケットIポーチ
+		Tooltip: ""
+	}
+
+	EndlessRocketIVPouch: {
+		DisplayName: 無限ロケットIVポーチ
+		Tooltip: ""
+	}
+
+	EndlessWetRocketPouch: {
+		DisplayName: 無限水ロケットポーチ
+		Tooltip: ""
+	}
+
+	EndlessBlueSolution: {
+		DisplayName: 無限環境変更液(青)
+		Tooltip: ""
+	}
+
+	EndlessBrownSolution: {
+		DisplayName: 無限環境変更液(茶)
+		Tooltip: ""
+	}
+
+	EndlessDarkBlueSolution: {
+		DisplayName: 無限環境変更液(藍)
+		Tooltip: ""
+	}
+
+	EndlessGreenSolution: {
+		DisplayName: 無限環境変更液(緑)
+		Tooltip: ""
+	}
+
+	EndlessPurpleSolution: {
+		DisplayName: 無限環境変更液(紫)
+		Tooltip: ""
+	}
+
+	EndlessRedSolution: {
+		DisplayName: 無限環境変更液(赤)
+		Tooltip: ""
+	}
+
+	EndlessWhiteSolution: {
+		DisplayName: 無限環境変更液(白)
+		Tooltip: ""
+	}
+
+	EndlessYellowSolution: {
+		DisplayName: 無限環境変更液(黄)
+		Tooltip: ""
+	}
+
+	EndlessSpelunkerFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限探鉱フレア箱
+	}
+
+	EndlessShimmerFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限シマーフレア箱
+	}
+
+	EndlessRainbowFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限レインボーフレア箱
+	}
+
+	EndlessFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限フレア箱
+	}
+
+	EndlessCursedFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限呪いのフレア箱
+	}
+
+	EndlessBlueFlareBox: {
+		Tooltip: ""
+		DisplayName: 無限ブルーフレア箱
+	}
+
+	EndlessVenomPouch: {
+		Tooltip: ""
+		DisplayName: 無限猛毒弾ポーチ
+	}
+
+	EndlessTungstenPouch: {
+		Tooltip: ""
+		DisplayName: 無限タングステン弾ポーチ
+	}
+
+	EndlessSilverPouch: {
+		Tooltip: ""
+		DisplayName: 無限銀弾ポーチ
+	}
+
+	EndlessPartyPouch: {
+		Tooltip: ""
+		DisplayName: 無限パーティー弾ポーチ
+	}
+
+	EndlessNanoPouch: {
+		Tooltip: ""
+		DisplayName: 無限ナノ弾ポーチ
+	}
+
+	EndlessMeteorPouch: {
+		Tooltip: ""
+		DisplayName: 無限流星弾ポーチ
+	}
+
+	EndlessLuminitePouch: {
+		Tooltip: ""
+		DisplayName: 無限ルミナイト弾ポーチ
+	}
+
+	EndlessIchorPouch: {
+		Tooltip: ""
+		DisplayName: 無限霊液弾ポーチ
+	}
+
+	EndlessHighVelocityPouch: {
+		Tooltip: ""
+		DisplayName: 無限高速弾ポーチ
+	}
+
+	EndlessGoldenPouch: {
+		Tooltip: ""
+		DisplayName: 無限金弾ポーチ
+	}
+
+	EndlessExplodingPouch: {
+		Tooltip: ""
+		DisplayName: 無限爆発弾ポーチ
+	}
+
+	EndlessCursedPouch: {
+		Tooltip: ""
+		DisplayName: 無限呪いの弾ポーチ
+	}
+
+	EndlessCrystalPouch: {
+		Tooltip: ""
+		DisplayName: 無限クリスタル弾ポーチ
+	}
+
+	EndlessChlorophytePouch: {
+		Tooltip: ""
+		DisplayName: 無限クロロファイト弾ポーチ
+	}
+
+	Flute: {
+		Tooltip: ヘビを召喚
+		DisplayName: フルート
+	}
+
+	OwlNest: {
+		Tooltip: フクロウを召喚
+		DisplayName: フクロウの巣
+	}
+
+	Lamp: {
+		Tooltip: ガを召喚
+		DisplayName: ランプ
+	}
+
+	RestockNotice: {
+		Tooltip: 行商人のショップを更新
+		DisplayName: 補充通知
+	}
+
+	SunPedestal: {
+		Tooltip: このアイテムをお気に入り登録すると常に昼になる
+		DisplayName: 太陽の台座
+	}
+
+	PhaseInterrupter: {
+		Tooltip: 使用して月相を選択
+		DisplayName: フェーズインタラプター
+	}
+
+	AsphaltAutohighway: {
+		Tooltip:
+			'''
+			世界全域にアスファルトの足場ハイウェイを作成
+			通り道のものはすべて破壊
+			左クリックで足場2列
+			右クリックで足場1列
+			'''
+		DisplayName: アスファルト自動ハイウェイ
+	}
+
+	StaffOfOvergrownHemorrhaging: {
+		Tooltip: ""
+		DisplayName: 繁茂・出血の杖
+	}
+
+	StaffOfOvergrownCysting: {
+		Tooltip: ""
+		DisplayName: 繁茂・嚢胞化の杖
+	}
+
+	UltimateChecklist: {
+		Tooltip:
+			'''
+			左クリックで研究の複製メニューを全解放
+			右クリックで図鑑を全解放
+			元に戻せない
+			'''
+		DisplayName: 究極のチェックリスト
+	}
+
+	LittleEgg: {
+		Tooltip: Yagi を召喚
+		DisplayName: ちっちゃな卵
+	}
+
+	AetherAltar: {
+		Tooltip:
+			'''
+			シマー可能なアイテムを結果にクラフト可能
+			デーモン/クリムゾンアルターをシマーに投げ入れて入手
+			'''
+		DisplayName: エーテルアルター
+	}
+
+	AetherPylon: {
+		DisplayName: エーテルのパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	TemplePylon: {
+		DisplayName: 寺院のパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	CorruptionPylon: {
+		DisplayName: 不浄のパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	CrimsonPylon: {
+		DisplayName: 真紅のパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	DungeonPylon: {
+		DisplayName: ダンジョンのパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	HellPylon: {
+		DisplayName: 地下世界のパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	SkyPylon: {
+		DisplayName: 空のパイロン
+		Tooltip:
+			'''
+			住民不要でテレポート可能
+			タイプごとに1つのみ、対応するバイオーム内でのみ設置可能
+			'''
+	}
+
+	Superbomber: {
+		Tooltip:
+			'''
+			大きな正方形の範囲を破壊
+			背景壁は取り除かない
+			着弾地点より上のものをすべて破壊
+			'''
+		DisplayName: スーパーボンバー
+	}
+
+	Lakemaker: {
+		Tooltip:
+			'''
+			下方に50x50の水域を作る爆弾を生成
+			下にあるものをすべて破壊
+			'''
+		DisplayName: レイクメーカー
+	}
+
+	Omnistaff: {
+		Tooltip: 右クリックで草の種類を切り替え
+		DisplayName: オムニスタッフ
+	}
+
+	StaffOfOvergrowth: {
+		Tooltip: ""
+		DisplayName: 繁茂の杖
+	}
+
+	StaffOfHemorrhaging: {
+		Tooltip: ""
+		DisplayName: 出血の杖
+	}
+
+	StaffOfCysting: {
+		Tooltip: ""
+		DisplayName: 嚢胞化の杖
+	}
+
+	StaffOfAshing: {
+		Tooltip: ""
+		DisplayName: 灰化の杖
+	}
+
+	StaffOfHallowing: {
+		Tooltip: ""
+		DisplayName: 聖域化の杖
+	}
+
+	StaffOfShrooming: {
+		Tooltip: ""
+		DisplayName: 菌糸化の杖
+	}
+
+	SuperDummy: {
+		DisplayName: スーパーダミー
+		Tooltip:
+			'''
+			カーソル位置に浮遊するスーパーダミーを召喚
+			ミニオンとホーミング弾が検知して攻撃
+			命中時効果を発動
+			右クリックですべてのスーパーダミーを削除
+			一度に最大100体まで生成可能
+			'''
+	}
+
+	CrimsonAltar: {
+		DisplayName: クリムゾンアルター
+		Tooltip:
+			'''
+			邪悪な祭壇として機能
+			ハードモード鉱石のために採掘はできない
+			'''
+	}
+
+	DemonAltar: {
+		DisplayName: デーモンアルター
+		Tooltip:
+			'''
+			邪悪な祭壇として機能
+			ハードモード鉱石のために採掘はできない
+			'''
+	}
+
+	SpecializedCraftingMonolith: {
+		Tooltip: 多くの上位設備として機能
+		DisplayName: 専門作業台のモノリス
+	}
+
+	LunarCraftingMonolith: {
+		Tooltip: すべての設備として機能
+		DisplayName: 月の作業台のモノリス
+	}
+
+	HardmodeCraftingMonolith: {
+		Tooltip: 多くのハードモード設備として機能
+		DisplayName: ハードモード作業台のモノリス
+	}
+
+	BasicCraftingMonolith: {
+		Tooltip: 多くの基礎設備として機能
+		DisplayName: 基礎作業台のモノリス
+	}
+
+	Skybridger: {
+		Tooltip:
+			'''
+			世界全域にスカイブリッジを作るドリル爆弾を生成
+			通り道のものはすべて破壊
+			左クリックで足場2列
+			右クリックで足場1列
+			'''
+		DisplayName: スカイブリッジャー
+	}
+
+	DestinationGlobe: {
+		Tooltip:
+			'''
+			使用して滞在するバイオームを選択
+			このアイテムをお気に入り登録すると常時選択バイオーム扱い
+			'''
+		DisplayName: 目的地グローブ
+	}
+
+	WingTimer: {
+		Tooltip: 翼時間を表示
+		DisplayName: 翼タイマー
+	}
+
+	FlyingSafe: {
+		Tooltip: アイテムを保管できる空飛ぶ金庫を召喚
+		DisplayName: 空飛ぶ金庫
+	}
+
+	WatchingEye: {
+		Tooltip: マップ全域を表示
+		DisplayName: 見張りの目
+	}
+
+	VitalDisplay: {
+		Tooltip: 運・ライフ自然回復・マナ自然回復を表示
+		DisplayName: バイタルディスプレイ
+	}
+
+	SkeletonRucksack: {
+		Tooltip: スケルトン商人を召喚
+		DisplayName: スケルトンリュック
+	}
+
+	TravelersMannequin: {
+		Tooltip: 行商人を召喚
+		DisplayName: 行商人のマネキン
+	}
+
+	TrackingDevice: {
+		Tooltip: ミニオンスロットを表示
+		DisplayName: 追跡デバイス
+	}
+
+	ToleranceDetector: {
+		Tooltip: 防御無視値・クリティカル率・所持武器のダメージ倍率を表示
+		DisplayName: 許容検出器
+	}
+
+	TeleportationMirror: {
+		Tooltip: ランダムな場所へテレポート
+		DisplayName: テレポートミラー
+	}
+
+	SummoningRemote: {
+		Tooltip:
+			'''
+			所持中に右クリックで選択UIを開く
+			左クリックで選択したボスまたはイベントを召喚
+			進行度に応じた制限あり
+			'''
+		DisplayName: 召喚リモコン
+	}
+
+	StarterBag: {
+		Tooltip:
+			'''
+			右クリックで初期装備を受け取る
+			コンフィグで初期アイテムを設定しておくこと
+			'''
+		DisplayName: スターターバッグ
+	}
+
+	SpectreMagnet: {
+		Tooltip: このアイテムをお気に入り登録すると取得範囲が4200タイル拡大
+		DisplayName: スペクターマグネット
+	}
+
+	SillySlapper: {
+		Tooltip:
+			'''
+			思いっきりビンタ
+			与ダメージが2倍だが1撃で死亡
+			アクセ/虚飾スロット、手持ち・使用中でも機能
+			'''
+		DisplayName: おふざけビンタ
+	}
+
+	Replenisher: {
+		Tooltip: マナ自然回復を表示
+		DisplayName: リプレニッシャー
+	}
+
+	ReinforcedPanel: {
+		Tooltip: 被ダメージ軽減を表示
+		DisplayName: 強化パネル
+	}
+
+	Regenerator: {
+		Tooltip: ライフ自然回復を表示
+		DisplayName: リジェネレーター
+	}
+
+	RangedAbsolution: {
+		Tooltip: "'純然たる無秩序'"
+		DisplayName: 遠隔の赦免
+	}
+
+	PotionCrate: {
+		Tooltip: ポーションを保管しバフを適用
+		DisplayName: ポーションクレート
+	}
+
+	PlateCracker: {
+		Tooltip: 防御無視値を表示
+		DisplayName: プレートクラッカー
+	}
+
+	Paperweight: {
+		Tooltip:
+			'''
+			お気に入り登録で手に持っているアイテムを自動使用
+			インベントリを開いている間は無効
+			'''
+		DisplayName: 文鎮
+	}
+
+	MosaicMirror: {
+		Tooltip:
+			'''
+			右クリックで行き先を切り替え
+			すべてのMod情報を表示
+			パーティメンバーまたは街のNPCのもとへテレポート
+			全画面マップで頭をクリック
+			'''
+		DisplayName: モザイクミラー
+	}
+
+	MoonPedestal: {
+		Tooltip: このアイテムをお気に入り登録すると常に夜になる
+		DisplayName: 月の台座
+	}
+
+	MirrorOfReturn: {
+		Tooltip:
+			'''
+			家にテレポートしポータルを作成
+			用が済んだらポータルで戻れる
+			'''
+		DisplayName: 帰還の鏡
+	}
+
+	MetallicClover: {
+		Tooltip: 運を表示
+		DisplayName: 金属のクローバー
+	}
+
+	Magnet: {
+		Tooltip: このアイテムをお気に入り登録すると取得範囲が525タイル拡大
+		DisplayName: マグネット
+	}
+
+	LunarMagnet: {
+		Tooltip: このアイテムをお気に入り登録すると取得範囲が16800タイル拡大
+		DisplayName: ルナーマグネット
+	}
+
+	LuckyDie: {
+		Tooltip: クリティカル率を表示
+		DisplayName: ラッキーダイス
+	}
+
+	Kettlebell: {
+		Tooltip: ツルハシ速度を表示
+		DisplayName: ケトルベル
+	}
+
+	IAH: {
+		Tooltip:
+			'''
+			すべてのMod情報を表示
+			'情報アクセサリー・ホットライン'
+			'''
+		DisplayName: IAH
+	}
+
+	HellstoneMagnet: {
+		Tooltip: このアイテムをお気に入り登録すると取得範囲が1050タイル拡大
+		DisplayName: ヘルストーンマグネット
+	}
+
+	HellevatorCreator: {
+		Tooltip:
+			'''
+			ドリル爆弾を生成してヘレベーターを掘る
+			着弾地点直下の進路上のものを破壊
+			'''
+		DisplayName: ヘレベータークリエイター
+	}
+
+	Hellbridger: {
+		Tooltip:
+			'''
+			世界全域にヘルブリッジを作るドリル爆弾を生成
+			Modの構造物は破壊しない
+			左クリックで足場2列
+			右クリックで足場1列
+			'''
+		DisplayName: ヘルブリッジャー
+	}
+
+	HeartbeatSensor: {
+		Tooltip: ミニオンスロット・セントリースロット・出現率を表示
+		DisplayName: 心拍センサー
+	}
+
+	HeadCounter: {
+		Tooltip: 出現率を表示
+		DisplayName: ヘッドカウンター
+	}
+
+	HarmInducer: {
+		Tooltip: 所持武器のダメージ倍率を表示
+		DisplayName: ハームインデューサー
+	}
+
+	MiniSundial: {
+		Tooltip:
+			'''
+			使用して時間を変更
+			夜明け・正午・夕暮れ・真夜中を循環
+			右クリックで時間を早送り
+			'''
+		DisplayName: ミニ日時計
+	}
+
+	Fitbit: {
+		Tooltip: 被ダメージ軽減・ツルハシ速度・翼時間を表示
+		DisplayName: フィットビット
+	}
+
+	EntityManipulator: {
+		Tooltip:
+			'''
+			使用して出現率変更を選択
+			このアイテムをお気に入り登録すると選択した出現率変更を有効化
+			'''
+		DisplayName: エンティティ操作器
+	}
+
+	EclipsePedestal: {
+		Tooltip: このアイテムをお気に入り登録すると毎朝日食が発生
+		DisplayName: 日食の台座
+	}
+
+	EtherianConstruct: {
+		Tooltip: アイテムを保管できる空飛ぶエーテリアンの構造体を召喚
+		DisplayName: エーテリアンの構造体
+	}
+
+	CursedMirror: {
+		Tooltip: 直近の死亡地点へテレポート
+		DisplayName: 呪われた鏡
+	}
+
+	Burger: {
+		Tooltip: 刃を見つけたみたいだな
+		DisplayName: バーガー
+	}
+
+	BloodMoonPedestal: {
+		Tooltip: このアイテムをお気に入り登録すると毎晩ブラッドムーンが発生
+		DisplayName: ブラッドムーンの台座
+	}
+
+	BattalionLog: {
+		Tooltip: セントリースロットを表示
+		DisplayName: 大隊記録
+	}
+
+	BannerBox: {
+		Tooltip:
+			'''
+			入手済みバナーのバフを自動適用
+			どのストレージからでも機能
+			'''
+		DisplayName: バナーボックス
+	}
+
+	AutoHouser: {
+		Tooltip: 住民NPCの家を設置
+		DisplayName: オートハウサー
+	}
+
+	AsphaltPlatform: {
+		Tooltip: 走行速度が上昇
+		DisplayName: アスファルト足場
+	}
+
+	AllInOneAccess: {
+		Tooltip:
+			'''
+			個人ストレージへモバイルアクセスするメニューを開く
+			右クリックで虚空の金庫を開閉
+			'''
+		DisplayName: オールインワンアクセス
+	}
+}
+
+ItemNames: {
+	PermanentThoriumCoatings: {
+		ToxicCoating: Permanent Thorium Coatings (Toxic)
+		SporeCoating: Permanent Thorium Coatings (Spore)
+		GorgonCoating: Permanent Thorium Coatings (Gorgon)
+		ExplosiveCoating: Permanent Thorium Coatings (Explosive)
+		DeepFreezeCoating: Permanent Thorium Coatings (Deep Freeze)
+	}
+
+	PermanentFlasks: {
+		FlaskOfVenom: 永続フラスコ（猛毒）
+		FlaskOfPoison: 永続フラスコ（毒）
+		FlaskOfParty: 永続フラスコ（パーティー）
+		FlaskOfNanites: 永続フラスコ（ナノボット）
+		FlaskOfIchor: 永続フラスコ（霊液）
+		FlaskOfGold: 永続フラスコ（ゴールド）
+		FlaskOfFire: 永続フラスコ（火炎）
+		FlaskOfCursedFlames: 永続フラスコ（呪炎）
+	}
+
+	BottomlessLiquidBucket: {
+		Shimmer: 底なしの液体バケツ（シマー）
+		Honey: 底なしの液体バケツ（ハチミツ）
+		Lava: 底なしの液体バケツ（溶岩）
+		Water: 底なしの液体バケツ（水）
+	}
+
+	AllInOneAccess: {
+		Closed: 一体型アクセス（虚空の金庫：閉）
+		Open: 一体型アクセス（虚空の金庫：開）
+	}
+
+	PhaseInterrupter: {
+		WaxingGibbous: フェーズインタラプター（十三夜）
+		FirstQuarter: フェーズインタラプター（上弦）
+		WaxingCrescent: フェーズインタラプター（三日月）
+		NewMoon: フェーズインタラプター（新月）
+		WaningCrescent: フェーズインタラプター（有明月）
+		ThirdQuarter: フェーズインタラプター（下弦）
+		WaningGibbous: フェーズインタラプター（居待月）
+		FullMoon: フェーズインタラプター（満月）
+	}
+
+	ChallengersCoin: {
+		Master: 挑戦者のコイン（マスター）
+		Expert: 挑戦者のコイン（エキスパート）
+		Normal: 挑戦者のコイン（ノーマル）
+		Journey: 挑戦者のコイン（ジャーニー）
+	}
+
+	SummoningRemote: {
+		NoModifier: 召喚リモコン（未選択）
+		EventLunar: 召喚リモコン（月のイベント）
+		EventVortexPillar: 召喚リモコン（ヴォルテックスの柱）
+		EventStardustPillar: 召喚リモコン（スターダストの柱）
+		EventSolarPillar: 召喚リモコン（ソーラーの柱）
+		EventNebulaPillar: 召喚リモコン（ネビュラの柱）
+		EventMartianMadness: 召喚リモコン（エイリアン襲撃）
+		EventFrostMoon: 召喚リモコン（氷の月）
+		EventPumpkinMoon: 召喚リモコン（カボチャの月）
+		EventEclipse: 召喚リモコン（日食）
+		EventPirateInvasion: 召喚リモコン（海賊襲撃）
+		EventSnowLegion: 召喚リモコン（フロストレギオン）
+		EventGoblinArmy: 召喚リモコン（ゴブリン軍団）
+		EventBloodMoon: 召喚リモコン（ブラッドムーン）
+		EventSlimeRain: 召喚リモコン（スライムの雨）
+		EventParty: 召喚リモコン（パーティー）
+		EventSandstorm: 召喚リモコン（砂嵐）
+		EventWind: 召喚リモコン（風）
+		EventRain: 召喚リモコン（雨）
+		BossMoonLord: 召喚リモコン（ムーンロード）
+		BossTwins: 召喚リモコン（双子）
+		Boss: 召喚リモコン（{0}）
+	}
+
+	EntityManipulator: {
+		NoModifier: エンティティ操作装置（未選択）
+		CanceledSpawnsAndEvents: エンティティ操作装置（出現・イベント停止）
+		CanceledEvents: エンティティ操作装置（イベント停止）
+		CanceledSpawns: エンティティ操作装置（出現停止）
+		SpawnDecrease: エンティティ操作装置（出現減少）
+		SpawnIncrease: エンティティ操作装置（出現増加）
+	}
+
+	DestinationGlobe: {
+		Purity: 目的地グローブ（森林）
+		Hallow: 目的地グローブ（聖域）
+		Crimson: 目的地グローブ（真紅）
+		Corruption: 目的地グローブ（不浄）
+		GlowingMushroom: 目的地グローブ（光るキノコ）
+		Jungle: 目的地グローブ（ジャングル）
+		Snow: 目的地グローブ（雪原）
+		Desert: 目的地グローブ（砂漠）
+		NoModifier: 目的地グローブ（未選択）
+	}
+
+	GlowingMossStaff: {
+		HeliumMoss: 光るコケの杖（ヘリウム）
+		XenonMoss: 光るコケの杖（キセノン）
+		NeonMoss: 光るコケの杖（ネオン）
+		LavaMoss: 光るコケの杖（溶岩）
+		KryptonMoss: 光るコケの杖（クリプトン）
+		ArgonMoss: 光るコケの杖（アルゴン）
+	}
+
+	MossStaff: {
+		RedMoss: コケの杖（赤）
+		PurpleMoss: コケの杖（紫）
+		GreenMoss: コケの杖（緑）
+		BrownMoss: コケの杖（茶）
+		BlueMoss: コケの杖（青）
+	}
+
+	Omnistaff: {
+		StaffOfShrooming: オムニスタッフ（キノコ草）
+		StaffOfRegrowth: オムニスタッフ（草）
+		StaffOfOvergrownHemorrhaging: オムニスタッフ（真紅のジャングル草）
+		StaffOfOvergrownCysting: オムニスタッフ（不浄のジャングル草）
+		StaffOfOvergrowth: オムニスタッフ（ジャングル草）
+		StaffOfHemorrhaging: オムニスタッフ（真紅の草）
+		StaffOfHallowing: オムニスタッフ（聖域の草）
+		StaffOfCysting: オムニスタッフ（不浄の草）
+		StaffOfAshing: オムニスタッフ（灰草）
+	}
+
+	MosaicMirror: {
+		TeleportationMirror: モザイクミラー（テレポート）
+		MirrorOfReturn: モザイクミラー（帰還）
+		CursedMirror: モザイクミラー（直近の死亡地点）
+	}
+}
+
+TileStuff: {
+	Failed: "[c/ff1919:ホワイトリストに追加できません！メイン設定でホワイトリストを有効にしてください]"
+	Removed: ホワイトリストから削除:
+	Whitelisted: ホワイトリストに追加:
+}
+
+UIText: {
+	UnloadedText: Modが読み込まれていません
+	ThoriumText: Thorium のバフを開く
+	SpiritClassicText: Spirit Classic のバフを開く
+	SOTSText: Secrets of the Shadows のバフを開く
+	MartinsOrderText: Martin's Order のバフを開く
+	CalamityText: Calamity のバフを開く
+	VanillaText: バニラのバフを開く
+	RepellentText: 忌避バフ
+	AddonText: アドオン・バフ
+	StationText: 設備のバフ
+	PotionText: ポーションのバフ
+	ArenaText: 闘技場のバフ
+	GardenGnomeText: ガーデンノーム
+		DisabledText: "{0} [c/cf1d1d:(DISABLED)]"
+	ResetText: 選択をリセット
+	CloseText: 閉じる
+	PurityText: 森林
+	HallowText: 聖域（ハードモード必要）
+	CrimsonText: 真紅
+	CorruptionText: 不浄
+	GlowingMushroomText: 光るキノコ
+	JungleText: ジャングル
+	SnowText: 雪原
+	DesertText: 砂漠
+		VoidVaultText: 虚空の金庫
+		DefendersForgeText: ディフェンダーズ・フォージ
+	SafeText: 金庫
+	PiggyBankText: 豚の貯金箱
+	WaxingGibbousText: 十三夜
+	FirstQuarterText: 上弦
+	WaxingCrescentText: 三日月
+	NewMoonText: 新月
+	WaningCrescentText: 有明月
+	ThirdQuarterText: 下弦
+	WaningGibbousText: 居待月
+	FullMoonText: 満月
+	RevertText: 変更を元に戻す
+	CancelSpawnAndEventText: 出現もイベントもなし
+	CancelEventText: イベントなし
+	CancelSpawnText: 出現なし
+	DecreaseSpawnText: 出現を減らす
+	IncreaseSpawnText: 出現を増やす
+	MinibossText: ミニボス
+	EventText: イベント
+	BossText: ボス
+	ECFishText: Modの魚・釣り用品
+	ECHerbText: Modのハーブ・植物
+	ECBuildingBlockText: Modの建築ブロック
+	ECNaturalBlockText: Modの自然ブロック
+	ECOreText: Modの鉱石・インゴット
+	ECCrateText: Modのクレート・袋
+	ECBagText: Modのトレジャーバッグ
+	ECMaterial2Text: Modの素材（Mods: N–Z）
+	ECMaterialText: Modの素材（Mods: A–M）
+	ECStationText: Modのフラスコ・設備・食料
+	ECPotionText: Modのポーション
+	BMAmmoText: 弾薬
+	BMMountText: マウント・フック
+	BMFishText: 魚・釣り用品
+	BMHerbText: ハーブ・植物
+	BMBuildingBlockText: 建築ブロック
+	BMNaturalBlockText: 自然ブロック
+	BMOreText: 鉱石・インゴット
+	BMCrateText: クレート・袋
+	BMBagText: トレジャーバッグ
+	BMInformativeText: 情報／建築用品
+	BMCombatAccessoryText: 戦闘アクセサリ
+	BMMovementAccessoryText: 移動アクセサリ
+	BMMaterialText: 素材
+	BMStationText: フラスコ・設備・食料
+	BMPotionText: ポーション
+}
+
+InfoDisplayText: {
+	QuestFinished: クエスト完了
+	NoDPS: 該当なし
+	DDPS: "{0} デバフDPS"
+	InfiniteWingTime: 翼時間が無限
+	SpawnsDisabled: 出現は無効
+	FullMana: マナ満タン
+	FullHealth: ライフ満タン
+	WingTime: s 翼の残り時間
+	SpawnRate: 1秒あたりの出現数
+	SentrySlots: セントリースロット
+	Regeneration: 1秒あたりのライフ
+	MinionSlots: ミニオンスロット
+	MiningSpeed: % 採掘速度
+	ManaRegeneration: 1秒あたりのマナ
+	Luck: 運
+	Endurance: % 被ダメージ軽減
+	DeathCount: 総死亡数
+	DamageMultiplier: x ダメージ
+	CriticalStrikeChance: % クリティカル率
+	ArmorPenetration: 防御無視値
+}
+
+RecipeGroupNames: {
+	GourmetFlavor: 美食家のご馳走
+	ExquisitelyStuffed: たっぷり堪能の料理
+	PlentySatisfied: ほどよく満足の料理
+	WellFed: 腹ぺこ解消の料理
+	Doors: ドア
+	Sinks: 流し
+	Chairs: 椅子
+	Tables: テーブル
+	AnyUnderworldBanner: 地獄のバナー
+	AnyDesertBanner: 砂漠のバナー
+	AnySnowBanner: 雪原のバナー
+	AnyJungleBanner: ジャングルのバナー
+	AnyCrimsonBanner: 真紅のバナー
+	AnyCorruptionBanner: 不浄のバナー
+	AnyHallowBanner: 聖域のバナー
+	AnyBatBanner: コウモリのバナー
+	AnySlimeBanner: スライムのバナー
+	AnyArmoredBonesBanner: アーマードボーンのバナー
+	AnyPirateBanner: 海賊のバナー
+}
+
+Messages: {
+	SillySlapper: "{0} はぶっ飛ばされすぎて昇天した"
+	HostOnly: "[c/FF0000:変更できるのはサーバーホストのみです]"
+	WorldMaster: 難易度をマスターモードに変更しました
+	WorldExpert: 難易度をエキスパートモードに変更しました
+	WorldNormal: 難易度をノーマルモードに変更しました
+	WorldJourney: 難易度をジャーニーモードに変更しました
+	LockedThreeMechs: 3体の機械ボスをすべて倒すと解放
+	LockedOneMech: 機械ボスを1体倒すと解放
+	LockedHardmode: ハードモードに突入すると解放
+	LockedBossWithTwoOptions: "{0} または {1} を倒すと解放"
+	LockedBossWithTwoRequirements: "{0} と {1} を倒すと解放"
+	LockedBoss: "{0} を倒すと解放"
+	EventFrostMoon: 氷の月が昇りつつある…
+	EventPumpkinMoon: カボチャの月が昇りつつある…
+	EventEclipse: 日食が発生中！
+	EventBloodMoon: ブラッドムーンが昇りつつある…
+	EventSandstorm: 砂漠の風がうなり始めた
+	EventWind: 風がかき乱された
+	EventRain: 空が暗くなってきた
+	TeleportNPCsHome: "[c/32FF82:住民NPCを家にテレポートしました]"
+	MeteoriteGiven: "[c/FFF014:Collected {0} メテオライト] [i/s{0}:116]"
+	MeteorStopped: "[c/32FF82:隕石は大気圏で燃え尽きた！]"
+}
+
+NPCDropConditions: {
+	ExpertNotMaster: これはエキスパートのドロップ率です
+}
+
+ItemToggledConditions: {
+	Pylons: パイロンが有効
+	MobileStorages: モバイルストレージが有効
+	CraftingStations: 設備が有効
+	Banners: バナーレシピが有効
+	Crates: クレートレシピが有効
+	BossBags: ボス袋レシピが有効
+	ItemConversions: 変換レシピが有効
+	RecipeEnabled: レシピ有効
+	ItemEnabled: アイテム有効
+}
+
+DedicatedTooltips: {
+	Quinn: 献呈: Quinn
+	Nobisyu: 献呈: Nobisyu
+	Ned: 献呈: Ned
+	Jay: 献呈: Jay
+	Jack: 献呈: Jack
+	Jabon: 開発: Jabon
+	BladeBurger: 献呈: BladeBurger
+}
+
+CommonItemTooltips: {
+	AssetNotFound: "[c/cf1d1d:Modアセットが見つからないため既定のアセットを適用しました]"
+	KillMobileStorage: インベントリで右クリックすると稼働中のモバイルストレージを全て消滅させます
+	DarkHealerClass: "[c/b266ff:-ヒーラー（闇）-]"
+	HealerClass: "[c/ffff5b:-ヒーラー-]"
+	BardClass: "[c/00ff80:-バード-]"
+	DruidClass: "[c/c4f129:-ドルイド-]"
+	RogueClass: "[c/ce84e3:-ローグ-]"
+	Tool: "[c/ffffff:-ツール-]"
+	Classless: "[c/623ea6:-クラストレス-]"
+	ThrowerClass: "[c/a1724a:-スローワー-]"
+	SummonerClassWhip: "[c/88e2ff:-サモナー-（鞭）]"
+	SummonerClass: "[c/88e2ff:-サモナー-]"
+	SorcererClass: "[c/fe7ee5:-ソーサラー-]"
+	RangerClass: "[c/22dd97:-レンジャー-]"
+	WarriorClass: "[c/fe7902:-ウォリアー-]"
+	FromMod: 出典Mod: {0}
+	Disabled: (DISABLED)
+	ItemDisabled: (ITEM DISABLED)
+	PotionCrateTooltip:
+		'''
+		{0}本のポーションを持った状態で右クリックすると預け入れます
+		何も持たずに右クリックすると預けたポーションを取り出します
+		どのストレージからでもバフを適用します
+		'''
+	ActiveBuff: バフが発動中
+	Active: アイテムが有効
+	UseAmmo: 弾薬として [i:{0}]（{1}）を使用
+	ShimmerableIntoNPC: シマーでNPCに変換可能: {0}
+	ShimmerableIntoItem: シマーでアイテムに変換可能: [i:{0}]（{1}）
+	ShimmerCoinLuck: シマーでコイン運に変換: {0}
+	Shimmerable: シマー可能
+	UsedItemCountable: 使用状況 {0}/{1}
+	UsedItem: このアップグレードは使用済み
+	HookPullSpeed: 巻取り速度: {0}
+	HookReach: 射程: {0}
+	VerticalSpeedMul: 垂直速度倍率: {0}
+	HorizontalSpeed: 水平速度: {0}
+	FlightTime: 飛行時間: {0}
+	GlowingMossStaffPlaceable: 石または灰色レンガに光るコケを生成
+	MossStaffPlaceable: 石または灰色レンガにコケを生成
+	OmnistaffPlaceable: 土・泥・灰に草を生成
+	StaffOfShroomingPlaceable: 泥にキノコ草を生成
+	StaffOfOvergrowthPlaceable: 泥にジャングル草を生成
+	StaffOfOvergrownHemorrhagingPlaceable: 泥に真紅の草を生成
+	StaffOfOvergrownCystingPlaceable: 泥に不浄の草を生成
+	StaffOfHemorrhagingPlaceable: 土に真紅の草を生成
+	StaffOfHallowingPlaceable: 土に聖域の草を生成
+	StaffOfCystingPlaceable: 土に不浄の草を生成
+	StaffOfAshingPlaceable: 灰に灰草を生成
+	WorksInBanks: 個人ストレージ内から機能
+	NotConsumable: 消費しない
+}
+

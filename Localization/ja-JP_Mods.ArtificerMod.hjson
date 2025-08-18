@@ -1,0 +1,1280 @@
+{
+	"Configs": {
+		"ConfigServer": {
+			"BonusArtificerSlot": {
+				"Tooltip": "trueに設定すると、アーティフィサーのアーマーセットボーナスが通常より1つ多くの追加アクセサリー(アーティフィサー)スロットを付与する\n例えば、通常+2を追加するチャンピオンアーマーは、この設定をオンにすると+3スロットを付与する\nバランスの取れたプレイのため、他のMOD(例: ウィングスロット、シュースロットなど)から多数の追加スロットがある場合にのみこれを使用することが推奨される\nデフォルトはfalse",
+				"Label": "[i:ArtificerMod/AstralCuirass] アーティフィサーセットボーナスがアクセサリー(アーティフィサー)スロットをさらに+1付与する"
+			},
+			"PresentDeathText": {
+				"Tooltip": "ラッキープレゼントのアビリティによるダメージ効果でプレイヤーが何らかの形で死亡した場合、この設定がtrueである限り、ユニークなデスメッセージが表示される\nラッキープレゼントのダメージ効果はHP1のプレイヤーしか倒せないため、プレイヤーがこの方法で死ぬことはほとんどないはず\nデフォルトはtrue",
+				"Label": "[i:ArtificerMod/LuckyPresent] ラッキープレゼントによる特別なデスメッセージ"
+			},
+			"GodmodeCooldown": {
+				"Tooltip": "trueに設定すると、ジャーニーモードのゴッドモード機能を使用するとアビリティアクセサリーのクールダウンが75%減少する\nこの機能は、アーティフィサーのアーマーセットやアビリティアクセサリーを装備していないことによるペナルティも無効にする\nジャーニーモードでさまざまなアビリティをより簡単にテストするのに適している\nデフォルトはfalse",
+				"Label": "[i:ArtificerMod/NovaEmblem] ジャーニーモードのゴッドモードがアビリティのクールダウン時間を短縮する"
+			},
+			"CultistExpertDrop": {
+				"Tooltip": "ルナティックカルティストがエキスパートモードでトレジャーバッグをドロップするかどうか/方法を決定できる\nこのMODはカルティストにエキスパートドロップを追加し、それは通常入手不可能な彼のトレジャーバッグからドロップする\n'ドロップバッグ'を選択すると、カルティストがアクセサリー入りのバッグをドロップするようになる\n'ドロップなし'を選択すると、このMODがバッグをドロップせず、アクセサリーがバッグからドロップするのも防ぐ\n'バッグなし'を選択すると、このMODがバッグをドロップしないが、アクセサリーはそれからドロップできるようにする\nこのオプションは、他のMODがカルティストにバッグをドロップさせ、一度に複数のバッグがドロップするのを防ぎたい場合に適している",
+				"Label": "[i:ArtificerMod/DarkmoonPact] ルナティックカルティストのエキスパートドロップ"
+			},
+			"DisplayName": "サーバーサイド設定"
+		},
+		"ConfigClient": {
+			"cooldownAwareness": {
+				"Tooltip": "アビリティアクセサリーのクールダウンが終了したときに発生する追加の視覚効果を切り替える\ntrueに設定すると、追加のダスト生成とテキストポップアップが表示され、認識度/アクセシビリティが向上する\nカスタムゼノアーマーのsfxが有効な場合(上記参照)、リフレッシュ効果音も置き換えられる\nデフォルトはfalse",
+				"Label": "[i:ArtificerMod/ClockworkStopwatch] クールダウン認識度の向上"
+			},
+			"xenoHaloShields": {
+				"Tooltip": "ゼノアーマーのセットボーナスによるシールドがカスタムノイズを再生するか、バニラのものを再生するかを切り替える\n充電中、および損傷/破損したときのノイズがある\nfalseの場合、充電ノイズは再生されず、損傷/破損ノイズはバニラのノイズに切り替えられる\n免責事項: 使用されているサウンドはHaloのものである。私はいかなる形でも提携しておらず、すべての権利はそれぞれの所有者に帰属する",
+				"Label": "[i:ArtificerMod/XenoSuit] ゼノアーマーシールドのカスタムsfx"
+			},
+			"DisplayName": "クライアントサイド設定"
+		}
+	},
+	"Keybinds": {
+		"Accessory Abilities (Extra hotkey)": {
+			"DisplayName": "アクセサリーアビリティ(追加ホットキー)"
+		},
+		"Activate Accessory Abilities": {
+			"DisplayName": "アクセサリーアビリティを発動"
+		}
+	},
+	"Projectiles": {
+		"GamblecoreSilver": {
+			"DisplayName": "シルバーコイン"
+		},
+		"GamblecorePlatinum": {
+			"DisplayName": "プラチナコイン"
+		},
+		"GamblecoreGold": {
+			"DisplayName": "ゴールドコイン"
+		},
+		"GamblecoreCopper": {
+			"DisplayName": "カッパーコイン"
+		},
+		"GamblecoreCube": {
+			"DisplayName": "ギャンブルコアキューブ"
+		},
+		"PrimevalAura": {
+			"DisplayName": "プライミーバルオーラ"
+		},
+		"SinisterAura": {
+			"DisplayName": "シニスターオーラ"
+		},
+		"MoonfallBeam": {
+			"DisplayName": "ムーンフォールビーム"
+		},
+		"MoonfallFlare": {
+			"DisplayName": "ムーンフォールフレア"
+		},
+		"AuroraBorealis": {
+			"DisplayName": "オーロラ"
+		},
+		"LienKnife": {
+			"DisplayName": "リアンナイフ"
+		},
+		"LienLifesteal": {
+			"DisplayName": "リアンライフスティール"
+		},
+		"NovaFrag": {
+			"DisplayName": "ノヴァフラグ"
+		},
+		"StarBeam": {
+			"DisplayName": "スタービーム"
+		},
+		"Supernova": {
+			"DisplayName": "スーパーノヴァ"
+		},
+		"StellarResonance": {
+			"DisplayName": "ステラレゾナンス"
+		},
+		"FearReaperBlade": {
+			"DisplayName": "フィアリーパー"
+		},
+		"Missile": {
+			"DisplayName": "ミサイル"
+		},
+		"ObliterationBeam": {
+			"DisplayName": "デスレイ"
+		},
+		"MiniProbe": {
+			"DisplayName": "ミニプローブ"
+		},
+		"ProbeLaser": {
+			"DisplayName": "レーザー"
+		},
+		"HarvesterNuke": {
+			"DisplayName": "ネクロティックエクスプロージョン"
+		},
+		"LifelineHook": {
+			"DisplayName": "ライフライン"
+		},
+		"LifelineHeal": {
+			"DisplayName": "バイタルライフスティール"
+		},
+		"LeechingTetherHook": {
+			"DisplayName": "リーチングテザー"
+		},
+		"LeechingTetherHeal": {
+			"DisplayName": "リーチライフスティール"
+		},
+		"DarkLeechHook": {
+			"DisplayName": "ダークリーチ"
+		},
+		"DarkLeechHeal": {
+			"DisplayName": "ダークライフスティール"
+		},
+		"OrnateRingFlash": {
+			"DisplayName": "オーネートリングフラッシュ"
+		},
+		"RepulseShockwave": {
+			"DisplayName": "リパルスショックウェーブ"
+		},
+		"RepulseMissile": {
+			"DisplayName": "リパルスロケット"
+		},
+		"RepulseBomb": {
+			"DisplayName": "リパルスボム"
+		},
+		"HiddenBladeProj": {
+			"DisplayName": "ヒドゥンブレード"
+		},
+		"AssassinNeedle": {
+			"DisplayName": "アサシンニードル"
+		},
+		"BarrageNeedle": {
+			"DisplayName": "バレッジニードル"
+		},
+		"TwinLaser": {
+			"DisplayName": "ツインレーザー"
+		},
+		"PlasmaCrossbones": {
+			"DisplayName": "プラズマクロスボーン"
+		},
+		"MetalCrossbones": {
+			"DisplayName": "メタルクロスボーン"
+		},
+		"BlueShell": {
+			"DisplayName": "アイススパイクシェル"
+		},
+		"PermafrostCloakSpikes": {
+			"DisplayName": "アイスシャード"
+		},
+		"LihzahrdArmorBeam": {
+			"DisplayName": "ソーラーエネルギー"
+		},
+		"StarplateBlast": {
+			"DisplayName": "スタープレートブラスト"
+		},
+		"StarwriterSavePos": {
+			"DisplayName": "スターライタースター"
+		},
+		"SolarBlast": {
+			"DisplayName": "ソーラーブラスト"
+		},
+		"FirstPrismProj": {
+			"DisplayName": "ファーストプリズム"
+		},
+		"FirstPrismBeam": {
+			"DisplayName": "プリズムビーム"
+		},
+		"BulwarkAura": {
+			"DisplayName": "ブルワークマジック"
+		},
+		"BewitchedBulwarkProj": {
+			"DisplayName": "ビウィッチドブルワーク"
+		}
+	},
+	"Items": {
+		"GamblerFallacy": {
+			"Tooltip": "発動アビリティ: コインキューブを回転させて投げる\nキューブはどの面が出るかに基づいて、ダメージを与え収集可能なコインに変わる\n価値の高いコインほど希少だが、より多くのダメージを与える\n「さあ、ギャンブルをしよう！」",
+			"DisplayName": "ギャンブラーの誤謬"
+		},
+		"PrimevalRelic": {
+			"Tooltip": "発動アビリティ: 10秒間、自分の周りに大きなオーラを放つ\nオーラに入った敵は一時的に移動速度が遅くなり、防御力が30低下する\n敵の力を吸収すると、自分のライフ回復がブーストされる\n敵を吸収する時間が長いほど、回復の効果が高まる\n「トロフィーのようだ」",
+			"DisplayName": "プライミーバルレリック"
+		},
+		"SinisterEffigy": {
+			"Tooltip": "発動アビリティ: 10秒間、自分の周りに闇のオーラを放つ\nオーラに入った敵は一時的にダメージが10%低下する\n敵の力を吸収すると、一時的に自分のダメージが10%ブーストされる\n[プレースホルダー]",
+			"DisplayName": "シニスターエフィジー"
+		},
+		"CrashBoots": {
+			"Tooltip": "ダッシュ能力を付与する\n方向キーをダブルタップ\n空中で押し続けると速く落下する\nノックバックと炎ブロックへの耐性を付与する\n重力軽減効果と落下ダメージへの耐性を増加させる",
+			"DisplayName": "衝撃のブーツ"
+		},
+		"SkywardShoes": {
+			"Tooltip": "翼の飛行時間をわずかに増加させる\n落下耐性を増加させる\n垂直にダッシュする能力を付与する\n上または下をダブルタップ\n垂直ダッシュは飛行時間を消費し、翼がない場合は地面にいるときのみ機能する",
+			"DisplayName": "スカイウォードシューズ"
+		},
+		"WingRing": {
+			"Tooltip": "翼の飛行時間を増加させる",
+			"DisplayName": "翼の指輪"
+		},
+		"MerfolkBoots": {
+			"Tooltip": "着用者は超高速で走ることができる\nジャンプ速度を上昇させ、オートジャンプを可能にする\n落下耐性を増加させる\n水とハチミツの上を歩き、泳ぐ能力を付与する",
+			"DisplayName": "人魚のブーツ"
+		},
+		"AquaticBoots": {
+			"Tooltip": "水とハチミツの上を歩き、泳ぐ能力を付与する",
+			"DisplayName": "アクアティックブーツ"
+		},
+		"WeatherBottle": {
+			"Tooltip": "所持者に4段ジャンプを許可する",
+			"DisplayName": "瓶詰めの天気"
+		},
+		"AstralHeadgearG": {
+			"Tooltip": "ダメージ {0}% 増加\nクリティカル率 {1}% 増加\nマナ消費 {2}% 減少\n弾薬を消費しない確率 {3}%\n最大ミニオン数を {4} 増加させる",
+			"DisplayName": "古代のノヴァヘッドギア"
+		},
+		"AstralGreavesG": {
+			"Tooltip": "最大マナを {0} 増加させる\nダメージとクリティカル率 {1}% 増加\n投擲速度 10% 増加\n移動速度 {2}% 増加",
+			"DisplayName": "古代のノヴァグリーヴ"
+		},
+		"AstralCuirassG": {
+			"Tooltip": "ダメージ {0}% 増加\nクリティカル率 {1}% 増加\n最大ミニオン数を {2} 増加させる\nわずかなライフ回復を付与する",
+			"DisplayName": "古代のノヴァキュイラス"
+		},
+		"NovaHologliderG": {
+			"Tooltip": "飛行とゆっくりとした落下を可能にする\n'グリーン'",
+			"DisplayName": "古代のノヴァホログライダー"
+		},
+		"AncientChampionsHeadpiece": {
+			"Tooltip": "ダメージ {0}% 増加\nクリティカル率 {1}% 増加\n弾薬を消費しない確率 {2}%\n'何年も前のものだが、この貴重なヘッドピースの防御能力は保護エンチャントで強化されている'",
+			"DisplayName": "古代のチャンピオンヘッドピース"
+		},
+		"EtherealCharm": {
+			"Tooltip": "マナ消費 {0}% 減少\n必要なときに自動的にマナポーションを使用する\n最大マナを {1} 増加させる\n表示されているとき、ほとんどの所持している魔法武器を不可視にする",
+			"DisplayName": "エーテルのお守り"
+		},
+		"LifeWell": {
+			"Tooltip": "回復ポーションのクールダウンを25%減少させる\n必要なときに自動的に回復ポーションを使用する",
+			"DisplayName": "ライフウェル"
+		},
+		"MotherboardOfIllusion": {
+			"Tooltip": "敵に狙われにくくなる\n攻撃を回避して幻影を作り出すことがある\n回避に成功すると、一時的に敵に狙われにくくなり、ダメージが増加する\n攻撃を受けた後、近くの敵を混乱させることがある",
+			"DisplayName": "幻影のマザーボード"
+		},
+		"DestroyerScarf": {
+			"Tooltip": "受けるダメージを18%減少させる\n防御無視値を8増加させる",
+			"DisplayName": "デストロイヤーのスカーフ"
+		},
+		"TwinShield": {
+			"Tooltip": "ノックバックへの耐性を付与する\n時々、正面の敵にレーザーを発射する\nプレイヤーが敵にダッシュすることを可能にする\n方向キーをダブルタップ",
+			"DisplayName": "ツインシールド"
+		},
+		"TerraShield": {
+			"Tooltip": "ノックバックへの耐性を付与する\nほとんどのデバフへの耐性を付与する\nライフが25%以上のとき、近くの味方を死から守る。ライフが25%未満のとき、自分だけが守られる\n保護されたプレイヤーが致命的なダメージを受けると、代わりにHP1で生き残る\nこの効果が発動すると、プレイヤーは一時的に継続ダメージに耐性を持ち、次の近接攻撃が増幅される\nこの効果には60秒のクールダウンがあり、このシールドを装備している間は25%短縮される",
+			"DisplayName": "テラシールド"
+		},
+		"ArtificerArm": {
+			"Tooltip": "攻撃に電荷を追加し、時々敵に感電させる\n近接攻撃と鞭の攻撃速度が15%上昇する\n近接武器と鞭のオート攻撃を有効にする\n「鋼の強さと確実性を渇望した…」",
+			"DisplayName": "アーティフィサーアーム"
+		},
+		"ClockworkStopwatch": {
+			"Tooltip": "アビリティアクセサリーのクールダウンを{0}%減少させる\n戦闘中に自動的にアビリティアクセサリーを発動させる\n「常に時間通り」",
+			"DisplayName": "正確なストップウォッチ"
+		},
+		"PermafrostShell": {
+			"Tooltip": "ダメージを受けると防御力とライフ自然回復が増進する\nライフが50%未満のとき、所有者の周りを棘のある氷のシェルが周回し、敵にダメージを与え、ダメージを25%減少させる\nシェルがある状態でダメージを受けると、シェルは敵に激しく突進して爆発する\n破壊されたシェルはしばらくすると新しいものに置き換わる\n凍え、凍結、霜焼け効果への耐性を付与する\n「ブルーシェル？！」",
+			"DisplayName": "パーマフロストシェル"
+		},
+		"PermafrostCloak": {
+			"Tooltip": "ダメージを受けると防御力とライフ回復が増加する\nダメージを受けると、近くの敵を攻撃する報復の氷のかけらを放出することがある\n寒気、凍結、フロストバーン効果への耐性を付与する",
+			"DisplayName": "パーマフロストマント"
+		},
+		"CorruptedBulwark": {
+			"Tooltip": "ライフが25%未満のとき、ダメージが15%増加する\nノックバックへの耐性を付与する\n敵に狙われにくくなる\n「すべての者が揺るぎなく正義の道を歩むわけではない…」",
+			"DisplayName": "コラプトブルワーク"
+		},
+		"BloodNecklace": {
+			"Tooltip": "ダメージを受けると移動速度と攻撃速度が上昇する\n敵に狙われやすくなる\n「流血があるだろう！」",
+			"DisplayName": "血のネックレス"
+		},
+		"PredatorQuiver": {
+			"Tooltip": "矢のダメージを10%増加させ、矢の速度を大幅に上昇させる\n20%の確率で矢を消費しない\n遠距離武器の防御無視値を増加させる",
+			"DisplayName": "捕食者の矢筒"
+		},
+		"NovaHologlider": {
+			"Tooltip": "飛行とゆっくりとした落下を可能にする",
+			"DisplayName": "ノヴァホログライダー"
+		},
+		"PhasestrideBoots": {
+			"Tooltip": "着用者は超高速で走ることができる\nテレポートダッシュを実行する能力を付与する\n方向キーをダブルタップ\nテレポートは目的地に十分なスペースがあれば壁を通り抜けることができる\n移動速度が{0}%上昇\n「もしかしたら、これでパラレルユニバースにクリップできるかも」",
+			"DisplayName": "フェイズストライドブーツ"
+		},
+		"ShadowSneakers": {
+			"Tooltip": "着用者は超高速で走ることができる\nダッシュ能力を付与する\n方向キーをダブルタップ\n移動速度が{0}%上昇",
+			"DisplayName": "シャドウスニーカー"
+		},
+		"ElementalBalloon": {
+			"Tooltip": "所持者に6段ジャンプを許可する\nジャンプの高さを増加させ、落下ダメージを無効にする\nダメージを受けると蜂を放ち、ユーザーをハチミツで濡らす\n翼とは互換性がない",
+			"DisplayName": "エレメンタルバルーン"
+		},
+		"SuperMagnet": {
+			"Tooltip": "アイテムのピックアップ範囲を大幅に増加させる\nマナスター、コイン、ライフハートのピックアップ範囲をさらに増加させる\n装備していなくても、弱体化した効果を付与することがある",
+			"DisplayName": "スーパーマグネット"
+		},
+		"LuckyStar": {
+			"Tooltip": "運を増加させる\n運に基づいてクリティカルヒットを保証する小さなチャンスを付与する\n「その暖かい輝きはあなたの精神を高揚させる」",
+			"DisplayName": "幸運の星"
+		},
+		"ActionStar": {
+			"Tooltip": "運を増加させる\n運に基づいてクリティカルヒットを保証する小さなチャンスを付与する\nクリティカルストライクは追加で+40%のダメージを与える\n「その明るい輝きは、戦場を支配するようにあなたを鼓舞する！」",
+			"DisplayName": "アクションスター"
+		},
+		"TerraEmblem": {
+			"Tooltip": "ダメージが{0}%増加する",
+			"DisplayName": "テラエンブレム"
+		},
+		"PhilosopherNecklace": {
+			"Tooltip": "回復ポーションの再使用間隔を10%短縮させる\nダメージを受けた後の無敵時間を延長する\nダメージを受けると、回復ポーションの再使用間隔がわずかに短縮されることがある",
+			"DisplayName": "フィロソファーのネックレス"
+		},
+		"ShadowflameScroll": {
+			"Tooltip": "魔法クリティカル率が{0}%増加\n魔法クリティカルストライクはシャドウフレイムを与える\n「我々は魔法を唱えるのが大好きだ！」",
+			"DisplayName": "シャドウフレイムの巻物"
+		},
+		"PygmyBracer": {
+			"Tooltip": "鞭の攻撃範囲が{0}%増加する",
+			"DisplayName": "ピグミーブレイサー"
+		},
+		"DeftPouch": {
+			"Tooltip": "ダーツの速度が10%上昇\n17%の確率でダーツを消費しない",
+			"DisplayName": "デフトポーチ"
+		},
+		"VortexEmblem": {
+			"Tooltip": "遠距離ダメージが{0}%増加\n遠距離クリティカル率が{1}%上昇",
+			"DisplayName": "ヴォルテックスの紋章"
+		},
+		"SummonersMitt": {
+			"Tooltip": "鞭のダメージが5%増加\n鞭の攻撃速度が{0}%上昇\n近接武器と鞭のオート攻撃を有効にする",
+			"DisplayName": "サモナーズミット"
+		},
+		"StardustEmblem": {
+			"Tooltip": "召喚ダメージが{0}%増加",
+			"DisplayName": "スターダストの紋章"
+		},
+		"SpiritGrasp": {
+			"Tooltip": "召喚ダメージが{0}%増加\n鞭の攻撃速度が{1}%上昇攻撃\n鞭の攻撃範囲が{2}%増加\n近接武器と鞭のオート攻撃を有効にする",
+			"DisplayName": "スピリットグラスプ"
+		},
+		"SolarEmblem": {
+			"Tooltip": "近接ダメージが{0}%増加\n近接速度が{1}%上昇",
+			"DisplayName": "ソーラーフレアの紋章"
+		},
+		"NebulaEmblem": {
+			"Tooltip": "魔法ダメージが{0}%増加\nマナ消費量が{1}%減少",
+			"DisplayName": "ネビュラの紋章"
+		},
+		"DefenderEmblem": {
+			"Tooltip": "ダメージが{0}%増加\n召喚ダメージが{1}%増加\n最大セントリー数を{2}増加させる",
+			"DisplayName": "ディフェンダーの紋章"
+		},
+		"BeastmasterGlove": {
+			"Tooltip": "召喚ダメージが{0}%増加\n鞭の攻撃速度が{1}%上昇\n鞭の攻撃範囲{2}%増加\n近接武器と鞭のオート攻撃を有効にする",
+			"DisplayName": "ビーストマスターグローブ"
+		},
+		"TerradepthGear": {
+			"Tooltip": "泳ぐ能力を付与し、水中呼吸を大幅に延長する\n視界を改善し、着用時に光を提供する\n壁を登る能力を付与する\nジャンプ速度を上昇させ、自動ジャンプを可能にする\n落下耐性を増加させる\n氷上での追加の機動性を提供する",
+			"DisplayName": "テラ・デプスギア"
+		},
+		"UltrabrightDivingGear": {
+			"Tooltip": "泳ぐ能力を付与し、水中呼吸を大幅に延長する\n視界を改善し、着用時に光を提供する\n「暗闇も深淵も、あなたから秘密を隠せない」",
+			"DisplayName": "ウルトラブライトダイビングギア"
+		},
+		"HadopelagicDivingGear": {
+			"Tooltip": "泳ぐ能力を付与し、水中呼吸を大幅に延長する\n視界を改善し、着用時に光を提供する\n氷上での追加の機動性を提供する\n「免責事項: 実際の超深海圧下では効果がない」",
+			"DisplayName": "ハドペラジックダイビングギア"
+		},
+		"SandstormCarpet": {
+			"Tooltip": "改善された二段ジャンプが可能\n少しの間浮遊出来る\n「世界を見せてくれるかも…しれない」",
+			"DisplayName": "砂嵐のじゅうたん"
+		},
+		"HunterCharm": {
+			"Tooltip": "遠距離クリティカル率が{0}%上昇",
+			"DisplayName": "狩人のお守り"
+		},
+		"PowerBoots": {
+			"Tooltip": "飛行を可能にする\nノックバックと炎ブロックへの耐性を付与する\n落下速度と耐性を増加させるが、移動速度を10%低下させる\n重力軽減効果の効力を減少させる",
+			"DisplayName": "パワーブーツ"
+		},
+		"MorbidNecklace": {
+			"Tooltip": "敵の防御を10無視"
+			"DisplayName": "モービッドネックレス"
+		},
+		"HeavyBoots": {
+			"Tooltip": "落下速度と耐性を増加させるが、移動速度を10%低下させる\n重力軽減効果の効力を減少させる",
+			"DisplayName": "ヘビーブーツ"
+		},
+		"DynamicBoots": {
+			"Tooltip": "飛行を可能にする\n落下速度と耐性を増加させるが、移動速度を10%低下させる\n重力軽減効果の効力を減少させる",
+			"DisplayName": "ダイナミックブーツ"
+		},
+		"SoulHunterNecklace": {
+			"Tooltip": "攻撃は一時的に敵の防御力を20減少させる",
+			"DisplayName": "ソウルハンターネックレス"
+		},
+		"HeartsurgeCharm": {
+			"Tooltip": "クリティカル率が{0}%上昇\nゆっくりとライフを回復する\n最大ライフを{1}増加させる\nライフハートのピックアップ範囲をわずかに増加させる\n敵を倒したり、クリティカルヒットを当てたりすると、時々ミニハートが生成される",
+			"DisplayName": "ハートサージのお守り"
+		},
+		"HeartsurgeHeart": {
+			"Tooltip": "「ヘルス」",
+			"DisplayName": "ミニハート"
+		},
+		"LifeforceBand": {
+			"Tooltip": "ゆっくりとライフを回復する\n最大ライフを{0}増加させる",
+			"DisplayName": "生命強化の腕輪"
+		},
+		"LifesurgeBand": {
+			"Tooltip": "クリティカル率{0}%上昇\nゆっくりとライフを回復する\n最大ライフを{1}増加させる\nクリティカルヒットは時々ライフ回復を一時的にブーストする",
+			"DisplayName": "ライフサージバンド"
+		},
+		"UltrasightHelmet": {
+			"Tooltip": "視界を改善し、着用時に光を提供する\n視界範囲を増加させる\n<right>でズームアウト\n「暗闇はあなたに秘密を持たない」",
+			"DisplayName": "ウルトラサイトヘルメット"
+		},
+		"OmnisightHelmet": {
+			"Tooltip": "視界を改善し、着用時に光を提供する\n宝物と鉱石の場所を表示する\n敵の場所を表示する\n近くの危険源を見ることができる\n視界範囲を増加させる\n<right>でズームアウト\n「究極の洞窟探検」",
+			"DisplayName": "オムニサイエンスヘルメット"
+		},
+		"NovaFragment": {
+			"Tooltip": "「死にゆく星の破壊的な力がこの破片に宿っている」",
+			"DisplayName": "ノヴァの断片"
+		},
+		"MartianScrap": {
+			"Tooltip": "「エイリアンの円盤のハイテクな残骸」",
+			"DisplayName": "火星のスクラップ"
+		},
+		"GazersGoggles": {
+			"Tooltip": "視界範囲を増加させる\n<right>でズームアウト",
+			"DisplayName": "ゲイザーズゴーグル"
+		},
+		"TechLeggings": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇",
+			"DisplayName": "テックレギンス"
+		},
+		"TechHeadgear": {
+			"Tooltip": "最大マナを{0}増加させる\nダメージが{1}%増加",
+			"DisplayName": "テックヘッドギア"
+		},
+		"TechBreastplate": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n投擲速度が3%上昇",
+			"DisplayName": "テックスーツ"
+		},
+		"StarplateVisor": {
+			"Tooltip": "クリティカル率が{0}%上昇",
+			"DisplayName": "スタープレートのバイザー"
+		},
+		"StarplateGreaves": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇",
+			"DisplayName": "スタープレートのすね当て"
+		},
+		"StarplateBreastplate": {
+			"Tooltip": "ダメージが{0}%増加",
+			"DisplayName": "スタープレートの胸当て"
+		},
+		"OrnateLeggings": {
+			"Tooltip": "ダメージが{0}%増加",
+			"DisplayName": "オーネートのすね当て"
+		},
+		"OrnateHelmet": {
+			"Tooltip": "クリティカル率が{0}%上昇",
+			"DisplayName": "オーネートの兜"
+		},
+		"OrnateBreastplate": {
+			"Tooltip": "ダメージが{0}%増加",
+			"DisplayName": "オーネートの胸当て"
+		},
+		"XenoVisor": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n{2}%の確率で弾薬を消費しない\n最大ミニオン数を{3}増加させる",
+			"DisplayName": "ゼノバイザー"
+		},
+		"XenoSuit": {
+			"Tooltip": "最大マナを{0}増加させる\nダメージが{1}%増加\nクリティカル率が{2}%上昇\n最大ミニオン数を{3}増加させる",
+			"DisplayName": "ゼノスーツ"
+		},
+		"XenoLeggings": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n移動速度が{2}%上昇",
+			"DisplayName": "ゼノレギンス"
+		},
+		"TarnishedLeggings": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n移動速度が{2}%上昇\n「この鎧の中の闇の魂が、さらなる保護を提供するために利用されている」",
+			"DisplayName": "ターニッシュのすね当て"
+		},
+		"TarnishedHelmet": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇\n{1}%の確率で弾薬を消費しない\n「この鎧の中の闇の魂が、さらなる保護を提供するために利用されている」",
+			"DisplayName": "ターニッシュの兜"
+		},
+		"TarnishedBreastplate": {
+			"Tooltip": "クリティカル率が{0}%上昇\n最大ミニオン数を{1}増加させる\n「この鎧の中の闇の魂が、さらなる保護を提供するために利用されている」",
+			"DisplayName": "ターニッシュの胸当て"
+		},
+		"PossessedLeggings": {
+			"Tooltip": "'この鎧の中の闇の魂が、あなたを守ることを妨げている…'",
+			"DisplayName": "ポゼッスドのすね当て"
+		},
+		"PossessedHelmet": {
+			"Tooltip": "'この鎧の中の闇の魂が、あなたを守ることを妨げている…'",
+			"DisplayName": "ポゼッスドの兜"
+		},
+		"PossessedBreastplate": {
+			"Tooltip": "'この鎧の中の闇の魂が、あなたを守ることを妨げている…'",
+			"DisplayName": "ポゼッスドの胸当て"
+		},
+		"RadiantLeggings": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇\n移動速度が{1}%上昇",
+			"DisplayName": "ラディアントのすね当て"
+		},
+		"RadiantFacemask": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇\n最大ミニオン数を{1}増加させる",
+			"DisplayName": "ラディアントの仮面"
+		},
+		"RadiantBreastplate": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\nマナ消費量が{2}%減少",
+			"DisplayName": "ラディアントの胸当て"
+		},
+		"MechanicalPlate": {
+			"Tooltip": "ダメージが{0}%増加\n{1}%の確率で弾薬を消費しない",
+			"DisplayName": "メカニカルプレート"
+		},
+		"MechanicalMask": {
+			"Tooltip": "最大マナを{0}増加させる\nクリティカル率が{1}%上昇\n最大ミニオン数を{2}増加させる",
+			"DisplayName": "メカニカルマスク"
+		},
+		"MechanicalGreaves": {
+			"Tooltip": "ダメージとクリティカル率が{0}%上昇\n投擲速度が4%上昇\n移動速度が{1}%上昇",
+			"DisplayName": "メカニカルグリーヴ"
+		},
+		"LihzahrdVisage": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\nマナ消費量が{2}%減少\n最大ミニオン数を{3}増加させる\n敵に狙われやすくなる",
+			"DisplayName": "リザードの仮面"
+		},
+		"LihzahrdPlate": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n{2}%の確率で弾薬を消費しない\n最大ミニオン数を{3}増加させる\n敵に狙われやすくなる",
+			"DisplayName": "リザードの胸当て"
+		},
+		"LihzahrdGreaves": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n移動速度が{2}%上昇\n敵に狙われやすくなる",
+			"DisplayName": "リザードのすね当て"
+		},
+		"ChampionsHeadpiece": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n{2}%の確率で弾薬を消費しない\n「簡素な布でできているが、この貴重なフードの防御能力は保護エンチャントで強化されている」",
+			"DisplayName": "チャンピオンのフード"
+		},
+		"ChampionsCuirass": {
+			"Tooltip": "最大マナを{0}増加させる\nダメージとクリティカル率が{1}%上昇\n最大ミニオン数を{2}増加させる\n投擲速度が6%上昇\n「かつて遠い過去の王国で高い地位にあった者たちが着用した貴重な衣服」",
+			"DisplayName": "チャンピオンのキュイラス"
+		},
+		"ChampionsBoots": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n移動速度が{2}%上昇\n「代々受け継がれ、古代の金属で補強された貴重なブーツ‥あなたの旅をきっと助けてくれるだろう」",
+			"DisplayName": "チャンピオンのブーツ"
+		},
+		"AstralHeadgear": {
+			"Tooltip": "ダメージが{0}%が増加\nクリティカル率が{1}%上昇\nマナ消費量が{2}%減少\n{3}%の確率で弾薬を消費しない\n最大ミニオン数を{4}増加させる",
+			"DisplayName": "ノヴァヘッドギア"
+		},
+		"AstralGreaves": {
+			"Tooltip": "最大マナを{0}増加させる\nダメージとクリティカル率が{1}%上昇\n投擲速度が10%上昇\n移動速度が{2}%上昇",
+			"DisplayName": "ノヴァグリーヴ"
+		},
+		"AstralCuirass": {
+			"Tooltip": "ダメージが{0}%増加\nクリティカル率が{1}%上昇\n最大ミニオン数を{2}増加させる\nわずかなライフ回復を付与する",
+			"DisplayName": "ノヴァキュイラス"
+		},
+		"SpaceCore": {
+			"Tooltip": "魔法クリティカル率が{0}%上昇",
+			"DisplayName": "スペースコア"
+		},
+		"GiftOfChanneling": {
+			"Tooltip": "マナ消費量が{0}%減少\n必要なときに自動的にマナポーションを使用する\n最大マナを{1}増加させる",
+			"DisplayName": "大聖の恵み"
+		},
+		"EnergyCell": {
+			"Tooltip": "アビリティアクセサリーの再使用間隔が{0}%短縮\n「AAAA」",
+			"DisplayName": "エネルギーセル"
+		},
+		"DireGlaze": {
+			"Tooltip": "クリティカル率が{0}%上昇\n「その視線は死んでいるが、あなたの魂を貫く…」",
+			"DisplayName": "ダイアグレイズ"
+		},
+		"AceOfHearts": {
+			"Tooltip": "ライフハートの効果とピックアップ範囲を増加させる\n倒された敵は追加でライフハートをドロップするチャンスがある\n「切り札」",
+			"DisplayName": "ハートのエース"
+		},
+		"SanguineStone": {
+			"Tooltip": "敵に狙われやすくなる\n回復ポーションの再使用間隔を25%短縮させる\n「血は血の神に！」",
+			"DisplayName": "血脈の石"
+		},
+		"RejuvStone": {
+			"Tooltip": "ほとんどの回復アイテムの効果を25%増加させる",
+			"DisplayName": "若返りの石"
+		},
+		"NovaEmblem": {
+			"Tooltip": "ダメージが{0}%増加\nアビリティアクセサリーの再使用間隔が{1}%減少",
+			"DisplayName": "ノヴァの紋章"
+		},
+		"DarkmoonPact": {
+			"Tooltip": "最大ライフを最大20%減少させる\nその見返りとして、以下の効果が付与される:\nダメージとクリティカル率が12%上昇\nライフ自然回復を増進\n「力には代償が伴うことを常に忘れるな…」",
+			"DisplayName": "新月の盟約"
+		},
+		"CoolingCell": {
+			"Tooltip": "アビリティアクセサリーの再使用間隔が{0}%短縮\n凍え、霜焼け、凍結効果への耐性を付与する",
+			"DisplayName": "クライオクーリングセル"
+		},
+		"ArtificerEmblem": {
+			"Tooltip": "ダメージが{0}%増加\nアビリティアクセサリーの再使用間隔が{1}%短縮",
+			"DisplayName": "アーティフィサーの紋章"
+		},
+		"Moonfall": {
+			"Tooltip": "発動アビリティ: 軌道上から大規模なレーザーを撃ち込む軌道攻撃を要請する\nレーザーは20秒間持続し、ゆっくりとカーソルを追尾する\n「月が来た、ドゥードゥードゥードゥー…」",
+			"DisplayName": "ムーンフォール"
+		},
+		"StarlightArmillary": {
+			"Tooltip": "発動アビリティ: 局所的なオーロラを作り出し、一時的にすべての攻撃からあなたを隠す\nオーロラの近くのプレイヤー(使用者を含む)は一時的に生存能力が向上する\nオーロラの近くの敵は混乱し、短時間追加ダメージを受ける\n「発光するその天の力は、反転したアルカナの残滓のようだ…」",
+			"DisplayName": "スターライト・アーミラリィ"
+		},
+		"MoonbiteMark": {
+			"Tooltip": "発動アビリティ: 敵に当たるとその生命を奪う、昇格したヴァンパイアナイフの奔流を具現化する\nナイフで回復するたびに、近くの味方も少量回復するチャンスがある\nあなたのライフ吸収能力をわずかに向上させる\n「ジェイソン「Lienfors」パーカーに捧ぐ」\n「死は一時的なもの、影響は永遠のもの」",
+			"DisplayName": "ムーンバイトマーク"
+		},
+		"StellarResonator": {
+			"Tooltip": "アビリティがクールダウン中の間、ダメージとクリティカル率が4%増加する\n発動アビリティ: 10秒かけて非常に強力なスタービームをチャージする\nチャージ中、受けるダメージが20%減少する\nチャージが完了すると、スタービームは最も強い敵を探し出し、壊滅的な局所的超新星を引き起こす\n「星に願いを‥彼らは応えるだろう」",
+			"DisplayName": "ステラレゾネーター"
+		},
+		"LuckyPresent": {
+			"Tooltip": "発動アビリティ: あなたにランダムな効果を適用する、それは有益かもしれないし、有害かもしれない…\n「何がもらえるかな？何がもらえるかな？」",
+			"DisplayName": "ラッキープレゼント"
+		},
+		"ForebodingCharm": {
+			"Tooltip": "発動アビリティ: ランダムな攻撃アビリティを予測不可能な効果で発動させる…\n「その性質は不吉に見えるが、所有者に超自然的な幸運を授けると言われている」",
+			"DisplayName": "フォーボーディングチャーム"
+		},
+		"FearReaper": {
+			"Tooltip": "発動アビリティ: 15秒間あなたの周りを回転するパンプキングの鎌を一対具現化する\n鎌がアクティブな間、受けるダメージが15%減少する\n鎌がダメージを与えると、この減少はわずかに増加し、最大で45%までダメージを減少させる\n[プレースホルダー]",
+			"DisplayName": "フィアリーパー"
+		},
+		"MissileArray": {
+			"Tooltip": "発動アビリティ: 近くの敵を探し出して破壊するミサイルの弾幕を発射する\n[プレースホルダー]",
+			"DisplayName": "ミサイルアレイ"
+		},
+		"ObliterationCore": {
+			"Tooltip": "発動アビリティ: 向いている方向に壊滅的なデスレイをチャージして発射する\n発射中、移動速度が遅くなり、他のアイテムを使用できなくなる\n「よう！」",
+			"DisplayName": "オブリタレーションコア"
+		},
+		"SoulEmulator": {
+			"Tooltip": "発動アビリティ: 近くのすべてのプレイヤーを5秒間バフする\n付与されるバフは、使用ごとに3つの状態(恐怖、視覚、力)をサイクルする\nソウルエミュレーターを持つバフされたプレイヤー(使用者を含む)は、5秒ではなく10秒間バフを得る\nさらに、彼らのエミュレーターが提供するバフは次に進む\n[プレースホルダー]",
+			"DisplayName": "ソウルエミュレーター"
+		},
+		"ProbePack": {
+			"Tooltip": "発動アビリティ: 25秒間あなたを周回して防御する3つのプローブを作成する\n[プレースホルダー]",
+			"DisplayName": "プローブパック"
+		},
+		"Harvester": {
+			"Tooltip": "発動アビリティ: 大規模なネクロティックエクスプロージョンを放ち、爆発に巻き込まれたすべての敵にダメージを与える\n爆発を発動する前に敵にダメージを与えると、徐々に追加の力が蓄積され、次の爆発のダメージとノックバックがブーストされる\n「呪われたランタンは、さらに危険な目的のために改造された…」",
+			"DisplayName": "ネクロティックハーベスター"
+		},
+		"Lifeline": {
+			"Tooltip": "発動アビリティ: 敵に付着して最大5秒間ライフを吸収するテザーを発射する\n吸収したライフは、最もHPが低いプレイヤーを回復するために使用される\n吸収された敵は、攻撃後もしばらくダメージを受け続ける\n「最高の生命力吸収技術、今なら5G転送速度！」",
+			"DisplayName": "ライフライン"
+		},
+		"LeechingTether": {
+			"Tooltip": "発動アビリティ: 敵に付着して最大5秒間ライフを吸収するテザーを発射する\n吸収したライフは、最もHPが低いプレイヤーを回復するために使用される\n吸収された敵は、攻撃後もしばらくダメージを受け続ける\n[プレースホルダー]",
+			"DisplayName": "リーチングテザー"
+		},
+		"DarkLeech": {
+			"Tooltip": "発動アビリティ: 敵に付着して最大5秒間ライフを吸収するテザーを発射する\n吸収したライフは、最もHPが低いプレイヤーを回復するために使用される\n吸収された敵は、攻撃後もしばらくダメージを受け続ける\n[プレースホルダー]",
+			"DisplayName": "ダークリーチ"
+		},
+		"NeedleSpikeManacle": {
+			"Tooltip": "攻撃者は接触時にダメージを受ける\n発動アビリティ: 10秒間、防御力+4と改善された反射ダメージ効果を付与する\n「錆びているにもかかわらず、そのスパイクは簡単に展開、格納、そして最も重要なことに、貫通する」",
+			"DisplayName": "ニードルスパイクマナクル"
+		},
+		"OrnateRing": {
+			"Tooltip": "発動アビリティ: 輝くフラッシュを作り出し、敵を混乱させ、5秒間プレイヤーのライフとマナ自然回復を増進させる\n[プレースホルダー]",
+			"DisplayName": "オーネートリング"
+		},
+		"StealthShroud": {
+			"Tooltip": "敵に狙われにくくなる\n発動アビリティ: 10秒間、敵にさらに狙われにくくなる\n[プレースホルダー]",
+			"DisplayName": "ステルスシュラウド"
+		},
+		"FlamboyantCape": {
+			"Tooltip": "敵に狙われやすくなる\n発動アビリティ: 10秒間、敵にさらに狙われやすくなる\n[プレースホルダー]",
+			"DisplayName": "フランボワイヤントケープ"
+		},
+		"SwaggerCape": {
+			"Tooltip": "敵に狙われやすくなる\nクリティカル率が{0}%上昇\n発動アビリティ: 10秒間、敵にさらに狙われやすくなる\nまた、近くの敵を挑発し、あなたと敵の両方が受けるダメージを増加させる\n「スワッグメサイア！」",
+			"DisplayName": "スワッガーケープ"
+		},
+		"ShadowShroud": {
+			"Tooltip": "敵に狙われにくくなる\n発動アビリティ: 10秒間、敵にさらに狙われにくくなる\nこの期間中にダメージを与えると、その攻撃のダメージが5倍になり、アビリティの効果が終了する\n[プレースホルダー]",
+			"DisplayName": "シャドウシュラウド"
+		},
+		"RepulsionRocket": {
+			"Tooltip": "発動アビリティ: 強力なノックバックを持つ爆発性射出物を発射する\n非常に高い反動があり、発射方向と反対の方向に使用者を打ち上げる\n「スクリーミングイーグル！」",
+			"DisplayName": "リパルジョンロケット"
+		},
+		"RepulseCharge": {
+			"Tooltip": "発動アビリティ: 強力なノックバックを持つ爆発性射出物をドロップし、着弾時に両側に衝撃波を放出する\n「個人用のスペースを確保しろ」",
+			"DisplayName": "リパルスチャージ"
+		},
+		"NeedleBarrage": {
+			"Tooltip": "発動アビリティ: 多くの高速で短射程の針の素早い弾幕を放つ\n「千本の針による死…」",
+			"DisplayName": "ニードルバレッジ"
+		},
+		"AssassinNeedles": {
+			"Tooltip": "発動アビリティ: 高速で短射程の針の弾幕を発射する\n[プレースホルダー]",
+			"DisplayName": "アサシンニードル"
+		},
+		"HiddenBlade": {
+			"Tooltip": "発動アビリティ: 高速で中射程の針を撃つ\n[プレースホルダー]",
+			"DisplayName": "ヒドゥンブレード"
+		},
+		"SuperchargedArm": {
+			"Tooltip": "攻撃に電荷を追加し、時々敵に感電させる\n近接武器と鞭のオート攻撃を有効にし、速度を15%上昇させる\n発動アビリティ: 10秒間、近接攻撃速度と鞭の攻撃速度を大幅に上昇させる\n「ターボチャージ起動！」",
+			"DisplayName": "スーパーチャージドアーム"
+		},
+		"ArtificerProsthetics": {
+			"Tooltip": "着用者は超高速で走ることができる\nジャンプ速度と落下耐性を増加させ、自動ジャンプを可能にする\n攻撃に電荷を追加し、時々敵に感電させる\n近接武器と鞭のオート攻撃を有効にし、速度を15%上昇させる\n発動アビリティ: 10秒間、走行速度、加速度、ジャンプ速度、近接攻撃速度、鞭の攻撃速度を大幅に上昇させる\n「より速く、より強く、より良く」",
+			"DisplayName": "アーティフィサー・プロステティクス"
+		},
+		"TurboBoots": {
+			"Tooltip": "着用者は超高速で走ることができる\n発動アビリティ: 5秒間、走行速度と加速度を大幅に上昇させる\n「音速で走り回る！」",
+			"DisplayName": "ターボシューズ"
+		},
+		"OverdriveLeg": {
+			"Tooltip": "着用者は超高速で走ることができる\nジャンプ速度と落下耐性を増加させ、自動ジャンプを可能にする\n発動アビリティ: 5秒間、走行、ジャンプ速度と加速度を大幅に上昇させる\n「マキシマムオーバードライブ！」",
+			"DisplayName": "オーバードライブレッグ"
+		},
+		"AugmentedLeg": {
+			"Tooltip": "ジャンプ速度を上昇させ、自動ジャンプを可能にする\n落下耐性を増加させる\n発動アビリティ: 非常に強力なジャンプを実行し、素早く空中に飛び上がる\nジャンプ中およびその後しばらくの間、落下耐性がさらにブーストされる\n[プレースホルダー]",
+			"DisplayName": "オーグメンテッドレッグ"
+		},
+		"PrimeGauntlet": {
+			"Tooltip": "攻撃中に敵に金属のクロスボーンを撃つ\n発動アビリティ: 5秒間クロスボーンをエネルギー化し、発射速度、弾速、ダメージを大幅に増加させる\n[プレースホルダー]",
+			"DisplayName": "プライムガントレット"
+		},
+		"LostHeroShield": {
+			"Tooltip": "ノックバックへの耐性を付与する\n発動アビリティ: 短時間、構えて飛来する攻撃をブロックする\nパリィした攻撃はあなたにダメージを与えず、攻撃者を傷つけ、次の近接攻撃を増幅する\n「長く錆びつき、朽ち果てているが、まだかつての力の多くを保持している」",
+			"DisplayName": "壊れた英雄の盾"
+		},
+		"XRadar": {
+			"Tooltip": "あなたの周りの敵を検知する\n発動アビリティ: 周囲の敵と味方の両方を明らかにする光のパルスを作り出す\n明らかにされたエンティティは30秒間光を放つ\n「誰もあなたから隠れることはできない」",
+			"DisplayName": "Xレーダー"
+		},
+		"VitalStimulator2": {
+			"Tooltip": "発動アビリティ: 5秒かけてライフを{0}回復する\n再生中、ポーション酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "バイタルスティミュレーター Mk2"
+		},
+		"VitalStimulator": {
+			"Tooltip": "発動アビリティ: 5秒かけてライフを{0}回復する\n再生中、ポーション酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "バイタルスティミュレーター"
+		},
+		"StarplateBlaster": {
+			"Tooltip": "発動アビリティ: 強力なエネルギービームを発射する\n[プレースホルダー]",
+			"DisplayName": "スタープレートブラスター"
+		},
+		"RetributionStoker": {
+			"Tooltip": "発動アビリティ: 20秒間、あなたのダメージとクリティカル率を上昇させる\nアビリティを使用する前にダメージを受けると、次に使用するときに付与されるステータスブーストが徐々に強化される\n「燃えるような復讐で敵を打ちのめせ！」",
+			"DisplayName": "リトリビューションストーカー"
+		},
+		"OverchargedArcanum": {
+			"Tooltip": "発動アビリティ: 魔法ミサイルの群れを放つ\n[プレースホルダー]",
+			"DisplayName": "オーバーチャージドアルカナム"
+		},
+		"ManaCharger": {
+			"Tooltip": "発動アビリティ: 10秒間チャージした後、マナを150回復する\nダメージを受けるとチャージプロセスが中断され、マナを回復せずに終了する\n[プレースホルダー]",
+			"DisplayName": "マナチャージャー"
+		},
+		"LifeCharger": {
+			"Tooltip": "発動アビリティ: 10秒間チャージした後、ライフを100回復する\nダメージを受けるとチャージプロセスが中断され、ライフを回復せずに終了する\n[プレースホルダー]",
+			"DisplayName": "ライフチャージャー"
+		},
+		"Extinguisher": {
+			"Tooltip": "発動アビリティ: 炎上！、霜焼け、シャドウフレイム、呪炎のデバフを治療する\nデバフを治療すると、一時的に急速なライフ回復を得る\n「背中に消火器を括り付けるようなものだ！」",
+			"DisplayName": "ダウザー"
+		},
+		"Curer": {
+			"Tooltip": "発動アビリティ: 毒と酸性毒デバフを治療する\nデバフを治療すると、一時的に急速なライフ回復を得る\n[プレースホルダー]",
+			"DisplayName": "キュアラー"
+		},
+		"Cleanser": {
+			"Tooltip": "発動アビリティ: あなたと近くの味方の毒、酸性毒、炎上！、霜焼け、シャドウフレイム、呪炎のデバフを治療する\nデバフを治療すると、一時的に急速なライフ回復を得る\n[プレースホルダー]",
+			"DisplayName": "クレンザー"
+		},
+		"ArtificersArmor": {
+			"Tooltip": "発動アビリティ: 通常の鎧の上にエンチャントされた鎧一式を装備する\nエンチャントされた鎧は10秒間持続し、受けるダメージを大幅に減少させる\n「伝説の鎧は、それ自体に折りたたまれ、発動時に即座に展開して着用者を保護するように丹念に鍛えられた」",
+			"DisplayName": "アーティフィサーの鎧"
+		},
+		"ArcanaStimulator2": {
+			"Tooltip": "発動アビリティ: 10秒かけてマナを{0}回復する\n再生中、マナ酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "アルカナスティミュレーター Mk2"
+		},
+		"ArcanaStimulator": {
+			"Tooltip": "発動アビリティ: 10秒かけてマナを{0}回復する\n再生中、マナ酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "アルカナスティミュレーター"
+		},
+		"VitalStimulator4": {
+			"Tooltip": "発動アビリティ: 5秒かけてライフを{0}回復する\n再生中、ポーション酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "バイタルスティミュレーター Mk4"
+		},
+		"VitalStimulator3": {
+			"Tooltip": "発動アビリティ: 5秒かけてライフを{0}回復する\n再生中、ポーション酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "バイタルスティミュレーター Mk3"
+		},
+		"Starwriter": {
+			"Tooltip": "発動アビリティ: 作成時のあなたの位置、体力、マナを保存する星を作成する\nこのアビリティを再度使用すると、星によって保存された位置と状態にあなたを復元し、現在の星を削除する\n星がアクティブな場合、攻撃から致命的なダメージを受けたときにクールダウン中でなければ、スターライターは自動的に発動する\n「銀河はあなたの名前を記憶するだろう」",
+			"DisplayName": "スターライター"
+		},
+		"SolarBlaster": {
+			"Tooltip": "発動アビリティ: 超強力なエネルギービームの拡散を発射する\n[プレースホルダー]",
+			"DisplayName": "ソーラーブラスター"
+		},
+		"PrismaticArcanum": {
+			"Tooltip": "発動アビリティ: 色彩豊かなエネルギーの群体を放つ\n[プレースホルダー]",
+			"DisplayName": "プリズマティックアルカナム"
+		},
+		"PowerArmor": {
+			"Tooltip": "発動アビリティ: 通常の鎧の上にエンチャントされたパワーアーマー一式を装備する\nパワーアーマーは10秒間持続し、受けるダメージを計り知れないほど減少させる\n「未来的な鎧は、それ自体に折りたたまれ、発動時に即座に展開して着用者を保護するように丹念に鍛えられた」",
+			"DisplayName": "パワーアーマー"
+		},
+		"FirstPrism": {
+			"Tooltip": "発動アビリティ: あなたの上にクリスタルプリズムを召喚し、近くの敵に一連のビームを発射する\n最大14本のビームを発射し、それぞれがランダムに近接、遠距離、魔法、または召喚のダメージタイプを継承する\n「計り知れない力を持つ神話のプリズムの失われた前身…」",
+			"DisplayName": "ファーストプリズム"
+		},
+		"CyborgCore": {
+			"Tooltip": "ゆっくりとライフを回復する\n発動アビリティ: 10秒間、移動速度が低下するが、防御力とライフ回復が大幅にブーストされる\n「ナノマシンだ、息子よ」",
+			"DisplayName": "サイボーグコア"
+		},
+		"ChaosGem": {
+			"Tooltip": "発動アビリティ: マウスの位置にテレポートする\n「まさか…カオスエメラルドのことか？」",
+			"DisplayName": "ジュエル・オブ・ディスコード"
+		},
+		"BewitchedBulwark": {
+			"Tooltip": "ノックバックへの耐性を付与する\n発動アビリティ: カーソル位置に知覚を持つ盾を召喚する\n盾はプレイヤーの防御力を高め、敵にダメージを与えて引き寄せるオーラを作り出す\n盾は10秒間持続する\n[プレースホルダー]",
+			"DisplayName": "魅了の防壁"
+		},
+		"ArcanaStimulator4": {
+			"Tooltip": "発動アビリティ: 10秒かけてマナを{0}回復する\n再生中、マナ酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "アルカナスティミュレーター Mk4"
+		},
+		"ArcanaStimulator3": {
+			"Tooltip": "発動アビリティ: 10秒かけてマナを{0}回復する\n再生中、マナ酔いが適用される\n[プレースホルダー]",
+			"DisplayName": "アルカナスティミュレーター Mk3"
+		},
+		"AnkhRenewer": {
+			"Tooltip": "ほとんどのデバフへの耐性を付与する\n発動アビリティ: あなたと近くの味方のほとんどすべてのデバフを治療する\nデバフを治療すると、一時的に急速なライフ回復を得る\n[プレースホルダー]",
+			"DisplayName": "アンクリニューワー"
+		}
+	},
+	"Buffs": {
+		"PrimevalSunder": {
+			"Description": "敵の防御力が低下している",
+			"DisplayName": "プライミーバルサンダー"
+		},
+		"PrimevalHarvest": {
+			"Description": "ライフ回復が増加した",
+			"DisplayName": "プライミーバルハーベスト"
+		},
+		"DarkCurse": {
+			"Description": "敵のダメージが低下している",
+			"DisplayName": "ダークカース"
+		},
+		"DarkPower": {
+			"Description": "ダメージが増加した",
+			"DisplayName": "ダークパワー"
+		},
+		"Leech2": {
+			"Description": "敵の体力が吸収されている",
+			"DisplayName": "リーチング"
+		},
+		"NovaSurge": {
+			"Description": "余剰エネルギーがあなたの攻撃と防御を強化する！",
+			"DisplayName": "コズミックパワー"
+		},
+		"Refresh": {
+			"Description": "ライフを再生中。リフレッシュしてフレッシュになろう",
+			"DisplayName": "リフレッシュ"
+		},
+		"BorealisBarrier": {
+			"Description": "生存能力が向上した",
+			"DisplayName": "ボレアリスバリア"
+		},
+		"BorealisBurn": {
+			"Description": "敵は通常よりはるかに多くのダメージを受けるだろう",
+			"DisplayName": "ボレアリスバーン"
+		},
+		"DRNerf2": {
+			"Description": "受けるダメージが増加した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DRNerf1": {
+			"Description": "受けるダメージが増加した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DRBuff3": {
+			"Description": "受けるダメージが減少した",
+			"DisplayName": "ラッキー！"
+		},
+		"DRBuff2": {
+			"Description": "受けるダメージが減少した",
+			"DisplayName": "ラッキー！"
+		},
+		"DRBuff1": {
+			"Description": "受けるダメージが減少した",
+			"DisplayName": "ラッキー！"
+		},
+		"DmgNerf2": {
+			"Description": "ダメージが減少した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DmgNerf1": {
+			"Description": "ダメージが減少した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DmgBuff3": {
+			"Description": "ダメージが増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"DmgBuff2": {
+			"Description": "ダメージが増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"DmgBuff1": {
+			"Description": "ダメージが増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"DefNerf2": {
+			"Description": "防御力が減少した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DefNerf1": {
+			"Description": "防御力が減少した",
+			"DisplayName": "アンラッキー…"
+		},
+		"DefBuff3": {
+			"Description": "防御力が増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"DefBuff2": {
+			"Description": "防御力が増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"DefBuff1": {
+			"Description": "防御力が増加した",
+			"DisplayName": "ラッキー！"
+		},
+		"CritNerf2": {
+			"Description": "クリティカル率が低下した",
+			"DisplayName": "アンラッキー…"
+		},
+		"CritNerf1": {
+			"Description": "クリティカル率が低下した",
+			"DisplayName": "アンラッキー…"
+		},
+		"CritBuff1": {
+			"Description": "クリティカル率が上昇した",
+			"DisplayName": "ラッキー！"
+		},
+		"CritBuff2": {
+			"Description": "クリティカル率が上昇した",
+			"DisplayName": "ラッキー！"
+		},
+		"CritBuff3": {
+			"Description": "クリティカル率が上昇した",
+			"DisplayName": "ラッキー！"
+		},
+		"EmulatorF": {
+			"Description": "ノックバックと防御力が増加した",
+			"DisplayName": "恐怖のオーラ"
+		},
+		"EmulatorM": {
+			"Description": "ダメージとライフ回復が増加した",
+			"DisplayName": "腕力のオーラ"
+		},
+		"EmulatorS": {
+			"Description": "クリティカル率と移動速度が上昇した",
+			"DisplayName": "視覚のオーラ"
+		},
+		"Leech": {
+			"Description": "敵の体力が吸収されている",
+			"DisplayName": "リーチング"
+		},
+		"SpikeShield": {
+			"Description": "防御力を高め、攻撃者にダメージを与える",
+			"DisplayName": "スパイクシールド"
+		},
+		"OrnateSpark": {
+			"Description": "ライフとマナの回復が増加した",
+			"DisplayName": "オーネートスパーク"
+		},
+		"StealthShroudBuff": {
+			"Description": "敵に狙われにくくなる",
+			"DisplayName": "ステルス"
+		},
+		"FlamboyantCapeBuff": {
+			"Description": "敵に狙われやすくなる",
+			"DisplayName": "フランボワイヤント！"
+		},
+		"ShadowShroudBuff": {
+			"Description": "敵に狙われにくくなり、次の攻撃は増幅されたダメージを与える",
+			"DisplayName": "シャドウスニーク"
+		},
+		"SwaggerCapeBuff": {
+			"Description": "敵に狙われやすくなる",
+			"DisplayName": "スワッガー挑発"
+		},
+		"SwaggerTaunt": {
+			"Description": "敵はより多くの接触ダメージを与えるが、より多くのダメージを受ける",
+			"DisplayName": "スワッガー挑発"
+		},
+		"ProstheticsBuff": {
+			"Description": "移動、ジャンプ、近接、鞭の速度が大幅に上昇した",
+			"DisplayName": "エネルギー化されたプロステティクス"
+		},
+		"Supercharged": {
+			"Description": "近接攻撃速度と鞭の攻撃速度が大幅に上昇した",
+			"DisplayName": "スーパーチャージ"
+		},
+		"OverdriveBoost": {
+			"Description": "移動速度とジャンプ速度が大幅に上昇した",
+			"DisplayName": "オーバードライブブースト"
+		},
+		"TurboBoost": {
+			"Description": "移動速度が大幅に上昇した",
+			"DisplayName": "ターボブースト"
+		},
+		"CounterstrikeProtocol": {
+			"Description": "ダメージが増加し、敵に狙われる確率が大幅に低下した",
+			"DisplayName": "カウンターストライクプロトコル"
+		},
+		"PrimeRage": {
+			"Description": "あなたのプライムガントレットはスーパーチャージされている！",
+			"DisplayName": "プライムレイジ"
+		},
+		"TerraRevive": {
+			"Description": "あなたは継続ダメージに免疫がある。この戦いを覆せ！",
+			"DisplayName": "ラストスタンド"
+		},
+		"LastStand": {
+			"Description": "近くのテラシールドがあなたを死から守っている！",
+			"DisplayName": "テラガード"
+		},
+		"TerraCooldown": {
+			"Description": "テラシールドの力はもはやあなたを守れない",
+			"DisplayName": "テラ疲労"
+		},
+		"ChampionProtec": {
+			"Description": "攻撃者はあなたの代わりにダメージを受ける！",
+			"DisplayName": "チャンピオンの保護"
+		},
+		"ElectrifiedEnemy": {
+			"Description": "敵は継続ダメージを受けている",
+			"DisplayName": "感電した敵"
+		},
+		"PermafrostProtection": {
+			"Description": "防御力が増加し、急速なライフ回復",
+			"DisplayName": "パーマフロストプロテクション"
+		},
+		"BloodDrive": {
+			"Description": "移動速度と攻撃速度が上昇した",
+			"DisplayName": "ブラッドドライブ"
+		},
+		"SoulHunt": {
+			"Description": "敵の防御力が低下している",
+			"DisplayName": "ソウルハント"
+		},
+		"LifesurgeBuff": {
+			"Description": "ライフ回復が増加した",
+			"DisplayName": "ライフサージバフ"
+		},
+		"StarplateNight": {
+			"Description": "あなたのスタープレートアーマーは防御力とライフ回復をわずかにブーストしている",
+			"DisplayName": "ルナパワー"
+		},
+		"StarplateDay": {
+			"Description": "あなたのスタープレートアーマーは攻撃速度と移動速度をわずかにブーストしている",
+			"DisplayName": "ソーラーパワー"
+		},
+		"XenoShieldDisplay": {
+			"Description": "あなたの鎧はチャージされており、飛来するダメージをいくらかブロックする！",
+			"DisplayName": "エネルギーシールド"
+		},
+		"TarnishedRevive": {
+			"Description": "ターニッシュアーマーの保護的な魂はクールダウン中",
+			"DisplayName": "ソウル回復"
+		},
+		"SolarOverdrive": {
+			"Description": "ダメージブーストで報復せよ！",
+			"DisplayName": "ソーラーオーバードライブ"
+		},
+		"PrismSummon": {
+			"Description": "神秘的なクリスタルがあなたの召喚攻撃を強化している",
+			"DisplayName": "サモナーズコンジット"
+		},
+		"PrismRanged": {
+			"Description": "神秘的なクリスタルがあなたの遠距離攻撃を強化している",
+			"DisplayName": "レンジャーズコンジット"
+		},
+		"PrismMelee": {
+			"Description": "神秘的なクリスタルがあなたの近接攻撃を強化している",
+			"DisplayName": "ウォリアーズコンジット"
+		},
+		"PrismMagic": {
+			"Description": "神秘的なクリスタルがあなたの魔法攻撃を強化している",
+			"DisplayName": "ソーサラーズコンジット"
+		},
+		"MechShock": {
+			"Description": "敵はメカニカルアーマーを持つプレイヤーに弱い",
+			"DisplayName": "メカニカルショック"
+		},
+		"ChampionOff": {
+			"Description": "テラリアの力があなたの攻撃を強化する！",
+			"DisplayName": "テラリアの勇気"
+		},
+		"ChampionDef": {
+			"Description": "テラリアの力があなたの防御と再生を強化する！",
+			"DisplayName": "テラリアの決意"
+		},
+		"AbilityCooldown": {
+			"Description": "どのアクセサリーの発動アビリティも使用できない",
+			"DisplayName": "アビリティクールダウン"
+		},
+		"RetributionBuff": {
+			"Description": "痛みはあなたを強くするだけだ！",
+			"DisplayName": "リトリビューション"
+		},
+		"RadarPing": {
+			"Description": "明らかにされ、光を放っている",
+			"DisplayName": "レーダーピン"
+		},
+		"ManaStim2": {
+			"Description": "マナを急速に再生中",
+			"DisplayName": "アルカナスティミュレーション"
+		},
+		"ManaStim1": {
+			"Description": "マナを急速に再生中",
+			"DisplayName": "レッサーアルカナスティミュレーション"
+		},
+		"ManaChargerBuff": {
+			"Description": "マナ回復エネルギーをチャージ中…ただ攻撃されないように！",
+			"DisplayName": "マナチャージャー"
+		},
+		"LifeChargerBuff": {
+			"Description": "ライフ回復エネルギーをチャージ中…ただ攻撃されないように！",
+			"DisplayName": "ライフチャージャー"
+		},
+		"HPStim2": {
+			"Description": "体力を急速に再生中",
+			"DisplayName": "バイタルスティミュレーション"
+		},
+		"HPStim1": {
+			"Description": "体力を急速に再生中",
+			"DisplayName": "レッサーバイタルスティミュレーション"
+		},
+		"ArtificerArmorBuff": {
+			"Description": "受けるダメージを大幅に減少させるエンチャントされた鎧を装備している！",
+			"DisplayName": "アーティフィサーの鎧"
+		},
+		"PowerArmorBuff": {
+			"Description": "受けるダメージを計り知れないほど減少させるパワーアーマーを装備している！",
+			"DisplayName": "パワーアーマー"
+		},
+		"ManaStim4": {
+			"Description": "マナを急速に再生中",
+			"DisplayName": "スーパーアルカナスティミュレーション"
+		},
+		"ManaStim3": {
+			"Description": "マナを急速に再生中",
+			"DisplayName": "グレーターアルカナスティミュレーション"
+		},
+		"HPStim4": {
+			"Description": "体力を急速に再生中",
+			"DisplayName": "スーパーバイタルスティミュレーション"
+		},
+		"HPStim3": {
+			"Description": "体力を急速に再生中",
+			"DisplayName": "グレーターバイタルスティミュレーション"
+		},
+		"CyborgCoreBuff": {
+			"Description": "移動速度は遅いが、防御力とライフ回復が大幅に増加した",
+			"DisplayName": "ナノマシン"
+		},
+		"BewitchedBulwarkBuff": {
+			"Description": "知覚を持つ盾があなたの防御力を高めている！",
+			"DisplayName": "ウォーディングブルワーク"
+		}
+	},
+	"CommonItemtooltip": {
+		"Armorset": {
+			"Tech": "+1 アーティフィサーアクセサリースロット\nアビリティアクセサリーの再使用間隔はもはや延長されない\n17% アビリティアクセサリーの再使用間隔を短縮",
+			"Starplate": "+1 アーティフィサーアクセサリースロット\nアビリティアクセサリーの再使用間隔はもはや延長されない\n時間帯に基づいて小さなステータスブーストを得る:\n昼間はダメージと移動速度が上昇\n夜間は防御力とライフ回復が増加",
+			"Ornate": "+1 アーティフィサーアクセサリースロット\nアビリティアクセサリーの再使用間隔はもはや延長されない\n+2 防御力",
+			"Xeno": "+2 アーティフィサーアクセサリースロット\n時間とともに、あなたの鎧は一時的なエネルギーシールドをチャージし、いくらかのダメージを吸収できる",
+			"Tarnished": "+1 アーティフィサーアクセサリースロット\nアビリティアクセサリーの再使用間隔はもはや延長されない\n致命的なダメージを受けると、保護的な魂が即座にあなたを100ヘルスに回復させる\nこの蘇生効果には5分のクールダウンがある",
+			"Radiant": "+1 アーティフィサーアクセサリースロット\n近接、遠距離、魔法、または召喚ダメージをチャネリングする神秘的なクリスタルを召喚する\nあなたと近くの他のプレイヤーは、チャネリングされたダメージタイプでパワーブーストを得る\n自分自身のクリスタルを持つプレイヤー(あなたを含む)は、この効果からより大きな恩恵を受ける\n{0}をダブルタップしてクリスタルのダメージタイプを切り替える",
+			"Mechanical": "+2 アーティフィサーアクセサリースロット\n20% アビリティアクセサリーの再使用間隔を短縮\nクリティカルヒットは時々敵にショックを短時間与えることがある\nショック状態の敵は接触ダメージが減少し、より多くのダメージを受ける",
+			"Lihzahrd": "+2 アーティフィサーアクセサリースロット\n攻撃されると、報復のエネルギービームを放ち、短時間のダメージブーストを得ることがある\n敵に狙われやすくなる",
+			"Champions": "+2 アーティフィサーアクセサリースロット\nテラリア自体があなたのライフに基づいて、増加したダメージまたは増加した生存能力を付与する",
+			"AstralNova": "+3 アーティフィサーアクセサリースロット\n25% アビリティアクセサリーの再使用間隔を短縮\nアクセサリーアビリティを発動するとエネルギーのサージが解き放たれ、クールダウン中に攻撃的および防御的能力が向上する"
+		},
+		"Clicker": {
+			"CheaperEffect": "クリック効果に必要なクリック数を{0}減らす",
+			"IncClickRadius": "基本クリック半径を{0}増加させる"
+		},
+		"Thorium": {
+			"HealerBonusHeal": "回復呪文が追加で{0}ライフを回復する",
+			"BardInspiration": "最大インスピレーションを{0}増加させる",
+			"BardBuffTime": "交響楽のエンパワーメントの持続時間を{0}秒増加させる",
+			"BardBuffRange": "交響楽のエンパワーメント効果範囲を{0}タイル増加させる"
+		},
+		"CaptureClass": {
+			"IncCaptureSpd": "キャプチャ速度 {0}% 上昇",
+			"IncTrailLength": "キャプチャディスクの軌跡の長さ {0}% 増加"
+		},
+		"ForItems": {
+			"AccessorySlot": "アーティフィサーアクセサリースロット",
+			"LessTarget": "敵に狙われにくくなる",
+			"MoreTarget": "敵に狙われやすくなる",
+			"PercentIncreasedWhipRange": "鞭の範囲 {0}% 増加",
+			"PercentIncreasedWhipSpeed": "鞭の速度 {0}% 上昇",
+			"ReducedAbilityCooldown": "アビリティアクセサリーのクールダウン {0}% 減少",
+			"LeechedLifeHeal": "敵に付着して最大5秒間ライフを吸収するテザーを発射する\n吸収したライフは、最もHPが低いプレイヤーを回復するために使用される\n吸収された敵は、攻撃後もしばらくダメージを受け続ける",
+			"VitalStimulator": "5秒かけてライフを{0}回復する",
+			"ArcanaStimulator": "10秒かけてマナを{0}回復する",
+			"NoKnockback": "ノックバックへの耐性を付与する",
+			"SlowlyRegeneratesLife": "ゆっくりとライフを回復する",
+			"PotionSicknessInflicted": "再生中、ポーション酔いが適用される",
+			"ManaSicknessInflicted": "再生中、マナ酔いが適用される",
+			"BrieflyLifeRegen": "デバフを治療すると、一時的に急速なライフ回復を得る",
+			"ActivatedAbility": "発動アビリティ: "
+		},
+		"ForBuffs": {
+			"IncreasedDamageTaken": "受けるダメージが増加した",
+			"DecreasedDamageTaken": "受けるダメージが減少した",
+			"DecreasedDamage": "ダメージが減少した",
+			"IncreasedDamage": "ダメージが増加した",
+			"DecreasedDefense": "防御力が減少した",
+			"IncreasedDefense": "防御力が増加した",
+			"DecreasedCriticalChance": "クリティカル率が低下した",
+			"IncreasedCriticalChance": "クリティカル率が上昇した",
+			"Unlucky": "アンラッキー…",
+			"Lucky": "ラッキー！",
+			"RegeneratingMana": "マナを急速に再生中",
+			"RegeneratingHealth": "体力を急速に再生中"
+		},
+		"Cooldown": {
+			"DrasticallyExtended": "アーティフィサーのアーマーセットまたはアビリティアクセサリーを装備していないと、クールダウンが大幅に延長される",
+			"GreatlyExtended": "アビリティアクセサリーを装備していないと、クールダウンが大幅に延長される",
+			"SlightlyExtended": "アーティフィサーのアーマーセットを装備していないと、クールダウンがわずかに延長される",
+			"Cooldowntime": "クールダウン時間: {1}秒 (基本: {0}秒)",
+			"CooldowntimePositive": "クールダウン時間: [c/be7878:{1}秒] (基本: {0}秒)",
+			"CooldowntimeNegative": "クールダウン時間: [c/78be78:{1}秒] (基本: {0}秒)"
+		},
+		"RecipeBrowserFilter": "アビリティアクセサリー",
+		"AbilitiesRefreshed": "アビリティがリフレッシュされた！",
+		"GemsforRecipe": "個の宝石",
+		"BonusAccessory": "ボーナスアクセサリー",
+		"HotkeySet": "警告: アビリティにホットキーが設定されていません！\n設定メニューの「操作設定」セクションで割り当ててください！"
+	}
+}

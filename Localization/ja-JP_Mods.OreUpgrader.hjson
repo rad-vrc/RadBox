@@ -1,0 +1,47 @@
+Items: {
+	CobaltUpgrader: {
+		Tooltip:
+			'''
+			ツール、武器、防具などの鉱石のTierをアップグレードするために使用
+			基本的なクラフトにも使用できる
+			'''
+		DisplayName: コバルトのアップグレーダー
+	}
+
+	CopperUpgrader: {
+		Tooltip:
+			'''
+			ツール、武器、防具などの鉱石のTierをアップグレードするために使用
+			基本的なクラフトにも使用できる
+			'''
+		DisplayName: 銅のアップグレーダー
+	}
+
+	PalladiumUpgrader: {
+		Tooltip:
+			'''
+			ツール、武器、防具などの鉱石のTierをアップグレードするために使用
+			基本的なクラフトにも使用できる
+			'''
+		DisplayName: パラジウムのアップグレーダー
+	}
+
+	TinUpgrader: {
+		Tooltip:
+			'''
+			ツール、武器、防具などの鉱石のTierをアップグレードするために使用
+			基本的なクラフトにも使用できる
+			'''
+		DisplayName: スズのアップグレーダー
+	}
+}
+
+Tiles: {
+	HardUpgraders: {
+		MapEntry: コバルトのアップグレーダー
+	}
+
+	PreHardUpgraders: {
+		MapEntry: 銅のアップグレーダー
+	}
+}

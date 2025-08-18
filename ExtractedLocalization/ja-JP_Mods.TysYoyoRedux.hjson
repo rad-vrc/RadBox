@@ -1,0 +1,277 @@
+VanillaItemTooltips: {
+	Terrarian: テラリアの魂で輝く
+	TheEyeOfCthulhu: 追尾するクトゥルフのしもべのミニ版を生み出す
+	Kraken: 衝撃時に触手で鞭打つ
+	RedsYoyo: 衝撃時にランダムなデバフを与える
+	ValkyrieYoyo: 近くの敵に羽根の嵐を放つ
+	Yelets: 素早く毒のトゲを発射する
+	Code2: 超強化された静電気オーラを生成する
+	Amarok: 残存する雪の結晶を残す
+	HelFire: 衝撃時に破壊的な炎の奔流を発射する
+	Chik: 素早く水晶の欠片を生み出す
+	Gradient: クロマティックエネルギーを操る
+	FormatC: クリティカルストライクは2倍ダメージを与える
+	Cascade: 衝撃時に炎の爆発を起こす
+	Valor: 幽霊の火の玉を召喚する
+	Code1: 静電気オーラを生成する
+	JungleYoyo: 毒のトゲを撃つ
+	CrimsonYoyo: 攻撃した敵からライフを奪う確率がある
+	CorruptYoyo: 膿んだ胆汁を滴らせる
+	Rally: ダメージを与える残像を残す
+}
+
+Configs: {
+	TysYoyoReduxConfigServer: {
+		DisplayName: Mod設定
+
+		VanillaYoyoEffects: {
+			Label: バニラヨーヨーに効果を与える
+			Tooltip: 各バニラヨーヨーに特殊効果を与える（デフォルトで有効）
+		}
+
+		VanillaYoyoRecipes: {
+			Label: 開発者ヨーヨーにレシピを与える
+			Tooltip: レッドスローとヴァルキリーヨーヨーにレシピを与える（デフォルトで有効）
+		}
+
+		AddNewYoyos: {
+			Label: 新しいModded ヨーヨーを追加
+			Tooltip: 進行の様々な段階に新しいModded ヨーヨーを追加する（デフォルトで有効）
+		}
+
+		AddNewAccessories: {
+			Label: 新しいModded ヨーヨーアクセサリーを追加
+			Tooltip: 新しいModded ヨーヨーサブクラスにアクセサリーを追加する（デフォルトで有効）
+		}
+
+		BuffsToCounterweights: {
+			Label: カウンターウェイトへの変更
+			Tooltip: カウンターウェイトを高速化し、局所免疫を与える。さらにカウンターウェイトは4-6秒後に切り替わる（デフォルトで有効）
+		}
+	}
+}
+
+Projectiles: {
+	ExtraterrestrialTaserElectrosphere: {
+		DisplayName: エクストラテレストリアルテーザーエレクトロスフィア
+	}
+
+	AsteroidFireball: {
+		DisplayName: アステロイドファイアボール
+	}
+
+	YeletsRazorLeafProjectile: {
+		DisplayName: カミソリの葉
+	}
+
+	ValorGhostlyWispProjectile: {
+		DisplayName: 幽霊の火の玉
+	}
+
+	ValkyrieYoyoFeatherProjectile: {
+		DisplayName: ヴァルキリーの羽根
+	}
+
+	RallyAfterimageProjectile: {
+		DisplayName: ラリーの残像
+	}
+
+	MalaiseBileDropletProjectile: {
+		DisplayName: 胆汁の滴
+	}
+
+	KrakenAbyssalTentacleProjectile: {
+		DisplayName: 深淵の触手
+	}
+
+	HelFireFlameTorrentProjectile: {
+		DisplayName: 炎の奔流
+	}
+
+	GradientChromaticPulseProjectile: {
+		DisplayName: クロマティックパルス
+	}
+
+	EoCMiniServantProjectile: {
+		DisplayName: ミニサーバント
+	}
+
+	Code2PlasmaticAuraProjectile: {
+		DisplayName: プラズマオーラ
+	}
+
+	Code1ElectrostaticAuraProjectile: {
+		DisplayName: 静電気オーラ
+	}
+
+	CascadeFieryExplosionProjectile: {
+		DisplayName: 炎の爆発
+	}
+
+	AmarokSnowflakeProjectile: {
+		DisplayName: 雪の結晶
+	}
+
+	SpectrumProjectile: {
+		DisplayName: スペクトラム
+	}
+
+	RavagerProjectile: {
+		DisplayName: レイヴァガー
+	}
+
+	PrismaticThrowProjectile: {
+		DisplayName: プリズマティックスロー
+	}
+
+	PoltergeistProjectile: {
+		DisplayName: ポルターガイスト
+	}
+
+	NitroProjectile: {
+		DisplayName: ニトロ
+	}
+
+	HolyThrowProjectile: {
+		DisplayName: ホーリースロー
+	}
+
+	ExtraterrestrialTaserProjectile: {
+		DisplayName: エクストラテレストリアルテーザー
+	}
+
+	EnchantedYoyoProjectile: {
+		DisplayName: エンチャントヨーヨー
+	}
+
+	CabalProjectile: {
+		DisplayName: カバル
+	}
+
+	AvianProjectile: {
+		DisplayName: エイビアン
+	}
+
+	AsteroidProjectile: {
+		DisplayName: アステロイド
+	}
+
+	SpectrumSundanceProjectile: {
+		DisplayName: スペクトラムサンダンス
+	}
+
+	RavagerBloodClotProjectile: {
+		DisplayName: 血の塊
+	}
+
+	PrismaticThrowPrismaticShardProjectile: {
+		DisplayName: プリズムの欠片
+	}
+
+	NitroCursedEmberProjectile: {
+		DisplayName: 呪われた残り火
+	}
+
+	CabalIchorRainProjectile: {
+		DisplayName: 霊液の雨
+	}
+}
+
+Items: {
+	Spectrum: {
+		Tooltip: 致命的なライトショーを披露する
+		DisplayName: スペクトラム
+	}
+
+	Ravager: {
+		Tooltip: 衝撃時に追尾する血の塊を発射する
+		DisplayName: レイヴァガー
+	}
+
+	PrismaticThrow: {
+		Tooltip: 衝撃時にプリズムの欠片を生み出す
+		DisplayName: プリズムスロー
+	}
+
+	Poltergeist: {
+		Tooltip: 障害なく壁を通り抜けることができる
+		DisplayName: ポルターガイスト
+	}
+
+	Nitro: {
+		Tooltip:
+			'''
+			燃える軌跡を残す
+			.
+			'''
+		DisplayName: ニトロ
+	}
+
+	HolyThrow: {
+		Tooltip: 敵の防御力を10無視する
+		DisplayName: ホーリースロー
+	}
+
+	ExtraterrestrialTaser: {
+		Tooltip: 衝撃時に敵を感電させる
+		DisplayName: エクストラテレストリアルテーザー
+	}
+
+	EnchantedYoyo: {
+		Tooltip: ""
+		DisplayName: エンチャントヨーヨー
+	}
+
+	Cabal: {
+		Tooltip:
+			'''
+			敵を攻撃すると霊液の雨を呼び下ろす
+			.
+			'''
+		DisplayName: カバル
+	}
+
+	Avian: {
+		Tooltip: 非常に機敏
+		DisplayName: エイビアン
+	}
+
+	Asteroid: {
+		Tooltip: 短時間で跳ね回る火球を発射する
+		DisplayName: アステロイド
+	}
+
+	YoyoSideEffectsAccessory: {
+		Tooltip:
+			'''
+			連続したヨーヨーヒットでコンボを蓄積する
+			コンボによりヨーヨーのダメージが最大20%増加する
+			'''
+		DisplayName: スパイクサイドエフェクト
+	}
+
+	YoyoBearingAccessory: {
+		Tooltip: ヨーヨーの持続時間が50%増加する
+		DisplayName: ボールベアリング
+	}
+
+	MasterYoyoKit: {
+		Tooltip:
+			'''
+			理解を超えてヨーヨースキルを増加させる
+			「君の種族の最後の一人、真のヨーヨーマスター...」
+			'''
+		DisplayName: マスターヨーヨーキット
+	}
+
+	CombinedYoyoAccessory: {
+		Tooltip:
+			'''
+			連続したヨーヨーヒットでコンボを蓄積する
+			コンボによりヨーヨーのダメージが最大20%増加する
+			ヨーヨーの持続時間が50%増加する
+			'''
+		DisplayName: ヨーヨー改造キット
+	}
+}
+

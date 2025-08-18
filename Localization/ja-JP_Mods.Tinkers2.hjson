@@ -1,0 +1,486 @@
+{
+	Items: {
+		ExampleCustomSwingSword: {
+			DisplayName: "カスタムスイングソードの例"
+			Tooltip: ""
+		}
+		ForgedSword: {
+			DisplayName: "鍛造された剣"
+			Tooltip: ""
+		}
+		ForgedSwordCustomProjectile: {
+			DisplayName: "鍛造された剣のカスタム投射物"
+			Tooltip: ""
+		}
+		ExampleInstancedItem: {
+			DisplayName: "インスタンス化アイテムの例"
+			Tooltip: ""
+		}
+		BreakerBlade: {
+			DisplayName: "ブレイカーブレード"
+			Tooltip: ""
+		}
+		BreakerHilt: {
+			DisplayName: "ブレイカーの柄頭"
+			Tooltip: ""
+		}
+		ClockBlade: {
+			DisplayName: "クロックブレード"
+			Tooltip: ""
+		}
+		ClockHilt: {
+			DisplayName: "クロックの柄頭"
+			Tooltip: ""
+		}
+		GreenGem: {
+			DisplayName: "緑の宝石"
+			Tooltip: ""
+		}
+		PurpleGem: {
+			DisplayName: "紫の宝石"
+			Tooltip: ""
+		}
+		AccentGreen: {
+			DisplayName: "アクセント（緑）"
+			Tooltip: ""
+		}
+		AccentPurple: {
+			DisplayName: "アクセント（紫）"
+			Tooltip: ""
+		}
+		BladeGreen: {
+			DisplayName: "ブレード（緑）"
+			Tooltip: ""
+		}
+		BladePurple: {
+			DisplayName: "ブレード（紫）"
+			Tooltip: ""
+		}
+		ModularScythe: {
+			DisplayName: "モジュラーサイス"
+			Tooltip: ""
+		}
+		SnathGreen: {
+			DisplayName: "スナース（緑）"
+			Tooltip: ""
+		}
+		SnathPurple: {
+			DisplayName: "スナース（紫）"
+			Tooltip: ""
+		}
+		ModularScytheInstance: {
+			DisplayName: "モジュラーサイスのインスタンス"
+			Tooltip: ""
+		}
+		ModularScytheInstance2: {
+			DisplayName: "モジュラーサイスのインスタンス2"
+			Tooltip: ""
+		}
+		GoldBlade: {
+			DisplayName: "金の刃"
+			Tooltip: ""
+		}
+		PlatinumBlade: {
+			DisplayName: "プラチナの刃"
+			Tooltip: ""
+		}
+		GoldGem: {
+			DisplayName: "金の宝石"
+			Tooltip: ""
+		}
+		PlatinumGem: {
+			DisplayName: "プラチナの宝石"
+			Tooltip: ""
+		}
+		GoldPommel: {
+			DisplayName: "金の柄頭"
+			Tooltip: ""
+		}
+		PlatinumPommel: {
+			DisplayName: "プラチナの柄頭"
+			Tooltip: ""
+		}
+		GoldSnath: {
+			DisplayName: "金のスナース"
+			Tooltip: ""
+		}
+		PlatinumSnath: {
+			DisplayName: "プラチナのスナース"
+			Tooltip: ""
+		}
+		GraphicsTesting: {
+			Tooltip: ""
+			DisplayName: "グラフィックステスト"
+		}
+		GlobalSnath: {
+			DisplayName: "グローバルスナース"
+			Tooltip: ""
+		}
+		GlobalPommel: {
+			DisplayName: "グローバル柄頭"
+			Tooltip: ""
+		}
+		GlobalGem: {
+			DisplayName: "グローバル宝石"
+			Tooltip: ""
+		}
+		GlobalBlade: {
+			DisplayName: "グローバルブレード"
+			Tooltip: ""
+		}
+		ExampleShootingSword: {
+			DisplayName: "射撃ソードの例"
+			Tooltip: ""
+		}
+		ExampleRainingSword: {
+			DisplayName: "降雨ソードの例"
+			Tooltip: ""
+		}
+		ShootingSword: {
+			DisplayName: "シューティングソード"
+			Tooltip: ""
+		}
+		EnchantedGem: {
+			DisplayName: "エンチャントされた宝石"
+			Tooltip: ""
+		}
+		PlanteraPommel: {
+			DisplayName: "プランテラの柄頭"
+			Tooltip: ""
+		}
+		ExampleAdvancedAnimatedProjectileItem: {
+			DisplayName: "高度なアニメーション投射物アイテムの例"
+			Tooltip: ""
+		}
+		ModularScytheInstanceNotLoaded: {
+			DisplayName: "モジュラーサイスのインスタンス（未ロード）"
+			Tooltip: ""
+		}
+		SimplifiedCustomSwingSword: {
+			DisplayName: "簡易カスタムスイングソード"
+			Tooltip: ""
+		}
+		ColorChangingSquareWeapon: {
+			DisplayName: "色が変わる四角い武器"
+			Tooltip: ""
+		}
+		ParametricCurveWeapon: {
+			DisplayName: "パラメトリック曲線武器"
+			Tooltip: ""
+		}
+		SanguineBlade: {
+			DisplayName: "サングインブレード"
+			Tooltip: ""
+		}
+		ScaryWoodSnath: {
+			DisplayName: "スプーキーウッドのスナース"
+			Tooltip: ""
+		}
+		ChlorophytePommel: {
+			DisplayName: "クロロファイトの柄頭"
+			Tooltip: ""
+		}
+		FishPommel: {
+			DisplayName: "魚の柄頭"
+			Tooltip: ""
+		}
+		EmpressGem: {
+			DisplayName: "エンプレスの宝石"
+			Tooltip: ""
+		}
+		ChlorophyteSnath: {
+			DisplayName: "クロロファイトのスナース"
+			Tooltip: ""
+		}
+		StormbowGem: {
+			DisplayName: "ストームボウの宝石"
+			Tooltip: ""
+		}
+		QueenBeePommel: {
+			DisplayName: "クイーンビーの柄頭"
+			Tooltip: ""
+		}
+		HellstoneSnath: {
+			DisplayName: "ヘルストーンのスナース"
+			Tooltip: ""
+		}
+		HellstoneBlade: {
+			DisplayName: "ヘルストーンの刃"
+			Tooltip: ""
+		}
+		GrassBlade: {
+			DisplayName: "草の刃"
+			Tooltip: ""
+		}
+		MeteorPommel: {
+			DisplayName: "メテオの柄頭"
+			Tooltip: ""
+		}
+		MechSkeletonPommel: {
+			DisplayName: "メカスケルトンの柄頭"
+			Tooltip: ""
+		}
+		NightsEdgeBlade: {
+			DisplayName: "ナイトエッジの刃"
+			Tooltip: ""
+		}
+		EnergyTestSword: {
+			DisplayName: "エネルギーテストソード"
+			Tooltip: ""
+		}
+		CrimsonSnath: {
+			DisplayName: "クリムゾンのスナース"
+			Tooltip: ""
+		}
+		CorruptionBlade: {
+			DisplayName: "コラプションの刃"
+			Tooltip: ""
+		}
+		CrimsonBlade: {
+			DisplayName: "クリムゾンの刃"
+			Tooltip: ""
+		}
+		CorruptionSnath: {
+			DisplayName: "コラプションのスナース"
+			Tooltip: ""
+		}
+		BrainSnath: {
+			DisplayName: "クトゥルフの脳のスナース"
+			Tooltip: ""
+		}
+		SlimePommel: {
+			DisplayName: "スライムの柄頭"
+			Tooltip: ""
+		}
+		LuminiteBlade: {
+			DisplayName: "ルミナイトの刃"
+			Tooltip: ""
+		}
+		SeedlerGem: {
+			DisplayName: "シードラーの宝石"
+			Tooltip: ""
+		}
+		ShadowflameGem: {
+			DisplayName: "シャドウフレイムの宝石"
+			Tooltip: ""
+		}
+		IceQueenSnath: {
+			DisplayName: "アイスクイーンのスナース"
+			Tooltip: ""
+		}
+		StarfuryGem: {
+			DisplayName: "スターフューリーの宝石"
+			Tooltip: ""
+		}
+		SanguinePommel: {
+			DisplayName: "サングインの柄頭"
+			Tooltip: ""
+		}
+		QueenSlimeSnath: {
+			DisplayName: "クイーンスライムのスナース"
+			Tooltip: ""
+		}
+		LuminiteSnath: {
+			DisplayName: "ルミナイトのスナース"
+			Tooltip: ""
+		}
+		EyeSnath: {
+			DisplayName: "クトゥルフの目のスナース"
+			Tooltip: ""
+		}
+		AdamantineSnath: {
+			DisplayName: "アダマンタイトのスナース"
+			Tooltip: ""
+		}
+		DungeonSnath: {
+			DisplayName: "ダンジョンのスナース"
+			Tooltip: ""
+		}
+		TitaniumSnath: {
+			DisplayName: "チタンのスナース"
+			Tooltip: ""
+		}
+		GollumSnath: {
+			DisplayName: "ゴーレムのスナース"
+			Tooltip: ""
+		}
+		GolemBlade: {
+			DisplayName: "ゴーレムの刃"
+			Tooltip: ""
+		}
+		GolemSnath: {
+			DisplayName: "ゴーレムのスナース"
+			Tooltip: ""
+		}
+		DragonPommel: {
+			DisplayName: "ドラゴンの柄頭"
+			Tooltip: ""
+		}
+		MechWormBlade: {
+			DisplayName: "メカワームの刃"
+			Tooltip: ""
+		}
+		SkeletonBlade: {
+			DisplayName: "スケルトンの刃"
+			Tooltip: ""
+		}
+		EmpressSnath: {
+			DisplayName: "エンプレスオブライトのスナース"
+			Tooltip: ""
+		}
+		SolarBlade: {
+			DisplayName: "ソーラーブレード"
+			Tooltip: ""
+		}
+		MechEyeGem: {
+			DisplayName: "メカアイの宝石"
+			Tooltip: ""
+		}
+		SkeletonGem: {
+			DisplayName: "スケルトンの宝石"
+			Tooltip: ""
+		}
+		DiscordPommel: {
+			DisplayName: "ディスコードの柄頭"
+			Tooltip: ""
+		}
+		CultistGem: {
+			DisplayName: "カルティストの宝石"
+			Tooltip: ""
+		}
+		GolemPommel: {
+			DisplayName: "ゴーレムの柄頭"
+			Tooltip: ""
+		}
+		WaspPommel: {
+			DisplayName: "ワスプの柄頭"
+			Tooltip: ""
+		}
+		IronskinSword: {
+			DisplayName: "アイアンスキンソード"
+			Tooltip: ""
+		}
+		MechanicalWormBlade: {
+			DisplayName: "メカニカルワームブレード"
+			Tooltip: ""
+		}
+		VampireKnifeMaterial: {
+			DisplayName: "ヴァンパイアナイフの素材"
+			Tooltip: ""
+		}
+		FleshyGem: {
+			DisplayName: "肉壁の宝石"
+			Tooltip: ""
+		}
+		GroundMinionStaff: {
+			DisplayName: "地上ミニオンスタッフ"
+			Tooltip: ""
+		}
+	}
+	Projectiles: {
+		ExampleCustomSwingProjectile: {
+			DisplayName: "カスタムスイング投射物の例"
+		}
+		ForgedSwordSwingProjectile: {
+			DisplayName: "鍛造された剣のスイング投射物"
+		}
+		ScytheRender: {
+			DisplayName: "サイスの描画"
+		}
+		ScytheDraw: {
+			DisplayName: "サイスの描画"
+		}
+		SwordProjectile: {
+			DisplayName: "剣の投射物"
+		}
+		EnergyProjectile: {
+			DisplayName: "エネルギー投射物"
+		}
+		DeathSickle: {
+			DisplayName: "デスシックル"
+		}
+		Meowmere: {
+			DisplayName: "ミャウメア"
+		}
+		RedEnergyProjectile: {
+			DisplayName: "赤色エネルギー投射物"
+		}
+		ShootingProjectile: {
+			DisplayName: "射撃投射物"
+		}
+		RainingProjectile: {
+			DisplayName: "降雨投射物"
+		}
+		RainingProj: {
+			DisplayName: "降雨投射物"
+		}
+		StaticProjectile: {
+			DisplayName: "静的投射物"
+		}
+		StaticProj: {
+			DisplayName: "静的投射物"
+		}
+		GlobalScytheProjectile: {
+			DisplayName: "グローバルサイス投射物"
+		}
+		ExampleAdvancedAnimatedProjectile: {
+			DisplayName: "高度なアニメーション投射物の例"
+		}
+		SimplifiedSwordSwingProjectile: {
+			DisplayName: "簡易剣スイング投射物"
+		}
+		ModularScytheSwing: {
+			DisplayName: "モジュラーサイススイング"
+		}
+		ColorChangingSquareProjectile: {
+			DisplayName: "色が変わる四角い投射物"
+		}
+		ParametricCurveProjectile: {
+			DisplayName: "パラメトリック曲線投射物"
+		}
+		ScytheProjectile: {
+			DisplayName: "サイス投射物"
+		}
+		EnergyBeamProjectile: {
+			DisplayName: "エネルギービーム投射物"
+		}
+		StickySplitDamage: {
+			DisplayName: "スティッキースプリットダメージ"
+		}
+		ModularScytheThrust: {
+			DisplayName: "モジュラーサイススラスト"
+		}
+		BoneShard: {
+			DisplayName: "骨の破片"
+		}
+		GroundMinion: {
+			DisplayName: "地上ミニオン"
+		}
+		GroundMinion2: {
+			DisplayName: "地上ミニオン2"
+		}
+	}
+	Keybinds: {
+		"Toggle Simple UI": {
+			DisplayName: "シンプルUIの切り替え"
+		}
+	}
+	Buffs: {
+		DefensiveAuraBuff: {
+			DisplayName: "防御のオーラ"
+			Description: "Mods.Tinkers2.Buffs.DefensiveAuraBuff.Description"
+		}
+		TeamShieldBuff: {
+			DisplayName: "チームシールド"
+			Description: "Mods.Tinkers2.Buffs.TeamShieldBuff.Description"
+		}
+		TimeFreezeBuff: {
+			DisplayName: "時間停止"
+			Description: "Mods.Tinkers2.Buffs.TimeFreezeBuff.Description"
+		}
+		GroundMinionBuff: {
+			DisplayName: "グラウンドミニオン"
+			Description: "Mods.Tinkers2.Buffs.GroundMinionBuff.Description"
+		}
+	}
+}

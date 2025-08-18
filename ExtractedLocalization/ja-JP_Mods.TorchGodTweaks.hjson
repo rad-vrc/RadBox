@@ -1,0 +1,60 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		TorchGodsFavorRecipe: {
+			Label: "[i:TorchGodsFavor] たいまつの神の加護のレシピ"
+			Tooltip: 「たいまつの神の加護」をクラフト可能にするかを切り替えます（レシピはMod説明を参照）
+		}
+
+		ReverseTorchSwap: {
+			Label: "[i:Torch] 逆たいまつ自動変更"
+			Tooltip: （「バイオームたいまつ自動変更」が有効な場合のみ）バイオームたいまつを回収したときに通常のたいまつへ戻すかを切り替えます
+		}
+
+		ReverseTorchSwapForDemonTorch: {
+			Label: "[i:DemonTorch] 悪魔のたいまつで逆変更"
+			Tooltip: 逆たいまつ自動変更を悪魔のたいまつにも適用するかを切り替えます
+		}
+
+		ReverseTorchSwapForAetherTorch: {
+			Label: "[i:ShimmerTorch] シマーのたいまつで逆変更"
+			Tooltip: 逆たいまつ自動変更をシマーのたいまつにも適用するかを切り替えます
+		}
+
+		ReverseTorchSwapForBoneTorch: {
+			Label: "[i:BoneTorch] 骨のたいまつで逆変更"
+			Tooltip: 逆たいまつ自動変更を骨のたいまつにも適用するかを切り替えます
+		}
+
+		ConvertTorchesUponHardmode: {
+			Label: "[i:Torch]->[i:CorruptTorch] ハードモード突入時にたいまつを変換"
+			Tooltip: ハードモード突入時、邪悪系ブロックの近くにあるたいまつを対応する邪悪のたいまつに変換するかを切り替えます
+		}
+
+		PreventTorchGodSpawn: {
+			Label: "[i:TorchGodsFavor] たいまつの神の出現を阻止"
+			Tooltip: たいまつの神が出現しないようにするかを切り替えます（通常の出現条件は「洞窟層かつ周囲にたいまつが100本超」）
+		}
+
+		ConvertTorchesWhenClentaminating: {
+			Label: "[i:GreenSolution] 環境変更銃でたいまつを変換"
+			Tooltip:
+				'''
+				設置済みで変換可能なたいまつ（対応する溶液があるもの）を、環境変更銃使用時に変換するかを切り替えます
+				通常のたいまつとの相互変換のみ対応し、骨のたいまつは対象外です
+				'''
+		}
+
+		AffectCampfires: {
+			Label: "[i:Campfire] キャンプファイアに適用"
+			Tooltip: このModの効果をキャンプファイアにも適用するかを切り替えます。たいまつに関する設定は暗黙的にキャンプファイアにも適用されます
+		}
+	}
+}
+
+RecipeGroups: {
+	AnyEvilTorchRecipeGroup: "{0} 邪悪のたいまつ"
+	AnyGoldBarRecipeGroup: "{0} 金のインゴット"
+}
+

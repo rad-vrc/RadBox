@@ -1,0 +1,1015 @@
+{
+	Items: {
+		AmberRing: {
+			DisplayName: "コハクの腕輪"
+			Tooltip: "ライフ自然回復を少し増加させる"
+		}
+
+		AmethystRing: {
+			DisplayName: "アメジストの腕輪"
+			Tooltip: "「紫色のリング」"
+		}
+
+		CrystalJewel: {
+			DisplayName: "クリスタルジュエル"
+			Tooltip: "攻撃されたときに危険な破片を生み出す"
+		}
+
+		CrystalMonocle: {
+			DisplayName: "クリスタルモノクル"
+			Tooltip:
+				'''
+				魔法と遠距離ダメージとクリティカル率が10%上昇
+				「カラフルな歪み」
+				'''
+		}
+
+		EmeraldRing: {
+			DisplayName: "エメラルドの腕輪"
+			Tooltip: "ダメージを5%増加させる"
+		}
+
+		RubyRing: {
+			DisplayName: "ルビーの腕輪"
+			Tooltip: "近接武器が熱でちらつく"
+		}
+
+		SapphireRing: {
+			DisplayName: "サファイアの腕輪"
+			Tooltip: "近接攻撃速度が5%増加する"
+		}
+
+		TopazRing: {
+			DisplayName: "トパーズの腕輪"
+			Tooltip: "移動速度が5%増加する"
+		}
+
+		CrystalBreastplate: {
+			DisplayName: "クリスタルの胸当て"
+			Tooltip:
+				'''
+				魔法と召喚ダメージが10%増加する
+				召喚できるミニオンの数が1体増加する
+				'''
+		}
+
+		CrystalHelm: {
+			DisplayName: "クリスタルの兜"
+			Tooltip:
+				'''
+				魔法と召喚ダメージが8%増加する
+				召喚できるミニオンの数が1体増加する
+				'''
+		}
+
+		CrystalLeggings: {
+			DisplayName: "クリスタルのすね当て"
+			Tooltip:
+				'''
+				魔法と召喚クリティカル率が7%増加する
+				召喚できるミニオンの数が1体増加する
+				'''
+		}
+
+		CrystalMask: {
+			DisplayName: "クリスタルの仮面"
+			Tooltip: "バニティアイテム"
+		}
+
+		CrystiliumBreastplate: {
+			DisplayName: "クリスティリウムの胸当て"
+			Tooltip: "魔法ダメージを12%増加させる"
+		}
+
+		CrystiliumGreaves: {
+			DisplayName: "クリスティリウムのすね当て"
+			Tooltip: "魔法クリティカル率が9%上昇する"
+		}
+
+		CrystiliumHelmet: {
+			DisplayName: "クリスティリウムの兜"
+			Tooltip:
+				'''
+				魔法ダメージが9%増加する
+				マナ最大値が60増加
+				'''
+		}
+
+		HardCrystalBreastplate: {
+			DisplayName: "ハードクリスタルの胸当て"
+			Tooltip:
+				'''
+				魔法と召喚ダメージが8%増加する
+				召喚できるミニオンの数が1体増加する
+				'''
+		}
+
+		HardCrystalHelm: {
+			DisplayName: "ハードクリスタルの兜"
+			Tooltip:
+				'''
+				魔法と召喚ダメージが6%増加する
+				召喚できるミニオンの数が1体増加する
+				'''
+		}
+
+		HardCrystalLeggings: {
+			DisplayName: "ハードクリスタルのすね当て"
+			Tooltip: "召喚できるミニオンの数が2体増加する"
+		}
+
+		BrokenStaff: {
+			DisplayName: "壊れたアークメイジスタッフ"
+			Tooltip: ""
+		}
+
+		CrypticCrystal: {
+			DisplayName: "クリプティッククリスタル"
+			Tooltip:
+				'''
+				クリスタルの心臓部で使用する
+				「汝の宝物を誇示せよ、するとドラゴンが来る...」
+				'''
+		}
+
+		CrystalBag: {
+			DisplayName: "トレジャーバッグ（クリスタルキング）"
+			Tooltip: "右クリックで開く"
+		}
+
+		CrystalBottle: {
+			DisplayName: "クリスタルボトル"
+			Tooltip: "エンチャントされているようだ"
+		}
+
+		CrystalBottleWater: {
+			DisplayName: "クリスタルボトルウォーター"
+			Tooltip: "水が奇妙な色で輝く"
+		}
+
+		CrystalKey: {
+			DisplayName: "クリスタルの鍵"
+			Tooltip: "輝く洞窟の秘密を解く"
+		}
+
+		CrystalPotion: {
+			DisplayName: "クリスタルのポーション"
+			Tooltip: "クリスタルの破片が近くの敵にダメージを与える"
+		}
+
+		CrystiliumBar: {
+			DisplayName: "クリスティリウムのインゴット"
+			Tooltip: "一つの世界全体の魔法でエンチャントされている"
+		}
+
+		DragonWine: {
+			DisplayName: "ドラゴンのポーション"
+			Tooltip: "10秒間ダメージを4倍にする、[c/FF0000:しかし使用時に200 HPを失う]"
+		}
+
+		DustbreakPotion: {
+			DisplayName: "ダストブレイクポーション"
+			Tooltip: "クリティカルダメージが増加する"
+		}
+
+		EnchantedGeode: {
+			DisplayName: "エンチャントジオード"
+			Tooltip: ""
+		}
+
+		GeodeHamaxe: {
+			DisplayName: "ジオードのハンマーアックス"
+			Tooltip: ""
+		}
+
+		GeodeItem: {
+			DisplayName: "ジオード"
+			Tooltip: "「中身は何だろう!」"
+		}
+
+		GeodePickaxe: {
+			DisplayName: "ジオードのつるはし"
+			Tooltip: ""
+		}
+
+		Geode: {
+			DisplayName: "ジオード"
+			Tooltip: "壊れるととても鋭い"
+		}
+
+		GranitePotion: {
+			DisplayName: "御影石のポーション"
+			Tooltip: "速度は低いがタンクになる"
+		}
+
+		MarblePotion: {
+			DisplayName: "大理石のポーション"
+			Tooltip: "防御は低いが速度が速くなる"
+		}
+
+		BootlegFountain: {
+			DisplayName: "ブートレッグファウンテン"
+			Tooltip: "「同じように見えるが48州で違法だ」"
+		}
+
+		CrystalBlock: {
+			DisplayName: "クリスタルのブロック"
+			Tooltip: ""
+		}
+
+		CrystalChest: {
+			DisplayName: "クリスタルの宝箱"
+			Tooltip: ""
+		}
+
+		CrystalWall: {
+			DisplayName: "クリスタルの壁"
+			Tooltip: ""
+		}
+
+		CrystalWood: {
+			DisplayName: "クリスタルウッド"
+			Tooltip: ""
+		}
+
+		CrystalWoodChair: {
+			DisplayName: "クリスタルウッドのイス"
+			Tooltip: ""
+		}
+
+		CrystalWoodChest: {
+			DisplayName: "クリスタルウッドの宝箱"
+			Tooltip: "チェスト"
+		}
+
+		CrystalWoodDoor: {
+			DisplayName: "クリスタルウッドのドア"
+			Tooltip: ""
+		}
+
+		CrystalWoodTorch: {
+			DisplayName: "クリスタルウッドのたいまつ"
+			Tooltip: "クリスタルトーチ"
+		}
+
+		CrystalWoodWall: {
+			DisplayName: "クリスタルウッドの壁"
+			Tooltip: "クリスタルウッドウォールだ"
+		}
+
+		CrystalWoodWorkbench: {
+			DisplayName: "クリスタルウッドの作業台"
+			Tooltip: ""
+		}
+
+		Cryst: {
+			DisplayName: "クリスト"
+			Tooltip: "鋭いクリスタルを召喚して周囲を周回させる"
+		}
+
+		GlowingCrystal: {
+			DisplayName: "グローイングクリスタル"
+			Tooltip: ""
+		}
+
+		KingTrophy: {
+			DisplayName: "クリスタルキングのトロフィー"
+			Tooltip: ""
+		}
+
+		PolishedCrystal: {
+			DisplayName: "ポリッシュドクリスタル"
+			Tooltip: ""
+		}
+
+		RadiantOre: {
+			DisplayName: "ラディアントオア"
+			Tooltip: "マナで痙攣している"
+		}
+
+		RadiantPrism: {
+			DisplayName: "ラディアントプリズム"
+			Tooltip: "激しく振動している"
+		}
+
+		RPC: {
+			DisplayName: "R.P.C."
+			Tooltip: "'Rocket Propelled Crystal'"
+		}
+
+		ShinyGemstone: {
+			DisplayName: "輝きの宝石"
+			Tooltip: "マナが注入されている"
+		}
+
+		TwilightPotion: {
+			DisplayName: "黄昏のポーション"
+			Tooltip: "夜間にダメージが7%増加する"
+		}
+
+		Callandor: {
+			DisplayName: "カランドール"
+			Tooltip: "「Schmoから入手した」"
+		}
+
+		CrystalEdge: {
+			DisplayName: "クリスタルエッジ"
+			Tooltip: "「聖水に浸されている」"
+		}
+
+		CrystalGrenade: {
+			DisplayName: "クリスタルグレネード"
+			Tooltip: "クリスタルグレネード"
+		}
+
+		CrystalSpear: {
+			DisplayName: "クリスタルスピア"
+			Tooltip: "クリスタルスピア"
+		}
+
+		CrystalStaff: {
+			DisplayName: "クリスタルスタッフ"
+			Tooltip: "巨大なクリスタルを召喚する"
+		}
+
+		CrystiliumBlade: {
+			DisplayName: "クリスティリウムブレード"
+			Tooltip: "クリスタルエンバーを発射する"
+		}
+
+		CrystiliumBow: {
+			DisplayName: "クリスティリウムボウ"
+			Tooltip: ""
+		}
+
+		CrystiliumSceptor: {
+			DisplayName: "クリスティリウムセプター"
+			Tooltip: "5つのボルトを発射する"
+		}
+
+		Crystishae: {
+			DisplayName: "クリスティシェー"
+			Tooltip: "'3つの力は一人で出発しない'"
+		}
+
+		DiamondSceptor: {
+			DisplayName: "ダイヤモンドセプター"
+			Tooltip: "爆発的なダイヤモンドを発射する"
+		}
+
+		EnchantedAmberStaff: {
+			DisplayName: "エンチャントアンバースタッフ"
+			Tooltip: "「鋭いダガーを生み出す」"
+		}
+
+		EnchantedAmethystStaff: {
+			DisplayName: "エンチャントアメジストスタッフ"
+			Tooltip: "「影の魔法で作られた」"
+		}
+
+		EnchantedDiamondStaff: {
+			DisplayName: "エンチャントダイヤモンドスタッフ"
+			Tooltip: "「Zap!」"
+		}
+
+		EnchantedEmeraldStaff: {
+			DisplayName: "エンチャントエメラルドスタッフ"
+			Tooltip: "「森の力を振るう」"
+		}
+
+		EnchantedRubyStaff: {
+			DisplayName: "エンチャントルビースタッフ"
+			Tooltip: "「火を感じろ」"
+		}
+
+		EnchantedSapphireStaff: {
+			DisplayName: "エンチャントサファイアスタッフ"
+			Tooltip: "「ツンドラより冷たい」"
+		}
+
+		EnchantedTopazStaff: {
+			DisplayName: "エンチャントトパーズスタッフ"
+			Tooltip: "「跳ねる宝石が最高だ」"
+		}
+
+		GemFury: {
+			DisplayName: "ジェムフューリー"
+			Tooltip: "矢をクリスタルアローに変換する"
+		}
+
+		Gemshot: {
+			DisplayName: "ジェムショット"
+			Tooltip: "矢をエンチャントクリスタルアローに変換する"
+		}
+
+		Glowstrike: {
+			DisplayName: "グロウストライク"
+			Tooltip: "死的なファイアーボールを召喚する"
+		}
+
+		ManaDrainer: {
+			DisplayName: "マナドレイナー"
+			Tooltip: "マナを盗む"
+		}
+
+		NebulaStaff: {
+			DisplayName: "ネビュラスタッフ"
+			Tooltip: "'宇宙の力を感じる'"
+		}
+
+		PrismaticBoomstick: {
+			DisplayName: "プリズマティック・ブームスティック"
+			Tooltip: "虹のビームを発射する"
+		}
+
+		PrismBlade: {
+			DisplayName: "プリズムブレード"
+			Tooltip: "ライフを消費する"
+		}
+
+		PrismCast: {
+			DisplayName: "プリズムキャスト"
+			Tooltip: ""
+		}
+
+		PrismsEye: {
+			DisplayName: "プリズムズアイ"
+			Tooltip: "スペクトラルボウが助ける"
+		}
+
+		QuartzBlade: {
+			DisplayName: "クォーツブレード"
+			Tooltip: "トライデントを発射する"
+		}
+
+		QuartzSpear: {
+			DisplayName: "クォーツスピア"
+			Tooltip: "'Object class - Keter'"
+		}
+
+		RoyalShredder: {
+			DisplayName: "ロイヤルシュレッダー"
+			Tooltip: "'敵を粉砕せよ'"
+		}
+
+		Sharpoon: {
+			DisplayName: "シャープシューター"
+			Tooltip: "'クリスタルのように滑らか'"
+		}
+
+		Shatterang: {
+			DisplayName: "シャッターラング"
+			Tooltip: ""
+		}
+
+		Shatterocket: {
+			DisplayName: "シャッターロケット"
+			Tooltip:
+				'''
+				RPCを弾薬として使用する
+				多様なショットのデュアルボレーを発射する
+				'''
+		}
+
+		Shimmer: {
+			DisplayName: "シマー"
+			Tooltip: "敵に鉛の雨を降らせる"
+		}
+
+		ShiningTrigger: {
+			DisplayName: "シャイニングトリガー"
+			Tooltip: "高ダメージ、低速度"
+		}
+
+		Slamborite: {
+			DisplayName: "スランボライト"
+			Tooltip: "宝石をドロップする"
+		}
+
+		SolarSickle: {
+			DisplayName: "ソーラークリスタルの鎌"
+			Tooltip: "「夕陽の残り火で輝く」"
+		}
+
+		StardustScepter: {
+			DisplayName: "スターダストクリスタルセプター"
+			Tooltip: "「星のきらめきが君と共に」"
+		}
+
+		TerraStaff: {
+			DisplayName: "テラスタッフ"
+			Tooltip: "究極のジェムスタッフ"
+		}
+
+		TrueAmberStaff: {
+			DisplayName: "真・コハクの杖"
+			Tooltip: "「クレオパトラの刃」"
+		}
+
+		TrueAmethystStaff: {
+			DisplayName: "真・アメジストの杖"
+			Tooltip: "「破壊のオーラ」"
+		}
+
+		TrueDiamondStaff: {
+			DisplayName: "真・ダイヤモンドの杖"
+			Tooltip: "「雷撃の雨を降らせる」"
+		}
+
+		TrueEmeraldStaff: {
+			DisplayName: "真・エメラルドの杖"
+			Tooltip: "「全ての敵を吹き飛ばせ」"
+		}
+
+		TrueGemStaff: {
+			DisplayName: "エンチャントジェムスタッフ"
+			Tooltip: "「究極の宝石パワー」"
+		}
+
+		TrueRubyStaff: {
+			DisplayName: "真・ルビーの杖"
+			Tooltip: "「破滅のホーミングファイアーボールを撃つ」"
+		}
+
+		TrueSapphireStaff: {
+			DisplayName: "真・サファイアの杖"
+			Tooltip: "「死的な嵐」"
+		}
+
+		TrueTopazStaff: {
+			DisplayName: "真・トパーズの杖"
+			Tooltip: "「10億の粒子の嵐」"
+		}
+
+		VortexCrystalGauntlet: {
+			DisplayName: "ボルテックスのクリスタルガントレット"
+			Tooltip: "「輝く渦が腕を消費する」"
+		}
+
+		CrystalKingMusicBox: {
+			DisplayName: "ミュージックボックス (クリスタルキング)"
+			Tooltip: "Cosmoptera(LCS)による'Crystal King'テーマを再生する"
+		}
+
+		CrystallineFlowsMusicBox: {
+			DisplayName: "ミュージックボックス (クリスタルバイオーム)"
+			Tooltip: "Cosmoptera(LCS)による'Crystilium Theme'を再生する"
+		}
+
+		CrystallineFlowsAltMusicBox: {
+			DisplayName: "ミュージックボックス (クリスタルバイオーム Alt)"
+			Tooltip: "クリスタルバイオームの未使用テーマを再生する"
+		}
+
+		CrystalFlowsPylon: {
+			Tooltip:
+				'''
+				2人の村人が近くにいると他のパイロンにテレポートする
+				タイプごとに1つしか置けず、対応するバイオームに置く
+				'''
+			DisplayName: "クリスタルの洞窟のパイロン"
+		}
+	}
+
+	Buffs: {
+		CrystalCharm: {
+			DisplayName: "レゾナンス"
+			Description: "+{0}% 魔法ダメージ"
+		}
+
+		CrystalHealing: {
+			DisplayName: "クリスタルヒーリング"
+			Description: "爽快だ!"
+		}
+
+		CrystalLeak: {
+			DisplayName: "クリスタルリーク"
+			Description: "危険なクリスタルを生み出す"
+		}
+
+		DragonFury: {
+			DisplayName: "ドラゴンフューリー"
+			Description: "RYUUGAWA GA TEKI WO KURAU"
+		}
+
+		Dustbreak: {
+			DisplayName: "ダストブレイク"
+			Description: "クリティカルダメージが20%増加"
+		}
+
+		GraniteBuff: {
+			DisplayName: "グラナイトタンク"
+			Description:
+				'''
+				岩のように硬い
+				+13 防御と7%耐久
+				-30% 速度
+				'''
+		}
+
+		MarbleBuff: {
+			DisplayName: "マーブルオーラ"
+			Description:
+				'''
+				羽のように軽い
+				+30% 速度、-25 防御
+				'''
+		}
+
+		QuartzDisease: {
+			DisplayName: "クォーツディジーズ"
+			Description: "Keter"
+		}
+
+		ThrowingBoost: {
+			DisplayName: "スローイングブースト"
+			Description: "+10% 投擲ダメージ"
+		}
+
+		Twilight: {
+			DisplayName: "トワイライト"
+			Description: "夜間に+7%ダメージ"
+		}
+	}
+
+	Biomes: {
+		CrystalBiome: {
+			DisplayName: "クリスタルバイオーム"
+			TownNPCDialogueName: "クリスタルバイオーム"
+		}
+	}
+
+	Tiles: {
+		CrystalChest: {
+			MapEntry: "クリスタルチェスト"
+		}
+
+		CrystalSapling: {
+			MapEntry: "クリスタルサプリング"
+		}
+
+		CrystalWoodChair: {
+			MapEntry: "クリスタルウッドチェア"
+		}
+
+		CrystalWoodChest: {
+			MapEntry: "クリスタルウッドチェスト"
+		}
+
+		CrystalWoodDoorClosed: {
+			MapEntry: "クリスタルウッドドア閉"
+		}
+
+		CrystalWoodDoorOpen: {
+			MapEntry: "クリスタルウッドドア開"
+		}
+
+		CrystalWoodTorch: {
+			MapEntry: "クリスタルウッドトーチ"
+		}
+
+		CrystalWoodWorkbench: {
+			MapEntry: "クリスタルウッドワークベンチ"
+		}
+
+		Fountain: {
+			MapEntry: "ファウンテン"
+		}
+
+		KingTrophy: {
+			MapEntry: "キングトロフィー"
+		}
+
+		CrystalKingMusicBoxTile: {
+			MapEntry: "ミュージックボックス"
+		}
+
+		CrystallineFlowsMusicBoxTile: {
+			MapEntry: "ミュージックボックス"
+		}
+
+		CrystallineFlowsAltMusicBoxTile: {
+			MapEntry: "ミュージックボックス"
+		}
+
+		CrystalFlowsPylonTile: {
+			MapEntry: "クリスタルキャバーンズパイロン"
+		}
+	}
+
+	NPCs: {
+		CrystalKing: {
+			DisplayName: "クリスタルキング"
+
+			BossChecklistIntegration: {
+				EntryName: "クリスタルキング"
+				SpawnInfo: "インベントリに[i:5568]を持ってクリスタルファウンテンを右クリックする"
+			}
+		}
+
+		CrystalCultist: {
+			DisplayName: "クリスタルカルティスト"
+		}
+
+		CrystalArcher: {
+			DisplayName: "クリスタルアーチャー"
+		}
+
+		CrystalElemental: {
+			DisplayName: "クリスタルエレメンタル"
+		}
+
+		CrystalMimic: {
+			DisplayName: "クリスタルミミック"
+		}
+
+		CrystalSlime: {
+			DisplayName: "クリスタルスライム"
+		}
+
+		CrystalZombie: {
+			DisplayName: "クリスタルゾンビ"
+		}
+
+		GeodeMonster: {
+			DisplayName: "ジオードモンスター"
+		}
+	}
+
+	Projectiles: {
+		AmberBlade: {
+			DisplayName: "アンバーブレード"
+		}
+
+		AmberDagger: {
+			DisplayName: "アンバーダガー"
+		}
+
+		BlockRiser: {
+			DisplayName: "ブロックライザー"
+		}
+
+		BouncyTopaz: {
+			DisplayName: "バウンシートパーズ"
+		}
+
+		CallandorSlice: {
+			DisplayName: "カランドールスライス"
+		}
+
+		CrystalArrow: {
+			DisplayName: "クリスタルアロー"
+		}
+
+		CrystalArrowPlayer: {
+			DisplayName: "クリスタルアロープレイヤー"
+		}
+
+		CrystalBomb: {
+			DisplayName: "クリスタルボム"
+		}
+
+		CrystalFire: {
+			DisplayName: "クリスタルファイア"
+		}
+
+		CrystalGrenadeProj: {
+			DisplayName: "クリスタルグレネードProj"
+		}
+
+		CrystalDeathShard: {
+			DisplayName: "クリスタルデスシャード"
+		}
+
+		CultistFire: {
+			DisplayName: "カルティストファイア"
+		}
+
+		Kingwave: {
+			DisplayName: "キングウェーブ"
+		}
+
+		Slasher: {
+			DisplayName: "スラッシャー"
+		}
+
+		CrystalSceptorProj: {
+			DisplayName: "クリスタルセプターProj"
+		}
+
+		CrystalSpear: {
+			DisplayName: "クリスタルスピア"
+		}
+
+		CrystiliumBladeProj: {
+			DisplayName: "クリスティリウムブレードProj"
+		}
+
+		Crystishae: {
+			DisplayName: "クリスティシェー"
+		}
+
+		CrystProj: {
+			DisplayName: "クリストProj"
+		}
+
+		DiamondBomb: {
+			DisplayName: "ダイヤモンドボム"
+		}
+
+		DiamondExplosion: {
+			DisplayName: "ダイヤモンドエクスプロージョン"
+		}
+
+		EnchantedCrystalArrow: {
+			DisplayName: "エンチャントクリスタルアロー"
+		}
+
+		Eshatter: {
+			DisplayName: "Eshatter"
+		}
+
+		FireGem: {
+			DisplayName: "ファイアジェム"
+		}
+
+		AmberProjectile: {
+			DisplayName: "アンバープロジェクタイル"
+		}
+
+		AmethystProjectile: {
+			DisplayName: "アメジストプロジェクタイル"
+		}
+
+		DiamondProjectile: {
+			DisplayName: "ダイヤモンドプロジェクタイル"
+		}
+
+		EmeraldProjectile: {
+			DisplayName: "エメラルドプロジェクタイル"
+		}
+
+		RubyProjectile: {
+			DisplayName: "ルビープロジェクタイル"
+		}
+
+		SapphireProjectile: {
+			DisplayName: "サファイアプロジェクタイル"
+		}
+
+		TopazProjectile: {
+			DisplayName: "トパーズプロジェクタイル"
+		}
+
+		Geode: {
+			DisplayName: "ジオード"
+		}
+
+		GiantDiamond: {
+			DisplayName: "ジャイアントダイヤモンド"
+		}
+
+		Leaf: {
+			DisplayName: "リーフ"
+		}
+
+		ManaBeam: {
+			DisplayName: "マナビーム"
+		}
+
+		SpiritArrow: {
+			DisplayName: "スピリットアロー"
+		}
+
+		SpiritBow: {
+			DisplayName: "スピリットボウ"
+		}
+
+		NebulaShard: {
+			DisplayName: "ネビュラシャード"
+		}
+
+		PrismSlug: {
+			DisplayName: "プリズムスラッグ"
+		}
+
+		QuartzInfectant: {
+			DisplayName: "クォーツインフェクタント"
+		}
+
+		QuartzSpearProj: {
+			DisplayName: "クォーツスピアProj"
+		}
+
+		QuartzTrident: {
+			DisplayName: "クォーツトライデント"
+		}
+
+		RPC: {
+			DisplayName: "R P C"
+		}
+
+		SandParticle: {
+			DisplayName: "サンドパーティクル"
+		}
+
+		SapphireDroplet: {
+			DisplayName: "サファイアドロップレット"
+		}
+
+		SapphirePortal: {
+			DisplayName: "サファイアポータル"
+		}
+
+		SapphireSpike: {
+			DisplayName: "サファイアスパイク"
+		}
+
+		Shatter1: {
+			DisplayName: "Shatter1"
+		}
+
+		Shatter2: {
+			DisplayName: "Shatter2"
+		}
+
+		Shatter3: {
+			DisplayName: "Shatter3"
+		}
+
+		ShatterangProj: {
+			DisplayName: "シャッターラングProj"
+		}
+
+		ShatterEnemy1: {
+			DisplayName: "Shatter Enemy1"
+		}
+
+		ShatterEnemy2: {
+			DisplayName: "Shatter Enemy2"
+		}
+
+		ShatterEnemy3: {
+			DisplayName: "Shatter Enemy3"
+		}
+
+		GemstoneFlailProj: {
+			DisplayName: "ジェムストーンフレイルProj"
+		}
+
+		SlamboriteProj: {
+			DisplayName: "スランボライトProj"
+		}
+
+		SolarCrystal: {
+			DisplayName: "ソーラークリスタル"
+		}
+
+		StardustCrystal: {
+			DisplayName: "スターダストクリスタル"
+		}
+
+		StardustDiamond: {
+			DisplayName: "スターダストダイヤモンド"
+		}
+
+		TrueAmethystProjectile: {
+			DisplayName: "真・アメジストプロジェクタイル"
+		}
+
+		TrueGemFire: {
+			DisplayName: "真・ジェムファイア"
+		}
+
+		TerraGemProj: {
+			DisplayName: "テラジェムProj"
+		}
+
+		TrueLeaf: {
+			DisplayName: "真・リーフ"
+		}
+
+		TrueRubyProjectile: {
+			DisplayName: "真・ルビープロジェクタイル"
+		}
+
+		VortexCrystal: {
+			DisplayName: "ボルテックスクリスタル"
+		}
+
+		VortexPortal: {
+			DisplayName: "ボルテックスポータル"
+		}
+	}
+
+	Bestiary: {
+		CrystalCultist: "クリスタルキングの最も熱心な崇拝者だ 彼らは彼の精神のアンカーとして働き、聖域の祝福を歪めて彼の影響を維持する"
+		CrystalKing: "専制君主の古代の魂で、統治を延ばすためにエレメンタルリッチになった 生前、彼は剣がとても好きだった"
+		CrystalArcher: "長く死んだ王に忠誠を誓う 入団式として、これらのカルティストは残酷な儀式の犠牲に参加する - 彼らは凡人の皮膚をエンチャントクリスタルと交換する"
+		CrystalElemental: "古代の魔法で粗いクリスタルの塊に縛られた落ち着かない精神だ 乱雑にテレポートし、小さなコアを打つのが非常に難しい"
+		CrystalMimic: "クリスタル魔法で汚染された聖域のミミックで、新しい主人に仕える クリスタルカルトは小さなミミックを説得しようとし、洞窟に散らばった石化したチェストが生まれた"
+		CrystalSlime: "スライムがエンチャントクリスタルに着地するたび、少しの量が表面に付着する これらのスライムは獲物を切り裂くためにこれらのギザギザの破片を放つ"
+		CrystalZombie: "クリスタルに支配された普通のアンデッドだ 鋭いクリスタルの破片が体から常に分裂し、新しい宿主を感染させる"
+		GeodeMonster: "クリスタルエネルギーによって歪んだサラマンダーだ 貴重な宝石が岩のような皮から成長し、何らかの方法で歪んだ祝福が浄化されている"
+	}
+}

@@ -1,0 +1,2941 @@
+﻿WingSlot: {
+	WingsDye: 翼の染料
+	Wings: 翼
+}
+
+Movilityslot: {
+	BootsDye: ブーツの染料
+	Boots: ブーツ
+}
+
+NPCs: {
+	Tendera: {
+		Bestiari: {
+			Desc1: 実用的な装備を見抜く目を持つ賢明なヨードルです。彼女は冒険者たちに強力な刀身から魔法の装身具まで、あらゆるものを実直な態度で提供します。
+		}
+
+		Dialogues: {
+			RareDialogue: これが何を意味するかわからないの？！この地全体の歴史…ルーンテラ全体の歴史さえも—！あぁ…待って…何の話をしてたっけ？…忘れて。
+			CommonDialogue: こんな遺物を売らなきゃいけないなんて残念だけど…緊急に物資が必要なの
+			StandardDialogue4: トリック見たい？武器見たい？スピーチを準備してたの…えっと…どこに置いたっけ？
+			StandardDialogue3: 純氷の一番不思議なところは溶けないことね。ひとかけらをオーブンに入れたのに、その&%$#@!は固体のままだった！
+			StandardDialogue2: まだ後始末の最中だけど…ずっと昔にここでひどいことが起きた気がしてならない…
+			StandardDialogue1: クロロファイトの剣が既に強力なら...クロロファイトで完全に作られたヘクステック装置がどんなものになるか想像してみて！
+		}
+
+		TownNPCMood: {
+			HateBiome: "{BiomeName}は嫌い"
+			LoveBiome: "{BiomeName}が大好き"
+			Princess_LovesNPC: "{NPCName}が好き"
+			LikeNPC_Princess: "{NPCName}が好き"
+			HateNPC: "{NPCName}が嫌い"
+			DislikeNPC: "{NPCName}はあまり好きじゃない"
+			LikeNPC: "{NPCName}が好き"
+			LoveNPC: "{NPCName}が大好き"
+			DislikeBiome: "{BiomeName}はあまり好きじゃない"
+			LikeBiome: "{BiomeName}が好き"
+			HateCrowded: "狭いのは嫌い"
+			DislikeCrowded: "狭すぎるのは好きじゃない"
+			LoveSpace: "広いのは大好き"
+			FarFromHome: "家から離れすぎている"
+			NoHome: "家がないのは嫌い"
+			Content: "満足している"
+		}
+
+		DisplayName: アイテム商人
+	}
+}
+
+Configs: {
+	Modconfigclient: {
+		muestrahud: {
+			Tooltip: HUDの表示を有効にします
+			Label: HUDを有効にする
+		}
+
+		DisplayName: League of Items設定 クライアントオプション
+	}
+
+	Modconfigserver: {
+		slotsextra: {
+			Tooltip: このオプションは、ブーツと翼の追加アクセサリスロットを有効にします。
+			Label: 追加アクセサリスロット
+		}
+
+		objetospotenciados: {
+			Tooltip:
+				'''
+				オン: 高難易度体験、PvP、または単純にパワー感（楽しさ）に理想的。
+				オフ: Terraria標準（Calamityを含む）に沿ったよりバランスの取れた体験に理想的。
+				'''
+			Label: 強化アイテム
+		}
+
+		DisplayName: League of Items設定 サーバーオプション
+	}
+}
+
+Projectiles: {
+	Descargatorm_rayo: {
+		DisplayName: ストームサージ（雷）
+	}
+
+	Descargatorm_nube: {
+		DisplayName: ストームサージ（雲）
+	}
+
+	Descargatorm_explosion: {
+		DisplayName: ストームサージ（爆発）
+	}
+
+	Zakzakproj: {
+		DisplayName: ザズザクの弾丸
+	}
+
+	Voidresproj: {
+		DisplayName: ヴォイドの弾丸
+	}
+
+	Randuimproj: {
+		DisplayName: ランデュインの弾丸
+	}
+
+	Guanteletehielproj: {
+		DisplayName: アイスガントレットの弾丸
+	}
+
+	Cryptoretoproj: {
+		DisplayName: クリプトブルームの弾丸
+	}
+
+	Desesperaproj: {
+		DisplayName: 絶望の弾丸
+	}
+
+	Zekeproj: {
+		DisplayName: ジークの弾丸
+	}
+
+	YuumiMinion: {
+		DisplayName: ユーミ ミニオン
+	}
+
+	Ahriproj: {
+		DisplayName: アーリの弾丸
+	}
+
+	Statikproj: {
+		DisplayName: スタティック・シヴ弾丸
+	}
+
+	Hydratiamaproj: {
+		DisplayName: ティアマト弾丸
+	}
+
+	Resplandorproj: {
+		DisplayName: 輝き弾丸
+	}
+
+	Latigoferrproj: {
+		DisplayName: 鉄鞭弾丸
+	}
+
+	Hydravorazproj: {
+		DisplayName: 貪欲なハイドラ弾丸
+	}
+
+	Hydratitanproj: {
+		DisplayName: タイタニック・ハイドラ弾丸
+	}
+
+	Hydraprofaproj: {
+		DisplayName: 冒瀆のハイドラ弾丸
+	}
+
+	Cortasendaproj: {
+		DisplayName: ストライドブレイカー弾丸
+	}
+
+	Bebedordesproj: {
+		DisplayName: ゴアドリンカー弾丸
+	}
+
+	Hydraprofproj: {
+		DisplayName: 冒瀆のハイドラ弾丸
+	}
+
+	Tiamatproj: {
+		DisplayName: ティアマト弾丸
+	}
+
+	CachorrofuegoMinion: {
+		DisplayName: スコーチクローの子犬
+	}
+
+	CachorrodeaireMinion: {
+		DisplayName: ガストウォーカーの雛
+	}
+
+	CachorropastoMinion: {
+		DisplayName: モスストンパーの苗
+	}
+
+	Barreraechizos: {
+		DisplayName: 魔法障壁
+	}
+}
+
+Textodeui: {
+	Otra: シールド
+	Textoescudo: シールド
+}
+
+Buffs: {
+	Prometidobuff: {
+		Description: Mods.lolitems.Buffs.Prometidobuff.Description
+		DisplayName: プロメティド
+	}
+
+	Rompeescubuff: {
+		DisplayName: サーペントの毒
+		Description: シールドが減少し、より脆弱になる
+	}
+
+	Ultraslowbuff: {
+		Description: Mods.lolitems.Buffs.Ultraslowbuff.Description
+		DisplayName: 超鈍化
+	}
+
+	Shafowbuff: {
+		Description: Mods.lolitems.Buffs.Shafowbuff.Description
+		DisplayName: シャドウ
+	}
+
+	Mandatobuff: {
+		Description: Mods.lolitems.Buffs.Mandatobuff.Description
+		DisplayName: マンダート
+	}
+
+	Maldicionbuff: {
+		Description: Mods.lolitems.Buffs.Maldicionbuff.Description
+		DisplayName: 呪詛
+	}
+
+	Lyandribuff: {
+		Description: Mods.lolitems.Buffs.Lyandribuff.Description
+		DisplayName: リアンドリー
+	}
+
+	Cuchillabuff: {
+		Description: Mods.lolitems.Buffs.Cuchillabuff.Description
+		DisplayName: カーサスの刃
+	}
+
+	StasisBuff: {
+		Description: 無敵だが移動できない
+		DisplayName: スタシス
+	}
+
+	Iceslowbuff: {
+		Description: Mods.lolitems.Buffs.Iceslowbuff.Description
+		DisplayName: 氷結鈍化
+	}
+
+	YuumiBuff: {
+		Description: ユーミがあなたを世話してくれる
+		DisplayName: ユーミ
+	}
+
+	CachorrofuegoBuff: {
+		Description: スコーチクローの子犬があなたのために戦う
+		DisplayName: スコーチクローの子犬
+	}
+
+	CachorrodeaireBuff: {
+		Description: ガストウォーカーの雛があなたのために戦う
+		DisplayName: ガストウォーカーの雛
+	}
+
+	CachorropastoBuff: {
+		Description: モスストンパーの苗があなたのために戦う
+		DisplayName: モスストンパーの苗
+	}
+}
+
+Keybinds: {
+	aunnoslot: 未装備
+	sinasignar: キー未割り当て
+
+	activaslot1: {
+		DisplayName: スロット1発動ボタン
+	}
+
+	activaslot2: {
+		DisplayName: スロット2発動ボタン
+	}
+
+	activaslot3: {
+		DisplayName: スロット3発動ボタン
+	}
+
+	activaslot4: {
+		DisplayName: スロット4発動ボタン
+	}
+
+	activaslot5: {
+		DisplayName: スロット5発動ボタン
+	}
+}
+
+Hud: {
+	Pasivas: {
+		Energyz: エネルギー蓄積
+		Lagrima: 女神の涙のパッシブ蓄積
+		Zhonya: スタシスのアクティブはクールダウン中
+		Redention: 贖罪のアクティブはクールダウン中
+		Solari: アイアン・ソラリのロケットのアクティブはクールダウン中
+		Fajin: マーキュリアル・シミターのアクティブはクールダウン中
+		Randuim: ランドゥイン・オーメンのアクティブはクールダウン中
+		Mikael: ミカエルの祝福のアクティブはクールダウン中
+		Salvavid: 命綱シールド（パッシブ）はクールダウン中
+	}
+
+	Stats: {
+		Penmagi: NPCの素の防御の{0}%か 対プレイヤー時は本Modの魔法耐性の同量を無視
+		Habilcd: 魔法武器の使用時間を{0}%短縮
+		Resmagi: プレイヤーからの魔法ダメージ またはNPCの魔法弾ダメージを{0}%軽減
+		Danomag: 魔法・召喚武器の基礎ダメージを増加
+		Penfisi: NPCの素の防御の{0}%か 対プレイヤー時は本Modの物理防御の同量を無視
+		Robovid: 近接・遠隔武器で与えたダメージの{0}%回復
+		Armadur: プレイヤーからの物理 またはNPC接触ダメージを{0}%軽減
+		Danofis: 近接・遠隔武器の基礎ダメージをその値だけ増加
+	}
+}
+
+Items: {
+	Notasversion: {
+		Tooltip:
+			'''
+			このMODをダウンロードしてくれて本当にありがとう！
+			もし気に入ってくれたら [c/66AC4D:"いいね"] と
+			Steamページでの [c/FFC83D:お気に入り] で応援してくれると嬉しい
+			.
+			— このバージョンにはテキスト修正と
+			    公式Wikiの一部公開が含まれます
+			 
+			公式Wikiはこちら:
+			[c/5BEAEF:https://league-of-items-official.fandom.com/]
+			またはSteamページのリンクからアクセスできます
+			[c/C9AA62:このアイテムは削除すると二度と表示されません]
+			 
+			                 [c/FFC83D:- 楽しい時間を！ -]
+			'''
+		DisplayName: League of Items！
+	}
+
+	Yuumiitem: {
+		Tooltip: 回復してくれるユーミを召喚する
+		DisplayName: 境界の書
+	}
+
+	Espadoranu: {
+		Tooltip: ""
+	}
+
+	Espadoranmarchiu: {
+		Tooltip: ""
+	}
+
+	Espalargu: {
+		Tooltip: ""
+	}
+
+	Ahriorbe: {
+		Tooltip: 戻りで実ダメージ40 与ダメージはAPで伸びる
+		DisplayName: 詐術の玉
+	}
+
+	Aatroxespada: {
+		Aatroxespadaextra:
+			'''
+			[c/C9AA62:与ダメの{0}%だけ回復]
+			[c/C9AA62:増加ライフ100ごとに0.9%増加]
+			'''
+		Tooltip: ""
+		DisplayName: アート	xn
+	}
+
+	Sortijadoranmarchi: {
+		DisplayName: 朽ちたドランの指輪
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			'''
+	}
+
+	Espadoranmarchi: {
+		DisplayName: 朽ちたドランの剣
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			'''
+	}
+
+	Escudodoranmarchi: {
+		DisplayName: 朽ちたドランの盾
+		Tooltip: "[c/78C86B:+{0} 最大ライフ]"
+	}
+
+	Dagastatik: {
+		DisplayName: スタティック・シヴ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 敵を追尾する稲妻を放つ
+			'''
+	}
+
+	Abrazodesera: {
+		DisplayName: セラフの抱擁
+		AbrazodeseraExtra: 現在付与: アビリティパワー+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ライフが少ないとき シールドを付与
+			'''
+	}
+
+	Espadaguardian: {
+		DisplayName: 守護者の剣
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 最大ライフ]
+			'''
+	}
+
+	Cuernoguardian: {
+		DisplayName: 守護者の角笛
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被弾時のライフ自然回復が上昇
+			'''
+	}
+
+	CachorrofuegoItem: {
+		Tooltip: スコーチクローの子犬の仲間を召喚する
+		DisplayName: スコーチクローの子犬
+	}
+
+	CachorrodeaireItem: {
+		Tooltip: ガストウォーカーの雛の仲間を召喚する
+		DisplayName: ガストウォーカーの雛
+	}
+
+	CachorropastoItem: {
+		Tooltip: モスストンパーの苗の仲間を召喚する
+		DisplayName: モスストンパーの苗
+	}
+
+	Bastonsoraka: {
+		Tooltip:
+			'''
+			40マナ + ライフ10%を消費
+			味方を回復
+			'''
+		DisplayName: ソラカの杖
+	}
+
+	Abrazodemoniaco: {
+		DisplayName: 悪魔の抱擁
+		AbrazodemoniacoExtra:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ][{0}] を押すと
+			ライフと引き換えに移動速度を得る
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			'''
+	}
+
+	Abrecaminos: {
+		DisplayName: トレイルブレイザー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時 命中で追加スロー
+			'''
+	}
+
+	Acompananteluden: {
+		DisplayName: ルーデンの相棒
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]魔力の爆発を起こす（CT10秒）
+			'''
+	}
+
+	Agrietador: {
+		DisplayName: リフトメーカー
+		AgrietadorExtra: 現在付与: アビリティパワー+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘中 与ダメージと全吸収が増加
+			'''
+	}
+
+	Alternadorhex: {
+		DisplayName: ヘクステック・オルタネーター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]次の攻撃が追加ダメージを与える（CT40秒）
+			'''
+	}
+
+	Amanecerplat: {
+		DisplayName: シルバーミアの夜明け
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 魔法耐性]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]行動不能効果を解除
+			'''
+	}
+
+	Amuletohada: {
+		DisplayName: 妖精のチャーム
+		Tooltip: "[c/78C86B:+{0}% マナ自然回復]"
+	}
+
+	Angelguard: {
+		DisplayName: ガーディアンエンジェル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]致死ダメージ時 ライフ50%で復活
+			'''
+	}
+
+	Antifazembru: {
+		DisplayName: 亡霊の仮面
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘中 ダメージ増加
+			'''
+	}
+
+	Antorchaoscu: {
+		DisplayName: 黒炎の松明
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]黒炎で敵を燃やす
+			'''
+	}
+
+	Aparienciaespirit: {
+		DisplayName: スピリット・ビサージュ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]シールドと回復効果が増加
+			'''
+	}
+
+	Arcoaxio: {
+		DisplayName: アクシオム・アーク
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]キル時にアクティブアイテムのCT短縮
+			'''
+	}
+
+	Arcoescudoi: {
+		DisplayName: インモータル・シールドボウ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ライフが少ないとき シールドを付与
+			'''
+	}
+
+	Arcorecur: {
+		DisplayName: リカーブボウ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 追加ダメージ
+			'''
+	}
+
+	Armaduralunar: {
+		DisplayName: 翼付きムーンプレート
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% 移動速度]
+			'''
+	}
+
+	Armaduratela: {
+		DisplayName: 布の鎧
+		Tooltip: "[c/78C86B:+{0} 物理防御]"
+	}
+
+	Arrogancia: {
+		DisplayName: ハブリス
+		ArroganciaExtra: 現在付与: 攻撃力+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すと攻撃力を獲得
+			'''
+	}
+
+	Avanceimplacable: {
+		DisplayName: 前進あるのみ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]まほうの鏡の使用が速くなる
+			'''
+	}
+
+	Bacterio: {
+		DisplayName: フェイジ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 移動速度を獲得
+			'''
+	}
+
+	Baculodeagua: {
+		DisplayName: 湧水の杖
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/78C86B:+{3}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]味方を回復すると 一時的なAPを付与
+			'''
+	}
+
+	Baculodelvaci: {
+		DisplayName: ヴォイドスタッフ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/78C86B:+{1}% 魔法貫通]
+			'''
+	}
+
+	Bailarinespec: {
+		DisplayName: ファントムダンサー
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ノックバック無効を付与
+			'''
+	}
+
+	Barrerafrondosa: {
+		DisplayName: 繁茂の障壁
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘後のシールドが次のアビリティをブロック
+			'''
+	}
+
+	Bastondelarcan: {
+		DisplayName: 大天使の杖
+		BastondelarcanExtra:
+			'''
+			マナ蓄積: {0}/360
+			現在付与: アビリティパワー+{1}
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中で追加のマナを獲得
+			'''
+	}
+
+	Bebedordesangre: {
+		DisplayName: ゴアドリンカー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]波動を放ち 敵1体ごとに回復
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理命中時に小さなダメージ波
+			'''
+	}
+
+	Blindadasavan: {
+		DisplayName: アーマード・アドバンス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]特定の攻撃源からの被ダメージを軽減
+			その種のダメージを受けるとシールド付与
+			'''
+	}
+
+	Botas: {
+		DisplayName: ブーツ
+		Tooltip: "[c/78C86B:+{0} 移動速度]"
+	}
+
+	Botasbersek: {
+		DisplayName: バーサーカーのグリーヴ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 攻撃速度]
+			[c/78C86B:+{1} 移動速度]
+			'''
+	}
+
+	Botasdehechi: {
+		DisplayName: ソーサラーシューズ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法貫通]
+			[c/78C86B:+{1} 移動速度]
+			'''
+	}
+
+	Botasdemovi: {
+		DisplayName: モビリティブーツ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘中は機動力が大幅低下
+			'''
+	}
+
+	Botasderapi: {
+		DisplayName: スイフトネスブーツ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]スロー効果を25%軽減
+			'''
+	}
+
+	Botasdetabis: {
+		DisplayName: プレートスチールキャップ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]特定の攻撃源からの被ダメージを軽減
+			'''
+	}
+
+	Botasincro: {
+		DisplayName: シンクロナイズド・ソウル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]まほうの鏡の使用が速くなる
+			'''
+	}
+
+	Botasjonias: {
+		DisplayName: アイオニアの明晰ブーツ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アクティブアイテムのクールダウン短縮
+			'''
+	}
+
+	Botasmercu: {
+		DisplayName: マーキュリーブーツ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} 移動速度]
+			[c/78C86B:+{2}% 行動妨害耐性]
+			'''
+	}
+
+	Botassimbioticas: {
+		DisplayName: シンビオティック・ソール
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]まほうの鏡の使用が速くなる
+			'''
+	}
+
+	Brazalcristal: {
+		DisplayName: クリスタリン・ブレーサー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			'''
+	}
+
+	Brillo: {
+		DisplayName: シーン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化攻撃はダメージ2倍
+			'''
+	}
+
+	Brisadeeter: {
+		DisplayName: エーテルウィスプ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/78C86B:+{1}% 移動速度]
+			'''
+	}
+
+	Broquelglacial: {
+		DisplayName: 氷河のバックラー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} アビリティヘイスト]
+			'''
+	}
+
+	Brujularunic: {
+		DisplayName: 符文コンパス
+		BrujularunicExtra: 符文コンパスのスタック: {0}/800
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]時間経過でゴールドを獲得
+			ワールドアトラスのスタック最大時のみ使用可
+			'''
+	}
+
+	Brutalizador: {
+		DisplayName: ブルータライザー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			'''
+	}
+
+	Cadenasdeana: {
+		DisplayName: アナセマの鎖
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]受けるダメージを30%軽減
+			'''
+	}
+
+	Cancionsangre: {
+		DisplayName: ブラッドソング
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化攻撃はダメージ2倍
+			符文コンパスのスタック最大時のみ使用可
+			時間経過でコインを獲得
+			'''
+	}
+
+	Canondefuegorapido: {
+		DisplayName: ラピッドファイアキャノン
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時 命中でダメージと射程を強化
+			'''
+	}
+
+	Capadeagi: {
+		DisplayName: アジリティクローク
+		Tooltip: "[c/78C86B:+{0}% クリティカル率]"
+	}
+
+	Capadefuegsol: {
+		DisplayName: サンファイア・エージス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]炎の輪が周囲の敵を燃やす
+			'''
+	}
+
+	Capadenegas: {
+		DisplayName: ネガトロンクローク
+		Tooltip: "[c/78C86B:+{0} 魔法耐性]"
+	}
+
+	Capituloper: {
+		DisplayName: ロストチャプター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中でマナ回復
+			'''
+	}
+
+	Carcajdemedio: {
+		DisplayName: ヌンクイヴァー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% クリティカル率]
+			'''
+	}
+
+	Catalizadeones: {
+		DisplayName: イーオンのカタリスト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]消費ライフでマナ回復 マナ消費でライフ回復
+			'''
+	}
+
+	Cenizadebambi: {
+		DisplayName: バーミシンダー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]炎の輪で敵を燃やす
+			'''
+	}
+
+	Cenizasprede: {
+		DisplayName: 宿命の灰
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に火傷を付与
+			'''
+	}
+
+	Cetrovamp: {
+		DisplayName: ヴァンパイアセプター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% ライフスティール]
+			'''
+	}
+
+	Chalecodecadenas: {
+		DisplayName: チェーンベスト
+		Tooltip: "[c/78C86B:+{0} 物理防御]"
+	}
+
+	Chalecoespinas: {
+		DisplayName: 茨のベスト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被弾時にダメージを与える
+			'''
+	}
+
+	Chuchillaextraoscura: {
+		DisplayName: ブラック・クリーバー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]対象の物理防御を低下
+			'''
+	}
+
+	Cimitarramerc: {
+		DisplayName: マーキュリアル・シミター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% ライフスティール]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]移動速度上昇と行動不能効果を解除
+			'''
+	}
+
+	Cinturongigant: {
+		DisplayName: ジャイアントベルト
+		Tooltip: "[c/78C86B:+{0} 最大ライフ]"
+	}
+
+	Codicediabolc: {
+		DisplayName: フィンディッシュ・コード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} アビリティパワー]
+			'''
+	}
+
+	Coleccionista: {
+		DisplayName: ザ・コレクター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} 物理貫通]
+			[c/78C86B:+{2}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]低HPの敵を即死させる
+			'''
+	}
+
+	Colmilloserp: {
+		DisplayName: サーペントファング
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]対象の耐久を低下
+			'''
+	}
+
+	Convergenciadelzeke: {
+		DisplayName: ジークの収束
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージ領域を生成
+			'''
+	}
+
+	Corazondehier: {
+		DisplayName: ハートスチール
+		CorazondehierExtra: 現在付与: 最大ライフ+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中で最大ライフを獲得しダメージ
+			'''
+	}
+
+	Corazonhela: {
+		DisplayName: フローズンハート
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵からの被ダメージを軽減
+			'''
+	}
+
+	Coronadelareina: {
+		DisplayName: 砕けし女王の王冠
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]一定時間 受けるダメージを軽減
+			'''
+	}
+
+	Cortasenda: {
+		DisplayName: ストライドブレーカー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージとスローを与える
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理命中時に小さなダメージ波
+			'''
+	}
+
+	Cosechadornoc: {
+		DisplayName: ナイトハーベスター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ダメージを与えると 追加ダメージ + 移動速度
+			'''
+	}
+
+	Cosmicdrive: {
+		DisplayName: コズミックドライブ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/78C86B:+{3}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティでダメージを与えると移動速度上昇
+			'''
+	}
+
+	Cotadelsober: {
+		DisplayName: 覇者のブラッドメイル
+		CotadelsoberExtra: 現在付与: 攻撃力+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大ライフに応じて攻撃力を獲得
+			'''
+	}
+
+	Cotaespinas: {
+		DisplayName: ソーンメイル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被弾時にダメージを与える
+			'''
+	}
+
+	Crisoldemikael: {
+		DisplayName: ミカエルの祝福
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% マナ自然回復]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]味方の行動不能効果を解除
+			'''
+	}
+
+	Cristalrubi: {
+		DisplayName: ルビークリスタル
+		Tooltip: "[c/78C86B:+{0} 最大ライフ]"
+	}
+
+	Cristalzafiro: {
+		DisplayName: サファイアクリスタル
+		Tooltip: "[c/78C86B:+{0} 最大マナ]"
+	}
+
+	Cronometro: {
+		DisplayName: ストップウォッチ
+		Tooltip: 無敵だが移動できない
+	}
+
+	Cryptoreto: {
+		DisplayName: クリプトブルーム
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 魔法貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すと回復ゾーンを生成
+			'''
+	}
+
+	Cuchillasdenavori: {
+		DisplayName: ナヴォリ・フリッカーブレード
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 アビリティ使用時間を短縮
+			'''
+	}
+
+	Cuchilloenriat: {
+		DisplayName: レイジナイフ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]クリティカルダメージを攻撃力に変換
+			'''
+	}
+
+	Daga: {
+		DisplayName: ダガー
+		Tooltip: "[c/78C86B:+{0}% 攻撃速度]"
+	}
+
+	Danzamuert: {
+		DisplayName: デスダンス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]一部の被ダメージを数秒遅延
+			'''
+	}
+
+	Descargatorm: {
+		DisplayName: ストームサージ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/78C86B:+{1} 魔法貫通]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]追加ダメージ（対象撃破で範囲化）
+			'''
+	}
+
+	Desesperacioneterna: {
+		DisplayName: 終わりなき絶望
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘中に魔法ダメージと回復
+			'''
+	}
+
+	Desgarracielo: {
+		DisplayName: 裂けた空
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]一定間隔で回復する確定クリティカルを付与
+			'''
+	}
+
+	Dientedenashor: {
+		DisplayName: ナッシャー・トゥース
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 APで伸びる追加ダメージ
+			'''
+	}
+
+	Drakthar: {
+		DisplayName: ドラクサーの黄昏の剣
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すと短時間無敵
+			'''
+	}
+
+	Eclipse: {
+		DisplayName: エクリプス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]攻撃すると追加ダメージとシールドを得る
+			'''
+	}
+
+	Ecolud: {
+		DisplayName: ルーデン・エコー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/78C86B:+{3} 魔法貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時に魔法爆発を起こす
+			'''
+	}
+
+	Ecosdehelia: {
+		DisplayName: ヘリアの残響
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% マナ自然回復]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に攻撃するとスタックを獲得
+			スタックごとに味方の回復量が増加
+			'''
+	}
+
+	Elixirdefuri: {
+		DisplayName: 激怒のエリクサー
+		Tooltip: 与ダメージが上昇
+	}
+
+	Elixirdehierro: {
+		DisplayName: 鋼のエリクサー
+		Tooltip: 最大ライフが上昇
+	}
+
+	Elixirdemag: {
+		DisplayName: 魔術のエリクサー
+		Tooltip: 魔法ダメージが上昇
+	}
+
+	Escudodoran: {
+		DisplayName: ドランの盾
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被弾時のライフ自然回復が上昇
+			'''
+	}
+
+	Esferaamanecer: {
+		DisplayName: ドーンコア
+		EsferaamanecerExtra:
+			'''
+			現在付与: 回復効果 {0}%
+			現在付与: アビリティパワー+{1}
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]魔法ダメージとAPがマナ自然回復で伸びる
+			'''
+	}
+
+	Espadaciclovolt: {
+		DisplayName: ボルタイク・サイクロソード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時 命中で追加ダメージとスロー
+			'''
+	}
+
+	Espadapenumbra: {
+		DisplayName: アンブラル・グレイブ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]プレイヤーにハンターポーション効果を付与
+			'''
+	}
+
+	Espadon: {
+		DisplayName: B.F. ソード
+		Tooltip: "[c/78C86B:+{0} 攻撃力]"
+	}
+
+	Espadoran: {
+		DisplayName: ドランの剣
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% ライフスティール]
+			'''
+	}
+
+	Espalarg: {
+		DisplayName: ロングソード
+		Tooltip: "[c/78C86B:+{0} 攻撃力]"
+	}
+
+	Espejodecristal: {
+		DisplayName: バンドルグラス・ミラー
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			'''
+	}
+
+	Fajinmerc: {
+		DisplayName: クイックシルバー・サッシュ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]行動不能効果を解除
+			'''
+	}
+
+	Faucesdemalmor: {
+		DisplayName: モウ・オブ・マルモティウス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ライフが少ないとき シールドを付与
+			'''
+	}
+
+	Fervor: {
+		DisplayName: ジール
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			'''
+	}
+
+	Filodelacordura: {
+		DisplayName: ウィッツエンド
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 行動妨害耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 追加の魔法ダメージ
+			'''
+	}
+
+	Filodelanoche: {
+		DisplayName: エッジ・オブ・ナイト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘後のシールドが次のアビリティをブロック
+			'''
+	}
+
+	Filoinfi: {
+		DisplayName: インフィニティ・エッジ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]クリティカルダメージ+40%
+			'''
+	}
+
+	Filorobahechi: {
+		DisplayName: スペルシーフエッジ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]時間経過でコインを獲得
+			'''
+	}
+
+	Flechasyuntal: {
+		DisplayName: ユンタルの荒ぶる矢
+		FlechasyuntalExtra:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]一時的に攻撃速度上昇 クリティカルは重複
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			'''
+	}
+
+	Fragmentodekirch: {
+		DisplayName: キルシェ・シャード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時 命中で追加ダメージ
+			'''
+	}
+
+	Frionordextremo: {
+		DisplayName: フィンブルウィンター
+		FrionordextremoExtra: 現在付与: 最大ライフ+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティでダメージを与えるとシールドを獲得
+			'''
+	}
+
+	Frionordico: {
+		DisplayName: ウィンター・アプローチ
+		FrionordicoExtra:
+			'''
+			マナ蓄積: {0}/360
+			現在付与: 最大ライフ+{1}
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中で追加のマナを獲得
+			'''
+	}
+
+	Fuerzadelanaturaleza: {
+		DisplayName: フォース・オブ・ネイチャー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 魔法耐性]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]長時間の戦闘後にMSとMRを付与
+			'''
+	}
+
+	Fuerzadelvien: {
+		DisplayName: ゲイルフォース
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% クリティカル率]
+			[c/78C86B:+{2}% 攻撃速度]
+			[c/78C86B:+{3}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]使用時にダッシュし 弾を発射
+			'''
+	}
+
+	Fuerzatrini: {
+		DisplayName: トリニティ・フォース
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/78C86B:+{3}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化攻撃はダメージ3倍
+			命中時 移動速度を獲得
+			'''
+	}
+
+	Gargola: {
+		DisplayName: ガーゴイル・ストーンプレート
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 魔法耐性]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]最大ライフに応じたシールドを付与
+			'''
+	}
+
+	Garradelmero: {
+		DisplayName: プローラークロウ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]指定した敵に接近する
+			'''
+	}
+
+	Gemaviva: {
+		DisplayName: キンドルジェム
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			'''
+	}
+
+	Grevasarma: {
+		DisplayName: ガンメタル・グリーヴ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 攻撃速度]
+			[c/78C86B:+{1} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 移動速度を獲得
+			'''
+	}
+
+	Guanteleteescarcha: {
+		DisplayName: アイスボーン・ガントレット
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化攻撃でスロー領域を生成
+			'''
+	}
+
+	Guardabrazdelabus: {
+		DisplayName: シーカー アームガード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]無敵になるが移動不可
+			1回限り
+			'''
+	}
+
+	Guinso: {
+		DisplayName: グインソー・レイジブレード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時ダメージ + 3回目ごとに二重発動
+			'''
+	}
+
+	Habitoespectral: {
+		DisplayName: スペクターのカウル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2} 魔法耐性]
+			'''
+	}
+
+	Hachaextrahogarena: {
+		DisplayName: ハースバウンド・アックス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			'''
+	}
+
+	Hieloeterno: {
+		DisplayName: エバーフロスト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]扇状に凍結またはスローを与える
+			'''
+	}
+
+	Horizontedesuc: {
+		DisplayName: ホライゾン・フォーカス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中で敵を可視化
+			'''
+	}
+
+	Huracanderunan: {
+		DisplayName: ルナーン・ハリケーン
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% クリティカル率]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]遠隔攻撃が追加の投射物を2発放つ
+			'''
+	}
+
+	Hydraprofana: {
+		DisplayName: プロフェイン・ハイドラ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージの波を放つ
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理命中時に小さなダメージ波
+			'''
+	}
+
+	Hydratitanic: {
+		DisplayName: タイタンハイドラ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージの波を放つ
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理命中時に小さなダメージ波
+			'''
+	}
+
+	Hydravoraz: {
+		DisplayName: ラヴァナスハイドラ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% ライフスティール]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージの波を放つ
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理命中時に小さなダメージ波
+			'''
+	}
+
+	Idoloper: {
+		DisplayName: 禁忌の偶像
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1}% 回復/シールド効果]
+			'''
+	}
+
+	Jacho: {
+		DisplayName: ジャック＝ショー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]長時間の戦闘で耐性が増加
+			'''
+	}
+
+	Lagrimadeladios: {
+		DisplayName: 女神の涙
+		LagrimadeladiosExtra: マナ蓄積: {0}/360
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中で追加のマナを獲得
+			'''
+	}
+
+	Lanzadesojin: {
+		DisplayName: ショウジンの矛
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティダメージが増加
+			'''
+	}
+
+	Lapamaliciosa: {
+		DisplayName: リーシング・リーア
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 全方位吸収]
+			'''
+	}
+
+	Latigoultraferreo: {
+		DisplayName: アイアンスパイク・ウィップ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲の敵に範囲ダメージ
+			'''
+	}
+
+	Lentedelorac: {
+		DisplayName: オラクルレンズ
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]プレイヤーにハンターポーション効果を付与
+			'''
+	}
+
+	Liandrymasc: {
+		DisplayName: リアンドリーの苦悶
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティダメージで敵に火傷を付与
+			'''
+	}
+
+	Liche: {
+		DisplayName: リッチベイン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化攻撃で追加の魔法ダメージ
+			'''
+	}
+
+	Llamadodelver: {
+		DisplayName: エクスキューショナー コーリング
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Lorddominic: {
+		DisplayName: ドミニク・リガード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 物理貫通]
+			[c/78C86B:+{2}% クリティカル率]
+			'''
+	}
+
+	Lucidezcarmensi: {
+		DisplayName: クリムゾン・ルシディティ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ダメージを与えると移動速度を獲得
+			'''
+	}
+
+	Maldad: {
+		DisplayName: マリグナンス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]カーソル位置にダメージ領域を生成
+			'''
+	}
+
+	Maldicionvamp: {
+		DisplayName: ブラッドレターの呪い
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]魔法ダメージで敵の耐性を低下
+			'''
+	}
+
+	Malditajoya: {
+		DisplayName: ブライティング・ジュエル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/78C86B:+{1}% 魔法貫通]
+			'''
+	}
+
+	Mallaguardian: {
+		DisplayName: ワーデンメイル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被ダメージを10軽減
+			'''
+	}
+
+	Manamune: {
+		DisplayName: マナムネ
+		ManamuneExtra:
+			'''
+			マナ蓄積: {0}/360
+			現在付与: 攻撃力+{1}
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティ命中で追加のマナを獲得
+			'''
+	}
+
+	Mandatoimperial: {
+		DisplayName: インペリアル・マンダテ
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティでのダメージで敵に印を付与
+			'''
+	}
+
+	Mantoantimagi: {
+		DisplayName: ヌルマジック・マントル
+		Tooltip: "[c/78C86B:+{0} 魔法耐性]"
+	}
+
+	Mantodelocaso: {
+		DisplayName: イーブンシュラウド
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティダメージで敵に脆弱を付与
+			'''
+	}
+
+	Mapamundi: {
+		DisplayName: ワールド・アトラス
+		MapamundiExtra: ワールド・アトラス 蓄積: {0}/400
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]時間経過でコインを獲得
+			'''
+	}
+
+	Marcharapid: {
+		DisplayName: スウィフトマーチ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]移動速度+4%
+			'''
+	}
+
+	Martilloclaufield: {
+		DisplayName: カウフィールドの戦槌
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			'''
+	}
+
+	Martilloguardian: {
+		DisplayName: ガーディアンの戦槌
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% ライフスティール]
+			'''
+	}
+
+	Mascaraabis: {
+		DisplayName: アビサル・マスク
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 魔法耐性]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]周囲の敵が受けるAPダメージが増加
+			'''
+	}
+
+	Matakarkens: {
+		DisplayName: クラーケン・スレイヤー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中3回ごとに追加ダメージ
+			'''
+	}
+
+	Mejai: {
+		DisplayName: メジャイのソウルスティーラー
+		MejaiExtra: 現在付与: 魔法ダメージ+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すと追加のアビリティパワー
+			'''
+	}
+
+	Menabrillante: {
+		DisplayName: 光る微塵
+		Tooltip: "[c/78C86B:+{0} アビリティヘイスト]"
+	}
+
+	Morelonomicon: {
+		DisplayName: モレロノミコン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Munamana: {
+		DisplayName: ムラマナ
+		MunamanaExtra: 現在付与: 攻撃力+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大マナ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]マナに応じた攻撃力と追加ダメージ
+			'''
+	}
+
+	Oportunidades: {
+		DisplayName: オポチュニティ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]キルで一時的に物理貫通と移動速度
+			'''
+	}
+
+	Oposicionceles: {
+		DisplayName: セレスティアル・オポジション
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]戦闘開始時の被ダメージを軽減
+			符文コンパスが最大スタックのときのみ使用可
+			時間経過でコインを獲得
+			'''
+	}
+
+	Orbedelolvido: {
+		DisplayName: 忘却のオーブ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Orbeguardian: {
+		DisplayName: ガーディアンのオーブ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]マナ自然回復+4を獲得
+			'''
+	}
+
+	Pebeteroardi: {
+		DisplayName: アーデント センサー
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/78C86B:+{2}% 移動速度]
+			[c/78C86B:+{3}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]回復すると短時間 味方の命中時ダメージを増加
+			'''
+	}
+
+	Perladereju: {
+		DisplayName: リジュベネーションビーズ
+		Tooltip: "[c/78C86B:+{0}% ライフ自然回復]"
+	}
+
+	Picacha: {
+		DisplayName: ピッケル
+		Tooltip: "[c/78C86B:+{0} 攻撃力]"
+	}
+
+	Piedraalerta: {
+		DisplayName: ヴィジラント・ワードストーン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]プレイヤーに光るポーション効果を付与
+			'''
+	}
+
+	Piedraobserva: {
+		DisplayName: ウォッチフル・ワードストーン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]プレイヤーに光るポーション効果を付与
+			'''
+	}
+
+	Placadeltieso: {
+		DisplayName: デッドマン プレート
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大スタック時 命中で追加ダメージ
+			'''
+	}
+
+	Placahexpe: {
+		DisplayName: 実験用ヘックスプレート
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]一時的に攻撃/移動速度を付与
+			'''
+	}
+
+	Pocioncura: {
+		DisplayName: ライフポーション
+		Tooltip: ライフ自然回復を少し上昇
+	}
+
+	Pocioreutilizable: {
+		DisplayName: 詰め替えポーション
+		Tooltip: ライフ自然回復を少し上昇
+	}
+
+	Promesadelcab: {
+		DisplayName: 騎士の誓い
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2} 物理防御]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]選んだ味方とリンクし 守護者となる
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]リンクした味方の被ダメージを肩代わり
+			'''
+	}
+
+	Protocintu: {
+		DisplayName: ヘクステック ロケットベルト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]使用時にダッシュし投射物を発射
+			'''
+	}
+
+	Prtecdelegi: {
+		DisplayName: 軍団の盾
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 魔法耐性]
+			[c/78C86B:+{2} アビリティヘイスト] 
+			'''
+	}
+
+	Punalcerra: {
+		DisplayName: セレイテッド・ダーク
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} 物理貫通]
+			'''
+	}
+
+	Putrificadorquin: {
+		DisplayName: ケミテック ピュートリファイア
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Quimiotanque: {
+		DisplayName: ターボ ケムタンク
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]一時的に移動速度を上昇
+			'''
+	}
+
+	Rabadon: {
+		DisplayName: ラバドンの死帽子
+		RabadonExtra: 現在付与: AP+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティパワー+30%
+			'''
+	}
+
+	Raduim: {
+		DisplayName: ランデュイン・オーメン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲の敵をスローする波を放つ
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]被ダメージをわずかに軽減
+			'''
+	}
+
+	Recompensamundial: {
+		DisplayName: バウンティ・オブ・ワールズ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]時間経過でコインを獲得
+			符文コンパスが最大スタックのときのみ使用可
+			'''
+	}
+
+	Recordatorio: {
+		DisplayName: モータルリマインダー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 物理貫通]
+			[c/78C86B:+{2}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Rectriz: {
+		DisplayName: レクトリクス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 移動速度]
+			'''
+	}
+
+	Redencion: {
+		DisplayName: レデンプション
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% マナ自然回復]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]回復ゾーンを展開
+			'''
+	}
+
+	Relicariosolari: {
+		DisplayName: ソラリのロケット
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 物理防御]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]自分と味方にシールドを付与
+			'''
+	}
+
+	Renovadordepiedra: {
+		DisplayName: ムーンストーン リニューアー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% マナ自然回復]
+			[c/78C86B:+{2} アビリティヘイスト]
+			[c/78C86B:+{3} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]味方を回復すると別の味方も回復
+			'''
+	}
+
+	Resorteraexplo: {
+		DisplayName: スカウトのスリングショット
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 追加ダメージ（40秒CT）
+			'''
+	}
+
+	Resplandorvacio: {
+		DisplayName: ホロウ・レイディアンス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3} アビリティヘイスト]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]周囲の敵を燃やす 撃破時に爆発
+			'''
+	}
+
+	Reyarruinadin: {
+		DisplayName: 破滅の王剣
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/78C86B:+{2}% ライフスティール]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]対象のライフに応じて追加ダメージ
+			'''
+	}
+
+	Rilay: {
+		DisplayName: ライラィのクリスタル セプター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティで敵にダメージを与えるとスロー
+			'''
+	}
+
+	Rompehulks: {
+		DisplayName: ハルブレイカー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時 5回目ごとに追加ダメージ
+			'''
+	}
+
+	Rukakokae: {
+		DisplayName: カエニック ルーカーン
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]非戦闘時にシールドを付与
+			'''
+	}
+
+	Sacrifica: {
+		DisplayName: カル
+		SacrificaExtra: 蓄積: {0}/100
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すとコイン獲得
+			'''
+	}
+
+	Sanguinaria: {
+		DisplayName: ブラッドサースター
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% ライフスティール]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]最大ライフを超えた回復はシールドに変換
+			'''
+	}
+
+	Saqueadordeesen: {
+		DisplayName: エッセンス リーバー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% クリティカル率]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時効果 ダメージでマナを回復
+			'''
+	}
+
+	Selloacero: {
+		DisplayName: スチール シジル
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 物理防御]
+			[c/78C86B:+{1} 攻撃力]
+			'''
+	}
+
+	Sellooscu: {
+		DisplayName: ダークシール
+		SellooscuExtra: 現在付与: AP+{0}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵を倒すと追加のアビリティパワー
+			'''
+	}
+
+	Serylda: {
+		DisplayName: セリルダの怨恨
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティヘイスト]
+			[c/78C86B:+{1} 攻撃力]
+			[c/78C86B:+{2}% 物理貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]アビリティで低ライフの敵をスロー
+			'''
+	}
+
+	Shadowflame: {
+		DisplayName: シャドウフレイム
+		Tooltip:
+			'''
+			[c/78C86B:+{0} アビリティパワー]
+			[c/78C86B:+{1} 魔法貫通]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]低ライフの敵へのダメージが増加
+			'''
+	}
+
+	Shurelya: {
+		DisplayName: シュレリアの戦歌
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% マナ自然回復]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/78C86B:+{3}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]自分と味方の移動速度を加速
+			'''
+	}
+
+	Sierraespada: {
+		DisplayName: ケミパンク・チェインソード
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵に重傷を付与
+			'''
+	}
+
+	Sorbehechi: {
+		DisplayName: ヘックスドリンカー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ライフが少ないときシールドを付与
+			'''
+	}
+
+	Sortijadoran: {
+		DisplayName: ドランの指輪
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]マナ自然回復+2を付与
+			'''
+	}
+
+	Sterak: {
+		DisplayName: ステラックの籠手
+		Tooltip:
+			'''
+			[c/78C86B:+{2} 攻撃力]
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% 行動妨害耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ライフが少ないときシールドを付与
+			'''
+	}
+
+	Surrenderdivino: {
+		DisplayName: 神聖なる分断者
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} アビリティヘイスト]
+			[c/78C86B:+{2} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]強化打撃、対象のライフに応じて回復
+			'''
+	}
+
+	Taladro: {
+		DisplayName: トンネラー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 攻撃力]
+			'''
+	}
+
+	Tejesuenos: {
+		DisplayName: 夢織り
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]味方の回復により味方のダメージと耐性を向上
+			ルーンコンパス最大スタック時のみ使用可能
+			時間経過でコインを獲得
+			'''
+	}
+
+	Terminus: {
+		DisplayName: ターミナス
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 攻撃速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]命中時、耐性と貫通力を付与
+			'''
+	}
+
+	Tiamat: {
+		DisplayName: ティアマト
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]周囲にダメージ波を放出
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]物理攻撃時に小さなダメージ波
+			'''
+	}
+
+	Tomoamp: {
+		DisplayName: 増幅の書
+		Tooltip: "[c/78C86B:+{0} アビリティパワー]"
+	}
+
+	Trineodelsols: {
+		DisplayName: 至点のソリ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]魔法ダメージで自分と近くの味方を回復
+			ルーンコンパス最大スタック時のみ使用可能
+			時間経過でコインを獲得
+			'''
+	}
+
+	Trituradorascera: {
+		DisplayName: チェーンレースド・クラッシャー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} 移動速度]
+			[c/78C86B:+{2}% 行動妨害耐性]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]魔法やNPCの射撃を受けるとシールドを付与
+			'''
+	}
+
+	Ultimosus: {
+		DisplayName: ラスト・ウィスパー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1}% 物理貫通]
+			'''
+	}
+
+	Varaedad: {
+		DisplayName: ロッド・オブ・エイジス
+		VaraedadExtra: 現在付与: 最大ライフ+{0}、最大マナ+{1}、AP+{2}
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 最大マナ]
+			[c/78C86B:+{2} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]時間経過でこのアイテムは成長する
+			ライフを消費するとマナ回復、マナを消費するとライフ回復
+			'''
+	}
+
+	Varaexplo: {
+		DisplayName: ブラストワンド
+		Tooltip: "[c/78C86B:+{0} アビリティパワー]"
+	}
+
+	Varainnecesariagrande: {
+		DisplayName: ニードレス・ラージロッド
+		Tooltip: "[c/78C86B:+{0} アビリティパワー]"
+	}
+
+	Velodebanshee: {
+		DisplayName: バンシー・ベール
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 魔法耐性]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]次に受けるNPCの弾/プレイヤーの魔法を無効化
+			'''
+	}
+
+	Virtudradiente: {
+		DisplayName: ラディアント・ヴァーチュ
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1} 防御力]
+			[c/78C86B:+{2} 魔法耐性]
+			[c/78C86B:+{3}% 回復/シールド効果]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]自身と周囲の味方を回復
+			'''
+	}
+
+	Visionlej: {
+		DisplayName: ファーサイト・オルタレーション
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ナイトアウルのポーション効果を付与
+			'''
+	}
+
+	Ward: {
+		DisplayName: ステルス・ワード
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]シャインのポーション効果を付与
+			'''
+	}
+
+	Warddecontrol: {
+		DisplayName: コントロール・ワード
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]ハンターのポーション効果を付与
+			'''
+	}
+
+	Warmog: {
+		DisplayName: ワーモグのアーマー
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]安全時に最大ライフ増加と高速回復
+			発動には追加ライフ2000が必要
+			'''
+	}
+
+	Youmusespada: {
+		DisplayName: ヨウムの幽夢
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 攻撃力]
+			[c/78C86B:+{1} リーサリティ]
+			[c/78C86B:+{2}% 移動速度]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]一時的に移動速度を大幅上昇
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]非戦闘時に移動速度上昇
+			'''
+	}
+
+	Zakzaks: {
+		DisplayName: ザズ＝ザクのレルムスパイク
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 最大ライフ]
+			[c/78C86B:+{1}% ライフ自然回復]
+			[c/78C86B:+{2}% マナ自然回復]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:特殊: ]敵への魔法ダメージで爆発を起こす
+			ルーンコンパス最大スタック時のみ使用可能
+			時間経過でコインを獲得
+			'''
+	}
+
+	Zaplanzahechi: {
+		DisplayName: スペルスリンガーの靴
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% 魔法貫通]
+			[c/78C86B:+{1} 魔法貫通]
+			[c/78C86B:+{2} 移動速度]
+			'''
+	}
+
+	Zhonyas: {
+		DisplayName: ゾーニャの砂時計
+		Tooltip:
+			'''
+			[c/78C86B:+{0} 防御力]
+			[c/78C86B:+{1} アビリティパワー]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:アクティブ: ]無敵になるが行動不能
+			'''
+	}
+}
+
+Etiquetasdano: {
+	lineactive:
+		'''
+		[c/1B2F65:_____________________]
+		[c/C9AA62:アクティブ: ]
+		'''
+	line:
+		'''
+		[c/1B2F65:_____________________]
+		[c/C9AA62:特殊: ]
+		'''
+	tena: 不屈
+	healpower: 回復とシールドパワー
+	velocidemoviplan: 移動速度
+	atkspeed: 攻撃速度
+	habilityhaste: アビリティヘイスト
+	pentracionmagplan: 魔法貫通
+	letality: リーサリティ
+	magicpen: 魔法貫通
+	armorpen: 物理貫通
+	danomag: アビリティパワー
+	danofis: 攻撃力
+	omnivamp: オムニバンプ
+	robodevida: ライフスティール
+	magicres: 魔法耐性
+	regendemana: マナ自然回復
+	armaduralol: 防御力
+	vidamaxi: 最大ライフ
+	regendevid: ライフ自然回復
+	critico: クリティカル率
+	manamaxi: 最大マナ
+}
+

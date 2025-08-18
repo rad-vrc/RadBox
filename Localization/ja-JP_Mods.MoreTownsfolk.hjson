@@ -1,0 +1,776 @@
+Biomes: {
+	Sky: 空
+	Hell: 地下世界
+}
+
+RecipeGroup: {
+	Flesh: 任意の肉ブロック
+	DungeonBricks: 任意のダンジョンレンガ
+}
+
+Conditions: {
+	NotInSkyHeight: 空にいない
+	BestiaryCompletionPercent: Mods.MoreTownsfolk.Conditions.BestiaryCompletionPercent
+}
+
+Configs: {
+	ServerConfig: {
+		DisplayName: 追加住民 サーバー設定
+
+		ShuffleBiomePreferences: {
+			Label: 空/地下世界 のバイオーム分割
+			Tooltip:
+				'''
+				有効にすると、空と地下世界を森林や地下と別のバイオームとして扱い、それぞれに新しいパイロンを追加します
+				その結果、次のNPCのバイオーム嗜好が変更されます:
+				ナース: 聖域の代わりに空を好む
+				商人: 森林の代わりに空を好み、砂漠の代わりに地下世界を嫌う
+				釣り人: 砂漠の代わりに地下世界を嫌う
+				居酒屋: 雪原の代わりに空を嫌う
+				メカニック: 地下に加えて地下世界も嫌う
+				森林を好む/嫌うNPC: 空に対しては中立
+				地下を好む/嫌うNPC: 地下世界に対しては中立
+
+				特定のModが導入されている場合は、それらのNPCにも新たな嗜好が適用されます！
+				Thorium: 武器マスターは地下世界を好み、スピリチュアリストは地下世界を嫌う
+				'''
+		}
+	}
+}
+
+Common: {
+	AxoLicenseUsed: ライセンスはウーパールーパー配送サービスへとテレポートしていった…
+	RoombaKitUsed: "{1}ルンバの{0}が「Hello World!」と言っている"
+	CorruptButton: 防具を堕落させる
+	HarvestButton: 小動物を渡す
+	Cost: "コスト: "
+	PlaceArmorHere: 防具をここに置く
+	RoombaKitTip:
+		'''
+		使用すると自分だけの{0}ルンバを組み立てられる
+		ルンバを作成すると、他の町のNPCと同様にリスポーンする
+		'''
+}
+
+OccultistCorruptions: {
+	Soulless: {
+		DisplayName: 魂無し
+		Tooltip: 防具の防御力が15％増加するが、受ける回復量が5％減少する
+	}
+
+	Wallowing: {
+		DisplayName: 退廃
+		Tooltip: 防具の防御力が15％増加するが、攻撃速度が5％低下する
+	}
+
+	Abominable: {
+		DisplayName: 忌まわしき
+		Tooltip: 防具の防御力が15％増加するが、移動速度が2％低下する
+	}
+
+	Wrathful: {
+		DisplayName: 憤怒
+		Tooltip: 防具の防御力が15％減少するが、与えるダメージが5％増加する
+	}
+
+	Deceitful: {
+		DisplayName: 狡猾
+		Tooltip: 防具の防御力が15％減少するが、受けるダメージが2％減少する
+	}
+
+	Fretful: {
+		DisplayName: 神経質
+		Tooltip: 防具の防御力が15％減少するが、移動速度が2％上昇する
+	}
+}
+
+Items: {
+	LicenseAxolotl: {
+		DisplayName: ウーパールーパーのライセンス
+		Tooltip:
+			'''
+			使用すると町にウーパールーパーを迎え入れられる
+			すでにウーパールーパーがいる？
+			追加のライセンスでペット交換プログラムを有効化
+			あなたとウーパールーパーにぴったりの子を見つけよう
+			'''
+	}
+
+	KitMaid: {
+		DisplayName: メイドのお掃除キット
+	}
+
+	KitFleshy: {
+		DisplayName: 肉のお掃除キット
+	}
+
+	KitGamer: {
+		DisplayName: ゲーマーのお掃除キット
+	}
+
+	KitPlanty: {
+		DisplayName: 植物のお掃除キット
+	}
+
+	KitGhostbuster: {
+		DisplayName: ゴーストバスターのお掃除キット
+	}
+
+	KitLihzahrd: {
+		DisplayName: リザードのお掃除キット
+	}
+
+	KitMartian: {
+		DisplayName: 火星人のお掃除キット
+	}
+
+	KitAncient: {
+		DisplayName: 太古のお掃除キット
+	}
+
+	Spittle: {
+		DisplayName: 唾
+		Tooltip: ""
+	}
+
+	TheHook: {
+		DisplayName: フック
+		Tooltip: ""
+	}
+
+	TeleportationPylonCrimson: {
+		DisplayName: 真紅のパイロン
+		Tooltip:
+			'''
+			付近に住民が2人以上いる別のパイロンへテレポートできる
+			同じ種類は1つだけ設置でき、対応するバイオームにのみ設置可能
+			'''
+	}
+
+	TeleportationPylonCorruption: {
+		DisplayName: 不浄のパイロン
+		Tooltip:
+			'''
+			付近に住民が2人以上いる別のパイロンへテレポートできる
+			同じ種類は1つだけ設置でき、対応するバイオームにのみ設置可能
+			'''
+	}
+
+	TeleportationPylonHell: {
+		DisplayName: 地下世界のパイロン
+		Tooltip:
+			'''
+			付近に住民が1人いる別のパイロンへテレポートできる
+			同じ種類は1つだけ設置でき、対応するバイオームにのみ設置可能
+			'''
+	}
+
+	TeleportationPylonSky: {
+		DisplayName: 空のパイロン
+		Tooltip:
+			'''
+			付近に住民が1人いる別のパイロンへテレポートできる
+			同じ種類は1つだけ設置でき、対応するバイオームにのみ設置可能
+			「スカイロンと混同しないで」
+			'''
+	}
+}
+
+NPCs: {
+	Axolotl: {
+		DisplayName: ウーパールーパー
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: 動物学者が販売する[i:MoreTownsfolk/LicenseAxolotl]を使用する
+		}
+	}
+
+	Harvester: {
+		DisplayName: ハーベスター
+
+		TownNPCMood: {
+			Content: "元気だよ！いつも通り、リスの内臓をかき出して肝臓を売ってるだけ"
+			NoHome: "まあ、ホームレスはこれが初めてじゃないしね。でも血が勝手に止まるなんてことはないよ！"
+			FarFromHome: "ここから家まで歩いて帰らなきゃいけないの？はぁい、わかったよ。でも道中に動物の死骸を山ほど残さない保証はできないね"
+			LoveSpace: "一人で作業できるのはいいよね。私みたいに汚い仕事だと、文句を言う人がいないのは助かる"
+			DislikeCrowded: "人が多いと大変だよ。臭いがどうこうって文句ばっかりだと、仕事にならないでしょ？"
+			HateCrowded: "もう一人でも自分の敷地に血が付いたって文句を言うなら、その人の膵臓は私のもの。この群衆にはうんざり！"
+			LoveBiome: "{BiomeName}が大好きって…え？これ言っちゃダメでしょ。ていうか、このテキスト自体ゲームに出ないはずなんだよね"
+			LikeBiome: "真紅のどこが好きかって？たぶん私、猟奇趣味なのかも…いや、狂ってるのかも！その可能性は否定しないよ"
+			DislikeBiome: "砂漠はつまんなーい。生きてるのはサボテンくらい"
+			HateBiome: "聖域は吐き気がする。唯一の救いは、ユニコーンの内臓がカラフルなところかな"
+			LoveNPC: "{NPCName}って暗くてミステリアス…それにちょっと悪い感じ。そういうところ、大好き"
+			LikeNPC: "{NPCName}は血生臭い光景に耐えられるのがいいね"
+			LikeNPC_Princess: "{NPCName}の前だと、さすがに身なりを整えなきゃって気になる。あのオーラ…すっごく純粋で甘い！"
+			DislikeNPC: "{NPCName}は私みたいな暴力的なタイプがあまり好きじゃないんだよね。まあ、こっちも同感だけど"
+			HateNPC: "{NPCName}は…ほんと興ざめ。側にいるのが無理"
+			Princess_LovesNPC: "{NPCName}はちょっと変だけど、すっごくおいしいハムサンドを作るんだ！"
+		}
+
+		Dialogue: {
+			Dialogue1: ねえ、予備の臓器持ってない？…むしろ予備の臓器が必要だったりしない？
+			Dialogue2: あなたをミートグラインダーで刻んで、最後に残るのが眼球だけだったら…死ぬと思う？気になってさ
+			Dialogue3: 肉ならあるよ！しかも17の地域で販売禁止！
+			Dialogue4: いちばん大きなクリメラ、見たことある？話してあげよっか…
+			Dialogue5: 一度、真紅の地面に耳を当てたら鼓動が聞こえたんだ。生きてるんだよ、あれ！
+			Dialogue6: "{Nurse}ってイブプロフェン持ってるかな？真紅は最高なんだけど、いつも頭痛になるんだよね…"
+			Dialogue7: "{MoreTownsfolk.Occultist}に渡すものを考えてるんだけど、いい案ある？"
+			Dialogue8: "{MoreTownsfolk.Occultist}に、今度一緒に小動物を解体しないかって聞いてくれない？"
+			Dialogue9: "{?Day}{?!Day}{Pirate}って、船員をビビらせて言うこと聞かせるために、誰かの腸をマストに吊るしたことあると思う？…え、違うの？海賊ってそうするもんでしょ！"
+			Dialogue10: "{Dryad}がうるさくてさ、ベッドに馬の首を入れたことがあるんだ。あれ以来、彼女は話しかけてこないよ。やったね！"
+			Dialogue11: "{?BloodMoon}今寝ようとしてたの！何の用？！"
+			Dialogue12: "{?BloodMoon}頭が割れそうに痛いの。何の用？！"
+			Dialogue13: "{?BloodMoon}脾臓をよこすか、出ていくか、どっちかにして！"
+			Dialogue14: "{?Day}{?!Day}ねえ、真紅の種をいくつか持ってるんだ？頼みがあるんだけど、私が住めるように小さな区画を作ってくれない？ありがと！"
+			Dialogue15: "{?MartiansDefeated}あぁ…ずっとエイリアンを解体してみたかったのに！ずるい！！"
+		}
+
+		SpecialText: {
+			Storm1: 雷が鳴るたび、誰かの悲鳴が聞こえる気がする
+			Storm2: うぅ、この雷はほんと頭に悪い…
+			Rain1: 真紅って血の雨が降るって知ってた？たぶん湿度を調整してるんだよ
+			Rain2: 雨は好きだけど、土砂降りだといつもの生皮剥ぎがやりにくいんだ
+			Party1: 昔はパーティーでブラッディ・マリーを死ぬほど飲んでたんだけど、ある時気絶して、起きたらいろんな動物の臓器まみれになってたんだ
+			Party2: ロバのしっぽ付けゲームしよ！…ロバ、どこかにいるよね？
+			Windy1: 風に乗ると血の匂いがよく届くんだ。あの金属っぽい匂い、わかる？
+			Windy2: 風の日に厚着するのが大好き！外は冷たくて中はあったかい…
+			Graveyard: いくつかの墓、掘り返してもいい？立派な人骨がもったいないよ！
+		}
+
+		ExtraDialogue: {
+			NoCritters0: 小動物を持ってきた？持ってない？渡してくれた動物は何でも解体するよ。ほら、何か出てくるかもしれないでしょ！
+			NoCritters1: いい？私が何をするか知ってるよね—私の欲求を満たしてくれたら、お返ししてあげるかも
+			NoCritters2: 見た目が気に入らない動物がいる？渡して！顔を剥いで、残ったものがあれば何でもあげる！
+			GaveFood0: ほら！あなたがくれた動物の血塗れの中から、なんとかこれを取り出したよ！持っていって—お礼だと思って
+			GaveFood1: やった、見つけた！死体を漁ってたら出てきたんだ。はい、どうぞ…
+			GaveFood2: おっ、何か見つけた！言ったでしょ、小さなピニャータを割るみたいなものだって。ほら—見て！
+			GfbKill: もう我慢できない！こっちにおいで！！！
+			PlayerDeath_Harvested: "{0}は収穫された。"
+		}
+
+		Census: {
+			SpawnCondition: イーターオブワールドを撃破している
+		}
+	}
+
+	Occultist: {
+		DisplayName: オカルティスト
+
+		TownNPCMood: {
+			Content: "あぁ、すべて順調…また本領を発揮するその時まではね"
+			NoHome: "どこかに住ませてくれない？私みたいな娘を野に放つのは賢くないよ…"
+			FarFromHome: "なんでこんなに家から離れてるんだろ…知らないままの方がいいかもね"
+			LoveSpace: "人から距離を置けるのは好き。秘密をたっぷり持てるから"
+			DislikeCrowded: "ふふ、私を抑止する人がちょっと多いかな…いい生き方じゃない"
+			HateCrowded: "人が多すぎ…誰かに鼻であしらわれずに何もできやしない…"
+			LoveBiome: "{BiomeName}が大好き…でも、これはゲーム内に出ないはずのテキストだから、あなたは知るべきじゃなかったね…"
+			LikeBiome: "不浄…私の残酷な思考をよく巡らせてくれる…まるで我が家にいるみたい…"
+			DislikeBiome: "ジャングル…不浄に抵抗的…で、何のため？泥とカメのため…"
+			HateBiome: "聖域は不快。甘ったるくて優しげなのに、冷酷なピクシーと光の悪魔を抱えてる…少なくとも私は自分の邪悪さを偽らない…"
+			LoveNPC: "{NPCName}はちょっぴり血に飢えた刺激…私の心を差し出してもいいかもね…"
+			LikeNPC: "{NPCName}は罪深い魂…そして良い隣人"
+			LikeNPC_Princess: "{NPCName}はとても清廉な若者…彼女を悪に導くなんて、私にはできない…"
+			DislikeNPC: "{NPCName}は独善的なところがある…それに煩わしい…やれやれ"
+			HateNPC: "{NPCName}は最悪。善は悪なしには存在できないってことを理解してない…原則として彼女は嫌い"
+			Princess_LovesNPC: "{NPCName}は変わってるけど、私は好きだよ"
+		}
+
+		Dialogue: {
+			Dialogue1: 最近、侵入的な思考に囚われたことはある？たまには従ってみるべきだよ…
+			Dialogue2: あなたも不浄の伴侶になれるよ。望むなら、その方法を教えてあげてもいい…
+			Dialogue3: 誰もがあなたを見て、何をしても裁いている…なら、抑える必要なんてある？
+			Dialogue4: 私はあなたの友達。あなたのいちばん暗い秘密を教えて…
+			Dialogue5: 私は自由で、世界は自らを牢に閉じ込めた。あなたも外に出てみたら？
+			Dialogue6: "{TaxCollector}がまた徴収に来るのはいつ？不浄は糧にする悪をもっと必要としている…"
+			Dialogue7: "{Clothier}の罪を全部知ってる…でも何かは教えないよ"
+			Dialogue8: 今日は{MoreTownsfolk.Harvester}のためにニワトコの実をたくさん摘んだの…彼女、気に入ってくれるかな？
+			Dialogue9: たまに、遠くから{MoreTownsfolk.Harvester}が仕事をするのを眺めるの…すごく上手よね？
+			Dialogue10: "{?SkeletronDefeated}{?!HardMode}地下の悪魔たちが{Guide}のブードゥー人形を持っているって聞いたわ…彼は本当に相応しい生贄…"
+			Dialogue11: それで、あの{CalamityMod.WITCH}…彼女もまた秘術に通じているのね…しかも生の力がすごい！彼女の魔法を学んでみたい…
+			Dialogue12: "{?BloodMoon}はは…はははは…どうして笑ってるのかって？知らないほうがいいよ…"
+			Dialogue13: "{?BloodMoon}今夜は私を見張ってるの？賢いね…"
+			Dialogue14: "{?BloodMoon}あなたの家の下のどこかにエボンストーンを1ブロック隠したよ。誰にも言わないで！"
+			Dialogue15: "{?Day}{?!Day}お願いがあるの。これらの種を受け取って…私が本当に愛せる住処を作って…"
+			Dialogue16: "{?GolemDefeated}教団がダンジョンの入口に移り住んだわ…不思議な碑文を讃えている。彼らはいったいどんな邪悪に心酔しているのかしら…？"
+		}
+
+		SpecialText: {
+			Storm1: いやな嵐…エボンストーンの洞窟に潜り込もうかしら…
+			Storm2: 太陽…なんて頼れる友達。だから私は奈落のほうを信頼してるの…
+			Rain1: 雨の中に立ったことある？考えがまとまる時があるの…
+			Rain2: 空が泣いている…泣く理由を与えてあげるべきだと思うの…
+			Party1: パーティー？後悔する決断をするには完璧な時間だね…
+			Party2: パンチを作ったの。飲む？…何って？何も入れてないよ
+			Windy1: 不浄は大好き…でも今日は、臭いがひどいって思い出させてくれるね…
+			Windy2: 次にあなたが刺す相手の悲鳴を、風が運ぶかもよ。覚えておいて…
+			Graveyard1: あぁ、この空気。懐かしくて…でも、とても違う…
+			Graveyard2: いくつかの遺体を見せてくれたら、本当に壮観なものを見せてあげられる…
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの脳を撃破している
+		}
+	}
+
+	MaidRoomba: {
+		DisplayName: メイドのルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitMaid]を使用する
+		}
+	}
+
+	FleshyRoomba: {
+		DisplayName: 肉のルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitFleshy]を使用する
+		}
+	}
+
+	GamerRoomba: {
+		DisplayName: ゲーマーのルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitGamer]を使用する
+		}
+	}
+
+	PlantyRoomba: {
+		DisplayName: 植物のルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitPlanty]を使用する
+		}
+	}
+
+	GhostbusterRoomba: {
+		DisplayName: ゴーストバスターのルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitGhostbuster]を使用する
+		}
+	}
+
+	LihzahrdRoomba: {
+		DisplayName: 太陽のルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitLihzahrd]を使用する
+		}
+	}
+
+	MartianRoomba: {
+		DisplayName: 火星のルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitMartian]を使用する
+		}
+	}
+
+	AncientRoomba: {
+		DisplayName: 古代のルンバ
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は本当に愛らしい！"
+		}
+
+		Census: {
+			SpawnCondition: シマー付近で作成した[i:MoreTownsfolk/KitAncient]を使用する
+		}
+	}
+}
+
+NPCNames: {
+	Harvester: {
+		Carmilla: Carmilla
+		Carmine: Carmine
+		Heather: Heather
+		Leslie: Leslie
+		Lilith: Lilith
+		Mary: Mary
+		Rosemary: Rosemary
+		Ruby: Ruby
+		Scarlett: Scarlett
+		Sienna: Sienna
+	}
+
+	Occultist: {
+		Ashley: Ashley
+		Bellatrix: Bellatrix
+		Blair: Blair
+		Brianne: Brianne
+		Iris: Iris
+		Lavender: Lavender
+		Lilac: Lilac
+		Ophelia: Ophelia
+		Salem: Salem
+		Violet: Violet
+	}
+
+	AxolotlNames_Blue: {
+		Ao: Ao
+		Atlahua: Atlahua
+		Axochitl: Axochitl
+		Bloop: Bloop
+		Blue: Blue
+		Canneo: Canneo
+		Marco: Marco
+		Mizuko: Mizuko
+		Mudkip: Mudkip
+		Nahuatl: Nahuatl
+		Namiko: Namiko
+		Neptune: Neptune
+		Polo: Polo
+		Triton: Triton
+		Umi: Umi
+	}
+
+	AxolotlNames_Copper: {
+		Bronze: Bronze
+		Citlalmina: Citlalmina
+		Clementine: Clementine
+		Copper: Copper
+		Coyotl: Coyotl
+		Haphaestus: Haphaestus
+		Lincoln: Lincoln
+		Patina: Patina
+		Quincy: Quincy
+		Tezcacoatl: Tezcacoatl
+	}
+
+	AxolotlNames_Gold: {
+		Akarui: Akarui
+		Anacaona: Anacaona
+		Apollo: Apollo
+		Axie: Axie
+		Butters: Butters
+		Goldilocks: Goldilocks
+		Hoshi: Hoshi
+		Sol: Sol
+		Sunflower: Sunflower
+		Tlanexic: Tlanexic
+		Tonatiuh: Tonatiuh
+		Yellow: Yellow
+		Zuma: Zuma
+	}
+
+	AxolotlNames_Pink: {
+		Bubblegum: Bubblegum
+		Coral: Coral
+		Eloxochitl: Eloxochitl
+		Floyd: Floyd
+		Luna: Luna
+		Masawa: Masawa
+		Miko: Miko
+		Mio: Mio
+		Orchid: Orchid
+		Pinkie: Pinkie
+		Quetzal: Quetzal
+		Rosie: Rosie
+		Sakura: Sakura
+		Zipactonal: Zipactonal
+	}
+
+	AxolotlNames_Melanoid: {
+		Ash: Ash
+		Calypso: Calypso
+		Charcoal: Charcoal
+		Itzcoatl: Itzcoatl
+		Natascha: Natascha
+		Samarra: Samarra
+		Sid: Sid
+		Steele: Steele
+		Vanta: Vanta
+		Yokai: Yokai
+		Zephyr: Zephyr
+	}
+
+	AxolotlNames_Wild: {
+		Bort: Bort
+		Brownie: Brownie
+		Cocoa: Cocoa
+		Cookie: Cookie
+		Ixchel: Ixchel
+		Kayla: Kayla
+		Matsuri: Matsuri
+		Mudball: Mudball
+		Mumei: Mumei
+		Quetzalcoatl: Quetzalcoatl
+		Tlalli: Tlalli
+	}
+
+	AncientRoomba: {
+		Polaris: Polaris
+		Sirius: Sirius
+		Centauri: Centauri
+		Betelgeuse: Betelgeuse
+		Rigel: Rigel
+		Vega: Vega
+		Pleiades: Pleiades
+		Antares: Antares
+		Canopus: Canopus
+		Icarus: Icarus
+		Scuti: Scuti
+		Earendel: Earendel
+		Messier: Messier
+		Fornax: Fornax
+	}
+
+	FleshyRoomba: {
+		Meatball: Meatball
+		Meatwad: Meatwad
+		Meatloaf: Meatloaf
+		Meatbag: Meatbag
+		Meatbun: Meatbun
+		Meatboy: Meatboy
+		Meathead: Meathead
+		Meatstack: Meatstack
+		Meatsticks: Meatsticks
+		Meatmat: Meatmat
+		Meatmo: Meatmo
+		Meaty: Meaty
+		Meatmor: Meatmor
+		Meatmeat: Meatmeat
+	}
+
+	GamerRoomba: {
+		Mark: Mark
+		Jack: Jack
+		Corey: Corey
+		Dan: Dan
+		Faker: Faker
+		Flash: Flash
+		Forest: Forest
+		Boxer: Boxer
+		Daigo: Daigo
+		Ryan: Ryan
+		Trofline: Trofline
+		Pest: Pest
+		Cube: Cube
+		Emily: Emily
+	}
+
+	GhostbusterRoomba: {
+		Casper: Casper
+		Beetlejuice: Beetlejuice
+		Blinky: Blinky
+		Pinky: Pinky
+		Inky: Inky
+		Clyde: Clyde
+		Slimer: Slimer
+		Emily: Emily
+		Nick: Nick
+		Samara: Samara
+		Myrtle: Myrtle
+		Malcolm: Malcolm
+		Freddy: Freddy
+		Blooky: Blooky
+	}
+
+	LihzahrdRoomba: {
+		Sol: Sol
+		Lumina: Lumina
+		Pyrite: Pyrite
+		Hearth: Hearth
+		Furnace: Furnace
+		Flame: Flame
+		Ember: Ember
+		Sun: Sun
+		Zuma: Zuma
+		Glimmer: Glimmer
+		Radiance: Radiance
+		Flare: Flare
+		Heath: Heath
+		Dawn: Dawn
+	}
+
+	MaidRoomba: {
+		Alex: Alex
+		Berta: Berta
+		Consuela: Consuela
+		Daphne: Daphne
+		Dorota: Dorota
+		Esther: Esther
+		Jeanne: Jeanne
+		Kelly: Kelly
+		Louise: Louise
+		Mammy: Mammy
+		Marie: Marie
+		Mary: Mary
+		Rosey: Rosey
+		Sakuya: Sakuya
+	}
+
+	MartianRoomba: {
+		Bleepmorp: Bleepmorp
+		Peridox: Peridox
+		Greeble: Greeble
+		Hinscanz: Hinscanz
+		Shwoomok: Shwoomok
+		Nozxos: Nozxos
+		Johlklik: Johlklik
+		Vroomsives: Vroomsives
+		Skibido: Skibido
+		Juujax: Juujax
+		Plombon: Plombon
+		Orzainz: Orzainz
+		Blarphis: Blarphis
+		Groop: Groop
+	}
+
+	PlantyRoomba: {
+		Rose: Rose
+		Lily: Lily
+		Dahlia: Dahlia
+		Poppy: Poppy
+		Daisy: Daisy
+		Narcissus: Narcissus
+		Camellia: Camellia
+		Buttercup: Buttercup
+		Snapdragon: Snapdragon
+		Anemone: Anemone
+		Marigold: Marigold
+		Dandelion: Dandelion
+		Peony: Peony
+		Jasmine: Jasmine
+	}
+}
+
+Dialogue: {
+	Axolotl: {
+		Dialogue1: Mrrrp!
+		Dialogue2: Bllpt!
+	}
+
+	MaidRoomba: {
+		Dialogue1: Brrrvvvvv...
+		Dialogue2: Shwrrrrrrrrr...!
+		Dialogue3: Vvv Vvv Vvv... ご主人さま、こんにちは！
+	}
+
+	FleshyRoomba: {
+		Dialogue1: Hff hff hff hff hff hff hff...
+		Dialogue2: Mlem... mlem... mlem...
+		Dialogue3: Grrglblr! Rroagh!!
+	}
+
+	GamerRoomba: {
+		Dialogue1: Brrrrrrrrvv!
+		Dialogue2: Zzzzt... Pow! Pow! Pow!
+		Dialogue3: Vrlt! やあみんな、ぼくの名前は{0}！
+	}
+
+	PlantyRoomba: {
+		Dialogue1: Plop! Shwff shwff shwff!
+		Dialogue2: Kltlt! さあ受粉を始めよう！
+		Dialogue3: Zwoot... Zwoot... Zwoot... ???
+	}
+
+	GhostbusterRoomba: {
+		Dialogue1: OooooooOOooooo... OooooooOOooooo...
+		Dialogue2: Cthnk! Vmmnnn... ゴーストじゃない！
+		Dialogue3: Swhhhhrrrrr vweeeeerrrrr sweeeeeeiirrrr...!!!
+	}
+
+	LihzahrdRoomba: {
+		Dialogue1: Hwwwwwwfffff... hwwwwffff...
+		Dialogue2: Whirr... ごきげんよう、創造主よ
+		Dialogue3: Mhvvv... mhvvv...  mhvvv... ???
+	}
+
+	MartianRoomba: {
+		Dialogue1: Bppt bppt bppt bpt bppt bpt bpt bppt!
+		Dialogue2: Clk. NYLLAPUNZ LHYAOSPUN!
+		Dialogue3: Shhhhhbbrbllrblrblr...
+	}
+
+	AncientRoomba: {
+		Dialogue1: Hhhhhhhvvvvvvvhhhhhhhhmmmmmvvvvvvvhhhhhhhmmmm...
+		Dialogue2: Yyyyyyzzzzz... zzzzzzvvvvvmmmvvvvvv...?
+		Dialogue3: Bzt zzt zzt... Rotaerc, reverof naelc.
+	}
+}
+
+Bestiary: {
+	Harvester: 流血を好む真紅の狂信者。人間を生皮剥ぎにするという野望を持つが、同意してくれる候補はまだ見つかっていない。
+	Occultist: いたずらを面白がる腐敗の狂信者。いつか自分だけの怪物を生み出すことを望んでいる。
+	Axolotl: おどけていながらも優雅な両生類。丁寧に扱い、敬意を払おう。
+	MaidRoomba: 毎日がお掃除、お掃除、そしてお掃除の、健気な小さなルンバ。それでも動ける一日一日に感謝している。
+	FleshyRoomba: 肉でできた、灰色の脳でプログラムされたお掃除助手。常に軽い苦痛に苛まれていても、奉仕することを愛している。
+	GamerRoomba: 8コアの怪物級お掃除家電。床を掃除しながら同時に完璧なTASを走らせることも可能！最新鋭の赤色モデルで登場。
+	PlantyRoomba: 園芸好きにぴったりの一台。雑草を刈り、ゼラニウムに施肥してくれるので、町に迫る恐怖を解体する時間が増える。
+	GhostbusterRoomba: ゴーストが怖い？このルンバも同じ。でも幽霊を吸い込み、カーペットから霊魂を一掃する道具は備えている。
+	LihzahrdRoomba: 冷えて汚れた家に最良の相棒。太陽の力を活かすよう設計されたこの驚異は、汚れた床板を清潔で輝かせてくれる。
+	MartianRoomba: 異星生命のための衛生管理も可能な、非常に入念な掃除仲間の一台…ただし、マニュアルが火星語でデジタル版のみなのは目をつむろう。
+	AncientRoomba: 宇宙から来たルンバ。銀河でいちばん埃っぽい場所、月面すらも掃除できそうな異世界級の清掃力を持つ。
+}
+
+Projectiles: {
+	HarvesterAttack: {
+		DisplayName: フック
+	}
+
+	OccultistAttack: {
+		DisplayName: 唾
+	}
+
+	SpittleProj: {
+		DisplayName: 唾
+	}
+
+	TheHookProj: {
+		DisplayName: フック
+	}
+}
+
+Tiles: {
+	CrimsonPylonTile: {
+		MapEntry: 真紅のパイロン
+	}
+
+	CorruptPylonTile: {
+		MapEntry: 不浄のパイロン
+	}
+
+	HellPylonTile: {
+		MapEntry: 地下世界のパイロン
+	}
+
+	SkyPylonTile: {
+		MapEntry: 空のパイロン
+	}
+}
+

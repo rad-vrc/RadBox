@@ -1,0 +1,876 @@
+Tiles: {
+	FumarrianMagicGolemPlaced: {
+		MapEntry: "フマーリアンマジックゴーレム"
+	}
+
+	FumarrianAnglerPlaced: {
+		MapEntry: "フマーリアンアングラー"
+	}
+
+	FumarrianArmsDealerPlaced: {
+		MapEntry: "フマーリアン武器商人"
+	}
+
+	FumarrianClothierPlaced: {
+		MapEntry: "フマーリアン仕立て屋"
+	}
+
+	FumarrianCyborgPlaced: {
+		MapEntry: "フマーリアンサイボーグ"
+	}
+
+	FumarrianDemoPlaced: {
+		MapEntry: "フマーリアン爆破技師"
+	}
+
+	FumarrianDryadPlaced: {
+		MapEntry: "フマーリアンドライアド"
+	}
+
+	FumarrianDyeTraderPlaced: {
+		MapEntry: "フマーリアン染料商人"
+	}
+
+	FumarrianGoblinTinkererPlaced: {
+		MapEntry: "フマーリアンゴブリンの鋳掛屋"
+	}
+
+	FumarrianGolferPlaced: {
+		MapEntry: "フマーリアンゴルファー"
+	}
+
+	FumarrianGuidePlaced: {
+		MapEntry: "フマーリアンガイド"
+	}
+
+	FumarrianMechanicPlaced: {
+		MapEntry: "フマーリアンメカニック"
+	}
+
+	FumarrianMerchantPlaced: {
+		MapEntry: "フマーリアン商人"
+	}
+
+	FumarrianNursePlaced: {
+		MapEntry: "フマーリアンナース"
+	}
+
+	FumarrianOldManPlaced: {
+		MapEntry: "フマーリアン老人"
+	}
+
+	FumarrianPainterPlaced: {
+		MapEntry: "フマーリアン絵描き"
+	}
+
+	FumarrianPartyGirlPlaced: {
+		MapEntry: "フマーリアンパーティガール"
+	}
+
+	FumarrianPiratePlaced: {
+		MapEntry: "フマーリアン海賊"
+	}
+
+	FumarrianPrincessPlaced: {
+		MapEntry: "フマーリアンプリンセス"
+	}
+
+	FumarrianSantaPlaced: {
+		MapEntry: "フマーリアンサンタ"
+	}
+
+	FumarrianSkeletonMerchantPlaced: {
+		MapEntry: "フマーリアンスケルトン商人"
+	}
+
+	FumarrianSteampunkerPlaced: {
+		MapEntry: "フマーリアンスチームパンカー"
+	}
+
+	FumarrianStylistPlaced: {
+		MapEntry: "フマーリアンスタイリスト"
+	}
+
+	FumarrianTavernkeepPlaced: {
+		MapEntry: "フマーリアン酒場の主人"
+	}
+
+	FumarrianTaxCollectorPlaced: {
+		MapEntry: "フマーリアン税務署員"
+	}
+
+	FumarrianTravelingMerchantPlaced: {
+		MapEntry: "フマーリアン旅の商人"
+	}
+
+	FumarrianTrufflePlaced: {
+		MapEntry: "フマーリアントリュフ"
+	}
+
+	FumarrianWereZoologistPlaced: {
+		MapEntry: "フマーリアンウェアゾロジスト"
+	}
+
+	FumarrianWitchDoctorPlaced: {
+		MapEntry: "フマーリアンウィッチドクター"
+	}
+
+	FumarrianWizardPlaced: {
+		MapEntry: "フマーリアン魔法使い"
+	}
+
+	FumarrianZoologistPlaced: {
+		MapEntry: "フマーリアン動物学者"
+	}
+
+	PlushBetsyPlaced: {
+		MapEntry: "ベッツィのぬいぐるみ"
+	}
+
+	PlushBOCPlaced: {
+		MapEntry: "クトゥルフの脳のぬいぐるみ"
+	}
+
+	PlushDarkMagePlaced: {
+		MapEntry: "ダークメイジのぬいぐるみ"
+	}
+
+	PlushDeerclopsPlaced: {
+		MapEntry: "ディアクロップスのぬいぐるみ"
+	}
+
+	PlushDestroyerPlaced: {
+		MapEntry: "デストロイヤーのぬいぐるみ"
+	}
+
+	PlushDreadPlaced: {
+		MapEntry: "ドレッドノーチラスのぬいぐるみ"
+	}
+
+	PlushDukePlaced: {
+		MapEntry: "デュークフィッシュロンのぬいぐるみ"
+	}
+
+	PlushEOCPlaced: {
+		MapEntry: "クトゥルフの目のぬいぐるみ"
+	}
+
+	PlushEOLPlaced: {
+		MapEntry: "エンプレスオブライトのぬいぐるみ"
+	}
+
+	PlushEOWPlaced: {
+		MapEntry: "イーターオブワールドのぬいぐるみ"
+	}
+
+	PlushEverscreamPlaced: {
+		MapEntry: "エヴァースクリームのぬいぐるみ"
+	}
+
+	PlushFlyingDutchmanPlaced: {
+		MapEntry: "フライングダッチマンのぬいぐるみ"
+	}
+
+	PlushGolemPlaced: {
+		MapEntry: "ゴーレムのぬいぐるみ"
+	}
+
+	PlushIceQueenPlaced: {
+		MapEntry: "アイスクイーンのぬいぐるみ"
+	}
+
+	PlushKingSlimePlaced: {
+		MapEntry: "キングスライムのぬいぐるみ"
+	}
+
+	PlushLunaticCultistPlaced: {
+		MapEntry: "ルナティックカルティストのぬいぐるみ"
+	}
+
+	PlushMartianSaucerPlaced: {
+		MapEntry: "マーズソーサーのぬいぐるみ"
+	}
+
+	PlushMoonLordPlaced: {
+		MapEntry: "ムーンロードのぬいぐるみ"
+	}
+
+	PlushMothronPlaced: {
+		MapEntry: "モスロンのぬいぐるみ"
+	}
+
+	PlushMourningWoodPlaced: {
+		MapEntry: "モーニングウッドのぬいぐるみ"
+	}
+
+	PlushOgrePlaced: {
+		MapEntry: "オーガのぬいぐるみ"
+	}
+
+	PlushPlanteraPlaced: {
+		MapEntry: "プランテラのぬいぐるみ"
+	}
+
+	PlushPumpkingPlaced: {
+		MapEntry: "パンプキングのぬいぐるみ"
+	}
+
+	PlushQueenBeePlaced: {
+		MapEntry: "クイーンビーのぬいぐるみ"
+	}
+
+	PlushQueenSlimePlaced: {
+		MapEntry: "クイーンスライムのぬいぐるみ"
+	}
+
+	PlushRetiPlaced: {
+		MapEntry: "レティネイザーのぬいぐるみ"
+	}
+
+	PlushSANTANKPlaced: {
+		MapEntry: "サンタ-NK1のぬいぐるみ"
+	}
+
+	PlushSkeletronPlaced: {
+		MapEntry: "スケルトロンのぬいぐるみ"
+	}
+
+	PlushSkeletronPrimePlaced: {
+		MapEntry: "スケルトロンプライムのぬいぐるみ"
+	}
+
+	PlushSpazPlaced: {
+		MapEntry: "スパズマティズムのぬいぐるみ"
+	}
+
+	PlushTwinsStackPlaced: {
+		MapEntry: "ツインズスタックのぬいぐるみ"
+	}
+
+	FumarrianOldHunterPlaced: {
+		MapEntry: "フマーリアンオールドハンター"
+	}
+
+	PlushBigBonePlaced: {
+		MapEntry: "ビッグボーンのぬいぐるみ"
+	}
+
+	PlushDaffodilPlaced: {
+		MapEntry: "ダフォディルのぬいぐるみ"
+	}
+
+	PlushLittleBonePlaced: {
+		MapEntry: "リトルボーンのぬいぐるみ"
+	}
+
+	PlushLittleEyePlaced: {
+		MapEntry: "リトルアイのぬいぐるみ"
+	}
+
+	PlushMocoPlaced: {
+		MapEntry: "モコのぬいぐるみ"
+	}
+
+	PlushOrroBoroPlaced: {
+		MapEntry: "オロボロのぬいぐるみ"
+	}
+
+	PlushRotGourdPlaced: {
+		MapEntry: "ロットゴードのぬいぐるみ"
+	}
+
+	PlushSpookFishronPlaced: {
+		MapEntry: "スプークフィッシュロンのぬいぐるみ"
+	}
+
+	PlushSpookySpiritPlaced: {
+		MapEntry: "スプーキースピリットのぬいぐるみ"
+	}
+
+	PlushTheManPlaced: {
+		MapEntry: "ザ・マンのぬいぐるみ"
+	}
+
+	FumarrianBlacksmithPlaced: {
+		MapEntry: "フマーリアン鍛冶屋"
+	}
+
+	FumarrianBuriedChampionPlaced: {
+		MapEntry: "フマーリアン埋もれたチャンピオン"
+	}
+
+	FumarrianCobblerPlaced: {
+		MapEntry: "フマーリアン靴職人"
+	}
+
+	FumarrianConfusedZombiePlaced: {
+		MapEntry: "フマーリアン混乱したゾンビ"
+	}
+
+	FumarrianCookPlaced: {
+		MapEntry: "フマーリアン料理人"
+	}
+
+	FumarrianDesertAcolytePlaced: {
+		MapEntry: "フマーリアン砂漠の侍者"
+	}
+
+	FumarrianDiverPlaced: {
+		MapEntry: "フマーリアンダイバー"
+	}
+
+	FumarrianDruidPlaced: {
+		MapEntry: "フマーリアンドルイド"
+	}
+
+	FumarrianIllusionistPlaced: {
+		MapEntry: "フマーリアン幻術師"
+	}
+
+	FumarrianSpiritualistPlaced: {
+		MapEntry: "フマーリアンスピリチュアリスト"
+	}
+
+	FumarrianTrackerPlaced: {
+		MapEntry: "フマーリアントラッカー"
+	}
+
+	FumarrianWeaponMasterPlaced: {
+		MapEntry: "フマーリアン武器マスター"
+	}
+
+	PlushBoreanStriderPlaced: {
+		MapEntry: "ボレアストライダーのぬいぐるみ"
+	}
+
+	PlushCorpseBloomPlaced: {
+		MapEntry: "コープスブルームのぬいぐるみ"
+	}
+
+	PlushDreamEaterPlaced: {
+		MapEntry: "ドリームイーターのぬいぐるみ"
+	}
+
+	PlushFallenBeholderPlaced: {
+		MapEntry: "フォールンビホルダーのぬいぐるみ"
+	}
+
+	PlushForgottenOnePlaced: {
+		MapEntry: "フォゴットンワンのぬいぐるみ"
+	}
+
+	PlushGECPlaced: {
+		MapEntry: "グラナイトエナジーストームのぬいぐるみ"
+	}
+
+	PlushLichPlaced: {
+		MapEntry: "リッチのぬいぐるみ"
+	}
+
+	PlushPatchWerkPlaced: {
+		MapEntry: "パッチウェルクのぬいぐるみ"
+	}
+
+	PlushQueenJellyfishPlaced: {
+		MapEntry: "クイーンジェリーフィッシュのぬいぐるみ"
+	}
+
+	PlushStarScouterPlaced: {
+		MapEntry: "スタースカウターのぬいぐるみ"
+	}
+
+	PlushThunderBirbPlaced: {
+		MapEntry: "サンダーバードのぬいぐるみ"
+	}
+
+	PlushViscountPlaced: {
+		MapEntry: "ヴァイカウントのぬいぐるみ"
+	}
+}
+
+Items: {
+	FumarrianMagicGolem: {
+		DisplayName: "フマーリアンマジックゴーレム"
+		Tooltip: ""
+	}
+
+	PlushDreamEater: {
+		Tooltip: "「甘い夢のための完璧なベッドタイムガーディアン」"
+		DisplayName: "ドリームイーターのぬいぐるみ"
+	}
+
+	FumarrianDesertAcolyte: {
+		Tooltip: "「太陽に焼かれて、抱きしめる準備は万端」"
+		DisplayName: "砂漠の侍者のぬいぐるみ"
+	}
+
+	PlushViscount: {
+		Tooltip: "「柔らかくて、もちもちで、ほんの少し噛みつく」"
+		DisplayName: "ヴァイカウントのぬいぐるみ"
+	}
+
+	PlushThunderBirb: {
+		Tooltip: "「抱きしめるとパチパチ音を立てる、ふわふわの羽毛の友達！」"
+		DisplayName: "グランドサンダーバードのぬいぐるみ"
+	}
+
+	PlushStarScouter: {
+		Tooltip: "「星屑の抱擁で点滅し、音を立てる」"
+		DisplayName: "スタースカウターのぬいぐるみ"
+	}
+
+	PlushQueenJellyfish: {
+		Tooltip: "「抱きしめたくなるほどもちもちで、優しくビリビリする」"
+		DisplayName: "クイーンジェリーフィッシュのぬいぐるみ"
+	}
+
+	PlushPatchWerk: {
+		Tooltip: "「愛を込めて不器用に縫い付けられている」"
+		DisplayName: "パッチウェルクのぬいぐるみ"
+	}
+
+	PlushLich: {
+		Tooltip: "「握ると優しくクスクス笑う」"
+		DisplayName: "リッチのぬいぐるみ"
+	}
+
+	PlushGEC: {
+		Tooltip: "「抱きしめたくなるような静電気でブンブン鳴る！」"
+		DisplayName: "グラナイトエナジーストームのぬいぐるみ"
+	}
+
+	PlushForgottenOne: {
+		Tooltip: "「深い海のように、無限に優しくあなたを抱きしめる」"
+		DisplayName: "フォゴットンワンのぬいぐるみ"
+	}
+
+	PlushFallenBeholder: {
+		Tooltip: "「あなたの魂の奥深くを見つめ…そしてそれに寄り添う」"
+		DisplayName: "フォールンビホルダーのぬいぐるみ"
+	}
+
+	PlushCorpseBloom: {
+		Tooltip: "「変な匂いがするけど、抱き心地は柔らかい」"
+		DisplayName: "コープスブルームのぬいぐるみ"
+	}
+
+	PlushBoreanStrider: {
+		Tooltip: "「あなたの心を溶かす（でも雪は溶かさない）冷たい抱擁をくれる」"
+		DisplayName: "ボレアストライダーのぬいぐるみ"
+	}
+
+	FumarrianWeaponMaster: {
+		Tooltip: "「彼はヒーローを訓練するが、彼のぬいぐるみの姿はただ抱擁を訓練するだけだ」"
+		DisplayName: "武器マスターのぬいぐるみ"
+	}
+
+	FumarrianTracker: {
+		Tooltip: "「危険を嗅ぎつけ、抱きしめて服従させる」"
+		DisplayName: "トラッカーのぬいぐるみ"
+	}
+
+	FumarrianSpiritualist: {
+		Tooltip: "「幽霊のようなクスクス笑いで心を落ち着かせる」"
+		DisplayName: "スピリチュアリストのぬいぐるみ"
+	}
+
+	FumarrianIllusionist: {
+		Tooltip: "「抱擁空間に出たり入ったりする」"
+		DisplayName: "幻術師のぬいぐるみ"
+	}
+
+	FumarrianDruid: {
+		Tooltip: "「苔と愛を生やし、心地よい自然の昼寝をもたらす」"
+		DisplayName: "ドルイドのぬいぐるみ"
+	}
+
+	FumarrianDiver: {
+		Tooltip: "「泡の音色であなたを眠りに誘う」"
+		DisplayName: "ダイバーのぬいぐるみ"
+	}
+
+	FumarrianCook: {
+		Tooltip: "「ベッドでのおやつと柔らかい居眠りに最適」"
+		DisplayName: "料理人のぬいぐるみ"
+	}
+
+	FumarrianConfusedZombie: {
+		Tooltip: "「彼は迷子かもしれないが、プロのように抱きしめる方法を知っている！」"
+		DisplayName: "混乱したゾンビのぬいぐるみ"
+	}
+
+	FumarrianCobbler: {
+		Tooltip: "「あなたの足にぬいぐるみの活気を与える」"
+		DisplayName: "靴職人のぬいぐるみ"
+	}
+
+	FumarrianBuriedChampion: {
+		Tooltip: "「少しガタガタするが、強力な戦士の抱擁をくれる」"
+		DisplayName: "埋もれたチャンピオンのぬいぐるみ"
+	}
+
+	FumarrianBlacksmith: {
+		Tooltip: "「マシュマロと金属の匂いがする」"
+		DisplayName: "鍛冶屋のぬいぐるみ"
+	}
+
+	PlushTheMan: {
+		Tooltip: "「彼はお前が何をしたか知っている。\nそれでもかわいいけどね！」"
+		DisplayName: "ザ・マンのぬいぐるみ"
+	}
+
+	PlushSpookySpirit: {
+		Tooltip: "「この小さな幽霊はただ遊びたいだけ…」"
+		DisplayName: "スプーキースピリットのぬいぐるみ"
+	}
+
+	PlushSpookFishron: {
+		Tooltip: "「半分お化けで、半分魚、全部もちもち！」"
+		DisplayName: "スプークフィッシュロンのぬいぐるみ"
+	}
+
+	PlushRotGourd: {
+		Tooltip: "「彼は腐っているかもしれないが、それでももちもちした魅力に満ちている！」"
+		DisplayName: "ロットゴードのぬいぐるみ"
+	}
+
+	PlushOrroBoro: {
+		Tooltip: "「二人寄れば文殊の知恵！」"
+		DisplayName: "オロボロのぬいぐるみ"
+	}
+
+	PlushMoco: {
+		Tooltip: "「彼はあなたが期待したものではないが、鼻水の愛に満ちている！」"
+		DisplayName: "モコのぬいぐるみ"
+	}
+
+	PlushLittleEye: {
+		Tooltip: "「いないいないばあ！\n彼はあなたを見ている…そして君は素敵だと思っている！」"
+		DisplayName: "リトルアイのぬいぐるみ"
+	}
+
+	PlushLittleBone: {
+		Tooltip: "「いつでも手を貸してくれる骨の友達！」"
+		DisplayName: "リトルボーンのぬいぐるみ"
+	}
+
+	PlushDaffodil: {
+		Tooltip: "「いつも不気味な魅力で咲いている花の友達！」"
+		DisplayName: "ダフォディルのぬいぐるみ"
+	}
+
+	PlushBigBone: {
+		Tooltip: "「骨ばかりで脳はないが、抱擁力はたっぷり！」"
+		DisplayName: "ビッグボーンのぬいぐるみ"
+	}
+
+	FumarrianOldHunter: {
+		Tooltip: "「いつでも楽しい時間を狙っている骸骨の狙撃手！」"
+		DisplayName: "オールドハンターのぬいぐるみ"
+	}
+
+	PlushMothron: {
+		Tooltip: "「ひらひら舞う綿毛の束。」"
+		DisplayName: "モスロンのぬいぐるみ"
+	}
+
+	PlushSANTANK: {
+		Tooltip: "「祝祭的で、\nふわふわで、\n完全武装」"
+		DisplayName: "サンタ-NK1のぬいぐるみ"
+	}
+
+	PlushPumpking: {
+		Tooltip: "「不気味で、柔らかく、甘い」"
+		DisplayName: "パンプキングのぬいぐるみ"
+	}
+
+	PlushOgre: {
+		Tooltip: "「見た目よりももちもち！」"
+		DisplayName: "オーガのぬいぐるみ"
+	}
+
+	PlushMourningWood: {
+		Tooltip: "「外はカリカリ、中はふわふわ」"
+		DisplayName: "モーニングウッドのぬいぐるみ"
+	}
+
+	PlushMartianSaucer: {
+		Tooltip: "「私をあなたの枕へ連れて行って」"
+		DisplayName: "マーズソーサーのぬいぐるみ"
+	}
+
+	PlushIceQueen: {
+		Tooltip: "「冷たい手、温かい綿毛」"
+		DisplayName: "アイスクイーンのぬいぐるみ"
+	}
+
+	PlushFlyingDutchman: {
+		Tooltip: "「幽霊のようで、くすくす笑って、柔らかい」"
+		DisplayName: "フライングダッチマンのぬいぐるみ"
+	}
+
+	PlushEverscream: {
+		Tooltip: "「常緑で、いつでも抱きしめられる」"
+		DisplayName: "エヴァースクリームのぬいぐるみ"
+	}
+
+	PlushDarkMage: {
+		Tooltip: "「闇の魔術と心地よい昼寝を実践する」"
+		DisplayName: "ダークメイジのぬいぐるみ"
+	}
+
+	PlushBetsy: {
+		Tooltip: "「異世界からの翼のある温もり」"
+		DisplayName: "ベッツィのぬいぐるみ"
+	}
+
+	PlushEOL: {
+		Tooltip: "「優しい魅力で輝く」"
+		DisplayName: "エンプレスオブライトのぬいぐるみ"
+	}
+
+	PlushMoonLord: {
+		Tooltip: "「宇宙で最も柔らかい支配者」"
+		DisplayName: "ムーンロードのぬいぐるみ"
+	}
+
+	PlushLunaticCultist: {
+		Tooltip: "「奇妙に心地よい」"
+		DisplayName: "ルナティックカルティストのぬいぐるみ"
+	}
+
+	PlushDuke: {
+		Tooltip: "「最もかわいい獲物を釣り上げた」"
+		DisplayName: "デュークフィッシュロンのぬいぐるみ"
+	}
+
+	PlushDread: {
+		Tooltip: "「深淵からの触手のハグ」"
+		DisplayName: "ドレッドノーチラスのぬいぐるみ"
+	}
+
+	PlushGolem: {
+		Tooltip: "「岩のような小さな抱きしめ友達」"
+		DisplayName: "ゴーレムのぬいぐるみ"
+	}
+
+	PlushTwinsStack: {
+		Tooltip: "「二倍のトラブル、二倍のハグ」"
+		DisplayName: "ツインズのぬいぐるみ"
+	}
+
+	PlushSpaz: {
+		Tooltip: "「夢の中で火を噴く」"
+		DisplayName: "スパズマティズムのぬいぐるみ"
+	}
+
+	PlushSkeletronPrime: {
+		Tooltip: "「ハグのための腕」"
+		DisplayName: "スケルトロンプライムのぬいぐるみ"
+	}
+
+	PlushSkeletron: {
+		Tooltip: "「ガタガタするけど、抱き心地は良い」"
+		DisplayName: "スケルトロンのぬいぐるみ"
+	}
+
+	PlushReti: {
+		Tooltip: "「ロボットのような判断力であなたを見つめる」"
+		DisplayName: "レティネイザーのぬいぐるみ"
+	}
+
+	PlushQueenSlime: {
+		Tooltip: "「キラキラで、もちもちの王族」"
+		DisplayName: "クイーンスライムのぬいぐるみ"
+	}
+
+	PlushQueenBee: {
+		Tooltip: "「甘さでブンブン鳴る」"
+		DisplayName: "クイーンビーのぬいぐるみ"
+	}
+
+	PlushPlantera: {
+		Tooltip: "「花びらとぬいぐるみ！」"
+		DisplayName: "プランテラのぬいぐるみ"
+	}
+
+	PlushKingSlime: {
+		Tooltip: "「弾むようで、もちもちで、王族のようにかわいい」"
+		DisplayName: "キングスライムのぬいぐるみ"
+	}
+
+	PlushEOW: {
+		Tooltip: "「くねくねして、素晴らしい！」"
+		DisplayName: "イーターオブワールドのぬいぐるみ"
+	}
+
+	PlushEOC: {
+		Tooltip: "「愛を込めてまばたきする」"
+		DisplayName: "クトゥルフの目のぬいぐるみ"
+	}
+
+	PlushDestroyer: {
+		Tooltip: "「柔らかい回路。\n大きなハグ」"
+		DisplayName: "デストロイヤーのぬいぐるみ"
+	}
+
+	PlushDeerclops: {
+		Tooltip: "「寒くて、ふわふわで、あなたの魂を見つめている…」"
+		DisplayName: "ディアクロップスのぬいぐるみ"
+	}
+
+	PlushBOC: {
+		Tooltip: "「幸せなことを考えよう！」"
+		DisplayName: "クトゥルフの脳のぬいぐるみ"
+	}
+
+	FumarrianSanta: {
+		Tooltip: "「ほっほー、抱きしめて！」"
+		DisplayName: "サンタクロースのぬいぐるみ"
+	}
+
+	FumarrianSkeletonMerchant: {
+		Tooltip: "「彼はぬいぐるみで、骨で、いつでもハグのために開いている」"
+		DisplayName: "スケルトン商人のぬいぐるみ"
+	}
+
+	FumarrianTravelingMerchant: {
+		Tooltip: "「毎日見つかるわけではない、珍しいハグ」"
+		DisplayName: "旅の商人のぬいぐるみ"
+	}
+
+	FumarrianOldMan: {
+		Tooltip: "「奇妙な人物の、柔らかく不気味なお土産」"
+		DisplayName: "老人のぬいぐるみ"
+	}
+
+	FumarrianPrincess: {
+		Tooltip: "「堂々として愛らしい」"
+		DisplayName: "プリンセスのぬいぐるみ"
+	}
+
+	FumarrianZoologist: {
+		Tooltip: "「ふわふわで、毛むくじゃらで、猛烈に甘い」"
+		DisplayName: "動物学者のぬいぐるみ"
+	}
+
+	FumarrianWizard: {
+		Tooltip: "「魔法のハグが保証されている！」"
+		DisplayName: "魔法使いのぬいぐるみ"
+	}
+
+	FumarrianWitchDoctor: {
+		Tooltip: "「神秘的なふわふわ感が内にある」"
+		DisplayName: "呪術医のぬいぐるみ"
+	}
+
+	FumarrianWereZoologist: {
+		Tooltip: "「彼女は噛むかもしれない（愛情を込めて）」"
+		DisplayName: "動物学者（狐化）のぬいぐるみ"
+	}
+
+	FumarrianTruffle: {
+		Tooltip: "「菌類がこんなにふわふわに感じたことはない」"
+		DisplayName: "トリュフのぬいぐるみ"
+	}
+
+	FumarrianTaxCollector: {
+		Tooltip: "「今、彼はあなたに支払っている—ハグでね！」"
+		DisplayName: "収税吏のぬいぐるみ"
+	}
+
+	FumarrianTavernkeep: {
+		Tooltip: "「心地よい、ジョッキ型の快適さ」"
+		DisplayName: "酒場の主人のぬいぐるみ"
+	}
+
+	FumarrianStylist: {
+		Tooltip: "「完璧にぬいぐるみで、髪一本乱れていない」"
+		DisplayName: "スタイリストのぬいぐるみ"
+	}
+
+	FumarrianSteampunker: {
+		Tooltip: "「すべてのステッチに時計仕掛けのかわいらしさ」"
+		DisplayName: "スチームパンカーのぬいぐるみ"
+	}
+
+	FumarrianPirate: {
+		Tooltip: "「うぉぉぉぉ！\n俺の宝物を抱きしめろ！」"
+		DisplayName: "海賊のぬいぐるみ"
+	}
+
+	FumarrianPartyGirl: {
+		Tooltip: "「抱擁パーティーを開催中！」"
+		DisplayName: "パーティガールのぬいぐるみ"
+	}
+
+	FumarrianPainter: {
+		Tooltip: "「パステルカラーの完璧さで彩られている」"
+		DisplayName: "絵描きのぬいぐるみ"
+	}
+
+	FumarrianNurse: {
+		Tooltip: "「すっかり手当てされて、抱擁の準備万端」"
+		DisplayName: "ナースのぬいぐるみ"
+	}
+
+	FumarrianMechanic: {
+		Tooltip: "「ワイヤーは交差しても、綿毛は無事！」"
+		DisplayName: "メカニックのぬいぐるみ"
+	}
+
+	FumarrianGoblinTinkerer: {
+		Tooltip: "「小さな道具は含まれていない」"
+		DisplayName: "ゴブリンの鋳掛屋のぬいぐるみ"
+	}
+
+	FumarrianDyeTrader: {
+		Tooltip: "「明るく、大胆で、美しく抱きしめられる」"
+		DisplayName: "染料商人のぬいぐるみ"
+	}
+
+	FumarrianDryad: {
+		Tooltip: "「まるで自然の静けさで棚を祝福しているかのよう」"
+		DisplayName: "ドライアドのぬいぐるみ"
+	}
+
+	FumarrianDemolitionist: {
+		Tooltip: "「ドーン！\nかわいさの過負荷」"
+		DisplayName: "爆破技師のぬいぐるみ"
+	}
+
+	FumarrianCyborg: {
+		Tooltip: "「半分ロボット、全部もちもち」"
+		DisplayName: "サイボーグのぬいぐるみ"
+	}
+
+	FumarrianClothier: {
+		Tooltip: "「抱きしめたくなるクラシック」"
+		DisplayName: "仕立て屋のぬいぐるみ"
+	}
+
+	FumarrianArmsDealer: {
+		Tooltip: "「心配しないで、弾薬ではなく綿毛で満たされている」"
+		DisplayName: "武器商人のぬいぐるみ"
+	}
+
+	FumarrianGolfer: {
+		Tooltip: "「フォアー！\n柔らかいぞ！」"
+		DisplayName: "ゴルファーのぬいぐるみ"
+	}
+
+	FumarrianAngler: {
+		Tooltip: "「不機嫌…でも抱きしめられる」"
+		DisplayName: "釣り人のぬいぐるみ"
+	}
+
+	FumarrianMerchant: {
+		Tooltip: "「小さなコインポーチが縫い付けられている！」"
+		DisplayName: "商人のぬいぐるみ"
+	}
+
+	FumarrianGuide: {
+		Tooltip: "「本物のガイドのように、柔らかくて協力的！」"
+		DisplayName: "ガイドのぬいぐるみ"
+	}
+}

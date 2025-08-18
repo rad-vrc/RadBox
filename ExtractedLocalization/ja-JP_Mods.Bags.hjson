@@ -1,0 +1,1971 @@
+TownNPCMood: {
+	BagNPC: {
+		Content: This is nice.
+		NoHome: You know, nature is cool and all, but I would still really like a house right now.
+		LoveSpace: Finally alone.
+		FarFromHome: Would you mind reminding me where my house was again?
+		DislikeCrowded: Ugh... Wish I had a little more space.
+		HateCrowded: I feel a bit constricted.
+		LikeBiome: I like the nature, the forest is a nice place.
+		DislikeBiome: Wayyyy too cooooold...
+	}
+
+	BagNPC2: {
+		Content: This is nice.
+		NoHome: Hmm, a house... that would be something.
+		LoveSpace: I feel so free around here.
+		FarFromHome: Uhhhh, where is my house?
+		DislikeCrowded: A few many people in one place, don't you think?
+		HateCrowded: Ew... so many people.
+		LikeBiome: Don't you think the forest is just a nice place?
+		DislikeBiome: There are so many disgusting creatures in the jungle, please get me out of here.
+	}
+}
+
+Buffs: {
+	AbsoluteLuck: {
+		DisplayName: Absolute Luck
+		Description: Increases Droprates of Bags by 100 %.
+	}
+
+	BeginnersLuck: {
+		DisplayName: Beginner's Luck
+		Description: Increases Droprates of Bags by 25 %.
+	}
+
+	Fortune: {
+		DisplayName: Fortune
+		Description: Increases Droprates of Bags by 75 %.
+	}
+
+	Tier01: {
+		DisplayName: Tier 1
+		Description: Post-King Slime Bags drop instead of the current bags.
+	}
+
+	Tier02: {
+		DisplayName: Tier 2
+		Description: Post-Desert Scourge Bags drop instead of the current bags.
+	}
+
+	Tier03: {
+		DisplayName: Tier 3
+		Description: Post-Eye of Cthulhu Bags drop instead of the current bags.
+	}
+
+	Tier04: {
+		DisplayName: Tier 4
+		Description: Post-Crabulon Bags drop instead of the current bags.
+	}
+
+	Tier05_1: {
+		DisplayName: Tier 5
+		Description: Post-Eater of Worlds Bags drop instead of the current bags.
+	}
+
+	Tier05_2: {
+		DisplayName: Tier 5
+		Description: Post-Brain of Cthulhu Bags drop instead of the current bags.
+	}
+
+	Tier06_1: {
+		DisplayName: Tier 6
+		Description: Post-Hive Mind Bags drop instead of the current bags.
+	}
+
+	Tier06_2: {
+		DisplayName: Tier 6
+		Description: Post-Perforators Bags drop instead of the current bags.
+	}
+
+	Tier07: {
+		DisplayName: Tier 7
+		Description: Post-Queen Bee Bags drop instead of the current bags.
+	}
+
+	Tier09: {
+		DisplayName: Tier 9
+		Description: Post-Skeletron Bags drop instead of the current bags.
+	}
+
+	Tier08: {
+		DisplayName: Tier 8
+		Description: Post-Deerclops drop instead of the current bags.
+	}
+
+	Tier10: {
+		DisplayName: Tier 10
+		Description: Post-Slime God Bags drop instead of the current bags.
+	}
+
+	Tier11: {
+		DisplayName: Tier 11
+		Description: Post-Wall of Flesh Bags drop instead of the current bags.
+	}
+
+	Tier12: {
+		DisplayName: Tier 12
+		Description: Post-Queen Slime Bags drop instead of the current bags.
+	}
+
+	Tier13: {
+		DisplayName: Tier 13
+		Description: Post-Aquatic Scourge Bags drop instead of the current bags.
+	}
+
+	Tier14: {
+		DisplayName: Tier 14
+		Description: Post-One Mechanical Boss Bags drop instead of the current bags.
+	}
+
+	Tier15: {
+		DisplayName: Tier 15
+		Description: Post-Brimstone Elemental Bags drop instead of the current bags.
+	}
+
+	Tier16: {
+		DisplayName: Tier 16
+		Description: Post-Two Mechanical Bosses Bags drop instead of the current bags.
+	}
+
+	Tier17: {
+		DisplayName: Tier 17
+		Description: Post-Cryogen Bags drop instead of the current bags.
+	}
+
+	Tier18: {
+		DisplayName: Tier 18
+		Description: Post-Three Mechanical Bosses Prime Bags drop instead of the current bags.
+	}
+
+	Tier19: {
+		DisplayName: Tier 19
+		Description: Post-Calamitas Bags drop instead of the current bags.
+	}
+
+	Tier20: {
+		DisplayName: Tier 20
+		Description: Post-Plantera Bags drop instead of the current bags.
+	}
+
+	Tier21: {
+		DisplayName: Tier 21
+		Description: Post-Anahita and Leviathan Bags drop instead of the current bags.
+	}
+
+	Tier22: {
+		DisplayName: Tier 22
+		Description: Post-Astrum Aureus Bags drop instead of the current bags.
+	}
+
+	Tier23: {
+		DisplayName: Tier 23
+		Description: Post-Golem Bags drop instead of the current bags.
+	}
+
+	Tier24: {
+		DisplayName: Tier 24
+		Description: Post-Plaguebringer Goliath Bags drop instead of the current bags.
+	}
+
+	Tier25: {
+		DisplayName: Tier 25
+		Description: Post-Empress of Light Bags drop instead of the current bags.
+	}
+
+	Tier26: {
+		DisplayName: Tier 26
+		Description: Post-Duke Fishron Bags drop instead of the current bags.
+	}
+
+	Tier27: {
+		DisplayName: Tier 27
+		Description: Post-Ravager Bags drop instead of the current bags.
+	}
+
+	Tier28: {
+		DisplayName: Tier 28
+		Description: Post-Lunatic Cultist Bags drop instead of the current bags.
+	}
+
+	Tier29: {
+		DisplayName: Tier 29
+		Description: Post-Astrum Deus Bags drop instead of the current bags.
+	}
+
+	Tier30: {
+		DisplayName: Tier 30
+		Description: Post-Moon Lord Bags drop instead of the current bags.
+	}
+
+	Tier31: {
+		DisplayName: Tier 31
+		Description: Post-Profaned Guardians Bags drop instead of the current bags.
+	}
+
+	Tier32: {
+		DisplayName: Tier 32
+		Description: Post-Dragonfolly Bags drop instead of the current bags.
+	}
+
+	Tier33: {
+		DisplayName: Tier 33
+		Description: Post-Providence Bags drop instead of the current bags.
+	}
+
+	Tier34: {
+		DisplayName: Tier 34
+		Description: Post-Sentinels of the Devourer Bags drop instead of the current bags.
+	}
+
+	Tier35: {
+		DisplayName: Tier 35
+		Description: Post-Polterghast Bags drop instead of the current bags.
+	}
+
+	Tier36: {
+		DisplayName: Tier 36
+		Description: Post-Old Duke Bags drop instead of the current bags.
+	}
+
+	Tier37: {
+		DisplayName: Tier 37
+		Description: Post-Devourer of Gods Bags drop instead of the current bags.
+	}
+
+	Tier38: {
+		DisplayName: Tier 38
+		Description: Post-Yharon Bags drop instead of the current bags.
+	}
+
+	Tier39D: {
+		DisplayName: Tier 39 (Exo Mechs)
+		Description: Post-Exo Mechs Bags drop instead of the current bags.
+	}
+
+	Tier39S: {
+		DisplayName: Tier 39 (Supreme Calamitas)
+		Description: Post-Supreme Calamitas Bags drop instead of the current bags.
+	}
+
+	Wealth: {
+		DisplayName: Wealth
+		Description: Increases Droprates of Bags by 50 %.
+	}
+}
+
+Items: {
+	ActivatorAbyss: {
+		DisplayName: Abyss Activation Crystal (Post-Skeletron)
+		Tooltip:
+			'''
+			Used to activate Shadow Chest Drops from the Abyss from Bags
+			(Your shadow key will not be lost, you will get it back)
+			'''
+	}
+
+	ActivatorAbyssT2: {
+		DisplayName: Abyss Activation Crystal (Post-Leviathan)
+		Tooltip: Used to activate Post-Leviathan Abyss loot from Bags
+	}
+
+	ActivatorAbyssT3: {
+		DisplayName: Abyss Activation Crystal (Post-Polterghast)
+		Tooltip: Used to activate Post-Polterghast Abyss loot from Bags
+	}
+
+	ActivatorCorruption: {
+		DisplayName: Corruption Activation Crystal
+		Tooltip: Used to activate loot from the Corruption from Bags
+	}
+
+	ActivatorCrimson: {
+		DisplayName: Crimson Activation Crystal
+		Tooltip: Used to activate loot from the Crimson from Bags
+	}
+
+	ActivatorGems: {
+		DisplayName: Shiny Activation Crystal
+		Tooltip: Used to increase chance for valuable gems from Gem Bags
+	}
+
+	ActivatorGold: {
+		DisplayName: Golden Activation Crystal
+		Tooltip:
+			'''
+			Used to activate Locked Gold Chest Drops from Bags
+			(Your golden key will not be lost, you will get it back)
+			'''
+	}
+
+	ActivatorHallow: {
+		DisplayName: Hallowed Activation Crystal
+		Tooltip: Used to activate loot from the Hallow from Bags
+	}
+
+	ActivatorShadow: {
+		DisplayName: Shadow Activation Crystal
+		Tooltip:
+			'''
+			Used to activate Shadow Chest Drops from Bags
+			(Your shadow key will not be lost, you will get it back)
+			'''
+	}
+
+	ActuatorBag: {
+		DisplayName: Actuator Bag
+		Tooltip: Contains 999 Actuators
+	}
+
+	EmptyBulletBag: {
+		DisplayName: Empty Bullet Bag
+		Tooltip: Contains 999 Empty Bullets
+	}
+
+	ExplosivePowderBag: {
+		DisplayName: Explosive Powder Bag
+		Tooltip: Contains 999 Explosive Powder
+	}
+
+	FlareBag: {
+		DisplayName: Flare Bag
+		Tooltip: Contains 999 Flares
+	}
+
+	HellfireArrowBag: {
+		DisplayName: Hellfire Arrow Bag
+		Tooltip: Contains 999 Hellfire Arrows
+	}
+
+	IcicleArrowBag: {
+		DisplayName: Icicle Arrow Bag
+		Tooltip: Contains 999 Icicle Arrows
+	}
+
+	IcyBulletBag: {
+		DisplayName: Icy Bullet Bag
+		Tooltip: Contains 999 Icy Bullets
+	}
+
+	MusketBallBag: {
+		DisplayName: Musket Ball Bag
+		Tooltip: Contains 999 Musket Balls
+	}
+
+	SilverBulletBag: {
+		DisplayName: Silver Bullet Bag
+		Tooltip: Contains 999 Silver Bullets
+	}
+
+	SmallActuatorBag: {
+		DisplayName: Small Actuator Bag
+		Tooltip: Contains 99 Actuators
+	}
+
+	SmallExplosivePowderBag: {
+		DisplayName: Small Explosive Powder Bag
+		Tooltip: Contains 99 Explosive Powder
+	}
+
+	UnholyArrowBag: {
+		DisplayName: Unholy Arrow Bag
+		Tooltip: Contains 999 Unholy Arrows
+	}
+
+	WireBag: {
+		DisplayName: Wire Bag
+		Tooltip: Contains 999 Wires
+	}
+
+	WoodenArrowBag: {
+		DisplayName: Wooden Arrow Bag
+		Tooltip: Contains 999 Wooden Arrows
+	}
+
+	Bag00: {
+		DisplayName: Pre-Boss Bag
+		Tooltip:
+			'''
+			Contains [c/BDBDBD:Pre-Boss] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			This Bag can be turned on and off in the Mod Config
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag01: {
+		DisplayName: Post-King Slime Bag
+		Tooltip:
+			'''
+			[c/0080FF:Tier 1 Bag]
+			Contains [c/0080FF:Post-King Slime] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag02: {
+		DisplayName: Post-Desert Scourge Bag
+		Tooltip:
+			'''
+			[c/4C312A:Tier 2 Bag]
+			Contains [c/4C312A:Post-Desert Scourge] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag03: {
+		DisplayName: Post-Eye Of Cthulhu Bag
+		Tooltip:
+			'''
+			[c/A0A0A0:Tier 3 Bag]
+			Contains [c/A0A0A0:Post-Eye Of Cthulhu] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag04: {
+		DisplayName: Post-Crabulon Bag
+		Tooltip:
+			'''
+			[c/5F6EFF:Tier 4 Bag]
+			Contains [c/5F6EFF:Post-Crabulon] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag05_1: {
+		DisplayName: Post-Eater Of Worlds Bag
+		Tooltip:
+			'''
+			[c/604D4F:Tier 5 Bag]
+			Contains [c/604D4F:Post-Eater Of Worlds] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag05_2: {
+		DisplayName: Post-Brain Of Cthulhu Bag
+		Tooltip:
+			'''
+			[c/CA7073:Tier 5 Bag]
+			Contains [c/CA7073:Post-Brain Of Cthulhu] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag06_1: {
+		DisplayName: Post-Hive Mind Bag
+		Tooltip:
+			'''
+			[c/7759E3:Tier 6 Bag]
+			Contains [c/7759E3:Post-Hive Mind] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag06_2: {
+		DisplayName: Post-Perforators Bag
+		Tooltip:
+			'''
+			[c/B44448:Tier 6 Bag]
+			Contains [c/B44448:Post-Perforators] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag07: {
+		DisplayName: Post-Queen Bee Bag
+		Tooltip:
+			'''
+			[c/CCC741:Tier 7 Bag]
+			Contains [c/CCC741:Post-Queen Bee] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag09: {
+		DisplayName: Post-Skeletron Bag
+		Tooltip:
+			'''
+			[c/B29B80:Tier 9 Bag]
+			Contains [c/B29B80:Post-Skeletron] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag08: {
+		DisplayName: Post-Deerclops Bag
+		Tooltip:
+			'''
+			[c/A19899:Tier 8 Bag]
+			Contains [c/A19899:Post-Deerclops] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag10: {
+		DisplayName: Post-Slime God Bag
+		Tooltip:
+			'''
+			[c/5647FF:Tier][c/D34249: 10 Bag]
+			Contains [c/5647FF:Post-Sl][c/D34249:ime God] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag11: {
+		DisplayName: Post-Wall Of Flesh Bag
+		Tooltip:
+			'''
+			[c/9E2F53:Tier 11 Bag]
+			Contains [c/9E2F53:Post-Wall Of Flesh] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag12: {
+		DisplayName: Post-Queen Slime Bag
+		Tooltip:
+			'''
+			[c/DB90CF:Tier 12 Bag]
+			Contains [c/DB90CF:Post-Queen Slime] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag17: {
+		DisplayName: Post-Cryogen Bag
+		Tooltip:
+			'''
+			[c/57D2FF:Tier 17 Bag]
+			Contains [c/57D2FF:Post-Cryogen] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag14: {
+		DisplayName: Post-One Mechanical Boss Bag
+		Tooltip:
+			'''
+			[c/B3B3B3:Tier 14 Bag]
+			Contains [c/B3B3B3:Post-One Mechanical Boss] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag13: {
+		DisplayName: Post-Aquatic Scourge Bag
+		Tooltip:
+			'''
+			[c/49A677:Tier 13 Bag]
+			Contains [c/49A677:Post-Aquatic Scourge] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag16: {
+		DisplayName: Post-Two Mechanical Bosses Bag
+		Tooltip:
+			'''
+			[c/B3B3B3:Tier 16 Bag]
+			Contains [c/B3B3B3:Post-Two Mechanical Bosses] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag15: {
+		DisplayName: Post-Brimstone Elemental Bag
+		Tooltip:
+			'''
+			[c/A31C1C:Tier 15 Bag]
+			Contains [c/A31C1C:Post-Brimstone Elemental] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag18: {
+		DisplayName: Post-Three Mechanical Bosses Bag
+		Tooltip:
+			'''
+			[c/B3B3B3:Tier 18 Bag]
+			Contains [c/B3B3B3:Post-Three Mechanical Bosses] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag19: {
+		DisplayName: Post-Calamitas Bag
+		Tooltip:
+			'''
+			[c/8A2030:Tier 19 Bag]
+			Contains [c/8A2030:Post-Calamitas] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag20: {
+		DisplayName: Post-Plantera Bag
+		Tooltip:
+			'''
+			[c/527D08:Tier 20 Bag]
+			Contains [c/527D08:Post-Plantera] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag21: {
+		DisplayName: Post-Anahita and Leviathan Bag
+		Tooltip:
+			'''
+			[c/0C797A:Tier 21 Bag]
+			Contains [c/0C797A:Post-Anahita and Leviathan] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag22: {
+		DisplayName: Post-Astrum Aureus Bag
+		Tooltip:
+			'''
+			[c/206F85:Tier 22 Bag]
+			Contains [c/206F85:Post-Astrum Aureus] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag23: {
+		DisplayName: Post-Golem Bag
+		Tooltip:
+			'''
+			[c/8D3800:Tier 23 Bag]
+			Contains [c/8D3800:Post-Golem] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag24: {
+		DisplayName: Post-Plaguebringer Goliath Bag
+		Tooltip:
+			'''
+			[c/284246:Tier 24 Bag]
+			Contains [c/284246:Post-Plaguebringer Goliath] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag25: {
+		DisplayName: Post-Empress of Light Bag
+		Tooltip:
+			'''
+			[c/FFFA39:Tier 25 Bag]
+			Contains [c/FFFA39:Post-Empress of Light] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag26: {
+		DisplayName: Post-Duke Fishron Bag
+		Tooltip:
+			'''
+			[c/2BAF72:Tier 26 Bag]
+			Contains [c/2BAF72:Post-Duke Fishron] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag27: {
+		DisplayName: Post-Ravager Bag
+		Tooltip:
+			'''
+			[c/715B5B:Tier 27 Bag]
+			Contains [c/715B5B:Post-Ravager] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag28: {
+		DisplayName: Post-Lunatic Cultist Bag
+		Tooltip:
+			'''
+			[c/3454BE:Tier 28 Bag]
+			Contains [c/3454BE:Post-Lunatic Cultist] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag29: {
+		DisplayName: Post-Astrum Deus Bag
+		Tooltip:
+			'''
+			[c/ED5D53:Tier 2][c/6DF2C4:9 Bag]
+			Contains [c/ED5D53:Post-Ast][c/6DF2C4:rum Deus] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag30: {
+		DisplayName: Post-Moon Lord Bag
+		Tooltip:
+			'''
+			[c/21A08D:Tier 30 Bag]
+			Contains [c/21A08D:Post-Moon Lord] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag31: {
+		DisplayName: Post-Profaned Guardians Bag
+		Tooltip:
+			'''
+			[c/7A423B:Tier 31 Bag]
+			Contains [c/7A423B:Post-Profaned Guardians] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag32: {
+		DisplayName: Post-Dragonfolly Bag
+		Tooltip:
+			'''
+			[c/B36650:Tier 32 Bag]
+			Contains [c/B36650:Post-Dragonfolly] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag33: {
+		DisplayName: Post-Providence Bag
+		Tooltip:
+			'''
+			[c/BE906A:Tier 33 Bag]
+			Contains [c/BE906A:Post-Providence] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag34: {
+		DisplayName: Post-Sentinels Of The Devourer Bag
+		Tooltip:
+			'''
+			[c/73C1DD:Tie][c/7F3E72:r 34][c/1D1637: Bag]
+			Contains [c/73C1DD:Post-Senti][c/7F3E72:nels Of T][c/1D1637:he Devourer] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag35: {
+		DisplayName: Post-Polterghast Bag
+		Tooltip:
+			'''
+			[c/454E63:Tier 35 Bag]
+			Contains [c/454E63:Post-Polterghast] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag36: {
+		DisplayName: Post-Old Duke Bag
+		Tooltip:
+			'''
+			[c/715A47:Tier 36 Bag]
+			Contains [c/715A47:Post-Old Duke] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag37: {
+		DisplayName: Post-Devourer Of Gods Bag
+		Tooltip:
+			'''
+			[c/48A4B1:Tier 3][c/BD61B4:7 Bag]
+			Contains [c/48A4B1:Post-Devoure][c/BD61B4:r Of Gods] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag38: {
+		DisplayName: Post-Yharon Bag
+		Tooltip:
+			'''
+			[c/B4832E:Tier 3][c/B74047:8 Bag]
+			Contains [c/B4832E:Post-Y][c/B74047:haron] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			'''
+	}
+
+	Bag39D: {
+		DisplayName: Post-Exo Mechs Bag
+		Tooltip:
+			'''
+			[c/4F5866:Tier 39 Bag]
+			Contains [c/4F5866:Post-Exo Mechs] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			[c/FF8080:Exo Mechs and Supreme Calamitas share the same Tier. If both dead, both bags can drop with a 50 % chance each.]
+			'''
+	}
+
+	Bag39S: {
+		DisplayName: Post-Supreme Calamitas Bag
+		Tooltip:
+			'''
+			[c/E34F4F:Tier 39 Bag]
+			Contains [c/E34F4F:Post-Supreme Calamitas] loot and gear
+			[c/2E64FE:Rightclick to open]
+			[c/9A2EFE:Leftclick to open 10 very quickly]
+			[c/FF8080:Use the /bag command to see information about dependencies]
+			[c/FF8080:Exo Mechs and Supreme Calamitas share the same Tier. If both dead, both bags can drop with a 50 % chance each.]
+			'''
+	}
+
+	Info01_Bags: {
+		DisplayName: Information about Bags
+		Tooltip:
+			'''
+			The items in this shop are informational only and are not supposed to be bought.
+			 
+			-The Bags Mod adds 41 Bags for every single Boss which all have different drops
+			-The Bag that drops depends of the last Boss in the progression of Calamity you killed
+			-The Bags drop from all enemies (no statuespawned ones) with a 5-10 % chance,
+			  depends of how easy it is to farm enemies in the current stage of the game
+			-It also adds Bags for some ammunition types in shops which make buying ammo way less tiring
+			-This Mod was created with the purpose to put the focus a bit more on action, and a bit less on farming and waiting.
+			 
+			(Note: If you use AlchemistNPC or AlchemistNPC Lite, it is recommended to deactivate the Operator,
+			because she kind of breaks the system of how the Bags Mod works.)
+			'''
+	}
+
+	Info02_Command: {
+		DisplayName: The /bag command
+		Tooltip:
+			'''
+			Usage: [c/FF5500:'/bag c'] to see information about the current bag.
+			[c/FF5500:'/bag {Tier}'] (possible Tiers are 0-37) for information about any bag.
+			 
+			This command will show you all you need to know about dependencies of drops from the respective bag.
+			It will also tell you, if the requirements that these drops are dependent on are met or not.
+			 
+			It is recommended to use the command whenever you unlock a new Tier, with other words whenever you defeat a boss.
+			'''
+	}
+
+	Info03_DT: {
+		DisplayName: The drop table document
+		Tooltip:
+			'''
+			If you are interested in any drop tables or details about all the drops,
+			enter the Mod info in the Mod List and click the homepage button.
+			You will be linked to my discord server where you will find the #drop-tables channel,
+			which contains a document that lists every single drop table, dropchances etc.
+			The document is being updated every time the mod itself gets an update.
+			'''
+	}
+
+	Info04_DM: {
+		DisplayName: Information about Difficulty Modes
+		Tooltip:
+			'''
+			The Difficulty Modes don't change all too much.
+			All Expert- or Revengeance-exclusive drops are Expert- or Revengeance-exclusive from bags as well.
+			Death Mode doubles the prices of the Bag Manipulator's potions.
+			'''
+	}
+
+	Info05_Dep: {
+		DisplayName: Information about Dependencies
+		Tooltip:
+			'''
+			There are a ton of dependencies in the drop tables.
+			No items are obtainable from bags if there is no way to obtain them outside of bags
+			due to a certain boss not being defeated yet.
+			Example: Cryonic Ore doesn't drop from the Post-Twins Bag if you skipped Cryogen.
+			 
+			All dependencies are listed when using /bags. For information about how to use /bags
+			read the second informational item in this shop.
+			'''
+	}
+
+	Info06_AC: {
+		DisplayName: Information about Activation Crystals
+		Tooltip:
+			'''
+			There are certain drops, that have to be activated first.
+			There are Activation Crystals for Locked Gold Chest loot, Shadow Chest loot,
+			Abyss Chest loot, Corruption, Crimson and Hallow drops.
+			Craft the Activation Crystals and use them in order for these drops to actually drop.
+			(If the Crystals are activated or not is based on if the PLAYER used it or not, not if 
+			it was used in the current WORLD, so if you have multiple players you will need multiple crystals.
+			 
+			Recipes for the Crystals:
+			Golden: Golden Key, 20 Bones
+			Shadow: Shadow Key
+			Abyss: Shadow Key, 20 Abyss Gravel, 20 Planty Mush
+			Corruption: 50 Ebonstone Blocks, 5 Soul of Night, 5 Rotten Chunk
+			Crimson: 50 Crimstone Blocks, 5 Soul of Night, 5 Vertebrae
+			Hallow: 50 Pearlstone Blocks, 5 Soul of Light, 10 Pixie Dust
+			'''
+	}
+
+	Info07_MiniBags: {
+		DisplayName: Information about Mini Boss and Event Bags
+		Tooltip:
+			'''
+			Mini Boss and Event Bags are smaller variants of bags that
+			drop during respective events and/or from the other bags when the
+			respective Mini Bosses have been defeated before.
+			Droprates of some Mini Boss Bags increase with certain killcounts (-> /bags for more info)
+			 
+			The different variants of Mini Boss and Event Bags are:
+			Giant Clam, Earth Elemental, the 3 Biome Mimics, Martian, Pumpkin Moon, Frost Moon
+			(More coming soon!)
+			'''
+	}
+
+	Info08_LuckPotions: {
+		DisplayName: Information about Luck Potions
+		Tooltip:
+			'''
+			IMPORTANT: Luck Potions are NOT made with the 4 fragments anymore. Those were removed.
+			 
+			You will be able to fish up four different clams. One in forest biomes, one in the Corruption,
+			one in the Crimson and one in the Hallow. Then open the clams and you will have a chance of
+			getting pearls. These are used to craft Luck Potions which increase bag droprates now.
+			'''
+	}
+
+	Info09_Manipulation: {
+		DisplayName: Information about Manipulation
+		Tooltip:
+			'''
+			You can use the shop of the Bag Manipulator to buy Tier Potions.
+			She will be able to sell you potions for all bosses that you killed in the past.
+			These potions will change the type of bag dropped from enemies for a short amount of time
+			to provide access to Bags of lower tiers.
+			'''
+	}
+
+	Info10_AmmoBags: {
+		DisplayName: Information about Ammo Bags
+		Tooltip:
+			'''
+			There are a few ammunition bags that make buying huge ammounts of ammo
+			less tiring.
+			They are to be found in the same shops as the respective ammo type.
+			They have the same price and drop 99/999 items when opened, that's all.
+			'''
+	}
+
+	Info11_Progression: {
+		DisplayName: Recommended Boss-Progression
+		Tooltip:
+			'''
+			With other words: The Progression you have to use to be able to use all Bags of this Mod and to not skip any of them.
+			Pre-Hardmode: 1. King Slime, 2. Desert Scourge, 3. Eye of Cthulhu, 4. Crabulon, 5. Eater of Worlds/Brain of Cthulhu,
+			6. Hive Mind/Perforators, 7. Queen Bee, 8. Deerclops, 9. Skeletron, 10. Slime God, 11. Wall of Flesh
+			 
+			Hardmode: 12. Queen Slime, 13. Cryogen, 14. One Mechanical Boss, 15. Aquatic Scourge, 16. Two Mechanical Bosses, 17. Brimstone Elemental,
+			18. Three Mechanical Bosses, 19. Calamitas, 20. Plantera, 21. Anahita and Leviathan, 22. Astrum Aureus, 23. Golem,
+			24. Plaguebringer Goliath, 25. Empress of Light, 26. Duke Fishron, 27. Ravager, 28. Lunatic Cultist, 29. Astrum Deus, 30. Moon Lord
+			 
+			Post-Moon Lord: 31. Profaned Guardians, 32. Dragonfolly, 33. Providence, 34. Sentinels of the Devourer, 35. Polterghast
+			36. The Old Duke, 37. The Devourer of Gods, 38. Yharon, 39. Exo Mechs and Supreme Calamitas
+			'''
+	}
+
+	ClamCorrupt: {
+		DisplayName: Corrupt Clam
+		Tooltip:
+			'''
+			Caught in Corruption Biomes
+			Can contain a purple pearl
+			<Rightclick to open>
+			'''
+	}
+
+	ClamCrimson: {
+		DisplayName: Crimson Clam
+		Tooltip:
+			'''
+			Caught in Crimson Biomes
+			Can contain a red pearl
+			<Rightclick to open>
+			'''
+	}
+
+	ClamForest: {
+		DisplayName: Hard Clam
+		Tooltip:
+			'''
+			Caught in Forest Biomes
+			Can contain a green pearl
+			<Rightclick to open>
+			'''
+	}
+
+	ClamHallowed: {
+		DisplayName: Hallowed Clam
+		Tooltip:
+			'''
+			Caught in Hallow Biomes
+			Can contain a blue pearl
+			<Rightclick to open>
+			'''
+	}
+
+	PearlBlue: {
+		DisplayName: Blue Pearl
+		Tooltip:
+			'''
+			Obtained from Hallowed Clams
+			Used in Potion of Fortune and Absolute Luck
+			'''
+	}
+
+	PearlGreen: {
+		DisplayName: Green Pearl
+		Tooltip:
+			'''
+			Obtained from Hard Clams
+			Used in Potion of Beginner's and Absolute Luck
+			'''
+	}
+
+	PearlPurple: {
+		DisplayName: Purple Pearl
+		Tooltip:
+			'''
+			Obtained from Corrupt Clams
+			Used in Potion of Wealth, Fortune and Absolute Luck
+			'''
+	}
+
+	PearlRed: {
+		DisplayName: Red Pearl
+		Tooltip:
+			'''
+			Obtained from Crimson Clams
+			Used in Potion of Wealth, Fortune and Absolute Luck
+			'''
+	}
+
+	PotionofAbsoluteLuck: {
+		DisplayName: Potion of Absolute Luck
+		Tooltip:
+			'''
+			Grants Absolute Luck Buff, increasing bag droprates by 100 %
+			Does not stack with Fortune, Wealth and Beginner's Luck.
+			'''
+	}
+
+	PotionofBeginnersLuck: {
+		DisplayName: Potion of Beginner's Luck
+		Tooltip:
+			'''
+			Grants Beginner's Luck Buff, increasing bag droprates by 25 %
+			Does not stack with Absolute Luck, Fortune and Wealth.
+			'''
+	}
+
+	PotionofFortune1: {
+		DisplayName: Potion of Fortune
+		Tooltip:
+			'''
+			Grants Fortune Buff, increasing bag droprates by 75 %
+			Does not stack with Absolute Luck, Wealth and Beginner's Luck.
+			'''
+	}
+
+	PotionofFortune2: {
+		DisplayName: Potion of Fortune
+		Tooltip:
+			'''
+			Grants Fortune Buff, increasing bag droprates by 75 %
+			Does not stack with Absolute Luck, Wealth and Beginner's Luck.
+			'''
+	}
+
+	PotionofWealth1: {
+		DisplayName: Potion of Wealth
+		Tooltip:
+			'''
+			Grants Wealth Buff, increasing bag droprates by 50 %
+			Does not stack with Absolute Luck, Fortune and Beginner's Luck.
+			'''
+	}
+
+	PotionofWealth2: {
+		DisplayName: Potion of Wealth
+		Tooltip:
+			'''
+			Grants Wealth Buff, increasing bag droprates by 50 %
+			Does not stack with Absolute Luck, Fortune and Beginner's Luck.
+			'''
+	}
+
+	Mini_CorruptMimic: {
+		DisplayName: Corrupt Mimic Bag
+		Tooltip:
+			'''
+			Contains Corrupt Mimic Loot
+			Only obtainable if the player used the Corruption Activation Crystal
+			'''
+	}
+
+	Mini_CrimsonMimic: {
+		DisplayName: Crimson Mimic Bag
+		Tooltip:
+			'''
+			Contains Crimson Mimic Loot
+			Only obtainable if the player used the Crimson Activation Crystal
+			'''
+	}
+
+	Mini_EarthElemental: {
+		DisplayName: Earth Elemental Bag
+		Tooltip:
+			'''
+			Contains Earth Elemental Loot
+			Only obtainable if Earth Elemental has been defeated before
+			'''
+	}
+
+	Mini_FrostMoon: {
+		DisplayName: Frost Moon Bag
+		Tooltip:
+			'''
+			Contains Frost Moon Loot
+			Only obtainable if ALL Frost Moon Bosses have been defeated before
+			Can drop from Frost Moon enemies as well
+			'''
+	}
+
+	Mini_Gem: {
+		DisplayName: Gem Bag
+		Tooltip:
+			'''
+			Contains one kind of gem
+			Can drop from all Pre-Hardmode Bags (becoming less common later on)
+			'''
+	}
+
+	Mini_GiantClam: {
+		DisplayName: Giant Clam Bag
+		Tooltip:
+			'''
+			Contains Giant Clam Loot
+			Only obtainable if Giant Clam has been defeated before
+			'''
+	}
+
+	Mini_HallowedMimic: {
+		DisplayName: Hallowed Mimic Bag
+		Tooltip:
+			'''
+			Contains Hallowed Mimic Loot
+			Only obtainable if the player used the Hallowed Activation Crystal
+			'''
+	}
+
+	Mini_HMOre: {
+		DisplayName: Hardmode Ore Bag
+		Tooltip:
+			'''
+			Contains Early-Hardmode Ore
+			Only obtainable if 'Early Hardmode Progression Rework' in the Calamity Config is ON
+			Only drops the ores that currently exist in the world
+			'''
+	}
+
+	Mini_Martian: {
+		DisplayName: Martian Bag
+		Tooltip:
+			'''
+			Contains Martian Madness Loot
+			Only obtainable if Martians have been defeated before
+			Can drop from Martian Madness enemies as well
+			'''
+	}
+
+	Mini_PumpkinMoon: {
+		DisplayName: Pumpkin Moon Bag
+		Tooltip:
+			'''
+			Contains Pumpkin Moon Loot
+			Only obtainable if ALL Pumpkin Moon Bosses have been defeated before
+			Can drop from Pumpkin Moon enemies as well
+			'''
+	}
+
+	PotionTier01: {
+		DisplayName: Tier 1 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-King Slime Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier02: {
+		DisplayName: Tier 2 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Desert Scourge Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier03: {
+		DisplayName: Tier 3 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Eye of Cthulhu Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier04: {
+		DisplayName: Tier 4 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Crabulon Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier05_1: {
+		DisplayName: Tier 5 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Eater of Worlds Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier05_2: {
+		DisplayName: Tier 5 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Brain of Cthulhu Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier06_1: {
+		DisplayName: Tier 6 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Hive Mind Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier06_2: {
+		DisplayName: Tier 6 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Perforators Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier07: {
+		DisplayName: Tier 7 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Queen Bee Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier09: {
+		DisplayName: Tier 9 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Skeletron Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier08: {
+		DisplayName: Tier 8 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Deerclops Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier10: {
+		DisplayName: Tier 10 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Slime God Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier11: {
+		DisplayName: Tier 11 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Wall of Flesh Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier12: {
+		DisplayName: Tier 12 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Queen Slime Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier17: {
+		DisplayName: Tier 17 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Cryogen Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier14: {
+		DisplayName: Tier 14 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-One Mechanical Boss Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier13: {
+		DisplayName: Tier 13 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Aquatic Scourge Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier16: {
+		DisplayName: Tier 16 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Two Mechanical Bosses Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier15: {
+		DisplayName: Tier 15 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Brimstone Elemental Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier18: {
+		DisplayName: Tier 18 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Three Mechanical Bosses Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier19: {
+		DisplayName: Tier 19 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Calamitas Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier20: {
+		DisplayName: Tier 20 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Plantera Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier21: {
+		DisplayName: Tier 21 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Anahita and Leviathan Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier22: {
+		DisplayName: Tier 22 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Astrum Aureus Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier23: {
+		DisplayName: Tier 23 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Golem Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier24: {
+		DisplayName: Tier 24 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Plaguebringer Goliath Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier25: {
+		DisplayName: Tier 25 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Empress of Light Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier26: {
+		DisplayName: Tier 26 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Duke Fishron Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier27: {
+		DisplayName: Tier 27 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Ravager Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier28: {
+		DisplayName: Tier 28 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Lunatic Cultist Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier29: {
+		DisplayName: Tier 29 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Astrum Deus Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier30: {
+		DisplayName: Tier 30 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Moon Lord Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier31: {
+		DisplayName: Tier 31 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Profaned Guardians Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier32: {
+		DisplayName: Tier 32 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Dragonfolly Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier33: {
+		DisplayName: Tier 33 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Providence Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier34: {
+		DisplayName: Tier 34 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Sentinels of the Devourer Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier35: {
+		DisplayName: Tier 35 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Polterghast Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier36: {
+		DisplayName: Tier 36 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Old Duke Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier37: {
+		DisplayName: Tier 37 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Devourer of Gods Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier38: {
+		DisplayName: Tier 38 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Yharon Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier39D: {
+		DisplayName: Tier 39 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Exo Mechs Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+
+	PotionTier39S: {
+		DisplayName: Tier 39 Potion
+		Tooltip:
+			'''
+			Manipulates dropped bags in the world.
+			Post-Supreme Calamitas Bags will drop instead of the current bag for 5 minutes.
+			This only works when the enemies are killed by the player.
+			'''
+	}
+}
+
+NPCs: {
+	BagNPC: {
+		DisplayName: Bag Expert
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeBiome: Wayyyy too cooooold...
+			LikeBiome: I like the nature, the forest is a nice place.
+			HateCrowded: I feel a bit constricted.
+			DislikeCrowded: Ugh... Wish I had a little more space.
+			LoveSpace: Finally alone.
+			FarFromHome: Would you mind reminding me where my house was again?
+			NoHome: You know, nature is cool and all, but I would still really like a house right now.
+			Content: This is nice.
+		}
+
+		Census: {
+			SpawnCondition: Conditions unknown
+		}
+	}
+
+	BagNPC2: {
+		DisplayName: Bag Manipulator
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeBiome: There are so many disgusting creatures in the jungle, please get me out of here.
+			LikeBiome: Don't you think the forest is just a nice place?
+			HateCrowded: Ew... so many people.
+			DislikeCrowded: A few many people in one place, don't you think?
+			LoveSpace: I feel so free around here.
+			FarFromHome: Uhhhh, where is my house?
+			NoHome: Hmm, a house... that would be something.
+			Content: This is nice.
+		}
+
+		Census: {
+			SpawnCondition: Conditions unknown
+		}
+	}
+}
+
+Conditions: {
+	PotionTier39D: Mods.Bags.Conditions.PotionTier39D
+	PotionTier38: Mods.Bags.Conditions.PotionTier38
+	PotionTier37: Mods.Bags.Conditions.PotionTier37
+	PotionTier36: Mods.Bags.Conditions.PotionTier36
+	PotionTier35: Mods.Bags.Conditions.PotionTier35
+	PotionTier34: Mods.Bags.Conditions.PotionTier34
+	PotionTier33: Mods.Bags.Conditions.PotionTier33
+	PotionTier32: Mods.Bags.Conditions.PotionTier32
+	PotionTier31: Mods.Bags.Conditions.PotionTier31
+	PotionTier30: Mods.Bags.Conditions.PotionTier30
+	PotionTier29: Mods.Bags.Conditions.PotionTier29
+	PotionTier28: Mods.Bags.Conditions.PotionTier28
+	PotionTier27: Mods.Bags.Conditions.PotionTier27
+	PotionTier26: Mods.Bags.Conditions.PotionTier26
+	PotionTier25: Mods.Bags.Conditions.PotionTier25
+	PotionTier24: Mods.Bags.Conditions.PotionTier24
+	PotionTier23: Mods.Bags.Conditions.PotionTier23
+	PotionTier22: Mods.Bags.Conditions.PotionTier22
+	PotionTier21: Mods.Bags.Conditions.PotionTier21
+	PotionTier20: Mods.Bags.Conditions.PotionTier20
+	PotionTier19: Mods.Bags.Conditions.PotionTier19
+	PotionTier18: Mods.Bags.Conditions.PotionTier18
+	PotionTier17: Mods.Bags.Conditions.PotionTier17
+	PotionTier16: Mods.Bags.Conditions.PotionTier16
+	PotionTier15: Mods.Bags.Conditions.PotionTier15
+	PotionTier14: Mods.Bags.Conditions.PotionTier14
+	PotionTier13: Mods.Bags.Conditions.PotionTier13
+	PotionTier12: Mods.Bags.Conditions.PotionTier12
+	PotionTier11: Mods.Bags.Conditions.PotionTier11
+	PotionTier10: Mods.Bags.Conditions.PotionTier10
+	PotionTier09: Mods.Bags.Conditions.PotionTier09
+	PotionTier08: Mods.Bags.Conditions.PotionTier08
+	PotionTier07: Mods.Bags.Conditions.PotionTier07
+	PotionTier06_2: Mods.Bags.Conditions.PotionTier06_2
+	PotionTier06_1: Mods.Bags.Conditions.PotionTier06_1
+	PotionTier05_2: Mods.Bags.Conditions.PotionTier05_2
+	PotionTier05_1: Mods.Bags.Conditions.PotionTier05_1
+	PotionTier04: Mods.Bags.Conditions.PotionTier04
+	PotionTier03: Mods.Bags.Conditions.PotionTier03
+	PotionTier02: Mods.Bags.Conditions.PotionTier02
+	PotionTier01: Mods.Bags.Conditions.PotionTier01
+	PotionTier39S: Mods.Bags.Conditions.PotionTier39S
+}
+
+Configs: {
+	ModConfiguration: {
+		keys_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of Golden & Shadow Keys
+			Label: Rarity of Golden & Shadow Keys
+		}
+
+		keys: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping Golden & Shadow Keys
+				Includes 2 items: Shadow Key, Golden Key (only when opened in the Dungeon)
+				'''
+			Label: Golden & Shadow Keys
+		}
+
+		Headers: {
+			Golden&ShadowKeysModification: Golden & Shadow Keys Modification
+			BiomeChestKeysModification: Biome Chest Keys Modification
+			ShrineItemModification: Shrine Item Modification
+			LifeUpgradeModification: Life Upgrade Modification
+			Mounts&ToolsModification: Mounts& Tools Modification
+			MoneyModification: Money Modification
+			AccessoryModification: Accessory Modification
+			WeaponModification: Weapon Modification
+			OresModification: Ores Modification
+			MaterialModification: Material Modification
+			General: General
+		}
+
+		biomechestkeys_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of Biome Chest Keys
+			Label: Rarity of Biome Chest Keys
+		}
+
+		biomechestkeys: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping Biome Chest Keys
+				If you don't mind a small boost of chances of getting biome chest keys for the dungeon, don't deactivate this
+				'''
+			Label: Biome Chest Keys
+		}
+
+		shrineitems_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of Shrine Items
+			Label: Rarity of Shrine Items
+		}
+
+		shrineitems: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping Shrine Items
+				Only includes a few items from shrines which are very rare, won't change much if deactivated
+				'''
+			Label: Shrine Items
+		}
+
+		lifeupgrades_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of Life Upgrades
+			Label: Rarity of Life Upgrades
+		}
+
+		lifeupgrades: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping Life Upgrades
+				Includes 2 items: Life Crystals, Life Fruits
+				'''
+			Label: Life Upgrades
+		}
+
+		mountstools_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of Mounts & Tools
+			Label: Rarity of Mounts & Tools
+		}
+
+		mountstools: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping Mounts & Tools
+				Only includes a few items (e.g. Slimy Saddle, Torrential Tear), won't change much if deactivated
+				'''
+			Label: Mounts & Tools
+		}
+
+		money_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of money
+			Label: Rarity of Money
+		}
+
+		money: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping money
+				If you would prefer to have no money boost at all, deactivate this.
+				'''
+			Label: Money
+		}
+
+		accessories_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of accessories
+			Label: Rarity of Accessories
+		}
+
+		accessories: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping accessories
+				Warning: Removes lots of rare drops from bags if deactivated. Also deactivates Legendary Items if they are accessories as well
+				'''
+			Label: Accessories
+		}
+
+		weapons_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of weapons
+			Label: Rarity of Weapons
+		}
+
+		weapons: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping weapons
+				Warning: Removes most rare drops from bags if deactivated. Also deactivates Legendary Items if they are weapons as well
+				'''
+			Label: Weapons
+		}
+
+		ores_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of ores
+			Label: Rarity of Ores
+		}
+
+		ores: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping ores
+				If you prefer mining 100 % of the ores you get yourself, deactivate this.
+				'''
+			Label: Ores
+		}
+
+		material_droprate: {
+			Tooltip: With this option you can decrease/increase the droprate of material
+			Label: Rarity of Material
+		}
+
+		material: {
+			Tooltip:
+				'''
+				With this option you can deactivate/activate bags dropping material
+				Warning: Materials are the most common drops. Deactivating this will cause many bags to be empty.
+				'''
+			Label: Material
+		}
+
+		info: {
+			Tooltip: This Option prevents the chat from posting an informational message about commands when joining a world in case you know about it anyway
+			Label: Info Message
+		}
+
+		bagnpc: {
+			Tooltip: This Option prevents the Bag Expert Town NPC from spawning if deactivated
+			Label: Bag Expert
+		}
+
+		b0: {
+			Tooltip: This Option activates/deactivates the Pre-Boss Bag dropping before any boss has been killed
+			Label: Pre-Boss Bag
+		}
+
+		dropratechange: {
+			Tooltip: You can lower the Dropchance of Bags here if you think it's too much. E.g. 0,5 means 50 % of the default Dropchance
+			Label: Bag Drop Chance
+		}
+
+		DisplayName: Mod Configuration
+	}
+}
+

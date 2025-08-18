@@ -1,0 +1,290 @@
+Items: {
+	FarmhouseDeed: {
+		Tooltip: 農夫が出現するようになる
+		DisplayName: 権利書 - 農家
+	}
+
+	Pitchfork: {
+		Tooltip: ""
+		DisplayName: 熊手
+	}
+
+	GuardSpear: {
+		Tooltip: ""
+		DisplayName: 衛兵の槍
+	}
+
+	GuardHalberd: {
+		Tooltip: ""
+		DisplayName: 衛兵のハルバード
+	}
+
+	ForesterAxe: {
+		Tooltip: ""
+		DisplayName: 森林官の斧
+	}
+
+	ForestersHutDeed: {
+		DisplayName: 権利書 - 森林官の小屋
+		Tooltip: 森林官が出現するようになる
+	}
+
+	GuardPostOneDeed: {
+		DisplayName: 権利書 - 衛兵詰所（鉛）
+		Tooltip: 衛兵（鉛）が出現するようになる
+	}
+
+	GuardPostTwoDeed: {
+		DisplayName: 権利書 - 衛兵詰所（木）
+		Tooltip: 衛兵（木）が出現するようになる
+	}
+
+	RanchDeed: {
+		DisplayName: 権利書 - 牧場
+		Tooltip: 牧場主が出現するようになる
+	}
+
+	RealtorsDesk: {
+		DisplayName: 不動産屋の机
+		Tooltip: 権利書を作成できる
+	}
+
+	TownhouseDeed: {
+		DisplayName: 権利書 - タウンハウス（1）
+		Tooltip: 村人（男）が出現するようになる
+	}
+
+	TownhouseTwoDeed: {
+		DisplayName: 権利書 - タウンハウス（2）
+		Tooltip: 村人（女）が出現するようになる
+	}
+}
+
+Configs: {
+	GlaciersConfig: {
+		DisplayName: Glacier's NPCs 設定
+
+		Headers: {
+			HeaderSpawn: "[c/2eb6e6:タウンNPCの出現設定]"
+		}
+
+		Farmer: {
+			Label: 農夫
+			Tooltip: 農夫の出現を有効/無効にします。
+		}
+
+		Rancher: {
+			Label: 牧場主
+			Tooltip: 牧場主の出現を有効/無効にします。
+		}
+
+		Forester: {
+			Label: 森林官
+			Tooltip: 森林官の出現を有効/無効にします。
+		}
+
+		VillagerMale: {
+			Label: 村人（男）
+			Tooltip: 村人（男）の出現を有効/無効にします。
+		}
+
+		VillagerFemale: {
+			Label: 村人（女）
+			Tooltip: 村人（女）の出現を有効/無効にします。
+		}
+
+		GuardWood: {
+			Label: 衛兵（木）
+			Tooltip: 衛兵（木）の出現を有効/無効にします。
+		}
+
+		GuardLead: {
+			Label: 衛兵（鉛）
+			Tooltip: 衛兵（鉛）の出現を有効/無効にします。
+		}
+	}
+}
+
+NPCs: {
+	Farmer: {
+		Census: {
+			SpawnCondition: タウンNPCが3人いる
+		}
+
+		DisplayName: 農夫
+
+		TownNPCMood: {
+			LikeBiome: "{BiomeName}が好きです"
+			LoveNPC: "{NPCName}が大好きです"
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+	}
+
+	Forester: {
+		DisplayName: 森林官
+
+		TownNPCMood: {
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	GuardLead: {
+		DisplayName: 衛兵（鉛）
+
+		TownNPCMood: {
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: イーターオブワールドまたはクトゥルフの脳を倒し、タウンNPCが10人いる
+		}
+	}
+
+	GuardWood: {
+		DisplayName: 衛兵（木）
+
+		TownNPCMood: {
+			LoveNPC: "{NPCName}が大好きです"
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒し、タウンNPCが5人いる
+		}
+	}
+
+	Rancher: {
+		DisplayName: 牧場主
+
+		TownNPCMood: {
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが5人いる
+		}
+	}
+
+	VillagerFemale: {
+		DisplayName: 村人（女）
+
+		TownNPCMood: {
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが1人いる
+		}
+	}
+
+	VillagerMale: {
+		DisplayName: 村人（男）
+
+		TownNPCMood: {
+			Content: "満足しています"
+			NoHome: "家がないのは大嫌いです"
+			FarFromHome: "家から遠すぎます"
+			LoveSpace: "広々としていて大好きです"
+			DislikeCrowded: "混み合っていて好きではありません"
+			HateCrowded: "混み合っていて大嫌いです"
+			LoveBiome: "{BiomeName}が大好きです"
+			LikeBiome: "{BiomeName}が好きです"
+			DislikeBiome: "{BiomeName}は好きではありません"
+			LoveNPC: "{NPCName}が大好きです"
+			LikeNPC: "{NPCName}が好きです"
+			DislikeNPC: "{NPCName}は好きではありません"
+			HateNPC: "{NPCName}が大嫌いです"
+			LikeNPC_Princess: "{NPCName}が好きです"
+			Princess_LovesNPC: "{NPCName}が好きです"
+		}
+
+		Census: {
+			SpawnCondition: タウンNPCが1人いる
+		}
+	}
+}
+

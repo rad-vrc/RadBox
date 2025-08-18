@@ -1,0 +1,4487 @@
+{
+	Projectiles: {
+		EeveePetProjectile: {
+			DisplayName: イーブイペットの弾
+		}
+		PikachuPetProjectile: {
+			DisplayName: ピカチュウペットの弾
+		}
+		BulbasaurPetProjectile: {
+			DisplayName: フシギダネペットの弾
+		}
+		CharmanderPetProjectile: {
+			DisplayName: ヒトカゲペットの弾
+		}
+		SquirtlePetProjectile: {
+			DisplayName: ゼニガメペットの弾
+		}
+		IvysaurPetProjectile: {
+			DisplayName: フシギソウペットの弾
+		}
+		CharmeleonPetProjectile: {
+			DisplayName: リザードペットの弾
+		}
+		VenusaurPetProjectile: {
+			DisplayName: フシギバナペットの弾
+		}
+		CharizardPetProjectile: {
+			DisplayName: リザードンペットの弾
+		}
+		ChikoritaPetProjectile: {
+			DisplayName: チコリータペットの弾
+		}
+		CyndaquilPetProjectile: {
+			DisplayName: ヒノアラシペットの弾
+		}
+		TotodilePetProjectile: {
+			DisplayName: ワニノコペットの弾
+		}
+		BulbasaurPetProjectileShiny: {
+			DisplayName: フシギダネペットの弾（色違い）
+		}
+		CharmanderPetProjectileShiny: {
+			DisplayName: ヒトカゲペットの弾（色違い）
+		}
+		VenusaurPetProjectileMega: {
+			DisplayName: フシギバナペットの弾（メガ）
+		}
+		WartortlePetProjectile: {
+			DisplayName: カメールペットの弾
+		}
+		BlastoisePetProjectile: {
+			DisplayName: カメックスペットの弾
+		}
+		BlastoisePetProjectileMega: {
+			DisplayName: カメックスペットの弾（メガ）
+		}
+		CharizardPetProjectileMegaX: {
+			DisplayName: リザードンペットの弾（メガX）
+		}
+		CharizardPetProjectileMegaY: {
+			DisplayName: リザードンペットの弾（メガY）
+		}
+		SquirtlePetProjectileShiny: {
+			DisplayName: ゼニガメペットの弾（色違い）
+		}
+		CharizardPetProjectileShiny: {
+			DisplayName: リザードンペットの弾（色違い）
+		}
+		CharmeleonPetProjectileShiny: {
+			DisplayName: リザードペットの弾（色違い）
+		}
+		IvysaurPetProjectileShiny: {
+			DisplayName: フシギソウペットの弾（色違い）
+		}
+		VenusaurPetProjectileShiny: {
+			DisplayName: フシギバナペットの弾（色違い）
+		}
+		TorchicPetProjectile: {
+			DisplayName: アチャモペットの弾
+		}
+		EeveePetProjectileShiny: {
+			DisplayName: イーブイペットの弾（色違い）
+		}
+		Swift: {
+			DisplayName: スピードスター
+		}
+		VineWhipBack: {
+			DisplayName: つるのムチ
+		}
+		VineWhipFront: {
+			DisplayName: つるのムチ
+		}
+		VineWhip: {
+			DisplayName: つるのムチ
+		}
+		ThunderboltHold: {
+			DisplayName: 10まんボルト
+		}
+		Thunderbolt: {
+			DisplayName: 10まんボルト
+		}
+		PikachuPetProjectileShiny: {
+			DisplayName: ピカチュウペットの弾（色違い）
+		}
+		PokeballProj: {
+			DisplayName: モンスターボールの弾
+		}
+		UltraballProj: {
+			DisplayName: スーパーボールの弾
+		}
+		MasterballProj: {
+			DisplayName: マスターボールの弾
+		}
+		GreatballProj: {
+			DisplayName: ハイパーボールの弾
+		}
+		FeatherballProj: {
+			DisplayName: フェザーボールの弾
+		}
+		DuskballProj: {
+			DisplayName: ダークボールの弾
+		}
+		BeastballProj: {
+			DisplayName: ウルトラボールの弾
+		}
+		WartortlePetProjectileShiny: {
+			DisplayName: カメールペットの弾（色違い）
+		}
+		WingballProj: {
+			DisplayName: ウィングボールの弾
+		}
+		CitrineballProj: {
+			DisplayName: シトリンボールの弾
+		}
+		JetballProj: {
+			DisplayName: ジェットボールの弾
+		}
+		PeridotballProj: {
+			DisplayName: ペリドットボールの弾
+		}
+		VioletballProj: {
+			DisplayName: バイオレットボールの弾
+		}
+		AzureballProj: {
+			DisplayName: アジュールボールの弾
+		}
+		RaichuPetProjectile: {
+			DisplayName: ライチュウペットの弾
+		}
+		RaichuPetProjectileShiny: {
+			DisplayName: ライチュウペットの弾（色違い）
+		}
+		PoisonPowder: {
+			DisplayName: どくのこな
+		}
+		SolarBeamHold: {
+			DisplayName: ソーラービーム
+		}
+		SolarBeam: {
+			DisplayName: ソーラービーム
+		}
+		Ember: {
+			DisplayName: ひのこ
+		}
+		Flamethrower: {
+			DisplayName: かえんほうしゃ
+		}
+		FireBlast: {
+			DisplayName: だいもんじ
+		}
+		Bubble: {
+			DisplayName: あわ
+		}
+		WaterPulse: {
+			DisplayName: みずのはどう
+		}
+		HydroPump: {
+			DisplayName: ハイドロポンプ
+		}
+		BlastoisePetProjectileShiny: {
+			DisplayName: カメックスペットの弾（色違い）
+		}
+		HeavyballProj: {
+			DisplayName: ヘビーボールの弾
+		}
+		GigatonballProj: {
+			DisplayName: ギガトンボールの弾
+		}
+		LeadenballProj: {
+			DisplayName: レーデンボールの弾
+		}
+		FlareonPetProjectile: {
+			DisplayName: ブースターペットの弾
+		}
+		FlareonPetProjectileShiny: {
+			DisplayName: ブースターペットの弾（色違い）
+		}
+		StrangeballProj: {
+			DisplayName: ストレンジボールの弾
+		}
+		CherishballProj: {
+			DisplayName: プレジャスボールの弾
+		}
+		JolteonPetProjectile: {
+			DisplayName: サンダースペットの弾
+		}
+		JolteonPetProjectileShiny: {
+			DisplayName: サンダースペットの弾（色違い）
+		}
+		VaporeonPetProjectile: {
+			DisplayName: シャワーズペットの弾
+		}
+		VaporeonPetProjectileShiny: {
+			DisplayName: シャワーズペットの弾（色違い）
+		}
+		ThunderCloud: {
+			DisplayName: かみなり
+		}
+		AquaRing: {
+			DisplayName: アクアリング
+		}
+		Discharge: {
+			DisplayName: ほうでん
+		}
+		LavaPlume: {
+			DisplayName: ふんえん
+		}
+		PremierballProj: {
+			DisplayName: プレミアボールの弾
+		}
+		RazorLeaf: {
+			DisplayName: はっぱカッター
+		}
+		ChikoritaPetProjectileShiny: {
+			DisplayName: チコリータペットの弾（色違い）
+		}
+		MagicalLeaf: {
+			DisplayName: マジカルリーフ
+		}
+		BayleefPetProjectileShiny: {
+			DisplayName: ベイリーフペットの弾（色違い）
+		}
+		BayleefPetProjectile: {
+			DisplayName: ベイリーフペットの弾
+		}
+		MeganiumPetProjectileShiny: {
+			DisplayName: メガニウムペットの弾（色違い）
+		}
+		MeganiumPetProjectile: {
+			DisplayName: メガニウムペットの弾
+		}
+		GigaDrain: {
+			DisplayName: ギガドレイン
+		}
+		CyndaquilPetProjectileShiny: {
+			DisplayName: ヒノアラシペットの弾（色違い）
+		}
+		CaterpiePetProjectile: {
+			DisplayName: キャタピーペットの弾
+		}
+		CaterpiePetProjectileShiny: {
+			DisplayName: キャタピーペットの弾（色違い）
+		}
+		DespawnPokemon: {
+			DisplayName: ポケモンのデスポーン
+		}
+		MetapodPetProjectile: {
+			DisplayName: トランセルペットの弾
+		}
+		MetapodPetProjectileShiny: {
+			DisplayName: トランセルペットの弾（色違い）
+		}
+		KakunaPetProjectile: {
+			DisplayName: コクーンペットの弾
+		}
+		KakunaPetProjectileShiny: {
+			DisplayName: コクーンペットの弾（色違い）
+		}
+		WeedlePetProjectile: {
+			DisplayName: ビードルペットの弾
+		}
+		WeedlePetProjectileShiny: {
+			DisplayName: ビードルペットの弾（色違い）
+		}
+		ButterfreePetProjectile: {
+			DisplayName: バタフリーペットの弾
+		}
+		ButterfreePetProjectileShiny: {
+			DisplayName: バタフリーペットの弾（色違い）
+		}
+		BeedrillPetProjectile: {
+			DisplayName: スピアーペットの弾
+		}
+		BeedrillPetProjectileShiny: {
+			DisplayName: スピアーペットの弾（色違い）
+		}
+		GastlyPetProjectile: {
+			DisplayName: ゴースペットの弾
+		}
+		GastlyPetProjectileShiny: {
+			DisplayName: ゴースペットの弾（色違い）
+		}
+		VoltorbPetProjectile: {
+			DisplayName: ビリリダマペットの弾
+		}
+		VoltorbPetProjectileShiny: {
+			DisplayName: ビリリダマペットの弾（色違い）
+		}
+		ElectrodePetProjectile: {
+			DisplayName: マルマインペットの弾
+		}
+		ElectrodePetProjectileShiny: {
+			DisplayName: マルマインペットの弾（色違い）
+		}
+		MagnemitePetProjectile: {
+			DisplayName: コイルペットの弾
+		}
+		MagnemitePetProjectileShiny: {
+			DisplayName: コイルペットの弾（色違い）
+		}
+		MagnetonPetProjectile: {
+			DisplayName: レアコイルペットの弾
+		}
+		MagnetonPetProjectileShiny: {
+			DisplayName: レアコイルペットの弾（色違い）
+		}
+		HaunterPetProjectile: {
+			DisplayName: ゴーストペットの弾
+		}
+		HaunterPetProjectileShiny: {
+			DisplayName: ゴーストペットの弾（色違い）
+		}
+		StringShot: {
+			DisplayName: いとをはく
+		}
+		PoisonSting: {
+			DisplayName: どくばり
+		}
+		Confusion: {
+			DisplayName: ねんりき
+		}
+		PinMissile: {
+			DisplayName: ミサイルばり
+		}
+		ThunderWave: {
+			DisplayName: でんじは
+		}
+		Thunder: {
+			DisplayName: かみなり
+		}
+		FlashCannon: {
+			DisplayName: ラスターカノン
+		}
+		ConfuseRay: {
+			DisplayName: あやしいひかり
+		}
+		Hex: {
+			DisplayName: たたりめ
+		}
+		SelfDestruct: {
+			DisplayName: じばく
+		}
+		Explosion: {
+			DisplayName: だいばくはつ
+		}
+		Harden: {
+			DisplayName: かたくなる
+		}
+		QuilavaPetProjectile: {
+			DisplayName: マグマラシペットの弾
+		}
+		QuilavaPetProjectileShiny: {
+			DisplayName: マグマラシペットの弾（色違い）
+		}
+		TyphlosionPetProjectile: {
+			DisplayName: バクフーンペットの弾
+		}
+		TyphlosionPetProjectileShiny: {
+			DisplayName: バクフーンペットの弾（色違い）
+		}
+		TotodilePetProjectileShiny: {
+			DisplayName: ワニノコペットの弾（色違い）
+		}
+		CroconawPetProjectile: {
+			DisplayName: アリゲイツペットの弾
+		}
+		CroconawPetProjectileShiny: {
+			DisplayName: アリゲイツペットの弾（色違い）
+		}
+		FeraligatrPetProjectile: {
+			DisplayName: オーダイルペットの弾
+		}
+		FeraligatrPetProjectileShiny: {
+			DisplayName: オーダイルペットの弾（色違い）
+		}
+		Smokescreen: {
+			DisplayName: えんまく
+		}
+		FlameWheel: {
+			DisplayName: かえんぐるま
+		}
+		OverHeat: {
+			DisplayName: オーバーヒート
+		}
+		WaterGun: {
+			DisplayName: みずでっぽう
+		}
+		IceFang: {
+			DisplayName: こおりのキバ
+		}
+		Waterfall: {
+			DisplayName: たきのぼり
+		}
+		PidgeotPetProjectile: {
+			DisplayName: ピジョットペットの弾
+		}
+		PidgeotPetProjectileShiny: {
+			DisplayName: ピジョットペットの弾（色違い）
+		}
+		PidgeottoPetProjectile: {
+			DisplayName: ピジョンペットの弾
+		}
+		PidgeottoPetProjectileShiny: {
+			DisplayName: ピジョンペットの弾（色違い）
+		}
+		PidgeyPetProjectile: {
+			DisplayName: ポッポペットの弾
+		}
+		PidgeyPetProjectileShiny: {
+			DisplayName: ポッポペットの弾（色違い）
+		}
+		RattataPetProjectile: {
+			DisplayName: コラッタペットの弾
+		}
+		RattataPetProjectileShiny: {
+			DisplayName: コラッタペットの弾（色違い）
+		}
+		ZeraoraPetProjectile: {
+			DisplayName: ゼラオラペットの弾
+		}
+		ZeraoraPetProjectileShiny: {
+			DisplayName: ゼラオラペットの弾（色違い）
+		}
+		ChanseyPetProjectile: {
+			DisplayName: ラッキーペットの弾
+		}
+		ChanseyPetProjectileShiny: {
+			DisplayName: ラッキーペットの弾（色違い）
+		}
+		NidoranMPetProjectile: {
+			DisplayName: ニドラン♂ペットの弾
+		}
+		NidoranMPetProjectileShiny: {
+			DisplayName: ニドラン♂ペットの弾（色違い）
+		}
+		NidorinoPetProjectile: {
+			DisplayName: ニドリーノペットの弾
+		}
+		NidorinoPetProjectileShiny: {
+			DisplayName: ニドリーノペットの弾（色違い）
+		}
+		RaticatePetProjectile: {
+			DisplayName: ラッタペットの弾
+		}
+		RaticatePetProjectileShiny: {
+			DisplayName: ラッタペットの弾（色違い）
+		}
+		FearowPetProjectile: {
+			DisplayName: オニドリルペットの弾
+		}
+		FearowPetProjectileShiny: {
+			DisplayName: オニドリルペットの弾（色違い）
+		}
+		SpearowPetProjectile: {
+			DisplayName: オニスズメペットの弾
+		}
+		SpearowPetProjectileShiny: {
+			DisplayName: オニスズメペットの弾（色違い）
+		}
+		ArbokPetProjectile: {
+			DisplayName: アーボックペットの弾
+		}
+		ArbokPetProjectileShiny: {
+			DisplayName: アーボックペットの弾（色違い）
+		}
+		EkansPetProjectile: {
+			DisplayName: アーボペットの弾
+		}
+		EkansPetProjectileShiny: {
+			DisplayName: アーボペットの弾（色違い）
+		}
+		SandshrewPetProjectile: {
+			DisplayName: サンドペットの弾
+		}
+		SandshrewPetProjectileShiny: {
+			DisplayName: サンドペットの弾（色違い）
+		}
+		SandslashPetProjectile: {
+			DisplayName: サンドパンペットの弾
+		}
+		SandslashPetProjectileShiny: {
+			DisplayName: サンドパンペットの弾（色違い）
+		}
+		ClefablePetProjectile: {
+			DisplayName: ピクシーペットの弾
+		}
+		ClefablePetProjectileShiny: {
+			DisplayName: ピクシーペットの弾（色違い）
+		}
+		ClefairyPetProjectile: {
+			DisplayName: ピッピペットの弾
+		}
+		ClefairyPetProjectileShiny: {
+			DisplayName: ピッピペットの弾（色違い）
+		}
+		AbraPetProjectile: {
+			DisplayName: ケーシィペットの弾
+		}
+		AbraPetProjectileShiny: {
+			DisplayName: ケーシィペットの弾（色違い）
+		}
+		AerodactylPetProjectile: {
+			DisplayName: プテラペットの弾
+		}
+		AerodactylPetProjectileShiny: {
+			DisplayName: プテラペットの弾（色違い）
+		}
+		AlakazamPetProjectile: {
+			DisplayName: フーディンペットの弾
+		}
+		AlakazamPetProjectileShiny: {
+			DisplayName: フーディンペットの弾（色違い）
+		}
+		ArcaninePetProjectile: {
+			DisplayName: ウインディペットの弾
+		}
+		ArcaninePetProjectileShiny: {
+			DisplayName: ウインディペットの弾（色違い）
+		}
+		ArticunoPetProjectile: {
+			DisplayName: フリーザーペットの弾
+		}
+		ArticunoPetProjectileShiny: {
+			DisplayName: フリーザーペットの弾（色違い）
+		}
+		BellsproutPetProjectile: {
+			DisplayName: マダツボミペットの弾
+		}
+		BellsproutPetProjectileShiny: {
+			DisplayName: マダツボミペットの弾（色違い）
+		}
+		CloysterPetProjectile: {
+			DisplayName: パルシェンペットの弾
+		}
+		CloysterPetProjectileShiny: {
+			DisplayName: パルシェンペットの弾（色違い）
+		}
+		CubonePetProjectile: {
+			DisplayName: カラカラペットの弾
+		}
+		CubonePetProjectileShiny: {
+			DisplayName: カラカラペットの弾（色違い）
+		}
+		DewgongPetProjectile: {
+			DisplayName: ジュゴンペットの弾
+		}
+		DewgongPetProjectileShiny: {
+			DisplayName: ジュゴンペットの弾（色違い）
+		}
+		DiglettPetProjectile: {
+			DisplayName: ディグダペットの弾
+		}
+		DiglettPetProjectileShiny: {
+			DisplayName: ディグダペットの弾（色違い）
+		}
+		Dig: {
+			DisplayName: あなをほる
+		}
+		DittoPetProjectile: {
+			DisplayName: メタモンペットの弾
+		}
+		DittoPetProjectileShiny: {
+			DisplayName: メタモンペットの弾（色違い）
+		}
+		DodrioPetProjectile: {
+			DisplayName: ドードリオペットの弾
+		}
+		DodrioPetProjectileShiny: {
+			DisplayName: ドードリオペットの弾（色違い）
+		}
+		DoduoPetProjectile: {
+			DisplayName: ドードーペットの弾
+		}
+		DoduoPetProjectileShiny: {
+			DisplayName: ドードーペットの弾（色違い）
+		}
+		DragonairPetProjectile: {
+			DisplayName: ハクリューペットの弾
+		}
+		DragonairPetProjectileShiny: {
+			DisplayName: ハクリューペットの弾（色違い）
+		}
+		DragonitePetProjectile: {
+			DisplayName: カイリューペットの弾
+		}
+		DragonitePetProjectileShiny: {
+			DisplayName: カイリューペットの弾（色違い）
+		}
+		DratiniPetProjectile: {
+			DisplayName: ミニリュウペットの弾
+		}
+		DratiniPetProjectileShiny: {
+			DisplayName: ミニリュウペットの弾（色違い）
+		}
+		DrowzeePetProjectile: {
+			DisplayName: スリープペットの弾
+		}
+		DrowzeePetProjectileShiny: {
+			DisplayName: スリープペットの弾（色違い）
+		}
+		DugtrioPetProjectile: {
+			DisplayName: ダグトリオペットの弾
+		}
+		DugtrioPetProjectileShiny: {
+			DisplayName: ダグトリオペットの弾（色違い）
+		}
+		ElectabuzzPetProjectile: {
+			DisplayName: エレブーペットの弾
+		}
+		ElectabuzzPetProjectileShiny: {
+			DisplayName: エレブーペットの弾（色違い）
+		}
+		ExeggcutePetProjectile: {
+			DisplayName: タマタマペットの弾
+		}
+		ExeggcutePetProjectileShiny: {
+			DisplayName: タマタマペットの弾（色違い）
+		}
+		ExeggutorPetProjectile: {
+			DisplayName: ナッシーペットの弾
+		}
+		ExeggutorPetProjectileShiny: {
+			DisplayName: ナッシーペットの弾（色違い）
+		}
+		FarfetchdPetProjectile: {
+			DisplayName: カモネギペットの弾
+		}
+		FarfetchdPetProjectileShiny: {
+			DisplayName: カモネギペットの弾（色違い）
+		}
+		GengarPetProjectile: {
+			DisplayName: ゲンガーペットの弾
+		}
+		GengarPetProjectileShiny: {
+			DisplayName: ゲンガーペットの弾（色違い）
+		}
+		GeodudePetProjectile: {
+			DisplayName: イシツブテペットの弾
+		}
+		GeodudePetProjectileShiny: {
+			DisplayName: イシツブテペットの弾（色違い）
+		}
+		GloomPetProjectile: {
+			DisplayName: クサイハナペットの弾
+		}
+		GloomPetProjectileShiny: {
+			DisplayName: クサイハナペットの弾（色違い）
+		}
+		GolbatPetProjectile: {
+			DisplayName: ゴルバットペットの弾
+		}
+		GolbatPetProjectileShiny: {
+			DisplayName: ゴルバットペットの弾（色違い）
+		}
+		GoldeenPetProjectile: {
+			DisplayName: トサキントペットの弾
+		}
+		GoldeenPetProjectileShiny: {
+			DisplayName: トサキントペットの弾（色違い）
+		}
+		GolduckPetProjectile: {
+			DisplayName: ゴルダックペットの弾
+		}
+		GolduckPetProjectileShiny: {
+			DisplayName: ゴルダックペットの弾（色違い）
+		}
+		GolemPetProjectile: {
+			DisplayName: ゴローニャペットの弾
+		}
+		GolemPetProjectileShiny: {
+			DisplayName: ゴローニャペットの弾（色違い）
+		}
+		GravelerPetProjectile: {
+			DisplayName: ゴローンペットの弾
+		}
+		GravelerPetProjectileShiny: {
+			DisplayName: ゴローンペットの弾（色違い）
+		}
+		GrimerPetProjectile: {
+			DisplayName: ベトベターペットの弾
+		}
+		GrimerPetProjectileShiny: {
+			DisplayName: ベトベターペットの弾（色違い）
+		}
+		GrowlithePetProjectile: {
+			DisplayName: ガーディペットの弾
+		}
+		GrowlithePetProjectileShiny: {
+			DisplayName: ガーディペットの弾（色違い）
+		}
+		GyaradosPetProjectile: {
+			DisplayName: ギャラドスペットの弾
+		}
+		GyaradosPetProjectileShiny: {
+			DisplayName: ギャラドスペットの弾（色違い）
+		}
+		HitmonchanPetProjectile: {
+			DisplayName: エビワラーペットの弾
+		}
+		HitmonchanPetProjectileShiny: {
+			DisplayName: エビワラーペットの弾（色違い）
+		}
+		HitmonleePetProjectile: {
+			DisplayName: サワムラーペットの弾
+		}
+		HitmonleePetProjectileShiny: {
+			DisplayName: サワムラーペットの弾（色違い）
+		}
+		HorseaPetProjectile: {
+			DisplayName: タッツーペットの弾
+		}
+		HorseaPetProjectileShiny: {
+			DisplayName: タッツーペットの弾（色違い）
+		}
+		HypnoPetProjectile: {
+			DisplayName: スリーパーペットの弾
+		}
+		HypnoPetProjectileShiny: {
+			DisplayName: スリーパーペットの弾（色違い）
+		}
+		JigglypuffPetProjectile: {
+			DisplayName: プリンペットの弾
+		}
+		JigglypuffPetProjectileShiny: {
+			DisplayName: プリンペットの弾（色違い）
+		}
+		JynxPetProjectile: {
+			DisplayName: ルージュラペットの弾
+		}
+		JynxPetProjectileShiny: {
+			DisplayName: ルージュラペットの弾（色違い）
+		}
+		KabutoPetProjectile: {
+			DisplayName: カブトペットの弾
+		}
+		KabutoPetProjectileShiny: {
+			DisplayName: カブトペットの弾（色違い）
+		}
+		KabutopsPetProjectile: {
+			DisplayName: カブトプスペットの弾
+		}
+		KabutopsPetProjectileShiny: {
+			DisplayName: カブトプスペットの弾（色違い）
+		}
+		KadabraPetProjectile: {
+			DisplayName: ユンゲラーペットの弾
+		}
+		KadabraPetProjectileShiny: {
+			DisplayName: ユンゲラーペットの弾（色違い）
+		}
+		KangaskhanPetProjectile: {
+			DisplayName: ガルーラペットの弾
+		}
+		KangaskhanPetProjectileShiny: {
+			DisplayName: ガルーラペットの弾（色違い）
+		}
+		KinglerPetProjectile: {
+			DisplayName: キングラーペットの弾
+		}
+		KinglerPetProjectileShiny: {
+			DisplayName: キングラーペットの弾（色違い）
+		}
+		KoffingPetProjectile: {
+			DisplayName: ドガースペットの弾
+		}
+		KoffingPetProjectileShiny: {
+			DisplayName: ドガースペットの弾（色違い）
+		}
+		KrabbyPetProjectile: {
+			DisplayName: クラブペットの弾
+		}
+		KrabbyPetProjectileShiny: {
+			DisplayName: クラブペットの弾（色違い）
+		}
+		LaprasPetProjectile: {
+			DisplayName: ラプラスペットの弾
+		}
+		LaprasPetProjectileShiny: {
+			DisplayName: ラプラスペットの弾（色違い）
+		}
+		LickitungPetProjectile: {
+			DisplayName: ベロリンガペットの弾
+		}
+		LickitungPetProjectileShiny: {
+			DisplayName: ベロリンガペットの弾（色違い）
+		}
+		MachampPetProjectile: {
+			DisplayName: カイリキーペットの弾
+		}
+		MachampPetProjectileShiny: {
+			DisplayName: カイリキーペットの弾（色違い）
+		}
+		MachokePetProjectile: {
+			DisplayName: ゴーリキーペットの弾
+		}
+		MachokePetProjectileShiny: {
+			DisplayName: ゴーリキーペットの弾（色違い）
+		}
+		MachopPetProjectile: {
+			DisplayName: ワンリキーペットの弾
+		}
+		MachopPetProjectileShiny: {
+			DisplayName: ワンリキーペットの弾（色違い）
+		}
+		MagikarpPetProjectile: {
+			DisplayName: コイキングペットの弾
+		}
+		MagikarpPetProjectileShiny: {
+			DisplayName: コイキングペットの弾（色違い）
+		}
+		MagmarPetProjectile: {
+			DisplayName: ブーバーペットの弾
+		}
+		MagmarPetProjectileShiny: {
+			DisplayName: ブーバーペットの弾（色違い）
+		}
+		MankeyPetProjectile: {
+			DisplayName: マンキーペットの弾
+		}
+		MankeyPetProjectileShiny: {
+			DisplayName: マンキーペットの弾（色違い）
+		}
+		MarowakPetProjectile: {
+			DisplayName: ガラガラペットの弾
+		}
+		MarowakPetProjectileShiny: {
+			DisplayName: ガラガラペットの弾（色違い）
+		}
+		MeowthPetProjectile: {
+			DisplayName: ニャースペットの弾
+		}
+		MeowthPetProjectileShiny: {
+			DisplayName: ニャースペットの弾（色違い）
+		}
+		MewPetProjectile: {
+			DisplayName: ミュウペットの弾
+		}
+		MewPetProjectileShiny: {
+			DisplayName: ミュウペットの弾（色違い）
+		}
+		MewtwoPetProjectile: {
+			DisplayName: ミュウツーペットの弾
+		}
+		MewtwoPetProjectileShiny: {
+			DisplayName: ミュウツーペットの弾（色違い）
+		}
+		MoltresPetProjectile: {
+			DisplayName: ファイヤーペットの弾
+		}
+		MoltresPetProjectileShiny: {
+			DisplayName: ファイヤーペットの弾（色違い）
+		}
+		MrMimePetProjectile: {
+			DisplayName: バリヤードペットの弾
+		}
+		MrMimePetProjectileShiny: {
+			DisplayName: バリヤードペットの弾（色違い）
+		}
+		MukPetProjectile: {
+			DisplayName: ベトベトンペットの弾
+		}
+		MukPetProjectileShiny: {
+			DisplayName: ベトベトンペットの弾（色違い）
+		}
+		NinetalesPetProjectile: {
+			DisplayName: キュウコンペットの弾
+		}
+		NinetalesPetProjectileShiny: {
+			DisplayName: キュウコンペットの弾（色違い）
+		}
+		OddishPetProjectile: {
+			DisplayName: ナゾノクサペットの弾
+		}
+		OddishPetProjectileShiny: {
+			DisplayName: ナゾノクサペットの弾（色違い）
+		}
+		OmanytePetProjectile: {
+			DisplayName: オムナイトペットの弾
+		}
+		OmanytePetProjectileShiny: {
+			DisplayName: オムナイトペットの弾（色違い）
+		}
+		OmastarPetProjectile: {
+			DisplayName: オムスターペットの弾
+		}
+		OmastarPetProjectileShiny: {
+			DisplayName: オムスターペットの弾（色違い）
+		}
+		OnixPetProjectile: {
+			DisplayName: イワークペットの弾
+		}
+		OnixPetProjectileShiny: {
+			DisplayName: イワークペットの弾（色違い）
+		}
+		ParasectPetProjectile: {
+			DisplayName: パラセクトペットの弾
+		}
+		ParasectPetProjectileShiny: {
+			DisplayName: パラセクトペットの弾（色違い）
+		}
+		ParasPetProjectile: {
+			DisplayName: パラスペットの弾
+		}
+		ParasPetProjectileShiny: {
+			DisplayName: パラスペットの弾（色違い）
+		}
+		PersianPetProjectile: {
+			DisplayName: ペルシアンペットの弾
+		}
+		PersianPetProjectileShiny: {
+			DisplayName: ペルシアンペットの弾（色違い）
+		}
+		PinsirPetProjectile: {
+			DisplayName: カイロスペットの弾
+		}
+		PinsirPetProjectileShiny: {
+			DisplayName: カイロスペットの弾（色違い）
+		}
+		PoliwagPetProjectile: {
+			DisplayName: ニョロモペットの弾
+		}
+		PoliwagPetProjectileShiny: {
+			DisplayName: ニョロモペットの弾（色違い）
+		}
+		PoliwhirlPetProjectile: {
+			DisplayName: ニョロゾペットの弾
+		}
+		PoliwhirlPetProjectileShiny: {
+			DisplayName: ニョロゾペットの弾（色違い）
+		}
+		PoliwrathPetProjectile: {
+			DisplayName: ニョロボンペットの弾
+		}
+		PoliwrathPetProjectileShiny: {
+			DisplayName: ニョロボンペットの弾（色違い）
+		}
+		PonytaPetProjectile: {
+			DisplayName: ポニータペットの弾
+		}
+		PonytaPetProjectileShiny: {
+			DisplayName: ポニータペットの弾（色違い）
+		}
+		PorygonPetProjectile: {
+			DisplayName: ポリゴンペットの弾
+		}
+		PorygonPetProjectileShiny: {
+			DisplayName: ポリゴンペットの弾（色違い）
+		}
+		PrimeapePetProjectile: {
+			DisplayName: オコリザルペットの弾
+		}
+		PrimeapePetProjectileShiny: {
+			DisplayName: オコリザルペットの弾（色違い）
+		}
+		PsyduckPetProjectile: {
+			DisplayName: コダックペットの弾
+		}
+		PsyduckPetProjectileShiny: {
+			DisplayName: コダックペットの弾（色違い）
+		}
+		RapidashPetProjectile: {
+			DisplayName: ギャロップペットの弾
+		}
+		RapidashPetProjectileShiny: {
+			DisplayName: ギャロップペットの弾（色違い）
+		}
+		RhydonPetProjectile: {
+			DisplayName: サイドンペットの弾
+		}
+		RhydonPetProjectileShiny: {
+			DisplayName: サイドンペットの弾（色違い）
+		}
+		RhyhornPetProjectile: {
+			DisplayName: サイホーンペットの弾
+		}
+		RhyhornPetProjectileShiny: {
+			DisplayName: サイホーンペットの弾（色違い）
+		}
+		ScytherPetProjectile: {
+			DisplayName: ストライクペットの弾
+		}
+		ScytherPetProjectileShiny: {
+			DisplayName: ストライクペットの弾（色違い）
+		}
+		SeadraPetProjectile: {
+			DisplayName: シードラペットの弾
+		}
+		SeadraPetProjectileShiny: {
+			DisplayName: シードラペットの弾（色違い）
+		}
+		SeakingPetProjectile: {
+			DisplayName: アズマオウペットの弾
+		}
+		SeakingPetProjectileShiny: {
+			DisplayName: アズマオウペットの弾（色違い）
+		}
+		SeelPetProjectile: {
+			DisplayName: パウワウペットの弾
+		}
+		SeelPetProjectileShiny: {
+			DisplayName: パウワウペットの弾（色違い）
+		}
+		ShellderPetProjectile: {
+			DisplayName: シェルダーペットの弾
+		}
+		ShellderPetProjectileShiny: {
+			DisplayName: シェルダーペットの弾（色違い）
+		}
+		SlowbroPetProjectile: {
+			DisplayName: ヤドランペットの弾
+		}
+		SlowbroPetProjectileShiny: {
+			DisplayName: ヤドランペットの弾（色違い）
+		}
+		SlowpokePetProjectile: {
+			DisplayName: ヤドンペットの弾
+		}
+		SlowpokePetProjectileShiny: {
+			DisplayName: ヤドンペットの弾（色違い）
+		}
+		SnorlaxPetProjectile: {
+			DisplayName: カビゴンペットの弾
+		}
+		SnorlaxPetProjectileShiny: {
+			DisplayName: カビゴンペットの弾（色違い）
+		}
+		StarmiePetProjectile: {
+			DisplayName: スターミーペットの弾
+		}
+		StarmiePetProjectileShiny: {
+			DisplayName: スターミーペットの弾（色違い）
+		}
+		StaryuPetProjectile: {
+			DisplayName: ヒトデマンペットの弾
+		}
+		StaryuPetProjectileShiny: {
+			DisplayName: ヒトデマンペットの弾（色違い）
+		}
+		TangelaPetProjectile: {
+			DisplayName: モンジャラペットの弾
+		}
+		TangelaPetProjectileShiny: {
+			DisplayName: モンジャラペットの弾（色違い）
+		}
+		TaurosPetProjectile: {
+			DisplayName: ケンタロスペットの弾
+		}
+		TaurosPetProjectileShiny: {
+			DisplayName: ケンタロスペットの弾（色違い）
+		}
+		TentacoolPetProjectile: {
+			DisplayName: メノクラゲペットの弾
+		}
+		TentacoolPetProjectileShiny: {
+			DisplayName: メノクラゲペットの弾（色違い）
+		}
+		TentacruelPetProjectile: {
+			DisplayName: ドククラゲペットの弾
+		}
+		TentacruelPetProjectileShiny: {
+			DisplayName: ドククラゲペットの弾（色違い）
+		}
+		VenomothPetProjectile: {
+			DisplayName: モルフォンペットの弾
+		}
+		VenomothPetProjectileShiny: {
+			DisplayName: モルフォンペットの弾（色違い）
+		}
+		VenonatPetProjectile: {
+			DisplayName: コンパンペットの弾
+		}
+		VenonatPetProjectileShiny: {
+			DisplayName: コンパンペットの弾（色違い）
+		}
+		VictreebelPetProjectile: {
+			DisplayName: ウツボットペットの弾
+		}
+		VictreebelPetProjectileShiny: {
+			DisplayName: ウツボットペットの弾（色違い）
+		}
+		VileplumePetProjectile: {
+			DisplayName: ラフレシアペットの弾
+		}
+		VileplumePetProjectileShiny: {
+			DisplayName: ラフレシアペットの弾（色違い）
+		}
+		VulpixPetProjectile: {
+			DisplayName: ロコンペットの弾
+		}
+		VulpixPetProjectileShiny: {
+			DisplayName: ロコンペットの弾（色違い）
+		}
+		WeepinbellPetProjectile: {
+			DisplayName: ウツドンペットの弾
+		}
+		WeepinbellPetProjectileShiny: {
+			DisplayName: ウツドンペットの弾（色違い）
+		}
+		WeezingPetProjectile: {
+			DisplayName: マタドガスペットの弾
+		}
+		WeezingPetProjectileShiny: {
+			DisplayName: マタドガスペットの弾（色違い）
+		}
+		WigglytuffPetProjectile: {
+			DisplayName: プクリンペットの弾
+		}
+		WigglytuffPetProjectileShiny: {
+			DisplayName: プクリンペットの弾（色違い）
+		}
+		ZapdosPetProjectile: {
+			DisplayName: サンダーペットの弾
+		}
+		ZapdosPetProjectileShiny: {
+			DisplayName: サンダーペットの弾（色違い）
+		}
+		ZubatPetProjectile: {
+			DisplayName: ズバットペットの弾
+		}
+		ZubatPetProjectileShiny: {
+			DisplayName: ズバットペットの弾（色違い）
+		}
+		Gust: {
+			DisplayName: かぜおこし
+		}
+		QuickAttack: {
+			DisplayName: でんこうせっか
+		}
+		WingAttack: {
+			DisplayName: つばさでうつ
+		}
+		AirSlash: {
+			DisplayName: エアスラッシュ
+		}
+		HyperFang: {
+			DisplayName: ひっさつまえば
+		}
+		Toxic: {
+			DisplayName: どくどく
+		}
+		DoubleKick: {
+			DisplayName: にどげり
+		}
+		HealPulse: {
+			DisplayName: いやしのはどう
+		}
+		CharizardMegaXPetProjectile: {
+			DisplayName: リザードンメガXペットの弾
+		}
+		CharizardMegaXPetProjectileShiny: {
+			DisplayName: リザードンメガXペットの弾（色違い）
+		}
+		GengarMegaPetProjectile: {
+			DisplayName: ゲンガーメガペットの弾
+		}
+		GengarMegaPetProjectileShiny: {
+			DisplayName: ゲンガーメガペットの弾（色違い）
+		}
+		JoltikPetProjectile: {
+			DisplayName: バチュルペットの弾
+		}
+		JoltikPetProjectileShiny: {
+			DisplayName: バチュルペットの弾（色違い）
+		}
+		GalvantulaPetProjectile: {
+			DisplayName: デンチュラペットの弾
+		}
+		GalvantulaPetProjectileShiny: {
+			DisplayName: デンチュラペットの弾（色違い）
+		}
+		NidokingPetProjectile: {
+			DisplayName: ニドキングペットの弾
+		}
+		NidokingPetProjectileShiny: {
+			DisplayName: ニドキングペットの弾（色違い）
+		}
+		NidoqueenPetProjectile: {
+			DisplayName: ニドクインペットの弾
+		}
+		NidoqueenPetProjectileShiny: {
+			DisplayName: ニドクインペットの弾（色違い）
+		}
+		NidoranFPetProjectile: {
+			DisplayName: ニドラン♀ペットの弾
+		}
+		NidoranFPetProjectileShiny: {
+			DisplayName: ニドラン♀ペットの弾（色違い）
+		}
+		NidorinaPetProjectile: {
+			DisplayName: ニドリーナペットの弾
+		}
+		NidorinaPetProjectileShiny: {
+			DisplayName: ニドリーナペットの弾（色違い）
+		}
+		FastballProj: {
+			DisplayName: スピードボールの弾
+		}
+		FriendballProj: {
+			DisplayName: フレンドボールの弾
+		}
+		SafariballProj: {
+			DisplayName: サファリボールの弾
+		}
+		LevelballProj: {
+			DisplayName: レベルボールの弾
+		}
+		MoonballProj: {
+			DisplayName: ムーンボールの弾
+		}
+		NestballProj: {
+			DisplayName: ネストボールの弾
+		}
+		ShimmerballProj: {
+			DisplayName: シマーボールの弾
+		}
+		GalaxyballProj: {
+			DisplayName: ギャラクシーボールの弾
+		}
+		HealballProj: {
+			DisplayName: ヒールボールの弾
+		}
+		VineWhip_Front: {
+			DisplayName: つるのムチ（前）
+		}
+		Overheat: {
+			DisplayName: オーバーヒート
+		}
+		BlastoiseMegaPetProjectile: {
+			DisplayName: メガカメックスペットの弾
+		}
+		BlastoiseMegaPetProjectileShiny: {
+			DisplayName: メガカメックスペットの弾（色違い）
+		}
+		VenusaurMegaPetProjectile: {
+			DisplayName: メガフシギバナペットの弾
+		}
+		VenusaurMegaPetProjectileShiny: {
+			DisplayName: メガフシギバナペットの弾（色違い）
+		}
+		GyaradosMegaPetProjectile: {
+			DisplayName: メガギャラドスペットの弾
+		}
+		GyaradosMegaPetProjectileShiny: {
+			DisplayName: メガギャラドスペットの弾（色違い）
+		}
+		PokeBobber: {
+			DisplayName: ポケモンのうき
+		}
+		DarkballProj: {
+			DisplayName: ダークボールの弾
+		}
+		CharizardMegaYPetProjectile: {
+			DisplayName: メガリザードンYペットの弾
+		}
+		CharizardMegaYPetProjectileShiny: {
+			DisplayName: メガリザードンYペットの弾（色違い）
+		}
+		NightShade: {
+			DisplayName: ナイトヘッド
+		}
+		Earthquake: {
+			DisplayName: じしん
+		}
+		RockThrow: {
+			DisplayName: いわおとし
+		}
+		Splash: {
+			DisplayName: はねる
+		}
+		Teleport: {
+			DisplayName: テレポート
+		}
+		PsychoCut: {
+			DisplayName: サイコカッター
+		}
+		AlakazamMegaPetProjectile: {
+			DisplayName: メガフーディンペットの弾
+		}
+		AlakazamMegaPetProjectileShiny: {
+			DisplayName: メガフーディンペットの弾（色違い）
+		}
+		Psychic: {
+			DisplayName: サイコキネシス
+		}
+		BubbleBeam: {
+			DisplayName: バブルこうせん
+		}
+		ElectroBall: {
+			DisplayName: エレキボール
+		}
+		FuryCutter: {
+			DisplayName: れんぞくぎり
+		}
+		LeafBlade: {
+			DisplayName: リーフブレード
+		}
+		BulletSeed: {
+			DisplayName: タネマシンガン
+		}
+		LeafStorm: {
+			DisplayName: リーフストーム
+		}
+		Psybeam: {
+			DisplayName: サイケこうせん
+		}
+		MegaDrain: {
+			DisplayName: メガドレイン
+		}
+		ShadowBall: {
+			DisplayName: シャドーボール
+		}
+		Tackle: {
+			DisplayName: たいあたり
+		}
+		Cut: {
+			DisplayName: いあいぎり
+		}
+		FocusPunch: {
+			DisplayName: きあいパンチ
+		}
+		MudShot: {
+			DisplayName: マッドショット
+		}
+		SludgeBomb: {
+			DisplayName: ヘドロばくだん
+		}
+		HyperBeam: {
+			DisplayName: はかいこうせん
+		}
+		DoubleEdge: {
+			DisplayName: すてみタックル
+		}
+	}
+	Items: {
+		EeveePetItem: {
+			Tooltip: ""
+			DisplayName: イーブイペットアイテム
+		}
+		PikachuPetItem: {
+			DisplayName: ピカチュウペットアイテム
+			Tooltip: ""
+		}
+		BulbasaurPetItem: {
+			Tooltip: ""
+			DisplayName: フシギダネペットアイテム
+		}
+		CharmanderPetItem: {
+			Tooltip: ""
+			DisplayName: ヒトカゲペットアイテム
+		}
+		EeveeCritterItem: {
+			Tooltip: ""
+			DisplayName: イーブイクリッターアイテム
+		}
+		PokeballItem: {
+			Tooltip: 野生のポケモンを捕まえるための道具
+			DisplayName: モンスターボール
+		}
+		PikachuCritterItem: {
+			DisplayName: ピカチュウクリッターアイテム
+			Tooltip: ""
+		}
+		BulbasaurCritterItem: {
+			Tooltip: ""
+			DisplayName: フシギダネクリッターアイテム
+		}
+		CharmanderCritterItem: {
+			DisplayName: ヒトカゲクリッターアイテム
+			Tooltip: ""
+		}
+		SquirtlePetItem: {
+			DisplayName: ゼニガメペットアイテム
+			Tooltip: ""
+		}
+		SquirtleCritterItem: {
+			Tooltip: ""
+			DisplayName: ゼニガメクリッターアイテム
+		}
+		IvysaurPetItem: {
+			DisplayName: フシギソウペットアイテム
+			Tooltip: ""
+		}
+		RareCandyItem: {
+			DisplayName: ふしぎなアメ
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとレベルが1上がる"
+		}
+		CharmeleonPetItem: {
+			DisplayName: リザードペットアイテム
+			Tooltip: ""
+		}
+		VenusaurPetItem: {
+			DisplayName: フシギバナペットアイテム
+			Tooltip: ""
+		}
+		CharizardPetItem: {
+			Tooltip: ""
+			DisplayName: リザードンペットアイテム
+		}
+		VenusaurMegaStoneItem: {
+			DisplayName: フシギバナイト
+			Tooltip: メガカフスを使い、持たせることでフシギバナをメガシンカさせることができる
+		}
+		GreatballItem: {
+			DisplayName: スーパーボール
+			Tooltip: モンスターボールよりポケモンを捕まえやすい、ちょっと性能のいいボール
+		}
+		ChikoritaPetItem: {
+			DisplayName: チコリータペットアイテム
+			Tooltip: ""
+		}
+		CyndaquilPetItem: {
+			DisplayName: ヒノアラシペットアイテム
+			Tooltip: ""
+		}
+		TotodilePetItem: {
+			DisplayName: ワニノコペットアイテム
+			Tooltip: ""
+		}
+		VSSeekerItem: {
+			DisplayName: バトルサーチャーアイテム
+			Tooltip: ""
+		}
+		BulbasaurPetItemShiny: {
+			DisplayName: フシギダネペットアイテム（色違い）
+			Tooltip: ""
+		}
+		BulbasaurCritterItemShiny: {
+			DisplayName: フシギダネクリッターアイテム（色違い）
+			Tooltip: ""
+		}
+		CharmanderPetItemShiny: {
+			DisplayName: ヒトカゲペットアイテム（色違い）
+			Tooltip: ""
+		}
+		CharmanderCritterItemShiny: {
+			DisplayName: ヒトカゲクリッターアイテム（色違い）
+			Tooltip: ""
+		}
+		KeyStoneItem: {
+			DisplayName: キーストーン
+			Tooltip: ポケモンをメガシンカさせる未知の力を秘めた石
+		}
+		MegaCuffItem: {
+			DisplayName: メガカフス
+			Tooltip: メガストーンを装備している場合、1日に1回、それぞれのポケモンをメガシンカさせることができる
+		}
+		VenusaurPetItemMega: {
+			DisplayName: フシギバナペットアイテム（メガ）
+			Tooltip: ""
+		}
+		WartortlePetItem: {
+			DisplayName: カメールペットアイテム
+			Tooltip: ""
+		}
+		BlastoisePetItem: {
+			DisplayName: カメックスペットアイテム
+			Tooltip: ""
+		}
+		BlastoiseMegaStoneItem: {
+			DisplayName: カメックスナイト
+			Tooltip: メガカフスを使い、持たせることでカメックスをメガシンカさせることができる
+		}
+		CharizardMegaStoneItemX: {
+			DisplayName: リザードナイトX
+			Tooltip: メガカフスを使い、持たせることでリザードンをメガシンカさせることができる
+		}
+		CharizardMegaStoneItemY: {
+			DisplayName: リザードナイトY
+			Tooltip: メガカフスを使い、持たせることでリザードンをメガシンカさせることができる
+		}
+		BlastoisePetItemMega: {
+			DisplayName: カメックスペットアイテム（メガ）
+			Tooltip: ""
+		}
+		CharizardPetItemMegaX: {
+			DisplayName: リザードンペットアイテム（メガX）
+			Tooltip: ""
+		}
+		CharizardPetItemMegaY: {
+			DisplayName: リザードンペットアイテム（メガY）
+			Tooltip: ""
+		}
+		SquirtlePetItemShiny: {
+			DisplayName: ゼニガメペットアイテム（色違い）
+			Tooltip: ""
+		}
+		SquirtleCritterItemShiny: {
+			DisplayName: ゼニガメクリッターアイテム（色違い）
+			Tooltip: ""
+		}
+		CharizardPetItemShiny: {
+			DisplayName: リザードンペットアイテム（色違い）
+			Tooltip: ""
+		}
+		CharmeleonPetItemShiny: {
+			DisplayName: リザードペットアイテム（色違い）
+			Tooltip: ""
+		}
+		IvysaurPetItemShiny: {
+			DisplayName: フシギソウペットアイテム（色違い）
+			Tooltip: ""
+		}
+		VenusaurPetItemShiny: {
+			DisplayName: フシギバナペットアイテム（色違い）
+			Tooltip: ""
+		}
+		UltraPortalItem: {
+			DisplayName: ウルトラポータルアイテム
+			Tooltip: ""
+		}
+		BlacephalonCritterItem: {
+			DisplayName: ズガドーンクリッターアイテム
+			Tooltip: ""
+		}
+		TorchicPetItem: {
+			DisplayName: アチャモペットアイテム
+			Tooltip: ""
+		}
+		EeveeCritterItemShiny: {
+			DisplayName: イーブイクリッターアイテム（色違い）
+			Tooltip: ""
+		}
+		EeveePetItemShiny: {
+			DisplayName: イーブイペットアイテム（色違い）
+			Tooltip: ""
+		}
+		PikachuPetItemShiny: {
+			DisplayName: ピカチュウペットアイテム（色違い）
+			Tooltip: ""
+		}
+		UltraballItem: {
+			Tooltip: スーパーボールよりポケモンを捕まえやすい、高性能なボール
+			DisplayName: ハイパーボール
+		}
+		MasterballItem: {
+			Tooltip: どんな野生のポケモンも必ず捕まえることができるボール
+			DisplayName: マスターボール
+		}
+		FeatherballItem: {
+			Tooltip: 重力の影響を受けないボール
+			DisplayName: フェザーボール
+		}
+		DuskballItem: {
+			Tooltip: 夜や洞窟などの暗い場所でポケモンを捕まえるとき、効果が3倍になるボール
+			DisplayName: ダークボール
+		}
+		BeastballItem: {
+			Tooltip: "ウルトラビーストを捕まえるために設計された特別なボール\n他のポケモンに対しては捕獲成功率が低い"
+			DisplayName: ウルトラボール
+		}
+		CaughtPokemonItem: {
+			DisplayName: ポケモン
+			Tooltip: ""
+		}
+		PikachuCritterItemShiny: {
+			DisplayName: ピカチュウクリッターアイテム（色違い）
+			Tooltip: ""
+		}
+		WartortlePetItemShiny: {
+			DisplayName: カメールペットアイテム（色違い）
+			Tooltip: ""
+		}
+		WingballItem: {
+			DisplayName: ウィングボール
+			Tooltip: 重力の影響を受けないボール
+		}
+		CitrineballItem: {
+			DisplayName: シトリンボール
+			Tooltip: 野生のポケモンを捕まえるための道具
+		}
+		JetballItem: {
+			DisplayName: ジェットボール
+			Tooltip: 重力の影響を受けないボール
+		}
+		PeridotballItem: {
+			DisplayName: ペリドットボール
+			Tooltip: 野生のポケモンを捕まえるための道具
+		}
+		VioletballItem: {
+			DisplayName: バイオレットボール
+			Tooltip: 野生のポケモンを捕まえるための道具
+		}
+		AzureballItem: {
+			DisplayName: アズールボール
+			Tooltip: 野生のポケモンを捕まえるための道具
+		}
+		ThunderStoneItem: {
+			DisplayName: かみなりのいし
+			Tooltip: "手持ちのポケモンをクリックして使用する\n特定のポケモンを進化させることができる不思議な石\n「カミナリのような模様が特徴」"
+		}
+		HeavyballItem: {
+			DisplayName: ヘビーボール
+			Tooltip: 通常のモンスターボールより重いが、より効果的なボール
+		}
+		FireStoneItem: {
+			DisplayName: ほのおのいし
+			Tooltip: "手持ちのポケモンをクリックして使用する\n特定のポケモンを進化させることができる不思議な石\n「燃えるようなオレンジ色のハートを持つ」"
+		}
+		WaterStoneItem: {
+			DisplayName: みずのいし
+			Tooltip: "手持ちのポケモンをクリックして使用する\n特定のポケモンを進化させることができる不思議な石\n「深い淵の澄んだ青色をしている」"
+		}
+		GigatonballItem: {
+			DisplayName: ギガトンボール
+			Tooltip: 通常のモンスターボールより重いが、より効果的なボール
+		}
+		LeadenballItem: {
+			DisplayName: レーデンボール
+			Tooltip: 通常のモンスターボールより重いが、より効果的なボール
+		}
+		StrangeballItem: {
+			DisplayName: ストレンジボール
+			Tooltip: ""
+		}
+		CherishballItem: {
+			DisplayName: プレシャスボール
+			Tooltip: 何か特別な出来事を記念して作られた、かなり珍しいボール
+		}
+		PremierballItem: {
+			Tooltip: 何か特別な出来事を記念して作られた、かなり珍しいボール
+			DisplayName: プレミアボール
+		}
+		RedApricorn: {
+			Tooltip: ""
+			DisplayName: あかいぼんぐり
+		}
+		YellowApricorn: {
+			Tooltip: ""
+			DisplayName: きぼんぐり
+		}
+		WhiteApricorn: {
+			Tooltip: ""
+			DisplayName: しろぼんぐり
+		}
+		PinkApricorn: {
+			Tooltip: ""
+			DisplayName: ももぼんぐり
+		}
+		GreenApricorn: {
+			Tooltip: ""
+			DisplayName: みどぼんぐり
+		}
+		BlueApricorn: {
+			Tooltip: ""
+			DisplayName: あおぼんぐり
+		}
+		BlackApricorn: {
+			Tooltip: ""
+			DisplayName: くろぼんぐり
+		}
+		ApricornSeed: {
+			Tooltip: ""
+			DisplayName: ぼんぐりのタネ
+		}
+		TrainerGlove: {
+			Tooltip: ""
+			DisplayName: トレーナーグローブ
+		}
+		ChikoritaCritterItem: {
+			DisplayName: チコリータクリッターアイテム
+			Tooltip: ""
+		}
+		PokeballItemTileItem: {
+			DisplayName: ポケルート
+			Tooltip: 地面で壊して報酬を手に入れよう！
+		}
+		Potion: {
+			DisplayName: キズぐすり
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとHPを20回復する。"
+		}
+		Revive: {
+			DisplayName: げんきのかけら
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nひんし状態のポケモンに使うと、最大HPの半分で復活させる"
+		}
+		ShinyCharm: {
+			DisplayName: ひかるおまもり
+			Tooltip: 装備すると、色違いのポケモンに遭遇する確率が上がる
+		}
+		HyperPotion: {
+			DisplayName: すごいキズぐすり
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとHPを120回復する"
+		}
+		MaxRevive: {
+			DisplayName: げんきのかたまり
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nひんし状態のポケモンに使うと、最大HPで復活させる"
+		}
+		OranBerry: {
+			DisplayName: オレンのみ
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとHPを10回復する"
+		}
+		SuperPotion: {
+			DisplayName: いいキズぐすり
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとHPを60回復する"
+		}
+		PokeHealer: {
+			DisplayName: ポケヒーラー
+			Tooltip: "ポケモンを回復させる便利な機械\n右クリックで使用でき、3分ごとにしか使用できない"
+		}
+		BlackBeltItem: {
+			DisplayName: くろおび
+			Tooltip: "プレイヤーが持つアイテム\nプレイヤーのポケモンの攻撃ダメージを増加させる"
+		}
+		FireStoneHelmet: {
+			SetBonus: "最大マナを{1}増加させる\nポケモンのダメージを{0}%増加させる"
+			DisplayName: ほのおのいしの兜
+			Tooltip: ""
+		}
+		FireStoneBreastplate: {
+			DisplayName: ほのおのいしの胸当て
+			Tooltip: "最大マナを{0}増加させる\nポケモンの最大数を{2}増加させる\nポケモンのダメージを{1}%増加させる"
+		}
+		FireStoneLeggings: {
+			DisplayName: ほのおのいしのすね当て
+			Tooltip: "最大マナを{2}増加させる\nポケモンのダメージを{1}%増加させる"
+		}
+		PCChest: {
+			DisplayName: PCチェスト
+			Tooltip: ""
+		}
+		WaterStoneHelmet: {
+			SetBonus: "ミニオンの最大数を{1}増加させる\nポケモンのダメージを{0}%増加させる"
+			DisplayName: みずのいしの兜
+			Tooltip: ""
+		}
+		WaterStoneBreastplate: {
+			DisplayName: みずのいしの胸当て
+			Tooltip: "「炎上！」に対する耐性\nミニオンの最大数を{1}増加させる\nポケモンのダメージを{0}%増加させる"
+		}
+		WaterStoneLeggings: {
+			DisplayName: みずのいしのすね当て
+			Tooltip: "ミニオンの最大数を{1}増加させる\nポケモンの最大数を{2}増加させる\nポケモンのダメージを{0}%増加させる"
+		}
+		Everstone: {
+			DisplayName: かわらずのいし
+			Tooltip: 装備すると、お気に入りに選択されたポケモンがレベルで進化するのを防ぐ
+		}
+		LeafStoneItem: {
+			DisplayName: リーフのいし
+			Tooltip: "手持ちのポケモンをクリックして使用する\n特定のポケモンを進化させることができる不思議な石\n「紛れもない葉っぱの模様を持つ」"
+		}
+		ThunderStoneHelmet: {
+			SetBonus: "ポケモンの最大数を{2}増加させる\nポケモンのダメージを{0}%増加させる\n遠距離ダメージを{1}%増加させる"
+			DisplayName: かみなりのいしの兜
+			Tooltip: ""
+		}
+		ThunderStoneBreastplate: {
+			DisplayName: かみなりのいしの胸当て
+			Tooltip: "ポケモンのダメージを{0}%増加させる\n遠距離ダメージを{1}%増加させる"
+		}
+		ThunderStoneLeggings: {
+			DisplayName: かみなりのいしのすね当て
+			Tooltip: "ポケモンのダメージを{0}%増加させる\n遠距離ダメージを{1}%増加させる"
+		}
+		AssaultVestItem: {
+			DisplayName: とつげきチョッキ
+			Tooltip: ""
+		}
+		GengarMegaStoneItem: {
+			DisplayName: ゲンガナイト
+			Tooltip: メガカフスを使い、持たせることでゲンガーをメガシンカさせることができる
+		}
+		ExpertBeltItem: {
+			DisplayName: たつじんのおび
+			Tooltip: ""
+		}
+		KingsRockItem: {
+			DisplayName: おうじゃのしるし
+			Tooltip: ""
+		}
+		MoonStoneItem: {
+			DisplayName: つきのいし
+			Tooltip: "手持ちのポケモンをクリックして使用する\n特定のポケモンを進化させることができる不思議な石\n「夜空のように暗い」"
+		}
+		FastballItem: {
+			DisplayName: スピードボール
+			Tooltip: 素早いポケモンを捕まえる際に効果が4倍になるボール
+		}
+		FriendballItem: {
+			DisplayName: フレンドボール
+			Tooltip: 捕まえたポケモンをより懐きやすくするボール
+		}
+		SafariballItem: {
+			DisplayName: サファリボール
+			Tooltip: ""
+		}
+		LevelballItem: {
+			DisplayName: レベルボール
+			Tooltip: 自分のポケモンよりレベルの低いポケモンを捕まえるためのボール
+		}
+		MoonballItem: {
+			DisplayName: ムーンボール
+			Tooltip: 月の石を使って進化するポケモンを捕まえる際に効果が4倍になるボール
+		}
+		NestballItem: {
+			DisplayName: ネストボール
+			Tooltip: 弱いポケモンに特に効果がある、少し変わったボール
+		}
+		ShimmerballItem: {
+			DisplayName: シマーボール
+			Tooltip: 壁を通り抜けることができるボール
+		}
+		GalaxyballItem: {
+			DisplayName: ギャラクシーボール
+			Tooltip: 壁を通り抜け、重力の影響を受けないボール
+		}
+		HealballItem: {
+			DisplayName: ヒールボール
+			Tooltip: 捕まえたポケモンのHPを回復させる治療用のボール
+		}
+		GyaradosMegaStoneItem: {
+			DisplayName: ギャラドスナイト
+			Tooltip: メガカフスを使い、持たせることでギャラドスをメガシンカさせることができる
+		}
+		MaxPotion: {
+			DisplayName: まんたんのくすり
+			Tooltip: "ポケモンに使うか、対応するモンスターボールを右クリックして使用する\nポケモンに使うとHPを全回復する"
+		}
+		Repel: {
+			DisplayName: むしよけスプレー
+			Tooltip: ポケモンの出現を防ぐ
+		}
+		GoodRod: {
+			DisplayName: いいつりざお
+			Tooltip: 少し強いポケモンを釣ることができる
+		}
+		OldRod: {
+			DisplayName: ボロのつりざお
+			Tooltip: ポケモンを釣ることができる
+		}
+		MaxRepel: {
+			DisplayName: ゴールドスプレー
+			Tooltip: ポケモンの出現を防ぐ
+		}
+		SuperRepel: {
+			DisplayName: シルバースプレー
+			Tooltip: ポケモンの出現を防ぐ
+		}
+		Leftovers: {
+			DisplayName: たべのこし
+			Tooltip: 10秒ごとに手持ちのポケモンのHPを3回復する
+		}
+		LuckyEgg: {
+			DisplayName: しあわせタマゴ
+			Tooltip: ポケモンが50%多くの経験値を得る
+		}
+		LinkingCordItem: {
+			DisplayName: つながりのヒモ
+			Tooltip: "手持ちのポケモンをクリックして使用する\n不思議なエネルギーを放つヒモで、奇妙なつながりを感じさせる\n特定のポケモンに好まれる"
+		}
+		RedApricornTileItem: {
+			DisplayName: あかいぼんぐりタイルアイテム
+			Tooltip: ""
+		}
+		BlueHealer: {
+			DisplayName: ブルーヒーラー
+			Tooltip: ""
+		}
+		BikeVoucher: {
+			DisplayName: ひきかえけん
+			Tooltip: 自転車屋で自転車と交換するための引換券
+		}
+		DarkballItem: {
+			DisplayName: ダークボール
+			Tooltip: ""
+		}
+		AirBalloon: {
+			DisplayName: ふうせん
+			Tooltip: この風船はポケモンを空中に浮かせる
+		}
+		PokeFlute: {
+			DisplayName: ポケモンのふえ
+			Tooltip: 眠っているポケモンでさえ目を覚ますほどの美しい音色を奏でることができる
+		}
+		SynchroMachine: {
+			DisplayName: シンクロマシン
+			Tooltip: あなたの心と感情をポケモンと同期させ、一体となって行動できるようにする装置
+		}
+		GreenHealer: {
+			DisplayName: グリーンヒーラー
+			Tooltip: ""
+		}
+		OrangeHealer: {
+			DisplayName: オレンジヒーラー
+			Tooltip: ""
+		}
+		PinkHealer: {
+			DisplayName: ピンクヒーラー
+			Tooltip: ""
+		}
+		AlakazamMegaStoneItem: {
+			DisplayName: フーディナイト
+			Tooltip: メガカフスを使い、持たせることでフーディンをメガシンカさせることができる
+		}
+		TMBug: {
+			DisplayName: わざマシン むし
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなむしタイプの技を覚えさせることができる"
+		}
+		TMDark: {
+			DisplayName: わざマシン あく
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなあくタイプの技を覚えさせることができる"
+		}
+		TMDragon: {
+			DisplayName: わざマシン ドラゴン
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなドラゴンタイプの技を覚えさせることができる"
+		}
+		TMElectric: {
+			DisplayName: わざマシン でんき
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなでんきタイプの技を覚えさせることができる"
+		}
+		TMFairy: {
+			DisplayName: わざマシン フェアリー
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなフェアリータイプの技を覚えさせることができる"
+		}
+		TMFighting: {
+			DisplayName: わざマシン かくとう
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなかくとうタイプの技を覚えさせることができる"
+		}
+		TMFire: {
+			DisplayName: わざマシン ほのお
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなほのおタイプの技を覚えさせることができる"
+		}
+		TMFlying: {
+			DisplayName: わざマシン ひこう
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなひこうタイプの技を覚えさせることができる"
+		}
+		TMGhost: {
+			DisplayName: わざマシン ゴースト
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなゴーストタイプの技を覚えさせることができる"
+		}
+		TMGrass: {
+			DisplayName: わざマシン くさ
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなくさタイプの技を覚えさせることができる"
+		}
+		TMGround: {
+			DisplayName: わざマシン じめん
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなじめんタイプの技を覚えさせることができる"
+		}
+		TMIce: {
+			DisplayName: わざマシン こおり
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなこおりタイプの技を覚えさせることができる"
+		}
+		TMNormal: {
+			DisplayName: わざマシン ノーマル
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなノーマルタイプの技を覚えさせることができる"
+		}
+		TMPoison: {
+			DisplayName: わざマシン どく
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなどくタイプの技を覚えさせることができる"
+		}
+		TMPsychic: {
+			DisplayName: わざマシン エスパー
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなエスパータイプの技を覚えさせることができる"
+		}
+		TMRock: {
+			DisplayName: わざマシン いわ
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムないわタイプの技を覚えさせることができる"
+		}
+		TMSteel: {
+			DisplayName: わざマシン はがね
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなはがねタイプの技を覚えさせることができる"
+		}
+		TMWater: {
+			DisplayName: わざマシン みず
+			Tooltip: "対応するモンスターボールを右クリックして使用する\nポケモンにランダムなみずタイプの技を覚えさせることができる"
+		}
+	}
+	Buffs: {
+		EeveePetBuff: {
+			Description: " "
+			DisplayName: イーブイ
+		}
+		PikachuPetBuff: {
+			DisplayName: ピカチュウ
+			Description: " "
+		}
+		BulbasaurPetBuff: {
+			Description: " "
+			DisplayName: フシギダネ
+		}
+		CharmanderPetBuff: {
+			Description: " "
+			DisplayName: ヒトカゲ
+		}
+		SquirtlePetBuff: {
+			DisplayName: ゼニガメ
+			Description: " "
+		}
+		IvysaurPetBuff: {
+			DisplayName: フシギソウ
+			Description: " "
+		}
+		CharmeleonPetBuff: {
+			DisplayName: リザード
+			Description: " "
+		}
+		VenusaurPetBuff: {
+			DisplayName: フシギバナ
+			Description: " "
+		}
+		CharizardPetBuff: {
+			Description: " "
+			DisplayName: リザードン
+		}
+		ChikoritaPetBuff: {
+			DisplayName: チコリータ
+			Description: " "
+		}
+		CyndaquilPetBuff: {
+			DisplayName: ヒノアラシ
+			Description: " "
+		}
+		TotodilePetBuff: {
+			DisplayName: ワニノコ
+			Description: " "
+		}
+		BulbasaurPetBuffShiny: {
+			DisplayName: フシギダネ（色違い）
+			Description: " "
+		}
+		CharmanderPetBuffShiny: {
+			DisplayName: ヒトカゲ（色違い）
+			Description: " "
+		}
+		VenusaurPetBuffMega: {
+			DisplayName: メガフシギバナ
+			Description: " "
+		}
+		WartortlePetBuff: {
+			DisplayName: カメール
+			Description: " "
+		}
+		BlastoisePetBuff: {
+			DisplayName: カメックス
+			Description: " "
+		}
+		BlastoisePetBuffMega: {
+			DisplayName: メガカメックス
+			Description: " "
+		}
+		CharizardPetBuffMegaX: {
+			DisplayName: メガリザードンX
+			Description: " "
+		}
+		CharizardPetBuffMegaY: {
+			DisplayName: メガリザードンY
+			Description: " "
+		}
+		SquirtlePetBuffShiny: {
+			DisplayName: ゼニガメ（色違い）
+			Description: " "
+		}
+		CharizardPetBuffShiny: {
+			DisplayName: リザードン（色違い）
+			Description: " "
+		}
+		CharmeleonPetBuffShiny: {
+			DisplayName: リザード（色違い）
+			Description: " "
+		}
+		IvysaurPetBuffShiny: {
+			DisplayName: フシギソウ（色違い）
+			Description: " "
+		}
+		VenusaurPetBuffShiny: {
+			DisplayName: フシギバナ（色違い）
+			Description: " "
+		}
+		TorchicPetBuff: {
+			DisplayName: アチャモ
+			Description: " "
+		}
+		EeveePetBuffShiny: {
+			DisplayName: イーブイ（色違い）
+			Description: " "
+		}
+		PikachuPetBuffShiny: {
+			DisplayName: ピカチュウ（色違い）
+			Description: " "
+		}
+		WartortlePetBuffShiny: {
+			DisplayName: カメール（色違い）
+			Description: " "
+		}
+		RaichuPetBuff: {
+			DisplayName: ライチュウ
+			Description: " "
+		}
+		RaichuPetBuffShiny: {
+			DisplayName: ライチュウ（色違い）
+			Description: " "
+		}
+		BlastoisePetBuffShiny: {
+			DisplayName: カメックス（色違い）
+			Description: " "
+		}
+		FlareonPetBuff: {
+			DisplayName: ブースター
+			Description: " "
+		}
+		FlareonPetBuffShiny: {
+			DisplayName: ブースター（色違い）
+			Description: " "
+		}
+		VaporeonPetBuffShiny: {
+			Description: " "
+			DisplayName: シャワーズ（色違い）
+		}
+		VaporeonPetBuff: {
+			Description: " "
+			DisplayName: シャワーズ
+		}
+		JolteonPetBuffShiny: {
+			Description: " "
+			DisplayName: サンダース（色違い）
+		}
+		JolteonPetBuff: {
+			Description: " "
+			DisplayName: サンダース
+		}
+		ChikoritaPetBuffShiny: {
+			Description: " "
+			DisplayName: チコリータ（色違い）
+		}
+		BayleefPetBuffShiny: {
+			Description: " "
+			DisplayName: ベイリーフ（色違い）
+		}
+		BayleefPetBuff: {
+			Description: " "
+			DisplayName: ベイリーフ
+		}
+		MeganiumPetBuffShiny: {
+			Description: " "
+			DisplayName: メガニウム（色違い）
+		}
+		MeganiumPetBuff: {
+			Description: " "
+			DisplayName: メガニウム
+		}
+		CyndaquilPetBuffShiny: {
+			Description: " "
+			DisplayName: ヒノアラシ（色違い）
+		}
+		CaterpiePetBuffShiny: {
+			DisplayName: キャタピー（色違い）
+			Description: " "
+		}
+		CaterpiePetBuff: {
+			Description: " "
+			DisplayName: キャタピー
+		}
+		MetapodPetBuff: {
+			Description: " "
+			DisplayName: トランセル
+		}
+		MetapodPetBuffShiny: {
+			DisplayName: トランセル（色違い）
+			Description: " "
+		}
+		KakunaPetBuffShiny: {
+			DisplayName: コクーン（色違い）
+			Description: " "
+		}
+		KakunaPetBuff: {
+			Description: " "
+			DisplayName: コクーン
+		}
+		WeedlePetBuffShiny: {
+			DisplayName: ビードル（色違い）
+			Description: " "
+		}
+		WeedlePetBuff: {
+			Description: " "
+			DisplayName: ビードル
+		}
+		ButterfreePetBuff: {
+			DisplayName: バタフリー
+			Description: " "
+		}
+		ButterfreePetBuffShiny: {
+			DisplayName: バタフリー（色違い）
+			Description: " "
+		}
+		BeedrillPetBuffShiny: {
+			DisplayName: スピアー（色違い）
+			Description: " "
+		}
+		BeedrillPetBuff: {
+			Description: " "
+			DisplayName: スピアー
+		}
+		GastlyPetBuff: {
+			DisplayName: ゴース
+			Description: " "
+		}
+		GastlyPetBuffShiny: {
+			DisplayName: ゴース（色違い）
+			Description: " "
+		}
+		VoltorbPetBuff: {
+			DisplayName: ビリリダマ
+			Description: " "
+		}
+		VoltorbPetBuffShiny: {
+			DisplayName: ビリリダマ（色違い）
+			Description: " "
+		}
+		ElectrodePetBuff: {
+			DisplayName: マルマイン
+			Description: " "
+		}
+		ElectrodePetBuffShiny: {
+			DisplayName: マルマイン（色違い）
+			Description: " "
+		}
+		MagnemitePetBuff: {
+			DisplayName: コイル
+			Description: " "
+		}
+		MagnemitePetBuffShiny: {
+			DisplayName: コイル（色違い）
+			Description: " "
+		}
+		MagnetonPetBuff: {
+			DisplayName: レアコイル
+			Description: " "
+		}
+		MagnetonPetBuffShiny: {
+			DisplayName: レアコイル（色違い）
+			Description: " "
+		}
+		HaunterPetBuff: {
+			DisplayName: ゴースト
+			Description: " "
+		}
+		HaunterPetBuffShiny: {
+			DisplayName: ゴースト（色違い）
+			Description: " "
+		}
+		StringShotDebuff: {
+			DisplayName: いとをはく
+			Description: " "
+		}
+		ParalizedDebuff: {
+			Description: " "
+			DisplayName: まひ
+		}
+		QuilavaPetBuffShiny: {
+			DisplayName: マグマラシ（色違い）
+			Description: " "
+		}
+		QuilavaPetBuff: {
+			Description: " "
+			DisplayName: マグマラシ
+		}
+		TyphlosionPetBuff: {
+			DisplayName: バクフーン
+			Description: " "
+		}
+		TyphlosionPetBuffShiny: {
+			DisplayName: バクフーン（色違い）
+			Description: " "
+		}
+		CroconawPetBuff: {
+			DisplayName: アリゲイツ
+			Description: " "
+		}
+		CroconawPetBuffShiny: {
+			DisplayName: アリゲイツ（色違い）
+			Description: " "
+		}
+		TotodilePetBuffShiny: {
+			DisplayName: ワニノコ（色違い）
+			Description: " "
+		}
+		FeraligatrPetBuff: {
+			DisplayName: オーダイル
+			Description: " "
+		}
+		FeraligatrPetBuffShiny: {
+			DisplayName: オーダイル（色違い）
+			Description: " "
+		}
+		PidgeotPetBuffShiny: {
+			DisplayName: ピジョット（色違い）
+			Description: " "
+		}
+		PidgeotPetBuff: {
+			Description: " "
+			DisplayName: ピジョット
+		}
+		PidgeottoPetBuff: {
+			DisplayName: ピジョン
+			Description: " "
+		}
+		PidgeottoPetBuffShiny: {
+			DisplayName: ピジョン（色違い）
+			Description: " "
+		}
+		PidgeyPetBuff: {
+			DisplayName: ポッポ
+			Description: " "
+		}
+		PidgeyPetBuffShiny: {
+			DisplayName: ポッポ（色違い）
+			Description: " "
+		}
+		RattataPetBuffShiny: {
+			DisplayName: コラッタ（色違い）
+			Description: " "
+		}
+		RattataPetBuff: {
+			Description: " "
+			DisplayName: コラッタ
+		}
+		PokeHealerDebuff: {
+			Description: 再びポケモンヒーラーを使用するには待つ必要がある！
+			DisplayName: ポケモンヒーラークールダウン
+		}
+		ZeraoraPetBuff: {
+			DisplayName: ゼラオラ
+			Description: " "
+		}
+		ZeraoraPetBuffShiny: {
+			DisplayName: ゼラオラ（色違い）
+			Description: " "
+		}
+		ChanseyPetBuff: {
+			DisplayName: ラッキー
+			Description: " "
+		}
+		ChanseyPetBuffShiny: {
+			DisplayName: ラッキー（色違い）
+			Description: " "
+		}
+		NidoranMPetBuff: {
+			DisplayName: ニドラン♂
+			Description: " "
+		}
+		NidoranMPetBuffShiny: {
+			DisplayName: ニドラン♂（色違い）
+			Description: " "
+		}
+		NidorinoPetBuff: {
+			DisplayName: ニドリーノ
+			Description: " "
+		}
+		NidorinoPetBuffShiny: {
+			DisplayName: ニドリーノ（色違い）
+			Description: " "
+		}
+		RaticatePetBuffShiny: {
+			DisplayName: ラッタ（色違い）
+			Description: " "
+		}
+		RaticatePetBuff: {
+			Description: " "
+			DisplayName: ラッタ
+		}
+		SpearowPetBuff: {
+			DisplayName: オニスズメ
+			Description: " "
+		}
+		SpearowPetBuffShiny: {
+			DisplayName: オニスズメ（色違い）
+			Description: " "
+		}
+		FearowPetBuff: {
+			DisplayName: オニドリル
+			Description: " "
+		}
+		FearowPetBuffShiny: {
+			DisplayName: オニドリル（色違い）
+			Description: " "
+		}
+		ArbokPetBuff: {
+			DisplayName: アーボック
+			Description: " "
+		}
+		ArbokPetBuffShiny: {
+			DisplayName: アーボック（色違い）
+			Description: " "
+		}
+		EkansPetBuff: {
+			DisplayName: アーボ
+			Description: " "
+		}
+		EkansPetBuffShiny: {
+			DisplayName: アーボ（色違い）
+			Description: " "
+		}
+		SandshrewPetBuff: {
+			DisplayName: サンド
+			Description: " "
+		}
+		SandshrewPetBuffShiny: {
+			DisplayName: サンド（色違い）
+			Description: " "
+		}
+		SandslashPetBuff: {
+			DisplayName: サンドパン
+			Description: " "
+		}
+		SandslashPetBuffShiny: {
+			DisplayName: サンドパン（色違い）
+			Description: " "
+		}
+		ClefablePetBuff: {
+			DisplayName: ピクシー
+			Description: " "
+		}
+		ClefablePetBuffShiny: {
+			DisplayName: ピクシー（色違い）
+			Description: " "
+		}
+		ClefairyPetBuff: {
+			DisplayName: ピッピ
+			Description: " "
+		}
+		ClefairyPetBuffShiny: {
+			DisplayName: ピッピ（色違い）
+			Description: " "
+		}
+		AbraPetBuff: {
+			DisplayName: ケーシィ
+			Description: " "
+		}
+		AbraPetBuffShiny: {
+			DisplayName: ケーシィ（色違い）
+			Description: " "
+		}
+		AerodactylPetBuff: {
+			DisplayName: プテラ
+			Description: " "
+		}
+		AerodactylPetBuffShiny: {
+			DisplayName: プテラ（色違い）
+			Description: " "
+		}
+		AlakazamPetBuff: {
+			DisplayName: フーディン
+			Description: " "
+		}
+		AlakazamPetBuffShiny: {
+			DisplayName: フーディン（色違い）
+			Description: " "
+		}
+		ArcaninePetBuff: {
+			DisplayName: ウインディ
+			Description: " "
+		}
+		ArcaninePetBuffShiny: {
+			DisplayName: ウインディ（色違い）
+			Description: " "
+		}
+		ArticunoPetBuff: {
+			DisplayName: フリーザー
+			Description: " "
+		}
+		ArticunoPetBuffShiny: {
+			DisplayName: フリーザー（色違い）
+			Description: " "
+		}
+		BellsproutPetBuff: {
+			DisplayName: マダツボミ
+			Description: " "
+		}
+		BellsproutPetBuffShiny: {
+			DisplayName: マダツボミ（色違い）
+			Description: " "
+		}
+		CloysterPetBuff: {
+			DisplayName: パルシェン
+			Description: " "
+		}
+		CloysterPetBuffShiny: {
+			DisplayName: パルシェン（色違い）
+			Description: " "
+		}
+		CubonePetBuff: {
+			DisplayName: カラカラ
+			Description: " "
+		}
+		CubonePetBuffShiny: {
+			DisplayName: カラカラ（色違い）
+			Description: " "
+		}
+		DewgongPetBuff: {
+			DisplayName: ジュゴン
+			Description: " "
+		}
+		DewgongPetBuffShiny: {
+			DisplayName: ジュゴン（色違い）
+			Description: " "
+		}
+		DiglettPetBuff: {
+			DisplayName: ディグダ
+			Description: " "
+		}
+		DiglettPetBuffShiny: {
+			DisplayName: ディグダ（色違い）
+			Description: " "
+		}
+		DittoPetBuff: {
+			DisplayName: メタモン
+			Description: " "
+		}
+		DittoPetBuffShiny: {
+			DisplayName: メタモン（色違い）
+			Description: " "
+		}
+		DodrioPetBuff: {
+			DisplayName: ドードリオ
+			Description: " "
+		}
+		DodrioPetBuffShiny: {
+			DisplayName: ドードリオ（色違い）
+			Description: " "
+		}
+		DoduoPetBuff: {
+			DisplayName: ドードー
+			Description: " "
+		}
+		DoduoPetBuffShiny: {
+			DisplayName: ドードー（色違い）
+			Description: " "
+		}
+		DragonairPetBuff: {
+			DisplayName: ハクリュー
+			Description: " "
+		}
+		DragonairPetBuffShiny: {
+			DisplayName: ハクリュー（色違い）
+			Description: " "
+		}
+		DragonitePetBuff: {
+			DisplayName: カイリュー
+			Description: " "
+		}
+		DragonitePetBuffShiny: {
+			DisplayName: カイリュー（色違い）
+			Description: " "
+		}
+		DratiniPetBuff: {
+			DisplayName: ミニリュウ
+			Description: " "
+		}
+		DratiniPetBuffShiny: {
+			DisplayName: ミニリュウ（色違い）
+			Description: " "
+		}
+		DrowzeePetBuff: {
+			DisplayName: スリープ
+			Description: " "
+		}
+		DrowzeePetBuffShiny: {
+			DisplayName: スリープ（色違い）
+			Description: " "
+		}
+		DugtrioPetBuff: {
+			DisplayName: ダグトリオ
+			Description: " "
+		}
+		DugtrioPetBuffShiny: {
+			DisplayName: ダグトリオ（色違い）
+			Description: " "
+		}
+		ElectabuzzPetBuff: {
+			DisplayName: エレブー
+			Description: " "
+		}
+		ElectabuzzPetBuffShiny: {
+			DisplayName: エレブー（色違い）
+			Description: " "
+		}
+		ExeggcutePetBuff: {
+			DisplayName: タマタマ
+			Description: " "
+		}
+		ExeggcutePetBuffShiny: {
+			DisplayName: タマタマ（色違い）
+			Description: " "
+		}
+		ExeggutorPetBuff: {
+			DisplayName: ナッシー
+			Description: " "
+		}
+		ExeggutorPetBuffShiny: {
+			DisplayName: ナッシー（色違い）
+			Description: " "
+		}
+		FarfetchdPetBuff: {
+			DisplayName: カモネギ
+			Description: " "
+		}
+		FarfetchdPetBuffShiny: {
+			DisplayName: カモネギ（色違い）
+			Description: " "
+		}
+		GengarPetBuff: {
+			DisplayName: ゲンガー
+			Description: " "
+		}
+		GengarPetBuffShiny: {
+			DisplayName: ゲンガー（色違い）
+			Description: " "
+		}
+		GeodudePetBuff: {
+			DisplayName: イシツブテ
+			Description: " "
+		}
+		GeodudePetBuffShiny: {
+			DisplayName: イシツブテ（色違い）
+			Description: " "
+		}
+		GloomPetBuff: {
+			DisplayName: クサイハナ
+			Description: " "
+		}
+		GloomPetBuffShiny: {
+			DisplayName: クサイハナ（色違い）
+			Description: " "
+		}
+		GolbatPetBuff: {
+			DisplayName: ゴルバット
+			Description: " "
+		}
+		GolbatPetBuffShiny: {
+			DisplayName: ゴルバット（色違い）
+			Description: " "
+		}
+		GoldeenPetBuff: {
+			DisplayName: トサキント
+			Description: " "
+		}
+		GoldeenPetBuffShiny: {
+			DisplayName: トサキント（色違い）
+			Description: " "
+		}
+		GolduckPetBuff: {
+			DisplayName: ゴルダック
+			Description: " "
+		}
+		GolduckPetBuffShiny: {
+			DisplayName: ゴルダック（色違い）
+			Description: " "
+		}
+		GolemPetBuff: {
+			DisplayName: ゴローニャ
+			Description: " "
+		}
+		GolemPetBuffShiny: {
+			DisplayName: ゴローニャ（色違い）
+			Description: " "
+		}
+		GravelerPetBuff: {
+			DisplayName: ゴローン
+			Description: " "
+		}
+		GravelerPetBuffShiny: {
+			DisplayName: ゴローン（色違い）
+			Description: " "
+		}
+		GrimerPetBuff: {
+			DisplayName: ベトベター
+			Description: " "
+		}
+		GrimerPetBuffShiny: {
+			DisplayName: ベトベター（色違い）
+			Description: " "
+		}
+		GrowlithePetBuff: {
+			DisplayName: ガーディ
+			Description: " "
+		}
+		GrowlithePetBuffShiny: {
+			DisplayName: ガーディ（色違い）
+			Description: " "
+		}
+		GyaradosPetBuff: {
+			DisplayName: ギャラドス
+			Description: " "
+		}
+		GyaradosPetBuffShiny: {
+			DisplayName: ギャラドス（色違い）
+			Description: " "
+		}
+		HitmonchanPetBuff: {
+			DisplayName: エビワラー
+			Description: " "
+		}
+		HitmonchanPetBuffShiny: {
+			DisplayName: エビワラー（色違い）
+			Description: " "
+		}
+		HitmonleePetBuff: {
+			DisplayName: サワムラー
+			Description: " "
+		}
+		HitmonleePetBuffShiny: {
+			DisplayName: サワムラー（色違い）
+			Description: " "
+		}
+		HorseaPetBuff: {
+			DisplayName: タッツー
+			Description: " "
+		}
+		HorseaPetBuffShiny: {
+			DisplayName: タッツー（色違い）
+			Description: " "
+		}
+		HypnoPetBuff: {
+			DisplayName: スリーパー
+			Description: " "
+		}
+		HypnoPetBuffShiny: {
+			DisplayName: スリーパー（色違い）
+			Description: " "
+		}
+		JigglypuffPetBuff: {
+			DisplayName: プリン
+			Description: " "
+		}
+		JigglypuffPetBuffShiny: {
+			DisplayName: プリン（色違い）
+			Description: " "
+		}
+		JynxPetBuff: {
+			DisplayName: ルージュラ
+			Description: " "
+		}
+		JynxPetBuffShiny: {
+			DisplayName: ルージュラ（色違い）
+			Description: " "
+		}
+		KabutoPetBuff: {
+			DisplayName: カブト
+			Description: " "
+		}
+		KabutoPetBuffShiny: {
+			DisplayName: カブト（色違い）
+			Description: " "
+		}
+		KabutopsPetBuff: {
+			DisplayName: カブトプス
+			Description: " "
+		}
+		KabutopsPetBuffShiny: {
+			DisplayName: カブトプス（色違い）
+			Description: " "
+		}
+		KadabraPetBuff: {
+			DisplayName: ユンゲラー
+			Description: " "
+		}
+		KadabraPetBuffShiny: {
+			DisplayName: ユンゲラー（色違い）
+			Description: " "
+		}
+		KangaskhanPetBuff: {
+			DisplayName: ガルーラ
+			Description: " "
+		}
+		KangaskhanPetBuffShiny: {
+			DisplayName: ガルーラ（色違い）
+			Description: " "
+		}
+		KinglerPetBuff: {
+			DisplayName: キングラー
+			Description: " "
+		}
+		KinglerPetBuffShiny: {
+			DisplayName: キングラー（色違い）
+			Description: " "
+		}
+		KoffingPetBuff: {
+			DisplayName: ドガース
+			Description: " "
+		}
+		KoffingPetBuffShiny: {
+			DisplayName: ドガース（色違い）
+			Description: " "
+		}
+		KrabbyPetBuff: {
+			DisplayName: クラブ
+			Description: " "
+		}
+		KrabbyPetBuffShiny: {
+			DisplayName: クラブ（色違い）
+			Description: " "
+		}
+		LaprasPetBuff: {
+			DisplayName: ラプラス
+			Description: " "
+		}
+		LaprasPetBuffShiny: {
+			DisplayName: ラプラス（色違い）
+			Description: " "
+		}
+		LickitungPetBuff: {
+			DisplayName: ベロリンガ
+			Description: " "
+		}
+		LickitungPetBuffShiny: {
+			DisplayName: ベロリンガ（色違い）
+			Description: " "
+		}
+		MachampPetBuff: {
+			DisplayName: カイリキー
+			Description: " "
+		}
+		MachampPetBuffShiny: {
+			DisplayName: カイリキー（色違い）
+			Description: " "
+		}
+		MachokePetBuff: {
+			DisplayName: ゴーリキー
+			Description: " "
+		}
+		MachokePetBuffShiny: {
+			DisplayName: ゴーリキー（色違い）
+			Description: " "
+		}
+		MachopPetBuff: {
+			DisplayName: ワンリキー
+			Description: " "
+		}
+		MachopPetBuffShiny: {
+			DisplayName: ワンリキー（色違い）
+			Description: " "
+		}
+		MagikarpPetBuff: {
+			DisplayName: コイキング
+			Description: " "
+		}
+		MagikarpPetBuffShiny: {
+			DisplayName: コイキング（色違い）
+			Description: " "
+		}
+		MagmarPetBuff: {
+			DisplayName: ブーバー
+			Description: " "
+		}
+		MagmarPetBuffShiny: {
+			DisplayName: ブーバー（色違い）
+			Description: " "
+		}
+		MankeyPetBuff: {
+			DisplayName: マンキー
+			Description: " "
+		}
+		MankeyPetBuffShiny: {
+			DisplayName: マンキー（色違い）
+			Description: " "
+		}
+		MarowakPetBuff: {
+			DisplayName: ガラガラ
+			Description: " "
+		}
+		MarowakPetBuffShiny: {
+			DisplayName: ガラガラ（色違い）
+			Description: " "
+		}
+		MeowthPetBuff: {
+			DisplayName: ニャース
+			Description: " "
+		}
+		MeowthPetBuffShiny: {
+			DisplayName: ニャース（色違い）
+			Description: " "
+		}
+		MewPetBuff: {
+			DisplayName: ミュウ
+			Description: " "
+		}
+		MewPetBuffShiny: {
+			DisplayName: ミュウ（色違い）
+			Description: " "
+		}
+		MewtwoPetBuff: {
+			DisplayName: ミュウツー
+			Description: " "
+		}
+		MewtwoPetBuffShiny: {
+			DisplayName: ミュウツー（色違い）
+			Description: " "
+		}
+		MoltresPetBuff: {
+			DisplayName: ファイヤー
+			Description: " "
+		}
+		MoltresPetBuffShiny: {
+			DisplayName: ファイヤー（色違い）
+			Description: " "
+		}
+		MrMimePetBuff: {
+			DisplayName: バリヤード
+			Description: " "
+		}
+		MrMimePetBuffShiny: {
+			DisplayName: バリヤード（色違い）
+			Description: " "
+		}
+		MukPetBuff: {
+			DisplayName: ベトベトン
+			Description: " "
+		}
+		MukPetBuffShiny: {
+			DisplayName: ベトベトン（色違い）
+			Description: " "
+		}
+		NinetalesPetBuff: {
+			DisplayName: キュウコン
+			Description: " "
+		}
+		NinetalesPetBuffShiny: {
+			DisplayName: キュウコン（色違い）
+			Description: " "
+		}
+		OddishPetBuff: {
+			DisplayName: ナゾノクサ
+			Description: " "
+		}
+		OddishPetBuffShiny: {
+			DisplayName: ナゾノクサ（色違い）
+			Description: " "
+		}
+		OmanytePetBuff: {
+			DisplayName: オムナイト
+			Description: " "
+		}
+		OmanytePetBuffShiny: {
+			DisplayName: オムナイト（色違い）
+			Description: " "
+		}
+		OmastarPetBuff: {
+			DisplayName: オムスター
+			Description: " "
+		}
+		OmastarPetBuffShiny: {
+			DisplayName: オムスター（色違い）
+			Description: " "
+		}
+		OnixPetBuff: {
+			DisplayName: イワーク
+			Description: " "
+		}
+		OnixPetBuffShiny: {
+			DisplayName: イワーク（色違い）
+			Description: " "
+		}
+		ParasectPetBuff: {
+			DisplayName: パラセクト
+			Description: " "
+		}
+		ParasectPetBuffShiny: {
+			DisplayName: パラセクト（色違い）
+			Description: " "
+		}
+		ParasPetBuff: {
+			DisplayName: パラス
+			Description: " "
+		}
+		ParasPetBuffShiny: {
+			DisplayName: パラス（色違い）
+			Description: " "
+		}
+		PersianPetBuff: {
+			DisplayName: ペルシアン
+			Description: " "
+		}
+		PersianPetBuffShiny: {
+			DisplayName: ペルシアン（色違い）
+			Description: " "
+		}
+		PinsirPetBuff: {
+			DisplayName: カイロス
+			Description: " "
+		}
+		PinsirPetBuffShiny: {
+			DisplayName: カイロス（色違い）
+			Description: " "
+		}
+		PoliwagPetBuff: {
+			DisplayName: ニョロモ
+			Description: " "
+		}
+		PoliwagPetBuffShiny: {
+			DisplayName: ニョロモ（色違い）
+			Description: " "
+		}
+		PoliwhirlPetBuff: {
+			DisplayName: ニョロゾ
+			Description: " "
+		}
+		PoliwhirlPetBuffShiny: {
+			DisplayName: ニョロゾ（色違い）
+			Description: " "
+		}
+		PoliwrathPetBuff: {
+			DisplayName: ニョロボン
+			Description: " "
+		}
+		PoliwrathPetBuffShiny: {
+			DisplayName: ニョロボン（色違い）
+			Description: " "
+		}
+		PonytaPetBuff: {
+			DisplayName: ポニータ
+			Description: " "
+		}
+		PonytaPetBuffShiny: {
+			DisplayName: ポニータ（色違い）
+			Description: " "
+		}
+		PorygonPetBuff: {
+			DisplayName: ポリゴン
+			Description: " "
+		}
+		PorygonPetBuffShiny: {
+			DisplayName: ポリゴン（色違い）
+			Description: " "
+		}
+		PrimeapePetBuff: {
+			DisplayName: オコリザル
+			Description: " "
+		}
+		PrimeapePetBuffShiny: {
+			DisplayName: オコリザル（色違い）
+			Description: " "
+		}
+		PsyduckPetBuff: {
+			DisplayName: コダック
+			Description: " "
+		}
+		PsyduckPetBuffShiny: {
+			DisplayName: コダック（色違い）
+			Description: " "
+		}
+		RapidashPetBuff: {
+			DisplayName: ギャロップ
+			Description: " "
+		}
+		RapidashPetBuffShiny: {
+			DisplayName: ギャロップ（色違い）
+			Description: " "
+		}
+		RhydonPetBuff: {
+			DisplayName: サイドン
+			Description: " "
+		}
+		RhydonPetBuffShiny: {
+			DisplayName: サイドン（色違い）
+			Description: " "
+		}
+		RhyhornPetBuff: {
+			DisplayName: サイホーン
+			Description: " "
+		}
+		RhyhornPetBuffShiny: {
+			DisplayName: サイホーン（色違い）
+			Description: " "
+		}
+		ScytherPetBuff: {
+			DisplayName: ストライク
+			Description: " "
+		}
+		ScytherPetBuffShiny: {
+			DisplayName: ストライク（色違い）
+			Description: " "
+		}
+		SeadraPetBuff: {
+			DisplayName: シードラ
+			Description: " "
+		}
+		SeadraPetBuffShiny: {
+			DisplayName: シードラ（色違い）
+			Description: " "
+		}
+		SeakingPetBuff: {
+			DisplayName: アズマオウ
+			Description: " "
+		}
+		SeakingPetBuffShiny: {
+			DisplayName: アズマオウ（色違い）
+			Description: " "
+		}
+		SeelPetBuff: {
+			DisplayName: パウワウ
+			Description: " "
+		}
+		SeelPetBuffShiny: {
+			DisplayName: パウワウ（色違い）
+			Description: " "
+		}
+		ShellderPetBuff: {
+			DisplayName: シェルダー
+			Description: " "
+		}
+		ShellderPetBuffShiny: {
+			DisplayName: シェルダー（色違い）
+			Description: " "
+		}
+		SlowbroPetBuff: {
+			DisplayName: ヤドラン
+			Description: " "
+		}
+		SlowbroPetBuffShiny: {
+			DisplayName: ヤドラン（色違い）
+			Description: " "
+		}
+		SlowpokePetBuff: {
+			DisplayName: ヤドン
+			Description: " "
+		}
+		SlowpokePetBuffShiny: {
+			DisplayName: ヤドン（色違い）
+			Description: " "
+		}
+		SnorlaxPetBuff: {
+			DisplayName: カビゴン
+			Description: " "
+		}
+		SnorlaxPetBuffShiny: {
+			DisplayName: カビゴン（色違い）
+			Description: " "
+		}
+		StarmiePetBuff: {
+			DisplayName: スターミー
+			Description: " "
+		}
+		StarmiePetBuffShiny: {
+			DisplayName: スターミー（色違い）
+			Description: " "
+		}
+		StaryuPetBuff: {
+			DisplayName: ヒトデマン
+			Description: " "
+		}
+		StaryuPetBuffShiny: {
+			DisplayName: ヒトデマン（色違い）
+			Description: " "
+		}
+		TangelaPetBuff: {
+			DisplayName: モンジャラ
+			Description: " "
+		}
+		TangelaPetBuffShiny: {
+			DisplayName: モンジャラ（色違い）
+			Description: " "
+		}
+		TaurosPetBuff: {
+			DisplayName: ケンタロス
+			Description: " "
+		}
+		TaurosPetBuffShiny: {
+			DisplayName: ケンタロス（色違い）
+			Description: " "
+		}
+		TentacoolPetBuff: {
+			DisplayName: メノクラゲ
+			Description: " "
+		}
+		TentacoolPetBuffShiny: {
+			DisplayName: メノクラゲ（色違い）
+			Description: " "
+		}
+		TentacruelPetBuff: {
+			DisplayName: ドククラゲ
+			Description: " "
+		}
+		TentacruelPetBuffShiny: {
+			DisplayName: ドククラゲ（色違い）
+			Description: " "
+		}
+		VenomothPetBuff: {
+			DisplayName: モルフォン
+			Description: " "
+		}
+		VenomothPetBuffShiny: {
+			DisplayName: モルフォン（色違い）
+			Description: " "
+		}
+		VenonatPetBuff: {
+			DisplayName: コンパン
+			Description: " "
+		}
+		VenonatPetBuffShiny: {
+			DisplayName: コンパン（色違い）
+			Description: " "
+		}
+		VictreebelPetBuff: {
+			DisplayName: ウツボット
+			Description: " "
+		}
+		VictreebelPetBuffShiny: {
+			DisplayName: ウツボット（色違い）
+			Description: " "
+		}
+		VileplumePetBuff: {
+			DisplayName: ラフレシア
+			Description: " "
+		}
+		VileplumePetBuffShiny: {
+			DisplayName: ラフレシア（色違い）
+			Description: " "
+		}
+		VulpixPetBuff: {
+			DisplayName: ロコン
+			Description: " "
+		}
+		VulpixPetBuffShiny: {
+			DisplayName: ロコン（色違い）
+			Description: " "
+		}
+		WeepinbellPetBuff: {
+			DisplayName: ウツドン
+			Description: " "
+		}
+		WeepinbellPetBuffShiny: {
+			DisplayName: ウツドン（色違い）
+			Description: " "
+		}
+		WeezingPetBuff: {
+			DisplayName: マタドガス
+			Description: " "
+		}
+		WeezingPetBuffShiny: {
+			DisplayName: マタドガス（色違い）
+			Description: " "
+		}
+		WigglytuffPetBuff: {
+			DisplayName: プクリン
+			Description: " "
+		}
+		WigglytuffPetBuffShiny: {
+			DisplayName: プクリン（色違い）
+			Description: " "
+		}
+		ZapdosPetBuff: {
+			DisplayName: サンダー
+			Description: " "
+		}
+		ZapdosPetBuffShiny: {
+			DisplayName: サンダー（色違い）
+			Description: " "
+		}
+		ZubatPetBuff: {
+			DisplayName: ズバット
+			Description: " "
+		}
+		ZubatPetBuffShiny: {
+			DisplayName: ズバット（色違い）
+			Description: " "
+		}
+		NidokingPetBuff: {
+			DisplayName: ニドキング
+			Description: " "
+		}
+		NidokingPetBuffShiny: {
+			DisplayName: ニドキング（色違い）
+			Description: " "
+		}
+		NidoqueenPetBuff: {
+			DisplayName: ニドクイン
+			Description: " "
+		}
+		NidoqueenPetBuffShiny: {
+			DisplayName: ニドクイン（色違い）
+			Description: " "
+		}
+		NidoranFPetBuff: {
+			DisplayName: ニドラン♀
+			Description: " "
+		}
+		NidoranFPetBuffShiny: {
+			DisplayName: ニドラン♀（色違い）
+			Description: " "
+		}
+		NidorinaPetBuff: {
+			DisplayName: ニドリーナ
+			Description: " "
+		}
+		NidorinaPetBuffShiny: {
+			DisplayName: ニドリーナ（色違い）
+			Description: " "
+		}
+		PokemonRepel: {
+			DisplayName: ポケモンよけ
+			Description: あなたの近くにポケモンはもう現れない！
+		}
+		BikeBuff: {
+			DisplayName: 自転車
+			Description: でんきタイプには耐性がない。
+		}
+		MegaEvolution: {
+			DisplayName: メガシンカ
+			Description: 強い絆とメガストーンの力で、あなたのポケモンは新たな進化を遂げる！
+		}
+	}
+	NPCs: {
+		EeveeCritterNPC: {
+			DisplayName: イーブイ
+		}
+		PikachuCritterNPC: {
+			DisplayName: ピカチュウ
+		}
+		BulbasaurCritterNPC: {
+			DisplayName: フシギダネ
+		}
+		CharmanderCritterNPC: {
+			DisplayName: ヒトカゲ
+		}
+		SquirtleCritterNPC: {
+			DisplayName: ゼニガメ
+		}
+		ProfOakTravelingMerchant: {
+			DisplayName: ポケモン博士
+		}
+		BulbasaurCritterNPCShiny: {
+			DisplayName: フシギダネ（色違い）
+		}
+		CharmanderCritterNPCShiny: {
+			DisplayName: ヒトカゲ（色違い）
+		}
+		SquirtleCritterNPCShiny: {
+			DisplayName: ゼニガメ（色違い）
+		}
+		BlacephalonCritterNPC: {
+			DisplayName: ズガドーン
+		}
+		EeveeCritterNPCShiny: {
+			DisplayName: イーブイ（色違い）
+		}
+		PikachuCritterNPCShiny: {
+			DisplayName: ピカチュウ（色違い）
+		}
+		ChikoritaCritterNPC: {
+			DisplayName: チコリータ
+		}
+		CharizardCritterNPC: {
+			DisplayName: リザードン
+		}
+		CharizardCritterNPCShiny: {
+			DisplayName: リザードン（色違い）
+		}
+		CharizardMegaXCritterNPC: {
+			DisplayName: メガリザードンX
+		}
+		CharizardMegaXCritterNPCShiny: {
+			DisplayName: メガリザードンX（色違い）
+		}
+		CharizardMegaYritterNPC: {
+			DisplayName: メガリザードンY
+		}
+		CharizardMegaYCritterNPCShiny: {
+			DisplayName: メガリザードンY（色違い）
+		}
+		ChikoritaCritterNPCShiny: {
+			DisplayName: チコリータ（色違い）
+		}
+		CyndaquilCritterNPC: {
+			DisplayName: ヒノアラシ
+		}
+		CyndaquilCritterNPCShiny: {
+			DisplayName: ヒノアラシ（色違い）
+		}
+		BlastoiseCritterNPC: {
+			DisplayName: カメックス
+		}
+		BlastoiseMegaCritterNPC: {
+			DisplayName: メガカメックス
+		}
+		BlastoiseMegaCritterNPCShiny: {
+			DisplayName: メガカメックス（色違い）
+		}
+		BayleefCritterNPCShiny: {
+			DisplayName: ベイリーフ（色違い）
+		}
+		BayleefCritterNPC: {
+			DisplayName: ベイリーフ
+		}
+		BlastoiseCritterNPCShiny: {
+			DisplayName: カメックス（色違い）
+		}
+		CharmeleonCritterNPC: {
+			DisplayName: リザード
+		}
+		CharmeleonCritterNPCShiny: {
+			DisplayName: リザード（色違い）
+		}
+		FlareonCritterNPC: {
+			DisplayName: ブースター
+		}
+		FlareonCritterNPCShiny: {
+			DisplayName: ブースター（色違い）
+		}
+		IvysaurCritterNPC: {
+			DisplayName: フシギソウ
+		}
+		IvysaurCritterNPCShiny: {
+			DisplayName: フシギソウ（色違い）
+		}
+		JolteonCritterNPC: {
+			DisplayName: サンダース
+		}
+		JolteonCritterNPCShiny: {
+			DisplayName: サンダース（色違い）
+		}
+		MeganiumCritterNPC: {
+			DisplayName: メガニウム
+		}
+		MeganiumCritterNPCShiny: {
+			DisplayName: メガニウム（色違い）
+		}
+		RaichuCritterNPC: {
+			DisplayName: ライチュウ
+		}
+		RaichuCritterNPCShiny: {
+			DisplayName: ライチュウ（色違い）
+		}
+		VaporeonCritterNPC: {
+			DisplayName: シャワーズ
+		}
+		VaporeonCritterNPCShiny: {
+			DisplayName: シャワーズ（色違い）
+		}
+		VenusaurCritterNPC: {
+			DisplayName: フシギバナ
+		}
+		VenusaurCritterNPCShiny: {
+			DisplayName: フシギバナ（色違い）
+		}
+		VenusaurMegaCritterNPC: {
+			DisplayName: メガフシギバナ
+		}
+		VenusaurMegaCritterNPCShiny: {
+			DisplayName: メガフシギバナ（色違い）
+		}
+		WartortleCritterNPC: {
+			DisplayName: カメール
+		}
+		WartortleCritterNPCShiny: {
+			DisplayName: カメール（色違い）
+		}
+		CaterpieCritterNPC: {
+			DisplayName: キャタピー
+		}
+		CaterpieCritterNPCShiny: {
+			DisplayName: キャタピー（色違い）
+		}
+		MetapodCritterNPC: {
+			DisplayName: トランセル
+		}
+		MetapodCritterNPCShiny: {
+			DisplayName: トランセル（色違い）
+		}
+		KakunaCritterNPC: {
+			DisplayName: コクーン
+		}
+		KakunaCritterNPCShiny: {
+			DisplayName: コクーン（色違い）
+		}
+		WeedleCritterNPC: {
+			DisplayName: ビードル
+		}
+		WeedleCritterNPCShiny: {
+			DisplayName: ビードル（色違い）
+		}
+		ButterfreeCritterNPC: {
+			DisplayName: バタフリー
+		}
+		ButterfreeCritterNPCShiny: {
+			DisplayName: バタフリー（色違い）
+		}
+		BeedrillCritterNPC: {
+			DisplayName: スピアー
+		}
+		BeedrillCritterNPCShiny: {
+			DisplayName: スピアー（色違い）
+		}
+		GastlyCritterNPC: {
+			DisplayName: ゴース
+		}
+		GastlyCritterNPCShiny: {
+			DisplayName: ゴース（色違い）
+		}
+		VoltorbCritterNPC: {
+			DisplayName: ビリリダマ
+		}
+		VoltorbCritterNPCShiny: {
+			DisplayName: ビリリダマ（色違い）
+		}
+		ElectrodeCritterNPC: {
+			DisplayName: マルマイン
+		}
+		ElectrodeCritterNPCShiny: {
+			DisplayName: マルマイン（色違い）
+		}
+		MagnemiteCritterNPC: {
+			DisplayName: コイル
+		}
+		MagnemiteCritterNPCShiny: {
+			DisplayName: コイル（色違い）
+		}
+		MagnetonCritterNPC: {
+			DisplayName: レアコイル
+		}
+		MagnetonCritterNPCShiny: {
+			DisplayName: レアコイル（色違い）
+		}
+		HaunterCritterNPC: {
+			DisplayName: ゴースト
+		}
+		HaunterCritterNPCShiny: {
+			DisplayName: ゴースト（色違い）
+		}
+		QuilavaCritterNPC: {
+			DisplayName: マグマラシ
+		}
+		QuilavaCritterNPCShiny: {
+			DisplayName: マグマラシ（色違い）
+		}
+		TyphlosionCritterNPC: {
+			DisplayName: バクフーン
+		}
+		TyphlosionCritterNPCShiny: {
+			DisplayName: バクフーン（色違い）
+		}
+		TotodileCritterNPCShiny: {
+			DisplayName: ワニノコ（色違い）
+		}
+		TotodileCritterNPC: {
+			DisplayName: ワニノコ
+		}
+		CroconawCritterNPC: {
+			DisplayName: アリゲイツ
+		}
+		CroconawCritterNPCShiny: {
+			DisplayName: アリゲイツ（色違い）
+		}
+		FeraligatrCritterNPC: {
+			DisplayName: オーダイル
+		}
+		FeraligatrCritterNPCShiny: {
+			DisplayName: オーダイル（色違い）
+		}
+		PidgeotCritterNPC: {
+			DisplayName: ピジョット
+		}
+		PidgeotCritterNPCShiny: {
+			DisplayName: ピジョット（色違い）
+		}
+		PidgeottoCritterNPC: {
+			DisplayName: ピジョン
+		}
+		PidgeottoCritterNPCShiny: {
+			DisplayName: ピジョン（色違い）
+		}
+		PidgeyCritterNPC: {
+			DisplayName: ポッポ
+		}
+		PidgeyCritterNPCShiny: {
+			DisplayName: ポッポ（色違い）
+		}
+		RattataCritterNPC: {
+			DisplayName: コラッタ
+		}
+		RattataCritterNPCShiny: {
+			DisplayName: コラッタ（色違い）
+		}
+		ZeraoraCritterNPC: {
+			DisplayName: ゼラオラ
+		}
+		ZeraoraCritterNPCShiny: {
+			DisplayName: ゼラオラ（色違い）
+		}
+		ChanseyCritterNPC: {
+			DisplayName: ラッキー
+		}
+		ChanseyCritterNPCShiny: {
+			DisplayName: ラッキー（色違い）
+		}
+		NidoranMCritterNPC: {
+			DisplayName: ニドラン♂
+		}
+		NidoranMCritterNPCShiny: {
+			DisplayName: ニドラン♂（色違い）
+		}
+		NidorinoCritterNPC: {
+			DisplayName: ニドリーノ
+		}
+		NidorinoCritterNPCShiny: {
+			DisplayName: ニドリーノ（色違い）
+		}
+		RaticateCritterNPC: {
+			DisplayName: ラッタ
+		}
+		RaticateCritterNPCShiny: {
+			DisplayName: ラッタ（色違い）
+		}
+		FearowCritterNPC: {
+			DisplayName: オニドリル
+		}
+		FearowCritterNPCShiny: {
+			DisplayName: オニドリル（色違い）
+		}
+		SpearowCritterNPC: {
+			DisplayName: オニスズメ
+		}
+		SpearowCritterNPCShiny: {
+			DisplayName: オニスズメ（色違い）
+		}
+		ArbokCritterNPC: {
+			DisplayName: アーボック
+		}
+		ArbokCritterNPCShiny: {
+			DisplayName: アーボック（色違い）
+		}
+		EkansCritterNPC: {
+			DisplayName: アーボ
+		}
+		EkansCritterNPCShiny: {
+			DisplayName: アーボ（色違い）
+		}
+		SandshrewCritterNPC: {
+			DisplayName: サンド
+		}
+		SandshrewCritterNPCShiny: {
+			DisplayName: サンド（色違い）
+		}
+		SandslashCritterNPC: {
+			DisplayName: サンドパン
+		}
+		SandslashCritterNPCShiny: {
+			DisplayName: サンドパン（色違い）
+		}
+		ClefairyCritterNPC: {
+			DisplayName: ピッピ
+		}
+		ClefairyCritterNPCShiny: {
+			DisplayName: ピッピ（色違い）
+		}
+		ClefableCritterNPC: {
+			DisplayName: ピクシー
+		}
+		ClefableCritterNPCShiny: {
+			DisplayName: ピクシー（色違い）
+		}
+		AbraCritterNPC: {
+			DisplayName: ケーシィ
+		}
+		AbraCritterNPCShiny: {
+			DisplayName: ケーシィ（色違い）
+		}
+		AerodactylCritterNPC: {
+			DisplayName: プテラ
+		}
+		AerodactylCritterNPCShiny: {
+			DisplayName: プテラ（色違い）
+		}
+		AlakazamCritterNPC: {
+			DisplayName: フーディン
+		}
+		AlakazamCritterNPCShiny: {
+			DisplayName: フーディン（色違い）
+		}
+		AlakazamMegaCritterNPC: {
+			DisplayName: メガフーディン
+		}
+		AlakazamMegaCritterNPCShiny: {
+			DisplayName: メガフーディン（色違い）
+		}
+		ArcanineCritterNPC: {
+			DisplayName: ウインディ
+		}
+		ArcanineCritterNPCShiny: {
+			DisplayName: ウインディ（色違い）
+		}
+		ArticunoCritterNPC: {
+			DisplayName: フリーザー
+		}
+		ArticunoCritterNPCShiny: {
+			DisplayName: フリーザー（色違い）
+		}
+		BellsproutCritterNPC: {
+			DisplayName: マダツボミ
+		}
+		BellsproutCritterNPCShiny: {
+			DisplayName: マダツボミ（色違い）
+		}
+		CloysterCritterNPC: {
+			DisplayName: パルシェン
+		}
+		CloysterCritterNPCShiny: {
+			DisplayName: パルシェン（色違い）
+		}
+		CuboneCritterNPC: {
+			DisplayName: カラカラ
+		}
+		CuboneCritterNPCShiny: {
+			DisplayName: カラカラ（色違い）
+		}
+		DewgongCritterNPC: {
+			DisplayName: ジュゴン
+		}
+		DewgongCritterNPCShiny: {
+			DisplayName: ジュゴン（色違い）
+		}
+		DiglettCritterNPC: {
+			DisplayName: ディグダ
+		}
+		DiglettCritterNPCShiny: {
+			DisplayName: ディグダ（色違い）
+		}
+		DittoCritterNPC: {
+			DisplayName: メタモン
+		}
+		DittoCritterNPCShiny: {
+			DisplayName: メタモン（色違い）
+		}
+		DodrioCritterNPC: {
+			DisplayName: ドードリオ
+		}
+		DodrioCritterNPCShiny: {
+			DisplayName: ドードリオ（色違い）
+		}
+		DoduoCritterNPC: {
+			DisplayName: ドードー
+		}
+		DoduoCritterNPCShiny: {
+			DisplayName: ドードー（色違い）
+		}
+		DragonairCritterNPC: {
+			DisplayName: ハクリュー
+		}
+		DragonairCritterNPCShiny: {
+			DisplayName: ハクリュー（色違い）
+		}
+		DragoniteCritterNPC: {
+			DisplayName: カイリュー
+		}
+		DragoniteCritterNPCShiny: {
+			DisplayName: カイリュー（色違い）
+		}
+		DratiniCritterNPC: {
+			DisplayName: ミニリュウ
+		}
+		DratiniCritterNPCShiny: {
+			DisplayName: ミニリュウ（色違い）
+		}
+		DrowzeeCritterNPC: {
+			DisplayName: スリープ
+		}
+		DrowzeeCritterNPCShiny: {
+			DisplayName: スリープ（色違い）
+		}
+		DugtrioCritterNPC: {
+			DisplayName: ダグトリオ
+		}
+		DugtrioCritterNPCShiny: {
+			DisplayName: ダグトリオ（色違い）
+		}
+		ElectabuzzCritterNPC: {
+			DisplayName: エレブー
+		}
+		ElectabuzzCritterNPCShiny: {
+			DisplayName: エレブー（色違い）
+		}
+		ExeggcuteCritterNPC: {
+			DisplayName: タマタマ
+		}
+		ExeggcuteCritterNPCShiny: {
+			DisplayName: タマタマ（色違い）
+		}
+		ExeggutorCritterNPC: {
+			DisplayName: ナッシー
+		}
+		ExeggutorCritterNPCShiny: {
+			DisplayName: ナッシー（色違い）
+		}
+		FarfetchdCritterNPC: {
+			DisplayName: カモネギ
+		}
+		FarfetchdCritterNPCShiny: {
+			DisplayName: カモネギ（色違い）
+		}
+		GengarCritterNPC: {
+			DisplayName: ゲンガー
+		}
+		GengarCritterNPCShiny: {
+			DisplayName: ゲンガー（色違い）
+		}
+		GengarMegaCritterNPC: {
+			DisplayName: メガゲンガー
+		}
+		GengarMegaCritterNPCShiny: {
+			DisplayName: メガゲンガー（色違い）
+		}
+		GeodudeCritterNPC: {
+			DisplayName: イシツブテ
+		}
+		GeodudeCritterNPCShiny: {
+			DisplayName: イシツブテ（色違い）
+		}
+		GloomCritterNPC: {
+			DisplayName: クサイハナ
+		}
+		GloomCritterNPCShiny: {
+			DisplayName: クサイハナ（色違い）
+		}
+		GolbatCritterNPC: {
+			DisplayName: ゴルバット
+		}
+		GolbatCritterNPCShiny: {
+			DisplayName: ゴルバット（色違い）
+		}
+		GoldeenCritterNPC: {
+			DisplayName: トサキント
+		}
+		GoldeenCritterNPCShiny: {
+			DisplayName: トサキント（色違い）
+		}
+		GolduckCritterNPC: {
+			DisplayName: ゴルダック
+		}
+		GolduckCritterNPCShiny: {
+			DisplayName: ゴルダック（色違い）
+		}
+		GolemCritterNPC: {
+			DisplayName: ゴローニャ
+		}
+		GolemCritterNPCShiny: {
+			DisplayName: ゴローニャ（色違い）
+		}
+		GravelerCritterNPC: {
+			DisplayName: ゴローン
+		}
+		GravelerCritterNPCShiny: {
+			DisplayName: ゴローン（色違い）
+		}
+		GrimerCritterNPC: {
+			DisplayName: ベトベター
+		}
+		GrimerCritterNPCShiny: {
+			DisplayName: ベトベター（色違い）
+		}
+		GrowlitheCritterNPC: {
+			DisplayName: ガーディ
+		}
+		GrowlitheCritterNPCShiny: {
+			DisplayName: ガーディ（色違い）
+		}
+		GyaradosCritterNPC: {
+			DisplayName: ギャラドス
+		}
+		GyaradosCritterNPCShiny: {
+			DisplayName: ギャラドス（色違い）
+		}
+		GyaradosMegaCritterNPC: {
+			DisplayName: メガギャラドス
+		}
+		GyaradosMegaCritterNPCShiny: {
+			DisplayName: メガギャラドス（色違い）
+		}
+		HitmonchanCritterNPC: {
+			DisplayName: エビワラー
+		}
+		HitmonchanCritterNPCShiny: {
+			DisplayName: エビワラー（色違い）
+		}
+		HitmonleeCritterNPC: {
+			DisplayName: サワムラー
+		}
+		HitmonleeCritterNPCShiny: {
+			DisplayName: サワムラー（色違い）
+		}
+		HorseaCritterNPC: {
+			DisplayName: タッツー
+		}
+		HorseaCritterNPCShiny: {
+			DisplayName: タッツー（色違い）
+		}
+		HypnoCritterNPC: {
+			DisplayName: スリーパー
+		}
+		HypnoCritterNPCShiny: {
+			DisplayName: スリーパー（色違い）
+		}
+		JigglypuffCritterNPC: {
+			DisplayName: プリン
+		}
+		JigglypuffCritterNPCShiny: {
+			DisplayName: プリン（色違い）
+		}
+		JynxCritterNPC: {
+			DisplayName: ルージュラ
+		}
+		JynxCritterNPCShiny: {
+			DisplayName: ルージュラ（色違い）
+		}
+		KabutoCritterNPC: {
+			DisplayName: カブト
+		}
+		KabutoCritterNPCShiny: {
+			DisplayName: カブト（色違い）
+		}
+		KabutopsCritterNPC: {
+			DisplayName: カブトプス
+		}
+		KabutopsCritterNPCShiny: {
+			DisplayName: カブトプス（色違い）
+		}
+		KadabraCritterNPC: {
+			DisplayName: ユンゲラー
+		}
+		KadabraCritterNPCShiny: {
+			DisplayName: ユンゲラー（色違い）
+		}
+		KangaskhanCritterNPC: {
+			DisplayName: ガルーラ
+		}
+		KangaskhanCritterNPCShiny: {
+			DisplayName: ガルーラ（色違い）
+		}
+		KinglerCritterNPC: {
+			DisplayName: キングラー
+		}
+		KinglerCritterNPCShiny: {
+			DisplayName: キングラー（色違い）
+		}
+		KoffingCritterNPC: {
+			DisplayName: ドガース
+		}
+		KoffingCritterNPCShiny: {
+			DisplayName: ドガース（色違い）
+		}
+		KrabbyCritterNPC: {
+			DisplayName: クラブ
+		}
+		KrabbyCritterNPCShiny: {
+			DisplayName: クラブ（色違い）
+		}
+		LaprasCritterNPC: {
+			DisplayName: ラプラス
+		}
+		LaprasCritterNPCShiny: {
+			DisplayName: ラプラス（色違い）
+		}
+		LickitungCritterNPC: {
+			DisplayName: ベロリンガ
+		}
+		LickitungCritterNPCShiny: {
+			DisplayName: ベロリンガ（色違い）
+		}
+		MachampCritterNPC: {
+			DisplayName: カイリキー
+		}
+		MachampCritterNPCShiny: {
+			DisplayName: カイリキー（色違い）
+		}
+		MachokeCritterNPC: {
+			DisplayName: ゴーリキー
+		}
+		MachokeCritterNPCShiny: {
+			DisplayName: ゴーリキー（色違い）
+		}
+		MachopCritterNPC: {
+			DisplayName: ワンリキー
+		}
+		MachopCritterNPCShiny: {
+			DisplayName: ワンリキー（色違い）
+		}
+		MagikarpCritterNPC: {
+			DisplayName: コイキング
+		}
+		MagikarpCritterNPCShiny: {
+			DisplayName: コイキング（色違い）
+		}
+		MagmarCritterNPC: {
+			DisplayName: ブーバー
+		}
+		MagmarCritterNPCShiny: {
+			DisplayName: ブーバー（色違い）
+		}
+		MankeyCritterNPC: {
+			DisplayName: マンキー
+		}
+		MankeyCritterNPCShiny: {
+			DisplayName: マンキー（色違い）
+		}
+		MarowakCritterNPC: {
+			DisplayName: ガラガラ
+		}
+		MarowakCritterNPCShiny: {
+			DisplayName: ガラガラ（色違い）
+		}
+		MeowthCritterNPC: {
+			DisplayName: ニャース
+		}
+		MeowthCritterNPCShiny: {
+			DisplayName: ニャース（色違い）
+		}
+		MewCritterNPC: {
+			DisplayName: ミュウ
+		}
+		MewCritterNPCShiny: {
+			DisplayName: ミュウ（色違い）
+		}
+		MewtwoCritterNPC: {
+			DisplayName: ミュウツー
+		}
+		MewtwoCritterNPCShiny: {
+			DisplayName: ミュウツー（色違い）
+		}
+		MoltresCritterNPC: {
+			DisplayName: ファイヤー
+		}
+		MoltresCritterNPCShiny: {
+			DisplayName: ファイヤー（色違い）
+		}
+		MrMimeCritterNPC: {
+			DisplayName: バリヤード
+		}
+		MrMimeCritterNPCShiny: {
+			DisplayName: バリヤード（色違い）
+		}
+		MukCritterNPC: {
+			DisplayName: ベトベトン
+		}
+		MukCritterNPCShiny: {
+			DisplayName: ベトベトン（色違い）
+		}
+		NidokingCritterNPC: {
+			DisplayName: ニドキング
+		}
+		NidokingCritterNPCShiny: {
+			DisplayName: ニドキング（色違い）
+		}
+		NidoqueenCritterNPC: {
+			DisplayName: ニドクイン
+		}
+		NidoqueenCritterNPCShiny: {
+			DisplayName: ニドクイン（色違い）
+		}
+		NidoranFCritterNPC: {
+			DisplayName: ニドラン♀
+		}
+		NidoranFCritterNPCShiny: {
+			DisplayName: ニドラン♀（色違い）
+		}
+		NidorinaCritterNPC: {
+			DisplayName: ニドリーナ
+		}
+		NidorinaCritterNPCShiny: {
+			DisplayName: ニドリーナ（色違い）
+		}
+		NinetalesCritterNPC: {
+			DisplayName: キュウコン
+		}
+		NinetalesCritterNPCShiny: {
+			DisplayName: キュウコン（色違い）
+		}
+		OddishCritterNPC: {
+			DisplayName: ナゾノクサ
+		}
+		OddishCritterNPCShiny: {
+			DisplayName: ナゾノクサ（色違い）
+		}
+		OmanyteCritterNPC: {
+			DisplayName: オムナイト
+		}
+		OmanyteCritterNPCShiny: {
+			DisplayName: オムナイト（色違い）
+		}
+		OmastarCritterNPC: {
+			DisplayName: オムスター
+		}
+		OmastarCritterNPCShiny: {
+			DisplayName: オムスター（色違い）
+		}
+		OnixCritterNPC: {
+			DisplayName: イワーク
+		}
+		OnixCritterNPCShiny: {
+			DisplayName: イワーク（色違い）
+		}
+		ParasCritterNPC: {
+			DisplayName: パラス
+		}
+		ParasCritterNPCShiny: {
+			DisplayName: パラス（色違い）
+		}
+		ParasectCritterNPC: {
+			DisplayName: パラセクト
+		}
+		ParasectCritterNPCShiny: {
+			DisplayName: パラセクト（色違い）
+		}
+		PersianCritterNPC: {
+			DisplayName: ペルシアン
+		}
+		PersianCritterNPCShiny: {
+			DisplayName: ペルシアン（色違い）
+		}
+		PinsirCritterNPC: {
+			DisplayName: カイロス
+		}
+		PinsirCritterNPCShiny: {
+			DisplayName: カイロス（色違い）
+		}
+		PoliwagCritterNPC: {
+			DisplayName: ニョロモ
+		}
+		PoliwagCritterNPCShiny: {
+			DisplayName: ニョロモ（色違い）
+		}
+		PoliwhirlCritterNPC: {
+			DisplayName: ニョロゾ
+		}
+		PoliwhirlCritterNPCShiny: {
+			DisplayName: ニョロゾ（色違い）
+		}
+		PoliwrathCritterNPC: {
+			DisplayName: ニョロボン
+		}
+		PoliwrathCritterNPCShiny: {
+			DisplayName: ニョロボン（色違い）
+		}
+		PonytaCritterNPC: {
+			DisplayName: ポニータ
+		}
+		PonytaCritterNPCShiny: {
+			DisplayName: ポニータ（色違い）
+		}
+		PorygonCritterNPC: {
+			DisplayName: ポリゴン
+		}
+		PorygonCritterNPCShiny: {
+			DisplayName: ポリゴン（色違い）
+		}
+		PrimeapeCritterNPC: {
+			DisplayName: オコリザル
+		}
+		PrimeapeCritterNPCShiny: {
+			DisplayName: オコリザル（色違い）
+		}
+		PsyduckCritterNPC: {
+			DisplayName: コダック
+		}
+		PsyduckCritterNPCShiny: {
+			DisplayName: コダック（色違い）
+		}
+		RapidashCritterNPC: {
+			DisplayName: ギャロップ
+		}
+		RapidashCritterNPCShiny: {
+			DisplayName: ギャロップ（色違い）
+		}
+		RhydonCritterNPC: {
+			DisplayName: サイドン
+		}
+		RhydonCritterNPCShiny: {
+			DisplayName: サイドン（色違い）
+		}
+		RhyhornCritterNPC: {
+			DisplayName: サイホーン
+		}
+		RhyhornCritterNPCShiny: {
+			DisplayName: サイホーン（色違い）
+		}
+		ScytherCritterNPC: {
+			DisplayName: ストライク
+		}
+		ScytherCritterNPCShiny: {
+			DisplayName: ストライク（色違い）
+		}
+		SeadraCritterNPC: {
+			DisplayName: シードラ
+		}
+		SeadraCritterNPCShiny: {
+			DisplayName: シードラ（色違い）
+		}
+		SeakingCritterNPC: {
+			DisplayName: アズマオウ
+		}
+		SeakingCritterNPCShiny: {
+			DisplayName: アズマオウ（色違い）
+		}
+		SeelCritterNPC: {
+			DisplayName: パウワウ
+		}
+		SeelCritterNPCShiny: {
+			DisplayName: パウワウ（色違い）
+		}
+		ShellderCritterNPC: {
+			DisplayName: シェルダー
+		}
+		ShellderCritterNPCShiny: {
+			DisplayName: シェルダー（色違い）
+		}
+		SlowbroCritterNPC: {
+			DisplayName: ヤドラン
+		}
+		SlowbroCritterNPCShiny: {
+			DisplayName: ヤドラン（色違い）
+		}
+		SlowpokeCritterNPC: {
+			DisplayName: ヤドン
+		}
+		SlowpokeCritterNPCShiny: {
+			DisplayName: ヤドン（色違い）
+		}
+		SnorlaxCritterNPC: {
+			DisplayName: カビゴン
+		}
+		SnorlaxCritterNPCShiny: {
+			DisplayName: カビゴン（色違い）
+		}
+		StarmieCritterNPC: {
+			DisplayName: スターミー
+		}
+		StarmieCritterNPCShiny: {
+			DisplayName: スターミー（色違い）
+		}
+		StaryuCritterNPC: {
+			DisplayName: ヒトデマン
+		}
+		StaryuCritterNPCShiny: {
+			DisplayName: ヒトデマン（色違い）
+		}
+		TangelaCritterNPC: {
+			DisplayName: モンジャラ
+		}
+		TangelaCritterNPCShiny: {
+			DisplayName: モンジャラ（色違い）
+		}
+		TaurosCritterNPC: {
+			DisplayName: ケンタロス
+		}
+		TaurosCritterNPCShiny: {
+			DisplayName: ケンタロス（色違い）
+		}
+		TentacoolCritterNPC: {
+			DisplayName: メノクラゲ
+		}
+		TentacoolCritterNPCShiny: {
+			DisplayName: メノクラゲ（色違い）
+		}
+		TentacruelCritterNPC: {
+			DisplayName: ドククラゲ
+		}
+		TentacruelCritterNPCShiny: {
+			DisplayName: ドククラゲ（色違い）
+		}
+		VenomothCritterNPC: {
+			DisplayName: モルフォン
+		}
+		VenomothCritterNPCShiny: {
+			DisplayName: モルフォン（色違い）
+		}
+		VenonatCritterNPC: {
+			DisplayName: コンパン
+		}
+		VenonatCritterNPCShiny: {
+			DisplayName: コンパン（色違い）
+		}
+		VictreebelCritterNPC: {
+			DisplayName: ウツボット
+		}
+		VictreebelCritterNPCShiny: {
+			DisplayName: ウツボット（色違い）
+		}
+		VileplumeCritterNPC: {
+			DisplayName: ラフレシア
+		}
+		VileplumeCritterNPCShiny: {
+			DisplayName: ラフレシア（色違い）
+		}
+		VulpixCritterNPC: {
+			DisplayName: ロコン
+		}
+		VulpixCritterNPCShiny: {
+			DisplayName: ロコン（色違い）
+		}
+		WeepinbellCritterNPC: {
+			DisplayName: ウツドン
+		}
+		WeepinbellCritterNPCShiny: {
+			DisplayName: ウツドン（色違い）
+		}
+		WeezingCritterNPC: {
+			DisplayName: マタドガス
+		}
+		WeezingCritterNPCShiny: {
+			DisplayName: マタドガス（色違い）
+		}
+		WigglytuffCritterNPC: {
+			DisplayName: プクリン
+		}
+		WigglytuffCritterNPCShiny: {
+			DisplayName: プクリン（色違い）
+		}
+		ZapdosCritterNPC: {
+			DisplayName: サンダー
+		}
+		ZapdosCritterNPCShiny: {
+			DisplayName: サンダー（色違い）
+		}
+		ZubatCritterNPC: {
+			DisplayName: ズバット
+		}
+		ZubatCritterNPCShiny: {
+			DisplayName: ズバット（色違い）
+		}
+		JoltikCritterNPC: {
+			DisplayName: バチュル
+		}
+		JoltikCritterNPCShiny: {
+			DisplayName: バチュル（色違い）
+		}
+		GalvantulaCritterNPC: {
+			DisplayName: デンチュラ
+		}
+		GalvantulaCritterNPCShiny: {
+			DisplayName: デンチュラ（色違い）
+		}
+		FishermanTrainer: {
+			DisplayName: つりびとトレーナー
+		}
+	}
+	Dialogue: {
+		ProfOakTravelingMerchant: {
+			StandardDialogue1: やあ！ Pokémodの世界へようこそ！ わしの名前はオーキド！ みんなからはポケモン博士と呼ばれておる。
+			StandardDialogue2: ポケモンをペットにする者もおれば、戦いに使う者もおる。わしは… ポケモンを職業として研究しておる。
+			StandardDialogue3: 君が旅を始めるために必要なものはすべてわしが与えよう！
+		}
+		FishermanTrainer: {
+			StandardDialogue1: こんにちは、釣りに興味はありますか？
+		}
+	}
+	Tiles: {
+		ApricornPlant: {
+			MapEntry: ぼんぐりの木
+		}
+		PokeballItemTile: {
+			MapEntry: モンスターボールアイテム
+		}
+		PokeHealerTile: {
+			MapEntry: ポケモンヒーラー
+		}
+		PCChest: {
+			MapEntry0: Mods.Pokemod.Tiles.PCChest.MapEntry0
+			MapEntry1: Mods.Pokemod.Tiles.PCChest.MapEntry1
+		}
+		BlueHealerTile: {
+			MapEntry: ブルーヒーラータイル
+		}
+		GreenHealerTile: {
+			MapEntry: グリーンヒーラータイル
+		}
+		OrangeHealerTile: {
+			MapEntry: オレンジヒーラータイル
+		}
+		PinkHealerTile: {
+			MapEntry: ピンクヒーラータイル
+		}
+	}
+	WorldGen: {
+		PokeballItemTilePassMessage: Mods.Pokemod.WorldGen.PokeballItemTilePassMessage
+		PokemonCenterPassMessage: Mods.Pokemod.WorldGen.PokemonCenterPassMessage
+	}
+	PokemonInfo: {
+		Fainted: ひんし
+		CaughtIn: "{0}で捕獲した"
+		CaughtInBy: "{1}が{0}で捕獲"
+		LevelUp: "{0}はレベル{1}になった"
+		FaintedMsg: ポケモンがひんしになった！
+		PokemonDamageBoost: "ポケモンのダメージを{0}増加させる"
+		PokemonMaxBoost: "ポケモンの最大数を{0}増加させる"
+		ItemUse: ポケモンに使うか、対応するモンスターボールを右クリックして使用する
+		ItemActiveUse: 手持ちのポケモンをクリックして使用する
+		ItemNoActiveUse: 対応するモンスターボールを右クリックして使用する
+		GloveTooltip: "[c/ffd51c:現在のモード: {0}]"
+		GloveTooltipLeft: "左クリックでポケモンに{0}を行わせる"
+		GloveTooltipRight: "右クリックでポケモンに{0}を行わせる"
+		AutoAttack: 自動攻撃
+		NoAttack: 攻撃なし
+		DirectedAttack: 指示攻撃
+		RanAway: ポケモンは逃げ出した…
+		WrongType: タイプが違う
+		NoMoveAvailable: 利用可能な技がない
+	}
+	MoveLearnUI: {
+		MoveLearn: "{0}は新しい技を覚えたがっている、どの技を忘れさせる？"
+		Forget: 選択した技を忘れさせる
+		NotLearn: 覚えない
+	}
+	PokemonNatures: {
+		Nature: せいかく
+		Adamant: いじっぱり
+		Bashful: てれや
+		Bold: ずぶとい
+		Brave: ゆうかん
+		Calm: おだやか
+		Careful: しんちょう
+		Docile: すなお
+		Gentle: おとなしい
+		Hardy: がんばりや
+		Hasty: せっかち
+		Impish: わんぱく
+		Jolly: ようき
+		Lax: のうてんき
+		Lonely: さみしがり
+		Mild: おっとり
+		Modest: ひかえめ
+		Naive: むじゃき
+		Naughty: やんちゃ
+		Quiet: れいせい
+		Quirky: きまぐれ
+		Rash: うっかりや
+		Relaxed: のんき
+		Sassy: なまいき
+		Serious: まじめ
+		Timid: おくびょう
+	}
+	DamageClasses: {
+		PokemonDamageClass: {
+			DisplayName: ポケモンダメージクラス
+		}
+	}
+	Configs: {
+		BetaMonsConfig: {
+			DisplayName: ベータ版ポケモン設定
+			Headers: {
+				Items: アイテムヘッダー
+			}
+			BetaMonsToggle: {
+				Label: ベータ版ポケモン切り替え
+				Tooltip: ""
+			}
+		}
+		GameplayConfig: {
+			DisplayName: ゲームプレイ設定
+			Headers: {
+				PokemonWorld: ポケモンの世界
+				RuleChanges: ルール変更
+			}
+			PokemonSpawnMultiplier: {
+				Label: ポケモン出現倍率
+				Tooltip: ""
+			}
+			RandomizedStarters: {
+				Label: 御三家のランダム化
+				Tooltip: ""
+			}
+			RandomizedEvolutions: {
+				Label: 進化のランダム化
+				Tooltip: ""
+			}
+			ReleaseFaintedPokemon: {
+				Label: ひんしになったポケモンを逃がす
+				Tooltip: ""
+			}
+		}
+	}
+}

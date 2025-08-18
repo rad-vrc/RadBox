@@ -1,0 +1,127 @@
+NPCs: {
+	EmpressOfLight: {
+		DisplayName: エンプレスオブライト
+	}
+
+	Lacewing: {
+		DisplayName: クサカゲロウ
+	}
+}
+
+Projectiles: {
+	PrismaticBolt: {
+		DisplayName: プリズマティックボルト
+	}
+
+	LightLance: {
+		DisplayName: ライトランス
+	}
+
+	AcceleratingLightLance: {
+		DisplayName: ライトランス
+	}
+
+	AcceleratingRainbow: {
+		DisplayName: レインボー
+	}
+
+	SpinningTerraprisma: {
+		DisplayName: テラプリズマ
+	}
+
+	DazzlingPetal: {
+		DisplayName: 眩しい花弁
+	}
+
+	StarBolt: {
+		DisplayName: スターボルト
+	}
+
+	PrismaticBurst: {
+		DisplayName: プリズマティックバースト
+	}
+
+	DazzlingTornado: {
+		DisplayName: 眩しい竜巻
+	}
+
+	EmpressOrbitingTerraprisma: {
+		DisplayName: テラプリズマ
+	}
+
+	ConvergingMoonlight: {
+		DisplayName: 収束する月光
+	}
+
+	DazzlingDeathray: {
+		DisplayName: 眩しいデスレイ
+	}
+
+	MagicCircle: {
+		DisplayName: 魔法陣
+	}
+
+	HomingLacewing: {
+		DisplayName: クサカゲロウ
+	}
+
+	LanceWallTelegraph: {
+		DisplayName: ランスウォールテレグラフ
+	}
+
+	RainbowRiftArrow: {
+		DisplayName: レインボーリフトアロー
+	}
+
+	SilverReleaseLanternProj: {
+		DisplayName: シルバーリリースランタン
+	}
+
+	GlowingAurora: {
+		DisplayName: 輝くオーロラ
+	}
+}
+
+Configs: {
+	WoTEConfig: {
+		DisplayName: クライアントサイド設定
+
+		PhotosensitivityMode: {
+			Label: 光過敏症モード
+			Tooltip: 光過敏症の理由により、特に速いまたは視覚的に激しいエフェクトを抑制するかどうか
+		}
+	}
+}
+
+Buffs: {
+	GracedWings: {
+		DisplayName: 恩恵の翼
+		Description: 皇后があなたと共に舞うことを許している
+	}
+}
+
+Items: {
+	SilverReleaseLantern: {
+		DisplayName: シルバーリリースランタン
+		Tooltip: エンプレスオブライトと戦闘を行う
+	}
+}
+
+Dialogue: {
+	BaseIntroduction: 祝福された者よ…今宵は銀の月の光の下で共に舞いましょう
+	DayIntroduction: 祝福された者よ…栄光ある太陽の下で共に舞いましょう
+	BloodMoonIntroduction: 祝福された者よ…この夜は緋色に染まっています。それでも、私たちは舞いましょう
+	EclipseIntroduction: 祝福された者よ…この日は太陽と月の調和です。その下で、私たちは舞いましょう
+	AngryIntroduction: 「無礼者め！」
+}
+
+MenuThemes: {
+	GloriousDawnMainMenu: {
+		DisplayName: 栄光の夜明け
+	}
+
+	GlimmerdewBlessedMoonlightMainMenu: {
+		DisplayName: 煌露に祝福された月光
+	}
+}
+

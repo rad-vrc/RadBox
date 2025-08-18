@@ -1,0 +1,672 @@
+EmptyHand: 手ぶら
+
+Configs: {
+	ModernConfigTitle: 設定センター
+
+	ColorVector: {
+		mapColorAlpha: {
+			Label: グラデーション
+			Tooltip: グラデーションの係数
+		}
+
+		weaponColorAlpha: {
+			Label: 対角
+			Tooltip: 武器の対角色の係数
+		}
+
+		heatMapAlpha: {
+			Label: ヒートマップ
+			Tooltip: ヒートマップ係数
+		}
+
+		normalize: {
+			Label: 正規化
+			Tooltip: 「はい」にすると、ドット積((1,1,1),ColorVector)は1になります
+		}
+
+		Tooltip: ""
+
+		useLessValues: {
+			Label: 小さい値を使用
+			Tooltip: ""
+		}
+	}
+
+	HeatMapCreateStyle: {
+		Tooltip: ""
+
+		ByFunction: {
+			Label: 関数から
+		}
+
+		FromTexturePixel: {
+			Label: テクスチャピクセルから
+		}
+
+		Designate: {
+			Label: 指定
+		}
+
+		CosineGenerate: {
+			Label: コサイン生成
+		}
+
+		CosineGenerate_RGB: {
+			Label: コサイン生成_RGB
+		}
+
+		CosineGenerate_HSL: {
+			Label: コサイン生成_HSL
+		}
+	}
+
+	HeatMapFactorStyle: {
+		Tooltip: ""
+
+		Linear: {
+			Label: 線形
+		}
+
+		Floor: {
+			Label: 切り捨て
+		}
+
+		Quadratic: {
+			Label: 二次式
+		}
+
+		SquareRoot: {
+			Label: 平方根
+		}
+
+		SmoothFloor: {
+			Label: スムーズ床
+		}
+	}
+
+	MeleeConfig: {
+		DisplayName: 近接武器設定
+
+		Headers: {
+			MeleeModifyPart: "[i:1199]近接武器視覚効果設定"
+			RenderingPart: "[i:2012]レンダリング設定"
+			EffectPart: "[i:3541]特殊効果設定"
+			MiscPart: "[i:1344]その他の設定"
+		}
+
+		UsePreview: {
+			Label: プレビューを使用
+			Tooltip: ""
+		}
+
+		SwordModifyActive: {
+			Label: 近接武器改造を有効化
+			Tooltip: ""
+		}
+
+		swooshActionStyle: {
+			Label: 実行シーケンス
+			Tooltip: ""
+		}
+
+		baseIndexSwoosh: {
+			Label: 斬撃の形状テクスチャスタイル
+			Tooltip: ""
+		}
+
+		animateIndexSwoosh: {
+			Label: 斬撃アニメーションのテクスチャスタイル
+			Tooltip: ""
+		}
+
+		baseIndexStab: {
+			Label: 突きの形状テクスチャスタイル
+			Tooltip: ""
+		}
+
+		animateIndexStab: {
+			Label: 突きアニメーションのテクスチャスタイル
+			Tooltip: ""
+		}
+
+		swooshTimeLeft: {
+			Label: 残りスウッシュ時間
+			Tooltip: ""
+		}
+
+		shake: {
+			Label: 画面揺れの強さ
+			Tooltip: ""
+		}
+
+		swingAttackTime: {
+			Label: 斬撃の最大時間（現在未使用）
+			Tooltip: ""
+		}
+
+		glowLight: {
+			Label: Minecraftのエンチャント風発光
+			Tooltip: ""
+		}
+
+		dustQuantity: {
+			Label: 粒子の量
+			Tooltip: ""
+		}
+
+		weaponExtraLight: {
+			Label: 武器の追加発光
+			Tooltip: ""
+		}
+
+		colorVector: {
+			Label: 色の係数ベクトル
+			Tooltip: ""
+		}
+
+		alphaFactor: {
+			Label: 透明度の係数
+			Tooltip: ""
+		}
+
+		isLighterDecider: {
+			Label: 明るい武器の基準
+			Tooltip: ""
+		}
+
+		itemAdditive: {
+			Label: 武器および斬撃エフェクトを半透明・強調表示
+			Tooltip: ""
+		}
+
+		heatMapCreateStyle: {
+			Label: ヒートマップ生成スタイル
+			Tooltip: ""
+		}
+
+		heatMapFactorStyle: {
+			Label: ヒートマップ係数のスタイル
+			Tooltip: ""
+		}
+
+		hueOffsetRange: {
+			Label: 色相のオフセット範囲
+			Tooltip: ""
+		}
+
+		hueOffsetValue: {
+			Label: 元の色相のオフセット値[i:2870]
+			Tooltip: ""
+		}
+
+		saturationScalar: {
+			Label: 彩度の係数
+			Tooltip: ""
+		}
+
+		saturationRange: {
+			Label: 元の彩度のオフセット範囲
+			Tooltip: ""
+		}
+
+		saturationOffsetValue: {
+			Label: 元の彩度のオフセット値
+			Tooltip: ""
+		}
+
+		luminosityScalar: {
+			Label: 輝度の係数
+			Tooltip: ""
+		}
+
+		luminosityRange: {
+			Label: 元の輝度のオフセット範囲
+			Tooltip: ""
+		}
+
+		luminosityOffsetValue: {
+			Label: 元の輝度のオフセット値
+			Tooltip: ""
+		}
+
+		directOfHeatMap: {
+			Label: カラーバーのオフセット角度
+			Tooltip: ""
+		}
+
+		heatMapColors: {
+			Label: 指定ヒートマップの色リスト
+			Tooltip: ""
+		}
+
+		showHeatMap: {
+			Label: ヒートマップを表示
+			Tooltip: ""
+		}
+
+		distortConfigs: {
+			Label: 空気ゆがみエフェクト
+			Tooltip: ""
+		}
+
+		bloomConfigs: {
+			Label: ブルームエフェクト
+			Tooltip: ""
+		}
+
+		maskConfigs: {
+			Label: 星空マスクエフェクト
+			Tooltip: ""
+		}
+
+		dyeConfigs: {
+			Label: 染色エフェクト
+			Tooltip: 今日の色合いはどれにする？
+		}
+
+		useRenderEffectPVInOtherConfig: {
+			Label: 他のプレビューにも特殊効果を適用
+			Tooltip: ""
+		}
+
+		byFuncData: {
+			Label: 関数指定データ
+			Tooltip: ""
+		}
+
+		rgbData: {
+			Label: RGBデータ
+			Tooltip: ""
+		}
+
+		hslData: {
+			Label: HSLデータ
+			Tooltip: ""
+		}
+
+		designateData: {
+			Label: 指定データ
+			Tooltip: ""
+		}
+	}
+
+	MiscConfig: {
+		DisplayName: その他の設定
+
+		usePreview: {
+			Label: プレビューを使用
+			Tooltip: ""
+		}
+
+		useWeaponDisplay: {
+			Label: 武器表示の有効化
+			Tooltip: ""
+		}
+
+		firstWeaponDisplay: {
+			Label: プレイヤー画面での武器表示
+			Tooltip: ""
+		}
+
+		weaponScale: {
+			Label: 武器の表示サイズ
+			Tooltip: ""
+		}
+
+		ItemDropEffectActive: {
+			Label: 地面に落ちたアイテムに発光効果を追加
+			Tooltip: ""
+		}
+
+		ItemInventoryEffectActive: {
+			Label: インベントリ内アイテムに発光効果を追加
+			Tooltip: ""
+		}
+
+		VanillaProjectileDrawModifyActive: {
+			Label: プロジェクタイル描画の追加効果を有効化
+			Tooltip: ""
+		}
+
+		TeleprotEffectActive: {
+			Label: テレポート演出を有効化
+			Tooltip: ""
+		}
+	}
+
+	SeverConfig: {
+		DisplayName: サーバー設定
+
+		meleeModifyLevel: {
+			Label: 近接改変レベル
+			Tooltip:
+				'''
+				エフェクトを楽しみつつ、バランスも保ちたい人のために、
+				ついに改変レベルの選択肢を追加しました。
+				ホストは改変レベルを設定でき、
+				プレイヤーは近接設定内で改変の使用を選べます。
+				'''
+		}
+
+		AutoBalanceData: {
+			Label: ダメージ自動バランス
+			Tooltip:
+				'''
+				「全面改変」モードが必要です
+				ホスト側で処理され、
+				バランス崩壊を防ぎます
+
+				プロジェクタイルのダメージには影響しません
+
+				攻撃速度が2倍の場合、ダメージは半分になります
+
+				詳細な計算式は以下の通りです：
+				BaseDamage * TimeScaler 
+				    / sqrt(SizeScaler)
+				    / max(1,pow(KnockBackScaler,0.25)) 
+				    / (1 + 0.01 * CirtAdd + 0.2 * CirtMult)
+				'''
+		}
+	}
+
+	MeleeModifyLevel: {
+		Tooltip: ""
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		VisualOnly: {
+			Label: 見た目のみ
+		}
+
+		Overhaul: {
+			Label: 全面改変
+		}
+	}
+
+	ByFuncHeatMapData: {
+		Tooltip: ""
+
+		H: {
+			Label: 色相 (H)
+			Tooltip: ""
+		}
+
+		S: {
+			Label: 彩度 (S)
+			Tooltip: ""
+		}
+
+		L: {
+			Label: 輝度 (L)
+			Tooltip: ""
+		}
+	}
+
+	HueInfo: {
+		Tooltip: ""
+
+		range: {
+			Label: 範囲
+			Tooltip: ""
+		}
+
+		offset: {
+			Label: オフセット
+			Tooltip: ""
+		}
+	}
+
+	SaturationInfo: {
+		Tooltip: ""
+
+		scalar: {
+			Label: 係数
+			Tooltip: ""
+		}
+
+		range: {
+			Label: 範囲
+			Tooltip: ""
+		}
+
+		offset: {
+			Label: オフセット
+			Tooltip: ""
+		}
+	}
+
+	LuminosityInfo: {
+		Tooltip: ""
+
+		scalar: {
+			Label: 係数
+			Tooltip: ""
+		}
+
+		range: {
+			Label: 範囲
+			Tooltip: ""
+		}
+
+		offset: {
+			Label: オフセット
+			Tooltip: ""
+		}
+	}
+
+	CosineGenerateHeatMapData_RGB: {
+		Tooltip: ""
+
+		R: {
+			Label: 赤 (R)
+			Tooltip: ""
+		}
+
+		G: {
+			Label: 緑 (G)
+			Tooltip: ""
+		}
+
+		B: {
+			Label: 青 (B)
+			Tooltip: ""
+		}
+
+		Global: {
+			Label: グローバル
+			Tooltip: ""
+		}
+
+		Cosines: {
+			Label: コサイン波
+			Tooltip: ""
+		}
+
+		LineColors: {
+			Label: 線の色
+			Tooltip: ""
+		}
+
+		LineColorMethods: {
+			Label: 線の色の決定方法
+			Tooltip: ""
+		}
+	}
+
+	CosineInfo: {
+		Tooltip: ""
+
+		valueOffset: {
+			Label: 値のオフセット
+			Tooltip: ""
+		}
+
+		amplitude: {
+			Label: 振幅
+			Tooltip: ""
+		}
+
+		frequence: {
+			Label: 周波数
+			Tooltip: ""
+		}
+
+		phase: {
+			Label: 位相
+			Tooltip: ""
+		}
+	}
+
+	CosineGenerateHeatMapData_HSL: {
+		Tooltip: ""
+
+		H: {
+			Label: 色相 (H)
+			Tooltip: ""
+		}
+
+		S: {
+			Label: 彩度 (S)
+			Tooltip: ""
+		}
+
+		L: {
+			Label: 輝度 (L)
+			Tooltip: ""
+		}
+
+		Cosines: {
+			Label: コサイン波
+			Tooltip: ""
+		}
+
+		LineColorMethods: {
+			Label: 線の色の決定方法
+			Tooltip: ""
+		}
+
+		LineColors: {
+			Label: 線の色
+			Tooltip: ""
+		}
+	}
+
+	DesignateHeatMapData: {
+		Tooltip: ""
+
+		colors: {
+			Label: 色
+			Tooltip: ""
+		}
+	}
+
+	ColorInfo: {
+		Tooltip: ""
+
+		color: {
+			Label: 色
+			Tooltip: ""
+		}
+
+		position: {
+			Label: 座標
+			Tooltip: ""
+		}
+	}
+
+	"CosineInfo[]": {
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	CIVESword: {
+		DisplayName: C.I.V.E. ソード
+	}
+}
+
+Keybinds: {
+	ModifyActive: {
+		DisplayName: 近接エフェクトの即時オン／オフ
+	}
+}
+
+Misc: {
+	MeleeModifyActive: 近接エフェクト有効
+	MeleeModifyDeactive: 近接エフェクト無効
+	UselessConfig:
+		'''
+		申し訳ありませんが
+		この値は現在使用されていません ;P
+		'''
+	UnavailableConfig:
+		'''
+		この値は現在無効です
+		他の設定（ヒートマップモードなど）の影響によります
+		'''
+}
+
+ConfigSLer: {
+	Refresh: 更新
+	TooManySameName: "///失敗！/// デフォルト名のファイルが多すぎます！早急に名前を変更してください。"
+	SameDefault: "///注意！/// 保存ファイルの名前がすべてデフォルト名です。識別のために連番を追加しました。整理をお忘れなく。"
+	SavedAs: 現在の設定を次の名前で保存しました：
+	DefaultName: ユーザー定義設定
+	LoadThisConfig: 現在の設定に適用
+	Path: ファイルパス:
+
+	RenameTip: {
+		Exists: 同じ名前のファイルがすでに存在します
+		TooLong: ファイル名は40文字以内にしてください
+		Illegal: ファイル名に次の文字は使えません: \\, /, :, *, ?, ", <, >, |
+	}
+
+	NotFinishYet: このページは現在作業中です……
+	Successed: \読み込み成功！/
+	Failed: /読み込み失敗\
+	Create: 新しい設定を作成
+	Revert: 元に戻す
+	Default: デフォルトに戻す
+	Save: 保存
+}
+
+WeaponSelector: {
+	basedOnDefaultCondition: {
+		Label: デフォルト条件に基づく（ホワイトリストでは追加、ブラックリストでは除外）
+	}
+
+	whiteList: {
+		Label: ホワイトリストモードを使用（オフでブラックリストモード）
+	}
+
+	BindConfigName: {
+		Label: このグループの設定（デフォルトでは現在の設定を使用）
+	}
+
+	weaponGroup: {
+		Label: 武器リスト
+	}
+
+	Create: 最優先で新しいグループを作成
+	DefaultName: ユーザー定義グループ
+	CurrentConfig: 現在の近接武器設定
+}
+
+Items: {
+	ConfigSLer: {
+		DisplayName: 設定リーダー／ライター
+		Tooltip:
+			'''
+			左クリックで現在の設定を保存。
+			右クリックでUIを開き、選択または編集。
+			'''
+	}
+
+	WeaponSelectorItem: {
+		DisplayName: 武器グループマネージャー
+		Tooltip: 左クリックまたは右クリックでUIを開き、武器グループを管理
+	}
+}
+

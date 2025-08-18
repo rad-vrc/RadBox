@@ -1,0 +1,232 @@
+Configs: {
+	SFConfig: {
+		DisplayName: 設定
+		DefaultFilterTooltip: これを無効にすると、探検家のポーションでハイライトされなくなります
+
+		Headers: {
+			CustomFilter: カスタムフィルター
+			PresetFilterGroupToggles: プリセットフィルター - バニラタイルのグループ切り替え
+			PresetFilter: プリセットフィルター - バニラタイル
+		}
+
+		ApplyToMetalDetector: {
+			Label: 金属探知機に適用
+			Tooltip: 有効にすると、同じフィルター設定を金属探知機に適用します
+		}
+
+		RemoveSparklingDust: {
+			Label: キラキラダストを削除
+			Tooltip: 有効にすると、ハイライトされたタイル上に表示されるキラキラしたダスト粒子を削除します。パフォーマンスが向上する可能性があります
+		}
+
+		CustomWhitelist: {
+			Label: カスタムホワイトリスト
+			Tooltip: このリスト内のタイルはハイライトされます。「プリセットフィルター - バニラタイル」と「カスタムブラックリスト」より優先されます
+		}
+
+		CustomBlacklist: {
+			Label: カスタムブラックリスト
+			Tooltip: このリスト内のタイルはハイライトされません。「プリセットフィルター - バニラタイル」より優先されます
+		}
+
+		ToggleGems: {
+			Label: 宝石を切り替え
+			Tooltip: すべての宝石を切り替えます
+		}
+
+		TogglePreHMMetalOres: {
+			Label: プレハードモード鉱石を切り替え
+			Tooltip: すべてのプレハードモード金属鉱石を切り替えます
+		}
+
+		ToggleHMMetalOres: {
+			Label: ハードモード鉱石を切り替え
+			Tooltip: すべてのハードモード金属鉱石を切り替えます
+		}
+
+		Pots: {
+			Label: ツボ
+		}
+
+		DesertFossil: {
+			Label: 砂漠の化石
+		}
+
+		FossilOre: {
+			Label: 頑丈な化石
+		}
+
+		Copper: {
+			Label: 銅鉱石
+		}
+
+		Tin: {
+			Label: 錫鉱石
+		}
+
+		Iron: {
+			Label: 鉄鉱石
+		}
+
+		Lead: {
+			Label: 鉛鉱石
+		}
+
+		Silver: {
+			Label: 銀鉱石
+		}
+
+		Tungsten: {
+			Label: タングステン鉱石
+		}
+
+		Gold: {
+			Label: 金鉱石
+		}
+
+		Platinum: {
+			Label: プラチナ鉱石
+		}
+
+		Meteorite: {
+			Label: メテオライト鉱石
+		}
+
+		Containers: {
+			Label: コンテナ
+		}
+
+		FakeContainers: {
+			Label: 偽のコンテナ
+		}
+
+		Containers2: {
+			Label: コンテナ2
+		}
+
+		FakeContainers2: {
+			Label: 偽のコンテナ2
+		}
+
+		Heart: {
+			Label: ライフクリスタル
+		}
+
+		ManaCrystal: {
+			Label: マナクリスタル
+		}
+
+		Cobalt: {
+			Label: コバルト鉱石
+		}
+
+		Palladium: {
+			Label: パラジウム鉱石
+		}
+
+		Mythril: {
+			Label: ミスリル鉱石
+		}
+
+		Orichalcum: {
+			Label: オリハルコン鉱石
+		}
+
+		Adamantite: {
+			Label: アダマンタイト鉱石
+		}
+
+		Titanium: {
+			Label: チタン鉱石
+		}
+
+		Chlorophyte: {
+			Label: クロロファイト鉱石
+		}
+
+		DyePlants: {
+			Label: 染料植物
+		}
+
+		LifeFruit: {
+			Label: ライフフルーツ
+		}
+
+		Sapphire: {
+			Label: サファイア
+		}
+
+		Ruby: {
+			Label: ルビー
+		}
+
+		Emerald: {
+			Label: エメラルド
+		}
+
+		Topaz: {
+			Label: トパーズ
+		}
+
+		Amethyst: {
+			Label: アメジスト
+		}
+
+		Diamond: {
+			Label: ダイヤモンド
+		}
+
+		MatureHerbs: {
+			Label: 成熟したハーブ
+		}
+
+		BloomingHerbs: {
+			Label: 開花したハーブ
+		}
+
+		Statues: {
+			Label: 石像
+		}
+
+		ExposedGems: {
+			Label: 露出した宝石
+		}
+
+		Painting3X3: {
+			Label: 絵画 (3x3)
+		}
+
+		Painting6X4: {
+			Label: 絵画 (6x4)
+		}
+
+		Painting2X3: {
+			Label: 絵画 (2x3)
+		}
+
+		Painting3X2: {
+			Label: 絵画 (3x2)
+		}
+
+		AlphabetStatues: {
+			Label: アルファベットの石像
+		}
+
+		MushroomStatue: {
+			Label: キノコの石像
+		}
+
+		CatBast: {
+			Label: バステトの石像
+		}
+
+		BoulderStatue: {
+			Label: 大岩の石像
+		}
+
+		AmberStoneBlock: {
+			Label: コハク
+		}
+	}
+}
+

@@ -1,0 +1,5309 @@
+Tooltips: {
+	Cleric: {
+		BothDamage: "{0} radiant and necrotic damage"
+		RadiantDamage: "{0} radiant damage"
+		NecroticDamage: "{0} necrotic damage"
+		HealthConsumed: Consumes {0} health points
+		BothDamageTip: Benefits fully from both radiant and necrotic bonuses
+	}
+
+	Gambler: {
+		ChanceDamage: "{0}-{1} chance damage"
+	}
+
+	Equip: {
+		MeleeIncrease: "{0}% increased melee damage"
+		MeleeCriticalIncrease: "{0}% increased melee critical damage"
+		MeleeSpeed: "{0}% increased melee speed"
+		MagicIncrease: "{0}% increased magic damage"
+		MagicCriticalIncrease: "{0}% increased magic critical damage"
+		RangedIncrease: "{0}% increased ranged damage"
+		RangedCriticalIncrease: "{0}% increased ranged critical damage"
+		SummonIncrease: Increases summon's damage by {0}%
+		MinionIncrease: Max number of minions increased by {0}
+		SentryIncrease: Max number of sentries increased by {0}
+		ThrowerIncrease: "{0}% increased throwing damage"
+		ThrowerCriticalIncrease: "{0}% increased throwing critical damage"
+		ThrowerAccuracy: "{0}% increased throwing accuracy"
+		RadiantIncrease: "{0}% increased radiant damage"
+		NecroticIncrease: "{0}% increased necrotic damage"
+		ClericIncrease: "{0}% increased radiant and necrotic damage"
+		ClericCriticalIncrease: "{0}% increased clerical critical damage"
+		HealingIncrease: Increases healing potency by {0}
+		HealthConsumeDecrease: Necrotic health consumption decreased by {0}%
+		MovementIncrease: "{0}% increased movement speed"
+		ManaIncrease: Max mana increased by {0}
+		AggroReduce: Enemies are less likely to target you
+		AggroIncrease: Enemies are more likely to target you
+	}
+
+	HealAmount: Heals {0} health
+	HealManaAmount: Restores {0} mana
+}
+
+Buffs: {
+	ResonateHeart: {
+		Description: Healing allies provides an additional 2 health
+		DisplayName: Resonate Heart
+	}
+
+	GhastlyCurse: {
+		Description: Necrotic damage increased by 20%
+		DisplayName: Ghastly Curse
+	}
+
+	BrimstoneHellscape: {
+		DisplayName: Brimstone Hellscape
+		Description: Mods.excels.Buffs.BrimstoneHellscape.Description
+	}
+
+	DevilishFlames: {
+		DisplayName: Devilish Flames
+		Description: Mods.excels.Buffs.DevilishFlames.Description
+	}
+
+	EnergyShock: {
+		DisplayName: Energy Shock
+		Description: Taking continous damage and weapon use speed decreased by 20%
+	}
+
+	Mycosis: {
+		DisplayName: Mycosis
+		Description: An infection is slowly eating you away
+	}
+
+	SkeletalShank: {
+		DisplayName: Skeletal Shank
+		Description: Mods.excels.Buffs.SkeletalShank.Description
+	}
+
+	WeaponImbueEnergy: {
+		DisplayName: Flask of Energy
+		Description: Melee and Whip attacks shock enemies
+	}
+
+	WeaponImbueFrostfire: {
+		DisplayName: Flask of Frostfire
+		Description: Melee and Whip attacks freezeburn enemies
+	}
+
+	LifeSerum: {
+		DisplayName: Life Serum
+		Description: Increased healing potency by 1
+	}
+
+	TrulyBerserk: {
+		DisplayName: Truly Berserk
+		Description: Reduced damage taken
+	}
+
+	MapleBuff: {
+		DisplayName: Maple Taste
+		Description: Mmm mmm!
+	}
+
+	SweetBuff: {
+		DisplayName: Assuaging Heart
+		Description: Increased healing potency by 1
+	}
+
+	UncoagulateBuff: {
+		DisplayName: Uncoagulate Buff
+		Description: Increases nercotic damage and health cost
+	}
+
+	BubbledBuff: {
+		DisplayName: Bubbled
+		Description: Completely negates an enemy attack
+	}
+
+	EnchantedArms: {
+		DisplayName: Enchanted Arms
+		Description: 15% increased damage
+	}
+
+	MeteorPatientBuff: {
+		DisplayName: Helping Hand : Meteoric Marker
+		Description: Certain healing abilities are being redirected to you
+	}
+
+	DripplingSpiritDebuff: {
+		DisplayName: Drippling Spirit
+		Description: Mods.excels.Buffs.DripplingSpiritDebuff.Description
+	}
+
+	FrozenBladeWhipDebuff: {
+		DisplayName: Frozen Blade Whip Debuff
+		Description: Mods.excels.Buffs.FrozenBladeWhipDebuff.Description
+	}
+
+	HyperionWhipDebuff: {
+		DisplayName: Hyperion Whip Debuff
+		Description: Mods.excels.Buffs.HyperionWhipDebuff.Description
+	}
+
+	MagmaSpiritDebuff: {
+		DisplayName: Magma Spirit Debuff
+		Description: Mods.excels.Buffs.MagmaSpiritDebuff.Description
+	}
+
+	PerrenialWhipDebuff: {
+		DisplayName: Perrenial Whip Debuff
+		Description: Mods.excels.Buffs.PerrenialWhipDebuff.Description
+	}
+
+	SkylineWhipDebuff: {
+		DisplayName: Skyline Whip Debuff
+		Description: Mods.excels.Buffs.SkylineWhipDebuff.Description
+	}
+
+	StellarSpiritDebuff: {
+		DisplayName: Stellar Spirit Debuff
+		Description: Mods.excels.Buffs.StellarSpiritDebuff.Description
+	}
+
+	TouhouSpiritDebuff: {
+		DisplayName: Touhou Spirit Debuff
+		Description: Mods.excels.Buffs.TouhouSpiritDebuff.Description
+	}
+
+	HyperionBarrierBuff: {
+		DisplayName: Energy Barrier
+		Description: Reduces damage taken by 10%
+	}
+
+	HyperionProbeBuff: {
+		DisplayName: Hyperion Probe
+		Description: A probe is assisting you in combat
+	}
+
+	RaggedBuff: {
+		DisplayName: Possessed
+		Description: 25% increased necrotic damage and complete invulnribility
+	}
+
+	ClufflePetBuff: {
+		DisplayName: Cluffle
+		Description: Ain't it just adorable!
+	}
+
+	ShroomyBuff: {
+		DisplayName: Shroomoid
+		Description: The shroomoid will fight for you
+	}
+
+	SnowflakeSummonBuff: {
+		DisplayName: Snow Angel
+		Description: The snow angel will fight for you
+	}
+
+	SkylineCaneBuff: {
+		DisplayName: Lil' Warrior
+		Description: Danger from above
+	}
+
+	SoulUpBuff: {
+		DisplayName: Soul Up
+		Description: Souls Orb's damage is greatly amplified
+	}
+
+	StellarPatientBuff: {
+		Description: The wonders of futuristic medicine
+		DisplayName: Helping Hand : Stellar Drone
+	}
+
+	DamageBoostBuff: {
+		Description: 10% increased damage
+		DisplayName: Damage Boost
+	}
+
+	FloralBeauty: {
+		Description: Mods.excels.Buffs.FloralBeauty.Description
+		DisplayName: Floral Beauty
+	}
+
+	EnergyFlowBuff: {
+		Description: Mods.excels.Buffs.EnergyFlowBuff.Description
+		DisplayName: Energy Flow Buff
+	}
+
+	PalladiumHeart: {
+		Description: Incresed health regeneration
+		DisplayName: Palladium Heart
+	}
+
+	ManaRegenUp: {
+		Description: Replenishes 6 mana per second
+		DisplayName: Mana Regen Up
+	}
+
+	Overcharged: {
+		Description: 15% increased attack speed
+		DisplayName: Overcharged
+	}
+
+	SeraphimBarrierBuff: {
+		Description: "'Be not afraid'"
+		DisplayName: Angelic Barrier
+	}
+
+	BeaconPatientBuff: {
+		Description: Ally radiant attacks heal you
+		DisplayName: Helping Hand : Guidance
+	}
+
+	Tranquility: {
+		Description: 10% increased healing speed
+		DisplayName: Tranquility
+	}
+
+	SweetHeart: {
+		Description: Improved health regeneration
+		DisplayName: Sweet Heart
+	}
+
+	MedicationBuff: {
+		DisplayName: Medication
+		Description: Medication is now active
+	}
+
+	NanoBoosted: {
+		Description: "'You're powered up, get in there!'"
+		DisplayName: Nano Boosted
+	}
+
+	SunShieldBuff: {
+		Description: Completely negates an enemy attack and increased life regen
+		DisplayName: Sun Shield
+	}
+
+	DukeBubbleBuff: {
+		Description: Completely negates two enemy attacks
+		DisplayName: The Duke's Bubble
+	}
+
+	SoulRestoration: {
+		Description: Greatly increased health and mana regeneration
+		DisplayName: Soul Restoration
+	}
+
+	AmplifiedDamage: {
+		Description: Mods.excels.Buffs.AmplifiedDamage.Description
+		DisplayName: Amplified Damage
+	}
+
+	FragileBones: {
+		Description: Mods.excels.Buffs.FragileBones.Description
+		DisplayName: Fragile Bones
+	}
+
+	DeepWound: {
+		Description: Mods.excels.Buffs.DeepWound.Description
+		DisplayName: Deep Wound
+	}
+
+	SolarPower: {
+		DisplayName: Solar Power
+		Description: 20% reduced damage taken
+	}
+
+	TimeInNeed: {
+		DisplayName: Time in Need
+		Description: Healing speed increased by 20%
+	}
+
+	Marksman: {
+		Description: The next attack from the Stalker's Longbow is enhanced
+		DisplayName: Marksman
+	}
+
+	BlackholeSetCooldown: {
+		Description: Mods.excels.Buffs.BlackholeSetCooldown.Description
+		DisplayName: Blackhole Set Cooldown
+	}
+
+	StickyKunaiDoT: {
+		Description: Mods.excels.Buffs.StickyKunaiDoT.Description
+		DisplayName: Sticky Kunai Do T
+	}
+
+	LightsTouch2: {
+		Description: Mods.excels.Buffs.LightsTouch2.Description
+		DisplayName: Lights Touch2
+	}
+
+	LightsTouch: {
+		Description: Mods.excels.Buffs.LightsTouch.Description
+		DisplayName: Lights Touch
+	}
+
+	BlackholeTimer: {
+		Description: Cannot activate set bonus just yet
+		DisplayName: Blackhole Timer
+	}
+
+	AlienShieldBuff: {
+		Description: Negates a single enemy attack
+		DisplayName: Alien Shield
+	}
+
+	HolyLight: {
+		DisplayName: Holy Light
+		Description: Photosynthesis attack power is massively increased
+	}
+
+	Resolve: {
+		Description: Reduces damage taken by
+		DisplayName: Resolve
+	}
+
+	Observed: {
+		Description: Reduced defense and more likely to be targeted by enemies
+		DisplayName: Observed
+	}
+
+	AmplifiedDamage2: {
+		Description: Mods.excels.Buffs.AmplifiedDamage2.Description
+		DisplayName: Amplified Damage2
+	}
+
+	DualityBuff: {
+		DisplayName: Harmony
+		Description:
+			'''
+			Nullifies negative life regeneration and increases regeneration rate
+			Enemies take damage over time
+			'''
+	}
+
+	RunningOutOfTime: {
+		Description: Continously losing health, {0} more damage to come
+		DisplayName: Running Out Of Time
+	}
+
+	ThePlague: {
+		Description: The infection grows stronger with time, dealing
+		DisplayName: The Plague
+	}
+
+	AntidotePatientBuff: {
+		Description: Periodically get healed and have debuffs cleansed
+		DisplayName: The Antidote
+	}
+
+	StellarLightpetBuff: {
+		Description: I've got an idea!
+		DisplayName: Stellar Lightbulb
+	}
+
+	NiffyheimPetBuff: {
+		Description: Do you have any ice cream?
+		DisplayName: Niffyheim
+	}
+
+	Refreshed: {
+		Description: The warm tea heals you
+		DisplayName: Refreshed!
+	}
+}
+
+Tiles: {
+	StarlightAnvilTile: {
+		MapEntry: Starlight Anvil
+	}
+
+	OilKit: {
+		MapEntry: Oil Kit
+	}
+
+	SkylineOreTile: {
+		MapEntry: Skyline Ore
+	}
+
+	PurityOre: {
+		MapEntry: Purity Ore
+	}
+
+	HyperionTile: {
+		MapEntry: Hyperion
+	}
+
+	GlacialOreTile: {
+		MapEntry: Glacial Ore
+	}
+
+	DarksteelOreTile: {
+		MapEntry: Darksteel Ore
+	}
+
+	StellarBulb: {
+		MapEntry: Stellar Bulb
+	}
+
+	GranTorchT: {
+		MapEntry: Granite Energy Torch
+	}
+
+	NiflheimMusicBoxTile: {
+		MapEntry: Niflheim Music Box
+	}
+
+	StellarWorkbenchTile: {
+		MapEntry: Stellar Workbench
+	}
+
+	StellarTableTile: {
+		MapEntry: Stellar Table
+	}
+
+	StellarChestTile: {
+		MapEntry: Stellar Chest
+	}
+
+	ExcelBanners: {
+		MapEntry: Banners
+	}
+
+	DebriefingTable: {
+		MapEntry: Debriefing Table
+	}
+
+	HyperionOreTile: {
+		MapEntry: Hyperion Ore
+	}
+
+	HyperionCrystalRubble: {
+		MapEntry: Hyperion Crystal
+	}
+
+	Tables: {
+		MapEntry: Tables
+	}
+
+	Chests: {
+		MapEntry: Chests
+		MapEntry0: Stellar Chest
+		MapEntry1: Skyline Chest
+	}
+}
+
+Items: {
+	FireBanner: {
+		DisplayName: Impish Battle Standard
+		Tooltip: Minions are surrounded by a flaming aura
+	}
+
+	RegenBanner: {
+		DisplayName: Inspirational Banner
+		Tooltip: Minions are surrounded by a regenerative aura
+	}
+
+	ShadowflameBanner: {
+		DisplayName: Shadowflame Battle Standard
+		Tooltip: Minions are surrounded by a shadowfire aura
+	}
+
+	VenomBanner: {
+		DisplayName: Corrosive Battle Standard
+		Tooltip: Minions are surrounded by a acid venom aura
+	}
+
+	ClericEmblem: {
+		DisplayName: Cleric Emblem
+		Tooltip:
+			'''
+			{0}% increased radiant and necrotic damage
+			Increases healing potency by {1}
+			'''
+	}
+
+	Antitoxins: {
+		DisplayName: Anti-Toxins
+		Tooltip: Healing allies afflicted by 'Poisoned', 'Mycosis' or 'On Fire!' cures them of it
+	}
+
+	NiflheimExpertAcc: {
+		DisplayName: Voluspa
+		Tooltip:
+			'''
+			All attacks are imbued with frost fire
+			Grants immunity to all cold related debuffs
+			'''
+	}
+
+	StellarExpertAcc: {
+		DisplayName: Stellar Combat Techniques
+		Tooltip: Summons a member of the Stallar Armada to fight for you
+	}
+
+	ApprenticesMedallion: {
+		DisplayName: Apprentice's Medallion
+		Tooltip:
+			'''
+			25% increased mining speed
+			Provides a small amount of light
+			'Keep up the good work!'
+			'''
+	}
+
+	MastersMedallion: {
+		DisplayName: Master's Medallion
+		Tooltip:
+			'''
+			40% increased mining speed
+			Provides a moderate amount of light
+			Increases pick up range of items
+			'''
+	}
+
+	MimicToothNecklace: {
+		DisplayName: Mimic Tooth Necklace
+		Tooltip:
+			'''
+			Taking damage causes the necklace to bite back
+			Slightly increased luck
+			'To some a it's a luck charm, for others, it's a bite in the rear'
+			'''
+	}
+
+	ScarletCloak: {
+		DisplayName: Scarlet Cloak
+		Tooltip:
+			'''
+			Causes stars to fall after taking damage
+			Automatically recovers mana when depleted
+			Consumes health equal to 10% of the mana restored
+			'''
+	}
+
+	ScarletStarNecklace: {
+		DisplayName: Scarlet Star Necklace
+		Tooltip:
+			'''
+			Automatically recovers mana when depleted
+			Consumes health equal to 10% of the mana restored
+			'''
+	}
+
+	TaintedManaFlower: {
+		DisplayName: Tainted Mana Flower
+		Tooltip:
+			'''
+			8% reduced mana usuage
+			Automatically uses mana potions when needed
+			If no mana potions are in possession, consumes health instead
+			Consumes health equal to 10% of the mana restored
+			'''
+	}
+
+	SnowflakeAmulet: {
+		DisplayName: Snowflake Amulet
+		Tooltip: Getting hit surrounds you in a frigid aura
+	}
+
+	YetiToothNecklace: {
+		DisplayName: Yeti Tooth Necklace
+		Tooltip: Getting hit surrounds you in a blizzard
+	}
+
+	BeetleShield: {
+		DisplayName: Beetle Aegis
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Getting hit surrounds you in a frigid aura and reflects damage back onto enemies
+			Decreases damage taken by 10%
+			Enemies are more likely to target you
+			'''
+	}
+
+	SnowShield: {
+		DisplayName: Snow Shield
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Getting hit surrounds you in a frigid aura
+			'''
+	}
+
+	TurtleShield: {
+		DisplayName: Turtle Shield
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Getting hit surrounds you in a frigid aura and reflects damage back onto enemies
+			Enemies are more likely to target you
+			'''
+	}
+
+	PoisonTippedArrow: {
+		DisplayName: Poison Tipped Arrow
+		Tooltip: ""
+	}
+
+	SkylineArrowItem: {
+		DisplayName: Skyline Arrow
+		Tooltip: Unaffected by gravity
+	}
+
+	GlacialBul: {
+		DisplayName: Glacial Bullet
+		Tooltip: ""
+	}
+
+	ShroomyBullet: {
+		DisplayName: Shroomy Bullet
+		Tooltip: ""
+	}
+
+	FrostOil: {
+		DisplayName: Frost Oil
+		Tooltip: ""
+	}
+
+	GelCanistar: {
+		DisplayName: Gel Canister
+		Tooltip: Serves as an endless supply of gel
+	}
+
+	LampOil: {
+		DisplayName: Lamp Oil
+		Tooltip: ""
+	}
+
+	LighterFluid: {
+		DisplayName: Lighter Fluid
+		Tooltip: ""
+	}
+
+	ShadowfireFluid: {
+		DisplayName: Shadowfire Fluid
+		Tooltip: Burns enemies with shadowfire
+	}
+
+	AvianChest: {
+		DisplayName: Avian Shirt
+		Tooltip: Increases summon's damage by {0}%
+	}
+
+	AvianHead: {
+		SetBonus:
+			'''
+			Minions have a chance to summon feathers from the sky on attack
+			Increases minion knockback by 30%
+			'''
+		DisplayName: Avian Head
+		Tooltip: Max number of minions increased by {0}
+	}
+
+	AvianSkirt: {
+		DisplayName: Avian Skirt
+		Tooltip: Increases summon's damage by {0}%
+	}
+
+	BlackholeBreastplate: {
+		DisplayName: Blackhole Breastplate
+		Tooltip:
+			'''
+			{0}% increased necrotic damage
+			{1}% increased clerical critical damage
+			Necrotic health consumption decreased by {2}%
+			Increases healing potency by {3}
+			'''
+	}
+
+	BlackholeHood: {
+		DisplayName: Blackhole Hood
+		Tooltip:
+			'''
+			{0}% increased radiant and necrotic damage
+			Max mana increased by {1}
+			Increases healing potency by {2}
+			'''
+		SetBonus:
+			'''
+			Automatically generate either damaging or healing satellites around yourself that can seek targets
+			Automatically generate either damaging or healing satellites around yourself that can seek targets
+			Press [Activate Set Bonus] to swap between the two, has a 7 second cooldown
+			'''
+	}
+
+	BlackholeRobe: {
+		DisplayName: Blackhole Robe
+		Tooltip:
+			'''
+			{0}% increased radiant and necrotic damage
+			{1}% increased clerical critical damage
+			Increases healing potency by {2}
+			'''
+	}
+
+	BlessedKnightHelmet: {
+		SetBonus:
+			'''
+			While under half health, regenerate an additional 3 health per second
+			Health regeneration isn't influenced by debuffs
+			'''
+		DisplayName: Blessed Knight Helmet
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased clerical critical damage
+			'''
+	}
+
+	BlessedKnightBoots: {
+		DisplayName: Blessed Knight Boots
+		Tooltip:
+			'''
+			{0}% increased movement speed
+			{1}% increased clerical critical damage
+			'''
+	}
+
+	BlessedKnightChestplate: {
+		DisplayName: Blessed Knight Chestplate
+		Tooltip:
+			'''
+			Max mana increased by {0}
+			{1}% increased radiant damage
+			'''
+	}
+
+	BloodiedMask: {
+		SetBonus: Using necrotic weapons heals the weakest ally for 40% of health consumed
+		DisplayName: Bloodied Mask
+		Tooltip: Necrotic health consumption decreased by {0}%
+	}
+
+	BloodiedBoots: {
+		DisplayName: Bloodied Boots
+		Tooltip: Necrotic health consumption decreased by {0}%
+	}
+
+	BloodiedChestplate: {
+		DisplayName: Bloodied Chestplate
+		Tooltip:
+			'''
+			Necrotic health consumption decreased by {0}%
+			{1}% increased necrotic damage
+			'''
+	}
+
+	DarksteelBoots: {
+		DisplayName: Hyperion Boots
+		Tooltip:
+			'''
+			Increases summon's damage by {0}%
+			{1}% increased radiant damage
+			'''
+	}
+
+	DarksteelChest: {
+		DisplayName: Hyperion Chestplate
+		Tooltip:
+			'''
+			Max number of minions increased by {0}
+			{1}% increased clerical critical damage
+			Increases healing potency by {2}
+			'''
+	}
+
+	DarksteelHelm: {
+		SetBonus:
+			'''
+			Enemies are less likely to target you
+			Allies under 33% of max health gain an Energy Barrier that grants 10 defense
+			Gain your own Energy Barrier if you are under 33% max health or if an ally already has one
+			'''
+		DisplayName: Hyperion Helmet
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased radiant damage
+			'''
+	}
+
+	DarksteelVisor: {
+		SetBonus:
+			'''
+			Summons an Observer to assist in combat
+			The Observer emits energy attacks periodically that makes enemies more susceptible to minion attacks
+			'''
+		DisplayName: Hyperion Visor
+		Tooltip:
+			'''
+			Max number of sentries increased by {0}
+			Increases summon's damage by {1}%
+			'''
+	}
+
+	DiabolistRobe: {
+		DisplayName: Diabolist Robe
+		Tooltip:
+			'''
+			{0}% increased necrotic damage
+			{1}% increased clerical critical damage
+			Enemies are more likely to target you
+			'''
+		SetBonus:
+			'''
+			All nearby enemies are burned with hellish flames
+			The more enemies nearby, the more potent the flames and your damage become
+			Press [Activate Set Bonus] to enable / disable the visuals
+			'''
+	}
+
+	NecromancerRobe: {
+		DisplayName: Necromancer Robe
+		Tooltip: "{0}% increased necrotic damage"
+		SetBonus:
+			'''
+			Consumes 8 health to summong Ghastly Skulls that attack enemies
+			Press [Activate Set Bonus] to activate / deactivate this effect
+			'''
+	}
+
+	PossessedSkull: {
+		DisplayName: Possessed Skull
+		Tooltip:
+			'''
+			{0}% increased necrotic damage
+			Necrotic health consumption decreased by {1}%
+			'''
+	}
+
+	RaggedRobe: {
+		DisplayName: Ragged Robe
+		Tooltip: Necrotic health consumption decreased by {0}%
+		SetBonus:
+			'''
+			 Damage taken is delayed for 3 seconds
+			 While delayed, become invincible and increase necrotic damage by 25%
+			 Dealing damage while invincible decreases the damage taken and increases invunrability duration
+			 
+			'''
+	}
+
+	ElegantHat: {
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased clerical critical damage
+			Enemies are less likely to target you
+			'''
+		DisplayName: Elegant Hat
+		SetBonus: Periodically produce elegant flowers that can be picked up by allies to heal them
+	}
+
+	ElegantOutfit: {
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased radiant damage
+			Max mana increased by {2}
+			'''
+		DisplayName: Elegant Outfit
+	}
+
+	ElegantBoots: {
+		DisplayName: Elegant Boots
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased radiant damage
+			'''
+	}
+
+	FloralStethoscope: {
+		SetBonus:
+			'''
+			Enemies are less likely to target you
+			Nearby allies under 50% health will automatically be healed equal to your bonus healing
+			'''
+		DisplayName: Floral Stethoscope
+		Tooltip: Increases healing potency by {0}
+	}
+
+	FloralBoots: {
+		DisplayName: Floral Boots
+		Tooltip:
+			'''
+			Max mana increased by {0}
+			{1}% increased movement speed
+			'''
+	}
+
+	FloralJacket: {
+		DisplayName: Floral Jacket
+		Tooltip: Increases healing potency by {0}
+	}
+
+	GlacialBody: {
+		DisplayName: Glacial Chestplate
+		Tooltip: "{0}% increased ranged damage"
+	}
+
+	GlacialHelm: {
+		DisplayName: Glacial Helmet
+		Tooltip: "{0}% increased ranged critical damage"
+		SetBonus:
+			'''
+			Additional 6% increased ranged critical damage
+			Ranged critical strikes generate a frostfire explosion
+			'''
+	}
+
+	GlacialLegs: {
+		DisplayName: Glacial Leggings
+		Tooltip: "{0}% increased ranged critical damage"
+	}
+
+	GraniteChestplate: {
+		DisplayName: Granite Chestplate
+		Tooltip: "{0}% increased melee speed"
+	}
+
+	GraniteGreaves: {
+		DisplayName: Granite Greaves
+		Tooltip: Necrotic health consumption decreased by {0}%
+	}
+
+	GraniteVisor: {
+		DisplayName: Granite Visor
+		Tooltip: Max mana increased by {0}
+		SetBonus:
+			'''
+			Increases melee, magic, and necrotic damage by 1
+			Press [Activate Set Bonus] to harden your armor
+			While hardened, movement is halved while life regeneration and defense is doubled
+			'''
+	}
+
+	HallowedCrownHelm: {
+		DisplayName: Hallowed Crown Helm
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased radiant damage
+			{2}% increased clerical critical damage
+			'''
+		SetBonus:
+			'''
+			Become immune after striking an enemy
+			Healing potency increased by an additional 2 health
+			'''
+	}
+
+	HeartbeatHood: {
+		SetBonus:
+			'''
+			Healing allies grants Ghastly Curse, increasing necrotic damage by 20%
+			Consuming health grants Resonate Heart, increasing healing potency by 2
+			'''
+		DisplayName: Heartbeat Hood
+		Tooltip:
+			'''
+			{0}% increased necrotic damage
+			Increases healing potency by {1}
+			'''
+	}
+
+	HeartbeatBoots: {
+		DisplayName: Heartbeat Boots
+		Tooltip:
+			'''
+			{0}% increased necrotic damage
+			{1}% increased clerical critical damage
+			'''
+	}
+
+	HeartbeatJacket: {
+		DisplayName: Heartbeat Jacket
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased clerical critical damage
+			'''
+	}
+
+	PrismiteBody: {
+		DisplayName: Crystalline Breastplate
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased clerical critical damage
+			'''
+	}
+
+	PrismiteBoots: {
+		DisplayName: Crystalline Leggings
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			Max mana increased by {1}
+			'''
+	}
+
+	PrismiteMask: {
+		DisplayName: Crystalline Mask
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			{1}% increased radiant damage
+			'''
+		SetBonus: Healing allies has a chance to critically heal them for 50% increased healing
+	}
+
+	SkylineBody: {
+		DisplayName: Skyline Chestplate
+		Tooltip: Increased running acceleration
+	}
+
+	SkylineHead: {
+		DisplayName: Skyline Circlet
+		Tooltip: "{0}% increased movement speed"
+		SetBonus:
+			'''
+			Increased jump speed and max run speed
+			Completely negates fall damage
+			'I believe I can fly!'
+			'''
+	}
+
+	SkylineLegs: {
+		DisplayName: Skyline Boots
+		Tooltip: "{0}% increased movement speed"
+	}
+
+	StellarBoots: {
+		DisplayName: Stellar Boots
+		Tooltip: Increases attack speed of stellar weapons by 15%
+	}
+
+	StellarChest: {
+		DisplayName: Stellar Spacesuit
+		Tooltip: Increases critical damage of stellar weapons by 8%
+	}
+
+	StellarHelm: {
+		DisplayName: Stellar Helmet
+		Tooltip: Increases damage of stellar weapons by 10%
+		SetBonus: Stellar weapons and tools gain new bonus effects
+	}
+
+	UmbralBoots: {
+		DisplayName: Umbral Boots
+		Tooltip: "{0}% increased necrotic damage"
+	}
+
+	UmbralChestpiece: {
+		DisplayName: Umbral Cloak
+		Tooltip:
+			'''
+			{0}% increased clerical critical damage
+			Necrotic health consumption decreased by {1}%
+			'''
+	}
+
+	UmbralHood: {
+		DisplayName: Umbral Hood
+		Tooltip: "{0}% increased necrotic damage"
+		SetBonus: While under 33% max health, halve necrotic blood cost and increase necrotic damage by 10%
+	}
+
+	WyvernBoots: {
+		DisplayName: Wyvernscale Boots
+		Tooltip:
+			'''
+			Max number of sentries increased by {0}
+			Increases summon's damage by {1}%
+			'''
+	}
+
+	WyvernHood: {
+		DisplayName: Wyvernscale Hood
+		Tooltip:
+			'''
+			Max number of minions increased by {0}
+			Increases summon's damage by {1}%
+			'''
+		SetBonus: Summons 3 orbiting Wind Pixies to fight for you
+	}
+
+	WyvernScalemail: {
+		DisplayName: Wyvern-Scalemail
+		Tooltip:
+			'''
+			Increases spirit attack speed and whip speed by {0}%
+			Increases summon's damage by {1}%
+			'''
+	}
+
+	WyvernScale: {
+		DisplayName: Wyvern Scale
+		Tooltip: ""
+	}
+
+	BagNiflheim: {
+		DisplayName: Treasure Bag (Niflheim)
+		Tooltip: ""
+	}
+
+	BagStarship: {
+		DisplayName: Treasure Bag (Stellar Starship)
+		Tooltip: ""
+	}
+
+	Carrot: {
+		DisplayName: Carrot
+		Tooltip: ""
+	}
+
+	BeatingHeart: {
+		DisplayName: Beating Heart
+		Tooltip: Rapidly unleashes bursts of Healing Hearts
+	}
+
+	ChocolateWand: {
+		DisplayName: Chocolate Wand
+		Tooltip:
+			'''
+			Unleashes a barrage of chocolate
+			Increases the amount of chocolate for every 2 bonus healing potency
+			'''
+	}
+
+	Syringe: {
+		DisplayName: Syringe
+		Tooltip: "'Yowch!'"
+	}
+
+	LostVoices: {
+		DisplayName: Lost Voices
+		Tooltip:
+			'''
+			Hitting tiles breaks into 3 Seeking Spectres that heal allies
+			Directly hitting allies instead heals them for 4x as much
+			'''
+	}
+
+	GrandCross: {
+		DisplayName: Grand Cross
+		Tooltip: Unleashes a Giant Golden Ball of Light to heal allies
+	}
+
+	MeteoricFury: {
+		DisplayName: Meteoric Fury
+		Tooltip:
+			'''
+			Right-click an ally to mark them as your Patient
+			Healing bolts seek out Patients
+			'''
+	}
+
+	PixieWand: {
+		DisplayName: Pixie Wand
+		Tooltip: Conjures a Pixie to seek out injures allies
+	}
+
+	SeahorseStaff: {
+		DisplayName: Seahorse Staff
+		Tooltip:
+			'''
+			Conjures three Bubbles to heal allies
+			Generates an additional bubble for every bonus healing potency
+			'''
+	}
+
+	WoodenCross: {
+		DisplayName: Wooden Cross
+		Tooltip: Unleashes a Golden Ball of Light to heal allies
+	}
+
+	BlackholeFragment: {
+		DisplayName: Blackhole Fragment
+		Tooltip: "'Pulses with the power of the cosmos'"
+	}
+
+	ElegantFlower: {
+		DisplayName: Elegant Flower
+		Tooltip: "'Nothing can compare'"
+	}
+
+	EnergizedGranite: {
+		DisplayName: Energized Granite
+		Tooltip: ""
+	}
+
+	DarksteelBar: {
+		DisplayName: Darksteel Bar
+		Tooltip: ""
+	}
+
+	DarksteelOre: {
+		DisplayName: Darksteel Ore
+		Tooltip: ""
+	}
+
+	GlacialBar: {
+		DisplayName: Glacial Bar
+		Tooltip: "'Frozen to the touch'"
+	}
+
+	GlacialOre: {
+		DisplayName: Glacial Ore
+		Tooltip: ""
+	}
+
+	HyperionCrystal: {
+		DisplayName: Hyperion Crystal
+		Tooltip: Lustrous crystals that form in dark environments
+	}
+
+	MysticCrystal: {
+		DisplayName: Blessed Bar
+		Tooltip: "'An alloy cleasned of all evil'"
+	}
+
+	PurifiedStone: {
+		DisplayName: Blessed Stone
+		Tooltip:
+			'''
+			Aquired by purifying Demonite or Crimtane ore
+			'A soothing stone free of corruption'
+			'''
+	}
+
+	SkylineBar: {
+		DisplayName: Skyline Bar
+		Tooltip: "'Weighs next to nothing!'"
+	}
+
+	SkylineOre: {
+		DisplayName: Skyline Ore
+		Tooltip: ""
+	}
+
+	ShatteredHeartbeat: {
+		DisplayName: Shattered Heartbeat
+		Tooltip: "'It's still beating..."
+	}
+
+	StellarPlating: {
+		DisplayName: Stellar Plating
+		Tooltip: "'Plating salvaged from an extraterrestial ship'"
+	}
+
+	CluffleItem: {
+		DisplayName: Cluffle
+		Tooltip: ""
+	}
+
+	SpaceSnailItem: {
+		DisplayName: Space Snail
+		Tooltip: ""
+	}
+
+	HarpyFan: {
+		DisplayName: Harpy Fan
+		Tooltip:
+			'''
+			{0} wind strength
+			Harnesses the wind to push you
+			'''
+	}
+
+	SakuraFan: {
+		DisplayName: Sakura Fan
+		Tooltip:
+			'''
+			{0} wind strength
+			Unleashes a barrage of petals
+			'''
+	}
+
+	WyvernsWing: {
+		DisplayName: Wyvern's Wing
+		Tooltip:
+			'''
+			{0} wind strength
+			'It's said that some wyverns actually have wings, such rediculous fairy tales!'
+			'''
+	}
+
+	GeoSac: {
+		DisplayName: Geologist's Reward Sac
+		Tooltip: "'I wonder whats inside!'"
+	}
+
+	PlanetaryTrackingDevice: {
+		DisplayName: Interplanetary Tracking Device
+		Tooltip: "'Attracts the attention of interstellar ships'"
+	}
+
+	ReflectiveIceShard: {
+		DisplayName: Reflective Ice Shard
+		Tooltip: "'Calls forth an ancient ice deity'"
+	}
+
+	CloudChewToy: {
+		DisplayName: Cloudy Chew Toy
+		Tooltip: ""
+	}
+
+	StellarCandleItem: {
+		DisplayName: Stellar Candle
+		Tooltip: ""
+	}
+
+	StellarChairItem: {
+		DisplayName: Stellar Chair
+		Tooltip: ""
+	}
+
+	StellarChestItem: {
+		DisplayName: Stellar Chest
+		Tooltip: ""
+	}
+
+	StellarLampPostItem: {
+		DisplayName: Stellar Lamp
+		Tooltip: ""
+	}
+
+	StellarTableItem: {
+		DisplayName: Stellar Table
+		Tooltip: ""
+	}
+
+	StellarWorkbenchItem: {
+		DisplayName: Stellar Work Bench
+		Tooltip: ""
+	}
+
+	NightLightLamp: {
+		DisplayName: nightlight Lamp
+		Tooltip: ""
+	}
+
+	NiflheimRelic: {
+		DisplayName: Niflheim Relic
+		Tooltip: ""
+	}
+
+	StellarStarshipRelic: {
+		DisplayName: Stellar Starship Relic
+		Tooltip: ""
+	}
+
+	GranTorch: {
+		DisplayName: Granite Torch
+		Tooltip: ""
+	}
+
+	StellarTorch: {
+		DisplayName: Stellar Bulb
+		Tooltip: ""
+	}
+
+	NiflheimTrophy: {
+		DisplayName: Niflheim Trophy
+		Tooltip: ""
+	}
+
+	StellarTrophy: {
+		DisplayName: Stellar Trophy
+		Tooltip: ""
+	}
+
+	NiflheimMusicBox: {
+		DisplayName: Niflheim Music Box
+		Tooltip: ""
+	}
+
+	BlackholePlatform: {
+		DisplayName: Blackhole Platform
+		Tooltip: ""
+	}
+
+	StellarPlatform: {
+		DisplayName: Stellar Platform
+		Tooltip: ""
+	}
+
+	OilJit: {
+		DisplayName: Oil Kit
+		Tooltip: Tabletop Oil Kit that converts Dessert Fossils and Sturdy Fossils into Oil
+	}
+
+	StarlightAnvil: {
+		DisplayName: Starlight Anvil
+		Tooltip: "'Used to forge powerful weapons'"
+	}
+
+	BlackholeBrick: {
+		DisplayName: Blackhole Brick
+		Tooltip: ""
+	}
+
+	CheckerItem: {
+		DisplayName: Checker Brick
+		Tooltip: ""
+	}
+
+	DarkslateItem: {
+		DisplayName: Darkslate
+		Tooltip: ""
+	}
+
+	Darkslate: {
+		DisplayName: Darkslate
+		Tooltip: ""
+	}
+
+	DecoratedPurityBrick: {
+		DisplayName: Carpeted Brick
+		Tooltip: ""
+	}
+
+	GlacialBrick: {
+		DisplayName: Ancient Glacial Brick
+		Tooltip: ""
+	}
+
+	GlacialBrickNew: {
+		DisplayName: Glacial Brick
+		Tooltip: ""
+	}
+
+	HyperionLampBlock: {
+		DisplayName: Hyperion Lamp Block
+		Tooltip: ""
+	}
+
+	ReinforcedDarkslateItem: {
+		DisplayName: Reinforced Darkslate Item
+		Tooltip: ""
+	}
+
+	SkylineBrick: {
+		DisplayName: Skyline Brick
+		Tooltip: ""
+	}
+
+	StellarBrick: {
+		DisplayName: Stellar Block
+		Tooltip: ""
+	}
+
+	CheckerWallItem: {
+		DisplayName: Checkered Wall
+		Tooltip: ""
+	}
+
+	ReinforcedDarkslateWallItem: {
+		DisplayName: Reinforced Darkslate Wall
+		Tooltip: ""
+	}
+
+	SkylineBrickWallItem: {
+		DisplayName: Skyline Brick Wall
+		Tooltip: ""
+	}
+
+	StellarAdornedWallItem: {
+		DisplayName: Adorned Stellar Wall
+		Tooltip: ""
+	}
+
+	StellarWallItem: {
+		DisplayName: Stellar Wall
+		Tooltip: ""
+	}
+
+	FlaskofEnergy: {
+		DisplayName: Flask of Energy
+		Tooltip: ""
+	}
+
+	FrostfireFlask: {
+		DisplayName: Flask of Frostfire
+		Tooltip: ""
+	}
+
+	MapleSyrup: {
+		DisplayName: Maple Syrup
+		Tooltip: ""
+	}
+
+	SweetPotion: {
+		DisplayName: Assuaging Potion
+		Tooltip: Increases healing potency
+	}
+
+	UncoagulatingPotion: {
+		DisplayName: Uncoagulating Potion
+		Tooltip: Increases necrotic damage and health consumption by 20%
+	}
+
+	EnergyDrill: {
+		DisplayName: Energy Drill
+		Tooltip: "'Warning: continous usuage may result in a explosion'"
+	}
+
+	ChlorophyteRod: {
+		DisplayName: Chlorophyte Rod
+		Tooltip:
+			'''
+			Casts three lures at once
+			Reduces enemy spawns while held
+			'''
+	}
+
+	DualHookingPole: {
+		DisplayName: Dual Hooking Pole
+		Tooltip: Casts two lines at once!
+	}
+
+	SkylineRod: {
+		DisplayName: Skyline Rod
+		Tooltip:
+			'''
+			Grants increased fishing power and reduced enemy spawns while in space
+			'At last, no more chicken ladies'
+			'''
+	}
+
+	StellarRod: {
+		DisplayName: Stellar Rod
+		Tooltip: ""
+	}
+
+	DinoPick: {
+		DisplayName: Fossil Hunter Pick
+		Tooltip: ""
+	}
+
+	GlacialHamaxe: {
+		DisplayName: Glacial Hamaxe
+		Tooltip: ""
+	}
+
+	GlacialPickaxe: {
+		DisplayName: Glacial Pickaxe
+		Tooltip: ""
+	}
+
+	StellarDrill: {
+		DisplayName: Stellar Drill
+		Tooltip: ""
+	}
+
+	AcesGoldFoxMask: {
+		DisplayName: Ace's Gold Fox Mask
+		Tooltip: ""
+	}
+
+	CrusaderGarments: {
+		DisplayName: Crusader Garments
+		Tooltip: ""
+	}
+
+	CrusaderGreaves: {
+		DisplayName: Crusader Greaves
+		Tooltip: ""
+	}
+
+	CrusaderHelmet: {
+		DisplayName: Crusader Helmet
+		Tooltip: ""
+	}
+
+	DevCoat: {
+		DisplayName: nightlight's Coat
+		Tooltip: ""
+	}
+
+	MafiosoHat: {
+		DisplayName: Mafioso Hat
+		Tooltip: ""
+	}
+
+	SpaceKnightBoots: {
+		DisplayName: Space Knight Boots
+		Tooltip: "'A replica from the hit show!'"
+	}
+
+	SpaceKnightHelm: {
+		DisplayName: Space Knight Helmet
+		Tooltip: "'A replica from the hit show!'"
+	}
+
+	SpaceKnightJacket: {
+		DisplayName: Space Knight Jacket
+		Tooltip: "'A replica from the hit show!'"
+	}
+
+	StellarStarshipMask: {
+		DisplayName: Stellar Starship Mask
+		Tooltip: ""
+	}
+
+	BatRepellent: {
+		DisplayName: Bat Repellent
+		Tooltip: ""
+	}
+
+	DripplingStick: {
+		DisplayName: Drippling Stick
+		Tooltip:
+			'''
+			2 summon tag damage
+			Your summons will focus struck enemies
+			Summons an itsy bitsy drippler for you to command
+			Command the drippling to shoot bouncing eyes, or let it slowly attack automatically
+			'''
+	}
+
+	ScarletScythe: {
+		DisplayName: Scarlet Scythe
+		Tooltip: Swing a heavy scythe that saps enemy health on melee hits
+	}
+
+	LuxeriousWine: {
+		DisplayName: Luxerious Wine
+		Tooltip: Right-click to take a sip
+	}
+
+	Glaive: {
+		DisplayName: Glaive
+		Tooltip: "'So simple, even a monkey could use it!'"
+	}
+
+	HunterLongbow: {
+		DisplayName: Hunter's Longbow
+		Tooltip:
+			'''
+			Hold down Attack to charge an arrow
+			Damage and Knockback scale with charge, up to 2x the original strength
+			Fully charged arrows have massively increased critical damage
+			'''
+	}
+
+	JungleBow: {
+		DisplayName: Jungle Bow
+		Tooltip: Shoots poison tipped arrows
+	}
+
+	StalkersBow: {
+		DisplayName: Stalkers Bow
+		Tooltip: ""
+	}
+
+	BloodClotStaff: {
+		DisplayName: Blood Clot Staff
+		Tooltip:
+			'''
+			Converts your life force into bouncing Blood Globules
+			Hitting enemies creates Mini Blood Globules that heal you when picked up
+			'''
+	}
+
+	BloodlettingEye: {
+		DisplayName: Bloodletting Eye
+		Tooltip:
+			'''
+			Spills life-stealing blood bolts
+			Every third hit transforms the next attack into a 3 shot burst
+			'''
+	}
+
+	Blood: {
+		Tooltip:
+			'''
+			Dropped by Blood Zombies
+			'It's still dripping...'
+			'''
+		DisplayName: Blood
+	}
+
+	DevilishPitchfork: {
+		DisplayName: Devilish Pitchfork
+		Tooltip:
+			'''
+			Enemies are set alight with hellish flames
+			For each enemy aflame, health generation is increased
+			'''
+	}
+
+	GraniteSurge: {
+		DisplayName: Granite Surge
+		Tooltip: Fires a short-ranged energy beam that transfers enemy's life force to your own
+	}
+
+	SkeletalGrasp: {
+		DisplayName: Skeletal Grasp
+		Tooltip:
+			'''
+			Unleashes a barrage of skeletal daggers that stick into enemies
+			Whenever a sixth dagger is stuck into an enemy, all daggers burst dealing increased damage and dropping a heart
+			'''
+	}
+
+	TornHeart: {
+		DisplayName: Torn Heart
+		Tooltip: Dealing damage heals yourself and nearby allies
+	}
+
+	DewdropStaff: {
+		DisplayName: Dewdrop Staff
+		Tooltip: After hitting three successful attacks, the next attack heals yourself and allies in a radius
+	}
+
+	EnchantedWand: {
+		DisplayName: Enchanted Wand
+		Tooltip:
+			'''
+			Conjure streams of enchanted light
+			Dealing enough damage allows you to enchant allies by Right-Clicking them
+			Enchanted allies deal 15% increased damage
+			'''
+	}
+
+	JunglesSerum: {
+		DisplayName: Jungles Serum
+		Tooltip: Dealing damage increases healing potency
+	}
+
+	TidalSceptre: {
+		DisplayName: Tidal Sceptre
+		Tooltip:
+			'''
+			Damaging enemies enough allows you to shield an ally
+			Right-Clicking an ally while at full charge provides a Bubble Barrier
+			Bubble Barrier negates a single enemy attack
+			'''
+	}
+
+	VampiresMaw: {
+		DisplayName: Vampires Maw
+		Tooltip:
+			'''
+			Unleashes a flurry of Vampire Fangs that steal life
+			Ignores 15 points of enemy defense
+			'''
+	}
+
+	MeteorStrike: {
+		DisplayName: Meteor Strike
+		Tooltip: ""
+	}
+
+	BoltTorch: {
+		DisplayName: Bolt Torch
+		Tooltip:
+			'''
+			Emits ricocheting fireballs that can pierce enemies
+			Ignores 5 points of enemy defense
+			'''
+	}
+
+	FlameBubbler: {
+		DisplayName: Lava Bubble Gun
+		Tooltip:
+			'''
+			Spews lava bubbles that remain in the air for a while
+			Right-Click to instead fire a beam of flames, igniting bubbles and causing them to explode
+			'''
+	}
+
+	Hellslinger: {
+		DisplayName: Hellslinger
+		Tooltip: Ignores 7 points of enemy defense
+	}
+
+	Hypothermia: {
+		DisplayName: Hypothermia
+		Tooltip:
+			'''
+			Unleashes nitrogen-fueled flames to burn enemies
+			Ignores 10 points of enemy defense
+			'''
+	}
+
+	OverchargedFlashlight: {
+		DisplayName: Over-Charged Flashlight
+		Tooltip:
+			'''
+			Ignores 8 points of enemy defense
+			'Great for exploring, or burning faces off!'
+			'''
+	}
+
+	Roaster: {
+		DisplayName: Roaster
+		Tooltip:
+			'''
+			Unleashes streams of magma that cause violent explosions
+			Higher chance of creating explosives when less enemies struck
+			Ignores 10 points of enemy defense
+			'''
+	}
+
+	SparkSpitter: {
+		DisplayName: Spark Spitter
+		Tooltip: "'Who needs a wand when you got this!'"
+	}
+
+	Trailblazer: {
+		DisplayName: Trailblazer
+		Tooltip:
+			'''
+			Spews flames that linger on the ground
+			Ignores 15 points of enemy defense
+			'''
+	}
+
+	FloralWhip: {
+		DisplayName: Perennial Bloom
+		Tooltip:
+			'''
+			15% summon tag damage
+			Your summons will focus struck enemies
+			Floral power bursts from enemies hit by summons
+			'''
+	}
+
+	FloralHatchetItem: {
+		DisplayName: Floral Hatchet
+		Tooltip: ""
+	}
+
+	Apotheosis: {
+		DisplayName: Apotheosis
+		Tooltip:
+			'''
+			Unleash shadow bolts that steal enemy life and give it to a blackhole
+			The blackhole spreads the healing over time
+			'The all-consuming sustains through destruction'
+			'''
+	}
+
+	ShroomStaff: {
+		DisplayName: Shroom Staff
+		Tooltip: Infects enemies with a funal disease
+	}
+
+	ShroomSword: {
+		DisplayName: Shroom Sword
+		Tooltip: Infects enemies with a funal disease
+	}
+
+	StrangeShroom: {
+		DisplayName: Strange Shroom
+		Tooltip: Summons a shroomoid to fight for you
+	}
+
+	Froslance: {
+		DisplayName: Froslance
+		Tooltip: ""
+	}
+
+	GlacialGuardianStaff: {
+		DisplayName: Glacial Guardian Staff
+		Tooltip: Unleashes Snowy Rays that can heal multiple allies
+	}
+
+	GlacialGun: {
+		DisplayName: Glacial Gun
+		Tooltip: Converts ammunition into frostfire rounds
+	}
+
+	Snowdance: {
+		DisplayName: Snowdance
+		Tooltip: ""
+	}
+
+	SnowflakeStaff: {
+		DisplayName: Snowflake Staff
+		Tooltip: Summons a Snow Angel to fight for you
+	}
+
+	DarkEye: {
+		DisplayName: Dark Eye
+		Tooltip: Leaves behind damaging afterimages
+	}
+
+	FrozenChainblade: {
+		DisplayName: Frozen Chainblade
+		Tooltip:
+			'''
+			7% summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	Nastrond: {
+		DisplayName: Nastrond
+		Tooltip: Unleashes frozen spears from the edge of your screen
+	}
+
+	EnergyStorm: {
+		DisplayName: Energy Storm
+		Tooltip: Hitting three shots on an enemy causes an explosion
+	}
+
+	EnergySword: {
+		DisplayName: Energy Sword
+		Tooltip:
+			'''
+			Unleashes a beam of energy
+			Melee hits generate beam of energy faster
+			'''
+	}
+
+	Grock: {
+		DisplayName: Grock
+		Tooltip: Damage scales with distance from enemy, more damage when close ranged
+	}
+
+	MeanGreens: {
+		DisplayName: Mean Greens
+		Tooltip: Unleashes a barrage of chlorophyte bullets
+	}
+
+	PurpleHaze: {
+		DisplayName: Purple Haze
+		Tooltip:
+			'''
+			Unleashes a torrent of cursed fire
+			Ignores 10 points of enemy defense
+			'''
+	}
+
+	SnowballCannonEX: {
+		DisplayName: Snowball Cannon EX
+		Tooltip: ""
+	}
+
+	TommyGun: {
+		DisplayName: Tommy Gun
+		Tooltip: ""
+	}
+
+	VelvetMaw: {
+		DisplayName: Deadly Kiss
+		Tooltip: "'Tired of waiting'"
+	}
+
+	Heartbreaker: {
+		DisplayName: Heartbreaker
+		Tooltip: ""
+	}
+
+	ElectroTherapy: {
+		DisplayName: Electro-Therapy
+		Tooltip:
+			'''
+			Striking your minions massively increases their attack and movement speed
+			'Time to whip y'all into shape!'
+			'''
+	}
+
+	HyperionAxe: {
+		DisplayName: Neon Throwing Axe
+		Tooltip:
+			'''
+			High-frequency throwing axes can electocute enemies
+			'Shocked to see me?'
+			'''
+	}
+
+	HyperionDrain: {
+		DisplayName: Hyperion Drain
+		Tooltip:
+			'''
+			Fires twin bolts of Hyperion Energy that electrocute foes
+			Generates a charge that boosts allies attack speed when attacking enemies
+			'Power surging!'
+			'''
+	}
+
+	HyperionLampPost: {
+		DisplayName: Hyperion Lamp Post
+		Tooltip:
+			'''
+			Summons a sentry
+			Doesn't attack naturally, has to be whipped to deal damage
+			Damage scales with whip's damage
+			'''
+	}
+
+	HyperionLongsword: {
+		DisplayName: High Frequency Longsword
+		Tooltip: Each swing unleashes a wave of running electricity
+	}
+
+	HyperionRifle: {
+		DisplayName: Hyperion Shock Rifle
+		Tooltip: Alternates between firing four shot bursts of energy bullets and single energy grenades
+	}
+
+	StormCaller: {
+		DisplayName: Storm Caller
+		Tooltip: ""
+	}
+
+	ThunderLord: {
+		DisplayName: Thunder Lord
+		Tooltip: "'Not to be confused with cobalt hammer'"
+	}
+
+	Zeus: {
+		DisplayName: Thunderlord MK.II
+		Tooltip:
+			'''
+			Unleash a storm of lightning bolts that richochets between enemies
+			Struck enemies cause lightning to fall from the sky
+			'''
+	}
+
+	BlazingMidNight: {
+		DisplayName: Blazing Midnight
+		Tooltip: "'May I have this waltz with you'"
+	}
+
+	DevouringRod: {
+		DisplayName: Devouring Rod
+		Tooltip:
+			'''
+			Creates Corrupt Apparitions that chase enemies
+			Right-Click to create an Blessed Apparition which can heal allies
+			Blessed Apparition healing increases with each enemy hit by Corrupt Apparitions, up to 3
+			'''
+	}
+
+	Nightmare: {
+		DisplayName: Nightmare
+		Tooltip:
+			'''
+			Unleashes shards of Nightmares to sap enemy's health
+			Life stolen increases with healing potency
+			'''
+	}
+
+	PrismiteBow: {
+		DisplayName: Crystalline Bow
+		Tooltip: Fires two crytalline arrows that shatter on hit
+	}
+
+	PrismiteSword: {
+		DisplayName: Shattered Greatsword
+		Tooltip: Crystals break off when striking enemies
+	}
+
+	Beacon: {
+		DisplayName: Beacon
+		Tooltip:
+			'''
+			Right-Click an ally to make them your patient
+			Dealing damage heals the patient equal to your bonus healing potency
+			Maximum of 5 health healed per attack
+			'''
+	}
+
+	MagiciansWand: {
+		DisplayName: Magicians Wand
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons magic tophats that unleash a volley of magic
+			'''
+	}
+
+	SpinMillStaff: {
+		DisplayName: Spin Mill Staff
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a stationary blade to keep enemeis away
+			'''
+	}
+
+	TurrentRemote: {
+		DisplayName: Turrent Remote
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a turrent that ramps up in attack speed as it fires
+			'''
+	}
+
+	ShroomiteBow: {
+		DisplayName: Laser Rain
+		Tooltip:
+			'''
+			Hold down Attack to charge a Blue Laser
+			Damage and Knockback scale with charge, up to 2x the original strength
+			Fully charged lasers rain down addtitional lasers from the sky
+			'''
+	}
+
+	ShroomiteFlamethrower: {
+		DisplayName: Shroomite Flamethrower
+		Tooltip: Spews three columns of flames
+	}
+
+	ShroomiteLobber: {
+		DisplayName: The Commander
+		Tooltip:
+			'''
+			Unleashes a barrage of four rockets that seek enemies
+			Rockets deal increased damage on direct hits
+			'''
+	}
+
+	ShroomiteShredder: {
+		DisplayName: Shroomite Shredder
+		Tooltip: Unleashes a burst of 9 bullets
+	}
+
+	Birdie: {
+		DisplayName: Birdie
+		Tooltip: ""
+	}
+
+	FeatherDuster: {
+		DisplayName: Feather Duster
+		Tooltip:
+			'''
+			2 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	SkylineBow: {
+		DisplayName: Skyline Bow
+		Tooltip: ""
+	}
+
+	SkylineCane: {
+		DisplayName: Skyline Cane
+		Tooltip: Summons a lil' harpy to fight for you
+	}
+
+	SkylineHatchet: {
+		DisplayName: Skyline Hatchet
+		Tooltip: Drifts afloat in midair before dissipating
+	}
+
+	SkylineStaff: {
+		DisplayName: Plumage Staff
+		Tooltip: Tickles enemies with razor sharp feathers
+	}
+
+	SkylineYoyo: {
+		DisplayName: Arial
+		Tooltip: ""
+	}
+
+	Enigma: {
+		DisplayName: The Enigma
+		Tooltip:
+			'''
+			Right-click fires an explosive void projectile
+			Holding Up while swinging propels you forward
+			'Eyes up, Guardian!'
+			'''
+	}
+
+	MagmaRod: {
+		DisplayName: Magma Rod
+		Tooltip:
+			'''
+			5 summon tag damage
+			Your summons will focus struck enemies
+			Summons a magma mortar for you to command
+			Launches explosive embers at your cursor, or automatically attacks enemies at lower speeds
+			'''
+	}
+
+	PurificationRod: {
+		DisplayName: Purification Rod
+		Tooltip:
+			'''
+			6 summon tag damage
+			Your summons will focus struck enemies
+			Summons twin purity orbs for you to command
+			Control the purity orbs, or let them attack automatically at reduced speeds
+			Dealing damage builds a charge, and unleashes a barrage when full
+			'''
+	}
+
+	BladeWand: {
+		DisplayName: Blade Wand
+		Tooltip: "'The sixth flower blooms it's petals of steel'"
+	}
+
+	DanceIceFire: {
+		DisplayName: Dance of Ice and Fire
+		Tooltip: "'The beauty of perfect harmony'"
+	}
+
+	ElementalEnvoy: {
+		DisplayName: Elemental Envoy
+		Tooltip: ""
+	}
+
+	FrozenScarf: {
+		DisplayName: Frozen Scarf
+		Tooltip: ""
+	}
+
+	ShadowStaff: {
+		DisplayName: Shadow Staff
+		Tooltip: Cast shadowfire orbs that can pass through tiles, albeit at decreased damage
+	}
+
+	SingeStaff: {
+		DisplayName: Singe Staff
+		Tooltip: "'Kablooey!'"
+	}
+
+	SporeStaff: {
+		DisplayName: Spore Staff
+		Tooltip: ""
+	}
+
+	StellarAlienSidearm: {
+		DisplayName: Holobook of the Cosmos
+		Tooltip: ""
+	}
+
+	StellarBow: {
+		DisplayName: Startillary
+		Tooltip: ""
+	}
+
+	StellarCommandRod: {
+		DisplayName: Stellar Command Rod
+		Tooltip: ""
+	}
+
+	StellarEnergyBlade: {
+		DisplayName: Stellar Energy Blade
+		Tooltip: ""
+	}
+
+	BerserkerBlade: {
+		DisplayName: Berserker Blade
+		Tooltip:
+			'''
+			Striking enemies builds up rage, which increases weapon size and speed
+			Rage slowly depletes over time
+			'''
+	}
+
+	CosmicRepairStaff: {
+		Tooltip:
+			'''
+			Click an ally to select them as a patient
+			Patient's recieve a member of the Stellar Armada to heal them every second
+			Healing strength is equal to your bonus healing potency
+			'''
+		DisplayName: Cosmic Repair Staff
+		Setbonus: Set bonus: Patient deal 10% increased damage
+	}
+
+	PalladiumRod: {
+		DisplayName: Palladium Rod
+		Tooltip:
+			'''
+			Conjures an Energy Beam that can heal multiple allies
+			Allies additionaly recieve healing over time
+			'''
+	}
+
+	CobaltRod: {
+		Tooltip:
+			'''
+			Conjures Energy Shots that split into 3 after traveling
+			Splits contain an additional Energy Shot for every 2 bonus healing potency
+			Primary Energy Shot cannot heal allies
+			'''
+		DisplayName: Cobalt Rod
+	}
+
+	OrichalcumRod: {
+		Tooltip:
+			'''
+			Conjures an Energy Orb that generates hearts for each enemy nearby to a maximum of 3
+			Maximum number of hearts increases for each 2 bonus healing potency
+			'''
+		DisplayName: Orichalcum Rod
+	}
+
+	MythrilRod: {
+		Tooltip:
+			'''
+			Conjures an Energy Star that drain enemies life force before returning to you
+			Healing strength increases with each enemy hit
+			'''
+		DisplayName: Mythril Rod
+	}
+
+	DarkSceptre: {
+		Tooltip: Attacking enemies makes them more susceptible to ally attacks
+		DisplayName: Dark Mark
+	}
+
+	CrystallineStaff: {
+		DisplayName: Crystalline Staff
+		Tooltip: Critical hits restore mana for you and allies
+	}
+
+	GlacialGaze: {
+		Tooltip:
+			'''
+			Striking enemies generates Energy
+			Right-Click consumes Energy to replensh ally's mana
+			'''
+		DisplayName: Glacial Gaze
+	}
+
+	CoralBow: {
+		DisplayName: Coral Bow
+		Tooltip:
+			'''
+			Hold down Attack to charge a Coral Arrow
+			Damage and Knockback scale with charge, up to 2x the original strength
+			Fully charged Coral Arrows release damaging bubbles as it travels
+			'''
+	}
+
+	CoralMace: {
+		Tooltip: Swings a heavy mace
+		DisplayName: Tide Breaker
+	}
+
+	ButterflyKaleidoscope: {
+		Tooltip:
+			'''
+			Conjures a kaleidoscope of healing butterflies
+			Amount of butterflies increases with healing potency
+			Butterflies have a chance to golden which heals extra health
+			Chance to be golden scales with cleric critical damage
+			'''
+		DisplayName: Butterfly Kaleidoscope
+	}
+
+	RadiantFlora: {
+		Tooltip: Emits a healing beam, consumes mana while held
+		DisplayName: Radiant Flora
+	}
+
+	Seraphim: {
+		DisplayName: Seraphim
+		Tooltip:
+			'''
+			Healing allies generates energy
+			Right-Clicking an ally while at full energy grants them an Angelic Barrier
+			Angelic Barriers block 3 attacks
+			'Be not afraid'
+			'''
+	}
+
+	HeartWand: {
+		Tooltip: Heals in an aura around your cursor
+		DisplayName: Heart Wand
+	}
+
+	JarOfHoney: {
+		Tooltip: Spill two giant globules of honey
+		DisplayName: Jar of Honey
+	}
+
+	PeaceNecklace: {
+		Tooltip:
+			'''
+			Increases use speed of healing tools by 10% if there are no enemies near you
+			Enemies are less likely to target you
+			'''
+		DisplayName: Peace Necklace
+	}
+
+	ApothecarySatchel: {
+		Tooltip: Increases healing potency by {0}
+		DisplayName: Apothecary's Satchel
+	}
+
+	JarOfNectar: {
+		DisplayName: Bottle of Nectar
+		Tooltip:
+			'''
+			Buffs applied to allies last 3 seconds longer
+			Healing allies has a chance to increase their life regeneration
+			'''
+	}
+
+	SkeletalFlower: {
+		DisplayName: Skeletal Flower
+		Tooltip: Necrotic damage increased by 4% for each bonus healing potency
+	}
+
+	MedKit: {
+		Tooltip:
+			'''
+			Increases healing potency by {0}
+			Buffs applied to allies last 3 seconds longer
+			Healing allies removes harmful effects and has a chance to increase their life regeneration
+			'''
+		DisplayName: Med Kit
+	}
+
+	PriestHood: {
+		Tooltip: ""
+		DisplayName: Priest's Hood
+	}
+
+	PriestRobe: {
+		DisplayName: Priest's Robe
+		Tooltip: ""
+	}
+
+	CrystallineCross: {
+		Tooltip: Conjures a massive Crystalline healing orb that can heal multiple allies
+		DisplayName: Crystalline Cross
+	}
+
+	VampiricStaff: {
+		Tooltip: ""
+		DisplayName: Vampiric Staff
+	}
+
+	SpiritOfTheNightBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Spirit of the Night
+		DisplayName: Spirit of the Night Banner
+	}
+
+	SpiritOfTheLightBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Spirit of the Light
+		DisplayName: Spirit of the Light Banner
+	}
+
+	SkylineSentinalBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Skyline Harpy
+		DisplayName: Skyline Harpy Banner
+	}
+
+	MeteorSpiritBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Meteor Spirit
+		DisplayName: Meteor Spirit Banner
+	}
+
+	MeteorSlimeBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Flaming Sludge
+		DisplayName: Flaming Sludge Banner
+	}
+
+	DungeonMimicBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Dungeon Mimic
+		DisplayName: Dungeon Mimic Banner
+	}
+
+	GangstaMageBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Snow Casta
+		DisplayName: Snow Casta Banner
+	}
+
+	GangstaGolemBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Snow Golem
+		DisplayName: Snow Golem Banner
+	}
+
+	StellarScouterBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Stellar Scouter
+		DisplayName: Stellar Scouter Banner
+	}
+
+	Medication: {
+		DisplayName: Medication
+		Tooltip:
+			'''
+			Consuming health potions halves the duration of negative effects
+			Requires being equipped for 15 seconds to work
+			'''
+	}
+
+	ChasmPortrait: {
+		Tooltip: "'O. Night'"
+		DisplayName: To Those We Lost
+	}
+
+	HealingMedicine: {
+		DisplayName: Healing Medicine
+		Tooltip:
+			'''
+			Reduces the cooldown of healing potions by 25%
+			Consuming health potions halves the duration of negative effects
+			Requires being equipped for 15 seconds to work
+			'''
+	}
+
+	MegaSyringe: {
+		Tooltip:
+			'''
+			'Hold still, it shouldn't hurt a bit!'
+			'Hopefully'
+			'''
+		DisplayName: Mega Syringe
+	}
+
+	Prescription: {
+		DisplayName: Prescription
+		Tooltip:
+			'''
+			Swinging the syringe launches a healing blob
+			The healing blob rains down additional blobs that heal with half the potency
+			'''
+	}
+
+	GoliathShot: {
+		Tooltip:
+			'''
+			Goliath Shots deal massive damage but fall after traveling
+			'But how does it fit?'
+			'''
+		DisplayName: Goliath Shot
+	}
+
+	TrifectaShot: {
+		Tooltip: Splits into 3 identical bullets with a fixed spread
+		DisplayName: Trifecta Shot
+	}
+
+	HitscanRound: {
+		Tooltip:
+			'''
+			Instantly hits any foe, regardless of barricades
+			Ignores 10 points of enemy defense
+			'''
+		DisplayName: Hitscan Round
+	}
+
+	EnergyBullet: {
+		Tooltip: ""
+		DisplayName: Energy Bullet
+	}
+
+	CheaterRifle: {
+		Tooltip:
+			'''
+			Automatically detects enemies and instantly shots them, ignoring a substantial amount of defense
+			Prioritizes enemies you're aiming at, then weak enemies, nearest enemies, and finally bosses
+			Converts all ammunition into Hitscan Rounds
+			'How does the anti-cheat not detect this?!'
+			'''
+		DisplayName: Aimbot Rifle
+	}
+
+	SoulSucker: {
+		Tooltip: ""
+		DisplayName: Soul Sucker
+	}
+
+	SkylineGatlingGun: {
+		Tooltip: WIP - Not animating correctly
+		DisplayName: Skyline Gatling Gun
+	}
+
+	GrassStew: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			'It... could be worse.'
+			'''
+		DisplayName: Grass Stew
+	}
+
+	MushroomWand: {
+		Tooltip: ""
+		DisplayName: Mushroom Wand
+	}
+
+	ShroomoidBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Shroomoid
+		DisplayName: Shroomoid Banner
+	}
+
+	DarksteelBrick: {
+		DisplayName: Darksteel Brick
+		Tooltip: ""
+	}
+
+	DarkslateBrick: {
+		DisplayName: Darkslate Brick
+		Tooltip: ""
+	}
+
+	DarkslateBrickWallItem: {
+		Tooltip: ""
+		DisplayName: Darkslate Brick Wall
+	}
+
+	ChiseledDarkslate: {
+		DisplayName: Chiseled Darkslate
+		Tooltip: ""
+	}
+
+	StormRiderBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Storm Rider
+		DisplayName: Storm Rider Banner
+	}
+
+	CloudSurferBanner: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：Cloud Surfer
+		DisplayName: Cloud Surfer Banner
+	}
+
+	GhoulishHex: {
+		Tooltip:
+			'''
+			Saps enemy's life force
+			Cannot inflict critical hits, instead firing a secondary Dark Hex instead
+			Dark Hexes create health pickups that can boost attack damage
+			'''
+		DisplayName: Ghoulish Hex
+	}
+
+	RasSceptre: {
+		Tooltip:
+			'''
+			Unleashes solar rays to smite down foes
+			Damaging enemies generates solar energy
+			Right-Clicking while solar energy is full grants an ally a Solar Shield
+			Solar Shields negate a single enemy attack
+			'''
+		DisplayName: Ra's Sceptre
+	}
+
+	SkylineDie: {
+		Tooltip: Rolling a Six makes the die seek targets
+		DisplayName: Skyline Die
+	}
+
+	SpaceDie: {
+		Tooltip: Rolling a Six unleashes an oribtal strike on hit enemies
+		DisplayName: Space Die
+	}
+
+	WoodenDie: {
+		Tooltip: Rolling a Six guarantees maximum damage
+		DisplayName: Wooden Die
+	}
+
+	TrustyCoin: {
+		Tooltip:
+			'''
+			Flipping heads guarantees maximum damage
+			Flipping tails guarantees minimum damage
+			'It's me lucky coin!'
+			'''
+		DisplayName: Trusty Coin
+	}
+
+	SimpleCardDeck: {
+		Tooltip: Randomly choses 3 cards from your inventory to throw
+		DisplayName: Simple Card Deck
+	}
+
+	EternalTwilight: {
+		Tooltip:
+			'''
+			Unleashes twilight light that makes enemies more susceptible to ally attacks
+			Additionally generates stars on hits that can damage enemies
+			'''
+		DisplayName: Eternal Twilight
+	}
+
+	BubbleSceptre: {
+		Tooltip:
+			'''
+			Unleashes a torrent of bubbles
+			Right-Clicking an ally while at full charge grants them an improved Bubble Barrier
+			Bubble Barrier negates 2 enemy attacks
+			'''
+		DisplayName: Bubble Sceptre
+	}
+
+	BioTechRifle: {
+		Tooltip:
+			'''
+			Shoots Bio-Tech rounds that can heal allies and damage foes
+			Generate ultimate charge when doing either
+			Right-Click while at full charge to greatly enhance an ally's damage and defense
+			'But how does it differentiate between friend and foe?'
+			'''
+		DisplayName: Bio-Tech Rifle
+	}
+
+	SoulsReflection: {
+		Tooltip: Using necrotic weapons generates mana equal to twice their health consumption
+		DisplayName: Soul's Reflection
+	}
+
+	DeathsDoor: {
+		Tooltip:
+			'''
+			Steals life from enemies
+			Killing enemies heals you and nearby allies, while also increasing life regen
+			'Fueled by souls'
+			'''
+		DisplayName: The Reaping
+	}
+
+	Sunray: {
+		Tooltip:
+			'''
+			Rapidly unleashes solar rays that heal allys
+			Standing near enemies generates solar energy
+			While at full solar energy, attacking instead creates a Solar Altar that automatically heals allies and grants increased endurance
+			'''
+		DisplayName: Sunray
+	}
+
+	Liberation: {
+		DisplayName: Liberation
+		Tooltip:
+			'''
+			Conjures healing crosses that seek out injured allies
+			If any nearby ally is under half health, healing speed is increased by 20%
+			'''
+	}
+
+	StalkersLongbow: {
+		Tooltip:
+			'''
+			Hold down Attack to charge an arrow
+			Damage and Knockback scale with charge, up to 2x the original strength
+			Hitting enemies with fully charged shots empowers the next charged shot
+			'''
+		DisplayName: Stalker's Longbow
+	}
+
+	GoldenCrescent: {
+		Tooltip:
+			'''
+			Unleashes golden arcs that can replenish your or ally health
+			Healing scales with bonus healing potency, and is increased by critical hits
+			'''
+		DisplayName: Golden Crescent
+	}
+
+	Lucidity: {
+		Tooltip:
+			'''
+			Performs a three-hit combo
+			The first two hits unleash Lucid Moons that rapidly accelerate
+			The third hit instead fires a healing beam, healing strength increases with each prior Lucid Moon hit
+			'I pray for a peaceful night'
+			'''
+		DisplayName: Lucidity
+	}
+
+	CursedGauntlet: {
+		Tooltip: Steal enemy life and set them ablaze with infernal flames
+		DisplayName: Cursed Gauntlet
+	}
+
+	Curse: {
+		DisplayName: Curse
+		Tooltip:
+			'''
+			Swing a ghoulish scythe that unleashes haunted skulls
+			Haunted skulls chase enemies, stealing life and make them more susceptible to ally attacks
+			'What a horrible night to have a curse'
+			'''
+	}
+
+	Steamthrower: {
+		Tooltip:
+			'''
+			Gel-powered steam engine unleashes a cloud of hot steam to damage enemies
+			Ignores 15 points of enemy defense
+			'''
+		DisplayName: Steamworks
+	}
+
+	InfernalFluid: {
+		Tooltip:
+			'''
+			Flames can travel through water and torment foes with infernal flames
+			Can be purchased from the Tinkerer in a Graveyard
+			'''
+		DisplayName: Infernal Fluid
+	}
+
+	ShieldGenerator: {
+		Tooltip: Healing 150 of an ally's health grants them an alien barrier that negates an enemy attack
+		DisplayName: Shield Generator
+	}
+
+	PlasmaPouch: {
+		Tooltip:
+			'''
+			Throw a bag of plasma that replenishes ally health
+			Only compatible with allies of the same bloodtype
+			(If you're boring you can disable this in the config)
+			'''
+		DisplayName: Plasma Pouch
+	}
+
+	Cleansing: {
+		Tooltip:
+			'''
+			Regenerative Crosses are able to remove harmful and negative effects from allies
+			'Good as new!'
+			'''
+		DisplayName: Wand of Cleansing
+	}
+
+	SoothingTouch: {
+		Tooltip: Releases a soothing light all around you, removing harmful effects from allies
+		DisplayName: Soothing Touch
+	}
+
+	EmptyLantern: {
+		DisplayName: Empty Lantern
+		Tooltip: ""
+	}
+
+	DebreifingTableItem: {
+		Tooltip: ""
+		DisplayName: Debreifing Table Item
+	}
+
+	MissileTurrentRemote: {
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a turrent that fires seeking missiles
+			'''
+		DisplayName: Missile Turrent Remote
+	}
+
+	BigBulbWand: {
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a prickly flora that spits large spiked balls at enemies
+			'''
+		DisplayName: Big Bulb Wand
+	}
+
+	Photosynthesis: {
+		Tooltip:
+			'''
+			Conjures solar rays that can penetrate foes
+			Healing allies in any way massively improves attack speed and accuracy
+			'''
+		DisplayName: Photosynthesis
+	}
+
+	HolyFist: {
+		Tooltip:
+			'''
+			Unleashes a flurry of fists
+			Standing near enemies or damaging them generates Holy Crosses
+			Holy Crosses increase your endurance or heal allies they touch
+			'Muda muda muda!'
+			'''
+		DisplayName: Holy Fist
+	}
+
+	DarksteelScraps: {
+		DisplayName: Darksteel Scraps
+		Tooltip: "'A long lost metal used to construct the mechanical marvals of the Deep Dark'"
+	}
+
+	Duality: {
+		Tooltip:
+			'''
+			Every few attacks unleashes a harmonious wave, increasing friendly life regeneration and hurting enemies
+			Reduces the amount of attacks required by your bonus healing strength
+			'''
+		DisplayName: Duality
+	}
+
+	SandsofTime: {
+		Tooltip: Necrotic weapons deplenish health over time rather than instantly
+		DisplayName: Sands of Time
+	}
+
+	BagOfKnives: {
+		Tooltip:
+			'''
+			Left-click throws three knives consecutively
+			Right-click throws three knives in a spread at once
+			Allows use of an unlimited amount of throwning knives
+			'''
+		DisplayName: Bag of Knives
+	}
+
+	BagOfPoisonedKnives: {
+		DisplayName: Bag of Poisoned Knives
+		Tooltip:
+			'''
+			Left-click throws three knives consecutively
+			Right-click throws three knives in a spread at once
+			Allows use of an unlimited amount of poisoned knives
+			'''
+	}
+
+	StellarJetPack: {
+		DisplayName: Stellar Jet Pack
+		Tooltip:
+			'''
+			Negates fall damage
+			Allows the user a burst of vertical speed
+			'''
+	}
+
+	NinjasShuriken: {
+		Tooltip:
+			'''
+			Improved shurikens capable of dealing more damage and hitting more enemies
+			Right-click consumes all available finesse to throw out an inaccurate flurry of shurikens
+			For every 10 finesse consumed an additonal 2 shurikens are thrown
+			'''
+		DisplayName: Ninja's Shuriken
+	}
+
+	CompactDirt: {
+		Tooltip: ""
+		DisplayName: Compact Dirt
+	}
+
+	CursedAmulet: {
+		Tooltip:
+			'''
+			Take control of a cursed spirit to attack up to 2 enemies
+			The spirit steals life from enemies and brings it back to you
+			The spirit is unable to attack enemies through walls and can't travel too far away
+			'''
+		DisplayName: Cursed Amulet
+	}
+
+	MoltenDagger: {
+		DisplayName: Molten Dagger
+		Tooltip:
+			'''
+			Fiery knives penetrate numerous enemies and inflicts On Fire!
+			Right-click consumes 30 finesse, creating lingering flames on enemy hit
+			'''
+	}
+
+	NinjaHood: {
+		Tooltip: "{0}% increased throwing critical damage"
+		Setbonus: Increased maximum finesse by {0} and finesse charges faster
+	}
+
+	NinjaShirt: {
+		Tooltip: "{0}% increased throwing accuracy"
+	}
+
+	NinjaPants: {
+		Tooltip: "{0}% increased throwing damage"
+	}
+
+	IcicleDagger: {
+		Tooltip:
+			'''
+			Fast daggers that can inflict frostburn upon a single enemy
+			Right-click consumes 30 finesse, generating falling icicles upon struck enemies
+			'''
+		DisplayName: Icicle Dagger
+	}
+
+	HolographicKnife: {
+		DisplayName: Holographic Knife
+		Tooltip:
+			'''
+			Striking enemies generates damaging afterimages
+			Right-click consumes 50 finesse and enhances effectiveness of the afterimages
+			'''
+		Setbonus: Set bonus: Increased piercing for both the knife and afterimages
+	}
+
+	ExplorerPack: {
+		DisplayName: Explorer's Pack
+		Tooltip:
+			'''
+			'I could fit so many items in here!'
+			'Oh, the inside is solid'
+			'''
+	}
+
+	FineLine: {
+		DisplayName: Fine Line
+		Tooltip: ""
+	}
+
+	GoldenRay: {
+		DisplayName: Golden Ray
+		Tooltip: Unleashes a barrage of golden light rays
+	}
+
+	TheRam: {
+		Tooltip: Striking enemies sheds damaging blood drops
+		DisplayName: The Ram
+	}
+
+	SunnyDayStaff: {
+		Tooltip: WIP - Incomplete
+		DisplayName: Sunny Day Staff
+	}
+
+	NiflheimMask: {
+		Tooltip: ""
+		DisplayName: Niflheim Mask
+	}
+
+	SandCannon: {
+		Tooltip: "'What could possibly go wrong!'"
+		DisplayName: Sand Cannon
+	}
+
+	BagPlagueBringer: {
+		Tooltip: ""
+		DisplayName: Treasure Bag (Harbinger of the Plague)
+	}
+
+	PlagueStaff: {
+		DisplayName: Plague Staff
+		Tooltip:
+			'''
+			Conjures locusts that dissipate into a sickly cloud
+			Deals damage over time, increasing the longer its active
+			'''
+	}
+
+	PlaguebringerMask: {
+		DisplayName: Harbinger of the Plague Mask
+		Tooltip: ""
+	}
+
+	Antidote: {
+		Tooltip:
+			'''
+			Click an ally to select them as a patient
+			Patients recieve a guiding spirit that heals them periodicly
+			If the patient has a debuff, the spirit will cleanse it and increase healing
+			'''
+		DisplayName: Antidote
+	}
+
+	PlaguebringerRelic: {
+		DisplayName: Harbinger of the Plague Relic
+		Tooltip: ""
+	}
+
+	Lament: {
+		DisplayName: Lament
+		Tooltip: "'O. Night'"
+	}
+
+	OutofthisWorld: {
+		Tooltip: "'O. Night'"
+		DisplayName: Out of this World
+	}
+
+	Shook: {
+		DisplayName: Shook
+		Tooltip: "'O. Night'"
+	}
+
+	Incense: {
+		DisplayName: Pungent Incense
+		Tooltip: "'Tempts the desert deity of infection'"
+	}
+
+	LocustWings: {
+		DisplayName: Locust Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	PlagueStone: {
+		Tooltip:
+			'''
+			Double-Tap down to create a Plaguenado at your cursor's position
+			Only one Plaguenado can be active at a time
+			'''
+		DisplayName: Plague Stone
+	}
+
+	PlaguebringerTrophy: {
+		DisplayName: Harbinger of the Plague Trophy
+		Tooltip: ""
+	}
+
+	StellarLightbulb: {
+		DisplayName: Stellar Lightbulb
+		Tooltip:
+			'''
+			Summons a luminous starship
+			'How many Terrarians does it take to screw in a lightbulb?'
+			'''
+	}
+
+	FrozenRattle: {
+		Tooltip:
+			'''
+			Summons Niffyheim
+			'I am your queen!'
+			'''
+		DisplayName: Frozen Rattle
+	}
+
+	SkylineTable: {
+		DisplayName: Skyline Table
+		Tooltip: ""
+	}
+
+	SkylineWorkbench: {
+		DisplayName: Skyline Work Bench
+		Tooltip: ""
+	}
+
+	SkylineClock: {
+		Tooltip: ""
+		DisplayName: Skyline Clock
+	}
+
+	SkylineChest: {
+		DisplayName: Skyline Chest
+		Tooltip: ""
+	}
+
+	SkylineStool: {
+		Tooltip: ""
+		DisplayName: Skyline Stool
+	}
+
+	SkylineDoor: {
+		Tooltip: ""
+		DisplayName: Skyline Door
+	}
+
+	SkylineCandle: {
+		Tooltip: ""
+		DisplayName: Skyline Candle
+	}
+
+	SkylineLamp: {
+		Tooltip: ""
+		DisplayName: Skyline Lamp
+	}
+
+	StellarBookcase: {
+		Tooltip: ""
+		DisplayName: Stellar Bookcase
+	}
+
+	StellarClock: {
+		Tooltip: ""
+		DisplayName: Stellar Clock
+	}
+
+	StellarDoor: {
+		Tooltip: ""
+		DisplayName: Stellar Door
+	}
+
+	AlfynWig: {
+		Tooltip: ""
+		DisplayName: Alfyn's Wig
+	}
+
+	AlfynBoots: {
+		Tooltip: ""
+		DisplayName: Alfyn's Boots
+	}
+
+	AlfynCoat: {
+		DisplayName: Alfyn's Coat
+		Tooltip: ""
+	}
+
+	CasttiWig: {
+		Tooltip: ""
+		DisplayName: Castti's Wig
+	}
+
+	CasttiCloak: {
+		Tooltip: ""
+		DisplayName: Castti's Cloak
+	}
+
+	CasttiBoots: {
+		Tooltip: ""
+		DisplayName: Castti's Boots
+	}
+
+	TeaTime: {
+		Tooltip:
+			'''
+			Launches warm hearts that boil water on enemy hit
+			Once water is fully boiled, attack again to share it with allies, healing them
+			'''
+		DisplayName: Tea Time
+	}
+
+	IckStick: {
+		Tooltip: Casts a sick ray that enfeebles enemies and saps their health
+		DisplayName: Ick Stick
+	}
+
+	BloodBrooch: {
+		DisplayName: Blood Brooch
+		Tooltip: Necrotic health consumption decreased by {0}%
+	}
+
+	BloodOrchid: {
+		Tooltip:
+			'''
+			{0}% reduced mana and necrotic health cost
+			Automatically uses mana potions when needed
+			'''
+		DisplayName: Blood Orchid
+	}
+}
+
+Keybinds: {
+	ChargeThrownWeapon: {
+		DisplayName: Charge Thrown Weapon
+	}
+
+	ActivateSet: {
+		DisplayName: Activate Set
+	}
+}
+
+NPCs: {
+	CluffleNPC: {
+		DisplayName: Cluffle
+	}
+
+	SpaceSnailNPC: {
+		DisplayName: Space Snail
+	}
+
+	DungeonMimic: {
+		DisplayName: Dungeon Mimic
+	}
+
+	Wither: {
+		DisplayName: Wither
+	}
+
+	WitheringDemon: {
+		DisplayName: Withering Demon
+	}
+
+	ElegantBulb: {
+		DisplayName: Elegant Bulb
+	}
+
+	FlamingSludge: {
+		DisplayName: Flaming Sludge
+	}
+
+	MeteorSpirit: {
+		DisplayName: Meteor Spirit
+	}
+
+	Icicle: {
+		DisplayName: Icicle
+	}
+
+	SnowCasta: {
+		DisplayName: Snow Casta
+	}
+
+	SnowGolem: {
+		DisplayName: Snow Golem
+	}
+
+	StabbyJr: {
+		DisplayName: Stabby Jr
+	}
+
+	SkylineHarpy: {
+		DisplayName: Skyline Harpy
+	}
+
+	StellarShip1: {
+		DisplayName: Stellar Ship AF-004
+	}
+
+	StellarShip2: {
+		DisplayName: Stellar Ship SD-027
+	}
+
+	StellarStarship: {
+		DisplayName: Stellar Starship
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5666]
+		}
+	}
+
+	Geologist: {
+		DisplayName: Geologist
+
+		TownNPCMood: {
+			Content: I am quite happy at the moment!
+			NoHome: I hate having no home, it reminds me of what I used to be.
+			FarFromHome: I don't know how I got here.
+			LoveSpace: I love having this much room, I can appreciate the gemstone's reflections much better!
+			DislikeCrowded: Too many people here, not a fan.
+			HateCrowded: I'm losing precious stoarge space, not enough room to store everything with this many people here.
+			LoveBiome: I love {BiomeName}, it's an adventure everytime I step outside!
+			DislikeBiome: I thought rocks were cold, but {BiomeName} is somehow even more so!
+			LoveNPC: I love {NPCName}, she's like a sister to me!
+			LikeNPC: I like {NPCName}, he understands the allure of the underground.
+			DislikeNPC: I don't like {NPCName}, always wanting me to terraform a field for him!
+			LikeNPC_Princess: "{NPCName} is a nice girl, always making everyone feel welcome!"
+			Princess_LovesNPC: I really dig {NPCName}, heehee!
+			LikeBiome: I like {BiomeName}.
+		}
+
+		Dialogue: {
+			Standard1: You don't want to get me started on the differences between rocks and stones.
+			Standard2: The underground is such a beautiful place!  It's such a shame that so many monsters make it their home.
+			Standard3: My favourite gemstone?  Why, I just can't choose, they're all so alluring!
+			Standard4: Thanks again for freeing me from that monsterous form.
+			Hardmode1: Can you fathom how all these new metals came to be?  And in so many intriguing colours!
+			Hardmode2: I was once an adventurer, naive enough to go wandering off underground without preperation.  That's how I came to be that monster.
+			Day: The sensation of sun on my skin!  You truly don't appreciate it until you have been without it!
+			Night: Ah, the stars!  And look, planets!  What mysteries do they hold, and just imagine what kind of rocks they have!
+			Rain1: Have you ever stopped and considered just how beautiful the rain is?
+			Rain2: Everyone else seems to dislike the rain and its beauty.  Sometimes I ponder if maybe I am the odd one.
+			RequestOre1: Would you mind fetching me {0} chunks of {1}, please?
+			RequestOre2: I am hoping to inspect {0} pieces of {1}.  Mind gathering them for me?
+			RequestOre3: I am preparing a research on {1}.  If you could get me {0} pieces of it for me that'd be wonderful!
+			RequestGem1: Would you mind fetching me {0} {1}s, please?"
+			RequestGem2: I'm doing a study on gemstones.  I'll be inspecting {1} and am in need of {0} of them.
+			RequestHellstone: Can you believe that a fiery metal exists in the underworld?  I'll be requiring {0} pieces for a proper study of it!
+			RequestHyperion: There exists these lustrous {1} that can be found in the Deep Dark and I must see them!  Could you get {0} of them for me?
+			RequestLunarOre: Well I'll be damned, that squid thingy held the secret to a new metal!  If you could give me {0} of its pebbles that'd be wonderful!  And don't worry, I'll return them right after!
+			FinishedQuest1: Thanks so much!  This will be the start of a great discovery!
+			FinishedQuest2: This is perfect, thanks!  I got a new task for you whenever you're ready!
+			FinishedQuest3: Why, look at this!  It's beautiful!  Thanks for gathering this for me!
+			FinishedPrehardmode: Thanks for your enthusiasism, but there is no more to discover at this time.  Perhaps another time.
+			FinishedHardmode1: I never thought I would be able to make my dream come true!  Thank you for helping me with all your discoveries!
+			FinishedHardmode2: With all these discoveries made, all I need now is a museum to show them off!  Thanks so much for helping me!
+			Underground1: It's amazing down here, all these different gems and metals!  There is always so much to explore!
+			Underground2: Adventure calls down here!  But it's best for me not to wander off again, 'lest I become a monster once more.
+			Ocean: The sea is beautiful!  The warm sun and the cold breeze, I couldn't imagine a more peaceful place!
+			Demolitionist1: "{0} understands the yearning for the caves!  We could go on and on about the different rocks we each find!"
+			Demolitionist2: Though I enjoy {0}'s company, it's impossible for us to go exploring together.  He'll just blow everything up!
+			Tinkerer: Can you believe it?  {0} asked me for help identifying a metal!  I suppose even geniuses need help!
+			Cyborg: "{0}'s body is made of some metal that I've never seen before!  I must learn more about it!"
+			Meteorite: That meteorite that struck sure was a sight to behold.  I've already thouroughly inspected it, so it's all yours!
+		}
+	}
+
+	Priestess: {
+		DisplayName: Priestess
+
+		TownNPCMood: {
+			Content: I am quite content where I stand.
+			NoHome: Without a home, everything seems so much scarier!
+			FarFromHome: I seem to have been displaced from my home.
+			LoveSpace: There is so much freedom here, I love it!
+			DislikeCrowded: I need more space, it's too crowded here.
+			HateCrowded: I can't hear my own thoughts with all these people here.
+			LoveBiome: I quite love {BiomeName}, the cold has always felt warming in a way.
+			LikeBiome: I enjoy {BiomeName}, the rainbows really are quite beautiful.
+			HateBiome: I hate {BiomeName}, its just way too dark.
+			LoveNPC: I love {NPCName}, the way she connects with nature is wonderous!
+			LikeNPC: I like {NPCName}, we share a similar passion for knowledge!
+			DislikeNPC: I dislike {NPCName}, no price should ever be put on health!
+			LikeNPC_Princess: "{NPCName} is a joy to be around!"
+			Princess_LovesNPC: "{NPCName} always sees the good in everyone, I truly admire that about her!"
+		}
+
+		Dialogue: {
+			Standard1: You should spend a minute or two to smell the sunflowers!
+			Standard2: I pray to Evangelyne each morning as thanks for the wondrous life I have been put in.
+			Standard3: There is salvation for us all, you needn't worry.
+			Standard4: There exists an ancient ice deity called Niflheim.  With most her followers gone, she has lost most of her power.
+			Hardmode1: Ancient spirits of been released into the world and I fear that they all are a hinderence to peace.
+			Hardmode2: The Hallow is a strange place.  It seems like a rainbow paradise, but everything there still wishes to kill you.
+			Night: Aren't the stars just beautiful tonight?
+			Windy: Ah, we got a nice cool breeze today!  The feeling of it blowing through my hair is wonderous!
+			Guide: I enjoy the guidance that {0} brings.  It would truly be a shame if he became obsolete due to technology.
+			WitchDoctor: It's always a wonder to here how another's life has gone.  {0} always has intresting tales to tell.
+			Wizard: "{0} is helping to teach me magic!  I've always considered myself a pacifist, but the world is just far too dangerous."
+			Stylist: "{0} keeps prodding me to work on my hair.  She just doesn't seem to understand that I enjoy it as is."
+			Painter: It's always wonderful to take it slow and paint with {0}.  You should join us!
+			NoGeologist: Those poor Nymphs down underground look tormented.  Perhaps there is some way to purify their soul?
+			Geologist: "{0} and I enjoy catching up with each other over coffee.  Care to join us?"
+			Graveyard: I can feel the pain that has been here, it's a reminder to always strive towards a better future.
+			Snow: Quite the chilly room we have here.
+			BlessedTipCorrupt: If you manage to get your hands on some 浄化の粉, try throwing it on some デモナイト鉱石!
+			BlessedTipCrimson: If you manage to get your hands on some 浄化の粉, try throwing it on some クリムタン鉱石!
+			PlayerIsRadiant: The world is in dire need of healing.  I'm glad you've decided to take up the mantle.
+			PlayerIsNecrotic: I'm not fond of the path you're walking.  Our powers should be used to heal others, not hurt them.
+			Respawn: It thanks to Evangelyne that you are able to come back from the beyond.  I'll give her your gratitudes.
+			BloodMoon: I-It's o-okay, {0}.  Th-they can't-t hurt y-you here...
+			BloodMoonZoologist: "{0} j-j-just transf-formed into a b-beast.  I d-don't think I c-can ever look at h-her the same ever a-again"
+		}
+	}
+
+	Ninja: {
+		DisplayName: Ninja
+
+		ShopOptions: {
+			Teach: Teach
+		}
+
+		Dialogue: {
+			ThrownDamageTrue: I'll share with you my secret techniques, hope you got a good pitching arm!
+			ThrownDamageFalse: No longer shall my technique be yours.
+			Standard1: There exists no shame in using other styles of weapons, there is only an incompetant wielder.
+			Standard2: Down underground there exists an extinct society of throwers, the Hoplites.  Seek them out, and their weapons can become yours.
+			Standard3: I've heard some say that I am 'throwing' because of my use of thrown weapons.  Do they lack common sense or have the education of a preschooler?
+			Standard4: The path of the thrower is a difficult and expensive one.  If you have any hard to come by weapons, I'll be able to offer you more.
+			Standard5: Certain thrown weapons have secondary functions which use 'finesse' to perform an improved attack.
+			Standard6: Just because our weapons cannot be reforged by the tinkerer, doesn't mean they're weaker but means that they are already strong enough.
+			Daggerfish: The world is filled with wonder.  Certain species of fish make for decent weapons, I wonder how they came to be this way?
+			AfterGoblins: After seeing the effectiveness of these spiked balls, I might just have to add caltrops into my fighting style.
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+	}
+
+	SpiritOfTheNight: {
+		DisplayName: Spirit of the Night
+	}
+
+	SpiritOfTheLight: {
+		DisplayName: Spirit of the Light
+	}
+
+	StellarScouter: {
+		DisplayName: Stellar Scouter
+	}
+
+	NimbusMan: {
+		DisplayName: Nimbus Man
+	}
+
+	Shroomoid: {
+		DisplayName: Shroomoid
+	}
+
+	CloudSurfer: {
+		DisplayName: Cloud Surfer
+	}
+
+	StormRider: {
+		DisplayName: Storm Rider
+	}
+
+	Niflheim: {
+		DisplayName: Niflheim
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:5667] in a snowy landscape
+		}
+	}
+
+	FloralHornet: {
+		DisplayName: Infested Hornet
+	}
+
+	EnergizedSludge: {
+		DisplayName: Energized Sludge
+	}
+
+	Observer: {
+		DisplayName: Observer
+	}
+
+	GreatDrillTail: {
+		DisplayName: Great Drill
+	}
+
+	GreatDrillHead: {
+		DisplayName: Great Drill
+	}
+
+	GreatDrillBody: {
+		DisplayName: Great Drill
+	}
+
+	OverchargedSludge: {
+		DisplayName: Overcharged Sludge
+	}
+
+	DarkKnight: {
+		DisplayName: Dark Knight
+	}
+
+	HandOfFate: {
+		DisplayName: Hand Of Fate
+	}
+
+	PlagueBringer: {
+		DisplayName: Harbinger of the Plague
+	}
+
+	Locust: {
+		DisplayName: Locust
+	}
+}
+
+Prefixes: {
+	Attuned: {
+		DisplayName: Attuned
+	}
+
+	Blessed: {
+		DisplayName: Blessed
+	}
+
+	Murderous: {
+		DisplayName: Murderous
+	}
+
+	Crazed: {
+		DisplayName: Crazed
+	}
+
+	Satanic: {
+		DisplayName: Satanic
+	}
+
+	Divine: {
+		DisplayName: Divine
+	}
+
+	Forbidden: {
+		DisplayName: Forbidden
+	}
+
+	Forgotten: {
+		DisplayName: Forgotten
+	}
+
+	Holy: {
+		DisplayName: Holy
+	}
+
+	"R A AD IANT PREFIX": {
+		DisplayName: R  A  A D  I A N T  P R E F I X
+	}
+
+	Sacred: {
+		DisplayName: Sacred
+	}
+
+	Unattuned: {
+		DisplayName: Unattuned
+	}
+
+	Unholy: {
+		DisplayName: Unholy
+	}
+
+	"base cleric prefix": {
+		DisplayName: base cleric prefix
+	}
+
+	Haunted: {
+		DisplayName: Haunted
+	}
+
+	Hasty: {
+		DisplayName: Hasty
+	}
+
+	"The Devil's": {
+		DisplayName: The  Devil's
+	}
+
+	Cursed: {
+		DisplayName: Cursed
+	}
+
+	"TheDevil's": {
+		DisplayName: The Devil's
+	}
+
+	Adept: {
+		DisplayName: Adept
+	}
+
+	Angelic: {
+		DisplayName: Angelic
+	}
+
+	Mystic: {
+		DisplayName: Mystic
+	}
+
+	"Occultist's": {
+		DisplayName: Occultist's
+	}
+
+	Taboo: {
+		DisplayName: Taboo
+	}
+
+	Zealous: {
+		DisplayName: Zealous
+	}
+
+	Shoddy: {
+		DisplayName: Shoddy
+	}
+
+	Deranged: {
+		DisplayName: Deranged
+	}
+
+	Demonic: {
+		DisplayName: Demonic
+	}
+
+	Damaged: {
+		DisplayName: Damaged
+	}
+}
+
+Projectiles: {
+	AccessoryDrawHelper: {
+		DisplayName: Accessory Draw Helper
+	}
+
+	DarkEnergy: {
+		DisplayName: Dark Energy
+	}
+
+	StellarMinionA: {
+		DisplayName: Stellar Minion A
+	}
+
+	SkylineArrow: {
+		DisplayName: Skyline Arrow
+	}
+
+	ShroomBullet: {
+		DisplayName: Shroom Bullet
+	}
+
+	AvianSkyFeather: {
+		DisplayName: Avian Sky Feather
+	}
+
+	BlackholeSetBonus: {
+		DisplayName: Blackhole Set Bonus
+	}
+
+	BlackholeSetBonusTentacle: {
+		DisplayName: Blackhole Set Bonus Tentacle
+	}
+
+	HyperionProbe: {
+		DisplayName: Hyperion Probe
+	}
+
+	HyperionProbeAoE: {
+		DisplayName: Hyperion Probe
+	}
+
+	HyperionProbeProjectile: {
+		DisplayName: Hyperion Probe
+	}
+
+	GhastlySkull: {
+		DisplayName: Ghastly Skull
+	}
+
+	GlacialBlast: {
+		DisplayName: Glacial Blast
+	}
+
+	GlacialShard: {
+		DisplayName: Glacial Shard
+	}
+
+	PriestsAura: {
+		DisplayName: Priests Aura
+	}
+
+	WindPixie: {
+		DisplayName: Wind Pixie
+	}
+
+	LostVoice: {
+		DisplayName: Lost Voice
+	}
+
+	LostVoiceThrown: {
+		DisplayName: Lost Voice Thrown
+	}
+
+	AsclepiusHead: {
+		DisplayName: Asclepius Head
+	}
+
+	CaduceusHeads: {
+		DisplayName: Caduceus Heads
+	}
+
+	RoseWandBolt: {
+		DisplayName: Rose Wand Bolt
+	}
+
+	PhoenixBlast: {
+		DisplayName: Phoenix Blast
+	}
+
+	ClufflePet: {
+		DisplayName: Cluffle Pet
+	}
+
+	EnergyDrillProjectile: {
+		DisplayName: Energy Drill Projectile
+	}
+
+	ChlorophyteRodBobber: {
+		DisplayName: Chlorophyte Rod Bobber
+	}
+
+	DualHookingPoleBobber: {
+		DisplayName: Dual Hooking Pole Bobber
+	}
+
+	SkylineRodBobber: {
+		DisplayName: Skyline Rod Bobber
+	}
+
+	StellarRodBobber: {
+		DisplayName: Stellar Rod Bobber
+	}
+
+	StellarDrillProj: {
+		DisplayName: Stellar Drill Proj
+	}
+
+	StellarMinibomb: {
+		DisplayName: Stellar Minibomb
+	}
+
+	BioTechBeam: {
+		DisplayName: Bio Tech Beam
+	}
+
+	BloodDrop: {
+		DisplayName: Blood Drop
+	}
+
+	DripplingEye: {
+		DisplayName: Drippling Eye
+	}
+
+	DripplingSpirit: {
+		DisplayName: Drippling Spirit
+	}
+
+	BloodyOrb: {
+		DisplayName: Bloody Orb
+	}
+
+	HemoClot: {
+		DisplayName: Hemo Clot
+	}
+
+	ScarletScytheSwing: {
+		DisplayName: Scarlet Scythe Swing
+	}
+
+	ScarletSlash: {
+		DisplayName: Scarlet Slash
+	}
+
+	WineDrop: {
+		DisplayName: Wine Drop
+	}
+
+	GlaiveProj: {
+		DisplayName: Glaive Proj
+	}
+
+	HuntingArrow: {
+		DisplayName: Hunting Arrow
+	}
+
+	PoisonArrow: {
+		DisplayName: Poison Arrow
+	}
+
+	DarkBeam: {
+		DisplayName: Dark Beam
+	}
+
+	StalkerArrow: {
+		DisplayName: Stalker Arrow
+	}
+
+	MushroomSkewer: {
+		DisplayName: Mushroom Skewer
+	}
+
+	ShroomBall: {
+		DisplayName: Shroom Ball
+	}
+
+	SkewerSlice: {
+		DisplayName: Skewer Slice
+	}
+
+	FlaskGas: {
+		DisplayName: Flask Gas
+	}
+
+	FlaskOfInfectionAura: {
+		DisplayName: Flask Of Infection Aura
+	}
+
+	FlaskOfInfectionThrow: {
+		DisplayName: Flask Of Infection Throw
+	}
+
+	HarbringerAura: {
+		DisplayName: Harbringer Aura
+	}
+
+	VampiresMawTeeth: {
+		DisplayName: Vampires Maw Teeth
+	}
+
+	MeteorStrikeHead: {
+		DisplayName: Meteor Strike Head
+	}
+
+	MeteorStrikeLaunch: {
+		DisplayName: Meteor Strike Launch
+	}
+
+	FrostfireFlames: {
+		DisplayName: Frostfire Flames
+	}
+
+	HellFlames: {
+		DisplayName: Hell Flames
+	}
+
+	HypothermalInferno: {
+		DisplayName: Hypothermal Inferno
+	}
+
+	IgnitionStream: {
+		DisplayName: Ignition Stream
+	}
+
+	LavaBubble: {
+		DisplayName: Lava Bubble
+	}
+
+	OverchargedLight: {
+		DisplayName: Overcharged Light
+	}
+
+	RoasterLava: {
+		DisplayName: Roaster Lava
+	}
+
+	ShadowfireFlames: {
+		DisplayName: Shadowfire Flames
+	}
+
+	SolarLight: {
+		DisplayName: Solar Light
+	}
+
+	Spark: {
+		DisplayName: Spark
+	}
+
+	TorchBolt: {
+		DisplayName: Torch Bolt
+	}
+
+	TrailBlaze: {
+		DisplayName: Trail Blaze
+	}
+
+	FloralPower: {
+		DisplayName: Floral Power
+	}
+
+	FloralWhipPollen: {
+		DisplayName: Floral Whip Pollen
+	}
+
+	FloralWhipProj: {
+		DisplayName: Floral Whip Proj
+	}
+
+	OrnamentalFloralWave: {
+		DisplayName: Ornamental Floral Wave
+	}
+
+	FloralHatchet: {
+		DisplayName: Floral Hatchet
+	}
+
+	PlantMindCells: {
+		DisplayName: Plant Mind Cells
+	}
+
+	SolarBeam: {
+		DisplayName: Solar Beam
+	}
+
+	Shroomfection: {
+		DisplayName: Shroomfection
+	}
+
+	ShroomSpore: {
+		DisplayName: Shroom Spore
+	}
+
+	ShroomyBoi: {
+		DisplayName: Shroomy Boi
+	}
+
+	FroslanceHead: {
+		DisplayName: Froslance Head
+	}
+
+	FroslanceProj: {
+		DisplayName: Froslance Proj
+	}
+
+	GlacialBullet: {
+		DisplayName: Glacial Bullet
+	}
+
+	SnowdanceSnowball: {
+		DisplayName: Snowdance Snowball
+	}
+
+	SnowflakeSummon: {
+		DisplayName: Snowflake Summon
+	}
+
+	DarkEyeAfterimage: {
+		DisplayName: Dark Eye Afterimage
+	}
+
+	DarkEyeProj: {
+		DisplayName: Dark Eye
+	}
+
+	FrozenChainbladeProjectile: {
+		DisplayName: Frozen Chainblade Projectile
+	}
+
+	FrozenChainSnowfall: {
+		DisplayName: Frozen Chain Snowfall
+	}
+
+	NastrondProj: {
+		DisplayName: Nastrond Proj
+	}
+
+	EnergyStormExplosion: {
+		DisplayName: Energy Storm Explosion
+	}
+
+	EnergyStormPulse: {
+		DisplayName: Energy Storm Pulse
+	}
+
+	EnergySwordBeam: {
+		DisplayName: Energy Sword Beam
+	}
+
+	GrockLaser: {
+		DisplayName: Grock Laser
+	}
+
+	IchorBlast: {
+		DisplayName: Ichor Blast
+	}
+
+	Inferno: {
+		DisplayName: Inferno
+	}
+
+	FireAura: {
+		DisplayName: Fire Aura
+	}
+
+	HeartachingAura: {
+		DisplayName: Heartaching Aura
+	}
+
+	HolyBeam: {
+		DisplayName: Holy Beam
+	}
+
+	HolyBubble: {
+		DisplayName: Holy Bubble
+	}
+
+	RocketFlailHead: {
+		DisplayName: Rocket Flail Head
+	}
+
+	SpiritGuardian: {
+		DisplayName: Spirit Guardian
+	}
+
+	WorshipAltar: {
+		DisplayName: Worship Altar
+	}
+
+	ElectroTherapyProj: {
+		DisplayName: Electro Therapy Proj
+	}
+
+	HyperionAxeProj: {
+		DisplayName: Hyperion Axe
+	}
+
+	HyperionDrainBolt: {
+		DisplayName: Hyperion Drain Bolt
+	}
+
+	HyperionLampSentry: {
+		DisplayName: Hyperion Lamp Sentry
+	}
+
+	HyperionLampSentryProj: {
+		DisplayName: Hyperion Lamp Sentry
+	}
+
+	HyperionLongswordSlash: {
+		DisplayName: Hyperion Longsword Slash
+	}
+
+	HyperionLongswordSwing: {
+		DisplayName: Hyperion Longsword Swing
+	}
+
+	HyperionRifleBullet: {
+		DisplayName: Hyperion Rifle Bullet
+	}
+
+	HyperionRifleGrenade: {
+		DisplayName: Hyperion Rifle Grenade
+	}
+
+	Thunder: {
+		DisplayName: Thunder
+	}
+
+	ZeusOrb: {
+		DisplayName: Zeus Orb
+	}
+
+	LunarSlash: {
+		DisplayName: Lunar Slash
+	}
+
+	MidnightBlazeSlash: {
+		DisplayName: Midnight Blaze Slash
+	}
+
+	MidnightBlazeSwing: {
+		DisplayName: Midnight Blaze Swing
+	}
+
+	VileSpit: {
+		DisplayName: Vile Spit
+	}
+
+	NightmareBeam: {
+		DisplayName: Nightmare Beam
+	}
+
+	NightmareOrb: {
+		DisplayName: Nightmare Orb
+	}
+
+	FangpireSpit: {
+		DisplayName: Fangpire Spit
+	}
+
+	FangWeb: {
+		DisplayName: Fang Web
+	}
+
+	CrucifixCrosses: {
+		DisplayName: Crucifix Crosses
+	}
+
+	CrystallineCrosses: {
+		DisplayName: Crystalline Crosses
+	}
+
+	CrystallineSwordSwing: {
+		DisplayName: Crystalline Sword Swing
+	}
+
+	PrismiteArrow: {
+		DisplayName: Prismite Arrow
+	}
+
+	PrismiteBolt: {
+		DisplayName: Prismite Bolt
+	}
+
+	PrismiteShard: {
+		DisplayName: Prismite Shard
+	}
+
+	WitchsCauldronBrew: {
+		DisplayName: Witchs Cauldron Brew
+	}
+
+	WitchsCauldronExplosion: {
+		DisplayName: Witchs Cauldron Explosion
+	}
+
+	BeaconProjectile: {
+		DisplayName: Beacon Projectile
+	}
+
+	EvangelynesSwords: {
+		DisplayName: Evangelynes Swords
+	}
+
+	ShadowfireBoom: {
+		DisplayName: Shadowfire Boom
+	}
+
+	StalkingArrow2: {
+		DisplayName: Stalking Arrow2
+	}
+
+	MagiciansHat: {
+		DisplayName: Magicians Hat
+	}
+
+	MagiciansMagic: {
+		DisplayName: Magicians Magic
+	}
+
+	MagiciansRabbit: {
+		DisplayName: Magicians Rabbit
+	}
+
+	SpinMillStand: {
+		DisplayName: Spin Mill Stand
+	}
+
+	TurrentStand: {
+		DisplayName: Turrent Stand
+	}
+
+	BirdieBall: {
+		DisplayName: Birdie Ball
+	}
+
+	FeatherDusterWhip: {
+		DisplayName: Feather Duster Whip
+	}
+
+	SkylineCaneMinion: {
+		DisplayName: Skyline Cane Minion
+	}
+
+	SkylineCaneProj: {
+		DisplayName: Skyline Cane Proj
+	}
+
+	SkylineFeather: {
+		DisplayName: Skyline Feather
+	}
+
+	SkylineHatchetProj: {
+		DisplayName: Skyline Hatchet Proj
+	}
+
+	SkylineYoyoProj: {
+		DisplayName: Skyline Yoyo Proj
+	}
+
+	EnigmaBlast: {
+		DisplayName: Enigma Blast
+	}
+
+	EnigmaProjectile: {
+		DisplayName: Enigma Projectile
+	}
+
+	MagmaEmber: {
+		DisplayName: Magma Ember
+	}
+
+	MagmaSpirit: {
+		DisplayName: Magma Spirit
+	}
+
+	TouhouCard: {
+		DisplayName: Touhou Card
+	}
+
+	TouhouOrb: {
+		DisplayName: Touhou Orb
+	}
+
+	BladeMagic: {
+		DisplayName: Blade Magic
+	}
+
+	DanceMusic: {
+		DisplayName: Dance Music
+	}
+
+	ElementalBlast: {
+		DisplayName: Elemental Blast
+	}
+
+	FrozenScarfIcicle: {
+		DisplayName: Frozen Scarf Icicle
+	}
+
+	FrozenScarfIcicleSmall: {
+		DisplayName: Frozen Scarf Icicle Small
+	}
+
+	ShadowStaffProjectile: {
+		DisplayName: Shadow Staff Projectile
+	}
+
+	SingeBolt: {
+		DisplayName: Singe Bolt
+	}
+
+	SingeExplosion: {
+		DisplayName: Singe Explosion
+	}
+
+	Spores: {
+		DisplayName: Spores
+	}
+
+	StarbornStar: {
+		DisplayName: Starborn Star
+	}
+
+	StellarBookMiniStar: {
+		DisplayName: Stellar Book Mini Star
+	}
+
+	StellarBookStar: {
+		DisplayName: Stellar Book Star
+	}
+
+	StellarCommandRocket: {
+		DisplayName: Stellar Command Rocket
+	}
+
+	StellarCommandShip: {
+		DisplayName: Stellar Command Ship
+	}
+
+	StellarEnergySwing: {
+		DisplayName: Stellar Energy Swing
+	}
+
+	StellarLaser: {
+		DisplayName: Stellar Laser
+	}
+
+	StellarRocketR: {
+		DisplayName: Stellar Rocket R
+	}
+
+	StellarRocket: {
+		DisplayName: Stellar Rocket
+	}
+
+	StellarSupply: {
+		DisplayName: Stellar Supply
+	}
+
+	StellarSwordStar: {
+		DisplayName: Stellar Sword Star
+	}
+
+	AngelicGreatswordSlash: {
+		DisplayName: Angelic Greatsword Slash
+	}
+
+	BerserkerBladeSwing: {
+		DisplayName: Berserker Blade Swing
+	}
+
+	OrichalcumShurikenPetals: {
+		DisplayName: Orichalcum Shuriken Petals
+	}
+
+	OrichalcumShurikenProjectile: {
+		DisplayName: Orichalcum Shuriken Projectile
+	}
+
+	SawbladeProjectile: {
+		DisplayName: Sawblade Projectile
+	}
+
+	SlimeyKunaiProjectile: {
+		DisplayName: Slimey Kunai Projectile
+	}
+
+	BlessedSpell: {
+		DisplayName: Blessed Spell
+	}
+
+	BlessedSpellThrow: {
+		DisplayName: Blessed Spell Throw
+	}
+
+	FierySpell: {
+		DisplayName: Fiery Spell
+	}
+
+	FierySpellThrow: {
+		DisplayName: Fiery Spell Throw
+	}
+
+	FungalSpell: {
+		DisplayName: Fungal Spell
+	}
+
+	FungalSpellThrow: {
+		DisplayName: Fungal Spell Throw
+	}
+
+	GodBloodSpell: {
+		DisplayName: God Blood Spell
+	}
+
+	GodBloodSpellThrow: {
+		DisplayName: God Blood Spell Throw
+	}
+
+	InfernalSpell: {
+		DisplayName: Infernal Spell
+	}
+
+	InfernalSpellThrow: {
+		DisplayName: Infernal Spell Throw
+	}
+
+	SnowSpell: {
+		DisplayName: Snow Spell
+	}
+
+	SnowSpellThrow: {
+		DisplayName: Snow Spell Throw
+	}
+
+	ToxicSpell: {
+		DisplayName: Toxic Spell
+	}
+
+	ToxicSpellThrow: {
+		DisplayName: Toxic Spell Throw
+	}
+
+	BloodBolt: {
+		DisplayName: Blood Bolt
+	}
+
+	BloodClot: {
+		DisplayName: Blood Clot
+	}
+
+	DevilishFireball: {
+		DisplayName: Devilish Fireball
+	}
+
+	DewdropLeaf: {
+		DisplayName: Dewdrop Leaf
+	}
+
+	EnchantedBolt: {
+		DisplayName: Enchanted Bolt
+	}
+
+	GraniteSurgeBeam: {
+		DisplayName: Granite Surge Beam
+	}
+
+	SkeletalKnives: {
+		DisplayName: Skeletal Knives
+	}
+
+	Stinger: {
+		DisplayName: Stinger
+	}
+
+	TidalOrb: {
+		DisplayName: Tidal Orb
+	}
+
+	TornHeartProjectile: {
+		DisplayName: Torn Heart Projectile
+	}
+
+	BloodiedArmorSet: {
+		DisplayName: Bloodied Armor Set
+	}
+
+	FloralSetBonus: {
+		DisplayName: Floral Set Bonus
+	}
+
+	BeatingHeartProjectile: {
+		DisplayName: Beating Heart Projectile
+	}
+
+	ChocolateSquares: {
+		DisplayName: Chocolate Squares
+	}
+
+	DewdropHealAura: {
+		DisplayName: Dewdrop Heal Aura
+	}
+
+	GlacialGuardianSnow: {
+		DisplayName: Glacial Guardian Snow
+	}
+
+	HealingOrb: {
+		DisplayName: Healing Orb
+	}
+
+	MeteoricFuryProjectile: {
+		DisplayName: Meteoric Fury Projectile
+	}
+
+	MiniBloodClot: {
+		DisplayName: Mini Blood Clot
+	}
+
+	MeteorPatient: {
+		DisplayName: Meteor Patient
+	}
+
+	PixieProjectile: {
+		DisplayName: Pixie Projectile
+	}
+
+	SeahorseBubbles: {
+		DisplayName: Seahorse Bubbles
+	}
+
+	TidalBubble: {
+		DisplayName: Tidal Bubble
+	}
+
+	SyringeThrown: {
+		DisplayName: Syringe Thrown
+	}
+
+	TornHeartHealAura: {
+		DisplayName: Torn Heart Heal Aura
+	}
+
+	FrostAura: {
+		DisplayName: Frost Aura
+	}
+
+	GlacialArmor: {
+		DisplayName: Glacial Armor
+	}
+
+	NiflheimFrostBolt: {
+		DisplayName: Niflheim Frost Bolt
+	}
+
+	SnowBalls: {
+		DisplayName: Snow Balls
+	}
+
+	BrimstoneExplosion: {
+		DisplayName: Brimstone Explosion
+	}
+
+	WitherBrimstone: {
+		DisplayName: Wither Brimstone
+	}
+
+	BrimstoneScythe: {
+		DisplayName: Brimstone Scythe
+	}
+
+	WitherSpawnProjectile: {
+		DisplayName: Wither Spawn Projectile
+	}
+
+	BulbBall: {
+		DisplayName: Bulb Ball
+	}
+
+	SpaceLaser: {
+		DisplayName: Space Laser
+	}
+
+	GreenPlasma: {
+		DisplayName: Green Plasma
+	}
+
+	StellarFlare: {
+		DisplayName: Stellar Flare
+	}
+
+	HealingOrbGiant: {
+		DisplayName: Healing Orb Giant
+	}
+
+	HeartPickup: {
+		DisplayName: Heart Pickup
+	}
+
+	CosmicRepairPatient: {
+		DisplayName: Cosmic Repair Patient
+	}
+
+	PalladiumBeam: {
+		DisplayName: Palladium Beam
+	}
+
+	CobaltHealing: {
+		DisplayName: Cobalt Healing
+	}
+
+	OrichalcumOrb: {
+		DisplayName: Orichalcum Orb
+	}
+
+	MythrilStar: {
+		DisplayName: Mythril Star
+	}
+
+	NightmarePulse: {
+		DisplayName: Nightmare Pulse
+	}
+
+	LostVoiceJar: {
+		DisplayName: Lost Voice Jar
+	}
+
+	DarkOrb: {
+		DisplayName: Dark Orb
+	}
+
+	CrystallineBolt: {
+		DisplayName: Crystalline Bolt
+	}
+
+	CrystallineManaAura: {
+		DisplayName: Crystalline Mana Aura
+	}
+
+	GlacialBolt: {
+		DisplayName: Glacial Bolt
+	}
+
+	ManaBeam: {
+		DisplayName: Mana Beam
+	}
+
+	CoralBowHoldout: {
+		DisplayName: Coral Bow Holdout
+	}
+
+	CoralArrow: {
+		DisplayName: Coral Arrow
+	}
+
+	CoralBubbles: {
+		DisplayName: Coral Bubbles
+	}
+
+	CoralMaceSwing: {
+		DisplayName: Coral Mace Swing
+	}
+
+	ButterflyHeal: {
+		DisplayName: Butterfly Heal
+	}
+
+	ButterflyRadiant: {
+		DisplayName: Butterfly Radiant
+	}
+
+	RadiantBeam: {
+		DisplayName: Radiant Beam
+	}
+
+	SeraphimBeam: {
+		DisplayName: Seraphim Beam
+	}
+
+	SeraphimDamageBoost: {
+		DisplayName: Seraphim Damage Boost
+	}
+
+	SeraphimBarrier: {
+		DisplayName: Seraphim Barrier
+	}
+
+	BeaconPatient: {
+		DisplayName: Beacon Patient
+	}
+
+	BeaconAura: {
+		DisplayName: Beacon Aura
+	}
+
+	BeaconCross: {
+		DisplayName: Beacon Cross
+	}
+
+	HeartAura: {
+		DisplayName: Heart Aura
+	}
+
+	HoneyHeal: {
+		DisplayName: Honey Heal
+	}
+
+	BlessedCorrupter: {
+		DisplayName: Blessed Corrupter
+	}
+
+	CorruptSoul: {
+		DisplayName: Corrupt Soul
+	}
+
+	CrystallineOrb: {
+		DisplayName: Crystalline Orb
+	}
+
+	VampiricBolt: {
+		DisplayName: Vampiric Bolt
+	}
+
+	LifeSteal: {
+		DisplayName: Life Steal
+	}
+
+	OakBolt: {
+		DisplayName: Oak Bolt
+	}
+
+	StellarHostileLaser: {
+		DisplayName: Stellar Hostile Laser
+	}
+
+	MegaSyringeProjectile: {
+		DisplayName: Mega Syringe Projectile
+	}
+
+	PrescriptionProjectile: {
+		DisplayName: Prescription Projectile
+	}
+
+	PrescriptionTrail: {
+		DisplayName: Prescription Trail
+	}
+
+	GoliathProjectile: {
+		DisplayName: Goliath Projectile
+	}
+
+	TrifectaProjectile: {
+		DisplayName: Trifecta Projectile
+	}
+
+	HitscanProjectile: {
+		DisplayName: Hitscan Projectile
+	}
+
+	EnergyBulletProjectile: {
+		DisplayName: Energy Bullet Projectile
+	}
+
+	SoulSuckerProjectile: {
+		DisplayName: Soul Sucker Projectile
+	}
+
+	SkylineGatlingGunHoldout: {
+		DisplayName: Skyline Gatling Gun Holdout
+	}
+
+	SolarLaser: {
+		DisplayName: Solar Laser
+	}
+
+	LightningLaser: {
+		DisplayName: Lightning Laser
+	}
+
+	FrozenSpear: {
+		DisplayName: Frozen Spear
+	}
+
+	FrostBolt: {
+		DisplayName: Frost Bolt
+	}
+
+	GhoulishBolt: {
+		DisplayName: Ghoulish Bolt
+	}
+
+	HexBolt: {
+		DisplayName: Hex Bolt
+	}
+
+	GhoulsSkull: {
+		DisplayName: Ghouls Skull
+	}
+
+	BioTechBullet: {
+		DisplayName: Bio Tech Bullet
+	}
+
+	SolarRay: {
+		DisplayName: Solar Ray
+	}
+
+	SunShield: {
+		DisplayName: Sun Shield
+	}
+
+	SkylineDieThrown: {
+		DisplayName: Skyline Die Thrown
+	}
+
+	MeteorDieLaser: {
+		DisplayName: Meteor Die Laser
+	}
+
+	MeteorDieThrown: {
+		DisplayName: Meteor Die Thrown
+	}
+
+	WoodenDieThrown: {
+		DisplayName: Wooden Die Thrown
+	}
+
+	TrustyCoinThrown: {
+		DisplayName: Trusty Coin Thrown
+	}
+
+	Snowballs: {
+		DisplayName: Snowballs
+	}
+
+	MassiveIcicle: {
+		DisplayName: Massive Icicle
+	}
+
+	MassiveIcicleBreak: {
+		DisplayName: Massive Icicle Break
+	}
+
+	TwilightStar: {
+		DisplayName: Twilight Star
+	}
+
+	TwilightBolt: {
+		DisplayName: Twilight Bolt
+	}
+
+	PricklyFlora: {
+		DisplayName: Prickly Flora
+	}
+
+	BubbleBlast: {
+		DisplayName: Bubble Blast
+	}
+
+	DukesBubble: {
+		DisplayName: Dukes Bubble
+	}
+
+	DeathHex: {
+		DisplayName: Death Hex
+	}
+
+	SunrayProjectile: {
+		DisplayName: Sunray Projectile
+	}
+
+	SolarAlter: {
+		DisplayName: Solar Alter
+	}
+
+	HealingCross: {
+		DisplayName: Healing Cross
+	}
+
+	HunterLongbowHoldout: {
+		DisplayName: Hunter Longbow Holdout
+	}
+
+	StalkersArrow: {
+		DisplayName: Stalkers Arrow
+	}
+
+	StalkersLongbowHoldout: {
+		DisplayName: Stalkers Longbow Holdout
+	}
+
+	StalkersFire: {
+		DisplayName: Stalkers Fire
+	}
+
+	BlackholeRadiance: {
+		DisplayName: Blackhole Radiance
+	}
+
+	BlackholeNecrotic: {
+		DisplayName: Blackhole Necrotic
+	}
+
+	YellowCrescent: {
+		DisplayName: Yellow Crescent
+	}
+
+	YellowHeal: {
+		DisplayName: Yellow Heal
+	}
+
+	LucidMoon: {
+		DisplayName: Lucid Moon
+	}
+
+	LucidityHoldout: {
+		DisplayName: Lucidity Holdout
+	}
+
+	LucidityThrust: {
+		DisplayName: Lucidity Thrust
+	}
+
+	LucidBeam: {
+		DisplayName: Lucid Beam
+	}
+
+	HyperionBarrier: {
+		DisplayName: Hyperion Barrier
+	}
+
+	CursedPunch: {
+		DisplayName: Cursed Punch
+	}
+
+	Flames: {
+		DisplayName: Flames
+	}
+
+	FrostFlames: {
+		DisplayName: Frost Flames
+	}
+
+	TrailFlames: {
+		DisplayName: Trail Flames
+	}
+
+	LavaExplosion: {
+		DisplayName: Lava Explosion
+	}
+
+	Flamewhirl: {
+		DisplayName: Flamewhirl
+	}
+
+	ExplosiveFlames: {
+		DisplayName: Explosive Flames
+	}
+
+	Flashlight: {
+		DisplayName: Flashlight
+	}
+
+	Steam: {
+		DisplayName: Steam
+	}
+
+	AlienShield: {
+		DisplayName: Alien Shield
+	}
+
+	PlasmaPouchProjectile: {
+		DisplayName: Plasma Pouch Projectile
+	}
+
+	CleansingBolt: {
+		DisplayName: Cleansing Bolt
+	}
+
+	StellarPlasma: {
+		DisplayName: Stellar Plasma
+	}
+
+	CleansingAura: {
+		DisplayName: Cleansing Aura
+	}
+
+	MissileTurrentStand: {
+		DisplayName: Missile Turrent Stand
+	}
+
+	SentryMissile: {
+		DisplayName: Sentry Missile
+	}
+
+	PaTooie: {
+		DisplayName: Pa Tooie
+	}
+
+	PaTooieSpike: {
+		DisplayName: Pa Tooie Spike
+	}
+
+	Photolight: {
+		DisplayName: Photolight
+	}
+
+	LightFist: {
+		DisplayName: Light Fist
+	}
+
+	HolyCrosses: {
+		DisplayName: Holy Crosses
+	}
+
+	LingeringFlowers: {
+		DisplayName: Lingering Flowers
+	}
+
+	ObserverBolt: {
+		DisplayName: Observer Bolt
+	}
+
+	CurseSwing: {
+		DisplayName: Curse Swing
+	}
+
+	CursedSkull: {
+		DisplayName: Cursed Skull
+	}
+
+	DualityOrb: {
+		DisplayName: Duality Orb
+	}
+
+	DualityAura: {
+		DisplayName: Duality Aura
+	}
+
+	BerserkerSwing: {
+		DisplayName: Berserker Swing
+	}
+
+	StellarSwing: {
+		DisplayName: Stellar Swing
+	}
+
+	NinjaShuriken: {
+		DisplayName: Ninja Shuriken
+	}
+
+	CursedSoul: {
+		DisplayName: Cursed Soul
+	}
+
+	MoltenDaggerThrown: {
+		DisplayName: Molten Dagger Thrown
+	}
+
+	IcicleDaggerThrown: {
+		DisplayName: Icicle Dagger Thrown
+	}
+
+	IcicleRain: {
+		DisplayName: Icicle Rain
+	}
+
+	HolographicKnifeThrown: {
+		DisplayName: Holographic Knife Thrown
+	}
+
+	HolographicKnifeAfterimage: {
+		DisplayName: Holographic Knife Afterimage
+	}
+
+	FinelineHead: {
+		DisplayName: Fineline Head
+	}
+
+	GoldRay: {
+		DisplayName: Gold Ray
+	}
+
+	LocustSwarm: {
+		DisplayName: Locust Swarm
+	}
+
+	Sandstorm: {
+		DisplayName: Sandstorm
+	}
+
+	ShroomiteRocket: {
+		DisplayName: Shroomite Rocket
+	}
+
+	RammingSpear: {
+		DisplayName: Ramming Spear
+	}
+
+	RammingBlood: {
+		DisplayName: Ramming Blood
+	}
+
+	LaserRainHoldout: {
+		DisplayName: Laser Rain Holdout
+	}
+
+	BlueLaser: {
+		DisplayName: Blue Laser
+	}
+
+	DarkLaser: {
+		DisplayName: Dark Laser
+	}
+
+	ApotheosisSun: {
+		DisplayName: Apotheosis Sun
+	}
+
+	SunLaser: {
+		DisplayName: Sun Laser
+	}
+
+	SunSpirit: {
+		DisplayName: Sun Spirit
+	}
+
+	Sandball: {
+		DisplayName: Sandball
+	}
+
+	PlagueCloud: {
+		DisplayName: Plague Cloud
+	}
+
+	SandBall: {
+		DisplayName: Sand Ball
+	}
+
+	SandBallPetite: {
+		DisplayName: Sand Ball Petite
+	}
+
+	StarshipRocket: {
+		DisplayName: Starship Rocket
+	}
+
+	PlagueLocust: {
+		DisplayName: Plague Locust
+	}
+
+	FriendlyPlagueCloud: {
+		DisplayName: Friendly Plague Cloud
+	}
+
+	AntidotePatient: {
+		DisplayName: Antidote Patient
+	}
+
+	Plaguenado: {
+		DisplayName: Plaguenado
+	}
+
+	StellarLightPet: {
+		DisplayName: Stellar Light Pet
+	}
+
+	Niffyheim: {
+		DisplayName: Niffyheim
+	}
+
+	TeaHeart: {
+		DisplayName: Tea Heart
+	}
+
+	TeaAura: {
+		DisplayName: Tea Aura
+	}
+
+	SickRay: {
+		DisplayName: Sick Ray
+	}
+
+	CursedOrb: {
+		DisplayName: Cursed Orb
+	}
+}
+
+Bosslog: {
+	Niflheim: Use a [i:excels/ReflectiveIceShard] in the Snowy Tundra
+	StellarStarship: Use a [i:excels/PlanetaryTrackingDevice]
+	Plaguebringer: Use a [i:excels/Incense] while in the desert
+}
+
+Configs: {
+	excelConfig: {
+		DisplayName: Excelsior Client Config
+
+		ClericCanHealNPCs: {
+			Label: Can heal Town NPCs
+			Tooltip: Allows healing tools to work on friendly town NPCs
+		}
+
+		FunPlasmaPouch: {
+			Tooltip: While false, allows the plasma pouch to heal anyone
+			Label: Plasma Pouch requires same bloodtype
+		}
+
+		CanHealHostileNPCs: {
+			Tooltip:
+				'''
+				Boss fights not difficult enough?  
+				Friend complaining about bad heals?
+				Healing is too easy for you?
+				While true, allows healing Hostile NPCs and brings consequences to just randomly throwing out heals
+				'''
+			Label: Can Heal Hostile NPCs
+		}
+	}
+
+	excelServerConfig: {
+		DisplayName: Excelsior Server Config
+
+		HealingStrength_Multiplier: {
+			Label: Custom Healing Strength Multiplier
+			Tooltip: Allows increasing the global healing strength if you feel it is too weak
+		}
+
+		HealingStrength_MultiplierNPCs: {
+			Tooltip: Allows adjusting the healing recieved by friendly Town NPCs
+			Label: Town NPC Healing Multiplier
+		}
+	}
+}
+
+Config: {
+	ClericTooltip: {
+		Header: Cleric Config
+	}
+
+	CustomBalance: {
+		Header: Custom Cleric Balance
+	}
+
+	ExtraFun: {
+		Header: Extra Fun Gameplay
+	}
+}
+
+Conditions: {
+	DownedNiflheim: Mods.excels.Conditions.DownedNiflheim
+	SilverWorld: Mods.excels.Conditions.SilverWorld
+	AdamantiteWorld: Mods.excels.Conditions.AdamantiteWorld
+	DownedWarlock: Mods.excels.Conditions.DownedWarlock
+	TungstenWorld: Mods.excels.Conditions.TungstenWorld
+	TitaniumWorld: Mods.excels.Conditions.TitaniumWorld
+	InfernalFluidShop: Mods.excels.Conditions.InfernalFluidShop
+	DownedStarship: Mods.excels.Conditions.DownedStarship
+	GoldWorld: Mods.excels.Conditions.GoldWorld
+	PlatinumWorld: Mods.excels.Conditions.PlatinumWorld
+	DownedPlaguebringer: Mods.excels.Conditions.DownedPlaguebringer
+}
+
+Biomes: {
+	DeepDarkBiome: {
+		TownNPCDialogueName: the Deep Dark
+		DisplayName: Deep Dark
+	}
+}
+
+Beastiary: {
+	GreatDrill: A massive machination powered by the crystals of the Deep Dark, it's original creators long since forgotten.
+	Observer: Stay vigilant whilst exploring, lest you become the target of the entire Deep Dark.
+	OverchargedSludge: Discarded piles of sludge become reanimated by the lustrous energy of the hyperion crystals.
+	DarkKnight: Once guards of an ancient society, these empty suits of armour wandered off seeking revenge for its servitude.
+	Plaguebringer: An ancient deity that warned of oncoming disease.  Once benevolent, the disease warped its mind into a blood-fueled rage.
+	Locust: Once the very thing that the Harbinger warned of, leaving behind a trail of devastation wherever they swarmed.
+}
+
+DropConditions: {
+	downedStarship: Stellar Starship must be defeated for this to drop
+}
+
+DamageClasses: {
+	ClericDamageClass: {
+		DisplayName: Cleric Damage Class
+	}
+
+	GamblingDamageClass: {
+		DisplayName: Gambling Damage Class
+	}
+}
+
+Emotes: {
+	GeologistEmote: {
+		Command: geologist
+	}
+
+	PreistessEmote: {
+		Command: priestess
+	}
+}
+

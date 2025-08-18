@@ -1,0 +1,53 @@
+Buffs: {
+	BigFishing: {
+		Description: Greatly increased fishing power
+		DisplayName: Big Fishing
+	}
+}
+
+Items: {
+	SuperFishingPotion: {
+		Tooltip:
+			'''
+			Increases fishing power by 30
+			Stacks with the Fishing Potion
+			'''
+		DisplayName: Super Fishing Potion
+	}
+
+	Anglerfish: {
+		Tooltip: Provides light when held
+		DisplayName: Anglerfish
+	}
+
+	RodKit: {
+		Tooltip: Increases fishing power by 20
+		DisplayName: Fishing Rod Kit
+	}
+
+	PlatinumReel: {
+		Tooltip: Increases fishing power by 10
+		DisplayName: Platinum Reel
+	}
+
+	PlatinumHook: {
+		Tooltip: Increases fishing power by 10
+		DisplayName: Platinum Hook
+	}
+
+	GoldReel: {
+		Tooltip: Increases fishing power by 10
+		DisplayName: Gold Reel
+	}
+
+	GoldHook: {
+		Tooltip: Increases fishing power by 10
+		DisplayName: Gold Hook
+	}
+
+	QuestTicket: {
+		Tooltip: Use this to force the Angler to give you another quest!
+		DisplayName: Quest Ticket
+	}
+}
+

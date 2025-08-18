@@ -1,0 +1,2272 @@
+{
+	"SortingOption": {
+		"InfusionPower": {
+			"Tooltip": "注入パワー"
+		}
+	},
+	"Projectiles": {
+		"CursedEffectProjectile": {
+			"DisplayName": "呪いの効果射出物"
+		}
+	},
+	"NPCs": {
+		"Witch": {
+			"TownNPCMood": {
+				"Princess_LovesNPC": "私は{NPCName}が好き",
+				"LikeNPC_Princess": "私は{NPCName}が好き",
+				"HateNPC": "{NPCName}はそこら中に髪の毛を落としていく暴君女だ、戦争で思い知らせてやる！",
+				"DislikeNPC": "この… {NPCName}という奴は陳腐すぎる！『悪から世界を救う』だと？悪は根深く、ここにあり続けるのだ！",
+				"LikeNPC": "{NPCName}は確立された手法から外れることはないが、その神秘の知識は達人の域にある！",
+				"LoveNPC": "大釜を使う仲間だ！{NPCName}は奇妙な仕掛けをたくさん持っていて、実に魅力的だ！",
+				"HateBiome": "うげっ！この場所は暑くて明るすぎる、何よりも気に食わない！",
+				"DislikeBiome": "この広大な浜辺では、魔法に勝ち目はない。織りなす影もなく、切り裂く神秘もなく、エンチャントが消え去る場所だ",
+				"LikeBiome": "このような人里離れた場所なら、ポーションを泡立たせ、二倍の騒動を醸し出せるだろう",
+				"LoveBiome": "この場所は生き物と汚物でいっぱいだ、一儲けする時だ！",
+				"HateCrowded": "この人混みには耐えられない！私をここから出すか、奴らを追い出すか、早くしてくれ！",
+				"DislikeCrowded": "この騒音の中でどうやって集中しろというのだ！",
+				"LoveSpace": "奴らがいなくなった今、ようやく私の実験を続けられる！",
+				"FarFromHome": "新しい試薬を見つけるために遠くまで冒険しなければならなかった",
+				"WhileMyHomeIsPleasant": "家は快適だが、これらの最後の材料で新しい調合薬を作れる",
+				"NoHome": "すべての商品を抱えきれない、これらは不安定だから注意してくれ！",
+				"Content": "ここでの生活は耐えられる。争いもなく、ドラマもなく、それほどひどくはない"
+			},
+			"DisplayName": "魔女"
+		}
+	},
+	"Tiles": {
+		"WoodEnchantingTable": {
+			"MapEntry": "木のエンチャントテーブル"
+		},
+		"UltimateEnchantingTable": {
+			"MapEntry": "究極のエンチャントテーブル"
+		},
+		"SoulEnchantingTable": {
+			"MapEntry": "魂のエンチャントテーブル"
+		},
+		"HellishEnchantingTable": {
+			"MapEntry": "地獄のエンチャントテーブル"
+		},
+		"DustyEnchantingTable": {
+			"MapEntry": "埃っぽいエンチャントテーブル"
+		}
+	},
+	"TownNPCMood": {
+		"Witch": {
+			"NoHome": "すべての商品を抱えきれない、これらは不安定だから注意してくれ！",
+			"LoveSpace": "みんながいなくなった今、ようやく私の実験を続けられる！",
+			"LoveNPC": "大釜を使う仲間だ！{NPCName}は奇妙な仕掛けをたくさん持っていて、実に魅力的だ！",
+			"LoveBiome": "この場所は生き物と汚物でいっぱいだ、一儲けする時だ！",
+			"LikeNPC": "{NPCName}は確立された手法から外れることはないが、その神秘の知識は達人の域にある！",
+			"LikeBiome": "このような人里離れた場所なら、ポーションを泡立たせ、二倍の騒動を醸し出せるだろう",
+			"HateNPC": "{NPCName}はそこら中に髪の毛を落としていく暴君女だ、戦争で思い知らせてやる！",
+			"HateCrowded": "この人混みには耐えられない！私をここから出すか、奴らを追い出すか、早くしてくれ！",
+			"HateBiome": "うげっ！この場所は暑くて明るすぎる、何よりも気に食わない！",
+			"FarFromHome": "新しい試薬を見つけるために遠くまで冒険しなければならなかった",
+			"WhileMyHomeIsPleasant": "家は快適だが、これらの最後の材料で新しい調合薬を作れる",
+			"DislikeNPC": "この… {NPCName}という奴は陳腐すぎる！『悪から世界を救う』だと？悪は根深く、ここにあり続けるのだ！",
+			"DislikeCrowded": "この騒音の中でどうやって集中しろというのだ！",
+			"DislikeBiome": "この広大な浜辺では、魔法に勝ち目はない。織りなす影もなく、切り裂く神秘もなく、エンチャントが消え去る場所だ",
+			"Content": "ここでの生活は耐えられる。争いもなく、ドラマもなく、それほどひどくはない"
+		}
+	},
+	"Tooltip": {
+		"ItemType": {
+			"Weapons": "武器",
+			"Tools": "道具",
+			"None": "なし",
+			"FishingPoles": "釣竿",
+			"Armor": "防具",
+			"Accessories": "アクセサリー"
+		},
+		"ItemTooltip": {
+			"CursedEssence": "あまりに強力な呪いのエネルギーが形を成したもの\n他の呪いはその力に引き寄せられるだろう\n呪いのエッセンスはインベントリまたはエンチャントストレージにある時、以下の効果に寄与する\n(呪いのエッセンス: {0})\n   敵の出現率を上昇させる(現在のボーナス: {1}倍)\n   敵の最大出現数を増加させる(現在のボーナス: {2}倍)\n   呪われた敵の出現確率が上昇する(出現した敵が呪われる確率: {3})\n(呪いのエッセンスは魔女が販売する呪文除けのポーチに保管することで、その効果を無効化できる)"
+		},
+		"EnchantmentShortTooltip": {
+			"OnTickPlayerBuff": "パッシブ効果で{2}ごとに{1}の間{0}を付与する"
+		},
+		"EnchantmentGeneralTooltips": {
+			"Utility": "ユーティリティ",
+			"Unique": "ユニーク(ユニークエンチャントは1つに制限される)",
+			"UltraBoosterAbreviation": "U",
+			"ToNextLevel": "(次のレベルまで {0})",
+			"SetBonusID": "セットボーナスID: {0}",
+			"Points": "ポイント",
+			"OutOfAmmo": "弾薬切れ",
+			"Or": "または",
+			"OnlyAllowedOn": "これにのみ許可",
+			"Only": "{0}のみ",
+			"NotAllowed": "{0}武器には許可されない",
+			"NormalBoosterAbreviation": "N",
+			"NewSetBonusID": "新しいセットボーナスID:",
+			"NewInfusionPower": "新しい注入パワー:",
+			"NewInfusedItem": "新しい注入済みアイテム:",
+			"MaxLevel": "(最大レベル)",
+			"Max1": "アイテムごとに最大1つ",
+			"LevelCost": "レベルコスト: {0}",
+			"LevelAvailable": "レベル: {0} {1} 利用可能: {2}",
+			"InfusionPower": "注入パワー:",
+			"InfusedItem": "注入済みアイテム:",
+			"InfusedArmorID": "注入済み防具ID: {0}  注入済みアイテム: {1}",
+			"Experience": "経験値: {0}",
+			"EnchantmentCapacity": "エンチャント容量",
+			"BoosterInstalled": "ブースター設置済み",
+			"ArmorSlotOnly": "{0}防具スロットのみ",
+			"ApproximateItemDamage": "アイテムダメージ ~ {0} (防御力0の敵に対して)",
+			"And": "と",
+			"AllowedOn": "許可されるもの"
+		},
+		"EnchantmentEffects": {
+			"PlayerSetEffect": {
+				"Prevented": "{0}: 防止済み",
+				"Enabled": "{0}: 有効"
+			},
+			"BuffEffect": {
+				"OnTickPlayerBuff": "{0} ({1}%の確率で{3}ごとに{2}適用)",
+				"All": "{0} ({1}%の確率で{2}適用)"
+			},
+			"BoolEffect": {
+				"Prevented": "{0}: 防止済み",
+				"Enabled": "{0}: 有効"
+			},
+			"YoyoStringLength": "ヨーヨーの糸の長さ",
+			"WingTime": "翼の飛行時間",
+			"WhipRange": "鞭の攻撃範囲",
+			"VanillaDash": "バニラダッシュ",
+			"Size": "サイズ",
+			"QuestFishChance": "{0}(クエスト魚を釣ると自動的に納品され、1日1回の制限を迂回して新しいクエストが開始される)",
+			"ProjectileVelocity": "射出物の速度",
+			"PrideOfTheWeak": "{0}弱い武器によるダメージを増加させる(注入パワー0で100%有効、注入パワー500で0%有効)",
+			"PickupRange": "ピックアップ範囲",
+			"PercentArmorPenetration": "防御貫通率",
+			"OnHitSpawnProjectile": "敵に命中した時に射出物を生成する: {0}",
+			"OneForAll": "{0}\n(敵に命中すると、近くのすべての敵にダメージを与える)\n(射出物の最初のヒットでのみ発動する)",
+			"NPCHitCooldown": "NPCヒットクールダウン",
+			"NightTimeRate": "夜時間レート",
+			"NightTileUpdateRate": "夜タイル更新レート",
+			"NightEventUpdateRate": "夜イベント更新レート",
+			"Multishot": "{0}(追加の射出物を生成する確率、各射出物に適用される)",
+			"MPBonusRegen": "MPボーナス回復",
+			"MovementSpeed": "移動速度",
+			"MovementSlowdown": "移動速度低下",
+			"MovementAcceleration": "移動加速度",
+			"MinionAttackTarget": "攻撃された敵がミニオンの攻撃対象になる、鞭と同じ効果",
+			"MiningSpeed": "採掘速度",
+			"MaxMP": "最大MP",
+			"MaxMinions": "最大ミニオン数",
+			"MaxLifeSteal": "{0}(使用可能なバニラのライフ吸収プールの割合)",
+			"MaxLife": "最大ライフ",
+			"MaxKi": "最大気力",
+			"MaxFallSpeed": "最大落下速度",
+			"ManaUsage": "マナ使用量",
+			"Luck": "運",
+			"LifeSteal": "{0}(余りは低ダメージ武器での常に0への丸めを防ぐために保存される)",
+			"LifeRegeneration": "ライフ回復",
+			"LavaFishing": "{0}(溶岩での釣りを可能にし、溶岩での釣果率を向上させる可能性がある、他のソースとスタックする)",
+			"KiRegen": "気の自然回復",
+			"KiDamage": "気功ダメージ",
+			"JumpSpeed": "ジャンプ速度",
+			"ItemCooldown": "(アイテムCDは{0}の使用速度に等しい)",
+			"ItemAttractionAndPickupSpeed": "アイテム引き寄せとピックアップ速度",
+			"InfinitePenetration": "無限貫通",
+			"GodSlayer": "{0}\n(敵の最大HPに基づく追加の真ダメージ)\n(追加ダメージはライフ吸収の影響を受けない)",
+			"FlightSpeed": "飛行速度",
+			"FlightAcceleration": "飛行加速度",
+			"FlatMPRegen": "固定MP回復",
+			"FishingPower": "フィッシング・パワー",
+			"FishingEnemySpawnChance": "{0}(日中は5倍に減少、チャムキャスターの影響を受ける、デューク・フィッシュロンも出現する可能性がある)",
+			"EnemySpawnRate": "{0}\n(ミニオンのダメージは、エンチャントによる出現率倍率によって減少する、ただし、ミニオンの攻撃対象である場合は除く)\n(ミニオンの攻撃対象は、鞭またはエンチャントによって召喚ダメージに変換された武器で敵を攻撃することで設定される)\n(エンチャントによる出現率倍率が1.6倍を超えると、ボス召喚アイテムの消費を防ぐ)\n(出現した敵は溶岩/トラップに対して耐性を持つ)",
+			"EnemyMaxSpawns": "敵の最大出現数",
+			"Defense": "防御",
+			"DayTimeRate": "昼時間レート",
+			"DayTileUpdateRate": "昼タイル更新レート",
+			"DayEventUpdateRate": "昼イベント更新レート",
+			"DamageReduction": "ダメージ減少",
+			"DamageClassSwap": "ダメージクラス交換",
+			"DamageAfterDefenses": "防御後のダメージ",
+			"CriticalStrikeDamage": "クリティカルダメージ",
+			"CriticalStrikeChance": "クリティカル率",
+			"CrateChance": "箱の確率",
+			"Channel": "チャネル",
+			"CatastrophicRelease": "壊滅的解放",
+			"BuffDuration": "{0}\n(持続時間はバフを最初に得た時ではなく、バフがアクティブな間継続的に増加する)",
+			"BonusCoins": "{0}(敵に命中すると、与えたダメージ、敵の最大ライフ、敵の基本レアリティ、運に基づいて、死亡時にドロップするコインの数が増加する)",
+			"AutoReuse": "オートリユース",
+			"AttackSpeed": "{0}(ミニオンが射出物を撃つ場合、その発射速度に影響する、魚が釣り糸に食いつく速さに影響する)",
+			"AmmoCost": "{0}(釣り中に餌も節約する)"
+		},
+		"EnchantmentCustomTooltips": {
+			"WorldAblaze": "(アマテラスデバフとそれに関する以下の注釈は、エンチャントティア4でのみ適用される)\n(アマテラスの止められない炎から生き残る者はいない)\n(決して止まらないユニークな炎デバフを敵に与える)\n(デバフによるダメージは時間経過と対象への追加ダメージによって増加する)\n(近くの敵に広がり、他のワールドアブレイズデバフへの耐性を防ぐ)",
+			"Time": "時間効果は6つの選択肢でランダム化される、昼/夜時間レート、タイル更新レート、イベント更新レート",
+			"ThoriumMod": "(Thorium Mod エンチャント)",
+			"DBZMODPORT": "(Dragon Ball Terraria エンチャント)",
+			"CalamityMod": "(Calamity Mod エンチャント)"
+		},
+		"EffectDisplayName": {
+			"YoyoStringLength": "ヨーヨーの糸の長さ",
+			"WorldAblaze": "ワールドアブレイズ",
+			"WingTime": "翼の飛行時間",
+			"WhipRange": "鞭の攻撃範囲",
+			"WhipClassSwap": "鞭クラス交換",
+			"War": "戦争",
+			"Venom": "毒",
+			"VanillaDash5": "クリスタルニンジャダッシュ",
+			"VanillaDash3": "ソーラーダッシュ",
+			"VanillaDash2": "クトゥルフの盾のダッシュ",
+			"VanillaDash1": "足袋のダッシュ",
+			"Time": "時間",
+			"ThrowingClassSwap": "投擲クラス交換",
+			"Spelunker": "探検家",
+			"Sonar": "魚探知",
+			"SolarDash": "ソーラーダッシュ",
+			"Size": "サイズ",
+			"Shine": "シャイン",
+			"Shadowflame": "シャドウフレイム",
+			"RogueClassSwap": "ローグクラス交換",
+			"ReducedManaUsage": "マナ使用量減少",
+			"RangedClassSwap": "遠距離クラス交換",
+			"QuestFishChance": "クエスト魚チャンス",
+			"ProjectileVelocity": "射出物の速度",
+			"PrideOfTheWeak": "弱者の誇り",
+			"Poison": "毒",
+			"PickupRange": "ピックアップ範囲",
+			"PercentArmorPenetration": "防御貫通率",
+			"PennyPinching": "ペニーピンチング",
+			"Peace": "平和",
+			"OnHitSpawnProjectile": "ヒット時射出物生成",
+			"OnFire": "炎上",
+			"OneForAll": "ワンフォーオール",
+			"ObsidianSkin": "黒曜石の肌",
+			"NPCHitCooldown": "NPCヒットクールダウン",
+			"NpcContactAngler": "NPC接触(釣り人)",
+			"NightTimeRate": "夜時間レート",
+			"NightTileUpdateRate": "夜タイル更新レート",
+			"NightEventUpdateRate": "夜イベント更新レート",
+			"Multishot": "マルチショット",
+			"MPBonusRegen": "MPボーナス回復",
+			"MovementSpeed": "移動速度",
+			"MovementSlowdown": "移動速度低下",
+			"MovementAcceleration": "移動加速度",
+			"Moonlight": "月光",
+			"MobilityControl": "機動性制御",
+			"MinionAttackTarget": "ミニオン攻撃対象",
+			"MiningSpeed": "採掘速度",
+			"MeleeClassSwap": "近接クラス交換",
+			"MaxMP": "最大MP",
+			"MaxMinions": "最大ミニオン数",
+			"MaxLifeSteal": "最大ライフ吸収",
+			"MaxLife": "最大ライフ",
+			"MaxKi": "最大気力",
+			"MaxFallSpeed": "最高落下速度",
+			"ManaUsage2": "マナ使用量増加",
+			"ManaUsage1": "マナ使用量減少",
+			"Magnetic": "磁力",
+			"MagicClassSwap": "魔法クラス交換",
+			"Luck": "運",
+			"LifeSteal": "ライフ吸収",
+			"LifeRegeneration": "ライフ自然回復",
+			"LifeRegen": "ライフ自然回復",
+			"LethalCombination": "致死的組み合わせ",
+			"LavaFishing": "溶岩釣り",
+			"KiRegen": "気の回復",
+			"KiDamage": "気功ダメージ",
+			"KiClassSwap": "気功クラス交換",
+			"Ki": "気",
+			"JunglesFury": "ジャングルの怒り",
+			"JumpSpeed": "ジャンプ速度",
+			"Juiced": "ジュースド",
+			"ItemCooldown": "アイテムクールダウン",
+			"ItemAttractionAndPickupSpeed": "アイテム引き寄せとピックアップ速度",
+			"InfinitePenetration": "無限貫通",
+			"Ichor": "霊液",
+			"Hunter": "狩人",
+			"HellsWrath": "地獄の怒り",
+			"HealerClassSwap": "ヒーラークラス交換",
+			"GodSlayer": "ゴッドスレイヤー",
+			"Frostburn": "霜焼け",
+			"FlightSpeed": "飛行速度",
+			"FlightAcceleration": "飛行加速度",
+			"FlatMPRegen": "固定MP回復",
+			"FishingPower": "フィッシング・パワー",
+			"FishingEnemySpawnChance": "釣り敵出現チャンス",
+			"Fishing": "釣り",
+			"ExtraFishingLine": "追加の釣り糸",
+			"EnemySpawnRate": "敵の出現率",
+			"EnemyMaxSpawns": "敵の最大出現数",
+			"Defense": "防御",
+			"DayTimeRate": "昼時間レート",
+			"DayTileUpdateRate": "昼タイル更新レート",
+			"DayEventUpdateRate": "昼イベント更新レート",
+			"Daybreak": "デイブレイク",
+			"DangerSense": "危険察知",
+			"DamageReduction": "ダメージ減少",
+			"DamageClassSwap": "ダメージタイプを{0}に変換",
+			"DamageAfterDefenses": "ダメージ(防御力適用後、武器のツールチップには表示されない)",
+			"Damage": "ダメージ",
+			"CursedInferno": "呪炎",
+			"CriticalStrikeDamage": "クリティカルダメージ",
+			"CriticalStrikeChance": "クリティカル率",
+			"CrateChance": "箱の確率",
+			"Crate": "箱",
+			"ColdSteel": "コールドスチール",
+			"ChaoticFishing": "カオティックフィッシング",
+			"Channel": "チャネル",
+			"CatastrophicRelease": "壊滅的解放",
+			"CalmWaters": "穏やかな水",
+			"BuffEffect9": "ヒット時にあなたに{0}を与える",
+			"BuffEffect8": "ヒット時にあなたに{0}を付与する",
+			"BuffEffect7": "近くの敵にパッシブで{0}を与える",
+			"BuffEffect6": "近くの敵にパッシブで{0}を付与する",
+			"BuffEffect5": "敵にパッシブで{0}を与える",
+			"BuffEffect4": "敵にパッシブで{0}を付与する",
+			"BuffEffect3": "近くのプレイヤーにパッシブで{0}を与える",
+			"BuffEffect2": "近くのプレイヤーにパッシブで{0}を付与する",
+			"BuffEffect15": "ヒット時に近くの敵にパッシブで{0}を与える",
+			"BuffEffect14": "ヒット時に近くの敵に{0}を付与する",
+			"BuffEffect13": "ヒット時に近くのプレイヤーに{0}を与える",
+			"BuffEffect12": "ヒット時に近くのプレイヤーに{0}を付与する",
+			"BuffEffect11": "ヒット時に敵に{0}を与える",
+			"BuffEffect10": "ヒット時に敵に{0}を付与する",
+			"BuffEffect1": "あなたにパッシブで{0}を与える",
+			"BuffEffect0": "あなたにパッシブで{0}を付与する",
+			"BuffDuration": "バフ持続時間",
+			"BonusCoins": "ボーナスコイン",
+			"BerserkersRage": "バーサーカーの怒り",
+			"BardClassSwap": "バードクラス交換",
+			"AutoReuse": "オートリユース",
+			"AttackSpeed": "攻撃速度",
+			"AmmoCost2": "弾薬コスト増加",
+			"AmmoCost1": "弾薬を消費しない確率",
+			"AllForOne": "オールフォーワン"
+		},
+		"DamageClassNames": {
+			"Whip": "鞭",
+			"Throwing": "投擲",
+			"Summon": "召喚",
+			"Rogue": "ローグ",
+			"Ranged": "遠距離",
+			"Melee": "近接",
+			"Magic": "魔法",
+			"Ki": "気",
+			"Generic": "汎用"
+		},
+		"ArmorSlotNames": {
+			"Legs": "脚",
+			"Head": "頭",
+			"Body": "胴"
+		}
+	},
+	"TableText": {
+		"Yes": "はい",
+		"XPButtonDescription": "一つの{0}を消費して\n{2}に{1}の経験値を追加する",
+		"xp": "xp",
+		"weapon0": "ここに武器、防具、またはアクセサリーを配置する",
+		"utility0": "ここにはユーティリティエンチャントのみ配置できる",
+		"ToggleAutoTrashOfferedItems": "捧げられたアイテムの自動ゴミ箱行きを切り替え",
+		"StorageDescription": "エンチャントストレージを開閉する",
+		"Storage": "ストレージ",
+		"SiphonDescription": "{1}から{0}の経験値を消費して、{1}を破壊することなく\n全てのエンチャント、パワーブースター、注入済みアイテム、\nそして残りの経験値を取り除く\nアイテムを捧げるとすべてのエッセンスが返還されるため、{1}を\n維持する必要がない限り、より良い選択肢となる",
+		"Siphon": "サイフォン",
+		"OfferDescription": "{0}を捧げ、それを破壊して鉱石/エッセンスと交換する\n鉱石/エッセンスの割合は設定で調整できる",
+		"Offer": "捧げる",
+		"No": "いいえ",
+		"LootAllDescription": "{0}からすべてのエンチャントを取り除き、それらを\nエンチャントストレージに送り、{0}をインベントリに戻す",
+		"LootAll": "すべて回収",
+		"Loadouts": "ロードアウト",
+		"LoadoutDescription": "エンチャントロードアウトメニューを開閉する\nエンチャントロードアウトはアイテムを保存しない、エンチャントの種類とティアのみを保存する\nエンチャントロードアウトを作成する際、ストレージからエンチャントを\nShift+左クリックすることでスロットを素早く埋めることができる\n(Shiftキーを押している間、次に埋めるスロットは金色の背景になる)。また、マウスでエンチャントを持ってスロットをクリックすることもできる\nマウスにエンチャントを持っていない状態でスロットをクリックすると、スロットがクリアされる\n追加 - 新しいロードアウトを追加する(最大15)\n装備中のエンチャントから追加 - 装備中のエンチャントをコピーしてロードアウトを作成する\nロードアウト # - ロードアウトボタンをクリックすると、そのロードアウトが選択され、表示または編集できる\nすべて - すべてボタンは、手に持っているアイテム、防具、アクセサリーのすべてのエンチャントを\nロードアウトのエンチャントに置き換える。いずれかのアイテムのレベルが\nそのスロットのエンチャントをサポートするのに十分高くない場合、ロードアウトの読み込みは失敗する\n手に持っているアイテム/防具/アクセサリー - これらのボタンは「すべて」ボタンと同じことをするが、\n選択されたカテゴリの特定のエンチャントのみを読み込む",
+		"LevelUpNumberDescription": "レベルアップボタンで追加されるレベル数を\n{0}に設定する",
+		"LevelUpDescription": "{0}をレベル{1}からレベル{2}にレベルアップする\nコストは{3}経験値\n利用可能な経験値: {4}",
+		"LevelUp": "レベルアップ",
+		"Item": "アイテム",
+		"InfusionFinalizeDescriptionWeapon": "{0}を犠牲にして\n{1}のダメージを増加させるために確定する",
+		"InfusionFinalizeDescriptionArmor": "{0}を犠牲にして、{1}のセットボーナスを\n{0}のセットボーナスに置き換えるために確定する",
+		"InfusionDescription": "他の武器や防具を犠牲にして、武器や防具を強化することができる\n武器: 武器を注入すると、追加された100注入パワーごとにそのダメージステータスが{0}増加する\n(新しいダメージ = 基本ダメージ * {1}^((新しい注入パワー - 基本注入パワー)/100) )\n-犠牲にしたいより強い武器をアイテムスロットに置き、注入を押す\n-次に、アップグレードしたいより弱い武器をアイテムスロットに置き、確定を押す\n防具: 防具を注入すると、犠牲になったアイテムからセットボーナスが転送され、注入されたアイテムのセットボーナスが置き換えられる\n使用例: 現在の防具よりもサボテン防具のセットボーナスが好きだとする\n現在の防具の各部分にサボテン防具の各部分を犠牲にして、セットボーナスを転送する\n各防具には独自のセットボーナスIDがあるため、注入されたサボテンヘルム付きの金の兜、\nサボテンの脚、サボテンの胴体など、部分的なセットを持つことができ、サボテン防具のセット効果が得られる\n-犠牲にしたい防具アイテムをアイテムスロットに置き(そのセットボーナスが転送される)、注入を押す\n-変更したい防具アイテムをアイテムスロットに置き(そのセットボーナスが置き換えられる)、確定を押す\n(犠牲になったアイテムからのエンチャント、経験値、およびパワーブースターは、捧げられたかのように返還される)",
+		"InfusionCancelDescription": "保存されている{0}をアイテムスロットに戻す",
+		"Infusion": "注入",
+		"general3": "減少したボーナスを提供し、逆もまた同様である",
+		"general2": "防具やアクセサリーに武器エンチャントを使用すると",
+		"general1": "エンチャントテーブルのティアをアップグレードすると、より多くのエンチャントスロットが解放される",
+		"Finalize": "確定",
+		"ExchangeOres": "鉱石と交換しますか？",
+		"ExchangeEssenceAndOres": "鉱石({0})とエッセンス({1})と交換しますか？",
+		"ExchangeEssence": "エッセンスと交換しますか？",
+		"essence0": "ここに{0}を配置する",
+		"Enchantments": "エンチャント",
+		"enchantment4": "このスロットを使用するには{0}以上が必要",
+		"enchantment0": "ここにエンチャントを配置する",
+		"Cancel": "キャンセル",
+		"AreYouSure": "レベル{0}の\n{1} {2}を永久に破壊してもよろしいですか\n{3}(アイテムのレアリティ/経験値に基づく。エンチャントは返還される)"
+	},
+	"Ores": {
+		"tungsten": "タングステン",
+		"titanium": "チタン",
+		"tin": "錫",
+		"silver": "銀",
+		"platinum": "プラチナ",
+		"palladium": "パラジウム",
+		"orichalcum": "オリハルコン",
+		"mythril": "ミスリル",
+		"lead": "鉛",
+		"iron": "鉄",
+		"gold": "金",
+		"demonite": "デモナイト",
+		"crimtane": "クリムタン",
+		"copper": "銅",
+		"cobalt": "コバルト",
+		"chlorophyte": "クロロファイト",
+		"adamantite": "アダマンタイト"
+	},
+	"NPCNames": {
+		"Witch": {
+			"Winifred": "ウィニフレッド",
+			"Ursula": "ウルスラ",
+			"Sarah": "サラ",
+			"Salem": "セーレム",
+			"Sabrina": "サブリナ",
+			"Morgana": "モルガナ",
+			"MissGulch": "ミス・ガルチ",
+			"Mingella": "ミンジェラ",
+			"Melusine": "メリュジーヌ",
+			"Medusa": "メデューサ",
+			"Mary": "メアリー",
+			"Maleficient": "マレフィセント",
+			"Kyubey": "キュゥべえ",
+			"Jasminka": "ヤスミンカ",
+			"Hazel": "ヘーゼル",
+			"Gruntilda": "グランティルダ",
+			"Freyja": "フレイヤ",
+			"Brentilda": "ブレンチルダ",
+			"Blobbelda": "ブロベルダ",
+			"Binx": "ビンクス",
+			"Akko": "アッコ",
+			"Agatha": "アガサ"
+		}
+	},
+	"Items": {
+		"WorldAblazeEnchantmentRare": {
+			"DisplayName": "ワールドアブレイズエンチャント(レア)"
+		},
+		"WorldAblazeEnchantmentLegendary": {
+			"DisplayName": "ワールドアブレイズエンチャント(レジェンダリー)"
+		},
+		"WorldAblazeEnchantmentEpic": {
+			"DisplayName": "ワールドアブレイズエンチャント(エピック)"
+		},
+		"WorldAblazeEnchantmentCursed": {
+			"DisplayName": "ワールドアブレイズエンチャント(呪い)"
+		},
+		"WorldAblazeEnchantmentCommon": {
+			"DisplayName": "ワールドアブレイズエンチャント(コモン)"
+		},
+		"WorldAblazeEnchantmentBasic": {
+			"DisplayName": "ワールドアブレイズエンチャント(ベーシック)"
+		},
+		"WoodEnchantingTable": {
+			"Tooltip": "アイテムにエンチャントを適用するために使用する(ティア0)\nインベントリから右クリックで使用できる(Shift+右クリックでスタックを分割できる)",
+			"DisplayName": "木のエンチャントテーブル"
+		},
+		"WhipClassSwapEnchantmentRare": {
+			"DisplayName": "鞭クラス交換エンチャント(レア)"
+		},
+		"WhipClassSwapEnchantmentLegendary": {
+			"DisplayName": "鞭クラス交換エンチャント(レジェンダリー)"
+		},
+		"WhipClassSwapEnchantmentEpic": {
+			"DisplayName": "鞭クラス交換エンチャント(エピック)"
+		},
+		"WhipClassSwapEnchantmentCursed": {
+			"DisplayName": "鞭クラス交換エンチャント(呪い)"
+		},
+		"WhipClassSwapEnchantmentCommon": {
+			"DisplayName": "鞭クラス交換エンチャント(コモン)"
+		},
+		"WhipClassSwapEnchantmentBasic": {
+			"DisplayName": "鞭クラス交換エンチャント(ベーシック)"
+		},
+		"WarEnchantmentRare": {
+			"DisplayName": "戦争エンチャント(レア)"
+		},
+		"WarEnchantmentLegendary": {
+			"DisplayName": "戦争エンチャント(レジェンダリー)"
+		},
+		"WarEnchantmentEpic": {
+			"DisplayName": "戦争エンチャント(エピック)"
+		},
+		"WarEnchantmentCursed": {
+			"DisplayName": "戦争エンチャント(呪い)"
+		},
+		"WarEnchantmentCommon": {
+			"DisplayName": "戦争エンチャント(コモン)"
+		},
+		"WarEnchantmentBasic": {
+			"DisplayName": "戦争エンチャント(ベーシック)"
+		},
+		"VenomEnchantmentRare": {
+			"DisplayName": "毒エンチャント(レア)"
+		},
+		"VenomEnchantmentLegendary": {
+			"DisplayName": "毒エンチャント(レジェンダリー)"
+		},
+		"VenomEnchantmentEpic": {
+			"DisplayName": "毒エンチャント(エピック)"
+		},
+		"VenomEnchantmentCursed": {
+			"DisplayName": "毒エンチャント(呪い)"
+		},
+		"VenomEnchantmentCommon": {
+			"DisplayName": "毒エンチャント(コモン)"
+		},
+		"VenomEnchantmentBasic": {
+			"DisplayName": "毒エンチャント(ベーシック)"
+		},
+		"UltraPowerBooster": {
+			"Tooltip": "ブーストしたいアイテムがエンチャントテーブルにある間にこれを使用して、その基本レベルを20上げる\n(インベントリからShift+左クリック、またはカーソルにこれを乗せてテーブル内のアイテムを左クリックする)\nこのアイテムは、ブーストされたアイテムが捧げられた場合に返還される",
+			"DisplayName": "ウルトラパワーブースター"
+		},
+		"UltimateEnchantingTable": {
+			"Tooltip": "アイテムにエンチャントを適用するために使用する(ティア4)\nインベントリから右クリックで使用できる(Shift+右クリックでスタックを分割できる)",
+			"DisplayName": "究極のエンチャントテーブル"
+		},
+		"TimeEnchantmentRare": {
+			"DisplayName": "時間エンチャント(レア)"
+		},
+		"TimeEnchantmentLegendary": {
+			"DisplayName": "時間エンチャント(レジェンダリー)"
+		},
+		"TimeEnchantmentEpic": {
+			"DisplayName": "時間エンチャント(エピック)"
+		},
+		"TimeEnchantmentCursed": {
+			"DisplayName": "時間エンチャント(呪い)"
+		},
+		"TimeEnchantmentCommon": {
+			"DisplayName": "時間エンチャント(コモン)"
+		},
+		"TimeEnchantmentBasic": {
+			"DisplayName": "時間エンチャント(ベーシック)"
+		},
+		"ThrowingClassSwapEnchantmentRare": {
+			"DisplayName": "投擲クラス交換エンチャント(レア)"
+		},
+		"ThrowingClassSwapEnchantmentLegendary": {
+			"DisplayName": "投擲クラス交換エンチャント(レジェンダリー)"
+		},
+		"ThrowingClassSwapEnchantmentEpic": {
+			"DisplayName": "投擲クラス交換エンチャント(エピック)"
+		},
+		"ThrowingClassSwapEnchantmentCursed": {
+			"DisplayName": "投擲クラス交換エンチャント(呪い)"
+		},
+		"ThrowingClassSwapEnchantmentCommon": {
+			"DisplayName": "投擲クラス交換エンチャント(コモン)"
+		},
+		"ThrowingClassSwapEnchantmentBasic": {
+			"DisplayName": "投擲クラス交換エンチャント(ベーシック)"
+		},
+		"SuperiorContainment": {
+			"Tooltip": "レアエンチャントを保存するために使用する",
+			"DisplayName": "上質な封じ込め"
+		},
+		"SpelunkerEnchantmentRare": {
+			"DisplayName": "探検家エンチャント(レア)"
+		},
+		"SpelunkerEnchantmentLegendary": {
+			"DisplayName": "探検家エンチャント(レジェンダリー)"
+		},
+		"SpelunkerEnchantmentEpic": {
+			"DisplayName": "探検家エンチャント(エピック)"
+		},
+		"SpelunkerEnchantmentCommon": {
+			"DisplayName": "探検家エンチャント(コモン)"
+		},
+		"SpelunkerEnchantmentBasic": {
+			"DisplayName": "探検家エンチャント(ベーシック)"
+		},
+		"SoulEnchantingTable": {
+			"Tooltip": "アイテムにエンチャントを適用するために使用する(ティア3)\nインベントリから右クリックで使用できる(Shift+右クリックでスタックを分割できる)",
+			"DisplayName": "魂のエンチャントテーブル"
+		},
+		"SonarEnchantmentRare": {
+			"DisplayName": "魚探知エンチャント(レア)"
+		},
+		"SonarEnchantmentLegendary": {
+			"DisplayName": "魚探知エンチャント(レジェンダリー)"
+		},
+		"SonarEnchantmentEpic": {
+			"DisplayName": "魚探知エンチャント(エピック)"
+		},
+		"SonarEnchantmentCommon": {
+			"DisplayName": "魚探知エンチャント(コモン)"
+		},
+		"SonarEnchantmentBasic": {
+			"DisplayName": "魚探知エンチャント(ベーシック)"
+		},
+		"SolarDashEnchantmentRare": {
+			"DisplayName": "ソーラーダッシュエンチャント(レア)"
+		},
+		"SolarDashEnchantmentLegendary": {
+			"DisplayName": "ソーラーダッシュエンチャント(レジェンダリー)"
+		},
+		"SolarDashEnchantmentEpic": {
+			"DisplayName": "ソーラーダッシュエンチャント(エピック)"
+		},
+		"SolarDashEnchantmentCursed": {
+			"DisplayName": "ソーラーダッシュエンチャント(呪い)"
+		},
+		"SolarDashEnchantmentCommon": {
+			"DisplayName": "ソーラーダッシュエンチャント(コモン)"
+		},
+		"SolarDashEnchantmentBasic": {
+			"DisplayName": "ソーラーダッシュエンチャント(ベーシック)"
+		},
+		"SizeEnchantmentRare": {
+			"DisplayName": "サイズエンチャント(レア)"
+		},
+		"SizeEnchantmentLegendary": {
+			"DisplayName": "サイズエンチャント(レジェンダリー)"
+		},
+		"SizeEnchantmentEpic": {
+			"DisplayName": "サイズエンチャント(エピック)"
+		},
+		"SizeEnchantmentCursed": {
+			"DisplayName": "サイズエンチャント(呪い)"
+		},
+		"SizeEnchantmentCommon": {
+			"DisplayName": "サイズエンチャント(コモン)"
+		},
+		"SizeEnchantmentBasic": {
+			"DisplayName": "サイズエンチャント(ベーシック)"
+		},
+		"ShineEnchantmentRare": {
+			"DisplayName": "シャインエンチャント(レア)"
+		},
+		"ShineEnchantmentLegendary": {
+			"DisplayName": "シャインエンチャント(レジェンダリー)"
+		},
+		"ShineEnchantmentEpic": {
+			"DisplayName": "シャインエンチャント(エピック)"
+		},
+		"ShineEnchantmentCommon": {
+			"DisplayName": "シャインエンチャント(コモン)"
+		},
+		"ShineEnchantmentBasic": {
+			"DisplayName": "シャインエンチャント(ベーシック)"
+		},
+		"ShadowflameEnchantmentRare": {
+			"DisplayName": "シャドウフレイムエンチャント(レア)"
+		},
+		"ShadowflameEnchantmentLegendary": {
+			"DisplayName": "シャドウフレイムエンチャント(レジェンダリー)"
+		},
+		"ShadowflameEnchantmentEpic": {
+			"DisplayName": "シャドウフレイムエンチャント(エピック)"
+		},
+		"ShadowflameEnchantmentCursed": {
+			"DisplayName": "シャドウフレイムエンチャント(呪い)"
+		},
+		"ShadowflameEnchantmentCommon": {
+			"DisplayName": "シャドウフレイムエンチャント(コモン)"
+		},
+		"ShadowflameEnchantmentBasic": {
+			"DisplayName": "シャドウフレイムエンチャント(ベーシック)"
+		},
+		"RogueClassSwapEnchantmentRare": {
+			"DisplayName": "ローグクラス交換エンチャント(レア)"
+		},
+		"RogueClassSwapEnchantmentLegendary": {
+			"DisplayName": "ローグクラス交換エンチャント(レジェンダリー)"
+		},
+		"RogueClassSwapEnchantmentEpic": {
+			"DisplayName": "ローグクラス交換エンチャント(エピック)"
+		},
+		"RogueClassSwapEnchantmentCursed": {
+			"DisplayName": "ローグクラス交換エンチャント(呪い)"
+		},
+		"RogueClassSwapEnchantmentCommon": {
+			"DisplayName": "ローグクラス交換エンチャント(コモン)"
+		},
+		"RogueClassSwapEnchantmentBasic": {
+			"DisplayName": "ローグクラス交換エンチャント(ベーシック)"
+		},
+		"ReducedManaUsageEnchantmentRare": {
+			"DisplayName": "マナ使用量減少エンチャント(レア)"
+		},
+		"ReducedManaUsageEnchantmentLegendary": {
+			"DisplayName": "マナ使用量減少エンチャント(レジェンダリー)"
+		},
+		"ReducedManaUsageEnchantmentEpic": {
+			"DisplayName": "マナ使用量減少エンチャント(エピック)"
+		},
+		"ReducedManaUsageEnchantmentCursed": {
+			"DisplayName": "マナ使用量減少エンチャント(呪い)"
+		},
+		"ReducedManaUsageEnchantmentCommon": {
+			"DisplayName": "マナ使用量減少エンチャント(コモン)"
+		},
+		"ReducedManaUsageEnchantmentBasic": {
+			"DisplayName": "マナ使用量減少エンチャント(ベーシック)"
+		},
+		"RangedClassSwapEnchantmentRare": {
+			"DisplayName": "遠距離クラス交換エンチャント(レア)"
+		},
+		"RangedClassSwapEnchantmentLegendary": {
+			"DisplayName": "遠距離クラス交換エンチャント(レジェンダリー)"
+		},
+		"RangedClassSwapEnchantmentEpic": {
+			"DisplayName": "遠距離クラス交換エンチャント(エピック)"
+		},
+		"RangedClassSwapEnchantmentCursed": {
+			"DisplayName": "遠距離クラス交換エンチャント(呪い)"
+		},
+		"RangedClassSwapEnchantmentCommon": {
+			"DisplayName": "遠距離クラス交換エンチャント(コモン)"
+		},
+		"RangedClassSwapEnchantmentBasic": {
+			"DisplayName": "遠距離クラス交換エンチャント(ベーシック)"
+		},
+		"ProjectileVelocityEnchantmentRare": {
+			"DisplayName": "射出物速度エンチャント(レア)"
+		},
+		"ProjectileVelocityEnchantmentLegendary": {
+			"DisplayName": "射出物速度エンチャント(レジェンダリー)"
+		},
+		"ProjectileVelocityEnchantmentEpic": {
+			"DisplayName": "射出物速度エンチャント(エピック)"
+		},
+		"ProjectileVelocityEnchantmentCursed": {
+			"DisplayName": "射出物速度エンチャント(呪い)"
+		},
+		"ProjectileVelocityEnchantmentCommon": {
+			"DisplayName": "射出物速度エンチャント(コモン)"
+		},
+		"ProjectileVelocityEnchantmentBasic": {
+			"DisplayName": "射出物速度エンチャント(ベーシック)"
+		},
+		"PrideOfTheWeakEnchantmentRare": {
+			"DisplayName": "弱者の誇りエンチャント(レア)"
+		},
+		"PrideOfTheWeakEnchantmentLegendary": {
+			"DisplayName": "弱者の誇りエンチャント(レジェンダリー)"
+		},
+		"PrideOfTheWeakEnchantmentEpic": {
+			"DisplayName": "弱者の誇りエンチャント(エピック)"
+		},
+		"PrideOfTheWeakEnchantmentCommon": {
+			"DisplayName": "弱者の誇りエンチャント(コモン)"
+		},
+		"PrideOfTheWeakEnchantmentBasic": {
+			"DisplayName": "弱者の誇りエンチャント(ベーシック)"
+		},
+		"PowerBooster": {
+			"Tooltip": "ブーストしたいアイテムがエンチャントテーブルにある間にこれを使用して、その基本レベルを10上げる\n(インベントリからShift+左クリック、またはカーソルにこれを乗せてテーブル内のアイテムを左クリックする)\nこのアイテムは、ブーストされたアイテムが捧げられた場合に返還される",
+			"DisplayName": "パワーブースター"
+		},
+		"PoisonEnchantmentRare": {
+			"DisplayName": "毒エンチャント(レア)"
+		},
+		"PoisonEnchantmentLegendary": {
+			"DisplayName": "毒エンチャント(レジェンダリー)"
+		},
+		"PoisonEnchantmentEpic": {
+			"DisplayName": "毒エンチャント(エピック)"
+		},
+		"PoisonEnchantmentCursed": {
+			"DisplayName": "毒エンチャント(呪い)"
+		},
+		"PoisonEnchantmentCommon": {
+			"DisplayName": "毒エンチャント(コモン)"
+		},
+		"PoisonEnchantmentBasic": {
+			"DisplayName": "毒エンチャント(ベーシック)"
+		},
+		"PercentArmorPenetrationEnchantmentRare": {
+			"DisplayName": "防御無視エンチャント(レア)"
+		},
+		"PercentArmorPenetrationEnchantmentLegendary": {
+			"DisplayName": "防御無視エンチャント(レジェンダリー)"
+		},
+		"PercentArmorPenetrationEnchantmentEpic": {
+			"DisplayName": "防御無視エンチャント(エピック)"
+		},
+		"PercentArmorPenetrationEnchantmentCursed": {
+			"DisplayName": "防御無視エンチャント(呪い)"
+		},
+		"PercentArmorPenetrationEnchantmentCommon": {
+			"DisplayName": "防御無視エンチャント(コモン)"
+		},
+		"PercentArmorPenetrationEnchantmentBasic": {
+			"DisplayName": "防御無視エンチャント(ベーシック)"
+		},
+		"PennyPinchingEnchantmentRare": {
+			"DisplayName": "ペニーピンチングエンチャント(レア)"
+		},
+		"PennyPinchingEnchantmentLegendary": {
+			"DisplayName": "ペニーピンチングエンチャント(レジェンダリー)"
+		},
+		"PennyPinchingEnchantmentEpic": {
+			"DisplayName": "ペニーピンチングエンチャント(エピック)"
+		},
+		"PennyPinchingEnchantmentCursed": {
+			"DisplayName": "ペニーピンチングエンチャント(呪い)"
+		},
+		"PennyPinchingEnchantmentCommon": {
+			"DisplayName": "ペニーピンチングエンチャント(コモン)"
+		},
+		"PennyPinchingEnchantmentBasic": {
+			"DisplayName": "ペニーピンチングエンチャント(ベーシック)"
+		},
+		"PeaceEnchantmentRare": {
+			"DisplayName": "平和エンチャント(レア)"
+		},
+		"PeaceEnchantmentLegendary": {
+			"DisplayName": "平和エンチャント(レジェンダリー)"
+		},
+		"PeaceEnchantmentEpic": {
+			"DisplayName": "平和エンチャント(エピック)"
+		},
+		"PeaceEnchantmentCommon": {
+			"DisplayName": "平和エンチャント(コモン)"
+		},
+		"PeaceEnchantmentBasic": {
+			"DisplayName": "平和エンチャント(ベーシック)"
+		},
+		"OnFireEnchantmentRare": {
+			"DisplayName": "炎上エンチャント(レア)"
+		},
+		"OnFireEnchantmentLegendary": {
+			"DisplayName": "炎上エンチャント(レジェンダリー)"
+		},
+		"OnFireEnchantmentEpic": {
+			"DisplayName": "炎上エンチャント(エピック)"
+		},
+		"OnFireEnchantmentCursed": {
+			"DisplayName": "炎上エンチャント(呪い)"
+		},
+		"OnFireEnchantmentCommon": {
+			"DisplayName": "炎上エンチャント(コモン)"
+		},
+		"OnFireEnchantmentBasic": {
+			"DisplayName": "炎上エンチャント(ベーシック)"
+		},
+		"OneForAllEnchantmentRare": {
+			"DisplayName": "ワンフォーオールエンチャント(レア)"
+		},
+		"OneForAllEnchantmentLegendary": {
+			"DisplayName": "ワンフォーオールエンチャント(レジェンダリー)"
+		},
+		"OneForAllEnchantmentEpic": {
+			"DisplayName": "ワンフォーオールエンチャント(エピック)"
+		},
+		"OneForAllEnchantmentCursed": {
+			"DisplayName": "ワンフォーオールエンチャント(呪い)"
+		},
+		"OneForAllEnchantmentCommon": {
+			"DisplayName": "ワンフォーオールエンチャント(コモン)"
+		},
+		"OneForAllEnchantmentBasic": {
+			"DisplayName": "ワンフォーオールエンチャント(ベーシック)"
+		},
+		"ObsidianSkinEnchantmentRare": {
+			"DisplayName": "黒曜石の肌エンチャント(レア)"
+		},
+		"ObsidianSkinEnchantmentLegendary": {
+			"DisplayName": "黒曜石の肌エンチャント(レジェンダリー)"
+		},
+		"ObsidianSkinEnchantmentEpic": {
+			"DisplayName": "黒曜石の肌エンチャント(エピック)"
+		},
+		"ObsidianSkinEnchantmentCommon": {
+			"DisplayName": "黒曜石の肌エンチャント(コモン)"
+		},
+		"ObsidianSkinEnchantmentBasic": {
+			"DisplayName": "黒曜石の肌エンチャント(ベーシック)"
+		},
+		"NpcContactAnglerEnchantmentRare": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(レア)"
+		},
+		"NpcContactAnglerEnchantmentLegendary": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(レジェンダリー)"
+		},
+		"NpcContactAnglerEnchantmentEpic": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(エピック)"
+		},
+		"NpcContactAnglerEnchantmentCursed": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(呪い)"
+		},
+		"NpcContactAnglerEnchantmentCommon": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(コモン)"
+		},
+		"NpcContactAnglerEnchantmentBasic": {
+			"DisplayName": "NPC接触(釣り人)エンチャント(ベーシック)"
+		},
+		"MultishotEnchantmentRare": {
+			"DisplayName": "マルチショットエンチャント(レア)"
+		},
+		"MultishotEnchantmentLegendary": {
+			"DisplayName": "マルチショットエンチャント(レジェンダリー)"
+		},
+		"MultishotEnchantmentEpic": {
+			"DisplayName": "マルチショットエンチャント(エピック)"
+		},
+		"MultishotEnchantmentCursed": {
+			"DisplayName": "マルチショットエンチャント(呪い)"
+		},
+		"MultishotEnchantmentCommon": {
+			"DisplayName": "マルチショットエンチャント(コモン)"
+		},
+		"MultishotEnchantmentBasic": {
+			"DisplayName": "マルチショットエンチャント(ベーシック)"
+		},
+		"MovementSpeedEnchantmentRare": {
+			"DisplayName": "移動速度エンチャント(レア)"
+		},
+		"MovementSpeedEnchantmentLegendary": {
+			"DisplayName": "移動速度エンチャント(レジェンダリー)"
+		},
+		"MovementSpeedEnchantmentEpic": {
+			"DisplayName": "移動速度エンチャント(エピック)"
+		},
+		"MovementSpeedEnchantmentCursed": {
+			"DisplayName": "移動速度エンチャント(呪い)"
+		},
+		"MovementSpeedEnchantmentCommon": {
+			"DisplayName": "移動速度エンチャント(コモン)"
+		},
+		"MovementSpeedEnchantmentBasic": {
+			"DisplayName": "移動速度エンチャント(ベーシック)"
+		},
+		"MoonlightEnchantmentRare": {
+			"DisplayName": "月光エンチャント(レア)"
+		},
+		"MoonlightEnchantmentLegendary": {
+			"DisplayName": "月光エンチャント(レジェンダリー)"
+		},
+		"MoonlightEnchantmentEpic": {
+			"DisplayName": "月光エンチャント(エピック)"
+		},
+		"MoonlightEnchantmentCursed": {
+			"DisplayName": "月光エンチャント(呪い)"
+		},
+		"MoonlightEnchantmentCommon": {
+			"DisplayName": "月光エンチャント(コモン)"
+		},
+		"MoonlightEnchantmentBasic": {
+			"DisplayName": "月光エンチャント(ベーシック)"
+		},
+		"MobilityControlEnchantmentRare": {
+			"DisplayName": "機動性制御エンチャント(レア)"
+		},
+		"MobilityControlEnchantmentLegendary": {
+			"DisplayName": "機動性制御エンチャント(レジェンダリー)"
+		},
+		"MobilityControlEnchantmentEpic": {
+			"DisplayName": "機動性制御エンチャント(エピック)"
+		},
+		"MobilityControlEnchantmentCursed": {
+			"DisplayName": "機動性制御エンチャント(呪い)"
+		},
+		"MobilityControlEnchantmentCommon": {
+			"DisplayName": "機動性制御エンチャント(コモン)"
+		},
+		"MobilityControlEnchantmentBasic": {
+			"DisplayName": "機動性制御エンチャント(ベーシック)"
+		},
+		"MeleeClassSwapEnchantmentRare": {
+			"DisplayName": "近接クラス交換エンチャント(レア)"
+		},
+		"MeleeClassSwapEnchantmentLegendary": {
+			"DisplayName": "近接クラス交換エンチャント(レジェンダリー)"
+		},
+		"MeleeClassSwapEnchantmentEpic": {
+			"DisplayName": "近接クラス交換エンチャント(エピック)"
+		},
+		"MeleeClassSwapEnchantmentCursed": {
+			"DisplayName": "近接クラス交換エンチャント(呪い)"
+		},
+		"MeleeClassSwapEnchantmentCommon": {
+			"DisplayName": "近接クラス交換エンチャント(コモン)"
+		},
+		"MeleeClassSwapEnchantmentBasic": {
+			"DisplayName": "近接クラス交換エンチャント(ベーシック)"
+		},
+		"MediumContainment": {
+			"Tooltip": "コモンエンチャントを保存するために使用する",
+			"DisplayName": "中程度の封じ込め"
+		},
+		"MaxMinionsEnchantmentRare": {
+			"DisplayName": "最大ミニオン数エンチャント(レア)"
+		},
+		"MaxMinionsEnchantmentLegendary": {
+			"DisplayName": "最大ミニオン数エンチャント(レジェンダリー)"
+		},
+		"MaxMinionsEnchantmentEpic": {
+			"DisplayName": "最大ミニオン数エンチャント(エピック)"
+		},
+		"MaxMinionsEnchantmentCursed": {
+			"DisplayName": "最大ミニオン数エンチャント(呪い)"
+		},
+		"MaxMinionsEnchantmentCommon": {
+			"DisplayName": "最大ミニオン数エンチャント(コモン)"
+		},
+		"MaxMinionsEnchantmentBasic": {
+			"DisplayName": "最大ミニオン数エンチャント(ベーシック)"
+		},
+		"MagneticEnchantmentRare": {
+			"DisplayName": "磁力エンチャント(レア)"
+		},
+		"MagneticEnchantmentLegendary": {
+			"DisplayName": "磁力エンチャント(レジェンダリー)"
+		},
+		"MagneticEnchantmentEpic": {
+			"DisplayName": "磁力エンチャント(エピック)"
+		},
+		"MagneticEnchantmentCursed": {
+			"DisplayName": "磁力エンチャント(呪い)"
+		},
+		"MagneticEnchantmentCommon": {
+			"DisplayName": "磁力エンチャント(コモン)"
+		},
+		"MagneticEnchantmentBasic": {
+			"DisplayName": "磁力エンチャント(ベーシック)"
+		},
+		"MagicClassSwapEnchantmentRare": {
+			"DisplayName": "魔法クラス交換エンチャント(レア)"
+		},
+		"MagicClassSwapEnchantmentLegendary": {
+			"DisplayName": "魔法クラス交換エンチャント(レジェンダリー)"
+		},
+		"MagicClassSwapEnchantmentEpic": {
+			"DisplayName": "魔法クラス交換エンチャント(エピック)"
+		},
+		"MagicClassSwapEnchantmentCursed": {
+			"DisplayName": "魔法クラス交換エンチャント(呪い)"
+		},
+		"MagicClassSwapEnchantmentCommon": {
+			"DisplayName": "魔法クラス交換エンチャント(コモン)"
+		},
+		"MagicClassSwapEnchantmentBasic": {
+			"DisplayName": "魔法クラス交換エンチャント(ベーシック)"
+		},
+		"LuckEnchantmentRare": {
+			"DisplayName": "運エンチャント(レア)"
+		},
+		"LuckEnchantmentLegendary": {
+			"DisplayName": "運エンチャント(レジェンダリー)"
+		},
+		"LuckEnchantmentEpic": {
+			"DisplayName": "運エンチャント(エピック)"
+		},
+		"LuckEnchantmentCursed": {
+			"DisplayName": "運エンチャント(呪い)"
+		},
+		"LuckEnchantmentCommon": {
+			"DisplayName": "運エンチャント(コモン)"
+		},
+		"LuckEnchantmentBasic": {
+			"DisplayName": "運エンチャント(ベーシック)"
+		},
+		"LifeStealEnchantmentRare": {
+			"DisplayName": "ライフ吸収エンチャント(レア)"
+		},
+		"LifeStealEnchantmentLegendary": {
+			"DisplayName": "ライフ吸収エンチャント(レジェンダリー)"
+		},
+		"LifeStealEnchantmentEpic": {
+			"DisplayName": "ライフ吸収エンチャント(エピック)"
+		},
+		"LifeStealEnchantmentCursed": {
+			"DisplayName": "ライフ吸収エンチャント(呪い)"
+		},
+		"LifeStealEnchantmentCommon": {
+			"DisplayName": "ライフ吸収エンチャント(コモン)"
+		},
+		"LifeStealEnchantmentBasic": {
+			"DisplayName": "ライフ吸収エンチャント(ベーシック)"
+		},
+		"LifeRegenEnchantmentRare": {
+			"DisplayName": "ライフ回復エンチャント(レア)"
+		},
+		"LifeRegenEnchantmentLegendary": {
+			"DisplayName": "ライフ回復エンチャント(レジェンダリー)"
+		},
+		"LifeRegenEnchantmentEpic": {
+			"DisplayName": "ライフ回復エンチャント(エピック)"
+		},
+		"LifeRegenEnchantmentCursed": {
+			"DisplayName": "ライフ回復エンチャント(呪い)"
+		},
+		"LifeRegenEnchantmentCommon": {
+			"DisplayName": "ライフ回復エンチャント(コモン)"
+		},
+		"LifeRegenEnchantmentBasic": {
+			"DisplayName": "ライフ回復エンチャント(ベーシック)"
+		},
+		"LethalCombinationEnchantmentRare": {
+			"DisplayName": "致死的組み合わせエンチャント(レア)"
+		},
+		"LethalCombinationEnchantmentLegendary": {
+			"DisplayName": "致死的組み合わせエンチャント(レジェンダリー)"
+		},
+		"LethalCombinationEnchantmentEpic": {
+			"DisplayName": "致死的組み合わせエンチャント(エピック)"
+		},
+		"LethalCombinationEnchantmentCursed": {
+			"DisplayName": "致死的組み合わせエンチャント(呪い)"
+		},
+		"LethalCombinationEnchantmentCommon": {
+			"DisplayName": "致死的組み合わせエンチャント(コモン)"
+		},
+		"LethalCombinationEnchantmentBasic": {
+			"DisplayName": "致死的組み合わせエンチャント(ベーシック)"
+		},
+		"LavaFishingEnchantmentRare": {
+			"DisplayName": "溶岩釣りのエンチャント(レア)"
+		},
+		"LavaFishingEnchantmentLegendary": {
+			"DisplayName": "溶岩釣りのエンチャント(レジェンダリー)"
+		},
+		"LavaFishingEnchantmentEpic": {
+			"DisplayName": "溶岩釣りのエンチャント(エピック)"
+		},
+		"LavaFishingEnchantmentCursed": {
+			"DisplayName": "溶岩釣りのエンチャント(呪い)"
+		},
+		"LavaFishingEnchantmentCommon": {
+			"DisplayName": "溶岩釣りのエンチャント(コモン)"
+		},
+		"LavaFishingEnchantmentBasic": {
+			"DisplayName": "溶岩釣りのエンチャント(ベーシック)"
+		},
+		"KiEnchantmentRare": {
+			"DisplayName": "気功エンチャント(レア)"
+		},
+		"EnchantmentEssenceEpic": {
+			"DisplayName": "エンチャントエッセンス(エピック)",
+			"Tooltip": "エンチャントのクラフトとアップグレード用のエピック素材\nエンチャントテーブルで25600経験値に変換できる"
+		},
+		"EnchantmentEssenceCommon": {
+			"Tooltip": "エンチャントのクラフトとアップグレード用のコモン素材\nエンチャントテーブルで1600経験値に変換できる",
+			"DisplayName": "エンチャントエッセンス(コモン)"
+		},
+		"EnchantmentEssenceBasic": {
+			"Tooltip": "エンチャントのクラフトとアップグレード用のベーシック素材\nエンチャントテーブルで400経験値に変換できる",
+			"DisplayName": "エンチャントエッセンス(ベーシック)"
+		},
+		"DustyEnchantingTable": {
+			"Tooltip": "アイテムにエンチャントを適用するために使用する(ティア1)\nインベントリから右クリックで使用できる(Shift+右クリックでスタックを分割できる)",
+			"DisplayName": "埃っぽいエンチャントテーブル"
+		},
+		"DefenseEnchantmentRare": {
+			"DisplayName": "防御エンチャント(レア)"
+		},
+		"DefenseEnchantmentLegendary": {
+			"DisplayName": "防御エンチャント(レジェンダリー)"
+		},
+		"DefenseEnchantmentEpic": {
+			"DisplayName": "防御エンチャント(エピック)"
+		},
+		"DefenseEnchantmentCursed": {
+			"DisplayName": "防御エンチャント(呪い)"
+		},
+		"DefenseEnchantmentCommon": {
+			"DisplayName": "防御エンチャント(コモン)"
+		},
+		"DefenseEnchantmentBasic": {
+			"DisplayName": "防御エンチャント(ベーシック)"
+		},
+		"DaybreakEnchantmentRare": {
+			"DisplayName": "デイブレイクエンチャント(レア)"
+		},
+		"DaybreakEnchantmentLegendary": {
+			"DisplayName": "デイブレイクエンチャント(レジェンダリー)"
+		},
+		"DaybreakEnchantmentEpic": {
+			"DisplayName": "デイブレイクエンチャント(エピック)"
+		},
+		"DaybreakEnchantmentCursed": {
+			"DisplayName": "デイブレイクエンチャント(呪い)"
+		},
+		"DaybreakEnchantmentCommon": {
+			"DisplayName": "デイブレイクエンチャント(コモン)"
+		},
+		"DaybreakEnchantmentBasic": {
+			"DisplayName": "デイブレイクエンチャント(ベーシック)"
+		},
+		"DangerSenseEnchantmentRare": {
+			"DisplayName": "危険察知エンチャント(レア)"
+		},
+		"DangerSenseEnchantmentLegendary": {
+			"DisplayName": "危険察知エンチャント(レジェンダリー)"
+		},
+		"DangerSenseEnchantmentEpic": {
+			"DisplayName": "危険察知エンチャント(エピック)"
+		},
+		"DangerSenseEnchantmentCommon": {
+			"DisplayName": "危険察知エンチャント(コモン)"
+		},
+		"DangerSenseEnchantmentBasic": {
+			"DisplayName": "危険察知エンチャント(ベーシック)"
+		},
+		"DamageReductionEnchantmentRare": {
+			"DisplayName": "ダメージ減少エンチャント(レア)"
+		},
+		"DamageReductionEnchantmentLegendary": {
+			"DisplayName": "ダメージ減少エンチャント(レジェンダリー)"
+		},
+		"DamageReductionEnchantmentEpic": {
+			"DisplayName": "ダメージ減少エンチャント(エピック)"
+		},
+		"DamageReductionEnchantmentCursed": {
+			"DisplayName": "ダメージ減少エンチャント(呪い)"
+		},
+		"DamageReductionEnchantmentCommon": {
+			"DisplayName": "ダメージ減少エンチャント(コモン)"
+		},
+		"DamageReductionEnchantmentBasic": {
+			"DisplayName": "ダメージ減少エンチャント(ベーシック)"
+		},
+		"DamageEnchantmentRare": {
+			"DisplayName": "ダメージエンチャント(レア)"
+		},
+		"DamageEnchantmentLegendary": {
+			"DisplayName": "ダメージエンチャント(レジェンダリー)"
+		},
+		"DamageEnchantmentEpic": {
+			"DisplayName": "ダメージエンチャント(エピック)"
+		},
+		"DamageEnchantmentCursed": {
+			"DisplayName": "ダメージエンチャント(呪い)"
+		},
+		"DamageEnchantmentCommon": {
+			"DisplayName": "ダメージエンチャント(コモン)"
+		},
+		"DamageEnchantmentBasic": {
+			"DisplayName": "ダメージエンチャント(ベーシック)"
+		},
+		"CursedInfernoEnchantmentRare": {
+			"DisplayName": "呪炎エンチャント(レア)"
+		},
+		"CursedInfernoEnchantmentLegendary": {
+			"DisplayName": "呪炎エンチャント(レジェンダリー)"
+		},
+		"CursedInfernoEnchantmentEpic": {
+			"DisplayName": "呪炎エンチャント(エピック)"
+		},
+		"CursedInfernoEnchantmentCursed": {
+			"DisplayName": "呪炎エンチャント(呪い)"
+		},
+		"CursedInfernoEnchantmentCommon": {
+			"DisplayName": "呪炎エンチャント(コモン)"
+		},
+		"CursedInfernoEnchantmentBasic": {
+			"DisplayName": "呪炎エンチャント(ベーシック)"
+		},
+		"CursedEssence": {
+			"Tooltip": "",
+			"DisplayName": "呪いのエッセンス"
+		},
+		"CriticalStrikeDamageEnchantmentRare": {
+			"DisplayName": "クリティカルダメージエンチャント(レア)"
+		},
+		"CriticalStrikeDamageEnchantmentLegendary": {
+			"DisplayName": "クリティカルダメージエンチャント(レジェンダリー)"
+		},
+		"CriticalStrikeDamageEnchantmentEpic": {
+			"DisplayName": "クリティカルダメージエンチャント(エピック)"
+		},
+		"CriticalStrikeDamageEnchantmentCursed": {
+			"DisplayName": "クリティカルダメージエンチャント(呪い)"
+		},
+		"CriticalStrikeDamageEnchantmentCommon": {
+			"DisplayName": "クリティカルダメージエンチャント(コモン)"
+		},
+		"CriticalStrikeDamageEnchantmentBasic": {
+			"DisplayName": "クリティカルダメージエンチャント(ベーシック)"
+		},
+		"CriticalStrikeChanceEnchantmentRare": {
+			"DisplayName": "クリティカル率エンチャント(レア)"
+		},
+		"CriticalStrikeChanceEnchantmentLegendary": {
+			"DisplayName": "クリティカル率エンチャント(レジェンダリー)"
+		},
+		"CriticalStrikeChanceEnchantmentEpic": {
+			"DisplayName": "クリティカル率エンチャント(エピック)"
+		},
+		"CriticalStrikeChanceEnchantmentCursed": {
+			"DisplayName": "クリティカル率エンチャント(呪い)"
+		},
+		"CriticalStrikeChanceEnchantmentCommon": {
+			"DisplayName": "クリティカル率エンチャント(コモン)"
+		},
+		"CriticalStrikeChanceEnchantmentBasic": {
+			"DisplayName": "クリティカル率エンチャント(ベーシック)"
+		},
+		"CrateEnchantmentRare": {
+			"DisplayName": "箱エンチャント(レア)"
+		},
+		"CrateEnchantmentLegendary": {
+			"DisplayName": "箱エンチャント(レジェンダリー)"
+		},
+		"CrateEnchantmentEpic": {
+			"DisplayName": "箱エンチャント(エピック)"
+		},
+		"CrateEnchantmentCommon": {
+			"DisplayName": "箱エンチャント(コモン)"
+		},
+		"CrateEnchantmentBasic": {
+			"DisplayName": "箱エンチャント(ベーシック)"
+		},
+		"CrateChanceEnchantmentRare": {
+			"DisplayName": "箱の確率エンチャント(レア)"
+		},
+		"CrateChanceEnchantmentLegendary": {
+			"DisplayName": "箱の確率エンチャント(レジェンダリー)"
+		},
+		"CrateChanceEnchantmentEpic": {
+			"DisplayName": "箱の確率エンチャント(エピック)"
+		},
+		"CrateChanceEnchantmentCursed": {
+			"DisplayName": "箱の確率エンチャント(呪い)"
+		},
+		"CrateChanceEnchantmentCommon": {
+			"DisplayName": "箱の確率エンチャント(コモン)"
+		},
+		"CrateChanceEnchantmentBasic": {
+			"DisplayName": "箱の確率エンチャント(ベーシック)"
+		},
+		"Containment": {
+			"Tooltip": "ベーシックエンチャントを保存するために使用する",
+			"DisplayName": "封じ込め"
+		},
+		"ColdSteelEnchantmentRare": {
+			"DisplayName": "コールドスチールエンチャント(レア)"
+		},
+		"ColdSteelEnchantmentLegendary": {
+			"DisplayName": "コールドスチールエンチャント(レジェンダリー)"
+		},
+		"ColdSteelEnchantmentEpic": {
+			"DisplayName": "コールドスチールエンチャント(エピック)"
+		},
+		"ColdSteelEnchantmentCursed": {
+			"DisplayName": "コールドスチールエンチャント(呪い)"
+		},
+		"ColdSteelEnchantmentCommon": {
+			"DisplayName": "コールドスチールエンチャント(コモン)"
+		},
+		"ColdSteelEnchantmentBasic": {
+			"DisplayName": "コールドスチールエンチャント(ベーシック)"
+		},
+		"ChaoticFishingEnchantmentRare": {
+			"DisplayName": "カオティックフィッシングエンチャント(レア)"
+		},
+		"ChaoticFishingEnchantmentLegendary": {
+			"DisplayName": "カオティックフィッシングエンチャント(レジェンダリー)"
+		},
+		"ChaoticFishingEnchantmentEpic": {
+			"DisplayName": "カオティックフィッシングエンチャント(エピック)"
+		},
+		"ChaoticFishingEnchantmentCursed": {
+			"DisplayName": "カオティックフィッシングエンチャント(呪い)"
+		},
+		"ChaoticFishingEnchantmentCommon": {
+			"DisplayName": "カオティックフィッシングエンチャント(コモン)"
+		},
+		"ChaoticFishingEnchantmentBasic": {
+			"DisplayName": "カオティックフィッシングエンチャント(ベーシック)"
+		},
+		"CalmWatersEnchantmentRare": {
+			"DisplayName": "穏やかな水エンチャント(レア)"
+		},
+		"CalmWatersEnchantmentLegendary": {
+			"DisplayName": "穏やかな水エンチャント(レジェンダリー)"
+		},
+		"CalmWatersEnchantmentEpic": {
+			"DisplayName": "穏やかな水エンチャント(エピック)"
+		},
+		"CalmWatersEnchantmentCursed": {
+			"DisplayName": "穏やかな水エンチャント(呪い)"
+		},
+		"CalmWatersEnchantmentCommon": {
+			"DisplayName": "穏やかな水エンチャント(コモン)"
+		},
+		"CalmWatersEnchantmentBasic": {
+			"DisplayName": "穏やかな水エンチャント(ベーシック)"
+		},
+		"BerserkersRageEnchantmentRare": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(レア)"
+		},
+		"BerserkersRageEnchantmentLegendary": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(レジェンダリー)"
+		},
+		"BerserkersRageEnchantmentEpic": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(エピック)"
+		},
+		"BerserkersRageEnchantmentCursed": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(呪い)"
+		},
+		"BerserkersRageEnchantmentCommon": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(コモン)"
+		},
+		"BerserkersRageEnchantmentBasic": {
+			"DisplayName": "バーサーカーの怒りのエンチャント(ベーシック)"
+		},
+		"BardClassSwapEnchantmentRare": {
+			"DisplayName": "バードクラス交換エンチャント(レア)"
+		},
+		"BardClassSwapEnchantmentLegendary": {
+			"DisplayName": "バードクラス交換エンチャント(レジェンダリー)"
+		},
+		"BardClassSwapEnchantmentEpic": {
+			"DisplayName": "バードクラス交換エンチャント(エピック)"
+		},
+		"BardClassSwapEnchantmentCursed": {
+			"DisplayName": "バードクラス交換エンチャント(呪い)"
+		},
+		"BardClassSwapEnchantmentCommon": {
+			"DisplayName": "バードクラス交換エンチャント(コモン)"
+		},
+		"BardClassSwapEnchantmentBasic": {
+			"DisplayName": "バードクラス交換エンチャント(ベーシック)"
+		},
+		"AttackSpeedEnchantmentRare": {
+			"DisplayName": "攻撃速度エンチャント(レア)"
+		},
+		"AttackSpeedEnchantmentLegendary": {
+			"DisplayName": "攻撃速度エンチャント(レジェンダリー)"
+		},
+		"AttackSpeedEnchantmentEpic": {
+			"DisplayName": "攻撃速度エンチャント(エピック)"
+		},
+		"AttackSpeedEnchantmentCursed": {
+			"DisplayName": "攻撃速度エンチャント(呪い)"
+		},
+		"AttackSpeedEnchantmentCommon": {
+			"DisplayName": "攻撃速度エンチャント(コモン)"
+		},
+		"AttackSpeedEnchantmentBasic": {
+			"DisplayName": "攻撃速度エンチャント(ベーシック)"
+		},
+		"AmmoCostEnchantmentRare": {
+			"DisplayName": "弾薬コストエンチャント(レア)"
+		},
+		"AmmoCostEnchantmentLegendary": {
+			"DisplayName": "弾薬コストエンチャント(レジェンダリー)"
+		},
+		"AmmoCostEnchantmentEpic": {
+			"DisplayName": "弾薬コストエンチャント(エピック)"
+		},
+		"AmmoCostEnchantmentCursed": {
+			"DisplayName": "弾薬コストエンチャント(呪い)"
+		},
+		"AmmoCostEnchantmentCommon": {
+			"DisplayName": "弾薬コストエンチャント(コモン)"
+		},
+		"AmmoCostEnchantmentBasic": {
+			"DisplayName": "弾薬コストエンチャント(ベーシック)"
+		},
+		"AllForOneEnchantmentRare": {
+			"DisplayName": "オールフォーワンエンチャント(レア)"
+		},
+		"AllForOneEnchantmentLegendary": {
+			"DisplayName": "オールフォーワンエンチャント(レジェンダリー)"
+		},
+		"AllForOneEnchantmentEpic": {
+			"DisplayName": "オールフォーワンエンチャント(エピック)"
+		},
+		"AllForOneEnchantmentCursed": {
+			"DisplayName": "オールフォーワンエンチャント(呪い)"
+		},
+		"AllForOneEnchantmentCommon": {
+			"DisplayName": "オールフォーワンエンチャント(コモン)"
+		},
+		"AllForOneEnchantmentBasic": {
+			"DisplayName": "オールフォーワンエンチャント(ベーシック)"
+		},
+		"KiEnchantmentLegendary": {
+			"DisplayName": "気力エンチャント(レジェンダリー)"
+		},
+		"KiEnchantmentEpic": {
+			"DisplayName": "気力エンチャント(エピック)"
+		},
+		"KiEnchantmentCursed": {
+			"DisplayName": "気力エンチャント(呪い)"
+		},
+		"KiEnchantmentCommon": {
+			"DisplayName": "気力エンチャント(コモン)"
+		},
+		"KiEnchantmentBasic": {
+			"DisplayName": "気力エンチャント(ベーシック)"
+		},
+		"KiClassSwapEnchantmentRare": {
+			"DisplayName": "気クラス交換エンチャント(レア)"
+		},
+		"KiClassSwapEnchantmentLegendary": {
+			"DisplayName": "気クラス交換エンチャント(レジェンダリー)"
+		},
+		"KiClassSwapEnchantmentEpic": {
+			"DisplayName": "気クラス交換エンチャント(エピック)"
+		},
+		"KiClassSwapEnchantmentCursed": {
+			"DisplayName": "気クラス交換エンチャント(呪い)"
+		},
+		"KiClassSwapEnchantmentCommon": {
+			"DisplayName": "気クラス交換エンチャント(コモン)"
+		},
+		"KiClassSwapEnchantmentBasic": {
+			"DisplayName": "気クラス交換エンチャント(ベーシック)"
+		},
+		"JunglesFuryEnchantmentRare": {
+			"DisplayName": "ジャングルの怒りエンチャント(レア)"
+		},
+		"JunglesFuryEnchantmentLegendary": {
+			"DisplayName": "ジャングルの怒りエンチャント(レジェンダリー)"
+		},
+		"JunglesFuryEnchantmentEpic": {
+			"DisplayName": "ジャングルの怒りエンチャント(エピック)"
+		},
+		"JunglesFuryEnchantmentCursed": {
+			"DisplayName": "ジャングルの怒りエンチャント(呪い)"
+		},
+		"JunglesFuryEnchantmentCommon": {
+			"DisplayName": "ジャングルの怒りエンチャント(コモン)"
+		},
+		"JunglesFuryEnchantmentBasic": {
+			"DisplayName": "ジャングルの怒りエンチャント(ベーシック)"
+		},
+		"JuicedEnchantmentRare": {
+			"DisplayName": "ジュースドエンチャント(レア)"
+		},
+		"JuicedEnchantmentLegendary": {
+			"DisplayName": "ジュースドエンチャント(レジェンダリー)"
+		},
+		"JuicedEnchantmentEpic": {
+			"DisplayName": "ジュースドエンチャント(エピック)"
+		},
+		"JuicedEnchantmentCursed": {
+			"DisplayName": "ジュースドエンチャント(呪い)"
+		},
+		"JuicedEnchantmentCommon": {
+			"DisplayName": "ジュースドエンチャント(コモン)"
+		},
+		"JuicedEnchantmentBasic": {
+			"DisplayName": "ジュースドエンチャント(ベーシック)"
+		},
+		"IchorEnchantmentRare": {
+			"DisplayName": "霊液エンチャント(レア)"
+		},
+		"IchorEnchantmentLegendary": {
+			"DisplayName": "霊液エンチャント(レジェンダリー)"
+		},
+		"IchorEnchantmentEpic": {
+			"DisplayName": "霊液エンチャント(エピック)"
+		},
+		"IchorEnchantmentCursed": {
+			"DisplayName": "霊液エンチャント(呪い)"
+		},
+		"IchorEnchantmentCommon": {
+			"DisplayName": "霊液エンチャント(コモン)"
+		},
+		"IchorEnchantmentBasic": {
+			"DisplayName": "霊液エンチャント(ベーシック)"
+		},
+		"HunterEnchantmentRare": {
+			"DisplayName": "狩人エンチャント(レア)"
+		},
+		"HunterEnchantmentLegendary": {
+			"DisplayName": "狩人エンチャント(レジェンダリー)"
+		},
+		"HunterEnchantmentEpic": {
+			"DisplayName": "狩人エンチャント(エピック)"
+		},
+		"HunterEnchantmentCommon": {
+			"DisplayName": "狩人エンチャント(コモン)"
+		},
+		"HunterEnchantmentBasic": {
+			"DisplayName": "狩人エンチャント(ベーシック)"
+		},
+		"HexproofPouch": {
+			"Tooltip": "呪いのエッセンスの悪影響から持ち主を守るための小さなポーチ\n(このバッグに呪いのエッセンスを入れると、プレイヤーの呪いデバフへの寄与を防ぐ)",
+			"DisplayName": "呪文除けのポーチ"
+		},
+		"HellsWrathEnchantmentRare": {
+			"DisplayName": "地獄の怒りエンチャント(レア)"
+		},
+		"HellsWrathEnchantmentLegendary": {
+			"DisplayName": "地獄の怒りエンチャント(レジェンダリー)"
+		},
+		"HellsWrathEnchantmentEpic": {
+			"DisplayName": "地獄の怒りエンチャント(エピック)"
+		},
+		"HellsWrathEnchantmentCursed": {
+			"DisplayName": "地獄の怒りエンチャント(呪い)"
+		},
+		"HellsWrathEnchantmentCommon": {
+			"DisplayName": "地獄の怒りエンチャント(コモン)"
+		},
+		"HellsWrathEnchantmentBasic": {
+			"DisplayName": "地獄の怒りエンチャント(ベーシック)"
+		},
+		"HellishEnchantingTable": {
+			"Tooltip": "アイテムにエンチャントを適用するために使用する(ティア2)\nインベントリから右クリックで使用できる(Shift+右クリックでスタックを分割できる)",
+			"DisplayName": "地獄のエンチャントテーブル"
+		},
+		"HealerClassSwapEnchantmentRare": {
+			"DisplayName": "ヒーラークラス交換エンチャント(レア)"
+		},
+		"HealerClassSwapEnchantmentLegendary": {
+			"DisplayName": "ヒーラークラス交換エンチャント(レジェンダリー)"
+		},
+		"HealerClassSwapEnchantmentEpic": {
+			"DisplayName": "ヒーラークラス交換エンチャント(エピック)"
+		},
+		"HealerClassSwapEnchantmentCursed": {
+			"DisplayName": "ヒーラークラス交換エンチャント(呪い)"
+		},
+		"HealerClassSwapEnchantmentCommon": {
+			"DisplayName": "ヒーラークラス交換エンチャント(コモン)"
+		},
+		"HealerClassSwapEnchantmentBasic": {
+			"DisplayName": "ヒーラークラス交換エンチャント(ベーシック)"
+		},
+		"GodSlayerEnchantmentRare": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(レア)"
+		},
+		"GodSlayerEnchantmentLegendary": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(レジェンダリー)"
+		},
+		"GodSlayerEnchantmentEpic": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(エピック)"
+		},
+		"GodSlayerEnchantmentCursed": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(呪い)"
+		},
+		"GodSlayerEnchantmentCommon": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(コモン)"
+		},
+		"GodSlayerEnchantmentBasic": {
+			"DisplayName": "ゴッドスレイヤーエンチャント(ベーシック)"
+		},
+		"FrostburnEnchantmentRare": {
+			"DisplayName": "霜焼けのエンチャント(レア)"
+		},
+		"FrostburnEnchantmentLegendary": {
+			"DisplayName": "霜焼けのエンチャント(レジェンダリー)"
+		},
+		"FrostburnEnchantmentEpic": {
+			"DisplayName": "霜焼けのエンチャント(エピック)"
+		},
+		"FrostburnEnchantmentCursed": {
+			"DisplayName": "霜焼けのエンチャント(呪い)"
+		},
+		"FrostburnEnchantmentCommon": {
+			"DisplayName": "霜焼けのエンチャント(コモン)"
+		},
+		"FrostburnEnchantmentBasic": {
+			"DisplayName": "霜焼けのエンチャント(ベーシック)"
+		},
+		"FishingPowerEnchantmentRare": {
+			"DisplayName": "フィッシング・パワーのエンチャント(レア)"
+		},
+		"FishingPowerEnchantmentLegendary": {
+			"DisplayName": "フィッシング・パワーのエンチャント(レジェンダリー)"
+		},
+		"FishingPowerEnchantmentEpic": {
+			"DisplayName": "フィッシング・パワーのエンチャント(エピック)"
+		},
+		"FishingPowerEnchantmentCursed": {
+			"DisplayName": "フィッシング・パワーのエンチャント(呪い)"
+		},
+		"FishingPowerEnchantmentCommon": {
+			"DisplayName": "フィッシング・パワーのエンチャント(コモン)"
+		},
+		"FishingPowerEnchantmentBasic": {
+			"DisplayName": "フィッシング・パワーのエンチャント(ベーシック)"
+		},
+		"FishingEnchantmentRare": {
+			"DisplayName": "釣りのエンチャント(レア)"
+		},
+		"FishingEnchantmentLegendary": {
+			"DisplayName": "釣りのエンチャント(レジェンダリー)"
+		},
+		"FishingEnchantmentEpic": {
+			"DisplayName": "釣りのエンチャント(エピック)"
+		},
+		"FishingEnchantmentCommon": {
+			"DisplayName": "釣りのエンチャント(コモン)"
+		},
+		"FishingEnchantmentBasic": {
+			"DisplayName": "釣りのエンチャント(ベーシック)"
+		},
+		"ExtraFishingLineEnchantmentRare": {
+			"DisplayName": "追加の釣り糸エンチャント(レア)"
+		},
+		"ExtraFishingLineEnchantmentLegendary": {
+			"DisplayName": "追加の釣り糸エンチャント(レジェンダリー)"
+		},
+		"ExtraFishingLineEnchantmentEpic": {
+			"DisplayName": "追加の釣り糸エンチャント(エピック)"
+		},
+		"ExtraFishingLineEnchantmentCursed": {
+			"DisplayName": "追加の釣り糸エンチャント(呪い)"
+		},
+		"ExtraFishingLineEnchantmentCommon": {
+			"DisplayName": "追加の釣り糸エンチャント(コモン)"
+		},
+		"ExtraFishingLineEnchantmentBasic": {
+			"DisplayName": "追加の釣り糸エンチャント(ベーシック)"
+		},
+		"EnchantmentEssenceRare": {
+			"Tooltip": "エンチャントのクラフトとアップグレード用のレア素材\nエンチャントテーブルで6400経験値に変換できる",
+			"DisplayName": "エンチャントエッセンス(レア)"
+		},
+		"EnchantmentEssenceLegendary": {
+			"Tooltip": "エンチャントのクラフトとアップグレード用のレジェンダリー素材\nエンチャントテーブルで102400経験値に変換できる",
+			"DisplayName": "エンチャントエッセンス(レジェンダリー)"
+		}
+	},
+	"GameMessages": {
+		"WitchSpawnCondition": "インベントリまたは装備にエンチャントを所持している",
+		"WitchEnchantmentRerolText": "君のエンチャントを改良してみることもできるが、返金や苦情は受け付けない",
+		"WitchEnchantmentCurseText": "呪いは強力な魔法だが、代償が伴う。心変わりしても助けられない",
+		"TheDryadMayBeAbleToHelp": "ドライアドなら助けてくれるかもしれない。本当に続けるかね？",
+		"WitchChatText": "これ以上何が望みだ？私は忙しい",
+		"WeaponInfusionPowersNotSetup": "武器の注入パワーが設定されていない",
+		"TryInfuseFailed": "TryInfuseItemに失敗、テーブルアイテム: {0}{1}、注入消費アイテム: {2}{3}",
+		"SlotNumDisabledByConfig": "スロット{0}は設定で無効化されている。{2}から{1}を削除した",
+		"ShimmerIngredientInfusionPowersNotSetup": "シマー材料の注入パワーが設定されていない",
+		"SameSetBonusNoEffect": "アップグレードされるアイテムは消費されるアイテムと同じセットボーナスを持っており、効果はない",
+		"ResistsYourAttemptToEmpower": "{0}はあなたの強化の試みに抵抗した",
+		"RerollEnchantment": "エンチャントをリロール",
+		"ReRoll": "リロール",
+		"RemovedUnloadedEnchantmentFromItem": "ロードされていないアイテム:{0}を{1}から削除した。andro951(WeaponEnchantments)に報告してください",
+		"RemovedEnchantedItemData": "アイテムからエンチャント済みアイテムデータを削除: {0}, 数: {1}, 新しい数: {2}",
+		"PreventedWitchShopDuplication": "魔女のショップアイテムに重複アイテムが追加される問題を防止した:",
+		"PreventedLoosingExperience": "計算エラーにより{0}が経験値を失うのを防いだ",
+		"PreventedIssueLooseExperienceTwo": "経験値を失う原因となる問題を防止した(xpInt < 0) アイテム: {0}, ターゲット: {1}, ヒット: {2}, 近接: {3}, Main.GameMode: {4}, xpDamage: {5}, xpInt: {6}, lowDamagePerHitXPBoost: {7}, ",
+		"PreventedIssueLooseExperience": "xpが減少する原因となる問題を防止した(xpInt < 0) アイテム: {0}, ターゲット: {1}, ヒット: {2}, 近接: {3}, Main.GameMode: {4}, target.defense: {5}, xpDamage: {6}, lowDamagePerHitXPBoost: {7}",
+		"PlaceHereReRoll": "リロールするにはここにエンチャントを配置する",
+		"PlaceHereCurse": "呪いを適用するにはここにエンチャントを配置する",
+		"Owned": "所有済み",
+		"OreInfusionPowerNotSetup": "鉱石{0}の注入パワーが設定されていない。注入パワーを推測:",
+		"OpenEnchantingTableFirstTime": "すべてのエンチャントとエッセンスがエンチャントテーブルに引き込まれるのを感じる\nWeapon Enchantmentsにはエンチャントテーブル内に独自のストレージがある\nエンチャント、エッセンス、その他のWeapon Enchantmentsアイテムを拾うと、自動的にエンチャントテーブルストレージに送られる",
+		"NPCInProgressionGroupNoUniqueEnchantments": "進行グループにユニークな武器や材料を持たないNPCが検出された",
+		"NPCInProgressionGroupNotInDropList": "進行グループ内のNPCがNPCsThatDropWeaponsOrIngredientsにないことが検出された",
+		"NowLimitedToOne": "{0}エンチャントはアイテムごとに1つに制限されるようになった。{2}から{1}が削除された",
+		"NotEnoughEssence": "エッセンスが足りない。レベル{1}には{0}の経験値が必要だが、利用可能なのは{2}のみ",
+		"NotEnchantableAndNotAirInfusionItem": "テーブルアイテム: {0}{1}はエンチャント不可能であり、注入消費アイテム: {2}{3}は空気ではない",
+		"NonEnchantableItemInTable": "テーブルにエンチャント不可能なアイテムが検出された: {0}\n警告、確認を押さないでください\nこの問題をandro951(Weapon Enchantments)に報告してください",
+		"NoLongerUtilityEnchantment": "{0}はもはやユーティリティエンチャントではないため、{1}から削除された",
+		"NoLongerAllowedOnDamageType": "{0}は{1}武器では許可されなくなったため、{2}から削除された",
+		"Next": "次へ",
+		"NewItemIsAir": "newItemは空気だった",
+		"NegativeDef": "被ダメージが{0}と{0}%増加した\n(Weapon Enchantments)",
+		"MurasamaNoInfusion": "ムラサマは注入のために消費できない",
+		"MultipleUniqueEnchantments": "{0}に複数のユニークエンチャントが検出された。{2}から{1}が削除された",
+		"MinSiphonXP": "少なくとも{0}の経験値を持つアイテムのみサイフォンできる",
+		"LogInfusionPowerOtherLabels": "レアリティ、平均、最小、最大",
+		"LogInfusionPowerLabels": "Mod、武器、注入パワー、価値レアリティ、レアリティ、オリジナルレアリティ、価値、アイテムID、ダメージ、使用時間、DPS",
+		"ItemTooLowLevel": "{0}のレベルが低すぎて、その数のエンチャントを使用できない",
+		"ItemsFromNPCsNotIncluded": "WeaponsFromNPCsのアイテムはItemInfusionPowersに含まれていない",
+		"ItemsFromNPCIngredientsNotIncluded": "IngredientsFromNPCsのアイテムはItemInfusionPowersに含まれていない",
+		"ItemsFromLootItemsNotIncluded": "WeaponsFromLootItemsのアイテムはItemInfusionPowersに含まれていない",
+		"ItemRemovedRelacedWithItem": "{0}はWeapon Enchantmentsから削除された。{1}に置き換えられた",
+		"ItemRemovedReiceveCompensation": "{0}はWeapon Enchantmentsから削除された。補償として{1}を受け取った",
+		"ItemRemovedRecieveCoins": "{0}はWeapon Enchantmentsから削除された。売値と同額のコインを受け取った",
+		"ItemRemovedFromWeaponEnchantments": "{0}はWeapon Enchantmentsから削除された",
+		"ItemLevelUp": "{0}の{1}がレベル{2}に到達した({3} xp)",
+		"IngredientsFromLootItemsNotincluded": "WeaponsFromLootItemsの材料はItemInfusionPowersに含まれていない",
+		"IngredientInfusionPowersNotSetup": "材料に注入パワーが設定されていない",
+		"InfusionPowerMustBeLower": "アップグレードされるアイテムの注入パワーは、消費されるアイテムの注入パワーより低くなければならない",
+		"InfusionOnlyPossibleSameType": "注入は同じタイプのアイテム(武器/防具)間でのみ可能",
+		"InfusionConsumeItemWasNull": "wePlayer.infusionConsumeItemがnullだった、テーブルアイテム: {0}{1}, 注入消費アイテム: {2}{3}",
+		"FishingQuestTurnedIn": "クエストを納品した。次のクエストは{0}。完了したクエスト: {1}",
+		"FavoritedItemsCantBeConsumedForInfusion": "お気に入りのアイテムは注入のために消費できない",
+		"FailedToLocateAngler": "釣り人を見つけられなかった。報酬は引き続き受け取れる",
+		"FailedToCloneItem": "EnchantedItemで、クローンに失敗(アイテム: {0}, itemClone: {1}), cloneReforgedItem: {2}, resetGlobals: {3}",
+		"FailedReplaceWithCoins": "アイテム: {0}をコインに置き換えるのに失敗した",
+		"FailedReplaceOldItem": "古いアイテムの置き換えに失敗した:",
+		"FailedInfuseItem": "アイテム: {0}を消費アイテム: {1}で注入するのに失敗した",
+		"FailedFindItemDropsForGroup": "グループの戦利品アイテムのアイテムドロップを見つけるのに失敗した",
+		"FailedFindBossBag": "ボスに対応するボスバッグを見つけるのに失敗した:",
+		"FailedConvertExcessExperience": "CheckConvertExcessExperience(アイテム: {0}, 消費アイテム: {1})に失敗した",
+		"EnchantmentNoLongerAllowed": "{0}は{1}では許可されなくなったため、{2}から削除された",
+		"DetectedNonEnchantmentInEnchantmentSlot": "エンチャントではないアイテム:{0}が{1}のエンチャントスロットで検出された。インベントリに戻された",
+		"DailyFishingQuestReset": "デイリー釣りクエストがリセットされた。次のクエストは{0}",
+		"Curses": "呪い",
+		"CouldntFindNPCsInIngredientsList": "NPCsThatDropWeaponsOrIngredientsに次の名前のNpcが見つからなかった:",
+		"CouldntFindItemsInWeaponsList": "WeaponsListまたはWeaponCraftingIngredientsに次の名前のアイテムが見つからなかった:",
+		"CongradulationsMaxLevel": "おめでとう！{0}の{1}が最大レベル{2}に到達した({3} xp)",
+		"CantInfusionArmorDifferentTypes": "ヘルメットと胴体など、異なるタイプの防具を注入することはできない",
+		"CannotGainAdditionalPower": "あなたの{0}({1})は、捧げられた{2}({3})から追加のパワーを得ることはできない",
+		"Back": "戻る",
+		"ApplyCurse": "呪いを適用",
+		"AlreadyMaxLevel": "あなたの{0}は既に最大レベルだ"
+	},
+	"EnchantmentStorageText": {
+		"UncraftAllTrash": "すべてのゴミを分解",
+		"ToggleMarkTrash": "ゴミマークを切り替え",
+		"RevertAllToBasic": "すべてベーシックに戻す",
+		"QuickCraft": "クイッククラフト",
+		"OreBag": "鉱石バッグ",
+		"NotHighEnoughLevel": "あなたの{0}は、このロードアウトのエンチャントを適用するのに十分なレベルではない",
+		"NotEnoughEnchantments": "このロードアウトにはエンチャントが不足している。{0}",
+		"NoItems": "エンチャントロードアウトを交換するには、エンチャント可能なアイテムを手に持っているか、防具またはアクセサリーを装備している必要がある",
+		"NoHeldItem": "エンチャントロードアウトを交換するには、エンチャント可能なアイテムを手に持っている必要がある",
+		"NoArmor": "エンチャントロードアウトを交換するには、兜、胸当て、またはすね当てを装備している必要がある",
+		"NoAccessories": "エンチャントロードアウトを交換するには、少なくとも1つのアクセサリーを装備している必要がある",
+		"ManageTrash": "ゴミを管理",
+		"ManageOfferedItems": "捧げられたアイテムを管理",
+		"LoadoutSizeChanged": "以前利用可能だったよりも少ないアクセサリーのスロットが検出された。超過スロットのエンチャントは返還された",
+		"Loadout": "ロードアウト",
+		"HeldItem": "手に持っているアイテム",
+		"EnchantmentStorage": "エンチャントストレージ",
+		"EnchantmentLoadouts": "エンチャントロードアウト",
+		"Delete": "削除",
+		"All": "すべて",
+		"AddFromEquippedEnchantments": "装備中のエンチャントから追加",
+		"Add": "追加"
+	},
+	"Dialogue": {
+		"Witch": {
+			"Zoologist": "{0}はそこら中に髪の毛を落としていく暴君女だ、戦争で思い知らせてやる！",
+			"Wizard": "{0}は確立された手法から外れることはないが、その神秘の知識は達人の域にある！",
+			"WitchDoctor": "大釜を使う仲間だ！{0}は奇妙な仕掛けをたくさん持っていて、実に魅力的だ！",
+			"Storm": "はっ！新しい魔法のナンセンスを作り出すことにかけては、雷が一番だ！壮大な魔女の時間を始めよう！",
+			"StandardDialogue2": "私はまだここにいる、君が遊ぶのを見ている、でも言うことがあまり思いつかない！",
+			"StandardDialogue1": "なぜ私はいつも話しているんだろう、これらの韻を踏むのは本当に難しい！",
+			"StandardDialogue0": "このレシピを学んだ、本当に素晴らしい、後で君のご馳走のためにとっておこう！",
+			"QueenBee": "ジャングルは醸造に最高の材料がある。巨大なうるさい害虫が蔓延しているのが残念だ！",
+			"Princess": "うげっ！{0}はいつも私のことに口出ししてくる！「倫理」とか「道徳」とか何なのか知らないけど、彼女は私の場所から離れない！",
+			"Graveyard": "死体を気味悪がる人もいるかもしれないけど、この「死の静けさ」は実はかなり元気が出る！ニャックニャックニャック！",
+			"DyeTrader": "{0}はいつも私に最も暗い黒と、最も不気味な緑をくれる！これらの色は私にかなりの輝きを与え、私をとてもスリムに見せる！",
+			"Dryad": "この… {0}という奴は陳腐すぎる！『悪から世界を救う』だと？悪は根深く、ここにあり続けるのだ！",
+			"Crimson": "うー！ここのゴアは素敵！新しい発見を受け入れるのが待ちきれない！",
+			"Corrupt": "うー！ここの汚れは素敵！新しい発見を受け入れるのが待ちきれない！",
+			"BloodMoon": "以前の振る舞いについては本当に申し訳ない。あの時は最高の状態ではなかったし、もし失礼に聞こえたなら謝る",
+			"BirthdayParty": "なぜ私はピンクを着ることを強制されるんだ？！これはひどい、このパーティーは最悪だ！"
+		}
+	},
+	"Configs": {
+		"ServerConfig": {
+			"SiphonExperiencePercentCost": {
+				"Tooltip": "アイテムをサイフォンすると、経験値の一部のみがエッセンスとして返還される\nこのオプションは失われる%であり、1000xpで20%のコストの場合、800しか返還されない\n経験値コストの価値がエンチャントされたアイテムの価値の4倍を超える場合、その価値が代わりにコストとなり、最大レベルの木の剣を救うために20プラチナ相当の経験値を失うような状況を防ぐ\nアイテムを捧げると代わりに100%の経験値が返還される。コストをなくし、100%の経験値を返還するには0%に設定する\n元のサイフォンシステムを使用するには100%に設定する\n元のサイフォンシステムでは、最大レベルのアイテムのみをサイフォンでき、最大レベルを超えた余剰経験値のみをコストなしで取り除く",
+				"Label": "サイフォン経験値コスト(%)"
+			},
+			"RemoveEnchantmentRestrictions": {
+				"Tooltip": "ユニーク、最大1、武器またはアイテムタイプ固有のエンチャントなどの制限を解除する",
+				"Label": "エンチャント制限を解除(自己責任で使用)"
+			},
+			"ReduceRecipesToMinimum": {
+				"Tooltip": "レシピ表示時の散らかりを減らすために、ティア間をジャンプするすべてのレシピを削除する\nまた、すべてのエッセンスレシピをエンチャントテーブルのティアでスケーリングする代わりに4対1にする",
+				"Label": "レシピを最小限に減らす"
+			},
+			"ReduceOfferEfficiencyByTableTier": {
+				"Tooltip": "アイテムを捧げると、アイテムの経験値に相当するエッセンスを受け取る\nこれを有効にすると、木のテーブルの効率が60%になる\n各テーブルは効率が10%向上する。究極のテーブルで100%",
+				"Label": "テーブルティアによる捧げもの効率の減少"
+			},
+			"ReduceOfferEfficiencyByBaseInfusionPower": {
+				"Tooltip": "アイテムを捧げると、アイテムの経験値に相当するエッセンスを受け取る\nこれを有効にすると、武器の効率が注入パワー0で100%から注入パワー1100(以上)で80%になる",
+				"Label": "基本注入パワーによる捧げもの効率の減少"
+			},
+			"PrintWikiInfo": {
+				"Tooltip": "ワールドに入ると、情報がclient.logに出力される\nclient.logのデフォルトの場所はC:\\Steam\\SteamApps\\common\\tModLoader\\tModLoader-Logs",
+				"Label": "すべてのWiki情報をログに記録"
+			},
+			"PreventPowerBoosterFromPreHardMode": {
+				"Tooltip": "ウォールオブフレッシュは含まない",
+				"Label": "ハードモード前のボスがパワーブースターをドロップするのを防ぐ"
+			},
+			"presetData": {
+				"Tooltip": "すべてのエンチャントに一度に影響を与えるプリセットと乗数",
+				"Label": "プリセットと乗数"
+			},
+			"PercentOfferEssence": {
+				"Tooltip": "100%ですべてエッセンス、0%ですべて鉱石。エッセンスと鉱石の売却価値は同等になる",
+				"Label": "捧げられたアイテムの価値がエッセンスに変換される割合"
+			},
+			"NegativeDefensePenaltyMultiplier": {
+				"Tooltip": "この数値が0より大きい場合、プレイヤーの防御力が0未満になると、より多くのダメージを受ける\nこれは、呪いがプレイヤーの防御力を0未満に下げることを許可した場合のペナルティ\n受けるダメージは、負の防御ペナルティ乗数/1000 * -プレイヤー防御力だけ増加し、さらに1 + (負の防御ペナルティ乗数/1000 * -プレイヤー防御力 / 100)で乗算される。例: -20防御でプレイヤーが200ダメージを受け、負の防御ペナルティ乗数 = 1000の場合:\n最終ダメージ = (200 -(-20) * 1000/1000) * (1 + (1000/1000 * -(-20) / 100))\n最終ダメージ = (200 + 20) * (1 + 0.2) => 220 * 1.2 => 264",
+				"Label": "負の防御ペナルティ乗数"
+			},
+			"MultiplicativeCriticalHits": {
+				"Tooltip": "Weapon Enchantmentsは100%を超えるクリティカル率を利用して、再度クリティカルを可能にする\nデフォルトでは、これは加算的ボーナス: 1回目のクリティカルで200%ダメージ、2回目で300%、3回目で400%...\nこれを有効にすると、乗算的になる: 1回目のクリティカルで200%ダメージ、2回目で400%、3回目で800%...",
+				"Label": "最初のクリティカル後の乗算的クリティカルヒット"
+			},
+			"MinionLifeStealMultiplier": {
+				"Tooltip": "ライフ吸収エンチャントを持つミニオンから受ける回復量を減らすことができる",
+				"Label": "ミニオンライフ吸収乗数(%)"
+			},
+			"InfusionDamageMultiplier": {
+				"Tooltip": "注入によるダメージ乗数を変更する\nダメージ乗数 = 注入ダメージ乗数^((注入パワー - 基本注入パワー) / 100)\n例: 鉄のブロードソード、ダメージ = 10、基本注入パワー = 31 をミャウメアー、注入パワー1100で注入\n鉄のブロードソードのダメージ = 10 * 1.3^((1100 - 31) / 100) = 10 * 1.3^10.69 = 10 * 16.52 = 165ダメージ\nこの乗数を1000に設定すると、武器の注入が防がれ、既に注入された武器にもダメージボーナスがなくなる",
+				"Label": "注入ダメージ乗数(1000で割る、1 -> 0.001)"
+			},
+			"individualStrengthsEnabled": {
+				"Tooltip": "これを有効にすると、以下で選択された個別の強度値が他のすべての設定を上書きする",
+				"Label": "個別強度を有効にする"
+			},
+			"individualStrengths": {
+				"Tooltip": "個々のエンチャント強度を値で変更する\n(パーセンテージではない！)\n(他のすべてのオプションを上書きする)",
+				"Label": "個別強度"
+			},
+			"GatheringExperienceMultiplier": {
+				"Tooltip": "採掘/伐採/釣りから得られる経験値の量を変更する",
+				"Label": "収集経験値乗数(%)"
+			},
+			"ExperienceMultiplier": {
+				"Tooltip": "ボス以外の敵から得られる経験値の量を変更する",
+				"Label": "非ボス経験値乗数(%)"
+			},
+			"EssenceMultiplier": {
+				"Tooltip": "ボス以外の敵から得られるエッセンスの量を変更する",
+				"Label": "非ボスエッセンス乗数(%)"
+			},
+			"EssenceGrabRange": {
+				"Tooltip": "エッセンスがプレイヤーに向かって動き始める際の、プレイヤーからの距離に影響する",
+				"Label": "エッセンス取得範囲乗数"
+			},
+			"EnchantmentStrengthCurseScaling": {
+				"Tooltip": "この設定により、他のエンチャント強度設定の一部が呪いの効果に適用される\n値は100で割られる。50 => 50%\nこの値が0の場合、効果はない\n50の場合、他のエンチャント強度設定の効果の半分が適用される\n例えば、マスターワールド難易度では、デフォルトのエンチャント強度は25%(-75%減少)\nこの設定が50の場合、呪いの効果はその半分の量、62.5%(-75% * 50% => -37.5%減少)で減少する\n100の場合、呪いの効果は通常のエンチャント効果と同じようにスケーリングする",
+				"Label": "エンチャント強度呪いスケーリング"
+			},
+			"EnchantmentSlotsOnWeapons": {
+				"Tooltip": "1番目のスロットは通常スロット\n2番目のスロットはユーティリティスロット\n3番目から5番目は通常スロット",
+				"Label": "武器のエンチャントスロット"
+			},
+			"EnchantmentSlotsOnTools": {
+				"Tooltip": "1番目のスロットは通常スロット\n2番目のスロットはユーティリティスロット\n3番目から5番目は通常スロット\nこれまでのところ、環境変更銃が唯一の道具",
+				"Label": "道具のエンチャントスロット"
+			},
+			"EnchantmentSlotsOnFishingPoles": {
+				"Tooltip": "1番目のスロットは通常スロット\n2番目のスロットはユーティリティスロット\n3番目から5番目は通常スロット",
+				"Label": "釣り竿のエンチャントスロット"
+			},
+			"EnchantmentSlotsOnArmor": {
+				"Tooltip": "1番目のスロットは通常スロット\n2番目のスロットはユーティリティスロット\n3番目から5番目は通常スロット",
+				"Label": "防具のエンチャントスロット"
+			},
+			"EnchantmentSlotsOnAccessories": {
+				"Tooltip": "1番目のスロットは通常スロット\n2番目のスロットはユーティリティスロット\n3番目から5番目は通常スロット",
+				"Label": "アクセサリーのエンチャントスロット"
+			},
+			"EnchantmentEffectsOnModdedAccessorySlots": {
+				"Tooltip": "有効にすると、MODによって追加されたアクセサリースロット内のアイテムにエンチャント効果が適用される",
+				"Label": "MODで追加されたアクセサリースロットのエンチャント効果"
+			},
+			"EnchantmentDropChance": {
+				"Tooltip": "ボス以外の敵からのエンチャントのドロップ率を調整する\n(デフォルトは100%)",
+				"Label": "非ボスからのエンチャントドロップ率(%)"
+			},
+			"DisableResearch": {
+				"Tooltip": "有効にすると、すべてのエッセンスとエンチャントがリサーチできなくなり、ジャーニーモードでの複製を防ぐ",
+				"Label": "Weapon Enchantmentアイテムのリサーチ能力を無効にする"
+			},
+			"DisableMinionCrits": {
+				"Tooltip": "バニラでは、ミニオンは武器のクリティカル率の影響を受けない\nWeapon Enchantmentsはミニオンに武器のクリティカル率に基づいたクリティカルヒット率を与える\nこのオプションはクリティカルを無効にする(バニラの仕組み)",
+				"Label": "ミニオンのクリティカルヒットを無効にする"
+			},
+			"DisableArmorInfusion": {
+				"Tooltip": "これにより防具アイテムの注入が防がれ、注入されたセットボーナスが無視される",
+				"Label": "防具注入を無効にする"
+			},
+			"DCUStart": {
+				"Tooltip": "すべてのプレイヤーは最初にスポーンしたときにドリル格納ユニットを手に入れる\nこれは、より速いプレイスルーを楽しみたいときのためのもの",
+				"Label": "ドリル格納ユニットで開始する"
+			},
+			"DamageReductionPerLevelDisabled": {
+				"Tooltip": "防具とアクセサリーは、レベル * ワールド難易度に応じた以下の設定値に等しいダメージ減少を得る",
+				"Label": "レベルごとの防具とアクセサリーのダメージ減少を無効にする"
+			},
+			"DamagePerLevelInstead": {
+				"Tooltip": "武器はレベルごとにクリティカル率の代わりに、レベル * グローバルエンチャント強度乗数に等しいダメージを得る",
+				"Label": "レベルごとのクリティカル率の代わりにダメージ"
+			},
+			"CurseStrengthMultiplier": {
+				"Tooltip": "呪われたエンチャントの呪いの大きさに影響する",
+				"Label": "呪い強度乗数"
+			},
+			"CursedEssenceDropChanceMultiplier": {
+				"Tooltip": "敵がドロップする呪われたエッセンスの量に影響する",
+				"Label": "呪われたエッセンスドロップ率乗数"
+			},
+			"CursedEnemyLifeMultiplier": {
+				"Tooltip": "呪われた敵の最大ライフを変更する\n値は100で割られる。500 => 5倍の乗数",
+				"Label": "呪われた敵のライフ乗数"
+			},
+			"CursedEnemyDebuffDurationMultiplier": {
+				"Tooltip": "呪われた敵からのデバフの持続時間に影響する",
+				"Label": "呪われた敵のデバフ持続時間乗数"
+			},
+			"CursedEnemyDebuffChanceMultiplier": {
+				"Tooltip": "呪われた敵のデバフ射出物に当たったときのデバフ発生率に影響する\nほとんどはデフォルトで100%。混乱は10%、クモの巣まみれと凍結は5%、石化は2.5%",
+				"Label": "呪われた敵のデバフ発生率乗数"
+			},
+			"CursedEnemyDebuffAttackRange": {
+				"Tooltip": "呪われた敵は、プレイヤーがこの距離内にいる場合、デバフをプレイヤーに撃つ\n値は100で割られる。40000 => 400範囲。16範囲はゲーム内タイル/ブロック1つ分",
+				"Label": "呪われた敵のデバフ攻撃範囲"
+			},
+			"CursedEnemyDamageMultiplier": {
+				"Tooltip": "呪われた敵が与えるダメージを変更する\n0にするとプレイヤーにダメージもノックバックも与えない。値は100で割られる。100 => 1倍の乗数",
+				"Label": "呪われた敵のダメージ乗数"
+			},
+			"CursedEnchantmentsAllowedOnSummons": {
+				"Tooltip": "呪われたエンチャントのデバフはプレイヤーに適用されないため、デメリットなしで追加のボーナスを得るのは本質的に不公平である\nこれを有効にすると、召喚武器に呪われたエンチャントを付けることができるようになる",
+				"Label": "召喚獣に呪われたエンチャントを許可する"
+			},
+			"CursedBuffSpawnRateMultiplier": {
+				"Tooltip": "呪いデバフの出現率と最大出現数効果の強さを制御する\n出現率乗数 = (1 + 呪いバフ出現率乗数 * 0.415)^(Log2(呪いのエッセンス / 100 + 2)\n最大出現数乗数 = 1 + (出現率乗数 - 1) * 0.8",
+				"Label": "呪いバフ出現率乗数"
+			},
+			"CuredEnemyDebuffTicksPerAttack": {
+				"Tooltip": "呪われた敵がデバフ射出物を撃つ間のティック数 20ティック/攻撃 => (1秒/60ティック) / (20ティック/攻撃) => 3攻撃/秒",
+				"Label": "治癒した敵のデバフ攻撃毎ティック数"
+			},
+			"CritPerLevelDisabled": {
+				"Tooltip": "武器はレベルごとにレベル * グローバルエンチャント強度乗数に等しいクリティカル率を得る",
+				"Label": "レベルごとの武器クリティカル率を無効にする"
+			},
+			"CrateDropChance": {
+				"Tooltip": "釣れた箱からエンチャントを見つける確率を調整する",
+				"Label": "箱からのエンチャントのドロップ率乗数(%)"
+			},
+			"ConfigCapacityCostMultiplier": {
+				"Tooltip": "エンチャントをアイテムに適用するためのコストに影響する。基本値はユーティリティで1/2/3/4/5、通常で2/4/6/8/10、ユニークで3/6/9/12/15",
+				"Label": "エンチャントの容量コスト乗数(%)"
+			},
+			"ChestSpawnChance": {
+				"Tooltip": "チェストでエンチャントを見つける確率を調整する。100%を超えることができる\nバイオームチェストには影響しない(常に100%)",
+				"Label": "チェストからのエンチャント出現率(%)"
+			},
+			"CalculateDamageReductionBeforeDefense": {
+				"Tooltip": "デフォルトでは、ダメージ減少はプレイヤーの防御後に適用される\n前に適用するにはこれを選択する\n前にすると、受けるダメージが大幅に少なくなる",
+				"Label": "プレイヤーが防御する前にダメージ減少を計算する"
+			},
+			"BuffDuration": {
+				"Tooltip": "バフのクールダウンと持続時間に影響する",
+				"Label": "バフクールダウン持続時間(秒)"
+			},
+			"BossExperienceMultiplier": {
+				"Tooltip": "ボスから得られる経験値の量を変更する",
+				"Label": "ボスの経験値乗数(%)"
+			},
+			"BossEssenceMultiplier": {
+				"Tooltip": "ボスから得られるエッセンスの量を変更する",
+				"Label": "ボスのエッセンス乗数(%)"
+			},
+			"BossEnchantmentDropChance": {
+				"Tooltip": "ボスからのエンチャントのドロップ率を調整する\n(デフォルトは50%)",
+				"Label": "ボスのエンチャントドロップ率(%)"
+			},
+			"AutoReuseDisabledOnMagicMissile": {
+				"Tooltip": "マジックミサイルのような武器のオートリユースは、射出物を連続して発射してダメージを無限にスタックできる",
+				"Label": "マジックミサイル系武器のオートリユースを無効にする"
+			},
+			"AttackSpeedEnchantmentAutoReuseSetpoint": {
+				"Tooltip": "スピードエンチャントがオートリユースステータスを与え始める強度\nすべてのスピードエンチャントにオートリユースを与えるには0に設定する\nオートリユースを得るのを防ぐには10000に設定する(強度乗数が巨大でない限り)",
+				"Label": "スピードエンチャントのオートリユース有効化(%)"
+			},
+			"ArmorDamageReductions": {
+				"Tooltip": "レベルアップするにつれて防具とアクセサリーが得る防具減少を変更するために使用される",
+				"Label": "防具とアクセサリーのダメージ減少"
+			},
+			"AmaterasuSelfGrowthPerTick": {
+				"Tooltip": "アマテラスのダメージが自然に(ワールドアブレイズ武器で再度攻撃されたときではなく)どれだけ速く増加するかに影響する",
+				"Label": "アマテラスのティックごとの自己成長"
+			},
+			"AlwaysOverrideDamageType": {
+				"Tooltip": "Stars Aboveのような一部のMODは武器のダメージタイプを変更する\nこのオプションが有効な場合、ダメージタイプを変更するエンチャントは常に武器のダメージタイプを変更する\n選択されていない場合、ダメージタイプは武器が現在元のダメージタイプである場合にのみ変更される",
+				"Label": "ダメージタイプ変換エンチャントは常に上書きする"
+			},
+			"AllowHighTierOres": {
+				"Tooltip": "このオプションを無効にすると、鉄、銀、金(またはワールド生成に基づく同等品)のみを受け取ることができる\n(ハードモードでのみ機能する。クロロファイトはメカニカルボスを倒した後にのみ)",
+				"Label": "アイテムを捧げることでクロロファイトまでの鉱石を受け取る"
+			},
+			"AllowCursedEnemies": {
+				"Tooltip": "有効にすると、敵がスポーン時にまれに呪われ、ダメージを与えなくなるが、プレイヤーにデバフを撃つようになる。呪われた敵は体力も5倍になる",
+				"Label": "呪われた敵を許可する"
+			},
+			"AllowCriticalChancePast100": {
+				"Tooltip": "バニラのテラリアはクリティカル率を100%でキャップする\nデフォルトでは、Weapon Enchantmentsは100%を超えた追加のクリティカルを計算する\n120%のクリティカル率は、100%でダメージを2倍にし、その後20%の確率でクリティカルしてダメージを増加させる\n詳細は次の設定オプションを参照",
+				"Label": "クリティカルヒット率が100%を超えても有効"
+			},
+			"AffectOnVanillaLifeStealLimmit": {
+				"Tooltip": "ライフ吸収をより制限するには100%を超える値を、制限を少なくするには100%未満の値を使用する\n0で制限をなくす\nバニラのテラリアはライフ吸収制限システムを使用する: 以下の例では、通常モードの値が使用される(エキスパート/マスターモードの値は括弧内)\nライフ吸収から得るための80(70)のプールが保存されている\nライフ吸収によってライフを得ると、このプールが減少する\nプールは毎秒36(30)ポイント回復する\nプールの値が負の場合、ライフ吸収からライフを得ることはできない\nこの設定値は、ライフ吸収エンチャントから回復するライフがこの制限にどれだけ影響するかを変更する\n例: 200%  ライフ吸収から200ライフを得る。200 * 200% = 400。80(70)プール - 400回復 = -320(-330)プール\nプールが再びプラスになり、ライフ吸収からライフを得られるようになるまで、320/36(330/30)秒 -> 8.9(11)秒かかる\n注: このメカニズムには一度に得られる量に上限はない\n回復すればするほど、回復にかかる時間が長くなるだけ",
+				"Label": "ライフ吸収エンチャント制限(バニラライフ吸収制限への影響)(%)"
+			},
+			"ServerConfig": "サーバー設定",
+			"RarityEnchantmentStrengthMultipliers": "レアリティごとのエンチャント強度の乗数",
+			"RandomExtraStuff": "ランダムな追加要素",
+			"Presets": "プリセット",
+			"OtherDropRates": "その他のドロップ率",
+			"Multipliers": "乗数",
+			"IndividualEnchantmentStrengths": "個別のエンチャント強度",
+			"GeneralGameChanges": "一般的なゲームの変更",
+			"EssenceAndExperience": "エッセンスと経験値",
+			"EnchantmentSettings": "エンチャントの設定",
+			"EnchantmentDropRates(%)": "エンチャントのドロップ率(%)",
+			"EnchantingTableOptions": "エンチャントテーブルのオプション",
+			"DisplayName": "サーバー設定",
+			"CursedEnemies": "呪われた敵"
+		},
+		"PresetData": {
+			"RareEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべてのレアエンチャントの強度に影響する\n個別のエンチャント強度乗数を除くすべての乗数を上書きする。この乗数を無視するには-1に設定する",
+				"Label": "レア"
+			},
+			"Preset": {
+				"Tooltip": "ジャーニー、ノーマル、エキスパート、マスター、自動、カスタム\n(カスタムはここでは選択できない。グローバル強度乗数を調整すると自動的に設定される)",
+				"Label": "プリセット"
+			},
+			"LegendaryEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべてのレジェンダリーエンチャントの強度に影響する\n個別のエンチャント強度乗数を除くすべての乗数を上書きする。この乗数を無視するには-1に設定する",
+				"Label": "レジェンダリー"
+			},
+			"GlobalEnchantmentStrengthMultiplier": {
+				"Tooltip": "推奨されるエンチャントの変更に基づいて、すべてのエンチャント強度を調整する\nプリセットと同じ計算を使用するが、異なる数値を選択できる\nプリセット値は、ジャーニー: 250, ノーマル: 100, エキスパート: 50, マスター: 25 (プリセットを上書き)",
+				"Label": "グローバルエンチャント強度乗数(%)"
+			},
+			"EpicEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべてのエピックエンチャントの強度に影響する\n個別のエンチャント強度乗数を除くすべての乗数を上書きする。この乗数を無視するには-1に設定する",
+				"Label": "エピック"
+			},
+			"CursedEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべての呪われたエンチャントの強度に影響する。個別のエンチャント強度乗数を除くすべての乗数を上書きする\nこの乗数を無視するには-1に設定する",
+				"Label": "呪い"
+			},
+			"CommonEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべてのコモンエンチャントの強度に影響する\n個別のエンチャント強度乗数を除くすべての乗数を上書きする。この乗数を無視するには-1に設定する",
+				"Label": "コモン"
+			},
+			"BasicEnchantmentStrengthMultiplier": {
+				"Tooltip": "すべてのベーシックエンチャントの強度に影響する。個別のエンチャント強度乗数を除くすべての乗数を上書きする\nこの乗数を無視するには-1に設定する",
+				"Label": "ベーシック"
+			},
+			"AutomaticallyMatchPresetToWorldDifficulty": {
+				"Tooltip": "他のオプションを編集するにはオフにする必要がある",
+				"Label": "プリセットをワールド難易度に自動的に一致させる"
+			},
+			"Tooltip": "プリセットを使用すると、すべてのエンチャントに一度に簡単に影響を与えることができる"
+		},
+		"Pair": {
+			"Strength": {
+				"Tooltip": "この値を調整する際は注意すること\n強度は使用される正確な値である\n例: 40%ダメージエンチャントは0.4\n10防御は10",
+				"Label": "強度(1000 = 1, 10 = 1%)"
+			},
+			"itemDefinition": {
+				"Tooltip": "エンチャントアイテムのみを選択すること\n他のアイテムを選択するとエラーが発生する可能性が高い",
+				"Label": "エンチャント"
+			},
+			"Tooltip": "特定のエンチャントに強度を割り当てることができる"
+		},
+		"ClientConfig": {
+			"VisualCursedDebuff": {
+				"Tooltip": "呪いデバフは実際にはボーナス出現率、最大出現数、または呪い出現率上昇を制御しない\n表示専用である。余分なバフ表示が不要な場合は、効果を維持したまま無効にできる",
+				"Label": "視覚的な呪いデバフ"
+			},
+			"UsePointsAsTooltip": {
+				"Tooltip": "ツールチップに「利用可能なエンチャント容量」の代わりに「利用可能なポイント」と表示される",
+				"Label": "「ポイント」を「エンチャント容量」の代わりに使用"
+			},
+			"teleportEssence": {
+				"Tooltip": "インベントリからUIのエッセンススロットにエッセンスを自動的に送る\n(UIが開いている間は無効)",
+				"Label": "エッセンスをUIに自動的に送る"
+			},
+			"PrintWeaponInfusionPowers": {
+				"Tooltip": "ワールドに入ると、情報がclient.logに出力される\nclient.logのデフォルトの場所はC:\\Steam\\SteamApps\\common\\tModLoader\\tModLoader-Logs",
+				"Label": "すべての武器の注入パワーをログに記録"
+			},
+			"PrintEnchantmentTooltips": {
+				"Tooltip": "ワールドに入ると、リストがclient.logに出力される\nclient.logのデフォルトの場所はC:\\Steam\\SteamApps\\common\\tModLoader\\tModLoader-Logs",
+				"Label": "エンチャントのツールチップのリストをログに記録"
+			},
+			"OfferAll": {
+				"Tooltip": "インベントリから捧げられたものと同じタイプのすべてのアイテムを検索し、経験値が0でパワーブースターがインストールされていない場合、それらも捧げる\nまた、エンチャントテーブルに隣接するチェストのすべてのアイテムも捧げる",
+				"Label": "同じアイテムをすべて捧げる"
+			},
+			"LogDummyDPS": {
+				"Tooltip": "すべてのソースからのターゲットへのダメージを追跡し、記録する。num0を押して開始し、もう一度押して停止する\nnum8を押して、保存されているすべてのdps値をclient.logに出力する\nclient.logのデフォルトの場所はC:\\Steam\\SteamApps\\common\\tModLoader\\tModLoader-Logs\nnum0を押して新しいテストを開始すると、手に持っているアイテムの以前のdpsデータがリセットされ、テストを再実行できる",
+				"Label": "ターゲットダミーDps計算とロギングを有効にする"
+			},
+			"EnableSwappingWeapons": {
+				"Tooltip": "num1とnum3を使用してすべての武器を切り替える\nnum4とnum6を使用してMOD武器のみを切り替える\nエンチャントまたは変更された武器は置き換えられない",
+				"Label": "テンキーで武器を交換できるようにする(武器は注入パワー順)"
+			},
+			"DisplayDamageTooltipSeperatly": {
+				"Tooltip": "ダメージエンチャントは、アイテムのダメージを直接変更するのではなく、敵の防具がダメージを減少させた後に計算される\nこれがオフの場合、ツールチップのダメージはゼロ防具のターゲットに対するダメージを示す\n通常のダメージ値を更新する代わりに別のツールチップを表示するには有効にする\nこれは0防具の敵に対するダメージを表示する",
+				"Label": "エンチャントによるおおよそのダメージを別のツールチップに表示する"
+			},
+			"CursedEnemyVisualShaking": {
+				"Tooltip": "呪われた敵は、通常の敵と区別するために揺れたり振動したりする\nこの設定は、呪われた敵の視覚的な揺れの強さを制御する。揺れを無効にするには0に設定する",
+				"Label": "呪われた敵の視覚的な揺れ"
+			},
+			"CursedEnemyParticles": {
+				"Tooltip": "呪われた敵は、通常の敵と区別するために小さなパーティクルを生成する\nこれらのパーティクルが作成されないようにするにはオフにする",
+				"Label": "呪われた敵のパーティクル"
+			},
+			"AlwaysDisplayWeaponLevelUpMessages": {
+				"Tooltip": "このオプションがオフの場合、エンチャントテーブルを使用しているときにのみ武器のレベルアップメッセージが表示される",
+				"Label": "常に武器のレベルアップメッセージを表示する"
+			},
+			"AlwaysDisplayToolLevelUpMessages": {
+				"Tooltip": "このオプションがオフの場合、エンチャントテーブルを使用しているときにのみ道具のレベルアップメッセージが表示される",
+				"Label": "常に道具のレベルアップメッセージを表示する"
+			},
+			"AlwaysDisplayInfusionPower": {
+				"Tooltip": "エンチャントテーブルが開いているときだけでなく、常にアイテムの注入パワーを表示するには有効にする",
+				"Label": "常に注入パワーを表示する"
+			},
+			"AlwaysDisplayArmorLevelUpMessages": {
+				"Tooltip": "このオプションがオフの場合、エンチャントテーブルを使用しているときにのみ防具のレベルアップメッセージが表示される",
+				"Label": "常に防具のレベルアップメッセージを表示する"
+			},
+			"AlwaysDisplayAccessoryLevelUpMessages": {
+				"Tooltip": "このオプションがオフの場合、エンチャントテーブルを使用しているときにのみアクセサリーのレベルアップメッセージが表示される",
+				"Label": "常にアクセサリーのレベルアップメッセージを表示する"
+			},
+			"AllowShiftClickMoveFavoritedItems": {
+				"Tooltip": "有効でない場合、アイテムはお気に入りを解除するか、マウスで手動で移動する必要がある",
+				"Label": "Shiftクリックで、お気に入りのアイテムをエンチャントテーブルに移動できるようにする"
+			},
+			"AllowInfusingToLowerPower": {
+				"Tooltip": "警告: これにより、弱い武器を消費して強い武器をダウングレードできるようになる",
+				"Label": "アイテムをより低い注入パワーに注入することを許可する"
+			},
+			"AllowCraftingIntoLowerTier": {
+				"Tooltip": "エンチャントをより低いティアのものにクラフトすると、封じ込め、エッセンス、宝石を含むすべての材料が返還される",
+				"Label": "エンチャントをより低いティアのエンチャントにクラフトすることを許可する"
+			},
+			"ModTestingTools": "MODテストツール",
+			"LoggingInformation": "ロギング情報",
+			"ErrorMessages": "エラーメッセージ",
+			"DisplaySettings": "表示設定",
+			"DisplayName": "クライアント設定"
+		},
+		"ArmorDamageReduction": {
+			"ArmorDamageReductionPerLevel": {
+				"Tooltip": "250000(2.5%)が最大で、レベル40で100%のダメージ減少になる",
+				"Label": "レベルごとの防具のDR(100000 = 1%)"
+			},
+			"AccessoryDamageReductionPerLevel": {
+				"Tooltip": "250000(2.5%)が最大で、レベル40で100%のダメージ減少になる",
+				"Label": "レベルごとのアクセサリーのDR(100000 = 1%)"
+			},
+			"Tooltip": "レベルアップするにつれて防具とアクセサリーが得るダメージ減少を変更できる"
+		},
+		"NoneSelected": "選択されていません",
+		"Enchantment": "エンチャント",
+		"Custom": "カスタム",
+		"Automatic": "自動",
+		"ArmorDRValues": "防具 {0}% ({1}% at 40)",
+		"AccessoryDRValues": "アクセサリー {0}% ({1}% at 40)"
+	},
+	"Buffs": {
+		"Cursed": {
+			"DisplayName": "呪い",
+			"Description": "呪いのエッセンス {0}\n出現率 x{1}\n最大出現数 x{2}\n呪い確率 {3}"
+		},
+		"Amaterasu": {
+			"DisplayName": "アマテラス"
+		}
+	},
+	"Bestiary": {
+		"Witch": "魔女は醜く邪悪な女性であり、さらに邪悪な物事を扱う。彼女は装備を不思議な効果で改良するために、怪しげな材料を取引する"
+	}
+}

@@ -1,0 +1,2959 @@
+Keybinds: {
+	"Cancel weapon charge": {
+		DisplayName: 武器のチャージをキャンセル
+	}
+
+	"Brush dash": {
+	DisplayName: ブラシのダッシュ
+}
+
+"Dualie dodge roll": {
+	DisplayName: デュアリーのドッジロール
+}
+
+"Use special weapon": {
+	DisplayName: スペシャルウェポンを使用
+}
+
+"Use sub weapon": {
+	DisplayName: サブウェポンを使用
+}
+
+"Enter swim form": {
+	DisplayName: スイムフォームに移行
+}
+
+"Enter Swim Form": {
+	DisplayName: スイムフォームに移行
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		HideMissingKeybindWarning: {
+			Tooltip: WoomyModに関連する未設定のコントロールがあるときに表示されるメッセージを非表示にします
+			Label: キー設定未割り当て警告を非表示
+		}
+
+		HideStartupMessage: {
+		Tooltip: ワールドにロードする際の挨拶メッセージを非表示にします。
+		Label: 起動メッセージをFFを非表示
+	}
+
+	DisableBombRushJingle: {
+		Tooltip: ボムラッシュのジングルが再生されなくなり、BGMを上書きしません。
+		Label: ボムラッシュのジングルを無効化
+	}
+
+	HideInkTankPercentage: {
+		Tooltip: インクタンクUIの下に表示される数値を非表示にします。本物のゲームのようになります！
+		Label: インクタンクの割合表示を非表示
+	}
+
+	SilentPearlDrone: {
+		Tooltip: パールドローンが静かになります。
+		Label: パールドローンを無音化
+	}
+
+	UseOnlyVanillaSounds: {
+		Tooltip: スプラトゥーンの音をテラリアのバニラ音に置き換えます。
+		Label: （未実装！）バニラ音声のみ使用
+	}
+
+	Headers: {
+		Audio: 音声
+		UI: ユーザーインターフェース（UI）
+		Items: アイテム
+	}
+
+	DisplayName: クライアント設定
+	}
+}
+
+Prefixes: {
+	LifetimeTooltip: "プロジェクタイルの持続時間が{0}"
+
+	TwinPrefix: {
+	DisplayName: ツイン
+}
+
+ExplosivePrefix: {
+	DisplayName: スプラッシュ
+}
+
+ResonantPrefix: {
+	DisplayName: レゾナント
+}
+
+OversizedPrefix: {
+	DisplayName: オーバーサイズ
+}
+
+AmmoTooltip: 各スロッシュで{0}個のプロジェクタイルを発射
+
+BaseSlosherPrefix: {
+	DisplayName: ベーススロッシャー接頭辞
+}
+
+RepetitionTooltip: さらに{0}回スロッシュ
+
+GambitPrefix: {
+	DisplayName: ギャンビット
+}
+
+DivingPrefix: {
+	DisplayName: ダイビング
+}
+
+InstantPrefix: {
+	DisplayName: インスタント
+}
+
+SavouryPrefix: {
+	DisplayName: セイバリー
+}
+
+HungryPrefix: {
+	DisplayName: ハングリー
+}
+
+CheapPrefix: {
+	DisplayName: チープ
+}
+
+InkCostTooltip: インク消費量が{0}
+
+SturdyPrefix: {
+	DisplayName: スターディ
+}
+
+ShelledPrefix: {
+	DisplayName: シェルド
+}
+
+CrispyPrefix: {
+	DisplayName: クリスピー
+}
+
+BurstingPrefix: {
+	DisplayName: バースト
+}
+
+BaseBrellaPrefix: {
+	DisplayName: ベースブレラ接頭辞
+}
+
+ShieldCooldownTooltip: シールド回復クールダウンが{0}
+ShieldLifeTooltip: シールドの耐久力が{0}
+
+TastelessPrefix: {
+	DisplayName: テイストレス
+}
+
+DryPrefix: {
+	DisplayName: ドライ
+}
+
+SeepingPrefix: {
+	DisplayName: シーピング
+}
+
+SteadfastPrefix: {
+	DisplayName: ステッドファスト
+}
+
+MeleeDamageTooltip: 近接ダメージが{0}
+
+BaseBrushPrefix: {
+	DisplayName: ベースブラシ接頭辞
+}
+
+DashSpeedTooltip: ブラシダッシュ速度が{0}
+ShotSpreadTooltip: 弾の拡散が{0}
+
+LoadedPrefix: {
+	DisplayName: ローデッド
+}
+
+CuratedPrefix: {
+	DisplayName: キュレーテッド
+}
+
+ChaoticSplatlingPrefix: {
+	DisplayName: カオティック
+}
+
+BaseSplatlingPrefix: {
+	DisplayName: ベーススプラトリング接頭辞
+}
+
+ShotTimeTooltip: ショット間のディレイが{0}フレーム
+ShotsPerChargeTooltip: チャージごとのショット数が{0}
+
+ConcentratedPrefix: {
+	DisplayName: コンセントレイテッド
+}
+
+BigBangPrefix: {
+	DisplayName: ビッグバン
+}
+
+ExplosionRadiusTooltip: 爆発半径が{0}
+ShotgunArcTooltip: ショットガンの幅が{0}
+
+WidePrefix: {
+	DisplayName: ワイド
+}
+
+CompactPrefix: {
+	DisplayName: コンパクト
+}
+
+BaseStringerPrefix: {
+	DisplayName: ベースストリンガー接頭辞
+}
+
+ExtraProjectileTooltip: プロジェクタイル数が{0}
+VelocityTooltip: 速度が{0}
+AimVariationTooltip: 不正確さが{0}度
+EnemyPierceTooltip: 貫通力が{0}
+ArmorPenetrationTooltip: 防御貫通力が{0}
+ChargeSpeedTooltip: チャージ速度が{0}
+ExtraDodgeRollsTooltip: ドッジロール数が{0}
+
+BaseItemPrefix: {
+	DisplayName: ベースアイテム接頭辞
+}
+
+BaseWeaponPrefix: {
+	DisplayName: ベースウェポン接頭辞
+}
+
+BaseBlasterPrefix: {
+	DisplayName: ベースブラスター接頭辞
+}
+
+BaseChargerPrefix: {
+	DisplayName: ベースチャージャー接頭辞
+}
+
+BacklinePrefix: {
+	DisplayName: バックライン
+}
+
+BaseChargeWeaponPrefix: {
+	DisplayName: ベースチャージウェポン接頭辞
+}
+
+QuickPrefix: {
+	DisplayName: クイック
+}
+
+BaseDualiePrefix: {
+	DisplayName: ベースデュアリー接頭辞
+}
+
+PrincessPrefix: {
+	DisplayName: プリンセス
+}
+
+SlipperyPrefix: {
+	DisplayName: スリッパリー
+}
+
+EvasivePrefix: {
+	DisplayName: イベーシブ
+}
+
+AmpedUpPrefix: {
+	DisplayName: アンプドアップ
+}
+
+ChaoticPrefix: {
+	DisplayName: カオティック
+}
+
+DeepCutPrefix: {
+	DisplayName: ディープカット
+}
+
+FreshPrefix: {
+	DisplayName: フレッシュ
+}
+
+HeavyDutyPrefix: {
+	DisplayName: ヘビーデューティ
+}
+
+PiercingPrefix: {
+	DisplayName: ピアシング
+}
+
+RangedPrefix: {
+	DisplayName: レンジド
+}
+
+SkilledPrefix: {
+	DisplayName: スキルド
+}
+
+SwiftPrefix: {
+	DisplayName: スウィフト
+}
+
+TurboPrefix: {
+	DisplayName: ターボ
+	}
+}
+
+NPCs: {
+	BrellaShield: {
+		DisplayName: ブレラシールド
+	}
+}
+
+Buffs: {
+	MarkedBuff: {
+		Description: Mods.AchiSplatoon2.Buffs.MarkedBuff.Description
+		DisplayName: マークバフ
+	}
+
+	TacticoolerBuff: {
+	Description: ""
+	DisplayName: リフレッシング！
+}
+
+BombRushBuff: {
+	Description: sサブウェポンがインクを消費せず、ダメージが上昇します。ボムを投げまくれ！
+	DisplayName: ボムラッシュ
+}
+
+LastDitchEffortBuff: {
+	Description: インク消費量が大幅に減少
+	DisplayName: ラストディッチエフォート
+}
+
+InkRegenerationBuff: {
+	Description: スイムフォーム時と同じ速度で常にインクが回復
+	DisplayName: スーパーインク回復
+}
+
+InkCapacityBuff: {
+	Description: インクタンクの容量が{0}%増加
+	DisplayName: インク容量アップ
+}
+
+SwimFormBuff: {
+	Description: インクの回復が速くなり、落下ダメージを受けません。水でこのバフがキャンセルされます！
+	DisplayName: スイムフォーム
+}
+
+PearlDroneBuff: {
+	Description: ""
+	DisplayName: ""
+}
+
+BigBlastBuff: {
+	DisplayName: コンペンセイティングブラスト
+	Description: 次のブラスターショットが{0}%多いダメージを与え、{1}%大きな範囲に影響
+}
+
+SpecialReadyBuff: {
+	Description: スペシャルウェポンを持っている場合、今すぐ使用できます！
+	DisplayName: スペシャルチャージ完了！
+}
+
+UltraStampBuff: {
+	Description: ウルトラスタンプを振る間、敵のダメージが{0}%減少
+	DisplayName: 止まらない、止められない
+	}
+}
+
+Projectiles: {
+	UrchinEmblemProjectile: {
+		DisplayName: Urchin Emblem Projectile
+	}
+
+	DesertBrushDashProjectile: {
+		DisplayName: Desert Brush Dash Projectile
+	}
+
+	DesertBrushSwingProjectile: {
+		DisplayName: Desert Brush Swing Projectile
+	}
+
+	StillSparkleVisual: {
+		DisplayName: Still Sparkle Visual
+	}
+
+	SqueezerProjectile: {
+		DisplayName: Squeezer Projectile
+	}
+
+	WeaponChargeSparkleVisual: {
+		DisplayName: Weapon Charge Sparkle Visual
+	}
+
+	SpecialSparkleVisual: {
+		DisplayName: Special Sparkle Visual
+	}
+
+	EmpressInkTankProjectile: {
+		DisplayName: Empress Ink Tank Projectile
+	}
+
+	PointSensorProjectile: {
+		DisplayName: Point Sensor Projectile
+	}
+
+	SplatanaMeleeEnergyProjectile: {
+		DisplayName: Splatana Melee Energy Projectile
+	}
+
+	SkySplatanaMeleeEnergyProjectile: {
+		DisplayName: Sky Splatana Melee Energy Projectile
+	}
+
+	GolemSplatanaMeleeEnergyProjectile: {
+		DisplayName: Golem Splatana Melee Energy Projectile
+	}
+
+	SkySplatanaStrongSlashProjectile: {
+		DisplayName: Sky Splatana Strong Slash Projectile
+	}
+
+	GolemSplatanaStrongSlashProjectile: {
+		DisplayName: Golem Splatana Strong Slash Projectile
+	}
+
+	HitProjectile: {
+		DisplayName: Hit Projectile
+	}
+
+	TacticoolerCan: {
+		DisplayName: Tacticooler Can
+	}
+
+	TacticoolerHeldProjectile: {
+		DisplayName: Tacticooler Held Projectile
+	}
+
+	TacticoolerStand: {
+		DisplayName: Tacticooler Stand
+	}
+
+	InkzookaProjectile: {
+		DisplayName: Inkzooka Projectile
+	}
+
+	InkzookaHeldProjectile: {
+		DisplayName: Inkzooka Held Projectile
+	}
+
+	BombRushHeldProjectile: {
+		DisplayName: Bomb Rush Held Projectile
+	}
+
+	TrizookaBlast: {
+		DisplayName: Trizooka Blast
+	}
+
+	SpecialChargeProjectile: {
+		DisplayName: Special Charge Projectile
+	}
+
+	TrizookaShell: {
+		DisplayName: Trizooka Shell
+	}
+
+	TrizookaHeldProjectile: {
+		DisplayName: Trizooka Held Projectile
+	}
+
+	PearlDroneLaserProjectile: {
+		DisplayName: Pearl Drone Laser Projectile
+	}
+
+	SheldonDrone: {
+		DisplayName: Sheldon Drone
+	}
+
+	CoralStringerProjectile: {
+		DisplayName: Coral Stringer Projectile
+	}
+
+	CoralStringerCharge: {
+		DisplayName: Coral Stringer Charge
+	}
+
+	CorruptionBrellaShotgunProjectile: {
+		DisplayName: Corruption Brella Shotgun Projectile
+	}
+
+	CorruptionBrellaPelletProjectile: {
+		DisplayName: Corruption Brella Pellet Projectile
+	}
+
+	CorruptionBrellaMeleeProjectile: {
+		DisplayName: Corruption Brella Melee Projectile
+	}
+
+	HudProjectile: {
+		DisplayName: Hud Projectile
+	}
+
+	SquidFormProjectile: {
+		DisplayName: Squid Form Projectile
+	}
+
+	HoneyScepterProjectile: {
+		DisplayName: Honey Scepter Projectile
+	}
+
+	BlasterExplosion: {
+		DisplayName: Blaster Explosion
+	}
+
+	ChargerProjectile: {
+		DisplayName: Charger Projectile
+	}
+
+	ChargerCharge: {
+		DisplayName: Charger Charge
+	}
+
+	NetcodeInspectorProjectile: {
+		DisplayName: Netcode Inspector Projectile
+	}
+
+	PearlDroneBurstBomb: {
+		DisplayName: Pearl Drone Burst Bomb
+	}
+
+	PearlDroneSprinklerProjectile: {
+		DisplayName: Pearl Drone Sprinkler Projectile
+	}
+
+	PearlDroneMinion: {
+		DisplayName: Pearl Drone Minion
+	}
+
+	SquidBoomerangProjectile: {
+		DisplayName: Squid Boomerang Projectile
+	}
+
+	MartianBrellaShotgunProjectile: {
+		DisplayName: Martian Brella Shotgun Projectile
+	}
+
+	MartianBrellaMeleeProjectile: {
+		DisplayName: Spark Brella
+	}
+
+	MartianBrellaPelletProjectile: {
+		DisplayName: Spark Brella
+	}
+
+	WellstringCharge: {
+		DisplayName: Wellstring Charge
+	}
+
+	SpookyBrushProjectile: {
+		DisplayName: Hexing Broom
+	}
+
+	IceStringerShrapnel: {
+		DisplayName: Shivering Stringer Shrapnel
+	}
+
+	IceStringerProjectile: {
+		DisplayName: Shivering Stringer Projectile
+	}
+
+	BrushSwingProjectile: {
+		DisplayName: Brush Swing Projectile
+	}
+
+	TorpedoPelletProjectile: {
+		DisplayName: Torpedo Pellet Projectile
+	}
+
+	TorpedoProjectile: {
+		DisplayName: Torpedo Projectile
+	}
+
+	InkMineProjectile: {
+		DisplayName: Ink Mine Projectile
+	}
+
+	SlimeSplattershotProjectile: {
+		DisplayName: Slime Splattershot Projectile
+	}
+
+	NebulaStringerCharge: {
+		DisplayName: Nebula Stringer Charge
+	}
+
+	NebulaStringerProjectile: {
+		DisplayName: Nebula Stringer Projectile
+	}
+
+	VortexDualieRollProjectile: {
+		DisplayName: Vortex Dualie Roll Projectile
+	}
+
+	VortexDualieShotProjectile: {
+		DisplayName: Vortex Dualie Shot Projectile
+	}
+
+	PainterDualieShotProjectile: {
+		DisplayName: Painter Dualie Shot Projectile
+	}
+
+	BlastProjectile: {
+		DisplayName: Blast Projectile
+	}
+
+	ExplosherProjectile: {
+		DisplayName: Explosher Projectile
+	}
+
+	EelSplatanaSmallProjectile: {
+		DisplayName: Eel Splatana Small Projectile
+	}
+
+	EelSplatanaStrongSlashProjectile: {
+		DisplayName: Eel Splatana Strong Slash Projectile
+	}
+
+	SnipewriterProjectile: {
+		DisplayName: Snipewriter Projectile
+	}
+
+	SnipewriterCharge: {
+		DisplayName: Snipewriter Charge
+	}
+
+	LuckyBombBlast: {
+		DisplayName: Lucky Bomb Blast
+	}
+
+	LuckyBombProjectile: {
+		DisplayName: Lucky Bomb Projectile
+	}
+
+	DesertBrushProjectile: {
+		DisplayName: Desert Brush Projectile
+	}
+
+	SBlastProjectile: {
+		DisplayName: S-Blast Projectile
+	}
+
+	KensaSplatRollerSwingProjectile: {
+		DisplayName: Kensa Splat Roller Swing Projectile
+	}
+
+	KensaDynamoRollerSwingProjectile: {
+		DisplayName: Kensa Dynamo Roller Swing Projectile
+	}
+
+	GoldDynamoRollerSwingProjectile: {
+		DisplayName: Gold Dynamo Roller Swing Projectile
+	}
+
+	BloblobberMainProjectile: {
+		DisplayName: Bloblobber Main Projectile
+	}
+
+	BloblobberChildProjectile: {
+		DisplayName: Bloblobber Child Projectile
+	}
+
+	StarFisherBlastVisual: {
+		DisplayName: Starfish Sniper Blast Visual
+	}
+
+	StarfishedChargerProjectile: {
+		DisplayName: Starfish Sniper Projectile
+	}
+
+	StarfishedChargerBlast: {
+		DisplayName: Starfish Sniper Blast
+	}
+
+	OrderSwingProjectile: {
+		DisplayName: Order Swing Projectile
+	}
+
+	CarbonSwingProjectile: {
+		DisplayName: Carbon Swing Projectile
+	}
+
+	KrakonSwingProjectile: {
+		DisplayName: Krakon Swing Projectile
+	}
+
+	CarbonDecoSwingProjectile: {
+		DisplayName: Carbon Deco Swing Projectile
+	}
+
+	DynamoRollerSwingProjectile: {
+		DisplayName: Dynamo Roller Swing Projectile
+	}
+
+	CarbonRollerSwingProjectile: {
+		DisplayName: Carbon Roller Swing Projectile
+	}
+
+	KrakonRollerSwingProjectile: {
+		DisplayName: Krakon Roller Swing Projectile
+	}
+
+	RollerRollingProjectile: {
+		DisplayName: Roller Rolling Projectile
+	}
+
+	RollerInkProjectile: {
+		DisplayName: Roller Ink Projectile
+	}
+
+	RollerSwingProjectile: {
+		DisplayName: Roller Swing Projectile
+	}
+
+	BrellaMeleeProjectile: {
+		DisplayName: Brella Melee Projectile
+	}
+
+	BrellaShotgunProjectile: {
+		DisplayName: Brella Shotgun Projectile
+	}
+
+	BrellaPelletProjectile: {
+		DisplayName: Brella Pellet Projectile
+	}
+
+	SplatanaStrongSlashProjectile: {
+		DisplayName: Splatana Strong Slash Projectile
+	}
+
+	SplatanaMeleeProjectile: {
+		DisplayName: Splatana Melee Projectile
+	}
+
+	SplatanaChargeProjectile: {
+		DisplayName: Splatana Charge Projectile
+	}
+
+	SplatanaWeakSlashProjectile: {
+		DisplayName: Splatana Weak Slash Projectile
+	}
+
+	GrizzcoDualieBlastProjectile: {
+		DisplayName: Grizzco Dualie Blast Projectile
+	}
+
+	DualieShotProjectile: {
+		DisplayName: Dualie Shot Projectile
+	}
+
+	DualieRollProjectile: {
+		DisplayName: Dualie Roll Projectile
+	}
+
+	RollProjectile: {
+		DisplayName: Roll Projectile
+	}
+
+	FreshQuiverBlast: {
+		DisplayName: Fresh Quiver Blast
+	}
+
+	NozzlenoseShooter: {
+		DisplayName: Nozzlenose Shooter
+	}
+
+	NozzlenoseProjectile: {
+		DisplayName: Nozzlenose Projectile
+	}
+
+	BlasterProjectileV2: {
+		DisplayName: Blaster Projectile V2
+	}
+
+	ExplosionProjectileVisual: {
+		DisplayName: Explosion Projectile Visual
+	}
+
+	InkbrushProjectile: {
+		DisplayName: Inkbrush Projectile
+	}
+
+	SlosherMainProjectile: {
+		DisplayName: Slosher Main Projectile
+	}
+
+	SlosherChildProjectile: {
+		DisplayName: Slosher Child Projectile
+	}
+
+	SlosherProjectile: {
+		DisplayName: Slosher Projectile
+	}
+
+	UltraStampProjectile: {
+		DisplayName: Ultra Stamp Projectile
+	}
+
+	KillerWailTelegraph: {
+		DisplayName: Killer Wail Telegraph
+	}
+
+	KillerWailProjectile: {
+		DisplayName: Killer Wail Projectile
+	}
+
+	KillerWailShooter: {
+		DisplayName: Killer Wail Shooter
+	}
+
+	Dot52GalProjectile: {
+		DisplayName: Dot52 Gal Projectile
+	}
+
+	TrizookaShooter: {
+		DisplayName: Trizooka Shooter
+	}
+
+	TrizookaProjectile: {
+		DisplayName: Trizooka Projectile
+	}
+
+	SprinklerProjectile: {
+		DisplayName: Sprinkler Projectile
+	}
+
+	SprinklerSentry: {
+		DisplayName: Sprinkler Sentry
+	}
+
+	AngleShooterProjectile: {
+		DisplayName: Angle Shooter Projectile
+	}
+
+	BurstBombProjectile: {
+		DisplayName: Burst Bomb Projectile
+	}
+
+	BaseBombProjectile: {
+		DisplayName: Base Bomb Projectile
+	}
+
+	SplatBombProjectile: {
+		DisplayName: Splat Bomb Projectile
+	}
+
+	HeavySplatlingProjectile: {
+		DisplayName: Heavy Splatling Projectile
+	}
+
+	GrizzcoChargerProjectile: {
+		DisplayName: Grizzco Charger Projectile
+	}
+
+	HeavySplatlingCharge: {
+		DisplayName: Heavy Splatling Charge
+	}
+
+	BaseChargeProjectile: {
+		DisplayName: Base Charge Projectile
+	}
+
+	ReefluxStringerCharge: {
+		DisplayName: Reeflux Stringer Charge
+	}
+
+	GrizzcoStringerCharge: {
+		DisplayName: Grizzco Stringer Charge
+	}
+
+	TriStringerProjectileWeak: {
+		DisplayName: Tri Stringer Projectile Weak
+	}
+
+	TriStringerProjectile: {
+		DisplayName: Tri Stringer Projectile
+	}
+
+	TriStringerCharge: {
+		DisplayName: Tri Stringer Charge
+	}
+
+	LunaBlasterProjectile: {
+		DisplayName: Luna Blaster Projectile
+	}
+
+	BaseProjectile: {
+		DisplayName: Base Projectile
+	}
+
+	BambooChargerProjectile: {
+		DisplayName: Bamboo Charger Projectile
+	}
+
+	EliterChargerProjectile: {
+		DisplayName: Eliter Charger Projectile
+	}
+
+	SplatChargerProjectile: {
+		DisplayName: Splat Charger Projectile
+	}
+
+	RapidBlasterProjectile: {
+		DisplayName: Rapid Blaster Projectile
+	}
+
+	BlasterProjectile: {
+		DisplayName: Blaster Projectile
+	}
+
+	SplattershotProjectile: {
+		DisplayName: Splattershot Projectile
+	}
+}
+
+Items: {
+	UrchinEmblem: {
+		Tooltip: ""
+		DisplayName: ウニのエンブレム 
+		Flavor: Mods.AchiSplatoon2.Items.UrchinEmblem.Flavor
+		UsageHint: 泳ぎフォームでジャンプするたびに、周囲の敵にダメージを与える
+	}
+
+	GoldHiHorses: {
+	Tooltip: "インクタンクが満タンのとき、移動速度が{0}%増加"
+	DisplayName: ゴールドハイホース
+	Flavor: 最高の時間を過ごせるよ！
+	UsageHint: Mods.AchiSplatoon2.Items.GoldHiHorses.UsageHint
+}
+
+WoodenBrush: {
+	Tooltip: ""
+	DisplayName: 木製ブラシ
+	Flavor: Mods.AchiSplatoon2.Items.WoodenBrush.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.WoodenBrush.UsageHint
+}
+
+WoodenStringer: {
+	Tooltip: ""
+	DisplayName: 木製ストリンガー
+	Flavor: Mods.AchiSplatoon2.Items.WoodenStringer.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.WoodenStringer.UsageHint
+}
+
+DesertBrushB: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: ミラージュダスター
+	Flavor: Mods.AchiSplatoon2.Items.DesertBrushB.Flavor
+	UsageHint: 貫通する風の斬撃を放つ
+}
+
+GrimRangeBlaster: {
+	Tooltip: ""
+	DisplayName: グリムレンジブラスター
+	Flavor: Mods.AchiSplatoon2.Items.GrimRangeBlaster.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.GrimRangeBlaster.UsageHint
+}
+
+Squeezer: {
+	Tooltip: ""
+	DisplayName: スクイーザー
+	Flavor: シャンパンのシャワー！
+	UsageHint: カーソルの距離によって異なる射撃を行う
+}
+
+SuperSaverEmblem: {
+	Tooltip:
+		'''
+		メインウェポンのインク消費量を{0}%削減
+		サブウェポンのインク消費量を{1}%削減
+		HPが低いときにラストディッチエフォートが発動
+		'''
+	DisplayName: インク節約エンブレム
+	Flavor: Mods.AchiSplatoon2.Items.SuperSaverEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SuperSaverEmblem.UsageHint
+}
+
+SquidbeakCloak: {
+	Tooltip:
+		'''
+		サブウェポンのダメージを{0}%増加
+		スペシャルウェポンのダメージを{1}%増加
+		スペシャルウェポンのチャージ速度を{2}%増加
+		メインウェポンのインク消費量を{3}%削減
+		サブウェポンのインク消費量を{4}%削減
+		HPが低いときにラストディッチエフォートが発動
+		'''
+	DisplayName: ヒーロークローク
+	Flavor: オクタリアンがやってくる！
+	UsageHint: Mods.AchiSplatoon2.Items.SquidbeakCloak.UsageHint
+}
+
+DreadWringer: {
+	Tooltip: ""
+	DisplayName: ドレッドリンガー
+	Flavor: スライダーの呪い…
+	UsageHint: 追加で1回スロッシュする
+}
+
+ShimmerOrderSplatling: {
+	Tooltip: ""
+	DisplayName: ピュアスプラトリング
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderSplatling.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderSplatana: {
+	Tooltip: ""
+	DisplayName: ピュアスプラタナ
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderSplatana.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderSlosher: {
+	Tooltip: ""
+	DisplayName: ピュアスロッシャー
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderSlosher.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderShot: {
+	Tooltip: ""
+	DisplayName: ピュアスプラッターショット
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderShot.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderRoller: {
+	Tooltip: ""
+	DisplayName: ピュアローラー
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderRoller.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderDualie: {
+	Tooltip: ""
+	DisplayName: ピュアデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderDualie.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderCharger: {
+	Tooltip: ""
+	DisplayName: ピュアチャージャー
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderCharger.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderBrush: {
+	Tooltip: ""
+	DisplayName: ピュアブラシ
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderBrush.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderBrella: {
+	Tooltip: ""
+	DisplayName: ピュアブレラ
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderBrella.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderStringer: {
+	Tooltip: ""
+	DisplayName: ピュアストリンガー
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderStringer.Flavor
+	UsageHint: インクを消費しない
+}
+
+ShimmerOrderBlaster: {
+	Tooltip: ""
+	DisplayName: ピュアブラスター
+	Flavor: Mods.AchiSplatoon2.Items.ShimmerOrderBlaster.Flavor
+	UsageHint: インクを消費しない
+}
+
+EmpressInkTank: {
+	Tooltip: "インク容量を{0}%増加"
+	DisplayName: クロマチックインクタンク
+	Flavor: 私のターン！
+	UsageHint: クリティカルダメージを与えると、追加のホーミング弾が生成される
+}
+
+InkfinityEmblem: {
+	Tooltip: ""
+	DisplayName: インクフィニティエンブレム
+	Flavor: Mods.AchiSplatoon2.Items.InkfinityEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkfinityEmblem.UsageHint
+}
+
+PointSensor: {
+	Tooltip: "マークされた敵がクリティカルダメージを受ける確率を{0}%増加"
+	DisplayName: ポイントセンサー
+	Flavor: やっちゃえ、ガールズ！
+	UsageHint: 敵をマークし、ルートを明らかにする
+}
+
+SorcererLocket: {
+	Tooltip: "マジックダメージを{0}%増加"
+	DisplayName: エンチャントロケット
+	Flavor: Mods.AchiSplatoon2.Items.SorcererLocket.Flavor
+	UsageHint: マジックダメージボーナスがすべてのインクベースの武器に適用される
+}
+
+SubSaverEmblem: {
+	Tooltip: "サブウェポンのインク消費量を{0}%削減"
+	DisplayName: インクセーバーエンブレム（サブ）
+	Flavor: Mods.AchiSplatoon2.Items.SubSaverEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SubSaverEmblem.UsageHint
+}
+
+MainSaverEmblem: {
+	Tooltip: "メインウェポンのインク消費量を{0}%削減"
+	DisplayName: インクセーバーエンブレム（メイン）
+	Flavor: Mods.AchiSplatoon2.Items.MainSaverEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.MainSaverEmblem.UsageHint
+}
+
+SkySplatanaB: {
+	Tooltip: ""
+	DisplayName: サクラブレード
+	Flavor: Mods.AchiSplatoon2.Items.SkySplatanaB.Flavor
+	UsageHint: フルチャージ時に周囲に大きな斬撃を行う
+}
+
+OrderDualie: {
+	Tooltip: ""
+	DisplayName: オーダーデュアリー
+	Flavor: 謙虚な始まり
+	UsageHint: 攻撃中に右クリックでドッジロール。静止すると強力な攻撃が可能（ドッジロールは{0}回）
+}
+
+OrderEmblem: {
+	Tooltip: ""
+	DisplayName: オーダーエンブレム
+	Flavor: Mods.AchiSplatoon2.Items.OrderEmblem.Flavor
+	UsageHint: オーダーウェポンのダメージを{0}%増加
+}
+
+OrderSlosher: {
+	Tooltip: ""
+	DisplayName: オーダースロッシャー
+	Flavor: 謙虚な始まり
+	UsageHint: 広範囲をカバーするインクの塊を投げる
+}
+
+OrderSplatling: {
+	Tooltip: ""
+	DisplayName: オーダースプラトリング
+	Flavor: 謙虚な始まり
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+}
+
+OrderSplatana: {
+	Tooltip: ""
+	DisplayName: オーダースプラタナ
+	Flavor: 謙虚な始まり
+	UsageHint: 左クリックを長押しして遠距離の貫通斬撃をチャージ
+}
+
+SkySplatana: {
+	Tooltip: ""
+	DisplayName: ゼファーブレード
+	Flavor: Mods.AchiSplatoon2.Items.SkySplatana.Flavor
+	UsageHint: フルチャージ時に周囲に大きな斬撃を行う
+}
+
+GolemSplatana: {
+	Tooltip: ""
+	DisplayName: サンクレーバー
+	Flavor: M.C.プリンセスは彼女だった？
+	UsageHint: フルチャージ時に周囲に巨大な炎の斬撃を放つ
+}
+
+DropletLocket: {
+	Tooltip: "マジックダメージを{0}%増加"
+	DisplayName: インクドロップロケット
+	Flavor: Mods.AchiSplatoon2.Items.DropletLocket.Flavor
+	UsageHint: マジックダメージボーナスがすべてのインクベースの武器に適用される
+}
+
+HoneyInkTank: {
+	Tooltip: "インク容量を{0}%増加"
+	DisplayName: バンブルインクタンク
+	Flavor: Mods.AchiSplatoon2.Items.HoneyInkTank.Flavor
+	UsageHint: インクドロップレットを収集すると、一時的にHP再生速度が増加
+}
+
+FlowerInkTank: {
+	Tooltip:
+		'''
+		インク容量を{0}%増加
+		マナシックネスがある場合、記載の効果は無効
+		'''
+	DisplayName: フローラルインクタンク
+	Flavor: Mods.AchiSplatoon2.Items.FlowerInkTank.Flavor
+	UsageHint: インク容量が半分以下のとき、{0}マナを消費して補充
+}
+
+DocumentationStaff: {
+	Tooltip: ""
+	DisplayName: ドキュメンテーションスタッフ
+	Flavor: Mods.AchiSplatoon2.Items.DocumentationStaff.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.DocumentationStaff.UsageHint
+}
+
+Tacticooler: {
+	Tooltip: ""
+	DisplayName: タクティクーラー
+	Flavor: メタを定義！
+	UsageHint: ドリンクディスペンサーを展開し、自分や他のプレイヤーにバフを付与
+}
+
+Inkzooka: {
+	Tooltip: ""
+	Flavor: 自由に撃て！
+	UsageHint: インクトルネードを最大{0}回発射し、敵や地形を貫通
+}
+
+BombRush: {
+	Tooltip: ""
+	Flavor: パールドローンも鼓舞する
+	UsageHint: 一時的にサブウェポンがインクを消費せず、ダメージを{0}%増加（ボーナス後乗算）
+}
+
+SpecialChargeGun: {
+	Tooltip: ""
+	DisplayName: スペシャルチャージガン
+	Flavor: Mods.AchiSplatoon2.Items.SpecialChargeGun.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SpecialChargeGun.UsageHint
+}
+
+KensaSplattershotJr: {
+	Tooltip: ""
+	DisplayName: ケンサスプラッターショットJr.
+	Flavor: Mods.AchiSplatoon2.Items.KensaSplattershotJr.Flavor
+	UsageHint: 装備中にインク容量を{0}%増加
+}
+
+HoneyScepterSupreme: {
+	Tooltip: ""
+	Flavor: 変身は含まれていません。
+	DisplayName: ハニーセプターシュプリーム
+	UsageHint: Mods.AchiSplatoon2.Items.HoneyScepterSupreme.UsageHint
+}
+
+LaserAddon: {
+	Tooltip: "インク容量を{0}%減少（ボーナス後乗算）"
+	DisplayName: アイレーザーアドオン
+	Flavor: Mods.AchiSplatoon2.Items.LaserAddon.Flavor
+	UsageHint: パールドローンのスプリンクラー攻撃がレーザーに置き換わり、敵を貫通し、発射速度が向上
+}
+
+SlimeSplattershotB: {
+	Tooltip: ""
+	DisplayName: ロイヤルグループショット
+	Flavor: Mods.AchiSplatoon2.Items.SlimeSplattershotB.Flavor
+	UsageHint: 跳ねるインクの塊を発射
+}
+
+CorruptionBrellaB: {
+	Tooltip: ""
+	DisplayName: ウィザーブレラ
+	Flavor: Mods.AchiSplatoon2.Items.CorruptionBrellaB.Flavor
+	UsageHint: 敵に毒を付与。壊れていても近接攻撃可能
+}
+
+CoralStringerB: {
+	Tooltip: ""
+	DisplayName: コーラルソング
+	Flavor: Mods.AchiSplatoon2.Items.CoralStringerB.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.CoralStringerB.UsageHint
+}
+
+CoralStringer: {
+	Tooltip: ""
+	DisplayName: コーラルハープ
+	Flavor: Mods.AchiSplatoon2.Items.CoralStringer.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.CoralStringer.UsageHint
+}
+
+LastDitchEffortEmblem: {
+	Tooltip: "HPが{0}%以下のとき、武器のインク消費量を{1}%削減"
+	DisplayName: ラストディッチエフォートエンブレム
+	Flavor: Mods.AchiSplatoon2.Items.LastDitchEffortEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.LastDitchEffortEmblem.UsageHint
+}
+
+InkCrystal: {
+	Tooltip: "インク容量を永久に{0}%増加（最大{1}回）"
+	DisplayName: リキッドクリスタル
+	Flavor: 人間の思考や感情に反応する。
+	UsageHint: Mods.AchiSplatoon2.Items.InkCrystal.UsageHint
+}
+
+SplattershotPro: {
+	Tooltip: ""
+	DisplayName: スプラッターショットプロ
+	Flavor: Mods.AchiSplatoon2.Items.SplattershotPro.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SplattershotPro.UsageHint
+}
+
+ForgeSplattershotPro: {
+	Tooltip: ""
+	DisplayName: フォージスプラッターショットプロ
+	Flavor: Mods.AchiSplatoon2.Items.ForgeSplattershotPro.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.ForgeSplattershotPro.UsageHint
+}
+
+ClashBlasterNeo: {
+	Tooltip: ""
+	DisplayName: クラッシュブラスターネオ
+	Flavor: Mods.AchiSplatoon2.Items.ClashBlasterNeo.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.ClashBlasterNeo.UsageHint
+}
+
+ClashBlaster: {
+	Tooltip: ""
+	DisplayName: クラッシュブラスター
+	Flavor: 戦うのがめっちゃ面倒！
+	UsageHint: Mods.AchiSplatoon2.Items.ClashBlaster.UsageHint
+}
+
+CorruptionBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: プレイグブレラ
+	Flavor: Mods.AchiSplatoon2.Items.CorruptionBrella.Flavor
+	UsageHint: 敵に毒を付与。壊れていても近接攻撃可能
+}
+
+StarterSplatBomb: {
+	Tooltip: ""
+	DisplayName: スプラットボムJr.
+	Flavor: Mods.AchiSplatoon2.Items.StarterSplatBomb.Flavor
+	UsageHint: 地面に着弾後すぐに爆発
+}
+
+InkTankDroplet: {
+	Tooltip: ""
+	DisplayName: インクドロップレット
+	Flavor: Mods.AchiSplatoon2.Items.InkTankDroplet.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkTankDroplet.UsageHint
+}
+
+InkDroplet: {
+	Tooltip: ""
+	DisplayName: 黒インクの雫
+	Flavor: Mods.AchiSplatoon2.Items.InkDroplet.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkDroplet.UsageHint
+}
+
+InkRegenerationPotion: {
+	Tooltip: "泳ぎフォームの回復速度に合わせてインク回復を強化"
+	DisplayName: インク再生ポーション
+	Flavor: Mods.AchiSplatoon2.Items.InkRegenerationPotion.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkRegenerationPotion.UsageHint
+}
+
+InkCapacityPotion: {
+	Tooltip: "一時的にインク容量を{0}%増加"
+	DisplayName: インク容量ポーション
+	Flavor: Mods.AchiSplatoon2.Items.InkCapacityPotion.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkCapacityPotion.UsageHint
+}
+
+InkTank: {
+	Tooltip: "インク容量を{0}%増加"
+	DisplayName: インクタンク
+	Flavor: Mods.AchiSplatoon2.Items.InkTank.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.InkTank.UsageHint
+}
+
+EnchantedInkTank: {
+	Tooltip: "インク容量を{0}%増加"
+	DisplayName: エンチャントインクタンク
+	Flavor: Mods.AchiSplatoon2.Items.EnchantedInkTank.Flavor
+	UsageHint: インクベースの弾が液体を通過可能
+}
+
+HoneyScepter: {
+	Tooltip: ""
+	DisplayName: ハニーセプター
+	Flavor: スプラトゥーンの武器じゃない。トースター用！
+	UsageHint: Mods.AchiSplatoon2.Items.HoneyScepter.UsageHint
+}
+
+EightBoots: {
+	Tooltip: ""
+	DisplayName: エイトブーツレプリカ
+	UsageHint: Mods.AchiSplatoon2.Items.EightBoots.UsageHint
+	Flavor: ナー、ナナナナナ！
+}
+
+EightMask: {
+	Tooltip: ""
+	DisplayName: エイトマスクレプリカ
+	UsageHint: Mods.AchiSplatoon2.Items.EightMask.UsageHint
+	Flavor: またビルに帰ってきたぜ！
+}
+
+EightSuit: {
+	Tooltip: ""
+	DisplayName: エイトスーツレプリカ
+	UsageHint: Mods.AchiSplatoon2.Items.EightSuit.UsageHint
+	Flavor: 新品同様、シミ一つない！
+}
+
+NetcodeInspector: {
+	Tooltip: ""
+	DisplayName: ネットコードインスペクター
+	Flavor: Mods.AchiSplatoon2.Items.NetcodeInspector.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.NetcodeInspector.UsageHint
+}
+
+ChargedBattery: {
+	Tooltip: "武器のチャージ速度を{0}%増加"
+	DisplayName: チャージドバッテリー
+	Flavor: Mods.AchiSplatoon2.Items.ChargedBattery.Flavor
+	UsageHint: 空中でも武器がフルスピードでチャージ
+}
+
+CustomHydraSplatling: {
+	Tooltip: ""
+	DisplayName: カスタムハイドラントスプラトリング
+	Flavor: Mods.AchiSplatoon2.Items.CustomHydraSplatling.Flavor
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+}
+
+HallowedLootBag: {
+	Tooltip: "右クリックで開く"
+	DisplayName: ハロウドスプラッシュバッグ
+}
+
+CrimsonLootBag: {
+	Tooltip: "右クリックで開く"
+	DisplayName: クリムゾンスプラッシュバッグ
+}
+
+CorruptLootBag: {
+	Tooltip: "右クリックで開く"
+	DisplayName: コラプトスプラッシュバッグ
+	Flavor: Mods.AchiSplatoon2.Items.OrderBag.Flavor
+}
+
+DroneDiscDowngrade: {
+	Tooltip: ""
+	DisplayName: タイプXドローンダウングレードディスク
+	Flavor: Mods.AchiSplatoon2.Items.DroneDiscDowngrade.Flavor
+	UsageHint: 注意！パールドローンのレベルを1にリセット。
+}
+
+DroneDiscC: {
+	Tooltip: ""
+	DisplayName: タイプCドローンアップグレードディスク
+	Flavor: Mods.AchiSplatoon2.Items.DroneDiscC.Flavor
+	UsageHint: パールドローンのレベルを+1し、永久にダメージを増加。このディスクは1回のみ使用可能
+}
+
+DroneDiscB: {
+	Tooltip: ""
+	DisplayName: タイプBドローンアップグレードディスク
+	Flavor: Mods.AchiSplatoon2.Items.DroneDiscB.Flavor
+	UsageHint: パールドローンのレベルを+1し、永久にダメージを増加。このディスクは1回のみ使用可能
+}
+
+DroneDiscA: {
+	Tooltip: ""
+	DisplayName: タイプAドローンアップグレードディスク
+	Flavor: Mods.AchiSplatoon2.Items.DroneDiscA.Flavor
+	UsageHint: パールドローンのレベルを+1し、永久にダメージを増加。このディスクは1回のみ使用可能
+}
+
+DroneDiscBase: {
+	Tooltip: ""
+	DisplayName: ドローンディスクベース
+	Flavor: Mods.AchiSplatoon2.Items.DroneDiscBase.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.DroneDiscBase.UsageHint
+}
+
+PearlDroneStaff: {
+	Tooltip: ""
+	DisplayName: パールドローンテストスタッフ
+}
+
+SquidBoomerang: {
+	Tooltip: ""
+	DisplayName: ウーメラン
+	Flavor: これはバカバカしい
+	UsageHint: Mods.AchiSplatoon2.Items.SquidBoomerang.UsageHint
+}
+
+OrderBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: オーダーブレラ
+	Flavor: 謙虚な始まり
+	UsageHint: Mods.AchiSplatoon2.Items.OrderBrella.UsageHint
+}
+
+OrderBlaster: {
+	Tooltip: ""
+	DisplayName: オーダーブラスター
+	Flavor: 謙虚な始まり
+	UsageHint: Mods.AchiSplatoon2.Items.OrderBlaster.UsageHint
+}
+
+CustomWellstring: {
+	Tooltip: ""
+	DisplayName: カスタムウェルストリングV
+	Flavor: Mods.AchiSplatoon2.Items.CustomWellstring.Flavor
+	UsageHint: フルチャージ時に爆発的なショットの広いボレーを発射
+}
+
+MartianBrella: {
+	Tooltip: ""
+	DisplayName: スパークブレラ
+	Flavor: Mods.AchiSplatoon2.Items.MartianBrella.Flavor
+	UsageHint: シールドがダメージを受けると、大きな雷撃を発射
+}
+
+Wellstring: {
+	Tooltip: ""
+	DisplayName: ウェルストリングV
+	Flavor: Mods.AchiSplatoon2.Items.Wellstring.Flavor
+	UsageHint: フルチャージ時に爆発的なショットの広いボレーを発射
+}
+
+SpookyBrush: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: ヘキシングブルーム
+	Flavor: ほうきって、ただの特大ブラシじゃない？
+	UsageHint: 壁で跳ねる魔法の弾を発射
+}
+
+IceStringer: {
+	Tooltip: ""
+	DisplayName: シバリングストリンガー
+	Flavor: 舐めないで！
+	UsageHint: 左クリックを長押しして貫通ショットをチャージ、氷の破片を放出
+}
+
+PainBrushNouveau: {
+	Tooltip: ""
+	DisplayName: ペインブラシヌーボー
+	Flavor: Mods.AchiSplatoon2.Items.PainBrushNouveau.Flavor
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+PainBrush: {
+	Tooltip: ""
+	DisplayName: ペインブラシ
+	Flavor: Mods.AchiSplatoon2.Items.PainBrush.Flavor
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+CustomSplattershotJr: {
+	Tooltip: ""
+	DisplayName: カスタムスプラッターショットJr.
+	Flavor: Mods.AchiSplatoon2.Items.CustomSplattershotJr.Flavor
+	UsageHint: 装備中にインク容量を{0}%増加
+}
+
+SplattershotJr: {
+	Tooltip: ""
+	DisplayName: スプラッターショットJr.
+	Flavor: Mods.AchiSplatoon2.Items.SplattershotJr.Flavor
+	UsageHint: 装備中にインク容量を{0}%増加
+}
+
+Torpedo: {
+	Tooltip: ""
+	DisplayName: トルピード
+	Flavor: Mods.AchiSplatoon2.Items.Torpedo.Flavor
+	UsageHint: 最寄りの敵にロックオンし、可能なら混乱させる。小さな爆発ペレットに爆発
+}
+
+InkMine: {
+	Tooltip: "マークされた敵がクリティカルダメージを受ける確率を{0}%増加"
+	DisplayName: インクマイン
+	Flavor: Mods.AchiSplatoon2.Items.InkMine.Flavor
+	UsageHint: 敵が近づくと遅延後に爆発し、マークする
+}
+
+NebulaStringer: {
+	Tooltip: ""
+	DisplayName: スタータッチドストリンガー
+	Flavor: Mods.AchiSplatoon2.Items.NebulaStringer.Flavor
+	UsageHint: 左クリックを長押ししてホーミングスターのボレーをチャージ
+}
+
+VortexDualie: {
+	Tooltip: ""
+	DisplayName: インターステラーデュアリー
+	Flavor: 一日中踊れるぜ、撃ってみな！
+	UsageHint: ドッジロールを{0}回実行可能。単なるローリングではなく、指定方向に素早く移動
+}
+
+PainterDualie: {
+	Tooltip: ""
+	DisplayName: ペイントボールデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.PainterDualie.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.PainterDualie.UsageHint
+}
+
+Explosher: {
+	Tooltip: ""
+	DisplayName: エクスプロッシャー
+	Flavor: Mods.AchiSplatoon2.Items.Explosher.Flavor
+	UsageHint: 壁に当たると爆発する貫通弾を投げる
+}
+
+Dot96Gal: {
+	Tooltip: ""
+	DisplayName: .96ガロン
+	Flavor: 96の無抵抗ダメージはちょっと多すぎ
+	UsageHint: 遠距離ダメージを常に{0}与え、ダメージボーナスと敵の防御を無視
+}
+
+HeroShot: {
+	Tooltip: ""
+	DisplayName: ヒーローショット
+	Flavor: 俺がキャプテンだ！
+	UsageHint: Mods.AchiSplatoon2.Items.HeroShot.UsageHint
+}
+
+DualieSquelcher: {
+	Tooltip: ""
+	DisplayName: デュアリースクエルチャー
+	Flavor: Mods.AchiSplatoon2.Items.DualieSquelcher.Flavor
+	UsageHint: ローリング後のダメージ増加なし、移動ペナルティもなし
+}
+
+DappleDualieNouveau: {
+	Tooltip: ""
+	DisplayName: ダップルデュアリーヌーボー
+	Flavor: Mods.AchiSplatoon2.Items.DappleDualieNouveau.Flavor
+	UsageHint: ドッジロールを{0}回実行可能。ロール後に静止で強力な攻撃
+}
+
+EelSplatana: {
+	Tooltip: ""
+	DisplayName: モーレイクレイモア
+	UsageHint: フルチャージ時にウナギを発射する旋風を召喚
+	Flavor: シズルと言え！
+}
+
+SuperPaletteRightPart: {
+	Tooltip: ""
+	DisplayName: Rタイプカメラスティック
+	Flavor: Mods.AchiSplatoon2.Items.SuperPaletteRightPart.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SuperPaletteRightPart.UsageHint
+}
+
+SuperPaletteMiddlePart: {
+	Tooltip: ""
+	DisplayName: 発光ディスプレイ
+	Flavor: Mods.AchiSplatoon2.Items.SuperPaletteMiddlePart.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SuperPaletteMiddlePart.UsageHint
+}
+
+SuperPaletteLeftPart: {
+	Tooltip: ""
+	DisplayName: Lタイプモーションスティック
+	Flavor: Mods.AchiSplatoon2.Items.SuperPaletteLeftPart.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SuperPaletteLeftPart.UsageHint
+}
+
+SuperPalette: {
+	Tooltip: ""
+	DisplayName: デジタルパレット
+	Flavor: Mods.AchiSplatoon2.Items.SuperPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SuperPalette.UsageHint
+}
+
+Snipewriter5B: {
+	Tooltip: ""
+	DisplayName: スナイプライター5B
+	Flavor: Mods.AchiSplatoon2.Items.Snipewriter5B.Flavor
+	UsageHint: 左クリックを長押しして高速ショットを複数チャージ
+}
+
+Snipewriter5H: {
+	Tooltip: ""
+	DisplayName: スナイプライター5H
+	Flavor: 貧乏から大金持ちへ
+	UsageHint: 左クリックを長押しして高速ショットを複数チャージ
+}
+
+LuckyBombGun: {
+	Tooltip: ""
+	DisplayName: ラッキーボムテストガン
+	Flavor: Mods.AchiSplatoon2.Items.LuckyBombGun.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.LuckyBombGun.UsageHint
+}
+
+TriSlosherNouveau: {
+	Tooltip: ""
+	DisplayName: トリスロッシャーヌーボー
+	Flavor: Mods.AchiSplatoon2.Items.TriSlosherNouveau.Flavor
+	UsageHint: 広範囲をカバーするインクの塊を投げる
+}
+
+TriSlosher: {
+	Tooltip: ""
+	DisplayName: トリスロッシャー
+	Flavor: スキルいらず！
+	UsageHint: 広範囲をカバーするインクの塊を投げる
+}
+
+HypnoShades: {
+	Tooltip: "サブウェポンのインク消費量を{0}%削減"
+	DisplayName: カリーのヒプノシェード
+	Flavor: ボム！ラッシュ！ブラッシュ！
+	UsageHint: サブウェポンの使用速度が向上
+}
+
+SBlast91: {
+	Tooltip: ""
+	DisplayName: Sブラスト'91
+	Flavor: 信じて、これがメタを席巻するよ！
+	UsageHint: 地面に立っている/動いていない場合、ダメージと射程が増加、爆発範囲が減少
+}
+
+BloblobberDeco: {
+	Tooltip: ""
+	DisplayName: ブロブロバーデコ
+	Flavor: Mods.AchiSplatoon2.Items.BloblobberDeco.Flavor
+	UsageHint: 壁で跳ねる泡の流れを投げる
+}
+
+SplooshOMaticNeo: {
+	Tooltip: ""
+	DisplayName: ネオスプルーシュオーマチック
+	Flavor: Mods.AchiSplatoon2.Items.SplooshOMaticNeo.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SplooshOMaticNeo.UsageHint
+}
+
+SplashOMaticNeo: {
+	Tooltip: ""
+	DisplayName: ネオスプラッシュオーマチック
+	Flavor: Mods.AchiSplatoon2.Items.SplashOMaticNeo.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SplashOMaticNeo.UsageHint
+}
+
+LightTetraDualie: {
+	Tooltip: ""
+	DisplayName: ライトテトラデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.LightTetraDualie.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.LightTetraDualie.UsageHint
+}
+
+CustomDouserDualie: {
+	Tooltip: ""
+	DisplayName: カスタムダウザーデュアリーFF
+	Flavor: Mods.AchiSplatoon2.Items.CustomDouserDualie.Flavor
+	UsageHint: ドッジロールは1回、ロールしない場合射程が増加
+}
+
+RecycleBrellaMk2: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: リサイクルブレラ24 Mk II
+	Flavor: Mods.AchiSplatoon2.Items.RecycleBrellaMk2.Flavor
+	UsageHint: シールドは弱いが、回復が速い
+}
+
+SplatanaWiperDeco: {
+	Tooltip: ""
+	DisplayName: スプラタナワイパーデコ
+	Flavor: Mods.AchiSplatoon2.Items.SplatanaWiperDeco.Flavor
+	UsageHint: 左クリックを長押しして遠距離の貫通斬撃をチャージ
+}
+
+FreshSquiffer: {
+	Tooltip: ""
+	DisplayName: フレッシュスクイファー
+	Flavor: Mods.AchiSplatoon2.Items.FreshSquiffer.Flavor
+	UsageHint: 空中でのチャージ時間ペナルティなし
+}
+
+DesertBrush: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: デザートダスター
+	Flavor: Mods.AchiSplatoon2.Items.DesertBrush.Flavor
+	UsageHint: 貫通する風の斬撃を放つ
+}
+
+SlimeSplattershot: {
+	Tooltip: ""
+	DisplayName: グループショット
+	Flavor: Mods.AchiSplatoon2.Items.SlimeSplattershot.Flavor
+	UsageHint: 跳ねるインクの塊を発射
+}
+
+OrderBag: {
+	Tooltip: "右クリックで開く"
+	DisplayName: オーダースターターバッグ
+	Flavor: Mods.AchiSplatoon2.Items.OrderBag.Flavor
+	UsageHint: オーダーショット、パレット、カラーチップを入手
+}
+
+SBlast92: {
+	Tooltip: ""
+	DisplayName: Sブラスト'92
+	Flavor: これがメタを席巻する！
+	UsageHint: 地面に立っている/動いていない場合、ダメージと射程が増加、爆発範囲が減少
+}
+
+KensaLunaBlaster: {
+	Tooltip: ""
+	DisplayName: ケンサルナブラスター
+	UsageHint: 壁に当たると爆発が小さくなる
+	Flavor: Mods.AchiSplatoon2.Items.KensaLunaBlaster.Flavor
+}
+
+KensaRapidBlaster: {
+	Tooltip: ""
+	DisplayName: ケンサラピッドブラスター
+	UsageHint: 壁に当たると爆発が小さくなる
+	Flavor: Mods.AchiSplatoon2.Items.KensaRapidBlaster.Flavor
+}
+
+KensaReefluxStringer: {
+	Tooltip: ""
+	DisplayName: ケンサリーフラックス450
+	UsageHint: 左クリックを長押ししてショットのボレーをチャージ
+	Flavor: Mods.AchiSplatoon2.Items.KensaReefluxStringer.Flavor
+}
+
+KensaUndercoverBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: ケンサアンダーカバーブレラ
+	UsageHint: シールドは弱いが、敵を倒すと即座に回復
+	Flavor: Mods.AchiSplatoon2.Items.KensaUndercoverBrella.Flavor
+}
+
+KensaOctobrush: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: ケンサオクトブラシ
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+	Flavor: Mods.AchiSplatoon2.Items.KensaOctobrush.Flavor
+}
+
+KensaSplatCharger: {
+	Tooltip: ""
+	DisplayName: ケンサスプラチャージャー
+	UsageHint: 左クリックを長押しして貫通ショットをチャージ
+	Flavor: Mods.AchiSplatoon2.Items.KensaSplatCharger.Flavor
+}
+
+KensaGloogaDualie: {
+	Tooltip: ""
+	DisplayName: ケンサグルーガデュアリー
+	UsageHint: 攻撃中に右クリックでドッジロール。後に静止で強力な攻撃
+	Flavor: Mods.AchiSplatoon2.Items.KensaGloogaDualie.Flavor
+}
+
+KensaSplatDualie: {
+	Tooltip: ""
+	DisplayName: ケンサスプラットデュアリー
+	UsageHint: 攻撃中に右クリックでドッジロール。後に静止で強力な攻撃
+	Flavor: Mods.AchiSplatoon2.Items.KensaSplatDualie.Flavor
+}
+
+KensaDynamoRoller: {
+	Tooltip: ""
+	DisplayName: ケンサダイナモローラー
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+	Flavor: Mods.AchiSplatoon2.Items.KensaDynamoRoller.Flavor
+}
+
+KensaSplatRoller: {
+	Tooltip: ""
+	DisplayName: ケンサスプラットローラー
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+	Flavor: Mods.AchiSplatoon2.Items.KensaSplatRoller.Flavor
+}
+
+KensaDot52Gal: {
+	Tooltip: ""
+	DisplayName: ケンサ.52ガロン
+	UsageHint: 遠距離ダメージを常に{0}与え、ダメージボーナスと敵の防御を無視
+	Flavor: Mods.AchiSplatoon2.Items.KensaDot52Gal.Flavor
+}
+
+KensaL3Nozzlenose: {
+	Tooltip: ""
+	DisplayName: ケンサL3ノズルノーズ
+	UsageHint: 同じターゲットへの連続ヒットでダメージ増加
+	Flavor: Mods.AchiSplatoon2.Items.KensaL3Nozzlenose.Flavor
+}
+
+KensaSplatanaStamper: {
+	Tooltip: ""
+	DisplayName: ケンサスプラタナスタンパー
+	UsageHint: 左クリックを長押しして遠距離の貫通斬撃をチャージ
+	Flavor: Mods.AchiSplatoon2.Items.KensaSplatanaStamper.Flavor
+}
+
+KensaMiniSplatling: {
+	Tooltip: ""
+	DisplayName: ケンサミニスプラトリング
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+	Flavor: Mods.AchiSplatoon2.Items.KensaMiniSplatling.Flavor
+}
+
+GoldDynamoRoller: {
+	Tooltip: ""
+	DisplayName: ゴールドダイナモローラー
+	Flavor: Mods.AchiSplatoon2.Items.GoldDynamoRoller.Flavor
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+CustomEliterCharger: {
+	Tooltip: ""
+	DisplayName: カスタムEリター4K
+	Flavor: Mods.AchiSplatoon2.Items.CustomEliterCharger.Flavor
+	UsageHint: 左クリックを長押しして貫通ショットをチャージ
+}
+
+Bloblobber: {
+	Tooltip: ""
+	DisplayName: ブロブロバー
+	Flavor: Mods.AchiSplatoon2.Items.Bloblobber.Flavor
+	UsageHint: 壁で跳ねる泡の流れを投げる
+}
+
+HydraSplatling: {
+	Tooltip: ""
+	DisplayName: ハイドラントスプラトリング
+	Flavor: Mods.AchiSplatoon2.Items.HydraSplatling.Flavor
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+}
+
+StarfishedCharger: {
+	Tooltip: ""
+	DisplayName: スターフィッシュスナイパー
+	Flavor: Mods.AchiSplatoon2.Items.StarfishedCharger.Flavor
+	UsageHint: フルチャージショットは短い遅延後に爆発を引き起こす
+}
+
+OrderRoller: {
+	Tooltip: ""
+	DisplayName: オーダーローラー
+	Flavor: 謙虚な始まり
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+CarbonRollerDeco: {
+	Tooltip: ""
+	DisplayName: カーボンローラーデコ
+	Flavor: Mods.AchiSplatoon2.Items.CarbonRollerDeco.Flavor
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+DynamoRoller: {
+	Tooltip: ""
+	DisplayName: ダイナモローラー
+	Flavor: Mods.AchiSplatoon2.Items.DynamoRoller.Flavor
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+CarbonRoller: {
+	Tooltip: ""
+	DisplayName: カーボンローラー
+	Flavor: Mods.AchiSplatoon2.Items.CarbonRoller.Flavor
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+KrakonSplatRoller: {
+	Tooltip: ""
+	DisplayName: クラーオンスプラットローラー
+	Flavor: Mods.AchiSplatoon2.Items.KrakonSplatRoller.Flavor
+	UsageHint: 左クリックを長押しして走り、敵を轢く
+}
+
+SplatRoller: {
+	Tooltip: ""
+	DisplayName: スプラットローラー
+	I: Mods.AchiSplatoon2.Items.SplatRoller.UsageHint
+	Flavor: Mods.AchiSplatoon2.Items.SplatRoller.Flavor
+}
+
+BaseRoller: {
+	Tooltip: ""
+	DisplayName: ベースローラー
+	Flavor: Mods.AchiSplatoon2.Items.BaseRoller.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseRoller.UsageHint
+}
+
+RecycleBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: リサイクルブレラ24 Mk I
+	Flavor: バンブーザーとブレラがとても愛し合った結果…
+	UsageHint: シールドは弱いが、回復が速い
+}
+
+UndercoverBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: アンダーカバーブレラ
+	Flavor: Mods.AchiSplatoon2.Items.UndercoverBrella.Flavor
+	UsageHint: シールドは弱いが、敵を倒すと即座に回復
+}
+
+MarinatedNecklace: {
+	Tooltip: ""
+	DisplayName: マリネネックレス
+	Flavor: 人間が本物だったらいいのに。
+	UsageHint: ブレラの回復時間が遅くなるが、回復中の攻撃速度が向上
+}
+
+SorellaSplatBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: ソレラスプラットブレラ
+	Flavor: Mods.AchiSplatoon2.Items.SorellaSplatBrella.Flavor
+	UsageHint: ブレラは攻撃中に保護（壊れるまで！）
+}
+
+PinkSponge: {
+	Tooltip: ""
+	DisplayName: ピンクスポンジ
+	Flavor: 跳ね返してやる！
+	UsageHint: スプラタナのチャージ斬撃は射程が短いが、敵の弾を跳ね返す
+}
+
+SplatBrella: {
+	Tooltip: "インクペレットを{0}発発射"
+	DisplayName: スプラットブレラ
+	Flavor: もう一度陽の目を見るべきだ。
+	UsageHint: ブレラは攻撃中に保護（壊れるまで！）
+}
+
+BaseBrella: {
+	Tooltip: ""
+	DisplayName: ベースブレラ
+	UsageHint: Mods.AchiSplatoon2.Items.BaseBrella.UsageHint
+	Flavor: Mods.AchiSplatoon2.Items.BaseBrella.Flavor
+}
+
+DamageStabilizer: {
+	Tooltip: ""
+	DisplayName: ダメージスタビライザー
+	Flavor: Mods.AchiSplatoon2.Items.DamageStabilizer.Flavor
+	UsageHint: インクベースの武器のダメージは一定でクリティカル不可
+}
+
+ShiverPalette: {
+	Tooltip: ""
+	DisplayName: シバーパレット
+	Flavor: Mods.AchiSplatoon2.Items.ShiverPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.ShiverPalette.UsageHint
+}
+
+SheldonPalette: {
+	Tooltip: ""
+	DisplayName: シェルドンパレット
+	Flavor: Mods.AchiSplatoon2.Items.SheldonPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SheldonPalette.UsageHint
+}
+
+OctavioPalette: {
+	Tooltip: ""
+	DisplayName: DJオクタビオパレット
+	Flavor: Mods.AchiSplatoon2.Items.OctavioPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.OctavioPalette.UsageHint
+}
+
+MurchPalette: {
+	Tooltip: ""
+	DisplayName: マーチパレット
+	Flavor: Mods.AchiSplatoon2.Items.MurchPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.MurchPalette.UsageHint
+}
+
+MariePalette: {
+	Tooltip: ""
+	DisplayName: マリーパレット
+	Flavor: Mods.AchiSplatoon2.Items.MariePalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.MariePalette.UsageHint
+}
+
+FryePalette: {
+	Tooltip: ""
+	DisplayName: フライパレット
+	Flavor: Mods.AchiSplatoon2.Items.FryePalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.FryePalette.UsageHint
+}
+
+EightPalette: {
+	Tooltip: ""
+	DisplayName: エイトパレット
+	Flavor: Mods.AchiSplatoon2.Items.EightPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.EightPalette.UsageHint
+}
+
+CalliePalette: {
+	Tooltip: ""
+	DisplayName: カリーパレット
+	Flavor: Mods.AchiSplatoon2.Items.CalliePalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.CalliePalette.UsageHint
+}
+
+BigManPalette: {
+	Tooltip: ""
+	DisplayName: ビッグマンパレット
+	Flavor: Mods.AchiSplatoon2.Items.BigManPalette.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BigManPalette.UsageHint
+}
+
+SplatanaStamper: {
+	Tooltip: ""
+	DisplayName: スプラタナスタンパー
+	Flavor: Mods.AchiSplatoon2.Items.SplatanaStamper.Flavor
+	UsageHint: 左クリックを長押しして遠距離の貫通斬撃をチャージ
+}
+
+BaseSplatana: {
+	Tooltip: ""
+	DisplayName: ベーススプラタナ
+	Flavor: Mods.AchiSplatoon2.Items.BaseSplatana.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseSplatana.UsageHint
+}
+
+SplatanaWiper: {
+	Tooltip: ""
+	DisplayName: スプラタナワイパー
+	Flavor: Mods.AchiSplatoon2.Items.SplatanaWiper.Flavor
+	UsageHint: 左クリックを長押しして遠距離の貫通斬撃をチャージ
+}
+
+DouserDualie: {
+	Tooltip: ""
+	DisplayName: ダウザーデュアリーFF
+	Flavor: Mods.AchiSplatoon2.Items.DouserDualie.Flavor
+	UsageHint: ドッジロールは1回、ロールしない場合射程が増加
+}
+
+GloogaDualie: {
+	Tooltip: ""
+	DisplayName: グルーガデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.GloogaDualie.Flavor
+	UsageHint: 攻撃中に右クリックでドッジロール。後に静止で強力な攻撃
+}
+
+DappleDualie: {
+	Tooltip: ""
+	DisplayName: ダップルデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.DappleDualie.Flavor
+	UsageHint: ドッジロールを{0}回実行可能。ロール後に静止で強力な攻撃
+}
+
+DarkTetraDualie: {
+	Tooltip: ""
+	DisplayName: ダークテトラデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.DarkTetraDualie.Flavor
+	UsageHint: ドッジロールを{0}回実行可能。ロール中攻撃可能、ロール後の移動ペナルティなし
+}
+
+GrizzcoDualie: {
+	Tooltip: ""
+	DisplayName: グリズコデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.GrizzcoDualie.Flavor
+	UsageHint: ドッジロールを{0}回実行可能。ロール時に爆発を発生
+}
+
+EnperrySplatDualie: {
+	Tooltip: ""
+	DisplayName: エンペリースプラットデュアリー
+	Flavor: Mods.AchiSplatoon2.Items.EnperrySplatDualie.Flavor
+	UsageHint: 攻撃中に右クリックでドッジロール。後に静止で強力な攻撃
+}
+
+SquidClipOns: {
+	Tooltip: ""
+	DisplayName: スクイッドクリップオン
+	Flavor: Mods.AchiSplatoon2.Items.SquidClipOns.Flavor
+	UsageHint: ドッジロールの消費を{0}%削減し、無敵になり、ロール後の移動減速なし
+}
+
+SplatDualie: {
+	Tooltip: ""
+	DisplayName: スプラットデュアリー
+	Flavor: インクカミング！
+	UsageHint: 攻撃中に右クリックでドッジロール。後に静止で強力な攻撃
+}
+
+BaseDualie: {
+	UsageHint: Mods.AchiSplatoon2.Items.BaseDualie.UsageHint
+	Flavor: Mods.AchiSplatoon2.Items.BaseDualie.Flavor
+	DisplayName: ベースデュアリー
+	Tooltip: ""
+}
+
+ClassicSquiffer: {
+	Tooltip: ""
+	DisplayName: クラシックスクイファー
+	Flavor: Mods.AchiSplatoon2.Items.ClassicSquiffer.Flavor
+	UsageHint: 空中でのチャージ時間ペナルティなし
+}
+
+ClassicSplattershotS2: {
+	Tooltip: ""
+	DisplayName: ビンテージスプラッターショット
+	Flavor: オフ・ザ・フック！
+	UsageHint: Mods.AchiSplatoon2.Items.ClassicSplattershotS2.UsageHint
+}
+
+ClassicSplattershotS1: {
+	Tooltip: ""
+	DisplayName: エンシェントスプラッターショット
+	Flavor: フレッシュに！
+	UsageHint: Mods.AchiSplatoon2.Items.ClassicSplattershotS1.UsageHint
+}
+
+AgentCloak: {
+	Tooltip:
+		'''
+		サブウェポンのダメージを{0}%増加
+		スペシャルウェポンのダメージを{1}%増加
+		スペシャルウェポンのチャージ速度を{2}%増加
+		'''
+	DisplayName: インナーエージェントのクローク
+	Flavor: ブーヤ！
+	UsageHint: Mods.AchiSplatoon2.Items.AgentCloak.UsageHint
+}
+
+FieryPaintCan: {
+	Tooltip: ""
+	DisplayName: フレイミンスプレー缶
+	Flavor: Mods.AchiSplatoon2.Items.FieryPaintCan.Flavor
+	UsageHint: 前のブラスターショットが外れた場合、次のダメージを{0}%増加、爆発範囲拡大
+}
+
+TentacularOcular: {
+	Tooltip: "チャージャーのクリティカル率を{0}%増加"
+	DisplayName: テンタキュラーオキュラス
+	Flavor: スティングレイが帰ってきた！
+	UsageHint: フルチャージのチャージャーショットは壁を貫通、ダメージ減少しクリティカルなし
+}
+
+TitaniumCoil: {
+	Tooltip: ""
+	DisplayName: チタニウムコイル
+	Flavor: バケツにコイルが必要な理由って？
+	UsageHint: スロッシャーの攻撃で最初に当たったターゲットのダメージを{0}%増加、以降は{1}%減少
+}
+
+BaseWeaponBoosterAccessory: {
+	Tooltip: ""
+	DisplayName: ベースウェポンブースターアクセサリー
+	Flavor: Mods.AchiSplatoon2.Items.BaseWeaponBoosterAccessory.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseWeaponBoosterAccessory.UsageHint
+}
+
+AdamantiteCoil: {
+	Tooltip: ""
+	DisplayName: アダマンタイトコイル
+	Flavor: バケツにコイルが必要な理由って？
+	UsageHint: スロッシャーの攻撃で最初に当たったターゲットのダメージを{0}%増加、以降は{1}%減少
+}
+
+CrayonBox: {
+	Tooltip: ""
+	DisplayName: クレヨンボックス
+	Flavor: おいしいスナック
+	UsageHint: スプラトリングの精度と速度を向上。敵を倒すとチャージ中の射撃時間延長
+}
+
+FreshQuiver: {
+	Flavor: ニコが勝つ！
+	UsageHint: フルチャージのストリンガーボレーは命中しやすく、全弾命中で爆発
+	Tooltip: ""
+	DisplayName: フレッシュクイバー
+}
+
+H3Nozzlenose: {
+	Tooltip: ""
+	DisplayName: H-3ノズルノーズ
+	Flavor: L-3の兄貴分
+	UsageHint: 同じターゲットへの連続ヒットでダメージ増加
+}
+
+L3Nozzlenose: {
+	Tooltip: ""
+	DisplayName: L-3ノズルノーズ
+	Flavor: Mods.AchiSplatoon2.Items.L3Nozzlenose.Flavor
+	UsageHint: 同じターゲットへの連続ヒットでダメージ増加
+}
+
+JetSquelcher: {
+	Tooltip: ""
+	DisplayName: ジェットスクエルチャー
+	Flavor: Mods.AchiSplatoon2.Items.JetSquelcher.Flavor
+	UsageHint: 超長距離で射撃
+}
+
+OrderCharger: {
+	Tooltip: ""
+	DisplayName: オーダーチャージャー
+	Flavor: 謙虚な始まり
+	UsageHint: 左クリックを長押しして貫通ショットをチャージ
+}
+
+OrderBrush: {
+	Tooltip: ""
+	DisplayName: オーダーブラシ
+	Flavor: 謙虚な始まり
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+OrderStringer: {
+	Tooltip: ""
+	DisplayName: オーダーストリンガー
+	Flavor: 謙虚な始まり
+	UsageHint: 左クリックを長押ししてショットのボレーをチャージ
+}
+
+ZFSplatCharger: {
+	Tooltip: ""
+	DisplayName: Z+Fスプラチャージャー
+	Flavor: Mods.AchiSplatoon2.Items.ZFSplatCharger.Flavor
+	UsageHint: 左クリックを長押しして貫通ショットをチャージ
+}
+
+OctobrushNouveau: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: オクトブラシヌーボー
+	Flavor: Mods.AchiSplatoon2.Items.OctobrushNouveau.Flavor
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+Octobrush: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: オクトブラシ
+	Flavor: Mods.AchiSplatoon2.Items.Octobrush.Flavor
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+BaseBrush: {
+	Tooltip: ""
+	DisplayName: ベースブラシ
+	Flavor: Mods.AchiSplatoon2.Items.BaseBrush.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseBrush.UsageHint
+}
+
+InkbrushNouveau: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: インクブラシヌーボー
+	Flavor: Mods.AchiSplatoon2.Items.InkbrushNouveau.Flavor
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+Inkbrush: {
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: インクブラシ
+	Flavor: 一人でベースを塗れるよ！
+	UsageHint: 攻撃中に右クリックを長押しでスピードブースト
+}
+
+SlosherDeco: {
+	Tooltip: ""
+	DisplayName: スロッシャーデコ
+	Flavor: Mods.AchiSplatoon2.Items.SlosherDeco.Flavor
+	UsageHint: 広範囲をカバーするインクの塊を投げる
+}
+
+BaseSlosher: {
+	Tooltip: ""
+	DisplayName: ベーススロッシャー
+	Flavor: Mods.AchiSplatoon2.Items.BaseSlosher.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseSlosher.UsageHint
+}
+
+Slosher: {
+	Tooltip: ""
+	DisplayName: スロッシャー
+	UsageHint: 広範囲をカバーするインクの塊を投げる
+	Flavor: ほとんど知らない！
+}
+
+UltraStamp: {
+	Tooltip: ""
+	Flavor: おっと、彼はハンマースペースを持ってる！！
+	UsageHint: 振り回している間、敵のダメージを軽減、前方への勢いを強制
+	DisplayName: ウルトラスタンプ
+}
+
+SheldonLicenseSilver: {
+	Flavor: Mods.AchiSplatoon2.Items.SheldonLicenseSilver.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SheldonLicenseSilver.UsageHint
+	Tooltip:
+		'''
+		ハードモードのボスやミミックからよく入手。より優れたスプラトゥーン装備の製作に使用。
+		ガイドに見せて、作れるものを確認！
+		'''
+	DisplayName: シルバーシェルドンライセンス
+}
+
+SheldonLicenseGold: {
+	Flavor: Mods.AchiSplatoon2.Items.SheldonLicenseGold.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SheldonLicenseGold.UsageHint
+	Tooltip:
+		'''
+		エンドゲームボス（ポストプランター）から入手。最高のスプラトゥーン装備の製作に使用。
+		ガイドに見せて、作れるものを確認！
+		'''
+	DisplayName: ゴールデンシェルドンライセンス
+}
+
+SheldonLicense: {
+	UsageHint: Mods.AchiSplatoon2.Items.SheldonLicense.UsageHint
+	Flavor: そのライセンス持ってる？
+	Tooltip:
+		'''
+		プリハードモードのボスからよく入手。基本的なスプラトゥーン装備の製作に使用。
+		ガイドに見せて、作れるものを確認！
+		'''
+	DisplayName: ベーシックシェルドンライセンス
+}
+
+BaseItem: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseItem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseItem.UsageHint
+	Tooltip: ""
+	DisplayName: ベースアイテム
+}
+
+SubPowerEmblem: {
+	Flavor: Mods.AchiSplatoon2.Items.SubPowerEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SubPowerEmblem.UsageHint
+	Tooltip: "サブウェポンのダメージを{0}%増加"
+	DisplayName: サブパワーエンブレム
+}
+
+SpecialPowerEmblem: {
+	Flavor: Mods.AchiSplatoon2.Items.SpecialPowerEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SpecialPowerEmblem.UsageHint
+	Tooltip: "スペシャルウェポンのダメージを{0}%増加"
+	DisplayName: スペシャルパワーエンブレム
+}
+
+SpecialChargeEmblem: {
+	Flavor: Mods.AchiSplatoon2.Items.SpecialChargeEmblem.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SpecialChargeEmblem.UsageHint
+	Tooltip: "スペシャルウェポンのチャージ速度を{0}%増加"
+	DisplayName: スペシャルチャージエンブレム
+}
+
+KillerWail: {
+	Flavor: "#$@%* 奴らが #$@%* 寝てる"
+	UsageHint: 敵やブロックを貫通する音波を高速で発射
+	Tooltip: "敵の防御力を{0}ポイント無視"
+	DisplayName: キラーホエール
+}
+
+SplashOMatic: {
+	Flavor: Mods.AchiSplatoon2.Items.SplashOMatic.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.SplashOMatic.UsageHint
+	Tooltip: ""
+	DisplayName: スプラッシュオーマチック
+}
+
+SplooshOMatic: {
+	UsageHint: Mods.AchiSplatoon2.Items.SplooshOMatic.UsageHint
+	Tooltip: ""
+	Flavor: ネズミだ、俺たちはネズミ。
+	DisplayName: スプルーシュオーマチック
+}
+
+Dot52Gal: {
+	UsageHint: 遠距離ダメージを常に{0}与え、ダメージボーナスと敵の防御を無視
+	Tooltip: ""
+	Flavor: Mods.AchiSplatoon2.Items.Dot52Gal.Flavor
+	DisplayName: .52ガロン
+}
+
+CannedSpecial: {
+	Flavor: Mods.AchiSplatoon2.Items.CannedSpecial.Flavor
+	Tooltip: ""
+	UsageHint: スペシャルウェポンを即座に使用可能！
+	DisplayName: 缶詰スペシャル
+}
+
+Trizooka: {
+	Tooltip: ""
+	Flavor: さあ、反応してみな。
+	UsageHint: 爆発ショットを{0}回、{1}セット発射
+}
+
+BaseSpecial: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseSpecial.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseSpecial.UsageHint
+	Tooltip: ""
+	DisplayName: ベーススペシャル
+}
+
+Sprinkler: {
+	Flavor: Mods.AchiSplatoon2.Items.Sprinkler.Flavor
+	Tooltip: ""
+	UsageHint: 連続して弾を発射するスプリンクラーを展開
+	DisplayName: スプリンクラー
+}
+
+AngleShooter: {
+	Tooltip: "マークされた敵がクリティカルダメージを受ける確率を{0}%増加"
+	Flavor: 通称マークアプライヤー。
+	UsageHint: 跳ねる弾で敵をマーク。バウンスごとにダメージ増加
+	DisplayName: アングルシューター
+}
+
+BurstBomb: {
+	Flavor: Mods.AchiSplatoon2.Items.BurstBomb.Flavor
+	Tooltip: ""
+	UsageHint: 接触で即爆発、壁に当たるとダメージ減少
+	DisplayName: バーストボム
+}
+
+BaseBomb: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseBomb.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseBomb.UsageHint
+	Tooltip: ""
+	DisplayName: ベースボム
+}
+
+SplatBomb: {
+	Flavor: Mods.AchiSplatoon2.Items.SplatBomb.Flavor
+	Tooltip: ""
+	UsageHint: 地面に着弾後すぐに爆発
+	DisplayName: スプラットボム
+}
+
+ZinkMiniSplatling: {
+	Flavor: ジミ！
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+	Tooltip: ""
+	DisplayName: ジンクミニスプラトリング
+}
+
+RoyalHeavySplatling: {
+	Flavor: Mods.AchiSplatoon2.Items.RoyalHeavySplatling.Flavor
+	UsageHint: 左クリックを長押ししてショットの連射をチャージ（右クリックでキャンセル）
+	Tooltip: ""
+	DisplayName: ヘビースプラトリングデコ
+}
+
+BaseBlaster: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseBlaster.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseBlaster.UsageHint
+	Tooltip: ""
+	DisplayName: ベースブラスター
+}
+
+BaseSplatling: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseSplatling.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseSplatling.UsageHint
+	Tooltip: ""
+	DisplayName: ベーススプラトリング
+}
+
+BaseSplattershot: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseSplattershot.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseSplattershot.UsageHint
+	Tooltip: ""
+	DisplayName: ベーススプラッターショット
+}
+
+BaseCharger: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseCharger.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseCharger.UsageHint
+	Tooltip: ""
+	DisplayName: ベースチャージャー
+}
+
+BaseStringer: {
+	Flavor: Mods.AchiSplatoon2.Items.BaseStringer.Flavor
+	UsageHint: Mods.AchiSplatoon2.Items.BaseStringer.UsageHint
+	Tooltip: ""
+	DisplayName: ベースストリンガー
+	}
+
+	MiniSplatling: {
+		Flavor: Mods.AchiSplatoon2.Items.MiniSplatling.Flavor
+		UsageHint: "左クリックを長押しして連射をチャージ（右クリックでキャンセル）"
+		Tooltip: ""
+		DisplayName: "ミニスプラトリング"
+	}
+
+	GrizzcoCharger: {
+		Tooltip: ""
+		Flavor: "これでエグゼクティブVPになれなきゃ、何でなれるんだ？"
+		UsageHint: "即座にチャージされる"
+		DisplayName: "グリズコチャージャー"
+	}
+
+	HeavySplatling: {
+		Flavor: Mods.AchiSplatoon2.Items.HeavySplatling.Flavor
+		Tooltip: ""
+		UsageHint: "左クリックを長押しして連射をチャージ（右クリックでキャンセル）"
+		DisplayName: "ヘビースプラトリング"
+	}
+
+	ColorChipEmpty: {
+		Tooltip: "染料、宝石、メテオライトと組み合わせてその力を解放しよう！"
+		DisplayName: "カラーチップ（空）"
+	}
+
+	PearlPalette: {
+		Flavor: Mods.AchiSplatoon2.Items.PearlPalette.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.PearlPalette.UsageHint
+		Tooltip: ""
+		DisplayName: "ヒメのパレット"
+	}
+
+	MarinaPalette: {
+		Flavor: Mods.AchiSplatoon2.Items.MarinaPalette.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.MarinaPalette.UsageHint
+		Tooltip: ""
+		DisplayName: "イイダのパレット"
+	}
+
+	ChipPalette: {
+		Flavor: Mods.AchiSplatoon2.Items.ChipPalette.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ChipPalette.UsageHint
+		Tooltip: ""
+		DisplayName: "ちびパレット"
+	}
+
+	ColorChipYellow: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipYellow.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipYellow.UsageHint
+		Tooltip: ""
+		DisplayName: "レンジカラーチップ"
+	}
+
+	ColorChipPurple: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipPurple.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipPurple.UsageHint
+		Tooltip: ""
+		DisplayName: "サポートカラーチップ"
+	}
+
+	ColorChipGreen: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipGreen.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipGreen.UsageHint
+		Tooltip: ""
+		DisplayName: "ラッキーカラーチップ"
+	}
+
+	ColorChipBlue: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipBlue.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipBlue.UsageHint
+		Tooltip: ""
+		DisplayName: "モビリティカラーチップ"
+	}
+
+	ColorChipAqua: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipAqua.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipAqua.UsageHint
+		Tooltip: ""
+		DisplayName: "ドローンカラーチップ"
+	}
+
+	ColorChipRed: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipRed.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipRed.UsageHint
+		Tooltip: ""
+		DisplayName: "パワーカラーチップ"
+	}
+
+	ColorChipBase: {
+		Flavor: Mods.AchiSplatoon2.Items.ColorChipBase.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.ColorChipBase.UsageHint
+		Tooltip: ""
+		DisplayName: "カラーチップベース"
+	}
+
+	BaseAccessory: {
+		Flavor: Mods.AchiSplatoon2.Items.BaseAccessory.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.BaseAccessory.UsageHint
+		Tooltip: ""
+		DisplayName: "ベースアクセサリ"
+	}
+
+	ReefluxDecoStringer: {
+		Flavor: Mods.AchiSplatoon2.Items.ReefluxDecoStringer.Flavor
+		UsageHint: "左クリックを長押しして連射をチャージ"
+		Tooltip: ""
+		DisplayName: "リーフラックス450 デコ"
+	}
+
+	ReefluxStringer: {
+		Flavor: Mods.AchiSplatoon2.Items.ReefluxStringer.Flavor
+		Tooltip: ""
+		UsageHint: "左クリックを長押しして連射をチャージ"
+		DisplayName: "リーフラックス450"
+	}
+
+	GrizzcoStringer: {
+		UsageHint: "左クリックを長押しして爆発ショットを連射"
+		Tooltip: ""
+		Flavor: "そのかっこいい武器？それ、特製モデルなんだよ。"
+		DisplayName: "グリズコストリンガー"
+	}
+
+	TriStringerInkline: {
+		Flavor: Mods.AchiSplatoon2.Items.TriStringerInkline.Flavor
+		UsageHint: "左クリックを長押しして爆発ショットを連射"
+		Tooltip: ""
+		DisplayName: "インクライン・トライストリンガー"
+	}
+
+	TriStringer: {
+		Flavor: Mods.AchiSplatoon2.Items.TriStringer.Flavor
+		Tooltip: ""
+		UsageHint: "左クリックを長押しして爆発ショットを連射"
+		DisplayName: "トライストリンガー"
+	}
+
+	LunaBlaster: {
+		UsageHint: "壁に当たると爆風が小さくなる"
+		Tooltip: ""
+		Flavor: "私を月まで連れてって！"
+		DisplayName: "ルナブラスター"
+	}
+
+	BaseWeapon: {
+		Flavor: Mods.AchiSplatoon2.Items.BaseWeapon.Flavor
+		UsageHint: Mods.AchiSplatoon2.Items.BaseWeapon.UsageHint
+		Tooltip: ""
+		DisplayName: "パールネアン・スプラシューター"
+	}
+
+	BambooMk2Charger: {
+		UsageHint: "左クリック長押しでチャージショット。相手のHPが少ないときはノンチャージでも高威力"
+		Tooltip: ""
+		Flavor: "今度はメイン性能アップ付き！"
+		DisplayName: "バンブー14式 Mk II"
+	}
+
+	BambooMk1Charger: {
+		Flavor: "タッ、タップ！"
+		UsageHint: "左クリック長押しでチャージショット。相手のHPが少ないときはノンチャージでも高威力"
+		Tooltip: ""
+		DisplayName: "バンブー14式 Mk I"
+	}
+
+	EliterCharger: {
+		UsageHint: "左クリック長押しで貫通ショットをチャージ"
+		Tooltip: ""
+		Flavor: "廊下、大好き！"
+		DisplayName: "リッター4K"
+	}
+
+	SplatCharger: {
+		Flavor: Mods.AchiSplatoon2.Items.SplatCharger.Flavor
+		Tooltip: ""
+		UsageHint: "左クリック長押しで貫通ショットをチャージ"
+		DisplayName: "スプラチャージャー"
+	}
+
+	RapidBlasterDeco: {
+		UsageHint: "壁に当たると爆風が小さくなる"
+		Flavor: Mods.AchiSplatoon2.Items.RapidBlasterDeco.Flavor
+		Tooltip: ""
+		DisplayName: "ラピッドブラスター デコ"
+	}
+
+	RapidBlaster: {
+		UsageHint: "壁に当たると爆風が小さくなる"
+		Tooltip: ""
+		Flavor: "ノーマルブラスターが遅すぎる君へ"
+		DisplayName: "ラピッドブラスター"
+	}
+
+	RangeBlaster: {
+		UsageHint: "壁に当たると爆風が小さくなる"
+		Tooltip: ""
+		Flavor: "新しいデザインで登場！"
+		DisplayName: "ロングブラスター"
+	}
+
+	Blaster: {
+		Flavor: Mods.AchiSplatoon2.Items.Blaster.Flavor
+		Tooltip: ""
+		UsageHint: "壁に当たると爆風が小さくなる"
+		DisplayName: "ブラスター"
+	}
+
+	OctoShot: {
+		UsageHint: Mods.AchiSplatoon2.Items.OctoShot.UsageHint
+		Tooltip: ""
+		Flavor: "テスト合格！"
+		DisplayName: "オクショット"
+	}
+
+	OrderShot: {
+		UsageHint: Mods.AchiSplatoon2.Items.OrderShot.UsageHint
+		Tooltip: ""
+		Flavor: "慎ましい始まり"
+		DisplayName: "オーダーショット"
+	}
+
+	TentatekSplattershot: {
+		UsageHint: Mods.AchiSplatoon2.Items.TentatekSplattershot.UsageHint
+		Tooltip: ""
+		Flavor: "我らの分隊のために！"
+		DisplayName: "タンサンシューター"
+	}
+
+	Splattershot: {
+		UsageHint: Mods.AchiSplatoon2.Items.Splattershot.UsageHint
+		Tooltip: ""
+		Flavor: "キミはイカ、キミはヒト"
+		DisplayName: "スプラシューター"
+	}
+}
+
+Hint: {
+	DroneDisc: "パールドローンのレベルが+1され、与えるダメージが恒久的に増加します。このタイプのディスクは一度しか使えません"
+
+	TentacleScope: {
+		CritBonus: "チャージャー使用時のクリティカル率増加{0}%"
+		Usage: "フルチャージのチャージャーショットは壁を貫通しますが、ダメージが低下しクリティカルが発生しません"
+	}
+
+	DropletLocket: "魔法ダメージボーナスがインク武器にも適用されます"
+	ChargedBattery: "空中でも武器のチャージ速度が最大になります"
+	HypnoShades: "サブウェポンの使用速度が上昇します"
+	DamageStabilizer: "インク武器のダメージが常に一定で、クリティカルが発生しません"
+	ThermalInkTank: "インク系の飛び道具が液体を貫通できます"
+	MarinatedNecklace: "傘の回復が遅くなりますが、回復中の攻撃速度が上がります"
+	PinkSponge: "スプラローラーのチャージスラッシュの射程が短くなりますが、敵の弾を弾きます"
+	SquidClipOns: "回避ロールが{0}%減少しますが、無敵化し移動速度が下がりません"
+	FieryPaintCan: "前回のブラスターショットが外れた場合、次の一撃のダメージと爆風範囲が{0}%上昇します"
+	SteelCoil: "スロッシャーで攻撃するたびに、最初の対象へのダメージが{0}%上昇し、それ以外の対象は{1}%減少します"
+	CrayonBox: "スピナーの命中精度と弾速が向上。敵を倒すとチャージによる射撃時間が延長されます"
+	FreshQuiver: "フルチャージのストリンガーの弾が命中しやすくなり、すべて命中した際に爆発を起こします"
+
+	Brella: {
+		Plague: "敵に毒を付与。傘が壊れていても近接攻撃が可能"
+		Martian: "盾がダメージを受けると大きな雷を放ちます"
+		Recycle: "盾の耐久が低いが素早く回復します"
+		Undercover: "盾の耐久が低いが敵を倒すと即座に回復します"
+		Generic: "傘で攻撃中も守られます（壊れるまで！）"
+	}
+
+	Roller: "左クリックを押しながら走ると敵を轢けます"
+
+	Splatanas: {
+		GolemSplatana: "フルチャージで巨大な炎の斬撃を周囲に放つ"
+		SkySplatana: "フルチャージで大きな斬撃を繰り出す"
+		EelSplatana: "フルチャージでウナギの竜巻を召喚し射出します"
+		Generic: "左クリック長押しで貫通する遠距離斬撃をチャージ"
+	}
+
+	Dualies: {
+		Vortex: "回避回数：{0}回。単なる転がりでなく、指定方向へ高速移動"
+		Squelcher: "回避後に火力は上がりませんが移動ペナルティもありません"
+		Douser: "回避は1回のみですが、非回避時に射程が伸びます"
+		Dapple: "回避回数：{0}回。回避後に止まると強攻撃"
+		Tetra: "回避回数：{0}回。回避中にも攻撃でき、終了後の減速なし"
+		Grizzco: "回避回数：{0}回！ 回避時にその場で爆発を起こします"
+		Generic: "攻撃中に右クリックで回避ロール。静止すると強攻撃可能"
+	}
+
+	Brushes: {
+		Spooky: "壁に反射する魔法弾を発射"
+		Desert: "敵を貫通する風の斬撃を放つ"
+		Generic: "攻撃中に右クリック長押しで速度アップ"
+	}
+
+	Sloshers: {
+		DreadWringer: "もう一度多くスロッシュします"
+		Explosher: "壁に当たると爆発する貫通弾を投げます"
+		Bloblobber: "壁に跳ねるバブルを連射"
+		Slosher: "広範囲にインクの塊を投げます"
+	}
+
+	Stringers: {
+		Ice: "左クリック長押しで貫通ショットをチャージし、氷の破片を放つ"
+		Nebula: "左クリック長押しでホーミングする星を連射"
+		Wellstring: "フルチャージ時により広範囲の爆発を発射"
+		Reeflux: "左クリック長押しで弾の連射をチャージ"
+		Tri: "左クリック長押しで爆発弾を連射"
+	}
+
+	Nozzlenose: "同一ターゲットへの連続ヒットでダメージ増加"
+	Splatling: "左クリック長押しで連射をチャージ（右クリックでキャンセル）"
+	SBlast: "地上で静止していると射程とダメージが上がり、爆風が小さくなる"
+	Blaster: "壁に当たると爆風が小さくなる"
+	SlimeSplattershot: "跳ねるインクの塊を発射"
+	Dot52Gal: "常に{0}の射撃ダメージ。ボーナスや防御無視"
+	SplattershotJr: "装備中インク容量+{0}%"
+
+	Chargers: {
+		Snipewriter: "左クリック長押しで高速ショットを複数発射"
+		StarFisher: "フルチャージ時に遅れて爆発"
+		Squiffer: "空中でもチャージ時間が変わらない"
+		Bamboo: "左クリック長押しでチャージショット。相手が瀕死ならノンチャージでも高ダメージ"
+		Generic: "左クリック長押しで貫通ショットをチャージ"
+	}
+
+	PurifiedWeapon: "インクを消費しません"
+}
+LastDitchEffortBonus: {
+	Display: "HPが{0}%以下のとき、武器のインク消費を{1}%軽減"
+}
+
+InkCapacityBonus: {
+	Display: "インク容量 +{0}%"
+}
+
+InkSaverSub: {
+	Display: "サブウェポンのインク消費量が{0}%減少"
+}
+
+InkSaverMain: {
+	Display: "メインウェポンのインク消費量が{0}%減少"
+}
+
+SpecialChargeEmblem: {
+	Multiplier: "スペシャルウェポンのチャージ速度 +{0}%"
+}
+
+SpecialPowerEmblem: {
+	Multiplier: "スペシャルウェポンのダメージ +{0}%"
+}
+
+SubPowerEmblem: {
+	Multiplier: "サブウェポンのダメージ +{0}%"
+}
+
+BrellaPelletCount: {
+	Display: "{0}発のインク弾を発射"
+}
+
+MarkEffect: {
+	Display: "マーキングされた敵はクリティカルを受ける確率が{0}%増加"
+}
+
+CritBonus: {
+	Display: "クリティカル発生率 +{0}%"
+}
+
+MagicDamageBonus: {
+	Display: "魔法ダメージ +{0}%"
+}
+
+ArmorPierce: {
+	Display: "敵の防御を{0}ポイント無視"
+}

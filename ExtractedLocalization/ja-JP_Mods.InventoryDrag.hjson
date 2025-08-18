@@ -1,0 +1,123 @@
+Configs: {
+	InventoryConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			MainFeatures: 機能全般
+			ExtraFeatures: 追加機能
+		}
+
+		LeftMouse: {
+			Label: 左マウス
+			Tooltip: マウスの左ボタンによるドラッグの設定
+		}
+
+		RightMouse: {
+			Label: 右マウス
+			Tooltip: マウスの右ボタンによるドラッグの設定
+		}
+
+		SplittableGrabBags: {
+			Label: 分割トレジャーバッグ
+			Tooltip: トレジャーバッグの分割用設定
+		}
+
+		DebugMessages: {
+			Label: Debug メッセージ
+			Tooltip: ""
+		}
+
+		ThrowDragging: {
+			Label: Throw ドラッグ
+			Tooltip: ""
+		}
+	}
+
+	LeftMouseOptions: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: 有効
+			Tooltip: オフにすると、マウスの左ボタンを押したままのドラッグが無効になる
+		}
+
+		ModifierOptions: {
+			Label: モディファイア設定
+			Tooltip: マウスの左ボタンで使用できるモディファイアを設定する
+		}
+	}
+
+	ModifierOptions: {
+		Tooltip: ""
+
+		AllowCtrl: {
+			Label: Ctrlを許可する
+			Tooltip: オフにすると、Ctrlを押しながらのドラッグが無効になる
+		}
+
+		AllowShift: {
+			Label: Shiftを許可する
+			Tooltip: オフにすると、Shiftを押しながらのドラッグが無効になる
+		}
+
+		AllowAlt: {
+			Label: Altを許可する
+			Tooltip: オフにすると、Altを押しながらのドラッグが無効になる
+		}
+
+		RequireModifier: {
+			Label: モディファイアを要求する
+			Tooltip: ドラッグを有効にするためにモディファイア（Ctrl、Shift、Altなど）が必要な場合はオンを推奨
+		}
+
+		AllowThrow: {
+			Label: 投げるを許可する
+			Tooltip: オフにすると、投げるキーを押しながらのドラッグが無効になる
+		}
+	}
+
+	RightMouseOptions: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: 有効
+			Tooltip: オフにすると、マウスの右ボタンを押したままのドラッグが無効になる
+		}
+
+		ModifierOptions: {
+			Label: モディファイア設定
+			Tooltip: マウスの右ボタンで使用できるモディファイアを設定する
+		}
+	}
+
+	SplittableGrabBags: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: 有効
+			Tooltip: Shift + 右クリックでバッグを開く代わりに分割する
+		}
+
+		ShowTooltip: {
+			Label: ツールチップの表示
+			Tooltip: ツールチップにコントロールを表示する
+		}
+	}
+
+	ThrowDragging: {
+		Tooltip: ""
+
+		PlaySound: {
+			Label: サウンドを再生
+			Tooltip: アイテムを投げるときに音を鳴らす
+		}
+
+		ThrowDelay: {
+			Label: スローディレイ
+			Tooltip: スローの間隔をティック単位でどれだけディレイをかけるかを設定する（60ティック＝1秒）
+		}
+	}
+}
+
+GrabBagTooltip: Shift + 右クリックで分割
+

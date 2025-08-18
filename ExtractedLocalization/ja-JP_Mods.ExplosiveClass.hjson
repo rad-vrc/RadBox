@@ -1,0 +1,515 @@
+Items: {
+	Demon_Launcher: {
+		Tooltip: "'What makes me a good demoman?'"
+		DisplayName: Demon Launcher
+	}
+
+	Skull_Cannon: {
+		Tooltip: Possesses grenades into becoming exploding skulls
+		DisplayName: Skull Cannon
+	}
+
+	PinkyWrath: {
+		Tooltip:
+			'''
+			Launches 2 Bouncy Grenades when fired
+			Empowers Bouncy Grenade ammo
+			'''
+		DisplayName: Pinky's Wrath
+	}
+
+	Hallowed_BlastPlate: {
+		Tooltip: Greatly reduces Self Damage
+		DisplayName: Hallowed Blastplate
+	}
+
+	Rusty_Thumper: {
+		DisplayName: Bloop Tube
+		Tooltip: Launches grenades further
+	}
+
+	Mushroom_Mortar: {
+		DisplayName: Mushroom Mortar
+		Tooltip: Fungifies grenades
+	}
+
+	Capillary_Launcher: {
+		Tooltip: "'The ole crimstone'"
+		DisplayName: Capillary Launcher
+	}
+
+	Bamboom_Chute: {
+		Tooltip: Fires bamboom instead of grenades
+		DisplayName: Bamboom Chute
+	}
+
+	HiveBlaster: {
+		DisplayName: Hive Blaster
+		Tooltip: Fires bursts of hive rockets
+	}
+
+	ShadowShot: {
+		DisplayName: Shadow Shot
+		Tooltip: Engulfs grenades in shadowflame
+	}
+
+	ThornGrenade: {
+		Tooltip: Bursts into exploding spikes and poisons targets
+		DisplayName: Thorn Grenade
+	}
+
+	GrenadeBelt: {
+		Tooltip: ""
+		DisplayName: Endless Grenade Belt
+	}
+
+	RocketCrate: {
+		Tooltip: ""
+		DisplayName: Endless Rocket Crate
+	}
+
+	Quad_Blitzer: {
+		Tooltip: Quickly fires bursts of 5 rockets
+		DisplayName: Penta Blitzer
+	}
+
+	JumboGrenade: {
+		Tooltip: Stay clear from the blast zone
+		DisplayName: Jumbo Grenade
+	}
+
+	IchorGrenade: {
+		Tooltip: Decreases target's defense
+		DisplayName: Ichor Grenade
+	}
+
+	CursedGrenade: {
+		Tooltip: Lights enemies ablaze in a cursed inferno
+		DisplayName: Cursed Grenade
+	}
+
+	ChatterBox: {
+		Tooltip: Chatter teeth bombs infest this weapon
+		DisplayName: Chatter Box
+	}
+
+	Orbital_Striker: {
+		DisplayName: Orbital Striker
+		Tooltip: Fires slow rockets that follow your cursor
+	}
+
+	Loose_Cannon: {
+		DisplayName: Loose Cannon
+		Tooltip:
+			'''
+			Charging increases projectile damage
+			Late hits deal increased damage
+			'''
+	}
+
+	SlimeFall: {
+		DisplayName: Slime Fall
+		Tooltip: Fires a barrage of slime grenades
+	}
+
+	RattleLauncher: {
+		DisplayName: Rattle Bazooka
+		Tooltip: Converts all grenade types to Sandstorm Rockets
+	}
+
+	AdamantiteLauncher: {
+		DisplayName: Adamantite Launcher
+		Tooltip: Fires Rockets
+	}
+
+	TitaniumLauncher: {
+		DisplayName: Titanium Launcher
+		Tooltip: Fires Grenades
+	}
+
+	HeatSeeker: {
+		DisplayName: Heat Seeker
+		Tooltip: Fires an additional homing rocket
+	}
+
+	ShellbackThumper: {
+		DisplayName: Shellback Thumper
+		Tooltip: Encapsules grenades in turtle shells
+	}
+
+	StickyGrenadeLauncher: {
+		Tooltip:
+			'''
+			Makes the ground uninhabitable
+			Empowers Sticky Grenade ammo
+			'''
+		DisplayName: Sticky Spammer
+	}
+}
+
+Projectiles: {
+	SkullRocket: {
+		DisplayName: Skull Rocket
+	}
+
+	MushNade: {
+		DisplayName: Mushnade
+	}
+
+	Bamboom: {
+		DisplayName: Bamboom
+	}
+
+	Hive_Rocket: {
+		DisplayName: Hive Rocket
+	}
+
+	ShadowflameGrenade: {
+		DisplayName: Shadowflame Grenade
+	}
+
+	ThornBomb: {
+		DisplayName: Thorn Grenade
+	}
+
+	BouncySkullRocket: {
+		DisplayName: Bouncy Skull Rocket
+	}
+
+	StickySkullRocket: {
+		DisplayName: Sticky Skull Rocket
+	}
+
+	HappySkullRocket: {
+		DisplayName: Happy Skull Rocket
+	}
+
+	ThornSkullRocket: {
+		DisplayName: Thorn Skull Rocket
+	}
+
+	ThornBamboom: {
+		DisplayName: Thorn Bamboom
+	}
+
+	StickyBamboom: {
+		DisplayName: Sticky Bamboom
+	}
+
+	HappyBamboom: {
+		DisplayName: Happy Bamboom
+	}
+
+	BouncyBamboom: {
+		DisplayName: Bouncy Bamboom
+	}
+
+	ThornHive_Rocket: {
+		DisplayName: Thorn Hive Rocket
+	}
+
+	StickyHive_Rocket: {
+		DisplayName: Sticky Hive Rocket
+	}
+
+	HappyHive_Rocket: {
+		DisplayName: Happy Hive Rocket
+	}
+
+	BouncyHive_Rocket: {
+		DisplayName: Bouncy Hive Rocket
+	}
+
+	EarlyHMRocket: {
+		DisplayName: Grenade Rocket
+	}
+
+	ThornEarlyHMRocket: {
+		DisplayName: Thorn Rocket
+	}
+
+	StickyEarlyHMRocket: {
+		DisplayName: Sticky Rocket
+	}
+
+	HappyEarlyHMRocket: {
+		DisplayName: Happy Rocket
+	}
+
+	BouncyEarlyHMRocket: {
+		DisplayName: Bouncy Rocket
+	}
+
+	JumboBomb: {
+		DisplayName: Jumbo Grenade
+	}
+
+	JumboEarlyHMRocket: {
+		DisplayName: Jumbo Rocket
+	}
+
+	IchorBomb: {
+		DisplayName: Ichor Bomb
+	}
+
+	CursedBomb: {
+		DisplayName: Cursed Bomb
+	}
+
+	IchorEarlyHMRocket: {
+		DisplayName: Ichor Rocket
+	}
+
+	CursedEarlyHMRocket: {
+		DisplayName: Cursed Rocket
+	}
+
+	JumboSkullRocket: {
+		DisplayName: Jumbo Skull Rocket
+	}
+
+	IchorSkullRocket: {
+		DisplayName: Ichor Skull Rocket
+	}
+
+	CursedSkullRocket: {
+		DisplayName: Cursed Skull Rocket
+	}
+
+	JumboHive_Rocket: {
+		DisplayName: Jumbo Hive Rocket
+	}
+
+	IchorHive_Rocket: {
+		DisplayName: Ichor Hive Rocket
+	}
+
+	CursedHive_Rocket: {
+		DisplayName: Cursed Hive Rocket
+	}
+
+	JumboBamboom: {
+		DisplayName: Jumbo Bamboom
+	}
+
+	IchorBamboom: {
+		DisplayName: Ichor Bamboom
+	}
+
+	CursedBamboom: {
+		DisplayName: Cursed Bamboom
+	}
+
+	Chatter: {
+		DisplayName: Chatter Teeth Grenade
+	}
+
+	SpaceRocket: {
+		DisplayName: Space Rocket
+	}
+
+	BouncySpaceRocket: {
+		DisplayName: Bouncy Space Rocket
+	}
+
+	CursedSpaceRocket: {
+		DisplayName: Cursed Space Rocket
+	}
+
+	HappySpaceRocket: {
+		DisplayName: Happy Space Rocket
+	}
+
+	IchorSpaceRocket: {
+		DisplayName: Ichor Space Rocket
+	}
+
+	JumboSpaceRocket: {
+		DisplayName: Jumbo Space Rocket
+	}
+
+	StickySpaceRocket: {
+		DisplayName: Sticky Space Rocket
+	}
+
+	ThornSpaceRocket: {
+		DisplayName: Thorn Space Rocket
+	}
+
+	CannonBall: {
+		DisplayName: Cannon Ball
+	}
+
+	CannonBallHalf: {
+		DisplayName: Cannon Ball Half
+	}
+
+	CannonBallLow: {
+		DisplayName: Cannon Ball Low
+	}
+
+	BouncyCannonBall: {
+		DisplayName: Bouncy Cannon Ball
+	}
+
+	CursedCannonBall: {
+		DisplayName: Cursed Cannon Ball
+	}
+
+	HappyCannonBall: {
+		DisplayName: Happy Cannon Ball
+	}
+
+	IchorCannonBall: {
+		DisplayName: Ichor Cannon Ball
+	}
+
+	JumboCannonBall: {
+		DisplayName: Jumbo Cannon Ball
+	}
+
+	StickyCannonBall: {
+		DisplayName: Sticky Cannon Ball
+	}
+
+	ThornCannonBall: {
+		DisplayName: Thorn Cannon Ball
+	}
+
+	GelBomb: {
+		DisplayName: Sparkle Slime Grenade
+	}
+
+	ThornBombHM: {
+		DisplayName: Thorn Grenade
+	}
+
+	HomingEarlyHMRocket: {
+		DisplayName: Homing Laser Rocket
+	}
+
+	TurtleBomb: {
+		DisplayName: Turtle Grenade
+	}
+
+	StickyMushNade: {
+		DisplayName: Sticky Mush Nade
+	}
+
+	BouncyMushNade: {
+		DisplayName: Bouncy Mush Nade
+	}
+
+	HappyMushNade: {
+		DisplayName: Happy Mush Nade
+	}
+
+	ThornMushNade: {
+		DisplayName: Thorn Mush Nade
+	}
+
+	CursedMushNade: {
+		DisplayName: Cursed Mush Nade
+	}
+
+	IchorMushNade: {
+		DisplayName: Ichor Mush Nade
+	}
+
+	JumboMushNade: {
+		DisplayName: Jumbo Mush Nade
+	}
+
+	StickyShadowGrenade: {
+		DisplayName: Sticky Shadowflame Grenade
+	}
+
+	BouncyShadowGrenade: {
+		DisplayName: Bouncy Shadowflame Grenade
+	}
+
+	HappyShadowGrenade: {
+		DisplayName: Happy Shadowflame Grenade
+	}
+
+	ThornShadowBomb: {
+		DisplayName: Thorn Shadowflame Grenade
+	}
+
+	CursedShadowGrenade: {
+		DisplayName: Cursed Shadowflame Grenade
+	}
+
+	IchorShadowBomb: {
+		DisplayName: Ichor Shadowflame Grenade
+	}
+
+	JumboShadowGrenade: {
+		DisplayName: Jumbo Shadowflame Grenade
+	}
+
+	StickyTurtleBomb: {
+		DisplayName: Sticky Turtle Grenade
+	}
+
+	BouncyTurtleBomb: {
+		DisplayName: Bouncy Turtle Grenade
+	}
+
+	HappyTurtleBomb: {
+		DisplayName: Happy Turtle Grenade
+	}
+
+	ThornTurtleBomb: {
+		DisplayName: Thorn Turtle Grenade
+	}
+
+	CursedTurtleBomb: {
+		DisplayName: Cursed Turtle Grenade
+	}
+
+	IchorTurtleBomb: {
+		DisplayName: Ichor Turtle Grenade
+	}
+
+	JumboTurtleBomb: {
+		DisplayName: Jumbo Turtle Grenade
+	}
+
+	StickierGrenade: {
+		DisplayName: Stickier Grenade
+	}
+
+	BouncierGrenade: {
+		DisplayName: Bouncier Grenade
+	}
+
+	RealFakeSticky: {
+		DisplayName: Sticky Grenade
+	}
+
+	RealFakeBouncy: {
+		DisplayName: Bouncy Grenade
+	}
+
+	BouncierGrenadeHM: {
+		DisplayName: Bouncier Grenade
+	}
+
+	StickierGrenadeHM: {
+		DisplayName: Stickier Grenade
+	}
+
+	DoubleRocket: {
+		DisplayName: Double Rocket
+	}
+
+	SandRocket: {
+		DisplayName: Sandstorm Rocket
+	}
+
+	SnakeTornado: {
+		DisplayName: Snake Tornado
+	}
+}
+

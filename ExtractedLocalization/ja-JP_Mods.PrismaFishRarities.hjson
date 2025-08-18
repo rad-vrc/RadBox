@@ -1,0 +1,424 @@
+Buffs: {
+	Haemorraging: {
+		Description: You're being ripped and torn from the inside!
+		DisplayName: Haemorraging
+		Tooltip: You're being ripped and torn from the inside!
+	}
+
+	SaltLick1: {
+		DisplayName: Salt Lick ([c/FFDC30:⭐])
+		Description: 10% increased crit damage
+		Tooltip: 10% increased crit damage
+	}
+
+	SaltLick2: {
+		DisplayName: Salt Lick ([c/FFDC30:⭐⭐])
+		Description: 20% increased crit damage
+		Tooltip: 20% increased crit damage
+	}
+
+	SaltLick3: {
+		DisplayName: Salt Lick ([c/FFDC30:⭐⭐⭐])
+		Description: 30% increased crit damage
+		Tooltip: 30% increased crit damage
+	}
+
+	SaltLick4: {
+		DisplayName: Salt Lick ([c/FFDC30:⭐⭐⭐⭐])
+		Description: 40% increased crit damage
+		Tooltip: 40% increased crit damage
+	}
+
+	SaltLick5: {
+		DisplayName: Salt Lick5 ([c/FFDC30:⭐⭐⭐⭐⭐])
+		Description: 50% increased crit damage
+		Tooltip: 50% increased crit damage
+	}
+
+	SaltLick6: {
+		DisplayName: Salt Lick ([c/FFDC30:⭐⭐⭐⭐⭐⭐])
+		Description: 60% increased crit damage
+		Tooltip: 60% increased crit damage
+	}
+
+	JumpJelly: {
+		DisplayName: Jump Jelly
+		Description: 48% increased jump speed and increased fall resistance, 20% increased max run speed
+	}
+
+	SugarSpeed1: {
+		DisplayName: Sugar Speed ([c/FFDC30:⭐])
+		Description: 1.5x run acceleration and deceleration, 1.5x wing acceleration
+	}
+
+	SugarSpeed2: {
+		DisplayName: Sugar Speed ([c/FFDC30:⭐⭐])
+		Description: 1.75x run acceleration and deceleration, 1.75x wing acceleration
+	}
+
+	SugarSpeed3: {
+		DisplayName: Sugar Speed ([c/FFDC30:⭐⭐⭐])
+		Description: 2x run acceleration and deceleration, 2x wing acceleration
+	}
+
+	SugarSpeed4: {
+		DisplayName: Sugar Speed ([c/FFDC30:⭐⭐⭐⭐])
+		Description: 2.25x run acceleration and deceleration, 2.25x wing acceleration
+	}
+
+	SugarSpeed5: {
+		DisplayName: Sugar Speed ([c/FFDC30:⭐⭐⭐⭐⭐])
+		Description: 2.5x run acceleration and deceleration, 2.5x wing acceleration
+	}
+
+	Absorption1: {
+		DisplayName: Absorption ([c/FFDC30:⭐])
+		Description: +25 max life
+	}
+
+	Absorption2: {
+		DisplayName: Absorption ([c/FFDC30:⭐⭐])
+		Description: +50 max life
+	}
+
+	Absorption3: {
+		DisplayName: Absorption ([c/FFDC30:⭐⭐⭐])
+		Description: +75 max life
+	}
+
+	Absorption4: {
+		DisplayName: Absorption ([c/FFDC30:⭐⭐⭐⭐])
+		Description: +100 max life
+	}
+
+	Absorption5: {
+		DisplayName: Absorption ([c/FFDC30:⭐⭐⭐⭐⭐])
+		Description: +125 max life
+	}
+
+	MasterBuilder: {
+		DisplayName: Master Builder
+		Description: +1 reach, increased block and wall placement speed by 25%, 1% chance to conserve placed nature blocks
+	}
+
+	MasterBuilder1: {
+		DisplayName: Master Builder ([c/FFDC30:⭐])
+		Description: +2 reach, increased block and wall placement speed by 50%, 2% chance to conserve placed nature blocks
+	}
+
+	MasterBuilder2: {
+		DisplayName: Master Builder ([c/FFDC30:⭐⭐])
+		Description: +3 reach, increased block and wall placement speed by 75%, 4% chance to conserve placed nature blocks
+	}
+
+	MasterBuilder3: {
+		DisplayName: Master Builder ([c/FFDC30:⭐⭐⭐])
+		Description: +4 reach, increased block and wall placement speed by 100%, 6% chance to conserve placed nature blocks
+	}
+
+	MasterBuilder4: {
+		DisplayName: Master Builder ([c/FFDC30:⭐⭐⭐⭐])
+		Description: +5 reach, increased block and wall placement speed by 125%, 8% chance to conserve placed nature blocks
+	}
+
+	MasterBuilder5: {
+		DisplayName: Master Builder ([c/FFDC30:⭐⭐⭐⭐⭐])
+		Description: +6 reach, increased block and wall placement speed by 150%, 10% chance to conserve placed nature blocks
+	}
+
+	Sparkling1: {
+		DisplayName: Sparkling ([c/FFDC30:⭐])
+		Description: Increased special fishing power by 1
+	}
+
+	Sparkling2: {
+		DisplayName: Sparkling ([c/FFDC30:⭐⭐])
+		Description: Increased special fishing power by 2
+	}
+
+	Sparkling3: {
+		DisplayName: Sparkling ([c/FFDC30:⭐⭐⭐])
+		Description: Increased special fishing power by 3
+	}
+
+	Sparkling4: {
+		DisplayName: Sparkling ([c/FFDC30:⭐⭐⭐⭐])
+		Description: Increased special fishing power by 4
+	}
+
+	Sparkling5: {
+		DisplayName: Sparkling ([c/FFDC30:⭐⭐⭐⭐⭐])
+		Description: Increased special fishing power by 5
+	}
+
+	SmoothieBuff: {
+		DisplayName: Smoothie of Legends
+		Description:
+			'''
+				 48% increased jump speed
+				 Increased fall damage resistance
+				 20% increased max run speed
+				 +125 max life
+				 +7 block reach
+				 150% increased block placing speed
+				 150% increased wall placing speed
+				 +60% crit damage
+				 Increased special fishing power by 5
+				 2.5x run acceleration and deceleration
+				 2.5x wing acceleration
+			'''
+	}
+
+	ArmorCrush: {
+		DisplayName: Armor Crush
+		Description: Your armor is crushed!
+	}
+}
+
+Items: {
+	FishMastersTableItem: {
+		Tooltip: Used for working with special fish
+		DisplayName: Fish Master's Table
+	}
+
+	MasterChefsCookingPotItem: {
+		Tooltip: Used to make advanced meals
+		DisplayName: Master Chef's Cooking Pot
+	}
+
+	ShinyStud: {
+		DisplayName: Shiny Stud
+		Tooltip:
+			'''
+			'A pebble that glows with a bright light.'
+			Can be used as seasoning
+			'''
+	}
+
+	DivineCrystal: {
+		DisplayName: Divine Crystal
+		Tooltip:
+			'''
+			'Even unrefined, this crystal is immaculate.'
+			Can be used as seasoning
+			'''
+	}
+
+	GlisteningShard: {
+		DisplayName: Glistening Shard
+		Tooltip:
+			'''
+			'It glistens even in the dark.'
+			Can be used as seasoning
+			'''
+	}
+
+	PrismaticScale: {
+		DisplayName: Prismatic Scale
+		Tooltip:
+			'''
+			'It bends light in unpredictable, beautiful ways.'
+			Can be used as seasoning
+			'''
+	}
+
+	RadiantStone: {
+		DisplayName: Radiant Stone
+		Tooltip:
+			'''
+			'Incredibly warm to the touch.'
+			Can be used as seasoning
+			'''
+	}
+
+	SaltShaker: {
+		DisplayName: Salt Shaker
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Critical hits deal more damage
+			Only one special food buff may be active at a time
+			'Even the shaker is edible!'
+			'''
+	}
+
+	SixStarShaker: {
+		DisplayName: Six Star Shaker
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Critical hits deal more damage
+			Only one special food buff may be active at a time
+			'''
+	}
+
+	FruitJelly: {
+		DisplayName: Fruit Jelly
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			48% increased jump speed and increased fall damage resistance
+			Increased max run speed
+			Only one special food buff may be active at a time
+			'Put some spring in your step!'
+			'''
+	}
+
+	FruityTart: {
+		DisplayName: Fruity Tart
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			'Delightful.'
+			'''
+	}
+
+	CandyApple: {
+		DisplayName: Candy Apple
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Increases acceleration and deceleration
+			Only one special food buff may be active at a time
+			'It's covered in super sweet syrup.'
+			'''
+	}
+
+	SpicedFruit: {
+		DisplayName: Spiced Fruit
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Increases your maximum HP
+			Only one special food buff may be active at a time
+			'Never seen anything like this before... no way.'
+			'''
+	}
+
+	CannedFood: {
+		DisplayName: Canned Food
+		Tooltip:
+			'''
+			??? improvements to all stats
+			'Anything could be inside of this...'
+			'''
+	}
+
+	HawaiianPizza: {
+		DisplayName: Hawaiian Pizza
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			Increases building speed and range
+			Only one special food buff may be active at a time
+			'It originated in Canada, by the way.'
+			'''
+	}
+
+	StarStuddedSeafood: {
+		DisplayName: Star-Studded Seafood
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Increases your chance of finding special fish
+			Only one special food buff may be active at a time
+			'Seasoned with edible glitter.'
+			'''
+	}
+
+	BBQMeatballs: {
+		DisplayName: BBQ Meatballs
+		Tooltip:
+			'''
+			Medium improvements to all stats
+			'Mamma mia...'
+			'''
+	}
+
+	FishNChips: {
+		DisplayName: Fish 'n' Chips
+		Tooltip:
+			'''
+			Major improvements to all stats
+			'Fashion chaps.'
+			'''
+	}
+
+	SmoothieOfLegend: {
+		DisplayName: Smoothie of Legend
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Provides all special food buffs at once
+			Only one special food buff may be active at a time
+			'The elixir of life was actually a smoothie?'
+			'''
+	}
+
+	SupremeSteak: {
+		DisplayName: Supreme Steak
+		Tooltip:
+			'''
+			Major improvements to all stats
+			Also grants Swiftness, Regeneration, and Ironskin
+			'Mouthwateringly good...'
+			'''
+	}
+
+	CropPlotItem: {
+		DisplayName: Crop Plot
+		Tooltip: ""
+	}
+
+	WheatSeeds: {
+		DisplayName: Wheat Seeds
+		Tooltip: ""
+	}
+
+	ExampleCustomSwingSword: {
+		DisplayName: Example Custom Swing Sword
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	FishMastersTable: {
+		MapEntry: Fish Master's Table
+	}
+
+	MasterChefsCookingPot: {
+		MapEntry: Master Chefs Cooking Pot
+	}
+
+	CropPlot: {
+		MapEntry: Crop Plot
+	}
+}
+
+Keybinds: {
+	Inspect: {
+		DisplayName: Inspect
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		NoVFX: {
+			Label: No VFX
+			Tooltip: Disables all VFX
+		}
+	}
+}
+
+Projectiles: {
+	RockfishSpin: {
+		DisplayName: Rockfish
+	}
+
+	CrystalHoming: {
+		DisplayName: Mana Leech
+	}
+}
+

@@ -1,0 +1,111 @@
+Configs: {
+	BiomePopupConfig: {
+		DisplayName: 設定
+
+		Headers: {
+			Animation: アニメーション
+			Advanced: 詳細設定
+			Visuals: 表示
+		}
+
+		BiomeCheckDelay: {
+			Tooltip: バイオームの状態を確認する間隔（tick 単位）
+			Label: バイオーム確認間隔
+		}
+
+		IsHideWhileBossAlive: {
+			Tooltip: ボスが生存している間はポップアップを非表示にする
+			Label: ボス戦中は非表示
+		}
+
+		IsHideWhileInventoryOpen: {
+			Tooltip: プレイヤーのインベントリが開いている間はポップアップを非表示にする
+			Label: インベントリ表示中は非表示
+		}
+
+		AnimationOutTime: {
+			Tooltip: ポップアップが非表示になる際のアニメーション時間（tick 単位）
+			Label: 非表示アニメーション時間
+		}
+
+		AnimateInDuration: {
+			Tooltip: ポップアップが表示される際のアニメーション時間（tick 単位）
+			Label: 表示アニメーション時間
+		}
+
+		VisibleDuration: {
+			Tooltip: ポップアップがアニメーション間で静止する時間（tick 単位）（-1は無限）
+			Label: 表示時間
+		}
+
+		AnimationType: {
+			Tooltip: タイトルの表示・非表示時のアニメーション
+			Label: アニメーションタイプ
+		}
+
+		CustomScale: {
+			Tooltip: ポップアップの表示倍率を50%～200%の間で指定
+			Label: ポップアップの拡大率
+		}
+
+		IsScaleWithUI: {
+			Tooltip: 有効にすると、UIスケールに合わせてポップアップも拡縮されます
+			Label: UIに合わせて拡縮
+		}
+
+		Position: {
+			Tooltip: ポップアップの表示位置を選択
+			Label: 表示位置
+		}
+
+		IsHideWhileChatOpen: {
+			Label: チャット中は非表示
+			Tooltip: チャットが開いている間はポップアップを非表示にする
+		}
+	}
+
+	AnimationType: {
+		FadeSlide: {
+			Label: フェード＆スライド
+		}
+
+		Slide: {
+			Label: スライド
+		}
+
+		FadeSwipe: {
+			Label: スワイプ付きフェード
+		}
+
+		Fade: {
+			Label: フェード
+		}
+
+		None: {
+			Label: アニメーションなし
+		}
+
+		Tooltip: ""
+	}
+
+	PositionOption: {
+		BottomRight: {
+			Label: 右下
+		}
+
+		BottomLeft: {
+			Label: 左下
+		}
+
+		Bottom: {
+			Label: 下
+		}
+
+		Top: {
+			Label: 上
+		}
+
+		Tooltip: ""
+	}
+}
+

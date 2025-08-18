@@ -1,0 +1,169 @@
+Buffs: {
+	HappySpiritBuff: {
+		Description: 幸運を感じる！
+		DisplayName: ジンの祝福
+	}
+
+	CactusLampBuff: {
+		Description: 道を照らす…けど、チラつくよ
+		DisplayName: サボテンランプの光
+	}
+}
+
+Projectiles: {
+	BombSpiritExplosion: {
+		DisplayName: ボムスピリット爆発
+	}
+
+	SandShakerProj: {
+		DisplayName: サンドシェイカー
+	}
+
+	CactusLampPet: {
+		DisplayName: サボテンランプペット
+	}
+
+	BloodSpit: {
+		DisplayName: 血の唾
+	}
+
+	EvilSnakeBite: {
+		DisplayName: 邪悪な蛇の噛みつき
+	}
+
+	CactusSlimeSpike: {
+		DisplayName: サボテンスライムのトゲ
+	}
+
+	CactusSlimeShockwave: {
+		DisplayName: サボテンスライムの衝撃波
+	}
+
+	ScepterSpit: {
+		DisplayName: セプターの唾
+	}
+
+	ScepterBite: {
+		DisplayName: セプターの噛みつき
+	}
+
+	CactusStaffSpike: {
+		DisplayName: サボテンスタッフのトゲ
+	}
+
+	CactusStaffSentry: {
+		DisplayName: サボテンスタッフのセントリー
+	}
+}
+
+NPCs: {
+	HappySpirit: {
+		DisplayName: 幸福なスピリット
+	}
+
+	BombSpirit: {
+		DisplayName: ボムスピリット
+	}
+
+	HallowedCactoid: {
+		DisplayName: カラフルサボトイド
+	}
+
+	CrimsonCactoid: {
+		DisplayName: クリムゾンサボトイド
+	}
+
+	CorruptCactoid: {
+		DisplayName: 不浄のサボトイド
+	}
+
+	ScarabSpirit: {
+		DisplayName: スカラベ精霊
+	}
+
+	EvilSnake: {
+		DisplayName: 邪悪な蛇
+	}
+
+	CactusSlimeIdle: {
+		DisplayName: 眠ているスライム
+	}
+
+	Cactoid: {
+		DisplayName: サボトイド
+	}
+
+	TheSun: {
+		DisplayName: 太陽
+	}
+
+	MegaCactusSlime: {
+		DisplayName: メガサボテンスライム
+	}
+}
+
+WorldGen: {
+	DesertHouseMessage: サボテンの家を生成中
+	DesertMoundMessage: 砂漠の丘を生成中
+	DesertUrnMessage: 壺を生成中
+}
+
+Items: {
+	HallowedCactoidBannerItem: {
+		DisplayName: カラフルサボトイドバナー
+	}
+
+	CrimsonCactoidBannerItem: {
+		DisplayName: クリムゾンサボトイドバナー
+	}
+
+	CorruptCactoidBannerItem: {
+		DisplayName: 不浄のサボトイドバナー
+	}
+
+	CactoidBannerItem: {
+		DisplayName: サボトイドバナー
+	}
+
+	EvilSnakeBannerItem: {
+		DisplayName: 邪悪な蛇のバナー
+	}
+
+	SandShaker: {
+		Tooltip:
+			'''
+			飛行する敵を地面に叩きつける
+			地面にいる敵に追加ダメージの強力な一撃を与える
+			'''
+		DisplayName: サンドシェイカー
+	}
+
+	CactusLamp: {
+		Tooltip: 「中に電球でも入ってるの？」
+		DisplayName: サボテンのランプ
+	}
+
+	SpittingSerpentScepter: {
+		Tooltip:
+			'''
+			敵に「毒」を付与する貫通する唾を放つ
+			「毒舌な言葉を吐き出すんだ！」
+			'''
+		DisplayName: 蛇の毒杖
+	}
+
+	CactusStaff: {
+		Tooltip:
+			'''
+			辺りを守るサボテンのキャミーを召喚する
+			「彼女はトゲトゲしてるってよく言われるけど、キャミーはパーソナルスペースを大事にしてるだけだよ！」
+			'''
+		DisplayName: サボテンの杖
+	}
+
+	SerpentFang: {
+		Tooltip: 「アッ痛ッ…」
+		DisplayName: 蛇の牙
+	}
+}
+

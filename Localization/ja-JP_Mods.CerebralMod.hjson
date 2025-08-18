@@ -1,0 +1,5118 @@
+	Configs: {
+		CMConfigServer: {
+			babyChestsCerebralOnly: {
+				Tooltip: "trueの場合、QoLクラフトアイテムはバニラや他のMODのアイテムのクラフトには使用できない"
+				Label: "QoLクラフトアイテムはCerebral Modのアイテムのみをクラフトできる"
+			}
+			telekineticFlyingKnife: {
+				Tooltip: "trueの場合、フライングナイフは念動力武器に変換され、追加のアビリティを得る。リロードが必要"
+				Label: "フライングナイフを念動力ダメージに変更する"
+			}
+			knackThrowing: {
+				Tooltip: "falseの場合、ナックのメカニズムはこのMODの投擲武器にのみ影響し、他のMODの追加の投擲武器には影響しない"
+				Label: "ナックは全てのMODの投擲武器に影響する"
+			}
+			moddedSentries: {
+				Tooltip: "trueの場合、他のMODのセントリー武器はディフェンダークラスとセントリーダメージに変換される。リロードが必要"
+				Label: "他のMODのセントリーをセントリーダメージに変更する"
+			}
+			vanillaSentries: {
+				Tooltip: "trueの場合、武器、防具、アクセサリーなどのバニラのセントリー関連アイテムはディフェンダークラスとセントリーダメージに変換される。リロードが必要"
+				Label: "バニラのセントリーをセントリーダメージに変更する"
+			}
+			RequireLOS: {
+				Tooltip: "trueの場合、セントリーダメージのセントリー（召喚ダメージとして残るものとは異なり）を設置するには射線が必要で、これはゲーム後半のアクセサリーで回避できる"
+				Label: "セントリーの設置には射線が必要"
+			}
+			DisplayName: "CMコンフィグ サーバー"
+		}
+		CMConfigClient: {
+			disableGuideCrafting: {
+				Tooltip: "trueの場合、初心者ガイドのクラフトレシピを削除する。不要になったら推奨"
+				Label: "初心者ガイドのレシピを無効にする"
+			}
+			mouseTimingUI: {
+				Tooltip: "trueの場合、ミンストレルのタイミングHUDはプレイヤーではなくマウスの位置に表示される"
+				Label: "ミンストレルのタイミングHUDをマウス上に表示"
+			}
+			cueBuffer: {
+				Tooltip: "正しいタイミングウィンドウの何フレーム前にキューが再生されるか"
+				Label: "ミンストレルのキューバッファ"
+			}
+			disableAudioCue: {
+				Tooltip: "メロディック武器の正しいタイミングが始まったときにオーディオキューが再生されるのを停止する"
+				Label: "オーディオキューを無効にする"
+			}
+			disableVisualCue: {
+				Tooltip: "メロディック武器の正しいタイミングが始まったときにビジュアルキューが表示されるのを停止する"
+				Label: "ビジュアルキューを無効にする"
+			}
+			showClassTag: {
+				Tooltip: "そのクラスに直接関連するアイテムにクラスタグを表示する"
+				Label: "クラスタグを表示する"
+			}
+			showUICount: {
+				Tooltip: "UIにカウントが表示されるために必要なセントリースロットの高さ。0に設定して無効にする。何かがセントリースロットを増やしても、そのUIを見たくない場合に便利"
+				Label: "セントリーカウントUI表示"
+			}
+			DisplayName: "CMコンフィグ クライアント"
+		}
+	}
+Tiles: {
+	CerebralWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	CerebralTable: {
+		MapEntry: Table
+	}
+
+	CerebralSofa: {
+		MapEntry: Sofa
+	}
+
+	CerebralSink: {
+		MapEntry: Sink
+	}
+
+	CerebralPiano: {
+		MapEntry: Piano
+	}
+
+	CerebralLantern: {
+		MapEntry: Lantern
+	}
+
+	CerebralLamp: {
+		MapEntry: Mods.CerebralMod.MapObject.CerebralLamp
+	}
+
+	CerebralDoorOpen: {
+		MapEntry: Door
+	}
+
+	CerebralDoorClosed: {
+		MapEntry: Door
+	}
+
+	CerebralClock: {
+		MapEntry: Grandfather Clock
+	}
+
+	CerebralChandelier: {
+		MapEntry: Chandelier
+	}
+
+	CerebralCandle: {
+		MapEntry: Candle
+	}
+
+	CerebralCandelabra: {
+		MapEntry: Candelabra
+	}
+
+	CerebralBookcase: {
+		MapEntry: Bookcase
+	}
+
+	CerebralBed: {
+		MapEntry: Bed
+	}
+
+	CerebralBathtub: {
+		MapEntry: Bathtub
+	}
+
+	EngineerToolkit: {
+		MapEntry: Engineer Toolkit
+	}
+
+	DefenderBanners: {
+		MapEntry: Banner
+	}
+
+	CerebralDresser: {
+		MapEntry: Dresser
+		ContainerName: Dresser
+	}
+
+	CerebralChest: {
+		MapEntry: Chest
+		ContainerName: Chest
+	}
+
+	EngineerChest: {
+		MapEntry: Engineer Chest
+		ContainerName: Engineer Chest
+	}
+}
+
+	DamageClasses: {
+		"MelodicDamage.DisplayName": "メロディックダメージ"
+		"SentryDamage.DisplayName": "セントリーダメージ"
+		"TelekineticDamage.DisplayName": "テレキネティックダメージ"
+	}
+	Conditions: {
+		GuideCrafting: "ガイドクラフトのコンフィグが有効"
+		DefeatedPlantera: "このワールドでプランテラを倒した"
+		RemixWorld: "Don't Dig Upベースのワールドである必要がある"
+		CerebralOnlyBabyChests: "「ベビーチェストはCerebral Modのアイテムのみをクラフトできる」の設定が無効"
+	}
+	Origins: {
+		Defender: {
+			DisplayName: "ディフェンダー"
+			Flavor: "慎重に設置したトラップとタレットで戦場を支配する"
+			Description: "鉄のスパイクとフローズンアーマー一式を持って開始する"
+		}
+		Esper: {
+			DisplayName: "エスパー"
+			Flavor: "精神力で投擲物を動かし、安全な場所から攻撃できる"
+			Description: "鉄ののこぎり刃とデザートワンダラーアーマー一式を持って開始する"
+		}
+	}
+	Prefixes: {
+		"PrefixDormant.DisplayName": "休止状態の"
+		"PrefixOverclocked.DisplayName": "オーバークロックされた"
+	}
+
+Items: {
+	BrownDwarfEmblem: {
+		Tooltip:
+			'''
+			ダメージが20%増加
+			他のルナーフラグメントエンブレムとは重複しない
+			'''
+		DisplayName: "褐色矮星のエンブレム"
+	}
+	FactotumEmblem: {
+		Tooltip: "ダメージが8%増加"
+		DisplayName: "ファクトータムエンブレム"
+	}
+	CommonSword: {
+		Tooltip: ""
+		DisplayName: "コモンソード"
+	}
+	VeilCharm: {
+		Tooltip:
+			'''
+			ライフ回復速度+2
+			回復ポーションのクールダウン-25%
+			投擲ダメージ+8%
+			投擲クリティカルヒット率+8%
+			投擲物の速度+20%
+			'''
+		DisplayName: "ヴェールチャーム"
+	}
+	StellarwindCharm: {
+		Tooltip:
+			'''
+			ライフ回復速度+2
+			回復ポーションのクールダウン-25%
+			メロディックダメージ+8%
+			メロディックテンポ+8%
+			'''
+		DisplayName: "ステラウィンドチャーム"
+	}
+	CharmOfMinstrels: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\nメロディックダメージ+8%\nメロディックテンポ+8%"
+		DisplayName: "ミンストレルのチャーム"
+	}
+	CharmOfEspers: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\n念動力ダメージ+8%\n最大サイコシス+5"
+		DisplayName: "エスパーのチャーム"
+	}
+	PulsarCharm: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\nセントリーダメージ+8%\nセントリー速度+8%\nセントリースロット+1"
+		DisplayName: "パルサーチャーム"
+	}
+	CharmOfBalance: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\nダメージ+5%\n防御貫通+5"
+		DisplayName: "バランスのチャーム"
+	}
+	BrownDwarfCharm: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\nダメージ+5%\nクリティカルヒット率+5\n防御貫通+5"
+		DisplayName: "褐色矮星のチャーム"
+	}
+	CharmOfDefenders: {
+		Tooltip: "ライフ回復速度+2\n回復ポーションのクールダウン-25%\nセントリーダメージ+8%\nセントリー速度+8%"
+		DisplayName: "ディフェンダーのチャーム"
+	}
+	VortexBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "ボルテックスビームハマックス"
+	}
+	StardustBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "スターダストビームハマックス"
+	}
+	SolarBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "ソーラービームハマックス"
+	}
+	NebulaBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "ネビュラビームハマックス"
+	}
+	VeilBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "ヴェールビームハマックス"
+	}
+	StellarwindBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドビームハマックス"
+	}
+	PulsarBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "パルサービームハマックス"
+	}
+	GravityBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "グラビティビームハマックス"
+	}
+	LuminiteBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: "褐色矮星のビームハマックス"
+	}
+	VeilBeamDrill: {
+		Tooltip: ""
+		DisplayName: "ヴェールビームドリル"
+	}
+	StellarwindBeamDrill: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドビームドリル"
+	}
+	PulsarBeamDrill: {
+		Tooltip: ""
+		DisplayName: "パルサービームドリル"
+	}
+	GravityBeamDrill: {
+		Tooltip: ""
+		DisplayName: "グラビティビームドリル"
+	}
+	LuminiteBeamDrill: {
+		Tooltip: ""
+		DisplayName: "褐色矮星のビームドリル"
+	}
+	CrimsonHeartTrumpet: {
+		DisplayName: "クリムゾンハート・トランペット"
+		Tooltip: ""
+	}
+	HellstoneBell: {
+		DisplayName: "ヘルズベル"
+		Tooltip: ""
+	}
+	BrownDwarfFragmentBlock: {
+		Tooltip: ""
+		DisplayName: "褐色矮星のフラグメントブロック"
+	}
+	BrownDwarfBrick: {
+		Tooltip: ""
+		DisplayName: "褐色矮星レンガ"
+	}
+	BeeTambourine: {
+		Tooltip: ""
+		DisplayName: "ビー・タンバリン"
+	}
+	EbonCactusTimbrel: {
+		Tooltip: ""
+		DisplayName: "黒檀サボテンのティンブレル"
+	}
+	CrimCactusTimbrel: {
+		Tooltip: ""
+		DisplayName: "真紅サボテンのティンブレル"
+	}
+	AetherLotusPetal: {
+		Tooltip: "サイコシス回復遅延を永久に削除する"
+		DisplayName: "クリスタルロータスの花びら"
+	}
+	CommonBody: {
+		DisplayName: "コモンボディ"
+		Tooltip: ""
+	}
+	CommonHeadMixed: {
+		DisplayName: "コモンヘッド・ミックス"
+		Tooltip: ""
+	}
+	CommonLegs: {
+		DisplayName: "コモンレッグ"
+		Tooltip: ""
+	}
+	EsperSoul: {
+		Tooltip: "念動力ダメージ+30%\n最大サイコシス+45\nサイコシス回復速度+450%\n25%の確率で念動力で攻撃を回避する\n念動力攻撃に多くのキネシスを付与し、ヒット時に多くのデバフを引き起こす可能性がある\n念動力武器を構えている間、右クリックでズームできる\nアクセサリーの表示を隠すと、他のステータスを維持したままズームを無効化する\n「精神と一体となる」"
+		DisplayName: "エスパーソウル"
+	}
+	EsperEssence: {
+		Tooltip: "念動力ダメージ+18%\n最大サイコシス+9\nサイコシス回復速度+90%\n15%の確率で念動力で攻撃を回避する\n「これは始まりに過ぎない…」"
+		DisplayName: "エスパーエッセンス"
+	}
+	DefenderSoul: {
+		Tooltip: "セントリーダメージ+30%\nセントリー設置数+6\nセントリー速度+75%\nタレットの射程+150%\nインジェニュイティ+15\nセントリーのノックバック+150%\n固いタイルを貫通してセントリーを設置できる\n設置時にCerebral Modのトラップとタレットが浮遊する\n元々浮遊するトラップやタレットには不要\n「そして願わくば…君に向けられていないことを」"
+		DisplayName: "ディフェンダーソウル"
+	}
+	DefenderEssence: {
+		Tooltip: "セントリーダメージ+18%\nセントリー設置数+1\nセントリー速度+15%\nタレットの射程+30%\nインジェニュイティ+3\n「これは始まりに過ぎない…」"
+		DisplayName: "ディフェンダーエッセンス"
+	}
+	HellstoneCactusPillar: {
+		Tooltip: ""
+		DisplayName: "ヘルストーンサボテンの柱"
+	}
+	BeeHook: {
+		Tooltip: "着弾時に3匹のハチを放つ\nこれには1秒のクールダウンがある\n[c/FF0000:このアイテムはまだ正常に動作せず、通常は入手不可]"
+		DisplayName: "ビーフック"
+	}
+	ShadewoodShaken: {
+		Tooltip: ""
+		DisplayName: "シェイドウッド・シェイケン"
+	}
+	GraniteShaken: {
+		Tooltip: ""
+		DisplayName: "グラナイト・シェイケン"
+	}
+	SlimySpiker: {
+		Tooltip: ""
+		DisplayName: "スライミースパイカー"
+	}
+	PinkSlimySpiker: {
+		Tooltip: ""
+		DisplayName: "ピンクのスライミースパイカー"
+	}
+	WoodenStake: {
+		Tooltip: "2回バウンドする"
+		DisplayName: "木の杭"
+	}
+	TungstenShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "タングステン手裏剣"
+	}
+	TopazSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "トパーズ・サッチェルチャージ"
+	}
+	TinShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "スズの手裏剣"
+	}
+	Superball: {
+		Tooltip: "タイルで跳ね返り、重力の影響を受けない\n遠いスーパーな土地から来た\nイーターオブワールドかクトゥルフの脳を倒した後、旅の商人から購入可能"
+		DisplayName: "スーパーボール"
+	}
+	SkywareShell: {
+		Tooltip: "タイルで跳ね返り、バウンド時に垂直方向の勢いを止める"
+		DisplayName: "フォーキャスティングシェル"
+	}
+	SilverKunai: {
+		Tooltip: "2回バウンドする"
+		DisplayName: "銀のクナイ"
+	}
+	ShadowOrbHatchet: {
+		Tooltip: "投げるとカーソル位置で一瞬回転する"
+		DisplayName: "ダークハチェット"
+	}
+	ShadewoodGlaive: {
+		Tooltip: "ブーメランのように機能する\n戻ってくる際に400%のダメージを与える"
+		DisplayName: "シェイドウッド・シェイケン"
+	}
+	SapphireSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "サファイア・サッチェルチャージ"
+	}
+	RubySatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "ルビー・サッチェルチャージ"
+	}
+	RichMahoganyRainJavelin: {
+		Tooltip: "飛んでいる間に投擲物を降らせる"
+		DisplayName: "リッチマホガニー・レインジャベリン"
+	}
+	Puck: {
+		Tooltip: "地面を転がり、タイルの側面で跳ね返る"
+		DisplayName: "パック"
+	}
+	PlatinumShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "プラチナ手裏剣"
+	}
+	PalmWoodShell: {
+		Tooltip: "地面を転がり、タイルの側面で跳ね返る"
+		DisplayName: "パームウッドシェル"
+	}
+	NightShuriken: {
+		Tooltip: "一度に4つ投げる\n敵を毒、ずぶぬれ、炎上状態にする可能性がある"
+		DisplayName: "トワイライト手裏剣"
+	}
+	NightKunai: {
+		Tooltip: "4回バウンドする\n敵を毒、ずぶぬれ、炎上状態にする可能性がある"
+		DisplayName: "ミッドナイトストライカー"
+	}
+	MeteoriteTNT: {
+		Tooltip: "「投げるのは難しいかもしれない」\nタイルを破壊せず、プレイヤーにダメージを与えない\n右クリックでより低い速度で投げる"
+		DisplayName: "メテオライトTNT"
+	}
+	MarbleHatchet: {
+		Tooltip: "投げるとカーソル位置で一瞬回転する"
+		DisplayName: "大理石のハチェット"
+	}
+	LeadShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "鉛の手裏剣"
+	}
+	JungleShuriken: {
+		Tooltip: "一度に3つ投げる\n敵を毒状態にする可能性がある"
+		DisplayName: "ポイズナス手裏剣"
+	}
+	JungleKunai: {
+		Tooltip: "3回バウンドする\n敵を毒状態にする可能性がある"
+		DisplayName: "グラッシー・クナイ"
+	}
+	IronKunai: {
+		Tooltip: "2回バウンドする"
+		DisplayName: "鉄のクナイ"
+	}
+	HellstoneShuriken: {
+		Tooltip: "一度に3つ投げる\n敵を炎上させる可能性がある"
+		DisplayName: "ホット手裏剣"
+	}
+	HellstoneKunai: {
+		Tooltip: "3回バウンドする\n敵を炎上させる可能性がある"
+		DisplayName: "ブレイジングクナイ"
+	}
+	GraniteGlaive: {
+		Tooltip: "ブーメランのように機能する\n戻ってくる際に400%のダメージを与える"
+		DisplayName: "グラナイト・シェイケン"
+	}
+	GoldKunai: {
+		Tooltip: "2回バウンドする"
+		DisplayName: "金のクナイ"
+	}
+	GlowingMushroomRainJavelin: {
+		Tooltip: "飛んでいる間に投擲物を降らせる"
+		DisplayName: "グロウマッシュルーム・レインジャベリン"
+	}
+	EnchantedShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "エンチャント手裏剣"
+	}
+	EnchantedKunai: {
+		Tooltip: "3回バウンドする"
+		DisplayName: "エンチャントクナイ"
+	}
+	EmeraldSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "エメラルド・サッチェルチャージ"
+	}
+	EbonwoodHatchet: {
+		Tooltip: "投げるとカーソル位置で一瞬回転する"
+		DisplayName: "エボンウッド・ハチェット"
+	}
+	DynastyWoodSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "ダイナスティウッド・サッチェルチャージ"
+	}
+	DungeonShuriken: {
+		Tooltip: "一度に3つ投げる\n通常より使用時間が短い"
+		DisplayName: "ウェットスター"
+	}
+	DungeonKunai: {
+		Tooltip: "3回バウンドする\n通常より使用時間が短い"
+		DisplayName: "フロークナイ"
+	}
+	DiamondSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "ダイヤモンド・サッチェルチャージ"
+	}
+	DemoniteShuriken: {
+		Tooltip: "一度に3つ投げる\nクリムゾンの対になるものより速い"
+		DisplayName: "シャドウィ手裏剣"
+	}
+	DemoniteKunai: {
+		Tooltip: "3回バウンドする\nクリムゾンの対になるものより速い"
+		DisplayName: "ダーククナイ"
+	}
+	CrimtaneShuriken: {
+		Tooltip: "一度に3つ投げる\n不浄の地の対になるものより強い"
+		DisplayName: "ブッチャラー手裏剣"
+	}
+	CrimtaneKunai: {
+		Tooltip: "3回バウンドする\n不浄の地の対になるものより強い"
+		DisplayName: "ブラッディクナイ"
+	}
+	CrimsonHeartShaken: {
+		Tooltip: "ブーメランのように機能する\n戻ってくる際に400%のダメージを与える"
+		DisplayName: "ブリーディング・シェイケン"
+	}
+	CopperKunai: {
+		Tooltip: "2回バウンドする"
+		DisplayName: "銅のクナイ"
+	}
+	CactusNailBomb: {
+		Tooltip: "着弾時に16本の釘を爆発させる"
+		DisplayName: "サボテンネイルボム"
+	}
+	BorealWoodShuriken: {
+		Tooltip: "一度に3つ投げる"
+		DisplayName: "ボリアルウッド手裏剣"
+	}
+	BeeShell: {
+		Tooltip: "地面を転がり、タイルの側面で跳ね返る\nバウンドするたびにハチを産む"
+		DisplayName: "ビールンバ"
+	}
+	AshWoodTNT: {
+		Tooltip: "「投げるのは難しいかもしれない」\nタイルを破壊せず、プレイヤーにダメージを与えない\n右クリックでより低い速度で投げる"
+		DisplayName: "アッシュウッドTNT"
+	}
+	AmethystSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "アメジスト・サッチェルチャージ"
+	}
+	AmberSatchelCharge: {
+		Tooltip: "着弾時に付着する\n<右>をダブルタップして起爆する\nいずれかのサッチェルチャージは一度に8つまでしかアクティブにできず、最も古いものが自動的に起爆する"
+		DisplayName: "アンバー・サッチェルチャージ"
+	}
+	CrystalGrenade: {
+		Tooltip: "クリスタルシャードに爆発する"
+		DisplayName: "クリスタルグレネード"
+	}
+	YardbirdsCrow: {
+		Tooltip: "演奏に成功するとホーミング弾を発射する\nコンボを維持すると落下速度が遅くなる"
+		DisplayName: "ヤードバードのクロウ"
+	}
+	WoodenLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "木のリュート"
+	}
+	TungstenGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "タングステンギター"
+	}
+	TopazFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "トパーズフルート"
+	}
+	TinGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "スズのギター"
+	}
+	SunflowerWhistle: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットに貫通波を発射する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "サンフラワーホイッスル"
+	}
+	SlimyDrum: {
+		Tooltip: "演奏に成功すると使用者の周りに螺旋状の投擲物を放つ\n投擲物は固いタイルに触れると早く消える\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "スライミーサック"
+	}
+	SilverGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "銀のギター"
+	}
+	ShadewoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "シェイドウッド・リュート"
+	}
+	SapphireFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "サファイアフルート"
+	}
+	RubyFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ルビーフルート"
+	}
+	RichMahoganyLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "リッチマホガニー・リュート"
+	}
+	PlatinumHarp: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "プラチナハープ"
+	}
+	PinkSlimyDrum: {
+		Tooltip: "演奏に成功すると使用者の周りに螺旋状の投擲物を放つ\n投擲物は固いタイルに触れると早く消える\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ピンクのスライミーサック"
+	}
+	PalmWoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "パームウッド・リュート"
+	}
+	MushroomBell: {
+		Tooltip: "演奏に成功すると使用者の周りに4つの投擲物が周回する\nコンボごとに防御力が3増加する"
+		DisplayName: "マッシュルームベル"
+	}
+	MarbleTrumpet: {
+		Tooltip: "演奏に成功すると最も近い（上限あり）敵に爆発を起こす\nコンボごとにダメージが5%増加するが、正しいタイミングのゾーンが狭まる"
+		DisplayName: "大理石のトランペット"
+	}
+	LeadHarp: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "鉛のライアー"
+	}
+	IronHarp: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "鉄のライアー"
+	}
+	IceSaxophone: {
+		Tooltip: "演奏に成功すると「フロストバーン」を引き起こすホーミング弾を発射する\nコンボを維持すると「凍結」への耐性を得る"
+		DisplayName: "フロスティサクソフォン"
+	}
+	GraniteWarHorn: {
+		Tooltip: "演奏に成功すると最も近い（上限あり）敵に貫通する柱を生成する\nコンボごとにダメージが5%増加するが、正しいタイミングのゾーンが狭まる"
+		DisplayName: "グラナイトウォーホーン"
+	}
+	GoldHarp: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "金のハープ"
+	}
+	EyeSaxophone: {
+		Tooltip: "演奏に成功するとホーミング弾を発射する\n最小コンボボーナストリガー（デフォルトで5）ごとにHPを5回復する"
+		DisplayName: "アイ・サクソフォン"
+	}
+	EnchantedGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "エンチャントギター"
+	}
+	EmeraldFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "エメラルドフルート"
+	}
+	EbonwoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "エボンウッド・リュート"
+	}
+	DynastyWoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ダイナスティウッド・リュート"
+	}
+	DiamondFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ダイヤモンドフルート"
+	}
+	DemoniteGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにテンポが3%増加する"
+		DisplayName: "デモナイトギター"
+	}
+	CrimtaneGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにライフ回復速度が1増加する"
+		DisplayName: "クリムタンギター"
+	}
+	CopperGuitar: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "銅のギター"
+	}
+	CactusTimbrel: {
+		Tooltip: "演奏に成功すると使用者の周りに16個の投擲物を発射する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "サボテンのティンブレル"
+	}
+	BorealWoodWhistle: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットに貫通波を発射する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ボリアルウッド・ホイッスル"
+	}
+	BorealWoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "ボリアルウッド・リュート"
+	}
+	AshWoodLute: {
+		Tooltip: "演奏に成功すると燃焼ダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "アッシュウッド・リュート"
+	}
+	AmethystFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "アメジストフルート"
+	}
+	AmberFlute: {
+		Tooltip: "演奏に成功すると範囲内の最も近いターゲットへのビームを維持する\nコンボごとにミンストレルのクリティカル率が1増加する"
+		DisplayName: "アンバーフルート"
+	}
+	PearlwoodLute: {
+		Tooltip: "演奏に成功するとダメージオーラを維持する\nコンボごとにミンストレルのクリティカル率が2増加する"
+		DisplayName: "パールウッド・リュート"
+	}
+	CrystalFlail: {
+		Tooltip: "ターゲットに当たるとクリスタルシャードを生成する"
+		DisplayName: "クリスタルフレイル"
+	}
+	SangriScepter: {
+		Tooltip: "血のシャワーを吹きかける"
+		DisplayName: "サングリセプター"
+	}
+	VileOrb: {
+		Tooltip: "あなたの周りに呪われた炎の爆発を作り出す"
+		DisplayName: "ヴァイルオーブ"
+	}
+	WoodenDisc: {
+		Tooltip: ""
+		DisplayName: "木のディスク"
+	}
+	UncommonSawblade: {
+		Tooltip: "ティア2ののこぎり刃"
+		DisplayName: "アンコモンソーブレード"
+	}
+	TungstenSawblade: {
+		Tooltip: ""
+		DisplayName: "タングステンソーブレード"
+	}
+	TorchTwirler: {
+		Tooltip: ""
+		DisplayName: "トーチトワラー"
+	}
+	TopazRift: {
+		Tooltip: "最も近い敵に向かってトパーズボルトを発射する"
+		DisplayName: "トパーズリフト"
+	}
+	TKMeteor: {
+		Tooltip: ""
+		DisplayName: "サイ・メテオ"
+	}
+	TKBoulder: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる"
+		DisplayName: "サイ・ボールダー"
+	}
+	TinSawblade: {
+		Tooltip: ""
+		DisplayName: "スズのソーブレード"
+	}
+	SpittingSandfish: {
+		Tooltip: "向いている方向に泡を発射する\n右クリックで発射方向の固定を切り替える\nまだ入手していない場合、釣りクエストの報酬として入手可能"
+		DisplayName: "スピッティングサンドフィッシュ"
+	}
+	SpikyBallLobber: {
+		Tooltip: "スパイキーボールを投げる\n右クリックで発射方向の固定を切り替える"
+		DisplayName: "スパイキーボールロバー"
+	}
+	SlimyCanister: {
+		Tooltip: "ダメージを与えるスライム状の液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "スライミーキャニスター"
+	}
+	SilverSawblade: {
+		Tooltip: ""
+		DisplayName: "銀のソーブレード"
+	}
+	ShadowOrbit: {
+		Tooltip: "オーブの周りに4つの投擲物を周回させる"
+		DisplayName: "シャドウオービット"
+	}
+	ShadewoodDisc: {
+		Tooltip: ""
+		DisplayName: "シェイドウッド・ディスク"
+	}
+	SapphireRift: {
+		Tooltip: "最も近い敵に向かってサファイアボルトを発射する"
+		DisplayName: "サファイアリフト"
+	}
+	RubyRift: {
+		Tooltip: "最も近い敵に向かってルビーボルトを発射する"
+		DisplayName: "ルビーリフト"
+	}
+	RichMahoganyDisc: {
+		Tooltip: ""
+		DisplayName: "リッチマホガニー・ディスク"
+	}
+	PlatinumSawblade: {
+		Tooltip: ""
+		DisplayName: "プラチナソーブレード"
+	}
+	PinkyTwirler: {
+		Tooltip: ""
+		DisplayName: "ピンキートワラー"
+	}
+	PinkSlimyCanister: {
+		Tooltip: "ダメージを与えるピンクのスライム状の液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ピンクのスライミーキャニスター"
+	}
+	PalmWoodDisc: {
+		Tooltip: ""
+		DisplayName: "パームウッド・ディスク"
+	}
+	NightSawblade: {
+		Tooltip: ""
+		DisplayName: "ナイトシュレッド"
+	}
+	NightCanister: {
+		Tooltip: "ダメージを与える液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ミッドナイトキャニスター"
+	}
+	MoltenBoulder: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる\n敵を炎上させる可能性がある"
+		DisplayName: "モルテンボールダー"
+	}
+	LeadSawblade: {
+		Tooltip: ""
+		DisplayName: "鉛のソーブレード"
+	}
+	JungleSawblade: {
+		Tooltip: "敵を毒状態にする可能性がある"
+		DisplayName: "グラスバー"
+	}
+	JungleCanister: {
+		Tooltip: "有毒な液体を注ぐ"
+		DisplayName: "スラッジキャニスター"
+	}
+	IronSawblade: {
+		Tooltip: ""
+		DisplayName: "鉄のソーブレード"
+	}
+	HellstoneSawblade: {
+		Tooltip: "敵を炎上させる可能性がある"
+		DisplayName: "ソウフレイム"
+	}
+	HellstoneCanister: {
+		Tooltip: "溶岩を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ラヴァキャニスター"
+	}
+	HellbatJar: {
+		Tooltip: "敵を追いかけるヘルバットを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "ヘルバットの瓶"
+	}
+	GoldSawblade: {
+		Tooltip: ""
+		DisplayName: "金のソーブレード"
+	}
+	FrostburnTwirler: {
+		Tooltip: ""
+		DisplayName: "フロストバーントワラー"
+	}
+	FeatherGust: {
+		Tooltip: "ノックバック耐性の低い敵をジャグリングする\n飛行する敵は下に押しやられる"
+		DisplayName: "フェザーガスト"
+	}
+	EyeJar: {
+		Tooltip: "敵を追いかける目を召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "目の瓶"
+	}
+	EnchantedSawblade: {
+		Tooltip: ""
+		DisplayName: "エンチャントソーブレード"
+	}
+	EmeraldRift: {
+		Tooltip: "最も近い敵に向かってエメラルドボルトを発射する"
+		DisplayName: "エメラルドリフト"
+	}
+	EbonwoodDisc: {
+		Tooltip: ""
+		DisplayName: "エボンウッド・ディスク"
+	}
+	EbonCactusBall: {
+		Tooltip: ""
+		DisplayName: "黒檀サボテンボール"
+	}
+	DynastyWoodDisc: {
+		Tooltip: ""
+		DisplayName: "ダイナスティウッド・ディスク"
+	}
+	DungeonSawblade: {
+		Tooltip: "非常に速い速度"
+		DisplayName: "ボーンソウ"
+	}
+	DungeonCanister: {
+		Tooltip: "ダメージを与える液体を急速に注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "グーイーキャニスター"
+	}
+	DiamondRift: {
+		Tooltip: "最も近い敵に向かってダイヤモンドボルトを発射する"
+		DisplayName: "ダイヤモンドリフト"
+	}
+	DemonTwirler: {
+		Tooltip: ""
+		DisplayName: "デーモントワラー"
+	}
+	DemoniteSawblade: {
+		Tooltip: "クリムゾンの対になるものより速い"
+		DisplayName: "デーモンソーン"
+	}
+	DemoniteCanister: {
+		Tooltip: "ダメージを与える邪悪な液体を素早く注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ヴァイルキャニスター"
+	}
+	SoilSawblade: {
+		Tooltip: "インベントリにある土666ブロックごとにダメージが1増加する\nこの武器を使用すると、使用時および毎秒、ダメージボーナスの1/20に相当する土を消費する\nダメージはメインボスの進行状況に基づいて上限が設定される\nムーンロード後は制限なし"
+		DisplayName: "ソイルソーブレード"
+	}
+	CrimtaneSawblade: {
+		Tooltip: "不浄の地の対になるものより強い"
+		DisplayName: "ブッチャーズバーブ"
+	}
+	CrimtaneCanister: {
+		Tooltip: "ダメージを与える血をゆっくりと注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ブラッドキャニスター"
+	}
+	CrimCactusBall: {
+		Tooltip: ""
+		DisplayName: "真紅サボテンボール"
+	}
+	CopperSawblade: {
+		Tooltip: ""
+		DisplayName: "銅のソーブレード"
+	}
+	CommonSawblade: {
+		Tooltip: "ティア1ののこぎり刃"
+		DisplayName: "コモンソーブレード"
+	}
+	ClotBomber: {
+		Tooltip: "時限式の浮遊爆弾を生成する"
+		DisplayName: "クロットボンバー"
+	}
+	CactusBall: {
+		Tooltip: ""
+		DisplayName: "サボテンボール"
+	}
+	BrightTwirler: {
+		Tooltip: ""
+		DisplayName: "ブライトトワラー"
+	}
+	BowlingBall: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる\nいとこたちと一緒に使うのが一番\nクトゥルフの目を倒した後、旅の商人から購入可能"
+		DisplayName: "ボウリングボール"
+	}
+	BorealWoodDisc: {
+		Tooltip: ""
+		DisplayName: "ボリアルウッド・ディスク"
+	}
+	BoneTwirler: {
+		Tooltip: ""
+		DisplayName: "ボーントワラー"
+	}
+	BeeJar: {
+		Tooltip: "敵を追いかけるハチを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "ハチの瓶"
+	}
+	BatJar: {
+		Tooltip: "敵を追いかけるコウモリを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "コウモリの瓶"
+	}
+	AmethystRift: {
+		Tooltip: "最も近い敵に向かってアメジストボルトを発射する"
+		DisplayName: "アメジストリフト"
+	}
+	AmberRift: {
+		Tooltip: "最も近い敵に向かってアンバーボルトを発射する"
+		DisplayName: "アンバーリフト"
+	}
+	RelicSawblade: {
+		Tooltip: "ティア6ののこぎり刃\n時々、爆発するホーミング弾を残す\n爆発は持続する"
+		DisplayName: "レリックソーブレード"
+	}
+	EldritchEyeJar: {
+		Tooltip: "固いタイルを貫通して敵を追いかけるエルドリッチアイを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "エルドリッチアイの瓶"
+	}
+	CactuarEsper: {
+		Tooltip: "毎秒60本の針をランダムな方向に拡散させる"
+		DisplayName: "ミニサボテンダー"
+	}
+	BlackHoleBomb: {
+		Tooltip: "ブラックホールを放ち、敵を引き寄せてダメージを与える\nアイテムも引き寄せる"
+		DisplayName: "ブラックヴォイドエンジン"
+	}
+	AccretionDisc: {
+		Tooltip: "サイズが大きくなる（上限あり）オーラに囲まれ、ダメージを与える\nヒット時のターゲットの無敵時間を短縮する"
+		DisplayName: "降着円盤"
+	}
+	YellowTKRocket: {
+		Tooltip: ""
+		DisplayName: "黄色のサイロケット"
+	}
+	WaspJar: {
+		Tooltip: "敵を追いかけるハチを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "ワスプの瓶"
+	}
+	VenomTwirler: {
+		Tooltip: "ヒット時に「ヴェノム」を引き起こす"
+		DisplayName: "ヴェノムトワラー"
+	}
+	TrueNightSawblade: {
+		Tooltip: "ヒット時のターゲットの無敵時間を短縮する"
+		DisplayName: "真・ナイトシュレッド"
+	}
+	TrueNightCanister: {
+		Tooltip: "貫通する液体を急速に注ぐ\nヒット時のターゲットの無敵時間を短縮する\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "真・ミッドナイトキャニスター"
+	}
+	TrueHallowedSawblade: {
+		Tooltip: "メインののこぎり刃の周りを小さなのこぎり刃が回転する"
+		DisplayName: "真・フェンリルの牙"
+	}
+	TrueHallowedCanister: {
+		Tooltip: "貫通する液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）\nリフト武器のようにも機能する"
+		DisplayName: "真・ゴールドロッパー"
+	}
+	TKThornBall: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる"
+		DisplayName: "サイ・ソーンボール"
+	}
+	TKPrimeVice: {
+		Tooltip: ""
+		DisplayName: "サイ・プライムバイス"
+	}
+	TKPrimeSaw: {
+		Tooltip: ""
+		DisplayName: "サイ・プライムソウ"
+	}
+	TKPrimeLaser: {
+		Tooltip: ""
+		DisplayName: "サイ・プライムレーザー"
+	}
+	TKPrimeCannon: {
+		Tooltip: ""
+		DisplayName: "サイ・プライムキャノン"
+	}
+	TKCannonball: {
+		Tooltip: ""
+		DisplayName: "サイ・キャノンボール"
+	}
+	TitaniumSawblade: {
+		Tooltip: ""
+		DisplayName: "チタニウムソーブレード"
+	}
+	TerraSawblade: {
+		Tooltip: "ヒット時のターゲットの無敵時間を短縮する\nエネルギーののこぎり刃がメインののこぎり刃の周りを回転する"
+		DisplayName: "ライフホイール"
+	}
+	TerraCanister: {
+		Tooltip: "貫通する液体を急速に注ぐ\nヒット時のターゲットの無敵時間を短縮する\nリフト武器のようにも機能する\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ネイチャーズデュー"
+	}
+	SuperSpittingSandfish: {
+		Tooltip: "向いている方向に3つの泡を発射する\n右クリックで発射方向の固定を切り替える\nハードモードでまだ入手していない場合、釣りクエストの報酬として入手可能"
+		DisplayName: "スーパースピッティングサンドフィッシュ"
+	}
+	SpookyWoodDisc: {
+		Tooltip: ""
+		DisplayName: "スプーキーウッド・ディスク"
+	}
+	SpectreRift: {
+		Tooltip: "最も近い敵に向かってタイルを無視するスペクターボルトを発射する\n[c/0080FF:錆びた装甲スケルトンのいずれかの亜種からドロップ]"
+		DisplayName: "スペクターリフト"
+	}
+	SnowmanBoulder: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる"
+		DisplayName: "スノーマンボールダー"
+	}
+	SkeletonBoneLobber: {
+		Tooltip: "X-ボーンを投げる\n右クリックで発射方向の固定を切り替える\nハードモードでスケルトンの商人から購入可能"
+		DisplayName: "スケルトンボーンロバー"
+	}
+	SharknadoRift: {
+		Tooltip: "最も近い敵に向かってゆっくりとシャークネードを発射する\nシャークネードは着弾時に水の竜巻に爆発する"
+		DisplayName: "シャークネードリフト"
+	}
+	ShadowflameRift: {
+		Tooltip: "最も近い敵に向かってシャドウフレイムボルトを発射する"
+		DisplayName: "シャドウフレイムリフト"
+	}
+	RedTKRocket: {
+		Tooltip: ""
+		DisplayName: "赤色のサイロケット"
+	}
+	RareSawblade: {
+		Tooltip: "ティア3ののこぎり刃"
+		DisplayName: "レアソーブレード"
+	}
+	RainbowTwirler: {
+		Tooltip: ""
+		DisplayName: "レインボートワラー"
+	}
+	PsiSpikeBall: {
+		Tooltip: "単一のスパイクボールを周回させる\n[c/0080FF:青い装甲スケルトンのいずれかの亜種からドロップ]"
+		DisplayName: "サイ・スパイクボール"
+	}
+	PsiPumpKing: {
+		Tooltip: "衝撃時の速度が速いほどダメージが大きくなる\n地面を転がっている間、ギリシャ火の跡を残す"
+		DisplayName: "サイ・パンプキングボールダー"
+	}
+	PsiExplodingPresent: {
+		Tooltip: ""
+		DisplayName: "サイ・エクスプローディングプレゼント"
+	}
+	PrismRift: {
+		Tooltip: "最も近い敵に向かってプリズムボルトを発射する"
+		DisplayName: "プリズムリフト"
+	}
+	PixieJar: {
+		Tooltip: "敵を追いかける3色のピクシーのうちの1体を召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する\n[c/0080FF:ピクシーからドロップ]"
+		DisplayName: "ピクシーの瓶"
+	}
+	PearlwoodDisc: {
+		Tooltip: ""
+		DisplayName: "パールウッド・ディスク"
+	}
+	PearlCactusBall: {
+		Tooltip: ""
+		DisplayName: "パールサボテンボール"
+	}
+	PalladiumSawblade: {
+		Tooltip: ""
+		DisplayName: "パラジウムソーブレード"
+	}
+	OrnamentsOrbit: {
+		Tooltip: "オーブの周りに8つのオーナメント投擲物を周回させる"
+		DisplayName: "オーナメントオービット"
+	}
+	OrichalcumSawblade: {
+		Tooltip: ""
+		DisplayName: "オリハルコンソーブレード"
+	}
+	MythrilSawblade: {
+		Tooltip: ""
+		DisplayName: "ミスリルソーブレード"
+	}
+	MourningTwirler: {
+		Tooltip: "ヒット時に「炎上！」を引き起こす\nギリシャ火を広げる"
+		DisplayName: "モーニングトワラー"
+	}
+	MartianPsi: {
+		Tooltip: "大きな爆発を引き起こし、ヒット時に「放射能汚染」を感染させる"
+		DisplayName: "ローリングニュートロニウムコア"
+	}
+	LiquidNitrogenCanister: {
+		Tooltip: "減速させる冷たい液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "液体窒素キャニスター"
+	}
+	LegendarySawblade: {
+		Tooltip: "ティア5ののこぎり刃\n時々、爆発するホーミング弾を残す"
+		DisplayName: "レジェンダリーソーブレード"
+	}
+	ImpiousBrooch: {
+		Tooltip: "持続的な爆発を残す時限式の浮遊爆弾を生成する\n[c/0080FF:地獄の装甲スケルトンのいずれかの亜種からドロップ]"
+		DisplayName: "不敬なブローチ"
+	}
+	IcicleSpitter: {
+		Tooltip: "向いている方向に氷の破片を急速に発射する\n毎秒、より速く移動し2倍のダメージを与える大きな投擲物も発射する\n右クリックで発射方向の固定を切り替える"
+		DisplayName: "アイシクルスピッター"
+	}
+	IchorTwirler: {
+		Tooltip: ""
+		DisplayName: "イカートワラー"
+	}
+	IchorCanister: {
+		Tooltip: "神の血をこぼす…\nダメージを与えるイカー液をこぼす\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "イカーキャニスター"
+	}
+	IchorBomber: {
+		Tooltip: "イカーを引き起こす時限式の浮遊爆弾を生成する"
+		DisplayName: "イカーボンバー"
+	}
+	HallowedSawblade: {
+		Tooltip: ""
+		DisplayName: "フェンリルの牙"
+	}
+	HallowedCanister: {
+		Tooltip: "貫通する液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "ゴールドロッパー"
+	}
+	GreenTKRocket: {
+		Tooltip: ""
+		DisplayName: "緑色のサイロケット"
+	}
+	GravityTwirler: {
+		Tooltip: "2つのレーザーを回転させる\nターゲットのヒット無敵時間を長くする"
+		DisplayName: "バイナリーレイ"
+	}
+	GravityBouncer: {
+		Tooltip: "3回目のバウンドごとに爆発する"
+		DisplayName: "グラビティクラッシャー"
+	}
+	GolemHeadRift: {
+		Tooltip: "最も近い敵に向かって一度に2つの投擲物を発射する"
+		DisplayName: "ゴーレムヘッドリフト"
+	}
+	GiantGear: {
+		Tooltip: ""
+		DisplayName: "ジャイアントギア"
+	}
+	ForbiddenGust: {
+		Tooltip: "突風はノックバック耐性の低い敵を上に投げ、飛行する敵は下に押しやられる"
+		DisplayName: "フォービドゥンガスト"
+	}
+	EpicSawblade: {
+		Tooltip: "ティア4ののこぎり刃\n投擲物が爆発する"
+		DisplayName: "エピックソーブレード"
+	}
+	DeadDoll: {
+		Tooltip: "ダメージを与える髪を注ぐ\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する\n[c/0080FF:ポゼストからドロップ]"
+		DisplayName: "デッドドール"
+	}
+	CursedTwirler: {
+		Tooltip: ""
+		DisplayName: "カースドトワラー"
+	}
+	CursedFlameOrbit: {
+		Tooltip: "オーブの周りに4つの呪われた炎の投擲物を周回させる"
+		DisplayName: "カースドフレイムオービット"
+	}
+	CursedBouncer: {
+		Tooltip: ""
+		DisplayName: "カースドバウンサー"
+	}
+	CobaltSawblade: {
+		Tooltip: ""
+		DisplayName: "コバルトソーブレード"
+	}
+	ChlorophyteSawblade: {
+		Tooltip: ""
+		DisplayName: "クロロファイトソーブレード"
+	}
+	ChlorophyteCanister: {
+		Tooltip: "貫通する液体を注ぐ\n落下距離が長いほどダメージが増加する（上限あり）"
+		DisplayName: "クロロファイトキャニスター"
+	}
+	BlueTKRocket: {
+		Tooltip: ""
+		DisplayName: "青色のサイロケット"
+	}
+	BlizzardTwirler: {
+		Tooltip: "ヒット時にほとんどの敵を減速させる"
+		DisplayName: "ブリザードトワラー"
+	}
+	BetsyPsi: {
+		Tooltip: "炎を吹き出す\n右クリックで発射方向の固定を切り替える"
+		DisplayName: "ベッツィースコーチャー"
+	}
+	BeetleJar: {
+		Tooltip: "敵を追いかけるカブトムシを召喚する\n機能させるには上下に振る必要がある\nさらに振るまで8秒間持続する"
+		DisplayName: "カブトムシの瓶"
+	}
+	AdamantiteSawblade: {
+		Tooltip: ""
+		DisplayName: "アダマンタイトソーブレード"
+	}
+	WoodenSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "木のスパイク"
+	}
+	TungstenSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "タングステンスパイク"
+	}
+	TopazLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "トパーズレイヤー"
+	}
+	TinSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "スズのスパイク"
+	}
+	SpikyBaller: {
+		Tooltip: "スパイキーボールを発射するトラップを設置する"
+		DisplayName: "スパイキーボーラー"
+	}
+	SnowballTurret: {
+		Tooltip: "雪玉を発射するタレットを設置する"
+		DisplayName: "スノーボールタレット"
+	}
+	SlimeSpiker: {
+		Tooltip: "針を発射するスライミースパイカーを設置する"
+		DisplayName: "スライミースパイカー"
+	}
+	SilverSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "銀のスパイク"
+	}
+	ShadowOrbTrap: {
+		Tooltip: "邪悪な唾液を上向きに発射するトラップを設置する"
+		DisplayName: "スピットロバー"
+	}
+	ShadewoodSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "シェイドウッド・スパイク"
+	}
+	SapphireLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "サファイアレイヤー"
+	}
+	RubyLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "ルビーレイヤー"
+	}
+	RichMahoganySpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "リッチマホガニー・スパイク"
+	}
+	PlatinumSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "プラチナスパイク"
+	}
+	PinkSlimeSpiker: {
+		Tooltip: "針を発射するピンクのスライミースパイカーを設置する"
+		DisplayName: "ピンクのスライミースパイカー"
+	}
+	PalmWoodSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "パームウッド・スパイク"
+	}
+	NightTurret: {
+		Tooltip: "爆発性のホーミング弾を発射するタレットを設置する"
+		DisplayName: "バルダギノット"
+	}
+	NightSpikes: {
+		Tooltip: "毒、ずぶぬれ、燃焼効果のある地面スパイクを設置する\n8フレームごとにダメージを与える"
+		DisplayName: "ダスクニードル"
+	}
+	MoltenTurret: {
+		Tooltip: "遅いが強力な投擲物を発射するタレットを設置する"
+		DisplayName: "ホットショット"
+	}
+	MoltenSpikes: {
+		Tooltip: "燃える地面スパイクを設置する"
+		DisplayName: "ヘルズスピンドル"
+	}
+	MeteorBreaker: {
+		Tooltip: "分裂するメテオを発射するトラップを設置する"
+		DisplayName: "メテオブレイカー"
+	}
+	LeadSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "鉛のスパイク"
+	}
+	JungleTurret: {
+		Tooltip: "拡散弾を発射するタレットを設置する"
+		DisplayName: "サベージシューター"
+	}
+	JungleSpikes: {
+		Tooltip: "毒のある地面スパイクを設置する"
+		DisplayName: "ヴァインバーブ"
+	}
+	IronSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "鉄のスパイク"
+	}
+	GoldSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "金のスパイク"
+	}
+	GeyserSentry: {
+		Tooltip: "上向きに炎を放出する間欠泉を設置する"
+		DisplayName: "ガイザーセントリー"
+	}
+	EmeraldLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "エメラルドレイヤー"
+	}
+	EbonwoodSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "エボンウッド・スパイク"
+	}
+	DynastyWoodSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "スパイ"
+	}
+	DungeonTurret: {
+		Tooltip: "連射タレットを設置する"
+		DisplayName: "タイドターナー"
+	}
+	DungeonSpikes: {
+		Tooltip: "湿った地面スパイクを設置する\n6フレームごとにダメージを与える"
+		DisplayName: "ブルドライバ"
+	}
+	DiamondLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "ダイヤモンドレイヤー"
+	}
+	DemoniteTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "ナイトストライク"
+	}
+	DemoniteSpikes: {
+		Tooltip: "地面にスパイクを設置する\n8フレームごとにダメージを与える"
+		DisplayName: "シャドウスパイク"
+	}
+	DemoniteCactusPillar: {
+		Tooltip: "高いサボテンを設置する\n8フレームごとにダメージを与える"
+		DisplayName: "エボンカクタスピラー"
+	}
+	DartTrapSentry: {
+		Tooltip: "ダーツトラップセントリーを設置する"
+		DisplayName: "ダーツトラップセントリー"
+	}
+	SoilSpikes: {
+		Tooltip: "インベントリにある土666ブロックごとにダメージが1増加する\nダメージはメインボスの進行状況に基づいて上限が設定される\nムーンロード後は制限なし\n地面にスパイクを設置する\nこの武器を使用すると、ダメージボーナスの半分に相当する土を消費する"
+		DisplayName: "ソイルスパイク"
+	}
+	CrimtaneTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "ブラッドブラスター"
+	}
+	CrimtaneSpikes: {
+		Tooltip: "地面にスパイクを設置する\n12フレームごとにダメージを与える"
+		DisplayName: "スパイキーヴェイン"
+	}
+	CrimtaneCactusPillar: {
+		Tooltip: "高いサボテンを設置する\n12フレームごとにダメージを与える"
+		DisplayName: "クリムカクタスピラー"
+	}
+	CopperSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "銅のスパイク"
+	}
+	CommonTurret: {
+		Tooltip: "弾丸を発射するタレットを設置する\nティア1のタレット\n現在唯一のティア"
+		DisplayName: "コモンタレット"
+	}
+	CactusPillar: {
+		Tooltip: "高いサボテンを設置する"
+		DisplayName: "サボテンの柱"
+	}
+	BorealWoodSpikes: {
+		Tooltip: "地面にスパイクを設置する"
+		DisplayName: "ボリアルウッド・スパイク"
+	}
+	BeeEmitter: {
+		Tooltip: "ハチを放出するトラップを設置する"
+		DisplayName: "ビーエミッター"
+	}
+	AmethystLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "アメジストレイヤー"
+	}
+	AmberLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成するトラップを設置する"
+		DisplayName: "アンバーレイヤー"
+	}
+	HMGTurret: {
+		Tooltip: "浮遊する連射高速防御無視弾タレットを設置する"
+		DisplayName: "HMGタレット"
+	}
+	WaterTornado: {
+		Tooltip: "浮遊する水の竜巻を設置する"
+		DisplayName: "ウォータートルネード"
+	}
+	WaspEmitter: {
+		Tooltip: "浮遊するワスプ放出トラップを設置する"
+		DisplayName: "ワスプエミッター"
+	}
+	TrueNightTurret: {
+		Tooltip: "浮遊する爆発性ホーミング弾を発射するタレットを設置する"
+		DisplayName: "真・バルダギノット"
+	}
+	TrueNightSpikes: {
+		Tooltip: "毒、ずぶぬれ、燃焼効果のある浮遊スパイクを設置する\n8フレームごとにダメージを与える"
+		DisplayName: "真・ダスクニードル"
+	}
+	TrueHallowedTurret: {
+		Tooltip: "浮遊する貫通レーザーを発射するタレットを設置する"
+		DisplayName: "真・スキプティリキラー"
+	}
+	TrueHallowedSpikes: {
+		Tooltip: "敵を近くに引き寄せる浮遊スパイクを設置する"
+		DisplayName: "真・グリダルヴォル"
+	}
+	TitaniumTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "チタニウムタレット"
+	}
+	TitaniumSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "チタニウムスパイク"
+	}
+	TerraTurret: {
+		Tooltip: "貫通レーザーを発射する浮遊タレットを設置する\nそしてホーミング爆発弾も"
+		DisplayName: "ガイアックジャイア"
+	}
+	TerraSpikes: {
+		Tooltip: "敵を近くに引き寄せる毒、ずぶぬれ、燃焼効果のある浮遊スパイクを設置する\n8フレームごとにダメージを与える"
+		DisplayName: "ネイチャーズクロウ"
+	}
+	SpookyWoodSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "スプーキーウッド・スパイク"
+	}
+	SpikyBallDropper: {
+		Tooltip: "スパイキーボールを落とす浮遊トラップを設置する"
+		DisplayName: "スパイキーボールドロッパー"
+	}
+	ShadowflameTrap: {
+		Tooltip: "シャドウフレイムスパイキーボールを発射する浮遊トラップを設置する"
+		DisplayName: "シャドウフレイマースパイキーボーラー"
+	}
+	PrismLayer: {
+		Tooltip: "それ自体と以前に作成されたものとの間にレーザーを形成する浮遊トラップを作成する"
+		DisplayName: "プリズムレイヤー"
+	}
+	PearlwoodSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "パールウッド・スパイク"
+	}
+	PalladiumTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "パラジウムタレット"
+	}
+	PalladiumSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "パラジウムスパイク"
+	}
+	OrichalcumTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "オリハルコンタレット"
+	}
+	OrichalcumSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "オリハルコンスパイク"
+	}
+	MythrilTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "ミスリルタレット"
+	}
+	MythrilSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "ミスリルスパイク"
+	}
+	MartianTrap: {
+		Tooltip: "デスレイを下に発射するUFOを設置する"
+		DisplayName: "UFOデスレイ"
+	}
+	MagnetarDeployer: {
+		Tooltip: "タイルを貫通するホーミング弾を発射する浮遊トラップを設置する"
+		DisplayName: "マグネターデプロイヤー"
+	}
+	LGM1: {
+		Tooltip: "爆発分裂するメテオを発射する浮遊トラップを設置する"
+		DisplayName: "LGM-1"
+	}
+	IchorTurret: {
+		Tooltip: "イカーシャワーを発射するタレットを設置する"
+		DisplayName: "イカータレット"
+	}
+	HallowedTurret: {
+		Tooltip: "貫通レーザーを発射するタレットを設置する"
+		DisplayName: "スキプティリキラー"
+	}
+	HallowedSpikes: {
+		Tooltip: "ノックバック付きの浮遊スパイクを設置する"
+		DisplayName: "グリダルヴォル"
+	}
+	HallowedMimicTrap: {
+		Tooltip: "自身の周回するクリスタルを持つ浮遊クリスタルを設置する"
+		DisplayName: "クリスタルオービット"
+	}
+	HallowedCactusPillar: {
+		Tooltip: "高い浮遊サボテンを設置する"
+		DisplayName: "パールカクタスピラー"
+	}
+	FrostCoreTurret: {
+		Tooltip: "凍傷を引き起こし、ほとんどのNPCを減速させるタレットを設置する"
+		DisplayName: "チラータレット"
+	}
+	FreezethrowerTurret: {
+		Tooltip: "急速な凍傷を引き起こすタレットを設置する"
+		DisplayName: "フリーズスローワータレット"
+	}
+	ForbiddenFragmentTrap: {
+		Tooltip: "サンドネードを生成する"
+		DisplayName: "タブートラップ"
+	}
+	CursedFlameTurret: {
+		Tooltip: "カースドファイアボールを発射するタレットを設置する"
+		DisplayName: "カースドフレイムタレット"
+	}
+	CrimsonMimicTrap: {
+		Tooltip: "イカーの煙を噴射する浮遊トラップを設置する"
+		DisplayName: "ステッカースプレー"
+	}
+	CoinTurret: {
+		Tooltip: "ミダス効果のあるタレットを設置する\n運に基づいてより高ティアのコインを発射し、プレイヤーの運に影響される\nコインを消費しない"
+		DisplayName: "ミダスタッチタレット"
+	}
+	CobaltTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "コバルトタレット"
+	}
+	CobaltSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "コバルトスパイク"
+	}
+	ChlorophyteTurret: {
+		Tooltip: "3方向に拡散弾を発射する浮遊タレットを設置する"
+		DisplayName: "クロロファイトタレット"
+	}
+	ChlorophyteSpikes: {
+		Tooltip: "胞子雲も発射する浮遊スパイクを設置する"
+		DisplayName: "クロロファイトスパイク"
+	}
+	BubbleTurret: {
+		Tooltip: "急速な泡を発射する浮遊タレットを設置する"
+		DisplayName: "バブルタレット"
+	}
+	BetsyTurret: {
+		Tooltip: "火炎放射器タレットを設置する"
+		DisplayName: "ベッツィータレット"
+	}
+	BallOfFrostSpitter: {
+		Tooltip: "霜の玉を発射する浮遊機械を設置する"
+		DisplayName: "ボールオブフロストスピッター"
+	}
+	Balance: {
+		Tooltip: "左右、上下に双子の投擲物を発射する浮遊オーブを設置する"
+		DisplayName: "タオ・ルー"
+	}
+	AutoTurret: {
+		Tooltip: "連射弾タレットを設置する\n20の防御貫通が組み込まれている"
+		DisplayName: "オートタレット"
+	}
+	AdamantiteTurret: {
+		Tooltip: "高速弾を発射するタレットを設置する"
+		DisplayName: "アダマンタイトタレット"
+	}
+	AdamantiteSpikes: {
+		Tooltip: "浮遊スパイクを設置する"
+		DisplayName: "アダマンタイトスパイク"
+	}
+	Wrangler: {
+		Tooltip: "使用中、Cerebral Modのタレットがカーソルの位置に発射する\n使用中はあらゆる自動ターゲティングより優先される\n使用中、セントリーの発射速度が20%増加する\nチームに応じて色が変わる"
+		DisplayName: "ラングラー"
+	}
+	PulsarPickaxe: {
+		Tooltip: ""
+		DisplayName: "パルサーピッケル"
+	}
+	PulsarHamaxe: {
+		Tooltip: ""
+		DisplayName: "パルサーハマックス"
+	}
+	PulsarDrill: {
+		Tooltip: ""
+		DisplayName: "パルサードリル"
+	}
+	GravityPickaxe: {
+		Tooltip: ""
+		DisplayName: "グラビティピッケル"
+	}
+	GravityHammer: {
+		Tooltip: "「タイプ2エネルギーハンマーと混同しないように」"
+		DisplayName: "グラビティハンマー"
+	}
+	GravityHamaxe: {
+		Tooltip: ""
+		DisplayName: "グラビティハマックス"
+	}
+	GravityDrill: {
+		Tooltip: ""
+		DisplayName: "グラビティドリル"
+	}
+	GravityChainsaw: {
+		Tooltip: ""
+		DisplayName: "グラビティチェーンソー"
+	}
+	GravityAxe: {
+		Tooltip: ""
+		DisplayName: "グラビティックス"
+	}
+	WillPotion: {
+		Tooltip: "念動力ダメージ+20%"
+		DisplayName: "ウィルポーション"
+	}
+	VortexPotion: {
+		Tooltip: "遠距離ダメージを20%増加\n「宇宙の[c/22dd97:知覚]」"
+		DisplayName: "ボルテックスポーション"
+	}
+	VeilPotion: {
+		Tooltip: "投擲ダメージを20%増加\n「宇宙の[c/ff3336:俊敏]」"
+		DisplayName: "ヴェールポーション"
+	}
+	SuperPsychosisPotion: {
+		Tooltip: "全てのサイコシスを回復する\n回復したサイコシスの量に等しいダメージを受ける"
+		DisplayName: "スーパーサイコシスポーション"
+	}
+	StellarwindPotion: {
+		Tooltip: "メロディックダメージを20%増加\n「宇宙の[c/93d329:才能]」"
+		DisplayName: "ステラウィンドポーション"
+	}
+	StardustPotion: {
+		Tooltip: "ミニオンダメージを20%増加\n「宇宙の[c/68d6ff:共感]」"
+		DisplayName: "スターダストポーション"
+	}
+	SolarPotion: {
+		Tooltip: "近接ダメージを20%増加\n「宇宙の[c/fe9e23:力]」"
+		DisplayName: "ソーラーポーション"
+	}
+	SentryPotion: {
+		Tooltip: "セントリー設置数+1"
+		DisplayName: "セントリーポーション"
+	}
+	PulsarPotion: {
+		Tooltip: "セントリーダメージを20%増加\n「宇宙の[c/b5cbff:創意]」"
+		DisplayName: "パルサーポーション"
+	}
+	PsychosisPotion: {
+		Tooltip: "サイコシスを20回復する\n回復したサイコシスの量に等しいダメージを受ける"
+		DisplayName: "サイコシスポーション"
+	}
+	NebulaPotion: {
+		Tooltip: "魔法ダメージを20%増加\n「宇宙の[c/fe7ee5:知性]」"
+		DisplayName: "ネビュラポーション"
+	}
+	LesserPsychosisPotion: {
+		Tooltip: "サイコシスを10回復する\n回復したサイコシスの量に等しいダメージを受ける"
+		DisplayName: "小サイコシスポーション"
+	}
+	GreaterPsychosisPotion: {
+		Tooltip: "サイコシスを40回復する\n回復したサイコシスの量に等しいダメージを受ける"
+		DisplayName: "大サイコシスポーション"
+	}
+	GravityPotion: {
+		Tooltip: "念動力ダメージを20%増加\n「宇宙の[c/ffce31:自我]」"
+		DisplayName: "グラビティポーション"
+	}
+	FocusPotion: {
+		Tooltip: "念動力クリティカルヒット率+12%"
+		DisplayName: "フォーカスポーション"
+	}
+	DefenderPotion: {
+		Tooltip: "セントリークリティカルヒット率+15%"
+		DisplayName: "ディフェンダーポーション"
+	}
+	AlertnessPotion: {
+		Tooltip: "念動力の速度+30%"
+		DisplayName: "アラートネスポーション"
+	}
+	VeilWorkBench: {
+		Tooltip: ""
+		DisplayName: "ヴェールの作業台"
+	}
+	VeilToilet: {
+		Tooltip: ""
+		DisplayName: "ヴェールのトイレ"
+	}
+	VeilTable: {
+		Tooltip: ""
+		DisplayName: "ヴェールのテーブル"
+	}
+	VeilSofa: {
+		Tooltip: ""
+		DisplayName: "ヴェールのソファ"
+	}
+	VeilSink: {
+		Tooltip: ""
+		DisplayName: "ヴェールのシンク"
+	}
+	VeilPlatform: {
+		Tooltip: ""
+		DisplayName: "ヴェールのプラットフォーム"
+	}
+	VeilPiano: {
+		Tooltip: ""
+		DisplayName: "ヴェールのピアノ"
+	}
+	VeilLantern: {
+		Tooltip: ""
+		DisplayName: "ヴェールのランタン"
+	}
+	VeilLamp: {
+		Tooltip: ""
+		DisplayName: "ヴェールのランプ"
+	}
+	VeilFragmentBlock: {
+		Tooltip: ""
+		DisplayName: "ヴェールのフラグメントブロック"
+	}
+	VeilDresser: {
+		Tooltip: ""
+		DisplayName: "ヴェールのドレッサー"
+	}
+	VeilDoor: {
+		Tooltip: ""
+		DisplayName: "ヴェールのドア"
+	}
+	VeilClock: {
+		Tooltip: ""
+		DisplayName: "ヴェールの時計"
+	}
+	VeilChest: {
+		Tooltip: ""
+		DisplayName: "ヴェールのチェスト"
+	}
+	VeilChandelier: {
+		Tooltip: ""
+		DisplayName: "ヴェールのシャンデリア"
+	}
+	VeilChair: {
+		Tooltip: ""
+		DisplayName: "ヴェールの椅子"
+	}
+	VeilCandle: {
+		Tooltip: ""
+		DisplayName: "ヴェールのろうそく"
+	}
+	VeilCandelabra: {
+		Tooltip: ""
+		DisplayName: "ヴェールの燭台"
+	}
+	VeilBrickWall: {
+		Tooltip: ""
+		DisplayName: "ヴェールレンガの壁"
+	}
+	VeilBrick: {
+		Tooltip: ""
+		DisplayName: "ヴェールレンガ"
+	}
+	VeilBookcase: {
+		Tooltip: ""
+		DisplayName: "ヴェールの本棚"
+	}
+	VeilBed: {
+		Tooltip: ""
+		DisplayName: "ヴェールのベッド"
+	}
+	VeilBathtub: {
+		Tooltip: ""
+		DisplayName: "ヴェールのバスタブ"
+	}
+	StellarwindWorkBench: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドの作業台"
+	}
+	StellarwindToilet: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのトイレ"
+	}
+	StellarwindTable: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのテーブル"
+	}
+	StellarwindSofa: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのソファ"
+	}
+	StellarwindSink: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのシンク"
+	}
+	StellarwindPlatform: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのプラットフォーム"
+	}
+	StellarwindPiano: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのピアノ"
+	}
+	StellarwindLantern: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのランタン"
+	}
+	StellarwindLamp: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのランプ"
+	}
+	StellarwindFragmentBlock: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのフラグメントブロック"
+	}
+	StellarwindDresser: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのドレッサー"
+	}
+	StellarwindDoor: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのドア"
+	}
+	StellarwindClock: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドの時計"
+	}
+	StellarwindChest: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのチェスト"
+	}
+	StellarwindChandelier: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのシャンデリア"
+	}
+	StellarwindChair: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドの椅子"
+	}
+	StellarwindCandle: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのろうそく"
+	}
+	StellarwindCandelabra: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドの燭台"
+	}
+	StellarwindBrickWall: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドレンガの壁"
+	}
+	StellarwindBrick: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドレンガ"
+	}
+	StellarwindBookcase: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドの本棚"
+	}
+	StellarwindBed: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのベッド"
+	}
+	StellarwindBathtub: {
+		Tooltip: ""
+		DisplayName: "ステラウィンドのバスタブ"
+	}
+	PulsarWorkBench: {
+		Tooltip: ""
+		DisplayName: "パルサーの作業台"
+	}
+	PulsarToilet: {
+		Tooltip: ""
+		DisplayName: "パルサーのトイレ"
+	}
+	PulsarTable: {
+		Tooltip: ""
+		DisplayName: "パルサーのテーブル"
+	}
+	PulsarSofa: {
+		Tooltip: ""
+		DisplayName: "パルサーのソファ"
+	}
+	PulsarSink: {
+		Tooltip: ""
+		DisplayName: "パルサーのシンク"
+	}
+	PulsarPlatform: {
+		Tooltip: ""
+		DisplayName: "パルサーのプラットフォーム"
+	}
+	PulsarPiano: {
+		Tooltip: ""
+		DisplayName: "パルサーのピアノ"
+	}
+	PulsarLantern: {
+		Tooltip: ""
+		DisplayName: "パルサーのランタン"
+	}
+	PulsarLamp: {
+		Tooltip: ""
+		DisplayName: "パルサーのランプ"
+	}
+	PulsarFragmentBlock: {
+		Tooltip: ""
+		DisplayName: "パルサーのフラグメントブロック"
+	}
+	PulsarDresser: {
+		Tooltip: ""
+		DisplayName: "パルサーのドレッサー"
+	}
+	PulsarDoor: {
+		Tooltip: ""
+		DisplayName: "パルサーのドア"
+	}
+	PulsarClock: {
+		Tooltip: ""
+		DisplayName: "パルサーの時計"
+	}
+	PulsarChest: {
+		Tooltip: ""
+		DisplayName: "パルサーのチェスト"
+	}
+	PulsarChandelier: {
+		Tooltip: ""
+		DisplayName: "パルサーのシャンデリア"
+	}
+	PulsarChair: {
+		Tooltip: ""
+		DisplayName: "パルサーの椅子"
+	}
+	PulsarCandle: {
+		Tooltip: ""
+		DisplayName: "パルサーのろうそく"
+	}
+	PulsarCandelabra: {
+		Tooltip: ""
+		DisplayName: "パルサーの燭台"
+	}
+	PulsarBrickWall: {
+		Tooltip: ""
+		DisplayName: "パルサーレンガの壁"
+	}
+	PulsarBrick: {
+		Tooltip: ""
+		DisplayName: "パルサーレンガ"
+	}
+	PulsarBookcase: {
+		Tooltip: ""
+		DisplayName: "パルサーの本棚"
+	}
+	PulsarBed: {
+		Tooltip: ""
+		DisplayName: "パルサーのベッド"
+	}
+	PulsarBathtub: {
+		Tooltip: ""
+		DisplayName: "パルサーのバスタブ"
+	}
+	YLOBanner: {
+		Tooltip: "「オーストラリアのクラトクラシー」"
+		DisplayName: "YLOバナー"
+	}
+	REDBanner: {
+		Tooltip: "「信頼できる掘削解体」"
+		DisplayName: "REDバナー"
+	}
+	PNKBanner: {
+		Tooltip: "「ピンキー・パーティ・プラザ」"
+		DisplayName: "PNKバナー"
+	}
+	GRNBanner: {
+		Tooltip: "「マン株式会社」"
+		DisplayName: "GRNバナー"
+	}
+	GRABanner: {
+		Tooltip: "「グレイ・グラベル社」"
+		DisplayName: "GRAバナー"
+	}
+	EngineerChest: {
+		Tooltip: ""
+		DisplayName: "エンジニアチェスト"
+	}
+	BLUBanner: {
+		Tooltip: "「ビルダーズ・リーグ・ユナイテッド」"
+		DisplayName: "BLUバナー"
+	}
+	GravityWorkBench: {
+		Tooltip: ""
+		DisplayName: "グラビティの作業台"
+	}
+	GravityToilet: {
+		Tooltip: ""
+		DisplayName: "グラビティのトイレ"
+	}
+	GravityTable: {
+		Tooltip: ""
+		DisplayName: "グラビティのテーブル"
+	}
+	GravitySofa: {
+		Tooltip: ""
+		DisplayName: "グラビティのソファ"
+	}
+	GravitySink: {
+		Tooltip: ""
+		DisplayName: "グラビティのシンク"
+	}
+	GravityPlatform: {
+		Tooltip: ""
+		DisplayName: "グラビティのプラットフォーム"
+	}
+	GravityPiano: {
+		Tooltip: ""
+		DisplayName: "グラビティのピアノ"
+	}
+	GravityLantern: {
+		Tooltip: ""
+		DisplayName: "グラビティのランタン"
+	}
+	GravityLamp: {
+		Tooltip: ""
+		DisplayName: "グラビティのランプ"
+	}
+	GravityFragmentBlock: {
+		Tooltip: ""
+		DisplayName: "グラビティのフラグメントブロック"
+	}
+	GravityDresser: {
+		Tooltip: ""
+		DisplayName: "グラビティのドレッサー"
+	}
+	GravityDoor: {
+		Tooltip: ""
+		DisplayName: "グラビティのドア"
+	}
+	GravityClock: {
+		Tooltip: ""
+		DisplayName: "グラビティの時計"
+	}
+	GravityChest: {
+		Tooltip: ""
+		DisplayName: "グラビティのチェスト"
+	}
+	GravityChandelier: {
+		Tooltip: ""
+		DisplayName: "グラビティのシャンデリア"
+	}
+	GravityChair: {
+		Tooltip: ""
+		DisplayName: "グラビティの椅子"
+	}
+	GravityCandle: {
+		Tooltip: ""
+		DisplayName: "グラビティのろうそく"
+	}
+	GravityCandelabra: {
+		Tooltip: ""
+		DisplayName: "グラビティの燭台"
+	}
+	GravityBrickWall: {
+		Tooltip: ""
+		DisplayName: "グラビティレンガの壁"
+	}
+	GravityBrick: {
+		Tooltip: ""
+		DisplayName: "グラビティレンガ"
+	}
+	GravityBookcase: {
+		Tooltip: ""
+		DisplayName: "グラビティの本棚"
+	}
+	GravityBed: {
+		Tooltip: ""
+		DisplayName: "グラビティのベッド"
+	}
+	GravityBathtub: {
+		Tooltip: ""
+		DisplayName: "グラビティのバスタブ"
+	}
+	EngineerToolkit: {
+		Tooltip: "タイルと壁の設置速度+50%\nタイル設置範囲+3\nメカニックから購入可能"
+		DisplayName: "エンジニアツールキット"
+	}
+	TaintedLotusPetal: {
+		Tooltip: "最大サイコシスを永久に1増加させる、上限15"
+		DisplayName: "汚染された蓮の花びら"
+	}
+	SolarLotusPetal: {
+		Tooltip: "最大サイコシスを永久に1増加させる、上限30\n少なくとも25の最大サイコシスが必要"
+		DisplayName: "ソーラーロータスの花びら"
+	}
+	SanguineLotusPetal: {
+		Tooltip: "最大サイコシスを永久に1増加させる、上限15"
+		DisplayName: "血色の蓮の花びら"
+	}
+	PsychicEye: {
+		Tooltip: ""
+		DisplayName: "サイキックアイ"
+	}
+	OceanKey: {
+		Tooltip: ""
+		DisplayName: "オーシャンキー"
+	}
+	HallowedLotusPetal: {
+		Tooltip: "最大サイコシスを永久に1増加させる、上限25\n少なくとも20の最大サイコシスが必要"
+		DisplayName: "聖なる蓮の花びら"
+	}
+	AncientLotusPetal: {
+		Tooltip: "最大サイコシスを永久に1増加させる、上限20\n少なくとも15の最大サイコシスが必要"
+		DisplayName: "古代の蓮の花びら"
+	}
+	WyvernScale: {
+		Tooltip: ""
+		DisplayName: "ワイバーンの鱗"
+	}
+	WallofFleshCrafter: {
+		Tooltip: "ウォールオブフレッシュの武器ドロップを作成するために使用する"
+		DisplayName: "悪魔の肺"
+	}
+	ShadowOrbCrafter: {
+		Tooltip: "シャドウオーブの戦利品ドロップを作成するために使用する"
+		DisplayName: "影の貝殻"
+	}
+	ShadowflameCrafter: {
+		Tooltip: "ゴブリンサモナーのドロップを作成するために使用する"
+		DisplayName: "シャドウフレイムバッグ"
+	}
+	QueenSlimeCrafter: {
+		Tooltip: "クイーンスライムのほとんどのドロップを作成するために使用する"
+		DisplayName: "クイーンスライムの小物"
+	}
+	PlanteraCrafter: {
+		Tooltip: "プランテラのドロップを作成するために使用する"
+		DisplayName: "プランテラの宝石"
+	}
+	PirateInvasionCrafter: {
+		Tooltip: "海賊襲撃の一部のドロップを作成するために使用する\n着用用ではない"
+		DisplayName: "貴重なルビーの指輪"
+	}
+	NightCrafter: {
+		Tooltip: "Cerebral Modのナイトエッジスタイルの武器を作成するために使用する\n[c/0080FF:ディアクロップスからドロップする]"
+		DisplayName: "ナイトメアフューエル"
+	}
+	MoonLordCrafter: {
+		Tooltip: "ムーンロードの武器ドロップを作成するために使用する"
+		DisplayName: "ルナポリープ"
+	}
+	MimicCrafter: {
+		Tooltip: "ミミックのドロップを作成するために使用する"
+		DisplayName: "ルビーの鎖"
+	}
+	MartianMadnessCrafter: {
+		Tooltip: "マーティンマッドネスのドロップを作成するために使用する"
+		DisplayName: "マーティンバッテリー"
+	}
+	KingSlimeCrafter: {
+		Tooltip: "キングスライムのほとんどのドロップを作成するために使用する"
+		DisplayName: "スライムの小物"
+	}
+	IceMimicCrafter: {
+		Tooltip: "アイスミミックのドロップを作成するために使用する"
+		DisplayName: "氷の鎖"
+	}
+	HallowedMimicCrafter: {
+		Tooltip: "ホーリーミミックのドロップを作成するために使用する"
+		DisplayName: "聖なる鎖"
+	}
+	GolemCrafter: {
+		Tooltip: "ゴーレムのドロップを作成するために使用する"
+		DisplayName: "消耗したパワーセル"
+	}
+	FrostLegionCrafter: {
+		Tooltip: "フロストレギオンのドロップを作成するために使用する"
+		DisplayName: "祝祭の枝"
+	}
+	VeilFragment: {
+		Tooltip: "「このフラグメントからは古代の星の息吹が流れている」\n[c/0080FF:ソーラーピラーからドロップする]"
+		DisplayName: "ヴェールフラグメント"
+	}
+	StellarwindFragment: {
+		Tooltip: "「このフラグメントからは風のような音が流れている」\n[c/0080FF:ネビュラピラーからドロップする]"
+		DisplayName: "ステラウィンドフラグメント"
+	}
+	PulsarFragment: {
+		Tooltip: "「このフラグメントは信じられない速さで回転している」\n[c/0080FF:スターダストピラーからドロップする]"
+		DisplayName: "パルサーフラグメント"
+	}
+	GravityFragment: {
+		Tooltip: "「宇宙を一つにまとめる力がこのフラグメントから流れている」\n[c/0080FF:ヴォーテックスピラーからドロップする]"
+		DisplayName: "グラビティフラグメント"
+	}
+	BrownDwarfFragment: {
+		Tooltip: "「失敗した星の欠片、贖罪を待っている」\n[c/0080FF:いずれかのセレスティアルピラーからドロップする]"
+		DisplayName: "褐色矮星のフラグメント"
+	}
+	EyeofCthulhuCrafter: {
+		Tooltip: "クトゥルフの目の武器ドロップを作成するために使用する"
+		DisplayName: "乳白色の白目"
+	}
+	EnchantedCrafter: {
+		Tooltip: "エンチャントソードとエンチャントブーメランを除く、エンチャント武器を作成するために使用する\n着用用ではない"
+		DisplayName: "エンチャントメダリオン"
+	}
+	EmpressofLightCrafter: {
+		Tooltip: "エンプレスオブライトのほとんどのドロップを作成するために使用する"
+		DisplayName: "プリズムスケール"
+	}
+	DukeFishronCrafter: {
+		Tooltip: "デュークフィッシュロンのドロップを作成するために使用する"
+		DisplayName: "フィッシュロンの棘"
+	}
+	DeerclopsCrafter: {
+		Tooltip: "ディアクロプスのほとんどのドロップを作成するために使用する\nそしてルビーも？"
+		DisplayName: "赤いディアクロプスの眼球"
+	}
+	CrimsonMimicCrafter: {
+		Tooltip: "クリムゾンミミックのドロップを作成するために使用する"
+		DisplayName: "クリムゾンチェーン"
+	}
+	CrimsonHeartCrafter: {
+		Tooltip: "クリムゾンハートの戦利品ドロップを作成するために使用する"
+		DisplayName: "絡まった静脈"
+	}
+	CorruptionMimicCrafter: {
+		Tooltip: "コラプションミミックのドロップを作成するために使用する"
+		DisplayName: "コラプトチェーン"
+	}
+	UncommonCore: {
+		Tooltip: "[c/0080FF:ディアクロプスとスケルトロンからドロップする]"
+		DisplayName: "アンコモンコア"
+	}
+	RelicCore: {
+		Tooltip: "[c/0080FF:ムーンロードからドロップする]"
+		DisplayName: "レリックコア"
+	}
+	RareCore: {
+		Tooltip: "[c/0080FF:クイーンスライムからドロップする]"
+		DisplayName: "レアコア"
+	}
+	LegendaryCore: {
+		Tooltip: "[c/0080FF:ゴーレムからドロップする]"
+		DisplayName: "レジェンダリーコア"
+	}
+	EpicCore: {
+		Tooltip: "[c/0080FF:いずれかのバニラのメカニカルボスからドロップする]"
+		DisplayName: "エピックコア"
+	}
+	CommonCore: {
+		Tooltip: "[c/0080FF:キングスライムとクトゥルフの目からドロップする]"
+		DisplayName: "コモンコア"
+	}
+	WebCoveredChestCrafter: {
+		Tooltip: "ウェブで覆われたチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・ウェブで覆われたチェスト"
+	}
+	WaterChestCrafter: {
+		Tooltip: "ウォーターチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・ウォーターチェスト"
+	}
+	SkywareChestCrafter: {
+		Tooltip: "スカイウェアチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・スカイウェアチェスト"
+	}
+	ShadowChestCrafter: {
+		Tooltip: "シャドウチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・シャドウチェスト"
+	}
+	SandstoneChestCrafter: {
+		Tooltip: "サンドストーンチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・サンドストーンチェスト"
+	}
+	MushroomChestCrafter: {
+		Tooltip: "マッシュルームチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・マッシュルームチェスト"
+	}
+	MarbleChestCrafter: {
+		Tooltip: "マーブルチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・マーブルチェスト"
+	}
+	LivingWoodChestCrafter: {
+		Tooltip: "リビングウッドチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・リビングウッドチェスト"
+	}
+	LihzardChestCrafter: {
+		Tooltip: "リザードチェストのユニークな戦利品を作成するために使用する\n[c/FF0000:使用するにはプランテラを倒す必要がある]"
+		DisplayName: "ベビー・リザードチェスト"
+	}
+	IvyChestCrafter: {
+		Tooltip: "アイビーチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・アイビーチェスト"
+	}
+	GraniteChestCrafter: {
+		Tooltip: "グラナイトチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・グラナイトチェスト"
+	}
+	GoldenChestCrafter: {
+		Tooltip: "ゴールデンチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・ゴールデンチェスト"
+	}
+	FrozenChestCrafter: {
+		Tooltip: "フローズンチェストのユニークな戦利品を作成するために使用する"
+		DisplayName: "ベビー・フローズンチェスト"
+	}
+	DungeonChestCrafter: {
+		Tooltip: "ほとんどのダンジョンの戦利品を作成するために2つ使用する"
+		DisplayName: "古代のコバルトバー"
+	}
+	ChestCrafter: {
+		Tooltip: "地上のチェストのユニークな戦利品を作成するために3つ使用する"
+		DisplayName: "ベビーチェスト"
+	}
+	BlankEmblem: {
+		Tooltip: "ダメージエンブレムを作成するために使用する"
+		DisplayName: "ブランクエンブレム"
+	}
+	BetsyCrafter: {
+		Tooltip: "ベッツィーのドロップを作成するために使用する"
+		DisplayName: "火炎腺"
+	}
+	GuideTrickster: {
+		Tooltip: ""
+		DisplayName: "トリックスター初心者ガイド"
+	}
+	GuideMinstrel: {
+		Tooltip: ""
+		DisplayName: "ミンストレル初心者ガイド"
+	}
+	GuideEsper: {
+		Tooltip: ""
+		DisplayName: "エスパー初心者ガイド"
+	}
+	GuideDefender: {
+		Tooltip: ""
+		DisplayName: "ディフェンダー初心者ガイド"
+	}
+	GuideCerebral: {
+		Tooltip: ""
+		DisplayName: "Cerebral Mod 初心者ガイド"
+	}
+	UnlimitedWillPotion: {
+		Tooltip: "念動力ダメージ+20%\nあなたの意志は決して揺るがない"
+		DisplayName: "無限のウィルポーション"
+	}
+	UnlimitedVortexPotion: {
+		Tooltip: "遠距離ダメージを20%増加\n「宇宙の[c/FFFF00:知覚]」"
+		DisplayName: "無限のボルテックスポーション"
+	}
+	UnlimitedVeilPotion: {
+		Tooltip: "投擲ダメージを20%増加\n「宇宙の[c/00FF00:俊敏]」"
+		DisplayName: "無限のヴェールポーション"
+	}
+	UnlimitedTelekineticBuffs: {
+		Tooltip: "念動力ダメージ+20%\n念動力クリティカルヒット率+12%\n念動力の速度+30%\nあなたは精神が物質を超えることを体現する"
+		DisplayName: "無限の念動力バフ"
+	}
+	UnlimitedStellarwindPotion: {
+		Tooltip: "メロディックダメージを20%増加\n「宇宙の[c/00FFFF:才能]」"
+		DisplayName: "無限のステラウィンドポーション"
+	}
+	UnlimitedStardustPotion: {
+		Tooltip: "ミニオンダメージを20%増加\n「宇宙の[c/A500FF:共感]」"
+		DisplayName: "無限のスターダストポーション"
+	}
+	UnlimitedSolarPotion: {
+		Tooltip: "近接ダメージを20%増加\n「宇宙の[c/FF0000:力]」"
+		DisplayName: "無限のソーラーポーション"
+	}
+	UnlimitedSentryPotion: {
+		Tooltip: "セントリー設置数+1\nもう一人の助っ人を連れて行こう"
+		DisplayName: "無限のセントリーポーション"
+	}
+	UnlimitedSentryBuffs: {
+		Tooltip: "セントリークリティカルヒット率+15%\nセントリー設置数+1\n彼らをあなたを通り抜けさせてみろ"
+		DisplayName: "無限のセントリーバフ"
+	}
+	UnlimitedPulsarPotion: {
+		Tooltip: "セントリーダメージを20%増加\n「宇宙の[c/FFA500:創意]」"
+		DisplayName: "無限のパルサーポーション"
+	}
+	UnlimitedPulsarBuffs: {
+		Tooltip: "セントリークリティカルヒット率+15%\nセントリー設置数+1\nセントリーダメージを20%増加\n完全なエンジニアリングパワー"
+		DisplayName: "無限のパルサーバフ"
+	}
+	UnlimitedNebulaPotion: {
+		Tooltip: "魔法ダメージを20%増加\n「宇宙の[c/0000FF:知性]」"
+		DisplayName: "無限のネビュラポーション"
+	}
+	UnlimitedGravityPotion: {
+		Tooltip: "念動力ダメージを20%増加\n「宇宙の[c/FF00A5:自我]」"
+		DisplayName: "無限のグラビティポーション"
+	}
+	UnlimitedFocusPotion: {
+		Tooltip: "念動力クリティカルヒット率+12%\nあなたの集中力は一点に留まる"
+		DisplayName: "無限のフォーカスポーション"
+	}
+	UnlimitedEsperBuffs: {
+		Tooltip: "念動力ダメージ+20%\n念動力クリティカルヒット率+12%\n念動力の速度+30%\n念動力ダメージを20%増加\nムーンロードの脳もあなたのものには及ばない"
+		DisplayName: "無限のエスパーバフ"
+	}
+	UnlimitedEngineerToolkit: {
+		Tooltip: "タイルと壁の設置速度+50%\nタイル設置範囲+3\nインベントリにあるだけで機能する"
+		DisplayName: "無限のエンジニアツールキット"
+	}
+	UnlimitedDefenderPotion: {
+		Tooltip: "セントリークリティカルヒット率+15%\nあなたはセントリーをうまく作った"
+		DisplayName: "無限のディフェンダーポーション"
+	}
+	UnlimitedAlertnessPotion: {
+		Tooltip: "念動力の速度+30%\n常に警戒を怠らない"
+		DisplayName: "無限のアラートネスポーション"
+	}
+	TitaniumHeadThrowing: {
+		Tooltip: "投擲ダメージ+16%\n投擲物の速度+30%"
+		DisplayName: "チタニウムカウル"
+	}
+	PalladiumHeadThrowing: {
+		Tooltip: "投擲ダメージ+9%\n投擲物の速度+20%"
+		DisplayName: "パラジウムカウル"
+	}
+	OrichalcumHeadThrowing: {
+		Tooltip: "投擲ダメージ+10%\n投擲物の速度+25%"
+		DisplayName: "オリハルコンカウル"
+	}
+	MythrilHeadThrowing: {
+		Tooltip: "投擲ダメージ+12%\n投擲物の速度+25%"
+		DisplayName: "ミスリルカウル"
+	}
+	HallowedHeadThrowing: {
+		Tooltip: "投擲ダメージ+15%\n投擲物の速度+35%"
+		DisplayName: "古代の聖なるカウル"
+	}
+	CobaltHeadThrowing: {
+		Tooltip: "投擲ダメージ+10%\n投擲物の速度+20%"
+		DisplayName: "コバルトカウル"
+	}
+	ChlorophyteHeadThrowing: {
+		Tooltip: "投擲ダメージ+22%\n投擲クリティカルヒット率+12%\n投擲物の速度+35%"
+		DisplayName: "クロロファイトカウル"
+	}
+	AdamantiteHeadThrowing: {
+		Tooltip: "投擲ダメージ+14%\n投擲物の速度+30%"
+		DisplayName: "アダマンタイトカウル"
+	}
+	TitaniumHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+16%\nミニオンスロット+2"
+		DisplayName: "チタニウムクラウン"
+	}
+	PalladiumHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+12%\nミニオンスロット+2"
+		DisplayName: "パラジウムクラウン"
+	}
+	OrichalcumHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+14%\nミニオンスロット+2"
+		DisplayName: "オリハルコンクラウン"
+	}
+	MythrilHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+12%\nミニオンスロット+2"
+		DisplayName: "ミスリルクラウン"
+	}
+	CobaltHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+9%\nミニオンスロット+2"
+		DisplayName: "コバルトクラウン"
+	}
+	ChlorophyteHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+16%\nミニオンスロット+3"
+		DisplayName: "クロロファイトクラウン"
+	}
+	AdamantiteHeadSummon: {
+		Tooltip: "召喚ダメージとノックバック+15%\nミニオンスロット+2"
+		DisplayName: "アダマンタイトクラウン"
+	}
+	GenjiHelmMinstrel: {
+		Tooltip: "メロディックダメージ+60%\n最大コンボボーナス+10"
+		DisplayName: "シアンのゲンジヘルム"
+	}
+	GenjiArmorMinstrel: {
+		Tooltip: "テンポ+25%\n最大ライフ+225"
+		DisplayName: "シアンのゲンジアーマー"
+	}
+	WyvernLegs: {
+		Tooltip: "投擲と念動力のクリティカルヒット率+12%"
+		DisplayName: "ワイバーンスケイルグリーヴ"
+	}
+	WyvernHead: {
+		Tooltip: "投擲と念動力のダメージ+18%"
+		DisplayName: "ワイバーンフェザーカウル"
+	}
+	WyvernBody: {
+		Tooltip: "投擲と念動力の速度+30%"
+		DisplayName: "ワイバーンスケイルベスト"
+	}
+	TaurusLegs: {
+		Tooltip: "念動力クリティカルヒット率+15%"
+		DisplayName: "タウラスグリーヴ"
+	}
+	TaurusHead: {
+		Tooltip: "念動力ダメージ+20%"
+		DisplayName: "タウラスヘルメット"
+	}
+	TaurusBody: {
+		Tooltip: "念動力の速度+30%"
+		DisplayName: "タウラスチェストプレート"
+	}
+	DesertWandererLegs: {
+		Tooltip: "念動力クリティカルヒット率+10%"
+		DisplayName: "デザートワンダラーブーツ"
+	}
+	DesertWandererHead: {
+		Tooltip: "念動力ダメージ+15%"
+		DisplayName: "デザートワンダラーフード"
+	}
+	DesertWandererBody: {
+		Tooltip: "念動力の速度+20%"
+		DisplayName: "デザートワンダラーローブ"
+	}
+	CambrianLegs: {
+		Tooltip: "念動力クリティカルヒット率+12%"
+		DisplayName: "カンブリアングリーヴ"
+	}
+	CambrianHead: {
+		Tooltip: "念動力ダメージ+18%"
+		DisplayName: "カンブリアンヘルメット"
+	}
+	CambrianBody: {
+		Tooltip: "念動力の速度+25%"
+		DisplayName: "カンブリアンチェストプレート"
+	}
+	GravityLegs: {
+		Tooltip: "念動力ダメージ+15%\n移動速度+20%"
+		DisplayName: "グラビティレギンス"
+	}
+	GravityHead: {
+		Tooltip: "念動力ダメージ+15%\n念動力クリティカルヒット率+15%"
+		DisplayName: "グラビティヘルメット"
+	}
+	GravityBody: {
+		Tooltip: "念動力の速度+50%\n念動力ダメージ+15%"
+		DisplayName: "グラビティローブ"
+	}
+	GenjiHelmEsper: {
+		Tooltip: "念動力ダメージ+60%\n最大サイコシス+15"
+		DisplayName: "ピンクのゲンジヘルム"
+	}
+	GenjiArmorEsper: {
+		Tooltip: "念動力クリティカルヒット率+25%\n最大ライフ+150"
+		DisplayName: "ピンクのゲンジアーマー"
+	}
+	TitaniumHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+22%\n念動力クリティカルヒット率+15%"
+		DisplayName: "チタニウムヘッドラップ"
+	}
+	PalladiumHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+16%\n念動力クリティカルヒット率+11%"
+		DisplayName: "パラジウムヘッドラップ"
+	}
+	OrichalcumHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+19%\n念動力クリティカルヒット率+13%"
+		DisplayName: "オリハルコンヘッドラップ"
+	}
+	MythrilHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+18%\n念動力クリティカルヒット率+12%"
+		DisplayName: "ミスリルヘッドラップ"
+	}
+	LihzahrdSolarLegs: {
+		Tooltip: "念動力クリティカルヒット率+12%\n移動速度+15%"
+		DisplayName: "リザードソーラーグリーヴ"
+	}
+	LihzahrdSolarHead: {
+		Tooltip: "念動力ダメージ+25%"
+		DisplayName: "リザードソーラーマスク"
+	}
+	LihzahrdSolarBody: {
+		Tooltip: "念動力の速度+40%"
+		DisplayName: "リザードソーラーチェストプレート"
+	}
+	HallowedHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+24%\n念動力クリティカルヒット率+16%"
+		DisplayName: "古代の聖なるヘッドラップ"
+	}
+	TitanHeadTelekinetic: {
+		Tooltip: "「原始のエネルギーが注入されている」\n最大サイコシス+6\nサイコシス回復+60%\n念動力の速度20%"
+		DisplayName: "タイタンヘッドラップ"
+	}
+	CobaltHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+15%\n念動力クリティカルヒット率+10%"
+		DisplayName: "コバルトヘッドラップ"
+	}
+	ChlorophyteHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+16%\n念動力クリティカルヒット率+20%\n最大サイコシス+10"
+		DisplayName: "クロロファイトヘッドラップ"
+	}
+	AdamantiteHeadTelekinetic: {
+		Tooltip: "念動力ダメージ+21%\n念動力クリティカルヒット率+14%"
+		DisplayName: "アダマンタイトヘッドラップ"
+	}
+	SkyLegs: {
+		Tooltip: "セントリーダメージ+5%"
+		DisplayName: "スカイレギンス"
+	}
+	SkyHead: {
+		Tooltip: "セントリーダメージ+5%"
+		DisplayName: "スカイヘルメット"
+	}
+	SkyBody: {
+		Tooltip: "セントリーダメージ+5%"
+		DisplayName: "スカイブレストプレート"
+	}
+	FrozenLegs: {
+		Tooltip: "セントリーダメージ+4%"
+		DisplayName: "フローズンレギンス"
+	}
+	FrozenHead: {
+		Tooltip: "セントリーダメージ+4%"
+		DisplayName: "フローズンヘルメット"
+	}
+	FrozenBody: {
+		Tooltip: "セントリーダメージ+4%"
+		DisplayName: "フローズンブレストプレート"
+	}
+	EngineeringLegs: {
+		Tooltip: "セントリー速度+5%\nタレットの射程+5%\nメカニックから購入可能"
+		DisplayName: "エンジニアリングパンツ"
+	}
+	EngineeringBodyYellow: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「オーストラリアのクラトクラシーに雇われた」"
+		DisplayName: "エンジニアリングシャツ(YLO)"
+	}
+	EngineeringBodyRed: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「リライアブル・エクスカベーション・デモリションのCEO、レッドモンド・マンに雇われた」"
+		DisplayName: "エンジニアリングシャツ(RED)"
+	}
+	EngineeringBodyPink: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「ピンキー・パーティ・プラザ社のCEO、ピンカミーナ・ダイアン・パイに雇われた」"
+		DisplayName: "エンジニアリングシャツ(PNK)"
+	}
+	EngineeringBodyGreen: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「マン株式会社のCEO、オリビア・マンに雇われた」"
+		DisplayName: "エンジニアリングシャツ(GRN)"
+	}
+	EngineeringBodyBlue: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「ビルダーズ・リーグ・ユナイテッドのCEO、ブルターク・マンに雇われた」"
+		DisplayName: "エンジニアリングシャツ(BLU)"
+	}
+	EngineeringBody: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+10%\nセントリー設置数+1\n「グレイ・グラベル社のCEO、グレイ・マンに雇われた」\nメカニックから購入可能"
+		DisplayName: "エンジニアリングシャツ(GRA)"
+	}
+	PulsarLegs: {
+		Tooltip: "セントリーダメージ+25%\nセントリー設置数+1"
+		DisplayName: "パルサーレギンス"
+	}
+	PulsarHead: {
+		Tooltip: "セントリーダメージ+25%\nセントリー設置数+2"
+		DisplayName: "パルサーヘルメット"
+	}
+	PulsarBody: {
+		Tooltip: "セントリーダメージ+25%\nセントリー設置数+2"
+		DisplayName: "パルサーブレストプレート"
+	}
+	GenjiHelmSentry: {
+		Tooltip: "セントリーダメージ+80%\nセントリー設置数+3"
+		DisplayName: "オレンジのゲンジヘルム"
+	}
+	GenjiArmorSentry: {
+		Tooltip: "セントリー設置数+5\n最大ライフ+250"
+		DisplayName: "オレンジのゲンジアーマー"
+	}
+	TitaniumHeadSentry: {
+		Tooltip: "セントリーダメージ+16%\nセントリー設置数+2"
+		DisplayName: "チタニウムハードハット"
+	}
+	PalladiumHeadSentry: {
+		Tooltip: "セントリーダメージ+12%\nセントリー設置数+2"
+		DisplayName: "パラジウムハードハット"
+	}
+	OrichalcumHeadSentry: {
+		Tooltip: "セントリーダメージ+14%\nセントリー設置数+2"
+		DisplayName: "オリハルコンハードハット"
+	}
+	MythrilHeadSentry: {
+		Tooltip: "セントリーダメージ+12%\nセントリー設置数+2"
+		DisplayName: "ミスリルハードハット"
+	}
+	HallowedHeadSentry: {
+		Tooltip: "セントリーダメージ+18%\nセントリー設置数+2"
+		DisplayName: "古代の聖なるハードハット"
+	}
+	TitanHeadSentry: {
+		Tooltip: "「原始のエネルギーが注入されている」\nセントリー速度+10%\nタレットの射程+20%\nセントリー設置数+2"
+		DisplayName: "タイタンハードハット"
+	}
+	CobaltHeadSentry: {
+		Tooltip: "セントリーダメージ+9%\nセントリー設置数+2"
+		DisplayName: "コバルトハードハット"
+	}
+	ChlorophyteHeadSentry: {
+		Tooltip: "セントリーダメージ+16%\nセントリー設置数+3"
+		DisplayName: "クロロファイトハードハット"
+	}
+	AdamantiteHeadSentry: {
+		Tooltip: "セントリーダメージ+15%\nセントリー設置数+2"
+		DisplayName: "アダマンタイトハードハット"
+	}
+	TitaniumHeadMixed: {
+		Tooltip: "ダメージ+10%\nミニオンとセントリーのスロット+1"
+		DisplayName: "チタニウムバイザー"
+	}
+	PalladiumHeadMixed: {
+		Tooltip: "ダメージ+7%\nミニオンとセントリーのスロット+1"
+		DisplayName: "パラジウムバイザー"
+	}
+	OrichalcumHeadMixed: {
+		Tooltip: "ダメージ+9%\nミニオンとセントリーのスロット+1"
+		DisplayName: "オリハルコンバイザー"
+	}
+	MythrilHeadMixed: {
+		Tooltip: "ダメージ+8%\nミニオンとセントリーのスロット+1"
+		DisplayName: "ミスリルバイザー"
+	}
+	HallowedHeadMixed: {
+		Tooltip: "ダメージ+12%\nミニオンとセントリーのスロット+2"
+		DisplayName: "古代の聖なるバイザー"
+	}
+	CobaltHeadMixed: {
+		Tooltip: "ダメージ+6%\nミニオンとセントリーのスロット+1"
+		DisplayName: "コバルトバイザー"
+	}
+	ChlorophyteHeadMixed: {
+		Tooltip: "ダメージ+12%\nミニオンとセントリーのスロット+2"
+		DisplayName: "クロロファイトバイザー"
+	}
+	AdamantiteHeadMixed: {
+		Tooltip: "ダメージ+9%\nミニオンとセントリーのスロット+1"
+		DisplayName: "アダマンタイトバイザー"
+	}
+	VeilEmblem: {
+		Tooltip: "投擲ダメージが25%増加"
+		DisplayName: "ヴェールエンブレム"
+	}
+	TricksterEmblem: {
+		Tooltip: "投擲ダメージが15%増加"
+		DisplayName: "トリックスターエンブレム"
+	}
+	StardustEmblem: {
+		Tooltip: "召喚ダメージが25%増加"
+		DisplayName: "スターダストエンブレム"
+	}
+	VortexEmblem: {
+		Tooltip: "遠距離ダメージが25%増加"
+		DisplayName: "ボルテックスエンブレム"
+	}
+	StellarwindEmblem: {
+		Tooltip: "メロディックダメージが25%増加"
+		DisplayName: "ステラウィンドエンブレム"
+	}
+	MinstrelEmblem: {
+		Tooltip: "メロディックダメージが15%増加"
+		DisplayName: "ミンストレルエンブレム"
+	}
+	SolarEmblem: {
+		Tooltip: "近接ダメージが25%増加"
+		DisplayName: "ソーラーエンブレム"
+	}
+	NebulaEmblem: {
+		Tooltip: "魔法ダメージが25%増加"
+		DisplayName: "ネビュラエンブレム"
+	}
+	PoisonVialNecklace: {
+		Tooltip: "念動力攻撃にトキシキネシスを付与し、ヒット時に「毒」状態にする可能性がある"
+		DisplayName: "毒の小瓶のネックレス"
+	}
+	NightRune: {
+		Tooltip: "最大サイコシス+6"
+		DisplayName: "ナイトルーン"
+	}
+	NightOrbNecklace: {
+		Tooltip: "念動力による回避率+10%"
+		DisplayName: "ナイトオーブのネックレス"
+	}
+	NightIChing: {
+		Tooltip: "サイコシス回復+60%"
+		DisplayName: "ナイト易経"
+	}
+	NightCharmNecklace: {
+		Tooltip: "最大サイコシス+6\nサイコシス回復+60%\n念動力による回避率+10%"
+		DisplayName: "ナイトチャームネックレス"
+	}
+	FrostVialNecklace: {
+		Tooltip: "念動力攻撃にクリオキネシスを付与し、ヒット時に「フロストバーン」状態にする可能性がある"
+		DisplayName: "霜の小瓶のネックレス"
+	}
+	FireVialNecklace: {
+		Tooltip: "念動力攻撃にパイロキネシスを付与し、ヒット時に「炎上！」状態にする可能性がある"
+		DisplayName: "火の小瓶のネックレス"
+	}
+	EnchantedRune: {
+		Tooltip: "最大サイコシス+3"
+		DisplayName: "エンチャントルーン"
+	}
+	EnchantedOrbNecklace: {
+		Tooltip: "念動力による回避率+5%"
+		DisplayName: "エンチャントオーブのネックレス"
+	}
+	EnchantedIChing: {
+		Tooltip: "サイコシス回復+30%"
+		DisplayName: "エンチャント易経"
+	}
+	EnchantedCharmNecklace: {
+		Tooltip: "最大サイコシス+3\nサイコシス回復+30%\n念動力による回避率+5%"
+		DisplayName: "エンチャントチャームネックレス"
+	}
+	TaurusEnchantment: {
+		Tooltip: "サイダッシュを有効にする\n基本方向をダブルタップしてその方向にダッシュする\nダッシュ中に20フレームの無敵時間を得る\n使用には5サイコシスを消費する\nサイクドアウト状態で使用すると20ダメージを受ける\n「彼らに雄牛を！」"
+		DisplayName: "タウラスエンチャントメント"
+	}
+	DesertWandererEnchantment: {
+		Tooltip: "オーバーサイコシス状態でエスパー武器を使用中のライフ消費を25%軽減\n「強風」に対する耐性\n「やあ、こんにちは」"
+		DisplayName: "デザートワンダラーエンチャントメント"
+	}
+	CambrianEnchantment: {
+		Tooltip: "液体中での自由な移動\nエスパーの投擲物が液体中で遅くならない\n「彼女は海岸で貝殻を売っている」"
+		DisplayName: "カンブリアンエンチャントメント"
+	}
+	GravityWings: {
+		Tooltip: "飛行と低速落下を可能にする\n下とジャンプを押し続けてホバリングする\n飛行時間がなくなるとサイコシスを使用して浮遊し続ける"
+		DisplayName: "グラビティバリアプラットフォーム"
+	}
+	GravityRune: {
+		Tooltip: "最大サイコシス+15"
+		DisplayName: "グラビティルーン"
+	}
+	GravityOrbNecklace: {
+		Tooltip: "念動力による回避率+25%"
+		DisplayName: "グラビティオーブのネックレス"
+	}
+	GravityIChing: {
+		Tooltip: "サイコシス回復+150%"
+		DisplayName: "グラビティ易経"
+	}
+	GravityEmblem: {
+		Tooltip: "念動力ダメージが25%増加"
+		DisplayName: "グラビティエンブレム"
+	}
+	GravityCharm: {
+		Tooltip: "ライフ回復+2\n回復ポーションのクールダウン-25%\n念動力ダメージ+8%\n最大サイコシス+5"
+		DisplayName: "グラビティチャーム"
+	}
+	GravityCharmNecklace: {
+		Tooltip: "最大サイコシス+15\nサイコシス回復+150%\n念動力による回避率+25%"
+		DisplayName: "グラビティチャームネックレス"
+	}
+	GravityEnchantment: {
+		Tooltip: "下をダブルタップして敵を吸い込む重力場を召喚する\n内部にいる間、飛行時間が増加する\n「上、下、左、右、あなたにとってはすべて同じ」"
+		DisplayName: "グラビティエンチャントメント"
+	}
+	ForceofMind: {
+		Tooltip: "\nオーバーサイコシス状態でエスパー武器を使用中のライフ消費を25%軽減し、「強風」に対する耐性を得る\n液体中での自由な移動と、エスパーの投擲物が液体中で遅くならない\nサイダッシュを有効にする\n翼の飛行時間が50%増加\nサイコシスを消費すると念動力ダメージが増加する（そして十分な蓄積の後に爆発を引き起こす）\n下をダブルタップして敵を吸い込む重力場を召喚する\n「着用者に精神の祝福を」"
+		DisplayName: "フォースオブマインド"
+	}
+	VenomVialNecklace: {
+		Tooltip: "念動力攻撃にヴェノキネシスを付与し、ヒット時に「ヴェノム」状態にする可能性がある\nプランテラを倒した後、ウィッチドクターから購入可能"
+		DisplayName: "ヴェノムの小瓶のネックレス"
+	}
+	TerraVialNecklace: {
+		Tooltip: "念動力攻撃に多くのキネシスを付与し、ヒット時に多くのデバフを引き起こす可能性がある"
+		DisplayName: "テラの小瓶のネックレス"
+	}
+	TerraCharmNecklace: {
+		Tooltip: "最大サイコシス+12\nサイコシス回復+120%\n念動力による回避率+20%"
+		DisplayName: "テラチャームネックレス"
+	}
+	SpectreIChing: {
+		Tooltip: "サイコシス回復+120%"
+		DisplayName: "スペクター易経"
+	}
+	ShroomiteOrbNecklace: {
+		Tooltip: "念動力による回避率+20%"
+		DisplayName: "シュルーム石のオーブネックレス"
+	}
+	ShadowflameVialNecklace: {
+		Tooltip: "念動力攻撃にウンブラーパイロキネシスを付与し、ヒット時に「シャドウフレイム」状態にする可能性がある"
+		DisplayName: "シャドウフレイムの小瓶のネックレス"
+	}
+	MysticalEyeglass: {
+		Tooltip: "念動力武器を持っている間、右クリックでズームできる\nウィザードから購入可能"
+		DisplayName: "神秘的な片眼鏡"
+	}
+	MidasVialNecklace: {
+		Tooltip: "念動力攻撃にアウロキネシスを付与し、ヒット時に「ミダス」状態にする可能性がある"
+		DisplayName: "ミダスの小瓶のネックレス"
+	}
+	IchorVialNecklace: {
+		Tooltip: "念動力攻撃にヘモキネシスを付与し、ヒット時に「イコル」状態にする可能性がある"
+		DisplayName: "イコルの小瓶のネックレス"
+	}
+	HallowedRune: {
+		Tooltip: "最大サイコシス+9"
+		DisplayName: "聖なるルーン"
+	}
+	HallowedOrbNecklace: {
+		Tooltip: "念動力による回避率+15%"
+		DisplayName: "聖なるオーブのネックレス"
+	}
+	HallowedIChing: {
+		Tooltip: "サイコシス回復+90%"
+		DisplayName: "聖なる易経"
+	}
+	HallowedCharmNecklace: {
+		Tooltip: "最大サイコシス+9\nサイコシス回復+90%\n念動力による回避率+15%"
+		DisplayName: "聖なるチャームネックレス"
+	}
+	ExtravagantEyeglass: {
+		Tooltip: "念動力武器を持っている間、右クリックでズームできる\n念動力ダメージ+15%\nアクセサリーの表示を隠してズームを無効にし、ダメージは維持する"
+		DisplayName: "豪華な片眼鏡"
+	}
+	EsperEmblem: {
+		Tooltip: "念動力ダメージが15%増加"
+		DisplayName: "エスパーエンブレム"
+	}
+	CursedFlamesVialNecklace: {
+		Tooltip: "念動力攻撃にクロロキネシスを付与し、ヒット時に「呪炎」状態にする可能性がある"
+		DisplayName: "呪炎の小瓶のネックレス"
+	}
+	WyvernEnchantment: {
+		Tooltip: "翼の飛行時間が50%増加\n「ゴーストタウンを作る生き物から作られた」"
+		DisplayName: "ワイバーンエンチャントメント"
+	}
+	LihzahrdSolarEnchantment: {
+		Tooltip: "サイコシスを消費すると念動力ダメージが増加する\n十分な時間が経過すると武器で爆発を引き起こし、ボーナスをリセットする\n「リザードの秘密の一つ、君が使う番だ」"
+		DisplayName: "リザードソーラーエンチャントメント"
+	}
+	BeetleRune: {
+		Tooltip: "最大サイコシス+12"
+		DisplayName: "ビートルルーン"
+	}
+	NightToolkit: {
+		Tooltip: "セントリー速度+10%\nタレットの射程+20%\n創意+2"
+		DisplayName: "ナイトツールキット"
+	}
+	NightScope: {
+		Tooltip: "タレットの射程+20%"
+		DisplayName: "ナイトスコープ"
+	}
+	NightGears: {
+		Tooltip: "セントリー速度+10%"
+		DisplayName: "ナイトギア"
+	}
+	FeatherMagLev: {
+		Tooltip: "Cerebral Modのトラップ（タレットではない）を設置すると浮遊する\n元々浮遊するトラップには不要"
+		DisplayName: "フェザーマグレブ"
+	}
+	EnchantedToolkit: {
+		Tooltip: "セントリー速度+5%\nタレットの射程+10%\n創意+1"
+		DisplayName: "エンチャントツールキット"
+	}
+	EnchantedScope: {
+		Tooltip: "タレットの射程+10%"
+		DisplayName: "エンチャントスコープ"
+	}
+	EnchantedGears: {
+		Tooltip: "セントリー速度+5%"
+		DisplayName: "エンチャントギア"
+	}
+	EnchantedChip: {
+		Tooltip: "セントリー設置数+1"
+		DisplayName: "エンチャントチップ"
+	}
+	SkyEnchantment: {
+		Tooltip: "落下ダメージを無効化する\n上昇中でないときにジャンプを長押しして落下を遅くする\n「空を見上げて強力なギアを作ろう」"
+		DisplayName: "スカイエンチャントメント"
+	}
+	FrozenEnchantment: {
+		Tooltip: "「冷気」と「凍結」に対する耐性\n「寒さの中からインスピレーションが生まれる」"
+		DisplayName: "フローズンエンチャントメント"
+	}
+	EngineerEnchantment: {
+		Tooltip: "Cerebral Modのタレット（トラップではない）を設置すると浮遊する\n創意の回復が2倍速くなる\n「魔法に満ちた世界で、君は技術を機能させる」"
+		DisplayName: "エンジニアエンチャントメント"
+	}
+	PulsarToolkit: {
+		Tooltip: "セントリー速度+25%\nタレットの射程+50%\n創意+5\n固いタイルを通してセントリーを設置できる"
+		DisplayName: "パルサーツールキット"
+	}
+	PulsarScope: {
+		Tooltip: "タレットの射程+50%"
+		DisplayName: "パルサースコープ"
+	}
+	PulsarJetpack: {
+		Tooltip: "飛行と低速落下を可能にする\n上を押し続けてより速くロケット噴射する"
+		DisplayName: "パルサージェットパック"
+	}
+	PulsarGears: {
+		Tooltip: "セントリー速度+25%"
+		DisplayName: "パルサーギア"
+	}
+	PulsarEmblem: {
+		Tooltip: "セントリーダメージが25%増加"
+		DisplayName: "パルサーエンブレム"
+	}
+	PulsarChip: {
+		Tooltip: "セントリー設置数+3\nセントリーのノックバック+100%"
+		DisplayName: "パルサーチップ"
+	}
+	PulsarEnchantment: {
+		Tooltip: "プレイヤーの上にタレットを召喚し、近くの敵を撃つ\n「星々によって動かされるエンジニアリング」"
+		DisplayName: "パルサーエンチャントメント"
+	}
+	ForceofInnovation: {
+		Tooltip: "\n「冷気」と「凍結」に対する耐性\n[i:5263] 落下ダメージを無効化する。上昇中でないときにジャンプを長押しして落下を遅くする\n[i:5261] 創意の回復が2倍速くなる\n[i:5254] プレイヤーの上にタレットを召喚し、近くの敵を撃つ\n「マスタークラスのエンジニア」"
+		DisplayName: "フォースオブイノベーション"
+	}
+	WyvernMagLev: {
+		Tooltip: "Cerebral Modのトラップとタレットを設置すると浮遊する\n元々浮遊するトラップやタレットには不要"
+		DisplayName: "ワイバーンマグレブ"
+	}
+	TerraToolkit: {
+		Tooltip: "セントリー速度+20%\nタレットの射程+40%\n創意+4\n固いタイルを通してセントリーを設置できる"
+		DisplayName: "テラツールキット"
+	}
+	SpectreLens: {
+		Tooltip: "固いタイルを通してセントリーを設置できる"
+		DisplayName: "スペクターレンズ"
+	}
+	ShroomiteScope: {
+		Tooltip: "タレットの射程+40%"
+		DisplayName: "シュルーム石のスコープ"
+	}
+	HallowedToolkit: {
+		Tooltip: "セントリー速度+15%\nタレットの射程+30%\n創意+3"
+		DisplayName: "聖なるツールキット"
+	}
+	HallowedScope: {
+		Tooltip: "タレットの射程+30%"
+		DisplayName: "聖なるスコープ"
+	}
+	HallowedGears: {
+		Tooltip: "セントリー速度+15%"
+		DisplayName: "聖なるギア"
+	}
+	HallowedCircuit: {
+		Tooltip: "セントリー設置数+2\nセントリーのノックバック+50%\nセントリーダメージ+15%"
+		DisplayName: "聖なる回路"
+	}
+	HallowedChip: {
+		Tooltip: "セントリー設置数+2\nセントリーのノックバック+50%"
+		DisplayName: "聖なるチップ"
+	}
+	DefenderEmblem: {
+		Tooltip: "セントリーダメージが15%増加"
+		DisplayName: "ディフェンダーエンブレム"
+	}
+	BeetleGears: {
+		Tooltip: "セントリー速度+20%"
+		DisplayName: "ビートルギア"
+	}
+}
+
+Buffs: {
+	PianoBuff: {
+		Description: "ミンストレルのタイミングウィンドウ+2"
+		DisplayName: "ピアノバフ"
+	}
+	Willful: {
+		Description: "念動力ダメージ+20%"
+		DisplayName: "ウィルフル"
+	}
+	ThrowingImmulation: {
+		Description: "投擲ダメージを20%増加"
+		DisplayName: "投擲模倣"
+	}
+	TerraDebuff: {
+		Description: "通常これを見ることはない"
+		DisplayName: "テラデバフ"
+	}
+	TelekineticImmulation: {
+		Description: "念動力ダメージを20%増加"
+		DisplayName: "念動力模倣"
+	}
+	SummonImmulation: {
+		Description: "召喚ダメージを20%増加"
+		DisplayName: "召喚模倣"
+	}
+	SideEffects: {
+		Description: "念動力ダメージが20%減少し、サイコシスを回復できない"
+		DisplayName: "副作用"
+	}
+	SentryImmulation: {
+		Description: "セントリーダメージを20%増加"
+		DisplayName: "セントリー模倣"
+	}
+	RangedImmulation: {
+		Description: "遠距離ダメージを20%増加"
+		DisplayName: "遠距離模倣"
+	}
+	PsychedOut: {
+		Description: "あなたは精神的な限界に挑戦している\n念動力武器を使用するとダメージを受ける\n念動力クリティカルヒット率+20%"
+		DisplayName: "サイクドアウト"
+	}
+	PoweredSentries: {
+		Description: "セントリークリティカルヒット率+15%"
+		DisplayName: "パワードセントリー"
+	}
+	NPCChill: {
+		Description: "通常これを見ることはない"
+		DisplayName: "NPC冷気"
+	}
+	NightDebuff: {
+		Description: "通常これを見ることはない"
+		DisplayName: "ナイトデバフ"
+	}
+	MelodicImmulation: {
+		Description: "メロディックダメージを20%増加"
+		DisplayName: "メロディック模倣"
+	}
+	MeleeImmulation: {
+		Description: "近接ダメージを20%増加"
+		DisplayName: "近接模倣"
+	}
+	MagicImmulation: {
+		Description: "魔法ダメージを20%増加"
+		DisplayName: "魔法模倣"
+	}
+	LessStepsAhead: {
+		Description: "このデバフが消えるまで再びサイダッジはできない"
+		DisplayName: "一歩手前"
+	}
+	Irradiated: {
+		Description: "通常これを見ることはない"
+		DisplayName: "放射線"
+	}
+	IncreasedSentries: {
+		Description: "セントリー設置数+1"
+		DisplayName: "セントリー増加"
+	}
+	Focused: {
+		Description: "念動力クリティカルヒット率+12%"
+		DisplayName: "集中"
+	}
+	EngineerToolkitBuff: {
+		Description: "タイルと壁の設置速度+50%\nタイル設置範囲+3"
+		DisplayName: "エンジニアツールキットバフ"
+	}
+	Alert: {
+		Description: "念動力の速度+30%"
+		DisplayName: "警戒"
+	}
+	ActiveSentries: {
+		Description: "少なくとも1つのアクティブなセントリーがある。このバフをキャンセルしてすべてのアクティブなセントリーを削除する"
+		DisplayName: "アクティブセントリー"
+	}
+}
+
+Projectiles: {
+	CommonSwordProjectile: {
+		DisplayName: Common Sword Projectile
+	}
+
+	PulsarLaserProj: {
+		DisplayName: Pulsar Laser Proj
+	}
+
+	HellstoneBellProjA: {
+		DisplayName: Hellstone Bell Proj A
+	}
+
+	HellstoneBellProjB: {
+		DisplayName: Hellstone Bell Proj B
+	}
+
+	CrimsonHeartTrumpetProj: {
+		DisplayName: Crimson Heart Trumpet Proj
+	}
+
+	CactusPillarProj: {
+		DisplayName: Cactus Pillar Proj
+	}
+
+	HellstoneCactusPillar: {
+		DisplayName: Hellstone Cactus Pillar
+	}
+
+	BeeHookProj: {
+		DisplayName: Bee Hook Proj
+	}
+
+	EyeSaxophoneProj: {
+		DisplayName: Eye Saxophone Proj
+	}
+
+	CrimtaneGuitarAura: {
+		DisplayName: Crimtane Guitar Aura
+	}
+
+	IceSaxophoneProj: {
+		DisplayName: Ice Saxophone Proj
+	}
+
+	Wrangler: {
+		DisplayName: Wrangler
+	}
+
+	PulsarDrill: {
+		DisplayName: Pulsar Drill
+	}
+
+	GravityDrill: {
+		DisplayName: Gravity Drill
+	}
+
+	GravityChainsaw: {
+		DisplayName: Gravity Chainsaw
+	}
+
+	WoodenStake: {
+		DisplayName: Wooden Stake
+	}
+
+	TungstenShuriken: {
+		DisplayName: Tungsten Shuriken
+	}
+
+	TopazSatchelCharge: {
+		DisplayName: Topaz Satchel Charge
+	}
+
+	TinShuriken: {
+		DisplayName: Tin Shuriken
+	}
+
+	Superball: {
+		DisplayName: Superball
+	}
+
+	SkywareShell: {
+		DisplayName: Skyware Shell
+	}
+
+	SilverKunai: {
+		DisplayName: Silver Kunai
+	}
+
+	ShadowOrbHatchet: {
+		DisplayName: Shadow Orb Hatchet
+	}
+
+	ShadewoodShaken: {
+		DisplayName: Shadewood Shaken
+	}
+
+	SapphireSatchelCharge: {
+		DisplayName: Sapphire Satchel Charge
+	}
+
+	RubySatchelCharge: {
+		DisplayName: Ruby Satchel Charge
+	}
+
+	RichMahoganyRainJavelinProj2: {
+		DisplayName: Rich Mahogany Rain Javelin Proj2
+	}
+
+	RichMahoganyRainJavelinProj1: {
+		DisplayName: Rich Mahogany Rain Javelin Proj1
+	}
+
+	Puck: {
+		DisplayName: Puck
+	}
+
+	PlatinumShuriken: {
+		DisplayName: Platinum Shuriken
+	}
+
+	PalmWoodShell: {
+		DisplayName: Palm Wood Shell
+	}
+
+	NightShuriken: {
+		DisplayName: Night Shuriken
+	}
+
+	NightKunai: {
+		DisplayName: Night Kunai
+	}
+
+	MeteoriteTNT: {
+		DisplayName: Meteorite T N T
+	}
+
+	MarbleHatchet: {
+		DisplayName: Marble Hatchet
+	}
+
+	LeadShuriken: {
+		DisplayName: Lead Shuriken
+	}
+
+	JungleShuriken: {
+		DisplayName: Jungle Shuriken
+	}
+
+	JungleKunai: {
+		DisplayName: Jungle Kunai
+	}
+
+	IronKunai: {
+		DisplayName: Iron Kunai
+	}
+
+	HellstoneShuriken: {
+		DisplayName: Hellstone Shuriken
+	}
+
+	HellstoneKunai: {
+		DisplayName: Hellstone Kunai
+	}
+
+	GraniteShaken: {
+		DisplayName: Granite Shaken
+	}
+
+	GoldKunai: {
+		DisplayName: Gold Kunai
+	}
+
+	GlowingMushroomRainJavelinProj2: {
+		DisplayName: Glowing Mushroom Rain Javelin Proj2
+	}
+
+	GlowingMushroomRainJavelinProj1: {
+		DisplayName: Glowing Mushroom Rain Javelin Proj1
+	}
+
+	EnchantedShuriken: {
+		DisplayName: Enchanted Shuriken
+	}
+
+	EnchantedKunai: {
+		DisplayName: Enchanted Kunai
+	}
+
+	EmeraldSatchelCharge: {
+		DisplayName: Emerald Satchel Charge
+	}
+
+	EbonwoodHatchet: {
+		DisplayName: Ebonwood Hatchet
+	}
+
+	DynastyWoodSatchelCharge: {
+		DisplayName: Dynasty Wood Satchel Charge
+	}
+
+	DungeonShuriken: {
+		DisplayName: Dungeon Shuriken
+	}
+
+	DungeonKunai: {
+		DisplayName: Dungeon Kunai
+	}
+
+	DiamondSatchelCharge: {
+		DisplayName: Diamond Satchel Charge
+	}
+
+	DemoniteShuriken: {
+		DisplayName: Demonite Shuriken
+	}
+
+	DemoniteKunai: {
+		DisplayName: Demonite Kunai
+	}
+
+	CrimtaneShuriken: {
+		DisplayName: Crimtane Shuriken
+	}
+
+	CrimtaneKunai: {
+		DisplayName: Crimtane Kunai
+	}
+
+	CrimsonHeartShaken: {
+		DisplayName: Crimson Heart Shaken
+	}
+
+	CopperKunai: {
+		DisplayName: Copper Kunai
+	}
+
+	CactusNailBomb: {
+		DisplayName: Cactus Nail Bomb
+	}
+
+	BorealWoodShuriken: {
+		DisplayName: Boreal Wood Shuriken
+	}
+
+	BeeShell: {
+		DisplayName: Bee Shell
+	}
+
+	AshWoodTNT: {
+		DisplayName: Ash Wood T N T
+	}
+
+	AmethystSatchelCharge: {
+		DisplayName: Amethyst Satchel Charge
+	}
+
+	AmberSatchelCharge: {
+		DisplayName: Amber Satchel Charge
+	}
+
+	CrystalGrenade: {
+		DisplayName: Crystal Grenade
+	}
+
+	RelicExplosion: {
+		DisplayName: Relic Explosion
+	}
+
+	PulsarHelperProj: {
+		DisplayName: Pulsar Helper Proj
+	}
+
+	PulsarHelper: {
+		DisplayName: Pulsar Helper
+	}
+
+	LegendaryExplosion: {
+		DisplayName: Legendary Explosion
+	}
+
+	GravityField: {
+		DisplayName: Gravity Field
+	}
+
+	EpicExplosion: {
+		DisplayName: Epic Explosion
+	}
+
+	YardbirdsCrowProj: {
+		DisplayName: Yardbirds Crow Proj
+	}
+
+	WoodenLuteAura: {
+		DisplayName: Wooden Lute Aura
+	}
+
+	TungstenGuitarAura: {
+		DisplayName: Tungsten Guitar Aura
+	}
+
+	TopazFluteProj: {
+		DisplayName: Topaz Flute Laser
+	}
+
+	TinGuitarAura: {
+		DisplayName: Tin Guitar Aura
+	}
+
+	SunflowerWhistleProj: {
+		DisplayName: Sunflower Whistle Proj
+	}
+
+	SlimyDrumProj: {
+		DisplayName: Slimy Sac Projectile
+	}
+
+	SilverGuitarAura: {
+		DisplayName: Silver Guitar Aura
+	}
+
+	SapphireFluteProj: {
+		DisplayName: Sapphire Flute Laser
+	}
+
+	RubyFluteProj: {
+		DisplayName: Ruby Flute Laser
+	}
+
+	PlatinumHarpAura: {
+		DisplayName: Platinum Harp Aura
+	}
+
+	PinkSlimyDrumProj: {
+		DisplayName: Pinky Slimy Sac Projectile
+	}
+
+	MarbleTrumpetProj: {
+		DisplayName: Marble Trumpet Projectile
+	}
+
+	LeadHarpAura: {
+		DisplayName: Lead Lyre Aura
+	}
+
+	IronHarpAura: {
+		DisplayName: Iron Lyre Aura
+	}
+
+	GraniteWarHornProj: {
+		DisplayName: Granite War Horn Projectile
+	}
+
+	GoldHarpAura: {
+		DisplayName: Gold Harp Aura
+	}
+
+	EnchantedGuitarAura: {
+		DisplayName: Enchanted Guitar Aura
+	}
+
+	EmeraldFluteProj: {
+		DisplayName: Emerald Flute Laser
+	}
+
+	DiamondFluteProj: {
+		DisplayName: Diamond Flute Laser
+	}
+
+	DemoniteGuitarAura: {
+		DisplayName: Demonite Guitar Aura
+	}
+
+	CopperGuitarAura: {
+		DisplayName: Copper Guitar Aura
+	}
+
+	BorealWoodWhistleProj: {
+		DisplayName: Boreal Wood Whistle Proj
+	}
+
+	AshWoodLuteAura: {
+		DisplayName: Ash Wood Lute Aura
+	}
+
+	AmethystFluteProj: {
+		DisplayName: Amethyst Flute Laser
+	}
+
+	AmberFluteProj: {
+		DisplayName: Amber Flute Laser
+	}
+
+	PearlwoodLuteAura: {
+		DisplayName: Pearlwood Lute Aura
+	}
+
+	CrystalFlail: {
+		DisplayName: Crystal Flail Ball
+	}
+
+	SangriScepterProj: {
+		DisplayName: Sangri Scepter Proj
+	}
+
+	VileOrbProj: {
+		DisplayName: Vile Orb Proj
+	}
+
+	WoodenDisc: {
+		DisplayName: Wooden Disc
+	}
+
+	UncommonSawblade: {
+		DisplayName: Uncommon Sawblade
+	}
+
+	TungstenSawblade: {
+		DisplayName: Tungsten Sawblade
+	}
+
+	TrueHallowedCanisterProj2: {
+		DisplayName: True Hallowed Canister Proj2
+	}
+
+	TorchTwirler: {
+		DisplayName: Torch Twirler
+	}
+
+	TopazRiftBolt: {
+		DisplayName: Topaz Rift Bolt
+	}
+
+	TopazRift: {
+		DisplayName: Topaz Rift
+	}
+
+	TKMeteor: {
+		DisplayName: T K Meteor
+	}
+
+	TKBoulder: {
+		DisplayName: T K Boulder
+	}
+
+	TinSawblade: {
+		DisplayName: Tin Sawblade
+	}
+
+	TerraCanisterProj2: {
+		DisplayName: Terra Canister Proj2
+	}
+
+	SpittingSandfishProj: {
+		DisplayName: Spitting Sandfish Proj
+	}
+
+	SpittingSandfish: {
+		DisplayName: Spitting Sandfish
+	}
+
+	SpikyBallLobberProj: {
+		DisplayName: Spiky Ball Lobber Proj
+	}
+
+	SpikyBallLobber: {
+		DisplayName: Spiky Ball Lobber
+	}
+
+	SpectreRiftBolt: {
+		DisplayName: Spectre Rift Bolt
+	}
+
+	SlimyCanisterProj: {
+		DisplayName: Slimy Canister Proj
+	}
+
+	SlimyCanister: {
+		DisplayName: Slimy Canister
+	}
+
+	SilverSawblade: {
+		DisplayName: Silver Sawblade
+	}
+
+	ShadowOrbitProj: {
+		DisplayName: Shadow Orbit Proj
+	}
+
+	ShadowOrbit: {
+		DisplayName: Shadow Orbit
+	}
+
+	ShadowflameRiftBolt: {
+		DisplayName: Shadowflame Rift Bolt
+	}
+
+	ShadewoodDisc: {
+		DisplayName: Shadewood Disc
+	}
+
+	SapphireRiftBolt: {
+		DisplayName: Sapphire Rift Bolt
+	}
+
+	SapphireRift: {
+		DisplayName: Sapphire Rift
+	}
+
+	RubyRiftBolt: {
+		DisplayName: Ruby Rift Bolt
+	}
+
+	RubyRift: {
+		DisplayName: Ruby Rift
+	}
+
+	RichMahoganyDisc: {
+		DisplayName: Rich Mahogany Disc
+	}
+
+	PlatinumSawblade: {
+		DisplayName: Platinum Sawblade
+	}
+
+	PinkyTwirler: {
+		DisplayName: Pinky Twirler
+	}
+
+	PinkSlimyCanisterProj: {
+		DisplayName: Pink Slimy Canister Proj
+	}
+
+	PinkSlimyCanister: {
+		DisplayName: Pink Slimy Canister
+	}
+
+	PalmWoodDisc: {
+		DisplayName: Palm Wood Disc
+	}
+
+	NightSawblade: {
+		DisplayName: Night Sawblade
+	}
+
+	NightCanisterProj: {
+		DisplayName: Night Canister Proj
+	}
+
+	NightCanister: {
+		DisplayName: Night Canister
+	}
+
+	MoltenBoulder: {
+		DisplayName: Molten Boulder
+	}
+
+	LeadSawblade: {
+		DisplayName: Lead Sawblade
+	}
+
+	JungleSawblade: {
+		DisplayName: Jungle Sawblade
+	}
+
+	JungleCanisterProj: {
+		DisplayName: Jungle Canister Proj
+	}
+
+	JungleCanister: {
+		DisplayName: Jungle Canister
+	}
+
+	IronSawblade: {
+		DisplayName: Iron Sawblade
+	}
+
+	HellstoneSawblade: {
+		DisplayName: Sawflame
+	}
+
+	HellstoneCanisterProj: {
+		DisplayName: Hellstone Canister Proj
+	}
+
+	HellstoneCanister: {
+		DisplayName: Hellstone Canister
+	}
+
+	HellbatJarProj: {
+		DisplayName: Hellbat Jar Proj
+	}
+
+	HellbatJar: {
+		DisplayName: Hellbat Jar
+	}
+
+	GoldSawblade: {
+		DisplayName: Gold Sawblade
+	}
+
+	FrostburnTwirler: {
+		DisplayName: Frostburn Twirler
+	}
+
+	FeatherGust: {
+		DisplayName: Feather Gust
+	}
+
+	EyeJarProj: {
+		DisplayName: Eye Jar Proj
+	}
+
+	EyeJar: {
+		DisplayName: Eye Jar
+	}
+
+	EnchantedSawblade: {
+		DisplayName: Enchanted Sawblade
+	}
+
+	EmeraldRiftBolt: {
+		DisplayName: Emerald Rift Bolt
+	}
+
+	EmeraldRift: {
+		DisplayName: Emerald Rift
+	}
+
+	EbonwoodDisc: {
+		DisplayName: Ebonwood Disc
+	}
+
+	EbonCactusBall: {
+		DisplayName: Ebon Cactus Ball
+	}
+
+	DynastyWoodDisc: {
+		DisplayName: Dynasty Wood Disc
+	}
+
+	DungeonSawblade: {
+		DisplayName: Dungeon Sawblade
+	}
+
+	DungeonCanisterProj: {
+		DisplayName: Dungeon Canister Proj
+	}
+
+	DungeonCanister: {
+		DisplayName: Dungeon Canister
+	}
+
+	DiamondRiftBolt: {
+		DisplayName: Diamond Rift Bolt
+	}
+
+	DiamondRift: {
+		DisplayName: Diamond Rift
+	}
+
+	DemonTwirler: {
+		DisplayName: Demon Twirler
+	}
+
+	DemoniteSawblade: {
+		DisplayName: Demonite Sawblade
+	}
+
+	DemoniteCanisterProj: {
+		DisplayName: Demonite Canister Proj
+	}
+
+	DemoniteCanister: {
+		DisplayName: Demonite Canister
+	}
+
+	SoilSawblade: {
+		DisplayName: Soil Sawblade
+	}
+
+	CrimtaneSawblade: {
+		DisplayName: Crimtane Sawblade
+	}
+
+	CrimtaneCanisterProj: {
+		DisplayName: Blood Canister Liquid
+	}
+
+	CrimtaneCanister: {
+		DisplayName: Crimtane Canister
+	}
+
+	CrimCactusBall: {
+		DisplayName: Crim Cactus Ball
+	}
+
+	CopperSawblade: {
+		DisplayName: Copper Sawblade
+	}
+
+	CommonSawblade: {
+		DisplayName: Common Sawblade
+	}
+
+	ClotBomberProj: {
+		DisplayName: Clot Bomber Proj
+	}
+
+	ClotBomber: {
+		DisplayName: Clot Bomber
+	}
+
+	CactusBall: {
+		DisplayName: Cactus Ball
+	}
+
+	BrightTwirler: {
+		DisplayName: Bright Twirler
+	}
+
+	BowlingBall: {
+		DisplayName: Bowling Ball
+	}
+
+	BorealWoodDisc: {
+		DisplayName: Boreal Wood Disc
+	}
+
+	BoneTwirler: {
+		DisplayName: Bone Twirler
+	}
+
+	BeeJar: {
+		DisplayName: Bee Jar
+	}
+
+	BatJarProj: {
+		DisplayName: Bat Jar Proj
+	}
+
+	BatJar: {
+		DisplayName: Bat Jar
+	}
+
+	AmethystRiftBolt: {
+		DisplayName: Amethyst Rift Bolt
+	}
+
+	AmethystRift: {
+		DisplayName: Amethyst Rift
+	}
+
+	AmberRiftBolt: {
+		DisplayName: Amber Rift Bolt
+	}
+
+	AmberRift: {
+		DisplayName: Amber Rift
+	}
+
+	RelicSawbladeProj2: {
+		DisplayName: Relic Sawblade Proj2
+	}
+
+	RelicSawblade: {
+		DisplayName: Relic Sawblade
+	}
+
+	EldritchEyeJarProj2: {
+		DisplayName: Eldritch Eye Jar Proj2
+	}
+
+	EldritchEyeJarProj: {
+		DisplayName: Eldritch Eye Jar Proj
+	}
+
+	EldritchEyeJar: {
+		DisplayName: Eldritch Eye Jar
+	}
+
+	MiniCactuar: {
+		DisplayName: Mini Cactuar
+	}
+
+	JoostNeedle: {
+		DisplayName: Needle
+	}
+
+	BlackHoleBombProj: {
+		DisplayName: Black Hole Bomb Proj
+	}
+
+	BlackHoleBomb: {
+		DisplayName: Black Hole Bomb
+	}
+
+	AccretionDisc: {
+		DisplayName: Accretion Disc
+	}
+
+	YellowTKRocket: {
+		DisplayName: Yellow T K Rocket
+	}
+
+	WaspJarProj: {
+		DisplayName: Wasp Jar Proj
+	}
+
+	WaspJar: {
+		DisplayName: Wasp Jar
+	}
+
+	VenomTwirler: {
+		DisplayName: Venom Twirler
+	}
+
+	TrueNightSawblade: {
+		DisplayName: True Night Sawblade
+	}
+
+	TrueNightCanisterProj: {
+		DisplayName: True Night Canister Proj
+	}
+
+	TrueNightCanister: {
+		DisplayName: True Night Canister
+	}
+
+	TrueHallowedSawbladeProj: {
+		DisplayName: True Hallowed Sawblade Proj
+	}
+
+	TrueHallowedSawblade: {
+		DisplayName: True Hallowed Sawblade
+	}
+
+	TrueHallowedCanisterProj: {
+		DisplayName: True Hallowed Canister Proj
+	}
+
+	TrueHallowedCanister: {
+		DisplayName: True Hallowed Canister
+	}
+
+	TKThornBall: {
+		DisplayName: T K Thorn Ball
+	}
+
+	TKPrimeVice: {
+		DisplayName: T K Prime Vice
+	}
+
+	TKPrimeSaw: {
+		DisplayName: T K Prime Saw
+	}
+
+	TKPrimeLaserProj: {
+		DisplayName: T K Prime Laser Proj
+	}
+
+	TKPrimeLaser: {
+		DisplayName: T K Prime Laser
+	}
+
+	TKPrimeCannonProj: {
+		DisplayName: T K Prime Cannon Proj
+	}
+
+	TKPrimeCannon: {
+		DisplayName: T K Prime Cannon
+	}
+
+	TKCannonball: {
+		DisplayName: T K Cannonball
+	}
+
+	TitaniumSawblade: {
+		DisplayName: Titanium Sawblade
+	}
+
+	TerraSawbladeProj: {
+		DisplayName: Terra Sawblade Proj
+	}
+
+	TerraSawblade: {
+		DisplayName: Terra Sawblade
+	}
+
+	TerraCanisterProj: {
+		DisplayName: Terra Canister Proj
+	}
+
+	TerraCanister: {
+		DisplayName: Terra Canister
+	}
+
+	SuperSpittingSandfishProj: {
+		DisplayName: Super Spitting Sandfish Proj
+	}
+
+	SuperSpittingSandfish: {
+		DisplayName: Super Spitting Sandfish
+	}
+
+	SpookyWoodDisc: {
+		DisplayName: Spooky Wood Disc
+	}
+
+	SpectreRift: {
+		DisplayName: Spectre Rift
+	}
+
+	SnowmanBoulder: {
+		DisplayName: Snowman Boulder
+	}
+
+	SkeletonBoneLobberProj: {
+		DisplayName: Skeleton Bone Lobber Proj
+	}
+
+	SkeletonBoneLobber: {
+		DisplayName: Skeleton Bone Lobber
+	}
+
+	SharknadoRiftProj2: {
+		DisplayName: Sharknado Rift Proj2
+	}
+
+	SharknadoRiftProj: {
+		DisplayName: Sharknado Rift Proj
+	}
+
+	SharknadoRift: {
+		DisplayName: Sharknado Rift
+	}
+
+	ShadowflameRift: {
+		DisplayName: Shadowflame Rift
+	}
+
+	RollingNeutroniumCoreExplosionFx: {
+		DisplayName: Rolling Neutronium Core Explosion Fx
+	}
+
+	RollingNeutroniumCoreExplosion: {
+		DisplayName: Rolling Neutronium Core Explosion
+	}
+
+	RollingNeutroniumCore: {
+		DisplayName: Rolling Neutronium Core
+	}
+
+	RedTKRocket: {
+		DisplayName: Red T K Rocket
+	}
+
+	RareSawblade: {
+		DisplayName: Rare Sawblade
+	}
+
+	RainbowTwirler: {
+		DisplayName: Rainbow Twirler
+	}
+
+	PsiSpikeBallProj: {
+		DisplayName: Psi Spike Ball Proj
+	}
+
+	PsiSpikeBall: {
+		DisplayName: Psi Spike Ball
+	}
+
+	PsiExplodingPresent: {
+		DisplayName: Psi Exploding Present
+	}
+
+	PrismRiftBolt: {
+		DisplayName: Prism Rift Bolt
+	}
+
+	PrismRift: {
+		DisplayName: Prism Rift
+	}
+
+	Pompakin: {
+		DisplayName: Pompakin
+	}
+
+	PixieJarProjPink: {
+		DisplayName: Pixie Jar Proj Pink
+	}
+
+	PixieJarProjGreen: {
+		DisplayName: Pixie Jar Proj Green
+	}
+
+	PixieJarProjBlue: {
+		DisplayName: Pixie Jar Proj Blue
+	}
+
+	PixieJar: {
+		DisplayName: Pixie Jar
+	}
+
+	PearlwoodDisc: {
+		DisplayName: Pearlwood Disc
+	}
+
+	PearlCactusBall: {
+		DisplayName: Pearl Cactus Ball
+	}
+
+	PalladiumSawblade: {
+		DisplayName: Palladium Sawblade
+	}
+
+	OrnamentsOrbitProj: {
+		DisplayName: Ornaments Orbit Proj
+	}
+
+	OrnamentsOrbit: {
+		DisplayName: Ornaments Orbit
+	}
+
+	OrichalcumSawblade: {
+		DisplayName: Orichalcum Sawblade
+	}
+
+	MythrilSawblade: {
+		DisplayName: Mythril Sawblade
+	}
+
+	MourningTwirler: {
+		DisplayName: Mourning Twirler
+	}
+
+	LiquidNitrogenCanisterProj: {
+		DisplayName: Liquid Nitrogen Canister Proj
+	}
+
+	LiquidNitrogenCanister: {
+		DisplayName: Liquid Nitrogen Canister
+	}
+
+	LihzahrdExplosion: {
+		DisplayName: Lihzahrd Explosion
+	}
+
+	LegendarySawbladeProj2: {
+		DisplayName: Legendary Sawblade Proj2
+	}
+
+	LegendarySawblade: {
+		DisplayName: Legendary Sawblade
+	}
+
+	InfernoSpitProj2: {
+		DisplayName: Inferno Spit Proj2
+	}
+
+	InfernoSpitProj1: {
+		DisplayName: Inferno Spit Proj1
+	}
+
+	InfernoSpit: {
+		DisplayName: Inferno Spit
+	}
+
+	IcicleSpitterProj2: {
+		DisplayName: Icicle Spitter Proj2
+	}
+
+	IcicleSpitterProj1: {
+		DisplayName: Icicle Spitter Proj1
+	}
+
+	IcicleSpitter: {
+		DisplayName: Icicle Spitter
+	}
+
+	IchorTwirler: {
+		DisplayName: Ichor Twirler
+	}
+
+	IchorCanisterProj: {
+		DisplayName: Ichor Canister Proj
+	}
+
+	IchorCanister: {
+		DisplayName: Ichor Canister
+	}
+
+	IchorBomberProj: {
+		DisplayName: Ichor Bomber Proj
+	}
+
+	IchorBomber: {
+		DisplayName: Ichor Bomber
+	}
+
+	HallowedSawblade: {
+		DisplayName: Hallowed Sawblade
+	}
+
+	HallowedCanisterProj: {
+		DisplayName: Hallowed Canister Proj
+	}
+
+	HallowedCanister: {
+		DisplayName: Hallowed Canister
+	}
+
+	GreenTKRocket: {
+		DisplayName: Green T K Rocket
+	}
+
+	GreekFireProj3: {
+		DisplayName: Greek Fire Proj3
+	}
+
+	GreekFireProj2: {
+		DisplayName: Greek Fire Proj2
+	}
+
+	GreekFireProj1: {
+		DisplayName: Greek Fire Proj1
+	}
+
+	GravityTwirlerLaser: {
+		DisplayName: Gravity Twirler Laser
+	}
+
+	GravityTwirler: {
+		DisplayName: Gravity Twirler
+	}
+
+	GravityBouncerExplosion: {
+		DisplayName: Gravity Bouncer Explosion
+	}
+
+	GravityBouncer: {
+		DisplayName: Gravity Bouncer
+	}
+
+	GolemHeadRiftProj2: {
+		DisplayName: Golem Head Rift Proj2
+	}
+
+	GolemHeadRiftProj1: {
+		DisplayName: Golem Head Rift Proj1
+	}
+
+	GolemHeadRift: {
+		DisplayName: Golem Head Rift
+	}
+
+	GiantGear: {
+		DisplayName: Giant Gear
+	}
+
+	ForbiddenGust: {
+		DisplayName: Forbidden Gust
+	}
+
+	EpicSawblade: {
+		DisplayName: Epic Sawblade
+	}
+
+	DeadDollProj: {
+		DisplayName: Dead Doll Proj
+	}
+
+	DeadDoll: {
+		DisplayName: Dead Doll
+	}
+
+	CursedTwirler: {
+		DisplayName: Cursed Twirler
+	}
+
+	CursedFlameOrbitProj: {
+		DisplayName: Cursed Flame Orbit Proj
+	}
+
+	CursedFlameOrbit: {
+		DisplayName: Cursed Flame Orbit
+	}
+
+	CursedBouncer: {
+		DisplayName: Cursed Bouncer
+	}
+
+	CobaltSawblade: {
+		DisplayName: Cobalt Sawblade
+	}
+
+	ChlorophyteSawblade: {
+		DisplayName: Chlorophyte Sawblade
+	}
+
+	ChlorophyteCanisterProj: {
+		DisplayName: Chlorophyte Canister Proj
+	}
+
+	ChlorophyteCanister: {
+		DisplayName: Chlorophyte Canister
+	}
+
+	BlueTKRocket: {
+		DisplayName: Blue T K Rocket
+	}
+
+	BlizzardTwirler: {
+		DisplayName: Blizzard Twirler
+	}
+
+	BetsyPsiFlame: {
+		DisplayName: Betsy Psi Flame
+	}
+
+	BetsyHead: {
+		DisplayName: Betsy Head
+	}
+
+	BeetleJarProj: {
+		DisplayName: Beetle Jar Proj
+	}
+
+	BeetleJar: {
+		DisplayName: Beetle Jar
+	}
+
+	AdamantiteSawblade: {
+		DisplayName: Adamantite Sawblade
+	}
+
+	WoodenSpikes: {
+		DisplayName: Wooden Spikes
+	}
+
+	TungstenSpikes: {
+		DisplayName: Tungsten Spikes
+	}
+
+	TopazMine: {
+		DisplayName: Topaz Mine
+	}
+
+	TopazLaser: {
+		DisplayName: Topaz Laser
+	}
+
+	TinSpikes: {
+		DisplayName: Tin Spikes
+	}
+
+	SpikyBallerProj: {
+		DisplayName: Spiky Baller Proj
+	}
+
+	SpikyBaller: {
+		DisplayName: Spiky Baller
+	}
+
+	SnowballTurretProj: {
+		DisplayName: Snowball Turret Proj
+	}
+
+	SnowballTurret: {
+		DisplayName: Snowball Turret
+	}
+
+	SlimySpikerProj: {
+		DisplayName: Slimy Spiker Proj
+	}
+
+	SlimySpiker: {
+		DisplayName: Slimy Spiker
+	}
+
+	SilverSpikes: {
+		DisplayName: Silver Spikes
+	}
+
+	ShadowOrbTrapProj3: {
+		DisplayName: Shadow Orb Trap Proj3
+	}
+
+	ShadowOrbTrapProj2: {
+		DisplayName: Shadow Orb Trap Proj2
+	}
+
+	ShadowOrbTrapProj1: {
+		DisplayName: Shadow Orb Trap Proj1
+	}
+
+	ShadewoodSpikes: {
+		DisplayName: Shadewood Spikes
+	}
+
+	SapphireMine: {
+		DisplayName: Sapphire Mine
+	}
+
+	SapphireLaser: {
+		DisplayName: Sapphire Laser
+	}
+
+	RubyMine: {
+		DisplayName: Ruby Mine
+	}
+
+	RubyLaser: {
+		DisplayName: Ruby Laser
+	}
+
+	RichMahoganySpikes: {
+		DisplayName: Rich Mahogany Spikes
+	}
+
+	PlatinumSpikes: {
+		DisplayName: Platinum Spikes
+	}
+
+	PinkSlimySpikerProj: {
+		DisplayName: Pink Slimy Spiker Proj
+	}
+
+	PinkSlimySpiker: {
+		DisplayName: Pink Slimy Spiker
+	}
+
+	PalmWoodSpikes: {
+		DisplayName: Palm Wood Spikes
+	}
+
+	NightTurretProj: {
+		DisplayName: Night Turret Proj
+	}
+
+	NightTurret: {
+		DisplayName: Night Turret
+	}
+
+	NightSpikes: {
+		DisplayName: Night Spikes
+	}
+
+	MoltenTurretProj: {
+		DisplayName: Molten Turret Proj
+	}
+
+	MoltenTurret: {
+		DisplayName: Molten Turret
+	}
+
+	MoltenSpikes: {
+		DisplayName: Molten Spikes
+	}
+
+	MeteorBreakerProj2: {
+		DisplayName: Meteor Breaker Proj2
+	}
+
+	MeteorBreakerProj: {
+		DisplayName: Meteor Breaker Proj
+	}
+
+	MeteorBreaker: {
+		DisplayName: Meteor Breaker
+	}
+
+	LeadSpikes: {
+		DisplayName: Lead Spikes
+	}
+
+	JungleTurretProj: {
+		DisplayName: Jungle Turret Proj
+	}
+
+	JungleTurret: {
+		DisplayName: Jungle Turret
+	}
+
+	JungleSpikes: {
+		DisplayName: Jungle Spikes
+	}
+
+	IronSpikes: {
+		DisplayName: Iron Spikes
+	}
+
+	GoldSpikes: {
+		DisplayName: Gold Spikes
+	}
+
+	GeyserSentryProj: {
+		DisplayName: Geyser Sentry Proj
+	}
+
+	GeyserSentry: {
+		DisplayName: Geyser Sentry
+	}
+
+	EmeraldMine: {
+		DisplayName: Emerald Mine
+	}
+
+	EmeraldLaser: {
+		DisplayName: Emerald Laser
+	}
+
+	EbonwoodSpikes: {
+		DisplayName: Ebonwood Spikes
+	}
+
+	DynastyWoodSpikes: {
+		DisplayName: Dynasty Wood Spikes
+	}
+
+	DiamondMine: {
+		DisplayName: Diamond Mine
+	}
+
+	DiamondLaser: {
+		DisplayName: Diamond Laser
+	}
+
+	DemoniteTurretProj: {
+		DisplayName: Demonite Turret Proj
+	}
+
+	DemoniteTurret: {
+		DisplayName: Demonite Turret
+	}
+
+	DemoniteSpikes: {
+		DisplayName: Demonite Spikes
+	}
+
+	DemoniteCactusPillar: {
+		DisplayName: Demonite Cactus Pillar
+	}
+
+	DartTrapSentryProj: {
+		DisplayName: Dart Trap Sentry Proj
+	}
+
+	DartTrapSentry: {
+		DisplayName: Dart Trap Sentry
+	}
+
+	SoilSpikes: {
+		DisplayName: Soil Spikes
+	}
+
+	CrimtaneTurretProj: {
+		DisplayName: Crimtane Turret Proj
+	}
+
+	CrimtaneTurret: {
+		DisplayName: Crimtane Turret
+	}
+
+	CrimtaneSpikes: {
+		DisplayName: Crimtane Spikes
+	}
+
+	CrimtaneCactusPillar: {
+		DisplayName: Crimtane Cactus Pillar
+	}
+
+	CopperSpikes: {
+		DisplayName: Copper Spikes
+	}
+
+	CommonTurretProj: {
+		DisplayName: Common Turret Proj
+	}
+
+	CommonTurret: {
+		DisplayName: Common Turret
+	}
+
+	CactusPillar: {
+		DisplayName: Cactus Pillar
+	}
+
+	BorealWoodSpikes: {
+		DisplayName: Boreal Wood Spikes
+	}
+
+	BloodCloud: {
+		DisplayName: Blood Cloud
+	}
+
+	BeeEmitter: {
+		DisplayName: Bee Emitter
+	}
+
+	AquaTurretProj: {
+		DisplayName: Aqua Turret Proj
+	}
+
+	AquaTurret: {
+		DisplayName: Aqua Turret
+	}
+
+	AquaSpikes: {
+		DisplayName: Aqua Caltrops
+	}
+
+	AmethystMine: {
+		DisplayName: Amethyst Mine
+	}
+
+	AmethystLaser: {
+		DisplayName: Amethyst Laser
+	}
+
+	AmberMine: {
+		DisplayName: Amber Mine
+	}
+
+	AmberLaser: {
+		DisplayName: Amber Laser
+	}
+
+	HMGTurretProj: {
+		DisplayName: H M G Turret Proj
+	}
+
+	HMGTurret: {
+		DisplayName: H M G Turret
+	}
+
+	WaterTornado: {
+		DisplayName: Water Tornado
+	}
+
+	WaspEmitterProj: {
+		DisplayName: Wasp Emitter Proj
+	}
+
+	WaspEmitter: {
+		DisplayName: Wasp Emitter
+	}
+
+	TrueNightTurretProj: {
+		DisplayName: True Night Turret Proj
+	}
+
+	TrueNightTurret: {
+		DisplayName: True Night Turret
+	}
+
+	TrueNightSpikes: {
+		DisplayName: True Night Spikes
+	}
+
+	TrueHallowedTurretProj: {
+		DisplayName: True Hallowed Turret Proj
+	}
+
+	TrueHallowedTurret: {
+		DisplayName: True Hallowed Turret
+	}
+
+	TrueHallowedSpikes: {
+		DisplayName: True Hallowed Spikes
+	}
+
+	TitaniumTurretProj: {
+		DisplayName: Titanium Turret Proj
+	}
+
+	TitaniumTurret: {
+		DisplayName: Titanium Turret
+	}
+
+	TitaniumSpikes: {
+		DisplayName: Titanium Spikes
+	}
+
+	TerraTurret: {
+		DisplayName: Terra Turret
+	}
+
+	TerraSpikes: {
+		DisplayName: Terra Spikes
+	}
+
+	StickerSpray2: {
+		DisplayName: Sticker Spray2
+	}
+
+	StickerSpray1: {
+		DisplayName: Sticker Spray1
+	}
+
+	SpookyWoodSpikes: {
+		DisplayName: Spooky Wood Spikes
+	}
+
+	SpikyBallDropperProj: {
+		DisplayName: Spiky Ball Dropper Proj
+	}
+
+	SpikyBallDropper: {
+		DisplayName: Spiky Ball Dropper
+	}
+
+	ShadowflameTrapProj: {
+		DisplayName: Shadowflame Trap Proj
+	}
+
+	ShadowflameTrap: {
+		DisplayName: Shadowflame Trap
+	}
+
+	RainCloud: {
+		DisplayName: Rain Cloud
+	}
+
+	PrismMine: {
+		DisplayName: Prism Mine
+	}
+
+	PrismLaser: {
+		DisplayName: Prism Laser
+	}
+
+	PearlwoodSpikes: {
+		DisplayName: Pearlwood Spikes
+	}
+
+	PalladiumTurretProj: {
+		DisplayName: Palladium Turret Proj
+	}
+
+	PalladiumTurret: {
+		DisplayName: Palladium Turret
+	}
+
+	PalladiumSpikes: {
+		DisplayName: Palladium Spikes
+	}
+
+	OrichalcumTurretProj: {
+		DisplayName: Orichalcum Turret Proj
+	}
+
+	OrichalcumTurret: {
+		DisplayName: Orichalcum Turret
+	}
+
+	OrichalcumSpikes: {
+		DisplayName: Orichalcum Spikes
+	}
+
+	MythrilTurretProj: {
+		DisplayName: Mythril Turret Proj
+	}
+
+	MythrilTurret: {
+		DisplayName: Mythril Turret
+	}
+
+	MythrilSpikes: {
+		DisplayName: Mythril Spikes
+	}
+
+	MartianTrapProj: {
+		DisplayName: Martian Trap Proj
+	}
+
+	MartianTrap: {
+		DisplayName: Martian Trap
+	}
+
+	MagnetarDeployerProj: {
+		DisplayName: Magnetar Deployer Proj
+	}
+
+	MagnetarDeployer: {
+		DisplayName: Magnetar Deployer
+	}
+
+	LGM1Proj2: {
+		DisplayName: L G M1 Proj2
+	}
+
+	LGM1Proj: {
+		DisplayName: L G M1 Proj
+	}
+
+	LGM1: {
+		DisplayName: L G M1
+	}
+
+	IchorTurretProj: {
+		DisplayName: Ichor Turret Proj
+	}
+
+	IchorTurret: {
+		DisplayName: Ichor Turret
+	}
+
+	HallowedTurretProj: {
+		DisplayName: Hallowed Turret Proj
+	}
+
+	HallowedTurret: {
+		DisplayName: Hallowed Turret
+	}
+
+	HallowedSpikes: {
+		DisplayName: Hallowed Spikes
+	}
+
+	HallowedCactusPillar: {
+		DisplayName: Hallowed Cactus Pillar
+	}
+
+	FrostCoreTurretProj: {
+		DisplayName: Frost Core Turret Proj
+	}
+
+	FrostCoreTurret: {
+		DisplayName: Frost Core Turret
+	}
+
+	FreezethrowerTurretProj: {
+		DisplayName: Freezethrower Turret Proj
+	}
+
+	FreezethrowerTurret: {
+		DisplayName: Freezethrower Turret
+	}
+
+	ForbiddenFragmentTrapProj: {
+		DisplayName: Forbidden Fragment Trap Proj
+	}
+
+	CursedFlameTurretProj: {
+		DisplayName: Cursed Flame Turret Proj
+	}
+
+	CursedFlameTurret: {
+		DisplayName: Cursed Flame Turret
+	}
+
+	CrystalOrbit2: {
+		DisplayName: Crystal Orbit2
+	}
+
+	CrystalOrbit1: {
+		DisplayName: Crystal Orbit1
+	}
+
+	CoinTurretProj4: {
+		DisplayName: Coin Turret Proj4
+	}
+
+	CoinTurretProj3: {
+		DisplayName: Coin Turret Proj3
+	}
+
+	CoinTurretProj2: {
+		DisplayName: Coin Turret Proj2
+	}
+
+	CoinTurretProj1: {
+		DisplayName: Coin Turret Proj1
+	}
+
+	CoinTurret: {
+		DisplayName: Coin Turret
+	}
+
+	CobaltTurretProj: {
+		DisplayName: Cobalt Turret Proj
+	}
+
+	CobaltTurret: {
+		DisplayName: Cobalt Turret
+	}
+
+	CobaltSpikes: {
+		DisplayName: Cobalt Spikes
+	}
+
+	ClingerStaffSentry: {
+		DisplayName: Clinger Staff Sentry
+	}
+
+	ChlorophyteTurretProj: {
+		DisplayName: Chlorophyte Turret Proj
+	}
+
+	ChlorophyteTurret: {
+		DisplayName: Chlorophyte Turret
+	}
+
+	ChlorophyteSpikes: {
+		DisplayName: Chlorophyte Spikes
+	}
+
+	BubbleTurretProj: {
+		DisplayName: Bubble Turret Proj
+	}
+
+	BubbleTurret: {
+		DisplayName: Bubble Turret
+	}
+
+	BetsyTurretProj: {
+		DisplayName: Betsy Turret Proj
+	}
+
+	BetsyTurret: {
+		DisplayName: Betsy Turret
+	}
+
+	BallOfFrostSpitterProj: {
+		DisplayName: Ball Of Frost Spitter Proj
+	}
+
+	BallOfFrostSpitter: {
+		DisplayName: Ball Of Frost Spitter
+	}
+
+	BalanceProjB: {
+		DisplayName: Balance Proj B
+	}
+
+	BalanceProjA: {
+		DisplayName: Balance Proj A
+	}
+
+	Balance: {
+		DisplayName: Balance
+	}
+
+	AutoTurretProj: {
+		DisplayName: Auto Turret Proj
+	}
+
+	AutoTurret: {
+		DisplayName: Auto Turret
+	}
+
+	AdamantiteTurretProj: {
+		DisplayName: Adamantite Turret Proj
+	}
+
+	AdamantiteTurret: {
+		DisplayName: Adamantite Turret
+	}
+
+	AdamantiteSpikes: {
+		DisplayName: Adamantite Spikes
+	}
+
+	CactusNailBombProj2: {
+		DisplayName: Cactus Nail Bomb Proj2
+	}
+
+	MushroomBellProjB: {
+		DisplayName: Mushroom Bell Proj B
+	}
+
+	MushroomBellProjA: {
+		DisplayName: Mushroom Bell Proj A
+	}
+
+	CactusTambourineProj: {
+		DisplayName: Cactus Tambourine Proj
+	}
+
+	BaseTrapLaser: {
+		DisplayName: Base Trap Laser
+	}
+}
+

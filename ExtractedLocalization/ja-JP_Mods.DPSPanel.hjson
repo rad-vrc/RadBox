@@ -1,0 +1,109 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		Headers: {
+			DamageCalculation: Damage Calculation
+			UI: UI
+			Settings: Settings
+		}
+
+		TrackAllEntities: {
+			Label: "[i:StardustCellStaff] Track All Entities"
+			Tooltip: "Tracks damage to all entities during a boss fight, or track only damage to the boss itself "
+		}
+
+		ShowPlayerIcons: {
+			Label: "     Show Player Icons"
+			Tooltip: Show icons for every player during a boss fight
+		}
+
+		ShowBossIcon: {
+			Label: "[i:SlimeCrown] Show Boss Icon"
+			Tooltip: Show the boss icon during a boss fight
+		}
+
+		ShowHighlightButtonWhenHovering: {
+			Tooltip: Disable this if you find the button highlighting to interfere with boss fights
+		}
+
+		ShowWeaponsDuringBossFight: {
+			Label: "[i:LivingFrostFireBlock] Show Weapons Panel During Boss Fight"
+			Tooltip: Disable this if you find the weapons panel to interfere with boss fights
+		}
+
+		MakePanelDraggable: {
+			Tooltip: If you want to place the panel at a permanent position, uncheck this option
+			Label: "[i:5126] Make Panel Draggable"
+		}
+
+		TrackUnknownDamage: {
+			Label: "[i:DPSPanel/ConfigUnknownItem] Track Unknown Damage"
+			Tooltip:
+				'''
+				Some projectiles have an unknown damage source. 
+				      If on, the tracker will track this damage as 'Unknown'. 
+				      If off, the tracker will ignore this damage completely
+				'''
+		}
+
+		Theme: {
+			Label: Theme
+			Tooltip: Set the theme
+		}
+
+		Width: {
+			Label: Width
+			Tooltip: Set the width of the panel
+		}
+
+		Height: {
+			Label: Height
+			Tooltip: Set the height of every bar
+		}
+
+		ShowTooltipWhenHovering: {
+			Label: "[i:RainbowCursor] Show Tooltip When Hovering"
+			Tooltip: Disable this option to make the panel more subtle
+		}
+
+		ShowTooltips: {
+			Label: "[i:RainbowCursor] Show Tooltips"
+			Tooltip: Disable this option to make the panel more subtle
+		}
+
+		PanelWidth: {
+			Label: Panel Width
+			Tooltip: Set the width of the panel
+		}
+
+		BarHeight: {
+			Label: Bar Height
+			Tooltip: Set the height of every bar
+		}
+
+		BarColors: {
+			Label: Bar Colors
+			Tooltip: ""
+		}
+
+		DamageDisplay: {
+			Tooltip: Show total damage or percentage of damage in the bars
+			Label: "[i:3811] Damage Display"
+		}
+	}
+}
+
+Keybinds: {
+	ToggleDPSPanel: {
+		DisplayName: Toggle DPS Panel
+	}
+}
+
+Items: {
+	ConfigUnknownItem: {
+		DisplayName: Config//Unknown
+		Tooltip: ""
+	}
+}
+

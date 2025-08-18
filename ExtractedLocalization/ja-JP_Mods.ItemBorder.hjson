@@ -1,0 +1,311 @@
+Keybinds: {
+	ToggleItemBorder: {
+		DisplayName: Toggle Item Border
+	}
+}
+
+Configs: {
+	UICheckbox: {
+		Selected: {
+			Tooltip: ""
+			Label: Selected
+		}
+
+		checkbox: {
+			Tooltip: ""
+			Label: checkbox
+		}
+
+		Tooltip: ""
+	}
+
+	CustomTableUI: {
+		rows: {
+			Tooltip: ""
+			Label: rows
+		}
+
+		checkboxBorder: {
+			Label: checkbox Border
+			Tooltip: ""
+		}
+
+		checkboxOutline: {
+			Label: checkbox Outline
+			Tooltip: ""
+		}
+
+		Tooltip: Customize options. Clicking on the columns on the right will invert all fields in the column.
+	}
+
+	TableRowConfig: {
+		KEY: {
+			Tooltip: ""
+			Label: KEY
+		}
+
+		Outline: {
+			Tooltip: ""
+			Label: Outline
+		}
+
+		Border: {
+			Tooltip: ""
+			Label: Border
+		}
+
+		Label: {
+			Tooltip: ""
+			Label: Label
+		}
+
+		Tooltip: ""
+	}
+
+	ItemBorderConfig: {
+		excludedItems: {
+			Tooltip: ""
+			Label: excluded Items
+		}
+
+		toggleHotkey: {
+			Label: toggle Hotkey
+			Tooltip: ""
+		}
+
+		worldOpacity: {
+			Tooltip: ""
+			Label: world Opacity
+		}
+
+		worldWidth: {
+			Tooltip: ""
+			Label: world Width
+		}
+
+		worldBaseRarity: {
+			Tooltip: ""
+			Label: world Base Rarity
+		}
+
+		useWorld: {
+			Tooltip: ""
+			Label: use World
+		}
+
+		outlineOpacity: {
+			Tooltip: ""
+			Label: outline Opacity
+		}
+
+		outlineBaseRarity: {
+			Tooltip: ""
+			Label: outline Base Rarity
+		}
+
+		borderBaseRarity: {
+			Tooltip: ""
+			Label: border Base Rarity
+		}
+
+		ConfigTable: {
+			Label: Config Table
+			Tooltip: ""
+		}
+
+		useBaseRarity: {
+			Tooltip: ""
+			Label: use Base Rarity
+		}
+
+		useForMannequinDye: {
+			Tooltip: ""
+			Label: Use for mannequin dye slots
+		}
+
+		useForMannequinAccessory: {
+			Tooltip: ""
+			Label: Use for mannequin accessory slots
+		}
+
+		useForMannequinArmor: {
+			Tooltip: ""
+			Label: Use for mannequin armor slots
+		}
+
+		useForHatRackDye: {
+			Tooltip: ""
+			Label: Use for hat rack dye slots
+		}
+
+		useForHatRack: {
+			Tooltip: ""
+			Label: Use for hat rack hat slots
+		}
+
+		useForBank: {
+			Tooltip: ""
+			Label: Use for bank slots
+		}
+
+		useForLightPet: {
+			Tooltip: ""
+			Label: Use for light pet slot
+		}
+
+		useForPet: {
+			Tooltip: ""
+			Label: Use for pet slot
+		}
+
+		useForMinecart: {
+			Tooltip: ""
+			Label: Use for minecart slot
+		}
+
+		useForMount: {
+			Tooltip: ""
+			Label: Use for mount slot
+		}
+
+		useForGrapple: {
+			Tooltip: ""
+			Label: Use for grapple slot
+		}
+
+		useForShop: {
+			Tooltip: ""
+			Label: Use for shop slots
+		}
+
+		useForDye: {
+			Tooltip: ""
+			Label: Use for dye slots
+		}
+
+		useForVanityAccessory: {
+			Tooltip: ""
+			Label: Use for vanity accessory slots
+		}
+
+		useForAccessory: {
+			Tooltip: ""
+			Label: Use for accessory slots
+		}
+
+		useForVanityArmor: {
+			Tooltip: ""
+			Label: Use for vanity armor slots
+		}
+
+		useForArmor: {
+			Tooltip: ""
+			Label: Use for armor slots
+		}
+
+		useForTrash: {
+			Tooltip: ""
+			Label: Use for trash slot
+		}
+
+		useForCoin: {
+			Tooltip: ""
+			Label: Use for coin slots
+		}
+
+		useForAmmo: {
+			Tooltip: ""
+			Label: Use for ammo slots
+		}
+
+		useForInventory: {
+			Tooltip: ""
+			Label: Use for inventory slots
+		}
+
+		useForChests: {
+			Tooltip: ""
+			Label: Use for chest slots
+		}
+
+		useForHotbar: {
+			Tooltip: ""
+			Label: Use for hotbar slots
+		}
+
+		outlineWidth: {
+			Tooltip: ""
+			Label: Outline width
+		}
+
+		useOutline: {
+			Tooltip: Use item outline
+			Label: Use outline
+		}
+
+		customBorderType: {
+			Tooltip: ""
+			Label: Custom border
+		}
+
+		specialPickup: {
+			Tooltip: Enables/disables the special border on a first time pickup
+			Label: Unique border on new item pickup
+		}
+
+		specialItems: {
+			Tooltip: Use to mark items in a special way
+			Label: Special items
+		}
+
+		showMaterialBorder: {
+			Tooltip: ""
+			Label: Use for materials
+		}
+
+		showWallBorder: {
+			Tooltip: ""
+			Label: Use for walls
+		}
+
+		showTileBorder: {
+			Tooltip: ""
+			Label: Use for tiles
+		}
+
+		showPotionBorder: {
+			Tooltip: ""
+			Label: Use for potions
+		}
+
+		borderOpacity: {
+			Tooltip: ""
+			Label: Border opacity %
+		}
+
+		useBorder: {
+			Tooltip: Use border
+			Label: Use border
+		}
+
+		borderType: {
+			Tooltip: ""
+			Label: Border type
+		}
+
+		Headers: {
+			ItemToggle: Item Toggle
+			World: World Header
+			Outline: Outline Header
+			Customization: Customization Header
+			Slot-options: Slot-options Header
+			Slot_options: Slot_options Header
+			Extra: Extra Header
+			Types: Types Header
+			Border: Border Header
+		}
+
+		DisplayName: Item Border Config
+	}
+}
+

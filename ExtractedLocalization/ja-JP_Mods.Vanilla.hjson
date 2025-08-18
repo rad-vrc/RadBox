@@ -1,0 +1,1381 @@
+Green: Color NPCs with forest green
+
+Holy: Color NPC with disco color
+
+Purple: Reduce enemy contact damage and defense by half
+
+Red: Deals extra damage over time
+
+DeepBlue: Enemy will spawn spores upon death
+
+Yellow: Converts enemy to sand
+
+White: Enemies hit will slow down by 70%
+
+Dirt: Spray has a chance to deal higher or lower damage
+
+SetBonus: {
+	Flinx: Increases summon damage by 2
+	Dinomancy:
+		'''
+		Summon a baby dinosaur to fight for you
+		Decrease item use time by 10%
+		"Doctor Bones' new dino-taming hobby is going well--
+		his pet can already make him sit, stand, and roll over!"
+		'''
+}
+
+DamageClasses: {
+	MeleeRangeClass: {
+		DisplayName: melee/ranged damage
+	}
+
+	RangeMagicClass: {
+		DisplayName: ranged/magic damage
+	}
+
+	MagicSummonClass: {
+		DisplayName: magic/summon damage
+	}
+}
+
+Blackskin:
+	'''
+
+	Increase defense by 2
+	'''
+
+FuckingShimmerBufftime: Has ∞ duration, until...
+
+Slimed:
+	'''
+
+	Decrease movement speed and attack speed
+	'''
+
+Buffs: {
+	DinosaurBuff: {
+		DisplayName: Dinomancy
+		Description:
+			'''
+			Anyone can dinomance.
+			Just put your lips together and RAAWWWAARGGGH
+			'''
+	}
+
+	EaterTag: {
+		DisplayName: Eater Tag
+		Description: Mods.Vanilla.Buffs.EaterTag.Description
+	}
+
+	Necrotoxin: {
+		DisplayName: Necrotoxin
+		Description:
+			'''
+			Slowly losing life
+			Your movement speed has been reduced
+			Disable extra jumps after a period of time
+			'''
+	}
+
+	VerySlimed: {
+		DisplayName: Very Slimed
+		Description:
+			'''
+			You are slippery
+			Difficult to controll movement and grasp items
+			'''
+	}
+
+	GladiusBuff: {
+		DisplayName: Gladius
+		Description: Gladius will fight for you
+	}
+
+	IceTouchBuff: {
+		DisplayName: Ice Touch
+		Description:
+			'''
+			Slowly losing life
+			Your movement speed has been reduced
+			'''
+	}
+
+	KnightSpiritBuff: {
+		DisplayName: Knight Spirit
+		Description:
+			'''
+			Ancient knight spirit will protects you
+			Increase denfense by 5
+			'''
+	}
+
+	LifeOrbBuff: {
+		DisplayName: Life Orb
+		Description:
+			'''
+			Lose life every time you attack
+			Increased damage by 30%
+			'''
+	}
+
+	LordTag: {
+		DisplayName: Lord Tag
+		Description: Mods.Vanilla.Buffs.LordTag.Description
+	}
+
+	ShadowApp: {
+		DisplayName: Shadowflame Apparition
+		Description: Powerful spiritual remnants of twisted goblin ancestors will fight for you
+	}
+
+	ShadowTag: {
+		DisplayName: Shadow Tag
+		Description: Mods.Vanilla.Buffs.ShadowTag.Description
+	}
+
+	SmallEyeBuff: {
+		DisplayName: Servant of Cthulhu(?)
+		Description:
+			'''
+			Servant of Cthulhu(?) will fight for you	
+			"One servant also serves two masters"
+			'''
+	}
+
+	TinSoldierBuff: {
+		DisplayName: Heart of Tin
+		Description: Little tin soldier will fight for you
+	}
+
+	CopperSkinBuff: {
+		DisplayName: Copperskin
+		Description: Increase defense by 4
+	}
+
+	IronFlaskBuff: {
+		DisplayName: Weapon Imbue: Tetanus
+		Description: Melee and Whip attacks set enemies tetanus
+	}
+
+	LeadFlaskBuff: {
+		DisplayName: Weapon Imbue: Plumbism
+		Description: Melee and Whip attacks set enemies plumbism
+	}
+
+	Plumbism: {
+		DisplayName: Plumbism
+		Description: Mods.Vanilla.Buffs.Plumbism.Description
+	}
+
+	ShitFlaskBuff: {
+		DisplayName: Weapon Imbue: Poop
+		Description: Melee and Whip attacks set enemies smell terrible
+	}
+
+	StoneSkinBuff: {
+		DisplayName: Stoneskin
+		Description: Increase defense by 2
+	}
+
+	Tetanus: {
+		DisplayName: Tetanus
+		Description: Losing life
+	}
+
+	SquirrelBuff: {
+		DisplayName: Squirrel Twins
+		Description: Don't let them get on your anger.
+	}
+}
+
+Items: {
+	ArmoredBible: {
+		DisplayName: Armored Bible
+		Tooltip:
+			'''
+			"Aggressiveness reduced to zero"
+			My opinion is only literal, not instigate war, or ghostwrite, or play not my customary role, it's only personal feeling and has no derivative meaning.
+			The content doesn't represent any other group or individual, there are no metaphors, hints, play not one's customary role, porcelain touch and other thoughts.
+			My family is harmonious and healthy, without any mental or mental illness, and my intelligence is normal.
+			Opinions and remarks only represent my own shallow views and non-professional academic content, is only personal vision,
+			Part of the content is speculation and doesn't represent reality. 
+			It has nothing to do with my group, parents, relatives and friends, and provinces and cities.
+			If you have different opinions, please discuss politely, thank you for correction.
+			This statement does not contain any discrimination against any group or any implication of provoking opposition.
+			My cognitive scope is shallow, there is no professional team, content partial to personal ideas.
+			If there's any misunderstanding, please correct it.The similarity of Mod contents is purely coincidental.
+			If you have any doubts, welcome to DM me. 
+			Because there are too many DMs and time is limited, you may not get a reply in a short time.
+			The failure to reply may also be due to hand slip.
+			I use Microsoft Visual Studio Community 2022, a free open source software to make mod, without any malicious infringement,
+			If there are elements of others' works in this mod, it is a tribute. 
+			If there is infringement, please prove relevance, author will deal with it as soon as possible.
+			My expression ability is average and my facial expression management is poor,if the expression is sarcastic for you doesn't mean malicious contempt for a person, group or organization,
+			If you see the content you do not approve in the mod, it is unintentional, and it is not intended to target you, your group or your organization.
+			I am so nervous that I often act out of common sense. If there is any ambiguity please correct me.
+			I was born on earth, love the earth's culture and civilization, and have no anti-human tendency,
+			I promise that I haven't sent earth coordinates to three-body, nor disclosed earth information to any aliens, alien civilizations, parallel universes or other universes,
+			I am male and firmly support gender equality,
+			I use words that are more commonly spoken on the Internet, without any malice or intention to entertain serious topics.
+			I promise to love animals. If I compare people to dogs I just make fun, without any intention to trample on human personality, dignity, rights and discriminate against animals.
+			My accomplishment is average. The content uploaded is for reference only. I will take full responsibility for the content I uploaded.
+			If you see bad comments, I suggest that blackmail or report them. It doesn't means that I ignore or accept bad content.
+			'''
+	}
+
+	BrightPowder: {
+		DisplayName: Bright Powder
+		Tooltip:
+			'''
+			Casts a tricky glare that lowers the accuracy of enemy's moves
+			Gives a chance to dodge attacks
+			'''
+	}
+
+	Exampledashitem: {
+		DisplayName: Exampledashitem
+		Tooltip: ""
+	}
+
+	GamblersDice: {
+		DisplayName: Gamblers Dice
+		Tooltip: Scales damage variation by 100%
+	}
+
+	GobackQuick: {
+		DisplayName: Goback Quick
+		Tooltip: ""
+	}
+
+	GoldRabbitFoot: {
+		DisplayName: Golden Bunny Foot
+		Tooltip:
+			'''
+			{0}% increased critical strike chance
+			Slightly increases jump speed and allows auto-jump
+			Increases fall resistance
+			''This will probably sell well.''
+			'''
+	}
+
+	HiveBlood: {
+		DisplayName: Hive Blood
+		Tooltip:
+			'''
+			Restores the lost life for you after being hit for 3 seconds
+			Healing amount capping at 40
+			Bees still hate you...
+			'''
+	}
+
+	LifeOrb: {
+		DisplayName: Life Orb
+		Tooltip:
+			'''
+			30% increased damage
+			takes damage equal to 10% of life after uses a weapon
+			'''
+	}
+
+	LuckyDice: {
+		DisplayName: Lucky Dice
+		Tooltip: 20% Increased luck and luck cap
+	}
+
+	MagicianGlove: {
+		DisplayName: Magician Glove
+		Tooltip: Increase throwing speed of small throwing weapons
+	}
+
+	MobileHive: {
+		DisplayName: Mobile Hive
+		Tooltip: ""
+	}
+
+	OrichalcumGlove: {
+		DisplayName: Orichalcum Glove
+		Tooltip:
+			'''
+			12% increased melee speed
+			Flower petals will fall on target hit by your whip for extra damage
+			'''
+	}
+
+	RabbitFoot: {
+		DisplayName: Bunny Foot
+		Tooltip:
+			'''
+			{0}% increased critical strike chance
+			Slightly increases jump speed and allows auto-jump
+			Increases fall resistance
+			''Said to bring good fortune and keep evil spirits at bay''
+			'''
+	}
+
+	SharpBible: {
+		DisplayName: Sharp Bible
+		Tooltip:
+			'''
+			Enemies are most likely to target you
+			Increased all damage by 100%
+			Your attacks will reset the enemies' defense to zero
+			'''
+	}
+
+	TheOne: {
+		DisplayName: The One
+		Tooltip: 1 increased most of the stats
+	}
+
+	WolftoothPendant: {
+		DisplayName: Wolftooth Pendant
+		Tooltip:
+			'''
+			Increases armor penetration by {0}
+			"Claw and Thunder...sorry for the wrong set"
+			'''
+	}
+
+	WoodenCross: {
+		DisplayName: Wooden Cross
+		Tooltip:
+			'''
+			Attacking undead enemies deals extra 10% damage when equiped
+			Active use dispels debuffs but leave you weak for a while
+			'''
+	}
+
+	Woodwing: {
+		DisplayName: Wooden Glider
+		Tooltip:
+			'''
+			Almost impossible for flight, but has good speed when gliding in the air
+			If visibility is on, holding jump allows you to reduce fall speed and gravity
+			'''
+	}
+
+	FlinxEarmuff: {
+		DisplayName: Flinx Fur Earmuff
+		Tooltip:
+			'''
+			Increases summon damage by {0}%
+			"Great for ear protection!"
+			'''
+	}
+
+	PinkCactusHelmet: {
+		DisplayName: Pink Cactus Helmet
+		Tooltip: Increased life regeneration
+	}
+
+	Paper: {
+		DisplayName: Wood Pulp Paper
+		Tooltip: ""
+	}
+
+	Paper2: {
+		DisplayName: Bamboo Pulp Paper
+		Tooltip: ""
+	}
+
+	EmptySyringe: {
+		DisplayName: Empty Syringe
+		Tooltip:
+			'''
+			Draw player's blood when using
+			If there's debuff that can be removed by nurse, remove it
+			Otherwise spawn a healstinger
+			'''
+	}
+
+	GrimyBlood: {
+		DisplayName: Grimy Blood
+		Tooltip:
+			'''
+			It's not of any use. On the contrary, it is very dangerous. 
+			You better throw it away quickly
+			'''
+	}
+
+	HealingSyringe: {
+		DisplayName: Healing Syringe
+		Tooltip:
+			'''
+			Throw a healing syringe to restore 20 life on contact for you and your teamates
+			Continuous use within a short period of time cause potion sickness
+			'''
+	}
+
+	RedBucket: {
+		DisplayName: Soul of Civil Engineering
+		Tooltip:
+			'''
+			Greatly increased movement speed when using
+			Still works when the boss is present
+			"nothing can stop me from carrying a bucket and running away"
+			'''
+	}
+
+	StarSpell: {
+		DisplayName: Star Spell
+		Tooltip:
+			'''
+			Arouse the wrath of heaven
+			Can only be used when the sun is out
+			'''
+	}
+
+	Syringe: {
+		DisplayName: Poisoned Syringe
+		Tooltip: ""
+	}
+
+	CopperSkinPotion: {
+		DisplayName: Copperskin Potion
+		Tooltip: Increase defense by 4
+	}
+
+	IronFlask: {
+		DisplayName: Rust Flask
+		Tooltip: Melee and Whip attacks set enemies tetanus
+	}
+
+	LeadFlask: {
+		DisplayName: Lead Flask
+		Tooltip: Melee and Whip attacks set enemies plumbism
+	}
+
+	ShimmerPotion: {
+		DisplayName: Bottled Shimmer
+		Tooltip: Drink and gone insubstantial!
+	}
+
+	ShitFlask: {
+		DisplayName: Poo Flask
+		Tooltip: Melee and Whip attacks set enemies smell terrible
+	}
+
+	StoneSkinPotion: {
+		DisplayName: Stoneskin Potion
+		Tooltip: Increase defense by 2
+	}
+
+	HellstoneBullet: {
+		DisplayName: Hellstone Bullet
+		Tooltip: inflict Hellfire
+	}
+
+	BaterangJungle: {
+		DisplayName: Jungle Batrang
+		Tooltip:
+			'''
+			Will track the nearest enemy
+			''Ther is strength in numbers! "
+			'''
+	}
+
+	BaterangLava: {
+		DisplayName: Hell Batrang
+		Tooltip:
+			'''
+			Will track the nearest enemy
+			''Ther is strength in numbers! "
+			'''
+	}
+
+	Batrang: {
+		DisplayName: Batrang
+		Tooltip:
+			'''
+			Will track the nearest enemy
+			''Ther is strength in numbers! "
+			'''
+	}
+
+	BoneStick: {
+		DisplayName: Bone Stick
+		Tooltip:
+			'''
+			Strikes with a bone 2 to 5 times
+			''Bone Rush!''
+			'''
+	}
+
+	Boonnerang: {
+		DisplayName: Genetic Bone
+		Tooltip:
+			'''
+			Generate a double helix of bone on the path
+			''It is said that this is the basic genetic unit of skeletons - don't tell Mendel!''
+			'''
+	}
+
+	Boonnerang2: {
+		DisplayName: Bonemerang
+		Tooltip: ""
+	}
+
+	CactusFlail: {
+		DisplayName: Cactus Flail
+		Tooltip: Yamamoto, I sympathize with you Sensei!
+	}
+
+	CactusGreatSword: {
+		DisplayName: Cactus Great Sword
+		Tooltip: ""
+	}
+
+	CactusYoyo: {
+		DisplayName: Cactus Yoyo
+		Tooltip: ""
+	}
+
+	CarnageBlade: {
+		DisplayName: Carnage Blade
+		Tooltip:
+			'''
+			Inflict Blood Butchered debuff
+			Deals more damage to unhurt enemies
+			Convert damage dealt to lifesteal by 10%
+			'''
+	}
+
+	Deck: {
+		DisplayName: Poker
+		Tooltip: ""
+	}
+
+	DemonSickle: {
+		DisplayName: Demon Sickle
+		Tooltip:
+			'''
+			Shoots a demon sickle
+			These sickle-shaped purple energies are a common spell of demons,
+			they often imprint them on weapons to bestow upon their loyal minions
+			'''
+	}
+
+	EnchantedBow: {
+		DisplayName: Enchanted Bow
+		Tooltip:
+			'''
+			Shoots an enchanted arrow?
+			You are being paranoid.
+			'''
+	}
+
+	EnchantedYoyo: {
+		DisplayName: Enchanted Yoyo
+		Tooltip: ""
+	}
+
+	BigLens: {
+		DisplayName: Big Lens
+		Tooltip:
+			'''
+			Emit focused sunlight
+			Reduced damage in bad weather
+			Unable to use at night
+			'''
+	}
+
+	SmallEyeStaff: {
+		DisplayName: Servant of Cthulhu(?) Staff
+		Tooltip: Summons servants of Cthulhu(?) to fight for you
+	}
+
+	SkeletonHand: {
+		DisplayName: Skeleton Hand (Fight Mode)
+		Tooltip:
+			'''
+			"Do you know how much a slap in the face can hurt a minor?"
+			"I slapped twice."
+			'''
+	}
+
+	SlimeGunPro: {
+		DisplayName: Gel Ejector
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Throws bouncy gel ball that ricochets off walls and enemies
+			Has a chance to fire a spiky gel ball instead
+			Has a small chance of fire a royal gel ball instead
+			'''
+	}
+
+	GladiusStaff: {
+		DisplayName: Gladius Staff
+		Tooltip: Summons a gladius to fight for you
+	}
+
+	GrapeLauncher: {
+		DisplayName: Grapeshot
+		Tooltip: ""
+	}
+
+	HalloweenReaper: {
+		DisplayName: Halloween Reaper
+		Tooltip:
+			'''
+			Shoots a flaming scythe
+			Pumpking's broken arm, just the right size for use?
+			'''
+	}
+
+	MagicDeck: {
+		DisplayName: Magic Deck
+		Tooltip:
+			'''
+			Fires a string of cards with varying effects based on card type and varying damage based on card point
+			Hearts: have a chance to spawn heart on hit
+			Spades: ignore enemies' defense
+			Diamonds: increase enemies' value
+			Clubs: increase player's mana regen
+			'''
+	}
+
+	MechSlapHand: {
+		DisplayName: Mech Slap Hand
+		Tooltip: ""
+	}
+
+	MissileBattery: {
+		DisplayName: Missile Battery
+		Tooltip: Fires 3-5 homing missiles
+	}
+
+	OtherSide: {
+		DisplayName: Otherside
+		Tooltip: Try Minecraft too!
+	}
+
+	SnowFlower: {
+		DisplayName: Small Snowflake
+		Tooltip:
+			'''
+			"Something slipped away
+			Before I learn to hold in hand"
+			'''
+	}
+
+	SpinalSword: {
+		DisplayName: Spinal Sword
+		Tooltip: Great, I gradually understand everything
+	}
+
+	SpinalSwordMagic: {
+		DisplayName: Gate of Bloodbylon
+		Tooltip: ""
+	}
+
+	StarRocket: {
+		DisplayName: Star Rocket
+		Tooltip: ""
+	}
+
+	TinSoldierStaff: {
+		DisplayName: Tin Horn
+		Tooltip: Summons a gladius to fight for you
+	}
+
+	ToothBomb: {
+		DisplayName: Chattering Teeth Bomb
+		Tooltip: ""
+	}
+
+	Vampire: {
+		DisplayName: Vampire's Bed
+		Tooltip:
+			'''
+			Use this gorgeous coffin to deceive inexperienced vampires 
+			Let them fight for you before they come to their senses
+			'''
+	}
+
+	VulgarTrumpet: {
+		DisplayName: Vulgar Trumpet
+		Tooltip: Utter a crude language
+	}
+
+	ChainWhip: {
+		DisplayName: Chain Whip
+		Tooltip:
+			'''
+			{0} summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			{1} armor penetration
+			Attack inflicts Bleeding 
+			''Am I the first one to invent this?"
+			'''
+	}
+
+	DemonWhip: {
+		DisplayName: Demon Whip
+		Tooltip:
+			'''
+			{0} summon tag damage
+			Fires three demon scythes per swing
+			These sickle-shaped purple energies are a common spell of demons,
+			they often imprintu it on weapons to bestow upon their loyal minions
+			'''
+	}
+
+	EaterWhip: {
+		DisplayName: Eater Whip
+		Tooltip:
+			'''
+			{0} summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			Strike enemies to summon tiny eaters
+			'''
+	}
+
+	OverlordsWhip: {
+		DisplayName: Overlord's Whip
+		Tooltip:
+			'''
+			{0} summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			Whip your minions to make them work harder
+			''Go to work!"
+			'''
+	}
+
+	ShadowflameWhip: {
+		DisplayName: Shadowflame Whip
+		Tooltip:
+			'''
+			{0} summon tag damage
+			攻撃を当てた敵にミニオンが集中攻撃する
+			Strike enemies to summon a friendly shadowflame apparition
+			''Summoner Instrumentality Project"
+			'''
+	}
+
+	Shackles: {
+		DisplayName: Shackles
+		Tooltip: ""
+	}
+
+	Shackles2: {
+		DisplayName: Shackles2
+		Tooltip: ""
+	}
+
+	CactusChainsaw: {
+		DisplayName: Cactus Chainsaw
+		Tooltip: ""
+	}
+
+	AirDropFlareGun: {
+		DisplayName: Christmas Flare Gun
+		Tooltip: Shoot the sky to summon a rain of airdropped gifts!
+	}
+
+	CactusJukebox: {
+		DisplayName: Cactus Jukebox
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a cactus dancer to shoot spikes at your enemies
+			'''
+	}
+
+	FeatherBlade: {
+		DisplayName: Feather Blade
+		Tooltip: ""
+	}
+
+	GuidetoBlastingConstruction: {
+		DisplayName: Guide to Blasting Construction
+		Tooltip:
+			'''
+			Prevents you from hurting by explosives while in the inventory
+			Right click to deactivate effects
+			'''
+	}
+
+	BloodFin: {
+		DisplayName: Blood Fin
+		Tooltip: ""
+	}
+
+	GuidetoBlastingConstruction2: {
+		DisplayName: Guide to Blasting Construction (Inactive)
+		Tooltip:
+			'''
+			Prevents you from hurting by explosives while in the inventory
+			Effects are currently inactive, Right click to reactivate
+			'''
+	}
+
+	Hemogoblinshark: {
+		DisplayName: Hemogoblinshark
+		Tooltip:
+			'''
+			40% chance to save ammo
+			Every shot has a chance to fire an extral blood shot 
+			'Minishark's brutal brother'
+			'''
+	}
+
+	TeardropBottle: {
+		DisplayName: Teardrop Bottle
+		Tooltip: ""
+	}
+
+	HealingPotionLesser: {
+		DisplayName: Splash Potion of Lesser Healing
+		Tooltip: Restores 50 life to allies within range when thrown and destroyed
+	}
+
+	HealingPotion: {
+		DisplayName: Splash Potion of Healing
+		Tooltip: Restores 100 life to allies within range when thrown and destroyed
+	}
+
+	HealingPotionGreater: {
+		DisplayName: Splash Potion of Greater Healing
+		Tooltip: Restores 150 life to allies within range when thrown and destroyed
+	}
+
+	HealingPotionSuper: {
+		DisplayName: Splash Potion of Super Healing
+		Tooltip: Restores 200 life to allies within range when thrown and destroyed
+	}
+
+	CorruptionPylon: {
+		DisplayName: Corruption Pylon
+		Tooltip:
+			'''
+			Teleport to another pylon
+			The nature of the Corruption allows you to teleport to this pylon without nearby villagers
+			You can only place one per type and in the matching biome
+			'''
+	}
+
+	CrimsonPylon: {
+		DisplayName: Crimson Pylon
+		Tooltip:
+			'''
+			Teleport to another pylon
+			The nature of the Crimson allows you to teleport to this pylon without nearby villagers
+			You can only place one per type and in the matching biome
+			'''
+	}
+
+	BandofBees: {
+		DisplayName: Band of Bees
+		Tooltip:
+			'''
+			Increases the move speed and attack speed of friendly bees by 20%
+			Friendly bees will perish together with enemies
+			Does not work for BOSS
+			'''
+	}
+
+	BeenadeLauncher: {
+		DisplayName: Beenade Launcher
+		Tooltip: Use grenades as ammo
+	}
+
+	GelKunai: {
+		DisplayName: Gel Kunai
+		Tooltip: Slide on hit blocks
+	}
+
+	Kunai: {
+		DisplayName: Kunai
+		Tooltip: ""
+	}
+
+	GelShuriken: {
+		DisplayName: Gel Shuriken
+		Tooltip: Slide on hit blocks
+	}
+
+	HeavyDutyBoot: {
+		DisplayName: Heavy Duty Boot
+		Tooltip:
+			'''
+			Immune to traps underfoot
+			The wearer can run super fast
+			'''
+	}
+
+	StrangerBrew: {
+		DisplayName: Stranger Brew
+		Tooltip:
+			'''
+			Main Effects May Include
+			-Die Immediately
+			-Recover Full Health and Gaining 4 seconds of Invincibility
+			"Do you want to be a hero for 5 seconds or a coward for life"
+			'''
+	}
+
+	ZenithFish: {
+		DisplayName: Zenith Fish
+		Tooltip: A powerful weapon unique to anglers
+	}
+
+	FCGamepad: {
+		DisplayName: FC Gamepad
+		Tooltip:
+			'''
+			Currently available games:
+			-Chip 'n' Dale Rescue Rangers (Bootleg)
+			'''
+	}
+}
+
+NPCs: {
+	AngryFireNimbus: {
+		DisplayName: Angry Fire Nimbus
+	}
+
+	CorpseFly: {
+		DisplayName: Corpse Fly
+	}
+
+	PossessedWoodenArmor: {
+		DisplayName: Deleted player
+	}
+
+	SnowFlake: {
+		DisplayName: Snow Flake
+	}
+
+	Stray: {
+		DisplayName: Stray
+	}
+
+	Ninja: {
+		DisplayName: Ninja
+
+		TownNPCMood: {
+			Content: 我很满足。
+			NoHome: 我讨厌没有家。
+			FarFromHome: 我离家太远了。
+			LoveSpace: 我非常喜欢有这么大的空间。
+			DislikeCrowded: 我不喜欢这么拥挤。
+			HateCrowded: 我讨厌这么拥挤。
+			LikeBiome: 我喜欢{BiomeName}。
+			DislikeBiome: 我不喜欢{BiomeName}。
+			LikeNPC: 我喜欢{NPCName}。
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+
+Prefixes: {
+	Greed: {
+		DisplayName: Greed
+	}
+
+	Looting: {
+		DisplayName: Looting
+	}
+}
+
+Projectiles: {
+	DinosaurMinion: {
+		DisplayName: Dinosaur Minion
+	}
+
+	ArchaeologistsHat: {
+		DisplayName: Archaeologists Hat
+	}
+
+	CactusGreatSwordProj: {
+		DisplayName: Cactus Great Sword
+	}
+
+	CactusYoyoProj: {
+		DisplayName: Cactus Yoyo
+	}
+
+	CarnageBladeEffect: {
+		DisplayName: Carnage Blade
+	}
+
+	CheatEdge: {
+		DisplayName: Cheat Edge
+	}
+
+	CorruptGib: {
+		DisplayName: Corrupt Gib
+	}
+
+	DeckProj: {
+		DisplayName: Poker
+	}
+
+	EnchantedYoyoProj: {
+		DisplayName: Enchanted Yoyo
+	}
+
+	Explode: {
+		DisplayName: Explode
+	}
+
+	GladiusProj: {
+		DisplayName: Gladius
+	}
+
+	HealingSyringeProj: {
+		DisplayName: Healing Syringe
+	}
+
+	HellstoneBulletProj: {
+		DisplayName: Hellstone Bullet
+	}
+
+	IceRain: {
+		DisplayName: Ice Rain
+	}
+
+	KnightSpirit: {
+		DisplayName: Knight Spirit
+	}
+
+	LavaRain: {
+		DisplayName: Lava Rain
+	}
+
+	MagicDeckProj: {
+		DisplayName: Magic Deck
+	}
+
+	SpinalSwordMagicProj: {
+		DisplayName: Spinal Sword
+	}
+
+	StarRocketProj: {
+		DisplayName: Star Rocket
+	}
+
+	TinSoldier: {
+		DisplayName: Tin Soldier
+	}
+
+	ToothBombProj: {
+		DisplayName: Tooth Bomb
+	}
+
+	VampireProj: {
+		DisplayName: Vampire
+	}
+
+	VampireProj2: {
+		DisplayName: Vampire
+	}
+
+	VultureFeather: {
+		DisplayName: Vulture Feather
+	}
+
+	BaterangJungleProj: {
+		DisplayName: Jungle Baterang
+	}
+
+	BaterangLavaProj: {
+		DisplayName: Hell Baterang
+	}
+
+	BatrangProj: {
+		DisplayName: Batrang
+	}
+
+	BoneStickProj: {
+		DisplayName: Bone Stick
+	}
+
+	Boonnerang2Proj: {
+		DisplayName: Bonemerang
+	}
+
+	BoonnerangProj: {
+		DisplayName: Bonemerang
+	}
+
+	CactusFlailProjectile: {
+		DisplayName: Cactus Flail
+	}
+
+	LensBeam: {
+		DisplayName: Sunbeam
+	}
+
+	SmallEye: {
+		DisplayName: Servant of Cthulhu(?)
+	}
+
+	GelBall: {
+		DisplayName: Gel Ball
+	}
+
+	GelBallKing: {
+		DisplayName: Royal Gel Ball
+	}
+
+	SkeletonHandProj: {
+		DisplayName: Skeleton Hand
+	}
+
+	Spike: {
+		DisplayName: Gel Spike
+	}
+
+	SpikyBall: {
+		DisplayName: Spiky Gel Ball
+	}
+
+	GrapeProj: {
+		DisplayName: Grape
+	}
+
+	GrapeShot: {
+		DisplayName: Grape
+	}
+
+	OtherSideProj: {
+		DisplayName: Otherside
+	}
+
+	SnowFlowerProj: {
+		DisplayName: Snow Flake
+	}
+
+	SpinalSwordProj: {
+		DisplayName: Spinal Sword
+	}
+
+	ChainWhipProjectile: {
+		DisplayName: Chain Whip
+	}
+
+	DemonWhipProjectile: {
+		DisplayName: Demon Whip
+	}
+
+	EaterWhipProjectile: {
+		DisplayName: Eater Whip
+	}
+
+	OverlordsWhipProjectile: {
+		DisplayName: Overlords Whip
+	}
+
+	ShadowAppMinion: {
+		DisplayName: Shadowflame Apparition
+	}
+
+	ShadowflameWhipProjectile: {
+		DisplayName: Shadowflame Whip
+	}
+
+	Ruby: {
+		DisplayName: Ruby
+	}
+
+	Diamond: {
+		DisplayName: Diamond
+	}
+
+	Amber: {
+		DisplayName: Amber
+	}
+
+	Amethyst: {
+		DisplayName: Amethyst
+	}
+
+	Emerald: {
+		DisplayName: Emerald
+	}
+
+	Sapphire: {
+		DisplayName: Sapphire
+	}
+
+	Topaz: {
+		DisplayName: Topaz
+	}
+
+	Gems: {
+		DisplayName: Gems
+	}
+
+	TinSoldier_: {
+		DisplayName: Tin Soldier
+	}
+
+	CactusChainsaw: {
+		DisplayName: Cactus Chainsaw
+	}
+
+	CactusChainsawProj: {
+		DisplayName: Cactus Chainsaw
+	}
+
+	CactusDancer: {
+		DisplayName: Cactus Dancer
+	}
+
+	CactusDancerPink: {
+		DisplayName: Cactus Dancer
+	}
+
+	SlimeGunPro_Spout: {
+		DisplayName: Ejector Nozzle
+	}
+
+	HealingPotionLesserProj: {
+		DisplayName: Lesser Healing Potion
+	}
+
+	HealingPotionGreaterProj: {
+		DisplayName: Greater Healing Potion
+	}
+
+	HealingPotionProj: {
+		DisplayName: Healing Potion
+	}
+
+	HealingPotionSuperProj: {
+		DisplayName: Super Healing Potion
+	}
+
+	GelKunaiProj: {
+		DisplayName: Gel Kunai Proj
+	}
+
+	KunaiProj: {
+		DisplayName: Kunai Proj
+	}
+
+	GelShurikenProj: {
+		DisplayName: Gel Shuriken Proj
+	}
+
+	ZenithFishProjectile: {
+		DisplayName: Zenith Fish Projectile
+	}
+
+	MushSpore: {
+		DisplayName: Fungi Spore
+	}
+
+	Squirrel: {
+		DisplayName: Squirrel
+	}
+
+	SquirrelII: {
+		DisplayName: Squirrel I I
+	}
+
+	Apple: {
+		DisplayName: Apple
+	}
+
+	ClassicChest: {
+		DisplayName: Classic Chest
+	}
+
+	Squirrel2: {
+		DisplayName: Squirrel
+	}
+}
+
+Tiles: {
+	CorruptionPylonTile: {
+		MapEntry: Corruption Pylon
+	}
+
+	CrimsonPylonTile: {
+		MapEntry: Crimson Pylon
+	}
+}
+
+Configs: {
+	DCConfigs: {
+		DisplayName: Clentaminator Configs
+
+		GreenSolution: {
+			Label: "[i:780] Green Solution Effect"
+			Tooltip: "Determine whether the green solution can color NPCs, turned on by default. "
+		}
+
+		BlueSolution: {
+			Label: "[i:781] Blue Solution Effect"
+			Tooltip: Determine whether the blue solution can color NPCs, turned on by default.
+		}
+
+		PurpleSolution: {
+			Label: "[i:782] Purple Solution Effect"
+			Tooltip: Determine whether the purple solution can half enemies' contact damage and defense, turned on by default.
+		}
+
+		RedSolution: {
+			Label: "[i:784] Red Solution Effect"
+			Tooltip: Determine whether the red solution can deal extra damage over time, turned on by default.
+		}
+
+		DarkBlueSolution: {
+			Label: "[i:783] Dark Blue Solution Effect"
+			Tooltip: Determine whether the dark blue solution can make enemies spawn spores when they dies, turned on by default.
+		}
+
+		SnowSolution: {
+			Label: "[i:5393] White Solution Effect"
+			Tooltip: Determine whether the white solution can slow down enemies, turned on by default.
+		}
+
+		SandSolution: {
+			Label: "[i:5392] Yellow Solution Effect"
+			Tooltip: Determine whether the yellow solution can converts enemies to sand, turned on by default.
+		}
+
+		DirtSolution: {
+			Label: "[i:5394] Brown Solution Effect"
+			Tooltip: Determine whether the brown solution can deal higher or lower damage, turned on by default.
+		}
+
+		Headers: {
+			Mods: {
+				Vanilla: {
+					Blackskin: "[centeritem/h4:Switch]Solution Effects: On/Off"
+				}
+			}
+		}
+	}
+
+	ARLCConfigs: {
+		DisplayName: Auto Crystal Configs
+
+		AutoCrystal: {
+			Label: "[i:29] Crystal Auto Reuse"
+			Tooltip:
+				'''
+				Determine whether the life crystal, mana crystal and life fruit can be auto-reuse, turns on by default.
+				(otherwise why did you subscribe to this mod bro)
+				'''
+		}
+
+		ItemUseTime: {
+			Label: "[i:109] Reset Crystal Usetime"
+			Tooltip:
+				'''
+				Modify the use time of life crystal, magic crystal and life fruit, as measured in game ticks (1 tick means 1/60 second);
+				Smaller value means faster usage.
+				'''
+		}
+	}
+}
+
+ARLC1: "[centeritem/h1:Cog]General Settings"
+

@@ -1,0 +1,398 @@
+{
+	Conditions: {
+		LowHealth: "プレイヤーのHPが半分以下の時"
+	}
+	Keybinds: {
+		"Primary Racial Ability": {
+			DisplayName: "第一種族アビリティ"
+		}
+		"Secondary Racial Ability": {
+			DisplayName: "第二種族アビリティ"
+		}
+		"Tertiary Racial Ability": {
+			DisplayName: "第三種族アビリティ"
+		}
+		"Quaternary Racial Ability": {
+			DisplayName: "第四種族アビリティ"
+		}
+	}
+	Items: {
+		InvisibleMask: {
+			DisplayName: "透明なマスク"
+			Tooltip: ""
+		}
+		InvisibleShirt: {
+			DisplayName: "透明なシャツ"
+			Tooltip: ""
+		}
+		InvisibleTrousers: {
+			DisplayName: "透明なズボン"
+			Tooltip: ""
+		}
+	}
+	Configs: {
+		MrPlagueRacesConfig: {
+			DisplayName: "Mr Plague Races 設定"
+			raceStats: {
+				Label: "種族ステータスの切り替え"
+				Tooltip: "種族ステータスを切り替える"
+			}
+			raceStatsImpact: {
+				Label: "種族ステータスの影響度"
+				Tooltip: "種族ステータスの影響度"
+			}
+			experimentalContent: {
+				Label: "実験的コンテンツの切り替え"
+				Tooltip: "実験的コンテンツを切り替える"
+			}
+		}
+	}
+	Buffs: {
+		AccelerativeBuff: {
+			DisplayName: "加速"
+			Description: "耐え難いほどの速度まで加速する"
+		}
+		Airborne: {
+			DisplayName: "空中"
+			Description: "チャージジャンプ不可"
+		}
+		Bodyswapped: {
+			DisplayName: "ボディスワップ済み"
+			Description: "ボディスワップ不可"
+		}
+		Bombarded: {
+			DisplayName: "爆撃済み"
+			Description: "爆撃はクールダウン中"
+		}
+		BurnedOut: {
+			DisplayName: "燃え尽き"
+			Description: "煙を吐くことはできない"
+		}
+		DarkInferno: {
+			DisplayName: "ダークインフェルノ"
+			Description: "燃えている！"
+		}
+		Dashed: {
+			DisplayName: "ダッシュ済み"
+			Description: "急降下不可"
+		}
+		Fathoming: {
+			DisplayName: "ファゾミング"
+			Description: "シャドウフレイムハーベスター召喚不可"
+		}
+		Fatigued: {
+			DisplayName: "疲労"
+			Description: "羽根の一斉射撃は発射不可"
+		}
+		FlawlessBuff: {
+			DisplayName: "完璧バフ"
+			Description: "クリティカル率とダメージが大幅に増加"
+		}
+		FluidGrace: {
+			DisplayName: "流体の恩寵"
+			Description: "攻撃ダメージと移動速度が増加"
+		}
+		Invoked: {
+			DisplayName: "祈祷済み"
+			Description: "魔法はクールダウン中"
+		}
+		MolecularRecoil: {
+			DisplayName: "分子的反動"
+			Description: "引き裂き不可"
+		}
+		Mycobuffer: {
+			DisplayName: "マイコバッファー"
+			Description: "菌糸体があなたの身体組織を再生している"
+		}
+		Mycobulwark: {
+			DisplayName: "マイコバルワーク"
+			Description: "菌糸体があなたを支えている"
+		}
+		Outstretched: {
+			DisplayName: "伸長"
+			Description: "跳躍不可"
+		}
+		ParticleDeacceleration: {
+			DisplayName: "粒子減速"
+			Description: "フェーズダッシュ不可"
+		}
+		Photosensitive: {
+			DisplayName: "光過敏"
+			Description: "攻撃されると炎上する"
+		}
+		Reanimated: {
+			DisplayName: "再活性化"
+			Description: "霊体化不可"
+		}
+		Rebounded: {
+			DisplayName: "リバウンド"
+			Description: "タイムラインの再生不可"
+		}
+		Refueling: {
+			DisplayName: "再充填中"
+			Description: "スパークマインとクラスターマインは発射不可"
+		}
+		Reincarnated: {
+			DisplayName: "転生"
+			Description: "不死はクールダウン中"
+		}
+		Rematerializing: {
+			DisplayName: "再物質化中"
+			Description: "巻き戻し不可"
+		}
+		ResilientBuff: {
+			DisplayName: "弾力"
+			Description: "再生能力と防御力が増加"
+		}
+		RevitalizingBuff: {
+			DisplayName: "活性化"
+			Description: "自然回復が増進"
+		}
+		Shielded: {
+			DisplayName: "シールド済み"
+			Description: "強化はクールダウン中"
+		}
+		Sluggish: {
+			DisplayName: "不活発"
+			Description: "日光を避けていると再生能力と防御力が低下する"
+		}
+		SoulfireImbuement: {
+			DisplayName: "ソウルファイア注入"
+			Description: "マナ再生が大幅に増加"
+		}
+		SoulFracture: {
+			DisplayName: "ソウルフラクチャー"
+			Description: "魂を切り裂くほどの深い傷\n防御力が1%に減少"
+		}
+		Sporeless: {
+			DisplayName: "胞子なし"
+			Description: "トラップシュルームやニンフシュルームは生成不可"
+		}
+		TemporalRecoil: {
+			DisplayName: "時間的反動"
+			Description: "時間の巻き戻し不可"
+		}
+		Tethered: {
+			DisplayName: "拘束"
+			Description: "動けない"
+		}
+		Tranquilized: {
+			DisplayName: "鎮静化"
+			Description: "燃えている！"
+		}
+		Troglodyte: {
+			DisplayName: "穴居人"
+			Description: "太陽があなたの持久力を低下させ、動きを遅くする"
+		}
+		Unravelled: {
+			DisplayName: "解明"
+			Description: "スピン不可"
+		}
+		Unseen: {
+			DisplayName: "不可視"
+			Description: "視界の外、意識の外\nほとんどの敵から無視される\n与えるダメージが大幅に増加"
+		}
+	}
+	Prefixes: {
+		Accelerative: {
+			DisplayName: "加速の"
+		}
+		Bewitched: {
+			DisplayName: "魔法にかかった"
+		}
+		Bombarding: {
+			DisplayName: "爆撃の"
+		}
+		Combustible: {
+			DisplayName: "可燃性の"
+		}
+		Constructive: {
+			DisplayName: "建設的な"
+		}
+		Explosive: {
+			DisplayName: "爆発性の"
+		}
+		Flawless: {
+			DisplayName: "完璧な"
+		}
+		Fortunate: {
+			DisplayName: "幸運な"
+		}
+		Hexed: {
+			DisplayName: "呪われた"
+		}
+		Immolating: {
+			DisplayName: "焼身の"
+		}
+		Impactful: {
+			DisplayName: "衝撃的な"
+		}
+		Luminescent: {
+			DisplayName: "発光性の"
+		}
+		Recreational: {
+			DisplayName: "娯楽の"
+		}
+		Regenerative: {
+			DisplayName: "再生の"
+		}
+		Reinforced: {
+			DisplayName: "強化された"
+		}
+		Resilient: {
+			DisplayName: "弾力のある"
+		}
+		Revitalizing: {
+			DisplayName: "活性化の"
+		}
+		Streamlined: {
+			DisplayName: "流線型の"
+		}
+		Trailblazing: {
+			DisplayName: "先駆的な"
+		}
+		Tranquilizing: {
+			DisplayName: "鎮静の"
+		}
+		Undying: {
+			DisplayName: "不死の"
+		}
+		Volatile: {
+			DisplayName: "揮発性の"
+		}
+		Warping: {
+			DisplayName: "歪曲の"
+		}
+	}
+	Projectiles: {
+		Barrier: {
+			DisplayName: "バリア"
+		}
+		BarrierGolem: {
+			DisplayName: "バリアゴーレム"
+		}
+		BombardingFlame: {
+			DisplayName: "爆撃の炎"
+		}
+		Boulder: {
+			DisplayName: "岩"
+		}
+		BoulderGolem: {
+			DisplayName: "ボールダーゴーレム"
+		}
+		BouncyBoulder: {
+			DisplayName: "跳ねる岩"
+		}
+		Breathmine: {
+			DisplayName: "ブレスマイン"
+		}
+		BreathSmoke: {
+			DisplayName: "ブレススモーク"
+		}
+		BurningSmoke: {
+			DisplayName: "バーニングスモーク"
+		}
+		BurstSpores: {
+			DisplayName: "バーストスポア"
+		}
+		Clustermine: {
+			DisplayName: "クラスターマイン"
+		}
+		GolemCeilingGripper: {
+			DisplayName: "ゴーレムシーリンググリッパー"
+		}
+		GolemSelect: {
+			DisplayName: "ゴーレムセレクト"
+		}
+		GolemWallGripper: {
+			DisplayName: "ゴーレムウォールグリッパー"
+		}
+		HealingClot: {
+			DisplayName: "ヒーリングクロット"
+		}
+		HealingSpores: {
+			DisplayName: "ヒーリングスポア"
+		}
+		ImpactExplosion: {
+			DisplayName: "インパクトエクスプロージョン"
+		}
+		KenkuFeather: {
+			DisplayName: "ケンクーの羽根"
+		}
+		Laser: {
+			DisplayName: "レーザー"
+		}
+		LaserGolem: {
+			DisplayName: "レーザーゴーレム"
+		}
+		LeechTongue: {
+			DisplayName: "リーチの舌"
+		}
+		LifeBomb: {
+			DisplayName: "ライフボム"
+		}
+		LifeGolem: {
+			DisplayName: "ライフゴーレム"
+		}
+		MolotovFireball: {
+			DisplayName: "火炎瓶"
+		}
+		MolotovFlame: {
+			DisplayName: "火炎瓶の炎"
+		}
+		Nymphshroom: {
+			DisplayName: "ニンフシュルーム"
+		}
+		PaintMenu: {
+			DisplayName: "ペイントメニュー"
+		}
+		PuffDust: {
+			DisplayName: "パフダスト"
+		}
+		RendClaw: {
+			DisplayName: "レンドクロー"
+		}
+		ShadowflameHarvester: {
+			DisplayName: "シャドウフレイムハーベスター"
+		}
+		ShadowflameSeeker: {
+			DisplayName: "シャドウフレイムシーカー"
+		}
+		Skeleton_One: {
+			DisplayName: "スケルトン1"
+		}
+		Skeleton_Three: {
+			DisplayName: "スケルトン3"
+		}
+		Skeleton_Two: {
+			DisplayName: "スケルトン2"
+		}
+		SoulClaw: {
+			DisplayName: "ソウルクロー"
+		}
+		Sparkmine: {
+			DisplayName: "スパークマイン"
+		}
+		SpiderBullet: {
+			DisplayName: "スパイダーバレット"
+		}
+		SpiderGolem: {
+			DisplayName: "スパイダーゴーレム"
+		}
+		Spirit: {
+			DisplayName: "スピリット"
+		}
+		Tether: {
+			DisplayName: "テザー"
+		}
+		TetherGolem: {
+			DisplayName: "テザーゴーレム"
+		}
+		Trapshroom: {
+			DisplayName: "トラップシュルーム"
+		}
+		VolatileExplosion: {
+			DisplayName: "揮発性爆発"
+		}
+	}
+}

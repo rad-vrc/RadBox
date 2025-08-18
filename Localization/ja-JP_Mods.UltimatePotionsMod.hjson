@@ -1,0 +1,1172 @@
+{
+	Configs: {
+		Config: {
+			CheatPotion: {
+				Tooltip: "これを無効にすると、アンチ、アンリミテッドポーションが読み込まれなくなる"
+				Label: "チートポーションアイテムを有効化"
+			}
+			EnhancedPotion: {
+				Tooltip: "これを無効にすると、デモナイト、ハロウド、スペクター、ルミナイトポーションが読み込まれなくなる"
+				Label: "強化ポーションアイテムを有効化"
+			}
+			OriginalPotion: {
+				Tooltip: "これを無効にすると、オリジナルポーションが読み込まれなくなる"
+				Label: "オリジナルポーションアイテムを有効化"
+			}
+			UltimatePotion: {
+				Tooltip: "これを無効にすると、アルティメットポーションが読み込まれなくなる"
+				Label: "アルティメットポーションアイテムを有効化"
+			}
+			DisplayName: "設定"
+		}
+	}
+	Items: {
+		UnlimitedLuckPotion: {
+			Tooltip: "使用者の運を最大まで上昇させる"
+			DisplayName: "アンリミテッドラックポーション"
+		}
+		UltimateLuckPotion: {
+			Tooltip: "使用者の運を究極的に上昇させる"
+			DisplayName: "アルティメットラックポーション"
+		}
+		AntiLuckPotion: {
+			Tooltip: "使用者の運を最小まで低下させる"
+			DisplayName: "アンチラックポーション"
+		}
+		UltimateItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が15000%増加"
+			DisplayName: "アルティメットアイテムスピードポーション"
+		}
+		SpectreItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が37.5%増加"
+			DisplayName: "スペクターアイテムスピードポーション"
+		}
+		LuminiteItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が45%増加"
+			DisplayName: "ルミナイトアイテムスピードポーション"
+		}
+		HallowedItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が30%増加"
+			DisplayName: "ハロウドアイテムスピードポーション"
+		}
+		DemoniteItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が22.5%増加"
+			DisplayName: "デモナイトアイテムスピードポーション"
+		}
+		DemoniteCratePotion: {
+			DisplayName: "デモナイトの箱のポーション"
+			Tooltip: "箱を入手する確率が23%上昇"
+		}
+		HallowedCratePotion: {
+			DisplayName: "神聖な箱のポーション"
+			Tooltip: "箱を入手する確率が30%上昇"
+		}
+		LuminiteCratePotion: {
+			DisplayName: "ルミナイトの箱のポーション"
+			Tooltip: "箱を入手する確率が45%上昇"
+		}
+		SpectreCratePotion: {
+			DisplayName: "スペクターの箱のポーション"
+			Tooltip: "箱を入手する確率が38%上昇"
+		}
+		UltimateAmmoReservationPotion: {
+			DisplayName: "アルティメット弾薬節約ポーション"
+			Tooltip: "弾薬を消費しなくなる"
+		}
+		UltimateCratePotion: {
+			DisplayName: "究極の箱のポーション"
+			Tooltip: "箱を入手する確率が100%増加"
+		}
+		ItemSpeedPotion: {
+			Tooltip: "アイテムの使用速度が15%増加"
+			DisplayName: "アイテムスピードポーション"
+		}
+		UnlimitedSharpPotion: {
+			Tooltip: "'''\n切り替え可能\n敵の防御力を完全に無視する\n'''"
+			DisplayName: "アンリミテッドシャープポーション"
+		}
+		UnlimitedManaPotion: {
+			Tooltip: "'''\n切り替え可能\nマナを消費しなくなる\n'''"
+			DisplayName: "アンリミテッドマナポーション"
+		}
+		UnlimitedLifePotion: {
+			Tooltip: "'''\n切り替え可能\nライフを即座に回復する\n'''"
+			DisplayName: "アンリミテッドライフポーション"
+		}
+		UnlimitedLifeforcePotion: {
+			Tooltip: "'''\n切り替え可能\n最大ライフを最大値まで増加させる\n'''"
+			DisplayName: "アンリミテッドライフフォースポーション"
+		}
+		UnlimitedItemSpeedPotion: {
+			Tooltip: "'''\n切り替え可能\nアイテムの使用速度を最大にする\n'''"
+			DisplayName: "アンリミテッドアイテムスピードポーション"
+		}
+		UnlimitedItemPotion: {
+			Tooltip: "'''\n切り替え可能\nアイテムを消費しなくなる\n'''"
+			DisplayName: "アンリミテッドアイテムポーション"
+		}
+		OneHPPotion: {
+			Tooltip: "'''\n切り替え可能\nプレイヤーの最大ライフを1にする\n'''"
+			DisplayName: "ワンHPポーション"
+		}
+		UltimateWrathPotion: {
+			Tooltip: "ダメージが10000%増加"
+			DisplayName: "アルティメットラースポーション"
+		}
+		UltimateTitanPotion: {
+			Tooltip: "ノックバックが50000%増加"
+			DisplayName: "アルティメットタイタンポーション"
+		}
+		UltimateThornsPotion: {
+			Tooltip: "攻撃者に究極のダメージを与える"
+			DisplayName: "アルティメットソーンスポーション"
+		}
+		UltimateSwiftnessPotion: {
+			Tooltip: "移動速度が25000%増加"
+			DisplayName: "アルティメットスウィフトネスポーション"
+		}
+		UltimateSummoningPotion: {
+			Tooltip: "ミニオンの最大数を究極的に増加させる"
+			DisplayName: "アルティメットサモニングポーション"
+		}
+		UltimateShinePotion: {
+			Tooltip: "プレイヤーが究極の光のオーラを放つ"
+			DisplayName: "アルティメットシャインポーション"
+		}
+		UltimateSharpPotion: {
+			Tooltip: "装甲貫通力が12000増加"
+			DisplayName: "アルティメットシャープポーション"
+		}
+		UltimateRegenerationPotion: {
+			Tooltip: "究極のライフ回復を提供する"
+			DisplayName: "アルティメットリジェネレーションポーション"
+		}
+		UltimateRagePotion: {
+			Tooltip: "クリティカル率が10000%増加"
+			DisplayName: "アルティメットレイジポーション"
+		}
+		UltimateNightOwlPotion: {
+			Tooltip: "暗視能力が3000%増加"
+			DisplayName: "アルティメットナイトオウルポーション"
+		}
+		UltimateMiningPotion: {
+			Tooltip: "ツールの速度を究極的に増加させる"
+			DisplayName: "アルティメットマイニングポーション"
+		}
+		UltimateManaRegenerationPotion: {
+			Tooltip: "究極のマナ回復を提供する"
+			DisplayName: "アルティメットマナリジェネレーションポーション"
+		}
+		UltimateMagicPowerPotion: {
+			Tooltip: "魔法ダメージが20000%増加"
+			DisplayName: "アルティメットマジックパワーポーション"
+		}
+		UltimateLifeforcePotion: {
+			Tooltip: "最大ライフが20000%増加"
+			DisplayName: "アルティメットライフフォースポーション"
+		}
+		UltimateIronskinPotion: {
+			Tooltip: "防御力が8000増加"
+			DisplayName: "アルティメットアイアンスキンポーション"
+		}
+		UltimateHeartreachPotion: {
+			Tooltip: "ライフハートの取得範囲が16000ブロック増加"
+			DisplayName: "アルティメットハートリーチポーション"
+		}
+		UltimateFishingPotion: {
+			Tooltip: "釣りスキルを究極的に増加させる"
+			DisplayName: "アルティメットフィッシングポーション"
+		}
+		UltimateFeatherfallPotion: {
+			Tooltip: "落下速度が究極的に遅くなる"
+			DisplayName: "アルティメットフェザーフォールポーション"
+		}
+		UltimateEndurancePotion: {
+			Tooltip: "被ダメージを10000%減少させる"
+			DisplayName: "アルティメットエンデュランスポーション"
+		}
+		UltimateCalmingPotion: {
+			Tooltip: "敵の出現率が30000%減少"
+			DisplayName: "アルティメットカーミングポーション"
+		}
+		UltimateBuilderPotion: {
+			Tooltip: "設置速度と範囲を究極的に増加させる"
+			DisplayName: "アルティメットビルダーポーション"
+		}
+		UltimateBattlePotion: {
+			Tooltip: "敵の出現率が2000倍に増加"
+			DisplayName: "アルティメットバトルポーション"
+		}
+		UltimateArcheryPotion: {
+			Tooltip: "矢の速度とダメージが20000%増加"
+			DisplayName: "アルティメットアーチェリーポーション"
+		}
+		SpectreWrathPotion: {
+			Tooltip: "ダメージが25%増加"
+			DisplayName: "スペクターラースポーション"
+		}
+		SpectreTitanPotion: {
+			Tooltip: "ノックバックが125%増加"
+			DisplayName: "スペクタータイタンポーション"
+		}
+		SpectreThornsPotion: {
+			Tooltip: "攻撃者もダメージを受ける"
+			DisplayName: "スペクターソーンスポーション"
+		}
+		SpectreSwiftnessPotion: {
+			Tooltip: "移動速度が63%増加"
+			DisplayName: "スペクタースウィフトネスポーション"
+		}
+		SpectreShinePotion: {
+			Tooltip: "光のオーラを放つ"
+			DisplayName: "スペクターシャインポーション"
+		}
+		SpectreSharpPotion: {
+			Tooltip: "装甲貫通力が30増加"
+			DisplayName: "スペクターシャープポーション"
+		}
+		SpectreRegenerationPotion: {
+			Tooltip: "ライフ回復を提供する"
+			DisplayName: "スペクターリジェネレーションポーション"
+		}
+		SpectreRagePotion: {
+			Tooltip: "クリティカル率が25%増加"
+			DisplayName: "スペクターレイジポーション"
+		}
+		SpectreNightOwlPotion: {
+			Tooltip: "暗視能力が7.5%増加"
+			DisplayName: "スペクターナイトオウルポーション"
+		}
+		SpectreMiningPotion: {
+			Tooltip: "採掘速度が63%増加"
+			DisplayName: "スペクターマイニングポーション"
+		}
+		SpectreManaRegenerationPotion: {
+			Tooltip: "マナ回復速度が増加"
+			DisplayName: "スペクターマナリジェネレーションポーション"
+		}
+		SpectreMagicPowerPotion: {
+			Tooltip: "魔法ダメージが50%増加"
+			DisplayName: "スペクターマジックパワーポーション"
+		}
+		SpectreLifeforcePotion: {
+			Tooltip: "最大ライフが50%増加"
+			DisplayName: "スペクターライフフォースポーション"
+		}
+		SpectreIronskinPotion: {
+			Tooltip: "防御力が20増加"
+			DisplayName: "スペクターアイアンスキンポーション"
+		}
+		SpectreHeartreachPotion: {
+			Tooltip: "ライフハートの取得範囲が40ブロック増加"
+			DisplayName: "スペクターハートリーチポーション"
+		}
+		SpectreFishingPotion: {
+			Tooltip: "フィッシング・パワーが38増加"
+			DisplayName: "スペクターフィッシングポーション"
+		}
+		SpectreEndurancePotion: {
+			Tooltip: "被ダメージを25%減少させる"
+			DisplayName: "スペクターエンデュランスポーション"
+		}
+		SpectreCalmingPotion: {
+			Tooltip: "敵の出現率が75%減少"
+			DisplayName: "スペクターカーミングポーション"
+		}
+		SpectreBuilderPotion: {
+			Tooltip: "設置速度と範囲が増加"
+			DisplayName: "スペクタービルダーポーション"
+		}
+		SpectreBattlePotion: {
+			Tooltip: "敵の出現率が5倍に増加"
+			DisplayName: "スペクターバトルポーション"
+		}
+		SpectreArcheryPotion: {
+			Tooltip: "矢の速度とダメージが50%増加"
+			DisplayName: "スペクターアーチェリーポーション"
+		}
+		SpectreAmmoReservationPotion: {
+			Tooltip: "50%の確率で弾薬を消費しない"
+			DisplayName: "スペクター弾薬節約ポーション"
+		}
+		StarinaPotion: {
+			Tooltip: "マナ回復速度が増加"
+			DisplayName: "ポーションの中の星"
+		}
+		SharpPotion: {
+			Tooltip: "装甲貫通力が12増加"
+			DisplayName: "シャープポーション"
+		}
+		HoneyPotion: {
+			Tooltip: "ライフ回復速度が増加"
+			DisplayName: "ハニーポーション"
+		}
+		HeartLampPotion: {
+			Tooltip: "ライフ回復速度が増加"
+			DisplayName: "ハートランプポーション"
+		}
+		CozyFirePotion: {
+			Tooltip: "ライフ回復速度がわずかに増加"
+			DisplayName: "心地よい火のポーション"
+		}
+		LuminiteWrathPotion: {
+			Tooltip: "ダメージが30%増加"
+			DisplayName: "ルミナイトラースポーション"
+		}
+		LuminiteTitanPotion: {
+			Tooltip: "ノックバックが150%増加"
+			DisplayName: "ルミナイトタイタンポーション"
+		}
+		LuminiteThornsPotion: {
+			Tooltip: "攻撃者もダメージを受ける"
+			DisplayName: "ルミナイトソーンスポーション"
+		}
+		LuminiteSwiftnessPotion: {
+			Tooltip: "移動速度が75%増加"
+			DisplayName: "ルミナイトスウィフトネスポーション"
+		}
+		LuminiteSummoningPotion: {
+			Tooltip: "ミニオンの最大数が3増加"
+			DisplayName: "ルミナイトサモニングポーション"
+		}
+		LuminiteShinePotion: {
+			Tooltip: "光のオーラを放つ"
+			DisplayName: "ルミナイトシャインポーション"
+		}
+		LuminiteSharpPotion: {
+			Tooltip: "装甲貫通力が36増加"
+			DisplayName: "ルミナイトシャープポーション"
+		}
+		LuminiteRegenerationPotion: {
+			Tooltip: "ライフ回復を提供する"
+			DisplayName: "ルミナイトリジェネレーションポーション"
+		}
+		LuminiteRagePotion: {
+			Tooltip: "クリティカル率が30%増加"
+			DisplayName: "ルミナイトレイジポーション"
+		}
+		LuminiteNightOwlPotion: {
+			Tooltip: "暗視能力が9%増加"
+			DisplayName: "ルミナイトナイトオウルポーション"
+		}
+		LuminiteMiningPotion: {
+			Tooltip: "採掘速度が75%増加"
+			DisplayName: "ルミナイトマイニングポーション"
+		}
+		LuminiteManaRegenerationPotion: {
+			Tooltip: "マナ回復速度が増加"
+			DisplayName: "ルミナイトマナリジェネレーションポーション"
+		}
+		LuminiteMagicPowerPotion: {
+			Tooltip: "魔法ダメージが60%増加"
+			DisplayName: "ルミナイトマジックパワーポーション"
+		}
+		LuminiteLifeforcePotion: {
+			Tooltip: "最大ライフが60%増加"
+			DisplayName: "ルミナイトライフフォースポーション"
+		}
+		LuminiteIronskinPotion: {
+			Tooltip: "防御力が24増加"
+			DisplayName: "ルミナイトアイアンスキンポーション"
+		}
+		LuminiteHeartreachPotion: {
+			Tooltip: "ライフハートの取得範囲が48ブロック増加"
+			DisplayName: "ルミナイトハートリーチポーション"
+		}
+		LuminiteFishingPotion: {
+			Tooltip: "フィッシング・パワーが45増加"
+			DisplayName: "ルミナイトフィッシングポーション"
+		}
+		LuminiteEndurancePotion: {
+			Tooltip: "被ダメージを30%減少させる"
+			DisplayName: "ルミナイトエンデュランスポーション"
+		}
+		LuminiteCalmingPotion: {
+			Tooltip: "敵の出現率が90%減少"
+			DisplayName: "ルミナイトカーミングポーション"
+		}
+		LuminiteBuilderPotion: {
+			Tooltip: "設置速度と範囲が増加"
+			DisplayName: "ルミナイトビルダーポーション"
+		}
+		LuminiteBattlePotion: {
+			Tooltip: "敵の出現率が6倍に増加"
+			DisplayName: "ルミナイトバトルポーション"
+		}
+		LuminiteArcheryPotion: {
+			Tooltip: "矢の速度とダメージが60%増加"
+			DisplayName: "ルミナイトアーチェリーポーション"
+		}
+		LuminiteAmmoReservationPotion: {
+			Tooltip: "60%の確率で弾薬を消費しない"
+			DisplayName: "ルミナイト弾薬節約ポーション"
+		}
+		HallowedWrathPotion: {
+			Tooltip: "ダメージが20%増加"
+			DisplayName: "ハロウドラースポーション"
+		}
+		HallowedTitanPotion: {
+			Tooltip: "ノックバックが100%増加"
+			DisplayName: "ハロウドタイタンポーション"
+		}
+		HallowedThornsPotion: {
+			Tooltip: "攻撃者もダメージを受ける"
+			DisplayName: "ハロウドソーンスポーション"
+		}
+		HallowedSwiftnessPotion: {
+			Tooltip: "移動速度が50%増加"
+			DisplayName: "ハロウドスウィフトネスポーション"
+		}
+		HallowedSummoningPotion: {
+			Tooltip: "ミニオンの最大数が2増加"
+			DisplayName: "ハロウドサモニングポーション"
+		}
+		HallowedShinePotion: {
+			Tooltip: "光のオーラを放つ"
+			DisplayName: "ハロウドシャインポーション"
+		}
+		HallowedSharpPotion: {
+			Tooltip: "装甲貫通力が24増加"
+			DisplayName: "ハロウドシャープポーション"
+		}
+		HallowedRegenerationPotion: {
+			Tooltip: "ライフ回復を提供する"
+			DisplayName: "ハロウドリジェネレーションポーション"
+		}
+		HallowedRagePotion: {
+			Tooltip: "クリティカル率が20%増加"
+			DisplayName: "ハロウドレイジポーション"
+		}
+		HallowedNightOwlPotion: {
+			Tooltip: "暗視能力が6%増加"
+			DisplayName: "ハロウドナイトオウルポーション"
+		}
+		HallowedMiningPotion: {
+			Tooltip: "採掘速度が50%増加"
+			DisplayName: "ハロウドマイニングポーション"
+		}
+		HallowedManaRegenerationPotion: {
+			Tooltip: "マナ回復速度が増加"
+			DisplayName: "ハロウドマナリジェネレーションポーション"
+		}
+		HallowedMagicPowerPotion: {
+			Tooltip: "魔法ダメージが40%増加"
+			DisplayName: "ハロウドマジックパワーポーション"
+		}
+		HallowedLifeforcePotion: {
+			Tooltip: "最大ライフが40%増加"
+			DisplayName: "ハロウドライフフォースポーション"
+		}
+		HallowedIronskinPotion: {
+			Tooltip: "防御力が16増加"
+			DisplayName: "ハロウドアイアンスキンポーション"
+		}
+		HallowedHeartreachPotion: {
+			Tooltip: "ライフハートの取得範囲が32ブロック増加"
+			DisplayName: "ハロウドハートリーチポーション"
+		}
+		HallowedFishingPotion: {
+			Tooltip: "フィッシング・パワーが30増加"
+			DisplayName: "ハロウドフィッシングポーション"
+		}
+		HallowedEndurancePotion: {
+			Tooltip: "被ダメージを20%減少させる"
+			DisplayName: "ハロウドエンデュランスポーション"
+		}
+		HallowedCalmingPotion: {
+			Tooltip: "敵の出現率が60%減少"
+			DisplayName: "ハロウドカーミングポーション"
+		}
+		HallowedBuilderPotion: {
+			Tooltip: "設置速度と範囲が増加"
+			DisplayName: "ハロウドビルダーポーション"
+		}
+		HallowedBattlePotion: {
+			Tooltip: "敵の出現率が4倍に増加"
+			DisplayName: "ハロウドバトルポーション"
+		}
+		HallowedArcheryPotion: {
+			Tooltip: "矢の速度とダメージが40%増加"
+			DisplayName: "ハロウドアーチェリーポーション"
+		}
+		HallowedAmmoReservationPotion: {
+			Tooltip: "40%の確率で弾薬を消費しない"
+			DisplayName: "ハロウド弾薬節約ポーション"
+		}
+		DemoniteWrathPotion: {
+			Tooltip: "ダメージが15%増加"
+			DisplayName: "デモナイトラースポーション"
+		}
+		DemoniteTitanPotion: {
+			Tooltip: "ノックバックが75%増加"
+			DisplayName: "デモナイトタイタンポーション"
+		}
+		DemoniteThornsPotion: {
+			Tooltip: "攻撃者もダメージを受ける"
+			DisplayName: "デモナイトソーンスポーション"
+		}
+		DemoniteSwiftnessPotion: {
+			Tooltip: "移動速度が38%増加"
+			DisplayName: "デモナイトスウィフトネスポーション"
+		}
+		DemoniteShinePotion: {
+			Tooltip: "光のオーラを放つ"
+			DisplayName: "デモナイトシャインポーション"
+		}
+		DemoniteSharpPotion: {
+			Tooltip: "装甲貫通力が18増加"
+			DisplayName: "デモナイトシャープポーション"
+		}
+		DemoniteRegenerationPotion: {
+			Tooltip: "ライフ回復を提供する"
+			DisplayName: "デモナイトリジェネレーションポーション"
+		}
+		DemoniteRagePotion: {
+			Tooltip: "クリティカル率が15%増加"
+			DisplayName: "デモナイトレイジポーション"
+		}
+		DemoniteNightOwlPotion: {
+			Tooltip: "暗視能力が4.5%増加"
+			DisplayName: "デモナイトナイトオウルポーション"
+		}
+		DemoniteMiningPotion: {
+			Tooltip: "採掘速度が38%増加"
+			DisplayName: "デモナイトマイニングポーション"
+		}
+		DemoniteManaRegenerationPotion: {
+			Tooltip: "マナ回復速度が増加"
+			DisplayName: "デモナイトマナリジェネレーションポーション"
+		}
+		DemoniteMagicPowerPotion: {
+			Tooltip: "魔法ダメージが30%増加"
+			DisplayName: "デモナイトマジックパワーポーション"
+		}
+		DemoniteLifeforcePotion: {
+			Tooltip: "最大ライフが30%増加"
+			DisplayName: "デモナイトライフフォースポーション"
+		}
+		DemoniteIronskinPotion: {
+			Tooltip: "防御力が12増加"
+			DisplayName: "デモナイトアイアンスキンポーション"
+		}
+		DemoniteHeartreachPotion: {
+			Tooltip: "ライフハートの取得範囲が24ブロック増加"
+			DisplayName: "デモナイトハートリーチポーション"
+		}
+		DemoniteFishingPotion: {
+			Tooltip: "フィッシング・パワーが23増加"
+			DisplayName: "デモナイトフィッシングポーション"
+		}
+		DemoniteEndurancePotion: {
+			Tooltip: "被ダメージを15%減少させる"
+			DisplayName: "デモナイトエンデュランスポーション"
+		}
+		DemoniteCalmingPotion: {
+			Tooltip: "敵の出現率が45%減少"
+			DisplayName: "デモナイトカーミングポーション"
+		}
+		DemoniteBuilderPotion: {
+			Tooltip: "設置速度と範囲が増加"
+			DisplayName: "デモナイトビルダーポーション"
+		}
+		DemoniteBattlePotion: {
+			Tooltip: "敵の出現率が3倍に増加"
+			DisplayName: "デモナイトバトルポーション"
+		}
+		DemoniteArcheryPotion: {
+			Tooltip: "矢の速度とダメージが30%増加"
+			DisplayName: "デモナイトアーチェリーポーション"
+		}
+		DemoniteAmmoReservationPotion: {
+			Tooltip: "30%の確率で弾薬を消費しない"
+			DisplayName: "デモナイト弾薬節約ポーション"
+		}
+		AntiRainPotion: {
+			Tooltip: "'''\n切り替え可能\n雨が降らなくなる\n'''"
+			DisplayName: "アンチレインポーション"
+		}
+		AntiLifePotion: {
+			DeathMessage: "{0}の命の灯火は消えた"
+			Tooltip: "プレイヤーを即死させる"
+			DisplayName: "アンチライフポーション"
+		}
+		AntiImmunityPotion: {
+			Tooltip: "'''\n切り替え可能\n敵の無敵フレームを無視する\n発射物のみに有効\n'''"
+			DisplayName: "アンチイミュニティポーション"
+		}
+		AntiDebuffPotion: {
+			Tooltip: "'''\n切り替え可能\n全てのデバフに対して無敵になる\n'''"
+			DisplayName: "アンチデバフポーション"
+		}
+		AntiDeathPotion: {
+			Tooltip: "'''\n切り替え可能\n死ななくなる\n'''"
+			DisplayName: "アンチデスポーション"
+		}
+		AntiCollisionPotion: {
+			Tooltip: "'''\n切り替え可能\n攻撃が当たらなくなる\n'''"
+			DisplayName: "アンチコリジョンポーション"
+		}
+	}
+	Buffs: {
+		UnlimitedLuck: {
+			Description: "このゲームをスピードランできそうな気分になる"
+			DisplayName: "アンリミテッドラック"
+		}
+		UltimateLuck: {
+			Description: "究極的に幸運を感じる"
+			DisplayName: "アルティメットラック"
+		}
+		AntiLuck: {
+			Description: "最悪な気分だ"
+			DisplayName: "アンチラック"
+		}
+		DemoniteCrate: {
+			DisplayName: "デモナイトクレート"
+			Description: "箱を入手する確率が22.5%増加"
+		}
+		DemoniteItemSpeed: {
+			DisplayName: "デモナイトアイテムスピード"
+			Description: "アイテムの使用速度が22.5%増加"
+		}
+		HallowedCrate: {
+			DisplayName: "ハロウドクレート"
+			Description: "箱を入手する確率が30%上昇"
+		}
+		HallowedItemSpeed: {
+			DisplayName: "ハロウドアイテムスピード"
+			Description: "アイテムの使用速度が30%増加"
+		}
+		LuminiteCrate: {
+			DisplayName: "ルミナイトクレート"
+			Description: "箱を入手する確率が45%上昇"
+		}
+		LuminiteItemSpeed: {
+			DisplayName: "ルミナイトアイテムスピード"
+			Description: "アイテムの使用速度が45%増加"
+		}
+		SpectreCrate: {
+			DisplayName: "スペクタークレート"
+			Description: "箱を入手する確率が37.5%増加"
+		}
+		SpectreItemSpeed: {
+			DisplayName: "スペクターアイテムスピード"
+			Description: "アイテムの使用速度が37.5%増加"
+		}
+		UltimateAmmoReservation: {
+			DisplayName: "アルティメット弾薬節約"
+			Description: "弾薬を消費しなくなる"
+		}
+		UltimateCrate: {
+			DisplayName: "アルティメットクレート"
+			Description: "箱を入手する確率が100%増加"
+		}
+		UltimateItemSpeed: {
+			DisplayName: "アルティメットアイテムスピード"
+			Description: "アイテムの使用速度が15000%増加"
+		}
+		ItemSpeed: {
+			Description: "アイテムの使用速度が15%増加"
+			DisplayName: "アイテムスピード"
+		}
+		UnlimitedSharp: {
+			Description: "敵の防御力を完全に無視する"
+			DisplayName: "アンリミテッドシャープ"
+		}
+		UnlimitedMana: {
+			Description: "無限の魔法"
+			DisplayName: "アンリミテッドマナ"
+		}
+		UnlimitedLifeforce: {
+			Description: "無尽蔵"
+			DisplayName: "アンリミテッドライフフォース"
+		}
+		UnlimitedLife: {
+			Description: "ライフを即座に回復する"
+			DisplayName: "アンリミテッドライフ"
+		}
+		UnlimitedItemSpeed: {
+			Description: "アイテムの使用速度を最大にする"
+			DisplayName: "アンリミテッドアイテムスピード"
+		}
+		UnlimitedItem: {
+			Description: "サウザンドエッジ！"
+			DisplayName: "アンリミテッドアイテム"
+		}
+		OneHP: {
+			Description: "ノーヒットチャレンジ"
+			DisplayName: "ワンHP"
+		}
+		UltimateWrath: {
+			Description: "ダメージが10000%増加"
+			DisplayName: "アルティメットラース"
+		}
+		UltimateTitan: {
+			Description: "ノックバックが50000%増加"
+			DisplayName: "アルティメットタイタン"
+		}
+		UltimateThorns: {
+			Description: "攻撃者に究極のダメージを与える"
+			DisplayName: "アルティメットソーンズ"
+		}
+		UltimateSwiftness: {
+			Description: "移動速度が25000%増加"
+			DisplayName: "アルティメットスウィフトネス"
+		}
+		UltimateSummoning: {
+			Description: "ミニオンの最大数が1000増加"
+			DisplayName: "アルティメットサモニング"
+		}
+		UltimateShine: {
+			Description: "究極の光を放つ"
+			DisplayName: "アルティメットシャイン"
+		}
+		UltimateSharp: {
+			Description: "装甲貫通力が12000増加"
+			DisplayName: "アルティメットシャープ"
+		}
+		UltimateRegeneration: {
+			Description: "究極のライフ回復を提供する"
+			DisplayName: "アルティメットリジェネレーション"
+		}
+		UltimateRage: {
+			Description: "クリティカル率が10000%増加"
+			DisplayName: "アルティメットレイジ"
+		}
+		UltimateNightOwl: {
+			Description: "暗視能力が3000%増加"
+			DisplayName: "アルティメットナイトオウル"
+		}
+		UltimateMining: {
+			Description: "ブロックはチーズのように柔らかい"
+			DisplayName: "アルティメットマイニング"
+		}
+		UltimateManaRegeneration: {
+			Description: "究極的にマナ回復速度が増加"
+			DisplayName: "アルティメットマナリジェネレーション"
+		}
+		UltimateMagicPower: {
+			Description: "魔法ダメージが20000%増加"
+			DisplayName: "アルティメットマジックパワー"
+		}
+		UltimateLifeforce: {
+			Description: "最大ライフが20000%増加"
+			DisplayName: "アルティメットライフフォース"
+		}
+		UltimateIronskin: {
+			Description: "防御力が8000増加"
+			DisplayName: "アルティメットアイアンスキン"
+		}
+		UltimateHeartreach: {
+			Description: "ハートの取得範囲が16000ブロック増加"
+			DisplayName: "アルティメットハートリーチ"
+		}
+		UltimateFishing: {
+			Description: "フィッシング・パワーが15000増加"
+			DisplayName: "アルティメットフィッシング"
+		}
+		UltimateFeatherfall: {
+			Description: "上または下を押して降下速度を制御"
+			DisplayName: "アルティメットフェザーフォール"
+		}
+		UltimateEndurance: {
+			Description: "ダメージを99.99%減少"
+			DisplayName: "アルティメットエンデュランス"
+		}
+		UltimateCalming: {
+			Description: "敵の出現率が30000%減少"
+			DisplayName: "アルティメットカーミング"
+		}
+		UltimateBuilder: {
+			Description: "あなたは至高の建築家だ"
+			DisplayName: "アルティメットビルダー"
+		}
+		UltimateBattle: {
+			Description: "敵の出現率が2000倍に増加"
+			DisplayName: "アルティメットバトル"
+		}
+		UltimateArchery: {
+			Description: "矢のダメージと速度が20000%増加"
+			DisplayName: "アルティメットアーチェリー"
+		}
+		SpectreWrath: {
+			Description: "ダメージが25%増加"
+			DisplayName: "スペクターラース"
+		}
+		SpectreTitan: {
+			Description: "ノックバックが125%増加"
+			DisplayName: "スペクタータイタン"
+		}
+		SpectreThorns: {
+			Description: "攻撃者もダメージを受ける"
+			DisplayName: "スペクターソーンズ"
+		}
+		SpectreSwiftness: {
+			Description: "移動速度が63%増加"
+			DisplayName: "スペクタースウィフトネス"
+		}
+		SpectreShine: {
+			Description: "光を放つ"
+			DisplayName: "スペクターシャイン"
+		}
+		SpectreSharp: {
+			Description: "装甲貫通力が30増加"
+			DisplayName: "スペクターシャープ"
+		}
+		SpectreRegeneration: {
+			Description: "ライフ回復を提供する"
+			DisplayName: "スペクターリジェネレーション"
+		}
+		SpectreRage: {
+			Description: "クリティカル率が25%増加"
+			DisplayName: "スペクターレイジ"
+		}
+		SpectreNightOwl: {
+			Description: "暗視能力が7.5%増加"
+			DisplayName: "スペクターナイトオウル"
+		}
+		SpectreMining: {
+			Description: "採掘速度が63%増加"
+			DisplayName: "スペクターマイニング"
+		}
+		SpectreManaRegeneration: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "スペクターマナリジェネレーション"
+		}
+		SpectreMagicPower: {
+			Description: "魔法ダメージが50%増加"
+			DisplayName: "スペクターマジックパワー"
+		}
+		SpectreLifeforce: {
+			Description: "最大ライフが50%増加"
+			DisplayName: "スペクターライフフォース"
+		}
+		SpectreIronskin: {
+			Description: "防御力が20増加"
+			DisplayName: "スペクターアイアンスキン"
+		}
+		SpectreHeartreach: {
+			Description: "ハートの取得範囲が40ブロック増加"
+			DisplayName: "スペクターハートリーチ"
+		}
+		SpectreFishing: {
+			Description: "フィッシング・パワーが38増加"
+			DisplayName: "スペクターフィッシング"
+		}
+		SpectreEndurance: {
+			Description: "ダメージを25%減少"
+			DisplayName: "スペクターエンデュランス"
+		}
+		SpectreCalming: {
+			Description: "敵の出現率が75%減少"
+			DisplayName: "スペクターカーミング"
+		}
+		SpectreBuilder: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "スペクタービルダー"
+		}
+		SpectreBattle: {
+			Description: "敵の出現率が5倍に増加"
+			DisplayName: "スペクターバトル"
+		}
+		SpectreArchery: {
+			Description: "矢のダメージと速度が50%増加"
+			DisplayName: "スペクターアーチェリー"
+		}
+		SpectreAmmoReservation: {
+			Description: "50%の確率で弾薬を消費しない"
+			DisplayName: "スペクター弾薬節約"
+		}
+		Sharp: {
+			Description: "装甲貫通力が12増加"
+			DisplayName: "シャープ"
+		}
+		LuminiteWrath: {
+			Description: "ダメージが30%増加"
+			DisplayName: "ルミナイトラース"
+		}
+		LuminiteTitan: {
+			Description: "ノックバックが150%増加"
+			DisplayName: "ルミナイトタイタン"
+		}
+		LuminiteThorns: {
+			Description: "攻撃者もダメージを受ける"
+			DisplayName: "ルミナイトソーンズ"
+		}
+		LuminiteSwiftness: {
+			Description: "移動速度が75%増加"
+			DisplayName: "ルミナイトスウィフトネス"
+		}
+		LuminiteSummoning: {
+			Description: "ミニオンの最大数が3増加"
+			DisplayName: "ルミナイトサモニング"
+		}
+		LuminiteShine: {
+			Description: "光を放つ"
+			DisplayName: "ルミナイトシャイン"
+		}
+		LuminiteSharp: {
+			Description: "装甲貫通力が36増加"
+			DisplayName: "ルミナイトシャープ"
+		}
+		LuminiteRegeneration: {
+			Description: "ライフ回復を提供する"
+			DisplayName: "ルミナイトリジェネレーション"
+		}
+		LuminiteRage: {
+			Description: "クリティカル率が30%増加"
+			DisplayName: "ルミナイトレイジ"
+		}
+		LuminiteNightOwl: {
+			Description: "暗視能力が9%増加"
+			DisplayName: "ルミナイトナイトオウル"
+		}
+		LuminiteMining: {
+			Description: "採掘速度が75%増加"
+			DisplayName: "ルミナイトマイニング"
+		}
+		LuminiteManaRegeneration: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "ルミナイトマナリジェネレーション"
+		}
+		LuminiteMagicPower: {
+			Description: "魔法ダメージが60%増加"
+			DisplayName: "ルミナイトマジックパワー"
+		}
+		LuminiteLifeforce: {
+			Description: "最大ライフが60%増加"
+			DisplayName: "ルミナイトライフフォース"
+		}
+		LuminiteIronskin: {
+			Description: "防御力が24増加"
+			DisplayName: "ルミナイトアイアンスキン"
+		}
+		LuminiteHeartreach: {
+			Description: "ハートの取得範囲が48ブロック増加"
+			DisplayName: "ルミナイトハートリーチ"
+		}
+		LuminiteFishing: {
+			Description: "フィッシング・パワーが45増加"
+			DisplayName: "ルミナイトフィッシング"
+		}
+		LuminiteEndurance: {
+			Description: "ダメージを30%減少"
+			DisplayName: "ルミナイトエンデュランス"
+		}
+		LuminiteCalming: {
+			Description: "敵の出現率が90%減少"
+			DisplayName: "ルミナイトカーミング"
+		}
+		LuminiteBuilder: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "ルミナイトビルダー"
+		}
+		LuminiteBattle: {
+			Description: "敵の出現率が6倍に増加"
+			DisplayName: "ルミナイトバトル"
+		}
+		LuminiteArchery: {
+			Description: "矢のダメージと速度が60%増加"
+			DisplayName: "ルミナイトアーチェリー"
+		}
+		LuminiteAmmoReservation: {
+			Description: "矢のダメージと速度が60%増加"
+			DisplayName: "ルミナイト弾薬節約"
+		}
+		HallowedWrath: {
+			Description: "ダメージが20%増加"
+			DisplayName: "ハロウドラース"
+		}
+		HallowedTitan: {
+			Description: "ノックバックが100%増加"
+			DisplayName: "ハロウドタイタン"
+		}
+		HallowedThorns: {
+			Description: "攻撃者もダメージを受ける"
+			DisplayName: "ハロウドソーンズ"
+		}
+		HallowedSwiftness: {
+			Description: "移動速度が50%増加"
+			DisplayName: "ハロウドスウィフトネス"
+		}
+		HallowedSummoning: {
+			Description: "ミニオンの最大数が2増加"
+			DisplayName: "ハロウドサモニング"
+		}
+		HallowedShine: {
+			Description: "光を放つ"
+			DisplayName: "ハロウドシャイン"
+		}
+		HallowedSharp: {
+			Description: "装甲貫通力が24増加"
+			DisplayName: "ハロウドシャープ"
+		}
+		HallowedRegeneration: {
+			Description: "ライフ回復を提供する"
+			DisplayName: "ハロウドリジェネレーション"
+		}
+		HallowedRage: {
+			Description: "クリティカル率が20%増加"
+			DisplayName: "ハロウドレイジ"
+		}
+		HallowedNightOwl: {
+			Description: "暗視能力が6%増加"
+			DisplayName: "ハロウドナイトオウル"
+		}
+		HallowedMining: {
+			Description: "採掘速度が50%増加"
+			DisplayName: "ハロウドマイニング"
+		}
+		HallowedManaRegeneration: {
+			Description: "マナ回復速度が増加"
+			DisplayName: "ハロウドマナリジェネレーション"
+		}
+		HallowedMagicPower: {
+			Description: "魔法ダメージが40%増加"
+			DisplayName: "ハロウドマジックパワー"
+		}
+		HallowedLifeforce: {
+			Description: "最大ライフが40%増加"
+			DisplayName: "ハロウドライフフォース"
+		}
+		HallowedIronskin: {
+			Description: "防御力が16増加"
+			DisplayName: "ハロウドアイアンスキン"
+		}
+		HallowedHeartreach: {
+			Description: "ハートの取得範囲が32ブロック増加"
+			DisplayName: "ハロウドハートリーチ"
+		}
+		HallowedFishing: {
+			Description: "フィッシング・パワーが30増加"
+			DisplayName: "ハロウドフィッシング"
+		}
+		HallowedEndurance: {
+			Description: "ダメージを20%減少"
+			DisplayName: "ハロウドエンデュランス"
+		}
+		HallowedCalming: {
+			Description: "敵の出現率が60%減少"
+			DisplayName: "ハロウドカーミング"
+		}
+		HallowedBuilder: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "ハロウドビルダー"
+		}
+		HallowedBattle: {
+			Description: "敵の出現率が4倍に増加"
+			DisplayName: "ハロウドバトル"
+		}
+		HallowedArchery: {
+			Description: "矢のダメージと速度が40%増加"
+			DisplayName: "ハロウドアーチェリー"
+		}
+		HallowedAmmoReservation: {
+			Description: "40%の確率で弾薬を消費しない"
+			DisplayName: "ハロウド弾薬節約"
+		}
+		DemoniteWrath: {
+			Description: "ダメージが15%増加"
+			DisplayName: "デモナイトラース"
+		}
+		DemoniteTitan: {
+			Description: "ノックバックが75%増加"
+			DisplayName: "デモナイトタイタン"
+		}
+		DemoniteThorns: {
+			Description: "攻撃者もダメージを受ける"
+			DisplayName: "デモナイトソーンズ"
+		}
+		DemoniteSwiftness: {
+			Description: "移動速度が38%増加"
+			DisplayName: "デモナイトスウィフトネス"
+		}
+		DemoniteShine: {
+			Description: "光を放つ"
+			DisplayName: "デモナイトシャイン"
+		}
+		DemoniteSharp: {
+			Description: "装甲貫通力が18増加"
+			DisplayName: "デモナイトシャープ"
+		}
+		DemoniteRegeneration: {
+			Description: "ライフ回復を提供する"
+			DisplayName: "デモナイトリジェネレーション"
+		}
+		DemoniteRage: {
+			Description: "クリティカル率が15%増加"
+			DisplayName: "デモナイトレイジ"
+		}
+		DemoniteNightOwl: {
+			Description: "暗視能力が4.5%増加"
+			DisplayName: "デモナイトナイトオウル"
+		}
+		DemoniteMining: {
+			Description: "採掘速度が38%増加"
+			DisplayName: "デモナイトマイニング"
+		}
+		DemoniteManaRegeneration: {
+			Description: "マナ回復速度が増加"
+			DisplayName: "デモナイトマナリジェネレーション"
+		}
+		DemoniteMagicPower: {
+			Description: "魔法ダメージが30%増加"
+			DisplayName: "デモナイトマジックパワー"
+		}
+		DemoniteLifeforce: {
+			Description: "最大ライフが30%増加"
+			DisplayName: "デモナイトライフフォース"
+		}
+		DemoniteIronskin: {
+			Description: "防御力が12増加"
+			DisplayName: "デモナイトアイアンスキン"
+		}
+		DemoniteHeartreach: {
+			Description: "ハートの取得範囲が24ブロック増加"
+			DisplayName: "デモナイトハートリーチ"
+		}
+		DemoniteFishing: {
+			Description: "フィッシング・パワーが23増加"
+			DisplayName: "デモナイトフィッシング"
+		}
+		DemoniteEndurance: {
+			Description: "ダメージを15%減少"
+			DisplayName: "デモナイトエンデュランス"
+		}
+		DemoniteCalming: {
+			Description: "敵の出現率が45%減少"
+			DisplayName: "デモナイトカーミング"
+		}
+		DemoniteBuilder: {
+			Description: "設置速度と範囲が増加"
+			DisplayName: "デモナイトビルダー"
+		}
+		DemoniteBattle: {
+			Description: "敵の出現率が3倍に増加"
+			DisplayName: "デモナイトバトル"
+		}
+		DemoniteArchery: {
+			Description: "矢のダメージと速度が30%増加"
+			DisplayName: "デモナイトアーチェリー"
+		}
+		DemoniteAmmoReservation: {
+			Description: "30%の確率で弾薬を消費しない"
+			DisplayName: "デモナイト弾薬節約"
+		}
+		AntiImmunity: {
+			Description: "無敵なしチャレンジ、ただし敵のみ"
+			DisplayName: "アンチイミュニティ"
+		}
+		AntiDebuff: {
+			Description: "誰もがデバフを嫌う"
+			DisplayName: "アンチデバフ"
+		}
+		AntiDeath: {
+			Description: "今、死ぬことは許されない"
+			DisplayName: "アンチデス"
+		}
+		AntiCollision: {
+			Description: "俺には当たらない…"
+			DisplayName: "アンチコリジョン"
+		}
+	}
+}

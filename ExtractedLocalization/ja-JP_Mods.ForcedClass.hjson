@@ -1,0 +1,93 @@
+Items: {
+	KiOath: {
+		Tooltip:
+			'''
+			気功以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 気功使いの誓約
+	}
+
+	ClickerOath: {
+		Tooltip:
+			'''
+			クリック以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: クリッカーの誓約
+	}
+
+	HealerOath: {
+		Tooltip:
+			'''
+			神聖以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 治癒師の誓約
+	}
+
+	BardOath: {
+		Tooltip:
+			'''
+			旋律以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 吟遊詩人の誓約
+	}
+
+	RogueOath: {
+		Tooltip:
+			'''
+			ローグ、投擲以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: ならず者の誓約
+	}
+
+	SummonerOath: {
+		Tooltip:
+			'''
+			召喚以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 召喚士の誓約
+	}
+
+	RangerOath: {
+		Tooltip:
+			'''
+			遠距離以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 狩人の誓約
+	}
+
+	MageOath: {
+		Tooltip:
+			'''
+			魔法以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 魔導士の誓約
+	}
+
+	MeleeOath: {
+		Tooltip:
+			'''
+			近接以外のすべてのダメージを0にする
+			インベントリやブタの貯金箱内でも効果を発揮
+			'''
+		DisplayName: 戦士の誓約
+	}
+
+	BaseEmblem: {
+		Tooltip: 各職業専用の誓約にクラフトできる
+		DisplayName: 誓約の書
+	}
+
+	gamingsword: {
+		Tooltip: ""
+		DisplayName: ゲーミングソード
+	}
+}
+

@@ -1,0 +1,52 @@
+Keybinds: {
+	"Send Stats": {
+		DisplayName: Send  Stats
+	}
+}
+
+Configs: {
+	MBStatsConfigServer: {
+		DisplayName: M B Stats Config Server
+
+		ShowDamageDealt: {
+			Label: Show Damage Dealt
+			Tooltip: Send Damage Dealt to chat after a bossfight.
+		}
+
+		ShowDamageTaken: {
+			Label: Show Damage Taken
+			Tooltip: Send Damage Taken to chat after a bossfight.
+		}
+
+		ShowTimeAliveDeathCount: {
+			Label: Show Time Alive/Death Count
+			Tooltip: Send Time Alive or Death Count to chat after a bossfight.
+		}
+
+		ShowAverageDPS: {
+			Label: Show Average DPS
+			Tooltip: Send Average DPS to chat after a bossfight.
+		}
+
+		UseTimeAliveInstead: {
+			Label: Use Time Alive in Multiplayer
+			Tooltip: Will replace the death count with time players are alive for in multiplayer (useful if you have no respawning).
+		}
+
+		CountAllMobs: {
+			Label: Count All Mobs
+			Tooltip: Any mob that is damaged during a bossfight will be counted towards damage dealt (useful if a boss' minions aren't being counted).
+		}
+
+		ClampDamage: {
+			Label: Clamp Damage Taken to Player Health
+			Tooltip: Damage done to the player that exceeds their total remaining health will not be counted.
+		}
+
+		DamageContribution: {
+			Label: Only Count Contributing Players
+			Tooltip: Will only send stats after a boss fight if the player has dealt damage (useful if players are fighting bosses solo in multiplayer).
+		}
+	}
+}
+

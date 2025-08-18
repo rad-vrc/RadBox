@@ -1,0 +1,243 @@
+Buffs: {
+	RapierBleed: {
+		DisplayName: Rapier Bleed
+		Description: Losing life
+	}
+}
+
+Items: {
+	AdamantiteBlaster: {
+		DisplayName: Adamantite Blaster
+		Tooltip: ""
+	}
+
+	AdamantiteShotgun: {
+		DisplayName: Adamantite Shotgun
+		Tooltip: ""
+	}
+
+	ChlorophyteFlintlock: {
+		DisplayName: Chlorophyte Flintlock
+		Tooltip: ""
+	}
+
+	ChlorophyteMusket: {
+		DisplayName: Chlorophyte Musket
+		Tooltip: ""
+	}
+
+	CobaltCarbine: {
+		DisplayName: Cobalt Carbine
+		Tooltip: ""
+	}
+
+	CobaltPistol: {
+		DisplayName: Cobalt Pistol
+		Tooltip: ""
+	}
+
+	HallowedMachinePistol: {
+		DisplayName: Hallowed Machine Pistol
+		Tooltip: ""
+	}
+
+	HallowedRifle: {
+		DisplayName: Hallowed Rifle
+		Tooltip: Shoots hot-red lasers
+	}
+
+	MythrilRevolver: {
+		DisplayName: Mythril Revolver
+		Tooltip: ""
+	}
+
+	MythrilShotgun: {
+		DisplayName: Mythril Shotgun
+		Tooltip: ""
+	}
+
+	OrichalcumMachineGun: {
+		DisplayName: Orichalcum Machine Gun
+		Tooltip: 40% chance to save ammo
+	}
+
+	OrichalcumMachinePistol: {
+		DisplayName: Orichalcum Machine Pistol
+		Tooltip: 50% chance to save ammo
+	}
+
+	PalladiumMagnum: {
+		DisplayName: Palladium Magnum
+		Tooltip: ""
+	}
+
+	PalladiumRifle: {
+		DisplayName: Palladium Rifle
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			'''
+	}
+
+	TitaniumBlaster: {
+		DisplayName: Titanium Blaster
+		Tooltip: Shoots powerful explosive bullets
+	}
+
+	TitaniumCarbine: {
+		DisplayName: Titanium Carbine
+		Tooltip: ""
+	}
+
+	AdamantiteRapier: {
+		DisplayName: Adamantite Rapier
+		Tooltip: Fires a hot-red laser with every other swing
+	}
+
+	ChlorophyteRapier: {
+		DisplayName: Chlorophyte Rapier
+		Tooltip: Inflicts bleeding on hit and shoots two spore clouds with each swing
+	}
+
+	CobaltRapier: {
+		DisplayName: Cobalt Rapier
+		Tooltip: Inflicts bleeding and gives the wielder swiftness on hit
+	}
+
+	HallowedRapier: {
+		DisplayName: Hallowed Rapier
+		Tooltip: Inflicts bleeding on hit, shoots red-hot lasers, and occasionally gives the wielder buffs on hit
+	}
+
+	MythrilRapier: {
+		DisplayName: Mythril Rapier
+		Tooltip: Inflicts bleeding and sharpens itself on hit
+	}
+
+	OrichalcumRapier: {
+		DisplayName: Orichalcum Rapier
+		Tooltip: Inflcits bleeding on hit and shoots a wall-piercing pink petal every other swing
+	}
+
+	PalladiumRapier: {
+		DisplayName: Palladium Rapier
+		Tooltip: Shoots a bullet with every third swing
+	}
+
+	TitaniumRapier: {
+		DisplayName: Titanium Rapier
+		Tooltip: Inflicts bleeding and gives the wielder ironskin on hit
+	}
+
+	AdamantiteBone: {
+		DisplayName: Adamantite Bone
+		Tooltip: ""
+	}
+
+	ChlorophyteSpear: {
+		DisplayName: Chlorophyte Spear
+		Tooltip: ""
+	}
+
+	CobaltShuriken: {
+		DisplayName: Cobalt Shuriken
+		Tooltip: ""
+	}
+
+	HallowedGrenade: {
+		DisplayName: Hallowed Grenade
+		Tooltip: ""
+	}
+
+	MythrilThrowingDagger: {
+		DisplayName: Mythril Throwing Dagger
+		Tooltip: ""
+	}
+
+	OrichalcumCaltrop: {
+		DisplayName: Orichalcum Caltrop
+		Tooltip: ""
+	}
+
+	PalladiumThrowingHammer: {
+		DisplayName: Palladium Throwing Hammer
+		Tooltip: ""
+	}
+
+	TitaniumJavelin: {
+		DisplayName: Titanium Javelin
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	AdamantiteBoneProjectile: {
+		DisplayName: Adamantite Bone Projectile
+	}
+
+	ChlorophyteSpearProjectile: {
+		DisplayName: Chlorophyte Spear Projectile
+	}
+
+	CobaltShurikenProjectile: {
+		DisplayName: Cobalt Shuriken Projectile
+	}
+
+	HallowedGrenadeProjectile: {
+		DisplayName: Hallowed Grenade Projectile
+	}
+
+	MythrilThrowingDaggerProjectile: {
+		DisplayName: Mythril Throwing Dagger Projectile
+	}
+
+	OrichalcumCaltropProjectile: {
+		DisplayName: Orichalcum Caltrop Projectile
+	}
+
+	PalladiumThrowingHammerProjectile: {
+		DisplayName: Palladium Throwing Hammer Projectile
+	}
+
+	RedLaser: {
+		DisplayName: Red Laser
+	}
+
+	TitaniumJavelinProjectile: {
+		DisplayName: Titanium Javelin Projectile
+	}
+
+	AdamantiteRapierProjectile: {
+		DisplayName: Adamantite Rapier Projectile
+	}
+
+	ChlorophyteRapierProjectile: {
+		DisplayName: Chlorophyte Rapier Projectile
+	}
+
+	CobaltRapierProjectile: {
+		DisplayName: Cobalt Rapier Projectile
+	}
+
+	HallowedRapierProjectile: {
+		DisplayName: Hallowed Rapier Projectile
+	}
+
+	MythrilRapierProjectile: {
+		DisplayName: Mythril Rapier Projectile
+	}
+
+	OrichalcumRapierProjectile: {
+		DisplayName: Orichalcum Rapier Projectile
+	}
+
+	PalladiumRapierProjectile: {
+		DisplayName: Palladium Rapier Projectile
+	}
+
+	TitaniumRapierProjectile: {
+		DisplayName: Titanium Rapier Projectile
+	}
+}
+

@@ -1,0 +1,532 @@
+Tiles: {
+	MixologistPinup: {
+		MapEntry: ミクソロジストのピンナップ
+	}
+
+	MushroomRope: {
+		MapEntry: キノコのロープ
+	}
+
+	ThousandTrophy: {
+		MapEntry: 1000トロフィー
+	}
+
+	DrinkMixerTile: {
+		MapEntry: ドリンクミキサー
+	}
+}
+
+Projectiles: {
+	CanProjectile: {
+		DisplayName: 缶弾
+	}
+
+	RainbowSharkProjectile: {
+		DisplayName: レインボーシャーク
+	}
+
+	SharkProjectile: {
+		DisplayName: サメ
+	}
+
+	SharkBottle: {
+		DisplayName: サメボトル
+	}
+
+	RootBeerBubble: {
+		DisplayName: ルートビアの泡
+	}
+
+	CitrusBubble: {
+		DisplayName: シトラスの泡
+	}
+
+	CherryBubble: {
+		DisplayName: チェリーの泡
+	}
+
+	Bubble: {
+		DisplayName: 泡
+	}
+
+	BerryBubble: {
+		DisplayName: ベリーの泡
+	}
+
+	AleBubble: {
+		DisplayName: エールの泡
+	}
+
+	BottleShark: {
+		DisplayName: サメ
+	}
+}
+
+Dialogue: {
+	TangledMixologist: {
+		Saved: 助けてくれてありがとう 最悪の事態も覚悟してたよ 海にゴミを捨てるなんてひどいよね…全然関係ないけど 拾ったソーダ買わない？
+	}
+
+	Mixologist: {
+		Party2: このパーティーは順調だね
+		Party1: パーティーは大好き 特にプールパーティー
+		Bloodmoon2: ちょっとかじるくらい平気でしょ おいしそうに見えるのは君のせいだよ
+		Bloodmoon1: …すごくお腹が空いた ねえ 裏で会わない？
+		WetDebuff2: ふふ 私が濡れるのが好きで運が良かったね
+		WetDebuff1: 水鉄砲で私を狙ったの？ 残念 もう水着なんだ
+		Stormy2: 雷…きゃっ…音が…きゃっ…大きいのは苦手！
+		Stormy1: 雷は好きじゃない 泳げなくなるから
+		Raining: 雨の匂いは遠くからでもわかるんだ こういうのには鼻が利くよ
+		SharkForm7: 気をつけて サメ！
+		SharkForm6: 尻尾を触ってもいいけど 優しくしてね
+		SharkForm5: 私はサメ 誇りに思ってるよ
+		SharkForm4: サメからソーダを買ったことある？ 買ってみない？
+		SharkForm3: ああ せっかくなのに また背中に穴が…
+		SharkForm2: この姿だと肌はサンドペーパーみたいにザラザラだよ 気をつけてね
+		SharkForm1: 見るなー！…なんてね 冗談冗談
+		Nighttime: 夜更かしさせたくないから カフェイン抜きの在庫をどうぞ
+		HairColor2: 白髪だからって年寄りってわけじゃないよ
+		HairColor1: 青い髪だからって 話し方とは関係ないよ
+		Common14: 喉乾いてる？
+		Common13: この服どう？ びしょ濡れになる準備はできてるよ
+		Common12: ラーメン味のソーダ…うーん イメージ湧く？
+		Common11: 地下で骨のやつが妙なポーションを売ってるらしい 何と混ぜられるかな…
+		Common10: これらのソーダは作ってないよ 浜に打ち上がっただけ きっと大丈夫 ちゃんと密封されてるし
+		Common9: ソーダ牛っているのかな いないなら作ってみるよ
+		Common8: やあ このソーダ買わない？ 全然振ってないから
+		Common7: これ 絶対試して すっごく美味しい…え ペンキってどういうこと？
+		Common6: この組み合わせ試してみて ラズベリーとブルーベリー 最高だよ
+		Common5: いろんなソーダを全部混ぜたことがある もう二度とやらない ほんとにまずかった
+		Common4: いいよ 砂糖を少しあげる
+		Common3: たまにはいろいろ混ぜてみようよ
+		Common2: ごめん コーラは切らしてる ソーダでいい？
+		Common1: 伝説の「ピルク」飲んだことある？ 私も飲みたくない
+		SharkExterminator: サメを{0}匹も倒したの！？ 絶滅しちゃうよ この怪物！
+		SharkMurderer: サメを{0}匹倒したの？ 信じられない
+		SharkPacifist: サメを一匹も倒してないんだね すっごく誇らしいよ！
+		Angler2: "{0}の相手に疲れたよ 泣きたい…"
+		Angler1: 君もサメが嫌いじゃないよね？ うっ… {0}って本当に冷たい子…
+		Zoologist2: "{0}ってすごく可愛いよね ペットにちょっと嫉妬する時もある"
+		Zoologist1: "{0}と話すのは難しい 共通点は多いのに 鞭のことしか頭に浮かばない…"
+		Dryad: 今日は{0}の浄化の儀式を手伝った でも前より不純に感じるんだ
+	}
+}
+
+Items: {
+	SodaCannon: {
+		Tooltip: ""
+		DisplayName: ソーダキャノン
+	}
+
+	SunsetGlasses: {
+		Tooltip: ""
+		DisplayName: サンセットグラス
+	}
+
+	PinkSharkTail: {
+		Tooltip: ""
+		DisplayName: ピンクのサメのしっぽ
+	}
+
+	PinkSharkEars: {
+		Tooltip: ""
+		DisplayName: ピンクのサメの耳
+	}
+
+	BubblerItems: {
+		BerrySplashCan: {
+			Tooltip: ""
+			DisplayName: ベリースプラッシュ缶
+		}
+
+		SodaCanItem: {
+			Tooltip: ""
+			DisplayName: ソーダ缶
+		}
+
+		GrapeSplashItem: {
+			Tooltip:
+				'''
+				泡を割るとテレポートできる
+				ポーション酔いの間有効
+				'''
+			DisplayName: グレープソーダ
+		}
+
+		TropicalSplashItem: {
+			Tooltip:
+				'''
+				泡を撃ち抜くとダメージが増える
+				遠距離武器を構えている間有効
+				'''
+			DisplayName: トロピカルブラスト
+		}
+
+		RootBeerSplashItem: {
+			Tooltip:
+				'''
+				泡を割るとデバフ時間が短くなる
+				デバフが付与されている間有効
+				「ルートビアはダメ！」
+				'''
+			DisplayName: ルートビア
+		}
+
+		GingerAleSplashItem: {
+			Tooltip:
+				'''
+				泡を割るとポーション酔いを軽減
+				ポーション酔いの間有効
+				「効くよ」
+				'''
+			DisplayName: ジンジャーエール
+		}
+
+		CitrusSplashItem: {
+			Tooltip:
+				'''
+				ポーション酔いの間はダメージを与える泡を放出
+				ポーション酔いの間有効
+				「やっちゃえ」
+				'''
+			DisplayName: シトラスソーダ
+		}
+
+		CherrySplashItem: {
+			Tooltip:
+				'''
+				泡を割ると体力が少ないときに回復
+				HP150未満の間有効
+				「この気分を味わって」
+				'''
+			DisplayName: チェリーコーラ
+		}
+
+		BerrySplashItem: {
+			Tooltip:
+				'''
+				泡を割るとマナを回復
+				マナが減っている間有効
+				「フェイゴが大好き…」
+				'''
+			DisplayName: ベリーソーダ
+		}
+	}
+
+	VintageCola: {
+		Tooltip: ""
+		DisplayName: ヴィンテージコーラ
+	}
+
+	TropicalBlast: {
+		Tooltip: ""
+		DisplayName: トロピカルブラスト
+	}
+
+	SpicyCola: {
+		Tooltip: ""
+		DisplayName: スパイシーコーラ
+	}
+
+	RootBeerFloat: {
+		Tooltip: ""
+		DisplayName: ルートビアフロート
+	}
+
+	PunchSoda: {
+		Tooltip: ""
+		DisplayName: パンチソーダ
+	}
+
+	LemonLimeSoda: {
+		Tooltip: ""
+		DisplayName: レモンライムソーダ
+	}
+
+	EnergyDrink: {
+		Tooltip: ""
+		DisplayName: エナジードリンク
+	}
+
+	ClubSoda: {
+		Tooltip: ""
+		DisplayName: クラブソーダ
+	}
+
+	MushroomRopeItem: {
+		Tooltip: 登れる
+		DisplayName: キノコのロープ
+	}
+
+	SodaSharkTail: {
+		Tooltip: ""
+		DisplayName: ソーダサメのしっぽ
+	}
+
+	SodaSharkFin: {
+		Tooltip: ""
+		DisplayName: ソーダサメのヒレ
+	}
+
+	FloppyEars: {
+		Tooltip: ""
+		DisplayName: 垂れ耳
+	}
+
+	SharkHead: {
+		Tooltip: ""
+		DisplayName: サメの頭
+	}
+
+	SkullHairclip: {
+		Tooltip: 使用するとゾンビのリバーを召喚
+		DisplayName: 髑髏のヘアクリップ
+	}
+
+	MixologistPinupItem: {
+		Tooltip: "「20XX年6月1日」"
+		DisplayName: ミクソロジストのピンナップ
+	}
+
+	ThousandTrophyItem: {
+		Tooltip: "「本当にありがとう！」"
+		DisplayName: 1000トロフィー
+	}
+
+	ClockworkHammer: {
+		Tooltip: "[c/ff0000:- 作業中のアイテム -]"
+		DisplayName: クロックワークハンマー
+	}
+
+	DiceBag: {
+		Tooltip:
+			'''
+			「昔はサイコロを振っていた」
+			振ってから右クリックで出目を決定
+			'''
+		DisplayName: サイコロ袋
+	}
+
+	RainbowSharkCannon: {
+		Tooltip: 虹色のシュモクザメを発射
+		DisplayName: レインボーシャークキャノン
+	}
+
+	DrinkMixerItem: {
+		Tooltip:
+			'''
+			飲み物を組み合わせられる
+			[c/ff0000:- 作業中のアイテム 機能は限定的 -]
+			'''
+		DisplayName: ドリンクミキサー
+	}
+
+	SharkInABottle: {
+		Tooltip: 子どものサメが入っている
+		DisplayName: 瓶入りのサメ
+	}
+
+	MagicSharkCannon: {
+		Tooltip: 子どものシュモクザメを発射
+		DisplayName: マジックシャークキャノン
+	}
+
+	StrangerBrew: {
+		Tooltip:
+			'''
+			私ならやめておく
+			有効になることは ない
+			[c/ff0000:- 現在機能なし -]
+			'''
+		DisplayName: ストレンジャー・ブリュー
+	}
+
+	Soda: {
+		Tooltip: "[c/ff0000:- デバッグ用アイテム -]"
+		DisplayName: ソーダ
+	}
+
+	RootBeer: {
+		Tooltip:
+			'''
+			泡を割るとデバフ時間が短くなる
+			デバフが付与されている間有効
+			「ルートビアはダメ！」
+			'''
+		DisplayName: ルートビア
+	}
+
+	GingerAle: {
+		Tooltip:
+			'''
+			泡を割るとポーション酔いを軽減
+			ポーション酔いの間有効
+			「効くよ」
+			'''
+		DisplayName: ジンジャーエール
+	}
+
+	CitrusSoda: {
+		Tooltip:
+			'''
+			ポーション酔いの間はダメージを与える泡を放出
+			ポーション酔いの間有効
+			「やっちゃえ」
+			'''
+		DisplayName: シトラスソーダ
+	}
+
+	CherryCola: {
+		Tooltip:
+			'''
+			泡を割ると体力が少ないときに回復
+			HP100未満の間有効
+			「この気分を味わって」
+			'''
+		DisplayName: チェリーコーラ
+	}
+
+	BerrySoda: {
+		Tooltip:
+			'''
+			泡を割るとマナを回復
+			マナが半分以上消耗している間有効
+			「フェイゴが大好き…」
+			'''
+		DisplayName: ベリーソーダ
+	}
+
+	SharkOnesie: {
+		Tooltip: ""
+		DisplayName: サメの着ぐるみ
+	}
+
+	SharkHood: {
+		Tooltip: ""
+		DisplayName: サメのフード
+	}
+}
+
+Buffs: {
+	BubblerBuffs: {
+		GrapeSplashBuff: {
+			Description: 泡を割るとテレポートできる
+			DisplayName: グレープスプラッシュ
+		}
+
+		TropicalSplashBuff: {
+			Description: 泡を撃ち抜くとダメージが増える
+			DisplayName: トロピカルスプラッシュ
+		}
+
+		RootBeerSplashBuff: {
+			Description: 泡を割るとデバフ時間が短くなる
+			DisplayName: ルートビアスプラッシュ
+		}
+
+		GingerAleSplashBuff: {
+			Description: 泡を割るとポーション酔いを軽減
+			DisplayName: ジンジャースプラッシュ
+		}
+
+		CitrusSplashBuff: {
+			Description: ポーション酔いの間はダメージを与える泡を放出
+			DisplayName: シトラススプラッシュ
+		}
+
+		CherrySplashBuff: {
+			Description: 泡を割ると体力を回復
+			DisplayName: チェリースプラッシュ
+		}
+
+		BerrySplashBuff: {
+			Description: 泡を割るとマナを回復
+			DisplayName: ベリースプラッシュ
+		}
+	}
+
+	RootBeerSplash: {
+		Description: 泡を割るとデバフ時間が短くなる
+		DisplayName: ルートビアスプラッシュ
+	}
+
+	MindMelt: {
+		Description: 「効果はないが よく手に入れたね」
+		DisplayName: マインドメルト
+	}
+
+	GingerSplash: {
+		Description: 泡を割るとポーション酔いを軽減
+		DisplayName: ジンジャースプラッシュ
+	}
+
+	CitrusSplash: {
+		Description: ポーション酔いの間はダメージを与える泡を放出
+		DisplayName: シトラススプラッシュ
+	}
+
+	CherrySplash: {
+		Description: 泡を割ると体力を回復
+		DisplayName: チェリースプラッシュ
+	}
+
+	BerrySplash: {
+		Description: 泡を割るとマナを回復
+		DisplayName: ベリースプラッシュ
+	}
+}
+
+NPCs: {
+	TangledMixologist: {
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は親切 無料で炭酸飲料をくれるの！"
+			LikeNPC_Princess: "{NPCName}は優しくて 本当に甘党だよ"
+			HateNPC: あのガキの{NPCName}を見るとイライラする！
+			DislikeNPC: ヤーハー…いや 結構 たとえ{NPCName}が良い人でも その仲間は許せない
+			LikeNPC: "{NPCName}と一緒にいると とても不純な気持ちになる それが好き"
+			LoveNPC: "{NPCName}のこと 大好き すごくクールなんだ"
+			HateBiome: "{BiomeName}は泳げる場所がないから嫌い！"
+			LikeBiome: "{BiomeName}も悪くないね"
+			LoveBiome: "{BiomeName}が大好き 波が語りかけてくる感じ"
+			HateCrowded: 尻尾が人に当たっちゃう ここから出して！
+			DislikeCrowded: こんな混雑はうんざり
+			LoveSpace: にぎやかなのも 静かなのも 好き
+			FarFromHome: うう 完全に迷子だよ
+			NoHome: 広さは関係ない 家が欲しいだけ
+			Content: いい感じにノってるよ
+		}
+
+		DisplayName: 絡まったミクソロジスト
+	}
+
+	DebugRiver: {
+		DisplayName: リバー: 250/250
+	}
+
+	Mixologist: {
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は親切 無料で炭酸飲料をくれるの！"
+			LikeNPC_Princess: "{NPCName}は優しくて 本当に甘党だよ"
+			HateNPC: あのガキの{NPCName}を見るとイライラする！
+			DislikeNPC: ヤーハー…いや 結構 たとえ{NPCName}が良い人でも その仲間は許せない
+			LikeNPC: "{NPCName}と一緒にいると とても不純な気持ちになる それが好き"
+			LoveNPC: "{NPCName}のこと 大好き すごくクールなんだ"
+			HateBiome: "{BiomeName}は泳げる場所がないから嫌い！"
+			LikeBiome: "{BiomeName}も悪くないね"
+			LoveBiome: "{BiomeName}が大好き 波が語りかけてくる感じ"
+			HateCrowded: 尻尾が人に当たっちゃう ここから出して！
+			DislikeCrowded: こんな混雑はうんざり
+			LoveSpace: にぎやかなのも 静かなのも 好き
+			FarFromHome: うう 完全に迷子だよ
+			NoHome: 広さは関係ない 家が欲しいだけ
+			Content: いい感じにノってるよ
+		}
+
+		DisplayName: ミクソロジスト
+	}
+
+	HammerheadShark: {
+		DisplayName: シュモクザメ
+	}
+}
+

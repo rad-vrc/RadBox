@@ -1,0 +1,114 @@
+DebugMessages: {
+	Via: {
+		NotAccepted: "しかし、すでに取得済み"
+		ShiftClick: "インベントリからシフトクリック経由"
+		SelectionPanel: "選択パネル経由"
+		Recording: "録音経由"
+		EntrySlot: "エントリスロット経由"
+	}
+
+	Recorded: "録音済み"
+	Removed: "削除済み"
+	Added: "追加済み"
+	EntryState: "[i:{0}] [#{0}] は {1} されました ({2})"
+}
+
+HoverButton: {
+	Eject: "左クリックでミュージックボックスを1つインベントリに取り出す\n右クリックで保存されている全てのミュージックボックスをインベントリに入れる"
+	EntrySlot: "まだ所有していないミュージックボックスを挿入するか、\n最大20個の空のミュージックボックスを保管して音楽を録音する"
+	NoFilter: "利用可能なフィルターなし"
+	Unobtained: "未入手のミュージックボックスを表示中"
+	Obtained: "入手済みのミュージックボックスを表示中"
+	ClearMod: "Modフィルターをクリア"
+	FilterMod: "Modでフィルター"
+	SortName: "名前でソート"
+	SortID: "IDでソート"
+	All: "全ての音楽を表示"
+	Fav: "お気に入りの音楽を表示"
+	Next: "次の曲"
+	Prev: "前の曲"
+	ViewMode: "{0}ビューに変更"
+	Selection: "{0}リスト選択"
+	Record: "{0}録音中"
+	Listen: "{0}試聴中"
+	Stop: "停止"
+	Play: "再生"
+	Min: "最小化"
+	Max: "最大化"
+	List: "リスト"
+	Grid: "グリッド"
+	Open: "開く："
+	Close: "閉じる："
+	Disable: "無効化"
+	Enable: "有効化"
+}
+
+MusicData: {
+	UnknownBox: "割り当てられたミュージックボックスなし"
+}
+
+Configs: {
+	TMPConfig: {
+		EnableDebugMode: {
+			Tooltip: "デバッグモードの機能：\n* ミュージックボックスが再生可能リストに追加または削除されたときのチャットメッセージ"
+			Label: "デバッグモードを有効にする"
+		}
+
+		HoverTextPopOut: {
+			Tooltip: "リストビューを使用している場合、エントリテキストにカーソルを合わせるとポップアウトする。\nこれは、ミュージックボックス名やMod名が長すぎる場合に便利。"
+			Label: "リストビューでテキストをポップアウト"
+		}
+
+		EnableMoreTooltips: {
+			Tooltip: "スマートカーソルがオンの間、ほとんどのボタンに情報が表示される。"
+			Label: "スマートカーソル：ボタンのツールチップを有効にする"
+		}
+
+		StartWithListView: {
+			Tooltip: "デフォルトでは、選択パネルはグリッドビューを使用する。"
+			Label: "選択パネルのデフォルトをリストビューにする"
+		}
+
+		StartWithSmall: {
+			Tooltip: ""
+			Label: "音楽プレーヤーのデフォルトをミニモードにする"
+		}
+
+		ResetPanels: {
+			Tooltip: "ゲーム内でのみ変更を受け付ける"
+			Label: "パネルの位置をリセット"
+		}
+
+		Headers: {
+			Accessibility: "[c/ffeb6e:アクセシビリティ]"
+			Defaults: "[c/ffeb6e:デフォルト設定]"
+		}
+
+		DisplayName: "音楽プレーヤーをカスタマイズ！"
+	}
+}
+
+BuilderToggles: {
+	MusicPlayer_BuilderToggle: {
+		OffText: "音楽プレーヤー非表示"
+		OnText: "音楽プレーヤー表示"
+	}
+}
+
+Keybinds: {
+	NextSong: {
+		DisplayName: "次の曲"
+	}
+
+	PreviousSong: {
+		DisplayName: "前の曲"
+	}
+
+	PlayOrStop: {
+		DisplayName: "音楽の再生/停止"
+	}
+
+	ToggleListen: {
+		DisplayName: "試聴モードの切り替え"
+	}
+}

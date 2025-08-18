@@ -1,0 +1,465 @@
+Config: {
+	ItemHeader: Music
+
+	CustomBiomeMusicToggle: {
+		Label: Custom Biome Music
+		Tooltip: Enables or disables ProvEdition music for biomes.
+	}
+
+	CustomTownMusicToggle: {
+		Label: Custom Town Music
+		Tooltip: Enables or disables ProvEdition music for NPC towns.
+	}
+
+	CustomEventMusicToggle: {
+		Label: Custom Event Music
+		Tooltip: Enables or disables ProvEdition music for events.
+	}
+
+	CustomBossMusicToggle: {
+		Label: Custom Boss Music
+		Tooltip: Enables or disables ProvEdition music for bosses.
+	}
+}
+
+Configs: {
+	MusicConfig: {
+		CustomBossMusicToggle: {
+			Tooltip: Enables or disables ProvEdition music for bosses.
+			Label: Custom Boss Music
+		}
+
+		CustomEventMusicToggle: {
+			Tooltip: Enables or disables ProvEdition music for events.
+			Label: Custom Event Music
+		}
+
+		CustomTownMusicToggle: {
+			Tooltip: Enables or disables ProvEdition music for NPC towns.
+			Label: Custom Town Music
+		}
+
+		CustomBiomeMusicToggle: {
+			Tooltip: Enables or disables ProvEdition music for biomes.
+			Label: Custom Biome Music
+		}
+
+		DisplayName: Music Config
+	}
+}
+
+Menus: {
+	Menu0_Legacy: ProvEdition - Fresh Slate
+	Menu0: ProvEdition - Starting Point
+	Menu1: ProvEdition - Hardmode Interlude
+	Menu1_Legacy: ProvEdition - Hardmode Interlude Legacy
+	Menu2: ProvEdition - Endgame Interlude
+}
+
+CreditsRollCategory_ProveditionCompany: {
+	1: Provedition Company
+	2: ProVGM
+	3: Rocket
+	4: Joseph “Termi” M.
+	5: Lion8cake
+}
+
+UI: {
+	UnlockedMenu: {
+		Unknown: Menu Unlocked: Unknown Menu?...
+		MenuUnlocked: Menu Unlocked: {0}!
+		MenuUnlockedText: Menu Unlocked! {0}.
+		MenuActivated: Menu has changed to: {0}!
+		Hardmode: ProvEdition - Starting Point
+		Planterra: ProvEdition - Hardmode Interlude
+		Endgame: ProvEdition - Endgame Interlude
+	}
+}
+
+MusicDisplay: {
+	ModName: ProvEdition
+	Author: by ProduceVGM
+
+	DayTime: {
+		DisplayName: Wake Up, Sunshine (Day)
+	}
+
+	NightTime: {
+		DisplayName: Night Terrors (Night)
+	}
+
+	Rain: {
+		DisplayName: Reigning Rain (Rain)
+	}
+
+	WindyDay: {
+		DisplayName: Blowout (Windy Day)
+	}
+
+	Storm: {
+		DisplayName: Dominating Downpour (Thunderstorm)
+	}
+
+	Underground: {
+		DisplayName: Deep Dark Down (Underground)
+	}
+
+	Town: {
+		DisplayName: Your Home (Town Day)
+	}
+
+	TownNight: {
+		DisplayName: Sweetest Dream (Town Night)
+	}
+
+	Snow: {
+		DisplayName: Boreal Woods (Snow)
+	}
+
+	Ice: {
+		DisplayName: Below Zero (Underground Snow)
+	}
+
+	Desert: {
+		DisplayName: Sand Land (Desert)
+	}
+
+	DesertNight: {
+		DisplayName: Devil's Palm (Desert Night)
+	}
+
+	UndergroundDesert: {
+		DisplayName: The Tomb (Underground Desert)
+	}
+
+	Jungle: {
+		DisplayName: Vinewalking (Jungle)
+	}
+
+	JungleNight: {
+		DisplayName: Blanket of Brambles (Jungle Night)
+	}
+
+	UndergroundJungle: {
+		DisplayName: Sporefields (Underground Jungle)
+	}
+
+	UndergroundMushroom: {
+		DisplayName: Overly Lucid (Underground Glowing Mushrooms)
+	}
+
+	Space: {
+		DisplayName: Angel Ballad (Space)
+	}
+
+	Ocean: {
+		DisplayName: Deep End (Ocean)
+	}
+
+	OceanNight: {
+		DisplayName: Sparkling Water (Ocean Night)
+	}
+
+	RAVEyard: {
+		DisplayName: Existential Dead (Graveyard)
+	}
+
+	Aether: {
+		DisplayName: Shimmersong (Aether)
+	}
+
+	SlimeRain: {
+		DisplayName: Unusual Forecast (Slime Rain)
+	}
+
+	KingSlime: {
+		DisplayName: Gel-Jitsu (King Slime)
+	}
+
+	BloodMoon: {
+		DisplayName: Red Dusk (Blood Moon)
+	}
+
+	EyeofCthulhu: {
+		DisplayName: Fright Vision (Eye of Cthulhu)
+	}
+
+	GoblinInvasion: {
+		DisplayName: Marching Mischief (Goblin Army)
+	}
+
+	Corruption: {
+		DisplayName: Purely Sickening (Corruption)
+	}
+
+	UndergroundCorruption: {
+		DisplayName: Rotten Insides (Underground Corruption)
+	}
+
+	EaterofWorlds: {
+		DisplayName: Magnificent Dark Lord (Eater of Worlds)
+	}
+
+	Crimson: {
+		DisplayName: Vermillion Carcass (Crimson)
+	}
+
+	UndergroundCrimson: {
+		DisplayName: Gutspill (Underground Crimson)
+	}
+
+	BrainofCthulhu: {
+		DisplayName: Mastermind (Brain of Cthulhu)
+	}
+
+	OldOnesArmy: {
+		DisplayName: Mystic Monsters (Old One's Army)
+	}
+
+	TorchGod: {
+		DisplayName: It Burns Brightly (The Torch God)
+	}
+
+	Meteor: {
+		DisplayName: Astral Angst (Meteorite)
+	}
+
+	QueenBee: {
+		DisplayName: Pollination Matrix (Queen Bee)
+	}
+
+	Skeletron: {
+		DisplayName: Night of the Necromancy (Skeletron)
+	}
+
+	Dungeon: {
+		DisplayName: Skullduggery (Dungeon)
+	}
+
+	Deerclops: {
+		DisplayName: Abominable Horror (Deerclops)
+	}
+
+	Underworld: {
+		DisplayName: Rock Bottom (Underworld)
+	}
+
+	WallofFlesh: {
+		DisplayName: Restoration (Wall of Flesh)
+	}
+
+	HardModeInterlude: {
+		DisplayName: Challenge Accepted (Hardmode Interlude)
+	}
+
+	Hallow: {
+		DisplayName: Over the Rainbow (Hallow)
+	}
+
+	UndergroundHallow: {
+		DisplayName: Crystal Clear (Underground Hallow)
+	}
+
+	QueenSlime: {
+		DisplayName: Gel-Gyration (Queen Slime)
+	}
+
+	Blizzard: {
+		DisplayName: Breathing Frostburn (Blizzard)
+	}
+
+	Sandstorm: {
+		DisplayName: Rage of the Dunes (Sandstorm)
+	}
+
+	PirateInvasion: {
+		DisplayName: The Sea's Shanty (Pirates)
+	}
+
+	FrostLegion: {
+		DisplayName: Unhappy Holidays (Frost Legion)
+	}
+
+	Destroyer: {
+		DisplayName: Terrorformer (The Destroyer)
+	}
+
+	Twins: {
+		DisplayName: Opti-Kill (The Twins)
+	}
+
+	SkeletronPrime: {
+		DisplayName: Maniac's New Toy (Skeletron Prime)
+	}
+
+	SolarEclipse: {
+		DisplayName: Daybroken (Eclipse)
+	}
+
+	Plantera: {
+		DisplayName: Southern Plantkill (Plantera)
+	}
+
+	Menu: {
+		DisplayName: Starting Point (Menu Theme)
+	}
+
+	DungeonHardMode: {
+		DisplayName: Death's Doorstep (Post-Plantera Dungeon)
+	}
+
+	JungleTemple: {
+		DisplayName: Crucible (Temple)
+	}
+
+	Golem: {
+		DisplayName: Stepping Stone (Golem)
+	}
+
+	PumpkinMoon: {
+		DisplayName: Anthem of the Dark Soul (Pumpkin Moon)
+	}
+
+	FrostMoon: {
+		DisplayName: Carol of the Deathly Cold (Frost Moon)
+	}
+
+	MartianInvasion: {
+		DisplayName: Space Invaders (Martian Madness)
+	}
+
+	DukeFishron: {
+		DisplayName: The One That Got Away (Duke Fishron)
+	}
+
+	EmpressofLight: {
+		DisplayName: The Lacewing Effect (Empress of Light)
+	}
+
+	EndgameInterlude: {
+		DisplayName: Otherworldly Conflict (Endgame Interlude)
+	}
+
+	LunaticCultist: {
+		DisplayName: Waning Sanity (Lunatic Cultist)
+	}
+
+	LunarPillars: {
+		DisplayName: Towering Mistakes (The Pillars)
+	}
+
+	Moonlord: {
+		DisplayName: AWOKEN (Moon Lord)
+	}
+
+	MoonlordCore: {
+		DisplayName: CORE Ultimatum (Moon Lord's Core)
+	}
+
+	Credits: {
+		DisplayName: Journey's Triumph (Credits)
+	}
+
+	Mechdusa: {
+		DisplayName: Killer Robots (Mechdusa)
+	}
+
+	TownParty: {
+		DisplayName: Celebrate & Unwind (Town Party)
+	}
+
+	NightRemix: {
+		DisplayName: Night Terrors, Synthwave Remix (Night)
+	}
+
+	Mushroom: {
+		DisplayName: Mildly Lucid (Glowing Mushrooms)
+	}
+
+	RAVEyardRain: {
+		DisplayName: Docile Droplets (Graveyard Rain)
+	}
+
+	DayTimeLegacy: {
+		DisplayName: Wake Up, Sunshine (Day - Legacy)
+	}
+
+	DesertLegacy: {
+		DisplayName: Head In The Sand (Desert - Legacy)
+	}
+
+	EaterofWorldsLegacy: {
+		DisplayName: Magnificence Of Evil (Eater of Worlds - Legacy)
+	}
+
+	KingSlimeLegacy: {
+		DisplayName: Gel-Jitsu (King Slime - Legacy)
+	}
+
+	UndergroundCrimsonLegacy: {
+		DisplayName: Internal Bleeding (Underground Crimson - Legacy)
+	}
+
+	IceLegacy: {
+		DisplayName: Icicles in Eyeline (Underground Snow - Legacy)
+	}
+
+	UndergroundLegacy: {
+		DisplayName: Deep Dark Down (Underground - Legacy)
+	}
+
+	WallofFleshLegacy: {
+		DisplayName: Hellborne Hunger (Wall of Flesh - Legacy)
+	}
+
+	TwinsLegacy: {
+		DisplayName: Optical (The Twins - Legacy)
+	}
+
+	JungleLegacy: {
+		DisplayName: Vinewalking (Jungle - Legacy)
+	}
+
+	SlimeRainLegacy: {
+		DisplayName: Unusual Forecast (Slime Rain - Legacy)
+	}
+
+	EyeofCthulhuLegacy: {
+		DisplayName: Fright Vision (Eye of Cthulhu - Legacy)
+	}
+
+	CorruptionLegacy: {
+		DisplayName: Darkest Hour (Corruption - Legacy)
+	}
+
+	UndergroundCorruptionLegacy: {
+		DisplayName: Worm Hole (Underground Corruption - Legacy)
+	}
+
+	QueenBeeLegacy: {
+		DisplayName: Pollination Matrix (Queen Bee - Legacy)
+	}
+
+	CrimsonLegacy: {
+		DisplayName: Bloodied Sun (Crimson - Legacy)
+	}
+
+	HardModeInterludeLegacy: {
+		DisplayName: Challenge Accepted (Hardmode Interlude - Legacy)
+	}
+
+	MainMenu: {
+		DisplayName: Fresh Slate (Menu Theme - Legacy)
+	}
+
+	SnowNight: The Trail of Silver Stardust (Snow Night)
+
+	SpaceLegacy: {
+		DisplayName: Angel Ballad (Space - Legacy)
+	}
+
+	DaytimeEmpressofLight: {
+		DisplayName: PRISMA (Enraged Empress of Light)
+	}
+}
+

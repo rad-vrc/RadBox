@@ -1,0 +1,1188 @@
+Configs: {
+	FlameConfigClientSide: {
+		sizeShift: {
+			Tooltip: 炎の発射物の視覚的なサイズを調整する
+			Label: エフェクトチェンジャー
+		}
+
+		Headers: {
+			Items: アイテムヘッダー
+		}
+
+		DisplayName: 炎設定（クライアントサイド）
+	}
+
+	FlameConfig: {
+		EnableCoolFire: {
+			Tooltip: ""
+			Label: クールな炎エフェクト
+		}
+
+		EnableElfFlameProjectile: {
+			Tooltip: ""
+			Label: エルフメルター/火炎放射器の通常の発射物を有効化
+		}
+
+		Headers: {
+			Items: アイテムヘッダー
+		}
+
+		DisplayName: 炎設定
+	}
+}
+
+UI: {
+	BloodResource: ブラッドボルト
+}
+
+DamageClasses: {
+	Flamethrowerdamage: {
+		DisplayName: 火炎放射器ダメージ
+	}
+}
+
+Buffs: {
+	DarkBurn: {
+		DisplayName: ダークバーン
+		Description: 炎だけど黒い
+	}
+
+	FireBoost: {
+		DisplayName: ファイアブースト
+		Description: 火炎放射器のダメージが5%増加
+	}
+
+	GlowingLight: {
+		DisplayName: グローイングライト
+		Description: 炎だけど黄色
+	}
+
+	LunarBurn: {
+		DisplayName: ルナバーン
+		Description: 炎だけど水色
+	}
+
+	MeltingShroom: {
+		DisplayName: メルティングシュルーム
+		Description: 炎だけど紺色
+	}
+
+	MeteorBurning: {
+		DisplayName: メテオバーニング
+		Description: 炎だけど緑
+	}
+
+	PinkBurn: {
+		DisplayName: ピンクバーン
+		Description: 炎だけどピンク
+	}
+
+	RainbowBurn: {
+		DisplayName: レインボーバーン
+		Description: 炎だけど虹色
+	}
+
+	templesBurn: {
+		DisplayName: ブレイジングオレンジ
+		Description: 炎だけどオレンジ
+	}
+
+	TerraBlaze: {
+		DisplayName: テラブレイズ
+		Description: 炎だけど緑
+	}
+
+	ZenBlaze: {
+		DisplayName: ゼンブレイズ
+		Description: 炎だけど白い
+	}
+
+	AetherBuff: {
+		DisplayName: エーテルバフ
+		Description: あなたの周りを周回するシールド、HPの約30%しか与えない弱い投射物を反射する
+	}
+
+	HungrysummonBuff: {
+		DisplayName: ハングリーガイ
+		Description: お腹を空かせた小さな仲間
+	}
+
+	PlanteraMinBuff: {
+		DisplayName: ハングリープランテラ
+		Description: お腹を空かせた小さな仲間
+	}
+}
+
+Items: {
+	OrnamentsOfFireBoost: {
+		Tooltip: 火炎放射器のダメージが8%増加
+		DisplayName: 火のオーナメント
+	}
+
+	Lunargaze: {
+		Tooltip: "'''\n壁を貫通する\n大規模な拡散\n'''"
+		DisplayName: インファーナルゲイズ
+	}
+
+	cavityblaze: {
+		Tooltip: フロストフレイムを撃つ
+		DisplayName: キャンディブレイズ
+	}
+
+	HellBlaster: {
+		Tooltip: 開発者向け
+		DisplayName: ヘルブラスター
+	}
+
+	LaserGun: {
+		Tooltip: 開発者向け
+		DisplayName: ピンクデスビーム
+	}
+
+	CharmOfTrueFire: {
+		Tooltip: 非火炎系の投射物を火炎系の投射物に切り替える
+		DisplayName: 真火のチャーム
+	}
+
+	firesspit: {
+		DisplayName: ファイアスピット
+		Tooltip: よわっちい武器
+	}
+
+	ScorchedHeadGear: {
+		Tooltip: "'''\n火炎放射器のダメージが6%増加\n火炎放射器の弾速が8％上昇\n'''"
+		DisplayName: スコーチドヘッドギア
+	}
+
+	ScorchedChestPlate: {
+		Tooltip: "'''\n火炎放射器のダメージが10%増加\n火炎放射器の弾速が8％上昇\n'''"
+		DisplayName: スコーチドチェストプレート
+	}
+
+	ScorchedBoots: {
+		Tooltip: "'''\n火炎放射器のダメージが4%増加\n火炎放射器の弾速が6％上昇\n'''"
+		DisplayName: スコーチドブーツ
+	}
+
+	TheHalo: {
+		Tooltip: ""
+		DisplayName: ザ・ハロー
+	}
+
+	RainbowGel: {
+		Tooltip: ""
+		DisplayName: レインボージェル
+	}
+
+	Planter: {
+		Tooltip: "'''\nクールな炎のエフェクト\nカーソルに飛んでいく花びらを召喚\n'''"
+		DisplayName: ワイルドファイア
+	}
+
+	ReaperFlamethrower: {
+		Tooltip: 時間と共に成長するエクリプスブラストを召喚
+		DisplayName: エクリプスブラスター
+	}
+
+	Reinforcedjerrycan: {
+		Tooltip: "'''\n火炎放射器のダメージが6%増加\n攻撃されたときに20%の確率で爆発を召喚\n'''"
+		DisplayName: 強化ジェリカン
+	}
+
+	Hydrogencan: {
+		Tooltip: ""
+		DisplayName: 水素缶
+	}
+
+	Firesafetyguide: {
+		Tooltip: 火炎放射器の弾速が6％上昇
+		DisplayName: 防火ガイド
+	}
+
+	Ancientjerrycan: {
+		Tooltip: "'''\n火炎放射器のダメージが8%増加\n攻撃されたときに40%の確率で爆発を召喚\n'''"
+		DisplayName: 古代のジェリカン
+	}
+
+	DemonParts: {
+		Tooltip: ""
+		DisplayName: デーモンパーツ
+	}
+
+	CrimParts: {
+		Tooltip: ""
+		DisplayName: クリムパーツ
+	}
+
+	DollyChest: {
+		Tooltip: ""
+		DisplayName: ドーリーチェスト
+	}
+
+	Dollylegs: {
+		Tooltip: ""
+		DisplayName: ドーリーレッグ
+	}
+
+	Dollyhead: {
+		Tooltip: ""
+		DisplayName: ドーリーヘッド
+	}
+
+	FlameGel: {
+		Tooltip: ""
+		DisplayName: フレイムジェル
+	}
+
+	vertexsaw: {
+		Tooltip: 爆発性のノコギリの刃を撃つ
+		DisplayName: バーテックス
+	}
+
+	BeeNuts: {
+		Tooltip: 投射物が仲間にハチミツを付与する
+		DisplayName: ビーナッツ
+	}
+
+	RomanCandle: {
+		Tooltip: ""
+		DisplayName: ローマンキャンドル
+	}
+
+	QueensFlame: {
+		Tooltip: 跳ねる多色の投射物を撃つ
+		DisplayName: クイーンズフレイム
+	}
+
+	KingsFire: {
+		Tooltip: ""
+		DisplayName: キングスファイア
+	}
+
+	angelstrumpet: {
+		Tooltip: 開発者向け
+		DisplayName: エンジェルストランペット
+	}
+
+	StarGel: {
+		Tooltip: ""
+		DisplayName: スタージェル
+	}
+
+	SludgeGel: {
+		Tooltip: ""
+		DisplayName: スラッジジェル
+	}
+
+	ShimmerGel: {
+		Tooltip: ""
+		DisplayName: シマージェル
+	}
+
+	MoonGel: {
+		Tooltip: ""
+		DisplayName: ムーンジェル
+	}
+
+	LumGel: {
+		Tooltip: ""
+		DisplayName: ルミジェル
+	}
+
+	FrostGel: {
+		Tooltip: ""
+		DisplayName: フロストジェル
+	}
+
+	FireGel: {
+		Tooltip: ""
+		DisplayName: ファイアジェル
+	}
+
+	DiamondGel: {
+		Tooltip: ""
+		DisplayName: ダイヤモンドジェル
+	}
+
+	CrystalGel: {
+		Tooltip: ""
+		DisplayName: クリスタルジェル
+	}
+
+	BlackGel: {
+		Tooltip: ""
+		DisplayName: ブラックジェル
+	}
+
+	ChiefsTerra: {
+		Tooltip: 開発者向け
+		DisplayName: チーフのテラ
+	}
+
+	ChiefsWings: {
+		DisplayName: チーフの翼
+		Tooltip: ""
+	}
+
+	CrystalStorm: {
+		Tooltip: ピンクの雷を撃つ
+		DisplayName: クリスタルストーム
+	}
+
+	GreekFireThrower: {
+		Tooltip: 小さなファイアボルトを撃つ
+		DisplayName: ギリシャ火薬放射器
+	}
+
+	FireBoostPotion: {
+		Tooltip: 火炎放射器のダメージが5%増加
+		DisplayName: ファイアブーストポーション
+	}
+
+	BoneThrowerparts: {
+		Tooltip: いくつかの火炎放射器に使用
+		DisplayName: 違法なボーン火炎放射器の部品
+	}
+
+	ThrowerParts: {
+		Tooltip: いくつかの火炎放射器に使用
+		DisplayName: 違法な火炎放射器の部品
+	}
+
+	BloodOrb: {
+		Tooltip: ドレッドノーチラスブラッドスピッターのクラフトに使用できる
+		DisplayName: ブラッドボトル
+	}
+
+	GrandStarThrower: {
+		Tooltip: ""
+		DisplayName: グランドスタースロワー
+	}
+
+	IridescenceGel: {
+		Tooltip: ""
+		DisplayName: イリデッセンスジェル
+	}
+
+	StarThrower: {
+		Tooltip: 空から星を撃つ
+		DisplayName: スタースロワー
+	}
+
+	LifelightThrower: {
+		Tooltip: 昼間にこの武器を使用するとダメージが20%増加
+		DisplayName: ライフライト
+	}
+
+	CosmicOverDrive: {
+		Tooltip: "'''\n敵を引き寄せるブラックホールファイアを撃つ\nボルテックスは最も近い敵に雷を撃つ\nスターダストは3秒ごとに3つの黄色い星を撃つ\nソーラーは着弾時に爆発し3倍のダメージを与える\nネビュラは最も近い敵にホーミングする\n'''"
+		DisplayName: コズミッカ
+	}
+
+	Squeed: {
+		Tooltip: ""
+		DisplayName: ブラッドスピッター
+	}
+
+	Dreadnaut: {
+		Tooltip: 時間と共により多くのブラッドボルトを撃つ
+		DisplayName: ドレッドノーチラスブラッドスピッター
+	}
+
+	Demonfish: {
+		Tooltip: デーモンサイスを撃つ
+		DisplayName: デーモンフィッシュ
+	}
+
+	Bludner: {
+		Tooltip: 時間と共により多くのウォーターボルトを撃つ
+		DisplayName: コーラルブランダーバス
+	}
+
+	TheAether: {
+		Tooltip: 投射物を反射するシールドを召喚
+		DisplayName: ジ・エーテル
+	}
+
+	cactus: {
+		Tooltip: 時間と共により多くのサボテンの棘を撃つ
+		DisplayName: カクタスブラスター
+	}
+
+	UltrabrightGel: {
+		Tooltip: ""
+		DisplayName: ウルトラブライトジェル
+	}
+
+	IchorGel: {
+		Tooltip: ""
+		DisplayName: イコルジェル
+	}
+
+	DemonGel: {
+		Tooltip: ""
+		DisplayName: デーモンジェル
+	}
+
+	CurseGel: {
+		Tooltip: ""
+		DisplayName: カースジェル
+	}
+
+	Titanium: {
+		Tooltip: "'''\n左クリック長押しでレーザーを発射\n右クリックで火を発射\n'''"
+		DisplayName: チタンブロー・トーチ
+	}
+
+	Adamantite: {
+		Tooltip: "'''\n左クリック長押しでレーザーを発射\n右クリックで火を発射\n'''"
+		DisplayName: アダマンタイトブロー・トーチ
+	}
+
+	EndlessGelPouch: {
+		Tooltip: ""
+		DisplayName: 無限のジェルポーチ
+	}
+
+	SkyBurner: {
+		Tooltip: 空から羽根を撃つ
+		DisplayName: スカイバーナー
+	}
+
+	WaterCandleItem: {
+		Tooltip: 水の波を撃つ
+		DisplayName: アクアアンブレラ
+	}
+
+	PlatFury: {
+		Tooltip: ""
+		DisplayName: プラチナフューリー
+	}
+
+	GoldenFury: {
+		Tooltip: ""
+		DisplayName: ゴールデンフューリー
+	}
+
+	BetsysBreath: {
+		Tooltip: 大規模な拡散
+		DisplayName: ベッツィの息吹
+	}
+
+	ShadowflameMask: {
+		Tooltip: "'''\n火炎放射器のダメージが5%増加\n火炎放射器の弾速が2％上昇\n'''"
+		DisplayName: シャドウフレイムマスク
+	}
+
+	ShadowflameLegs: {
+		Tooltip: "'''\n火炎放射器のダメージが5%増加\n火炎放射器の弾速が2％上昇\n移動速度が20％上昇\n'''"
+		DisplayName: シャドウフレイムレギンス
+	}
+
+	Shadowflamechest: {
+		Tooltip: "'''\n火炎放射器のダメージが5%増加\n火炎放射器の弾速が2％上昇\n'''"
+		DisplayName: シャドウフレイムチェストプレート
+	}
+
+	ProtectiveHand: {
+		Tooltip: "'''\n火炎放射器のダメージが10%増加\n火炎放射器の弾速が10％上昇\n'''"
+		DisplayName: ボルテックスファイアタンク
+	}
+
+	OilCan: {
+		Tooltip: 敵にオイルと炎を与える
+		DisplayName: オイル缶
+	}
+
+	FlamethrowerGuide: {
+		Tooltip: 火炎放射器の弾速が10％上昇
+		DisplayName: 火炎放射器ガイド
+	}
+
+	BurningEmblem: {
+		Tooltip: 火炎放射器のダメージが10%増加
+		DisplayName: バーニングエンブレム
+	}
+
+	BlazingFlower: {
+		Tooltip: "'''\n火炎放射器のダメージが5%増加\n火炎放射器の弾速が5％上昇\n'''"
+		DisplayName: ブレイジングフラワー
+	}
+
+	BurningMeteor: {
+		Tooltip: メテオライトファイアギアを装備している場合、弾薬が無限になる
+		DisplayName: ブレイジングメテオ
+	}
+
+	MeteoriteHeadGear: {
+		Tooltip: "'''\n火炎放射器のダメージを37%増加\nこのダメージブーストはセット全体を装備している場合のみ有効\n'''"
+		DisplayName: メテオライトファイアギア
+	}
+
+	GolemsEye: {
+		Tooltip: 右クリックで最も近い敵を狙う3つのファイアトラップを召喚
+		DisplayName: 神殿の怒り
+	}
+
+	TheBrothers: {
+		Tooltip: 定期的にレーザーを撃つ
+		DisplayName: ザ・ブラザーズ
+	}
+
+	ShroomBlaster: {
+		Tooltip: ヒット時に爆発を召喚する
+		DisplayName: シュルームイグナイター
+	}
+
+	ShadowVaporizer: {
+		Tooltip: 右クリックで3体のシャドウフレイムゴーストを撃つ
+		DisplayName: シャドウヴェポライザー
+	}
+
+	NecroticBlaster: {
+		Tooltip: "'''\n大規模な拡散\n+10 装甲貫通\n'''"
+		DisplayName: ネクロティックイグナイター
+	}
+
+	MoltenMaelstrom: {
+		Tooltip: 炎がヘルスラグを放出する
+		DisplayName: モルテンメイルストロム
+	}
+
+	FrostburnIgniter: {
+		Tooltip: "'''\n敵にフロストバーンを与える\n右クリックでフロストグレネードを撃つ\n'''"
+		DisplayName: フロストバーンイグナイター
+	}
+
+	ColorfulCelebration: {
+		Tooltip: "'''\n壁を貫通する\n大規模な拡散\n'''"
+		DisplayName: インファーナルゲイズ
+	}
+
+	GoldenGel: {
+		Tooltip: ""
+		DisplayName: ゴールデンジェル
+	}
+
+	VenomousSprayerFlamethrow: {
+		Tooltip: "'''\n敵にホーミングする\n敵に毒を与える\n'''"
+		DisplayName: ヴェノマススプレイヤー
+	}
+
+	InfernoSpitterFlamethrow: {
+		Tooltip: "'''\n定期的にレーザーを撃つ\nお腹を空かせた小さな仲間を召喚する\n'''"
+		DisplayName: インフェルノスピッター
+	}
+
+	VortexFlamethrow: {
+		Tooltip: "'''\n壁を貫通する\n定期的に2倍のダメージを与える雷を撃つ\n'''"
+		DisplayName: プラズマサージ
+	}
+}
+
+Projectiles: {
+	Moonlaser: {
+		DisplayName: ムーンレーザー
+	}
+
+	StarFlameskyburner: {
+		DisplayName: スターフレイムスカイバーナー
+	}
+
+	CandyFlame: {
+		DisplayName: キャンディフレイム
+	}
+
+	ForDragonballmod: {
+		DisplayName: ドラゴンボールMod用
+	}
+
+	WildFlames: {
+		DisplayName: ワイルドフレイム
+	}
+
+	CrystalStormFlame: {
+		DisplayName: クリスタルストームフレイム
+	}
+
+	HellBlast: {
+		DisplayName: ヘルブラスト
+	}
+
+	pinkStarProjectile: {
+		DisplayName: ピンクスター発射体
+	}
+
+	Pinkbolt: {
+		DisplayName: ピンクボルト
+	}
+
+	PinkCharge: {
+		DisplayName: ピンクチャージ
+	}
+
+	ProjBowProj: {
+		DisplayName: プロジェクトボウ発射体
+	}
+
+	SuperPinkBeam: {
+		DisplayName: スーパーピンクビーム
+	}
+
+	LaserGunProj: {
+		DisplayName: レーザーガン発射体
+	}
+
+	EnergyOrb: {
+		DisplayName: エネルギーオーブ
+	}
+
+	PowerRay: {
+		DisplayName: パワーレイ
+	}
+
+	Firebolt: {
+		DisplayName: ファイアボルト
+	}
+
+	HaloShot: {
+		DisplayName: ハローショット
+	}
+
+	RainbowFlame: {
+		DisplayName: レインボーフレイム
+	}
+
+	RenBlast: {
+		DisplayName: レンブラスト
+	}
+
+	ABlast: {
+		DisplayName: Aブラスト
+	}
+
+	TempleTrap: {
+		DisplayName: 神殿の罠
+	}
+
+	YBlade: {
+		DisplayName: Yブレード
+	}
+
+	WBlade: {
+		DisplayName: Wブレード
+	}
+
+	RBlade: {
+		DisplayName: Rブレード
+	}
+
+	PBlade: {
+		DisplayName: Pブレード
+	}
+
+	BBlade: {
+		DisplayName: Bブレード
+	}
+
+	Spore: {
+		DisplayName: スポア
+	}
+
+	Leaves: {
+		DisplayName: リーブス
+	}
+
+	Flowers: {
+		DisplayName: フラワー
+	}
+
+	WildFlower: {
+		DisplayName: ワイルドフラワー
+	}
+
+	PhantasmalBolt: {
+		DisplayName: ファンタズマルボルト
+	}
+
+	PlanteraMin: {
+		DisplayName: プランテラミニ
+	}
+
+	Hungrysummon: {
+		DisplayName: ハングリーサモン
+	}
+
+	WaterumbrellaHoldout: {
+		DisplayName: ウォーターアンブレラ
+	}
+
+	ReaperWeaponHoldout: {
+		DisplayName: リーパーウェポン
+	}
+
+	SolarEX: {
+		DisplayName: ソーラーEX
+	}
+
+	MiniStar: {
+		DisplayName: ミニスター
+	}
+
+	CosmicBlast: {
+		DisplayName: コズミックブラスト
+	}
+
+	VortexBlast: {
+		DisplayName: ボルテックスブラスト
+	}
+
+	StardustBlast: {
+		DisplayName: スターダストブラスト
+	}
+
+	SolarBlast: {
+		DisplayName: ソーラーブラスト
+	}
+
+	NebulaBlast: {
+		DisplayName: ネビュラブラスト
+	}
+
+	QgelBlob: {
+		DisplayName: Qジェル塊
+	}
+
+	WeakIchorFlame: {
+		DisplayName: ウィークイコルフレイム
+	}
+
+	WeakcurseFlame: {
+		DisplayName: ウィークカースフレイム
+	}
+
+	CosmicBolt: {
+		DisplayName: コズミックボルト
+	}
+
+	ZenBlast: {
+		DisplayName: ゼンブラスト
+	}
+
+	ZenFlame: {
+		DisplayName: ゼンフレイム
+	}
+
+	SawBlade: {
+		DisplayName: ソウブレード
+	}
+
+	Blackhole: {
+		DisplayName: ブラックホール
+	}
+
+	GreekGireBolt: {
+		DisplayName: ギリシャ火薬ボルト
+	}
+
+	RomanBubble3rd: {
+		DisplayName: ローマンロケット
+	}
+
+	RomanBubble2nd: {
+		DisplayName: ローマンロケット
+	}
+
+	RomanBubble: {
+		DisplayName: ローマンロケット
+	}
+
+	RBlast: {
+		DisplayName: ロケットブラスト
+	}
+
+	GelBlast: {
+		DisplayName: ジェルブラスト
+	}
+
+	gelBlob: {
+		DisplayName: ジェル塊
+	}
+
+	AngelBlast: {
+		DisplayName: エンジェルブラスト
+	}
+
+	MagicNote: {
+		DisplayName: マジックノート
+	}
+
+	AngelWater: {
+		DisplayName: エンジェルウォーター
+	}
+
+	StarFlameProjGel: {
+		DisplayName: スターフレイムジェル
+	}
+
+	SludgeFlame: {
+		DisplayName: スラッジフレイム
+	}
+
+	MoonFlame: {
+		DisplayName: ムーンフレイム
+	}
+
+	LumFlame: {
+		DisplayName: ルミフレイム
+	}
+
+	FrostFlame: {
+		DisplayName: フロストフレイム
+	}
+
+	FireFlame: {
+		DisplayName: ファイアフレイム
+	}
+
+	DiamondFlame: {
+		DisplayName: ダイヤモンドフレイム
+	}
+
+	CrystalFlame: {
+		DisplayName: クリスタルフレイム
+	}
+
+	BlackFlame: {
+		DisplayName: ブラックフレイム
+	}
+
+	TerraBlast: {
+		DisplayName: テラブラスト
+	}
+
+	TerraFlame: {
+		DisplayName: テラフレイム
+	}
+
+	Tornado: {
+		DisplayName: トルネード
+	}
+
+	CrystalProj: {
+		DisplayName: クリスタル
+	}
+
+	GemLightning: {
+		DisplayName: ピンクライトニング
+	}
+
+	GreekFireThrowerHoldOut: {
+		DisplayName: ギリシャ火薬放射器ホールドアウト
+	}
+
+	ShakerSludge: {
+		DisplayName: シェイカースラッジ
+	}
+
+	HoneyProj: {
+		DisplayName: ハニー発射体
+	}
+
+	HoneyProjectile: {
+		DisplayName: ハニー発射体
+	}
+
+	Blast: {
+		DisplayName: ブラスト
+	}
+
+	GreekFireSmoke: {
+		DisplayName: ギリシャ火薬の煙
+	}
+
+	Spark: {
+		DisplayName: スパーク
+	}
+
+	TrueStarFlame: {
+		DisplayName: トゥルースターフレイム
+	}
+
+	magaFeather: {
+		DisplayName: マガフェザー
+	}
+
+	PureStarFlame: {
+		DisplayName: ピュアスターフレイム
+	}
+
+	Burst: {
+		DisplayName: バースト
+	}
+
+	SuperStar: {
+		DisplayName: スーパースター
+	}
+
+	IridescenceFlame: {
+		DisplayName: イリデッセンスフレイム
+	}
+
+	AdamantiteHoldout: {
+		DisplayName: アダマンタイトホールドアウト
+	}
+
+	AdamantiteBeam: {
+		DisplayName: アダマンタイトビーム
+	}
+
+	TitaniumTorchBeam: {
+		DisplayName: チタントーチブロートーチ
+	}
+
+	TitaniumHoldout: {
+		DisplayName: チタンホールドアウト
+	}
+
+	TorchBeam: {
+		DisplayName: トーチビーム
+	}
+
+	AdamantiteHoldProj: {
+		DisplayName: アダマンタイトブロートーチ
+	}
+
+	BlowTorchHold: {
+		DisplayName: ブロートーチホールド
+	}
+
+	BlowTorchBeam: {
+		DisplayName: ブロートーチビーム
+	}
+
+	DeathScythe: {
+		DisplayName: デスサイス
+	}
+
+	AetherShield: {
+		DisplayName: エーテルシールド
+	}
+
+	InkShot: {
+		DisplayName: インクショット
+	}
+
+	BloodShot: {
+		DisplayName: ブラッドショット
+	}
+
+	MagmaFlame: {
+		DisplayName: マグマフレイム
+	}
+
+	CactusProj2: {
+		DisplayName: サボテンボール
+	}
+
+	CactusProj: {
+		DisplayName: サボテンの棘
+	}
+
+	WaterOrb: {
+		DisplayName: ウォーターオーブ
+	}
+
+	CoralChunk: {
+		DisplayName: サンゴの塊
+	}
+
+	CosmicFlame: {
+		DisplayName: コズミックフレイム
+	}
+
+	AetherFlame: {
+		DisplayName: エーテルフレイム
+	}
+
+	DarkFlame: {
+		DisplayName: ダークフレイム
+	}
+
+	Ultrabrightflame: {
+		DisplayName: ウルトラブライトフレイム
+	}
+
+	Ichorflame: {
+		DisplayName: イコルフレイム
+	}
+
+	Demonflame: {
+		DisplayName: デーモンフレイム
+	}
+
+	Curseflame: {
+		DisplayName: カースフレイム
+	}
+
+	Rainbowflame: {
+		DisplayName: レインボーフレイム
+	}
+
+	Pinkflame: {
+		DisplayName: ピンクフレイム
+	}
+
+	GoldFlame: {
+		DisplayName: ゴールドフレイム
+	}
+
+	ShadowFlameGhost: {
+		DisplayName: シャドウフレイムゴースト
+	}
+
+	IceShard: {
+		DisplayName: 氷の破片
+	}
+
+	Frost_Grenade: {
+		DisplayName: フロストグレネード
+	}
+
+	MoltenMaelstromslagflame: {
+		DisplayName: モルテンフレイム
+	}
+
+	HellProjectileC: {
+		DisplayName: ヘルスラグ
+	}
+
+	HellProjectileB: {
+		DisplayName: ヘルスラグ
+	}
+
+	HellProjectileA: {
+		DisplayName: ヘルスラグ
+	}
+
+	Flamethrowerflame: {
+		DisplayName: 火炎放射器の炎
+	}
+
+	ElfFlame: {
+		DisplayName: エルフフレイム
+	}
+
+	RageFlame: {
+		DisplayName: レイジフレイム
+	}
+
+	HarpyFeathers: {
+		DisplayName: ハーピーの羽根
+	}
+
+	Star: {
+		DisplayName: スター
+	}
+
+	StarFlame: {
+		DisplayName: スターフレイム
+	}
+
+	LifeLightGlow: {
+		DisplayName: ライフライトグロウ
+	}
+
+	IchorFlame: {
+		DisplayName: イコルフレイム
+	}
+
+	CursedFlame: {
+		DisplayName: カースドフレイム
+	}
+
+	WaterCandleFlame: {
+		DisplayName: ウォーターブラスト
+	}
+
+	TestFlame: {
+		DisplayName: テストフレイム
+	}
+
+	FuryFlame: {
+		DisplayName: フューリーフレイム
+	}
+
+	BetsysBreathFlame: {
+		DisplayName: ベッツィの息吹の炎
+	}
+
+	BurningMeteorFlame: {
+		DisplayName: バーニングメテオフレイム
+	}
+
+	GolemsEyeFlame: {
+		DisplayName: 神殿の怒りの炎
+	}
+
+	TheBrothersFlame: {
+		DisplayName: ザ・ブラザーズフレイム
+	}
+
+	retLaser: {
+		DisplayName: レーザー
+	}
+
+	ShroomBlast: {
+		DisplayName: シュルームブラスト
+	}
+
+	ShroomBlasterFlame: {
+		DisplayName: シュルームブラスターフレイム
+	}
+
+	ShadowVaporizerFlame: {
+		DisplayName: シャドウヴェポライザーフレイム
+	}
+
+	NecroticBlasterFlame: {
+		DisplayName: ネクロティックブラスターフレイム
+	}
+
+	MoltenMaelstromflame: {
+		DisplayName: モルテンメイルストロムフレイム
+	}
+
+	FrostburnIgniterFlame: {
+		DisplayName: フロストバーンイグナイターフレイム
+	}
+
+	ColorfulCelebrationFlame: {
+		DisplayName: ムーンフレイム
+	}
+
+	MoltenMaelstromBlast: {
+		DisplayName: モルテンメイルストロムブラスト
+	}
+
+	VenomousSprayerflame: {
+		DisplayName: ヴェノマススプレイヤーフレイム
+	}
+
+	Laser: {
+		DisplayName: レーザー
+	}
+
+	InfernoSpitterflame: {
+		DisplayName: インフェルノスピッターフレイム
+	}
+
+	Lightningflame: {
+		DisplayName: ライトニングフレイム
+	}
+
+	Betterlightning: {
+		DisplayName: ライトニング
+	}
+}
+

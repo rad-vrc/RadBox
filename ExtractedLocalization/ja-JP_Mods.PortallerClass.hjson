@@ -1,0 +1,434 @@
+Items: {
+	ScaleMirror: {
+		DisplayName: 鱗の鏡
+		Tooltip:
+			'''
+			アイテムのテンプレート
+			このツールチップを置き換えるのが義務
+			「富士山に雪が降っている」
+			'''
+	}
+
+	SplinterMirror: {
+		DisplayName: 破片鏡
+		Tooltip: ""
+	}
+
+	SandStaff: {
+		DisplayName: 砂の杖
+		Tooltip: ""
+	}
+
+	GoldenSplinterMirror: {
+		DisplayName: 金の破片鏡
+		Tooltip: ""
+	}
+
+	PlatinumSplinterMirror: {
+		DisplayName: プラチナの破片鏡
+		Tooltip: ""
+	}
+
+	IceStaff: {
+		DisplayName: 氷の杖
+		Tooltip: ""
+	}
+
+	IceHelmet: {
+		DisplayName: 氷の兜
+		Tooltip: ""
+	}
+
+	IceBreastplate: {
+		DisplayName: 氷の胸当て
+		Tooltip: ""
+	}
+
+	IceLeggings: {
+		DisplayName: 氷のレギンス
+		Tooltip: ""
+	}
+
+	OasisStaff: {
+		DisplayName: オアシスの杖
+		Tooltip: ""
+	}
+
+	BrokenEyeBall: {
+		DisplayName: 壊れた目玉
+		Tooltip: ""
+	}
+
+	BurgundiaeTreasureBag: {
+		DisplayName: ブルグンディアの宝袋
+		Tooltip: ""
+	}
+
+	CarbunculusTreasureBag: {
+		DisplayName: カルブンクラスの宝袋
+		Tooltip: ""
+	}
+
+	EyeStaff: {
+		DisplayName: 目の杖
+		Tooltip: ""
+	}
+
+	IceShard: {
+		DisplayName: 氷の欠片
+		Tooltip: ""
+	}
+
+	IceStone: {
+		Tooltip: ""
+		DisplayName: 氷の石
+	}
+
+	SlimeStaff: {
+		DisplayName: スライムの杖
+		Tooltip: ""
+	}
+
+	JungleStaff: {
+		DisplayName: ジャングルの杖
+		Tooltip: ""
+	}
+
+	MirrorShard: {
+		DisplayName: 鏡の欠片
+		Tooltip: ""
+	}
+
+	CosmicMirror: {
+		DisplayName: コズミックミラー
+		Tooltip: ""
+	}
+
+	MirrorOfCosmosTreasureBag: {
+		DisplayName: トレジャーバッグ（ミラーオブコスモス）
+		Tooltip: ""
+	}
+
+	CursedArmStaff: {
+		DisplayName: 呪われた腕の杖
+		Tooltip: ""
+	}
+
+	PalladiumCrown: {
+		DisplayName: パラジウムの王冠
+		Tooltip: ""
+	}
+
+	TitaniumCrown: {
+		DisplayName: チタニウムの王冠
+		Tooltip: ""
+	}
+
+	SuperEyeStaff: {
+		DisplayName: スーパーアイの杖
+		Tooltip: ""
+	}
+
+	PalladiumStaff: {
+		DisplayName: パラジウムの杖
+		Tooltip: ""
+	}
+
+	CobaltStaff: {
+		DisplayName: コバルトの杖
+		Tooltip: ""
+	}
+
+	MythrilStaff: {
+		DisplayName: ミスリルの杖
+		Tooltip: ""
+	}
+
+	OrichalcumStaff: {
+		DisplayName: オリハルコンの杖
+		Tooltip: ""
+	}
+
+	TitaniumStaff: {
+		DisplayName: チタニウムの杖
+		Tooltip: ""
+	}
+
+	AdamantiteStaff: {
+		DisplayName: アダマントの杖
+		Tooltip: ""
+	}
+
+	CorruptionBoomerang: {
+		DisplayName: 不浄のブーメラン
+		Tooltip: ""
+	}
+
+	AdamantiteCrown: {
+		Tooltip: ""
+		DisplayName: アダマントの王冠
+	}
+
+	CobaltCrown: {
+		DisplayName: コバルトの王冠
+		Tooltip: ""
+	}
+
+	OrichalcumCrown: {
+		Tooltip: ""
+		DisplayName: オリハルコンの王冠
+	}
+
+	MythrilCrown: {
+		DisplayName: ミスリルの王冠
+		Tooltip: ""
+	}
+
+	SoulDevouver: {
+		Tooltip: ""
+		DisplayName: 魂喰らい
+	}
+
+	FireBath: {
+		Tooltip: ""
+		DisplayName: 火の浴槽
+	}
+}
+
+Projectiles: {
+	Splinter: {
+		DisplayName: 破片
+	}
+
+	SplinterPortal: {
+		DisplayName: 破片のポータル
+	}
+
+	SandBall: {
+		DisplayName: 砂の球
+	}
+
+	SandPortal: {
+		DisplayName: 砂のポータル
+	}
+
+	IcePortal: {
+		DisplayName: 氷のポータル
+	}
+
+	IceShard: {
+		DisplayName: 氷の欠片
+	}
+
+	OasisPortal: {
+		DisplayName: オアシスのポータル
+	}
+
+	EyeBall: {
+		DisplayName: 目玉
+	}
+
+	EyeMinion: {
+		DisplayName: 目のミニオン
+	}
+
+	EyePortal: {
+		DisplayName: 目のポータル
+	}
+
+	MirrorBullet: {
+		DisplayName: 鏡の弾丸
+	}
+
+	MirrorSpike: {
+		DisplayName: 鏡の棘
+	}
+
+	SlimePortal: {
+		DisplayName: スライムのポータル
+	}
+
+	SlimeProjectile: {
+		DisplayName: スライムの投射物
+	}
+
+	JunglePortal: {
+		DisplayName: ジャングルのポータル
+	}
+
+	JungleSpike: {
+		DisplayName: ジャングルの棘
+	}
+
+	CosmicPortal: {
+		DisplayName: 宇宙のポータル
+	}
+
+	FriendlyMirrorBullet: {
+		DisplayName: 友好的な鏡の弾丸
+	}
+
+	CursedArm: {
+		DisplayName: 呪われた腕
+	}
+
+	CursedPortal: {
+		DisplayName: 呪われたポータル
+	}
+
+	DarknessDart: {
+		DisplayName: 闇の矢
+	}
+
+	DarknessPortal: {
+		DisplayName: 闇のポータル
+	}
+
+	DarknessBall: {
+		DisplayName: 闇の球
+	}
+
+	CustomSky: {
+		DisplayName: カスタムスカイ
+	}
+
+	FriendlyEyeOfCthulhu: {
+		DisplayName: 友好的なクトゥルフの目
+	}
+
+	EyeOfCthulhuPortal: {
+		DisplayName: クトゥルフの目のポータル
+	}
+
+	CPPortal: {
+		DisplayName: CPポータル
+	}
+
+	CPProjectile: {
+		DisplayName: CP投射物
+	}
+
+	Laser: {
+		DisplayName: レーザー
+	}
+
+	MOPortal: {
+		DisplayName: MOポータル
+	}
+
+	ADPortal: {
+		DisplayName: ADポータル
+	}
+
+	SpikeBall: {
+		DisplayName: 棘の球
+	}
+
+	CorruptedBall: {
+		DisplayName: 不浄した球
+	}
+
+	CorruptionBoomerangProjectile: {
+		DisplayName: 不浄のブーメラン投射物
+	}
+
+	SoulPortal: {
+		DisplayName: 魂のポータル
+	}
+
+	YellowBall: {
+		DisplayName: 黄色い球
+	}
+
+	OrangeBall: {
+		DisplayName: オレンジ色の球
+	}
+
+	FirePortal: {
+		DisplayName: 火のポータル
+	}
+}
+
+DamageClasses: {
+	PortallerDamage: {
+		DisplayName: ポータラーダメージ
+	}
+}
+
+NPCs: {
+	SandStormKingKaleidoscope: {
+		DisplayName: 砂嵐王のカレイドスコープ
+	}
+
+	SandStormKingKaleidoscopeBody: {
+		DisplayName: 砂嵐王のカレイドスコープ本体
+	}
+
+	SandStormKingKaleidoscopeHead: {
+		DisplayName: 砂嵐王のカレイドスコープ頭部
+	}
+
+	SandStormKingKaleidoscopeTail: {
+		DisplayName: 砂嵐王のカレイドスコープ尾部
+	}
+
+	CarbunculusTwin: {
+		DisplayName: カルブンクラスの双子
+	}
+
+	BurgundiaeTwin: {
+		DisplayName: ブルグンディアの双子
+	}
+
+	EyeMinionNPC: {
+		DisplayName: 目の召使いNPC
+	}
+
+	IcedBoulder: {
+		DisplayName: 氷の岩
+	}
+
+	PortalMaster: {
+		DisplayName: ポータルマスター
+
+		TownNPCMood: {
+			Content: 私は満足している。
+			NoHome: 家がないのが嫌いだ。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: こんなに広い空間が大好きだ。
+			DislikeCrowded: 混雑しているのが嫌いだ。
+			HateCrowded: 混雑しているのが大嫌いだ。
+			LikeNPC_Princess: 私は{NPCName}が好きだ。
+			Princess_LovesNPC: 私は{NPCName}が好きだ。
+		}
+	}
+
+	TheMirrorOfCosmos: {
+		DisplayName: ミラーオブコスモス
+	}
+
+	FalseMirrorOfCosmos: {
+		DisplayName: ミラーオブコスモス（偽）
+	}
+
+	CosmicReflection: {
+		DisplayName: コズミックリフレクション
+	}
+
+	BlessingOfDarkness: {
+		DisplayName: ブレスオブダークネス
+	}
+
+	Spiky: {
+		DisplayName: スパイキー
+	}
+
+	CorruptionWaster: {
+		DisplayName: 不浄の浪費者
+	}
+
+	CactusKiller: {
+		DisplayName: サボテン殺し
+	}
+}
+

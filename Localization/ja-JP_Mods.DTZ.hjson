@@ -1,0 +1,139 @@
+NPCs: {
+	LoneMushion: {
+		DisplayName: "ローンマッション"
+	}
+}
+
+Biomes: {
+	Haven: {
+		TownNPCDialogueName: "マッションの安息所"
+	}
+}
+
+Buffs: {
+	FungusBuff: {
+		Description: "Mods.DTZ.Buffs.FungusBuff.Description"
+		DisplayName: "菌類バフ"
+	}
+
+	ToadBuff: {
+		Description: "ジャンプ力とスピードの増加を感じる！"
+		DisplayName: "鳴き声のファミリア"
+	}
+
+	IceliumBuff: {
+		Description: "防御効率の増加を感じる！"
+		DisplayName: "凍えるファミリア"
+	}
+
+	HellcapBuff: {
+		Description: "クリティカルヒットチャンスの増加を感じる！"
+		DisplayName: "燃え盛るファミリア"
+	}
+
+	GlowingBuff: {
+		Description: "パッシブな体力回復を感じる！"
+		DisplayName: "輝くファミリア"
+	}
+}
+
+Projectiles: {
+	ToadMushionProj: {
+		DisplayName: "トードマッション発射体"
+	}
+
+	ToadMushion: {
+		DisplayName: "トードマッション"
+	}
+
+	IceliumMushionProj: {
+		DisplayName: "アイセリウムマッション発射体"
+	}
+
+	IceliumMushion: {
+		DisplayName: "アイセリウムマッション"
+	}
+
+	HellcapMushionProj: {
+		DisplayName: "ヘルキャップマッション発射体"
+	}
+
+	HellcapMushion: {
+		DisplayName: "ヘルキャップマッション"
+	}
+
+	GlowingMushionProj: {
+		DisplayName: "グローイングマッション発射体"
+	}
+
+	GlowingMushion: {
+		DisplayName: "グローイングマッション"
+	}
+}
+
+Items: {
+	MoonlordUnderworldBunkFungus: {
+		Tooltip: "うん"
+		DisplayName: "ムーンロードの地下の安っぽい菌類"
+	}
+
+	ToadstoolSeeds: {
+		Tooltip: "耕した泥に植えることができる"
+		DisplayName: "トードスツールの種"
+	}
+
+	IceliumSeeds: {
+		Tooltip: "耕した泥に植えることができる"
+		DisplayName: "アイセリウムの種"
+	}
+
+	HellcapSeeds: {
+		Tooltip: "耕した泥に植えることができる"
+		DisplayName: "ヘルキャップの種"
+	}
+
+	PackedMud_item: {
+		Tooltip: ""
+		DisplayName: "固められた泥"
+	}
+
+	Shiitake: {
+		Tooltip: "'いや、エスカルゴはない。'"
+		DisplayName: "シイタケ"
+	}
+
+	Devnote: {
+		Tooltip: "Mycologyをプレイしてくれてありがとう、これは非公式Tmod Jamのために作られたModだ！\nこのModが何を提供するかを発見するために、光るキノコバイオームを訪れてみて！\n楽しんでくれることを願っている。"
+		DisplayName: "開発ノート"
+	}
+
+	SUPERMEGAULTRADEBUGITEM9000: {
+		Tooltip: "'お前は臭い…'"
+		DisplayName: "スーパーメガウルトラデバッグアイテム9000"
+	}
+
+	MushionSeeds: {
+		Tooltip: "耕した泥に植えることができる"
+		DisplayName: "マッションの種"
+	}
+
+	Toadstool: {
+		Tooltip: "'お姫様はどこ？'"
+		DisplayName: "トードスツール"
+	}
+
+	IceshroomItem: {
+		Tooltip: "'この氷のキャップは溶けない'"
+		DisplayName: "アイセリウム"
+	}
+
+	Hellcap: {
+		Tooltip: "'触ると熱い'"
+		DisplayName: "ヘルキャップ"
+	}
+
+	Mushcythe: {
+		Tooltip: "特別な菌類の成長をサポートするために泥を耕すのに使用する"
+		DisplayName: "マッシュサイス"
+	}
+}

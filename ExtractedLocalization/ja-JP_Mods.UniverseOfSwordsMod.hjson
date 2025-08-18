@@ -1,0 +1,1169 @@
+Tiles: {
+	DamascusBarTile: {
+		MapEntry: ダマスカスのインゴット
+	}
+
+	DamascusOreTile: {
+		MapEntry: ダマスカス鉱石
+	}
+}
+
+Buffs: {
+	SwordMinionBuff: {
+		DisplayName: 剣のミニオン
+		Description: 飛行する刃があなたのために戦う
+	}
+
+	Skooma: {
+		Description: 移動速度が大幅に上昇
+		DisplayName: スクーマ
+	}
+
+	NordMead: {
+		Description: 防御力が減少
+		DisplayName: ノルドミード
+	}
+
+	MeleePower: {
+		Description: 近接ステータスがわずかに上昇
+		DisplayName: 近接強化
+	}
+
+	EmperorBlaze: {
+		Description: ライフが減少
+		DisplayName: エンペラーブレイズ
+	}
+}
+
+Items: {
+	OmegaSummon: {
+		Tooltip: ""
+		DisplayName: オメガの召喚器
+	}
+
+	TestSword: {
+		Tooltip: ""
+		DisplayName: テストソード
+	}
+
+	BeethovenBeater: {
+		DisplayName: ベートーヴェン・ビーター
+		Tooltip: ""
+	}
+
+	GershwinGasher: {
+		DisplayName: ガーシュウィン・ガッシャー
+		Tooltip: ""
+	}
+
+	LisztLasher: {
+		DisplayName: リスト・ラッシャー
+		Tooltip: ""
+	}
+
+	MozartMauler: {
+		DisplayName: モーツァルト・モーラー
+		Tooltip: ""
+	}
+
+	ScarletFlareGreatsword: {
+		Tooltip: フレアのコアを放ち 敵に命中すると赤いビームを召喚
+		DisplayName: スカーレットフレア・グレートソード
+	}
+
+	WoodenArrowSword: {
+		Tooltip: 木の矢を発射
+		DisplayName: ウッドンアローソード
+	}
+
+	WaterBoltSword: {
+		Tooltip: ""
+		DisplayName: ウォーターボルトソード
+	}
+
+	VenomArrowSword: {
+		Tooltip: 猛毒の矢を発射
+		DisplayName: ヴェノムアローソード
+	}
+
+	UselessWeapon: {
+		Tooltip: ""
+		DisplayName: 木のステッキ
+	}
+
+	UnholyArrowSword: {
+		Tooltip: 不浄の矢を発射
+		DisplayName: アンホーリーアローソード
+	}
+
+	UltimateArrowSword: {
+		Tooltip: 敵に命中すると大量の矢を放つ
+		DisplayName: アルティメットアローソード
+	}
+
+	TwinsSword: {
+		Tooltip:
+			'''
+			シュッ シュッ
+			呪われた業火と出血を付与
+			'''
+		DisplayName: ツインズソード
+	}
+
+	TrueGemSword: {
+		Tooltip: ""
+		DisplayName: 真・ジェムブレード
+	}
+
+	TheSwarm: {
+		Tooltip: 複数のハチを放つ
+		DisplayName: ザ・スウォーム
+	}
+
+	TheStinger: {
+		Tooltip: 針を発射
+		DisplayName: ザ・スティンガー
+	}
+
+	TheNightmareAmalgamation: {
+		Tooltip: 「悪夢の根源」
+		DisplayName: ナイトメアアマルガム
+	}
+
+	TheEater: {
+		Tooltip: 「不浄の剣」
+		DisplayName: ジ・イーター
+	}
+
+	TheBrain: {
+		Tooltip: 「真紅の剣」
+		DisplayName: ザ・ブレイン
+	}
+
+	TerraEnsis: {
+		Tooltip: 20個に分裂する飛び道具を放つ
+		DisplayName: テラエンシス
+	}
+
+	SwordOfTheUniverse: {
+		Tooltip: 「この剣は振らない 刃へ宇宙を引き寄せる」
+		DisplayName: ソード・オブ・ザ・ユニバース
+	}
+
+	SwordOfTheMultiverse: {
+		Tooltip:
+			'''
+			「与えたものだけが返ってくる」
+			右クリックでモード切替
+			モード1 大きな波を放つ
+			モード2 空から多数の飛び道具を降らせる
+			モード3 マウス位置に沿って移動する剣を召喚
+			敵の防御力を40無視する
+			'''
+		DisplayName: ソード・オブ・ザ・マルチバース
+	}
+
+	SwordOfTheEmperor: {
+		Tooltip: 「皇帝の慈悲を授けよ 異端者を焼け」
+		DisplayName: ソード・オブ・ジ・エンペラー
+	}
+
+	SuperInflation: {
+		Tooltip:
+			'''
+			「すべての問題に金を投げつけろ」
+			インベントリに金貨があると与えるダメージが15％増加
+			'''
+		DisplayName: スーパー・インフレーション
+	}
+
+	StoneSword: {
+		Tooltip: 「ロックだぜ」
+		DisplayName: ストーンソード
+	}
+
+	StarSword: {
+		Tooltip: 跳ねる星を放つ
+		DisplayName: スターソード
+	}
+
+	SolBlade: {
+		Tooltip: 巨大な隕石を放つ
+		DisplayName: ソルブレード
+	}
+
+	ShroomiteBlade: {
+		Tooltip: ""
+		DisplayName: ファンガル・インフェクション
+	}
+
+	ScarledFlareGreatsword: {
+		Tooltip: 敵に命中すると赤いビームを召喚
+		DisplayName: スカーレットフレア・グレートソード
+	}
+
+	RedFlareLongsword: {
+		Tooltip:
+			'''
+			緋色のフレアの波を放ち、敵をスカーレットの炎で燃やす
+			「敵を緋色の炎で焼き尽くせ」
+			'''
+		DisplayName: スカーレットフレア・ロングソード
+	}
+
+	PurpleRuneBlade: {
+		Tooltip: 「シャドウフレイムの闇のエネルギーが脈動している」
+		DisplayName: シャドウフレイムブレード
+	}
+
+	PumpkinSword: {
+		Tooltip: ""
+		DisplayName: パンプキンソード
+	}
+
+	PumpkinBoom: {
+		Tooltip: 敵に命中すると爆発を起こす
+		DisplayName: パンプキンブーム
+	}
+
+	PrimeSword: {
+		Tooltip: ""
+		DisplayName: プライムソード
+	}
+
+	PowerOfTheGalactic: {
+		Tooltip: 銀河のすべての要素から作られた剣
+		DisplayName: パワー・オブ・ザ・ギャラクティック
+	}
+
+	PianoSword4: {
+		Tooltip: 「ピアノソナタ ロ短調 - リスト」
+		DisplayName: リスト・ラッシャー
+	}
+
+	PianoSword3: {
+		Tooltip: 「ピアノ協奏曲第20番 - モーツァルト」
+		DisplayName: モーツァルト・モーラー
+	}
+
+	PianoSword2: {
+		Tooltip: 「ラプソディ・イン・ブルー - ガーシュウィン」
+		DisplayName: ガーシュウィン・ガッシャー
+	}
+
+	PianoSword1: {
+		Tooltip: 「月光ソナタ - ベートーヴェン」
+		DisplayName: ベートーヴェン・ビーター
+	}
+
+	OnyxSword: {
+		Tooltip: オニキスの弾を発射
+		DisplayName: オニキスソード
+	}
+
+	OceanRoar: {
+		Tooltip: ""
+		DisplayName: オーシャンロア
+	}
+
+	NatureSword: {
+		Tooltip: 「母なる自然から授かった純粋な素材だけで作られた剣」
+		DisplayName: ネイチャーソード
+	}
+
+	MechanicalSoul: {
+		Tooltip: 敵に命中するとレーザーを召喚
+		DisplayName: メカニカルソウル
+	}
+
+	LuminiteArrowSword: {
+		Tooltip: ルミナイトの矢を発射
+		DisplayName: ルミナイトアローソード
+	}
+
+	LifeRemovalMachine: {
+		Tooltip: 「ここにハリウッドのCG特殊効果を挿入」
+		DisplayName: ライフ除去マシン
+	}
+
+	Stick: {
+		Tooltip:
+			'''
+			「これは持ってはいけない」
+			レガシーアイテム
+			'''
+		DisplayName: 木の棒
+	}
+
+	JesterArrowSword: {
+		Tooltip: ジェスターの矢を発射
+		DisplayName: ジェスターズアローソード
+	}
+
+	Inflation: {
+		Tooltip:
+			'''
+			「おめでとう ぼったくりの剣ができた」
+			強欲を付与
+			'''
+		DisplayName: インフレーション
+	}
+
+	IchorArrowSword: {
+		Tooltip: 霊液の矢を発射
+		DisplayName: イコールアローソード
+	}
+
+	HumanBuzzSaw: {
+		Tooltip: 「テラリアの群れをバターのように切り裂く」
+		DisplayName: ヒューマン・バズソー
+	}
+
+	Horrormageddon: {
+		Tooltip: 「お前が軍勢を見る場所で、私は墓場を見る」
+		DisplayName: ホローマゲドン
+	}
+
+	HolyArrowSword: {
+		Tooltip: ホーリーの矢を発射
+		DisplayName: ホーリーアローソード
+	}
+
+	HellfireArrowSword: {
+		Tooltip: ヘルファイアの矢を発射
+		DisplayName: ヘルファイアアローソード
+	}
+
+	GreatswordOfTheCosmos: {
+		Tooltip: ""
+		DisplayName: グレートソード・オブ・ザ・コスモス
+	}
+
+	GrandPiano: {
+		Tooltip: 「Rage Quit - Horrior」
+		DisplayName: グランドピアノ
+	}
+
+	GoblinKnife: {
+		Tooltip: ゴブリンの小型高速ナイフ
+		DisplayName: ゴブリンナイフ
+	}
+
+	GnomBlade: {
+		Tooltip: 爆発するノームを発射
+		DisplayName: ノームブレード
+	}
+
+	GiantUnicornHorn: {
+		Tooltip: なんてゴージャス
+		DisplayName: 巨大なユニコーンの角
+	}
+
+	GelBlade: {
+		Tooltip: 敵の移動速度を低下させる
+		DisplayName: ジェルブレード
+	}
+
+	FrozenShard: {
+		Tooltip: フロストバーンを付与
+		DisplayName: フローズン・クリスタラス
+	}
+
+	FrostburnArrowSword: {
+		Tooltip: フロストバーンの矢を発射
+		DisplayName: フロストバーンアローソード
+	}
+
+	FlamingArrowSword: {
+		Tooltip: 燃える矢を発射
+		DisplayName: フレイミングアローソード
+	}
+
+	FixedSwordOfPower: {
+		Tooltip: ""
+		DisplayName: 力の剣
+	}
+
+	FingerOfDoom: {
+		Tooltip: ""
+		DisplayName: フィンガー・オブ・ドゥーム
+	}
+
+	Executioner: {
+		Tooltip: ""
+		DisplayName: エグゼキューショナー
+	}
+
+	ElBastardo: {
+		Tooltip: 「伝説のエル・バスタルド」
+		DisplayName: エル・バスタルド
+	}
+
+	EdgeLord: {
+		Tooltip: 「血の神に血を！髑髏の玉座に頭蓋骨を！コーンフレークにはミルクを！」
+		DisplayName: エッジロード
+	}
+
+	EctoplasmicRipper: {
+		Tooltip: 命中時にマナを奪う
+		DisplayName: エクトプラズミックリッパー
+	}
+
+	DragonsDeath: {
+		Tooltip: 「ドラゴンハンターごっこに最適」
+		DisplayName: ドラゴンズデス
+	}
+
+	DoubleBladedLightsaber: {
+		Tooltip: ""
+		DisplayName: アルティメットセイバー
+	}
+
+	Doomsday: {
+		Tooltip: ""
+		DisplayName: ドゥームズデイ
+	}
+
+	DestroyerSword: {
+		Tooltip: ドカン ドカン
+		DisplayName: デストロイヤーソード
+	}
+
+	DeathSword: {
+		Tooltip: ""
+		DisplayName: デスソード
+	}
+
+	CursedArrowSword: {
+		Tooltip: 呪われた矢を発射
+		DisplayName: カースドアローソード
+	}
+
+	CthulhuJudge: {
+		Tooltip: 「見ているぞ…」
+		DisplayName: クトゥルフの審判
+	}
+
+	CrystalVineSword: {
+		Tooltip: 敵の防御力を12無視する
+		DisplayName: クリスタルヴァイルソード
+	}
+
+	Crystallus: {
+		Tooltip: ""
+		DisplayName: クリスタラス
+	}
+
+	CrimsonCrystallus: {
+		Tooltip: ""
+		DisplayName: クリムゾンクリスタラス
+	}
+
+	CosmoStorm: {
+		Tooltip: 「銀河をも打ち砕く剣」
+		DisplayName: コスモストーム
+	}
+
+	CorruptCrystallus: {
+		Tooltip: ""
+		DisplayName: コラプトクリスタラス
+	}
+
+	ClingerSword: {
+		Tooltip: ""
+		DisplayName: クリンガーソード
+	}
+
+	ChlorophyteArrowSword: {
+		Tooltip: クロロファイトの矢を発射
+		DisplayName: クロロファイトアローソード
+	}
+
+	CaesarSword: {
+		Tooltip:
+			'''
+			「ブルータス お前もか」
+			右クリック長押しで突き攻撃
+			'''
+		DisplayName: カエサルソード
+	}
+
+	SwordStaff: {
+		Tooltip: 飛行する刃を召喚
+		DisplayName: ソードスタッフ
+	}
+
+	InnosWrath: {
+		Tooltip: イノスの光の力が脈動している
+		DisplayName: イノスの怒り
+	}
+
+	BoneArrowSword: {
+		Tooltip: ボーンアローを発射
+		DisplayName: ボーンアローソード
+	}
+
+	BlizzardRage: {
+		Tooltip: ""
+		DisplayName: ブリザードレイジ
+	}
+
+	BiggoronSword: {
+		Tooltip: 重いが強力
+		DisplayName: 伝説の剣
+	}
+
+	BetterShroomiteBlade: {
+		Tooltip: より大きくより強力
+		DisplayName: 真・ファンガルインフェクション
+	}
+
+	BatSlayer: {
+		Tooltip: 敵に混乱を付与
+		DisplayName: バットスレイヤー
+	}
+
+	Apocalypse: {
+		Tooltip: 世界の終焉をもたらす武器
+		DisplayName: アポカリプス
+	}
+
+	DamascusPickaxe: {
+		Tooltip: ""
+		DisplayName: ダマスカスのつるはし
+	}
+
+	DamascusHamaxe: {
+		Tooltip: ""
+		DisplayName: ダマスカスのハンマーアックス
+	}
+
+	SwordOfPower: {
+		Tooltip: 壊れている
+		DisplayName: 壊れた力の剣
+	}
+
+	RedSolutionSpreader: {
+		Tooltip:
+			'''
+			無限にバイオームを拡散できる
+			右クリックで溶液を切り替える
+			'''
+		DisplayName: 赤の溶液散布器
+	}
+
+	PurpleSolutionSpreader: {
+		Tooltip:
+			'''
+			無限にバイオームを拡散できる
+			右クリックで溶液を切り替える
+			'''
+		DisplayName: 紫の溶液散布器
+	}
+
+	MagicMirrorBlade: {
+		Tooltip: 「マジックミラーと剣が融合した」
+		DisplayName: マジックミラーブレード
+	}
+
+	GreenSolutionSpreader: {
+		Tooltip:
+			'''
+			無限にバイオームを拡散できる
+			右クリックで溶液を切り替える
+			'''
+		DisplayName: 緑の溶液散布器
+	}
+
+	CyanSolutionSword: {
+		Tooltip:
+			'''
+			無限にバイオームを拡散できる
+			右クリックで溶液を切り替える
+			'''
+		DisplayName: 聖域の溶液散布器
+	}
+
+	BlueSolutionSpreader: {
+		Tooltip:
+			'''
+			無限にバイオームを拡散できる
+			右クリックで溶液を切り替える
+			'''
+		DisplayName: 青の溶液散布器
+	}
+
+	SwordMatter: {
+		Tooltip: 「すべての剣の素」
+		DisplayName: ソードマター
+	}
+
+	ScarletFlareCore: {
+		Tooltip: 地獄の深淵より
+		DisplayName: スカーレットフレアのコア
+	}
+
+	Orichalcon: {
+		Tooltip: 剣作成における最強かつ最も希少な素材
+		DisplayName: シンティロのインゴット
+	}
+
+	MartianSaucerCore: {
+		Tooltip: 宇宙のエネルギーが脈動している
+		DisplayName: マーズソーサーのコア
+	}
+
+	LunarOrb: {
+		Tooltip: 「月の塔のエッセンス」
+		DisplayName: 月のオーブ
+	}
+
+	DamascusOre: {
+		Tooltip: ""
+		DisplayName: ダマスカス鉱石
+	}
+
+	DamascusBar: {
+		Tooltip: 「強力な剣を作るための素材」
+		DisplayName: ダマスカスのインゴット
+	}
+
+	SwordBossSummon: {
+		Tooltip: 邪悪な飛行する刃を召喚
+		DisplayName: 不気味な見た目の剣
+	}
+
+	SwordBossBag: {
+		Tooltip: ""
+		DisplayName: 宝袋（邪悪な飛行する刃）
+	}
+
+	Skooma: {
+		Tooltip: 移動速度とジャンプ力が上昇
+		DisplayName: スクーマ
+	}
+
+	NordMead: {
+		Tooltip: ""
+		DisplayName: ノルド・ミード
+	}
+
+	MeleePowerPotion: {
+		Tooltip: 近接ステータスがわずかに上昇
+		DisplayName: 近接強化ポーション
+	}
+
+	RedDamascusLeggings: {
+		Tooltip:
+			'''
+			「好戦的な戦士のための防具」
+			近接クリティカル率が10％上昇
+			近接ダメージが10％増加
+			'''
+		DisplayName: レッドダマスカスのすね当て
+	}
+
+	RedDamascusHelmet: {
+		Tooltip:
+			'''
+			「好戦的な戦士のための防具」
+			近接ダメージが10％増加
+			近接クリティカル率が14％上昇
+			'''
+		DisplayName: レッドダマスカスの兜
+	}
+
+	RedDamascusChestplate: {
+		Tooltip:
+			'''
+			「好戦的な戦士のための防具」
+			近接ダメージが10％増加
+			近接クリティカル率が10％上昇
+			'''
+		DisplayName: レッドダマスカスの胸当て
+	}
+
+	GreenDamascusLeggings: {
+		Tooltip:
+			'''
+			「俊敏な戦士のための防具」
+			近接クリティカル率が10％上昇
+			移動速度が35％上昇
+			'''
+		DisplayName: グリーンダマスカスのすね当て
+	}
+
+	GreenDamascusHelmet: {
+		Tooltip:
+			'''
+			「俊敏な戦士のための防具」
+			近接攻撃速度が20％上昇
+			近接クリティカル率が14％上昇
+			'''
+		DisplayName: グリーンダマスカスの兜
+	}
+
+	GreenDamascusChestplate: {
+		Tooltip:
+			'''
+			「俊敏な戦士のための防具」
+			近接ダメージが15％増加
+			近接攻撃速度が10％上昇
+			'''
+		DisplayName: グリーンダマスカスの胸当て
+	}
+
+	DamascusLeggings: {
+		Tooltip: 移動速度が6％上昇
+		DisplayName: ダマスカスのすね当て
+	}
+
+	DamascusHelmet: {
+		Tooltip: 近接攻撃速度が3％上昇
+		DisplayName: ダマスカスの兜
+	}
+
+	DamascusBreastplate: {
+		Tooltip: 近接ダメージが4％増加
+		DisplayName: ダマスカスの胸当て
+	}
+
+	BlueDamascusLeggings: {
+		Tooltip:
+			'''
+			「頑丈な戦士のための防具」
+			近接クリティカル率が6％上昇
+			移動速度が5％上昇
+			'''
+		DisplayName: ブルーダマスカスのすね当て
+	}
+
+	BlueDamascusHelmet: {
+		Tooltip:
+			'''
+			「頑丈な戦士のための防具」
+			近接攻撃速度が6％上昇
+			近接クリティカル率が6％上昇
+			'''
+		DisplayName: ブルーダマスカスの兜
+	}
+
+	BlueDamascusChestplate: {
+		Tooltip:
+			'''
+			「頑丈な戦士のための防具」
+			近接ダメージが7％増加
+			移動速度が10％上昇
+			'''
+		DisplayName: ブルーダマスカスの胸当て
+	}
+
+	VolatileKnives: {
+		Tooltip: ""
+		DisplayName: 不安定なナイフ
+	}
+
+	LegendaryWarriorGauntlet: {
+		Tooltip:
+			'''
+			「身に着ける者に究極の近接技能を授ける伝説の籠手」
+			防御力15
+			近接ダメージが15％増加
+			近接クリティカル率が25％上昇
+			ライフ自然回復が大幅に増進
+			最大ライフが20増加
+			被ダメージを20％軽減
+			ほとんどのデバフに耐性
+			探検家・茨・巨人のポーションの効果を得る
+			'''
+		DisplayName: 伝説の戦士のガントレット
+	}
+
+	HaloOfHorrorsLevel4: {
+		Tooltip:
+			'''
+			レベル4
+			防御力15
+			防御無視値が15％増加
+			ライフ自然回復が増進
+			与えるダメージが15％増加
+			近接攻撃速度が8％低下
+			'''
+		DisplayName: スカル・オブ・インサニティ
+	}
+
+	HaloOfHorrorsLevel3: {
+		Tooltip:
+			'''
+			レベル3
+			防御力10
+			防御無視値が15％増加
+			ライフ自然回復が増進
+			与えるダメージが15％増加
+			近接攻撃速度が10％低下
+			装備者に20％の確率で野生の噛みつきを付与
+			'''
+		DisplayName: スカル・オブ・インサニティ
+	}
+
+	HaloOfHorrorsLevel2: {
+		Tooltip:
+			'''
+			レベル2
+			防御力10
+			防御無視値が5％増加
+			ライフ回復が増進
+			与えるダメージが15％増加
+			近接攻撃速度が20％減少
+			装備者に33％の確率で野生の噛みつきを付与
+			'''
+		DisplayName: スカル・オブ・インサニティ
+	}
+
+	HaloOfHorrors: {
+		Tooltip:
+			'''
+			レベル1 
+			防御力5
+			防御無視値が5％増加
+			ライフ回復が増進
+			与えるダメージが5％増加
+			装備者に野生の噛みつきを付与
+			近接攻撃速度が30％減少
+			'''
+		DisplayName: スカル・オブ・インサニティ
+	}
+}
+
+BlueDamascus: {
+	SetBonus: 被ダメージを10％軽減、近接クリティカル率が7％上昇、最大ライフが60増加
+}
+
+GreenDamascus: {
+	SetBonus: 近接攻撃速度が20％上昇、近接クリティカル率が7％上昇、移動速度が50％上昇、最大ライフが20増加
+}
+
+RedDamascus: {
+	SetBonus: 巨人のポーションの効果を得る、近接ダメージが10％増加、近接クリティカル率が10％上昇、最大ライフが20増加
+}
+
+NPCs: {
+	OmegaSword: {
+		DisplayName: オメガソード
+	}
+
+	SwordBossNPC: {
+		DisplayName: 邪悪な飛行する刃
+	}
+}
+
+Projectiles: {
+	SwordSlash: {
+		DisplayName: 剣撃
+	}
+
+	MultiverseBeam: {
+		DisplayName: マルチバースビーム
+	}
+
+	CosmoStormBeam: {
+		DisplayName: コスモストームビーム
+	}
+
+	ExecutionerHoldoutProj: {
+		DisplayName: エグゼキューショナー
+	}
+
+	ExecutionerProj: {
+		DisplayName: エグゼキューショナー
+	}
+
+	NatureProj: {
+		DisplayName: 自然のボルト
+	}
+
+	WaterBoltProj: {
+		DisplayName: ウォーターボルト
+	}
+
+	GreatswordOfTheCosmosProj: {
+		DisplayName: グレートソード・オブ・ザ・コスモス
+	}
+
+	PowerOfTheGalacticProj: {
+		DisplayName: パワー・オブ・ザ・ギャラクティック
+	}
+
+	BaseShortsword: {
+		DisplayName: 基本のショートソード
+	}
+
+	CosmoStormProj: {
+		DisplayName: コスモストーム
+	}
+
+	MultiverseExplosion: {
+		DisplayName: マルチバースの爆発
+	}
+
+	SwordOfTheMultiverseWave: {
+		DisplayName: ソード・オブ・ザ・マルチバースの波
+	}
+
+	GoldCoin: {
+		DisplayName: 金貨
+	}
+
+	BaseSpinningProj: {
+		DisplayName: 回転
+	}
+
+	BoomeBone: {
+		DisplayName: ブームボーン
+	}
+
+	SwordOfTheUniverseProjectile: {
+		DisplayName: ソード・オブ・ザ・ユニバース
+	}
+
+	SwordOfTheUniverseHoldoutProj: {
+		DisplayName: ソード・オブ・ザ・ユニバース
+	}
+
+	SoulLaser: {
+		DisplayName: ソウルレーザー
+	}
+
+	RedFlareInferno: {
+		DisplayName: レッドフレア・インフェルノ
+	}
+
+	RedFlareEnergy: {
+		DisplayName: レッドフレア・エナジー
+	}
+
+	MultiverseEnergyProj: {
+		DisplayName: マルチバース・エナジー
+	}
+
+	MechanicalSoulProj: {
+		DisplayName: メカニカルソウル
+	}
+
+	StingerProj: {
+		DisplayName: 針
+	}
+
+	SwordHoldoutProj: {
+		DisplayName: 剣
+	}
+
+	GnomBladeHoldoutProj: {
+		DisplayName: ノームブレード
+	}
+
+	ScarletRedBolt: {
+		DisplayName: 緋レッドボルト
+	}
+
+	NightmareHoldoutProj: {
+		DisplayName: ナイトメア
+	}
+
+	OnyxEnergyProj: {
+		DisplayName: オニキスエナジー
+	}
+
+	SwingEnergySwordProj: {
+		DisplayName: エナジー
+	}
+
+	DoomsdayProj: {
+		DisplayName: 終末
+	}
+
+	CosmoStarProjectile: {
+		DisplayName: コスモスター
+	}
+
+	NightmareProjectile: {
+		DisplayName: ナイトメア
+	}
+
+	ClingerSlashProj: {
+		DisplayName: クリンガー
+	}
+
+	TestShaderProjectile: {
+		DisplayName: テスト
+	}
+
+	CorruptCrystallusProj: {
+		DisplayName: コラプト・クリスタラス
+	}
+
+	GalacticProjectile: {
+		DisplayName: ギャラクティック
+	}
+
+	ClingerWallProj: {
+		DisplayName: クリンガーの壁
+	}
+
+	SuperInflationHoldoutProj: {
+		DisplayName: スーパー・インフレーション
+	}
+
+	MultiverseWave: {
+		DisplayName: ソード・オブ・ザ・マルチバース
+	}
+
+	MultiverseProjectileYoyo: {
+		DisplayName: ソード・オブ・ザ・マルチバース
+	}
+
+	SwordLegendHoldoutProj: {
+		DisplayName: 伝説の剣
+	}
+
+	ScarletGreatswordProjectile: {
+		DisplayName: スカーレットフレア・グレートソード
+	}
+
+	DestroyerLaser: {
+		DisplayName: デストロイヤーレーザー
+	}
+
+	PrimeSlashProj: {
+		DisplayName: プライムスラッシュ
+	}
+
+	BetterShroomiteProj: {
+		DisplayName: 改良型シュルーマイトブレード
+	}
+
+	UselessProjectile: {
+		DisplayName: 木の杖
+	}
+
+	UnicornHornProjectile2: {
+		DisplayName: ユニコーンの角
+	}
+
+	UnicornHornProjectile: {
+		DisplayName: ユニコーンの角
+	}
+
+	UltimateSaberProjectile: {
+		DisplayName: アルティメット・セイバー
+	}
+
+	TwinsProjectile: {
+		DisplayName: ツインズの刃
+	}
+
+	TrueTerrabladeProjectile: {
+		DisplayName: テラ・エンシス
+	}
+
+	Tier2CProjectile: {
+		DisplayName: クリムゾン・スティンガー
+	}
+
+	SwordOfTheUniverseV2Projectile: {
+		DisplayName: ソード・オブ・ザ・ユニバース
+	}
+
+	MultiverseProjectileSmall: {
+		DisplayName: ソード・オブ・ザ・マルチバース
+	}
+
+	MultiverseProjectile: {
+		DisplayName: ソード・オブ・ザ・マルチバース
+	}
+
+	StarSwordProjectile: {
+		DisplayName: 星
+	}
+
+	ShaderProjectile: {
+		DisplayName: パワー・オブ・ザ・ギャラクティック
+	}
+
+	ScarledGreatswordProjectile: {
+		DisplayName: スカーレット・グレートソード
+	}
+
+	RedFlareLongswordProjectile: {
+		DisplayName: スカーレットフレア・ロングソード
+	}
+
+	PurpleScytheClone: {
+		DisplayName: 紫の大鎌
+	}
+
+	PurpleRuneProjectile: {
+		DisplayName: シャドウフレイム・ルーン
+	}
+
+	Nightmare: {
+		DisplayName: ナイトメア・アマルガム
+	}
+
+	SwordMinion: {
+		DisplayName: 飛行する刃
+	}
+
+	MechanicalProj: {
+		DisplayName: メカニカルソウル
+	}
+
+	LifeRemovalMachineProjectile: {
+		DisplayName: ライフ除去マシン
+	}
+
+	HumanBuzzSaw: {
+		DisplayName: ヒューマン・バズソー
+	}
+
+	GrandPianoProjectile: {
+		DisplayName: グランドピアノ
+	}
+
+	GnomeProj: {
+		DisplayName: ノーム
+	}
+
+	FrozenCrystallusProj: {
+		DisplayName: フローズン・クリスタラス
+	}
+
+	FlareCore: {
+		DisplayName: フレア・コア
+	}
+
+	EdgeLordProjectile: {
+		DisplayName: エッジロード
+	}
+
+	DragonsDeathProjectile: {
+		DisplayName: ドラゴンズ・デス
+	}
+
+	DemonScytheClone: {
+		DisplayName: デーモンサイス
+	}
+
+	Corrupt: {
+		DisplayName: コラプト・クリスタラス
+	}
+
+	ClingerSwordProjectile: {
+		DisplayName: クリンガーソード
+	}
+
+	Armageddon: {
+		DisplayName: アルマゲドン
+	}
+}
+

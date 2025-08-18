@@ -1,0 +1,1632 @@
+Configs: {
+	ServerConfig: {
+		configStonesDropChance: {
+			Tooltip: 過剰にドロップする場合、ドロップ率を下げることができる
+			Label: エレメンタルストーンのドロップ率 [%]
+		}
+
+		configBagsDropChance: {
+			Tooltip: 過剰にドロップする場合、ドロップ率を下げることができる
+			Label: 弓術のポーチのドロップ率 [%]
+		}
+
+		configEnableHomingOnlyOnTargetsInFront: {
+			Tooltip:
+				'''
+				ホーミングセンサーの効果を実際の弾丸の飛行方向前方にいるNPCのみをターゲットにするよう変更する
+				（矢がターゲット周辺を回ることを減らす）
+				'''
+			Label: 直線上のターゲットのみホーミングを有効にする
+		}
+
+		configEnableArrowDropsOnCollsion: {
+			Tooltip: バニラとこのmodの矢がタイルと衝突（消失）時に対応するアイテムをドロップするかどうか
+			Label: タイル衝突時の矢ドロップを有効にする
+		}
+
+		configEnableArrowGore: {
+			Tooltip: バニラとこのmodの矢がタイルと衝突（消失）時に壊れた矢の部品をゴアとして生成するかどうか
+			Label: 矢のゴアを有効にする
+		}
+
+		configEnableVanillaOreExchangeRecipes: {
+			Tooltip: 同じ階層のバニラインゴットを相互変換するmodレシピが利用可能かどうか
+			Label: バニラインゴットの交換レシピを有効にする
+		}
+
+		configEnableVanillaAccessoryRecipes: {
+			Tooltip: バニラアクセサリーのmodレシピが利用可能かどうか
+			Label: バニラアクセサリーのレシピを有効にする
+		}
+
+		configEnable5PercentArrowRandomness: {
+			Tooltip: プレイヤーが撃つ各矢にサイズとダメージの±5%のランダム性を持たせるかどうか
+			Label: 矢のダメージとサイズの5%ランダム性を有効にする
+		}
+
+		configEnablePrefixes: {
+			Tooltip: modの接頭辞が利用可能かどうか
+			Label: 接頭辞を有効にする
+		}
+
+		configEnableTargetFumbleMechanic: {
+			Tooltip: 矢を射撃する際にターゲットアクセサリーが装備されていない場合、ランダムな散布と速度低下がアクティブになるかどうか
+			Label: ターゲットアクセサリーのファンブルメカニクスを有効にする
+		}
+
+		configRangedWeaponsAutoReuse: {
+			Tooltip: すべての遠距離武器がオート攻撃を得るかどうか（他のmodにも適用される！）
+			Label: 遠距離武器のオート攻撃
+		}
+
+		configShrapnelTriggerOnCombinations: {
+			Tooltip: フリントの破片効果がそれを含むアクセサリーで発動するかどうか
+			Label: コンビネーションでフリントの破片発動
+		}
+
+		Headers: {
+			Adjustments: アーチェリーオーバーホールのサーバー設定
+		}
+
+		DisplayName: サーバー
+	}
+
+	LocalConfig: {
+		configEnableArrowHitNPCEffect: {
+			Tooltip: 矢がNPCに当たる際のグラフィカル効果を表示するかどうか
+			Label: 矢のNPCヒット効果を有効にする
+		}
+
+		configEnableStartingBag: {
+			Tooltip: 新しいプレイヤーにスターターアーチェリーバッグを与えるかどうか
+			Label: スターターアーチェリーバッグを有効にする
+		}
+
+		Headers: {
+			Adjustments: アーチェリーオーバーホールのローカル設定
+		}
+
+		DisplayName: ローカル
+	}
+}
+
+Buffs: {
+	ApolloMinionBuff: {
+		Description: アポロミニオン
+		DisplayName: アポロミニオン
+	}
+
+	ArrowBuff: {
+		Description: 矢のダメージが10%増加する
+		DisplayName: 矢
+	}
+
+	ColdBuff: {
+		Description: 毎秒15のライフを失う
+		DisplayName: 冷気
+	}
+
+	HorseMountBuff: {
+		Description: 馬
+		DisplayName: 馬のマウント
+	}
+
+	PainBuff: {
+		Description: 毎秒10のライフを失う
+		DisplayName: 痛み
+	}
+}
+
+DropConditions: {
+	StoneWater: 海バイオームでドロップ
+	IceBag: 雪原バイオームでドロップ
+	JungleBag: ジャングルバイオームでドロップ
+	ArrowBag5: いずれかのメカボスを倒した後にドロップ
+	ArrowBag4: スケルトロンを倒し、メカボスを倒す前にドロップ
+	ArrowBag3: イーター・オブ・ワールド/クトゥルフの脳を倒し、スケルトロンを倒す前にドロップ
+	ArrowBag2: クトゥルフの目を倒し、イーター・オブ・ワールド/クトゥルフの脳を倒す前にドロップ
+	ArrowBag1: クトゥルフの目を倒す前にドロップ
+}
+
+Items: {
+	ArcherBand: {
+		Tooltip: 移動速度が大幅に上昇する
+		DisplayName: ローグの指輪
+	}
+
+	ArcherEmblem: {
+		Tooltip:
+			'''
+			遠距離ダメージが7%増加する
+			遠距離クリティカル率が7%上昇する
+			貫通する矢がもう一体多く敵を貫通する
+			鋼鉄のターゲットとフリントの効果
+			'''
+		DisplayName: 弓使いの紋章
+	}
+
+	ArcherMark: {
+		Tooltip:
+			'''
+			「至高のアーチェリー技能を与える」
+			遠距離ダメージが18%増加する
+			遠距離クリティカル率が12%上昇する
+			20%の確率で矢を消費しない
+			シャーウッドブレーサーの効果
+			矢のサイズが増加する
+			'''
+		DisplayName: 弓使いの印
+	}
+
+	ArrowCarver: {
+		Tooltip:
+			'''
+			遠距離ダメージが2%増加する
+			遠距離クリティカル率が5%上昇する
+			'''
+		DisplayName: アローカーバー
+	}
+
+	BasicShield: {
+		Tooltip: 移動速度が5%低下する
+		DisplayName: 脆い戦争の盾
+	}
+
+	StoneElemental: {
+		Tooltip:
+			'''
+			「古代の弓術魔法があなたを満たす」
+			4つすべての矢の石の効果
+			ノックバックと燃えるブロックへの免疫を与える
+			'''
+		DisplayName: 大自然の矢の石
+	}
+
+	StoneWater: {
+		Tooltip:
+			'''
+			「古代の弓使いの4つの石のうちの1つ」
+			敵に傷つけられた時に海洋の矢を放つ
+			'''
+		DisplayName: 滴る矢の石
+	}
+
+	StoneFire: {
+		Tooltip:
+			'''
+			「古代の弓使いの4つの石のうちの1つ」
+			敵に傷つけられた時に炎の矢を放つ
+			'''
+		DisplayName: 燃える矢の石
+	}
+
+	StoneEarth: {
+		Tooltip:
+			'''
+			「古代の弓使いの4つの石のうちの1つ」
+			敵に傷つけられた時に石の矢を放つ
+			移動速度が10%低下する
+			'''
+		DisplayName: 大地の矢の石
+	}
+
+	StoneAir: {
+		Tooltip:
+			'''
+			「古代の弓使いの4つの石のうちの1つ」
+			敵に傷つけられた時に電気の矢を放つ
+			移動速度が25%上昇する
+			機動性が大幅に改善される
+			'''
+		DisplayName: 光の矢の石
+	}
+
+	Flint: {
+		Tooltip: 矢が衝撃時に破片に砕けるようにする
+		DisplayName: フリント
+	}
+
+	HomingSensor: {
+		Tooltip:
+			'''
+			「ピューピュー！」
+			矢が敵をホーミングする
+			'''
+		DisplayName: ホーミングセンサー
+	}
+
+	HunterShield: {
+		Tooltip: 移動速度が7%上昇する
+		DisplayName: 狩人の盾
+	}
+
+	FreezeflameQuiver: {
+		Tooltip:
+			'''
+			「混ざるかな？」
+			遠距離ダメージが5%増加する
+			遠距離クリティカル率が5%上昇する
+			10%の確率で矢を消費しない
+			プレイヤーのすべての木の矢を火の矢と吹雪の矢に変換する
+			'''
+		DisplayName: フリーズフレイムの矢筒
+	}
+
+	IceQuiver: {
+		Tooltip:
+			'''
+			10%の確率で矢を消費しない
+			プレイヤーのすべての木の矢を吹雪の矢に変換する
+			'''
+		DisplayName: 吹雪の矢筒
+	}
+
+	FireQuiver: {
+		Tooltip:
+			'''
+			10%の確率で矢を消費しない
+			プレイヤーのすべての木の矢を火の矢に変換する
+			'''
+		DisplayName: 火の矢筒
+	}
+
+	MechQuiver: {
+		Tooltip:
+			'''
+			「現代の矢筒」
+			遠距離ダメージが20%増加する
+			クリティカル率が10%上昇する
+			20%の確率で矢を消費しない
+			矢の速度が大幅に上昇する
+			神秘の矢筒の効果
+			'''
+		DisplayName: 機械の矢筒
+	}
+
+	MysticQuiver: {
+		Tooltip:
+			'''
+			「弓術の魔法があなたの肩にかかっている」
+			遠距離ダメージが10%増加する
+			遠距離クリティカル率が10%上昇する
+			20%の確率で矢を消費しない
+			矢が敵にヒットした時、ホーミングする魔法の矢が生成されることがある
+			'''
+		DisplayName: 神秘の矢筒
+	}
+
+	HunterQuiver: {
+		Tooltip:
+			'''
+			遠距離ダメージが8%増加する
+			遠距離クリティカル率が8%上昇する
+			10%の確率で矢を消費しない
+			'''
+		DisplayName: 狩人の矢筒
+	}
+
+	SturdyQuiver: {
+		Tooltip:
+			'''
+			遠距離ダメージが8%増加する
+			10%の確率で矢を消費しない
+			'''
+		DisplayName: 頑丈な矢筒
+	}
+
+	Quiver: {
+		Tooltip: 10%の確率で矢を消費しない
+		DisplayName: 木のの矢筒
+	}
+
+	ReinforcedShield: {
+		Tooltip: 移動速度が7%低下する
+		DisplayName: 強化された戦争の盾
+	}
+
+	MasterTreads: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			着用者は超高速で走ることができる
+			移動速度が50%上昇する
+			最大移動速度が35%上昇する
+			燃えるブロックと溶岩への免疫を与える
+			水、ハチミツ、溶岩の上を歩く能力を提供する
+			攻撃を回避する確率を与える
+			'''
+		DisplayName: マスター・トレッド
+	}
+
+	RogueEmblem: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			着用者は信じられないほど速く走ることができる
+			移動速度が40%上昇する
+			最大移動速度が25%上昇する
+			'''
+		DisplayName: アプレンティス・トレッド
+	}
+
+	RogueBoots: {
+		Tooltip: 着用者は超高速で走ることができる
+		DisplayName: ローグブーツ
+	}
+
+	SherwoodBracer: {
+		Tooltip:
+			'''
+			「フードの男が残したもの」
+			遠距離ダメージが15%増加する
+			アーチャーエンブレムの効果
+			射った矢からのドロップ率が上昇する
+			'''
+		DisplayName: シャーウッドブレーサー
+	}
+
+	SteelTarget: {
+		Tooltip:
+			'''
+			遠距離クリティカル率が7%上昇する
+			貫通する矢がもう一体多く敵を貫通する
+			ターゲットの効果
+			'''
+		DisplayName: 鋼鉄のターゲット
+	}
+
+	Target: {
+		Tooltip:
+			'''
+			矢の速度が10%上昇する
+			矢をより正確にする
+			'''
+		DisplayName: ターゲット
+	}
+
+	StrangeQuiver: {
+		Tooltip:
+			'''
+			「何が起こるのだろう？」
+			木の矢をランダムな矢に変える
+			ハードモードで追加の矢タイプがアンロックされる
+			20%の確率で矢を消費しない
+			'''
+		DisplayName: 奇妙な矢筒
+	}
+
+	ApolloChest: {
+		Tooltip: 遠距離ダメージが20%増加する
+		DisplayName: アポロの胸当て
+	}
+
+	ApolloHelmet: {
+		SetBonus:
+			'''
+
+			遠距離ダメージが{0}%増加する
+			遠距離クリティカル率が{1}%上昇する
+			20%の確率で矢を消費しない
+			'''
+		Tooltip:
+			'''
+			遠距離ダメージが15%増加する
+			遠距離クリティカル率が7%上昇する
+			'''
+		DisplayName: アポロの兜
+	}
+
+	ApolloLegs: {
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加する
+			移動速度が15%上昇する
+			'''
+		DisplayName: アポロのすね当て
+	}
+
+	ArcherCloak: {
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加する
+			遠距離クリティカル率が5%上昇する
+			'''
+		DisplayName: 弓使いのマント
+	}
+
+	ArcherHelmet: {
+		SetBonus:
+			'''
+
+			遠距離ダメージが{0}%増加する
+			遠距離クリティカル率が{1}%上昇する
+			20%の確率で矢を消費しない
+			ダメージを受けた後の無敵時間がわずかに増加する
+			'''
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加する
+			遠距離クリティカル率が5%上昇する
+			'''
+		DisplayName: 弓使いのヘルメット
+	}
+
+	ArcherPants: {
+		Tooltip: 移動速度が12%上昇する
+		DisplayName: 弓使いのパンツ
+	}
+
+	PixelChest: {
+		Tooltip: ""
+		DisplayName: ピクセルチェスト
+	}
+
+	PixelHat: {
+		Tooltip: ""
+		DisplayName: ピクセルハット
+	}
+
+	PixelPants: {
+		Tooltip: ""
+		DisplayName: ピクセルパンツ
+	}
+
+	RobinHelmet: {
+		SetBonus:
+			'''
+
+			「私は盗人ではない、無法者だ！」
+			10%の確率で矢を消費しない
+			永続的な暗視バフ
+			'''
+		Tooltip: 遠距離ダメージが5%増加する
+		DisplayName: ロビンカウル
+	}
+
+	RobinPants: {
+		Tooltip: 移動速度が12%上昇する
+		DisplayName: ロビンパンツ
+	}
+
+	RobinTunic: {
+		Tooltip:
+			'''
+			遠距離ダメージが3%増加する
+			遠距離クリティカル率が5%上昇する
+			'''
+		DisplayName: ロビンチュニック
+	}
+
+	SteelChest: {
+		Tooltip: ""
+		DisplayName: 鋼鉄の胸当て
+	}
+
+	SteelHelmet: {
+		SetBonus: "防御力{0}"
+		Tooltip: ""
+		DisplayName: 鋼鉄の兜
+	}
+
+	SteelHelmetRanged: {
+		SetBonus:
+			'''
+
+			遠距離ダメージが{0}%増加する
+			メタルバーストボウの使用速度が{1}%上昇する
+			'''
+		Tooltip: ""
+		DisplayName: 鋼鉄の兜（遠距離）
+	}
+
+	SteelPants: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のすね当て
+	}
+
+	ArrowBag: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 弓術のポーチ（ティア1）
+	}
+
+	ArrowBag2: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 弓術のポーチ（ティア2）
+	}
+
+	ArrowBag3: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 弓術のポーチ（ティア3）
+	}
+
+	ArrowBag4: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 弓術のポーチ（ティア4）
+	}
+
+	ArrowBag5: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 弓術のポーチ（ティア5）
+	}
+
+	IceBag: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 氷結の弓術のポーチ
+	}
+
+	JungleBag: {
+		Tooltip:
+			'''
+			弓矢が収納されている可能性がある
+			右クリックで開く
+			'''
+		DisplayName: 毒性の弓術のポーチ
+	}
+
+	StarterBag: {
+		Tooltip:
+			'''
+			「待って、外は危険よ、これを持っていきなさい！」
+			右クリックで開く
+			'''
+		DisplayName: スターターアーチェリーバッグ
+	}
+
+	ReinforcedHide: {
+		Tooltip: 優秀な装備を作るのに使用する
+		DisplayName: 強化された皮
+	}
+
+	SteelHide: {
+		Tooltip: 強力な装備を作るのに使用する
+		DisplayName: 鋼鉄の皮
+	}
+
+	Hide: {
+		Tooltip: 弓使いの装備を作るのに使用する
+		DisplayName: 皮
+	}
+
+	AdamantiteBow: {
+		Tooltip: ""
+		DisplayName: アダマンタイトの弓
+	}
+
+	Amalgamation: {
+		Tooltip: 3発に1回、高速で強力な矢の拡散射撃を放つ
+		DisplayName: アマルガメーション
+	}
+
+	AmberBow: {
+		Tooltip: コハクの矢を撃つ
+		DisplayName: コハクの弓
+	}
+
+	AmethystBow: {
+		Tooltip: アメジストの矢を撃つ
+		DisplayName: アメジストの弓
+	}
+
+	ApolloBow: {
+		Tooltip: 燃えるマグマの連射を放つ
+		DisplayName: アポロの一斉射撃
+	}
+
+	ArcherCrossbow: {
+		Tooltip: 右クリックでチャージアローの連射を放つ
+		DisplayName: 弓使いのクロスボウ
+	}
+
+	Armageddon: {
+		Tooltip: 隕石の爆発を放ち、空から隕石を召喚する
+		DisplayName: アルマゲドン
+	}
+
+	BoomerangBow: {
+		Tooltip:
+			'''
+			矢を乱射する
+			「なんという呪われた創造物だ」
+			'''
+		DisplayName: ボウメラン
+	}
+
+	Bownanarang: {
+		Tooltip: 5回まで重ねがけ可能
+		DisplayName: ボウナナラン
+	}
+
+	CactusBow: {
+		Tooltip: ""
+		DisplayName: サボテンの弓
+	}
+
+	ClockworkBow: {
+		Tooltip: 3本の矢を素早く連続射撃する
+		DisplayName: 時計仕掛けの弓
+	}
+
+	CloudBow: {
+		Tooltip: 一定の確率で雷の球体を撃つ
+		DisplayName: サンダー
+	}
+
+	CobaltBow: {
+		Tooltip: ""
+		DisplayName: コバルトの弓
+	}
+
+	ColdBow: {
+		Tooltip: 凍てつく矢を拡散射撃する
+		DisplayName: 絶対零度
+	}
+
+	CrimsonBow: {
+		Tooltip: 生命力を吸収するクリムゾンの矢を撃つ
+		DisplayName: クリムゾンデス
+	}
+
+	CrimsonBowTrue: {
+		Tooltip:
+			'''
+			クリムゾンの矢を拡散射撃する
+			中央の矢は貫通し生命力を吸収する
+			'''
+		DisplayName: 真・クリムゾンデス
+	}
+
+	CrystalCrossbow: {
+		Tooltip: 右クリックでチャージされたクリスタルの矢を放つ
+		DisplayName: クリスタルのクロスボウ
+	}
+
+	CrystalStrike: {
+		Tooltip:
+			'''
+			クリスタルパルスと中距離クリスタルスパイクを撃つ
+			通常の矢2本も同時に発射する
+			'''
+		DisplayName: クリスタルストライク
+	}
+
+	CursedBow: {
+		Tooltip: 呪われた矢を撃つ
+		DisplayName: 呪いの弓
+	}
+
+	DiamondBow: {
+		Tooltip: ダイヤモンドの矢を撃つ
+		DisplayName: ダイヤモンドの弓
+	}
+
+	DualShot: {
+		Tooltip: 2組の2本矢を撃つ
+		DisplayName: デュアルショット
+	}
+
+	DungeonBow: {
+		Tooltip: 不安定な海の矢を撃つ
+		DisplayName: アクアフリンガー
+	}
+
+	Eclipse: {
+		Tooltip: 着弾時にエリアを焦がし隕石を落とす
+		DisplayName: ホライゾン
+	}
+
+	ElementalBow: {
+		Tooltip: すべての属性の弓の効果
+		DisplayName: エレメンタルラース
+	}
+
+	EmeraldBow: {
+		Tooltip: エメラルドの矢を撃つ
+		DisplayName: エメラルドの弓
+	}
+
+	Eyeshot: {
+		Tooltip: 高速で貫通する眼球を撃つ
+		DisplayName: アイショット
+	}
+
+	FishBow: {
+		Tooltip: 木の矢を悪意ある意図を持つマスに変える
+		DisplayName: トラウトスパウト
+	}
+
+	FlamarangBow: {
+		Tooltip: あらゆる方向に地獄の炎の矢を撃ちまくる
+		DisplayName: フローメラン
+	}
+
+	FleshRepeater: {
+		Tooltip: 3本の矢を素早く連続射撃する
+		DisplayName: 肉の機械弓
+	}
+
+	FreezeflameBow: {
+		Tooltip: 木の矢を吹雪の矢と火の矢に変える
+		DisplayName: フリーズフレイムボウ
+	}
+
+	FrostBow: {
+		Tooltip: 木の矢を吹雪の矢に変える
+		DisplayName: フロストボウ
+	}
+
+	GaleBow: {
+		Tooltip: 神の力があなたの手に宿る
+		DisplayName: 天の一斉射撃
+	}
+
+	GemSpark: {
+		Tooltip: カラフルな矢を拡散射撃する
+		DisplayName: ジェムスパークスプラッシュ
+	}
+
+	HallowBow: {
+		Tooltip:
+			'''
+			光と闇の魔法の武器庫を放ち
+			中央に聖なる矢を撃つ
+			'''
+		DisplayName: ハローサイト
+	}
+
+	HallowedCrossbow: {
+		Tooltip: 右クリックで聖なる矢を拡散射撃する
+		DisplayName: 神聖なクロスボウ
+	}
+
+	HunterBow: {
+		Tooltip: ""
+		DisplayName: 狩人の弓
+	}
+
+	HunterCrossbow: {
+		Tooltip: 右クリックでチャージされた矢を放つ
+		DisplayName: 狩人のクロスボウ
+	}
+
+	HyperBow: {
+		Tooltip: 信じられないほど高速で射撃する
+		DisplayName: ハイパードライブ
+	}
+
+	IchorBow: {
+		Tooltip: 霊液の矢を撃つ
+		DisplayName: 霊液の弓
+	}
+
+	KingBow: {
+		Tooltip: 「王にふさわしい！」
+		DisplayName: 王の弓
+	}
+
+	LavaBow: {
+		Tooltip: 木の矢を燃える矢に変える
+		DisplayName: 溶岩の弓
+	}
+
+	LunarBow: {
+		Tooltip: カーソル位置に天の星を落下させる
+		DisplayName: 月の弓
+	}
+
+	LunarWrath: {
+		Tooltip: 空から流れ星を召喚する
+		DisplayName: ルナーラース
+	}
+
+	MachineBow: {
+		Tooltip: 「わずかに不正確」
+		DisplayName: マシンボウ
+	}
+
+	MetalBow: {
+		Tooltip:
+			'''
+			鋼鉄の矢を撃つ
+			大地の融合体
+			'''
+		DisplayName: メタルバースト
+	}
+
+	MeteorBow: {
+		Tooltip: 敵に隕石の襲撃を放つ
+		DisplayName: メテオリックバースト
+	}
+
+	MoltenCrossbow: {
+		Tooltip:
+			'''
+			木の矢を燃やす
+			右クリックでチャージされた矢を放つ
+			'''
+		DisplayName: 溶岩のクロスボウ
+	}
+
+	MythrilBow: {
+		Tooltip: ""
+		DisplayName: ミスリルの弓
+	}
+
+	OricalcumBow: {
+		Tooltip: ""
+		DisplayName: オリハルコンの弓
+	}
+
+	PalladiumBow: {
+		Tooltip: ""
+		DisplayName: パラジウムの弓
+	}
+
+	PoisonShot: {
+		Tooltip: 木の矢を花の矢に変える
+		DisplayName: ブランブルショット
+	}
+
+	PurpleBow: {
+		Tooltip: 悪魔の矢を撃つ
+		DisplayName: デモニック・デストラクション
+	}
+
+	PurpleBowTrue: {
+		Tooltip:
+			'''
+			2本の矢を撃つ
+			高速な方は貫通し不浄を与える
+			'''
+		DisplayName: 真・デモニック・デストラクション
+	}
+
+	RainBow: {
+		Tooltip:
+			'''
+			長持ちする虹を撃つ
+			「誰がこんなことを考えたんだ？」
+			'''
+		DisplayName: レインボウ
+	}
+
+	RapidBow: {
+		Tooltip: ""
+		DisplayName: 高速な弓
+	}
+
+	Rapidfire: {
+		Tooltip: 高速だが不安定に発射する
+		DisplayName: ラピッドファイア
+	}
+
+	ReinforcedBow: {
+		Tooltip: 「遅いが強力」
+		DisplayName: 強化された弓
+	}
+
+	RepeaterBow: {
+		Tooltip: 2本の矢を素早く連続射撃する
+		DisplayName: 連続の弓
+	}
+
+	RubyBow: {
+		Tooltip: ルビーの矢を撃つ
+		DisplayName: ルビーの弓
+	}
+
+	SandBow: {
+		Tooltip: 木の矢を砂岩の矢に変える
+		DisplayName: 砂岩の弓
+	}
+
+	SandstormBow: {
+		Tooltip: 木の矢を壁を貫通する砂嵐に変える
+		DisplayName: 砂嵐の弓
+	}
+
+	SapphireBow: {
+		Tooltip: サファイアの矢を撃つ
+		DisplayName: サファイアの弓
+	}
+
+	ShellShot: {
+		Tooltip: 強く撃つ
+		DisplayName: シェルショット
+	}
+
+	SpectralShot: {
+		Tooltip: スペクトラル射撃を放つ
+		DisplayName: スペクトラルショット
+	}
+
+	SpiderBow: {
+		Tooltip: 蜘蛛の巣を紡ぐ小さなクモを撃つ
+		DisplayName: クモの弓
+	}
+
+	SteelAxe: {
+		Tooltip: ""
+		DisplayName: 鋼鉄の斧
+	}
+
+	SteelBow: {
+		Tooltip: 木の矢を鋼鉄の矢に変える
+		DisplayName: 鋼鉄の弓
+	}
+
+	SteelHammer: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のハンマー
+	}
+
+	SteelPickaxe: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のつるはし
+	}
+
+	SteelSword: {
+		Tooltip: ""
+		DisplayName: 鋼鉄の剣
+	}
+
+	StrangeBow: {
+		Tooltip:
+			'''
+			ランダムなダメージを与える
+			ボス進行に応じて威力が上がる
+			'''
+		DisplayName: 奇妙な弓
+	}
+
+	SturdyCrossbow: {
+		Tooltip: 右クリックでチャージされた矢を放つ
+		DisplayName: 頑丈なクロスボウ
+	}
+
+	Swiftshot: {
+		Tooltip: ""
+		DisplayName: スウィフトショット
+	}
+
+	TechnoBow: {
+		Tooltip:
+			'''
+			信じられないほど高速で射撃する
+			「わずかに不正確」
+			'''
+		DisplayName: テクノボウ
+	}
+
+	BlendedBow: {
+		Tooltip: ""
+		DisplayName: 混合の弓
+	}
+
+	TitaniumBow: {
+		Tooltip: ""
+		DisplayName: チタニウムの弓
+	}
+
+	TopazBow: {
+		Tooltip: トパーズの矢を撃つ
+		DisplayName: トパーズの弓
+	}
+
+	TripleShot: {
+		Tooltip: 矢を拡散射撃する
+		DisplayName: トリプルショット
+	}
+
+	Twinshot: {
+		Tooltip:
+			'''
+			2発に1回呪炎を撃つ
+			5発に1回レーザーを撃つ
+			'''
+		DisplayName: ツインショット
+	}
+
+	WaterWrath: {
+		Tooltip: 海の襲撃を放つ
+		DisplayName: ポセイドンの怒り
+	}
+
+	WoodenCrossbow: {
+		Tooltip: 右クリックでチャージされた矢を放つ
+		DisplayName: 木のクロスボウ
+	}
+
+	AlloyArrow: {
+		Tooltip: 貫通爆発を起こす
+		DisplayName: 休止の矢
+	}
+
+	BlizzardArrow: {
+		Tooltip: 着弾時にミニブリザードを召喚する
+		DisplayName: ブリザードの矢
+	}
+
+	BrokenBow: {
+		Tooltip: ""
+		DisplayName: 壊れた英雄の弓
+	}
+
+	CrimsonArrow: {
+		Tooltip: 生命力を奪う
+		DisplayName: クリムゾンの矢
+	}
+
+	CrystalArrow: {
+		Tooltip: 着弾時にクリスタルの破片に分裂する
+		DisplayName: クリスタルの矢
+	}
+
+	DaoShard: {
+		Tooltip: 完全にバランスが取れている
+		DisplayName: ダオの欠片
+	}
+
+	DemonArrow: {
+		Tooltip: 不浄を与え、相手の生命力を食い尽くす
+		DisplayName: 悪魔の矢
+	}
+
+	DemonicShard: {
+		Tooltip: 闇のエネルギーを含んでいる
+		DisplayName: 悪魔の欠片
+	}
+
+	DemonicString: {
+		Tooltip: 強力な弓を作るのに使用する
+		DisplayName: 悪魔の糸
+	}
+
+	DwarfAlloy: {
+		Tooltip: 「死んだ星の残骸」
+		DisplayName: ドワーフスターの合金
+	}
+
+	ExplosiveArrow: {
+		Tooltip: 着弾時に爆発する
+		DisplayName: 爆発矢
+	}
+
+	GelArrow: {
+		Tooltip: 壁で跳ね返る
+		DisplayName: ジェルの矢
+	}
+
+	GraniteArrow: {
+		Tooltip: ""
+		DisplayName: 花崗岩の矢
+	}
+
+	Grenade1: {
+		Tooltip: 木の矢に爆発する
+		DisplayName: 矢のグレネード
+	}
+
+	GrenadeFire: {
+		Tooltip: 火の矢に爆発する
+		DisplayName: 火の矢のグレネード
+	}
+
+	GrenadeSky: {
+		Tooltip:
+			'''
+			スカイドロップ矢に爆発する
+			敵への着弾時に空から矢の雨を降らす
+			'''
+		DisplayName: スカイドロップの矢のグレネード
+	}
+
+	GrenadeIce: {
+		Tooltip: 吹雪の矢に爆発する
+		DisplayName: 吹雪の矢のグレネード
+	}
+
+	GrenadePoison: {
+		Tooltip: 花の矢に爆発する
+		DisplayName: 毒の矢のグレネード
+	}
+
+	MarbleArrow: {
+		Tooltip:
+			'''
+			複数の敵を貫通する
+			重力の影響を受けない
+			'''
+		DisplayName: 大理石の矢
+	}
+
+	MysticShard: {
+		Tooltip: 光のエネルギーを含んでいる
+		DisplayName: 神秘の欠片
+	}
+
+	MysticString: {
+		Tooltip: 強力な弓を作るのに使用する
+		DisplayName: 神秘の糸
+	}
+
+	NebulaArrow: {
+		Tooltip: ステータスを上昇させるネビュラを生成する
+		DisplayName: ネビュラの矢
+	}
+
+	PearlArrow: {
+		Tooltip: ""
+		DisplayName: パールストーンの矢
+	}
+
+	PoisonArrow: {
+		Tooltip: 毒を与える
+		DisplayName: 花の矢
+	}
+
+	ReinforcedString: {
+		Tooltip: 強い弓を作るのに使用する
+		DisplayName: 強化された糸
+	}
+
+	SandArrow: {
+		Tooltip:
+			'''
+			高速
+			混乱を与える
+			'''
+		DisplayName: 砂岩の矢
+	}
+
+	SandstormArrow: {
+		Tooltip: 着弾時に砂嵐を作る
+		DisplayName: 砂嵐の矢
+	}
+
+	SkyArrow: {
+		Tooltip: 敵への着弾時に空から木の矢の雨を降らす
+		DisplayName: スカイドロップの矢
+	}
+
+	SnowArrow: {
+		Tooltip: 着弾時に複数の雪玉を放つ
+		DisplayName: 雪玉の矢
+	}
+
+	SolarArrow: {
+		Tooltip: 着弾時に太陽の炎に爆発する
+		DisplayName: 太陽の矢
+	}
+
+	StardustArrow: {
+		Tooltip: スターダストの時限爆弾の軌跡を残す
+		DisplayName: スターダストの矢
+	}
+
+	SteelArrow: {
+		Tooltip: 高いノックバックを持つ
+		DisplayName: 鋼鉄の矢
+	}
+
+	StoneArrow: {
+		Tooltip: 強く撃つ
+		DisplayName: 石の矢
+	}
+
+	SilkString: {
+		Tooltip: 弓を作るのに使用する
+		DisplayName: 糸（Archery Overhaul）
+	}
+
+	VortexArrow: {
+		Tooltip: 敵を追跡する
+		DisplayName: ボルテックスの矢
+	}
+
+	ArrowPotion: {
+		Tooltip: 遠距離ダメージが10%増加する
+		DisplayName: 小型弓使いのポーション
+	}
+
+	Leather: {
+		Tooltip: ""
+		DisplayName: 革（Archery Overhaul）
+	}
+
+	SteelBar: {
+		Tooltip: ""
+		DisplayName: 鋼鉄のインゴット
+	}
+}
+
+NPCs: {
+	StrangeItemsHint: {
+		DisplayName: 弓術のポーチ（ティア）を開くことで入手可能
+	}
+
+	FrostBowHint: {
+		DisplayName: 氷結の弓術のポーチを開くことで入手可能
+	}
+
+	FishBowHint: {
+		DisplayName: 海で釣りをすることで入手可能
+	}
+
+	Archer: {
+		Census: {
+			SpawnCondition: プレイヤーがインベントリに弓と矢を持っている
+		}
+
+		TownNPCMood: {
+			LikeNPC: "{NPCName}のそばにいるのは好きだ。"
+			LikeBiome: "{BiomeName}を歩き回ることほど素晴らしいことはない！"
+			Princess_LovesNPC: "{NPCName}には何か神秘的で刺激的なものがある！"
+			LikeNPC_Princess: 彼女は悪くない、と思う。でも私は弓と矢と結婚している身だ。
+			HateCrowded: こんなバカどもがうろついている中で射撃の練習をしろというのか？さっきあのハンサムな男を撃ちそうになった！
+			DislikeCrowded: お前は貧乏なのか？もっと良い部屋をくれ！
+			LoveSpace: 朝の露の匂いが好きじゃないか？
+			FarFromHome: エメリーの故郷が恋しい。そこには本当に良い友達がいたんだ。
+			NoHome: 荒野は気にしない。そこが私の家だから。でもお風呂が欲しい。
+			Content: 私は問題ない。ただ、この連中が鹿を怖がらせなければいいのだが。鹿肉が恋しい。
+		}
+
+		DisplayName: 弓使い
+	}
+
+	ZombieArcher: {
+		DisplayName: ゾンビの弓使い
+	}
+}
+
+Prefixes: {
+	SwiftPrefix: {
+		DisplayName: 素早い
+	}
+
+	StrainedPrefix: {
+		DisplayName: 張り詰めた
+	}
+
+	SnappedPrefix: {
+		DisplayName: 破裂した
+	}
+
+	SleekPrefix: {
+		DisplayName: なめらかな
+	}
+
+	AncientPrefix: {
+		DisplayName: 古代の
+	}
+}
+
+Projectiles: {
+	Yondu: {
+		DisplayName: ヨンドゥ
+	}
+
+	WoodenCrossbowProj: {
+		DisplayName: 木のクロスボウの矢
+	}
+
+	ShadewoodProj: {
+		DisplayName: シェイドウッドの矢
+	}
+
+	FrostProj: {
+		DisplayName: フロストの矢
+	}
+
+	FlameProj: {
+		DisplayName: 炎の矢
+	}
+
+	ExplosionLarge: {
+		DisplayName: 大爆発
+	}
+
+	EbonwoodProj: {
+		DisplayName: エボンウッドの矢
+	}
+
+	AmethystTrail: {
+		DisplayName: アメジストの軌跡
+	}
+
+	VortexArrowProj: {
+		DisplayName: ボルテックスの矢
+	}
+
+	TrueRedProj: {
+		DisplayName: 真・赤の矢
+	}
+
+	TruePurpleProj: {
+		DisplayName: 真・紫の矢
+	}
+
+	TopazProj: {
+		DisplayName: トパーズの矢
+	}
+
+	SurgeProj: {
+		DisplayName: サージの矢
+	}
+
+	StoneArrowProj: {
+		DisplayName: 石の矢
+	}
+
+	SteelArrowProj: {
+		DisplayName: 鋼鉄の矢
+	}
+
+	StardustArrowProj: {
+		DisplayName: スターダストの矢
+	}
+
+	SpiderProj: {
+		DisplayName: クモの矢
+	}
+
+	SpiderMini: {
+		DisplayName: ミニクモ
+	}
+
+	SolarArrowProj: {
+		DisplayName: 太陽の矢
+	}
+
+	SnowArrowProj: {
+		DisplayName: 雪の矢
+	}
+
+	SkyArrowProj: {
+		DisplayName: 天空の矢
+	}
+
+	ShellProj2: {
+		DisplayName: シェルの矢
+	}
+
+	ShellProj: {
+		DisplayName: シェルの矢
+	}
+
+	SapphireProj: {
+		DisplayName: サファイアの矢
+	}
+
+	SandstormProj: {
+		DisplayName: 砂嵐の弾丸
+	}
+
+	SandstormProjLong: {
+		DisplayName: 砂嵐
+	}
+
+	SandstormArrowProj: {
+		DisplayName: 砂嵐の矢
+	}
+
+	SandStoneArrowProj: {
+		DisplayName: 砂岩の矢
+	}
+
+	SandArrowProj: {
+		DisplayName: 砂の矢
+	}
+
+	RubyProj: {
+		DisplayName: ルビーの矢
+	}
+
+	RainbowProj: {
+		DisplayName: 虹の矢
+	}
+
+	PurpleArrowProj: {
+		DisplayName: 紫の矢
+	}
+
+	PoisonArrowProj: {
+		DisplayName: 毒の矢
+	}
+
+	PearlArrowProj: {
+		DisplayName: パールの矢
+	}
+
+	NebulaArrowProj: {
+		DisplayName: ネビュラの矢
+	}
+
+	MeteorProjBig: {
+		DisplayName: 隕石の矢
+	}
+
+	MeteorProj: {
+		DisplayName: 隕石の矢
+	}
+
+	MechanicalEye: {
+		DisplayName: メカニカルアイ
+	}
+
+	MarbleArrowProj: {
+		DisplayName: 大理石の矢
+	}
+
+	MagicProj: {
+		DisplayName: 魔法の矢
+	}
+
+	HitEffect_1: {
+		DisplayName: ヒット効果
+	}
+
+	HallowStrike: {
+		DisplayName: ハローストライク
+	}
+
+	HallowProj: {
+		DisplayName: ハローの矢
+	}
+
+	GrenadePoisonProj: {
+		DisplayName: 毒のグレネード
+	}
+
+	GrenadeIceProj: {
+		DisplayName: 氷のグレネード
+	}
+
+	GrenadeSkyProj: {
+		DisplayName: スカイドロップグレネード
+	}
+
+	GrenadeFireProj: {
+		DisplayName: 火炎グレネード
+	}
+
+	Grenade1Proj: {
+		DisplayName: 矢のグレネード
+	}
+
+	GraniteArrowProj: {
+		DisplayName: 御影石の矢
+	}
+
+	GemProj: {
+		DisplayName: 宝石の矢
+	}
+
+	GelArrowProj: {
+		DisplayName: ジェルの矢
+	}
+
+	FlintShrapnel: {
+		DisplayName: フリントの破片
+	}
+
+	FlamarangProj: {
+		DisplayName: フローメラン
+	}
+
+	FishProj: {
+		DisplayName: 魚の矢
+	}
+
+	EyeballProj: {
+		DisplayName: 眼球
+	}
+
+	ExplosiveArrowProj: {
+		DisplayName: 爆発矢
+	}
+
+	ExplodeSplash: {
+		DisplayName: 爆発
+	}
+
+	EmeraldProj: {
+		DisplayName: エメラルドの矢
+	}
+
+	ElementalProj2: {
+		DisplayName: エレメンタルの矢
+	}
+
+	ElementalProj: {
+		DisplayName: エレメンタルの矢
+	}
+
+	ElectricProj: {
+		DisplayName: 電気の矢
+	}
+
+	DiamondProj: {
+		DisplayName: ダイヤモンドの矢
+	}
+
+	DemonProjLight: {
+		DisplayName: 悪魔の矢
+	}
+
+	DemonArrowProj: {
+		DisplayName: 悪魔の矢
+	}
+
+	DarkProj2: {
+		DisplayName: 闇の矢
+	}
+
+	DarkProj: {
+		DisplayName: 闇の矢
+	}
+
+	CrystalArrowProj: {
+		DisplayName: クリスタルの矢
+	}
+
+	Crit_Effect_1: {
+		DisplayName: クリティカル効果
+	}
+
+	CrimsonArrowProj: {
+		DisplayName: クリムゾンの矢
+	}
+
+	ColdProj: {
+		DisplayName: 冷気の矢
+	}
+
+	BownanarangProj: {
+		DisplayName: ボウナナラン
+	}
+
+	BowDamage: {
+		DisplayName: 弓のダメージ
+	}
+
+	BoomerangProj: {
+		DisplayName: ボウメラン
+	}
+
+	BlizzardArrowProj: {
+		DisplayName: ブリザードの矢
+	}
+
+	AngelProj: {
+		DisplayName: 天使の矢
+	}
+
+	AlloyArrowProj: {
+		DisplayName: 合金の矢
+	}
+}
+

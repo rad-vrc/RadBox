@@ -1,0 +1,43 @@
+TownNPCMood: {
+	FishingMerchant: {
+		Content: 今はとても快適だ。
+		NoHome: 家があればいいんだが。
+		LoveSpace: こんなに広いスペースがあるなんて、最高だ！
+		FarFromHome: 家が恋しい。連れて帰ってくれないか？
+		DislikeCrowded: 人が多すぎる。これでは餌の安全が確保できない。
+		HateCrowded: こんなに人が多いところでは暮らせない。ここは混みすぎだ。
+		LikeBiome: 「{BiomeName}は住むのにとても良い場所だ。穏やかで静かだ。」
+		LoveBiome: "{BiomeName}が大好きだ。"
+		DislikeBiome: "{BiomeName}は寒すぎて凍えそうだ！"
+		HateBiome: "{BiomeName}でモンスターに襲われながら釣りなんてできない。"
+		LikeNPC: 同じガイドであり教育者として、{NPCName}を尊敬している！
+		LoveNPC: 双子の片割れと住むのは最高だ。彼の名は{NPCName}。
+		DislikeNPC: "{NPCName}は気に入らない。彼は何でも安売りしている。"
+		HateNPC: "{NPCName}の爆発物が引き起こす騒音は本当に嫌いだ！僕はただ平和と静寂を求めている。"
+	}
+}
+
+NPCs: {
+	FishingMerchant: {
+		DisplayName: 釣り商人
+
+		TownNPCMood: {
+			Content: 今はとても快適だ。
+			NoHome: 家があればいいんだが。
+			FarFromHome: 家が恋しい。連れて帰ってくれないか？
+			LoveSpace: こんなに広いスペースがあるなんて、最高だ！
+			DislikeCrowded: 人が多すぎる。 これでは餌の安全が確保できない。
+			HateCrowded: こんなに人が多いところでは暮らせない。ここは混みすぎだ。
+			LoveBiome: "{BiomeName}が大好きだ。"
+			LikeBiome: 「{BiomeName}は住むのにとても良い場所だ。穏やかで静かだ。」
+			DislikeBiome: "{BiomeName}は寒すぎて凍えそうだ！"
+			HateBiome: "{BiomeName}でモンスターに襲われながら釣りなんてできない。"
+			LoveNPC: 双子の片割れと住むのは最高だ。彼の名は{NPCName}。
+			LikeNPC: 同じガイドであり教育者として、{NPCName}を尊敬している！
+			DislikeNPC: "{NPCName}は気に入らない。 彼は何でも安売りしている。"
+			HateNPC: "{NPCName}の爆発物が引き起こす騒音は本当に嫌いだ！ ただ平和と静寂が欲しい。"
+			LikeNPC_Princess: "{NPCName}が好きだ。"
+			Princess_LovesNPC: "{NPCName}が好きだ。"
+		}
+	}
+}

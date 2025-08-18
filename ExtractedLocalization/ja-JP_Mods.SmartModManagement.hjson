@@ -1,0 +1,21 @@
+Configs: {
+	SmartModManagementConfig: {
+		FavouriteMods: {
+			Tooltip: ""
+			Label: Favourite Mods
+		}
+
+		DoNotDisableByGlobalButton: {
+			Tooltip: ""
+			Label: Do Not Disable By Global Button
+		}
+
+		Favourites: {
+			Tooltip: ""
+			Label: Favourites
+		}
+
+		DisplayName: Config
+	}
+}
+

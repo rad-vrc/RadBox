@@ -1,0 +1,145 @@
+NPCs: {
+	LoneMushion: {
+		DisplayName: Lone Mushion
+	}
+}
+
+Biomes: {
+	Haven: {
+		TownNPCDialogueName: the Mushion Haven
+	}
+}
+
+Buffs: {
+	FungusBuff: {
+		Description: Mods.DTZ.Buffs.FungusBuff.Description
+		DisplayName: Fungus Buff
+	}
+
+	ToadBuff: {
+		Description: You feel increased jump and speed!
+		DisplayName: Croaking Familiar
+	}
+
+	IceliumBuff: {
+		Description: You feel increased defense effectivity!
+		DisplayName: Freezing Familiar
+	}
+
+	HellcapBuff: {
+		Description: You feel increased critical strike chance!
+		DisplayName: Blazing Familiar
+	}
+
+	GlowingBuff: {
+		Description: You feel passive health regeneration!
+		DisplayName: Glowing Familiar
+	}
+}
+
+Projectiles: {
+	ToadMushionProj: {
+		DisplayName: Toad Mushion Proj
+	}
+
+	ToadMushion: {
+		DisplayName: Toad Mushion
+	}
+
+	IceliumMushionProj: {
+		DisplayName: Icelium Mushion Proj
+	}
+
+	IceliumMushion: {
+		DisplayName: Icelium Mushion
+	}
+
+	HellcapMushionProj: {
+		DisplayName: Hellcap Mushion Proj
+	}
+
+	HellcapMushion: {
+		DisplayName: Hellcap Mushion
+	}
+
+	GlowingMushionProj: {
+		DisplayName: Glowing Mushion Proj
+	}
+
+	GlowingMushion: {
+		DisplayName: Glowing Mushion
+	}
+}
+
+Items: {
+	MoonlordUnderworldBunkFungus: {
+		Tooltip: yeah
+		DisplayName: Moonlords Underworld Bunk Fungus
+	}
+
+	ToadstoolSeeds: {
+		Tooltip: Can be planted on tilled mud
+		DisplayName: Toadstool Seeds
+	}
+
+	IceliumSeeds: {
+		Tooltip: Can be planted on tilled mud
+		DisplayName: Icelium Seeds
+	}
+
+	HellcapSeeds: {
+		Tooltip: Can be planted on tilled mud
+		DisplayName: Hellcap Seeds
+	}
+
+	PackedMud_item: {
+		Tooltip: ""
+		DisplayName: Packed Mud
+	}
+
+	Shiitake: {
+		Tooltip: "'No, there's no escargot.'"
+		DisplayName: Shiitake
+	}
+
+	Devnote: {
+		Tooltip:
+			'''
+			Thanks for playing Mycology, a mod made for the unofficial Tmod Jam! 
+			To discover what this mod has to offer, go pay the glowing mushroom biomes a visit! 
+			We hope you enjoy.
+			'''
+		DisplayName: Dev Note
+	}
+
+	SUPERMEGAULTRADEBUGITEM9000: {
+		Tooltip: "'You're stinky...'"
+		DisplayName: S U P E R M E G A U L T R A D E B U G I T E M9000
+	}
+
+	MushionSeeds: {
+		Tooltip: Can be planted on tilled mud
+		DisplayName: Mushion Seeds
+	}
+
+	Toadstool: {
+		Tooltip: "'Where's the princess?'"
+		DisplayName: Toadstool
+	}
+
+	IceshroomItem: {
+		Tooltip: "'This ice cap isn't melting'"
+		DisplayName: Icelium
+	}
+
+	Hellcap: {
+		Tooltip: "'Hot to the touch'"
+		DisplayName: Hellcap
+	}
+
+	Mushcythe: {
+		Tooltip: Used to till mud to support special fungal growth
+		DisplayName: Mushcythe
+	}
+}
+

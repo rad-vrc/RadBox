@@ -1,0 +1,9789 @@
+CheckTheDocs: スキルの効果がわからない？アイテムの入手方法が知りたい？ワークショップの説明にあるGoogleシートで全ての情報を確認できます。
+
+Disable: 設定でこのメッセージを無効にできます。
+
+CommonItemTooltip: {
+	IncreaseDamage: "ダメージ増加{0}%"
+	IncreaseCrit: "クリティカルヒット率増加{0}%"
+	IncreaseMovement: "移動速度増加{0}%"
+	IncreaseMelee: "近接攻撃速度増加{0}%"
+	IncreaseMana: 最大マナを{0}増加
+	IncreaseSummon: ミニオンの最大数を{0}増加
+	IncreaseSentry: セントリーの最大数を{0}増加
+	IncreaseRegen: ライフ再生を{0}増加
+	OneSlotDecor: "[○]x{0}"
+	TwoSlotDecor: "[○][○]x{0}"
+	ThreeSlotDecor: "[○][○][○]x{0}"
+	AffinitySliding: アフィニティスライディングスキルを{0}増加
+	AdrenalineRush: アドレナリンラッシュスキルを{0}増加
+	AquaticMobility: 水中移動スキルを{0}増加
+	Artillery: 砲術/ボムブーストスキルを{0}増加
+	AttackBoost: 攻撃ブーストスキルを{0}増加
+	AutoGuard: オートガードスキルを有効化
+	AutoTracker: オートトラッカースキルを{0}増加
+	AutoReload: オートリロードスキルを有効化
+	BBQExpert: BBQエキスパートスキルを{0}増加
+	Berserk: バーサークスキルを{0}増加
+	BladehoneScale: ブレードホーンスケールスキルを{0}増加
+	Bleeding: 出血耐性スキルを有効化
+	BlastResist: 爆破耐性スキルを有効化
+	Blightproof: ブライト耐性スキルを{0}増加
+	Bloodlust: ブラッドラストスキルを{0}増加
+	BloodRite: ブラッドライトスキルを{0}増加
+	BombBoost: 砲術/ボムブーストスキルを{0}増加
+	BubbleDance: バブルダンススキルを{0}増加
+	Carving: カービングスキルを{0}増加
+	ChallengeSheath: チャレンジシース/近距離アップスキルを{0}増加
+	ChameleosBlessing: カメレオスの祝福スキルを{0}増加
+	CliffHanger: クリフハンガースキルを{0}増加
+	Coalescence: コアレッセンススキルを{0}増加
+	ColdRes: 冷気耐性スキルを{0}増加
+	Constitution: 耐久力スキルを{0}増加
+	CounterStrike: カウンターストライクスキルを{0}増加
+	CRangePlus: チャレンジシース/近距離アップスキルを{0}増加
+	CritDraw: クリティカルドロー/ピアースアップスキルを{0}増加
+	CritElement: クリティカルエレメントスキルを{0}増加
+	CritEye: クリティカルアイスキルを{0}増加
+	CriticalBoost: クリティカルブーストスキルを{0}増加
+	DeadEye: マスターズタッチ/デッドアイスキルを{0}増加
+	DefenseBoost: 防御ブーストスキルを{0}増加
+	Defiance: ディファイアンススキルを{0}増加
+	DefLock: 防御ロックスキルを{0}増加
+	Dereliction: デレリクションスキルを{0}増加
+	Diversion: ディバージョンスキルを{0}増加
+	DragonConversion: ドラゴンコンバージョンスキルを{0}増加
+	Elemental: エレメンタルスキルを{0}増加
+	Embolden: エンボルデンスキルを{0}増加
+	EvadeDistance: 回避距離スキルを{0}増加
+	Evasion: 回避スキルを{0}増加
+	Fate: フェイトスキルを{0}増加
+	Fencing: フェンシングスキルを{0}増加
+	FireAttack: 火属性攻撃スキルを{0}増加
+	FireRes: 火耐性スキルを{0}増加
+	FishingExpert: フィッシングエキスパートスキルを{0}増加
+	Foray: フォレイスキルを{0}増加
+	Fortified: フォーティファイドスキルを{0}増加
+	FreeMeal: フリーミールスキルを{0}増加
+	Focus: フォーカススキルを{0}増加
+	Furious: フューリアススキルを{0}増加
+	Gathering: ギャザリングスキルを{0}増加
+	Geologist: ジオロジストスキルを{0}増加
+	Gluttony: グラトニースキルを{0}増加
+	Grinder: グラインダースキルを{0}増加
+	Guard: ガードスキルを{0}増加
+	GuardUp: ガードアップスキルを{0}増加
+	Guts: ガッツスキルを{0}増加
+	Handicraft: 手工芸/ラピッドファイアスキルを{0}増加
+	HastenRecovery: ヘイストリカバリースキルを{0}増加
+	Health: ヘルスブーストスキルを{0}増加
+	HeatRes: 熱耐性スキルを{0}増加
+	HeavenSent: ヘブンセントスキルを{0}増加
+	Heroics: ヒロイックスキルを{0}増加
+	HeroShield: ヒーローシールドスキルを{0}増加
+	HoneyHunter: ハニーハンタースキルを{0}増加
+	IceAttack: 氷属性攻撃スキルを{0}増加
+	IceRes: 氷耐性スキルを{0}増加
+	IntrepidHeart: イントレピッドハートスキルを有効化
+	JumpMaster: ジャンプマスタースキルを{0}増加
+	KushalaBlessing: クシャラの祝福スキルを{0}増加
+	LastingPower: ラスティングパワースキルを{0}増加
+	LatentPower: レイテントパワースキルを{0}増加
+	MailOfHellfire: メイルオブヘルファイアスキルを{0}増加
+	MastersTouch: マスターズタッチ/デッドアイスキルを{0}増加
+	MaximumMight: マキシマムマイトスキルを{0}増加
+	Mushroomancer: マッシュルーマンサースキルを{0}増加
+	NegativeCrit: ネガティブクリティカルボーナススキルを{0}増加
+	NormalUp: クイックシース/ノーマルアップスキルを{0}増加
+	OffensiveGuard: オフェンシブガードスキルを{0}増加
+	Outdoorsman: アウトドアマンスキルを{0}増加
+	PelletUp: パニッシュドロー/ペレットアップスキルを{0}増加
+	PierceUp: クリティカルドロー/ピアースアップスキルを{0}増加
+	Poison: 毒耐性スキルを{0}増加
+	PoisonCoatingPlus: 毒コーティングプラススキルを有効化
+	PolarHunter: ポーラーハンタースキルを{0}増加
+	PowerProlonger: パワープロロンガースキルを{0}増加
+	Protection: プロテクションスキルを{0}増加
+	ProtectivePolish: プロテクティブポリッシュスキルを{0}増加
+	PunishDraw: パニッシュドロー/ペレットアップスキルを{0}増加
+	QuickBreath: クイックブレススキルを{0}増加
+	QuickGathering: クイックギャザリングスキルを{0}増加
+	QuickSharpening: クイックシャープニングスキルを{0}増加
+	QuickSheath: クイックシース/ノーマルアップスキルを{0}増加
+	RapidFire: 手工芸/ラピッドファイアスキルを{0}増加
+	RazorSharp: レイザーシャープ/スペアショットスキルを{0}増加
+	RecUp: リカバリーアップスキルを{0}増加
+	RecoverySpd: リカバリースピードスキルを{0}増加
+	Redirection: リダイレクションスキルを{0}増加
+	Resentment: リゼントメントスキルを{0}増加
+	Resuscitate: リサシテイトスキルを{0}増加
+	RockSteady: ロックステディスキルを有効化
+	Scholar: スカラースキルを{0}増加
+	Slugger: スラッガースキルを{0}増加
+	Sneak: スニークスキルを{0}増加
+	SneakAttack: スニークアタックスキルを{0}増加
+	SpareShot: レイザーシャープ/スペアショットスキルを{0}増加
+	SpeedEating: スピードイーティングスキルを{0}増加
+	SpeedSetup: スピードセットアップスキルを{0}増加
+	Spirit: スピリットスキルを{0}増加
+	SpiritbirdsCall: スピリットバードの呼び声スキルを有効化
+	StamRecovery: スタミナリカバリースキルを{0}増加
+	StatusTrigger: ステータストリガースキルを{0}増加
+	Strife: ストライフスキルを{0}増加
+	StunResist: スタン耐性スキルを{0}増加
+	SurvivalExpert: サバイバルエキスパートスキルを{0}増加
+	Tenderizer: テンダライザースキルを{0}増加
+	TeostraBlessing: テオストラの祝福スキルを{0}増加
+	ThunderAttack: 雷属性攻撃スキルを{0}増加
+	ThunderRes: 雷耐性スキルを{0}増加
+	TremorRes: 震動耐性スキルを{0}増加
+	TropicsHunter: トロピックスハンタースキルを{0}増加
+	Unscathed: アンスケイズドスキルを{0}増加
+	Vault: ヴォールトスキルを{0}増加
+	WaterAttack: 水属性攻撃スキルを{0}増加
+	WaterRes: 水耐性スキルを{0}増加
+	Windproof: 防風スキルを{0}増加
+	Vanity: このアイテムをアクセサリーのバニティスロットに装備します。
+	OneSlotNoNumber: "[○]"
+	TwoSlotNoNumber: "[○][○]"
+	ThreeSlotNoNumber: "[○][○][○]"
+	VanillaAffinitySliding: アフィニティスライディングスキルを増加
+	VanillaAdrenalineRush: アドレナリンラッシュスキルを増加
+	VanillaAquaticMobility: 水中移動スキルを増加
+	VanillaArtillery: 砲術/ボムブーストスキルを増加
+	VanillaAttackBoost: 攻撃ブーストスキルを増加
+	VanillaAutoTracker: オートトラッカースキルを増加
+	VanillaAutoReload: オートリロードスキルを有効化
+	VanillaBBQExpert: BBQエキスパートスキルを増加
+	VanillaBerserk: バーサークスキルを増加
+	VanillaBladehoneScale: ブレードホーンスケールスキルを増加
+	VanillaBleeding: 出血耐性スキルを有効化
+	VanillaBlightproof: ブライト耐性スキルを増加
+	VanillaBloodlust: ブラッドラストスキルを増加
+	VanillaBloodRite: ブラッドライトスキルを増加
+	VanillaBombBoost: 砲術/ボムブーストスキルを増加
+	VanillaBubbleDance: バブルダンススキルを増加
+	VanillaCarving: カービングスキルを増加
+	VanillaChallengeSheath: チャレンジシース/近距離アップスキルを増加
+	VanillaChameleosBlessing: カメレオスの祝福スキルを増加
+	VanillaCliffHanger: クリフハンガースキルを増加
+	VanillaCoalescence: コアレッセンススキルを増加
+	VanillaColdRes: 冷気耐性スキルを増加
+	VanillaConstitution: 耐久力スキルを増加
+	VanillaCounterStrike: カウンターストライクスキルを増加
+	VanillaCRangePlus: チャレンジシース/近距離アップスキルを増加
+	VanillaCritDraw: クリティカルドロースキルを増加
+	VanillaCritElement: クリティカルエレメントスキルを増加
+	VanillaCritEye: クリティカルアイスキルを増加
+	VanillaCriticalBoost: クリティカルブーストスキルを増加
+	VanillaDeadEye: マスターズタッチ/デッドアイスキルを増加
+	VanillaDefenseBoost: 防御ブーストスキルを増加
+	VanillaDefiance: ディファイアンススキルを増加
+	VanillaDefLock: 防御ロックスキルを増加
+	VanillaDereliction: デレリクションスキルを増加
+	VanillaDiversion: ディバージョンスキルを増加
+	VanillaElemental: エレメンタルスキルを増加
+	VanillaEmbolden: エンボルデンスキルを増加
+	VanillaEvadeDistance: 回避距離スキルを増加
+	VanillaEvasion: 回避スキルを増加
+	VanillaFate: フェイトスキルを増加
+	VanillaFencing: フェンシングスキルを増加
+	VanillaFireAttack: 火属性攻撃スキルを増加
+	VanillaFireRes: 火耐性スキルを増加
+	VanillaFishingExpert: フィッシングエキスパートスキルを増加
+	VanillaForay: フォレイスキルを増加
+	VanillaFortified: フォーティファイドスキルを増加
+	VanillaFreeMeal: フリーミールスキルを増加
+	VanillaFocus: フォーカススキルを増加
+	VanillaFurious: フューリアススキルを増加
+	VanillaGathering: ギャザリングスキルを増加
+	VanillaGeologist: ジオロジストスキルを増加
+	VanillaGluttony: グラトニースキルを増加
+	VanillaGrinder: グラインダースキルを増加
+	VanillaGuard: ガードスキルを増加
+	VanillaGuardUp: ガードアップスキルを増加
+	VanillaGuts: ガッツスキルを増加
+	VanillaHandicraft: 手工芸/ラピッドファイアスキルを増加
+	VanillaHastenRecovery: ヘイストリカバリースキルを増加
+	VanillaHealth: ヘルスブーストスキルを増加
+	VanillaHeatRes: 熱耐性スキルを増加
+	VanillaHeroics: ヒロイックスキルを増加
+	VanillaHeroShield: ヒーローシールドスキルを増加
+	VanillaHoneyHunter: ハニーハンタースキルを増加
+	VanillaIceAttack: 氷属性攻撃スキルを増加
+	VanillaIceRes: 氷耐性スキルを増加
+	VanillaIntrepidHeart: イントレピッドハートスキルを有効化
+	VanillaJumpMaster: ジャンプマスタースキルを増加
+	VanillaKushalaBlessing: クシャラの祝福スキルを増加
+	VanillaLastingPower: ラスティングパワースキルを増加
+	VanillaLatentPower: レイテントパワースキルを増加
+	VanillaMailOfHellfire: メイルオブヘルファイアスキルを増加
+	VanillaMastersTouch: マスターズタッチ/デッドアイスキルを増加
+	VanillaMaximumMight: マキシマムマイトスキルを増加
+	VanillaMushroomancer: マッシュルーマンサースキルを増加
+	VanillaNegativeCrit: ネガティブクリティカルボーナススキルを増加
+	VanillaNormalUp: ノーマルアップスキルを増加
+	VanillaOffensiveGuard: オフェンシブガードスキルを増加
+	VanillaOutdoorsman: アウトドアマンスキルを増加
+	VanillaPelletUp: パニッシュドロー/ペレットアップスキルを増加
+	VanillaPierceUp: クリティカルドロー/ピアースアップスキルを増加
+	VanillaPoison: 毒耐性スキルを増加
+	VanillaPoisonCoatingPlus: 毒コーティングプラススキルを有効化
+	VanillaPolarHunter: ポーラーハンタースキルを増加
+	VanillaPowerProlonger: パワープロロンガースキルを増加
+	VanillaProtection: プロテクションスキルを増加
+	VanillaProtectivePolish: プロテクティブポリッシュスキルを増加
+	VanillaPunishDraw: パニッシュドロー/ペレットアップスキルを増加
+	VanillaQuickBreath: クイックブレススキルを増加
+	VanillaQuickGathering: クイックギャザリングスキルを増加
+	VanillaQuickSharpening: クイックシャープニングスキルを増加
+	VanillaQuickSheath: クイックシーススキルを増加
+	VanillaRapidFire: 手工芸/ラピッドファイアスキルを増加
+	VanillaRazorSharp: レイザーシャープ/スペアショットスキルを増加
+	VanillaRecUp: リカバリーアップスキルを増加
+	VanillaRecoverySpd: リカバリースピードスキルを増加
+	VanillaRedirection: リダイレクションスキルを増加
+	VanillaResentment: リゼントメントスキルを増加
+	VanillaResuscitate: リサシテイトスキルを増加
+	VanillaRockSteady: ロックステディスキルを有効化
+	VanillaScholar: スカラースキルを増加
+	VanillaSlugger: スラッガースキルを増加
+	VanillaSneak: スニークスキルを増加
+	VanillaSneakAttack: スニークアタックスキルを増加
+	VanillaSpareShot: レイザーシャープ/スペアショットスキルを増加
+	VanillaSpeedEating: スピードイーティングスキルを増加
+	VanillaSpeedSetup: スピードセットアップスキルを増加
+	VanillaSpirit: スピリットスキルを増加
+	VanillaSpiritbirdsCall: スピリットバードの呼び声スキルを有効化
+	VanillaStamRecovery: スタミナリカバリースキルを増加
+	VanillaStatusTrigger: ステータストリガースキルを増加
+	VanillaStrife: ストライフスキルを増加
+	VanillaStunResist: スタン耐性スキルを増加
+	VanillaSurvivalExpert: サバイバルエキスパートスキルを増加
+	VanillaTenderizer: テンダライザースキルを増加
+	VanillaTeostraBlessing: テオストラの祝福スキルを増加
+	VanillaThunderAttack: 雷属性攻撃スキルを増加
+	VanillaThunderRes: 雷耐性スキルを増加
+	VanillaTremorRes: 震動耐性スキルを増加
+	VanillaTropicsHunter: トロピックスハンタースキルを増加
+	VanillaUnscathed: アンスケイズドスキルを増加
+	VanillaVault: ヴォールトスキルを増加
+	VanillaWaterAttack: 水属性攻撃スキルを増加
+	VanillaWaterRes: 水耐性スキルを増加
+	VanillaWindproof: 防風スキルを増加
+	VanillaOneSlotDecor: "[○]x"
+	VanillaTwoSlotDecor: "[○][○]x"
+	VanillaThreeSlotDecor: "[○][○][○]x"
+}
+
+Items: {
+	ArzurosHelm: {
+		DisplayName: アルズロスヘルム
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			ハニーハンタースキルを{1}増加
+			防御ブーストスキルを{2}増加
+			'''
+	}
+
+	ArzurosMail: {
+		DisplayName: アルズロスメイル
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			耐久力スキルを{1}増加
+			防御ブーストスキルを{2}増加
+			'''
+	}
+
+	ArzurosGreaves: {
+		DisplayName: アルズロスグリーブ
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			ハニーハンタースキルを{1}増加
+			スタン耐性スキルを{2}増加
+			'''
+	}
+
+	BasariosHelmet: {
+		DisplayName: バサリオスヘルメット
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			ガードスキルを{1}増加
+			毒耐性スキルを{2}増加
+			'''
+	}
+
+	BasariosGreavesX: {
+		DisplayName: バサリオスグリーブX
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			防御ブーストスキルを{1}増加
+			[○][○][○]x{2}
+			'''
+	}
+
+	BasariosGreavesU: {
+		DisplayName: バサリオスグリーブU
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			移動速度増加{1}%
+			ガードスキルを{2}増加
+			震動耐性スキルを{3}増加
+			[○][○][○]x{4}
+			[○]x{4}
+			'''
+	}
+
+	BasariosGreaves: {
+		DisplayName: バサリオスグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			ガードスキルを{1}増加
+			熱耐性スキルを{2}増加
+			'''
+	}
+
+	BoneHelmet: {
+		DisplayName: ボーンヘルメット
+		Tooltip: フォーティファイドスキルを{0}増加
+	}
+
+	BoneMail: {
+		DisplayName: ボーンメイル
+		Tooltip: トロピックスハンタースキルを{0}増加
+	}
+
+	BoneGreaves: {
+		DisplayName: ボーンヘルメット
+		Tooltip: ""
+	}
+
+	BullfangoMask: {
+		DisplayName: ブルファンゴマスク
+		Tooltip: 攻撃ブーストスキルを{0}増加
+	}
+
+	GypcerosHelm: {
+		DisplayName: ギプセロスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			フリーミールスキルを{1}増加
+			毒耐性スキルを{2}増加
+			'''
+	}
+
+	GypcerosMail: {
+		DisplayName: ギプセロスメイル
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			スタミナリカバリースキルを{1}増加
+			スタン耐性スキルを{2}増加
+			'''
+	}
+
+	GypcerosGreaves: {
+		DisplayName: ギプセロスグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			スタミナリカバリースキルを{1}増加
+			スタン耐性スキルを{2}増加
+			'''
+	}
+
+	GypcerosHelmX: {
+		DisplayName: ギプセロスヘルムX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			最大マナを20増加
+			フリーミールスキルを{1}増加
+			スタン耐性スキルを{2}増加
+			'''
+	}
+
+	GypcerosMailX: {
+		DisplayName: ギプセロスメイルX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			最大マナを20増加
+			防御ブーストスキルを{1}増加
+			スタミナリカバリースキルを{2}増加
+			'''
+	}
+
+	GypcerosGreavesX: {
+		DisplayName: ギプセロスグリーブX
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			最大マナを20増加
+			毒耐性スキルを{1}増加
+			フリーミールスキルを{2}増加
+			スタミナリカバリースキルを{3}増加
+			'''
+	}
+
+	JaggiMask: {
+		DisplayName: ジャギィマスク
+		Tooltip:
+			'''
+			攻撃ブーストスキルを{0}増加
+			クリティカルアイスキルを{1}増加
+			'''
+	}
+
+	MoofahHead: {
+		DisplayName: ムーファヘッド
+		Tooltip:
+			'''
+			雷属性攻撃スキルを{0}増加
+			ギャザリングスキルを{1}増加
+			'''
+	}
+
+	NargacugaHelm: {
+		DisplayName: ナルガクルガヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			回避距離スキルを{1}増加
+			回避スキルを{2}増加
+			'''
+	}
+
+	RathianHelmet: {
+		DisplayName: リオレイアヘルメット
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			ヘルスブーストスキルを{1}増加
+			プロテクションスキルを{2}増加
+			'''
+	}
+
+	RhenoplosHelmS: {
+		DisplayName: レノプロスヘルムS
+		Tooltip:
+			'''
+			防御ブーストスキルを{0}増加
+			砲術/ボムブーストスキルを{1}増加
+			'''
+	}
+
+	RhenoplosHelmX: {
+		DisplayName: レノプロスヘルムX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			移動速度増加{1}%
+			砲術/ボムブーストスキルを{2}増加
+			[○][○][○]x{3}
+			'''
+	}
+
+	YukumoKasa: {
+		DisplayName: ユクモカサ
+		Tooltip: クリティカルアイスキルを{0}増加
+	}
+
+	BlangoHelm: {
+		DisplayName: ブランゴヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			氷属性攻撃スキルを{1}増加
+			ポーラーハンタースキルを{2}増加
+			'''
+	}
+
+	CeanataurHelm: {
+		DisplayName: シエナタウアヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			クリティカルアイスキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			'''
+	}
+
+	KutkuHelm: {
+		DisplayName: クックヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			火属性攻撃スキルを{1}増加
+			攻撃ブーストスキルを{2}増加
+			'''
+	}
+
+	GammothHelm: {
+		DisplayName: ガムートヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			ポーラーハンタースキルを{1}増加
+			氷耐性スキルを{2}増加
+			'''
+	}
+
+	ZinogreHelm: {
+		DisplayName: ジンオウガヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			レイテントパワースキルを{1}増加
+			雷属性攻撃スキルを{2}増加
+			'''
+	}
+
+	BarrothHelm: {
+		DisplayName: ボロスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			攻撃ブーストスキルを{1}増加
+			防御ブーストスキルを{2}増加
+			'''
+	}
+
+	KonchuHelm: {
+		DisplayName: コンチュウヘルム
+		Tooltip: 防御ブーストスキルを{0}増加
+	}
+
+	SeltasHelm: {
+		DisplayName: セルタスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			ミニオンの最大数を{1}増加
+			ヒーローシールドスキルを{2}増加
+			ガードスキルを{3}増加
+			'''
+	}
+
+	SeltasMail: {
+		DisplayName: セルタスメイル
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			ミニオンの最大数を{1}増加
+			ヒーローシールドスキルを{2}増加
+			ガードスキルを{3}増加
+			'''
+	}
+
+	SeltasGreaves: {
+		DisplayName: セルタスグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			ミニオンの最大数を{1}増加
+			ガードアップスキルを{2}増加
+			ヒーローシールドスキルを{3}増加
+			'''
+	}
+
+	BattleHelm: {
+		DisplayName: バトルヘルム
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			オートトラッカースキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			'''
+	}
+
+	BlueKutkuHelm: {
+		DisplayName: ブルークックヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			クリティカルアイスキルを{1}増加
+			火属性攻撃スキルを{2}増加
+			'''
+	}
+
+	RathalosHelm: {
+		DisplayName: リオレウスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			テンダライザースキルを{1}増加
+			攻撃ブーストスキルを{2}増加
+			'''
+	}
+
+	VaikHelm: {
+		DisplayName: ヴァイクヘルム
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			水中移動スキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			水属性攻撃スキルを{3}増加
+			'''
+	}
+
+	KirinHelm: {
+		DisplayName: キリンヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			移動速度増加{1}%
+			ラスティングパワースキルを{2}増加
+			プロテクションスキルを{3}増加
+			'''
+	}
+
+	KirinJacket: {
+		DisplayName: キリンジャケット
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			最大マナを{1}増加
+			プロテクションスキルを{2}増加
+			ブライト耐性スキルを{3}増加
+			'''
+	}
+
+	KirinLegGuards: {
+		DisplayName: キリンレッグガード
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			最大マナを{1}増加
+			ブライト耐性スキルを{2}増加
+			カービングスキルを{2}増加
+			ラスティングパワースキルを{4}増加
+			'''
+	}
+
+	KirinHeadX: {
+		DisplayName: キリンヘッドX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			クリティカルヒット率増加{1}%
+			雷属性攻撃スキルを{2}増加
+			ブライト耐性スキルを{3}増加
+			[○][○][○]x{4}
+			[○]x{4}
+			'''
+	}
+
+	KirinJacketX: {
+		DisplayName: キリンジャケットX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			クリティカルヒット率増加{1}%
+			プロテクションスキルを{2}増加
+			フェイトスキルを{3}増加
+			[○][○][○]x{4}
+			'''
+	}
+
+	KirinLegGuardsX: {
+		DisplayName: キリンレッグガードX
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			移動速度増加{1}%
+			クリティカルアイスキルを{2}増加
+			フェイトスキルを{3}増加
+			[○][○]x{4}
+			'''
+	}
+
+	SailorHat: {
+		DisplayName: セーラーハット
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			回避スキルを{1}増加
+			フェイトスキルを{2}増加
+			'''
+	}
+
+	BariothHelm: {
+		DisplayName: バリオスヘルム
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			クリティカルアイスキルを{1}増加
+			氷属性攻撃スキルを{2}増加
+			回避スキルを{3}増加
+			'''
+	}
+
+	MossSwineHat: {
+		DisplayName: モスワイン帽子
+		Tooltip: マッシュルーマンサースキルを{0}増加
+	}
+
+	HornetaurHelm: {
+		DisplayName: ホルネトールヘルム
+		Tooltip:
+			'''
+			プロテクションスキルを{0}増加
+			レイザーシャープ/スペアショットスキルを{1}増加
+			'''
+	}
+
+	HornetaurMail: {
+		DisplayName: ホルネトールメイル
+		Tooltip:
+			'''
+			回避スキルを{0}増加
+			ハニーハンタースキルを{1}増加
+			'''
+	}
+
+	HornetaurGreaves: {
+		DisplayName: ホルネトールグリーブ
+		Tooltip:
+			'''
+			ハニーハンタースキルを{0}増加
+			ギャザリングスキルを{1}増加
+			'''
+	}
+
+	LavasiothHelm: {
+		DisplayName: ラヴァシオトヘルム
+		Tooltip:
+			'''
+			近接攻撃速度増加{0}%
+			火属性攻撃スキルを{1}増加
+			'''
+	}
+
+	ZamtriosHelm: {
+		DisplayName: ザムトリオスヘルム
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			リカバリースピードスキルを{1}増加
+			氷属性攻撃スキルを{2}増加
+			'''
+	}
+
+	BrachydiosHelm: {
+		DisplayName: ブラキディオスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			スピリットスキルを{1}増加
+			砲術/ボムブーストスキルを{2}増加
+			'''
+	}
+
+	BrachydiosMail: {
+		DisplayName: ブラキディオスメイル
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			チャレンジシース/近距離アップスキルを{1}増加
+			スピリットスキルを{2}増加
+			'''
+	}
+
+	BrachydiosGreaves: {
+		DisplayName: ブラキディオスグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			砲術/ボムブーストスキルを{1}増加
+			手工芸/ラピッドファイアスキルを{2}増加
+			'''
+	}
+
+	SeregiosHelm: {
+		DisplayName: レギオスヘルム
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			ブレードホーンスケールスキルを{1}増加
+			出血耐性スキルを有効化
+			'''
+	}
+
+	SeregiosMail: {
+		DisplayName: レギオスメイル
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			回避スキルを{1}増加
+			ブレードホーンスケールスキルを{2}増加
+			'''
+	}
+
+	SeregiosGreaves: {
+		DisplayName: レギオスグリーブ
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			ブレードホーンスケールスキルを{1}増加
+			耐久力スキルを{2}増加
+			回避スキルを{3}増加
+			'''
+	}
+
+	MizutsuneHelm: {
+		DisplayName: ミツツネヘルム
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			バブルダンススキルを{1}増加
+			水耐性スキルを{2}増加
+			'''
+	}
+
+	MizutsuneMailX: {
+		DisplayName: ミツツネメイルX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			クリティカルヒット率増加{1}%
+			バブルダンススキルを{2}増加
+			リサシテイトスキルを{3}増加
+			[○][○][○]x{4}
+			[○]x{4}
+			'''
+	}
+
+	MizutsuneMail: {
+		DisplayName: ミツツネメイル
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			水属性攻撃スキルを{1}増加
+			バブルダンススキルを{2}増加
+			'''
+	}
+
+	MizutsuneGreaves: {
+		DisplayName: ミツツネグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			耐久力スキルを{1}増加
+			水属性攻撃スキルを{2}増加
+			'''
+	}
+
+	MizutsuneGreavesX: {
+		DisplayName: ミツツネグリーブX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			移動速度増加{1}%
+			耐久力スキルを{2}増加
+			バブルダンススキルを{3}増加
+			[○]x{4}
+			[○][○]x{5}
+			'''
+	}
+
+	GlavenusHelm: {
+		DisplayName: グレヴェナスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			手工芸/ラピッドファイアスキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			'''
+	}
+
+	GlavenusMail: {
+		DisplayName: グレヴェナスメイル
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			攻撃ブーストスキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			'''
+	}
+
+	GlavenusGreaves: {
+		DisplayName: グレヴェナスグリーブ
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			火属性攻撃スキルを{1}増加
+			手工芸/ラピッドファイアスキルを{2}増加
+			レイザーシャープ/スペアショットスキルを{3}増加
+			'''
+	}
+
+	GlavenusGreavesX: {
+		DisplayName: グレヴェナスグリーブX
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			移動速度増加{1}%
+			スピリットスキルを{2}増加
+			レイザーシャープ/スペアショットスキルを{3}増加
+			[○]x{4}
+			[○][○]x{5}
+			'''
+	}
+
+	AstalosHelm: {
+		DisplayName: アスタロスヘルム
+		Tooltip:
+			'''
+			移動速度増加{0}%
+			雷属性攻撃スキルを{1}増加
+			ヴォールトスキルを{2}増加
+			'''
+	}
+
+	AstalosMail: {
+		DisplayName: アスタロスメイル
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			防風スキルを{1}増加
+			雷属性攻撃スキルを{2}増加
+			'''
+	}
+
+	AstalosGreaves: {
+		DisplayName: アスタロスグリーブ
+		Tooltip:
+			'''
+			クリティカルヒット率増加{0}%
+			ヴォールトスキルを{1}増加
+			スタン耐性スキルを{2}増加
+			'''
+	}
+
+	GoreMagalaHelm: {
+		DisplayName: ゴアマガラヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			リゼントメントスキルを{1}増加
+			ブラッドラストスキルを{2}増加
+			'''
+	}
+
+	GoreMagalaMail: {
+		DisplayName: ゴアマガラメイル
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			スピリットスキルを{1}増加
+			コアレッセンススキルを{2}増加
+			'''
+	}
+
+	GoreMagalaGreaves: {
+		DisplayName: ゴアマガラグリーブ
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			スピリットスキルを{1}増加
+			リゼントメントスキルを{2}増加
+			'''
+	}
+
+	DamascusHelm: {
+		DisplayName: ダマスクスヘルム
+		Tooltip:
+			'''
+			ダメージ増加{0}%
+			プロテクティブポリッシュスキルを{1}増加
+			レイザーシャープ/スペアショットスキルを{2}増加
+			'''
+	}
+
+	HermitaurHelm: {
+	DisplayName: ハーミタウアヘルム
+	Tooltip:
+		'''
+		フリーミールスキルを{1}増加
+		ガードスキルを{1}増加
+		'''
+}
+
+CongalaHelm: {
+	DisplayName: コンガラヘルム
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		マッシュルーマンサースキルを{1}増加
+		'''
+}
+
+UkanlosHelm: {
+	DisplayName: ウカンロスヘルム
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		攻撃ブーストスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		'''
+}
+
+UkanlosMail: {
+	DisplayName: ウカンロスメイル
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		攻撃ブーストスキルを{2}増加
+		スタン耐性スキルを{3}増加
+		'''
+}
+
+UkanlosGreaves: {
+	DisplayName: ウカンロスグリーブ
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		氷属性攻撃スキルを{3}増加
+		'''
+}
+
+UkanlosHelmX: {
+	DisplayName: ウカンロスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		手工芸/ラピッドファイアスキルを{2}増加
+		マスターズタッチ/デッドアイスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+UkanlosMailX: {
+	DisplayName: ウカンロスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		クリティカルドロー/ピアースアップスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+UkanlosGreavesX: {
+	DisplayName: ウカンロスグリーブX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+AkantorHelm: {
+	DisplayName: アカントールヘルム
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルアイスキルを{1}増加
+		火属性攻撃スキルを{2}増加
+		'''
+}
+
+AgnaktorHelm: {
+	DisplayName: アグナクトールヘルム
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		ガードスキルを{1}増加
+		火属性攻撃スキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		'''
+}
+
+AgnaktorMail: {
+	DisplayName: アグナクトールメイル
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		火属性攻撃スキルを{1}増加
+		クイックシャープニングスキルを{2}増加
+		'''
+}
+
+AgnaktorGreaves: {
+	DisplayName: アグナクトールグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		熱耐性スキルを{1}増加
+		クイックシャープニングスキルを{2}増加
+		'''
+}
+
+GJaggiHelm: {
+	DisplayName: グレートジャギィヘルム
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		攻撃ブーストスキルを{1}増加
+		グラトニースキルを{2}増加
+		'''
+}
+
+GJaggiHelmX: {
+	DisplayName: グレートジャギィヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		クリティカルアイスキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+HornetaurHelmGX: {
+	DisplayName: ホルネトールヘルムGX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		ガードスキルを{2}増加
+		クリティカルドロー/ピアースアップスキルを{3}増加
+		レイザーシャープ/スペアショットスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+HornetaurHelmX: {
+	DisplayName: ホルネトールヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		ガードスキルを{2}増加
+		リゼントメントスキルを{3}増加
+		レイザーシャープ/スペアショットスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+HornetaurHelmXR: {
+	DisplayName: ホルネトールヘルムXR
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		ガードスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		リゼントメントスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+KutkuHelmX: {
+	DisplayName: クックヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		火属性攻撃スキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+MoofahHeadX: {
+	DisplayName: ムーファヘッドX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		ギャザリングスキルを{2}増加
+		氷耐性スキルを{3}増加
+		雷属性攻撃スキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+BlangoHelmGX: {
+	DisplayName: ブランゴヘルムGX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		ヘイストリカバリースキルを{2}増加
+		氷属性攻撃スキルを{3}増加
+		ポーラーハンタースキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+BlueKutkuHelmX: {
+	DisplayName: ブルークックヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		クリティカルアイスキルを{3}増加
+		火属性攻撃スキルを{4}増加
+		'''
+}
+
+BasariosHelmetX: {
+	DisplayName: バサリオスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		毒耐性スキルを{1}増加
+		ガードスキルを{2}増加
+		防御ブーストスキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+BattleHelmX: {
+	DisplayName: バトルヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		ガードスキルを{2}増加
+		攻撃ブーストスキルを{3}増加
+		レイザーシャープ/スペアショットスキルを{4}増加
+		'''
+}
+
+BoneHelmetX: {
+	DisplayName: ボーンヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		フォーティファイドスキルを{2}増加
+		スラッガースキルを{3}増加
+		パニッシュドロー/ペレットアップスキルを{4}増加
+		[○][○][○]x{5}
+		'''
+}
+
+BoneMailX: {
+	DisplayName: ボーンメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		攻撃ブーストスキルを{1}増加
+		パニッシュドロー/ペレットアップスキルを{2}増加
+		[○][○][○]x{3}
+		'''
+}
+
+BoneGreavesX: {
+	DisplayName: ボーングリーブX
+	Tooltip:
+		'''
+		近接攻撃速度増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		[○]x{3}
+		[○][○]x{4}
+		'''
+}
+
+BullfangoMaskX: {
+	DisplayName: ブルファンゴマスクX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		ヒロイックススキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+JaggiMaskX: {
+	DisplayName: ジャギィマスクX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		オートトラッカースキルを{2}増加
+		スピードイーティングスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+KonchuHelmX: {
+	DisplayName: コンチュウヘルムX
+	Tooltip:
+		'''
+		弾薬節約率20%
+		移動速度増加{0}%
+		防御ブーストスキルを{1}増加
+		防御ロックスキルを{2}増加
+		プロテクションスキルを{3}増加
+		'''
+}
+
+MossSwineHatX: {
+	DisplayName: モスワイン帽子X
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを20増加
+		マッシュルーマンサースキルを{1}増加
+		ギャザリングスキルを{2}増加
+		[○][○]x{3}
+		'''
+}
+
+SailorHatX: {
+	DisplayName: セーラーハットX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		フェイトスキルを{2}増加
+		回避スキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+YukumoKasaX: {
+	DisplayName: ユクモカサX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		クリティカルアイスキルを{2}増加
+		回避スキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+BasariosHelmetU: {
+	DisplayName: バサリオスヘルムU
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		熱耐性スキルを{2}増加
+		ガードスキルを{3}増加
+		オフェンシブガードスキルを{4}増加
+		'''
+}
+
+LavasiothHelmGX: {
+	DisplayName: ラヴァシオトヘルムGX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		熱耐性スキルを{2}増加
+		オフェンシブガードスキルを{3}増加
+		リゼントメントスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+ZamtriosHelmX: {
+	DisplayName: ザムトリオスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		水中移動スキルを{2}増加
+		リカバリースピードスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+BarrothHelmU: {
+	DisplayName: ボロスヘルムU
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		氷属性攻撃スキルを{2}増加
+		ガードスキルを{3}増加
+		パニッシュドロー/ペレットアップスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+BarrothHelmX: {
+	DisplayName: ボロスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		防御ブーストスキルを{3}増加
+		ガードスキルを{4}増加
+		'''
+}
+
+CongalaHelmU: {
+	DisplayName: コンガラヘルムU
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを20増加
+		攻撃ブーストスキルを{1}増加
+		フリーミールスキルを{2}増加
+		マッシュルーマンサースキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+CongalaHelmX: {
+	DisplayName: コンガラヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを20増加
+		攻撃ブーストスキルを{1}増加
+		グラトニースキルを{2}増加
+		マッシュルーマンサースキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+ZamtriosHelmZ: {
+	DisplayName: ザムトリオスヘルムZ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		リカバリースピードスキルを{2}増加
+		リカバリーアップスキルを{3}増加
+		ヘイストリカバリースキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+ArzurosHelmX: {
+	DisplayName: アルズロスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		防御ブーストスキルを{2}増加
+		ハニーハンタースキルを{3}増加
+		プロテクションスキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+ArzurosMailX: {
+	DisplayName: アルズロスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		防御ブーストスキルを{1}増加
+		プロテクションスキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+ArzurosGreavesX: {
+	DisplayName: アルズロスグリーブX
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		ハニーハンタースキルを{1}増加
+		スタン耐性スキルを{2}増加
+		プロテクションスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+VaikHelmX: {
+	DisplayName: ヴァイクヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		水属性攻撃スキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+BulldromeHelmX: {
+	DisplayName: ブルドロームヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		ディバージョンスキルを{3}増加
+		[○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+HermitaurHelmX: {
+	DisplayName: ハーミタウアヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		フリーミールスキルを{2}増加
+		ガードスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+RathianHelmX: {
+	DisplayName: リオレイアヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		ヘルスブーストスキルを{2}増加
+		プロテクションスキルを{3}増加
+		リカバリーアップスキルを{4}増加
+		[○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+RathianHelmXR: {
+	DisplayName: リオレイアヘルムXR
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		プロテクションスキルを{2}増加
+		[○]x{3}
+		[○][○]x{4}
+		'''
+}
+
+CeanataurHelmGX: {
+	DisplayName: シエナタウアヘルムGX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		クイックシース/ノーマルアップスキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+CeanataurHelmX: {
+	DisplayName: シエナタウアヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		クリティカルアイスキルを{2}増加
+		水属性攻撃スキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+NargacugaHelmX: {
+	DisplayName: ナルガクルガヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		クリティカルアイスキルを{2}増加
+		回避距離スキルを{3}増加
+		回避スキルを{4}増加
+		アンスケイズドスキルを{5}増加
+		[○]x{6}
+		'''
+}
+
+BariothHelmX: {
+	DisplayName: バリオスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		氷属性攻撃スキルを{2}増加
+		クリティカルアイスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+HermitaurHelmZ: {
+	DisplayName: ハーミタウアヘルムZ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		ガードスキルを{2}増加
+		クリティカルドロー/ピアースアップスキルを{3}増加
+		ガッツスキルを{4}増加
+		[○]x{5}
+		[○][○]x{6}
+		'''
+}
+
+QurupecoHelmX: {
+	DisplayName: クルペッコヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を{1}増加
+		回避スキルを{2}増加
+		フリーミールスキルを{3}増加
+		リカバリーアップスキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+VangisHelmX: {
+	DisplayName: ヴァンギスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		手工芸/ラピッドファイアスキルを{2}増加
+		テンダライザースキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+BrachydiosHelmX: {
+	DisplayName: ブラキディオスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		スピリットスキルを{2}増加
+		スタン耐性スキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+BrachydiosMailX: {
+	DisplayName: ブラキディオスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		砲術/ボムブーストスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+BrachydiosGreavesX: {
+	DisplayName: ブラキディオスグリーブX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		スピリットスキルを{2}増加
+		チャレンジシース/近距離アップスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+AgnaktorHelmX: {
+	DisplayName: アグナクトールヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		火属性攻撃スキルを{2}増加
+		ガードスキルを{3}増加
+		レイザーシャープ/スペアショットスキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+AgnaktorMailX: {
+	DisplayName: アグナクトールメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		エレメンタルスキルを{2}増加
+		ガードスキルを{3}増加
+		レイザーシャープ/スペアショットスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+AgnaktorGreavesX: {
+	DisplayName: アグナクトールグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		火属性攻撃スキルを{2}増加
+		クイックシャープニングスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+SeregiosHelmX: {
+	DisplayName: レギオスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		耐久力スキルを{2}増加
+		ブレードホーンスケールスキルを{3}増加
+		出血耐性スキルを有効化
+		[○][○]x{4}
+		'''
+}
+
+SeregiosMailX: {
+	DisplayName: レギオスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		手工芸/ラピッドファイアスキルを{2}増加
+		ブレードホーンスケールスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+SeregiosGreavesX: {
+	DisplayName: レギオスグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		回避スキルを{2}増加
+		ブレードホーンスケールスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+SeltasHelmX: {
+	DisplayName: セルタスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を{1}増加
+		ガードスキルを{2}増加
+		手工芸/ラピッドファイアスキルを{3}増加
+		ヒーローシールドスキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+SeltasHelmXR: {
+	DisplayName: セルタスヘルムXR
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		セントリーの最大数を{1}増加
+		ガードスキルを{2}増加
+		砲術/ボムブーストスキルを{3}増加
+		ヒーローシールドスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+SeltasMailX: {
+	DisplayName: セルタスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		セントリーの最大数を{1}増加
+		砲術/ボムブーストスキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+SeltasGreavesX: {
+	DisplayName: セルタスグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を{1}増加
+		移動速度増加{2}%
+		ヒーローシールドスキルを{3}増加
+		手工芸/ラピッドファイアスキルを{4}増加
+		レイザーシャープ/スペアショットスキルを{5}増加
+		[○][○]x{6}
+		'''
+}
+
+DamascusHelmX: {
+	DisplayName: ダマスクスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		手工芸/ラピッドファイアスキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+BnahabraHat: {
+	DisplayName: ブナハブラ帽子
+	Tooltip:
+		'''
+		フェンシングスキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{1}増加
+		'''
+}
+
+BnahabraHatX: {
+	DisplayName: ブナハブラ帽子X
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		フェンシングスキルを{1}増加
+		レイザーシャープ/スペアショットスキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+LagiacrusHelm: {
+	DisplayName: ラギアクルスヘルム
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを{1}増加
+		スタミナリカバリースキルを{2}増加
+		ガードスキルを{3}増加
+		'''
+}
+
+LagiacrusHelmX: {
+	DisplayName: ラギアクルスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを{1}増加
+		スタミナリカバリースキルを{2}増加
+		エレメンタルスキルを{3}増加
+		ガードスキルを{4}増加
+		[○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+GoreMagalaHelmEX: {
+	DisplayName: ゴアマガラヘルムEX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		コアレッセンススキルを{2}増加
+		スピリットスキルを{3}増加
+		ブラッドラストスキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+GoreMagalaHelmX: {
+	DisplayName: ゴアマガラヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		リゼントメントスキルを{2}増加
+		ブラッドラストスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+GoreMagalaMailX: {
+	DisplayName: ゴアマガラメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		コアレッセンススキルを{2}増加
+		スピリットスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+GoreMagalaGreavesX: {
+	DisplayName: ゴアマガラグリーブX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		回避スキルを{2}増加
+		スピリットスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+GlavenusHelmX: {
+	DisplayName: グレヴェナスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		手工芸/ラピッドファイアスキルを{2}増加
+		グラインダースキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+GlavenusMailX: {
+	DisplayName: グレヴェナスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		グラインダースキルを{2}増加
+		レイザーシャープ/スペアショットスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+GammothHelmX: {
+	DisplayName: ガムートヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		ポーラーハンタースキルを{2}増加
+		ネガティブクリティカルボーナススキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+GammothGreavesX: {
+	DisplayName: ガムートグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		氷属性攻撃スキルを{3}増加
+		[○]x{4}
+		[○][○]x{5}
+		'''
+}
+
+GammothGreaves: {
+	DisplayName: ガムートグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		攻撃ブーストスキルを{1}増加
+		ポーラーハンタースキルを{2}増加
+		'''
+}
+
+AstalosHelmX: {
+	DisplayName: アスタロスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		雷属性攻撃スキルを{2}増加
+		クリティカルドロー/ピアースアップスキルを{3}増加
+		ヴォールトスキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+AstalosMailX: {
+	DisplayName: アスタロスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		レイザーシャープ/スペアショットスキルを{2}増加
+		クリティカルドロー/ピアースアップスキルを{3}増加
+		ヴォールトスキルを{4}増加
+		[○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+AstalosGreavesX: {
+	DisplayName: アスタロスグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		雷属性攻撃スキルを{2}増加
+		クリティカルドロー/ピアースアップスキルを{3}増加
+		ヴォールトスキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+MizutsuneHelmX: {
+	DisplayName: ミツツネヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		耐久力スキルを{2}増加
+		回避スキルを{3}増加
+		水属性攻撃スキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+RathalosHelmX: {
+	DisplayName: リオレウスヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		火属性攻撃スキルを{3}増加
+		テンダライザースキルを{4}増加
+		[○]x{5}
+		'''
+}
+
+ZinogreHelmX: {
+	DisplayName: ジンオウガヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		レイテントパワースキルを{2}増加
+		回避スキルを{3}増加
+		スニークスキルを{4}増加
+		[○][○]x{5}
+		'''
+	}
+
+	BanbaroHelm: {
+	DisplayName: バンバロヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ライフを徐々に再生
+		マッシュルーマンサースキルを{1}増加
+		リゼントメントスキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+ZinogreGreaves: {
+	DisplayName: ジンオウガグリーブ
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		クリティカルアイスキルを{1}増加
+		レイテントパワースキルを{2}増加
+		雷属性攻撃スキルを{3}増加
+		'''
+}
+
+ZinogreMail: {
+	DisplayName: ジンオウガメイル
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		レイテントパワースキルを{1}増加
+		雷属性攻撃スキルを{2}増加
+		'''
+}
+
+ZinogreGreavesX: {
+	DisplayName: ジンオウガグリーブX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		回避スキルを{2}増加
+		レイテントパワースキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+ZinogreMailX: {
+	DisplayName: ジンオウガメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		最大マナを20増加
+		雷属性攻撃スキルを{1}増加
+		アンスケイズドスキルを{2}増加
+		レイテントパワースキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+ZinogreGreavesZ: {
+	DisplayName: ジンオウガグリーブZ
+	Tooltip:
+		'''
+		ミニオンの最大数を{0}増加
+		移動速度増加{1}%
+		回避スキルを{2}増加
+		震動耐性スキルを{3}増加
+		アンスケイズドスキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{5}
+		'''
+}
+
+ZinogreHelmZ: {
+	DisplayName: ジンオウガヘルムZ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を{1}増加
+		回避スキルを{2}増加
+		ネガティブクリティカルボーナススキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+ZinogreMailZ: {
+	DisplayName: ジンオウガメイルZ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を{1}増加
+		防風スキルを{2}増加
+		ネガティブクリティカルボーナススキルを{3}増加
+		アンスケイズドスキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+ZinogreHelmEX: {
+	DisplayName: ジンオウガヘルムEX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		レイテントパワースキルを{1}増加
+		'''
+}
+
+HornetaurMailX: {
+	DisplayName: ホルネトールメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ミニオンの最大数を1増加
+		フリーミールスキルを{1}増加
+		ガードスキルを{2}増加
+		テンダライザースキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+HornetaurGreavesX: {
+	DisplayName: ホルネトールグリーブX
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		ミニオンの最大数を1増加
+		ガードスキルを{1}増加
+		リカバリーアップスキルを{2}増加
+		[○][○]x{3}
+		'''
+}
+
+DrothGreaves: {
+	DisplayName: ドロスグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水耐性スキルを{1}増加
+		'''
+}
+
+DrothGreavesX: {
+	DisplayName: ドロスグリーブX
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水属性攻撃スキルを{1}増加
+		水耐性スキルを{2}増加
+		[○][○][○]x{3}
+		'''
+}
+
+GajauGreaves: {
+	DisplayName: ガジャウグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水中移動スキルを{1}増加
+		'''
+}
+
+GajauGreavesX: {
+	DisplayName: ガジャウグリーブX
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水中移動スキルを{1}増加
+		リカバリーアップスキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+SailorSocksX: {
+	DisplayName: セーラーソックスX
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水中移動スキルを{1}増加
+		水属性攻撃スキルを{2}増加
+		[○][○]x{3}
+		[○]x{3}
+		'''
+}
+
+SailorSocks: {
+	DisplayName: セーラーソックス
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水中移動スキルを{1}増加
+		水属性攻撃スキルを{2}増加
+		'''
+}
+
+SailorShirtX: {
+	DisplayName: セーラーシャツX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		水中移動スキルを{1}増加
+		水属性攻撃スキルを{2}増加
+		[○][○]x{3}
+		[○]x{3}
+		'''
+}
+
+SailorShirt: {
+	DisplayName: セーラーシャツ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		水属性攻撃スキルを{1}増加
+		回避スキルを{2}増加
+		'''
+}
+
+LavasiothMailX: {
+	DisplayName: ラヴァシオトメイルX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		近接攻撃速度増加{1}%
+		ガードスキルを{2}増加
+		リゼントメントスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+LavasiothMail: {
+	DisplayName: ラヴァシオトメイル
+	Tooltip:
+		'''
+		近接攻撃速度増加{0}%
+		ガードスキルを{1}増加
+		リゼントメントスキルを{2}増加
+		'''
+}
+
+LavasiothGreaves: {
+	DisplayName: ラヴァシオトグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		リカバリーアップスキルを{1}増加
+		リゼントメントスキルを{2}増加
+		'''
+}
+
+LavasiothGreavesX: {
+	DisplayName: ラヴァシオトグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		ライフを徐々に再生
+		フォーティファイドスキルを{2}増加
+		リカバリーアップスキルを{3}増加
+		リゼントメントスキルを{4}増加
+		[○][○]x{5}
+		'''
+}
+
+BasariosMailU: {
+	DisplayName: バサリオスメイルU
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		近接攻撃速度増加{1}%
+		オフェンシブガードスキルを{2}増加
+		パニッシュドロー/ペレットアップスキルを{3}増加
+		[○]x{4}
+		'''
+}
+
+BasariosMailX: {
+	DisplayName: バサリオスメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		近接攻撃速度増加{1}%
+		防御ブーストスキルを{2}増加
+		ガードスキルを{3}増加
+		[○][○]x{4}
+		'''
+}
+
+BasariosMail: {
+	DisplayName: バサリオスメイル
+	Tooltip:
+		'''
+		近接攻撃速度増加{0}%
+		防御ブーストスキルを{1}増加
+		ディバージョンスキルを{2}増加
+		'''
+}
+
+RathianMailX: {
+	DisplayName: リオレイアメイルX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		プロテクションスキルを{3}増加
+		[○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+RathianMail: {
+	DisplayName: リオレイアメイル
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		ヘルスブーストスキルを{1}増加
+		リカバリースピードスキルを{2}増加
+		'''
+}
+
+RathianGreaves: {
+	DisplayName: リオレイアグリーブ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		リカバリースピードスキルを{1}増加
+		毒耐性スキルを{2}増加
+		'''
+}
+
+RathianGreavesX: {
+	DisplayName: リオレイアグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		リカバリーアップスキルを{2}増加
+		リカバリースピードスキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+NargacugaMail: {
+	DisplayName: ナルガクルガメイル
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		スニークスキルを{1}増加
+		クリティカルアイスキルを{2}増加
+		'''
+}
+
+NargacugaGreaves: {
+	DisplayName: ナルガクルガグリーブ
+	Tooltip:
+		'''
+		移動速度増加{0}%
+		クリティカルアイスキルを{1}増加
+		回避距離スキルを{2}増加
+		'''
+}
+
+NargacugaGreavesX: {
+	DisplayName: ナルガクルガグリーブX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		回避距離スキルを{2}増加
+		回避スキルを{3}増加
+		[○][○]x{4}
+		[○]x{4}
+		'''
+}
+
+NargacugaMailX: {
+	DisplayName: ナルガクルガメイルX
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		回避スキルを{2}増加
+		スニークスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+GammothMail: {
+	DisplayName: ガムートメイル
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		攻撃ブーストスキルを{1}増加
+		震動耐性スキルを{2}増加
+		'''
+}
+
+GammothMailX: {
+	DisplayName: ガムートメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		震動耐性スキルを{3}増加
+		[○][○][○]x{4}
+		'''
+}
+
+ValstraxHelm: {
+	DisplayName: ヴァルストラックスヘルム - エポック
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		攻撃ブーストスキルを{2}増加
+		ドラゴンコンバージョンスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+ValstraxMail: {
+	DisplayName: ヴァルストラックスメイル - エポック
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		ドラゴンコンバージョンスキルを{2}増加
+		スタン耐性スキルを{3}増加
+		クリティカルブーストスキルを{4}増加
+		[○][○][○]x{5}
+		[○]x{6}
+		'''
+}
+
+ValstraxGreaves: {
+	DisplayName: ヴァルストラックスグリーブ - エポック
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		攻撃ブーストスキルを{2}増加
+		クリティカルブーストスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+TempestCrown: {
+	DisplayName: テンペストクラウンX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		回避スキルを{2}増加
+		ヘブンセントスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+TempestRobe: {
+	DisplayName: テンペストローブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルヒット率増加{1}%
+		レイテントパワースキルを{2}増加
+		ヘブンセントスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+TempestHakama: {
+	DisplayName: テンペスト袴X
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		移動速度増加{1}%
+		クリティカルブーストスキルを{2}増加
+		ヘブンセントスキルを{3}増加
+		[○][○][○]x{4}
+		[○]x{5}
+		'''
+}
+
+TetsucabraHelm: {
+	DisplayName: テツカブラヘルム
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		スタミナリカバリースキルを{1}増加
+		パニッシュドロー/ペレットアップスキルを{2}増加
+		'''
+}
+
+TetsucabraMail: {
+	DisplayName: テツカブラメイル
+	Tooltip:
+		'''
+		クリティカルヒット率増加{0}%
+		熱耐性スキルを{1}増加
+		パニッシュドロー/ペレットアップスキルを{2}増加
+		'''
+}
+
+TetsucabraGreaves: {
+	DisplayName: テツカブラグリーブ
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		震動耐性スキルを{1}増加
+		'''
+}
+
+TetsucabraHelmX: {
+	DisplayName: テツカブラヘルムX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		スタミナリカバリースキルを{1}増加
+		震動耐性スキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+TetsucabraMailX: {
+	DisplayName: テツカブラメイルX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		熱耐性スキルを{1}増加
+		パニッシュドロー/ペレットアップスキルを{2}増加
+		[○][○]x{3}
+		[○]x{3}
+		'''
+}
+
+TetsucabraGreavesX: {
+	DisplayName: テツカブラグリーブX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		スタン耐性スキルを{1}増加
+		スタミナリカバリースキルを{2}増加
+		[○]x{3}
+		'''
+}
+
+RemobraHeadgear: {
+	DisplayName: レモブラヘッドギア
+	Tooltip: パワープロロンガースキルを{0}増加
+}
+
+RemobraHeadgearX: {
+	DisplayName: レモブラヘッドギアX
+	Tooltip:
+		'''
+		ダメージ増加{0}%
+		クリティカルブーストスキルを{1}増加
+		パワープロロンガースキルを{2}増加
+		[○][○][○]x{3}
+		'''
+}
+
+Atk1: {
+	DisplayName: 攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Atk2: {
+	DisplayName: 攻撃ブースト装飾品2
+	Tooltip:
+		'''
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BladehoneScale1: {
+	DisplayName: ブレードホーンスケール装飾品1
+	Tooltip:
+		'''
+		ブレードホーンスケールスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BladehoneScale2: {
+	DisplayName: ブレードホーンスケール装飾品2
+	Tooltip:
+		'''
+		ブレードホーンスケールスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BloodRite1: {
+	DisplayName: ブラッドライト装飾品1
+	Tooltip:
+		'''
+		ブラッドライトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Carving1: {
+	DisplayName: カービング装飾品1
+	Tooltip:
+		'''
+		カービングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Constitution1: {
+	DisplayName: 耐久力装飾品1
+	Tooltip:
+		'''
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Constitution2: {
+	DisplayName: 耐久力装飾品2
+	Tooltip:
+		'''
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Counterstrike1: {
+	DisplayName: カウンターストライク装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Counterstrike2: {
+	DisplayName: カウンターストライク装飾品2
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritBoost1: {
+	DisplayName: クリティカルブースト装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDraw1: {
+	DisplayName: クリティカルドロー/ピアースアップ装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDraw2: {
+	DisplayName: クリティカルドロー/ピアースアップ装飾品2
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Defense1: {
+	DisplayName: 防御ブースト装飾品1
+	Tooltip:
+		'''
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Defense2: {
+	DisplayName: 防御ブースト装飾品2
+	Tooltip:
+		'''
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Defense3: {
+	DisplayName: 防御ブースト装飾品3
+	Tooltip:
+		'''
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Defiance1: {
+	DisplayName: ディファイアンス装飾品1
+	Tooltip:
+		'''
+		ディファイアンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Defiance3: {
+	DisplayName: ディファイアンス装飾品3
+	Tooltip:
+		'''
+		ディファイアンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Embolden1: {
+	DisplayName: エンボルデン装飾品1
+	Tooltip:
+		'''
+		エンボルデンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Embolden2: {
+	DisplayName: エンボルデン装飾品2
+	Tooltip:
+		'''
+		エンボルデンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttack1: {
+	DisplayName: 火属性攻撃装飾品1
+	Tooltip:
+		'''
+		火属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttack3: {
+	DisplayName: 火属性攻撃装飾品3
+	Tooltip:
+		'''
+		火属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireRes1: {
+	DisplayName: 火耐性装飾品1
+	Tooltip:
+		'''
+		火耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Foray1: {
+	DisplayName: フォレイ装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Foray2: {
+	DisplayName: フォレイ装飾品2
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Fortified1: {
+	DisplayName: フォーティファイド装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Gathering1: {
+	DisplayName: ギャザリング装飾品1
+	Tooltip:
+		'''
+		ギャザリングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Gluttony1: {
+	DisplayName: グラトニー装飾品1
+	Tooltip:
+		'''
+		グラトニースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Grinder1: {
+	DisplayName: グラインダー装飾品1
+	Tooltip:
+		'''
+		グラインダースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HastenRecovery1: {
+	DisplayName: ヘイストリカバリー装飾品1
+	Tooltip:
+		'''
+		ヘイストリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HastenRecovery2: {
+	DisplayName: ヘイストリカバリー装飾品2
+	Tooltip:
+		'''
+		ヘイストリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Health1: {
+	DisplayName: ヘルス装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Health2: {
+	DisplayName: ヘルス装飾品2
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HeatRes1: {
+	DisplayName: 熱耐性装飾品1
+	Tooltip:
+		'''
+		熱耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Heroics1: {
+	DisplayName: ヒロイックス装飾品1
+	Tooltip:
+		'''
+		ヒロイックススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Heroics2: {
+	DisplayName: ヒロイックス装飾品2
+	Tooltip:
+		'''
+		ヒロイックススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HeroShield1: {
+	DisplayName: ヒーローシールド装飾品1
+	Tooltip:
+		'''
+		ヒーローシールドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HoneyHunter1: {
+	DisplayName: ハニーハンター装飾品1
+	Tooltip:
+		'''
+		ハニーハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ProtectivePolish1: {
+	DisplayName: プロテクティブポリッシュ装飾品1
+	Tooltip:
+		'''
+		プロテクティブポリッシュスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ProtectivePolish3: {
+	DisplayName: プロテクティブポリッシュ装飾品3
+	Tooltip:
+		'''
+		プロテクティブポリッシュスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheath1: {
+	DisplayName: クイックシース/ノーマルアップ装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheath3: {
+	DisplayName: クイックシース/ノーマルアップ装飾品3
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RazorSharp1: {
+	DisplayName: レイザーシャープ/スペアショット装飾品1
+	Tooltip:
+		'''
+		レイザーシャープ/スペアショットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RazorSharp3: {
+	DisplayName: レイザーシャープ/スペアショット装飾品3
+	Tooltip:
+		'''
+		レイザーシャープ/スペアショットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RecoverySpd1: {
+	DisplayName: リカバリースピード装飾品1
+	Tooltip:
+		'''
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RecoverySpd3: {
+	DisplayName: リカバリースピード装飾品3
+	Tooltip:
+		'''
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	RecUp1: {
+	DisplayName: リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RecUp3: {
+	DisplayName: リカバリーアップ装飾品3
+	Tooltip:
+		'''
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Resentment1: {
+	DisplayName: リゼントメント装飾品1
+	Tooltip:
+		'''
+		リゼントメントスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Resentment2: {
+	DisplayName: リゼントメント装飾品2
+	Tooltip:
+		'''
+		リゼントメントスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Resuscitate1: {
+	DisplayName: リサシテイト装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Resuscitate2: {
+	DisplayName: リサシテイト装飾品2
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SneakAttack1: {
+	DisplayName: スニークアタック装飾品1
+	Tooltip:
+		'''
+		スニークアタックスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpareShot1: {
+	DisplayName: スペアショット装飾品1
+	Tooltip:
+		'''
+		レイザーシャープ/スペアショットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpareShot3: {
+	DisplayName: スペアショット装飾品3
+	Tooltip:
+		'''
+		レイザーシャープ/スペアショットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedSharpening1: {
+	DisplayName: スピードシャープニング装飾品1
+	Tooltip:
+		'''
+		クイックシャープニングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedSharpening3: {
+	DisplayName: スピードシャープニング装飾品3
+	Tooltip:
+		'''
+		クイックシャープニングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Tenderizer1: {
+	DisplayName: テンダライザー装飾品1
+	Tooltip:
+		'''
+		テンダライザースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttack1: {
+	DisplayName: 雷属性攻撃装飾品1
+	Tooltip:
+		'''
+		雷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttack3: {
+	DisplayName: 雷属性攻撃装飾品3
+	Tooltip:
+		'''
+		雷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderRes1: {
+	DisplayName: 雷耐性装飾品1
+	Tooltip:
+		'''
+		雷耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySliding1: {
+	DisplayName: アフィニティスライディング装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Artillery1: {
+	DisplayName: 砲術/ボムブースト装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AutoReload1: {
+	DisplayName: オートリロード装飾品1
+	Tooltip:
+		'''
+		オートリロードスキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AutoTracker1: {
+	DisplayName: オートトラッカー装飾品1
+	Tooltip:
+		'''
+		オートトラッカースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Bleeding1: {
+	DisplayName: 出血耐性装飾品1
+	Tooltip:
+		'''
+		出血耐性スキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Blightproof1: {
+	DisplayName: ブライトプルーフ装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Bloodlust1: {
+	DisplayName: ブラッドラスト装飾品1
+	Tooltip:
+		'''
+		ブラッドラストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BombBoost1: {
+	DisplayName: ボムブースト装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDance1: {
+	DisplayName: バブルダンス装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDance2: {
+	DisplayName: バブルダンス装飾品2
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheath1: {
+	DisplayName: チャレンジシース装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheath2: {
+	DisplayName: チャレンジシース装飾品2
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Cliffhanger1: {
+	DisplayName: クリフハンガー装飾品1
+	Tooltip:
+		'''
+		クリフハンガースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CloseRangePlus1: {
+	DisplayName: 近距離プラス装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Coalescence1: {
+	DisplayName: コアレッセンス装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Coalescence2: {
+	DisplayName: コアレッセンス装飾品2
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ColdRes1: {
+	DisplayName: 冷気耐性装飾品1
+	Tooltip:
+		'''
+		冷気耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritElement1: {
+	DisplayName: クリティカルエレメント装飾品1
+	Tooltip:
+		'''
+		クリティカルエレメントスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritElement2: {
+	DisplayName: クリティカルエレメント装飾品2
+	Tooltip:
+		'''
+		クリティカルエレメントスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritEye1: {
+	DisplayName: クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritEye2: {
+	DisplayName: クリティカルアイ装飾品2
+	Tooltip:
+		'''
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+DeadEye1: {
+	DisplayName: デッドアイ装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+DefLock1: {
+	DisplayName: 防御ロック装飾品1
+	Tooltip:
+		'''
+		防御ロックスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Diversion1: {
+	DisplayName: ディバージョン装飾品1
+	Tooltip:
+		'''
+		ディバージョンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Diversion3: {
+	DisplayName: ディバージョン装飾品3
+	Tooltip:
+		'''
+		ディバージョンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Elemental1: {
+	DisplayName: エレメンタル装飾品1
+	Tooltip:
+		'''
+		エレメンタルスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+EvadeDistance1: {
+	DisplayName: 回避距離装飾品1
+	Tooltip:
+		'''
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+EvadeDistance2: {
+	DisplayName: 回避距離装飾品2
+	Tooltip:
+		'''
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Evasion1: {
+	DisplayName: 回避装飾品1
+	Tooltip:
+		'''
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Evasion2: {
+	DisplayName: 回避装飾品2
+	Tooltip:
+		'''
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Fate1: {
+	DisplayName: フェイト装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Fencing1: {
+	DisplayName: フェンシング装飾品1
+	Tooltip:
+		'''
+		フェンシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FishingExpert1: {
+	DisplayName: フィッシングエキスパート装飾品1
+	Tooltip:
+		'''
+		フィッシングエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMeal1: {
+	DisplayName: フリーミール装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Geologist1: {
+	DisplayName: ジオロジスト装飾品1
+	Tooltip:
+		'''
+		ジオロジストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Guard1: {
+	DisplayName: ガード装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Guard2: {
+	DisplayName: ガード装飾品2
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardUp1: {
+	DisplayName: ガードアップ装飾品1
+	Tooltip:
+		'''
+		ガードアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardUp2: {
+	DisplayName: ガードアップ装飾品2
+	Tooltip:
+		'''
+		ガードアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttack1: {
+	DisplayName: 氷属性攻撃装飾品1
+	Tooltip:
+		'''
+		氷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttack2: {
+	DisplayName: 氷属性攻撃装飾品2
+	Tooltip:
+		'''
+		氷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttack3: {
+	DisplayName: 氷属性攻撃装飾品3
+	Tooltip:
+		'''
+		氷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceRes1: {
+	DisplayName: 氷耐性装飾品1
+	Tooltip:
+		'''
+		氷耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IntrepidHeart1: {
+	DisplayName: イントレピッドハート装飾品1
+	Tooltip:
+		'''
+		イントレピッドハートスキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+JumpMaster1: {
+	DisplayName: ジャンプマスター装飾品1
+	Tooltip:
+		'''
+		ジャンプマスタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LastingPower1: {
+	DisplayName: ラスティングパワー装飾品1
+	Tooltip:
+		'''
+		ラスティングパワースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPower1: {
+	DisplayName: レイテントパワー装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPower2: {
+	DisplayName: レイテントパワー装飾品2
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouch1: {
+	DisplayName: マスターズタッチ/デッドアイ装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouch2: {
+	DisplayName: マスターズタッチ/デッドアイ装飾品2
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Mushroomancer1: {
+	DisplayName: マッシュルーマンサー装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+NormalUp1: {
+	DisplayName: ノーマルアップ装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuard1: {
+	DisplayName: オフェンシブガード装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PelletUp1: {
+	DisplayName: ペレットアップ装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PierceUp1: {
+	DisplayName: ピアースアップ装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Poison1: {
+	DisplayName: アンチポイズン装飾品1
+	Tooltip:
+		'''
+		毒耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PoisonCoating1: {
+	DisplayName: ポイズンコーティングプラス装飾品1
+	Tooltip:
+		'''
+		ポイズンコーティングプラススキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunter1: {
+	DisplayName: ポーラーハンター装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunter2: {
+	DisplayName: ポーラーハンター装飾品2
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Protection1: {
+	DisplayName: プロテクション装飾品1
+	Tooltip:
+		'''
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Protection2: {
+	DisplayName: プロテクション装飾品2
+	Tooltip:
+		'''
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDraw1: {
+	DisplayName: パニッシュドロー/ペレットアップ装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDraw2: {
+	DisplayName: パニッシュドロー/ペレットアップ装飾品2
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Scholar1: {
+	DisplayName: スカラー装飾品1
+	Tooltip:
+		'''
+		スカラースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Sneak1: {
+	DisplayName: スニーク装飾品1
+	Tooltip:
+		'''
+		スニークスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Sneak3: {
+	DisplayName: スニーク装飾品3
+	Tooltip:
+		'''
+		スニークスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedEating1: {
+	DisplayName: スピードイーティング装飾品1
+	Tooltip:
+		'''
+		スピードイーティングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedSetUp1: {
+	DisplayName: スピードセットアップ装飾品1
+	Tooltip:
+		'''
+		スピードセットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritBirdsCall1: {
+	DisplayName: スピリットバーズコール装飾品1
+	Tooltip:
+		'''
+		スピリットバーズコールスキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StaminaRecovery1: {
+	DisplayName: スタミナリカバリー装飾品1
+	Tooltip:
+		'''
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StaminaRecovery3: {
+	DisplayName: スタミナリカバリー装飾品3
+	Tooltip:
+		'''
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Strife1: {
+	DisplayName: ストライフ装飾品1
+	Tooltip:
+		'''
+		ストライフスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Unscathed1: {
+	DisplayName: アンスケイズド装飾品1
+	Tooltip:
+		'''
+		アンスケイズドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Unscathed2: {
+	DisplayName: アンスケイズド装飾品2
+	Tooltip:
+		'''
+		アンスケイズドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Vault1: {
+	DisplayName: ヴォールト装飾品1
+	Tooltip:
+		'''
+		ヴォールトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttack1: {
+	DisplayName: 水属性攻撃装飾品1
+	Tooltip:
+		'''
+		水属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttack3: {
+	DisplayName: 水属性攻撃装飾品3
+	Tooltip:
+		'''
+		水属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterRes1: {
+	DisplayName: 水耐性装飾品1
+	Tooltip:
+		'''
+		水耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AquaticMobility1: {
+	DisplayName: 水中移動装飾品1
+	Tooltip:
+		'''
+		水中移動スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Spirit1: {
+	DisplayName: スピリット装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Spirit2: {
+	DisplayName: スピリット装飾品2
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySliding2: {
+	DisplayName: アフィニティスライディング装飾品2
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AquaticMobility2: {
+	DisplayName: 水中移動装飾品2
+	Tooltip:
+		'''
+		水中移動スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AquaticMobility3: {
+	DisplayName: 水中移動装飾品3
+	Tooltip:
+		'''
+		水中移動スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Artillery2: {
+	DisplayName: 砲術/ボムブースト装飾品2
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AutoTracker2: {
+	DisplayName: オートトラッカー装飾品2
+	Tooltip:
+		'''
+		オートトラッカースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Blightproof2: {
+	DisplayName: ブライトプルーフ装飾品2
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Bloodlust2: {
+	DisplayName: ブラッドラスト装飾品2
+	Tooltip:
+		'''
+		ブラッドラストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BloodRite2: {
+	DisplayName: ブラッドライト装飾品2
+	Tooltip:
+		'''
+		ブラッドライトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BombBoost2: {
+	DisplayName: ボムブースト装飾品2
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	BubbleDance3: {
+	DisplayName: バブルダンス装飾品3
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Cliffhanger2: {
+	DisplayName: クリフハンガー装飾品2
+	Tooltip:
+		'''
+		クリフハンガースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ColdRes2: {
+	DisplayName: 冷気耐性装飾品2
+	Tooltip:
+		'''
+		冷気耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritBoost2: {
+	DisplayName: クリティカルブースト装飾品2
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+DeadEye2: {
+	DisplayName: デッドアイ装飾品2
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Fate2: {
+	DisplayName: フェイト装飾品2
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Fencing2: {
+	DisplayName: フェンシング装飾品2
+	Tooltip:
+		'''
+		フェンシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttack2: {
+	DisplayName: 火属性攻撃装飾品2
+	Tooltip:
+		'''
+		火属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireRes2: {
+	DisplayName: 火耐性装飾品2
+	Tooltip:
+		'''
+		火耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FishingExpert2: {
+	DisplayName: フィッシングエキスパート装飾品2
+	Tooltip:
+		'''
+		フィッシングエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMeal2: {
+	DisplayName: フリーミール装飾品2
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMeal3: {
+	DisplayName: フリーミール装飾品3
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Gathering2: {
+	DisplayName: ギャザリング装飾品2
+	Tooltip:
+		'''
+		ギャザリングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Geologist2: {
+	DisplayName: ジオロジスト装飾品2
+	Tooltip:
+		'''
+		ジオロジストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Gluttony2: {
+	DisplayName: グラトニー装飾品2
+	Tooltip:
+		'''
+		グラトニースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Gluttony3: {
+	DisplayName: グラトニー装飾品3
+	Tooltip:
+		'''
+		グラトニースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Grinder2: {
+	DisplayName: グラインダー装飾品2
+	Tooltip:
+		'''
+		グラインダースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Handicraft1: {
+	DisplayName: ハンディクラフト/ラピッドファイア装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Handicraft2: {
+	DisplayName: ハンディクラフト/ラピッドファイア装飾品2
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HeatRes2: {
+	DisplayName: 熱耐性装飾品2
+	Tooltip:
+		'''
+		熱耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HeroShield2: {
+	DisplayName: ヒーローシールド装飾品2
+	Tooltip:
+		'''
+		ヒーローシールドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HoneyHunter2: {
+	DisplayName: ハニーハンター装飾品2
+	Tooltip:
+		'''
+		ハニーハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceRes2: {
+	DisplayName: 氷耐性装飾品2
+	Tooltip:
+		'''
+		氷耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+JumpMaster2: {
+	DisplayName: ジャンプマスター装飾品2
+	Tooltip:
+		'''
+		ジャンプマスタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+JumpMaster3: {
+	DisplayName: ジャンプマスター装飾品3
+	Tooltip:
+		'''
+		ジャンプマスタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LastingPower2: {
+	DisplayName: ラスティングパワー装飾品2
+	Tooltip:
+		'''
+		ラスティングパワースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LastingPower3: {
+	DisplayName: ラスティングパワー装飾品3
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Mushroomancer2: {
+	DisplayName: マッシュルーマンサー装飾品2
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+NormalUp2: {
+	DisplayName: ノーマルアップ装飾品2
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuard2: {
+	DisplayName: オフェンシブガード装飾品2
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PelletUp2: {
+	DisplayName: ペレットアップ装飾品2
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PierceUp2: {
+	DisplayName: ピアースアップ装飾品2
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Poison2: {
+	DisplayName: アンチポイズン装飾品2
+	Tooltip:
+		'''
+		毒耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+RockSteady1: {
+	DisplayName: ロックステディ装飾品1
+	Tooltip:
+		'''
+		ロックステディスキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Scholar2: {
+	DisplayName: スカラー装飾品2
+	Tooltip:
+		'''
+		スカラースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SneakAttack2: {
+	DisplayName: スニークアタック装飾品2
+	Tooltip:
+		'''
+		スニークアタックスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedEating2: {
+	DisplayName: スピードイーティング装飾品2
+	Tooltip:
+		'''
+		スピードイーティングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpeedSetUp2: {
+	DisplayName: スピードセットアップ装飾品2
+	Tooltip:
+		'''
+		スピードセットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Strife2: {
+	DisplayName: ストライフ装飾品2
+	Tooltip:
+		'''
+		ストライフスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Tenderizer2: {
+	DisplayName: テンダライザー装飾品2
+	Tooltip:
+		'''
+		テンダライザースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttack2: {
+	DisplayName: 雷属性攻撃装飾品2
+	Tooltip:
+		'''
+		雷属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderRes2: {
+	DisplayName: 雷耐性装飾品2
+	Tooltip:
+		'''
+		雷耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunter1: {
+	DisplayName: トロピクスハンター装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunter2: {
+	DisplayName: トロピクスハンター装飾品2
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Vault2: {
+	DisplayName: ヴォールト装飾品2
+	Tooltip:
+		'''
+		ヴォールトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttack2: {
+	DisplayName: 水属性攻撃装飾品2
+	Tooltip:
+		'''
+		水属性攻撃スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterRes2: {
+	DisplayName: 水耐性装飾品2
+	Tooltip:
+		'''
+		水耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Elemental2: {
+	DisplayName: エレメンタル装飾品2
+	Tooltip:
+		'''
+		エレメンタルスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineRush1: {
+	DisplayName: アドレナリンラッシュ装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineRush2: {
+	DisplayName: アドレナリンラッシュ装飾品2
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StatusTrigger1: {
+	DisplayName: ステータストリガー装飾品1
+	Tooltip:
+		'''
+		ステータストリガースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StatusTrigger2: {
+	DisplayName: ステータストリガー装飾品2
+	Tooltip:
+		'''
+		ステータストリガースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChameleosBless1: {
+	DisplayName: カメレオスブレッシング装飾品1
+	Tooltip:
+		'''
+		カメレオスブレッシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+KushalaBless1: {
+	DisplayName: クシャルダブレッシング装飾品1
+	Tooltip:
+		'''
+		クシャルダブレッシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TeostraBless1: {
+	DisplayName: テオストラブレッシング装飾品1
+	Tooltip:
+		'''
+		テオストラブレッシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TremorRes1: {
+	DisplayName: 震動耐性装飾品1
+	Tooltip:
+		'''
+		震動耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TremorRes2: {
+	DisplayName: 震動耐性装飾品2
+	Tooltip:
+		'''
+		震動耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TremorRes3: {
+	DisplayName: 震動耐性装飾品3
+	Tooltip:
+		'''
+		震動耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Windproof1: {
+	DisplayName: 防風装飾品1
+	Tooltip:
+		'''
+		防風スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Windproof2: {
+	DisplayName: 防風装飾品2
+	Tooltip:
+		'''
+		防風スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Windproof3: {
+	DisplayName: 防風装飾品3
+	Tooltip:
+		'''
+		防風スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+NegativeCrit1: {
+	DisplayName: ネガティブクリット装飾品1
+	Tooltip:
+		'''
+		ネガティブクリティカルボーナススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+NegativeCrit2: {
+	DisplayName: ネガティブクリット装飾品2
+	Tooltip:
+		'''
+		ネガティブクリティカルボーナススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Outdoorsman1: {
+	DisplayName: アウトドアマン装飾品1
+	Tooltip:
+		'''
+		アウトドアマンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Outdoorsman3: {
+	DisplayName: アウトドアマン装飾品3
+	Tooltip:
+		'''
+		アウトドアマンスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MaximumMight1: {
+	DisplayName: マキシマムマイト装飾品1
+	Tooltip:
+		'''
+		マキシマムマイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MaximumMight2: {
+	DisplayName: マキシマムマイト装飾品2
+	Tooltip:
+		'''
+		マキシマムマイトスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BBQExpert1: {
+	DisplayName: BBQエキスパート装飾品1
+	Tooltip:
+		'''
+		BBQエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BBQExpert2: {
+	DisplayName: BBQエキスパート装飾品2
+	Tooltip:
+		'''
+		BBQエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SurvivalExpert1: {
+	DisplayName: サバイバルエキスパート装飾品1
+	Tooltip:
+		'''
+		サバイバルエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SurvivalExpert2: {
+	DisplayName: サバイバルエキスパート装飾品2
+	Tooltip:
+		'''
+		サバイバルエキスパートスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MailofHellfire1: {
+	DisplayName: メイルオブヘルファイア装飾品1
+	Tooltip:
+		'''
+		メイルオブヘルファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Focus1: {
+	DisplayName: フォーカス装飾品1
+	Tooltip:
+		'''
+		フォーカススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Focus2: {
+	DisplayName: フォーカス装飾品2
+	Tooltip:
+		'''
+		フォーカススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Redirection1: {
+	DisplayName: リダイレクション装飾品1
+	Tooltip:
+		'''
+		リダイレクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickBreath1: {
+	DisplayName: クイックブレス装飾品1
+	Tooltip:
+		'''
+		クイックブレススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Redirection2: {
+	DisplayName: リダイレクション装飾品2
+	Tooltip:
+		'''
+		リダイレクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Furious1: {
+	DisplayName: フューリアス装飾品1
+	Tooltip:
+		'''
+		フューリアススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Berserk1: {
+	DisplayName: バーサーク装飾品1
+	Tooltip:
+		'''
+		バーサークスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+Dereliction1: {
+	DisplayName: デリクション装飾品1
+	Tooltip:
+		'''
+		デリクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PowerProlonger1: {
+	DisplayName: パワープロロンガー装飾品1
+	Tooltip:
+		'''
+		パワープロロンガースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AutoGuard1: {
+	DisplayName: オートガード装飾品1
+	Tooltip:
+		'''
+		オートガードスキルを有効化
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StunResist1: {
+	DisplayName: スタン耐性装飾品1
+	Tooltip:
+		'''
+		スタン耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+StunResist2: {
+	DisplayName: スタン耐性装飾品2
+	Tooltip:
+		'''
+		スタン耐性スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineAttack: {
+	DisplayName: アドレナリンラッシュ/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineConstitution: {
+	DisplayName: アドレナリンラッシュ/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineCrit: {
+	DisplayName: アドレナリンラッシュ/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineEvadeDist: {
+	DisplayName: アドレナリンラッシュ/回避距離装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineEvasion: {
+	DisplayName: アドレナリンラッシュ/回避装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineHandi: {
+	DisplayName: アドレナリンラッシュ/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AdrenalineProtection: {
+	DisplayName: アドレナリンラッシュ/プロテクション装飾品1
+	Tooltip:
+		'''
+		アドレナリンラッシュスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingAttack: {
+	DisplayName: アフィニティスライディング/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingEvasion: {
+	DisplayName: アフィニティスライディング/回避装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingFocus: {
+	DisplayName: アフィニティスライディング/フォーカス装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		フォーカススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingHeroics: {
+	DisplayName: アフィニティスライディング/ヒロイックス装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		ヒロイックススキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingSneak: {
+	DisplayName: アフィニティスライディング/スニーク装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		スニークスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+AffinitySlidingUnscathed: {
+	DisplayName: アフィニティスライディング/アンスケイズド装飾品1
+	Tooltip:
+		'''
+		アフィニティスライディングスキルを{0}増加
+		アンスケイズドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtilleryAttack: {
+	DisplayName: 砲術/攻撃装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtilleryDefenseBoost: {
+	DisplayName: 砲術/防御ブースト装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtilleryEvadeDistance: {
+	DisplayName: 砲術/回避距離装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtilleryEvasion: {
+	DisplayName: 砲術/回避装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtillerySpdSetUp: {
+	DisplayName: 砲術/スピードセットアップ装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		スピードセットアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ArtilleryWindproof: {
+	DisplayName: 砲術/防風装飾品1
+	Tooltip:
+		'''
+		砲術/ボムブーストスキルを{0}増加
+		防風スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	BlightproofAttack: {
+	DisplayName: ブライトプルーフ/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofConstitution: {
+	DisplayName: ブライトプルーフ/耐久力装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofCrit: {
+	DisplayName: ブライトプルーフ/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofDefenseBoost: {
+	DisplayName: ブライトプルーフ/防御ブースト装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofEvadeDistance: {
+	DisplayName: ブライトプルーフ/回避距離装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofEvasion: {
+	DisplayName: ブライトプルーフ/回避装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofHandicraft: {
+	DisplayName: ブライトプルーフ/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofProtection: {
+	DisplayName: ブライトプルーフ/プロテクション装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofRecSpd: {
+	DisplayName: ブライトプルーフ/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BlightproofRecUp: {
+	DisplayName: ブライトプルーフ/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		ブライト耐性スキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceAttack: {
+	DisplayName: バブルダンス/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceConstitution: {
+	DisplayName: バブルダンス/耐久力装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceCrit: {
+	DisplayName: バブルダンス/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceCriticalBoost: {
+	DisplayName: バブルダンス/クリティカルブースト装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		クリティカルブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceHealth: {
+	DisplayName: バブルダンス/ヘルス装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+BubbleDanceStamRec: {
+	DisplayName: バブルダンス/スタミナリカバリー装飾品1
+	Tooltip:
+		'''
+		バブルダンススキルを{0}増加
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathAttack: {
+	DisplayName: チャレンジシース/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathConstitution: {
+	DisplayName: チャレンジシース/耐久力装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathCrit: {
+	DisplayName: チャレンジシース/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathDefenseBoost: {
+	DisplayName: チャレンジシース/防御ブースト装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathEvadeDistance: {
+	DisplayName: チャレンジシース/回避距離装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathEvasion: {
+	DisplayName: チャレンジシース/回避装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathHandicraft: {
+	DisplayName: チャレンジシース/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathProtection: {
+	DisplayName: チャレンジシース/プロテクション装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathRecSpd: {
+	DisplayName: チャレンジシース/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ChallengeSheathRecUp: {
+	DisplayName: チャレンジシース/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		チャレンジシース/近距離アップスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CoalescenceAttack: {
+	DisplayName: コアレッセンス/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CoalescenceCrit: {
+	DisplayName: コアレッセンス/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CoalescenceHealth: {
+	DisplayName: コアレッセンス/ヘルス装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CoalescenceRazorSharp: {
+	DisplayName: コアレッセンス/レイザーシャープ装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CoalescenceStamRec: {
+	DisplayName: コアレッセンス/スタミナリカバリー装飾品1
+	Tooltip:
+		'''
+		コアレッセンススキルを{0}増加
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeAttack: {
+	DisplayName: カウンターストライク/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeConstitution: {
+	DisplayName: カウンターストライク/耐久力装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeCrit: {
+	DisplayName: カウンターストライク/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeDefenseBoost: {
+	DisplayName: カウンターストライク/防御ブースト装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeEvadeDistance: {
+	DisplayName: カウンターストライク/回避距離装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeEvasion: {
+	DisplayName: カウンターストライク/回避装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeHandicraft: {
+	DisplayName: カウンターストライク/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeProtection: {
+	DisplayName: カウンターストライク/プロテクション装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeRecSpd: {
+	DisplayName: カウンターストライク/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CounterStrikeRecUp: {
+	DisplayName: カウンターストライク/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		カウンターストライクスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawAttack: {
+	DisplayName: クリティカルドロー/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawCrit: {
+	DisplayName: クリティカルドロー/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawEvasion: {
+	DisplayName: クリティカルドロー/回避装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawFencing: {
+	DisplayName: クリティカルドロー/フェンシング装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		フェンシングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawHandicraft: {
+	DisplayName: クリティカルドロー/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CritDrawHoneyHunter: {
+	DisplayName: クリティカルドロー/ハニーハンター装飾品1
+	Tooltip:
+		'''
+		クリティカルドロー/ピアースアップスキルを{0}増加
+		ハニーハンタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CriticalBoostConstitution: {
+	DisplayName: クリティカルブースト/耐久力装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CriticalBoostEvasion: {
+	DisplayName: クリティカルブースト/回避装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CriticalBoostProtection: {
+	DisplayName: クリティカルブースト/プロテクション装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CriticalBoostRecUp: {
+	DisplayName: クリティカルブースト/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+CriticalBoostStamRec: {
+	DisplayName: クリティカルブースト/スタミナリカバリー装飾品1
+	Tooltip:
+		'''
+		クリティカルブーストスキルを{0}増加
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateAttack: {
+	DisplayName: フェイト/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateHealth: {
+	DisplayName: フェイト/ヘルス装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateProtection: {
+	DisplayName: フェイト/プロテクション装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateRecUp: {
+	DisplayName: フェイト/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateSneak: {
+	DisplayName: フェイト/スニーク装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		スニークスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateSpdEating: {
+	DisplayName: フェイト/スピードイーティング装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		スピードイーティングスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FateTenderizer: {
+	DisplayName: フェイト/テンダライザー装飾品1
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		テンダライザースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayAttack: {
+	DisplayName: フォレイ/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayConstitution: {
+	DisplayName: フォレイ/耐久力装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayCrit: {
+	DisplayName: フォレイ/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayDefenseBoost: {
+	DisplayName: フォレイ/防御ブースト装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayEvadeDistance: {
+	DisplayName: フォレイ/回避距離装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayEvasion: {
+	DisplayName: フォレイ/回避装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayHandicraft: {
+	DisplayName: フォレイ/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayProtection: {
+	DisplayName: フォレイ/プロテクション装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayRecSpd: {
+	DisplayName: フォレイ/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ForayRecUp: {
+	DisplayName: フォレイ/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		フォレイスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedAttack: {
+	DisplayName: フォーティファイド/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedConstitution: {
+	DisplayName: フォーティファイド/耐久力装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedCrit: {
+	DisplayName: フォーティファイド/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedDefenseBoost: {
+	DisplayName: フォーティファイド/防御ブースト装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedEvadeDistance: {
+	DisplayName: フォーティファイド/回避距離装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedEvasion: {
+	DisplayName: フォーティファイド/回避装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedHandicraft: {
+	DisplayName: フォーティファイド/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedProtection: {
+	DisplayName: フォーティファイド/プロテクション装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedRecSpd: {
+	DisplayName: フォーティファイド/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FortifiedRecUp: {
+	DisplayName: フォーティファイド/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		フォーティファイドスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealAttack: {
+	DisplayName: フリーミール/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealEvasion: {
+	DisplayName: フリーミール/回避装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealHealth: {
+	DisplayName: フリーミール/ヘルス装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		ヘルスブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealJumpMaster: {
+	DisplayName: フリーミール/ジャンプマスター装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		ジャンプマスタースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealProtection: {
+	DisplayName: フリーミール/プロテクション装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FreeMealStamRec: {
+	DisplayName: フリーミール/スタミナリカバリー装飾品1
+	Tooltip:
+		'''
+		フリーミールスキルを{0}増加
+		スタミナリカバリースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardAttack: {
+	DisplayName: ガード/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardCrit: {
+	DisplayName: ガード/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardHandi: {
+	DisplayName: ガード/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardProtection: {
+	DisplayName: ガード/プロテクション装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardRecSpd: {
+	DisplayName: ガード/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+GuardRecUp: {
+	DisplayName: ガード/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		ガードスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftAttack: {
+	DisplayName: ハンディクラフト/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftCrit: {
+	DisplayName: ハンディクラフト/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftDefenseBoost: {
+	DisplayName: ハンディクラフト/防御ブースト装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftEvasion: {
+	DisplayName: ハンディクラフト/回避装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftProtection: {
+	DisplayName: ハンディクラフト/プロテクション装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftRecSpd: {
+	DisplayName: ハンディクラフト/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HandicraftRecUp: {
+	DisplayName: ハンディクラフト/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthAttack: {
+	DisplayName: ヘルス/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthConstitution: {
+	DisplayName: ヘルス/耐久力装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthCrit: {
+	DisplayName: ヘルス/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthDefenseBoost: {
+	DisplayName: ヘルス/防御ブースト装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthEvadeDistance: {
+	DisplayName: ヘルス/回避距離装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthEvasion: {
+	DisplayName: ヘルス/回避装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthHandicraft: {
+	DisplayName: ヘルス/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthProtection: {
+	DisplayName: ヘルス/プロテクション装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthRecSpd: {
+	DisplayName: ヘルス/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+HealthRecUp: {
+	DisplayName: ヘルス/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		ヘルスブーストスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+LatentPowerAttack: {
+	DisplayName: レイテントパワー/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	LatentPowerConstitution: {
+	DisplayName: レイテントパワー/耐久力装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerCrit: {
+	DisplayName: レイテントパワー/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerDefenseBoost: {
+	DisplayName: レイテントパワー/防御ブースト装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	LatentPowerEvadeDistance: {
+	DisplayName: レイテントパワー/回避距離装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerEvasion: {
+	DisplayName: レイテントパワー/回避装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerHandicraft: {
+	DisplayName: レイテントパワー/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	LatentPowerProtection: {
+	DisplayName: レイテントパワー/プロテクション装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerRecSpd: {
+	DisplayName: レイテントパワー/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+LatentPowerRecUp: {
+	DisplayName: レイテントパワー/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		レイテントパワースキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MastersTouchAttack: {
+	DisplayName: マスターズタッチ/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchConstitution: {
+	DisplayName: マスターズタッチ/耐久力装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchCrit: {
+	DisplayName: マスターズタッチ/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MastersTouchDefenseBoost: {
+	DisplayName: マスターズタッチ/防御ブースト装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchEvadeDistance: {
+	DisplayName: マスターズタッチ/回避距離装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchEvasion: {
+	DisplayName: マスターズタッチ/回避装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MastersTouchHandicraft: {
+	DisplayName: マスターズタッチ/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchProtection: {
+	DisplayName: マスターズタッチ/プロテクション装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MastersTouchRecSpd: {
+	DisplayName: マスターズタッチ/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MastersTouchRecUp: {
+	DisplayName: マスターズタッチ/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		マスターズタッチ/デッドアイスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerAttack: {
+	DisplayName: マッシュルーマンサー/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerConstitution: {
+	DisplayName: マッシュルーマンサー/耐久力装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MushroomancerCrit: {
+	DisplayName: マッシュルーマンサー/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerDefenseBoost: {
+	DisplayName: マッシュルーマンサー/防御ブースト装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerEvadeDistance: {
+	DisplayName: マッシュルーマンサー/回避距離装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MushroomancerEvasion: {
+	DisplayName: マッシュルーマンサー/回避装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerHandicraft: {
+	DisplayName: マッシュルーマンサー/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerProtection: {
+	DisplayName: マッシュルーマンサー/プロテクション装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	MushroomancerRecSpd: {
+	DisplayName: マッシュルーマンサー/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+MushroomancerRecUp: {
+	DisplayName: マッシュルーマンサー/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		マッシュルーマンサースキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuardAttack: {
+	DisplayName: オフェンシブガード/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	OffensiveGuardCrit: {
+	DisplayName: オフェンシブガード/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuardDiversion: {
+	DisplayName: オフェンシブガード/ダイバージョン装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		ダイバースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuardFortified: {
+	DisplayName: オフェンシブガード/フォーティファイド装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		フォーティファイドスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	OffensiveGuardHandicraft: {
+	DisplayName: オフェンシブガード/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuardMushroomancer: {
+	DisplayName: オフェンシブガード/マッシュルーマンサー装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		マッシュルーマンサースキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+OffensiveGuardRecUp: {
+	DisplayName: オフェンシブガード/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		オフェンシブガードスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PolarHunterAttack: {
+	DisplayName: ポーラーハンター/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunterCrit: {
+	DisplayName: ポーラーハンター/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunterHandi: {
+	DisplayName: ポーラーハンター/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PolarHunterProtection: {
+	DisplayName: ポーラーハンター/プロテクション装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunterRecSpd: {
+	DisplayName: ポーラーハンター/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PolarHunterRecUp: {
+	DisplayName: ポーラーハンター/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		ポーラーハンタースキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PunishDrawAttack: {
+	DisplayName: パニッシュドロー/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawConstitution: {
+	DisplayName: パニッシュドロー/耐久力装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawCrit: {
+	DisplayName: パニッシュドロー/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PunishDrawDefenseBoost: {
+	DisplayName: パニッシュドロー/防御ブースト装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawEvadeDistance: {
+	DisplayName: パニッシュドロー/回避距離装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawEvasion: {
+	DisplayName: パニッシュドロー/回避装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PunishDrawHandicraft: {
+	DisplayName: パニッシュドロー/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawProtection: {
+	DisplayName: パニッシュドロー/プロテクション装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+PunishDrawRecSpd: {
+	DisplayName: パニッシュドロー/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	PunishDrawRecUp: {
+	DisplayName: パニッシュドロー/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		パニッシュドロー/ペレットアップスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathAttack: {
+	DisplayName: クイックシース/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathConstitution: {
+	DisplayName: クイックシース/耐久力装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	QuickSheathCrit: {
+	DisplayName: クイックシース/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathDefenseBoost: {
+	DisplayName: クイックシース/防御ブースト装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathEvadeDistance: {
+	DisplayName: クイックシース/回避距離装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	QuickSheathEvasion: {
+	DisplayName: クイックシース/回避装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathHandicraft: {
+	DisplayName: クイックシース/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathProtection: {
+	DisplayName: クイックシース/プロテクション装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	QuickSheathRecSpd: {
+	DisplayName: クイックシース/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+QuickSheathRecUp: {
+	DisplayName: クイックシース/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		クイックシース/ノーマルアップスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentAttack: {
+	DisplayName: リセントメント/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResentmentConstitution: {
+	DisplayName: リセントメント/耐久力装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentCrit: {
+	DisplayName: リセントメント/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentDefenseBoost: {
+	DisplayName: リセントメント/防御ブースト装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResentmentEvadeDistance: {
+	DisplayName: リセントメント/回避距離装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentEvasion: {
+	DisplayName: リセントメント/回避装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentHandicraft: {
+	DisplayName: リセントメント/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResentmentProtection: {
+	DisplayName: リセントメント/プロテクション装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentRecSpd: {
+	DisplayName: リセントメント/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResentmentRecUp: {
+	DisplayName: リセントメント/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		リセントメントスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResuscitateAttack: {
+	DisplayName: リサシテイト/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateConstitution: {
+	DisplayName: リサシテイト/耐久力装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateCrit: {
+	DisplayName: リサシテイト/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResuscitateDefenseBoost: {
+	DisplayName: リサシテイト/防御ブースト装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateEvadeDistance: {
+	DisplayName: リサシテイト/回避距離装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateEvasion: {
+	DisplayName: リサシテイト/回避装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResuscitateHandicraft: {
+	DisplayName: リサシテイト/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateProtection: {
+	DisplayName: リサシテイト/プロテクション装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ResuscitateRecSpd: {
+	DisplayName: リサシテイト/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ResuscitateRecUp: {
+	DisplayName: リサシテイト/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		リサシテイトスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritAttack: {
+	DisplayName: スピリット/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritConstitution: {
+	DisplayName: スピリット/耐久力装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	SpiritCrit: {
+	DisplayName: スピリット/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritDefenseBoost: {
+	DisplayName: スピリット/防御ブースト装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritEvadeDistance: {
+	DisplayName: スピリット/回避距離装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	SpiritEvasion: {
+	DisplayName: スピリット/回避装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritHandicraft: {
+	DisplayName: スピリット/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritProtection: {
+	DisplayName: スピリット/プロテクション装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	SpiritRecSpd: {
+	DisplayName: スピリット/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+SpiritRecUp: {
+	DisplayName: スピリット/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		スピリットスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunterAttack: {
+	DisplayName: トロピクスハンター/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	TropicsHunterConstitution: {
+	DisplayName: トロピクスハンター/耐久力装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunterCrit: {
+	DisplayName: トロピクスハンター/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunterDefenseBoost: {
+	DisplayName: トロピクスハンター/防御ブースト装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	TropicsHunterEvadeDistance: {
+	DisplayName: トロピクスハンター/回避距離装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunterEvasion: {
+	DisplayName: トロピクスハンター/回避装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TropicsHunterHandicraft: {
+	DisplayName: トロピクスハンター/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	TropicsHunterProtection: {
+	DisplayName: トロピクスハンター/プロテクション装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	TropicsHunterRecSpd: {
+	DisplayName: トロピクスハンター/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	TropicsHunterRecUp: {
+		DisplayName: トロピクスハンター/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		トロピクスハンタースキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	UnscathedAttack: {
+	DisplayName: アンスケイザド/攻撃ブースト装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		攻撃ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedConstitution: {
+	DisplayName: アンスケイザド/耐久力装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		耐久力スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedCrit: {
+	DisplayName: アンスケイザド/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		クリティカルアイスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	UnscathedDefenseBoost: {
+	DisplayName: アンスケイザド/防御ブースト装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		防御ブーストスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedEvadeDistance: {
+	DisplayName: アンスケイザド/回避距離装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		回避距離スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedEvasion: {
+	DisplayName: アンスケイザド/回避装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		回避スキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	UnscathedHandicraft: {
+	DisplayName: アンスケイザド/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedProtection: {
+	DisplayName: アンスケイザド/プロテクション装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		プロテクションスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+UnscathedRecSpd: {
+	DisplayName: アンスケイザド/リカバリースピード装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		リカバリースピードスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	UnscathedRecUp: {
+	DisplayName: アンスケイザド/リカバリーアップ装飾品1
+	Tooltip:
+		'''
+		アンスケイザドスキルを{0}増加
+		リカバリーアップスキルを{0}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttackAttack: {
+	DisplayName: ファイアアタック/攻撃装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		攻撃ブーストスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttackCrit: {
+	DisplayName: ファイアアタック/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		クリティカルアイスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	FireAttackHandicraft: {
+	DisplayName: ファイアアタック/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttackProtection: {
+	DisplayName: ファイアアタック/プロテクション装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		プロテクションスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+FireAttackRazorSharp: {
+	DisplayName: ファイアアタック/レイザーシャープ装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	FireAttackSpirit: {
+	DisplayName: ファイアアタック/スピリット装飾品1
+	Tooltip:
+		'''
+		ファイアアタックスキルを{0}増加
+		スピリットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttackAttack: {
+	DisplayName: アイスアタック/攻撃装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		攻撃ブーストスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttackCrit: {
+	DisplayName: アイスアタック/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		クリティカルアイスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	IceAttackHandicraft: {
+	DisplayName: アイスアタック/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttackProtection: {
+	DisplayName: アイスアタック/プロテクション装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		プロテクションスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+IceAttackRazorSharp: {
+	DisplayName: アイスアタック/レイザーシャープ装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	IceAttackSpirit: {
+	DisplayName: アイスアタック/スピリット装飾品1
+	Tooltip:
+		'''
+		アイスアタックスキルを{0}増加
+		スピリットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttackAttack: {
+	DisplayName: サンダーアタック/攻撃装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		攻撃ブーストスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttackCrit: {
+	DisplayName: サンダーアタック/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		クリティカルアイスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ThunderAttackHandicraft: {
+	DisplayName: サンダーアタック/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttackProtection: {
+	DisplayName: サンダーアタック/プロテクション装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		プロテクションスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+ThunderAttackRazorSharp: {
+	DisplayName: サンダーアタック/レイザーシャープ装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	ThunderAttackSpirit: {
+	DisplayName: サンダーアタック/スピリット装飾品1
+	Tooltip:
+		'''
+		サンダーアタックスキルを{0}増加
+		スピリットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttackAttack: {
+	DisplayName: ウォーターアタック/攻撃装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		攻撃ブーストスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttackCrit: {
+	DisplayName: ウォーターアタック/クリティカルアイ装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		クリティカルアイスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	WaterAttackHandicraft: {
+	DisplayName: ウォーターアタック/ハンディクラフト装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		ハンディクラフト/ラピッドファイアスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttackProtection: {
+	DisplayName: ウォーターアタック/プロテクション装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		プロテクションスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+WaterAttackRazorSharp: {
+	DisplayName: ウォーターアタック/レイザーシャープ装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		レイザーシャープ/スペアショットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+	}
+
+	WaterAttackSpirit: {
+	DisplayName: ウォーターアタック/スピリット装飾品1
+	Tooltip:
+		'''
+		ウォーターアタックスキルを{0}増加
+		スピリットスキルを{1}増加
+		このアイテムをアクセサリーのバニティスロットに装備します。
+		'''
+}
+
+TestItem: {
+	DisplayName: テストアイテム
+	Tooltip: モッドのテスト用 :)
+}
+
+DustOfLife: {
+	DisplayName: 生命の粉塵
+	Tooltip: 自分と味方の体力を回復します。
+	}
+
+	LifePowder: {
+	DisplayName: 生命の粉
+	Tooltip: 自分と味方の体力を少し回復します。
+}
+
+WhetStone: {
+	DisplayName: 砥石
+	Tooltip: 切れ味を50回復します。
+}
+
+GuideBook: {
+	DisplayName: ハンターズガイドブック
+	Tooltip: ""
+	}
+
+	ArmorSphere: {
+	DisplayName: アーマースフィア
+	Tooltip: 熱に独特な反応を示す。これを装備に融合させると強度が上がります。
+}
+
+ArmorSpherePlus: {
+	DisplayName: アーマースフィアプラス
+	Tooltip: 高品質なアーマースフィア。これを既存の装備に融合させると強度が上がります。
+}
+
+HardArmorSphere: {
+	DisplayName: ハードアーマースフィア
+	Tooltip: 厚くて密度の高いアーマースフィア。この貴重なレア素材で装備を限界まで強化できます
+	}
+
+	HeavyArmorSphere: {
+	DisplayName: ヘビーアーマースフィア
+	Tooltip: 厚くて密度の高いアーマースフィア。この貴重なレア素材で防具を限界まで強化できます。
+}
+
+KingArmorSphere: {
+	DisplayName: キングアーマースフィア
+	Tooltip: 明るく輝くアーマースフィア。この希少な素材で防具を新たな高みへと導きます。
+}
+
+TrueArmorSphere: {
+	DisplayName: トゥルーアーマースフィア
+	Tooltip: ほぼ完璧な純度の高いアーマースフィア。その能力を引き出すには高度な技術が必要です。
+	}
+
+	FrozenSpearTuna: {
+	DisplayName: フローズンスピアツナ
+	Tooltip: アイスアタックスキルを{0}増加
+}
+
+BoltScale: {
+	DisplayName: ボルトスケイル
+	Tooltip: "アスタロスの鱗。体から離れてもなお電気を帯びている。"
+}
+
+Bubblefoam: {
+	DisplayName: バブルフォーム
+	Tooltip: ミズツネが分泌する液体。数滴で沼が泡風呂に変わります
+	}
+
+	EbonShell: {
+	DisplayName: エボンシェル
+	Tooltip: ブラキディオスの黒曜石の装甲。特に強力な防具を作れるのは、スライム菌のおかげかも。
+}
+
+ElderDragonGem: {
+	DisplayName: エルダードラゴンジェム
+	Tooltip: 千年ごとに古龍の体内に形成される巨大で超希少な石。
+}
+
+LrgElderDragonGem: {
+	DisplayName: 大型エルダードラゴンジェム
+	Tooltip: 千年ごとに古龍の体内に形成される巨大で超希少な石
+	}
+
+	FineEbonShell: {
+	DisplayName: ファインエボンシェル
+	Tooltip: プレミアムなブラキディオスの装甲。スライムコーティングには奇妙な細菌が含まれる可能性があるので注意。
+}
+
+FulgurBug: {
+	DisplayName: フルガーバグ
+	Tooltip: ジンオウガに刺激されたサンダーバグ。淡い青い光を放ちます。
+}
+
+InsectCarapace: {
+	DisplayName: インセクトカラパス
+	Tooltip: 殻の中で最も硬い部分。鍛造すると興味深い特性が現れます。
+	}
+
+	InsectShell: {
+	DisplayName: インセクトシェル
+	Tooltip: 巧みな職人の手にかかれば、頑丈なワイバーンの殻と同様に役立ちます。
+}
+
+SnowClod: {
+	DisplayName: スノークロッド
+	Tooltip: ガムートの脚から分泌される物質で固まった雪の塊。
+}
+
+MonsterFluid: {
+	DisplayName: モンスターフルイド
+	Tooltip: 虫がモンスターから吸う液体。虫の胃液と混ざって接着剤になります
+	}
+
+	Sushifish: {
+	DisplayName: スシフィッシュ
+	Tooltip: 出血を治療します。
+}
+
+GourmetFish: {
+	DisplayName: グルメフィッシュ
+	Tooltip:
+		'''
+		失った体力の半分を回復し、リジェネレーションバフを付与します。
+		出血を治療します。
+		'''
+}
+
+BnahabraBanner: {
+	DisplayName: ブナハブラバナー
+	Tooltip: ""
+	}
+
+	BullfangoBanner: {
+	DisplayName: ブルファンゴバナー
+	Tooltip: ""
+}
+
+Whetfish: {
+	DisplayName: ウェットフィッシュ
+	Tooltip:
+		'''
+		切れ味を50回復します。
+		砥石よりも使用時間が短いです。
+		'''
+}
+
+GreatWhetfish: {
+	DisplayName: グレートウェットフィッシュ
+	Tooltip: このアイテムを持っていると自動的に切れ味を50回復します
+	}
+
+	MonsterBone: {
+	DisplayName: モンスターボーン
+	Tooltip: 非常に便利な素材。狩猟や日常生活に欠かせません。
+}
+
+BoneClub: {
+	DisplayName: ボーンクラブ
+	Tooltip: 敵を正面から攻撃するとダメージが50%増加します。
+}
+
+HermitaurBanner: {
+	DisplayName: ヘルミタウアバナー
+	Tooltip: ""
+	}
+
+	ThunderSword: {
+	DisplayName: エンペラーサンダーソード
+	Tooltip:
+		'''
+		フェイトスキルを{0}増加
+		マスターズタッチ/デッドアイスキルを{1}増加
+		'''
+}
+
+SpringnightSpawn: {
+	DisplayName: スプリングナイトスポーン
+	Tooltip:
+		'''
+		マスケットボールを泡に変換します。
+		アクアティックモビリティスキルを{0}増加
+		'''
+}
+
+UsurpersCrime: {
+	DisplayName: デスポッツワイルドファイア
+	Tooltip:
+		'''
+		跳ね返るたびに敵を追尾するチャージされた鱗を放ち、最大4回跳ねます。
+		3つの破片に砕け、出血を引き起こします。
+		レイテントパワースキルを{0}増加
+		パワープロロンガースキルを{1}増加
+		'''
+	}
+
+	RasasaBowgun: {
+	DisplayName: ノーレジスタンス
+	Tooltip:
+		'''
+		移動中および敵に命中した後に破片を放つ2つの鱗を放ちます。
+		フェンシングスキルを{0}増加
+		'''
+}
+
+DaimyoPincer: {
+	DisplayName: ストライプドシェル
+	Tooltip:
+		'''
+		防御を20無視する水流を放ちます。
+		66%の確率で弾を節約
+		ジェルを弾として使用
+		フリーミールスキルを{0}増加
+		'''
+}
+
+AmpleBowfish: {
+	DisplayName: アンプルボウフィッシュ
+	Tooltip:
+		'''
+		3本の矢を連続で放ちます。
+		木の矢を骨の矢に変換します。
+		レイザーシャープ/スペアショットスキルを{0}増加
+		'''
+	}
+
+	ElysianManna: {
+	DisplayName: エリシアンマナ
+	Tooltip:
+		'''
+		空から矢を放ちます。
+		木の矢を水流に変換します。
+		ウォーターアタックスキルを{0}増加
+		フリーミールスキルを{1}増加
+		'''
+}
+
+DemolitionBow: {
+	DisplayName: デモリションボウ
+	Tooltip:
+		'''
+		防御を10無視する燃え盛る火球を放ちます。
+		ヒロイックスキルを{0}増加
+		'''
+}
+
+VenomMonster: {
+	DisplayName: ベノムモンスター
+	Tooltip:
+		'''
+		毒を付与します。
+		ポイズンレジスタンススキルを{0}増加
+		'''
+	}
+
+	KutKuAnger: {
+	DisplayName: クックアンガー
+	Tooltip:
+		'''
+		防御を10無視する炎を放ちます。
+		ウィンドプルーフスキルを{0}増加
+		'''
+}
+
+CrowDo: {
+	DisplayName: クロウドー
+	Tooltip:
+		'''
+		防御を15無視する炎を放ち、地獄の炎と毒を付与します。
+		クリティカルアイスキルを{0}増加
+		テンダライザースキルを{1}増加
+		'''
+}
+
+KhezuSyringe: {
+	DisplayName: ハイポダーミックミラクル
+	Tooltip:
+		'''
+		敵を攻撃すると少し体力を回復します。
+		リカバリーアップスキルを{0}増加
+		リカバリースピードスキルを{1}増加
+		'''
+	}
+
+	BasaltVenom: {
+	DisplayName: バサルトベノム
+	Tooltip:
+		'''
+		勢いを増して攻撃力を強化します。
+		毒を付与します。
+		ガードスキルを{0}増加
+		'''
+}
+
+GarugaIncessance: {
+	DisplayName: ガルガインセッサンス
+	Tooltip:
+		'''
+		毒を付与します。
+		レイザーシャープ/スペアショットスキルを{0}増加
+		クリティカルアイスキルを{1}増加
+		'''
+}
+
+NightRainsBlack: {
+	DisplayName: ナイトレインズブラック
+	Tooltip: レイザーシャープ/スペアショットスキルを{0}増加
+	}
+
+	MoltenBursa: {
+	DisplayName: モルテンバーサ
+	Tooltip: 強力なグラベノスから削り取られた完全に発達したバーサ。決して軽く焦げることはありません。
+}
+
+MonsterBroth: {
+	DisplayName: モンスターブロス
+	Tooltip: モンスターの濃厚な汁だけで作られたスープ。かなり濃厚です。
+}
+
+MonsterHardBone: {
+	DisplayName: モンスターハードボーン
+	Tooltip: 大型ワイバーンからまれに得られる貴重な骨。鍛造は難しいが、その強度で高く評価されます
+	}
+
+	PoisonSac: {
+	DisplayName: ポイズンサック
+	Tooltip: 致命的な毒素を含むモンスターの器官。極めて慎重に扱ってください。
+}
+
+RustShard: {
+	DisplayName: ラストシャード
+	Tooltip: 土の塊のように見えますが、実は錆びた金属です。磨いてみてください…
+}
+
+Silkfin: {
+	DisplayName: シルクフィン
+	Tooltip: 美しすぎて、儀式の踊りで神聖な衣装としても違和感がないヒレ.
+	}
+
+	Trunkspine: {
+	DisplayName: トランクスパイン
+	Tooltip: ガムートの胴体から取れた硬い棘。固い岩を貫くほど鋭いです。
+}
+
+MegaFishingFly: {
+	DisplayName: メガフィッシングフライ
+	Tooltip: 釣りの収穫量が増える可能性があります。
+}
+
+BombfishBait: {
+	DisplayName: ボムフィッシュベイト
+	Tooltip: 爆弾魚を釣り上げる確率が上がります
+	}
+
+	GoldenfishBait: {
+	DisplayName: ゴールデンフィッシュベイト
+	Tooltip: 金色の鯉を釣り上げる確率が上がります。
+}
+
+SushifishBait: {
+	DisplayName: スシフィッシュベイト
+	Tooltip: スシフィッシュを釣り上げる確率が上がります。
+}
+
+Nulberry: {
+	DisplayName: ヌルベリー
+	Tooltip: すべての状態異常とほとんどのデバフを治療します.
+	}
+
+	GajauBanner: {
+	DisplayName: ガジャウバナー
+	Tooltip: ""
+}
+
+GargwaBanner: {
+	DisplayName: ガーグワバナー
+	Tooltip: ""
+}
+
+VespoidBanner: {
+	DisplayName: ヴェスポイドバナー
+	Tooltip: ""
+
+	}
+
+	RemobraBanner: {
+	Tooltip: ""
+	DisplayName: レモブラバナー
+}
+
+HornetaurBanner: {
+	Tooltip: ""
+	DisplayName: ホーネットアバナー
+}
+
+DelexBanner: {
+	Tooltip: ""
+	DisplayName: デレクスバナー
+	}
+
+	BnahabraRedBanner: {
+	Tooltip: ""
+	DisplayName: ブナハブラレッドバナー
+}
+
+BnahabraGreenBanner: {
+	Tooltip: ""
+	DisplayName: ブナハブラグリーンバナー
+}
+
+BnahabraBrownBanner: {
+	Tooltip: ""
+	DisplayName: ブナハブラブラウンバナー
+	}
+
+	BnahabraBlueBanner: {
+	Tooltip: ""
+	DisplayName: ブナハブラブルーバナー
+}
+
+ThunderBugsBanner: {
+	DisplayName: サンダーバグズバナー
+	Tooltip: ""
+}
+
+SeltasSummon: {
+	DisplayName: クエスト：虫退治
+	Tooltip: 甲虫類の侵攻を開始します.
+	}
+
+	SeltasTreasureBag: {
+		DisplayName: セルタストレジャーバッグ
+		Tooltip: ""
+	}
+}
+
+Keybinds: {
+	"Scroll Swap": {
+		DisplayName: スクロール切り替え
+	}
+
+	Guard: {
+		DisplayName: ガード
+	}
+}
+
+DeathMessage: {
+	BlastBlight: "爆破されて{0}は粉々になりました"
+	Berserk: "突然{0}は狂暴化しました"
+}
+
+Dialogue: {
+	Handler: {
+		BestiaryGirlDialogue: おお、ねえ、ドゥードル！{0}が空いてるか知ってる？また彼女の図鑑を借りたいんだ
+		AnglerDialogue: おお！ドゥードル。{0}がさっき来て、また私を困らせてたよ
+		StandardDialogue1: 今まで見たことのないモンスターがいっぱい…これから仕事が山積みだね
+		StandardDialogue2: おお！ドゥードル。私のクエストに時間取れるかな？急ぎじゃないけどね
+		StandardDialogue3: スライムの味ってどんなだろう？後で自分で味わってみなきゃ。おっと、ねえ、ドゥードル、そこにいたの気づかなかったよ
+		StandardDialogue4: 最近カッコいいモンスター見た？待って、話始める前にノート取ってくるね
+		StandardDialogue5: え、待って、その武器自分で作ったの？思ってたよりすごいね！
+	}
+}
+
+Buffs: {
+	Defiance: {
+		DisplayName: ディファイアンス
+		Description: レベル{0}：防御力を{1}増加し、防御バフを強化します。
+	}
+
+	Diversion: {
+		DisplayName: ダイバージョン
+		Description: ダイバージョン2/3の効果範囲内にいます。
+	}
+
+	Fortified: {
+		DisplayName: フォーティファイド
+		Description: 攻撃力と防御力を7%増加します。
+	}
+
+	Frenzy: {
+		DisplayName: フレンジー
+		Description:
+			'''
+			自然治癒を減少させます。
+			ダメージを4%/8%/12%増加します。
+			マナコストを3%/6%/9%減少させます。
+			敵への攻撃を続けるとフレンジーを克服できます。
+			'''
+	}
+
+	FrenzyCure: {
+		DisplayName: フレンジーキュア
+		Description: クリティカルヒット率を3%/6%/9%増加します。
+	}
+
+	FrenzyFail: {
+		DisplayName: フレンジーフェイル
+		Description: フレンジーを克服できませんでした。体力が急速に減少しています。
+	}
+
+	GuardCooldown: {
+		DisplayName: ガードクールダウン
+		Description: 今はガードできません。
+	}
+
+	HeavenSent: {
+		DisplayName: ヘブンセント
+		Description:
+			'''
+			切れ味、弾薬、マナの消費を防ぎます。
+			移動速度を増加し、無限飛行を付与し、受けるダメージを減少させます。
+			攻撃を受けるとこのバフが解除されます。
+			'''
+	}
+
+	Heroics: {
+		DisplayName: ヒロイック
+		Description: HPが35%以下の時、攻撃力と防御力を増加します。
+	}
+
+	HoneyHunter: {
+		DisplayName: ハニーハンター
+		Description: 近くにハチミツの匂いがします。移動速度を5%増加します。
+	}
+
+	IntrepidHeart: {
+		DisplayName: イントレピッドハート
+		Description: 受けるダメージを軽減します。
+	}
+
+	LatentPower: {
+		DisplayName: レイテントパワー
+		Description: クリティカルヒット率を増加し、マナコストを減少させます。
+	}
+
+	Spirit: {
+		DisplayName: スピリット
+		Description: ダメージとクリティカルヒット率を増加します。
+	}
+
+	SpiritBirdBlue: {
+		DisplayName: スピリットバードブルー
+		Description: 移動速度を5%増加します。
+	}
+
+	SpiritBirdGreen: {
+		DisplayName: スピリットバードグリーン
+		Description: 最大体力を20増加します。
+	}
+
+	SpiritBirdOrange: {
+		DisplayName: スピリットバードオレンジ
+		Description: ダメージを5%増加します。
+	}
+
+	SpiritBirdYellow: {
+		DisplayName: スピリットバードイエロー
+		Description: 防御力を5増加します。
+	}
+
+	Unscathed: {
+		DisplayName: アンスケイザド
+		Description: 体力が満タンの時、与えるダメージを増加します。
+	}
+
+	SpiritBirdPrism: {
+		DisplayName: スピリットバードプリズム
+		Description:
+			'''
+			すべてのスピリットバードの効果を組み合わせています。
+			最大体力を20増加します。
+			ダメージを5%増加します。
+			防御力を5増加します。
+			移動速度を5%増加します。
+			'''
+	}
+
+	AffinitySliding: {
+		DisplayName: アフィニティスライディング
+		Description: クリティカルヒット率を増加します。
+	}
+
+	AquaticMobility: {
+		DisplayName: アクアティックモビリティ
+		Description: Mods.MHArmorSkills.Buffs.AquaticMobility.Description
+	}
+
+	Beserk: {
+		DisplayName: バーサーク
+		Description:
+			'''
+			ゆっくりと体力が減ります。
+			受けるダメージを75%軽減します。
+			攻撃を受けると急速に体力が減少します。
+			'''
+		DeathMessage: "{0}はバーサークを克服できませんでした。"
+	}
+
+	BladeHoneScale: {
+		DisplayName: ブレードホンスケイル
+		Description: マナコストを減少させ、弾薬を消費しない確率を増加します。
+	}
+
+	Sharpness: {
+		DisplayName: 切れ味
+		Description: 武器のレア度に基づいて近接ダメージを増加します。
+	}
+
+	BubbleBlight: {
+		DisplayName: バブルブライト
+		Description: 動きが制限されています。
+	}
+
+	HastenRecovery: {
+		DisplayName: ヘイストリカバリー
+		Description: 体力の自然回復を増加します。
+	}
+
+	OffensiveGuard: {
+		DisplayName: オフェンシブガード
+		Description: ガードに成功した後、与えるダメージを増加します。
+	}
+
+	CritDraw: {
+		DisplayName: クリティカルドロー
+		Description: 武器を切り替えた後、クリティカルヒット率を増加します。
+	}
+
+	Grinder: {
+		DisplayName: グラインダー
+		Description: 研いだ武器で与えるダメージを増加します。
+	}
+
+	PunishDraw: {
+		DisplayName: パニッシュドロー
+		Description: 武器を切り替えた後、近接ダメージとノックバックを増加します。
+	}
+
+	Coalescence: {
+		DisplayName: コアレッセンス
+		Description: デバフを克服した後、与えるダメージを増加します。
+	}
+
+	CounterStrike: {
+		DisplayName: カウンターストライク
+		Description: ノックバックを受けた後、与えるダメージを増加します。
+	}
+
+	Strife: {
+		DisplayName: ストライフ
+		Description: ポーション酔いの状態でクリティカルヒット率を増加します。
+	}
+
+	Embolden: {
+		DisplayName: エンボルデン
+		Description: 敵の注目度を上げ、ガードと回避レベルを増加します。
+	}
+
+	AdrenalineRush: {
+		DisplayName: アドレナリンラッシュ
+		Description: 回避に成功した後、与えるダメージを増加します。
+	}
+
+	BlastBlight: {
+		DisplayName: ブラストブライト
+		Description: タイマーがゼロになると爆発します。
+	}
+
+	MaximumMight: {
+		DisplayName: マキシマムマイト
+		Description: Mods.MHArmorSkills.Buffs.MaximumMight.Description
+	}
+
+	BlueScroll: {
+		Description: 現在ブルースクロールを使用中です。
+		DisplayName: ブルースクロール
+	}
+
+	RedScroll: {
+		DisplayName: レッドスクロール
+		Description: 現在レッドスクロールを使用中です。
+	}
+
+	ScrollChange: {
+		DisplayName: スクロールチェンジ
+		Description: スクロールを切り替えています。
+	}
+
+	DeadEye: {
+		DisplayName: デッドアイ
+		Description: Mods.MHArmorSkills.Buffs.DeadEye.Description
+	}
+
+	Furious: {
+		DisplayName: フューリアス
+		Description: Mods.MHArmorSkills.Buffs.Furious.Description
+	}
+
+	Stunned: {
+		DisplayName: スタン
+		Description: スタンしています！動けません！
+	}
+
+	Bleed: {
+		DisplayName: 出血
+		Description: Mods.MHArmorSkills.Buffs.Bleed.Description
+	}
+
+	ProtectivePolish: {
+		DisplayName: プロテクティブポリッシュ
+		Description: Mods.MHArmorSkills.Buffs.ProtectivePolish.Description
+	}
+
+	SharpnessBlue: {
+		DisplayName: 切れ味：青
+		Description: Mods.MHArmorSkills.Buffs.SharpnessBlue.Description
+	}
+
+	SharpnessGreen: {
+		DisplayName: 切れ味：緑
+		Description: Mods.MHArmorSkills.Buffs.SharpnessGreen.Description
+	}
+
+	SharpnessPurple: {
+		DisplayName: 切れ味：紫
+		Description: Mods.MHArmorSkills.Buffs.SharpnessPurple.Description
+	}
+
+	SharpnessRed: {
+		DisplayName: 切れ味：赤
+		Description: Mods.MHArmorSkills.Buffs.SharpnessRed.Description
+	}
+
+	SharpnessWhite: {
+		DisplayName: 切れ味：白
+		Description: Mods.MHArmorSkills.Buffs.SharpnessWhite.Description
+	}
+
+	SharpnessYellow: {
+		DisplayName: 切れ味：黄
+		Description: Mods.MHArmorSkills.Buffs.SharpnessYellow.Description
+	}
+
+	FireBlight: {
+		DisplayName: ファイアブライト
+		Description: 火の状態異常により、時間経過で追加ダメージを受けます。
+	}
+
+	IceBlight: {
+		DisplayName: アイスブライト
+		Description: 氷の状態異常により、攻撃速度が遅くなります。
+	}
+
+	ThunderBlight: {
+		DisplayName: サンダーブライト
+		Description: 雷の状態異常により、スタンしやすくなります。
+	}
+
+	WaterBlight: {
+		DisplayName: ウォーターブライト
+		Description: 水の状態異常により、移動速度が遅くなります。
+	}
+
+	AttackSpeedUp: {
+		DisplayName: クイックシースアップ！
+		Description: チャレンジシースとクイックシースを組み合わせ、さらに攻撃速度が上昇します。
+	}
+
+	DragonConversion: {
+		DisplayName: ドラゴンコンバージョン
+		Description: Mods.MHArmorSkills.Buffs.DragonConversion.Description
+	}
+
+	NulberryBuff: {
+		DisplayName: ヌルベリーバフ
+		Description: 状態異常とほとんどのデバフに免疫があります
+	}
+}
+
+Configs: {
+	VanillaArmorSkills: {
+		DisplayName: バニラアーマースキル
+
+		VanillaArmorToggle: {
+			Label: バニラアーマースキル
+			Tooltip: 有効にするとバニラ防具にアーマースキルが付与されます
+		}
+	}
+
+	MHAconfigs: {
+		OnEnterMessage: {
+			Tooltip: ワールド入場時のメッセージを有効にします
+			Label: ワールドメッセージ
+		}
+
+		Headers: {
+			On: {
+				Enter: {
+					Message: オン・エンターメッセージヘッダー
+				}
+			}
+		}
+
+		DisplayName: モンスターハンターアーマー設定
+	}
+
+	StunActive: {
+		DisplayName: ヒットスタン
+
+		Headers: {
+			Turn: {
+				Off: {
+					Stun: ヒットスタン
+				}
+			}
+		}
+
+		TurnOffStun: {
+			Label: 有効
+			Tooltip: "{大きなダメージを受けるとスタンする可能性があります。}"
+		}
+	}
+}
+
+NPCs: {
+	BnahabraBlue: {
+		DisplayName: ブナハブラブルー
+	}
+
+	BnahabraBrown: {
+		DisplayName: ブナハブラブラウン
+	}
+
+	BnahabraGreen: {
+		DisplayName: ブナハブラグリーン
+	}
+
+	BnahabraRed: {
+		DisplayName: ブナハブラレッド
+	}
+
+	Bullfango: {
+		DisplayName: ブルファンゴ
+	}
+
+	Handler: {
+		DisplayName: ギルドマーム
+
+		TownNPCMood: {
+			Content: ここは熱い飲み物とブラキディオスの分厚い本を持って丸くなるのに最高の場所だよ。あ、いや、掃除するって意味ね。えへん。
+			NoHome: おお！ドゥードル、足が死にそう！休める場所ないかな？
+			FarFromHome: ねえドゥードル、変な足跡を追ってたら、いつの間にか家から結構遠くに来ちゃったよ。
+			LoveSpace: おお、すごい！ここはセルタスクイーンにピッタリな場所だね。ただドローンはいないけど、私には気にならないよ。
+			DislikeCrowded: 人群れには慣れてるけど、やっぱり静かな時間が好きだな。
+			HateCrowded: 人がいっぱい、なんかお祭りでもやってるの？この騒音じゃ読書時間が減っちゃうよ。
+			LikeNPC_Princess: "うんとさ{NPCName}ってめっちゃ可愛いね、次会う時に彼女のために人形作りたいな。"
+			Princess_LovesNPC: "やっぱり{NPCName}は本当に優しいよ、会うたびに素敵な話や絵を見せてくれるんだ。"
+			LikeBiome: おお、{BiomeName}って好きだな、昔行った場所を思い出すよ。
+			DislikeBiome: 私は{BiomeName}は苦手だな。
+			LikeNPC: "なんとなく{NPCName}って昔一緒に働いてた人を思い出すよ。いい友達になれそうじゃない？"
+			DislikeNPC: 私は{NPCName}は好きじゃないな。
+			HateNPC: 私は{NPCName}、大嫌いだよ。
+		}
+	}
+
+	ThunderBugs: {
+		DisplayName: サンダーバグズ
+	}
+
+	Delex: {
+		DisplayName: デレクス
+	}
+
+	Hornetaur: {
+		DisplayName: ホーネットア
+	}
+
+	Remobra: {
+		DisplayName: レモブラ
+	}
+
+	Hermitaur: {
+		DisplayName: ヘルミタウア
+	}
+
+	BubblesNPC: {
+		DisplayName: バブルズ
+	}
+
+	Seltas: {
+		DisplayName: セルタス
+	}
+
+	DesertSeltas: {
+		DisplayName: デザートセルタス
+	}
+
+	Gajau: {
+		DisplayName: ガジャウ
+	}
+
+	Gargwa: {
+		DisplayName: ガーグワ
+	}
+
+	Vespoid: {
+		DisplayName: ヴェスポイド
+	}
+}
+
+Projectiles: {
+	BlastExplosionHostile: {
+		DisplayName: ブラストエクスプロージョン
+	}
+
+	BnahabraSpit: {
+		DisplayName: ブナハブラスピット
+	}
+
+	PoisonSpit: {
+		DisplayName: ポイズンスピット
+	}
+
+	BladeScale1: {
+		DisplayName: ブレードスケイル1
+	}
+
+	BladeScale2: {
+		DisplayName: ブレードスケイル2
+	}
+
+	BladeScale3: {
+		DisplayName: ブレードスケイル3
+	}
+
+	BladeScale4: {
+		DisplayName: ブレードスケイル4
+	}
+
+	GuideBookProj: {
+		DisplayName: ガイドブックプロジェクタイル
+	}
+
+	SeltasGoop: {
+		DisplayName: セルタスグープ
+	}
+
+	DesertSeltasGoop: {
+		DisplayName: デザートセルタスグープ
+	}
+
+	KirinBolt: {
+		DisplayName: キリンボルト
+	}
+
+	NormalShotProj: {
+		DisplayName: ノーマルショットプロジェクタイル
+	}
+
+	PierceShotProj: {
+		DisplayName: ピアースショットプロジェクタイル
+	}
+
+	ThunderShotProj: {
+		DisplayName: サンダーショットプロジェクタイル
+	}
+
+	UsurpersCrimeHoldout: {
+		DisplayName: アサーパーズクライムホールドアウト
+	}
+
+	ZinogreScaleShot: {
+		DisplayName: ジンオウガスケイルショット
+	}
+
+	ZinogreScaleShard: {
+		DisplayName: ジンオウガスケイルシャード
+	}
+
+	BubblesFriendly: {
+		DisplayName: フレンドリーバブルズ
+	}
+
+	DaimyoShot: {
+		DisplayName: ダイミョーショット
+	}
+
+	DaimyoPincerHoldout: {
+		DisplayName: ダイミョーピンサーホールドアウト
+	}
+
+	ThunderSwordAura: {
+		DisplayName: サンダーソードオーラ
+	}
+
+	ZinogreScaleShotLarge: {
+		DisplayName: ジンオウガスケイルショットラージ
+	}
+
+	WaterBlast: {
+		DisplayName: ウォーターブラスト
+	}
+
+	WaterStream: {
+		DisplayName: ウォーターストリーム
+	}
+
+	DemolitionShot: {
+		DisplayName: デモリションショット
+	}
+
+	GypcerosFlailproj: {
+		DisplayName: ギプセロスフレイルプロジェクタイル
+	}
+
+	FireBlast: {
+		DisplayName: ファイアブラスト
+	}
+
+	KutKuHoldOut: {
+		DisplayName: クックホールドアウト
+	}
+
+	CrowDoHoldout: {
+		DisplayName: クロウドーホールドアウト
+	}
+
+	PoisonFireBlast: {
+		DisplayName: ポイズンファイアブラスト
+	}
+
+	KhezuSyringeHoldout: {
+		DisplayName: ケズシリンジホールドアウト
+	}
+
+	BasaltVenomProj: {
+		DisplayName: バサルトベノムプロジェクタイル
+	}
+
+	GarugaIncessanceProj: {
+		DisplayName: ガルガインセッサンスプロジェクタイル
+	}
+
+	NightRainsBlackProj: {
+		DisplayName: ナイトレインズブラックプロジェクタイル
+	}
+
+	KhezuNail: {
+		DisplayName: ケズネイル
+	}
+}
+
+VanillaChanges: {
+	MiningHelmet:
+		'''
+		オートトラッカースキルを1増加します。
+		ジオロジストスキルを1増加します。
+		'''
+	MiningChest:
+		'''
+		クリフハンガースキルを1増加します。
+		ジオロジストスキルを1増加します。
+		'''
+	MiningLeg:
+		'''
+		クリフハンガースキルを1増加します。
+		クイックギャザリングスキルを1増加します。
+		'''
+	WoodHelmet: 防御ブーストスキルを1増加します。
+	WoodChest: プロテクションスキルを1増加します。
+	WoodLegs: アウトドアマンスキルを1増加します。
+	AnglerHelmet: オートトラッカースキルを1増加します。
+	AnglerChest: フリーミールスキルを1増加します。
+	AnglerLegs: アクアティックモビリティスキルを1増加します。
+	CactusHelmet: スニークスキルを1増加します。
+	CactusChest: リカバリースピードスキルを1増加します。
+	CactusLegs: スタミナリカバリースキルを1増加します。
+	CopperHelmet: スピードイーティングスキルを1増加します。
+	CopperChest: 防御ブーストスキルを2増加します。
+	CopperLegs: ポイズンレジスタンススキルを1増加します。
+	TinHelmet: 防御ブーストスキルを1増加します。
+	TinChest: スタミナリカバリースキルを1増加します。
+	TinLegs: クリフハンガースキルを1増加します。
+	PumpkinHelmet: フリーミールスキルを1増加します。
+	PumpkinChest: グラトニースキルを1増加します。
+	PumpkinLegs: スピードイーティングスキルを1増加します。
+	IronHelmet: 防御ブーストスキルを2増加します。
+	AncientIronHelmet: レイザーシャープ/スペアショットスキルを1増加します。
+	IronChest:
+		'''
+		ダイバーションスキルを1増加します。
+		ポイズンレジスタンススキルを1増加します。
+		'''
+	IronLegs: リカバリースピードスキルを1増加します。
+	LeadHelmet: ポイズンレジスタンススキルを1増加します。
+	LeadChest: 防御ブーストスキルを2増加します。
+	LeadLegs: 防御ブーストスキルを1増加します。
+	SilverHelmet: スタミナリカバリースキルを1増加します。
+	SilverChest: 攻撃ブーストスキルを2増加します。
+	SilverLegs: フリーミールスキルを1増加します。
+	TungstenHelmet: リカバリースピードスキルを1増加します。
+	TungstenChest: クリティカルアイスキルを2増加します。
+	TungstenLegs:
+		'''
+		ダイバーションスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	GoldHelmet: ダイバーションスキルを1増加します。
+	AncientGoldHelmet: フェイトスキルを1増加します。
+	GoldChest:
+		'''
+		プロテクションスキルを1増加します。
+		クイックシャープニングスキルを1増加します。
+		'''
+	GoldLegs:
+		'''
+		フェイトスキルを1増加します。
+		クイックシャープニングスキルを1増加します。
+		'''
+	PlatinumHelmet: フォーティファイドスキルを1増加します。
+	PlatinumChest:
+		'''
+		プロテクションスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	PlatinumLegs:
+		'''
+		フォーティファイドスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	FossilHelmet: ジャンプマスタースキルを1増加します。
+	FossilChest:
+		'''
+		カウンターストライクスキルを1増加します。
+		ファイアレジスタンススキルを1増加します。
+		'''
+	FossilLegs:
+		'''
+		ファイアレジスタンススキルを1増加します。
+		フォーティファイドスキルを1増加します。
+		'''
+	GladiatorHelmet: クリティカルアイスキルを1増加します。
+	GladiatorChest:
+		'''
+		アイスレジスタンススキルを1増加します。
+		スピードセットアップスキルを1増加します。
+		'''
+	GladiatorLegs:
+		'''
+		攻撃ブーストスキルを1増加します。
+		アイスレジスタンススキルを1増加します。
+		'''
+	NinjaHelmet:
+		'''
+		クリティカルアイスキルを1増加します。
+		スニークスキルを1増加します。
+		'''
+	NinjaChest:
+		'''
+		クリティカルアイスキルを1増加します。
+		スピードセットアップスキルを1増加します。
+		'''
+	NinjaLegs: クリティカルアイスキルを1増加します。
+	BeeHelmet:
+		'''
+		召喚ダメージを4%増加します
+		最大ミニオンの数を1増加します
+		ラスティングパワースキルを1増加します。
+		リセントメントスキルを1増加します。
+		'''
+	BeeChest:
+		'''
+		召喚ダメージを4%増加します
+		最大ミニオンの数を1増加します
+		オートトラッカースキルを1増加します。
+		ハニーハンタースキルを1増加します。
+		'''
+	BeeLegs:
+		'''
+		召喚ダメージを5%増加します
+		ハニーハンタースキルを1増加します。
+		リセントメントスキルを1増加します。
+		'''
+	ObsidianHelmet:
+		'''
+		召喚ダメージを8%増加します
+		攻撃ブーストスキルを2増加します。
+		ブラストレジスタンススキルを有効化します。
+		'''
+	ObsidianChest:
+		'''
+		最大ミニオンの数を1増加します
+		カウンターストライクスキルを1増加します。
+		パニッシュドロー/ペレットアップスキルを1増加します。
+		'''
+	ObsidianLegs:
+		'''
+		召喚ダメージを8%増加します
+		攻撃ブーストスキルを2増加します。
+		回避スキルを1増加します。
+		'''
+	MeteorHelmet:
+		'''
+		魔法ダメージを9%増加します
+		攻撃ブーストスキルを2増加します。
+		ブラストレジスタンススキルを有効化します。
+		'''
+	MeteorChest:
+		'''
+		魔法ダメージを9%増加します
+		レイテントパワースキルを1増加します。
+		ファイアアタックスキルを1増加します。
+		'''
+	MeteorLegs:
+		'''
+		魔法ダメージを9%増加します
+		ヒートレジスタンススキルを2増加します。
+		スタミナリカバリースキルを1増加します。
+		'''
+	JungleHelmet:
+		'''
+		最大マナを40増加します
+		魔法クリティカルヒット率を6%増加します
+		アフィニティスライディングスキルを1増加します。
+		ラスティングパワースキルを1増加します。
+		'''
+	JungleChest:
+		'''
+		最大マナを20増加します
+		魔法ダメージを6%増加します
+		マッシュルーマンサースキルを1増加します。
+		ウォーターレジスタンススキルを1増加します。
+		'''
+	JungleLegs:
+		'''
+		最大マナを20増加します
+		魔法クリティカルヒット率を6%増加します
+		クリフハンガースキルを2増加します。
+		フリーミールスキルを1増加します。
+		トロピックスハンタースキルを1増加します。
+		'''
+	AncientCobaltHelmet:
+		'''
+		最大マナを40増加します
+		魔法クリティカルヒット率を6%増加します
+		スタミナリカバリースキルを1増加します。
+		ポイズンレジスタンススキルを1増加します。
+		'''
+	AncientCobaltChest:
+		'''
+		最大マナを20増加します
+		魔法ダメージを6%増加します
+		フォレイスキルを1増加します。
+		'''
+	AncientCobaltLegs:
+		'''
+		最大マナを20増加します
+		魔法クリティカルヒット率を6%増加します
+		フォレイスキルを1増加します。
+		マッシュルーマンサースキルを1増加します。
+		'''
+	NecroHelmet:
+		'''
+		遠距離ダメージを5%増加します
+		ブリーディングレジスタンススキル1を有効化します。
+		アンスケイザドスキルを1増加します。
+		'''
+	NecroChest:
+		'''
+		遠距離ダメージを5%増加します
+		コールドレジスタンススキルを1増加します。
+		アンスケイザドスキルを1増加します。
+		'''
+	NecroLegs:
+		'''
+		遠距離ダメージを5%増加します
+		アフィニティスライディングスキルを1増加します。
+		アクアティックモビリティスキルを2増加します。
+		'''
+	ShadowHelmet:
+		'''
+		クリティカルヒット率を5%増加します
+		回避スキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	ShadowChest:
+		'''
+		クリティカルヒット率を5%増加します
+		クリティカルアイスキルを1増加します。
+		回避スキルを1増加します。
+		クイックシーススキルを1増加します。
+		'''
+	ShadowLegs:
+		'''
+		クリティカルヒット率を5%増加します
+		クリティカルアイスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	AncientShadowHelmet:
+		'''
+		クリティカルヒット率を5%増加します
+		クリティカルアイスキルを1増加します。
+		回避スキルを1増加します。
+		'''
+	AncientShadowHelmetChest:
+		'''
+		クリティカルヒット率を5%増加します
+		耐久力スキルを1増加します。
+		回避距離スキルを1増加します。
+		'''
+	AncientShadowHelmetLegs:
+		'''
+		クリティカルヒット率を5%増加します
+		クリティカルアイスキルを2増加します。
+		'''
+	CrimsonHelmet:
+		'''
+		ダメージを3%増加します
+		ヘイストリカバリースキルを1増加します。
+		クイックシャープニングスキルを1増加します。
+		'''
+	CrimsonChest:
+		'''
+		ダメージを3%増加します
+		ヘイストリカバリースキルを1増加します。
+		リカバリーアップスキルを1増加します。
+		'''
+	CrimsonLegs:
+		'''
+		ダメージを3%増加します
+		攻撃ブーストスキルを2増加します。
+		'''
+	MoltenHelmet:
+		'''
+		近接クリティカルヒット率を7%増加します
+		ヒートレジスタンススキルを2増加します。
+		ハンディクラフト/ラピッドファイアスキルを1増加します。
+		'''
+	MoltenChest:
+		'''
+		近接ダメージを7%増加します
+		ガードスキルを2増加します。
+		ブラストレジスタンススキルを有効化します。
+		'''
+	MoltenLegs:
+		'''
+		近接速度を7%増加します
+		ガードスキルを1増加します。
+		ヒートレジスタンススキルを1増加します。
+		'''
+	SpiderMask:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを5%増加します
+		攻撃ブーストスキルを2増加します。
+		クリフハンガースキルを2増加します。
+		[○]x 1。
+		'''
+	SpiderBreastplate:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを5%増加します
+		フォレイスキルを2増加します。
+		ポイズンレジスタンススキルを2増加します。
+		[○][○]x 1。
+		'''
+	SpiderGreaves:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを6%増加します
+		耐久力スキルを1増加します。
+		回避スキルを1増加します。
+		フォレイスキルを1増加します。
+		[○]x 1。
+		'''
+	CobaltHat:
+		'''
+		最大マナを40増加します
+		魔法ダメージを10%増加します
+		魔法クリティカルヒット率を9%増加します
+		攻撃ブーストスキルを2増加します。
+		クリティカルアイスキルを2増加します。
+		スタミナリカバリースキルを1増加します。
+		'''
+	CobaltHelmet:
+		'''
+		移動速度を10%増加します
+		近接ダメージを15%増加します
+		攻撃ブーストスキルを2増加します。
+		クリティカルアイスキルを2増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	CobaltMask:
+		'''
+		遠距離ダメージを10%増加します
+		遠距離クリティカルヒット率を10%増加します
+		攻撃ブーストスキルを2増加します。
+		クリティカルアイスキルを2増加します。
+		ノーマルアップスキルを1増加します。
+		'''
+	CobaltBreastplate:
+		'''
+		クリティカルヒット率を5%増加します
+		クリティカルアイスキルを2増加します。
+		ディフェンスロックスキルを1増加します。
+		[○][○]x 2。
+		'''
+	CobaltLeggings:
+		'''
+		移動速度を10%増加し、ダメージを3%増加します
+		サンダーレジスタンススキルを3増加します。
+		攻撃ブーストスキルを1増加します。
+		フェンシングスキルを1増加します。
+		'''
+	PalladiumMask:
+		'''
+		近接ダメージを12%増加します
+		近接速度を12%増加します
+		プロテクションスキルを2増加します。
+		リカバリースピードスキルを1増加します。
+		プロテクティブポリッシュスキルを1増加します。
+		'''
+	PalladiumHelmet:
+		'''
+		遠距離ダメージを9%増加します
+		遠距離クリティカルヒット率を9%増加します
+		プロテクションスキルを2増加します。
+		ノーマルアップスキルを1増加します。
+		リカバリースピードスキルを1増加します。
+		'''
+	PalladiumHeadgear:
+		'''
+		魔法ダメージとクリティカルヒット率を9%増加します
+		最大マナを60増加します
+		プロテクションスキルを2増加します。
+		ラスティングパワースキルを1増加します。
+		リカバリースピードスキルを1増加します。
+		'''
+	PalladiumBreastplate:
+		'''
+		ダメージを3%増加します
+		クリティカルヒット率を2%増加します
+		ガードスキルを2増加します。
+		リセントメントスキルを1増加します。
+		[○]x 1。
+		'''
+	PalladiumLeggings:
+		'''
+		ダメージを2%増加します
+		クリティカルヒット率を1%増加します
+		攻撃ブーストスキルを2増加します。
+		ファイアレジスタンススキルを2増加します。
+		[○]x 1。
+		'''
+	MythrilHood:
+		'''
+		最大マナを60増加します
+		魔法ダメージを15%増加します
+		フリーミールスキルを2増加します。
+		スピードイーティングスキルを2増加します。
+		リカバリーアップスキルを1増加します。
+		'''
+	MythrilHelmet:
+		'''
+		近接クリティカルヒット率を8%増加します
+		近接ダメージを10%増加します
+		フリーミールスキルを2増加します。
+		スピードイーティングスキルを2増加します。
+		レイザーシャープ/スペアショットスキルを2増加します。
+		'''
+	MythrilHat:
+		'''
+		遠距離ダメージを12%増加します
+		遠距離クリティカルヒット率を7%増加します
+		フリーミールスキルを2増加します。
+		スピードイーティングスキルを2増加します。
+		クリティカルドロー/ピアースアップスキルを1増加します。
+		'''
+	MythrilChainmail:
+		'''
+		ダメージを7%増加します
+		フリーミールスキルを1増加します。
+		プロテクションスキルを1増加します。
+		リカバリーアップスキルを1増加します。
+		[○]x 1。
+		'''
+	MythrilGreaves:
+		'''
+		クリティカルヒット率を10%増加します
+		耐久力スキルを2増加します。
+		アフィニティスライディングスキルを1増加します。
+		ラスティングパワースキルを1増加します。
+		'''
+	OrichalcumMask:
+		'''
+		近接ダメージと近接速度を11%増加します
+		移動速度を7%増加します
+		クリティカルアイスキルを2増加します。
+		プロテクティブポリッシュスキルを2増加します。
+		フェンシングスキルを1増加します。
+		'''
+	OrichalcumHelmet:
+		'''
+		遠距離クリティカルヒット率を15%増加します
+		移動速度を8%増加します
+		クリティカルアイスキルを2増加します。
+		フェンシングスキルを1増加します。
+		クリティカルドロー/ピアースアップスキルを1増加します。
+		'''
+	OrichalcumHeadgear:
+		'''
+		魔法クリティカルヒット率を18%増加します
+		最大マナを80増加します
+		クリティカルアイスキルを3増加します。
+		フェンシングスキルを1増加します。
+		'''
+	OrichalcumBreastplate:
+		'''
+		クリティカルヒット率を6%増加します
+		アイスレジスタンススキルを2増加します。
+		クリティカルアイスキルを1増加します。
+		ラスティングパワースキルを1増加します。
+		[○][○]x 1。
+		'''
+	OrichalcumLeggings:
+		'''
+		ダメージを8%増加し、移動速度を11%増加します
+		ラスティングパワースキルを2増加します。
+		[○][○]x 2。
+		'''
+	AdamantiteMask:
+		'''
+		遠距離ダメージを14%増加します
+		遠距離クリティカルヒット率を10%増加します
+		ガードスキルを2増加します。
+		パニッシュドロー/ペレットアップスキルを1増加します。
+		テンダライザースキルを1増加します。
+		'''
+	AdamantiteHelmet:
+		'''
+		近接クリティカルヒット率を7%増加します
+		近接ダメージを14%増加します
+		ガードスキルを2増加します。
+		プロテクティブポリッシュスキルを1増加します。
+		テンダライザースキルを1増加します。
+		'''
+	AdamantiteHeadgear:
+		'''
+		最大マナを80増加します
+		魔法ダメージとクリティカルヒット率を12%増加します
+		ガードスキルを2増加します。
+		テンダライザースキルを2増加します。
+		'''
+	AdamantiteBreastplate:
+		'''
+		ダメージを8%増加します
+		ガードスキルを2増加します。
+		ディフェンスロックスキルを1増加します。
+		スピリットスキルを1増加します。
+		[○][○]x 1。
+		'''
+	AdamantiteLeggings:
+		'''
+		クリティカルヒット率を7%増加します
+		移動速度を5%増加します
+		防御ブーストスキルを2増加します。
+		ガードスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	TitaniumMask:
+		'''
+		近接ダメージとクリティカルヒット率を9%増加します
+		近接速度を9%増加します
+		ダイバーションスキルを2増加します。
+		レイザーシャープ/スペアショットスキルを2増加します。
+		レイテントパワースキルを1増加します。
+		'''
+	TitaniumHelmet:
+		'''
+		遠距離ダメージを16%増加します
+		遠距離クリティカルヒット率を7%増加します
+		ダイバーションスキルを2増加します。
+		レイテントパワースキルを1増加します。
+		パニッシュドロー/ペレットアップスキルを1増加します。
+		'''
+	TitaniumHeadgear:
+		'''
+		魔法ダメージを16%増加し、魔法クリティカルヒット率を7%増加します
+		最大マナを100増加します
+		ダイバーションスキルを2増加します。
+		レイテントパワースキルを1増加します。
+		プロテクションスキルを1増加します。
+		'''
+	TitaniumBreastplate:
+		'''
+		ダメージを4%増加します
+		クリティカルヒット率を3%増加します
+		ガードスキルを1増加します。
+		レイテントパワースキルを1増加します。
+		ロックステディスキル1を有効化します。
+		[○][○]x 1。
+		'''
+	TitaniumLeggings:
+		'''
+		ダメージとクリティカルヒット率を3%増加します
+		移動速度を6%増加します
+		ダイバーションスキルを1増加します。
+		回避スキルを1増加します。
+		アイスアタックスキルを1増加します。
+		[○][○]x 1。
+		'''
+	CrystalAssassinHood:
+		'''
+		クリティカルヒット率を5%増加します
+		マナコストを10%軽減します
+		アフィニティスライディングスキルを1増加します。
+		ジャンプマスタースキルを1増加します。
+		スピードセットアップスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	CrystalAssassinShirt:
+		'''
+		ダメージを5%増加します
+		弾薬を節約する確率を10%増加します
+		攻撃ブーストスキルを2増加します。
+		バブルダンススキルを2増加します。
+		アフィニティスライディングスキルを1増加します。
+		'''
+	CrystalAssassinPants:
+		'''
+		移動速度を20%増加します
+		近接速度を10%増加します
+		アフィニティスライディングスキルを1増加します。
+		バブルダンススキルを1増加します。
+		スピードセットアップスキルを1増加します。
+		[○][○]x 1。
+		'''
+	FrostHelmet:
+		'''
+		近接および遠距離ダメージを16%増加します
+		コールドレジスタンススキルを3増加します。
+		ヘイストリカバリースキルを1増加します。
+		ポーラーハンタースキルを1増加します。
+		'''
+	FrostBreastplate:
+		'''
+		近接および遠距離クリティカルヒット率を11%増加します
+		アイスアタックスキルを1増加します。
+		ポーラーハンタースキルを1増加します。
+		プロテクションスキルを1増加します。
+		[○][○]x 1。
+		'''
+	FrostLeggings:
+		'''
+		移動速度を8%増加します
+		近接速度を10%増加します
+		アクアティックモビリティスキルを2増加します。
+		アイスアタックスキルを2増加します。
+		ポーラーハンタースキルを1増加します。
+		'''
+	ForbiddenMask:
+		'''
+		魔法および召喚ダメージを15%増加します
+		ヒートレジスタンススキルを3増加します。
+		ガッツスキルを1増加します。
+		トロピックスハンタースキルを1増加します。
+		'''
+	ForbiddenRobes:
+		'''
+		最大マナを40増加します
+		召喚ダメージを10%増加します
+		最大ミニオンの数を1増加します
+		レイテントパワースキルを1増加します。
+		トロピックスハンタースキルを1増加します。
+		アンスケイザドスキルを1増加します。
+		[○][○]x 1。
+		'''
+	ForbiddenTreads:
+		'''
+		最大マナを40増加します
+		魔法ダメージを10%増加します
+		最大ミニオンの数を1増加します
+		回避スキルを1増加します。
+		フェイトスキルを1増加します。
+		トロピックスハンタースキルを1増加します。
+		[○][○]x 1。
+		'''
+	SquiresGreatHelm:
+		'''
+		ItemTooltip.SquiresGreatHelm
+		ダイバーションスキルを1増加します。
+		ガードスキルを1増加します。
+		ガードアップスキルを1増加します。
+		[○][○]x 1。
+		'''
+	SquiresPlating:
+		'''
+		ItemTooltip.SquiresPlating
+		ダイバーションスキルを1増加します。
+		ガードスキルを1増加します。
+		スラッガースキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	SquiresGreaves:
+		'''
+		ItemTooltip.SquiresGreaves
+		クリティカルドロースキルを1増加します。
+		耐久力スキルを1増加します。
+		ヘイストリカバリースキルを1増加します。
+		[○]x 1。
+		'''
+	MonkBrows:
+		'''
+		最大セントリー数を1増加し、近接速度を20%増加します
+		攻撃ブーストスキルを2増加します。
+		防御ブーストスキルを2増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	MonkShirt:
+		'''
+		召喚および近接ダメージを20%増加します
+		攻撃ブーストスキルを1増加します。
+		フォーカススキルを1増加します。
+		スピードイーティングスキルを1増加します。
+		[○]x 2。
+		'''
+	MonkPants:
+		'''
+		召喚ダメージを10%増加します、
+		近接クリティカルヒット率を15%増加し、移動速度を20%増加します
+		ヘルスブーストスキルを2増加します。
+		[○][○]x 2。
+		'''
+	HuntressWig:
+		'''
+		最大セントリー数を1増加し、遠距離クリティカルヒット率を10%増加します
+		回避距離スキルを1増加します。
+		フォレイスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		[○][○]x 2。
+		'''
+	HuntressJerkin:
+		'''
+		召喚および遠距離ダメージを20%増加し、弾薬を節約する確率を10%増加します
+		回避距離スキルを1増加します。
+		フォレイスキルを1増加します。
+		トロピックスハンタースキルを1増加します。
+		[○]x 1。
+		'''
+	HuntressPants:
+		'''
+		召喚ダメージを10%増加し、移動速度を20%増加します
+		クリティカルドロー/ピアースアップスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		[○][○]x 1。
+		'''
+	ApprenticeHat:
+		'''
+		最大セントリー数を1増加し、魔法ダメージを10%増加し、マナコストを10%軽減します
+		アンスケイザドスキルを2増加します。
+		ヘイストリカバリースキルを1増加します。
+		[○][○]x 2。
+		'''
+	ApprenticeRobe:
+		'''
+		召喚ダメージを20%増加し、魔法ダメージを10%増加します
+		レイテントパワースキルを2増加します。
+		ヘイストリカバリースキルを1増加します。
+		[○][○]x 1。
+		'''
+	ApprenticeTrousers:
+		'''
+		召喚ダメージを10%増加し、魔法クリティカルヒット率と移動速度を20%増加します
+		レイテントパワースキルを2増加します。
+		[○][○]x 2。
+		'''
+	HallowedHelmet:
+		'''
+		遠距離ダメージを15%増加します
+		遠距離クリティカルヒット率を8%増加します
+		レイザーシャープ/スペアショットスキルを2増加します。
+		攻撃ブーストスキルを1増加します。
+		スピリットスキルを1増加します。
+		'''
+	HallowedMask:
+		'''
+		近接ダメージとクリティカルヒット率を10%増加します
+		近接速度を10%増加します
+		クイックシャープニングスキルを2増加します。
+		攻撃ブーストスキルを1増加します。
+		スピリットスキルを1増加します。
+		'''
+	HallowedHeadgear:
+		'''
+		最大マナを100増加します
+		魔法ダメージとクリティカルヒット率を12%増加します
+		レイテントパワースキルを2増加します。
+		攻撃ブーストスキルを1増加します。
+		スピリットスキルを1増加します。
+		'''
+	HallowedHood:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを10%増加します
+		アンスケイザドスキルを2増加します。
+		攻撃ブーストスキルを1増加します。
+		スピリットスキルを1増加します。
+		'''
+	HallowedPlateMail:
+		'''
+		クリティカルヒット率を7%増加します
+		クリティカルブーストスキルを1増加します。
+		リカバリースピードスキルを1増加します。
+		[○][○]x 1。
+		'''
+	HallowedGreaves:
+		'''
+		ダメージを7%増加します
+		移動速度を8%増加します
+		CommonItemTooltip.VanillaAffinitySlide 1。
+		[○][○][○]x 2。
+		'''
+	AncientHallowedHelmet:
+		'''
+		遠距離ダメージを15%増加します
+		遠距離クリティカルヒット率を8%増加します
+		アーティラリー/ボムブーストスキルを1増加します。
+		攻撃ブーストスキルを1増加します。
+		クリティカルアイスキルを1増加します。
+		'''
+	AncientHallowedMask:
+		'''
+		近接ダメージとクリティカルヒット率を10%増加します
+		近接速度を10%増加します
+		攻撃ブーストスキルを1増加します。
+		クリティカルアイスキルを1増加します。
+		プロテクティブポリッシュスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		'''
+	AncientHallowedHeadgear:
+		'''
+		最大マナを100増加します
+		魔法ダメージとクリティカルヒット率を12%増加します
+		アフィニティスライディングスキルを1増加します。
+		攻撃ブーストスキルを1増加します。
+		クリティカルアイスキルを1増加します。
+		'''
+	AncientHallowedHood:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを10%増加します
+		攻撃ブーストスキルを1増加します。
+		クリティカルアイスキルを1増加します。
+		ヘイストリカバリースキルを1増加します。
+		'''
+	AncientHallowedPlateMail:
+		'''
+		クリティカルヒット率を7%増加します
+		リカバリースピードスキルを2増加します。
+		[○][○][○]x 2。
+		'''
+	AncientHallowedGreaves:
+		'''
+		ダメージを7%増加します
+		移動速度を8%増加します
+		CommonItemTooltip.VanillaAffinitySlide 1。
+		ハンディクラフト/ラピッドファイアスキルを1増加します。
+		[○][○]x 1。
+		'''
+	ChlorophyteMask:
+		'''
+		近接ダメージを16%増加します
+		近接クリティカルヒット率を6%増加します
+		リダイレクションスキルを2増加します。
+		ヘルスブーストスキルを1増加します。
+		[○]x 2。
+		'''
+	ChlorophyteHelmet:
+		'''
+		遠距離ダメージを16%増加します
+		弾薬を節約する確率を20%増加します
+		リダイレクションスキルを2増加します。
+		ヘルスブーストスキルを1増加します。
+		[○]x 2。
+		'''
+	ChlorophyteHeadgear:
+		'''
+		最大マナを80増加し、マナコストを17%軽減します
+		魔法ダメージを16%増加します
+		リダイレクションスキルを2増加します。
+		ヘルスブーストスキルを1増加します。
+		[○]x 2。
+		'''
+	ChlorophytePlateMail:
+		'''
+		ダメージを5%増加します
+		クリティカルヒット率を7%増加します
+		ヘルスブーストスキルを2増加します。
+		クイックブレススキルを2増加します。
+		[○][○]x 1。
+		'''
+	ChlorophyteGreaves:
+		'''
+		クリティカルヒット率を8%増加します
+		移動速度を5%増加します
+		プロテクションスキルを2増加します。
+		ウォーターレジスタンススキルを2増加します。
+		[○]x 2。
+		[○][○]x 1。
+		'''
+	TurtleHelmet:
+		'''
+		近接ダメージを6%増加します
+		敵に狙われやすくなります
+		ディファイアンススキルを1増加します。
+		防御ブーストスキルを1増加します。
+		ガードスキルを1増加します。
+		[○]x 1。
+		'''
+	TurtleScaleMail:
+		'''
+		近接ダメージとクリティカルヒット率を8%増加します
+		敵に狙われやすくなります
+		ディファイアンススキルを2増加します。
+		リセントメントスキルを2増加します。
+		[○][○]x 1。
+		'''
+	TurtleLeggings:
+		'''
+		近接クリティカルヒット率を4%増加します
+		敵に狙われやすくなります
+		ディファイアンススキルを2増加します。
+		ガードスキルを1増加します。
+		[○][○]x 2。
+		'''
+	TikiMask:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを10%増加します
+		鞭の範囲を10%増加します
+		フォレイスキルを2増加します。
+		スニークスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	TikiShirt:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを10%増加します
+		ウォーターレジスタンススキルを2増加します。
+		リカバリーアップスキルを1増加します。
+		[○][○][○]x 2。
+		'''
+	TikiPants:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを10%増加します
+		攻撃ブーストスキルを1増加します。
+		フェンシングスキルを1増加します。
+		リカバリーアップスキルを1増加します。
+		[○]x 1。
+		'''
+	BeetleHelmet:
+		'''
+		近接ダメージを6%増加します
+		敵に狙われやすくなります
+		ガードスキルを2増加します。
+		スピリットスキルを2増加します。
+		[○]x 1。
+		'''
+	BeetleScaleMail:
+		'''
+		近接ダメージとクリティカルヒット率を8%増加します
+		移動速度と近接速度を6%増加します
+		オフェンシブガードスキルを2増加します。
+		ガードスキルを1増加します。
+		[○][○]x 1。
+		'''
+	BeetleShell:
+		'''
+		近接ダメージとクリティカルヒット率を5%増加します
+		敵に狙われやすくなります
+		ガードアップスキルを2増加します。
+		ガードスキルを1増加します。
+		[○][○]x 1。
+		'''
+	BeetleLeggings:
+		'''
+		移動速度と近接速度を6%増加します
+		敵に狙われやすくなります
+		アフィニティスライディングスキルを1増加します。
+		耐久力スキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	ShroomiteHeadgear:
+		'''
+		弓のダメージを15%増加します
+		遠距離クリティカルヒット率を5%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		マッシュルーマンサースキルを1増加します。
+		スニークスキルを1増加します。
+		[○]x 2。
+		'''
+	ShroomiteMask:
+		'''
+		銃のダメージを15%増加します
+		遠距離クリティカルヒット率を5%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		マッシュルーマンサースキルを1増加します。
+		スニークスキルを1増加します。
+		[○]x 2。
+		'''
+	ShroomiteHelmet:
+		'''
+		特殊遠距離ダメージを15%増加します
+		これらはランチャー、ダートガン、または矢や弾丸を撃たないその他のものです
+		遠距離クリティカルヒット率を5%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		マッシュルーマンサースキルを1増加します。
+		スニークスキルを1増加します。
+		[○]x 2。
+		'''
+	ShroomiteBreastplate:
+		'''
+		遠距離ダメージとクリティカルヒット率を13%増加します
+		弾薬を節約する確率を20%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		アンスケイザドスキルを1増加します。
+		[○][○]x 2。
+		'''
+	ShroomiteLeggings:
+		'''
+		遠距離クリティカルヒット率を7%増加します
+		移動速度を12%増加します
+		レイザーシャープ/スペアショットスキルを1増加します。
+		リカバリースピードスキルを1増加します。
+		[○][○]x 1。
+		'''
+	SpectreMask:
+		'''
+		最大マナを60増加し、マナコストを13%軽減します
+		魔法ダメージとクリティカルヒット率を10%増加します
+		ブライトレジスタンススキルを1増加します。
+		ヒロイックスキルを1増加します。
+		ガッツスキルを1増加します。
+		'''
+	SpectreHood:
+		'''
+		ItemTooltip.SpectreHood
+		ブライトレジスタンススキルを1増加します。
+		ヒロイックスキルを1増加します。
+		ガッツスキルを1増加します。
+		'''
+	SpectreRobe:
+		'''
+		魔法ダメージとクリティカルヒット率を7%増加します
+		クリティカルブーストスキルを1増加します。
+		レイテントパワースキルを1増加します。
+		[○]x 1。
+		'''
+	SpectrePants:
+		'''
+		魔法ダメージを8%増加します
+		移動速度を8%増加します
+		ヒロイックスキルを2増加します。
+		サンダーアタックスキルを2増加します。
+		[○][○][○]x 1。
+		'''
+	SpookyHelmet:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを11%増加します
+		スピリットバードコールスキル1を有効化します。
+		テンダライザースキルを1増加します。
+		[○][○]x 2。
+		'''
+	SpookyBreastplate:
+		'''
+		最大ミニオンの数を2増加します
+		召喚ダメージを11%増加します
+		プロテクションスキルを2増加します。
+		リセントメントスキルを1増加します。
+		[○]x 2。
+		'''
+	SpookyLeggings:
+		'''
+		最大ミニオンの数を1増加します
+		召喚ダメージを11%増加します
+		移動速度を20%増加します
+		ファイアアタックスキルを3増加します。
+		リカバリーアップスキルを1増加します。
+		テンダライザースキルを1増加します。
+		'''
+	SquireAltHead:
+		'''
+		最大セントリー数を2増加し、召喚および近接ダメージを10%増加します
+		エンボルデンスキルを2増加します。
+		ガードアップスキルを1増加します。
+		[○]x 1。
+		'''
+	SquireAltShirt:
+		'''
+		召喚ダメージを30%増加し、ライフ再生を大幅に増加します
+		エンボルデンスキルを2増加します。
+		[○][○][○]x 2。
+		'''
+	SquireAltPants:
+		'''
+		召喚ダメージと近接クリティカルヒット率を20%増加します
+		移動速度を20%増加します
+		耐久力スキルを2増加します。
+		エンボルデンスキルを1増加します。
+		[○][○]x 1。
+		'''
+	MonkAltHead:
+		'''
+		最大セントリー数を2増加し、召喚および近接ダメージを20%増加します
+		アフィニティスライディングスキルを1増加します。
+		回避スキルを1増加します。
+		スニークスキルを1増加します。
+		[○]x 2。
+		'''
+	MonkAltShirt:
+		'''
+		召喚ダメージと近接速度を20%増加します
+		近接クリティカルヒット率を5%増加します
+		回避スキルを3増加します。
+		[○][○]x 2。
+		'''
+	MonkAltPants:
+		'''
+		召喚ダメージと近接クリティカルヒット率を20%増加します
+		移動速度を30%増加します
+		クリティカルブーストスキルを1増加します。
+		リセントメントスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	HuntressAltHead:
+		'''
+		最大セントリー数を2増加します
+		召喚ダメージと遠距離クリティカルヒット率を10%増加します
+		クリティカルブーストスキルを1増加します。
+		レイザーシャープ/スペアショットスキルを1増加します。
+		スピリットバードコールスキル1を有効化します。
+		[○]x 2。
+		'''
+	HuntressAltShirt:
+		'''
+		召喚および遠距離ダメージを25%増加し、弾薬を節約する確率を20%増加します
+		回避スキルを1増加します。
+		フェイトスキルを1増加します。
+		クイックブレススキルを1増加します。
+		[○]x 1。
+		[○][○]x 1。
+		'''
+	HuntressAltPants:
+		'''
+		召喚ダメージを25%増加し、遠距離クリティカルヒット率を10%増加します
+		移動速度を20%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		ジャンプマスタースキルを1増加します。
+		アンスケイザドスキルを1増加します。
+		[○][○]x 1。
+		'''
+	ApprenticeAltHead:
+		'''
+		最大セントリー数を2増加します
+		召喚および魔法ダメージを15%増加します
+		カウンターストライクスキルを1増加します。
+		クリティカルエレメントスキルを1増加します。
+		リセントメントスキルを1増加します。
+		ストライフスキルを1増加します。
+		'''
+	ApprenticeAltShirt:
+		'''
+		召喚ダメージを25%増加し、魔法ダメージを10%増加します
+		マナコストを15%軽減します
+		クリティカルエレメントスキルを1増加します。
+		リセントメントスキルを1増加します。
+		ストライフスキルを1増加します。
+		[○]x 1。
+		'''
+	ApprenticeAltPants:
+		'''
+		召喚ダメージを20%増加し、魔法クリティカルヒット率を25%増加します
+		移動速度を20%増加します
+		プロテクションスキルを2増加します。
+		スタミナリカバリースキルを1増加します。
+		[○][○]x 1。
+		'''
+	SolarFlareHelmet:
+		'''
+		近接クリティカルヒット率を26%増加します
+		軽度のライフ再生を付与します
+		敵に狙われやすくなります
+		クリティカルブーストスキルを1増加します。
+		メイルオブヘルファイアスキルを1増加します。
+		スピリットスキルを1増加します。
+		[○][○]x 1。
+		'''
+	SolarFlareBreastplate:
+		'''
+		近接ダメージを29%増加します
+		軽度のライフ再生を付与します
+		敵に狙われやすくなります
+		クリティカルブーストスキルを1増加します。
+		メイルオブヘルファイアスキルを1増加します。
+		スピリットスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	SolarFlareLeggings:
+		'''
+		移動速度と近接速度を15%増加します
+		軽度のライフ再生を付与します
+		敵に狙われやすくなります
+		クリティカルブーストスキルを1増加します。
+		メイルオブヘルファイアスキルを1増加します。
+		スピリットスキルを1増加します。
+		[○][○]x 2。
+		'''
+	VortexHelmet:
+		'''
+		遠距離ダメージを16%増加します
+		遠距離クリティカルヒット率を7%増加します
+		マスターズタッチ/デッドアイスキルを1増加します。
+		回避距離スキルを1増加します。
+		メイルオブヘルファイアスキルを1増加します。
+		[○][○]x 1。
+		'''
+	VortexBreastplate:
+		'''
+		遠距離ダメージとクリティカルヒット率を12%増加します
+		弾薬を節約する確率を25%増加します
+		回避距離スキルを2増加します。
+		メイルオブヘルファイアスキルを2増加します。
+		[○][○][○]x 1。
+		'''
+	VortexLeggings:
+		'''
+		遠距離ダメージとクリティカルヒット率を8%増加します
+		移動速度を10%増加します
+		クリティカルブーストスキルを2増加します。
+		[○][○][○]x 2。
+		'''
+	NebulaHelmet:
+		'''
+		最大マナを60増加し、マナコストを15%軽減します
+		魔法ダメージとクリティカルヒット率を7%増加します
+		クリティカルブーストスキルを1増加します。
+		回避距離スキルを1増加します。
+		ガッツスキルを1増加します。
+		[○][○][○]x 1。
+		'''
+	NebulaBreastplate:
+		'''
+		魔法ダメージとクリティカルヒット率を9%増加します
+		メイルオブヘルファイアスキルを2増加します。
+		ガッツスキルを1増加します。
+		[○]x 1。
+		[○][○]x 1。
+		'''
+	NebulaLeggings:
+		'''
+		魔法ダメージを10%増加します
+		移動速度を10%増加します
+		回避距離スキルを2増加します。
+		メイルオブヘルファイアスキルを1増加します。
+		[○][○]x 2。
+		'''
+	StardustHelmet:
+		'''
+		最大ミニオンの数を1増加します
+		最大セントリー数を1増加します
+		召喚ダメージを22%増加します
+		回避スキルを2増加します。
+		ヘルスブーストスキルを2増加します。
+		[○][○][○]x 1。
+		'''
+	StardustBreastplate:
+		'''
+		最大ミニオンの数を2増加します
+		召喚ダメージを22%増加します
+		鞭の範囲を15%増加します
+		ブラッドライトスキルを2増加します。
+		[○][○][○]x 2。
+		'''
+	StardustLeggings:
+		'''
+		最大ミニオンの数を2増加します
+		召喚ダメージを22%増加します
+		鞭の範囲を15%増加します
+		リカバリーアップスキルを2増加します。
+		ブラッドライトスキルを1増加します。
+		[○][○]x 1。
+		[○][○][○]x 1。
+		'''
+	MagicHat:
+		'''
+		魔法ダメージとクリティカルヒット率を6%増加します
+		スカラーシップスキルを1増加します。
+		[○]x 2。
+		'''
+	WizardHat:
+		'''
+		魔法ダメージを5%増加します
+		スカラーシップスキルを2増加します。
+		[○][○]x 2。
+		'''
+	AmethystRobe:
+		'''
+		最大マナを20増加します
+		マナコストを5%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	TopazRobe:
+		'''
+		最大マナを40増加します
+		マナコストを7%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	SapphireRobe:
+		'''
+		最大マナを40増加します
+		マナコストを9%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	EmeraldRobe:
+		'''
+		最大マナを60増加します
+		マナコストを11%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	RubyRobe:
+		'''
+		最大マナを60増加します
+		マナコストを13%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	DiamondRobe:
+		'''
+		最大マナを80増加します
+		マナコストを15%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	AmberRobe:
+		'''
+		最大マナを60増加します
+		マナコストを13%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	GypsyRobe:
+		'''
+		魔法ダメージとクリティカルヒット率を6%増加します
+		マナコストを10%軽減します
+		スタミナリカバリースキルを2増加します。
+		'''
+	DivingHelmet:
+		'''
+		水中での呼吸時間を大幅に延長します
+		アクアティックモビリティスキルを2増加します。
+		'''
+	Gi:
+		'''
+		ダメージとクリティカルヒット率を5%増加します
+		近接速度と移動速度を10%増加します
+		回避距離スキルを2増加します。
+		'''
+	FlinxFurCoat:
+		'''
+		召喚ダメージを5%増加します
+		最大ミニオンの数を1増加します
+		アイスアタックスキルを3増加します。
+                '''
+        
+}

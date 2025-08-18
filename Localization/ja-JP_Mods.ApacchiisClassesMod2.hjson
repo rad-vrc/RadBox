@@ -1,0 +1,1289 @@
+Changelog: {
+	Text:
+		'''
+		Mod Version: [1.5.7]
+		--------------------------------------------[Overview]--------------------------------------------
+
+		--------------------------------------------[General]--------------------------------------------
+		- Overall class healing nerfs.
+		- Fixed class stat bonuses not applying.
+		- Some bug fixes i forgot to note down.
+		--------------------------------------------[Classes]--------------------------------------------
+		Blood Mage
+		- Ability 1 [Transfusion] cooldown increased from 39s to 42s.
+		- Ultimate [Regeneration] base healing per tick reduced from 1.6% to 1.4%.
+
+		Crusader
+		- Ability 1 [Protection] base healing reduced from 13% to 12%.
+
+		Soulmancer
+		- Fixed all Class Menu ability values displaying incorrectly.
+		- Ability 1 [Consume] can now be cast above 50% health.
+		- Ability 1 now also heals players above 50% health but at a much reduced rate.
+		- Ability 1 base duration increased from 5s to 6s.
+		- Ability 1 cooldown increased from 29s to 42s.
+		- Ability 2 [Soul Shatter] Aghanim's Scepter/Shard area of effect reduction decreased from 175 to 150.
+
+		--------------------------------------------[Relics]--------------------------------------------
+
+		--------------------------------------------[Items]--------------------------------------------
+		'''
+}
+
+Configs: {
+	ACMConfigClient: {
+		Headers: {
+			Effects/Feeback: Effects/Feeback Header
+			TeamHUD: Team HUD
+			QuestsHUD: Quests HUD
+			HUD: HUD Header
+		}
+
+		DisplayName: ACM Config Client
+	}
+
+	_ACMConfigServer: {
+		Headers: {
+			Mod: {
+				Compatibility: Mod Compatibility
+			}
+
+			Balance: Balance
+			General: General
+		}
+
+		DisplayName: ACM Config Server
+	}
+}
+
+Config: {
+	ApothecaryHelpPanel: {
+		Tooltip: ""
+		Label: Apothecary Help Panel
+	}
+
+	ReworkedHudVerticalPosition: {
+		Tooltip: ""
+		Label: reworked Hud V Pos
+	}
+
+	ReworkedHudHorizontalPosition: {
+		Tooltip: ""
+		Label: reworked Hud H Pos
+	}
+
+	HUDStyle: {
+		Tooltip:
+			'''
+			Changes how the HUD is structured, does not affect HUD position on the screen
+			(Default: Left)
+			'''
+		Label: Hud Style
+	}
+
+	ScreenShakeIntensity: {
+		Tooltip:
+			'''
+			Changes how intense screen shaking effects are
+			(Default: 1)
+			'''
+		Label: Screen Shake Intensity
+	}
+
+	ScreenShake: {
+		Tooltip:
+			'''
+			Enables or disables screen shaking effects
+			(Default: On)
+			'''
+		Label: Screen Shake
+	}
+
+	FragmentDrop: {
+		Tooltip:
+			'''
+			Changes whether enemies have a chance to drop rune fragments or not
+			(Default: On)
+			'''
+		Label: Enemies Drop Rune Fragments
+	}
+
+	TeamHUDPlacementVertical: {
+		Tooltip:
+			'''
+			Changes where the team HUD is placed on your screen vertically
+			Value means screen height percentage, 0 is the top of your screen, 100 is the bottom
+			(Default: 0.04)
+			'''
+		Label: Team HUD Vertical Placement
+	}
+
+	TeamHUDPlacementHorizontal: {
+		Tooltip:
+			'''
+			Changes where the team HUD is placed on your screen horizontally
+			Value means screen width percentage, 0 is left side, 100 is right side
+			(Default: 0.8)
+			'''
+		Label: Team HUD Horizontal Placement
+	}
+
+	TeamHUD: {
+		Tooltip:
+			'''
+			Displays on your screen other player's health values, selected classes and respawn timers
+			Especially useful for supportive classes
+			(Default: On)
+			'''
+		Label: Team HUD
+	}
+
+	QuestDescTextWidth: {
+		Tooltip:
+			'''
+			Changes the max width the quest objective text will occupy, decrease if the text overlaps with other HUD elements
+			Useful for lower resolutions
+			(Default: 700)
+			'''
+		Label: Quest Description Text Width
+	}
+
+	NewQuestChatMessage: {
+		Tooltip:
+			'''
+			Toggles if a chat message will be sent everytime a new daily quest is given to the player
+			(Default: Off)
+			'''
+		Label: New Quest Chat Message
+	}
+
+	ShowQuestHUD: {
+		Tooltip:
+			'''
+			Toggles the quest HUD on the top of the screen
+			(Default: On)
+			'''
+		Label: Show Quest HUD
+	}
+
+	AnnounceLevelUp: {
+		Tooltip:
+			'''
+			Displays a message in chat whenever you level up a class
+			(Default: Off)
+			'''
+		Label: Announce Level Up Message
+	}
+
+	ZoomEffects: {
+		Tooltip:
+			'''
+			Some abilities will modify screen zoom temporarily.
+			(Default: On)
+			'''
+		Label: Zoom Effects
+	}
+
+	SmallerAbilityVFX: {
+		Tooltip:
+			'''
+			Visual effects from abilities such as Blood Mage's [Blood Enchantment] are scaled down to reduce obstruction
+			(Default: Off)
+			'''
+		Label: Smaller Ability VFX
+	}
+
+	BlinkingHUD: {
+		Tooltip:
+			'''
+			Abilities and Ultimate bars and text will blink if they are ready to use and only when you're in battle
+			(Default: On)
+			'''
+		Label: Blinking HUD
+	}
+
+	CompactHUD: {
+		Tooltip:
+			'''
+			Removes the ability cooldown bars from the HUD, reducing obstruction
+			(Default: Off)
+			'''
+		Label: Compact HUD
+	}
+
+	CalamityScaling: {
+		Tooltip:
+			'''
+			If enabled the amount of stats you gain from your class' banner stats will be slighty increased for each boss defeated after entering Hardmode.
+			(Does NOT actually need Calamity installed/enabled to work)
+			(Default: Off)
+			'''
+		Label: Calamity Scaling
+	}
+
+	ThoriumHealingScaling: {
+		Tooltip:
+			'''
+			Increases Thorium's Healer class bonus healing by a percentage of  Healing Power gained from this mod
+			(Requires 'Thorium Mod' in order to work)
+			(Default: 0.50 (50%))
+			'''
+		Label: Thorium Healing Bonus Percentage
+	}
+
+	APWeaponDPS: {
+		Tooltip:
+			'''
+			Changes how much ability power the player gets depending on the base dps of their currently held weapon
+			The higher this is, the more ability power you get
+			(Default: 0.05)
+			'''
+		Label: Ability Power Gained By Held Weapon's Base DPS
+	}
+
+	RuneStatsMultiplier: {
+		Tooltip:
+			'''
+			Changes how much stats runes gives you
+			(Default: 1)
+			'''
+		Label: Rune Stats Multiplier
+	}
+
+	NegativeClassStatsMultiplier: {
+		Tooltip:
+			'''
+			Changes how much negative stats your class gives you per level
+			(Default: 1)
+			'''
+		Label: Negative Class Stats Multiplier
+	}
+
+	ClassStatsMultiplier: {
+		Tooltip:
+			'''
+			Changes how much stats your class gives you per level
+			(Default: 1)
+			'''
+		Label: Class Stats Multiplier
+	}
+
+	BossHealthMultiplier: {
+		Tooltip:
+			'''
+			Increases how much max health Bosses have
+			(Default: 1.05x)
+			'''
+		Label: Boss Health Multiplier
+	}
+
+	EnemyNonBossHealthMultiplier: {
+		Tooltip:
+			'''
+			Increases how much max health enemies that are NOT bosses have
+			(Default: 1.05x)
+			'''
+		Label: Enemy (Non-boss) Health Multiplier
+	}
+
+	EnemyDamageMultiplier: {
+		Tooltip:
+			'''
+			Increases how much damage enemies deal to the player
+			(Default: 1.05x)
+			'''
+		Label: Enemy Damage Multiplier
+	}
+
+	HiddenAccStats: {
+		Tooltip:
+			'''
+			If true, all classes wont grant you stats when the accessory slot's visual is hidden
+			(Default: Off)
+			'''
+		Label: Hidden Accessory Disables Stats
+	}
+
+	ChatMessageSupportAbility: {
+		Tooltip:
+			'''
+			Dislay a message on the game's chat to everyone everytime someone casts a support-type ability like healing or buffing
+			(Default: On)
+			'''
+		Label: Chat Message When Using Supportive Ability
+	}
+
+	ExtraRelicSlot: {
+		Tooltip:
+			'''
+			If true, you get to equip two relics at a time instead of only one
+			(Relics slotted on this slot will remain on it until removed, even with this setting disabled)
+			(Make sure to remove said relics before deactivating this option if you want to keep it)
+			(Default: Off)
+			'''
+		Label: Extra Relic Slot
+	}
+
+	MaxClassLevel: {
+		Tooltip:
+			'''
+			Changes the maximum level all classes can reach
+			(Default: 100)
+			'''
+		Label: Max Class Level
+	}
+}
+
+Projectiles: {
+	RevengeSpirit: {
+		DisplayName: Revenge Spirit
+	}
+
+	TitaniaPixie: {
+		DisplayName: Titania Pixie
+	}
+
+	TrainingRapier: {
+		DisplayName: 修練するレイピア
+	}
+
+	SoulBurn: {
+		DisplayName: 魂を燃やす者
+	}
+
+	SeekingSpirit: {
+		DisplayName: 探求する魂
+	}
+
+	FadingDagger: {
+		DisplayName: 色褪せた刃
+	}
+
+	BloodSpray: {
+		DisplayName: 血の噴霧者
+	}
+
+	VanguardUltimate: {
+		DisplayName: 十字軍のアルティメット
+	}
+
+	VanguardSpear: {
+		DisplayName: 十字軍の槍
+	}
+
+	SoulShatter: {
+		DisplayName: 魂の粉砕
+	}
+
+	SoulFragmentAbsorb: {
+		DisplayName: 魂の断片吸収
+	}
+
+	SoulFragment: {
+		DisplayName: 魂の断片
+	}
+
+	ScoutTrap: {
+		DisplayName: 斥候の罠
+	}
+
+	PlagueInsect: {
+		DisplayName: 感染昆虫
+	}
+
+	MajorsCareProj: {
+		DisplayName: メジャーケアの発射物
+	}
+
+	SentryShot: {
+		DisplayName: セントリーの弾
+	}
+
+	Sentry: {
+		DisplayName: セントリー
+	}
+
+	Cog: {
+		DisplayName: 歯車
+	}
+
+	Dice: {
+		DisplayName: ダイス
+	}
+
+	WarBanner: {
+		DisplayName: 軍旗
+	}
+
+	BattleCry: {
+		DisplayName: 戦いの咆哮
+	}
+
+	Transfusion: {
+		DisplayName: 輸血
+	}
+
+	BloodEnchantment4: {
+		DisplayName: 血のエンチャント4
+	}
+
+	BloodEnchantment3: {
+		DisplayName: 血のエンチャント3
+	}
+
+	BloodEnchantment2: {
+		DisplayName: 血のエンチャント2
+	}
+
+	BloodEnchantment: {
+		DisplayName: 血のエンチャント
+	}
+}
+
+Items: {
+	Apothecary: {
+		Tooltip: ""
+		DisplayName: Apothecary
+	}
+
+	RevengeSpirit: {
+		Tooltip: ""
+		DisplayName: Revenge Spirit
+	}
+
+	ImperialMandate: {
+		Tooltip: ""
+		DisplayName: Imperial Mandate
+	}
+
+	Sacrifice: {
+		Tooltip: ""
+		DisplayName: Sacrifice
+	}
+
+	ArcaneBarrier: {
+		Tooltip: ""
+		DisplayName: Arcane Barrier
+	}
+
+	BlackBaloon: {
+		Tooltip: ""
+		DisplayName: Regret
+	}
+
+	StaffOfTheMaster: {
+		Tooltip: ""
+		DisplayName: Staff Of The Master
+	}
+
+	StaffOfTheApprentice: {
+		Tooltip: ""
+		DisplayName: Staff Of The Apprentice
+	}
+
+	Titania: {
+		Tooltip: ""
+		DisplayName: Titania
+	}
+
+	WindsRoar: {
+		Tooltip: ""
+		DisplayName: 風の咆哮
+	}
+
+	RelicFragment: {
+		Tooltip: ""
+		DisplayName: 遺物の断片
+	}
+
+	AghanimsShard: {
+		Tooltip: 遺物のアガニムの笏の効果を永続的に付与する
+		DisplayName: アガニムの欠片
+	}
+
+	Spike: {
+		Tooltip: ""
+		DisplayName: トゲ
+	}
+
+	Scholar: {
+		Tooltip: ""
+		DisplayName: 学者
+	}
+
+	ScholarJournal: {
+		Tooltip: ""
+		DisplayName: 学者の日誌
+	}
+
+	ScholarBasicOres: {
+		Tooltip: ""
+		DisplayName: 学者の基本鉱石
+	}
+
+	ZIP: {
+		Tooltip: 現在装備しているクラスをレベル0に戻す
+		DisplayName: ZIP
+	}
+
+	WhiteCloth: {
+		Tooltip: 選択したクラスのダメージタイプを作成するために使用する
+		DisplayName: 白色の布
+	}
+
+	WornGloves: {
+		Tooltip: ""
+		DisplayName: 古い手袋
+	}
+
+	VoidMirror: {
+		Tooltip: ""
+		DisplayName: 虚空の鏡
+	}
+
+	UnstableConcoction: {
+		Tooltip: ""
+		DisplayName: 不安定な調合物
+	}
+
+	TornWhipPart: {
+		Tooltip: ""
+		DisplayName: トゲ鞭の部品
+	}
+
+	TheosCollar: {
+		Tooltip: ""
+		DisplayName: テオの襟
+	}
+
+	TearsOfLife: {
+		Tooltip: ""
+		DisplayName: 人生の涙
+	}
+
+	StrangeMushroom: {
+		Tooltip: ""
+		DisplayName: 奇妙なマッシュルーム
+	}
+
+	StrangeGem: {
+		Tooltip: ""
+		DisplayName: 奇妙な宝石
+	}
+
+	Stopwatch: {
+		Tooltip: ""
+		DisplayName: ストップウォッチ
+	}
+
+	SleepingBabySqueaker: {
+		Tooltip: ""
+		DisplayName: 眠る赤ちゃんの鳴き声
+	}
+
+	ScalingWarbanner: {
+		Tooltip: ""
+		DisplayName: 攻城軍旗
+	}
+
+	RapidFirecannon: {
+		Tooltip: ""
+		DisplayName: ラピッドファイヤーキャノン
+	}
+
+	RandomRelic: {
+		Tooltip: 右クリックで開く
+		DisplayName: 不特定の遺物
+	}
+
+	PorcelainMask: {
+		Tooltip: ""
+		DisplayName: 磁器の仮面
+	}
+
+	PocketSlime: {
+		Tooltip: ""
+		DisplayName: 携帯スライム
+	}
+
+	Peanut: {
+		Tooltip: ""
+		DisplayName: 137番目のピーナッツ
+	}
+
+	OldShield: {
+		Tooltip: ""
+		DisplayName: 古い盾
+	}
+
+	OldBlood: {
+		Tooltip: ""
+		DisplayName: 古い血
+	}
+
+	OldBelt: {
+		Tooltip: ""
+		DisplayName: 古いベルト
+	}
+
+	NiterihsJewelryBox: {
+		Tooltip: ""
+		DisplayName: ニテフリの宝石箱
+	}
+
+	NiterihsRing: {
+		Tooltip: ""
+		DisplayName: ニテフリの指輪
+	}
+
+	NiterihsNecklace: {
+		Tooltip: ""
+		DisplayName: ニテフリのネックレス
+	}
+
+	NiterihsLuckyToken: {
+		Tooltip: ""
+		DisplayName: ニテフリの幸運トークン
+	}
+
+	NiterihsEarring: {
+		Tooltip: ""
+		DisplayName: ニテフリのイヤリング
+	}
+
+	NiterihsBracelet: {
+		Tooltip: ""
+		DisplayName: ニテフリのブレスレット
+	}
+
+	Nessie: {
+		Tooltip: ""
+		DisplayName: ネッシー
+	}
+
+	MushroomConcentrate: {
+		Tooltip: ""
+		DisplayName: マッシュルームの集中
+	}
+
+	MinionsRightsContract: {
+		Tooltip: ""
+		DisplayName: ミニオンの権利協定
+	}
+
+	ManaInhibitor: {
+		Tooltip: ""
+		DisplayName: マナ抑制剤
+	}
+
+	ManaBag: {
+		Tooltip: ""
+		DisplayName: マナのかばん
+	}
+
+	MajorsCare: {
+		Tooltip: ""
+		DisplayName: メジャーケア
+	}
+
+	LuckyLeaf: {
+		Tooltip: ""
+		DisplayName: 幸運の葉っぱ
+	}
+
+	LeysMushroom: {
+		Tooltip: ""
+		DisplayName: レイのマッシュルーム
+	}
+
+	Hourglass: {
+		Tooltip: ""
+		DisplayName: 砂時計
+	}
+
+	EldritchInoculation: {
+		Tooltip: ""
+		DisplayName: エルドリッチの植菌
+	}
+
+	DerelictCactusRing: {
+		Tooltip: ""
+		DisplayName: 廃棄されたサボテンの指輪
+	}
+
+	DarkSign: {
+		Tooltip: ""
+		DisplayName: 闇の印
+	}
+
+	CursedCandle: {
+		Tooltip: ""
+		DisplayName: 呪われたろうそく
+	}
+
+	Croissant: {
+		Tooltip: ""
+		DisplayName: クロワッサン
+	}
+
+	ChocolatePudding: {
+		Tooltip: ""
+		DisplayName: チョコレートプリン
+	}
+
+	ChocolateBar: {
+		Tooltip: ""
+		DisplayName: チョコレート
+	}
+
+	ChaosAccelerant: {
+		Tooltip: ""
+		DisplayName: 混沌の促進剤
+	}
+
+	BrokenHeart: {
+		Tooltip: ""
+		DisplayName: 壊れたハート
+	}
+
+	BloodGem: {
+		Tooltip: ""
+		DisplayName: 血のジェム
+	}
+
+	BleedingMoonStone: {
+		Tooltip: ""
+		DisplayName: 血月の石
+	}
+
+	BerserkersBrew: {
+		Tooltip: ""
+		DisplayName: 狂戦士のビール
+	}
+
+	ArcaneBlade: {
+		Tooltip: ""
+		DisplayName: 奥義の刃
+	}
+
+	AghanimsScepter: {
+		Tooltip: ""
+		DisplayName: アガニムの笏
+	}
+
+	AccountantRat: {
+		Tooltip: ""
+		DisplayName: 会計係のネズミ
+	}
+
+	RedCloth: {
+		Tooltip: 近接ダメージクラスのクラフトに使用
+		DisplayName: 赤色の布
+	}
+
+	PinkCloth: {
+		Tooltip: ???クラスのクラフトに使用
+		DisplayName: 桃色の布
+	}
+
+	OrangeCloth: {
+		Tooltip: 召喚ダメージクラスに使用
+		DisplayName: 橙色の布
+	}
+
+	LostRuneFragment: {
+		Tooltip: 古代のルーン、まだなにも刻まれていない
+		DisplayName: 失われたルーンの断片
+	}
+
+	LostRune: {
+		Tooltip: 右クリックで描かれたルーンを得る
+		DisplayName: 失われたルーン
+	}
+
+	GreenCloth: {
+		Tooltip: 遠距離ダメージクラスのクラフトに使用
+		DisplayName: 緑色の布
+	}
+
+	TrainingRapier: {
+		Tooltip: ""
+		DisplayName: 修練するレイピア
+	}
+
+	SoulBurner: {
+		Tooltip: ""
+		DisplayName: 魂を燃やす者
+	}
+
+	SeekingSpirit: {
+		Tooltip: ""
+		DisplayName: 探求する魂
+	}
+
+	FadingDagger: {
+		Tooltip: ""
+		DisplayName: 色褪せた刃
+	}
+
+	BloodSpray: {
+		Tooltip: ""
+		DisplayName: 血の噴霧者
+	}
+
+	Vanguard: {
+		Tooltip: ""
+		DisplayName: 前衛
+	}
+
+	Soulmancer: {
+		Tooltip: ""
+		DisplayName: 霊媒師
+	}
+
+	Scout: {
+		Tooltip: ""
+		DisplayName: 斥候
+	}
+
+	Plague: {
+		Tooltip: ""
+		DisplayName: ペスト医師
+	}
+
+	Gambler: {
+		Tooltip: ""
+		DisplayName: 賭博師
+	}
+
+	Crusader: {
+		Tooltip: ""
+		DisplayName: 十字軍
+	}
+
+	Commander: {
+		Tooltip: ""
+		DisplayName: 司令官
+	}
+
+	BloodMage: {
+		Tooltip: ""
+		DisplayName: 血の魔術師
+	}
+
+	ClassBook: {
+		Tooltip: ""
+		DisplayName: クラスの本
+	}
+
+	BlueCloth: {
+		Tooltip: 魔法ダメージクラスのクラフトに使用
+		DisplayName: 青色の布
+	}
+
+	DevCooldownAcc: {
+		Tooltip: ""
+		DisplayName: 開発者用クールダウン加速器
+	}
+}
+
+Buffs: {
+	ImperialMandate: {
+		Description: Mods.ApacchiisClassesMod2.Buffs.ImperialMandate.Description
+		DisplayName: Imperial Mandate
+	}
+
+	SacrificeDot2: {
+		Description: Mods.ApacchiisClassesMod2.Buffs.SacrificeDot2.Description
+		DisplayName: Sacrifice Dot2
+	}
+
+	SacrificeDot1: {
+		Description: Mods.ApacchiisClassesMod2.Buffs.SacrificeDot1.Description
+		DisplayName: Sacrifice Dot1
+	}
+
+	PlagueInsectHit: {
+		Description: Insect hit count
+		DisplayName: Plague Insect Hit
+	}
+
+	PlagueInfection: {
+		Description: Taking heavy damage
+		DisplayName: Plague Infection
+	}
+
+	LeysEndurance: {
+		Description: Reducing damage taken
+		DisplayName: Leys Endurance
+	}
+
+	LeysDamage: {
+		Description: Increasing damage
+		DisplayName: Leys Damage
+	}
+
+	LeysCrit: {
+		Description: Increasing critical strike chance
+		DisplayName: Leys Crit
+	}
+
+	LeysAttackSpeed: {
+		Description: Increasing attack speed
+		DisplayName: Leys Attack Speed
+	}
+
+	InventorPassive: {
+		Description: Increasing both your and your turret's attack speed
+		DisplayName: Inventor Passive
+	}
+
+	LuckyStreak: {
+		Description: Increasing your passive's minimum and maximum damage dealt
+		DisplayName: Lucky Streak
+	}
+
+	Jackpot: {
+		Description:
+			'''
+			Your class' banner crit loss is now inverted, granting you positive crit chance instead
+			Attack speed increased
+			Cooldown reduction increased
+			'''
+		DisplayName: Jackpot
+	}
+
+	GuardianAngel: {
+		Description: Reducing damage taken by a lot
+		DisplayName: Guardian Angel
+	}
+
+	WarBanner: {
+		Description:
+			'''
+			Increased damage dealt
+			Reduced damage taken
+			'''
+		DisplayName: War Banner
+	}
+
+	Inspire: {
+		Description: All attacks are guaranteed to be critical strikes, minions are also affected
+		DisplayName: Inspire
+	}
+}
+
+Tiles: {
+	LostRuneFragment: {
+		MapEntry: Lost Rune Fragment
+	}
+}
+
+Keybinds: {
+	Menu: {
+		DisplayName: Menu
+	}
+
+	"Class Ability: Ultimate": {
+		DisplayName: Class  Ability:  Ultimate
+	}
+
+	"Class Ability: 2": {
+		DisplayName: Class  Ability: 2
+	}
+
+	"Class Ability: 1": {
+		DisplayName: Class  Ability: 1
+	}
+}
+
+Plague: {
+	Ult_Prev: Create a deadzone around yourself that continously strikes enemies, dealing true damage to any enemies.
+	Ult_Name: Deadzone
+	A2_Prev: Deal damage to any enemy affected by Plagued and re-apply it's damage over time with a lesser duration.
+	A2_Name: Infection Burst
+	A1_Prev:
+		'''
+		Release an insect to damage enemies and infect them with Plagued. Insects can multiply themselves on-hit.
+		Enemies affected by Plagued take heavy damage over time based on their max health.
+		'''
+	A1_Name: Infect
+	P_Prev:
+		'''
+		Minions have a chance to land critical hits on enemies.
+		Minions deal increased damage vs Plagued enemies and their crit chance is increased vs them too.
+		'''
+	P_Name: Lethality
+}
+
+Gambler_Aghanims: a
+
+Gambler_Ult_Prev2: Additionally your class' crit loss per level is inverted making it positive instead.
+
+Gambler_Ult_Prev: For a duration, increase your attack speed, ability power and reduce your [Roll the Dice]'s ability cooldown.
+
+Gambler_Ult_Name: Jackpot
+
+Gambler_A2_Prev: Your passive's minimum and maximum damage dealt is temporarily increased.
+
+Gambler_A2_Name: Lucky Streak
+
+Gambler_A1_Prev: Roll 3 dice, the dice will target enemies and strike them.
+
+Gambler_A1_Name: Roll the Dice
+
+Gambler_P_Feedback_Disabled: Click to enable the passive's visual feedback.
+
+Gambler_P_Feedback_Enabled: Click to disable the passive's visual feedback.
+
+Gambler_P_Prev: Any damage you deal is randomized to deal between 75% and 125% damage.
+
+Gambler_P_Name: Luck of the Draw
+
+Vanguard_Aghanims: a
+
+Vanguard_Ult_Prev: A huge sword comes falling from the skies, dealing heavy damage and executing enemies.
+
+Vanguard_Ult_Name: Sword Of Judgement
+
+Vanguard_A2_Prev: Cast a light barrier around you, reducing damage taken.
+
+Vanguard_A2_Name: Barrier Of Light
+
+Vanguard_A1_Prev: Throw a spear of light, the spear explodes if it comes close to an enemy, dealing damage to all enemies around it.
+
+Vanguard_A1_Name: Spear Of Light
+
+Vanguard_P_Prev: Enemies take damage when hitting you.
+
+Vanguard_P_Name: Enchanted Armor
+
+Soulmancer_Aghanims: a
+
+Soulmancer_Ult_Prev: Rapidly rip fragments of your own soul, slightly draining your own health per fragment. Each soul fragment deals 1.5x [Soul Rip]'s damage.
+
+Soulmancer_Ult_Name: Self Sacrifice
+
+Soulmancer_A2_Prev: Shatter the soul of nearby enemies dealing heavy damage and ripping an additional fragment per soul shattered.
+
+Soulmancer_A2_Name: Soul Shatter
+
+Soulmancer_A1_Prev_2: yourself, consuming it and healing you for a small percentage of your max health per fragment consumed.
+
+Soulmancer_A1_Prev: For a short duration, if you are below 50% health, everytime you hit an enemy with a soul fragment, recall it to
+
+Soulmancer_A1_Name: Consume
+
+Soulmancer_P_Prev_2: These soul fragments can critically strike.
+
+Soulmancer_P_Prev_1: Hitting enemies with magic weapons has a chance to rip a fragment of their soul, causing it to harm any nearby enemies.
+
+Soulmancer_P_Name: Soul Rip
+
+Scout_Aghanims: a
+
+Scout_Ult_Prev_2: seconds, and gain increased mobility.
+
+Scout_Ult_Prev_1: Become invincible for
+
+Scout_Ult_Name: Nuclear-Slap (TM)
+
+Scout_A2_Prev: Place a low cooldown explosive trap under your cursor, enemies that get too close to the trap will take damage.
+
+Scout_A2_Name: Explosive Trap
+
+Scout_A1_Prev: Take a sip from an energy drink you made yourself, increasing the damage you deal by temporarily.
+
+Scout_A1_Name: Hit-a-Soda
+
+Scout_P_EnableDoubleJump: Enable scout's passive double jump
+
+Scout_P_DisableDoubleJump: Disable scout's passive double jump
+
+Scout_P_Prev: The scout can double jump and has slightly increased movement speed.
+
+Scout_P_Name: Agility
+
+Crusader_Aghanims: a
+
+Crusader_Ult_Prev: A guardian angel watches over everyone, granting all players a reduction to the damage they take for 10s.
+
+Crusader_Ult_Name: Guardian Angel
+
+Crusader_A2_Prev: Throw a hallowed hammer towards your cursor, the hammer will damage all enemies in its path.
+
+Crusader_A2_Name: Hallowed Hammer
+
+Crusader_A1_Prev: Apply a healing buff to all players that slowly heals them each second. Players regen health at a rate of 1% of their max health p/sec.
+
+Crusader_A1_Name: Protection
+
+Crusader_P_Prev: Reduce damage taken by 3%. This effect is increased by an additional 4% while under the effects of a healing buff.
+
+Crusader_P_Name: Tenacity
+
+Commander_Aghanims: a
+
+Commander_Ult_Prev: Inspire yourself and your teammates, granting everyone guaranteed critical hits for a period of time (affects minions).
+
+Commander_Ult_Name: Inspire
+
+Commander_A2_Prev: Scream loudly, intimidating enemies around you and increasing the damage they take for a period of time.
+
+Commander_A2_Name: Battle Cry
+
+Commander_A1_Prev: Place a war banner at your feet, players standing inside its area will deal increased damage and take reduced damage.
+
+Commander_A1_Name: War Banner
+
+Commander_P_Prev: For each minion slot you have gain a small amount of damage reduction.
+
+Commander_P_Name: Commander's Will
+
+BloodMage_Aghanims: a
+
+BloodMage_Ult_Prev: Regen some of your health over a duration.
+
+BloodMage_Ult_Name: Regeneration
+
+BloodMage_A2_Prev_2: Increase the damage you deal and refunds the health cost if an enemy is hit.
+
+BloodMage_A2_Prev: Enchant you magic weapons with your own blood, making it also cost the same amount of mana it uses as health.
+
+BloodMage_A2_Name: Blood Enchantment
+
+BloodMage_A1_Prev: Throw a blob of your own blood that will seek out the nearest enemy, damage it, and come back to you with a bit of its blood, restoring your health.
+
+BloodMage_A1_Name: Transfusion
+
+BloodMage_P_Prev: When hitting enemies with a magic weapon you have a chance to rip their veins, dealing additional damage based on a precentage of your held weapon's damage.
+
+BloodMage_P_Name: Vein Ripper
+
+Runes: ルーン
+
+RelicsList: 遺物一覧
+
+Locked: ロック中
+
+UnlocksAfter10Text: 才能ツリーでスキルポイントを10ポイント消費すると開放される
+
+Specializations: 専門分野
+
+Talents: 才能
+
+EquipableTank: タンククラスで装備可能
+
+EquipableSupport: 支援クラスで装備可能
+
+EquipableCarry: 運搬クラスで装備可能
+
+EquipableFighter: 戦闘クラスで装備可能
+
+CraftableRelic: 装備可能でクラフト可能な遺物
+
+EquipableRelic: 装備可能な遺物
+
+GivesRelic: ランダムな遺物を得る
+
+RelicPrefix: 遺物
+
+Ultimate: アルティメット
+
+Ability2: アビリティ 2
+
+Ability1: アビリティ 1
+
+Passive: パッシブ
+
+ClassPrefix: クラス
+
+HoldToPreviewAbilities: Hold 'UP' to preview abilities
+
+Level: レベル
+
+HighestCrit: 最大クリティカル
+
+DamageTaken: 受けたダメージ
+
+EnemiesKilled: 敵を倒した数
+
+TimesDied: 死亡回数
+
+DodgeChance: 回避確率
+
+UltCostReduction: ウルトコスト削減
+
+UltCost: アルティメットコスト
+
+CooldownReduction: クールダウン削減
+
+HealingPower: 回復力
+
+AbilityPower: アビリティ力
+
+AttackSpeed: 攻撃速度
+
+MovementAcceleration: 移動加速度
+
+MovementSpeed: 移動速度
+
+DamageReduction: ダメージ軽減
+
+WhipRange: 鞭範囲
+
+MaxMinions: 最大召喚数
+
+ManaCost: マナコスト
+
+Defense: 防御力
+
+MaxMana: 最大マナ
+
+MaxHealth: 最大HP
+
+AllCrit: 全クリティカル
+
+AllDamage: 全ダメージ
+
+SummonCrit: 召喚クリティカル
+
+SummonDamage: 召喚ダメージ
+
+RangedCrit: 遠距離クリティカル
+
+RangedDamage: 遠距離ダメージ
+
+MeleeCrit: 近接クリティカル
+
+MeleeDamage: 近接ダメージ
+
+MagicCrit: 魔法クリティカル
+
+MagicDamage: 魔法ダメージ
+
+PlayerStatsText: プレイヤーステータス
+
+ItemName: {
+	TrainingRapier: 修練するレイピア
+	SoulBurner: 魂を燃やすもの
+	SeekingSpirit: 探求する魂
+	FadingDagger: 色褪せた刃
+	BloodSpray: 血の噴霧者
+	Plague: Class: ペスト医師
+	Gambler: Class: 賭博師
+	Vanguard: Class: 前衛
+	Soulmancer: Class: 霊媒師
+	Scout: Class: 斥候
+	Commander: Class: 司令官
+	BloodMage: Class: 血の魔術師
+	RedCloth: 赤色の布
+	PinkCloth: 桃色の布
+	OrangeCloth: 橙色の布
+	GreenCloth: 緑色の布
+	BlueCloth: 青色の布
+	WhiteCloth: 白色の布
+	ClassBook: クラスの本
+	RandomRelic: 不特定の遺物
+}
+

@@ -1,0 +1,163 @@
+Prefixes: {
+	Vengeful: {
+		DisplayName: 復讐の
+	}
+
+	Extended: {
+		DisplayName: 延びる
+	}
+
+	Affable: {
+		DisplayName: 親しみやすい
+	}
+
+	Mega: {
+		DisplayName: メガ
+	}
+
+	Brisk: {
+		DisplayName: 機敏な
+	}
+
+	Deviation: {
+		DisplayName: 逸脱した
+	}
+
+	Steady: {
+		DisplayName: 安定した
+	}
+
+	Huge: {
+		DisplayName: 巨大な
+	}
+
+	Echo: {
+		DisplayName: 反響する
+	}
+
+	Blessing: {
+		DisplayName: 祝福の
+	}
+
+	Contract: {
+		DisplayName: 契約の
+	}
+
+	Devoted: {
+		DisplayName: 献身的な
+	}
+
+	Overload: {
+		DisplayName: 過負荷の
+	}
+
+	Abusive: {
+		DisplayName: 虐待的な
+	}
+
+	Eager: {
+		DisplayName: 熱心な
+	}
+
+	Focused: {
+		DisplayName: 集中する
+	}
+
+	Loyal: {
+		DisplayName: 忠実な
+	}
+
+	Fabled: {
+		DisplayName: 伝説の
+	}
+
+	Oracle: {
+		DisplayName: 神託の
+	}
+
+	Electrified: {
+		DisplayName: 帯電した
+	}
+
+	Focused_Whip: {
+		DisplayName: 集中する
+	}
+}
+
+PrefixVengefulDescr: ターゲットに追加タグを付与し、ミニオンダメージがアイテムダメージの{A}%増加（{B}）
+
+PrefixExtendedDescr: 鞭の攻撃範囲+{V}%
+
+PrefixAffableDescr: ミニオンスロット使用量-{A}%（{B}）
+
+PrefixMegaDescr:
+	'''
+	ミニオンスロット使用量+100%
+	ミニオンサイズ+100%
+	ミニオンノックバック+100%
+	'''
+
+PrefixBriskDescr: ミニオン攻撃速度+{}%
+
+PrefixDeviationDescr: 召喚武器の弾丸がさらに不正確になる
+
+PrefixSteadyDescr: ミニオン攻撃速度-{}%
+
+PrefixHugeDescr: ミニオンサイズ+{}%
+
+PrefixEchoDescr: ミニオンが二重弾を放つチャンスがある
+
+PrefixBlessingDescr: ミニオンが近くのプレイヤーにボーナスを与える
+
+PrefixContractDescr:
+	'''
+	ミニオンがヒット時に最大HPの{A}%を回復
+	ミニオン1体あたり防御力-{B}
+	'''
+
+PrefixDevotedDescr:
+	'''
+	攻撃した敵にタグを付与
+	タグ付きの敵にダメージ+{A}%
+	そうでなければダメージ-{B}%
+	'''
+
+PrefixOverloadDescr: ミニオン攻撃速度+100%
+
+PrefixAbusiveDescr: ミニオンクリティカル率+{}%
+
+PrefixEagerDescr: ミニオン攻撃速度+{}%
+
+PrefixFocusedDescr: ミニオンスロット使用量+{A}%（{B}）
+
+PrefixLoyalDescr:
+	'''
+	ミニオンスロット使用量+{A}%（{B}）
+	ミニオンクリティカル率+{C}%
+	'''
+
+PrefixFabledDescr:
+	'''
+	ミニオンスロット使用量-{A}%（{B}）
+	ミニオンクリティカル率+{C}%
+	ミニオンノックバック+{D}%
+	'''
+
+PrefixOracleDescr:
+	'''
+	ターゲットに追加タグを付与、
+	ミニオンダメージがアイテムダメージの{A}%増加（{B}）、
+	ミニオンクリティカル率+{C}%
+	鞭の攻撃範囲+{D}%
+	'''
+
+Projectiles: {
+	ElectricLaser: {
+		DisplayName: 電気レーザー
+	}
+}
+
+PrefixElectrifiedDescr: あなたとミニオンを結ぶ雷の鎖を継続的に生成、雷ダメージは最大体力に基づく
+
+PrefixFocused_WhipDescr: 持っている間、召喚ダメージ+{A}%、しかしミニオンスロット-{B}
+

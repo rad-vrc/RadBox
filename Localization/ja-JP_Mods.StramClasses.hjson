@@ -1,0 +1,2024 @@
+{
+	DamageClasses: {
+		Rogue: {
+			DisplayName: "ローグダメージ"
+		}
+		Paladin: {
+			DisplayName: "神聖ダメージ"
+		}
+	}
+	Projectiles: {
+		CopperDagger: {
+			DisplayName: "銅のダガー"
+		}
+		TinDagger: {
+			DisplayName: "スズのダガー"
+		}
+		LeadDagger: {
+			DisplayName: "鉛のダガー"
+		}
+		IronDagger: {
+			DisplayName: "鉄のダガー"
+		}
+		SilverDagger: {
+			DisplayName: "銀のダガー"
+		}
+		TungstenDagger: {
+			DisplayName: "タングステンのダガー"
+		}
+		PlatinumDagger: {
+			DisplayName: "プラチナのダガー"
+		}
+		GoldDagger: {
+			DisplayName: "金のダガー"
+		}
+		PinkDagger: {
+			DisplayName: "ピンクのダガー"
+		}
+		MushroomChopper: {
+			DisplayName: "マッシュルームチョッパー"
+		}
+		FungusSpore: {
+			DisplayName: "菌類の胞子"
+		}
+		IceSpear: {
+			DisplayName: "氷の槍"
+		}
+		IceSpearShatter: {
+			DisplayName: "氷の槍の破片"
+		}
+		ExoticKunai: {
+			DisplayName: "エキゾチッククナイ"
+		}
+		DaggerOfIngestedPoison: {
+			DisplayName: "摂取毒のダガー"
+		}
+		FanDart: {
+			DisplayName: "ファンダート"
+		}
+		GelTippedShuriken: {
+			DisplayName: "ゲル付き手裏剣"
+		}
+		AllSeeingJavelin: {
+			DisplayName: "全知のジャベリン"
+		}
+		DaggerOfShadows: {
+			DisplayName: "影のダガー"
+		}
+		ShadowDagger: {
+			DisplayName: "シャドウダガー"
+		}
+		BloodStream: {
+			DisplayName: "血流"
+		}
+		VesselStriker: {
+			DisplayName: "ベッセルストライカー"
+		}
+		Flametongue: {
+			DisplayName: "フレイムタン"
+		}
+		FlametongueBall: {
+			DisplayName: "フレイムタンボール"
+		}
+		SpaceShuriken: {
+			DisplayName: "スペース手裏剣"
+		}
+		SoulBlade: {
+			DisplayName: "ソウルブレード"
+		}
+		BeeSting: {
+			DisplayName: "ビースティング"
+		}
+		HydroSpear: {
+			DisplayName: "ハイドロスピア"
+		}
+		HydroSpearTrail: {
+			DisplayName: "ハイドロスピアの軌跡"
+		}
+		Bouncer: {
+			DisplayName: "バウンサー"
+		}
+		Keris: {
+			DisplayName: "ケリス"
+		}
+		NewMoon: {
+			DisplayName: "ニュームーン"
+		}
+		CobaltShuriken: {
+			DisplayName: "コバルト手裏剣"
+		}
+		PalladiumKnife: {
+			DisplayName: "パラジウムナイフ"
+		}
+		Boomeraxe: {
+			DisplayName: "オリハルコンブーメラックス"
+		}
+		MythrilDagger: {
+			DisplayName: "ミスリルダガー"
+		}
+		AdamantiteDagger: {
+			DisplayName: "アダマンタイトダガー"
+		}
+		TitaniumJavelin: {
+			DisplayName: "チタニウムジャベリン"
+		}
+		Cleaver: {
+			DisplayName: "クリーバー"
+		}
+		CorruptedShuriken: {
+			DisplayName: "汚染された手裏剣"
+		}
+		CrystallineShard: {
+			DisplayName: "クリスタルの破片"
+		}
+		CrystallineDagger: {
+			DisplayName: "クリスタルダガー"
+		}
+		MimicTooth: {
+			DisplayName: "ミミックの歯"
+		}
+		ThrowableTorch: {
+			DisplayName: "投げられる松明"
+		}
+		PhantomShadow: {
+			DisplayName: "ファントムシャドウ"
+		}
+		GaseousIchor: {
+			DisplayName: "ガス状イコル"
+		}
+		IchorFlashBomb: {
+			DisplayName: "イコルフラッシュボム"
+		}
+		ShatteredStar: {
+			DisplayName: "砕けた星"
+		}
+		ShatterStar: {
+			DisplayName: "シャッタースター"
+		}
+		TheHolyBlade: {
+			DisplayName: "聖なる刃"
+		}
+		HolyBlade: {
+			DisplayName: "ホーリーブレード"
+		}
+		HolyAvenger: {
+			DisplayName: "ホーリーアベンジャー"
+		}
+		Hatchet: {
+			DisplayName: "ハチェット"
+		}
+		FrightSoul: {
+			DisplayName: "フライトソウル"
+		}
+		MercuryGas: {
+			DisplayName: "水銀ガス"
+		}
+		ChlorophyteLacerater: {
+			DisplayName: "クロロファイトラサレーター"
+		}
+		ChlorophyteStar: {
+			DisplayName: "クロロファイトスター"
+		}
+		MustardGas: {
+			DisplayName: "マスタードガス"
+		}
+		SickleBeam: {
+			DisplayName: "シックルビーム"
+		}
+		HarvestSickle: {
+			DisplayName: "ハーベストシックル"
+		}
+		Snow: {
+			DisplayName: "雪"
+		}
+		Snowflake: {
+			DisplayName: "雪の結晶"
+		}
+		Hurricana: {
+			DisplayName: "ハリカーナ"
+		}
+		Tornado: {
+			DisplayName: "竜巻"
+		}
+		DepthPerception: {
+			DisplayName: "デプスパーセプション"
+		}
+		FusionCoil: {
+			DisplayName: "フュージョンコイル"
+		}
+		DaggerOfVenom: {
+			DisplayName: "毒のダガー"
+		}
+		AetherKnife: {
+			DisplayName: "エーテルナイフ"
+		}
+		AetherKnives: {
+			DisplayName: "エーテルナイフ"
+		}
+		PhantomAxeSpirit: {
+			DisplayName: "ファントムアックススピリット"
+		}
+		PhantomAxe: {
+			DisplayName: "ファントムアックス"
+		}
+		GhastlyKnife: {
+			DisplayName: "ゴーストリーナイフ"
+		}
+		GoldenGlass: {
+			DisplayName: "ゴールデンガラス"
+		}
+		CrystallineGlass: {
+			DisplayName: "クリスタルガラス"
+		}
+		NecroGlass: {
+			DisplayName: "ネクロガラス"
+		}
+		PhantasmGlass: {
+			DisplayName: "ファンタズムガラス"
+		}
+		ViciousMushroom: {
+			DisplayName: "悪意のあるキノコ"
+		}
+		VileMushroom: {
+			DisplayName: "邪悪なキノコ"
+		}
+		Apple: {
+			DisplayName: "リンゴ"
+		}
+		Hammer: {
+			DisplayName: "ハンマー"
+		}
+		CartoonWham: {
+			DisplayName: "カートゥーンワム"
+		}
+		RogueThrowingKnife: {
+			DisplayName: "ローグの投げナイフ"
+		}
+		RogueShuriken: {
+			DisplayName: "ローグの手裏剣"
+		}
+		GemShardTopaz: {
+			DisplayName: "宝石の破片トパーズ"
+		}
+		GemShardSapphire: {
+			DisplayName: "宝石の破片サファイア"
+		}
+		GemShardRuby: {
+			DisplayName: "宝石の破片ルビー"
+		}
+		GemShardEmerald: {
+			DisplayName: "宝石の破片エメラルド"
+		}
+		GemShardAmethyst: {
+			DisplayName: "宝石の破片アメジスト"
+		}
+		GemShardAmber: {
+			DisplayName: "宝石の破片アンバー"
+		}
+		DonutaRang: {
+			DisplayName: "ドーナツラング"
+		}
+		Sprinkle: {
+			DisplayName: "スプリンクル"
+		}
+		SmiteIndicator: {
+			DisplayName: "スマイトインジケーター"
+		}
+		DivineSmite: {
+			DisplayName: "ディバインスマイト"
+		}
+		FrostNode: {
+			DisplayName: "フロストノード"
+		}
+		SkySpear: {
+			DisplayName: "スカイスピア"
+		}
+		DesertWinds: {
+			DisplayName: "砂漠の風"
+		}
+		EvilImpaled: {
+			DisplayName: "串刺しにされた邪悪"
+		}
+		BloodStreamDivine: {
+			DisplayName: "血流（神聖）"
+		}
+		ArteryPopper: {
+			DisplayName: "動脈破裂"
+		}
+		SearingFlail: {
+			DisplayName: "灼熱のフレイル"
+		}
+		DivineSmiteFlail: {
+			DisplayName: "ディバインスマイトフレイル"
+		}
+		ShieldSmasher: {
+			DisplayName: "シールドスマッシャー"
+		}
+		FoulFork: {
+			DisplayName: "ファウルフォーク"
+		}
+		BeeSwarm: {
+			DisplayName: "蜂の群れ"
+		}
+		IronSpiker: {
+			DisplayName: "鉄の杭"
+		}
+		LeadSpiker: {
+			DisplayName: "鉛の杭"
+		}
+		TinSpear: {
+			DisplayName: "スズの槍"
+		}
+		CopperPike: {
+			DisplayName: "銅のパイク"
+		}
+		SunburstBomb: {
+			DisplayName: "サンバーストボム"
+		}
+		Sunburst: {
+			DisplayName: "サンバースト"
+		}
+		AquariusFlailus: {
+			DisplayName: "アクエリアスフレイラス"
+		}
+		AquaWave: {
+			DisplayName: "アクアウェーブ"
+		}
+		ZephyrFeather: {
+			DisplayName: "ゼファーフェザー"
+		}
+		PresentSack: {
+			DisplayName: "プレゼント袋"
+		}
+
+		Present: {
+			DisplayName: "プレゼント"
+		}
+		CursedCocktail: {
+			DisplayName: "呪いのカクテル"
+		}
+		CocktailFire: {
+			DisplayName: "カクテルファイア"
+		}
+		LeechingLance: {
+			DisplayName: "リーチングランス"
+		}
+		ShadowFire: {
+			DisplayName: "シャドウファイア"
+		}
+		ShadowflameSpikeBall: {
+			DisplayName: "シャドウフレイムスパイクボール"
+		}
+		AdamantiteJavelin: {
+			DisplayName: "アダマンタイトジャベリン"
+		}
+		MythrilFlail: {
+			DisplayName: "ミスリルフレイル"
+		}
+		PalladiumSpear: {
+			DisplayName: "パラジウムスピア"
+		}
+		TitaniumFlail: {
+			DisplayName: "チタニウムフレイル"
+		}
+		AridWind: {
+			DisplayName: "乾燥した風"
+		}
+		ChainHatchet: {
+			DisplayName: "チェーンハチェット"
+		}
+		Chain: {
+			DisplayName: "チェーン"
+		}
+		FracturingPike: {
+			DisplayName: "破砕のパイク"
+		}
+		FracturingPikeHead: {
+			DisplayName: "破砕のパイクヘッド"
+		}
+		HemorEdgeBone: {
+			DisplayName: "ヘモエッジボーン"
+		}
+		DivineBurst: {
+			DisplayName: "ディバインバースト"
+		}
+		DivineBurstSpawner: {
+			DisplayName: "ディバインバーストスポーナー"
+		}
+		Smight: {
+			DisplayName: "スマイト"
+		}
+		EyeChain: {
+			DisplayName: "アイチェーン"
+		}
+		RetinazerLaser: {
+			DisplayName: "レティナイザーレーザー"
+		}
+		SpazmatismFireball: {
+			DisplayName: "スパズマティズムファイアボール"
+		}
+		LonginusBeam: {
+			DisplayName: "ロンギヌスビーム"
+		}
+		SpearofLonginus: {
+			DisplayName: "ロンギヌスの槍"
+		}
+		WingsoftheEagle: {
+			DisplayName: "鷲の翼"
+		}
+		LiberTea: {
+			DisplayName: "リバティー"
+		}
+		EagleBomb: {
+			DisplayName: "イーグルボム"
+		}
+		LiberTeaFX: {
+			DisplayName: "リバティーFX"
+		}
+		ChlorophyteSporeSac: {
+			DisplayName: "クロロファイトの胞子嚢"
+		}
+		PaladinHeal: {
+			DisplayName: "パラディンの回復"
+		}
+		HellHalberd: {
+			DisplayName: "ヘルハルバード"
+		}
+		HellHalberdBoom: {
+			DisplayName: "ヘルハルバードブーム"
+		}
+		DivineJudgement: {
+			DisplayName: "神の審判"
+		}
+		DivineJudgementBoom: {
+			DisplayName: "神の審判ブーム"
+		}
+		Fear: {
+			DisplayName: "恐怖"
+		}
+		PumpkinPatch: {
+			DisplayName: "カボチャ畑"
+		}
+		Bristle: {
+			DisplayName: "ブリストル"
+		}
+		BristleThorn: {
+			DisplayName: "ブリストルソーン"
+		}
+		Iceflake: {
+			DisplayName: "アイスフレーク"
+		}
+		Icicle: {
+			DisplayName: "つらら"
+		}
+		FangOfWrath: {
+			DisplayName: "憤怒の牙"
+		}
+		Gravity: {
+			DisplayName: "グラビティ"
+		}
+		TorrentialTrident: {
+			DisplayName: "豪雨のトライデント"
+		}
+		Sharkron: {
+			DisplayName: "シャークロン"
+		}
+		Sunbright: {
+			DisplayName: "サンブライト"
+		}
+		Sundance: {
+			DisplayName: "サンダンス"
+		}
+		FirstDawnBoom: {
+			DisplayName: "ファーストドーンブーム"
+		}
+		FirstDawnSpawner: {
+			DisplayName: "ファーストドーンスポーナー"
+		}
+		CoronalMass: {
+			DisplayName: "コロナ質量"
+		}
+		SolarFire: {
+			DisplayName: "ソーラーファイア"
+		}
+		SunriseBoom: {
+			DisplayName: "サンライズブーム"
+		}
+		Centaurus: {
+			DisplayName: "ケンタウルス"
+		}
+		CentaurusBolt: {
+			DisplayName: "ケンタウルスボルト"
+		}
+		TheMoon: {
+			DisplayName: "月"
+		}
+		GustOfWind: {
+			DisplayName: "突風"
+		}
+		PaladinsEnergy: {
+			DisplayName: "パラディンのエネルギー"
+		}
+		ChainDamage: {
+			DisplayName: "チェーンダメージ"
+		}
+		TestSpearProj: {
+			DisplayName: "テストスピア発射物"
+		}
+		MoonSmite: {
+			DisplayName: "ムーンスマイト"
+		}
+		SpiderSkewer: {
+			DisplayName: "スパイダースキュワー"
+		}
+		Brick: {
+			DisplayName: "レンガ"
+		}
+		PaladinSpearBolt: {
+			DisplayName: "パラディンスピアボルト"
+		}
+		PaladinsSpear: {
+			DisplayName: "パラディンの槍"
+		}
+	}
+	Prefixes: {
+		Slow: {
+			DisplayName: "遅い"
+		}
+		Nimble: {
+			DisplayName: "素早い"
+		}
+		Murderous: {
+			DisplayName: "殺人的な"
+		}
+		Deadly: {
+			DisplayName: "致命的な"
+		}
+		Quick: {
+			DisplayName: "速い"
+		}
+		Agile: {
+			DisplayName: "機敏な"
+		}
+		Sluggish: {
+			DisplayName: "のろい"
+		}
+		Lazy: {
+			DisplayName: "怠惰な"
+		}
+		Annoying: {
+			DisplayName: "厄介な"
+		}
+		Nasty: {
+			DisplayName: "意地悪な"
+		}
+		Keen: {
+			DisplayName: "鋭い"
+		}
+		Superior: {
+			DisplayName: "優れた"
+		}
+		Forceful: {
+			DisplayName: "力強い"
+		}
+		Broken: {
+			DisplayName: "壊れた"
+		}
+		Damaged: {
+			DisplayName: "損傷した"
+		}
+		Shoddy: {
+			DisplayName: "粗悪な"
+		}
+		Hurtful: {
+			DisplayName: "痛い"
+		}
+		Strong: {
+			DisplayName: "強い"
+		}
+		Unpleasant: {
+			DisplayName: "不快な"
+		}
+		Weak: {
+			DisplayName: "弱い"
+		}
+		Ruthless: {
+			DisplayName: "無慈悲な"
+		}
+		Godly: {
+			DisplayName: "神々しい"
+		}
+		Demonic: {
+			DisplayName: "悪魔の"
+		}
+		Zealous: {
+			DisplayName: "熱心な"
+		}
+		Acute: {
+			DisplayName: "鋭敏な"
+		}
+		Stinging: {
+			DisplayName: "刺すような"
+		}
+		Fine: {
+			DisplayName: "良質な"
+		}
+		Balanced: {
+			DisplayName: "バランスの取れた"
+		}
+		Equitable: {
+			DisplayName: "公平な"
+		}
+		Salient: {
+			DisplayName: "顕著な"
+		}
+		Impeccable: {
+			DisplayName: "完璧な"
+		}
+		Excellent: {
+			DisplayName: "素晴らしい"
+		}
+		Splendid: {
+			DisplayName: "見事な"
+		}
+		Dull: {
+			DisplayName: "鈍い"
+		}
+		Blunt: {
+			DisplayName: "鈍感な"
+		}
+		Imbalanced: {
+			DisplayName: "アンバランスな"
+		}
+		Unreasonable: {
+			DisplayName: "不合理な"
+		}
+		Inferior: {
+			DisplayName: "劣った"
+		}
+		Flawed: {
+			DisplayName: "欠陥のある"
+		}
+		Wrong: {
+			DisplayName: "間違った"
+		}
+		Quick2: {
+			DisplayName: "速い"
+		}
+		Deadly2: {
+			DisplayName: "致命的な"
+		}
+		Agile2: {
+			DisplayName: "機敏な"
+		}
+		Nimble2: {
+			DisplayName: "素早い"
+		}
+		Murderous2: {
+			DisplayName: "殺人的な"
+		}
+		Slow2: {
+			DisplayName: "遅い"
+		}
+		Sluggish2: {
+			DisplayName: "のろい"
+		}
+		Lazy2: {
+			DisplayName: "怠惰な"
+		}
+		Annoying2: {
+			DisplayName: "厄介な"
+		}
+		Nasty2: {
+			DisplayName: "意地悪な"
+		}
+		Keen2: {
+			DisplayName: "鋭い"
+		}
+		Superior2: {
+			DisplayName: "優れた"
+		}
+		Forceful2: {
+			DisplayName: "力強い"
+		}
+		Broken2: {
+			DisplayName: "壊れた"
+		}
+		Damaged2: {
+			DisplayName: "損傷した"
+		}
+		Shoddy2: {
+			DisplayName: "粗悪な"
+		}
+		Hurtful2: {
+			DisplayName: "痛い"
+		}
+		Strong2: {
+			DisplayName: "強い"
+		}
+		Unpleasant2: {
+			DisplayName: "不快な"
+		}
+		Weak2: {
+			DisplayName: "弱い"
+		}
+		Ruthless2: {
+			DisplayName: "無慈悲な"
+		}
+		Godly2: {
+			DisplayName: "神々しい"
+		}
+		Demonic2: {
+			DisplayName: "悪魔の"
+		}
+		Zealous2: {
+			DisplayName: "熱心な"
+		}
+		Sharp: {
+			DisplayName: "鋭利な"
+		}
+		Pointy: {
+			DisplayName: "尖った"
+		}
+		Light: {
+			DisplayName: "軽い"
+		}
+		Dull2: {
+			DisplayName: "鈍い"
+		}
+		Heavy: {
+			DisplayName: "重い"
+		}
+		Holy: {
+			DisplayName: "聖なる"
+		}
+		Divine: {
+			DisplayName: "神聖な"
+		}
+		Righteous: {
+			DisplayName: "正義の"
+		}
+		Pure: {
+			DisplayName: "純粋な"
+		}
+		Revered: {
+			DisplayName: "崇敬される"
+		}
+		Consecrated: {
+			DisplayName: "聖別された"
+		}
+		Corrupt: {
+			DisplayName: "堕落した"
+		}
+		Dishonest: {
+			DisplayName: "不正直な"
+		}
+		Immoral: {
+			DisplayName: "不道徳な"
+		}
+		Depraved: {
+			DisplayName: "堕落した"
+		}
+		Sinful: {
+			DisplayName: "罪深い"
+		}
+		Shielding: {
+			DisplayName: "防御の"
+		}
+		Resistant: {
+			DisplayName: "耐性のある"
+		}
+		PaladinAccessoryPrefix: {
+			DisplayName: "パラディンのアクセサリープレフィックス"
+		}
+		Secure: {
+			DisplayName: "安全な"
+		}
+		Durable: {
+			DisplayName: "耐久性のある"
+		}
+		Sheltering: {
+			DisplayName: "保護の"
+		}
+		Protecting: {
+			DisplayName: "守りの"
+		}
+	}
+	NPCs: {
+		Rogue: {
+			Census: {
+				SpawnCondition: "少なくとも一度、25ゴールド以上を所持したことがある"
+			}
+			TownNPCMood: {
+				Princess_LovesNPC: "{NPCName}はいつも、他の村人が持っているかっこいい小物のまったく同じものを見つけてくれるの！"
+				LikeNPC_Princess: "{NPCName}のことは気にしないわ、いい子みたいだし。それにまだ子供だから意地悪はしないわ。"
+				HateNPC: "すべてのエルフがドワーフを嫌っているわけではない。確かに、私は{NPCName}を嫌っているが、それは彼がドワーフだからではない。"
+				DislikeNPC: "{NPCName}は嫌いだ。いつも私が他人から正当に盗んだ金を奪おうとする！"
+				LoveNPC: "{NPCName}が周りにいてくれるのはとてもいい。もし余分な金が必要になったら、誰を襲えばいいか分かっている。"
+				LikeNPC: "{NPCName}の近くにいるのが好きだ。彼は金持ちだからな。"
+				DislikeBiome: "{BiomeName}はあまり好きじゃない。開けっ広げすぎる。隠れる場所が足りない。"
+				LikeBiome: "{BiomeName}は好きだ。故郷を思い出す。"
+				HateCrowded: "多くの人が私を認識してしまう。会話を避けるためにどこへ行くにもこそこそしなければならない。"
+				DislikeCrowded: "ここの人数は少し多すぎる。"
+				LoveSpace: "ナイフ投げの練習をするのに十分なスペースがある。"
+				FarFromHome: "道に迷うことはないが、町の方を指し示してくれると助かる。"
+				NoHome: "路上生活の経験はあるが、建物の中に住む方がいい。四方の壁があるやつだ。"
+				Content: "この場所はちょうどいい。"
+			}
+			DisplayName: "ローグ"
+		}
+		Paladin: {
+			Census: {
+				SpawnCondition: "ハードモードであり、少なくとも一度聖域を訪れたことがある"
+			}
+			DisplayName: "パラディン"
+			TownNPCMood: {
+				Content: "この場所は私によく合っている"
+				NoHome: "住む場所があればと思う"
+				FarFromHome: "遠くまで旅をしてきた。故郷が恋しい"
+				LoveSpace: "周りのこの人数は、私が彼ら全員を守るのに理想的だ"
+				DislikeCrowded: "周りに人が多すぎて、全員を助けることができない"
+				HateCrowded: "しばらく休みがなかった。周りの誰もが私の助けを必要としている！"
+				LoveBiome: "{BiomeName}の純粋な善は心地よい"
+				DislikeBiome: "{BiomeName}にいると鎧が暑すぎる"
+				LoveNPC: "{NPCName}は戦闘中、いつも支援呪文で私を強化してくれる"
+				LikeNPC: "{NPCName}の仕掛けは私を楽しませてくれる"
+				DislikeNPC: "{NPCName}は怪しいようだ"
+				HateNPC: "{NPCName}を裁きにかけたいが、まだ十分な証拠がない"
+				LikeNPC_Princess: "私は王家を守るために人生を捧げてきた。それには{NPCName}も含まれる"
+				Princess_LovesNPC: "{NPCName}はいつも私にとても親切だ！"
+			}
+		}
+	}
+	Configs: {
+		StramConfig: {
+			DisplayName: "Stramのコンフィグ"
+			Headers: {
+				Rogue: "ローグ"
+			}
+			meleeToRogue: {
+				Label: "近接をローグへ"
+				Tooltip: "有効にすると、特定の近接武器がローグ武器として再調整される\n警告: バランスは最適ではないかもしれない"
+			}
+			rangedToRogue: {
+				Label: "遠距離をローグへ"
+				Tooltip: "有効にすると、特定の遠距離武器がローグ武器として再調整される\n警告: バランスは最適ではないかもしれない"
+			}
+		}
+		StramClientConfig: {
+			DisplayName: "Stramクライアントコンフィグ"
+			lockedUI: {
+				Label: "全てのUI要素をロック"
+				Tooltip: "Anarchist Modによって追加された全てのUI要素の移動を無効にする"
+			}
+			divinityPosX: {
+				Label: "神性バーX座標"
+				Tooltip: "神性バーのX軸上の位置\n有効にするにはMODのリロードが必要"
+			}
+			divinityPosY: {
+				Label: "神性バーY座標"
+				Tooltip: "神性バーのY軸上の位置\n有効にするにはMODのリロードが必要"
+			}
+		}
+	}
+	Keybinds: {
+		"Paladin Smite": {
+			DisplayName: "パラディンスマイト"
+		}
+	}
+	Items: {
+		TestWeapon: {
+			DisplayName: "テスト武器"
+			Tooltip: "これはテスト用の武器"
+		}
+		RogueEmblem: {
+			DisplayName: "ローグの紋章"
+			Tooltip: "ローグダメージ+15%"
+		}
+		CopperDagger: {
+			DisplayName: "銅のダガー"
+			Tooltip: ""
+		}
+		TestAccessory: {
+			Tooltip: "ローグクリティカル率-5%"
+			DisplayName: "テストアクセサリー"
+		}
+		TinDagger: {
+			DisplayName: "錫のダガー"
+			Tooltip: ""
+		}
+		LeadDagger: {
+			Tooltip: ""
+			DisplayName: "鉛のダガー"
+		}
+		IronDagger: {
+			Tooltip: ""
+			DisplayName: "鉄のダガー"
+		}
+		SilverDagger: {
+			Tooltip: "敵の防御力を2無視する"
+			DisplayName: "銀のダガー"
+		}
+		TungstenDagger: {
+			Tooltip: ""
+			DisplayName: "タングステンのダガー"
+		}
+		GoldDagger: {
+			Tooltip: "敵の防御力を2無視する"
+			DisplayName: "金のダガー"
+		}
+		TestAccessory2: {
+			Tooltip: "ローグクリティカル率を45%上昇"
+			DisplayName: "テストアクセサリー2"
+		}
+		PlatinumDagger: {
+			Tooltip: ""
+			DisplayName: "プラチナのダガー"
+		}
+		PinkDagger: {
+			Tooltip: "敵やタイルに当たると跳ね返る"
+			DisplayName: "ピンクのダガー"
+		}
+		MushroomChopper: {
+			Tooltip: "命中時に胞子に爆発"
+			DisplayName: "マッシュルームチョッパー"
+		}
+		IceSpear: {
+			DisplayName: "氷の槍"
+			Tooltip: "衝撃で粉々になり、近くの敵にダメージを与える"
+		}
+		ExoticKunai: {
+			Tooltip: "敵の防御力を6無視するクナイを数本投げる"
+			DisplayName: "エキゾチッククナイ"
+		}
+		GelTippedShuriken: {
+			Tooltip: "ゲルによって手裏剣が敵やタイルに突き刺さる"
+			DisplayName: "ゲル付き手裏剣"
+		}
+		ThiefsPocketbook: {
+			Tooltip: "ローグクリティカル率+5%"
+			DisplayName: "盗賊の手帳"
+		}
+		FanDarts: {
+			Tooltip: "鋭利な扇により、ダーツは敵の防御力を8無視する\nただし、ダガーは上方にしか投げられない"
+			DisplayName: "扇のダーツ"
+		}
+		RogueHood: {
+			Tooltip: "ローグクリティカルダメージ+9%"
+			DisplayName: "ローグのフード"
+		}
+		RogueTunic: {
+			Tooltip: "ローグクリティカル率+6%"
+			DisplayName: "ローグのチュニック"
+		}
+
+		RogueGreaves: {
+			Tooltip: "ローグクリティカルダメージ+9%\n移動速度と加速+15%"
+			DisplayName: "ローグのグリーヴ"
+		}
+		DaggerOfIngestedPoison: {
+			Tooltip: "25%の確率で7秒間の毒を付与\n「DOIPとしても知られている」"
+			DisplayName: "摂取毒のダガー"
+		}
+		AllSeeingJavelin: {
+			DisplayName: "全知のジャベリン"
+			Tooltip: "ジャベリンは停止し、近くのターゲットを探す"
+		}
+		DaggerSheath: {
+			Tooltip: "ローグクリティカルダメージ+5"
+			DisplayName: "ダガーシース"
+		}
+		DaggerOfShadows: {
+			Tooltip: "命中時に自身の影のクローンを作成\n影のクローンは敵の防御力を6無視する"
+			DisplayName: "影のダガー"
+		}
+		VesselStriker: {
+			Tooltip: "命中時にダガーから血が噴き出す\nその血は敵の防御力を8無視する"
+			DisplayName: "ベッセルストライカー"
+		}
+		AridHood: {
+			Tooltip: "ローグクリティカルダメージ+4"
+			DisplayName: "乾燥したフード"
+		}
+		AridTunic: {
+			Tooltip: "ローグクリティカル率+4%"
+			DisplayName: "乾燥したチュニック"
+		}
+		AridGreaves: {
+			Tooltip: "ローグクリティカルダメージ+4\n移動速度と加速+17%"
+			DisplayName: "乾燥したグリーヴ"
+		}
+		Flametongue: {
+			DisplayName: "フレイムタン"
+			Tooltip: "敵に突き刺さり、火の玉で燃やす"
+		}
+		SpaceShuriken: {
+			Tooltip: "敵やタイルに突き刺さり、クリティカル時に空からコピーを呼び出す"
+			DisplayName: "スペース手裏剣"
+		}
+		BandOfLightObscurement: {
+			Tooltip: "動いていないとき、使用者を軽く隠す\n軽く隠れている間、ローグのクリティカルダメージが35%増加する"
+			DisplayName: "微光の隠蔽帯"
+		}
+		AmuletOfHealth: {
+			Tooltip: "移動速度と加速度を10%上昇\nダメージを受けると移動速度とローグクリティカルダメージが増加"
+			DisplayName: "健康のお守り"
+		}
+		LuciferGreaves: {
+			DisplayName: "ルシファーグリーヴ"
+			Tooltip: "ローグクリティカル率+5%\n移動速度とローグダッシュ速度が上昇"
+		}
+		LuciferHood: {
+			DisplayName: "ルシファーフード"
+			Tooltip: "ローグダメージ+7%\n敵に狙われにくくなる"
+		}
+		LuciferTunic: {
+			DisplayName: "ルシファーチュニック"
+			Tooltip: "ローグクリティカルダメージ+14%"
+		}
+		ArmStrap: {
+			DisplayName: "アームストラップ"
+			Tooltip: "ダガーシースが付いたストラップ\nこのシースにより、2本目のダガーに素早くアクセスできる\nこれにより、ほとんどのダガーが一度に2本投げられるようになる"
+		}
+		BeeSting: {
+			Tooltip: "敵を毒で刺し、蜂を放つ"
+			DisplayName: "ビースティング"
+		}
+		VialOfAmatoxin: {
+			Tooltip: "ローグ攻撃が致命的な菌類ベースの毒を付与するようになる\nローグのクリティカルヒットは、近くの敵に獰猛なキノコを送る"
+			DisplayName: "アマトキシンの小瓶"
+		}
+		VialOfPoison: {
+			Tooltip: "ローグ攻撃が毒を付与するようになる\nローグのクリティカルヒットは近くの敵も毒にする"
+			DisplayName: "毒の小瓶"
+		}
+		HydroSpear: {
+			DisplayName: "ハイドロスピア"
+			Tooltip: "ダメージを与えるアクアエネルギーの軌跡を残す"
+		}
+		Bouncer: {
+			DisplayName: "バウンサー"
+			Tooltip: "同じ敵に繰り返し跳ね返る"
+		}
+		Keris: {
+			DisplayName: "ケリス"
+			Tooltip: ""
+		}
+		StealthCloak: {
+			Tooltip: "クロークの布地が背景に溶け込む\n使用者はゆっくり動くことでステルス状態に入れる\nステルス中、使用者のローグクリティカルダメージとクリティカル率が25%上昇する"
+			DisplayName: "ステルスクローク"
+		}
+		HadesBoots: {
+			DisplayName: "ハデスのブーツ"
+			Tooltip: "任意の方向をダブルタップすることでローグ的なダッシュが可能\nローグクリティカル率も6%上昇する"
+		}
+		NewMoon: {
+			DisplayName: "ニュームーン"
+			Tooltip: "回転する円盤を投げる\n所持中、ローグステルス状態でより速く動ける\n「製品にはDOIPが含まれる場合があります」"
+		}
+		CobaltShuriken: {
+			DisplayName: "コバルトの手裏剣"
+			Tooltip: "敵の間を跳ね返る"
+		}
+		PalladiumKnife: {
+			Tooltip: "「特別なことは何もない‥え？」"
+			DisplayName: "パラジウムのナイフ"
+		}
+		Boomeraxe: {
+			Tooltip: "元の場所に戻ってくる"
+			DisplayName: "オリハルコンのブーメラックス"
+		}
+		MythrilDagger: {
+			DisplayName: "ミスリルのダガー"
+			Tooltip: "命中時に分裂"
+		}
+		AdamantiteDagger: {
+			DisplayName: "アダマンタイトのダガー"
+			Tooltip: "ヒットで刃に防御無視値をチャージ\n各ヒットで追加の防御無視値が5加算され、最大15まで増加"
+		}
+		TitaniumJavelin: {
+			Tooltip: "敵の防御力を10無視する"
+			DisplayName: "チタニウムのジャベリン"
+
+		}
+		VialOfCyanide: {
+			DisplayName: "シアン化物の小瓶"
+			Tooltip: "ローグ攻撃が致命的なシアン化物毒を付与するようになる\nローグのクリティカルヒットは敵の頭にリンゴを落とす\nリンゴが当たるとおかしな音がする"
+		}
+		Cleaver: {
+			DisplayName: "クリーバー"
+			Tooltip: ""
+		}
+		CorruptedShuriken: {
+			DisplayName: "汚染された手裏剣"
+			Tooltip: "呪炎を伴う3つの手裏剣のバーストを投げる"
+		}
+		NightwalkerGreaves: {
+			DisplayName: "ナイトウォーカーグリーヴ"
+			Tooltip: "ローグダメージとクリティカル率+5%"
+		}
+		NightwalkerHood: {
+			DisplayName: "ナイトウォーカーフード"
+			Tooltip: "ローグクリティカル率+5%"
+		}
+		NightwalkerLeggings: {
+			DisplayName: "ナイトウォーカーレギンス"
+			Tooltip: "敵に狙われにくくなる\n移動速度と加速+15%"
+		}
+		NightwalkerRobes: {
+			DisplayName: "ナイトウォーカーローブ"
+			Tooltip: "ローグクリティカル率+5%\nローグクリティカルダメージ+12%"
+		}
+		CrystallineDagger: {
+			Tooltip: "命中時にクリスタルの破片に砕ける\n壊滅的なクリティカル"
+			DisplayName: "クリスタルダガー"
+		}
+		MimicTooth: {
+			Tooltip: ""
+			DisplayName: "ミミックの歯"
+		}
+		COWPF: {
+			Tooltip: "ローグ攻撃はクリティカルダメージの15%に等しい防御力を無視する"
+			DisplayName: "弱点発見のマント"
+		}
+		FineSilk: {
+			Tooltip: "「おしゃれ！」"
+			DisplayName: "上質なシルク"
+		}
+		ThrowableTorch: {
+			Tooltip: ""
+			DisplayName: "投げられるたいまつ"
+		}
+		PhantomShadow: {
+			Tooltip: "敵の防御力を12無視する"
+			DisplayName: "ファントムシャドウ"
+		}
+		IchorFlashBomb: {
+			DisplayName: "霊液の閃光弾"
+			Tooltip: "霊液を致死性のガスに瞬間的に変化させる爆弾を投げる"
+		}
+		ShatterStar: {
+			DisplayName: "シャッタースター"
+			Tooltip: "刃は衝撃で氷の破片に砕ける"
+		}
+		TheHolyBlade: {
+			Tooltip: "ダメージを与えると、近くの敵に刃の聖なる幻影を送る"
+			DisplayName: "聖なる刃"
+		}
+		HolyAvenger: {
+			Tooltip: ""
+			DisplayName: "ホーリーアベンジャー"
+		}
+		Hatchet: {
+			Tooltip: "敵やブロックに跳ね返る\n敵に当たるとホーミングソウルを放つ"
+			DisplayName: "ハチェット"
+		}
+		HallowedVisage: {
+			Tooltip: "ローグクリティカルダメージ+16%\nローグクリティカル率+10%"
+			DisplayName: "聖なる面貌"
+		}
+		ChlorophyteHood: {
+			Tooltip: "ローグクリティカルダメージ+20%\nローグの防御無視値を10増加"
+			DisplayName: "クロロファイトのフード"
+		}
+		VialOfMercury: {
+			Tooltip: "ローグ攻撃が飛んでいる間に水銀ガスを最大まで放出するようになる"
+			DisplayName: "水銀の小瓶"
+		}
+		ChlorophyteLacerater: {
+			DisplayName: "クロロファイトラサレーター"
+			Tooltip: ""
+		}
+		ChlorophyteStar: {
+			Tooltip: "敵の間を跳ね返り、ヒット時に刃を折る\n刃はクロロファイトオーブに変わる"
+			DisplayName: "クロロファイトスター"
+		}
+		CloakOfHeavyObscurement: {
+			Tooltip: "クロークの布地が背景に溶け込む\n使用者はゆっくり動くことでステルス状態に入れる\nステルス中、使用者のローグクリティカルダメージとクリティカル率が33%上昇する"
+			DisplayName: "重厚な隠蔽のマント"
+		}
+		BrandedStrap: {
+			Tooltip: "ダガーシースが付いたストラップ\nこのシースにより、2本目のダガーに素早くアクセスできる\nこれにより、ほとんどのダガーが一度に2本投げられるようになる\nローグダメージ+15%\nローグクリティカル率+5%"
+			DisplayName: "刻印されたストラップ"
+		}
+		BottleOfMustard: {
+			Tooltip: "ローグ攻撃が飛んでいる間に有毒なマスタードガスを最大まで放出するようになる\n「彼らがケチャップを落とすと思ったのか？」"
+			DisplayName: "瓶詰めのマスタード"
+		}
+		HarvestSickle: {
+			Tooltip: "移動中に燃える鎌を発射\n敵の防御力を20無視する"
+			DisplayName: "収穫の鎌"
+		}
+		Snowflake: {
+			Tooltip: "敵やタイルに突き刺さり、飛んでいる間に雪が降る"
+			DisplayName: "スノウフレイク"
+		}
+		PhantomHood: {
+			Tooltip: "ローグクリティカルダメージ+16%\nローグクリティカル率+6%\n敵に狙われにくくなる"
+			DisplayName: "ファントムフード"
+		}
+		PhantomBreastplate: {
+			Tooltip: "ローグクリティカルダメージ+19%\nローグクリティカル率+6%\n敵に狙われにくくなる"
+			DisplayName: "ファントムブレストプレート"
+		}
+		PhantomGreaves: {
+			Tooltip: "ローグダメージとクリティカル率+6%\n敵に狙われにくくなる"
+			DisplayName: "ファントムグリーヴ"
+		}
+		Hurricana: {
+			Tooltip: "敵に向かって軽くホーミングする\n敵の装甲を20無視する\n敵に命中すると水の竜巻を召喚\n一度に存在できる竜巻は1つだけ"
+			DisplayName: "ハリカーナ"
+		}
+
+		DepthPerception: {
+			DisplayName: "デプスパーセプション"
+			Tooltip: "ジャベリンは停止し、近くのターゲットを探す"
+		}
+		FusionCoil: {
+			Tooltip: "大規模なプラズマの波に爆発"
+			DisplayName: "フュージョンコイル"
+		}
+		DaggerOfVenom: {
+			Tooltip: "ダガーは投げられると毒で自身をコーティングする"
+			DisplayName: "毒のダガー"
+		}
+		AetherKnives: {
+			DisplayName: "エーテルナイフ"
+			Tooltip: "3つのホーミングナイフに分裂"
+		}
+		PhantomAxe: {
+			Tooltip: "普通の斧のように見えるこの武器は、死を渇望する怒れる霊の軍隊に取り憑かれている\n霊は近くの敵に怒り狂って襲いかかる"
+			DisplayName: "ファントムアックス"
+		}
+		LanceOfLight: {
+			Tooltip: "光の霊的な槍を投げる"
+			DisplayName: "ランス・オブ・ライト"
+		}
+		GhastlyKnives: {
+			DisplayName: "ゴーストリーナイフ"
+			Tooltip: "敵に命中するとポータルを作成\nゴーストリーナイフは、さらに敵に命中するとポータルにテレポートする"
+		}
+		GoldenGlass: {
+			DisplayName: "ゴールデングラス"
+			Tooltip: "アームストラップに入れるには脆すぎる\nボーナスダガーに分裂する"
+		}
+		CrystallineGlass: {
+			DisplayName: "クリスタルグラス"
+			Tooltip: "アームストラップに入れるには脆すぎる\nボーナスダガーに分裂し、さらに再び分裂する可能性がある"
+		}
+		NecroGlass: {
+			DisplayName: "ネクログラス"
+			Tooltip: "アームストラップに入れるには脆すぎる\nボーナスダガーに分裂し、さらに再び分裂する可能性がある\n一部のダガーは敵に命中すると再び分裂する"
+		}
+		PhantasmGlass: {
+			DisplayName: "ファンタズムグラス"
+			Tooltip: "アームストラップに入れるには脆すぎる\nボーナスダガーに分裂し、さらにホーミングナイフに分裂する可能性がある\n一部のダガーは敵に命中すると再び分裂する\nダガーは3倍のダメージを与える可能性があるが、その過程であなたに軽いダメージを与える"
+		}
+		MoonMagnet: {
+			DisplayName: "ムーンマグネット"
+			Tooltip: "ローグクリティカルダメージと率+8%\nローグダガーが月に向かって落ちるようにする\nつまり、夜は上に、昼は下に落ちる\n（バニラアイテムには機能しない）\n「壮大な一日の始まりだ」"
+		}
+		EclipseMagnet: {
+			DisplayName: "エクリプスマグネット"
+			Tooltip: "ローグクリティカルダメージと率+12%\nローグダガーが最も近い天体に向かって落ちるようにする\n昼間は太陽\n夜間は月\n（バニラアイテムには機能しない）"
+		}
+		Hammer: {
+			DisplayName: "ハンマー"
+			Tooltip: "'ワム！'"
+		}
+		RogueThrowingKnife: {
+			Tooltip: "'ローグによるカスタムメイド'"
+			DisplayName: "カスタム投げナイフ"
+		}
+		RogueShuriken: {
+			Tooltip: "'ローグによるカスタムメイド'"
+			DisplayName: "カスタム手裏剣"
+		}
+		PoacherStinger: {
+			Tooltip: "ローグのクリティカルヒットに5%の確率でダブルクリティカルを与える\nダブルクリティカルは武器のクリティカルダメージの2倍を与える"
+			DisplayName: "密猟者の針"
+		}
+		SheathedStinger: {
+			Tooltip: "ローグのクリティカルヒットに5%の確率でダブルクリティカルを与える\nダブルクリティカルは武器のクリティカルダメージの3倍を与える\nローグのクリティカルダメージが15増加"
+			DisplayName: "鞘に収められた針"
+		}
+		ShootingStar: {
+			Tooltip: "ローグ武器での数回の攻撃ごとに、貫通する流れ星が召喚される\n星の召喚間隔は、ローグクリティカル率が上昇するにつれて低下する\n星は25ダメージを与え、クリティカルヒットはできない"
+			DisplayName: "シューティングスター"
+		}
+		GemSpark: {
+			Tooltip: "ローグのクリティカルヒットは、命中時に宝石の火花のバーストを召喚する\nこれらの宝石の破片は敵に突き刺さる\n破片はヒットを開始した敵には当たらない"
+			DisplayName: "ジェムスパークガントレット"
+		}
+		GlovesOfThievery: {
+			Tooltip: "ローグの攻撃速度+12%"
+			DisplayName: "盗みの手袋"
+		}
+		MasterThiefsGear: {
+			Tooltip: "ローグの攻撃速度とクリティカル率+8%\n任意の方向をダブルタップすることでローグ的なダッシュが可能\nローグ攻撃はクリティカルダメージの15%に等しい装甲を貫通する"
+			DisplayName: "マスターシーフギア"
+		}
+		CelestialGems: {
+			Tooltip: "ローグクリティカル率とダメージ+10%\nローグ武器での数回の攻撃ごとに、貫通する流れ星が召喚される\n星の召喚間隔は、ローグクリティカル率が上昇するにつれて低下する\n星は50ダメージを与え、クリティカルヒットはできない\nローグのクリティカルヒットは、命中時に宝石の火花のバーストを召喚する\nこれらの宝石の破片は敵に突き刺さる\n破片はヒットを開始した敵には当たらない\nローグダガーが上向きに落ちるようにする\nこれはアクセサリーの可視性で切り替え可能\n（バニラアイテムには機能しない）"
+			DisplayName: "セレスティアルオービット"
+		}
+		EclipseBreastplate: {
+			DisplayName: "エクリプスの胸当て"
+			Tooltip: "ローグクリティカルダメージ+17%\nローグクリティカル率+3%\n敵に狙われにくくなる"
+		}
+		EclipseHelmet: {
+			DisplayName: "エクリプスの兜"
+			Tooltip: "ローグクリティカルダメージ+17%\nローグクリティカル率+3%\n敵に狙われにくくなる"
+		}
+		EclipseLeggings: {
+			DisplayName: "エクリプスのすね当て"
+			Tooltip: "ローグクリティカルダメージ+17%\n移動速度+15%\n敵に狙われにくくなる"
+		}
+		HomerSimpson: {
+			DisplayName: "ドーナツ・ア・ラング"
+			Tooltip: "戻ってくる宇宙のドーナツを投げる\nドーナツは敵に命中するとホーミングスプリンクルを放出する\nクリティカルヒットは3倍のスプリンクルを放出する\n「もちろんダガーシースに収まる！」"
+		}
+		BigEpicRogueAccessory: {
+			DisplayName: "レベル20ローグ"
+			Tooltip: "ローグ攻撃速度+8%\nローグクリティカルダメージ+10%\nローグクリティカル率とダメージ+20%\n移動速度と加速を10%上昇\nダメージを受けると移動速度とローグクリティカルダメージが増加\nローグ攻撃が毒、致命的な菌類ベースの毒、致命的なシアン化物毒を付与し、水銀とマスタードガスを放出するようになる\nローグのクリティカルヒットは近くの敵も毒にする\nローグのクリティカルヒットは近くの敵に獰猛なキノコを送る\nローグのクリティカルヒットは敵の頭にリンゴを落とす\nローグ武器での数回の攻撃ごとに、貫通する流れ星が召喚される\n星の間の時間はローグクリティカル率が増加するにつれて減少する\n星は50ダメージを与え、クリティカルヒットはできない\nローグのクリティカルヒットは、命中時に宝石の火花のバーストを召喚する\nこれらの宝石の破片は敵に突き刺さる\n破片はヒットを開始した敵には当たらない\nローグダガーが上向きに落ちるようにする\nこれはアクセサリーの可視性で切り替え可能\n（バニラアイテムには機能しない）\nクロークの布地が背景に溶け込む\n使用者はゆっくり動くことでステルス状態に入れる\nステルス中、使用者のローグクリティカルダメージとクリティカル率が33%上昇する\n任意の方向をダブルタップすることでローグ的なダッシュが可能\nローグ攻撃はクリティカルダメージの15%に等しい装甲を貫通する\nローグのクリティカルヒットに5%の確率でダブルクリティカルを与える\nダブルクリティカルは武器のクリティカルダメージの3倍を与える\nローグのクリティカルダメージが15増加\n「うん、多分バランス調整が少し必要かも…」"
+		}
+		TestWeaponPaladin: {
+			Tooltip: ""
+			DisplayName: "テスト武器パラディン"
+		}
+		TestWeaponPaladin2: {
+			DisplayName: "テスト武器パラディン2"
+			Tooltip: ""
+		}
+		Warhammer: {
+			DisplayName: "ウォーハンマー"
+			Tooltip: ""
+		}
+		BaseballBat: {
+			DisplayName: "野球バット"
+			Tooltip: "「ボンク！」"
+		}
+		TwistedBlade: {
+			Tooltip: "敵に毒を付与"
+			DisplayName: "ツイステッドブレード"
+		}
+		Shield: {
+			DisplayName: "ラウンドシールド"
+			Tooltip: "神性チャージを2増加"
+		}
+		BejeweledBlade: {
+			DisplayName: "宝石の刃"
+			Tooltip: ""
+		}
+		BejeweledBlade2: {
+			DisplayName: "宝石の刃"
+			Tooltip: ""
+		}
+		HolySymbol: {
+			DisplayName: "聖なるシンボル"
+			Tooltip: "スマイト中、神聖ダメージ+8%"
+		}
+		SigilShield: {
+			DisplayName: "シジルシールド"
+			Tooltip: "スマイト中、神聖ダメージ+5%\n神性チャージを1増加\n下位互換とはスタックしない"
+		}
+		FreezingSword: {
+			DisplayName: "凍てつく剣"
+			Tooltip: "命中時に氷の棘のノードを召喚\n一度に存在できるノードは1つだけ"
+		}
+		IceSpike: {
+			Tooltip: "「痛い、とげとげしい！」"
+			DisplayName: "氷の棘"
+		}
+		SmiteSlower: {
+			DisplayName: "スマイトスローワー"
+			Tooltip: "神性チャージを1増加\nディバインスマイトの持続時間を3秒増加"
+		}
+		SkySpear: {
+			Tooltip: "突風で敵を押しやる"
+			DisplayName: "スカイスピア"
+		}
+		DesertWinds: {
+			Tooltip: "敵に命中するとスタックするスイング速度ブーストを構築"
+			DisplayName: "デザートウィンド"
+		}
+		EvilImpaled: {
+			Tooltip: ""
+			DisplayName: "邪悪の串刺し"
+		}
+		OrganSlicer: {
+			Tooltip: ""
+			DisplayName: "臓器スライサー"
+		}
+		ReinforcedPlate: {
+			Tooltip: ""
+			DisplayName: "強化プレート"
+		}
+		ChainmailHat: {
+			DisplayName: "チェーンメイルハット"
+			Tooltip: "スマイト中、神聖ダメージ+22%\nスマイト中、神聖速度+11%"
+		}
+		ChainmailShirt: {
+			DisplayName: "チェーンメイルシャツ"
+			Tooltip: "スマイト中、神聖ダメージ+22%\nスマイト中、神聖速度+11%"
+		}
+		ChainmailLeggings: {
+			DisplayName: "チェーンメイルレギンス"
+			Tooltip: "スマイト中、神聖ダメージ+22%\nスマイト中、神聖速度+11%"
+		}
+		StalwartHelmet: {
+			DisplayName: "剛健な兜"
+			Tooltip: "神性チャージを1増加\nスマイト中、神聖ダメージ+17%\nスマイト中、神聖速度+9%"
+		}
+		StalwartBreastplate: {
+			DisplayName: "剛健な胸当て"
+			Tooltip: "敵に狙われやすくなる（+150）\nスマイト中、神聖ダメージ+17%\nスマイト中、神聖速度+9%"
+		}
+		StalwartGreaves: {
+			DisplayName: "剛健なすね当て"
+			Tooltip: "スマイト中、神聖ダメージ+17%\nスマイト中、神聖速度+9%"
+		}
+		RedeemerMask: {
+			Tooltip: "敵に狙われやすくなる（+200）\nスマイト中、神聖ダメージ+14%\nスマイト中、神聖速度+7%"
+			DisplayName: "贖罪者の仮面"
+		}
+		RedeemerBreastplate: {
+			Tooltip: "スマイト中、神聖ダメージ+14%\nスマイト中、神聖速度+7%"
+			DisplayName: "贖罪者の胸当て"
+		}
+		RedeemerGreaves: {
+			Tooltip: "神性チャージを1増加\nスマイト中、神聖ダメージ+14%\nスマイト中、神聖速度+7%"
+			DisplayName: "贖罪者のすね当て"
+		}
+		AvengerMask: {
+			Tooltip: "敵に狙われやすくなる（+300）\nスマイト中、神聖ダメージ+6%\nスマイト中、神聖速度+4%\nそれ以外では神聖ダメージ-5%"
+			DisplayName: "復讐者の仮面"
+		}
+		AvengerBreastplate: {
+			Tooltip: "ライフ自然回復が増加\nスマイト中、神聖ダメージ+6%\nスマイト中、神聖速度+4%\nそれ以外では神聖ダメージ-5%"
+			DisplayName: "復讐者の胸当て"
+		}
+		AvengerGreaves: {
+			Tooltip: "神性チャージを1増加\nスマイト中、神聖ダメージ+6%\nスマイト中、神聖速度+4%\nそれ以外では神聖ダメージ-5%"
+			DisplayName: "復讐者のすね当て"
+		}
+		HoneyProtectorMask: {
+			Tooltip: "敵に狙われやすくなる（+150）\nライフ自然回復とパラディンオーラの範囲が増加\n近くの味方のダメージとクリティカル率が10%上昇"
+			DisplayName: "蜜蝋の仮面"
+		}
+		HoneyProtectorBreastplate: {
+			Tooltip: "敵に狙われやすくなる（+150）\nライフ自然回復とパラディンオーラの範囲が増加\n近くの味方の防御が10増加"
+			DisplayName: "蜜蝋の胸当て"
+		}
+		HoneyProtectorGreaves: {
+			Tooltip: "敵に狙われやすくなる（+150）\nライフ自然回復とパラディンオーラの範囲が増加\n近くの味方のライフ自然回復が毎秒2ライフ増進"
+			DisplayName: "蜜蝋のすね当て"
+		}
+		GarrisonHelmet: {
+			DisplayName: "駐屯の兜"
+			Tooltip: "ライフ自然回復が増進\n神性チャージを1増加\nスマイト中、神聖ダメージ+3%"
+		}
+		GarrisonBreastplate: {
+			DisplayName: "駐屯の胸当て"
+			Tooltip: "敵に狙われやすくなる（+600）\nスマイト中、神聖ダメージ+3%\n静止しているとゆっくりと防御バフが構築される\n防御は最大20までスタック"
+		}
+		GarrisonGreaves: {
+			DisplayName: "駐屯のすね当て"
+			Tooltip: "ライフ自然回復が増進\n神性チャージを1増加\nスマイト中、神聖ダメージ+3%"
+		}
+		HallowedArmet2: {
+			DisplayName: "神聖なアーメット（バリアント）"
+			Tooltip: "神性チャージを1増加\nスマイト中、神聖ダメージと速度+5%\n神性メーターがチャージされるにつれてダメージが増加\n（セットボーナス非対応）"
+		}
+		HallowedPlateMail: {
+			DisplayName: "神聖な胸当て（バリアント）"
+			Tooltip: "神性チャージを3増加\n神聖ダメージ+5%\nスマイト中、神聖ダメージと速度がさらに5%上昇\n（セットボーナス非対応）"
+		}
+		HallowedGreaves: {
+			DisplayName: "神聖なすね当て（バリアント）"
+			Tooltip: "神性チャージを1増加\nスマイト中、神聖ダメージと速度+5%\n（セットボーナス非対応）"
+		}
+		KnightHelmet: {
+			DisplayName: "騎士の兜"
+			Tooltip: "ノックバックを無効化\n近くの味方に小さなバフを提供\n近くの味方ごとに、防御とダメージ軽減を得る\n神性チャージを1増加\n敵に狙われやすくなる（+400）"
+		}
+		KnightPlateArmor: {
+			DisplayName: "騎士の胸当て"
+			Tooltip: "ノックバックを無効化\nパラディンの誓いのオーラの距離を2倍にする\nディバインスマイトの持続時間を3秒増加\n敵に狙われやすくなる（+400）"
+		}
+		KnightGreaves: {
+			DisplayName: "騎士のすね当て"
+			Tooltip: "ノックバックを無効化\nスマイト中、ダメージ軽減を20%増加\n神性チャージを1増加\n敵に狙われやすくなる（+400）"
+		}
+		SunriseHelmet: {
+			DisplayName: "太陽光の兜"
+			Tooltip: "神性チャージを2増加\n敵に狙われやすくなる（+500）\n神聖ダメージ-7%\n近くの味方はライフ自然回復が増加し、太陽光線でエンチャントされ、敵にソーラーファイアを付与し、敵の接触ダメージを20%減少させる\n近くに味方がいない場合、全てのソースからのダメージを7%少なく受ける"
+		}
+		SunriseBreastplate: {
+			DisplayName: "太陽光の胸当て"
+			Tooltip: "ライフ自然回復が大幅に増進\n敵に狙われやすくなる（+500）\n神聖ダメージ-7%\nダメージを受けると爆発し、ヒットのダメージの5倍のダメージを与える"
+		}
+		SunriseLeggings: {
+			DisplayName: "太陽光のすね当て"
+			Tooltip: "神性チャージを2増加\n敵に狙われやすくなる（+500）\n神聖ダメージ-7%\nディバインスマイトを発動すると、最大ライフの1/4を回復する"
+		}
+		Warhammer40k: {
+			Tooltip: "スマイトが天から隕石を召喚"
+			DisplayName: "ウォーハンマー40k"
+		}
+		ScalineBlade: {
+			Tooltip: "スマイトが近くの敵に闇のエネルギーの刃を召喚"
+			DisplayName: "スカラインブレード"
+		}
+		ArteryPopper: {
+			Tooltip: "スマイトが聖なる正義で敵を出血死させる\nこの血が敵から離れると、近くの他の敵を傷つけることができる"
+			DisplayName: "動脈破裂"
+		}
+		FireShield: {
+			Tooltip: "あなたを攻撃した敵は激しく爆発する\nディバインスマイトを、敵を焼くスマイトに変える"
+			DisplayName: "ファイアシールド"
+		}
+		SearingFlail: {
+			Tooltip: ""
+			DisplayName: "灼熱のフレイル"
+		}
+		ShieldSmasher: {
+			Tooltip: "敵に命中すると、一時的に彼らの防御力を6減少させる"
+			DisplayName: "シールドスマッシャー"
+		}
+		FoulFork: {
+			DisplayName: "ファウルフォーク"
+			Tooltip: ""
+		}
+		BeeSwarm: {
+			DisplayName: "ビースウォーム"
+			Tooltip: ""
+		}
+		IronSpiker: {
+			DisplayName: "鉄の杭"
+			Tooltip: ""
+		}
+		LeadSpiker: {
+			DisplayName: "鉛の杭"
+			Tooltip: ""
+		}
+		SimpleBattleaxe: {
+			DisplayName: "シンプルなバトルアックス"
+			Tooltip: ""
+		}
+		SimpleLongsword: {
+			DisplayName: "シンプルなロングソード"
+			Tooltip: ""
+		}
+		TinSpear: {
+			Tooltip: ""
+			DisplayName: "錫の槍"
+		}
+		CopperPike: {
+			Tooltip: ""
+			DisplayName: "銅のパイク"
+		}
+		Sunburst: {
+			Tooltip: "ディバインスマイトで敵に命中させると槍がチャージされる\nチャージされた槍は黄金の光のホーミングオーブを放出する"
+			DisplayName: "サンバースト"
+		}
+		InactiveSunburst: {
+			DisplayName: "休眠中のサンバースト"
+			Tooltip: "ダークランスを浄化することで入手\n使用可能になるにはエーテルの魔法が必要"
+		}
+		Defender: {
+			DisplayName: "ディフェンダー"
+			Tooltip: "右クリックで武器を防御モードと攻撃モードに切り替える\n防御中、剣は使用者に10の追加防御と5%のダメージ軽減を提供する\nそれ以外の場合、武器は24の追加ダメージを与え、スマイトは命中時にチャージされる"
+		}
+		AquariusFlailus: {
+			DisplayName: "アクエリアスフレイラス"
+			Tooltip: ""
+		}
+		PaladinEmblem: {
+			Tooltip: "神聖ダメージ+15%"
+			DisplayName: "パラディンの紋章"
+		}
+		ShieldOfTheJungle: {
+			DisplayName: "ジャングルの盾"
+			Tooltip: "敵はあなたから接触ダメージを受ける\nディバインスマイトを、敵を毒にするスマイトに変える"
+		}
+		AuraOfProtection: {
+			DisplayName: "防護の誓い"
+			Tooltip: "近くの味方はあなたの防御を共有できる\n近くの味方ごとに、あなたは2の防御を失うが、彼らは5の防御を得る\n近くに味方がいない間、あなたは12%のダメージ軽減を得る"
+		}
+		StrangeMushroom: {
+			DisplayName: "奇妙な味のキノコ"
+			Tooltip: "ディバインスマイトを発動すると50ライフを回復する\n「口の中でとろける！」"
+		}
+		ZephyrFeather: {
+			Tooltip: "ディバインスマイトが天から羽を召喚し、あなたの敵を破壊する\n重い鎧を着ることのペナルティを20%減少させる"
+			DisplayName: "ゼファーフェザー"
+		}
+		Glacield: {
+			Tooltip: "ノックバック無効を付与\nディバインスマイトを、遅いが壊滅的な極寒のスマイトに変える"
+			DisplayName: "グレイシールド"
+		}
+		MushroomOfProtection: {
+			DisplayName: "防護のキノコ"
+			Tooltip: "近くの味方はあなたの防御を共有できる\n近くの味方ごとに、あなたは2の防御を失うが、彼らは5の防御を得る\n近くに味方がいない間、あなたは12%のダメージ軽減を得る\nディバインスマイトを発動すると50ライフを回復する"
+		}
+		SnowOwlFeather: {
+			Tooltip: "ディバインスマイトが天から羽を召喚し、あなたの敵を破壊する\n重い鎧を着ることのペナルティを20%減少させる\n神性チャージを1増加\nディバインスマイトの持続時間を2秒増加"
+			DisplayName: "シロフクロウの羽"
+		}
+		GrinchSuit: {
+			Tooltip: "ローグクリティカル率+16%\nローグダメージ+10%\n敵に狙われにくくなる"
+			DisplayName: "グリンチスーツ"
+		}
+		GrinchMask: {
+			Tooltip: "ローグクリティカルダメージ+19%\n敵に狙われにくくなる"
+			DisplayName: "グリンチマスク"
+		}
+		GrinchLeggings: {
+			Tooltip: "移動速度+30%\nローグクリティカルダメージ+19%"
+			DisplayName: "グリンチブーツ"
+		}
+		PresentSack: {
+			Tooltip: "世界の子供たちに贈り物をまき散らす投げられる袋\nもちろん、彼らを叩きのめした後で"
+			DisplayName: "プレゼント袋"
+		}
+		CursedCocktail: {
+			Tooltip: ""
+			DisplayName: "呪いのカクテル"
+		}
+		LeechingLance: {
+			Tooltip: "ディバインスマイトが敵のライフを奪う"
+			DisplayName: "リーチングランス"
+		}
+		ShadowflameSpikedBall: {
+			DisplayName: "シャドウフレイムスパイクボール"
+			Tooltip: ""
+		}
+		CobaltKatana: {
+			DisplayName: "コバルトのカタナ"
+			Tooltip: ""
+		}
+		AdamantiteJavelin: {
+			DisplayName: "アダマンタイトのジャベリン"
+			Tooltip: ""
+		}
+		MythrilFlail: {
+			DisplayName: "ミスリルのフレイル"
+			Tooltip: ""
+		}
+		PalladiumSpear: {
+			DisplayName: "パラジウムの槍"
+			Tooltip: ""
+		}
+		OrichalcumZweihander: {
+			DisplayName: "オリハルコンツのヴァイヘンダー"
+			Tooltip: ""
+		}
+		TitaniumFlail: {
+			DisplayName: "チタンのフレイル"
+			Tooltip: ""
+		}
+		AridScimitar: {
+			DisplayName: "乾燥シミター"
+			Tooltip: "敵に命中するとスタックするスイング速度ブーストを構築"
+		}
+		ChainHatchet: {
+			DisplayName: "チェーンハチェット"
+			Tooltip: "敵の装甲を12ポイント破壊する\nディバインスマイトが敵を鎖でつなぎ、継続的なダメージを与える"
+		}
+		FracturingPike: {
+			DisplayName: "破砕のパイク"
+			Tooltip: "ディバインスマイトが槍の穂先を折る\n槍の穂先は敵に突き刺さり、短時間ダメージを与え続けた後、砕け散る"
+		}
+		HemorEdge: {
+			DisplayName: "ヘモエッジ"
+			Tooltip: "敵をスマイトすると、空中にいくつかの飛ぶ歯を送る"
+		}
+		OathbreakerShield: {
+			DisplayName: "誓いを破る者の盾"
+			Tooltip: "ディバインスマイトが敵からライフを奪う\nスマイト中、神聖速度+15%\nスマイト中、神聖ダメージ+10%\n重い鎧はあなたをさらに遅くする\n「あなたの異端の重みがあなたの足を留めるだろう」"
+		}
+		PendantofResistance: {
+			DisplayName: "抵抗のペンダント"
+			Tooltip: "1/5の確率で攻撃のダメージが50%減少する\nこれが起こるたびに、全てのダメージに対するスタックする10%の減少を受ける"
+		}
+		GleamingShield: {
+			DisplayName: "きらめく盾"
+			Tooltip: "呪い、壊れた鎧、スロウに対する耐性を提供\nクリティカルヒットが神性メーターをチャージする"
+		}
+		StormTrident: {
+			Tooltip: ""
+			DisplayName: "ストームトライデント"
+		}
+		PaladinsSword: {
+			DisplayName: "パラディンの剣"
+			Tooltip: "敵を出血させ、聖なるエネルギーのボルトを放つ"
+		}
+		BladeofMight: {
+			DisplayName: "力の刃"
+			Tooltip: "命中時にあなたの力のフレアを送り出す"
+		}
+		HallowedArmet: {
+			DisplayName: "聖なるアーメット"
+			Tooltip: "スマイト中、神聖ダメージと速度+8%\n（セットボーナス対応）"
+		}
+		EyeChain: {
+			DisplayName: "アイチェーン"
+			Tooltip: "二つの双子、レティナイザーとスパズマティズムの間でランダムに選択\nディバインスマイトは双子に基づいて近くの敵に異なる発射物を発射する"
+		}
+		SpearofLonginus: {
+			DisplayName: "ロンギヌスの槍"
+			Tooltip: "ディバインスマイトが近くの敵に聖なるエネルギーのビームを発射する"
+		}
+		WingsoftheEagle: {
+			DisplayName: "鷲の翼"
+			Tooltip: "イーグル戦闘機が500kg爆弾を投下するための照準フレアを投げる\n爆発後、イーグル戦闘機は再装填に1分必要\n「素敵なリバティーの一杯はいかが？」"
+		}
+		ChlorophyteSporeSac: {
+			DisplayName: "クロロファイトの胞子嚢"
+			Tooltip: ""
+		}
+		AuraOfRegeneration: {
+			DisplayName: "再生の誓い"
+			Tooltip: "近くの味方のライフ自然回復が増進される\n近くの味方ごとにあなたの防御が4ポイント減少する\nこのライフ自然回復は味方に一貫して適用される\n近くに味方がいない間、あなたは半分の速度で回復を得る"
+		}
+		CreeperFang: {
+			DisplayName: "クリーパーの牙"
+			Tooltip: "神性をスマイトにチャネリングすると、近くの敵に酸性毒が付与される"
+		}
+		BracersOfRecklessness: {
+			DisplayName: "無謀の腕甲"
+			Tooltip: "ディバインスマイトが大量の敵の防御を貫通する\nしかし、あなたの防御力はかなり減少する"
+		}
+		HellHalberd: {
+			DisplayName: "ヘルハルバード"
+			Tooltip: "ディバインスマイトが壊滅的な力で爆発する"
+		}
+		DivineJudgement: {
+			DisplayName: "神の審判"
+			Tooltip: "敵に命中すると天から神聖な攻撃を与える\n右クリックで武器を防御モードと攻撃モードに切り替える\n防御中、剣は使用者に20の追加防御と10%のダメージ軽減を提供する\nそれ以外の場合、武器は36の追加ダメージを与え、スマイトは命中時にチャージされる\n敵を出血させ、聖なるエネルギーのボルトを放つ"
+		}
+		PumpkinPatch: {
+			DisplayName: "カボチャ畑"
+			Tooltip: "ディバインスマイトが近くの敵を怖がらせる\n怖がった敵は防御と接触ダメージが減少する"
+		}
+		LeatherBeltOfSmiting: {
+			DisplayName: "内臓摘出のベルト"
+			Tooltip: "ディバインスマイトの持続時間を1秒減少させるが、全てのディバインスマイトのステータスブーストを35%増幅させる\nさらに、ディバインスマイトは敵を出血させる"
+		}
+
+		WingsOfGlory: {
+			DisplayName: "栄光の翼"
+			Tooltip: "空中で発動するとディバインスマイトが20%長く続く\n翼の飛行時間は神性メーターの充填率に基づいてブーストされる"
+		}
+		Bristle: {
+			DisplayName: "ブリストル"
+			Tooltip: "近くの敵にダメージを与える"
+		}
+		SwordOfIceAndSnow: {
+			DisplayName: "氷と雪の剣"
+			Tooltip: "打撃が氷と雪を召喚し、あなたの敵に降りかかる\nディバインスマイトは氷と雪の完全な吹雪を召喚する"
+		}
+		AuraOfWrath: {
+			DisplayName: "憤怒の誓い"
+			Tooltip: "近くの味方のダメージが10%ブーストされる\n近くの味方ごとにあなたのダメージが2%減少する\n近くに味方がいない間、ディバインスマイトのダメージが17%ブーストされる"
+		}
+		TruePaladinsShield: {
+			DisplayName: "真・パラディンの盾"
+			Tooltip: "ライフが25%以上のとき、チームのプレイヤーに与えられたダメージの25%を吸収する\nノックバック無効を付与\nディバインスマイトが近くの味方を回復する"
+		}
+		BigBeltBuckle: {
+			DisplayName: "大きなベルトバックル"
+			Tooltip: "ディバインスマイトの持続時間を減少させるが、全てのディバインスマイトのステータスブーストを25%増幅させる（下位互換とはスタックしない）\nさらに、ディバインスマイトは敵を出血させる\n神聖ダメージ+15%"
+		}
+		PendantofRegeneration: {
+			DisplayName: "再生のペンダント"
+			Tooltip: "1/5の確率で攻撃のダメージが50%減少する\nこれが起こるたびに、全てのダメージに対するスタックする10%の減少を受ける\n近くの味方のライフ自然回復が増進される\n近くの味方ごとにあなたの防御が4ポイント減少する\nこのライフ自然回復は味方に一貫して適用される\n近くに味方がいない間、あなたは半分の速度で再生を得る"
+		}
+		FangOfWrath: {
+			DisplayName: "憤怒の牙"
+			Tooltip: "神性をスマイトにチャネリングすると、近くの敵が毒のナイフに攻撃される\n近くの味方のダメージが10%ブーストされる\n近くの味方ごとにあなたのダメージが2%減少する\n近くに味方がいない間、ディバインスマイトのダメージが17%ブーストされる"
+		}
+		GravityHammer: {
+			DisplayName: "グラビティハンマー"
+			Tooltip: "この武器はバッテリーで動作する\n命中時に10%のバッテリーを消費する大規模な衝撃波を送り出す\nバッテリーが不足している場合、武器は衝撃波を出せない\nさらに、武器はチャージ中に最大30%多くのダメージを与える\n武器は使用していないときにアイドル状態でチャージされる\n'ハンマー'"
+		}
+		TorrentialTrident: {
+			DisplayName: "豪雨のトライデント"
+			Tooltip: "泡の奔流とホーミングシャークロンを送り出す\n一度に存在できるシャークロンは3体まで、スマイト中は5体"
+		}
+		RetributionPotion: {
+			DisplayName: "報復のポーション"
+			Tooltip: "神性チャージを2増加"
+		}
+		Sunbright: {
+			DisplayName: "サンブライト"
+			Tooltip: "光のホーミングボルトを召喚する可能性がある\nスマイト時にメイスの周りに女帝のサンダンスを召喚する"
+		}
+		SanguineSaber: {
+			DisplayName: "流血のサーベル"
+			Tooltip: "夜間にダメージが増加\n命中時に最も体力の低い最も近い味方を回復する可能性がある"
+		}
+		CursedShield: {
+			DisplayName: "千の呪いの盾"
+			Tooltip: "スマイト中、神聖ダメージ+8%\nディバインスマイトが呪炎に魅了される\n静止中に神性がはるかに速く消耗する"
+		}
+		IchorShield: {
+			DisplayName: "出血する神の盾"
+			Tooltip: "スマイト中、神聖ダメージ+5%\nディバインスマイトが黄金の霊液に魅了される\n打撃を受けても2/3の確率でしか神性をチャージしない"
+		}
+		FirstDawn: {
+			DisplayName: "ファーストダウン"
+			Tooltip: "命中時に大規模な爆発を召喚"
+		}
+		CoronalMass: {
+			DisplayName: "コロナ質量放出"
+			Tooltip: "収縮時に太陽質量を放出\n敵に命中すると爆発し、スマイトは大規模な爆発を引き起こす"
+		}
+		Centaurus: {
+			DisplayName: "ケンタウルス"
+			Tooltip: "槍自体は無敵フレームを無視する\nスマイトはホーミングする宇宙の槍のビームを召喚する"
+		}
+		BigEpicPaladinAccessory: {
+			DisplayName: "レベル20パラディン"
+			Tooltip: "あなたのディバインスマイトは世界のすべてのエネルギーを帯びる\nスマイトした敵は出血、毒、火、呪炎、霊液に侵される\nスマイトで敵に命中するとあなたと近くの味方を回復させ、天から羽を召喚する\n神聖ダメージ+15%、被ダメージ3%減少\nスマイト中、神聖ダメージ+68%、神聖速度+15%\n神性チャージを2、スマイト持続時間を3秒増加\nすべてのディバインスマイトのステータスブーストを25%増幅（下位互換とはスタックしない）\nディバインスマイトは大量の敵の装甲を貫通するが、あなたの防御力は15%減少する\nノックバック、呪い、防具破損、鈍化に対する耐性を提供\nクリティカルヒットは神性メーターをチャージする\n神性をスマイトにチャネリングすると、近くの敵が毒のナイフに攻撃され、あなたは50ライフを回復する\n近くの味方のダメージが10%、防御が5ブーストされ、強化されたライフ自然回復を得る\n近くの味方ごとに、あなたは2%のダメージと6の防御力を失う\n近くに味方がいない間、あなたはディバインスマイトのダメージに17%のボーナス、5%のダメージ軽減、強化されたライフ自然回復を得る\n1/5の確率で攻撃のダメージが50%減少し、スタックする10%のダメージペナルティがある\n重い鎧を着ることのペナルティを20%減少させる\nライフが25%以上のとき、チームのプレイヤーに与えられたダメージの25%を吸収する\n空中で発動するとディバインスマイトが20%長く続く\n翼の飛行時間は神性メーターの充填率に基づいてブーストされる\n回復ポーションはライフを10%多く回復させ、スマイト中に飲むと20%多く回復させる\nダメージを与えるデバフのライフドレインを25%減少させる\nダメージを受けた後の無敵時間を延長する\nライフ自然回復を提供し、回復ポーションのクールダウンを25%減少させる\n「うん、多分バランス調整が少し必要かも…」"
+		}
+		LunarBound: {
+			DisplayName: "ルナバウンド"
+			Tooltip: "'来るぞ！'"
+		}
+		StrengthPotion: {
+			DisplayName: "力のポーション"
+			Tooltip: "重い鎧を着ることのペナルティを10%減少させる"
+		}
+		SpiderSkewer: {
+			DisplayName: "スパイダースキュワー"
+			Tooltip: "敵を毒にする"
+		}
+		PeriaptOfWoundClosure: {
+			DisplayName: "創傷閉鎖のペリアプト"
+			Tooltip: "スマイト持続時間が1秒増加\n回復ポーションはライフを10%多く回復させ、スマイト中に飲むと20%多く回復させる\nダメージを与えるデバフのライフドレインを25%減少させる"
+		}
+		SymbolOfWoundClosure: {
+			DisplayName: "創傷閉鎖のシンボル"
+			Tooltip: "スマイト持続時間が1秒増加\n回復ポーションはライフを10%多く回復させ、スマイト中に飲むと20%多く回復させる\nダメージを与えるデバフのライフドレインを25%減少させる\nダメージを受けた後の無敵時間を延長する"
+		}
+		CharmOfMythicalWoundClosure: {
+			DisplayName: "神話の創傷閉鎖のチャーム"
+			Tooltip: "スマイト持続時間が1秒増加\n回復ポーションはライフを10%多く回復させ、スマイト中に飲むと20%多く回復させる\nダメージを与えるデバフのライフドレインを25%減少させる\nダメージを受けた後の無敵時間を延長する\nライフ自然回復を提供し、回復ポーションのクールダウンを25%減少させる"
+		}
+		ClayCleaver: {
+			DisplayName: "クレイクリーヴァー"
+			Tooltip: "敵に命中すると最大24までスタックする防御バフを構築する\n最大チャージ時、敵はあなたから接触ダメージを受け、武器は命中時に敵にレンガを砕きつける"
+		}
+		PaladinsSpear: {
+			DisplayName: "パラディンの槍"
+			Tooltip: "聖なる槍ビームを発射\n槍とビームの両方が壁を通して敵に命中することができる"
+		}
+		PoisonEdge: {
+			DisplayName: "ポイズンエッジ"
+			Tooltip: "攻撃された敵は毒のダメージを受ける\n耐性のある敵は20の追加ダメージを受け、酸性毒に侵される\nこの武器を所持中、あなたは毒と酸性毒に免疫がある"
+		}
+		StealthPotion: {
+			DisplayName: "隠密のポーション"
+			Tooltip: "敵の敵意を減少させる\nローグのクリティカルダメージとクリティカル率を10%ブーストする"
+		}
+	}
+	Conditions: {
+		ExoticDaggerSellingConditions: "月の満ち欠け 0-4"
+	}
+	Buffs: {
+		GelTippedShuriken: {
+			DisplayName: "ゲル付き手裏剣"
+			Description: "痛い！クソみたいな手裏剣が俺に突き刺さってる"
+		}
+		Flametongue: {
+			DisplayName: "フレイムタン"
+			Description: "ほのお"
+		}
+		SpaceShuriken: {
+			Description: "痛い！宇宙から飛んできたクソみたいな手裏剣が俺に突き刺さってる"
+			DisplayName: "スペース手裏剣"
+		}
+		RoguePanic: {
+			Description: "移動速度+40%、ローグクリティカルダメージ+15%"
+			DisplayName: "ローグパニック"
+		}
+		Amatoxin: {
+			Description: "腎臓と肝臓の不全"
+			DisplayName: "アマトキシン"
+		}
+		Cyanide: {
+			DisplayName: "シアン化物"
+			Description: "一日一個のリンゴは…"
+		}
+		NightwalkerDashCooldown: {
+			Description: "ダッシュ回避はクールダウン中"
+			DisplayName: "ナイトウォーカーダッシュクールダウン"
+		}
+		MimicTooth: {
+			Description: "あなたを噛んでいる"
+			DisplayName: "ミミックの歯"
+		}
+		HolyAvenger: {
+			Description: "スマイトされたが、ローグから？"
+			DisplayName: "ホーリーアベンジャー"
+		}
+		MercuryPoisoning: {
+			Description: "痛い肺、そして脳損傷"
+			DisplayName: "水銀中毒"
+		}
+		MustardGas: {
+			Description: "呼吸が燃える"
+			DisplayName: "マスタードガス"
+		}
+		Snowflake: {
+			Description: "つらら？いや。雪の結晶だ"
+			DisplayName: "雪の結晶"
+		}
+		PhantomForm: {
+			Description: "ローグクリティカル率+17%\n移動速度上昇\n敵に狙われにくくなる"
+			DisplayName: "ファントムフォーム"
+		}
+		PhantomDashCooldown: {
+			Description: "ファントムアーマーを通して次の攻撃を回避できない"
+			DisplayName: "ファントムダッシュクールダウン"
+		}
+		GemShard: {
+			Description: "宝石の破片が刺さってるぜ、相棒"
+			DisplayName: "宝石の破片"
+		}
+		EclipseDash: {
+			DisplayName: "エクリプスシュラウド"
+			Description: "日食の力がブーストされている"
+		}
+		Smite: {
+			Description: "あなたの武器は神聖なエネルギーで飾られている"
+			DisplayName: "ディバインスマイト"
+		}
+		DesertWinds: {
+			Description: "スイング速度上昇"
+			DisplayName: "砂漠の風"
+		}
+		SmashedShield: {
+			Description: "盾が粉々にされた"
+			DisplayName: "砕かれた盾"
+		}
+		GrinchSteal: {
+			Description: "グリンチが盗んでいる"
+			DisplayName: "グリンチスティール"
+		}
+		ChainHatchet: {
+			DisplayName: "チェーンハチェット"
+			Description: "チェーンハチェットで拘束されている"
+		}
+		FracturingPike: {
+			DisplayName: "破砕のパイク"
+			Description: "破砕のパイクが突き刺さっている"
+		}
+		PendantofResistance: {
+			DisplayName: "抵抗のペンダントペナルティ"
+			Description: "ダメージ減少"
+		}
+		Bleeding: {
+			DisplayName: "出血"
+			Description: "出血している"
+		}
+		Eagle: {
+			DisplayName: "イーグル"
+			Description: "イーグルのペイロードが接近中"
+		}
+		EagleCooldown: {
+			DisplayName: "イーグルクールダウン"
+			Description: "イーグル1は発射ベイを補充中"
+		}
+		Encumbered: {
+			DisplayName: "過重"
+			Description: "あなたの鎧が翼とロケットブーツを重くしている"
+		}
+		Frightened: {
+			DisplayName: "恐怖"
+			Description: "防御、近接、神聖ダメージが減少"
+		}
+		Retribution: {
+			DisplayName: "報復"
+			Description: "神性チャージが2増加"
+		}
+		Strength: {
+			DisplayName: "力"
+			Description: "重い鎧のペナルティが10%減少"
+		}
+		Chained: {
+			DisplayName: "鎖で繋がれた"
+			Description: "鎖で繋がれ、継続ダメージを受けている"
+		}
+		ClayDefense: {
+			DisplayName: "粘土の防御"
+			Description: "防御が増加している"
+		}
+		Stealth: {
+			DisplayName: "ステルス"
+			Description: "敵の敵意が減少し、ローグのクリティカル率とダメージがブーストされる"
+		}
+	}
+}

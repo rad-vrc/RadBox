@@ -1,0 +1,245 @@
+{
+	Items: {
+		PlanteraSeeds: {
+			DisplayName: "プランテラの種"
+			Tooltip:
+				'''
+				地下ジャングルでプランテラのつぼみを育てるのに使用する
+				他の場所に植えるとプランテラの芽に育ち、さらに種を収穫できる
+				クレイポットやプランターボックスでもプランテラの芽に育つ
+				「強力なジャングルの生き物の若い苗」
+				'''
+		}
+
+		PlanteraBudItem: {
+			DisplayName: "プランテラの芽"
+			Tooltip:
+				'''
+				水晶玉で他のハーブに変換可能
+				変換されたハーブはシマーで戻せない
+				「プランテラのベルと混同しないこと」
+				'''
+		}
+
+		BottomlessTruffleCan: {
+			DisplayName: "底なしのトリュフワーム缶"
+			Tooltip: "消費されない"
+		}
+
+		MarsRadio: {
+			DisplayName: "惑星間アマチュア無線"
+			Tooltip: "火星人の狂気を召喚する"
+		}
+
+		MarsProbePiece: {
+			DisplayName: "地球外製の電子回路"
+			Tooltip: "「これを失くしても気づかないと思う？」"
+		}
+
+		HangingPlanteraBudItem: {
+			DisplayName: "吊り下げられたプランテラの芽のポット"
+			Tooltip: ""
+		}
+
+		GuideVoodooString: {
+			DisplayName: "ガイドの紐付きブードゥー人形"
+			Tooltip:
+				'''
+				左クリックで投げる
+				「お前はひどい人間だ」
+				'''
+		}
+
+		ViciousWormItem: {
+			Tooltip: "「血の海で致命的な魚を引き寄せるかもしれない」"
+			BoringTooltip: "ブラッドムーン中にワンダリングアイフィッシュまたはゾンビマーマンを召喚する"
+			DisplayName: "真紅のワーム"
+		}
+
+		CorruptWormItem: {
+			Tooltip: "「血の海で致命的な魚を引き寄せるかもしれない」"
+			BoringTooltip: "ブラッドムーン中にゾンビマーマンまたはワンダリングアイフィッシュを召喚する"
+			DisplayName: "不浄のワーム"
+		}
+
+		CorruptWorm_Banner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：不浄のワーム"
+			DisplayName: "不浄のワームのバナー"
+		}
+
+		ViciousWorm_Banner: {
+			DisplayName: "真紅のワームのバナー"
+			Tooltip: "以下のモンスターに対してボーナスを得る：真紅のワーム"
+		}
+
+		BloodChumBall: {
+			DisplayName: "血の撒き餌ボウル"
+			Tooltip: "「これに引き寄せられるのは最も凶暴な魚だけだ」"
+			BoringTooltip: "ブラッドムーン中に餌として使用するとヘモゴブリンシャークまたは血液ウナギを召喚する"
+		}
+
+		RottingChumClump: {
+			DisplayName: "腐った撒き餌の塊"
+			Tooltip: "「血の海の恐怖の注意を確実に引く」"
+			BoringTooltip: "ブラッドムーン中に餌として使用するとドレッドノーチラスを召喚する"
+		}
+	}
+
+	Tiles: {
+		PlanteraBud: {
+			MapEntry: "プランテラの芽"
+		}
+
+		RegeneratingShadowOrb: {
+			crimHeartName: "クリムゾンハート (再生中)"
+			shadowOrbName: "シャドウオーブ (再生中)"
+		}
+	}
+
+	Configs: {
+		BetterBossSummonConfig: {
+			DisplayName: "少し改善されたボス召喚設定"
+
+			Headers: {
+				Orbs+Hearts: "シャドウオーブとクリムゾンハート"
+				Other: "その他"
+			}
+
+			calConsumeOverride: {
+				Label: "Calamityのボス召喚非消費性をオーバーライド"
+				Tooltip:
+					'''
+					Calamityが非消費性にしたバニラ召喚を再び消費性にする
+					バニラ召喚にのみ適用、Calamityの召喚は一度だけクラフトする設計のため
+					'''
+			}
+
+			EvilSummonAvailibility: {
+				Label: "邪悪の召喚クラフト可能性"
+				Tooltip: "邪悪のボス召喚のクラフトレシピを安く、難しく、または不可能にする"
+			}
+
+			MineWithPick: {
+				Tooltip:
+					'''
+					オンにすると再生中のシャドウオーブとクリムゾンハートを
+					ハンマーではなくツルハシでのみ破壊可能にする
+					再生中のオーブ/ハートを誤って破壊しないためのもの
+					'''
+				Label: "ツルハシで採掘必須"
+			}
+
+			OrbSummonDropRate: {
+				Label: "邪悪の召喚ドロップ率"
+				Tooltip:
+					'''
+					シャドウオーブまたはクリムゾンハートから
+					対応する邪悪のボス召喚がドロップする確率を制御する
+					保証から不可能まで範囲がある
+					'''
+			}
+
+			boringTooltips: {
+				Label: "退屈なツールチップ"
+				Tooltip: "一部のツールチップを記述が少なく直接的なバージョンに置き換える"
+			}
+
+			orbsRegenerate: {
+				Label: "オーブとハートが再生する"
+				Tooltip:
+					'''
+					オフにすると再生メカニズムを完全に無効にする、そういうプレイをしたくない場合
+					再生状態の既存のオーブ/ハートは破壊されない
+					'''
+			}
+
+			noMechsBeforePlantera: {
+				Label: "メカを倒す前にプランテラの種をクラフト"
+				Tooltip: "少し非線形にプレイしたい場合に良い"
+			}
+
+			wormNpcsExist: {
+				Label: "不浄と真紅のワームが敵として存在"
+				Tooltip:
+					'''
+					オフにすると不浄と真紅のワームの敵を削除し
+					網で捕まえる代わりにクラフトレシピで入手するように置き換える
+					'''
+			}
+		}
+
+		EvilSummonAvailibility: {
+			Tooltip: ""
+
+			Default: {
+				Label: "バニラ"
+			}
+
+			Expensive: {
+				Label: "高価"
+			}
+
+			Impossible: {
+				Label: "不可能"
+			}
+
+			Cheap: {
+				Label: "安価"
+			}
+		}
+
+		OrbSummonDropRate: {
+			Tooltip: ""
+
+			Guarenteed: {
+				Label: "保証"
+			}
+
+			Common: {
+				Label: "一般的"
+			}
+
+			Default: {
+				Label: "デフォルト"
+			}
+
+			Rare: {
+				Label: "レア"
+			}
+
+			Impossible: {
+				Label: "不可能"
+			}
+		}
+	}
+
+	Projectiles: {
+		GuideVoodooStringDoll: {
+			DisplayName: "ガイドのブードゥー人形"
+		}
+	}
+
+	NPCs: {
+		CorruptWormName: "不浄のワーム"
+
+		CorruptWorm: {
+			DisplayName: "不浄のワーム"
+			BestiaryEntry: "ブラッドムーンの腐敗影響にさらされたワームがコラプションのものに似て変異する"
+		}
+
+		CorruptWormCritter: {
+			DisplayName: "不浄のワーム"
+		}
+
+		ViciousWormName: "真紅のワーム"
+
+		ViciousWorm: {
+			DisplayName: "真紅のワーム"
+			BestiaryEntry: "ブラッドムーン中に外にいるワームが真紅の巣に餌を求めるヒルのような生物に変異する"
+		}
+
+		ViciousWormCritter: {
+			DisplayName: "真紅のワーム"
+		}
+	}
+}

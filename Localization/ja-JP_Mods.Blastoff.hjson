@@ -1,0 +1,414 @@
+Configs: {
+	CrossmodConfig: {
+		DisplayName: クロスMOD設定
+
+		Headers: {
+			Items: アイテムヘッダー
+		}
+
+		CalamitySelfDamageBackOn: {
+			Label: Calamity - 自傷ダメージを再有効化
+			Tooltip:
+				'''
+				有効にすると、Calamityがインストールされていてもバニラロケットでプレイヤーにダメージを与え、ブラストジャンプが可能になります
+				ブラストジャンプが不要でCalamityのポイントブランクボーナスに集中したい場合は、これを無効にすることを検討してください
+				'''
+		}
+	}
+}
+
+DamageClasses: {
+	RocketDamage: {
+		DisplayName: 遠距離（ロケット）ダメージ
+	}
+}
+
+Projectiles: {
+	GoldBomblet: {
+		DisplayName: ゴールドボムレット
+	}
+
+	DragonRocket: {
+		DisplayName: ドラゴンロケット
+	}
+
+	ExplodingTar: {
+		DisplayName: 爆発タール
+	}
+
+	SpaceRocket: {
+		DisplayName: スペースロケット
+	}
+
+	RainfallRetort: {
+		DisplayName: レインフォールレトルト
+	}
+
+	Prismissile: {
+		DisplayName: プリズミサイル
+	}
+
+	FunkyPineappleRocket: {
+		DisplayName: ファンキーパイナップルロケット
+	}
+
+	MysticMortarBlue: {
+		DisplayName: ミスティックモルタル（青）
+	}
+
+	MysticMortarPink: {
+		DisplayName: ミスティックモルタル（ピンク）
+	}
+
+	MysticMortarPurple: {
+		DisplayName: ミスティックモルタル（紫）
+	}
+
+	BiggerIronCannonball: {
+		DisplayName: より大きな鉄の砲弾
+	}
+
+	BiggerIronCannonballMiniNuke: {
+		DisplayName: より大きな鉄の砲弾ミニニューク
+	}
+
+	AshKickerFireJet: {
+		DisplayName: アッシュキッカーファイアジェット
+	}
+
+	PineappleRocket: {
+		DisplayName: パイナップルロケット
+	}
+
+	CrimsonBriar: {
+		DisplayName: クリムゾンブライア
+	}
+
+	CorruptBriar: {
+		DisplayName: 不浄のブライア
+	}
+
+	IceSheet: {
+		DisplayName: アイスシート
+	}
+
+	FlyingScarab: {
+		DisplayName: フライングスカラベ
+	}
+
+	BigIronCannonballMiniNuke: {
+		DisplayName: ビッグアイアン砲弾ミニニューク
+	}
+
+	BigIronCannonball: {
+		DisplayName: ビッグアイアン砲弾
+	}
+}
+
+Buffs: {
+	Smite: {
+		Description: 強力な制裁者によって制裁された
+		DisplayName: 制裁
+	}
+
+	MarketGardenerCooldown: {
+		Description: これが切れるまで別の弾道ストライクはできない
+		DisplayName: マーケットガーデナークールダウン
+	}
+
+	BlastJumpBuff: {
+		DisplayName: ブラストジャンプバフ
+		Description: ロケットジャンプ後の落下ダメージを防ぎ、飛行時間を倍にする！
+	}
+
+	MarketGardenerBuff: {
+		DisplayName: 弾道ストライク！
+		Description: ジャンプ中または着地直後に行えば、次の近接攻撃で高ダメージを与える
+	}
+}
+
+Items: {
+	SpikePhysicsBook: {
+		Tooltip:
+			'''
+			「仮説：尖ったものは速く行けばより痛い」
+			弾道ストライクで防御貫通+20
+			'''
+		DisplayName: 超高速近接戦闘の物理学に関する学術論文 第1巻
+	}
+
+	MercilessManntreads: {
+		Tooltip:
+			'''
+			「驚異的に致命的だ！」
+			ブラストジャンプの力+50%、弾道ストライクダメージ+15%
+			ブラストジャンプの自傷ダメージを15%に軽減
+			'''
+		DisplayName: 無慈悲なマントレッド
+	}
+
+	GlisteringGrapeshot: {
+		Tooltip:
+			'''
+			海賊の掟では宝を埋めることになっているが、いつから海賊がルールに従うようになったのか？
+			ロケットとロケットアクセサリーで敵がより多くのコインをドロップする
+			ロケットにはロケット基本ダメージの1/3と直撃ダメージ1.2倍の金のボムレット5個が含まれる
+			'''
+		DisplayName: 煌くグレープショット
+	}
+
+	WoodenDragon: {
+		Tooltip:
+			'''
+			「どうして外せるんだ？3フィート先にいたのに！」
+			直撃ダメージは少ないが、爆発範囲が広いドラゴンロケットを発射
+			'''
+		DisplayName: 木のドラゴン
+	}
+
+	Terrannihilator: {
+		Tooltip:
+			'''
+			2回貫通するロケットを発射
+			ロケットは制裁と影炎を付与
+			'''
+		DisplayName: テラニヒレーター
+	}
+
+	SpaceRocket: {
+		DisplayName: スペースロケット
+		Tooltip: クリティカル率+4%
+	}
+
+	RainfallRetort: {
+		DisplayName: レインフォールレトルト
+		Tooltip:
+			'''
+			「RPGツクールゲームから直送！」
+			飛行中に雨を降らせる
+			'''
+	}
+
+	Prismissile: {
+		DisplayName: プリズミサイル
+		Tooltip:
+			'''
+			無限のホーミングレインボーロケット弾幕を発射！
+			ロケットのクリティカル率+3%、自傷ダメージ半減
+			'''
+	}
+
+	BoxOfScraps: {
+		DisplayName: スクラップボックス
+		Tooltip:
+			'''
+			スクラップロケットIの無限供給を含む
+			「マイケル・ベイのお気に入りアイテム」
+			'''
+	}
+
+	FunkyPineappleLauncher: {
+		Tooltip:
+			'''
+			「爬虫類を蹴飛ばすハードウェア！」
+			直撃ダメージが大幅に高いホーミングパイナップルを発射、特殊効果は継承しない
+			'''
+		DisplayName: ファンキーパイナップルランチャー
+	}
+
+	Judgment: {
+		DisplayName: ジャッジメント
+		Tooltip:
+			'''
+			「裁きが下されたぁぁぁぁぁぁ！」
+			敵を制裁し、素早く攻撃、弾薬ダメージの80%のみ取得
+			'''
+	}
+
+	TrueUmbraBlaster: {
+		DisplayName: 真・アンブラブラスター
+		Tooltip:
+			'''
+			より強力な（相変わらず非現実的な）敵貫通ロケットを発射
+			破壊ロケットと液体ロケットは貫通しない
+			'''
+	}
+
+	MysticMortar: {
+		DisplayName: ミスティックモルタル
+		Tooltip:
+			'''
+			直撃ダメージがわずかに減少した3為のクリスタルロケットを発射
+			紫はまっすぐ先へ、ピンクは上昇、青は下降
+			'''
+	}
+
+	SwampLizard: {
+		DisplayName: スワンプリザード
+		Tooltip:
+			'''
+			「これですべてが変わる！」
+			標準ロケットが高可燃性の沼タール球になる
+			'''
+	}
+
+	BiggerIron: {
+		Tooltip:
+			'''
+			それでも効かないなら、もっと鉄を使え
+			反動で発射時にユーザーが少し後ろに弾かれる
+			'''
+		DisplayName: 真・ビッグアイアン
+	}
+
+	BluriteMultibomber: {
+		DisplayName: ブルライトマルチボンバー
+		Tooltip: ""
+	}
+
+	AshKicker: {
+		DisplayName: アッシュキッカー
+		Tooltip:
+			'''
+			ロケットがターゲットを発火させる
+			ユーザーの後ろに熱の逆流を産む
+			'''
+	}
+
+	Hyperdrive: {
+		DisplayName: ハイパードライブ
+		Tooltip: ロケットダメージ+5%、ロケット速度上昇
+	}
+
+	RocketBooster: {
+		DisplayName: ロケットブースター
+		Tooltip:
+			'''
+			ロケットダメージとクリティカル率+6%
+			ロケット攻撃速度+15%、ロケット速度上昇
+			ロケットノックバック+20%
+			'''
+	}
+
+	SilverTargetingSystem: {
+		DisplayName: シルバーターゲティングシステム
+		Tooltip: ロケットクリティカル率+4%
+	}
+
+	TungstenReloader: {
+		DisplayName: タングステンリローダー
+		Tooltip: ロケット攻撃速度+10%
+	}
+
+	PineappleLauncher: {
+		DisplayName: パイナップルランチャー
+		Tooltip:
+			'''
+			パイナップルロケットは特殊効果を継承しないが、直撃ダメージが追加される
+			「一世一代の男なら使え」
+			'''
+	}
+
+	BriarBomberCrimson: {
+		Tooltip: 爆発で対角の真紅の棘も発射
+		DisplayName: ブライアボンバー
+	}
+
+	BriarBomberCorrupt: {
+		Tooltip: 爆発で水平・垂直の不浄な棘も発射
+		DisplayName: ブライアボンバー
+	}
+
+	IceSheet: {
+		DisplayName: アイスシート
+		Tooltip: ロケットが凍傷を付与する幅広で平坦な爆発を作る
+	}
+
+	FlyingScarab: {
+		Tooltip: ロケットが方向性のある爆発を作る
+		DisplayName: フライングスカラベ
+	}
+
+	ScrapRocketII: {
+		DisplayName: スクラップロケットII
+		Tooltip:
+			'''
+			すべてのロケットの自傷ダメージを減らし、ユーザーを逆方向に発射
+			「タイルを破壊する - 注意！」
+			'''
+	}
+
+	ScrapRocketI: {
+		Tooltip:
+			'''
+			すべてのロケットの自傷ダメージを減らし、ユーザーを逆方向に発射
+			ロケットジャンプで落下ダメージを防ぎ、着地まで飛行時間を倍化
+			近接武器と鞭はロケットジャンプ中または直後に使用すると強力な弾道ストライクを放つ
+			タイルを破壊しない
+			'''
+		DisplayName: スクラップロケットI
+	}
+
+	StingerMissiles: {
+		DisplayName: スティングミサイル
+		Tooltip:
+			'''
+			ロケットにハチが入っている
+			ロケット由来のハチは発射元ダメージの5%を継承（大きなハチなら8%！）
+			（警告：いくつかバグがあるかも、Not the bees!）
+			'''
+	}
+
+	RocketeerGunboats: {
+		DisplayName: ロケッティアガンボート
+		Tooltip:
+			'''
+			ブラストジャンプの力+30%
+			ブラストジャンプの自傷ダメージを1/4に減少
+			'''
+	}
+
+	BlingBazooka: {
+		Tooltip:
+			'''
+			「美しいいいいい！」
+			所持する固有の大きな宝石1個につきダメージ/クリティカル+1
+			各宝石にはボーナス効果もあり
+			'''
+		DisplayName: ブリングバズーカ
+	}
+
+	BigIron: {
+		Tooltip:
+			'''
+			「このビッグアイアンを腰に着けるな！」
+			反動で発射時にユーザーが少し後ろに弾かれる
+			'''
+		DisplayName: ビッグアイアン
+	}
+
+	UmbraBlaster: {
+		Tooltip:
+			'''
+			非現実的な敵貫通ロケットを発射
+			破壊ロケットと液体ロケットは貫通しない
+			'''
+		DisplayName: アンブラブラスター
+	}
+
+	TestAccessory: {
+		Tooltip: ""
+		DisplayName: テストアクセサリー
+	}
+
+	WoodLauncher: {
+		DisplayName: 木のランチャー
+		Tooltip: 「無謀？たぶん、でも楽しい！」
+	}
+
+	BasicLauncher: {
+		DisplayName: ベーシックランチャー
+		Tooltip: 「テストアイテム」
+	}
+}
+

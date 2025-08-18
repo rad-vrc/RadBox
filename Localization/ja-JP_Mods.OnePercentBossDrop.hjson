@@ -1,0 +1,128 @@
+{
+	Projectiles: {
+		PlanteraSeedGunSeedProjectile: {
+			DisplayName: "プランテラシードガンの種子発射体"
+		}
+		SpearTrapMinion: {
+			DisplayName: "スピアトラップミニオン"
+		}
+		SpikyBallTrapMinion: {
+			DisplayName: "スパイキーボールトラップミニオン"
+		}
+		FlameTrapMinion: {
+			DisplayName: "フレイムトラップミニオン"
+		}
+		SuperDartTrapMinion: {
+			DisplayName: "スーパーダーツトラップミニオン"
+		}
+		SummonerBeacon: {
+			DisplayName: "サモナービーコン"
+		}
+		MagicOrb: {
+			DisplayName: "マジックオーブ"
+		}
+		RangedCannon: {
+			DisplayName: "レンジキャノン"
+		}
+		MeleeSaw: {
+			DisplayName: "ミートソウ"
+		}
+		OurCannonArm: {
+			DisplayName: "我々のキャノンアーム"
+		}
+		OurLaserArm: {
+			DisplayName: "我々のレーザーアーム"
+		}
+		OurPrimeBomb: {
+			DisplayName: "我々のプライムボム"
+		}
+		OurSawArm: {
+			DisplayName: "我々のソウアーム"
+		}
+		OurViceArm: {
+			DisplayName: "我々のヴァイスアーム"
+		}
+		DrillHead: {
+			DisplayName: "ドリルヘッド"
+		}
+		FatPinkSlimeProjectile: {
+			DisplayName: "ファットピンクスライム発射体"
+		}
+		DragonHornetReturn: {
+			DisplayName: "ドラゴンホーネットリターン"
+		}
+		FatSlimeProjectile: {
+			DisplayName: "ファットスライム発射体"
+		}
+	}
+	Items: {
+		MoontationHeart: {
+			Tooltip: "'''\n月の感染を宿した心臓\n起動すると、所持している他の1%ボスドロップアイテムを強化/改善する\n「ついに、我々は最後の決戦にたどり着いた」\n[c/FFD700:アイテムをお気に入り登録して起動]\n'''"
+			DisplayName: "ムーンテーションハート"
+		}
+		ForbiddenCodex: {
+			Tooltip: "'''\n宇宙の高次元的存在の禁断の知識が記されたコーデックス\n4種類の異なる呪文を撃ち出す\n「彼が来る」\n[c/FFD700:各発射物はそれぞれ独自の効果を持つ]\n'''"
+			DisplayName: "禁断のコーデックス"
+		}
+		PrismaticHarmony: {
+			Tooltip: "'''\nライフを回復し、プレイヤーの防御力を上げ、敵を攻撃するエーテリアルランスを召喚する\n「ママ！」\n[c/FFD700:プレイヤーの体力が][c/FFB6C1:低い]ほど[c/FFD700:回復速度と防御力が上昇する]\n[c/FFD700:プレイヤーの体力が][c/FFB6C1:高い]ほど[c/FFD700:トワイライトランスの攻撃速度が上昇する]\n'''"
+			DisplayName: "プリズマティックハーモニー"
+		}
+		FrenzyWhirlpool: {
+			Tooltip: ""
+			DisplayName: "フレンジーワールプール"
+		}
+		LihzahrdTrigger: {
+			Tooltip: "'''\nランダムなリザードのトラップミニオンを召喚する\nトラップは敵または敵の発射物と接触すると消滅する\n「美とは何か？」\n[c/FFD700:5秒のクールダウン]\n'''"
+			DisplayName: "リザードトリガー"
+		}
+		PlanteraSeedGun: {
+			Tooltip: "'''\n中程度の速度とダメージの種を発射する\n右クリックで武器の精度と引き換えに攻撃速度をブーストする\n「この球根…何かを訴えかけているようだ」\n[c/FFD700:15秒のスキルクールダウン]\n'''"
+			DisplayName: "ヴァーダントバルブ"
+		}
+		PrimeModule: {
+			Tooltip: "'''\n戦闘を支援する兵器を召喚する\n兵器は装備している武器のクラスによって変化する\n「遠くで石に金属がぶつかる音が聞こえた」\n[c/FFD700:近接 = ソーブレード]\n[c/FFD700:遠距離 = キャノン]\n[c/FFD700:魔法 = マジカルテスラ]\n[c/FFD700:召喚 = ビーコンドローン]\n'''"
+			DisplayName: "プライムモジュール"
+		}
+		DestroyerMiningTools: {
+			Tooltip: "'''\nプレイヤーをカーソルに向かって移動するメカニカルドリルに変える\n最高のピッケルパワーを使い、周りのブロックを破壊する\n「我はドリルとなり、世界の破壊者となる」\n[c/FFD700:アイテムを長時間使用するとオーバーヒートする]\n'''"
+			DisplayName: "マイニングドリル『デストロイヤー』"
+		}
+		OpticEngine: {
+			Tooltip: "'''\n武器が追加のレーザーまたは呪炎を発射するチャンスを得る\n「ダブルダウン！」\n[c/FFD700:両方の発射物は元のダメージの60%しか与えない]\n'''"
+			DisplayName: "オプティックエンジン"
+		}
+		DazzlingCore: {
+			Tooltip: "'''\n画面上の最強の敵を追尾して押しつぶす巨大な翼を持つスライムを召喚する\n「また中二病か？」\n[c/FFD700:30秒のクールダウン]\n'''"
+			DisplayName: "ダズリングコア"
+		}
+		GreedEmblem: {
+			Tooltip: ""
+			DisplayName: "強欲の紋章"
+		}
+		WholeFrickingArm: {
+			Tooltip: "'''\n敵を倒した際に、元のダメージの半分のダメージを与える骨のバーストを引き起こすチャンスを得る\n「テラリアへようこそ、腕の調子はどうだい？」\n[c/FFD700:骨の量はハードモードで増加する]\n'''"
+			DisplayName: "スケルトロンの腕"
+		}
+		ShadowyHead: {
+			Tooltip: "'''\n攻撃が確率で影の手を召喚し、敵を攻撃する\n'彼はあなたの供物を受け入れない'\n[c/FFD700:確率はハードモードで上昇する]\n'''"
+			DisplayName: "首を斬られた鹿の頭"
+		}
+		AncientBeeswax: {
+			Tooltip: "'''\n太古の存在を召喚する\nドラゴンホーネットは敵に素早く突撃する\n「おかえりなさい！」\n[c/FFD700:一度に一体のドラゴンホーネットしか召喚できない]\n'''"
+			DisplayName: "古代の蜜蝋"
+		}
+		TwistedDuality: {
+			Tooltip: "'''\n攻撃が霊液と呪炎を与える\n「不愉快だ」\n[c/FFD700:持続時間はハードモードで増加する]\n'''"
+			DisplayName: "歪んだ二元性"
+		}
+		AllSeeingBrew: {
+			Tooltip: "'''\n非消費アイテム\n全ての種類の視覚バフを付与する\n「永遠が見える」\n[c/FFD700:60秒のクールダウン]\n'''"
+			DisplayName: "全てを見通す醸造酒"
+		}
+		CrownBait: {
+			Tooltip: "'''\n画面上の最強の敵を押しつぶす巨大なスライムを召喚する\n「なんて成り上がり者だ」\n[c/FFD700:30秒のクールダウン]\n'''"
+			DisplayName: "王冠の餌"
+		}
+	}
+}

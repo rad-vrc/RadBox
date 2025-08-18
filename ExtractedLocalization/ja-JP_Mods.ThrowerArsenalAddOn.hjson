@@ -1,0 +1,324 @@
+Buffs: {
+	EmpressChargeDebuff: {
+		Description: Prismatic light burns this enemy
+		DisplayName: Radiant Judgement
+	}
+
+	TerraCutterDebuff: {
+		Description: The forces of Terraria itself smite this enemy
+		DisplayName: Terra Rend
+	}
+
+	TrueTwilightPlungeDebuff: {
+		Description: Dark energy eats away at this enemy's lifeforce
+		DisplayName: Darkness Plunge
+	}
+}
+
+Items: {
+	OmegaBlades: {
+		Tooltip:
+			'''
+			Launches a barrage of 3 high velocity knives
+			Upon initially impacting an enemy or terrain, knives stop in place
+			Stopped knives re-direct towards the cursor after a short delay
+			'Embrace the end of time... For to resist it is useless'
+			'''
+		DisplayName: Blades of Omega
+	}
+
+	LunarFury: {
+		Tooltip: "'Now the fallen rise to the heavens'"
+		DisplayName: Lunar Fury
+	}
+
+	GrandStar: {
+		Tooltip: "'The weapon of the chosen one'"
+		DisplayName: Grand Star
+	}
+
+	EntropicMatter: {
+		Tooltip:
+			'''
+			Lobs an innacurate burst of unstable matter whose velocity is influenced by the user's movement
+			'Weaponizing volatile fragments of celestial power? Sure, that seems totally safe'
+			'''
+		DisplayName: Entropic Volley
+	}
+
+	SingularityMine: {
+		Tooltip: ""
+		DisplayName: Singularity Mine
+	}
+
+	DimensionalCollapse: {
+		Tooltip: ""
+		DisplayName: Dimensional Collapse
+	}
+
+	Voidbringer: {
+		Tooltip:
+			'''
+			Sticks to enemies and tiles, releasing homing energy over time
+			'None can escape the ceaseless presence of the void'
+			'''
+		DisplayName: Voidbringer
+	}
+
+	HorizonRazor: {
+		Tooltip: ""
+		DisplayName: Horizon Razor
+	}
+
+	SpacialRend: {
+		Tooltip:
+			'''
+			Shatters space itself in order to inflict a series of superimposed strikes on the target
+			'Perfectly effective against pixies, why wouldn't it be?'
+			'''
+		DisplayName: Spacial Rend
+	}
+
+	Ultima: {
+		Tooltip: ""
+		DisplayName: Ultima
+	}
+
+	BlockThrower: {
+		Tooltip:
+			'''
+			Throw dirt.
+			'Great for impersonating mod devs!'
+			'NOW it's Block's Thrower Mod!'
+			'''
+		DisplayName: Block's Thrower
+	}
+
+	EmpressCharge: {
+		PrismaNerf: Deals less damage in the presence of Terraprisma
+		Tooltip: Throws a javelin which generates a swarm of prismatic clones that fly alongside it
+		DisplayName: Empress's Charge
+	}
+
+	Chimera: {
+		Tooltip: "'This is nuts... maybe even bolts!'"
+		DisplayName: Chimera
+	}
+
+	MechimeraMayhem: {
+		Tooltip:
+			'''
+			'Rend order from chaos, and perfection from imperfect parts...'
+			Legendary
+			'''
+		DisplayName: Mechimera Mayhem
+	}
+
+	TerraCutter: {
+		Tooltip: ""
+		DisplayName: Terra Cutter
+	}
+
+	TrueDivineStar: {
+		Tooltip: ""
+		DisplayName: True Divine Star
+	}
+
+	TrueTwilightPlunge: {
+		Tooltip: ""
+		DisplayName: True Twilight's Plunge
+	}
+
+	TwilightPlunge: {
+		Tooltip: ""
+		DisplayName: Twilight's Plunge
+	}
+}
+
+Projectiles: {
+	OmegaBladeProj: {
+		DisplayName: Blade of Omega
+	}
+
+	LunarFurySpark: {
+		DisplayName: Lunar Fury Spark
+	}
+
+	LunarFuryProj: {
+		DisplayName: Lunar Fury Proj
+	}
+
+	GrandStarMini: {
+		DisplayName: Grand Star Mini
+	}
+
+	GrandStarProj: {
+		DisplayName: Grand Star Proj
+	}
+
+	EntropicMatterProj: {
+		DisplayName: Entropic Matter Proj
+	}
+
+	SingularityVortex: {
+		DisplayName: Singularity Vortex
+	}
+
+	SingularityMineProj: {
+		DisplayName: Singularity Mine Proj
+	}
+
+	DimensionalCollapseProj: {
+		DisplayName: Dimensional Collapse Proj
+	}
+
+	VoidBlast: {
+		DisplayName: Void Blast
+	}
+
+	VoidbringerProj: {
+		DisplayName: Voidbringer
+	}
+
+	VoidEnergy: {
+		DisplayName: Void Energy
+	}
+
+	HorizonRazorProj: {
+		DisplayName: Horizon Razor
+	}
+
+	SpacialRendProj: {
+		DisplayName: Spacial Rend
+	}
+
+	VoidFissure: {
+		DisplayName: Void Fissure
+	}
+
+	UltimaOrbital: {
+		DisplayName: Ultima
+	}
+
+	UltimaProj: {
+		DisplayName: Ultima
+	}
+
+	BlockThrowerProj: {
+		DisplayName: Dirt Block
+	}
+
+	EmpressChargeProj: {
+		DisplayName: Empress's Charge
+	}
+
+	EmpressChargeClone: {
+		DisplayName: Empress's Charge
+	}
+
+	MechimeraMine: {
+		DisplayName: Mechimera Mine
+	}
+
+	MechimeraMayhemProj: {
+		DisplayName: Mechimera Render
+	}
+
+	MechimeraLance: {
+		DisplayName: Mechimera Bolt
+	}
+
+	ChimeraProj: {
+		DisplayName: Chimera
+	}
+
+	ChimeraMine: {
+		DisplayName: Chimera Mine
+	}
+
+	TerraCutterProj: {
+		DisplayName: Terra Cutter
+	}
+
+	TerraCutterSlash: {
+		DisplayName: Terra Slash
+	}
+
+	TrueDivineStarBeam: {
+		DisplayName: Divine Beam
+	}
+
+	TrueDivineStarProj: {
+		DisplayName: True Divine Star
+	}
+
+	TwilightPlungeProj: {
+		DisplayName: Twilight's Plunge
+	}
+
+	TwilightPlungeClone: {
+		DisplayName: Twilight's Plunge
+	}
+
+	TrueTwilightPlungeProj: {
+		DisplayName: True Twilight's Plunge
+	}
+
+	TrueTwilightPlungeClone: {
+		DisplayName: True Twilight's Plunge
+	}
+
+	HolyHandGrenadeProj: {
+		DisplayName: Holy Hand Grenade
+	}
+}
+
+Configs: {
+	Config: {
+		slimenobiConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: Convert Slimenobi to Thrower
+		}
+
+		flaskConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Additionally removes mana cost, but lowers damage accordingly
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				'''
+			Label: Convert Combustion Flask to Thrower
+		}
+
+		tridentConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				'''
+			Label: Convert Accursed Trident to Thrower
+		}
+
+		daggerConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				'''
+			Label: Convert Sanguine Dagger to Thrower
+		}
+
+		hhgRework: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Also adjusts other stats - such as damage - to accomidate use as a weapon
+				Furthermore, the attack's behavior is tweaked. Most notably, the grenade will no longer destroy tiles
+				'''
+			Label: Holy Hand Grenade Rework
+		}
+
+		DisplayName: Config
+	}
+}
+

@@ -1,0 +1,750 @@
+{
+	NPCs: {
+		BabySpider: {
+			DisplayName: "赤ちゃん蜘蛛"
+		}
+		SkeleArm: {
+			DisplayName: "スケルトンの腕"
+		}
+		Creeper: {
+			DisplayName: "クリーパー"
+		}
+	}
+	Configs: {
+		EnemyModifiersServerConfig: {
+			DisplayName: "サーバー設定"
+			ModifierConfiguration: "修飾子の設定"
+			Blacklists: "ブラックリスト"
+			ModifierAnnouncements: {
+				Label: "修飾子アナウンス"
+				Tooltip: "敵の修飾子がしばらく頭上に表示される"
+			}
+			BossModifiers: {
+				Label: "ボスも修飾子を得られる"
+				Tooltip: ""
+			}
+			ChanceForModifier: {
+				Label: "修飾子の確率 (%)"
+				Tooltip: ""
+			}
+			ForceModifier: {
+				Label: "修飾子を強制"
+				Tooltip: ""
+			}
+			ModifierEnum: {
+				Label: "強制する修飾子"
+				Tooltip: ""
+			}
+			NPCBlacklist: {
+				Label: "NPCブラックリスト"
+				Tooltip: "ここにいるNPCは決して修飾子を受け取らない"
+			}
+			ModifierBlacklist: {
+				Label: "修飾子ブラックリスト"
+				Tooltip: "これらの修飾子は出現しない"
+				Enabled: {
+					Tooltip: "やあ"
+				}
+			}
+			ModifierAmount: {
+				Label: "可能な修飾子の最大数"
+				Tooltip: ""
+			}
+			ChanceForExtraModifier: {
+				Label: "追加修飾子の確率 (%)"
+				Tooltip: ""
+			}
+			AnnouncementsForever: {
+				Label: "アナウンスを永続"
+				Tooltip: "修飾子名は常に敵の上に表示される"
+			}
+			Headers: {
+				ModifierConfiguration: "修飾子の設定"
+				Blacklists: "ブラックリスト"
+				ModifierToggleHeader: "修飾子の切り替え"
+				Rarity1Header: "コモン修飾子"
+				Rarity2Header: "アンコモン修飾子"
+				Rarity3Header: "レア修飾子"
+				Rarity4Header: "スーパーレア修飾子"
+			}
+			ModifierToggles: {
+				Label: "修飾子の切り替え"
+				Tooltip: ""
+			}
+			Armored: {
+				Label: "装甲"
+				Tooltip: "防御力が50%増加"
+			}
+			Blue: {
+				Label: "青"
+				Tooltip: "青色になる"
+			}
+			Green: {
+				Label: "緑"
+				Tooltip: "緑色になる"
+			}
+			Healthy: {
+				Label: "健康的"
+				Tooltip: "HPが50%増加"
+			}
+			Impenetrable: {
+				Label: "貫通不能"
+				Tooltip: "貫通する投射物がヒット時に破壊される"
+			}
+			Light: {
+				Label: "軽量"
+				Tooltip: "ノックバックが増加し、重力が減少する"
+			}
+			Menacing: {
+				Label: "脅威"
+				Tooltip: "ダメージが50%増加"
+			}
+			Orange: {
+				Label: "オレンジ"
+				Tooltip: "オレンジ色になる"
+			}
+			Purple: {
+				Label: "紫"
+				Tooltip: "紫色になる"
+			}
+			Rampaging: {
+				Label: "暴走"
+				Tooltip: "あなたに非常に高いノックバックを与える"
+			}
+			Red: {
+				Label: "赤"
+				Tooltip: "赤色になる"
+			}
+			Regenerating: {
+				Label: "再生"
+				Tooltip: "毎秒HPを2%再生する"
+			}
+			Slow: {
+				Label: "鈍足"
+				Tooltip: "速度が50%減少"
+			}
+			Sluggish: {
+				Label: "遅鈍"
+				Tooltip: "全ての行動を半分の速度で行う"
+			}
+			Splitting: {
+				Label: "分裂"
+				Tooltip: "死亡時に2～3体の小型版をスポーンさせる"
+			}
+			Swift: {
+				Label: "迅速"
+				Tooltip: "速度が50%増加"
+			}
+			Unrelenting: {
+				Label: "不屈"
+				Tooltip: "ノックバック無効を得る"
+			}
+			Wealthy: {
+				Label: "裕福"
+				Tooltip: "5倍多くのコインをドロップする"
+			}
+			Yellow: {
+				Label: "黄"
+				Tooltip: "黄色になる"
+			}
+			Stinky: {
+				Label: "臭い"
+				Tooltip: "臭くて、ヒット時に臭いを付与する ダメージが25%増加"
+			}
+			Shiny: {
+				Label: "光沢"
+				Tooltip: "暗闇で光り、松明をドロップする"
+			}
+			Lovestruck: {
+				Label: "恋煩い"
+				Tooltip: "ダメージが50%減少し、ハートのバーストをスポーンさせ、ドロップが2倍になる"
+			}
+			Poor: {
+				Label: "貧乏"
+				Tooltip: "ルートをドロップせず、移動速度が25%遅く、HPが25%少ない"
+			}
+			Pink: {
+				Label: "ピンク"
+				Tooltip: "ピンク色になる"
+			}
+			Big: {
+				Label: "大型"
+				Tooltip: "サイズとHPが25%増加、ダメージが20%増加、速度が10%減少"
+			}
+			Small: {
+				Label: "小型"
+				Tooltip: "サイズ、ダメージ、HPが25%減少 速度が20%増加"
+			}
+			Fishy: {
+				Label: "魚臭い"
+				Tooltip: "クエスト魚をドロップし、濡れている"
+			}
+			Accelerating: {
+				Label: "加速"
+				Tooltip: "通常速度の4倍まで速度が上昇 ヒット時にリセット"
+			}
+			Bloodthirsty: {
+				Label: "血に飢えた"
+				Tooltip: "あなたにヒットするたびにダメージが25%増加"
+			}
+			Bulletproof: {
+				Label: "防弾"
+				Tooltip: "遠距離ダメージに対して80%の耐性を得る"
+			}
+			Flaming: {
+				Label: "炎上"
+				Tooltip: "炎上状態でスポーンし、炎の軌跡を残し、速度が50%増加"
+			}
+			Fortifying: {
+				Label: "強化"
+				Tooltip: "他の敵に50%のダメージ耐性を与えるオーラを放つ"
+			}
+			Hexproof: {
+				Label: "呪文耐性"
+				Tooltip: "継続ダメージは効果がない"
+			}
+			Huge: {
+				Label: "巨大"
+				Tooltip: "HP、サイズ、ダメージが増加 速度が減少"
+			}
+			Infested: {
+				Label: "寄生"
+				Tooltip: "定期的に赤ちゃん蜘蛛をスポーンさせる"
+			}
+			Metallic: {
+				Label: "金属質"
+				Tooltip: "防御力が2倍になり、ノックバックが減少し、鉱石をドロップする"
+			}
+			Miniature: {
+				Label: "ミニチュア"
+				Tooltip: "HP、サイズ、ダメージが減少 速度が増加"
+			}
+			Possessed: {
+				Label: "憑依"
+				Tooltip: "通常のAIをゴーストAIに置き換える"
+			}
+			Rallying: {
+				Label: "鼓舞"
+				Tooltip: "他の敵のダメージと速度をバフするオーラを放つ"
+			}
+			Shielded: {
+				Label: "シールド"
+				Tooltip: "近接ダメージに対して80%の耐性を得る"
+			}
+			Stealthy: {
+				Label: "ステルス"
+				Tooltip: "ゆっくりとほぼ透明になり、ヒットすると完全に見えるようになる"
+			}
+			Vaccinated: {
+				Label: "ワクチン接種済み"
+				Tooltip: "全てのデバフに対して無効"
+			}
+			Vampiric: {
+				Label: "吸血"
+				Tooltip: "ダメージを与えるとHPを少量回復する"
+			}
+			Veiled: {
+				Label: "ベール"
+				Tooltip: "魔法と召喚ダメージに対して80%の耐性を得る"
+			}
+			Reflective: {
+				Label: "反射"
+				Tooltip: "時々投射物を反射する"
+			}
+			Volatile: {
+				Label: "揮発性"
+				Tooltip: "死亡時に爆発する"
+			}
+			Frenzied: {
+				Label: "狂乱"
+				Tooltip: "HPが低下するにつれてダメージと速度が増加"
+			}
+			Scary: {
+				Label: "怖い"
+				Tooltip: "混乱のオーラを持つ"
+			}
+			Sleepy: {
+				Label: "眠い"
+				Tooltip: "10秒間ダメージを受けないと眠りに落ちる"
+			}
+			Polite: {
+				Label: "礼儀正しい"
+				Tooltip: "最初に見るときと死ぬときに挨拶する"
+			}
+			Smoky: {
+				Label: "煙たい"
+				Tooltip: "煙を発生させる"
+			}
+			Chained: {
+				Label: "鎖付き"
+				Tooltip: "あなたに鎖で繋がれており、あなたの周りの半径から離れられない"
+			}
+			Devouring: {
+				Label: "貪食"
+				Tooltip: "HPが同等以下の敵を貪り食う"
+			}
+			Hyper: {
+				Label: "ハイパー"
+				Tooltip: "全ての行動を2倍の速度で行う"
+			}
+			Imaginery: {
+				Label: "想像上の"
+				Tooltip: "透明 接触すると存在しなくなる"
+			}
+			Juggernaut: {
+				Label: "ジャガーノート"
+				Tooltip: "ステータスが増加 ノックバック無効 遅鈍 ドロップが2倍になる"
+			}
+			Merchant: {
+				Label: "商人"
+				Tooltip: "友好的 ランダムな無料アイテムを1つ渡してから消える"
+			}
+			Showman: {
+				Label: "ショーマン"
+				Tooltip: "死亡時に煙と鳥に爆発する"
+			}
+			Solidifed: {
+				Label: "固化"
+				Tooltip: "タイルを通過できなくなる"
+			}
+			Undying: {
+				Label: "不死"
+				Tooltip: "死ぬ前に5秒間HP5で持ちこたえる"
+			}
+			Worm: {
+				Label: "ワーム"
+				Tooltip: "遅れてついてくるいくつかの体節と共にスポーンする"
+			}
+			Swarming: {
+				Label: "群れ"
+				Tooltip: "スポーン時に自身のコピーをいくつか伴ってスポーンする"
+			}
+			Aquarian: {
+				Label: "水棲"
+				Tooltip: "時々デュークダッシュをする"
+			}
+			Flucuating: {
+				Label: "変動"
+				Tooltip: "HP2倍 時間と共に大きくなったり小さくなったりする"
+			}
+			Skeletal: {
+				Label: "骨格"
+				Tooltip: "2つのスケルトンの手と共にスポーンする"
+			}
+			Disguised: {
+				Label: "変装"
+				Tooltip: "スプライトをブルースライムに変更する"
+			}
+			Shimmering: {
+				Label: "シマリング"
+				Tooltip: "見え隠れし、25%速く動き、ドロップが2倍になる"
+			}
+			Celebratory: {
+				Label: "祝賀"
+				Tooltip: "時々紙吹雪をスポーンさせる 死亡時に花火に爆発する"
+			}
+			Sticky: {
+				Label: "粘着"
+				Tooltip: "クモの巣の軌跡を残す"
+			}
+			Medic: {
+				Label: "衛生兵"
+				Tooltip: "半径内の他の全ての敵を回復する"
+			}
+			Sorcerous: {
+				Label: "魔術"
+				Tooltip: "時々プレイヤーに向かってカオスボールを撃つ"
+			}
+			Creepy: {
+				Label: "不気味"
+				Tooltip: "10体のクリーパーと共にスポーンする"
+			}
+			Shy: {
+				Label: "シャイ"
+				Tooltip: "見ている間は動きを止め、受けるダメージが大幅に減少する"
+			}
+			Dramatic: {
+				Label: "ドラマチック"
+				Tooltip: "独自のスポーンメッセージと討伐メッセージを持つ"
+			}
+			Buzzing: {
+				Label: "ブンブン"
+				Tooltip: "ダメージを受けるとハチを生成する"
+			}
+			Royal: {
+				Label: "ロイヤル"
+				Tooltip: "ステータスが増加 自身のミニバージョンをスポーンさせる"
+			}
+			Rainbow: {
+				Label: "虹"
+				Tooltip: "虹色で、ドロップが5倍になる"
+			}
+			Modifying: {
+				Label: "修正"
+				Tooltip: "許可された最大数まで10秒ごとに新しい修飾子を追加する"
+			}
+		}
+		EnemyModifiersClientConfig: {
+			DisplayName: "クライアント設定"
+			Headers: {
+				Announcements: "修飾子アナウンス"
+			}
+			announcementsEnabled: {
+				Label: "アナウンス有効"
+				Tooltip: "モブの頭上にどの修飾子を持っているかが表示される"
+			}
+			announcementsForever: {
+				Label: "アナウンスを永続"
+				Tooltip: "修飾子名はモブが死ぬまで表示される"
+			}
+			announcementsDuration: {
+				Label: "アナウンスの持続時間"
+				Tooltip: "修飾子はこの秒数間表示される"
+			}
+		}
+		ModifierPicker: {
+			Tooltip: ""
+			ModifierEnum: {
+				Label: "ブラックリストに入れる能力"
+				Tooltip: ""
+			}
+		}
+	}
+	Modifiers: {
+		Armored: {
+			DisplayName: "装甲"
+			Tooltip: "防御力が50%増加"
+		}
+		Blue: {
+			DisplayName: "青"
+			Tooltip: "青"
+		}
+		Green: {
+			DisplayName: "緑"
+			Tooltip: "緑"
+		}
+		Healthy: {
+			DisplayName: "健康的"
+			Tooltip: "HPが50%増加"
+		}
+		Impenetrable: {
+			DisplayName: "貫通不能"
+			Tooltip: "貫通する投射物がヒット時に破壊される"
+		}
+		Light: {
+			DisplayName: "軽量"
+			Tooltip: "ノックバックが増加し、重力が減少する"
+		}
+		Menacing: {
+			DisplayName: "脅威"
+			Tooltip: "ダメージが50%増加"
+		}
+		Orange: {
+			DisplayName: "オレンジ"
+			Tooltip: "オレンジ"
+		}
+		Purple: {
+			DisplayName: "紫"
+			Tooltip: "紫"
+		}
+		Rampaging: {
+			DisplayName: "暴走"
+			Tooltip: "あなたに非常に高いノックバックを与える"
+		}
+		Red: {
+			DisplayName: "赤"
+			Tooltip: "赤"
+		}
+		Regenerating: {
+			DisplayName: "再生"
+			Tooltip: "毎秒HPを2%再生する"
+		}
+		Slow: {
+			DisplayName: "鈍足"
+			Tooltip: "速度が50%減少"
+		}
+		Sluggish: {
+			DisplayName: "遅鈍"
+			Tooltip: "全ての行動を半分の速度で行う"
+		}
+		Splitting: {
+			DisplayName: "分裂"
+			Tooltip: "死亡時にステータスが減少した2～3体の小型版をスポーンさせる"
+		}
+		Swift: {
+			DisplayName: "迅速"
+			Tooltip: "速度が50%増加"
+		}
+		Unrelenting: {
+			DisplayName: "不屈"
+			Tooltip: "ノックバック無効を得る"
+		}
+		Wealthy: {
+			DisplayName: "裕福"
+			Tooltip: "5倍多くのコインをドロップする"
+		}
+		Yellow: {
+			DisplayName: "黄"
+			Tooltip: "黄"
+		}
+		Accelerating: {
+			DisplayName: "加速"
+			Tooltip: "通常速度の4倍まで常に速度が上昇 あなたがヒットするか、近接攻撃でヒットすると速度がリセットされる"
+		}
+		Bloodthirsty: {
+			DisplayName: "血に飢えた"
+			Tooltip: "あなたにヒットするたびにダメージが25%増加"
+		}
+		Bulletproof: {
+			DisplayName: "防弾"
+			Tooltip: "遠距離ダメージに対して80%の耐性を得る"
+		}
+		Flaming: {
+			DisplayName: "炎上"
+			Tooltip: "永続的な炎上デバフと共にスポーンし、ダメージを与える炎の軌跡を残し、速度が50%増加"
+		}
+		Fortifying: {
+			DisplayName: "強化"
+			Tooltip: "防御力が50%減少 他の敵に50%のダメージ耐性を与えるオーラを放つ"
+		}
+		Hexproof: {
+			DisplayName: "呪文耐性"
+			Tooltip: "継続ダメージは効果がない"
+		}
+		Huge: {
+			DisplayName: "巨大"
+			Tooltip: "サイズとダメージが40%増加、HPが50%増加、速度が25%減少"
+		}
+		Infested: {
+			DisplayName: "寄生"
+			Tooltip: "定期的に赤ちゃん蜘蛛をスポーンさせる"
+		}
+		Metallic: {
+			DisplayName: "金属質"
+			Tooltip: "防御力が増加し、ノックバックが減少し、鉱石をドロップする"
+		}
+		Miniature: {
+			DisplayName: "ミニチュア"
+			Tooltip: "サイズとHPが50%減少、ダメージが25%減少し、速度が50%増加"
+		}
+		Possessed: {
+			DisplayName: "憑依"
+			Tooltip: "通常のAIをゴーストAIに置き換える"
+		}
+		Rallying: {
+			DisplayName: "鼓舞"
+			Tooltip: "他の敵をバフするオーラを得る：+25%ダメージと+25%速度"
+		}
+		Shielded: {
+			DisplayName: "シールド"
+			Tooltip: "近接ダメージに対して80%の耐性を得る"
+		}
+		Stealthy: {
+			DisplayName: "ステルス"
+			Tooltip: "ゆっくりとほぼ透明になり、ヒットすると完全に見えるようになる"
+		}
+		Vaccinated: {
+			DisplayName: "ワクチン接種済み"
+			Tooltip: "全てのデバフに対して無効"
+		}
+		Vampiric: {
+			DisplayName: "吸血"
+			Tooltip: "ダメージを与えるとHPを少量回復する"
+		}
+		Veiled: {
+			DisplayName: "ベール"
+			Tooltip: "魔法と召喚ダメージに対して80%の耐性を得る"
+		}
+		Chained: {
+			DisplayName: "鎖付き"
+			Tooltip: "あなたに鎖で繋がれてスポーンし、あなたの周りの半径から離れられない"
+		}
+		Devouring: {
+			DisplayName: "貪食"
+			Tooltip: "HPが同等以下の敵を貪り食う そうすることで、自身を回復し、最大HPとダメージを得る"
+		}
+		Hyper: {
+			DisplayName: "ハイパー"
+			Tooltip: "全ての行動を2倍の速度で行う"
+		}
+		Imaginary: {
+			DisplayName: "想像上の"
+			Tooltip: "透明 どんな形であれ接触すると存在しなくなる"
+		}
+		Juggernaut: {
+			DisplayName: "ジャガーノート"
+			Tooltip: "サイズが60%増加 HPが250%増加 ダメージと防御力が50%増加 ノックバック無効だが、遅鈍が組み込まれている（行動が半分の速度になる） ドロップが2倍になる"
+		}
+		Merchant: {
+			DisplayName: "商人"
+			Tooltip: "通常のAIを町のNPCのAIに置き換える 旅の商人の現在のショップからランダムな無料アイテムを1つ渡してから消える"
+			Interaction: "誰にも言うなよ、これを持っていけ 俺のことは見なかったことにしろ…"
+			AllIGot: "お前にやれるのはこれだけだ…"
+		}
+		Rainbow: {
+			DisplayName: "虹"
+			Tooltip: "虹色で、HPが2倍、ドロップが10倍になる"
+		}
+		Showman: {
+			DisplayName: "ショーマン"
+			Tooltip: "死亡時に煙と鳥に爆発する"
+		}
+		Solidified: {
+			DisplayName: "固化"
+			Tooltip: "タイルを通過できなくなる"
+		}
+		Undying: {
+			DisplayName: "不死"
+			Tooltip: "死ぬ前に5秒間HP5で持ちこたえる"
+		}
+		Warping: {
+			DisplayName: "ワープ"
+			Tooltip: "HPが半分になると、あなたと場所を入れ替える"
+		}
+		Worm: {
+			DisplayName: "ワーム"
+			Tooltip: "遅れてついてくるいくつかの体節と共にスポーンする ノックバック無効と2倍のHPを得る"
+		}
+		WormBody: {
+			DisplayName: ""
+			Tooltip: ""
+		}
+		Swarming: {
+			DisplayName: "群れ"
+			Tooltip: "スポーン時に自身のコピーをいくつか伴ってスポーンする HP4倍、サイズ2倍"
+		}
+		Delirious: {
+			DisplayName: "せん妄"
+			Tooltip: "定期的にAIを変更し、そのたびに投射物を散布する"
+		}
+		Aquarian: {
+			DisplayName: "水棲"
+			Tooltip: "時々デュークダッシュをする"
+		}
+		Nested: {
+			DisplayName: "巣作り"
+			Tooltip: "HP200%、サイズ200%、移動速度60%、ノックバック無効、ダメージを受けると時々自身のミニバージョンをスポーンさせる"
+		}
+		Royal: {
+			DisplayName: "ロイヤル"
+			Tooltip: "HP200%、サイズ200%、移動速度60%、ノックバック無効、ダメージを受けると時々自身のミニバージョンをスポーンさせる"
+		}
+		Modifying: {
+			DisplayName: "修正"
+			Tooltip: "許可された最大数まで10秒ごとに新しい修飾子を追加する"
+		}
+		Reflective: {
+			DisplayName: "反射"
+			Tooltip: "15秒ごとに1.5秒間投射物を反射する そうするときは灰色に変わり、反応するのに0.5秒の猶予がある"
+		}
+		Fluctuating: {
+			DisplayName: "変動"
+			Tooltip: "HP2倍 時間と共に大きくなったり小さくなったりする 防御力とダメージはサイズによって変化する 最大2.5倍のダメージと防御力 最小0.25倍のダメージと防御力"
+		}
+		Shiny: {
+			DisplayName: "光沢"
+			Tooltip: "暗闇で光り、松明をドロップする"
+		}
+		Skeletal: {
+			DisplayName: "骨格"
+			Tooltip: "2つのスケルトンの手と共にスポーンする"
+		}
+		Volatile: {
+			DisplayName: "揮発性"
+			Tooltip: "死亡時に爆発する"
+		}
+		Disguised: {
+			DisplayName: "変装"
+			Tooltip: "スプライトをブルースライムに変更する"
+		}
+		Stinky: {
+			DisplayName: "臭い"
+			Tooltip: "臭くて、ヒット時に臭いを付与する ダメージが25%増加"
+		}
+		Lovestruck: {
+			DisplayName: "恋煩い"
+			Tooltip: "ダメージが50%減少し、ヒット時と死亡時にハートのバーストをスポーンさせる ドロップが2倍になる"
+		}
+		Poor: {
+			DisplayName: "貧乏"
+			Tooltip: "ルートをドロップせず、移動速度が25%遅く、HPが25%少ない"
+		}
+		Pink: {
+			DisplayName: "ピンク"
+			Tooltip: "ピンク色"
+		}
+		Frenzied: {
+			DisplayName: "狂乱"
+			Tooltip: "HPが低下するにつれてダメージと速度が最大2倍まで増加 HPが50%を下回ると赤くなる"
+		}
+		Shimmering: {
+			DisplayName: "シマリング"
+			Tooltip: "見え隠れし、25%速く動き、ドロップが2倍になる"
+		}
+		Big: {
+			DisplayName: "大型"
+			Tooltip: "サイズとHPが25%増加、ダメージが20%増加、速度が10%減少"
+		}
+		Small: {
+			DisplayName: "小型"
+			Tooltip: "サイズ、ダメージ、HPが25%減少 速度が20%増加"
+		}
+		Scary: {
+			DisplayName: "怖い"
+			Tooltip: "混乱のオーラを持つ"
+		}
+		Celebratory: {
+			DisplayName: "祝賀"
+			Tooltip: "時々紙吹雪をスポーンさせる 死亡時に花火に爆発する"
+		}
+		Sleepy: {
+			DisplayName: "眠い"
+			Tooltip: "10秒間ダメージを受けないと眠りに落ちる 眠っている間にヒットするとボーナスダメージを受け、目を覚ます"
+		}
+		Sticky: {
+			DisplayName: "粘着"
+			Tooltip: "クモの巣の軌跡を残す"
+		}
+		Medic: {
+			DisplayName: "衛生兵"
+			Tooltip: "半径内の他の全ての敵を回復する 回復量は再生と同等"
+		}
+		Sorcerous: {
+			DisplayName: "魔術"
+			Tooltip: "時々プレイヤーに向かってカオスボールを撃つ（ゴブリン後のみ）"
+		}
+		Creepy: {
+			DisplayName: "不気味"
+			Tooltip: "10体のクリーパーと共にスポーンする"
+		}
+		Shy: {
+			DisplayName: "シャイ"
+			Tooltip: "見ている間は動きを止め、受けるダメージが大幅に減少する"
+		}
+		Polite: {
+			DisplayName: "礼儀正しい"
+			Tooltip: "最初に見るときと死ぬときに挨拶する"
+		}
+		Fishy: {
+			DisplayName: "魚臭い"
+			Tooltip: "クエスト魚をドロップし、濡れている"
+		}
+		Smoky: {
+			DisplayName: "煙たい"
+			Tooltip: "煙を発生させる"
+		}
+		Dramatic: {
+			DisplayName: "ドラマチック"
+			Tooltip: "独自のスポーンメッセージと討伐メッセージを持つ ボス以外にのみ適用"
+		}
+		Buzzing: {
+			DisplayName: "ブンブン"
+			Tooltip: "ダメージを受けるとハチを生成する EoC後のみ出現"
+		}
+	}
+	Projectiles: {
+		Explosion: {
+			DisplayName: "爆発"
+		}
+	}
+}

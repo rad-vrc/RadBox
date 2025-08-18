@@ -1,0 +1,270 @@
+DamageClasses: {
+	PokerDamageClass: {
+		DisplayName: poker
+	}
+}
+
+Projectiles: {
+	GoldGhostProjectile: {
+		DisplayName: Ghost
+	}
+
+	GhostProjectile: {
+		DisplayName: Ghost
+	}
+
+	CheckeredCardProjectile: {
+		DisplayName: Checkered Card
+	}
+
+	YellowCardProjectile: {
+		DisplayName: Yellow Card
+	}
+
+	UndeadCardProjectile: {
+		DisplayName: Undead Card
+	}
+
+	SoggyCardProjectile: {
+		DisplayName: Soggy Card
+	}
+
+	RedCardProjectile: {
+		DisplayName: Red Card
+	}
+
+	MagicCardProjectile: {
+		DisplayName: Magic Card
+	}
+
+	GreenCardProjectile: {
+		DisplayName: Green Card
+	}
+
+	GhostCardProjectile: {
+		DisplayName: Ghost Card
+	}
+
+	GelCardProjectile: {
+		DisplayName: Gel Card
+	}
+
+	BlackCardProjectile: {
+		DisplayName: Black Card
+	}
+
+	AbandonedCardProjectile: {
+		DisplayName: Abandoned Card
+	}
+
+	BlueCardProjectile: {
+		DisplayName: Blue Card
+	}
+
+	CardProjectile: {
+		DisplayName: Card
+	}
+}
+
+Items: {
+	FoolsCap: {
+		SetBonus: 10% increased poker damage
+		Tooltip: Not just a fool, but the whole colosseum
+		DisplayName: Fools Cap
+	}
+
+	StencilJoker: {
+		Tooltip: 10% increased poker damage for each empty accessory slot
+		DisplayName: Stencil Joker
+	}
+
+	Rocket: {
+		Tooltip: Enemies drop more gold the more bosses defeated
+		DisplayName: Rocket
+	}
+
+	EightBall: {
+		Tooltip: 1 in 8 chance to apply a random buff when using poker weapons
+		DisplayName: 8 Ball
+	}
+
+	DNA: {
+		Tooltip: 25% chance to not consume cards
+		DisplayName: DNA
+	}
+
+	JollyJoker: {
+		Tooltip: Shoots an extra card out of your deck
+		DisplayName: Jolly Joker
+	}
+
+	Joker: {
+		Tooltip: 4% increased poker damage
+		DisplayName: Joker
+	}
+
+	DrollJoker: {
+		Tooltip: 10% increased poker damage if the card matches the deck type
+		DisplayName: Droll Joker
+	}
+
+	MagicDeck: {
+		Tooltip: ""
+		DisplayName: Magic Deck
+	}
+
+	GhostDeck: {
+		Tooltip: ""
+		DisplayName: Ghost Deck
+	}
+
+	DungeonDeck: {
+		Tooltip: ""
+		DisplayName: Dungeon Deck
+	}
+
+	CheckeredDeck: {
+		Tooltip: A combination of the red and black decks.
+		DisplayName: Checkered Deck
+	}
+
+	YellowDeck: {
+		Tooltip: ""
+		DisplayName: Yellow Deck
+	}
+
+	RedDeck: {
+		Tooltip: ""
+		DisplayName: Red Deck
+	}
+
+	LiberatedDeck: {
+		Tooltip: ""
+		DisplayName: Liberated Deck
+	}
+
+	GreenDeck: {
+		Tooltip: ""
+		DisplayName: Green Deck
+	}
+
+	ChromaticDeck: {
+		Tooltip: ""
+		DisplayName: Chromatic Deck
+	}
+
+	BoneDeck: {
+		Tooltip: ""
+		DisplayName: Bone Deck
+	}
+
+	BlackDeck: {
+		Tooltip: ""
+		DisplayName: Black Deck
+	}
+
+	AnaglyphDeck: {
+		Tooltip: Doubles the cards thrown.
+		DisplayName: Anaglyph Deck
+	}
+
+	AbandonedDeck: {
+		Tooltip: Even the ancients played poker!
+		DisplayName: Abandoned Deck
+	}
+
+	YellowCard: {
+		Tooltip: ""
+		DisplayName: Yellow Card
+	}
+
+	UndeadCard: {
+		Tooltip: ""
+		DisplayName: Undead Card
+	}
+
+	SoggyCard: {
+		Tooltip: ""
+		DisplayName: Soggy Card
+	}
+
+	RedCard: {
+		Tooltip: ""
+		DisplayName: Red Card
+	}
+
+	MagicCard: {
+		Tooltip: Star summoning cards.
+		DisplayName: Magic Card
+	}
+
+	GreenCard: {
+		Tooltip: ""
+		DisplayName: Green Card
+	}
+
+	GhostCard: {
+		Tooltip: Cards that go through walls.
+		DisplayName: Ghost Card
+	}
+
+	GelCard: {
+		Tooltip: Cards that bounce.
+		DisplayName: Gel Card
+	}
+
+	BlueCard: {
+		Tooltip: ""
+		DisplayName: Blue Card
+	}
+
+	BlackCard: {
+		Tooltip: ""
+		DisplayName: Black Card
+	}
+
+	AbandonedCard: {
+		Tooltip: ""
+		DisplayName: Abandoned Card
+	}
+
+	BlueDeck: {
+		Tooltip: ""
+		DisplayName: Blue Deck
+	}
+
+	BlankDeck: {
+		Tooltip: Uses cards as ammo.
+		DisplayName: Blank Deck
+	}
+
+	Card: {
+		Tooltip: Throw cards out of your deck!
+		DisplayName: Card
+	}
+}
+
+NPCs: {
+	Joker: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Joker
+		DeathMessage: The Joker has been Killed!
+	}
+}
+

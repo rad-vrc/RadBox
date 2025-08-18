@@ -1,0 +1,887 @@
+DescriptionTag: {
+	CraftedAt: 作成場所
+	NoSeeds: 種を落とさない
+	RareSeeds: 稀に種を落とす
+	LessSeeds: 種のドロップ率が低い
+	CraftedDemonAltar: デーモンアルターで作成
+	CraftedCrimsonAltar: クリムゾンアルターで作成
+}
+
+DescriptionInfo: {
+	WaterWarning: 水中でのみ成長
+	NightWarning: 夜間に最もよく成長
+	DayWarning: 日中に最もよく成長
+	HellWarning: 地獄内または周辺でのみ成長
+	HardmodeWarning: ハードモードでのみ成長
+	MoonlordWarning: ムーンロード撃破後にのみ成長
+	ItemInfo: "[c/858585:{長押し: ]shift[c/858585: はタグ、または ]ctrl[c/858585: は有効なタイル}]"
+	RecycleInfo: ドロップを*％の割合で受け取る
+	RecycleInfo2: 右クリックで全てリサイクル
+	RecycleButton: 種をリサイクル
+}
+
+Tiles: {
+	Recycler: {
+		MapEntry: リサイクラー
+	}
+
+	CopperPlant: {
+		MapEntry: 銅の植物
+	}
+
+	TinPlant: {
+		MapEntry: 錫の植物
+	}
+
+	IronPlant: {
+		MapEntry: 鉄の植物
+	}
+
+	LeadPlant: {
+		MapEntry: 鉛の植物
+	}
+
+	SilverPlant: {
+		MapEntry: 銀の植物
+	}
+
+	TungstenPlant: {
+		MapEntry: タングステンの植物
+	}
+
+	GoldPlant: {
+		MapEntry: 金の植物
+	}
+
+	PlatinumPlant: {
+		MapEntry: プラチナの植物
+	}
+
+	MeteoritePlant: {
+		MapEntry: 隕石の植物
+	}
+
+	DemonitePlant: {
+		MapEntry: デモナイトの植物
+	}
+
+	CrimtanePlant: {
+		MapEntry: クリムタンの植物
+	}
+
+	ObsidianPlant: {
+		MapEntry: 黒曜石の植物
+	}
+
+	HellstonePlant: {
+		MapEntry: ヘルストーンの植物
+	}
+
+	CobaltPlant: {
+		MapEntry: コバルトの植物
+	}
+
+	PalladiumPlant: {
+		MapEntry: パラジウムの植物
+	}
+
+	MythrilPlant: {
+		MapEntry: ミスリルの植物
+	}
+
+	OrichalcumPlant: {
+		MapEntry: オリハルコンの植物
+	}
+
+	AdamantitePlant: {
+		MapEntry: アダマンタイトの植物
+	}
+
+	TitaniumPlant: {
+		MapEntry: チタンの植物
+	}
+
+	ChlorophytePlant: {
+		MapEntry: クロロファイトの植物
+	}
+
+	LuminitePlant: {
+		MapEntry: ルミナイトの植物
+	}
+
+	AmethystPlant: {
+		MapEntry: アメジストの植物
+	}
+
+	TopazPlant: {
+		MapEntry: トパーズの植物
+	}
+
+	SapphirePlant: {
+		MapEntry: サファイアの植物
+	}
+
+	EmeraldPlant: {
+		MapEntry: エメラルドの植物
+	}
+
+	RubyPlant: {
+		MapEntry: ルビーの植物
+	}
+
+	DiamondPlant: {
+		MapEntry: ダイヤモンドの植物
+	}
+
+	AmberPlant: {
+		MapEntry: コハクの植物
+	}
+
+	FossilPlant: {
+		MapEntry: 化石の植物
+	}
+
+	CrystalPlant: {
+		MapEntry: クリスタルの植物
+	}
+
+	CursedFlamePlant: {
+		MapEntry: 呪われし炎の植物
+	}
+
+	StarPlant: {
+		MapEntry: 星の植物
+	}
+
+	BonePlant: {
+		MapEntry: 骨の植物
+	}
+
+	SoulofLightPlant: {
+		MapEntry: 光のソウルの植物
+	}
+
+	SoulofNightPlant: {
+		MapEntry: 闇のソウルの植物
+	}
+
+	SoulofFlightPlant: {
+		MapEntry: 翼のソウルの植物
+	}
+
+	SoulofMightPlant: {
+		MapEntry: 力のソウルの植物
+	}
+
+	SoulofSightPlant: {
+		MapEntry: 視覚のソウルの植物
+	}
+
+	SoulofFrightPlant: {
+		MapEntry: 恐怖のソウルの植物
+	}
+
+	ThoriumPlant: {
+		MapEntry: トリウムの植物
+	}
+
+	SmoothCoalPlant: {
+		MapEntry: なめらかな石炭の植物
+	}
+
+	OpalPlant: {
+		MapEntry: オパールの植物
+	}
+
+	LifeQuartzPlant: {
+		MapEntry: ライフクォーツの植物
+	}
+
+	AquaitePlant: {
+		MapEntry: アクアイトの植物
+	}
+
+	LodestonePlant: {
+		MapEntry: ロードストーンの植物
+	}
+
+	ValadiumPlant: {
+		MapEntry: ヴァラディウムの植物
+	}
+
+	IllumitePlant: {
+		MapEntry: イルマイトの植物
+	}
+
+	SeaPrismPlant: {
+		MapEntry: シープリズムの植物
+	}
+
+	AerialitePlant: {
+		MapEntry: エアリアライトの植物
+	}
+
+	VictoryShardPlant: {
+		MapEntry: ビクトリーシャードの植物
+	}
+
+	CharredPlant: {
+		MapEntry: チャードの植物
+	}
+
+	CryonicPlant: {
+		MapEntry: クリオニックの植物
+	}
+
+	HallowedPlant: {
+		MapEntry: 神聖の植物
+	}
+
+	PerennialPlant: {
+		MapEntry: パレニアルの植物
+	}
+
+	ScoriaPlant: {
+		MapEntry: スコリアの植物
+	}
+
+	AstralPlant: {
+		MapEntry: アストラルの植物
+	}
+
+	ChaosEssencePlant: {
+		MapEntry: 混沌のエッセンスの植物
+	}
+
+	EleumEssencePlant: {
+		MapEntry: エレウムのエッセンスの植物
+	}
+
+	SunlightEssencePlant: {
+		MapEntry: 陽光のエッセンスの植物
+	}
+
+	ExodiumClusterPlant: {
+		MapEntry: エグゾジウムクラスターの植物
+	}
+
+	UelibloomPlant: {
+		MapEntry: ウェリブルームの植物
+	}
+
+	AuricPlant: {
+		MapEntry: オーリックの植物
+	}
+
+	BlightPlant: {
+		MapEntry: ブライトの植物
+	}
+
+	CosmodiumPlant: {
+		MapEntry: コスモジウムの植物
+	}
+
+	CryotinePlant: {
+		MapEntry: クリオティンの植物
+	}
+
+	GelatinePlant: {
+		MapEntry: ゼラチンの植物
+	}
+
+	CosmorockPlant: {
+		MapEntry: コスモロックの植物
+	}
+
+	CerniumPlant: {
+		MapEntry: セルニウムの植物
+	}
+
+	FlariumPlant: {
+		MapEntry: フラリウムの植物
+	}
+
+	OblivionPlant: {
+		MapEntry: オブリビオンの植物
+	}
+
+	LapisPlant: {
+		MapEntry: ラピスの植物
+	}
+
+	EnchantedGranitePlant: {
+		MapEntry: 魔力を帯びた御影石の植物
+	}
+
+	AncientMarblePlant: {
+		MapEntry: 古代の大理石の植物
+	}
+
+	CryolitePlant: {
+		MapEntry: クリオライトの植物
+	}
+
+	SpiritPlant: {
+		MapEntry: スピリットの植物
+	}
+
+	FloranPlant: {
+		MapEntry: フローランの植物
+	}
+
+	PuriumPlant: {
+		MapEntry: ピュリウムの植物
+	}
+
+	DalantiniumPlant: {
+		MapEntry: ダランチニウムの植物
+	}
+
+	LythenPlant: {
+		MapEntry: ライセンの植物
+	}
+
+	AquamarinePlant: {
+		MapEntry: アクアマリンの植物
+	}
+
+	PalestonePlant: {
+		MapEntry: ペイルストーンの植物
+	}
+
+	MoonstonePlant: {
+		MapEntry: ムーンストーンの植物
+	}
+
+	VitricPlant: {
+		MapEntry: ヴィトリックの植物
+	}
+
+	AstroscrapPlant: {
+		MapEntry: アストロスクラップの植物
+	}
+
+	SaltPlant: {
+		MapEntry: 塩の植物
+	}
+
+	PepperPlant: {
+		MapEntry: コショウの植物
+	}
+
+	SeaSaltPlant: {
+		MapEntry: 海塩の植物
+	}
+
+	GrowCrystal: {
+		MapEntry: 成長クリスタル
+	}
+}
+
+Items: {
+	RecyclerItem: {
+		DisplayName: シードリサイクラー
+		Tooltip: 鉱石の種を資源に変換する
+	}
+
+	CopperSeeds: {
+		DisplayName: 銅の種
+		Tooltip: ""
+	}
+
+	TinSeeds: {
+		DisplayName: 錫の種
+		Tooltip: ""
+	}
+
+	IronSeeds: {
+		DisplayName: 鉄の種
+		Tooltip: ""
+	}
+
+	LeadSeeds: {
+		DisplayName: 鉛の種
+		Tooltip: ""
+	}
+
+	SilverSeeds: {
+		DisplayName: 銀の種
+		Tooltip: ""
+	}
+
+	TungstenSeeds: {
+		DisplayName: タングステンの種
+		Tooltip: ""
+	}
+
+	GoldSeeds: {
+		DisplayName: 金の種
+		Tooltip: ""
+	}
+
+	PlatinumSeeds: {
+		DisplayName: プラチナの種
+		Tooltip: ""
+	}
+
+	MeteoriteSeeds: {
+		DisplayName: 隕石の種
+		Tooltip: ""
+	}
+
+	DemoniteSeeds: {
+		DisplayName: デモナイトの種
+		Tooltip: ""
+	}
+
+	CrimtaneSeeds: {
+		DisplayName: クリムタンの種
+		Tooltip: ""
+	}
+
+	ObsidianSeeds: {
+		DisplayName: 黒曜石の種
+		Tooltip: ""
+	}
+
+	HellstoneSeeds: {
+		DisplayName: ヘルストーンの種
+		Tooltip: ""
+	}
+
+	CobaltSeeds: {
+		DisplayName: コバルトの種
+		Tooltip: ""
+	}
+
+	PalladiumSeeds: {
+		DisplayName: パラジウムの種
+		Tooltip: ""
+	}
+
+	MythrilSeeds: {
+		DisplayName: ミスリルの種
+		Tooltip: ""
+	}
+
+	OrichalcumSeeds: {
+		DisplayName: オリハルコンの種
+		Tooltip: ""
+	}
+
+	AdamantiteSeeds: {
+		DisplayName: アダマンタイトの種
+		Tooltip: ""
+	}
+
+	TitaniumSeeds: {
+		DisplayName: チタンの種
+		Tooltip: ""
+	}
+
+	ChlorophyteSeeds: {
+		DisplayName: クロロファイトの種
+		Tooltip: ""
+	}
+
+	LuminiteSeeds: {
+		DisplayName: ルミナイトの種
+		Tooltip: ""
+	}
+
+	AmethystSeeds: {
+		DisplayName: アメジストの種
+		Tooltip: ""
+	}
+
+	TopazSeeds: {
+		DisplayName: トパーズの種
+		Tooltip: ""
+	}
+
+	SapphireSeeds: {
+		DisplayName: サファイアの種
+		Tooltip: ""
+	}
+
+	EmeraldSeeds: {
+		DisplayName: エメラルドの種
+		Tooltip: ""
+	}
+
+	RubySeeds: {
+		DisplayName: ルビーの種
+		Tooltip: ""
+	}
+
+	DiamondSeeds: {
+		DisplayName: ダイヤモンドの種
+		Tooltip: ""
+	}
+
+	AmberSeeds: {
+		DisplayName: コハクの種
+		Tooltip: ""
+	}
+
+	FossilSeeds: {
+		DisplayName: 化石の種
+		Tooltip: ""
+	}
+
+	CrystalSeeds: {
+		DisplayName: クリスタルの種
+		Tooltip: ""
+	}
+
+	CursedFlameSeeds: {
+		DisplayName: 呪いの炎の種
+		Tooltip: ""
+	}
+
+	StarSeeds: {
+		DisplayName: 星の種
+		Tooltip: ""
+	}
+
+	BoneSeeds: {
+		DisplayName: 骨の種
+		Tooltip: ""
+	}
+
+	SoulofLightSeeds: {
+		DisplayName: 光のソウルの種
+		Tooltip: ""
+	}
+
+	SoulofNightSeeds: {
+		DisplayName: 闇のソウルの種
+		Tooltip: ""
+	}
+
+	SoulofFlightSeeds: {
+		DisplayName: 翼のソウルの種
+		Tooltip: ""
+	}
+
+	SoulofMightSeeds: {
+		DisplayName: 力のソウルの種
+		Tooltip: ""
+	}
+
+	SoulofSightSeeds: {
+		DisplayName: 視覚のソウルの種
+		Tooltip: ""
+	}
+
+	SoulofFrightSeeds: {
+		DisplayName: 恐怖のソウルの種
+		Tooltip: ""
+	}
+
+	ThoriumSeeds: {
+		DisplayName: トリウムの種
+		Tooltip: ""
+	}
+
+	SmoothCoalSeeds: {
+		DisplayName: なめらかな石炭の種
+		Tooltip: ""
+	}
+
+	OpalSeeds: {
+		DisplayName: オパールの種
+		Tooltip: ""
+	}
+
+	LifeQuartzSeeds: {
+		DisplayName: ライフクォーツの種
+		Tooltip: ""
+	}
+
+	AquaiteSeeds: {
+		DisplayName: アクアイトの種
+		Tooltip: ""
+	}
+
+	LodestoneSeeds: {
+		DisplayName: ロードストーンの種
+		Tooltip: ""
+	}
+
+	ValadiumSeeds: {
+		DisplayName: ヴァラディウムの種
+		Tooltip: ""
+	}
+
+	IllumiteSeeds: {
+		DisplayName: イルマイトの種
+		Tooltip: ""
+	}
+
+	SeaPrismSeeds: {
+		DisplayName: シープリズムの種
+		Tooltip: ""
+	}
+
+	AerialiteSeeds: {
+		DisplayName: エアリアライトの種
+		Tooltip: ""
+	}
+
+	VictoryShardSeeds: {
+		DisplayName: ビクトリーシャードの種
+		Tooltip: ""
+	}
+
+	CharredSeeds: {
+		DisplayName: チャードの種
+		Tooltip: ""
+	}
+
+	CryonicSeeds: {
+		DisplayName: クリオニックの種
+		Tooltip: ""
+	}
+
+	HallowedSeeds: {
+		DisplayName: 神聖の種
+		Tooltip: ""
+	}
+
+	PerennialSeeds: {
+		DisplayName: パレニアルの種
+		Tooltip: ""
+	}
+
+	ScoriaSeeds: {
+		DisplayName: スコリアの種
+		Tooltip: ""
+	}
+
+	AstralSeeds: {
+		DisplayName: アストラルの種
+		Tooltip: ""
+	}
+
+	ChaosEssenceSeeds: {
+		DisplayName: 混沌のエッセンスの種
+		Tooltip: ""
+	}
+
+	EleumEssenceSeeds: {
+		DisplayName: エレウムのエッセンスの種
+		Tooltip: ""
+	}
+
+	SunlightEssenceSeeds: {
+		DisplayName: 陽光のエッセンスの種
+		Tooltip: ""
+	}
+
+	ExodiumClusterSeeds: {
+		DisplayName: エグゾジウムクラスターの種
+		Tooltip: ""
+	}
+
+	UelibloomSeeds: {
+		DisplayName: ウェリブルームの種
+		Tooltip: ""
+	}
+
+	AuricSeeds: {
+		DisplayName: オーリックの種
+		Tooltip: ""
+	}
+
+	BlightSeeds: {
+		DisplayName: ブライトの種
+		Tooltip: ""
+	}
+
+	CosmodiumSeeds: {
+		DisplayName: コスモジウムの種
+		Tooltip: ""
+	}
+
+	CryotineSeeds: {
+		DisplayName: クリオティンの種
+		Tooltip: ""
+	}
+
+	GelatineSeeds: {
+		DisplayName: ゼラチンの種
+		Tooltip: ""
+	}
+
+	CosmorockSeeds: {
+		DisplayName: コスモロックの種
+		Tooltip: ""
+	}
+
+	CerniumSeeds: {
+		DisplayName: セルニウムの種
+		Tooltip: ""
+	}
+
+	FlariumSeeds: {
+		DisplayName: フラリウムの種
+		Tooltip: ""
+	}
+
+	OblivionSeeds: {
+		DisplayName: オブリビオンの種
+		Tooltip: ""
+	}
+
+	LapisSeeds: {
+		DisplayName: ラピスの種
+		Tooltip: ""
+	}
+
+	EnchantedGraniteSeeds: {
+		DisplayName: 魔力を帯びた御影石の種
+		Tooltip: ""
+	}
+
+	AncientMarbleSeeds: {
+		DisplayName: 古代の大理石の種
+		Tooltip: ""
+	}
+
+	CryoliteSeeds: {
+		DisplayName: クリオライトの種
+		Tooltip: ""
+	}
+
+	SpiritSeeds: {
+		DisplayName: スピリットの種
+		Tooltip: ""
+	}
+
+	FloranSeeds: {
+		DisplayName: フローランの種
+		Tooltip: ""
+	}
+
+	PuriumSeeds: {
+		DisplayName: ピュリウムの種
+		Tooltip: ""
+	}
+
+	DalantiniumSeeds: {
+		DisplayName: ダランチニウムの種
+		Tooltip: ""
+	}
+
+	LythenSeeds: {
+		DisplayName: ライセンの種
+		Tooltip: ""
+	}
+
+	AquamarineSeeds: {
+		DisplayName: アクアマリンの種
+		Tooltip: ""
+	}
+
+	PalestoneSeeds: {
+		DisplayName: ペイルストーンの種
+		Tooltip: ""
+	}
+
+	MoonstoneSeeds: {
+		DisplayName: ムーンストーンの種
+		Tooltip: ""
+	}
+
+	VitricSeeds: {
+		DisplayName: ヴィトリックの種
+		Tooltip: ""
+	}
+
+	AstroscrapSeeds: {
+		DisplayName: アストロスクラップの種
+		Tooltip: ""
+	}
+
+	SaltSeeds: {
+		DisplayName: 塩の種
+		Tooltip: ""
+	}
+
+	PepperSeeds: {
+		DisplayName: コショウの種
+		Tooltip: ""
+	}
+
+	SeaSaltSeeds: {
+		DisplayName: 海塩の種
+		Tooltip: ""
+	}
+
+	GrowCrystalItem: {
+		DisplayName: 成長クリスタル
+		Tooltip:
+			'''
+			5ブロック以内の植物の成長をわずかに加速
+			他の成長促進装置にも効果が及ぶが効果は減衰
+			'''
+	}
+}
+
+Configs: {
+	GeneralConfig: {
+		DisplayName: 一般設定
+
+		GrowthSpeedMultiplier: {
+			Label: 成長速度倍率
+			Tooltip: ""
+		}
+
+		ShowGrowthAcceledTiles: {
+			Label: 成長加速中のタイルを表示
+			Tooltip: 成長加速の影響を受けているタイルに粉塵エフェクトを表示
+		}
+	}
+
+	GrowthSpeed: {
+		Tooltip: ""
+
+		RealTime: {
+			Label: x0.1
+		}
+
+		VerySlow: {
+			Label: x0.25
+		}
+
+		Slow: {
+			Label: x0.5
+		}
+
+		Slowish: {
+			Label: x0.75
+		}
+
+		Normal: {
+			Label: x1
+		}
+
+		Quick: {
+			Label: x1.25
+		}
+
+		Fast: {
+			Label: x1.5
+		}
+
+		Faster: {
+			Label: x2
+		}
+
+		Rapid: {
+			Label: x3
+		}
+	}
+}
+

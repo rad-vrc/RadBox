@@ -1,0 +1,4352 @@
+DamageClasses: {
+	EngineerDamageClass: {
+		DisplayName: engineering damage
+	}
+}
+
+TownNPCMood: {
+	Elf: {
+		Content: I feel good right now, it's better than being trapped in a plant.
+		NoHome: As much as I love being outside, i wouldnt mind somewhere to stay.
+		LoveSpace: Nice, i needed space for myself after what happened!
+		FarFromHome: Where's my house? I don't want to be separate from it again...
+		DislikeCrowded: I would like more privacy...
+		HateCrowded: I can't stand the crowd, i'm agoraphobic!
+		LikeBiome: Ah, the jungle is perfect for me.
+		DislikeBiome: I don't like this place, where are the plants?
+		LikeNPC: I like {NPCName}, they remind me of my people!
+	}
+}
+
+Buffs: {
+	Assault: {
+		DisplayName: Assault
+		Description:
+			'''
+			Increased melee speed and damage reduction
+			Grants immunity to knockback
+			'''
+	}
+
+	Irradiated: {
+		DisplayName: Irradiated
+		Description: Losing life
+	}
+
+	MadnessFire: {
+		DisplayName: Madness Fire
+		Description: Losing life and decreased stats
+	}
+
+	MoonBlessing: {
+		DisplayName: Moon Blessing
+		Description: Increased life regen and movement speed
+	}
+
+	Reloading: {
+		DisplayName: Energy Reloading
+		Description: Cannot consume energy potions
+	}
+
+	ReloadingNuke: {
+		DisplayName: Reloading Nuke
+		Description: Cannot use Nukes
+	}
+
+	Underpowered: {
+		DisplayName: Underpowered
+		Description: 50% decreased drone shooting speed
+	}
+
+	DefenseMode: {
+		DisplayName: Defense Mode
+		Description:
+			'''
+			WARNING : LOW LIFE, DEFENSE MODE ACTIVATED !
+			+20 Defense
+			Life regen greatly increased
+			'''
+	}
+
+	AdamantiteDroneBuff: {
+		DisplayName: Adamantite Drone
+		Description: The Adamantite Drone will shoots your enemies
+	}
+
+	AndroidBuff: {
+		DisplayName: Android Goblin
+		Description: The Android Goblin will shoots your enemies
+	}
+
+	BlightPrinceBuff: {
+		DisplayName: Blight Prince
+		Description: The Blight Prince will shoots your enemies
+	}
+
+	BoneDroneBuff: {
+		DisplayName: Bone Drone
+		Description: The Bone Drone will shoot bones at your enemies
+	}
+
+	CentauriumAircraftBuff: {
+		DisplayName: Centaurium Aircraft
+		Description:
+			'''
+			The Centaurium Aircraft will annihilate your enemies
+			There can only be one
+			'''
+	}
+
+	CentauriumDroneBuff: {
+		DisplayName: Centaurium Drone
+		Description: The Centaurium Drone will shoots your enemies
+	}
+
+	ChlorophyteDroneBuff: {
+		DisplayName: Chlorophyte Drone
+		Description: The Chlorophyte Drone will shoots seeds
+	}
+
+	CobaltDragonBuff: {
+		DisplayName: Cobalt Dragon
+		Description: The Cobalt Dragon will shoots your enemies
+	}
+
+	CopperDroneBuff: {
+		DisplayName: Copper Drone
+		Description: The Copper Drone will shoots your enemies
+	}
+
+	CrimsonDroneBuff: {
+		DisplayName: Crimson Drone
+		Description: The Crimson Drone will steal the life of your enemies
+	}
+
+	CrimtaneDragonBuff: {
+		DisplayName: Crimtane Dragon
+		Description:
+			'''
+			The Crimtane Dragon will shoots your enemies
+			Killing an enemy with the ichor debuff will heals the player
+			'''
+	}
+
+	DemoniteDragonBuff: {
+		DisplayName: Demonite Dragon
+		Description:
+			'''
+			The Demonite Dragon will shoots your enemies
+			All drones and turrets does additional damages against cursed enemies, 5% per dragons
+			'''
+	}
+
+	EnergyDragonBuff: {
+		DisplayName: Energy Dragon
+		Description: The Energy Dragon will shoots your enemies
+	}
+
+	GlaciationProbeBuff: {
+		DisplayName: Kelvinite Probe
+		Description: The Kelvinite Probe will shoots your enemies
+	}
+
+	GoldenDroneBuff: {
+		DisplayName: Golden Drone
+		Description: The Golden Drone will shoots your enemies
+	}
+
+	HallowedDroneBuff: {
+		DisplayName: Hallowed Drone
+		Description: The Hallowed Drone will shoots your enemies
+	}
+
+	JungleDroneBuff: {
+		DisplayName: Jungle Drone
+		Description:
+			'''
+			The Jungle Drone will poison your enemies
+			Also provides poison immunity in the jungle
+			'''
+	}
+
+	MartianDroneBuff: {
+		DisplayName: Martian Drone
+		Description: The Martian Drone will disintegrates your enemies
+	}
+
+	MeteorProbeBuff: {
+		DisplayName: Meteor Probe
+		Description:
+			'''
+			The Meteor Probe will shoots your enemies
+			Immunity to fall damage
+			'''
+	}
+
+	OniDroneBuff: {
+		DisplayName: Oni Drone
+		Description: The Oni Drone will burn your enemies
+	}
+
+	PalladiumDragonBuff: {
+		DisplayName: Palladium Dragon
+		Description: The Palladium Dragon will shoots your enemies
+	}
+
+	PlatinumDroneBuff: {
+		DisplayName: Platinum Drone
+		Description: The Platinum Drone will shoots your enemies
+	}
+
+	ShadowDroneBuff: {
+		DisplayName: Shadow Drone
+		Description: The Shadow Drone will shoots your enemies
+	}
+
+	SteampunkDroneBuff: {
+		DisplayName: Steampunk Drone
+		Description: The Steampunk Drone will shoots your enemies
+	}
+
+	TinDroneBuff: {
+		DisplayName: Tin Drone
+		Description: The Tin Drone will slice your enemies
+	}
+
+	TitaniumDroneBuff: {
+		DisplayName: Titanium Drone
+		Description: The Titanium Drone will protect you
+	}
+
+	WaspDroneBuff: {
+		DisplayName: Wasp Drone
+		Description: The Wasp Drone will shoots your enemies
+	}
+
+	WoodenDroneBuff: {
+		DisplayName: Wooden Drone
+		Description: The Wooden Drone will shoots your enemies
+	}
+
+	EnergyRegenBoost1: {
+		DisplayName: Energy Regen Boost I
+		Description: Adds +3 energy per second
+	}
+
+	EnergyRegenBoost2: {
+		DisplayName: Energy Regen Boost II
+		Description: Adds +5 energy per second
+	}
+
+	EnergyRegenBoost3: {
+		DisplayName: Energy Regen Boost III
+		Description: Adds +6 energy per second
+	}
+
+	EnergyRegenBoost4: {
+		DisplayName: Energy Regen Boost IV
+		Description: Adds +8 energy per second
+	}
+
+	EnergyRegeneration: {
+		DisplayName: Energy Regeneration
+		Description: Adds +1 energy per second for every 50 max energy
+	}
+
+	CentauriumReactor: {
+		DisplayName: Centaurium Reactor
+		Description: Adds +2 energy/s everywhere
+	}
+
+	ChlorophyteSolarPanel: {
+		DisplayName: Chlorophyte Solar Panel
+		Description:
+			'''
+			Only works at the surface and during day or in the underground jungle
+			Adds +1 energy/s at the surface and underground jungle
+			Adds +2 energy/s in the sky, jungle, at the beach and in desert without sandstorm
+			'''
+	}
+
+	GeothermalReactor: {
+		DisplayName: Geothermal Reactor
+		Description:
+			'''
+			Adds +1 energy/s in the underground, except in tundra
+			Adds +2 energy/s in the underworld
+			'''
+	}
+
+	SolarPanel: {
+		DisplayName: Solar Panel
+		Description:
+			'''
+			Only works at the surface and during day
+			Adds +1 energy/s at the surface
+			Adds +2 energy/s in the sky, at the beach and in desert without sandstorm
+			'''
+	}
+
+	ThermiteReactor: {
+		DisplayName: Thermite Reactor
+		Description:
+			'''
+			Adds +1 energy/s in the underground and tundra
+			Adds +2 energy/s in the underground tundra
+			Adds +3 energy/s in the underworld
+			'''
+	}
+
+	WindTurbine: {
+		DisplayName: Wind Turbine
+		Description:
+			'''
+			Only works at the surface
+			Adds +1 energy/s at the surface
+			Adds +2 energy/s at the beach, in the sky, in sandstorm and during windy days
+			'''
+	}
+
+	CursedSpiritBuff: {
+		DisplayName: Will-o'-Wisp
+		Description: The Will-o'-Wisp will fight for you
+	}
+
+	ElectricJellyfishBuff: {
+		DisplayName: Jellyfish
+		Description: The Jellyfish will fight for you
+	}
+
+	LithiumCloudBuff: {
+		DisplayName: Lithium Cloud
+		Description: The Lithium Cloud will fight for you
+	}
+
+	ShadowDaggerBuff: {
+		DisplayName: Shadow Dagger
+		Description: The Shadow Dagger will fight for you
+	}
+
+	Overpowered: {
+		DisplayName: Overpowered
+		Description: +25 max energy, doubled effects in hardmode
+	}
+
+	AtlantiumTurretBuff: {
+		DisplayName: Atlantium Turret
+		Description: The Atlantium Turret will shoots your enemies
+	}
+
+	CursedTurretBuff: {
+		DisplayName: Cursed Turret
+		Description: The Cursed Turret will shoots your enemies
+	}
+
+	InfernoRingBuff: {
+		DisplayName: Inferno Ring
+		Description: The Inferno Ring will shoots your enemies
+	}
+
+	IrradiationTowerBuff: {
+		DisplayName: Irradiation Tower
+		Description: The Irradiation Tower will disintegrates your enemies
+	}
+
+	LithiumTeslaBuff: {
+		DisplayName: Lithium Tesla
+		Description:
+			'''
+			The lithium tesla will electrocute your enemies
+			Killing an enemy with any drones/turret will recover energy
+			'''
+	}
+
+	MartianTeslaBuff: {
+		DisplayName: Martian Tesla
+		Description:
+			'''
+			The Martian Tesla will electrocute your enemies
+			Killing an enemy with any drones/turret will recover energy
+			'''
+	}
+
+	MoltenTackShooterBuff: {
+		DisplayName: Molten Tack Shooter
+		Description: The Molten Tack Shooter will shoots your enemies
+	}
+
+	MythrilTurretBuff: {
+		DisplayName: Mythril Turret
+		Description: The Mythril Turret will help allies
+	}
+
+	OrichalcumTurretBuff: {
+		DisplayName: Orichalcum Turret
+		Description: The Orichalcum Turret will shoots petals from the sky and assist allies
+	}
+
+	ShroomiteTurretBuff: {
+		DisplayName: Shroomite Turret
+		Description: The Shroomite Turret will shoots your enemies
+	}
+
+	SpikyBallDropperBuff: {
+		DisplayName: Spiky Ball Dropper
+		Description: The Spiky Ball Dropper will pose traps
+	}
+
+	TackShooterBuff: {
+		DisplayName: Tack Shooter
+		Description: The Tack Shooter will shoots your enemies
+	}
+
+	ThermiteDagger: {
+		DisplayName: Thermite Dagger
+		Description: Mods.Edorbis.Buffs.ThermiteDagger.Description
+	}
+
+	ThermiteOniBuff: {
+		DisplayName: Thermite Oni Buff
+		Description: The Thermite Oni will destroy your enemies
+	}
+
+	ThermalDisengagement: {
+		DisplayName: Thermal Disengagement
+		Description: Increases most defensive stats
+	}
+
+	ArmorSetCooldown: {
+		DisplayName: Armor Set Cooldown
+		Description: Cannot use an armor set ability
+	}
+
+	BomberBlobBuff: {
+		DisplayName: Bomber Blob
+		Description: The Bomber Blob will fight for you
+	}
+
+	LihzahrdDroneBuff: {
+		DisplayName: Lihzahrd Drone
+		Description: The Lihzahrd Drone will destroy your enemies
+	}
+}
+
+Items: {
+	BandOfSummoning: {
+		DisplayName: Band of Summoning
+		Tooltip: +1 Sentry capacity
+	}
+
+	CentaurianWings: {
+		DisplayName: Centaurium Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	CentauriumNecklace: {
+		DisplayName: Centaurium Necklace
+		Tooltip: Immunity to Irradiated
+	}
+
+	CursedStone: {
+		DisplayName: Cursed Stone
+		Tooltip:
+			'''
+			Inflicts cursedflame on attack
+			Immunity to Cursed Inferno
+			'''
+	}
+
+	DubiousDetonator: {
+		DisplayName: Dubious Detonator
+		Tooltip:
+			'''
+			Makes your drones and turrets explodes on destruction
+			Damages and size of the explosion will depend of the drone/turret dps
+			Drones/turrets that shoot piercing projectiles will greatly increases the explosion radius
+			'''
+	}
+
+	DummySoul: {
+		DisplayName: Dummy Soul
+		Tooltip: + 10000 HP
+	}
+
+	EnergyReceptor: {
+		DisplayName: Energy Receptor
+		Tooltip:
+			'''
+			Allows you to collect energy from generators
+			+5 max energy
+			'''
+	}
+
+	EngineerEmblem: {
+		DisplayName: Engineer Emblem
+		Tooltip: 15% increased engineering damage
+	}
+
+	EngineerGoggles: {
+		DisplayName: Engineer Goggles
+		Tooltip:
+			'''
+			5% increased engineering damage
+			5% increased drone shooting speed
+			'''
+	}
+
+	BlightReactor: {
+		DisplayName: Blight Reactor
+		Tooltip:
+			'''
+			Hitting an enemy has 20% chance to create a burning wave
+			The wave inflict 50% of the initial damages
+			Inflict hellfire in Hardmode
+			'''
+	}
+
+	CursedCloak: {
+		DisplayName: Cursed Cloak
+		Tooltip:
+			'''
+			Greatly boost life regen during invincibility frames
+			Immunity to Cursed Inferno
+			Inflict cursed inferno to attackers
+			'''
+	}
+
+	GauntletofCthulhu: {
+		DisplayName: Gauntlet of Cthulhu
+		Tooltip:
+			'''
+			Give you 2HP/s, not affected by health regen
+			10% increased damage at full life
+			'''
+	}
+
+	GlaciationFang: {
+		DisplayName: Glaciation's Fang
+		Tooltip:
+			'''
+			Increases armor penetration by 10
+			Attackers also take the infliged damage, effects increased on bosses
+			Inflict frostburn to attackers
+			'''
+	}
+
+	JungleGem: {
+		DisplayName: Jungle Gem
+		Tooltip:
+			'''
+			Allows the player to dash vertically and leave spores
+			Double tap Up
+			'''
+	}
+
+	FrozenStone: {
+		DisplayName: Frozen Stone
+		Tooltip:
+			'''
+			Inflicts frostburn on attack
+			Immunity to frostburn
+			'''
+	}
+
+	KelviniteChiller: {
+		DisplayName: Kelvinite Chiller
+		Tooltip:
+			'''
+			+1 energy per second
+			+10 max energy
+			'''
+	}
+
+	LeatherQuiver: {
+		DisplayName: Leather Quiver
+		Tooltip:
+			'''
+			5% increased bow damage
+			20% chance to not consume ammo
+			'''
+	}
+
+	MasterEngineerEmblem: {
+		DisplayName: Master-Engineer Emblem
+		Tooltip:
+			'''
+			12% increased engineering damage
+			10% increased drone shooting speed
+			+1 energy per second
+			+15 max energy
+			'''
+	}
+
+	OmnifireStone: {
+		DisplayName: Omnifire Stone
+		Tooltip:
+			'''
+			Inflicts all types of fire on attack
+			Immunity to fire debuffs
+			'''
+	}
+
+	PortableBattery: {
+		DisplayName: Portable Battery
+		Tooltip: +5 max energy
+	}
+
+	ShadowStone: {
+		DisplayName: Shadow Stone
+		Tooltip:
+			'''
+			Inflicts shadowflame on attack
+			Immunity to shadowflame
+			'''
+	}
+
+	ShadowTotem: {
+		DisplayName: Nightwood Doll
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Decreases minion damage by 20%
+			'Quantity over quality'
+			'''
+	}
+
+	TurretPendant: {
+		DisplayName: Turret Pendant
+		Tooltip:
+			'''
+			8% increased engineering damage
+			10% increased drone shooting speed
+			Further increases drone shooting speed by 25% when the player don't move
+			'''
+	}
+
+	FatcatTail: {
+		DisplayName: FatCat's Tail
+		Tooltip: ""
+	}
+
+	AndroidBreastplate: {
+		DisplayName: Android Breastplate
+		Tooltip:
+			'''
+			4% increased engineering damage
+			+5 max energy
+			Grants immunity to knockback
+			'''
+	}
+
+	AndroidGreaves: {
+		DisplayName: Android Greaves
+		Tooltip:
+			'''
+			3% increased engineering damage
+			5% increased drone shooting speed
+			'''
+	}
+
+	AndroidHelmet: {
+		DisplayName: Android Helmet
+		Tooltip:
+			'''
+			3% increased engineering damage
+			5% increased drone shooting speed
+			+1 energy per second
+			Increases night vision
+			'''
+	}
+
+	AtlantiumBreastplate: {
+		DisplayName: Atlantium Breastplate
+		Tooltip:
+			'''
+			6% increased damage
+			3% increased critical damage 
+			'''
+	}
+
+	AtlantiumEngineerHelmet: {
+		DisplayName: Atlantium Engineer Helmet
+		Tooltip:
+			'''
+			5% increased engineering damage
+			10% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	AtlantiumGreaves: {
+		DisplayName: Atlantium Greaves
+		Tooltip: 4% increased damage
+	}
+
+	AtlantiumHemomancerMask: {
+		DisplayName: Atlantium Hemomancer Mask
+		Tooltip:
+			'''
+			Increases maximum life by 50
+			Increases life regen by 2
+			'''
+	}
+
+	AtlantiumMageHood: {
+		DisplayName: Atlantium Mage Hood
+		Tooltip:
+			'''
+			5% increased magic damage
+			5% increased magic critical damage
+			Increases maximum mana by 60
+			'''
+	}
+
+	AtlantiumRangerHelmet: {
+		DisplayName: Atlantium Ranger Helmet
+		Tooltip:
+			'''
+			5% increased ranged damage
+			8% increased ranged critical damage
+			'''
+	}
+
+	AtlantiumSummonerCrown: {
+		DisplayName: Atlantium Summoner Crown
+		Tooltip:
+			'''
+			Increases minion damage by 12%
+			Increases your max number of minions by 2
+			'''
+	}
+
+	AtlantiumWarriorHelmet: {
+		DisplayName: Atlantium Warrior Helmet
+		Tooltip:
+			'''
+			5% increased melee damage
+			5% increased melee critical damage
+			5% increased melee speed
+			'''
+	}
+
+	CentauriumBreastplate: {
+		DisplayName: Centaurium Breastplate
+		Tooltip:
+			'''
+			20% increased engineering damage
+			5% increased drone shooting speed
+			+50 max energy
+			+3 energy per second
+			'''
+	}
+
+	CentauriumGreaves: {
+		DisplayName: Centaurium Greaves
+		Tooltip:
+			'''
+			12% increased engineering damage
+			10% increased drone shooting speed
+			+3 energy per second
+			10% increased movement speed
+			'''
+	}
+
+	CentauriumHelmet: {
+		DisplayName: Centaurium Helmet
+		Tooltip:
+			'''
+			8% increased engineering damage
+			15% increased drone shooting speed
+			+4 energy per second
+			'''
+	}
+
+	ChaosBreastplate: {
+		DisplayName: Chaos Breastplate
+		Tooltip:
+			'''
+			10% increased melee and magic damage
+			Increases maximum mana by 60
+			'''
+	}
+
+	ChaosGreaves: {
+		DisplayName: Chaos Greaves
+		Tooltip:
+			'''
+			5% increased melee and magic damage
+			5% increased melee and magic critical damage
+			5% increased movement speed
+			'''
+	}
+
+	ChaosHelmet: {
+		DisplayName: Chaos Helmet
+		Tooltip:
+			'''
+			7% increased melee and magic critical damage
+			20% increased melee speed
+			Reduces mana usage by 15%
+			'''
+	}
+
+	DukeBreastplate: {
+		DisplayName: Duke Breastplate
+		Tooltip:
+			'''
+			10% increased ranged damage
+			8% increased ranged critical damage
+			20% chance to not consume ammo
+			'''
+	}
+
+	DukeGreaves: {
+		DisplayName: Duke Greaves
+		Tooltip:
+			'''
+			5% increased ranged damage
+			8% increased ranged critical damage
+			25% increased movement speed
+			'''
+	}
+
+	DukeHelmet: {
+		DisplayName: Duke Helmet
+		Tooltip:
+			'''
+			10% increased ranged damage
+			9% increased ranged critical damage
+			'''
+	}
+
+	GoblinBreastplate: {
+		DisplayName: Goblin Breastplate
+		Tooltip:
+			'''
+			5% increased melee and ranged damage
+			20% chance to not consume ammo
+			'''
+	}
+
+	GoblinGreaves: {
+		DisplayName: Goblin Greaves
+		Tooltip:
+			'''
+			5% increased melee and ranged damage
+			10% increased movement speed
+			'''
+	}
+
+	GoblinHelmet: {
+		DisplayName: Goblin Helmet
+		Tooltip:
+			'''
+			5% increased melee and ranged critical damage
+			10% increased melee speed
+			'''
+	}
+
+	AncientHallowedVisor: {
+		DisplayName: Ancient Hallowed Visor
+		Tooltip:
+			'''
+			10% increased engineering damage
+			15% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	HallowedVisor: {
+		DisplayName: Hallowed Visor
+		Tooltip:
+			'''
+			10% increased engineering damage
+			15% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	HunterCoat: {
+		DisplayName: Hunter Coat
+		Tooltip: 4% increased ranged damage
+	}
+
+	HunterHood: {
+		DisplayName: Hunter Hood
+		Tooltip: 3% increased ranged damage
+	}
+
+	HunterPants: {
+		DisplayName: Hunter Pants
+		Tooltip: 3% increased ranged damage
+	}
+
+	KelviniteBreastplate: {
+		DisplayName: Kelvinite Breastplate
+		Tooltip:
+			'''
+			5% increased engineering damage
+			+10 max energy
+			Grants immunity to frozen
+			'''
+	}
+
+	KelviniteGreaves: {
+		DisplayName: Kelvinite Greaves
+		Tooltip:
+			'''
+			5% increased engineering damage
+			5% increased drone shooting speed
+			+1 energy per second
+			Grants immunity to chilled
+			'''
+	}
+
+	KelviniteHelmet: {
+		DisplayName: Kelvinite Helmet
+		Tooltip:
+			'''
+			5% increased engineering damage
+			+1 energy per second
+			+10 max energy
+			Grants immunity to fire blocks
+			'''
+	}
+
+	KelviniteMask: {
+		DisplayName: Kelvinite Mask
+		Tooltip:
+			'''
+			10% increased engineering damage
+			10% increased drone shooting speed
+			+1 energy per second
+			Grants immunity to fire blocks
+			'''
+	}
+
+	MartianBreastplate: {
+		DisplayName: Martian Breastplate
+		Tooltip:
+			'''
+			15% increased engineering damage
+			5% increased drone shooting speed
+			+40 max energy
+			+3 energy per second
+			'''
+	}
+
+	MartianGreaves: {
+		DisplayName: Martian Greaves
+		Tooltip:
+			'''
+			12% increased engineering damage
+			10% increased drone shooting speed
+			+2 energy per second
+			8% increased movement speed
+			'''
+	}
+
+	MartianHelmet: {
+		DisplayName: Martian Helmet
+		Tooltip:
+			'''
+			8% increased engineering damage
+			12% increased drone shooting speed
+			+3 energy per second
+			'''
+	}
+
+	NeoCobaltBreastplate: {
+		DisplayName: Neo-Cobalt Breastplate
+		Tooltip:
+			'''
+			12% increased engineering damage
+			+25 max energy
+			+1 energy per second
+			'''
+	}
+
+	NeoCobaltGreaves: {
+		DisplayName: Neo-Cobalt Greaves
+		Tooltip:
+			'''
+			8% increased engineering damage
+			10% increased drone shooting speed
+			+1 energy per second
+			15% increased movement speed
+			'''
+	}
+
+	NeoCobaltHelmet: {
+		DisplayName: Neo-Cobalt Helmet
+		Tooltip:
+			'''
+			15% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	NeoPalladiumBreastplate: {
+		DisplayName: Neo-Palladium Breastplate
+		Tooltip:
+			'''
+			7% increased engineering damage
+			+30 max energy
+			+1 energy per second
+			'''
+	}
+
+	NeoPalladiumGreaves: {
+		DisplayName: Neo-Palladium Greaves
+		Tooltip:
+			'''
+			5% increased engineering damage
+			5% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	NeoPalladiumHelmet: {
+		DisplayName: Neo-Palladium Helmet
+		Tooltip:
+			'''
+			10% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	NightwoodBreastplate: {
+		DisplayName: Nightwood Breastplate
+		Tooltip: Increases minion damage by 4%
+	}
+
+	NightwoodGreaves: {
+		DisplayName: Nightwood Greaves
+		Tooltip: Increases minion damage by 3%
+	}
+
+	NightwoodHelmet: {
+		DisplayName: Nightwood Helmet
+		Tooltip: Increases minion damage by 3%
+	}
+
+	MasklessSteampunkHelmet: {
+		DisplayName: Maskless Steampunk Helmet
+		Tooltip:
+			'''
+			5% increased engineering damage
+			10% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	SteampunkBreastplate: {
+		DisplayName: Steampunk Breastplate
+		Tooltip:
+			'''
+			10% increased engineering damage
+			5% increased drone shooting speed
+			+35 max energy
+			+2 energy per second
+			'''
+	}
+
+	SteampunkGreaves: {
+		DisplayName: Steampunk Greaves
+		Tooltip:
+			'''
+			10% increased engineering damage
+			10% increased drone shooting speed
+			+2 energy per second
+			5% increased movement speed
+			'''
+	}
+
+	SteampunkHelmet: {
+		DisplayName: Steampunk Helmet
+		Tooltip:
+			'''
+			5% increased engineering damage
+			10% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	AnglerBag: {
+		DisplayName: Angler's Bag
+		Tooltip: Right Click to open
+	}
+
+	BlightKingBag: {
+		DisplayName: Treasure Bag (Blight King)
+		Tooltip: <right>で開く
+	}
+
+	CursedLordBag: {
+		DisplayName: Treasure Bag (Curse Preacher)
+		Tooltip: <right>で開く
+	}
+
+	GardenerBag: {
+		DisplayName: Treasure Bag (Gardener)
+		Tooltip: <right>で開く
+	}
+
+	GlaciationBag: {
+		DisplayName: Treasure Bag (Glaciation)
+		Tooltip: <right>で開く
+	}
+
+	HocBag: {
+		DisplayName: Treasure Bag (Hand of Cthulhu)
+		Tooltip: <right>で開く
+	}
+
+	BiomechanicalMatter: {
+		DisplayName: Biomechanical Matter
+		Tooltip: Summon The Blight King during the night
+	}
+
+	CursedSoul: {
+		DisplayName: Cursed Soul
+		Tooltip: Summon The Curse Preacher during the night
+	}
+
+	KelviniteRadar: {
+		DisplayName: Kelvinite Radar
+		Tooltip: Summon Glaciation in the snow biome
+	}
+
+	SlayerTrophy: {
+		DisplayName: Slayer's Trophy
+		Tooltip: It can attract a powerful sea warrior...
+	}
+
+	ThePrettiestFlower: {
+		DisplayName: The Prettiest Flower
+		Tooltip:
+			'''
+			Summons the Gardener in the jungle
+			'May make others plants jealous'
+			'''
+	}
+
+	AtlantiumBar: {
+		DisplayName: Atlantium Bar
+		Tooltip: ""
+	}
+
+	Battery: {
+		DisplayName: Battery
+		Tooltip: Used in engineering
+	}
+
+	BrokenDamocles: {
+		DisplayName: Broken Damocles
+		Tooltip: ""
+	}
+
+	CentauriumBar: {
+		DisplayName: Centaurium Cube
+		Tooltip: "'Highly radioactive'"
+	}
+
+	CentauriumBattery: {
+		DisplayName: Centaurium Battery
+		Tooltip: Used in engineering
+	}
+
+	CentauriumOre: {
+		DisplayName: Centaurium Ore
+		Tooltip: ""
+	}
+
+	ChlorophyteWire: {
+		DisplayName: Chlorophyte Wire
+		Tooltip: Used in engineering
+	}
+
+	DarkDust: {
+		DisplayName: Dark Dust
+		Tooltip: ""
+	}
+
+	DiscordShard: {
+		DisplayName: Discord Shard
+		Tooltip: ""
+	}
+
+	ElectrostaticSilk: {
+		DisplayName: Electrostatic Silk
+		Tooltip: ""
+	}
+
+	FishronScale: {
+		DisplayName: Fishron Scale
+		Tooltip: ""
+	}
+
+	GlaciationPlating: {
+		DisplayName: Glaciation Plating
+		Tooltip: "'Smooth and sturdy'"
+	}
+
+	HighTechSalvages: {
+		DisplayName: High-Tech Salvages
+		Tooltip: Used in engineering
+	}
+
+	KelviniteBar: {
+		DisplayName: Kelvinite Bar
+		Tooltip: "'Cold to the touch'"
+	}
+
+	KelviniteOre: {
+		DisplayName: Kelvinite Ore
+		Tooltip: Need extreme heat to be smelted
+	}
+
+	Lithium: {
+		DisplayName: Lithium
+		Tooltip: ""
+	}
+
+	MetalSalvages: {
+		DisplayName: Metal Salvages
+		Tooltip: Used in engineering
+	}
+
+	MetalWire: {
+		DisplayName: Metal Wire
+		Tooltip: Used in engineering
+	}
+
+	Nightwood: {
+		DisplayName: Nightwood
+		Tooltip: ""
+	}
+
+	SoulOfFight: {
+		DisplayName: Soul of Plight
+		Tooltip: "'The essence of threatening creatures'"
+	}
+
+	SteampunkAlloy: {
+		DisplayName: Steampunk Alloy
+		Tooltip: ""
+	}
+
+	ThermiteBar: {
+		DisplayName: Thermite Bar
+		Tooltip: "'Cold to the to... hot to the... what temperature is this thing anyway!?'"
+	}
+
+	AndroidGoblinBanner: {
+		DisplayName: Android Goblin Banner
+		Tooltip: Nearby players get a bonus against: Android Goblin
+	}
+
+	AnglerZombieBanner: {
+		DisplayName: Angler Zombie Banner
+		Tooltip: Nearby players get a bonus against: Angler Zombie
+	}
+
+	BloodNimbusBanner: {
+		DisplayName: Blood Nimbus Banner
+		Tooltip: Nearby players get a bonus against: Blood Nimbus
+	}
+
+	CentaurionBanner: {
+		DisplayName: Centaurion Banner
+		Tooltip: Nearby players get a bonus against: Centaurion
+	}
+
+	CentauriumCoreBanner: {
+		DisplayName: Centaurium Core Banner
+		Tooltip: Nearby players get a bonus against: Centaurium Core
+	}
+
+	DarkZombieBanner: {
+		DisplayName: Dark Zombie Banner
+		Tooltip: Nearby players get a bonus against: Dark Zombie
+	}
+
+	EngineerSkeletonBanner: {
+		DisplayName: Engineer Skeleton Banner
+		Tooltip: Nearby players get a bonus against: Engineer Skeleton
+	}
+
+	GoblinKnightBanner: {
+		DisplayName: Goblin Knight Banner
+		Tooltip: Nearby players get a bonus against: Goblin Knight
+	}
+
+	CentauriumReactor: {
+		DisplayName: Centaurium Reactor
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Adds +2 energy/s everywhere
+			'''
+	}
+
+	ChlorophyteSolarPanel: {
+		DisplayName: Chlorophyte Solar Panel
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Only works at the surface and during day or in the underground jungle
+			Adds +1 energy/s at the surface and underground jungle
+			Adds +2 energy/s in the sky, jungle, at the beach and in desert without sandstorm
+			'''
+	}
+
+	GeothermalReactor: {
+		DisplayName: Geothermal Reactor
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Adds +1 energy/s in the underground, except in tundra
+			Adds +2 energy/s in the underworld
+			'''
+	}
+
+	SolarPanel: {
+		DisplayName: Solar Panel
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Only works at the surface and during day
+			Adds +1 energy/s at the surface
+			Adds +2 energy/s in the sky, at the beach and in desert without sandstorm
+			'''
+	}
+
+	ThermiteReactor: {
+		DisplayName: Thermite Reactor
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Adds +1 energy/s in the underground and tundra
+			Adds +2 energy/s in the underground tundra
+			Adds +3 energy/s in the underworld
+			'''
+	}
+
+	WindTurbine: {
+		DisplayName: Wind Turbine
+		Tooltip:
+			'''
+			Requires an Energy Receptor to collect energy
+			Only works at the surface
+			Adds +1 energy/s at the surface
+			Adds +2 energy/s at the beach, in the sky, in sandstorm and during windy days
+			'''
+	}
+
+	NightwoodChair: {
+		DisplayName: Nightwood Chair
+		Tooltip: ""
+	}
+
+	NightwoodDoor: {
+		DisplayName: Nightwood Door
+		Tooltip: ""
+	}
+
+	NightwoodTable: {
+		DisplayName: Nightwood Table
+		Tooltip: ""
+	}
+
+	NightwoodWorkBench: {
+		DisplayName: Nightwood Work Bench
+		Tooltip: ""
+	}
+
+	BlightKingRelic: {
+		DisplayName: Blight King Relic
+		Tooltip: ""
+	}
+
+	CursePreacherRelic: {
+		DisplayName: Curse Preacher Relic
+		Tooltip: ""
+	}
+
+	GardenerRelic: {
+		DisplayName: Gardener Relic
+		Tooltip: ""
+	}
+
+	GlaciationRelic: {
+		DisplayName: Glaciation Relic
+		Tooltip: ""
+	}
+
+	HandofCthulhuRelic: {
+		DisplayName: Hand of Cthulhu Relic
+		Tooltip: ""
+	}
+
+	BlightKingTrophy: {
+		DisplayName: Blight King Trophy
+		Tooltip: ""
+	}
+
+	CursedLordTrophy: {
+		DisplayName: Curse Preacher Trophy
+		Tooltip: ""
+	}
+
+	GardenerTrophy: {
+		DisplayName: Gardener Trophy
+		Tooltip: ""
+	}
+
+	GlaciationTrophy: {
+		DisplayName: Glaciation Trophy
+		Tooltip: ""
+	}
+
+	HocTrophy: {
+		DisplayName: Hand of Cthulhu Trophy
+		Tooltip: ""
+	}
+
+	NightwoodPlatform: {
+		DisplayName: Nightwood Platform
+		Tooltip: ""
+	}
+
+	NightwoodWall: {
+		DisplayName: Nightwood Wall
+		Tooltip: ""
+	}
+
+	CapacityPotion: {
+		DisplayName: Capacity Potion
+		Tooltip:
+			'''
+			Adds 25 max energy in pre-hardmode
+			Adds 50 max energy in hardmode
+			'''
+	}
+
+	EnergyPotion: {
+		DisplayName: Energy Potion
+		Tooltip: Increases energy regen by 5 for 12s
+	}
+
+	EnergyRegenerationPotion: {
+		DisplayName: Energy Regeneration Potion
+		Tooltip: Gives you 1 energy per second for every 50 max energy you have
+	}
+
+	GreaterEnergyPotion: {
+		DisplayName: Greater Energy Potion
+		Tooltip: Increases energy regen by 6 for 15s
+	}
+
+	LesserEnergyPotion: {
+		DisplayName: Lesser Energy Potion
+		Tooltip: Increases energy regen by 3 for 10s
+	}
+
+	SuperEnergyPotion: {
+		DisplayName: Super Energy Potion
+		Tooltip: Increases energy regen by 8 for 20s
+	}
+
+	CentauriumHamaxe: {
+		DisplayName: Centaurium Hamaxe
+		Tooltip: ""
+	}
+
+	CentauriumPickaxe: {
+		DisplayName: Centaurium Pickaxe
+		Tooltip: ""
+	}
+
+	NightwoodHammer: {
+		DisplayName: Nightwood Hammer
+		Tooltip: ""
+	}
+
+	AncientEdiumBreastplate: {
+		DisplayName: Edium Breastplate
+		Tooltip: ""
+	}
+
+	AncientEdiumGreaves: {
+		DisplayName: Edium Greaves
+		Tooltip: ""
+	}
+
+	AncientEdiumHelmet: {
+		DisplayName: Edium Helmet
+		Tooltip: ""
+	}
+
+	BlueEngineerPants: {
+		DisplayName: Blue Engineer Pants
+		Tooltip: ""
+	}
+
+	BlueEngineerShirt: {
+		DisplayName: Blue Engineer Shirt
+		Tooltip: ""
+	}
+
+	RedEngineerPants: {
+		DisplayName: Red Engineer Pants
+		Tooltip: ""
+	}
+
+	RedEngineerShirt: {
+		DisplayName: Red Engineer Shirt
+		Tooltip: ""
+	}
+
+	FatcatMask: {
+		DisplayName: FatCat's Mask
+		Tooltip: ""
+	}
+
+	FatcatPants: {
+		DisplayName: FatCat's Pants
+		Tooltip: ""
+	}
+
+	FatcatShirt: {
+		DisplayName: FatCat's Shirt
+		Tooltip: ""
+	}
+
+	CyanFirefloyBreastplate: {
+		DisplayName: Cyan Firefloy's Breastplate
+		Tooltip: ""
+	}
+
+	CyanFirefloyGreaves: {
+		DisplayName: Cyan Firefloy's Greaves
+		Tooltip: ""
+	}
+
+	CyanFirefloyHelmet: {
+		DisplayName: Cyan Firefloy's Helmet
+		Tooltip: ""
+	}
+
+	FirefloyBreastplate: {
+		DisplayName: Firefloy's Breastplate
+		Tooltip: ""
+	}
+
+	FirefloyGreaves: {
+		DisplayName: Firefloy's Greaves
+		Tooltip: ""
+	}
+
+	FirefloyHelmet: {
+		DisplayName: Firefloy's Helmet
+		Tooltip: ""
+	}
+
+	BlightKingMask: {
+		DisplayName: Blight King Mask
+		Tooltip: ""
+	}
+
+	CursedLordMask: {
+		DisplayName: Curse Preacher Mask
+		Tooltip: ""
+	}
+
+	GardenerMask: {
+		DisplayName: Gardener Mask
+		Tooltip: ""
+	}
+
+	GlaciationMask: {
+		DisplayName: Glaciation Mask
+		Tooltip: ""
+	}
+
+	HocMask: {
+		DisplayName: Hand of Cthulhu Mask
+		Tooltip: ""
+	}
+
+	SquishenHelmet: {
+		DisplayName: Squishen's Helmet
+		Tooltip: ""
+	}
+
+	SquishenLeggings: {
+		DisplayName: Squishen's Leggings
+		Tooltip: ""
+	}
+
+	SquishenShirt: {
+		DisplayName: Squishen's Shirt
+		Tooltip: ""
+	}
+
+	AdamantiteWrench: {
+		DisplayName: Adamantite Wrench
+		Tooltip:
+			'''
+			Builds an Adamantite Drone that to shoots boomerangs
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Increased damage and velocity if the drone did not shoot during the last 3 seconds]
+			'''
+	}
+
+	AndroidWrench: {
+		DisplayName: Android Wrench
+		Tooltip:
+			'''
+			Builds an Android to shoots your enemies
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Drop spiky balls when wearing the android set]
+			'''
+	}
+
+	BlightWrench: {
+		DisplayName: Blight Wrench
+		Tooltip:
+			'''
+			Builds a Blight Prince to shoots your enemies
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Shoots a blight missile every 3 shots during the night]
+			'''
+	}
+
+	BoneWrench: {
+		DisplayName: Bone Wrench
+		Tooltip:
+			'''
+			Builds a Bone Drone to shoots piercing bone javelins at your enemies
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Shoots additional bones in the dungeon or if the lithium marker is used]
+			'''
+	}
+
+	CentauriumRemote: {
+		DisplayName: Centaurium Remote
+		Tooltip:
+			'''
+			Calls a Centaurium Aircraft to wipe your enemies out of reality
+			Cost 15 energy per second, only one aircraft can be active
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Can be used again to drop a nuke, 30 seconds of cooldown]
+			'''
+	}
+
+	CentauriumWrench: {
+		DisplayName: Centaurium Wrench
+		Tooltip:
+			'''
+			Builds a Centaurium Drone that shoots plasma orbs that explodes in multiple homing projectiles
+			Cost 5 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Shoots a big laser instead of 2 orbs if the Centaurium Marker is used]
+			'''
+	}
+
+	ChlorophyteWrench: {
+		DisplayName: Chlorophyte Wrench
+		Tooltip:
+			'''
+			Builds a Chlorophyte Drone that shoots seeds
+			Cost 4 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: The plants last 50% longer in the jungle]
+			'''
+	}
+
+	CobaltWrench: {
+		DisplayName: Cobalt Wrench
+		Tooltip:
+			'''
+			Builds a Cobalt Dragon that shoots bouncing rays
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: The projectiles shatters on destruction when wearing the Neo-Cobalt set]
+			'''
+	}
+
+	CopperWrench: {
+		DisplayName: Copper Wrench
+		Tooltip:
+			'''
+			Builds a Copper Drone that fires copper shot which shatters mid-air
+			Cost 1 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: When using the lithium marker,]
+			[c/00FF00:the projectile will shatters when close to the cursor position,]
+			[c/00FF00:also increases projectile lifetime and velocity]
+			'''
+	}
+
+	CrimsonWrench: {
+		DisplayName: Crimson Wrench
+		Tooltip:
+			'''
+			Builds a Crimson Drone to steal the life of your enemies
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: 50% increased damage when under 100 HP]
+			'''
+	}
+
+	CursedWrench: {
+		DisplayName: Cursed Wrench
+		Tooltip:
+			'''
+			Builds a Demonite Dragon that shoots cursed bullets
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: All drones and turrets does additional damages against cursed enemies, 5% per dragons]
+			'''
+	}
+
+	DemoniteWrench: {
+		DisplayName: Demonite Wrench
+		Tooltip:
+			'''
+			Builds a Shadow Drone to shoots your enemies
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Increased damages and movement speed in the corruption]
+			'''
+	}
+
+	EnergyWrench: {
+		DisplayName: Energy Wrench
+		Tooltip:
+			'''
+			Builds a Energy Dragon that shoots piercing rays
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Each extra energy incomes increases damage by 10% and pierce by 1]
+			'''
+	}
+
+	GoldWrench: {
+		DisplayName: Gold Wrench
+		Tooltip:
+			'''
+			Builds a Golden Drone equipped with a repeating crossbow that can hold 5 bolts
+			Bolts will reload over time
+			If all bolts are used at once, the last one will be explosive
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Using a lithium marker will increase the reloading speed]
+			[c/00FF00:also prevents the drone from shooting unless it has 5 bolts loaded]
+			'''
+	}
+
+	HallowedWrench: {
+		DisplayName: Hallowed Wrench
+		Tooltip:
+			'''
+			Builds a Hallowed Drone to crush your enemies
+			Cost 4 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Also shoots Hallowed spikes from the drone when wearing the Hallowed set]
+			'''
+	}
+
+	IchorWrench: {
+		DisplayName: Ichor Wrench
+		Tooltip:
+			'''
+			Builds a Crimtane Dragon that shoots ichor nails
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Killing an enemy with the ichor debuff will heals the player]
+			'''
+	}
+
+	JungleWrench: {
+		DisplayName: Jungle Wrench
+		Tooltip:
+			'''
+			Builds a Jungle Drone to shoots poison thorns
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Shoots 2 additional thorns and provides poison immunity in the jungle.]
+			'''
+	}
+
+	KelviniteWrench: {
+		DisplayName: Kelvinite Wrench
+		Tooltip:
+			'''
+			Builds a Kelvinite Probe that shoot frostburn rays
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Add extra effects to probes when wearing the Kelvinite set, the effects depend of the helmet]
+			'''
+	}
+
+	MartianWrench: {
+		DisplayName: Martian Wrench
+		Tooltip:
+			'''
+			Builds a powerful Martian Drone to shoots your enemies
+			Cost 8 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Riding the Scutlix or the UFO mount will increases some of your stats]
+			'''
+	}
+
+	MeteorWrench: {
+		DisplayName: Meteor Wrench
+		Tooltip:
+			'''
+			Builds a Meteor Probe to shoot homing missiles at your enemies
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Increased projectile velocity in sky/space, immunity to fall damage and provides light]
+			'''
+	}
+
+	MoltenWrench: {
+		DisplayName: Molten Wrench
+		Tooltip:
+			'''
+			Builds an Oni Drone that shoots fire balls
+			Can also use its katana in attack mode
+			Cost 5 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Projectiles go through tiles in the underworld]
+			'''
+	}
+
+	PalladiumWrench: {
+		DisplayName: Palladium Wrench
+		Tooltip:
+			'''
+			Builds a Palladium Dragon that shoots rockets
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Places a mine each time the drone shoot when the player wear a Neo-Palladium Set]
+			'''
+	}
+
+	PlatinumWrench: {
+		DisplayName: Platinum Wrench
+		Tooltip:
+			'''
+			Builds a Platinum Drone that shoots a salve of bullets
+			When many enemies are present near the target, the drone will shoots an explosive pouch instead
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Spread of the bullets reduced and forces their use when using the lithium marker]
+			'''
+	}
+
+	SteampunkWrench: {
+		DisplayName: Steampunk Wrench
+		Tooltip:
+			'''
+			Builds a powerful Steampunk Drone to shoots your enemies
+			Cost 5 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Shoots a steam jet when wearing the steampunk set]
+			'''
+	}
+
+	TinWrench: {
+		DisplayName: Tin Wrench
+		Tooltip:
+			'''
+			Builds a Tin Drone equipped with a circular saw
+			Cost 1 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: The blade will heat up when using the lithium marker,]
+			[c/00FF00:this will increase armor penetration and put enemies on fire]
+			'''
+	}
+
+	TitaniumWrench: {
+		DisplayName: Titanium Wrench
+		Tooltip:
+			'''
+			Builds a Titanium Drone that shoots rotating blade
+			Cost 3 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: The blades can be shot with a lithium marker]
+			'''
+	}
+
+	WaspWrench: {
+		DisplayName: Wasp Wrench
+		Tooltip:
+			'''
+			Builds a Wasp Drone that shoots anti-aircraft missiles
+			Cost 2 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Deals extra damage to flying enemies]
+			'''
+	}
+
+	WoodenWrench: {
+		DisplayName: Wooden Wrench
+		Tooltip:
+			'''
+			Builds a Wooden Drone to shoots your enemies
+			Cost 1 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			[c/00FF00:Special ability: Adds additionals effects when a wood armor set is equipped]
+			[c/00FF00:Effects depend of the type of wood]
+			'Better than nothing I guess...'
+			'''
+	}
+
+	CentauriumMarker: {
+		DisplayName: Centaurium Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Drones attacks inflict irradiated on hits
+			All your centaurium related drones do 15% more damages
+			'''
+	}
+
+	CrimsonMarker: {
+		DisplayName: Crimson Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Heals the user by 2HP/s
+			'''
+	}
+
+	EngineerMarker: {
+		DisplayName: Engineer Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			'The era of technology has started...'
+			'''
+	}
+
+	GoblinMarker: {
+		DisplayName: Goblin Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Boosts attack speed by 10% while holding
+			'''
+	}
+
+	LithiumMarker: {
+		DisplayName: Lithium Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Triggers special ability for some drones
+			'''
+	}
+
+	OverclockMarker: {
+		DisplayName: Overclock Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Increases engineering damage and shooting speed by 50% at the cost of 8 energy/s
+			'''
+	}
+
+	ShadowMarker: {
+		DisplayName: Shadow Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			+1 energy per second while holding
+			'''
+	}
+
+	SpectreMarker: {
+		DisplayName: Spectre Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Keeps the target position in memory during 15 seconds
+			'''
+	}
+
+	SteampunkMarker: {
+		DisplayName: Steampunk Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Boosts attack speed by 15% while holding
+			'''
+	}
+
+	AtlantiumTurretBlueprint: {
+		DisplayName: Atlantium Turret Blueprint
+		Tooltip:
+			'''
+			Builds a Atlantium Turret to quickly shoot Atlantium shards at short range
+			Cost 4 energy per second and per turrets
+			[c/00FF00:Special ability: Shoot more shards if placed in water]
+			'''
+	}
+
+	CursedTurretBlueprint: {
+		DisplayName: Cursed Turret Blueprint
+		Tooltip:
+			'''
+			Builds a Cursed Turret to shoot cursed darts
+			Cost 3 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots an additional line of cursed fire every 3 shots if there is only one turret]
+			'''
+	}
+
+	InfernoRingBlueprint: {
+		DisplayName: Inferno Ring Blueprint
+		Tooltip:
+			'''
+			Builds an Inferno Ring to shoots Thermite fireballs on your enemies
+			Cost 3 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots another fireball at enemies if the player is close to a thermite reactor]
+			'''
+	}
+
+	IrradiationTowerBlueprint: {
+		DisplayName: Irradiation Tower Blueprint
+		Tooltip:
+			'''
+			Builds an Irradiation Tower that shoot deadly lasers
+			Cost 10 energy per second and per turrets
+			[c/00FF00:Special ability: The lasers shatters on impacts if the player is close to a centaurium reactor]
+			'''
+	}
+
+	LithiumTeslaBlueprint: {
+		DisplayName: Lithium Tesla Blueprint
+		Tooltip:
+			'''
+			Builds a Lithium Tesla to shoot electrics rails
+			Cost 2 energy per second and per turrets
+			[c/00FF00:Special ability: Killing an enemy with any drones/turret will recover energy]
+			'''
+	}
+
+	MartianTeslaBlueprint: {
+		DisplayName: Martian Tesla Blueprint
+		Tooltip:
+			'''
+			Builds a Martian Tesla to shoot electrics rails
+			Cost 4 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots additionals lighting bolts when wearing the martian armor]
+			[c/00FF00:Killing an enemy with any drones/turret will recover energy]
+			'''
+	}
+
+	MoltenTackShooterBlueprint: {
+		DisplayName: Molten Tack Shooter Blueprint
+		Tooltip:
+			'''
+			Builds a Molten Tack Shooter to shoot a volley of nails on your enemies
+			Cost 2 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots flames instead of nails if the player is near]
+			'''
+	}
+
+	MythrilTurretBlueprint: {
+		DisplayName: Mythril Turret Blueprint
+		Tooltip:
+			'''
+			Builds a Mythril Turret to damage up to 5 enemies in range
+			Cost 3 energy per second and per turrets
+			[c/00FF00:Special ability: Each turrets increases damages of players in range by 10%]
+			'''
+	}
+
+	OrichalcumTurretBlueprint: {
+		DisplayName: Orichalcum Turret Blueprint
+		Tooltip:
+			'''
+			Builds a Orichalcum Turret to shoot petals from the sky
+			Cost 3 energy per second and per turrets
+			[c/00FF00:Special ability: Each turrets increases defense and life regen of players in range]
+			'''
+	}
+
+	ShroomiteTurretBlueprint: {
+		DisplayName: Shroomite Turret Blueprint
+		Tooltip:
+			'''
+			Builds a Shroomite Turret to shoot powerful high-velocity metal shards
+			Cost 4 energy per second and per turrets
+			[c/00FF00:Special ability: Deals 50% more damages to flying enemies]
+			'''
+	}
+
+	SpikyBallDropperBlueprint: {
+		DisplayName: Spiky Ball Dropper Blueprint
+		Tooltip:
+			'''
+			Builds a Spiky Ball Dropper to pose traps
+			Cost 2 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots 50% faster if the player don't move]
+			'''
+	}
+
+	TackShooterBlueprint: {
+		DisplayName: Tack Shooter Blueprint
+		Tooltip:
+			'''
+			Builds a Tack Shooter to shoot a volley of nails on your enemies
+			Cost 1 energy per second and per turrets
+			[c/00FF00:Special ability: Shoots 33% faster if there is only one tack shooter]
+			'''
+	}
+
+	AtlanteanSpellTome: {
+		DisplayName: Atlantean Spell Tome
+		Tooltip: Casts a moving bolt of water
+	}
+
+	BlightCannon: {
+		DisplayName: Blight Cannon
+		Tooltip: Shoots 3 blights rays
+	}
+
+	BlightStaff: {
+		DisplayName: Blight Staff
+		Tooltip: Shoots blight rays from the sky
+	}
+
+	Camellia: {
+		DisplayName: Camellia
+		Tooltip: Throws an explosive thermite fireball
+	}
+
+	ChaosOrb: {
+		DisplayName: Chaos Orb
+		Tooltip: Casts a chaos orb that can go through tiles
+	}
+
+	CursedWind: {
+		DisplayName: Hamstring
+		Tooltip:
+			'''
+			Summon five rings at the cursor position
+			If the enemy touch the ring, the damage will be doubled
+			'''
+	}
+
+	HiveHand: {
+		DisplayName: Hornet Gun
+		Tooltip:
+			'''
+			Shoots alien hornets that will chase your enemy
+			Ignore immunity frames and can damages enemies 5 times
+			'''
+	}
+
+	IceDemonScythe: {
+		DisplayName: Ice Demon Scythe
+		Tooltip: Casts an ice scythe that slows down on hits
+	}
+
+	NecromancerBook: {
+		DisplayName: Necromancer Book
+		Tooltip: Summon shadowflame tentacles and skulls
+	}
+
+	SporeStaff: {
+		DisplayName: Spore Staff
+		Tooltip: Summon spores at the cursor position
+	}
+
+	TauCannon: {
+		DisplayName: Tau Cannon
+		Tooltip: Blasts your enemy with pure centaurium energy
+	}
+
+	ThunderSpell: {
+		DisplayName: Thunder Spell Tome
+		Tooltip:
+			'''
+			Rapidly casts thunderbolts
+			'Unlimited Power !'
+			'''
+	}
+
+	ThunderstormStaff: {
+		DisplayName: Thunderstorm Staff
+		Tooltip:
+			'''
+			Shoots a lighting bolt that can damage multiple enemies
+			Hitting an enemy has a chance to create a cloud
+			'''
+	}
+
+	VenomousSporeStaff: {
+		DisplayName: Venomous Spore Staff
+		Tooltip: Summon venomous spores at the cursor position
+	}
+
+	Croisserang: {
+		DisplayName: Croisserang
+		Tooltip: Heals the player by the amount of enemies hit once the boomerang is recovered
+	}
+
+	BoxingGloves: {
+		DisplayName: Boxing Gloves
+		Tooltip: ""
+	}
+
+	GolemHand: {
+		DisplayName: Golem Hand
+		Tooltip: Send strong punches that create shards on destruction
+	}
+
+	LeatherGloves: {
+		DisplayName: Leather Gloves
+		Tooltip: ""
+	}
+
+	MeatBeater: {
+		DisplayName: Meat Beater
+		Tooltip: Send penetrating punches at enemies
+	}
+
+	MoltenPuncher: {
+		DisplayName: Molten Puncher
+		Tooltip: Send burning punches at enemies
+	}
+
+	PhoenixPuncher: {
+		DisplayName: Phoenix Puncher
+		Tooltip: Can turn punches into phoenix with the double of damage and knockback
+	}
+
+	Poltergeist: {
+		DisplayName: Poltergeist
+		Tooltip: Send homing punches
+	}
+
+	ShadowSmasher: {
+		DisplayName: Shadow Smasher
+		Tooltip: ""
+	}
+
+	Starcrusher: {
+		DisplayName: Starcrusher
+		Tooltip: "'ORA ORA ORA'"
+	}
+
+	AtlantiumTrident: {
+		DisplayName: Atlantium Trident
+		Tooltip: ""
+	}
+
+	FirefloySpear: {
+		DisplayName: Firefloy's Spear
+		Tooltip: ""
+	}
+
+	Vampizza: {
+		DisplayName: Vampizza
+		Tooltip:
+			'''
+			Rapidly throw life stealing pizza slices
+			'You mama'd your last-a mia'
+			'''
+	}
+
+	GoblinSpear: {
+		DisplayName: Goblin Spear
+		Tooltip:
+			'''
+			Killing an enemy will create a spiky ball at its position
+			Increased armor penetration by 10
+			'''
+	}
+
+	JungleSpear: {
+		DisplayName: Jungle Spear
+		Tooltip: Shoots razor leaves
+	}
+
+	AtlantiumSword: {
+		DisplayName: Atlantium Sword
+		Tooltip: Gives the Assault buff on hits
+	}
+
+	Blightbringer: {
+		DisplayName: Blightbringer
+		Tooltip: Shoots a blight blade
+	}
+
+	Damocles: {
+		DisplayName: Damocles
+		Tooltip: Summons a falling sword over the target
+	}
+
+	DiamondSword: {
+		DisplayName: Diamond Sword
+		Tooltip:
+			'''
+			Sharp and fast
+			'Who's the king of pvp ?'
+			'''
+	}
+
+	Excatlibur: {
+		DisplayName: Excatlibur
+		Tooltip: Shoots homing cats
+	}
+
+	Hacksword: {
+		Tooltip: ""
+		DisplayName: Hacksword
+	}
+
+	Hellstar: {
+		DisplayName: Hellstar
+		Tooltip: Causes hellfire stars to rain from the sky
+	}
+
+	KelviniteEnergyBlade: {
+		DisplayName: Kelvinite Energy Blade
+		Tooltip:
+			'''
+			Shoots five falling ice blades
+			Inflict Frostbite on hits
+			'''
+	}
+
+	KelviniteGreatsword: {
+		DisplayName: Kelvinite Greatsword
+		Tooltip:
+			'''
+			Shoots three falling ice blades
+			Inflict Frostburn on hits
+			'''
+	}
+
+	KhizaraSickle: {
+		DisplayName: Khizara's Sickle
+		Tooltip: Shoots homing hades sickle
+	}
+
+	LightSword: {
+		DisplayName: Light Katana
+		Tooltip:
+			'''
+			Ignore Immunity frames
+			'Cuts through the darkness !'
+			'''
+	}
+
+	LithiumSword: {
+		DisplayName: Lithium Sword
+		Tooltip: Shoots lightning bolts at short range
+	}
+
+	NightwoodSword: {
+		DisplayName: Nightwood Sword
+		Tooltip: Have a chance to inflict the Shadowflame debuff
+	}
+
+	PipeSword: {
+		DisplayName: Pipe Sword
+		Tooltip: Keep your enemies away !
+	}
+
+	PlumberBane: {
+		DisplayName: Plumber's Bane
+		Tooltip: Sprays out a shower of water
+	}
+
+	PyriteEnergyBlade: {
+		DisplayName: Molten Energy Blade
+		Tooltip:
+			'''
+			Summons three eruptions in front of the player
+			Inflict Hellfire on hits
+			'''
+	}
+
+	Soulsword: {
+		DisplayName: Soulsword
+		Tooltip: Releases homing cursed souls on hits
+	}
+
+	ThermiteSword: {
+		DisplayName: Thermite Sword
+		Tooltip:
+			'''
+			Shoots exploding thermite blades that rotate around the player
+			Inflict Hellfire and Frostbite on hits
+			'''
+	}
+
+	ThiefKnife: {
+		DisplayName: Thief Knife
+		Tooltip: Enemies drop more money on death
+	}
+
+	KelviniteArrow: {
+		DisplayName: Kelvinite Arrow
+		Tooltip: Shatters on impact
+	}
+
+	LithiumArrow: {
+		DisplayName: Lithium Arrow
+		Tooltip: Does more damage at short range
+	}
+
+	KelviniteBullet: {
+		DisplayName: Kelvinite Bullet
+		Tooltip: Can pierce up to 3 enemies
+	}
+
+	SporophyteBullet: {
+		DisplayName: Sporophyte Bullet
+		Tooltip: Creates spores on impact
+	}
+
+	AtlantiumBow: {
+		DisplayName: Atlantium Bow
+		Tooltip: Turns wooden arrows into Atlantium arrows
+	}
+
+	Cursestorm: {
+		DisplayName: Cursestorm
+		Tooltip:
+			'''
+			Shoots Cursed Rays from the sky
+			Turns wooden arrows into Cursed arrows
+			'''
+	}
+
+	GoblinRepeater: {
+		DisplayName: Goblin Repeater
+		Tooltip: ""
+	}
+
+	HadesStormbow: {
+		DisplayName: Hades Stormbow
+		Tooltip: Shoots Hades Arrows that follow the cursor
+	}
+
+	HuntingBow: {
+		DisplayName: Hunting Bow
+		Tooltip: Can turn arrows into golden arrows
+	}
+
+	LithiumBow: {
+		DisplayName: Lithium Bow
+		Tooltip: Shoots two lightning arrows
+	}
+
+	Lotus: {
+		DisplayName: Lotus
+		Tooltip: Turn wooden arrows into lotus stems
+	}
+
+	Necrossbow: {
+		DisplayName: Necrossbow
+		Tooltip: Turn wooden arrows into bone arrows
+	}
+
+	NightwoodBow: {
+		DisplayName: Nightwood Bow
+		Tooltip: Shoots two arrows
+	}
+
+	RogueWave: {
+		DisplayName: Rogue Wave
+		Tooltip:
+			'''
+			Shoots 3 arrows at a time
+			Turn wooden arrows into Atlantium arrows
+			'''
+	}
+
+	TheHarp: {
+		DisplayName: The Harp
+		Tooltip:
+			'''
+			Turn arrows into music notes
+			Nearbies enemies will take 50% of the projectile damage
+			'''
+	}
+
+	ThermiteBow: {
+		DisplayName: Thermite Bow
+		Tooltip: Shoots multiples fire and frost arrows
+	}
+
+	AK47: {
+		DisplayName: Ak-47
+		Tooltip: 25% chance to not consume ammo
+	}
+
+	AWP: {
+		DisplayName: AWP
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Right click to zoom out
+			'Rush B !'
+			'''
+	}
+
+	Famas: {
+		DisplayName: Famas
+		Tooltip:
+			'''
+			Three round burst
+			Only the first shot consumes ammo
+			'''
+	}
+
+	Fishronator: {
+		DisplayName: Fishronator
+		Tooltip:
+			'''
+			Turns bullets into razor bullets that ricochet between enemies
+			50% chance to not consume ammo
+			'Minishark's father'
+			'''
+	}
+
+	HackWP: {
+		DisplayName: HackWP
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			'Stop cheating'
+			'''
+	}
+
+	JungleStriker: {
+		DisplayName: Jungle Striker
+		Tooltip:
+			'''
+			Shoots five bullets with different velocities
+			Turn bullets into chlorophyte bullets
+			'''
+	}
+
+	LithiumRailgun: {
+		DisplayName: Lithium Railgun
+		Tooltip: Turn bullets into high velocity bullets
+	}
+
+	MeteoriteRevolver: {
+		DisplayName: Meteorite Revolver
+		Tooltip: Turn bullets into meteor shots
+	}
+
+	Nightshooter: {
+		DisplayName: Nightshooter
+		Tooltip: Shoots three bullets with different velocities
+	}
+
+	ShroomiteRailgun: {
+		DisplayName: Shroomite Railgun
+		Tooltip: Turn bullets into high velocity bullets, shoots 2 additionals chlorophytes bullets
+	}
+
+	SteampunkRevolver: {
+		DisplayName: Steampunk Revolver
+		Tooltip: Turns bullets into steampunk rounds that explode mid-air in 8 high-velocity bullets
+	}
+
+	ZeroBlaster: {
+		DisplayName: Zero Blaster
+		Tooltip: High rate of critic
+	}
+
+	BombardmentRemote: {
+		DisplayName: Bombardment Remote
+		Tooltip: Calls a bombardment at the mouse position
+	}
+
+	ChlorophyteRifleRemote: {
+		DisplayName: Chlorophyte Rifle Remote
+		Tooltip: Shoots chlorophyte bullets from the sky
+	}
+
+	KelviniteRemote: {
+		DisplayName: Kelvinite Rifle Remote
+		Tooltip: Shoots kelvinite bullets from the sky
+	}
+
+	LuminiteRifleRemote: {
+		DisplayName: Luminite Rifle Remote
+		Tooltip: Shoots luminite bullets from the sky
+	}
+
+	MechanicalRifleRemote: {
+		DisplayName: Mechanical Rifle Remote
+		Tooltip: Shoots high velocity bullets from the sky
+	}
+
+	SkyRifleRemote: {
+		DisplayName: Sky Rifle Remote
+		Tooltip: Shoots musket bullets from the sky
+	}
+
+	AtlantiumStaff: {
+		DisplayName: Atlantium Staff
+		Tooltip: Summons a Jellyfish to fight for you
+	}
+
+	CursedStaff: {
+		DisplayName: Cursed Staff
+		Tooltip: Summons a Will-o'-Wisp to fight for you
+	}
+
+	LithiumStaff: {
+		DisplayName: Lithium Staff
+		Tooltip: Summons a Lithium Cloud to fight for you
+	}
+
+	ShadowDaggerStaff: {
+		DisplayName: Shadow Dagger Staff
+		Tooltip: Summons a shadow dagger to fight for you
+	}
+
+	BlightCrystalStaff: {
+		DisplayName: Blight Crystal Staff
+		Tooltip: Summons a Blight Crystal to shoots blight stars
+	}
+
+	GardenerStaff: {
+		DisplayName: Gardener Staff
+		Tooltip: Summons a mini Gardener that release spores over times
+	}
+
+	HiveStaff: {
+		DisplayName: Hive Staff
+		Tooltip: Summons a bee hive that release bees over times
+	}
+
+	KelviniteStaff: {
+		DisplayName: Kelvinite Staff
+		Tooltip: Summons a Kelvinite Crystal that create a stalagmite line at enemies
+	}
+
+	KelviniteMarker: {
+		DisplayName: Kelvinite Marker
+		Tooltip:
+			'''
+			Allows you to fire using certain drones
+			Right click to change attack mode
+			Keeps the target position in memory during 5 seconds
+			'''
+	}
+
+	Iceberg: {
+		DisplayName: Iceberg
+		Tooltip: Grows ice shards on hits
+	}
+
+	CryoCannon: {
+		DisplayName: Cryo Cannon
+		Tooltip: Shoots 3 Cryo Bombs that inflict frostburn
+	}
+
+	KelviniteBrick: {
+		DisplayName: Kelvinite Brick
+		Tooltip: ""
+	}
+
+	KelviniteBrickWall: {
+		DisplayName: Kelvinite Brick Wall
+		Tooltip: ""
+	}
+
+	LargePortableBattery: {
+		DisplayName: Large Portable Battery
+		Tooltip: +15 max energy
+	}
+
+	ThermiteWhip: {
+		DisplayName: Thermite Whip
+		Tooltip:
+			'''
+			Your summons will focus struck enemies
+			Strike enemies to summon a thermite dagger
+			The thermite dagger will explode on destruction
+			'''
+	}
+
+	NightwoodChest: {
+		DisplayName: Nightwood Chest
+		Tooltip: ""
+	}
+
+	NightwoodTotemStaff: {
+		DisplayName: Nightwood Totem Staff
+		Tooltip:
+			'''
+			Summons a nightwood totem that cast homing magic bolts
+			5 bolts can be prepared if there is no target
+			Once all 5 magic bolts are cast, the totem will buff ally players with moon blessing
+			'''
+	}
+
+	NightwoodBed: {
+		DisplayName: Nightwood Bed
+		Tooltip: ""
+	}
+
+	EnergyAccumulator: {
+		DisplayName: Energy Accumulator
+		Tooltip:
+			'''
+			Allows you to collect energy from generators
+			Each generators types gives you +5 max energy
+			+10 max energy
+			'''
+	}
+
+	ThermiteEngineerMask: {
+		DisplayName: Thermite Engineer Mask
+		Tooltip:
+			'''
+			8% increased engineering damage
+			12% increased drone shooting speed
+			+2 energy per second
+			'''
+	}
+
+	ThermiteMageHat: {
+		DisplayName: Thermite Mage Hat
+		Tooltip:
+			'''
+			Increases maximum mana by 100 and 18% reduced mana cost
+			15% increased magic damage
+			8% increased magic critical chance
+			'''
+	}
+
+	ThermiteRangerHelmet: {
+		DisplayName: Thermite Ranger Helmet
+		Tooltip:
+			'''
+			15% increased ranged damage
+			10% increased ranged critical damage
+			'''
+	}
+
+	ThermiteSummonerMask: {
+		DisplayName: Thermite Summoner Mask
+		Tooltip:
+			'''
+			15% increased summon damage
+			Increases your max number of minions by 1
+			'''
+	}
+
+	ThermiteWarriorHelmet: {
+		DisplayName: Thermite Warrior Helmet
+		Tooltip:
+			'''
+			12% increased melee damage
+			8% increased melee critical damage
+			10% increased melee speed
+			'''
+	}
+
+	ThermiteGreaves: {
+		DisplayName: Thermite Greaves
+		Tooltip:
+			'''
+			12% increased damage
+			10% increased movement speed
+			'''
+	}
+
+	ThermiteBreastplate: {
+		DisplayName: Thermite Breastplate
+		Tooltip:
+			'''
+			10% increased damage
+			8% increased critical damage 
+			'''
+	}
+
+	ThermiteWrench: {
+		DisplayName: Thermite Wrench
+		Tooltip:
+			'''
+			Builds a Thermite Oni Drone that can fight in melee or at range
+			Shoots a devastating laser or a lingering katana after a few attacks
+			Cost 8 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			'''
+	}
+
+	EnchantedSheath: {
+		DisplayName: Enchanted Sheath
+		Tooltip:
+			'''
+			Increases melee critical damage by 1% for every missing mana stars
+			Swords shoot a small barrage of stars on use
+			'''
+	}
+
+	PoisonAmulet: {
+		DisplayName: Poison Amulet
+		Tooltip:
+			'''
+			Minions poison enemies on hits
+			Increases minion damage by 5%
+			'''
+	}
+
+	PurifiedDoll: {
+		DisplayName: Purified Doll
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases minion damage by 10% while in the corruption or crimson
+			'''
+	}
+
+	CavernBlobBanner: {
+		DisplayName: Cavern Blob Banner
+		Tooltip: ""
+	}
+
+	BlobTentacles: {
+		DisplayName: Blob Tentacles
+		Tooltip: ""
+	}
+
+	BlobMatter: {
+		DisplayName: Blob Matter
+		Tooltip: ""
+	}
+
+	StickyArrow: {
+		DisplayName: Sticky Arrow
+		Tooltip: Sticks to enemies
+	}
+
+	TestWrench: {
+		DisplayName: Test Wrench
+		Tooltip: ""
+	}
+
+	PrimitiveChiller: {
+		DisplayName: Primitive Chiller
+		Tooltip:
+			'''
+			+1 energy per second while not using a marker
+			'Water cooling for cavemen'
+			'''
+	}
+
+	BlobStaff: {
+		DisplayName: Blob Staff
+		Tooltip:
+			'''
+			Summons a Flying Blob to fight for you
+			'Blobs don't make the difference between family and weapons'
+			'''
+	}
+
+	ThermiteBrick: {
+		DisplayName: Thermite Brick
+		Tooltip: ""
+	}
+
+	ThermiteBrickWall: {
+		DisplayName: Thermite Brick Wall
+		Tooltip: ""
+	}
+
+	NightwoodTotemBanner: {
+		DisplayName: Nightwood Totem Banner
+		Tooltip: ""
+	}
+
+	LihzahrdWrench: {
+		DisplayName: Lihzahrd Wrench
+		Tooltip:
+			'''
+			Builds a Lihzahrd Drone that shoot a channeled sunbeam
+			The sunbeam can be focused to increase the damage up to 300%
+			Moving the cursor quickly will reduce the focus
+			Can also use a wrecking ball in attack mode 
+			Cost 6 energy per second and per drones
+			Requires an Engineer Marker to control drones
+			'The sun is a deadly laser'
+			'''
+	}
+}
+
+ArmorSets: {
+	ThermiteWarriorHelmet:
+		'''
+		Hitting an enemy affected by the on fire or frostburn debuff will inflict 15% more damages
+		Pressing the armor set ability key will triggers massives explosions, also boosts the player survivability for a short time and heal the player by 50 HP
+		Automatically triggered under 100 HP
+		This has a 60s cooldown
+		'''
+	ThermiteRangerHelmet:
+		'''
+		Hitting an enemy affected by the on fire or frostburn debuff will inflict 15% more damages
+		Pressing the armor set ability key will triggers massives explosions, also boosts the player survivability for a short time and heal the player by 50 HP
+		Automatically triggered under 100 HP
+		This has a 60s cooldown
+		'''
+	ThermiteMageHelmet:
+		'''
+		Hitting an enemy affected by the on fire or frostburn debuff will inflict 15% more damages
+		Pressing the armor set ability key will triggers massives explosions, also boosts the player survivability for a short time and heal the player by 50 HP
+		Automatically triggered under 100 HP
+		This has a 60s cooldown
+		'''
+	ThermiteSummonerMask:
+		'''
+		Increases your max number of minions by 2
+		Hitting an enemy affected by the on fire or frostburn debuff will inflict 15% more damages
+		Pressing the armor set ability key will triggers massives explosions, also boosts the player survivability for a short time and heal the player by 50 HP
+		Automatically triggered under 100 HP
+		This has a 60s cooldown
+		'''
+	ThermiteEngineerMask:
+		'''
+		+3 energy per second
+		+35 max energy
+		Hitting an enemy affected by the on fire or frostburn debuff will inflict 15% more damages
+		Pressing the armor set ability key will triggers massives explosions, also boosts the player survivability for a short time and heal the player by 50hp
+		Automatically triggered under 100 HP
+		This has a 60s cooldown
+		'''
+}
+
+NPCs: {
+	AndroidGoblin: {
+		DisplayName: Android Goblin
+	}
+
+	AnglerZombie: {
+		DisplayName: Angler Zombie
+	}
+
+	BlightKing: {
+		DisplayName: The Blight King
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:Edorbis/BiomechanicalMatter] during the night
+		}
+	}
+
+	BlightKingLeftCannon: {
+		DisplayName: Left Cannon
+	}
+
+	BlightKingRightCannon: {
+		DisplayName: Right Cannon
+	}
+
+	BlightProbe: {
+		DisplayName: Blight Probe
+	}
+
+	BloodNimbus: {
+		DisplayName: Blood Nimbus
+	}
+
+	Centaurion: {
+		DisplayName: Centaurion
+	}
+
+	CentauriumCore: {
+		DisplayName: Centaurium Core
+	}
+
+	CursedFlameSkull: {
+		DisplayName: Cursed Flame Skull
+	}
+
+	CursedLord: {
+		DisplayName: The Curse Preacher
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:Edorbis/CursedSoul] during the night
+		}
+	}
+
+	DarkZombie: {
+		DisplayName: Dark Zombie
+	}
+
+	EngineerSkeleton: {
+		DisplayName: Engineer Skeleton
+	}
+
+	GlaciationBody: {
+		DisplayName: Glaciation
+	}
+
+	GlaciationBomber: {
+		DisplayName: Glaciation Bomber
+	}
+
+	GlaciationHead: {
+		DisplayName: Glaciation
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:Edorbis/KelviniteRadar] in the Tundra
+		}
+	}
+
+	GlaciationProbe: {
+		DisplayName: Glaciation Probe
+	}
+
+	GlaciationSphere: {
+		DisplayName: Glaciation Sphere
+	}
+
+	GlaciationTail: {
+		DisplayName: Glaciation
+	}
+
+	Stalactite: {
+		DisplayName: Stalactite
+	}
+
+	GoblinKnight: {
+		DisplayName: Goblin Knight
+	}
+
+	Damocles: {
+		DisplayName: Damocles
+	}
+
+	HandofCthulhu: {
+		DisplayName: The Hand of Cthulhu
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:Edorbis/SlayerTrophy] at the ocean
+		}
+	}
+
+	MountedGoblinKnight: {
+		DisplayName: Mounted Goblin Knight
+	}
+
+	GardenerBulb: {
+		DisplayName: Gardener's Bulb
+	}
+
+	TheGardener: {
+		DisplayName: The Gardener
+
+		BossChecklistIntegration: {
+			SpawnInfo: Use a [i:Edorbis/ThePrettiestFlower] in the jungle
+		}
+	}
+
+	Elf: {
+		DisplayName: Elf
+
+		TownNPCMood: {
+			DislikeBiome: I don't like this place, where are the plants?
+			LikeBiome: Ah, the jungle is perfect for me.
+			HateCrowded: I can't stand the crowd, i'm agoraphobic!
+			DislikeCrowded: I would like more privacy...
+			LoveSpace: Nice, i needed space for myself after what happened!
+			FarFromHome: Where's my house? I don't want to be separate from it again...
+			NoHome: As much as I love being outside, i wouldnt mind somewhere to stay.
+			Content: I feel good right now, it's better than being trapped in a plant.
+			LikeNPC: I like {NPCName}, they remind me of my people!
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census: {
+			SpawnCondition: Defeat the Gardener
+		}
+	}
+
+	YoungWolf: {
+		DisplayName: Young Wolf
+	}
+
+	NightwoodTotem: {
+		DisplayName: Nightwood Totem
+	}
+
+	CavernBlob: {
+		DisplayName: Cavern Blob
+	}
+}
+
+NPCQuotes: {
+	Elf: {
+		GardenerNotBeaten: Go kill the Gardener, I'm not supposed to be here!
+		Homeless1: I knew it would become uncontrollable...
+		Homeless2: Thank you for deliver me from my beautiful creation.
+		Homeless3: That plant, it was beautiful
+		Homeless4: Well, looks like messing with nature was a bad idea, {0} will be angry.
+		Quote1: I prefer living in trees, but this house will do.
+		Quote2: Here, take these seeds, but, don't use magic around them, ok?
+		Quote3: I would've never guessed being inside a plant would be that comfortable.
+		Quote4: I used to be an adventurer like you, until i became a plant...
+		Quote5: You can call me the true Gardener if you want.
+		Quote6: Quit staring at me like that, it's like you've never seen an elf before!
+		PlanteraBeaten: I see you killed Plantera, the jungle will be more peaceful now ?
+		PlanteraNotBeaten: No, i won't give you my Chlorophyte armor...
+	}
+}
+
+Bestiary: {
+	AndroidGoblin: A resistant robot designed by the Goblin Tinkerer, they are slow and can shoot lasers.
+	AnglerZombie: Some say it was killed by a raging terrarian that was fed up with useless quest rewards, but thats just a legend.
+	BlightKing: A demonic machine created to destroy anything, fortunately the demons aren't very skilled in engineering.
+	BlightProbe: These probes are used by the Blight King to localize his targets, they can also assist him in combat if needed.
+	BloodNimbus: During rainy blood moons, these creatures are formed from the blood of those that have perished.
+	Centaurion: Made of pure Centaurium, these machines are used to extract ore from inhospitable planets.
+	CentauriumCore: These Elementals use the highly energetic properties of Centaurium to hover, searching the mines for any unfortunate intruders.
+	CursedFlameSkull: These cursed spirits serve their master until their death and even after
+	CursedLord: A bard that embraced the cursed flame. His music is imbued with necromantic magic, extending his life and shortening your own. A fan of death metal.
+	DarkZombie: A zombie coated in a strange black dust. Stronger than regular zombies.
+	EngineerSkeleton: It is likely that these skeletons were used to construct both Glaciation, and the Mechanical bosses.
+	Glaciation: Glaciation is a prototype of the destroyer, built with a different, inferior power source. Its attracted to veins of kelvinite ore, and machinery powered by it.
+	GlaciationBomber: A bomber drone piloted by an advanced ai. Built in the dungeon.
+	GlaciationProbe: A probe used by glaciation. This design was the only one deemed salvageable.
+	GlaciationSphere: When glaciation broke loose, these probes were sent to destroy it. Looks like they changed their minds.
+	GoblinKnight: A Loyal servant of the Goblin king, trained to cut down even the mightiest of foes.
+	Damocles: A magic sword summoned by the Hand of Cthulhu, preventing his enemies' movement.
+	HandofCthulhu: A mysterious servant of Cthulhu, he won't refuse any challenge to show his power.
+	MountedGoblinKnight: A mounted warrior, senses honed to perfection in the heat of battle. He has a cute pig-dog too!
+	GardenerBulb: These small bulbs serve as shields to the Gardener, destroying them is an efficient way to take it down.
+	TheGardener: This plant was created by the elf to make the best looking flower in Terraria, it is certainly a failure.
+	Elf: The last known Elf on Terraria, once trapped within a beast of his own creation.
+	YoungWolf: Living in the harshest of climates, these savage lupines hunt in the dark of night desperately for sustenance.
+	NightwoodTotem: A mysterious sculpture of nightwood, it can buff other enemies and attack from afar, they seem to observe you during the night...
+	CavernBlob: Unlike slimes, these creatures are better fitted to the underground life, they are able to move freely in the caverns thanks to their tentacles which they also use to hunt down their preys.
+}
+
+Projectiles: {
+	HandofCthulhuHooded: {
+		DisplayName: Hand of Cthulhu Hooded
+	}
+
+	HandofCthulhuMasked: {
+		DisplayName: Hand of Cthulhu Masked
+	}
+
+	AdamantiteBoomerang: {
+		DisplayName: Adamantite Boomerang
+	}
+
+	AndroidRayFriendly: {
+		DisplayName: Android Ray Friendly
+	}
+
+	AntiAirMissile: {
+		DisplayName: Anti Air Missile
+	}
+
+	BlightMissile: {
+		DisplayName: Blight Missile
+	}
+
+	BlightPrinceRay: {
+		DisplayName: Blight Prince Ray
+	}
+
+	BlueFlowerTrap: {
+		DisplayName: Blue Flower Trap
+	}
+
+	BluePetal: {
+		DisplayName: Blue Petal
+	}
+
+	BoneSpear: {
+		DisplayName: Bone Spear
+	}
+
+	CentauriumLaser: {
+		DisplayName: Centaurium Laser
+	}
+
+	CentauriumLaserBall: {
+		DisplayName: Centaurium Laser Ball
+	}
+
+	CentauriumNuke: {
+		DisplayName: Centaurium Nuke
+	}
+
+	CentauriumRay: {
+		DisplayName: Centaurium Ray
+	}
+
+	CentauriumRing: {
+		DisplayName: Centaurium Ring
+	}
+
+	CentauriumRocket: {
+		DisplayName: Centaurium Rocket
+	}
+
+	CentauriumShot: {
+		DisplayName: Centaurium Shot
+	}
+
+	ChlorophyteSeed: {
+		DisplayName: Chlorophyte Seed
+	}
+
+	CrimsonNail: {
+		DisplayName: Crimson Nail
+	}
+
+	CursedFireballFriendly: {
+		DisplayName: Cursed Fireball Friendly
+	}
+
+	CursedFireFriendly: {
+		DisplayName: Cursed Fire Friendly
+	}
+
+	AdamantiteDrone: {
+		DisplayName: Adamantite Drone
+	}
+
+	Android: {
+		DisplayName: Android
+	}
+
+	BlightPrince: {
+		DisplayName: Blight Prince
+	}
+
+	BoneDrone: {
+		DisplayName: Bone Drone
+	}
+
+	CentauriumAircraft: {
+		DisplayName: Centaurium Aircraft
+	}
+
+	CentauriumDrone: {
+		DisplayName: Centaurium Drone
+	}
+
+	ChlorophyteDrone: {
+		DisplayName: Chlorophyte Drone
+	}
+
+	CobaltDragon: {
+		DisplayName: Cobalt Dragon
+	}
+
+	CopperDrone: {
+		DisplayName: Copper Drone
+	}
+
+	CrimsonDrone: {
+		DisplayName: Crimson Drone
+	}
+
+	CrimtaneDragon: {
+		DisplayName: Crimtane Dragon
+	}
+
+	DemoniteDragon: {
+		DisplayName: Demonite Dragon
+	}
+
+	EnergyDragon: {
+		DisplayName: Energy Dragon
+	}
+
+	GlaciationProbe: {
+		DisplayName: Glaciation Probe
+	}
+
+	GoldenDrone: {
+		DisplayName: Golden Drone
+	}
+
+	HallowedDrone: {
+		DisplayName: Hallowed Drone
+	}
+
+	JungleDrone: {
+		DisplayName: Jungle Drone
+	}
+
+	MartianDrone: {
+		DisplayName: Martian Drone
+	}
+
+	MeteorProbe: {
+		DisplayName: Meteor Probe
+	}
+
+	OniDrone: {
+		DisplayName: Oni Drone
+	}
+
+	PalladiumDragon: {
+		DisplayName: Palladium Dragon
+	}
+
+	PlatinumDrone: {
+		DisplayName: Platinum Drone
+	}
+
+	ShadowDrone: {
+		DisplayName: Shadow Drone
+	}
+
+	SteampunkDrone: {
+		DisplayName: Steampunk Drone
+	}
+
+	TinDrone: {
+		DisplayName: Tin Drone
+	}
+
+	TitaniumDrone: {
+		DisplayName: Titanium Drone
+	}
+
+	WaspDrone: {
+		DisplayName: Wasp Drone
+	}
+
+	WoodenDrone: {
+		DisplayName: Wooden Drone
+	}
+
+	DubiousDetonatorExplosion: {
+		DisplayName: Dubious Detonator Explosion
+	}
+
+	EnergyRay: {
+		DisplayName: Energy Ray
+	}
+
+	FrozenMissile: {
+		DisplayName: Frozen Missile
+	}
+
+	FrozenRay: {
+		DisplayName: Frozen Ray
+	}
+
+	HallowedBall: {
+		DisplayName: Hallowed Ball
+	}
+
+	HallowedSpike: {
+		DisplayName: Hallowed Spike
+	}
+
+	HighVelocityNail: {
+		DisplayName: High Velocity Nail
+	}
+
+	IchorNail: {
+		DisplayName: Ichor Nail
+	}
+
+	IronNail: {
+		DisplayName: Iron Nail
+	}
+
+	LightningBolt: {
+		DisplayName: Lightning Bolt
+	}
+
+	LightningRail: {
+		DisplayName: Lightning Rail
+	}
+
+	MartianRocket: {
+		DisplayName: Martian Rocket
+	}
+
+	MartianThunderBolt: {
+		DisplayName: Martian Thunder Bolt
+	}
+
+	MeteorRay: {
+		DisplayName: Meteor Ray
+	}
+
+	MoltenNail: {
+		DisplayName: Molten Nail
+	}
+
+	OniFire: {
+		DisplayName: Oni Fire
+	}
+
+	OniSlash: {
+		DisplayName: Oni Slash
+	}
+
+	OrichalcumPetal: {
+		DisplayName: Orichalcum Petal
+	}
+
+	PalladiumMine: {
+		DisplayName: Palladium Mine
+	}
+
+	PalladiumRocket: {
+		DisplayName: Palladium Rocket
+	}
+
+	PinkFlowerTrap: {
+		DisplayName: Pink Flower Trap
+	}
+
+	PurpleRay: {
+		DisplayName: Purple Ray
+	}
+
+	RedFlowerTrap: {
+		DisplayName: Red Flower Trap
+	}
+
+	ShroomiteShard: {
+		DisplayName: Shroomite Shard
+	}
+
+	SpikyBone: {
+		DisplayName: Spiky Bone
+	}
+
+	SteamShot: {
+		DisplayName: Steam Shot
+	}
+
+	CentauriumTarget: {
+		DisplayName: Centaurium Target
+	}
+
+	CrimsonTarget: {
+		DisplayName: Crimson Target
+	}
+
+	DroneTarget: {
+		DisplayName: Drone Target
+	}
+
+	GoblinTarget: {
+		DisplayName: Goblin Target
+	}
+
+	LithiumTarget: {
+		DisplayName: Lithium Target
+	}
+
+	OverclockTarget: {
+		DisplayName: Overclock Target
+	}
+
+	ShadowTarget: {
+		DisplayName: Shadow Target
+	}
+
+	SpectreTarget: {
+		DisplayName: Spectre Target
+	}
+
+	SteampunkTarget: {
+		DisplayName: Steampunk Target
+	}
+
+	ThermiteFireball: {
+		DisplayName: Thermite Fireball
+	}
+
+	TitaniumBlade: {
+		DisplayName: Titanium Blade
+	}
+
+	AtlantiumTurret: {
+		DisplayName: Atlantium Turret
+	}
+
+	CursedTurret: {
+		DisplayName: Cursed Turret
+	}
+
+	InfernoRing: {
+		DisplayName: Inferno Ring
+	}
+
+	IrradiationTower: {
+		DisplayName: Irradiation Tower
+	}
+
+	LithiumTesla: {
+		DisplayName: Lithium Tesla
+	}
+
+	MartianTesla: {
+		DisplayName: Martian Tesla
+	}
+
+	MartianTrap: {
+		DisplayName: Martian Trap
+	}
+
+	MoltenTackShooter: {
+		DisplayName: Molten Tack Shooter
+	}
+
+	MythrilTurret: {
+		DisplayName: Mythril Turret
+	}
+
+	OrichalcumTurret: {
+		DisplayName: Orichalcum Turret
+	}
+
+	ShroomiteTurret: {
+		DisplayName: Shroomite Turret
+	}
+
+	SpikyBallDropper: {
+		DisplayName: Spiky Ball Dropper
+	}
+
+	TackShooter: {
+		DisplayName: Tack Shooter
+	}
+
+	WoodenSpike: {
+		DisplayName: Wooden Spike
+	}
+
+	YellowSpore: {
+		DisplayName: Yellow Spore
+	}
+
+	AlienHornet: {
+		DisplayName: Alien Hornet
+	}
+
+	BlightRain: {
+		DisplayName: Blight Rain
+	}
+
+	BlightRay: {
+		DisplayName: Blight Ray
+	}
+
+	CamelliaFire: {
+		DisplayName: Camellia Fire
+	}
+
+	CamelliaFireSmall: {
+		DisplayName: Camellia Fire Small
+	}
+
+	ChaosBall: {
+		DisplayName: Chaos Ball
+	}
+
+	CloudBolt: {
+		DisplayName: Cloud Bolt
+	}
+
+	CursedCircle: {
+		DisplayName: Cursed Circle
+	}
+
+	CursedOrb: {
+		DisplayName: Cursed Orb
+	}
+
+	PlayerSpore: {
+		DisplayName: Player Spore
+	}
+
+	StormCloud: {
+		DisplayName: Storm Cloud
+	}
+
+	TauRay: {
+		DisplayName: Tau Ray
+	}
+
+	ThunderBolt: {
+		DisplayName: Thunder Bolt
+	}
+
+	ThunderstormBolt: {
+		DisplayName: Thunderstorm Bolt
+	}
+
+	VenomousSpore: {
+		DisplayName: Venomous Spore
+	}
+
+	AtlantiumBlade: {
+		DisplayName: Atlantium Blade
+	}
+
+	AtlantiumTridentProjectile: {
+		DisplayName: Atlantium Trident Projectile
+	}
+
+	BlightBlade: {
+		DisplayName: Blight Blade
+	}
+
+	Croisserang: {
+		DisplayName: Croisserang
+	}
+
+	CursedSoul: {
+		DisplayName: Cursed Soul
+	}
+
+	Damocles: {
+		DisplayName: Damocles
+	}
+
+	EnergyVolcano: {
+		DisplayName: Energy Volcano
+	}
+
+	FirefloySpearProjectile: {
+		DisplayName: Firefloy Spear Projectile
+	}
+
+	FirefloySpearShard: {
+		DisplayName: Firefloy Spear Shard
+	}
+
+	HadesSickle: {
+		DisplayName: Hades Sickle
+	}
+
+	Hellstar: {
+		DisplayName: Hellstar
+	}
+
+	IceBlade: {
+		DisplayName: Ice Blade
+	}
+
+	JungleSeed: {
+		DisplayName: Jungle Seed
+	}
+
+	LightningBlade: {
+		DisplayName: Lightning Blade
+	}
+
+	LightSlash: {
+		DisplayName: Light Slash
+	}
+
+	CrimsonPunch: {
+		DisplayName: Crimson Punch
+	}
+
+	GolemPunch: {
+		DisplayName: Golem Punch
+	}
+
+	GolemPunchShard: {
+		DisplayName: Golem Punch Shard
+	}
+
+	MoltenPunch: {
+		DisplayName: Molten Punch
+	}
+
+	Ora: {
+		DisplayName: Ora
+	}
+
+	Punch: {
+		DisplayName: Punch
+	}
+
+	ShadowPunch: {
+		DisplayName: Shadow Punch
+	}
+
+	SpectralPunch: {
+		DisplayName: Spectral Punch
+	}
+
+	RazorLeaf: {
+		DisplayName: Razor Leaf
+	}
+
+	ThiefKnife: {
+		DisplayName: Thief Knife
+	}
+
+	GoblinSpearProjectile: {
+		DisplayName: Spear
+	}
+
+	JungleSpearProjectile: {
+		DisplayName: Spear
+	}
+
+	SquishenCat: {
+		DisplayName: Squishen Cat
+	}
+
+	ThermiteBlade: {
+		DisplayName: Thermite Blade
+	}
+
+	Vampizza: {
+		DisplayName: Vampizza
+	}
+
+	AcidBall: {
+		DisplayName: Acid Ball
+	}
+
+	AndroidRay: {
+		DisplayName: Android Ray
+	}
+
+	AtlantiumShardHostile: {
+		DisplayName: Atlantium Shard Hostile
+	}
+
+	BlightKingRay: {
+		DisplayName: Blight King Ray
+	}
+
+	BlightKingStar: {
+		DisplayName: Blight King Star
+	}
+
+	BlightProbeBullet: {
+		DisplayName: Blight Probe Bullet
+	}
+
+	BlightSparks: {
+		DisplayName: Blight Sparks
+	}
+
+	BulbSeed: {
+		DisplayName: Bulb Seed
+	}
+
+	CurseBall: {
+		DisplayName: Curse Ball
+	}
+
+	CursedArrow: {
+		DisplayName: Cursed Arrow
+	}
+
+	CursedFire: {
+		DisplayName: Cursed Fire
+	}
+
+	CursedFireball: {
+		DisplayName: Cursed Fireball
+	}
+
+	CursedGuitar: {
+		DisplayName: Cursed Guitar
+	}
+
+	CursedNote: {
+		DisplayName: Cursed Note
+	}
+
+	GardenerSeed: {
+		DisplayName: Gardener Seed
+	}
+
+	GardenerSpore: {
+		DisplayName: Gardener Spore
+	}
+
+	GardenerWall: {
+		DisplayName: Gardener Wall
+	}
+
+	GlaciationRay: {
+		DisplayName: Glaciation Ray
+	}
+
+	GlaciationSpike: {
+		DisplayName: Glaciation Spike
+	}
+
+	HocTrident: {
+		DisplayName: Hoc Trident
+	}
+
+	HostileAtlanteanShell: {
+		DisplayName: Atlantean Shell
+	}
+
+	HostileAtlantiumArrow: {
+		DisplayName: Hostile Atlantium Arrow
+	}
+
+	HostileCentauriumRay: {
+		DisplayName: Hostile Centaurium Ray
+	}
+
+	MagicWave: {
+		DisplayName: Magic Wave
+	}
+
+	MiniGlaciationSpike: {
+		DisplayName: Mini Glaciation Spike
+	}
+
+	WallSeed: {
+		DisplayName: Wall Seed
+	}
+
+	AtlantiumShard: {
+		DisplayName: Atlantium Shard
+	}
+
+	BlightWave: {
+		DisplayName: Blight Wave
+	}
+
+	WingTimeBonus: {
+		DisplayName: Wing Time Bonus
+	}
+
+	AtlanteanShell: {
+		DisplayName: Atlantean Shell
+	}
+
+	AtlantiumArrow: {
+		DisplayName: Atlantium Arrow
+	}
+
+	GoldenArrow: {
+		DisplayName: Golden Arrow
+	}
+
+	HadesArrow: {
+		DisplayName: Hades Arrow
+	}
+
+	KelviniteArrow: {
+		DisplayName: Kelvinite Arrow
+	}
+
+	KelviniteArrowShard: {
+		DisplayName: Kelvinite Arrow Shard
+	}
+
+	LightningArrow: {
+		DisplayName: Lightning Arrow
+	}
+
+	LithiumArrow: {
+		DisplayName: Lithium Arrow
+	}
+
+	LotusStem: {
+		DisplayName: Lotus Stem
+	}
+
+	ThermiteFireArrow: {
+		DisplayName: Thermite Fire Arrow
+	}
+
+	ThermiteFrostArrow: {
+		DisplayName: Thermite Frost Arrow
+	}
+
+	KelviniteBullet: {
+		DisplayName: Kelvinite Bullet
+	}
+
+	RazorBullet: {
+		DisplayName: Razor Bullet
+	}
+
+	SporophyteBullet: {
+		DisplayName: Sporophyte Bullet
+	}
+
+	SteampunkRound: {
+		DisplayName: Steampunk Round
+	}
+
+	CursedThunder: {
+		DisplayName: Cursed Thunder
+	}
+
+	SharpNote: {
+		DisplayName: Sharp Note
+	}
+
+	BlightStar: {
+		DisplayName: Blight Star
+	}
+
+	CloudThunder: {
+		DisplayName: Cloud Thunder
+	}
+
+	CursedSpirit: {
+		DisplayName: Will-o'-Wisp
+	}
+
+	ElectricJellyfish: {
+		DisplayName: Electric Jellyfish
+	}
+
+	JellyfishLaser: {
+		DisplayName: Jellyfish Laser
+	}
+
+	LithiumCloud: {
+		DisplayName: Lithium Cloud
+	}
+
+	ShadowDagger: {
+		DisplayName: Shadow Dagger
+	}
+
+	SmallCursedSoul: {
+		DisplayName: Small Cursed Soul
+	}
+
+	BlightCrystal: {
+		DisplayName: Blight Crystal
+	}
+
+	FriendlyHive: {
+		DisplayName: Friendly Hive
+	}
+
+	Gardener: {
+		DisplayName: Gardener
+	}
+
+	ThermiteWhipProjectile: {
+		DisplayName: Thermite Whip Projectile
+	}
+
+	CentauriumOrb: {
+		DisplayName: Centaurium Orb
+	}
+
+	SmallCentauriumOrb: {
+		DisplayName: Small Centaurium Orb
+	}
+
+	IrradiationLaser: {
+		DisplayName: Irradiation Laser
+	}
+
+	CopperShot: {
+		DisplayName: Copper Shot
+	}
+
+	CopperShotShrapnel: {
+		DisplayName: Copper Shot Shrapnel
+	}
+
+	IceDemonScythe: {
+		DisplayName: Ice Demon Scythe
+	}
+
+	IcebergProjectile: {
+		DisplayName: Iceberg
+	}
+
+	IcebergShard: {
+		DisplayName: Iceberg Shard
+	}
+
+	CryoBomb: {
+		DisplayName: Cryo Bomb
+	}
+
+	KelviniteCrystal: {
+		DisplayName: Kelvinite Crystal
+	}
+
+	Stalagmite: {
+		DisplayName: Stalagmite
+	}
+
+	ThermiteDagger: {
+		DisplayName: Thermite Dagger
+	}
+
+	NightwoodTotem: {
+		DisplayName: Nightwood Totem
+	}
+
+	NightwoodTotemBolt: {
+		DisplayName: Nightwood Totem Bolt
+	}
+
+	NightwoodTotemBoltHostile: {
+		DisplayName: Nightwood Totem Bolt Hostile
+	}
+
+	ThermiteBullet: {
+		DisplayName: Thermite Bullet
+	}
+
+	ThermiteOniDrone: {
+		DisplayName: Thermite Oni Drone
+	}
+
+	ThermiteKatana: {
+		DisplayName: Thermite Katana
+	}
+
+	ThermiteRay: {
+		DisplayName: Thermite Ray
+	}
+
+	EnchantedStar: {
+		DisplayName: Enchanted Star
+	}
+
+	BlobHook: {
+		DisplayName: Blob Hook
+	}
+
+	BlobStinger: {
+		DisplayName: Blob Stinger
+	}
+
+	BlobTentacle: {
+		DisplayName: Blob Tentacle
+	}
+
+	StickyArrow: {
+		DisplayName: Sticky Arrow
+	}
+
+	ExplosiveBolt: {
+		DisplayName: Explosive Bolt
+	}
+
+	GoldBolt: {
+		DisplayName: Gold Bolt
+	}
+
+	TestDrone: {
+		DisplayName: Test Drone
+	}
+
+	ThermiteExplosion: {
+		DisplayName: Thermite Explosion
+	}
+
+	PlatinumShot: {
+		DisplayName: Platinum Shot
+	}
+
+	ExplosivePouch: {
+		DisplayName: Explosive Pouch
+	}
+
+	BomberBlob: {
+		DisplayName: Bomber Blob
+	}
+
+	BouncyBlob: {
+		DisplayName: Bouncy Blob
+	}
+
+	ThermiteBeam: {
+		DisplayName: Thermite Beam
+	}
+
+	Hook: {
+		DisplayName: Hook
+	}
+
+	ThermiteSlash: {
+		DisplayName: Thermite Slash
+	}
+
+	LihzahrdDrone: {
+		DisplayName: Lihzahrd Drone
+	}
+
+	Sunbeam: {
+		DisplayName: Sunbeam
+	}
+
+	LihzahrdWreckingBall: {
+		DisplayName: Lihzahrd Wrecking Ball
+	}
+
+	SolarRay: {
+		DisplayName: Solar Ray
+	}
+
+	LihzahrdSpike: {
+		DisplayName: Lihzahrd Spike
+	}
+}
+
+Prefixes: {
+	Automatic: {
+		DisplayName: Automatic
+	}
+
+	Charged: {
+		DisplayName: Charged
+		AdditionalTooltip: Mods.Edorbis.Prefixes.Charged.AdditionalTooltip
+	}
+
+	Enhanced: {
+		DisplayName: Enhanced
+	}
+
+	Improved: {
+		DisplayName: Improved
+	}
+
+	Optimized: {
+		DisplayName: Optimized
+	}
+
+	Upgraded: {
+		DisplayName: Upgraded
+	}
+
+	ChargedTooltip: +{0}% max energy
+}
+
+Tiles: {
+	BossTrophy: {
+		MapEntry: Trophy
+	}
+
+	NightwoodDoorClosed: {
+		MapEntry: Door
+	}
+
+	NightwoodDoorOpen: {
+		MapEntry: Door
+	}
+
+	NightwoodWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	CentauriumReactor: {
+		MapEntry: Centaurium Reactor
+	}
+
+	ChlorophyteSolarPanel: {
+		MapEntry: Chlorophyte Solar Panel
+	}
+
+	GeothermalReactor: {
+		MapEntry: Geothermal Reactor
+	}
+
+	SolarPanel: {
+		MapEntry: Solar Panel
+	}
+
+	ThermiteReactor: {
+		MapEntry: Thermite Reactor
+	}
+
+	WindTurbine: {
+		MapEntry: Wind Turbine
+	}
+
+	MonsterBanner: {
+		MapEntry: Banner
+	}
+
+	CentauriumOre: {
+		MapEntry: Centaurium ore
+	}
+
+	KelviniteOre: {
+		MapEntry: Kelvinite ore
+	}
+
+	Lithium: {
+		MapEntry: Lithium
+	}
+
+	NightwoodChest: {
+		MapEntry: Nightwood Chest
+	}
+}
+
+Texts: {
+	HandofCthulhu1: The Hand of Cthulhu: Huh...
+	HandofCthulhu2: The Hand of Cthulhu: Stay out of my way, fool!
+}
+
+Keybinds: {
+	QuickEnergy: {
+		DisplayName: Quick Energy
+	}
+
+	ArmorSetAbility: {
+		DisplayName: Armor Set Ability
+	}
+
+	DroneModeSwitch: {
+		DisplayName: Drone Mode Switch
+	}
+
+	OpenDroneUpgrades: {
+		DisplayName: Open Machine Upgrade Menu (experimental)
+	}
+}
+
+Conditions: {
+	DownedBlightKing: Mods.Edorbis.Conditions.DownedBlightKing
+	DownedGardener: Mods.Edorbis.Conditions.DownedGardener
+	DownedGlaciation: Mods.Edorbis.Conditions.DownedGlaciation
+	DownedHoC: Mods.Edorbis.Conditions.DownedHoC
+	DownedCursePreacher: Mods.Edorbis.Conditions.DownedCursePreacher
+}
+
+Configs: {
+	ModConfigEngineerUI: {
+		DisplayName: Energy Bar Config
+
+		DisplayShootingSpeed: {
+			Label: Display Shooting Speed
+			Tooltip: The modified shooting speed stat of the player
+		}
+
+		DisplayAmount: {
+			Label: Display Amount of Drones and Turrets
+			Tooltip: The amount of drones and turrets owned by the player
+		}
+
+		EnergyBarPosition: {
+			Label: Energy Bar Position
+			Tooltip: The bar position on the screen
+		}
+
+		AlwaysEnabled: {
+			Label: Always Enabled
+			Tooltip: If the energy bar should always be enabled on the screen
+		}
+
+		EnergyBarAppearance: {
+			Label: Energy Bar Appearance
+			Tooltip: Which sprite the energy bar should use, dynamic will make the sprite match with the player armor
+		}
+
+		EnergyBarTransparancy: {
+			Label: Energy Bar Transparancy
+			Tooltip: The transparency of the bar sprite, 0 for full transparency
+		}
+
+		EnergyBarBackgroundTransparancy: {
+			Label: Energy Bar Background Transparancy
+			Tooltip: The transparency of the background bar sprite, 0 for full transparency
+		}
+
+		EnergyTransitionType: {
+			Label: Energy Transition Type
+			Tooltip:
+				'''
+				How the color should change depending of the option :
+				Energy Amount make the color change depending of the percentage of energy remaining
+				Energy Incomes will change the color if the energy regeneration is positive, negative or neutral
+				Monochrome will just use one color with no transition
+				'''
+		}
+
+		UseCustomColor: {
+			Label: Use Custom Color
+			Tooltip: If the custom color below should be used instead of the default green, yellow and red
+		}
+
+		Color1: {
+			Label: Color 1 / Monochrome Color
+			Tooltip: ""
+		}
+
+		Color2: {
+			Label: Color 2
+			Tooltip: ""
+		}
+
+		Color3: {
+			Label: Color 3
+			Tooltip: ""
+		}
+	}
+}
+
+UI: {
+	EnergyBar: {
+		Energy: Energy: {0} / {1}
+		EnergyBenefits: Energy production: {0}/s
+		ShootingSpeed: Shooting speed: {0}%
+		MachineAmount: Amount of machine: {0}
+	}
+
+	UpgradeMenu: {
+		Title: Upgrade Menu
+		Help: Place a wrench or a blueprint here to upgrade it
+		ResetUpgrades: Reset all upgrades
+		EnergyConsumption: Energy consumption: {0}/s
+	}
+}
+
+Content: {
+	Systems: {
+		Informations: Informations
+		UIAppearance: UI Appearance
+		FillingBarAppearance: Filling Bar Appearance
+	}
+}
+

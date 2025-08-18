@@ -1,0 +1,92 @@
+	Keybinds: {
+			AutoRecall.DisplayName: "オートリコール"
+			AutoTorch.DisplayName: "オートたいまつ"
+			CycleAmmo.DisplayName: "弾薬サイクル"
+			QuickStackToChests.DisplayName: "チェストへクイックスタック"
+			SmartQuickStackToChests.DisplayName: "チェストへスマートクイックスタック"
+			QuickUseItem11.DisplayName: "クイック使用アイテム #11"
+			QuickUseItem12.DisplayName: "クイック使用アイテム #12"
+			QuickUseItem13.DisplayName: "クイック使用アイテム #13"
+			QuickUseItem14.DisplayName: "クイック使用アイテム #14"
+			QuickUseItem15.DisplayName: "クイック使用アイテム #15"
+			QuickUseItem16.DisplayName: "クイック使用アイテム #16"
+			QuickUseItem17.DisplayName: "クイック使用アイテム #17"
+			QuickUseItem18.DisplayName: "クイック使用アイテム #18"
+			QuickUseItem19.DisplayName: "クイック使用アイテム #19"
+			QuickUseItem20.DisplayName: "クイック使用アイテム #20"
+			QuickUseConfigItem.DisplayName: "設定アイテムをクイック使用"
+			QuickBuffFavoritedOnly.DisplayName: "お気に入りバフのみクイック"
+			QueryModOrigin.DisplayName: "MODの起源を問い合わせる"
+			ToggleAutopause.DisplayName: "オートポーズ切り替え"
+			SwapArmorWithInventory.DisplayName: "防具とインベントリを交換"
+			SwapArmorWithVanity.DisplayName: "防具と装飾を交換"
+			SwapHotbarWith1stRow.DisplayName: "ホットバーと1行目を交換"
+			CyclingQuickMount.DisplayName: "マウントサイクル"
+			QuickMountHold.DisplayName: "クイックマウント - 長押し"
+			SwitchFrameSkipMode.DisplayName: "フレームスキップモード切り替え"
+
+			Dash.DisplayName: "ダッシュ"
+			ToggleRunInBackground.DisplayName: "バックグラウンド実行切り替え"
+		}
+
+		Configs: {
+			HelpfulHotkeysClientConfig: {
+				DisplayName: "設定"
+
+				EnableQuickUseItems11to19: {
+					Label: "クイック使用アイテム11-19ホットキー"
+					Tooltip: "これらのホットキーを有効にするにはオンにする。キー設定メニューをきれいに保つにはオフのままにする"
+				}
+
+				SwapArmorInventorySlots: {
+					Label: "防具とインベントリスロットを交換"
+					Tooltip:
+						'''
+						ここで防具とインベントリを交換するスロットをカスタマイズする
+						0から数える。0から49までの値を使用する
+						デフォルト値はインベントリの右下のスロットに対応する
+						'''
+				}
+
+				DashHotkeyDisablesDoubleTap: {
+					Label: "ダブルタップでのダッシュ挙動を無効化"
+					Tooltip:
+						'''
+						これを有効にすると、ゲームがダッシュのためのダブルタップを認識しなくなる
+						ダッシュホットキーのみを使用する意図がある場合にこれを使用する
+						'''
+				}
+
+				DashHotkeyDisabledWhileInChest: {
+					Label: "チェスト使用中にダッシュホットキーを無効化"
+					Tooltip:
+						'''
+						これを有効にすると、チェストを開いている間はダッシュホットキーが機能しなくなる
+						ダッシュホットキーがShift、Alt、Ctrlなどのチェスト操作と競合する場合にこれを使用する
+						'''
+				}
+
+				QuickUseConfigItem: {
+					Label: "設定アイテムをクイック使用"
+					Tooltip:
+						'''
+						ここでクイック使用する設定アイテムをカスタマイズする
+						指定されたアイテムはホットキーを押すことでインベントリから素早く使用できる
+						'''
+				}
+
+				ShowDeveloperInfoQueryModOrigin: {
+					Label: "開発者情報を表示"
+					Tooltip:
+						'''
+						「MODの起源を問い合わせる」ホットキーを強化し、MODアイテムの内部名を表示する
+						バニラIDの値も表示される
+						'''
+				}
+
+				ShowSmartQuickStackToChests: {
+					Label: "「近くのチェストへスマートスタック」ボタンを表示"
+					Tooltip: "「インベントリをソート」ボタンの隣に「近くのチェストへスマートスタック」ボタンを表示するかどうかを切り替える"
+				}
+			}
+		}

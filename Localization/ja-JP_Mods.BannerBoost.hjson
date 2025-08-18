@@ -1,0 +1,15 @@
+{
+	Configs: {
+		BannerConfig: {
+			MaxLevel: {
+				Tooltip: ""
+				Label: "到達可能な最大レベル"
+			}
+			KillsPerLevel: {
+				Tooltip: ""
+				Label: "レベルごとのキル数"
+			}
+			DisplayName: "バナー設定"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+Configs: {
+	ModLoadNotifyConfig: {
+		DisplayName: Mod Load Notify Config
+
+		Volume: {
+			Label: Volume
+			Tooltip: Sets volume of the sound
+		}
+
+		EnableCustomSounds: {
+			Label: Enable Custom Sounds
+			Tooltip: ""
+		}
+
+		CustomSoundID: {
+			Label: Custom Sound I D
+			Tooltip: ""
+		}
+	}
+}
+

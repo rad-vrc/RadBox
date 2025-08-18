@@ -1,0 +1,137 @@
+{
+	Configs: {
+		RainbowConfig: {
+			DisplayName: "レインボー設定"
+			Headers: {
+				RainbowHeader: "色付きレリックスプライトの切り替え"
+			}
+			CalValEX: {
+				Label: "Calamity's Vanities"
+				Tooltip: ""
+			}
+			CalamityEntropy: {
+				Tooltip: ""
+				Label: "Calamity Entropy"
+			}
+			CalamityHunt: {
+				Label: "Hunt of the Old God"
+				Tooltip: ""
+			}
+			CatalystMod: {
+				Label: "Catalyst"
+				Tooltip: ""
+			}
+			Consolaria: {
+				Label: "Consolaria"
+				Tooltip: ""
+			}
+			ContinentOfJourney: {
+				Label: "Homeward Journey"
+				Tooltip: ""
+			}
+			Coralite: {
+				Label: "Coralite"
+				Tooltip: ""
+			}
+			DDMod: {
+				Label: "Dormant Dawn"
+				Tooltip: ""
+			}
+			NoxusBoss: {
+				Label: "Calamity: Wrath of the Gods"
+				Tooltip: ""
+			}
+			PrimeRework: {
+				Label: "Mech Bosses Rework"
+				Tooltip: ""
+			}
+			Redemption: {
+				Label: "Mod of Redemption"
+				Tooltip: ""
+			}
+			SOTS: {
+				Label: "Secrets Of The Shadows"
+				Tooltip: ""
+			}
+			SpiritMod: {
+				Label: "Spirit Mod"
+				Tooltip: ""
+			}
+			Spooky: {
+				Label: "Spooky"
+				Tooltip: ""
+			}
+			StarlightRiver: {
+				Label: "Starlight River"
+				Tooltip: ""
+			}
+			ThoriumMod: {
+				Label: "Thorium"
+				Tooltip: ""
+			}
+			Stellamod: {
+				Tooltip: ""
+				Label: "Lunar Veil Legacy"
+			}
+			TheDepths: {
+				Tooltip: ""
+				Label: "The Depths"
+			}
+			Clamity: {
+				Label: "Clamity"
+				Tooltip: ""
+			}
+			LightAndDarknessMod: {
+				Tooltip: ""
+				Label: "Light And Darkness Mod"
+			}
+			TeaNPC: {
+				Label: "Tea N P C"
+				Tooltip: ""
+			}
+			Macrocosm: {
+				Tooltip: ""
+				Label: "Macrocosm [BATE]"
+			}
+			OphioidMod: {
+				Label: "Ophioid - A Boss fight mod"
+				Tooltip: ""
+			}
+			QwertyMod: {
+				Tooltip: ""
+				Label: "Qwerty 's Boss and Items 2"
+			}
+			EbonianMod: {
+				Tooltip: ""
+				Label: "Ebonian Mod"
+			}
+			VitalityMod: {
+				Tooltip: ""
+				Label: "Vitality Mod"
+			}
+			Polarities: {
+				Label: "Polarities"
+				Tooltip: ""
+			}
+			ProjectZero: {
+				Label: "Project Zero"
+				Tooltip: ""
+			}
+			RoA: {
+				Label: "Rise of Ages"
+				Tooltip: ""
+			}
+			CalamityFables: {
+				Label: "Calamity Fables"
+				Tooltip: ""
+			}
+			GuidaMod: {
+				Label: "Guida's Journey"
+				Tooltip: ""
+			}
+		}
+	}
+	ErrorTexts: {
+		TypeLoadException: "[未使用]"
+	}
+}

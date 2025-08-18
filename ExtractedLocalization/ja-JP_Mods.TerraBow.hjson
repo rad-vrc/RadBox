@@ -1,0 +1,32 @@
+Projectiles: {
+	TerraArrowTrail: {
+		DisplayName: Terra Arrow Trail
+	}
+
+	TerraSwordWaveProjectile: {
+		DisplayName: Terra Wave
+	}
+
+	TerraArrowProjectile: {
+		DisplayName: Terra Arrow Projectile
+	}
+}
+
+Items: {
+	TerraArrow: {
+		Tooltip: Endless Terra-powered arrow that seeks enemies and breaks their defense.
+		DisplayName: Terra Arrow
+	}
+
+	TerraBow: {
+		Tooltip:
+			'''
+			Fires 3 arrows in a spread
+			Uses any arrow type
+			Rapid fire
+			Enhanced by Terra energy
+			'''
+		DisplayName: Terra Bow
+	}
+}
+

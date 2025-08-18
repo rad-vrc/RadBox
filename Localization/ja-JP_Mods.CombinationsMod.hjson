@@ -1,0 +1,1975 @@
+Configs: {
+	YoyoModConfig: {
+		EOCYoyoProgressionMovement: {
+			Tooltip: 双子からEOCヨーヨーがドロップするように変更するかを切り替えます（モスロンではなく）。デフォルトで有効
+			Label: EOCヨーヨーをポスト双子に移動
+		}
+
+		AccessorySlotIndicators: {
+			Tooltip: 各スロットに装備できる種類を表示する機能を切り替えます。デフォルトで有効
+			Label: アクセサリースロットの種別表示
+		}
+
+		VanillaYoyoDamageChanges: {
+			Tooltip: バニラのヨーヨーに対する本Modのステータス変更を切り替えます。デフォルトで有効
+			Label: バニラヨーヨーのダメージ変更
+		}
+
+		AccessorySlotPosition: {
+			Label: アクセサリースロットの位置
+			Tooltip: ""
+		}
+
+		Headers: {
+			LargeChanges:
+				'''
+				大きな変更
+				緑: 影響小
+				黄: 影響中
+				赤: 影響大
+				これらの多くを無効にすると、敵のドロップ品やクラフト素材の多くが無意味になる
+				'''
+			SmallChanges: 小さな変更（ヘッダー）
+		}
+
+		LoadModdedItems: {
+			Tooltip: Mod由来のアイテム（ヨーヨーとアクセサリーを含む）を読み込むかを切り替えます（デフォルトで有効）
+			Label: Modアイテム
+		}
+
+		EnableModifiedYoyoBag: {
+			Tooltip: 新しいヨーヨーバッグシステムを有効/無効にします（デフォルトで有効）
+			Label: ヨーヨーバッグのシステムの変更
+		}
+
+		LoadModdedAccessories: {
+			Tooltip: Mod由来のアクセサリーを読み込むかを切り替えます（デフォルトで有効）
+			Label: Modアクセサリー
+		}
+
+		LoadModdedYoyos: {
+			Tooltip: Mod由来のヨーヨーを読み込むかを切り替えます（デフォルトで有効）
+			Label: Modヨーヨー
+		}
+
+		VanillaYoyoEffects: {
+			Tooltip: バニラのヨーヨーに本Modの追加効果を継承させるかを切り替えます（デフォルトで有効）
+			Label: バニラヨーヨーの追加効果
+		}
+
+		DisplayName: Mod設定
+
+		YoyoStringStats: {
+			Label: プレイヤーのストリングカラーを表示
+			Tooltip:
+				'''
+				プレイヤーのヨーヨーの糸（ストリング）の内部カラーIDを表示
+				（ストリングにシェーダーを使うModやフックを使うModでは正しく表示されない場合がある）
+				'''
+		}
+
+		YoyoProjectileID: {
+			Label: ヨーヨーの発射体IDを表示
+			Tooltip: 手に持っているヨーヨーが生成する発射体の内部IDを表示
+		}
+
+		MainYoyoDust: {
+			Label: メインヨーヨーのダスト発生
+			Tooltip: テスト用途。メインヨーヨーの周囲にダストを生成（デフォルトで無効）
+		}
+
+		UpscaleYoyoGlove: {
+			Label: ヨーヨーグローブのスプライトサイズを拡大
+			Tooltip: ""
+		}
+	}
+}
+
+Common: {
+	LargeChanges:
+		'''
+		緑: 影響小
+		黄: 影響中
+		赤: 影響大
+		これらの多くを無効にすると、敵のドロップ品やクラフト素材の多くが無意味になる
+		'''
+	SmallChanges: 小さな変更
+}
+
+Conditions: {
+	EaterOfWorldsOrBrain: Mods.CombinationsMod.Conditions.EaterOfWorldsOrBrain
+	MasterOrExpertMode: Mods.CombinationsMod.Conditions.MasterOrExpertMode
+}
+
+NPCs: {
+	ExamplePerson: {
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}は結構好きだ"
+			LikeNPC_Princess: "{NPCName}は結構好きだ"
+			HateNPC: "{NPCName}は大嫌いだ"
+			DislikeNPC: "{NPCName}はあまり好きじゃない"
+			LikeNPC: "{NPCName}は好きだ"
+			LoveNPC: "{NPCName}は大好きだ"
+			HateBiome: "{BiomeName}は大嫌いだ"
+			DislikeBiome: "{BiomeName}はあまり好きじゃない"
+			LikeBiome: "{BiomeName}は好きだ"
+			LoveBiome: "{BiomeName}は大好きだ"
+			HateCrowded: ここは窮屈すぎてうんざりだ
+			DislikeCrowded: ちょっと人が多すぎるな
+			LoveSpace: この広さは最高だ
+			FarFromHome: 家から離れすぎた
+			NoHome: 家がないのは本当に嫌だ
+			Content: 今のところ満足だ
+		}
+
+		DisplayName: スケルトン行商人
+	}
+}
+
+InfoDisplays: {
+	StringInfo: {
+		DisplayName: 内部ストリングカラー
+	}
+
+	SpeedInfo: {
+		DisplayName: ヨーヨー速度表示
+	}
+
+	IDInfo: {
+		DisplayName: 発射体内部ID
+	}
+
+	HitInfo: {
+		DisplayName: ヨーヨー連続ヒット数
+	}
+}
+
+Items: {
+	TheCrowyo: {
+		Tooltip:
+			'''
+			「腹ぺこで馬でも食べられそう！」
+			Discordのメンバーからの数ヶ月にわたるしつこいせがみによって生まれた
+			'''
+		DisplayName: ザ・クロウヨー
+	}
+
+	ShootToTheMoon: {
+		Tooltip:
+			'''
+			中級トリック
+			[c/E475FF:ヨーヨーグローブで生成される追加ヨーヨーの射程が増加]
+			'''
+		DisplayName: シュート・トゥ・ザ・ムーン
+	}
+
+	MoonlordBag: {
+		Tooltip: ""
+		DisplayName: ムーンロードのバッグ
+	}
+
+	DualYoyo: {
+		Tooltip:
+			'''
+			上級トリック
+			[c/E232D6:異なる2本のヨーヨーを同時に扱える]
+			ヨーヨーグローブで生成されるヨーヨーは2本目の種類になる
+			[c/FFFF4A:2本目のヨーヨーはインベントリで手に持っているヨーヨーの右側に配置する必要がある]
+			'''
+		DisplayName: デュアルヨーヨー
+	}
+
+	StoneAge: {
+		Tooltip:
+			'''
+			命中時に混乱させることがある
+			「グルグ、やべぇトリック決める」
+			'''
+		DisplayName: ストーンエイジ
+	}
+
+	ShimmeringBeetleBag: {
+		Tooltip: ""
+		DisplayName: きらめくビートルバッグ
+	}
+
+	ExcavatorCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			家を壊さないよう注意！
+			[c/FF255F:ピッケル力 250%]
+			+10 射程
+			'''
+		DisplayName: ジ・エクスカベーター
+	}
+
+	AdvancedYoyoBag: {
+		Tooltip:
+			'''
+			糸の最大長を無視できる
+			[c/FF3CEC:+無限のヨーヨー射程]
+			'''
+		DisplayName: エクストラテレストリアル・コマンドパック
+	}
+
+	EmpressYoyo: {
+		Tooltip: 光の女帝の莫大な力を宿す
+		DisplayName: スペクトラム
+	}
+
+	BeetleBag: {
+		Tooltip: ""
+		DisplayName: ビートルバッグ
+	}
+
+	Tier2Bag: {
+		Tooltip: ""
+		DisplayName: ヨーヨースーツケース
+	}
+
+	ShimmerBag: {
+		Tooltip: ""
+		DisplayName: きらめくヨーヨーバッグ
+	}
+
+	BlackHole: {
+		Tooltip:
+			'''
+			回転がエネルギー渦を生み、壊滅的なブラックホールを形成する
+			Turbanik 作
+			'''
+		DisplayName: ブラックホール
+	}
+
+	SupportGlove: {
+		Tooltip: 3本目のヨーヨーを使用可能
+		DisplayName: サポートグローブ
+	}
+
+	AroundTheWorldTier2: {
+		Tooltip:
+			'''
+			中級トリック
+			プレイヤーの周囲を円状に渦巻く別のヨーヨーを2つ作り出す（ダメージ0.5倍）
+			[c/FFFF4A:射程は現在のヨーヨーの射程の一定割合と加算される]
+			アクティブなヨーヨー1本につき2つ生成
+			'''
+		DisplayName: アラウンド・ザ・ワールド ティア2
+	}
+
+	AroundTheWorld: {
+		Tooltip:
+			'''
+			初級トリック
+			プレイヤーの周囲を円状に渦巻く別のヨーヨーを1つ作り出す（ダメージ0.3倍）
+			[c/FFFF4A:射程は現在のヨーヨーの射程の一定割合と加算される]
+			アクティブなヨーヨー1本につき1つ生成
+			'''
+		DisplayName: アラウンド・ザ・ワールド
+	}
+
+	VortexString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+250 ヨーヨー射程]
+			[c/6EAE6E:+3 ヨーヨー速度]
+			[c/6EAE6E:+5% 基礎ヨーヨーダメージ]
+			'''
+		DisplayName: ボルテックスの糸
+	}
+
+	StardustString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+250 ヨーヨー射程]
+			[c/6EAE6E:+3 ヨーヨー速度]
+			[c/6EAE6E:+5% 基礎ヨーヨーダメージ]
+			'''
+		DisplayName: スターダストの糸
+	}
+
+	GrapeString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			ブドウの香りがする
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: ブドウの糸
+	}
+
+	DarkTealString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: ダークティールの糸
+	}
+
+	Tuna: {
+		DisplayName: ザ・ツナ
+	}
+
+	TrueSmudge: {
+		Tooltip:
+			'''
+			現在は入手不可（将来削除予定）
+			幽体の敵に追加ダメージを与える
+			墓地バイオームでは渦のダメージがわずかに上昇
+			「12秒の猶予期間がある」
+			'''
+		DisplayName: 真・スマッジ
+	}
+
+	TrueCode3: {
+		Tooltip: 途方もない力で輝く
+		DisplayName: 真・コード3
+	}
+
+	TrueAbbhor: {
+		Tooltip: ""
+		DisplayName: 真・アッブホア
+	}
+
+	Tocantin: {
+		Tooltip: 敵を毒状態にすることがある
+		DisplayName: Tocantin
+	}
+
+	ThinMint: {
+		Tooltip: '''「ミントは食べないでください」'''
+		DisplayName: ザ・シンミント
+	}
+
+	TheTempest: {
+		Tooltip: ""
+		DisplayName: テンペスト
+	}
+
+	TheQueensGambit: {
+		Tooltip:
+			'''
+			命中時にハチを放ち、対象を毒にすることがある
+			初撃の低火力はハチで補う
+			軌跡にハチを残すことがある
+			「ハイブパック対応を追加！」
+			'''
+		DisplayName: クイーンズ・ギャンビット
+	}
+
+	TheMuscle: {
+		Tooltip:
+			'''
+			Arteryのより強力な上位版
+			命中ごとにHPを吸収
+			'''
+		DisplayName: ザ・マッスル
+	}
+
+	TheEnervation: {
+		Tooltip:
+			'''
+			Malaiseのより強力な上位版
+			命中ごとにHPを吸収
+			'''
+		DisplayName: エナーベーション
+	}
+
+	TheAbbhor: {
+		Tooltip: 純粋な力の集合体
+		DisplayName: ジ・アッブホア
+	}
+
+	Sovereign: {
+		DisplayName: ソブリン
+	}
+
+	Smudge: {
+		Tooltip:
+			'''
+			幽体の敵に追加ダメージを与える
+			墓地バイオームでは青い炎を放ち、ダメージが2倍になる
+			「6秒の猶予期間がある」
+			'''
+		DisplayName: スマッジ
+	}
+
+	PalladiumYoyo: {
+		Tooltip: ""
+		DisplayName: パラジウムのヨーヨー
+	}
+
+	OrichalcumYoyo: {
+		Tooltip: ""
+		DisplayName: オリハルコンのヨーヨー
+	}
+
+	MythrilYoyo: {
+		Tooltip: ""
+		DisplayName: ミスリルのヨーヨー
+	}
+
+	Motai: {
+		Tooltip: 最も脳筋な開発者Motaiに特別な感謝を
+		DisplayName: ザ・モタイ
+	}
+
+	Melanoid: {
+		Tooltip: 軽い火傷を与える
+		DisplayName: Melanoid
+	}
+
+	Mambele: {
+		Tooltip:
+			'''
+			粗い砥粒でコーティングされている
+			焦げた木の匂いがする
+			'''
+		DisplayName: Mambele
+	}
+
+	LeadYoyo: {
+		Tooltip: ""
+		DisplayName: 鉛のヨーヨー
+	}
+
+	IronYoyo: {
+		Tooltip: ""
+		DisplayName: 鉄のヨーヨー
+	}
+
+	CultistYoyo: {
+		Tooltip: ""
+		DisplayName: Shakiryo
+	}
+
+	Crag: {
+		Tooltip: "「火でできてるんだ！」"
+		DisplayName: クラーグ
+	}
+
+	Convergance: {
+		Tooltip:
+			'''
+			破壊の到達点
+			中心から光が差し込む
+			'''
+		DisplayName: コンバージェンス
+	}
+
+	Code3: {
+		Tooltip: '''「満を持しての続編」'''
+		DisplayName: コード3
+	}
+
+	CobaltYoyo: {
+		Tooltip: ""
+		DisplayName: コバルトのヨーヨー
+	}
+
+	ChristmasBulb: {
+		Tooltip:
+			'''
+			クリスマスツリーのライトでぎっしり巻かれている
+			新鮮な松の香りがする
+			'''
+		DisplayName: クリスマスバルブ
+	}
+
+	Catacomb: {
+		Tooltip: ""
+		DisplayName: カタコンベ
+	}
+
+	Cat: {
+		Tooltip: '''「ナードModを今すぐください」'''
+		DisplayName: キャタミティ
+	}
+
+	SoulOfEclipse: {
+		Tooltip: "「異界の生物のエッセンス」"
+		DisplayName: 皆既のソウル
+	}
+
+	BrokenHeroYoyo: {
+		Tooltip: ""
+		DisplayName: 壊れた英雄のヨーヨー
+	}
+
+	BrokenHeroRing: {
+		Tooltip: ""
+		DisplayName: 壊れた英雄のリング
+	}
+
+	DevAccessoryBag: {
+		Tooltip:
+			'''
+			<right>で開く
+			レアな戦利品が入っていることがある
+			'''
+		DisplayName: ヨーヨーアクセサリーバッグ
+	}
+
+	SightBar: {
+		Tooltip: "「全能の視を持つ存在のエッセンスから鍛造された」"
+		DisplayName: 視覚のインゴット
+	}
+
+	NeutralineScrap: {
+		Tooltip: 危険な武器を溶かしてできたスラグ
+		DisplayName: Neutraline Scrap
+	}
+
+	MightBar: {
+		Tooltip: "「強大な存在のエッセンス」"
+		DisplayName: 力のインゴット
+	}
+
+	FrightBar: {
+		Tooltip: "「恐るべき存在のエッセンス」"
+		DisplayName: 恐怖のインゴット
+	}
+
+	EclipseBar: {
+		Tooltip: 異界のエネルギーを放つ
+		DisplayName: 日食のインゴット
+	}
+
+	UpgradedYoyoGlove: {
+		Tooltip:
+			'''
+			自動で2本目のヨーヨーを放つ
+			ヨーヨーは白く発光して識別される
+			'''
+		DisplayName: 強化ヨーヨーグローブ
+	}
+
+	SupportGloveWater: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは青く発光して識別される
+			ヨーヨーのダメージは1/2
+			'''
+		DisplayName: ブルーサポートグローブ
+	}
+
+	SupportGloveFire: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは赤く発光して識別される
+			ヨーヨーのダメージは1/2
+			'''
+		DisplayName: レッドサポートグローブ
+	}
+
+	SupportGloveElectricity: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは黄色く発光して識別される
+			ヨーヨーのダメージは1/2
+			'''
+		DisplayName: イエローサポートグローブ
+	}
+
+	SupportGloveEarth: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは緑色に発光して識別される
+			ヨーヨーのダメージは1/2
+			'''
+		DisplayName: グリーンサポートグローブ
+	}
+
+	SolarGlove: {
+		Tooltip:
+			'''
+			自動で2本目のヨーヨーを放つ
+			ヨーヨーは白く発光して識別される
+			ヨーヨーの攻撃に強力な爆発が付与される
+			'''
+		DisplayName: ソーラーグローブ
+	}
+
+	ShimmerSupportGloveWater: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは青く発光して識別される
+			ヨーヨーのダメージは1/2
+			カウンターウェイトを追加で放つ
+			'''
+		DisplayName: きらめくブルーサポートグローブ
+	}
+
+	ShimmerSupportGloveFire: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは赤く発光して識別される
+			ヨーヨーのダメージは1/2
+			カウンターウェイトを追加で放つ
+			'''
+		DisplayName: きらめくレッドサポートグローブ
+	}
+
+	ShimmerSupportGloveElectricity: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは黄色く発光して識別される
+			ヨーヨーのダメージは1/2
+			カウンターウェイトを追加で放つ
+			'''
+		DisplayName: きらめくイエローサポートグローブ
+	}
+
+	ShimmerSupportGloveEarth: {
+		Tooltip:
+			'''
+			[c/FFC3C3:動作にはヨーヨーグローブが必要]
+			追加のヨーヨーを放つ
+			ヨーヨーは緑色に発光して識別される
+			ヨーヨーのダメージは1/2
+			カウンターウェイトを追加で放つ
+			'''
+		DisplayName: きらめくグリーンサポートグローブ
+	}
+
+	YoyoBearing: {
+		Tooltip: 特殊効果を付与するヨーヨーベアリングを作成可能にする
+		DisplayName: ヨーヨーベアリング
+	}
+
+	WaspBearing: {
+		Tooltip:
+			'''
+			ヨーヨーがハチを生成する
+			「航空力学の常識によれば、ハチが飛べるはずはないのだとか。」
+			'''
+		DisplayName: 蜂のベアリング
+	}
+
+	ObsidianBearing: {
+		Tooltip: すべてのヨーヨーが火炎ダメージを付与
+		DisplayName: 黒曜石のヨーヨーベアリング
+	}
+
+	JungleBearing: {
+		Tooltip: ヨーヨーが命中時に疫病を付与することがある
+		DisplayName: ジャングルのヨーヨーベアリング
+	}
+
+	HallowedBearing: {
+		Tooltip: ヨーヨーの命中で対象を神聖化する
+		DisplayName: 神聖なヨーヨーベアリング
+	}
+
+	DemoniteBearing: {
+		Tooltip: ヨーヨーの命中でライフを吸収
+		DisplayName: デモナイトのヨーヨーベアリング
+	}
+
+	CrimtaneBearing: {
+		Tooltip: ヨーヨーの命中でライフを吸収
+		DisplayName: クリムタンのヨーヨーベアリング
+	}
+
+	SolarString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+250 ヨーヨー射程]
+			[c/6EAE6E:+3 ヨーヨー速度]
+			[c/6EAE6E:+5% 基礎ヨーヨーダメージ]
+			'''
+		DisplayName: ソーラーの糸
+	}
+
+	SlimyString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			ヨーヨーが粘液まみれの棘を生成する
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: スライムの糸
+	}
+
+	NebulaString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+250 ヨーヨー射程]
+			[c/6EAE6E:+3 ヨーヨー速度]
+			[c/6EAE6E:+5% 基礎ヨーヨーダメージ]
+			'''
+		DisplayName: ネビュラの糸
+	}
+
+	NaniteString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			ヨーヨーの糸が見えなくなる
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+2 ヨーヨー速度]
+			'''
+		DisplayName: ナナイトの糸
+	}
+
+	LightPinkString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: ライトピンクストリング
+	}
+
+	GolemsteelString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			カウンターウェイトのノックバックが大きく、ダメージも増加
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+2 ヨーヨー速度]
+			'''
+		DisplayName: ゴーレムスチールストリング
+	}
+
+	FrostbiteString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			カウンターウェイトが凍傷を付与
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+2 ヨーヨー速度]
+			'''
+		DisplayName: フロストバイトストリング
+	}
+
+	EclipseString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			非常に重く感じる
+			命中時にダメージのある斬撃を発生
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+2 ヨーヨー速度]
+			'''
+		DisplayName: 日食の糸
+	}
+
+	DarkGreenString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: ダークグリーンストリング
+	}
+
+	DarkBlueString: {
+		Tooltip:
+			'''
+			ヨーヨーの射程が増加
+			[c/6EAE6E:+150 ヨーヨー射程]
+			[c/6EAE6E:+1 ヨーヨー速度]
+			'''
+		DisplayName: ダークブルーストリング
+	}
+
+	TrepidationRing: {
+		Tooltip: すべてのヨーヨーのダメージが5%増加
+		DisplayName: トレピデーションの腕輪
+	}
+
+	TopazRing: {
+		Tooltip: ヨーヨーが明るい黄色の光を放つ
+		DisplayName: トパーズの腕輪
+	}
+
+	TerreneRing: {
+		Tooltip:
+			'''
+			[c/FF00AB:ヨーヨーの特殊能力を使用可能にする]
+			能力発動の条件を表示する
+			ヨーヨーのノックバック増加
+			ヨーヨー速度がわずかに上昇
+			すべてのヨーヨーのダメージが5%増加
+			'''
+		DisplayName: テリーンの腕輪
+	}
+
+	SapphireRing: {
+		Tooltip: ヨーヨーが明るい青色の光を放つ
+		DisplayName: サファイアの腕輪
+	}
+
+	RubyRing: {
+		Tooltip: ヨーヨーが明るい赤色の光を放つ
+		DisplayName: ルビーの腕輪
+	}
+
+	RingOfCoalescence: {
+		Tooltip:
+			'''
+			ヨーヨーのノックバック増加
+			ヨーヨー速度がわずかに上昇
+			すべてのヨーヨーのダメージが5%増加
+			'''
+		DisplayName: 凝集の腕輪
+	}
+
+	OmnipotenceRing: {
+		Tooltip: ヨーヨー速度がわずかに上昇
+		DisplayName: 知覚の腕輪
+	}
+
+	HoneyRing: {
+		Tooltip:
+			'''
+			味方のハチの強さが上昇
+			通常スロットにも装備可能
+			'''
+		DisplayName: 蜂蜜の腕輪
+	}
+
+	GemstoneRing: {
+		Tooltip: ヨーヨーが様々な色の光を放つ
+		DisplayName: 宝石の腕輪
+	}
+
+	FortitudeRing: {
+		Tooltip: すべてのヨーヨーのノックバックが増加
+		DisplayName: 剛毅の腕輪
+	}
+
+	EmeraldRing: {
+		Tooltip: ヨーヨーが明るい緑色の光を放つ
+		DisplayName: エメラルドの腕輪
+	}
+
+	DiamondRing: {
+		Tooltip: ヨーヨーが明るい白色の光を放つ
+		DisplayName: ダイヤモンドの腕輪
+	}
+
+	AmethystRing: {
+		Tooltip: ヨーヨーが明るい紫色の光を放つ
+		DisplayName: アメジストの腕輪
+	}
+
+	AmberRing: {
+		Tooltip: ヨーヨーが明るい琥珀色の光を放つ
+		DisplayName: コハクの腕輪
+	}
+
+	AbilityRing: {
+		Tooltip:
+			'''
+			[c/FF00AB:ヨーヨーの特殊能力を使用可能にする]
+			能力発動の条件を表示する
+			'''
+		DisplayName: アビリティの腕輪
+	}
+
+	SpeedDisplay: {
+		Tooltip: ヨーヨーの移動速度を表示
+		DisplayName: ヨーヨーレーダー
+	}
+
+	HitDisplay: {
+		Tooltip: 現在のヨーヨーの連続ヒット数を表示
+		DisplayName: メカニカルクリックカウンター
+	}
+
+	YoyoDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 100%]
+			'''
+		DisplayName: ドリルケーシング
+	}
+
+	VortexDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+1 射程
+			'''
+		DisplayName: ボルテックスドリルケーシング
+	}
+
+	TsurugiDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 210%]
+			+1 射程
+			リザードレンガの採掘が可能
+			'''
+		DisplayName: ツルギ
+	}
+
+	TreeClippersDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: ツリークリッパー
+	}
+
+	TitaniumDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 190%]
+			'''
+		DisplayName: タイタンドリルケーシング
+	}
+
+	TheScooperDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: スクーパー
+	}
+
+	StardustDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+1 射程
+			'''
+		DisplayName: スターダストドリルケーシング
+	}
+
+	SpectralShredderCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			甘い香りの霧が立ち上る
+			ひし形にブロックを採掘
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: スペクトラルシュレッダー
+	}
+
+	SolarDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+1 射程
+			'''
+		DisplayName: ソーラードリルケーシング
+	}
+
+	ShroomiteShredderCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: シュルーマイトシュレッダー
+	}
+
+	ShadowflameDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 210%]
+			'''
+		DisplayName: シャドウフレイムドリルケーシング
+	}
+
+	PalladiumCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 130%]
+			'''
+		DisplayName: パラジウムドリルケーシング
+	}
+
+	OrichalcumDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/F3BDFF:ピッケル力 165%]
+			'''
+		DisplayName: オリハルコンドリルケーシング
+	}
+
+	NinjaStarCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 210%]
+			'''
+		DisplayName: 手裏剣
+	}
+
+	NebulaDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+1 射程
+			'''
+		DisplayName: ネビュラドリルケーシング
+	}
+
+	MythrilDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 150%]
+			'''
+		DisplayName: ミスリルドリルケーシング
+	}
+
+	MooMooDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+2 射程
+			'''
+		DisplayName: ムームーのドリル
+	}
+
+	MattockDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: マトック
+	}
+
+	HorsemansDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			'''
+		DisplayName: カボチャ騎手のピック
+	}
+
+	HakapikDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 200%]
+			ノルウェー発祥の工具
+			'''
+		DisplayName: ハカピク
+	}
+
+	CobaltDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 110%]
+			'''
+		DisplayName: コバルトドリルケーシング
+	}
+
+	CelestialDrillCasingExtended: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+2 射程
+			'''
+		DisplayName: セレスティアルドリルケーシング＋
+	}
+
+	CelestialDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 250%]
+			+1 射程
+			'''
+		DisplayName: セレスティアルドリルケーシング
+	}
+
+	AdamantiteDrillCasing: {
+		Tooltip:
+			'''
+			ヨーヨーでブロックを掘削できる
+			右クリックを押し続けて掘削
+			[c/BCFFF0:ピッケル力 180%]
+			'''
+		DisplayName: アダマンタイトドリルケーシング
+	}
+}
+
+Projectiles: {
+	CrowyoFeather: {
+		DisplayName: クロウヨーの羽根
+	}
+
+	TheCrowyoProjectile: {
+		DisplayName: クロウヨーの発射体
+	}
+
+	StoneAgeProjectile: {
+		DisplayName: ストーンエイジの発射体
+	}
+
+	Excavator: {
+		DisplayName: エクスカベーター
+	}
+
+	EmpressProjectile: {
+		DisplayName: エンプレスの発射体
+	}
+
+	HomingWaterBolt: {
+		DisplayName: 追尾水弾
+	}
+
+	CragHomingExplosive: {
+		DisplayName: クラーグ追尾爆発
+	}
+
+	ConverganceProjectile: {
+		DisplayName: コンバージェンスの発射体
+	}
+
+	BlackHoleProjectile: {
+		DisplayName: ブラックホールの発射体
+	}
+
+	BlackHoleCenter2: {
+		DisplayName: ブラックホール中心 2
+	}
+
+	BlackHoleCenter1: {
+		DisplayName: ブラックホール中心 1
+	}
+
+	BlackHole4: {
+		DisplayName: ブラックホール 4
+	}
+
+	BlackHole2: {
+		DisplayName: ブラックホール 2
+	}
+
+	BlackHole: {
+		DisplayName: ブラックホール
+	}
+
+	World2: {
+		DisplayName: ワールド2
+	}
+
+	World1: {
+		DisplayName: ワールド1
+	}
+
+	RallyEffect: {
+		DisplayName: ラリー効果
+	}
+
+	GradientEffect: {
+		DisplayName: グラデーション効果
+	}
+
+	FormatCEffect: {
+		DisplayName: フォーマットC効果
+	}
+
+	Code1Effect: {
+		DisplayName: コード1効果
+	}
+
+	BlackHoleSparkle: {
+		DisplayName: スパークル
+	}
+
+	WaterExplosion: {
+		DisplayName: 水の爆発
+	}
+
+	HelFireExplosion: {
+		DisplayName: ヘルファイア爆発
+	}
+
+	TunaProjectile: {
+		DisplayName: ツナの発射体
+	}
+
+	TrueSmudgeProjectile: {
+		DisplayName: 真・スミッジの発射体
+	}
+
+	TrueCode3Projectile: {
+		DisplayName: 真・コード3の発射体
+	}
+
+	TrueAbbhorProjectile: {
+		DisplayName: 真・アッブホアの発射体
+	}
+
+	TocantinProjectile: {
+		DisplayName: トカンティンの発射体
+	}
+
+	ThinMintProjectile: {
+		DisplayName: シンミントの発射体
+	}
+
+	TheQueensGambitProjectile: {
+		DisplayName: クイーンズ・ギャンビットの発射体
+	}
+
+	TheMuscleYoyoProjectile: {
+		DisplayName: マッスル・ヨーヨーの発射体
+	}
+
+	TheEnervationProjectile: {
+		DisplayName: エナーベーションの発射体
+	}
+
+	TheAbbhorProjectile: {
+		DisplayName: アッブホアの発射体
+	}
+
+	TestingYoyoProjectile: {
+		DisplayName: テスト用ヨーヨーの発射体
+	}
+
+	TempestProjectile: {
+		DisplayName: テンペストの発射体
+	}
+
+	SpheruliteProjectile: {
+		DisplayName: スフェルライトの発射体
+	}
+
+	SovereignProjectile: {
+		DisplayName: ソブリンの発射体
+	}
+
+	SmudgeProjectile: {
+		DisplayName: スミッジの発射体
+	}
+
+	PalladiumYoyoProjectile: {
+		DisplayName: パラジウムヨーヨーの発射体
+	}
+
+	OrichalcumYoyoProjectile: {
+		DisplayName: オリハルコンヨーヨーの発射体
+	}
+
+	MythrilYoyoProjectile: {
+		DisplayName: ミスリルヨーヨーの発射体
+	}
+
+	MotaiProjectile: {
+		DisplayName: モタイの発射体
+	}
+
+	MambeleProjectile: {
+		DisplayName: マンベレの発射体
+	}
+
+	LeadYoyoProjectile: {
+		DisplayName: 鉛のヨーヨーの発射体
+	}
+
+	IronYoyoProjectile: {
+		DisplayName: 鉄のヨーヨーの発射体
+	}
+
+	CultistYoyoProjectile: {
+		DisplayName: カルトのヨーヨーの発射体
+	}
+
+	CragProjectile: {
+		DisplayName: クラーグの発射体
+	}
+
+	Code3Projectile: {
+		DisplayName: コード3の発射体
+	}
+
+	CobaltYoyoProjectile: {
+		DisplayName: コバルトヨーヨーの発射体
+	}
+
+	ChristmasBulbProjectile: {
+		DisplayName: クリスマスバルブの発射体
+	}
+
+	CatProjectile: {
+		DisplayName: キャタミティの発射体
+	}
+
+	CatacombProjectile: {
+		DisplayName: カタコンベの発射体
+	}
+
+	TunaSwirlInner: {
+		DisplayName: ツナ・スワール（内側）
+	}
+
+	TunaOuterSwirl: {
+		DisplayName: ツナ・スワール（外側）
+	}
+
+	TempestSpike: {
+		DisplayName: テンペスト・スパイク
+	}
+
+	SwirlTeal: {
+		DisplayName: ティールの渦
+	}
+
+	SwirlStar: {
+		DisplayName: 星のヨーヨーの渦
+	}
+
+	SwirlRed: {
+		DisplayName: 赤の渦
+	}
+
+	SwirlPurple: {
+		DisplayName: 紫の渦
+	}
+
+	SwirlGreen: {
+		DisplayName: 緑の渦
+	}
+
+	SwirlBlue: {
+		DisplayName: ソブリンの渦
+	}
+
+	Swirl: {
+		DisplayName: カスケード内側の渦
+	}
+
+	Sparkle3: {
+		DisplayName: スパークル 1
+	}
+
+	Sparkle2: {
+		DisplayName: スパークル 2
+	}
+
+	Sparkle1: {
+		DisplayName: スパークル 1
+	}
+
+	SolidHitbox: {
+		DisplayName: ソリッドヒットボックス
+	}
+
+	SmudgeHitbox: {
+		DisplayName: スミッジヒットボックス
+	}
+
+	EclipseSwirlOrange: {
+		DisplayName: エクリプス・スワール（オレンジ）
+	}
+
+	EclipseSwirl: {
+		DisplayName: エクリプス・スワール（もう一方よりオレンジ）
+	}
+
+	CultistRingDamage: {
+		DisplayName: カルトリング 3
+	}
+
+	CultistRing2: {
+		DisplayName: カルトリング 2
+	}
+
+	CultistRing1: {
+		DisplayName: カルトリング 1
+	}
+
+	Background: {
+		DisplayName: 赤い背景
+	}
+
+	RedSwirl2: {
+		DisplayName: 赤い渦 2
+	}
+
+	RedShieldSwirlDuo: {
+		DisplayName: シールドの渦 赤 デュオ
+	}
+
+	RedShieldSwirl2: {
+		DisplayName: シールドの渦 赤 2
+	}
+
+	RedShieldSwirl: {
+		DisplayName: シールドの渦 赤
+	}
+
+	PurpleShieldSwirlReverse: {
+		DisplayName: シールドの渦 紫 反転
+	}
+
+	PurpleShieldSwirl2: {
+		DisplayName: シールドの渦 紫 2
+	}
+
+	PurpleShieldSwirl: {
+		DisplayName: シールドの渦 紫
+	}
+
+	PinkSwirl: {
+		DisplayName: ピンクの渦
+	}
+
+	PinkPartSwirl: {
+		DisplayName: ピンクパーツの渦
+	}
+
+	OuterSwirlRed: {
+		DisplayName: 外側の渦 赤
+	}
+
+	MythrilSwirl: {
+		DisplayName: ミスリルの渦
+	}
+
+	MythrilPartSwirl: {
+		DisplayName: ミスリルパーツの渦
+	}
+
+	MotaiSwirl2: {
+		DisplayName: 氷の渦（内側）
+	}
+
+	MotaiSwirl: {
+		DisplayName: モタイ・スワール
+	}
+
+	MotaiCurveDuo: {
+		DisplayName: モタイ・カーブ デュオ
+	}
+
+	JaggedSwirlYellow: {
+		DisplayName: ギザギザの渦 黄
+	}
+
+	JaggedSwirlWhite: {
+		DisplayName: ギザギザの渦 白
+	}
+
+	JaggedSwirlTempest: {
+		DisplayName: ギザギザの渦 テンペスト
+	}
+
+	JaggedSwirlSmudge: {
+		DisplayName: ギザギザの渦 スミッジ
+	}
+
+	JaggedSwirlRed: {
+		DisplayName: ギザギザの渦 赤
+	}
+
+	JaggedSwirlPurple: {
+		DisplayName: ギザギザの渦 紫
+	}
+
+	JaggedShieldSwirlYellow: {
+		DisplayName: ギザギザのシールドの渦 黄
+	}
+
+	JaggedShieldSwirlTempest: {
+		DisplayName: ギザギザのシールドの渦 テンペスト
+	}
+
+	JaggedShieldSwirlSkyBlue: {
+		DisplayName: ギザギザのシールドの渦 空色
+	}
+
+	JaggedShieldSwirlRed: {
+		DisplayName: ギザギザのシールドの渦 紫
+	}
+
+	JaggedShieldSwirlPurple: {
+		DisplayName: ギザギザのシールドの渦 紫
+	}
+
+	JaggedShieldSwirlGreen: {
+		DisplayName: ギザギザのシールドの渦 緑
+	}
+
+	JaggedShieldSwirlDarkBlue: {
+		DisplayName: ギザギザのシールドの渦 濃青
+	}
+
+	InnerSwirl2Yellow: {
+		DisplayName: 内側の渦 黄 2
+	}
+
+	InnerSwirl2Red: {
+		DisplayName: 内側の渦 赤 2
+	}
+
+	IceSwirlInner: {
+		DisplayName: 氷の渦（内側）
+	}
+
+	IceSwirl: {
+		DisplayName: 氷の渦
+	}
+
+	IcePartSwirl: {
+		DisplayName: 氷パーツの渦
+	}
+
+	GreenShieldSwirlDuo: {
+		DisplayName: シールドの渦 緑 デュオ
+	}
+
+	GradientClaySwirl: {
+		DisplayName: グラデーションクレイの渦
+	}
+
+	GloveYellow: {
+		DisplayName: グローブ 黄
+	}
+
+	GloveWhite: {
+		DisplayName: グローブ 白
+	}
+
+	GloveRed: {
+		DisplayName: グローブ 赤
+	}
+
+	GloveGreen: {
+		DisplayName: グローブ 緑
+	}
+
+	GloveBlue: {
+		DisplayName: グローブ 青
+	}
+
+	FormatClaySwirl: {
+		DisplayName: フォーマットクレイの渦
+	}
+
+	CurveVortex: {
+		DisplayName: カーブ ボルテックス
+	}
+
+	CurveTuna: {
+		DisplayName: カーブ ツナ
+	}
+
+	CurveStardust: {
+		DisplayName: カーブ スターダスト
+	}
+
+	CurveOrange: {
+		DisplayName: カーブ オレンジ
+	}
+
+	CurveNebula: {
+		DisplayName: カーブ ネビュラ
+	}
+
+	CurveEffect: {
+		DisplayName: オレンジの渦
+	}
+
+	CurveDuo: {
+		DisplayName: カーブ デュオ
+	}
+
+	CurveCat: {
+		DisplayName: カーブ キャット
+	}
+
+	Code1Swirl: {
+		DisplayName: コード1の渦
+	}
+
+	BlueSwirl2: {
+		DisplayName: 青い渦 2
+	}
+
+	BlueShieldSwirlReverse: {
+		DisplayName: シールドの渦 赤 反転
+	}
+
+	BlueShieldSwirlDuo: {
+		DisplayName: シールドの渦 青 デュオ
+	}
+
+	BlueShieldSwirl: {
+		DisplayName: シールドの渦 青
+	}
+
+	SolarExplosion: {
+		DisplayName: ソーラー爆発
+	}
+
+	RedExplosion: {
+		DisplayName: 赤い爆発
+	}
+
+	FireExplosion: {
+		DisplayName: 火の爆発
+	}
+
+	EclipseExplosion: {
+		DisplayName: エクリプス爆発
+	}
+
+	DeprecatedExplosion: {
+		DisplayName: 非推奨の爆発
+	}
+
+	BlueExplosion: {
+		DisplayName: 青い爆発
+	}
+
+	VortexDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	Tsurugi: {
+		DisplayName: ヨーヨードリル
+	}
+
+	TreeClippers: {
+		DisplayName: ヨーヨードリル
+	}
+
+	TitaniumDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	TheScooper: {
+		DisplayName: ヨーヨードリル
+	}
+
+	StardustDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	SpectralShredder: {
+		DisplayName: ヨーヨードリル
+	}
+
+	SolarDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	ShroomiteShredder: {
+		DisplayName: ヨーヨードリル
+	}
+
+	ShadowflameDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	PalladiumDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	OrichalcumDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	NinjaStar: {
+		DisplayName: ヨーヨードリル
+	}
+
+	NebulaDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	MythrilDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	MooMooDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	Mattock: {
+		DisplayName: ヨーヨードリル
+	}
+
+	IronDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	HorsemansDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	Hakapik: {
+		DisplayName: ヨーヨードリル
+	}
+
+	CobaltDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	CelestialDrill2: {
+		DisplayName: ヨーヨードリル
+	}
+
+	CelestialDrill: {
+		DisplayName: ヨーヨードリル
+	}
+
+	AdamantiteDrill: {
+		DisplayName: ヨーヨードリル
+	}
+}
+
+Buffs: {
+	Pestilence: {
+		Description: 急速に体力を失っている
+		DisplayName: 疫病
+	}
+
+	Osteopenia: {
+		Description: 防御力と腕力が低下
+		DisplayName: 骨減少
+	}
+
+	Omnipotence: {
+		Description: 発光している
+		DisplayName: 全能
+	}
+
+	Hallowed: {
+		Description: 魂が蒸発している
+		DisplayName: 神聖化
+	}
+
+	Frostbite: {
+		Description: その場で凍りついている
+		DisplayName: 凍傷
+	}
+
+	Corrupt: {
+		Description: 体力を失っている
+		DisplayName: 堕落
+	}
+
+	Combustion: {
+		Description: 炎で爆ぜている
+		DisplayName: 燃焼
+	}
+
+	Clotted: {
+		Description: 体力を失っている
+		DisplayName: 凝血
+	}
+}
+
+Achievements: {
+	ConverganceAchievement: {
+		Description: すべてのヨーヨーを最終ヨーヨー「コンバージェンス」に統合する
+		Name: 糸の切れ目がご縁
+	}
+
+	Code2Achievement: {
+		Description: Code 2を作成する
+		Name: ひたすらヨーイング
+	}
+
+	Code1Achievement: {
+		Description: Code 1を入手する
+		Name: 目指せヨーヨーマン！
+	}
+
+	AbbhorAchievement: {
+		Description: 闇の力を宿す強力な武器「アッブホア」を鍛造する
+		Name: 投げるは易し
+	}
+}
+
+Dialogue: {
+	ExamplePerson: {
+		CommonDialoge1: みんなが意外と自分を受け入れてくれて驚いてるよ。たいていは悲鳴を上げて物を投げてくるんだけどね。
+		StandardDialoge6: スプーキー・スケアリー・スケルトンズ…ん？おや、こんにちは。
+		StandardDialogue5: 骸骨であるのも悪くない。たまに肋骨を木琴みたいに奏でるのが好きでね！
+		StandardDialogue4: 兄にそっくりだと言う人がいるけど、ぼくは違うと思うな。
+		StandardDialogue3: ヨーヨー現役の頃はもう終わったけど、集めたり売ったりするのはやめられないんだ。
+		StandardDialogue2: 骸骨だから地下が大好きだとよく思われるけど、実はそうでもないんだ。
+		StandardDialogue1: 僕のヨーヨーコレクション、見ていって！
+	}
+}
+
+TownNPCMood: {
+	ExamplePerson: {
+		LikeNPC_Princess: ここは…落ち着く気がする。うまく言えないけどね。
+		DislikeNPC: 起爆師がいなければいいのに。あの無礼な態度は苦手だ。
+		LoveNPC: 商人とはとても馬が合う。ビジネスの話が通じる相手だよ。
+		HateCrowded: ここは本当に混みすぎだ。
+		DislikeCrowded: ちょっと人が多すぎるかな。
+		NoHome: 旅の間は数日だけ腰を落ち着ける仮住まいを作るけど、そろそろ荷物を下ろしてしばらく留まってみたいね。
+		LoveSpace: この広さを独り占めできるのは最高だよ。話し相手が何人かいてもいいけどね。少し寂しいんだ。
+		DislikeBiome: ここはあまり好きじゃない。背筋がぞくぞくするよ。
+		LikeBiome: 砂漠は嫌いじゃないよ。暑さを感じないからかな。
+		LoveBiome: 森が大好きだ。景色も小動物もたくさんいるからね。
+	}
+}
+
+LocalizedText: {
+	Abilities: {
+		EOCYoyo:
+			'''
+			2段階の形態を持つ
+			第1段階: ヨーヨーのダメージの45%のレーザーを発射
+			第2段階: 50%の呪炎を放ち、カースドインフェルノを付与
+			'''
+		Gradient:
+			'''
+			ヨーヨーのダメージの100%で渦巻く分身を8体生成
+			ヨーヨーを回収すると分裂して飛び去る
+			敵が近いときは追尾する
+			'''
+		Amarok: 毎秒8本の氷のスパイクを放ち、ヨーヨーのダメージの60%を与える
+		HelFire: 対象に燃焼を付与し、大量の火炎ダメージを与える
+		FormatC:
+			'''
+			ヨーヨーのダメージの80%で渦巻く分身を4体生成
+			ヨーヨーを回収すると分裂して飛び去る
+			'''
+		Abbhor:
+			'''
+			ヨーヨーのダメージの40%を与える中型のダメージオーラを展開
+			20ヒット後、60%を与えるより大きなオーラを生成
+			'''
+		Mambele:
+			'''
+			30ヒット後、残留する火の玉を8発放つ
+			1ヒットおきにのみ発動
+			火の玉のダメージは半減
+			'''
+		CultistYoyo:
+			'''
+			ヨーヨーのダメージの75%を与えるルーンのオーラを生成
+			20ヒット後、85%を与える第2のオーラが元の2倍のサイズに拡大
+			'''
+		Convergence: 合成に使用したすべてのヨーヨーを放つ
+		Code3:
+			'''
+			ヨーヨーのダメージの65%を与える中型のダメージオーラを展開
+			20ヒット後、75%を与えるより大きなオーラが出現
+			'''
+		ChristmasBulb:
+			'''
+			30ヒット後、爆発するオーナメントを8発放つ
+			1ヒットおきにのみ発動
+			オーナメントのダメージは半減
+			'''
+		Catacomb: ランダムにX字に骨を射出する
+		Crowyo: ヨーヨーのダメージの40%を与える黒い追尾羽根を放つ
+		Code1: ヨーヨーのダメージの50%で渦巻く分身を6体生成
+		Rally: ヨーヨーのダメージの50%で渦巻く分身を3体生成
+		EvilYoyos: 命中時に使用者を回復
+		Valor: 接触で爆発する追尾する水弾を生成し、範囲ダメージを与える
+		Cascade: 5ヒットごとに爆発を起こし、ヨーヨーのダメージの150%を与える
+		TrueYoyos: ヨーヨーのダメージの60%を与える大型のダメージオーラを展開
+		Yelets: ヨーヨーのダメージの50%を与える葉を8枚射出
+		Code2: 5ヒットごとにヨーヨーのダメージの50%の爆発を発生
+		Tempest: ヨーヨーのダメージの75%を与える非常に大きなダメージオーラを展開
+		HardmodeYoyos: ヨーヨーのダメージの50%を与える中型のダメージオーラを展開
+		BlackHole: ヨーヨーのダメージの40%を与える巨大な渦を生成
+	}
+
+	Tricks: トリック
+	Rings: 腕輪
+	YoyoCounterweights: ヨーヨー用カウンターウェイト
+	DrillCasings: ドリルケーシング
+	SupportGloves: サポートグローブ
+	LeftHand: 左手
+	YoyoGloves: ヨーヨーグローブ
+	RightHand: 右手
+	YoyoStrings: ヨーヨーストリング
+	VanityStrings: 見た目用ストリング
+	SlotPrefix: このスロットではアイテムの接頭辞は適用されません
+	PrefixWarning: このスロットにある間、このアイテムには接頭辞が適用されません
+	TrickSlot: トリック用のスロットを付与
+	150YoyoRange: "[c/6EAE6E:+150 ヨーヨー射程]"
+	YoyoAbilitySnippet: "[c/6FD4FF:-=ヨーヨー能力=-]"
+	NoAbility: "[c/6FD4FF:このヨーヨーには有効化できる能力や特殊効果がありません]"
+	NoRing: "[c/6FD4FF:アビリティリングが見つかりません。装備してこのヨーヨーの特殊能力を確認しましょう]"
+	HoldDown: "[c/6FD4FF:下キー長押しでヨーヨー能力の情報を表示]"
+	IncreasedYoyoKnockback: ヨーヨーのノックバック増加
+	MasterYoyoSkills: 達人級のヨーヨースキルを付与
+	FastRecall: ヨーヨーの回収速度が上昇
+	AdditionalYoyo: 追加のヨーヨーを1本付与
+	YoyoRings: ヨーヨーの腕輪用スロットを付与
+	SupportGlove: サポートグローブ用スロットを付与
+	DrillsAndCounterweights: ドリルとカウンターウェイト用スロットを付与
+	MoreAccessorySlots: ヨーヨー用アクセサリースロットを追加
+	YoyoShimmer: ヨーヨーがブロックをすり抜け可能
+	CounterweightPerYoyo: ヨーヨーが対象に命中するたびにカウンターウェイトを生成
+}
+

@@ -1,0 +1,71 @@
+Items: {
+	VilePike: {
+		DisplayName: ヴァイル・パイク
+		Tooltip: 凶悪なスイングでダメージが20％増加
+	}
+
+	Bumblebee: {
+		DisplayName: バンブルビー
+		Tooltip: 弱点ダメージが30%増加
+	}
+
+	MagnifyingGlass: {
+		DisplayName: 拡大鏡
+		Tooltip: 弱点ダメージが20%増加
+	}
+
+	AnatomicalDoll: {
+		Tooltip: スピアの弱点サイクルが30%速くなる
+		DisplayName: 解剖学人形
+	}
+
+	StudiesInAnatomy: {
+		DisplayName: 解剖学研究
+		Tooltip:
+			'''
+			スピアの弱点サイクルが30%速くなる
+			弱点ダメージが25%増加
+			'''
+	}
+
+	ParrotFeather: {
+		DisplayName: パロット・クイル
+		Tooltip: スピアの弱点が大きくなる
+	}
+
+	StudiesInMechanicalAnatomy: {
+		DisplayName: 機械解剖学
+		Tooltip:
+			'''
+			スピアの弱点サイクルが40%速くなる
+			弱点ダメージが40%増加
+			近接ダメージが12%増加
+			'''
+	}
+
+	StudiesInUniversalAnatomy: {
+		DisplayName: 万能解剖学
+		Tooltip:
+			'''
+			スピアの弱点がより大きく
+			スピアの弱点サイクルが50%速くなる
+			弱点ダメージが50%増加
+			近接ダメージが15%増加
+			'''
+	}
+}
+
+Projectiles: {
+	VilePikeProjectile: {
+		DisplayName: ヴァイル・パイク
+	}
+
+	BumblebeeProjectile: {
+		DisplayName: バンブルビー・プロジェクタイル
+	}
+
+	BumblebeeProjectileStinger: {
+		DisplayName: バンブルビー・プロジェクタイル・スティンガー
+	}
+}
+

@@ -1,0 +1,627 @@
+Items: {
+	BurningBaselard: {
+		DisplayName: "バーニングバゼラード"
+		Tooltip: "地面に攻撃すると火花を発生させる"
+	}
+
+	Geyser: {
+		DisplayName: "間欠泉"
+		Tooltip: "「火山の軽量版」"
+	}
+
+	UntaintedSaber: {
+		DisplayName: "アンテインテッドセイバー"
+		Tooltip: "燃えている敵を消火し、深刻な裂傷を与える"
+	}
+
+	EarthShatter: {
+		DisplayName: "アースシャッター"
+		Tooltip: ""
+	}
+
+	PlasmaBeacon: {
+		DisplayName: "プラズマビーコン"
+		Tooltip: "連続プラズマビームを発射する"
+	}
+
+	PyrotexGlove: {
+		DisplayName: "大佐の爆発グローブ"
+		Tooltip: "カーソル位置に爆発を発生させる"
+	}
+
+	TheFireLord: {
+		DisplayName: "ザ・ファイアロード"
+		Tooltip: "「この世界のすべての力を我が手に！」"
+	}
+
+	Welder: {
+		DisplayName: "ウェルダー"
+		Tooltip: "レーザーのダメージは距離に応じて減衰する"
+	}
+
+	AzulFlame: {
+		DisplayName: "アズールフレイム"
+		Tooltip: "青いフレア弾を水のフレア弾に変換する"
+	}
+
+	Blightsear: {
+		DisplayName: "ブライトシア"
+		Tooltip: ""
+	}
+
+	BloodFlareGun: {
+		DisplayName: "ブラッドフレアガン"
+		Tooltip: "フレアを血のフレアに変換する"
+	}
+
+	ClockworkFlareGun: {
+		DisplayName: "クロックワークフレアガン"
+		Tooltip: "2発バーストでフレアを発射する"
+	}
+
+	DarkSignal: {
+		DisplayName: "ダークシグナル"
+		Tooltip: "ブルーフレアをシャドウフレアに変換する"
+	}
+
+	Exterminator: {
+		DisplayName: "エクスターミネーター"
+		Tooltip: "「どこか見覚えがある気がする」"
+	}
+
+	HallowedFlareGun: {
+		DisplayName: "神聖なフレアガン"
+		Tooltip: ""
+	}
+
+	HeatWave: {
+		DisplayName: "ヒートウェイブ"
+		Tooltip:
+			'''
+			爆発する炎の拳を発射することがある
+			「我が正義は燃え上がる！」
+			'''
+	}
+
+	MaterialNotRifle: {
+		DisplayName: "マテリアルントライフル"
+		Tooltip:
+			'''
+			大爆発弾を発射する
+			「去れ！」
+			'''
+	}
+
+	PoisonFury: {
+		DisplayName: "ポイズンフューリー"
+		Tooltip: "「植物ベースの火炎放射器が一体どうやって動くんだ？？」"
+	}
+
+	Revolnade: {
+		DisplayName: "リボリューショナリーアクション"
+		Tooltip: "グレネードを弾薬として使用する"
+	}
+
+	ScorchShot: {
+		DisplayName: "スコーチショット"
+		Tooltip: "フレアをブレイザーに変換する"
+	}
+
+	SFG: {
+		DisplayName: "SFG"
+		Tooltip:
+			'''
+			「腕を完全に破壊する」
+			「ついでに敵も破壊してくれる」
+			'''
+	}
+
+	Sparkler: {
+		DisplayName: "スパークラー"
+		Tooltip:
+			'''
+			ひもを強く引けば火花が出るかもしれない
+			「すべてのフレアガンの基礎」
+			'''
+	}
+
+	SolarStorm: {
+		DisplayName: "ソーラーストーム"
+		Tooltip:
+			'''
+			フレアをソーラーフレアに変換する
+			「太陽のエネルギーを活用して敵を蒸発させろ！」
+			'''
+	}
+
+	SpacePenguinFlareGun: {
+		DisplayName: "S.P.F.G."
+		Tooltip: "「宇宙の中心からやってきた」"
+	}
+
+	TerraFlame: {
+		DisplayName: "テラフレイム"
+		Tooltip: "作成に使用されたフレアガンに基づいてランダムなフレアを発射する"
+	}
+
+	SporeFlare: {
+		DisplayName: "胞子のフレア弾"
+		Tooltip: "フレアが毒で覆われる可能性がある"
+	}
+
+	TrueDarkSignal: {
+		DisplayName: "真・ダークシグナル"
+		Tooltip: "作成に使用されたフレアガンに基づいてランダムなフレアを発射する"
+	}
+
+	TrueHallowedFlareGun: {
+		DisplayName: "真・神聖なフレアガン"
+		Tooltip: ""
+	}
+
+	VileflareGun: {
+		DisplayName: "ヴァイルフレアガン"
+		Tooltip: "フレアをヴァイルフレア弾に変換する"
+	}
+
+	WyvernsWrath: {
+		DisplayName: "ワイバーンズラース"
+		Tooltip: "単一のファイアバーストを発射する"
+	}
+
+	AcidFlare: {
+		DisplayName: "アシッドフレア弾"
+		Tooltip: ""
+	}
+
+	HighVelocityFlare: {
+		DisplayName: "高速フレア弾"
+		Tooltip: ""
+	}
+
+	SkullFlareItem: {
+		DisplayName: "スカルフレア弾"
+		Tooltip: "「診断結果：スキルの問題です」"
+	}
+
+	EndlessFlareBox: {
+		DisplayName: "無限フレアボックス"
+		Tooltip:
+			'''
+			フレアが尽きることがない
+			あらゆる種類のフレアに変換可能
+			'''
+	}
+
+	HighExplosiveBullet: {
+		DisplayName: "大爆発弾"
+		Tooltip: ""
+	}
+
+	CoolantPotion: {
+		DisplayName: "冷却のポーション"
+		Tooltip: "火炎系ダメージを軽減する"
+	}
+
+	Blacklight: {
+		DisplayName: "ブラックライト"
+		Tooltip:
+			'''
+			「光を消費する...」
+			発射したフレアの消失速度が速くなる
+			'''
+		Activate: "ブラックライトを起動"
+		Deactivate: "ブラックライトを停止"
+	}
+
+	SoulstoneKeys: {
+		DisplayName: "ソウルストーンキー"
+		Tooltip: "ノーマン・インダストリーズ・ファクトリーへのアクセス権を与える"
+	}
+
+	Starlight: {
+		DisplayName: "スターライト"
+		Tooltip:
+			'''
+			「その光は眩しい」
+			発射したフレアからの光量を永続的に向上させる
+			'''
+	}
+
+	FactoryWorkstationItem: {
+		DisplayName: "ファクトリーの作業台"
+		Tooltip: ""
+	}
+
+	OnslaughtTerminalItem: {
+		DisplayName: "オンスロート端末"
+		Tooltip: "オンスロート端末"
+	}
+
+	SteelChestItem: {
+		DisplayName: "鋼鉄のチェスト"
+		Tooltip: ""
+	}
+
+	PressurizedNozzle: {
+		DisplayName: "加圧ノズル"
+		Tooltip: "火炎放射器の攻撃範囲を延長する"
+	}
+
+	CopperBacktank: {
+		DisplayName: "銅のバックタンク"
+		Tooltip: "8%の確率でジェルを消費しない"
+	}
+
+	TinBacktank: {
+		DisplayName: "錫のバックタンク"
+		Tooltip: "8%の確率でジェルを消費しない"
+	}
+
+	CobaltBacktank: {
+		DisplayName: "コバルトのバックタンク"
+		Tooltip: "16%の確率でジェルを消費しない"
+	}
+
+	PalladiumBacktank: {
+		DisplayName: "パラジウムのバックタンク"
+		Tooltip: "16%の確率でジェルを消費しない"
+	}
+
+	SoulstoneBacktank: {
+		DisplayName: "ソウルストーンのバックタンク"
+		Tooltip: "33%の確率でジェルを消費しない"
+	}
+
+	LuminiteBacktank: {
+		DisplayName: "ルミナイトのバックタンク"
+		Tooltip: "66%の確率でジェルを消費しない"
+	}
+
+	FactorySoulCrystal: {
+		DisplayName: "「ソウルクリスタル（ファクトリー）」"
+		Tooltip:
+			'''
+			ダメージ軽減が20%上昇
+			200ダメージ受けると、1分間以下の効果が発動：
+			与ダメージと被ダメージが50%増加
+			移動速度が5%上昇
+			攻撃が「ヘルファイア」を与える
+			'''
+	}
+
+	HeatResistantPlastic: {
+		DisplayName: "耐熱プラスチック"
+		Tooltip: "「適度に高い温度で溶けにくいプラスチック」"
+	}
+
+	RustedCaller: {
+		DisplayName: "錆びたコーラー"
+		Tooltip: "「錆びてすり減ってもう使い物にならない...のか？」"
+	}
+
+	SoulstonePlating: {
+		DisplayName: "ソウルストーンプレート"
+		Tooltip: ""
+	}
+
+	Veinsinge: {
+		DisplayName: "ヴェインシンジ"
+		Tooltip: ""
+	}
+}
+
+FactoryIntercom: {
+	IntruderAlert:
+		'''
+		侵入者警報。コアで異常発見。侵入者警報。コアで異常発見。
+		優先事項更新：異常体を排除せよ。優先事項更新：異常体を排除せよ。
+		'''
+	EvacuateFactory:
+		'''
+		コアに深刻な損傷。コアに深刻な損傷。
+		優先事項更新：避難せよ。優先事項更新：避難せよ。
+		'''
+	NeutralizedAnomaly:
+		'''
+		異常体無力化。異常体無力化。
+		優先事項更新：修理と復旧。優先事項更新：修理と復旧。
+		'''
+}
+
+Projectiles: {
+	GeyserExplosion: {
+		DisplayName: "ガイザーエクスプロージョン"
+	}
+
+	FlameBaselard: {
+		DisplayName: "バーニングバゼラード"
+	}
+
+	FlameBase: {
+		DisplayName: "フレイムベース"
+	}
+
+	FlameJavelin: {
+		DisplayName: "フレイムジャベリン"
+	}
+
+	AquaFlare: {
+		DisplayName: "アクアフレア"
+	}
+
+	Blazer: {
+		DisplayName: "ブレイザー"
+	}
+
+	Bloodflare: {
+		DisplayName: "ブラッドフレア"
+	}
+
+	HighVelocityFlare: {
+		DisplayName: "高速フレア"
+	}
+
+	PoisonFlare: {
+		DisplayName: "ポイズンフレア"
+	}
+
+	ScorchShotExplosion: {
+		DisplayName: "ブレイザー爆発"
+	}
+
+	ShadowFlare: {
+		DisplayName: "シャドウフレア"
+	}
+
+	SkullFlare: {
+		DisplayName: "スカルフレア"
+	}
+
+	SmallFrikinFlare: {
+		DisplayName: "スモール・フリッキン・フレア"
+	}
+
+	SolarFlare: {
+		DisplayName: "ソーラーフレア"
+	}
+
+	Vileflare: {
+		DisplayName: "ヴァイルフレア"
+	}
+
+	IonLaser: {
+		DisplayName: "イオンビーム"
+	}
+
+	PhotonLaser: {
+		DisplayName: "フォトンレーザー"
+	}
+
+	PlasmaLaser: {
+		DisplayName: "プラズマレイ"
+	}
+
+	SFGHeld: {
+		DisplayName: "SFG"
+	}
+
+	SFGCork: {
+		DisplayName: "SFGコルク"
+	}
+
+	ApproachingStorm: {
+		DisplayName: "アプローチング・ストーム"
+	}
+
+	AreusFlare: {
+		DisplayName: "アレウスフレア"
+	}
+
+	AreusShard: {
+		DisplayName: "アレウスシャード"
+	}
+
+	LightningBolt: {
+		DisplayName: "ライトニングボルト"
+	}
+
+	PlasmaBeaconProj: {
+		DisplayName: "プラズマビーコン弾"
+	}
+
+	HighExplosiveBullet: {
+		DisplayName: "高爆発弾"
+	}
+
+	ConvertibleFlare: {
+		DisplayName: "コンバーチブルフレア"
+	}
+
+	FrostbiteExplosion: {
+		DisplayName: "フロストバイト爆発"
+	}
+
+	FrostbiteFlare: {
+		DisplayName: "フロストバイトフレア"
+	}
+
+	SmallFrickinFlare: {
+		DisplayName: "スモール・フリッキン・フレア"
+	}
+
+	LargeSpark: {
+		DisplayName: "大型スパーク爆発"
+	}
+
+	SmallSpark: {
+		DisplayName: "小型スパーク爆発"
+	}
+
+	BloodSpray: {
+		DisplayName: "ブラッドスプレー"
+	}
+
+	AcidFlare: {
+		DisplayName: "アシッドフレア"
+	}
+
+	FlameFist: {
+		DisplayName: "フレイムフィスト"
+	}
+
+	WelderLaser: {
+		DisplayName: "ウェルダーレーザー"
+	}
+
+	BlightFlame: {
+		DisplayName: "ブライトフレイム"
+	}
+
+	PoisonFlame: {
+		DisplayName: "ポイズンフレイム"
+	}
+
+	ShadowFlame: {
+		DisplayName: "シャドウフレイム"
+	}
+
+	BloodFlame: {
+		DisplayName: "ブラッドフレイム"
+	}
+}
+
+Buffs: {
+	BloodBoil: {
+		DisplayName: "ブラッドボイル"
+		Description: "防御力が減少"
+	}
+
+	Burning: {
+		DisplayName: "燃焼"
+		Description: "ライフを失う"
+	}
+
+	CoreOverheat: {
+		DisplayName: "コアオーバーヒート"
+		Description:
+			'''
+			「コアが溶けている」
+			与ダメージと被ダメージが50%増加
+			移動速度が5%上昇
+			攻撃が「ヘルファイア」を与える
+			'''
+	}
+
+	Crippled: {
+		DisplayName: "重傷"
+		Description: "防御力が失われた"
+	}
+
+	Coolant: {
+		DisplayName: "冷却剤"
+		Description: "火炎系ダメージを軽減"
+	}
+
+	Hemorrhaging: {
+		DisplayName: "大出血"
+		Description: "Mods.NotEnoughFlareGuns.Buffs.Hemorrhaging.Description"
+	}
+
+	Wyvern: {
+		DisplayName: "ワイバーン"
+		Description: "遠距離ダメージと攻撃速度が15%上昇"
+	}
+
+	BlightFire: {
+		DisplayName: "ブライトファイア"
+		Description: "Mods.NotEnoughFlareGuns.Buffs.BlightFire.Description"
+	}
+}
+
+NPCs: {
+	SoulstoneCore: {
+		DisplayName: "ザ・ソウルストーンコア"
+	}
+
+	PlasmaTurret: {
+		DisplayName: "プラズマタレット"
+	}
+
+	PhotonTurret: {
+		DisplayName: "フォトンタレット"
+	}
+
+	IonTurret: {
+		DisplayName: "イオンタレット"
+	}
+}
+
+NPCBestiary: {
+	SoulstoneCore: "油圧プレスのリズミカルな轟音が響き、蒸気の排出音が耳を突き、コアの監視する目があなたの魂を見つめている。"
+	PlasmaTurret: ""
+	PhotonTurret: ""
+	IonTurret: ""
+}
+
+Tiles: {
+	FactoryWorkstation: {
+		MapEntry: "ファクトリーの作業台"
+	}
+
+	OnslaughtTerminal: {
+		MapEntry: "オンスロート端末"
+	}
+
+	SteelChest: {
+		MapEntry0: "鋼鉄のチェスト"
+		MapEntry1: "チェーン付き鋼鉄のチェスト"
+		ContainerName: "鋼鉄のチェスト"
+
+		Mods: {
+			NotEnoughFlareGuns: {
+				Tiles: {
+					SteelChest: {
+						MapEntry0: Mods.NotEnoughFlareGuns.Tiles.SteelChest.Mods.NotEnoughFlareGuns.Tiles.SteelChest.MapEntry0
+						MapEntry1: Mods.NotEnoughFlareGuns.Tiles.SteelChest.Mods.NotEnoughFlareGuns.Tiles.SteelChest.MapEntry1
+					}
+				}
+			}
+		}
+	}
+}
+
+CustomDeathReason: {
+	Factory: "{0}はファクトリーと共に爆発した。"
+}
+
+Condition: {
+	SacrificeEnchantedSword: "地下世界でエンチャントソードを捧げる"
+}
+
+Configs: {
+	Headers: {
+		SoundHeader: "[i:890] サウンド"
+	}
+
+	NEFGServerConfig: {
+		DisplayName: "サーバー側設定"
+
+		IntercomAudio: {
+			Label: "[i:NotEnoughFlareGuns/OnslaughtTerminalItem] オンスロートインターコム音声"
+			Tooltip: "ファクトリーオンスロート中のインターコム音声を有効にします。"
+		}
+
+		Headers: {
+			SoundHeader: "サウンドヘッダー"
+		}
+	}
+}
+
+BossChecklistIntegration: {
+	FactoryOnslaught: {
+		EntryName: "ファクトリーオンスロート"
+		SpawnInfo: "[i:5619]を作成・使用して、入場後[i:5615]と相互作用する。"
+	}
+}
+

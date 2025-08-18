@@ -1,0 +1,29 @@
+Items: {
+	AnkhShieldOfCthulhu: {
+		DisplayName: クトゥルフ・聖十字のお守り
+		Tooltip:
+			'''
+			敵にダッシュできる（方向キーを素早く2回押す）
+			ノックバック、火炎ブロック、ほとんどのデバフへの耐性を付与
+			'''
+	}
+
+	CobaltShieldOfCthulhu: {
+		DisplayName: クトゥルフ・コバルトの盾
+		Tooltip:
+			'''
+			敵にダッシュできる（方向キーを素早く2回押す）
+			ノックバックへの耐性を付与
+			'''
+	}
+
+	ObsidianShieldOfCthulhu: {
+		DisplayName: クトゥルフ・黒曜石の盾
+		Tooltip:
+			'''
+			敵にダッシュできる（方向キーを素早く2回押す）
+			ノックバックと火炎ブロックへの耐性を付与
+			'''
+	}
+}
+

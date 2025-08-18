@@ -1,0 +1,128 @@
+Configs: {
+	NightConfig: {
+		DisplayName: 夜空 設定
+
+		StarCount: {
+			Label: 星の数
+			Tooltip: 空に表示される星の数を調整します。この変更には再読み込みが必要です
+		}
+
+		UseHighResMoon: {
+			Label: リアルな月
+			Tooltip: 月を高解像度な物に置き換えます
+		}
+
+		MoonScale: {
+			Label: 月のサイズスケール
+			Tooltip: 月のサイズを調整します（バニラ/リアルな月の両方が対象）
+		}
+
+		AetherStarVelocity: {
+			Label: エーテルの星の速度
+			Tooltip: エーテルの星の移動速度を調整します
+		}
+
+		AetherStarOffset: {
+			Label: エーテルの星（カメラオフセット）
+			Tooltip: カメラ位置に基づいてエーテルの星のXオフセットを調整します
+		}
+
+		AetherCelestialBodies: {
+			Label: エーテル天体
+			Tooltip: エーテルに惑星や星雲を表示します
+		}
+
+		CelestialBodies: {
+			Label: 天体
+			Tooltip: 空に表示される天体を設定します
+		}
+	}
+
+	NightConfigCelestialBodies: {
+		DisplayName: 天体
+		HeaderVisibility: 表示する天体を設定します
+
+		AltitudeHeight: {
+			Label: 天体高度
+			Tooltip:
+				'''
+				ワールドの高さの割合で、天体がフェードアウトする高さを設定します
+				宇宙の高さでフェードインするように、0.10や0.15などの低い値が理想的です。0.3以上の値は地面以下になります
+				エーテルバイオームには影響しません
+				'''
+		}
+
+		altitudeFadingPercent: {
+			Label: フェード割合
+			Tooltip: ワールドの高さの割合で、天体のフェードイン・フェードアウトを調整します
+		}
+
+		CelestialBodyOn8: {
+			Label: 火星
+			Tooltip: ""
+		}
+
+		CelestialBodyOn9: {
+			Label: 土星
+			Tooltip: ""
+		}
+
+		CelestialBodyOn10: {
+			Label: 木星
+			Tooltip: ""
+		}
+
+		CelestialBodyOn11: {
+			Label: 水星
+			Tooltip: ""
+		}
+
+		CelestialBodyOn12: {
+			Label: かに星雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn13: {
+			Label: アンドロメダ銀河
+			Tooltip: ""
+		}
+
+		CelestialBodyOn14: {
+			Label: キャッツアイ星雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn15: {
+			Label: カリーナ星雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn16: {
+			Label: さんかく座銀河
+			Tooltip: ""
+		}
+
+		CelestialBodyOn17: {
+			Label: 大マゼラン雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn18: {
+			Label: 小マゼラン雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn19: {
+			Label: らせん星雲
+			Tooltip: ""
+		}
+
+		CelestialBodyOn20: {
+			Label: 天王星
+			Tooltip: ""
+		}
+
+		Tooltip: ""
+	}
+}
+

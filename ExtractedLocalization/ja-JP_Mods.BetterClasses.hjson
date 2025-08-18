@@ -1,0 +1,8017 @@
+Conditions: {
+	PlayerHasShadowbloodBufff: Mods.BetterClasses.Conditions.PlayerHasShadowbloodBufff
+}
+
+NPCs: {
+	ShadowThief: {
+		Census: {
+			SpawnCondition: Spawned by using a Corroded Dagger in the forest
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate how loud {NPCName} is.
+			DislikeNPC: I dislike {NPCName} because I hate the way they do their job.
+			LikeNPC: I like {NPCName}, our friendship goes way back.
+			LoveNPC: I love how relatable me and {NPCName} are.
+			HateBiome: I hate the vibe of the {BiomeName}
+			DislikeBiome: I dislike the atmosphere of the {BiomeName}.
+			LikeBiome: I like how peaceful the {BiomeName} is.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how I can't steal things without being caught.
+			DislikeCrowded: I dislike how little privacy I have.
+			LoveSpace: I love having so much room to do my magic.
+			FarFromHome: I am too far from shelter.
+			NoHome: I hate not having a roof over my head.
+			Content: I am content.
+		}
+
+		DisplayName: Shadow Thief
+	}
+
+	ExamplePerson: {
+		Census: {
+			SpawnCondition: Conditions unknown
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			DislikeNPC: I dislike {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			HateCrowded: I hate how crowded I am.
+			DislikeCrowded: I dislike how crowded I am.
+			LoveSpace: I love having so much space.
+			FarFromHome: I am too far from home.
+			NoHome: I hate not having a home.
+			Content: I am content.
+		}
+
+		DisplayName: Example Person
+	}
+}
+
+DamageClasses: {
+	TacticalRangedDamageClass: {
+		DisplayName: tactical ranged damage
+	}
+
+	EnchantedMagicDamageClass: {
+		DisplayName: enchanted magic damage
+	}
+
+	BarbaricMeleeDamageClass: {
+		DisplayName: barbaric melee damage
+	}
+
+	BewitchedSummonDamageClass: {
+		DisplayName: bewitched summon damage
+	}
+
+	FlyDamageClass: {
+		DisplayName: fly damage
+	}
+
+	WindDamageClass: {
+		DisplayName: wind damage
+	}
+
+	FireworkDamageClass: {
+		DisplayName: firework damage
+	}
+
+	BreakfastDamageClass: {
+		DisplayName: breakfast damage
+	}
+
+	MultiClass: {
+		DisplayName: Multi Class
+	}
+}
+
+Configs: {
+	BetterClassesConfig: {
+		ExampleWingsToggle: {
+			Tooltip: Mods.BetterClasses.Config.ExampleWingsToggle.Tooltip
+			Label: Mods.BetterClasses.Config.ExampleWingsToggle.Label
+		}
+
+		DisplayName: Better Classes Config
+	}
+}
+
+Projectiles: {
+	FingerGunProjectile: {
+		DisplayName: Finger Gun Projectile
+	}
+
+	TrashCollectorProjectile7: {
+		DisplayName: Trash Collector Projectile7
+	}
+
+	SiegeBowProjectile: {
+		DisplayName: Siege Bow Projectile
+	}
+
+	SiegeBowHoldout: {
+		DisplayName: Siege Bow Holdout
+	}
+
+	SiegeBowBeam: {
+		DisplayName: Siege Bow Beam
+	}
+
+	RetroGunProjectile: {
+		DisplayName: Retro Gun Projectile
+	}
+
+	SoulWhipProjectile: {
+		DisplayName: Soul Whip Projectile
+	}
+
+	ManaCrystalLauncherProjectile: {
+		DisplayName: Mana Crystal Launcher Projectile
+	}
+
+	ManaCrystalLauncherHoldout: {
+		DisplayName: Mana Crystal Launcher Holdout
+	}
+
+	ManaCrystalLauncherBeam: {
+		DisplayName: Mana Crystal Launcher Beam
+	}
+
+	HellBringerProjectile2: {
+		DisplayName: Hell Bringer Projectile2
+	}
+
+	TrapArmorProjectile: {
+		DisplayName: Trap Armor Projectile
+	}
+
+	VenomizedSpiderScepterProjectile2: {
+		DisplayName: Venomized Spider Scepter Projectile2
+	}
+
+	VenomizedSpiderScepterProjectile: {
+		DisplayName: Venomized Spider Scepter Projectile
+	}
+
+	SunPowerStaffProjectile: {
+		DisplayName: Sun Power Staff Projectile
+	}
+
+	CrystalWandProjectile2: {
+		DisplayName: Crystal Wand Projectile2
+	}
+
+	CrystalWandProjectile: {
+		DisplayName: Crystal Wand Projectile
+	}
+
+	NaturesRevengeProjectile2: {
+		DisplayName: Natures Revenge Projectile2
+	}
+
+	FungiSpellProjectile: {
+		DisplayName: Fungi Spell Projectile
+	}
+
+	SnowyDollProjectile: {
+		DisplayName: Snowy Doll Projectile
+	}
+
+	DustDevilProjectile: {
+		DisplayName: Dust Devil Projectile
+	}
+
+	ToxicRifleProjectile2: {
+		DisplayName: Toxic Rifle Projectile2
+	}
+
+	ToxicRifleProjectile: {
+		DisplayName: Toxic Rifle Projectile
+	}
+
+	IceCubeScepterProjectile2: {
+		DisplayName: Ice Cube Scepter Projectile2
+	}
+
+	IceCubeScepterProjectile: {
+		DisplayName: Ice Cube Scepter Projectile
+	}
+
+	HellSerpentScepterProjectile2: {
+		DisplayName: Hell Serpent Scepter Projectile2
+	}
+
+	HellSerpentScepterProjectile: {
+		DisplayName: Hell Serpent Scepter Projectile
+	}
+
+	HarvesterSwingProjectile: {
+		DisplayName: Harvester Swing Projectile
+	}
+
+	ExecutionAxeSwingProjectile: {
+		DisplayName: Execution Axe Swing Projectile
+	}
+
+	ExecutionerAxeSwingProjectile: {
+		DisplayName: Executioner Axe Swing Projectile
+	}
+
+	SpiderScepterProjectile2: {
+		DisplayName: Spider Scepter Projectile2
+	}
+
+	SpiderScepterProjectile: {
+		DisplayName: Spider Scepter Projectile
+	}
+
+	BattleBladeSwingProjectile2: {
+		DisplayName: Battle Blade Swing Projectile2
+	}
+
+	OtherworldlyScarProjectile: {
+		DisplayName: Otherworldly Scar Projectile
+	}
+
+	TeslaCannonProjectile: {
+		DisplayName: Tesla Bolt
+	}
+
+	TeslaCannonHoldout: {
+		DisplayName: Tesla Cannon
+	}
+
+	TeslaCannonBeam: {
+		DisplayName: Tesla Cannon
+	}
+
+	InfernoWrathProjectile: {
+		DisplayName: Wrath Fireball
+	}
+
+	Magic8BallProjectile6: {
+		DisplayName: Magic8 Ball
+	}
+
+	Magic8BallProjectile5: {
+		DisplayName: Magic8 Ball
+	}
+
+	Magic8BallProjectile4: {
+		DisplayName: Magic8 Ball
+	}
+
+	Magic8BallProjectile3: {
+		DisplayName: Magic8 Ball
+	}
+
+	Magic8BallProjectile2: {
+		DisplayName: Magic8 Ball
+	}
+
+	Magic8BallProjectile: {
+		DisplayName: Magic8 Ball
+	}
+
+	YappinatorProjectile: {
+		DisplayName: Yappinator
+	}
+
+	WeatherDualsProjectile2: {
+		DisplayName: Weather Duals
+	}
+
+	WeatherDualsProjectile: {
+		DisplayName: Weather Duals
+	}
+
+	StardustDollProjectile2: {
+		DisplayName: Stardust Arrow
+	}
+
+	StardustDollProjectile: {
+		DisplayName: Stardust Arrow
+	}
+
+	SeedlingProjectile2: {
+		DisplayName: Seedling
+	}
+
+	ShadowflameArrowProjectile: {
+		DisplayName: Shadowflame Arrow
+	}
+
+	CupidsBowProjectile3: {
+		DisplayName: Cupids Arrow
+	}
+
+	StickyDollProjectile: {
+		DisplayName: Sticky Arrow
+	}
+
+	FlyshooterProjectile: {
+		DisplayName: Fly
+	}
+
+	StrongWindsProjectile: {
+		DisplayName: Strong Winds
+	}
+
+	BlockyCrossbowProjectile: {
+		DisplayName: Blocky Firework
+	}
+
+	MushroomDualsProjectile2: {
+		DisplayName: Mushroom Duals
+	}
+
+	MushroomDualsProjectile: {
+		DisplayName: Mushroom Duals
+	}
+
+	MarbleGraniteDualsProjectile2: {
+		DisplayName: Marble Granite Duals
+	}
+
+	MarbleGraniteDualsProjectile: {
+		DisplayName: Marble Granite Duals
+	}
+
+	BloodfangProjectile: {
+		DisplayName: Bloodfang
+	}
+
+	BulletCannonProjectile: {
+		DisplayName: Bullet Cannon
+	}
+
+	BouncyBlasterProjectile: {
+		DisplayName: Bouncy Blaster
+	}
+
+	RuneCannonProjectile: {
+		DisplayName: Rune Rocket
+	}
+
+	MeteorShortbowProjectile: {
+		DisplayName: Meteor Arrow
+	}
+
+	DarkPortalEnergyProjectile: {
+		DisplayName: Dark Portal Energy
+	}
+
+	CursedPortalEnergyProjectile: {
+		DisplayName: Cursed Portal Energy
+	}
+
+	SkyProtectorEnergyProjectile: {
+		DisplayName: Sky Protector
+	}
+
+	FutureSurpriseProjectile: {
+		DisplayName: Future Surprise
+	}
+
+	FutureSurpriseHoldout: {
+		DisplayName: Future Surprise
+	}
+
+	FutureSurpriseBeam: {
+		DisplayName: Future Surprise
+	}
+
+	GlassCannonHoldout2: {
+		DisplayName: Glass Cannon
+	}
+
+	LifeCrystalLauncherProjectile: {
+		DisplayName: Life Crystal
+	}
+
+	LifeCrystalLauncherHoldout: {
+		DisplayName: Life Crystal Launcher
+	}
+
+	LifeCrystalLauncherBeam: {
+		DisplayName: Life Crystal Launcher
+	}
+
+	KnockoutBagProjectile2: {
+		DisplayName: Knockout Bag
+	}
+
+	RedRomanCandleProjectile: {
+		DisplayName: Red Roman Candle
+	}
+
+	GreenRomanCandleProjectile: {
+		DisplayName: Green Roman Candle
+	}
+
+	BlueRomanCandleProjectile: {
+		DisplayName: Blue Roman Candle
+	}
+
+	HellBringerProjectile: {
+		DisplayName: Hell Bringer
+	}
+
+	SolarExplosionProjectile2: {
+		DisplayName: Solar Explosion
+	}
+
+	DarkestDaggerHoldout: {
+		DisplayName: Darkest Dagger
+	}
+
+	DarkestDaggerBeam: {
+		DisplayName: Darkest Dagger
+	}
+
+	ImprovedAmazonProjectile2: {
+		DisplayName: Amazon
+	}
+
+	ShadowPhoenixProjectile3: {
+		DisplayName: Shadow Phoenix Projectile3
+	}
+
+	GoldenAchievementProjectile: {
+		DisplayName: Golden Achievement Projectile
+	}
+
+	YappinatorHoldout: {
+		DisplayName: Yappinator
+	}
+
+	YappinatorBeam: {
+		DisplayName: Yappinator
+	}
+
+	InstantDetonationProjectile: {
+		DisplayName: Instant Detonation
+	}
+
+	InfernoHandProjectile: {
+		DisplayName: Inferno Hand
+	}
+
+	WeaknessPolicyProjectile: {
+		DisplayName: Weakness Policy Projectile
+	}
+
+	ShimmerDartProjectile: {
+		DisplayName: Shimmer Dart Projectile
+	}
+
+	WinterfishProjectile: {
+		DisplayName: Winterfish Projectile
+	}
+
+	HandCannonHoldout: {
+		DisplayName: Hand Cannon
+	}
+
+	HandCannonBeam: {
+		DisplayName: Hand Cannon
+	}
+
+	ThornfishProjectile: {
+		DisplayName: Thornfish Projectile
+	}
+
+	WorldBreakerProjectile: {
+		DisplayName: World Breaker Projectile
+	}
+
+	WorldBreakerHoldout: {
+		DisplayName: World Breaker
+	}
+
+	WorldBreakerBeam: {
+		DisplayName: World Breaker
+	}
+
+	TestHoldout: {
+		DisplayName: Test
+	}
+
+	TestBeam: {
+		DisplayName: Test
+	}
+
+	CloudStaffHoldout: {
+		DisplayName: Cloud Staff
+	}
+
+	CloudStaffBeam: {
+		DisplayName: Cloud Staff
+	}
+
+	FryingPanProjectile2: {
+		DisplayName: Egg Yolk
+	}
+
+	FryingPanProjectile: {
+		DisplayName: Bacon
+	}
+
+	FishgunProjectile2: {
+		DisplayName: Fishgun
+	}
+
+	FishGunProjectile: {
+		DisplayName: Fishgun Bullet
+	}
+
+	EnergyFishProjectile2: {
+		DisplayName: Granite Bolt
+	}
+
+	EnergyFishProjectile: {
+		DisplayName: Granite Rock
+	}
+
+	ImprovedSunfuryProjectile2: {
+		DisplayName: Sunflames
+	}
+
+	TetheredRockProjectile: {
+		DisplayName: Tethered Rock
+	}
+
+	ExplosiveSeaProjectile: {
+		DisplayName: Explosive Sea
+	}
+
+	CandiruEnergyProjectile: {
+		DisplayName: Candiru
+	}
+
+	EnchantedTridentProjectile2: {
+		DisplayName: Enchanted Trident
+	}
+
+	EnchantedTridentProjectile: {
+		DisplayName: Enchanted Trident
+	}
+
+	SeaweepProjectile: {
+		DisplayName: Seaweep
+	}
+
+	MarbleSpikefishProjectile2: {
+		DisplayName: Marble Spikefish
+	}
+
+	MarbleSpikefishProjectile: {
+		DisplayName: Marble Spikefish
+	}
+
+	SeveredIchorStickerProjectile2: {
+		DisplayName: Ichor Fireball
+	}
+
+	SeveredClingerProjectile2: {
+		DisplayName: Cursed Fireball
+	}
+
+	FlashlightHoldout: {
+		DisplayName: Flashlight
+	}
+
+	FlashlightBeam: {
+		DisplayName: Flashlight
+	}
+
+	ColorPartyHoldout: {
+		DisplayName: Color Party
+	}
+
+	ColorPartyBeam: {
+		DisplayName: Color Party
+	}
+
+	SuperChargerHoldout: {
+		DisplayName: Super Charger
+	}
+
+	SuperChargerBeam: {
+		DisplayName: Super Charger
+	}
+
+	LunarDartProjectile2: {
+		DisplayName: Lunar Dart
+	}
+
+	PumpkinCoreProjectile2: {
+		DisplayName: Pumpkin Core
+	}
+
+	SpaceDaggerHoldout: {
+		DisplayName: Space Dagger
+	}
+
+	SpaceDaggerBeam: {
+		DisplayName: Space Dagger
+	}
+
+	ShamanTabletProjectile: {
+		DisplayName: Purifying Spell
+	}
+
+	UnstableBrickProjectile: {
+		DisplayName: Unstable Brick
+	}
+
+	TestClubProjectile: {
+		DisplayName: Test Club
+	}
+
+	ChristmasCheerEnergyProjectile: {
+		DisplayName: Christmas Cheer
+	}
+
+	BigClubProjectile: {
+		DisplayName: Big Club
+	}
+
+	ShamanStaffProjectile: {
+		DisplayName: Purifying Spell
+	}
+
+	FrostMachineProjectile: {
+		DisplayName: Ice Ball
+	}
+
+	FrostMachineHoldout: {
+		DisplayName: Frost Machine
+	}
+
+	FrostMachineBeam: {
+		DisplayName: Frost Machine
+	}
+
+	TheEraserHoldout: {
+		DisplayName: The Eraser
+	}
+
+	TheEraserBeam: {
+		DisplayName: The Eraser
+	}
+
+	FrozenMachineProjectile: {
+		DisplayName: Ice Ball
+	}
+
+	FrozenMachineHoldout: {
+		DisplayName: Frozen Machine
+	}
+
+	FrozenMachineBeam: {
+		DisplayName: Frozen Machine
+	}
+
+	OrnamentsOfDoomProjectile2: {
+		DisplayName: Ornaments Of Doom
+	}
+
+	OrnamentsOfDoomProjectile: {
+		DisplayName: Ornaments Of Doom
+	}
+
+	FlamingWoodKunaiProjectile2: {
+		DisplayName: Flaming Wood Kunai
+	}
+
+	FlamingWoodKunaiProjectile: {
+		DisplayName: Flaming Wood Kunai
+	}
+
+	PumpkinCoreProjectile: {
+		DisplayName: Pumpkin Core
+	}
+
+	ExplosiveHolidayProjectile: {
+		DisplayName: Holiday Missile
+	}
+
+	SparklingStaffProjectile: {
+		DisplayName: Sparkling Bolt
+	}
+
+	TerraDaggerEnergyProjectile2: {
+		DisplayName: Terra Dagger
+	}
+
+	TranquilizerHoldout: {
+		DisplayName: Tranquilizer
+	}
+
+	TranquilizerBeam: {
+		DisplayName: Tranquilizer
+	}
+
+	ChlorophyteTranquilizerProjectile: {
+		DisplayName: Chlorophyte Tranquilizer
+	}
+
+	ChlorophyteTranquilizerHoldout: {
+		DisplayName: Chlorophyte Tranquilizer
+	}
+
+	ChlorophyteTranquilizerBeam: {
+		DisplayName: Chlorophyte Tranquilizer
+	}
+
+	CandyCornDaggerEnergyProjectile: {
+		DisplayName: Candy Corn Dagger
+	}
+
+	DaggerProjectile: {
+		DisplayName: Dagger
+	}
+
+	WinterDaggerProjectile2: {
+		DisplayName: Winter Dagger
+	}
+
+	FrostbittenDaggerProjectile: {
+		DisplayName: Frostbitten Dagger
+	}
+
+	WaterDaggerProjectile2: {
+		DisplayName: Water Dagger
+	}
+
+	LihzahrdianDaggerEnergyProjectile2: {
+		DisplayName: Lihzahrdian Dagger
+	}
+
+	LihzahrdianDaggerEnergyProjectile: {
+		DisplayName: Lihzahrdian Dagger
+	}
+
+	ThornyMaceProjectile2: {
+		DisplayName: Thorny Mace
+	}
+
+	ThornyMaceProjectile: {
+		DisplayName: Thorny Mace
+	}
+
+	ShroomerBoomerProjectile: {
+		DisplayName: Shroom Boom
+	}
+
+	LaserGunHoldout: {
+		DisplayName: Laser Gun
+	}
+
+	LaserGunBeam: {
+		DisplayName: Laser Gun
+	}
+
+	ShadowflameBulletProjectile3: {
+		DisplayName: Shadowflame Bullet
+	}
+
+	ShadowflameBulletProjectile2: {
+		DisplayName: Shadowflame Bullet
+	}
+
+	ShadowflameBulletProjectile: {
+		DisplayName: Shadowflame Bullet
+	}
+
+	SuperStormBeaterProjectile: {
+		DisplayName: Super Storm Beater
+	}
+
+	WoodenSpearBowProjectile: {
+		DisplayName: Wooden Spear Bow
+	}
+
+	NaturesRevengeProjectile: {
+		DisplayName: Nature's Leaf
+	}
+
+	NegativeDaggerProjectile2: {
+		DisplayName: Negative Bolt
+	}
+
+	NegativeDaggerProjectile: {
+		DisplayName: Negative Dagger
+	}
+
+	TrashCollectorProjectile6: {
+		DisplayName: Trash Collector
+	}
+
+	TrashCollectorProjectile5: {
+		DisplayName: Trash Collector
+	}
+
+	TrashCollectorProjectile4: {
+		DisplayName: Trash Collector
+	}
+
+	TrashCollectorProjectile3: {
+		DisplayName: Trash Collector
+	}
+
+	TrashCollectorProjectile2: {
+		DisplayName: Trash Collector
+	}
+
+	TrashCollectorProjectile: {
+		DisplayName: Trash Collector
+	}
+
+	SharkzookaProjectile2: {
+		DisplayName: Splash
+	}
+
+	SharkzookaProjectile: {
+		DisplayName: Shark Missile
+	}
+
+	NukeGunProjectile2: {
+		DisplayName: Nuke Gun
+	}
+
+	OnyxCannonProjectile: {
+		DisplayName: Onyx Flame
+	}
+
+	TotemOfLifeProjectile: {
+		DisplayName: Life Ball
+	}
+
+	TotemOfLifeHoldout: {
+		DisplayName: Totem of Life
+	}
+
+	TotemOfLifeBeam: {
+		DisplayName: Totem of Life
+	}
+
+	FieryDoomProjectile: {
+		DisplayName: Fiery Doom
+	}
+
+	FieryDoomHoldout: {
+		DisplayName: Fiery Doom
+	}
+
+	FieryDoomBeam: {
+		DisplayName: Fiery Doom
+	}
+
+	GhostBelcherProjectile2: {
+		DisplayName: Ghostly Skull
+	}
+
+	GhostBelcherProjectile: {
+		DisplayName: Ghost Belcher
+	}
+
+	WaxerProjectile: {
+		DisplayName: Waxer
+	}
+
+	SkullSpewerProjectile2: {
+		DisplayName: Skull
+	}
+
+	SkullSpewerProjectile: {
+		DisplayName: Skull Spewer
+	}
+
+	GasSpewerProjectile: {
+		DisplayName: Gas
+	}
+
+	MeteorSpewerProjectile: {
+		DisplayName: Meteor Spewer
+	}
+
+	FireSpreaderProjectile: {
+		DisplayName: Firespreader
+	}
+
+	FirespreaderProjectile: {
+		DisplayName: Firespreader
+	}
+
+	BoomthrowerProjectile: {
+		DisplayName: Boomthrower
+	}
+
+	PeaceKeeperHoldout: {
+		DisplayName: Peace Keeper
+	}
+
+	PeaceKeeperBeam: {
+		DisplayName: Peace Keeper
+	}
+
+	DiamondSwordHoldout: {
+		DisplayName: Diamond Sword
+	}
+
+	DiamondSwordBeam: {
+		DisplayName: Diamond Sword
+	}
+
+	SeveredIchorStickerProjectile: {
+		DisplayName: Ichor Flame
+	}
+
+	SeveredClingerProjectile: {
+		DisplayName: Cursed Flame
+	}
+
+	ShadowflameCandleProjectile: {
+		DisplayName: Shadowflame
+	}
+
+	BloodflameSpewerProjectile: {
+		DisplayName: Bloodflame
+	}
+
+	OilerProjectile: {
+		DisplayName: Oil
+	}
+
+	SprayCandleProjectile2: {
+		DisplayName: Spray Candle
+	}
+
+	RailgunHoldout: {
+		DisplayName: Railgun
+	}
+
+	RailgunBeam: {
+		DisplayName: Railgun
+	}
+
+	CataclysmicRayHoldout: {
+		DisplayName: Cataclysmic Rays
+	}
+
+	CataclysmicRayBeam: {
+		DisplayName: Cataclysmic Rays
+	}
+
+	SWATShieldProjectile2: {
+		DisplayName: S.W.A.T Shield
+	}
+
+	SWATShieldProjectile: {
+		DisplayName: S.W.A.T Shield
+	}
+
+	BulletShieldProjectile: {
+		DisplayName: Bullet Shield
+	}
+
+	AcornProjectile: {
+		DisplayName: Acorn
+	}
+
+	ImprovedSolarEruptionProjectile: {
+		DisplayName: Solar Eruption
+	}
+
+	ImprovedAnchorProjectile: {
+		DisplayName: Anchor
+	}
+
+	NukeGunProjectile: {
+		DisplayName: Nuke Gun
+	}
+
+	GunProjectile: {
+		DisplayName: Gun
+	}
+
+	TranquilizerProjectile: {
+		DisplayName: Tranquilizer
+	}
+
+	CommandersMagicHoldout: {
+		DisplayName: Commanders Magic
+	}
+
+	CommandersMagicBeam: {
+		DisplayName: Commanders Magic
+	}
+
+	TuskSwordProjectile: {
+		DisplayName: Tusk Sword Projectile
+	}
+
+	TuskSwordHoldout: {
+		DisplayName: Tusk Sword
+	}
+
+	TuskSwordBeam: {
+		DisplayName: Tusk Sword
+	}
+
+	DroneRemoteProjectile: {
+		DisplayName: Drone
+	}
+
+	RevolvingRevolverProjectile2: {
+		DisplayName: Revolving Revolver
+	}
+
+	LunarticMaskProjectile2: {
+		DisplayName: Lunartic Mask
+	}
+
+	LunarticMaskProjectile: {
+		DisplayName: Lunartic Mask
+	}
+
+	ThunderFangProjectile2: {
+		DisplayName: Thunder
+	}
+
+	SinnerAmbitionProjectile2: {
+		DisplayName: Sinner Ambition
+	}
+
+	LavaEelProjectile2: {
+		DisplayName: Lava Eel
+	}
+
+	SparkCellProjectile: {
+		DisplayName: Spark Cell
+	}
+
+	SinnersAmbitionProjectile: {
+		DisplayName: Sinner's Laser
+	}
+
+	LaserGunProjectile: {
+		DisplayName: Laser
+	}
+
+	PrimeSawProjectile: {
+		DisplayName: Prime Saw
+	}
+
+	CrystalShieldProjectile: {
+		DisplayName: Crystal Shield
+	}
+
+	MeatShieldProjectile: {
+		DisplayName: Meat Shield
+	}
+
+	GhostDragonProjectile: {
+		DisplayName: Ghost Dragon
+	}
+
+	GhostDragon: {
+		DisplayName: Ghost Dragon
+	}
+
+	SlimeSpewerProjectile: {
+		DisplayName: Slime Spewer
+	}
+
+	AllSeeingEyeProjectile: {
+		DisplayName: All Seeing Eye
+	}
+
+	SpikedDollProjectile: {
+		DisplayName: Spiked Doll
+	}
+
+	LightShowHoldout: {
+		DisplayName: Light Show
+	}
+
+	LightShowBeam: {
+		DisplayName: Light Show
+	}
+
+	SpiritDollProjectile: {
+		DisplayName: Spirit Doll
+	}
+
+	WinterDaggerProjectile: {
+		DisplayName: Winter Dagger
+	}
+
+	SuspiciousDollProjectile: {
+		DisplayName: Suspicious Doll
+	}
+
+	ChargeShotHoldoutRed: {
+		DisplayName: Red Charge Shot
+	}
+
+	ChargeShotHoldoutPurple: {
+		DisplayName: Purple Charge Shot
+	}
+
+	ChargeShotBeamRed: {
+		DisplayName: Red Charge Shot
+	}
+
+	ChargeShotBeamPurple: {
+		DisplayName: Purple Charge Shot
+	}
+
+	ChargeShotGreenHoldout: {
+		DisplayName: Green Charge Shot
+	}
+
+	ChargeShotGreenBeam: {
+		DisplayName: Green Charge Shot
+	}
+
+	BowmamaProjectile2: {
+		DisplayName: Bowmama Mini Arrow
+	}
+
+	BowmamaProjectile: {
+		DisplayName: Bowmama Arrow
+	}
+
+	BigBulletProjectile: {
+		DisplayName: Big Bullet Projectile
+	}
+
+	BowulderArrowProjectile: {
+		DisplayName: Bowulder Arrow
+	}
+
+	DarkestDaggerProjectile: {
+		DisplayName: Darkest Vortex
+	}
+
+	TerraDaggerEnergyProjectile: {
+		DisplayName: Terra Dagger Energy
+	}
+
+	SacrificialDaggerProjectile: {
+		DisplayName: Sacrificial Dagger
+	}
+
+	SacrificalDaggerProjectile: {
+		DisplayName: Sacrifical Dagger
+	}
+
+	DarkPortalProjectile2: {
+		DisplayName: Dark Portal
+	}
+
+	DarkPortalProjectile: {
+		DisplayName: Dark Portal
+	}
+
+	StormDaggerProjectile: {
+		DisplayName: Storm Dagger
+	}
+
+	SeedlingProjectile: {
+		DisplayName: Seedling
+	}
+
+	CatsPawProjectile2: {
+		DisplayName: Cats Paw
+	}
+
+	CatsPawEnergyProjectile: {
+		DisplayName: Cats Paw
+	}
+
+	SolarExplosionProjectile: {
+		DisplayName: Solar Explosion Star
+	}
+
+	SolarExplosionEnergyProjectile: {
+		DisplayName: Solar Explosion
+	}
+
+	CatsPawProjectile: {
+		DisplayName: Cats Paw
+	}
+
+	WaterDaggerProjectile: {
+		DisplayName: Water Dagger
+	}
+
+	HolyDaggerProjectile: {
+		DisplayName: Holy Dagger
+	}
+
+	HandheldBunnyCannonHoldout: {
+		DisplayName: Handheld Bunny Cannon
+	}
+
+	HandheldBunnyCannonBeam: {
+		DisplayName: Handheld Bunny Cannon
+	}
+
+	TheEraserEnergyProjectile: {
+		DisplayName: The Eraser Energy
+	}
+
+	CodeBreakerEnergyProjectile: {
+		DisplayName: Code Breaker Energy
+	}
+
+	TestBladeEnergyProjectile: {
+		DisplayName: Test Blade Energy
+	}
+
+	GearGloveProjectile: {
+		DisplayName: Gear Glove
+	}
+
+	GearBreakerProjectile: {
+		DisplayName: Gear Breaker
+	}
+
+	GearBreakerSwingProjectile: {
+		DisplayName: Gear Breaker
+	}
+
+	CogMachineBeam: {
+		DisplayName: Cog Machine
+	}
+
+	CogMachineHoldout: {
+		DisplayName: Cog Machine
+	}
+
+	CogMachineProjectile: {
+		DisplayName: Cog Machine
+	}
+
+	SteampunkArrowProjectile: {
+		DisplayName: Steampunk Arrow
+	}
+
+	ClockworkArrowProjectile: {
+		DisplayName: Clockwork Arrow
+	}
+
+	ToxicRifleBeam: {
+		DisplayName: Toxic Rifle
+	}
+
+	ToxicRifleHoldout: {
+		DisplayName: Toxic Rifle
+	}
+
+	RevolvingRevolverBeam: {
+		DisplayName: Revolving Revolver
+	}
+
+	RevolvingRevolverHoldout: {
+		DisplayName: Revolving Revolver
+	}
+
+	BlazingStaffProjectile2: {
+		DisplayName: Flame Wand
+	}
+
+	BlazingStaffProjectile: {
+		DisplayName: Blaze Wand
+	}
+
+	BlazingStaffHoldout: {
+		DisplayName: Blaze Wand
+	}
+
+	BlazingStaffBeam: {
+		DisplayName: Blaze Wand
+	}
+
+	PixelZenithEnergyProjectile: {
+		DisplayName: Pixel Zenith
+	}
+
+	SwordOfLightEnergyProjectile: {
+		DisplayName: Sword Of Light
+	}
+
+	SuperfluxEnergyProjectile: {
+		DisplayName: Superflux
+	}
+
+	FistOfFuryProjectile: {
+		DisplayName: Fists of Fury
+	}
+
+	RainbowCrystalProjectile: {
+		DisplayName: Rainbow Crystal
+	}
+
+	FlashlightProjectile: {
+		DisplayName: Flashlight
+	}
+
+	CreepyEyedolHoldout: {
+		DisplayName: Creepy Eyedol
+	}
+
+	CreepyEyedolBeam: {
+		DisplayName: Creepy Eyedol
+	}
+
+	SawbladeProjectile: {
+		DisplayName: Sawblade
+	}
+
+	WeakeningShotProjectile: {
+		DisplayName: Weakening Shot
+	}
+
+	VoidAxeProjectile: {
+		DisplayName: Void Axe
+	}
+
+	BattleBladeProjectile3: {
+		DisplayName: Battle Blade
+	}
+
+	BattleBladeSwingProjectile: {
+		DisplayName: Battle Blade
+	}
+
+	GlassCannonBeam: {
+		DisplayName: Glass Cannon
+	}
+
+	GlassCannonHoldout: {
+		DisplayName: Glass Cannon
+	}
+
+	HeavenlyBulletProjectile: {
+		DisplayName: Heavenly Bullet
+	}
+
+	ShimmerBulletProjectile: {
+		DisplayName: Shimmer Bullet
+	}
+
+	HeavenArrowProjectile: {
+		DisplayName: Heaven Arrow
+	}
+
+	NuclearFalloutProjectile: {
+		DisplayName: Nuclear Fallout
+	}
+
+	AsteroidGreatswordProjectile5: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	AsteroidGreatswordProjectile4: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	AsteroidGreatswordProjectile3: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	AsteroidGreatswordProjectile2: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	AsteroidGreatswordProjectile: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	AsteroidGreatswordEnergyProjectile: {
+		DisplayName: Asteroid Greatsword
+	}
+
+	MeteorBroadswordEnergyProjectile: {
+		DisplayName: Meteor Broadsword
+	}
+
+	HauntedHouseProjectile2: {
+		DisplayName: Haunted House Meteor
+	}
+
+	FuneralProjectile2: {
+		DisplayName: Funeral Meteor
+	}
+
+	YoyoOfElementsProjectile: {
+		DisplayName: Yoyo Of Elements
+	}
+
+	WormOfCthulhuProjectile9: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile8: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile7: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile6: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile5: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile4: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile3: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile2: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile10: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WormOfCthulhuProjectile: {
+		DisplayName: Worm of Cthulhu
+	}
+
+	WaterFlailProjectile: {
+		DisplayName: Water Flail
+	}
+
+	WaspNestProjectile: {
+		DisplayName: Wasp Nest
+	}
+
+	VortexYoyoProjectile: {
+		DisplayName: Vortex Yoyo
+	}
+
+	VoidPurseProjectile: {
+		DisplayName: Void Purse
+	}
+
+	VenomBoltProjectile: {
+		DisplayName: Venom Bolt
+	}
+
+	TrueNightsFuryProjectile: {
+		DisplayName: True Nights Fury
+	}
+
+	TrueNightsCackleProjectile: {
+		DisplayName: True Nights Cackle
+	}
+
+	TrueEyeOfCthulhuProjectile: {
+		DisplayName: True Eye Of Cthulhu
+	}
+
+	TrueDurendalProjectile: {
+		DisplayName: True Durendal
+	}
+
+	TrueBiomeMorphProjectile: {
+		DisplayName: True Biome Morph
+	}
+
+	TridentProjectile: {
+		DisplayName: Trident
+	}
+
+	TommyGunProjectile: {
+		DisplayName: Tommy Gun
+	}
+
+	ThunderFangProjectile: {
+		DisplayName: Thunder Fang
+	}
+
+	ThornMaceProjectile: {
+		DisplayName: Thorn Mace
+	}
+
+	TheColossusProjectile: {
+		DisplayName: The Colossus
+	}
+
+	TetheredRopeProjectile: {
+		DisplayName: Tethered Rope
+	}
+
+	TerraFlailProjectile4: {
+		DisplayName: Terra Flail
+	}
+
+	TerraFlailProjectile3: {
+		DisplayName: Terra Flail
+	}
+
+	TerraFlailProjectile2: {
+		DisplayName: Terra Flail
+	}
+
+	TerraFlailProjectile: {
+		DisplayName: Terra Flail
+	}
+
+	SweetToothProjectile: {
+		DisplayName: Sweet Tooth Candy Corn
+	}
+
+	SuspiciousKnifeProjectile: {
+		DisplayName: Suspicious Knife
+	}
+
+	SuperMonkeyDartProjectile: {
+		DisplayName: Super Monkey Dart
+	}
+
+	StrangeVialProjectile: {
+		DisplayName: Strange Vial
+	}
+
+	SprayCandleProjectile: {
+		DisplayName: Spray Candle
+	}
+
+	SpookzookaMk2Projectile4: {
+		DisplayName: Spookzooka Mk2
+	}
+
+	SpookzookaMk2Projectile3: {
+		DisplayName: Spookzooka Mk2
+	}
+
+	SpookzookaMk2Projectile2: {
+		DisplayName: Spookzooka Mk2
+	}
+
+	SpookzookaMk2Projectile: {
+		DisplayName: Spookzooka Mk2
+	}
+
+	SpookStormProjectile: {
+		DisplayName: Spook Storm
+	}
+
+	SpiritFlailProjectile5: {
+		DisplayName: Spirit Flail
+	}
+
+	SpiritFlailProjectile4: {
+		DisplayName: Spirit Flail
+	}
+
+	SpiritFlailProjectile3: {
+		DisplayName: Spirit Flail
+	}
+
+	SpiritFlailProjectile2: {
+		DisplayName: Spirit Flail
+	}
+
+	SpiritFlailProjectile: {
+		DisplayName: Spirit Flail
+	}
+
+	SpectreBulletProjectile: {
+		DisplayName: Spectre Bullet
+	}
+
+	SpectreBoltProjectile: {
+		DisplayName: Spectre Bolt
+	}
+
+	SpectreArrowProjectile: {
+		DisplayName: Spectre Arrow
+	}
+
+	SparklyProjectile2: {
+		DisplayName: Sparkly Arrow
+	}
+
+	SparklyProjectile: {
+		DisplayName: Sparkly Bullet
+	}
+
+	ShroomiteBulletProjectile: {
+		DisplayName: Shroomite Bullet
+	}
+
+	ShroomiteBlasterProjectile: {
+		DisplayName: Shroomite Bullet
+	}
+
+	ShroomiteArrowProjectile: {
+		DisplayName: Shroomite Arrow
+	}
+
+	SharkShotProjectile: {
+		DisplayName: Shark Shot
+	}
+
+	SharkShotHoldout: {
+		DisplayName: Shark Shot
+	}
+
+	SharkShotBeam: {
+		DisplayName: Shark Shot
+	}
+
+	ShadowPhoenixProjectile2: {
+		DisplayName: Shadowflame
+	}
+
+	ShadowPhoenixProjectile: {
+		DisplayName: Shadowflame
+	}
+
+	RustedDaggerHoldout: {
+		DisplayName: Rusted Blade
+	}
+
+	RustedDaggerBeam: {
+		DisplayName: Rusted Blade
+	}
+
+	RevolvingRevolverProjectile: {
+		DisplayName: Revolving Revolver
+	}
+
+	ReaperScytheProjectile: {
+		DisplayName: Reaper Scythe
+	}
+
+	QuipProjectile: {
+		DisplayName: Quip
+	}
+
+	PrismaticStaffProjectile: {
+		DisplayName: Prismatic Bolt
+	}
+
+	PrismaticStaffHoldout: {
+		DisplayName: Prismatic Staff
+	}
+
+	PrismaticStaffBeam: {
+		DisplayName: Prismatic Staff
+	}
+
+	PrismaticKunaiProjectile: {
+		DisplayName: Prismatic Kunai
+	}
+
+	PowerKunaiProjectile: {
+		DisplayName: Power Kunai
+	}
+
+	PowerFlailProjectile: {
+		DisplayName: Power Flail
+	}
+
+	PoisonBoltProjectile: {
+		DisplayName: Poison Bolt
+	}
+
+	PocketWatchProjectile2: {
+		DisplayName: Pocket Watch
+	}
+
+	PocketWatchProjectile: {
+		DisplayName: Pocket Watch
+	}
+
+	PixelBladeHoldout: {
+		DisplayName: Pixel Blade
+	}
+
+	PixelBladeBeam: {
+		DisplayName: Pixel Blade
+	}
+
+	PhaseMonsterProjectile: {
+		DisplayName: Phase Monster
+	}
+
+	PhantomShurikenProjectile: {
+		DisplayName: Phantom Shuriken
+	}
+
+	PaleRapierHoldout: {
+		DisplayName: Pale Rapier
+	}
+
+	PaleRapierBeam: {
+		DisplayName: Pale Rapier
+	}
+
+	OriginProjectile2: {
+		DisplayName: Origin
+	}
+
+	OriginProjectile: {
+		DisplayName: Origin
+	}
+
+	OmeglageddonProjectile2: {
+		DisplayName: Omeglageddon Bullet
+	}
+
+	OmeglageddonProjectile: {
+		DisplayName: Omeglageddon Bullet
+	}
+
+	OmegaYoyoProjectile: {
+		DisplayName: Omega Yoyo
+	}
+
+	OmegaStormProjectile: {
+		DisplayName: Omega Storm
+	}
+
+	NukeCallerProjectile: {
+		DisplayName: Nuke Caller
+	}
+
+	NightsFuryProjectile: {
+		DisplayName: Nights Fury
+	}
+
+	NightsCackleProjectile2: {
+		DisplayName: Nights Cackle
+	}
+
+	NightsCackleProjectile: {
+		DisplayName: Nights Cackle
+	}
+
+	NetheriteSwordProjectile: {
+		DisplayName: Netherite Sword
+	}
+
+	NaniteBoltProjectile: {
+		DisplayName: Nanite Bolt
+	}
+
+	MutantSewerFishProjectile2: {
+		DisplayName: Mutant Sewer Fish
+	}
+
+	MutantSewerFishProjectile: {
+		DisplayName: Mutant Sewer Fish
+	}
+
+	MutantSewerFishHoldout: {
+		DisplayName: Mutant Sewer Fish
+	}
+
+	MutantSewerFishBeam: {
+		DisplayName: Mutant Sewer Fish
+	}
+
+	MostEnchantedMagicalEmperorSharkronProjectile2: {
+		DisplayName: Most Enchanted Magical Emperor Sharkron
+	}
+
+	MostEnchantedMagicalEmperorSharkronProjectile: {
+		DisplayName: Most Enchanted Magical Emperor Sharkron
+	}
+
+	MostEnchantedMagicalEmperorSharkronHoldout: {
+		DisplayName: Most Enchanted Magical Emperor Sharkron Holdout
+	}
+
+	MostEnchantedMagicalEmperorSharkronBeam: {
+		DisplayName: Most Enchanted Magical Emperor Sharkron
+	}
+
+	MonkeyDartProjectile: {
+		DisplayName: Monkey Dart
+	}
+
+	MonitorProjectile: {
+		DisplayName: Monitor
+	}
+
+	MoltenBloodProjectile: {
+		DisplayName: Molten Blood Arrow
+	}
+
+	MeteorBroadswordProjectile5: {
+		DisplayName: Meteor Broadsword
+	}
+
+	MeteorBroadswordProjectile4: {
+		DisplayName: Meteor Broadsword
+	}
+
+	MeteorBroadswordProjectile3: {
+		DisplayName: Meteor Broadsword
+	}
+
+	MeteorBroadswordProjectile2: {
+		DisplayName: Meteor Broadsword
+	}
+
+	MeteorBroadswordProjectile: {
+		DisplayName: Meteor Broadsword
+	}
+
+	ManaBulletProjectile: {
+		DisplayName: Mana Bullet
+	}
+
+	ManaBoltProjectile: {
+		DisplayName: Mana Bolt
+	}
+
+	LunarDartProjectile: {
+		DisplayName: Lunar Dart
+	}
+
+	LuminiteBoltProjectile: {
+		DisplayName: Luminite Bolt
+	}
+
+	LightningRodProjectile: {
+		DisplayName: Lightning Rod
+	}
+
+	LifeBoltProjectile: {
+		DisplayName: Life Bolt
+	}
+
+	LifeArrowProjectile: {
+		DisplayName: Life Arrow
+	}
+
+	LavaEelProjectile: {
+		DisplayName: Lava Eel
+	}
+
+	KnockoutBagProjectile: {
+		DisplayName: Knockout Bag
+	}
+
+	JumboJumbowProjectile: {
+		DisplayName: Jumbo Jumbow Arrow
+	}
+
+	ImprovedYeletsProjectile: {
+		DisplayName: Yelets
+	}
+
+	ImprovedWoodenYoyoProjectile: {
+		DisplayName: Wooden Yoyo
+	}
+
+	ImprovedValorProjectile: {
+		DisplayName: Valor
+	}
+
+	ImprovedTerrarianProjectile: {
+		DisplayName: Terrarian
+	}
+
+	ImprovedSunfuryProjectile: {
+		DisplayName: Sunfury
+	}
+
+	ImprovedRallyProjectile: {
+		DisplayName: Rally
+	}
+
+	ImprovedMeatballProjectile: {
+		DisplayName: Meatball
+	}
+
+	ImprovedMalaiseProjectile: {
+		DisplayName: Malaise
+	}
+
+	ImprovedKrakenProjectile: {
+		DisplayName: Kraken
+	}
+
+	ImprovedHelFireProjectile: {
+		DisplayName: Hel Fire
+	}
+
+	ImprovedGradientProjectile: {
+		DisplayName: Gradient
+	}
+
+	ImprovedFormatCProjectile: {
+		DisplayName: Format C
+	}
+
+	ImprovedFlowerPowProjectile: {
+		DisplayName: Flower Pow
+	}
+
+	ImprovedEyeOfCthulhuProjectile: {
+		DisplayName: Eye Of Cthulhu
+	}
+
+	ImprovedDripplerCripplerProjectile: {
+		DisplayName: Drippler Crippler
+	}
+
+	ImprovedDaoPowProjectile: {
+		DisplayName: Dao Pow
+	}
+
+	ImprovedCode2Projectile: {
+		DisplayName: Code2
+	}
+
+	ImprovedCode1Projectile: {
+		DisplayName: Code1
+	}
+
+	ImprovedChikProjectile: {
+		DisplayName: Chik
+	}
+
+	ImprovedCascadeProjectile: {
+		DisplayName: Cascade
+	}
+
+	ImprovedBlueMoonProjectile: {
+		DisplayName: Blue Moon
+	}
+
+	ImprovedBallOHurtProjectile: {
+		DisplayName: Ball O Hurt
+	}
+
+	ImprovedArteryProjectile: {
+		DisplayName: Artery
+	}
+
+	ImprovedAmazonProjectile: {
+		DisplayName: Amazon
+	}
+
+	ImprovedAmarokProjectile: {
+		DisplayName: Amarok
+	}
+
+	HellBeeBowProjectile2: {
+		DisplayName: Hell Bee Arrow
+	}
+
+	HellBeeBowProjectile: {
+		DisplayName: Hell Bee Arrow
+	}
+
+	HeatSeekingShurikenProjectile: {
+		DisplayName: Heat Seeking Shuriken
+	}
+
+	HauntedHouseProjectile: {
+		DisplayName: Haunted House Meteor
+	}
+
+	HauntedHouseHoldout: {
+		DisplayName: Haunted House
+	}
+
+	HauntedHouseBeam: {
+		DisplayName: Haunted House
+	}
+
+	HamdraxProjectile2: {
+		DisplayName: Hamdrax
+	}
+
+	HamdraxProjectile: {
+		DisplayName: Hamdrax
+	}
+
+	HamdraxHoldout: {
+		DisplayName: Hamdrax
+	}
+
+	HamdraxBeam: {
+		DisplayName: Hamdrax
+	}
+
+	HailStormProjectile: {
+		DisplayName: Hail Storm Rocket
+	}
+
+	GlitchYoyoProjectile: {
+		DisplayName: Glitch Yoyo
+	}
+
+	GildedYoyoProjectile: {
+		DisplayName: Gilded Yoyo
+	}
+
+	FuneralProjectile: {
+		DisplayName: Funeral Meteor
+	}
+
+	FuneralHoldout: {
+		DisplayName: Funeral
+	}
+
+	FuneralBeam: {
+		DisplayName: Funeral
+	}
+
+	FrostBulletProjectile: {
+		DisplayName: Frost Bullet
+	}
+
+	FracturedZenithProjectile2: {
+		DisplayName: Fractured Zenith
+	}
+
+	FracturedZenithProjectile: {
+		DisplayName: Fractured Zenith
+	}
+
+	FlyingFishProjectile2: {
+		DisplayName: Flying Fish
+	}
+
+	FlyingFishProjectile: {
+		DisplayName: Flying Fish
+	}
+
+	FlameBulletProjectile: {
+		DisplayName: Flame Bullet
+	}
+
+	FireworkProjectile: {
+		DisplayName: Firework
+	}
+
+	ExplosiveBoltProjectile: {
+		DisplayName: Explosive Bolt
+	}
+
+	EvilMenaceProjectile: {
+		DisplayName: Evil Menace
+	}
+
+	EvenpulseProjectile: {
+		DisplayName: Evenpulse Arrow
+	}
+
+	EnergyYoyoProjectile: {
+		DisplayName: Energy Yoyo
+	}
+
+	ElementalYoyoProjectile2: {
+		DisplayName: Elemental Yoyo
+	}
+
+	ElementalYoyoProjectile: {
+		DisplayName: Elemental Yoyo
+	}
+
+	ElectricEelProjectile2: {
+		DisplayName: Electric Eel
+	}
+
+	ElectricEelProjectile: {
+		DisplayName: Electric Eel
+	}
+
+	EggProjectile9: {
+		DisplayName: Egg
+	}
+
+	EggProjectile8: {
+		DisplayName: Egg
+	}
+
+	EggProjectile7: {
+		DisplayName: Egg
+	}
+
+	EggProjectile6: {
+		DisplayName: Egg
+	}
+
+	EggProjectile5: {
+		DisplayName: Egg
+	}
+
+	EggProjectile4: {
+		DisplayName: Egg
+	}
+
+	EggProjectile3: {
+		DisplayName: Egg
+	}
+
+	EggProjectile2: {
+		DisplayName: Egg
+	}
+
+	EggProjectile: {
+		DisplayName: Egg
+	}
+
+	EarthquakeProjectile9: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile8: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile7: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile6: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile5: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile4: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile3: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile2: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile10: {
+		DisplayName: Earthquake
+	}
+
+	EarthquakeProjectile: {
+		DisplayName: Earthquake
+	}
+
+	DustBoltProjectile: {
+		DisplayName: Dust Bolt
+	}
+
+	DragonsBreathProjectile: {
+		DisplayName: Dragons Breath
+	}
+
+	DragonBulletProjectile: {
+		DisplayName: Dragon Bullet
+	}
+
+	DoomCaneProjectile: {
+		DisplayName: Doom Cane
+	}
+
+	DiamondSwordProjectile: {
+		DisplayName: Diamond Sword
+	}
+
+	DemoniteWhipProjectile: {
+		DisplayName: Demonite Whip
+	}
+
+	DeathsBreathProjectile: {
+		DisplayName: Deaths Breath
+	}
+
+	DeadlyCaneProjectile: {
+		DisplayName: Deadly Cane
+	}
+
+	CupidsBowProjectile2: {
+		DisplayName: Cupid's Arrow
+	}
+
+	CupidsBowProjectile: {
+		DisplayName: Cupid's Arrow
+	}
+
+	CrimtaneWhipProjectile: {
+		DisplayName: Crimtane Whip
+	}
+
+	CosmicWhipProjectile: {
+		DisplayName: Cosmic Whip
+	}
+
+	ControllerProjectile: {
+		DisplayName: Controller
+	}
+
+	CoiledSerpentProjectile2: {
+		DisplayName: Coiled Serpent
+	}
+
+	CoiledSerpentProjectile: {
+		DisplayName: Coiled Serpent
+	}
+
+	ChargeShotHoldout: {
+		DisplayName: Charge Shot
+	}
+
+	ChargeShotBeam: {
+		DisplayName: Charge Shot
+	}
+
+	ChaosFlailProjectile: {
+		DisplayName: Chaos Flail
+	}
+
+	ChainedWhipProjectile: {
+		DisplayName: Chained Whip
+	}
+
+	ChainedMimicProjectile: {
+		DisplayName: Chained Mimic
+	}
+
+	CatlauncherProjectile: {
+		DisplayName: Catlauncher
+	}
+
+	CandyPainGunProjectile: {
+		DisplayName: Candy Pain Gun
+	}
+
+	BrickProjectile: {
+		DisplayName: Brick
+	}
+
+	BouncyBoltProjectile: {
+		DisplayName: Bouncy Bolt
+	}
+
+	BoneDartProjectile: {
+		DisplayName: Bone Dart
+	}
+
+	BoneDaggerProjectile2: {
+		DisplayName: Bone Blade
+	}
+
+	BoneDaggerProjectile: {
+		DisplayName: Bone Blade
+	}
+
+	BoneBreakerProjectile: {
+		DisplayName: Bone Breaker
+	}
+
+	BlazingSunProjectile: {
+		DisplayName: Blazing Sun
+	}
+
+	BiomeMorphProjectile: {
+		DisplayName: Biome Morph
+	}
+
+	BeeBoltProjectile: {
+		DisplayName: Bee Bolt
+	}
+
+	BattleGuyProjectile: {
+		DisplayName: Battle Guy Projectile
+	}
+
+	BattleBladeProjectile2: {
+		DisplayName: Battle Blade
+	}
+
+	BattleBladeProjectile: {
+		DisplayName: Battle Blade
+	}
+
+	BasicBoltProjectile: {
+		DisplayName: Basic Bolt
+	}
+
+	AxeOfTheAbyssProjectile: {
+		DisplayName: Axe Of The Abyss
+	}
+
+	AutomaticWhipCrackerProjectile: {
+		DisplayName: Automatic Whip Cracker
+	}
+
+	AutomaticWhipCrackerMk2Projectile: {
+		DisplayName: Automatic Whip Cracker Mk2
+	}
+
+	ApocalypseProjectile4: {
+		DisplayName: Apocalypse
+	}
+
+	ApocalypseProjectile3: {
+		DisplayName: Apocalypse
+	}
+
+	ApocalypseProjectile2: {
+		DisplayName: Apocalypse
+	}
+
+	ApocalypseProjectile: {
+		DisplayName: Apocalypse
+	}
+}
+
+Items: {
+	OnyxEngineMachineGun: {
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Every shot increases ranged attack speed
+			Ranged attack speed buff is at a cap of 3 seconds
+			'''
+		DisplayName: Onyx Engine Machine Gun
+	}
+
+	Notes31: {
+		Tooltip: Can be obtained from buying it off the Merchant during a party
+		DisplayName: Notes
+	}
+
+	FingerGun: {
+		Tooltip:
+			'''
+			Inflicts enemies with the Targeted debuff
+			Targeted increases damage dealt to affected enemies
+			[c/a0a0a0:Classless Item]
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Finger Gun
+	}
+
+	HeatDagger: {
+		Tooltip:
+			'''
+			Gives the player the Energized buff when the dagger is held for 3 seconds without attacking
+			The Energized buff doubles melee damage, increases crit chance by 8%, and doubles movement speed
+			Getting the Energized buff shoots an possessed hatchet towards the cursor
+			Shoots out 1 to 3 heat rays instead of swinging a dagger
+			Attacks faster when in the air
+			'''
+		DisplayName: Heat Dagger
+	}
+
+	SharpeningStone: {
+		Tooltip: Increases damage for Execution Axe and Harvester by 50%
+		DisplayName: Sharpening Stone
+	}
+
+	SiegeBow: {
+		Tooltip:
+			'''
+			Can only be used while grounded
+			Charge up a powerful shot that pierces and stuns
+			'''
+		DisplayName: Siege Bow
+	}
+
+	GlassHeart: {
+		Tooltip:
+			'''
+			Halves max health and sets defense to 0
+			Gives life regeneration depending based on max health 
+			'''
+		DisplayName: Glass Heart
+	}
+
+	Notes30: {
+		Tooltip: Can be obtained by shimmering a Flare Gun
+		DisplayName: Notes
+	}
+
+	RetroGun: {
+		Tooltip: "'Making flare guns great again!'"
+		DisplayName: Retro Gun
+	}
+
+	VoidHeart: {
+		Tooltip:
+			'''
+			Increases damage by 100%
+			Any damage taken will instantly kill you
+			'''
+		DisplayName: Void Heart
+	}
+
+	SoulWhip: {
+		Tooltip:
+			'''
+			Attacks ignore tiles and inflicts the Soul Weakness debuff for 7 seconds
+			Soul Weakness reduces defense, slows movement speed, and causes rapid damage over time
+			Does increased damage to all vanilla water like enemies
+			'''
+		DisplayName: Soul Whip
+	}
+
+	ManaCrystalLauncher: {
+		Tooltip:
+			'''
+			Uses mana crystals for ammo
+			Hold left click to charge up a powerful mana restoring shot
+			Once the launcher hits 15 seconds get ready to fire
+			Has a 15 second cooldown
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Mana Crystal Launcher
+	}
+
+	TrapPants: {
+		Tooltip:
+			'''
+			Increases tactical ranged damage by 12%
+			15% increased movement speed
+			'''
+		DisplayName: Trap Pants
+	}
+
+	TrapMask: {
+		Tooltip:
+			'''
+			Increases tactical ranged damage by 21%
+			Increases ranged critical strike chance by 5%
+			'''
+		DisplayName: Trap Mask
+	}
+
+	TrapBreastplate: {
+		Tooltip: Increases tactical ranged damage and critical strike chance by 17%
+		DisplayName: Trap Breastplate
+	}
+
+	VenomizedSpiderScepter: {
+		Tooltip:
+			'''
+			Uses 10 bone dust as ammo
+			Spawns a venomized spider turret that shoots webs towards your cursor
+			Webs can stun and inflict enemies with Acid Venom and heal the player on contact
+			Has a 15 second cooldown
+			'''
+		DisplayName: Venomized Spider Scepter
+	}
+
+	SunPowerStaff: {
+		Tooltip:
+			'''
+			Uses 10 shadowflame as ammo
+			Spawns a giant sun that deals contact damage to enemies
+			Giant sun rapidly heals the player on contact
+			Has a 15 second cooldown
+			'''
+		DisplayName: Sun Power Staff
+	}
+
+	CrystalWand: {
+		Tooltip: Shoots crystalized orbs that restore mana and burst into shadowflames upon hitting enemies
+		DisplayName: Crystal Wand
+	}
+
+	LihzahrdLeggings: {
+		Tooltip:
+			'''
+			Increases barbaric melee damage by 13%
+			20% increased movement speed
+			Enemies are more likely to target you
+			'''
+		DisplayName: Lihzahrd Leggings
+	}
+
+	LihzahrdHelmet: {
+		Tooltip:
+			'''
+			Increases barbaric melee damage and attack speed by 17%
+			Enemies are more likely to target you
+			'''
+		DisplayName: Lihzahrd Helmet
+	}
+
+	LihzahrdChestplate: {
+		Tooltip:
+			'''
+			Increases barbaric melee damage and critical strike chance by 20%
+			Enemies are more likely to target you
+			'''
+		DisplayName: Lihzahrd Chestplate
+	}
+
+	Notes29: {
+		Tooltip: Can be obtained from buying it off the dryad during hardmode
+		DisplayName: Notes
+	}
+
+	DryadsArtifact: {
+		Tooltip:
+			'''
+			Gives the player Dryad's Blessing when equipped
+			Spawns a nature ring that inflicts enemies inside it with Dryad's Ward
+			'''
+		DisplayName: Dryad's Artifact
+	}
+
+	DiscoMask: {
+		Tooltip:
+			'''
+			Increases barbaric melee, enchanted magic, tactical ranged, and bewitched summon damage by 13%
+			Spawns a colorful ring that inflicts enemies inside it with Color Splash
+			Color Splash halves enemy defense and increases the effectiveness of damage over time debuffs
+			'''
+		DisplayName: Disco Mask
+	}
+
+	FungiSpell: {
+		Tooltip:
+			'''
+			Shoots out spores that spawn truffles as they travel
+			Has a 20% chance to fire an additonal two spores
+			Definitely don't eat it...
+			'''
+		DisplayName: Fungi Spell
+	}
+
+	HumbleTuxedoPants: {
+		Tooltip:
+			'''
+			Increases maximum health by 25
+			Increases tactical ranged damage by 11%
+			15% increased movement speed
+			'''
+		DisplayName: Humble Tuxedo Pants
+	}
+
+	HumbleTuxedo: {
+		Tooltip:
+			'''
+			Increases maximum health by 50
+			Increases tactical ranged damage and critical strike chance by 13%
+			'''
+		DisplayName: Humble Tuxedo
+	}
+
+	HumbleBandana: {
+		Tooltip:
+			'''
+			Increases maximum health by 25
+			Increases tactical ranged damage and attack speed by 15%
+			'''
+		DisplayName: Humble Bandana
+	}
+
+	NobleLeggings: {
+		Tooltip:
+			'''
+			Increases maximum health by 25
+			Increases barbaric melee damage by 11%
+			15% increased movement speed
+			'''
+		DisplayName: Noble Leggings
+	}
+
+	NobleHelmet: {
+		Tooltip:
+			'''
+			Increases maximum health by 25
+			Increases barbaric melee damage and attack speed by 15%
+			'''
+		DisplayName: Noble Helmet
+	}
+
+	NobleBreastplate: {
+		Tooltip:
+			'''
+			Increases maximum health by 50
+			Increases barbaric melee damage and critical strike chance by 13%
+			'''
+		DisplayName: Noble Breastplate
+	}
+
+	Notes28: {
+		Tooltip:
+			'''
+			Can be obtained from buying it off the cyborg
+			It has to be raining in order for the cyborg to sell it
+			'''
+		DisplayName: Notes
+	}
+
+	AncestralEye: {
+		Tooltip:
+			'''
+			Increases barbaric melee and tactical ranged damage based on current health
+			Increases enchanted magic and bewitched summon damage based on current mana
+			'''
+		DisplayName: Ancestral Eye
+	}
+
+	SnowyDoll: {
+		Tooltip:
+			'''
+			Uses shadowflame for ammo
+			Shoots out a bunch of snowballs at random angles
+			Snowballs stop in place after a while
+			Has a 1.5 second cooldown
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Snowy Doll
+	}
+
+	Notes27: {
+		Tooltip: Can be obtained by shimmering a Staff of the Frost Hydra
+		DisplayName: Notes
+	}
+
+	Notes26: {
+		Tooltip: Can be obtained by shimmering a Desert Tiger Staff
+		DisplayName: Notes
+	}
+
+	DustDevil: {
+		Tooltip:
+			'''
+			11 summon tag damage
+			Strike enemies to stack up increased attack speed, damage, and whip range
+			Overstacking the buffs will reset progress
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Dust Devil
+	}
+
+	VoidTendril: {
+		Tooltip:
+			'''
+			Gives the player the Darkened Power buff when the dagger is held for 3 seconds without attacking
+			The Darkened Power buff doubles melee damage, increases crit chance by 100%, increases melee speed, increases defense by 16, and doubles movement speed
+			Has a chance to spawn mini eaters upon hittin enemies
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Void Tendril
+	}
+
+	Notes25: {
+		Tooltip: Can be obtained by shimmering Vampire Knives
+		DisplayName: Notes
+	}
+
+	Notes24: {
+		Tooltip: Can be obtained by shimmering a Scourge of the Corruptor
+		DisplayName: Notes
+	}
+
+	BloodRipper: {
+		Tooltip:
+			'''
+			Gives the player the Darkened Power buff when the dagger is held for 3 seconds without attacking
+			The Darkened Power buff doubles melee damage, increases crit chance by 100%, increases melee speed, increases defense by 16, and doubles movement speed
+			Restores life upon hitting enemies
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Blood Ripper
+	}
+
+	Notes23: {
+		Tooltip: Can be obtained by shimmering a Piranha Gun
+		DisplayName: Notes
+	}
+
+	FloweringRepeater: {
+		Tooltip:
+			'''
+			Shoots a random assortment of arrows
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Flowering Repeater
+	}
+
+	MoonlightShirt: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			Increases enchanted magic damage by 17%
+			'''
+		DisplayName: Moonlit Shirt
+	}
+
+	MoonlightPants: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			Increases enchanted magic damage by 13%
+			20% increased movement speed
+			'''
+		DisplayName: Moonlit Pants
+	}
+
+	MoonlightMask: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			Increases enchanted magic damage by 15%
+			'''
+		DisplayName: Moonlit Mask
+	}
+
+	Notes22: {
+		Tooltip: Can be obtained by shimmering a Rainbow Gun
+		DisplayName: Notes
+	}
+
+	ColorfulFeather: {
+		Tooltip:
+			'''
+			Applies slow falling
+			25% increased tactical ranged damage when in the air
+			'''
+		DisplayName: Colorful Feather
+	}
+
+	BlacksteelAnvil: {
+		Tooltip:
+			'''
+			Doubles fall speed
+			25% increased barbaric melee damage when on the ground
+			'''
+		DisplayName: Blacksteel Anvil
+	}
+
+	MeteorHat: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			7% increased enchanted magic damage
+			'''
+		DisplayName: Meteor Hat
+	}
+
+	IceCubeScepter: {
+		Tooltip:
+			'''
+			Uses 10 bone dust as ammo
+			Spawns an ice cube that shoots icicles downwards
+			Icicles heal the player upon contact
+			Has a 15 second cooldown
+			'''
+		DisplayName: Ice Cube Scepter
+	}
+
+	HellSerpentScepter: {
+		Tooltip:
+			'''
+			Uses 10 bone dust as ammo
+			Spawns a hell serpent turret that shoots flames towards your cursor
+			Flames heal the player upon contact
+			Has a 15 second cooldown
+			'''
+		DisplayName: Hell Serpent Scepter
+	}
+
+	BoneJacket: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases bewitched summon damage and whip range by 7%
+			If you reach below half health you will get healed to full health
+			This effect has a 1 minute cooldown
+			'''
+		DisplayName: Bone Jacket
+	}
+
+	RustedKnightLeggings: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases bewitched summon damage by 13%
+			20% increased movement speed
+			'''
+		DisplayName: Rusted Knight Leggings
+	}
+
+	RustedKnightHood: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases bewitched summon damage by 15%
+			'''
+		DisplayName: Rusted Knight Hood
+	}
+
+	RustedKnightBreastplate: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases bewitched summon damage by 17%
+			'''
+		DisplayName: Rusted Knight Breastplate
+	}
+
+	ShadowflameMask: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases bewitched summon damage by 17%
+			Spawns a shadowflame ring that inflicts enemies inside it with shadowflame
+			All zombie like enemies within the ring take double damage
+			'''
+		DisplayName: Shadowflame Mask
+	}
+
+	Harvester: {
+		Tooltip:
+			'''
+			Your summons will focus hit enemies
+			Swings a scythe that does extra damage to all vanilla zombie like enemies
+			Allows gathering of shadowflame from all vanilla zombie like enemies
+			'''
+		DisplayName: Harvester
+	}
+
+	SpiderScepter: {
+		Tooltip:
+			'''
+			Uses 10 bone dust as ammo
+			Spawns a spider turret that shoots webs towards your cursor
+			Webs can stun enemies and heal the player on contact
+			Has a 15 second cooldown
+			'''
+		DisplayName: Spider Scepter
+	}
+
+	ExecutionAxe: {
+		Tooltip:
+			'''
+			Your summons will focus hit enemies
+			Swings an axe that does extra damage to all vanilla zombie like enemies
+			Allows gathering of bone dust from all vanilla zombie like enemies
+			'''
+		DisplayName: Execution Axe
+	}
+
+	BrawlerBadge: {
+		Tooltip:
+			'''
+			When equipped the badge gives +5% on most stats
+			The badge additionally gives +3 defense, life regen, and mana regen
+			'''
+		DisplayName: Brawler Badge
+	}
+
+	OtherworldlyScar: {
+		Tooltip:
+			'''
+			Converts regular bullets into high velocity bullets
+			Every 30 shots causes the weapon to reload
+			'April Fools!'
+			[c/6d006f:Joke Item]
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Otherworldly Scar
+	}
+
+	TeslaCannon: {
+		Tooltip:
+			'''
+			Uses 15 nanites for ammo
+			Charge up a barrage of tesla bolts that cause heavy knockback
+			Tesla bolts inflict the Blinded and Electrified debuffs for 7 seconds
+			Blinded halves enemy defense
+			'''
+		DisplayName: Tesla Cannon
+	}
+
+	Magic8Ball: {
+		Tooltip:
+			'''
+			Not consumable
+			Throw a Magic 8-ball which varies in effects
+			Effects can both be hurtful and helpful to enemies
+			'Magic 8-ball should my enemies face my wrath?'
+			'''
+		DisplayName: Magic 8-Ball
+	}
+
+	WeatherDuals: {
+		Tooltip:
+			'''
+			Left click to rapidly stab with a freezing ice dagger
+			Ice dagger grants the frost power buff, which increases damage and defense
+			Right click to slowly stab with a forbidden sand dagger
+			Sand dagger Grants the forbidden power buff, which increases attack speed and life regeneration
+			'''
+		DisplayName: Weather Duals
+	}
+
+	CorruptedBlade: {
+		Tooltip: Swings a blade towards the cursor every 1.25 seconds
+		DisplayName: Corrupted Blade
+	}
+
+	StardustDoll: {
+		Tooltip:
+			'''
+			Uses shadowflame dust for ammo
+			Shoots out a bunch of stardust arrows at random angles
+			Stardust arrows split into additional homing stardust arrows
+			Has a 2.5 second cooldown
+			'The culmination of powerful dark magic'
+			'''
+		DisplayName: Stardust Doll
+	}
+
+	StickyDoll: {
+		Tooltip:
+			'''
+			Uses bone dust for ammo
+			Shoots out a barrage of arrows that stick onto enemies at random angles
+			Has a 1.5 second cooldown
+			'Don't worry it isn't sticky to hold'
+			'''
+		DisplayName: Sticky Doll
+	}
+
+	BoneDust: {
+		Tooltip: A sawed up version of bones turned into versatility
+		DisplayName: Bone Dust
+	}
+
+	Flyshooter: {
+		Tooltip:
+			'''
+			Your summons will focus hit enemies
+			Shoots a burst of 2 to 7 flys that stick onto enemies
+			Damage and armor penetration scale with boss progression
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Flyshooter
+	}
+
+	StrongWinds: {
+		Tooltip:
+			'''
+			Shoots powerful winds that stun on hits
+			Damage and stun duration scale with boss progression
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Strong Winds
+	}
+
+	ExoticMatter: {
+		Tooltip:
+			'''
+			A rare piece of matter that appears otherworldly
+			Has a 1 in 1000 chance of dropping from most enemies
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Exotic Matter
+	}
+
+	CrystalDagger: {
+		Tooltip:
+			'''
+			Gives the player the Crystalized buff when the dagger is held for 3 seconds while attacking
+			The Crystalized buff increases melee speed and movement speed by 50% and increases critical strike chance by 12%
+			Getting the Crystalized buff shoots a oricalcum petal towards the cursor
+			Shoots out 3 to 5 crystals instead of swinging a dagger
+			'''
+		DisplayName: Crystal Dagger
+	}
+
+	MushroomDuals: {
+		Tooltip:
+			'''
+			Left click to rapidly stab with a venomized shroomite dagger
+			Shroomite dagger grants the shroomite power buff, which increases damage and defense
+			Right click to slowly stab with a poisonous mushroom dagger
+			Mushroom dagger grants the mushroom power buff, which increases attack speed and life regeneration
+			'''
+		DisplayName: Mushroom Duals
+	}
+
+	MarbleGraniteDuals: {
+		Tooltip:
+			'''
+			Left click to rapidly stab with a electrifying granite dagger
+			Granite dagger grants the granite power buff, which increases damage and defense
+			Right click to slowly stab with a fiery marble dagger
+			Marble dagger Grants the marble power buff, which increases attack speed and life regeneration
+			'''
+		DisplayName: Marble Granite Duals
+	}
+
+	Notes21: {
+		Tooltip: Obtained by fishing in the cavern layer during a blood moon
+		DisplayName: Notes
+	}
+
+	Bloodfang: {
+		Tooltip:
+			'''
+			Gives the player the Blood Thirsty buff when the dagger is held for 3 seconds without attacking
+			The Blood Thirsty buff increases melee critical strike chance by 50%, life regen by 3, and clears bloodfang cooldown
+			Inflicts the super gutted upon hitting enemies
+			Super gutted causes enemies to rapidly take damage over time
+			Heals a decent amount of health on hits and even more health on critical hits 
+			Has a 0.5 second cooldown
+			[c/3F00FF:Fishing Item]
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Bloodfang
+	}
+
+	BouncyBlaster: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots bouncy gel that stuns
+			Bouncy gel has weak homing
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Bouncy Blaster
+	}
+
+	RuneCannon: {
+		Tooltip:
+			'''
+			Spawns a cursed ring while not attacking that inflicts enemies inside it with cursed inferno
+			Spawns a ichor ring while attacking that inflicts enemies inside it with ichor
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Rune Cannon
+	}
+
+	MeteorShortbow: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and increases melee damage by 50%
+			Converts regular arrows into meteor arrows which spawn stars from the sky upon death
+			Shoots 1 to 2 arrows at once
+			'''
+		DisplayName: Meteor Shortbow
+	}
+
+	SkyProtector: {
+		Tooltip:
+			'''
+			Gives the player the Star Strength buff when the dagger is held for 3 seconds while attacking
+			The Star Strength buff increases life regen, defense, and movement speed
+			Melee hits causes fallen stars to rain from the sky
+			'''
+		DisplayName: Sky Protector
+	}
+
+	FutureSurprise: {
+		Tooltip: With enough patience, your enemies are rewarded with a special surprise
+		DisplayName: Future Surprise
+	}
+
+	CursedPointer: {
+		Tooltip:
+			'''
+			Grants full immunity to all cooldowns
+			[c/871b28:Cheat Item]
+			'''
+		DisplayName: Cursed Pointer
+	}
+
+	LifeCrystalLauncher: {
+		Tooltip:
+			'''
+			Uses life crystals for ammo
+			Hold left click to charge up a powerful life restoring shot
+			Once the launcher hits 15 seconds get ready to fire
+			Has a 15 second cooldown
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Life Crystal Launcher
+	}
+
+	HellBringer: {
+		Tooltip:
+			'''
+			Uses obsidian for ammo
+			Fires a rocket that explodes and inflicts On Fire!
+			'''
+		DisplayName: Hell Bringer
+	}
+
+	GoldenAchievement: {
+		Tooltip:
+			'''
+			Not consumable
+			Throw a golden statue that ignores almost all defense
+			'''
+		DisplayName: Golden Achievement
+	}
+
+	Yappinator: {
+		Tooltip:
+			'''
+			Rapidly fires bananas that decrease enemy hp by 0.25%
+			[c/6d006f:Joke Item]
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Yappinator
+	}
+
+	CoralShortbow: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and increases melee damage by 50%
+			Shoots 1 to 2 arrows at once and shoots a piercing bubble
+			'''
+		DisplayName: Coral Shortbow
+	}
+
+	Notes20: {
+		Tooltip: Can be obtained by shimmering a Monkey Dart
+		DisplayName: Notes
+	}
+
+	WeaknessPolicy: {
+		Tooltip:
+			'''
+			Critical strikes applies a 100% damage boost
+			While the effect is active you cannot crit again
+			'''
+		DisplayName: Weakness Policy
+	}
+
+	ShimmerDart: {
+		Tooltip:
+			'''
+			Gravity constantly changes while travelling
+			Can pierce up to three enemies
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Shimmer Dart
+	}
+
+	Winterfish: {
+		Tooltip:
+			'''
+			3 summon tag damage
+			Not consumable
+			Throw a barrage of Winterfish that pierce enemies
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Winterfish
+	}
+
+	Notes19: {
+		Tooltip: Can be obtained by fishing in the Snow Biome
+		DisplayName: Notes
+	}
+
+	HandheldSnowballLauncher: {
+		Tooltip: A handheld version of the basic Snowball Launcher
+		DisplayName: Handheld Snowball Launcher
+	}
+
+	Thornfish: {
+		Tooltip:
+			'''
+			Not consumable
+			Throws a fish that attaches itself to enemies
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Thornfish
+	}
+
+	Notes18: {
+		Tooltip: Can be obtained by fishing in the Desert
+		DisplayName: Notes
+	}
+
+	WorldBreaker: {
+		Tooltip:
+			'''
+			Shoots a world destroying beam
+			The beam evaporates tiles, walls, liquids, items, and chests
+			[c/871b28:Cheat Item]
+			'''
+		DisplayName: World Breaker
+	}
+
+	Notes17: {
+		Tooltip: Can be obtained by fishing in Space
+		DisplayName: Notes
+	}
+
+	CloudStaff: {
+		Tooltip:
+			'''
+			Shoots a giant cloud beam that inflicts the Clouded debuff for 7 seconds
+			Clouded increases the effectiveness of damage over time debuffs
+			Cloud Beam also temporary stuns enemies every 5 hits
+			[c/a0a0a0:Classless Item]
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Cloud Staff
+	}
+
+	Notes16: {
+		Tooltip: Can be obtained by fishing in the Forest
+		DisplayName: Notes
+	}
+
+	Fishgun: {
+		Tooltip:
+			'''
+			Converts regular bullets into Water Pellets
+			Water Pellets cause a watery explosion upon death
+			Right click to spin your gun increasing your ranged damage and granting underwater mobility
+			Right click also increases ranged attack speed while underwater
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Fishgun
+	}
+
+	Notes15: {
+		Tooltip: Can be obtained by fishing in the Hardmode Granite Biome
+		DisplayName: Notes
+	}
+
+	EnergyFish: {
+		Tooltip:
+			'''
+			Shoots granite rocks that crack open an granite bolt upon hitting an enemy
+			Granite bolts have a chance to restore mana upon hitting enemies
+			Can only land critical hits if the player is on the ground
+			'Despite the name, energy fish aren't very energetic in the wild'
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Energy Fish
+	}
+
+	TetheredRock: {
+		Tooltip: "'It doesn't get any more basic from here'"
+		DisplayName: Tethered Rock
+	}
+
+	Notes14: {
+		Tooltip: Can be obtained by fishing in the Hardmode Ocean
+		DisplayName: Notes
+	}
+
+	ExplosiveSea: {
+		Tooltip:
+			'''
+			Fires highly explosive mines that stop moving when close to enemies
+			Mines that don't hit a tile or enemy can critically strike and burst into flames on death
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Explosive Sea
+	}
+
+	Notes13: {
+		Tooltip: Can be obtained by fishing in the Hardmode Rain
+		DisplayName: Notes
+	}
+
+	Candiru: {
+		Tooltip:
+			'''
+			Gives the player the Acidic Strength buff when the dagger is held for 3 seconds while attacking
+			The Acidic Strength buff increases melee damage and knockback by 50%
+			Getting the Acidic Strength buff harms the player
+			Hitting enemies has a chance to cause a poison blast which have a chance to critically strike
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Candiru
+	}
+
+	EnchantedTrident: {
+		Tooltip:
+			'''
+			Every 2 shots shoot an enchanted trident projectile
+			Applies the Trident Power buff when held
+			Trident Power increases melee damage by 15% while under water
+			Increases mobility in water when held
+			Hold Up to descend slower
+			'''
+		DisplayName: Enchanted Trident
+	}
+
+	Seaweep: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Swing a rare type of seaweed that briefly stuns enemies
+			[c/3F00FF:Fishing Item]
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Seaweep
+	}
+
+	Notes12: {
+		Tooltip: Can be obtained by fishing in the Ocean
+		DisplayName: Notes
+	}
+
+	Notes11: {
+		Tooltip: Can be obtained by fishing in the Hardmode Marble Biome
+		DisplayName: Notes
+	}
+
+	MarbleSpikefish: {
+		Tooltip:
+			'''
+			Spin an exotic petrified fish that gives the player the Marbleskin buff
+			Marbleskin increases defense by 12 and grants knockback immunity
+			Throwing the Spikefish at an enemy causes it to break into marble rocks
+			Can only land critical hits if the player is in the air
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Marble Spikefish
+	}
+
+	ColorParty: {
+		Tooltip:
+			'''
+			Shoots spinning rainbow lasers that inflict the Color Splash debuff for 7 seconds
+			Color Splash halves enemy defense and increases the effectiveness of damage over time debuffs
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Color Party
+	}
+
+	SuperCharger: {
+		Tooltip: ""
+		DisplayName: Super Charger
+	}
+
+	ShamanTablet: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Shoot a homing purifying spell that has a chance to greatly decrease defense for 5 seconds
+			The purifying spell heals 5 mana on hits and heals an additional 25 mana upon decreasing the defense of an enemy
+			Has a 0.75 second cooldown
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Shaman Tablet
+	}
+
+	UnstableBrick: {
+		Tooltip:
+			'''
+			Throw a powerful yet slow explosive brick
+			When the brick explodes it shatters into explosive pieces
+			'''
+		DisplayName: Unstable Brick
+	}
+
+	ChristmasCheer: {
+		Tooltip:
+			'''
+			Shoots pine needles
+			Has a 33% chance to shoot Christmas ornaments
+			'''
+		DisplayName: Christmas Cheer
+	}
+
+	BigClub: {
+		Tooltip:
+			'''
+			Swing a powerful yet heavy club that inflicts Splintered
+			Splintered causes enemies to rapidly take damage over time
+			Splintered causes all vanilla boss like enemies to take extra damage
+			Grants the Striking Moment buff on critical hits 
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Big Club
+	}
+
+	RoseOfCourage: {
+		Tooltip:
+			'''
+			Increases non-summoner damage by 5% per active minion
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Rose of Courage
+	}
+
+	CursedPumpkin: {
+		Tooltip:
+			'''
+			Increased block range by 3
+			Applys the shine buff
+			Increases damage and mining speed with boss progression
+			Hardmode grants a ring of death which increases damage dealt to enemies inside it
+			[c/ffa0bf:Holdiday Item]
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Cursed Pumpkin
+	}
+
+	MartianCore: {
+		Tooltip:
+			'''
+			Increases damage by 50% but decreases crit chance by 100%
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Martian Core
+	}
+
+	ShamanStaff: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Shoot a purifying spell that has a chance to greatly decrease defense for 5 seconds
+			The purifying spell heals 5 mana on hits and heals an additional 25 mana upon decreasing the defense of an enemy
+			Has a 1 second cooldown
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Shaman Staff
+	}
+
+	FrostMachine: {
+		Tooltip:
+			'''
+			Charge for 1.5 seconds to fire a slow moving Ice Ball
+			The Ice Ball will periodically spawn mini snow flakes while alive
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Frost Machine
+	}
+
+	FrozenMachine: {
+		Tooltip:
+			'''
+			Charge for 1.5 to fire a slow moving Ice Ball
+			The Ice Ball will periodically spawn mini snow flakes while travelling
+			'''
+		DisplayName: Frozen Machine
+	}
+
+	OrnamentsOfDoom: {
+		Tooltip:
+			'''
+			Rapidly shoot Deadly Ornaments that bounce on tiles
+			Every 25 shots enable a 3 second cooldown
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Ornaments of Doom
+	}
+
+	FlamingWoodKunai: {
+		Tooltip:
+			'''
+			Rapidly shoot Flaming Wood Kunai that spawn fiery sparks on hits
+			Every 25 shots enable a 3 second cooldown
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Flaming Wood Kunai
+	}
+
+	PumpkinCore2: {
+		Tooltip:
+			'''
+			A small sized yoyo
+			Spawns bats around the yoyo while it spins
+			Right click the item to enable tile destruction
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Pumpkin Core
+	}
+
+	PumpkinCore: {
+		Tooltip:
+			'''
+			A small sized yoyo
+			Can destroy all tiles with the exception of Lihzahrd Brick, Lihzahrd Altar, Platforms and Torches
+			Spawns bats around the yoyo while it spins
+			Right click the item to disable tile destruction
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Pumpkin Core (Destruction)
+	}
+
+	ExplosiveHoliday: {
+		Tooltip:
+			'''
+			Shoots a burst of tile destroying missiles
+			'Could be the cause of many unhappy holidays'
+			[c/a0a0a0:Classless Item]
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Explosive Holiday
+	}
+
+	ChlorophyteTranquilizer: {
+		Tooltip:
+			'''
+			Has a 1.5 second cooldown
+			Shoots a dart that very briefly stuns enemies
+			The Dart also restores 100 mana and 25 health on enemy hits
+			'''
+		DisplayName: Chlorophyte Tranquilizer
+	}
+
+	ThornyMace: {
+		Tooltip:
+			'''
+			Shoots thorns at nearby enemies
+			Throw the flail to fire a projectile
+			'''
+		DisplayName: Thorny Mace
+	}
+
+	BattleCape: {
+		Tooltip:
+			'''
+			Thank you for downloading my mod, I hope you enjoy it!
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Cape
+	}
+
+	ShadowflameBullet: {
+		Tooltip: Teleports between realms
+		DisplayName: Shadowflame Bullet
+	}
+
+	TreeCannon: {
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Uses acorns for ammo
+			Shoots three acorns that spawn leaves when they dies
+			'''
+		DisplayName: Tree Cannon
+	}
+
+	WoodenSpearBow: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds
+			The Quick Draw buff doubles melee speed and increases melee damage by 50%
+			Shoots arrows towards the cursor
+			'''
+		DisplayName: Wooden Spear Bow
+	}
+
+	NegativeDagger: {
+		Tooltip:
+			'''
+			Gives the player the Negative Power debuff when the dagger is held for 3 seconds when attacking
+			The Negative Power debuff decreases melee damage by 300%, decreases melee speed by 25%, and decreases crit chance by 10%
+			Shoots negative homing bolts towards the cursor
+			Randomizes stats every use
+			'''
+		DisplayName: Negative Dagger
+	}
+
+	Trash: {
+		Tooltip: Used as ammo for the Trash Collector
+		DisplayName: Trash
+	}
+
+	TrashCollector: {
+		Tooltip:
+			'''
+			Uses trash for ammo
+			Randomizes stats every use
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Trash Collector
+	}
+
+	OnyxCannon: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out shadowflame oil which allows fire debuffs to do more damage over time
+			Occasionally shoots out additional onyx blasts
+			'''
+		DisplayName: Onyx Cannon
+	}
+
+	FallenJudgesCrown: {
+		Tooltip: "[c/00fff7:Contributor Item]"
+		DisplayName: Fallen Judge's Crown
+	}
+
+	TotemOfLife: {
+		Tooltip:
+			'''
+			When held while close to death the totem will heal the player
+			This healing has a 2 minute cooldown
+			'''
+		DisplayName: Totem of Life
+	}
+
+	FieryDoom: {
+		Tooltip:
+			'''
+			Allows the sword to always critically stike while the player is in the air
+			Knocks the player backwards on hits and shoots flames on death
+			'''
+		DisplayName: Fiery Doom
+	}
+
+	GhostBelcher: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots ghostly chills that shoots out homing spirits
+			Both of these projectiles go through walls
+			'Who you gonna call?'
+			'''
+		DisplayName: Ghost Belcher
+	}
+
+	Waxer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots honey gas and gives the hardened honey buff when held
+			'''
+		DisplayName: Waxer
+	}
+
+	SkullSpewer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots bone breath that shoots out homing skulls
+			'''
+		DisplayName: Skull Spewer
+	}
+
+	MeteorSpewer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out meteorite gas that shoots meteors towards the cursor on hits
+			'''
+		DisplayName: Meteor Spewer
+	}
+
+	GasSpewer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out gas that inflict poison
+			'''
+		DisplayName: Gas Spewer
+	}
+
+	PeaceKeeper: {
+		Tooltip:
+			'''
+			Allows the sword to always critically stike while the player is in the air
+			Knocks the player backwards on hits
+			'''
+		DisplayName: Peace Keeper
+	}
+
+	SeveredIchorSticker: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out ichor flames that inflict ichor
+			Every 5 shots it shoots out an ichor fireball
+			'''
+		DisplayName: Severed Ichor Sticker
+	}
+
+	SeveredClinger: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out cursed flames that inflict cursed inferno
+			Every 5 shots it shoots out a cursed fireball
+			'''
+		DisplayName: Severed Clinger
+	}
+
+	ShadowflameCandle: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out various flames that inflict multiple debuffs
+			'''
+		DisplayName: Shadowflame Candle
+	}
+
+	BloodflameSpewer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out blood flames that heal the player on hits
+			Spews out additional flames in an inaccurate spread
+			'''
+		DisplayName: Bloodflame Spewer
+	}
+
+	Oiler: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out oil which allows fire debuffs to do more damage over time
+			Occasionally shoots out additional flames
+			'''
+		DisplayName: Oiler
+	}
+
+	Railgun: {
+		Tooltip:
+			'''
+			Shoots a slow but powerful laser beam
+			The beam will die after a few seconds
+			'''
+		DisplayName: Railgun
+	}
+
+	CataclysmicRay: {
+		Tooltip:
+			'''
+			Casts demonic tentacles that deals constant damage
+			Gives the player the Book Worm buff
+			Book Worm increases defense, life regen, and mana regen
+			'''
+		DisplayName: Cataclysmic Rays
+	}
+
+	SWATShield: {
+		Tooltip:
+			'''
+			Spawns in a Swat Team that shoots towards the cursor
+			The Swat Team does contact damage and do summoner damage
+			'''
+		DisplayName: SWAT Shield
+	}
+
+	BulletShield: {
+		Tooltip: ""
+		DisplayName: Bullet Shield
+	}
+
+	Sharkzooka: {
+		Tooltip:
+			'''
+			Fires a shark bomb that sticks onto enemies
+			Right click to give a buff that increases ranged damage
+			Right clicking adds duration to that buff up to 10 seconds
+			The buff will do more damage depending on how much duration is left
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Sharkzooka
+	}
+
+	Tranquilizer: {
+		Tooltip:
+			'''
+			Has a 1.5 second cooldown
+			Shoots a dart that very briefly stuns enemies
+			The Dart also restores 100 mana on enemy hits
+			'''
+		DisplayName: Tranquilizer
+	}
+
+	PotionMess: {
+		Tooltip:
+			'''
+			Slightly increases luck
+			Randomly gives a random buff or debuff
+			Buffs/Debuffs will vary depending how long it takes to give the buff
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Potion Mess
+	}
+
+	NaturesRevenge: {
+		Tooltip:
+			'''
+			Shoots out a storm of vengeful leaves and seeds
+			Vengeful leaves slow down on hits and inflict the Nature's Curse debuff for 7 seconds
+			Nature's Curse has a chance to inflict Acid Venom and increases the effectiveness of the Poisoned debuff
+			Grants the player Druid Power and spawns a poison ring that inflicts enemies inside it with Poisoned when held
+			[c/a0a0a0:Classless Item]
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Nature's Revenge
+	}
+
+	TuskSword: {
+		Tooltip:
+			'''
+			Occasionally fires Fishron Heads towards the cursor
+			Fishron Heads stick onto enemies for a short time
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Tusk Sword
+	}
+
+	DroneRemote: {
+		Tooltip:
+			'''
+			Gives the player the Rocket Power buff while the remote is held without attacking
+			The Rocket Power buff increases movement speed and grants knockback immunity
+			Fires a drone that fires bullets as it travels
+			The drone itself pierces enemies and will explode upon dying
+			'''
+		DisplayName: Drone Remote
+	}
+
+	LunarticMask: {
+		Tooltip:
+			'''
+			Fires twinkling stars that spawn smaller homing stars
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Lunar-tic Mask
+	}
+
+	SparkCell: {
+		Tooltip:
+			'''
+			Has a chance to spawn 8 ghasts around the target
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Spark Cell
+	}
+
+	SinnersAmbition: {
+		Tooltip:
+			'''
+			Converts regular bullets to bouncing lasers that explode on hit
+			Right click to spin your gun increasing ranged stats
+			'V2 could never'
+			[c/00fff7:Contributor Item]
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Sinner's Ambition
+	}
+
+	EtherealEmblem: {
+		Tooltip:
+			'''
+			Increases the crit chance by 10%
+			Increases attack damage and speed by 15%
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Ethereal Emblem
+	}
+
+	BetsysCore: {
+		Tooltip:
+			'''
+			Increases crit chance by 100% but decreases damage by 50%
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Betsy's Core
+	}
+
+	RoyalDevotion: {
+		Tooltip:
+			'''
+			Increases max sentries and max minions by 1
+			Increases melee speed and ranged damage by 10%
+			Increases max mana by 20
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Royal Devotion
+	}
+
+	LaserGun: {
+		Tooltip:
+			'''
+			Shoots piercing lasers
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Laser Gun
+	}
+
+	PrimeSaw: {
+		Tooltip:
+			'''
+			Hitting enemies with the chainsaw spawns extra blades
+			Additionally hitting enemies with a critical strike heals the player and inflicts the gutted debuff
+			Gutted causes enemies to quickly take damage over time
+			'Great for chopping down enemies'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Prime Saw
+	}
+
+	RedDrone: {
+		Tooltip:
+			'''
+			30% chance to save ammo
+			Converts regular bullets into explosive bullets
+			Can be right clicked to change into the Green Drone
+			'Spaaaaaaaaaaaace!'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Red Drone
+	}
+
+	GreenDrone: {
+		Tooltip:
+			'''
+			30% chance to save ammo
+			Converts regular bullets into cursed bullets
+			Can be right clicked to change into the Red Drone
+			'Spaaaaaaaaaaaace!'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Green Drone
+	}
+
+	MeatShield: {
+		Tooltip:
+			'''
+			Spawns a solarflare ring that inflicts enemies inside it daybroken
+			All vanilla demon like enemies within the ring take double damage
+			Allows the player to dash in all directions
+			Increases life regen, and grants knockback immunity
+			Enemies are more likely to target you
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Meat Shield
+	}
+
+	CursedKey: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Uses bone dust for ammo
+			Your summons will focus hit enemies
+			Summon ghostly dragons that home and slow down on enemy hits
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Cursed Key
+	}
+
+	SlimeSpewer: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots sticky gel that stuns
+			Sticky gel has weak homing
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Slime Spewer
+	}
+
+	HoneyDew: {
+		RestoreLifeText: "120"
+		Tooltip:
+			'''
+			Not Consumable
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Honey Dew
+	}
+
+	WormPike: {
+		Tooltip:
+			'''
+			Shoots out homing eaters
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Worm Pike
+	}
+
+	BloodyKnives: {
+		Tooltip:
+			'''
+			Shoots out a life stealing knives in a slow burst
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Bloody Knives
+	}
+
+	AllSeeingEye: {
+		Tooltip:
+			'''
+			Summon homing eyeballs
+			Homing eyeballs causes minions to target enemies on hits
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: All Seeing Eye
+	}
+
+	LightBelt: {
+		Tooltip:
+			'''
+			Enemies are less likely to target you
+			Increases movement speed and increases melee speed by 10%
+			'''
+		DisplayName: Light Belt
+	}
+
+	DarkenedLight: {
+		Tooltip:
+			'''
+			Increases movement speed and increases melee speed by 15%
+			Increases jump speed and increases melee damage by 15%
+			'''
+		DisplayName: Darkened Light
+	}
+
+	BandOfDarkness: {
+		Tooltip:
+			'''
+			Enemies are more likely to target you
+			Increases jump speed and increases melee damage by 10%
+			'''
+		DisplayName: Band of Darkness
+	}
+
+	ShadowSlap: {
+		Tooltip:
+			'''
+			Gives the player the Shadow Strike buff when the dagger is held for 3 seconds while attacking
+			The Shadow Strike buff doubles melee damage, increases crit chance by 30%, increases melee speed slightly, and increases defense by 10
+			Inflicts shadowflame on melee hit
+			'''
+		DisplayName: Shadow Slap
+	}
+
+	SpikedDoll: {
+		Tooltip:
+			'''
+			Uses bone dust for ammo
+			Shoots out a storm of bouncing arrows at random angles
+			Has a 3 second cooldown
+			'Has enough spikes to bring hurt to anyone 10000 times'
+			'''
+		DisplayName: Spiked Doll
+	}
+
+	LightShow: {
+		Tooltip:
+			'''
+			Shoots a small beam that ignores tiles and does constant damage 
+			Gives the player the Prismatic Power buff when the dagger is held for 3 seconds without attacking
+			The Prismatic Power buff doubles melee damage and increase life regen by 5 but halves defense
+			Melee hits cause enemies to drop more gold and have a chance to spawn homing stars
+			'''
+		DisplayName: Light Show
+	}
+
+	LihzahrdianDagger: {
+		Tooltip:
+			'''
+			Gives the player the Guardian Defense buff when the dagger is held for 3 seconds while attacking
+			The Guardian Defense buff increases melee damage by 50% and doubles defense but sets life regen to 0
+			Melee hits confuse enemies and have a chance to shoot out a boulder beneath enemies
+			'''
+		DisplayName: Lihzahrdian Dagger
+	}
+
+	SpiritDoll: {
+		Tooltip:
+			'''
+			Uses shadowflame for ammo
+			Shoots out a barrage of homing spectre arrows at random angles
+			33% chance to save ammo
+			Has a 2.25 second cooldown
+			'It gives off a feeling of dread'
+			'''
+		DisplayName: Spirit Doll
+	}
+
+	WinterDagger: {
+		Tooltip:
+			'''
+			Shoots a short ranged icicle
+			Gives the player the Frozen Strength buff when the dagger is held for 3 seconds without attacking
+			The Frozen Strength buff quintuples melee damage and increases crit chance by 20% but you lose all defense
+			Getting the rozen Strength buff shoots North Pole spears around the player
+			Melee hits slows enemies down
+			'''
+		DisplayName: Winter Dagger
+	}
+
+	SuspiciousDoll: {
+		Tooltip:
+			'''
+			Uses shadowflame for ammo
+			Shoots out a barrage of homing arrows at random angles
+			Has a 2.5 second cooldown
+			'It looks familar...'
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Suspicious Doll
+	}
+
+	CorrodedDagger: {
+		Tooltip:
+			'''
+			A badly damaged and rusted dagger
+			When used during the day, summons the Shadow Thief NPC
+			'''
+		DisplayName: Corroded Dagger
+	}
+
+	FrostbittenDagger: {
+		Tooltip:
+			'''
+			Shoots a short ranged icicle
+			Gives the player the Frozen Strength buff when the dagger is held for 3 seconds without attacking
+			The Frozen Strength buff quintuples melee damage and increases crit chance by 20% but you lose all defense
+			Melee hits slows enemies down
+			'''
+		DisplayName: Frostbitten Dagger
+	}
+
+	UndeadPerfume: {
+		Tooltip:
+			'''
+			Increases bewitched summon damage and knockback by 50%
+			Imbues the player with an undead stench
+			Causes the player to get slightly slower movement speed and can't fly
+			But the player gets more health, life regen, and all undeads are friendly 
+			'''
+		DisplayName: Undead Perfume
+	}
+
+	ShadowbloodPotion: {
+		Tooltip:
+			'''
+			Increases health by 50 but decreases life regen by 2
+			'It gives a tingy feeling on consumption'
+			'''
+		DisplayName: Shadowblood Potion
+	}
+
+	Shadowflame: {
+		Tooltip: "'A magical flame used by the goblin warlocks for their magic'"
+		DisplayName: Shadowflame
+	}
+
+	ChargeShotRed: {
+		Tooltip:
+			'''
+			Uses 25 Nanites for ammo
+			Charge up a beam that does massive damage
+			Once fully charged, the beam will last 2 seconds before disappearing
+			'No you can't use this to manipulate matter'
+			'''
+		DisplayName: Red Charge Shot
+	}
+
+	ChargeShotPurple: {
+		Tooltip:
+			'''
+			Uses 25 Nanites for ammo
+			Charge up a beam that does massive damage
+			Once fully charged, the beam will last 2 seconds before disappearing
+			'No you can't use this to manipulate matter'
+			'''
+		DisplayName: Purple Charge Shot
+	}
+
+	ChargeShotGreen: {
+		Tooltip:
+			'''
+			Uses 25 Nanites for ammo
+			Charge up a beam that does massive damage
+			Once fully charged, the beam will last 2 seconds before disappearing
+			'No you can't use this to manipulate matter'
+			'''
+		DisplayName: Green Charge Shot
+	}
+
+	Bowmama: {
+		Tooltip:
+			'''
+			Fires a barrage of arrows
+			Converts regular arrows into luminite arrows
+			Has a 33% chance to shoot a Jumbo luminite arrow
+			'Bow-mama so fat...'
+			[c/00fff7:Contributor Item]
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Bow-mama
+	}
+
+	Bowulder: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and increases melee damage by 50%
+			Shoots giant boulder arrows that spawns boulders on hits
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Bow-ulder
+	}
+
+	EnchantedDagger: {
+		Tooltip:
+			'''
+			Gives the player the Enchanted buff when the dagger is held for 3 seconds while attacking
+			The Enchanted buff doubles melee damage, increases melee speed by 25%, and increases crit chance by 10%
+			Shoots enchanted sword beams towards the cursor
+			'''
+		DisplayName: Enchanted Dagger
+	}
+
+	DarkestDagger: {
+		Tooltip:
+			'''
+			Gives the player the Darkened Power buff when the dagger is held for 3 seconds without attacking
+			The Darkened Power buff doubles melee damage, increases crit chance by 100%, increases melee speed, increases defense by 16, and doubles movement speed
+			Getting the Darkened Power buff heals the player
+			Fires a devastating beam that inflicts shadow pain and is capable of grabbing enemies
+			Shadow pain causes an extreme amount of damage over time
+			'''
+		DisplayName: Darkest Dagger
+	}
+
+	CandyCornDagger: {
+		Tooltip:
+			'''
+			Gives the player the Prehistoric Power buff when the dagger is held for 3 seconds without attacking
+			The Prehistoric Power buff increases melee damage by 50% and increases crit chance by 100%
+			Getting the Prehistoric Power buff shoots explosive jack o lanterns towards the cursor and heals the player
+			Hitting enemies has a chance to cause a fiery explosion
+			'''
+		DisplayName: Candy Corn Dagger
+	}
+
+	SpaceDagger: {
+		Tooltip:
+			'''
+			Gives the player the Star Strength buff when the dagger is held for 3 seconds while attacking
+			The Star Strength buff increases life regen, defense, and doubles movement speed
+			Melee hits causes a barrage of stars to rain from the sky
+			'''
+		DisplayName: Space Dagger
+	}
+
+	ShockDagger: {
+		Tooltip:
+			'''
+			Gives the player the Crystalized buff when the dagger is held for 3 seconds while attacking
+			The Crystalized buff increases melee speed and movement speed by 50% and increases critical strike chance by 12%
+			Getting the Energized buff shoots an electrosphere missile towards the cursor
+			Shoots out 3 to 5 lightning bolts instead of swinging a dagger
+			Attacks faster when on the ground
+			'''
+		DisplayName: Shock Dagger
+	}
+
+	TerraDagger: {
+		Tooltip:
+			'''
+			Gives the player the Terra Power buff when the dagger is held for 3 seconds without attacking
+			The Terra Power buff increases melee damage by 65%, increases crit chance by 30%, increases melee speed, and increases defense by 12
+			Getting the Terra Power buff shoots terra beams towards the cursor
+			Shoots sword projectiles towards the cursor
+			Has a chance to cause a chlorophyte blast on melee hits
+			'''
+		DisplayName: Terra Dagger
+	}
+
+	SacrificialDagger: {
+		Tooltip:
+			'''
+			Gives the player the Refreshed buff when the dagger is held for 3 seconds without attacking
+			The Refreshed buff doubles melee damage, increases melee speed by 15%, and increases crit chance by 50%
+			Getting the Refreshed buff spawns a holy explosion
+			Heals the player on hits
+			'''
+		DisplayName: Sacrificial Dagger
+	}
+
+	SacrificalDagger: {
+		Tooltip:
+			'''
+			Gives the player the Refreshed buff when the dagger is held for 3 seconds without attacking
+			The Refreshed buff doubles melee damage, increases melee speed by 15%, and increases crit chance by 50%
+			Getting the Refreshed buff spawns a holy explosion
+			Heals the player on hits
+			'''
+		DisplayName: Sacrifical Dagger
+	}
+
+	CursedPortal: {
+		Tooltip:
+			'''
+			Gives the player the Shadow Strike buff when the dagger is held for 3 seconds without attacking
+			The Shadow Strike buff doubles melee damage, increases crit chance by 30%, increases melee speed by 15%, and increases defense by 10
+			Getting the Shadow Strike buff shoots death sickles towards the cursor
+			Shoots Dark Orbs that spawn new Dark Orbs towards the cursor on death
+			Newly spawned Dark Orbs lose velocity on hits
+			Has a chance to cause a shadowflame blast on melee hits
+			'''
+		DisplayName: Cursed Portal
+	}
+
+	DarkPortal: {
+		Tooltip:
+			'''
+			Gives the player the Shadow Strike buff when the dagger is held for 3 seconds without attacking
+			The Shadow Strike buff doubles melee damage, increases crit chance by 30%, increases melee speed by 15%, and increases defense by 10
+			Getting the Shadow Strike buff shoots death sickles towards the cursor
+			Shoots Dark Orbs that spawn new Dark Orbs towards the cursor on death
+			Newly spawned Dark Orbs lose velocity on hits
+			Has a chance to cause a shadowflame blast on melee hits
+			'''
+		DisplayName: Dark Portal
+	}
+
+	StormDagger: {
+		Tooltip:
+			'''
+			Gives the player the Storm Shield buff while the dagger is held without attacking
+			The Storm Shield buff increases defense by 12, life regeneration by 6 and grants knockback immunity
+			Shoots storm blasts will split into storm balls upon death
+			Has a 10% chance to do 200% more damage
+			'''
+		DisplayName: Storm Dagger
+	}
+
+	Seedling: {
+		Tooltip:
+			'''
+			Gives the player the Nature's Power buff when the dagger is held for 3 seconds while attacking
+			The Nature's Power buff doubles melee damage, increases crit chance by 100%, and increases defense by 12
+			Getting the Nature's Power buff shoots exploding seeds around the player
+			Hitting enemies spawns spores around them
+			'''
+		DisplayName: Seedling
+	}
+
+	CatsPaw: {
+		Tooltip:
+			'''
+			Gives the player the Crazy Kitty buff when the dagger is held for 3 seconds without attacking
+			The Crazy Kitty buff increases melee damage by 50%, increases crit chance by 12%, doubles movement speed, and increases melee speed
+			Getting the Crazy Kitty buff shoots rainbow bolts around the player
+			Shoots sharp homing claws
+			'''
+		DisplayName: Cat's Paw
+	}
+
+	SolarExplosion: {
+		Tooltip:
+			'''
+			Gives the player the Energized buff when the dagger is held for 3 seconds without attacking
+			The Energized buff doubles melee damage, increases crit chance by 8%, and doubles movement speed
+			Getting the Energized buff shoots a solar eruption towards the cursor
+			Shoots explosive solar fireballs
+			'''
+		DisplayName: Solar Explosion
+	}
+
+	BoltDagger: {
+		Tooltip:
+			'''
+			Gives the player the Energized buff when the dagger is held for 3 seconds without attacking
+			The Energized buff doubles melee damage, increases crit chance by 8%, and doubles movement speed
+			Getting the Energized buff shoots a magnet sphere towards the cursor
+			Shoots out 1 to 3 bolts instead of swinging a dagger
+			'''
+		DisplayName: Bolt Dagger
+	}
+
+	InfernoHand: {
+		Tooltip:
+			'''
+			Gives the player the Inferno Sacrifice buff when the dagger is held for 3 seconds without attacking
+			The Inferno Sacrifice buff increases melee damage by 75%, increases melee speed by 30%, and crit chance by 15%
+			Melee hits causes a flame to burst from the enemy and go towards the cursor
+			Applys the Onfire! debuff to the player while swinging the Inferno Hand
+			'''
+		DisplayName: Inferno Hand
+	}
+
+	WaterDagger: {
+		Tooltip:
+			'''
+			Shoots a short ranged water stream
+			Gives the player the Refreshed buff when the dagger is held for 3 seconds without attacking
+			The Refreshed buff doubles melee damage, increases melee speed by 15%, and increases crit chance by 50%
+			Getting the Refreshed buff spawns water bolts around the player
+			'''
+		DisplayName: Water Dagger
+	}
+
+	GrassDagger: {
+		Tooltip:
+			'''
+			Gives the player the Nature's Power buff when the dagger is held for 3 seconds without attacking
+			The Nature's Power buff doubles melee damage, increases crit chance by 100%, and increases defense by 12
+			Shoots leaves towards the cursor
+			'''
+		DisplayName: Grass Dagger
+	}
+
+	PrehistoricDagger: {
+		Tooltip:
+			'''
+			Gives the player the Prehistoric Power buff when the dagger is held for 3 seconds while attacking
+			The Prehistoric Power buff increases melee damage by 50% and increases crit chance by 100%
+			'''
+		DisplayName: Prehistoric Dagger
+	}
+
+	TheBattler: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and melee damage
+			Getting the Quick Draw buff shoots 5 chlorophyte arrows towards the cursor
+			Shoots 3 to 5 arrows at once
+			Converts arrows to chlorophyte arrows
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: The Battler
+	}
+
+	TheGenocide: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and melee damage
+			Getting the Quick Draw buff shoots 3 blood arrows towards the cursor
+			Shoots 2 to 4 arrows at once
+			Converts arrows to blood arrows
+			'''
+		DisplayName: The Genocide
+	}
+
+	ShortbowDagger: {
+		Tooltip:
+			'''
+			Gives the player the Quick Draw buff when the dagger is held for 3 seconds without attacking
+			The Quick Draw buff doubles melee speed and melee damage
+			Shoots arrows towards the cursor
+			'''
+		DisplayName: Shortbow Dagger
+	}
+
+	HolyDagger: {
+		Tooltip:
+			'''
+			Gives the player the Refreshed buff when the dagger is held for 3 seconds without attacking
+			The Refreshed buff doubles melee damage, increases melee speed by 15%, and increases crit chance by 50%
+			Getting the Refreshed buff spawns a holy explosion
+			Heals the player on hits
+			'''
+		DisplayName: Holy Dagger
+	}
+
+	WoodenDagger: {
+		Tooltip:
+			'''
+			Gives the player the Stealthy buff when the dagger is held for 3 seconds without attacking
+			The Stealthy buff doubles melee damage and increases crit chance by 12%
+			'''
+		DisplayName: Wooden Dagger
+	}
+
+	CardOfCrowdedness: {
+		Tooltip:
+			'''
+			Decreases minion damage by 10% per active minion but doubles your max amount of minions
+			This effect has a hardcap of 5 active minions
+			Right click the item itself to change it to the Card of Companionship
+			'Sometimes more is less'
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Card Of Crowdedness
+	}
+
+	TheEraser: {
+		Tooltip:
+			'''
+			Stuns enemies on hits
+			Deletes enemies from existence
+			[c/871b28:Cheat Item]
+			'''
+		DisplayName: The Eraser
+	}
+
+	CodeBreaker: {
+		Tooltip:
+			'''
+			Deletes enemies from existence
+			[c/871b28:Cheat Item]
+			'''
+		DisplayName: Code Breaker
+	}
+
+	Test: {
+		Tooltip: ""
+		DisplayName: Test
+	}
+
+	TestBlade: {
+		Tooltip: Deletes enemies from existence
+		DisplayName: Code Breaker
+	}
+
+	GearGlove: {
+		Tooltip:
+			'''
+			3 summon tag damage
+			Shoots homing gears every 1 sec while you are attacking
+			'''
+		DisplayName: Gear Glove
+	}
+
+	GearBreaker: {
+		DisplayName: Gear Breaker
+		Tooltip:
+			'''
+			Swing a giant wrench that spawns giant gears upon hitting enemies
+			Giant gears do increased damage and stop after travelling a while
+			'''
+	}
+
+	OverloadedMagazine: {
+		Tooltip:
+			'''
+			Increases bullet damage by 10%
+			Applies the reloaded buff every 5 seconds
+			'''
+		DisplayName: Overloaded Magazine
+	}
+
+	CogMachine: {
+		Tooltip:
+			'''
+			Rapidly fires gears that stay in place after it hits an enemy
+			After a while the machine goes on 1.5 second cooldown
+			'''
+		DisplayName: Cog Machine
+	}
+
+	ClockworkRepeater: {
+		DisplayName: Clockwork Repeater
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Shoot 2 to 3 arrows in a three shot burst
+			Converts arrows into steampunk arrows
+			Steampunk arrows will teleport on death and spawn a clockwork arrow towards the cursor
+			'''
+	}
+
+	ClockworkArrow: {
+		DisplayName: Clockwork Arrow
+		Tooltip:
+			'''
+			Freezes the enemy in time for one second
+			Speeds up the enemy for three seconds after it is frozen
+			'''
+	}
+
+	Notes10: {
+		Tooltip: Can be obtained from buying it off the party girl in hardmode
+		DisplayName: Notes
+	}
+
+	BlazingStaff2: {
+		DisplayName: Flame Wand
+		Tooltip:
+			'''
+			Rapidly shoot a spread of mana restoring flames
+			Right click the item to change into Blaze mode
+			'Might get too hot to handle'
+			'''
+	}
+
+	BlazingStaff: {
+		Tooltip:
+			'''
+			Hold down left click for three seconds to charge up a fiery blast
+			Right click the item to change into Flame mode
+			'Might get too hot to handle'
+			'''
+		DisplayName: Blaze Wand
+	}
+
+	SwordOfLight: {
+		DisplayName: Sword of Light
+		Tooltip: Has a 20% to shoot five beams of light
+	}
+
+	Superflux: {
+		Tooltip: ""
+		DisplayName: Superflux
+	}
+
+	FistsOfFury: {
+		Tooltip:
+			'''
+			Rapidly punch with the fury of a thousand fists
+			Gives the player the Super buff when the fist is held for 3 seconds without attacking
+			The Super buff doubles melee damage, increases crit chance by 25%, doubles movement speed, and grants infinite flight
+			Stuns enemies for 2 seconds on critical strikes
+			Grants immunity to Oozed, Mighty Wind, and Distorted when held
+			'I'm making the mother of all omelettes here'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Fists of Fury
+	}
+
+	PrismaticCrystalStaff: {
+		Tooltip:
+			'''
+			Fires rainbow crystals that have weak homing and slow down on hits
+			Rainbow crystals break into shards on hits
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Prismatic Crystal Staff
+	}
+
+	Flashlight: {
+		DisplayName: Flashlight
+		Tooltip:
+			'''
+			Shoots a bright light that inflicts the Blinded debuff for 7 seconds
+			Blinded halves enemy defense
+			'Just don't point it to your face!'
+			[c/a0a0a0:Classless Item]
+			'''
+	}
+
+	CreepyEyedol: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Your summons will focus hit enemies
+			Stare your enemies down with insane vision
+			The stare can go through tiles
+			Enemies you hit are feared, slowing them down
+			'Don't blink!'
+			'''
+		DisplayName: Creepy Eye-dol
+	}
+
+	IcicleBarrage: {
+		DisplayName: Icicle Barrage
+		Tooltip:
+			'''
+			Rapidly fire three icicles
+			Has a 12% chance to shoot ten ice bolts
+			[c/ff9d00:Legendary Item]
+			'''
+	}
+
+	IceBlizzard: {
+		Tooltip:
+			'''
+			Rapidly fire two icicles
+			Has a 10% chance to shoot five ice bolts
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Ice Blizzard
+	}
+
+	Notes9: {
+		Tooltip:
+			'''
+			Can be obtained from buying it off the Arms Dealer
+			The Arms Dealer has to be happy enough and any evil boss is defeated
+			'''
+		DisplayName: Notes
+	}
+
+	WeakeningShot: {
+		Tooltip:
+			'''
+			Shoots three weak lasers that pierces and inflicts various debuffs
+			[c/a0a0a0:Classless Item]
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Weakening Shot
+	}
+
+	Notes8: {
+		Tooltip: Can be obtained by shimmering a Oneshot
+		DisplayName: Notes
+	}
+
+	Notes7: {
+		DisplayName: Notes
+		Tooltip: Can be obtained by shimmering a Death Sickle
+	}
+
+	VoidAxe: {
+		DisplayName: Void Axe
+		Tooltip:
+			'''
+			50% benefit from melee speed bonuses
+			Shoot powerful void axes that home onto enemies, steal life, and ignore tiles
+			Void axes stop in place if they aren't homing in
+			True melee hits also heal the player
+			[c/b225e6:Shimmer Item]
+			'''
+	}
+
+	SparklingStaff: {
+		Tooltip:
+			'''
+			Fire between a bunch of Gem Bolts
+			Fires an additonal homing Power Gem
+			'An ancient weapon, lost to time'
+			[c/ff9d00:Legendary Item]
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Sparkling Staff
+	}
+
+	Notes6: {
+		Tooltip: Can be obtained by shimmering a Prismatic Staff
+		DisplayName: Notes
+	}
+
+	Notes5: {
+		Tooltip: Can be obtained by shimmering a Boomstick
+		DisplayName: Notes
+	}
+
+	Shimmerstick: {
+		Tooltip:
+			'''
+			Converts Bullets into Shimmer Bullets
+			Convert Meteor Bullets into Heavenly Bullets
+			Heavenly Bullets pierce, bounce, are affected by gravity and break into little shards upon bouncing or dying
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Shimmerstick
+	}
+
+	ShimmerBullet: {
+		Tooltip:
+			'''
+			Affected by gravity
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Shimmer Bullet
+	}
+
+	Notes4: {
+		Tooltip: Can be obtained by shimmering a Musket Ball
+		DisplayName: Notes
+	}
+
+	Notes3: {
+		Tooltip: Can be obtained by shimmering a Daedalus Stormbow
+		DisplayName: Notes
+	}
+
+	HeavenlyStorm: {
+		Tooltip:
+			'''
+			Convert Arrows into Shimmer Arrows
+			Convert Holy Arrows into Heavenly Arrows
+			Heavenly Arrows fall upwards and cause a starry explosion on hits
+			Has a chance to fire Holy Arrows as well
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Heavenly Storm
+	}
+
+	CharmOfSynergy: {
+		Tooltip:
+			'''
+			Disables life regen and mana regen
+			Increases barbaric melee, enchanted magic, tactical ranged, and bewitched summon damage by 30%
+			These boosts only occur when the player is below half of their max health
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Charm of Synergy
+	}
+
+	Notes2: {
+		DisplayName: Notes
+		Tooltip: Can be obtained by shimmering a Cross Necklace
+	}
+
+	NuclearFallout: {
+		Tooltip:
+			'''
+			Your summons will focus hit enemies
+			Rain down a barrage of homing bombs
+			Has a 10 second cooldown
+			'NUCLEAR BOMB INCOMING'
+			'''
+		DisplayName: Nuclear Fallout
+	}
+
+	AsteroidGreatsword: {
+		Tooltip:
+			'''
+			Hitting enemies causes asteroids to fall from the sky
+			Asteroids bounce and pierce up to 3 times
+			'''
+		DisplayName: Asteroid Greatsword
+	}
+
+	YoyoOfElements: {
+		Tooltip:
+			'''
+			Shoots many yoyos with different abilities
+			'Good. Bad. I'm the Guy with the YoYo!'
+			'''
+		DisplayName: Yoyo of Elements
+	}
+
+	WormOfCthulhu: {
+		Tooltip:
+			'''
+			A long sized yoyo
+			Yoyos will die after it has been hit too many times
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Worm of Cthulhu
+	}
+
+	WoodenRifle: {
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Uses acorns for ammo
+			Shoots acorns that spawn leaves when they dies
+			'''
+		DisplayName: Wooden Rifle
+	}
+
+	WoodenCrossbow: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Wooden Crossbow
+	}
+
+	WhipMastersGlory: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Periodically swings whips while using an item
+			Whip range scales with weapon velocity
+			Increases your max number of minions by 2
+			20% increased whip speed, whip range, minion knockback, and minion damage
+			Enemies are more likely to target you
+			'''
+		DisplayName: Whip Masters Glory
+	}
+
+	WhipExtender: {
+		Tooltip: 12% increased whip range
+		DisplayName: Whip Extender
+	}
+
+	WhipEmblem: {
+		Tooltip:
+			'''
+			Decreases your max number of minions by 3
+			30% increased whip speed, whip range, whip damage, and whip knockback
+			30% decreased minion knockback, and minion damage
+			'''
+		DisplayName: Whip Emblem
+	}
+
+	WaterFlail: {
+		Tooltip:
+			'''
+			Throw the flail to fire a projectile
+			'Might be ice cold'
+			'''
+		DisplayName: Water Flail
+	}
+
+	WaspNest: {
+		Tooltip: Spawns wasps while it spins
+		DisplayName: Wasp Nest
+	}
+
+	WarEmblem: {
+		Tooltip:
+			'''
+			30% increased melee damage
+			30% decreased melee speed
+			'''
+		DisplayName: War Emblem
+	}
+
+	WandOfSparkle: {
+		Tooltip:
+			'''
+			Rain Stars from the sky to destroy your enemies!
+			Trust me, it does more damage then it seems!
+			'''
+		DisplayName: Wand Of Sparkle
+	}
+
+	VortexYoyo: {
+		Tooltip: Spawns lunar bolts while it spins
+		DisplayName: Vortex Yoyo
+	}
+
+	VoidPurse: {
+		Tooltip:
+			'''
+			Sadly can not be used as storage
+			Throw the flail to fire a projectile
+			'''
+		DisplayName: Void Purse
+	}
+
+	TruePixieStaff: {
+		Tooltip:
+			'''
+			Shoots five True Swords
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: True Pixie Staff
+	}
+
+	TrueNightsFury: {
+		Tooltip:
+			'''
+			Rapidly shoot crystal bolts at nearby enemies
+			Throw the flail to fire a projectile
+			'''
+		DisplayName: True Night's Fury
+	}
+
+	TrueNightsCackle: {
+		Tooltip:
+			'''
+			11 summon tag damage
+			Spawns additional Shadowflame Skulls upon hitting enemies
+			'''
+		DisplayName: True Night's Cackle
+	}
+
+	TrueEyeOfCthulhu: {
+		Tooltip:
+			'''
+			Shoots out endgame yoyos to hurt your enemies
+			'They call me the Yoyo master!'
+			'''
+		DisplayName: True Eye Of Cthulhu
+	}
+
+	TrueDurendal: {
+		Tooltip:
+			'''
+			11 summon tag damage
+			Swing 2 True Durendals
+			'''
+		DisplayName: True Durendal
+	}
+
+	TrueBiomeMorph: {
+		Tooltip:
+			'''
+			Shoot lots of biome related yoyos
+			Use the power of all of Terraria's biomes by your side
+			'''
+		DisplayName: True Biome Morph
+	}
+
+	TrainingEmblem: {
+		Tooltip: 8% increased melee damage
+		DisplayName: Training Emblem
+	}
+
+	ToxicRifle: {
+		Tooltip:
+			'''
+			Can be used even if the player is out of mana
+			Running low on mana increases magic damage but inflicts Acid Venom
+			'2020 be like'
+			'''
+		DisplayName: Toxic Rifle
+	}
+
+	TimerRymer: {
+		Tooltip:
+			'''
+			Shoots three bullets in a two round burst
+			Converts regular bullets into high velocity bullets
+			'''
+		DisplayName: Timer Rymer
+	}
+
+	ThunderFang: {
+		Tooltip: Has a 20% chance to spawn lightning when you hit an enemy
+		DisplayName: Thunder Fang
+	}
+
+	ThornyWandOfSparkle: {
+		Tooltip:
+			'''
+			Rain Mini Eaters and Stars from the sky to destroy your enemies!
+			Trust me, it does more damage then it seems!
+			'''
+		DisplayName: Thorny Wand Of Sparkle
+	}
+
+	ThornMace: {
+		Tooltip:
+			'''
+			Blows leaves to attack nearby enemies
+			Throw the flail to fire a projectile
+			'Just becareful of thorns'
+			'''
+		DisplayName: Thorn Mace
+	}
+
+	TheEgger: {
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Uses coins for ammo
+			Left click to fire various easter eggs with different effects
+			Right click to chicken out increasing movement speed but decreasing attack damage
+			'Get egged!'
+			[c/00fff7:Contributor Item]
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: The Egger
+	}
+
+	TheDevice: {
+		Tooltip:
+			'''
+			Not consumable
+			Throws controllers and rarely throws monitors
+			Monitors grant you the angry buff when it hits an enemy
+			Angry increases crit chance, damage, and attack speed by 10% but halves health regen and defense
+			'Shut the heck up im playing minecraft'
+			'''
+		DisplayName: The Device
+	}
+
+	TheColossus: {
+		Tooltip:
+			'''
+			Rapidly hit enemies while swinging it
+			Does four times the damage if you throw it
+			'''
+		DisplayName: The Colossus
+	}
+
+	TetheredRope: {
+		Tooltip: "'It doesn't get any more basic from here'"
+		DisplayName: Tethered Rope
+	}
+
+	TerraFlail: {
+		Tooltip:
+			'''
+			The Terra blades's unkown cousin
+			Left click to swing it around you firing orbs that split into many leaves
+			Right click to throw the flail which can heal you
+			'''
+		DisplayName: Terra Flail
+	}
+
+	Syringe: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into poison bolts
+			'''
+		DisplayName: Syringe
+	}
+
+	SweetTooth: {
+		Tooltip:
+			'''
+			Shoots three bullets in a two round burst
+			Converts bullets into deadly candy corn that spawn explosive Jack 'O Lanterns as it travels
+			'Trick or Treat!'
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Sweet Tooth
+	}
+
+	SuspiciousKnife: {
+		Tooltip:
+			'''
+			Can pierce up to three enemies
+			Spawns blood clots when you hit an enemy
+			Heals a small amount of health and inflicts the gutted debuff upon hitting enemies
+			Gutted causes enemies to quickly take damage over time
+			'AMONG US'
+			[c/00fff7:Contributor Item]
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Suspicious Knife
+	}
+
+	SuperSyringe: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into venom bolts
+			'''
+		DisplayName: Super Syringe
+	}
+
+	SuperStormBeater: {
+		Tooltip: Shoots homing vortex stars that explode into vortex rockets
+		DisplayName: Super Storm Beater
+	}
+
+	SuperMonkeyDart: {
+		Tooltip:
+			'''
+			Not consumable
+			Can pierce up to five enemies
+			'''
+		DisplayName: Super Monkey Dart
+	}
+
+	SuperBlaster: {
+		Tooltip:
+			'''
+			Attacks slower but does more damage when on the ground
+			Fires a random amount bullets in a small spread
+			'''
+		DisplayName: Super Blaster
+	}
+
+	StrikerPotion: {
+		Tooltip: Increases whip stats by 10%
+		DisplayName: Striker Potion
+	}
+
+	StrangeVial: {
+		Tooltip:
+			'''
+			Not consumable
+			Throws strange vials that heals the player
+			The bottle also leaves a trail of bubbles behind it
+			'''
+		DisplayName: Strange Vial
+	}
+
+	StrangeCase: {
+		Tooltip: Does nothing, for now...
+		DisplayName: Strange Case
+	}
+
+	SprayCandle: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Spews out water streams that have weak homing
+			'''
+		DisplayName: Spray Candle
+	}
+
+	SpookzookaMk2: {
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Uses candy corn for ammo
+			Shoot between Ghostly Vampire Bats and Ghostly Pumpkin Bats
+			Ghostly Vampire Bats go through blocks, heal you and home on enemies
+			Ghostly Pumpkin Bats go through blocks, pierce infinitely and spawns explosive jack o lanterns and homing bats
+			Has a chance of launching explosive jack o lantern nukes
+			'This is halloween'
+			[c/09ff00:Developer Item]
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Spookzooka Mk2
+	}
+
+	Spookzooka: {
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Right click to switch attacks
+			Left click uses Candy Corn, Right click uses Jack o Lanterns
+			Converts Candy Corn into bats
+			'''
+		DisplayName: Spookzooka
+	}
+
+	SpookStorm: {
+		Tooltip:
+			'''
+			Calls down massive spooky nukes from the sky
+			Has an attack cooldown
+			Explodes when you hit an enemy
+			'Spooky America be like'
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Spook Storm
+	}
+
+	SpiritWatch: {
+		Tooltip:
+			'''
+			17% chance to save ammo
+			Left click to shoot spectre bullets
+			Right click to shoot spectre arrows
+			Rains projectiles from the sky
+			Its glistening with strange diamonds...
+			'What time is it?'
+			'''
+		DisplayName: Spirit Watch
+	}
+
+	SpiritFlail: {
+		Tooltip:
+			'''
+			Fires a homing projectile that heals the player when swung
+			'Spooky scary skeletons'
+			'''
+		DisplayName: Spirit Flail
+	}
+
+	SpikeRing: {
+		Tooltip:
+			'''
+			Fires explosive nails while above 1/2th of your max health
+			You take damage over time
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Spike Ring
+	}
+
+	SpeedStone: {
+		Tooltip:
+			'''
+			Increases movement capabilities if you reach less then 1/2th of your max health
+			Periodically spawns mushrooms if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Speed Stone
+	}
+
+	SpectreBullet: {
+		Tooltip: Ignores tiles, pierces and slows down on enemy hits
+		DisplayName: Spectre Bullet
+	}
+
+	SpectreBolt: {
+		Tooltip:
+			'''
+			Has very weak piercing
+			Ignores tiles
+			'''
+		DisplayName: Spectre Bolt
+	}
+
+	SpectreArrow: {
+		Tooltip: Ignores tiles, pierces and slows down on enemy hits
+		DisplayName: Spectre Arrow
+	}
+
+	SpawnStone: {
+		Tooltip:
+			'''
+			Increases summoning capabilities if you reach less then 1/2th of your max health
+			Periodically spawns tornadoes if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Spawn Stone
+	}
+
+	Sparkly: {
+		Tooltip:
+			'''
+			50% chance to save ammo
+			Left click to Spray a storm of different types of bullets and chaotic projectiles at your enemies
+			Right click to Spray a storm of different types of arrows and chaotic projectiles at your enemies
+			Converts ammo into special bullets and arrows
+			'''
+		DisplayName: Sparkly
+	}
+
+	SpaceTomeOfSparkle: {
+		Tooltip:
+			'''
+			Rain Corrupters, Stars, Crystal Bolts, Meteors, Leaves, Giant Bees, Bats, and Lunar Flares to destroy your enemies!
+			Trust me, it does more damage then it seems!
+			'''
+		DisplayName: Space Tome Of Sparkle
+	}
+
+	SolarStorm: {
+		Tooltip:
+			'''
+			Shoots out daybreaks and projectiles from the sky
+			Has a 33% chance to shoot out a bunch of homing flamelashes
+			Has a 20% chance to shoot a storm of phoenixes
+			'Beware of the skys'
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Solar Storm
+	}
+
+	SnowStorm: {
+		Tooltip:
+			'''
+			Uses 10 snowballs for ammo
+			'Canada be like'
+			'''
+		DisplayName: Snow Storm
+	}
+
+	SnowballLauncher: {
+		Tooltip: A handheld version of the basic Snowball Launcher
+		DisplayName: Snowball Launcher
+	}
+
+	SmallCandle: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots little sparks
+			'''
+		DisplayName: Small Candle
+	}
+
+	SkullGun: {
+		Tooltip: Shoot Skulls at a quick fire rate
+		DisplayName: Skull Gun
+	}
+
+	SkullArrow: {
+		Tooltip: Necromancy not included
+		DisplayName: Skull Arrow
+	}
+
+	ShroomiteBullet: {
+		Tooltip: Spawns a stationary mushroom upon impact
+		DisplayName: Shroomite Bullet
+	}
+
+	ShroomiteBlaster: {
+		Tooltip:
+			'''
+			Shoot three bullets in a three round burst
+			Right click to spin your gun increasing ranged stats
+			Converts regular bullets into shroomite bullets
+			'''
+		DisplayName: Shroomite Blaster
+	}
+
+	ShroomiteArrow: {
+		Tooltip: Spawns a stationary mushroom upon impact
+		DisplayName: Shroomite Arrow
+	}
+
+	ShroomerBoomer: {
+		Tooltip:
+			'''
+			Converts regular bullets into explosive shrooms
+			Explosive shrooms spawn additional shrooms as it travels
+			Shoot in a three round burst
+			'''
+		DisplayName: Shroomer Boomer
+	}
+
+	SharkShot: {
+		Tooltip:
+			'''
+			Left click to make the shark bite your enemies and charge towards the cursor
+			Right click to throw a shark that sticks to enemies
+			'Shaaaaaaaaaaark!'
+			'''
+		DisplayName: Shark Shot
+	}
+
+	ShadowPhoenix: {
+		Tooltip:
+			'''
+			Convert Arrows into Shadowflame Skulls
+			Convert Shadowflame Arrows into powerful Shadowflame Fireballs
+			Shadowflame Fireballs ignore tiles and explode into shadowflames on death
+			Shoots additonal shadowflame tentacles
+			'''
+		DisplayName: Shadow Phoenix
+	}
+
+	ShadowFlameArrow: {
+		Tooltip: Sticks onto enemies and the inflicts shadowflame debuff
+		DisplayName: Shadowflame Arrow
+	}
+
+	SeasonalFall: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into explosive bolts
+			'''
+		DisplayName: Seasonal Fall
+	}
+
+	SawbladeTyphoon: {
+		Tooltip: Fire three sawblades that cause extra bleed damage on hits
+		DisplayName: Sawblade Typhoon
+	}
+
+	RustedDagger: {
+		Tooltip:
+			'''
+			Fires a very small sized beam that deals consistant damage to enemies
+			The beam will only last a certain amount of time before it dies
+			'The start of an empire'
+			'''
+		DisplayName: Rusted Blade
+	}
+
+	RevolvingRevolver: {
+		Tooltip:
+			'''
+			Hold left click to periodically shoot 3 homing skulls
+			Right click to spin your gun increasing your ranged stats
+			'''
+		DisplayName: Revolving Revolver
+	}
+
+	RedRomanCandle: {
+		Tooltip: Shoots red homing flames
+		DisplayName: Red Roman Candle
+	}
+
+	ReaperScythe: {
+		Tooltip: Rapidly throws bones at nearby enemies
+		DisplayName: Reaper Scythe
+	}
+
+	RainbowMissile: {
+		Tooltip: Holds the power of the elements!
+		DisplayName: Rainbow Missile
+	}
+
+	Quip: {
+		Tooltip:
+			'''
+			7 summon tag damage
+			Fires 3 whips at short range
+			Hitting an enemy has a chance to spawn an electric shock
+			Fast speed but shorter range
+			Can be e-quipped
+			When equipped, gives -15% summon damage, knockback, and -10% whip range but gives +25% whip speed
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Quip
+	}
+
+	PrismaticStaff: {
+		Tooltip:
+			'''
+			Shoots a slow moving Prismatic Beam
+			Spawns homing Power Gems upon hitting an enemy
+			'With all our powers combined!'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Prismatic Staff
+	}
+
+	PrismaticKunai: {
+		Tooltip:
+			'''
+			Not consumable
+			Can pierce up to three enemies
+			Spawns a pink blast on death and upon hitting enemies
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Prismatic Kunai
+	}
+
+	PowerWings: {
+		Tooltip:
+			'''
+			Has nearly infinite flight
+			The power of all the wings combined
+			'''
+		DisplayName: Power Wings
+	}
+
+	PowerShot: {
+		Tooltip:
+			'''
+			Shoots in a large spread
+			Truly the most powerful of all Shotguns!
+			'You'll never need to reload again with the amount of bullets in this gun!'
+			'''
+		DisplayName: Power Shot
+	}
+
+	PowerEmblem: {
+		Tooltip:
+			'''
+			Has the effects of various accessorys
+			Has nearly infinite flight
+			Doubles your defense
+			Grants knockback immunity and fire blocks
+			Grants immunity to almost every debuff
+			Increases fishing power by 15
+			Increases mining speed and placement speed by 30%
+			Increases health by 100
+			Increases damage, crit chance, and knockback by 50%
+			Increases max number of minions by 5 and max number of sentrys by 2
+			Gives infinite mana
+			Allows the user to dash
+			The power of all the accessories combined
+			'''
+		DisplayName: Power Emblem
+	}
+
+	PowerCrown: {
+		Tooltip:
+			'''
+			Increases health by 150
+			Increases fishing power by 10
+			Increases mining speed and placement speed by 20%
+			Increases placement range by 2
+			Increases damage, crit chance, and knockback by 15%
+			Increases max number of minions by 3
+			Gives good regen
+			The power of all the helmets combined
+			'''
+		DisplayName: Power Crown
+	}
+
+	PowerCloak: {
+		Tooltip:
+			'''
+			Increases health by 200 and mana by 100
+			Increases fishing power by 15
+			Increases mining speed and placement speed by 30%
+			Increases placement range by 3
+			Increases damage, crit chance, and knockback by 30%
+			Increases max number of minions by 3 and max number of sentrys by 1
+			The power of all the chestplates combined
+			'''
+		DisplayName: Power Cloak
+	}
+
+	PowerBoots: {
+		Tooltip:
+			'''
+			Increases health by 100
+			Increases fishing power by 5
+			Increases mining speed and placement speed by 15%
+			Increases placement range by 1
+			Increases damage, crit chance, and knockback by 15%
+			Increases max number of minions by 2 and max number of sentrys by 1
+			The power of all the leggings combined
+			'''
+		DisplayName: Power Boots
+	}
+
+	PoisonBolt: {
+		Tooltip:
+			'''
+			Has weak piercing
+			Inflicts enemys with poison
+			'''
+		DisplayName: Poison Bolt
+	}
+
+	PocketWatch: {
+		Tooltip:
+			'''
+			13% chance to save ammo
+			Left click to shoot bullets
+			Right click to shoot arrows
+			Its glistening with strange diamonds...
+			'What time is it?'
+			'''
+		DisplayName: Pocket Watch
+	}
+
+	PixieStaff: {
+		Tooltip: Shoots three Golden Swords
+		DisplayName: Pixie Staff
+	}
+
+	PixelZenith: {
+		Tooltip:
+			'''
+			Swing with the power of swords
+			10% to fire additonal sword beams with different effects
+			'Return of the Queen'
+			'''
+		DisplayName: Pixel Zenith
+	}
+
+	PixelGun: {
+		Tooltip:
+			'''
+			Throws guns that split into more guns
+			That become in a stationary state
+			Then split into a bunch of bullets
+			'''
+		DisplayName: Pixel Gun
+	}
+
+	PixelBlade: {
+		Tooltip:
+			'''
+			Fires a medium sized beam that deals consistant damage to enemies
+			The beam will only last a certain amount of time before it dies
+			'Return of the King'
+			'''
+		DisplayName: Pixel Blade
+	}
+
+	PhaseMonster: {
+		Tooltip:
+			'''
+			Fires lasers at nearby enemies
+			'May the force be with you'
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Phase Monster
+	}
+
+	PhantomShuriken: {
+		Tooltip:
+			'''
+			Throws homing shurikens that ignore tiles
+			Periodically spawns homing bats as it travels
+			'''
+		DisplayName: Phantom Shuriken
+	}
+
+	PanicPotion: {
+		Tooltip: Empowers your ballistas
+		DisplayName: Panic Potion
+	}
+
+	PaleRapier: {
+		Tooltip:
+			'''
+			Fires a short sized beam that deals consistant damage to enemies
+			The beam will only last a certain amount of time before it dies
+			'The beginning of a democracy'
+			'''
+		DisplayName: Pale Rapier
+	}
+
+	Origin: {
+		Tooltip:
+			'''
+			161 summon tag damage
+			Swing with the force of all the whips at your enemies
+			Right click to snap the whip increasing summoner offensive capabilities
+			'''
+		DisplayName: Origin
+	}
+
+	OneShot: {
+		Tooltip:
+			'''
+			Shoots three slow moving bullets
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: One Shot
+	}
+
+	Omeglageddon: {
+		Tooltip:
+			'''
+			50% chance to save ammo
+			Spray a storm of different types of bullets at your enemies
+			Right click to reload increasing your ranged stats
+			Converts regular bullets into special bullets
+			'Chaos Chaos'
+			'''
+		DisplayName: Omeglageddon
+	}
+
+	OmegaYoyo: {
+		Tooltip:
+			'''
+			Spawn arcanums when you hit an enemy
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Omega Yoyo
+	}
+
+	OmegaStorm: {
+		Tooltip:
+			'''
+			Spawns nebula arcanums when you hit an enemy
+			'Beware of the stars'
+			[c/00fff7:Contributor Item]
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Omega Storm
+	}
+
+	NukeCaller: {
+		Tooltip:
+			'''
+			Your summons will focus hit enemies
+			Rain down a barrage of homing bombs
+			Has a 10 second cooldown
+			'TACTICAL NUKE INCOMING'
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Nuke Caller
+	}
+
+	Notes: {
+		Tooltip: Can be obtained by fishing in the Hardmode Jungle
+		DisplayName: Notes
+	}
+
+	NightsFury: {
+		Tooltip:
+			'''
+			Rapidly shoot crystal pebbles at nearby enemies
+			Throw the flail to fire a projectile
+			'''
+		DisplayName: Night's Fury
+	}
+
+	NightsCackle: {
+		Tooltip:
+			'''
+			8 summon tag damage
+			Spawns additional Shadowflame Skulls upon hitting enemies
+			'''
+		DisplayName: Night's Cackle
+	}
+
+	NetheriteSword: {
+		Tooltip:
+			'''
+			Swings rapidly
+			'Its strangely otherworldly'
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Netherite Sword
+	}
+
+	NaniteSyringe: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into nanite bolts
+			'''
+		DisplayName: Nanite Syringe
+	}
+
+	MutantSewerFish: {
+		Tooltip:
+			'''
+			Left click to make the shark bite your enemies doing melee damage
+			Biting enemies spawns homing mini toxic fish to tear your enemies apart
+			Right click to throw a toxic fish doing throwing damage
+			Toxic fish will home in onto enemies when you throw it
+			Toxic fish spawn tiny eaters upon hitting an enemy
+			[c/09ff00:Developer Item]
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Mutant Sewer Fish
+	}
+
+	MutantSharkron: {
+		Tooltip:
+			'''
+			Has a 33% chance to shoot out a barrage of harmful bubbles
+			Has a 10% chance to shoot homing typhoons
+			Shoots a swarm Sharkrons
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Mutant Sharkron
+	}
+
+	MutantDragonfish: {
+		Tooltip:
+			'''
+			Has a 33% chance to shoot out a barrage of inferno blasts
+			Has a 20% chance to shoot defense decreasing fireballs
+			Has a 10% chance to shoot a bunch of homing flamelashes
+			Shoots out a group of flames
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Mutant Dragonfish
+	}
+
+	MostEnchantedMagicalEmperorSharkron: {
+		Tooltip:
+			'''
+			Also called M.E.M.E.S for short
+			Left click to make the shark bite your enemies and charge towards the cursor
+			Right click to throw a shark that sticks to enemies
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Most Enchanted Magical Emperor Sharkron
+	}
+
+	MonkeyDart: {
+		Tooltip: Can pierce up to three enemies
+		DisplayName: Monkey Dart
+	}
+
+	MoltenBlood: {
+		Tooltip:
+			'''
+			Convert wooden arrows into a flesh arrow that combusts into a small explosion upon contact
+			Shoots arrows from the sky and towards the cursor in a two round burst
+			'''
+		DisplayName: Molten Blood
+	}
+
+	MinionEmblem: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 3
+			30% increased minion knockback, and minion damage
+			30% decreased whip speed, whip range, whip damage, and whip knockback
+			'''
+		DisplayName: Minion Emblem
+	}
+
+	MeteorBroadsword: {
+		Tooltip: Hitting enemies causes meteors to fall from the sky
+		DisplayName: Meteor Broadsword
+	}
+
+	MeltMini: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots icy bolts
+			'''
+		DisplayName: Melt Mini
+	}
+
+	MazeShot: {
+		Tooltip:
+			'''
+			Has a delay to its shots but it shoots bullets everywhere
+			This is getting ridiculous...
+			W h a t ?
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Maze Shot
+	}
+
+	ManaStone: {
+		Tooltip:
+			'''
+			Increases mana capabilities if you reach less then 1/2th of your max health
+			Periodically spawns souls if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Mana Stone
+	}
+
+	ManaEmblem: {
+		Tooltip:
+			'''
+			Increases your mana regen by 3
+			Increases your maximum mana by 40
+			30% decreased magic damage and mana cost
+			'''
+		DisplayName: Mana Emblem
+	}
+
+	ManaBullet: {
+		Tooltip: Restores mana
+		DisplayName: Mana Bullet
+	}
+
+	ManaBolt: {
+		Tooltip:
+			'''
+			Has no piercing
+			Restores mana when upon contacting an enemy
+			'''
+		DisplayName: Mana Bolt
+	}
+
+	LunarDart: {
+		Tooltip:
+			'''
+			Can pierce up to seven enemies
+			Causes a lunar blast upon hitting an enemy
+			'''
+		DisplayName: Lunar Dart
+	}
+
+	LuminiteBolt: {
+		Tooltip:
+			'''
+			Has no piercing
+			Spawns four lunar mines upon contacting an enemy
+			'''
+		DisplayName: Luminite Bolt
+	}
+
+	LongShot: {
+		Tooltip:
+			'''
+			Shoots in both directions
+			Truly the strangest of all shotguns...
+			'You'll never need to reload again with the amount of bullets in this gun!'
+			'''
+		DisplayName: Long Shot
+	}
+
+	LightningRod: {
+		Tooltip:
+			'''
+			Rapidly shoot bolts of electricity at nearby enemies
+			'Might give you a bit of a shock'
+			'''
+		DisplayName: Lightning Rod
+	}
+
+	LifeStone: {
+		Tooltip:
+			'''
+			Increases health capabilities if you reach less then 1/2th of your max health
+			Periodically spawns tiny eaters if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Life Stone
+	}
+
+	LifeRing: {
+		Tooltip:
+			'''
+			Increases your health by 100 and increases life regen
+			Periodically fires explosive nails and heals 5 health while below 1/3rd of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Life Ring
+	}
+
+	LifeBolt: {
+		Tooltip:
+			'''
+			Has no piercing
+			Restores life when upon hitting an enemy
+			'''
+		DisplayName: Life Bolt
+	}
+
+	LifeArrow: {
+		Tooltip: Restores life
+		DisplayName: Life Arrow
+	}
+
+	LavaEel: {
+		Tooltip:
+			'''
+			9 summon tag damage
+			Swing 3 heads infront of you and swing 1 head behind you
+			Has a chance to explode in a fiery blast when it hits an enemy
+			Back head always explode but projectiles do less damage
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Lava Eel
+	}
+
+	KnockoutBag: {
+		Tooltip:
+			'''
+			Applies high amounts of knockback
+			Hitting enemies causes a small explosion
+			'''
+		DisplayName: Knockout Bag
+	}
+
+	KingsShoes: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			Increases summon damage and whip speed by 7%
+			Increases whip range by 5%
+			15% increased movement speed
+			'''
+		DisplayName: King's Shoes
+	}
+
+	KingsRobe: {
+		Tooltip:
+			'''
+			Increases your max number of minions by 2
+			Increases summon damage and whip speed by 13%
+			Increases whip range by 10%
+			'''
+		DisplayName: King's Robe
+	}
+
+	KingsBlade: {
+		Tooltip: Swings a blade towards the cursor every 1.25 seconds
+		DisplayName: King's Blade
+	}
+
+	JumpBoots: {
+		Tooltip:
+			'''
+			Greatly increases movement speed and jump speed
+			Effects of Terraspark Boots, Flying Carpet, Frog Gear, and Arctic Diving Gear
+			'''
+		DisplayName: Jump Boots
+	}
+
+	Jumbow: {
+		Tooltip:
+			'''
+			Fires a barrage of arrows
+			'NOW THATS A BIG BOY!'
+			'''
+		DisplayName: Jumbow
+	}
+
+	JumboJumbow: {
+		Tooltip:
+			'''
+			Fires a barrage of arrows
+			Has a 20% chance to shoot a Jumbo arrow
+			'NOW THATS A BIG BOY!'
+			'''
+		DisplayName: Jumbo Jumbow
+	}
+
+	InstantDetonation: {
+		Tooltip:
+			'''
+			Increases your health by 2 for each defense point you have
+			You explode if you reach less then 1/8th of your max health
+			Exploding will kill you but do massive damage to enemies
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Instant Detonation
+	}
+
+	InfernoWrath: {
+		Tooltip:
+			'''
+			Shoots Wrath fireballs that explode into infernos
+			Wrath fireballs inflict betsy's curse
+			'''
+		DisplayName: Inferno Wrath
+	}
+
+	IceArrow: {
+		Tooltip: FREEZE!
+		DisplayName: Ice Arrow
+	}
+
+	HunterEmblem: {
+		Tooltip: 8% increased ranged damage
+		DisplayName: Hunter Emblem
+	}
+
+	HellCandle: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots a fiery blast
+			'''
+		DisplayName: Hell Candle
+	}
+
+	HellBeeBow: {
+		Tooltip:
+			'''
+			Convert wooden arrows into a stingers
+			Fires an additional hell bee arrow that explodes into more bees upon contact
+			'Ya like jazz?'
+			'''
+		DisplayName: Hell Bee Bow
+	}
+
+	HellBatArrow: {
+		Tooltip: "'nanananana Bat Arrow!'"
+		DisplayName: Hell Bat Arrow
+	}
+
+	HeatSeekingShuriken: {
+		Tooltip:
+			'''
+			Throws homing shurikens
+			'According to all known laws of aviation, a shuriken should not be able to fly'
+			'''
+		DisplayName: Heat Seeking Shuriken
+	}
+
+	HealingCharm: {
+		Tooltip:
+			'''
+			Decreases your max health by 100
+			You have a chance to heal 100 health if you reach less then 1/6th of your max health
+			'''
+		DisplayName: Healing Charm
+	}
+
+	HauntedHouse: {
+		Tooltip:
+			'''
+			35% chance to save ammo
+			Left click to shoot a Haunted Beam that doesn't consume ammo
+			Haunted beam causes a Spooky Explosion on the player when hitting an enemy
+			Right click to shoot between Ghostly Vampire Bats and Ghostly Pumpkin Bats
+			Right click uses candy corn for ammo
+			'Your enemies will certainly meet their nightmares!'
+			[c/09ff00:Developer Item]
+			[c/ffa0bf:Holdiday Item]
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Haunted House
+	}
+
+	HandheldBunnyCannon: {
+		Tooltip:
+			'''
+			Shoots bunnies that explode on impact
+			'Many bunnies were harmed in the making of this weapon'
+			'''
+		DisplayName: Handheld Bunny Cannon
+	}
+
+	HandCannon: {
+		Tooltip:
+			'''
+			Shoots cannonballs that explode on impact
+			'A ship's weapon simplified into a handheld version'
+			'''
+		DisplayName: Hand Cannon
+	}
+
+	Hamdrax: {
+		Tooltip: Test
+		DisplayName: Hamdrax
+	}
+
+	HailStorm: {
+		Tooltip:
+			'''
+			Fires three giant snowman nukes
+			Has a 5 second cooldown
+			Causes a large explosion when you hit an enemy
+			'America be like'
+			'''
+		DisplayName: Hail Storm
+	}
+
+	GuardStone: {
+		Tooltip:
+			'''
+			Increases defensive capabilities if you reach less then 1/2th of your max health
+			Periodically spawns electrospheres if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Guard Stone
+	}
+
+	GreenRomanCandle: {
+		Tooltip: Shoots green homing flames
+		DisplayName: Green Roman Candle
+	}
+
+	GoldenEmblem: {
+		Tooltip:
+			'''
+			Increases damage by 50%
+			Halves defense and max health
+			'''
+		DisplayName: Golden Emblem
+	}
+
+	GoldDigger: {
+		Tooltip:
+			'''
+			Rapidly shoots coins
+			Every 7 shots it shoots a cannonball
+			'A pirate's favorite portable weapon'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Gold Digger
+	}
+
+	GoblinTome: {
+		Tooltip:
+			'''
+			Has a 20% chance to cause a shadowflame explosion
+			Its written in an unknown language...
+			'''
+		DisplayName: Goblin Tome
+	}
+
+	GlitchYoyo: {
+		Tooltip:
+			'''
+			Its movement is so fast that it glitches out
+			Spawns a rainbow bullet when you hit an enemy
+			Let go of the yoyo to release the controlled rainbow bullets
+			[c/17ff00:Gl!tC7] [c/ff00ec:1tEm]
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Glitch Yoyo
+	}
+
+	GlassCannon: {
+		Tooltip:
+			'''
+			Hold left click to charge up a powerful beam
+			Once the cannon hits 5 seconds get ready to fire
+			Sets max health to 200 and sets defense to 0
+			'Fragile and Fatal'
+			'''
+		DisplayName: Glass Cannon
+	}
+
+	FuryEmblem: {
+		Tooltip:
+			'''
+			30% increased melee speed
+			30% decreased melee damage
+			'''
+		DisplayName: Fury Emblem
+	}
+
+	FungalSpell: {
+		Tooltip:
+			'''
+			Has a 10% chance to fire an additonal five mushrooms
+			Just don't eat it...
+			'''
+		DisplayName: Fungal Spell
+	}
+
+	Funeral: {
+		Tooltip:
+			'''
+			Left click to shoot a lava beam that doesn't consume ammo
+			Lava beam causes a meteor explosion on the player when hitting an enemy
+			Right click to shoot powerful explosive Meteors
+			'Your enemies will certainly meet their demise!'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Funeral
+	}
+
+	FryingPan: {
+		Tooltip:
+			'''
+			Randomly shoot between bacon and eggs
+			Hitting enemies with the pan itself inflicts confusion
+			Damage and attack speed scale with boss progression
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Frying Pan
+	}
+
+	FrozenHeroShield: {
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Gives the player thorns and reduces the cooldown of healing potions by 25%
+			Enemies are more likely to target you
+			'''
+		DisplayName: Frozen Hero Shield
+	}
+
+	FrostStorm: {
+		Tooltip:
+			'''
+			Has a 6% chance to fire three ice bolts
+			'There Greeeat!'
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Frost Storm
+	}
+
+	FrostGauntlet: {
+		Tooltip:
+			'''
+			Inflicts Fire and Frostburn on hit
+			15% increased melee damage and speed
+			'''
+		DisplayName: Frost Gauntlet
+	}
+
+	FrostBullet: {
+		Tooltip: Inflicts on frostburn
+		DisplayName: Frost Bullet
+	}
+
+	FossilRod: {
+		Tooltip: Fire bolts of lightning and fossils
+		DisplayName: Fossil Rod
+	}
+
+	ForceEmblem: {
+		Tooltip:
+			'''
+			Decreases your mana regen by 3
+			Decreases your maximum mana by 40
+			30% increased magic damage and mana cost
+			'''
+		DisplayName: Force Emblem
+	}
+
+	FlyingFish: {
+		Tooltip: Convert Arrows into Fishron Arrows that spawn swarms of arrows upon hitting an enemy
+		DisplayName: Flying Fish
+	}
+
+	FlameMissile: {
+		Tooltip: Holds the power of water and fire!
+		DisplayName: Flame Missile
+	}
+
+	FlameMini: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots bouncy fireballs
+			'''
+		DisplayName: Flame Mini
+	}
+
+	FlameBullet: {
+		Tooltip: Inflicts on fire
+		DisplayName: Flame Bullet
+	}
+
+	ExtraThornyWandOfSparkle: {
+		Tooltip:
+			'''
+			Rain Corrupters, Stars, Crystal Bolts, Meteors, Leaves, and Wasps to destroy your enemies!
+			Trust me, it does more damage then it seems!
+			'''
+		DisplayName: Extra Thorny Wand of Sparkle
+	}
+
+	ExtendedCandle: {
+		Tooltip:
+			'''
+			Uses gel for ammo
+			Shoots betsy fireballs
+			'''
+		DisplayName: Extended Candle
+	}
+
+	ExplosiveBolt: {
+		Tooltip:
+			'''
+			Has decent piercing
+			Explodes upon contacting an enemy
+			'''
+		DisplayName: Explosive Bolt
+	}
+
+	Evenpulse: {
+		Tooltip:
+			'''
+			Convert wooden arrows into Evenpulse arrows that splits into three homing sparkles upon hitting an enemy
+			Evenpulse arrows aren't affected by gravity
+			Fires 3 additional twilight lances
+			'''
+		DisplayName: Evenpulse
+	}
+
+	EnergyYoyo: {
+		Tooltip:
+			'''
+			Shoots out every elemental yoyo
+			'Use the power of all of Terraria's energy by your side'
+			'''
+		DisplayName: Energy Yoyo
+	}
+
+	ElementalYoyo: {
+		Tooltip: Spawn biome projectiles when you hit an enemy
+		DisplayName: Elemental Yoyo
+	}
+
+	ElectricEel: {
+		Tooltip:
+			'''
+			9 summon tag damage
+			Has a chance to electrocute enemies
+			[c/3F00FF:Fishing Item]
+			'''
+		DisplayName: Electric Eel
+	}
+
+	EggGun: {
+		Tooltip:
+			'''
+			33% chance to save ammo
+			Uses coins for ammo
+			Left click to fire various easter eggs with different effects
+			Right click to chicken out increasing movement speed but decreasing attack damage
+			Eggs have a chance to combine effects
+			'When the easter bunny has had enough!'
+			[c/00fff7:Contributor Item]
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Egg Gun
+	}
+
+	Earthquake: {
+		Tooltip:
+			'''
+			Left click to swing a combination of flails firing many projectiles at your enemies
+			Fires different types of meteors, each giving different buffs and debuffs to you and your enemies.
+			Grants the player the following increased stats Damage, Health, and Defense 
+			Trust me its 'Perfectly Balanced'
+			'''
+		DisplayName: Earthquake
+	}
+
+	DustBolt: {
+		Tooltip:
+			'''
+			Has good piercing
+			Can bounce off of tiles
+			Spawns xbones upon hitting an enemy
+			'''
+		DisplayName: Dust Bolt
+	}
+
+	DrumShotgun: {
+		Tooltip:
+			'''
+			Converts regular bullets into explosive bullets
+			Every 3 shots fires out a grenade
+			'You're enemies will be judged'
+			'''
+		DisplayName: Drum Shotgun
+	}
+
+	DragonsBreath: {
+		Tooltip:
+			'''
+			Not consumable
+			Throws bottled dragon breath that heals you and spawns purifying dust on impact
+			The bottle also leaves a trail of bubbles behind it
+			'Need a mint?'
+			'''
+		DisplayName: Dragon's Breath
+	}
+
+	DragonBullet: {
+		Tooltip: Inflicts alot of debuffs
+		DisplayName: Dragon Bullet
+	}
+
+	DragonArrow: {
+		Tooltip: Spawns more arrows upon hitting an enemy
+		DisplayName: Dragon Arrow
+	}
+
+	DoomCannon: {
+		Tooltip:
+			'''
+			Converts regular bullets into high velocity bullets
+			'The only thing they fear is you...'
+			'''
+		DisplayName: Doom Cannon
+	}
+
+	DoomCane: {
+		Tooltip:
+			'''
+			Shoots Candy Bolts that have a chance to restore mana and grant Doom Rush upon hitting an enemy
+			Doom Rush increases life and mana regen
+			'Happy Holidays!'
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Doom Cane
+	}
+
+	DiamondSword: {
+		Tooltip:
+			'''
+			Allows the sword to always critically stike while the player is in the air
+			Knocks the player backwards on hits
+			'Its strangely otherworldly'
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Diamond Sword
+	}
+
+	DemoniteWhip: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Restores mana upon hitting enemies
+			'''
+		DisplayName: Demonite Whip
+	}
+
+	DeathsBreath: {
+		Tooltip:
+			'''
+			Not consumable
+			Throws bottled death's breath that heals you and spawns purifying dust
+			The bottle also leaves a trail of bubbles behind it
+			'Ok you definitely need a mint'
+			'''
+		DisplayName: Death's Breath
+	}
+
+	DeadlyCane: {
+		Tooltip:
+			'''
+			Shoots Candy Bolts that have a chance to restore mana and grant Candy Rush upon hitting an enemy
+			Candy Rush increases life and mana regen
+			'Happy Holidays!'
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Deadly Cane
+	}
+
+	CupidsBow: {
+		Tooltip:
+			'''
+			Convert wooden arrows into cupid arrows that heal life/mana you upon contact
+			Builds up ranged attack speed then goes on a 0.5 second cooldown every 15 shots
+			Love Power increases life regen and ranged attack speed
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Cupid's Bow
+	}
+
+	CrystalShield: {
+		Tooltip:
+			'''
+			Spawns a solarflare ring that inflicts enemies inside it daybroken
+			All vanilla demon like enemies within the ring take double damage
+			Grants knockback immunity and fire blocks
+			Increases life regen and reduces the cooldown of healing potions by 25%
+			Grants immunity to most debuffs
+			Increases health by 50
+			Enemies are more likely to target you
+			Allows the player to dash in all directions
+			The power of all the shields combined
+			[c/ff9d00:Legendary Item]
+			'''
+		DisplayName: Crystal Shield
+	}
+
+	CrystalizedWandOfSparkle: {
+		Tooltip:
+			'''
+			Rain Mini Eaters, Stars, Crystal Bolts, and Meteors to destroy your enemies!
+			Trust me, it does more damage then it seems!
+			'''
+		DisplayName: Crystalized Wand of Sparkle
+	}
+
+	CrystalGauntlet: {
+		Tooltip:
+			'''
+			Inflicts Fire and Frostburn on hit
+			17% increased melee damage and speed
+			Increases barbaric melee and tactical ranged damage based on current health
+			Increases enchanted magic and bewitched summon damage based on current mana
+			'''
+		DisplayName: Crystal Gauntlet
+	}
+
+	CrystalBag: {
+		Tooltip:
+			'''
+			Inflicts fire, frost, on hit and has effects of the yoyo bag
+			20% increased melee damage and speed
+			10% increased Critical Strike Chance
+			Increases life regen by 3
+			'''
+		DisplayName: Crystal Bag
+	}
+
+	CrimtaneWhip: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Restores health upon hitting enemies
+			'''
+		DisplayName: Crimtane Whip
+	}
+
+	CreepyCrossbow: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into fireworks
+			Has a chance to explode the player
+			'Awww man'
+			[c/6d006f:Joke Item]
+			'''
+		DisplayName: Creepy Crossbow
+	}
+
+	CosmicWhip: {
+		Tooltip:
+			'''
+			15 summon tag damage
+			Swing 10 Cosmic Whips in a large area
+			Shoots lunar bolts towards the cursor upon cracking
+			Grants the Cosmic Power buff upon hitting enemies
+			Cosmic Power gives you a boost in offensive and defensive stats
+			'Swing with the power of cosmic beings'
+			'''
+		DisplayName: Cosmic Whip
+	}
+
+	ConcentrationStone: {
+		Tooltip:
+			'''
+			Increases stat capabilities if you reach less then 1/2th of your max health
+			Periodically spawns projectiles if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Concentration Stone
+	}
+
+	CommandersMagic: {
+		Tooltip:
+			'''
+			Right click to meditate which grants infinite mana and slightly increases magic damage
+			'Imma firing my laser'
+			'''
+		DisplayName: Commander's Magic
+	}
+
+	CommanderEmblem: {
+		Tooltip: 8% increased summon damage
+		DisplayName: Commander Emblem
+	}
+
+	CoiledSerpent: {
+		Tooltip:
+			'''
+			13 summon tag damage
+			Swing 2 Coiled Serpents
+			Has a chance to shoot nature projectiles upon hitting enemies
+			Grants the Serpent's Blessing buff upon hitting enemies
+			Serpent's Blessing increases whip speed, summon damage, and movement speed
+			'It is said that this serpent only gives its blessing to those who are worthy'
+			'''
+		DisplayName: Coiled Serpent
+	}
+
+	ChargeShot: {
+		Tooltip:
+			'''
+			Uses 25 Nanites for ammo
+			Charge up a beam that does massive damage
+			Once fully charged, the beam will last 2 seconds before disappearing
+			'No you can't use this to manipulate matter'
+			'''
+		DisplayName: Charge Shot
+	}
+
+	ChaosWhip: {
+		Tooltip:
+			'''
+			??? summon tag damage
+			Lashes out random whips
+			Has a chance to fire extra whips
+			Randomizes stats every use
+			'Snap, crackle, and pop!'
+			'''
+		DisplayName: Chaos Whip
+	}
+
+	ChaosStorm: {
+		Tooltip:
+			'''
+			Fires a random assortment of arrows or bullets
+			Randomizes stats every use
+			'So anyway, I started blasting!'
+			'''
+		DisplayName: Chaos Storm
+	}
+
+	ChaosFlail: {
+		Tooltip:
+			'''
+			Switches between a random assortment of flails
+			Throw the flail to fire a projectile
+			Randomizes stats every use
+			'''
+		DisplayName: Chaos Flail
+	}
+
+	ChainedWhip: {
+		Tooltip:
+			'''
+			8 summon tag damage
+			Swing 5 Chain Whips at short range
+			'''
+		DisplayName: Chained Whip
+	}
+
+	ChainedMimic: {
+		Tooltip:
+			'''
+			Increases luck while held
+			Clings onto enemies and inflicts Midas on hits
+			Does extra damage to all vanilla rare like enemies
+			'''
+		DisplayName: Chained Mimic
+	}
+
+	Catlauncher: {
+		Tooltip:
+			'''
+			Nyan cats home onto enemies and spawn homing rainbow bolts upon hitting enemies
+			Nyan cats have a chance to restore mana upon hitting enemies
+			'Why did my cousin request this...'
+			[c/00fff7:Contributor Item]
+			[c/b225e6:Shimmer Item]
+			'''
+		DisplayName: Catlauncher
+	}
+
+	CardOfCompanionship: {
+		Tooltip:
+			'''
+			Increases minion damage by 10% per active minion but halves your max amount of minions
+			This effect has a hardcap of 5 active minions
+			Right click the item itself to change it to the Card of Crowdedness
+			'Sometimes less is more'
+			'''
+		DisplayName: Card of Companionship
+	}
+
+	CandyPainGun: {
+		Tooltip:
+			'''
+			Shoots two bullets in a two round burst
+			Converts bullets into deadly christmas trees that fires razor pines as it travels
+			'Your enemies will definitely feel the pain!'
+			[c/ffa0bf:Holdiday Item]
+			'''
+		DisplayName: Candy Pain Gun
+	}
+
+	AssaultEmblem: {
+		Tooltip:
+			'''
+			30% increased ranged damage
+			15% decreased tactical ranged damage
+			'''
+		DisplayName: Assault Emblem
+	}
+
+	BulletCannon: {
+		Tooltip:
+			'''
+			Every shot fires 2 to 3 bullets and increases ranged attack speed by 5%
+			Ranged attack speed buff is at a cap of 7 seconds
+			Every 25 shots enable a 1.5 second cooldown
+			'''
+		DisplayName: Bullet Cannon
+	}
+
+	BulletBlaster: {
+		Tooltip:
+			'''
+			25% chance to save ammo
+			Right click to reload increasing your ranged stats
+			Has a 10% chance to shoot a big bullet that deals double damage
+			'''
+		DisplayName: Bullet Blaster
+	}
+
+	BuildStone: {
+		Tooltip:
+			'''
+			Increases building capabilities if you reach less then 1/2th of your max health
+			Periodically spawns boulders if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Build Stone
+	}
+
+	BrokenFlail: {
+		Tooltip: Used as a basic material for flails
+		DisplayName: Broken Flail
+	}
+
+	Brick: {
+		Tooltip: "'Hey watson cinderblock!'"
+		DisplayName: Brick
+	}
+
+	BouncyBolt: {
+		Tooltip:
+			'''
+			Has weak piercing
+			Can bounce off of tiles
+			'''
+		DisplayName: Bouncy Bolt
+	}
+
+	BoneDart: {
+		Tooltip:
+			'''
+			Can pierce up to two enemies and bounces on tiles
+			Every 2 shots fire additional Bones
+			'''
+		DisplayName: Bone Dart
+	}
+
+	BoneBlade: {
+		Tooltip: Swings a small slash that has a chance to stun enemies on hits
+		DisplayName: Bone Blade
+	}
+
+	BoneBreaker: {
+		Tooltip: Swings a large slash that has a chance to stun enemies on hits
+		DisplayName: Bone Breaker
+	}
+
+	BoltBlaster: {
+		Tooltip: Uses bolts for ammo
+		DisplayName: Bolt Blaster
+	}
+
+	BlueZapinator: {
+		Tooltip: "'It might be broken'"
+		DisplayName: Blue Zapinator
+	}
+
+	BlueRomanCandle: {
+		Tooltip: Shoots blue homing flames
+		DisplayName: Blue Roman Candle
+	}
+
+	BlockyCrossbow: {
+		Tooltip:
+			'''
+			Shoots fireworks that explode on death
+			Damage and life regeneration scale with boss progression
+			'Awww man'
+			[c/2ea395:M][c/36a382:y][c/47a36c:t][c/5da056:h][c/749c40:i][c/8c972c:c][c/a58e1f:a][c/bd8420:l] [c/d4762d:I][c/e76542:t][c/f6535c:e][c/ff427b:m]
+			'''
+		DisplayName: Blocky Crossbow
+	}
+
+	BlazingSun: {
+		Tooltip:
+			'''
+			Spawns a flamelash when you hit an enemy
+			[c/ff9d00:Legendary Item]
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Blazing Sun
+	}
+
+	BiomeMorph: {
+		Tooltip:
+			'''
+			Shoot various biome related yoyos
+			Use the power of some of Terraria's biomes by your side
+			'''
+		DisplayName: Biome Morph
+	}
+
+	BerserkStone: {
+		Tooltip:
+			'''
+			Increases offensive capabilities if you reach less then 1/2th of your max health
+			Periodically spawns inferno explosions if you reach less then 1/2th of your max health
+			[c/a0a0a0:Classless Item]
+			'''
+		DisplayName: Berserk Stone
+	}
+
+	BeeStinger: {
+		Tooltip:
+			'''
+			Uses bolts for ammo
+			Converts basic bolts into bee bolts
+			'''
+		DisplayName: Bee Stinger
+	}
+
+	BeeBolt: {
+		Tooltip:
+			'''
+			Has weak piercing
+			Spawns a giant bee upon contacting an enemy
+			'''
+		DisplayName: Bee Bolt
+	}
+
+	BeeArrow: {
+		Tooltip: "'NOT THE BEES!'"
+		DisplayName: Bee Arrow
+	}
+
+	BattleMask: {
+		Tooltip:
+			'''
+			Thank you for downloading my mod, I hope you enjoy it!
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Mask
+	}
+
+	BattleGuy: {
+		Tooltip:
+			'''
+			Thank you for downloading my mod, I hope you enjoy it!
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Guy
+	}
+
+	BattleChestplate: {
+		Tooltip:
+			'''
+			Thank you for downloading my mod, I hope you enjoy it!
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Chestplate
+	}
+
+	BattleBoots: {
+		Tooltip:
+			'''
+			Thank you for downloading my mod, I hope you enjoy it!
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Boots
+	}
+
+	BattleBlade: {
+		Tooltip:
+			'''
+			Swing a powerful Battle Blade that spins after being swung
+			Hitting enemies spawns additional Battle Blades
+			All Battle Blades decrease enemy hp by 0.35%
+			'Terra Blade's bigger cousin'
+			[c/09ff00:Developer Item]
+			'''
+		DisplayName: Battle Blade
+	}
+
+	BasicBolt: {
+		Tooltip: Has very weak piercing
+		DisplayName: Basic Bolt
+	}
+
+	AxeOfTheAbyss: {
+		Tooltip:
+			'''
+			Also known as AOTA
+			Shoots spining Abyss Axes that home onto enemies
+			Can KO most bosses
+			[c/871b28:Cheat Item]
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Axe of the Abyss
+	}
+
+	AvengerCuffs: {
+		Tooltip:
+			'''
+			Increases pickup range for mana stars
+			12% increased magic damage
+			8% increased magic critical strike chance
+			'''
+		DisplayName: Avenger Cuffs
+	}
+
+	AutomaticWhipCrackerMk2: {
+		Tooltip:
+			'''
+			5 summon tag damage
+			Periodically swings whips while using an item
+			Whip range scales with weapon velocity
+			'''
+		DisplayName: Automatic Whip Cracker Mk2
+	}
+
+	AutomaticWhipCracker: {
+		Tooltip:
+			'''
+			3 summon tag damage
+			Periodically swings whips while using an item
+			Whip range scales with weapon velocity
+			'''
+		DisplayName: Automatic Whip Cracker
+	}
+
+	StrategyEmblem: {
+		Tooltip:
+			'''
+			30% increased tactical ranged damage
+			15% decreased ranged damage
+			'''
+		DisplayName: Strategy Emblem
+	}
+
+	ArcaniumCuffs: {
+		Tooltip:
+			'''
+			Increases pickup range for mana stars
+			15% increased magic damage
+			12% increased magic critical strike chance
+			'''
+		DisplayName: Arcanium Cuffs
+	}
+
+	ApprenticeEmblem: {
+		Tooltip: 8% increased magic damage
+		DisplayName: Apprentice Emblem
+	}
+
+	Apocalypse: {
+		Tooltip:
+			'''
+			Left click to swing a bunch of flails and throw a combination of yoyos firing many projectiles at your enemies
+			Right click to jab with the culmination of spears and throw a bunch ofjavelins at your enemies
+			Fires different types of meteors, each giving different buffs and debuffs to you and your enemies
+			Grants the player the following increased stats Damage, Health, and Defense
+			Trust me its 'Perfectly Balanced'
+			'''
+		DisplayName: Apocalypse
+	}
+
+	Apex: {
+		Tooltip: Stab your enemies with the power of spears
+		DisplayName: Apex
+	}
+
+	AncientScroll: {
+		Tooltip:
+			'''
+			Increases bewitched summon damage and knockback by 25%
+			Turns the player into an undead zombie
+			As a zombie the player gets slower movement speed and can't fly
+			But as a zombie the player gets more health, life regen, damage, and all undeads are friendly
+			'''
+		DisplayName: Ancient Scroll
+	}
+
+	AerialStorm: {
+		Tooltip:
+			'''
+			66% chance to save ammo
+			Every shot fires a group of high damaging arrows and increases ranged attack speed by 3.5%
+			Ranged attack speed buff is at a cap of 14 seconds
+			Overstacking this buff will reset progress
+			'''
+		DisplayName: Aerial Storm
+	}
+
+	AdamantiteArrowLauncher: {
+		Tooltip:
+			'''
+			50% chance to save ammo
+			Fire a random assortment of [c/ff000a:arrows] from the sky and infront of you
+			Thank you AdamChromee for your support!
+			[c/00b332:'Remember, don't fish']
+			[c/00fff7:Contributor Item]
+			'''
+		DisplayName: Adamantite Arrow Launcher
+	}
+}
+
+Buffs: {
+	OnyxReload: {
+		Description: Increased ranged attack speed
+		DisplayName: Onyx Reload
+	}
+
+	Targeted: {
+		Description: You shouldn't have this
+		DisplayName: Targeted
+	}
+
+	SiegeBowCooldown: {
+		Description: Siege Bow is on cooldown
+		DisplayName: Siege Bow Cooldown
+	}
+
+	PumpkinsCurse: {
+		DisplayName: Pumpkins Curse
+		Description: You shouldn't have this
+	}
+
+	SoulWeakness2: {
+		Description: You shouldn't have this
+		DisplayName: Soul Weakness2
+	}
+
+	SoulWeakness: {
+		Description: You shouldn't have this
+		DisplayName: Soul Weakness
+	}
+
+	ManaCrystalLauncherCooldown: {
+		Description: Mana Crystal Launcher is on cooldown
+		DisplayName: Mana Crystal Launcher Cooldown
+	}
+
+	HealthDecrease3: {
+		Description: You shouldn't have this
+		DisplayName: Health Decrease3
+	}
+
+	Greed: {
+		Description: You shouldn't have this
+		DisplayName: Greed
+	}
+
+	VenomizedSpiderScepterCooldown: {
+		Description: Venomized Spider Scepter is on cooldown
+		DisplayName: Venomized Spider Scepter Cooldown
+	}
+
+	SunPowerStaffCooldown: {
+		Description: Sun Power Staff is on cooldown
+		DisplayName: Sun Power Staff Cooldown
+	}
+
+	LootLusted: {
+		Description: You shouldn't have this
+		DisplayName: Loot Lusted
+	}
+
+	AerialBlessing: {
+		Description: Increased ranged attack speed
+		DisplayName: Aerial Blessing
+	}
+
+	DruidPower: {
+		Description: A druid's blessing protects you
+		DisplayName: Druid Power
+	}
+
+	NaturesCurse: {
+		Description: You shouldn't have this
+		DisplayName: Nature's Curse
+	}
+
+	SnowyDollCooldown: {
+		Description: Snowy Doll is on cooldown
+		DisplayName: Snowy Doll Cooldown
+	}
+
+	SandyStrength: {
+		Description: Whip speed, range, and damage is increased
+		DisplayName: Sandy Strength
+	}
+
+	DustDevilBuff: {
+		Description: You shouldn't have this
+		DisplayName: Dust Devil Buff
+	}
+
+	BloodfangCooldown: {
+		Description: Bloodfang is on cooldown
+		DisplayName: Bloodfang Cooldown
+	}
+
+	IceCubeScepterCooldown: {
+		Description: Ice Cube Scepter is on cooldown
+		DisplayName: Ice Cube Scepter Cooldown
+	}
+
+	HellSerpentScepterCooldown: {
+		Description: Hell Serpent is on cooldown
+		DisplayName: Hell Serpent Scepter Cooldown
+	}
+
+	BoneJacketCooldown: {
+		Description: Bone Jacket is on cooldown
+		DisplayName: Bone Jacket Cooldown
+	}
+
+	CreepyEyedolBuff: {
+		Description: You shouldn't have this
+		DisplayName: Creepy Eyedol Buff
+	}
+
+	FleshWeakness: {
+		Description: You shouldn't have this
+		DisplayName: Flesh Weakness
+	}
+
+	ShadowflameWeakness: {
+		Description: You shouldn't have this
+		DisplayName: Shadowflame Weakness
+	}
+
+	Dusty2: {
+		Description: You shouldn't have this
+		DisplayName: Dusty2
+	}
+
+	Dusty: {
+		Description: You shouldn't have this
+		DisplayName: Dusty
+	}
+
+	SpiderScepterCooldown: {
+		Description: Spider Scepter is on cooldown
+		DisplayName: Spider Scepter Cooldown
+	}
+
+	OtherworldlyScarCooldown: {
+		Description: Otherworldly Scar is on cooldown
+		DisplayName: Otherworldly Scar Cooldown
+	}
+
+	HealthIncrease2: {
+		Description: You shouldn't have this
+		DisplayName: Health Increase2
+	}
+
+	HealthIncrease: {
+		Description: You shouldn't have this
+		DisplayName: Health Increase
+	}
+
+	HealthDecrease2: {
+		Description: You shouldn't have this
+		DisplayName: Health Decrease2
+	}
+
+	FrostPower: {
+		Description: Increased melee damage by 33% and defense by 12
+		DisplayName: Frost Power
+	}
+
+	ForbiddenPower: {
+		DisplayName: Forbidden Power
+		Description: Increased melee speed by 33% and life regen by 4
+	}
+
+	StardustDollCooldown: {
+		DisplayName: Stardust Doll Cooldown
+		Description: Stardust Doll is on cooldown
+	}
+
+	SpiritDollCooldown: {
+		DisplayName: Spirit Doll Cooldown
+		Description: Spirit Doll is on cooldown
+	}
+
+	LoveCooldown: {
+		Description: Love Power buff is on cooldown
+		DisplayName: Love Cooldown
+	}
+
+	CursedKeyBuff: {
+		Description: You shouldn't have this
+		DisplayName: Cursed Key Buff
+	}
+
+	StickyDollCooldown: {
+		DisplayName: Sticky Doll Cooldown
+		Description: Sticky Doll is on cooldown
+	}
+
+	PumpkinPower: {
+		Description: The power of spookiness grows within you
+		DisplayName: Pumpkin Power
+	}
+
+	FlyPower: {
+		Description: The power of flys flows within you
+		DisplayName: Fly Power
+	}
+
+	WindyPower: {
+		Description: The power of intense winds flows within you
+		DisplayName: Windy Power
+	}
+
+	BlockyPower: {
+		Description: The power of blocks and fireworks flows within you
+		DisplayName: Blocky Power
+	}
+
+	Crystalized: {
+		Description: Increased melee speed by 50%, increased movement speed by 50%, and increased melee crit chance by 8%
+		DisplayName: Crystalized
+	}
+
+	ShroomitePower: {
+		Description: Increased melee damage by 50% and defense by 16
+		DisplayName: Shroomite Power
+	}
+
+	MushroomPower: {
+		Description: Increased melee speed by 50% and life regen by 5
+		DisplayName: Mushroom Power
+	}
+
+	MarblePower: {
+		Description: Increased melee speed by 25% and life regen by 3
+		DisplayName: Marble Power
+	}
+
+	GranitePower: {
+		Description: Increased melee damage by 25% and defense by 10
+		DisplayName: Granite Power
+	}
+
+	SuperGutted: {
+		Description: You shouldn't have this
+		DisplayName: Super Gutted
+	}
+
+	BloodThirsty: {
+		Description: Increased melee critical strike chance by 50%, life regen by 3, and clears bloodfang cooldown
+		DisplayName: Blood Thirsty
+	}
+
+	ReloadBuff2: {
+		DisplayName: Reloaded
+		Description: Increased ranged attack speed
+	}
+
+	Heavy: {
+		Description: Vertical movement is limited
+		DisplayName: Heavy
+	}
+
+	BulletCannonCooldown: {
+		Description: Bullet Cannon is on cooldown
+		DisplayName: Bullet Cannon Cooldown
+	}
+
+	SkyStrength: {
+		Description: Increased life regen, defense, and movement speed
+		DisplayName: Sky Strength
+	}
+
+	LifeCrystalLauncherCooldown: {
+		Description: Life Crystal Launcher is on cooldown
+		DisplayName: LifeCrystal Launcher Cooldown
+	}
+
+	ShadowPain: {
+		Description: You shouldn't have this
+		DisplayName: Shadow Pain
+	}
+
+	ShroomSpin: {
+		Description: Increased ranged damage by 33%, Increased crit chance by 17%, and attack speed by 12%
+		DisplayName: Shroom Spin
+	}
+
+	GoldenAchievementCooldown: {
+		Description: Golden Achievement is on cooldown
+		DisplayName: Golden Achievement Cooldown
+	}
+
+	InfernoSacrifice: {
+		Description: Increased melee damage by 75%, melee speed by 30%, and crit chance by 15%
+		DisplayName: Inferno Sacrifice
+	}
+
+	PrimeSawCooldown: {
+		Description: Prime Saw is on cooldown
+		DisplayName: Prime Saw Cooldown
+	}
+
+	WeaknessDetected: {
+		Description: Increased damage by 100%
+		DisplayName: Weakness Detected
+	}
+
+	WinterfishBuff: {
+		Description: You shouldn't have this
+		DisplayName: Winterfish Buff
+	}
+
+	Clouded: {
+		Description: You shouldn't have this
+		DisplayName: Clouded
+	}
+
+	BreakfastPower: {
+		Description: The power of bacon and eggs flows within you
+		DisplayName: Breakfast Power
+	}
+
+	Fishified: {
+		Description: Increased ranged damage, grants underwater mobility and increased ranged attack speed while underwater
+		DisplayName: Fishified
+	}
+
+	AcidicStrength: {
+		Description: Increased melee damage and knockback by 50%
+		DisplayName: Acidic Strength
+	}
+
+	TridentPower: {
+		Description: Increased damage by 15% while under water
+		DisplayName: Trident Power
+	}
+
+	SeaweepBuff: {
+		Description: You shouldn't have this
+		DisplayName: Seaweep Buff
+	}
+
+	Marbleskin: {
+		Description: Increased defense by 12 and grants knockback immunity
+		DisplayName: Marbleskin
+	}
+
+	MarbleSpikefishCooldown: {
+		Description: Marble Spikefish is on cooldown
+		DisplayName: Marble Spikefish Cooldown
+	}
+
+	ColorSplash: {
+		Description: You shouldn't have this
+		DisplayName: Color Splash
+	}
+
+	Gutted: {
+		Description: You shouldn't have this
+		DisplayName: Gutted
+	}
+
+	GearGloveBuff: {
+		Description: You shouldn't have this
+		DisplayName: Gear Glove Buff
+	}
+
+	CogMachineCooldown: {
+		Description: Cog Machine is on cooldown
+		DisplayName: Cog Machine Cooldown
+	}
+
+	StarStrength: {
+		Description: Increased life regen, defense, and doubled movement speed
+		DisplayName: Star Strength
+	}
+
+	Splintered: {
+		Description: You shouldn't have this
+		DisplayName: Splintered
+	}
+
+	Unconscious: {
+		Description: You shouldn't have this
+		DisplayName: Unconscious
+	}
+
+	BigClubCooldown: {
+		Description: Big Club is on cooldown
+		DisplayName: Big Club Cooldown
+	}
+
+	ShamanStaffBuff: {
+		Description: You shouldn't have this
+		DisplayName: Shaman Staff Buff
+	}
+
+	Purified: {
+		Description: You shouldn't have this
+		DisplayName: Purified
+	}
+
+	ShamanTabletCooldown: {
+		Description: Shaman Tablet is on cooldown
+		DisplayName: Shaman Tablet Cooldown
+	}
+
+	OrnamentsofDoomCooldown: {
+		Description: Ornaments of Doom is on cooldown
+		DisplayName: Ornaments of Doom Cooldown
+	}
+
+	FlamingWoodKunaiCooldown: {
+		Description: Flaming Wood Kunai is on cooldown
+		DisplayName: Flaming WoodKunai Cooldown
+	}
+
+	ChlorophyteTranquilizerCooldown: {
+		Description: Chlorophyte Tranquilizer is on cooldown
+		DisplayName: Chlorophyte Tranquilizer Cooldown
+	}
+
+	HardenedHoney: {
+		Description: Increases life regen and defense
+		DisplayName: Hardened Honey
+	}
+
+	NegativePower: {
+		Description: Decreased melee damage by 300%, decreased crit chance by 10%, and decreased attack speed by 25%
+		DisplayName: Negative Power
+	}
+
+	Bloodshed: {
+		Description: Increases ranged damage
+		DisplayName: Bloodshed
+	}
+
+	TotemOfLifeCooldown: {
+		Description: Totem of Life is on cooldown
+		DisplayName: Totem of Life Cooldown
+	}
+
+	RocketPower: {
+		Description: Increased movement speed and grants knockback immunity
+		DisplayName: Rocket Power
+	}
+
+	FieryDoomCooldown: {
+		Description: Fiery Doom is on cooldown
+		DisplayName: Fiery Doom Cooldown
+	}
+
+	PeaceKeeperCooldown: {
+		Description: Peace Keeper is on cooldown
+		DisplayName: Peace Keeper Cooldown
+	}
+
+	DiamondSwordCooldown: {
+		Description: Diamond Sword is on cooldown
+		DisplayName: Diamond Sword Cooldown
+	}
+
+	BookWorm: {
+		Description: Increases defense, life regen, and mana regen
+		DisplayName: Book Worm
+	}
+
+	NuclearPower: {
+		Description: Increases ranged damage
+		DisplayName: Nuclear Power
+	}
+
+	SuperSpin: {
+		Description: You shouldn't have this
+		DisplayName: Super Spin
+	}
+
+	DisabledMana: {
+		Description: You shouldn't have this
+		DisplayName: Disabled Mana
+	}
+
+	Tranquilized: {
+		Description: You shouldn't have this
+		DisplayName: Tranquilized
+	}
+
+	TranquilizerCooldown: {
+		Description: Tranquilizer is on cooldown
+		DisplayName: Tranquilizer Cooldown
+	}
+
+	Angry: {
+		Description: Increased offensive stats but Massively decreased defense and regen
+		DisplayName: Angry
+	}
+
+	QuickDraw2: {
+		Description: Increased melee and ranged speed by 35%
+		DisplayName: Quick Draw
+	}
+
+	NaturesPower2: {
+		Description: Increased damage by 50%, increased melee crit chance by 50%, and increased defense by 15
+		DisplayName: Nature's Power
+	}
+
+	Refreshed: {
+		Description: Increased melee damage by 200%, increased crit chance by 10%, and increased attack speed by 25%
+		DisplayName: Refreshed
+	}
+
+	Enchanted: {
+		Description: Increased melee damage by 100%, increased crit chance by 10%, and increased attack speed by 25%
+		DisplayName: Enchanted
+	}
+
+	QuickDraw: {
+		Description: Increased melee damage by 50% and melee speed by 100%
+		DisplayName: Quick Draw
+	}
+
+	BoneSpin: {
+		Description: Increased ranged damage by 25%, increased crit chance by 15%, and defense by 12
+		DisplayName: Bone Spin
+	}
+
+	PowerSpin: {
+		Description: Increased ranged damage by 50%, Increased crit chance by 25%, and attack speed by 15%
+		DisplayName: Power Spin
+	}
+
+	SpikedDollCooldown: {
+		Description: Spiked Doll is on cooldown
+		DisplayName: Spiked Doll Cooldown
+	}
+
+	SuperBuff: {
+		Description: Increased melee damage by 100%, increased crit chance by 25%, doubles movement speed, and grants infinite flight
+		DisplayName: Super
+	}
+
+	PrismaticPower: {
+		Description: Increased melee damage by 100% and increase life regen by 5 but halves defense
+		DisplayName: Prismatic Power
+	}
+
+	Stunned: {
+		Description: You shouldn't have this
+		DisplayName: Stunned
+	}
+
+	GuardianDefense: {
+		Description: Increased melee damage by 50% and doubles defense but lose all life regeneration
+		DisplayName: Guardian Defense
+	}
+
+	Cooldown13: {
+		Description: Spirit Doll is on cooldown
+		DisplayName: Spirit Doll Cooldown
+	}
+
+	SuspiciousDollCooldown: {
+		Description: Suspicious Doll is on cooldown
+		DisplayName: Suspicious Doll Cooldown
+	}
+
+	FrozenStrength: {
+		Description: Increased melee damage by 500% and increased melee crit chance by 20% but lose all defense
+		DisplayName: Frozen Strength
+	}
+
+	FrostedFrights: {
+		Description: You shouldn't have this
+		DisplayName: Frosted Frights
+	}
+
+	Shadowblood: {
+		Description: Increased health by 50 but decreases life regen by 2
+		DisplayName: Shadowblood
+	}
+
+	DarkenedPower: {
+		Description: Increased melee damage by 100%, increased melee crit chance by 100%, increased melee speed, increased defense by 16, and doubled movement speed
+		DisplayName: Darkened Power
+	}
+
+	TerraPower: {
+		Description: Increased melee damage by 65%, increased melee crit chance by 30%, increased melee speed by 20%, and increased defense by 12
+		DisplayName: Terra Power
+	}
+
+	ShadowStrike: {
+		Description: Increased melee damage by 100%, increased melee crit chance by 30%, increased melee speed by 15%, and increased defense by 10
+		DisplayName: Shadow Strike
+	}
+
+	StormShield: {
+		Description: Increased defense by 12, life regeneration by 6 and grants knockback immunity
+		DisplayName: Storm Shield
+	}
+
+	HealthDecrease: {
+		Description: You shouldn't have this
+		DisplayName: Health Decrease
+	}
+
+	NaturesPower: {
+		Description: Increased melee damage by 100%, increased melee crit chance by 100%, and increased defense by 12
+		DisplayName: Nature's Power
+	}
+
+	CrazyKitty: {
+		Description: Increased melee damage by 100%, increased melee crit chance by 12%, doubled movement speed, and increased melee speed by 50%
+		DisplayName: Crazy Kitty
+	}
+
+	KittyCrazy: {
+		Description: Increased melee damage by 50%, increased melee crit chance by 12%, doubled movement speed, and increased melee speed
+		DisplayName: Kitty Crazy
+	}
+
+	Energized: {
+		Description: Increased melee damage by 100%, increased melee crit chance by 8%, and doubled movement speed
+		DisplayName: Energized
+	}
+
+	PrehistoricPower: {
+		Description: Increased melee damage by 50% and crit chance by by 190%
+		DisplayName: Prehistoric Power
+	}
+
+	Stealthy: {
+		Description: Increased melee damage by 100% and melee crit chance by 10%
+		DisplayName: Stealthy
+	}
+
+	Dead: {
+		Description: You shouldn't have this
+		DisplayName: Dead
+	}
+
+	FastForward: {
+		DisplayName: Fast Forward
+		Description: You shouldn't have this
+	}
+
+	Pause: {
+		DisplayName: Pause
+		Description: You shouldn't have this
+	}
+
+	Cooldown11: {
+		DisplayName: Cooldown
+		Description: Revolving Revolver is on cooldown
+	}
+
+	BrokenBones2: {
+		DisplayName: Broken Bones2
+		Description: You shouldn't have this
+	}
+
+	Blinded: {
+		DisplayName: Blinded
+		Description: You shouldn't have this
+	}
+
+	BrokenBones: {
+		Description: You shouldn't have this
+		DisplayName: Broken Bones
+	}
+
+	Feared: {
+		DisplayName: Feared
+		Description: I'm so scared
+	}
+
+	Cooldown10: {
+		Description: Weakening Shot is on cooldown
+		DisplayName: Cooldown
+	}
+
+	Cooldown9: {
+		DisplayName: Cooldown
+		Description: Spook Storm is on cooldown
+	}
+
+	NuclearFalloutCooldown: {
+		Description: Nuclear Fallout is on cooldown
+		DisplayName: Nuclear Fallout Cooldown
+	}
+
+	NukeCallerCooldown: {
+		DisplayName: Nuke Caller Cooldown
+		Description: Nuke Caller is on cooldown
+	}
+
+	Cooldown6: {
+		DisplayName: Cooldown
+		Description: Pixel Zenith is on cooldown
+	}
+
+	PixelBladeCooldown: {
+		Description: Pixel Dagger is on cooldown
+		DisplayName: Pixel Blade Cooldown
+	}
+
+	PaleRapierCooldown: {
+		Description: Pale Rapier is on cooldown
+		DisplayName: Pale Rapier Cooldown
+	}
+
+	RustedDaggerCooldown: {
+		DisplayName: Rusted Blade Cooldown
+		Description: Rusted Blade is on cooldown
+	}
+
+	HailStormCooldown: {
+		DisplayName: Hail Storm Cooldown
+		Description: Hail Storm is on cooldown
+	}
+
+	TrueNightsCackleBuff: {
+		Description: You shouldn't have this
+		DisplayName: True Nights Cackle Tag Buff
+	}
+
+	TrueDurendalBuff2: {
+		Description: Increased whip speed and summon damage
+		DisplayName: True Durendal's blessing
+	}
+
+	TrueDurendalBuff: {
+		Description: You shouldn't have this
+		DisplayName: True Durendal Tag Buff
+	}
+
+	StrikerBuff: {
+		Description: Increased whip speed, whip damage, and whip range by 10%
+		DisplayName: Striker's Power
+	}
+
+	SpookyBuff: {
+		Description: Massively increased stats
+		DisplayName: Spooky
+	}
+
+	SilverBuff: {
+		Description: Greatly increased melee offense abilities
+		DisplayName: Quick Silver
+	}
+
+	ReloadBuff: {
+		Description: Increased ranged damage and speed by 10%
+		DisplayName: Reloaded
+	}
+
+	QuipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Quip Tag Buff
+	}
+
+	PowerBuff: {
+		Description: Doubled stats and infinite mana
+		DisplayName: Overpowered
+	}
+
+	PainBuff: {
+		Description: Increased offensive stats but Massively decreased defense and regen
+		DisplayName: Pain
+	}
+
+	OriginWhipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Origin Whip Tag Buff
+	}
+
+	OriginalSnapBuff: {
+		Description: Increased whip speed, whip knockback, and summon damage
+		DisplayName: Original Snap
+	}
+
+	NightsCackleBuff: {
+		Description: You shouldn't have this
+		DisplayName: Nights Cackle Tag Buff
+	}
+
+	MeteorBuff: {
+		Description: Slightly increased melee stats
+		DisplayName: Meteor Rage
+	}
+
+	MeditatedBuff: {
+		Description: Infinite mana and slightly increased magic damage
+		DisplayName: Meditated
+	}
+
+	LovePowerBuff: {
+		Description: Increased life regeneration and ranged attack speed
+		DisplayName: Love Power
+	}
+
+	LavaEelBuff: {
+		Description: You shouldn't have this
+		DisplayName: Lava Eel Tag Buff
+	}
+
+	IcedBuff: {
+		Description: You can no longer use items
+		DisplayName: Iced
+	}
+
+	ElectricEelBuff: {
+		Description: You shouldn't have this
+		DisplayName: Electric Eel Tag Buff
+	}
+
+	EarthquakeBuff: {
+		Description: Greatly increased melee stats
+		DisplayName: Earthquake Rage
+	}
+
+	DoomCaneBuff: {
+		Description: Increased mana and health regen stats
+		DisplayName: Doom Rush
+	}
+
+	DemoniteWhipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Demonite Whip Tag Buff
+	}
+
+	CrimtaneWhipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Crimtane Whip Tag Buff
+	}
+
+	CosmicWhipBuff2: {
+		Description: Increased offensive and defensive stats for summoners
+		DisplayName: Cosmic Power
+	}
+
+	CosmicWhipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Cosmic Whip Tag Buff
+	}
+
+	CoiledSerpentBuff2: {
+		Description: Increased whip speed, summon damage, and movement speed
+		DisplayName: Serpent's blessing
+	}
+
+	CoiledSerpentBuff: {
+		Description: You shouldn't have this
+		DisplayName: Coiled Serpent Tag Buff
+	}
+
+	ChickenBuff: {
+		Description: Increased movement speed, decreased attack damage
+		DisplayName: Chickened
+	}
+
+	ChainedWhipBuff: {
+		Description: You shouldn't have this
+		DisplayName: Chained Whip Tag Buff
+	}
+
+	CandyCaneBuff: {
+		Description: Increased mana and health regen stats
+		DisplayName: Candy Rush
+	}
+
+	BattleGuyBuff: {
+		Description: Battle Guy is in your hands now...
+		DisplayName: Battle Guy
+	}
+
+	AxeOfTheAbyssBuff: {
+		Description: Grants you immortality
+		DisplayName: Abyssal Power
+	}
+
+	AutomaticWhipCrackerBuff: {
+		DisplayName: Automatic Whip Cracker Tag Buff
+		Description: You shouldn't have this
+	}
+
+	AutomaticWhipCrackerMk2Buff: {
+		DisplayName: Automatic Whip Cracker Mk2 Tag Buff
+		Description: You shouldn't have this
+	}
+}
+

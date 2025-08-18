@@ -1,0 +1,16 @@
+Configs: {
+	BannerConfig: {
+		MaxLevel: {
+			Tooltip: ""
+			Label: Max Level Achievable
+		}
+
+		KillsPerLevel: {
+			Tooltip: ""
+			Label: Kills Per Level
+		}
+
+		DisplayName: Banner Config
+	}
+}
+

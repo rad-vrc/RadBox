@@ -1,0 +1,912 @@
+{
+	PandemoniumHood: {
+		SetBonus: "\n上キーを2秒間長押しでバーストジャンプをチャージ\n上キーを離して発射\nマニピュレーティブクリティカル率が5%上昇\n"
+	}
+	BattleArtItem: {
+		CantBattleArtText: "バトルアートを付与できない"
+	}
+	UIHeader: "UI"
+	TooltipHeader: "アイテムのツールチップ"
+	Tiles: {
+		Pyrite: {
+			MapEntry: "パイライト"
+		}
+		PandemoniumBarTile: {
+			MapEntry: "パンデモニウムのインゴットタイル"
+		}
+		Hyperstone: {
+			MapEntry: "ハイパーストーン"
+		}
+		PandemoniumOre: {
+			MapEntry: "パンデモニウム"
+		}
+		Snowstorm: {
+			MapEntry: "雪嵐"
+		}
+		FarUnderground: {
+			MapEntry: "遥か地下"
+		}
+	}
+	EventHeader: "イベント"
+	MusicHeader: "音楽"
+	WorldgenHeader: "ワールド生成"
+	Configs: {
+		CharismaBehavior: {
+			ShowNever: {
+				Label: "表示しない"
+			}
+			ShowAlways: {
+				Label: "常に表示"
+			}
+			ShowOnlyWithManipulative: {
+				Label: "マニピュレーティブ武器を装備中"
+			}
+			Tooltip: ""
+		}
+		ClientConfig: {
+			noBattleArtTooltip: {
+				Tooltip: "アイテムがバトルアートを付与できないことを示すツールチップを表示するかどうか"
+				Label: "バトルアート非対応ツールチップ"
+			}
+			charismaBehavior: {
+				Tooltip: "カリスマUIがいつ表示されるかを決定できる"
+				Label: "カリスマUIの表示設定"
+			}
+			pushCharismaDown: {
+				Tooltip: "自明の通り 特定のUI要素の邪魔にならないようにすることができる"
+				Label: "インベントリが開いている間カリスマUIを下に押す"
+			}
+			charismaY: {
+				Tooltip: "画面上のカリスマUI要素のY座標"
+				Label: "カリスマ Y"
+			}
+			charismaX: {
+				Tooltip: "画面上のカリスマUI要素のX座標"
+				Label: "カリスマ X"
+			}
+			classTags: {
+				Tooltip: "Wisplanternによって追加されたカスタムクラスのアイテムがクラスタグ（例えばThoriumのような）を含むかどうか"
+				Label: "クラスタグ"
+			}
+			playClairDeLune: {
+				Tooltip: "穏やかな夜に「月の光」が再生されるかどうか"
+				Label: "「月の光」を再生"
+			}
+			playSnowstorm: {
+				Tooltip: "吹雪の中や雪嵐イベント中に「Snowstorm」が再生されるかどうか"
+				Label: "「Snowstorm」を再生"
+			}
+			playDeepUnderground: {
+				Tooltip: "溶岩層で「Far Underground」の音楽トラックが再生されるかどうか"
+				Label: "「Far Underground」を再生"
+			}
+			DisplayName: "クライアント設定"
+		}
+		ServerConfig: {
+			snowstorms: {
+				Tooltip: "「雪嵐」イベントが発生可能かどうか"
+				Label: "雪嵐"
+			}
+			calmNights: {
+				Tooltip: "「穏やかな夜」イベントが発生可能かどうか"
+				Label: "穏やかな夜"
+			}
+			generateVolcanicCaves: {
+				Tooltip: "火山洞窟のミニバイオームが生成されるかどうか"
+				Label: "火山洞窟を生成"
+			}
+			generateLushCaves: {
+				Tooltip: "豊かな洞窟のミニバイオームが生成されるかどうか"
+				Label: "豊かな洞窟を生成"
+			}
+			generatePits: {
+				Tooltip: "「陥没した穴」構造物が生成されるかどうか（大きな水たまりを含む）"
+				Label: "陥没した穴を生成"
+			}
+			generateMassiveMountain: {
+				Tooltip: "「巨大な山」構造物が生成されるかどうか"
+				Label: "巨大な山を生成"
+			}
+			generateChastisedChurch: {
+				Tooltip: ""
+				Label: "罰せられた教会を生成"
+			}
+			generateCanyon: {
+				Tooltip: ""
+				Label: "峡谷を生成"
+			}
+			DisplayName: "サーバー設定"
+		}
+	}
+	Prefixes: {
+		Sensitive: {
+			DisplayName: "繊細な"
+		}
+		Rude: {
+			DisplayName: "無礼な"
+		}
+
+		Loving: {
+			DisplayName: "愛情深い"
+		}
+		Introverted: {
+			DisplayName: "内向的な"
+		}
+		Harsh: {
+			DisplayName: "厳しい"
+		}
+		Convincing: {
+			DisplayName: "説得力のある"
+		}
+		Clever: {
+			DisplayName: "賢い"
+		}
+		Charming: {
+			DisplayName: "魅力的な"
+		}
+		Charismatic: {
+			DisplayName: "カリスマ的な"
+		}
+		Belligerant: {
+			DisplayName: "好戦的な"
+		}
+		Chaotic: {
+			DisplayName: "混沌とした"
+		}
+		Rlyehian: {
+			DisplayName: "ルルイエの"
+		}
+		Vital: {
+			DisplayName: "バイタル"
+		}
+		Steadfast: {
+			DisplayName: "不動の"
+		}
+		Lively: {
+			DisplayName: "活気のある"
+		}
+		Hopeful: {
+			DisplayName: "希望に満ちた"
+		}
+	}
+	Dialogue: {
+		Shepherd: {
+			Talk8: "昔は旅の商人をうまく説得して商品をタダでもらってたもんさ 秘訣？同調圧力ってやつさ…"
+			Talk7: "じゃんけんぽん！…いつもの通り、俺の勝ちだな"
+			Talk6: "この世界がT指定なら、それを変える時だ！クソ！%$#@ #%&@…よし、やめておこう"
+			Talk5: "この辺の羊は一体どこに行ったんだ！？ああ、あれは人間か 忘れてくれ"
+			Talk4: "古代神話でサテュロスについて言われていたことの多くは真実じゃない、信じてくれ"
+			Talk3: "お前が知らない言葉を俺は知ってるぜ"
+			Talk2: "ゲームをしよう まず俺が言葉を言う 次に、お前は俺が言った言葉を俺より大きな声で繰り返す 準備はいいか？ペンギン ピザ チキンテンダー マトン きゅうり！オウム！マルコ！俺は脱税で有罪だ！…おいおい、そりゃ重罪だぜ、相棒"
+			Talk1: "昔、羊飼いをしてた頃、羊にムーンウォークを教えたんだ 感心しないなら嘘つきだな"
+		}
+	}
+	NPCs: {
+		AlluringAmberDecoy: {
+			DisplayName: "魅惑のコハク"
+		}
+		AlluringTopazDecoy: {
+			DisplayName: "魅惑のトパーズ"
+		}
+		AlluringSapphireDecoy: {
+			DisplayName: "魅惑のサファイア"
+		}
+		AlluringRubyDecoy: {
+			DisplayName: "魅惑のルビー"
+		}
+		AlluringEmeraldDecoy: {
+			DisplayName: "魅惑のエメラルド"
+		}
+		AlluringDiamondDecoy: {
+			DisplayName: "魅惑のダイヤモンド"
+		}
+		AlluringAmethystDecoy: {
+			DisplayName: "魅惑のアメジスト"
+		}
+		Shepherd: {
+			DisplayName: "羊飼い"
+			TownNPCMood: {
+				LoveNPC: "{NPCName}の周りは歓迎されてる気分だ、同じ半獣の仲間だからな！"
+				LikeNPC: "古き良き{NPCName}と一緒にいるのは楽しいな 海が好きなのが玉に瑕だが"
+				DislikeNPC: "「{NPCName}は俺の角を盗もうとしてくる 多分転売するためだろうな」"
+				HateNPC: "「{NPCName}は一緒にいてクソつまらない！」"
+				Content: "今はかなりいい気分だぜ、実際"
+				NoHome: "放浪には慣れてるが、ついに落ち着く場所があるといいな"
+				FarFromHome: "俺の家はどこだ！？"
+				LoveSpace: "好きなことが言えるぜ！クソッタレ！クソッタレ！"
+				DislikeCrowded: "この辺の連中の数はちょっと居心地が悪いな"
+				HateCrowded: "この忌々しい馬鹿どもを俺から引き離せ！自分の考えさえ聞こえない"
+				LoveBiome: "ああ…{BiomeName}はまるで故郷のようだ"
+				LikeBiome: "ここ{BiomeName}は水がほとんどなくて嬉しいぜ どっちにしろここの景色はかなりいい"
+				DislikeBiome: "{BiomeName}は湿度が高すぎる、どこか…ほとんどどこでもいいから他の場所に置いてくれないか？"
+				HateBiome: "{BiomeName}には忌々しい水が多すぎる…大嫌いだ、大嫌いだ、大嫌いだ！"
+				LikeNPC_Princess: "「{NPCName}はいいお嬢さんだ…彼女のアクセントには聞き覚えがある」"
+				Princess_LovesNPC: "「{NPCName}はとてもやんちゃだな…一緒にいて楽しい！」"
+			}
+		}
+		Moonfly: {
+			DisplayName: "ムーンフライ"
+		}
+		BramblesproutDecoy: {
+			DisplayName: "ブランブルスプラウトデコイ"
+		}
+		BouncyDummyDecoy: {
+			DisplayName: "バウンシーダミーデコイ"
+		}
+		WisplanternNPC: {
+			DisplayName: "ウィスプランタン"
+		}
+		Lushfly: {
+			DisplayName: "ラッシュフライ"
+		}
+	}
+	Items: {
+		MoltenCane: {
+			Tooltip: "\n挑発された敵はオイルを撒き散らす\n倒された敵は爆発する\n「悪人に休息なし」\n"
+			DisplayName: "偽りの救済"
+		}
+		Pyrite: {
+			Tooltip: "\nより効率的に製錬するために使用できる\n「愚者の金」\n"
+			DisplayName: "パイライト"
+		}
+		GreatcaneOfChaos: {
+			Tooltip: "挑発された敵はターゲットにテレポートする（ターゲットがあなた自身でない限り）"
+			DisplayName: "混沌の大杖"
+		}
+		PandemoniumLeggings: {
+			Tooltip: "最大カリスマが1増加"
+			DisplayName: "扇動者のグリーヴ"
+		}
+		PandemoniumHood: {
+			Tooltip: "マニピュレーティブダメージが10%増加"
+			DisplayName: "扇動者のフード"
+		}
+		PandemoniumBreastplate: {
+			Tooltip: "マニピュレーティブパワーが10%増加"
+			DisplayName: "扇動者の胸当て"
+		}
+		FocusedMayhem: {
+			Tooltip: "\nスイングごとに完璧なストライクのタイミングがわずかに異なる\n完璧なタイミングのストライクはダメージを最大4倍までエスカレートさせる\n完璧なタイミングのストライクを失敗すると倍率がリセットされる\n"
+			DisplayName: "集束した騒乱"
+		}
+		PandemoniumBullet: {
+			Tooltip: "\nボス以外の敵を[c/ffc0cb:即死]させるチャンス\nチャンスは弾丸のダメージとそのターゲットの最大ライフの比率に依存する\n"
+			DisplayName: "パンデモニウム弾"
+		}
+		Cacophony: {
+			Tooltip: "\n5本の矢に爆発する火の玉を発射するチャンスがある\nそのチャンスはこの武器の現在のクリティカル率に等しい\n"
+			DisplayName: "カコフォニー"
+		}
+		HarvesterOfSorrow: {
+			Tooltip: "\n完璧なタイミングのストライクは熱いマグマの迫撃砲を放つ\n「狂人の言葉！」\n"
+			DisplayName: "悲しみの収穫者"
+		}
+		GrassCutter: {
+			Tooltip: "\n完璧なタイミングのストライクはのツヴァイヘンダーの攻撃速度を4秒間200%増加させる\n完璧なタイミングのストライクはライフを5回復する\n"
+			DisplayName: "グラスカッター"
+		}
+		PandemoniumShotel: {
+			Tooltip: "\nこの武器で敵を攻撃すると最大15の魂を抽出する\n他のツール以外の武器で攻撃すると、抽出された全ての魂をマウスカーソルに向かって発射する\n魂は武器の基本ダメージの2倍を与える\n"
+			DisplayName: "ソウルショーテル"
+		}
+		PandemoniumAxe: {
+			Tooltip: ""
+			DisplayName: "パンデモニウムの斧"
+		}
+		PandemoniumPickaxe: {
+			Tooltip: ""
+			DisplayName: "パンデモニウムのつるはし"
+		}
+		PandemoniumBar: {
+			Tooltip: "「…そして、奇妙な永遠のもとでは、死もまた死ぬことがある」"
+			DisplayName: "パンデモニウムのインゴット"
+		}
+		PandemoniumOre: {
+			Tooltip: "「永遠に横たわるものは死なず…」"
+			DisplayName: "生のパンデモニウム"
+		}
+		AlluringAmber: {
+			Tooltip: "デコイは破壊されると近くの全てのプレイヤーを回復する"
+			DisplayName: "魅惑のコハク"
+		}
+		BloodyRoots: {
+			Tooltip: "挑発された敵は犠牲者に致命的な毒を与える"
+			DisplayName: "ブラッディルート"
+		}
+		RadiationDisc: {
+			Tooltip: "空中に留まり、3秒間挑発的な放射線を放出するディスク"
+			DisplayName: "ラジエーションディスク"
+		}
+		FumeShroom: {
+			Tooltip: "\n敵を挑発するキノコの煙を放出する\n挑発された敵はさらに多くの煙を放出し、連鎖反応を引き起こす\n"
+			DisplayName: "フュームシュルーム"
+		}
+		GuidingLight: {
+			Tooltip: "\n挑発された敵は「脆弱」になる\n脆弱な敵は味方からのものを含む[c/ffff00:非マニピュレーティブ]ダメージが増加する\n"
+			DisplayName: "導きの光"
+		}
+		Persist: {
+			Tooltip: "\n挑発された全ての敵を最大50ライフ回復する\n全ての挑発タイマーをリセットし、挑発された敵のダメージを5増加させる\n"
+			DisplayName: "呪文：「固執」"
+		}
+		AlluringTopaz: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のトパーズ"
+		}
+		AlluringSapphire: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のサファイア"
+		}
+		AlluringRuby: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のルビー"
+		}
+		AlluringEmerald: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のエメラルド"
+		}
+		AlluringDiamond: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のダイヤモンド"
+		}
+		AlluringAmethyst: {
+			Tooltip: "デコイは敵に倒されると爆発する"
+			DisplayName: "魅惑のアメジスト"
+		}
+		Lasso: {
+			Tooltip: "\n敵やNPCに投げて捕まえ、引きずって歩く\nノックバック無効の敵には効かない\n取り付けた状態で、左クリックで回収\n"
+			DisplayName: "投げ縄"
+		}
+		HuntingJavelin: {
+			Tooltip: "\n複数の敵を貫通する素早いジャベリン\nターゲットに命中した後、回収できる可能性が高い\n"
+			DisplayName: "ハンティングジャベリン"
+		}
+		ShowNoMercy: {
+			DisplayName: "呪文：「断罪」"
+			Tooltip: "挑発された全ての敵を狂乱させ、攻撃速度が100%上昇する"
+		}
+		ShepherdsCane: {
+			DisplayName: "羊飼いのステッキ"
+			Tooltip: "敵を挑発すると、一時的に煙玉であなたを包み、ダメージを無効にする"
+		}
+		EatYourHeartOut: {
+			Tooltip: "挑発された全ての敵にダメージを与え、ハートをドロップさせる"
+			DisplayName: "呪文：「心食」"
+		}
+		WontYouBurnForMe: {
+			Tooltip: "挑発された全ての敵にダメージを与え、炎上させる"
+			DisplayName: "呪文：「灼熱」"
+		}
+		Snowstorm: {
+			Tooltip: ""
+			DisplayName: "オルゴール（雪嵐）"
+		}
+		FarUnderground: {
+			Tooltip: ""
+			DisplayName: "オルゴール（遥か地下）"
+		}
+		BlackBrickWall: {
+			Tooltip: ""
+			DisplayName: "ブラックレンガ壁"
+		}
+		BlackBrick: {
+			Tooltip: ""
+			DisplayName: "ブラックレンガ"
+		}
+		CharismaPickup: {
+			Tooltip: ""
+			DisplayName: "カリスマ"
+		}
+		ScrollOfIncantation: {
+			Tooltip: "\n挑発された大群を指揮する呪文をクラフトするために使用できる\n呪文には「カリスマ」が必要で、これは挑発された状態で倒された敵からドロップする\n"
+			DisplayName: "呪文の巻物"
+		}
+		SmoothDepthrockWall: {
+			Tooltip: ""
+			DisplayName: "滑らかなデプスロックの壁"
+		}
+		SmoothDepthrock: {
+			Tooltip: ""
+			DisplayName: "滑らかなデプスロック"
+		}
+		CrimtaneCane: {
+			Tooltip: "挑発された敵の犠牲者は、死ぬと残留する頭蓋骨の霊を作り出す"
+			DisplayName: "クリムタンのステッキ"
+		}
+		DemoniteCane: {
+			Tooltip: "挑発された敵は、ヒット時にホーミングする影のウィスプを作り出す"
+			DisplayName: "トールテール"
+		}
+		Gasoline: {
+			Tooltip: "\n挑発された敵は互いに火をつける\nマニピュレーティブクリティカル率が10%上昇\n「ガスライティングとゲートキーピング」\n"
+			DisplayName: "ガソリン"
+		}
+		HeavyBullet_Lead: {
+			Tooltip: "\n重力の影響を受ける\n使用時に反動と不正確さを引き起こす\n"
+			DisplayName: "重力弾"
+		}
+		HeavyBullet_Iron: {
+			Tooltip: "\n重力の影響を受ける\n使用時に反動と不正確さを引き起こす\n"
+			DisplayName: "重力弾"
+		}
+		MansizeMachete: {
+			Tooltip: "完璧なタイミングのストライクは複数の敵にダメージを与える爆発を作り出す"
+			DisplayName: "マンサイズマチェーテ"
+		}
+		TungstenStaff: {
+			Tooltip: "あなたのために戦う憑依されたタングステンの剣を召喚する"
+			DisplayName: "タングステンの杖"
+		}
+		TinStaff: {
+			Tooltip: "あなたのために戦う憑依された錫の剣を召喚する"
+			DisplayName: "錫の杖"
+		}
+		SilverStaff: {
+			Tooltip: "あなたのために戦う憑依された銀の剣を召喚する"
+			DisplayName: "銀の杖"
+		}
+		PlatinumStaff: {
+			Tooltip: "あなたのために戦う憑依されたプラチナの剣を召喚する"
+			DisplayName: "プラチナの杖"
+		}
+		LeadStaff: {
+			Tooltip: "あなたのために戦う憑依された鉛の剣を召喚する"
+			DisplayName: "鉛の杖"
+		}
+		IronStaff: {
+			Tooltip: "あなたのために戦う憑依された鉄の剣を召喚する"
+			DisplayName: "鉄の杖"
+		}
+		GoldStaff: {
+			Tooltip: "あなたのために戦う憑依された金の剣を召喚する"
+			DisplayName: "金の杖"
+		}
+		CopperStaff: {
+			Tooltip: "あなたのために戦う憑依された銅の剣を召喚する"
+			DisplayName: "銅の杖"
+		}
+		ScholarsLens: {
+			Tooltip: "装備すると、アイテムの入手方法などの追加情報がツールチップ内に表示される"
+			DisplayName: "学者のレンズ"
+		}
+		TungstenZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "タングステンのツヴァイヘンダー"
+		}
+		TinZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "錫のツヴァイヘンダー"
+		}
+		SilverZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "銀のツヴァイヘンダー"
+		}
+		PlatinumZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "プラチナのツヴァイヘンダー"
+		}
+		LeadZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "鉛のツヴァイヘンダー"
+		}
+		IronZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "鉄のツヴァイヘンダー"
+		}
+		GoldZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "金のツヴァイヘンダー"
+		}
+		CopperZweihander: {
+			Tooltip: "完璧なタイミングのストライクはクリティカルを保証する"
+			DisplayName: "銅のツヴァイヘンダー"
+		}
+		BaseballBat: {
+			Tooltip: "完璧なタイミングのストライクは3倍のノックバックを持つ"
+			DisplayName: "野球のバット"
+		}
+		Bramblesprout: {
+			Tooltip: ""
+			DisplayName: "ブランブルスプラウト"
+		}
+		BouncyDummy: {
+			Tooltip: ""
+			DisplayName: "バウンシーダミー"
+		}
+		WoodenCane: {
+			Tooltip: ""
+			DisplayName: "木の杖"
+		}
+		TungstenCane: {
+			Tooltip: ""
+			DisplayName: "タングステンの杖"
+		}
+		TinCane: {
+			Tooltip: ""
+			DisplayName: "錫の杖"
+		}
+		SilverCane: {
+			Tooltip: ""
+			DisplayName: "銀の杖"
+		}
+		PlatinumCane: {
+			Tooltip: ""
+			DisplayName: "プラチナの杖"
+		}
+		LeadCane: {
+			Tooltip: ""
+			DisplayName: "鉛の杖"
+		}
+		IronCane: {
+			Tooltip: ""
+			DisplayName: "鉄の杖"
+		}
+		GoldCane: {
+			Tooltip: ""
+			DisplayName: "金の杖"
+		}
+		EnchantedCane: {
+			Tooltip: "近くの落ちた星を挑発された敵に向かって引き寄せる"
+			DisplayName: "エンチャントステッキ"
+		}
+		CopperCane: {
+			Tooltip: ""
+			DisplayName: "銅の杖"
+		}
+		AccursedShard: {
+			Tooltip: "\n呪いを帯びた神秘的な破片\n敵に念動力で投げつけることができる\n"
+			DisplayName: "呪われた破片"
+		}
+		Flint: {
+			Tooltip: "\nツヴァイヘンダーでの完璧なタイミングのストライクは敵を燃え上がらせる\n「お前はもう知っている」\n"
+			DisplayName: "フリント"
+		}
+		Siphon: {
+			Tooltip: ""
+			DisplayName: "サイフォン"
+		}
+		RadialCast: {
+			Tooltip: ""
+			DisplayName: "ラジアルキャスト"
+		}
+		FocusShot: {
+			Tooltip: ""
+			DisplayName: "フォーカスショット"
+		}
+		FinishOff: {
+			Tooltip: ""
+			DisplayName: "フィニッシュオフ"
+		}
+		ExtendedSmokeBomb: {
+			Tooltip: ""
+			DisplayName: "拡張煙玉"
+		}
+		OtherBow: {
+			Tooltip: "\n逆向きに、そしてあなたに対して相対的に発射する\n「奇妙に不思議、そして変」\n"
+			DisplayName: "アザーボウ"
+		}
+		FulgariteLongbow: {
+			Tooltip: "超充電された矢を発射する"
+			DisplayName: "フルガライトロングボウ"
+		}
+		WeatheredSledgehammer: {
+			Tooltip: "\n無傷の敵に確定クリティカル\nより良い石でアップグレード可能\n"
+			DisplayName: "風化したスレッジハンマー"
+		}
+		DepthrockSledgehammer: {
+			Tooltip: "無傷の敵に確定クリティカル"
+			DisplayName: "強化スレッジハンマー"
+		}
+		DepthrockDagger: {
+			Tooltip: "4回目のヒットごとにターゲットにダガーを突き刺す"
+			DisplayName: "デプスロックダガー"
+		}
+		Plantscalibur: {
+			Tooltip: "\n犠牲者を混乱させる持続的な眩い光を放つ\nターゲットが近いほどダメージが増加する\n"
+			DisplayName: "プランツカリバー"
+		}
+		HyperstonePick: {
+			Tooltip: "ほとんどのピッケルよりもハイパーストーンとウィスプランタンからより多くのスピードを得る"
+			DisplayName: "ティミッドピック"
+		}
+		Hooklantern: {
+			Tooltip: "\n投げてグラップルすることができる\n一度に2つまでしかアクティブにできない\n"
+			DisplayName: "フックランタン"
+		}
+		Wispcaster: {
+			Tooltip: "一定距離内のカーソル位置に浮きを作成する"
+			DisplayName: "ウィスプキャスター"
+		}
+		Moonflower: {
+			Tooltip: "月光の下で良い香りがする"
+			DisplayName: "ムーンフラワー"
+		}
+		LushLantern: {
+			Tooltip: ""
+			DisplayName: "ラッシュランタン"
+		}
+		IgneousStone: {
+			Tooltip: "「生ぬるい」"
+			DisplayName: "火成岩のブロック"
+		}
+		Fulgarite: {
+			Tooltip: "「オーブンから出したて」"
+			DisplayName: "フルガライトのブロック"
+		}
+		Depthrock: {
+			Tooltip: ""
+			DisplayName: "デプスロックのブロック"
+		}
+		FourLeafClover: {
+			Tooltip: "現在の運を表示"
+			DisplayName: "四つ葉のクローバー"
+		}
+		DraconicDacron: {
+			Tooltip: "\nどの弓でも木の矢を燃え上がらせるチャンスを与える\n火の矢が*常に*敵を燃え上がらせることを保証する\n"
+			DisplayName: "ドラコニックダクロン"
+		}
+		WispRing: {
+			Tooltip: "採掘時に3秒間「ハイパースピード」バフを得るチャンス"
+			DisplayName: "ウィスプの指輪"
+		}
+		WispNecklace: {
+			Tooltip: "\n武器が採掘速度の恩恵を受ける\n採掘速度が10%上昇\n"
+			DisplayName: "ウィスプのネックレス"
+		}
+		Pill: {
+			Tooltip: "体力が低いときに一時的にライフ自然回復を大幅に増進させる"
+			DisplayName: "緊急ピル"
+		}
+		GlintstoneGlove: {
+			Tooltip: "\n魔法の杖を振ることができ、近接ヒットでマナを回復する\n最大マナ+20\n「霧の向こう、狭間の地より」\n"
+			DisplayName: "グリントストーングローブ"
+		}
+		FocusingCrystal: {
+			Tooltip: "\nクリティカルがより致命的になる\nクリティカル率が5%上昇\n"
+			DisplayName: "フォーカシングクリスタル"
+		}
+		Uppercut: {
+			Tooltip: ""
+			DisplayName: "アッパーカット"
+		}
+		TriCast: {
+			Tooltip: ""
+			DisplayName: "トライキャスト"
+		}
+		SwordParry: {
+			Tooltip: ""
+			DisplayName: "ソードパリィ"
+		}
+		BloodySlash: {
+			Tooltip: ""
+			DisplayName: "ブラッディスラッシュ"
+		}
+		AerialRetreat: {
+			Tooltip: ""
+			DisplayName: "エアリアルリトリート"
+		}
+		MoonsBoon: {
+			Tooltip: "\n完璧なタイミングのストライクは、一定距離内を前方にテレポートさせる\nタイルを通り抜けてテレポートすることはできない\n"
+			DisplayName: "月の恩恵"
+		}
+		CopperRodOfActivation: {
+			Tooltip: "\n使用時にワイヤー接続されたメカニズムを作動させる\n「マニピュレーティブにとって便利…」\n"
+			DisplayName: "銅のアクティベーションロッド"
+		}
+		TinRodOfActivation: {
+			Tooltip: "\n使用時にワイヤー接続されたメカニズムを作動させる\n「マニピュレーティブにとって便利…」\n"
+			DisplayName: "錫のアクティベーションロッド"
+		}
+	}
+	Buffs: {
+		ChaosElement: {
+			Description: "Mods.Wisplantern.Buffs.ChaosElement.Description"
+			DisplayName: "カオスエレメント"
+		}
+		GrassCutterBuff: {
+			Description: "ツヴァイヘンダーの攻撃速度が200%上昇"
+			DisplayName: "グラスカッター"
+		}
+		Vulnerable: {
+			Description: "Mods.Wisplantern.Buffs.Vulnerable.Description"
+			DisplayName: "脆弱"
+		}
+		VisciousFrenzy: {
+			DisplayName: "邪悪な狂乱"
+			Description: "Mods.Wisplantern.Buffs.VisciousFrenzy.Description"
+		}
+		GoldSummon: {
+			DisplayName: "金の召喚"
+			Description: "憑依された金の剣があなたを守る！"
+		}
+		IronSummon: {
+			DisplayName: "鉄の召喚"
+			Description: "憑依された鉄の剣があなたを守る！"
+		}
+		LeadSummon: {
+			DisplayName: "鉛の召喚"
+			Description: "憑依された鉛の剣があなたを守る！"
+		}
+		PlatinumSummon: {
+			DisplayName: "プラチナの召喚"
+			Description: "憑依されたプラチナの剣があなたを守る！"
+		}
+		SilverSummon: {
+			DisplayName: "銀の召喚"
+			Description: "憑依された銀の剣があなたを守る！"
+		}
+		TinSummon: {
+			DisplayName: "錫の召喚"
+			Description: "憑依された錫の剣があなたを守る！"
+		}
+		TungstenSummon: {
+			DisplayName: "タングステンの召喚"
+			Description: "憑依されたタングステンの剣があなたを守る！"
+		}
+		CopperSummon: {
+			DisplayName: "銅の召喚"
+			Description: "憑依された銅の剣があなたを守る！"
+		}
+		DecoyCooldown: {
+			Description: "別のデコイを配置するまで待つ必要がある"
+			DisplayName: "デコイクールダウン"
+		}
+		Pensive: {
+			Description: "最大ステータスが増加し、モンスターの出現率が低下"
+			DisplayName: "物思いに沈む"
+		}
+		Hyperspeed: {
+			Description: "採掘速度が大幅に上昇"
+			DisplayName: "ハイパースピード"
+		}
+		BattleArtCooldown: {
+			Description: "別のバトルアートを使用するまで待つ必要がある"
+			DisplayName: "バトルアートクールダウン"
+		}
+	}
+	Biomes: {
+		Snowstorm: {
+			TownNPCDialogueName: "雪嵐"
+			DisplayName: "雪嵐"
+		}
+		FallenSnow: {
+			TownNPCDialogueName: "積雪"
+			DisplayName: "積雪"
+		}
+		LushCave: {
+			TownNPCDialogueName: "豊かな洞窟"
+			DisplayName: "豊かな洞窟"
+		}
+		FarUnderground: {
+			TownNPCDialogueName: "遥か地下"
+			DisplayName: "遥か地下"
+		}
+		CalmNightClairDeLune: {
+			TownNPCDialogueName: "穏やかな夜の月の光"
+			DisplayName: "穏やかな夜の月の光"
+		}
+	}
+	Projectiles: {
+		MoltenCaneExplosion: {
+			DisplayName: "爆発"
+		}
+		PandemoniumBulletProjectile: {
+			DisplayName: "パンデモニウム弾"
+		}
+		PandemoniumSpiritRanged: {
+			DisplayName: "パンデモニウムスピリット"
+		}
+		MagmaBlob: {
+			DisplayName: "マグマ塊"
+		}
+		PandemoniumSpirit: {
+			DisplayName: "パンデモニウムスピリット"
+		}
+		AmberSoul: {
+			DisplayName: "コハクのソウル"
+		}
+		RadiationDiscProjectile: {
+			DisplayName: "放射線ディスク発射体"
+		}
+		ShroomFume: {
+			DisplayName: "シュルームフューム"
+		}
+		TopazSoul: {
+			DisplayName: "トパーズのソウル"
+		}
+		SapphireSoul: {
+			DisplayName: "サファイアのソウル"
+		}
+		RubySoul: {
+			DisplayName: "ルビーのソウル"
+		}
+		EmeraldSoul: {
+			DisplayName: "エメラルドのソウル"
+		}
+		DiamondSoul: {
+			DisplayName: "ダイヤモンドのソウル"
+		}
+		AmethystSoul: {
+			DisplayName: "アメジストのソウル"
+		}
+		LassoProjectile: {
+			DisplayName: "投げ縄発射体"
+		}
+		HuntingJavelinProjectile: {
+			DisplayName: "ハンティングジャベリン発射体"
+		}
+		CrimtaneSkull: {
+			DisplayName: "クリムタンスカル"
+		}
+		DemoniteWisp: {
+			DisplayName: "デモナイトウィスプ"
+		}
+		HeavyBullet: {
+			DisplayName: "ヘビーバレット"
+		}
+		Bloodsplosion_Machete: {
+			DisplayName: "ブラッドスプロージョンマチェーテ"
+		}
+		TungstenSummonProjectile: {
+			DisplayName: "タングステン召喚発射体"
+		}
+		TinSummonProjectile: {
+			DisplayName: "ティン召喚発射体"
+		}
+		SilverSummonProjectile: {
+			DisplayName: "銀召喚発射体"
+		}
+		PlatinumSummonProjectile: {
+			DisplayName: "プラチナ召喚発射体"
+		}
+		LeadSummonProjectile: {
+			DisplayName: "錫召喚発射体"
+		}
+		IronSummonProjectile: {
+			DisplayName: "鉄召喚発射体"
+		}
+		GoldSummonProjectile: {
+			DisplayName: "金召喚発射体"
+		}
+		CopperSummonProjectile: {
+			DisplayName: "銅召喚発射体"
+		}
+		AccursedShardProjectile: {
+			DisplayName: "呪われた破片発射体"
+		}
+		WisplanternVortex: {
+			DisplayName: "ウィスプランタンボルテックス"
+		}
+		OtherArrow: {
+			DisplayName: "アザーアロー"
+		}
+		FulgariteLongbowBolt: {
+			DisplayName: "フルガライトライトニング"
+		}
+		DepthrockDaggerProjectile: {
+			DisplayName: "デプスロックダガー"
+		}
+		PlantscaliburSpotlight: {
+			DisplayName: "プランツカリバービーム"
+		}
+		HooklanternProjectile: {
+			DisplayName: "フックランタン"
+		}
+		WispcasterBobber: {
+			DisplayName: "ウィスプキャスターボバー"
+		}
+		BloodySlashProjectile: {
+			DisplayName: "ブラッディスラッシュ発射体"
+		}
+	}
+	DamageClasses: {
+		ManipulativeDamageClass: {
+			DisplayName: "マニピュレーティブダメージ"
+		}
+	}
+	InfoDisplays: {
+		LuckIndicator: {
+			DisplayName: "運"
+		}
+	}
+}

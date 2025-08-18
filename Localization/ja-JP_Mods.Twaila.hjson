@@ -1,0 +1,786 @@
+{
+	ManualNames: {
+		Tiles: {
+			Grass: "草ブロック"
+			Plants: "草"
+			CorruptGrass: "不浄の草"
+			CorruptPlants: "不浄な草"
+			ClosedDoor: {
+				Lihzahrd: "閉じたリザードのドア"
+			}
+			JungleGrass: "ジャングルの草ブロック"
+			JunglePlants: "ジャングルの草"
+			JungleVines: "ジャングルのツタ"
+			MushroomGrass: "キノコの草ブロック"
+			Plants2: "背の高い草"
+			JunglePlants2: "背の高いジャングルの草"
+			HallowedGrass: "神聖な草ブロック"
+			HallowedPlants: "神聖な草"
+			HallowedPlants2: "背の高い神聖な草"
+			HallowedVines: "神聖なツタ"
+			MagicalIceBlock: "魔法の氷ブロック"
+			BreakableIce: "薄氷ブロック"
+			Stalactite: "鍾乳石"
+			GreenMoss: "緑の苔石ブロック"
+			BrownMoss: "茶色い苔石ブロック"
+			RedMoss: "赤い苔石ブロック"
+			BlueMoss: "青い苔石ブロック"
+			PurpleMoss: "紫の苔石ブロック"
+			LavaMoss: "溶岩苔石ブロック"
+			KryptonMoss: "クリプトン苔石ブロック"
+			XenonMoss: "キセノン苔石ブロック"
+			ArgonMoss: "アルゴン苔石ブロック"
+			SmallPiles: {
+				Default: "小さな瓦礫"
+				Copper: "銅貨の小山"
+				Silver: "銀貨の小山"
+				Gold: "金貨の小山"
+				Amethyst: "アメジストの山"
+				Topaz: "トパーズの山"
+				Sapphire: "サファイアの山"
+				Emerald: "エメラルドの山"
+				Ruby: "ルビーの山"
+				Diamond: "ダイヤモンドの山"
+			}
+			LargePiles: {
+				Default: "大きな瓦礫"
+				Copper: "銅貨の大山"
+				Silver: "銀貨の大山"
+				Gold: "金貨の大山"
+			}
+			LargePiles2: {
+				Default: "大きな瓦礫"
+				EnchantedSword: "エンチャントソードの祭壇"
+			}
+			LivingWood: "リビングウッドブロック"
+			LeafBlock: "葉ブロック"
+			CrimsonGrass: "真紅の草ブロック"
+			CrimsonPlants: "真紅の草"
+			CrimsonVines: "真紅のツタ"
+			PlantDetritus: "ジャングルの葉"
+			VineFlowers: "花のツタ"
+			LivingMahogany: "リビングマホガニーブロック"
+			LivingMahoganyLeaves: "リビングマホガニーの葉ブロック"
+			GolfGrass: "刈られた草"
+			GolfGrassHallowed: "刈られた草"
+			MysticSnakeRope: "ヘビロープ"
+			GreenMossBrick: "緑の苔灰色レンガ"
+			BrownMossBrick: "茶色い苔灰色レンガ"
+			RedMossBrick: "赤い苔灰色レンガ"
+			BlueMossBrick: "青い苔灰色レンガ"
+			PurpleMossBrick: "紫の苔灰色レンガ"
+			LavaMossBrick: "溶岩苔灰色レンガ"
+			KryptonMossBrick: "クリプトン苔灰色レンガ"
+			XenonMossBrick: "キセノン苔灰色レンガ"
+			ArgonMossBrick: "アルゴン苔灰色レンガ"
+			LilyPad: "スイレンの葉"
+			Cattail: "ガマ"
+			MushroomVines: "垂れ下がるキノコ"
+			SeaOats: "シーオーツ"
+			OasisPlants: "オアシスの葉"
+			Sandcastles: "砂の城"
+			Grate: "開いた格子"
+			GrateClosed: "閉じた格子"
+			VanityTreeSakura: "桜の木"
+			VanityTreeYellowWillow: "黄柳の木"
+			TreeTopaz: "トパーズの木"
+			TreeAmethyst: "アメジストの木"
+			TreeSapphire: "サファイアの木"
+			TreeEmerald: "エメラルドの木"
+			TreeRuby: "ルビーの木"
+			TreeDiamond: "ダイヤモンドの木"
+			TreeAmber: "アンバーの木"
+			VioletMoss: "ネオン苔石ブロック"
+			VioletMossBrick: "ネオン苔灰色レンガ"
+			RainbowMoss: "ヘリウム苔石ブロック"
+			RainbowMossBrick: "ヘリウム苔灰色レンガ"
+			AshGrass: "灰の草"
+			TreeAsh: "灰の木"
+			CorruptVines: "不浄なツタ"
+			AshPlants: "灰の草"
+			AshVines: "灰のツタ"
+			PlanteraThorns: "プランテラの棘"
+			CorruptJungleGrass: "不浄なジャングルの草"
+			CrimsonJungleGrass: "真紅のジャングルの草"
+			Trees: {
+				Forest: "木"
+				Corrupt: "エボンウッドの木"
+				Mushroom: "光るキノコの木"
+				Crimson: "シェイドウッドの木"
+				Jungle: "マホガニーの木"
+				Snow: "針葉樹"
+				Hallowed: "パールウッドの木"
+			}
+			PalmTree: {
+				Default: "ヤシの木"
+				PalmCrimson: "シェイドウッドのヤシの木"
+				PalmCorrupt: "エボンウッドのヤシの木"
+				PalmHallowed: "パールウッドのヤシの木"
+			}
+			Saplings: {
+				Forest: "木の苗"
+				Corrupt: "エボンウッドの苗"
+				Crimson: "シェイドウッドの苗"
+				Jungle: "マホガニーの苗"
+				Snow: "針葉樹の苗"
+				Hallowed: "パールウッドの苗"
+				Palm: "ヤシの木の苗"
+				PalmCrimson: "シェイドウッドのヤシの苗"
+				PalmCorrupt: "エボンウッドのヤシの苗"
+				PalmHallowed: "パールウッドのヤシの苗"
+				Ash: "アッシュウッドの苗"
+			}
+			Cactus: {
+				Default: "サボテン"
+				Corrupt: "エボンサンドのサボテン"
+				Crimson: "クリムサンドのサボテン"
+				Hallowed: "パールサンドのサボテン"
+			}
+		}
+		Liquids: {
+			Water: {
+				Purity: "水"
+				Corrupt: "不浄な水"
+				Jungle: "ジャングルの水"
+				Hallowed: "神聖な水"
+				Tundra: "雪原の水"
+				Desert: "オアシスの水"
+				Underground: "地下水"
+				Cavern: "洞窟水"
+				Bloodmoon: "ブラッドムーンの水"
+				Crimson: "真紅の水"
+				UndergroundDesert: "砂漠の水"
+				Ocean: "海水"
+			}
+			Lava: "溶岩"
+			Honey: "ハチミツ"
+			Shimmer: "シマー"
+		}
+	}
+	Keybinds: {
+		CycleUIDisplayMode: {
+			DisplayName: "UI表示モードの切り替え"
+		}
+		NextContext: {
+			DisplayName: "次のコンテキスト"
+		}
+		PreviousContext: {
+			DisplayName: "前のコンテキスト"
+		}
+		CycleContextMode: {
+			DisplayName: "コンテキストモードの切り替え"
+		}
+	}
+	Contexts: {
+		Tile: "タイル"
+		Wall: "壁"
+		Liquid: "液体"
+		Wire: "ワイヤー"
+		Npc: "NPC"
+	}
+	WallId: "壁ID: {0}"
+	TileId: "タイルID: {0}"
+	LiquidId: "液体ID: {0}"
+	WaterStyle: "水の種類: {0}"
+	CurrentContext: "現在のコンテキスト: {0}"
+	ContextModeMessage: "コンテキストモード: {0}"
+	DisplayModeMessage: "UI表示: {0}"
+	PercentPickPower: "% 採掘力"
+	GreenCheck: "[c/00FF00:✓]"
+	RedX: "[c/FF0000:✗]"
+	GoodPickPower: "[c/00FF00:✓] {0}% 採掘力"
+	BadPickPower: "[c/FF0000:✗] {0}% 採掘力"
+	WireColor: {
+		Red: "赤"
+		Blue: "青"
+		Green: "緑"
+		Yellow: "黄"
+	}
+	WireText: "ワイヤー: {0}"
+	Defaults: {
+		Name: "デフォルト名"
+		Text: "デフォルトテキスト"
+		Liquid: "デフォルト液体"
+	}
+	RecommendedPick: "{0} {1}%"
+	HappinessText: "幸福度: {0}"
+	Configs: {
+		TwailaConfig: {
+			DisplayName: "Mod設定"
+			Headers: {
+				Features: "機能"
+				UIPosition: "UI位置"
+				UIPanel: "UIパネル"
+				UIText: "UIテキスト"
+				UIImage: "UI画像"
+			}
+			AntiCheat: {
+				Label: "チート対策設定"
+				Tooltip: "チート行為を防ぐための様々な設定。"
+			}
+			DisplayContent: {
+				Label: "表示コンテンツの切り替え"
+				Tooltip: ""
+			}
+			MaxWidth: {
+				Label: "最大幅 (%)"
+				Tooltip: "パネルが表示されうる画面の最大幅（%）。"
+			}
+			MaxHeight: {
+				Label: "最大高さ (%)"
+				Tooltip: "パネルが表示されうる画面の最大高さ（%）。"
+			}
+			PanelPadding: {
+				Label: "パネルの余白"
+				Tooltip: ""
+			}
+			CycleDelay: {
+				Label: "サイクル遅延"
+				Tooltip: "パネルが次の種類に切り替わるまでの時間（tick単位）。"
+			}
+			ContentSetting: {
+				Label: "コンテンツ設定"
+				Tooltip: ""
+			}
+			HoverOpacity: {
+				Label: "ホバー時の不透明度"
+				Tooltip: ""
+			}
+			ContextMode: {
+				Label: "コンテキストモード"
+				Tooltip: ""
+			}
+			ShowBackground: {
+				Label: "背景を表示"
+				Tooltip: ""
+			}
+			ShowInFullscreenMap: {
+				Label: "フルスクリーンマップで表示"
+				Tooltip: ""
+			}
+			UIDisplaySettings: {
+				Label: "UI表示設定"
+				Tooltip: ""
+			}
+			PanelColor: {
+				Label: "パネルの色"
+				Tooltip: ""
+			}
+			TextShadow: {
+				Label: "テキストの影"
+				Tooltip: ""
+			}
+			OverrideColor: {
+				Label: "色を上書き"
+				Tooltip: "これをONにすると、既存のテキストカラーを上書きする。"
+			}
+			TextColor: {
+				Label: "テキストの色"
+				Tooltip: ""
+			}
+			UseItemTextures: {
+				Label: "アイテムのテクスチャを使用"
+				Tooltip: "ON: タイルを設置するアイテムのテクスチャを使用する。\nOFF: ワールド内のスプライトのテクスチャを使用する。"
+			}
+			ReservedImageWidth: {
+				Label: "予約画像幅 (%)"
+				Tooltip: "テキストが長すぎる場合に、画像用に確保されるパネル幅の割合（%）。"
+			}
+			UseTextHeightForImage: {
+				Label: "画像の高さにテキストの高さを合わせる"
+				Tooltip: "画像の高さをテキストの高さと揃うように縮小する。"
+			}
+			PanelPositionData: {
+				Label: "パネル位置データ"
+				Tooltip: "インベントリが開いているか閉じているかなど、特定の基準に基づいてパネルを配置する場所に関するデータ。"
+			}
+			UseDefaultPosition: {
+				Label: "デフォルト位置を使用"
+				Tooltip: ""
+			}
+			LockPosition: {
+				Label: "位置を固定"
+				Tooltip: ""
+			}
+			AnchorX: {
+				Label: "アンカーX"
+				Tooltip: ""
+			}
+			AnchorY: {
+				Label: "アンカーY"
+				Tooltip: ""
+			}
+			AnchorPosX: {
+				Label: "アンカー位置X"
+				Tooltip: ""
+			}
+			AnchorPosY: {
+				Label: "アンカー位置Y"
+				Tooltip: ""
+			}
+			CurrentContext: {
+				Label: "現在のコンテキスト"
+				Tooltip: ""
+			}
+		}
+		AntiCheatSettings: {
+			Tooltip: ""
+			HideUnrevealedTiles: {
+				Label: "未探索タイルを隠す"
+				Tooltip: "プレイヤーのマップでまだ表示されていないタイルを隠す。"
+			}
+			HideWires: {
+				Label: "ワイヤーを隠す"
+				Tooltip: "プレイヤーが見ることができないワイヤーを隠す。"
+			}
+			HideEchoTiles: {
+				Label: "エコータイルを隠す"
+				Tooltip: "プレイヤーが見ることができないエコータイルを隠す。"
+			}
+			HideSuspiciousTiles: {
+				Label: "怪しいタイルを隠す"
+				Tooltip: "罠として設置されているタイル（ライフクリスタルの岩、最も汚れたブロック、デッドマンズチェストなど）を隠す。"
+			}
+		}
+		Content: {
+			Tooltip: ""
+			ShowImage: {
+				Label: "画像を表示"
+				Tooltip: ""
+			}
+			ShowName: {
+				Label: "名前を表示"
+				Tooltip: ""
+			}
+			ShowMod: {
+				Label: "Mod名を表示"
+				Tooltip: ""
+			}
+			ShowId: {
+				Label: "IDを表示"
+				Tooltip: ""
+			}
+			ShowPickaxePower: {
+				Label: "ツルハシパワーを表示"
+				Tooltip: ""
+			}
+			ShowPickaxe: {
+				Label: "ツルハシを表示"
+				Tooltip: ""
+			}
+			ShowWire: {
+				Label: "ワイヤーを表示"
+				Tooltip: ""
+			}
+			ShowActuator: {
+				Label: "アクチュエーターを表示"
+				Tooltip: ""
+			}
+			ShowPaint: {
+				Label: "塗料を表示"
+				Tooltip: ""
+			}
+			ShowCoating: {
+				Label: "コーティングを表示"
+				Tooltip: ""
+			}
+			ShowContainedItems: {
+				Label: "含まれるアイテムを表示"
+				Tooltip: ""
+			}
+			ContentPriorities: {
+				Label: "コンテンツの優先度"
+				Tooltip: ""
+			}
+			NpcContent: {
+				Label: "NPCコンテンツ"
+				Tooltip: ""
+			}
+			TextsPerRow: {
+				Label: "行ごとのステータス数"
+				Tooltip: ""
+			}
+			IconsPerRow: {
+				Label: "行ごとのアイコン数"
+				Tooltip: ""
+			}
+			EnableContent: {
+				Label: "コンテンツを有効化"
+				Tooltip: ""
+			}
+			NamingPreferences: {
+				Label: "命名設定"
+				Tooltip: ""
+			}
+			ShowPosition: {
+				Label: "位置を表示"
+				Tooltip: ""
+			}
+		}
+		NameType: {
+			Tooltip: ""
+			DisplayName: {
+				Label: "表示名"
+			}
+			InternalName: {
+				Label: "内部名"
+			}
+			FullName: {
+				Label: "フルネーム"
+			}
+			Off: {
+				Label: "オフ"
+			}
+		}
+		DisplayType: {
+			Tooltip: ""
+			Name: {
+				Label: "名前"
+			}
+			Icon: {
+				Label: "アイコン"
+			}
+			Both: {
+				Label: "両方"
+			}
+			Off: {
+				Label: "オフ"
+			}
+		}
+		HorizontalAnchor: {
+			Tooltip: ""
+			Left: {
+				Label: "左"
+			}
+			Center: {
+				Label: "中央"
+			}
+			Right: {
+				Label: "右"
+			}
+		}
+		VerticalAnchor: {
+			Tooltip: ""
+			Bottom: {
+				Label: "下"
+			}
+			Center: {
+				Label: "中央"
+			}
+			Top: {
+				Label: "上"
+			}
+		}
+		DrawMode: {
+			Tooltip: ""
+			Shrink: {
+				Label: "縮小"
+			}
+			Trim: {
+				Label: "トリミング"
+			}
+			Overflow: {
+				Label: "オーバーフロー"
+			}
+		}
+		ContextUpdateMode: {
+			Tooltip: ""
+			Manual: {
+				Label: "手動"
+			}
+			Automatic: {
+				Label: "自動"
+			}
+		}
+		DisplaySettings: {
+			Tooltip: ""
+			UIDisplay: {
+				Label: "UI表示"
+				Tooltip: ""
+			}
+			HideUIForAir: {
+				Label: "空白タイルでUIを隠す"
+				Tooltip: "ON: カーソルが空白タイル上にあるとき、UIが非表示になる。\nOFF: UIは最後にカーソルを合わせた固形タイルの情報を表示し続ける。"
+			}
+			Headers: {
+				AutomaticOptions: "自動オプション"
+				OtherOptions: "その他のオプション"
+			}
+			HideUIWhenTalkingToNPCs: {
+				Label: "NPCと会話中にUIを隠す"
+				Tooltip: ""
+			}
+			HideUIWhenEditingSigns: {
+				Label: "看板編集中にUIを隠す"
+				Tooltip: ""
+			}
+		}
+		DisplayMode: {
+			Tooltip: ""
+			On: {
+				Label: "オン"
+			}
+			Off: {
+				Label: "オフ"
+			}
+			Automatic: {
+				Label: "自動"
+			}
+		}
+		ColorWrapper: {
+			Tooltip: ""
+			Color: {
+				Label: "色"
+				Tooltip: ""
+			}
+		}
+		Priorities: {
+			Tooltip: ""
+			WirePriority: {
+				Label: "ワイヤーの優先度"
+				Tooltip: ""
+			}
+			NpcPriority: {
+				Label: "NPCの優先度"
+				Tooltip: ""
+			}
+			TilePrioity: {
+				Label: "タイルの優先度"
+				Tooltip: ""
+			}
+			LiquidPriority: {
+				Label: "液体の優先度"
+				Tooltip: ""
+			}
+			WallPriority: {
+				Label: "壁の優先度"
+				Tooltip: ""
+			}
+			Headers: {
+				Priorities: "優先度（値が低いほど優先度が高い）"
+			}
+		}
+		NpcContent: {
+			Tooltip: ""
+			ShowHp: {
+				Label: "HPを表示"
+				Tooltip: ""
+			}
+			ShowDefense: {
+				Label: "防御力を表示"
+				Tooltip: ""
+			}
+			ShowAttack: {
+				Label: "攻撃力を表示"
+				Tooltip: ""
+			}
+			ShowKnockback: {
+				Label: "ノックバック耐性を表示"
+				Tooltip: ""
+			}
+			ShowKills: {
+				Label: "討伐数を表示"
+				Tooltip: ""
+			}
+			ShowBuffs: {
+				Label: "バフを表示"
+				Tooltip: ""
+			}
+			ShowHappiness: {
+				Label: "幸福度を表示"
+				Tooltip: ""
+			}
+			ShowNpcPreferences: {
+				Label: "NPCの好みを表示"
+				Tooltip: ""
+			}
+			ShowBiomePreferences: {
+				Label: "バイオームの好みを表示"
+				Tooltip: ""
+			}
+			StatsPerRow: {
+				Label: "行ごとのステータス数"
+				Tooltip: ""
+			}
+			IconsPerRow: {
+				Label: "行ごとのアイコン数"
+				Tooltip: ""
+			}
+			HappinessColors: {
+				Label: "幸福度の色"
+				Tooltip: ""
+			}
+		}
+		NumberType: {
+			Tooltip: ""
+			Number: {
+				Label: "数値"
+			}
+			Text: {
+				Label: "テキスト"
+			}
+			Both: {
+				Label: "両方"
+			}
+			Off: {
+				Label: "オフ"
+			}
+		}
+		HappinessColors: {
+			Tooltip: ""
+			LoveColor: {
+				Label: "大好きの色"
+				Tooltip: ""
+			}
+
+			LikeColor: {
+				Label: "好きの色"
+				Tooltip: ""
+			}
+			DislikeColor: {
+				Label: "嫌いの色"
+				Tooltip: ""
+			}
+			HateColor: {
+				Label: "大嫌いの色"
+				Tooltip: ""
+			}
+		}
+		PanelContextData: {
+			Tooltip: ""
+			SyncPositionData: {
+				Label: "位置データを同期"
+				Tooltip: "以下の全ての位置データを、インベントリを閉じている時のデータと同期させる。\nONの場合、インベントリを閉じている時以外のデータを編集しても効果はない。\nOFFの場合、以下の位置プリセットを設定して、特定の状況に応じたパネルの位置を変更できる。"
+			}
+			ClosedInventory: {
+				Label: "インベントリ（閉）"
+				Tooltip: "インベントリを閉じている時のパネル位置に関する情報。"
+			}
+			OpenInventory: {
+				Label: "インベントリ（開）"
+				Tooltip: "インベントリを開いている時のパネル位置に関する情報。"
+			}
+			InFullscreenMap: {
+				Label: "フルスクリーンマップ内"
+				Tooltip: "フルスクリーンマップを表示している時のパネル位置に関する情報。"
+			}
+		}
+		PositionData: {
+			Tooltip: ""
+			UseDefaultPosition: {
+				Label: "デフォルト位置を使用"
+				Tooltip: "パネルをドラッグすると自動的に無効になる。"
+			}
+			LockPosition: {
+				Label: "位置を固定"
+				Tooltip: "これがOFFの時、マウスでパネルを動かせる。"
+			}
+			AnchorX: {
+				Label: "アンカーX"
+				Tooltip: ""
+			}
+			AnchorY: {
+				Label: "アンカーY"
+				Tooltip: ""
+			}
+			AnchorPosX: {
+				Label: "アンカー位置X"
+				Tooltip: ""
+			}
+			AnchorPosY: {
+				Label: "アンカー位置Y"
+				Tooltip: ""
+			}
+			ShowUI: {
+				Label: "UIを表示"
+				Tooltip: "このコンテキストでパネルを表示するかどうか。"
+			}
+		}
+		ContentToggles: {
+			Tooltip: ""
+			EnableWireContent: {
+				Label: "ワイヤーコンテンツを有効化"
+				Tooltip: ""
+			}
+			EnableNpcContent: {
+				Label: "NPCコンテンツを有効化"
+				Tooltip: ""
+			}
+			EnableTileContent: {
+				Label: "タイルコンテンツを有効化"
+				Tooltip: ""
+			}
+			EnableLiquidContent: {
+				Label: "液体コンテンツを有効化"
+				Tooltip: ""
+			}
+			EnableWallContent: {
+				Label: "壁コンテンツを有効化"
+				Tooltip: ""
+			}
+		}
+		ContextIndex: {
+			Tooltip: ""
+			Index: {
+				Label: "インデックス"
+				Tooltip: ""
+			}
+		}
+		NamingPreferences: {
+			Tooltip: ""
+			EnableNames: {
+				Label: "名前を有効化"
+				Tooltip: ""
+			}
+			NamePriorities: {
+				Label: "名前の優先度"
+				Tooltip: ""
+			}
+			Headers: {
+				Priorities: "優先度（値が低いほど優先度が高い）"
+			}
+			ReadMe: {
+				Label: "説明書"
+				Tooltip: "タイルは本来名前を持っていないため、代わりに以下の方法がデフォルトの順序で使用される：\n1) 設置アイテム: タイルを設置するアイテムの名前（常に存在するとは限らないが、最も正確）。\n2) マップ: マップ上のエントリ名（存在しないことが多く、不正確）。\n3) 内部名: コード内でのタイルの名前（Modで追加されたタイルのみ）。\n4) ドロップアイテム: タイルからドロップするアイテムの名前（常に存在するとは限らず、複数ある可能性もある）。"
+			}
+		}
+		EnabledNames: {
+			Tooltip: ""
+			EnableDroppedItemName: {
+				Label: "ドロップアイテム名を有効化"
+				Tooltip: "タイルからドロップするアイテムの名前をタイル名として使用する。"
+			}
+			EnablePlacedItemName: {
+				Label: "設置アイテム名を有効化"
+				Tooltip: "タイルを設置するアイテムの名前をタイル名として使用する。"
+			}
+			EnableMapName: {
+				Label: "マップ名を有効化"
+				Tooltip: "マップに表示される名前を使用する（存在しないことが多く、不正確な場合がある）。"
+			}
+			EnableInternalName: {
+				Label: "内部名を有効化"
+				Tooltip: "内部名/コード名を使用する（Modで追加されたタイルのみ）。"
+			}
+		}
+		NamePriorities: {
+			Tooltip: ""
+			DroppedItemPriority: {
+				Label: "ドロップアイテムの優先度"
+				Tooltip: ""
+			}
+			PlacedItemPriority: {
+				Label: "設置アイテムの優先度"
+				Tooltip: ""
+			}
+			MapPriority: {
+				Label: "マップ名の優先度"
+				Tooltip: ""
+			}
+			InternalPriority: {
+				Label: "内部名の優先度"
+				Tooltip: ""
+			}
+		}
+	}
+}

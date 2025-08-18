@@ -1,0 +1,277 @@
+Items: {
+	CombinedYoyoAccessory: {
+		DisplayName: ヨーヨー改造キット
+		Tooltip:
+			'''
+			連続したヨーヨーヒットでコンボを蓄積する
+			コンボによりヨーヨーのダメージが最大20%増加する
+			ヨーヨーの持続時間が50%増加する
+			'''
+	}
+
+	MasterYoyoKit: {
+		DisplayName: マスターヨーヨーキット
+		Tooltip:
+			'''
+			理解を超えてヨーヨースキルを増加させる
+			「君の種族の最後の一人、真のヨーヨーマスター...」
+			'''
+	}
+
+	YoyoBearingAccessory: {
+		DisplayName: ボールベアリング
+		Tooltip: ヨーヨーの持続時間が50%増加する
+	}
+
+	YoyoSideEffectsAccessory: {
+		DisplayName: スパイクサイドエフェクト
+		Tooltip:
+			'''
+			連続したヨーヨーヒットでコンボを蓄積する
+			コンボによりヨーヨーのダメージが最大20%増加する
+			'''
+	}
+
+	Asteroid: {
+		DisplayName: アステロイド
+		Tooltip: 短時間で跳ね回る火球を発射する
+	}
+
+	Avian: {
+		DisplayName: エイビアン
+		Tooltip: 非常に機敏
+	}
+
+	Cabal: {
+		DisplayName: カバル
+		Tooltip:
+			'''
+			敵を攻撃すると霊液の雨を呼び下ろす
+			.
+			'''
+	}
+
+	EnchantedYoyo: {
+		DisplayName: エンチャントヨーヨー
+		Tooltip: ""
+	}
+
+	ExtraterrestrialTaser: {
+		DisplayName: エクストラテレストリアルテーザー
+		Tooltip: 衝撃時に敵を感電させる
+	}
+
+	HolyThrow: {
+		DisplayName: ホーリースロー
+		Tooltip: 敵の防御力を10無視する
+	}
+
+	Nitro: {
+		DisplayName: ニトロ
+		Tooltip:
+			'''
+			燃える軌跡を残す
+			.
+			'''
+	}
+
+	Poltergeist: {
+		DisplayName: ポルターガイスト
+		Tooltip: 障害なく壁を通り抜けることができる
+	}
+
+	PrismaticThrow: {
+		DisplayName: プリズムスロー
+		Tooltip: 衝撃時にプリズムの欠片を生み出す
+	}
+
+	Ravager: {
+		DisplayName: レイヴァガー
+		Tooltip: 衝撃時に追尾する血の塊を発射する
+	}
+
+	Spectrum: {
+		DisplayName: スペクトラム
+		Tooltip: 致命的なライトショーを披露する
+	}
+}
+
+Projectiles: {
+	CabalIchorRainProjectile: {
+		DisplayName: 霊液の雨
+	}
+
+	NitroCursedEmberProjectile: {
+		DisplayName: 呪われた残り火
+	}
+
+	PrismaticThrowPrismaticShardProjectile: {
+		DisplayName: プリズムの欠片
+	}
+
+	RavagerBloodClotProjectile: {
+		DisplayName: 血の塊
+	}
+
+	SpectrumSundanceProjectile: {
+		DisplayName: スペクトラムサンダンス
+	}
+
+	AsteroidProjectile: {
+		DisplayName: アステロイド
+	}
+
+	AvianProjectile: {
+		DisplayName: エイビアン
+	}
+
+	CabalProjectile: {
+		DisplayName: カバル
+	}
+
+	EnchantedYoyoProjectile: {
+		DisplayName: エンチャントヨーヨー
+	}
+
+	ExtraterrestrialTaserProjectile: {
+		DisplayName: エクストラテレストリアルテーザー
+	}
+
+	HolyThrowProjectile: {
+		DisplayName: ホーリースロー
+	}
+
+	NitroProjectile: {
+		DisplayName: ニトロ
+	}
+
+	PoltergeistProjectile: {
+		DisplayName: ポルターガイスト
+	}
+
+	PrismaticThrowProjectile: {
+		DisplayName: プリズマティックスロー
+	}
+
+	RavagerProjectile: {
+		DisplayName: レイヴァガー
+	}
+
+	SpectrumProjectile: {
+		DisplayName: スペクトラム
+	}
+
+	AmarokSnowflakeProjectile: {
+		DisplayName: 雪の結晶
+	}
+
+	CascadeFieryExplosionProjectile: {
+		DisplayName: 炎の爆発
+	}
+
+	Code1ElectrostaticAuraProjectile: {
+		DisplayName: 静電気オーラ
+	}
+
+	Code2PlasmaticAuraProjectile: {
+		DisplayName: プラズマオーラ
+	}
+
+	EoCMiniServantProjectile: {
+		DisplayName: ミニサーバント
+	}
+
+	GradientChromaticPulseProjectile: {
+		DisplayName: クロマティックパルス
+	}
+
+	HelFireFlameTorrentProjectile: {
+		DisplayName: 炎の奔流
+	}
+
+	KrakenAbyssalTentacleProjectile: {
+		DisplayName: 深淵の触手
+	}
+
+	MalaiseBileDropletProjectile: {
+		DisplayName: 胆汁の滴
+	}
+
+	RallyAfterimageProjectile: {
+		DisplayName: ラリーの残像
+	}
+
+	ValkyrieYoyoFeatherProjectile: {
+		DisplayName: ヴァルキリーの羽根
+	}
+
+	ValorGhostlyWispProjectile: {
+		DisplayName: 幽霊の火の玉
+	}
+
+	YeletsRazorLeafProjectile: {
+		DisplayName: カミソリの葉
+	}
+
+	AsteroidFireball: {
+		DisplayName: アステロイドファイアボール
+	}
+
+	ExtraterrestrialTaserElectrosphere: {
+		DisplayName: エクストラテレストリアルテーザーエレクトロスフィア
+	}
+}
+
+Configs: {
+	TysYoyoReduxConfigServer: {
+		BuffsToCounterweights: {
+			Tooltip: カウンターウェイトを高速化し、局所免疫を与える。さらにカウンターウェイトは4-6秒後に切り替わる（デフォルトで有効）
+			Label: カウンターウェイトへの変更
+		}
+
+		AddNewAccessories: {
+			Tooltip: 新しいModded ヨーヨーサブクラスにアクセサリーを追加する（デフォルトで有効）
+			Label: 新しいModded ヨーヨーアクセサリーを追加
+		}
+
+		AddNewYoyos: {
+			Tooltip: 進行の様々な段階に新しいModded ヨーヨーを追加する（デフォルトで有効）
+			Label: 新しいModded ヨーヨーを追加
+		}
+
+		VanillaYoyoRecipes: {
+			Tooltip: レッドスローとヴァルキリーヨーヨーにレシピを与える（デフォルトで有効）
+			Label: 開発者ヨーヨーにレシピを与える
+		}
+
+		VanillaYoyoEffects: {
+			Tooltip: 各バニラヨーヨーに特殊効果を与える（デフォルトで有効）
+			Label: バニラヨーヨーに効果を与える
+		}
+
+		DisplayName: Mod設定
+	}
+}
+
+VanillaItemTooltips: {
+	Rally: ダメージを与える残像を残す
+	CorruptYoyo: 膿んだ胆汁を滴らせる
+	CrimsonYoyo: 攻撃した敵からライフを奪う確率がある
+	JungleYoyo: 毒のトゲを撃つ
+	Code1: 静電気オーラを生成する
+	Valor: 幽霊の火の玉を召喚する
+	Cascade: 衝撃時に炎の爆発を起こす
+	FormatC: クリティカルストライクは2倍ダメージを与える
+	Gradient: クロマティックエネルギーを操る
+	Chik: 素早く水晶の欠片を生み出す
+	HelFire: 衝撃時に破壊的な炎の奔流を発射する
+	Amarok: 残存する雪の結晶を残す
+	Code2: 超強化された静電気オーラを生成する
+	Yelets: 素早く毒のトゲを発射する
+	ValkyrieYoyo: 近くの敵に羽根の嵐を放つ
+	RedsYoyo: 衝撃時にランダムなデバフを与える
+	Kraken: 衝撃時に触手で鞭打つ
+	TheEyeOfCthulhu: 追尾するクトゥルフのしもべのミニ版を生み出す
+	Terrarian: テラリアの魂で輝く
+}
+

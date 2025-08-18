@@ -1,0 +1,1165 @@
+Configs: {
+		BombusConfig: {
+			ResourceOffY: {
+				Tooltip: "",
+				Label: "リソースUIのドラッグプロパティに使用される。手動で変更すべきではない。デフォルト位置を使用するにはこれとXオフセットを0にリセットする"
+			},
+			ResourceOffX: {
+				Tooltip: "",
+				Label: "リソースUIのドラッグプロパティに使用される。手動で変更すべきではない。これとYオフセットを0にリセットしてデフォルト位置を使用する"
+			},
+			DragUI: {
+				Tooltip: "",
+				Label: "ハニーリソースUIをドラッグ"
+			},
+			DrawLegacyUI: {
+				Tooltip: "",
+				Label: "レガシーハニーリソースUIを描画（旧式）"
+			},
+			yOffset: {
+				Tooltip: "",
+				Label: "ハニープレイヤーUI Yオフセット"
+			},
+			DisplayName: "ボンバス設定"
+		}
+	},
+	NPCs: {
+		TheTraitorBee: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き",
+				LikeNPC_Princess: "私は{NPCName}が好き",
+				HateNPC: "私は{NPCName}が嫌いだ",
+				DislikeNPC: "私は{NPCName}が苦手だ",
+				LikeNPC: "私は{NPCName}が好き",
+				LoveNPC: "私は{NPCName}が大好きだ",
+				HateBiome: "私は{BiomeName}が嫌いだ",
+				DislikeBiome: "私は{BiomeName}が苦手だ",
+				LikeBiome: "私は{BiomeName}が好き",
+				LoveBiome: "私は{BiomeName}が大好きだ",
+				HateCrowded: "こんなに混雑しているのは嫌だ",
+				DislikeCrowded: "こんなに混雑しているのは苦手だ",
+				LoveSpace: "こんなに広いスペースがあるのが大好きだ",
+				FarFromHome: "家から遠すぎる",
+				NoHome: "家がないのは嫌だ",
+				Content: "私は満足している"
+			},
+			DisplayName: "裏切りのハチ"
+		}
+	},
+	Items: {
+		TrueStingerScimitar: {
+			Tooltip: "",
+			DisplayName: "真・スティンガーシミター"
+		},
+		Wasparang: {
+			DisplayName: "ワスパラン",
+			Tooltip: "<right>を押して戻ってくるワスパランをチャージする\n離してワスパランを投げ、飛行中にワスプをスポーンさせ、ヒット時にホーミングスティンガーを生成する"
+		},
+		TrueNectarSlasher: {
+			Tooltip: "軽快で重いスイングと投げの5連コンボを実行する\nヒット時に敵を斬り裂く\nヒット時にライフを回復する",
+			DisplayName: "真・ネクタースラッシャー"
+		},
+		TomeOfTheSun: {
+			DisplayName: "太陽の書",
+			Tooltip: "マウスカーソル位置に鮮やかなネクターエネルギーのパルスを生成し、それがホーミングボルトに分裂する"
+		},
+		TheWaspNest: {
+			DisplayName: "ワスプの巣",
+			Tooltip: "ワスプの巣を投げ、空中にいる間ワスプをスポーンさせる\nワスプがスポーンするたびにハニーを1消費する"
+		},
+		TheTraitorsSaxophone: {
+			Tooltip: "「ジャズは好きかい？」",
+			DisplayName: "裏切り者のサクソフォン"
+		},
+		TheStingerSlinger: {
+			DisplayName: "スティンガースリンガー",
+			Tooltip: "敵にスティンガーを撃つヨーヨーを投げる\n定期的にホーミングスティンガーのバーストを発射する"
+		},
+		TheSting: {
+			DisplayName: "ザ・スティング",
+			Tooltip: "「これは痛いぞ」\nマウスカーソルを攻撃するミニチュアのクイーンビーを召喚する\n彼女は3つの攻撃をサイクルする:\nカーソルを周回してスティンガーを発射\nカーソルにダッシュ\nカーソルの上にとどまりハチをスポーン\n彼女が生きている間、毎秒ハニーを2消費する"
+		},
+		TheStarSwarmer: {
+			DisplayName: "スター・スウォーマー",
+			Tooltip: "スタービーを高速で発射する\n<right>で分裂する星を発射する\n星を拾うとハニーが補充され、ダメージと攻撃速度のバフが付与される"
+		},
+		TheStarStrap: {
+			DisplayName: "ザ・スターストラップ",
+			Tooltip: "「油断するな」\nスタービーのバーストを発射し、ヒット時に天から星をスポーンさせる"
+		},
+		TheQueensLarvae: {
+			DisplayName: "女王の幼虫",
+			Tooltip: "使用時にハニーを消費する\n生きている間、ハニーの65%を確保する\n「かつては王家の女王、今やあなたの王室護衛」"
+		},
+		ThePeeperPoker: {
+			DisplayName: "ザ・ピーパーポーカー",
+			Tooltip: "プレイヤーの周りで目玉がはびこるジャベリンを高速回転させる\nマウスボタンを離してジャベリンを投げる\nジャベリンを長く回転させるほど、ジャベリンは速く飛び、より多くのダメージを与え、より多く貫通する\nジャベリンを回転させている間、およびジャベリンが飛んでいる間にクチュルビーをスポーンさせる"
+		},
+		TheBeeBlade: {
+			DisplayName: "ザ・ビーブレード",
+			Tooltip: "「巣のエネルギーを放つ、ほぼ完璧な刃」\nスイング時にハニーの大きな斬撃を生成する\n敵に攻撃するとプレイヤーの後ろにスティンガーの乱舞がスポーンする"
+		},
+		TESTWEAPON: {
+			Tooltip: "テスト用 使用禁止",
+			DisplayName: "テストハニーコム"
+		},
+		SyrupSickle: {
+			Tooltip: "ユーザーの前にきらめくネクターの鎌を召喚する\n敵にクリティカルヒットを与えると、短時間、大幅にライフ回復が増進する",
+			DisplayName: "ネクターシックル"
+		},
+		StoneHoneycomb: {
+			Tooltip: "重い石化したハニカムを投げる\nハニカムは十分な速度で落下すると常にクリティカルヒットする\n「岩…ハチ…何が問題になるだろうか？」",
+			DisplayName: "石化したハニカム"
+		},
+		SpectralBeeTome: {
+			DisplayName: "スペクトラルビートーム",
+			Tooltip: "「忘れられたハチの魂が復讐を求めている」"
+		},
+		Skelecomb: {
+			DisplayName: "スケルコム",
+			Tooltip: "敵を斬りつけるスケルタルビーを召喚する\n<right>で呪われた頭蓋骨を発射し、敵を呪い、全てのソースからのダメージを15%増加させる"
+		},
+		PumpkinetScepter: {
+			DisplayName: "パンプキネットセプター",
+			Tooltip: "マウスカーソル近くの敵を攻撃するパンプキネットを召喚する"
+		},
+		ProbeyComb: {
+			DisplayName: "プロービーコム",
+			Tooltip: "<left>を長押ししてプロービーのバーストをチャージする\nプロービーは敵に致命的なレーザーを発射する"
+		},
+		OcularRemote: {
+			DisplayName: "オキュラーリモート",
+			Tooltip: "レティネコムとスパズコムを呼び出し、一時的にあなたのために戦わせる\n一度に一組のツインしか生存できない\n各ツインは生きている間35ハニーを確保する\nリモートを持っているときに<right>で自己破壊させることができるが、クールダウンがある\n「ツインズが根に持たないのは幸いだ」"
+		},
+		Needleshot: {
+			DisplayName: "ニードルショット",
+			Tooltip: "高速のスティンガーとハイヴボムのバーストを発射する"
+		},
+		Nectarthrower: {
+			DisplayName: "ネクタースロワー",
+			Tooltip: "溶けたネクターを噴射し、敵をネクターのグレーズで覆う\nグレーズされた敵は攻撃されるとヒーリングボルトを送り出す"
+		},
+		NectarSlasher: {
+			Tooltip: "素早い打撃と投げの3連コンボを実行する\nヒット時に敵を斬り裂く\nヒット時にライフを回復する",
+			DisplayName: "ネクタースラッシャー"
+		},
+		NectarBolt: {
+			DisplayName: "ネクターボルト",
+			Tooltip: "タイルに跳ね返るきらめくネクターのボルトを放つ\n跳ね返るとホーミングネクターをスポーンさせ、わずかなライフ吸収効果を持つ"
+		},
+		MiniHornet: {
+			Tooltip: "「半分ホーネット、半分銃、完全に素晴らしい」",
+			DisplayName: "ミニホーネット"
+		},
+		MetalPlatedHoneycomb: {
+			DisplayName: "金属メッキの蜂の巣",
+			Tooltip: "<left>を長押しして蜂の巣プライムの力をチャネルする\n「proj.Ubersawを初期化中」\n「proj.MetalBeeを初期化中」\n「proj.DeathLaserを初期化中」\n「Honeycomb Primeをコンパイル中」"
+		},
+		MegaHornet: {
+			Tooltip: "発射時間が長いほどチャージされ、ダメージが増加する\n「ミニホーネットの姉」",
+			DisplayName: "メガホーネット"
+		},
+		ManaInfusedHoneycomb: {
+			DisplayName: "マナ入りの蜂の巣",
+			Tooltip: "<left>を長押ししてマナを注入したハチのバーストをチャージする\nマナビーはヒット時にホーミングマナスターをスポーンさせる"
+		},
+		LaserbeemBlaster: {
+			DisplayName: "レーザービームブラスター",
+			Tooltip: "跳ね返る純粋なハニーエネルギーの集中体を発射し、敵の間で跳ね返る\n跳ね返ると純粋なハニーエネルギーのハチをスポーンさせる"
+		},
+		HymenoptraHandcannon: {
+			DisplayName: "ハイメノプテラハンドキャノン",
+			Tooltip: "6発のビーバレットのバーストを発射する\n「群れを恐れよ！」"
+		},
+		HymenoptraFlasks: {
+			DisplayName: "ハイメノプテラフラスコ",
+			Tooltip: "様々なハチ関連のフラスコを投げる\n「ゴーグルを着用した方がいいかもしれない」"
+		},
+		HoneyShot: {
+			Tooltip: "ハニーアローの斉射を発射する",
+			DisplayName: "ハニーショット"
+		},
+		HoneyGun: {
+			Tooltip: "高速のハニーの流れを発射する",
+			DisplayName: "ハニーガン"
+		},
+		HoneyFlareGun: {
+			DisplayName: "ハニーフレアガン",
+			Tooltip: "敵に突き刺さり、ホーミングハニーとハニークラウドに爆発するハニーフレアを発射する\nハニークラウドは、ユーザーがクラウド内にいるときにハニーバフを付与する"
+		},
+		HoneyFlareCannon: {
+			DisplayName: "ハニーフレアキャノン",
+			Tooltip: "ハニーフレアを高速で発射する"
+		},
+		HoneycombOfTheGalaxies: {
+			Tooltip: "「宇宙の中心で生まれたと言われる全能の蜂の巣」\n左クリックを長押しして、宇宙エネルギーを放つ蜂の巣をチャネルする\n蜂の巣はチャージされ、宇宙の構造を弱める\nマウスボタンを離すと、蜂の巣は所有者に戻される\nこのアクションは宇宙の構造を破壊し、強力なエネルギーと銀河のハチを解放する",
+			DisplayName: "宇宙の蜂の巣"
+		},
+		HellfireBeemstick: {
+			DisplayName: "ヘルファイアビームスティック",
+			Tooltip: "地獄の炎をまとったビーバックショットとハチの地獄のような拡散を発射する\n<right>でヘルファイアスラグを発射し、接触時に爆発する"
+		},
+		GelatinousHoneycomb: {
+			DisplayName: "ゼラチン状のハニカム",
+			Tooltip: "空から跳ねるスライムボールを降らせるロイヤルビーを発射する\n数発ごとに揮発性のルビーを発射する\n「王にふさわしいハニカム」"
+		},
+		FrostedHoneycomb: {
+			DisplayName: "フロストハニカム",
+			Tooltip: "複数の氷のかけらに砕ける凍てつくハニカムを投げる\n氷結状態を与える\n氷結状態の敵にクリティカルヒットを与えると、ハチのバーストに爆発する"
+		},
+		ElectricHoneycomb: {
+			DisplayName: "エレクトリックハニカム",
+			Tooltip: "電気を帯びたハニカムを投げ、近くのすべてを感電させ、ザップビーに爆発する"
+		},
+		EaterOfHoneycombs: {
+			DisplayName: "蜂の巣イーター",
+			Tooltip: "不浄なハチとミニイーターを発射した後、投げられてターゲットを探し出す\n「生きているように見える…？」"
+		},
+		CystComb: {
+			Tooltip: "腫瘍に侵された戻ってくる蜂の巣を投げる\n敵に当たると霊液の爆発を引き起こす\n「嚢胞に覆われた蜂の巣…気持ち悪い」",
+			"DisplayName": "嚢胞の巣"
+		},
+		CursedHoneycomb: {
+			DisplayName: "呪われた蜂の巣",
+			Tooltip: "<left>を長押しして呪われた蜂の巣を操作する\n呪われた蜂の巣は呪われた歯と目を吐き出す\n歯は敵に突き刺さり、スタックする継続ダメージを与え、目は敵をホーミングする\nヒット時に呪われたハチをスポーンさせる"
+		},
+		ChlorophyteHoneycomb: {
+			Tooltip: "ホーミングフラグメント、クロロ胞子、クロロビーに砕ける壊れやすい蜂の巣を投げる\nクロロビーは死ぬとクロロエネルギーに物質化する",
+			"DisplayName": "クロロファイトの巣"
+		},
+		BrainyHoneycomb: {
+			DisplayName: "蜂の巣の脳みそ",
+			Tooltip: "混乱状態と大脳混乱のスタックを与える天才的なハチを発射する\n大脳混乱の各スタックは、ターゲットが与えるダメージを5%減少させ、時間とともに5ダメージを与え、最大5スタックまで蓄積する\n「この蜂の巣のIQは桁外れだ」"
+		},
+		BladeOfAculeus: {
+			Tooltip: "重い打撃を行い、致命的な力で貫通するスティンガーを飛ばす\n近接攻撃は敵の鎧を切り裂く",
+			"DisplayName": "アキュレウスの刃"
+		},
+		BeeZooka: {
+			DisplayName: "ビーズーカ",
+			Tooltip: "ホーミングビーロケットのバーストを発射し、ミニミサイルに爆発する\nミニミサイルはマウスカーソルに最も近い敵をターゲットにし、榴散弾に爆発する\n「もし神が君に生きていてほしかったなら、私を創らなかっただろう！」"
+		},
+		BeenadeLauncher: {
+			DisplayName: "ビーネードランチャー",
+			Tooltip: "ハチでいっぱいの跳ねるパイプビームを撃つ\n「ああ、奴らは君を元に戻すのに接着剤が必要になるだろうな」\n「地獄でな」"
+		},
+		Beemstick: {
+			DisplayName: "ビームスティック",
+			Tooltip: "ビーバックショットとハチの拡散を撃ち出す\n「これが…俺のビームスティックだ」"
+		},
+		Beemerang: {
+			DisplayName: "ビーメラン",
+			Tooltip: "<left>を長押しして戻ってくるビーメランをチャージする\nビーメランはチャージに応じてノックバック、速度、ダメージ、ヒット時にスポーンするハチの数が増加する"
+		},
+		BeeInyGun: {
+			Tooltip: "「この武器を12秒間発射するのに、40万本のハニーがかかる」",
+			"DisplayName": "ビーニガン"
+		},
+		BeeFinTuna: {
+			Tooltip: "ハチに爆発するハニーバブルの拡散を吐き出す\n「その肉は信じられないほど甘くて柔らかいと言われている」",
+			"DisplayName": "ハチのヒレマグロ"
+		},
+		BeeBubbleBlaster: {
+			Tooltip: "「エイリアンは本当にバブルが好きだな…弾を撃つやつが」",
+			"DisplayName": "ビーノポッパー"
+		},
+		Ambrosia: {
+			Tooltip: "純粋なネクターのヨーヨーを投げる\nヒット時にネクター爆発を引き起こし、使用者を回復する",
+			"DisplayName": "アンブロシアスロー"
+		},
+		HoneyPickup2: {
+			Tooltip: "「これは見えないはず…」",
+			"DisplayName": "ハニードロップレット"
+		},
+		HoneyPickup: {
+			Tooltip: "「これは見えないはず…」",
+			"DisplayName": "エンチャントハニー"
+		},
+		Honeycomb: {
+			DisplayName: "蜂の巣",
+			Tooltip: "3匹のハチのバーストを発射した後、空の蜂の巣を投げる\n「おい、この蜂の巣には3匹しかハチがいないぞ」"
+		},
+		HoneycombChunkPickup: {
+			Tooltip: "「これは見えないはず…」",
+			DisplayName: "蜂の巣チャンク"
+		},
+		AstralStarPickup: {
+			Tooltip: "「これは見えないはず…」",
+			"DisplayName": "アストラルスター"
+		},
+		Pollen: {
+			Tooltip: "「アレルギーがあるなら注意しろ」",
+			"DisplayName": "花粉"
+		},
+		PhotonFragment: {
+			Tooltip: "「この粒子から絶え間ない羽音が聞こえる」",
+			"DisplayName": "フォトニック粒子"
+		},
+		RoyalJelly: {
+			DisplayName: "ロイヤルゼリー",
+			Tooltip: "最大ハニーを永久に25増加させる\n「その洗練された味と治癒特性で高く評価されている珍味」"
+		},
+		WaspHead: {
+			DisplayName: "ワスプヘッド",
+			Tooltip: "翼の飛行時間を20%増加させ、ジャンプ速度を上げる\n最大ハニーを35増加させる"
+		},
+		WaspGreaves: {
+			DisplayName: "ワスプのすね当て",
+			"Tooltip": "移動速度が15%上昇"
+		},
+		WaspBreastplate: {
+			DisplayName: "ワスプの胸当て",
+			"Tooltip": "ハイメノプテラダメージとクリティカル率が6%上昇\nあなたの忠実なハチの数を1体増やす"
+		},
+		SkeletalBeeLeggings: {
+			DisplayName: "スケルタルビーのすね当て",
+			"Tooltip": "ハイメノプテラダメージが10%増加"
+		},
+		SkeletalBeeHelmet: {
+			DisplayName: "スケルタルビーの兜",
+			"Tooltip": "ハイメノプテラクリティカル率が10%上昇\n最大ハニーを50増加させる"
+		},
+		SkeletalBeeChestplate: {
+			DisplayName: "スケルタルビーの胸当て",
+			"Tooltip": "受けるダメージを10%減少させる\n忠実なハチが2体増える"
+		},
+		LivingFlowerLeggings: {
+			DisplayName: "リビングフラワーレギンス",
+			"Tooltip": "ハイメノプテラクリティカル率が3%上昇"
+		},
+		LivingFlowerCrown: {
+			"Tooltip": "ハイメノプテラクリティカル率が3%上昇\n最大ハニーを15増加させる",
+			"DisplayName": "リビングフラワークラウン"
+		},
+		LivingFlowerChestplate: {
+			"Tooltip": "ハイメノプテラダメージが4%増加",
+			"DisplayName": "リビングフラワーチェストプレート"
+		},
+		HoneyphyteMask: {
+			DisplayName: "ハニーファイトマスク",
+			"Tooltip": "ハイメノプテラダメージとクリティカル率が10%上昇\n最大ハニーを75増加させる"
+		},
+		HoneyphyteHeadgear: {
+			"Tooltip": "最大ハニーを100増加させる",
+			"DisplayName": "ハニーホダーフード"
+		},
+		HoneyphyteGreaves: {
+			"Tooltip": "ハイメノプテラダメージが5%増加",
+			"DisplayName": "ハニーホダーレギンス"
+		},
+		HoneyphyteChestpiece: {
+			DisplayName: "ハニーファイトチェストピース",
+			"Tooltip": "ハニーを消費しない確率が30%上昇\n忠実なハチが5体増える"
+		},
+		HoneycombCrusaderPlatemail: {
+			"Tooltip": "ハニーを消費しない確率が30%上昇\n忠実なハチが4体増える",
+			"DisplayName": "蜂の巣クルセイダーのプレートメイル"
+		},
+		HoneycombCrusaderHelmet: {
+			"DisplayName": "蜂の巣クルセイダーの兜",
+			"Tooltip": "ハイメノプテラクリティカル率が5%上昇\n最大ハニーを75増加"
+		},
+		HoneycombCrusaderGreaves: {
+			"Tooltip": "ハイメノプテラダメージが5%増加",
+			"DisplayName": "蜂の巣クルセイダーのすね当て"
+		},
+		BeeSniperLeggings: {
+			"DisplayName": "ビースナイパーのすね当て",
+			"Tooltip": "ハイメノプテラダメージが10%増加"
+		},
+		BeeSniperGoggles: {
+			"DisplayName": "ビースナイパーのゴーグル",
+			"Tooltip": "ハイメノプテラクリティカル率が15%上昇\n最大ハニーを60増加させる"
+		},
+		BeeSniperArmor: {
+			"DisplayName": "ビースナイパーの胸当て",
+			"Tooltip": "ハニーを消費しない確率が25%上昇\n忠実なハチが3体増える"
+		},
+		BeekeepersVeil: {
+			"Tooltip": "ハイメノプテラクリティカル率が5%上昇\n最大ハニーを25増加させる",
+			"DisplayName": "養蜂家のベール"
+		},
+		BeekeepersRobe: {
+			"Tooltip": "ハイメノプテラダメージが5%増加\n忠実なハチが1体増える",
+			"DisplayName": "養蜂家のローブ"
+		},
+		BeekeepersPants: {
+			"DisplayName": "養蜂家のズボン",
+			"Tooltip": "ハイメノプテラクリティカル率が5%上昇"
+		},
+		TriTipStinger: {
+			"Tooltip": "ハイメノプテラ攻撃がヒットした際に、改良された毒を付与するチャンスがある\n改良された毒は、感染した敵の最大HPの一定割合のダメージを与え、敵の間で広がる",
+			"DisplayName": "トライティップスティンガー"
+		},
+		TinBeeIdol: {
+			"DisplayName": "錫のハチの崇拝物",
+			"Tooltip": "ハイメノプテラダメージとクリティカル率が4%上昇\n「明らかに古代文明はハチがどんな姿か知らなかったようだ」"
+		},
+		TheQueensCharge: {
+			"DisplayName": "女王の突撃",
+			"Tooltip": "いずれかの方向をダブルタップしてダッシュする\nダッシュ中にハチを生成する"
+		},
+		RottenHoneycombShard: {
+			"DisplayName": "腐った蜂の巣の欠片",
+			"Tooltip": "友好的なハチを強化する確率を20%上昇させる\n強化されたハチは弱体化デバフを適用する\n「ひどい匂いがする」"
+		},
+		RetinaReleaser: {
+			"Tooltip": "「彼らが君を見ていると思う」\nダメージを受けるとクトゥルビーの乱舞を放ち、短時間ハイメノプテラダメージを12%増加させる",
+			"DisplayName": "レティネリリーサー"
+		},
+		NectarVial: {
+			"DisplayName": "ネクターの小瓶",
+			"Tooltip": "ハイメノプテラ攻撃を甘いネクターでコーティングし、クリティカルヒット時にライフ吸収を付与する\n最大体力を20増加させる\n「世界のほとんどの地域で珍味とされている」"
+		},
+		Nectarlace: {
+			"Tooltip": "防御無視値を5増加させる\nダメージを受けるとハチを放ち、ユーザーをハチミツで濡らす\nハイメノプテラ攻撃を甘いネクターでコーティングし、クリティカルヒット時にライフ吸収を付与する\n最大体力を20増加させる",
+			"DisplayName": "ネクターレース"
+		},
+		LihzardianHornetRelic: {
+			"DisplayName": "リザードホーネットの遺物",
+			"Tooltip": "移動速度と翼の飛行時間を35%増加させる\nツールチップを修正\nチャネリング中、あなたのハイメノプテラダメージ、攻撃速度、クリティカル率が12%上昇する\nチャネリング中は10%多くのダメージを受け、継続ダメージを受ける\nこの効果には45秒のクールダウンがある"
+		},
+		JarOfHoney: {
+			"Tooltip": "ハイメノプテラダメージを6%増加させる\n最大ハニーを5増加させる\nライフ回復を増加させる",
+			"DisplayName": "ハニーの瓶"
+		},
+		HymenoptrianNecklace: {
+			"DisplayName": "ハイメノプテリアンネックレス",
+			"Tooltip": "アーマー貫通を5増加させる\nハイメノプテラ攻撃を甘いネクターでコーティングし、クリティカルヒット時にライフ吸収を付与する\n最大体力を20増加させる\nダメージを受けるとハチ、クチュルビーを放ち、ハイメノプテラダメージ、移動速度を増加させ、ユーザーをハチミツで濡らす"
+		},
+		HoneyManipulator: {
+			"DisplayName": "ハニーマニピュレーター",
+			"Tooltip": "\nTP\n+20 最大ハニー\nこの効果には90秒のクールダウンがある\nアビリティを発動した後5秒間はハニーを再生できない"
+		},
+		HoneyLocket: {
+			"Tooltip": "「巣との深いつながりがあるようだ」\nあなたの忠実なハチの数を3体増やす",
+			"DisplayName": "ハニーロケット"
+		},
+		HoneyedHeart: {
+			"Tooltip": "得られるハニーの25%が代わりに体力として付与される",
+			"DisplayName": "蜂蜜の心臓"
+		},
+		HoneyedEmblem: {
+			"Tooltip": "ハイメノプテラダメージ12%増加\n最大ハニーを10増加させる",
+			"DisplayName": "蜂蜜の紋章"
+		},
+		HoneycombShard: {
+			DisplayName: "蜂の巣の欠片",
+			"Tooltip": "友好的なハチを強化する確率を15%上昇させる\n「カリカリだ！」"
+		},
+		HoneyBee: {
+			"DisplayName": "ハニービー",
+			"Tooltip": "あなたの忠実なハチを模倣する大きなハニービーを召喚する\n最大ハニーを25増加させる"
+		},
+		HimensApiary: {
+			"Tooltip": "「歴史上最も偉大なハイメノプテリアンモンスターハンターの一人の養蜂場…彼は大きな植物のような生き物に敗れたと言われている」\nダメージを受けるとハニードロップレットを落とす",
+			"DisplayName": "ハイメンの養蜂場"
+		},
+		HemocombShardChunk3: {
+			"Tooltip": "「これは見えないはず…」",
+			"DisplayName": "肉の塊"
+		},
+		HemocombShardChunk2: {
+			"Tooltip": "「これは見えないはず…」",
+			"DisplayName": "肉の塊"
+		},
+		HemocombShardChunk1: {
+			"Tooltip": "「これは見えないはず…」",
+			"DisplayName": "肉の塊"
+		},
+		HemocombShard: {
+			"DisplayName": "血の巣の欠片",
+			"Tooltip": "友好的なハチを強化する確率を30%上昇させる\n強化されたハチは回復効果のある肉の塊に爆発するチャンスがある"
+		},
+		HellcombShard: {
+			"DisplayName": "地獄の巣の欠片",
+			"Tooltip": "友好的なハチを強化する確率を40%上昇させる\n強化されたハチは揮発性の爆発を引き起こすチャンスがある"
+		},
+		GlassOfHoney: {
+			"DisplayName": "蜂のグラス",
+			"Tooltip": "ハイメノプテラダメージ10%増加\n最大ハニーを10増加させる\nライフ回復を大幅に増進させる"
+		},
+		FrozenStinger: {
+			"DisplayName": "フローズンスティンガー",
+			"Tooltip": "ハイメノプテラクリティカル率8%上昇\nハイメノプテラのクリティカルヒットはフロストブレイクを与える\nフロストブレイクを受けた敵は防御力が35%低下し、低HPで砕け散り、周りの敵にダメージを与える"
+		},
+		EnchantedApiary: {
+			"DisplayName": "エンチャントアピアリー",
+			"Tooltip": "「きらきら光っている！」\nダメージを受けるとエンチャントされたハニードロップレットを落とす"
+		},
+		CopperBeeIdol: {
+			"DisplayName": "銅のハチの崇拝物",
+			"Tooltip": "ハニーを消費しない確率10%上昇\n「明らかに古代文明はハチがどんな姿か知らなかったようだ」"
+		},
+		BeeSquireShield: {
+			"Tooltip": "「最も高貴なハチのスクワイアがあなたを守るだろう！」\nあなたの近くをホバリングし、近くの敵に矢を放つハチのスクワイアを召喚する",
+			"DisplayName": "ビースクワイアシールド"
+		},
+		BeeEmblem: {
+			"Tooltip": "ハイメノプテラダメージが15%増加",
+			"DisplayName": "ビーキーパーの紋章"
+		},
+		BandOfTheHive: {
+			"Tooltip": "短時間で大量のダメージを与えると、次のヒットで大きなハニー爆発を引き起こす",
+			"DisplayName": "巣に蝕まれた腕輪"
+		}
+	},
+	"Prefixes": {
+		Sweetened: {
+			"DisplayName": "甘くした"
+		},
+		Succulent: {
+			"DisplayName": "ジューシーな"
+		},
+		Snaillike: {
+			"DisplayName": "カタツムリのような"
+		},
+		Rotten: {
+			"DisplayName": "腐った"
+		},
+		Pungent: {
+			"DisplayName": "刺激的な"
+		},
+		Punchy: {
+			"DisplayName": "パンチの効いた"
+		},
+		Piquant: {
+			"DisplayName": "ピリッとした"
+		},
+		Moldy: {
+			"DisplayName": "カビ臭い"
+		},
+		Juicy: {
+			"DisplayName": "ジューシーな"
+		},
+		Frugal: {
+			"DisplayName": "倹約的な"
+		},
+		Delicious: {
+			"DisplayName": "おいしい"
+		},
+		Delectable: {
+			"DisplayName": "美味な"
+		},
+		Critical: {
+			"DisplayName": "クリティカルな"
+		},
+		Conserving: {
+			"DisplayName": "節約的な"
+		},
+		Buzzing: {
+			"DisplayName": "ぶんぶんいう"
+		},
+		Bland: {
+			"DisplayName": "味気ない"
+		},
+		Bittersweet: {
+			"DisplayName": "ほろ苦い"
+		}
+	},
+	"Buffs": {
+		HiveBlessingBuff: {
+			"Description": "あなたは巣に祝福されている",
+			"DisplayName": "巣の祝福"
+		},
+		TheQueensGuard: {
+			"Description": "女王があなたを守る！",
+			"DisplayName": "女王の護衛"
+		},
+		SquireBuff: {
+			"Description": "ビースクワイアが命がけであなたを守る！",
+			"DisplayName": "ビースクワイア！"
+		},
+		SkeletalCurse: {
+			"Description": "あなたの魂を感じることができない",
+			"DisplayName": "スケルトンの呪い"
+		},
+		RottenDebuff: {
+			"Description": "あなたはひどい匂いがする",
+			"DisplayName": "腐敗"
+		},
+		NectarGlazed: {
+			"Description": "おいしい！",
+			"DisplayName": "ネクターグレーズ"
+		},
+		LihzardianHornetRelicCooldown: {
+			"Description": "遺物はもう機能しないようだ…今のところは",
+			"DisplayName": "リザードホーネットの遺物クールダウン"
+		},
+		ImprovedPoison: {
+			"Description": "解毒剤を見つけた方がいい",
+			"DisplayName": "毒まみれ"
+		},
+		ImprovedHoney: {
+			"Description": "ライフ回復が大幅に増加した",
+			"DisplayName": "改良されたハニー"
+		},
+		HoneyTeleportCooldown: {
+			"Description": "あなたの分子は整列する時間が必要だ",
+			"DisplayName": "ハニーテレポートクールダウン"
+		},
+		HoneyManipulatorCooldown: {
+			"Description": "ハニーマニピュレーターは再充電が必要だ",
+			"DisplayName": "ハニーマニピュレータークールダウン"
+		},
+		HoneyLaserCooldown: {
+			"Description": "蜂の巣はクールダウンする時間が必要だ",
+			"DisplayName": "ハニーレーザークールダウン"
+		},
+		HoneyBeeBuff: {
+			"Description": "ハニービーがあなたのためにハニーを集める！",
+			"DisplayName": "ザ・ハニービー"
+		},
+		HeartOfNectar: {
+			"Description": "大幅に増加したライフ回復",
+			"DisplayName": "ネクターの心臓"
+		},
+		Glacialstruck: {
+			"Description": "ブルッ！",
+			"DisplayName": "氷結"
+		},
+		Frostbroken: {
+			"Description": "ブルッ！…パート2！",
+			"DisplayName": "フロストブレイク"
+		},
+		Electrocuted: {
+			"Description": "ザップ！",
+			"DisplayName": "感電"
+		},
+		CthulhuEnraged: {
+			"Description": "ハイメノプテラダメージ増加",
+			"DisplayName": "激怒"
+		},
+		BrokenScope: {
+			"Description": "敵をマークできないようだ",
+			"DisplayName": "壊れたゴーグル"
+		},
+		BladeOfAculeusCleave: {
+			"Description": "あなたの防御は無価値だ",
+			"DisplayName": "切り裂かれた"
+		},
+		BandOfTheHiveCooldown: {
+			"Description": "バンドは再充電が必要だ",
+			"DisplayName": "巣に触れたバンドクールダウン"
+		},
+		AstralStarBuff: {
+			"Description": "ハイメノプテラダメージと攻撃速度が上昇した",
+			"DisplayName": "天の祝福"
+		}
+	},
+	DamageClasses: {
+		HymenoptraDamageClass: {
+			"DisplayName": "ハイメノプテラダメージ"
+		}
+	},
+	Projectiles: {
+		PumpkinetScepterHoldout: {
+			"DisplayName": "パンプキネットセプターホールドアウト"
+		},
+		ManaHoneycombHoldout: {
+			"DisplayName": "マナハニカムホールドアウト"
+		},
+		WasparangHoldout: {
+			"DisplayName": "ビーメラン"
+		},
+		WaspAccessory: {
+			"DisplayName": "ワスプ"
+		},
+		VolatileGel: {
+			"DisplayName": "跳ねるスライムボール"
+		},
+		TrueNectarSlasherHoldout: {
+			"DisplayName": "真・ネクタースラッシャー"
+		},
+		TrueNectarslash: {
+			"DisplayName": "真・ネクタースラッシュ"
+		},
+		TrueHomingNectar: {
+			"DisplayName": "真・ホーミングネクター"
+		},
+		TrueBeeSwordProjectile: {
+			"DisplayName": "真・ビーソード射出物"
+		},
+		TrueAculeusBladeHoldoutAlt: {
+			"DisplayName": "アキュレウスの刃"
+		},
+		TrueAculeusBladeHoldout: {
+			"DisplayName": "アキュレウスの刃"
+		},
+		TomeOfTheSunProjectileHoming: {
+			"DisplayName": "太陽エネルギーボルト"
+		},
+		TomeOfTheSunProjectile: {
+			"DisplayName": "鮮やかなハニーエネルギー"
+		},
+		TheWaspNestProjectile: {
+			"DisplayName": "ワスプの巣"
+		},
+		TheTraitorsSaxophoneHoldout: {
+			"DisplayName": "裏切り者のサクソフォーン"
+		},
+		TheStingProj: {
+			"DisplayName": "スティンギングクイーン"
+		},
+		TheQueen: {
+			"DisplayName": "女王"
+		},
+		SyrupSickleProjectile: {
+			"DisplayName": "ハニーシックル"
+		},
+		StoneHoneycombProjectile: {
+			"DisplayName": "石化したハニカム"
+		},
+		StingerYoyoProj: {
+			"DisplayName": "スティンギングヨーヨー"
+		},
+		StingerGravity: {
+			"DisplayName": "スティンガー"
+		},
+		StingerFriendly: {
+			"DisplayName": "スティンガー"
+		},
+		SquireBee: {
+			"DisplayName": "スクワイアビー"
+		},
+		SpectralSoul: {
+			"DisplayName": "スペクトラルソウル"
+		},
+		SpectralBeeTomeHoldout: {
+			"DisplayName": "スペクトラルビーの書"
+		},
+		SpectralBee: {
+			"DisplayName": "スペクトラルビー"
+		},
+		SpazHoneycomb: {
+			"DisplayName": "スパザコム"
+		},
+		SpazBee: {
+			"DisplayName": "スパズビー"
+		},
+		SkeletalStinger: {
+			"DisplayName": "スケルトンスティンガー"
+		},
+		SkeletalHornetProjectile: {
+			"DisplayName": "スケルトンホーネット"
+		},
+		SkeletalBeeSlash: {
+			"DisplayName": "スケルトンスラッシュ"
+		},
+		SkeletalBee: {
+			"DisplayName": "スケルタルビー"
+		},
+		SkelecombProjectile: {
+			"DisplayName": "呪われた頭蓋骨"
+		},
+		RubyProjectile: {
+			"DisplayName": "揮発性ルビー"
+		},
+		RubyExplosion: {
+			"DisplayName": "ルビー爆発"
+		},
+		RetinaHoneycomb: {
+			"DisplayName": "レティナコム"
+		},
+		RedLaserHoming: {
+			"DisplayName": "レーザー"
+		},
+		RedLaser: {
+			"DisplayName": "レーザー"
+		},
+		PumpkinStinger: {
+			"DisplayName": "カボチャスティンガー"
+		},
+		PumpkinetHornet: {
+			"DisplayName": "パンプキネット"
+		},
+		ProbeycombHoldout: {
+			"DisplayName": "プロビーコム"
+		},
+		Probee: {
+			"DisplayName": "プロビー"
+		},
+		PoisonSmoke: {
+			"DisplayName": "毒の雲"
+		},
+		PeeperPokerThrow: {
+			"DisplayName": "ピーパーポーカー"
+		},
+		PeeperPokerHoldout: {
+			"DisplayName": "ピーパーポーカー"
+		},
+		NectarthrowerProj: {
+			"DisplayName": "溶けたネクター"
+		},
+		NectarSmoke: {
+			"DisplayName": "ネクタークラウド"
+		},
+		NectarSlasherHoldout: {
+			"DisplayName": "ネクタースラッシャー"
+		},
+		Nectarslash: {
+			"DisplayName": "ネクタースラッシュ"
+		},
+		NectarHealingBolt: {
+			"DisplayName": "ネクターヒーリングボルト"
+		},
+		NectarBoltProjectile: {
+			"DisplayName": "ネクターボルト"
+		},
+		NectarBoltHoming: {
+			"DisplayName": "ネクターボルト"
+		},
+		MiniStars: {
+			"DisplayName": "ミニスター"
+		},
+		MiniHoneyNoteQuarter: {
+			"DisplayName": "ミニハニークォーターノート"
+		},
+		MiniHoneyNoteEighthTied: {
+			"DisplayName": "ミニハニータイドエイスノート"
+		},
+		MiniHoneyNoteEighth: {
+			"DisplayName": "ミニハニーエイスノート"
+		},
+		MetalBeeExplosion: {
+			"DisplayName": "爆発"
+		},
+		MetalBee: {
+			"DisplayName": "メタルビー"
+		},
+		MegaHornetHoldout: {
+			"DisplayName": "メガホーネット"
+		},
+		MechaBeam: {
+			"DisplayName": "コズミックビーム"
+		},
+		ManaBolt: {
+			"DisplayName": "マナボルト"
+		},
+		ManaBee: {
+			"DisplayName": "マナビー"
+		},
+		LaserbeemProjectile: {
+			"DisplayName": "跳ねるハニーレーザー"
+		},
+		LargeGalaticStar: {
+			"DisplayName": "スター"
+		},
+		IchorHoneycombHoldout: {
+			"DisplayName": "ビーメラン"
+		},
+		IchorExplosion: {
+			"DisplayName": "イコール爆発"
+		},
+		IchorBee: {
+			"DisplayName": "イコールビー"
+		},
+		HymenoptraFlask_Stinger: {
+			"DisplayName": "スティンガーフラスコ"
+		},
+		HymenoptraFlask_Nectar: {
+			"DisplayName": "ネクターフラスコ"
+		},
+		HymenoptraFlask_Honey: {
+			"DisplayName": "ハニーフラスコ"
+		},
+		HoneyTiedEighthNote: {
+			"DisplayName": "ハニーノート"
+		},
+		HoneySmoke: {
+			"DisplayName": "ハニークラウド"
+		},
+		HoneyShotHoldout: {
+			"DisplayName": "ハニーショット"
+		},
+		HoneyQuarterNote: {
+			"DisplayName": "ハニーノート"
+		},
+		HoneyNoteQuarter: {
+			"DisplayName": "ハニークォーターノート"
+		},
+		HoneyNoteEighthTied: {
+			"DisplayName": "ハニータイドエイスノート"
+		},
+		HoneyNoteEighth: {
+			"DisplayName": "ハニーエイスノート"
+		},
+		HoneyHomingMetaballs: {
+			"DisplayName": "ハニー"
+		},
+		HoneyHoming: {
+			"DisplayName": "ハニー"
+		},
+		HoneyGunShot: {
+			"DisplayName": "ハニーストリーム"
+		},
+		HoneyGunHoldout: {
+			"DisplayName": "ハニーガン"
+		},
+		HoneyFlare: {
+			"DisplayName": "ハニーフレア"
+		},
+		HoneyEnergyBee: {
+			"DisplayName": "純粋なハニービー"
+		},
+		HoneyEighthNote: {
+			"DisplayName": "ハニーノート"
+		},
+		HoneycombPrime_Saw: {
+			"DisplayName": "蜂の巣プライムソー"
+		},
+		HoneycombPrime_Laser: {
+			"DisplayName": "蜂の巣プライムレーザー"
+		},
+		HoneycombPrime: {
+			DisplayName: "蜂の巣プライム"
+		},
+		HoneycombHoldout: {
+			DisplayName: "蜂の巣"
+		},
+		HoneyBeeProj: {
+			"DisplayName": "ハニービー"
+		},
+		HoneyBee: {
+			"DisplayName": "ハニービー"
+		},
+		HoneyArrow: {
+			"DisplayName": "ハニーアロー"
+		},
+		HomingStinger: {
+			"DisplayName": "ホーミングスティンガー"
+		},
+		HomingNectar: {
+			"DisplayName": "ホーミングネクター"
+		},
+		HomingManaStar: {
+			"DisplayName": "ホーミングマナスター"
+		},
+		Hivebomb: {
+			"DisplayName": "ハイヴボム"
+		},
+		HighVelocityStinger: {
+			"DisplayName": "高速スティンガー"
+		},
+		HellfireSlugExplosion: {
+			"DisplayName": "ヘルファイア爆発"
+		},
+		HellfireBeemstickSlug: {
+			"DisplayName": "ヘルファイアスラグ"
+		},
+		HellfireBeeBuckshot: {
+			"DisplayName": "ヘルファイアビーバックショット"
+		},
+		HellfireBee: {
+			"DisplayName": "ヘルファイアビー"
+		},
+		HealingProjectile: {
+			"DisplayName": "ギャラクティックヒーリングオーブ"
+		},
+		GolemLaser: {
+			"DisplayName": "ゴーレムレーザー"
+		},
+		GelBee: {
+			"DisplayName": "ゲルビー"
+		},
+		GalaxyHoneycombProj: {
+			"DisplayName": "ギャラクティックハニカム"
+		},
+		GalacticStar: {
+			"DisplayName": "ギャラクティックスター"
+		},
+		GalacticSeeker: {
+			"DisplayName": "ギャラクシーシーカー"
+		},
+		GalacticBee: {
+			"DisplayName": "ギャラクティックビー"
+		},
+		FrostedProjectile_Solid: {
+			"DisplayName": "固体のつらら"
+		},
+		FrostedProjectile_Piercing: {
+			"DisplayName": "貫通するつらら"
+		},
+		FrostedProjectile_Homing: {
+			"DisplayName": "ホーミングつらら"
+		},
+		FrostedHoneycombProj: {
+			"DisplayName": "フローズンハニカム"
+		},
+		FrostedBee: {
+			"DisplayName": "フロストビー"
+		},
+		ElectricHoneycombProj: {
+			"DisplayName": "エレクトリックハニカム"
+		},
+		ElectricHoneycombLightning: {
+			"DisplayName": "稲妻"
+		},
+		ElectricBee: {
+			"DisplayName": "エレクトリックビー"
+		},
+		EaterOfHoneycombsHoldout: {
+			"DisplayName": "ハニカムイーター"
+		},
+		DaybloomProj: {
+			"DisplayName": "花"
+		},
+		CursedTooth: {
+			"DisplayName": "呪われた歯"
+		},
+		CursedHoneycombThrowout: {
+			"DisplayName": "呪われたハニカム"
+		},
+		CursedFlameball: {
+			"DisplayName": "呪われた火の玉"
+		},
+		CursedEye: {
+			"DisplayName": "呪われた目"
+		},
+		CursedExplosion: {
+			"DisplayName": "呪われた爆発"
+		},
+		CursedBee: {
+			"DisplayName": "呪われたハチ"
+		},
+		CthulhuBee: {
+			"DisplayName": "クチュルビー"
+		},
+		CorruptMiniEater: {
+			"DisplayName": "不浄なミニイーター"
+		},
+		CorruptedBee: {
+			"DisplayName": "不浄なハチ"
+		},
+		Chlorospore: {
+			"DisplayName": "クロロ胞子"
+		},
+		Chloroshard: {
+			"DisplayName": "クロロフラグメント"
+		},
+		ChlorophyteHoneycombProjectile: {
+			"DisplayName": "クロロコム"
+		},
+		ChlorophyteBee: {
+			"DisplayName": "クロロファイトビー"
+		},
+		ChloroEnergy: {
+			"DisplayName": "クロロエネルギー"
+		},
+		BrainyBee: {
+			"DisplayName": "ブレイニービー"
+		},
+		BigStar: {
+			"DisplayName": "ビッグスター"
+		},
+		BeezookaShrapnel: {
+			"DisplayName": "ビーズーカ榴散弾"
+		},
+		BeezookaRocketSmall: {
+			"DisplayName": "ミニビーロケット"
+		},
+		BeezookaRocket: {
+			"DisplayName": "ビーロケット"
+		},
+		BeeSwordSlash: {
+			"DisplayName": "ハニースラッシュ"
+		},
+		BeeSwordProjectile: {
+			"DisplayName": "ビーソード射出物"
+		},
+		BeeResourceIncreaseProjectile: {
+			"DisplayName": "ハニー"
+		},
+		BeenadeLauncherProjectile: {
+			"DisplayName": "パイプビーム"
+		},
+		BeeMinigunHoldout: {
+			"DisplayName": "ビーニガン"
+		},
+		BeemerangHoldout: {
+			"DisplayName": "ビーメラン"
+		},
+		BeeFishBubble: {
+			"DisplayName": "ハニーバブル"
+		},
+		BeeBullet: {
+			"DisplayName": "ビーバレット"
+		},
+		BeeBuckshot: {
+			"DisplayName": "ビーバックショット"
+		},
+		BeeBubble: {
+			"DisplayName": "ビーバブル"
+		},
+		BeeBladeSwing: {
+			"DisplayName": "ビーブレード"
+		},
+		BeeBladeStinger: {
+			"DisplayName": "スティンガー"
+		},
+		BasicExplosionDebuff: {
+			"DisplayName": "爆発"
+		},
+		BasicExplosion: {
+			"DisplayName": "爆発"
+		},
+		AstralStarSplittingShards: {
+			"DisplayName": "アストラルシャード"
+		},
+		AstralStarSplitting: {
+			"DisplayName": "アストラルスプリッティングスター"
+		},
+		AstralStar: {
+			"DisplayName": "アストラルスター"
+		},
+		AstralBee: {
+			"DisplayName": "アストラルビー"
+		},
+		AmbrosiaProjectile: {
+			"DisplayName": "アンブロシア"
+		},
+		AmbrosiaExplosion: {
+			"DisplayName": "アンブロシア爆発"
+		},
+		AculeusBladeStinger: {
+			"DisplayName": "アキュレウスブレードスティンガー"
+		},
+		AculeusBladeHoldout: {
+			"DisplayName": "アキュレウスの刃"
+		},
+		HoneyphyteMaskLaserHoneycomb: {
+			"DisplayName": "ハニーファイトコム"
+		},
+		HoneyphyteHeadgearExplosion: {
+			"DisplayName": "ハニー爆発"
+		},
+		HoneycombCrusaderShieldProjectile: {
+			"DisplayName": "ハニーシールド"
+		},
+		HellcombShardExplosion: {
+			"DisplayName": "揮発性爆発"
+		},
+		BandHoneyGlob: {
+			"DisplayName": "ハニーグロブ"
+		},
+		BandHoneyExplosion: {
+			"DisplayName": "ハニー爆発"
+		},
+		BeePlayerShieldProjectile: {
+			"DisplayName": "シールド"
+		},
+		BeePlayerBeeProjectile: {
+			"DisplayName": "ハチ"
+		}
+	},
+	"Keybinds": {
+		"Change Beekeeper State": {
+			"DisplayName": "ビーキーパー状態の変更"
+		},
+		"Lihzardian Hornet Relic": {
+			"DisplayName": "リザードホーネットの遺物"
+		},
+		"Honey Manipulation": {
+			"DisplayName": "ハニーマニピュレーション"
+		}
+	}

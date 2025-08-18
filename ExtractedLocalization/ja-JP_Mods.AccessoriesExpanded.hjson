@@ -1,0 +1,489 @@
+Conditions: {
+	CanAddPotion2: Mods.AccessoriesExpanded.Conditions.CanAddPotion2
+	CanAddPotion1: Not contain regen potion
+	CanAddPotion: Not containing potion
+}
+
+Projectiles: {
+	YoyoProjectile: {
+		DisplayName: Yoyo Beam
+	}
+
+	SwordProjectile: {
+		DisplayName: Sword Beam
+	}
+
+	ShortswordProjectile: {
+		DisplayName: Shortsword Beam
+	}
+}
+
+Items: {
+	InterstellarAlloy: {
+		Tooltip: ""
+		DisplayName: Interstellar Alloy
+	}
+
+	PureHeart: {
+		Tooltip:
+			'''
+			It fills you with the power of love.
+			Increases movement speed after taking damage.
+			Revives player with 50 Health when mortal damage taken
+			then goes on cooldown.
+			Increases health regeneration and decreases damage taken
+			after being revived.
+			Cooldown is faster outside of combat.
+			'''
+		DisplayName: Pure Heart
+	}
+
+	AmberRing: {
+		Tooltip: Makes all tools and weapons swing faster.
+		DisplayName: Amber Ring
+	}
+
+	TopazRing: {
+		Tooltip:
+			'''
+			Increases movement speed 10%
+			Makes you jump slightly higher
+			'''
+		DisplayName: Topaz Ring
+	}
+
+	SapphireRing: {
+		Tooltip:
+			'''
+			Makes spells and summons cost less mana.
+			Reduces the effect of mana sickness slightly.
+			'''
+		DisplayName: Sapphire Ring
+	}
+
+	RubyRing: {
+		Tooltip: Increases damage 10%
+		DisplayName: Ruby Ring
+	}
+
+	GreedRing: {
+		Tooltip:
+			'''
+			Causes additional ore to drop when mining.
+			Increases mining speed by 55%.
+			'''
+		DisplayName: Ring of Greed
+	}
+
+	GreaterTopazRing: {
+		Tooltip:
+			'''
+			Increases movement speed 25%
+			Makes you jump higher
+			'''
+		DisplayName: Greater Topaz Ring
+	}
+
+	GreaterSapphireRing: {
+		Tooltip:
+			'''
+			Makes spells and summons cost significantly less mana.
+			Reduces the effect of mana sickness greatly.
+			'''
+		DisplayName: Greater Sapphire Ring
+	}
+
+	GreaterRubyRing: {
+		Tooltip: Increases damage 25%
+		DisplayName: Greater Ruby Ring
+	}
+
+	GreaterEmeraldRing: {
+		Tooltip: Raises crit chance by 25%
+		DisplayName: Greater Emerald Ring
+	}
+
+	GreaterDiamondRing: {
+		Tooltip: Increases armor penetration by 25.
+		DisplayName: Greater Diamond Ring
+	}
+
+	GreaterAmethystRing: {
+		Tooltip: Raises defense by 25%
+		DisplayName: Greater Amethyst Ring
+	}
+
+	GreaterAmberRing: {
+		Tooltip: Makes all tools and weapons swing much faster.
+		DisplayName: Greater Amber Ring
+	}
+
+	EmeraldRing: {
+		Tooltip: Raises crit chance by 10%
+		DisplayName: Emerald Ring
+	}
+
+	DiamondRing: {
+		Tooltip: Increases armor penetration by 10.
+		DisplayName: Diamond Ring
+	}
+
+	AmethystRing: {
+		Tooltip: Raises defense by 10%
+		DisplayName: Amethyst Ring
+	}
+
+	SpiritFragments: {
+		Tooltip:
+			'''
+			Made from things great for conjuring and also great for crafting!
+			 Parts of the power within, but not within what it should be within...
+			'''
+		DisplayName: Spirit Fragments
+	}
+
+	RareEarths: {
+		Tooltip:
+			'''
+			Made from all kinds of Bones great for crafting!
+			 Belongs in a museum.
+			'''
+		DisplayName: Rare Earths
+	}
+
+	InterstellarFragments: {
+		Tooltip:
+			'''
+			Bits and Pieces of Pure Magic useful for crafting.
+			 Out of this world on so many levels!
+			'''
+		DisplayName: Interstellar Fragments
+	}
+
+	CursedEarths: {
+		Tooltip:
+			'''
+			One part Evil, one part Damned, and great for crafting!
+			 The greatest evil of all, crafting ingredients!
+			'''
+		DisplayName: Cursed Earths
+	}
+
+	DullTrinket: {
+		Tooltip:
+			'''
+			Looks like a little wooden pedistal.
+			 I could totatlly craft with this!
+			'''
+		DisplayName: Dull Trinket
+	}
+
+	BrokenVessel: {
+		Tooltip:
+			'''
+			A strange aura eminates from the cracks
+			 It'll need something really magical to fix it.
+			'''
+		DisplayName: Broken Vessel
+	}
+
+	BrokenCharm: {
+		Tooltip:
+			'''
+			This charm emits a strange power, but it's broken.
+			 It'll need some strong stuff to fix it.
+			'''
+		DisplayName: Broken Charm
+	}
+
+	WarriorTreads: {
+		Tooltip:
+			'''
+			Allows the wearer to run really fast. 
+			The lower your Health the faster you can get.
+			'''
+		DisplayName: Warrior Treads
+	}
+
+	WarriorCrest: {
+		Tooltip:
+			'''
+			The mark of a true warrior.
+			Increases Melee Damage by 25%
+			'''
+		DisplayName: Warrior Crest
+	}
+
+	WarriorChargers: {
+		Tooltip:
+			'''
+			Allows the wearer to run really fast. 
+			The lower your Health the faster you can get.
+			 Allows the user to dash.
+			'''
+		DisplayName: Warrior Chargers
+	}
+
+	VenomQuiver: {
+		Tooltip:
+			'''
+			Uses mana to tip arrows with the strongest of venoms.
+			 Asps, very dangerous.
+			'''
+		DisplayName: Thornshot Quiver
+	}
+
+	UnholyHellQuiver: {
+		Tooltip:
+			'''
+			Uses mana to make arrows faster and inflict lots of debuffs.
+			 You must be mistaken...
+			'''
+		DisplayName: Quiver of Forsaken Souls
+	}
+
+	TeamworkMedallion: {
+		Tooltip:
+			'''
+			Boosts Stats when around your team members.
+			 Teamwork makes the dream work!
+			'''
+		DisplayName: Teamwork Medallion
+	}
+
+	TamerRing: {
+		Tooltip: Increases whip damage by 25%
+		DisplayName: Tamer Ring
+	}
+
+	SwordsmanBroach: {
+		Tooltip: Increases swing speed.
+		DisplayName: Swordsman Broach
+	}
+
+	SwordEffigy: {
+		Tooltip:
+			'''
+			Allows swords to project themselves at the cost of mana.
+			 Swords that already have a projection will get their power amplified.
+			'''
+		DisplayName: Sword Effigy
+	}
+
+	SpiritVessel: {
+		Tooltip:
+			'''
+			It's filled with spiritual energy.
+			Increases Summon Damage by 12%
+			'''
+		DisplayName: Spirit Vessel
+	}
+
+	SpellcasterRing: {
+		Tooltip:
+			'''
+			Decreases mana usage.
+			 Miles per hour highway.
+			'''
+		DisplayName: Spellcaster Ring
+	}
+
+	SparklyTrinket: {
+		Tooltip:
+			'''
+			It seems to sparkle in the light.
+			Increases Magic Damage by 5%
+			 Pretty.
+			'''
+		DisplayName: Sparkly Trinket
+	}
+
+	SkyQuiver: {
+		Tooltip:
+			'''
+			Uses mana to give arrows faster speed and pierece more enemies!.
+			 I use my Harpy Lady to attack your life points directly.
+			'''
+		DisplayName: Quiver of the Skies
+	}
+
+	SharpShooterCrest: {
+		Tooltip:
+			'''
+			Makes you feel like a real sharpshooter.
+			Increases Ranged Damage by 25%
+			'''
+		DisplayName: Sharp Shooter Crest
+	}
+
+	RareCharm: {
+		Tooltip:
+			'''
+			The odd glow give you strength.
+			Increases Ranged Damage by 12%
+			'''
+		DisplayName: Rare Charm
+	}
+
+	RangerBroach: {
+		Tooltip:
+			'''
+			Now you feel like a sharpshooter.
+			Bang! Bang!
+			'''
+		DisplayName: Ranger Broach
+	}
+
+	PointyTrinket: {
+		Tooltip:
+			'''
+			Nice and sharp.
+			Increases Melee Damage by 5%
+			Probably not safe for Guides near you.
+			'''
+		DisplayName: Pointy Trinket
+	}
+
+	NinjaSocks: {
+		Tooltip: Allows the wearer dash.
+		DisplayName: Ninja Socks
+	}
+
+	ManaVessel: {
+		Tooltip:
+			'''
+			Your magic feels amplified.
+			Increases Magic Damage by 12%
+			'''
+		DisplayName: Mana Vessel
+	}
+
+	MagicianCrest: {
+		Tooltip:
+			'''
+			You're a real mage now!
+			Increases Magic Damage by 25%
+			'''
+		DisplayName: Magician Crest
+	}
+
+	MageWalkers: {
+		Tooltip:
+			'''
+			Allows the wearer to run really fast. 
+			The lower your mana the faster you can get.
+			'''
+		DisplayName: Mage Walkers
+	}
+
+	HolyQuiver: {
+		Tooltip:
+			'''
+			Uses mana to call down stars when your arrows hit their mark.
+			Shooting Stars
+			'''
+		DisplayName: Hallowed Quiver
+	}
+
+	FrostQuiver: {
+		Tooltip:
+			'''
+			Allows all arrows to inflict frostburn at the cost of mana.
+			Talk about a chilly reception
+			'''
+		DisplayName: Frost Quiver
+	}
+
+	FriendshipMedallion: {
+		Tooltip:
+			'''
+			Recover a portion of the mana used by your allies.
+			Friendship is Magic!
+			'''
+		DisplayName: Friendship Medallion
+	}
+
+	FireQuiver: {
+		Tooltip:
+			'''
+			Allows all arrows to light enemies on fire on hit at the cost of mana.
+			BURN! BURN!
+			'''
+		DisplayName: Flaming Quiver
+	}
+
+	FigurineTrinket: {
+		Tooltip:
+			'''
+			Looks like a little slime.
+			Increases Summon Damage by 5%
+			Might burn just as well.
+			'''
+		DisplayName: Figurine Trinket
+	}
+
+	EvilDebuffQuiver: {
+		Tooltip:
+			'''
+			Uses mana to give arrows cursed flame and ichor properties.
+			Both is good.
+			'''
+		DisplayName: Quiver of Two Evils
+	}
+
+	DemonRunners: {
+		Tooltip:
+			'''
+			Allows the wearer to run really fast. 
+			The lower your mana the faster you can get.
+			 Allows the user to dash.
+			'''
+		DisplayName: Demon Runners
+	}
+
+	CursedCharm: {
+		Tooltip:
+			'''
+			You are filled with evil power.
+			Increases Melee Damage by 12%
+			'''
+		DisplayName: Cursed Charm
+	}
+
+	ConjurerCrest: {
+		Tooltip:
+			'''
+			Allows one to bend minions to their will.
+			Increases Summon Damage by 25%
+			'''
+		DisplayName: Conjurer Crest
+	}
+
+	ArrowTrinket: {
+		Tooltip:
+			'''
+			Feels comfortable in the hand.
+			Increases Ranged Damage by 7%
+			I wonder how far I could throw this.
+			'''
+		DisplayName: Arrow Trinket
+	}
+
+	AlchemistBlessing: {
+		Tooltip: ""
+		DisplayName: Alchemist Blessing
+	}
+}
+
+Buffs: {
+	LifeBlessing: {
+		Description: Saved from death with increased regen!
+		DisplayName: Life Blessing
+	}
+
+	Teamwork: {
+		Description: The power of friendship compels you to do more damage!
+		DisplayName: Ally Boost
+	}
+}
+

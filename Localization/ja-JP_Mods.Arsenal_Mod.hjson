@@ -1,0 +1,5983 @@
+CommonItemtooltip: {
+	PrismaPenalty: "テラプリズマが存在すると与えるダメージが低下"
+}
+
+Buffs: {
+	AccursedTridentStick: {
+		DisplayName: "呪われたトライデント"
+		Description: "この敵は呪われたトライデントに貫かれ、持続ダメージを受けている"
+	}
+
+	BeetleBladeDef: {
+		DisplayName: "ビートルの忍耐"
+		Description: "被ダメージが15%減少"
+	}
+
+	BeetleBladeOff: {
+		DisplayName: "ビートルの猛攻"
+		Description: "被ダメージが減少し、近接ダメージと近接速度が上昇"
+	}
+
+	BorealisShield: {
+		DisplayName: "ボレアリスの障壁"
+		Description: "防御力が上昇"
+	}
+
+	EvilEyeTargeting: {
+		DisplayName: "邪眼"
+		Description: "この敵は邪眼の従者の目に狙われる"
+	}
+
+	BallaBuff: {
+		DisplayName: "スノーバラス"
+		Description: "「雪だるまが…イケてる?!」"
+	}
+
+	JungleCreeperBuff: {
+		DisplayName: "ジャングルクリーパー"
+		Description: "ジャングルクリーパーがあなたのために戦う"
+	}
+
+	ShadowflameBuff: {
+		DisplayName: "シャドウフレイムの幻影"
+		Description: "シャドウフレイムの幻影があなたのために戦う"
+	}
+
+	SkullBuff: {
+		DisplayName: "ガーディアンスカル"
+		Description: "絶対にスケルトロンJr.ではない頭蓋骨があなたのために戦う"
+	}
+
+	SpiritBuff: {
+		DisplayName: "スピリット"
+		Description: "ダンジョンスピリットがあなたのために戦う"
+	}
+
+	TerraultimaBuff: {
+		DisplayName: "テラウルティマ"
+		Description: "天の刃があなたのために戦う"
+	}
+
+	CreeperBuff: {
+		DisplayName: "クリーパー"
+		Description: "クリーパーが一時的にあなたのために戦う"
+	}
+
+	DestroyerUplinkTargeting: {
+		DisplayName: "破壊の標的"
+		Description: "この敵はデストロイヤードローンのプローブの標的になる"
+	}
+
+	Starstruck: {
+		DisplayName: "スターストラック"
+		Description: "防御力が低下"
+	}
+
+	StarstruckPlayer: {
+		DisplayName: "スターストラック"
+		Description: "防御力が低下"
+	}
+
+	SphereSongRegen: {
+		DisplayName: "宇宙の力"
+		Description: "ライフ回復速度が増進"
+	}
+
+	ViciousMockery: {
+		DisplayName: "痛烈な嘲笑"
+		Description: "この敵の接触ダメージが低下"
+	}
+
+	AncientChainsBuff: {
+		DisplayName: "ゴーレムのまなざし"
+		Description: "小さなゴーレムの頭が一定時間、敵にレーザーを放つ"
+	}
+
+	AuroraBuff: {
+		DisplayName: "オーロラの秘奥"
+		Description: "鞭の攻撃速度、防御力、ライフ回復速度が上昇"
+	}
+
+	BlocksWhipBuff: {
+		DisplayName: "ブロック十字軍の武勇"
+		Description: "ブロックの力が鞭の攻撃速度を強化！"
+	}
+
+	LostRaiderBuff: {
+		DisplayName: "レイダーラッシュ"
+		Description: "鞭の攻撃速度が上昇"
+	}
+
+	SummitBuff: {
+		DisplayName: "頂点の力"
+		Description: "鞭の攻撃速度が上昇し、タグ付けされた敵を昇華の刃が打ち据える"
+	}
+
+	TerraWhipBuff: {
+		DisplayName: "テラリアの調律"
+		Description: "鞭の攻撃速度が上昇"
+	}
+
+	AncientChainsTag: {
+		DisplayName: "古代の鎖のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	AuroraTag: {
+		DisplayName: "オーロラのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	BlocksWhipTag: {
+		DisplayName: "ブロックチェーンのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	ConstellationTag: {
+		DisplayName: "星座のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	CorruptionsScourgeTag: {
+		DisplayName: "堕落の災禍のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	DusksBiteTag: {
+		DisplayName: "黄昏の牙のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	EmberingScourgeTag: {
+		DisplayName: "ヘルバインダーのタグ"
+		Description: "この敵への召喚攻撃が、このタグを持つ他の敵にも伝播"
+	}
+
+	LaceratorTag: {
+		DisplayName: "ラセレーターのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	LostRaiderTag: {
+		DisplayName: "ロストレイダーのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	MoonBiteTag: {
+		DisplayName: "ムーンバイトのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	PlasmaScourgeTag: {
+		DisplayName: "プラズマの災禍のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	RopeWhipTag: {
+		DisplayName: "ロープウィップのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	ScrapHookTag: {
+		DisplayName: "スクラップフックのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	SeaScourgeTag: {
+		DisplayName: "海の災禍のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	ShadowflameWhipTag: {
+		DisplayName: "シャドウフレイムウィップのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	TerraWhipTag: {
+		DisplayName: "テラウィップのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	TrueDurendalTag: {
+		DisplayName: "真・デュランダルのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	TrueDusksBiteBlastTag: {
+		DisplayName: "真・黄昏の牙・爆発タグ"
+		Description: "この敵に命中すると召喚の攻撃が爆発を起こす"
+	}
+
+	TrueDusksBiteTag: {
+		DisplayName: "真・黄昏の牙のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	WeaverWhipTag: {
+		DisplayName: "ウィーバーのウィップのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	GetFixedPlayer: {
+		DisplayName: "修理済み"
+		Description: "修理されたな、ボーイ"
+	}
+
+	GetFixed: {
+		Description: "この敵はより多くのダメージを受け、持続ダメージ状態"
+		DisplayName: "修理済み"
+	}
+
+	LunarFlames: {
+		DisplayName: "月の炎"
+		Description: "持続ダメージを受けている"
+	}
+
+	Bloodburn: {
+		DisplayName: "ブラッドバーン"
+		Description: "持続ダメージを受けている"
+	}
+
+	GleamingWard: {
+		DisplayName: "煌めく結界"
+		Description: "ライフ回復速度が増進し被ダメージが減少"
+	}
+
+	SummitTag: {
+		DisplayName: "頂点のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	GaleHaste: {
+		DisplayName: "疾風の迅速"
+		Description: "近接速度と移動速度が上昇"
+	}
+
+	Throngled: {
+		DisplayName: "スロングルド"
+		Description: "スロングルドになる方法は一つだけ"
+	}
+
+	Revealed: {
+		DisplayName: "露見"
+		Description: "敵が発光している"
+	}
+
+	Nerfed: {
+		DisplayName: "弱体化"
+		Description: "ナーフするか、しないか！"
+	}
+
+	BeetleDartDef: {
+		DisplayName: "ダートディフェンス"
+		Description: "被ダメージをわずかに減少"
+	}
+
+	Scald: {
+		DisplayName: "スコールド"
+		Description: "持続ダメージを受けている"
+	}
+
+	Hyperflame: {
+		DisplayName: "ハイパーフレイム"
+		Description: "持続ダメージを受けている"
+	}
+
+	StarBoost: {
+		DisplayName: "スターブースト"
+		Description: "与えるダメージと防御力が上昇"
+	}
+
+	GenesisCharge: {
+		DisplayName: "ジェネシスチャージ"
+		Description: "ジェネシスキャノンのエネルギービームが強化！"
+	}
+
+	BladedChainTag: {
+		DisplayName: "刃付きの鎖のタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	CoraltipTag: {
+		Description: "この敵に対して召喚の攻撃が強化"
+		DisplayName: "コーラルチップのタグ"
+	}
+
+	FellTentacleTag: {
+		Description: "この敵に対して召喚の攻撃が強化"
+		DisplayName: "フェルテンタクルのタグ"
+	}
+
+	LuminousLasherTag: {
+		DisplayName: "ルミナスラッシャーのタグ"
+		Description: "この敵に対して召喚の攻撃が強化"
+	}
+
+	WhitecapTag: {
+		Description: "この敵に対して召喚の攻撃が強化"
+		DisplayName: "ホワイトキャップのタグ"
+	}
+
+	FeatherFlayerTag: {
+		Description: "この敵に対して召喚の攻撃が強化"
+		DisplayName: "フェザーフレイヤーのタグ"
+	}
+
+	ChargedLashTag: {
+		Description: "この敵に対して召喚の攻撃が強化"
+		DisplayName: "帯電コードのタグ"
+	}
+
+	AegisWard: {
+		DisplayName: "イージスの守り"
+		Description: "防御力が上昇"
+	}
+
+	RainbowSlimeBuff: {
+		DisplayName: "レインボースライム"
+		Description: "ハイパーな小さなスライムがあなたのために戦う"
+	}
+
+	HoppinJackBuff: {
+		DisplayName: "ホッピン・ジャック"
+		Description: "ホッピン・ジャックがあなたのために戦う"
+	}
+
+	GraniteBuff: {
+		DisplayName: "グラナイトガーディアン"
+		Description: "グラナイトセンチネルがあなたのために戦う"
+	}
+
+	TwinkleBuff: {
+		DisplayName: "トゥインクル"
+		Description: "小さな星があなたのために戦う"
+	}
+
+	NatureBuff: {
+		DisplayName: "自然の精霊"
+		Description: "自然の精霊があなたを守る"
+	}
+
+	WingBuff: {
+		DisplayName: "鳥の支援"
+		Description: "羽ある仲間が上空から敵を攻撃"
+	}
+
+	RockBuff: {
+		DisplayName: "ストーンゴーレム"
+		Description: "岩と石があなたのために戦う"
+	}
+
+	MirrorBuff: {
+		DisplayName: "虚無の幻影"
+		Description: "強力な幻影があなたを守る"
+	}
+
+	StarWriterBuff: {
+		DisplayName: "星の創世"
+		Description: "星々そのものがあなたのために戦う"
+	}
+}
+
+Items: {
+	CommanderBadge: {
+		DisplayName: "スターコマンドのバッジ"
+		Tooltip:
+			'''
+			召喚ダメージとノックバックが15%増加
+			召喚できるセントリーの数が2体増える
+			「スターコマンドに苦情を出したいってこと？」
+			'''
+	}
+
+	DemomanPack: {
+		DisplayName: "爆弾魔のパック"
+		Tooltip:
+			'''
+			33%の確率でランチャーが弾薬を消費しない
+			爆発物の反動ダメージを33%軽減
+			「良い爆弾魔の条件とは？」
+			'''
+	}
+
+	DirePoint: {
+		DisplayName: "ダイアポイント"
+		Tooltip:
+			'''
+			槍と短剣のクリティカル率とノックバックが20%増加
+			「鋭すぎて見るだけで自分を刺せそう」
+			'''
+	}
+
+	FlameTank: {
+		DisplayName: "フレイムタンク"
+		Tooltip:
+			'''
+			炎ダメージが10%増加
+			炎の速度が20%上昇
+			50%の確率で火炎放射器が弾薬を消費しない
+			'''
+	}
+
+	FuelTank: {
+		DisplayName: "フューエルタンク"
+		Tooltip: "33%の確率で火炎放射器が弾薬を消費しない"
+	}
+
+	HeavyWarhead: {
+		DisplayName: "ヘビーワーヘッド"
+		Tooltip:
+			'''
+			ロケットダメージが10%増加
+			ロケットのノックバックが20%上昇
+			'''
+	}
+
+	NuclearPack: {
+		DisplayName: "ニュークリアパック"
+		Tooltip:
+			'''
+			ロケットダメージが10%増加
+			ロケットのノックバックが20%上昇
+			33%の確率でランチャーが弾薬を消費しない
+			爆発物の反動ダメージを67%軽減
+			「ほとんど天国…」
+			'''
+	}
+
+	ShiningPoint: {
+		DisplayName: "シャイニングポイント"
+		Tooltip:
+			'''
+			槍と短剣のクリティカル率とノックバックが10%上昇
+			「おお、キラキラ！」
+			'''
+	}
+
+	SolarEmblem: {
+		DisplayName: "太陽の紋章"
+		Tooltip:
+			'''
+			近接ダメージが16%増加
+			近接速度が5%上昇
+			'''
+	}
+
+	StarGauntlet: {
+		DisplayName: "星のガントレット"
+		Tooltip:
+			'''
+			召喚ダメージと近接攻撃速度が12%上昇
+			鞭の攻撃範囲とノックバックが20%増加
+			鞭のタグは敵の防御力を低下させる
+			近接武器のオートスイングを有効化
+			「敵をスターストラックにしよう！」
+			'''
+	}
+
+	AncientKylie: {
+		DisplayName: "古代のカイリー"
+		Tooltip:
+			'''
+			まれに強力な禁断のカイリーを追加で投げる
+			禁断のカイリーを投げる確率はクリティカル率で上昇
+			「オージー！オージー！オージー！オイ！オイ！オイ！」
+			'''
+	}
+
+	Antlerang: {
+		DisplayName: "アントラーラン"
+		Tooltip:
+			'''
+			角で作られたヴァラリを投げ、命中時に戻らず敵を貫通する
+			最初の3回のヒットで最もダメージを与える
+			同時に最大2本まで展開可能
+			「Don't Starve の引用はなし？」
+			'''
+	}
+
+	BlazingDisc: {
+		DisplayName: "ブレイジングディスク"
+		Tooltip:
+			'''
+			プレースホルダー
+			「このホイール、アツすぎ！」
+			'''
+		TooltipNormal: "戻る前に追加で敵1体に命中"
+		TooltipRemix: "戻らず命中した敵を貫通"
+	}
+
+	ChlorothornChakram: {
+		DisplayName: "クロロソーンチャクラム"
+		Tooltip: "命中時にソーンチャクラムを放つ"
+	}
+
+	Cosmicutter: {
+		DisplayName: "コズミカッター"
+		Tooltip:
+			'''
+			同時に最大4枚まで展開可能
+			チャネリングで戻る前にその場に留め、ダメージとサイズを増加
+			「全ての敵も…現実の綻びも切り裂け」
+			'''
+	}
+
+	CreeperDisc: {
+		DisplayName: "クリーパーディスク"
+		Tooltip: "「気持ち悪い、でも創造的」"
+	}
+
+	Divinity: {
+		DisplayName: "ディヴィニティ"
+		Tooltip:
+			'''
+			無制限にディヴィニティディスクを投げる
+			戻る代わりに一定間隔でディバインストームを発動
+			'''
+	}
+
+	GlaiveGauntlet: {
+		DisplayName: "グレイヴガントレット"
+		Tooltip: "近くの敵へ向かい敵同士の間で跳弾しようとするグレイヴを放つ"
+	}
+
+	GlaiveGauntletMK2: {
+		DisplayName: "グレイヴガントレットMK2"
+		Tooltip:
+			'''
+			近くの敵へ向かい敵同士の間で跳弾しようとするグレイヴを放つ
+			「多重物体高等跳弾テクノロジーで強化！」
+			'''
+	}
+
+	Monsoon: {
+		DisplayName: "モンスーン"
+		Tooltip: "戻る前に短時間その場で回転する"
+	}
+
+	ScaleShredder: {
+		DisplayName: "スケールシュレッダー"
+		Tooltip:
+			'''
+			少量の防御力を無視し、命中時に戻らず敵を貫通
+			「致命的な機転…」
+			'''
+	}
+
+	TwinFlares: {
+		DisplayName: "ツインフレア"
+		Tooltip:
+			'''
+			一度に2つのチャクラムを投げる
+			「飛んでくのを見るのは楽しい…投げてる側ならね」
+			'''
+	}
+
+	BFR8000: {
+		DisplayName: "B.F.R. 8000"
+		Tooltip:
+			'''
+			3点バースト
+			最初の1発のみ弾薬を消費
+			「ビッグな連射装置8000は全ての敵をズタズタにすることを100%保証」
+			'''
+	}
+
+	CandyCaneBow: {
+		DisplayName: "キャンディケーンボウ"
+		Tooltip:
+			'''
+			木の矢をフレイミングアローに変換
+			33%の確率で弾薬を消費しない
+			「彼はミスター・グリーンクリスマス、ミスター・サン…」
+			'''
+	}
+
+	CoralCrossbow: {
+		DisplayName: "コーラルクロスボウ"
+		Tooltip: ""
+	}
+
+	CthulhusGaze: {
+		DisplayName: "クトゥルフの凝視"
+		Tooltip:
+			'''
+			木の矢を旧支配者の矢に変換し、わずかにカーソルや敵へ曲がり、命中時に幻影の目を召喚
+			最も近い敵に幻影の矢を発射
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	EnergyRepeater: {
+		DisplayName: "エナジーリピーター"
+		Tooltip:
+			'''
+			プレースホルダー
+			「矢は次世代へ！」
+			'''
+		TooltipNormal:
+			'''
+			木の矢をチャージアローに変換
+			5点バースト
+			最初の1発のみ弾薬を消費
+			'''
+		TooltipRemix:
+			'''
+			木の矢をチャージドアローに変換
+			3点バースト
+			最初の1発のみ弾薬を消費
+			'''
+	}
+
+	Junglefury: {
+		DisplayName: "ジャングルフューリー"
+		Tooltip:
+			'''
+			3点バースト
+			33%の確率で弾薬を消費しない
+			「大自然の怒りを解き放て」
+			'''
+	}
+
+	MechanizedBow: {
+		DisplayName: "メカナイズボウ"
+		Tooltip: "プレースホルダー"
+		TooltipNormal: "使い続けるほど発射速度が上昇"
+		TooltipRemix:
+			'''
+			使い続けるほど発射速度が上昇
+			50%の確率で弾薬を消費しない
+			'''
+	}
+
+	Mooncrescent: {
+		DisplayName: "ムーンクレセント"
+		Tooltip: "木の矢をナイトアローに変換"
+	}
+
+	Omega: {
+		DisplayName: "オメガ"
+		Tooltip: "75%の確率で弾薬を消費しない"
+	}
+
+	OvergrownCrossbow: {
+		DisplayName: "繁茂のクロスボウ"
+		Tooltip: "木の矢を毒の矢に変換することがある"
+	}
+
+	PillagingCrossbow: {
+		DisplayName: "略奪のクロスボウ"
+		Tooltip:
+			'''
+			木の矢をフレイミングアローに変換
+			まれに略奪の矢を発射
+			'''
+	}
+
+	Plasmcaster: {
+		DisplayName: "プラズムキャスター"
+		Tooltip:
+			'''
+			弾薬を渦を生むプラズムボルトに変換
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	Sandblast: {
+		DisplayName: "サンドブラスト"
+		Tooltip:
+			'''
+			弾薬を強力な砂のミサイルに変換
+			「それでだなイワン…」
+			'''
+	}
+
+	SkullBow: {
+		DisplayName: "スカルボウ"
+		Tooltip:
+			'''
+			骨の矢も同時に発射することがある
+			「死からの復活」
+			'''
+	}
+
+	TerraBow: {
+		DisplayName: "テラボウ"
+		Tooltip:
+			'''
+			木の矢をテラの矢に変換
+			追加でテラの矢を2本発射
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	TrueHallowedRepeater: {
+		DisplayName: "真・神聖な機械弓"
+		Tooltip:
+			'''
+			一定間隔でハロウドボルトを発射
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	TrueMooncrescent: {
+		DisplayName: "真・ムーンクレセント"
+		Tooltip:
+			'''
+			弾薬を消費せずにナイトアローを発射
+			まれに強力なミッドナイトアローを発射
+			ミッドナイトアローの発射確率はクリティカル率で上昇
+			'''
+	}
+
+	AssassinsBlowgun: {
+		DisplayName: "アサシンのブロウガン"
+		Tooltip: "「静かに、しかし致命的」"
+	}
+
+	Bloodletter: {
+		DisplayName: "ブラッドレター"
+		Tooltip:
+			'''
+			2点バースト
+			最初の1発のみ弾薬を消費
+			'''
+	}
+
+	BottomlessDartMagazine: {
+		DisplayName: "底なしダートマガジン"
+		Tooltip: "「…そして無限のダートメガパックを追加して、どんな任務にも備えよう」"
+	}
+
+	CorruptBuster: {
+		DisplayName: "コラプトバスター"
+		Tooltip: "ダートを拡散発射"
+	}
+
+	DarkmoonGauntlet: {
+		DisplayName: "ダークムーンガントレット"
+		Tooltip:
+			'''
+			75%の確率で弾薬を消費しない
+			「月の裏側の幻影エネルギーで過給」
+			'''
+	}
+
+	DartlingGun: {
+		DisplayName: "ダートリングガン"
+		Tooltip:
+			'''
+			50%の確率で弾薬を消費しない
+			「ヤタタタタ…」
+			'''
+	}
+
+	DartMitt: {
+		DisplayName: "ダートミット"
+		Tooltip:
+			'''
+			20%の確率で弾薬を消費しない
+			「風船割りに良さそう」
+			'''
+	}
+
+	Dart: {
+		DisplayName: "ダート"
+		Tooltip: ""
+	}
+
+	Fireblaster: {
+		DisplayName: "ファイアブラスター"
+		Tooltip: "弾薬を焼夷ダートに変換"
+	}
+
+	GildedDart: {
+		DisplayName: "ギルデッドダート"
+		Tooltip:
+			'''
+			敵を倒すとドロップ金額が増える
+			「チャリン、チャリン、チャリンチャリン！」
+			'''
+	}
+
+	IncendiaryDart: {
+		DisplayName: "焼夷ダート"
+		Tooltip: "敵を発火させ、命中時に爆発"
+	}
+
+	LuminiteDart: {
+		DisplayName: "ルミナイトダート"
+		Tooltip:
+			'''
+			壁を貫通して飛行
+			敵を検知すると進路を変えてエネルギーボルトに変化
+			「何回死んだ？こっちが落ち込んでくるよ」
+			'''
+	}
+
+	NanoDart: {
+		DisplayName: "ナノダート"
+		Tooltip:
+			'''
+			混乱を与え敵の防御力を大幅に無視する
+			「ナノマシンだ、息子よ」
+			'''
+	}
+
+	NovaCarbine: {
+		DisplayName: "ノヴァカービン"
+		Tooltip:
+			'''
+			3点バースト
+			最初の1発のみ弾薬を消費
+			まれにルミナイトダートも発射
+			「サイバーコマンドーの本気を見せてやろう」
+			'''
+	}
+
+	Predator: {
+		DisplayName: "プレデター"
+		Tooltip:
+			'''
+			発射したダートに、命中時に追加のプレデターダートを生成する能力を付与
+			「どこへ行った？」
+			'''
+	}
+
+	SuperTrapGun: {
+		DisplayName: "スーパー・トラップガン"
+		Tooltip:
+			'''
+			毒・ヴェノムダートを消費しない
+			弾切れ時でも毒ダートを発射可能
+			種を毒ダートに変換
+			'''
+	}
+
+	TrapCannon: {
+		DisplayName: "トラップキャノン"
+		Tooltip: "40%の確率で毒ダートを消費しない確率が"
+	}
+
+	TribalGlove: {
+		DisplayName: "トライバルグローブ"
+		Tooltip:
+			'''
+			ダートを拡散投擲
+			防御力を20ポイント無視
+			「ダート銃器を捨てて猿に戻れ」
+			'''
+	}
+
+	VenomDart: {
+		DisplayName: "ヴェノムダート"
+		Tooltip: "対象に酸性毒を付与"
+	}
+
+	Avalanche: {
+		DisplayName: "アバランチ"
+		Tooltip:
+			'''
+			振るほどに大きく強力になる
+			「このフレイルは雪冗談じゃない」
+			'''
+	}
+
+	BeetlesBoulder: {
+		DisplayName: "ビートルの大岩"
+		Tooltip:
+			'''
+			強力な巨岩を発射することがある
+			「岩より良いもの？そりゃ鎖付きの岩だろ！」
+			'''
+	}
+
+	ChainKunai: {
+		DisplayName: "チェインクナイ"
+		Tooltip: "「クナァァイ！！！」"
+	}
+
+	Deathspin: {
+		DisplayName: "デススピン"
+		Tooltip:
+			'''
+			プライムの腕がフレイルを周回し追加ダメージを与える
+			「回して勝て」
+			'''
+	}
+
+	DungeonsRavager: {
+		DisplayName: "ダンジョンの蹂躙者"
+		Tooltip: "強化されたスピン攻撃を持ち、射程が長く壁越しに命中可能"
+	}
+
+	FungiFlail: {
+		DisplayName: "ファンギフレイル"
+		Tooltip: ""
+	}
+
+	Judgement: {
+		DisplayName: "ジャッジメント"
+		Tooltip: "「正義の槌は強大な力で振り下ろされる」"
+	}
+
+	LittleSnatcher: {
+		DisplayName: "リトルスナッチャー"
+		Tooltip:
+			'''
+			戻る前に最大2体の敵に命中
+			「そこまで小さくは…ない…」
+			'''
+	}
+
+	MoonFist: {
+		DisplayName: "ムーンフィスト"
+		Tooltip:
+			'''
+			命中時に敵のノックバック耐性を大幅に減少
+			「ムーンロードのパンチってどれだけ強いんだ？」
+			'''
+	}
+
+	RockRope: {
+		DisplayName: "ロープ付きの岩"
+		Tooltip: ""
+	}
+
+	ShellSmasher: {
+		DisplayName: "シェルスマッシャー"
+		Tooltip: "一部の防御力を無視"
+	}
+
+	Skelefist: {
+		DisplayName: "スケルフィスト"
+		Tooltip: "「部屋の向こう側から殴るのに最適」"
+	}
+
+	SkelevicePrime: {
+		DisplayName: "スケルバイス・プライム"
+		Tooltip: "「あなたのプライムは期限切れです！」"
+	}
+
+	SunsRage: {
+		DisplayName: "太陽の憤怒"
+		Tooltip: "「凝縮した星の力で道を阻む者を蒸発させよ」"
+	}
+
+	TameTrapper: {
+		DisplayName: "テイムトラッパー"
+		Tooltip:
+			'''
+			敵に命中してもトラッパーは強制帰還しない
+			「いい子だ、食虫植物くん！」
+			'''
+	}
+
+	Thornball: {
+		DisplayName: "ソーンボール"
+		Tooltip:
+			'''
+			敵を毒にすることがある
+			「ひまわりと間違えないで…」
+			'''
+	}
+
+	Bloodboil: {
+		DisplayName: "ブラッドボイル"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を30無視する
+			炎は液体内にも侵入可能
+			'''
+	}
+
+	BoneSinger: {
+		DisplayName: "ボーンシンガー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			炎は液体内にも侵入可能
+			'''
+	}
+
+	BottomlessGelTank: {
+		DisplayName: "底なしのジェルタンク"
+		Tooltip:
+			'''
+			火炎放射器に無限のジェル供給を提供
+			「燃やすと楽しいが、食べるのはダメ！」
+			'''
+	}
+
+	CursedFlamer: {
+		DisplayName: "カースドフレイマー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			呪炎は液体内にも侵入可能
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	DistortionAfterburner: {
+		DisplayName: "ディストーションアフターバーナー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を40無視する
+			炎は液体内にも侵入可能
+			まれにグリークファイアを発射
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	Frostbite: {
+		DisplayName: "フロストバイト"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			炎は液体内にも侵入可能
+			「氷のようにホット！」
+			'''
+	}
+
+	GelFlamer: {
+		DisplayName: "ジェルフレイマー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を10無視する
+			'''
+	}
+
+	Hellfire: {
+		DisplayName: "ハデスインフェルノ"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を10無視する
+			炎は液体内にも侵入可能
+			'''
+	}
+
+	IchorSpray: {
+		DisplayName: "霊液スプレー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を5無視する
+			敵の防御力を減少させる霊液の蒸気を噴射
+			蒸気は液体内や壁を貫通
+			20%の確率で弾薬を消費しない
+			「絶対に嫌悪する、だが効果は抜群だ」
+			'''
+	}
+
+	JunglesBane: {
+		DisplayName: "ジャングルの災い"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			炎がタイルに付着して短時間残留
+			「朝のナパームの匂いは最高だ…」
+			'''
+	}
+
+	LihzahrdFlameGun: {
+		DisplayName: "リザードフレイムガン"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	Moonrazer: {
+		DisplayName: "ムーンレーザー"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を25無視する
+			炎は液体内へ侵入しブロックを無視
+			50%の確率で弾薬を消費しない
+			「月面で火を起こすなんてできないよ」
+			'''
+	}
+
+	Waterflame: {
+		DisplayName: "ウォーターフレイム"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			炎は液体内にも侵入可能
+			16%の確率で弾薬を消費しない
+			「望まぬ注目への対処にうってつけ」
+			'''
+	}
+
+	Wildfire: {
+		DisplayName: "ワイルドファイア"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を10無視する
+			「驚くほど耐火性の木材製」
+			'''
+	}
+
+	Antimatter: {
+		DisplayName: "反物質"
+		Tooltip:
+			'''
+			マスケット弾をルミナイト弾に変換
+			チャージで威力を大幅に強化可能
+			フルチャージで強力な反物質弾を発射
+			20%の確率で弾薬を消費しない
+			右クリックでズームアウト
+			「礼儀正しく。効率的に。出会う全員を倒す計画を持て」
+			'''
+	}
+
+	Captain: {
+		DisplayName: "キャプテン"
+		Tooltip:
+			'''
+			25%の確率で弾薬を消費しない
+			まれにキャノンボールを発射
+			「ヤー・ハー・フィドゥルディー・ディー！」
+			'''
+	}
+
+	CryoclockCarbine: {
+		DisplayName: "クライオクロックカービン"
+		Tooltip:
+			'''
+			3点バースト
+			使うほどに遅くなるが強力に
+			最遅時に冷たい火花を放つ
+			'''
+	}
+
+	Deadeye: {
+		DisplayName: "デッドアイ"
+		Tooltip: "マスケット弾を金の弾丸に変換することがある"
+	}
+
+	EdgeBlaster: {
+		DisplayName: "エッジブラスター"
+		Tooltip: "「オウ、エッジ！」"
+	}
+
+	QuickDraw: {
+		DisplayName: "クイックドロー"
+		Tooltip:
+			'''
+			6点バースト
+			最初の1発のみ弾薬を消費
+			「真昼だ」
+			'''
+	}
+
+	ShroomiteGrenadier: {
+		DisplayName: "シュルーマイト・グレネーディア"
+		Tooltip:
+			'''
+			右クリックでグレネードを発射しロケット弾を弾薬として使用
+			25%の確率で弾薬を消費しない
+			「フラー！」
+			'''
+	}
+
+	Stormdiver: {
+		DisplayName: "ストームダイバー"
+		Tooltip:
+			'''
+			チャージして命中精度と威力を向上可能
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	SuperShotgun: {
+		DisplayName: "スーパーショットガン"
+		Tooltip:
+			'''
+			広範囲に弾丸をばら撒いて発射
+			「リップ・アンド・ティア！」
+			'''
+	}
+
+	TommyGun: {
+		DisplayName: "トミーガン"
+		Tooltip: "「お前の小さな相棒だ」"
+	}
+
+	TwinPulsar: {
+		DisplayName: "ツインパルサー"
+		Tooltip:
+			'''
+			弾薬を貫通レーザー弾に変換
+			右クリックで火炎放射器攻撃（ジェルを弾薬として使用）
+			「半分の人生」
+			'''
+	}
+
+	BeggarsBazooka: {
+		DisplayName: "ベガーズ・バズーカ"
+		Tooltip:
+			'''
+			3点バースト
+			命中精度が著しく低い
+			「残念ながらロケットジャンプ不可」
+			'''
+	}
+
+	BlackholeBlaster: {
+		DisplayName: "ブラックホール・ブラスター"
+		Tooltip:
+			'''
+			4点バースト
+			最初の1発のみ弾薬を消費
+			「とにかくドッカンドッカンだ」
+			'''
+	}
+
+	BoneBlasta: {
+		DisplayName: "ボーンブラスター"
+		Tooltip: "敵の防御力を大きく無視する"
+	}
+
+	Bunzooka: {
+		DisplayName: "バンズーカ"
+		Tooltip:
+			'''
+			反動ダメージが軽減
+			まれに爆発するウサギを発射
+			爆発ウサギの発射確率はクリティカル率で上昇
+			「ウサギを殺すのは残酷。それが全てだ」
+			'''
+	}
+
+	Firestorm: {
+		DisplayName: "ファイアストーム"
+		Tooltip:
+			'''
+			25%の確率で弾薬を消費しない
+			発射したロケットで敵を発火
+			「ロケット撃つ、いいね？」
+			'''
+	}
+
+	HandCannon: {
+		DisplayName: "ハンドキャノン"
+		Tooltip:
+			'''
+			弾薬をキャノン弾に変換
+			「お前は海賊だ！」
+			'''
+	}
+
+	PrimeCannon: {
+		DisplayName: "プライムキャノン"
+		Tooltip:
+			'''
+			弾薬をプライムボムに変換
+			「アリーナを爆破しないよう気を付けて」
+			'''
+	}
+
+	Radiance: {
+		DisplayName: "レイディアンス"
+		Tooltip: "永劫の爆発を引き起こすレイディアンスロケットを発射"
+	}
+
+	Riptide: {
+		DisplayName: "リップタイド"
+		Tooltip: "爆発前に敵を貫通できる高速ロケットを発射"
+	}
+
+	SporeBomber: {
+		DisplayName: "スポアボンバー"
+		Tooltip: ""
+	}
+
+	Tsar: {
+		DisplayName: "ツァーリ"
+		Tooltip:
+			'''
+			高い破壊力を持つミニ爆弾を発射
+			直撃で追加ダメージ
+			飛行中の爆弾も追加ダメージを獲得
+			「我は死なり、世界の破壊者なり」
+			'''
+	}
+
+	CrystalCarbine: {
+		DisplayName: "クリスタルカービン"
+		Tooltip:
+			'''
+			壁で反射するビームを発射
+			「スライムすら撃ち抜けるエレガンス」
+			'''
+	}
+
+	DeathLaser: {
+		DisplayName: "デスレーザー"
+		Tooltip: ""
+	}
+
+	Deathray: {
+		DisplayName: "デスレイ"
+		Tooltip:
+			'''
+			全てを消し飛ばす巨大レーザーを溜め撃ち
+			「ヨォ」
+			'''
+	}
+
+	FireBeamer: {
+		DisplayName: "ファイアビーマー"
+		Tooltip: "命中時に爆発するビームを発射"
+	}
+
+	Partycandle: {
+		DisplayName: "パーティキャンドル"
+		Tooltip: "「花火！」"
+	}
+
+	PhaserLaser: {
+		DisplayName: "フェーザー・レーザー"
+		Tooltip: "「勝てないなら仲間になれ」"
+	}
+
+	Shockgun: {
+		DisplayName: "ショックガン"
+		Tooltip: "「なかなかショッキングな発明」"
+	}
+
+	SolarBeam: {
+		DisplayName: "ソーラービーム"
+		Tooltip: "壊滅的なエネルギー弾を溜め撃ち"
+	}
+
+	SparkTaser: {
+		DisplayName: "スパークテイザー"
+		Tooltip: "近距離の火花を高速連射"
+	}
+
+	Wiinator: {
+		DisplayName: "ウィーネーター"
+		Tooltip: "「Wii は暴力に訴える」"
+	}
+
+	EvilEye: {
+		DisplayName: "邪眼"
+		Tooltip:
+			'''
+			短射程ビームを発射し、追加ダメージを与えるデーモンアイを召喚
+			「ビッ、ビッ。見張ってる！」
+			'''
+	}
+
+	GleamingBall: {
+		DisplayName: "グリーミングボール"
+		Tooltip: "敵を害し味方を守るオーラをチャネリング"
+	}
+
+	GrandCrystal: {
+		DisplayName: "グランドクリスタル"
+		Tooltip:
+			'''
+			揮発性ジェルを放ち破片へ砕けるクリスタルをチャネリング
+			「クリスタルに栄光あれ！」
+			'''
+	}
+
+	Honeyhive: {
+		DisplayName: "ハニーハイブ"
+		Tooltip:
+			'''
+			跳ね回る蜂蜜の球体を投射
+			敵にダメージを与えると最も体力の低いプレイヤーを回復
+			この武器の使用や回復効果でライフ回復速度が一時的に上昇
+			「銀河で最も甘い蜂蜜が含まれている」
+			'''
+	}
+
+	IcicleFan: {
+		DisplayName: "アイシクルファン"
+		Tooltip: "突き刺さるつららを連射"
+	}
+
+	PossessedDagger: {
+		DisplayName: "ポゼッスドダガー"
+		Tooltip: "霊的な敵追跡短剣"
+	}
+
+	PossessedTorch: {
+		DisplayName: "ポゼッスドトーチ"
+		Tooltip: "たいまつの神のたいまつを召喚し、近くの敵を攻撃"
+	}
+
+	SphereSong: {
+		DisplayName: "スフィアソング"
+		Tooltip: "「敵を攻撃する感動的なメロディーを奏でよう」"
+	}
+
+	ViciousHarp: {
+		DisplayName: "ヴィシャスハープ"
+		Tooltip:
+			'''
+			攻撃で敵の接触ダメージを一時的に減少
+			「神秘的で不吉、まるで絶えずあざ笑っているかのよう…」
+			'''
+	}
+
+	VileBreach: {
+		DisplayName: "ヴァイルブリーチ"
+		Tooltip:
+			'''
+			伸縮・弧状軌道のフレイル頭部を振り回す
+			「深淵の蟲の怒りで打ち据えよ」
+			'''
+	}
+
+	BallaStaff: {
+		DisplayName: "バーラスタッフ"
+		Tooltip:
+			'''
+			小型のスノーバーラを召喚してあなたのために戦わせる
+			「雪合戦で全勝だ！」
+			'''
+	}
+
+	GuardiansGrasp: {
+		DisplayName: "ガーディアンの掌握"
+		Tooltip:
+			'''
+			守護者の頭蓋骨を召喚し敵にスピン攻撃
+			タグダメージが25%減少するが素早く攻撃
+			「俺がスケルトロンだ！」
+			'''
+	}
+
+	JungleCreeperStaff: {
+		DisplayName: "ジャングルクリーパースタッフ"
+		Tooltip: "小型のジャングルクリーパーを召喚してあなたのために戦わせる"
+	}
+
+	ShadowflameStaff: {
+		DisplayName: "シャドウフレイムスタッフ"
+		Tooltip: "シャドウフレイムの幻影を召喚してあなたのために戦わせる"
+	}
+
+	SpiritStaff: {
+		DisplayName: "エクトプラズムスタッフ"
+		Tooltip: "ダンジョンスピリットを召喚してあなたのために戦わせる"
+	}
+
+	Terraultima: {
+		DisplayName: "テラウルティマ"
+		Tooltip:
+			'''
+			ルミナイトテラプリズマを召喚してあなたのために戦わせる
+			剣のように振って敵にダメージを与えてフォーカス可能
+			「ルミナイトで再鍛造・強化されたテラプリズマはより強力になった」
+			'''
+	}
+
+	AccursedTrident: {
+		DisplayName: "呪われしトライデント"
+		Tooltip:
+			'''
+			トライデントが敵を貫通し、追加ダメージを与える
+			命中時に雷の爆発を起こすことがある
+			「沼の汚れた深淵に汚されても、このトライデントの魔力は健在」
+			'''
+	}
+
+	AncientSpiritCatalyst: {
+		DisplayName: "古代の精霊の触媒"
+		Tooltip:
+			'''
+			ほとんどのウォール・オブ・フレッシュの武器や紋章のクラフトに使用可能
+			「古代の強力なエネルギーに満ちている」
+			'''
+	}
+
+	BlocksHat: {
+		DisplayName: "ブロッククルセイダーの土ブロック"
+		Tooltip:
+			'''
+			「MOD開発者の物真似に最適！」
+			「今まで見た中で最も高価で—ファッショナブルな—土ブロック」
+			'''
+	}
+
+	BlocksPants: {
+		DisplayName: "ブロッククルセイダーの聖戦のすね当て"
+		Tooltip:
+			'''
+			「MOD開発者の物真似に最適！」
+			「この色違いの聖戦のすね当てが敵から救い出してくれるように…」
+			'''
+	}
+
+	BlocksShirt: {
+		DisplayName: "ブロッククルセイダーのノヴァアーマー"
+		Tooltip:
+			'''
+			「MOD開発者の物真似に最適！」
+			「最新のノヴァブランドファッション搭載！それでも木より防御力は低いが」
+			'''
+	}
+
+	BlocksWings: {
+		DisplayName: "ブロッククルセイダーのエクソブロック"
+		Tooltip:
+			'''
+			「MOD開発者の物真似に最適！」
+			飛行と落下速度軽減を可能にする
+			「職人の炉から直送のホログライダーテクノロジー搭載！」
+			'''
+	}
+
+	ChargedGranite: {
+		DisplayName: "帯電した花崗岩"
+		Tooltip: "「魔法のエネルギーが脈打っている」"
+	}
+
+	ForgottenHeroShards: {
+		DisplayName: "忘れられし英雄の欠片"
+		Tooltip:
+			'''
+			テラ武器のクラフトに使用
+			「古代の英雄の力を秘めている」
+			'''
+	}
+
+	GrandGrenadier: {
+		DisplayName: "グランド・グレナディアー"
+		Tooltip:
+			'''
+			銃剣で敵にダメージを与えられる
+			33%の確率で弾薬を消費しない
+			「シーモア、なぜ君のマスケット銃から煙が出ているんだ？」
+			'''
+	}
+
+	HolyHandGrenade: {
+		DisplayName: "神聖なグレネード"
+		Tooltip:
+			'''
+			敵のみを対象とした巨大で破壊的な聖なる爆発を生み出す
+			「汝の敵を粉々に吹き飛ばせ」
+			'''
+	}
+
+	LostWhip: {
+		DisplayName: "ロストウィップ"
+		Tooltip:
+			'''
+			適切な素材があればより優れたものに修復できる
+			「ジャングルで失われた鞭の古く破れた残骸」
+			'''
+	}
+
+	PhantasmalJewel: {
+		DisplayName: "幻影のジュエル"
+		Tooltip:
+			'''
+			ほとんどのムーンロード武器のクラフトに使用可能
+			「ムーンロードの力が結晶化したもの。偉大なる英雄にふさわしい見事な戦利品」
+			'''
+	}
+
+	PrismaticEssence: {
+		DisplayName: "プリズマエッセンス"
+		Tooltip:
+			'''
+			強力なプリズマ武器のクラフトに使用
+			「テラプリズマの力を宿している」
+			'''
+	}
+
+	SanguineDagger: {
+		DisplayName: "流血のダガー"
+		Tooltip: "「血に飢えている」"
+	}
+
+	SecondAmendment: {
+		DisplayName: "合衆国憲法修正第二条"
+		Tooltip:
+			'''
+			銃剣で敵にダメージを与えられる
+			20%の確率で弾薬を消費しない
+			「建国の父たちが意図した通りに...」
+			'''
+	}
+
+	ShroomiteHood: {
+		DisplayName: "退役シュルーマイト・フード"
+		Tooltip: "「かつてエリート軍事部隊が使用していた...」"
+	}
+
+	ShroomiteVisage: {
+		DisplayName: "シュルーマイト・ヴィサージュ"
+		Tooltip:
+			'''
+			遠距離ダメージが10%増加
+			遠距離クリティカル率が5%上昇
+			'''
+	}
+
+	ShroomiteVisor: {
+		DisplayName: "退役シュルーマイト・バイザー"
+		Tooltip: "「かつてエリート軍事部隊が使用していた...」"
+	}
+
+	SSSU: {
+		DisplayName: "スーパースター・ストーマー・ウルトラ"
+		Tooltip:
+			'''
+			3連射バースト
+			最初の弾のみが弾薬を消費
+			敵に命中時に流星雨をもたらす特殊な星を発射することがある
+			40%の確率で弾薬を消費しない
+			「こんなに小さいのに、一体どれだけの星を使うのか？」
+			'''
+	}
+
+	Terrasama: {
+		DisplayName: "テラサマ"
+		Tooltip:
+			'''
+			敵の防御力を綺麗に切り裂く一連の高速斬撃を放つ
+			「別名『大きな赤い剣のクリフォード』」
+			'''
+	}
+
+	Slimenobi: {
+		DisplayName: "スライムノビ"
+		Tooltip:
+			'''
+			弾む手裏剣を無制限に投擲
+			「長期間スライムに浸されたことで、この手裏剣は以前よりも強力になった...」
+			'''
+	}
+
+	CasterStaff: {
+		DisplayName: "キャスタースタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に向かって水球を撃つミニキャスターを召喚
+			キャスターはあなたから遠く離れると時々近くにテレポートする
+			「不気味で怖いスケルトン！」
+			'''
+	}
+
+	CerebralScepter: {
+		DisplayName: "セレブラルセプター"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			一時的にあなたのために戦うクリーパーを召喚するクリーパー・ブレインを召喚
+			「ビッグブレインタイムだ」
+			'''
+	}
+
+	CursedStaff: {
+		DisplayName: "呪いの杖"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと呪いの炎を噴出するクリンガーを召喚
+			'''
+	}
+
+	DestroyerUplink: {
+		DisplayName: "デストロイヤー・アップリンク"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			プローブが破壊する敵をマークするデストロイヤー・ドローンを呼び出す
+			「火力で遊ぶ時間だ！」
+			'''
+	}
+
+	EruptionStaff: {
+		DisplayName: "ヴァルカンスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと持続する炎を噴出する火山を召喚
+			「クラカタウ！」
+			'''
+	}
+
+	ForbiddenStaff: {
+		DisplayName: "禁断の杖"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵を退け攻撃する禁断の目を召喚
+			'''
+	}
+
+	IchorStaff: {
+		DisplayName: "霊液の杖"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に霊液の流れを撃つイコルスティッカーを召喚
+			'''
+	}
+
+	InvaderStaff: {
+		DisplayName: "スターダストインベーダースタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵にミニオンを撃つフロー・インベーダーを召喚
+			'''
+	}
+
+	JungleStaff: {
+		DisplayName: "ジャングルスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくと胞子爆弾を投げるジャングルの茂みを召喚
+			「ニ！」
+			'''
+	}
+
+	SoulStaff: {
+		DisplayName: "ソウルスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵にビームを撃つ魂の旋風を召喚
+			'''
+	}
+
+	TeslaWrench: {
+		DisplayName: "テスラレンチ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの全ての敵に電気のアークを発射するテスラタレットを召喚
+			50%のタグダメージと引き換えに素早く攻撃
+			'''
+	}
+
+	TotemStaff: {
+		DisplayName: "トーテムスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			プレイヤーをサポートし、呪術で敵を害するティキトーテムを召喚
+			'''
+	}
+
+	TwinkleStaff: {
+		DisplayName: "スタースピュースタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵が近づくときらめきを噴出するトゥインクル・ポッパーを召喚
+			'''
+	}
+
+	VengefulTorch: {
+		DisplayName: "復讐のたいまつ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に火の玉を撃つたいまつの神の復讐的顕現を召喚
+			'''
+	}
+
+	VindictiveTorch: {
+		DisplayName: "執念深いたいまつ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵に火の玉を撃つたいまつの神の執念深い顕現を召喚
+			'''
+	}
+
+	AdamantiteRapier: {
+		DisplayName: "アダマンタイトのレイピア"
+		Tooltip: ""
+	}
+
+	BoneRattler: {
+		DisplayName: "ボーンラトラー"
+		Tooltip:
+			'''
+			攻撃時にクロスボーンを発射
+			「俺の骨をガタガタ鳴らせ！」
+			'''
+	}
+
+	Bramblethorn: {
+		DisplayName: "ブランブルソーン"
+		Tooltip: "敵を毒状態にし、短距離の毒針を発射"
+	}
+
+	Carnage: {
+		DisplayName: "カーネイジ"
+		Tooltip: ""
+	}
+
+	Carnwennan: {
+		DisplayName: "カルンウェンナン"
+		Tooltip: "攻撃の度により長いリーチを持つ残像が飛び出す"
+	}
+
+	ChlorophyteRapier: {
+		DisplayName: "クロロファイトのレイピア"
+		Tooltip: "連続攻撃を繰り出し、胞子の雲を発射"
+	}
+
+	CobaltRapier: {
+		DisplayName: "コバルトのレイピア"
+		Tooltip: ""
+	}
+
+	EnchantedShortsword: {
+		DisplayName: "エンチャントショートソード"
+		Tooltip: "魔法のソードビームを撃つ"
+	}
+
+	FancyFoil: {
+		DisplayName: "ファンシーフォイル"
+		Tooltip:
+			'''
+			攻撃された敵は倒された際に一時的により多くのお金をドロップ
+			「ハロー！お金が大好きです！」
+			'''
+	}
+
+	Firebrand: {
+		DisplayName: "サウザンド"
+		Tooltip:
+			'''
+			敵を燃やし、時々地獄の炎で燃やす
+			「スライム vs 1000度のナイフ」
+			'''
+	}
+
+	GraniteGauntlet: {
+		DisplayName: "グラナイトガントレット"
+		Tooltip: "敵を殴り殺すことができる"
+	}
+
+	LilPokey: {
+		DisplayName: "リル・ポーキー"
+		Tooltip:
+			'''
+			凍傷を与える
+			「彼はアイシクル氏、彼は氷点下10度氏だ」
+			'''
+	}
+
+	MythrilRapier: {
+		DisplayName: "ミスリルのレイピア"
+		Tooltip: ""
+	}
+
+	NecroticDagger: {
+		DisplayName:死者のダガー"
+		Tooltip:
+			'''
+			真空波を前方に突き出す
+			ダメージを与えると追加のダガーが現れることがある
+			'''
+	}
+
+	OrichalcumRapier: {
+		DisplayName: "オリハルコンのレイピア"
+		Tooltip: ""
+	}
+
+	PalladiumRapier: {
+		DisplayName: "パラジウムのレイピア"
+		Tooltip: ""
+	}
+
+	PointyStick: {
+		DisplayName: "尖った棒"
+		Tooltip: "「茶色くて棒状」"
+	}
+
+	PowerBindings: {
+		DisplayName: "パワー・バインディング"
+		Tooltip: "「ここに立っている...！」"
+	}
+
+	RG24: {
+		DisplayName: "プロト-RG24"
+		Tooltip:
+			'''
+			エネルギー弾を発射
+			「最新の銃剣技術」
+			'''
+	}
+
+	ShadowsStabber: {
+		DisplayName: "シャドウスタッバー"
+		Tooltip: ""
+	}
+
+	SpookyStick: {
+		DisplayName: "不気味な棒"
+		Tooltip:
+			'''
+			ギリシア火薬を撃つことがある
+			「暗くて不気味」
+			'''
+	}
+
+	Starblazer: {
+		DisplayName: "スターブレイザー"
+		Tooltip: "「敵を貫く破壊の光の道を燃やし尽くせ！」"
+	}
+
+	TerraShortsword: {
+		DisplayName: "テラ・ショートソード"
+		Tooltip: "「テラブレードに代わるもう一つの優秀な選択肢」"
+	}
+
+	TitaniumRapier: {
+		DisplayName: "チタンのレイピア"
+		Tooltip: ""
+	}
+
+	ZenithShortsword: {
+		DisplayName: "ゼニス・ショートソード"
+		Tooltip: "「ゼニスの力をショートソードに注入したのは一体誰なのか」"
+	}
+
+	Drakanian: {
+		DisplayName: "ドラカニアン"
+		Tooltip: "「ドラコマイア騎士団の力で敵を打ち砕け！」"
+	}
+
+	FemurBreaker: {
+		DisplayName: "フェマーブレイカー"
+		Tooltip:
+			'''
+			攻撃時に骨の破片を発射
+			「羽根に値するもう一ラウンドへようこそ...」
+			'''
+	}
+
+	Gigazapper: {
+		DisplayName: "ギガザッパー"
+		Tooltip:
+			'''
+			あらゆるものを原子化できる強力なエネルギー槍
+			「別名『衝撃の槍』」
+			'''
+	}
+
+	GraniteGlaive: {
+		DisplayName: "グラナイトグレイブ"
+		Tooltip: ""
+	}
+
+	HeavensHalberd: {
+		DisplayName: "天の鉾"
+		Tooltip:
+			'''
+			敵を追跡するサイオニック槍頭を発射
+			「究極の鉾」
+			'''
+	}
+
+	LihzahrdSpear: {
+		DisplayName: "リザードのスピア"
+		Tooltip: "「槍トラップの槍」"
+	}
+
+	ShadowSpear: {
+		DisplayName: "シャドウスピア"
+		Tooltip: ""
+	}
+
+	Spearmint: {
+		DisplayName: "スピアミント"
+		Tooltip: "「ミントの爽やかさ！」"
+	}
+
+	StingOperator: {
+		DisplayName: "スティングオペレーター"
+		Tooltip: "敵を毒状態にし、短距離の毒針を発射"
+	}
+
+	AdamantiteStaff: {
+		DisplayName: "アダマンタイトの杖"
+		Tooltip: ""
+	}
+
+	AlloyStaff: {
+		DisplayName: "アロイスタッフ"
+		Tooltip: "不安定に魔力を解き放つ"
+	}
+
+	BorealisStaff: {
+		DisplayName: "ボレアリススタッフ"
+		Tooltip:
+			'''
+			命中時に遮蔽エネルギーを生成するボレアリスビームを発射
+			「武器化されたボレアリスを見るのは初回でも最後でもない」
+			'''
+	}
+
+	CobaltStaff: {
+		DisplayName: "コバルトの杖"
+		Tooltip: ""
+	}
+
+	ConduitRod: {
+		DisplayName: "コンジットロッド"
+		Tooltip: "エレクトロスフィアを生み出すことがある不安定な火花を撃つ"
+	}
+
+	CoralScepter: {
+		DisplayName: "コーラルセプター"
+		Tooltip: ""
+	}
+
+	CosmicWand: {
+		DisplayName: "コズミックワンド"
+		Tooltip: "「この杖の宇宙の力を侮ってはいけない」"
+	}
+
+	FinalFractalStaff: {
+		DisplayName: "ファイナルフラクタル"
+		Tooltip: ""
+	}
+
+	HallowedScepter: {
+		DisplayName: "ハロウセプター"
+		Tooltip: ""
+	}
+
+	Lunacy: {
+		DisplayName: "エルドリッチゲート"
+		Tooltip: "「ムーンロードの無限の力を予測不可能に導く」"
+	}
+
+	LunacyNew: {
+		DisplayName: "ルナシー"
+		Tooltip:
+			'''
+			狂気の崇拝者の魔法をランダムに詠唱
+			「炎か氷か、それとももっと酷いものか？」
+			'''
+	}
+
+	Midnight: {
+		DisplayName: "ミッドナイト"
+		Tooltip: ""
+	}
+
+	MythrilStaff: {
+		DisplayName: "ミスリルの杖"
+		Tooltip: ""
+	}
+
+	NebulousScepter: {
+		DisplayName: "ネビュラセプター"
+		Tooltip: ""
+	}
+
+	OrichalcumStaff: {
+		DisplayName: "オリハルコンの杖"
+		Tooltip: ""
+	}
+
+	PalladiumStaff: {
+		DisplayName: "パラジウムの杖"
+		Tooltip: ""
+	}
+
+	PrismaticStaff: {
+		DisplayName: "プリズマティックスタッフ"
+		Tooltip:
+			'''
+			宝石魔法の奔流を発射
+			「我らの力を結集せよ」
+			'''
+	}
+
+	Snowsplosion: {
+		DisplayName: "スノースプロージョン"
+		Tooltip:
+			'''
+			激しく跳ね回る爆発性の雪だるまを召喚
+			直撃を受けた敵は2回ダメージを受ける
+			「覚えておいて、家では試さないこと！」
+			'''
+	}
+
+	SporeScepter: {
+		DisplayName: "スポアセプター"
+		Tooltip: "分裂するジャングルの胞子を撃つ"
+	}
+
+	TerraStaff: {
+		DisplayName: "テラスタッフ"
+		Tooltip: ""
+	}
+
+	TitaniumStaff: {
+		DisplayName: "チタンの杖"
+		Tooltip: ""
+	}
+
+	TrueHallowedScepter: {
+		DisplayName: "真・ハロウセプター"
+		Tooltip: ""
+	}
+
+	TrueMidnight: {
+		DisplayName: "トゥルー・ミッドナイト"
+		Tooltip: ""
+	}
+
+	BeetleBlade: {
+		DisplayName: "甲虫の刃"
+		Tooltip:
+			'''
+			敵の防御力を大幅に無視する
+			敵を混乱させ、ノックバック耐性を剥奪することがある
+			ダメージを与えると一時的に耐久力と近接ステータスが上昇することがある
+			刃の強化により、ダメージと特殊効果が向上
+			'''
+	}
+
+	CoralCutter: {
+		DisplayName: "コーラル・カッター"
+		Tooltip: ""
+	}
+
+	Corsaerial: {
+		DisplayName: "コルセアリアル"
+		Tooltip:
+			'''
+			空中にいる時や十分に速く動いている時にダメージが増加
+			「空中海賊を志す者にとって素晴らしい武器の選択」
+			'''
+	}
+
+	PrismaticPhaseblade: {
+		DisplayName: "プリズマティック・フェーズブレード"
+		Tooltip:
+			'''
+			敵の防御力を10無視する
+			「高所からの使用が最適」
+			'''
+	}
+
+	PrismaticPhasesaber: {
+		DisplayName: "プリズマティック・フェーズセイバー"
+		Tooltip:
+			'''
+			右クリックでより遅い振りだが高ノックバックの衝撃波を放つ
+			「その力は2倍になった」
+			'''
+	}
+
+	Sabrewing: {
+		DisplayName: "セイバーウイング"
+		Tooltip:
+			'''
+			左クリックで回転、右クリックで投擲
+			空中にいる時や十分に速く動いている時にダメージが増加
+			両方のダメージボーナスがあり、さらに速く動くとダメージがさらに増加
+			持っている間移動速度が上昇
+			「空と星の災いとなれ！」
+			'''
+	}
+
+	SandstormScimitar: {
+		DisplayName: "砂嵐のシミター"
+		Tooltip:
+			'''
+			砂雲の爆風を発射することがある
+			「砂...ざらざらして粗く、イライラする...そしてどこにでもつく」
+			'''
+	}
+
+	Soladius: {
+		DisplayName: "ソラディウス"
+		Tooltip: "「汝の栄光の炎に誰も耐えられない！」"
+	}
+
+	SoulBreaker: {
+		DisplayName: "ソウルブレイカー"
+		Tooltip:
+			'''
+			無傷の敵により多くのダメージを与える
+			敵の防御力をある程度無視する
+			'Far more ruthless than its smaller cousin'
+			'''
+	}
+
+	Techblade: {
+		DisplayName: "テックブレード"
+		Tooltip: "振りながら火花を発射"
+	}
+
+	BeetleBuzz: {
+		DisplayName: "ビートル・バズ"
+		Tooltip: "敵を攻撃するカブトムシを召喚"
+	}
+
+	Boulderpult: {
+		DisplayName: "ボルダーパルト"
+		Tooltip:
+			'''
+			強力な岩石の爆風を放つ
+			「今度は彼らが岩に恐怖する番だ！」
+			'''
+	}
+
+	BurningSphere: {
+		DisplayName: "バーニングスフィア"
+		Tooltip: "地形を通り抜ける燃える球体を放つ"
+	}
+
+	Catapult: {
+		DisplayName: "カタパルト"
+		Tooltip: "小さな岩石の強力な爆風を放つ"
+	}
+
+	ChaosBall: {
+		DisplayName: "カオスボール"
+		Tooltip: "地形を通り抜けるカオスボールを放つ"
+	}
+
+	DustDevil: {
+		DisplayName: "ダストデビル"
+		Tooltip: "激しい砂の奔流を解き放つ"
+	}
+
+	LacewingsDance: {
+		DisplayName: "クサカゲロウの踊り"
+		Tooltip: "敵に突進するプリズムクサカゲロウを召喚"
+	}
+
+	LostTome: {
+		DisplayName: "ロストブック"
+		Tooltip: "緑と金の魔法の粒を撃つ"
+	}
+
+	PredictorPiercers: {
+		DisplayName: "プレディクターピアサー"
+		Tooltip: "遅延後に敵に向かって飛ぶ貫通ボルトを生成"
+	}
+
+	RazorLeaf: {
+		DisplayName: "レイザーリーフ"
+		Tooltip: "鋭い魔法の葉の連射を発射"
+	}
+
+	Redemption: {
+		DisplayName: "リデンプション"
+		Tooltip: "敵にダメージを与えると最も体力の低いプレイヤーを回復"
+	}
+
+	SoulBurst: {
+		DisplayName: "ソウルバースト"
+		Tooltip:
+			'''
+			魂の散弾を解き放つ
+			各色の魂には固有の属性がある
+			'''
+	}
+
+	SpectralBurst: {
+		DisplayName: "スペクトラルバースト"
+		Tooltip: "不規則な魂の爆発を全方向に解き放つ"
+	}
+
+	AncientChains: {
+		DisplayName: "エンシェントチェイン"
+		Tooltip:
+			'''
+			20召喚タグダメージ
+			召喚物は攻撃された敵に集中する
+			敵を攻撃してフレンドリーなゴーレムヘッドを召喚
+			「不気味...？」
+			'''
+	}
+
+	Aurora: {
+		DisplayName: "オーロラ"
+		Tooltip:
+			'''
+			15召喚タグダメージ
+			15%召喚タグクリティカル率
+			平均的な召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭の攻撃速度、防御力、ライフ自然回復を獲得
+			「オーロラ...オーロラ・ボレアリス？完全にこの鞭に局在している？」
+			'''
+	}
+
+	BlocksWhip: {
+		DisplayName: "ブロックチェイン"
+		Tooltip:
+			'''
+			15%召喚タグクリティカル率
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭の攻撃速度を獲得
+			「MOD開発者のなりすましに最適！」
+			「なぜサモナーをいじったのか？」
+			'''
+	}
+
+	Constellation: {
+		DisplayName: "コンステレーション"
+		Tooltip:
+			'''
+			平均的な召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			敵を攻撃してスターダストブラストを生成し、追加ダメージを与える
+			「星があなたを勝利に導きますように」
+			'''
+	}
+
+	CorruptionsScourge: {
+		DisplayName: "不浄のスカージ"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			極めて弱い召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			双鞭を振るう
+			「スカージ・オブ・ザ・コラプターと混同しないこと」
+			'''
+	}
+
+	DusksBite: {
+		DisplayName: "ダスクバイト"
+		Tooltip:
+			'''
+			8召喚タグダメージ
+			3%召喚タグクリティカル率
+			召喚物は攻撃された敵に集中する
+			'''
+	}
+
+	EmberingScourge: {
+		DisplayName: "ヘルバインダー"
+		Tooltip:
+			'''
+			召喚物は攻撃された敵に集中する
+			攻撃された敵を鎖で繋ぐことがある
+			召喚物の攻撃は鎖で繋がれた敵にダメージを拡散
+			'''
+	}
+
+	Lacerator: {
+		DisplayName: "レイサレーター"
+		Tooltip:
+			'''
+			4召喚タグダメージ
+			2%召喚タグクリティカル率
+			召喚物は攻撃された敵に集中する
+			'''
+	}
+
+	LostRaider: {
+		DisplayName: "ロストレイダー"
+		Tooltip:
+			'''
+			12召喚タグダメージ
+			召喚物は攻撃された敵に集中する
+			召喚物の攻撃はタグ付けされた敵に酸性毒を与えることがある
+			敵を攻撃して鞭の攻撃速度を獲得
+			「インディアン・ジョーンズ...？」
+			'''
+	}
+
+	MoonBite: {
+		DisplayName: "ムーンバイト"
+		Tooltip:
+			'''
+			30召喚タグダメージ
+			非常に強い召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			敵を攻撃してライフを吸収
+			「舐められないように」
+			'''
+	}
+
+	PlasmaScourge: {
+		DisplayName: "プラズマスカージ"
+		Tooltip:
+			'''
+			25召喚タグダメージ
+			平均的な召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			三重鞭を振るう
+			「このような高度な技術にしては実に残忍...」
+			'''
+	}
+
+	RopeWhip: {
+		DisplayName: "ロープウィップ"
+		Tooltip:
+			'''
+			2召喚タグダメージ
+			召喚物は攻撃された敵に集中する
+			'''
+	}
+
+	ScrapHook: {
+		DisplayName: "スクラップフック"
+		Tooltip:
+			'''
+			placeholder
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭から火花を飛ばす
+			'''
+		TooltipNormal: "5召喚タグダメージ"
+		TooltipRemix: "21召喚タグダメージ"
+	}
+
+	SeaScourge: {
+		DisplayName: "スカージ・オブ・シー"
+		Tooltip:
+			'''
+			10召喚タグダメージ
+			平均的な召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			双鞭を振るう
+			'''
+	}
+
+	ShadowflameWhip: {
+		DisplayName: "シャドウフレイムウィップ"
+		Tooltip:
+			'''
+			非常に弱い召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			召喚物の攻撃はタグ付けされた敵にシャドウフレイムを与える
+			'''
+	}
+
+	Summit: {
+		DisplayName: "サミット"
+		Tooltip:
+			'''
+			20召喚タグダメージ
+			15%召喚タグクリティカル率
+			平均的な召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭の攻撃速度を獲得
+			攻撃された敵は昇天する刃に襲撃される
+			'''
+	}
+
+	TerraWhip: {
+		DisplayName: "テラ・ウィップ"
+		Tooltip:
+			'''
+			10召喚タグダメージ
+			5%召喚タグクリティカル率
+			弱い召喚タグノックバック
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭の攻撃速度を獲得
+			鞭は敵もタグ付け可能な衝撃波を解き放つ
+			'''
+	}
+
+	TrueDurendal: {
+		DisplayName: "真・デュランダル"
+		Tooltip:
+			'''
+			11召喚タグダメージ
+			召喚物は攻撃された敵に集中する
+			敵を攻撃して鞭の攻撃速度を獲得し、追加ダメージを与えるエネルギースラッシュを生成
+			'''
+	}
+
+	TrueDusksBite: {
+		DisplayName: "真・ダスクバイト"
+		Tooltip:
+			'''
+			10%召喚タグクリティカル率
+			召喚物は攻撃された敵に集中する
+			敵をダスクエネルギーで攻撃
+			ダスクエネルギーが召喚物に攻撃された敵から爆発
+			鞭は追加ダメージを与える裂傷エネルギーブレードを解き放つ
+			'''
+	}
+
+	WeaverWhip: {
+		DisplayName: "ウィーバーウィップ"
+		Tooltip:
+			'''
+			10召喚タグダメージ
+			20%召喚タグクリティカル率
+			召喚物は攻撃された敵に集中する
+			「自分の運命を織りなせ！」
+			'''
+	}
+
+	Angel: {
+		DisplayName: "エンジェル"
+		Tooltip: "壁を自由に通り抜けることができる"
+	}
+
+	Darksoul: {
+		DisplayName: "ダークソウル"
+		Tooltip: ""
+	}
+
+	Empress: {
+		DisplayName: "エンプレス"
+		Tooltip:
+			'''
+			近くの敵にダメージを与える光の刃を生成
+			「汝の神聖な権利を行使せよ」
+			'''
+	}
+
+	Fireball: {
+		DisplayName: "エイスサークル"
+		Tooltip: "時々シャドウフレイムを与える"
+	}
+
+	RoyalRoll: {
+		DisplayName: "ロイヤルロール"
+		Tooltip: ""
+	}
+
+	ShiningSpin: {
+		DisplayName: "シャイニングスピン"
+		Tooltip: ""
+	}
+
+	SpinninSkull: {
+		DisplayName: "スピニングスカル"
+		Tooltip:
+			'''
+			時々ホーミングスカルを発射
+			「どれだけの髑髏が？！」
+			'''
+	}
+
+	SunSroller: {
+		DisplayName: "サンスローラー"
+		Tooltip: "「太陽の怒りを汝の敵に降らせよ」"
+	}
+
+	ThoraxThrow: {
+		DisplayName: "ソラックススロー"
+		Tooltip: "混乱を与えることがあり、敵の防御力をある程度無視する"
+	}
+
+	AscendedKnives: {
+		DisplayName: "アセンデッドナイフ"
+		Tooltip:
+			'''
+			ライフを吸収する追加のダガーに分裂するダガーを素早く投擲
+			「ジェイソン・『リエンフォース』・パーカーに捧ぐ」
+			「高く舞え。墓場でさえ汝を留めることはできない」
+			'''
+	}
+
+	LegendJewel: {
+		DisplayName: "伝説のジュエル"
+		Tooltip:
+			'''
+			強大な力を持つ特別な武器のクラフトに使用可能
+			「最強状態の暗黒なる月の王の破壊の余波で生まれた無限の可能性の遺物...」
+			「最も価値ある英雄のみに与えられる究極の戦利品」
+			Legendary
+			'''
+	}
+
+	LegendaryPan: {
+		DisplayName: "伝説のパン"
+		Tooltip:
+			'''
+			「ワッフルはお好き？」
+			Legendary
+			'''
+	}
+
+	Revengance: {
+		DisplayName: "オクラムのリベンジェンス"
+		Tooltip:
+			'''
+			「これが汝のオクラム・テラリア・ライジング・リベンジェンスだ！」
+			Legendary
+			'''
+	}
+
+	OcramsRevenge: {
+		DisplayName: "オクラムのリベンジ"
+		Tooltip: "「荒廃せし者の怒りはこの放棄された魔導書の中で生き続けている」"
+	}
+
+	RedRifle: {
+		Tooltip: "「上空からの死」"
+		DisplayName: "レッドライフル"
+	}
+
+	RedigitRifle: {
+		Tooltip:
+			'''
+			「彼は暗殺された...開発者によって！」
+			Legendary
+			'''
+		DisplayName: "レディジットライフル"
+	}
+
+	FixedStaff: {
+		DisplayName: "修正の杖"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			恐ろしい敵の不吉な石碑を召喚
+			「Get fixed, boi」
+			'''
+	}
+
+	TrueFixedStaff: {
+		DisplayName: "真・修正の杖"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			小型の月の力に満ちたメカデューサを召喚し敵をオクラムの家に送り込む
+			「機械の大混乱」
+			レジェンダリー
+			'''
+	}
+
+	PartycandleMK2: {
+		DisplayName: "パーティーキャンドルMk2"
+		Tooltip: "「敵に盛大なフィナーレを飾らせろ！」"
+	}
+
+	CommanderBroach: {
+		DisplayName: "司令官のブローチ"
+		Tooltip:
+			'''
+			召喚ダメージとノックバックが15%増加
+			セントリーの最大数が1増加
+			'''
+	}
+
+	FearmongerGauntlet: {
+		DisplayName: "扇動のガントレット"
+		Tooltip:
+			'''
+			鞭ダメージが12%増加
+			近接攻撃と鞭の攻撃速度が12%上昇
+			鞭のノックバックが増加
+			鞭の攻撃範囲が20%増加
+			鞭が炎ダメージを与える
+			近接武器と鞭にオート攻撃が付与される
+			'''
+	}
+
+	BeeVeil: {
+		DisplayName: "蜂のマント"
+		Tooltip:
+			'''
+			召喚ダメージが5%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	SpiderVisor: {
+		DisplayName: "クモのバイザー"
+		Tooltip:
+			'''
+			召喚ダメージが7%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	TikiHeadress: {
+		DisplayName: "ティキのヘッドドレス"
+		Tooltip:
+			'''
+			召喚ダメージが12%増加
+			召喚できるセントリーの数が1体増える
+			'''
+	}
+
+	FlareCannon: {
+		DisplayName: "フレアキャノン"
+		Tooltip: ""
+	}
+
+	GolfCannon: {
+		DisplayName: "ゴルフキャノン"
+		Tooltip:
+			'''
+			ダメージを与えるゴルフボールを発射する
+			「フォア〜！！」
+			'''
+	}
+
+	Vertex: {
+		DisplayName: "ヴァーテックス"
+		Tooltip: "裂断する渦を放つ"
+	}
+
+	Battlestaff: {
+		DisplayName: "闘争の杖"
+		Tooltip: ""
+	}
+
+	Inferno: {
+		DisplayName: "ファイアブランド"
+		Tooltip:
+			'''
+			近くの敵を点火する炎のオーラを生成する
+			「燃え盛る炎の輪！」
+			'''
+	}
+
+	FingerGun: {
+		DisplayName: "フィンガーガン"
+		Tooltip: "「ぺーぺー、ぺーぺー」"
+	}
+
+	BeamScepter: {
+		DisplayName: "ビームセプター"
+		Tooltip:
+			'''
+			エネルギーの鞭を放つ
+			「ビーム攻撃！」
+			'''
+	}
+
+	AstralHarmony: {
+		DisplayName: "アストラルハーモニー"
+		Tooltip:
+			'''
+			星光に包まれ強力な星の弾丸を発現させる
+			「天に祝福された力の新星を解放せよ！」
+			'''
+	}
+
+	CombustionFlask: {
+		DisplayName: "燃焼のフラスコ"
+		Tooltip: "小さな炎の壁を破裂させ短時間持続する"
+	}
+
+	MakeshiftMissile: {
+		DisplayName: "応急ミサイル"
+		Tooltip:
+			'''
+			短時間後重力の影響を受ける
+			極小の爆破範囲。ブロックを破壊しない
+			'''
+	}
+
+	MisshappenMissile: {
+		DisplayName: "奇形ミサイル"
+		Tooltip:
+			'''
+			短時間後重力の影響を受ける
+			極小の爆破範囲。ブロックを破壊する場合がある
+			'''
+	}
+
+	ProtoRocket: {
+		DisplayName: "不安定なロケット弾"
+		Tooltip: "非常に小さな爆破範囲。ブロックを破壊する"
+	}
+
+	RocketV0: {
+		DisplayName: "ロケット弾V0"
+		Tooltip: "非常に小さな爆破範囲。ブロックを破壊しない"
+	}
+
+	RocketDispenser: {
+		DisplayName: "ロケットディスペンサー"
+		Tooltip:
+			'''
+			非常に小さな爆破範囲。ブロックを破壊しない
+			「星を平らにするのに十分な火力…？」
+			'''
+	}
+
+	Rapier: {
+		DisplayName: "レイピア"
+		Tooltip: ""
+	}
+
+	Cogblade: {
+		DisplayName: "コグブレード"
+		Tooltip:
+			'''
+			接触した敵を素早く切り裂く
+			「チェーンソーみたいだが、そうでもない！」
+			'''
+	}
+
+	ThousandfoldCutter: {
+		DisplayName: "千折りカッター"
+		Tooltip:
+			'''
+			素早い連撃で攻撃する
+			「トンボを真っ二つに切ると言われている」
+			'''
+	}
+
+	SoulStriker: {
+		DisplayName: "不死の槍"
+		Tooltip:
+			'''
+			振りの頂点や命中時に幽霊の穂先を発射する
+			「第七の魂を求めて…」
+			'''
+	}
+
+	Fiesta: {
+		DisplayName: "フィエスタ"
+		Tooltip: "命中時に紙吹雪を散らす"
+	}
+
+	ThrowingCross: {
+		DisplayName: "スローイングクロス"
+		Tooltip: ""
+	}
+
+	Flurry: {
+		DisplayName: "フラリー"
+		Tooltip: "戻り始めに氷の欠片を投げつける"
+	}
+
+	ShootingStar: {
+		DisplayName: "シューティングスター"
+		Tooltip:
+			'''
+			十分に早く移動している時に追加ダメージを与える
+			「願いを込めて！」
+			'''
+	}
+
+	Clockwork: {
+		DisplayName: "クロックワーク"
+		Tooltip:
+			'''
+			跳ね返る代わりに敵を切り裂くことがある
+			「この歯車が神経に触るな」
+			'''
+	}
+
+	Ricochet: {
+		DisplayName: "リコシェ"
+		Tooltip:
+			'''
+			衝突時に近くのターゲットに跳ね返ろうとする
+			カーソル付近のターゲットに自動的にロックオンする
+			「ピンボールの音」
+			'''
+	}
+
+	TalonDart: {
+		DisplayName: "タロンダーツ"
+		Tooltip: "敵の防御力を少し無視する"
+	}
+
+	GrappleDart: {
+		DisplayName: "グラップルダーツ"
+		Tooltip:
+			'''
+			敵の防御力を大幅に無視する
+			命中時に敵を短時間混乱させることがある
+			グラップリングフックとして機能するがフックスロットから使用時はダメージが減少する
+			'''
+	}
+
+	BoarderHook: {
+		DisplayName: "搭乗者のフック"
+		Tooltip:
+			'''
+			攻撃した敵を自分の方に引き寄せる
+			近距離の敵は代わりにノックバックし追加ダメージを受ける
+			「奴らを死の抱擁に引きずり込め！」
+			'''
+	}
+
+	SoulSlayer: {
+		DisplayName: "ソウルスレイヤー"
+		Tooltip:
+			'''
+			無傷の敵により多くのダメージを与える巨大な刃
+			「終わるまで切り裂き続けよ」
+			'''
+	}
+
+	GaleWindblade: {
+		DisplayName: "疾風の刃"
+		Tooltip: "命中時に移動速度と近接攻撃速度が上昇"
+	}
+
+	DarklightEdge: {
+		DisplayName: "ダークライトエッジ"
+		Tooltip:
+			'''
+			右クリックでカーソル方向にダッシュ突きを行う
+			マウント中はダッシュできない
+			「これが道だ」
+			'''
+	}
+
+	Throngler: {
+		DisplayName: "スロングラー"
+		Tooltip: "「魔法の剣の名前の単語数が少ないほど危険である」"
+	}
+
+	Navarch: {
+		DisplayName: "ナヴァーク"
+		Tooltip:
+			'''
+			短射程の水のカッターを発射する
+			刃で敵を攻撃すると次の振りで複数のカッターを発射する
+			'''
+	}
+
+	PoisonArrow: {
+		DisplayName: "毒の矢"
+		Tooltip: "敵に毒を与える"
+	}
+
+	PillagerArrowItem: {
+		DisplayName: "略奪者の矢"
+		Tooltip:
+			'''
+			倒された敵はより多くのお金をドロップする
+			「村人よ気をつけろ！」
+			'''
+	}
+
+	AerodynamicArrow: {
+		DisplayName: "空力の矢"
+		Tooltip: "「真に矢力学的」"
+	}
+
+	SpectralArrow: {
+		DisplayName: "スペクトラルアロー"
+		Tooltip: ""
+	}
+
+	ShockBolt: {
+		DisplayName: "ショックボルト"
+		Tooltip: "命中時にエネルギーの弧を放ち近くの他の敵にチェインする"
+	}
+
+	FrostFlare: {
+		DisplayName: "フロストフレア"
+		Tooltip: ""
+	}
+
+	ArmorPiercingBullet: {
+		DisplayName: "徹甲弾"
+		Tooltip: "敵の防御力を25無視する"
+	}
+
+	BurningBullet: {
+		DisplayName: "ホットショット"
+		Tooltip: "着弾時に敵を点火させる"
+	}
+
+	EtherealBullet: {
+		DisplayName: "エーテル弾"
+		Tooltip: "ブロックを通り抜ける"
+	}
+
+	Scattershot: {
+		DisplayName: "スキャッターショット"
+		Tooltip: "短時間後に複数の小さな弾に分裂する大きな弾"
+	}
+
+	BeetleDart: {
+		DisplayName: "甲虫のダーツ"
+		Tooltip: "短時間ダメージ耐性を小幅に上昇させることがある"
+	}
+
+	BoneDart: {
+		DisplayName: "骨のダーツ"
+		Tooltip: "着弾時に破片を残す"
+	}
+
+	ChlorophyteDart: {
+		DisplayName: "クロロファイトのダーツ"
+		Tooltip: "飛行中に胞子の雲の軌跡を残す"
+	}
+
+	EchoDart: {
+		DisplayName: "エコーダーツ"
+		Tooltip: "ブロックに衝突時に二つに分裂する"
+	}
+
+	HunterDart: {
+		DisplayName: "狩人のダーツ"
+		Tooltip: ""
+	}
+
+	NeedleDart: {
+		DisplayName: "針のダーツ"
+		Tooltip:
+			'''
+			敵に突き刺さり遅延後に爆発して追加ダメージを与える
+			複数のダーツを敵に刺すと爆破が同期し威力が強化される
+			'''
+	}
+
+	OverclockDart: {
+		DisplayName: "オーバークロックダーツ"
+		Tooltip: ""
+	}
+
+	ShimmerDart: {
+		DisplayName: "シマーダーツ"
+		Tooltip: "上向きに落下する"
+	}
+
+	SpookyDart: {
+		DisplayName: "不気味なダーツ"
+		Tooltip: "クリティカルヒット時に追加ダメージを与え敵を燃やす"
+	}
+
+	ToyDart: {
+		DisplayName: "トイダーツ"
+		Tooltip:
+			'''
+			敵に刺さり一時的に接触ダメージと防御力を弱体化させる
+			「ナーフか無か！」
+			'''
+	}
+
+	TrackerDart: {
+		DisplayName: "トラッカーダーツ"
+		Tooltip: "マウスを押している間カーソルを追跡する"
+	}
+
+	TwinklingDart: {
+		DisplayName: "トゥインクリングダーツ"
+		Tooltip: "攻撃した敵をしばらく可視化する"
+	}
+
+	ChargedRecurve: {
+		DisplayName: "チャージリカーブ"
+		Tooltip:
+			'''
+			チャージした矢を発射する
+			5回攻撃毎に強力な反動を放ち追加の矢を2本発射する
+			'''
+	}
+
+	ToyGun: {
+		DisplayName: "トイガン"
+		Tooltip:
+			'''
+			トイダーツを発射する
+			「カルト的名作」
+			'''
+	}
+
+	Aerosassin: {
+		DisplayName: "エアロサシン"
+		Tooltip: "周囲に切裂風を生成するハリケーンアローを発射する"
+	}
+
+	Skewer: {
+		DisplayName: "スキュワー"
+		Tooltip: "時間と共に威力が増すリップタイドボルトを発射する"
+	}
+
+	GreatBranch: {
+		DisplayName: "グレートブランチ"
+		Tooltip: "勢いを構築して攻撃力を増加させる"
+	}
+
+	FlyingStaff: {
+		DisplayName: "フライングスタッフ"
+		Tooltip:
+			'''
+			回転時に大きな真空波を発射する
+			「熟練者はその風を操る力を利用して飛行を実現できる」
+			'''
+	}
+
+	PrimordialBostaff: {
+		DisplayName: "原始の棒杖"
+		Tooltip:
+			'''
+			左クリックで回転、右クリックで突撃
+			回転するほど大きく強くなる
+			「サルは意外にもそれを使うのが得意である」
+			'''
+	}
+
+	DualPhaseblade: {
+		DisplayName: "デュアルフェーズブレード"
+		Tooltip:
+			'''
+			左クリックで回転、右クリックで投擲
+			「敵を蹂躙するのに最適」
+			'''
+	}
+
+	DualPhasesaber: {
+		DisplayName: "ツインセーバー"
+		Tooltip:
+			'''
+			左クリックで回転、右クリックで投擲
+			「敵を蹂躙するのに最適」
+			'''
+	}
+
+	BlazingCoronation: {
+		DisplayName: "ブレイジングコロネーション"
+		Tooltip:
+			'''
+			十分に振り続けた後王笏を叩きつけ炎のワイバーンの力を呼び起こす
+			「溶岩の拳で統治せよ！」
+			'''
+	}
+
+	CoconutCannon: {
+		DisplayName: "ココナッツキャノン"
+		Tooltip:
+			'''
+			爆発するココナッツを断続的に発射する
+			最初の射撃のみが弾薬を消費する
+			「…そしてそれがお前を撃ったら、お前はたぶん死ぬ」
+			'''
+	}
+
+	ShellShock: {
+		DisplayName: "シェルショック"
+		Tooltip:
+			'''
+			多色の砲弾を発射する
+			異なる色の砲弾は異なるレア度と挙動を持つ
+			「ゴーカートに対して奇妙なほど破壊的」
+			'''
+	}
+
+	AssuredDestruction: {
+		DisplayName: "アシュアードデストラクション"
+		Tooltip:
+			'''
+			カーソルを追跡するミサイルを発射する
+			爆発時にミサイルは多数のクラスター爆弾に分裂し追加ダメージを与える
+			「MADになって仕返ししろ！」
+			'''
+	}
+
+	Steamshot: {
+		DisplayName: "スチームショット"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を30無視する
+			やけどする蒸気を噴射し短時間持続し拡散する
+			50%の確率で弾薬を消費しない
+			「…そしてお前らは明らかに焼かれているのに蒸しスライムと呼ぶ」
+			'''
+	}
+
+	AtmosphereicIgnition: {
+		DisplayName: "アトモスフィックイグニション"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を25無視する
+			炎は不安定で衝突時に分裂することがある
+			「我々が火をつけたのだ！」
+			'''
+	}
+
+	Hyperflare: {
+		DisplayName: "ハイパーフレア"
+		Tooltip:
+			'''
+			ジェルを弾薬として使用
+			敵の防御力を15無視する
+			安定した炎流の代わりに大きな炎の拡散を発射する
+			'''
+	}
+
+	ForceBlaster: {
+		DisplayName: "フォースブラスター"
+		Tooltip:
+			'''
+			弾薬を使用せずに高ノックバックの衝撃波を発射する
+			「やあ、毛玉ちゃん」
+			'''
+	}
+
+	EnergyRailgun: {
+		DisplayName: "エネルギーレールガン"
+		Tooltip:
+			'''
+			破壊的で高速のハードライトボルトをチャージする
+			弾薬不要
+			「反動で死なないのが不思議だ」
+			'''
+	}
+
+	SlingerShooter: {
+		DisplayName: "スリンガーシューター"
+		Tooltip:
+			'''
+			銃の形をした弾丸を投げ、それが弾丸の形をした弾丸を撃つ
+			「武器よさらば」
+			'''
+	}
+
+	Crackshot: {
+		DisplayName: "クラックショット"
+		Tooltip:
+			'''
+			不安定な銃を投げ、衝突時に爆発してバウンドする弾丸を発射する
+			「今度こそ本当のガンスリンガーだ！」
+			'''
+	}
+
+	StarfallObliterator: {
+		DisplayName: "スターフォールオブリテレーター"
+		Tooltip:
+			'''
+			レーザーの高速連射を行う
+			弾薬なしで動作するが弾丸、矢、ロケット、ダーツ、ジェルを消費して攻撃を強化できる
+			50%の確率で弾薬を消費しない
+			「便利な5-in-1敵殲滅パッケージ！」
+			'''
+	}
+
+	RedPointer: {
+		DisplayName: "レッドポインター"
+		Tooltip:
+			'''
+			小さなエネルギービームを放つ
+			敵の防御力を20無視する
+			「猫を魅了するか網膜を焼くか、選択は君次第！」
+			'''
+	}
+
+	GenesisCannon: {
+		DisplayName: "ジェネシスキャノン"
+		Tooltip:
+			'''
+			高速でスターバレットを連射する
+			右クリックでエネルギービームを発射
+			星でダメージを与えると低確率で次のエネルギービーム攻撃が強化される
+			強化されたビームはより多くのダメージを与え命中時に一時的にダメージと防御力を上昇させる
+			「このアームキャノンの外殻の木材は星々自身によって祝福されている」
+			'''
+	}
+
+	Shockwave: {
+		DisplayName: "ショックウェーブ"
+		Tooltip:
+			'''
+			真空波に爆発する空気の塊を発射する
+			いくらかの防御力を無視する
+			'''
+	}
+
+	ShadowskullCurse: {
+		DisplayName: "シャドウスカルカース"
+		Tooltip: "シャドウフレイムを与える闇の頭蓋骨を発射する"
+	}
+
+	FireballTome: {
+		DisplayName: "ファイアボール"
+		Tooltip:
+			'''
+			爆発するファイアボールを発射する
+			追加パワーのため短時間チャージできる
+			オーバーチャージすると爆発し反動ダメージを受ける！
+			「ファイアボール、ただファイアボール、ファイアボールのみ」
+			'''
+	}
+
+	Exorcism: {
+		DisplayName: "エクソシズム"
+		Tooltip:
+			'''
+			攻撃した敵の上に浄化の光が現れ追加ダメージを与える
+			倒された敵は体力を回復する浄化された魂のエネルギーを放つことがある
+			「キリストの力が汝を駆り立てる！」
+			'''
+	}
+
+	Moonpult: {
+		DisplayName: "ムーンパルト"
+		Tooltip:
+			'''
+			月の岩石の強力な爆発を放つ
+			「岩石が好きならいいが」
+			'''
+	}
+
+	RunicBlast: {
+		DisplayName: "ルーニックブラスト"
+		Tooltip:
+			'''
+			地形を通り抜ける不安定なエネルギーを放つ
+			攻撃開始時に追加ダメージを与える
+			'''
+	}
+
+	StarRod: {
+		DisplayName: "スターロッド"
+		Tooltip:
+			'''
+			3つの操作可能なレインボースターを放つ
+			「ポヨ！」
+			'''
+	}
+
+	GalacticStorm: {
+		DisplayName: "ギャラクティックストーム"
+		Tooltip:
+			'''
+			カーソルを追跡する極めて強力なエネルギー球を生成する
+			エネルギー球は高い慣性を持つが運動量に基づく追加ダメージを与える
+			放出されるか十分な時間が経過すると高ダメージで爆発する
+			「ビーム攻撃！！！」
+			'''
+	}
+
+	StormScepter: {
+		DisplayName: "ストームセプター"
+		Tooltip:
+			'''
+			飛行中にダメージを与える雨粒を散らす水の球体を放つ
+			十分な時間が経過するか置き換えられると球体は破裂し雨粒を放出する
+			'''
+	}
+
+	Razorwing: {
+		DisplayName: "レイザーウィング"
+		Tooltip: "拡散する3本の羽根を連続で発射する"
+	}
+
+	DryadGift: {
+		DisplayName: "ドリアードの贈り物"
+		Tooltip:
+			'''
+			敵にダメージを与える自然エネルギーの守護オーラを放つ
+			プレイヤーはオーラ内で追加防御力とソーンダメージを得る
+			'''
+	}
+
+	OlympusHand: {
+		DisplayName: "オリンポスの手"
+		Tooltip:
+			'''
+			命中時に他の敵にチェインする強力な稲妻を投げる
+			「ライトニング！ライトニング！ライトニング！」
+			'''
+	}
+
+	WildCantrip: {
+		DisplayName: "ワイルドカントリップ"
+		Tooltip:
+			'''
+			ありふれた魔法の火花を放つ
+			時折ワイルドマジックが発動し攻撃に追加特性を付与する
+			'''
+	}
+
+	BladedChain: {
+		DisplayName: "ブレイデッドチェーン"
+		Tooltip:
+			'''
+			3召喚タグダメージ
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			'''
+	}
+
+	Coraltip: {
+		DisplayName: "コーラルティップ"
+		Tooltip:
+			'''
+			4%召喚タグクリティカル率
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			「実は先端以外の部分もサンゴでできている」
+			'''
+	}
+
+	FellTentacle: {
+		DisplayName: "フェルテンタクル"
+		Tooltip:
+			'''
+			6召喚タグダメージ
+			弱召喚タグノックバック
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			各振りで追加の打撃を放つことがある
+			「腐敗と破滅に注意せよ」
+			'''
+	}
+
+	LuminousLasher: {
+		DisplayName: "ルミナスラッシャー"
+		Tooltip:
+			'''
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			敵を攻撃して可視化し召喚に対する防御を弱体化させる
+			'''
+	}
+
+	Whitecap: {
+		DisplayName: "ホワイトキャップ"
+		Tooltip:
+			'''
+			8%召喚タグクリティカル率
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			完全に伸ばした状態や鞭の先端に近い敵に追加ダメージを与える
+			敵の防御力を15無視する
+			'''
+	}
+
+	FeatherFlayer: {
+		DisplayName: "フェザーフレイヤー"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			各振りで羽根の連射を発射する
+			'''
+	}
+
+	ChargedLash: {
+		DisplayName: "チャージドコード"
+		Tooltip:
+			'''
+			プレースホルダー
+			召喚されたミニオンは攻撃した敵を集中狙いする
+			'''
+		TooltipNormal:
+			'''
+			6召喚タグダメージ
+			タグダメージは最大5回まで蓄積可能
+			'''
+		TooltipRemix:
+			'''
+			2召喚タグダメージ
+			タグダメージは最大4回まで蓄積可能
+			'''
+	}
+
+	EnergizedStaff: {
+		DisplayName: "エナジャイズドスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵にエネルギーボルトを発射するチャージした御影石のモノリスを召喚する
+			エネルギーボルトは敵の防御力を10無視する
+			'''
+	}
+
+	PhalanxStaff: {
+		DisplayName: "ファランクススタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くのプレイヤーの防御力を上昇させる大理石の像を召喚する
+			接触時に敵に軽ダメージも与える
+			'''
+	}
+
+	EarthenStaff: {
+		DisplayName: "アーセンスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			定期的に衝撃波を放つ魅惑の土の像を召喚する
+			衝撃波は敵にダメージを与え一時的にプレイヤーの防御力を上昇させる
+			'''
+	}
+
+	SteampunkRemote: {
+		DisplayName: "スチームパンクリモート"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵を集中攻撃する時計仕掛けのセントリーガンを召喚する
+			25%タグダメージの代償で高速攻撃する
+			攻撃は大幅に防御力を無視する
+			「セントリー設置完了！」
+			'''
+	}
+
+	LihzahrdianStaff: {
+		DisplayName: "リザードスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			敵にエネルギービームを発射するリザードのモノリスを召喚する
+			ターゲットが接近すると火炎放射攻撃に切り替わる
+			火炎は25%タグダメージの代償で高速攻撃する
+			'''
+	}
+
+	SpookyStaff: {
+		DisplayName: "不気味なスタッフ"
+		Tooltip:
+			'''
+			セントリーを召喚する
+			近くの敵を追跡し炎のボルトを撃つ不気味なウィスプを召喚する
+			近くに敵がいない時、ウィスプは元の位置に戻り不気味な炎を生成する
+			不気味な炎は持続し近づく敵を追跡する
+			'''
+	}
+
+	ChromaticStaff: {
+		DisplayName: "クロマティックスタッフ"
+		Tooltip:
+			'''
+			戦ってくれる小さく活発なレインボースライムを召喚する
+			25%タグダメージの代償で高速攻撃する
+			「レインボーを味わえ！」
+			'''
+	}
+
+	JackLanternStaff: {
+		DisplayName: "ジャック・オー・ランタンスタッフ"
+		Tooltip:
+			'''
+			戦ってくれる小さなホッピンジャックを召喚する
+			「跳ね回れ」
+			'''
+	}
+
+	GraniteGuardian: {
+		DisplayName: "グラナイトガーディアン"
+		Tooltip:
+			'''
+			戦ってくれるグラナイトセンチネルを配備する
+			大部分のミニオンとは異なりセンチネルはあなたに最も近い敵を優先する
+			'''
+	}
+
+	TwinkStaff: {
+		DisplayName: "トゥインクルスタッフ"
+		Tooltip:
+			'''
+			戦ってくれるカラフルな小さな星を召喚する
+			「星に願いを」
+			'''
+	}
+
+	NatureSpiritStaff: {
+		DisplayName: "ネイチャースピリットスタッフ"
+		Tooltip:
+			'''
+			戦ってくれる神秘的な花を召喚する
+			花はあなたの周りを回り近くの敵に追尾エネルギーの粒子を発射する
+			'''
+	}
+
+	WingStaff: {
+		DisplayName: "ウィングスタッフ"
+		Tooltip:
+			'''
+			戦ってくれる鳥を召喚する
+			「バード・アップ！」
+			'''
+	}
+
+	StoneStaff: {
+		DisplayName: "ストーンスタッフ"
+		Tooltip:
+			'''
+			戦ってくれる知覚を持つ石を召喚する
+			「今度はブロックが反撃だ！」
+			'''
+	}
+
+	VoidMirror: {
+		DisplayName: "ヴォイドミラー"
+		Tooltip:
+			'''
+			戦ってくれる一対の暗黒の幻影を召喚する
+			さらにミニオンを召喚しようとすると代わりに初期のペアが強化される
+			「深淵が見返している…」
+			'''
+	}
+
+	StellarGenesis: {
+		DisplayName: "ステラジェネシス"
+		Tooltip:
+			'''
+			戦ってくれるスターライターを召喚する
+			スターライターは近くのランダムな敵にスターマークを付ける
+			十分なスターマークが存在するかマークする対象がいなくなるとマークが爆発する
+			「星明かりあれ」
+			'''
+	}
+
+	Dawnbreaker: {
+		DisplayName: "ドーンブレイカー"
+		Tooltip:
+			'''
+			「この日は終わったかもしれないが…
+			…しかし別の栄光ある日が地平線で待っている！」
+			'''
+	}
+}
+
+Projectiles: {
+	AncientKylieProjectile: {
+		DisplayName: Ancient Kylie
+	}
+
+	AntlerangProjectile: {
+		DisplayName: Antler Valari
+	}
+
+	BlazingDiscProjectile: {
+		DisplayName: Blazing Disc
+	}
+
+	ChlorothornChakramProjectile: {
+		DisplayName: Chlorothorn Chakram
+	}
+
+	CosmicutterProjectile: {
+		DisplayName: Cosmicutter
+	}
+
+	CreeperDiscProjectile: {
+		DisplayName: Creeper Disc
+	}
+
+	DivinityProjectile: {
+		DisplayName: Divinity Disc
+	}
+
+	DivinitySpecial: {
+		DisplayName: Divinity Disc
+	}
+
+	DivinitySplitshot: {
+		DisplayName: Divinity Split Shot Core
+	}
+
+	ForbiddenKylieProjectile: {
+		DisplayName: Forbidden Kylie
+	}
+
+	GlaiveGauntletMK2Projectile: {
+		DisplayName: Gauntlet Glaive MK2
+	}
+
+	GlaiveGauntletProjectile: {
+		DisplayName: Gauntlet Glaive
+	}
+
+	MonsoonProjectile: {
+		DisplayName: Monsoon Disc
+	}
+
+	ScaleShredderProjectile: {
+		DisplayName: Scale Shredder
+	}
+
+	SplitshotPellet: {
+		DisplayName: Divine Storm
+	}
+
+	TwinFlaresExplosion: {
+		DisplayName: Solar Explosion
+	}
+
+	TwinFlaresProjectile: {
+		DisplayName: Twin Flare
+	}
+
+	EldritchArrow: {
+		DisplayName: Eldritch Arrow
+	}
+
+	EldritchEye: {
+		DisplayName: Phantasmal Eye
+	}
+
+	EnergyRepeaterProjectile: {
+		DisplayName: Energy Bolt
+	}
+
+	HallowedBolt: {
+		DisplayName: Hallowed Bolt
+	}
+
+	JunglefuryPoisonSeed: {
+		DisplayName: Poison Seed
+	}
+
+	JunglefurySeed: {
+		DisplayName: Seed
+	}
+
+	MechanizedBowSpark: {
+		DisplayName: Spark
+	}
+
+	MidnightArrow: {
+		DisplayName: Midnight Arrow
+	}
+
+	NightArrow: {
+		DisplayName: Night Arrow
+	}
+
+	OmegaArrow: {
+		DisplayName: Omega Arrow
+	}
+
+	OmegaArrowSecondary: {
+		DisplayName: Omega Arrow
+	}
+
+	PillagerArrow: {
+		DisplayName: Pillager Arrow
+	}
+
+	PlasmcasterProjectile: {
+		DisplayName: Plasm Bolt
+	}
+
+	PlasmcasterVortex: {
+		DisplayName: Plasm Vortex
+	}
+
+	PoisonArrowProjectile: {
+		DisplayName: Poison Arrow
+	}
+
+	SandMissile: {
+		DisplayName: Sand Missile
+	}
+
+	TerraArrow: {
+		DisplayName: Terra Arrow
+	}
+
+	TerraArrowSecondary: {
+		DisplayName: Terra Arrow
+	}
+
+	VortexVisual: {
+		DisplayName: Plasmcaster Vortex Visual
+	}
+
+	BasicDartProjectile: {
+		DisplayName: Dart
+	}
+
+	DarkmoonGauntletProjectile: {
+		DisplayName: Darkmoon Bolt
+	}
+
+	GildedDartProjectile: {
+		DisplayName: Gilded Dart
+	}
+
+	IncendiaryDartProjectile: {
+		DisplayName: Incendiary Dart
+	}
+
+	LuminiteDartProjectile: {
+		DisplayName: Luminite Dart
+	}
+
+	NanoDartProjectile: {
+		DisplayName: Nano Dart
+	}
+
+	PredatorDart: {
+		DisplayName: Predator Dart
+	}
+
+	VenomDartProjectile: {
+		DisplayName: Venom Dart
+	}
+
+	AvalancheProjectile: {
+		DisplayName: Avalanche
+	}
+
+	BeetlesBoulderProjectile: {
+		DisplayName: Beetle's Boulder
+	}
+
+	ChainKunaiProjectile: {
+		DisplayName: Chain Kunai
+	}
+
+	DeathspinProjectile: {
+		DisplayName: Deathspin
+	}
+
+	DeathspinSecondary: {
+		DisplayName: Deathspin Arm
+	}
+
+	DungeonsRavagerProjectile: {
+		DisplayName: Dungeon's Ravager
+	}
+
+	FungiFlailProjectile: {
+		DisplayName: Fungi Flail
+	}
+
+	JudgementProjectile: {
+		DisplayName: Judgement
+	}
+
+	LittleSnatcherProjectile: {
+		DisplayName: Little Snatcher
+	}
+
+	MoonFistEye: {
+		DisplayName: Phantasmal Eye
+	}
+
+	MoonFistProjectile: {
+		DisplayName: Moon Fist
+	}
+
+	RockRopeProjectile: {
+		DisplayName: Rock
+	}
+
+	ShellSmasherProjectile: {
+		DisplayName: Shell Smasher
+	}
+
+	SkelefistProjectile: {
+		DisplayName: Skelefist
+	}
+
+	SkelevicePrimeProjectile: {
+		DisplayName: Skelevice
+	}
+
+	SunsRageProjectile: {
+		DisplayName: Rage of the Sun
+	}
+
+	TameTrapperProjectile: {
+		DisplayName: Tame Trapper
+	}
+
+	ThornballProjectile: {
+		DisplayName: Thornball
+	}
+
+	BloodboilProjectile: {
+		DisplayName: Bloodboiling Flames
+	}
+
+	BoneSingerProjectile: {
+		DisplayName: Singer Flames
+	}
+
+	CursedFlamerProjectile: {
+		DisplayName: Cursed Flames
+	}
+
+	DistortionAfterburnerProjectile: {
+		DisplayName: Distortion Flames
+	}
+
+	FrostbiteProjectile: {
+		DisplayName: Frostflames
+	}
+
+	GelFlamerProjectile: {
+		DisplayName: Flames
+	}
+
+	GreekAfterburnProjectile: {
+		DisplayName: Afterburner Fire
+	}
+
+	GreekAfterburnProjectile2: {
+		DisplayName: Afterburner Fire
+	}
+
+	GreekAfterburnProjectile3: {
+		DisplayName: Afterburner Fire
+	}
+
+	HellfireProjectile: {
+		DisplayName: Hellflames
+	}
+
+	IchorSprayProjectile: {
+		DisplayName: Ichor Fumes
+	}
+
+	JunglesBaneProjectile: {
+		DisplayName: Flames
+	}
+
+	LihzahrdFlameGunProjectile: {
+		DisplayName: Flames
+	}
+
+	MoonrazerProjectile: {
+		DisplayName: Moonraze Flames
+	}
+
+	WaterflameProjectile: {
+		DisplayName: Waterflames
+	}
+
+	WildfireProjectile: {
+		DisplayName: Flames
+	}
+
+	AntimatterBullet: {
+		DisplayName: Antimatter Bullet
+	}
+
+	EdgeBlast: {
+		DisplayName: Edge Blast EX
+	}
+
+	EdgeProjectile: {
+		DisplayName: Edge Blast
+	}
+
+	PulsarBullet: {
+		DisplayName: Laser Bullet
+	}
+
+	PulsarFlames: {
+		DisplayName: Cursed Flames
+	}
+
+	BeggarsBazookaProjectile: {
+		DisplayName: Beggar's Rocket
+	}
+
+	BoneBlastaProjectile: {
+		DisplayName: Bone Blasta
+	}
+
+	BunnyMissile: {
+		DisplayName: Bunny Missile
+	}
+
+	DestructiveBeggarsBazookaProjectile: {
+		DisplayName: Beggar's Rocket
+	}
+
+	DestructiveBomba: {
+		DisplayName: Mini Bomba
+	}
+
+	DestructiveBoneBlastaProjectile: {
+		DisplayName: Bone Blasta
+	}
+
+	DestructiveIncindiearyMissile: {
+		DisplayName: Incindieary Missile
+	}
+
+	DestructivePrimeCannonProjectile: {
+		DisplayName: Prime Bomb
+	}
+
+	DestructiveRiptideProjectile: {
+		DisplayName: Riptide Rocket
+	}
+
+	HandCannonProjectile: {
+		DisplayName: Cannonball
+	}
+
+	IncindiearyMissile: {
+		DisplayName: Incindieary Missile
+	}
+
+	MiniBomba: {
+		DisplayName: Mini Bomba
+	}
+
+	OwnerSelfDamageHitbox: {
+		DisplayName: Explosion
+	}
+
+	PrimeCannonProjectile: {
+		DisplayName: Prime Bomb
+	}
+
+	RadianceRocketI: {
+		DisplayName: Radiance Rocket I
+	}
+
+	RadianceRocketII: {
+		DisplayName: Radiance Rocket II
+	}
+
+	RadianceRocketIII: {
+		DisplayName: Radiance Rocket III
+	}
+
+	RadianceRocket: {
+		DisplayName: Radiance Rocket
+	}
+
+	RadianceSecondary: {
+		DisplayName: Everlasting Radiance
+	}
+
+	RiptideProjectile: {
+		DisplayName: Riptide Rocket
+	}
+
+	SporeBomberProjectile: {
+		DisplayName: Spore Bomb
+	}
+
+	CrystalCarbineProjectile: {
+		DisplayName: Crystal Beam
+	}
+
+	DeathLaserProjectile: {
+		DisplayName: Death Laser
+	}
+
+	DeathrayProjectile: {
+		DisplayName: Deathray
+	}
+
+	FireBeamerProjectile: {
+		DisplayName: Fire Beam
+	}
+
+	Partycandle2nd: {
+		DisplayName: Partycandle Firework
+	}
+
+	Partycandle3rd: {
+		DisplayName: Partycandle Firework
+	}
+
+	PartycandleMain: {
+		DisplayName: Partycandle Firework
+	}
+
+	PhaserLaserMultihit: {
+		DisplayName: Phaser Laser
+	}
+
+	PhaserLaserProjectile: {
+		DisplayName: Phaser Laser
+	}
+
+	ShockgunProjectile: {
+		DisplayName: Shock
+	}
+
+	SolarBeamProjectile: {
+		DisplayName: Solar Beam
+	}
+
+	SparkTaserProjectile: {
+		DisplayName: Spark
+	}
+
+	EvilEyeBeam: {
+		DisplayName: Glare Beam
+	}
+
+	EvilEyeProjectile: {
+		DisplayName: Glare Beam
+	}
+
+	EvilEyeServant: {
+		DisplayName: Evil Eye Servant
+	}
+
+	GleamingBallAura: {
+		DisplayName: Gleaming Aura
+	}
+
+	GrandCrystalProjectile: {
+		DisplayName: Grand Crystal
+	}
+
+	GrandCrystalShard: {
+		DisplayName: Crystal Shard
+	}
+
+	HoneyhiveHeal: {
+		DisplayName: Redemption Heal
+	}
+
+	HoneyhiveProjectile: {
+		DisplayName: Honey Orb
+	}
+
+	IcicleFanMultihit: {
+		DisplayName: Icicle
+	}
+
+	IcicleFanProjectile: {
+		DisplayName: Icicle
+	}
+
+	MockeryNote1: {
+		DisplayName: Mockery Note
+	}
+
+	MockeryNote2: {
+		DisplayName: Mockery Note
+	}
+
+	MockeryNote3: {
+		DisplayName: Mockery Note
+	}
+
+	PossessedDaggerProjectile: {
+		DisplayName: Possessed Dagger
+	}
+
+	PossessedTorchTorch: {
+		DisplayName: Possessed Torch
+	}
+
+	SphereSongProjectile: {
+		DisplayName: Song Sphere
+	}
+
+	SporeCloud1: {
+		DisplayName: Spore Cloud
+	}
+
+	TorchFireball: {
+		DisplayName: Fireball
+	}
+
+	VileBreachProjectile: {
+		DisplayName: Vile Breach
+	}
+
+	BallaMinion: {
+		DisplayName: Snow Balla
+	}
+
+	BallaProjectile: {
+		DisplayName: Snowball
+	}
+
+	JungleCreeperMinion: {
+		DisplayName: Jungle Creeper
+	}
+
+	ShadowflameMinion: {
+		DisplayName: Shadowflame Apparition
+	}
+
+	SkullMinion: {
+		DisplayName: Guardian Skull
+	}
+
+	SpiritMinion: {
+		DisplayName: Dungeon Spirit
+	}
+
+	TerraultimaMinion: {
+		DisplayName: Terraultima
+	}
+
+	AccursedTridentProjectile: {
+		DisplayName: Accursed Trident
+	}
+
+	Bayonett: {
+		DisplayName: Bayonett
+	}
+
+	ElectrosphereVisual: {
+		DisplayName: Electrosphere Visual
+	}
+
+	HolyHandGrenadeProjectile: {
+		DisplayName: Holy Hand Grenade
+	}
+
+	MeleeStinger: {
+		DisplayName: Stinger
+	}
+
+	SanguineDaggerProjectile: {
+		DisplayName: Sanguine Dagger
+	}
+
+	SSSUProjectile: {
+		DisplayName: Super Star Ultra
+	}
+
+	TerrasamaProjectile: {
+		DisplayName: Terrasama
+	}
+
+	SlimenobiProjectile: {
+		DisplayName: Slimenobi Shuriken
+	}
+
+	CasterProjectile: {
+		DisplayName: Water Sphere
+	}
+
+	CasterSentry: {
+		DisplayName: Mini Caster
+	}
+
+	CerebralSentry: {
+		DisplayName: Creeper Brain
+	}
+
+	ClingerProjectile: {
+		DisplayName: Cursed Fire
+	}
+
+	ClingerSentry: {
+		DisplayName: Clinger
+	}
+
+	CreeperMinion: {
+		DisplayName: Creeper
+	}
+
+	ForbiddenSentry: {
+		DisplayName: Forbidden Eye
+	}
+
+	ForbiddenSentryProjectile: {
+		DisplayName: Forbidden Sentry
+	}
+
+	IchorProjectile: {
+		DisplayName: Ichor Stream
+	}
+
+	IchorSentry: {
+		DisplayName: Ichor Sticker
+	}
+
+	InvaderProjectile: {
+		DisplayName: Mini Invader
+	}
+
+	InvaderSentry: {
+		DisplayName: Stardust Invader
+	}
+
+	JungleSentryProjectile: {
+		DisplayName: Spore Bomb
+	}
+
+	JungleStaffSentry: {
+		DisplayName: Shrubbery
+	}
+
+	SoulSentry: {
+		DisplayName: Soul Cyclone
+	}
+
+	SoulSentryBeam: {
+		DisplayName: Soul Beam
+	}
+
+	TeslaBolt: {
+		DisplayName: Tesla Bolt
+	}
+
+	TeslaSentry: {
+		DisplayName: Tesla Sentry
+	}
+
+	TorchProjectile: {
+		DisplayName: Fireball
+	}
+
+	TorchSentry: {
+		DisplayName: Dark Torch Manifestation
+	}
+
+	TotemDamage: {
+		DisplayName: Aura Power
+	}
+
+	TotemSentry: {
+		DisplayName: Tiki Totem
+	}
+
+	TwinkleProjectile: {
+		DisplayName: Twinkle
+	}
+
+	TwinkleSentry: {
+		DisplayName: Twinkle Popper
+	}
+
+	UplinkLaser: {
+		DisplayName: Laser
+	}
+
+	UplinkMarker: {
+		DisplayName: Marker Laser
+	}
+
+	UplinkProbe: {
+		DisplayName: Probe
+	}
+
+	UplinkSentry: {
+		DisplayName: Destroyer Drone
+	}
+
+	VolcanoProjectile: {
+		DisplayName: Fireball
+	}
+
+	VolcanoSentry: {
+		DisplayName: Volcano
+	}
+
+	AdamantiteRapierProjectile: {
+		DisplayName: Adamantite Rapier
+	}
+
+	BoneRattlerProjectile: {
+		DisplayName: Bone Rattler
+	}
+
+	BramblethornProjectile: {
+		DisplayName: Bramblethorn
+	}
+
+	CarnageProjectile: {
+		DisplayName: Carnage
+	}
+
+	CarnwennanProjectile: {
+		DisplayName: Carnwennan
+	}
+
+	CarnwennanProjectile2: {
+		DisplayName: Carnwennan Afterimage
+	}
+
+	ChlorophyteRapierProjectile: {
+		DisplayName: Chlorophyte Rapier
+	}
+
+	CobaltRapierProjectile: {
+		DisplayName: Cobalt Rapier
+	}
+
+	EnchantedShortswordProjectile: {
+		DisplayName: Enchanted Shortsword
+	}
+
+	FancyFoilProjectile: {
+		DisplayName: Fancy Foil
+	}
+
+	FirebrandProjectile: {
+		DisplayName: Thousandth Degree
+	}
+
+	GraniteGauntletHitbox: {
+		DisplayName: Granite Punch
+	}
+
+	GreekFireProjectile: {
+		DisplayName: Greek Fire
+	}
+
+	GreekFireProjectile2: {
+		DisplayName: Greek Fire
+	}
+
+	GreekFireProjectile3: {
+		DisplayName: Greek Fire
+	}
+
+	LilPokeyProjectile: {
+		DisplayName: Lil' Pokey
+	}
+
+	MythrilRapierProjectile: {
+		DisplayName: Mythril Rapier
+	}
+
+	NecroticDaggerProjectile: {
+		DisplayName: Necrotic Dagger
+	}
+
+	NecroticDaggerSecondary: {
+		DisplayName: Necrotic Dagger
+	}
+
+	NecroticDaggerShockwave: {
+		DisplayName: Necrotic Vacumm
+	}
+
+	OrichalcumRapierProjectile: {
+		DisplayName: Orichalcum Rapier
+	}
+
+	PalladiumRapierProjectile: {
+		DisplayName: Palladium Rapier
+	}
+
+	PointyStickProjectile: {
+		DisplayName: Pointy Stick
+	}
+
+	PowerBindingsHitbox: {
+		DisplayName: Power Punch
+	}
+
+	RG24Projectile: {
+		DisplayName: RG24
+	}
+
+	ShadowsStabberProjectile: {
+		DisplayName: Shadow's Stabber
+	}
+
+	SpookyStickProjectile: {
+		DisplayName: Spooky Stick
+	}
+
+	StarblazerFireball: {
+		DisplayName: Solar Fireball
+	}
+
+	StarblazerProjectile: {
+		DisplayName: Starblazer
+	}
+
+	TerraShortswordProjectile: {
+		DisplayName: Terra Shortsword
+	}
+
+	TitaniumRapierProjectile: {
+		DisplayName: Titanium Rapier
+	}
+
+	ZenithShockwave: {
+		DisplayName: Zenith Shockwave
+	}
+
+	ZenithShortswordProjectile: {
+		DisplayName: Zenith Shortsword
+	}
+
+	DrakanianProjectile: {
+		DisplayName: Drakanian
+	}
+
+	FemurBreakerProjectile: {
+		DisplayName: Femur Breaker
+	}
+
+	Gigazap: {
+		DisplayName: Beam of Shocks
+	}
+
+	GigazapperProjectile: {
+		DisplayName: Gigazapper
+	}
+
+	GraniteGlaiveProjectile: {
+		DisplayName: Granite Glaive
+	}
+
+	HeavensHalberdProjectile: {
+		DisplayName: Halberd of the Heavens
+	}
+
+	HHSecondaryProjectile: {
+		DisplayName: Heavenly Strike
+	}
+
+	LihzahrdSpearProjectile: {
+		DisplayName: Lihzahrd Spear
+	}
+
+	ShadowSpearProjectile: {
+		DisplayName: Shadow Spear
+	}
+
+	SpearmintProjectile: {
+		DisplayName: Spearmint
+	}
+
+	StingOperatorProjectile: {
+		DisplayName: Sting Operator
+	}
+
+	AdamantiteStaffProjectile: {
+		DisplayName: Adamantite Magic
+	}
+
+	BorealisStaffProjectile: {
+		DisplayName: Borealis Beam
+	}
+
+	BorealisStaffSecondary: {
+		DisplayName: Borealis Barrier
+	}
+
+	CobaltStaffProjectile: {
+		DisplayName: Cobalt Magic
+	}
+
+	ConduitElectrosphere: {
+		DisplayName: Electrosphere
+	}
+
+	ConduitRodProjectile: {
+		DisplayName: Conduit Spark
+	}
+
+	CoralScepterProjectile: {
+		DisplayName: Water Orb
+	}
+
+	CosmicWandProjectile: {
+		DisplayName: Nebula Burst
+	}
+
+	FinalFractalBeam: {
+		DisplayName: Final Fractal Beam
+	}
+
+	LunacyBolt: {
+		DisplayName: Phantasmal Bolt
+	}
+
+	LunacyEye: {
+		DisplayName: Phantasmal Eye
+	}
+
+	LunacySphere: {
+		DisplayName: Phantasmal Sphere
+	}
+
+	LunacyFireball: {
+		DisplayName: Fireball
+	}
+
+	LunacyIce: {
+		DisplayName: Lunacy Ice
+	}
+
+	LunacyLight: {
+		DisplayName: Ancient Light
+	}
+
+	LunacyLightning: {
+		DisplayName: Lightning
+	}
+
+	LunacyShard: {
+		DisplayName: Ice Shard
+	}
+
+	MythrilStaffProjectile: {
+		DisplayName: Mythril Magic
+	}
+
+	NebulousScepterProjectile: {
+		DisplayName: Nebuleus Cloud
+	}
+
+	NebulousVisual: {
+		DisplayName: Nebulous Vortex Visual
+	}
+
+	OrichalcumStaffProjectile: {
+		DisplayName: Orichalcum Magic
+	}
+
+	PalladiumStaffProjectile: {
+		DisplayName: Palladium Magic
+	}
+
+	PrismaticStaffProjectile: {
+		DisplayName: Prismatic Bolt
+	}
+
+	SecondarySpore: {
+		DisplayName: Jungle Spore
+	}
+
+	SnowsplosionProjectile: {
+		DisplayName: Explosive Snowman
+	}
+
+	SporeScepterProjectile: {
+		DisplayName: Jungle Spore
+	}
+
+	HallowedScepterProjectile: {
+		DisplayName: Hallowed Magic
+	}
+
+	HallowedScepterSecondary: {
+		DisplayName: Hallowed Beam
+	}
+
+	MidnightProjectile: {
+		DisplayName: Midnight Magic
+	}
+
+	MidnightSecondary: {
+		DisplayName: Midnight Beam
+	}
+
+	TerraStaffBeamA: {
+		DisplayName: Terra Magic
+	}
+
+	TerraStaffBeamB: {
+		DisplayName: Terra Magic
+	}
+
+	TerraStaffSecondaryA: {
+		DisplayName: Terra Beam
+	}
+
+	TerraStaffSecondaryB: {
+		DisplayName: Terra Beam
+	}
+
+	TrueHallowedScepterProjectile: {
+		DisplayName: Hallowed Magic
+	}
+
+	TrueHallowedScepterSecondary: {
+		DisplayName: Hallowed Beam
+	}
+
+	TrueMidnightProjectile: {
+		DisplayName: Midnight Magic
+	}
+
+	TrueMidnightSecondary: {
+		DisplayName: Midnight Beam
+	}
+
+	TitaniumStaffProjectile: {
+		DisplayName: Titanium Magic
+	}
+
+	PrismaticShockwave: {
+		DisplayName: Forcewave
+	}
+
+	ScimitarSand1: {
+		DisplayName: Sandburst
+	}
+
+	ScimitarSand2: {
+		DisplayName: Sandburst
+	}
+
+	ScimitarSand3: {
+		DisplayName: Sandburst
+	}
+
+	ScimitarSand4: {
+		DisplayName: Sandburst
+	}
+
+	SoladiusProjectile: {
+		DisplayName: Heat Wave
+	}
+
+	TechbladeSpark: {
+		DisplayName: Spark
+	}
+
+	BeetleBuzzProjectile: {
+		DisplayName: Beetle
+	}
+
+	BurningSphereProjectile: {
+		DisplayName: Burning Sphere
+	}
+
+	CatapultRock: {
+		DisplayName: Rock
+	}
+
+	ChaosBallProjectile: {
+		DisplayName: Chaos Ball
+	}
+
+	DustDevilProjectile: {
+		DisplayName: Dust Devil
+	}
+
+	LacewingsDanceProjectile: {
+		DisplayName: Dancing Lacewing
+	}
+
+	LTGreenProjectile: {
+		DisplayName: Poison Magic
+	}
+
+	LTYellowProjectile: {
+		DisplayName: Covet Magic
+	}
+
+	PiercersProjectile: {
+		DisplayName: Piercer
+	}
+
+	RazorLeafProjectile: {
+		DisplayName: Razor Leaf
+	}
+
+	RedemptionHeal: {
+		DisplayName: Redemption Heal
+	}
+
+	RedemptionProjectile: {
+		DisplayName: Holy Magic
+	}
+
+	SoulBurstProjectile: {
+		DisplayName: Soul Magic
+	}
+
+	SpectralBurstProjectile: {
+		DisplayName: Spectral Magic
+	}
+
+	AncientChainsProjectile: {
+		DisplayName: Ancient Chain
+	}
+
+	AuroraProjectile: {
+		DisplayName: Aurora
+	}
+
+	BlocksWhipProjectile: {
+		DisplayName: BlockCrusader's Whip
+	}
+
+	ChainsBeam: {
+		DisplayName: Laser
+	}
+
+	ChainsGolem: {
+		DisplayName: Golem Head
+	}
+
+	ConstellationBurst: {
+		DisplayName: Star Burst
+	}
+
+	ConstellationProjectile: {
+		DisplayName: Constellation
+	}
+
+	CorruptionsScourgeProjectile: {
+		DisplayName: Corruption's Scourge
+	}
+
+	DusksBiteBlast: {
+		DisplayName: Dusk Blast
+	}
+
+	DusksBiteProjectile: {
+		DisplayName: Dusk's Bite
+	}
+
+	EmberingScourgeProjectile: {
+		DisplayName: Hellbinder
+	}
+
+	LaceratorProjectile: {
+		DisplayName: Lacerator
+	}
+
+	LostRaiderProjectile: {
+		DisplayName: Lost Raider
+	}
+
+	MoonBiteLifesteal: {
+		DisplayName: Moon Bite Lifesteal
+	}
+
+	MoonBiteProjectile: {
+		DisplayName: Moon Bite
+	}
+
+	PlasmaScourgeProjectile: {
+		DisplayName: Plasma Scourge
+	}
+
+	RopeWhipProjectile: {
+		DisplayName: Rope Whip
+	}
+
+	ScrapHookProjectile: {
+		DisplayName: Scrap Hook
+	}
+
+	ScrapHookSpark: {
+		DisplayName: Spark
+	}
+
+	SeaScourge2ndProj: {
+		DisplayName: Scourge of the Seas
+	}
+
+	SeaScourgeBubble: {
+		DisplayName: Bubble
+	}
+
+	SeaScourgeMainProj: {
+		DisplayName: Scourge of the Seas
+	}
+
+	ShadowflameWhipProjectile: {
+		DisplayName: Shadowflame Whip
+	}
+
+	SummitPrisma: {
+		DisplayName: Summit Terraprisma
+	}
+
+	SummitWhip: {
+		DisplayName: Summit
+	}
+
+	TerraWhipProjectile: {
+		DisplayName: Terra Whip
+	}
+
+	TerraWhipShockwave: {
+		DisplayName: Terra Shockwave
+	}
+
+	TrueDurendalAfterimage: {
+		DisplayName: True Durendal Afterimage
+	}
+
+	TrueDurendalProjectile: {
+		DisplayName: True Durendal
+	}
+
+	TrueDusksBiteProjectile: {
+		DisplayName: True Dusk's Bite
+	}
+
+	WeaverWhipProjectile: {
+		DisplayName: Weaver's Whip
+	}
+
+	AngelProjectile: {
+		DisplayName: Angel
+	}
+
+	DarksoulProjectile: {
+		DisplayName: Darksoul
+	}
+
+	EmpressProjectile: {
+		DisplayName: Empress
+	}
+
+	EmpressSunDance: {
+		DisplayName: Sun Dance
+	}
+
+	FireballProjectile: {
+		DisplayName: Eighth Circle
+	}
+
+	RoyalRollProjectile: {
+		DisplayName: Royal Roll
+	}
+
+	ShiningSpinProjectile: {
+		DisplayName: Shining Spin
+	}
+
+	SpinninSkullProjectile: {
+		DisplayName: Spinnin' Skull
+	}
+
+	SunSrollerFireball: {
+		DisplayName: Solar Fireball
+	}
+
+	SunSrollerProjectile: {
+		DisplayName: Sun Sroller
+	}
+
+	ThoraxThrowProjectile: {
+		DisplayName: Thorax Throw
+	}
+
+	AscendedKnife: {
+		DisplayName: Ascended Knife
+	}
+
+	LienKnife: {
+		DisplayName: Lienfors's Knife
+	}
+
+	LienLifesteal: {
+		DisplayName: Ascended Lifesteal
+	}
+
+	SabrewingSlash: {
+		DisplayName: Sabrewing
+	}
+
+	SoladiusSlash: {
+		DisplayName: Soladius
+	}
+
+	SoladiusSlash2: {
+		DisplayName: Soladius
+	}
+
+	PrismaticSlash: {
+		DisplayName: Prismatic Phasesaber
+	}
+
+	PanSlash: {
+		DisplayName: Legendary Pan
+	}
+
+	PanSlash2: {
+		DisplayName: Legendary Pan
+	}
+
+	PanPancake: {
+		DisplayName: Pancake
+	}
+
+	PanToast: {
+		DisplayName: Toast
+	}
+
+	PanWaffle: {
+		DisplayName: Waffle
+	}
+
+	OcramBeam1: {
+		DisplayName: Death Laser
+	}
+
+	OcramBeam2: {
+		DisplayName: Ocram Laser
+	}
+
+	OcramServant: {
+		DisplayName: Ocram Servant
+	}
+
+	RedBullet: {
+		DisplayName: Red Bullet
+	}
+
+	RedBeam1: {
+		DisplayName: Red Beam
+	}
+
+	RedBeam2: {
+		DisplayName: Redigit Beam
+	}
+
+	MechMonolithSentry: {
+		DisplayName: Mech Monolith Sentry
+	}
+
+	MechdusaSentry: {
+		DisplayName: Mechdusa Sentry
+	}
+
+	MechdusaBoulder: {
+		DisplayName: Moon Boulder
+	}
+
+	MechdusaLimb: {
+		DisplayName: Mechdusa Limb
+	}
+
+	MechdusaRet: {
+		DisplayName: Mechdusa Retainzer
+	}
+
+	MechdusaSpaz: {
+		DisplayName: Mechdusa Spazmatism
+	}
+
+	Partycandle2ndMK2: {
+		DisplayName: Partycandle Firework
+	}
+
+	Partycandle3rdMK2: {
+		DisplayName: Partycandle Firework
+	}
+
+	PartycandleMainMK2: {
+		DisplayName: Partycandle Firework
+	}
+
+	TrueDurendal2nd: {
+		DisplayName: True Durendal
+	}
+
+	TrueDuskSlash: {
+		DisplayName: True Dusk Slash
+	}
+
+	DrakanianBlast: {
+		DisplayName: Solar Explosion
+	}
+
+	DrakanianChainBlast: {
+		DisplayName: Drakanian Blast
+	}
+
+	MonsoonShred: {
+		DisplayName: Monsoon Razorblade
+	}
+
+	MooncrescentBacklash: {
+		DisplayName: Mooncrescent Backlash
+	}
+
+	TerraBacklash: {
+		DisplayName: Terra Backlash
+	}
+
+	TrueBacklash: {
+		DisplayName: True Mooncrescent Backlash
+	}
+
+	MidnightFX: {
+		DisplayName: Midnight Flash
+	}
+
+	MidnightSec2: {
+		DisplayName: Midnight Flash
+	}
+
+	TerraFlash: {
+		DisplayName: Terra Flash
+	}
+
+	TerraFlashFX: {
+		DisplayName: Terra Flash
+	}
+
+	TrueMidnightFX: {
+		DisplayName: True Midnight Flash
+	}
+
+	TrueMidnightSec2: {
+		DisplayName: True Midnight Flash
+	}
+
+	VertexProjectile: {
+		DisplayName: Vertex
+	}
+
+	VertexSlash: {
+		DisplayName: Vertex Slash
+	}
+
+	BattlestaffProjectile: {
+		DisplayName: Battlestaff
+	}
+
+	InfernoProjectile: {
+		DisplayName: Firebrand
+	}
+
+	FingerGunProjectile: {
+		DisplayName: Finger Gun
+	}
+
+	BeamScepterProjectile: {
+		DisplayName: Beam Attack
+	}
+
+	AstralHarmonyProjectile: {
+		DisplayName: Astral Nova
+	}
+
+	SummitTerraultima: {
+		DisplayName: Summit Terraprisma
+	}
+
+	CombustionFlaskProjectile: {
+		DisplayName: Combustion Flask
+	}
+
+	CombustionFlaskFire: {
+		DisplayName: Fire Wall
+	}
+
+	OmegaBacklash2: {
+		DisplayName: Omega Backlash
+	}
+
+	OmegaBacklash: {
+		DisplayName: Omega Backlash
+	}
+
+	OmegaBowClone: {
+		DisplayName: Omega Bow Clone
+	}
+
+	RG24Bullet: {
+		DisplayName: PLasma Bullet
+	}
+
+	FemurBreakerShrapnel: {
+		DisplayName: Femur Shrapnel
+	}
+
+	FinalFractalStaffClone: {
+		DisplayName: Final Fractal Staff Clone
+	}
+
+	SummitWhipClone: {
+		DisplayName: Summit
+	}
+
+	MakeshiftGrenade: {
+		DisplayName: Makeshift Grenade
+	}
+
+	MakeshiftMine: {
+		DisplayName: Makeshift Mine
+	}
+
+	MakeshiftRocket: {
+		DisplayName: Makeshift Rocket
+	}
+
+	MakeshiftSnowRocket: {
+		DisplayName: Makeshift Snow Rocket
+	}
+
+	MisshappenGrenade: {
+		DisplayName: Misshappen Grenade
+	}
+
+	MisshappenMine: {
+		DisplayName: Misshappen Mine
+	}
+
+	MisshappenRocket: {
+		DisplayName: Misshappen Rocket
+	}
+
+	MisshappenSnowRocket: {
+		DisplayName: Misshappen Snow Rocket
+	}
+
+	ProtoGrenade: {
+		DisplayName: Proto Grenade
+	}
+
+	ProtoMine: {
+		DisplayName: Proto Mine
+	}
+
+	ProtoRocketProj: {
+		DisplayName: Proto Rocket
+	}
+
+	ProtoSnowRocket: {
+		DisplayName: Proto Snow Rocket
+	}
+
+	V0Grenade: {
+		DisplayName: V0 Grenade
+	}
+
+	V0Mine: {
+		DisplayName: V0 Mine
+	}
+
+	V0Rocket: {
+		DisplayName: V0 Rocket
+	}
+
+	V0SnowRocket: {
+		DisplayName: V0 Snow Rocket
+	}
+
+	VenomSpit: {
+		DisplayName: Venom Spit
+	}
+
+	AntimatterTelegraph: {
+		DisplayName: Antimatter Telegraph
+	}
+
+	StormdiverCharge: {
+		DisplayName: Stormdiver Charge
+	}
+
+	RapierProjectile: {
+		DisplayName: Rapier
+	}
+
+	CogbladeProjectile: {
+		DisplayName: Cogblade
+	}
+
+	ThousandfoldCutterProjectile: {
+		DisplayName: Thousandfold Cutter
+	}
+
+	SoulStrikerProjectile: {
+		DisplayName: Soul Striker
+	}
+
+	SoulStrikerSpearhead: {
+		DisplayName: Soul Spearhead
+	}
+
+	FiestaProjectile: {
+		DisplayName: Fiesta
+	}
+
+	ThrowingCrossProjectile: {
+		DisplayName: Throwing Cross
+	}
+
+	FlurryProjectile: {
+		DisplayName: Flurry
+	}
+
+	FlurryShard: {
+		DisplayName: Ice Shard
+	}
+
+	ShootingStarProjectile: {
+		DisplayName: Shooting Star
+	}
+
+	ClockworkProjectile: {
+		DisplayName: Clockwork
+	}
+
+	RicochetProjectile: {
+		DisplayName: Ricochet
+	}
+
+	TalonDartProjectile: {
+		DisplayName: Talon Dart
+	}
+
+	GrappleDartProjectile: {
+		DisplayName: Grapple Dart
+	}
+
+	BoarderHookProjectile: {
+		DisplayName: Boarder Hook
+	}
+
+	WindbladeSlash: {
+		DisplayName: Windblade
+	}
+
+	SoulSlayerSlash: {
+		DisplayName: Soul Slayer
+	}
+
+	SoulSlayerSlash2: {
+		DisplayName: Soul Slayer
+	}
+
+	WindbladeSecondary: {
+		DisplayName: Windblade Slash
+	}
+
+	DarklightSlash: {
+		DisplayName: Darklight Edge
+	}
+
+	ThronglerSlash: {
+		DisplayName: Throngler
+	}
+
+	ThronglerSlash2: {
+		DisplayName: Throngler
+	}
+
+	DarklightSecondary: {
+		DisplayName: Darklight Slash
+	}
+
+	ThrongledBlast: {
+		DisplayName: Throngling
+	}
+
+	NavarchCutter: {
+		DisplayName: Aqua Cutter
+	}
+
+	AerodynamicArrowProjectile: {
+		DisplayName: Aerodynamic Arrow
+	}
+
+	SpectralArrowProjectile: {
+		DisplayName: Spectral Arrow
+	}
+
+	ShockBoltProjectile: {
+		DisplayName: Shock Bolt
+	}
+
+	FrostFlareProjectile: {
+		DisplayName: Frost Flare
+	}
+
+	ArmorPiercingBulletProjectile: {
+		DisplayName: Armor Piercing Bullet
+	}
+
+	BurningBulletProjectile: {
+		DisplayName: Hot Shot
+	}
+
+	EtherealBulletProjectile: {
+		DisplayName: Ethereal Bullet
+	}
+
+	ScattershotBig: {
+		DisplayName: Scattershot
+	}
+
+	ScattershotSmall: {
+		DisplayName: Scattershot
+	}
+
+	BeetleDartProjectile: {
+		DisplayName: Beetle Dart
+	}
+
+	BoneDartProjectile: {
+		DisplayName: Bone Dart
+	}
+
+	BoneDartShrapnel: {
+		DisplayName: Bone Shrapnel
+	}
+
+	ChlorophyteDartCloud: {
+		DisplayName: Spore Cloud
+	}
+
+	ChlorophyteDartProjectile: {
+		DisplayName: Chlorophyte Dart
+	}
+
+	EchoDartProjectile: {
+		DisplayName: Echo Dart
+	}
+
+	EchoDartSplit: {
+		DisplayName: Echo Dart
+	}
+
+	HunterDartProjectile: {
+		DisplayName: Hunter Dart
+	}
+
+	NeedleDartProjectile: {
+		DisplayName: Needle Dart
+	}
+
+	OverclockDartProjectile: {
+		DisplayName: Overclock Dart
+	}
+
+	ShimmerDartProjectile: {
+		DisplayName: Shimmer Dart
+	}
+
+	SpookyDartProjectile: {
+		DisplayName: Spooky Dart
+	}
+
+	ToyDartProjectile: {
+		DisplayName: Toy Dart
+	}
+
+	TrackerDartProjectile: {
+		DisplayName: Tracker Dart
+	}
+
+	TwinklingDartProjectile: {
+		DisplayName: Twinkling Dart
+	}
+
+	ChargedBacklash: {
+		DisplayName: Charged Backlash
+	}
+
+	HurricaneArrow: {
+		DisplayName: Hurricane Arrow
+	}
+
+	CuttingWind: {
+		DisplayName: Cutting Wind
+	}
+
+	RiptideArrow: {
+		DisplayName: Riptide Arrow
+	}
+
+	GreatBranchProjectile: {
+		DisplayName: Great Branch
+	}
+
+	FlyingStaffShockwave: {
+		DisplayName: Vaccum Wave
+	}
+
+	FlyingStaffProjectile: {
+		DisplayName: Flying Staff
+	}
+
+	PrimordialBostaffStaff: {
+		DisplayName: Primordial Bostaff
+	}
+
+	PrimordialBostaffSpear: {
+		DisplayName: Primordial Bostaff
+	}
+
+	DualPhasebladeProjectile: {
+		DisplayName: Dual Phaseblade
+	}
+
+	DualPhasebladeThrown: {
+		DisplayName: Dual Phaseblade
+	}
+
+	DualPhasesaberProjectile: {
+		DisplayName: Twinsaber
+	}
+
+	DualPhasesaberThrown: {
+		DisplayName: Twinsaber
+	}
+
+	BlazingCoronationProj: {
+		DisplayName: Blazing Coronation
+	}
+
+	BlazingWyvern: {
+		DisplayName: Blazing Wyvern
+	}
+
+	CoconutBomb: {
+		DisplayName: Coconut Bomb
+	}
+
+	ShellShockRed: {
+		DisplayName: Red Shell
+	}
+
+	ShellShockGreen: {
+		DisplayName: Green Shell
+	}
+
+	ShellShockBlue: {
+		DisplayName: Blue Shell
+	}
+
+	ClusterMini: {
+		DisplayName: Cluster Bomb
+	}
+
+	ClusterMissile: {
+		DisplayName: Remote Cluster Missile
+	}
+
+	DestructiveClusterMini: {
+		DisplayName: Cluster Bomb
+	}
+
+	DestructiveClusterMissile: {
+		DisplayName: Remote Cluster Missile
+	}
+
+	SteamshotProjectile: {
+		DisplayName: Steamshot
+	}
+
+	AtmosphereicIgnitionProjectile: {
+		DisplayName: Atmosphereic Ignition
+	}
+
+	HyperflareProjectile: {
+		DisplayName: Hyperflare
+	}
+
+	ForceBlasterProjectile: {
+		DisplayName: Forcewave
+	}
+
+	HardlightBolt: {
+		DisplayName: Hardlight Bolt
+	}
+
+	SlingerProjectile: {
+		DisplayName: Slinger
+	}
+
+	CrackshotBullet: {
+		DisplayName: Crackshot Bullet
+	}
+
+	CrackshotProjectile: {
+		DisplayName: Crackshot
+	}
+
+	StarfallBeam: {
+		DisplayName: Starfall Beam
+	}
+
+	StarfallBolt: {
+		DisplayName: Starfall Bolt
+	}
+
+	StarfallDeathray: {
+		DisplayName: Starfall Deathray
+	}
+
+	StarfallHoldout: {
+		DisplayName: Starfall Obliterator
+	}
+
+	StarfallNeedle: {
+		DisplayName: Starfall Needle
+	}
+
+	StarfallRocket: {
+		DisplayName: Starfall Rocket
+	}
+
+	RedPointerProjectile: {
+		DisplayName: Laser Pointer
+	}
+
+	GenesisBeam: {
+		DisplayName: Genesis Beam
+	}
+
+	GenesisStar: {
+		DisplayName: Genesis Star
+	}
+
+	ShockwaveWave: {
+		DisplayName: Shockwave
+	}
+
+	ShockwaveProjectile: {
+		DisplayName: Shockwave
+	}
+
+	ShadowskullCurseProjectile: {
+		DisplayName: Shadowflame Skull
+	}
+
+	FireballTomeProjectile: {
+		DisplayName: Fireball
+	}
+
+	PurgingLight: {
+		DisplayName: Purging Light
+	}
+
+	ExorcismProjectile: {
+		DisplayName: Exorcism
+	}
+
+	MoonpultBoulder: {
+		DisplayName: Moon Boulder
+	}
+
+	RunicBlastProjectile: {
+		DisplayName: Runic Blast
+	}
+
+	StarRodProjectile: {
+		DisplayName: Dream Star
+	}
+
+	GalacticStormProjectile: {
+		DisplayName: Galactic Storm
+	}
+
+	StormRain: {
+		DisplayName: Rain
+	}
+
+	StormOrb: {
+		DisplayName: Sphere of Storms
+	}
+
+	RazorwingProjectile: {
+		DisplayName: Razor Feather
+	}
+
+	DryadGiftProjectile: {
+		DisplayName: Nature's Ward
+	}
+
+	OlympusLightning: {
+		DisplayName: Olympian Lightning
+	}
+
+	CantripProjectile: {
+		DisplayName: Wild Magic
+	}
+
+	BladedChainProjectile: {
+		DisplayName: Bladed Chain
+	}
+
+	CoraltipProjectile: {
+		DisplayName: Coraltip
+	}
+
+	FellTentacleExtra: {
+		DisplayName: Fell Tentacle
+	}
+
+	FellTentacleMain: {
+		DisplayName: Fell Tentacle
+	}
+
+	LuminousLasherProjectile: {
+		DisplayName: Luminous Lasher
+	}
+
+	WhitecapProjectile: {
+		DisplayName: Whitecap
+	}
+
+	FeatherFlayerProjectile: {
+		DisplayName: Feather Flayer
+	}
+
+	FlayerFeather: {
+		DisplayName: Razor Feather
+	}
+
+	ChargedLashProjectile: {
+		DisplayName: Charged Cord
+	}
+
+	EnergizedSentry: {
+		DisplayName: Energized Sentry
+	}
+
+	EnergizedBolt: {
+		DisplayName: Energized Bolt
+	}
+
+	PhalanxSentry: {
+		DisplayName: Phalanx Statue
+	}
+
+	EarthenSentry: {
+		DisplayName: Earthen Sentry
+	}
+
+	SteampunkSentryBullet: {
+		DisplayName: High Velocity Bullet
+	}
+
+	SteampunkSentry: {
+		DisplayName: Clockwork Sentry
+	}
+
+	LihzahrdBeam: {
+		DisplayName: Laser
+	}
+
+	LihzahrdFlames: {
+		DisplayName: Flames
+	}
+
+	LihzahrdianSentry: {
+		DisplayName: Lihzahrdian Sentry
+	}
+
+	SpookySpike: {
+		DisplayName: Firey Bolt
+	}
+
+	SpookySentry: {
+		DisplayName: Guardian Ghost
+	}
+
+	SpookyFlame: {
+		DisplayName: Eerie Flame
+	}
+
+	HoppinJackMinion: {
+		DisplayName: Hoppin' Jack
+	}
+
+	RainbowSlimeMinion: {
+		DisplayName: Hyper Slime
+	}
+
+	GraniteBolt: {
+		DisplayName: Energized Bolt
+	}
+
+	GraniteMinion: {
+		DisplayName: Granite Sentinel
+	}
+
+	TwinkleMinion: {
+		DisplayName: Twinkle Minion
+	}
+
+	TwinkleStar: {
+		DisplayName: Twinkle Star
+	}
+
+	NatureMinion: {
+		DisplayName: Nature Spirit
+	}
+
+	NatureProjectile: {
+		DisplayName: Nature Energy
+	}
+
+	WingMinion: {
+		DisplayName: Wing Minion
+	}
+
+	WingProjectile: {
+		DisplayName: Feather
+	}
+
+	RockMinion: {
+		DisplayName: Stone Kin
+	}
+
+	MirrorFireball: {
+		DisplayName: Illusory Fireball
+	}
+
+	MirrorMinion: {
+		DisplayName: Mirror Illusion
+	}
+
+	StarWriter: {
+		DisplayName: Star Writer
+	}
+
+	StarMark: {
+		DisplayName: Star Mark
+	}
+
+	DawnbreakerProjectile: {
+		DisplayName: Dawnbreaker
+	}
+
+	DawnbreakerBeam: {
+		DisplayName: Dawnbreaker Beam
+	}
+
+	DawnbreakerBlade: {
+		DisplayName: Dawnbreaker Blade
+	}
+
+	DawnbreakerBolt: {
+		DisplayName: Dawnbreaker Bolt
+	}
+
+	DawnbreakerIllusion: {
+		DisplayName: Dawnbreaker Illusion
+	}
+
+	PrismaticProjectile: {
+		DisplayName: Prismatic Shockwave
+	}
+
+	DarklightThrust: {
+		DisplayName: Darklight Thrust
+	}
+
+	SabrewingThrown: {
+		DisplayName: Sabrewing
+	}
+
+	SabrewingBattlestaff: {
+		DisplayName: Sabrewing
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: "設定"
+
+		Headers: {
+			HeaderIdentifier: "メイン設定"
+		}
+
+		dropMasterWeps: {
+			Label: "マスター武器をドロップする"
+			Tooltip:
+				'''
+				アーセナルはマスターモードのボーナス報酬として設計された武器シリーズを導入します。この設定では、これらの武器をドロップするかどうかを決定できます。trueでドロップ、falseでドロップしません。
+				レリックやペット/マウントとは異なり、これらのアイテムは直接ではなくボスの宝袋からドロップすることに注意してください。
+				デフォルト: true
+				'''
+		}
+
+		expertWeps: {
+			Label: "エキスパートでマスター武器をドロップ"
+			Tooltip:
+				'''
+				マスターモード武器はマスターモード用にバランス調整されていますが、この設定をtrueにすると、エキスパートモードでもドロップするようになります。
+				上記の設定でマスターモード武器ドロップが無効化されている場合、この設定は何も効果がありません。
+				デフォルト: false
+				'''
+		}
+
+		masterDropRate: {
+			Label: "武器ドロップ率（マスター）"
+			Tooltip:
+				'''
+				マスターモード武器がボスからドロップする頻度を調整します
+				設定した数値はドロップ確率の分母になります（例: 5 = 1/5のドロップ確率）
+				デフォルト: 3（33%）
+				'''
+		}
+
+		expertDropRate: {
+			Label: "武器ドロップ率（エキスパート）"
+			Tooltip:
+				'''
+				マスターモード武器はエキスパートモードでは異なる確率でドロップし、この設定で調整できます
+				設定した数値はドロップ確率の分母になります（例: 5 = 1/5のドロップ確率）
+				デフォルト: 12（8.33%）
+				'''
+		}
+
+		dropCultistBag: {
+			Label: "ルナティックカルティストの宝袋ドロップ"
+			Tooltip:
+				'''
+				マスターモード武器ドロップが有効な場合、ルナティックカルティストが宝袋をドロップするかどうかを決定します
+				マスターモード武器が有効な場合、カルティストの武器は通常入手不可能な宝袋からドロップします
+				trueに設定すると、カルティストは宝袋をドロップします。falseの場合、袋はドロップしませんが、マスターモード武器が有効であればカルティストのマスターモード武器は袋の中に見つけることができます
+				他のMODがカルティストの袋をドロップさせる場合、複数の袋が一度にドロップするのを防ぐためにこれを無効にしてください
+				'''
+		}
+
+		adjustRockets: {
+			Label: "ロケットI・IIの再調整"
+			Tooltip:
+				'''
+				このMODのハードモード前ランチャー系武器に対応するため、ロケット弾I・IIのダメージを弱体化しますが、ハードモード前でクラフト可能になります
+				ロケット弾I・II両方のダメージが20に減少します
+				ロケット弾Iは鉄/鉛のインゴットとダイナマイトで作成可能
+				ロケット弾IIはロケット弾I、ヘルストーンインゴット、爆薬で作成可能
+				この設定を有効にしておくことを強く推奨します。そうしないと、このMODのプランテラ前のすべてのランチャーの弾薬にアクセスできません
+				ロケットI・IIの変更は将来的にカスタム弾薬が追加される予定のため削除される予定です
+				'''
+		}
+
+		calamitySimpHelper: {
+			Label: "【CalamityMod】進行ロック設定"
+			Tooltip:
+				'''
+				CalamityModと併用している場合、Omega、Final Fractal、Summit（ゼニス相当品）のレシピにオーリックのインゴットを追加します
+				Block's Thrower: Arsenal ExpansionのUltimaとCapture Discs: Arsenal ExpansionのVertexusにも同様に影響します
+				'''
+		}
+
+		shimmerQoL: {
+			Label: "追加武器変換の切り替え"
+			Tooltip:
+				'''
+				有効にすると、Arsenal武器限定で追加のシマー変換が利用可能になります
+				以下のアイテムのドロップ変換が含まれます：
+				ムーンロードドロップ
+				レア度の高い火星人の狂気ドロップ
+				宝箱・クレート限定武器
+				イコルスティッカー、クリンガー、ゴブリンウォーロックからの武器
+				この設定を無効にしても、テラプリズマ相当品やジェネシスキャノンなどのシマー限定武器には影響しません
+				特定の武器を入手するための周回時間短縮に便利です
+				'''
+		}
+
+		AllowRemixSwaps: {
+			Label: "リミックス交換の許可"
+			Tooltip:
+				'''
+				Don't Dig Upワールドにおいて、特定のArsenal武器が進行/ティア交換を行うかどうかを決定します
+				「デフォルト」設定：Don't Dig Upでのみ交換が発生します
+				「なし」設定：交換を完全に無効にします
+				「常時」設定：すべてのワールドで交換が発生します
+
+				注意：tMLはまだアイテムバリアントを適切にサポートしていないため、現在武器交換は武器価格に影響しません
+				交換された武器は入手時期に対して非常に安価/高価になることが予想されます！
+
+				また、この設定はいつでも変更可能ですが、ワールド生成後の宝箱の戦利品には当然影響できません
+				さらに、交換された武器に関連するアイテムレア度とシマー変換は、ワールドを出て再参加するまで更新されません
+				'''
+		}
+	}
+}
+

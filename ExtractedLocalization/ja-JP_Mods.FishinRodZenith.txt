@@ -1,0 +1,2042 @@
+Items: {
+	Fishinrodzenith: {
+		Tooltip:
+			'''
+			You can fish in Lava
+			You can fish with 12 to 27 hooks at the same time (for best results use the truffle worm in the ocean)
+			Do you really like fishing so much that you did this?...
+			'''
+		DisplayName: Zenith fishing rod
+	}
+
+	NebulosaBait: {
+		DisplayName: Nebulosa Bait
+		Tooltip: You can feel the essence of the Pillar Nebula when fishing
+	}
+
+	SolarBait: {
+		DisplayName: Solar Bait
+		Tooltip: You can feel the heat of the Solar Pillar when fishing
+	}
+
+	VorticeBait: {
+		DisplayName: Vortex Bait
+		Tooltip: You can feel a peculiar presence of the Vortex Pillar
+	}
+
+	StardustBait: {
+		DisplayName: Stardust Bait
+		Tooltip: You can feel the space of the Stardust Pillar
+	}
+
+	SuperCratePotion: {
+		DisplayName: Super Crate potion
+		Tooltip: Increases the chance of fishing crates by 30%
+	}
+
+	LuckyFishingPotion: {
+		DisplayName: Lucky Fishing Potion
+		Tooltip: Increases the chance of catching higher rarity fish
+	}
+
+	FishinRodOfGrass: {
+		DisplayName: Fishing Rod Of Grass
+		Tooltip: If you use plant bait, you can catch seeds
+	}
+
+	FishingRodOfBones: {
+		DisplayName: Fishing Rod Of Bones
+		Tooltip: When fishing in the dungeon, you can catch bones
+	}
+
+	MeltedFishingRod: {
+		DisplayName: Melted Fishing Rod
+		Tooltip: You can fish in lava
+	}
+
+	NightFishingRod: {
+		DisplayName: Night Fishing Rod
+		Tooltip:
+			'''
+			You can fish in lava
+			Sometimes the rod throws 2 hooks, strange isn't it?
+			Well it's not the Night's Edge but at least you can fish with this...
+			'''
+	}
+
+	BrokenHeroFishingRod: {
+		DisplayName: Broken Hero Fishing Rod
+		Tooltip: ""
+	}
+
+	TrueNightsFishingRod: {
+		DisplayName: True Nights Fishing Rod
+		Tooltip:
+			'''
+			You can fish in lava
+			It can throw 4 hooks at the same time, I wonder why that is...
+			'''
+	}
+
+	ExcaliburFishingRod: {
+		DisplayName: Excalibur Fishing Rod
+		Tooltip: Only the true Fisherman could take the rod out of the leviathan's mouth and it's clearly not you.
+	}
+
+	TrueExcaliburFishingRod: {
+		DisplayName: True Excalibur Fishing Rod
+		Tooltip: The fishing rod of legend, is it... real?
+	}
+
+	TerraFishingRod: {
+		DisplayName: Terra Fishing Rod
+		Tooltip:
+			'''
+			You can fish in lava
+			Throw 5 hooks at the same time
+			Wait, how did you manage to do this?
+			'''
+	}
+
+	FishSonar: {
+		DisplayName: Fish Sonar
+		Tooltip: While you have it equipped, you will have the Sonar effect
+	}
+
+	CopperFishingRod: {
+		DisplayName: Copper Fishing Rod
+		Tooltip: ""
+	}
+
+	StarfuryFishingRod: {
+		DisplayName: Starfury Fishing Rod
+		Tooltip: A big star as a hook? Really!!??
+	}
+
+	EnchantedFishingRod: {
+		DisplayName: Enchanted Fishing Rod
+		Tooltip: ""
+	}
+
+	BeeKeeperFishingRod: {
+		DisplayName: BeeKeeper Fishing Rod
+		Tooltip: If you fish in honey you can catch special things
+	}
+
+	TheHorsemansFishingRod: {
+		DisplayName: The Horsemans Fishing Rod
+		Tooltip: ""
+	}
+
+	InfluxWaverFishingRod: {
+		DisplayName: Influx Waver Fishing Rod
+		Tooltip: Well now the fish are going to believe that we are the aliens
+	}
+
+	SeedlerFishingRod: {
+		DisplayName: Seedler Fishing Rod
+		Tooltip: ""
+	}
+
+	StarWrathFishingRod: {
+		DisplayName: Star Wrath Fishing Rod
+		Tooltip: ""
+	}
+
+	MeowmereFishingRod: {
+		DisplayName: Meowmere Fishing Rod
+		Tooltip: Is that a hook cat?
+	}
+
+	CopperBait: {
+		DisplayName: Copper Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	MineralFishingRod: {
+		DisplayName: Mineral Fishing Rod
+		Tooltip:
+			'''
+			You can fish for minerals by using special Mining Fishing baits
+			To fish for minerals, you need to be in the underground or caverns
+			'''
+	}
+
+	GoldBait: {
+		DisplayName: Gold Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	IronBait: {
+		DisplayName: Iron Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	LeadBait: {
+		DisplayName: Lead Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	SilverBait: {
+		DisplayName: Silver Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	TungstenBait: {
+		DisplayName: Tungsten Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	TinBait: {
+		DisplayName: Tin Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	CrimtaneBait: {
+		DisplayName: Crimtane Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	DemoniteBait: {
+		DisplayName: Demonite Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	PlatinumBait: {
+		DisplayName: Platinum Bait
+		Tooltip: If you use this bait with the mineral fishing rod, you will be able to catch minerals
+	}
+
+	LowQualityCobaltBait: {
+		DisplayName: Low Quality Cobalt Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	LowQualityPalladiumBait: {
+		DisplayName: Low Quality Palladium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	LowQualityMythrilBait: {
+		DisplayName: Low Quality Mythril Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	LowQualityOrichalcumBait: {
+		DisplayName: Low Quality Orichalcum Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	LowQualityAdamantiteBait: {
+		DisplayName: Low Quality Adamantite Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	LowQualityTitaniumBait: {
+		DisplayName: Low Quality Titanium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityCobaltBait: {
+		DisplayName: Medium Quality Cobalt Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityPalladiumBait: {
+		DisplayName: Medium Quality Palladium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityMythrilBait: {
+		DisplayName: Medium Quality Mythril Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityOrichalcumBait: {
+		DisplayName: Medium Quality Orichalcum Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityAdamantiteBait: {
+		DisplayName: Medium Quality Adamantite Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MediumQualityTitaniumBait: {
+		DisplayName: Medium Quality Titanium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityAdamantiteBait: {
+		DisplayName: High Quality Adamantite Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityCobaltBait: {
+		DisplayName: High Quality Cobalt Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityMythrilBait: {
+		DisplayName: High Quality Mythril Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityOrichalcumBait: {
+		DisplayName: High Quality Orichalcum Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityPalladiumBait: {
+		DisplayName: High Quality Palladium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	HighQualityTitaniumBait: {
+		DisplayName: High Quality Titanium Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on special rods for Fishing-Mining)
+	}
+
+	MagneticFishingRod: {
+		Tooltip:
+			'''
+			Has the special ability to catch ingots when using mineral baits
+			To fish ingots, you need to be in the underground or caverns
+			'''
+		DisplayName: Magnetic Fishing Rod
+	}
+
+	FishermanEmblem: {
+		DisplayName: Fisherman Emblem
+		Tooltip: Increases fishing capacity
+	}
+
+	Rodprisma: {
+		DisplayName: Rodprisma
+		Tooltip:
+			'''
+			Can throw 8 hooks at the same time
+			You really went for the empress of light
+			just to get this rod?...
+			'''
+	}
+
+	SoulofFish: {
+		DisplayName: Soulof Fish
+		Tooltip: ""
+	}
+
+	SoulOfFish: {
+		DisplayName: Soul Of Fish
+		Tooltip: Contains the essence of those aquatic beings
+	}
+
+	NauticalEmblem: {
+		DisplayName: Nautical Emblem
+		Tooltip: Increases fishing ability and grants the Fishing effect while wearing the emblem
+	}
+
+	HighQualityChlorophyteBait: {
+		DisplayName: High Quality Chlorophyte Bait
+		Tooltip: This bait will allow you to fish for its mineral but in larger quantities (only if you use it on Jungle Biome and special rods for Fishing-Mining)
+	}
+
+	LowQualityChlorophyteBait: {
+		DisplayName: Low Quality Chlorophyte Bait
+		Tooltip: This bait will allow you to fish for its mineral but in small quantities (only if you use it on Jungle Biome and special rods for Fishing-Mining)
+	}
+
+	MediumQualityChlorophyteBait: {
+		DisplayName: Medium Quality Chlorophyte Bait
+		Tooltip: This bait will allow you to fish for its mineral but in moderate quantities (only if you use it on Jungle Biome and special rods for Fishing-Mining)
+	}
+
+	BlinkrootBait: {
+		DisplayName: Blinkroot Bait
+		Tooltip: When fishing in the underground or caverns, you will be able to catch blinkroot seeds
+	}
+
+	DaybloomBait: {
+		DisplayName: Daybloom Bait
+		Tooltip: By fishing in the forest during the day, you will be able to catch daybloom seeds.
+	}
+
+	DeathweedBait: {
+		DisplayName: Deathweed Bait
+		Tooltip:
+			'''
+			When fishing in a corruption biome during the blood moon
+			you can catch Deathweed seeds
+			'''
+	}
+
+	FireblossomBait: {
+		DisplayName: Fireblossom Bait
+		Tooltip: When fishing in the underworld in the lava, you can fish for Fireblossom seeds
+	}
+
+	MoonglowBait: {
+		DisplayName: Moonglow Bait
+		Tooltip: When fishing in the jungle at night, you can catch Moonglow seeds
+	}
+
+	ShiverthornBait: {
+		DisplayName: Shiverthorn Bait
+		Tooltip: When fishing in the snow, you will be able to catch Shiverthorn seeds
+	}
+
+	WaterleafBait: {
+		DisplayName: Waterleaf Bait
+		Tooltip: By fishing in the desert while it is raining, you will be able to catch waterleaf seeds
+	}
+
+	RodOfRegrowth: {
+		DisplayName: Rod Of Regrowth
+		Tooltip: If you use any plant bait, it will catch the bait plant instead of the seed
+	}
+
+	LuckyFin: {
+		DisplayName: Lucky Fin
+		Tooltip: What a strange fish fin..., but I feel some luck comes from it
+	}
+
+	ExampleLifeFruit: {
+		DisplayName: Ocean Core
+		Tooltip: Permanently increases maximum life by 10
+	}
+
+	FragmentOfDukeFishron: {
+		DisplayName: Remains of Duke Fishron
+		Tooltip:
+			'''
+			Remains of the mutant fish of the seas
+			How does it maintain vital essence in this?...
+			'''
+	}
+
+	FishinrodzenithOG: {
+		DisplayName: Old Zenith fishing rod
+		Tooltip:
+			'''
+			You can fish in Lava
+			You can fish with 12 to 27 hooks at the same time (for best results use the truffle worm in the ocean)
+			Wait how did you do this??
+			'''
+	}
+
+	crimsonkeymold: {
+		DisplayName: crimsonkeymold
+		Tooltip: Used to create the crimson key
+	}
+
+	CrimsonKeyMold: {
+		DisplayName: Crimson Key Mold
+		Tooltip: Used to create the crimson key
+	}
+
+	CorruptKeyMold: {
+		DisplayName: Corrupt Key Mold
+		Tooltip: Used to create the corrupt key
+	}
+
+	FrozenKeyMold: {
+		DisplayName: Frozen Key Mold
+		Tooltip: Used to create the frozen key
+	}
+
+	HallowedKeyMold: {
+		DisplayName: Hallowed Key Mold
+		Tooltip: Used to create the hallowed key
+	}
+
+	JungleKeyMold: {
+		DisplayName: Jungle Key Mold
+		Tooltip: Used to create the jungle key
+	}
+
+	EclipseFishingCrate: {
+		DisplayName: Eclipse Fishing Crate
+		Tooltip: <right> to open
+	}
+
+	HiveFishingCrate: {
+		DisplayName: Hive Fishing Crate
+		Tooltip: <right> to open
+	}
+
+	ChristmasTreeFishingRod: {
+		DisplayName: Christmas Tree Fishing Rod
+		Tooltip: Sublime
+	}
+
+	CandyCaneFishingRod: {
+		DisplayName: Candy Cane Fishing Rod
+		Tooltip: '''"It tastes a lot like mint!"'''
+	}
+
+	GingerbreadCookieFish: {
+		DisplayName: Gingerbread Cookie Fish
+		Tooltip: Its benefits are good, but the taste is horrible
+	}
+
+	GingerbreadCookieBait: {
+		DisplayName: Gingerbread Cookie Bait
+		Tooltip: I wouldn't recommend you eat it...
+	}
+
+	LihzahrdCrate: {
+		DisplayName: Lihzahrd Temple Crate
+		Tooltip: <right> to open
+	}
+
+	CavernsCrate: {
+		DisplayName: Caverns Crate
+		Tooltip: <right> to open
+	}
+
+	MarbleCrate: {
+		DisplayName: Marble Crate
+		Tooltip: <right> to open
+	}
+
+	PumpkinCrate: {
+		DisplayName: Pumpkin Crate
+		Tooltip: <right> to open
+	}
+
+	PresentCrate: {
+		DisplayName: Present Crate
+		Tooltip: <right> to open
+	}
+
+	ShroomiteClawFishingPole: {
+		DisplayName: Shroomite Claw Fishing Pole
+		Tooltip:
+			'''
+			<right> to use as a fishing rod
+			"They are supposed to be claws on a fishing rod!??"
+			'''
+	}
+
+	PakoCaña: {
+		DisplayName: Pako Fishing Rod
+		Tooltip: "[c/FF0000: - Donor Item -]"
+	}
+
+	MoltenHat: {
+		SetBonus:
+			'''
+			The more fishing power you have, the greater the stat increases
+			10% extra melee damage
+			Cannot be set on fire
+			'''
+		DisplayName: Molten Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			7% increased melee critical strike chance
+			'''
+	}
+
+	JungleBucketHat: {
+		SetBonus:
+			'''
+			16% reduced mana costs
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Jungle Bucket Hat
+		Tooltip:
+			'''
+			Increases fishing power by 8
+			Increases maximum mana by 40
+			6% increased magic critical strike chance
+			'''
+	}
+
+	NecroHat: {
+		SetBonus:
+			'''
+			10% increased ranged critical strike chance
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Necro Hat
+		Tooltip:
+			'''
+			Increases fishing power by 12
+			5% increased ranged damage
+			'''
+	}
+
+	FossilHat: {
+		SetBonus:
+			'''
+			20% chance to save ammo
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Fossil Hat
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			4% increased ranged critical strike chance
+			'''
+	}
+
+	ShadowHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 7
+			5% increased critical strike chance
+			'''
+		DisplayName: Shadow Hat
+		SetBonus:
+			'''
+			Increased movement speed and acceleration
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	CrimsonHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 9
+			3% increased damage
+			'''
+		DisplayName: Crimson Hat
+		SetBonus:
+			'''
+			Greatly increased life regen
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	FishKnuckles: {
+		DisplayName: Fish Knuckles
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			7% Increases melee damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	TacticalPuffeFish: {
+		DisplayName: Tactical Puffe Fish
+		Tooltip: ""
+	}
+
+	GemHeadband: {
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			5% increased magic damage
+			Increases maximum mana by 20
+			'''
+		DisplayName: Gem Headband
+		SetBonus:
+			'''
+			Increases maximum mana by 20
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	FlinxFurHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 2
+			Increases summon damage by 5%
+			'''
+		DisplayName: Flinx Fur Hat
+		SetBonus:
+			'''
+			Increases whip speed by 5%
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	GemHeadband2: {
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			5% increased magic damage
+			Increases maximum mana by 20
+			'''
+		DisplayName: Gem Headband2
+		SetBonus:
+			'''
+			Increases maximum mana by 20
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	TheBeeHat: {
+		SetBonus:
+			'''
+			Increases summon damage by 10%
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: The Bee Hat
+		Tooltip:
+			'''
+			Increases fishing power by 4
+			Increases summon damage by 4%
+			Increases your max number of minions by 1
+			'''
+	}
+
+	ObsidianVisorHat: {
+		SetBonus:
+			'''
+			Increases whip range by 30% and speed by 15%,
+			Increases summon damage by 15%
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Obsidian Visor Hat
+		Tooltip:
+			'''
+			Increases summon damage by 8%
+			Increases fishing power by 10
+			'''
+	}
+
+	NecklaceFin: {
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			5% increased magic damage
+			Increases magic speed attacks by 5%
+			'''
+		DisplayName: Necklace Fin
+	}
+
+	RingFish: {
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			Increases your max number of minions by 1
+			Increases whip speed by 5%
+			'''
+		DisplayName: Ring Fish
+	}
+
+	GripGlove: {
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			5% increased ranged damage
+			Increases ranged speed attacks by 5%
+			'''
+		DisplayName: Grip Glove
+	}
+
+	ManaNecklace: {
+		DisplayName: Mana Necklace
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			8% increased magic damage
+			Increases magic speed attacks by 8%
+			Increases maximum mana by 40
+			12% reduced mana cost
+			Automatically use mana potions when needed
+			'''
+	}
+
+	FishVoodooDoll: {
+		DisplayName: Fish Voodoo Doll
+		Tooltip:
+			'''
+			Increases fishing power by 10
+			Increases your max number of minions by 1
+			Increases summon damage by 10%
+			'''
+	}
+
+	SharkFinGrip: {
+		DisplayName: Shark Fin Grip
+		Tooltip:
+			'''
+			Increases fishing power by 10
+			8% increased ranged critical strike chance
+			Increases ranged speed attacks by 8%
+			"How does this work on bows!!??"
+			'''
+	}
+
+	SharkTeeth: {
+		DisplayName: Shark Teeth
+		Tooltip:
+			'''
+			Increases fishing power by 10
+			8% increased melee critical strike chance
+			Increased armor penetration by 20
+			'''
+	}
+
+	MagicRuneFish: {
+		DisplayName: Magic Rune Fish
+		Tooltip:
+			'''
+			Increases fishing power by 10
+			8% increased ranged damage
+			10% increased ranged critical strike chance
+			'''
+	}
+
+	CobaltMagicHat: {
+		SetBonus:
+			'''
+			14% reduced mana costs
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Cobalt Magic Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			Increases maximum mana by 40
+			10% increased magic damage
+			9% increased magic critical strike chance
+			'''
+	}
+
+	CobaltSummonerHat: {
+		SetBonus: Increases your max number of minions by 2
+		DisplayName: Cobalt Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			Increases summon damage by 10%
+			'''
+	}
+
+	CobaltGlasses: {
+		SetBonus:
+			'''
+			20% chance to save ammo
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Cobalt Glasses
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			10% increased ranged damage
+			10% increased ranged critical strike chance
+			'''
+	}
+
+	CobaltMeleeHat: {
+		SetBonus:
+			'''
+			15% increased melee speed
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Cobalt Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			10% increased movement speed
+			15% increased melee damage
+			'''
+	}
+
+	test: {
+		SetBonus: Mods.FishinRodZenith.Items.test.SetBonus
+		DisplayName: test
+		Tooltip: ""
+	}
+
+	PalladiumBlindfold: {
+		SetBonus:
+			'''
+			Greatly increases life regeneration after striking an enemy
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Palladium Blindfold
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			9% increased ranged damage
+			9% increased ranged critical strike chance
+			'''
+	}
+
+	PalladiumMagicHat: {
+		SetBonus:
+			'''
+			Greatly increases life regeneration after striking an enemy
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Palladium Magic Hat
+		Tooltip:
+			'''
+			9% increased magic damage and critical strike chance
+			Increases maximum mana by 60
+			Increases fishing power by 15
+			'''
+	}
+
+	PalladiumSummonerHat: {
+		SetBonus:
+			'''
+			Greatly increases life regeneration after striking an enemy
+			Increases your max number of minions by 1
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Palladium Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			Increases summon damage by 12%
+			'''
+	}
+
+	PalladiumWarriorHat: {
+		SetBonus:
+			'''
+			Greatly increases life regeneration after striking an enemy
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Palladium Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 15
+			12% increased melee damage
+			12% increased melee speed
+			'''
+	}
+
+	MythrilMagicHat: {
+		SetBonus:
+			'''
+			17% reduced mana costs
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Mythril Magic Hat
+		Tooltip:
+			'''
+			Increases fishing power by 20
+			Increases maximum mana by 60
+			15% increased magic damage
+			'''
+	}
+
+	MythrilMonocle: {
+		SetBonus:
+			'''
+			20% chance to save ammo
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Mythril Monocle
+		Tooltip:
+			'''
+			Increases fishing power by 20
+			12% increased ranged damage
+			7% increased ranged critical strike chance
+			'''
+	}
+
+	MythrilSummonerHat: {
+		SetBonus:
+			'''
+			Increases your max number of minions by 1
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Mythril Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 20
+			Increases summon damage by 14%
+			'''
+	}
+
+	MythrilWarriorHat: {
+		SetBonus:
+			'''
+			10% increased melee critical strike chance
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Mythril Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 20
+			8% increased melee critical strike chance
+			10% increased melee damage
+			'''
+	}
+
+	OrichalcumMagicHat: {
+		SetBonus:
+			'''
+			Flower petals will fall on your target for extra damage
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Orichalcum Magic Hat
+		Tooltip:
+			'''
+			Increases fishing power by 25
+			18% increased magic critical strike chance
+			Increases maximum mana by 80
+			'''
+	}
+
+	OrichalcumSummonerHat: {
+		SetBonus:
+			'''
+			Flower petals will fall on your target for extra damage
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Orichalcum Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 25
+			Increases summon damage by 10%
+			Increases your max number of minions by 1
+			'''
+	}
+
+	OrichalcumCap: {
+		SetBonus:
+			'''
+			Flower petals will fall on your target for extra damage
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Orichalcum Cap
+		Tooltip:
+			'''
+			Increases fishing power by 25
+			15% increased ranged critical strike chance
+			8% increased movement speed
+			'''
+	}
+
+	OrichalcumWarriorHat: {
+		SetBonus:
+			'''
+			Flower petals will fall on your target for extra damage
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Orichalcum Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 25
+			11% increased melee damage and melee speed
+			7% increased movement speed
+			'''
+	}
+
+	AdamantiteVisor: {
+		SetBonus:
+			'''
+			25% chance to save ammo
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Adamantite Visor
+		Tooltip:
+			'''
+			Increases fishing power by 30
+			14% increased ranged damage
+			10% increased ranged critical strike chance
+			'''
+	}
+
+	AdamantiteMagicHat: {
+		SetBonus:
+			'''
+			19% reduced mana costs
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Adamantite Magic Hat
+		Tooltip:
+			'''
+			Increases fishing power by 30
+			Increases maximum mana by 80
+			12% increased magic damage and critical strike chance
+			'''
+	}
+
+	AdamantiteWarriorHat: {
+		SetBonus:
+			'''
+			20% increased melee and movement speed
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Adamantite Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 30
+			7% increased melee critical strike chance
+			14% increased melee damage
+			'''
+	}
+
+	AdamantiteSummonerHat: {
+		SetBonus:
+			'''
+			Increases your max number of minions by 1
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Adamantite Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 30
+			Increases summon damage by 14%
+			Increases your max number of minions by 2
+			'''
+	}
+
+	MeteorHat: {
+		SetBonus:
+			'''
+			Space Gun costs 0 mana
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Meteor Hat
+		Tooltip:
+			'''
+			Increases fishing power by 5
+			9% increased magic damage
+			'''
+	}
+
+	TitaniumGlasses: {
+		SetBonus:
+			'''
+			Attacking generates a defensive barrier of titanium shards
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Titanium Glasses
+		Tooltip:
+			'''
+			Increases fishing power by 35
+			16% increased ranged damage
+			7% increased ranged critical strike chance
+			'''
+	}
+
+	TitaniumSummonerHat: {
+		SetBonus:
+			'''
+			Attacking generates a defensive barrier of titanium shards
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Titanium Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 35
+			Increases summon damage by 8%
+			Increases your max number of minions by 1
+			'''
+	}
+
+	TitaniumEarring: {
+		SetBonus:
+			'''
+			Attacking generates a defensive barrier of titanium shards
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Titanium Earring
+		Tooltip:
+			'''
+			Increases fishing power by 35
+			16% increased magic damage and 7% increased magic critical strike chance
+			Increases maximum mana by 100
+			'''
+	}
+
+	TitaniumWarriorHat: {
+		SetBonus:
+			'''
+			Attacking generates a defensive barrier of titanium shards
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Titanium Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 35
+			9% increased melee damage and critical strike chance
+			9% increased melee speed
+			'''
+	}
+
+	HitModifiersShowcase: {
+		DisplayName: Hit Modifiers Showcase
+		Tooltip: ""
+	}
+
+	HallowedSummonerHat: {
+		SetBonus:
+			'''
+			Increases your max number of minions by 2
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Hallowed Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 40
+			Increases your max number of minions by 1
+			Increases summon damage by 10%
+			'''
+	}
+
+	HallowedMageHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 40
+			Increases maximum mana by 100
+			12% increased magic damage and critical strike chance
+			'''
+		DisplayName: Hallowed Mage Hat
+		SetBonus:
+			'''
+			20% reduced mana usage
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	HallowedCap: {
+		Tooltip:
+			'''
+			Increases fishing power by 40
+			10% increased melee damage and critical strike chance
+			10% increased melee speed
+			'''
+		DisplayName: Hallowed Cap
+		SetBonus:
+			'''
+			19% increased melee and movement speed
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	HallowedRangedHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 40
+			15% increased ranged damage
+			8% increased ranged critical strike chance
+			'''
+		DisplayName: Hallowed Ranged Hat
+		SetBonus:
+			'''
+			25% chance to not consume ammo
+			The more fishing power you have, the greater the stat increases
+			'''
+	}
+
+	ChlorophyteBandana: {
+		SetBonus:
+			'''
+			Summons a powerful leaf crystal to shoot at nearby enemies
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Chlorophyte Bandana
+		Tooltip:
+			'''
+			16% increased ranged damage
+			20% chance to save ammo
+			Increases fishing power by 45
+			'''
+	}
+
+	ChlorophyteWarriorHat: {
+		SetBonus:
+			'''
+			Summons a powerful leaf crystal to shoot at nearby enemies
+			Reduces damage taken by 5%
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Chlorophyte Warrior Hat
+		Tooltip:
+			'''
+			Increases fishing power by 45
+			16% increased melee damage
+			6% increased melee critical strike chance
+			'''
+	}
+
+	ChlorophyteSummonerHat: {
+		SetBonus:
+			'''
+			Summons a powerful leaf crystal to shoot at nearby enemies
+			All melee attacks are infused with venom
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Chlorophyte Summoner Hat
+		Tooltip:
+			'''
+			Increases fishing power by 45
+			Increases summon damage by 20%
+			Increases whip range by 20%
+
+			'''
+	}
+
+	ChlorophyteEarring: {
+		SetBonus:
+			'''
+			Summons a powerful leaf crystal to shoot at nearby enemies
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Chlorophyte Earring
+		Tooltip:
+			'''
+			Increases fishing power by 45
+			Increases maximum mana by 80 and 17% reduced mana cost
+			16% increased magic damage
+			'''
+	}
+
+	NauticalShield: {
+		DisplayName: Nautical Shield
+		Tooltip:
+			'''
+			Grants immunity to knockback and fire blocks
+			Grants immunity to most debuffs
+			Greatly increases fishing capacity
+			Grants the effect of Fishing
+			Reduces damage taken by 15%
+			'''
+	}
+
+	LifeFishNecklace: {
+		Tooltip:
+			'''
+			Increases fishing power by 10
+			Slightly increases health regeneration
+			Increases maximum health by 35
+			Slightly reduces movement speed and damage
+			'''
+		DisplayName: Life Fish Necklace
+	}
+
+	LifeFruitFishNecklace: {
+		Tooltip:
+			'''
+			Increases fishing power by 20
+			Moderately increases health regeneration
+			Increases maximum health by 65
+			Moderately reduces movement speed and damage
+			'''
+		DisplayName: Life Fruit Fish Necklace
+	}
+
+	LifeOceanFishNecklace: {
+		Tooltip:
+			'''
+			Increases fishing power by 35
+			Greatly increases health regeneration
+			Increases maximum health by 100
+			Greatly reduces movement speed and damage
+			'''
+		DisplayName: Life Ocean Fish Necklace
+	}
+
+	TurtleHat: {
+		SetBonus:
+			'''
+			Attackers also take double damage
+			Reduces damage taken by 15%
+			The more fishing power you have, the greater the stat increases
+			'''
+		DisplayName: Turtle Hat
+		Tooltip:
+			'''
+			Increases fishing power by 50
+			6% increased melee damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	BeetleMask: {
+		SetBonus: The more fishing capacity you have, the greater the damage reduction and defense
+		DisplayName: Beetle Mask
+		Tooltip:
+			'''
+			Increases fishing power by 55
+			6% increased melee damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	BeetleHat: {
+		SetBonus: The more fishing capacity you have, the greater the damage and melee speed
+		DisplayName: Beetle Hat
+		Tooltip:
+			'''
+			Increases fishing power by 55
+			6% increased melee damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	SolarFlareHat: {
+		Tooltip:
+			'''
+			Increases fishing power by 60
+			26% increased melee critical strike chance
+			Grants minor life regeneration
+			Enemies are more likely to target you
+			'''
+		DisplayName: Solar Flare Hat
+		SetBonus: The more fishing capacity you have, the greater the damage reduction, defense, damage increase and melee speed
+	}
+
+	SpectreHat: {
+		SetBonus:
+			'''
+			Reduces magic damage by 40% and mana by 40 but increases
+			the speed of magical attacks by 15% and also the regeneration of life and mana
+			If you have a greater fishing capacity, the statistics will be changed to offensive ones 
+			and the previous ones will be cancelled
+			'''
+		DisplayName: Spectre Hat
+		Tooltip:
+			'''
+			Increases fishing power by 55
+			Increases maximum mana by 100
+			6% increased magic damage
+			10% reduced mana cost
+			'''
+	}
+
+	NebulaDiadem: {
+		SetBonus:
+			'''
+			Increases magical attacks by 15%
+			Increases health regeneration
+			Increases mana regeneration
+			The more fishing capacity you have, the greater the damage and regeneration increases
+			'''
+		DisplayName: Nebula Diadem
+		Tooltip:
+			'''
+			Increases fishing power by 60
+			Increases maximum mana by 60 and 15% reduced mana cost
+			7% increased magic damage and critical strike chance
+			'''
+	}
+
+	ShroomiteHat: {
+		SetBonus:
+			'''
+			20% increased ranged damage 
+			10% increased ranged critical strike chance
+			reduces the chance of enemies targeting you
+			The more fishing capacity you have, the greater the ranged damage and critical increases will be
+			'''
+		DisplayName: Shroomite Hat
+		Tooltip:
+			'''
+			Increases fishing power by 55
+			15% increased ranged damage 
+			5% increased ranged critical strike chance
+			'''
+	}
+
+	VortexVisor: {
+		SetBonus:
+			'''
+			27% increased ranged damage 
+			15% increased ranged critical strike chance
+			reduces the chance of enemies targeting you
+			The more fishing capacity you have, the greater the ranged damage and critical increases will be
+			'''
+		DisplayName: Vortex Visor
+		Tooltip:
+			'''
+			Increases fishing power by 60
+			16% increased ranged damage 
+			7% increased ranged critical strike chance
+			"The damage its over 9000!!!"
+			'''
+	}
+
+	StardustEarring: {
+		SetBonus:
+			'''
+			Increases movement speed by 25%
+			Considerably increases defense
+			Reduces damage taken by 25%
+			The more fishing capacity you have, the greater the stat increases will be
+			'''
+		DisplayName: Stardust Earring
+		Tooltip:
+			'''
+			Increases fishing power by 60
+			Increases your max number of minions by 1
+			Increases your max number of sentries by 1
+			Increases summon damage by 22%
+			'''
+	}
+
+	leftovers: {
+		DisplayName: leftovers
+		Tooltip: Why would they sell this??... even though I think I can do something useful with this
+	}
+
+	DecentLeftovers: {
+		DisplayName: Decent Leftovers
+		Tooltip: It doesn't look as bad as it smells either...
+	}
+
+	GoodLeftovers: {
+		DisplayName: Good Leftovers
+		Tooltip: Well at least it looks good and somewhat appetizing.
+	}
+
+	MoonFish: {
+		DisplayName: Moon Fish
+		Tooltip:
+			'''
+			During nighttime, grants large increase in fishing capacity, movement speed,
+			and minor increase in damage reduction, maximum summons, block range, and armor penetration
+			'''
+	}
+
+	SunFish: {
+		DisplayName: Sun Fish
+		Tooltip:
+			'''
+			During the day, grants large increases in fishing capacity, movement speed,
+			and minor increases in damage reduction, maximum summons, block range, and armor penetration
+			'''
+	}
+
+	CelestialFish: {
+		DisplayName: Celestial Fish
+		Tooltip:
+			'''
+			Grants large increases in fishing capacity, movement speed,
+			and minor increases in damage reduction, maximum summons, block range, and armor penetration
+			To unleash the full potential of the fish you need to be at special events
+			'''
+	}
+
+	FishingQuestCount: {
+		DisplayName: Counter fishing quests
+		Tooltip: Show how many fishing quests the character has completed
+	}
+
+	Concentration_Potion: {
+		DisplayName: Concentration Potion
+		Tooltip: Increases the speed of ranged and magic attacks by 8%
+	}
+
+	ShinyGills: {
+		DisplayName: Shiny Gills
+		Tooltip: ""
+	}
+
+	DigitalReel: {
+		DisplayName: Digital Reel
+		Tooltip:
+			'''
+			Shows the amount of fishing capacity
+			"Don't forget the batteries!!!"
+			'''
+	}
+
+	EuphoriaPotion: {
+		DisplayName: Euphoria Potion
+		Tooltip: Increases melee and whip attack speed by 8%
+	}
+
+	BloodFish: {
+		DisplayName: Blood Fish
+		Tooltip: ""
+	}
+
+	ScourgePotion: {
+		DisplayName: Scourge Potion
+		Tooltip: Increases the range of whips by 20%
+	}
+
+	ElasticFish: {
+		DisplayName: Elastic Fish
+		Tooltip: ""
+	}
+
+	EnlargementPotion: {
+		DisplayName: Enlargement Potion
+		Tooltip: Increases the size of melee weapons by 20%
+	}
+
+	AnnoyingFish: {
+		DisplayName: Annoying Fish
+		Tooltip: '''"He's always angry with life... It reminds me of myself"'''
+	}
+
+	SuperFishingPotion: {
+		DisplayName: Super Fishing Potion
+		Tooltip: Increases fishing capacity by 45
+	}
+
+	FishingChip: {
+		DisplayName: Fishing Chip
+		Tooltip:
+			'''
+			Shows the number of fishing quests and the character's fishing capacity
+			"And only for $59.99 a month!!!"
+			'''
+	}
+
+	SombreroVaquero: {
+		DisplayName: Cowboy Hat
+		Tooltip: "[c/FF0000: - Donor Item -]"
+		SetBonus: Mods.FishinRodZenith.Items.SombreroVaquero.SetBonus
+	}
+
+	BotasVaqueras: {
+		DisplayName: Cowboy boots
+		Tooltip: "[c/FF0000: - Donor Item -]"
+	}
+
+	CamisaVaquera: {
+		DisplayName: Cowboy shirt
+		Tooltip: "[c/FF0000: - Donor Item -]"
+	}
+
+	Logro1Relic: {
+		DisplayName: Zenith Fishing Rod Relic
+		Tooltip:
+			'''
+			Create the Zenith Fishing Rod for the first time
+			"Hi ;)"
+			'''
+	}
+
+	Logro2Relic: {
+		DisplayName: Annoying Fish Relic
+		Tooltip:
+			'''
+			Complete 500 fishing quests...
+			"There is no rest for the fishermen"
+			'''
+	}
+
+	Logro3Relic: {
+		DisplayName: Fishing to Death Relic
+		Tooltip:
+			'''
+			Complete 1000 fishing quests
+			"So much free time to do 1000 fishing quests?"
+			'''
+	}
+
+	Logro4Relic: {
+		DisplayName: Fishing is a serious thing... Relic
+		Tooltip:
+			'''
+			Reaches 500 or more fishing capacity
+			"I am not the one who goes fishing, I am the Fisherman!!"
+			'''
+	}
+
+	MultipleStringFrame: {
+		DisplayName: Multiple String Frame
+		Tooltip:
+			'''
+			Add 2 more bobbers to the fishing rod
+			"If one bobber doesn't work, use more bobbers"
+			'''
+	}
+
+	AdditionalPieceOfString: {
+		DisplayName: Additional Piece Of String
+		Tooltip: Add 1 more bobber to the fishing rod
+	}
+
+	AdvancedLineGuide: {
+		DisplayName: Advanced Line Guide
+		Tooltip: Add 4 more bobbers to the fishing rod
+	}
+
+	FishingMasterEquipment: {
+		DisplayName: Fishing Master Equipment
+		Tooltip:
+			'''
+			Fishing line will never break, decreases chance of bait consumption, increases fishing power by 35
+			Allows fishing in lava
+			Add 4 more bobbers to the fishing rod
+			"Wait, there are some screws missing here!!!"
+			'''
+	}
+
+	RemainsOfTheLegendaryBait: {
+		DisplayName: Remains Of The Legendary Bait
+		Tooltip:
+			'''
+			Permanently boosts fishing skill by a large amount
+			"How did this get there?"
+			'''
+	}
+
+	FishingStepStool: {
+		DisplayName: Fishing Step Stool
+		Tooltip: '''"The key is to reach as high as possible"'''
+	}
+
+	CloudOfTempest: {
+		DisplayName: Cloud Of Tempest
+		Tooltip:
+			'''
+			Summons the tempest
+			"What a horrible tempest to have a curse, I better go fishing"
+			'''
+	}
+
+	MartianCrate: {
+		DisplayName: Martian Crate
+		Tooltip: <right> to open
+	}
+
+	BloodMoonCrate: {
+		DisplayName: Blood Moon Crate
+		Tooltip: <right> to open
+	}
+
+	GlowMushroomCrate: {
+		DisplayName: Glow Mushroom Crate
+		Tooltip: <right> to open
+	}
+
+	DigitalRodGrip: {
+		DisplayName: Digital Rod Grip
+		Tooltip:
+			'''
+			Increases mining speed based on fishing capacity
+			"Why can't this be put on fishing rods but it can on mining pickaxes??!!"
+			'''
+	}
+
+	StarterBag: {
+		DisplayName: Fishing starter bag
+		Tooltip: <right> to open
+	}
+}
+
+Projectiles: {
+	bobber: {
+		DisplayName: bobber
+	}
+
+	Fishinrodzenith: {
+		DisplayName: Fishinrodzenith
+	}
+
+	ExampleBobber: {
+		DisplayName: Example Bobber
+	}
+
+	BobberGrass: {
+		DisplayName: Bobber Grass
+	}
+
+	BoneBobber: {
+		DisplayName: Bone Bobber
+	}
+
+	TridentBobber: {
+		DisplayName: Trident Bobber
+	}
+
+	NightBobber: {
+		DisplayName: Night Bobber
+	}
+
+	TrueNightsBobber: {
+		DisplayName: True Nights Bobber
+	}
+
+	HollyBobber: {
+		DisplayName: Holly Bobber
+	}
+
+	TrueHollyBobber: {
+		DisplayName: True Holly Bobber
+	}
+
+	TerraBobber: {
+		DisplayName: Terra Bobber
+	}
+
+	CopperBobber: {
+		DisplayName: Copper Bobber
+	}
+
+	StarBobber: {
+		DisplayName: Star Bobber
+	}
+
+	EnchantedBobber: {
+		DisplayName: Enchanted Bobber
+	}
+
+	BeeBobber: {
+		DisplayName: Bee Bobber
+	}
+
+	FlamingJackBobber: {
+		DisplayName: Flaming Jack Bobber
+	}
+
+	InfluxWaverBobber: {
+		DisplayName: Influx Waver Bobber
+	}
+
+	SeedlerBobber: {
+		DisplayName: Seedler Bobber
+	}
+
+	StarWrathBobber: {
+		DisplayName: Star Wrath Bobber
+	}
+
+	MeowmereBobber: {
+		DisplayName: Meowmere Bobber
+	}
+
+	ZenithBobber: {
+		DisplayName: Zenith Bobber
+	}
+
+	MinerBobber: {
+		DisplayName: Miner Bobber
+	}
+
+	MagneticBobber: {
+		DisplayName: Magnetic Bobber
+	}
+
+	PrismaBobber: {
+		DisplayName: Prisma Bobber
+	}
+
+	RegrowthBobber: {
+		DisplayName: Regrowth Bobber
+	}
+
+	ZenithBobberv2: {
+		DisplayName: Zenith Bobberv2
+	}
+
+	ChristmasTreeBobber: {
+		DisplayName: Christmas Tree Bobber
+	}
+
+	CandyBobber: {
+		DisplayName: Candy Bobber
+	}
+
+	ShroomiteBobber: {
+		DisplayName: Shroomite Bobber
+	}
+
+	FierroBobber: {
+		DisplayName: Fierro Bobber
+	}
+
+	FishingStepStoolBobber: {
+		DisplayName: Fishing Step Stool Bobber
+	}
+}
+
+Buffs: {
+	ExampleCrateBuff: {
+		DisplayName: Super Crate
+		Description: Increases the chance of fishing crates by 30%
+	}
+
+	FishingPowerBuff: {
+		Description: Increases the chance of catching higher rarity fish
+		DisplayName: Lucky Fishing
+	}
+
+	CelestialPowerBuff: {
+		DisplayName: Power of the Celestial Fish
+		Description: Embrace the great heavenly power, great fisherman, and FISH THEM ALL!!!
+	}
+
+	ConcentrationBuff: {
+		DisplayName: Concentration
+		Description: Increases the speed of ranged and magic attacks by 8%
+	}
+
+	EuphoriaBuff: {
+		DisplayName: Euphoria
+		Description: Increases melee and whip attack speed by 8%
+	}
+
+	ScourgeBuff: {
+		DisplayName: Scourge
+		Description: Increases the range of whips by 20%
+	}
+
+	EnlargementBuff: {
+		DisplayName: Enlargement
+		Description: Increases the size of melee weapons by 20%
+	}
+
+	SuperFishingBuff: {
+		DisplayName: Super Fishing
+		Description: Greatly increases fishing capacity
+	}
+
+	LegendaryFishermanDebuff: {
+		DisplayName: Curse of the Legendary Fisherman
+		Description: You have been cursed by the legendary fisherman...
+	}
+}
+
+Tiles: {
+	EclipseFishingCrateTile: {
+		MapEntry: Eclipse Fishing Crate Tile
+	}
+
+	HiveFishingCrateTile: {
+		MapEntry: Hive Fishing Crate Tile
+	}
+
+	LihzahrdCrateTile: {
+		MapEntry: Lihzahrd Crate Tile
+	}
+
+	CavernsCrateTile: {
+		MapEntry: Caverns Crate Tile
+	}
+
+	MarbleCrateTile: {
+		MapEntry: Marble Crate Tile
+	}
+
+	PumpkinCrateTile: {
+		MapEntry: Pumpkin Crate Tile
+	}
+
+	PresentCrateTile: {
+		MapEntry: Present Crate Tile
+	}
+
+	MartianCrateTile: {
+		MapEntry: Martian Crate Tile
+	}
+
+	BloodMoonCrateTile: {
+		MapEntry: Blood Moon Crate Tile
+	}
+
+	GlowMushroomCrateTile: {
+		MapEntry: Glow Mushroom Crate Tile
+	}
+}
+
+Prefixes: {
+	PowerTooltip: ""
+
+	PrefixPescaLv1: {
+		AdditionalTooltip: increases fishing power by 1
+		DisplayName: Sardine
+	}
+
+	PrefixPescaLv2: {
+		AdditionalTooltip: increases fishing power by 2
+		DisplayName: Novice Fisherman
+	}
+
+	PrefixPescaLv3: {
+		AdditionalTooltip: increases fishing power by 3
+		DisplayName: Trout
+	}
+
+	PrefixPescaLv4: {
+		AdditionalTooltip: increases fishing power by 4
+		DisplayName: Shark
+	}
+
+	PrefixPescaLv5: {
+		AdditionalTooltip: increases fishing power by 5
+		DisplayName: Master Fisherman
+	}
+}
+
+InfoDisplays: {
+	FishingSkillInfoDisplay: {
+		DisplayName: Total Fishing Capacity
+		FishingSkillInfoDisplayName: Fishing Capacity
+		NonFishingSkill: Nuh uh
+	}
+
+	QuestInfoDisplay: {
+		DisplayName: Fishing quest
+		InfoDisplayName: Quests
+		NonQuest: Fishing diff??
+	}
+}
+
+Common: {
+	Players: {
+		AchievementUnlocked: Achievement unlocked: No fishing, no life
+		AchievementUnlocked2: Achievement Unlocked: Fishing to Death
+		AchievementUnlocked3: Achievement Unlocked: Fishing is a serious thing...
+		CraftingAchievementUnlocked: Achievement Unlocked: Zenith Fishing Rod
+		WorldMessage: Legendary Fisherman: You've caught a lot more fish than you should have
+		WorldMessage2: Legendary Fisherman:but then you haven't met the Legendary Fisherman either
+		WorldMessage3: Legendary Fisherman:Your fishing is over, Little Fisherman.
+		WorldMessage4: Legendary Fisherman:Time to die.
+		EventStart: The wind whispers furiously and the water drops fall aggressively, this is not just any rain...
+		EventEnd: The wind has stopped and the clouds are beginning to disperse
+	}
+
+	LegendaryFishermanDropDescription: Drops when the world is in master mode and the world seed is 'Legendary Fisherman'
+}
+
+Configs: {
+	ModConfigSettings: {
+		DisplayName: Mod Config Settings
+
+		EnableReforges: {
+			Label: Enable Reforges
+			Tooltip: If disabled, no new reforges from this mod will be applied.
+		}
+	}
+
+	MyModClientConfig: {
+		DisplayName: Mod Client Settings
+
+		enableReforges: {
+			Label: Enable Reforges (Client)
+			Tooltip:
+				'''
+				If you disable it, the reforges added by the mod will no longer appear when reforging again 
+				*NOTE: the reforges already applied will still be kept in the accessories*
+				'''
+		}
+
+		enableStarterBag: {
+			Label: Enable Starter Bag (Client)
+			Tooltip: If you disable this, the fishing starter bag will no longer be dropped for characters who are new to the worlds
+		}
+	}
+
+	MyModConfig: {
+		DisplayName: Mod Server Settings
+
+		enableReforges: {
+			Label: Enable Reforges (Server)
+			Tooltip:
+				'''
+				If you disable it, the reforges added by the mod will no longer appear when reforging again 
+				*NOTE: the reforges already applied will still be kept in the accessories*(These changes only apply if you are the Host of the server)
+				'''
+		}
+
+		enableStarterBag: {
+			Label: Enable Starter Bag (Server)
+			Tooltip:
+				'''
+				If you disable this, the fishing starter bag will no longer be dropped for characters who are new to the worlds
+				(These changes only apply if you are the Host of the server)
+				'''
+		}
+	}
+}
+

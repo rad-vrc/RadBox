@@ -1,0 +1,1061 @@
+Items: {
+	PetrifiedSafe: {
+		DisplayName: 石化した金庫
+		Tooltip:
+			'''
+			アイテムを保管するための飛行する金庫を召喚する
+			[c/ff0000:pbone Utilitiesのポータブルストレージアイテムは現在非常に壊れています。]
+			[c/ff0000:使用しないことを強くお勧めします。]
+			'''
+	}
+
+	DefendersCrystal: {
+		DisplayName: ディフェンダーズクリスタル
+		Tooltip:
+			'''
+			ディフェンダーの炉にアクセスできるクリスタルを召喚する
+			[c/ff0000:pbone Utilitiesのポータブルストレージアイテムは現在非常に壊れています。]
+			[c/ff0000:使用しないことを強くお勧めします。]
+			'''
+	}
+
+	BottomlessHoneyBucket: {
+		DisplayName: そこなしのハチミツいりバケツ
+		Tooltip:
+			'''
+			無限の量のハチミツが入っている
+			注ぎ出すことができる
+			'''
+	}
+
+	SuperSweetSponge: {
+		DisplayName: スポンジケーキ
+		Tooltip: 無限の量のハチミツを吸収できる
+	}
+
+	BottomlessLavaBucket: {
+		DisplayName: そこなしのようがんいりバケツ
+		Tooltip:
+			'''
+			無限の量の溶岩が入っている
+			注ぎ出すことができる
+			'''
+	}
+
+	HeatAbsorbantSponge: {
+		DisplayName: 耐熱スポンジ
+		Tooltip: 無限の量の溶岩を吸収できる
+	}
+
+	LiquidCombo: {
+		DisplayName: マスタープラン
+		Tooltip:
+			'''
+			液体を究極的にコントロールできる！
+			手に持って右クリックで設定を編集
+			'''
+	}
+
+	DeluxeTreasureMagnet: {
+		DisplayName: デラックス・トレジャー・マグネット
+		Tooltip:
+			'''
+			アイテムの取得範囲を大幅に拡大する
+			インベントリ内で機能する
+			インベントリで右クリックしてオン/オフを切り替える
+			'''
+	}
+
+	HallowedMagnet: {
+		DisplayName: 神聖な宝の磁石
+	}
+
+	SpectreTreasureMagnet: {
+		DisplayName: スペクター・トレジャー・マグネット
+		Tooltip:
+			'''
+			近くのアイテムをインベントリにテレポートさせる
+			インベントリ内で機能する
+			インベントリで右クリックしてオン/オフを切り替える
+			'''
+	}
+
+	RunicTreasureMagnet: {
+		DisplayName: ルーンの宝の磁石
+		Tooltip:
+			'''
+			近くのアイテムを素早くインベントリにテレポートさせる
+			インベントリ内で機能する
+			インベントリで右クリックしてオン/オフを切り替える
+			「おそらく、月は引き下ろさないだろう」
+			'''
+	}
+
+	MoonLordTreasureMagnet: {
+		DisplayName: エルドリッチ・トレジャー・マグネット
+		Tooltip:
+			'''
+			近くのアイテムを音速でインベントリにテレポートさせる
+			インベントリ内で機能する
+			インベントリで右クリックしてオン/オフを切り替える
+			「さて、これで月を引き下ろせるかもしれない」
+			'''
+	}
+
+	FluxCapacitor: {
+		DisplayName: フラックス・キャパシター
+		Tooltip:
+			'''
+			夜から昼へと切り替える
+			右クリックで時間の高速化を切り替える
+			「1.21ギガワットを保持している！」
+			'''
+	}
+
+	AmuletOfRain: {
+		DisplayName: 雨のアミュレット
+		Tooltip:
+			'''
+			雨を開始または停止させる
+			「天国への片道切符」
+			'''
+	}
+
+	AmuletOfSandstorms: {
+		DisplayName: 砂嵐のアミュレット
+		Tooltip:
+			'''
+			砂嵐を開始または停止させる
+			「ザラザラしてて、荒い」
+			'''
+	}
+
+	EndlessFlamingArrow: {
+		DisplayName: 無限炎のクイーパー
+		Tooltip: ""
+	}
+
+	EndlessUnholyArrow: {
+		DisplayName: 無限アンホーリークイーパー
+		Tooltip: ""
+	}
+
+	EndlessJesterArrow: {
+		DisplayName: 無限ジェスタークイーパー
+		Tooltip: ""
+	}
+
+	EndlessHellfireArrow: {
+		DisplayName: 無限ヘルファイアクイーパー
+		Tooltip: ""
+	}
+
+	EndlessHolyArrow: {
+		DisplayName: 無限ホーリークイーパー
+		Tooltip: ""
+	}
+
+	EndlessCursedArrow: {
+		DisplayName: 無限呪いクイーパー
+		Tooltip: ""
+	}
+
+	EndlessFrostburnArrow: {
+		DisplayName: 無限フロストバーンクイーパー
+		Tooltip: ""
+	}
+
+	EndlessChlorophyteArrow: {
+		DisplayName: 無限クロロファイトクイーパー
+		Tooltip: ""
+	}
+
+	EndlessIchorArrow: {
+		DisplayName: 無限イコルクイーパー
+		Tooltip: ""
+	}
+
+	EndlessVenomArrow: {
+		DisplayName: 無限ヴェノムクイーパー
+		Tooltip: ""
+	}
+
+	EndlessBoneArrow: {
+		DisplayName: 無限ボーンクイーパー
+		Tooltip: ""
+	}
+
+	EndlessLuminiteArrow: {
+		DisplayName: 無限ルミナイトクイーパー
+		Tooltip: ""
+	}
+
+	EndlessShimmerArrow: {
+		DisplayName: 無限シマークイーパー
+		Tooltip: ""
+	}
+
+	EndlessMeteorShot: {
+		DisplayName: 無限メテオポーチ
+		Tooltip: ""
+	}
+
+	EndlessSilverBullet: {
+		DisplayName: 無限シルバーポーチ
+		Tooltip: ""
+	}
+
+	EndlessTungstenBullet: {
+		DisplayName: 無限タングステンポーチ
+		Tooltip: ""
+	}
+
+	EndlessCrystalBullet: {
+		DisplayName: 無限クリスタルポーチ
+		Tooltip: ""
+	}
+
+	EndlessCursedBullet: {
+		DisplayName: 無限呪いポーチ
+		Tooltip: ""
+	}
+
+	EndlessChlorophyteBullet: {
+		DisplayName: 無限クロロファイトポーチ
+		Tooltip: ""
+	}
+
+	EndlessHighVelocityBullet: {
+		DisplayName: 無限高速ポーチ
+		Tooltip: ""
+	}
+
+	EndlessIchorBullet: {
+		DisplayName: 無限イコルポーチ
+		Tooltip: ""
+	}
+
+	EndlessVenomBullet: {
+		DisplayName: 無限ヴェノムポーチ
+		Tooltip: ""
+	}
+
+	EndlessPartyBullet: {
+		DisplayName: 無限パーティポーチ
+		Tooltip: ""
+	}
+
+	EndlessNanoBullet: {
+		DisplayName: 無限ナノポーチ
+		Tooltip: ""
+	}
+
+	EndlessExplodingBullet: {
+		DisplayName: 無限爆裂ポーチ
+		Tooltip: ""
+	}
+
+	EndlessGoldenBullet: {
+		DisplayName: 無限ゴールデンポーチ
+		Tooltip: ""
+	}
+
+	EndlessLuminiteBullet: {
+		DisplayName: 無限ルミナイトポーチ
+		Tooltip: ""
+	}
+
+	AsphaltPlatform: {
+		DisplayName: アスファルトプラットフォーム
+		Tooltip: 走行速度を増加させる
+	}
+
+	PreperationStation: {
+		DisplayName: 準備ステーション
+		Tooltip:
+			'''
+			右クリックすると、近接武器の装甲貫通力を高め、弾薬の使用量を減らし、
+			魔法の力を高め、より多くのミニオンとセントリーを持つことができる
+			設置しても消費されない
+			「ジュリエンヌフライも作れる！」
+			'''
+	}
+
+	BuffBrazier: {
+		DisplayName: バフの火鉢
+		Tooltip:
+			'''
+			近くにいると、ライフ回復、マナ回復、移動速度、防御力が上昇し、敵のスポーンレートが減少する
+			かなりの量の光を放つ
+			設置しても消費されない
+			'''
+	}
+
+	WormholeApp: {
+		DisplayName: ワームホールアプリ
+		Tooltip:
+			'''
+			携帯電話にインストールすると、無限のワームホール効果を提供する
+			このアイテムをマウスで拾い、インベントリ内の携帯電話を右クリックすることでインストールできる
+			'''
+	}
+
+	TeleportationApp: {
+		DisplayName: テレポーテーションアプリ
+		Tooltip:
+			'''
+			携帯電話にインストールすると、手に持って右クリックでテレポートできるようになる
+			このアイテムをマウスで拾い、インベントリ内の携帯電話を右クリックすることでインストールできる
+			'''
+	}
+
+	BagOfWorms: {
+		DisplayName: ミミズの袋
+		Tooltip: エサとして使用しても消費されない
+	}
+
+	Infiniworm: {
+		DisplayName: インフィニワーム
+		Tooltip:
+			'''
+			エサとして使用しても消費されない
+			「悟り」
+			'''
+	}
+
+	Gigaxe: {
+		DisplayName: ギガアックス
+		Tooltip:
+			'''
+			クリックしてドラッグでエリアを選択
+			選択したエリア内のすべての木が即座に伐採される
+			'''
+	}
+
+	FourLeafClover: {
+		DisplayName: 四つ葉のクローバー
+		Tooltip:
+			'''
+			幸運を表示する
+			「ラッキーだね！」
+			'''
+	}
+
+	CorruptedClover: {
+		DisplayName: コラプティクローバー
+		Tooltip:
+			'''
+			幸運を表示する
+			幸運をデフォルト値に固定する
+			「待て、トゲはどこだ？」
+			'''
+	}
+
+	GoldenClover: {
+		DisplayName: トレファリウム
+		Tooltip:
+			'''
+			幸運を表示する
+			幸運を増加させる
+			「金はちょっと派手だと思うけど…」
+			'''
+	}
+
+	BuildersEmblem: {
+		DisplayName: 建築家の紋章
+		Tooltip: ブロックと壁の設置速度が25%増加
+	}
+
+	MinersEmblem: {
+		DisplayName: 鉱夫の紋章
+		Tooltip: 採掘速度が15%増加
+	}
+
+	CreatorsEmblem: {
+		DisplayName: クリエイターの紋章
+		Tooltip:
+			'''
+			ブロックと壁の設置速度が25%増加
+			採掘速度が25%増加
+			'''
+	}
+
+	VoidPiggy: {
+		DisplayName: ヴォイドピギー
+		Tooltip:
+			'''
+			持ち歩くと、コインが自動的に貯金箱に送られる
+			機能させるには、貯金箱に少なくとも1枚のコインが必要
+			インベントリで右クリックしてオン/オフを切り替える
+			「エキゾチックな輸入品！」
+			'''
+	}
+
+	PhilosophersStone: {
+		DisplayName: プリママテリア
+		Tooltip:
+			'''
+			手に持って有効にすると、拾ったアイテムが自動的に売却される
+			インベントリで右クリックしてオン/オフを切り替える
+			「不死性は含まれていません」
+			'''
+	}
+
+	FlameOfBattle: {
+		DisplayName: 戦いの炎
+		Tooltip:
+			'''
+			スポーンレートとスポーン上限を大幅に増加させる
+			インベントリで右クリックしてオン/オフを切り替える
+			'''
+	}
+
+	FlameOfPeace: {
+		DisplayName: 平和の炎
+		Tooltip:
+			'''
+			スポーンレートとスポーン上限を大幅に減少させる
+			インベントリで右クリックしてオン/オフを切り替える
+			'''
+	}
+
+	GreaterStaffOfRegrowth: {
+		DisplayName: グリーン・スキーム
+		Tooltip: 左クリックしてドラッグすると、エリア内のハーブを収穫できる
+	}
+
+	ShadowPearl: {
+		DisplayName: シャドウパール
+		Tooltip: クラフト用の悪魔の祭壇として機能する
+	}
+
+	InfiniteMana: {
+		DisplayName: 無限マナ
+		Tooltip:
+			'''
+			ダメージが35%減少する
+			ミニオンスロットを1に設定する
+			無限のマナを付与する
+			'''
+	}
+
+	StarMagnet: {
+		DisplayName: スターマグネット
+		Tooltip:
+			'''
+			星の落下率を大幅に増加させる
+			インベントリで右クリックしてオン/オフを切り替える
+			「流れ星に注意」
+			'''
+	}
+
+	GreedyChest: {
+		DisplayName: 強欲な宝箱
+		Tooltip:
+			'''
+			敵がコインをドロップしなくなる
+			インベントリで右クリックしてオン/オフを切り替える
+			「オムノムノム」
+			'''
+	}
+
+	MagicLight: {
+		DisplayName: マジックライト
+		Tooltip:
+			'''
+			無限の、目に見えない光源を設置する
+			右クリックで光の色を変更する
+			このアイテムが有効な間は光源が見え、手に持っている間は常に見える
+
+			インベントリで右クリックしてオン/オフを切り替える
+			「光あれ！」
+			'''
+	}
+
+	HallowedTreasureMagnet: {
+		DisplayName: 神聖な宝の磁石
+		Tooltip:
+			'''
+			アイテムの取得範囲を大幅に拡大する
+			インベントリ内で機能する
+			インベントリで右クリックしてオン/オフを切り替える
+			'''
+	}
+
+	MountTester: {
+		DisplayName: マウントテスター
+		Tooltip: ""
+	}
+
+	TileTester: {
+		DisplayName: タイルテスター
+		Tooltip: ""
+	}
+}
+
+Conditions: {
+	DownedMechBosses: メカニカルボスを{0}体倒した後
+}
+
+TownChat: {
+	MysteriousTrader: {
+		1: 私がミュータントだって、どういう意味だ？
+		2: 天使の像が飛ぶのを見たことがあるかい？残念ながら、私はある。
+		3: 私はガラクタを売るのと詐欺の間のきわどい線を歩いている。
+		4: ねえ、引っ越してもいいと思うかい？家について話が尽きないクラブにいるんだ。
+		5: 母さんは構造支持体以外のことも学ぶべきだと言う。彼女は間違っている。
+		6: 地下室から商品を売っている。聞かないでくれ。
+		7: 早く何か買ってくれ、このローブは自分で縫うわけじゃないんだぞ！
+		8: クトゥルフを召喚するのに何人のカルト教団員が必要か？いや待て、今のは聞かなかったことにしてくれ。
+		9: 私はたくさんのレアアイテムを売っている…クトゥルフのな！
+	}
+
+	Miner: {
+		1: おお、ピカピカだ！
+		2: なぜ爆発物で採掘しないのかって？鉱石がダメになるからに決まってるだろ！
+		3: 俺のツルハシは国で一番古くて最高なんだ！
+		4: なあ、この金をコインに変えることもできるんだぜ。
+		5: 採掘もしないのにどこから鉱石を手に入れるかって？全部バックパックに入れてるんだ。
+		6: 聞いた話じゃ、適切な条件下で育てると固い金属でできた植物があるらしいぜ！
+		HardmodeOnly: 俺のコバルト鉱石を見てくれ、特別にピカピカだ。
+	}
+}
+
+TownNPCMood: {
+	MysteriousTrader: {
+		Content: 何か購入するには良い日だ！
+		NoHome: 家が欲しい。
+		LoveSpace: こんなに広いスペースがあるのが大好きだ。
+		FarFromHome: 家から遠く離れている。
+		DislikeCrowded: 人混みは好まない。
+		HateCrowded: 人混みは大嫌いだ。
+		LikeBiome: 私は{BiomeName}が好きだ。
+		LoveBiome: 私は{BiomeName}が大好きだ。
+		DislikeBiome: 私は{BiomeName}が嫌いだ。
+		HateBiome: 私は{BiomeName}が大嫌いだ。
+		LikeNPC: 私は{NPCName}が好きだ。
+		LikeNPC_Princess: 私は{NPCName}が好きだ。
+		LoveNPC: 私は{NPCName}が大好きだ。
+		DislikeNPC: 私は{NPCName}が嫌いだ。
+		HateNPC: 私は{NPCName}が大嫌いだ。
+	}
+
+	Miner: {
+		Content: 気分は上々だ。
+		NoHome: 休む場所が必要だ！
+		LoveSpace: 採掘するには十分なスペースだ！
+		FarFromHome: 鉱山で迷子になったみたいだ、家に帰りたい。
+		DislikeCrowded: ここにいる人の多さが気に入らない。
+		HateCrowded: 周りにこんなに人がいると閉所恐怖症になりそうだ！
+		LikeBiome: 「{BiomeName}は採掘に良い場所だ！」
+		LoveBiome: 私は{BiomeName}が大好きだ。ここには鉱石がたくさんある！
+		DislikeBiome: "{BiomeName}で採掘するのはかなり面倒だ。"
+		HateBiome: 私は{BiomeName}が大嫌いだ。この場所は私には合わない。
+		LikeNPC: 「{NPCName}と私は良い仲間だ。」
+		LikeNPC_Princess: 「{NPCName}は素晴らしい鉱夫だ、信じられないかもしれないが！」
+		LoveNPC: 私は{NPCName}が大好きだ、もしかしたら採掘よりも。
+		DislikeNPC: 私は{NPCName}のことはどうでもいい。
+		HateNPC: 「{NPCName}は全く最悪だ！」
+	}
+}
+
+Bestiary: {
+	Miner: 鉱夫は、採掘されたさまざまな種類の商品を喜んで売ってくれる。
+	MysteriousTrader: 謎の商人は、何かの…クラブに所属しているらしいローブを着た人物だ。彼らは世界の隅々から多くの雑多な品物を売っている。
+}
+
+Buffs: {
+	PreperationStationBuff: {
+		DisplayName: 準備万端
+		Description:
+			'''
+			砥石、弾薬箱、水晶玉、魔法のテーブル、戦争のテーブルの効果
+			個別のステーションバフは無効になる
+			'''
+	}
+
+	BuffBrazierBuff: {
+		DisplayName: 強化
+		Description:
+			'''
+			キャンプファイヤー、ハートのランタン、ビンづめのほし、ヒマワリ、ハチミツ、バステトの像の効果
+			個別のバフは無効になる
+			'''
+	}
+}
+
+Tiles: {
+	PetrifiedSafeTile: {
+		MapEntry: 石化した金庫
+	}
+
+	AsphaltPlatformTile: {
+		MapEntry: アスファルトプラットフォーム
+	}
+
+	PreperationStationTile: {
+		MapEntry: 準備ステーション
+	}
+
+	BuffBrazierTile: {
+		MapEntry: バフの火鉢
+	}
+
+	ShadowPearlTile: {
+		MapEntry: シャドウパール
+	}
+}
+
+InfoDisplays: {
+	CloverUI1: {
+		DisplayName: 幸運
+	}
+
+	CloverUI2: {
+		DisplayName: 幸運
+	}
+
+	CloverUI3: {
+		DisplayName: 幸運
+	}
+}
+
+Worldgen: {
+	PetrifiedSafes: 金庫を隠しています...
+}
+
+UI: {
+	EndlessBuffTogglerInventoryButton: {
+		MouseOver: 無限バフトグラー
+	}
+
+	EndlessBuffToggler: {
+		DescriptionPlaceholder: バフをクリックして情報を表示します。
+		DescriptionName: 名前
+		DescriptionSource: ソース
+		DescriptionDescription: ツールチップ
+		DescriptionHowToDisable: (選択中にバフアイコンを右クリックで切り替え)
+	}
+
+	EndlessBuffSource: {
+		Inventory: インベントリ
+		PiggyBank: 貯金箱
+		Safe: 金庫
+		DefendersForge: ディフェンダーの炉
+	}
+}
+
+Config: {
+	Header: {
+		MiscFeatures: QoL機能
+		ItemToggles: アイテムの切り替え
+		MiscItemToggles: その他の単一アイテムの切り替え
+		ItemSettings: アイテム設定
+		NPCs: 役立つNPC
+		QolRecipes: QoLレシピ
+	}
+
+	Label: {
+		AverageBossBagsSlider: トレジャーバッグのシミュレーション回数
+		AverageBossBags: トレジャーバッグの平均価値
+		ExtraBuffSlots: 追加バフスロット
+		EndlessPotions: 無限ポーション
+		EndlessPotionsSlider: 無限ポーションの量
+		AutoswingOnEverything: グローバルオートスイング
+		AutoswingOnEverythingBlacklist: グローバルオートスイングのブラックリスト
+		MaxStackIncrease: 最大スタックサイズの増加
+		NoMoreGraves: 墓を生成しない
+		FastRespawn: 高速リスポーン
+		FastRespawnDuringBoss: ボス戦中の高速リスポーン
+		StorageItemsToggle: ストレージアイテム
+		LiquidItemsToggle: 液体アイテム
+		ArenaItemsToggle: アリーナアイテム
+		MagnetItemsToggle: マグネットアイテム
+		AmmoItemsToggle: 弾薬アイテム
+		WorldControlItemsToggle: ワールドコントロールアイテム
+		CellPhoneAppsToggle: 携帯電話アプリ
+		EndlessBaitToggle: 無限のエサ
+		CloversToggle: クローバー
+		BuildingItemsToggle: 建築アイテム
+		GoldenCloverLuckSlider: トレファリウムの幸運ボーナス
+		VoidPiggyToggle: ヴォイドピギー
+		PhilosophersStoneToggle: プリママテリア
+		SpawnRateItemsToggle: スポーンレートアイテム
+		GreaterStaffOfRegrowthToggle: グリーン・スキーム
+		ShadowPearlToggle: シャドウパール
+		InfiniteManaToggle: 無限マナ
+		StarMagnetToggle: スターマグネット
+		GreedyChestToggle: 強欲な宝箱
+		MagicLightToggle: マジックライト
+		MysteriousTrader: 謎の商人
+		Miner: 鉱夫
+		RecipeEndlessWater: 無限水ツールのレシピ
+		RecipePetrifiedSafe: 石化した金庫のレシピ
+	}
+
+	Tooltip: {
+		AverageBossBags: 有効にすると、トレジャーバッグはそのドロップ品の平均価値で売却される。注意: 計算方法の都合上、リロードごとに価値が変わる場合がある。
+		AverageBossBagsSlider:
+			'''
+			ボスのトレジャーバッグの価値を平均化する際にシミュレートする開封回数。
+			値が高いほど一貫した結果が得られるが、ロード時間が増加する。
+			'''
+		ExtraBuffSlots: デフォルトの22個に追加するバフスロットの数(1行に11個のバフスロットがある)
+		EndlessPotions:
+			'''
+			有効にすると、指定した数のポーションをインベントリまたは個人用ストレージに入れておくと、バフが無限に得られる(ヒーリングポーションの場合は消費されなくなる)。
+			注意: 「最大スタックサイズを増やす」を有効にしている場合のみ、30以上に増やすこと。
+			'''
+		EndlessPotionsSlider: 無限バフ(または回復)に必要なポーションの量。
+		AutoswingOnEverything: グローバルオートスイング(オートシュート、オートリユースなど)を有効または無効にする。
+		AutoswingOnEverythingBlacklist: グローバルオートスイング(有効な場合)で無視するアイテム。
+		MaxStackIncrease: 有効にすると、ほとんどのアイテムの最大スタックサイズが増加する。
+		NoMoreGraves: 有効にすると、墓が生成されなくなる。
+		FastRespawn: 有効にすると、リスポーンが大幅に速くなる。
+		FastRespawnDuringBoss: 有効にすると、ボス戦中でもリスポーンが大幅に速くなる。
+		StorageItemsToggle: このMODのストレージアイテムを有効または無効にする。これにより、外出先から個人用ストレージにアクセスできる。
+		LiquidItemsToggle: このMODの液体アイテムを有効または無効にする。これにより、溶岩やハチミツを無限に設置・吸収できる。
+		AmmoItemsToggle: このMODの無限弾薬アイテムを有効または無効にする。
+		ArenaItemsToggle: このMODのアリーナブロックを有効または無効にする。これにより、アリーナを強化・コンパクト化できる。
+		MagnetItemsToggle: このMODのマグネットアイテムを有効または無効にする。これにより、アイテムの取得範囲が広がる。
+		WorldControlItemsToggle: このMODのワールドコントロールアイテムを有効または無効にする。これにより、時間や天候などを変更できる。
+		CellPhoneAppsToggle: 携帯電話アプリを有効または無効にする。これは携帯電話のアップグレードで、追加機能を提供する。
+		EndlessBaitToggle: 無限のエサを有効または無効にする。効果は想像通り。
+		CloversToggle: クローバーを有効または無効にする。これは運のステータスを確認・向上させるアイテム。
+		BuildingItemsToggle: 建築アイテムを有効または無効にする。これは建築や採掘に関連するボーナスを提供する。
+		GoldenCloverLuckSlider: トレファリウムが与える幸運ボーナスの量(有効な場合)。
+		VoidPiggyToggle: ヴォイドピギーアイテムを有効または無効にする。これにより、収集したコインが貯金箱に送られる。
+		PhilosophersStoneToggle: プリママテリアアイテムを有効または無効にする。これにより、拾ったアイテムが売却される。
+		SpawnRateItemsToggle: 戦いの炎と平和の炎を有効または無効にする。それぞれスポーンレートを増減させるアイテム。
+		GreaterStaffOfRegrowthToggle: グリーン・スキームアイテムを有効または無効にする。これは植物の収穫に役立つ。
+		ShadowPearlToggle: シャドウパールアイテムを有効または無効にする。これは悪魔の祭壇のクラフトステーションとして機能する。
+		InfiniteManaToggle: 無限マナアクセサリーを有効または無効にする。これにより、マナが無限になる。
+		StarMagnetToggle: スターマグネットアイテムを有効または無効にする。これにより、星の落下率が増加する。
+		GreedyChestToggle: 強欲な宝箱アイテムを有効または無効にする。これにより、敵がコインをドロップしなくなる。
+		MagicLightToggle: マジックライトを有効または無効にする。これは多くの色の無限で目に見えない光源を設置する。
+		MysteriousTrader: 謎の商人を有効または無効にする。これは時々現れてレアアイテムを売るNPC。
+		Miner: 鉱夫を有効または無効にする。これは鉱石や宝石を売るNPC。
+		RecipeEndlessWater: そこなしのみずいりバケツと超吸収スポンジのレシピを有効または無効にする。
+		RecipePetrifiedSafe:
+			'''
+			石化した金庫の簡単なレシピを有効または無効にする。
+			(デフォルトでは、ワールド生成時に地下世界に石化した金庫が生成される)
+			'''
+	}
+}
+
+Message: {
+	PetrifiedSafeDisabled1: ストレージアイテムはコンフィグで無効にされています！
+	PetrifiedSafeDisabled2: ポータブルな金庫が欲しい場合は、MODのストレージアイテムを有効にしてください。
+}
+
+Common: {
+	Enabled: {
+		True: 有効
+		False: 無効
+	}
+
+	CanBeToggled: インベントリで右クリックしてオン/オフを切り替える
+	AppInfo: このアイテムをマウスで拾い、インベントリ内の携帯電話を右クリックすることで携帯電話にインストールできる
+	CellPhoneInfo:
+		'''
+		アプリはこのアイテムをマウスで拾い、インベントリ内の携帯電話を右クリックすることでインストールできる。
+		現在インストールされているアプリ:
+		'''
+
+	CellPhone: {
+		Wormhole: " [i:2997] ワームホールアプリ: 無限のワームホール効果を提供する"
+		Teleportation: " [i:2351] テレポーテーションアプリ: 携帯電話を手に持って右クリックすることでテレポートが可能になる"
+	}
+
+	TerraformerScrollInfo: テラフォーミング: スクロールモードキー(現在: [<REPLACEME>])を押しながらスクロールホイールを上下に動かすと、ブラシサイズを増減できる
+}
+
+NPCs: {
+	Miner: {
+		DisplayName: 鉱夫
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_PboneUtils/Miner}"
+			LikeNPC_Princess: 「{NPCName}は素晴らしい鉱夫だ、信じられないかもしれないが！」
+			LikeNPC: 「{NPCName}と私は良い仲間だ。」
+			HateBiome: 私は{BiomeName}が大嫌いだ。この場所は私には合わない。
+			DislikeBiome: "{BiomeName}で採掘するのはかなり面倒だ。"
+			LikeBiome: 「{BiomeName}は採掘に良い場所だ！」
+			LoveBiome: 私は{BiomeName}が大好きだ。ここには鉱石がたくさんある！
+			HateCrowded: 周りにこんなに人がいると閉所恐怖症になりそうだ！
+			DislikeCrowded: ここにいる人の多さが気に入らない。
+			LoveSpace: 採掘するには十分なスペースだ！
+			FarFromHome: 鉱山で迷子になったみたいだ、家に帰りたい。
+			NoHome: 休む場所が必要だ！
+			Content: 気分は上々だ。
+		}
+
+		Census_SpawnCondition: Mods.PboneUtils.Miner.Census.SpawnCondition
+
+		Census: {
+			SpawnCondition: イーターオブワールド/クトゥルフののうみそを倒す
+		}
+	}
+
+	MysteriousTrader: {
+		DisplayName: 謎の商人
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_PboneUtils/MysteriousTrader}"
+			LikeNPC_Princess: 私は{NPCName}が好きだ。
+			HateCrowded: 人混みは大嫌いだ。
+			DislikeCrowded: 人混みは好まない。
+			LoveSpace: こんなに広いスペースがあるのが大好きだ。
+			FarFromHome: 家から遠く離れている。
+			NoHome: 家が欲しい。
+			Content: 何か購入するには良い日だ！
+		}
+
+		Census_SpawnCondition: Mods.PboneUtils.MysteriousTrader.Census.SpawnCondition
+
+		Census: {
+			SpawnCondition: キングスライムまたはクトゥルフのめだまを倒した後、朝にランダムで現れ、夜に去る
+		}
+	}
+}
+
+Keybind: {
+	Terraforming: {
+		_Scroll_Mode: {
+			DisplayName: テラフォーミング: スクロールモード
+		}
+	}
+}
+
+Keybinds: {
+	"Terraforming: Scroll Mode": {
+		DisplayName: テラフォーミング: スクロールモード
+	}
+}
+
+Projectiles: {
+	GreaterStaffOfRegrowthPro: {
+		DisplayName: グレートスタッフ・オブ・リグロウス・プロ
+	}
+
+	LiquidComboPro: {
+		DisplayName: 液体コンボプロ
+	}
+
+	DefendersCrystalProjectile: {
+		DisplayName: ディフェンダーズクリスタルの弾
+	}
+
+	PetrifiedSafeProjectile: {
+		DisplayName: 石化した金庫の弾
+	}
+
+	GigaxeHoldout: {
+		DisplayName: ギガアックスホールドアウト
+	}
+
+	TerraformerBrushPreview: {
+		DisplayName: テラフォーマーブラシプレビュー
+	}
+}
+
+Configs: {
+	PboneUtilsConfig: {
+		RecipePetrifiedSafe: {
+			Tooltip:
+				'''
+				石化した金庫の簡単なレシピを有効または無効にする。
+				(デフォルトでは、ワールド生成時に地下世界に石化した金庫が生成される)
+				'''
+			Label: 石化した金庫のレシピ
+		}
+
+		RecipeEndlessWater: {
+			Tooltip: そこなしのみずいりバケツと超吸収スポンジのレシピを有効または無効にする
+			Label: 無限水ツールのレシピ
+		}
+
+		Headers: {
+			QolRecipes: QoLレシピ
+			NPCs: 役立つNPC
+			MiscItemToggles: その他の単一アイテムの切り替え
+			ItemSettings: アイテム設定
+			ItemToggles: アイテムの切り替え
+			MiscFeatures: QoL機能
+		}
+
+		Miner: {
+			Tooltip: 鉱夫を有効または無効にする。これは鉱石や宝石を売るNPC。
+			Label: 鉱夫
+		}
+
+		MysteriousTrader: {
+			Tooltip: 謎の商人を有効または無効にする。これは時々現れてレアアイテムを売るNPC。
+			Label: 謎の商人
+		}
+
+		MagicLightToggle: {
+			Tooltip: マジックライトを有効または無効にする。これは多くの色の無限で目に見えない光源を設置する。
+			Label: マジックライト
+		}
+
+		GreedyChestToggle: {
+			Tooltip: 強欲な宝箱アイテムを有効または無効にする。これにより、敵がコインをドロップしなくなる。
+			Label: 強欲な宝箱
+		}
+
+		StarMagnetToggle: {
+			Tooltip: スターマグネットアイテムを有効または無効にする。これにより、星の落下率が増加する。
+			Label: スターマグネット
+		}
+
+		InfiniteManaToggle: {
+			Tooltip: 無限マナアクセサリーを有効または無効にする。これにより、マナが無限になる。
+			Label: 無限マナ
+		}
+
+		ShadowPearlToggle: {
+			Tooltip: シャドウパールアイテムを有効または無効にする。これは悪魔の祭壇のクラフトステーションとして機能する。
+			Label: シャドウパール
+		}
+
+		GreaterStaffOfRegrowthToggle: {
+			Tooltip: グリーン・スキームアイテムを有効または無効にする。これは植物の収穫に役立つ。
+			Label: グリーン・スキーム
+		}
+
+		SpawnRateItemsToggle: {
+			Tooltip: 戦いの炎と平和の炎を有効または無効にする。それぞれスポーンレートを増減させるアイテム。
+			Label: スポーンレートアイテム
+		}
+
+		PhilosophersStoneToggle: {
+			Tooltip: プリママテリアアイテムを有効または無効にする。これにより、拾ったアイテムが売却される。
+			Label: プリママテリア
+		}
+
+		VoidPiggyToggle: {
+			Tooltip: ヴォイドピギーアイテムを有効または無効にする。これにより、収集したコインが貯金箱に送られる。
+			Label: ヴォイドピギー
+		}
+
+		GoldenCloverLuckSlider: {
+			Tooltip: トレファリウムが与える幸運ボーナスの量(有効な場合)。
+			Label: トレファリウムの幸運ボーナス
+		}
+
+		BuildingItemToggle: {
+			Tooltip: 建築アイテムを有効または無効にする。これは建築や採掘に関連するボーナスを提供する。
+			Label: 建築アイテム
+		}
+
+		CloversToggle: {
+			Tooltip: クローバーを有効または無効にする。これは運のステータスを確認・向上させるアイテム。
+			Label: クローバー
+		}
+
+		EndlessBaitToggle: {
+			Tooltip: 無限のエサを有効または無効にする。効果は想像通り。
+			Label: 無限のエサ
+		}
+
+		CellPhoneAppsToggle: {
+			Tooltip: 携帯電話アプリを有効または無効にする。これは携帯電話のアップグレードで、追加機能を提供する。
+			Label: 携帯電話アプリ
+		}
+
+		WorldControlItemsToggle: {
+			Tooltip: このMODのワールドコントロールアイテムを有効または無効にする。これにより、時間や天候などを変更できる。
+			Label: ワールドコントロールアイテム
+		}
+
+		MagnetItemsToggle: {
+			Tooltip: このMODのマグネットアイテムを有効または無効にする。これにより、アイテムの取得範囲が広がる。
+			Label: マグネットアイテム
+		}
+
+		ArenaItemsToggle: {
+			Tooltip: このMODのアリーナブロックを有効または無効にする。これにより、アリーナを強化・コンパクト化できる。
+			Label: アリーナアイテム
+		}
+
+		AmmoItemsToggle: {
+			Tooltip: このMODの無限弾薬アイテムを有効または無効にする。
+			Label: 弾薬アイテム
+		}
+
+		LiquidItemsToggle: {
+			Tooltip: このMODの液体アイテムを有効または無効にする。これにより、溶岩やハチミツを無限に設置・吸収できる。
+			Label: 液体アイテム
+		}
+
+		StorageItemsToggle: {
+			Tooltip: このMODのストレージアイテムを有効または無効にする。これにより、外出先から個人用ストレージにアクセスできる。
+			Label: ストレージアイテム
+		}
+
+		FastRespawnDuringBoss: {
+			Tooltip: 有効にすると、ボス戦中でもリスポーンが大幅に速くなる。
+			Label: ボス戦中の高速リスポーン
+		}
+
+		FastRespawn: {
+			Tooltip: 有効にすると、リスポーンが大幅に速くなる。
+			Label: 高速リスポーン
+		}
+
+		NoMoreGraves: {
+			Tooltip: 有効にすると、墓が生成されなくなる。
+			Label: 墓を生成しない
+		}
+
+		MaxStackIncrease: {
+			Tooltip: 有効にすると、ほとんどのアイテムの最大スタックサイズが増加する。
+			Label: 最大スタックサイズの増加
+		}
+
+		AverageBossBagsSlider: {
+			Tooltip:
+				'''
+				ボスのトレジャーバッグの価値を平均化する際にシミュレートする開封回数。
+				値が高いほど一貫した結果が得られるが、ロード時間が増加する。
+				'''
+			Label: トレジャーバッグのシミュレーション回数
+		}
+
+		AverageBossBags: {
+			Tooltip: 有効にすると、トレジャーバッグはそのドロップ品の平均価値で売却される。注意: 計算方法の都合上、リロードごとに価値が変わる場合がある。
+			Label: トレジャーバッグの平均価値
+		}
+
+		AutoswingOnEverythingBlacklist: {
+			Tooltip: グローバルオートスイング(有効な場合)で無視するアイテム。
+			Label: グローバルオートスイングのブラックリスト
+		}
+
+		AutoswingOnEverything: {
+			Tooltip: グローバルオートスイング(オートシュート、オートリユースなど)を有効または無効にする。
+			Label: グローバルオートスイング
+		}
+
+		EndlessPotionsSlider: {
+			Tooltip: 無限バフ(または回復)に必要なポーションの量。
+			Label: 無限ポーションの量
+		}
+
+		EndlessPotions: {
+			Tooltip:
+				'''
+				有効にすると、指定した数のポーションをインベントリまたは個人用ストレージに入れておくと、バフが無限に得られる(ヒーリングポーションの場合は消費されなくなる)。
+				注意: 「最大スタックサイズを増やす」を有効にしている場合のみ、30以上に増やすこと。
+				'''
+			Label: 無限ポーション
+		}
+	}
+
+	"Feature Config": {
+		DisplayName: 機能設定
+	}
+}
+

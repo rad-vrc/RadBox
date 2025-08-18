@@ -1,0 +1,1897 @@
+Items: {
+	TutorialSword: {
+		DisplayName: Bouncy Baghnakhs
+		Tooltip: Lubricated with a special gel, ready to tear anything!
+	}
+
+	BouncyClaws: {
+		DisplayName: Bouncy Baghnakhs
+		Tooltip: Lubricated with a special gel, ready to tear anything!
+	}
+
+	PureEvil: {
+		DisplayName: Pure Evil
+		Tooltip: A bow made out of materials from two great infections
+	}
+
+	CorruptionStaff: {
+		DisplayName: Soulbane
+		Tooltip: Creates thin needles that can hurt the very soul of your foes
+	}
+
+	CrimsonStaff: {
+		DisplayName: Crying Eye
+		Tooltip: Shoots fast bloody tears
+	}
+
+	AngelHelmet: {
+		DisplayName: Angelic Helmet
+		Tooltip: Increases Melee, Magic, Ranged and Summon damage by 3%
+	}
+
+	AngelPants: {
+		DisplayName: Angelic Leggings
+		Tooltip:
+			'''
+			Increases Melee, Magic, Ranged and Summon damage by 3% 
+			Increases movement speed by 12%
+			'''
+	}
+
+	AngelChestplate: {
+		DisplayName: Angelic Chestplate
+		Tooltip: Increases Melee, Magic, Ranged and Summon damage by 3%
+	}
+
+	CosmicEssence: {
+		DisplayName: Cosmic Essence
+		Tooltip: Pulses with energy from the cosmos
+	}
+
+	HellShard: {
+		DisplayName: Shard of the Underworld
+		Tooltip: Filled with something demonic
+	}
+
+	ItemCrystalBench: {
+		DisplayName: Crystalloom
+		Tooltip: Used for special crystal crafting
+	}
+
+	WoodenSpikies: {
+		DisplayName: Wooden Spikies
+		Tooltip: ""
+	}
+
+	ItemSunOre: {
+		DisplayName: Sun Stone
+		Tooltip:
+			'''
+			A stone from the surface of the sun
+			How did it get there?
+			'''
+	}
+
+	TorchSpikies: {
+		DisplayName: Torch Spikies
+		Tooltip: Still useful for lighting!
+	}
+
+	CowardEmblem: {
+		DisplayName: Coward Emblem
+		Tooltip: Increases Coward damage by 15%
+	}
+
+	ItemSunBar: {
+		DisplayName: Sun Stone Bar
+		Tooltip: Quite hot on touch
+	}
+
+	ForestSpiritItem: {
+		Tooltip: ""
+		DisplayName: Forest Spirit Item
+	}
+
+	PurestEvil: {
+		DisplayName: Purest Evil
+		Tooltip: ""
+	}
+
+	CrimsonSpiritItem: {
+		DisplayName: Crimson's Contract
+		Tooltip:
+			'''
+			You gain the Crimson's spirit loyalty...? 
+			Bloody Hearts will generate around you every 25 seconds (3 is maximum), you gain 10% damage resistance and damage increase for every Bloody Heart alive 
+			Bloody Heart will die if it touches an enemy, dealing damage that equals 5% of your maximum Health and healing you by 10 
+			All your attacks will cover enemies in Ichor 
+			Your damage is increased by 5% by default and will get stronger the lower your health gets (up to 100% when your health is 5%) 
+			When your health is equals or under 45% of maximum, you'll start losing life a little bit 
+			When your health is equals or under 20% of maximum, contract ends
+			'''
+	}
+
+	CorruptionSpiritItem: {
+		DisplayName: Corruption's Contract
+		Tooltip:
+			'''
+			You gain the Corruption's spirit loyalty. 
+			Shadow Orbs will generate around you every 15 seconds (3 is maximum), if Shadow Orb breaks, it's shards will continue spinning around you (but closely) for 10 seconds before disappearing
+			Shadow Orb will break if it's durability ends, Shadow Orbs have 15 "Health" each and will lose 1 when touching an enemy, dealing damage which is equal to your defence, 1 "Health" regenerates every 5 seconds
+			All your attacks will burn enemies with cursed flames
+			Every time you take damage, Corruption Spirit will unleash 1 friendly Eater Of Souls which will chase and damage (150% of your defence) enemies until he dies
+			When your health is equals or under 50% of maximum, you'll take 25 unblockable damage every time Shadow Orb breaks
+			Decreases your maximum health by 15%
+			'''
+	}
+
+	ItemTimidium: {
+		DisplayName: Abominium
+		Tooltip: Flesh of a parasite feeding on a bigger parasite
+	}
+
+	TimidosSummonItem: {
+		DisplayName: Timidos Summon Item
+		Tooltip: ""
+	}
+
+	TimidosBossBag: {
+		DisplayName: Treasure Bag (Timidos)
+		Tooltip: ""
+	}
+
+	EvilBlood: {
+		DisplayName: Evil Blood
+		Tooltip: It pulses with evil!
+	}
+
+	TimidiumArmorLegs: {
+		DisplayName: Timidium leggings
+		Tooltip:
+			'''
+			Increases Coward crit chance by 5%
+			Increases movement speed by 10%
+			'''
+	}
+
+	TimidiumArmorHead: {
+		DisplayName: Timidium helmet
+		Tooltip:
+			'''
+			Increases Coward crit chance by 5%
+			Increases Coward damage by 5%
+			'''
+	}
+
+	TimidiumArmorBody: {
+		DisplayName: Timidium chestplate
+		Tooltip: Increases all your damage by 2%
+	}
+
+	TimidiumStaff: {
+		DisplayName: Timid Hunger
+		Tooltip:
+			'''
+			Creates tiny flying Abominium creatures
+			If creature hurts an enemy, it will start chasing and biting it until the creature dies
+			'''
+	}
+
+	TimidiumSword: {
+		DisplayName: Abomination's Tongue
+		Tooltip: Spits damaging saliva
+	}
+
+	TimidiumBow: {
+		DisplayName: Halo Bow
+		Tooltip:
+			'''
+			Bow made of cursed Halo
+			Summons devil sickles when being used
+			'''
+	}
+
+	TimidiumJar: {
+		DisplayName: CursedHand
+		Tooltip: Creates Abominium creatures to guard you
+	}
+
+	Tarrasque: {
+		DisplayName: Heart of Tarrasque
+		Tooltip:
+			'''
+			Heals 1.6% from your max life every second
+			Increases max amount of life by 20
+			Preserved heart of a dead monster, it bolsters the bearer's fortitude
+			'''
+	}
+
+	ItemTimidosBossRelic: {
+		DisplayName: Ravakar Relic
+		Tooltip: ""
+	}
+
+	ItemTimidosBossTrophy: {
+		DisplayName: Ravakar Trophy
+		Tooltip: ""
+	}
+
+	TimidosBossMask: {
+		DisplayName: Ravakar Mask
+		Tooltip: ""
+	}
+
+	TimidiumBossPetItem: {
+		DisplayName: Meat Cucumber
+		Tooltip: A cucumber made of meat...?
+	}
+
+	ZephyriteScrap: {
+		DisplayName: Zephyrite Scrap
+		Tooltip: ""
+	}
+
+	DroneBasicBanner: {
+		DisplayName: Drone Basic Banner
+		Tooltip: ""
+	}
+
+	DroneBigBanner: {
+		DisplayName: Drone Big Banner
+		Tooltip: ""
+	}
+
+	DroneSmallBanner: {
+		DisplayName: Drone Small Banner
+		Tooltip: ""
+	}
+
+	ZephyriteGun: {
+		DisplayName: Zephyrite Gun
+		Tooltip: ""
+	}
+
+	ZephyriteShield: {
+		DisplayName: Defensive Project
+		Tooltip: ""
+	}
+
+	BadZephyriteShield: {
+		DisplayName: Zephyrite Shield
+		Tooltip: Gives 5% increased strike chance
+	}
+
+	ZephyriteBigGun: {
+		DisplayName: Heavy Launcher
+		Tooltip: ""
+	}
+
+	DroneBossBag: {
+		DisplayName: Treasure Bag (Ethan)
+		Tooltip: ""
+	}
+
+	MagicZephyriteGun: {
+		DisplayName: Energy Rifle
+		Tooltip: ""
+	}
+
+	ZephyriteEngine: {
+		DisplayName: Zephyrite Engine
+		Tooltip: ""
+	}
+
+	ZephyriteSword: {
+		DisplayName: Blade Cudgel
+		Tooltip: ""
+	}
+
+	DroneBossNecklase: {
+		DisplayName: Ethan's Necklase
+		Tooltip:
+			'''
+			When you take damage, you will instantly heal 2 life points
+			Heart shaped
+			Reminds it's owner about his Master's passionate project
+			'''
+	}
+
+	DronebossMask: {
+		DisplayName: Ethan's Mask
+		Tooltip: ""
+	}
+
+	CruelSoul: {
+		DisplayName: Cruel Soul
+		Tooltip: ""
+	}
+
+	FallenSoul: {
+		DisplayName: Fallen Soul
+		Tooltip: ""
+	}
+
+	LifeArmorHat: {
+		DisplayName: Lifefull Hat
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases coward damage by 10%
+			'''
+	}
+
+	LifeArmorLegs: {
+		DisplayName: Lifefull Legs
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases movement speed by 25%
+			'''
+	}
+
+	LifeChestplate: {
+		DisplayName: Lifefull Chestplate
+		Tooltip:
+			'''
+			Increases coward crit chance by 10%
+			Increases coward damage by 8%
+			Increases life regeneration by 1
+			'''
+	}
+
+	InfernoChestplate: {
+		DisplayName: Inferno Chestplate
+		Tooltip: Increases coward damage by 10%
+	}
+
+	InfernoHelmet: {
+		DisplayName: Inferno Helmet
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases coward damage by 5%
+			'''
+	}
+
+	InfernoLegs: {
+		DisplayName: Inferno Legs
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases movement speed by 10%
+			'''
+	}
+
+	LifeEssence: {
+		DisplayName: Life Essence
+		Tooltip: You can feel the life energy coming from it
+	}
+
+	ItemLifeBar: {
+		DisplayName: Lifefull Bar
+		Tooltip: Living energy compressed into bar
+	}
+
+	LifeShard: {
+		DisplayName: Life Crystal Shard
+		Tooltip: ""
+	}
+
+	ItemWorldArteryCrystal: {
+		DisplayName: Arterial Crystal
+		Tooltip: Crystallized World's life energy
+	}
+
+	CrystalSword: {
+		DisplayName: Crystal Sword
+		Tooltip: ""
+	}
+
+	RenaAxe: {
+		DisplayName: Fairy Axe
+		Tooltip: Summons a fairy to guard you
+	}
+
+	ItemSkyLabPlating: {
+		DisplayName: Great Plating
+		Tooltip: ""
+	}
+
+	ItemSkyLabDarkPlating: {
+		DisplayName: Dark Great Plating
+		Tooltip: ""
+	}
+
+	ItemSkyLabDarkPlatingWall: {
+		DisplayName: Dark Great Plating Wall
+		Tooltip: ""
+	}
+
+	ItemSkyLabPlatingWall: {
+		DisplayName: Great Plating Wall
+		Tooltip: ""
+	}
+
+	JungleAxe: {
+		DisplayName: Axe of the Jungle
+		Tooltip: Poisons enemies on hit
+	}
+
+	StarPatience: {
+		DisplayName: Star Patience
+		Tooltip: Floating star-shaped mine, is not affected by gravity for a limited time.
+	}
+
+	TrappedLightning: {
+		DisplayName: Trapped Lightning
+		Tooltip: Shakes chaotically
+	}
+
+	WaterSpiral: {
+		DisplayName: Water Spiral
+		Tooltip: Creates damaging water circles
+	}
+
+	IronSaw: {
+		DisplayName: Iron Saw
+		Tooltip: ""
+	}
+
+	LeadSaw: {
+		DisplayName: Lead Saw
+		Tooltip: ""
+	}
+
+	ForbiddenFruit: {
+		DisplayName: Forbidden Fruit
+		Tooltip:
+			'''
+			Alluring cursed fruit that punishes anyone who touches it
+			Burns your enemies with shadow flame on hit
+			'''
+	}
+
+	VerdantVitality: {
+		DisplayName: Verdant Vitality
+		Tooltip:
+			'''
+			Elastic throwing axe that bounces from the ground into your direction
+			Poisons your enemies on hit
+			'''
+	}
+
+	Grimstrike: {
+		DisplayName: Grimstrike
+		Tooltip:
+			'''
+			Dark magical hammer which anticipates the perfect moment to smash someone
+			Every time it lands a succesful hit, the victim's defence will decrease by 3 permanently
+			'''
+	}
+
+	HolyStamp: {
+		DisplayName: Holy Stamp
+		Tooltip: Stamps a a holy stamp which damages your enemies with it's magic upon making a contact with them
+	}
+
+	IceSkull: {
+		DisplayName: Blizzard Soulskull
+		Tooltip: Creates damaging ice snowflakes
+	}
+
+	FireSkull: {
+		DisplayName: Pyrocranium
+		Tooltip: Creates damaging jumping fire balls
+	}
+
+	JungleDragon: {
+		DisplayName: Jungle Dragon
+		Tooltip:
+			'''
+			A flower bursting with fiery energy
+			Will fly towards you and then flee, if it hits someone when fleeing (or before doing so) - it will start chasing the victim
+			'''
+	}
+
+	ScarletSlicer: {
+		DisplayName: Scarlet Slicer
+		Tooltip: After a short time, will start moving in the direction of your position by itself
+	}
+
+	ArteryCrystalArmorHead: {
+		DisplayName: Arterial Hood
+		Tooltip: Increases Coward crit chance by 3%
+	}
+
+	ArteryCrystalChestplate: {
+		DisplayName: Arterial Clothing
+		Tooltip:
+			'''
+			Increases Coward crit chance by 5%
+			Increases Coward damage by 5%
+			'''
+	}
+
+	TastiestCorruptionPiece: {
+		DisplayName: Tastiest Corruption Piece
+		Tooltip:
+			'''
+			'I bet it's not tasty at all'
+			Can only be used in Crimson/Corruption
+			Summons Ravakar
+			Not consumable
+			'''
+	}
+
+	TastiestCrimsonPiece: {
+		DisplayName: Tastiest Crimson Piece
+		Tooltip:
+			'''
+			'I bet it's not tasty at all'
+			Can only be used in Crimson/Corruption
+			Summons Ravakar
+			Not consumable
+			'''
+	}
+
+	RavakarBossBag: {
+		DisplayName: Treasure Bag (Ravakar)
+		Tooltip: ""
+	}
+
+	ItemWorldArteryPurpleCrystal: {
+		DisplayName: Loaded Arterial Crystal
+		Tooltip: Crystal full of life energy
+	}
+
+	ItemArterialRock: {
+		DisplayName: Arterial Rock
+		Tooltip: Lets the light to go through it
+	}
+
+	CursedHand: {
+		DisplayName: Cursed Hand
+		Tooltip: Creates Abominium creatures to guard you
+	}
+
+	MoonWalkerBoots: {
+		DisplayName: Moon Walker Boots
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases movement speed by 20%
+			Enemies are more likely to target you
+			'''
+	}
+
+	MoonWalkerHelmet: {
+		DisplayName: Moon Walker Helmet
+		Tooltip:
+			'''
+			Increases coward crit chance by 10%
+			Increases coward damage by 10%
+			Enemies are more likely to target you
+			'''
+	}
+
+	MoonWalkerBreastplate: {
+		DisplayName: Moon Walker Breastplate
+		Tooltip:
+			'''
+			Increases coward crit chance by 5%
+			Increases coward damage by 15%
+			Enemies are more likely to target you
+			'''
+	}
+
+	DarkSideOfTheMoon: {
+		DisplayName: Moon's Dark Side
+		Tooltip:
+			'''
+			Creates slow moving lunar notes that go into random directions
+			Sometimes can create additional notes
+			'''
+	}
+
+	LunarCard: {
+		DisplayName: Lunar Card
+		Tooltip: A cursed card which desperately tries to return to its owner
+	}
+
+	IceFireSkull: {
+		DisplayName: Burning Frostcranium
+		Tooltip:
+			'''
+			Creates damaging ice snowflakes
+			Creates damaging jumping fire balls
+			'''
+	}
+
+	CrystalStaff: {
+		DisplayName: Crystal Staff
+		Tooltip: Shoots magical crystals which can go through tiles
+	}
+
+	CrystalBow: {
+		DisplayName: Crystal Bow
+		Tooltip: ""
+	}
+
+	LivingFire: {
+		DisplayName: Living Fire
+		Tooltip:
+			'''
+			All your attacks have 25% chance to inflict Arterial flame
+			Taking damage has 5% chance to get burnt by Arterial Flame
+			Increases life regeneration by 1
+			'''
+	}
+
+	VampireStone: {
+		DisplayName: Vampire Fang
+		Tooltip: Dealing coward damage heals you.
+	}
+
+	MoonRockFragment: {
+		DisplayName: Moonrock Fragment
+		Tooltip: The moonlight radiates from this fragment
+	}
+
+	ShellLance: {
+		DisplayName: Shell Lance
+		Tooltip: After landing a hit, other closest enemy will receive 50% damage of this spear with 30% chance
+	}
+
+	RaftHook: {
+		DisplayName: Survivor's Hook
+		Tooltip:
+			'''
+			Can grab enemies and drag them to your desired position.
+			Right-click to drag enemies towards yoursef.
+			Can't grab bosses.
+			'''
+	}
+
+	CoolerRaftHook: {
+		DisplayName: Advanced Survivor's Hook
+		Tooltip:
+			'''
+			Can grab enemies and drag them to your desired position.
+			Right-click to drag enemies towards yoursef.
+			Now has a bit longer rope!
+			Can't grab bosses.
+			'''
+	}
+
+	UnshroomyKnives: {
+		DisplayName: Unshroomy Knives
+		Tooltip: Weirdly jumps off walls.
+	}
+
+	CandyMine: {
+		DisplayName: Candy Mine
+		Tooltip:
+			'''
+			Upon explosion splits into two damaging pieces.
+			'I'd eat it.'
+			'''
+	}
+
+	BuffStar: {
+		DisplayName: Buff Star
+		Tooltip: ""
+	}
+
+	PlushieEater: {
+		DisplayName: Plushie Eater
+		Tooltip: Dashes towards nearest enemies.
+	}
+
+	PlushieKidney: {
+		DisplayName: Plushie Kidney
+		Tooltip: Explodes into 3 damaging nails.
+	}
+
+	BoilerMine: {
+		DisplayName: Boiler Mine
+		Tooltip:
+			'''
+			Burns enemies on explosion.
+			Spreads tiny sparks upon explosion which can set enemies on fire.
+			'''
+	}
+
+	Explonocactus: {
+		DisplayName: Explonocactus
+		Tooltip: Explodes into 6 super tiny spikes.
+	}
+
+	ChainMine: {
+		DisplayName: Chain Mine
+		Tooltip: Explodes on contact.
+	}
+
+	DeathStar: {
+		Tooltip: Explodes into 3 tiny additional mines.
+		DisplayName: Death Star
+	}
+
+	MagicScissors: {
+		DisplayName: Magic Scissors
+		Tooltip: Magically instantly Cuts-off the chains from all existing mines.
+	}
+
+	MarchVanityTorso: {
+		DisplayName: Marchy Torso
+		Tooltip: ""
+	}
+
+	MarchVanityHead: {
+		DisplayName: Marchy Head
+		Tooltip: ""
+	}
+
+	MarchVanityLegs: {
+		DisplayName: Marchy Legs
+		Tooltip: ""
+	}
+
+	StretchyVein: {
+		DisplayName: Stretchy Vein
+		Tooltip: Makes all created mines have an additional chain connected directly to YOU.
+	}
+
+	BloodyFan: {
+		Tooltip: ""
+		DisplayName: Bloody Fan
+	}
+
+	EnchantedFan: {
+		DisplayName: Enchanted Fan
+		Tooltip: Casts a damaging afterimage upon use.
+	}
+
+	WoodenFan: {
+		DisplayName: Wooden Fan
+		Tooltip: ""
+	}
+
+	StingerFan: {
+		DisplayName: Stinger Fan
+		Tooltip:
+			'''
+			Switches between a spread barrage of tiny stingers and focused bigger stinger shots
+			Poisons enemies
+			'''
+	}
+
+	UnblessedShoulderPads: {
+		Tooltip:
+			'''
+			Increases coward damage by 5%
+			Increases coward crit chance by 5%
+			'''
+		DisplayName: Unblessed Shoulder Pads
+	}
+
+	UnblessedHelmet: {
+		Tooltip: Increases coward crit chance by 3%
+		DisplayName: Unblessed Helmet
+	}
+
+	BeetleFan: {
+		Tooltip: ""
+		DisplayName: Beetle Fan
+	}
+
+	BerserkEmblem: {
+		Tooltip: When your health goes lower or equal to 50% your damage rises by 25%
+		DisplayName: Berserk Emblem
+	}
+
+	BlizzardFan: {
+		Tooltip:
+			'''
+			Every 5th use creates an ice afterimage, which explodes into icicles
+			Applies frostburn to enemies
+			'''
+		DisplayName: Blizzard Fan
+	}
+
+	Pullan: {
+		Tooltip: ""
+		DisplayName: Pullan
+	}
+
+	UnblessedMetalScrap: {
+		Tooltip: Piece of strange blood-sucking robots.
+		DisplayName: Unblessed Metal Scrap
+	}
+
+	WindLight: {
+		DisplayName: Wind Light
+		Tooltip: Creates afterimages of itself which creates afterimages of itself which creates afterimages of itself which crea...
+	}
+
+	BloodlustSwarmer: {
+		DisplayName: Bloodlust Swarmer
+		Tooltip: Shoots out tiny robot mosquitos which fly towards your cursor
+	}
+
+	Fungst: {
+		DisplayName: Fungst
+		Tooltip: ""
+	}
+
+	ArteryScratcher: {
+		DisplayName: Artery Scratcher
+		Tooltip: Has a chance to spit damaging blood droplets upon hit
+	}
+
+	BloodyNeedle: {
+		DisplayName: Bloody Needle
+		Tooltip:
+			'''
+			Every shot has a 2% chance to consume your 1 point of health
+			Can't be used if your health is below 25%
+			'''
+	}
+
+	RockHorn: {
+		DisplayName: Rock Horn
+		Tooltip:
+			'''
+			Summons a flying rock golem to fight for you
+			Doesn't take space in amount of possible summons
+			'''
+	}
+
+	Bowrock: {
+		DisplayName: Bowrock
+		Tooltip: Has a 30% chance to additionally shoot out a boulder
+	}
+
+	FatePlacer: {
+		DisplayName: Fate Placer
+		Tooltip:
+			'''
+			Builds a boulder in position of your cursor
+			The longer you hold, the bigger and the more damaging the boulder will be
+			'''
+	}
+
+	Boulace: {
+		DisplayName: Boulace
+		Tooltip: Hold to let it roll by itself, Release to pull it back
+	}
+
+	PetrifiedSun: {
+		DisplayName: Petrified Sun
+		Tooltip:
+			'''
+			Sometimes drops 5 tiny boulders
+			Right-click to remove all attached saws
+			There are limit of 5 attached saws by default
+			'''
+	}
+
+	PigsFin: {
+		DisplayName: Pigs Fin
+		Tooltip: Creates damaging static bubbles
+	}
+
+	ThePerfectFreeze: {
+		DisplayName: The Perfect Freeze
+		Tooltip:
+			'''
+			Switches every use between spreading colorful bullets and freezing them in place
+			Applies frostburn to enemies
+			Bullets apply frostburn only in the frozen state
+			'''
+	}
+
+	AdamantiteRaftHook: {
+		DisplayName: Adamantite Raft Hook
+		Tooltip:
+			'''
+			Can grab enemies and drag them to your desired position.
+			Right-click to drag enemies towards yoursef.
+			Has a 25% chance to affect a boss.
+			'''
+	}
+
+	FingerPuller: {
+		DisplayName: Finger Puller
+		Tooltip:
+			'''
+			Shoots a magical magnetic bullet
+			When it hits the enemy, it creates a magnetic field which pulls all projectiles to it's center
+			'''
+	}
+
+	SpikeStorm: {
+		DisplayName: Spike Storm
+		Tooltip: Throws flying spikes every use and at the same time blows away all already existing ones
+	}
+
+	AntlionsEye: {
+		DisplayName: Antlions Eye
+		Tooltip:
+			'''
+			Right-click to remove all attached saws
+			There are limit of 5 attached saws by default
+			'''
+	}
+
+	BoneSpinner: {
+		DisplayName: Bone Spinner
+		Tooltip:
+			'''
+			Periodically throws bones at nearby enemies
+			Right-click to remove all attached saws
+			There are limit of 5 attached saws by default
+			'''
+	}
+
+	CursedCutter: {
+		DisplayName: Cursed Cutter
+		Tooltip:
+			'''
+			Periodically creates a damaging afterimage of itself
+			Right-click to remove all attached saws
+			There are limit of 5 attached saws by default
+			'''
+	}
+
+	SweatyTowel: {
+		DisplayName: Sweaty Towel
+		Tooltip:
+			'''
+			Makes you sweat intensely
+			Getting closer to enemies causes you to sweat even more
+			Every sweat droplet deals damage equal to 25% of your defence
+			'''
+	}
+
+	WimpyAmulet: {
+		DisplayName: Wimpy Amulet
+		Tooltip:
+			'''
+			Increases movement speed after taking damage
+			Getting close to enemies increases movement speed, the closer - the faster!
+			Makes you sweat intensely
+			Getting closer to enemies causes you to sweat even more
+			Every sweat droplet deals damage equal to 25% of your defence
+			'''
+	}
+
+	AttentionGrabber: {
+		DisplayName: Attention Grabber
+		Tooltip:
+			'''
+			Increases coward damage by 20%
+			Enemies are more likely to target you
+			Increases movement speed after taking damage
+			Getting close to enemies increases movement speed, the closer - the faster!
+			Makes you sweat intensely
+			Getting closer to enemies causes you to sweat even more
+			Every sweat droplet deals damage equal to 25% of your defence
+			'''
+	}
+
+	StarCandy: {
+		DisplayName: Star Candy
+		Tooltip:
+			'''
+			Causes you to summon magic stars every time you create a mine
+			If mine touches a star, it'll collect it and mine's damage will rise by 50%
+			'''
+	}
+
+	AProbablyWrongShroom: {
+		DisplayName: A Probably Wrong Mushroom
+		Tooltip:
+			'''
+			'What a dubious thingy!'
+			Can only be used in Glowing Mushroom biome
+			Summons Shroomitator
+			Not consumable
+			'''
+	}
+
+	UnsuspiciousLookingBoulder: {
+		DisplayName: Unsuspicious Looking Boulder
+		Tooltip:
+			'''
+			'Yeah, looks normal to me'
+			Can only be used in non-biome cavern layer
+			Summons Boluder
+			Not consumable
+			'''
+	}
+
+	SawBox: {
+		DisplayName: Saw Box
+		Tooltip:
+			'''
+			When an attachable saw deals damage 20 times, causes it to summon a tornado of magic saws
+			Every magic saw deals damage equal to 10% from the source saw's damage
+			Increases attachable saw's crit chance by 10%
+			Increases maximum amount of attachable saws by 5
+			'''
+	}
+
+	SawSharpener: {
+		DisplayName: Saw Sharpener
+		Tooltip:
+			'''
+			Increases attachable saw's crit chance by 5%
+			Increases maximum amount of attachable saws by 5
+			'''
+	}
+
+	ShroomyCloth: {
+		DisplayName: Shroomy Cloth
+		Tooltip: Causes fans to spread damaging mushroom afterimages
+	}
+
+	PlushieCat: {
+		DisplayName: Plushie Cat
+		Tooltip:
+			'''
+			Doubles explosion radius of mines
+			'A plushie of a fictional cat, which's owner loves making things explode'
+			'''
+	}
+
+	ParanoiaSigil: {
+		DisplayName: Paranoia Sigil
+		Tooltip:
+			'''
+			When an attachable saw deals damage 20 times, causes it to summon a tornado of magic saws
+			Every magic saw deals damage equal to 10% from the source saw's damage
+			Increases attachable saw's crit chance by 10%
+			Increases maximum amount of attachable saws by 5
+			Causes fans to spread damaging mushroom afterimages
+			Increases coward damage by 25%
+			Doubles explosion radius of mines
+			Enemies are more likely to target you
+			Increases movement speed after taking damage
+			Getting close to enemies increases movement speed, the closer - the faster!
+			Makes you sweat intensely
+			Getting closer to enemies causes you to sweat even more
+			Every sweat droplet deals damage equal to 25% of your defence
+			'''
+	}
+
+	LavaGhost: {
+		DisplayName: Lava Ghost
+		Tooltip:
+			'''
+			Summons fire ghosts every use and switches the state of all already existing ones
+			Lava ghost can either sleep or fly towards you
+			Sleeping ghosts does not deal damage
+			Sets enemies on fire
+			'''
+	}
+
+	BlackAndWhite: {
+		DisplayName: Black And White
+		Tooltip:
+			'''
+			Throws a bunch of sharp blades
+			When a blade gets close to an enemy - it stops and stays still permanently
+			'''
+	}
+
+	TitaniumRaftHook: {
+		DisplayName: Titanium Raft Hook
+		Tooltip:
+			'''
+			Can grab enemies and drag them to your desired position.
+			Right-click to drag enemies towards yoursef.
+			Has a 25% chance to affect a boss.
+			'''
+	}
+
+	HeartSpinner: {
+		DisplayName: Heart Spinner
+		Tooltip:
+			'''
+			While it exists - increases your max amount of health by 5, this effect is stackable
+			Right-click to remove all attached saws
+			There are limit of 5 attached saws by default
+			'''
+	}
+
+	StarfishFin: {
+		DisplayName: Starfish Fin
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	BloodBullet: {
+		DisplayName: Blood Drop
+	}
+
+	RottenBullet: {
+		DisplayName: Rotten Neddle
+	}
+
+	WoodenSpike: {
+		DisplayName: Wooden Spike
+	}
+
+	TorchSpike: {
+		DisplayName: Torch Spike
+	}
+
+	ForestSpirit: {
+		DisplayName: Forest Spirit
+	}
+
+	CrimsonSpirit: {
+		DisplayName: Crimson Spirit
+	}
+
+	CorruptionSpirit: {
+		DisplayName: Corruption Spirit
+	}
+
+	CrimsonSpiritHeart: {
+		DisplayName: Crimson Spirit Heart
+	}
+
+	TinyCrimerasDebuffProjectile: {
+		DisplayName: Tiny Crimeras Debuff Projectile
+	}
+
+	TimidosVomit: {
+		DisplayName: Ravakar Vomit
+	}
+
+	TimidosFriendlyVomit: {
+		DisplayName: Abominium Vomit
+	}
+
+	Teethy: {
+		DisplayName: Teethy
+	}
+
+	Timidrop: {
+		DisplayName: Abominium saliva
+	}
+
+	FriendlyTimid: {
+		DisplayName: Abominium Creature
+	}
+
+	TimidiumBossPet: {
+		DisplayName: Meat Cucumber
+	}
+
+	CorruptionSpiritOrb: {
+		DisplayName: Corruption Spirit Orb
+	}
+
+	CSEaterOfSouls: {
+		DisplayName: C S Eater Of Souls
+	}
+
+	CorruptionSpiritOrbShard: {
+		DisplayName: Corruption Spirit Orb Shard
+	}
+
+	ZephyriteBigBullet: {
+		DisplayName: Zephyrite Big Bullet
+	}
+
+	DroneBossHand: {
+		DisplayName: Drone Boss Hand
+	}
+
+	DroneBossBigBullet: {
+		DisplayName: Drone Boss Big Bullet
+	}
+
+	DroneBossBullet: {
+		DisplayName: Drone Boss Bullet
+	}
+
+	MagicGunBullet: {
+		DisplayName: Magic Gun Bullet
+	}
+
+	HellDroneBossCircleBullet: {
+		DisplayName: Hell Drone Boss Circle Bullet
+	}
+
+	HellDroneBossSpinningBullet: {
+		DisplayName: Hell Drone Boss Spinning Bullet
+	}
+
+	HellDroneBossFollowBullet: {
+		DisplayName: Hell Drone Boss Follow Bullet
+	}
+
+	HellDroneBossCatalystBullet: {
+		DisplayName: Hell Drone Boss Catalyst Bullet
+	}
+
+	HellDroneBossBarierBullet: {
+		DisplayName: Hell Drone Boss Barier Bullet
+	}
+
+	CrystalSwordProj: {
+		DisplayName: Crystal Slash
+	}
+
+	RenaAxeProj: {
+		DisplayName: Fairy Axe
+	}
+
+	JungleAxeProj: {
+		DisplayName: Axe of the Jungle
+	}
+
+	StarPatienceProj: {
+		DisplayName: Star Patience
+	}
+
+	WaterCircleProj: {
+		DisplayName: Water Circle
+	}
+
+	TrappedLightningProj: {
+		DisplayName: Trapped Lightning
+	}
+
+	IronSawProj: {
+		DisplayName: Iron Saw
+	}
+
+	LeadSawProj: {
+		DisplayName: Lead Saw
+	}
+
+	ForbiddenFruitProj: {
+		DisplayName: Forbidden Fruit
+	}
+
+	VerdantVitalityProj: {
+		DisplayName: Verdant Vitality
+	}
+
+	GrimstrikeProj: {
+		DisplayName: Grimstrike
+	}
+
+	HolyStampProj: {
+		DisplayName: Holy Stamp
+	}
+
+	IceSkullProj: {
+		DisplayName: Tiny Blizzard
+	}
+
+	FireSkullProj: {
+		DisplayName: Tiny Inferno
+	}
+
+	JungleDragonProj: {
+		DisplayName: Jungle Dragon
+	}
+
+	ScarletSlicerProj: {
+		DisplayName: Scarlet Slicer
+	}
+
+	SmallRedSickle: {
+		DisplayName: Devil Sickle
+	}
+
+	RedSickle: {
+		DisplayName: Devil Sickle
+	}
+
+	TastiestCorruptionPieceProj: {
+		DisplayName: Tastiest Corruption Piece
+	}
+
+	TastiestCrimsonPieceProj: {
+		DisplayName: Tastiest Crimson Piece
+	}
+
+	MouthHitBox: {
+		DisplayName: Ravakar Mouth
+	}
+
+	MoonWalkerStep: {
+		DisplayName: Lunar Step
+	}
+
+	LunarNote: {
+		DisplayName: Lunar Note
+	}
+
+	LunarCardProj: {
+		DisplayName: Lunar Card
+	}
+
+	LunarNote2: {
+		DisplayName: Lunar Note
+	}
+
+	IceFireSkullProj: {
+		DisplayName: Tiny Inferno Blizzard
+	}
+
+	CrystalStaffProj: {
+		DisplayName: Magic Crystal
+	}
+
+	ArterialArmorShard: {
+		DisplayName: Arterial Armor Shard
+	}
+
+	FriendlySmallRedSickle: {
+		DisplayName: Red Sickle
+	}
+
+	ShellLanceProj: {
+		DisplayName: Shell Lance
+	}
+
+	ShellLanceBallProj: {
+		DisplayName: Shell Lance
+	}
+
+	RaftHookProj: {
+		DisplayName: Raft Hook
+	}
+
+	CoolerRaftHookProj: {
+		DisplayName: Cooler Raft Hook
+	}
+
+	ShroomMissle: {
+		DisplayName: Shroom Missle
+	}
+
+	GroundGlow: {
+		DisplayName: Ground Glow
+	}
+
+	UncannySpore: {
+		DisplayName: Uncanny Spore
+	}
+
+	TrappyShroom: {
+		DisplayName: Trappy Shroom
+	}
+
+	UnshroomyKnivesProj: {
+		DisplayName: Unshroomy Knive
+	}
+
+	CandyMineProj: {
+		DisplayName: Candy Mine
+	}
+
+	BuffStarProj: {
+		DisplayName: Magic Star
+	}
+
+	PlushieEaterProj: {
+		DisplayName: Plushie Eater
+	}
+
+	PlushieKidneyProj: {
+		DisplayName: Plushie Kidney
+	}
+
+	PlushieKidneyNailProj: {
+		DisplayName: Plushie Kidney Nail
+	}
+
+	BoilerMineProj: {
+		DisplayName: Boiler Mine
+	}
+
+	BoilerMineSparkleProj: {
+		DisplayName: Boiler Mine
+	}
+
+	ExplonocactusProj: {
+		DisplayName: Explonocactus
+	}
+
+	ExplonocactusSpikeProj: {
+		DisplayName: Explonocactus
+	}
+
+	ChainMineProj: {
+		DisplayName: Mine
+	}
+
+	DeathStarProj: {
+		DisplayName: Death Star
+	}
+
+	DeathStarBomb1Proj: {
+		DisplayName: Death Star
+	}
+
+	DeathStarBomb2Proj: {
+		DisplayName: Death Star
+	}
+
+	DeathStarBomb3Proj: {
+		DisplayName: Death Star
+	}
+
+	BloodyFanProj: {
+		DisplayName: Bloody Fan
+	}
+
+	BloodyFanProj2: {
+		DisplayName: Bloody Fan
+	}
+
+	EnchantedFanProj: {
+		DisplayName: Enchanted Fan
+	}
+
+	EnchantedFanProj2: {
+		DisplayName: Enchanted Fan
+	}
+
+	WoodenFanProj: {
+		DisplayName: Wooden Fan
+	}
+
+	StingerFanProj: {
+		DisplayName: Stinger Fan
+	}
+
+	StingerFanProj2: {
+		DisplayName: Stinger Fan
+	}
+
+	StingerFanProj3: {
+		DisplayName: Stinger Fan
+	}
+
+	BeetleFanProj: {
+		DisplayName: Beetle Fan
+	}
+
+	BlizzardFanProj2: {
+		DisplayName: Blizzard Fan
+	}
+
+	BlizzardFanProj: {
+		DisplayName: Blizzard Fan
+	}
+
+	BlizzardFanProj3: {
+		DisplayName: Blizzard Fan
+	}
+
+	PullanProj2: {
+		DisplayName: Pullan
+	}
+
+	PullanProj: {
+		DisplayName: Pullan
+	}
+
+	WindLightProj: {
+		DisplayName: Wind Light
+	}
+
+	WindLightProj2: {
+		DisplayName: Wind Light
+	}
+
+	MosquitoBot: {
+		DisplayName: Mosquito Bot
+	}
+
+	FungstProj: {
+		DisplayName: Fungst
+	}
+
+	ArteryScratcherProj: {
+		DisplayName: Artery Scratcher
+	}
+
+	ArteryScratcherProj2: {
+		DisplayName: Artery Scratcher
+	}
+
+	BloodDroplet: {
+		DisplayName: Blood Droplet
+	}
+
+	OutGroundBoulder: {
+		DisplayName: Boulder
+	}
+
+	ThrowedBoulder: {
+		DisplayName: Throwed Boulder
+	}
+
+	TinyThrowedBoulder: {
+		DisplayName: Tiny Boulder
+	}
+
+	CutsceneFairy: {
+		DisplayName: Fairy
+	}
+
+	EnemyFairy: {
+		DisplayName: Fairy
+	}
+
+	CarryFairy: {
+		DisplayName: Fairy
+	}
+
+	LifeCrystalBoulder: {
+		DisplayName: Life Crystal Boulder
+	}
+
+	TinyBoulder: {
+		DisplayName: Tiny Boulder
+	}
+
+	Boully2: {
+		DisplayName: Boully
+	}
+
+	ShotBoulder: {
+		DisplayName: Boulder
+	}
+
+	SpawnedBoulder: {
+		DisplayName: Boulder
+	}
+
+	BoulaceProj: {
+		DisplayName: Boulace
+	}
+
+	PetrifiedSunProj: {
+		DisplayName: Petrified Sun
+	}
+
+	PetrifiedSunProj2: {
+		DisplayName: Petrified Sun
+	}
+
+	FrodleNeedle: {
+		DisplayName: Frodle Needle
+	}
+
+	PigsFinProj: {
+		DisplayName: Pigs Fin
+	}
+
+	PigsFinProj2: {
+		DisplayName: Pigs Fin
+	}
+
+	ThePerfectFreezeProj: {
+		DisplayName: The Perfect Freeze
+	}
+
+	ThePerfectFreezeProj2: {
+		DisplayName: The Perfect Freeze
+	}
+
+	ThePull: {
+		DisplayName: The Pull
+	}
+
+	SpikeStormProj: {
+		DisplayName: Spike Storm
+	}
+
+	SpikeStormProj2: {
+		DisplayName: Spike Storm
+	}
+
+	AntlionEyeProj: {
+		DisplayName: Antlion Eye
+	}
+
+	BoneSpinnerProj: {
+		DisplayName: Bone Spinner
+	}
+
+	BoneSpinnerProj2: {
+		DisplayName: Bone Spinner
+	}
+
+	CursedCutterProj: {
+		DisplayName: Cursed Cutter
+	}
+
+	CursedCutterProj2: {
+		DisplayName: Cursed Cutter
+	}
+
+	Sweat: {
+		DisplayName: Sweat
+	}
+
+	UnsuspiciousLookingBoulderProj: {
+		DisplayName: Unsuspicious Looking Boulder
+	}
+
+	MagicSaw: {
+		DisplayName: Magic Saw
+	}
+
+	LavaGhostProj: {
+		DisplayName: Lava Ghost
+	}
+
+	LavaGhostProj2: {
+		DisplayName: Lava Ghost
+	}
+
+	BlackAndWhiteProj: {
+		DisplayName: Black And White
+	}
+
+	BlackAndWhiteProj2: {
+		DisplayName: Black And White
+	}
+
+	AdamantiteRaftHookProj: {
+		DisplayName: Adamantite Raft Hook
+	}
+
+	TitaniumRaftHookProj: {
+		DisplayName: Titanium Raft Hook
+	}
+
+	HeartSpinnerProj: {
+		DisplayName: Heart Spinner
+	}
+
+	CandyMineProj2: {
+		DisplayName: Candy Mine
+	}
+
+	CandyMineProj3: {
+		DisplayName: Candy Mine
+	}
+}
+
+ItemSetBonus: {
+	AngelicSet:
+		'''
+		Decreases max amount of lives by 50 
+		Increases Melee, Magic, Ranged and Summon damage by additional 45% 
+		Increases Melee, Magic, Ranged and Summon crit chance by 27%
+		'''
+	TimidosSet:
+		'''
+		Increases coward crit chance by 8%
+		When you take damage, spreads Abominium vomit
+		'''
+	UnblessedSet:
+		'''
+		Increases coward crit chance by 5% 
+		Every 5 times of dealing coward damage will create a syringe that will be thrown into your enemies
+		If syringe hits an enemy - you'll heal by a bit
+		'''
+	InfernoSet:
+		'''
+		Increases coward crit chance by 10% 
+		Strongly decreases movement speed
+		Dealing coward damage will fill up the heat bar
+		The more heat bar gets filled - the more movement speed increase you gain
+		The more heat bar gets filled - the higher will be decrease in your defense, up to 20
+		When the heat bar is full, you gain the inferno ring and your coward damage will burn enemies with fire
+		Getting hurted causes the bar to lose some of the heat 
+		'''
+	LifefullSet:
+		'''
+		Increases coward crit chance by 5% 
+		Increases coward damage by 5% 
+		Gives you additional defense based on your current health
+		At full health you gain 100 defense, at 0 health - 0 additional defense
+		'''
+	MoonWalkerSet:
+		'''
+		Increases coward crit chance by 15% 
+		Increases coward damage by 10% 
+		Moon Walker boots will folow you
+		Moon Walker boots leave Lunar Steps with each step they make
+		Lunar Steps deal damage equal to the half of your max health
+		'''
+}
+
+BlockMapName: {
+	Crystalloom: Crystalloom
+}
+
+CustomDamageClass: {
+	Coward: coward Damage
+}
+
+NPCs: {
+	PieceOfFlesh: {
+		DisplayName: Piece Of Flesh
+	}
+
+	DroneBasic: {
+		DisplayName: Basic Observer
+	}
+
+	DroneSmall: {
+		DisplayName: Tiny Sky Observer
+	}
+
+	DroneBig: {
+		DisplayName: Land Scaner
+	}
+
+	DroneBoss: {
+		DisplayName: Ethan
+	}
+
+	LesserCrimsonSpirit: {
+		DisplayName: Lesser Crimson Spirit
+	}
+
+	LesserCorruptionSpirit: {
+		DisplayName: Lesser Corruption Spirit
+	}
+
+	HellDroneBoss: {
+		DisplayName: Hell Drone Boss
+	}
+
+	HellDroneBossCatalyst: {
+		DisplayName: Hell Drone Boss Catalyst
+	}
+
+	PureBulb: {
+		DisplayName: Pure Bulb
+	}
+
+	TheCreature: {
+		DisplayName: Arterial Creature
+	}
+
+	Spirit: {
+		DisplayName: Spirit
+	}
+
+	Ravakar: {
+		DisplayName: Ravakar
+	}
+
+	SkySignalDrone: {
+		DisplayName: Sky Signal Drone
+	}
+
+	RavakarMinion: {
+		DisplayName: Abomin
+	}
+
+	FlyingCreature: {
+		DisplayName: Arterial Bug
+	}
+
+	Shroomitator: {
+		DisplayName: Shroomitator
+	}
+
+	BloodSucker: {
+		DisplayName: Blood Sucker
+	}
+
+	UncannyMushroom: {
+		DisplayName: Uncanny Mushroom
+	}
+
+	Boluder: {
+		DisplayName: Boluder
+	}
+
+	Boully: {
+		DisplayName: Boully
+	}
+
+	StarFish: {
+		DisplayName: Star Fish
+	}
+
+	Frodle: {
+		DisplayName: Frodle
+	}
+}
+
+Tiles: {
+	SunOre: {
+		MapEntry: Sun Stone
+	}
+
+	SunBar: {
+		MapEntry: Sun Bar
+	}
+
+	TimidiumOre: {
+		MapEntry: Abominium
+	}
+
+	LifeBar: {
+		MapEntry: Lifefull Bar
+	}
+
+	WorldArteryCrystal: {
+		MapEntry: Arterial Crystal
+	}
+
+	WorldArteryPurpleCrystal: {
+		MapEntry: Loaded Arterial Crystal
+	}
+
+	ArterialRock: {
+		MapEntry: Arterial Rock
+	}
+}
+
+WorldGen: {
+	BountyOrePassMessage: Injecting Timidium
+}
+
+Buffs: {
+	TinyCrimerasDebuff: {
+		DisplayName: Swarm Of Tiny Crimeras
+		Description: You are surrounded by tiny hungry Crimeras
+	}
+
+	TimidiumBossPetBuff: {
+		DisplayName: Meat Cucumber
+		Description: Big eyed flying Meat Cucumber follows you.
+	}
+
+	ArterialFlameDebuff: {
+		DisplayName: Arterial Flame
+		Description: You are BURNING with life!
+	}
+
+	StrangeSound: {
+		DisplayName: Strange Sound
+		Description: What is this sound and where is it coming from???
+	}
+
+	MineCooldown: {
+		DisplayName: Mine Cooldown
+		Description: Can't place mines
+	}
+
+	MineStars: {
+		DisplayName: Surrounding Stars
+		Description:
+			'''
+			You summon 3 magic stars every time you create a mine
+			If mine touches a star, it'll collect it and mine's damage will rise by 50%
+			'''
+	}
+}
+
+ChecklistConditions: {
+	Ravakar: Use the summon item in Corruption or Crimson biome at any time.
+	Shroomitator: Use the summon item in Glowing Mushroom biome at any time. Can be encountered in Glowing Mushroom biome in disguise.
+	Boluder: Use the summon item in Underground Cavern layer at any time. Has an insanely small chance to be attacked by in Underground.
+}
+

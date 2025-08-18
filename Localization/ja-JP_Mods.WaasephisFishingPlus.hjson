@@ -1,0 +1,488 @@
+{
+	Bestiary: {
+		PortableShop: "役立つ釣りアイテムを売る自分だけの釣り台を持つ金魚。 彼はその屋台を全部自分で作ったんだ！なんて誇らしい。"
+		LavaShark: "黒曜石のように硬い鱗を持つように進化したサメで、その鱗は信じられないほどの耐熱性を持ち、溶岩への耐性を与える。"
+		AtlanticCodCritter: "こいつを作っている時に知ったんだが、基本的にはバスの色違いだ…"
+		BassCritter: "最も一般的な魚の一つで、味はまあまあ…"
+		BombfishCritter: "なぜか大量の火薬で満たされている魚。 爆発しやすいため、取り扱い注意"
+		FlounderCritter: "砂漠でよく見られる平たい魚で、水銀の含有量が非常に低い。"
+		ShrimpCritter: "名前は似ているが、シュリンプポーボーイを作るのには使えない。"
+	}
+	Buffs: {
+		SeaSlugBuff: {
+			DisplayName: "ウミウシ"
+			Description: "ウミウシは海のウサギとも呼ばれるから、これは技術的に正しい"
+		}
+		AnglerFishBuff: {
+			DisplayName: "アンコウ"
+			Description: "思ったよりずっと友好的…"
+		}
+		StablizedBuff: {
+			Description: "強風への耐性"
+			DisplayName: "安定化"
+		}
+	}
+	Dialogue: {
+		PortableShop: {
+			Default1: "＊ブクブク＊"
+			Default2: "＊ゴボゴボ＊"
+			Default3: "…"
+			Default4: "＊魚の鳴き声＊"
+		}
+	}
+	Items: {
+		FilletingTableItem: {
+			DisplayName: "捌き台"
+			Tooltip: "魚をアイテムに変えるために使用"
+		}
+		FilletKnife: {
+			DisplayName: "フィレナイフ"
+			Tooltip: "魚を資源に切り分けるために使用"
+		}
+		GalacticFilletKnife: {
+			DisplayName: "ギャラクティックフィレナイフ"
+			Tooltip: "'''\n魚を資源に切り分けるために使用\n全ての魚を捌くことができ、さらに多くの産出量を得られる\n'''"
+		}
+		RefinedFilletKnife: {
+			DisplayName: "精巧なフィレナイフ"
+			Tooltip: "'''\n魚を資源に切り分けるために使用\n他のナイフよりも多くの魚を捌ける\n'''"
+		}
+		OvergrownCrate: {
+			DisplayName: "草の茂った木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CrystalCatcher: {
+			DisplayName: "クリスタルキャッチャー"
+			Tooltip: "3つの浮きを投げる"
+		}
+		FrigidCrate: {
+			DisplayName: "極寒の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CoralHeart: {
+			DisplayName: "コーラルハート"
+			Tooltip: "'''\n全ての釣りバフを提供し、フィッシング・パワーをブーストする\n「持ち主の釣り能力を強化する」\n'''"
+		}
+		HandofCod: {
+			DisplayName: "タラの手"
+			Tooltip: "これが手に入れられる最高のものか？"
+		}
+		Prismaline: {
+			DisplayName: "プリズマリン"
+			Tooltip: "'''\n5つの浮きを投げる\n「最も純粋な漁師だけがこのような竿を振るうことができる」\n'''"
+		}
+		Mecherel: {
+			DisplayName: "メカニシン"
+			Tooltip: "「どこでも釣れる」"
+		}
+		Garnite: {
+			DisplayName: "ガーナイト"
+			Tooltip: "「花崗岩の洞窟で釣れる」"
+		}
+		RegalScepter: {
+			DisplayName: "リーガルセプター"
+			Tooltip: "'''\n4つの浮きを投げる\n「王にふさわしい竿」\n'''"
+		}
+		FishFillet: {
+			DisplayName: "魚の切り身"
+			Tooltip: "'''\n全てのステータスが中程度向上\n短時間、フィッシング・パワーが増加\n「シンプルに切り分けた魚」\n'''"
+		}
+		NeonScales: {
+			DisplayName: "ネオンスケール"
+			Tooltip: "信じられないほどキラキラ！"
+		}
+		NeonScaleGreaves: {
+			DisplayName: "ネオンスケールのすね当て"
+			Tooltip: "釣りスキルをわずかに上昇させ、水上を歩けるようになる"
+		}
+		NeonScalemail: {
+			DisplayName: "ネオンスケールの胸当て"
+			Tooltip: "釣りスキルをわずかに上昇させ、泳げるようになる"
+		}
+		NeonScaleMask: {
+			DisplayName: "ネオンスケールの仮面"
+			Tooltip: "釣りスキルをわずかに上昇させ、水中で呼吸できるようになる"
+		}
+		SharkTooth: {
+			DisplayName: "サメの歯"
+			Tooltip: "とても鋭い"
+		}
+		SharkToothPickaxe: {
+			DisplayName: "サメの歯のピッケル"
+			Tooltip: "あるべき姿だ"
+		}
+		TrawlerHat: {
+			DisplayName: "トロール船の帽子"
+			Tooltip: "フィッシング・パワーが10増加"
+		}
+		TrawlerPants: {
+			DisplayName: "トロール船のズボン"
+			Tooltip: "フィッシング・パワーが10増加"
+		}
+		TrawlerVest: {
+			DisplayName: "トロール船のベスト"
+			Tooltip: "フィッシング・パワーが10増加"
+		}
+		HeartFin: {
+			DisplayName: "ハートのヒレ"
+			Tooltip: ""
+		}
+		Ebonthodian: {
+			Tooltip: ""
+			DisplayName: "エボンソディ"
+		}
+		Heartang: {
+			DisplayName: "ハータング"
+			Tooltip: ""
+		}
+		BonePole: {
+			DisplayName: "ボーンポール"
+			Tooltip: "2つの浮きを投げる"
+		}
+		ChlorophyteFilletKnife: {
+			DisplayName: "クロロファイトのフィレナイフ"
+			Tooltip: "'''\n魚を資源に切り分けるために使用\n他のナイフよりも多くの魚を捌け、より多くの産出量を得られる\n'''"
+		}
+		MoltenFilletKnife: {
+			DisplayName: "溶岩のフィレナイフ"
+			Tooltip: "'''\n魚を資源に切り分けるために使用\n通常のナイフよりも多くの産出量を得られる\n'''"
+		}
+		InterstellarCaster: {
+			DisplayName: "星間のキャスター"
+			Tooltip: "'''\n2つの浮きを投げる\n特定のバイオームで鉱石を釣ることができる\n'''"
+		}
+		SporeSnapper: {
+			Tooltip: ""
+			DisplayName: "スポアスナッパー"
+		}
+		Gobee: {
+			Tooltip: ""
+			DisplayName: "ゴビー"
+		}
+		Asterovy: {
+			Tooltip: ""
+			DisplayName: "アステロヴィ"
+		}
+		CryptCoffin: {
+			Tooltip: "右クリックで開ける"
+			DisplayName: "クリプトコフィン"
+		}
+		Stardustfish: {
+			Tooltip: ""
+			DisplayName: "スターダストフィッシュ"
+		}
+		Solamola: {
+			Tooltip: ""
+			DisplayName: "ソラモラ"
+		}
+		Nebulagazer: {
+			Tooltip: ""
+			DisplayName: "ネビュラゲイザー"
+		}
+		LihzahrdFilletKnife: {
+			DisplayName: "リザードのフィレナイフ"
+			Tooltip: "'''\n魚を資源に切り分けるために使用\n全ての魚を捌ける\n'''"
+		}
+		Vortexeye: {
+			DisplayName: "ボルテックスアイ"
+			Tooltip: ""
+		}
+		SeaCarrot: {
+			DisplayName: "シーキャロット"
+			Tooltip: "ペットのウミウシを召喚する"
+		}
+		SantaRay: {
+			Tooltip: "「ツンドラで釣れる」"
+			DisplayName: "サンタレイ"
+		}
+		AetherianAngler: {
+			Tooltip: "「エーテルで釣れる」"
+			DisplayName: "エーテリアンアングラー"
+		}
+		Ectolione: {
+			Tooltip: ""
+			DisplayName: "エクトリオーネ"
+		}
+		LihzahrdCrate: {
+			DisplayName: "リザードの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		BassStatueItem: {
+			DisplayName: "バスの像"
+			Tooltip: ""
+		}
+		SeaUrchin: {
+			DisplayName: "ウニ"
+			Tooltip: "敵に命中すると棘が折れ、ターゲットを毒状態にする"
+		}
+		PreparedUrchin: {
+			DisplayName: "調理済みウニ"
+			Tooltip: "'''\n全てのステータスが大幅に向上\nフックした魚を検知できるようになる\n「一部では珍味だと言われている」\n'''"
+		}
+		HellstoneSnail: {
+			DisplayName: "ヘルストーンスネイル"
+			Tooltip: "「地底世界で釣れる」"
+		}
+		Marbeel: {
+			DisplayName: "マービール"
+			Tooltip: "「大理石の洞窟で釣れる」"
+		}
+		LavaSharkBanner: {
+			DisplayName: "ラヴァシャークのバナー"
+			Tooltip: "近くのプレイヤーはラヴァシャークに対してボーナスを得る"
+		}
+		PortableShopBox: {
+			DisplayName: "ポータブルショップボックス"
+			Tooltip: "アイテムを売るための一時的な魚の屋台を召喚する"
+		}
+		TrainingRod: {
+			DisplayName: "トレーニングロッド"
+			Tooltip: "非常に弱いが、ラインが切れることはない"
+		}
+		AnglerLantern: {
+			DisplayName: "アンコウランタン"
+			Tooltip: "道を照らす友好的なアンコウを召喚する"
+		}
+		BottomlessChumBucket: {
+			DisplayName: "底なしの撒き餌バケツ"
+			Tooltip: "'''\n無限の撒き餌が含まれている\n撒き餌を3つ投げて水中のフィッシング・パワーを増加させる\n'''"
+		}
+		ChlorophyteFishingRod: {
+			DisplayName: "クロロファイトの釣竿"
+			Tooltip: ""
+		}
+		CorruptionLockBox: {
+			DisplayName: "不浄の鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CrimsonLockBox: {
+			DisplayName: "真紅の鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		DesertLockBox: {
+			DisplayName: "砂漠の鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		FrozenLockBox: {
+			DisplayName: "凍った鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		HallowedLockBox: {
+			DisplayName: "神聖な鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		JungleLockBox: {
+			DisplayName: "ジャングルの鍵付き箱"
+			Tooltip: "右クリックで開ける"
+		}
+		LockBoxMold: {
+			DisplayName: "ロックボックスの鍵型"
+			Tooltip: "バイオームキーと組み合わせてレアな武器を手に入れる"
+		}
+		StablizingPotion: {
+			Tooltip: "砂嵐の風に対する耐性を得る"
+			DisplayName: "安定化ポーション"
+		}
+		Woodskip: {
+			Tooltip: ""
+			DisplayName: "ウッドスキップ"
+		}
+		AncientSquid: {
+			Tooltip: ""
+			DisplayName: "古代のイカ"
+		}
+		HeartBobber: {
+			Tooltip: "'''\nフィッシング・パワーが10増加\n浮きが光り、パーティクルを放出するようになる\n'''"
+			DisplayName: "ハートクリスタルの浮き"
+		}
+		ManaBobber: {
+			Tooltip: "'''\nフィッシング・パワーが10増加\n浮きが光り、パーティクルを放出するようになる\n'''"
+			DisplayName: "マナクリスタルの浮き"
+		}
+		LifeBobber: {
+			Tooltip: "'''\nフィッシング・パワーが10増加\n浮きが光り、パーティクルを放出するようになる\n'''"
+			DisplayName: "ライフフルーツの浮き"
+		}
+		Squid: {
+			DisplayName: "イカ"
+			Tooltip: ""
+		}
+		Calamari: {
+			DisplayName: "カラマリ"
+			Tooltip: "'''\n全てのステータスが中程度向上\nクレートを手に入れる確率が上昇\n「レモンと相性抜群」\n'''"
+		}
+		BaxterBobber: {
+			DisplayName: "バクスターの浮き"
+			Tooltip: "'''\nフィッシング・パワーが10増加\n浮きが光るようになり、そしてそれは私の猫だ\n'''"
+		}
+		GoldfishMirror: {
+			DisplayName: "金魚の鏡"
+			Tooltip: "魚を覗き込んで家に帰る"
+		}
+		GoldfishingRod: {
+			DisplayName: "金魚の釣り竿"
+			Tooltip: "2つの浮きを投げる"
+		}
+		BudGold: {
+			DisplayName: "バドゴールド"
+			Tooltip: "'''\n近接ステータスがわずかに向上し、防御力が低下\n「この代物は…かなりアルコール度数が高い…」\n'''"
+		}
+		HappyNimbus: {
+			DisplayName: "ハッピーニンバス"
+			Tooltip: "'''\n雨が降っている間、フィッシング・パワーが向上\n「彼はついに落ち着いたようだ」\n'''"
+		}
+		FleshySpewer: {
+			DisplayName: "フレッシャースピュワー"
+			Tooltip: "'''\n無限の血液を吐き出す\n「一体どこからこんなに多くの血を‥？」\n'''"
+		}
+		Oarfish: {
+			DisplayName: "リュウグウノツカイ"
+			Tooltip: "'''\n海の下でめったに見つからない伝説の魚\n「大きすぎてポケットにほとんど入らない！」\n'''"
+		}
+		SunRay: {
+			DisplayName: "サンレイ"
+			Tooltip: ""
+		}
+		TrashHook: {
+			DisplayName: "ゴミのフック"
+			Tooltip: "'''\nフィッシング・パワーを10増加させるが、臭くなる\n「美は見る人の目の中にあるが、匂いはそうではない…」\n'''"
+		}
+		Searobin: {
+			DisplayName: "シーロビン"
+			Tooltip: "'''\n溶岩でめったに見つからない伝説の魚\n「小さな身体に、凄まじい熱」\n'''"
+		}
+		RegalMoonsquid: {
+			DisplayName: "リーガルムーンスクイッド"
+			Tooltip: "'''\nムーンロードが倒された後、宇宙でめったに見つからない伝説の魚\n「頭足類の王」\n'''"
+		}
+		OarfishTrophyItem: {
+			DisplayName: "リュウグウノツカイのトロフィー"
+			Tooltip: ""
+		}
+		DreadnautilusTrophyItem: {
+			DisplayName: "ドレッドノーチラスのトロフィー"
+			Tooltip: ""
+		}
+		RegalMoonsquidTrophyItem: {
+			DisplayName: "リーガルムーンスクイッドのトロフィー"
+			Tooltip: ""
+		}
+		SearobinTrophyItem: {
+			DisplayName: "シーロビンのトロフィー"
+			Tooltip: ""
+		}
+	}
+	NPCs: {
+		BassCritter: {
+			DisplayName: "バス"
+		}
+		FlounderCritter: {
+			DisplayName: "カレイ"
+		}
+		AtlanticCodCritter: {
+			DisplayName: "タイセイヨウダラ"
+		}
+		ShrimpCritter: {
+			DisplayName: "エビ"
+		}
+		LavaShark: {
+			DisplayName: "ラヴァシャーク"
+		}
+		PortableShop: {
+			DisplayName: "ポータブルショップ"
+		}
+		BombfishCritter: {
+			DisplayName: "ボムフィッシュ"
+		}
+	}
+	Projectiles: {
+		CrystalBobber: {
+			DisplayName: "クリスタルボバー"
+		}
+		PrismBobber: {
+			DisplayName: "プリズムボバー"
+		}
+		RegalBobber: {
+			DisplayName: "リーガルボバー"
+		}
+		BoneBobber: {
+			DisplayName: "ボーンボバー"
+		}
+		InterstellarBobber: {
+			DisplayName: "インターステラーボバー"
+		}
+		SeaSlug: {
+			DisplayName: "ウミウシ"
+		}
+		SeaUrchinProjectile: {
+			DisplayName: "ウニ"
+		}
+		UrchinSpike: {
+			DisplayName: "ウニの棘"
+		}
+		TrainingBobber: {
+			DisplayName: "トレーニングボバー"
+		}
+		AnglerFishPet: {
+			DisplayName: "アンコウ"
+		}
+		ChlorophyteBobber: {
+			DisplayName: "クロロファイトボバー"
+		}
+		HeartBobberProjectile: {
+			DisplayName: "ハートボバー"
+		}
+		ManaBobberProjectile: {
+			DisplayName: "マナボバー"
+		}
+		LifeBobberProjectile: {
+			DisplayName: "ライフボバー"
+		}
+		BaxterBobberProjectile: {
+			DisplayName: "バクスターボバー"
+		}
+		GoldfishBobber: {
+			DisplayName: "金魚ボバー"
+		}
+	}
+	Tiles: {
+		FilletingTable: {
+			MapEntry: "捌き台"
+		}
+		OarfishTrophy: {
+			MapEntry: "トロフィー"
+		}
+	}
+	AnglerQuestText: {
+		Quest: {
+			AetherianAngler: {
+				Description: "シマーを見たか？一度そこで釣りをして何が住んでいるか見てみたけど、二度と経験したくない体験だった…近くには変な生き物がいるはずだ、近くで釣ってみて！"
+				CatchLocation: "エーテルで釣れる"
+			}
+			Garnite: {
+				Description: "御影石の洞窟には超鋭い石でできた魚がいるって聞いたんだ、どれだけ鋭いか見てみたいんだよね 行って一匹捕まえてきて！"
+				CatchLocation: "御影石の洞窟で釣れる"
+			}
+			HellstoneSnail: {
+				Description: "もう地底世界には行ったかい？あそこの溶岩にはユニークな魚が住んでいるんだ！ぜひ見てみたい！僕は行かないけど‥あそこは子供に優しくないからね、君がやってくれ！あそこにいる生き物を使えば溶岩で釣りができるよ、耐火性の網さえあれば捕まえられる"
+				CatchLocation: "地底世界で釣れる"
+			}
+			Marbeel: {
+				Description: "大理石の洞窟に行ったことあるかい？昔の獰猛な戦士たちがさまよっているんだ、きっとそこには超クールな魚がいるに違いない 行って見てきて！"
+				CatchLocation: "大理石の洞窟で釣れる"
+			}
+			Mecherel: {
+				Description: "あの巨大なロボットたち、知ってる？もっとたくさんいるって噂を聞いたんだ！その中には魚もいるって話だ！探しに行ってみて！"
+				CatchLocation: "どこでも釣れる"
+			}
+			SantaRay: {
+				Description: "毎年冬になると、サンタクロースがやってきてプレゼントをくれるんだ 彼はペットの魚のコレクションを持っているって聞いたんだ、サンタを脅して良いプレゼントをもらうために一匹捕まえてきて！"
+				CatchLocation: "地上雪原で釣れる"
+			}
+		}
+	}
+	ArmorSetBonus: {
+		NeonScaleArmor: "きらめく鱗が店の価格を下げる"
+		TrawlerArmor: "敵の出現率を大幅に減らし、全ての釣り竿に浮きを1つ追加する"
+	}
+}

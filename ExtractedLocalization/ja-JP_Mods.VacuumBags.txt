@@ -1,0 +1,771 @@
+Configs: {
+	BagsClientConfig: {
+		BagStorageOptions: Bag Storage Options
+		DisplayName: Client Config
+		LoggingInformation: Logging Information
+
+		AllAmmoItemsGoIntoAmmoBag: {
+			Label: All Ammo Items Go Into Ammo Bag
+			Tooltip:
+				'''
+				If true, all items that are used as ammo for anything will go into the bag.
+				If false, only the selected ammo items whitelist will be allowed which excludes a few items like stars.
+				'''
+		}
+
+		AllOtherCreateTileItemsIntoBuildersBox: {
+			Label: All Other Create Tile Items Into Builders Box
+			Tooltip:
+				'''
+				When on, every item that creates a tile when used will be added to the Builder's Box whitelist if it does not already go into another bag's whitelist.
+				This is supposed to catch most furniture, but may end up pulling in other items that aren't intended.
+				'''
+		}
+
+		PortableStationPassiveBuffsOnlyActiveIfFavorited: {
+			Label: Portable Station Passive Buffs Only Active If Favorited
+			Tooltip:
+				'''
+				If selected, only favorited buff stations will provide their buffs.
+
+				'''
+		}
+
+		PrintWikiInfo: {
+			Label: Log all wiki info
+			Tooltip:
+				'''
+				The info is printed to the client.log when you enter a world.
+				The client.log default location is C:\Steam\SteamApps\common\tModLoader\tModLoader-Logs
+				'''
+		}
+
+		SilencePortableStationActiveBuffs: {
+			Label: Silence Portable Station Active Buffs
+			Tooltip: If selected, the Portable Station will not play any sounds when it provides active buffs on opening the station.
+		}
+
+		SimpleBagsVacuumAllItems: {
+			Label: Simple Bags Vacuum All Items
+			Tooltip:
+				'''
+				If true, all items will be vacuumed into the simple bags.
+				If false, only items that are the same type as an item in the bag will be vacuumed.
+				'''
+		}
+
+		TurnOffRegularPotionFlask: {
+			Label: Turn Off Regular Potion Flask
+			Tooltip: Turning this on will disable all effects of the Regular Potion Flask.  (Does not affect the Exquisite Potion Flask)
+		}
+	}
+
+	BagsServerConfig: {
+		BagEffectOptions: Bag Effect Options
+		Crafting: Crafting
+		DisplayName: Server Config
+
+		BannerBagNumberOfBannersInInventory: {
+			Label: Banner Bag Number Of Banners In Inventory
+			Tooltip:
+				'''
+				When the Banner bag is in your inventory, the first X number of banners will apply their buffs.
+				Favoriting a banner or banners gives them priority over non-favorited ones.
+				Set to -1 for all banners in the bag to give their buffs.
+				'''
+		}
+
+		BannerBagNumberOfBannersWhenPlaced: {
+			Label: Banner Bag Number Of Banners When Placed
+			Tooltip:
+				'''
+				When the Banner bag is placed in the world, the first X number of banners will apply their buffs.
+				Favoriting a banner or banners gives them priority over non-favorited ones.Set to -1 for all banners in the bag to give their buffs.
+				'''
+		}
+
+		HarderBagRecipes: {
+			Label: Harder Bag Recipes
+			Tooltip: Makes the bag recipes require more items and some are more difficult to get.
+		}
+
+		PortableStationCanGiveHoneyBuff: {
+			Label: Portable Station Can Give Honey Buff
+			Tooltip: If selected, the Honey buff is allowed to be given by the Portable Station.
+		}
+
+		PortableStationMustBeTouchedToGetHoneyBuff: {
+			Label: Portable Station Must Be Touched To Get Honey Buff
+			Tooltip:
+				'''
+				If selected, the Honey buff will be given if the Portable Station is touched if there is a bucket of honey in the station.
+				If not selected, the Honey buff will be given in an area of effect around the Portable Station.
+				If the Unlimited honey bucket is in the station, the area of effect will be active regardless of this option.
+				'''
+		}
+
+		PortableStationNumberOfPassiveBuffStationsInInventory: {
+			Label: Portable Station Number Of Passive Buff Stations In Inventory
+			Tooltip:
+				'''
+				When the Portable Station is in your inventory, the passive buffs from the first X number of stations will be active.
+				Favoriting a station or stations gives them priority over non-favorited ones.
+				Set to -1 for all stations in the Portable Station to give their passive buffs.
+				Peace Candles, Water candles and Shadow candles will not ever be active unless favorited and do not count towards the buff limit.
+				'''
+		}
+
+		PortableStationNumberOfPassiveBuffStationsWhenPlaced: {
+			Label: Portable Station Number Of Passive Buff Stations When Placed
+			Tooltip:
+				'''
+				When the Portable Station is placed in the world, the passive buffs from the first X number of stations will be active.
+				Favoriting a station or stations gives them priority over non-favorited ones.
+				Set to -1 for all stations in the Portable Station to give their passive buffs.
+				Peace Candles, Water candles and Shadow candles will not ever be active unless favorited and do not count towards the buff limit.
+				'''
+		}
+
+		PortableStationNumberOfStationsInInventory: {
+			Label: Portable Station Number Of Stations In Inventory
+			Tooltip:
+				'''
+				When the Portable Station is in your inventory, the first X number of stations will be available for crafting.
+				Favoriting a station or stations gives them priority over non-favorited ones.
+				Set to -1 for all stations in the Portable Station to be available for crafting.
+				'''
+		}
+
+		PortableStationNumberOfStationsWhenPlaced: {
+			Label: Portable Station Number Of Stations When Placed
+			Tooltip:
+				'''
+				When the Portable Station is placed in the world, the first X number of stations will be available for crafting.
+				Favoriting a station or stations gives them priority over non-favorited ones.
+				Set to -1 for all stations in the Portable Station to be available for crafting.
+				'''
+		}
+
+		PortableStationsActivateActiveBuffsWhenOpened: {
+			Label: Portable Stations Activate Active Buffs When Opened
+			Tooltip: If selected, the buffs from stations that provide buffs when interacted with will give their buffs.
+		}
+
+		PotionFlaskSavesBuffsOnDeath: {
+			Label: Potion Flask Saves Buffs On Death
+			Tooltip:
+				'''
+				If selected, potion buffs the player had when they died will be given back to the player at the remaining duration when they respawn.
+				The Exquisite Potion Flask will always have this effect regardless of this option.
+				'''
+		}
+	}
+}
+
+Items: {
+	AmmoBag: {
+		DisplayName: Ammo Bag
+		Tooltip:
+			'''
+			Automatically stores throwables, arrows, bullets, flares, solutions.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Ammo in the bag is used if the ammo bag is in the first ammo item found.
+			If any ammo in the bag that can be used by your equipped weapon is favorited, only favorited ammos will be used.
+			'''
+	}
+
+	BagBlack: {
+		DisplayName: Bag (Black)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagBlue: {
+		DisplayName: Bag (Blue)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagBrown: {
+		DisplayName: Bag (Brown)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagGray: {
+		DisplayName: Bag (Gray)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagGreen: {
+		DisplayName: Bag (Green)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagOrange: {
+		DisplayName: Bag (Orange)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagPink: {
+		DisplayName: Bag (Pink)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagPurple: {
+		DisplayName: Bag (Purple)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagRed: {
+		DisplayName: Bag (Red)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagWhite: {
+		DisplayName: Bag (White)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BagYellow: {
+		DisplayName: Bag (Yellow)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	BannerBag: {
+		DisplayName: Banner Bag
+		Tooltip:
+			'''
+			Automatically stores banners.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			The bag provides up to 3 banner effects by default when in your inventory.
+			When placed, it provides all of your banner effects by default, but in the normal banner range.  Each banner bag shares it's inventory.
+			When selecting banner buffs to give you, banners will be ignored if you already have them nearby.
+			The background of banners is yellow when there buff is being granted by the banner bag.
+			The background is purple if you already have the banner buff from another source.
+			'''
+	}
+
+	BossBag: {
+		DisplayName: Boss Bag
+		Tooltip:
+			'''
+			Automatically stores boss bags, trophies, boss statues, and cosmetic boss drops.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Uses Boss Checklist to add modded items to the allowed items if it is enabled.
+			'''
+	}
+
+	BuildersBox: {
+		DisplayName: Builders Box
+		Tooltip:
+			'''
+			Automatically stores building materials (bricks, craftable blocks, etc.)
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Items can be placed from the box by left clicking with the box.  If any items in the box are favorited, only favorited items will be used.
+			'''
+	}
+
+	CalamitousCauldron: {
+		DisplayName: Calamitous Cauldron
+		Tooltip:
+			'''
+			Automatically stores items from Calamity.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	EarthenPyramid: {
+		DisplayName: Earthen Pyramid
+		Tooltip:
+			'''
+			Automatically stores items from Secrets of the Shadows.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	EssenceOfGathering: {
+		DisplayName: Essence of Gathering
+		Tooltip:
+			'''
+			Automatically stores items from Stars Above.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	ExquisitePotionFlask: {
+		DisplayName: Exquisite Potion Flask
+		Tooltip:
+			'''
+			Automatically stores potions, food and drink.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Quick Buff will use food items from the bag.  If any food items in the bag are favorited, only favorited food items will be used.
+			Quick Buff will use favorited potions from the bag.
+			Quick Heal will use healing items from the bag.  If any healing items in the bag are favorited, only favorited healing items will be used.
+			Quick Mana will use mana items from the bag.  If any mana items in the bag are favorited, only favorited mana items will be used.
+			Potion buffs can be paused by right clicking on the buff like you normally would to remove it or unfavoriting the potion.
+			Potions providing a buff will have a green background.  Paused potions will have a yellow background.
+			Paused buffs can be resumed with quick buff or by favoriting the potion in the flask.
+			Potion effects are kept on death at the same duration they were before dying.
+			Gaining a potion buff while you already have the buff will add their durations together instead of setting it to the new effect's duration.
+			Removing a buff with the Shift key held will delete the buff instead of pausing it.
+
+			Potions will last twice as long as normal by continuously adding to the time remaining so that only 1 second is used every 2 seconds.
+			(Pairs well with the Legendary Juiced Enchantment for permanent infinite duration if that's what you want.)
+			When potions reach 2 ticks left, they will stop counting down, giving you infinite potion duration.
+			When you die, all potion effects that are being held at 2 ticks left will reset. (Until death do you part)
+			'''
+	}
+
+	FargosMementos: {
+		DisplayName: Fargo's Mementos
+		Tooltip:
+			'''
+			Automatically stores items from Fargos.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	FishingBelt: {
+		DisplayName: Fishing Belt
+		Tooltip:
+			'''
+			Automatically stores fishing related items such as fish, bait and angler rewards.
+			When in your inventory, the contents of the belt are available for crafting.
+			Right click to open the belt.
+			Bait in the belt is used if the fishing belt is in the first bait item found.
+			If any bait in the belt that can be used is favorited, only favorited baits will be used.
+			Information accessories that are favorited will show their info as if they are in your inventory.
+			'''
+	}
+
+	HerbSatchel: {
+		DisplayName: Herb Satchel
+		Tooltip:
+			'''
+			Automatically stores seeds, herbs, flowers, etc.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	HoiPoiCapsule: {
+		DisplayName: Hoi-Poi Capsule
+		Tooltip:
+			'''
+			Automatically stores items from Dragon Ball Terraria.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	JarOfDirt: {
+		DisplayName: Jar of Dirt
+		Tooltip:
+			'''
+			Automatically stores dirt and other natural blocks (dirt, mud, clay, sand, stone, ice, etc.)
+			When in your inventory, the contents of the jar are available for crafting.
+			Right click to open the jar.
+			Items can be placed from the jar by left clicking with the jar.  If any items in the jar are favorited, only favorited items will be used.
+
+			..........guess what's inside it....
+			'''
+	}
+
+	LokisTesseract: {
+		DisplayName: Loki's Tesseract
+		Tooltip:
+			'''
+			Automatically stores items from Thorium.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	MechanicsToolbelt: {
+		DisplayName: Mechanic's Toolbelt
+		Tooltip:
+			'''
+			Automatically stores wiring related items such as traps and statues.
+			When in your inventory, the contents of the belt are available for crafting.
+			Right click to open the belt.
+			Items can be placed from the belt by left clicking with the belt.  If any items in the belt are favorited, only favorited items will be used.
+			Wire in the belt can be used by wiring tools as if it were in your inventory.
+			'''
+	}
+
+	PackBlack: {
+		DisplayName: Pack (Black)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackBlue: {
+		DisplayName: Pack (Blue)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackBrown: {
+		DisplayName: Pack (Brown)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackGray: {
+		DisplayName: Pack (Gray)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackGreen: {
+		DisplayName: Pack (Green)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackOrange: {
+		DisplayName: Pack (Orange)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackPink: {
+		DisplayName: Pack (Pink)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackPurple: {
+		DisplayName: Pack (Purple)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackRed: {
+		DisplayName: Pack (Red)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackWhite: {
+		DisplayName: Pack (White)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PackYellow: {
+		DisplayName: Pack (Yellow)
+		Tooltip:
+			'''
+			Automatically stores items already contained in the bag.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	PaintBucket: {
+		DisplayName: Paint Bucket
+		Tooltip:
+			'''
+			Automatically stores paint
+			When in your inventory, the contents of the bucket are available for crafting.
+			Right click to open the bucket.
+			Paint in the bucket is used if the paint bucket is in the first paint item found.
+			If any paint in the bucket that can be used by your paint tool is favorited, only favorited paints will be used.
+			'''
+	}
+
+	PortableStation: {
+		DisplayName: Portable Station
+		Tooltip:
+			'''
+			Automatically stores crafting stations and buff stations.
+			When in your inventory, the contents of the station are available for crafting.
+			Right click to open the station.
+			When in your inventory, the Portable Station provides up to 1 station for crafting by default.
+			When placed, it provides all of your stations for crafting by default, but in the normal tile range.  Each Portable Station shares it's inventory.
+			The background of stations is yellow when they are being provided for crafting by the Portable Station.
+			The background is purple if there is already that type of station nearby, however it will not automatically skip stations you are near when selecting
+			stations from the Portable Station because more is not necessarily better with crafting recipes.
+
+			When in your inventory, the Portable station provides up to 1 buff station buffs to you by default.
+			When placed, it provides all of your passive buff station buffs by default, but in the normal buff range.
+			Items that are providing their buff will be bright green.  Buffs that you already have from nearby tiles will be skipped and have a purple background.
+
+			Opening the table while it is placed will make you interact with all of the activate buff stations, causing you to gain their buffs.
+			'''
+	}
+
+	PotionFlask: {
+		DisplayName: Potion Flask
+		Tooltip:
+			'''
+			Automatically stores potions, food and drink.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Quick Buff will use food items from the bag.  If any food items in the bag are favorited, only favorited food items will be used.
+			Quick Buff will use favorited potions from the bag.
+			Quick Heal will use healing items from the bag.  If any healing items in the bag are favorited, only favorited healing items will be used.
+			Quick Mana will use mana items from the bag.  If any mana items in the bag are favorited, only favorited mana items will be used.
+			Potion buffs can be paused by right clicking on the buff like you normally would to remove it or unfavoriting the potion.
+			Potions providing a buff will have a green background.  Paused potions will have a yellow background.
+			Paused buffs can be resumed with quick buff or by favoriting the potion in the flask.
+			Potion effects are kept on death at the same duration they were before dying.
+			Gaining a potion buff while you already have the buff will add their durations together instead of setting it to the new effect's duration.
+			Removing a buff with the Shift key held will delete the buff instead of pausing it.
+			'''
+	}
+
+	SlayersSack: {
+		DisplayName: Slayer's Sack
+		Tooltip:
+			'''
+			Automatically stores materials dropped by enemies and other items found while adventuring such as torches, rope and keys.
+			When in your inventory, the contents of the sack are available for crafting.
+			Right click to open the sack.
+			Rope can be placed from the sack by left clicking with the sack.  If any rope in the sack is favorited, only favorited rope will be used.
+			Torches and glowsticks can be used from the bag when holding shift as if they were in your inventory.
+			'''
+	}
+
+	SpookyGourd: {
+		DisplayName: Spooky Gourd
+		Tooltip:
+			'''
+			Automatically stores items from Spooky Mod.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			'''
+	}
+
+	TrashCan: {
+		DisplayName: Trash Can
+		Tooltip:
+			'''
+			Used to automatically sell items.
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			The trash can acts like other bags but with a few exceptions:
+			It will only hold 1 item of each type.
+			If an item is added to the trash can when there is already one of the same type in the can, the new one will be sold.
+			The Clear Trash button will sell all items in the trash can that are not favorited.
+			'''
+	}
+
+	WallEr: {
+		DisplayName: Wall-Er
+		Tooltip:
+			'''
+			Automatically stores walling materials (walls, fences, beams, etc.)
+			When in your inventory, the contents of the bag are available for crafting.
+			Right click to open the bag.
+			Items can be placed from Wall-Er by left clicking with Wall-Er.  If any items in Wall-Er are favorited, only favorited items will be used.
+			'''
+	}
+
+	OreBag: {
+		DisplayName: Ore Bag
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	BagBlack: {
+		MapEntry: Bag Black
+	}
+
+	BagBlue: {
+		MapEntry: Bag Blue
+	}
+
+	BagBrown: {
+		MapEntry: Bag Brown
+	}
+
+	BagGray: {
+		MapEntry: Bag Gray
+	}
+
+	BagGreen: {
+		MapEntry: Bag Green
+	}
+
+	BagOrange: {
+		MapEntry: Bag Orange
+	}
+
+	BagPink: {
+		MapEntry: Bag Pink
+	}
+
+	BagPurple: {
+		MapEntry: Bag Purple
+	}
+
+	BagRed: {
+		MapEntry: Bag Red
+	}
+
+	BagWhite: {
+		MapEntry: Bag White
+	}
+
+	BagYellow: {
+		MapEntry: Bag Yellow
+	}
+
+	BannerBag: {
+		MapEntry: Banner Bag
+	}
+
+	PackBlack: {
+		MapEntry: Pack Black
+	}
+
+	PackBlue: {
+		MapEntry: Pack Blue
+	}
+
+	PackBrown: {
+		MapEntry: Pack Brown
+	}
+
+	PackGray: {
+		MapEntry: Pack Gray
+	}
+
+	PackGreen: {
+		MapEntry: Pack Green
+	}
+
+	PackOrange: {
+		MapEntry: Pack Orange
+	}
+
+	PackPink: {
+		MapEntry: Pack Pink
+	}
+
+	PackPurple: {
+		MapEntry: Pack Purple
+	}
+
+	PackRed: {
+		MapEntry: Pack Red
+	}
+
+	PackWhite: {
+		MapEntry: Pack White
+	}
+
+	PackYellow: {
+		MapEntry: Pack Yellow
+	}
+
+	PortableStation: {
+		MapEntry: Portable Station
+	}
+}
+

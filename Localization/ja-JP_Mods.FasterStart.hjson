@@ -1,0 +1,33 @@
+Buffs: {
+	FreshStart: {
+		DisplayName: フレッシュスタート！
+		Description:
+			'''
+			移動速度、採掘速度、建築速度が25%上昇する
+                        宝と鉱石の場所を表示する
+                        俊足、掘削、建築、探検家のポーションとは効果が重複しない
+			'''
+	}
+}
+
+Items: {
+	StarterBag: {
+		DisplayName: サバイバルキット
+		Tooltip:
+			'''
+			「地元のお店で数ドルで購入したもの」
+      右クリックで開封する
+			'''
+	}
+
+	SurvivalHamaxe: {
+		DisplayName: 生存者のハンマーアックス
+		Tooltip: '''「並のハンマーアックスよりは高性能」'''
+	}
+
+	SurvivalPickaxe: {
+		DisplayName: 生存者のつるはし
+		Tooltip: '''「並のつるはしよりは高性能」'''
+	}
+}
+

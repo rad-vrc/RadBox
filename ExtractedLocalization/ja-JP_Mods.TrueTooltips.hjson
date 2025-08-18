@@ -1,0 +1,341 @@
+Configs: {
+	Config: {
+		Headers: {
+			ItemSprite: アイテムスプライトヘッダー
+			VanillaTooltipLines: バニラツールチップラインと色 [c/ff2222:(アルファ=0で無効)]
+			Miscellaneous: その他
+			Offset: オフセット
+			Background: 背景
+			CustomTooltipLines: カスタムツールチップライン
+		}
+
+		modNameColor: {
+			Tooltip: アイテムが属するMOD。(A=0で無効、白でオーバーライドを回避)
+			Label: MOD名
+		}
+
+		journeyResearch: {
+			Tooltip: アイテムのリサーチ進捗（ジャーニーモードのみ）。(A=0で無効、白でオーバーライドを回避)
+			Label: ジャーニーリサーチ
+		}
+
+		pickPow: {
+			Tooltip: アイテムの採掘力(A=0で無効、白でオーバーライドを回避)
+			Label: X%採掘力
+		}
+
+		hammerPow: {
+			Tooltip: アイテムの槌力(A=0で無効、白でオーバーライドを回避)
+			Label: X%槌力
+		}
+
+		fishingPow: {
+			Tooltip: 釣り竿のフィッシング・パワー(A=0で無効、白でオーバーライドを回避)
+			Label: X%フィッシング・パワー
+		}
+
+		critChance: {
+			Tooltip: アイテムのクリティカル率。(A=0で無効、白でオーバーライドを回避)
+			Label: X%クリティカル率
+		}
+
+		baitPow: {
+			Tooltip: 餌の餌パワー。(A=0で無効、白でオーバーライドを回避)
+			Label: X%餌パワー
+		}
+
+		axePow: {
+			Tooltip: アイテムの斧力(A=0で無効、白でオーバーライドを回避)
+			Label: X%斧パワー
+		}
+
+		buffTime: {
+			Tooltip: アイテムのバフ持続時間。(A=0で無効、白でオーバーライドを回避)
+			Label: X分間持続
+		}
+
+		defense: {
+			Tooltip: アイテムの防御力。(A=0で無効、白でオーバーライドを回避)
+			Label: X防御
+		}
+
+		vanity: {
+			Tooltip: アイテムがバニティであることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 衣装アイテム
+		}
+
+		useMana: {
+			Tooltip: アイテム使用時に消費するマナの量。(A=0で無効、白でオーバーライドを回避)
+			Label: Xマナを使用
+		}
+
+		speed: {
+			Tooltip: アイテムの攻撃速度。(A=0で無効、白でオーバーライドを回避)
+			Label: 速度
+		}
+
+		socialDescr: {
+			Tooltip: 「ステータスは得られません」(A=0で無効、白でオーバーライドを回避)
+			Label: ソーシャル説明
+		}
+
+		setBonus: {
+			Tooltip: 防具のセットボーナスの説明。(A=0で無効、白でオーバーライドを回避)
+			Label: セットボーナス
+		}
+
+		healMana: {
+			Tooltip: アイテム使用時にプレイヤーが回復するマナの量。(A=0で無効、白でオーバーライドを回避)
+			Label: Xマナを回復
+		}
+
+		healLife: {
+			Tooltip: アイテム使用時にプレイヤーが回復するライフの量。(A=0で無効、白でオーバーライドを回避)
+			Label: Xライフを回復
+		}
+
+		needsBait: {
+			Tooltip: 釣り竿で魚を釣るために餌が必要であることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 魚を釣るために餌が必要
+		}
+
+		quest: {
+			Tooltip: アイテムがクエストアイテムであることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: クエストアイテム
+		}
+
+		material: {
+			Tooltip: アイテムがクラフトに使用できることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 素材
+		}
+
+		knockback: {
+			Tooltip: アイテムのノックバック。(A=0で無効、白でオーバーライドを回避)
+			Label: ノックバック
+		}
+
+		wellFedExpert: {
+			Tooltip: エキスパートモードで、食べ物がライフ再生を増加させることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: ライフ自然回復を増進
+		}
+
+		goodMod: {
+			Tooltip: (A=0で無効、白でオーバーライドを回避)
+			Label: 良いモディファイア
+		}
+
+		favDescr: {
+			Tooltip: 「クイックゴミ箱、スタック、売却がブロックされます」(A=0で無効、白でオーバーライドを回避)
+			Label: お気に入り説明
+		}
+
+		fav: {
+			Tooltip: (A=0で無効、白でオーバーライドを回避)
+			Label: お気に入り登録
+		}
+
+		expert: {
+			Tooltip: アイテムがエキスパートモード由来であることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: エキスパート
+		}
+
+		etherianMana: {
+			Tooltip: 「エターニアクリスタルを守るまでエーテルマナなしでは使用できません」(A=0で無効、白でオーバーライドを回避)
+			Label: エーテルマナ警告
+		}
+
+		social: {
+			Tooltip: アイテムがソーシャルスロットに装備されていることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: ソーシャルスロットに装備
+		}
+
+		equipable: {
+			Tooltip: アイテムが装備可能であることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 装備可能
+		}
+
+		dmg: {
+			Tooltip: アイテムのダメージとクラス。(A=0で無効、白でオーバーライドを回避)
+			Label: ダメージ
+		}
+
+		wandConsumes: {
+			Tooltip: タイルワンドが消費するアイテム。(A=0で無効、白でオーバーライドを回避)
+			Label: Xを消費
+		}
+
+		consumable: {
+			Tooltip: アイテムが消費アイテムであることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 消費アイテム
+		}
+
+		placeable: {
+			Tooltip: アイテムが配置可能であることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 配置可能
+		}
+
+		badMod: {
+			Tooltip: (A=0で無効、白でオーバーライドを回避)
+			Label: 悪いモディファイア
+		}
+
+		ammo: {
+			Tooltip: アイテムが弾薬であることを示します。(A=0で無効、白でオーバーライドを回避)
+			Label: 弾薬
+		}
+
+		tileBoost: {
+			Tooltip: ツールの範囲がどれだけ増減するか（タイル単位）。(A=0で無効、白でオーバーライドを回避)
+			Label: ±X範囲
+		}
+
+		ammoCrit: {
+			Tooltip: 弾薬のクリティカル率はクリティカル率に影響しないため、デフォルトでオフになっています。
+			Label: 弾薬のクリティカル率ライン
+		}
+
+		textPulse: {
+			Tooltip: ""
+			Label: テキストパルス
+		}
+
+		spriteTextPadding: {
+			Tooltip: アイテムアイコンとツールチップテキストの間の距離。
+			Label: アイコンとテキストのパディング
+		}
+
+		spriteMin: {
+			Tooltip: アイテムアイコンの最小サイズ。
+			Label: アイコンの最小サイズ
+		}
+
+		spriteBorder: {
+			Tooltip: アイコン枠の表示を切り替えます。
+			Label: アイコン枠
+		}
+
+		spriteBorderPadding: {
+			Tooltip: アイテムスプライトの端とアイコン枠の間の距離。
+			Label: アイコン枠のパディング
+		}
+
+		sprite: {
+			Tooltip: ツールチップにアイテムのアイコンを表示します。
+			Label: アイテムアイコン
+		}
+
+		spacing: {
+			Tooltip: 行間に余分なスペースを追加します。
+			Label: 間隔
+		}
+
+		y: {
+			Tooltip: ツールチップのY位置。
+			Label: Y
+		}
+
+		x: {
+			Tooltip: ツールチップのX位置。
+			Label: X
+		}
+
+		paddingBottom: {
+			Tooltip: ""
+			Label: 下パディング
+		}
+
+		paddingTop: {
+			Tooltip: ""
+			Label: 上パディング
+		}
+
+		paddingLeft: {
+			Tooltip: ""
+			Label: 左パディング
+		}
+
+		paddingRight: {
+			Tooltip: ""
+			Label: 右パディング
+		}
+
+		spritebgColor: {
+			Tooltip: アイテムアイコンの背後の枠の背景色。
+			Label: アイコンフレームの色
+		}
+
+		bgColor: {
+			Tooltip: ""
+			Label: 背景色
+		}
+
+		modNameNextToItemName: {
+			Tooltip: アイテムを追加するMODをアイテム名の横に表示します。
+			Label: アイテム名の横にMOD名を表示
+		}
+
+		wpnPlusAmmoVelocity: {
+			Tooltip: ""
+			Label: 武器と弾薬の速度を結合
+		}
+
+		wpnPlusAmmoKb: {
+			Tooltip: 改良ノックバックラインがオンになっている必要があります。
+			Label: 武器と弾薬のノックバックを結合
+		}
+
+		wpnPlusAmmoDmg: {
+			Tooltip: ""
+			Label: 武器と弾薬のダメージを結合
+		}
+
+		wingFlyTimeLine: {
+			Unit: 飛行時間: {0}
+			Tooltip: 翼の飛行時間を表示します。
+			Label: 翼の飛行時間
+		}
+
+		knockbackLine: {
+			Tooltip: ノックバックを数値で表示します。バニラのノックバックラインを置き換えます。
+			Label: 改良ノックバックライン
+		}
+
+		speedLine: {
+			Display: " 回/秒の攻撃"
+			Tooltip: 1秒あたりの攻撃回数を表示します。バニラの速度ラインを置き換えます。
+			Label: 改良速度ライン
+		}
+
+		priceLine: {
+			Tooltip: カスタム価格のアイテムの正確な売却価格を表示し、常に表示され、色分けが改善され、より見やすくします。バニラの価格ラインを置き換えます。
+			Label: 改良価格ライン
+		}
+
+		velocityLine: {
+			Tooltip: アイテムの速度を表示します。複数の異なる発射物が出るアイテムや、飛行中に速度が変化する発射物などがあるため、常に正確とは限りません。
+			Label: 速度ライン
+		}
+
+		ammoLine: {
+			Flare: 照明弾
+			Solution: 環境変更液
+			Rocket: ロケット弾
+			Dart: ダーツ
+			Sand: 砂
+			Bullet: 弾丸
+			Coin: コイン
+			Arrow: 矢
+			Bait: 餌
+			No: "なし "
+			Tooltip:
+				'''
+				アイテムの弾薬の名前、数量、レアリティを表示します。「アイテム名の横にMOD名を表示」がオンになっている場合、弾薬を追加するMODを表示し、アイテムに弾薬がない場合は必要な弾薬を表示します。
+				釣り竿やタイルワンドにも対応しています。
+				'''
+			Label: 弾薬ライン
+		}
+
+		DisplayName: 設定
+	}
+}
+

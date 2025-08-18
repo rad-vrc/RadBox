@@ -1,0 +1,29 @@
+Buffs: {
+	Buff_Hope: {
+		DisplayName: Hope
+		Description: Overcome the despair!
+	}
+
+	Debuff_Despair: {
+		DisplayName: Despair
+		Description: Succomb to despair. Puhuhu.
+	}
+}
+
+Items: {
+	HopesPeakBadge: {
+		DisplayName: Hope's Peak HS Badge
+		Tooltip: Welcome to Hope's Peak!
+	}
+}
+
+Projectiles: {
+	Monokuma_DeathReference: {
+		DisplayName: Monokuma - Death Reference
+	}
+
+	Programmer_Trans: {
+		DisplayName: Programmer - Trans
+	}
+}
+

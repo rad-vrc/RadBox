@@ -1,0 +1,856 @@
+Projectiles: {
+	Star: {
+		DisplayName: スター
+	}
+
+	Frosty: {
+		DisplayName: フロスティ
+	}
+
+	EaterOfTreats: {
+		DisplayName: イーター・オブ・トリート
+	}
+
+	Crimterry: {
+		DisplayName: クリムテリー
+	}
+
+	TwoTop: {
+		DisplayName: ツートップ
+	}
+
+	TwoTopSpores: {
+		DisplayName: 胞子
+	}
+
+	Humerus: {
+		DisplayName: 上腕骨
+	}
+
+	UnholyFlame: {
+		DisplayName: 不浄の炎
+	}
+
+	UnholyPentagram: {
+		DisplayName: 不浄のペンタグラム
+	}
+
+	UnholyCross: {
+		DisplayName: 不浄の十字架
+	}
+
+	TheStingerProj: {
+		DisplayName: ザ・スティンガー
+	}
+
+	AncientSnareProj: {
+		DisplayName: 古代の罠
+	}
+
+	PartyTrickBalloon: {
+		DisplayName: トリックバルーン
+	}
+
+	RelicIceShards: {
+		DisplayName: フロスティの嵐
+	}
+
+	RelicOfFrosty: {
+		DisplayName: フロスティの嵐
+	}
+
+	RelicSnowballs: {
+		DisplayName: フロスティの嵐
+	}
+
+	ForlornThing: {
+		DisplayName: ザ・シング
+	}
+
+	ForlornSpit: {
+		DisplayName: 吐潰
+	}
+
+	ToothCreature: {
+		DisplayName: 歯の生き物
+	}
+
+	ShortswordOnAStringProj: {
+		DisplayName: ショートソード
+	}
+
+	FlagellatorHandle: {
+		DisplayName: フラジェレーターの柄
+	}
+
+	FlagellatorWhip: {
+		DisplayName: フラジェレーター
+	}
+
+	CatgrassBubble: {
+		DisplayName: キャットグラスバブル
+	}
+
+	CatgrassProj: {
+		DisplayName: キャットグラス
+	}
+
+	SpookySummoner: {
+		DisplayName: ジェリー・スケリー
+	}
+
+	DaggerCopy: {
+		DisplayName: ジェリー・スケリーのダガー
+	}
+
+	RingController: {
+		DisplayName: リングコントローラー
+	}
+
+	RingButterfly: {
+		DisplayName: バタフライ
+	}
+
+	SerpentOuroboros: {
+		DisplayName: ウロボロス
+	}
+
+	DukePish: {
+		DisplayName: デューク・ピッシュロッシュ
+	}
+
+	StarfireInvader: {
+		DisplayName: スターファイアーインベーダー
+	}
+
+	StarfireShot: {
+		DisplayName: スターファイアーショット
+	}
+
+	GhostSkull: {
+		DisplayName: ゴーストスカル
+	}
+
+	AncientSpikeball: {
+		DisplayName: 古代のスパイクボール
+	}
+
+	DeathAura: {
+		DisplayName: デスオーラ
+	}
+
+	EoDPortal: {
+		DisplayName: 死のポータル
+	}
+
+	SpinScythe: {
+		DisplayName: スピンサイス
+	}
+
+	TelegraphSword: {
+		DisplayName: テレグラフソード
+	}
+
+	EoDWhip: {
+		DisplayName: 死の鞭
+	}
+
+	DarkDagger: {
+		DisplayName: ダークダガー
+	}
+
+	RottenSpit: {
+		DisplayName: 腐った吐潰
+	}
+
+	Phantom: {
+		DisplayName: ファントム
+	}
+
+	BlackHeart: {
+		DisplayName: ブラックハート
+	}
+
+	KissOfDeathLance: {
+		DisplayName: 闇のランス
+	}
+
+	BabyMoth: {
+		DisplayName: ベイビーモス
+	}
+}
+
+DamageClasses: {
+	TalismanDamageClass: {
+		DisplayName: 召喚ダメージ
+	}
+}
+
+TileRangeTooltip: "{0} タイルの操作範囲"
+
+SetBonuses: {
+	Comfy: 焚き火のそばでライフ自然回復が増進
+	Starry: 最大ミニオン数+1
+	Dungeon:
+		'''
+		敵を倒すとその場に不気味なドクロを生成
+		そのドクロは26ダメージを与え召喚強化の恩恵を受ける
+		'''
+	Hell:
+		'''
+		敵を倒すとその場に燃える不気味なドクロを生成
+		燃えるドクロは通常より遥かに速く動き32ダメージを与え召喚強化の恩恵を受ける
+		'''
+}
+
+NPCs: {
+	EmpressOfDeath: {
+		DisplayName: エンプレスオブダークネス
+		Entry: 死そのものの化身 あらゆる存在を見渡し それが無に帰すことを望む 丁寧でそつがない
+	}
+
+	RottenGhoulHanging: {
+		DisplayName: 腐ったグール
+	}
+
+	RottenGhoul: {
+		DisplayName: 腐ったグール
+		Entry: 腐敗し奇形化したグール 殺すか死ぬかのためだけに存在 吊られているときは悪臭の痰を吐く
+	}
+
+	DeathsHeadMoth: {
+		DisplayName: デスズヘッドモス
+		Entry: モスロンの遠縁 エンプレスオブダークネスにとってはペットのような存在 彼女は何度失っても構わないらしい
+	}
+}
+
+EoDSpawnInfo: 墓地バイオーム内でプリズムクサカゲロウを捕獲して倒す
+
+Tiles: {
+	EoDTrophy: {
+		MapEntry: エンプレスオブダークネスのトロフィー
+	}
+}
+
+Buffs: {
+	FuryBuff: {
+		DisplayName: 怒り
+		Description: 鞭の振りが速くなる
+	}
+
+	MothPetBuff: {
+		DisplayName: デスズヘッドベイビー
+		Description: "「死がこれほど可愛かったことはない！」"
+	}
+}
+
+Items: {
+	Starcharm: {
+		DisplayName: 星のお守り
+		Tooltip:
+			'''
+			星を召喚してあなたのために戦わせる
+			「かすかにきらめいて光る」
+			'''
+	}
+
+	IcemanEmblem: {
+		DisplayName: アイスマンの紋章
+		Tooltip:
+			'''
+			Frosty the Iceman の頭部を召喚して戦わせる
+			「シルクハット不要！」
+			'''
+	}
+
+	DevourerCharm: {
+		DisplayName: デバウラーのお守り
+		Tooltip:
+			'''
+			Eater of Treats を召喚して戦わせる
+			「とってもお行儀がいい！」
+			'''
+	}
+
+	HemophilicHatch: {
+		DisplayName: ヘモフィリックハッチ
+		Tooltip:
+			'''
+			Crimterry "Terry" Crimera を召喚して戦わせる
+			Terry は非常に素早く攻撃するが制御しづらい
+			「おやつが大好物」
+			'''
+	}
+
+	TwoTopTalisman: {
+		DisplayName: ツートップタリスマン
+		Tooltip:
+			'''
+			Two-Top Mushroom を召喚して戦わせる
+			解放すると追加マナを消費して胞子を撒き散らして爆発
+			「フランケンキャップ」
+			'''
+	}
+
+	ArmCharm: {
+		DisplayName: 腕のお守り
+		Tooltip:
+			'''
+			腕の骨を召喚して戦わせる
+			「上腕骨ジョーク 分かる？」
+			'''
+	}
+
+	UnholyAmulet: {
+		DisplayName: 不浄のアミュレット
+		Tooltip:
+			'''
+			火の玉を召喚して戦わせる
+			火の玉は敵を燃やす
+			解放後 火の玉はペンタグラムを召喚
+			「遠くで歪んだギターの音が…」
+			'''
+	}
+
+	ComfyPants: {
+		DisplayName: コンフィパンツ
+		Tooltip:
+			'''
+			最大マナ+20
+			「平和をズボンの形にした」
+			'''
+	}
+
+	Nightcap: {
+		DisplayName: ナイトキャップ
+		Tooltip:
+			'''
+			召喚ダメージ+1（加算）
+			「天国を頭に」
+			'''
+	}
+
+	ComfyBlanket: {
+		DisplayName: コンフィブランケット
+		Tooltip:
+			'''
+			鞭の攻撃速度+5%
+			「フリーサイズ！」
+			'''
+	}
+
+	Stargem: {
+		DisplayName: スタージェム
+		Tooltip: ミニオンが倒した敵が追加でマナスターを落とすことがある
+	}
+
+	ManaMushroom: {
+		DisplayName: マナのキノコ
+		Tooltip:
+			'''
+			マナ切れ時に自動でマナポーションを使用
+			タリスマンの召喚体が胞子を生成
+			「このポーションにあといくつ詰め込めるかな」
+			'''
+	}
+
+	CrystalSkull: {
+		DisplayName: クリスタルスカル
+		Tooltip:
+			'''
+			鞭ダメージ+7%
+			「映画ほどの価値は全然ない」
+			'''
+	}
+
+	MundaneSkull: {
+		DisplayName: マンデンスカル
+		Tooltip:
+			'''
+			鞭攻撃が敵の防御力を7無視する
+			「古い革の匂い」
+			'''
+	}
+
+	UnholyCrossNecklace: {
+		DisplayName: 不浄の十字架ネックレス
+		Tooltip:
+			'''
+			被ダメージ後の無敵時間が伸びる
+			被弾で巨大な不浄のシンボルを生成
+			その範囲内の敵はより多くのダメージを受ける
+			「硫黄の臭いと誇りの輝き」
+			'''
+	}
+
+	DaisyChain: {
+		DisplayName: デイジーチェーン
+		Tooltip:
+			'''
+			タリスマンの召喚体が与えたダメージの10%だけあなたを33%の確率で回復
+			「装備中 毎分正気度+1.33」
+			'''
+	}
+
+	TheStinger: {
+		DisplayName: ザ・スティンガー
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			この鞭で敵を倒すと蜂が出現し群がる
+			「蜂のように飛び 刺す――あ ちょっと待って」
+			'''
+	}
+
+	AncientSnare: {
+		DisplayName: 古代の罠
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			使用時に小型機構が自動でスパイクボールを投げる
+			「トゲだらけなのにグリップは快適！」
+			'''
+	}
+
+	PartyTrick: {
+		DisplayName: パーティートリック
+		Tooltip:
+			'''
+			風船の剣を召喚して戦わせる
+			剣は多数のランダムデバフを付与
+			「この風船 10ゴールド ちょっとした手品後の爆破業者の目玉 プライスレス」
+			'''
+	}
+
+	RelicOfIce: {
+		DisplayName: 氷の遺物
+		Tooltip:
+			'''
+			Frosty the Iceman の嵐を召喚して戦わせる
+			嵐は非常に高速で命中し Frosty の姿が霜焼けを付与
+			「称えられ Frosty は立ち上がる もはや雪に縛られず 生きる」
+			'''
+	}
+
+	ForlornEffigy: {
+		DisplayName: 見捨てられた人形
+		Tooltip:
+			'''
+			The Thing を召喚して戦わせる
+			The Thing は燃えている 霊液にまみれた もしくは霜焼けを付与する肉塊を吐き出す
+			「何これ？知らない！楽しんで！」
+			'''
+	}
+
+	ToothTalisman: {
+		DisplayName: 歯のタリスマン
+		Tooltip:
+			'''
+			様々な Creatures を召喚して戦わせる
+			大きい個体はフルダメージを与える
+			小さい個体はダメージ1/4 代わりに呪炎 燃焼 もしくは霜焼けを付与
+			「彼らの舞いはほぼ優雅で 飛行は魅惑的 微笑みは見事…」
+			'''
+	}
+
+	ShortswordOnAString: {
+		DisplayName: 紐付きの短剣
+		Tooltip:
+			'''
+			特別な銅の短剣を召喚して戦わせる
+			この短剣は目もくらむ速さ
+			「もっと早く作れなかった？ いや 試した？」
+			'''
+	}
+
+	Flagellator: {
+		DisplayName: フラジェレーター
+		Tooltip:
+			'''
+			Flagellator を召喚して戦わせる
+			自動で近くの敵を狙い鞭打つ
+			この鞭は通常の鞭ではなくタリスマンとして扱われる
+			「古代の工芸品――なのに作ったのはつい最近」
+			'''
+	}
+
+	Catgrass: {
+		DisplayName: キャットグラス
+		Tooltip:
+			'''
+			Catgrass を召喚して戦わせる
+			Catgrass はゆっくりバブルを発射 そのバブルは操作可能
+			バブルは大ダメージを与え 消滅時に爆発
+			「技術的にはこれは野良猫じゃ？ 変だ」
+			'''
+	}
+
+	SpookyBoard: {
+		DisplayName: 不気味な板
+		Tooltip:
+			'''
+			Jerry Skelly を召喚して戦わせる
+			Jerry は2本の Enchanted Dagger を召喚（通常の Dagger と同様だがダメージは本体の1/10）
+			Jerry はさらに Flagellator を持ち近くの敵に自動で使用
+			「やあ 俺だ Jerry Flagellator ありがとな ずっとスパイナルタップしかなくてさ」
+			'''
+
+		Dialogue: {
+			0: いい天気だな
+			1: 俺を召喚する君 すごく様になってる 続けてくれ
+			2: この防具は自作なんだ 誇りに思ってる
+			3: 怖くはないけど 骨格であることは確かだ
+		}
+	}
+
+	RingOnAString: {
+		DisplayName: 紐付きのリング
+		Tooltip:
+			'''
+			エーテルリングを召喚して戦わせる
+			このリングで敵を倒すと高確率でハートを落とす
+			「極めて稀少な一品」
+			'''
+	}
+
+	SerpentCharm: {
+		DisplayName: 蛇のお守り
+		Tooltip:
+			'''
+			拘束された Ouroboros を召喚して戦わせる
+			「腹ペコだから本当のごちそうを待つ間 おやつを探してやって！」
+			'''
+	}
+
+	StarryBreastplate: {
+		DisplayName: 星の胸当て
+		Tooltip:
+			'''
+			ジャンプ高度が増加
+			タリスマンダメージ+5%
+			「少し背が伸びた気がする」
+			'''
+	}
+
+	StarryHeaddress: {
+		DisplayName: 星のヘッドドレス
+		Tooltip:
+			'''
+			召喚ダメージ+10%
+			「少し啓発された気分」
+			'''
+	}
+
+	StarryLeggings: {
+		DisplayName: 星のレギンス
+		Tooltip:
+			'''
+			移動速度+20%
+			「少し身軽になった」
+			'''
+	}
+
+	DukeToothNecklace: {
+		DisplayName: 公爵の歯のネックレス
+		Tooltip:
+			'''
+			なんか…pish? fisg? …を召喚して戦わせる
+			そいつはカーソルに十分近いと繰り返し突進する
+			水中では移動速度+50%
+			「何かおかしいな これ何なんだ？」
+			'''
+	}
+
+	StarfireTalisman: {
+		DisplayName: 星火のタリスマン
+		Tooltip:
+			'''
+			小さな Flow Invader を召喚して戦わせる
+			その個体はさらに小さな Flow Invader を生成 それらは蓄積または近くの敵へ放出可能
+			「可愛いのか脳に何かしてるのか分からない でも楽しい！」
+			'''
+	}
+
+	SpikedGuardianMask: {
+		DisplayName: スパイクガーディアンマスク
+		Tooltip:
+			'''
+			ミニオン/セントリー限定ダメージ+8%
+			「視界を犠牲に力を…」
+			'''
+	}
+
+	SpikedGuardianMaskPink: {
+		DisplayName: スパイクガーディアンマスク
+		Tooltip:
+			'''
+			タリスマン限定ダメージ+8%
+			「心地よくて強い 代償は視界が悪いこと」
+			'''
+	}
+
+	SpikedGuardianMaskGreen: {
+		DisplayName: スパイクガーディアンマスク
+		Tooltip:
+			'''
+			鞭限定ダメージ+8%
+			「意外にもこれはよく見える」
+			'''
+	}
+
+	SpikedGuardianRobe: {
+		DisplayName: スパイクガーディアンローブ
+		Tooltip:
+			'''
+			ミニオン/セントリー限定ダメージ+10%
+			「意外と快適 トゲが自信をくれる」
+			'''
+	}
+
+	SpikedGuardianRobeGreen: {
+		DisplayName: スパイクガーディアンローブ
+		Tooltip:
+			'''
+			鞭限定ダメージ+10%
+			「スタイリッシュで上品 ちょっと不穏」
+			'''
+	}
+
+	SpikedGuardianRobePink: {
+		DisplayName: スパイクガーディアンローブ
+		Tooltip:
+			'''
+			タリスマン限定ダメージ+10%
+			「シンプルだが強烈 頭上注意！」
+			'''
+	}
+
+	Hellmask: {
+		DisplayName: 地獄の仮面
+		Tooltip:
+			'''
+			全召喚ダメージ+12%
+			「力が体を駆け巡る」
+			'''
+	}
+
+	VoidRippers: {
+		DisplayName: ヴォイドリッパー
+		Tooltip: "「全てを紙のように裂き刻む」"
+	}
+
+	DarkOrb: {
+		DisplayName: ダークオーブ
+		Tooltip:
+			'''
+			タリスマンの投射物にエーテルの短剣3本が周回し追加ダメージを与える
+			「これがどこから来たのか いつの物なのか 多くが考えたが誰も知らない」
+			'''
+	}
+
+	BandOfCommitment: {
+		DisplayName: 誠約の腕輪
+		Tooltip:
+			'''
+			影のハートの弾幕を放つ
+			「指には少し大きすぎる」
+			'''
+	}
+
+	KissOfDeath: {
+		DisplayName: 死の口づけ
+		Tooltip:
+			'''
+			闇のランスを召喚して戦わせる
+			槍は異常な高速で動く
+			移動が速いほど槍のダメージが増加
+			「理由は多いがとにかく扱いづらい」
+			'''
+	}
+
+	EoDTrophyItem: {
+		DisplayName: エンプレスオブダークネスのトロフィー
+		Tooltip: ""
+	}
+
+	EoDBag: {
+		DisplayName: トレジャーバッグ（エンプレスオブダークネス）
+		Tooltip: 右クリックで開く
+	}
+
+	BlackDeath: {
+		DisplayName: ブラックデス
+		Tooltip:
+			'''
+			ロケットを弾薬として使用
+			33%の確率で2連射
+			「遅いが陰湿」
+			'''
+	}
+
+	EoDRelicItem: {
+		DisplayName: エンプレスオブダークネスのレリック
+		Tooltip: ""
+	}
+
+	DeathsHeadEgg: {
+		DisplayName: デスズヘッドエッグ
+		Tooltip:
+			'''
+			小さな Death's Head Moth を召喚
+			「仕組みは聞くな ベイビーモスはつまり小さいモス 普通だろ」
+			'''
+	}
+
+	Hellrobe: {
+		DisplayName: 地獄のローブ
+		Tooltip:
+			'''
+			召喚ダメージ+14%
+			「自らの道を焼き拓け」
+			'''
+	}
+
+	StingerNecklace: {
+		DisplayName: 針の腕輪
+		Tooltip:
+			'''
+			鞭ダメージ+10%
+			対象が毒状態のとき、鞭のダメージがさらに10%増加
+			「100% 安全保証」
+			'''
+	}
+
+	DesertRune: {
+		DisplayName: 砂漠のルーン
+		Tooltip:
+			'''
+			タリスマンダメージ+15%
+			「なんというか…安心する」
+			'''
+	}
+
+	FuriousSpirit: {
+		DisplayName: 怒りのスピリット
+		Tooltip:
+			'''
+			敵撃破で鞭の攻撃速度が33%上昇
+			このバフは時間で減衰
+			「魂は檻に抗い暴れ続ける それでも…」
+			'''
+	}
+
+	MeteoriteBattery: {
+		DisplayName: 隕石のバッテリー
+		Tooltip:
+			'''
+			タリスマンダメージ+8%
+			召喚体が柔らかい白光を放つ
+			「余剰出力で常に震えて脈打っているようだ」
+			'''
+	}
+
+	ExtensionCord: {
+		DisplayName: 延長コード
+		Tooltip:
+			'''
+			鞭の攻撃範囲+20%
+			「別に差し込む必要は…なくて…ただ動くの 分かった？ - 整備士」
+			'''
+	}
+
+	RetractionCord: {
+		DisplayName: 短縮コード
+		Tooltip:
+			'''
+			鞭の攻撃範囲-60%
+			鞭のダメージ+40%
+			「科学 研究 知識の真の結晶 可能な限り小さいパッケージに」
+			'''
+	}
+
+	CrimtaneHandle: {
+		DisplayName: クリムタンの柄
+		Tooltip:
+			'''
+			鞭の攻撃範囲-15%
+			鞭の攻撃速度+10%
+			「無骨なグリップに勝るものなし！」
+			'''
+	}
+
+	DemoniteHandle: {
+		DisplayName: デモナイトの柄
+		Tooltip:
+			'''
+			鞭の攻撃範囲-15%
+			鞭のクリティカル率+15%
+			「ふにゃっとしたグリップこそ最高！」
+			'''
+	}
+
+	ThornBulb: {
+		DisplayName: 棘の球根
+		Tooltip:
+			'''
+			召喚体の周囲に大きな棘のオーラを展開
+			オーラ内のプレイヤーは防御力+5、イバラの効果を得る
+			「柔らかさと鋭さの好奇な混合」
+			'''
+	}
+
+	HeartMemento: {
+		DisplayName: ハートメメント
+		Tooltip:
+			'''
+			召喚体の周囲に回復オーラを展開
+			オーラはタリスマンのダメージの1/10だけオーラ内のプレイヤーを回復
+			回復頻度はタリスマンの使用速度でスケール
+			「手作りなのに郷愁を誘う」
+			'''
+	}
+
+	HeartMementoPlat: {
+		DisplayName: ハートメメント
+		Tooltip:
+			'''
+			召喚体の周囲に回復オーラを展開
+			オーラはタリスマンのダメージの1/10だけオーラ内のプレイヤーを回復
+			回復頻度はタリスマンの使用速度でスケール
+			「手作りなのに郷愁を誘う」
+			'''
+	}
+
+	LifeMemento: {
+		DisplayName: ライフメメント
+		Tooltip:
+			'''
+			召喚体の周囲に回復オーラを展開
+			オーラはタリスマンのダメージの1/5だけオーラ内プレイヤーを回復
+			回復頻度はタリスマン使用速度でスケール
+			「あなたの手作りだからこそ安心する」
+			'''
+	}
+
+	ShroomiteScope: {
+		DisplayName: シュルーマイトスコープ
+		Tooltip:
+			'''
+			召喚の攻撃範囲+40%
+			右クリックでスコープ
+			このスロットの見た目表示を無効化するとスコープ機能を無効化
+			「離れた召喚体にエネルギーを集中」
+			'''
+	}
+
+	StellarAmbrosia: {
+		DisplayName: 星のアンブロシア
+		Tooltip:
+			'''
+			召喚体が命中対象にスターダストセルを付与
+			セルは追加で50%の継続ダメージ
+			「勇敢な者には美味しそうな匂い」
+			'''
+	}
+}
+

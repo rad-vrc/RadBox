@@ -1,0 +1,833 @@
+Items: {
+	BiomeScanner: {
+		DisplayName: バイオームスキャナー
+		Tooltip:
+			'''
+			特定のタイプの抽出機をシミュレートし、使用者の周囲のバイオームをスキャンする
+			マップ上のすべてのバイオーム抽出機の位置も特定する
+			左クリック で周囲をスキャンする 移動してもメニューは自動で更新されない
+			右クリック で抽出ティアを切り替える 抽出機を 右クリック するとそのティアをコピーする
+			これまでにコピーした最高ティアまでしかシミュレートできない
+			現在シミュレート中:
+			'''
+	}
+
+	BiomeExtractorItemIron: {
+		DisplayName: バイオーム抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			抽出物は隣接するチェストの中に収納される
+			'''
+	}
+
+	BiomeExtractorItemLead: {
+		DisplayName: バイオーム抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			抽出物は隣接するチェストの中に収納される
+			'''
+	}
+
+	BiomeExtractorItemCorruption: {
+		DisplayName: 悪魔の抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			邪悪なバイオームから素材を抽出できる
+			スケルトロン撃破後はダンジョンからも素材を抽出できる
+			'''
+	}
+
+	BiomeExtractorItemCrimson: {
+		DisplayName: 悪魔の抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			邪悪なバイオームから素材を抽出できる
+			スケルトロン撃破後はダンジョンからも素材を抽出できる
+			'''
+	}
+
+	BiomeExtractorItemInfernal: {
+		DisplayName: 地獄の抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			地下世界や隕石から素材を抽出できる
+			'''
+	}
+
+	BiomeExtractorItemAdamantite: {
+		DisplayName: スチームパンクの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			ハードモード序盤の素材をほとんど抽出できる
+			'''
+	}
+
+	BiomeExtractorItemTitanium: {
+		DisplayName: スチームパンクの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			ハードモード序盤の素材をほとんど抽出できる
+			'''
+	}
+
+	BiomeExtractorItemCyber: {
+		DisplayName: サイバネティクスの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			ダンジョンから霊魂を、寺院からリザードの素材を抽出できる
+			'''
+	}
+
+	BiomeExtractorItemLunar: {
+		DisplayName: 月の抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			全てのピラーが撃破された後、宇宙でピラーの破片を抽出できる
+			'''
+	}
+
+	BiomeExtractorItemEthereal: {
+		DisplayName: エーテルの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			ルナイベント完了後、宇宙でルミナイトを抽出できる
+			'''
+	}
+
+	UpgradeKitAdamantite: {
+		DisplayName: スチームパンクのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitCorruption: {
+		DisplayName: 悪魔のアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitCrimson: {
+		DisplayName: 悪魔のアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitCyber: {
+		DisplayName: サイバネティクスのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitEthereal: {
+		DisplayName: エーテルのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitInfernal: {
+		DisplayName: 地獄のアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitLunar: {
+		DisplayName: 月のアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	UpgradeKitTitanium: {
+		DisplayName: スチームパンクのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	SpectralExtractorItem: {
+		DisplayName: スペクトラルの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			Devourer of Gods撃破後、特定のバイオームの墓場に設置するとムーンイベントのエネルギーを抽出できる
+			'''
+	}
+
+	AuricExtractorItem: {
+		DisplayName: オーリックの抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			Yharon撃破後、洞窟層でオーリック鉱石を抽出できる
+			'''
+	}
+
+	ExoExtractorItem: {
+		DisplayName: XX-01 ヘパイストス
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			Exo Mechs撃破後、宇宙でエクソプリズムを生成できる
+			'''
+	}
+
+	SulphuricExtractorItem: {
+		DisplayName: 硫黄の抽出機
+		Tooltip:
+			'''
+			世界中のどこにでも設置でき、周囲のエリアから一般的な素材を抽出する
+			アビスの第一層である硫黄の深層からアイテムを抽出するのに必要である
+			水中でより良く機能する
+			'''
+	}
+
+	PressurizedExtractorItem: {
+		DisplayName: 加圧抽出機
+		Tooltip:
+			'''
+			アビスの素材のみを抽出できる特殊な抽出機
+			アビスの第二層である濁った水域まで機能する
+			水中、かつアビス内でのみ機能する
+			'''
+	}
+
+	ThermoresistantExtractorItem: {
+		DisplayName: 耐熱抽出機
+		Tooltip:
+			'''
+			アビスの素材のみを抽出できる特殊な抽出機
+			アビスの第三層である熱水噴出孔まで機能する
+			水中、かつアビス内でのみ機能する
+			'''
+	}
+
+	AbyssalExtractorItem: {
+		DisplayName: アビスの抽出機
+		Tooltip:
+			'''
+			最大の圧力にも耐えられるように作られた特殊な抽出機
+			ヴォイドを含むアビスのどこでも機能する
+			水中、かつアビス内でのみ機能する
+			'''
+	}
+
+	SpectralUpgradeKit: {
+		DisplayName: スペクトラルのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	AuricUpgradeKit: {
+		DisplayName: オーリックのアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	ExoUpgradeKit: {
+		DisplayName: エクソアップグレードキット
+		Tooltip: 右クリック このアイテムで{0}{1}を{2}{3}にアップグレードする
+	}
+
+	SulphuricUpgradeKit: {
+		DisplayName: 硫黄のアップグレードキット
+		Tooltip: 右クリック このアイテムで悪魔の抽出機を硫黄の抽出機にアップグレードする
+	}
+
+	PressurizedUpgradeKit: {
+		DisplayName: 加圧アップグレードキット
+		Tooltip: 右クリック このアイテムで硫黄の抽出機を加圧抽出機にアップグレードする
+	}
+
+	ThermoresistantUpgradeKit: {
+		DisplayName: 耐熱アップグレードキット
+		Tooltip: 右クリック このアイテムで加圧抽出機を耐熱抽出機にアップグレードする
+	}
+
+	AbyssalUpgradeKit: {
+		DisplayName: アビスのアップグレードキット
+		Tooltip: 右クリック このアイテムで耐熱抽出機をアビスの抽出機にアップグレードする
+	}
+}
+
+Configs: {
+	ConfigClient: {
+		DisplayName: クライアント設定
+		UIConfigHeader: UI設定
+		UIPrintPoolsTitle: 隠しプールを表示
+		UIPrintPoolsTooltip:
+			'''
+			これを有効にすると、抽出機はハードモードのドロップのみを含むような
+			不可視のプールの名前も表示する。
+			この設定はデバッグ目的のみに存在するため、これらのプールはローカライズされない。
+			デフォルトはオフ。
+			'''
+		WindowPosTitle: ウィンドウ位置を保存
+		WindowPosTooltip:
+			'''
+			これを有効にすると、抽出機のUIは最後に閉じた時と
+			同じ場所に再表示される。
+			デフォルトはオン。
+			'''
+	}
+
+	ConfigCommon: {
+		DisplayName: 抽出機の設定
+		GeneralConfigHeader: 一般設定
+		FollowDayRateTitle: 時間経過速度に追従
+		FollowDayRateTooltip:
+			'''
+			この設定により、ベッドで寝るなど時間の進行が速くなった際に、
+			抽出機の作業を加速させることができる。
+			デフォルトはREDUCED。
+
+			YES - 抽出機は時間の進行に合わせて加速し、
+			必要であれば1フレームに複数回抽出する。
+			REDUCED - 抽出機は時間の進行に合わせて加速するが、
+			1フレームに1回より多く抽出することはない。
+			NO - 抽出機は時間の進行に合わせて加速しない。
+			'''
+		TransferAnimationTitle: 転送アニメーションを表示
+		TransferAnimationTooltip:
+			'''
+			trueの場合、抽出機がアイテムを生成するたびに、
+			クイックスタックのアニメーションのように、そのアイテムが
+			出力チェストに入る様子が表示される。
+			デフォルトはオン。
+			'''
+		ScanRateTitle: バイオームのスキャン頻度
+		ScanRateTooltip:
+			'''
+			抽出機がバイオームの変化をチェックする頻度。
+			この値はスキャンごとのフレーム数である。
+			デフォルトは3600で、60秒に相当する。
+			'''
+		Tier1Header: 基本の抽出機
+		Tier1ChanceTitle: 抽出確率
+		Tier1ChanceTooltip:
+			'''
+			基本の抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは60。
+			'''
+		Tier1RateTitle: 抽出レート
+		Tier1RateTooltip:
+			'''
+			基本の抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは300で、5秒に相当する。
+			'''
+		Tier1AmountTitle: 抽出量
+		Tier1AmountTooltip:
+			'''
+			基本抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier2Header: 悪魔の抽出機
+		Tier2ChanceTitle: 抽出確率
+		Tier2ChanceTooltip:
+			'''
+			悪魔の抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは75。
+			'''
+		Tier2RateTitle: 抽出レート
+		Tier2RateTooltip:
+			'''
+			悪魔の抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは240で、4秒に相当する。
+			'''
+		Tier2AmountTitle: 抽出量
+		Tier2AmountTooltip:
+			'''
+			悪魔の抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier3Header: 地獄の抽出機
+		Tier3ChanceTitle: 抽出確率
+		Tier3ChanceTooltip:
+			'''
+			地獄の抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは85。
+			'''
+		Tier3RateTitle: 抽出レート
+		Tier3RateTooltip:
+			'''
+			地獄の抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは180で、3秒に相当する。
+			'''
+		Tier3AmountTitle: 抽出量
+		Tier3AmountTooltip:
+			'''
+			地獄の抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier4Header: スチームパンクの抽出機
+		Tier4ChanceTitle: 抽出確率
+		Tier4ChanceTooltip:
+			'''
+			スチームパンクの抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは90。
+			'''
+		Tier4RateTitle: 抽出レート
+		Tier4RateTooltip:
+			'''
+			スチームパンクの抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは150で、2.5秒に相当する。
+			'''
+		Tier4AmountTitle: 抽出量
+		Tier4AmountTooltip:
+			'''
+			スチームパンクの抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier5Header: サイバネティクスの抽出機
+		Tier5ChanceTitle: 抽出確率
+		Tier5ChanceTooltip:
+			'''
+			サイバネティクスの抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは94。
+			'''
+		Tier5RateTitle: 抽出レート
+		Tier5RateTooltip:
+			'''
+			サイバネティクスの抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは120で、2秒に相当する。
+			'''
+		Tier5AmountTitle: 抽出量
+		Tier5AmountTooltip:
+			'''
+			サイバネティクスの抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier6Header: 月の抽出機
+		Tier6ChanceTitle: 抽出確率
+		Tier6ChanceTooltip:
+			'''
+			月の抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは97。
+			'''
+		Tier6RateTitle: 抽出レート
+		Tier6RateTooltip:
+			'''
+			月の抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは90で、1.5秒に相当する。
+			'''
+		Tier6AmountTitle: 抽出量
+		Tier6AmountTooltip:
+			'''
+			月の抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+		Tier7Header: エーテルの抽出機
+		Tier7ChanceTitle: 抽出確率
+		Tier7ChanceTooltip:
+			'''
+			エーテルの抽出機が各抽出で何かを生成する確率(%)。
+			デフォルトは100。
+			'''
+		Tier7RateTitle: 抽出レート
+		Tier7RateTooltip:
+			'''
+			エーテルの抽出機が何かを生成しようとする頻度。
+			この値は試行ごとのフレーム数である。
+			デフォルトは75で、1.25秒に相当する。
+			'''
+		Tier7AmountTitle: 抽出量
+		Tier7AmountTooltip:
+			'''
+			エーテルの抽出機が各抽出で生成するアイテムの数。
+			デフォルトは1。
+			'''
+	}
+
+	ConfigCompat: {
+		DisplayName: 互換性
+		MSHeader: Magic Storage
+		MSTitle: Magic Storageに接続
+		MSTooltip:
+			'''
+			このMODはMagic Storageとのネイティブな互換性を提供する：
+			バイオーム抽出機は、隣接してアクティブなStorage Configuration
+			Interfaceがあれば、生成したアイテムをMagic Storageシステム内に
+			保存できる。
+			しかし、これを望まない場合は、このオプションのチェックを
+			外すことで互換性を無効にできる。
+			デフォルトはオン。
+			'''
+		MaxMSTitle: ストレージ内の最大容量
+		MaxMSTooltip:
+			'''
+			Magic Storageシステムに接続されたバイオーム抽出機は、
+			ストレージ内の特定のアイテムの量がこの値以上になると、
+			そのアイテムの生成を停止する。
+			これでシステムがゴミで埋まることはない！
+			デフォルトは9999。
+			'''
+		MaxMSStacksTitle: ストレージ内の最大スタック数
+		MaxMSStacksTooltip:
+			'''
+			Magic Storageシステムに接続されたバイオーム抽出機は、
+			特定のアイテムが占めるスタック数がこの値以上になると、
+			そのアイテムの生成を停止する。
+			この設定は、スタック上限の低いアイテム、ツール、武器、装備品のための
+			二次的なルールとして機能する。
+			デフォルトは5。
+			'''
+	}
+
+	FollowRateValues: {
+		Tooltip: ""
+
+		NO: {
+			Label: いいえ
+		}
+
+		REDUCED: {
+			Label: 制限
+		}
+
+		YES: {
+			Label: はい
+		}
+	}
+
+	CalamityConfigs: {
+		DisplayName: Calamity用設定
+
+		SulphuricExtractor: {
+			Header: 硫黄の抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					硫黄の抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは250で、4.167秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					硫黄の抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは75。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					硫黄の抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+
+			DryEfficiency: {
+				Title: 乾燥時の効率
+				Tooltip:
+					'''
+					硫黄の抽出機が水外に設置された際の速度(%)。
+					デフォルトは50。
+					'''
+			}
+		}
+
+		PressurizedExtractor: {
+			Header: 加圧抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					加圧抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは200で、3.333秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					加圧抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは85。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					加圧抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+
+		ThermoresistantExtractor: {
+			Header: 耐熱抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					耐熱抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは150で、2.5秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					耐熱抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは94。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					耐熱抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+
+		AbyssalExtractor: {
+			Header: アビスの抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					アビスの抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは100で、1.667秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					アビスの抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは100。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					アビスの抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+
+		SpectralExtractor: {
+			Header: スペクトラルの抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					スペクトラルの抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは70で、1.167秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					スペクトラルの抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは100。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					スペクトラルの抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+
+		AuricExtractor: {
+			Header: オーリックの抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					オーリックの抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは65で、1.083秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					オーリックの抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは100。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					オーリックの抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+
+		ExoExtractor: {
+			Header: エクソ抽出機
+
+			Rate: {
+				Title: 抽出レート
+				Tooltip:
+					'''
+					エクソ抽出機が何かを生成しようとする頻度。
+					この値は試行ごとのフレーム数である。
+					デフォルトは60で、1秒に相当する。
+					'''
+			}
+
+			Chance: {
+				Title: 抽出確率
+				Tooltip:
+					'''
+					エクソ抽出機が各抽出で何かを生成する確率(%)。
+					デフォルトは100。
+					'''
+			}
+
+			Amount: {
+				Title: 抽出量
+				Tooltip:
+					'''
+					エクソ抽出機が各抽出で生成するアイテムの数。
+					デフォルトは1。
+					'''
+			}
+		}
+	}
+}
+
+Text: {
+	PoolNames: {
+		forest: 地上
+		underground: 地下
+		caverns: 洞窟
+		snow: 雪原
+		desert: 砂漠
+		jungle: ジャングル
+		sky: 空
+		hallowed_forest: 聖域
+		hallowed_desert: 聖域砂漠
+		hallowed_snow: 聖域の雪原
+		mushroom: 地上キノコ群生地
+		corrupt_forest: 不浄の地
+		corrupt_desert: 不浄砂漠
+		corrupt_snow: 不浄の雪原
+		crimson_forest: 真紅の地
+		crimson_desert: 真紅の砂漠
+		crimson_snow: 真紅の雪原
+		graveyard: 墓地
+		ug_snow: 地下氷雪洞窟
+		ug_desert: 地下砂漠
+		ug_jungle: 地下ジャングル
+		hive: ハチの巣
+		ug_hallowed: 聖域地下
+		ug_hallowed_desert: 聖域砂漠洞窟
+		ug_hallowed_snow: 聖域の氷
+		ug_mushroom: 地下キノコ群生地
+		ug_corrupt: 不浄地下
+		ug_corrupt_desert: 不浄砂漠洞窟
+		ug_corrupt_snow: 不浄の氷
+		ug_crimson: 真紅地下
+		ug_crimson_desert: 真紅砂漠洞窟
+		ug_crimson_snow: 真紅の氷
+		dungeon: ダンジョン
+		temple: 寺院
+		shimmer: エーテル
+		cobweb: クモの巣
+		granite: 御影石
+		marble: 大理石
+		ocean: 海
+		space: 宇宙
+		underworld: 地下世界
+		meteorite: 隕石
+		ash_forest: 灰の森
+		caverns_remix: 森林
+		sunken_sea: 沈んだ海
+		sulphur_sea: 硫黄の海
+		sulphur_depths: 硫黄の深層
+		murky_waters: 濁った水域
+		thermal_vents: 熱水噴出孔
+		the_void: ヴォイド
+		brimstone_crag: ブリムストーン・クラッグ
+		astral_forest: アストラル汚染
+		astral_snow: アストラル雪原
+		astral_desert: アストラル砂漠
+		ug_astral_forest: 地下アストラル汚染
+		ug_astral_snow: 地下アストラル雪原
+		ug_astral_desert: 地下アストラル砂漠
+	}
+
+	Diagnostics: {
+		MachineStatePrint: 抽出中:
+		MachineStateFail: この場所からはマシンは何も抽出できない
+		MachineStateDry: マシンはアビスの水に完全に浸かっていないと機能しない
+		MachineStateOff: マシンは非アクティブである。
+		MachineStateBroken: このマシンはロードに失敗しました。破壊して再設置してください。
+		ScannerSuccess: バイオームが特定された:
+		ScannerFail: バイオームを特定できなかった
+		ScannerChangeTier: 現在シミュレート中: {0}
+		ScannerCloneExtractor: "{0}のティアがクローンされた"
+		Per_day: アイテム/日
+		Chance: 確率
+		Percent: %
+		InactiveSlot: 非アクティブ
+	}
+
+	Articles: {
+		Basic: ""
+		Demonic: ""
+		Infernal: ""
+		Steampunk: ""
+		Cyber: ""
+		Lunar: ""
+		Ethereal: ""
+		Spectral: ""
+		Auric: ""
+		Exo: ""
+	}
+
+	Tiers: {
+		Exo: エクソ抽出機
+	}
+}
+
+Map: {
+	TileName: バイオーム抽出機
+	IconInactive: 非アクティブ
+	IconNoOutput: 出力なし
+	IconError: 破損
+}

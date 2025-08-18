@@ -1,0 +1,56 @@
+Configs: {
+	RealisticSkyConfig: {
+		DisableEffectsDuringBossFights: {
+			Tooltip: ボス戦中にリアルな空の効果を無効にします
+			Label: ボス戦中のエフェクト無効化
+		}
+
+		NightSkyStarCount: {
+			Tooltip: 夜空に表示される星の数を調整します
+			Label: 夜空の星の数
+		}
+
+		CloudExposure: {
+			Tooltip: 雲を通過する光の全体的な強度を調整します
+			Label: 雲の露出
+		}
+
+		RealisticClouds: {
+			Tooltip: リアルな雲を表示します
+			Label: リアルな雲
+		}
+
+		SunlightExposure: {
+			Tooltip: 大気効果における太陽光の全体的な強度を調整します
+			Label: 太陽光の露出
+		}
+
+		BlueWavelength: {
+			Tooltip: 大気効果に基づく青い光の波長を調整します（ナノメートル単位）
+			Label: 青の波長
+		}
+
+		GreenWavelength: {
+			Tooltip: 大気効果に基づく緑の光の波長を調整します（ナノメートル単位）
+			Label: 緑の波長
+		}
+
+		RedWavelength: {
+			Tooltip: 大気効果に基づく赤い光の波長を調整します（ナノメートル単位）
+			Label: 赤の波長
+		}
+
+		PerformanceMode: {
+			Tooltip: パフォーマンスを優先して空の品質を下げます
+			Label: パフォーマンスモード
+		}
+
+		ShowInMainMenu: {
+			Tooltip: メインメニューでリアルな空を表示します
+			Label: メインメニューで表示
+		}
+
+		DisplayName: Realistic Sky 設定
+	}
+}
+

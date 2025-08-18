@@ -1,0 +1,907 @@
+Buffs: {
+	MultiPetBuff: {
+		DisplayName: ペットバインダー
+		Description:
+			'''
+			たくさんのペットがついてくる
+			現在アクティブなペット:
+			'''
+	}
+
+	SpamtonBuff: {
+		DisplayName: スパムトン
+		Description: "[HYPERLINK BLOCKED]"
+	}
+
+	TheKnightBuff: {
+		DisplayName: ザ・ナイト
+		Description: ザ・ナイトがついてくる
+	}
+
+	DartMonkeyBuff: {
+		DisplayName: ダートモンキー
+		Description: ダートモンキーがついてくる
+	}
+
+	LumaflyTheKnightBuff: {
+		DisplayName: ザ・ナイト
+		Description: ザ・ナイトが暗所を照らす
+	}
+
+	ClippyBuff: {
+		DisplayName: クリッピー
+		Description:
+			'''
+			バフを確認しているようですね
+			
+			お手伝いしますか？
+			'''
+	}
+
+	IsaacBuff: {
+		DisplayName: アイザック
+		Description: アイザックがついてくる
+	}
+
+	SansBuff: {
+		DisplayName: サンズ
+		Description: サンズがついてくる
+	}
+
+	PapyrusBuff: {
+		DisplayName: パピルス
+		Description: スパゲッティは気に入ったか？
+	}
+
+	ReimuBuff: {
+		DisplayName: 霊夢
+		Description: 霊夢がついてくる
+	}
+
+	MarisaBuff: {
+		DisplayName: 魔理沙
+		Description: 魔理沙がついてくる
+	}
+
+	YukariBuff: {
+		DisplayName: 紫
+		Description: 紫がついてくる
+	}
+
+	HornetBuff: {
+		DisplayName: ホーネット
+		Description: 「Shaw adino」
+	}
+
+	RedCrewmateBuff: {
+		DisplayName: 赤いクルーメイト
+		Description: インポスターでないことを祈る
+	}
+
+	ShovelKnightBuff: {
+		DisplayName: ショベルナイト
+		Description: ショベルナイトがここにいる
+	}
+
+	EeveeBuff: {
+		DisplayName: イーブイ
+		Description: イーブイがついてくる
+	}
+
+	TalkingFlowerBuff: {
+		DisplayName: 喋る花のバフ
+		Description: さあ前へ進もう
+	}
+
+	MetalGearRexBuff: {
+		DisplayName: メタルギアREX
+		Description: メタルギアREXがついてくる
+	}
+
+	MimikyuBuff: {
+		DisplayName: ミミッキュ
+		Description: ミミッキュがついてくる
+	}
+
+	BlackKnightBuff: {
+		DisplayName: 黒騎士
+		Description: 黒騎士がついてくる
+	}
+
+	SunnyBuff: {
+		DisplayName: サニー
+		Description: サニーがついてくる
+	}
+
+	NecoArcBuff: {
+		DisplayName: ネコアルク
+		Description: ブルニュウ
+	}
+
+	BasilBuff: {
+		DisplayName: バジル
+		Description: バジルがついてくる
+	}
+
+	CirnoBuff: {
+		DisplayName: チルノ
+		Description: ⑨：バカ
+	}
+
+	MewBuff: {
+		DisplayName: ミュウ
+		Description: ミュウがついてくる
+	}
+
+	FloweyBuff: {
+		DisplayName: フラウィー
+		Description: フラウィーがついてくる…
+	}
+
+	NikoBuff: {
+		DisplayName: ニコ
+		Description: ニコがついてくる
+	}
+
+	PochitaBuff: {
+		DisplayName: ポチタ
+		Description: ポチタがついてくる
+	}
+
+	PomniBuff: {
+		DisplayName: ポムニ
+		Description: ポムニがついてくる
+	}
+
+	DogmeatBuff: {
+		DisplayName: ドッグミート
+		Description: ドッグミートがついてくる
+	}
+
+	YesManBuff: {
+		DisplayName: イエスマン
+		Description:
+			'''
+			これは最高だ！
+			望むと望まざるとにかかわらず、君の達成を手助けするよ！
+			'''
+	}
+
+	ToadBuff: {
+		DisplayName: キノピオ
+		Description: キノピオがついてくる
+	}
+
+	MollyBuff: {
+		DisplayName: モリー
+		Description: 掘削班、M.U.L.Eが来たぞ！
+	}
+
+	MeatBoyBuff: {
+		DisplayName: ミートボーイ
+		Description: ミートボーイがついてくる
+	}
+
+	SonicBuff: {
+		DisplayName: ソニック
+		Description: ソニックがついてくる
+	}
+
+	SuperSonicBuff: {
+		DisplayName: スーパーソニック
+		Description: スーパーソニックがついてくる
+	}
+
+	PikachuBuff: {
+		DisplayName: ピカチュウ
+		Description: ピカチュウがついてくる
+	}
+
+	WerehogBuff: {
+		DisplayName: ソニック
+		Description:
+			'''
+			ソニックがついてくる
+			夜になるとウェアホッグに変身
+			'''
+	}
+
+	LittleChocoboBuff: {
+		DisplayName: ちいさなチョコボ
+		Description: ちいさなチョコボがついてくる
+	}
+
+	PussInBootsBuff: {
+		DisplayName: 長ぐつをはいたネコ
+		Description: 長ぐつをはいたネコがついてくる
+	}
+
+	JevilBuff: {
+		DisplayName: ジェビル
+		Description: 何でもできる！！
+	}
+
+	GeometryDashCubeBuff: {
+		DisplayName: キューブ
+		Description: ジオメトリーダッシュのキューブがついてくる
+	}
+
+	SpamtonNEOBuff: {
+		DisplayName: スパムトンNEO
+		Description: 俺は大物だ！！！
+	}
+
+	DimentioBuff: {
+		DisplayName: ディメーン
+		Description: ディメーンがついてくる
+	}
+
+	SlugcatBuff: {
+		DisplayName: スラグキャット
+		Description: スラグキャットがついてくる
+	}
+
+	UziBuff: {
+		DisplayName: ウージー
+		Description: かかってこいよ
+	}
+
+	BulletKinBuff: {
+		DisplayName: バレットキン
+		Description: バレットキンがついてくる
+	}
+
+	KnucklesBuff: {
+		DisplayName: ナックルズ
+		Description: ナックルズがついてくる
+	}
+
+	TailsBuff: {
+		DisplayName: テイルス
+		Description: テイルスがついてくる
+	}
+
+	NoobBuff: {
+		DisplayName: ニュービー
+		Description: ウッ
+	}
+
+	AzazelBuff: {
+		DisplayName: アザゼル
+		Description: アザゼルがついてくる
+	}
+
+	CaptainToadBuff: {
+		DisplayName: キノピオ隊長
+		Description: キノピオ隊長がついてくる
+	}
+
+	LambBuff: {
+		DisplayName: 羊
+		Description: 羊がついてくる
+	}
+
+	MurkrowBuff: {
+		DisplayName: ヤミカラス
+		Description:
+			'''
+			ヤミカラスがついてくる
+			不吉な気配が尾を引く
+			'''
+	}
+
+	HelpyBuff: {
+		DisplayName: ヘルピー
+		Description: 助けるより厄介
+	}
+
+	DallasBuff: {
+		DisplayName: ダラス
+		Description: 気合を入れろ 相棒たち
+	}
+}
+
+Items: {
+	DisplayerItem: {
+		DisplayName: ペットハウス
+		Tooltip:
+			'''
+			任意のペットアイテムを右クリックで歩き回らせる
+			複数のペットを同時に召喚するアイテムは意図した動作にならない
+			多節のペットは不具合を起こす
+			壊れたペットはワールド再読み込みが必要な場合がある
+			'''
+	}
+
+	DisplayerItemEcho: {
+		DisplayName: エコー・ペットハウス
+		Tooltip:
+			'''
+			エコー視界でのみ可視
+			任意のペットアイテムを右クリックで歩き回らせる
+			複数のペットを同時に召喚するアイテムは意図した動作にならない
+			多節のペットは不具合を起こす
+			壊れたペットはワールド再読み込みが必要な場合がある
+			'''
+	}
+
+	MultiPetItem: {
+		DisplayName: ペットバインダー
+		Tooltip:
+			'''
+			現在の所持ペット:
+			カーソル上のペット/光源ペットを右クリックで投入
+			Shift+右クリックで全て解放
+			Ctrl+右クリックでスタイル切替
+			装備すると大群を召喚
+			'''
+		StyleFollow: 現在のスタイル: 追従
+		StyleOrbit: 現在のスタイル: 周回
+		StyleStack: 現在のスタイル: 積層
+	}
+
+	SpamtonItem: {
+		DisplayName: ディールメイカー
+		Tooltip: スパムトンを召喚
+	}
+
+	TheKnightItem: {
+		DisplayName: 古びた釘
+		Tooltip: ザ・ナイトを召喚
+	}
+
+	DartMonkeyItem: {
+		DisplayName: バンドル-0-0-0-バナナ
+		Tooltip:
+			'''
+			ダートモンキーを召喚
+			[c/35825b:スプライト: Sampel 提供]
+			'''
+	}
+
+	LumaflyTheKnightItem: {
+		DisplayName: ルマフライのランタン
+		Tooltip:
+			'''
+			ザ・ナイトを召喚
+			暗所を照らす
+			'''
+	}
+
+	ClippyItem: {
+		DisplayName: いかがわしい文書
+		Tooltip: テラリアのアシスタント クリッピーを召喚
+	}
+
+	IsaacItem: {
+		DisplayName: D6
+		Tooltip: アイザックを召喚
+	}
+
+	SansItem: {
+		DisplayName: ケチャップ
+		Tooltip: サンズを召喚
+	}
+
+	PapyrusItem: {
+		DisplayName: マズいスパゲッティ
+		Tooltip:
+			'''
+			冷たい
+			パピルスを召喚
+			'''
+	}
+
+	ReimuItem: {
+		DisplayName: お祓い棒
+		Tooltip: 霊夢を召喚
+	}
+
+	MarisaItem: {
+		DisplayName: ミニ八卦炉
+		Tooltip: 魔理沙を召喚
+	}
+
+	YukariItem: {
+		DisplayName: 紫の傘
+		Tooltip: 紫を召喚
+	}
+
+	HornetItem: {
+		DisplayName: 針
+		Tooltip: ホーネットを召喚
+	}
+
+	RedCrewmateItem: {
+		DisplayName: あやしい見た目のクルーメイト
+		Tooltip: 赤いクルーメイトを召喚
+	}
+
+	ShovelKnightItem: {
+		DisplayName: ショベルブレード
+		Tooltip: ショベルナイトを召喚
+	}
+
+	EeveeItem: {
+		DisplayName: モンスターボール（イーブイ）
+		Tooltip: イーブイを召喚
+	}
+
+	TalkingFlowerItem: {
+		DisplayName: 自然の罰
+		Tooltip: 喋る花を召喚
+	}
+
+	MetalGearRexItem: {
+		DisplayName: PALキー
+		Tooltip: メタルギアREXを召喚
+	}
+
+	MimikyuItem: {
+		DisplayName: モンスターボール（ミミッキュ）
+		Tooltip: ミミッキュを召喚
+	}
+
+	BlackKnightItem: {
+		DisplayName: ブラック・ショベルブレード
+		Tooltip: 黒騎士を召喚
+	}
+
+	SunnyItem: {
+		DisplayName: 輝くナイフ
+		Tooltip: サニーを召喚
+	}
+
+	NecoArcItem: {
+		DisplayName: "「Pilk」"
+		Tooltip: ネコアルクを召喚
+	}
+
+	BasilItem: {
+		DisplayName: 花の冠
+		Tooltip: バジルを召喚
+	}
+
+	CirnoItem: {
+		DisplayName: 落ちたつらら
+		Tooltip: チルノを召喚
+	}
+
+	MewItem: {
+		DisplayName: プレシャスボール（ミュウ）
+		Tooltip: ミュウを召喚
+	}
+
+	FloweyItem: {
+		DisplayName: 人なつっこい見た目の花
+		Tooltip: フラウィーを召喚
+	}
+
+	NikoItem: {
+		DisplayName: 太陽
+		Tooltip: ニコを召喚
+	}
+
+	PochitaItem: {
+		DisplayName: スーパー・トースト
+		Tooltip: ポチタを召喚
+	}
+
+	PomniItem: {
+		DisplayName: 出口の扉
+		Tooltip: ポムニを召喚
+	}
+
+	DogmeatItem: {
+		DisplayName: 盗まれたクライオレーター
+		Tooltip:
+			'''
+			どうやってケースから出た？
+			ドッグミートを召喚
+			'''
+	}
+
+	YesManItem: {
+		DisplayName: プラチナチップ
+		Tooltip: イエスマンを召喚
+	}
+
+	ToadItem: {
+		DisplayName: スーパーキノコ
+		Tooltip: キノピオを召喚
+	}
+
+	MollyItem: {
+		DisplayName: M.U.L.E呼び出し棒
+		Tooltip: モリーを召喚
+	}
+
+	MeatBoyItem: {
+		DisplayName: あやしい見た目のノコギリ
+		Tooltip: ミートボーイを召喚
+	}
+
+	SonicItem: {
+		DisplayName: ソニックの靴
+		Tooltip: ソニックを召喚
+	}
+
+	SuperSonicItem: {
+		DisplayName: カオスエメラルド
+		Tooltip: スーパーソニックを召喚
+	}
+
+	PikachuItem: {
+		DisplayName: モンスターボール（ピカチュウ）
+		Tooltip: ピカチュウを召喚
+	}
+
+	WerehogItem: {
+		DisplayName: ネガティブ・カオスエメラルド
+		Tooltip:
+			'''
+			ソニックを召喚
+			夜になるとウェアホッグに変身
+			'''
+	}
+
+	LittleChocoboItem: {
+		DisplayName: ギサールの野菜
+		Tooltip: ちいさなチョコボを召喚
+	}
+
+	PussInBootsItem: {
+		DisplayName: ネコサイズのブーツ
+		Tooltip: 長ぐつをはいたネコを召喚
+	}
+
+	JevilItem: {
+		DisplayName: 房の鍵
+		Tooltip:
+			'''
+			凶悪な気配が漂う鍵だ…
+			ジェビルを召喚
+			'''
+	}
+
+	BrokenKeyA: {
+		DisplayName: 壊れた鍵A
+		Tooltip: 鍵の上部
+	}
+
+	BrokenKeyB: {
+		DisplayName: 壊れた鍵B
+		Tooltip: 鍵の中央部
+	}
+
+	BrokenKeyC: {
+		DisplayName: 壊れた鍵C
+		Tooltip: 鍵の下部
+	}
+
+	GeometryDashCubeItem: {
+		DisplayName: ジオメトリーダッシュのキューブ
+		Tooltip: ジオメトリーダッシュのキューブを召喚
+	}
+
+	SpamtonNEOItem: {
+		DisplayName: ロード済みディスク
+		Tooltip:
+			'''
+			KID! I'M BUSY BECOMING [GOD].
+			GO PLAY [TERRARIA] OR SOMETHING!
+			スパムトンNEOを召喚
+			'''
+	}
+
+	DimentioItem: {
+		DisplayName: カオスハート
+		Tooltip:
+			'''
+			他のペットより256倍強い
+			ディメーンを召喚
+			'''
+	}
+
+	SlugcatItem: {
+		DisplayName: ハゲワシの仮面
+		Tooltip: スラグキャットを召喚
+	}
+
+	UziItem: {
+		DisplayName: やべえレールガン
+		Tooltip: ウージーを召喚
+	}
+
+	BulletKinItem: {
+		DisplayName: マグナム
+		Tooltip: バレットキンを召喚
+	}
+
+	KnucklesItem: {
+		DisplayName: マスターエメラルド
+		Tooltip: ナックルズを召喚
+	}
+
+	TailsItem: {
+		DisplayName: マイルス・エレクトリック
+		Tooltip: テイルスを召喚
+	}
+
+	NoobItem: {
+		DisplayName: ロバックス
+		Tooltip: ニュービーを召喚
+	}
+
+	AzazelItem: {
+		DisplayName: 硫黄火
+		Tooltip: アザゼルを召喚
+	}
+
+	CaptainToadItem: {
+		DisplayName: キノピオ隊の補給品
+		Tooltip: キノピオ隊長を召喚
+	}
+
+	LambItem: {
+		DisplayName: 赤い王冠
+		Tooltip: 羊を召喚
+	}
+
+	MurkrowItem: {
+		DisplayName: ダークボール（ヤミカラス）
+		Tooltip:
+			'''
+			不思議なモンスターボール
+			夜や洞窟で効果的
+			ヤミカラスを召喚
+			[c/35825b:スプライト: Tert 提供]
+			'''
+	}
+
+	HelpyItem: {
+		DisplayName: 訴訟
+		Tooltip:
+			'''
+			過失致死とは何か？
+			ヘルピーを召喚
+			[c/35825b:スプライト: Ducky Ninja 提供]
+			'''
+	}
+
+	DallasItem: {
+		DisplayName: パンパンのダッフルバッグ
+		Tooltip:
+			'''
+			ダラスを召喚
+			[c/35825b:スプライト: Ducky Ninja 提供]
+			'''
+	}
+}
+
+Projectiles: {
+	SpamtonProjectile: {
+		DisplayName: スパムトン
+	}
+
+	TheKnightProjectile: {
+		DisplayName: ザ・ナイト
+	}
+
+	DartMonkeyProjectile: {
+		DisplayName: ダートモンキー
+	}
+
+	LumaflyTheKnightProjectile: {
+		DisplayName: ザ・ナイト
+	}
+
+	ClippyProjectile: {
+		DisplayName: クリッピー
+	}
+
+	IsaacProjectile: {
+		DisplayName: アイザック
+	}
+
+	SansProjectile: {
+		DisplayName: サンズ
+	}
+
+	PapyrusProjectile: {
+		DisplayName: パピルス
+	}
+
+	ReimuProjectile: {
+		DisplayName: 霊夢
+	}
+
+	MarisaProjectile: {
+		DisplayName: 魔理沙
+	}
+
+	YukariProjectile: {
+		DisplayName: 紫
+	}
+
+	HornetProjectile: {
+		DisplayName: ホーネット
+	}
+
+	RedCrewmateProjectile: {
+		DisplayName: 赤いクルーメイト
+	}
+
+	ShovelKnightProjectile: {
+		DisplayName: ショベルナイト
+	}
+
+	EeveeProjectile: {
+		DisplayName: イーブイ
+	}
+
+	TalkingFlowerProjectile: {
+		DisplayName: 喋る花
+	}
+
+	MetalGearRexProjectile: {
+		DisplayName: メタルギアREX
+	}
+
+	MimikyuProjectile: {
+		DisplayName: ミミッキュ
+	}
+
+	BlackKnightProjectile: {
+		DisplayName: 黒騎士
+	}
+
+	SunnyProjectile: {
+		DisplayName: サニー
+	}
+
+	NecoArcProjectile: {
+		DisplayName: ネコアルク
+	}
+
+	BasilProjectile: {
+		DisplayName: バジル
+	}
+
+	CirnoProjectile: {
+		DisplayName: チルノ
+	}
+
+	MewProjectile: {
+		DisplayName: ミュウ
+	}
+
+	FloweyProjectile: {
+		DisplayName: フラウィー
+	}
+
+	NikoProjectile: {
+		DisplayName: ニコ
+	}
+
+	PochitaProjectile: {
+		DisplayName: ポチタ
+	}
+
+	PomniProjectile: {
+		DisplayName: ポムニ
+	}
+
+	DogmeatProjectile: {
+		DisplayName: ドッグミート
+	}
+
+	YesManProjectile: {
+		DisplayName: イエスマン
+	}
+
+	ToadProjectile: {
+		DisplayName: キノピオ
+	}
+
+	MollyProjectile: {
+		DisplayName: モリー
+	}
+
+	MeatBoyProjectile: {
+		DisplayName: ミートボーイ
+	}
+
+	SonicProjectile: {
+		DisplayName: ソニック
+	}
+
+	SuperSonicProjectile: {
+		DisplayName: スーパーソニック
+	}
+
+	PikachuProjectile: {
+		DisplayName: ピカチュウ
+	}
+
+	WerehogProjectile: {
+		DisplayName: ウェアホッグ
+	}
+
+	LittleChocoboProjectile: {
+		DisplayName: ちいさなチョコボ
+	}
+
+	PussInBootsProjectile: {
+		DisplayName: 長ぐつをはいたネコ
+	}
+
+	JevilProjectile: {
+		DisplayName: ジェビル
+	}
+
+	GeometryDashCubeProjectile: {
+		DisplayName: ジオメトリーダッシュのキューブ
+	}
+
+	SpamtonNEOProjectile: {
+		DisplayName: スパムトンNEO
+	}
+
+	DimentioProjectile: {
+		DisplayName: ディメーン
+	}
+
+	SlugcatProjectile: {
+		DisplayName: スラグキャット
+	}
+
+	UziProjectile: {
+		DisplayName: ウージー
+	}
+
+	BulletKinProjectile: {
+		DisplayName: バレットキン
+	}
+
+	KnucklesProjectile: {
+		DisplayName: ナックルズ
+	}
+
+	TailsProjectile: {
+		DisplayName: テイルス
+	}
+
+	NoobProjectile: {
+		DisplayName: ニュービー
+	}
+
+	AzazelProjectile: {
+		DisplayName: アザゼル
+	}
+
+	CaptainToadProjectile: {
+		DisplayName: キノピオ隊長
+	}
+
+	LambProjectile: {
+		DisplayName: 羊
+	}
+
+	MurkrowProjectile: {
+		DisplayName: ヤミカラス
+	}
+
+	HelpyProjectile: {
+		DisplayName: ヘルピー
+	}
+
+	DallasProjectile: {
+		DisplayName: ダラス
+	}
+
+	FakePetProjectile: {
+		DisplayName: フェイクペット弾
+	}
+}
+

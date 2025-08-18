@@ -1,0 +1,198 @@
+Common: {
+	AutosmeltPenalty: 精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+	AutosmeltNoPenalty: すべての鉱石を精錬する！
+	Prospector: 特定のタイルから鉱物を発掘する可能性がある
+}
+
+Items: {
+	BlazingMoltenPickaxe: {
+		DisplayName: 燃え盛る溶岩のつるはし
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「熱を感じろ！」
+			'''
+	}
+
+	AvaliManipulator: {
+		DisplayName: ハードライト・マニピュレーター
+		Tooltip:
+			'''
+			ピッケルと斧の能力が、あなたが持つ他のツールに応じて変化する
+			選択中に<right>でビームアックスモードに切り替え、5x5の範囲でタイルを採掘できる
+			スマートカーソル使用時は採掘範囲が3x3に縮小され、より細かい制御が可能
+			「この世界にはない高度な技術で作られた、改良型のマターマニピュレーター」
+			'''
+	}
+
+	VioletThaumaturgy: {
+		DisplayName: バイオレット・サマタジー
+		Tooltip:
+			'''
+			ピッケルの能力が、あなたが持つ他のツールに応じて変化する
+			すべての鉱石を精錬する！
+			「月光に浴して…」
+			'''
+	}
+
+	DraconicStaffOfPower: {
+		DisplayName: エンド・ミーンズ
+		Tooltip:
+			'''
+			すべての鉱石を精錬する！
+			特定のタイルから鉱物を発掘する可能性がある
+			「かつて古代のドラゴンスレイヤーが振るった、どこか懐かしいツール」
+			'''
+	}
+
+	EnchantedPickaxe: {
+		DisplayName: エンチャントピッケル
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「耐久性の高い合金で作られた、邪悪を封じるピッケルのレプリカ」
+			'''
+	}
+
+	GracefulChlorophytePickaxe: {
+		DisplayName: 優雅なクロロファイトのつるはし
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「すべてのバラには棘がある」
+			'''
+	}
+
+	IndustrialReforgeKit: {
+		DisplayName: 工業リフォージキット
+		Tooltip:
+			'''
+			カーソル上の標準つるはしを<right>で工業化する！
+			[c/ff0000:現在は機能していません]
+			'''
+	}
+
+	LihzahrdianPicksaw: {
+		DisplayName: リザードのピックソー
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「リザード族の伝説の遺物」
+			'''
+	}
+
+	LunaticsCelestialPick: {
+		DisplayName: 狂気的な宇宙のつるはし
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「これを斧だと思うなんて、正気の沙汰じゃない」
+			'''
+	}
+
+	EclipsiumAlloy: {
+		DisplayName: エクリプシウム合金
+		Tooltip: 「計り知れない可能性を秘めて輝く」
+	}
+
+	PrototypeNanoPickaxe: {
+		DisplayName: プロトタイプナノピッケル
+		Tooltip:
+			'''
+			ブラックハードスラッジを採掘できる
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「サイバーテックで強化されている」
+			'''
+	}
+
+	SoulSeeker: {
+		DisplayName: ソウルシーカー
+		Tooltip:
+			'''
+			特定のタイルから鉱物を発掘する可能性がある
+			アップグレードで採掘力をさらに強化できる
+			「忘れ去られた砂漠の王国に由来する独特なピッケル」
+			'''
+	}
+
+	SoulSeekerS: {
+		DisplayName: ソウルシーカー+
+		Tooltip:
+			'''
+			特定のタイルから鉱物を発掘する可能性がある
+			アップグレードで採掘力をさらに強化できる
+			「硬化した金属がその潜在能力を高めている」
+			'''
+	}
+
+	SoulSeekerSS: {
+		DisplayName: ソウルシーカー++
+		Tooltip:
+			'''
+			特定のタイルから鉱物を発掘する可能性がある
+			もう一度アップグレードすれば最終形態になる
+			「完璧まであと一歩だが、このままでも十分に素晴らしい道具だ」
+			'''
+	}
+
+	SteampunkExcavator: {
+		DisplayName: スチームパンクの掘削機
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「まだテスト中だ…」
+			'''
+	}
+
+	StellarHorizon: {
+		DisplayName: ステラーホライゾン
+		Tooltip:
+			'''
+			すべての鉱石を精錬する！
+			特定のタイルから鉱物を発掘する可能性がある
+			「困難を越え、星々へ」
+			'''
+	}
+
+	cBlossomPickaxe: {
+		DisplayName: 淡緑色の花のつるはし
+		Tooltip:
+			'''
+			精密な打撃で鉱石からインゴットを精錬するが、その分遅い
+			「母なる自然の祝福そのもの」
+			'''
+	}
+}
+
+Prefixes: {
+	IndustrialPrefix: {
+		DisplayName: 工業用の
+	}
+}
+
+Projectiles: {
+	ACDE: {
+		DisplayName: ハードライトマニピュレーター
+	}
+
+	DrillBeam: {
+		DisplayName: ハードライトビーム
+	}
+}
+
+Configs: {
+	IndustrialConfig: {
+		DisplayName: 設定
+
+		EnableGlowmasks: {
+			Label: 発光マスクの有効化
+			Tooltip:
+				'''
+				ピッケル使用時に発光マスクを表示する。
+				ワールドにドロップされた場合の発光マスクには影響しない。
+				このMODの発光マスクが他のMODと競合する場合、これを無効にしてください。
+				無効にするとステラーホライゾンの見た目が少し地味になる。
+				'''
+		}
+	}
+}

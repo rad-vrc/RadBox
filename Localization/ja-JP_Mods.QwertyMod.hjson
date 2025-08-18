@@ -1,0 +1,2567 @@
+{
+	RhuthiniumGeneration: "ルティミスがあなたの世界にルティニウムを祝福した！"
+	WorldgenLuneOre: "宇宙に鉱石を配置中！"
+	WorldgenSkyFortress: "空を要塞化中！"
+	CommandDescriptionRhuthiniumScan: "世界中のルティニウムをスキャンする"
+	CommandDescriptionRhuthiniumGen: "あなたの世界に生成されるルティニウム鉱石を追加する"
+	CommandDescriptionDungeonLoot: "ダンジョンの戦利品を追加する"
+	CommandDescriptionLuneGen: "天空の島にルナ鉱石を追加する"
+	CommandDescriptionCreateFrozenDen: "地下ツンドラに巣を作り、そこにポーラー・エクスターミネーターを配置する"
+	CommandDescriptionFortressGen: "空の広大なエリアをクリアし、天空の要塞を建設する"
+	RhuthiniumScanFailure: "ルティニウムが見つからなかった、何かがおかしい"
+	RhuthiniumScanNoSkeletron: "スケルトロンを倒していないため、予想通りルティニウムは見つからなかった"
+	RhuthiniumScanSuccess: "この世界でルティニウムが見つかった、探し続けよう！"
+	FortressInvasion: "天空の要塞が侵略されている！"
+	FortressBanished: "侵略者は天空の要塞から追放された！"
+	CustomTooltipBindKey: "操作設定へ行き、「もう一つの特殊能力キー」を割り当ててください"
+	CustomTooltipSheathStart: "10,000ダメージを与えた後、「"
+	CustomTooltipSheathEnd: "」キーでインペリウスを短時間召喚して戦わせることができる"
+	CustomTooltipWhetDamage: "の魔法ダメージ"
+	CustomTooltipWhetCrit: "%のクリティカルヒットチャンス"
+	CustomTooltipBloodCostStart: "生命力を"
+	CustomTooltipBloodCostEnd: "消費する！"
+	CustomTooltipCKB: "カスタムノックバック"
+	CustomTooltipAbsNKB: "ノックバックが全くない"
+	CustomTooltipMorphCooldown: "秒のクールダウン"
+	Biomes: {
+		FortressBiome: {
+			DisplayName: "要塞バイオーム"
+			TownNPCDialogueName: "要塞バイオーム"
+		}
+	}
+	Buffs: {
+		CameraIssues: {
+			DisplayName: "カメラの問題"
+			Description: "申し訳ないとは思っていない…"
+		}
+		CriticalFailure: {
+			DisplayName: "クリティカル失敗"
+			Description: "クリティカルヒットチャンスが40%減少"
+		}
+		Darkness: {
+			DisplayName: "暗闇"
+			Description: "こうなることは分かっていたはずだ…"
+		}
+		DinoPox: {
+			DisplayName: "恐竜痘"
+			Description: "恐竜を殺すのに十分なほどの致死性"
+		}
+		GravityFlipped: {
+			DisplayName: "反転重力"
+			Description: "ニュートンも激怒"
+		}
+		HealingHalt: {
+			DisplayName: "回復停止"
+			Description: "生命力を回復できず、ポーション酔いも治せない"
+		}
+		Impaled: {
+			DisplayName: "串刺し"
+			Description: "痛い！"
+		}
+		LuneCurse: {
+			DisplayName: "月のクールダウン"
+			Description: "まだ別の月を撃てない！"
+		}
+		NormalGravity: {
+			DisplayName: "通常重力"
+			Description: "高高度による重力低下を防ぐ"
+		}
+		Overrdrive: {
+			DisplayName: "オーバードライブ"
+			Description: "ルォォォァァァ！"
+		}
+		OverrdriveCooldown: {
+			DisplayName: "オーバードライブクールダウン"
+			Description: "あなたと他の人々の安全のため、現時点ではオーバードライブの使用を許可できない"
+		}
+		PeriodicConfusion: {
+			DisplayName: "周期的混乱"
+			Description: "時々操作が反転する…"
+		}
+		PowerDown: {
+			DisplayName: "カエライトの憤怒"
+			Description: "与えるダメージが20%減少する！"
+		}
+		Stunned: {
+			DisplayName: "スタン"
+			Description: "これが読めるなら、あなたはハッキングしている！"
+		}
+		CaeliteImbune: {
+			DisplayName: "武器エンチャント: カエライトの憤怒"
+			Description: "近接攻撃が敵の与えるダメージを減少させる"
+		}
+		ImperialCourage: {
+			DisplayName: "インペリアル・カレッジ"
+			Description: "クリティカルヒットチャンスが20%増加"
+		}
+		ArcanelyTuned: {
+			DisplayName: "アーケイン・チューン"
+			Description: "これが読めるなら、あなたはハッキングしている！"
+		}
+		MoonCooldown: {
+			DisplayName: "月のクールダウン"
+			Description: "まだ別の月を撃てない！"
+		}
+		RhuthiniumFocus: {
+			DisplayName: "ルティニウム・フォーカス"
+			Description: "遠距離ダメージが10%増加"
+		}
+		RhuthiniumMagic: {
+			DisplayName: "ルティニウム・マジック"
+			Description: "魔法ダメージが10%増加"
+		}
+		RhuthiniumMight: {
+			DisplayName: "ルティニウム・バーサーク"
+			Description: "近接ダメージと最大移動速度が20%増加"
+		}
+		SpiritCallCooldown: {
+			DisplayName: "スピリットコール・クールダウン"
+			Description: "戦いの魂も休息が必要だ"
+		}
+		LightlingBuff: {
+			DisplayName: "ライトリング"
+			Description: "光を放つ"
+		}
+		CatalystBuff: {
+			DisplayName: "カタリスト"
+			Description: "なぜこれを読んでいる、さあ、殺しに行け"
+		}
+		AntiProjectile: {
+			DisplayName: "対投射物"
+			Description: "どういうわけか、彼らは決してあなたに当てることができない！"
+		}
+		AncientMinionB: {
+			DisplayName: "エンシェントミニオン"
+			Description: "エンシェントミニオンがあなたのために戦う！"
+		}
+		ChlorophyteSniperB: {
+			DisplayName: "クロロファイトスナイパー"
+			Description: "クロロファイトスナイパーがあなたのために戦う！"
+		}
+		GlassSpikeB: {
+			DisplayName: "ガラスの棘"
+			Description: "レゴを踏むよりずっとひどい！"
+		}
+		HydraHeadB: {
+			DisplayName: "ヒュドラの頭"
+			Description: "ヒュドラの頭があなたの火力を支援する！"
+		}
+		InvaderCasterB: {
+			DisplayName: "インベーダーキャスター"
+			Description: "インベーダーキャスターがあなたのために戦う！"
+		}
+		RunicMinionB: {
+			DisplayName: "リーチルーン"
+			Description: "リーチルーンがあなたのために戦う！"
+		}
+		SwordMinionBuff: {
+			DisplayName: "ソードミニオン"
+			Description: "戦力増強の体現"
+		}
+		LuneArcherB: {
+			DisplayName: "ルナアーチャー"
+			Description: "敵の膝を射抜く！"
+		}
+		MechCrossbowB: {
+			DisplayName: "メカクロスボウ"
+			Description: "敵の膝を射抜く！"
+		}
+		MiniTankB: {
+			DisplayName: "ミニタンク"
+			Description: "軍隊を築け…誰も信じるな！"
+		}
+		PriestMinionB: {
+			DisplayName: "プリーストミニオン"
+			Description: "高次の存在があなたのために戦う！"
+		}
+		ShieldMinionB: {
+			DisplayName: "シールドミニオン"
+			Description: "自分だけのファランクスを手に入れた！"
+		}
+		SpaceFighterB: {
+			DisplayName: "スペースファイター"
+			Description: "速報！あなたは宇宙にいる！"
+		}
+		TileMinionB: {
+			DisplayName: "タイルミニオン"
+			Description: "上上下下左右左右…"
+		}
+		UrQuanB: {
+			DisplayName: "アー＝クァン・ドレッドノート"
+			Description: "服従か死か、愚かな人間よ！"
+		}
+		MorphCooldown: {
+			DisplayName: "クイックモーフ・クールダウン"
+			Description: "別のクイックモーフはまだ使えない！"
+		}
+		DisciplineTag: {
+			DisplayName: "ディシプリン"
+			Description: "ミニオンの攻撃が速くなる"
+		}
+		ForkTag: {
+			DisplayName: "ミサイル発射"
+			Description: "ミニオンがミサイルを発射させる"
+		}
+		HigherPriestMinionB: {
+			DisplayName: "ハイアープリーストミニオン"
+			Description: "高次の存在があなたのために戦う！"
+		}
+		DVRB: {
+			DisplayName: "次元侵犯レールガン"
+			Description: "愚かな神々は自分たちのポケット次元で安全だと思っている"
+		}
+		Hitstun: {
+			Description: "Mods.QwertyMod.Buffs.Hitstun.Description"
+			DisplayName: "ヒットスタン"
+		}
+	}
+	Projectiles: {
+		DarknessBorder: {
+			DisplayName: "暗闇の境界"
+		}
+		AdamantiteArrowP: {
+			DisplayName: "アダマンタイトの矢"
+		}
+		CobaltArrowP: {
+			DisplayName: "コバルトの矢"
+		}
+		GunArrowP: {
+			DisplayName: "ガンの矢"
+		}
+		HydraArrowP: {
+			DisplayName: "ヒュドラの矢"
+		}
+		MythrilArrowP: {
+			DisplayName: "ミスリルの矢"
+		}
+		RhuthiniumArrowP: {
+			DisplayName: "ルティニウムの矢"
+		}
+		CaeliteBulletP: {
+			DisplayName: "カエライトの弾丸"
+		}
+		OrichalcumBulletP: {
+			DisplayName: "オリハルコンの弾丸"
+		}
+		PalladiumBulletP: {
+			DisplayName: "パラジウムの弾丸"
+		}
+		TitaniumBulletP: {
+			DisplayName: "チタンの弾丸"
+		}
+		DartSphere: {
+			DisplayName: "スフィア"
+		}
+		FriendlyInvaderZap: {
+			DisplayName: "友好的なインベーダーザップ"
+		}
+		InvaderDartP: {
+			DisplayName: "インベーダーダート"
+		}
+		NanoDartP: {
+			DisplayName: "ナノダート"
+		}
+		Nanoprobe: {
+			DisplayName: "ナノプローブ"
+		}
+		DartBeam: {
+			DisplayName: "ルティニウムダート"
+		}
+		RhuthiniumDartP: {
+			DisplayName: "ルティニウムダート"
+		}
+		VenomCloud: {
+			DisplayName: "ヴェノムクラウド"
+		}
+		VenomDartP: {
+			DisplayName: "ヴェノムダート"
+		}
+		FortressTrapP: {
+			DisplayName: "カエライトパルス"
+		}
+		ReverseSandBall: {
+			DisplayName: "逆サンドボール"
+		}
+		ImperiousP: {
+			DisplayName: "インペリウス"
+		}
+		SlidingPenguinGeneric: {
+			DisplayName: "スライディングペンギン"
+		}
+		AggroRuneFriendly: {
+			DisplayName: "友好的なアグロルーン"
+		}
+		AggroStrikeFriendly: {
+			DisplayName: "友好的なアグロストライク"
+		}
+		IceRuneFreindly: {
+			DisplayName: "友好的なアイスルーン"
+		}
+		LeechRuneFreindly: {
+			DisplayName: "友好的なリーチルーン"
+		}
+		PursuitRuneFreindly: {
+			DisplayName: "友好的な追跡ルーン"
+		}
+		ArmCannonLaser: {
+			DisplayName: "アームキャノンレーザー"
+		}
+		GaleKnife: {
+			DisplayName: "ゲイルナイフ"
+		}
+		PrismDazzle: {
+			DisplayName: "プリズムダズル"
+		}
+		MoonTarget: {
+			DisplayName: "月の標的"
+		}
+		RhuthimisWraith: {
+			DisplayName: "ルティミスの亡霊"
+		}
+		LaunchingHookP: {
+			DisplayName: "発射フック"
+		}
+		LightlingP: {
+			DisplayName: "ライトリング"
+		}
+		HydraBobber: {
+			DisplayName: "ヒュドラの浮き"
+		}
+		HydrillP: {
+			DisplayName: "ハイドリル"
+		}
+		AncientBlastFriendly: {
+			DisplayName: "エンシェントブラスト"
+		}
+		AncientMissileP: {
+			DisplayName: "エンシェントミサイル"
+		}
+		AncientWaveP: {
+			DisplayName: "エンシェントウェイブ"
+		}
+		BlackHolePlayer: {
+			DisplayName: "ブラックホール"
+		}
+		CatalystExplosion: {
+			DisplayName: "爆発"
+		}
+		EnlightenedConfusionP: {
+			DisplayName: "聖なる眩暈"
+		}
+		MosquittoF: {
+			DisplayName: "蚊"
+		}
+		SnowFlakeF: {
+			DisplayName: "雪の結晶"
+		}
+		BeamHead: {
+			DisplayName: "ビームヘッド"
+		}
+		HeadBeam: {
+			DisplayName: "ヒュドラビーム"
+		}
+		HydraMissileBig: {
+			DisplayName: "ヒュドラミサイル大"
+		}
+		HydraMissileMedium: {
+			DisplayName: "ヒュドラミサイル中"
+		}
+		HydraMissileSmall: {
+			DisplayName: "ヒュドラミサイル小"
+		}
+		LuneCrest: {
+			DisplayName: "ルナの紋章"
+		}
+		PenguinFall: {
+			DisplayName: "ペンギンフォール"
+		}
+		EPexplosion: {
+			DisplayName: "プラズマ"
+		}
+		EPShot: {
+			DisplayName: "プラズマ"
+		}
+		PursuitRuneBlast: {
+			DisplayName: "ルーンブラスト"
+		}
+		PursuitRuneMissile: {
+			DisplayName: "追跡ルーンミサイル"
+		}
+		CaeliteMagicProjectile: {
+			DisplayName: "レストレス・サン"
+		}
+		RhuthiniumBolt: {
+			DisplayName: "ルティニウムボルト"
+		}
+		RhuthiniumVaporizerP: {
+			DisplayName: "ルティニウム・ヴェポライザー"
+		}
+		IceRuneTome: {
+			DisplayName: "アイスルーンの書"
+		}
+		RunicWaveP: {
+			DisplayName: "ルーンウェイブ"
+		}
+		SacredDazeP: {
+			DisplayName: "聖なる眩暈"
+		}
+		SwordDrop: {
+			DisplayName: "ソードドロップ"
+		}
+		CaeliteBoomerangP: {
+			DisplayName: "カエライトブーメラン"
+		}
+		LuneBoomerangP: {
+			DisplayName: "ルナブーメラン"
+		}
+		RhuthiniumBoomerangP: {
+			DisplayName: "ルティニウムブーメラン"
+		}
+		AnkylosaurusTail: {
+			DisplayName: "アンキロサウルスの尾"
+		}
+		HydraJavelinP: {
+			DisplayName: "ヒュドラジャベリン"
+		}
+		ImperiumP: {
+			DisplayName: "インペリウム"
+		}
+		RhuthiniumJavelinP: {
+			DisplayName: "ルティニウムジャベリン"
+		}
+		CaeliteRainKnifeP: {
+			DisplayName: "カエライトレインナイフ"
+		}
+		HydrentBreath: {
+			DisplayName: "ハイドレントブレス"
+		}
+		HydrentP: {
+			DisplayName: "ファイヤーハイドレント"
+		}
+		HydrospearP: {
+			DisplayName: "ハイドロスピア"
+		}
+		HydrospearStream: {
+			DisplayName: "ハイドロスピアストリーム"
+		}
+		AncientOrb: {
+			DisplayName: "エンシェントオーブ"
+		}
+		ImperiousTheV: {
+			DisplayName: "インペリウス・ザ・V"
+		}
+		MiniIceRune: {
+			DisplayName: "ミニアイスルーン"
+		}
+		SlidingPenguinMelee: {
+			DisplayName: "スライディングペンギン"
+		}
+		CycloneP: {
+			DisplayName: "サイクロン"
+		}
+		LuneTopP: {
+			DisplayName: "ルナトップ"
+		}
+		AncientThrowP: {
+			DisplayName: "エンシェントスロー"
+		}
+		ArachnoyoP: {
+			DisplayName: "アラクノヨー"
+		}
+		SpiderCounterweight: {
+			DisplayName: "スパイダーカウンターウェイト"
+		}
+		ArsenalP: {
+			DisplayName: "アーセナル"
+		}
+		ArsenalSword: {
+			DisplayName: "アーセナルソード"
+		}
+		RunicThrowP: {
+			DisplayName: "ルーニックスロー"
+		}
+		AncientMinionFreindly: {
+			DisplayName: "エンシェントミニオン"
+		}
+		ChlorophyteSnipe: {
+			DisplayName: "クロロファイトスナイプ"
+		}
+		ChlorophyteSniper: {
+			DisplayName: "クロロファイトスナイパー"
+		}
+		GlassSpike: {
+			DisplayName: "ガラスの棘"
+		}
+		MinionBreath: {
+			DisplayName: "ミニオンブレス"
+		}
+		MinionHead: {
+			DisplayName: "ヒュドラの頭"
+		}
+		InvaderCasterMinion: {
+			DisplayName: "インベーダーキャスター"
+		}
+		MinionInvaderZap: {
+			DisplayName: "ザップ"
+		}
+		MinionSphere: {
+			DisplayName: "スフィア"
+		}
+		RunicMinionFreindly: {
+			DisplayName: "リーチルーン"
+		}
+		SwordMinion: {
+			DisplayName: "ロングソード"
+		}
+		LuneArcher: {
+			DisplayName: "ルナアーチャー"
+		}
+		MechCrossbowMinion: {
+			DisplayName: "メカクロスボウ"
+		}
+		TaggingBolt: {
+			DisplayName: "タギングボルト"
+		}
+		MiniTank: {
+			DisplayName: "ミニタンク"
+		}
+		MiniTankBlast: {
+			DisplayName: "タンク！！"
+		}
+		MiniTankCannonBallFreindly: {
+			DisplayName: "タンク！！"
+		}
+		PriestMinion: {
+			DisplayName: "プリーストミニオン"
+		}
+		PriestPulse: {
+			DisplayName: "プリーストパルス"
+		}
+		ShieldMinion: {
+			DisplayName: "シールドミニオン"
+		}
+		FighterLaser: {
+			DisplayName: "ファイターレーザー"
+		}
+		SpaceFighter: {
+			DisplayName: "スペースファイター"
+		}
+		TileMinion: {
+			DisplayName: "タイルミニオン"
+		}
+		Dreadnought: {
+			DisplayName: "アー＝クァン・ドレッドノート"
+		}
+		Fighter: {
+			DisplayName: "ファイター"
+		}
+		Fusion: {
+			DisplayName: "フュージョンブラスト"
+		}
+		AncientFallout: {
+			DisplayName: "エンシェントフォールアウト"
+		}
+		AncientNukeMorph: {
+			DisplayName: "エンシェントニューク"
+		}
+		HydraBarrageBase: {
+			DisplayName: "ヒュドラバラージベース"
+		}
+		HydraBarrageBreath: {
+			DisplayName: "バラージブレス"
+		}
+		HydraBarrageHead: {
+			DisplayName: "ヒュドラバラージヘッド"
+		}
+		RhuthiniumBarrageDart: {
+			DisplayName: "ルティニウムバラージ"
+		}
+		RhuthiniumBarrageLauncher: {
+			DisplayName: "ルティニウムバラージランチャー"
+		}
+		RuneFallout: {
+			DisplayName: "ルーンフォールアウト"
+		}
+		RuneNukeMorph: {
+			DisplayName: "ルーンニューク"
+		}
+		SwordlagmitePlayer: {
+			DisplayName: "ソードラマイト"
+		}
+		SwordquakeP: {
+			DisplayName: "ソードクエイク"
+		}
+		AncientArrow: {
+			DisplayName: "エンシェントアロー"
+		}
+		AncientLongbowP: {
+			DisplayName: "エンシェントロングボウ"
+		}
+		ArrowPortal: {
+			DisplayName: "アローポータル"
+		}
+		RuneArrow: {
+			DisplayName: "ルーンアロー"
+		}
+		RuneLongbowP: {
+			DisplayName: "ルーンロングボウ"
+		}
+		CaeliteDart: {
+			DisplayName: "カエライトダート"
+		}
+		ShotgunMinion: {
+			DisplayName: "ショットガンミニオン"
+		}
+		DinoVulcanP: {
+			DisplayName: "ディノバルカン"
+		}
+		Shell: {
+			DisplayName: "シェル"
+		}
+		DoomBreath: {
+			DisplayName: "ドゥームブレス"
+		}
+		Trickshot: {
+			DisplayName: "トリックショット"
+		}
+		SlidingPenguinRanged: {
+			DisplayName: "スライディングペンギン"
+		}
+		AqueousP: {
+			DisplayName: "アクエアス"
+		}
+		BladedArrowP: {
+			DisplayName: "ブレイデッドアロー"
+		}
+		AntiAirSentry: {
+			DisplayName: "対空セントリー"
+		}
+		SentryAntiAir: {
+			DisplayName: "対空ロケット"
+		}
+		AshFell: {
+			DisplayName: "アッシュフェル"
+		}
+		AshMissile: {
+			DisplayName: "アッシュミサイル"
+		}
+		BrewerBubble: {
+			DisplayName: "ブリューワーバブル"
+		}
+		BubbleBrewer: {
+			DisplayName: "バブルブリューワー"
+		}
+		RhuthiniumGuardian: {
+			DisplayName: "ルティニウムガーディアン"
+		}
+		RhuthiniumShard: {
+			DisplayName: "ルティニウムシャード"
+		}
+		RiptideP: {
+			DisplayName: "リップタイド"
+		}
+		RiptideStream: {
+			DisplayName: "リップタイドストリーム"
+		}
+		ShroomiteTurretBase: {
+			DisplayName: "シュルームタレットベース"
+		}
+		CaeliteSentry: {
+			DisplayName: "スカイバウンドスパイラル"
+		}
+		DisciplineP: {
+			DisplayName: "ディシプリン"
+		}
+		InvaderForkP: {
+			DisplayName: "インベーダーフォーク"
+		}
+		TagMissile: {
+			DisplayName: "タグミサイル"
+		}
+		AncientBlast: {
+			DisplayName: "エンシェントブラスト"
+		}
+		AncientEnergy: {
+			DisplayName: "エンシェントエネルギー"
+		}
+		AncientMissile: {
+			DisplayName: "エンシェントミサイル"
+		}
+		PhantomBlade: {
+			DisplayName: "ファントムブレード"
+		}
+		Swordlacmite: {
+			DisplayName: "ソードラマイト"
+		}
+		Swordpocalypse: {
+			DisplayName: "ソードポカリプス"
+		}
+		Cloak: {
+			DisplayName: "クローク"
+		}
+		EtimsicCannon: {
+			DisplayName: "ヘブンレイダーキャノン"
+		}
+		EtimsicRay: {
+			DisplayName: "エティムシックレイ"
+		}
+		EtimsicWall: {
+			DisplayName: "エティムシックバリア"
+		}
+		Warning: {
+			DisplayName: "警告"
+		}
+		BarrierSpread: {
+			DisplayName: "バリアスプレッド"
+		}
+		CaeliteSaw: {
+			DisplayName: "カエライトソウ"
+		}
+		Deflect: {
+			DisplayName: "スタティックバリア"
+		}
+		DivineBolt: {
+			DisplayName: "ディバインボルト"
+		}
+		HydraBeamT: {
+			DisplayName: "ヒュドラビーム"
+		}
+		HydraBreath: {
+			DisplayName: "ヒュドラブレス"
+		}
+		BattleshipMissile: {
+			DisplayName: "インベーダー戦艦ミサイル"
+		}
+		BattleshipShot: {
+			DisplayName: "インベーダー戦艦ショット"
+		}
+		InvaderRay: {
+			DisplayName: "インベーダー戦艦ショット"
+		}
+		SpellBeam: {
+			DisplayName: "インベーダー戦艦ビーム"
+		}
+		StrikeDroneBeam: {
+			DisplayName: "インベーダー戦艦ビーム"
+		}
+		BlackHole: {
+			DisplayName: "ブラックホール"
+		}
+		BlackHoleSeed: {
+			DisplayName: "ピューピュー"
+		}
+		BurstShot: {
+			DisplayName: "ピューピュー"
+		}
+		BurstShot2: {
+			DisplayName: "ピューピュー"
+		}
+		MagicMine: {
+			DisplayName: "マジックマイン"
+		}
+		MagicMineLayer: {
+			DisplayName: "マジックマイン"
+		}
+		MegaBurst: {
+			DisplayName: "ピューピュー"
+		}
+		SideLaser: {
+			DisplayName: "O.L.O.R.D.の壁"
+		}
+		SuperLaser2: {
+			DisplayName: "スーパーレーザー"
+		}
+		TurretGrav: {
+			DisplayName: "ピューピュー"
+		}
+		TurretLaser2: {
+			DisplayName: "タレットレーザー"
+		}
+		TurretShot: {
+			DisplayName: "ピューピュー"
+		}
+		AggroRune: {
+			DisplayName: "アグロルーン"
+		}
+		AggroStrike: {
+			DisplayName: "アグロストライク"
+		}
+		BigRune: {
+			DisplayName: "ビッグルーン"
+		}
+		IceRune: {
+			DisplayName: "アイスルーン"
+		}
+		LeechRune: {
+			DisplayName: "リーチルーン"
+		}
+		PursuitRune: {
+			DisplayName: "追跡ルーン"
+		}
+		AntiAirRocket: {
+			DisplayName: "対空ロケット"
+		}
+		DinoBomb: {
+			DisplayName: "ディノボム"
+		}
+		DinoBombExplosion: {
+			DisplayName: "ディノボム爆発"
+		}
+		MeteorFall: {
+			DisplayName: "メテオ"
+		}
+		MeteorLaunch: {
+			DisplayName: "メテオ"
+		}
+		SnowFlake: {
+			DisplayName: "スノーフレーク"
+		}
+		TankCannonBall: {
+			DisplayName: "トリケラタンクのキャノン"
+		}
+		TankCannonBallExplosion: {
+			DisplayName: "タンクキャノンボール爆発"
+		}
+		FortressHarpyProjectile: {
+			DisplayName: "要塞ハーピーの投射物"
+		}
+		MollusketSnipe: {
+			DisplayName: "モラスケットスナイプ"
+		}
+		RingCenter: {
+			DisplayName: "リングセンター"
+		}
+		RingOuter: {
+			DisplayName: "カエライトスフィア"
+		}
+		InvaderBeam: {
+			DisplayName: "インベーダーベヒモス"
+		}
+		InvaderFighterBlast: {
+			DisplayName: "インベーダーファイター"
+		}
+		InvaderMicroMissile: {
+			DisplayName: "インベーダーファイター"
+		}
+		InvaderSphere: {
+			DisplayName: "スフィア"
+		}
+		InvaderSwordHitbox: {
+			DisplayName: "インベーダーベヒモス"
+		}
+		InvaderZap: {
+			DisplayName: "インベーダーザップ"
+		}
+		MinionPoke: {
+			DisplayName: "ザップ"
+		}
+		Poke: {
+			DisplayName: "ポーク"
+		}
+		PokeMagic: {
+			DisplayName: "ポークマジック"
+		}
+		PokeMelee: {
+			DisplayName: "ポークメレー"
+		}
+		PokeRanged: {
+			DisplayName: "ポークレンジ"
+		}
+		PokeSummon: {
+			DisplayName: "ポークサモン"
+		}
+		FlybyBeam: {
+			DisplayName: "インベーダー戦艦ビーム"
+		}
+		InvaderExhaust: {
+			DisplayName: "インベーダーエキゾースト"
+		}
+		BattleshipDebris_BackWithGun: {
+			DisplayName: "戦艦の残骸"
+		}
+		BattleshipDebris_Engine: {
+			DisplayName: "戦艦の残骸"
+		}
+		BattleshipDebris_Launcher: {
+			DisplayName: "戦艦の残骸"
+		}
+		BattleshipDebris_Center: {
+			DisplayName: "戦艦の残骸"
+		}
+		BattleshipDebris_FrontWithGun: {
+			DisplayName: "戦艦の残骸"
+		}
+		ThrowShield: {
+			DisplayName: "スローシールド"
+		}
+		EtimsSphere: {
+			DisplayName: "エティムススフィア"
+		}
+		RailSphere: {
+			DisplayName: "レールスフィア"
+		}
+		Judgement: {
+			DisplayName: "ジャッジメント"
+		}
+		FinalJudgement: {
+			DisplayName: "ファイナルジャッジメント"
+		}
+		ShooterBeam: {
+			DisplayName: "シュータービーム"
+		}
+		Heresy: {
+			DisplayName: "インベーダーエリート"
+		}
+		SpinSpearHitbox: {
+			DisplayName: "インベーダーエリート"
+		}
+		HigherPriestMinion: {
+			DisplayName: "ハイアープリーストミニオン"
+		}
+		HigherPriestPulse: {
+			DisplayName: "ハイアープリーストパルス"
+		}
+		SkyDisintigrator: {
+			DisplayName: "スカイ・ディスインテグレーター"
+		}
+		SeraphimPredatorP: {
+			DisplayName: "セラフィムプレデター"
+		}
+		BlessedMonsoonKnifeP: {
+			DisplayName: "ブレスドモンスーンナイフ"
+		}
+		LargeHydraBreath: {
+			DisplayName: "ラージヒュドラブレス"
+		}
+		ChromeShotgunP: {
+			DisplayName: "クロームショットガン"
+		}
+		EtimsSwordP: {
+			DisplayName: "エティムスソード"
+		}
+		ImperiousTheIVAura: {
+			DisplayName: "インペリウス・ザ・IVオーラ"
+		}
+		DVR: {
+			DisplayName: "D V R"
+		}
+		FightKitP: {
+			DisplayName: "ファイトキット・クニ"
+		}
+		ThrowEtimsKuni: {
+			DisplayName: "エティムスクニ"
+		}
+	}
+	Items: {
+		B4ExpertItem: {
+			DisplayName: "ソウルロッド"
+			Tooltip: "使用するとカーソルに向かって移動する"
+		}
+		AdamantiteArrow: {
+			DisplayName: "アダマンタイトの矢"
+			Tooltip: "敵に痛烈な一撃を与える"
+		}
+		CobaltArrow: {
+			DisplayName: "コバルトの矢"
+			Tooltip: "右クリックするまで静止し、クリックするとカーソルに向かって飛んでいく"
+		}
+		GunArrow: {
+			DisplayName: "ガンの矢"
+			Tooltip: "飛行中に速度を落とし、40%のダメージを与える弾丸を最大4発発射する"
+		}
+		HydraArrow: {
+			DisplayName: "ヒュドラの矢"
+			Tooltip: "3本の矢に分裂する"
+		}
+		MythrilArrow: {
+			DisplayName: "ミスリルの矢"
+			Tooltip: "敵やブロックを貫通する、射程は短い"
+		}
+		RhuthiniumArrow: {
+			DisplayName: "ルティニウムの矢"
+			Tooltip: "敵が遠いほどダメージが増加する\n75タイル離れた場所で最大+50%のダメージ"
+		}
+		CaeliteBullet: {
+			DisplayName: "カエライトの弾丸"
+			Tooltip: "カエライトの憤怒を付与し、敵の与えるダメージを20%減少させる"
+		}
+		OrichalcumBullet: {
+			DisplayName: "オリハルコンの弾丸"
+			Tooltip: "敵に命中すると、別の敵に向かって飛んでいく"
+		}
+		PalladiumBullet: {
+			DisplayName: "パラジウムの弾丸"
+			Tooltip: "重い弾丸\n倒された敵は追加のハートをドロップする"
+		}
+		TitaniumBullet: {
+			DisplayName: "チタンの弾丸"
+			Tooltip: "発射されると静止するまで急速に減速する\n最大3回ヒット可能\nヒットするごとに40%のダメージを失う"
+		}
+		InvaderDart: {
+			DisplayName: "インベーダーダート"
+			Tooltip: "爆発して静電気の球になる"
+		}
+		NanoDart: {
+			DisplayName: "ナノダート"
+			Tooltip: "ホーミングナナイトのクラスターに分裂する\nナナイトは40%のダメージを与える"
+		}
+		RhuthiniumDart: {
+			DisplayName: "ルティニウムダート"
+			Tooltip: "あなたの周りを飛び回り、壊れる前に3本のビームを発射する"
+		}
+		VenomDart: {
+			DisplayName: "ヴェノムダート"
+			Tooltip: "敵を貫通し、命中した敵ごとにヴェノムクラウドを生成する\nヴェノムクラウドは50%のダメージを与え、静的耐性を持つ"
+		}
+		AncientMachineBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		B4Bag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		BladeBossBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		FortressBossBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		HydraBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		NoehtnapBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		RuneGhostBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		TundraBossBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		AncientEmblem: {
+			DisplayName: "エンシェントエンブレム"
+			Tooltip: "エンシェントマシンを召喚する"
+		}
+		B4Summon: {
+			DisplayName: "O.L.O.R.D.召喚"
+			Tooltip: "Oversized Laser-emitting Obliteration Radiation-emitting Destroyerを召喚する"
+		}
+		BladeBossSummon: {
+			DisplayName: "征服者のイコン"
+			Tooltip: "インペリウスを召喚する"
+		}
+		DinoEgg: {
+			DisplayName: "ディノエッグ"
+			Tooltip: "ディノ民兵を召喚する\n彼らは決して絶滅しなかった！"
+		}
+		FortressBossSummon: {
+			DisplayName: "天空神のペンダント"
+			Tooltip: "祭壇で使用できる"
+		}
+		HydraSummon: {
+			DisplayName: "ヒュドラの餌"
+			Tooltip: "ヒュドラを召喚する"
+		}
+		RitualInterupter: {
+			DisplayName: "儀式の妨害者"
+			Tooltip: "ノートナップを召喚する"
+		}
+		SummoningRune: {
+			DisplayName: "召喚のルーン"
+			Tooltip: "ルーンゴーストを召喚する"
+		}
+		CaeliteFlask: {
+			DisplayName: "カエライトの憤怒のフラスコ"
+			Tooltip: "近接攻撃がカエライトの憤怒を付与する"
+		}
+		AntiAirBanner: {
+			DisplayName: "対空砲の旗"
+			Tooltip: "近くのプレイヤーはディノ対空砲に対してボーナスを得る"
+		}
+		CasterBanner: {
+			DisplayName: "ハイプリーストの旗"
+			Tooltip: "近くのプレイヤーはハイプリーストに対してボーナスを得る"
+		}
+		CrawlerBanner: {
+			DisplayName: "モラスケットの旗"
+			Tooltip: "近くのプレイヤーはモラスケットに対してボーナスを得る"
+		}
+		FortressFlierBanner: {
+			DisplayName: "要塞ハーピーの旗"
+			Tooltip: "近くのプレイヤーは要塞ハーピーに対してボーナスを得る"
+		}
+		GuardTileBanner: {
+			DisplayName: "ガードタイルの旗"
+			Tooltip: "近くのプレイヤーはガードタイルに対してボーナスを得る"
+		}
+		HopperBanner: {
+			DisplayName: "エンチャントタイルの旗"
+			Tooltip: "近くのプレイヤーはエンチャントタイルに対してボーナスを得る"
+		}
+		SpectorBanner: {
+			DisplayName: "スニーキングゴーストの旗"
+			Tooltip: ""
+		}
+		SwarmerBanner: {
+			DisplayName: "要塞スウォーマーの旗"
+			Tooltip: "近くのプレイヤーは要塞スウォーマーに対してボーナスを得る"
+		}
+		TriceratankBanner: {
+			DisplayName: "トリケラタンクの旗"
+			Tooltip: "近くのプレイヤーはトリケラタンクに対してボーナスを得る"
+		}
+		UtahBanner: {
+			DisplayName: "ユタの旗"
+			Tooltip: "近くのプレイヤーはユタラプトルに対してボーナスを得る"
+		}
+		VelocichopperBanner: {
+			DisplayName: "ヴェロシチョッパーの旗"
+			Tooltip: "近くのプレイヤーはヴェロシチョッパーに対してボーナスを得る"
+		}
+		CaeliteBar: {
+			DisplayName: "カエライトインゴット"
+			Tooltip: ""
+		}
+		LuneBar: {
+			DisplayName: "ルナインゴット"
+			Tooltip: ""
+		}
+		RhuthiniumBar: {
+			DisplayName: "ルティニウムインゴット"
+			Tooltip: ""
+		}
+		ChiselledFortressBrick: {
+			DisplayName: "彫刻された要塞レンガ"
+			Tooltip: ""
+		}
+		FortressBrick: {
+			DisplayName: "要塞レンガ"
+			Tooltip: ""
+		}
+		FortressPillar: {
+			DisplayName: "要塞の柱"
+			Tooltip: ""
+		}
+		FortressPlatform: {
+			DisplayName: "要塞の足場"
+			Tooltip: ""
+		}
+		FortressWall: {
+			DisplayName: "要塞の壁"
+			Tooltip: ""
+		}
+		FortressCarving1: {
+			DisplayName: "要塞の彫刻"
+			Tooltip: ""
+		}
+		FortressCarving2: {
+			DisplayName: "要塞の彫刻"
+			Tooltip: ""
+		}
+		FortressCarving3: {
+			DisplayName: "要塞の彫刻"
+			Tooltip: ""
+		}
+		FortressBathtub: {
+			DisplayName: "要塞のバスタブ"
+			Tooltip: ""
+		}
+		FortressBed: {
+			DisplayName: "要塞のベッド"
+			Tooltip: ""
+		}
+		FortressBench: {
+			DisplayName: "要塞のベンチ"
+			Tooltip: ""
+		}
+		FortressBookcase: {
+			DisplayName: "要塞の本棚"
+			Tooltip: ""
+		}
+		FortressCandelabra: {
+			DisplayName: "要塞の燭台"
+			Tooltip: ""
+		}
+		FortressCandle: {
+			DisplayName: "要塞のろうそく"
+			Tooltip: ""
+		}
+		FortressChair: {
+			DisplayName: "要塞の椅子"
+			Tooltip: ""
+		}
+		FortressChandelier: {
+			DisplayName: "要塞のシャンデリア"
+			Tooltip: ""
+		}
+		FortressClock: {
+			DisplayName: "要塞の時計"
+			Tooltip: ""
+		}
+		FortressCouch: {
+			DisplayName: "要塞のソファ"
+			Tooltip: ""
+		}
+		FortressDoor: {
+			DisplayName: "要塞のドア"
+			Tooltip: ""
+		}
+		FortressLamp: {
+			DisplayName: "要塞のランプ"
+			Tooltip: ""
+		}
+		FortressLantern: {
+			DisplayName: "要塞のランタン"
+			Tooltip: ""
+		}
+		FortressPiano: {
+			DisplayName: "要塞のピアノ"
+			Tooltip: ""
+		}
+		FortressSink: {
+			DisplayName: "要塞のシンク"
+			Tooltip: ""
+		}
+		FortressTable: {
+			DisplayName: "要塞のテーブル"
+			Tooltip: ""
+		}
+		DnasBrick: {
+			DisplayName: "Dnasペイントの要塞レンガ"
+			Tooltip: "レンガの裏側はDnasで塗られている、頭をぶつけたらどうなるか知っているだろう…"
+		}
+		FakeFortressBrick: {
+			DisplayName: "エンチャントされた要塞レンガ"
+			Tooltip: "壊されたり、動力を供給されたりすると動き出す！"
+		}
+		FortressTrap: {
+			DisplayName: "カエライトパルストラップ"
+			Tooltip: "2つのパルスを発射する"
+		}
+		Launchpad: {
+			DisplayName: "発射台"
+			Tooltip: ""
+		}
+		ReverseSand: {
+			DisplayName: "Dnas"
+			Tooltip: "上に落ちる！"
+		}
+		MusicBoxBeastOfThreeHeads: {
+			DisplayName: "オルゴール（三つの頭の獣）"
+			Tooltip: ""
+		}
+		MusicBoxBladeOfAGod: {
+			DisplayName: "オルゴール（神の刃）"
+			Tooltip: ""
+		}
+		MusicBoxBuiltToDestroy: {
+			DisplayName: "オルゴール（破壊のために作られた）"
+			Tooltip: ""
+		}
+		MusicBoxEPIC: {
+			DisplayName: "オルゴール（活性化惑星焼却クライマックス）"
+			Tooltip: ""
+		}
+		MusicBoxHeavenlyFortress: {
+			DisplayName: "オルゴール（天国の要塞）"
+			Tooltip: ""
+		}
+		MusicBoxHigherBeing: {
+			DisplayName: "オルゴール（高次の存在）"
+			Tooltip: ""
+		}
+		MusicBoxOldDinosNewGuns: {
+			DisplayName: "オルゴール（古き恐竜、新しき銃）"
+			Tooltip: ""
+		}
+		MusicBoxTheConjurer: {
+			DisplayName: "オルゴール（奇術師）"
+			Tooltip: ""
+		}
+		MusicBoxTheGodsBleed: {
+			DisplayName: "オルゴール（神々の流血）"
+			Tooltip: ""
+		}
+		LuneOre: {
+			DisplayName: "ルナ鉱石"
+			Tooltip: "空高くで見つかる"
+		}
+		RhuthiniumOre: {
+			DisplayName: "ルティニウム鉱石"
+			Tooltip: ""
+		}
+		AncientMachineRelic: {
+			DisplayName: "エンシェントマシンのレリック"
+			Tooltip: ""
+		}
+		DivineLightRelic: {
+			DisplayName: "ディバインライトのレリック"
+			Tooltip: ""
+		}
+		HydraRelic: {
+			DisplayName: "ヒュドラのレリック"
+			Tooltip: ""
+		}
+		ImperiousRelic: {
+			DisplayName: "インペリウスのレリック"
+			Tooltip: ""
+		}
+		NoehtnapRelic: {
+			DisplayName: "ノートナップのレリック"
+			Tooltip: ""
+		}
+		OLORDRelic: {
+			DisplayName: "OLORDのレリック"
+			Tooltip: ""
+		}
+		PolarBearRelic: {
+			DisplayName: "ポーラー・エクスターミネーターのレリック"
+			Tooltip: ""
+		}
+		RuneGhostRelic: {
+			DisplayName: "ルーンゴーストのレリック"
+			Tooltip: ""
+		}
+		TyrantRelic: {
+			DisplayName: "偉大なるティラノサウルスのレリック"
+			Tooltip: ""
+		}
+		AncientMachineTrophy: {
+			DisplayName: "エンシェントマシンのトロフィー"
+			Tooltip: ""
+		}
+		BladeBossTrophy: {
+			DisplayName: "インペリウスのトロフィー"
+			Tooltip: ""
+		}
+		FortressBossTrophy: {
+			DisplayName: "ディバインライトのトロフィー"
+			Tooltip: ""
+		}
+		HydraTrophy: {
+			DisplayName: "ヒュドラのトロフィー"
+			Tooltip: ""
+		}
+		PolarTrophy: {
+			DisplayName: "ポーラー・エクスターミネーターのトロフィー"
+			Tooltip: ""
+		}
+		AmuletOfPatience: {
+			DisplayName: "忍耐のアミュレット"
+			Tooltip: "しばらくダメージを与えていない場合、より多くのダメージを与える"
+		}
+		ArcaneArmorBreaker: {
+			DisplayName: "アーケインアーマーブレイカー"
+			Tooltip: "魔法攻撃が防御力を10無視する"
+		}
+		Biomass: {
+			DisplayName: "バイオマス"
+			Tooltip: "弾薬のスタックはゆっくりとサイズが大きくなる\n成長率は価値の高い弾薬ほど低い\nスタックを分割しても成長率は増加しない"
+		}
+		BloodyMedalion: {
+			DisplayName: "血まみれのメダリオン"
+			Tooltip: "魔法ダメージを2倍にする\n通常マナを消費するものが、代わりにあなたを消耗させる！"
+		}
+		FieryWhetstone: {
+			DisplayName: "燃える砥石"
+			Tooltip: "近接攻撃が敵を燃やす\n近接攻撃は追加の魔法ダメージを与える\n魔法ダメージは武器の基本ダメージの30%で、魔法ボーナスによって修正される\n火に耐性のある敵は追加ダメージにも耐性がある"
+		}
+		GuardEmblem: {
+			DisplayName: "ガードエンブレム"
+			Tooltip: "ダメージ10%増加\n敵があなたを狙いやすくなる"
+		}
+		PhantomSphere: {
+			DisplayName: "ファントムスフィア"
+			Tooltip: "魔法攻撃が追加で2体の敵を貫通する\n通常は貫通しない投射物はローカル耐性を使用する\n魔法攻撃が防御力を15無視する\n魔法ダメージ10%減少\n同じターゲットに複数回ヒットした場合、追加の貫通は大幅にダメージが減少する"
+		}
+		DinoTooth: {
+			DisplayName: "ディノトゥース"
+			Tooltip: "装甲貫通力を18増加させる"
+		}
+		EnchantedWhetstone: {
+			DisplayName: "エンチャントされた砥石"
+			Tooltip: "近接攻撃が追加の魔法ダメージを与える\n魔法ダメージは武器の基本ダメージの20%で、魔法ボーナスによって修正される"
+		}
+		AncientGemstone: {
+			DisplayName: "エンシェントジェムストーン"
+			Tooltip: "クールダウン中でもクイックモーフを使用できるようになる…あなたの生命を代償に！"
+		}
+		Doppleganger: {
+			DisplayName: "ドッペルゲンガー"
+			Tooltip: "上に配置されたアクセサリーのふりをする\n神々は同じアクセサリーを2つ装備することを禁じている！\nこのような珍しいアーティファクトをいじることは推奨されない"
+		}
+		HyperRunestone: {
+			DisplayName: "ハイパールーンストーン"
+			Tooltip: "他のダッシュをより強力にするか、単独でダッシュを付与するために使用できる\nダッシュ中は無敵になる\nこの効果は4秒で再チャージが必要"
+		}
+		PenguinGenerator: {
+			DisplayName: "ペンギンジェネレーター"
+			Tooltip: "攻撃が10%の確率でペンギンを放出する"
+		}
+		ImperiousSheath: {
+			DisplayName: "インペリウスの鞘"
+			Tooltip: "10,000ダメージを与えた後、「特殊能力」キーでインペリウスを短時間召喚して戦わせることができる\n操作設定で変更可能"
+		}
+		GravityBeGone: {
+			DisplayName: "グラビティ・ビー・ゴーン"
+			Tooltip: "重力の影響を受けなくなる\n落下ダメージに対する耐性を付与する\n下がる方法は含まれていない"
+		}
+		LuneBracelet: {
+			DisplayName: "ルナブレスレット"
+			Tooltip: "弱いダッシュができ、他のダッシュをわずかに強化する"
+		}
+		RhuthiniumBracelet: {
+			DisplayName: "ルティニウムブレスレット"
+			Tooltip: "グラップリングフックの引き寄せ速度を増加させる"
+		}
+		AggroScroll: {
+			DisplayName: "アグロの巻物"
+			Tooltip: "アグロルーンが時々発射される"
+		}
+		IceScroll: {
+			DisplayName: "氷の巻物"
+			Tooltip: "2つのアイスルーンを召喚し、あなたの周りを周回させる"
+		}
+		LeechScroll: {
+			DisplayName: "リーチの巻物"
+			Tooltip: "遠距離攻撃が、あなたを回復できるリーチルーンを召喚することがある"
+		}
+		PursuitScroll: {
+			DisplayName: "追跡の巻物"
+			Tooltip: "ミニオンが時々追跡ルーンを撃つ"
+		}
+		SkywardHilt: {
+			DisplayName: "スカイワードヒルト"
+			Tooltip: "空中での剣のダメージが20%増加する"
+		}
+		SwordEnlarger: {
+			DisplayName: "ソードエンラージャー"
+			Tooltip: "剣のサイズを25%増加させる"
+		}
+		SwordmastersSeal: {
+			DisplayName: "剣聖の印"
+			Tooltip: "剣術のパフォーマンスを大幅に向上させる！\n剣が25%大きくなる\n空中で剣で攻撃するとダメージが20%増加する\n剣で攻撃するとクリティカルヒットチャンスが20%増加する"
+		}
+		SwordsmanBadge: {
+			DisplayName: "剣士のバッジ"
+			Tooltip: "剣で攻撃するとクリティカルヒットチャンスが20%増加する"
+		}
+		TheBlueSphere: {
+			DisplayName: "ザ・ブルースフィア"
+			Tooltip: "魔法攻撃が追加で2体の敵を貫通する\n通常は貫通しない投射物はローカル耐性を使用する\n魔法ダメージ10%減少\n同じターゲットに複数回ヒットした場合、追加の貫通はダメージが減少する"
+		}
+		Tricerashield: {
+			DisplayName: "トリケラシールド"
+			Tooltip: "敵にダッシュできるようになる\nノックバックに対する耐性を付与する"
+		}
+		BionicEye: {
+			DisplayName: "バイオニックアイ"
+			Tooltip: "モーフのクールダウンが30%減少\nクリティカルヒットチャンスが10%増加\n強化された視力を付与する"
+		}
+		BionicImplants: {
+			DisplayName: "バイオニックインプラント"
+			Tooltip: "モーフのクールダウンが30%減少\nあなたのオフハンドがレーザーキャノンに置き換わる！"
+		}
+		BionicLimbs: {
+			DisplayName: "バイオニックリム"
+			Tooltip: "モーフのクールダウンが30%減少\n水平方向の加速度を大幅に増加させる"
+		}
+		CaeliteArmor: {
+			DisplayName: "カエライトアーマー"
+			Tooltip: "空中の敵に対する魔法攻撃のダメージが20%増加する\n地上の敵に対する近接攻撃のダメージが20%増加する"
+		}
+		CaeliteGreaves: {
+			DisplayName: "カエライトの補強材"
+			Tooltip: "近接攻撃と魔法攻撃が回復ポーションのクールダウンを早める"
+		}
+		CaeliteHelm: {
+			DisplayName: "カエライトヘルム"
+			Tooltip: "近接攻撃または魔法攻撃で倒された敵は、より多くのお金をドロップする！"
+		}
+		GaleSwiftHelm: {
+			DisplayName: "ゲイルスウィフトヘルム"
+			Tooltip: "攻撃を回避する確率+6%\nクリティカルヒットチャンス+12%\n回避後、ダメージが大幅に増加"
+		}
+		GaleSwiftplate: {
+			DisplayName: "ゲイルスウィフトプレート"
+			Tooltip: "攻撃を回避する確率+10%\nクリティカルヒットチャンス+10%\n壁に張り付くことができる\n壁に張り付いている間、ダメージが20%増加"
+		}
+		GaleSwiftRobes: {
+			DisplayName: "ゲイルスウィフトローブ"
+			Tooltip: "攻撃を回避する確率+9%\nクリティカルヒットチャンス+8%"
+		}
+		GlassAbsorber: {
+			DisplayName: "グラスアブソーバー"
+			Tooltip: "弾薬を消費しない確率12%\nマナ消費量12%減少"
+		}
+		GlassHelm: {
+			DisplayName: "グラスヘッドセット"
+			Tooltip: "ガラスのプリズムがあなたの周りを周回し、敵を感電させる"
+		}
+		GlassLimbguards: {
+			DisplayName: "グラスリムガード"
+			Tooltip: "右に歩くと遠距離ダメージが12%増加\n左に歩くと魔法ダメージが12%増加"
+		}
+		HydraHelmet: {
+			DisplayName: "ヒュドラの顎"
+			Tooltip: "生命力回復率+0.5/秒\n召喚ダメージ+10%"
+		}
+		HydraLeggings: {
+			DisplayName: "ヒュドラの延長部"
+			Tooltip: "生命力回復率+0.5/秒\n召喚ダメージと移動速度+10%"
+		}
+		HydraScalemail: {
+			DisplayName: "ヒュドラのスケイルメイル"
+			Tooltip: "生命力回復率+0.5/秒\n最大ミニオン数+1"
+		}
+		InvaderLanders: {
+			DisplayName: "インベーダーランダー"
+			Tooltip: "ダメージ13%増加\n近接速度と移動速度15%増加\n落下ダメージに対する耐性を付与する"
+		}
+		InvaderPercepticals: {
+			DisplayName: "インベーダーパーセプティカル"
+			Tooltip: "ダメージとクリティカルヒットチャンス10%増加\n最大マナを80増加\nマナ消費量を15%減少"
+		}
+		InvaderProtector: {
+			DisplayName: "インベーダープロテクター"
+			Tooltip: "ダメージ12%増加\n弾薬を消費しない確率20%\n最大ミニオン数+1"
+		}
+		LuneCrestplate: {
+			DisplayName: "ルナの紋章板金"
+			Tooltip: "遠距離攻撃が追加の敵を貫通する\n通常は貫通しない投射物はローカル耐性を使用する"
+		}
+		LuneHat: {
+			DisplayName: "ルナハット"
+			Tooltip: "遠距離クリティカル率+8%\n視界を改善する"
+		}
+		LuneLeggings: {
+			DisplayName: "ルナランナー"
+			Tooltip: "移動速度10%増加\n遠距離クリティカル率8%増加"
+		}
+		RhuthiniumCap: {
+			DisplayName: "ルティニウムキャップ"
+			Tooltip: "遠距離クリティカルヒットチャンス10%増加\n弾薬を消費しない確率10%"
+		}
+		RhuthiniumChestplate: {
+			DisplayName: "ルティニウムチェストプレート"
+			Tooltip: "ダメージ8%増加"
+		}
+		RhuthiniumGreaves: {
+			DisplayName: "ルティニウムグリーヴ"
+			Tooltip: "ダッシュできるようになる"
+		}
+		RhuthiniumHat: {
+			DisplayName: "ルティニウムスカルプ"
+			Tooltip: "魔法クリティカルヒットチャンス10%増加\nマナ消費量10%減少"
+		}
+		RhuthiniumHeadband: {
+			DisplayName: "ルティニウムヘッドバンド"
+			Tooltip: "近接クリティカルヒットチャンス10%増加\n剣のサイズを10%増加させる"
+		}
+		RhuthiniumMask: {
+			DisplayName: "ルティニウムガイズ"
+			Tooltip: "最大ミニオン数+1\nクリティカルヒットチャンス5%増加"
+		}
+		ShamanBody: {
+			DisplayName: "シャーマンのウォープレート"
+			Tooltip: "最大ミニオン数+1\n近接速度14%増加"
+		}
+		ShamanHead: {
+			DisplayName: "シャーマンのスカル"
+			Tooltip: "ミニオンダメージと近接クリティカルヒットチャンス6%増加"
+		}
+		ShamanLegs: {
+			DisplayName: "シャーマンのパンツ"
+			Tooltip: "最大セントリー数+1"
+		}
+		VitallumCoreCharged: {
+			DisplayName: "バイタラムコア"
+			Tooltip: "充電済み、クラフト準備完了"
+		}
+		VitallumCoreUncharged: {
+			DisplayName: "バイタラムコア"
+			Tooltip: "未充電、敵を倒して充電する\n充電されるとクラフトに使用でき、充電は消費される"
+		}
+		VitallumHeadress: {
+			DisplayName: "バイタラムヘッドドレス"
+			Tooltip: "最大生命力を80増加\nダメージ7%増加\n近くの敵から生命力を吸収する"
+		}
+		VitallumJeans: {
+			DisplayName: "バイタラムジーンズ"
+			Tooltip: "最大生命力を100増加\nダメージ6%増加\n地上にいるとき、毎秒2の生命力を回復する"
+		}
+		VitallumLifeguard: {
+			DisplayName: "バイタラムライフガード"
+			Tooltip: "最大生命力を120増加\n失われた体力10ごとにダメージが1%増加する"
+		}
+		LaunchingHook: {
+			DisplayName: "発射フック"
+			Tooltip: ""
+		}
+		DivineLightMask: {
+			DisplayName: "ディバインライトマスク"
+			Tooltip: ""
+		}
+		PolarMask: {
+			DisplayName: "ポーラー・エクスターミネーターマスク"
+			Tooltip: ""
+		}
+		RuneGhostMask: {
+			DisplayName: "ルーンゴーストマスク"
+			Tooltip: ""
+		}
+		RunicRobe: {
+			DisplayName: "エンシェントルーニックローブ"
+			Tooltip: "これを覚えているか？"
+		}
+		ExpertChalice: {
+			DisplayName: "光の聖杯"
+			Tooltip: "再利用可能\n飲むと2秒間の無敵を得る"
+		}
+		BladedArrowShaft: {
+			DisplayName: "刃付き矢柄"
+			Tooltip: "強力な矢をクラフトするために使用される！"
+		}
+		CaeliteCore: {
+			DisplayName: "輝くコア"
+			Tooltip: ""
+		}
+		CraftingRune: {
+			DisplayName: "ルーン"
+			Tooltip: ""
+		}
+		Etims: {
+			DisplayName: "エティムス"
+			Tooltip: "神々に殺された者たちの血から鍛えられた！"
+		}
+		FortressHarpyBeak: {
+			DisplayName: "要塞ハーピーのくちばし"
+			Tooltip: "軽量で頑丈"
+		}
+		HydraScale: {
+			DisplayName: "ヒュドラの鱗"
+			Tooltip: ""
+		}
+		InvaderPlating: {
+			DisplayName: "インベーダーのスクラップ"
+			Tooltip: "残されたインベーダーの部品"
+		}
+		SoulOfHeight: {
+			DisplayName: "高みの魂"
+			Tooltip: "'カエリンのエッセンス'"
+		}
+		Lightling: {
+			DisplayName: "ライトリング"
+			Tooltip: "光を放つ"
+		}
+		Hydrator: {
+			DisplayName: "ザ・ハイドレーター"
+			Tooltip: "3つの浮きは1つより優れている！"
+		}
+		AncientMiner: {
+			DisplayName: "エンシェントマイナー"
+			Tooltip: "3x3のエリアを採掘する"
+		}
+		BurstMiner: {
+			DisplayName: "ストリームマイナー"
+			Tooltip: ""
+		}
+		CaelitePickaxe: {
+			DisplayName: "カエライトピッケル"
+			Tooltip: "3x3のエリアを採掘する"
+		}
+		Hydrill: {
+			DisplayName: "ハイドリル"
+			Tooltip: "3x3のエリアを採掘する"
+		}
+		RuneMiner: {
+			DisplayName: "ルーンマイナー"
+			Tooltip: "5x5のエリアを採掘する"
+		}
+		TheDevourer: {
+			DisplayName: "ザ・デヴァウラー"
+			Tooltip: "9x9のエリアを採掘する！"
+		}
+		AncientMissileStaff: {
+			DisplayName: "エンシェントミサイルの杖"
+			Tooltip: "爆発するエンシェントミサイルを発射する！"
+		}
+		AncientWave: {
+			DisplayName: "エンシェントウェイブ"
+			Tooltip: "敵を吹き飛ばす"
+		}
+		BlackHoleStaff: {
+			DisplayName: "ブラックホールの杖"
+			Tooltip: "敵を吸い込むブラックホールを召喚する！\nブラックホールのダメージが高いほど、引き寄せる力が強くなる"
+		}
+		InvaderCatalyst: {
+			DisplayName: "インベーダーカタリスト"
+			Tooltip: "近接攻撃が短時間、魔法の爆発を引き起こす"
+		}
+		EnlightenedConfusion: {
+			DisplayName: "エンライテンド・コンフュージョン"
+			Tooltip: "実際には混乱を付与しない、紛らわしい"
+		}
+		TheTyrantsExtinctionGun: {
+			DisplayName: "暴君の絶滅銃"
+			Tooltip: "左クリックで気候変動を撃つ！\n右クリックで病気を撃つ！"
+		}
+		GalacticEnragment: {
+			DisplayName: "ギャラクティック・エンレイジメント"
+			Tooltip: "すべての星々よ！"
+		}
+		HydraBeam: {
+			DisplayName: "ヒュドラビーム"
+			Tooltip: "空から破壊的なエネルギーのビームを作り出す"
+		}
+		HydraMissileStaff: {
+			DisplayName: "ヒュドラミサイルのロッド"
+			Tooltip: "ヒュドラの頭を発射し、爆発してさらに多くのヒュドラの頭に分裂し、それが爆発してさらに多くのヒュドラの頭に分裂する！"
+		}
+		LuneStaff: {
+			DisplayName: "ルナの杖"
+			Tooltip: "ルナの紋章を発射して敵を感電させる\nルナの呪いを付与し、敵をクリティカルヒットに対してより脆弱にする"
+		}
+		PenguinWhistle: {
+			DisplayName: "ペンギンの笛"
+			Tooltip: "飛ぶペンギンを呼ぶ！"
+		}
+		ExplosivePierce: {
+			DisplayName: "プラズマキャノン"
+			Tooltip: "敵を貫通し、何かに当たるたびに爆発する投射物を発射する！"
+		}
+		PursuitRuneStaff: {
+			DisplayName: "追跡ルーンの杖"
+			Tooltip: "爆発する追跡ルーンを発射する！"
+		}
+		CaeliteMagicWeapon: {
+			DisplayName: "レストレス・サン"
+			Tooltip: "高次の存在に祝福されたこの武器は、広い開けた場所で威力を発揮する！"
+		}
+		RhuthiniumScepter: {
+			DisplayName: "ルティニウムの王笏"
+			Tooltip: ""
+		}
+		RhuthiniumVaporizer: {
+			DisplayName: "ルティニウム・ヴェポライザー"
+			Tooltip: ""
+		}
+		RunicWave: {
+			DisplayName: "ルーニックウェイブ"
+			Tooltip: "飛行中にアイスルーンを引き寄せる波を放つ"
+		}
+		SacredDaze: {
+			DisplayName: "聖なる眩暈"
+			Tooltip: "ふさわしくない者を気絶させる！"
+		}
+		StaffOfJob: {
+			DisplayName: "仕事の杖"
+			Tooltip: "カーソル近くの犠牲者に深刻な不幸をもたらす！\n敵の防御力を20無視する"
+		}
+		SwordStormStaff: {
+			DisplayName: "ソードポカリプス"
+			Tooltip: "剣の弾幕を解き放つ！"
+		}
+		CaeliteBoomerang: {
+			DisplayName: "エンジェリック・トラッカー"
+			Tooltip: "高次の存在があなたのブーメランを導く！"
+		}
+		LuneBoomerang: {
+			DisplayName: "ルナブーメラン"
+			Tooltip: "無制限、敵を貫通する\nルナの呪いを付与し、敵をクリティカルヒットに対してより脆弱にする"
+		}
+		RhuthiniumBoomerang: {
+			DisplayName: "ルティニウムブーメラン"
+			Tooltip: "投げるボタンを押し続けると、より遠くに飛ぶ\n右クリックでブーメランを静止させる"
+		}
+		DinoFlail: {
+			DisplayName: "アンキロサウルスの尾"
+			Tooltip: "クリティカルヒットが敵を気絶させる"
+		}
+		HydraJavelin: {
+			DisplayName: "ヒュドラジャベリン"
+			Tooltip: "一度に3本のジャベリンを投げる\n各ジャベリンは毎秒20のダメージを与え、そのダメージを1%減少させる\n最大: 15"
+		}
+		Imperium: {
+			DisplayName: "インペリウム"
+			Tooltip: "これが刺さっている間、敵は毎秒400のダメージを受け、剣からのダメージが35%増加する"
+		}
+		RhuthiniumJavelin: {
+			DisplayName: "ルティニウムジャベリン"
+			Tooltip: "敵に刺さった各ジャベリンは、毎秒18のダメージを与え、防御力を2失わせる\n最大: 7"
+		}
+		CaeliteRainKnife: {
+			DisplayName: "ディバインヘイルナイフ"
+			Tooltip: "高次の存在がこれらを空から投げる！"
+		}
+		Hydrent: {
+			DisplayName: "ファイヤーハイドレント"
+			Tooltip: "ヒュドラブレスを撃つ"
+		}
+		Hydrospear: {
+			DisplayName: "ハイドロスピア"
+			Tooltip: ""
+		}
+		AncientBlade: {
+			DisplayName: "エンシェントブレード"
+			Tooltip: "オーブの拡散を発射する"
+		}
+		EtimsSword: {
+			DisplayName: "ザ・マサカー"
+			Tooltip: "地面で右クリックするとアッパーカット\n空中で右クリックすると叩きつける！\n敵を倒すと短時間、敵の投射物に対する耐性を得る"
+		}
+		ImperiousTheIV: {
+			DisplayName: "インペリウス・ザ・IV"
+			Tooltip: "敵にヒットすると跳ね返る剣を発射する"
+		}
+		Overkill: {
+			DisplayName: "オーバーキル"
+			Tooltip: "ただ空中に上がる必要がある…"
+		}
+		PenguinClub: {
+			DisplayName: "ペンギンクラブ"
+			Tooltip: "敵にヒットするとペンギンを発射する"
+		}
+		RunicBlade: {
+			DisplayName: "ルーンブレード"
+			Tooltip: "ミニアイスルーンの拡散を発射する"
+		}
+		Cyclone: {
+			DisplayName: "サイクロン"
+			Tooltip: "<3"
+		}
+		LuneTop: {
+			DisplayName: "ルナトップ"
+			Tooltip: "ルナの呪いを付与し、敵をクリティカルヒットに対してより脆弱にする"
+		}
+		AncientThrow: {
+			DisplayName: "エンシェントスロー"
+			Tooltip: "その糸は何千年もの間伸ばされてきた\n右クリックでズーム"
+		}
+		Arachnoyo: {
+			DisplayName: "アラクノヨー"
+			Tooltip: "一度に8つのヨーヨーを投げる！"
+		}
+		Arsenal: {
+			DisplayName: "アーセナル"
+			Tooltip: "持続する刃を作り出す！"
+		}
+		RunicThrow: {
+			DisplayName: "ルーニックスロー"
+			Tooltip: "とてつもなく長い糸\n右クリックでズーム"
+		}
+		AncientMinionStaff: {
+			DisplayName: "エンシェントミニオンの杖"
+			Tooltip: "あなたのために戦うエンシェントミニオンを召喚する！"
+		}
+		ChlorophyteSniperStaff: {
+			DisplayName: "クロロファイトスナイパーの杖"
+			Tooltip: "あなたの敵を処刑するためにクロロファイトスナイパーを召喚する！\n+\nバーストダメージミニオン"
+		}
+		GlassSpikeStaff: {
+			DisplayName: "ガラスの棘の杖"
+			Tooltip: "地面に休む棘を召喚し、踏んだ敵にダメージを与える\nあなたが離れると再配置される"
+		}
+		HydraHeadStaff: {
+			DisplayName: "ヒュドラの頭の杖"
+			Tooltip: "カーソルに向かって撃つヒュドラの頭を召喚する"
+		}
+		InvaderCasterStaff: {
+			DisplayName: "インベーダーキャスターの杖"
+			Tooltip: "あなたのために戦うインベーダーキャスターを召喚する"
+		}
+		RunicMinionStaff: {
+			DisplayName: "リーチルーンの杖"
+			Tooltip: "あなたのために戦うリーチルーンを召喚する！\n生命を盗むチャンスがある"
+		}
+		SwordMinionStaff: {
+			DisplayName: "ロングソードの杖"
+			Tooltip: "巨大なロングソードがあれば、ミニオンの大群など必要ないだろう？"
+		}
+		LuneArcherStaff: {
+			DisplayName: "ルナアーチャーの杖"
+			Tooltip: "インベントリから矢を敵に撃つルナアーチャーを召喚する"
+		}
+		MechCrossbowStaff: {
+			DisplayName: "メカクロスボウの杖"
+			Tooltip: "インベントリから矢を敵に撃つ機械化されたクロスボウを召喚する\n木の矢はタギングボルトに変換される"
+		}
+		MiniTankStaff: {
+			DisplayName: "ミニタンクの杖"
+			Tooltip: "ミニタンクを召喚する！"
+		}
+		PriestStaff: {
+			DisplayName: "プリーストの杖"
+			Tooltip: "これに高次の存在が関わっていることを説明する必要があるだろうか？"
+		}
+		ShieldMinionStaff: {
+			DisplayName: "シールドミニオンの杖"
+			Tooltip: "あなたに近づきすぎる侵入者を叩きつける！\n+\nバーストダメージミニオン"
+		}
+		SpaceFighterStaff: {
+			DisplayName: "スペースファイターの杖"
+			Tooltip: ""
+		}
+		TileStaff: {
+			DisplayName: "タイルの杖"
+			Tooltip: "斜めに移動する？それは何だ？"
+		}
+		DreadnoughtStaff: {
+			DisplayName: "コマンドのロッド"
+			Tooltip: "アー＝クァンのロードが命令を出すために使用する"
+		}
+		AncientNuke: {
+			DisplayName: "シェイプシフト：エンシェントニューク"
+			Tooltip: "短時間、何かに衝突すると巨大な爆発を引き起こすエンシェントニュークに変身する…心配するな、あなたは生き残る"
+		}
+		HydraBarrage: {
+			DisplayName: "シェイプシフト：ヒュドラバラージ"
+			Tooltip: "ヒュドラブレスの弾幕を発射する"
+		}
+		RhuthiniumBarrage: {
+			DisplayName: "シェイプシフト：ルティニウムバラージ"
+			Tooltip: "巨大なダーツの弾幕を発射し、大ダメージを与える！"
+		}
+		RuneNuke: {
+			DisplayName: "シェイプシフト：ルーンニューク"
+			Tooltip: "短時間、何かに衝突すると巨大な爆発を引き起こし、たくさんのリーチルーンを放出するルーンニュークに変身する"
+		}
+		Swordquake: {
+			DisplayName: "シェイプシフト：ソードクエイク"
+			Tooltip: "地面を打つと致命的なソードクエイクを引き起こす剣に変身する！"
+		}
+		AncientLongbow: {
+			DisplayName: "エンシェントロングボウ"
+			Tooltip: "長押しでチャージアップ\n最大チャージで3本の矢を発射\n木の矢はエンシェントアローになる"
+		}
+		B4Bow: {
+			DisplayName: "ポゼッシングボウ"
+			Tooltip: "これから放たれる矢はあなたの敵を追いかける！"
+		}
+		DivineBanishment: {
+			DisplayName: "ディバインバニッシュメント"
+			Tooltip: "高次の存在があなたの敵を撃つのを手伝う！"
+		}
+		HolyExiler: {
+			DisplayName: "ホーリーエクサイラー"
+			Tooltip: "高次の存在があなたの敵を撃つのを手伝う！"
+		}
+		RuneLongbow: {
+			DisplayName: "ルーンロングボウ"
+			Tooltip: "長押しでチャージアップ\n最大チャージで3本の矢を発射\n木の矢はアグロルーンストライクになる"
+		}
+		SkyShot: {
+			DisplayName: "スカイショット"
+			Tooltip: "ダーツを弾薬として使用する\n高次の存在が追加のダーツを装填した"
+		}
+		SuperSkyShot: {
+			DisplayName: "スーパースカイショット"
+			Tooltip: "ダーツを弾薬として使用する\n高次の存在がたくさんの追加のダーツを装填した"
+		}
+		Whirlpool: {
+			DisplayName: "ワールプール"
+			Tooltip: "ダーツを弾薬として使用する"
+		}
+		AncientSniper: {
+			DisplayName: "エンシェントスナイパー"
+			Tooltip: "スナイピングの古代の力を利用する\n右クリックでズーム"
+		}
+		ChargingShotgun: {
+			DisplayName: "チャージングショットガン"
+			Tooltip: "右クリックで次の射撃に弾丸を追加する"
+		}
+		ChromeShotgunDefault: {
+			DisplayName: "クロームショットガン"
+			Tooltip: "右クリックで4つのモードを切り替える"
+		}
+		DinoVulcan: {
+			DisplayName: "ディノバルカン"
+			Tooltip: "使用中に速度が上がる\n弾薬を消費しない確率66%"
+		}
+		HydraCannon: {
+			DisplayName: "ヒュドラキャノン"
+			Tooltip: "敵を倒すと強力な破壊の波を放出する"
+		}
+		LuneTrickshooter: {
+			DisplayName: "ルナトリックシューター"
+			Tooltip: "マスケットボールはルナトリックショットに変換される！\nトリックショットは壁に3回跳ね返ることができ、そうするとかなりのダメージを得る"
+		}
+		RunicSniper: {
+			DisplayName: "ルーニックスナイパー"
+			Tooltip: "遠くの敵に2倍のダメージ\n右クリックでズーム"
+		}
+		InvaderShooter: {
+			DisplayName: "インベーダーシューター"
+			Tooltip: "ヒット時に弾丸を生成する貫通ビームを撃つ"
+		}
+		ShotgunOfExcessiveForce: {
+			DisplayName: "過剰な力のショットガン"
+			Tooltip: ""
+		}
+		PenguinLauncher: {
+			DisplayName: "ペンギンランチャー"
+			Tooltip: "ペンギンを弾薬として使用する"
+		}
+		Aqueous: {
+			DisplayName: "アクエアス"
+			Tooltip: "通常の矢と共に弓から放たれる"
+		}
+		BladedArrow: {
+			DisplayName: "ブレイデッドアロー"
+			Tooltip: "通常の矢と共に弓から放たれる"
+		}
+		AntiAirWrench: {
+			DisplayName: "対空セントリーレンチ"
+			Tooltip: "静止した対空セントリーを召喚する"
+		}
+		AshFellStaff: {
+			DisplayName: "アッシュフェルの杖"
+			Tooltip: "このセントリーはアッシュミサイルで敵を窒息させる！"
+		}
+		BubbleBrewerBaton: {
+			DisplayName: "バブルブリューワーバトン"
+			Tooltip: "バブルブリューワーを召喚する\n最後の防衛線としてうまく機能する"
+		}
+		RhuthiniumGuardianStaff: {
+			DisplayName: "ルティニウムガーディアンの杖"
+			Tooltip: "敵を撃つために非常に遅いガーディアンを召喚する"
+		}
+		Riptide: {
+			DisplayName: "リップタイドセントリーの杖"
+			Tooltip: "低ダメージのヒットスキャンストリームを10Hzで発射する\n敵の防御力を10無視する\n鞭のタグの恩恵を受けられない"
+		}
+		ShroomiteTurretStaff: {
+			DisplayName: "シュルームタレットの杖"
+			Tooltip: "インベントリから弾丸を発射する\n弾薬を消費しない確率50%"
+		}
+		CaeliteSentryStaff: {
+			DisplayName: "スカイスパイラルの杖"
+			Tooltip: "高次の存在がこのセントリーの近くのすべての敵を罰する！"
+		}
+		Discipline: {
+			DisplayName: "ディシプリン"
+			Tooltip: "攻撃された敵を攻撃すると、あなたのミニオンは速度を得る"
+		}
+		InvaderFork: {
+			DisplayName: "インベーダーフォーク"
+			Tooltip: "あなたのミニオンはヒット時にミニオンのダメージの50%を与えるミサイルを生成する"
+		}
+		CocktailDressSkirt: {
+			DisplayName: "カクテルドレススカート"
+			Tooltip: ""
+		}
+		CocktailDressTop: {
+			DisplayName: "カクテルドレストップ"
+			Tooltip: ""
+		}
+		HeroPlate: {
+			DisplayName: "ヒーロープレート"
+			Tooltip: "近接ダメージ8%増加"
+		}
+		HeroPants: {
+			DisplayName: "ヒーローパンツ"
+			Tooltip: "移動速度20%増加"
+		}
+		HeroShield: {
+			DisplayName: "ヒーローシールド"
+			Tooltip: "近接クリティカルヒットチャンス8%増加"
+		}
+		FaceMask: {
+			DisplayName: "フェイスマスク"
+			Tooltip: "装飾用アクセサリー"
+		}
+		Shrug: {
+			DisplayName: "シュラッグ"
+			Tooltip: "装飾用アクセサリー"
+		}
+		Jacket: {
+			DisplayName: "ジャケット"
+			Tooltip: "装飾用アクセサリー"
+		}
+		Corset: {
+			DisplayName: "コルセット"
+			Tooltip: ""
+		}
+		SuitSkirt: {
+			DisplayName: "スーツスカート"
+			Tooltip: ""
+		}
+		ScarletBallGown: {
+			DisplayName: "スカーレットガウン"
+			Tooltip: ""
+		}
+		ScarletFan: {
+			DisplayName: "スカーレットファン"
+			Tooltip: "アイドルアニメーションを与える"
+		}
+		CasualSkirt: {
+			DisplayName: "カジュアルスカート"
+			Tooltip: "靴はデフォルトの靴の色を使用する\n靴は最初のアクセサリースロットの染料を使用する"
+		}
+		Purse: {
+			DisplayName: "パース"
+			Tooltip: ""
+		}
+		SilkDress: {
+			DisplayName: "シルクドレス"
+			Tooltip: ""
+		}
+		GodSealKeycard: {
+			DisplayName: "ゴッドシールキーカード"
+			Tooltip: ""
+		}
+		HigherPriestStaff: {
+			DisplayName: "ハイアープリーストの杖"
+			Tooltip: ""
+		}
+		SkyDisintigratorStaff: {
+			DisplayName: "スカイ・ディスインテグレーターの杖"
+			Tooltip: ""
+		}
+		SeraphimPredator: {
+			DisplayName: "セラフィムプレデター"
+			Tooltip: ""
+		}
+		BlessedMonsoonKnife: {
+			DisplayName: "ブレスドモンスーンナイフ"
+			Tooltip: ""
+		}
+		PurpleBonnet: {
+			DisplayName: "ラベンダーのボンネット"
+			Tooltip: ""
+		}
+		PurpleDress: {
+			DisplayName: "ラベンダーのドレス"
+			Tooltip: ""
+		}
+		ScarletHat: {
+			DisplayName: "スカーレットハット"
+			Tooltip: ""
+		}
+		PurpleUmbrella: {
+			DisplayName: "ラベンダーの傘"
+			Tooltip: ""
+		}
+		HallowedCape: {
+			Tooltip: ""
+			DisplayName: "ハロウドケープ"
+		}
+		InvasionCaller: {
+			Tooltip: "要塞の侵略を呼び戻す！"
+			DisplayName: "侵略の呼び出し人"
+		}
+		PreistCloak: {
+			Tooltip: "高次の存在はあなたを自分たちの仲間と見なし、攻撃してこない"
+			DisplayName: "プリーストのクローク"
+		}
+		InvaderIDCard: {
+			Tooltip: "インベーダーはあなたを自分たちの仲間と見なし、攻撃してこない"
+			DisplayName: "インベーダーIDカード"
+		}
+		BattleshipBag: {
+			DisplayName: "おたからぶくろ"
+			Tooltip: "<right>で開く"
+		}
+		EmeraldDress: {
+			Tooltip: ""
+			DisplayName: "エメラルドドレス"
+		}
+		EmeraldCape: {
+			Tooltip: ""
+			DisplayName: "エメラルドケープ"
+		}
+		VulgarDictionary: {
+			DisplayName: "俗語辞書"
+			Tooltip: "なぜすべての敵があなたを狙っているのか？\nそれはF$^!@% B*$%&S*@%だ！"
+		}
+		CartographyTable: {
+			DisplayName: "地図製作台"
+			Tooltip: ""
+		}
+		EternalFountain: {
+			DisplayName: "永遠の泉"
+			Tooltip: "継続的に水を生成する"
+		}
+		PiercingWhetstone: {
+			Tooltip: "近接攻撃が追加の魔法ダメージを与える\n魔法ダメージは武器の基本ダメージの20%で、魔法ボーナスによって修正される\n砥石のダメージボーナスは敵の防御力を12無視する"
+			DisplayName: "貫通砥石"
+		}
+		Autosummoner: {
+			DisplayName: "オートサモナー"
+			Tooltip: "インベントリにある間、ロードアウトに基づいてミニオンを自動的に召喚する\n上に配置されたミニオンの杖はすべてのロードアウトのデフォルトになる\n右/下/左に配置されたミニオンの杖は、ロードアウト1/2/3のデフォルトを上書きする\n異なる杖が割り当てられている場合、ロードアウトを切り替えるとミニオンは召喚解除される\n既知のバグ：マルチプレイヤーで他のプレイヤーがあなたが召喚アニメーションで固まっているのを見ることがある、この場合はミニオンを召喚解除してください"
+		}
+		SuperquantumRifle: {
+			Tooltip: "弾薬を消費しない確率50%\n量子力学が理解できない？\n神々もそうだ"
+			DisplayName: "スーパー量子ライフル"
+		}
+		DVRStaff: {
+			DisplayName: "次元侵犯レールガンの杖"
+			Tooltip: "10のミニオンスロットが必要\n最も健康な敵を狙う"
+		}
+		FightKit: {
+			DisplayName: "ファイトキット"
+			Tooltip: "右クリック/右クリックと方向キーの組み合わせで様々な攻撃をする\n敵にヒットすると、一時的に接触ダメージが無効になる\n移動性が大幅に向上するため、最初は移動アイテムと一緒に使用しないことをお勧めする"
+		}
+		MusicBoxAcomplices: {
+			DisplayName: "オルゴール（不浄な分裂）"
+			Tooltip: ""
+		}
+		RuneGhostTrophy: {
+			Tooltip: ""
+			DisplayName: "ルーンゴーストのトロフィー"
+		}
+		OLORDTrophy: {
+			Tooltip: ""
+			DisplayName: "O.L.O.R.D.のトロフィー"
+		}
+		NoehtnapTrophy: {
+			Tooltip: ""
+			DisplayName: "ノートナップのトロフィー"
+		}
+		InvaderBossTrophy: {
+			Tooltip: ""
+			DisplayName: "インベーダーボスのトロフィー"
+		}
+		AncientMachineMask: {
+			DisplayName: "エンシェントマシンのマスク"
+			Tooltip: ""
+		}
+		ImperiousMask: {
+			DisplayName: "インペリウスのマスク"
+			Tooltip: ""
+		}
+		InvaderMask: {
+			DisplayName: "インベーダー戦艦のマスク"
+			Tooltip: ""
+		}
+		NoehtnapMask: {
+			DisplayName: "ノートナップのマスク"
+			Tooltip: ""
+		}
+		OLORDMask: {
+			DisplayName: "O.L.O.R.D.のマスク"
+			Tooltip: ""
+		}
+		HydraMask: {
+			DisplayName: "ヒュドラのマスク"
+			Tooltip: ""
+		}
+	}
+	NPCs: {
+		PolarBear: {
+			DisplayName: {
+				DisplayName: "ポーラー・エクスターミネーター"
+				$parentVal: "ポーラー・エクスターミネーター"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "ツンドラのイグルーを訪れる"
+			}
+		}
+		AncientMachine: {
+			DisplayName: {
+				DisplayName: "エンシェントマシン"
+				$parentVal: "エンシェントマシン"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "[i:QwertyMod/AncientEmblem]を覗き込む"
+			}
+		}
+		FortressBoss: {
+			DisplayName: {
+				DisplayName: "ザ・ディバインライト"
+				$parentVal: "ザ・ディバインライト"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "天空の要塞の祭壇で[i:QwertyMod/FortressBossSummon]を使用する"
+			}
+		}
+		CloakedDarkBoss: {
+			DisplayName: {
+				DisplayName: "ノートナップ"
+				$parentVal: "ノートナップ"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "ただ[i:QwertyMod/RitualInterupter]を使え、定命の者よ！"
+			}
+		}
+		Hydra: {
+			DisplayName: {
+				DisplayName: "ザ・ヒュドラ"
+				$parentVal: "ザ・ヒュドラ"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "[i:QwertyMod/HydraSummon]で誘惑する"
+			}
+		}
+		Imperious: {
+			DisplayName: {
+				DisplayName: "インペリウス"
+				$parentVal: "インペリウス"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "[i:QwertyMod/BladeBossSummon]を使用し、その挑戦を受け入れる"
+			}
+		}
+		RuneGhost: {
+			DisplayName: {
+				DisplayName: "ルーンゴースト"
+				$parentVal: "ルーンゴースト"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "[i:QwertyMod/SummoningRune]を使用してその力に挑戦する\n[i:QwertyMod/SummoningRune]はダンジョンのスピリットからドロップする"
+			}
+		}
+		InvaderBattleship: {
+			DisplayName: {
+				DisplayName: "インベーダー戦艦"
+				$parentVal: "インベーダー戦艦"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "プランテラが倒された後、天空の要塞を再訪する"
+			}
+		}
+		OLORDv2: {
+			DisplayName: {
+				DisplayName: "Oversized Laser-emitting Obliteration Radiation-emitting Destroyer"
+				$parentVal: "Oversized Laser-emitting Obliteration Radiation-emitting Destroyer"
+			}
+			BossChecklistIntegration: {
+				SpawnInfo: "[i:QwertyMod/B4Summon]を使用する"
+			}
+		}
+		AncientMinion: {
+			DisplayName: "エンシェントミニオン"
+		}
+		BladeHitbox: {
+			DisplayName: "インペリウス"
+		}
+		HydraHead: {
+			DisplayName: "ヒュドラの頭"
+		}
+		BattleshipStrikeDrone: {
+			DisplayName: "ストライクドローン"
+		}
+		AgentPenguin: {
+			DisplayName: "エージェントペンギン"
+		}
+		FlyingPenguin: {
+			DisplayName: "フライングペンギン"
+		}
+		Sleeping: {
+			DisplayName: "ZZZZZ..."
+		}
+		SlidingPenguin: {
+			DisplayName: "スライディングペンギン"
+		}
+		AntiAir: {
+			DisplayName: "対空砲"
+		}
+		Mosquitto: {
+			DisplayName: "蚊"
+		}
+		TheGreatTyrannosaurus: {
+			DisplayName: "偉大なるティラノサウルス"
+		}
+		Triceratank: {
+			DisplayName: "トリケラタンク"
+		}
+		Utah: {
+			DisplayName: "ユタラプトル"
+		}
+		Velocichopper: {
+			DisplayName: "ヴェロシチョッパー"
+		}
+		Caster: {
+			DisplayName: "ハイプリースト"
+		}
+		Crawler: {
+			DisplayName: "モラスケット"
+		}
+		FortressFlier: {
+			DisplayName: "要塞ハーピー"
+		}
+		GuardTile: {
+			DisplayName: "ガードタイル"
+		}
+		Hopper: {
+			DisplayName: "エンチャントタイル"
+		}
+		Swarm: {
+			DisplayName: "スウォーム"
+		}
+		Swarmer: {
+			DisplayName: "要塞スウォーマー"
+		}
+		YoungTile: {
+			DisplayName: "ヤングタイル"
+		}
+		InvaderBehemoth: {
+			DisplayName: "インベーダーベヒモス"
+		}
+		InvaderCaster: {
+			DisplayName: "インベーダーキャスター"
+		}
+		InvaderFighter: {
+			DisplayName: "インベーダーファイター"
+		}
+		FrontGunPiece: {
+			DisplayName: "フロントガンピース"
+		}
+		BackGunPiece: {
+			DisplayName: "バックガンピース"
+		}
+		MissileLauncherPiece: {
+			DisplayName: "ミサイルランチャーピース"
+		}
+		EnginePiece: {
+			DisplayName: "エンジンピース"
+		}
+		DistressPiece: {
+			DisplayName: "ディストレスピース"
+		}
+		CenterPiece: {
+			DisplayName: "センターピース"
+		}
+		InvaderNoehtnap: {
+			DisplayName: "インベーダーノートナップ"
+		}
+		NoehtnapClone: {
+			DisplayName: "インベーダーノートナップ"
+		}
+		InvaderElite: {
+			DisplayName: "インベーダーエリート"
+		}
+	}
+	Tiles: {
+		FortressAltar: {
+			MapEntry: "祭壇"
+		}
+		BannersT: {
+			MapEntry: "旗"
+		}
+		FortressCarving1T: {
+			MapEntry: "要塞の彫刻"
+		}
+		FortressCarving2T: {
+			MapEntry: "要塞の彫刻"
+		}
+		FortressCarving3T: {
+			MapEntry: "要塞の彫刻"
+		}
+		FortressBathtubT: {
+			MapEntry: "要塞のバスタブ"
+		}
+		FortressBedT: {
+			MapEntry: "要塞のベッド"
+		}
+		FortressBenchT: {
+			MapEntry: "要塞の作業台"
+		}
+		FortressBookcaseT: {
+			MapEntry: "要塞の本棚"
+		}
+		FortressCandelabraT: {
+			MapEntry: "要塞の燭台"
+		}
+		FortressCandleT: {
+			MapEntry: "要塞のろうそく"
+		}
+		FortressChairT: {
+			MapEntry: "要塞の椅子"
+		}
+		FortressChandelierT: {
+			MapEntry: "要塞のシャンデリア"
+		}
+		FortressClockT: {
+			MapEntry: "Mods.QwertyMod.MapObject.FortressClockT"
+		}
+		FortressCouchT: {
+			MapEntry: "要塞のソファ"
+		}
+		FortressDoorClosed: {
+			MapEntry: "要塞のドア"
+		}
+		FortressDoorOpen: {
+			MapEntry: "要塞のドア"
+		}
+		FortressLampT: {
+			MapEntry: "要塞のランプ"
+		}
+		FortressLanternT: {
+			MapEntry: "要塞のランタン"
+		}
+		FortressPianoT: {
+			MapEntry: "要塞のピアノ"
+		}
+		FortressSinkT: {
+			MapEntry: "要塞のシンク"
+		}
+		FortressTableT: {
+			MapEntry: "要塞のテーブル"
+		}
+		LaunchPadT: {
+			MapEntry: "発射台"
+		}
+		ReverseSandT: {
+			MapEntry: "Dnas"
+		}
+		MusicBoxBeastOfThreeHeadsT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxBladeOfAGodT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxBuiltToDestroyT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxEPICT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxHeavenlyFortressT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxHigherBeingT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxOldDinosNewGunsT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxTheConjurerT: {
+			MapEntry: "オルゴール"
+		}
+		MusicBoxTheGodsBleedT: {
+			MapEntry: "オルゴール"
+		}
+		LuneOreT: {
+			MapEntry: "ルナ鉱石"
+		}
+		RhuthiniumOreT: {
+			MapEntry: "ルティニウム鉱石"
+		}
+	}
+	Keybinds: {
+		"Yet Another Special Ability Key": {
+			DisplayName: "もう一つの特殊能力"
+		}
+	}
+	Configs: {
+		QwertyConfig: {
+			OLORDScreenShake: {
+				Tooltip: ""
+				Label: "O L O R D 画面揺れ"
+			}
+			DisplayName: "Qwerty設定"
+			ImperiousScreenShake: {
+				Label: "インペリウス画面揺れ"
+				Tooltip: ""
+			}
+		}
+	}
+}

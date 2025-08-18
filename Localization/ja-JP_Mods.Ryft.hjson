@@ -1,0 +1,377 @@
+Items: {
+	TerragemStaff: {
+		Tooltip: ""
+		DisplayName: テラジェムスタッフ
+	}
+
+	HorseshoeShield: {
+		Tooltip: ""
+		DisplayName: ホースシューシールド
+	}
+
+	ChaoticSphere: {
+		DisplayName: カオティックスフィア
+		Tooltip: ""
+	}
+
+	RazorwingStaff: {
+		DisplayName: レーザーウィングスタッフ
+		Tooltip: ""
+	}
+
+	ManaSeekingShackles: {
+		DisplayName: マナ探求の手枷
+		Tooltip: ""
+	}
+
+	RepellingForces: {
+		DisplayName: レぺリングフォース
+		Tooltip: ""
+	}
+
+	ChlorophyteBarrage: {
+		DisplayName: クロロファイトバレッジ
+		Tooltip: ""
+	}
+
+	TomeOfTheEclipse: {
+		DisplayName: 日食の書
+		Tooltip: ""
+	}
+
+	AllSeeingEye: {
+		DisplayName: 全てを見通す眼
+		Tooltip: ""
+	}
+
+	RyftFragment: {
+		DisplayName: リフトの断片
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorRelic: {
+		DisplayName: コズミック・アナイアレイターのレリック
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorTrophy: {
+		DisplayName: コズミック・アナイアレイターのトロフィー
+		Tooltip: ""
+	}
+
+	CosmicObserverRelic: {
+		DisplayName: コズミック・オブザーバーのレリック
+		Tooltip: ""
+	}
+
+	CosmicObserverTrophy: {
+		DisplayName: コズミック・オブザーバーのトロフィー
+		Tooltip: ""
+	}
+
+	ShotgunOfCthulhu: {
+		DisplayName: クトゥルフのショットガン
+		Tooltip: ""
+	}
+
+	CosmicObserverBag: {
+		DisplayName: トレジャーバッグ（コズミック・オブザーバー）
+		Tooltip: ""
+	}
+
+	CosmicObserver: {
+		DisplayName: コズミック・オブザーバー
+		Tooltip: ""
+	}
+
+	CosmicCannon: {
+		DisplayName: コズミックキャノン
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorBag: {
+		DisplayName: トレジャーバッグ（コズミック・アナイアレイター）
+		Tooltip: ""
+	}
+
+	CosmicAnnihilator: {
+		DisplayName: コズミック・アナイアレイター
+		Tooltip: ""
+	}
+
+	PiercingGaze: {
+		DisplayName: ピアシングゲイズ
+		Tooltip: ""
+	}
+
+	BavariumBar: {
+		DisplayName: バヴァリウムのインゴット
+		Tooltip: ""
+	}
+
+	BavariumOre: {
+		DisplayName: バヴァリウム鉱石
+		Tooltip: ""
+	}
+
+	BavariumSplitter: {
+		DisplayName: バヴァリウムスプリッター
+		Tooltip: ""
+	}
+
+	LunarMultiTool: {
+		DisplayName: 月のマルチツール
+		Tooltip: ""
+	}
+
+	StingerArrow: {
+		DisplayName: スティンガーの矢
+		Tooltip: ""
+	}
+
+	Hornet: {
+		DisplayName: ホーネット
+		Tooltip: ""
+	}
+
+	CursiteBar: {
+		DisplayName: カーサイトのインゴット
+		Tooltip: ""
+	}
+
+	Rapture: {
+		DisplayName: ラプチャー
+		Tooltip: ""
+	}
+
+	HorroriteBar: {
+		DisplayName: ホラライトのインゴット
+		Tooltip: ""
+	}
+
+	YellowedFang: {
+		DisplayName: 黄ばんだ牙
+		Tooltip: ""
+	}
+
+	CorruptorsRage: {
+		DisplayName: コラプターレイジ
+		Tooltip: ""
+	}
+
+	IchorSplitter: {
+		DisplayName: イコルスプリッター
+		Tooltip: ""
+	}
+
+	BloodSpitterBanner: {
+		DisplayName: ブラッドスピッターのバナー
+		Tooltip: ""
+	}
+
+	GelatinHeartPiece: {
+		DisplayName: ゼラチンハートの欠片
+		Tooltip: ""
+	}
+
+	CursedCorruptorBanner: {
+		DisplayName: 呪われしコラプターのバナー
+		Tooltip: ""
+	}
+
+	GoldenSpitterBanner: {
+		DisplayName: ゴールデンスピッターのバナー
+		Tooltip: ""
+	}
+
+	HallowedSlimeBanner: {
+		DisplayName: 神聖なスライムのバナー
+		Tooltip: ""
+	}
+
+	MechanicalEyeBanner: {
+		DisplayName: メカニカルアイのバナー
+		Tooltip: ""
+	}
+
+	CharmOfLife: {
+		Tooltip: ""
+		DisplayName: 生命のお守り
+	}
+
+	CharmOfBlood: {
+		DisplayName: 血のお守り
+		Tooltip: ""
+	}
+
+	TheBloodyAmalgam: {
+		DisplayName: 血の合金
+		Tooltip: ""
+	}
+
+	CosmicManaShield: {
+		DisplayName: コズミックマナシールド
+		Tooltip: ""
+	}
+
+	HyperAbsorber: {
+		DisplayName: ハイパーアブソーバー
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ChaosBall: {
+		DisplayName: カオスボール
+	}
+
+	HarpyFeather: {
+		DisplayName: ハーピーの羽根
+	}
+
+	DarkForceShard: {
+		DisplayName: 闇の力の欠片
+	}
+
+	LightForceShard: {
+		DisplayName: 光の力の欠片
+	}
+
+	EclipseWheel: {
+		DisplayName: エクリプスホイール
+	}
+
+	PhantomServantOfCthulhu: {
+		DisplayName: クトゥルフの幻影召使
+	}
+
+	GazingRay: {
+		DisplayName: 凝視光線
+	}
+
+	BavariumBullet: {
+		DisplayName: バヴァリウム弾
+	}
+
+	StingerArrow: {
+		DisplayName: スティンガーの矢
+	}
+}
+
+NPCs: {
+	LightningOrb: {
+		DisplayName: ライトニングオーブ
+	}
+
+	ObserverOfTheMultiversePhase1: {
+		DisplayName: コズミック・オブザーバー
+	}
+
+	ObserverOfTheMultiversePhase2: {
+		DisplayName: コズミック・アナイアレイター
+	}
+
+	PhantomEyeOfCthulhu1: {
+		DisplayName: 幻影の眼
+	}
+
+	PhantomEyeOfCthulhu2: {
+		DisplayName: 幻影の口
+	}
+
+	RyftDweller: {
+		DisplayName: リフトの住人
+	}
+
+	Ryft: {
+		DisplayName: リフト
+	}
+
+	LaserOrb: {
+		DisplayName: レーザーオーブ
+	}
+
+	OminousWormhole: {
+		DisplayName: 不吉なワームホール
+	}
+
+	BloodSpitter: {
+		DisplayName: ブラッドスピッター
+	}
+
+	BloodySpit: {
+		DisplayName: 血の唾
+	}
+
+	CursedCorruptor: {
+		DisplayName: 呪われしコラプター
+	}
+
+	EnragedHallowedSlime: {
+		DisplayName: 激怒する神聖なスライム
+	}
+
+	GoldenSpitter: {
+		DisplayName: ゴールデンスピッター
+	}
+
+	HallowedSlime: {
+		DisplayName: 神聖なスライム
+	}
+
+	MechanicalEye: {
+		DisplayName: メカニカルアイ
+	}
+}
+
+Tiles: {
+	BavariumOre: {
+		MapEntry: バヴァリウム鉱石
+	}
+}
+
+LoreLines: {
+	Default: {
+		Line1: 高き場所からの囁きが耳に響く…
+		Line2: ”"Left Shift"を押してより詳しく聞く”
+	}
+
+	CosmicObserver: {
+		Line1: 私はこれまで多くの宇宙的存在を見てきた。その中でも今なお私を悩ませるものがいる。
+		Line2: 現実の端にいる遠き存在、常に私を見つめている。
+		Line3: それがどこから来たのかは分からなかったが、そのことを考えるだけで、
+		Line4: 現在の状態でさえめったに感じない偏執的な恐怖に満たされる。私は今でもその絶え間ない眼差しを感じる。魂を貫く矢のように。
+	}
+}
+
+AllSeeingEye: {
+	Observer: 全てを見守る者を召喚する
+	Annihilator: リフトの彼方から武器を召喚する
+	Annihilator2: 右クリックで全てを見守る者を召喚する
+}
+
+SpawnInfo: {
+	CosmicObserver: 全てを見通す眼を使用
+	CosmicAnnihilator: コズミック・オブザーバーが倒された時に出現、もしくはオブザーバーが倒された後に全てを見通す眼を再び使用
+}
+
+Buffs: {
+	BrokenMana: {
+		Description: マナ自然回復が阻害されている
+		DisplayName: 壊れたマナ
+	}
+}
+
+InfernumIntros: {
+	CosmicObserver:
+		'''
+		リフトの観察者
+		コズミック・オブザーバー
+		'''
+	CosmicAnnihilator:
+		'''
+		リフトの番人
+		コズミック・アナイアレイター
+		'''
+}
+

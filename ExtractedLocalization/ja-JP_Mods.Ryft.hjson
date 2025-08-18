@@ -1,0 +1,377 @@
+Items: {
+	TerragemStaff: {
+		Tooltip: ""
+		DisplayName: Terragem Staff
+	}
+
+	HorseshoeShield: {
+		Tooltip: ""
+		DisplayName: Horseshoe Shield
+	}
+
+	ChaoticSphere: {
+		DisplayName: Chaotic Sphere
+		Tooltip: ""
+	}
+
+	RazorwingStaff: {
+		DisplayName: Razorwing Staff
+		Tooltip: ""
+	}
+
+	ManaSeekingShackles: {
+		DisplayName: Mana Seeking Shackles
+		Tooltip: ""
+	}
+
+	RepellingForces: {
+		DisplayName: Repelling Forces
+		Tooltip: ""
+	}
+
+	ChlorophyteBarrage: {
+		DisplayName: Chlorophyte Barrage
+		Tooltip: ""
+	}
+
+	TomeOfTheEclipse: {
+		DisplayName: Tome of the Eclipse
+		Tooltip: ""
+	}
+
+	AllSeeingEye: {
+		DisplayName: All-Seeing Eye
+		Tooltip: ""
+	}
+
+	RyftFragment: {
+		DisplayName: Ryft Fragment
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorRelic: {
+		DisplayName: Cosmic Annihilator Relic
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorTrophy: {
+		DisplayName: Cosmic Annihilator Trophy
+		Tooltip: ""
+	}
+
+	CosmicObserverRelic: {
+		DisplayName: Cosmic Observer Relic
+		Tooltip: ""
+	}
+
+	CosmicObserverTrophy: {
+		DisplayName: Cosmic Observer Trophy
+		Tooltip: ""
+	}
+
+	ShotgunOfCthulhu: {
+		DisplayName: Shotgun of Cthulhu
+		Tooltip: ""
+	}
+
+	CosmicObserverBag: {
+		DisplayName: Treasure Bag (Cosmic Observer)
+		Tooltip: ""
+	}
+
+	CosmicObserver: {
+		DisplayName: Cosmic Observer
+		Tooltip: ""
+	}
+
+	CosmicCannon: {
+		DisplayName: Cosmic Cannon
+		Tooltip: ""
+	}
+
+	CosmicAnnihilatorBag: {
+		DisplayName: Treasure Bag (Cosmic Annihilator)
+		Tooltip: ""
+	}
+
+	CosmicAnnihilator: {
+		DisplayName: Cosmic Annihilator
+		Tooltip: ""
+	}
+
+	PiercingGaze: {
+		DisplayName: Piercing Gaze
+		Tooltip: ""
+	}
+
+	BavariumBar: {
+		DisplayName: Bavarium Bar
+		Tooltip: ""
+	}
+
+	BavariumOre: {
+		DisplayName: Bavarium Ore
+		Tooltip: ""
+	}
+
+	BavariumSplitter: {
+		DisplayName: Bavarium Splitter
+		Tooltip: ""
+	}
+
+	LunarMultiTool: {
+		DisplayName: Lunar Multi-Tool
+		Tooltip: ""
+	}
+
+	StingerArrow: {
+		DisplayName: Stinger Arrow
+		Tooltip: ""
+	}
+
+	Hornet: {
+		DisplayName: Hornet
+		Tooltip: ""
+	}
+
+	CursiteBar: {
+		DisplayName: Cursite Bar
+		Tooltip: ""
+	}
+
+	Rapture: {
+		DisplayName: Rapture
+		Tooltip: ""
+	}
+
+	HorroriteBar: {
+		DisplayName: Horrorite Bar
+		Tooltip: ""
+	}
+
+	YellowedFang: {
+		DisplayName: Yellowed Fang
+		Tooltip: ""
+	}
+
+	CorruptorsRage: {
+		DisplayName: Corruptor's Rage
+		Tooltip: ""
+	}
+
+	IchorSplitter: {
+		DisplayName: Ichor Splitter
+		Tooltip: ""
+	}
+
+	BloodSpitterBanner: {
+		DisplayName: Blood Spitter Banner
+		Tooltip: ""
+	}
+
+	GelatinHeartPiece: {
+		DisplayName: Gelatin Heart Piece
+		Tooltip: ""
+	}
+
+	CursedCorruptorBanner: {
+		DisplayName: Cursed Corruptor Banner
+		Tooltip: ""
+	}
+
+	GoldenSpitterBanner: {
+		DisplayName: Golden Spitter Banner
+		Tooltip: ""
+	}
+
+	HallowedSlimeBanner: {
+		DisplayName: Hallowed Slime Banner
+		Tooltip: ""
+	}
+
+	MechanicalEyeBanner: {
+		DisplayName: Mechanical Eye Banner
+		Tooltip: ""
+	}
+
+	CharmOfLife: {
+		Tooltip: ""
+		DisplayName: Charm of Life
+	}
+
+	CharmOfBlood: {
+		DisplayName: Charm Of Blood
+		Tooltip: ""
+	}
+
+	TheBloodyAmalgam: {
+		DisplayName: The Bloody Amalgam
+		Tooltip: ""
+	}
+
+	CosmicManaShield: {
+		DisplayName: Cosmic Mana Shield
+		Tooltip: ""
+	}
+
+	HyperAbsorber: {
+		DisplayName: Hyper Absorber
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ChaosBall: {
+		DisplayName: Chaos Ball
+	}
+
+	HarpyFeather: {
+		DisplayName: Harpy Feather
+	}
+
+	DarkForceShard: {
+		DisplayName: Dark Force Shard
+	}
+
+	LightForceShard: {
+		DisplayName: Light Force Shard
+	}
+
+	EclipseWheel: {
+		DisplayName: Eclipse Wheel
+	}
+
+	PhantomServantOfCthulhu: {
+		DisplayName: Phantom Servant Of Cthulhu
+	}
+
+	GazingRay: {
+		DisplayName: Gazing Ray
+	}
+
+	BavariumBullet: {
+		DisplayName: Bavarium Bullet
+	}
+
+	StingerArrow: {
+		DisplayName: Stinger Arrow
+	}
+}
+
+NPCs: {
+	LightningOrb: {
+		DisplayName: Lightning Orb
+	}
+
+	ObserverOfTheMultiversePhase1: {
+		DisplayName: Cosmic Observer
+	}
+
+	ObserverOfTheMultiversePhase2: {
+		DisplayName: Cosmic Annihilator
+	}
+
+	PhantomEyeOfCthulhu1: {
+		DisplayName: Phantasmal Eye
+	}
+
+	PhantomEyeOfCthulhu2: {
+		DisplayName: Phantasmal Mouth
+	}
+
+	RyftDweller: {
+		DisplayName: Ryft Dweller
+	}
+
+	Ryft: {
+		DisplayName: Ryft
+	}
+
+	LaserOrb: {
+		DisplayName: Laser Orb
+	}
+
+	OminousWormhole: {
+		DisplayName: Ominous Wormhole
+	}
+
+	BloodSpitter: {
+		DisplayName: Blood Spitter
+	}
+
+	BloodySpit: {
+		DisplayName: Bloody Spit
+	}
+
+	CursedCorruptor: {
+		DisplayName: Cursed Corruptor
+	}
+
+	EnragedHallowedSlime: {
+		DisplayName: Enraged Hallowed Slime
+	}
+
+	GoldenSpitter: {
+		DisplayName: Golden Spitter
+	}
+
+	HallowedSlime: {
+		DisplayName: Hallowed Slime
+	}
+
+	MechanicalEye: {
+		DisplayName: Mechanical Eye
+	}
+}
+
+Tiles: {
+	BavariumOre: {
+		MapEntry: Bavarium Ore
+	}
+}
+
+LoreLines: {
+	Default: {
+		Line1: Whispers from on high dance in your ears...
+		Line2: Press "Left Shift" to listen closer
+	}
+
+	CosmicObserver: {
+		Line1: I've seen my share of cosmic entities in my time. There was one that still haunts me.
+		Line2: A distant presence at the fringes of reality, always watching me.
+		Line3: I could never pin down where it came from, but the very thought of it filled me with a sort of paranoid dread not
+		Line4: often felt, even in my current state. I still feel its constant glare, like an arrow piercing into my soul.
+	}
+}
+
+AllSeeingEye: {
+	Observer: Summons the one who watches all
+	Annihilator: Summons the weapon from beyond the ryfts
+	Annihilator2: Right Click to summon the one who watches all
+}
+
+SpawnInfo: {
+	CosmicObserver: Use the all-seeing eye
+	CosmicAnnihilator: Spawns when the Cosmic observer is defeated, Alternatively use the all-seeing eye again after the Observer has been defeated
+}
+
+Buffs: {
+	BrokenMana: {
+		Description: Your mana regeneration is stalling
+		DisplayName: Broken Mana
+	}
+}
+
+InfernumIntros: {
+	CosmicObserver:
+		'''
+		Observer of the Ryfts
+		Cosmic Observer
+		'''
+	CosmicAnnihilator:
+		'''
+		Ryft Warden
+		Cosmic Annihilator
+		'''
+}
+

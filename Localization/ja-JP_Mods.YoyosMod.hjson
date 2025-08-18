@@ -1,0 +1,350 @@
+{
+	Configs: {
+		YoyoConfig: {
+			VanillaYoyosToggle: {
+				Tooltip: "バニラのヨーヨーに特殊効果を与える"
+				Label: "バニラヨーヨーの変更を有効化"
+			}
+			Headers: {
+				Config: "設定ヘッダー"
+			}
+			DisplayName: "ヨーヨー設定"
+			VanillaYoyosNameToggle: {
+				Label: "バニラヨーヨーの名前変更を有効化"
+				Tooltip: "変更されたすべてのバニラヨーヨーの隣にプラス記号を追加する"
+			}
+			VanillaYoyosTooltipToggle: {
+				Label: "バニラヨーヨーのツールチップ変更を有効化"
+				Tooltip: "変更されたすべてのバニラヨーヨーに効果を説明するカスタムツールチップを追加する"
+			}
+		}
+	}
+	Projectiles: {
+		Y2: {
+			DisplayName: "Y2"
+		}
+		wisp: {
+			DisplayName: "wisp"
+		}
+		W2: {
+			DisplayName: "W2"
+		}
+		VortexP: {
+			DisplayName: "Vortex P"
+		}
+		tungstenP: {
+			DisplayName: "tungsten P"
+		}
+		truetP: {
+			DisplayName: "truet P"
+		}
+		TrueEndP: {
+			DisplayName: "True End P"
+		}
+		trueball2: {
+			DisplayName: "trueball2"
+		}
+		trueball: {
+			DisplayName: "trueball"
+		}
+		TheShortstop: {
+			DisplayName: "The Shortstop"
+		}
+		TheEndP: {
+			DisplayName: "The End P"
+		}
+		TheBackawayP: {
+			DisplayName: "The Backaway P"
+		}
+		StardustP: {
+			DisplayName: "Stardust P"
+		}
+		StardustDupe: {
+			DisplayName: "Stardust Dupe"
+		}
+		SolarP: {
+			DisplayName: "Solar P"
+		}
+		SkyGuardianP: {
+			DisplayName: "Sky Guardian P"
+		}
+		SkyDefenderP: {
+			DisplayName: "Sky Defender P"
+		}
+		silverP: {
+			DisplayName: "silver P"
+		}
+		sack: {
+			DisplayName: "sack"
+		}
+		RubixP: {
+			DisplayName: "Rubix P"
+		}
+		R2: {
+			DisplayName: "R2"
+		}
+		platinumP: {
+			DisplayName: "platinum P"
+		}
+		piece: {
+			DisplayName: "piece"
+		}
+		O2: {
+			DisplayName: "O2"
+		}
+		NebulaP: {
+			DisplayName: "Nebula P"
+		}
+		MagmaRollerP: {
+			DisplayName: "Magma Roller P"
+		}
+		LostIvyP: {
+			DisplayName: "Lost Ivy P"
+		}
+		leadP: {
+			DisplayName: "lead P"
+		}
+		ironP: {
+			DisplayName: "iron P"
+		}
+		hallowp: {
+			DisplayName: "hallowp"
+		}
+		hallowedk: {
+			DisplayName: "hallowedk"
+		}
+		goldP: {
+			DisplayName: "gold P"
+		}
+		ghostP: {
+			DisplayName: "ghost P"
+		}
+		G2: {
+			DisplayName: "G2"
+		}
+		FragmentP: {
+			DisplayName: "Fragment P"
+		}
+		dup: {
+			DisplayName: "dup"
+		}
+		CustomYoyoProjectile: {
+			DisplayName: "Custom Yoyo Projectile"
+		}
+		CrimTideP: {
+			DisplayName: "Crim Tide P"
+		}
+		CounterD: {
+			DisplayName: "Counter D"
+		}
+		ball2: {
+			DisplayName: "ball2"
+		}
+		ball: {
+			DisplayName: "ball"
+		}
+		B2: {
+			DisplayName: "B2"
+		}
+	}
+	Items: {
+		YoyoCrateItem: {
+			Tooltip: "右クリックで開く\n様々なヨーヨーアイテムが入っている"
+			DisplayName: "ヨーヨーの木箱"
+		}
+		Vortex: {
+			Tooltip: "天の力で満たされている\nホーミングロケットをランダムに発射する\nボルテックス防具着用時、10%の追加ダメージを与える"
+			DisplayName: "ボルテックスのヨーヨー"
+		}
+		tungsten: {
+			Tooltip: "「タングステンで作られたヨーヨー」"
+			DisplayName: "タングステンのヨーヨー"
+		}
+		truet: {
+			Tooltip: "アップグレードされた能力で弾のリングを発射する"
+			DisplayName: "真・テラリアン"
+		}
+		TrueEnd: {
+			Tooltip: "「これで終わりだ」\n[c/FF5D52:使用にはヨーヨーソウルが必要]\n右クリックでサクリファイスを発動\nサクリファイスは[c/FF0000:代償を払って]ヨーヨーを最大3段階まで強化する\nティア3になるまでヨーヨーグローブを無効化する"
+			DisplayName: "ザ・トゥルーエンド"
+		}
+		TheShortstopY: {
+			Tooltip: "このヨーヨーは射程が非常に短いが、高いダメージを与える\n敵に2回ヒットすると壊れる"
+			DisplayName: "ショートストップ"
+		}
+		TheEnd: {
+			Tooltip: "「最高のヨーヨー」"
+			DisplayName: "ジ・エンド"
+		}
+		TheBackaway: {
+			Tooltip: "このヨーヨーは極端なノックバックを持ち、敵を吹き飛ばすことができる"
+			DisplayName: "ザ・バックアウェイ"
+		}
+		Stardust: {
+			Tooltip: "天の力で満たされている\nこのヨーヨーは壁を貫通できる\n追加のヨーヨーもスポーンすることがある\nスターダスト防具着用時、10%の追加ダメージを与える"
+			DisplayName: "スターダストのヨーヨー"
+		}
+		Solar: {
+			Tooltip: "天の力で満たされている\nこのヨーヨーはソーラーイラプションの特性を持つ"
+			DisplayName: "ソーラーフレアのヨーヨー"
+		}
+		SkyGuardian: {
+			Tooltip: "「力にはわずかな速度の犠牲が伴う」"
+			DisplayName: "スカイガーディアン"
+		}
+		SkyDefender: {
+			Tooltip: "「意のままに空を守れ」"
+			DisplayName: "スカイディフェンダー"
+		}
+		silver: {
+			Tooltip: "「銀で作られたヨーヨー」"
+			DisplayName: "銀のヨーヨー"
+		}
+		Rubix: {
+			Tooltip: "「フラストレーションに満ちたキューブ！スケルトロンでさえ解けなかった」"
+			DisplayName: "フラストレーションキューブ"
+		}
+		platinum: {
+			Tooltip: "「プラチナで作られたヨーヨー」"
+			DisplayName: "プラチナのヨーヨー"
+		}
+		Nebula: {
+			Tooltip: "天のダメージで強化されている\nこのヨーヨーは群を抜いて最も強力だが、速度に難がある\nネビュラ防具着用時、10%の追加ダメージを与える"
+			DisplayName: "ネビュラのヨーヨー"
+		}
+		BrokenYoyo: {
+			Tooltip: "「それは達人のものだった…」"
+			DisplayName: "壊れた英雄のヨーヨー"
+		}
+		MagmaRoller: {
+			Tooltip: "邪魔するものを燃やす能力を持つ"
+			DisplayName: "マグマローラー"
+		}
+		LostIvy: {
+			Tooltip: "ヨーヨーは定期的にスポアトラップを撃ち出す"
+			DisplayName: "ロストアイビー"
+		}
+		lead: {
+			Tooltip: "「鉛で作られたヨーヨー」"
+			DisplayName: "鉛のヨーヨー"
+		}
+		iron: {
+			Tooltip: "「鉄で作られたヨーヨー」"
+			DisplayName: "鉄のヨーヨー"
+		}
+		hallow: {
+			Tooltip: "「中は空かもしれないが、かなり重い…」"
+			DisplayName: "ホーリーアウト"
+		}
+		gold: {
+			Tooltip: "「金で作られたヨーヨー」"
+			DisplayName: "金のヨーヨー"
+		}
+		ghost: {
+			Tooltip: "「見えるけど、本当は見えない」\n壁を貫通できる"
+			DisplayName: "ホーンテッドスロー"
+		}
+		FragmentI: {
+			Tooltip: "「何かがおかしい…」\n「全部一緒に混ぜるべきじゃなかったかもしれない」\n合体したすべての月のヨーヨーの力を使う"
+			DisplayName: "断片のヨーヨー？"
+		}
+		CrimTide: {
+			Tooltip: "「ロールタイド！」"
+			DisplayName: "クリムゾンタイド"
+		}
+		WTD: {
+			Tooltip: "プレイヤーが「ウォーク・ザ・ドッグ」のトリックを習得できる\nこのトリックはヨーヨーをいずれかのタイルに衝突させることで実行される\nヨーヨーの次のヒットに追加ダメージを与え、炎上を付与する\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T1トリック: ウォーク・ザ・ドッグ"
+		}
+		WTC: {
+			Tooltip: "プレイヤーが「ウォーク・ザ・キャット」のトリックを習得できる\n[c/FF5D52:使用にはヨーヨーバッグが必要]\nこのトリックは敵を背後から、または背を向けた状態で攻撃することで実行される\n敵に2.5倍のダメージでバックスタブし、出血を付与する\n出血はボスに対してより多くのダメージを与える\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T2トリック: ウォーク・ザ・キャット"
+		}
+		UniqueX: {
+			Tooltip: "プレイヤーが「ユニークエグゼキューション」のトリックを習得できる\n[c/FF5D52:使用にはヨーヨーバッグが必要]\n「町の住民を興奮させて愛を受け取ろう！」\nこのトリックは単に敵を倒すことで実行される\n使用者にわずかなライフ自然回復増進を与える\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T2トリック: ユニークエグゼキューション"
+		}
+		StaticCharge: {
+			Tooltip: "プレイヤーが「スタティックチャージ」のトリックを習得できる\n[c/FF5D52:使用にはヨーヨーソウルが必要]\nこのトリックはヨーヨーを体に10ティック近づけて保持することで実行される\nヨーヨーをチャージし、次のヒットで大規模な20倍ダメージの爆発を与える\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T3トリック: スタティックチャージ"
+		}
+		Pop: {
+			Tooltip: "プレイヤーが「ポップ」のトリックを習得できる\n「すべてのトリックの中で最もシンプル」\nこのトリックは単に敵にヒットさせることで実行される\nヨーヨーの次のヒットに大きなノックバックとわずかなダメージを与える\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T1トリック: ポップ"
+		}
+		DoubleT: {
+			Tooltip: "プレイヤーが「ダブルトラブル」のトリックを習得できる\n[c/FF5D52:使用にはヨーヨーソウルが必要]\nこのトリックはカウンターウェイトを使用することで実行される\nカウンターウェイトを1.5倍のダメージを持つセカンダリヨーヨーとして使用できる\n右クリックでこのトリックを忘れる（習得済みの場合）"
+			DisplayName: "T3トリック: ダブルトラブル"
+		}
+		MYS: {
+			Tooltip: "ヨーヨーバッグのすべての効果を含む\nヨーヨーの攻撃範囲が50%増加（ヨーヨーバッグにスタック）\nヨーヨーの展開時間が50%増加\nヨーヨーの速度が40%上昇\n「テラリアンに似ている」"
+			DisplayName: "ヨーヨーソウル"
+		}
+		Magnify: {
+			Tooltip: "ヨーヨーの速度が40%上昇\nヨーヨーの展開時間が-15%減少"
+			DisplayName: "極細の糸"
+		}
+		diamondst: {
+			Tooltip: "ヨーヨーの展開時間が50%増加\nヨーヨーの速度が-15%低下"
+			DisplayName: "ダイヤモンドの融合糸"
+		}
+	}
+	Buffs: {
+		Walkdebuff: {
+			Description: "あなたの「犬」は疲れ果てて休息が必要"
+			DisplayName: "ウォーク・ザ・ドッグ: クールダウン"
+		}
+		Walkbuff: {
+			Description: "あなたのウォーキングスキルと摩擦が、次のストライクを強化した！\nヨーヨーが炎上デバフと追加ダメージを与える"
+			DisplayName: "ウォーク・ザ・ドッグ: ストライクボーナス"
+		}
+		Splinter: {
+			Description: "追加ダメージが与えられる"
+			DisplayName: "スプリンター！"
+		}
+		Sacrifice3: {
+			Description: "ヨーヨーが重くなるにつれて体が軽く感じる\n心が空っぽになり、非常に軽く感じる\n最大体力が300減少し、防御力が半減する\n真のヨーヨー能力が有効化され、ヨーヨーグローブが有効化され、追加のヨーヨークリティカルストライクと追加ダメージが増加する"
+			DisplayName: "サクリファイス III"
+		}
+		Sacrifice2: {
+			Description: "ヨーヨーが重くなるにつれて体が軽く感じる\n心が空っぽになり、より軽く感じる\n最大体力が100減少し、防御力が半減する\n真のヨーヨー能力が有効化され、ヨーヨークリティカルストライクとダメージが増加する"
+			DisplayName: "サクリファイス II"
+		}
+		Sacrifice: {
+			Description: "ヨーヨーが重くなるにつれて体が軽く感じる\n防御力が半減する\nヨーヨークリティカルストライクとダメージが増加する"
+			DisplayName: "サクリファイス"
+		}
+		Popdebuff: {
+			Description: "手首がポップのしすぎで疲れている"
+			DisplayName: "ポップ: クールダウン"
+		}
+		Popbuff: {
+			Description: "あなたのポッピングスキルがヨーヨーの次のヒットを強化した！\nヨーヨーの次のヒットがノックバックとわずかなダメージを増加させる"
+			DisplayName: "ポップ: ノックバックボーナス"
+		}
+		Healthdebuff: {
+			Description: "あなたのスキルは反復的になるにつれて、それほどユニークではなくなる :/"
+			DisplayName: "ユニークエグゼキューション: クールダウン"
+		}
+		CounterDebuff: {
+			Description: "カウンターウェイトが深刻なダメージを受け、修理が必要"
+			DisplayName: "ダブルトラブル: クールダウン"
+		}
+		Chargedebuff: {
+			Description: "これ以上静電気をチャージできない"
+			DisplayName: "スタティックチャージ: クールダウン"
+		}
+		Chargebuff: {
+			Description: "ヨーヨーに静電気をチャージしている"
+			DisplayName: "スタティックチャージ: チャージ中"
+		}
+		Catdebuff: {
+			Description: "あなたの猫はリードに繋がれて疲れ果てている。自由にさせてあげよう！"
+			DisplayName: "ウォーク・ザ・キャット: クールダウン"
+		}
+		BetterBleed: {
+			Description: "出血しているが、実際にダメージを受けている"
+			DisplayName: "ベターII"
+		}
+	}
+}

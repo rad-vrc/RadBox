@@ -1,0 +1,1944 @@
+Buffs: {
+	PetJackalopeBuff: {
+		DisplayName: Pet Jackalope Buff
+		Description: A Jackrabbit with antlers
+	}
+
+	ImbueShadowflame: {
+		DisplayName: Weapon Imbue: Shadowflame
+		Description: Melee attacks cause Shadow Flames
+	}
+
+	ImbueFrostburn: {
+		DisplayName: Weapon Imbue: Frostburn
+		Description: Melee attacks cause Frostburn
+	}
+
+	PotionCursedVeinB: {
+		DisplayName: Cursed Vein
+		Description: Enemies that touch you will be inflicted with Cursed Flames
+	}
+
+	PotionFireVeinB: {
+		DisplayName: Fire Vein
+		Description: Enemies that touch you will be set On Fire
+	}
+
+	PotionFrostVeinB: {
+		DisplayName: Frost Vein
+		Description: Enemies that touch you will be inflicted with Frostburn
+	}
+
+	PotionPoisonVeinB: {
+		DisplayName: Poison Vein
+		Description: Enemies that touch you will be poisoned
+	}
+
+	PotionShadowVeinB: {
+		DisplayName: Shadow Vein
+		Description: Enemies that touch you will be inflicted with Shadow Flames
+	}
+
+	PotionVenomVeinB: {
+		DisplayName: Venom Vein
+		Description: Enemies that touch you will be inflicted with Acid Venom
+	}
+
+	SharpmindB: {
+		DisplayName: Sharp Mind
+		Description: Protects against Confusion
+	}
+
+	TranscendenceTag: {
+		DisplayName: Transcendence Tag
+		Description: Mods.Liber.Buffs.TranscendenceTag.Description
+	}
+
+	HunterWhipTag: {
+		DisplayName: Hunter Whip Tag
+		Description: Mods.Liber.Buffs.HunterWhipTag.Description
+	}
+
+	DeepCuts: {
+		DisplayName: Deep Cuts
+		Description: Mods.Liber.Buffs.DeepCuts.Description
+	}
+}
+
+Items: {
+	CloakSilk: {
+		DisplayName: Silk Cape
+		Tooltip: Increases max health by 5
+	}
+
+	EyeOfConfusion: {
+		DisplayName: Eye of Confusion
+		Tooltip: Confuse enemies on critical hits
+	}
+
+	Gauntlet: {
+		DisplayName: Gauntlet
+		Tooltip: Increases melee damage by 3
+	}
+
+	HangmanNoose: {
+		DisplayName: Hangman's Noose
+		Tooltip:
+			'''
+			Increases critical strike chance by 4%
+			'According to legend, a piece of a noose brings luck'
+			'''
+	}
+
+	ShieldKnight: {
+		DisplayName: Knight Shield
+		Tooltip: Increases melee damage by 3
+	}
+
+	ShieldLeather: {
+		DisplayName: Leather Shield
+		Tooltip: ""
+	}
+
+	ShieldMammoth: {
+		DisplayName: Mammoth Shield
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			Grants immunity to Confusion
+			Allows the player to dash
+			Double tap a direction
+			'''
+	}
+
+	SkullRing: {
+		DisplayName: Skull Ring
+		Tooltip:
+			'''
+			Increases damage by 20
+			Increases critical strike chance by 10%
+			Decreases defense by 40
+			'A cursed ring that both strengthens and weakens you'
+			'''
+	}
+
+	VikingShield: {
+		DisplayName: Viking Shield
+		Tooltip: Reduces damage taken by 5%
+	}
+
+	WristBand: {
+		DisplayName: Wrist Band
+		Tooltip:
+			'''
+			Increases melee damage by 2
+			'Offers an excellent source of support'
+			'''
+	}
+
+	ClothTunic: {
+		DisplayName: Cloth Tunic
+		Tooltip: ""
+	}
+
+	Scouter: {
+		DisplayName: Scouter
+		Tooltip: Shows the location of enemies
+	}
+
+	SeerStone: {
+		DisplayName: Seer Stone
+		Tooltip: Allows the wearer to see treasure
+	}
+
+	HunterArmor: {
+		DisplayName: Hunter Garb
+		Tooltip: ""
+	}
+
+	HunterHat: {
+		DisplayName: Hunter Hood
+		Tooltip: Increases melee damage by 5%
+	}
+
+	HunterCowl: {
+		DisplayName: Hunter Cowl
+		Tooltip: Increases summon damage by 5%
+	}
+
+	HunterPants: {
+		DisplayName: Hunter Pants
+		Tooltip: ""
+	}
+
+	WeirdCarrot: {
+		DisplayName: Weird Carrot
+		Tooltip: Summons a pet Jackalope
+	}
+
+	CrudeFlaskConfusion: {
+		DisplayName: Crude Flask of Confusion
+		Tooltip: Melee and whip attacks confuse enemies
+	}
+
+	CrudeFlaskFire: {
+		DisplayName: Crude Flask of Fire
+		Tooltip: Melee and whip attacks set enemies On Fire
+	}
+
+	CrudeFlaskFrostburn: {
+		DisplayName: Crude Flask of Frostburn
+		Tooltip: Melee and whip attacks cause Frostburn
+	}
+
+	CrudeFlaskGold: {
+		DisplayName: Crude Flask of Gold
+		Tooltip: Melee and whip attacks make enemies drop more gold
+	}
+
+	CrudeFlaskPoison: {
+		DisplayName: Crude Flask of Poison
+		Tooltip: Melee and whip attacks poison enemies
+	}
+
+	DrinkBeer: {
+		DisplayName: Beer
+		Tooltip:
+			'''
+			Minor improvements to melee stats but lowers defense
+			'A common drink for a common person'
+			'''
+	}
+
+	DrinkWine: {
+		DisplayName: Wine
+		Tooltip:
+			'''
+			Minor improvements to melee stats but lowers defense
+			'An elaborate drink for an elaborate person'
+			'''
+	}
+
+	ElixirHealing: {
+		DisplayName: Healing Elixir
+		Tooltip: Restores 75 life and an additional 20% of your max life
+	}
+
+	ElixirHealingLesser: {
+		DisplayName: Lesser Healing Elixir
+		Tooltip: Restores 40 life and an additional 10% of your max life
+	}
+
+	FlaskFrostburn: {
+		DisplayName: Flask of Frostburn
+		Tooltip: Melee and whip attacks cause Frostburn
+	}
+
+	FlaskShadowflame: {
+		DisplayName: Flask of Shadowflame
+		Tooltip: Melee and whip attacks cause Shadowflame
+	}
+
+	FoodFrankfurter: {
+		DisplayName: Frankfurter
+		Tooltip: 全ステータスが中程度強化
+	}
+
+	FoodStrawberry: {
+		DisplayName: Strawberry
+		Tooltip: 全ステータスが中程度強化
+	}
+
+	FoodToastEgg: {
+		DisplayName: Toast with Egg
+		Tooltip: 全ステータスが中程度強化
+	}
+
+	PotionCursedVein: {
+		DisplayName: Cursed Vein Potion
+		Tooltip: Enemies that touch you will be inflicted with Cursed Flames
+	}
+
+	PotionFireVein: {
+		DisplayName: Fire Vein Potion
+		Tooltip: Enemies that touch you will be set On Fire
+	}
+
+	PotionFrostVein: {
+		DisplayName: Frost Vein Potion
+		Tooltip: Enemies that touch you will be inflicted with Frostburn
+	}
+
+	PotionPoisonVein: {
+		DisplayName: Poison Vein Potion
+		Tooltip: Enemies that touch you will be poisoned
+	}
+
+	PotionShadowVein: {
+		DisplayName: Shadow Vein Potion
+		Tooltip: Enemies that touch you will be inflicted with Shadow Flames
+	}
+
+	PotionSharpmind: {
+		DisplayName: Sharp Mind Potion
+		Tooltip: Protects against Confusion
+	}
+
+	PotionVenomVein: {
+		DisplayName: Venom Vein Potion
+		Tooltip: Enemies that touch you will be inflicted with Acid Venom
+	}
+
+	Jackalope: {
+		DisplayName: Jackalope
+		Tooltip: "'Hopping antlers'"
+	}
+
+	JackalopeCaged: {
+		DisplayName: Jackalope Cage
+		Tooltip: ""
+	}
+
+	BagGem: {
+		DisplayName: Bag of Gems
+		Tooltip: <right>で開く
+	}
+
+	BoboFeather: {
+		DisplayName: Bobo Feather
+		Tooltip: ""
+	}
+
+	BoltEye: {
+		DisplayName: Bolt Eye
+		Tooltip: ""
+	}
+
+	CentipedeMandible: {
+		DisplayName: Centipede Mandible
+		Tooltip: ""
+	}
+
+	FrostGolemCore: {
+		DisplayName: Frost Golem Core
+		Tooltip: ""
+	}
+
+	FrostSalts: {
+		DisplayName: Frost Salts
+		Tooltip: ""
+	}
+
+	GemAlexandrite: {
+		DisplayName: Alexandrite
+		Tooltip: ""
+	}
+
+	GemAmetrine: {
+		DisplayName: Ametrine
+		Tooltip: ""
+	}
+
+	GemAmmolite: {
+		DisplayName: Ammolite
+		Tooltip: ""
+	}
+
+	GemBeryl: {
+		DisplayName: Beryl
+		Tooltip: ""
+	}
+
+	GemChrysoberyl: {
+		DisplayName: Chrysoberyl
+		Tooltip: ""
+	}
+
+	GemCitrine: {
+		DisplayName: Citrine
+		Tooltip: ""
+	}
+
+	GemDemantoide: {
+		DisplayName: Demantoide
+		Tooltip: ""
+	}
+
+	GemGarnet: {
+		DisplayName: Garnet
+		Tooltip: ""
+	}
+
+	GemIolite: {
+		DisplayName: Iolite
+		Tooltip: ""
+	}
+
+	GemJeremejevite: {
+		DisplayName: Jeremejevite
+		Tooltip: ""
+	}
+
+	GemMorganite: {
+		DisplayName: Morganite
+		Tooltip: ""
+	}
+
+	GemRubellite: {
+		DisplayName: Rubellite
+		Tooltip: ""
+	}
+
+	GemTanzanite: {
+		DisplayName: Tanzanite
+		Tooltip: ""
+	}
+
+	GemGoshenite: {
+		DisplayName: Goshenite
+		Tooltip: ""
+	}
+
+	MammothTusk: {
+		DisplayName: Mammoth Tusk
+		Tooltip: ""
+	}
+
+	MudflyTail: {
+		DisplayName: Mudfly Tail
+		Tooltip: ""
+	}
+
+	ShadowPhosphorus: {
+		DisplayName: Shadow Phosphorus
+		Tooltip: ""
+	}
+
+	SmolderingAshes: {
+		DisplayName: Smoldering Ashes
+		Tooltip: ""
+	}
+
+	WolfFang: {
+		DisplayName: Wolf Fang
+		Tooltip: ""
+	}
+
+	BioluminescentTorch: {
+		DisplayName: Bioluminescent Torch
+		Tooltip: Torch made out of Mudfly Tail
+	}
+
+	GemRelicAlexandrite: {
+		DisplayName: Alexandrite Relic
+		Tooltip: ""
+	}
+
+	GemRelicAmber: {
+		DisplayName: コハク Relic
+		Tooltip: ""
+	}
+
+	GemRelicAmethyst: {
+		DisplayName: アメジスト Relic
+		Tooltip: ""
+	}
+
+	GemRelicAmetrine: {
+		DisplayName: Ametrine Relic
+		Tooltip: ""
+	}
+
+	GemRelicAmmolite: {
+		DisplayName: Ammolite Relic
+		Tooltip: ""
+	}
+
+	GemRelicBeryl: {
+		DisplayName: Beryl Relic
+		Tooltip: ""
+	}
+
+	GemRelicChrysoberyl: {
+		DisplayName: Chrysoberyl Relic
+		Tooltip: ""
+	}
+
+	GemRelicCitrine: {
+		DisplayName: Citrine Relic
+		Tooltip: ""
+	}
+
+	GemRelicDemantoide: {
+		DisplayName: Demantoide Relic
+		Tooltip: ""
+	}
+
+	GemRelicDiamond: {
+		DisplayName: ダイヤモンド Relic
+		Tooltip: ""
+	}
+
+	GemRelicEmerald: {
+		DisplayName: エメラルド Relic
+		Tooltip: ""
+	}
+
+	GemRelicGarnet: {
+		DisplayName: Garnet Relic
+		Tooltip: ""
+	}
+
+	GemRelicIolite: {
+		DisplayName: Iolite Relic
+		Tooltip: ""
+	}
+
+	GemRelicJeremejevite: {
+		DisplayName: Jeremejevite Relic
+		Tooltip: ""
+	}
+
+	GemRelicMorganite: {
+		DisplayName: Morganite Relic
+		Tooltip: ""
+	}
+
+	GemRelicRubellite: {
+		DisplayName: Rubellite Relic
+		Tooltip: ""
+	}
+
+	GemRelicRuby: {
+		DisplayName: ルビー Relic
+		Tooltip: ""
+	}
+
+	GemRelicSapphire: {
+		DisplayName: サファイア Relic
+		Tooltip: ""
+	}
+
+	GemRelicTanzanite: {
+		DisplayName: Tanzanite Relic
+		Tooltip: ""
+	}
+
+	GemRelicTopaz: {
+		DisplayName: トパーズ Relic
+		Tooltip: ""
+	}
+
+	GemRelicGoshenite: {
+		DisplayName: Goshenite Relic
+		Tooltip: ""
+	}
+
+	TanningRack: {
+		DisplayName: Tanning Rack
+		Tooltip: ""
+	}
+
+	TransmutationTable: {
+		DisplayName: Transmutation Table
+		Tooltip: Table for performing alchemical transmutations
+	}
+
+	Baselard: {
+		DisplayName: Baselard
+		Tooltip: ""
+	}
+
+	CombatKnife: {
+		DisplayName: Combat Knife
+		Tooltip: ""
+	}
+
+	Rapier: {
+		DisplayName: Rapier
+		Tooltip: ""
+	}
+
+	Icicle: {
+		DisplayName: Icicle
+		Tooltip: Has a small chance to frostburn enemies
+	}
+
+	PalmAxe: {
+		DisplayName: Palm Axe
+		Tooltip: ""
+	}
+
+	BambooSword: {
+		DisplayName: Bamboo Sword
+		Tooltip:
+			'''
+			A sword made out of Bamboo
+			'Did I hear someone say "Kendo" ?'
+			'''
+	}
+
+	BastardSword: {
+		DisplayName: Bastard Sword
+		Tooltip: A sword commonly used in late medieval times
+	}
+
+	RustedCutlass: {
+		DisplayName: Rusty Cutlass
+		Tooltip: Favorite choice of a pirate
+	}
+
+	VikingSword: {
+		DisplayName: Skræp
+		Tooltip:
+			'''
+			Has a small chance to inflict Frostburn
+			'Ancient sword of Vikings'
+			'''
+	}
+
+	HunterSword: {
+		DisplayName: Hunter Sword
+		Tooltip: ""
+	}
+
+	Transcendence: {
+		DisplayName: Transcendence
+		Tooltip:
+			'''
+			1 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	ThrowingAxe: {
+		DisplayName: Throwing Axe
+		Tooltip: ""
+	}
+
+	HunterSpear: {
+		DisplayName: Hunter Spear
+		Tooltip: ""
+	}
+
+	SlimeMintBanner: {
+		DisplayName: Mint Slime Banner
+		Tooltip: Nearby players get a bonus against: Mint Slime
+	}
+
+	SlimeLimeBanner: {
+		DisplayName: Lime Slime Banner
+		Tooltip: Nearby players get a bonus against: Lime Slime
+	}
+
+	SlimeCyanBanner: {
+		DisplayName: Cyan Slime Banner
+		Tooltip: Nearby players get a bonus against: Cyan Slime
+	}
+
+	SlimeOrangeBanner: {
+		DisplayName: Orange Slime Banner
+		Tooltip: Nearby players get a bonus against: Orange Slime
+	}
+
+	SlimeVioletBanner: {
+		DisplayName: Violet Slime Banner
+		Tooltip: Nearby players get a bonus against: Violet Slime
+	}
+
+	SlimeWhiteBanner: {
+		DisplayName: White Slime Banner
+		Tooltip: Nearby players get a bonus against: White Slime
+	}
+
+	PimpleBanner: {
+		DisplayName: Pimple Banner
+		Tooltip: Nearby players get a bonus against: Pimple
+	}
+
+	FoulDropBanner: {
+		DisplayName: Putrid Banner
+		Tooltip: Nearby players get a bonus against: Putrid
+	}
+
+	JackalopeBanner: {
+		DisplayName: Jackalope Banner
+		Tooltip: Nearby players get a bonus against: Jackalope
+	}
+
+	SlimeHoneyBanner: {
+		DisplayName: Honey Drop Banner
+		Tooltip: Nearby players get a bonus against: Honey Drop
+	}
+
+	CubeSlimeBlueBanner: {
+		DisplayName: Blue Cube Slime Banner
+		Tooltip: Nearby players get a bonus against: Blue Cube Slime
+	}
+
+	CubeSlimeGreenBanner: {
+		DisplayName: Green Cube Slime Banner
+		Tooltip: Nearby players get a bonus against: Green Cube Slime
+	}
+
+	CubeSlimeRedBanner: {
+		DisplayName: Red Cube Slime Banner
+		Tooltip: Nearby players get a bonus against: Red Cube Slime
+	}
+
+	SlimeOceanBanner: {
+		DisplayName: Ocean Slime Banner
+		Tooltip: Nearby players get a bonus against: Ocean Slime
+	}
+
+	SlimeWaterBanner: {
+		DisplayName: Water Slime Banner
+		Tooltip: Nearby players get a bonus against: Water Slime
+	}
+
+	BoboBanner: {
+		DisplayName: Bobo Banner
+		Tooltip: Nearby players get a bonus against: Bobo
+	}
+
+	BoltBanner: {
+		DisplayName: Bolt Banner
+		Tooltip: Nearby players get a bonus against: Bolt
+	}
+
+	BurntBanner: {
+		DisplayName: Burnt Banner
+		Tooltip: Nearby players get a bonus against: Burnt
+	}
+
+	DraugrBanner: {
+		DisplayName: Draugr Banner
+		Tooltip: Nearby players get a bonus against: Draugr
+	}
+
+	FiremanBanner: {
+		DisplayName: Fajermon Banner
+		Tooltip: Nearby players get a bonus against: Fajermon
+	}
+
+	SlimeSandballBanner: {
+		DisplayName: Sandball Slime Banner
+		Tooltip: Nearby players get a bonus against: Sandball Slime
+	}
+
+	BatChillBanner: {
+		DisplayName: Chill Bat Banner
+		Tooltip: Nearby players get a bonus against: Chill Bat
+	}
+
+	BatSandyBanner: {
+		DisplayName: Sandy Bat Banner
+		Tooltip: Nearby players get a bonus against: Sandy Bat
+	}
+
+	CentipedeBanner: {
+		DisplayName: Centipede Banner
+		Tooltip: Nearby players get a bonus against: Centipede
+	}
+
+	CoinBoyBanner: {
+		DisplayName: Coin Boy Banner
+		Tooltip: Nearby players get a bonus against: Coin Boy
+	}
+
+	GolemBoneBanner: {
+		DisplayName: Bone Golem Banner
+		Tooltip: Nearby players get a bonus against: Bone Golem
+	}
+
+	GolemFireBanner: {
+		DisplayName: Fire Golem Banner
+		Tooltip: Nearby players get a bonus against: Fire Golem
+	}
+
+	GolemIceBanner: {
+		DisplayName: Frost Golem Banner
+		Tooltip: Nearby players get a bonus against: Frost Golem
+	}
+
+	GolemJungleBanner: {
+		DisplayName: Mud Golem Banner
+		Tooltip: Nearby players get a bonus against: Mud Golem
+	}
+
+	GolemMarbleBanner: {
+		DisplayName: Marble Golem Banner
+		Tooltip: Nearby players get a bonus against: Marble Golem
+	}
+
+	GolemMeteorBanner: {
+		DisplayName: Meteor Golem Banner
+		Tooltip: Nearby players get a bonus against: Meteor Golem
+	}
+
+	GolemSandBanner: {
+		DisplayName: Sand Golem Banner
+		Tooltip: Nearby players get a bonus against: Sand Golem
+	}
+
+	GolemStoneBanner: {
+		DisplayName: Stone Golem Banner
+		Tooltip: Nearby players get a bonus against: Stone Golem
+	}
+
+	GolemWoodBanner: {
+		DisplayName: Treant Banner
+		Tooltip: Nearby players get a bonus against: Treant
+	}
+
+	HangmanBanner: {
+		DisplayName: Hangman Banner
+		Tooltip: Nearby players get a bonus against: Hangman
+	}
+
+	IceWormBanner: {
+		DisplayName: Ice Worm Banner
+		Tooltip: Nearby players get a bonus against: Ice Worm
+	}
+
+	IceWraithBanner: {
+		DisplayName: Ice Wraith Banner
+		Tooltip: Nearby players get a bonus against: Ice Wraith
+	}
+
+	MeteyerBanner: {
+		DisplayName: Meteyer Banner
+		Tooltip: Nearby players get a bonus against: Meteyer
+	}
+
+	MudflyBanner: {
+		DisplayName: Mudfly Banner
+		Tooltip: Nearby players get a bonus against: Mudfly
+	}
+
+	PossessedSwordBanner: {
+		DisplayName: Possessed Sword Banner
+		Tooltip: Nearby players get a bonus against: Possessed Sword
+	}
+
+	SlimeEctoBanner: {
+		DisplayName: Ectoslime Banner
+		Tooltip: Nearby players get a bonus against: Ectoslime
+	}
+
+	SlimeMushroomBanner: {
+		DisplayName: Fungicap Banner
+		Tooltip: Nearby players get a bonus against: Fungicap
+	}
+
+	WolfBlackBanner: {
+		DisplayName: Black Wolf Banner
+		Tooltip: Nearby players get a bonus against: Black Wolf
+	}
+
+	WolfBrownBanner: {
+		DisplayName: Brown Wolf Banner
+		Tooltip: Nearby players get a bonus against: Brown Wolf
+	}
+
+	WolfDingoBanner: {
+		DisplayName: Dingo Banner
+		Tooltip: Nearby players get a bonus against: Dingo
+	}
+
+	WolfGrayBanner: {
+		DisplayName: Gray Wolf Banner
+		Tooltip: Nearby players get a bonus against: Gray Wolf
+	}
+
+	WolfIceBanner: {
+		DisplayName: Ice Wolf Banner
+		Tooltip: Nearby players get a bonus against: Ice Wolf
+	}
+
+	WolfRedBanner: {
+		DisplayName: Red Wolf Banner
+		Tooltip: Nearby players get a bonus against: Red Wolf
+	}
+
+	HunterBow: {
+		DisplayName: Hunter Bow
+		Tooltip: ""
+	}
+
+	HunterGuide: {
+		DisplayName: Hunter's Guide
+		Tooltip: ""
+	}
+
+	HunterCap: {
+		DisplayName: Hunter Cap
+		Tooltip: Increases ranged damage by 5%
+	}
+
+	HunterHood: {
+		DisplayName: Hunter Hood
+		Tooltip: Increases magic damage by 5%
+	}
+
+	HunterWhip: {
+		DisplayName: Hunter Whip
+		Tooltip:
+			'''
+			2 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	IceMammothBanner: {
+		DisplayName: Ice Mammoth Banner
+		Tooltip: Nearby players get a bonus against: Ice Mammoth
+	}
+
+	AxeKnightBanner: {
+		DisplayName: Axe Knight Banner
+		Tooltip: Nearby players get a bonus against: Axe Knight
+	}
+
+	BarghestBanner: {
+		DisplayName: Barghest Banner
+		Tooltip: Nearby players get a bonus against: Barghest
+	}
+
+	BicornBanner: {
+		DisplayName: Bicorn Banner
+		Tooltip: Nearby players get a bonus against: Bicorn
+	}
+
+	BrownieBanner: {
+		DisplayName: Brownie Banner
+		Tooltip: Nearby players get a bonus against: Brownie
+	}
+
+	BuerBanner: {
+		DisplayName: Buer Banner
+		Tooltip: Nearby players get a bonus against: Buer
+	}
+
+	ByakheeBanner: {
+		DisplayName: Byakhee Banner
+		Tooltip: Nearby players get a bonus against: Byakhee
+	}
+
+	ChichevacheBanner: {
+		DisplayName: Chichevache Banner
+		Tooltip: Nearby players get a bonus against: Chichevache
+	}
+
+	GiantSkeletonAncientBanner: {
+		DisplayName: Ancient Skeleton Skeleton Banner
+		Tooltip: Nearby players get a bonus against: Ancient Skeleton
+	}
+
+	GiantSkeletonBanner: {
+		DisplayName: Giant Skeleton Banner
+		Tooltip: Nearby players get a bonus against: Giant Skeleton
+	}
+
+	JiangshiABanner: {
+		DisplayName: Jiang Shi Banner
+		Tooltip: Nearby players get a bonus against: Jiang Shi
+	}
+
+	LithoboliaBanner: {
+		DisplayName: Lithobolia Banner
+		Tooltip: Nearby players get a bonus against: Lithobolia
+	}
+
+	MagmaMammothBanner: {
+		DisplayName: Magma Mammoth Banner
+		Tooltip: Nearby players get a bonus against: Magma Mammoth
+	}
+
+	MammothBanner: {
+		DisplayName: Mammoth Banner
+		Tooltip: Nearby players get a bonus against: Mammoth
+	}
+
+	MermanBanner: {
+		DisplayName: Merman Banner
+		Tooltip: Nearby players get a bonus against: Merman
+	}
+
+	PeepingEyeBanner: {
+		DisplayName: Peeping Eye Banner
+		Tooltip: Nearby players get a bonus against: Peeping Eye
+	}
+
+	ShadhavarBanner: {
+		DisplayName: Shâd'havâr Banner
+		Tooltip: Nearby players get a bonus against: Shâd'havâr
+	}
+
+	SkeletonSlingerBanner: {
+		DisplayName: Skeleton Slinger Banner
+		Tooltip: Nearby players get a bonus against: Skeleton Slinger
+	}
+
+	SkeletonSoldierBanner: {
+		DisplayName: Skeleton Soldier Banner
+		Tooltip: Nearby players get a bonus against: Skeleton Soldier
+	}
+
+	SludgeNitrogenBanner: {
+		DisplayName: Nitrogen Sludge Banner
+		Tooltip: Nearby players get a bonus against: Nitrogen Sludge
+	}
+
+	SprigganCorruptBanner: {
+		DisplayName: Corrupted Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Corrupted Spriggan
+	}
+
+	SprigganCrimsonBanner: {
+		DisplayName: Crimson Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Crimson Spriggan
+	}
+
+	SprigganForestBanner: {
+		DisplayName: Forest Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Forest Spriggan
+	}
+
+	SprigganHallowBanner: {
+		DisplayName: Hallow Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Hallow Spriggan
+	}
+
+	SprigganJungleBanner: {
+		DisplayName: Jungle Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Jungle Spriggan
+	}
+
+	SprigganMushroomBanner: {
+		DisplayName: Mushroom Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Mushroom Spriggan
+	}
+
+	SprigganOceanBanner: {
+		DisplayName: Ocean Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Ocean Spriggan
+	}
+
+	SprigganTundraBanner: {
+		DisplayName: Tundra Spriggan Banner
+		Tooltip: Nearby players get a bonus against: Tundra Spriggan
+	}
+
+	UneBanner: {
+		DisplayName: Une Banner
+		Tooltip: Nearby players get a bonus against: Une
+	}
+
+	WillowispBanner: {
+		DisplayName: Will'O'Wisp Banner
+		Tooltip: Nearby players get a bonus against: Will'O'Wisp
+	}
+
+	ZombieFlyingBanner: {
+		DisplayName: Flying Zombie Banner
+		Tooltip: Nearby players get a bonus against: Flying Zombie
+	}
+
+	ZombieHiveBanner: {
+		DisplayName: Hive Zombie Banner
+		Tooltip: Nearby players get a bonus against: Hive Zombie
+	}
+
+	ZombieHuskBanner: {
+		DisplayName: Zombie Husk Banner
+		Tooltip: Nearby players get a bonus against: Zombie Husk
+	}
+
+	ZombiePirateBanner: {
+		DisplayName: Pirate Zombie Banner
+		Tooltip: Nearby players get a bonus against: Pirate Zombie
+	}
+
+	ZombieCorruptedBanner: {
+		DisplayName: Corrupted Zombie Banner
+		Tooltip: Nearby players get a bonus against: Corrupted Zombie
+	}
+
+	ZombieCrimsonBanner: {
+		DisplayName: Crimson Zombie Banner
+		Tooltip: Nearby players get a bonus against: Crimson Zombie
+	}
+
+	JerseyDevilBanner: {
+		DisplayName: Jersey Devil Banner
+		Tooltip: Nearby players get a bonus against: Will'O'Wisp
+	}
+
+	DireWolfBanner: {
+		DisplayName: Dire Wolf Banner
+		Tooltip: Nearby players get a bonus against: Dire Wolf
+	}
+
+	KappaBanner: {
+		DisplayName: Kappa Banner
+		Tooltip: Nearby players get a bonus against: Kappa
+	}
+
+	WargBanner: {
+		DisplayName: Warg Banner
+		Tooltip: Nearby players get a bonus against: Warg
+	}
+}
+
+NPCs: {
+	Jackalope: {
+		DisplayName: Jackalope
+	}
+
+	IceMammoth: {
+		DisplayName: Ice Mammoth
+	}
+
+	MagmaMammoth: {
+		DisplayName: Magma Mammoth
+	}
+
+	Mammoth: {
+		DisplayName: Mammoth
+	}
+
+	Bicorn: {
+		DisplayName: Bicorn
+	}
+
+	Chichevache: {
+		DisplayName: Chichevache
+	}
+
+	Shadhavar: {
+		DisplayName: Shâd'havâr
+	}
+
+	SludgeNitrogen: {
+		DisplayName: Nitrogen Sludge
+	}
+
+	Barghest: {
+		DisplayName: Barghest
+	}
+
+	Lithobolia: {
+		DisplayName: Lithobolia
+	}
+
+	GiantSkeletonAncient: {
+		DisplayName: Ancient Skeleton
+	}
+
+	GiantSkeleton: {
+		DisplayName: Giant Skeleton
+	}
+
+	ZombieFlying: {
+		DisplayName: Zombie
+	}
+
+	ZombieFlyingBody: {
+		DisplayName: Flying Dead
+	}
+
+	ZombieFlyingLegs: {
+		DisplayName: Walking Dead
+	}
+
+	ZombieFlyingDummy: {
+		DisplayName: Flying Zombie
+	}
+
+	BatChill: {
+		DisplayName: Chill Bat
+	}
+
+	BatSandy: {
+		DisplayName: Sandy Bat
+	}
+
+	WolfBlack: {
+		DisplayName: Black Wolf
+	}
+
+	WolfBrown: {
+		DisplayName: Brown Wolf
+	}
+
+	WolfDingo: {
+		DisplayName: Dingo
+	}
+
+	WolfGray: {
+		DisplayName: Gray Wolf
+	}
+
+	WolfIce: {
+		DisplayName: Ice Wolf
+	}
+
+	WolfRed: {
+		DisplayName: Red Wolf
+	}
+
+	Bobo: {
+		DisplayName: Bobo
+	}
+
+	Bolt: {
+		DisplayName: Bolt
+	}
+
+	CentipedeBody: {
+		DisplayName: Centipede
+	}
+
+	CentipedeHead: {
+		DisplayName: Centipede
+	}
+
+	CentipedeTail: {
+		DisplayName: Centipede
+	}
+
+	IceWormBody: {
+		DisplayName: Ice Worm
+	}
+
+	IceWormHead: {
+		DisplayName: Ice Worm
+	}
+
+	IceWormTail: {
+		DisplayName: Ice Worm
+	}
+
+	Mudfly: {
+		DisplayName: Mudfly
+	}
+
+	GolemBone: {
+		DisplayName: Bone Golem
+	}
+
+	GolemFire: {
+		DisplayName: Fire Golem
+	}
+
+	GolemIce: {
+		DisplayName: Frost Golem
+	}
+
+	GolemJungle: {
+		DisplayName: Mud Golem
+	}
+
+	GolemMarble: {
+		DisplayName: Marble Golem
+	}
+
+	GolemMeteor: {
+		DisplayName: Meteor Golem
+	}
+
+	GolemSand: {
+		DisplayName: Sand Golem
+	}
+
+	GolemStone: {
+		DisplayName: Stone Golem
+	}
+
+	GolemWood: {
+		DisplayName: Treant
+	}
+
+	Meteyer: {
+		DisplayName: Meteyer
+	}
+
+	Buer: {
+		DisplayName: Buer
+	}
+
+	Byakhee: {
+		DisplayName: Byakhee
+	}
+
+	PeepingEye: {
+		DisplayName: Peeping Eye
+	}
+
+	Une: {
+		DisplayName: Une
+	}
+
+	Brownie: {
+		DisplayName: Brownie
+	}
+
+	MermanOrange: {
+		DisplayName: Merman
+	}
+
+	MermanPurple: {
+		DisplayName: Merman
+	}
+
+	MermanRed: {
+		DisplayName: Merman
+	}
+
+	FoulDrop: {
+		DisplayName: Putrid
+	}
+
+	Pimple: {
+		DisplayName: Pimple
+	}
+
+	SlimeCyan: {
+		DisplayName: Cyan Slime
+	}
+
+	SlimeEcto: {
+		DisplayName: Ectoslime
+	}
+
+	SlimeHoney: {
+		DisplayName: Honey Drop
+	}
+
+	SlimeLime: {
+		DisplayName: Lime Slime
+	}
+
+	SlimeMint: {
+		DisplayName: Mint Slime
+	}
+
+	SlimeMushroom: {
+		DisplayName: Fungicap
+	}
+
+	SlimeOrange: {
+		DisplayName: Orange Slime
+	}
+
+	SlimeSandball: {
+		DisplayName: Sandball Slime
+	}
+
+	SlimeViolet: {
+		DisplayName: Violet Slime
+	}
+
+	SlimeWhite: {
+		DisplayName: White Slime
+	}
+
+	Burnt: {
+		DisplayName: Burnt
+	}
+
+	CoinBoy: {
+		DisplayName: Coin Boy
+	}
+
+	Fireman: {
+		DisplayName: Fajermon
+	}
+
+	Hangman: {
+		DisplayName: Hangman
+	}
+
+	IceWraithBody: {
+		DisplayName: Ice Wraith
+	}
+
+	IceWraithHead: {
+		DisplayName: Ice Wraith
+	}
+
+	IceWraithTail: {
+		DisplayName: Ice Wraith
+	}
+
+	SprigganCorrupt: {
+		DisplayName: Corrupted Spriggan
+	}
+
+	SprigganCrimson: {
+		DisplayName: Crimson Spriggan
+	}
+
+	SprigganForest: {
+		DisplayName: Forest Spriggan
+	}
+
+	SprigganHallow: {
+		DisplayName: Hallow Spriggan
+	}
+
+	SprigganJungle: {
+		DisplayName: Jungle Spriggan
+	}
+
+	SprigganMushroom: {
+		DisplayName: Mushroom Spriggan
+	}
+
+	SprigganOcean: {
+		DisplayName: Ocean Spriggan
+	}
+
+	SprigganTundra: {
+		DisplayName: Tundra Spriggan
+	}
+
+	Willowisp: {
+		DisplayName: Will'O'Wisp
+	}
+
+	AxeKnight: {
+		DisplayName: Axe Knight
+	}
+
+	Draugr: {
+		DisplayName: Draugr
+	}
+
+	JiangshiA: {
+		DisplayName: Jiang Shi
+	}
+
+	SkeletonSlinger: {
+		DisplayName: Skeleton Slinger
+	}
+
+	SkeletonSoldier: {
+		DisplayName: Skeleton Soldier
+	}
+
+	CrimsonZombieDummy: {
+		DisplayName: Crimson Zombie
+	}
+
+	ZombieBlistered: {
+		DisplayName: Blistered Zombie
+	}
+
+	ZombieBloated: {
+		DisplayName: Bloated Zombie
+	}
+
+	ZombieFrostbite: {
+		DisplayName: Frostbite Zombie
+	}
+
+	ZombieFrozenPink: {
+		DisplayName: Pink Frozen Zombie
+	}
+
+	ZombieHive: {
+		DisplayName: Hive Zombie
+	}
+
+	ZombieHusk: {
+		DisplayName: Zombie Husk
+	}
+
+	ZombiePirate: {
+		DisplayName: Pirate Zombie
+	}
+
+	ZombieSlimeGreen: {
+		DisplayName: Zombie
+	}
+
+	ZombieSlimePurple: {
+		DisplayName: Zombie
+	}
+
+	ZombieTunic: {
+		DisplayName: Zombie
+	}
+
+	CorruptionZombieDummy: {
+		DisplayName: Corrupted Zombie
+	}
+
+	ZombieVile: {
+		DisplayName: Vile Zombie
+	}
+
+	PossessedSword: {
+		DisplayName: Possessed Sword
+	}
+
+	SludgeOil: {
+		DisplayName: Oil Sludge
+	}
+
+	SludgeRad: {
+		DisplayName: Rad Sludge
+	}
+
+	CubeSlimeBlue: {
+		DisplayName: Blue Cube Slime
+	}
+
+	CubeSlimeGreen: {
+		DisplayName: Green Cube Slime
+	}
+
+	CubeSlimeRed: {
+		DisplayName: Red Cube Slime
+	}
+
+	SlimeOcean: {
+		DisplayName: Ocean Slime
+	}
+
+	SlimeWater: {
+		DisplayName: Water Slime
+	}
+
+	JerseyDevil: {
+		DisplayName: Jersey Devil
+	}
+
+	DireWolf: {
+		DisplayName: Dire Wolf
+	}
+
+	Warg: {
+		DisplayName: Warg
+	}
+
+	Kappa: {
+		DisplayName: Kappa
+	}
+}
+
+Bestiary: {
+	Jackalope:
+		'''
+		A mythical animal said to be dangerous to any hunter. But it's just a jackrabbit...with antlers...better watch your step!
+		[c/32FF82:Origin]:
+		North American Folklore
+		'''
+	IceMammoth: A big, frozen, snouty creature. Quite active for a frozen animal.
+	MagmaMammoth: A big, fiery, snouty creature. Aren't they supposed to live in cold regions?
+	Mammoth: A big, wolly, snouty creature. Aren't they supposed to be extinct?
+	Bicorn:
+		'''
+		A carnivorous beast that attacks kind-hearted and caring husbands.
+		[c/32FF82:Origin]:
+		French Folklore
+		'''
+	Chichevache:
+		'''
+		A carnivorous beast that attacks patient and obedient wives.
+		[c/32FF82:Origin]:
+		French Folklore
+		'''
+	Shadhavar:
+		'''
+		A unique unicorn found only in the deserts.
+		   It is said that when wind is passing through it's large horn, it produces a pleasant sound.
+		[c/32FF82:Origin]:
+		Arabic Folklore
+		'''
+	SludgeNitrogen: Distantly related to the common slime, the Nitrogen Sludge takes down its prey with chilling Frostburn.
+	Barghest:
+		'''
+		Anyone who has seen this ghostly dog, will soon perish.
+		[c/32FF82:Origin]:
+		English Folklore
+		'''
+	Lithobolia:
+		'''
+		Ancient spirit, throwing everything at unsuspected victims.
+		[c/32FF82:Origin]:
+		Lithobolia folk tale
+		'''
+	GiantSkeletonAncient:
+		'''
+		A giant skeleton of an ancient humanoid, often dubbed almost-human.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	GiantSkeleton:
+		'''
+		The skeleton of a giant humanoid. Some say it belonged to a Nephilim.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	ZombieFlying:
+		'''
+		And odd looking Zombie.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	ZombieFlyingBody:
+		'''
+		Magically enchanted zombie that survived being cut in half only to fly to your brain.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	ZombieFlyingLegs:
+		'''
+		The lower torso of an odd Zombie that magically moves by itself.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	BatChill: They are small, hard to see, and swiftly flap about in unpredictable ways. And they like chilly weather.
+	BatSandy: They are small, hard to see, and swiftly flap about in unpredictable ways. Long ears allow them to hear even the slightest rustle of sand.
+	WolfBlack: Nocturnal canine predator that hunts in the forests.
+	WolfBrown: Canine predator that hunts in the forests.
+	WolfDingo: Nocturnal canine. It's perfectly adapted to it's life in the desert.
+	WolfGray: Nocturnal canine predator that hunts in the forests.
+	WolfIce: Nocturnal canine. It's perfectly adapted to it's life in the snow.
+	WolfRed: Canine predator that hunts in the forests.
+	Bobo: Bobo
+	Bolt: Bolt
+	CentipedeHead: Centipedes are elongated creatures with one pair of legs per body segment. All centipedes are venomous and can inflict painful bites.
+	IceWormHead: Giant worm native to frozen lands. It's bite is very cold.
+	Mudfly:
+		'''
+		A giant insect that lures its prey with a light on its abdomen. Travelers lured by it often drown in jungle waters.
+		[c/32FF82:Origin]:
+		Slavic Folklore - B³otnik
+		'''
+	GolemBone: Even bigger and angrier bones.
+	GolemFire: A flying hunk of ash and fire seeking to crush you.
+	GolemIce: The younger brother of an アイスゴーレム.
+	GolemJungle: As if mud wasn't annoying enough, it's now taking on a humanoid shape.
+	GolemMarble: A piece of art that was brought to life.
+	GolemMeteor: Some メテオヘッドs might've clumped together to create this.
+	GolemSand: Not only that sand gets everywhere but now it also walks?!
+	GolemStone: The younger brother of a ロックゴーレム
+	GolemWood: Sentient trees with human characteristics, protectors of forests and antagonists of industrialization and exploitation of nature.
+	Meteyer: Seems like Cthulhu's minions can adapt to just any environment, only to watch your every move.
+	Buer:
+		'''
+		Great president of the Underworld, that has fifty legions of demons under his command.
+		[c/32FF82:Origin]:
+		Key of Solomon
+		'''
+	Byakhee:
+		'''
+		An interstellar creature, servant of Hastur. Closely related to the creatures of the Moon Lord.
+		[c/32FF82:Origin]:
+		Lovecraftian Mythos
+		'''
+	PeepingEye:
+		'''
+		An eyeball monster born from a person who once peeped in life.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	Une:
+		'''
+		Plant-like monster that assaults its prey with thorn-covered leaves.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	Brownie:
+		'''
+		Once a helpful house elf, who was easily offended. Now while there are no homes or towns around, it turned to thievery. They particularly prefer gems.
+		[c/32FF82:Origin]:
+		Scotish Folklore
+		'''
+	MermanOrange:
+		'''
+		Lives close to the shore and attacks anything that comes near it.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	FoulDrop: A secretion from corrupted creatures, that came to life. It stinks.
+	Pimple: A secretion from crimson creatures, that came to life. It stinks.
+	Slime: A simple, gelatinous creature that swallows anything and everything whole! It takes a long time to digest what it swallowed.
+	SlimeEcto: A gelatinous ectoplasm that likes to bounce around graveyards.
+	SlimeHoney: A drop of Honey that came to life. Touch it for a benefit.
+	SlimeMushroom: This is what happens if you mix gelatine with 光るキノコ spores.
+	SlimeOcean: Some slimes tend to live in harmony with coral reefs.
+	SlimeSandball: This Sandball Slime has balls of sand in its mass that formed due to steady sand accumulation. Somehow, it is able to hurl these at its prey.
+	SlimeWater: Slime that formed in the vast Ocean.
+	SlimeWhite: A simple, gelatinous creature that swallows anything and everything whole! It takes a long time to digest what it swallowed.
+	CubeSlime: How this slime retains it's shape is a mystery to many.
+	Burnt:
+		'''
+		The lost soul of a person who committed a crime of Arson.
+		[c/32FF82:Origin]:
+		Slavic Folklore - Spaleniec
+		'''
+	CoinBoy:
+		'''
+		A demon that looks like a boy. When it stumbles upon a traveler it begs them to be hit. Travelers often refuse, suspecting a deceit. Those who fulfilled the demons wish, became very rich.
+		[c/32FF82:Origin]:
+		Slavic Folklore
+		'''
+	Fireman:
+		'''
+		The lost soul of a person who was cruel to animals.
+		[c/32FF82:Origin]:
+		Slavic Folklore
+		'''
+	Hangman:
+		'''
+		The revenant soul of a hanged man that now seeks revenge on those who did not give him a proper burial.
+		[c/32FF82:Origin]:
+		Slavic Folklore
+		'''
+	IceWraithHead:
+		'''
+		Ice Wraiths are elemental manifestations of the coldest parts of the world.
+		[c/32FF82:Origin]:
+		The Elder Scrolls
+		'''
+	Spriggan:
+		'''
+		Ancient spirit. Guardian of woodlands, and shepherd of wild animals. Jealously guarding its secrets.
+		[c/32FF82:Origin]:
+		Slavic Folklore - Borowy
+		'''
+	Willowisp: A lost spirit of the dead, which attempts to lead travelers to their demise.
+	AxeKnight:
+		'''
+		A zombie warrior in heavy armor, equipped with a devastating axe.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	Draugr:
+		'''
+		A bloodthirsty warrior revenant, that hates all living things.
+		[c/32FF82:Origin]:
+		Norse Mythology
+		'''
+	JiangshiA:
+		'''
+		A vampire that has a stiff body. It can only move by jumping.
+		[c/32FF82:Origin]:
+		Chinese Folklore
+		'''
+	SkeletonSlinger:
+		'''
+		A skeleton that attacks by throwing his own ribs.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	SkeletonSoldier:
+		'''
+		The magically animated skeleton of a dead swordsman.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	ZombieBlistered: A mutated zombie covered in disgusting blisters.
+	ZombieBloated: A mutated zombie bloated by the excess of pus inside.
+	ZombieFrostbite: Even though this zombie is almost frozen to the core, it still wants to eat your brain.
+	ZombieFrozenPink: Zombies encountered in snow biomes are often found bundled up in winter clothing. It doesn't help them anything, they are still dead cold!
+	ZombieHive: A zombie with a wasp hive on it's head. That's a terrible way to die...
+	ZombieHusk: Even though this zombie is almost completely dried up, it still wants to eat your brain.
+	ZombiePirate: Some pirates that tried to invade got caught in a storm. Now they invade brains.
+	ZombieSlime: Sometimes the victim of a slime turns into a zombie while being digested. Walking around like that is quite awkward for both parties.
+	ZombieTunic: Leaving doors open may be an unwanted invitation for shambling brain-eaters to enter your home.
+	ZombieVile: A festering creature that will hunt you down.
+	PossessedSword:
+		'''
+		A sword possessed by a poltergeist type spirit.
+		[c/32FF82:Origin]:
+		Castlevania series
+		'''
+	JerseyDevil:
+		'''
+		Once a stressed mother cursed:
+		'If I ever have another child, let it be the Devil!' she said.
+		And a Demon came to this world.
+		[c/32FF82:Origin]:
+		American Cryptid
+		'''
+	DireWolf: The wilder and more ferocious cousin of wolves.
+	Warg: Extremely dangerous and wild canine.
+	Kappa:
+		'''
+		A mischievous water yokai that likes to devour horses, cattle and humans, and really likes cucumbers.
+		Sometimes it also steals a victims Shirikodama, which contains the human soul.
+		[c/32FF82:Origin]:
+		Japanese Yokai
+		'''
+}
+
+Projectiles: {
+	PetJackalope: {
+		DisplayName: Jackalope
+	}
+
+	BaselardP: {
+		DisplayName: Baselard
+	}
+
+	CombatKnifeP: {
+		DisplayName: Combat Knife
+	}
+
+	RapierP: {
+		DisplayName: Rapier
+	}
+
+	IcicleProjectile: {
+		DisplayName: Icicle
+	}
+
+	PalmAxeProjectile: {
+		DisplayName: Palm Axe
+	}
+
+	TranscendenceP: {
+		DisplayName: Transcendence
+	}
+
+	ThrowingAxeP: {
+		DisplayName: Throwing Axe
+	}
+
+	SandBall: {
+		DisplayName: Sand Ball
+	}
+
+	SlingerRib: {
+		DisplayName: Slinger Rib
+	}
+
+	ThrowingAxeE: {
+		DisplayName: Throwing Axe
+	}
+
+	HunterSpearProjectile: {
+		DisplayName: Hunter Spear
+	}
+
+	HunterGuideProjectile: {
+		DisplayName: Hunter Guide
+	}
+
+	HunterWhipProjectile: {
+		DisplayName: Hunter Whip
+	}
+}
+
+Tiles: {
+	GemDiamondRelicTile: {
+		MapEntry: Diamond Relic
+	}
+
+	GemAlexandriteRelicTile: {
+		MapEntry: Alexandrite Relic
+	}
+
+	GemAmethystRelicTile: {
+		MapEntry: Amethyst Relic
+	}
+
+	GemAmetrineRelicTile: {
+		MapEntry: Ametrine Relic
+	}
+
+	GemAmmoliteRelicTile: {
+		MapEntry: Ammolite Relic
+	}
+
+	GemBerylRelicTile: {
+		MapEntry: Beryl Relic
+	}
+
+	GemChrysoberylRelicTile: {
+		MapEntry: Chrysoberyl Relic
+	}
+
+	GemCitrineRelicTile: {
+		MapEntry: Citrine Relic
+	}
+
+	GemDemantoideRelicTile: {
+		MapEntry: Demantoide Relic
+	}
+
+	GemEmeraldRelicTile: {
+		MapEntry: Emerald Relic
+	}
+
+	GemGarnetRelicTile: {
+		MapEntry: Garnet Relic
+	}
+
+	GemIoliteRelicTile: {
+		MapEntry: Iolite Relic
+	}
+
+	GemJeremejeviteRelicTile: {
+		MapEntry: Jeremejevite Relic
+	}
+
+	GemMorganiteRelicTile: {
+		MapEntry: Morganite Relic
+	}
+
+	GemRubelliteRelicTile: {
+		MapEntry: Rubellite Relic
+	}
+
+	GemRubyRelicTile: {
+		MapEntry: Ruby Relic
+	}
+
+	GemSapphireRelicTile: {
+		MapEntry: Sapphire Relic
+	}
+
+	GemTanzaniteRelicTile: {
+		MapEntry: Tanzanite Relic
+	}
+
+	GemTopazRelicTile: {
+		MapEntry: Topaz Relic
+	}
+
+	GemGosheniteRelicTile: {
+		MapEntry: Goshenite Relic
+	}
+
+	GemAmberRelicTile: {
+		MapEntry: Amber Relic
+	}
+
+	BioluminescentTorch: {
+		MapEntry: Bioluminescent Torch
+	}
+
+	TanningRack: {
+		MapEntry: Tanning Rack
+	}
+
+	TransmutationTable: {
+		MapEntry: Transmutation Table
+	}
+
+	CageJackalope: {
+		MapEntry: Jackalope Cage
+	}
+
+	BannerTile: {
+		MapEntry: Banner
+	}
+}
+

@@ -1,0 +1,2239 @@
+Buffs: {
+    ArmorCooldown: {
+        DisplayName: アーマークールダウン
+        Description: アーマーボーナスはまだ使えない！
+    }
+
+    ChlorophyteRegen: {
+        DisplayName: クロロファイトの再生
+        Description: 気と体力がどんどん回復する！
+    }
+
+    DemonBonus: {
+        DisplayName: 魔族の本気
+        Description: 魔族の力がみなぎるぞ!!
+    }
+
+    DisgustingGoopBuff: {
+        DisplayName: 謎の果実
+        Description: 気が安定するが、なんかくっせえ味だ！
+    }
+
+    EnhancedReserves: {
+        DisplayName: 気の上昇
+        Description: 気が力強く増大している！
+    }
+
+    KaiokenBuff: {
+        DisplayName: 界王拳
+        Description: ダメージ{0} 速度{1}
+    }
+
+    KatchinFeet: {
+        DisplayName: カッチン鋼の足
+        Description: 足がカッチン鋼みたいに硬いぞ！
+    }
+
+    KiLanternBuff: {
+        DisplayName: 気のランタン
+        Description: 気のランタンが気の自然回復を増進
+    }
+
+    KiPotionSickness: {
+        DisplayName: 超神水クールダウン
+        Description: 苦すぎてもう飲めない！
+    }
+
+    KiStimulantBuff: {
+        DisplayName: 気の高揚
+        Description: 体が漲り、気がどんどん回復する！
+    }
+
+    LegendaryTrait: {
+        DisplayName: 伝説の戦士
+        Description: あなたは伝説の戦士だ
+    }
+
+    MREBuff: {
+        DisplayName: 満腹パワー
+        Description: お腹いっぱいで力がみなぎってきた！
+    }
+
+    NimbusBuff: {
+        DisplayName: 騎乗(筋斗雲)
+        Description: 「筋斗雲よーい！！」
+    }
+
+    ProdigyTrait: {
+        DisplayName: 天才
+        Description:
+            '''
+            「おめえはすげえよ‥」
+            マスタリーの獲得が速くなる
+            '''
+    }
+
+    SenzuCooldown: {
+        DisplayName: 仙豆クールダウン
+        Description: 半粒でお腹いっぱい！もう食べられない
+    }
+
+    ASSJBuff: {
+        DisplayName: 超サイヤ人第二段階
+        Description:
+            '''
+            「オレは‥超ベジータだ!!」
+            気功ダメージが75%増加
+            移動速度が75%上昇
+            気の消費量が40%増加
+            気の消費量: 69/秒、マスター時34/秒
+            '''
+    }
+
+    LSSJ2Buff: {
+        DisplayName: 伝説の超サイヤ人2
+        Description:
+            '''
+            「気が高まる‥溢れる‥!!」
+            気功ダメージが220%増加
+            移動速度が220%上昇
+            気の消費量が145%増加
+            気の消費量: 180/秒、マスター時60/秒
+            '''
+    }
+
+    LSSJ3Buff: {
+        DisplayName: 伝説の超サイヤ人3
+        Description:
+            '''
+            「カカロットーッ!!!」
+            気功ダメージが350%増加
+            移動速度が350%上昇
+            気の消費量が230%増加
+            気の消費量: 240/秒、マスター時120/秒
+            ライフ自然回復がわずかに増進
+            '''
+    }
+
+    LSSJBuff: {
+        DisplayName: 伝説の超サイヤ人
+        Description:
+            '''
+            「オレは悪魔だ‥」
+            気功ダメージが130%増加
+            移動速度が130%上昇
+            気の消費量が108%増加
+            気の消費量: 129/秒、マスター時30/秒
+            '''
+    }
+
+    SSJ1Buff: {
+        DisplayName: 超サイヤ人
+        Description:
+            '''
+            「オレはおこったぞーっ!!!」
+            気功ダメージが50%増加
+            移動速度が50%上昇
+            気の消費量が25%増加
+            気の消費量: 60/秒、マスター時30/秒
+            '''
+    }
+
+    SSJ2Buff: {
+        DisplayName: 超サイヤ人2
+        Description:
+            '''
+            「最高の力ではやく終わらせてもらうぞ‥」
+            気功ダメージが125%増加
+            移動速度が125%上昇
+            気の消費量が62%増加
+            気の消費量: 120/秒、マスター時60/秒
+            '''
+    }
+
+    SSJ3Buff: {
+        DisplayName: 超サイヤ人3
+        Description:
+            '''
+            「時間がかかってすまなかったな‥」
+            気功ダメージが190%増加
+            移動速度が190%上昇
+            気の消費量が95%増加
+            気の消費量: 159/秒、マスター時80/秒
+            （気の最大値の30%未満でライフが減少）
+            '''
+    }
+
+    SSJBBuff: {
+        DisplayName: 超サイヤ人ゴッド超サイヤ人
+        Description:
+            '''
+            「ややこしくて説明しにくいけど‥」
+            気功ダメージが375%増加
+            移動速度が375%上昇
+            気の消費量が65%増加
+            気の消費量: 195/秒、マスター時105/秒
+            ライフ自然回復をわずかに増進
+            '''
+    }
+
+    SSJGBuff: {
+        DisplayName: 超サイヤ人ゴッド
+        Description:
+            '''
+            「こんな世界があったなんてよ‥」
+            気功ダメージが250%増加
+            移動速度が250%上昇
+            気の消費量が50%増加
+            気の消費量: 135/秒、マスター時90/秒
+            ライフ自然回復をわずかに増進
+            '''
+    }
+
+    SSJRBuff: {
+        DisplayName: 超サイヤ人ロゼ
+        Description:
+            '''
+            「どうだこの色‥美しいだろう？」
+            気功ダメージが400%増加
+            移動速度が300％上昇
+            気の消費量が55%増加
+            気の消費量: 255/秒、マスター時128/秒
+            ライフ自然回復をわずかに増進
+            '''
+    }
+
+    SuperKaiokenBuff: {
+        DisplayName: 超界王拳
+        Description:
+            '''
+            「超界王拳っ!!!」
+            気功ダメージが125%増加
+            移動速度が125%上昇
+            気の消費量が62%増加
+            気の消費量: 120/秒、マスター時60/秒
+            '''
+    }
+
+    USSJBuff: {
+        DisplayName: 超サイヤ人第三段階
+        Description:
+            '''
+            「な なぜ　あたらない‥!!」
+            気功ダメージが90%増加
+            移動速度が10%低下
+            気の消費量が60%増加
+            気の消費量: 90/秒、マスター時45/秒
+            '''
+    }
+
+    TiredDebuff: {
+        DisplayName: 疲労感
+        Description: 気を使いすぎてヘトヘトだぞ！
+    }
+
+    TransExhaustionBuff: {
+        DisplayName: 変身クールダウン
+        Description: 変身して身体がヘトヘトだぞ！
+    }
+
+    UnknownLegendary: {
+        DisplayName: ???
+        Description: 特別な力が発動する
+    }
+
+    ZenkaiBuff: {
+        DisplayName: ゼンカイ
+        Description: ゼンカイの力が目覚めた！
+    }
+
+    ZenkaiCooldown: {
+        DisplayName: ゼンカイクールダウン
+        Description: ゼンカイの力はまだ使えないぞ！
+    }
+}
+
+Projectiles: {
+    BaseFloatingDestructionProj: {
+        DisplayName: 基本ブロック破壊
+    }
+
+    DirtBlockDestruction: {
+        DisplayName: 基本ブロック破壊
+    }
+
+    StoneBlockDestruction: {
+        DisplayName: 石ブロック破壊
+    }
+
+    LSSJ3DustCenter: {
+        DisplayName: LSSJ3ダストセンター
+    }
+
+    LSSJ3DustStart: {
+        DisplayName: LSSJ3ダストスタート
+    }
+
+    SSJ1AuraProjBeam: {
+        DisplayName: SSJオーラビーム
+    }
+
+    SSJ1AuraProjBeamHead: {
+        DisplayName: SSJオーラビーム
+    }
+
+    SSJ1AuraProjStart: {
+        DisplayName: SSJ1オーラプロジェスタート
+    }
+
+    SSJ3LightPillar: {
+        DisplayName: SSJ3ライトピラー
+    }
+
+    SSJAuraBall: {
+        DisplayName: SSJオーラボール
+    }
+
+    SSJBDustCenter: {
+        DisplayName: SSJBダストセンター
+    }
+
+    SSJBDustStart: {
+        DisplayName: SSJBダストスタート
+    }
+
+    SSJEnergyBarrageProj: {
+        DisplayName: オーラエナジーバラージ
+    }
+
+    SSJGDustCenter: {
+        DisplayName: SSJGダストセンター
+    }
+
+    SSJGDustStart: {
+        DisplayName: SSJGダストスタート
+    }
+
+    SSJRDustCenter: {
+        DisplayName: SSJRダストセンター
+    }
+
+    SSJRDustStart: {
+        DisplayName: SSJRダストスタート
+    }
+
+    SSJRockProjStart: {
+        DisplayName: SSJロックプロジェスタート
+    }
+
+    BaldurShell: {
+        DisplayName: バルダーシェル
+    }
+
+    BigBangAttackProjectile: {
+        DisplayName: ビッグバンアタックプロジェクタイル
+    }
+
+    BigBangAttackProjectile2: {
+        DisplayName: ビッグバンアタックプロジェクタイル2
+    }
+
+    BlackBlitz: {
+        DisplayName: ブラックブリッツ
+    }
+
+    BlackBlitzLong: {
+        DisplayName: ブラックブリッツロング
+    }
+
+    BlightedFangProj: {
+        DisplayName: ブライテッドファング
+    }
+
+    BlindingBladeProj: {
+        DisplayName: ブラインディングブレード
+    }
+
+    CandyLaserBlast: {
+        DisplayName: キャンディレーザー
+    }
+
+    CandyLaserTrail: {
+        DisplayName: キャンディレーザー
+    }
+
+    DestructoDiskAssaultMini: {
+        DisplayName: ミニ気円斬
+    }
+
+    DestructoDiskAssaultProj: {
+        DisplayName: 真気円斬
+    }
+
+    DestructoDiskProjectile: {
+        DisplayName: 気円斬
+    }
+
+    DirtyFireworksProjectile: {
+        DisplayName: ダーティーファイアワークス
+    }
+
+    DoubleSundayBeam: {
+        DisplayName: ダブルサンデービーム
+    }
+
+    DoubleSundayCharge: {
+        DisplayName: ダブルサンデーチャージ
+    }
+
+    EnergyBlastBarrageProjectile: {
+        DisplayName: エナジーブラストバラージプロジェクタイル
+    }
+
+    EnergyShotBlast: {
+        DisplayName: エナジーショットブラスト
+    }
+
+    EnergyWaveBeam: {
+        DisplayName: エナジーウェーブビーム
+    }
+
+    EnergyWaveCharge: {
+        DisplayName: エナジーウェーブチャージ
+    }
+
+    EnergyWaveVolleyBlast: {
+        DisplayName: エナジーウェーブボレーブラスト
+    }
+
+    EnergyWaveVolleyTrail: {
+        DisplayName: エナジーウェーブボレートレイル
+    }
+
+    FinalFlashBeam: {
+        DisplayName: ファイナルフラッシュ
+    }
+
+    FinalFlashCharge: {
+        DisplayName: ファイナルフラッシュチャージ
+    }
+
+    FinalShineBeam: {
+        DisplayName: ファイナルシャインアタック
+    }
+
+    FinalShineCharge: {
+        DisplayName: ファイナルシャインアタックチャージ
+    }
+
+    GalickGunBeam: {
+        DisplayName: ギャリック砲
+    }
+
+    GalickGunCharge: {
+        DisplayName: ギャリック砲チャージ
+    }
+
+    HellzoneGrenadeProjectile: {
+        DisplayName: ヘルゾーングレネードプロジェクタイル
+    }
+
+    HellzoneGrenadeProjectile2: {
+        DisplayName: ヘルゾーングレネードプロジェクタイル2
+    }
+
+    HolyWrathBall: {
+        DisplayName: 聖なる逆鱗
+    }
+
+    HolyWrathExplosion: {
+        DisplayName: 聖なる逆鱗・爆発
+    }
+
+    BigBangKamehamehaBall: {
+        DisplayName: ビッグバンかめはめ波チャージ
+    }
+
+    BigBangKamehamehaBlast: {
+        DisplayName: ビッグバンかめはめ波
+    }
+
+    BigBangKamehamehaTrail: {
+        DisplayName: ビッグバンかめはめ波・残光
+    }
+
+    KamehamehaBeam: {
+        DisplayName: かめはめ波
+    }
+
+    KamehamehaCharge: {
+        DisplayName: かめはめ波チャージ
+    }
+
+    Kamehameha10Beam: {
+        DisplayName: かめはめ波x10
+    }
+
+    Kamehameha10Charge: {
+        DisplayName: かめはめ波x10チャージ
+    }
+
+    SuperKamehamehaBeam: {
+        DisplayName: 超かめはめ波
+    }
+
+    SuperKamehamehaCharge: {
+        DisplayName: 超かめはめ波チャージ
+    }
+
+    KiBeamProjectile: {
+        DisplayName: 気ビームプロジェクタイル
+    }
+
+    KiBlastProjectile: {
+        DisplayName: 気ブラスト
+    }
+
+    KiSpark: {
+        DisplayName: 気スパーク
+    }
+
+    LSSJ2PillarStart: {
+        DisplayName: レジェンダリーライトピラー
+    }
+
+    LSSJAuraBall: {
+        DisplayName: LSSJオーラボール
+    }
+
+    LSSJAuraLaser: {
+        DisplayName: レジェンダリーレーザー
+    }
+
+    LSSJAuraLaserBlack: {
+        DisplayName: レジェンダリーレーザー
+    }
+
+    LSSJBarrageProj: {
+        DisplayName: レジェンダリーエナジーバラージ
+    }
+
+    MajinBall: {
+        DisplayName: マジンボール
+    }
+
+    MakankosappoBeam: {
+        DisplayName: 魔貫光殺砲
+    }
+
+    MakankosappoCharge: {
+        DisplayName: 魔貫光殺砲チャージ
+    }
+
+    MasenkoBeam: {
+        DisplayName: 魔閃光
+    }
+
+    MasenkoCharge: {
+        DisplayName: 魔閃光チャージ
+    }
+
+    RadialJavelinProj: {
+        DisplayName: ラジアルジャベリン
+    }
+
+    RadiantSpark: {
+        DisplayName: ラディアントスパーク
+    }
+
+    RockProjectile: {
+        DisplayName: ロック
+    }
+
+    ScattershotBlast: {
+        DisplayName: スキャターショットブラスト
+    }
+
+    SpiritBallProjectile: {
+        DisplayName: スピリットボールプロジェクタイル
+    }
+
+    SpiritBombBall: {
+        DisplayName: 元気玉
+    }
+
+    SuperSpiritBombBall: {
+        DisplayName: 超元気玉
+    }
+
+    SuperEnergyBarrageExplosion: {
+        DisplayName: 超エナジーバラージエクスプロージョン
+    }
+
+    SuperEnergyBarrageProj: {
+        DisplayName: 超エナジーバラージプロジェクタイル
+    }
+
+    SupernovaBall: {
+        DisplayName: スーパーノヴァ
+    }
+
+    TransmissionLinesProj: {
+        DisplayName: トランスミッションラインプロジェクタイル
+    }
+
+    TrapShooterExplosion: {
+        DisplayName: トラップシューターエクスプロージョン
+    }
+
+    TrapShooterProjectile: {
+        DisplayName: トラップシュータープロジェクタイル
+    }
+}
+
+Items: {
+    circletester: {
+        DisplayName: サークルスポーナー
+        Tooltip: ""
+    }
+
+    AmberNecklace: {
+        DisplayName: 琥珀のネックレス
+        Tooltip: ライフ自然回復を10%増進
+    }
+
+    AmethystNecklace: {
+        DisplayName: アメジストのネックレス
+        Tooltip: 被ダメージを9%軽減し、さらに防御力+2
+    }
+
+    AncientLegendNecklace: {
+        DisplayName: 古き伝説のネックレス
+        Tooltip:
+            '''
+            エネルギーを封じる古代のネックレス
+            気の最大値が500減少、気の消費量が12%減少
+            気功ダメージが9%増加
+            '''
+    }
+
+    AncientLegendWaistCape: {
+        DisplayName: 古き伝説のウエストケープ
+        Tooltip:
+            '''
+            気を強化する素材で作られた古代の衣装
+            気の最大値が250増加、気の消費量が14%減少
+            気功ダメージが6%増加
+            '''
+    }
+
+    ArmCannon: {
+        DisplayName: アームキャノン
+        Tooltip:
+            '''
+            多くの兵士が使用した古いアームブラスター
+            気の消費量が10%減少
+            気を溜める速度が上昇
+            '''
+    }
+
+    BaldurEssentia: {
+        DisplayName: バルダーエッセンシア
+        Tooltip:
+            '''
+            強力な防御のエッセンス
+            気を溜めているときに防御力を増加させるバリヤーを付与
+            '''
+    }
+
+    BattleKit: {
+        DisplayName: バトルキット
+        Tooltip:
+            '''
+            一般兵士向けの汎用ツールキット
+            気功ダメージが6%増加
+            気の消費量が10%減少
+            敵が光って見える+気を溜める速度が上昇
+            気のキャスト速度が15%上昇
+            '''
+    }
+
+    BlackDiamondShell: {
+        DisplayName: 純黒のダイヤモンドシェル
+        Tooltip:
+            '''
+            信じられないほど頑丈な、敵に狙われやすくなる宝石付きの亀の甲羅
+            気功ダメージが12%増加、気功のノックバックを14%増加
+            気の最大値が200増加
+            攻撃を受けると少量の気が回復
+            '''
+    }
+
+    BloodstainedBandana: {
+        DisplayName: 血まみれのバンダナ
+        Tooltip:
+            '''
+            「これですべてが変わる・・・」
+            気功ダメージが14%増加
+            ダメージの一部を反射する
+            '''
+    }
+
+    BuldariumSigmite: {
+        DisplayName: ブルダリウムシグマイト
+        Tooltip:
+            '''
+            防御の神の魂の欠片
+            気を溜めているときに防御力を大幅に増加させるバリヤーを付与
+            気を溜めているときにライフ自然回復を大幅に増進
+            気を溜める速度が上昇
+            '''
+    }
+
+    BurningEnergyAmulet: {
+        DisplayName: 赤熱する気のお守り
+        Tooltip:
+            '''
+            極限の熱を放出する輝くお守り
+            気功ダメージが5%増加
+            気の最大値が200増加
+            気を溜めているとき、周りに炎のオーラを付与
+            '''
+    }
+
+    CrystalliteAlleviate: {
+        DisplayName: アスペラクリスタライト
+        Tooltip:
+            '''
+            純粋なエネルギーのエッセンスがクリスタル内に宿る
+            気を溜めているときの移動速度が大幅に上昇
+            気の最大値が2500増加
+            '''
+    }
+
+    CrystalliteControl: {
+        DisplayName: インペリウムクリスタライト
+        Tooltip:
+            '''
+            純粋な気のエッセンスがクリスタル内に宿る
+            気を溜めているときの移動速度が上昇
+            気の最大値が500増加
+            '''
+    }
+
+    CrystalliteFlow: {
+        DisplayName: インフルーントクリスタライト
+        Tooltip:
+            '''
+            穏やかに流れる魂のエッセンスがクリスタル内に宿る
+            気を溜めているときの移動速度が大幅に上昇
+            気の最大値が1000増加
+            '''
+    }
+
+    DiamondNecklace: {
+        DisplayName: ダイヤモンドのネックレス
+        Tooltip: 近接ダメージと移動速度が9%上昇
+    }
+
+    DragonGemNecklace: {
+        DisplayName: ドラゴンジェムのネックレス
+        Tooltip:
+            '''
+            ドラゴンのエッセンスが宿る
+            以前のネックレスのすべての効果を持ち、一部が強化されている
+            '''
+    }
+
+    EarthenArcanium: {
+        DisplayName: 大地のアルカニウム
+        Tooltip:
+            '''
+            地球の純粋なエネルギーの核
+            気功ダメージが10%増加
+            気の自然回復を増進
+            舞空術による気の消費量が減少
+            最大チャージ+1
+            舞空術の速度が上昇
+            気を溜める時間が長いほど気が多く溜まり、最大+500%増加
+            '''
+    }
+
+    EarthenScarab: {
+        DisplayName: 大地のスカラベ
+        Tooltip:
+            '''
+            大地の魂が命を与えているようだ
+            気功ダメージが4%増加
+            舞空術の速度が上昇
+            気を溜める時間が長いほど気が多く溜まり、最大+500%増加
+            '''
+    }
+
+    EarthenSigil: {
+        DisplayName: 大地のシジル
+        Tooltip:
+            '''
+            大地の魂が宿る
+            気功ダメージが6%増加
+            気の自然回復増進
+            舞空術による気の消費量が減少
+            最大チャージ+1
+            '''
+    }
+
+    EmeraldNecklace: {
+        DisplayName: エメラルドのネックレス
+        Tooltip: 遠距離ダメージとクリティカル率が9%上昇
+    }
+
+    EndlessKi: {
+        DisplayName: 無限大の気
+        Tooltip:
+            '''
+            「神々の心」
+            気の最大値が1500000増加
+            ほぼ無限に気が回復する
+            '''
+    }
+
+    GoblinKiEnhancer: {
+        DisplayName: ゴブリンの気増幅装置
+        Tooltip:
+            '''
+            古代のゴブリンの遺物
+            気の最大値が500増加
+            攻撃を受けると短時間気の自然回復を大幅に増進
+            '''
+    }
+
+    IceTalisman: {
+        DisplayName: 凍える気のお守り
+        Tooltip:
+            '''
+            魂まで冷やす凍ったお守り
+            気功ダメージが7%増加
+            気の自然回復を増進
+            気を溜めているとき、周りに霜焼けの追加効果を付与
+            '''
+    }
+
+    InfuserAmber: {
+        DisplayName: 琥珀の気結晶
+        Tooltip: 気功で敵に防御減少の追加効果を付与
+    }
+
+    InfuserAmethyst: {
+        DisplayName: アメジストの気結晶
+        Tooltip: 気功で敵に呪炎の追加効果を付与
+    }
+
+    InfuserDiamond: {
+        DisplayName: ダイヤモンドの気結晶
+        Tooltip: 気功で敵に混乱の追加効果を付与
+    }
+
+    InfuserEmerald: {
+        DisplayName: エメラルドの気結晶
+        Tooltip: 気功で敵に毒の追加効果を付与
+    }
+
+    InfuserRainbow: {
+        DisplayName: ドラゴンの気結晶
+        Tooltip: 気功で敵に複数のデバフを付与
+    }
+
+    InfuserRuby: {
+        DisplayName: ルビーの気結晶
+        Tooltip: 気功で敵に出血の追加効果を付与
+    }
+
+    InfuserSapphire: {
+        DisplayName: サファイアの気結晶
+        Tooltip: 気功で敵に霜焼けの追加効果を付与
+    }
+
+    InfuserTopaz: {
+        DisplayName: トパーズの気結晶
+        Tooltip: 気功で敵に燃焼の追加効果を付与
+    }
+
+    KaioCrystal: {
+        DisplayName: 界王さまの気結晶
+        Tooltip:
+            '''
+            伝説の界王の霊的な欠片
+            すべての界王拳のライフ消費量が半分
+            気の最大値が30%減少
+            '''
+    }
+
+    KiChip: {
+        DisplayName: 気の断片
+        Tooltip:
+            '''
+            気の欠片の一部
+            気を溜める速度が上昇
+            '''
+    }
+
+    LargeTurtleShell: {
+        DisplayName: 大きな亀の甲羅
+        Tooltip:
+            '''
+            亀仙人に似た奇妙な亀の甲羅
+            気功ダメージが7%増加、気功のノックバックを8%増加
+            '''
+    }
+
+    LuminousSectum: {
+        DisplayName: ルミナスセクトゥム
+        Tooltip:
+            '''
+            不安定なエネルギーを放つ
+            気功ダメージが9%増加
+            気の最大値が250増加
+            敵を攻撃すると低確率でホーミングスパークを発射
+            '''
+    }
+
+    MajinNucleus: {
+        DisplayName: 魔人の細胞核
+        Tooltip:
+            '''
+            無敵の存在の脈動する核
+            ライフ自然回復を大幅に増進
+            気の自然回復を大幅に増進
+            気の最大値が1500減少
+            '''
+    }
+
+    MetamoranSash: {
+        DisplayName: メタモランサッシュ
+        Tooltip:
+            '''
+            悪の気があなた自身を滅ぼす！
+            気功ダメージが10%増加
+            気の消費量が30%減少
+            15%の確率でダメージが2倍になる
+            '''
+    }
+
+    PureEnergyCirclet: {
+        DisplayName: 純粋な気の王冠
+        Tooltip:
+            '''
+            信じられないほど純粋な存在感を放つ
+            気功ダメージが12%増加
+            気の自然回復を増進
+            気の最大値が300増加
+            気を溜めているとき、周りに呪炎と霜焼けの追加効果を付与
+            '''
+    }
+
+    RadiantGlider: {
+        DisplayName: 光り輝くグライダー
+        Tooltip: 空を飛ぶことができ、落下速度が低下
+    }
+
+    RadiantTotem: {
+        DisplayName: 光り輝くトーテム
+        Tooltip:
+            '''
+            輝くエネルギーで爆発する
+            気功ダメージが12%増加
+            気の最大値が500増加
+            気の自然回復を大幅に増進
+            '''
+    }
+
+    RubyNecklace: {
+        DisplayName: ルビーのネックレス
+        Tooltip: 魔法ダメージとクリティカル率が7%上昇
+    }
+
+    SapphireNecklace: {
+        DisplayName: サファイアのネックレス
+        Tooltip: 気功ダメージが9%増加、気の最大値が100増加
+    }
+
+    ScouterT2: {
+        DisplayName: スカウター(緑)
+        Tooltip:
+            '''
+            戦闘力をスキャンするための装備
+            気功ダメージが増加
+            敵が光って見える
+            --Tier 2--
+            '''
+    }
+
+    ScouterT3: {
+        DisplayName: スカウター(青)
+        Tooltip:
+            '''
+            戦闘力をスキャンするための装備
+            気功ダメージが増加
+            敵が光って見える
+            --Tier 3--
+            '''
+    }
+
+    ScouterT4: {
+        DisplayName: スカウター(赤)
+        Tooltip:
+            '''
+            戦闘力をスキャンするための装備
+            気功ダメージが増加
+            敵が光って見える
+            --Tier 4--
+            '''
+    }
+
+    ScouterT5: {
+        DisplayName: スカウター(紫)
+        Tooltip:
+            '''
+            戦闘力をスキャンするための装備
+            気功ダメージが増加
+            敵が光って見える
+            --Tier 5--
+            '''
+    }
+
+    ScouterT6: {
+        DisplayName: スカウター(黄)
+        Tooltip:
+            '''
+            戦闘力をスキャンするための装備
+            気功ダメージが増加
+            敵が光って見える
+            --Tier 6--
+            '''
+    }
+
+    SenzuBag: {
+        DisplayName: 仙豆の袋
+        Tooltip: 仙豆の再使用間隔を短縮させる
+    }
+
+    SpiritCharm: {
+        DisplayName: 魂のお守り
+        Tooltip:
+            '''
+            ドラゴンの刻印が刻まれたエンブレム
+            気功ダメージが20%増加、味方の与えるダメージが14%増加
+            攻撃速度が14%上昇
+            クリティカル率が12%上昇
+            気の最大値が500増加
+            被ダメージを12%軽減
+            召喚できるミニオンの数が3体増える
+            ライフ自然回復を大幅に増進
+            '''
+    }
+
+    SpiritualEmblem: {
+        DisplayName: 魂の紋章
+        Tooltip:
+            '''
+            奇妙な文字が刻まれたエンブレム
+            気功ダメージが15%増加
+            '''
+    }
+
+    TimeRing: {
+        DisplayName: 時の指輪
+        Tooltip:
+            '''
+            界王神の神聖なる指輪
+            ライフ自然回復を大幅に増進
+            気の自然回復を大幅に増進
+            '''
+    }
+
+    TopazNecklace: {
+        DisplayName: トパーズのネックレス
+        Tooltip: 召喚できるミニオンの数が1体増え、召喚ダメージが9%増加
+    }
+
+    GreenPotara: {
+        DisplayName: ポタラ(緑)
+        Tooltip: 界王神が使用する便利な耳飾り。
+    }
+
+    WornGloves: {
+        DisplayName: 使い古した手袋
+        Tooltip:
+            '''
+            気のキャスト速度が10%上昇
+            気功ダメージが6%増加
+            '''
+    }
+
+    ZenkaiCharm: {
+        DisplayName: ゼンカイのお守り
+        Tooltip:
+            '''
+            サイヤ人の真の力を引き出すお守り。
+            気功ダメージが8%増加
+            致命的なダメージを受けるとライフが50に戻り、短時間ダメージが2倍になる
+            2分間のクールダウン
+            '''
+    }
+
+    AdamantiteVisor: {
+        DisplayName: アダマンタイトのバイザー
+        Tooltip:
+            '''
+            気功ダメージが12%増加
+            気功のクリティカル率が10%上昇
+            気の最大値が250増加
+            '''
+    }
+
+    BlackFusionPants: {
+        DisplayName: 黒い融合着(下)
+        Tooltip:
+            '''
+            気功ダメージが20%増加
+            気功のクリティカル率が16%上昇
+            気の最大値が500増加
+            気の自然回復を増進
+            移動速度が18%上昇
+            '''
+    }
+
+    BlackFusionShirt: {
+        DisplayName: 黒い融合着(上)
+        Tooltip:
+            '''
+            気功ダメージが24%増加
+            気功のクリティカル率が20%上昇
+            気の最大値が1000増加
+            最大チャージ+2
+            気を溜める速度が上昇
+            '''
+    }
+
+    DemonLeggings: {
+        DisplayName: 魔族の道着(下)
+        Tooltip:
+            '''
+            気功ダメージが13%増加
+            気功のクリティカル率が9%上昇
+            気の最大値が300増加
+            気の自然回復を増進
+            移動速度が12%上昇
+            '''
+    }
+
+    DemonShirt: {
+        DisplayName: 魔族の道着(上)
+        Tooltip:
+            '''
+            気功ダメージが18%増加
+            気功のクリティカル率が14%上昇
+            気の最大値が700増加
+            最大チャージ+1
+            '''
+    }
+
+    EliteSaiyanBreastplate: {
+        DisplayName: エリートサイヤ人の戦闘服(上)
+        Tooltip:
+            '''
+            気功ダメージが26%増加
+            気功のクリティカル率が24%上昇
+            気の最大値が1000増加
+            最大チャージ+3
+            気の自然回復を増進
+            '''
+    }
+
+    EliteSaiyanLeggings: {
+        DisplayName: エリートサイヤ人の戦闘服(下)
+        Tooltip:
+            '''
+            気功ダメージが22%増加
+            気功のクリティカル率が18%上昇
+            気の最大値が750増加
+            気の自然回復を増進
+            移動速度が22%上昇
+            '''
+    }
+
+    HermitGi: {
+        DisplayName: 亀仙流の道着(上)
+        Tooltip:
+            '''
+            気功ダメージが5%増加
+            気功のクリティカル率が3%上昇
+            気の自然回復を増進
+            '''
+    }
+
+    HermitPants: {
+        DisplayName: 亀仙流の道着(下)
+        Tooltip:
+            '''
+            気功ダメージが4%増加
+            気功のノックバックが4%増加
+            移動速度が10%上昇
+            '''
+    }
+
+    RadiantGreaves: {
+        DisplayName: 光り輝くすね当て
+        Tooltip:
+            '''
+            気功ダメージが14%増加
+            気功のクリティカル率が24%上昇
+            気の最大値が750増加
+            気の自然回復を増進
+            移動速度が26%上昇
+            '''
+    }
+
+    RadiantScalepiece: {
+        DisplayName: 光り輝く胸当て
+        Tooltip:
+            '''
+            気功ダメージが24%増加
+            気功のノックバックが16%増加
+            気の最大値が1500増加
+            最大チャージ+4
+            舞空術による気の消費量が減少
+            '''
+    }
+
+    RadiantVisor: {
+        DisplayName: 光り輝くバイザー
+        Tooltip:
+            '''
+            気功ダメージが18%増加
+            気功のクリティカル率が24%上昇
+            気の最大値が750増加
+            舞空術の速度が上昇
+            '''
+    }
+
+    SaiyanBreastplate: {
+        DisplayName: サイヤ人の戦闘服(上)
+        Tooltip:
+            '''
+            気功ダメージが10%増加
+            気功のクリティカル率が6%上昇
+            気の最大値が100増加
+            '''
+    }
+
+    SaiyanLeggings: {
+        DisplayName: サイヤ人の戦闘服(下)
+        Tooltip:
+            '''
+            気功ダメージが7%増加
+            気功のクリティカル率が5%上昇
+            移動速度が16%上昇
+            '''
+    }
+
+    SaiyanScoutPants: {
+        DisplayName: サイヤ人のスカウトパンツ
+        Tooltip:
+            '''
+            気功ダメージが2%増加
+            気功のノックバックが2%増加
+            移動速度が6%上昇
+            '''
+    }
+
+    SaiyanScoutScalemail: {
+        DisplayName: サイヤ人のスカウトジャケット
+        Tooltip:
+            '''
+            気功ダメージが3%増加
+            気功のクリティカル率が2%上昇
+            気の消費量が5%減少
+            '''
+    }
+
+    ChlorophyteHeadpiece: {
+        DisplayName: クロロファイトのヘッドピース
+        Tooltip:
+            '''
+            気功ダメージが16%増加
+            気功のクリティカル率が12%上昇
+            気の最大値が500増加
+            '''
+    }
+
+    CobaltCrown: {
+        DisplayName: コバルトの王冠
+        Tooltip:
+            '''
+            気功ダメージが9%増加
+            気功のクリティカル率が6%上昇
+            '''
+    }
+
+    HallowedFedora: {
+        DisplayName: 神聖なフェドーラ
+        Tooltip:
+            '''
+            気功ダメージが13%増加
+            気功のクリティカル率が11%上昇
+            気の最大値が300増加
+            '''
+    }
+
+    MythrilGlasses: {
+        DisplayName: ミスリルのグラス
+        Tooltip:
+            '''
+            気功ダメージが11%増加
+            気功のクリティカル率が6%上昇
+            気の最大値が100増加
+            '''
+    }
+
+    OrichalcumHat: {
+        DisplayName: オリハルコンの帽子
+        Tooltip:
+            '''
+            気功ダメージが10%増加
+            気功のクリティカル率が7%上昇
+            気の最大値が100増加
+            '''
+    }
+
+    PalladiumBlindfoldCrown: {
+        DisplayName: パラジウムのブラインドフォールドクラウン
+        Tooltip:
+            '''
+            気功ダメージが9%増加
+            気功のクリティカル率が6%上昇
+            '''
+    }
+
+    TitaniumCap: {
+        DisplayName: チタニウムのキャップ
+        Tooltip:
+            '''
+            気功ダメージが14%増加
+            気功のクリティカル率が9%上昇
+            気の最大値が250増加
+            '''
+    }
+
+    CanadianDemonLeggings: {
+        DisplayName: カナディアンデーモンのレギンス
+        Tooltip:
+            '''
+            気功ダメージが20%増加
+            気功のクリティカル率が16%上昇
+            気の最大値が500増加
+            気の自然回復を増進
+            移動速度が18%上昇
+            '''
+    }
+
+    CanadianDemonShirt: {
+        DisplayName: カナディアンデーモンのシャツ
+        Tooltip:
+            '''
+            気功ダメージが24%増加
+            気功のクリティカル率が20%上昇
+            気の最大値が1000増加
+            最大チャージ+2
+            '''
+    }
+
+    GreenGodHead: {
+        DisplayName: ブロリーの髪型
+        Tooltip: 「カカロットォォォッ!!!!!」
+    }
+
+    CoarseRock: {
+        DisplayName: 粗い岩
+        Tooltip: 乾燥して圧縮された砂の塊
+    }
+
+    BukuujutsuVol1: {
+        DisplayName: 舞空術の書 第一巻 - カミナリよりも速く!!
+        Tooltip: 古い技術が刻まれており、読むと舞空術が上達する
+    }
+
+    BukuujutsuVol2: {
+        DisplayName: 舞空術の書 第二巻 - 空のように静かに
+        Tooltip: 古い技術が刻まれており、読むと舞空術が上達する
+    }
+
+    BukuujutsuVol3: {
+        DisplayName: 舞空術の書 第三巻 - 舞空の極致
+        Tooltip: 古い技術が刻まれており、読むと舞空術が上達する
+    }
+
+    DisgustingGoop: {
+        DisplayName: 謎の果実
+        Tooltip: 気を安定させるが、味はひどい
+    }
+
+    KaioFragment1: {
+        DisplayName: 界王拳3倍
+        Tooltip: 3倍界王拳が使用可能になる
+    }
+
+    KaioFragment2: {
+        DisplayName: 界王拳4倍
+        Tooltip: 4倍界王拳が使用可能になる
+    }
+
+    KaioFragment3: {
+        DisplayName: 界王拳10倍
+        Tooltip: 10倍界王拳が使用可能になる
+    }
+
+    KaioFragment4: {
+        DisplayName: 界王拳20倍
+        Tooltip: 20倍界王拳が使用可能になる
+    }
+
+    KaioFragmentFirst: {
+        DisplayName: 界王拳
+        Tooltip: 界王さま秘伝の奥義が使用可能になる
+    }
+
+    KiEssence1: {
+        DisplayName: 気の秘伝書(初級)
+        Tooltip: 気を溜める速度が上昇
+    }
+
+    KiEssence2: {
+        DisplayName: 気の秘伝書(中級)
+        Tooltip: 気を溜める速度が上昇
+    }
+
+    KiEssence3: {
+        DisplayName: 気の秘伝書(上級)
+        Tooltip: 気を溜める速度が上昇
+    }
+
+    KiEssence4: {
+        DisplayName: 気の秘伝書(超級)
+        Tooltip: 気を溜める速度が上昇
+    }
+
+    KiEssence5: {
+        DisplayName: 気の秘伝書(マスター)
+        Tooltip: 気を溜める速度が上昇
+    }
+
+    KiFragment1: {
+        DisplayName: 気のフラグメント(初級)
+        Tooltip: 気の最大値が1000増加
+    }
+
+    KiFragment2: {
+        DisplayName: 気のフラグメント(中級)
+        Tooltip: 気の最大値が2000増加
+    }
+
+    KiFragment3: {
+        DisplayName: 気のフラグメント(上級)
+        Tooltip: 気の最大値が2000増加
+    }
+
+    KiFragment4: {
+        DisplayName: 気のフラグメント(超級)
+        Tooltip: 気の最大値が2000増加
+    }
+
+    KiFragment5: {
+        DisplayName: 気のフラグメント(マスター)
+        Tooltip: 気の最大値が2000増加
+    }
+
+    MRE: {
+        DisplayName: 戦闘用携帯食料
+        Tooltip: お腹いっぱいで力がみなぎる！さまざまなパワーアップ
+    }
+
+    KiPotion1: {
+        DisplayName: 低級超神水
+        Tooltip: 気を330回復
+    }
+
+    KiPotion2: {
+        DisplayName: 超神水
+        Tooltip: 気を640回復
+    }
+
+    KiPotion3: {
+        DisplayName: 高級超神水
+        Tooltip: 気を1080回復
+    }
+
+    KiPotion4: {
+        DisplayName: ウルトラ超神水
+        Tooltip: 気を2180回復
+    }
+
+    KiPotion5: {
+        DisplayName: 超ウルトラ超神水
+        Tooltip: 気を5100回復
+    }
+
+    KiStimulant: {
+        DisplayName: 気力促進剤
+        Tooltip: 身体を刺激し、気力を強化する
+    }
+
+    SenzuBean: {
+        DisplayName: 仙豆
+        Tooltip: ライフとマナと気を全回復
+    }
+
+    LegendaryTestItem: {
+        DisplayName: レジェンダリーテストアイテム
+        Tooltip: レジェンダリートレイトを付与
+    }
+
+    LSSJ2TestItem: {
+        DisplayName: LSSJ2テストアイテム
+        Tooltip: LSSJ2変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    LSSJTestItem: {
+        DisplayName: LSSJテストアイテム
+        Tooltip: LSSJ変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    ProdigyTestItem: {
+        DisplayName: プロディジーテストアイテム
+        Tooltip: プロディジートレイトを付与
+    }
+
+    SSJ2MasteryTestItem: {
+        DisplayName: SSJ2マスタリーテストアイテム
+        Tooltip: SSJ2マスタリーを強制的にアップグレード。使用ごとに25%増加
+    }
+
+    SSJ2TestItem: {
+        DisplayName: SSJ2テストアイテム
+        Tooltip: SSJ2変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    SSJ3MasteryTestItem: {
+        DisplayName: SSJ3マスタリーテストアイテム
+        Tooltip: SSJ3マスタリーを強制的にアップグレード。使用ごとに25%増加
+    }
+
+    SSJ3TestItem: {
+        DisplayName: SSJ3テストアイテム
+        Tooltip: SSJ3変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    SSJGTestItem: {
+        DisplayName: SSJGテストアイテム
+        Tooltip: SSJG変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    SSJMasteryTestItem: {
+        DisplayName: SSJマスタリーテストアイテム
+        Tooltip: SSJ1マスタリーを強制的にアップグレード。使用ごとに25%増加
+    }
+
+    SSJTestItem: {
+        DisplayName: SSJテストアイテム
+        Tooltip: SSJ変身カットシーンを強制的に起動し、アンロック。
+    }
+
+    TraitRemover: {
+        DisplayName: トレイトリムーバー
+        Tooltip: すべてのトレイトを削除。
+    }
+
+    TransmissionPura: {
+        DisplayName: 瞬間移動の書 第三巻 - 気の収束
+        Tooltip: 宇宙の力を宿し、空間を自在に操る
+    }
+
+    TransmissionTeleport: {
+        DisplayName: 瞬間移動の書 第二巻 - 気の集中
+        Tooltip: 宇宙の力を宿し、空間を操る
+    }
+
+    TransmissionVanish: {
+        DisplayName: 瞬間移動の書 第一巻 - 気の感知
+        Tooltip: 宇宙の力を宿し、気の位置を探す
+    }
+
+    DBNote: {
+        DisplayName: ボロボロのメモ
+        Tooltip:
+            '''
+            ドラゴンボールに付けられた古いメモ
+            「このドラゴンボールは非常に強力な宝物じゃ。
+            世界中に散らばる他の6つを集め、
+            神龍におぬしの願いを叶えてもらえ。」
+            '''
+    }
+
+    DragonRadar1: {
+        DisplayName: ドラゴンレーダーMK1
+        Tooltip:
+            '''
+            ドラゴンボールを追跡するための低級技術装備
+            これを持つと、最も近いドラゴンボールの方向を低精度で示す
+            ドラゴンボールに近づきすぎるとレーダーがオーバーロードする
+            '''
+    }
+
+    DragonRadar2: {
+        DisplayName: ドラゴンレーダーMK2
+        Tooltip:
+            '''
+            ドラゴンボールを追跡するための中等技術装備
+            これを持つと、最も近いドラゴンボールの方向をそこそこの精度で示す
+            ドラゴンボールに近づきすぎるとレーダーがオーバーロードする
+            '''
+    }
+
+    DragonRadar3: {
+        DisplayName: ドラゴンレーダーMK3
+        Tooltip:
+            '''
+            ドラゴンボールを追跡するための高等技術装備
+            これを持つと、最も近いドラゴンボールの方向を高精度で示す
+            ドラゴンボールに近づきすぎるとレーダーがオーバーロードする
+            '''
+    }
+
+    FiveStarDB: {
+        DisplayName: 五星球
+        Tooltip: 五つの星が刻まれた神秘的なボール
+    }
+
+    FourStarDB: {
+        DisplayName: 四星球
+        Tooltip: 四つの星が刻まれた神秘的なボール
+    }
+
+    OneStarDB: {
+        DisplayName: 一星球
+        Tooltip: 一つの星が刻まれた神秘的なボール
+    }
+
+    SevenStarDB: {
+        DisplayName: 七星球
+        Tooltip: 七つの星が刻まれた神秘的なボール
+    }
+
+    SixStarDB: {
+        DisplayName: 六星球
+        Tooltip: 六つの星が刻まれた神秘的なボール
+    }
+
+    ThreeStarDB: {
+        DisplayName: 三星球
+        Tooltip: 三つの星が刻まれた神秘的なボール
+    }
+
+    TwoStarDB: {
+        DisplayName: 二星球
+        Tooltip: 二つの星が刻まれた神秘的なボール
+    }
+
+    EmptyNecklace: {
+        DisplayName: 空のネックレス
+        Tooltip: 宝石を取り付けられそう
+    }
+
+    KaiTableItem: {
+        DisplayName: 界王さまのテーブル
+        Tooltip: 神々しい存在感で、あなたを魅了する
+    }
+
+    KatchinScale: {
+        DisplayName: カッチンスケール
+        Tooltip: 巨大な魚から引きちぎられた驚異的な耐久性のスケール
+    }
+
+    KiBeaconItem: {
+        DisplayName: 気のビーコン
+        Tooltip: 瞬間移動で感知できる気を放出する
+    }
+
+    KiLanternItem: {
+        DisplayName: 気のランタン
+        Tooltip:
+            '''
+            気の輝きを放つ。
+            近くにいると気の自然回復がわずかに増進
+            '''
+    }
+
+    KiOrb: {
+        DisplayName: 気のオーブ
+        Tooltip: ""
+    }
+
+    KiOrb2: {
+        DisplayName: 超・気のオーブ
+        Tooltip: ""
+    }
+
+    AstralEssentia: {
+        DisplayName: アストラルエッセンシア
+        Tooltip: 空のアストラルエネルギーが内側から放たれる
+    }
+
+    DemonicSoul: {
+        DisplayName: 悪魔のソウル
+        Tooltip: 「悪魔の怒りのエッセンス」
+    }
+
+    DivineThreads: {
+        DisplayName: 神の糸
+        Tooltip: 信じられないほど柔らかく、神聖なエネルギーを放つ素材
+    }
+
+    EarthenShard: {
+        DisplayName: 大地の欠片
+        Tooltip: 大地の魂の欠片
+    }
+
+    AngerKiCrystal: {
+        DisplayName: 怒りの気結晶
+        Tooltip: 世界中の腐敗した怒りが宿る
+    }
+
+    CalmKiCrystal: {
+        DisplayName: 穏やかな気結晶
+        Tooltip: 大自然の穏やかな力が宿る
+    }
+
+    PridefulKiCrystal: {
+        DisplayName: 誇り高き気結晶
+        Tooltip: 世界中の誇り高き炎が宿る
+    }
+
+    PureKiCrystal: {
+        DisplayName: 純粋な気結晶
+        Tooltip: 世界中の輝く光が宿る
+    }
+
+    StableKiCrystal: {
+        DisplayName: バランスの気結晶
+        Tooltip: 世界中の普遍的な魂が宿る
+    }
+
+    RadiantFragment: {
+        DisplayName: 光り輝く断片
+        Tooltip: 「このカケラの周囲からは宇宙の脈動が聞こえてくる」
+    }
+
+    SatanicCloth: {
+        DisplayName: 悪魔の布
+        Tooltip: 敵意を放つ布
+    }
+
+    ScrapMetal: {
+        DisplayName: 金属のスクラップ
+        Tooltip: 古い金属片、ジャンク屋なら売れそうだ
+    }
+
+    SkeletalEssence: {
+        DisplayName: 骸骨のエッセンス
+        Tooltip: ダンジョンに潜む者たちの骨片
+    }
+
+    SoulofEntity: {
+        DisplayName: 強敵のソウル
+        Tooltip: 「蘇る強敵のエッセンス」
+    }
+
+    Choco1: {
+        DisplayName: チョコレート
+        Tooltip: ""
+    }
+
+    Choco2: {
+        DisplayName: チョコレート
+        Tooltip: ""
+    }
+
+    Choco3: {
+        DisplayName: チョコレート
+        Tooltip: ""
+    }
+
+    CoffeeCandy: {
+        DisplayName: コーヒーキャンディ
+        Tooltip: ""
+    }
+
+    SSJGUnlocKitem: {
+        DisplayName: 神聖なる魂
+        Tooltip: ""
+    }
+
+    NimbusWhistle: {
+        DisplayName: 筋斗雲のホイッスル
+        Tooltip: 騎乗（筋斗雲）を召喚する
+    }
+
+    RadiantFragmentBlocKitem: {
+        DisplayName: 光り輝く断片のブロック
+        Tooltip: ""
+    }
+
+    RefinedMetal: {
+        DisplayName: 精製金属
+        Tooltip: 高品質で非常に耐久性のある精製金属
+    }
+
+    RadiantHamaxe: {
+        DisplayName: 光り輝くハンマーアックス
+        Tooltip: ""
+    }
+
+    RadiantPickaxe: {
+        DisplayName: 光り輝くピックアックス
+        Tooltip: ""
+    }
+
+    FarmerShotgun: {
+        DisplayName: 農家のショットガン
+        Tooltip: ""
+    }
+
+    TrunksSword: {
+        DisplayName: トランクスの剣
+        Tooltip:
+            '''
+            敵の防御力をある程度無視する
+            -Tier 4-
+            '''
+    }
+
+    YajirobesKatana: {
+        DisplayName: ヤジロベーの刀
+        Tooltip: -Tier 2-
+    }
+
+    EnergyWave: {
+        DisplayName: エネルギー波
+        Tooltip:
+            '''
+            最大チャージ=3
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    KiBeam: {
+        DisplayName: デスビーム
+        Tooltip: ""
+    }
+
+    KiBlast: {
+        DisplayName: 気弾
+        Tooltip: ""
+    }
+
+    DestructoDisk: {
+        DisplayName: 気円斬
+        Tooltip: ""
+    }
+
+    DoubleSunday: {
+        DisplayName: ダブルサンデー
+        Tooltip:
+            '''
+            最大チャージ=4
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    EnergyBlastBarrage: {
+        DisplayName: 連続エネルギー弾
+        Tooltip: ""
+    }
+
+    Masenko: {
+        DisplayName: 魔閃光
+        Tooltip:
+            '''
+            最大チャージ=5
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    SpiritBall: {
+        DisplayName: 操気弾
+        Tooltip: ""
+    }
+
+    BlightedFang: {
+        DisplayName: ブラッドシーフ
+        Tooltip: ライフを奪う気弾を放つ
+    }
+
+    DirtyFireworks: {
+        DisplayName: きたない花火
+        Tooltip: 「きたねえ花火だ」
+    }
+
+    GalickGun: {
+        DisplayName: ギャリック砲
+        Tooltip:
+            '''
+            最大チャージ=7
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    HellzoneGrenade: {
+        DisplayName: 魔空包囲弾
+        Tooltip: ""
+    }
+
+    Kamehameha: {
+        DisplayName: かめはめ波
+        Tooltip:
+            '''
+            最大チャージ=6
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    BigBangAttack: {
+        DisplayName: ビッグバンアタック
+        Tooltip: ""
+    }
+
+    EnergyShot: {
+        DisplayName: 気功弾
+        Tooltip: 通常の気弾の強化版
+    }
+
+    Scattershot: {
+        DisplayName: 激烈光弾
+        Tooltip: ""
+    }
+
+    SpecialBeamCannon: {
+        DisplayName: 魔貫光殺砲
+        Tooltip:
+            '''
+            最大チャージ=6
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    SpiritBomb: {
+        DisplayName: 元気玉
+        Tooltip: ""
+    }
+
+    SuperKamehameha: {
+        DisplayName: 超かめはめ波
+        Tooltip:
+            '''
+            最大チャージ=8
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    TrapShooter: {
+        DisplayName: イレイザーショット
+        Tooltip: ""
+    }
+
+    DestructoDiskAssault: {
+        DisplayName: 気円斬アサルト
+        Tooltip: ""
+    }
+
+    FinalFlash: {
+        DisplayName: ファイナルフラッシュ
+        Tooltip:
+            '''
+            最大チャージ=9
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    Kamehamehax10: {
+        DisplayName: 10倍かめはめ波
+        Tooltip:
+            '''
+            最大チャージ=8
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    SuperEnergyBarrage: {
+        DisplayName: 超連続エネルギー弾
+        Tooltip: ""
+    }
+
+    Supernova: {
+        DisplayName: スーパーノヴァ
+        Tooltip: ""
+    }
+
+    BlackBlitz: {
+        DisplayName: ブラックパワーボール
+        Tooltip: ""
+    }
+
+    BlindingBlade: {
+        DisplayName: ブラインディングブレード
+        Tooltip: 壁で跳ね返る気をまとったディスクを投げる
+    }
+
+    CandyLaser: {
+        DisplayName: キャンディレーザー
+        Tooltip: 敵をチョコレートに変える、ボスには効果なし
+    }
+
+    FinalShine: {
+        DisplayName: ファイナルシャインアタック
+        Tooltip:
+            '''
+            最大チャージ=12
+            右クリックでチャージ
+            左クリックで発射
+            '''
+    }
+
+    HolyWrath: {
+        DisplayName: 聖なる逆鱗
+        Tooltip: ""
+    }
+
+    RadialJavelin: {
+        DisplayName: 光り輝くジャベリン
+        Tooltip: ホーミングジャベリンの一斉掃射
+    }
+
+    SuperSpiritBomb: {
+        DisplayName: 超元気玉
+        Tooltip: 「またな！」
+    }
+
+    ZTableItem: {
+        DisplayName: Z戦士のテーブル
+        Tooltip: 気のエッセンスそのものを加工できる
+    }
+
+    SSJGUnlockItem: {
+        DisplayName: 神聖なる魂
+        Tooltip: ""
+    }
+
+    RadiantFragmentBlockItem: {
+        DisplayName: 光り輝く断片のブロック
+        Tooltip: ""
+    }
+}
+
+NPCs: {
+	MajinSlime: {
+		DisplayName: 魔人スライム
+	}
+
+	MajinZombie: {
+		DisplayName: 魔人ゾンビ
+	}
+}
+
+Prefixes: {
+    BalancedPrefix: {
+        DisplayName: バランスの良い
+    }
+
+    BoostedPrefix: {
+        DisplayName: 強化された
+    }
+
+    CondensedPrefix: {
+        DisplayName: 凝縮された
+    }
+
+    DestructivePrefix: {
+        DisplayName: 破壊者の
+    }
+
+    DistractedPrefix: {
+        DisplayName: 狂気の
+    }
+
+    FlashyPrefix: {
+        DisplayName: 眩い
+    }
+
+    FlawedPrefix: {
+        DisplayName: 不完全な
+    }
+
+    InfusedPrefix: {
+        DisplayName: 濃縮された
+    }
+
+    MasteredPrefix: {
+        DisplayName: 達人の
+    }
+
+    MystifyingPrefix: {
+        DisplayName: 神秘的な
+    }
+
+    NegatedPrefix: {
+        DisplayName: 無価値な
+    }
+
+    OutrageousPrefix: {
+        DisplayName: 怒りの
+    }
+
+    PoweredPrefix: {
+        DisplayName: 力強い
+    }
+
+    TranscendedPrefix: {
+        DisplayName: 超越した
+    }
+
+    UnstablePrefix: {
+        DisplayName: 不安定な
+    }
+}
+
+Tiles: {
+    FiveStarDBTile: {
+        MapEntry: 五星球
+    }
+
+    FourStarDBTile: {
+        MapEntry: 四星球
+    }
+
+    OneStarDBTile: {
+        MapEntry: 一星球
+    }
+
+    SevenStarDBTile: {
+        MapEntry: 七星球
+    }
+
+    SixStarDBTile: {
+        MapEntry: 六星球
+    }
+
+    ThreeStarDBTile: {
+        MapEntry: 三星球
+    }
+
+    TwoStarDBTile: {
+        MapEntry: 二星球
+    }
+
+    KaiTable: {
+        MapEntry: 界王さまのテーブル
+    }
+
+    KiBeaconTile: {
+        MapEntry: 気のビーコン
+    }
+
+    KiLantern: {
+        MapEntry: 気のランタン
+    }
+
+    ZTable: {
+        MapEntry: Z戦士のテーブル
+    }
+}
+
+Keybinds: {
+    Kaioken: {
+        DisplayName: 界王拳
+    }
+
+    "Energy Charge": {
+        DisplayName: 気を溜める
+    }
+
+    Transform: {
+        DisplayName: 変身
+    }
+
+    "Power Down": {
+        DisplayName: 変身解除
+    }
+
+    "Speed Toggle": {
+        DisplayName: スピードトグル
+    }
+
+    "Quick Ki": {
+        DisplayName: クイックチャージ
+    }
+
+    "Transformation Menu": {
+        DisplayName: 変身メニュー
+    }
+
+    "Instant Transmission": {
+        DisplayName: 瞬間移動
+    }
+
+    "Flight Toggle": {
+        DisplayName: 舞空術トグル
+    }
+
+    "Armor Bonus": {
+        DisplayName: アーマーボーナス
+    }
+}
+
+Configs: {
+    DBZClientConfig: {
+        DisplayName: DBZクライアント設定
+
+        IsChargeToggled: {
+            Label: チャージトグル
+            Tooltip: オフでホールドチャージ、オンでトグルチャージ
+        }
+    }
+
+    DBZServerConfig: {
+        DisplayName: DBZサーバー設定
+
+        RespectDragonBallOwnership: {
+            Label: ドラゴンボール所有権の尊重
+            Tooltip:
+                '''
+                ユーザー自身がそのボールを集めたかどうかを検証するかどうか。
+                これをオフにすると、チェストにあるドラゴンボールのセットを誰でも使用可能。
+                '''
+        }
+    }
+}
+
+DamageClasses: {
+    KiDamageType: {
+        DisplayName: 気功ダメージ
+    }
+}

@@ -1,0 +1,164 @@
+Tiles: {
+	Geode: {
+		MapEntry: Geode
+	}
+}
+
+WorldGenMessage: Growing Geodes...
+
+ArtifactMaterial: {
+	DefaultCallbackDescription: Amplifies effect power by {0}x
+
+	Name: {
+		Silver: Silver
+		Gold: Gold
+	}
+}
+
+JewelryUI: {
+	Output: Output
+	Mold: Mold
+	InputsText: Inputs
+}
+
+GemEffects: {
+	DoubleLoot: Grants a {0:P1} chance for enemies to drop extra loot
+	DoubleHits: Grants a {0:P1} chance to hit a target twice
+	CumulativeDodgeChance: Being hit grants a cumulative {0:P1} chance to dodge the next hit. Resets to 0% when you successfully dodge a hit this way
+	NoHitIncreaseDamageReduction: Avoiding damage for a short time reduces damage taken on your next hit by up to {0:P1}
+	HeartsRestoreMore: Increases the amount of life restored by hearts by {0:P1}
+	DefenseIncreaseDamage: Increases your damage by {0:F1} for every {1} points of defense you have ({2})
+	WhipSweetSpot: Increases damage dealt by whips by {0:P1} when hitting a target at the tip of your whip
+	UniqueMinionsIncreaseDamage: Increases your summon damage by {0:P1} for each unique minion you have active
+	SentryFreshSpawnDamageIncrease: Increases damage dealt by sentries by {0:P1} for 30 seconds after spawning
+	IncreaseLuck: Increases your luck by {0:P1}
+	NoHitReduceManaCost: Avoiding damage reduces mana cost, up to {0:P1}
+	ManaStarReduceManaCost: Picking up a mana star reduces mana cost by {0:P1} for a short time
+	LowManaIncreaseDamage: Increases your magic damage the lower your mana becomes, up to {0:P1}
+	IncreaseMaxMana: Increases your max mana by {0}
+	IncreaseManaRegeneration: Increases your mana regeneration by {0:P1}
+	IncreaseMagicDamage: Increases your magic damage by {0:P1}
+	OnKillAttackSpeed: When you kill an enemy, your attack speed is increased by {0:P1} for a short time
+	NearbyIncreaseDamage: Increases damage done to nearby enemies by {0:P1}
+	LowHealthIncreaseDefenseEffectiveness: Increases the effectiveness of defense the lower your health becomes, up to {0:P1}
+	IncreaseMeleeDamage: Increases your melee damage by {0:P1}
+	IncreaseMeleeAttackSpeed: Increases your melee attack speed by {0:P1}
+	IncreaseKnockbackResistance: Increases resistance to knockback by {0:P1}
+	IncreaseAggro: Enemies are more likely to target you
+	IncreaseToolRange: Increases the range of your tools by 1 tile
+	IncreaseMovementSpeed: Increases your movement speed by {0:P1}
+	IncreaseMiningSpeed: Increases your mining speed by {0:P1}
+	IncreaseKnockback: Increases your knockback by {0:P1}
+	IncreaseJumpSpeed: Increases your jump speed by {0:P1}
+	IncreaseFallResistance: Increases your fall resistance
+	IncreaseAttackSpeed: Increases your attack speed by {0:P1}
+	ReduceAmmoConsumption: Increases chance to save ammo by {0:P1}
+	MarkTargets: A random enemy is marked for death, dealing damage to this enemy is increased by {0:P1}
+	IncreaseRangedDamage: Increases your ranged damage by {0:P1}
+	IncreaseAttackSpeedOnHit: When you get hit, your attack speed is increased by {0:P1} for a short time
+	IncreaseArmorPenetration: Increases your armor penetration by {0}
+	FarTargetsIncreaseDamage: When hitting targets at a distance, your damage is increased by {0:P1}%
+	SpeedBoostOnCrit: When scoring a critical hit, your speed is increased by {0:P1} for a short time
+	RecoveryItemOnCrit: When scoring a critical hit, you spawn a recovery item
+	IncreaseCritDamageDecreaseNonCritDamage: Increases your critical strike damage by {0:P1}, but decreases your non-critical-strike damage by {1:P1}
+	IncreaseCritDamage: Increases your critical strike damage by {0:P1}
+	IncreaseCritChance: Increases your critical strike chance by {0:P1}
+	CumulativeCritChance: Hits grant a cumulative {0:P1} extra critical strike chance, resetting whenever you score a critical hit against that target
+	IncreaseTurretSlots: Increases your max number of sentries by 1, but decreases your max number of minions by 1
+	IncreaseSummonDamage: Increases your summon damage by {0:P1}
+	IncreaseMinionSlots: Increases your max number of minions by 1, but decreases your max number of sentries by 1
+	DecreaseAggro: Enemies are less likely to target you
+	IncreaseMaxHealth: Increases your max life by {0}
+	IncreaseDefense: Boosts your defense by {0}
+	IncreaseDamageResistance: Increases your damage reduction by {0:P1}
+	Header: Gem Effects:
+}
+
+ArtifactUI: {
+	HintSlotItem: Click while holding a gem in your cursor to slot it here.
+}
+
+GemData: {
+	Strength: Effect Strength: {0:F2}
+}
+
+RightClickMe: "[c/BBBBBB:Right Click while holding to view slots]"
+
+ShiftToExpand: "[c/BBBBBB:Hold Shift to expand]"
+
+Items: {
+	GemballMachineItem: {
+		Tooltip: ""
+		DisplayName: Gemball Machine
+	}
+
+	Lunecklace: {
+		Tooltip:
+			'''
+			Increases the strength of all effects by 30%
+			'As long as there are stars up above...'
+			'''
+		DisplayName: Lunecklace
+	}
+
+	SpiderlegCharm: {
+		Tooltip: Increases the strength of Amethyst effects by 50%
+		DisplayName: Spiderleg Charm
+	}
+
+	ShadowflameStrand: {
+		Tooltip: Increases the strength of Sapphire effects by 50%
+		DisplayName: Shadowflame Strand
+	}
+
+	EncrustedNecklace: {
+		Tooltip: Increases the strength of Emerald effects by 50%
+		DisplayName: Encrusted Necklace
+	}
+
+	GoldenNecklace: {
+		Tooltip: Increases the strength of Ruby effects by 50%
+		DisplayName: Golden Necklace
+	}
+
+	LostBand: {
+		Tooltip: Increases the strength of Generic Minor effects by 30%
+		DisplayName: Lost Band
+	}
+
+	UnholyRing: {
+		Tooltip: Increases the strength of Major effects by 20%
+		DisplayName: Unholy Ring
+	}
+
+	GoldenRing: {
+		Tooltip: ""
+		DisplayName: Golden Ring
+	}
+
+	JewelryStation: {
+		Tooltip: ""
+		DisplayName: Jewelry Station
+	}
+
+	RecoveryItem: {
+		Tooltip: ""
+		DisplayName: Carat Apple
+	}
+
+	TestingArtifact: {
+		Tooltip: I exist so you can find the correct insertion point, please don't kill me!!
+		DisplayName: Testing Artifact
+	}
+
+	Gem: {
+		Tooltip: ""
+		DisplayName: Gem
+	}
+
+	ArtifactItem: {
+		Tooltip: ""
+		DisplayName: Artifact Item
+	}
+}
+

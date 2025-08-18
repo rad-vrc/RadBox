@@ -1,0 +1,1557 @@
+{
+	BossChecklist: {
+		TheHaunt: "墓地バイオームでグレイブフラワーを使用 グレイブフラワーはクラフトするか、以下のモンスターから入手可能：ホーントリング(3.33%)、ファントムメイジ(5%)、ゴースト(5%)"
+		FireDragon: "地底世界でエンシェントトークンを使用すると戦闘開始 エンシェントトークンはファイアドレイク(約8%)または魔法使いから入手可能"
+	}
+	Keybinds: {
+		Runes: {
+			DisplayName: "ルーン"
+		}
+	}
+	Configs: {
+		ClientSidedToggles: {
+			FancyWingFlightToggle: {
+				Tooltip: "翼使用時にプレイヤーがわずかに傾く"
+				Label: "ファンシーな翼飛行"
+			}
+			Headers: {
+				VisualToggle: "ビジュアル"
+			}
+			DisplayName: "クライアント設定"
+		}
+		ServerSidedToggles: {
+			ShroomlingSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "シュルームリング"
+			}
+			SandstoneMimicSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "サンドストーンミミック"
+			}
+			NightSlimeSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "ナイトスライム"
+			}
+			LivingCactusSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "リビングカクタス"
+			}
+			IceGuardianSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "アイスガーディアン"
+			}
+			GraniteGruntSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "グラナイトグラント"
+			}
+			GrabberPlantSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "グラバープラント"
+			}
+			GoblinBalloonistSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "ゴブリンバルーニスト"
+			}
+			FrostWraithSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "フロストレイス"
+			}
+			CursedPickaxeSpawnMultiplier: {
+				Tooltip: "この特定のNPCの出現確率を調整する"
+				Label: "呪われたピッケル"
+			}
+			NPCSpawnMultiplier: {
+				Tooltip: "'''\nこのMODの全てのNPCの出現確率を、元の確率にこの値を掛けて調整する\n注意：これは個別のNPCの乗数を上書きする\n'''"
+				Label: "全てのNPC"
+			}
+			MagicWorkBenchCraftingToggle: {
+				Tooltip: "一部のレシピのクラフト設備をマジックワークベンチに置き換えるかどうか"
+				Label: "バニラレシピにマジックワークベンチを使用"
+			}
+			spawnStructureToggle: {
+				Tooltip: "新しいワールドを作成する際に、小さなスポーンストラクチャーを生成するかどうか"
+				Label: "スポーンストラクチャーを生成"
+			}
+			NoConsumeEventSummon: {
+				Tooltip: "イベント召喚アイテムを消費するかどうかを切り替える"
+				Label: "再利用可能なイベント召喚アイテム"
+			}
+			NoConsumeBossSummon: {
+				Tooltip: "ボス召喚アイテムを消費するかどうかを切り替える"
+				Label: "再利用可能なボス召喚アイテム"
+			}
+			HardmodeOreProgressionToggle: {
+				Tooltip: "'''\n鉱石は以下のように採掘可能：\nパラジウム/コバルト：ウォールオブフレッシュ後\nミスリル/オリハルコン：いずれかのメカボスまたはファイアドラゴン後\nアダマンタイト/チタン：いずれかのメカボス2体後\n'''"
+				Label: "Mod化されたハードモード鉱石進行を使用"
+			}
+			ModifiedRecipesToggle: {
+				Tooltip: "'''\n既存のバニラレシピへの変更（材料）を切り替える\n新しい代替レシピは削除されない\n'''"
+				Label: "変更されたバニラレシピ"
+			}
+			Headers: {
+				ModNPCSpawning: "NPC出現確率乗数"
+				WorldGeneration: "ワールド生成"
+				Items: "アイテム設定"
+				OreProgression: "進行設定"
+				VanillaRecipes: "レシピ設定"
+			}
+			DisplayName: "サーバー/ワールド設定"
+		}
+	}
+	Conditions: {
+		SellCosmicItems: "コズミックアイテムを販売"
+	}
+	NPCs: {
+		Hauntling: {
+			DisplayName: "ホーントリング"
+		}
+		TheHaunt: {
+			DisplayName: "ザ・ホーント"
+		}
+		HauntedPot: {
+			DisplayName: "呪われた壺"
+		}
+		PhantomMage: {
+			DisplayName: "ファントムメイジ"
+		}
+		GraniteGrunt: {
+			DisplayName: "グラナイトグラント"
+		}
+		TrainingDummyNPC: {
+			DisplayName: "トレーニングダミー"
+		}
+		JungleMimic: {
+			DisplayName: "ジャングルミミック"
+		}
+		GoblinBalloonist: {
+			DisplayName: "ゴブリンバルーニスト"
+		}
+		IceGuardianShield: {
+			DisplayName: "アイスガーディアンシールド"
+		}
+		IceGuardian: {
+			DisplayName: "アイスガーディアン"
+		}
+		GrabberPlant: {
+			DisplayName: "グラバープラント"
+		}
+		LivingCactus: {
+			DisplayName: "リビングカクタス"
+		}
+		FrostWraith: {
+			DisplayName: "フロストレイス"
+		}
+		Shroomling: {
+			DisplayName: "シュルームリング"
+		}
+		CursedPickaxe: {
+			DisplayName: "呪われたピッケル"
+		}
+		Builder: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				LikeNPC: "私は{NPCName}が好き"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				HateBiome: "私は{BiomeName}が嫌いだ"
+				LoveBiome: "私は{BiomeName}が大好きだ"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "建築家"
+		}
+		SandstoneMimic: {
+			DisplayName: "サンドストーンミミック"
+		}
+		NightSlime: {
+			DisplayName: "ナイトスライム"
+		}
+		FireDrake: {
+			DisplayName: "ファイアドレイク"
+		}
+		FireDragonTail: {
+			DisplayName: "ファイアドラゴン（尾）"
+		}
+		FireDragonHead: {
+			DisplayName: "ファイアドラゴン"
+		}
+		FireDragonBody: {
+			DisplayName: "ファイアドラゴン（胴体）"
+		}
+	}
+	Tiles: {
+		IceGuardianBannerTile: {
+			MapEntry: "バナー"
+		}
+		MonsterBanners: {
+			MapEntry: "モンスターバナー"
+		}
+		GrabberPlantBannerTile: {
+			MapEntry: "バナー"
+		}
+		LivingCactusBannerTile: {
+			MapEntry: "バナー"
+		}
+		MysteriousChestTile: {
+			MapEntry1: "ロックされた不思議なチェスト"
+			MapEntry0: "不思議なチェスト"
+		}
+		FrostWraithBannerTile: {
+			MapEntry: "バナー"
+		}
+		MagicWorkbenchTile: {
+			MapEntry: "マジックワークベンチ"
+		}
+		ShroomlingBannerTile: {
+			MapEntry: "バナー"
+		}
+		CursedPickaxeBannerTile: {
+			MapEntry: "バナー"
+		}
+		PermafrostTile: {
+			MapEntry: "永久凍土"
+		}
+		NightSlimeBannerTile: {
+			MapEntry: "バナー"
+		}
+		BannerTiles: {
+			MapEntry: "バナー"
+		}
+		BossTrophies: {
+			MapEntry: "トロフィー"
+		}
+		DuneOre: {
+			MapEntry: "デューン鉱石"
+		}
+		CoalChunk: {
+			MapEntry: "石炭"
+		}
+	}
+	Projectiles: {
+		RuneSentryShot: {
+			DisplayName: "ルーンセントリー発射体"
+		}
+		RuneSentry: {
+			DisplayName: "ルーンセントリー"
+		}
+		RuneSentryController: {
+			DisplayName: "ルーンセントリーコントローラー"
+		}
+		PhantasmicDaggerSoul: {
+			DisplayName: "ファンタズミックダガーソウル"
+		}
+		PhantasmicGauntletProj: {
+			DisplayName: "ファンタズミックガントレット発射体"
+		}
+		PhantasmicBladeStrike: {
+			DisplayName: "ファンタズミックブレードストライク"
+		}
+		PhantasmicBladeTrail: {
+			DisplayName: "ファンタズミックブレードトレイル"
+		}
+		PhantasmicBowProj: {
+			DisplayName: "ファンタズミックボウ発射体"
+		}
+		TheHauntProj: {
+			DisplayName: "ザ・ホーントの発射体"
+		}
+		PetHauntling: {
+			DisplayName: "ペット・ホーントリング"
+		}
+		TheHauntGhost: {
+			DisplayName: "ザ・ホーントの発射体"
+		}
+		HauntTrashcan: {
+			DisplayName: "ホーントのゴミ箱"
+		}
+		HauntTombstone: {
+			DisplayName: "ホーントの墓石"
+		}
+		HauntGravestone: {
+			DisplayName: "ホーントの墓石"
+		}
+		HauntChair: {
+			DisplayName: "ホーントの椅子"
+		}
+		HauntCandelabra: {
+			DisplayName: "ホーントの燭台"
+		}
+		HauntGraveStone: {
+			DisplayName: "呪われた墓石"
+		}
+		PhantomMageProj: {
+			DisplayName: "ファントムメイジの呪文"
+		}
+		FireDragonFireball: {
+			DisplayName: "ファイアドラゴン火球"
+		}
+		AncientGauntletProj: {
+			DisplayName: "エンシェントガントレット発射体"
+		}
+		SawbladeLauncherProj: {
+			DisplayName: "ソウブレード"
+		}
+		LihzahrdClubProj: {
+			DisplayName: "リザードクラブ爆発"
+		}
+		ShroomScepterMinion: {
+			DisplayName: "シュルームセプターミニオン"
+		}
+		ShroomzookaProj: {
+			DisplayName: "シュルームズーカ発射体"
+		}
+		ShroomPouchProj: {
+			DisplayName: "シュルームポーチ胞子"
+		}
+		ShroomMacepoleProj: {
+			DisplayName: "シュルームメイスポール"
+		}
+		GraniteMinionShoot: {
+			DisplayName: "グラナイトミニオン発射体"
+		}
+		GraniteStaffMinionOrbit: {
+			DisplayName: "グラナイトスタッフミニオン"
+		}
+		GraniteStaffMinion: {
+			DisplayName: "グラナイトスタッフミニオン"
+		}
+		GeodeScepterProj: {
+			DisplayName: "ジオードセプター発射体"
+		}
+		GraniteChakramProj: {
+			DisplayName: "グラナイトチャクラム"
+		}
+		GraniteYoyoProj: {
+			DisplayName: "グラナイトヨーヨー"
+		}
+		PwnageProj: {
+			DisplayName: "プニッジ"
+		}
+		RuneOfShadowsAbility: {
+			DisplayName: "影のルーンの能力"
+		}
+		RuneOfShadowsAbilityControl: {
+			DisplayName: "影のルーンの能力"
+		}
+		RuneOfShadowsProj: {
+			DisplayName: "影のルーンのオーブ"
+		}
+		GhostlyBladeProj: {
+			DisplayName: "ゴーストリーブレード発射体"
+		}
+		SpiritVaseProj: {
+			DisplayName: "スピリットヴェース発射体"
+		}
+		SporeOrbSmall: {
+			DisplayName: "小さな胞子のオーブ"
+		}
+		SporeOrbBig: {
+			DisplayName: "大きな胞子のオーブ"
+		}
+		PetalBladeProj: {
+			DisplayName: "ペタルブレード発射体"
+		}
+		BlossomLashFlower: {
+			DisplayName: "ブロッサムラッシュフラワー"
+		}
+		BlossomLashProj: {
+			DisplayName: "ブロッサムラッシュ"
+		}
+		JungleChakramProj: {
+			DisplayName: "ジャングルチャクラム"
+		}
+		SporeNecklaceProj: {
+			DisplayName: "スポアネックレス発射体"
+		}
+		BombLauncherProj: {
+			DisplayName: "ボムランチャー発射体"
+		}
+		IlluminatedCrystalPet: {
+			DisplayName: "イルミネーテッドクリスタルペット"
+		}
+		GoblinBomb: {
+			DisplayName: "ゴブリン爆弾"
+		}
+		Boom_erangProj: {
+			DisplayName: "ブーメラン爆発"
+		}
+		StoneWandProj: {
+			DisplayName: "ストーンワンド発射体"
+		}
+		IceGuardianProj: {
+			DisplayName: "アイスガーディアン"
+		}
+		ToyCar: {
+			DisplayName: "おもちゃの車"
+		}
+		ChainWhipProj: {
+			DisplayName: "チェーンウィップ"
+		}
+		WhipProj: {
+			DisplayName: "ウィップ"
+		}
+		EyeBowProj: {
+			DisplayName: "アイボウの矢"
+		}
+		BookOfMathematicsProj: {
+			DisplayName: "数学の書の発射体"
+		}
+		SkeletonPotionProj: {
+			DisplayName: "スケルトンポーション"
+		}
+		SnowDwellerMinion: {
+			DisplayName: "スノードウェラーミニオン"
+		}
+		CosmicWhipProj: {
+			DisplayName: "コズミックウィップ"
+		}
+		CosmicTomeProj: {
+			DisplayName: "コズミックトーム発射体"
+		}
+		ShootingStarProj: {
+			DisplayName: "シューティングスター発射体"
+		}
+		CosmicBladeHoming: {
+			DisplayName: "コズミックブレード発射体"
+		}
+		CosmicBladeProj: {
+			DisplayName: "コズミックブレード"
+		}
+		FrostBobber: {
+			DisplayName: "フロストボバー"
+		}
+		BookOfAlphabetsProj: {
+			DisplayName: "アルファベットの書の発射体"
+		}
+		TrueAmberStaffProj: {
+			DisplayName: "真のアンバースタッフ"
+		}
+		TrueTopazStaffProj: {
+			DisplayName: "真のトパーズスタッフ"
+		}
+		TrueSapphireStaffProj: {
+			DisplayName: "真のサファイアスタッフ"
+		}
+		TrueAmethystStaffProj: {
+			DisplayName: "真のアメジストスタッフ"
+		}
+		TrueEmeraldStaffProj: {
+			DisplayName: "真のエメラルドスタッフ"
+		}
+		TrueRubyStaffProj: {
+			DisplayName: "真のルビースタッフ"
+		}
+		TrueDiamondStaffProj: {
+			DisplayName: "真のダイヤモンドスタッフ"
+		}
+		EchoChamberProj: {
+			DisplayName: "エコーチェンバー"
+		}
+		MotivatorProj: {
+			DisplayName: "モチベーター"
+		}
+		CultClassicProj: {
+			DisplayName: "カルトクラシック"
+		}
+		CultClassicOrb: {
+			DisplayName: "カルトクラシックオーブ"
+		}
+		ScifiBlasterHoming: {
+			DisplayName: "サイファイブラスターショット"
+		}
+		ScifiBlasterProj: {
+			DisplayName: "サイファイブラスターショット"
+		}
+		DeathRayProj: {
+			DisplayName: "デスレイ"
+		}
+		FrostBowProj: {
+			DisplayName: "フロストボウの矢"
+		}
+		AuroraBladeProj: {
+			DisplayName: "オーロラブレード"
+		}
+		IcyWandProj: {
+			DisplayName: "アイシーワンドの雪片"
+		}
+		SunScepterMinion: {
+			DisplayName: "サンセプターミニオン"
+		}
+		DustbringerStaffProj: {
+			DisplayName: "ダストブリンガースタッフの竜巻"
+		}
+		DesertsFuryProj: {
+			DisplayName: "デザーツフューリー"
+		}
+		BoStaffSpin: {
+			DisplayName: "棒"
+		}
+		StarryWandProj: {
+			DisplayName: "スターリーワンド"
+		}
+		BabyFireDragon: {
+			DisplayName: "ベビーファイアドラゴン"
+		}
+		DraconicArmorProj: {
+			DisplayName: "ドラコニックアーマーの炎"
+		}
+		DuneArrowProj: {
+			DisplayName: "デューンアロー"
+		}
+		PlasmaCarbineProj: {
+			DisplayName: "プラズマカービンショット"
+		}
+		DunerangProj: {
+			DisplayName: "デューンラング"
+		}
+		DraconicBowProj: {
+			DisplayName: "ドラコニックボウの矢"
+		}
+		FireDrakeProj: {
+			DisplayName: "ファイアドレイク"
+		}
+		DuneSpearProj: {
+			DisplayName: "デューンスピア"
+		}
+		DraconicBladeProj: {
+			DisplayName: "ドラコニックブレード発射体"
+		}
+		DoublePhasesaberThrow: {
+			DisplayName: "ダブルフェーズセイバー"
+		}
+		DoublePhasesaberSpin: {
+			DisplayName: "ダブルフェーズセイバー"
+		}
+		DraconicTomeProj: {
+			DisplayName: "ドラコニックトームの炎"
+		}
+		DuneRodBobber: {
+			DisplayName: "デューンロッドボバー"
+		}
+		DragonMinionProj: {
+			DisplayName: "ドラゴンミニオン"
+		}
+		GuidedMissileProj: {
+			DisplayName: "誘導ミサイル"
+		}
+		ShadowConcoctionProj: {
+			DisplayName: "影の調合薬"
+		}
+		LightConcoctionProj: {
+			DisplayName: "光の調合薬"
+		}
+		IchorConcoctionProj: {
+			DisplayName: "イコルの調合薬"
+		}
+		FrozenConcoctionProj: {
+			DisplayName: "凍結の調合薬"
+		}
+		ExplosiveConcoctionProj: {
+			DisplayName: "爆発の調合薬"
+		}
+		BouncingConcoctionProj: {
+			DisplayName: "跳ねる調合薬"
+		}
+	}
+	Items: {
+		RuneOfGuarding: {
+			Tooltip: "'''\n{0}キーでルーンセントリーを召喚\nミニオンの最大数が2増加\n'''"
+			DisplayName: "守護のルーン"
+		}
+		RuneOfFlight: {
+			Tooltip: "'''\n飛行と低速落下が可能\n他の翼とは装備できない\n'''"
+			DisplayName: "飛行のルーン"
+		}
+		RuneOfProsperity: {
+			Tooltip: "'''\n倒した敵がより多くのお金を落とす\n採掘した鉱石が2倍ドロップすることがある\n'''"
+			DisplayName: "繁栄のルーン"
+		}
+		PhantasmicDagger: {
+			Tooltip: "体力を得るためにミニオンを犠牲にする、しかしその代償は？"
+			DisplayName: "ファンタズミックダガー"
+		}
+		PhantasmicGauntlet: {
+			Tooltip: "5つの霊を撃ち出す"
+			DisplayName: "ファンタズミックガントレット"
+		}
+		PhantasmicBlade: {
+			Tooltip: "ヒット時に霊を召喚する"
+			DisplayName: "ファンタズミックブレード"
+		}
+		PhantasmicBow: {
+			Tooltip: "ホーミング発射体のバーストを撃つ"
+			DisplayName: "ファンタズミックボウ"
+		}
+		HauntBag: {
+			Tooltip: ""
+			DisplayName: "ホーントバッグ"
+		}
+		CursedCandle: {
+			Tooltip: "ペットのホーントリングを召喚する"
+			DisplayName: "呪われたキャンドル"
+		}
+		HauntRelic: {
+			Tooltip: ""
+			DisplayName: "ホーントのレリック"
+		}
+		GraveFlowers: {
+			Tooltip: "墓地にいる時にザ・ホーントを召喚する"
+			DisplayName: "グレイブフラワー"
+		}
+		HauntTrophy: {
+			Tooltip: ""
+			DisplayName: "ホーントのトロフィー"
+		}
+		ShellHorn: {
+			Tooltip: "'''\nミニオンの攻撃力を10%強化するバフを付与するが、\n代わりに被ダメージが20%増加する\n'''"
+			DisplayName: "シェルの角笛"
+		}
+		PhantomMageBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "ファントムメイジのバナー"
+		}
+		AncientHorn: {
+			Tooltip: "'''\nミニオンの攻撃力を20%強化するバフを付与するが、\n代わりに被ダメージが33%増加する\n'''"
+			DisplayName: "エンシェントホーン"
+		}
+		AncientGauntlet: {
+			Tooltip: "カーソルに向かって火の玉を召喚する"
+			DisplayName: "エンシェントガントレット"
+		}
+		SawbladeLauncher: {
+			Tooltip: "跳ねるノコギリの刃を撃ち出す"
+			DisplayName: "ソウブレードランチャー"
+		}
+		LihzahrdClub: {
+			Tooltip: "爆発的な力で敵を殴る"
+			DisplayName: "リザードクラブ"
+		}
+		ShroomScepter: {
+			Tooltip: "シュルームミニオンを召喚する"
+			DisplayName: "シュルームセプター"
+		}
+		Shroomzooka: {
+			Tooltip: "光るキノコを撃ち出す"
+			DisplayName: "シュルームズーカ"
+		}
+		ShroomPouch: {
+			Tooltip: "'''\n致命的な胞子を放出する\n倒された敵は胞子に爆発する\n'''"
+			DisplayName: "シュルームポーチ"
+		}
+		ShroomMacepole: {
+			Tooltip: ""
+			DisplayName: "シュルームメイスポール"
+		}
+		RuneOfRelocation: {
+			Tooltip: "'''\n{0}キーでカーソル位置にテレポート\nテレポートにはクールダウンがある\n'''"
+			DisplayName: "転移のルーン"
+		}
+		RuneOfDeath: {
+			Tooltip: "トラップへの耐性を付与する"
+			DisplayName: "死のルーン"
+		}
+		GraniteStaff: {
+			Tooltip: "グラナイトミニオンを召喚する"
+			DisplayName: "グラナイトスタッフ"
+		}
+		GraniteGruntBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "グラナイトグラントのバナー"
+		}
+		GraniteArmorShard: {
+			Tooltip: ""
+			DisplayName: "グラナイトアーマーの破片"
+		}
+		GraniteGreaves: {
+			Tooltip: "ウィップの射程が15%増加"
+			DisplayName: "グラナイトグリーヴ"
+		}
+		GraniteBreastplate: {
+			Tooltip: "ミニオンの最大数が1増加"
+			DisplayName: "グラナイトブレストプレート"
+		}
+		GraniteHelmet: {
+			Tooltip: "召喚ダメージが5%増加"
+			DisplayName: "グラナイトヘルメット"
+		}
+		GeodeScepter: {
+			Tooltip: "3つのジオードの塊を撃つ"
+			DisplayName: "ジオードセプター"
+		}
+		GraniteChakram: {
+			Tooltip: ""
+			DisplayName: "グラナイトチャクラム"
+		}
+		GraniteYoyo: {
+			Tooltip: ""
+			DisplayName: "グラナイトヨーヨー"
+		}
+		RuneOfMovement: {
+			Tooltip: "方向キーを2回タップしてダッシュ"
+			DisplayName: "移動のルーン"
+		}
+		Pwnage: {
+			Tooltip: ""
+			DisplayName: "プニッジ"
+		}
+		RuneOfSpelunking: {
+			Tooltip: "'''\n採掘速度が20%増加\n宝物と鉱石の位置を表示\n暗視能力が向上\n'''"
+			DisplayName: "探検のルーン"
+		}
+		RuneOfShadows: {
+			Tooltip: "'''\n{0}キーで空から発射物を詠唱\n攻撃がシャドウフレイムを与える\n防御オーブを召喚する\n'''"
+			DisplayName: "影のルーン"
+		}
+		ManaRune: {
+			Tooltip: "'''\n最大マナが50%増加\n敵がマナスターをドロップしやすくなる\n同様の効果とは重複しない\n'''"
+			DisplayName: "マナのルーン"
+		}
+		BlankRune: {
+			Tooltip: "ルーンスロットを解放するために使用"
+			DisplayName: "ブランクのルーン"
+		}
+		RuneOfHealth: {
+			Tooltip: "'''\n{0}キーで回復\n敵がライフをドロップしやすくなる\n'''"
+			DisplayName: "健康のルーン"
+		}
+		VortexEmblem: {
+			Tooltip: "遠距離ダメージが20%増加"
+			DisplayName: "ボルテックスエンブレム"
+		}
+		StardustEmblem: {
+			Tooltip: "召喚ダメージが20%増加"
+			DisplayName: "スターダストエンブレム"
+		}
+		SolarEmblem: {
+			Tooltip: "近接ダメージが20%増加"
+			DisplayName: "ソーラーエンブレム"
+		}
+		NebulaEmblem: {
+			Tooltip: "魔法ダメージが20%増加"
+			DisplayName: "ネビュラエンブレム"
+		}
+		EvasionPotion: {
+			Tooltip: "5%の確率で敵の攻撃を回避"
+			DisplayName: "回避のポーション"
+		}
+		TrainingDummy: {
+			Tooltip: "ミニオンもターゲットにできるトレーニングダミーを召喚する"
+			DisplayName: "トレーニングダミー"
+		}
+		GhostlyBlade: {
+			Tooltip: "敵を倒すとゴーストを召喚"
+			DisplayName: "ゴーストリーブレード"
+		}
+		SpiritVase: {
+			Tooltip: "カーソルにホーミングする霊を放出"
+			DisplayName: "スピリットヴェース"
+		}
+		HangGlider: {
+			Tooltip: "'''\n滑空と低速落下が可能\n滑空中は武器が無効になる\n'''"
+			DisplayName: "ハンググライダー"
+		}
+		VultureWings: {
+			Tooltip: "飛行と低速落下が可能"
+			DisplayName: "ハゲワシの翼"
+		}
+		MimicsTongue: {
+			Tooltip: "'''\n移動速度が10%増加\n攻撃を回避するチャンスを得る\n方向キーを2回タップしてダッシュ\n'''"
+			DisplayName: "ミミックの舌"
+		}
+		SporeRod: {
+			Tooltip: "小さなオーブに分裂する胞子のオーブを投射"
+			DisplayName: "スポアロッド"
+		}
+		PetalBlade: {
+			Tooltip: "花びらを撃ち出す"
+			DisplayName: "ペタルブレード"
+		}
+		BlossomLash: {
+			Tooltip: "'''\n10 召喚タグダメージ\nあなたの召喚獣が攻撃した敵に集中攻撃する\n敵にダメージを与える浮遊する花をスポーンさせる\n'''"
+			DisplayName: "ブロッサムラッシュ"
+		}
+		JungleChakram: {
+			Tooltip: ""
+			DisplayName: "ジャングルチャクラム"
+		}
+		SporeNecklace: {
+			Tooltip: "ダメージを受けるとトゲのある胞子をスポーンさせる"
+			DisplayName: "スポアネックレス"
+		}
+		BombLauncher: {
+			Tooltip: "非破壊性の爆弾を撃つ"
+			DisplayName: "ボムランチャー"
+		}
+		IlluminatedCrystal: {
+			Tooltip: "魔法のクリスタルを召喚する"
+			DisplayName: "イルミネーテッドクリスタル"
+		}
+		BagOfBombs: {
+			Tooltip: "'''\n無限の爆弾を含む\n爆弾はタイルを破壊する\n'''"
+			DisplayName: "爆弾の袋"
+		}
+		GoblinBalloonistBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "ゴブリンバルーニストのバナー"
+		}
+		Boom_erang: {
+			Tooltip: "爆発性ブーメラン、タイルは破壊しない"
+			DisplayName: "ブーメラン"
+		}
+		StoneWand: {
+			Tooltip: "岩を撃つ"
+			DisplayName: "ストーンワンド"
+		}
+		BerserkerPotion: {
+			Tooltip: "近接速度が10%増加"
+			DisplayName: "バーサーカーポーション"
+		}
+		WardingPotion: {
+			Tooltip: "一時的にノックバックへの耐性を付与"
+			DisplayName: "ウォーディングポーション"
+		}
+		IceGuardianBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "アイスガーディアンのバナー"
+		}
+		GrabberFlower: {
+			Tooltip: "'''\nダメージが3%増加\n敵に狙われにくくなる\n'''"
+			DisplayName: "グラバーフラワー"
+		}
+		GrabberPlantBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "グラバープラントのバナー"
+		}
+		DandelionFlower: {
+			Tooltip: "'''\nジャンプの高さが増加\n移動速度が10%増加\n'''"
+			DisplayName: "タンポポの花"
+		}
+		ToyCarRemote: {
+			Tooltip: "おもちゃの車のペットを召喚"
+			DisplayName: "おもちゃの車のリモコン"
+		}
+		ChainWhip: {
+			Tooltip: "'''\n6 召喚タグダメージ\nあなたの召喚獣が攻撃した敵に集中攻撃する\n'''"
+			DisplayName: "チェーンウィップ"
+		}
+		Whip: {
+			Tooltip: "'''\n2 召喚タグダメージ\nあなたの召喚獣が攻撃した敵に集中攻撃する\n'''"
+			DisplayName: "ウィップ"
+		}
+		FiberGlass: {
+			Tooltip: ""
+			DisplayName: "ファイバーグラス"
+		}
+		Medkit: {
+			Tooltip: "'''\n出血、毒、野性の噛みつきへの耐性を付与\n体力が減少すると攻撃速度と移動速度が上昇\n死ぬ直前に50%の確率で回復し、クールダウンが発動\nクールダウン中はライフ回復がわずかに増加\n'''"
+			DisplayName: "メディキット"
+		}
+		Antidote: {
+			Tooltip: "野性の噛みつきへの耐性"
+			DisplayName: "解毒剤"
+		}
+		MedicatedDressing: {
+			Tooltip: "毒と出血への耐性"
+			DisplayName: "医療用ドレッシング"
+		}
+		Dressing: {
+			Tooltip: "出血への耐性"
+			DisplayName: "ドレッシング"
+		}
+		Adrenaline: {
+			Tooltip: "体力が減少すると攻撃速度と移動速度が上昇"
+			DisplayName: "アドレナリン"
+		}
+		EyeBow: {
+			Tooltip: "矢を目玉に変える"
+			DisplayName: "アイボウ"
+		}
+		BookOfMathematics: {
+			Tooltip: "正弦波パターンで数字を撃ち出す"
+			DisplayName: "数学の書"
+		}
+		CactusFlower: {
+			Tooltip: "'''\nライフ回復速度が上昇\n攻撃速度が5%増加\n'''"
+			DisplayName: "サボテンの花"
+		}
+		LivingCactusBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "リビングカクタスのバナー"
+		}
+		LunchBox: {
+			Tooltip: ""
+			DisplayName: "ランチボックス"
+		}
+		SkeletonPotion: {
+			Tooltip: "ポーションを投げてスケルトンの商人を召喚"
+			DisplayName: "スケルトンポーション"
+		}
+		MerchantInvitation: {
+			Tooltip: "'''\n旅の商人をあなたの場所にテレポートさせて\n丁重に取引に招待する\n'''"
+			DisplayName: "商人招待状"
+		}
+		InfiniPlatform: {
+			Tooltip: "木の足場を無限に設置できる"
+			DisplayName: "インフィニプラットフォーム"
+		}
+		InfiniRope: {
+			Tooltip: "'''\nロープを無限に設置できる\n右クリックでロープコイルを投げる\n'''"
+			DisplayName: "インフィニロープ"
+		}
+		SnowDwellerStaff: {
+			Tooltip: "あなたのために戦うスノードウェラーを召喚"
+			DisplayName: "スノードウェラースタッフ"
+		}
+		CosmicWhip: {
+			Tooltip: "'''\n15 召喚タグダメージ\nシャドウフレイムを与える\nあなたの召喚獣が攻撃した敵に集中攻撃する\n'''"
+			DisplayName: "コズミックウィップ"
+		}
+		CosmicTome: {
+			Tooltip: "空から星を詠唱する"
+			DisplayName: "コズミックトーム"
+		}
+		ShootingStar: {
+			Tooltip: "矢をホーミングする流れ星に変える"
+			DisplayName: "シューティングスター"
+		}
+		CosmicBlade: {
+			Tooltip: "ホーミング発射体を撃ち出す"
+			DisplayName: "コズミックブレード"
+		}
+		Telelocator: {
+			Tooltip: "'''\nマウスの位置にテレポートするが、カオス状態を与える\nカオス状態中は機能しない\n'''"
+			DisplayName: "テレロケーター"
+		}
+		MysteriousChest: {
+			Tooltip: ""
+			DisplayName: "不思議なチェスト"
+		}
+		MysteriousKey: {
+			Tooltip: "'''\n不思議なチェストのための不思議な鍵\n左クリックでテレポート…\n'''"
+			DisplayName: "不思議な鍵"
+		}
+		MysteriousBrick: {
+			Tooltip: ""
+			DisplayName: "不思議なレンガ"
+		}
+		FrostFishingRod: {
+			Tooltip: ""
+			DisplayName: "フロスト釣竿"
+		}
+		SteelWall: {
+			Tooltip: ""
+			DisplayName: "鋼鉄の壁"
+		}
+		SteelBlock: {
+			Tooltip: ""
+			DisplayName: "鋼鉄のブロック"
+		}
+		SteelPlatingWall: {
+			Tooltip: ""
+			DisplayName: "鋼鉄板の壁"
+		}
+		SteelPlating: {
+			Tooltip: ""
+			DisplayName: "鋼鉄板"
+		}
+		FrostWraithBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "フロストレイスのバナー"
+		}
+		MagicWorkbench: {
+			Tooltip: "魔法のアイテムをクラフトするために使用"
+			DisplayName: "マジックワークベンチ"
+		}
+		BookOfAlphabets: {
+			Tooltip: "アルファベットを撃ち出す"
+			DisplayName: "アルファベットの書"
+		}
+		TrueAmberStaff: {
+			Tooltip: ""
+			DisplayName: "真のアンバースタッフ"
+		}
+		TrueTopazStaff: {
+			Tooltip: ""
+			DisplayName: "真のトパーズスタッフ"
+		}
+		TrueSapphireStaff: {
+			Tooltip: ""
+			DisplayName: "真のサファイアスタッフ"
+		}
+		TrueAmethystStaff: {
+			Tooltip: ""
+			DisplayName: "真のアメジストスタッフ"
+		}
+		TrueEmeraldStaff: {
+			Tooltip: ""
+			DisplayName: "真のエメラルドスタッフ"
+		}
+		TrueRubyStaff: {
+			Tooltip: ""
+			DisplayName: "真のルビースタッフ"
+		}
+		MagicEssence: {
+			Tooltip: ""
+			DisplayName: "魔法のエッセンス"
+		}
+		TrueDiamondStaff: {
+			Tooltip: ""
+			DisplayName: "真のダイヤモンドスタッフ"
+		}
+		ShroomHat: {
+			Tooltip: "'''\nミニオンの最大数が1増加\n移動速度が8%増加\n'''"
+			DisplayName: "シュルームハット"
+		}
+		EchoChamber: {
+			Tooltip: "'''\n1回のフリーヒットを可能にする保護シールドを作成する\nヒット後、シールドは壊れ、再チャージが必要になる\n'''"
+			DisplayName: "エコーチェンバー"
+		}
+		ShroomlingBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "シュルームリングのバナー"
+		}
+		SharkTooth: {
+			Tooltip: ""
+			DisplayName: "サメの歯"
+		}
+		Motivator: {
+			Tooltip: "'''\n35 召喚タグダメージ\nあなたの召喚獣が攻撃した敵に集中攻撃する\n'''"
+			DisplayName: "モチベーター"
+		}
+		CultClassic: {
+			Tooltip: "カルト教徒の10人中9人が推奨"
+			DisplayName: "ザ・カルトクラシック"
+		}
+		ScifiBlaster: {
+			Tooltip: "'''\nホーミング発射体を撃つ\nバッテリー駆動\n'''"
+			DisplayName: "サイファイブラスター"
+		}
+		DeathRay: {
+			Tooltip: "強力なレーザービームを発射"
+			DisplayName: "デスレイ"
+		}
+		CursedPickaxeBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "呪われたピッケルのバナー"
+		}
+		FrostBow: {
+			Tooltip: "氷のボルトを撃つ"
+			DisplayName: "フロストボウ"
+		}
+		AuroraBlade: {
+			Tooltip: ""
+			DisplayName: "オーロラブレード"
+		}
+		IceEssence: {
+			Tooltip: "霜の生物のエッセンス"
+			DisplayName: "氷のエッセンス"
+		}
+		PaintWall2: {
+			Tooltip: "ディープペイントで動作"
+			DisplayName: "ペイントウォール（暗）"
+		}
+		PaintBlock2: {
+			Tooltip: "ディープペイントで動作"
+			DisplayName: "ペイントブロック（暗）"
+		}
+		PaintWall: {
+			Tooltip: "ディープペイントで動作"
+			DisplayName: "ペイントウォール（明）"
+		}
+		HazardWall: {
+			Tooltip: ""
+			DisplayName: "ハザードウォール"
+		}
+		CheckerWall: {
+			Tooltip: ""
+			DisplayName: "チェッカーウォール"
+		}
+		ArtDecoWall: {
+			Tooltip: ""
+			DisplayName: "アールデコウォール"
+		}
+		FrostBrick: {
+			Tooltip: ""
+			DisplayName: "フロストブリック"
+		}
+		FrostBar: {
+			Tooltip: ""
+			DisplayName: "フロストバー"
+		}
+		Permafrost: {
+			Tooltip: ""
+			DisplayName: "永久凍土"
+		}
+		IcyStaff: {
+			Tooltip: "致命的な雪片を撃つ"
+			DisplayName: "アイシースタッフ"
+		}
+		IceBlaster: {
+			Tooltip: "全ての弾丸をクリスタル弾に変える"
+			DisplayName: "アイスブラスター"
+		}
+		BuilderPants: {
+			Tooltip: ""
+			DisplayName: "ビルダーパンツ"
+		}
+		BuilderJacket: {
+			Tooltip: ""
+			DisplayName: "ビルダージャケット"
+		}
+		BuilderHelmet: {
+			Tooltip: ""
+			DisplayName: "ビルダーヘルメット"
+		}
+		HiVisVest: {
+			Tooltip: ""
+			DisplayName: "ビルダーベスト"
+		}
+		HazardBlock: {
+			Tooltip: ""
+			DisplayName: "ハザードブロック"
+		}
+		GreenCarpet: {
+			Tooltip: ""
+			DisplayName: "グリーンカーペット"
+		}
+		BlueCarpet: {
+			Tooltip: ""
+			DisplayName: "ブルーカーペット"
+		}
+		RedCarpet: {
+			Tooltip: ""
+			DisplayName: "レッドカーペット"
+		}
+		CheckerBlock: {
+			Tooltip: ""
+			DisplayName: "チェッカーブロック"
+		}
+		ArtDecoBlock: {
+			Tooltip: ""
+			DisplayName: "アールデコブロック"
+		}
+		PaintBlock: {
+			Tooltip: "ディープペイントで動作"
+			DisplayName: "ペイントブロック（明）"
+		}
+		SunScepter: {
+			Tooltip: "小さな太陽を召喚"
+			DisplayName: "サンセプター"
+		}
+		DesertBlaster: {
+			Tooltip: "右クリックでロケットを使用"
+			DisplayName: "デザートブラスター"
+		}
+		MinersRing: {
+			Tooltip: "採掘速度が25%増加"
+			DisplayName: "マイナーズリング"
+		}
+		DustbringerStaff: {
+			Tooltip: "小さな竜巻を撃つ"
+			DisplayName: "ダストブリンガースタッフ"
+		}
+		DesertsFury: {
+			Tooltip: ""
+			DisplayName: "デザーツフューリー"
+		}
+		SpookyBoStaff: {
+			Tooltip: ""
+			DisplayName: "スプーキー棒"
+		}
+		ShadeWoodBoStaff: {
+			Tooltip: ""
+			DisplayName: "シェイドウッド棒"
+		}
+		PearlWoodBoStaff: {
+			Tooltip: ""
+			DisplayName: "パールウッド棒"
+		}
+		PalmBoStaff: {
+			Tooltip: ""
+			DisplayName: "パーム棒"
+		}
+		EbonWoodBoStaff: {
+			Tooltip: ""
+			DisplayName: "エボンウッド棒"
+		}
+		DynastyBoStaff: {
+			Tooltip: ""
+			DisplayName: "ダイナスティ棒"
+		}
+		BorealBoStaff: {
+			Tooltip: ""
+			DisplayName: "ボリアル棒"
+		}
+		AshBoStaff: {
+			Tooltip: ""
+			DisplayName: "アッシュ棒"
+		}
+		MahoganyBoStaff: {
+			Tooltip: ""
+			DisplayName: "マホガニー棒"
+		}
+		BoStaff: {
+			Tooltip: ""
+			DisplayName: "棒"
+		}
+		StarryWand: {
+			Tooltip: ""
+			DisplayName: "スターリーワンド"
+		}
+		NightSlimeBanner: {
+			Tooltip: "以下のモンスターに対してボーナスを得る：{0}"
+			DisplayName: "ナイトスライムのバナー"
+		}
+		FireDragonEgg: {
+			Tooltip: "ベビーファイアドラゴンペットを召喚"
+			DisplayName: "ファイアドラゴンの卵"
+		}
+		DraconicMask: {
+			Tooltip: "'''\n魔法ダメージと速度が12%増加\n最大マナが80増加\n'''"
+			DisplayName: "ドラコニックマスク"
+		}
+		DraconicHat: {
+			Tooltip: "'''\n遠距離ダメージと速度が12%増加\n遠距離クリティカル率が7%増加\n'''"
+			DisplayName: "ドラコニックハット"
+		}
+		DraconicHood: {
+			Tooltip: "'''\n召喚ダメージが12%増加\nミニオンの最大数が2増加\n召喚クリティカル率が7%増加\n'''"
+			DisplayName: "ドラコニックフード"
+		}
+		DuneBow: {
+			Tooltip: ""
+			DisplayName: "デューンボウ"
+		}
+		DuneArrow: {
+			Tooltip: ""
+			DisplayName: "デューンアロー"
+		}
+		FireDragonRelic: {
+			Tooltip: ""
+			DisplayName: "ファイアドラゴンのレリック"
+		}
+		DraconicHelmet: {
+			Tooltip: "'''\n近接ダメージと速度が12%増加\n近接クリティカル率が7%増加\n'''"
+			DisplayName: "ドラコニックヘルメット"
+		}
+		DraconicGreaves: {
+			Tooltip: "'''\n移動速度が12%増加\nクリティカル率が8%増加\n'''"
+			DisplayName: "ドラコニックグリーヴ"
+		}
+		DraconicChestplate: {
+			Tooltip: "ダメージが7%増加"
+			DisplayName: "ドラコニックチェストプレート"
+		}
+		PlasmaCarbine: {
+			Tooltip: "バッテリー駆動"
+			DisplayName: "プラズマカービン"
+		}
+		Dunerang: {
+			Tooltip: ""
+			DisplayName: "デューンラング"
+		}
+		DraconicBow: {
+			Tooltip: "火のボルトを撃つ"
+			DisplayName: "ドラコニックボウ"
+		}
+		YellowDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "イエローダブルフェーズセイバー"
+		}
+		WhiteDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "ホワイトダブルフェーズセイバー"
+		}
+		RedDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "レッドダブルフェーズセイバー"
+		}
+		PurpleDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "パープルダブルフェーズセイバー"
+		}
+		OrangeDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "オレンジダブルフェーズセイバー"
+		}
+		GreenDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "グリーンダブルフェーズセイバー"
+		}
+		BlueDoublePhasesaber: {
+			Tooltip: "右クリックで武器を投げる"
+			DisplayName: "ブルーダブルフェーズセイバー"
+		}
+		DuneSword: {
+			Tooltip: ""
+			DisplayName: "デューンソード"
+		}
+		DuneSpear: {
+			Tooltip: ""
+			DisplayName: "デューンスピア"
+		}
+		DraconicBlade: {
+			Tooltip: ""
+			DisplayName: "ドラコニックブレード"
+		}
+		DraconicTome: {
+			Tooltip: "炎の円を召喚"
+			DisplayName: "ドラコニックトーム"
+		}
+		Battery: {
+			Tooltip: ""
+			DisplayName: "バッテリー"
+		}
+		DuneRod: {
+			Tooltip: ""
+			DisplayName: "デューンロッド"
+		}
+		DuneHammer: {
+			Tooltip: ""
+			DisplayName: "デューンハンマー"
+		}
+		FireDragonTrophy: {
+			Tooltip: ""
+			DisplayName: "ファイアドラゴンのトロフィー"
+		}
+		DragonScale: {
+			Tooltip: ""
+			DisplayName: "ドラゴンスケール"
+		}
+		FireDragonBag: {
+			Tooltip: "右クリックで開ける"
+			DisplayName: "トレジャーバッグ（ファイアドラゴン）"
+		}
+		AncientToken: {
+			Tooltip: "'''\nファイアドラゴンを召喚\n'地底世界に関する碑文がある'\n'''"
+			DisplayName: "エンシェントトークン"
+		}
+		DuneMattock: {
+			Tooltip: "採掘と木こりに使用できる"
+			DisplayName: "デューンマトック"
+		}
+		DuneOre: {
+			Tooltip: ""
+			DisplayName: "デューン鉱石"
+		}
+		DuneBar: {
+			Tooltip: ""
+			DisplayName: "デューンバー"
+		}
+		DuneHelmet: {
+			Tooltip: "遠距離ダメージが7%増加"
+			DisplayName: "デューンヘルメット"
+		}
+		DuneGreaves: {
+			Tooltip: "遠距離速度が7%増加"
+			DisplayName: "デューングリーヴ"
+		}
+		DuneChestplate: {
+			Tooltip: "遠距離クリティカル率が7%増加"
+			DisplayName: "デューンチェストプレート"
+		}
+		DragonStaff: {
+			Tooltip: "あなたのために戦うドラゴンを召喚"
+			DisplayName: "ドラゴンスタッフ"
+		}
+		SteelBow: {
+			Tooltip: ""
+			DisplayName: "鋼鉄の弓"
+		}
+		GuidedMissileLauncher: {
+			Tooltip: "制御可能なミサイルを発射"
+			DisplayName: "誘導ミサイルランチャー"
+		}
+		SteelSword: {
+			Tooltip: ""
+			DisplayName: "鋼鉄の剣"
+		}
+		ShadowConcoction: {
+			Tooltip: "敵をシャドウフレイムで燃やす"
+			DisplayName: "影の調合薬"
+		}
+		LightConcoction: {
+			Tooltip: "ダメージを与えるリングを作り出す"
+			DisplayName: "光の調合薬"
+		}
+		IchorConcoction: {
+			Tooltip: "ターゲットの防御力を減少させる"
+			DisplayName: "イコルの調合薬"
+		}
+		FrozenConcoction: {
+			Tooltip: "凍傷を引き起こす"
+			DisplayName: "凍結の調合薬"
+		}
+		ExplosiveConcoction: {
+			Tooltip: "炎上する"
+			DisplayName: "爆発の調合薬"
+		}
+		CrazyConcoction: {
+			Tooltip: "何が問題になるだろうか…"
+			DisplayName: "クレイジーな調合薬"
+		}
+		BouncingConcoction: {
+			Tooltip: "呪われたインフェルノで満たされている"
+			DisplayName: "跳ねる調合薬"
+		}
+		GuidedMissile: {
+			Tooltip: "爆発範囲は小さい\nタイルは破壊しない"
+			DisplayName: "誘導ミサイル"
+		}
+		SteelPickaxe: {
+			Tooltip: "メテオライトを採掘できる"
+			DisplayName: "鋼鉄のピッケル"
+		}
+		SteelHamaxe: {
+			Tooltip: ""
+			DisplayName: "鋼鉄のハンマアックス"
+		}
+		SteelBar: {
+			Tooltip: ""
+			DisplayName: "鋼鉄のインゴット"
+		}
+		CoalChunk: {
+			Tooltip: "石炭の塊だ"
+			DisplayName: "石炭の塊"
+		}
+		ControlChip: {
+			Tooltip: "武器の製造に使用"
+			DisplayName: "コントロールチップ"
+		}
+		SteelHelmet: {
+			Tooltip: "鋼鉄製のヘルメット"
+			DisplayName: "鋼鉄のヘルメット"
+		}
+		SteelGreaves: {
+			Tooltip: "鋼鉄製のグリーヴ"
+			DisplayName: "鋼鉄のグリーヴ"
+		}
+		SteelBreastplate: {
+			Tooltip: "鋼鉄製のブレストプレート"
+			DisplayName: "鋼鉄のブレストプレート"
+		}
+	}
+	Buffs: {
+		PhantasmicDaggerDebuff: {
+			Description: "召喚ダメージが15%減少"
+			DisplayName: "ファンタズミックダガーデバフ"
+		}
+		PetHauntlingBuff: {
+			Description: "あなただけの小さなゴースト"
+			DisplayName: "ペット・ホーントリングバフ"
+		}
+		ShellHornBuff: {
+			Description: "ミニオンの与ダメージが10%増加するが、被ダメージが20%増加する"
+			DisplayName: "シェルの角笛バフ"
+		}
+		RuneOfHealthCooldown: {
+			Description: "ルーンが再チャージ中"
+			DisplayName: "健康のルーンクールダウン"
+		}
+		AncientHornBuff: {
+			Description: "ミニオンの与ダメージが20%増加するが、被ダメージが33%増加する"
+			DisplayName: "エンシェントホーン"
+		}
+		ShroomScepterBuff: {
+			Description: "あなただけのキノコの友達"
+			DisplayName: "シュルームミニオン"
+		}
+		RuneOfRelocationCooldown: {
+			Description: "ルーンが再チャージ中"
+			DisplayName: "転移のルーンクールダウン"
+		}
+		GraniteStaffBuff: {
+			Description: "ミニオンがあなたを守る"
+			DisplayName: "グラナイトミニオン"
+		}
+		RuneOfShadowsCooldown: {
+			Description: "ルーンが再チャージ中"
+			DisplayName: "影のルーンクールダウン"
+		}
+		EvasionBuff: {
+			Description: "あなたは攻撃を避けやすくなる"
+			DisplayName: "回避"
+		}
+		BlossomLashDebuff: {
+			Description: "あなたはミニオンに狙われている"
+			DisplayName: "ブロッサムラッシュデバフ"
+		}
+		IlluminatedCrystalBuff: {
+			Description: "クリスタルが道を照らす"
+			DisplayName: "イルミネーテッドクリスタル"
+		}
+		BerserkerBuff: {
+			Description: "近接速度が上昇"
+			DisplayName: "バーサーカー"
+		}
+		WardingPotionBuff: {
+			Description: "ノックバック無効"
+			DisplayName: "ウォーディング"
+		}
+		ToyCarBuff: {
+			Description: "ブルンブルン…"
+			DisplayName: "おもちゃの車"
+		}
+		ChainWhipDebuff: {
+			Description: "あなたはミニオンに狙われている"
+			DisplayName: "チェーンウィップデバフ"
+		}
+		WhipDebuff: {
+			Description: "あなたはミニオンに狙われている"
+			DisplayName: "ウィップデバフ"
+		}
+		MedkitBuff: {
+			Description: "メディキットはあなたを救わないが、ライフ回復を増加させる"
+			DisplayName: "メディキットクールダウン"
+		}
+		SnowDwellerBuff: {
+			Description: "小さなグレムリン"
+			DisplayName: "スノードウェラー"
+		}
+		CosmicWhipDebuff: {
+			Description: "あなたはミニオンに狙われている"
+			DisplayName: "コズミックウィップデバフ"
+		}
+		EchoChamberDebuff: {
+			Description: "シールドが再チャージ中"
+			DisplayName: "エコーチェンバークールダウン"
+		}
+		EchoChamberBuff: {
+			Description: "保護シールドが有効"
+			DisplayName: "エコーチェンバー"
+		}
+		MotivatorDebuff: {
+			Description: "あなたはミニオンに狙われている"
+			DisplayName: "モチベーターデバフ"
+		}
+		SunScepterBuff: {
+			Description: "見つめないで"
+			DisplayName: "小さな太陽"
+		}
+		BabyFireDragonBuff: {
+			Description: "あなただけのベイビードラゴン"
+			DisplayName: "ベビーファイアドラゴン"
+		}
+		DraconicArmorBuff: {
+			Description: "周回する炎があなたを守る"
+			DisplayName: "ドラコニックプロテクション"
+		}
+		DragonStaffBuff: {
+			Description: "ドラゴンがあなたを守る"
+			DisplayName: "ドラゴンだ！"
+		}
+	}
+	PopupMessages: {
+		HardmodeOreAlt: "機械的な力によって守られている！"
+		HardmodeOre: "機械的な力によって守られている！"
+	}
+	ChatMessages: {
+		HardmodeOres: "[Assorted Additions] Mod化されたハードモード鉱石進行が有効です！詳細はサーバー設定を確認してください"
+		Permafrost: "氷の洞窟がより冷たくなる…"
+	}
+}

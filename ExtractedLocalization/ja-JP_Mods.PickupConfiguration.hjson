@@ -1,0 +1,56 @@
+Configs: {
+	PickupConfig: {
+		DisplayName: Pickup Config
+
+		Type: {
+			Label: Popup Type
+			Tooltip: Controls where the item pickup text shows. Screen is somewhere on screen, not in world. Chat is in chat. Off is default.
+		}
+
+		MaxPickups: {
+			Label: Max Pickups
+			Tooltip: How many pickups can be listed at a time. Only affects Screen-type popups, Chat and Off ignores this value.
+		}
+
+		PositionOnScreen: {
+			Label: Position On Screen
+			Tooltip: Where on screen Screen-type popups show. 0, 0 is top left of the screen, 1, 1 is bottom left, and 1, 0.5f is the right-center.
+		}
+
+		Scale: {
+			Label: Scale
+			Tooltip: Scale of the text for Screen-type popups.
+		}
+
+		TextLifeTimeMultiplier: {
+			Label: Text Life Time Multiplier
+			Tooltip: How long Screen-type popups text lasts as a multiplier.
+		}
+
+		UnrestrictedScreenPosition: {
+			Label: Unrestricted Screen Position
+			Tooltip:
+				'''
+				Allows you to put the Screen pickup text anywhere on screen. Defaults to on. 
+				Restriction generally reduces the jankiness of the UI, as the text is wonky.
+				'''
+		}
+	}
+
+	ConfigType: {
+		Tooltip: ""
+
+		Screen: {
+			Label: Screen
+		}
+
+		Chat: {
+			Label: Chat
+		}
+
+		Off: {
+			Label: Off
+		}
+	}
+}
+

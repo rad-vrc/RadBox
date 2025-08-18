@@ -1,0 +1,7158 @@
+Configs: {
+	CMConfigServer: {
+		babyChestsCerebralOnly: {
+			Tooltip: If true, QoL crafting items cannot be used to craft vanilla or other modded items
+			Label: QoL crafting items can only craft Cerebral Mod items
+		}
+
+		telekineticFlyingKnife: {
+			Tooltip: If true, the Flying Knife will be converted to a telekinetic weapon and gain an extra ability. Requires reload
+			Label: Change Flying Knife to telekinetic damage
+		}
+
+		knackThrowing: {
+			Tooltip: If false, the knack mechanic will only affect this mod's throwing weapons instead of additional throwing weapons from other mods
+			Label: Knack affects all mods throwing weapons
+		}
+
+		moddedSentries: {
+			Tooltip: If true, sentry weapons from other mods will be converted to Defender class and sentry damage. Requires reload
+			Label: Change other mod sentries to sentry damage
+		}
+
+		vanillaSentries: {
+			Tooltip: If true, vanilla sentry related items like weapons, armor, & accessories will be converted to Defender class and sentry damage. Requires reload
+			Label: Change vanilla sentries to sentry damage
+		}
+
+		RequireLOS: {
+			Tooltip: If true, sentry damage sentries (unlike those remaining as summon damage) require line to sight to place, bypassed with a late game accessory
+			Label: Sentry placement requires line of sight
+		}
+
+		DisplayName: CM Config Server
+	}
+
+	CMConfigClient: {
+		disableGuideCrafting: {
+			Tooltip: If true, removes the recipes for crafting beginner guides, recommended once they're no longer useful
+			Label: Disable Beginner Guides recipes
+		}
+
+		mouseTimingUI: {
+			Tooltip: If true, the Minstrel timing HUD will appear at the mouse instead of the player
+			Label: Minstrel Timing HUD above mouse
+		}
+
+		cueBuffer: {
+			Tooltip: How many frames ahead of the correct timing window the cues will play
+			Label: Minstrel Cue Buffer
+		}
+
+		disableAudioCue: {
+			Tooltip: Stops an audio cue from playing when melodic weapon correct timing starts
+			Label: Disable Audio Cue
+		}
+
+		disableVisualCue: {
+			Tooltip: Stops a visual cue from apparing when melodic weapon correct timing starts
+			Label: Disable Visual Cue
+		}
+
+		showClassTag: {
+			Tooltip: Shows class tags on items directly related to that class
+			Label: Show Class Tags
+		}
+
+		showUICount: {
+			Tooltip: How high your sentry slots has to be before the count will show in the UI. Set to 0 to disable. Can be useful if something increases your sentry slots, but you don't want to see the UI for it
+			Label: Sentry Count UI Display
+		}
+
+		DisplayName: CM Config Client
+	}
+}
+
+Tiles: {
+	CerebralWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	CerebralTable: {
+		MapEntry: Table
+	}
+
+	CerebralSofa: {
+		MapEntry: Sofa
+	}
+
+	CerebralSink: {
+		MapEntry: Sink
+	}
+
+	CerebralPiano: {
+		MapEntry: Piano
+	}
+
+	CerebralLantern: {
+		MapEntry: Lantern
+	}
+
+	CerebralLamp: {
+		MapEntry: Mods.CerebralMod.MapObject.CerebralLamp
+	}
+
+	CerebralDoorOpen: {
+		MapEntry: Door
+	}
+
+	CerebralDoorClosed: {
+		MapEntry: Door
+	}
+
+	CerebralClock: {
+		MapEntry: Grandfather Clock
+	}
+
+	CerebralChandelier: {
+		MapEntry: Chandelier
+	}
+
+	CerebralCandle: {
+		MapEntry: Candle
+	}
+
+	CerebralCandelabra: {
+		MapEntry: Candelabra
+	}
+
+	CerebralBookcase: {
+		MapEntry: Bookcase
+	}
+
+	CerebralBed: {
+		MapEntry: Bed
+	}
+
+	CerebralBathtub: {
+		MapEntry: Bathtub
+	}
+
+	EngineerToolkit: {
+		MapEntry: Engineer Toolkit
+	}
+
+	DefenderBanners: {
+		MapEntry: Banner
+	}
+
+	CerebralDresser: {
+		MapEntry: Dresser
+		ContainerName: Dresser
+	}
+
+	CerebralChest: {
+		MapEntry: Chest
+		ContainerName: Chest
+	}
+
+	EngineerChest: {
+		MapEntry: Engineer Chest
+		ContainerName: Engineer Chest
+	}
+}
+
+Prefixes: {
+	PrefixOverclocked: {
+		DisplayName: Prefix Overclocked
+	}
+
+	PrefixDormant: {
+		DisplayName: Dormant
+	}
+}
+
+Origins: {
+	Esper: {
+		Description: Starts with an iron sawblade and a full set of desert wanderer armor.
+		Flavor: You move projectiles with your mind, able to attack from safely.
+		DisplayName: Esper
+	}
+
+	Defender: {
+		Description: Starts with iron spikes and a full set of frozen armor.
+		Flavor: You control the battlefield with your carefully set up traps and turrets.
+		DisplayName: Defender
+	}
+}
+
+Conditions: {
+	CerebralOnlyBabyChests: Baby Chests can only craft Cerebral Mod items is false
+	RemixWorld: Must be in a Don't Dig Up based world
+	DefeatedPlantera: Defeated Plantera in this world
+	GuideCrafting: Guide Crafting config is enabled
+}
+
+DamageClasses: {
+	TelekineticDamage: {
+		DisplayName: telekinetic damage
+	}
+
+	SentryDamage: {
+		DisplayName: sentry damage
+	}
+
+	MelodicDamage: {
+		DisplayName: melodic damage
+	}
+}
+
+Items: {
+	BrownDwarfEmblem: {
+		Tooltip:
+			'''
+			20% increased damage
+			Doesn't stack with other lunar fragment emblems
+			'''
+		DisplayName: Brown Dwarf Emblem
+	}
+
+	FactotumEmblem: {
+		Tooltip: 8% increased damage
+		DisplayName: Factotum Emblem
+	}
+
+	CommonSword: {
+		Tooltip: ""
+		DisplayName: Common Sword
+	}
+
+	VeilCharm: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% throwing damage
+			+8% throwing crit chance
+			+20% throwing velocity
+			'''
+		DisplayName: Veil Charm
+	}
+
+	StellarwindCharm: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% melodic damage
+			+8% melodic tempo
+			'''
+		DisplayName: Stellarwind Charm
+	}
+
+	CharmOfMinstrels: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% melodic damage
+			+8% melodic tempo
+			'''
+		DisplayName: Charm of Minstrels
+	}
+
+	CharmOfEspers: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% telekinetic damage
+			+5 max psychosis
+			'''
+		DisplayName: Charm of Espers
+	}
+
+	PulsarCharm: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% sentry damage
+			+8% sentry speed
+			+1 sentry slot
+			'''
+		DisplayName: Pulsar Charm
+	}
+
+	CharmOfBalance: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+5% damage
+			+5 armor penetration
+			'''
+		DisplayName: Charm of Balance
+	}
+
+	BrownDwarfCharm: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+5% damage
+			+5 crit chance
+			+5 armor penetration
+			'''
+		DisplayName: Brown Dwarf Charm
+	}
+
+	CharmOfDefenders: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% sentry damage
+			+8% sentry speed
+			'''
+		DisplayName: Charm of Defenders
+	}
+
+	VortexBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Vortex Beam Hamaxe
+	}
+
+	StardustBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Stardust Beam Hamaxe
+	}
+
+	SolarBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Solar Beam Hamaxe
+	}
+
+	NebulaBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Nebula Beam Hamaxe
+	}
+
+	VeilBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Veil Beam Hamaxe
+	}
+
+	StellarwindBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Stellarwind Beam Hamaxe
+	}
+
+	PulsarBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Pulsar Beam Hamaxe
+	}
+
+	GravityBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Gravity Beam Hamaxe
+	}
+
+	LuminiteBeamHamaxe: {
+		Tooltip: ""
+		DisplayName: Brown Dwarf Beam Hamaxe
+	}
+
+	VeilBeamDrill: {
+		Tooltip: ""
+		DisplayName: Veil Beam Drill
+	}
+
+	StellarwindBeamDrill: {
+		Tooltip: ""
+		DisplayName: Stellarwind Beam Drill
+	}
+
+	PulsarBeamDrill: {
+		Tooltip: ""
+		DisplayName: Pulsar Beam Drill
+	}
+
+	GravityBeamDrill: {
+		Tooltip: ""
+		DisplayName: Gravity Beam Drill
+	}
+
+	LuminiteBeamDrill: {
+		Tooltip: ""
+		DisplayName: Brown Dwarf Beam Drill
+	}
+
+	CrimsonHeartTrumpet: {
+		DisplayName: Crimson Heart Trumpet
+		Tooltip: ""
+	}
+
+	HellstoneBell: {
+		DisplayName: Hell's Bells
+		Tooltip: ""
+	}
+
+	BrownDwarfFragmentBlock: {
+		Tooltip: ""
+		DisplayName: Brown Dwarf Fragment Block
+	}
+
+	BrownDwarfBrick: {
+		Tooltip: ""
+		DisplayName: Brown Dwarf Brick
+	}
+
+	BeeTambourine: {
+		Tooltip: ""
+		DisplayName: Bee Tambourine
+	}
+
+	EbonCactusTimbrel: {
+		Tooltip: ""
+		DisplayName: Ebon Cactus Timbrel
+	}
+
+	CrimCactusTimbrel: {
+		Tooltip: ""
+		DisplayName: Crim Cactus Timbrel
+	}
+
+	AetherLotusPetal: {
+		Tooltip: Permanently removes psychosis regeneration delay
+		DisplayName: Crystal Lotus Petal
+	}
+
+	CommonBody: {
+		DisplayName: Common Body
+		Tooltip: ""
+	}
+
+	CommonHeadMixed: {
+		DisplayName: Common Head Mixed
+		Tooltip: ""
+	}
+
+	CommonLegs: {
+		DisplayName: Common Legs
+		Tooltip: ""
+	}
+
+	EsperSoul: {
+		Tooltip:
+			'''
+			+30% telekinetic damage
+			+45 max psychosis
+			+450% psychosis recovery
+			+25% chance to TK dodge attacks
+			Enchants telekinetic attacks with a lot of kinesis, enabling a chance to cause many debuffs on hit
+			Allows zooming with right click while holding a TK weapon
+			Hide accessory visual to disable zooming, while keeping the other stats
+			'One with the mind'
+			'''
+		DisplayName: Esper Soul
+	}
+
+	EsperEssence: {
+		Tooltip:
+			'''
+			+18% telekinetic damage
+			+9 max psychosis
+			+90% psychosis recovery
+			+15% chance to TK dodge attacks
+			'This is only the beginning..'
+			'''
+		DisplayName: Esper Essence
+	}
+
+	DefenderSoul: {
+		Tooltip:
+			'''
+			+30% sentry damage
+			+6 sentry slots
+			+75% sentry speed
+			+150% turret range
+			+15 ingenuity
+			+150% sentry knockback
+			Can place sentries through solid tiles
+			Cerebral Mod traps & turrets float when placed
+			No need to use for naturally floating traps or turrets
+			'And you best hope... not pointed at you'
+			'''
+		DisplayName: Defender Soul
+	}
+
+	DefenderEssence: {
+		Tooltip:
+			'''
+			+18% sentry damage
+			+1 sentry slot
+			+15% sentry speed
+			+30% turret range
+			+3 ingenuity
+			'This is only the beginning..'
+			'''
+		DisplayName: Defender Essence
+	}
+
+	HellstoneCactusPillar: {
+		Tooltip: ""
+		DisplayName: Hellstone Cactus Pillar
+	}
+
+	BeeHook: {
+		Tooltip:
+			'''
+			Releases 3 bees on impact
+			This has a cooldown of a second
+			[c/FF0000:This item does not work properly yet and is normally unobtainable]
+			'''
+		DisplayName: Bee Hook
+	}
+
+	ShadewoodShaken: {
+		Tooltip: ""
+		DisplayName: Shadewood Shaken
+	}
+
+	GraniteShaken: {
+		Tooltip: ""
+		DisplayName: Granite Shaken
+	}
+
+	SlimySpiker: {
+		Tooltip: ""
+		DisplayName: Slimy Spiker
+	}
+
+	PinkSlimySpiker: {
+		Tooltip: ""
+		DisplayName: Pink Slimy Spiker
+	}
+
+	WoodenStake: {
+		Tooltip: Bounces twice
+		DisplayName: Wooden Stake
+	}
+
+	TungstenShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Tungsten Shuriken
+	}
+
+	TopazSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Topaz Satchel Charge
+	}
+
+	TinShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Tin Shuriken
+	}
+
+	Superball: {
+		Tooltip:
+			'''
+			Bounces off of tiles and unaffected by gravity
+			From a super land far away
+			Purchasable from the Traveling Merchant after Eater of Worlds or Brain of Cthulhu is defeated
+			'''
+		DisplayName: Superball
+	}
+
+	SkywareShell: {
+		Tooltip: Bounces off of tiles, stopping vertical momentum upon bouncing
+		DisplayName: Forecasting Shell
+	}
+
+	SilverKunai: {
+		Tooltip: Bounces 2 times
+		DisplayName: Silver Kunai
+	}
+
+	ShadowOrbHatchet: {
+		Tooltip: Spins in place for a moment at the cursor upon throwing
+		DisplayName: Dark Hatchet
+	}
+
+	ShadewoodGlaive: {
+		Tooltip:
+			'''
+			Works like a boomerang
+			Does 400% damage while returning
+			'''
+		DisplayName: Shadewood Shaken
+	}
+
+	SapphireSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Sapphire Satchel Charge
+	}
+
+	RubySatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Ruby Satchel Charge
+	}
+
+	RichMahoganyRainJavelin: {
+		Tooltip: Rains down projectiles as it travels
+		DisplayName: Rich Mahogany Rain Javelin
+	}
+
+	Puck: {
+		Tooltip: Rolls along the ground, bouncing off the sides of tiles
+		DisplayName: Puck
+	}
+
+	PlatinumShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Platinum Shuriken
+	}
+
+	PalmWoodShell: {
+		Tooltip: Rolls along the ground, bouncing off the sides of tiles
+		DisplayName: Palm Wood Shell
+	}
+
+	NightShuriken: {
+		Tooltip:
+			'''
+			Throws out 4 at once
+			Has a chance to poison, wet, and burn enemies
+			'''
+		DisplayName: Twilight Shuriken
+	}
+
+	NightKunai: {
+		Tooltip:
+			'''
+			Bounces 4 times
+			Has a chance to poison, wet, and burn enemies
+			'''
+		DisplayName: Midnight Striker
+	}
+
+	MeteoriteTNT: {
+		Tooltip:
+			'''
+			'Tossing may be difficult'
+			Doesn't destroy tiles or hurt the player
+			Right click to throw with less velocity
+			'''
+		DisplayName: Meteorite TNT
+	}
+
+	MarbleHatchet: {
+		Tooltip: Spins in place for a moment at the cursor upon throwing
+		DisplayName: Marble Hatchet
+	}
+
+	LeadShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Lead Shuriken
+	}
+
+	JungleShuriken: {
+		Tooltip:
+			'''
+			Throws out 3 at once
+			Has a chance to poison enemies
+			'''
+		DisplayName: Poisonous Shuriken
+	}
+
+	JungleKunai: {
+		Tooltip:
+			'''
+			Bounces 3 times
+			Has a chance to poison enemies
+			'''
+		DisplayName: Grassy Kunai
+	}
+
+	IronKunai: {
+		Tooltip: Bounces 2 times
+		DisplayName: Iron Kunai
+	}
+
+	HellstoneShuriken: {
+		Tooltip:
+			'''
+			Throws out 3 at once
+			Has a chance to burn enemies
+			'''
+		DisplayName: Hot Shuriken
+	}
+
+	HellstoneKunai: {
+		Tooltip:
+			'''
+			Bounces 3 times
+			Has a chance to burn enemies
+			'''
+		DisplayName: Blazing Kunai
+	}
+
+	GraniteGlaive: {
+		Tooltip:
+			'''
+			Works like a boomerang
+			Does 400% damage while returning
+			'''
+		DisplayName: Granite Shaken
+	}
+
+	GoldKunai: {
+		Tooltip: Bounces 2 times
+		DisplayName: Gold Kunai
+	}
+
+	GlowingMushroomRainJavelin: {
+		Tooltip: Rains down projectiles as it travels
+		DisplayName: Glowing Mushroom Rain Javelin
+	}
+
+	EnchantedShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Enchanted Shuriken
+	}
+
+	EnchantedKunai: {
+		Tooltip: Bounces 3 times
+		DisplayName: Enchanted Kunai
+	}
+
+	EmeraldSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Emerald Satchel Charge
+	}
+
+	EbonwoodHatchet: {
+		Tooltip: Spins in place for a moment at the cursor upon throwing
+		DisplayName: Ebonwood Hatchet
+	}
+
+	DynastyWoodSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Dynasty Wood Satchel Charge
+	}
+
+	DungeonShuriken: {
+		Tooltip:
+			'''
+			Throws out 3 at once
+			Faster use time than usual
+			'''
+		DisplayName: Wet Star
+	}
+
+	DungeonKunai: {
+		Tooltip:
+			'''
+			Bounces 3 times
+			Faster use time than usual
+			'''
+		DisplayName: Flow Kunai
+	}
+
+	DiamondSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Diamond Satchel Charge
+	}
+
+	DemoniteShuriken: {
+		Tooltip:
+			'''
+			Throws out 3 at once
+			Faster than Crimson counterpart
+			'''
+		DisplayName: Shadowy Shuriken
+	}
+
+	DemoniteKunai: {
+		Tooltip:
+			'''
+			Bounces 3 times
+			Faster than Crimson counterpart
+			'''
+		DisplayName: Dark Kunai
+	}
+
+	CrimtaneShuriken: {
+		Tooltip:
+			'''
+			Throws out 3 at once
+			Stronger than Corruption counterpart
+			'''
+		DisplayName: Butcherer Shuriken
+	}
+
+	CrimtaneKunai: {
+		Tooltip:
+			'''
+			Bounces 3 times
+			Stronger than Corruption counterpart
+			'''
+		DisplayName: Bloody Kunai
+	}
+
+	CrimsonHeartShaken: {
+		Tooltip:
+			'''
+			Works like a boomerang
+			Does 400% damage while returning
+			'''
+		DisplayName: Bleeding Shaken
+	}
+
+	CopperKunai: {
+		Tooltip: Bounces 2 times
+		DisplayName: Copper Kunai
+	}
+
+	CactusNailBomb: {
+		Tooltip: Explodes out 16 nails on impact
+		DisplayName: Cactus Nail Bomb
+	}
+
+	BorealWoodShuriken: {
+		Tooltip: Throws out 3 at once
+		DisplayName: Boreal Wood Shuriken
+	}
+
+	BeeShell: {
+		Tooltip:
+			'''
+			Rolls along the ground, bouncing off the sides of tiles
+			Spawns bees on each bounce
+			'''
+		DisplayName: Bee Roomba
+	}
+
+	AshWoodTNT: {
+		Tooltip:
+			'''
+			'Tossing may be difficult'
+			Doesn't destroy tiles or hurt the player
+			Right click to throw with less velocity
+			'''
+		DisplayName: Ash Wood TNT
+	}
+
+	AmethystSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Amethyst Satchel Charge
+	}
+
+	AmberSatchelCharge: {
+		Tooltip:
+			'''
+			Sticks on impact
+			Detonate by double tapping <right>
+			Only 8 of any satchel charges can be active at once before the earliest one auto detonates
+			'''
+		DisplayName: Amber Satchel Charge
+	}
+
+	CrystalGrenade: {
+		Tooltip: Explodes into Crystal Shards
+		DisplayName: Crystal Grenade
+	}
+
+	YardbirdsCrow: {
+		Tooltip:
+			'''
+			Successful playing sends out a homing projectile
+			Maintaining combo gives slow fall
+			'''
+		DisplayName: Yardbird's Crow
+	}
+
+	WoodenLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Wooden Lute
+	}
+
+	TungstenGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Tungsten Guitar
+	}
+
+	TopazFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Topaz Flute
+	}
+
+	TinGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Tin Guitar
+	}
+
+	SunflowerWhistle: {
+		Tooltip:
+			'''
+			Successful playing shoots a penetrating wave to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Sunflower Whistle
+	}
+
+	SlimyDrum: {
+		Tooltip:
+			'''
+			Successful playing sends out spiraling projectiles around the user
+			Projectiles disappear sooner upon touching solid tiles
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Slimy Sac
+	}
+
+	SilverGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Silver Guitar
+	}
+
+	ShadewoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Shadewood Lute
+	}
+
+	SapphireFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Sapphire Flute
+	}
+
+	RubyFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Ruby Flute
+	}
+
+	RichMahoganyLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Rich Mahogany Lute
+	}
+
+	PlatinumHarp: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Platinum Harp
+	}
+
+	PinkSlimyDrum: {
+		Tooltip:
+			'''
+			Successful playing sends out spiraling projectiles around the user
+			Projectiles disappear sooner upon touching solid tiles
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Pink Slimy Sac
+	}
+
+	PalmWoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Palm Wood Lute
+	}
+
+	MushroomBell: {
+		Tooltip:
+			'''
+			Successful playing orbits 4 projectiles around the user
+			Increases defense by 3 per combo
+			'''
+		DisplayName: Mushroom Bell
+	}
+
+	MarbleTrumpet: {
+		Tooltip:
+			'''
+			Successful playing creates an explosion on the nearest (up to a limit) enemy
+			+5% inreased damage per combo, but shrinks correct timing zone
+			'''
+		DisplayName: Marble Trumpet
+	}
+
+	LeadHarp: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Lead Lyre
+	}
+
+	IronHarp: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Iron Lyre
+	}
+
+	IceSaxophone: {
+		Tooltip:
+			'''
+			Successful playing sends out a "frostburn" causing homing projectile
+			Maintaining combo gives immunity to "chilled"
+			'''
+		DisplayName: Frosty Saxophone
+	}
+
+	GraniteWarHorn: {
+		Tooltip:
+			'''
+			Successful playing creates a penetrating pillar on the nearest (up to a limit) enemy
+			+5% inreased damage per combo, but shrinks correct timing zone
+			'''
+		DisplayName: Granite War Horn
+	}
+
+	GoldHarp: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Gold Harp
+	}
+
+	EyeSaxophone: {
+		Tooltip:
+			'''
+			Successful playing sends out a homing projectile
+			Heals 5 HP on every min combo bonus trigger (5 by default)
+			'''
+		DisplayName: Eye Saxophone
+	}
+
+	EnchantedGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Enchanted Guitar
+	}
+
+	EmeraldFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Emerald Flute
+	}
+
+	EbonwoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Ebonwood Lute
+	}
+
+	DynastyWoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Dynasty Wood Lute
+	}
+
+	DiamondFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Diamond Flute
+	}
+
+	DemoniteGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases tempo by 3% per combo
+			'''
+		DisplayName: Demonite Guitar
+	}
+
+	CrimtaneGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases life regen by 1 per combo
+			'''
+		DisplayName: Crimtane Guitar
+	}
+
+	CopperGuitar: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Copper Guitar
+	}
+
+	CactusTimbrel: {
+		Tooltip:
+			'''
+			Successful playing shoots out 16 projectiles around the user
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Cactus Timbrel
+	}
+
+	BorealWoodWhistle: {
+		Tooltip:
+			'''
+			Successful playing shoots a penetrating wave to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Boreal Wood Whistle
+	}
+
+	BorealWoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Boreal Wood Lute
+	}
+
+	AshWoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a burning damaging aura
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Ash Wood Lute
+	}
+
+	AmethystFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Amethyst Flute
+	}
+
+	AmberFlute: {
+		Tooltip:
+			'''
+			Successful playing maintains a beam to the closest target in range
+			Increases minstrel crit chance by 1 per combo
+			'''
+		DisplayName: Amber Flute
+	}
+
+	PearlwoodLute: {
+		Tooltip:
+			'''
+			Successful playing maintains a damaging aura
+			Increases minstrel crit chance by 2 per combo
+			'''
+		DisplayName: Pearlwood Lute
+	}
+
+	CrystalFlail: {
+		Tooltip: Creates crystal shards on target impact
+		DisplayName: Crystal Flail
+	}
+
+	SangriScepter: {
+		Tooltip: Sprays out a shower of blood
+		DisplayName: Sangri Scepter
+	}
+
+	VileOrb: {
+		Tooltip: Creates an explosion of cursed flames around you
+		DisplayName: Vile Orb
+	}
+
+	WoodenDisc: {
+		Tooltip: ""
+		DisplayName: Wooden Disc
+	}
+
+	UncommonSawblade: {
+		Tooltip: Tier 2 Sawblade
+		DisplayName: Uncommon Sawblade
+	}
+
+	TungstenSawblade: {
+		Tooltip: ""
+		DisplayName: Tungsten Sawblade
+	}
+
+	TorchTwirler: {
+		Tooltip: ""
+		DisplayName: Torch Twirler
+	}
+
+	TopazRift: {
+		Tooltip: Fires topaz bolts toward the nearest enemy
+		DisplayName: Topaz Rift
+	}
+
+	TKMeteor: {
+		Tooltip: ""
+		DisplayName: Psi Meteor
+	}
+
+	TKBoulder: {
+		Tooltip: Does more damage the more velocity it has on impact
+		DisplayName: Psi Boulder
+	}
+
+	TinSawblade: {
+		Tooltip: ""
+		DisplayName: Tin Sawblade
+	}
+
+	SpittingSandfish: {
+		Tooltip:
+			'''
+			Fires bubbles in the direction it is facing
+			Right click to toggle locking firing direction in place
+			Obtainable as a fishing quest reward if not obtained before
+			'''
+		DisplayName: Spitting Sandfish
+	}
+
+	SpikyBallLobber: {
+		Tooltip:
+			'''
+			Lobs spiky balls
+			Right click to toggle locking firing direction in place
+			'''
+		DisplayName: Spiky Ball Lobber
+	}
+
+	SlimyCanister: {
+		Tooltip:
+			'''
+			Pours down damaging slimy liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Slimy Canister
+	}
+
+	SilverSawblade: {
+		Tooltip: ""
+		DisplayName: Silver Sawblade
+	}
+
+	ShadowOrbit: {
+		Tooltip: Orbits four projectiles around the orb
+		DisplayName: Shadow Orbit
+	}
+
+	ShadewoodDisc: {
+		Tooltip: ""
+		DisplayName: Shadewood Disc
+	}
+
+	SapphireRift: {
+		Tooltip: Fires sapphire bolts toward the nearest enemy
+		DisplayName: Sapphire Rift
+	}
+
+	RubyRift: {
+		Tooltip: Fires ruby bolts toward the nearest enemy
+		DisplayName: Ruby Rift
+	}
+
+	RichMahoganyDisc: {
+		Tooltip: ""
+		DisplayName: Rich Mahogany Disc
+	}
+
+	PlatinumSawblade: {
+		Tooltip: ""
+		DisplayName: Platinum Sawblade
+	}
+
+	PinkyTwirler: {
+		Tooltip: ""
+		DisplayName: Pinky Twirler
+	}
+
+	PinkSlimyCanister: {
+		Tooltip:
+			'''
+			Pours down damaging pink slimy liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Pink Slimy Canister
+	}
+
+	PalmWoodDisc: {
+		Tooltip: ""
+		DisplayName: Palm Wood Disc
+	}
+
+	NightSawblade: {
+		Tooltip: ""
+		DisplayName: Night's Shred
+	}
+
+	NightCanister: {
+		Tooltip:
+			'''
+			Pours down damaging liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Midnight Canister
+	}
+
+	MoltenBoulder: {
+		Tooltip:
+			'''
+			Does more damage the more velocity it has on impact
+			Has a chance to burn enemies
+			'''
+		DisplayName: Molten Boulder
+	}
+
+	LeadSawblade: {
+		Tooltip: ""
+		DisplayName: Lead Sawblade
+	}
+
+	JungleSawblade: {
+		Tooltip: Has a chance to poison enemies
+		DisplayName: Grass Burr
+	}
+
+	JungleCanister: {
+		Tooltip: Pours down toxic liquid
+		DisplayName: Sludge Canister
+	}
+
+	IronSawblade: {
+		Tooltip: ""
+		DisplayName: Iron Sawblade
+	}
+
+	HellstoneSawblade: {
+		Tooltip: Has a chance to burn enemies
+		DisplayName: Sawflame
+	}
+
+	HellstoneCanister: {
+		Tooltip:
+			'''
+			Pours down lava
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Lava Canister
+	}
+
+	HellbatJar: {
+		Tooltip:
+			'''
+			Spawns hellbats that will hunt down enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Hellbat Jar
+	}
+
+	GoldSawblade: {
+		Tooltip: ""
+		DisplayName: Gold Sawblade
+	}
+
+	FrostburnTwirler: {
+		Tooltip: ""
+		DisplayName: Frostburn Twirler
+	}
+
+	FeatherGust: {
+		Tooltip:
+			'''
+			Juggles up enemies with weak knockback resistance
+			Flying enemies are pushed down
+			'''
+		DisplayName: Feather Gust
+	}
+
+	EyeJar: {
+		Tooltip:
+			'''
+			Spawns eyes that will hunt down enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Eye Jar
+	}
+
+	EnchantedSawblade: {
+		Tooltip: ""
+		DisplayName: Enchanted Sawblade
+	}
+
+	EmeraldRift: {
+		Tooltip: Fires emerald bolts toward the nearest enemy
+		DisplayName: Emerald Rift
+	}
+
+	EbonwoodDisc: {
+		Tooltip: ""
+		DisplayName: Ebonwood Disc
+	}
+
+	EbonCactusBall: {
+		Tooltip: ""
+		DisplayName: Ebon Cactus Ball
+	}
+
+	DynastyWoodDisc: {
+		Tooltip: ""
+		DisplayName: Dynasty Wood Disc
+	}
+
+	DungeonSawblade: {
+		Tooltip: Extra fast velocity
+		DisplayName: Bonesaw
+	}
+
+	DungeonCanister: {
+		Tooltip:
+			'''
+			Rapidly pours down damaging liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Gooey Canister
+	}
+
+	DiamondRift: {
+		Tooltip: Fires diamond bolts toward the nearest enemy
+		DisplayName: Diamond Rift
+	}
+
+	DemonTwirler: {
+		Tooltip: ""
+		DisplayName: Demon Twirler
+	}
+
+	DemoniteSawblade: {
+		Tooltip: Faster than Crimson counterpart
+		DisplayName: Demon Thorns
+	}
+
+	DemoniteCanister: {
+		Tooltip:
+			'''
+			Quickly pours down damaging vile liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Vile Canister
+	}
+
+	SoilSawblade: {
+		Tooltip:
+			'''
+			Does 1 more damage for every 666 blocks of dirt in your inventory
+			Using this weapon consumes dirt equal to 1/20th of the damage bonus on use and per second
+			Damage is capped based on main boss progression
+			No limit post Moon Lord
+			'''
+		DisplayName: Soil Sawblade
+	}
+
+	CrimtaneSawblade: {
+		Tooltip: Stronger than Corruption counterpart
+		DisplayName: Butcher's Barbs
+	}
+
+	CrimtaneCanister: {
+		Tooltip:
+			'''
+			Slowly pours down damaging blood
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Blood Canister
+	}
+
+	CrimCactusBall: {
+		Tooltip: ""
+		DisplayName: Crim Cactus Ball
+	}
+
+	CopperSawblade: {
+		Tooltip: ""
+		DisplayName: Copper Sawblade
+	}
+
+	CommonSawblade: {
+		Tooltip: Tier 1 Sawblade
+		DisplayName: Common Sawblade
+	}
+
+	ClotBomber: {
+		Tooltip: Spawns timed floating bombs
+		DisplayName: Clot Bomber
+	}
+
+	CactusBall: {
+		Tooltip: ""
+		DisplayName: Cactus Ball
+	}
+
+	BrightTwirler: {
+		Tooltip: ""
+		DisplayName: Bright Twirler
+	}
+
+	BowlingBall: {
+		Tooltip:
+			'''
+			Does more damage the more velocity it has on impact
+			Best used with cousins
+			Purchasable from the Traveling Merchant after Eye of Cthulhu is defeated
+			'''
+		DisplayName: Bowling Ball
+	}
+
+	BorealWoodDisc: {
+		Tooltip: ""
+		DisplayName: Boreal Wood Disc
+	}
+
+	BoneTwirler: {
+		Tooltip: ""
+		DisplayName: Bone Twirler
+	}
+
+	BeeJar: {
+		Tooltip:
+			'''
+			Spawns bees that will hunt down enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Bee Jar
+	}
+
+	BatJar: {
+		Tooltip:
+			'''
+			Spawns bats that will hunt down enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Bat Jar
+	}
+
+	AmethystRift: {
+		Tooltip: Fires amethyst bolts toward the nearest enemy
+		DisplayName: Amethyst Rift
+	}
+
+	AmberRift: {
+		Tooltip: Fires amber bolts toward the nearest enemy
+		DisplayName: Amber Rift
+	}
+
+	RelicSawblade: {
+		Tooltip:
+			'''
+			Tier 6 Sawblade
+			Leaves behind exploding homing projectiles every so often
+			Explosions linger
+			'''
+		DisplayName: Relic Sawblade
+	}
+
+	EldritchEyeJar: {
+		Tooltip:
+			'''
+			Spawns eldritch eyes that will hunt down enemies through solid tiles
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Eldritch Eye Jar
+	}
+
+	CactuarEsper: {
+		Tooltip: Spreads out 60 needles per second, in a random direction
+		DisplayName: Mini Cactuar
+	}
+
+	BlackHoleBomb: {
+		Tooltip:
+			'''
+			Emits a black hole, drawing in & damaging enemies
+			Also draws in items
+			'''
+		DisplayName: Black Void Engine
+	}
+
+	AccretionDisc: {
+		Tooltip:
+			'''
+			Surrounded by an aura that grows in size (up to a limit) dealing damage
+			Causes shorter target immune frames on hit
+			'''
+		DisplayName: Accretion Disc
+	}
+
+	YellowTKRocket: {
+		Tooltip: ""
+		DisplayName: Yellow Psi Rocket
+	}
+
+	WaspJar: {
+		Tooltip:
+			'''
+			Spawns wasps that will chase your enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Wasp Jar
+	}
+
+	VenomTwirler: {
+		Tooltip: Causes 'Venom' on hit
+		DisplayName: Venom Twirler
+	}
+
+	TrueNightSawblade: {
+		Tooltip: Causes shorter target immune frames on hit
+		DisplayName: True Night's Shred
+	}
+
+	TrueNightCanister: {
+		Tooltip:
+			'''
+			Rapidly pours down a piercing liquid
+			Causes shorter target immune frames on hit
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: True Midnight Canister
+	}
+
+	TrueHallowedSawblade: {
+		Tooltip: A smaller sawblade rotates around the main sawblade
+		DisplayName: True Fenrir's Teeth
+	}
+
+	TrueHallowedCanister: {
+		Tooltip:
+			'''
+			Pours down a piercing liquid
+			Does more damage (up to a limit) the further it falls
+			Also acts like a rift weapon
+			'''
+		DisplayName: True Goldropper
+	}
+
+	TKThornBall: {
+		Tooltip: Does more damage the more velocity it has on impact
+		DisplayName: Psi Thorn Ball
+	}
+
+	TKPrimeVice: {
+		Tooltip: ""
+		DisplayName: Psi Prime Vice
+	}
+
+	TKPrimeSaw: {
+		Tooltip: ""
+		DisplayName: Psi Prime Saw
+	}
+
+	TKPrimeLaser: {
+		Tooltip: ""
+		DisplayName: Psi Prime Laser
+	}
+
+	TKPrimeCannon: {
+		Tooltip: ""
+		DisplayName: Psi Prime Cannon
+	}
+
+	TKCannonball: {
+		Tooltip: ""
+		DisplayName: Psi Cannonball
+	}
+
+	TitaniumSawblade: {
+		Tooltip: ""
+		DisplayName: Titanium Sawblade
+	}
+
+	TerraSawblade: {
+		Tooltip:
+			'''
+			Causes shorter target immune frames on hit
+			An energy sawblade rotates around the main sawblade
+			'''
+		DisplayName: Life's Wheel
+	}
+
+	TerraCanister: {
+		Tooltip:
+			'''
+			Rapidly pours down a piercing liquid
+			Causes shorter target immune frames on hit
+			Also acts like a rift weapon
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Nature’s Dew
+	}
+
+	SuperSpittingSandfish: {
+		Tooltip:
+			'''
+			Fires three bubbles in the direction it is facing
+			Right click to toggle locking firing direction in place
+			Obtainable as a fishing quest reward in hardmode if not obtained before
+			'''
+		DisplayName: Super Spitting Sandfish
+	}
+
+	SpookyWoodDisc: {
+		Tooltip: ""
+		DisplayName: Spooky Wood Disc
+	}
+
+	SpectreRift: {
+		Tooltip:
+			'''
+			Fires tile ignoring spectre bolts toward the nearest enemy
+			[c/0080FF:Drops from any Rusty Armored Bones variant]
+			'''
+		DisplayName: Spectre Rift
+	}
+
+	SnowmanBoulder: {
+		Tooltip: Does more damage the more velocity it has on impact
+		DisplayName: Snowman Boulder
+	}
+
+	SkeletonBoneLobber: {
+		Tooltip:
+			'''
+			Lobs X-Bones
+			Right click to toggle locking firing direction in place
+			Purchasable from the Skeleton Merchant in hardmode
+			'''
+		DisplayName: Skeleton Bone Lobber
+	}
+
+	SharknadoRift: {
+		Tooltip:
+			'''
+			Slowly fires Sharknados toward the nearest enemy
+			Sharknados explode into a water tornado on impact
+			'''
+		DisplayName: Sharknado Rift
+	}
+
+	ShadowflameRift: {
+		Tooltip: Fires shadowflame bolts toward the nearest enemy
+		DisplayName: Shadowflame Rift
+	}
+
+	RedTKRocket: {
+		Tooltip: ""
+		DisplayName: Red Psi Rocket
+	}
+
+	RareSawblade: {
+		Tooltip: Tier 3 Sawblade
+		DisplayName: Rare Sawblade
+	}
+
+	RainbowTwirler: {
+		Tooltip: ""
+		DisplayName: Rainbow Twirler
+	}
+
+	PsiSpikeBall: {
+		Tooltip:
+			'''
+			Orbits a single spike ball
+			[c/0080FF:Drops from any Blue Armored Bones variant]
+			'''
+		DisplayName: Psi Spike Ball
+	}
+
+	PsiPumpKing: {
+		Tooltip:
+			'''
+			Does more damage the more velocity it has on impact
+			Leaves a trail of Greek Fire while rolling on the ground
+			'''
+		DisplayName: Psi Pumpking Boulder
+	}
+
+	PsiExplodingPresent: {
+		Tooltip: ""
+		DisplayName: Psi Exploding Present
+	}
+
+	PrismRift: {
+		Tooltip: Fires prism bolts toward the nearest enemy
+		DisplayName: Prism Rift
+	}
+
+	PixieJar: {
+		Tooltip:
+			'''
+			Spawns one of three coloured pixies that will hunt down enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			[c/0080FF:Drops from Pixies]
+			'''
+		DisplayName: Pixie Jar
+	}
+
+	PearlwoodDisc: {
+		Tooltip: ""
+		DisplayName: Pearlwood Disc
+	}
+
+	PearlCactusBall: {
+		Tooltip: ""
+		DisplayName: Pearl Cactus Ball
+	}
+
+	PalladiumSawblade: {
+		Tooltip: ""
+		DisplayName: Palladium Sawblade
+	}
+
+	OrnamentsOrbit: {
+		Tooltip: Orbits eight ornament projectiles around the orb
+		DisplayName: Ornaments Orbit
+	}
+
+	OrichalcumSawblade: {
+		Tooltip: ""
+		DisplayName: Orichalcum Sawblade
+	}
+
+	MythrilSawblade: {
+		Tooltip: ""
+		DisplayName: Mythril Sawblade
+	}
+
+	MourningTwirler: {
+		Tooltip:
+			'''
+			Causes 'On Fire!' on hit
+			Spreads out Greek Fire
+			'''
+		DisplayName: Mourning Twirler
+	}
+
+	MartianPsi: {
+		Tooltip: Causes a big explosion, infecting 'Irradiated' on hit
+		DisplayName: Rolling Neutronium Core
+	}
+
+	LiquidNitrogenCanister: {
+		Tooltip:
+			'''
+			Pours down slowing, cold liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Liquid Nitrogen Canister
+	}
+
+	LegendarySawblade: {
+		Tooltip:
+			'''
+			Tier 5 Sawblade
+			Leaves behind exploding homing projectiles every so often
+			'''
+		DisplayName: Legendary Sawblade
+	}
+
+	ImpiousBrooch: {
+		Tooltip:
+			'''
+			Spawns timed floating bombs that leave lingering explosions
+			[c/0080FF:Drops from any Hell Armored Bones variant]
+			'''
+		DisplayName: Impious Brooch
+	}
+
+	IcicleSpitter: {
+		Tooltip:
+			'''
+			Rapidly fires ice shards in the direction it is facing
+			Every second, also fires a big projectile that travels faster & deals twice as much damage
+			Right click to toggle locking firing direction in place
+			'''
+		DisplayName: Icicle Spitter
+	}
+
+	IchorTwirler: {
+		Tooltip: ""
+		DisplayName: Ichor Twirler
+	}
+
+	IchorCanister: {
+		Tooltip:
+			'''
+			Spill the god's blood...
+			Spills damaging ichor liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Ichor Canister
+	}
+
+	IchorBomber: {
+		Tooltip: Spawns ichor causing timed floating bombs
+		DisplayName: Ichor Bomber
+	}
+
+	HallowedSawblade: {
+		Tooltip: ""
+		DisplayName: Fenrir's Teeth
+	}
+
+	HallowedCanister: {
+		Tooltip:
+			'''
+			Pours down a piercing liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Goldropper
+	}
+
+	GreenTKRocket: {
+		Tooltip: ""
+		DisplayName: Green Psi Rocket
+	}
+
+	GravityTwirler: {
+		Tooltip:
+			'''
+			Spins around two lasers
+			Triggers longer hit immunity frames on targets
+			'''
+		DisplayName: Binary Rays
+	}
+
+	GravityBouncer: {
+		Tooltip: Every 3rd bounce explodes
+		DisplayName: Gravity Crasher
+	}
+
+	GolemHeadRift: {
+		Tooltip: Shoots two projectiles at once toward the nearest enemy
+		DisplayName: Golem Head Rift
+	}
+
+	GiantGear: {
+		Tooltip: ""
+		DisplayName: Giant Gear
+	}
+
+	ForbiddenGust: {
+		Tooltip: Gusts flings enemies with weak knockback resistance upwards, flying enemies get pushed downwards
+		DisplayName: Forbidden Gust
+	}
+
+	EpicSawblade: {
+		Tooltip:
+			'''
+			Tier 4 Sawblade
+			Projectile explodes
+			'''
+		DisplayName: Epic Sawblade
+	}
+
+	DeadDoll: {
+		Tooltip:
+			'''
+			Pours down damaging hairs
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			[c/0080FF:Drops from The Possessed]
+			'''
+		DisplayName: Dead Doll
+	}
+
+	CursedTwirler: {
+		Tooltip: ""
+		DisplayName: Cursed Twirler
+	}
+
+	CursedFlameOrbit: {
+		Tooltip: Orbits four cursed flames projectiles around the orb
+		DisplayName: Cursed Flame Orbit
+	}
+
+	CursedBouncer: {
+		Tooltip: ""
+		DisplayName: Cursed Bouncer
+	}
+
+	CobaltSawblade: {
+		Tooltip: ""
+		DisplayName: Cobalt Sawblade
+	}
+
+	ChlorophyteSawblade: {
+		Tooltip: ""
+		DisplayName: Chlorophyte Sawblade
+	}
+
+	ChlorophyteCanister: {
+		Tooltip:
+			'''
+			Pours down a piercing liquid
+			Does more damage (up to a limit) the further it falls
+			'''
+		DisplayName: Chlorophyte Canister
+	}
+
+	BlueTKRocket: {
+		Tooltip: ""
+		DisplayName: Blue Psi Rocket
+	}
+
+	BlizzardTwirler: {
+		Tooltip: Slows down most enemies on hit
+		DisplayName: Blizzard Twirler
+	}
+
+	BetsyPsi: {
+		Tooltip:
+			'''
+			Blows out fire
+			Right click to toggle locking firing direction in place
+			'''
+		DisplayName: Betsy Scorcher
+	}
+
+	BeetleJar: {
+		Tooltip:
+			'''
+			Spawns beetles that will chase your enemies
+			Requires shaking up & down to function
+			Will last for 8 seconds before needing more shaking
+			'''
+		DisplayName: Beetle Jar
+	}
+
+	AdamantiteSawblade: {
+		Tooltip: ""
+		DisplayName: Adamantite Sawblade
+	}
+
+	WoodenSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Wooden Spikes
+	}
+
+	TungstenSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Tungsten Spikes
+	}
+
+	TopazLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Topaz Layer
+	}
+
+	TinSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Tin Spikes
+	}
+
+	SpikyBaller: {
+		Tooltip: Places a trap that shoots out spiky balls
+		DisplayName: Spiky Baller
+	}
+
+	SnowballTurret: {
+		Tooltip: Places a snowball firing turret
+		DisplayName: Snowball Turret
+	}
+
+	SlimeSpiker: {
+		Tooltip: Places a slimy spiker that fires out needles
+		DisplayName: Slimy Spiker
+	}
+
+	SilverSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Silver Spikes
+	}
+
+	ShadowOrbTrap: {
+		Tooltip: Places a trap that shoots up vile spit
+		DisplayName: Spit Lobber
+	}
+
+	ShadewoodSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Shadewood Spikes
+	}
+
+	SapphireLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Sapphire Layer
+	}
+
+	RubyLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Ruby Layer
+	}
+
+	RichMahoganySpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Rich Mahogany Spikes
+	}
+
+	PlatinumSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Platinum Spikes
+	}
+
+	PinkSlimeSpiker: {
+		Tooltip: Places a pink slimy spiker that fires out needles
+		DisplayName: Pink Slimy Spiker
+	}
+
+	PalmWoodSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Palm Wood Spikes
+	}
+
+	NightTurret: {
+		Tooltip: Places an explosive homing firing turret
+		DisplayName: Bardaginott
+	}
+
+	NightSpikes: {
+		Tooltip:
+			'''
+			Places poison wet burning ground spikes
+			Does damage every 8 frames
+			'''
+		DisplayName: Dusk Needles
+	}
+
+	MoltenTurret: {
+		Tooltip: Places a slow but powerful projectile firing turret
+		DisplayName: Hotshot
+	}
+
+	MoltenSpikes: {
+		Tooltip: Places burning ground spikes
+		DisplayName: Hell's Spindles
+	}
+
+	MeteorBreaker: {
+		Tooltip: Places a trap that shoots out splitting meteors
+		DisplayName: Meteor Breaker
+	}
+
+	LeadSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Lead Spikes
+	}
+
+	JungleTurret: {
+		Tooltip: Places a spread shot firing turret
+		DisplayName: Savage Shooter
+	}
+
+	JungleSpikes: {
+		Tooltip: Places poison ground spikes
+		DisplayName: Vine Barbs
+	}
+
+	IronSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Iron Spikes
+	}
+
+	GoldSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Gold Spikes
+	}
+
+	GeyserSentry: {
+		Tooltip: Places a geyser that emits flames upwards
+		DisplayName: Geyser Sentry
+	}
+
+	EmeraldLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Emerald Layer
+	}
+
+	EbonwoodSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Ebonwood Spikes
+	}
+
+	DynastyWoodSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Supaiku
+	}
+
+	DungeonTurret: {
+		Tooltip: Places a rapid firing turret
+		DisplayName: Tide Turner
+	}
+
+	DungeonSpikes: {
+		Tooltip:
+			'''
+			Places wet ground spikes
+			Does damage every 6 frames
+			'''
+		DisplayName: Burudoraiba
+	}
+
+	DiamondLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Diamond Layer
+	}
+
+	DemoniteTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Night Strike
+	}
+
+	DemoniteSpikes: {
+		Tooltip:
+			'''
+			Places ground spikes
+			Does damage every 8 frames
+			'''
+		DisplayName: Shadowspikes
+	}
+
+	DemoniteCactusPillar: {
+		Tooltip:
+			'''
+			Places a tall cactus
+			Does damage every 8 frames
+			'''
+		DisplayName: Eboncactus Pillar
+	}
+
+	DartTrapSentry: {
+		Tooltip: Places a dart trap sentry
+		DisplayName: Dart Trap Sentry
+	}
+
+	SoilSpikes: {
+		Tooltip:
+			'''
+			Does 1 more damage for every 666 blocks of dirt in your inventory
+			Damage is capped based on main boss progression
+			No limit post Moon Lord
+			Places ground spikes
+			Using this weapon consumes dirt equal half of the damage bonus
+			'''
+		DisplayName: Soil Spikes
+	}
+
+	CrimtaneTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Blood Blaster
+	}
+
+	CrimtaneSpikes: {
+		Tooltip:
+			'''
+			Places ground spikes
+			Does damage every 12 frames
+			'''
+		DisplayName: Spiky Veins
+	}
+
+	CrimtaneCactusPillar: {
+		Tooltip:
+			'''
+			Places a tall cactus
+			Does damage every 12 frames
+			'''
+		DisplayName: Crimcactus Pillar
+	}
+
+	CopperSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Copper Spikes
+	}
+
+	CommonTurret: {
+		Tooltip:
+			'''
+			Places a bullet firing turret
+			Tier 1 Turret
+			Currently the only tier
+			'''
+		DisplayName: Common Turret
+	}
+
+	CactusPillar: {
+		Tooltip: Places a tall cactus
+		DisplayName: Cactus Pillar
+	}
+
+	BorealWoodSpikes: {
+		Tooltip: Places ground spikes
+		DisplayName: Boreal Wood Spikes
+	}
+
+	BeeEmitter: {
+		Tooltip: Places a trap that releases bees
+		DisplayName: Bee Emitter
+	}
+
+	AmethystLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Amethyst Layer
+	}
+
+	AmberLayer: {
+		Tooltip: Places a trap that forms a laser between itself & the previous created one
+		DisplayName: Amber Layer
+	}
+
+	HMGTurret: {
+		Tooltip: Places a floating rapid firing high velocity defense ignoring bullet turret
+		DisplayName: HMG Turret
+	}
+
+	WaterTornado: {
+		Tooltip: Places a floating water tornado
+		DisplayName: Water Tornado
+	}
+
+	WaspEmitter: {
+		Tooltip: Places a floating trap that releases wasps
+		DisplayName: Wasp Emitter
+	}
+
+	TrueNightTurret: {
+		Tooltip: Places a floating explosive homing firing turret
+		DisplayName: True Bardaginott
+	}
+
+	TrueNightSpikes: {
+		Tooltip:
+			'''
+			Places poison wet burning floating spikes
+			Does damage every 8 frames
+			'''
+		DisplayName: True Dusk Needles
+	}
+
+	TrueHallowedTurret: {
+		Tooltip: Places a floating penetrating laser firing turret
+		DisplayName: True Skiptilykiller
+	}
+
+	TrueHallowedSpikes: {
+		Tooltip: Places floating spikes that knocks enemies closer
+		DisplayName: True Gridarvol
+	}
+
+	TitaniumTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Titanium Turret
+	}
+
+	TitaniumSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Titanium Spikes
+	}
+
+	TerraTurret: {
+		Tooltip:
+			'''
+			Places a floating turret that fires penetrating lasers
+			And homing explosive shots
+			'''
+		DisplayName: Gaiac Gyre
+	}
+
+	TerraSpikes: {
+		Tooltip:
+			'''
+			Places poison wet burning floating spikes that knocks enemies closer
+			Does damage every 8 frames
+			'''
+		DisplayName: Nature's Claws
+	}
+
+	SpookyWoodSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Spooky Wood Spikes
+	}
+
+	SpikyBallDropper: {
+		Tooltip: Places a floating trap that drops spiky balls
+		DisplayName: Spiky Ball Dropper
+	}
+
+	ShadowflameTrap: {
+		Tooltip: Places a floating trap that shoots out shadowflame spiky balls
+		DisplayName: Shadowflamer Spiky Baller
+	}
+
+	PrismLayer: {
+		Tooltip: Creates a floating trap that creates a laser between itself & the previous created one
+		DisplayName: Prism Layer
+	}
+
+	PearlwoodSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Pearlwood Spikes
+	}
+
+	PalladiumTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Palladium Turret
+	}
+
+	PalladiumSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Palladium Spikes
+	}
+
+	OrichalcumTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Orichalcum Turret
+	}
+
+	OrichalcumSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Orichalcum Spikes
+	}
+
+	MythrilTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Mythril Turret
+	}
+
+	MythrilSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Mythril Spikes
+	}
+
+	MartianTrap: {
+		Tooltip: Places an UFO that fires down a deathray
+		DisplayName: UFO Deathray
+	}
+
+	MagnetarDeployer: {
+		Tooltip: Places a floating trap that shoots out homing projectiles that go through tiles
+		DisplayName: Magnetar Deployer
+	}
+
+	LGM1: {
+		Tooltip: Places a floating trap that shoots out exploding splitting meteors
+		DisplayName: LGM-1
+	}
+
+	IchorTurret: {
+		Tooltip: Places an ichor shower firing turret
+		DisplayName: Ichor Turret
+	}
+
+	HallowedTurret: {
+		Tooltip: Places a penetrating laser firing turret
+		DisplayName: Skiptilykiller
+	}
+
+	HallowedSpikes: {
+		Tooltip: Places floating spikes with knockback
+		DisplayName: Gridarvol
+	}
+
+	HallowedMimicTrap: {
+		Tooltip: Places a floating crystal which has its own orbiting crystal
+		DisplayName: Crystal Orbit
+	}
+
+	HallowedCactusPillar: {
+		Tooltip: Places a tall floating cactus
+		DisplayName: Pearlcactus Pillar
+	}
+
+	FrostCoreTurret: {
+		Tooltip: Places a turret that causes frostbite and slows down most NPCs
+		DisplayName: Chiller Turret
+	}
+
+	FreezethrowerTurret: {
+		Tooltip: Places a rapid frostbite causing turret
+		DisplayName: Freezethrower Turret
+	}
+
+	ForbiddenFragmentTrap: {
+		Tooltip: Creates a Sandnado
+		DisplayName: Taboo Trap
+	}
+
+	CursedFlameTurret: {
+		Tooltip: Places a cursed fireball firing turret
+		DisplayName: Cursed Flame Turret
+	}
+
+	CrimsonMimicTrap: {
+		Tooltip: Places a floating ichor fumes spraying trap
+		DisplayName: Sticker Spray
+	}
+
+	CoinTurret: {
+		Tooltip:
+			'''
+			Places a midas affecting turret
+			Fires higher tiered coins based on luck, affected by player luck
+			Does not consume coins
+			'''
+		DisplayName: Midas Touch Turret
+	}
+
+	CobaltTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Cobalt Turret
+	}
+
+	CobaltSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Cobalt Spikes
+	}
+
+	ChlorophyteTurret: {
+		Tooltip: Places a floating three spread shot firing turret
+		DisplayName: Chlorophyte Turret
+	}
+
+	ChlorophyteSpikes: {
+		Tooltip: Places floating spikes that also shoot spore clouds
+		DisplayName: Chlorophyte Spikes
+	}
+
+	BubbleTurret: {
+		Tooltip: Places a floating rapid bubble firing turret
+		DisplayName: Bubble Turret
+	}
+
+	BetsyTurret: {
+		Tooltip: Places a flamethrower turret
+		DisplayName: Betsy Turret
+	}
+
+	BallOfFrostSpitter: {
+		Tooltip: Places a floating machine that fires out balls of frost
+		DisplayName: Ball Of Frost Spitter
+	}
+
+	Balance: {
+		Tooltip: Places a floating orb that fires twin projectiles left & right, up & down
+		DisplayName: Tao Lug
+	}
+
+	AutoTurret: {
+		Tooltip:
+			'''
+			Places a rapid firing bullet turret
+			Built in 20 armor penetration
+			'''
+		DisplayName: Auto Turret
+	}
+
+	AdamantiteTurret: {
+		Tooltip: Places a high velocity firing turret
+		DisplayName: Adamantite Turret
+	}
+
+	AdamantiteSpikes: {
+		Tooltip: Places floating spikes
+		DisplayName: Adamantite Spikes
+	}
+
+	Wrangler: {
+		Tooltip:
+			'''
+			While used, Cerebral Mod's turrets will fire at cursor location
+			Takes priority over any auto targeting while in use
+			20% increased sentry firing rate while in use
+			Changes color based on team
+			'''
+		DisplayName: Wrangler
+	}
+
+	PulsarPickaxe: {
+		Tooltip: ""
+		DisplayName: Pulsar Pickaxe
+	}
+
+	PulsarHamaxe: {
+		Tooltip: ""
+		DisplayName: Pulsar Hamaxe
+	}
+
+	PulsarDrill: {
+		Tooltip: ""
+		DisplayName: Pulsar Drill
+	}
+
+	GravityPickaxe: {
+		Tooltip: ""
+		DisplayName: Gravity Pickaxe
+	}
+
+	GravityHammer: {
+		Tooltip: "'Not to be confused with a Type-2 Energy Hammer'"
+		DisplayName: Gravity Hammer
+	}
+
+	GravityHamaxe: {
+		Tooltip: ""
+		DisplayName: Gravity Hamaxe
+	}
+
+	GravityDrill: {
+		Tooltip: ""
+		DisplayName: Gravity Drill
+	}
+
+	GravityChainsaw: {
+		Tooltip: ""
+		DisplayName: Gravity Chainsaw
+	}
+
+	GravityAxe: {
+		Tooltip: ""
+		DisplayName: Gravity Axe
+	}
+
+	WillPotion: {
+		Tooltip: +20% telekinetic damage
+		DisplayName: Will Potion
+	}
+
+	VortexPotion: {
+		Tooltip:
+			'''
+			Multiples ranged damage by 20%
+			'The [c/22dd97:perception] of the cosmos'
+			'''
+		DisplayName: Vortex Potion
+	}
+
+	VeilPotion: {
+		Tooltip:
+			'''
+			Multiples throwing damage by 20%
+			'The [c/ff3336:agility] of the cosmos'
+			'''
+		DisplayName: Veil Potion
+	}
+
+	SuperPsychosisPotion: {
+		Tooltip:
+			'''
+			Restores all psychosis
+			Take damage equal to amount of psychosis restored
+			'''
+		DisplayName: Super Psychosis Potion
+	}
+
+	StellarwindPotion: {
+		Tooltip:
+			'''
+			Multiples melodic damage by 20%
+			'The [c/93d329:talent] of the cosmos'
+			'''
+		DisplayName: Stellarwind Potion
+	}
+
+	StardustPotion: {
+		Tooltip:
+			'''
+			Multiples minion damage by 20%
+			'The [c/68d6ff:empathy] of the cosmos'
+			'''
+		DisplayName: Stardust Potion
+	}
+
+	SolarPotion: {
+		Tooltip:
+			'''
+			Multiples melee damage by 20%
+			'The [c/fe9e23:strength] of the cosmos'
+			'''
+		DisplayName: Solar Potion
+	}
+
+	SentryPotion: {
+		Tooltip: +1 sentry slot
+		DisplayName: Sentry Potion
+	}
+
+	PulsarPotion: {
+		Tooltip:
+			'''
+			Multiples sentry damage by 20%
+			'The [c/b5cbff:ingenuity] of the cosmos'
+			'''
+		DisplayName: Pulsar Potion
+	}
+
+	PsychosisPotion: {
+		Tooltip:
+			'''
+			Restores 20 psychosis
+			Take damage equal to amount of psychosis restored
+			'''
+		DisplayName: Psychosis Potion
+	}
+
+	NebulaPotion: {
+		Tooltip:
+			'''
+			Multiples magic damage by 20%
+			'The [c/fe7ee5:intelligence] of the cosmos'
+			'''
+		DisplayName: Nebula Potion
+	}
+
+	LesserPsychosisPotion: {
+		Tooltip:
+			'''
+			Restores 10 psychosis
+			Take damage equal to amount of psychosis restored
+			'''
+		DisplayName: Lesser Psychosis Potion
+	}
+
+	GreaterPsychosisPotion: {
+		Tooltip:
+			'''
+			Restores 40 psychosis
+			Take damage equal to amount of psychosis restored
+			'''
+		DisplayName: Greater Psychosis Potion
+	}
+
+	GravityPotion: {
+		Tooltip:
+			'''
+			Multiples telekinetic damage by 20%
+			'The [c/ffce31:ego] of the cosmos'
+			'''
+		DisplayName: Gravity Potion
+	}
+
+	FocusPotion: {
+		Tooltip: +12% telekinetic crit chance
+		DisplayName: Focus Potion
+	}
+
+	DefenderPotion: {
+		Tooltip: +15% sentry crit chance
+		DisplayName: Defender Potion
+	}
+
+	AlertnessPotion: {
+		Tooltip: +30% telekinetic velocity
+		DisplayName: Alertness Potion
+	}
+
+	VeilWorkBench: {
+		Tooltip: ""
+		DisplayName: Veil Work Bench
+	}
+
+	VeilToilet: {
+		Tooltip: ""
+		DisplayName: Veil Toilet
+	}
+
+	VeilTable: {
+		Tooltip: ""
+		DisplayName: Veil Table
+	}
+
+	VeilSofa: {
+		Tooltip: ""
+		DisplayName: Veil Sofa
+	}
+
+	VeilSink: {
+		Tooltip: ""
+		DisplayName: Veil Sink
+	}
+
+	VeilPlatform: {
+		Tooltip: ""
+		DisplayName: Veil Platform
+	}
+
+	VeilPiano: {
+		Tooltip: ""
+		DisplayName: Veil Piano
+	}
+
+	VeilLantern: {
+		Tooltip: ""
+		DisplayName: Veil Lantern
+	}
+
+	VeilLamp: {
+		Tooltip: ""
+		DisplayName: Veil Lamp
+	}
+
+	VeilFragmentBlock: {
+		Tooltip: ""
+		DisplayName: Veil Fragment Block
+	}
+
+	VeilDresser: {
+		Tooltip: ""
+		DisplayName: Veil Dresser
+	}
+
+	VeilDoor: {
+		Tooltip: ""
+		DisplayName: Veil Door
+	}
+
+	VeilClock: {
+		Tooltip: ""
+		DisplayName: Veil Clock
+	}
+
+	VeilChest: {
+		Tooltip: ""
+		DisplayName: Veil Chest
+	}
+
+	VeilChandelier: {
+		Tooltip: ""
+		DisplayName: Veil Chandelier
+	}
+
+	VeilChair: {
+		Tooltip: ""
+		DisplayName: Veil Chair
+	}
+
+	VeilCandle: {
+		Tooltip: ""
+		DisplayName: Veil Candle
+	}
+
+	VeilCandelabra: {
+		Tooltip: ""
+		DisplayName: Veil Candelabra
+	}
+
+	VeilBrickWall: {
+		Tooltip: ""
+		DisplayName: Veil Brick Wall
+	}
+
+	VeilBrick: {
+		Tooltip: ""
+		DisplayName: Veil Brick
+	}
+
+	VeilBookcase: {
+		Tooltip: ""
+		DisplayName: Veil Bookcase
+	}
+
+	VeilBed: {
+		Tooltip: ""
+		DisplayName: Veil Bed
+	}
+
+	VeilBathtub: {
+		Tooltip: ""
+		DisplayName: Veil Bathtub
+	}
+
+	StellarwindWorkBench: {
+		Tooltip: ""
+		DisplayName: Stellarwind Work Bench
+	}
+
+	StellarwindToilet: {
+		Tooltip: ""
+		DisplayName: Stellarwind Toilet
+	}
+
+	StellarwindTable: {
+		Tooltip: ""
+		DisplayName: Stellarwind Table
+	}
+
+	StellarwindSofa: {
+		Tooltip: ""
+		DisplayName: Stellarwind Sofa
+	}
+
+	StellarwindSink: {
+		Tooltip: ""
+		DisplayName: Stellarwind Sink
+	}
+
+	StellarwindPlatform: {
+		Tooltip: ""
+		DisplayName: Stellarwind Platform
+	}
+
+	StellarwindPiano: {
+		Tooltip: ""
+		DisplayName: Stellarwind Piano
+	}
+
+	StellarwindLantern: {
+		Tooltip: ""
+		DisplayName: Stellarwind Lantern
+	}
+
+	StellarwindLamp: {
+		Tooltip: ""
+		DisplayName: Stellarwind Lamp
+	}
+
+	StellarwindFragmentBlock: {
+		Tooltip: ""
+		DisplayName: Stellarwind Fragment Block
+	}
+
+	StellarwindDresser: {
+		Tooltip: ""
+		DisplayName: Stellarwind Dresser
+	}
+
+	StellarwindDoor: {
+		Tooltip: ""
+		DisplayName: Stellarwind Door
+	}
+
+	StellarwindClock: {
+		Tooltip: ""
+		DisplayName: Stellarwind Clock
+	}
+
+	StellarwindChest: {
+		Tooltip: ""
+		DisplayName: Stellarwind Chest
+	}
+
+	StellarwindChandelier: {
+		Tooltip: ""
+		DisplayName: Stellarwind Chandelier
+	}
+
+	StellarwindChair: {
+		Tooltip: ""
+		DisplayName: Stellarwind Chair
+	}
+
+	StellarwindCandle: {
+		Tooltip: ""
+		DisplayName: Stellarwind Candle
+	}
+
+	StellarwindCandelabra: {
+		Tooltip: ""
+		DisplayName: Stellarwind Candelabra
+	}
+
+	StellarwindBrickWall: {
+		Tooltip: ""
+		DisplayName: Stellarwind Brick Wall
+	}
+
+	StellarwindBrick: {
+		Tooltip: ""
+		DisplayName: Stellarwind Brick
+	}
+
+	StellarwindBookcase: {
+		Tooltip: ""
+		DisplayName: Stellarwind Bookcase
+	}
+
+	StellarwindBed: {
+		Tooltip: ""
+		DisplayName: Stellarwind Bed
+	}
+
+	StellarwindBathtub: {
+		Tooltip: ""
+		DisplayName: Stellarwind Bathtub
+	}
+
+	PulsarWorkBench: {
+		Tooltip: ""
+		DisplayName: Pulsar Work Bench
+	}
+
+	PulsarToilet: {
+		Tooltip: ""
+		DisplayName: Pulsar Toilet
+	}
+
+	PulsarTable: {
+		Tooltip: ""
+		DisplayName: Pulsar Table
+	}
+
+	PulsarSofa: {
+		Tooltip: ""
+		DisplayName: Pulsar Sofa
+	}
+
+	PulsarSink: {
+		Tooltip: ""
+		DisplayName: Pulsar Sink
+	}
+
+	PulsarPlatform: {
+		Tooltip: ""
+		DisplayName: Pulsar Platform
+	}
+
+	PulsarPiano: {
+		Tooltip: ""
+		DisplayName: Pulsar Piano
+	}
+
+	PulsarLantern: {
+		Tooltip: ""
+		DisplayName: Pulsar Lantern
+	}
+
+	PulsarLamp: {
+		Tooltip: ""
+		DisplayName: Pulsar Lamp
+	}
+
+	PulsarFragmentBlock: {
+		Tooltip: ""
+		DisplayName: Pulsar Fragment Block
+	}
+
+	PulsarDresser: {
+		Tooltip: ""
+		DisplayName: Pulsar Dresser
+	}
+
+	PulsarDoor: {
+		Tooltip: ""
+		DisplayName: Pulsar Door
+	}
+
+	PulsarClock: {
+		Tooltip: ""
+		DisplayName: Pulsar Clock
+	}
+
+	PulsarChest: {
+		Tooltip: ""
+		DisplayName: Pulsar Chest
+	}
+
+	PulsarChandelier: {
+		Tooltip: ""
+		DisplayName: Pulsar Chandelier
+	}
+
+	PulsarChair: {
+		Tooltip: ""
+		DisplayName: Pulsar Chair
+	}
+
+	PulsarCandle: {
+		Tooltip: ""
+		DisplayName: Pulsar Candle
+	}
+
+	PulsarCandelabra: {
+		Tooltip: ""
+		DisplayName: Pulsar Candelabra
+	}
+
+	PulsarBrickWall: {
+		Tooltip: ""
+		DisplayName: Pulsar Brick Wall
+	}
+
+	PulsarBrick: {
+		Tooltip: ""
+		DisplayName: Pulsar Brick
+	}
+
+	PulsarBookcase: {
+		Tooltip: ""
+		DisplayName: Pulsar Bookcase
+	}
+
+	PulsarBed: {
+		Tooltip: ""
+		DisplayName: Pulsar Bed
+	}
+
+	PulsarBathtub: {
+		Tooltip: ""
+		DisplayName: Pulsar Bathtub
+	}
+
+	YLOBanner: {
+		Tooltip: "'Kratocracy of Australia'"
+		DisplayName: YLO Banner
+	}
+
+	REDBanner: {
+		Tooltip: "'Reliable Excavation Demolition'"
+		DisplayName: RED Banner
+	}
+
+	PNKBanner: {
+		Tooltip: "'Pinkie Party Plaza'"
+		DisplayName: PNK Banner
+	}
+
+	GRNBanner: {
+		Tooltip: "'Mann Co.'"
+		DisplayName: GRN Banner
+	}
+
+	GRABanner: {
+		Tooltip: "'Gray Gravel Co.'"
+		DisplayName: GRA Banner
+	}
+
+	EngineerChest: {
+		Tooltip: ""
+		DisplayName: Engineer Chest
+	}
+
+	BLUBanner: {
+		Tooltip: "'Builders League United'"
+		DisplayName: BLU Banner
+	}
+
+	GravityWorkBench: {
+		Tooltip: ""
+		DisplayName: Gravity Work Bench
+	}
+
+	GravityToilet: {
+		Tooltip: ""
+		DisplayName: Gravity Toilet
+	}
+
+	GravityTable: {
+		Tooltip: ""
+		DisplayName: Gravity Table
+	}
+
+	GravitySofa: {
+		Tooltip: ""
+		DisplayName: Gravity Sofa
+	}
+
+	GravitySink: {
+		Tooltip: ""
+		DisplayName: Gravity Sink
+	}
+
+	GravityPlatform: {
+		Tooltip: ""
+		DisplayName: Gravity Platform
+	}
+
+	GravityPiano: {
+		Tooltip: ""
+		DisplayName: Gravity Piano
+	}
+
+	GravityLantern: {
+		Tooltip: ""
+		DisplayName: Gravity Lantern
+	}
+
+	GravityLamp: {
+		Tooltip: ""
+		DisplayName: Gravity Lamp
+	}
+
+	GravityFragmentBlock: {
+		Tooltip: ""
+		DisplayName: Gravity Fragment Block
+	}
+
+	GravityDresser: {
+		Tooltip: ""
+		DisplayName: Gravity Dresser
+	}
+
+	GravityDoor: {
+		Tooltip: ""
+		DisplayName: Gravity Door
+	}
+
+	GravityClock: {
+		Tooltip: ""
+		DisplayName: Gravity Clock
+	}
+
+	GravityChest: {
+		Tooltip: ""
+		DisplayName: Gravity Chest
+	}
+
+	GravityChandelier: {
+		Tooltip: ""
+		DisplayName: Gravity Chandelier
+	}
+
+	GravityChair: {
+		Tooltip: ""
+		DisplayName: Gravity Chair
+	}
+
+	GravityCandle: {
+		Tooltip: ""
+		DisplayName: Gravity Candle
+	}
+
+	GravityCandelabra: {
+		Tooltip: ""
+		DisplayName: Gravity Candelabra
+	}
+
+	GravityBrickWall: {
+		Tooltip: ""
+		DisplayName: Gravity Brick Wall
+	}
+
+	GravityBrick: {
+		Tooltip: ""
+		DisplayName: Gravity Brick
+	}
+
+	GravityBookcase: {
+		Tooltip: ""
+		DisplayName: Gravity Bookcase
+	}
+
+	GravityBed: {
+		Tooltip: ""
+		DisplayName: Gravity Bed
+	}
+
+	GravityBathtub: {
+		Tooltip: ""
+		DisplayName: Gravity Bathtub
+	}
+
+	EngineerToolkit: {
+		Tooltip:
+			'''
+			+50% tile & wall placement speed
+			+3 tile placement range
+			Purchasable from the Mechanic
+			'''
+		DisplayName: Engineer Toolkit
+	}
+
+	TaintedLotusPetal: {
+		Tooltip: Permanently increases max psychosis by 1, up to 15
+		DisplayName: Tainted Lotus Petal
+	}
+
+	SolarLotusPetal: {
+		Tooltip:
+			'''
+			Permanently increases max psychosis by 1, up to 30
+			Requires at least 25 max psychosis
+			'''
+		DisplayName: Solar Lotus Petal
+	}
+
+	SanguineLotusPetal: {
+		Tooltip: Permanently increases max psychosis by 1, up to 15
+		DisplayName: Sanguine Lotus Petal
+	}
+
+	PsychicEye: {
+		Tooltip: ""
+		DisplayName: Psychic Eye
+	}
+
+	OceanKey: {
+		Tooltip: ""
+		DisplayName: Ocean Key
+	}
+
+	HallowedLotusPetal: {
+		Tooltip:
+			'''
+			Permanently increases max psychosis by 1, up to 25
+			Requires at least 20 max psychosis
+			'''
+		DisplayName: Hallowed Lotus Petal
+	}
+
+	AncientLotusPetal: {
+		Tooltip:
+			'''
+			Permanently increases max psychosis by 1, up to 20
+			Requires at least 15 max psychosis
+			'''
+		DisplayName: Ancient Lotus Petal
+	}
+
+	WyvernScale: {
+		Tooltip: ""
+		DisplayName: Wyvern Scale
+	}
+
+	WallofFleshCrafter: {
+		Tooltip: Used to craft Wall of Flesh weapon drops
+		DisplayName: Demonic Lungs
+	}
+
+	ShadowOrbCrafter: {
+		Tooltip: Used to craft Shadow Orb loot drops
+		DisplayName: Shadowy Shell
+	}
+
+	ShadowflameCrafter: {
+		Tooltip: Used to craft Goblin Summoner drops
+		DisplayName: Shadowflame Bag
+	}
+
+	QueenSlimeCrafter: {
+		Tooltip: Used to craft most Queen Slime drops
+		DisplayName: Queen Slimy Trinket
+	}
+
+	PlanteraCrafter: {
+		Tooltip: Used to craft Plantera drops
+		DisplayName: Plantera Jewels
+	}
+
+	PirateInvasionCrafter: {
+		Tooltip:
+			'''
+			Used to craft some Pirate Invasion drops
+			Not for wearing
+			'''
+		DisplayName: Precious Ruby Ring
+	}
+
+	NightCrafter: {
+		Tooltip:
+			'''
+			Used to craft Cerebral Mod Night's Edge styled weapons
+			[c/0080FF:Drops from Deerclops]
+			'''
+		DisplayName: Nightmare Fuel
+	}
+
+	MoonLordCrafter: {
+		Tooltip: Used to craft Moon Lord weapon drops
+		DisplayName: Lunar Polyp
+	}
+
+	MimicCrafter: {
+		Tooltip: Used to craft Mimic drops
+		DisplayName: Ruby Chain
+	}
+
+	MartianMadnessCrafter: {
+		Tooltip: Used to craft Martian Madness drops
+		DisplayName: Martian Battery
+	}
+
+	KingSlimeCrafter: {
+		Tooltip: Used to craft most King Slime drops
+		DisplayName: Slimy Trinket
+	}
+
+	IceMimicCrafter: {
+		Tooltip: Used to craft Ice Mimic drops
+		DisplayName: Ice Chain
+	}
+
+	HallowedMimicCrafter: {
+		Tooltip: Used to craft Hallowed Mimic drops
+		DisplayName: Hallowed Chain
+	}
+
+	GolemCrafter: {
+		Tooltip: Used to craft Golem drops
+		DisplayName: Drained Power Cell
+	}
+
+	FrostLegionCrafter: {
+		Tooltip: Used to craft Frost Legion drops
+		DisplayName: Festive Branch
+	}
+
+	VeilFragment: {
+		Tooltip:
+			'''
+			'An ancient star's breath flows from this fragment'
+			[c/0080FF:Drops from the Solar Pillar]
+			'''
+		DisplayName: Veil Fragment
+	}
+
+	StellarwindFragment: {
+		Tooltip:
+			'''
+			'Airy noises flow from this fragment.'
+			[c/0080FF:Drops from the Nebula Pillar]
+			'''
+		DisplayName: Stellarwind Fragment
+	}
+
+	PulsarFragment: {
+		Tooltip:
+			'''
+			'This fragment spins incredibly fast'
+			[c/0080FF:Drops from the Stardust Pillar]
+			'''
+		DisplayName: Pulsar Fragment
+	}
+
+	GravityFragment: {
+		Tooltip:
+			'''
+			'The force holding the cosmos together flows from this fragment'
+			[c/0080FF:Drops from the Vortex Pillar]
+			'''
+		DisplayName: Gravity Fragment
+	}
+
+	BrownDwarfFragment: {
+		Tooltip:
+			'''
+			'A fragment of a failed star, awaiting redemption'
+			[c/0080FF:Drops from any celesital pillar]
+			'''
+		DisplayName: Brown Dwarf Fragment
+	}
+
+	EyeofCthulhuCrafter: {
+		Tooltip: Used to craft Eye of Cthulhu weapon drops
+		DisplayName: Milky Whites
+	}
+
+	EnchantedCrafter: {
+		Tooltip:
+			'''
+			Used to craft Enchanted weapons, excluding the Enchanted Sword & Enchanted Boomerang
+			Not for wearing
+			'''
+		DisplayName: Enchanted Medallion
+	}
+
+	EmpressofLightCrafter: {
+		Tooltip: Used to craft most Empress of Light drops
+		DisplayName: Prismatic Scales
+	}
+
+	DukeFishronCrafter: {
+		Tooltip: Used to craft Duke Fishron drops
+		DisplayName: Fishron Spines
+	}
+
+	DeerclopsCrafter: {
+		Tooltip:
+			'''
+			Used to craft most Deerclops drops
+			And rubies?
+			'''
+		DisplayName: Red Deerclops Eyeball
+	}
+
+	CrimsonMimicCrafter: {
+		Tooltip: Used to craft Crimson Mimic drops
+		DisplayName: Crimson Chain
+	}
+
+	CrimsonHeartCrafter: {
+		Tooltip: Used to craft Crimson Heart loot drops
+		DisplayName: Tangled Vein
+	}
+
+	CorruptionMimicCrafter: {
+		Tooltip: Used to craft Corruption Mimic drops
+		DisplayName: Corrupted Chain
+	}
+
+	UncommonCore: {
+		Tooltip: "[c/0080FF:Drops from Deerclops & Skeletron]"
+		DisplayName: Uncommon Core
+	}
+
+	RelicCore: {
+		Tooltip: "[c/0080FF:Drops from the Moon Lord]"
+		DisplayName: Relic Core
+	}
+
+	RareCore: {
+		Tooltip: "[c/0080FF:Drops from Queen Slime]"
+		DisplayName: Rare Core
+	}
+
+	LegendaryCore: {
+		Tooltip: "[c/0080FF:Drops from Golem]"
+		DisplayName: Legendary Core
+	}
+
+	EpicCore: {
+		Tooltip: "[c/0080FF:Drops from any vanilla mechanical boss]"
+		DisplayName: Epic Core
+	}
+
+	CommonCore: {
+		Tooltip: "[c/0080FF:Drops from King Slime & Eye of Cthulhu]"
+		DisplayName: Common Core
+	}
+
+	WebCoveredChestCrafter: {
+		Tooltip: Used to craft Web Covered Chest unique loot
+		DisplayName: Baby Web Covered Chest
+	}
+
+	WaterChestCrafter: {
+		Tooltip: Used to craft Water Chest unique loot
+		DisplayName: Baby Water Chest
+	}
+
+	SkywareChestCrafter: {
+		Tooltip: Used to craft Skyware Chest unique loot
+		DisplayName: Baby Skyware Chest
+	}
+
+	ShadowChestCrafter: {
+		Tooltip: Used to craft Shadow Chest unique loot
+		DisplayName: Baby Shadow Chest
+	}
+
+	SandstoneChestCrafter: {
+		Tooltip: Used to craft Sandstone Chest unique loot
+		DisplayName: Baby Sandstone Chest
+	}
+
+	MushroomChestCrafter: {
+		Tooltip: Used to craft Mushroom Chest unique loot
+		DisplayName: Baby Mushroom Chest
+	}
+
+	MarbleChestCrafter: {
+		Tooltip: Used to craft Marble Chest unique loot
+		DisplayName: Baby Marble Chest
+	}
+
+	LivingWoodChestCrafter: {
+		Tooltip: Used to craft Living Wood Chest unique loot
+		DisplayName: Baby Living Wood Chest
+	}
+
+	LihzardChestCrafter: {
+		Tooltip:
+			'''
+			Used to craft Lihzard Chest unique loot
+			[c/FF0000:Requires Plantera to be defeated to be usable]
+			'''
+		DisplayName: Baby Lihzard Chest
+	}
+
+	IvyChestCrafter: {
+		Tooltip: Used to craft Ivy Chest unique loot
+		DisplayName: Baby Ivy Chest
+	}
+
+	GraniteChestCrafter: {
+		Tooltip: Used to craft Granite Chest unique loot
+		DisplayName: Baby Granite Chest
+	}
+
+	GoldenChestCrafter: {
+		Tooltip: Used to craft Golden Chest unique loot
+		DisplayName: Baby Golden Chest
+	}
+
+	FrozenChestCrafter: {
+		Tooltip: Used to craft Frozen Chest unique loot
+		DisplayName: Baby Frozen Chest
+	}
+
+	DungeonChestCrafter: {
+		Tooltip: 2 used to craft most Dungeon loot
+		DisplayName: Ancient Cobalt Bar
+	}
+
+	ChestCrafter: {
+		Tooltip: 3 used to craft surface Chest unique loot
+		DisplayName: Baby Chest
+	}
+
+	BlankEmblem: {
+		Tooltip: Used to craft damage emblems
+		DisplayName: Blank Emblem
+	}
+
+	BetsyCrafter: {
+		Tooltip: Used to craft Betsy drops
+		DisplayName: Fire Gland
+	}
+
+	GuideTrickster: {
+		Tooltip: ""
+		DisplayName: Trickster Beginner's Guide
+	}
+
+	GuideMinstrel: {
+		Tooltip: ""
+		DisplayName: Minstrel Beginner's Guide
+	}
+
+	GuideEsper: {
+		Tooltip: ""
+		DisplayName: Esper Beginner's Guide
+	}
+
+	GuideDefender: {
+		Tooltip: ""
+		DisplayName: Defender Beginner's Guide
+	}
+
+	GuideCerebral: {
+		Tooltip: ""
+		DisplayName: Cerebral Mod Beginner's Guide
+	}
+
+	UnlimitedWillPotion: {
+		Tooltip:
+			'''
+			+20% telekinetic damage
+			Never will your will falter
+			'''
+		DisplayName: Unlimited Will Potion
+	}
+
+	UnlimitedVortexPotion: {
+		Tooltip:
+			'''
+			Multiples ranged damage by 20%
+			'The [c/FFFF00:perception] of the cosmos'
+			'''
+		DisplayName: Unlimited Vortex Potion
+	}
+
+	UnlimitedVeilPotion: {
+		Tooltip:
+			'''
+			Multiples throwing damage by 20%
+			'The [c/00FF00:agility] of the cosmos'
+			'''
+		DisplayName: Unlimited Veil Potion
+	}
+
+	UnlimitedTelekineticBuffs: {
+		Tooltip:
+			'''
+			+20% telekinetic damage
+			+12% telekinetic crit chance
+			+30% telekinetic velocity
+			You embody mind over matter
+			'''
+		DisplayName: Unlimited Telekinetic Buffs
+	}
+
+	UnlimitedStellarwindPotion: {
+		Tooltip:
+			'''
+			Multiples melodic damage by 20%
+			'The [c/00FFFF:talent] of the cosmos'
+			'''
+		DisplayName: Unlimited Stellarwind Potion
+	}
+
+	UnlimitedStardustPotion: {
+		Tooltip:
+			'''
+			Multiples minion damage by 20%
+			'The [c/A500FF:empathy] of the cosmos'
+			'''
+		DisplayName: Unlimited Stardust Potion
+	}
+
+	UnlimitedSolarPotion: {
+		Tooltip:
+			'''
+			Multiples melee damage by 20%
+			'The [c/FF0000:strength] of the cosmos'
+			'''
+		DisplayName: Unlimited Solar Potion
+	}
+
+	UnlimitedSentryPotion: {
+		Tooltip:
+			'''
+			+1 sentry slot
+			Have an extra helper with you
+			'''
+		DisplayName: Unlimited Sentry Potion
+	}
+
+	UnlimitedSentryBuffs: {
+		Tooltip:
+			'''
+			+15% sentry crit chance
+			+1 sentry slot
+			Just let them try to get pass you
+			'''
+		DisplayName: Unlimited Sentry Buffs
+	}
+
+	UnlimitedPulsarPotion: {
+		Tooltip:
+			'''
+			Multiples sentry damage by 20%
+			'The [c/FFA500:ingenuity] of the cosmos'
+			'''
+		DisplayName: Unlimited Pulsar Potion
+	}
+
+	UnlimitedPulsarBuffs: {
+		Tooltip:
+			'''
+			+15% sentry crit chance
+			+1 sentry slot
+			Multiples sentry damage by 20%
+			Full engineering power
+			'''
+		DisplayName: Unlimited Pulsar Buffs
+	}
+
+	UnlimitedNebulaPotion: {
+		Tooltip:
+			'''
+			Multiples magic damage by 20%
+			'The [c/0000FF:intelligence] of the cosmos'
+			'''
+		DisplayName: Unlimited Nebula Potion
+	}
+
+	UnlimitedGravityPotion: {
+		Tooltip:
+			'''
+			Multiples telekinetic damage by 20%
+			'The [c/FF00A5:ego] of the cosmos'
+			'''
+		DisplayName: Unlimited Gravity Potion
+	}
+
+	UnlimitedFocusPotion: {
+		Tooltip:
+			'''
+			+12% telekinetic crit chance
+			Your focus stays on point
+			'''
+		DisplayName: Unlimited Focus Potion
+	}
+
+	UnlimitedEsperBuffs: {
+		Tooltip:
+			'''
+			+20% telekinetic damage
+			+12% telekinetic crit chance
+			+30% telekinetic velocity
+			Multiples telekinetic damage by 20%
+			The Moon Lord's brain doesn't compare to yours
+			'''
+		DisplayName: Unlimited Esper Buffs
+	}
+
+	UnlimitedEngineerToolkit: {
+		Tooltip:
+			'''
+			+50% tile & wall placement speed
+			+3 tile placement range
+			Now works just by being in your inventory
+			'''
+		DisplayName: Unlimited Engineer Toolkit
+	}
+
+	UnlimitedDefenderPotion: {
+		Tooltip:
+			'''
+			+15 % sentry crit chance
+			You built your sentries well
+			'''
+		DisplayName: Unlimited Defender Potion
+	}
+
+	UnlimitedAlertnessPotion: {
+		Tooltip:
+			'''
+			+30% telekinetic velocity
+			Always stay alert
+			'''
+		DisplayName: Unlimited Alertness Potion
+	}
+
+	TitaniumHeadThrowing: {
+		Tooltip:
+			'''
+			+16% throwing damage
+			+30% throwing velocity
+			'''
+		DisplayName: Titanium Cowl
+	}
+
+	PalladiumHeadThrowing: {
+		Tooltip:
+			'''
+			+9% throwing damage
+			+20% throwing velocity
+			'''
+		DisplayName: Palladium Cowl
+	}
+
+	OrichalcumHeadThrowing: {
+		Tooltip:
+			'''
+			+10% throwing damage
+			+25% throwing velocity
+			'''
+		DisplayName: Orichalcum Cowl
+	}
+
+	MythrilHeadThrowing: {
+		Tooltip:
+			'''
+			+12% throwing damage
+			+25% throwing velocity
+			'''
+		DisplayName: Mythril Cowl
+	}
+
+	HallowedHeadThrowing: {
+		Tooltip:
+			'''
+			+15% throwing damage
+			+35% throwing velocity
+			'''
+		DisplayName: Ancient Hallowed Cowl
+	}
+
+	CobaltHeadThrowing: {
+		Tooltip:
+			'''
+			+10% throwing damage
+			+20% throwing velocity
+			'''
+		DisplayName: Cobalt Cowl
+	}
+
+	ChlorophyteHeadThrowing: {
+		Tooltip:
+			'''
+			+22% throwing damage
+			+12% throwing critical chance
+			+35% throwing velocity
+			'''
+		DisplayName: Chlorophyte Cowl
+	}
+
+	AdamantiteHeadThrowing: {
+		Tooltip:
+			'''
+			+14% throwing damage
+			+30% throwing velocity
+			'''
+		DisplayName: Adamantite Cowl
+	}
+
+	TitaniumHeadSummon: {
+		Tooltip:
+			'''
+			+16% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Titanium Crown
+	}
+
+	PalladiumHeadSummon: {
+		Tooltip:
+			'''
+			+12% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Palladium Crown
+	}
+
+	OrichalcumHeadSummon: {
+		Tooltip:
+			'''
+			+14% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Orichalcum Crown
+	}
+
+	MythrilHeadSummon: {
+		Tooltip:
+			'''
+			+12% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Mythril Crown
+	}
+
+	CobaltHeadSummon: {
+		Tooltip:
+			'''
+			+9% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Cobalt Crown
+	}
+
+	ChlorophyteHeadSummon: {
+		Tooltip:
+			'''
+			+16% summon damage and knockback
+			+3 minion slots
+			'''
+		DisplayName: Chlorophyte Crown
+	}
+
+	AdamantiteHeadSummon: {
+		Tooltip:
+			'''
+			+15% summon damage and knockback
+			+2 minion slots
+			'''
+		DisplayName: Adamantite Crown
+	}
+
+	GenjiHelmMinstrel: {
+		Tooltip:
+			'''
+			+60% melodic damage
+			+10 max combo bonus
+			'''
+		DisplayName: Cyan Genji Helm
+	}
+
+	GenjiArmorMinstrel: {
+		Tooltip:
+			'''
+			+25% tempo
+			+225 max life
+			'''
+		DisplayName: Cyan Genji Armor
+	}
+
+	WyvernLegs: {
+		Tooltip: +12% throwing & telekinetic critical chance
+		DisplayName: Wyvern Scale Greaves
+	}
+
+	WyvernHead: {
+		Tooltip: +18% throwing & telekinetic damage
+		DisplayName: Wyvern Feather Cowl
+	}
+
+	WyvernBody: {
+		Tooltip: +30% throwing & telekinetic velocity
+		DisplayName: Wyvern Scale Vest
+	}
+
+	TaurusLegs: {
+		Tooltip: +15% telekinetic critical chance
+		DisplayName: Taurus Greaves
+	}
+
+	TaurusHead: {
+		Tooltip: +20% telekinetic damage
+		DisplayName: Taurus Helmet
+	}
+
+	TaurusBody: {
+		Tooltip: +30% telekinetic velocity
+		DisplayName: Taurus Chestplate
+	}
+
+	DesertWandererLegs: {
+		Tooltip: +10% telekinetic critical chance
+		DisplayName: Desert Wanderer Boots
+	}
+
+	DesertWandererHead: {
+		Tooltip: +15% telekinetic damage
+		DisplayName: Desert Wanderer Hood
+	}
+
+	DesertWandererBody: {
+		Tooltip: +20% telekinetic velocity
+		DisplayName: Desert Wanderer Robe
+	}
+
+	CambrianLegs: {
+		Tooltip: +12% telekinetic critical strike chance
+		DisplayName: Cambrian Greaves
+	}
+
+	CambrianHead: {
+		Tooltip: +18% telekinetic damage
+		DisplayName: Cambrian Helmet
+	}
+
+	CambrianBody: {
+		Tooltip: +25% telekinetic velocity
+		DisplayName: Cambrian Chestplate
+	}
+
+	GravityLegs: {
+		Tooltip:
+			'''
+			+15% telekinetic damage
+			+20% movement speed
+			'''
+		DisplayName: Gravity Leggings
+	}
+
+	GravityHead: {
+		Tooltip:
+			'''
+			+15% telekinetic damage
+			+15% telekinetic critical chance
+			'''
+		DisplayName: Gravity Helmet
+	}
+
+	GravityBody: {
+		Tooltip:
+			'''
+			+50% telekinetic velocity
+			+15% telekinetic damage
+			'''
+		DisplayName: Gravity Robe
+	}
+
+	GenjiHelmEsper: {
+		Tooltip:
+			'''
+			+60% telekinetic damage
+			+15 max psychosis
+			'''
+		DisplayName: Pink Genji Helm
+	}
+
+	GenjiArmorEsper: {
+		Tooltip:
+			'''
+			+25% telekinetic critical chance
+			+150 max life
+			'''
+		DisplayName: Pink Genji Armor
+	}
+
+	TitaniumHeadTelekinetic: {
+		Tooltip:
+			'''
+			+22% telekinetic damage
+			+15% telekinetic critical chance
+			'''
+		DisplayName: Titanium Headwrap
+	}
+
+	PalladiumHeadTelekinetic: {
+		Tooltip:
+			'''
+			+16% telekinetic damage
+			+11% telekinetic critical chance
+			'''
+		DisplayName: Palladium Headwrap
+	}
+
+	OrichalcumHeadTelekinetic: {
+		Tooltip:
+			'''
+			+19% telekinetic damage
+			+13% telekinetic critical chance
+			'''
+		DisplayName: Orichalcum Headwrap
+	}
+
+	MythrilHeadTelekinetic: {
+		Tooltip:
+			'''
+			+18% telekinetic damage
+			+12% telekinetic critical chance
+			'''
+		DisplayName: Mythril Headwrap
+	}
+
+	LihzahrdSolarLegs: {
+		Tooltip:
+			'''
+			+12% telekinetic critical chance
+			+15% movement speed
+			'''
+		DisplayName: Lihzahrd Solar Greaves
+	}
+
+	LihzahrdSolarHead: {
+		Tooltip: +25% telekinetic damage
+		DisplayName: Lihzahrd Solar Mask
+	}
+
+	LihzahrdSolarBody: {
+		Tooltip: +40% telekinetic velocity
+		DisplayName: Lihzahrd Solar Chestplate
+	}
+
+	HallowedHeadTelekinetic: {
+		Tooltip:
+			'''
+			+24% telekinetic damage
+			+16% telekinetic critical chance
+			'''
+		DisplayName: Ancient Hallowed Headwrap
+	}
+
+	TitanHeadTelekinetic: {
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			+6 max psychosis
+			+60% psychosis recovery
+			20% telekinetic velocity
+			'''
+		DisplayName: Titan Headwrap
+	}
+
+	CobaltHeadTelekinetic: {
+		Tooltip:
+			'''
+			+15% telekinetic damage
+			+10% telekinetic critical chance
+			'''
+		DisplayName: Cobalt Headwrap
+	}
+
+	ChlorophyteHeadTelekinetic: {
+		Tooltip:
+			'''
+			+16% telekinetic damage
+			+20% telekinetic critical chance
+			+10 max psychosis
+			'''
+		DisplayName: Chlorophyte Headwrap
+	}
+
+	AdamantiteHeadTelekinetic: {
+		Tooltip:
+			'''
+			+21% telekinetic damage
+			+14% telekinetic critical chance
+			'''
+		DisplayName: Adamantite Headwrap
+	}
+
+	SkyLegs: {
+		Tooltip: +5% sentry damage
+		DisplayName: Sky Leggings
+	}
+
+	SkyHead: {
+		Tooltip: +5% sentry damage
+		DisplayName: Sky Helmet
+	}
+
+	SkyBody: {
+		Tooltip: +5% sentry damage
+		DisplayName: Sky Breastplate
+	}
+
+	FrozenLegs: {
+		Tooltip: +4% sentry damage
+		DisplayName: Frozen Leggings
+	}
+
+	FrozenHead: {
+		Tooltip: +4% sentry damage
+		DisplayName: Frozen Helmet
+	}
+
+	FrozenBody: {
+		Tooltip: +4% sentry damage
+		DisplayName: Frozen Breastplate
+	}
+
+	EngineeringLegs: {
+		Tooltip:
+			'''
+			5% increased sentry speed
+			5% increased turret range
+			Purchasable from the Mechanic
+			'''
+		DisplayName: Engineering Pants
+	}
+
+	EngineeringBodyYellow: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by the Kratocracy of Australia'
+			'''
+		DisplayName: Engineering Shirt (YLO)
+	}
+
+	EngineeringBodyRed: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by Redmond Mann, CEO of Reliable Excavation Demolition'
+			'''
+		DisplayName: Engineering Shirt (RED)
+	}
+
+	EngineeringBodyPink: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by Pinkamena Diane Pie, CEO of Pinkie Party Plaza, inc.'
+			'''
+		DisplayName: Engineering Shirt (PNK)
+	}
+
+	EngineeringBodyGreen: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by Olivia Mann, CEO of Mann Co.'
+			'''
+		DisplayName: Engineering Shirt (GRN)
+	}
+
+	EngineeringBodyBlue: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by Blutarch Mann, CEO of Builders League United'
+			'''
+		DisplayName: Engineering Shirt (BLU)
+	}
+
+	EngineeringBody: {
+		Tooltip:
+			'''
+			10% increased sentry speed
+			10% increased turret range
+			+1 sentry slot
+			'Hired by Gray Mann, CEO of Gray Gravel Co.'
+			Purchasable from the Mechanic
+			'''
+		DisplayName: Engineering Shirt (GRA)
+	}
+
+	PulsarLegs: {
+		Tooltip:
+			'''
+			+25% sentry damage
+			+1 sentry slot
+			'''
+		DisplayName: Pulsar Leggings
+	}
+
+	PulsarHead: {
+		Tooltip:
+			'''
+			+25% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Pulsar Helmet
+	}
+
+	PulsarBody: {
+		Tooltip:
+			'''
+			+25% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Pulsar Breastplate
+	}
+
+	GenjiHelmSentry: {
+		Tooltip:
+			'''
+			+80% sentry damage
+			+3 sentry slots
+			'''
+		DisplayName: Orange Genji Helm
+	}
+
+	GenjiArmorSentry: {
+		Tooltip:
+			'''
+			+5 sentry slots
+			+250 max life
+			'''
+		DisplayName: Orange Genji Armor
+	}
+
+	TitaniumHeadSentry: {
+		Tooltip:
+			'''
+			+16% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Titanium Hardhat
+	}
+
+	PalladiumHeadSentry: {
+		Tooltip:
+			'''
+			+12% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Palladium Hardhat
+	}
+
+	OrichalcumHeadSentry: {
+		Tooltip:
+			'''
+			+14% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Orichalcum Hardhat
+	}
+
+	MythrilHeadSentry: {
+		Tooltip:
+			'''
+			+12% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Mythril Hardhat
+	}
+
+	HallowedHeadSentry: {
+		Tooltip:
+			'''
+			+18% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Ancient Hallowed Hardhat
+	}
+
+	TitanHeadSentry: {
+		Tooltip:
+			'''
+			'Infused with primordial energy'
+			10% increased sentry speed
+			20% increased turret range
+			2+ sentry slots
+			'''
+		DisplayName: Titan Hardhat
+	}
+
+	CobaltHeadSentry: {
+		Tooltip:
+			'''
+			+9% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Cobalt Hardhat
+	}
+
+	ChlorophyteHeadSentry: {
+		Tooltip:
+			'''
+			+16% sentry damage
+			+3 sentry slots
+			'''
+		DisplayName: Chlorophyte Hardhat
+	}
+
+	AdamantiteHeadSentry: {
+		Tooltip:
+			'''
+			+15% sentry damage
+			+2 sentry slots
+			'''
+		DisplayName: Adamantite Hardhat
+	}
+
+	TitaniumHeadMixed: {
+		Tooltip:
+			'''
+			10% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Titanium Visor
+	}
+
+	PalladiumHeadMixed: {
+		Tooltip:
+			'''
+			7% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Palladium Visor
+	}
+
+	OrichalcumHeadMixed: {
+		Tooltip:
+			'''
+			9% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Orichalcum Visor
+	}
+
+	MythrilHeadMixed: {
+		Tooltip:
+			'''
+			8% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Mythril Visor
+	}
+
+	HallowedHeadMixed: {
+		Tooltip:
+			'''
+			12% increased damage
+			+2 minion and sentry slots
+			'''
+		DisplayName: Ancient Hallowed Visor
+	}
+
+	CobaltHeadMixed: {
+		Tooltip:
+			'''
+			6% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Cobalt Visor
+	}
+
+	ChlorophyteHeadMixed: {
+		Tooltip:
+			'''
+			12% increased damage
+			+2 minion and sentry slots
+			'''
+		DisplayName: Chlorophyte Visor
+	}
+
+	AdamantiteHeadMixed: {
+		Tooltip:
+			'''
+			9% increased damage
+			+1 minion and sentry slots
+			'''
+		DisplayName: Adamantite Visor
+	}
+
+	VeilEmblem: {
+		Tooltip: 25% increased throwing damage
+		DisplayName: Veil Emblem
+	}
+
+	TricksterEmblem: {
+		Tooltip: 15% increased throwing damage
+		DisplayName: Trickster Emblem
+	}
+
+	StardustEmblem: {
+		Tooltip: 25% increased summon damage
+		DisplayName: Stardust Emblem
+	}
+
+	VortexEmblem: {
+		Tooltip: 25% increased ranged damage
+		DisplayName: Vortex Emblem
+	}
+
+	StellarwindEmblem: {
+		Tooltip: 25% increased melodic damage
+		DisplayName: Stellarwind Emblem
+	}
+
+	MinstrelEmblem: {
+		Tooltip: 15% increased melodic damage
+		DisplayName: Minstrel Emblem
+	}
+
+	SolarEmblem: {
+		Tooltip: 25% increased melee damage
+		DisplayName: Solar Emblem
+	}
+
+	NebulaEmblem: {
+		Tooltip: 25% increased magic damage
+		DisplayName: Nebula Emblem
+	}
+
+	PoisonVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with toxikinesis, enabling a chance to cause 'Poisoned' on hit
+		DisplayName: Poison Vial Necklace
+	}
+
+	NightRune: {
+		Tooltip: +6 max psychosis
+		DisplayName: Night Rune
+	}
+
+	NightOrbNecklace: {
+		Tooltip: +10% chance to TK dodge attacks
+		DisplayName: Night Orb Necklace
+	}
+
+	NightIChing: {
+		Tooltip: +60% psychosis recovery
+		DisplayName: Night I-Ching
+	}
+
+	NightCharmNecklace: {
+		Tooltip:
+			'''
+			+6 max psychosis
+			+60% psychosis recovery
+			+10% chance to TK dodge attacks
+			'''
+		DisplayName: Night Charm Necklace
+	}
+
+	FrostVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with cryokinesis, enabling a chance to cause 'Frostburn' on hit
+		DisplayName: Frost Vial Necklace
+	}
+
+	FireVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with pyrokinesis, enabling a chance to cause 'On Fire!' on hit
+		DisplayName: Fire Vial Necklace
+	}
+
+	EnchantedRune: {
+		Tooltip: +3 max psychosis
+		DisplayName: Enchanted Rune
+	}
+
+	EnchantedOrbNecklace: {
+		Tooltip: +5% chance to TK dodge attacks
+		DisplayName: Enchanted Orb Necklace
+	}
+
+	EnchantedIChing: {
+		Tooltip: +30% psychosis recovery
+		DisplayName: Enchanted I-Ching
+	}
+
+	EnchantedCharmNecklace: {
+		Tooltip:
+			'''
+			+3 max psychosis
+			+30% psychosis recovery
+			+5% chance to TK dodge attacks
+			'''
+		DisplayName: Enchanted Charm Necklace
+	}
+
+	TaurusEnchantment: {
+		Tooltip:
+			'''
+			Enables Psi Dashing.
+			Double tap a cardinal direction to dash that way.
+			Gain 20 immunity frames during the dash.
+			Costs 5 psychosis to use
+			Take 20 damage if used during Psyched Out state
+			'Give them the bull!'
+			'''
+		DisplayName: Taurus Enchantment
+	}
+
+	DesertWandererEnchantment: {
+		Tooltip:
+			'''
+			25% less life drained while using Esper weapons in Over Psychosis state
+			Immunity to 'Mighty Wind'
+			'Hello there'
+			'''
+		DisplayName: Desert Wanderer Enchantment
+	}
+
+	CambrianEnchantment: {
+		Tooltip:
+			'''
+			Free movement in liquid
+			Esper projectiles no longer slower in liquid
+			'She sells seashells by the seashore'
+			'''
+		DisplayName: Cambrian Enchantment
+	}
+
+	GravityWings: {
+		Tooltip:
+			'''
+			Allows flight & slow fall
+			Hold DOWN & JUMP to hover
+			Uses psychosis to stay afloat upon running out of flight time
+			'''
+		DisplayName: Gravity Barrier Platform
+	}
+
+	GravityRune: {
+		Tooltip: +15 max psychosis
+		DisplayName: Gravity Rune
+	}
+
+	GravityOrbNecklace: {
+		Tooltip: +25% chance to TK dodge attacks
+		DisplayName: Gravity Orb Necklace
+	}
+
+	GravityIChing: {
+		Tooltip: +150% psychosis recovery
+		DisplayName: Gravity I-Ching
+	}
+
+	GravityEmblem: {
+		Tooltip: 25% increased telekinetic damage
+		DisplayName: Gravity Emblem
+	}
+
+	GravityCharm: {
+		Tooltip:
+			'''
+			+2 life regen
+			-25% healing potions cooldown
+			+8% telekinetic damage
+			+5 max psychosis
+			'''
+		DisplayName: Gravity Charm
+	}
+
+	GravityCharmNecklace: {
+		Tooltip:
+			'''
+			+15 max psychosis
+			+150% psychosis recovery
+			+25% chance to TK dodge attacks
+			'''
+		DisplayName: Gravity Charm Necklace
+	}
+
+	GravityEnchantment: {
+		Tooltip:
+			'''
+			Double tap DOWN to summon a gravity field to suck in enemies
+			Increases flight time while inside
+			'Up, down, left, right it's all the same to you'
+			'''
+		DisplayName: Gravity Enchantment
+	}
+
+	ForceofMind: {
+		Tooltip:
+			'''
+
+			[i:{ModContent.ItemType<DesertWandererEnchantment>()}] 25% less life drained while using Esper weapons in Over Psychosis state and immunity to 'Mighty Wind'
+			[i:{ModContent.ItemType<CambrianEnchantment>()}] Free movement in liquid and Esper projectiles no longer slower in liquid
+			[i:{ModContent.ItemType<TaurusEnchantment>()}] Enables Psi Dashing
+			[i:{ModContent.ItemType<WyvernEnchantment>()}] 50% increased wings time
+			[i:ItemType<LihzahrdSolarEnchantment>() Increases telekinetic damage when spending psychosis (and causes explosion after enough build up)
+			[i:GravityEnchantment] Double tap DOWN to summon a gravity field to suck in enemies
+			'Blessings of the mind upon the wearer'
+			'''
+		DisplayName: Force of Mind
+	}
+
+	VenomVialNecklace: {
+		Tooltip:
+			'''
+			Enchants telekinetic attacks with venokinesis, enabling a chance to cause 'Venom' on hit
+			Purchasable from the Witch Doctor after Planetera is defeated
+			'''
+		DisplayName: Venom Vial Necklace
+	}
+
+	TerraVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with a lot of kinesis, enabling a chance to cause many debuffs on hit
+		DisplayName: Terra Vial Necklace
+	}
+
+	TerraCharmNecklace: {
+		Tooltip:
+			'''
+			+12 max psychosis
+			+120% psychosis recovery
+			+20% chance to TK dodge attacks
+			'''
+		DisplayName: Terra Charm Necklace
+	}
+
+	SpectreIChing: {
+		Tooltip: +120% psychosis recovery
+		DisplayName: Spectre I-Ching
+	}
+
+	ShroomiteOrbNecklace: {
+		Tooltip: +20% chance to TK dodge attacks
+		DisplayName: Shroomite Orb Necklace
+	}
+
+	ShadowflameVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with umbra-pyrokinesis, enabling a chance to cause 'Shadowflame' on hit
+		DisplayName: Shadowflame Vial Necklace
+	}
+
+	MysticalEyeglass: {
+		Tooltip:
+			'''
+			Allows zooming with right click while holding a TK weapon
+			Purchasable from the Wizard
+			'''
+		DisplayName: Mystical Eyeglass
+	}
+
+	MidasVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with aurokinesis, enabling a chance to cause 'Midas' on hit
+		DisplayName: Midas Vial Necklace
+	}
+
+	IchorVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with hemokinesis, enabling a chance to cause 'Ichor' on hit
+		DisplayName: Ichor Vial Necklace
+	}
+
+	HallowedRune: {
+		Tooltip: +9 max psychosis
+		DisplayName: Hallowed Rune
+	}
+
+	HallowedOrbNecklace: {
+		Tooltip: +15% chance to TK dodge attacks
+		DisplayName: Hallowed Orb Necklace
+	}
+
+	HallowedIChing: {
+		Tooltip: +90% psychosis recovery
+		DisplayName: Hallowed I-Ching
+	}
+
+	HallowedCharmNecklace: {
+		Tooltip:
+			'''
+			+9 max psychosis
+			+90% psychosis recovery
+			+15% chance to TK dodge attacks
+			'''
+		DisplayName: Hallowed Charm Necklace
+	}
+
+	ExtravagantEyeglass: {
+		Tooltip:
+			'''
+			Allows zooming with right click while holding a TK weapon
+			15% increased telekinetic damage
+			Hide accessory visual to disable zooming, while keeping the damage
+			'''
+		DisplayName: Extravagant Eyeglass
+	}
+
+	EsperEmblem: {
+		Tooltip: 15% increased telekinetic damage
+		DisplayName: Esper Emblem
+	}
+
+	CursedFlamesVialNecklace: {
+		Tooltip: Enchants telekinetic attacks with chlorokinesis, enabling a chance to cause 'Cursed Inferno' on hit
+		DisplayName: Cursed Flames Vial Necklace
+	}
+
+	WyvernEnchantment: {
+		Tooltip:
+			'''
+			50% increased wings time
+			'Made from a creature who creates ghost towns'
+			'''
+		DisplayName: Wyvern Enchantment
+	}
+
+	LihzahrdSolarEnchantment: {
+		Tooltip:
+			'''
+			Increases telekinetic damage when spending psychosis
+			Causes an explosion at weapon after enough time & resets the bonus
+			'One of the Lihzahrd secrets, yours to use'
+			'''
+		DisplayName: Lihzahrd Solar Enchantment
+	}
+
+	BeetleRune: {
+		Tooltip: +12 max psychosis
+		DisplayName: Beetle Rune
+	}
+
+	NightToolkit: {
+		Tooltip:
+			'''
+			+10% sentry speed
+			+20% turret range
+			+2 ingenuity
+			'''
+		DisplayName: Night Toolkit
+	}
+
+	NightScope: {
+		Tooltip: +20% turret range
+		DisplayName: Night Scope
+	}
+
+	NightGears: {
+		Tooltip: +10% sentry speed
+		DisplayName: Night Gears
+	}
+
+	FeatherMagLev: {
+		Tooltip:
+			'''
+			Cerebral Mod traps (but not turrets) float when placed
+			No need to use for naturally floating traps
+			'''
+		DisplayName: Feather Mag-Lev
+	}
+
+	EnchantedToolkit: {
+		Tooltip:
+			'''
+			+5% sentry speed
+			+10% turret range
+			+1 ingenuity
+			'''
+		DisplayName: Enchanted Toolkit
+	}
+
+	EnchantedScope: {
+		Tooltip: +10% turret range
+		DisplayName: Enchanted Scope
+	}
+
+	EnchantedGears: {
+		Tooltip: +5% sentry speed
+		DisplayName: Enchanted Gears
+	}
+
+	EnchantedChip: {
+		Tooltip: +1 sentry slot
+		DisplayName: Enchanted Chip
+	}
+
+	SkyEnchantment: {
+		Tooltip:
+			'''
+			Negates Fall Damage
+			Hold jump to slow fall when not rising
+			'Look to the skies & build powerful gear'
+			'''
+		DisplayName: Sky Enchantment
+	}
+
+	FrozenEnchantment: {
+		Tooltip:
+			'''
+			Immunity to 'Chilled' & 'Frozen'
+			'From the cold comes inspiration'
+			'''
+		DisplayName: Frozen Enchantment
+	}
+
+	EngineerEnchantment: {
+		Tooltip:
+			'''
+			Cerebral Mod turrets (but not traps) float when placed
+			Ingenuity recovers twice as fast
+			'In a magic filled world, you make tech work'
+			'''
+		DisplayName: Engineer Enchantment
+	}
+
+	PulsarToolkit: {
+		Tooltip:
+			'''
+			+25% sentry speed
+			+50% turret range
+			+5 ingenuity
+			Can place sentries through solid tiles
+			'''
+		DisplayName: Pulsar Toolkit
+	}
+
+	PulsarScope: {
+		Tooltip: +50% turret range
+		DisplayName: Pulsar Scope
+	}
+
+	PulsarJetpack: {
+		Tooltip:
+			'''
+			Allows flight & slow fall
+			Hold UP to rocket faster
+			'''
+		DisplayName: Pulsar Jetpack
+	}
+
+	PulsarGears: {
+		Tooltip: +25% sentry speed
+		DisplayName: Pulsar Gears
+	}
+
+	PulsarEmblem: {
+		Tooltip: 25% increased sentry damage
+		DisplayName: Pulsar Emblem
+	}
+
+	PulsarChip: {
+		Tooltip:
+			'''
+			+3 sentry slots
+			+100% sentry knockback
+			'''
+		DisplayName: Pulsar Chip
+	}
+
+	PulsarEnchantment: {
+		Tooltip:
+			'''
+			Summons a turret above the player to shoot at nearby enemies
+			'Engineering powered by the stars'
+			'''
+		DisplayName: Pulsar Enchantment
+	}
+
+	ForceofInnovation: {
+		Tooltip:
+			'''
+
+			[i:{ModContent.ItemType<FrozenBody>()}] Immunity to 'Chilled' & 'Frozen'
+			[i:5263] Negates Fall Damage. Hold jump to slow fall when not rising
+			[i:5261] Ingenuity recovers twice as fast
+			[i:5254] Summons a turret above the player to shoot at nearby enemies
+			'Masterclass Engineer'
+			'''
+		DisplayName: Force of Innovation
+	}
+
+	WyvernMagLev: {
+		Tooltip:
+			'''
+			Cerebral Mod traps & turrets float when placed
+			No need to use for naturally floating traps or turrets
+			'''
+		DisplayName: Wyvern Mag-Lev
+	}
+
+	TerraToolkit: {
+		Tooltip:
+			'''
+			+20% sentry speed
+			+40% turret range
+			+4 ingenuity
+			Can place sentries through solid tiles
+			'''
+		DisplayName: Terra Toolkit
+	}
+
+	SpectreLens: {
+		Tooltip: Can place sentries through solid tiles
+		DisplayName: Spectre Lens
+	}
+
+	ShroomiteScope: {
+		Tooltip: +40% turret range
+		DisplayName: Shroomite Scope
+	}
+
+	HallowedToolkit: {
+		Tooltip:
+			'''
+			+15% sentry speed
+			+30% turret range
+			+3 ingenuity
+			'''
+		DisplayName: Hallowed Toolkit
+	}
+
+	HallowedScope: {
+		Tooltip: +30% turret range
+		DisplayName: Hallowed Scope
+	}
+
+	HallowedGears: {
+		Tooltip: +15% sentry speed
+		DisplayName: Hallowed Gears
+	}
+
+	HallowedCircuit: {
+		Tooltip:
+			'''
+			+2 sentry slots
+			+50% sentry knockback
+			+15% sentry damage
+			'''
+		DisplayName: Hallowed Circuit
+	}
+
+	HallowedChip: {
+		Tooltip:
+			'''
+			+2 sentry slots
+			+50% sentry knockback
+			'''
+		DisplayName: Hallowed Chip
+	}
+
+	DefenderEmblem: {
+		Tooltip: 15% increased sentry damage
+		DisplayName: Defender Emblem
+	}
+
+	BeetleGears: {
+		Tooltip: +20% sentry speed
+		DisplayName: Beetle Gears
+	}
+}
+
+Buffs: {
+	PianoBuff: {
+		Description: +2 Minstrel timing window
+		DisplayName: Piano Buff
+	}
+
+	Willful: {
+		Description: +20% telekinetic damage
+		DisplayName: Willful
+	}
+
+	ThrowingImmulation: {
+		Description: Multiples throwing damage by 20%
+		DisplayName: Throwing Immulation
+	}
+
+	TerraDebuff: {
+		Description: You normally wouldn't see this
+		DisplayName: Terra Debuff
+	}
+
+	TelekineticImmulation: {
+		Description: Multiples telekinetic damage by 20%
+		DisplayName: Telekinetic Immulation
+	}
+
+	SummonImmulation: {
+		Description: Multiples summon damage by 20%
+		DisplayName: Summon Immulation
+	}
+
+	SideEffects: {
+		Description: You deal 20% less telekinetic damage & can't regen psychosis
+		DisplayName: Side Effects
+	}
+
+	SentryImmulation: {
+		Description: Multiples sentry damage by 20%
+		DisplayName: Sentry Immulation
+	}
+
+	RangedImmulation: {
+		Description: Multiples ranged damage by 20%
+		DisplayName: Ranged Immulation
+	}
+
+	PsychedOut: {
+		Description:
+			'''
+			You're pushing yourself to your mental limits
+			You take damage if you use telekinetic weapons
+			+20% telekinetic crit chance
+			'''
+		DisplayName: Psyched Out
+	}
+
+	PoweredSentries: {
+		Description: +15% sentry crit chance
+		DisplayName: Powered Sentries
+	}
+
+	NPCChill: {
+		Description: You normally wouldn't see this
+		DisplayName: NPC Chill
+	}
+
+	NightDebuff: {
+		Description: You normally wouldn't see this
+		DisplayName: Night Debuff
+	}
+
+	MelodicImmulation: {
+		Description: Multiples melodic damage by 20%
+		DisplayName: Melodic Immulation
+	}
+
+	MeleeImmulation: {
+		Description: Multiples melee damage by 20%
+		DisplayName: Melee Immulation
+	}
+
+	MagicImmulation: {
+		Description: Multiples magic damage by 20%
+		DisplayName: Magic Immulation
+	}
+
+	LessStepsAhead: {
+		Description: You can't Psi dodge again till this debuff is gone
+		DisplayName: Less Steps Ahead
+	}
+
+	Irradiated: {
+		Description: You normally wouldn't see this
+		DisplayName: Irradiated
+	}
+
+	IncreasedSentries: {
+		Description: +1 sentry slot
+		DisplayName: Increased Sentries
+	}
+
+	Focused: {
+		Description: +12% telekinetic crit chance
+		DisplayName: Focused
+	}
+
+	EngineerToolkitBuff: {
+		Description:
+			'''
+			+50% tile & wall placement speed
+			+3 tile placement range
+			'''
+		DisplayName: Engineer Toolkit Buff
+	}
+
+	Alert: {
+		Description: +30% telekinetic velocity
+		DisplayName: Alert
+	}
+
+	ActiveSentries: {
+		Description: You have at least one active sentry. Cancel this buff to remove all of your active sentries
+		DisplayName: Active Sentries
+	}
+}
+
+Projectiles: {
+	CommonSwordProjectile: {
+		DisplayName: Common Sword Projectile
+	}
+
+	PulsarLaserProj: {
+		DisplayName: Pulsar Laser Proj
+	}
+
+	HellstoneBellProjA: {
+		DisplayName: Hellstone Bell Proj A
+	}
+
+	HellstoneBellProjB: {
+		DisplayName: Hellstone Bell Proj B
+	}
+
+	CrimsonHeartTrumpetProj: {
+		DisplayName: Crimson Heart Trumpet Proj
+	}
+
+	CactusPillarProj: {
+		DisplayName: Cactus Pillar Proj
+	}
+
+	HellstoneCactusPillar: {
+		DisplayName: Hellstone Cactus Pillar
+	}
+
+	BeeHookProj: {
+		DisplayName: Bee Hook Proj
+	}
+
+	EyeSaxophoneProj: {
+		DisplayName: Eye Saxophone Proj
+	}
+
+	CrimtaneGuitarAura: {
+		DisplayName: Crimtane Guitar Aura
+	}
+
+	IceSaxophoneProj: {
+		DisplayName: Ice Saxophone Proj
+	}
+
+	Wrangler: {
+		DisplayName: Wrangler
+	}
+
+	PulsarDrill: {
+		DisplayName: Pulsar Drill
+	}
+
+	GravityDrill: {
+		DisplayName: Gravity Drill
+	}
+
+	GravityChainsaw: {
+		DisplayName: Gravity Chainsaw
+	}
+
+	WoodenStake: {
+		DisplayName: Wooden Stake
+	}
+
+	TungstenShuriken: {
+		DisplayName: Tungsten Shuriken
+	}
+
+	TopazSatchelCharge: {
+		DisplayName: Topaz Satchel Charge
+	}
+
+	TinShuriken: {
+		DisplayName: Tin Shuriken
+	}
+
+	Superball: {
+		DisplayName: Superball
+	}
+
+	SkywareShell: {
+		DisplayName: Skyware Shell
+	}
+
+	SilverKunai: {
+		DisplayName: Silver Kunai
+	}
+
+	ShadowOrbHatchet: {
+		DisplayName: Shadow Orb Hatchet
+	}
+
+	ShadewoodShaken: {
+		DisplayName: Shadewood Shaken
+	}
+
+	SapphireSatchelCharge: {
+		DisplayName: Sapphire Satchel Charge
+	}
+
+	RubySatchelCharge: {
+		DisplayName: Ruby Satchel Charge
+	}
+
+	RichMahoganyRainJavelinProj2: {
+		DisplayName: Rich Mahogany Rain Javelin Proj2
+	}
+
+	RichMahoganyRainJavelinProj1: {
+		DisplayName: Rich Mahogany Rain Javelin Proj1
+	}
+
+	Puck: {
+		DisplayName: Puck
+	}
+
+	PlatinumShuriken: {
+		DisplayName: Platinum Shuriken
+	}
+
+	PalmWoodShell: {
+		DisplayName: Palm Wood Shell
+	}
+
+	NightShuriken: {
+		DisplayName: Night Shuriken
+	}
+
+	NightKunai: {
+		DisplayName: Night Kunai
+	}
+
+	MeteoriteTNT: {
+		DisplayName: Meteorite T N T
+	}
+
+	MarbleHatchet: {
+		DisplayName: Marble Hatchet
+	}
+
+	LeadShuriken: {
+		DisplayName: Lead Shuriken
+	}
+
+	JungleShuriken: {
+		DisplayName: Jungle Shuriken
+	}
+
+	JungleKunai: {
+		DisplayName: Jungle Kunai
+	}
+
+	IronKunai: {
+		DisplayName: Iron Kunai
+	}
+
+	HellstoneShuriken: {
+		DisplayName: Hellstone Shuriken
+	}
+
+	HellstoneKunai: {
+		DisplayName: Hellstone Kunai
+	}
+
+	GraniteShaken: {
+		DisplayName: Granite Shaken
+	}
+
+	GoldKunai: {
+		DisplayName: Gold Kunai
+	}
+
+	GlowingMushroomRainJavelinProj2: {
+		DisplayName: Glowing Mushroom Rain Javelin Proj2
+	}
+
+	GlowingMushroomRainJavelinProj1: {
+		DisplayName: Glowing Mushroom Rain Javelin Proj1
+	}
+
+	EnchantedShuriken: {
+		DisplayName: Enchanted Shuriken
+	}
+
+	EnchantedKunai: {
+		DisplayName: Enchanted Kunai
+	}
+
+	EmeraldSatchelCharge: {
+		DisplayName: Emerald Satchel Charge
+	}
+
+	EbonwoodHatchet: {
+		DisplayName: Ebonwood Hatchet
+	}
+
+	DynastyWoodSatchelCharge: {
+		DisplayName: Dynasty Wood Satchel Charge
+	}
+
+	DungeonShuriken: {
+		DisplayName: Dungeon Shuriken
+	}
+
+	DungeonKunai: {
+		DisplayName: Dungeon Kunai
+	}
+
+	DiamondSatchelCharge: {
+		DisplayName: Diamond Satchel Charge
+	}
+
+	DemoniteShuriken: {
+		DisplayName: Demonite Shuriken
+	}
+
+	DemoniteKunai: {
+		DisplayName: Demonite Kunai
+	}
+
+	CrimtaneShuriken: {
+		DisplayName: Crimtane Shuriken
+	}
+
+	CrimtaneKunai: {
+		DisplayName: Crimtane Kunai
+	}
+
+	CrimsonHeartShaken: {
+		DisplayName: Crimson Heart Shaken
+	}
+
+	CopperKunai: {
+		DisplayName: Copper Kunai
+	}
+
+	CactusNailBomb: {
+		DisplayName: Cactus Nail Bomb
+	}
+
+	BorealWoodShuriken: {
+		DisplayName: Boreal Wood Shuriken
+	}
+
+	BeeShell: {
+		DisplayName: Bee Shell
+	}
+
+	AshWoodTNT: {
+		DisplayName: Ash Wood T N T
+	}
+
+	AmethystSatchelCharge: {
+		DisplayName: Amethyst Satchel Charge
+	}
+
+	AmberSatchelCharge: {
+		DisplayName: Amber Satchel Charge
+	}
+
+	CrystalGrenade: {
+		DisplayName: Crystal Grenade
+	}
+
+	RelicExplosion: {
+		DisplayName: Relic Explosion
+	}
+
+	PulsarHelperProj: {
+		DisplayName: Pulsar Helper Proj
+	}
+
+	PulsarHelper: {
+		DisplayName: Pulsar Helper
+	}
+
+	LegendaryExplosion: {
+		DisplayName: Legendary Explosion
+	}
+
+	GravityField: {
+		DisplayName: Gravity Field
+	}
+
+	EpicExplosion: {
+		DisplayName: Epic Explosion
+	}
+
+	YardbirdsCrowProj: {
+		DisplayName: Yardbirds Crow Proj
+	}
+
+	WoodenLuteAura: {
+		DisplayName: Wooden Lute Aura
+	}
+
+	TungstenGuitarAura: {
+		DisplayName: Tungsten Guitar Aura
+	}
+
+	TopazFluteProj: {
+		DisplayName: Topaz Flute Laser
+	}
+
+	TinGuitarAura: {
+		DisplayName: Tin Guitar Aura
+	}
+
+	SunflowerWhistleProj: {
+		DisplayName: Sunflower Whistle Proj
+	}
+
+	SlimyDrumProj: {
+		DisplayName: Slimy Sac Projectile
+	}
+
+	SilverGuitarAura: {
+		DisplayName: Silver Guitar Aura
+	}
+
+	SapphireFluteProj: {
+		DisplayName: Sapphire Flute Laser
+	}
+
+	RubyFluteProj: {
+		DisplayName: Ruby Flute Laser
+	}
+
+	PlatinumHarpAura: {
+		DisplayName: Platinum Harp Aura
+	}
+
+	PinkSlimyDrumProj: {
+		DisplayName: Pinky Slimy Sac Projectile
+	}
+
+	MarbleTrumpetProj: {
+		DisplayName: Marble Trumpet Projectile
+	}
+
+	LeadHarpAura: {
+		DisplayName: Lead Lyre Aura
+	}
+
+	IronHarpAura: {
+		DisplayName: Iron Lyre Aura
+	}
+
+	GraniteWarHornProj: {
+		DisplayName: Granite War Horn Projectile
+	}
+
+	GoldHarpAura: {
+		DisplayName: Gold Harp Aura
+	}
+
+	EnchantedGuitarAura: {
+		DisplayName: Enchanted Guitar Aura
+	}
+
+	EmeraldFluteProj: {
+		DisplayName: Emerald Flute Laser
+	}
+
+	DiamondFluteProj: {
+		DisplayName: Diamond Flute Laser
+	}
+
+	DemoniteGuitarAura: {
+		DisplayName: Demonite Guitar Aura
+	}
+
+	CopperGuitarAura: {
+		DisplayName: Copper Guitar Aura
+	}
+
+	BorealWoodWhistleProj: {
+		DisplayName: Boreal Wood Whistle Proj
+	}
+
+	AshWoodLuteAura: {
+		DisplayName: Ash Wood Lute Aura
+	}
+
+	AmethystFluteProj: {
+		DisplayName: Amethyst Flute Laser
+	}
+
+	AmberFluteProj: {
+		DisplayName: Amber Flute Laser
+	}
+
+	PearlwoodLuteAura: {
+		DisplayName: Pearlwood Lute Aura
+	}
+
+	CrystalFlail: {
+		DisplayName: Crystal Flail Ball
+	}
+
+	SangriScepterProj: {
+		DisplayName: Sangri Scepter Proj
+	}
+
+	VileOrbProj: {
+		DisplayName: Vile Orb Proj
+	}
+
+	WoodenDisc: {
+		DisplayName: Wooden Disc
+	}
+
+	UncommonSawblade: {
+		DisplayName: Uncommon Sawblade
+	}
+
+	TungstenSawblade: {
+		DisplayName: Tungsten Sawblade
+	}
+
+	TrueHallowedCanisterProj2: {
+		DisplayName: True Hallowed Canister Proj2
+	}
+
+	TorchTwirler: {
+		DisplayName: Torch Twirler
+	}
+
+	TopazRiftBolt: {
+		DisplayName: Topaz Rift Bolt
+	}
+
+	TopazRift: {
+		DisplayName: Topaz Rift
+	}
+
+	TKMeteor: {
+		DisplayName: T K Meteor
+	}
+
+	TKBoulder: {
+		DisplayName: T K Boulder
+	}
+
+	TinSawblade: {
+		DisplayName: Tin Sawblade
+	}
+
+	TerraCanisterProj2: {
+		DisplayName: Terra Canister Proj2
+	}
+
+	SpittingSandfishProj: {
+		DisplayName: Spitting Sandfish Proj
+	}
+
+	SpittingSandfish: {
+		DisplayName: Spitting Sandfish
+	}
+
+	SpikyBallLobberProj: {
+		DisplayName: Spiky Ball Lobber Proj
+	}
+
+	SpikyBallLobber: {
+		DisplayName: Spiky Ball Lobber
+	}
+
+	SpectreRiftBolt: {
+		DisplayName: Spectre Rift Bolt
+	}
+
+	SlimyCanisterProj: {
+		DisplayName: Slimy Canister Proj
+	}
+
+	SlimyCanister: {
+		DisplayName: Slimy Canister
+	}
+
+	SilverSawblade: {
+		DisplayName: Silver Sawblade
+	}
+
+	ShadowOrbitProj: {
+		DisplayName: Shadow Orbit Proj
+	}
+
+	ShadowOrbit: {
+		DisplayName: Shadow Orbit
+	}
+
+	ShadowflameRiftBolt: {
+		DisplayName: Shadowflame Rift Bolt
+	}
+
+	ShadewoodDisc: {
+		DisplayName: Shadewood Disc
+	}
+
+	SapphireRiftBolt: {
+		DisplayName: Sapphire Rift Bolt
+	}
+
+	SapphireRift: {
+		DisplayName: Sapphire Rift
+	}
+
+	RubyRiftBolt: {
+		DisplayName: Ruby Rift Bolt
+	}
+
+	RubyRift: {
+		DisplayName: Ruby Rift
+	}
+
+	RichMahoganyDisc: {
+		DisplayName: Rich Mahogany Disc
+	}
+
+	PlatinumSawblade: {
+		DisplayName: Platinum Sawblade
+	}
+
+	PinkyTwirler: {
+		DisplayName: Pinky Twirler
+	}
+
+	PinkSlimyCanisterProj: {
+		DisplayName: Pink Slimy Canister Proj
+	}
+
+	PinkSlimyCanister: {
+		DisplayName: Pink Slimy Canister
+	}
+
+	PalmWoodDisc: {
+		DisplayName: Palm Wood Disc
+	}
+
+	NightSawblade: {
+		DisplayName: Night Sawblade
+	}
+
+	NightCanisterProj: {
+		DisplayName: Night Canister Proj
+	}
+
+	NightCanister: {
+		DisplayName: Night Canister
+	}
+
+	MoltenBoulder: {
+		DisplayName: Molten Boulder
+	}
+
+	LeadSawblade: {
+		DisplayName: Lead Sawblade
+	}
+
+	JungleSawblade: {
+		DisplayName: Jungle Sawblade
+	}
+
+	JungleCanisterProj: {
+		DisplayName: Jungle Canister Proj
+	}
+
+	JungleCanister: {
+		DisplayName: Jungle Canister
+	}
+
+	IronSawblade: {
+		DisplayName: Iron Sawblade
+	}
+
+	HellstoneSawblade: {
+		DisplayName: Sawflame
+	}
+
+	HellstoneCanisterProj: {
+		DisplayName: Hellstone Canister Proj
+	}
+
+	HellstoneCanister: {
+		DisplayName: Hellstone Canister
+	}
+
+	HellbatJarProj: {
+		DisplayName: Hellbat Jar Proj
+	}
+
+	HellbatJar: {
+		DisplayName: Hellbat Jar
+	}
+
+	GoldSawblade: {
+		DisplayName: Gold Sawblade
+	}
+
+	FrostburnTwirler: {
+		DisplayName: Frostburn Twirler
+	}
+
+	FeatherGust: {
+		DisplayName: Feather Gust
+	}
+
+	EyeJarProj: {
+		DisplayName: Eye Jar Proj
+	}
+
+	EyeJar: {
+		DisplayName: Eye Jar
+	}
+
+	EnchantedSawblade: {
+		DisplayName: Enchanted Sawblade
+	}
+
+	EmeraldRiftBolt: {
+		DisplayName: Emerald Rift Bolt
+	}
+
+	EmeraldRift: {
+		DisplayName: Emerald Rift
+	}
+
+	EbonwoodDisc: {
+		DisplayName: Ebonwood Disc
+	}
+
+	EbonCactusBall: {
+		DisplayName: Ebon Cactus Ball
+	}
+
+	DynastyWoodDisc: {
+		DisplayName: Dynasty Wood Disc
+	}
+
+	DungeonSawblade: {
+		DisplayName: Dungeon Sawblade
+	}
+
+	DungeonCanisterProj: {
+		DisplayName: Dungeon Canister Proj
+	}
+
+	DungeonCanister: {
+		DisplayName: Dungeon Canister
+	}
+
+	DiamondRiftBolt: {
+		DisplayName: Diamond Rift Bolt
+	}
+
+	DiamondRift: {
+		DisplayName: Diamond Rift
+	}
+
+	DemonTwirler: {
+		DisplayName: Demon Twirler
+	}
+
+	DemoniteSawblade: {
+		DisplayName: Demonite Sawblade
+	}
+
+	DemoniteCanisterProj: {
+		DisplayName: Demonite Canister Proj
+	}
+
+	DemoniteCanister: {
+		DisplayName: Demonite Canister
+	}
+
+	SoilSawblade: {
+		DisplayName: Soil Sawblade
+	}
+
+	CrimtaneSawblade: {
+		DisplayName: Crimtane Sawblade
+	}
+
+	CrimtaneCanisterProj: {
+		DisplayName: Blood Canister Liquid
+	}
+
+	CrimtaneCanister: {
+		DisplayName: Crimtane Canister
+	}
+
+	CrimCactusBall: {
+		DisplayName: Crim Cactus Ball
+	}
+
+	CopperSawblade: {
+		DisplayName: Copper Sawblade
+	}
+
+	CommonSawblade: {
+		DisplayName: Common Sawblade
+	}
+
+	ClotBomberProj: {
+		DisplayName: Clot Bomber Proj
+	}
+
+	ClotBomber: {
+		DisplayName: Clot Bomber
+	}
+
+	CactusBall: {
+		DisplayName: Cactus Ball
+	}
+
+	BrightTwirler: {
+		DisplayName: Bright Twirler
+	}
+
+	BowlingBall: {
+		DisplayName: Bowling Ball
+	}
+
+	BorealWoodDisc: {
+		DisplayName: Boreal Wood Disc
+	}
+
+	BoneTwirler: {
+		DisplayName: Bone Twirler
+	}
+
+	BeeJar: {
+		DisplayName: Bee Jar
+	}
+
+	BatJarProj: {
+		DisplayName: Bat Jar Proj
+	}
+
+	BatJar: {
+		DisplayName: Bat Jar
+	}
+
+	AmethystRiftBolt: {
+		DisplayName: Amethyst Rift Bolt
+	}
+
+	AmethystRift: {
+		DisplayName: Amethyst Rift
+	}
+
+	AmberRiftBolt: {
+		DisplayName: Amber Rift Bolt
+	}
+
+	AmberRift: {
+		DisplayName: Amber Rift
+	}
+
+	RelicSawbladeProj2: {
+		DisplayName: Relic Sawblade Proj2
+	}
+
+	RelicSawblade: {
+		DisplayName: Relic Sawblade
+	}
+
+	EldritchEyeJarProj2: {
+		DisplayName: Eldritch Eye Jar Proj2
+	}
+
+	EldritchEyeJarProj: {
+		DisplayName: Eldritch Eye Jar Proj
+	}
+
+	EldritchEyeJar: {
+		DisplayName: Eldritch Eye Jar
+	}
+
+	MiniCactuar: {
+		DisplayName: Mini Cactuar
+	}
+
+	JoostNeedle: {
+		DisplayName: Needle
+	}
+
+	BlackHoleBombProj: {
+		DisplayName: Black Hole Bomb Proj
+	}
+
+	BlackHoleBomb: {
+		DisplayName: Black Hole Bomb
+	}
+
+	AccretionDisc: {
+		DisplayName: Accretion Disc
+	}
+
+	YellowTKRocket: {
+		DisplayName: Yellow T K Rocket
+	}
+
+	WaspJarProj: {
+		DisplayName: Wasp Jar Proj
+	}
+
+	WaspJar: {
+		DisplayName: Wasp Jar
+	}
+
+	VenomTwirler: {
+		DisplayName: Venom Twirler
+	}
+
+	TrueNightSawblade: {
+		DisplayName: True Night Sawblade
+	}
+
+	TrueNightCanisterProj: {
+		DisplayName: True Night Canister Proj
+	}
+
+	TrueNightCanister: {
+		DisplayName: True Night Canister
+	}
+
+	TrueHallowedSawbladeProj: {
+		DisplayName: True Hallowed Sawblade Proj
+	}
+
+	TrueHallowedSawblade: {
+		DisplayName: True Hallowed Sawblade
+	}
+
+	TrueHallowedCanisterProj: {
+		DisplayName: True Hallowed Canister Proj
+	}
+
+	TrueHallowedCanister: {
+		DisplayName: True Hallowed Canister
+	}
+
+	TKThornBall: {
+		DisplayName: T K Thorn Ball
+	}
+
+	TKPrimeVice: {
+		DisplayName: T K Prime Vice
+	}
+
+	TKPrimeSaw: {
+		DisplayName: T K Prime Saw
+	}
+
+	TKPrimeLaserProj: {
+		DisplayName: T K Prime Laser Proj
+	}
+
+	TKPrimeLaser: {
+		DisplayName: T K Prime Laser
+	}
+
+	TKPrimeCannonProj: {
+		DisplayName: T K Prime Cannon Proj
+	}
+
+	TKPrimeCannon: {
+		DisplayName: T K Prime Cannon
+	}
+
+	TKCannonball: {
+		DisplayName: T K Cannonball
+	}
+
+	TitaniumSawblade: {
+		DisplayName: Titanium Sawblade
+	}
+
+	TerraSawbladeProj: {
+		DisplayName: Terra Sawblade Proj
+	}
+
+	TerraSawblade: {
+		DisplayName: Terra Sawblade
+	}
+
+	TerraCanisterProj: {
+		DisplayName: Terra Canister Proj
+	}
+
+	TerraCanister: {
+		DisplayName: Terra Canister
+	}
+
+	SuperSpittingSandfishProj: {
+		DisplayName: Super Spitting Sandfish Proj
+	}
+
+	SuperSpittingSandfish: {
+		DisplayName: Super Spitting Sandfish
+	}
+
+	SpookyWoodDisc: {
+		DisplayName: Spooky Wood Disc
+	}
+
+	SpectreRift: {
+		DisplayName: Spectre Rift
+	}
+
+	SnowmanBoulder: {
+		DisplayName: Snowman Boulder
+	}
+
+	SkeletonBoneLobberProj: {
+		DisplayName: Skeleton Bone Lobber Proj
+	}
+
+	SkeletonBoneLobber: {
+		DisplayName: Skeleton Bone Lobber
+	}
+
+	SharknadoRiftProj2: {
+		DisplayName: Sharknado Rift Proj2
+	}
+
+	SharknadoRiftProj: {
+		DisplayName: Sharknado Rift Proj
+	}
+
+	SharknadoRift: {
+		DisplayName: Sharknado Rift
+	}
+
+	ShadowflameRift: {
+		DisplayName: Shadowflame Rift
+	}
+
+	RollingNeutroniumCoreExplosionFx: {
+		DisplayName: Rolling Neutronium Core Explosion Fx
+	}
+
+	RollingNeutroniumCoreExplosion: {
+		DisplayName: Rolling Neutronium Core Explosion
+	}
+
+	RollingNeutroniumCore: {
+		DisplayName: Rolling Neutronium Core
+	}
+
+	RedTKRocket: {
+		DisplayName: Red T K Rocket
+	}
+
+	RareSawblade: {
+		DisplayName: Rare Sawblade
+	}
+
+	RainbowTwirler: {
+		DisplayName: Rainbow Twirler
+	}
+
+	PsiSpikeBallProj: {
+		DisplayName: Psi Spike Ball Proj
+	}
+
+	PsiSpikeBall: {
+		DisplayName: Psi Spike Ball
+	}
+
+	PsiExplodingPresent: {
+		DisplayName: Psi Exploding Present
+	}
+
+	PrismRiftBolt: {
+		DisplayName: Prism Rift Bolt
+	}
+
+	PrismRift: {
+		DisplayName: Prism Rift
+	}
+
+	Pompakin: {
+		DisplayName: Pompakin
+	}
+
+	PixieJarProjPink: {
+		DisplayName: Pixie Jar Proj Pink
+	}
+
+	PixieJarProjGreen: {
+		DisplayName: Pixie Jar Proj Green
+	}
+
+	PixieJarProjBlue: {
+		DisplayName: Pixie Jar Proj Blue
+	}
+
+	PixieJar: {
+		DisplayName: Pixie Jar
+	}
+
+	PearlwoodDisc: {
+		DisplayName: Pearlwood Disc
+	}
+
+	PearlCactusBall: {
+		DisplayName: Pearl Cactus Ball
+	}
+
+	PalladiumSawblade: {
+		DisplayName: Palladium Sawblade
+	}
+
+	OrnamentsOrbitProj: {
+		DisplayName: Ornaments Orbit Proj
+	}
+
+	OrnamentsOrbit: {
+		DisplayName: Ornaments Orbit
+	}
+
+	OrichalcumSawblade: {
+		DisplayName: Orichalcum Sawblade
+	}
+
+	MythrilSawblade: {
+		DisplayName: Mythril Sawblade
+	}
+
+	MourningTwirler: {
+		DisplayName: Mourning Twirler
+	}
+
+	LiquidNitrogenCanisterProj: {
+		DisplayName: Liquid Nitrogen Canister Proj
+	}
+
+	LiquidNitrogenCanister: {
+		DisplayName: Liquid Nitrogen Canister
+	}
+
+	LihzahrdExplosion: {
+		DisplayName: Lihzahrd Explosion
+	}
+
+	LegendarySawbladeProj2: {
+		DisplayName: Legendary Sawblade Proj2
+	}
+
+	LegendarySawblade: {
+		DisplayName: Legendary Sawblade
+	}
+
+	InfernoSpitProj2: {
+		DisplayName: Inferno Spit Proj2
+	}
+
+	InfernoSpitProj1: {
+		DisplayName: Inferno Spit Proj1
+	}
+
+	InfernoSpit: {
+		DisplayName: Inferno Spit
+	}
+
+	IcicleSpitterProj2: {
+		DisplayName: Icicle Spitter Proj2
+	}
+
+	IcicleSpitterProj1: {
+		DisplayName: Icicle Spitter Proj1
+	}
+
+	IcicleSpitter: {
+		DisplayName: Icicle Spitter
+	}
+
+	IchorTwirler: {
+		DisplayName: Ichor Twirler
+	}
+
+	IchorCanisterProj: {
+		DisplayName: Ichor Canister Proj
+	}
+
+	IchorCanister: {
+		DisplayName: Ichor Canister
+	}
+
+	IchorBomberProj: {
+		DisplayName: Ichor Bomber Proj
+	}
+
+	IchorBomber: {
+		DisplayName: Ichor Bomber
+	}
+
+	HallowedSawblade: {
+		DisplayName: Hallowed Sawblade
+	}
+
+	HallowedCanisterProj: {
+		DisplayName: Hallowed Canister Proj
+	}
+
+	HallowedCanister: {
+		DisplayName: Hallowed Canister
+	}
+
+	GreenTKRocket: {
+		DisplayName: Green T K Rocket
+	}
+
+	GreekFireProj3: {
+		DisplayName: Greek Fire Proj3
+	}
+
+	GreekFireProj2: {
+		DisplayName: Greek Fire Proj2
+	}
+
+	GreekFireProj1: {
+		DisplayName: Greek Fire Proj1
+	}
+
+	GravityTwirlerLaser: {
+		DisplayName: Gravity Twirler Laser
+	}
+
+	GravityTwirler: {
+		DisplayName: Gravity Twirler
+	}
+
+	GravityBouncerExplosion: {
+		DisplayName: Gravity Bouncer Explosion
+	}
+
+	GravityBouncer: {
+		DisplayName: Gravity Bouncer
+	}
+
+	GolemHeadRiftProj2: {
+		DisplayName: Golem Head Rift Proj2
+	}
+
+	GolemHeadRiftProj1: {
+		DisplayName: Golem Head Rift Proj1
+	}
+
+	GolemHeadRift: {
+		DisplayName: Golem Head Rift
+	}
+
+	GiantGear: {
+		DisplayName: Giant Gear
+	}
+
+	ForbiddenGust: {
+		DisplayName: Forbidden Gust
+	}
+
+	EpicSawblade: {
+		DisplayName: Epic Sawblade
+	}
+
+	DeadDollProj: {
+		DisplayName: Dead Doll Proj
+	}
+
+	DeadDoll: {
+		DisplayName: Dead Doll
+	}
+
+	CursedTwirler: {
+		DisplayName: Cursed Twirler
+	}
+
+	CursedFlameOrbitProj: {
+		DisplayName: Cursed Flame Orbit Proj
+	}
+
+	CursedFlameOrbit: {
+		DisplayName: Cursed Flame Orbit
+	}
+
+	CursedBouncer: {
+		DisplayName: Cursed Bouncer
+	}
+
+	CobaltSawblade: {
+		DisplayName: Cobalt Sawblade
+	}
+
+	ChlorophyteSawblade: {
+		DisplayName: Chlorophyte Sawblade
+	}
+
+	ChlorophyteCanisterProj: {
+		DisplayName: Chlorophyte Canister Proj
+	}
+
+	ChlorophyteCanister: {
+		DisplayName: Chlorophyte Canister
+	}
+
+	BlueTKRocket: {
+		DisplayName: Blue T K Rocket
+	}
+
+	BlizzardTwirler: {
+		DisplayName: Blizzard Twirler
+	}
+
+	BetsyPsiFlame: {
+		DisplayName: Betsy Psi Flame
+	}
+
+	BetsyHead: {
+		DisplayName: Betsy Head
+	}
+
+	BeetleJarProj: {
+		DisplayName: Beetle Jar Proj
+	}
+
+	BeetleJar: {
+		DisplayName: Beetle Jar
+	}
+
+	AdamantiteSawblade: {
+		DisplayName: Adamantite Sawblade
+	}
+
+	WoodenSpikes: {
+		DisplayName: Wooden Spikes
+	}
+
+	TungstenSpikes: {
+		DisplayName: Tungsten Spikes
+	}
+
+	TopazMine: {
+		DisplayName: Topaz Mine
+	}
+
+	TopazLaser: {
+		DisplayName: Topaz Laser
+	}
+
+	TinSpikes: {
+		DisplayName: Tin Spikes
+	}
+
+	SpikyBallerProj: {
+		DisplayName: Spiky Baller Proj
+	}
+
+	SpikyBaller: {
+		DisplayName: Spiky Baller
+	}
+
+	SnowballTurretProj: {
+		DisplayName: Snowball Turret Proj
+	}
+
+	SnowballTurret: {
+		DisplayName: Snowball Turret
+	}
+
+	SlimySpikerProj: {
+		DisplayName: Slimy Spiker Proj
+	}
+
+	SlimySpiker: {
+		DisplayName: Slimy Spiker
+	}
+
+	SilverSpikes: {
+		DisplayName: Silver Spikes
+	}
+
+	ShadowOrbTrapProj3: {
+		DisplayName: Shadow Orb Trap Proj3
+	}
+
+	ShadowOrbTrapProj2: {
+		DisplayName: Shadow Orb Trap Proj2
+	}
+
+	ShadowOrbTrapProj1: {
+		DisplayName: Shadow Orb Trap Proj1
+	}
+
+	ShadewoodSpikes: {
+		DisplayName: Shadewood Spikes
+	}
+
+	SapphireMine: {
+		DisplayName: Sapphire Mine
+	}
+
+	SapphireLaser: {
+		DisplayName: Sapphire Laser
+	}
+
+	RubyMine: {
+		DisplayName: Ruby Mine
+	}
+
+	RubyLaser: {
+		DisplayName: Ruby Laser
+	}
+
+	RichMahoganySpikes: {
+		DisplayName: Rich Mahogany Spikes
+	}
+
+	PlatinumSpikes: {
+		DisplayName: Platinum Spikes
+	}
+
+	PinkSlimySpikerProj: {
+		DisplayName: Pink Slimy Spiker Proj
+	}
+
+	PinkSlimySpiker: {
+		DisplayName: Pink Slimy Spiker
+	}
+
+	PalmWoodSpikes: {
+		DisplayName: Palm Wood Spikes
+	}
+
+	NightTurretProj: {
+		DisplayName: Night Turret Proj
+	}
+
+	NightTurret: {
+		DisplayName: Night Turret
+	}
+
+	NightSpikes: {
+		DisplayName: Night Spikes
+	}
+
+	MoltenTurretProj: {
+		DisplayName: Molten Turret Proj
+	}
+
+	MoltenTurret: {
+		DisplayName: Molten Turret
+	}
+
+	MoltenSpikes: {
+		DisplayName: Molten Spikes
+	}
+
+	MeteorBreakerProj2: {
+		DisplayName: Meteor Breaker Proj2
+	}
+
+	MeteorBreakerProj: {
+		DisplayName: Meteor Breaker Proj
+	}
+
+	MeteorBreaker: {
+		DisplayName: Meteor Breaker
+	}
+
+	LeadSpikes: {
+		DisplayName: Lead Spikes
+	}
+
+	JungleTurretProj: {
+		DisplayName: Jungle Turret Proj
+	}
+
+	JungleTurret: {
+		DisplayName: Jungle Turret
+	}
+
+	JungleSpikes: {
+		DisplayName: Jungle Spikes
+	}
+
+	IronSpikes: {
+		DisplayName: Iron Spikes
+	}
+
+	GoldSpikes: {
+		DisplayName: Gold Spikes
+	}
+
+	GeyserSentryProj: {
+		DisplayName: Geyser Sentry Proj
+	}
+
+	GeyserSentry: {
+		DisplayName: Geyser Sentry
+	}
+
+	EmeraldMine: {
+		DisplayName: Emerald Mine
+	}
+
+	EmeraldLaser: {
+		DisplayName: Emerald Laser
+	}
+
+	EbonwoodSpikes: {
+		DisplayName: Ebonwood Spikes
+	}
+
+	DynastyWoodSpikes: {
+		DisplayName: Dynasty Wood Spikes
+	}
+
+	DiamondMine: {
+		DisplayName: Diamond Mine
+	}
+
+	DiamondLaser: {
+		DisplayName: Diamond Laser
+	}
+
+	DemoniteTurretProj: {
+		DisplayName: Demonite Turret Proj
+	}
+
+	DemoniteTurret: {
+		DisplayName: Demonite Turret
+	}
+
+	DemoniteSpikes: {
+		DisplayName: Demonite Spikes
+	}
+
+	DemoniteCactusPillar: {
+		DisplayName: Demonite Cactus Pillar
+	}
+
+	DartTrapSentryProj: {
+		DisplayName: Dart Trap Sentry Proj
+	}
+
+	DartTrapSentry: {
+		DisplayName: Dart Trap Sentry
+	}
+
+	SoilSpikes: {
+		DisplayName: Soil Spikes
+	}
+
+	CrimtaneTurretProj: {
+		DisplayName: Crimtane Turret Proj
+	}
+
+	CrimtaneTurret: {
+		DisplayName: Crimtane Turret
+	}
+
+	CrimtaneSpikes: {
+		DisplayName: Crimtane Spikes
+	}
+
+	CrimtaneCactusPillar: {
+		DisplayName: Crimtane Cactus Pillar
+	}
+
+	CopperSpikes: {
+		DisplayName: Copper Spikes
+	}
+
+	CommonTurretProj: {
+		DisplayName: Common Turret Proj
+	}
+
+	CommonTurret: {
+		DisplayName: Common Turret
+	}
+
+	CactusPillar: {
+		DisplayName: Cactus Pillar
+	}
+
+	BorealWoodSpikes: {
+		DisplayName: Boreal Wood Spikes
+	}
+
+	BloodCloud: {
+		DisplayName: Blood Cloud
+	}
+
+	BeeEmitter: {
+		DisplayName: Bee Emitter
+	}
+
+	AquaTurretProj: {
+		DisplayName: Aqua Turret Proj
+	}
+
+	AquaTurret: {
+		DisplayName: Aqua Turret
+	}
+
+	AquaSpikes: {
+		DisplayName: Aqua Caltrops
+	}
+
+	AmethystMine: {
+		DisplayName: Amethyst Mine
+	}
+
+	AmethystLaser: {
+		DisplayName: Amethyst Laser
+	}
+
+	AmberMine: {
+		DisplayName: Amber Mine
+	}
+
+	AmberLaser: {
+		DisplayName: Amber Laser
+	}
+
+	HMGTurretProj: {
+		DisplayName: H M G Turret Proj
+	}
+
+	HMGTurret: {
+		DisplayName: H M G Turret
+	}
+
+	WaterTornado: {
+		DisplayName: Water Tornado
+	}
+
+	WaspEmitterProj: {
+		DisplayName: Wasp Emitter Proj
+	}
+
+	WaspEmitter: {
+		DisplayName: Wasp Emitter
+	}
+
+	TrueNightTurretProj: {
+		DisplayName: True Night Turret Proj
+	}
+
+	TrueNightTurret: {
+		DisplayName: True Night Turret
+	}
+
+	TrueNightSpikes: {
+		DisplayName: True Night Spikes
+	}
+
+	TrueHallowedTurretProj: {
+		DisplayName: True Hallowed Turret Proj
+	}
+
+	TrueHallowedTurret: {
+		DisplayName: True Hallowed Turret
+	}
+
+	TrueHallowedSpikes: {
+		DisplayName: True Hallowed Spikes
+	}
+
+	TitaniumTurretProj: {
+		DisplayName: Titanium Turret Proj
+	}
+
+	TitaniumTurret: {
+		DisplayName: Titanium Turret
+	}
+
+	TitaniumSpikes: {
+		DisplayName: Titanium Spikes
+	}
+
+	TerraTurret: {
+		DisplayName: Terra Turret
+	}
+
+	TerraSpikes: {
+		DisplayName: Terra Spikes
+	}
+
+	StickerSpray2: {
+		DisplayName: Sticker Spray2
+	}
+
+	StickerSpray1: {
+		DisplayName: Sticker Spray1
+	}
+
+	SpookyWoodSpikes: {
+		DisplayName: Spooky Wood Spikes
+	}
+
+	SpikyBallDropperProj: {
+		DisplayName: Spiky Ball Dropper Proj
+	}
+
+	SpikyBallDropper: {
+		DisplayName: Spiky Ball Dropper
+	}
+
+	ShadowflameTrapProj: {
+		DisplayName: Shadowflame Trap Proj
+	}
+
+	ShadowflameTrap: {
+		DisplayName: Shadowflame Trap
+	}
+
+	RainCloud: {
+		DisplayName: Rain Cloud
+	}
+
+	PrismMine: {
+		DisplayName: Prism Mine
+	}
+
+	PrismLaser: {
+		DisplayName: Prism Laser
+	}
+
+	PearlwoodSpikes: {
+		DisplayName: Pearlwood Spikes
+	}
+
+	PalladiumTurretProj: {
+		DisplayName: Palladium Turret Proj
+	}
+
+	PalladiumTurret: {
+		DisplayName: Palladium Turret
+	}
+
+	PalladiumSpikes: {
+		DisplayName: Palladium Spikes
+	}
+
+	OrichalcumTurretProj: {
+		DisplayName: Orichalcum Turret Proj
+	}
+
+	OrichalcumTurret: {
+		DisplayName: Orichalcum Turret
+	}
+
+	OrichalcumSpikes: {
+		DisplayName: Orichalcum Spikes
+	}
+
+	MythrilTurretProj: {
+		DisplayName: Mythril Turret Proj
+	}
+
+	MythrilTurret: {
+		DisplayName: Mythril Turret
+	}
+
+	MythrilSpikes: {
+		DisplayName: Mythril Spikes
+	}
+
+	MartianTrapProj: {
+		DisplayName: Martian Trap Proj
+	}
+
+	MartianTrap: {
+		DisplayName: Martian Trap
+	}
+
+	MagnetarDeployerProj: {
+		DisplayName: Magnetar Deployer Proj
+	}
+
+	MagnetarDeployer: {
+		DisplayName: Magnetar Deployer
+	}
+
+	LGM1Proj2: {
+		DisplayName: L G M1 Proj2
+	}
+
+	LGM1Proj: {
+		DisplayName: L G M1 Proj
+	}
+
+	LGM1: {
+		DisplayName: L G M1
+	}
+
+	IchorTurretProj: {
+		DisplayName: Ichor Turret Proj
+	}
+
+	IchorTurret: {
+		DisplayName: Ichor Turret
+	}
+
+	HallowedTurretProj: {
+		DisplayName: Hallowed Turret Proj
+	}
+
+	HallowedTurret: {
+		DisplayName: Hallowed Turret
+	}
+
+	HallowedSpikes: {
+		DisplayName: Hallowed Spikes
+	}
+
+	HallowedCactusPillar: {
+		DisplayName: Hallowed Cactus Pillar
+	}
+
+	FrostCoreTurretProj: {
+		DisplayName: Frost Core Turret Proj
+	}
+
+	FrostCoreTurret: {
+		DisplayName: Frost Core Turret
+	}
+
+	FreezethrowerTurretProj: {
+		DisplayName: Freezethrower Turret Proj
+	}
+
+	FreezethrowerTurret: {
+		DisplayName: Freezethrower Turret
+	}
+
+	ForbiddenFragmentTrapProj: {
+		DisplayName: Forbidden Fragment Trap Proj
+	}
+
+	CursedFlameTurretProj: {
+		DisplayName: Cursed Flame Turret Proj
+	}
+
+	CursedFlameTurret: {
+		DisplayName: Cursed Flame Turret
+	}
+
+	CrystalOrbit2: {
+		DisplayName: Crystal Orbit2
+	}
+
+	CrystalOrbit1: {
+		DisplayName: Crystal Orbit1
+	}
+
+	CoinTurretProj4: {
+		DisplayName: Coin Turret Proj4
+	}
+
+	CoinTurretProj3: {
+		DisplayName: Coin Turret Proj3
+	}
+
+	CoinTurretProj2: {
+		DisplayName: Coin Turret Proj2
+	}
+
+	CoinTurretProj1: {
+		DisplayName: Coin Turret Proj1
+	}
+
+	CoinTurret: {
+		DisplayName: Coin Turret
+	}
+
+	CobaltTurretProj: {
+		DisplayName: Cobalt Turret Proj
+	}
+
+	CobaltTurret: {
+		DisplayName: Cobalt Turret
+	}
+
+	CobaltSpikes: {
+		DisplayName: Cobalt Spikes
+	}
+
+	ClingerStaffSentry: {
+		DisplayName: Clinger Staff Sentry
+	}
+
+	ChlorophyteTurretProj: {
+		DisplayName: Chlorophyte Turret Proj
+	}
+
+	ChlorophyteTurret: {
+		DisplayName: Chlorophyte Turret
+	}
+
+	ChlorophyteSpikes: {
+		DisplayName: Chlorophyte Spikes
+	}
+
+	BubbleTurretProj: {
+		DisplayName: Bubble Turret Proj
+	}
+
+	BubbleTurret: {
+		DisplayName: Bubble Turret
+	}
+
+	BetsyTurretProj: {
+		DisplayName: Betsy Turret Proj
+	}
+
+	BetsyTurret: {
+		DisplayName: Betsy Turret
+	}
+
+	BallOfFrostSpitterProj: {
+		DisplayName: Ball Of Frost Spitter Proj
+	}
+
+	BallOfFrostSpitter: {
+		DisplayName: Ball Of Frost Spitter
+	}
+
+	BalanceProjB: {
+		DisplayName: Balance Proj B
+	}
+
+	BalanceProjA: {
+		DisplayName: Balance Proj A
+	}
+
+	Balance: {
+		DisplayName: Balance
+	}
+
+	AutoTurretProj: {
+		DisplayName: Auto Turret Proj
+	}
+
+	AutoTurret: {
+		DisplayName: Auto Turret
+	}
+
+	AdamantiteTurretProj: {
+		DisplayName: Adamantite Turret Proj
+	}
+
+	AdamantiteTurret: {
+		DisplayName: Adamantite Turret
+	}
+
+	AdamantiteSpikes: {
+		DisplayName: Adamantite Spikes
+	}
+
+	CactusNailBombProj2: {
+		DisplayName: Cactus Nail Bomb Proj2
+	}
+
+	MushroomBellProjB: {
+		DisplayName: Mushroom Bell Proj B
+	}
+
+	MushroomBellProjA: {
+		DisplayName: Mushroom Bell Proj A
+	}
+
+	CactusTambourineProj: {
+		DisplayName: Cactus Tambourine Proj
+	}
+
+	BaseTrapLaser: {
+		DisplayName: Base Trap Laser
+	}
+}
+

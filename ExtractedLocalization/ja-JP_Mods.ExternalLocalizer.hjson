@@ -1,0 +1,275 @@
+Configs: {
+	ExtractionConfig: {
+		DisplayName: 取り出しの設定
+
+		Headers: {
+			ExtractionHeader: 取り出しの設定
+		}
+
+		ExtractLocalization: {
+			Label: ローカライゼーションファイルを取り出す
+			Tooltip:
+				'''
+				オンの時、リロード時にローカライゼーションファイルを取り出します。
+				普段はオフにしておくことを忘れないでください。
+				'''
+		}
+
+		ExtractCategory: {
+			Label: 取り出すカテゴリ
+			Tooltip:
+				'''
+				出力するカテゴリを [すべて, バニラ, モッド]　から選択します。
+				バニラの取り出しは、"出力するタイミング"が"セットアップ後"に設定されている場合にのみ有効です。
+				'''
+		}
+
+		ExtractAtIndividualFiles: {
+			Label: Modごとに出力
+			Tooltip: オンの時、Modごとに分けて出力されます。
+		}
+
+		WhenToOutput: {
+			Label: 出力するタイミング
+			Tooltip:
+				'''
+				いつ出力するかを選択します。
+				[c/FF0000:現在"セットアップ後"のみ機能します。]
+				[c/FF0000:"セットアップ後"もしくはtModLoader標準機能を利用してください]
+				- Modファイルのロード直後: Modオリジナルのローカライズファイルをロードした直後。ファイルには何の修正も加えられていません。
+				- ローカライズ直後: このModによって翻訳された直後。
+				- セットアップ後: すべてのModがロードされた後。Modによっては完全に準備が終わっていない場合があるので注意。
+				'''
+		}
+
+		LocalizationDir: {
+			Label: 入力ディレクトリ
+			Tooltip: hjsonファイルを読み込むディレクトリ
+		}
+
+		ExtractionDir: {
+			Label: 出力ディレクトリ
+			Tooltip: hjsonファイルを出力するディレクトリ
+		}
+	}
+
+	ExtractCategoryOption: {
+		Tooltip: ""
+
+		All: {
+			Label: すべて
+		}
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		Mods: {
+			Label: モッド
+		}
+	}
+
+	WhenToOutputOption: {
+		Tooltip: ""
+
+		AfterFilesAreLoaded: {
+			Label: Modファイルのロード直後
+		}
+
+		AfterTranslatedByThisMod: {
+			Label: ローカライズ直後
+		}
+
+		AfterSetup: {
+			Label: セットアップ後
+		}
+	}
+
+	LocalizationConfig: {
+		DisplayName: ローカライズの設定
+
+		Headers: {
+			PatchHeader: パッチ
+			LocalizationHeader: ローカライズ
+			FiltersHeader: フィルター
+		}
+
+		EnableBossChecklistPatch: {
+			Label: BossChecklistのパッチを有効化
+			Tooltip: メッセージボックスにワイド文字を表示できない問題を修正します
+		}
+
+		EnableFargoEnemyModifiersPatch: {
+			Label: FargoEnemyModifiersのパッチを有効化
+			Tooltip: モンスターの上に表示される文字がローカライズできない問題を修正します
+		}
+
+		EnableWrathOfTheGodsPatch: {
+			Label: Calamity: Wrath of the Godsのパッチを有効化
+			Tooltip: カスタムフォントを無効にすることで、カットシーンで文字化けする問題を修正します
+		}
+
+		EnableTerraTcgPatch: {
+			Label: TerraTCGのパッチを有効化
+			Tooltip: フォントサイズやプレビューサイズを最適化します
+		}
+
+		EnableCalamityPatch: {
+			Label: Calamity Patchのパッチを有効化
+			Tooltip: カスタムフォントを無効にすることで、文字化けする問題を修正します
+		}
+
+		EnableLocalizer: {
+			Label: ローカライズを有効化
+			Tooltip: オンの時、外部からローカライゼーションファイルを読み込みます。
+		}
+
+		LanguageKey: {
+			Label: 言語キー
+			Tooltip: 読み込みたい言語のキー 例: ja-JP
+		}
+
+		CustomFilters: {
+			Label: カスタムフィルター
+			Tooltip:
+				'''
+				パス(hjsonのkeyを"."でつなげたもの)がマッチするローカライズをスキップします。
+				正規表現が使えます。
+				例:
+				 - バニラのアイテム名を除外する -> ^ItemName\.
+				 - Modのアイテム名を除外する ->  Mods\..*?\.Items\..*\.DisplayName$
+				'''
+		}
+
+		PresetFilters: {
+			Label: プリセット
+			Tooltip: ""
+		}
+
+		FilterTemplates: {
+			DamageClasses: ダメージクラスを除く
+			InfoDisplays: インフォメーションディスプレイを除く
+			Biomes: バイオームを除く
+
+			Buffs: {
+				Name: バフの名前を除く
+				Tooltip: バフのツールチップを除く
+			}
+
+			Items: {
+				Name: アイテムの名前を除く
+				Tooltip: アイテムのツールチップを除く
+			}
+
+			Prefixes: プレフィックスを除く
+			Projectiles: プロジェクタイルを除く
+			ResourceDisplaySets: ResourceDisplaySetsを除く
+
+			Tiles: {
+				ContainerName: タイルのContainerNameを除く
+				MapEntry: タイルのMapEntryを除く
+			}
+
+			Keybinds: キーバインドを除く
+
+			NPC: {
+				Name: NPCの名前を除く
+				Mood: NPCとの会話文を除く
+			}
+
+			Config: コンフィグを除く
+		}
+
+		ItemNameFormat: {
+			Label: アイテム名の表示形式
+			Tooltip: ""
+		}
+	}
+
+	ItemNameFormatOption: {
+		Tooltip: ""
+
+		Normal: {
+			Label: '''"[c/FFAAFF:{翻訳後}]"'''
+		}
+
+		WithSub: {
+			Label: '''"[c/FFFFAA:{原文}] ([c/FFAAFF:{翻訳後}])"'''
+		}
+
+		WithOriginal: {
+			Label: '''"[c/FFAAFF:{翻訳後}] ([c/FFFFAA:{原文}])"'''
+		}
+	}
+
+	Filter: {
+		Tooltip: ""
+
+		LocalizeKey: {
+			Label: Localize Key
+			Tooltip: ""
+		}
+
+		Regexes: {
+			Label: Regexes
+			Tooltip: ""
+		}
+
+		Regex: {
+			Label: Regex
+			Tooltip: ""
+		}
+
+		Enable: {
+			Label: Enable
+			Tooltip: ""
+		}
+
+		LocalizedValue: {
+			Label: Localized Value
+			Tooltip: ""
+		}
+	}
+
+	MiscConfig: {
+		DisplayName: その他の設定
+
+		WelcomeMessage: {
+			Label: ワールド入場時のメッセージを表示
+			Tooltip:
+				'''
+				ワールド入場時のメッセージを表示します。
+				注意事項などの重要な情報が含まれている可能性があります。
+				'''
+		}
+	}
+}
+
+WelcomeMessage: {
+	OldFilesInfo:
+		'''
+		External Localizer & Japanese Packのご利用ありがとうございます！
+		ローカライズはJapanese Packより、Localizationフォルダが優先されます。
+		Localizationフォルダに古いhjsonファイルがある場合、翻訳のアップデートが反映されないのでご注意ください。
+		上手くいかない場合、ファイルを全て削除するか、別の場所に移動させてみてください。
+		'''
+	JapanesePackInfo:
+		'''
+		External Localizer のご利用ありがとうございます！
+		External localizer Japanese Packをインストールすると、追加ファイルなしで日本語化が可能になり、翻訳のアップデートも自動化されます。
+		ぜひ「External Localizer Japanese Pack」で検索してサブスクライブしてください！
+		'''
+	StableAndBetaWarn:
+		'''
+		ExternalLocalizerの安定版とベータ版が同時に有効化されています。
+		予期せぬ問題が発生する可能性があるので、どちらかを無効化してください。
+		'''
+	BetaInfo:
+		'''
+		External Localizer ベータ版 のご利用ありがとうございます！
+		ベータ版は新機能のテストを目的としています。
+		Japanese Packを利用したい方は、v1.14.5以降の安定版をご利用ください。
+		バグ報告やフィードバックはDiscordの #バグ報告-要望 にお願いします。
+		'''
+}
+

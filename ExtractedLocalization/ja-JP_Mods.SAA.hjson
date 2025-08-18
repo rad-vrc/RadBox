@@ -1,0 +1,1095 @@
+DamageClass: {
+	Botanist: 植物ダメージ
+}
+
+PlayerDeathReason1: 食べ過ぎで死にました
+
+PlayerDeathReason2: 飢えで死にました
+
+Tooltips: {
+	1: 満腹度を増加
+	2: 耕地に植えられる
+	3: 草地に植えられる
+	4: あまり新鮮ではない
+	5: 腐りかけている
+}
+
+Cook: 調理ポットを使って調理する
+
+Book: {
+	0:
+		'''
+		「満腹度＆農業」へようこそ、本を使うか右クリックで読み進めます
+		現在のコンテンツはまだ充実中であり、後でさらに面白い内容が追加されます
+		'''
+	1:
+		'''
+		このMODは複雑ではありません。商人から鍬を買うだけで始められます
+		鍬で土を叩くと畑が耕され、畑の周りに水があると湿った状態になります
+		'''
+	2:
+		'''
+		作物は熟したときに鎌で切る必要があり、できるだけ多くの種を得られます
+		一部の作物は熟した後に右クリックで摘み取れ、他のものは完全に熟するのを待たずに摘めます
+		種のほとんどの入手元は野生の探索で、野生の植物も鎌を使うとさらに種が得られます
+		'''
+	3:
+		'''
+		初期段階では、ドングリをキャンプファイアでローストして移行期の食料にできます
+		鉄鉱石を掘るときに作るバーベキューボンファイアで、さらに多くの食料選択肢が得られます
+		'''
+	4:
+		'''
+		このMODは元のレシピを一部調整し、多くの新しいレシピを追加します。必要に応じて「Recipe Browser」を購読して簡単に検索・閲覧できます
+		注意: このMODはすべてのMODの食料源を説明していません、ご了承ください
+		'''
+}
+
+ArmorSet: {
+	草帽:
+		'''
+		収穫量増加5%
+		植物ダメージ増加5%
+		'''
+}
+
+Tiles: {
+	烤肉篝火: {
+		MapEntry: バーベキューボンファイア
+	}
+
+	牛奶发酵桶: {
+		MapEntry: ミルク発酵桶
+	}
+
+	白蘑木桩: {
+		MapEntry: 白キノコ杭
+	}
+
+	白蘑树桩: {
+		MapEntry: 白キノコの木杭
+	}
+
+	Arable: {
+		MapEntry: 耕地
+	}
+
+	海麦作物: {
+		MapEntry: 海小麦作物
+	}
+
+	生命果实: {
+		MapEntry: 生命の果実
+	}
+
+	蓝莓: {
+		MapEntry: ブルーベリー
+	}
+
+	苹果树: {
+		MapEntry: リンゴの木
+	}
+
+	冰箱: {
+		MapEntry: 冷蔵庫
+		MapEntry0: 冷蔵庫
+		MapEntry1: 冷蔵庫
+	}
+
+	火龙果: {
+		MapEntry: ドラゴンフルーツ
+	}
+
+	鸭笼: {
+		MapEntry: アヒルの檻
+	}
+
+	野鸭笼: {
+		MapEntry: 野生のアヒルの檻
+	}
+
+	丛林鸟巢: {
+		MapEntry: ジャングル鳥の巣
+	}
+
+	李子树: {
+		MapEntry: プラムの木
+	}
+
+	血橙树: {
+		MapEntry: ブラッドオレンジの木
+	}
+
+	辣椒: {
+		MapEntry: 唐辛子
+	}
+
+	黑醋栗: {
+		MapEntry: ブラックカラント
+	}
+
+	丛林孢子: {
+		MapEntry: ジャングル胞子
+	}
+
+	海带缸: {
+		MapEntry: ケルプジャー
+	}
+
+	棉花: {
+		MapEntry: 綿
+	}
+
+	咬人甘蓝: {
+		MapEntry: 噛みつきケール
+	}
+
+	向日葵: {
+		MapEntry: ヒマワリ
+	}
+
+	杏树: {
+		MapEntry: アプリコットの木
+	}
+
+	柠檬树: {
+		MapEntry: レモンの木
+	}
+
+	桃树: {
+		MapEntry: 桃の木
+	}
+
+	芒果树: {
+		MapEntry: マンゴーの木
+	}
+
+	菠萝: {
+		MapEntry: パイナップル
+	}
+
+	蜗牛牧场: {
+		MapEntry: ミルクスネイル牧場
+	}
+
+	血腥蜗牛牧场: {
+		MapEntry: ミルクスネイル牧場
+	}
+
+	樱桃树: {
+		MapEntry: チェリーの木
+	}
+
+	杨桃树: {
+		MapEntry: スターフルーツの木
+	}
+
+	配种机: {
+		MapEntry: 繁殖マシン
+	}
+
+	䴙䴘笼: {
+		MapEntry: カイツブリの檻
+	}
+}
+
+Buffs: {
+	一级饱和: {
+		DisplayName: 満腹I
+		Description: すべての属性がわずかに向上しました
+	}
+
+	三级饱和: {
+		DisplayName: 満腹III
+		Description: すべての属性が大きく向上しました
+	}
+
+	二级饱和: {
+		DisplayName: 満腹II
+		Description: すべての属性が中程度に向上しました
+	}
+
+	强效饱和: {
+		DisplayName: 満腹IV
+		Description: すべての属性がより大きく向上しました
+	}
+
+	腐球免疫: {
+		DisplayName: 特別な免疫
+		Description: 魔法の火と呪いへの免疫
+	}
+
+	超级饱和: {
+		DisplayName: 満腹V
+		Description: すべての属性が最も大きく向上しました
+	}
+
+	酸甜可口: {
+		DisplayName: 甘酸っぱい
+		Description: 酸味を多く摂って消化を助けます
+	}
+
+	饱腹: {
+		DisplayName: 満腹
+		Description:
+			'''
+			満腹度が遅く減少します
+			"ちょっとお腹いっぱい。"
+			'''
+	}
+
+	饱食之火: {
+		DisplayName: 満腹の火
+		Description: 満腹度が遅く減少します
+	}
+
+	饿瘪了: {
+		DisplayName: 飢餓
+		Description: 飢えています！今すぐ何か食べて！
+	}
+
+	短爬兽Buff: {
+		DisplayName: ブラキスベビー
+		Description: ブラキスベビーがあなたについてきます
+	}
+
+	饥饿: {
+		DisplayName: 空腹
+		Description: お腹が空いて弱っていると感じます。
+	}
+
+	吃撑: {
+		DisplayName: 満腹
+		Description: もうこれ以上食べないで！
+	}
+
+	腹泻: {
+		DisplayName: 下痢
+		Description: 属性が低下し、満腹度が早く減少します
+	}
+}
+
+Items: {
+	求生手册: {
+		DisplayName: サバイバルマニュアル
+		Tooltip:
+			'''
+			弱さと毒への免疫
+			満腹度が遅く減少し、餓死しません
+			つる植物を切ってつるロープにできます
+			"何を食べたのか誰も知らない"
+			'''
+	}
+
+	乌贼: {
+		DisplayName: イカ
+		Tooltip: '''"目にも止まらぬ速さで！"'''
+	}
+
+	云锦果: {
+		DisplayName: クラウドフルーツ
+		Tooltip: 空の島に育つ果実で、とても柔らかいです
+	}
+
+	云锦面包: {
+		DisplayName: クラウドブレッド
+		Tooltip:
+			'''
+			サクサクのパンと完璧に処理された酸味が組み合わさり、誰にでも合う美味しさ
+			ゆっくり降下する効果を与えます
+			'''
+	}
+
+	全家桶: {
+		DisplayName: ファミリーミール
+		Tooltip: '''"クレイジー木曜日、俺に50くれ"'''
+	}
+
+	吐司面包: {
+		DisplayName: トーストパン
+		Tooltip: ""
+	}
+
+	奶油: {
+		DisplayName: クリーム
+		Tooltip: '''"スイーツ好きにはたまらないね！"'''
+	}
+
+	奶油吐司面包: {
+		DisplayName: クリームトーストパン
+		Tooltip: ""
+	}
+
+	奶油面包: {
+		DisplayName: クリームパン
+		Tooltip: ""
+	}
+
+	奶酪: {
+		DisplayName: チーズ
+		Tooltip: '''"一部の人にはその味が苦手かもしれない"'''
+	}
+
+	李子面包: {
+		DisplayName: プラムパン
+		Tooltip: ""
+	}
+
+	杏子面包: {
+		DisplayName: アプリコットパン
+		Tooltip: ""
+	}
+
+	杨桃面包: {
+		DisplayName: スターフルーツパン
+		Tooltip: ""
+	}
+
+	柠檬面包: {
+		DisplayName: レモンパン
+		Tooltip: ""
+	}
+
+	桃子面包: {
+		DisplayName: 桃パン
+		Tooltip: ""
+	}
+
+	椰蓉: {
+		DisplayName: ココナッツフレーク
+		Tooltip: ""
+	}
+
+	樱桃面包: {
+		DisplayName: チェリーパン
+		Tooltip: ""
+	}
+
+	油果: {
+		DisplayName: ファットフルーツ
+		Tooltip: 小さな体に大きなエネルギーが秘められています
+	}
+
+	油炸白蘑菇: {
+		DisplayName: フライド白キノコ
+		Tooltip: ""
+	}
+
+	油炸翅尖: {
+		DisplayName: フライド手羽先
+		Tooltip: ""
+	}
+
+	油炸翅根: {
+		DisplayName: フライド手羽元
+		Tooltip: ""
+	}
+
+	油炸鸡腿: {
+		DisplayName: フライドチキンレッグ
+		Tooltip: ""
+	}
+
+	油罐: {
+		DisplayName: オイルボトル
+		Tooltip: 揚げるための必須材料
+	}
+
+	海带: {
+		DisplayName: ケルプ
+		Tooltip: 深海に生える海草と共生し、海水の塩分をよく吸収できます
+	}
+
+	海水: {
+		DisplayName: 水
+		Tooltip: 海生子で水中の塩分を吸収してから飲み、その後海生子ごと食べて少し満腹度を回復します
+	}
+
+	海鲜浓汤: {
+		DisplayName: シーフードチャウダー
+		Tooltip: お腹を満たしてくれます
+	}
+
+	海麦: {
+		DisplayName: 海小麦
+		Tooltip: 海の近くで育つ小麦です。
+	}
+
+	海麦面包: {
+		DisplayName: パン
+		Tooltip: ""
+	}
+
+	烤乌贼: {
+		DisplayName: 焼きイカ
+		Tooltip: ""
+	}
+
+	烤短爬兽排: {
+		DisplayName: グリルステーキ
+		Tooltip: ""
+	}
+
+	烤蚜虫: {
+		DisplayName: グリルアブラムシ
+		Tooltip: ""
+	}
+
+	烤蛆虫: {
+		DisplayName: グリルウジ虫
+		Tooltip: ""
+	}
+
+	烤蝇蛆: {
+		DisplayName: グリルハエのウジ
+		Tooltip: ""
+	}
+
+	烤鱼: {
+		DisplayName: 焼き魚
+		Tooltip: ""
+	}
+
+	烤鼻涕虫: {
+		DisplayName: グリルナメクジ
+		Tooltip: ""
+	}
+
+	牛奶: {
+		DisplayName: ミルク
+		Tooltip: '''"テラの世界に牛がいるなんて、うーん、絶対普通の牛じゃないね"'''
+	}
+
+	生翅尖: {
+		DisplayName: 生の手羽先
+		Tooltip: ""
+	}
+
+	生翅根: {
+		DisplayName: 生の手羽元
+		Tooltip: ""
+	}
+
+	生鸡腿: {
+		DisplayName: 生の鶏もも肉
+		Tooltip: ""
+	}
+
+	白蘑菇: {
+		DisplayName: 白キノコ
+		Tooltip: 木の切り株や杭の近くで見つかります
+	}
+
+	短爬兽排: {
+		DisplayName: ステーキ
+		Tooltip: ブラキスの背肋肉で、頻繁なストレッチ運動により食感がしっかりしています
+	}
+
+	碳烤蟹棒: {
+		DisplayName: グリルカニカマ
+		Tooltip: ""
+	}
+
+	腐球果: {
+		DisplayName: パープルフルーツ
+		Tooltip: 腐敗の地の茨の実と言われ、甘くて濃厚な味がします
+	}
+
+	腐球果饮: {
+		DisplayName: パープルドリンク
+		Tooltip:
+			'''
+			処理された腐球果に少量の塩水を加えたもので、ほどよい味わいです
+			特別な免疫効果を与えます
+			'''
+	}
+
+	芒果面包: {
+		DisplayName: マンゴーパン
+		Tooltip: ""
+	}
+
+	苹果面包: {
+		DisplayName: リンゴパン
+		Tooltip: ""
+	}
+
+	菠萝面包: {
+		DisplayName: パイナップルパン
+		Tooltip: ""
+	}
+
+	葡萄柚面包: {
+		DisplayName: グレープフルーツパン
+		Tooltip: ""
+	}
+
+	蜂蜜面包: {
+		DisplayName: ハニーパン
+		Tooltip: ""
+	}
+
+	蟹棒: {
+		DisplayName: カニカマ
+		Tooltip: '''"本当にこれを生で食べるつもり？"'''
+	}
+
+	血橙面包: {
+		DisplayName: ブラッドオレンジパン
+		Tooltip: ""
+	}
+
+	血角: {
+		DisplayName: ブラッドフルーツ
+		Tooltip: 血の地の茨の実と言われ、辛味が強いです
+	}
+
+	贝克斯炖肉: {
+		DisplayName: 煮込み肉
+		Tooltip:
+			'''
+			最初に発見されたブラキスはベックスと名付けられ、この料理の由来となりました
+			一時的な怒りの効果を与えます
+			'''
+	}
+
+	酸奶: {
+		DisplayName: ヨーグルト
+		Tooltip: '''"心配しないで、消化には役立たないよ"'''
+	}
+
+	鱼翅: {
+		DisplayName: サメのヒレ
+		Tooltip: '''"取引がなければ殺戮もない"'''
+	}
+
+	鱼藻复合粉: {
+		DisplayName: うま味調味料
+		Tooltip: ""
+	}
+
+	麻辣金鱼汤: {
+		DisplayName: スパイシーフィッシュスープ
+		Tooltip: 怒りの効果を与えます
+	}
+
+	黄油: {
+		DisplayName: バター
+		Tooltip: ""
+	}
+
+	黑醋栗面包: {
+		DisplayName: ブラックカラントパン
+		Tooltip: ""
+	}
+
+	丰收镰刀: {
+		DisplayName: 収穫鎌
+		Tooltip:
+			'''
+			プレイヤーが素早く種を収集するのを助けますが、干し草は収集できません
+			野生の果物や野菜を収集するのに使うと収穫量が増えます
+			'''
+	}
+
+	种子机关枪: {
+		DisplayName: タネマシンガン
+		Tooltip: 「行け！フシギダネ、タネマシンガンを使え！」
+	}
+
+	奶蜗牛: {
+		DisplayName: ミルクスネイル
+		Tooltip: ""
+	}
+
+	草球: {
+		DisplayName: 草のボール
+		Tooltip: ""
+	}
+
+	烤肉丛林篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉冰冻篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉彩虹篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉恶魔篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉沙漠篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉灵液篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉猩红篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉珊瑚篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉神圣篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉腐化篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉诅咒篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉超亮篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	烤肉骨头篝火: {
+		DisplayName: バーベキューボンファイア
+		Tooltip: ""
+	}
+
+	牛奶发酵桶: {
+		DisplayName: ミルク発酵タンク
+		Tooltip: ""
+	}
+
+	消化药水: {
+		DisplayName: 消化の薬
+		Tooltip:
+			'''
+			消化を助けます
+			"これ、本当にミックスジュースじゃないの？"
+			'''
+	}
+
+	锄头: {
+		DisplayName: 鍬
+		Tooltip: 普通の土を耕地に変えます
+	}
+
+	海燕麦种子: {
+		DisplayName: 海小麦の種
+		Tooltip: '''"誰がこれが砂浜でしか育たないと言ったんだ"'''
+	}
+
+	生命果实种子: {
+		DisplayName: 生命果実の種
+		Tooltip: ""
+	}
+
+	蓝莓: {
+		DisplayName: ブルーベリー
+		Tooltip: ""
+	}
+
+	蓝莓种子: {
+		DisplayName: ブルーベリーの種
+		Tooltip: ""
+	}
+
+	接骨木果面包: {
+		DisplayName: エルダーベリーパン
+		Tooltip: ""
+	}
+
+	蓝莓面包: {
+		DisplayName: ブルーベリーパン
+		Tooltip: ""
+	}
+
+	苹果种子: {
+		DisplayName: リンゴの種
+		Tooltip: ""
+	}
+
+	金坷垃: {
+		DisplayName: キンカラ
+		Tooltip: ""
+	}
+
+	冰箱: {
+		DisplayName: 冷蔵庫
+		Tooltip: ""
+	}
+
+	蛋: {
+		DisplayName: 卵
+		Tooltip: ""
+	}
+
+	火龙果种子: {
+		DisplayName: ピタヤの種
+		Tooltip: ""
+	}
+
+	石榴面包: {
+		DisplayName: ザクロパン
+		Tooltip: ""
+	}
+
+	烤兔兔: {
+		DisplayName: ローストラビット
+		Tooltip: ""
+	}
+
+	鸭笼: {
+		DisplayName: アヒルの檻
+		Tooltip: 設置後に右クリックで種を餌として与えます
+	}
+
+	野鸭笼: {
+		DisplayName: 野生のアヒルの檻
+		Tooltip: 設置後に右クリックで種を餌として与えます
+	}
+
+	李子种子: {
+		DisplayName: プラムの種
+		Tooltip: ""
+	}
+
+	血橙种子: {
+		DisplayName: ブラッドオレンジの種
+		Tooltip: ""
+	}
+
+	辣椒种子: {
+		DisplayName: 唐辛子の種
+		Tooltip: ""
+	}
+
+	黑醋栗种子: {
+		DisplayName: ブラックカラントの種
+		Tooltip: ""
+	}
+
+	海带缸: {
+		DisplayName: ケルプジャー
+		Tooltip: 熟したときにケルプを摘むことができます
+	}
+
+	草帽: {
+		DisplayName: 麦わら帽子
+		Tooltip: 収穫量増加5%
+	}
+
+	棉线: {
+		DisplayName: 綿糸
+		Tooltip: ""
+	}
+
+	棉花: {
+		DisplayName: 綿
+		Tooltip: ""
+	}
+
+	采摘裤: {
+		DisplayName: ピッカーパンツ
+		Tooltip:
+			'''
+			移動速度増加5%
+			収穫量増加5%
+			'''
+	}
+
+	棉花种子: {
+		DisplayName: 綿の種
+		Tooltip: ""
+	}
+
+	烤橡实: {
+		DisplayName: ローストドングリ
+		Tooltip: ""
+	}
+
+	小肉: {
+		DisplayName: 肉
+		Tooltip: ""
+	}
+
+	烤小肉: {
+		DisplayName: ローストミート
+		Tooltip: ""
+	}
+
+	咬人甘蓝: {
+		DisplayName: 噛みつきケール
+		Tooltip: ""
+	}
+
+	咬人甘蓝种子: {
+		DisplayName: 噛みつきケールの種
+		Tooltip: ""
+	}
+
+	采摘衣: {
+		DisplayName: 採取服
+		Tooltip: 収穫量増加5%
+	}
+
+	瓜子: {
+		DisplayName: ヒマワリの種
+		Tooltip: ""
+	}
+
+	向日葵种子: {
+		DisplayName: 発芽したヒマワリの種
+		Tooltip: ""
+	}
+
+	杏树种子: {
+		DisplayName: アプリコットの核
+		Tooltip: ""
+	}
+
+	血腥奶蜗牛: {
+		DisplayName: ミルクスネイル
+		Tooltip: ""
+	}
+
+	柠檬种子: {
+		DisplayName: レモンの種
+		Tooltip: ""
+	}
+
+	桃核: {
+		DisplayName: 桃の核
+		Tooltip: ""
+	}
+
+	芒果种子: {
+		DisplayName: マンゴーの種
+		Tooltip: ""
+	}
+
+	高级肥料: {
+		DisplayName: 高級肥料
+		Tooltip: ""
+	}
+
+	菠萝头: {
+		DisplayName: パイナップルの冠芽
+		Tooltip: ""
+	}
+
+	农业百科: {
+		DisplayName: 農業百科事典
+		Tooltip: ""
+	}
+
+	长棍: {
+		DisplayName: 長い棒
+		Tooltip: 繰り返し収穫可能な作物を集めるために使用されます
+	}
+
+	蜗牛牧场: {
+		DisplayName: ミルクスネイル牧場
+		Tooltip: ""
+	}
+
+	血腥蜗牛牧场: {
+		DisplayName: ミルクスネイル牧場
+		Tooltip: ""
+	}
+
+	樱桃种子: {
+		DisplayName: チェリーの種
+		Tooltip: ""
+	}
+
+	杨桃种子: {
+		DisplayName: スターフルーツの種
+		Tooltip: ""
+	}
+
+	作物采集器: {
+		DisplayName: 作物収集機
+		Tooltip: 簡単に収穫できる農産物を集めます
+	}
+
+	香酥鸡腿堡: {
+		DisplayName: チキンドラムスティックバーガー
+		Tooltip: ""
+	}
+
+	东方树叶: {
+		DisplayName: オリエンタルリーフ
+		Tooltip: ""
+	}
+
+	绿茶: {
+		DisplayName: 緑茶
+		Tooltip: ""
+	}
+
+	配种机: {
+		DisplayName: 繁殖マシン
+		Tooltip: 大型および中型生物が繁栄するための環境を提供します
+	}
+
+	䴙䴘笼: {
+		DisplayName: カイツブリの檻
+		Tooltip: ""
+	}
+
+	腐烂物: {
+		DisplayName: 腐敗物
+		Tooltip: ""
+	}
+
+	竹笋: {
+		DisplayName: タケノコ
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	奶牛: {
+		DisplayName: ミルクスネイル
+	}
+
+	短爬兽: {
+		DisplayName: ブラキス
+	}
+
+	丛莺: {
+		DisplayName: ブッシュウォーブラー
+	}
+
+	血腥奶牛: {
+		DisplayName: ミルクスネイル
+	}
+}
+
+Projectiles: {
+	短爬兽宝宝: {
+		DisplayName: ブラキスベビー
+	}
+
+	咬人甘蓝: {
+		DisplayName: 噛みつきケール
+	}
+
+	施肥: {
+		DisplayName: 肥料
+	}
+
+	采集: {
+		DisplayName: 材料採取
+	}
+}
+
+Configs: {
+	Configs: {
+		DisplayName: サーバー設定
+
+		HungerCausePlayerDown: {
+			Label: 満腹度による体力制御スイッチ
+			Tooltip: はい: 満腹度がゼロになると体力が減ります。いいえ: キャンセル。デフォルトはいいえ
+		}
+
+		Magnification: {
+			Label: 作物と牧草の成長生産比率
+			Tooltip: 成長率には上限があります。十分に大きな値を調整すると、すべての作物が牧草の成長率に揃います
+		}
+
+		GrownCut: {
+			Label: 作物が熟したら収穫
+			Tooltip: はい: 鎌は成熟した作物のみを収穫します。いいえ: キャンセル。デフォルトはいいえ
+		}
+
+		HungerCutIndex: {
+			Label: 満腹度消費速度
+			Tooltip: ""
+		}
+
+		ReproductiveRate: {
+			Label: 繁殖率倍率
+			Tooltip: ""
+		}
+
+		FoodSpoilt: {
+			Label: 食べ物の腐敗スイッチ
+			Tooltip: はい: 食べ物が長期間保存できなくなります。いいえ: キャンセル。デフォルトははい
+		}
+	}
+
+	ClientConfigs: {
+		DisplayName: クライアント設定
+
+		UIoffsetX: {
+			Label: 満腹度UIの水平位置調整
+			Tooltip: この値を減らすとUIが左に移動し、増やすと右に移動します
+		}
+	}
+}
+
+ChangeLog:
+	'''
+	v0.1.9: 食べ物が腐るようになり、一部の食材が食用可能になりました。
+	食べ物を長持ちさせたい場合は、冷蔵庫に入れることができます。
+	生の食べ物や腐った食べ物は下痢を引き起こす可能性があります。
+	v0.1.8：繁殖マシンを追加しました。
+	カイツブリの檻を追加しました。
+	小さな肉をドロップする動物の種類が増えました。
+	v0.1.7：新しい調理システムが追加され、調理ポットを使用するレシピには木材などの燃料が必要です。
+	クリスピーチキンレッグバーガーとそのレシピを追加しました。
+	オーガがドロップする茶葉を追加し、緑茶に合成できます。
+	一部のレシピの作成場所を変更しました。
+	v0.1.6：作物収集機を追加しました。
+	ストア拡張モッドに対応しました。
+	ボンファイアの判定がワールド境界で溢れる問題を修正しました。
+	チェリーの種とチェリー作物を追加しました。
+	スターフルーツの種とスターフルーツ作物を追加しました。
+	満腹度の消費速度設定を増加しました。
+	v0.1.5: 綿の収穫量を調整しました。
+	高級肥料を増加しました。
+	パイナップル植物を追加しました。
+	ヒマワリの植栽と関連アイテムを追加し、ドロップ合成に対応しました。
+	アーモンドの木と関連アイテムを追加しました。
+	ブラッディー・カウを追加しました。
+	ミルクの無限合成方法を削除しました。
+	フライレシピと満腹度を調整しました。
+	種袋の描画を調整しました。
+	トライアルモッドの宣伝を追加しました。
+	v0.1.4：アイテムID表示の問題を修正しました。
+	服やセットの採取効果を増加しました。
+	v0.1.3：UI調整設定を追加しました。
+	敵のゴールドドロップが元の1/10に調整されました。
+	噛みつきケールとその植え方を追加しました。種はツリーデーモンから購入できます。
+	綿を摘んだ後、植物が壊れ、種がドロップするようにしました。
+	v0.1.2：リスとウサギが積極的にプレイヤーから遠ざかるようになりました。
+	麦わら帽子とピッカーパンツを追加し、シルクのレシピを変更しました。
+	綿とその植物、虫取り網のレシピ、ローストドングリを追加し、UI描画と採取感を改善しました。
+	v0.1.1: 英語翻訳をさらに追加しました。
+	ジャングル胞子の栽培を増加しました。海草タンクを追加しました。一部の成長率を修正しました。
+	'''
+

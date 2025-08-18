@@ -1,0 +1,29 @@
+{
+	Items: {
+		PortableWormhole: {
+			DisplayName: "ポータブルワームホール"
+			Tooltip: "'''\nフルスクリーンマップでパーティーメンバーやNPCの頭をクリックしてテレポート\n貯金箱、金庫、虚空の金庫、ディフェンダーの金庫内でも機能する（有効な場合）\n'''"
+		}
+	}
+	Configs: {
+		PortableWormholeConfig: {
+			DisplayName: "ポータブルワームホール設定"
+			AllowTeleportingToNPCs: {
+				Label: "NPCへのテレポートを許可"
+				Tooltip: "プレイヤーが町のNPCにテレポートできるようにする"
+			}
+			AllowUsingFromBanks: {
+				Label: "銀行からの使用を許可"
+				Tooltip: "貯金箱、金庫、虚空の金庫、またはディフェンダーの金庫に入っている状態でもポータブルワームホールの機能を使用できるようにする"
+			}
+			RequireCrystalBall: {
+				Label: "水晶玉を要求"
+				Tooltip: "これを無効にすると、ポータブルワームホールを手でクラフトできるようになる（クラフトステーション不要）"
+			}
+			NumRequiredWormholePotions: {
+				Label: "クラフトに必要なワームホールポーションの数"
+				Tooltip: "ポータブルワームホールのクラフトに必要なワームホールポーションの数"
+			}
+		}
+	}
+}

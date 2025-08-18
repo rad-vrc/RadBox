@@ -1,0 +1,195 @@
+Buffs: {
+	Adrenaline: {
+		DisplayName: アドレナリン
+		Description: "ダメージ増加50%、攻撃速度増加30%、移動速度増加30%、受けるダメージ減少10%"
+	}
+
+	Bleeding: {
+		DisplayName: 出血
+		Description: 時間経過でダメージを受ける
+	}
+
+	BurningAir: {
+		DisplayName: 燃える空気
+		Description: 時間経過でライフを失うか回復する
+	}
+
+	Chilled: {
+		DisplayName: 冷気
+		Description: 与えるダメージが変化する
+	}
+
+	ChilledAir: {
+		DisplayName: 冷たい空気
+		Description: 与えるダメージが変化する
+	}
+
+	DamageOverTime: {
+		DisplayName: 持続ダメージ
+		Description: 時間経過でダメージを受ける
+	}
+
+	Ignited: {
+		DisplayName: 発火
+		Description: 時間経過でライフを失うか回復する
+	}
+
+	MoveSpeed: {
+		DisplayName: ダメージ持続デバフ
+		Description: 時間経過でダメージを受ける
+	}
+
+	Poisoned: {
+		DisplayName: 毒
+		Description: 時間経過でダメージを受ける
+	}
+
+	Shocked: {
+		DisplayName: 感電
+		Description: 受けるダメージが変化する
+	}
+
+	ShockedAir: {
+		DisplayName: 感電空気
+		Description: 受けるダメージが変化する
+	}
+
+	StackingDamageOverTime: {
+		DisplayName: 累積持続ダメージ
+		Description: 時間経過で累積するダメージを受ける
+	}
+
+	StaticStrike: {
+		DisplayName: 静電攻撃
+		Description: 周囲のものを定期的に攻撃する
+	}
+}
+
+Items: {
+	Map: {
+		DisplayName: マップ
+		Tooltip: マップデバイス内で起動すると新しい世界を開く。
+	}
+
+	MapBorder: {
+		DisplayName: マップ境界
+		Tooltip: マップが生成される矩形の輪郭を示す。
+	}
+
+	MapDevice: {
+		DisplayName: マップデバイス
+		Tooltip: 他の世界を開くために使用される。
+	}
+
+	ModifierForge: {
+		DisplayName: モディファイア鍛造所
+		Tooltip: モディファイアを鍛造する。モディファイアを変更する。
+	}
+
+	ModifierFragment: {
+		DisplayName: モディファイアの欠片
+		Tooltip: モディファイア鍛造所でモディファイアを変更するために使用される。
+	}
+}
+
+Projectiles: {
+	BurningAir: {
+		DisplayName: 燃える空気
+	}
+
+	ChainLightning: {
+		DisplayName: 連鎖雷
+	}
+
+	ChilledAir: {
+		DisplayName: 冷たい空気
+	}
+
+	Fireball: {
+		DisplayName: ファイアボール
+	}
+
+	FrostPulse: {
+		DisplayName: フロストパルス
+	}
+
+	IceBurst: {
+		DisplayName: アイスバースト
+	}
+
+	Icicle: {
+		DisplayName: つらら
+	}
+
+	LifeOrb: {
+		DisplayName: ライフオーブ
+	}
+
+	LightningBolt: {
+		DisplayName: 雷撃
+	}
+
+	MagmaOrb: {
+		DisplayName: マグマオーブ
+	}
+
+	Meteor: {
+		DisplayName: メテオ
+	}
+
+	MoltenShellExplosion: {
+		DisplayName: 溶けた殻の爆発
+	}
+
+	ReflectNova: {
+		DisplayName: ソーン・ノヴァ
+	}
+
+	StaticStrike: {
+		DisplayName: 静電攻撃
+	}
+}
+
+Tiles: {
+	ModifierForge: {
+		MapEntry: モディファイア鍛造所
+	}
+}
+
+Keybinds: {
+	"Toggle Debug Menu": {
+		DisplayName: デバッグメニューの切り替え
+	}
+}
+
+Prefixes: {
+	PoMPrefix: {
+		DisplayName: PoMプレフィックス
+	}
+}
+
+Configs: {
+	PoMConfigServer: {
+		DisplayName: PoM設定サーバー
+
+		DisableVanillaPrefixesWeapons: {
+			Label: 武器のバニラプレフィックスを無効化する試み
+			Tooltip: 最善を尽くす
+		}
+
+		DisableVanillaPrefixesAccessories: {
+			Label: アクセサリーのバニラプレフィックスを無効化する試み
+			Tooltip: 最善を尽くす
+		}
+
+		DisableMaps: {
+			Label: マップを無効化
+			Tooltip: ""
+		}
+
+		DisableNPCModifiers: {
+			Label: NPCモディファイアを無効化
+			Tooltip: ""
+		}
+	}
+}

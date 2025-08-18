@@ -1,0 +1,206 @@
+{
+	VanillaItemTooltips: {
+		PoisonDart: "着弾時に爆発する"
+	}
+	Configs: {
+		TysDartOverhaulConfig: {
+			VanillaDartChanges: {
+				Tooltip: "バニラのダーツを変更し、ビジュアルとバランスを改善する\n(デフォルトで有効)"
+				Label: "バニラのダーツへの変更"
+			}
+			AddNewAccessories: {
+				Tooltip: "新しいModのダーツサブクラス用アクセサリーを追加する\n(デフォルトで有効)"
+				Label: "新しいModのダーツアクセサリーを追加"
+			}
+			AddNewDarts: {
+				Tooltip: "新しいModのダーツ弾薬タイプを追加する\n(デフォルトで有効)"
+				Label: "新しいModのダーツを追加"
+			}
+			AddNewDartguns: {
+				Tooltip: "新しいModのダーツガンを追加する\n(デフォルトで有効)"
+				Label: "新しいModのダーツガンを追加"
+			}
+			DisplayName: "Mod設定"
+		}
+	}
+	Projectiles: {
+		IchorDartReworked: {
+			DisplayName: "イコル・ダーツ"
+		}
+		StingerDartProjectile: {
+			DisplayName: "スティンガーダーツ"
+		}
+		QueensStingerDartProjectile: {
+			DisplayName: "クイーンズ・スティンガー"
+		}
+		NecroDartProjectile: {
+			DisplayName: "ネクロダーツ"
+		}
+		BlazingDartProjectile: {
+			DisplayName: "ブレイジングダーツ"
+		}
+		VenomDartProjectile: {
+			DisplayName: "ヴェノムダーツ"
+		}
+		ShimmerDartProjectile: {
+			DisplayName: "シマーダーツ"
+		}
+		LuminiteDartProjectile: {
+			DisplayName: "ルミナイトダーツ"
+		}
+		FeatherDartProjectile: {
+			DisplayName: "フェザーダーツ"
+		}
+		EctoplasmDartEctoboltProjectile: {
+			DisplayName: "エクトボルト"
+		}
+		EctoplasmDartProjectile: {
+			DisplayName: "エクトプラズムダーツ"
+		}
+		DartProjectile: {
+			DisplayName: "ダーツ"
+		}
+		ChlorophyteDartSlashProjectile: {
+			DisplayName: "クロロファイトスラッシュ"
+		}
+		ChlorophyteDartProjectile: {
+			DisplayName: "クロロファイトダーツ"
+		}
+		CarapaceDartProjectile: {
+			DisplayName: "カラペースダーツ"
+		}
+		BoneDartProjectile: {
+			DisplayName: "ボーンダーツ"
+		}
+		BoneDartShrapnelProjectile: {
+			DisplayName: "骨の破片"
+		}
+		PhasicDartEjector_HeldProjectile: {
+			DisplayName: "フェイジックダーツイジェクター（保持）"
+		}
+		ClockworkBallista_HeldProjectile: {
+			DisplayName: "クロックワークバリスタ（保持）"
+		}
+	}
+	Items: {
+		PredatorsBandana: {
+			Tooltip: "ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる\n20%の確率でダーツを消費しない\n基本的なダーツを毒でコーティングする"
+			DisplayName: "プレデターのバンダナ"
+		}
+		AssassinsHeadband: {
+			Tooltip: "ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる\n20%の確率でダーツを消費しない\n敵に狙われにくくなる"
+			DisplayName: "アサシンのヘッドバンド"
+		}
+		HuntsmanBandana: {
+			Tooltip: "ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる\n20%の確率でダーツを消費しない"
+			DisplayName: "ハントマンのバンダナ"
+		}
+		TripleDartGlove: {
+			Tooltip: ""
+			DisplayName: "トリプルダーツグローブ"
+		}
+		TheStinger: {
+			Tooltip: "毒のあるスティンガーダーツを高速で発射する\n25%の確率で弾薬を消費しない"
+			DisplayName: "ザ・スティンガー"
+		}
+		StingOperation: {
+			Tooltip: "猛毒のスティンガーダーツを電光石火の速さで発射する\n33%の確率で弾薬を消費しない"
+			DisplayName: "スティング・オペレーション"
+		}
+		SHREDR: {
+			Tooltip: "50%の確率でダーツを消費しない"
+			DisplayName: "S.H.R.E.D.R."
+		}
+		PoisonDartFrog: {
+			Tooltip: "毒のダーツを拡散発射する"
+			DisplayName: "ポイズンダーツフロッグ"
+		}
+		PhasicDartEjector: {
+			Tooltip: "最大9本のダーツの爆風をチャージする"
+			DisplayName: "フェイジックダーツイジェクター"
+		}
+		HellfireBlaster: {
+			Tooltip: "爆発性のブレイジングダーツを発射する"
+			DisplayName: "ヘルファイアブラスター"
+		}
+		Decapitator: {
+			Tooltip: "2本の死者のダーツを平行に発射する"
+			DisplayName: "デキャピテーター"
+		}
+		DartlingGun: {
+			Tooltip: "50%の確率でダーツを消費しない"
+			DisplayName: "ダートリングガン"
+		}
+		DartGlove: {
+			Tooltip: ""
+			DisplayName: "ダーツグローブ"
+		}
+		ClockworkBallista: {
+			Tooltip: "66%の確率でダーツを消費しない"
+			DisplayName: "クロックワーク・バリスタ"
+		}
+		Atlatl: {
+			Tooltip: ""
+			DisplayName: "アトラトル"
+		}
+		AncientCrossbow: {
+			Tooltip: "貫通する死者のダーツを撃つ"
+			DisplayName: "古代のクロスボウ"
+		}
+		AirRifle: {
+			Tooltip: "高速のダーツを発射する\n「正真正銘のクラシック」"
+			DisplayName: "エアライフル"
+		}
+		DartlingHelm: {
+			Tooltip: ""
+			DisplayName: "ダーツリングヘルム"
+		}
+		VenomDart: {
+			Tooltip: "二重らせんのダーツに分裂する"
+			DisplayName: "猛毒のダーツ"
+		}
+		ShimmerDart: {
+			Tooltip: "非常に良く跳ねる"
+			DisplayName: "シマーのダーツ"
+		}
+		LuminiteDart: {
+			Tooltip: "「我が道に立つとは大胆な…」"
+			DisplayName: "ルミナイトのダーツ"
+		}
+		FeatherDart: {
+			Tooltip: "重力の影響を受けない"
+			DisplayName: "羽のダーツ"
+		}
+		EndlessDartCase: {
+			Tooltip: ""
+			DisplayName: "無限のダーツケース"
+		}
+		EctoplasmDart: {
+			Tooltip: "着弾時にホーミングするウィスプを生成する"
+			DisplayName: "霊魂のダーツ"
+		}
+		Dart: {
+			Tooltip: ""
+			DisplayName: "ダーツ"
+		}
+		ChlorophyteDart: {
+			Tooltip: "自然のエネルギーで敵を切り裂く"
+			DisplayName: "クロロファイトのダーツ"
+		}
+		CarapaceDart: {
+			Tooltip: "敵に突き刺さる"
+			DisplayName: "甲殻のダーツ"
+		}
+		BoneDart: {
+			Tooltip: "致命的な破片に砕け散る"
+			DisplayName: "骨のダーツ"
+		}
+	}
+	Buffs: {
+		CarapaceDartDebuff: {
+			Description: "激しく出血している"
+			Tooltip: "激しく出血している"
+			DisplayName: "串刺し"
+		}
+	}
+}

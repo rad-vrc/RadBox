@@ -1,0 +1,490 @@
+Configs: {
+	UsefulConfig: {
+		dealer: {
+			Label: Enable dealer NPC that sells Items from traveling merchant, skeleton merchant and santa
+			Tooltip: ""
+		}
+
+		builder: {
+			Label: Enable builder NPC that sells various building blocks
+			Tooltip: ""
+		}
+
+		hephaestus: {
+			Label: Enable hephaestus NPC that sells various ores, gems and treasures
+			Tooltip: ""
+		}
+
+		alchemist: {
+			Label: Enable alchemist NPC that sells various potions and ingredients for potions
+			Tooltip: ""
+		}
+
+		martian: {
+			Label: Enable martian NPC that sells mounts, biome keys and expert drops
+			Tooltip: ""
+		}
+
+		oldChampion: {
+			Label: Enable old champion NPC that sells summons for bosses, minibosses and rare enemies and rare drops
+			Tooltip: ""
+		}
+
+		shootingStar: {
+			Label: Enable shooting star NPC that sells various music boxes
+			Tooltip: ""
+		}
+
+		DisplayName: Useful Config
+	}
+}
+
+Items: {
+	AstronautsHelmet: {
+		DisplayName: Astronaut's Helmet
+		Tooltip: For all the conceptual NPCs that didn't make it
+	}
+
+	Calcium: {
+		DisplayName: Calcium
+		Tooltip:
+			'''
+			"Good for your bones"
+			Summons dungeon guardian at day
+			Summons skeletron at night
+			'''
+	}
+
+	PlanteraBulb: {
+		DisplayName: Plantera Bulb
+		Tooltip:
+			'''
+			"Smells foul"
+			Summons plantera
+			'''
+	}
+
+	MartianProbe: {
+		DisplayName: Martian Caller
+		Tooltip: Summons martians
+	}
+
+	AdventurersGlasses: {
+		DisplayName: Adventurer's Glasses
+		Tooltip:
+			'''
+			"Sadly it's broken"
+			Summons Doctor Bones
+			'''
+	}
+
+	BoneLeesBelt: {
+		DisplayName: Bone Lee's Belt
+		Tooltip:
+			'''
+			"The token of his mastery"
+			Summons Bone Lee
+			'''
+	}
+
+	BurningCore: {
+		DisplayName: Burning Core
+		Tooltip:
+			'''
+			"Hot to touch"
+			Summons Sand Elemental
+			'''
+	}
+
+	EmptyChest: {
+		DisplayName: Empty Chest
+		Tooltip:
+			'''
+			"It's a decoy"
+			Summons Mimic
+			'''
+	}
+
+	FakeRocketLauncher: {
+		DisplayName: Fake Rocket Launcher
+		Tooltip:
+			'''
+			"It's just a toy"
+			Summons Skeleton Commando
+			'''
+	}
+
+	FakeSniperRifle: {
+		DisplayName: Fake Sniper Rifle
+		Tooltip:
+			'''
+			"It's just a toy"
+			Summons Skeleton Sniper
+			'''
+	}
+
+	FakeTacticalShotgun: {
+		DisplayName: Fake Tactical Shotgun
+		Tooltip:
+			'''
+			"It's just a toy"
+			Summons Tactical Skeleton
+			'''
+	}
+
+	FrozenCore: {
+		DisplayName: Frozen Core
+		Tooltip:
+			'''
+			"Cold to touch"
+			Summons Ice Golem
+			'''
+	}
+
+	MagicHat: {
+		DisplayName: Magic Hat
+		Tooltip:
+			'''
+			"Increases magic damage by 0%"
+			Summons Tim
+			'''
+	}
+
+	MagicSingularity: {
+		DisplayName: Magic Singularity
+		Tooltip:
+			'''
+			"Attracts very powerful magic"
+			Summons Rune Wizard
+			'''
+	}
+
+	MissingPoster: {
+		DisplayName: Missing Poster
+		Tooltip:
+			'''
+			"Where is she?"
+			Summons Lost Girl
+			'''
+	}
+
+	MothPheromone: {
+		DisplayName: Moth Pheromone
+		Tooltip:
+			'''
+			"Attarcts moth"
+			Summons Moth
+			'''
+	}
+
+	PaladinSymbol: {
+		DisplayName: Paladin Symbol
+		Tooltip:
+			'''
+			"A holy symbol"
+			Summons Paladin
+			'''
+	}
+
+	PinkJelly: {
+		DisplayName: Pink Jelly
+		Tooltip:
+			'''
+			"Looks tasty!"
+			Summons Pinky
+			'''
+	}
+
+	RainbowJelly: {
+		DisplayName: Rainbow Jelly
+		Tooltip:
+			'''
+			"Looks tasty!"
+			Summons Rainbow Slime
+			'''
+	}
+
+	ScoutEmblem: {
+		DisplayName: Scout Emblem
+		Tooltip:
+			'''
+			"Smells nasty"
+			Summons Goblin Scout
+			'''
+	}
+
+	StickyKey: {
+		DisplayName: Sticky Key
+		Tooltip:
+			'''
+			"Not for opening chests"
+			Summons Dungeon Slime
+			'''
+	}
+}
+
+NPCs: {
+	Alchemist: {
+		DisplayName: Alchemist
+
+		TownNPCMood: {
+			Content: I'm fine.
+			NoHome: I need someplace to store my potions.
+			FarFromHome: I can't do business this far from home!
+			LoveSpace: It's quiet around here, I like it.
+			DislikeCrowded: It's quite noisy around here...
+			HateCrowded: I can't concentrate on my potions because of the noises!
+			LikeBiome: "{BiomeName} is a great place to grow herbs!"
+			DislikeBiome: I don't think I can grow good herbs in {BiomeName}.
+			LikeNPC: I like how {NPCName} is always so chill.
+			HateNPC: I really hate how {NPCName} constantly wants to fight everyone.
+			LikeNPC_Princess: "{NPCName} is such a green thumb. I like her."
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Builder: {
+		DisplayName: Builder
+
+		TownNPCMood: {
+			Content: I'm good right now.
+			NoHome: I can't build anything without a home.
+			FarFromHome: I need my equipments to do anything.
+			LoveSpace: I don't have to worry about making noises here!
+			DislikeCrowded: Don't you need build new homes with this many people around?
+			HateCrowded: I know I make some noises, but this is too far.
+			LoveBiome: "{BiomeName} inspires me a million ideas!"
+			LikeBiome: "{BiomeName} is a great place to collect marbles."
+			DislikeBiome: I don't really like how {BiomeName} is just rainbows and no prudence.
+			LikeNPC: I like how {NPCName} isn't afraid to say anything he wants.
+			DislikeNPC: "{NPCName} thinks architecture is not an art form. I think that thing has no appreciation for arts."
+			LikeNPC_Princess: I visited {NPCName}'s palace and it was gorgeous!
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Dealer: {
+		DisplayName: Dealer
+
+		TownNPCMood: {
+			Content: I'm fine.
+			NoHome: I need a place to settle.
+			FarFromHome: This reminds me of bad times when I was stranded.
+			LoveSpace: There aren't many people around to ask me about anything. I like this.
+			DislikeCrowded: People are starting to wonder about how I got my goods...
+			HateCrowded: I think I might be busted around this many people!
+			LikeBiome: "{BiomeName} is a great place to hide. Goods AND myself."
+			DislikeBiome: I can't restock my goods in {BiomeName}. Too open to do business!
+			LoveNPC: Do you think {NPCName} also thinks about me?
+			LikeNPC: Have you ever talked with {NPCName}? He's just so rad.
+			HateNPC: Can you tell {NPCName} to skidaddle? We both know only one of us can get her and it ain't him.
+			LikeNPC_Princess: "{NPCName} is the only person who doesn't ask me about how I got these."
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Hephaestus: {
+		DisplayName: Hephaestus
+
+		TownNPCMood: {
+			Content: I'm good... and god.
+			NoHome: I may be a god, but I still need a home.
+			FarFromHome: I don't really mind being far from home, but the game mechanic dictates that I should hate this.
+			LoveSpace: Happiness is important, yes.
+			DislikeCrowded: I don't think people are happy around here.
+			HateCrowded: You are pretty lazy about building houses.
+			LikeNPC_Princess: I have to like {NPCName}, or it'll get really complicated.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Martian: {
+		DisplayName: Martian
+
+		TownNPCMood: {
+			Content: I'm alright I guess.
+			NoHome: I can't go back, so I really would appreciate a home.
+			FarFromHome: Am i abandoned again?? Help!?
+			LoveSpace: I don't have to walk on eggshells here.
+			DislikeCrowded: I don't like how people stare at me.
+			HateCrowded: I think people are planning to throw me out.
+			LikeBiome: This cold reminds me where I came from.
+			DislikeBiome: "{BiomeName} is too hot! How can any kind of lifeform survive here?"
+			LoveNPC: I..Is that really {NPCName}? The brother of my god? I need to talk to him!
+			LikeNPC: "{NPCName} is an interesting specimen."
+			DislikeNPC: I thought {NPCName} was studying about her conquest, but she was just "protecting" the nature! How stupid!
+			LikeNPC_Princess: I don't really get why people like {NPCName}, but I guess I have to like her to blend in.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	OldChampion: {
+		DisplayName: Old Champion
+
+		TownNPCMood: {
+			Content: I'm fine.
+			NoHome: Don't you know how to treat elders? Give me a home!
+			FarFromHome: Are you saying I have to walk all the way to MY home?
+			LoveSpace: It's quite around here... so I can do old people things.
+			DislikeCrowded: These people should start talking one at a time.
+			HateCrowded: If you planned to make me deaf from this noise, you are wrong.
+			LikeBiome: Ah, {BiomeName}, just feels natural.
+			DislikeBiome: What is this {BiomeName} nonesense? Who made this kind of biome?
+			LikeNPC: "{NPCName} is the only good person around here."
+			DislikeNPC: That whitebeard {NPCName} is so close minded. Be open minded like me!
+			HateNPC: I was arguing with {NPCName} the other day, and he just responded with OK Boomer. Any idea what that means?
+			LikeNPC_Princess: "{NPCName} knows her etiquette. She must have good parents."
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	ShootingStar: {
+		DisplayName: Shooting Star
+
+		TownNPCMood: {
+			Content: (She seems to be too focused on the music)
+			NoHome: I need a place to write my sheets.
+			FarFromHome: I became a lonely star from the shooting star.
+			LoveSpace: Should I raise the volume a little more? People might not hear it.
+			DislikeCrowded: Today 2 people came and told me to lower the volume. This is a sad day.
+			HateCrowded: Crowd would not understand a genius musician like me.
+			LoveBiome: "{BiomeName} has such a cool music!"
+			LikeBiome: Rainbows... Makes me think something cool!
+			DislikeBiome: "{BiomeName} is just full of buzzing. I don't like this!"
+			LoveNPC: Hey, can you ask {NPCName} how he can make such a jam?
+			LikeNPC: That {NPCName} sure knows good music. I might even say, she's "otherworldly"
+			HateNPC: "{NPCName} once told me my UNfinished music sucks. You know what? His FINISHED buildings suck too!"
+			LikeNPC_Princess: "{NPCName} is such a great singer with perfect pitch. And rhythm. And expression. And generally a great person."
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
+
+TownNPCMood: {
+	Alchemist: {
+		Content: I'm fine.
+		NoHome: I need someplace to store my potions.
+		FarFromHome: I can't do business this far from home!
+		DislikeCrowded: It's quite noisy around here...
+		HateCrowded: I can't concentrate on my potions because of the noises!
+		LoveSpace: It's quiet around here, I like it.
+		LikeBiome: "{BiomeName} is a great place to grow herbs!"
+		LoveBiome: I love {BiomeName}.
+		DislikeBiome: I don't think I can grow good herbs in {BiomeName}.
+		HateBiome: It's too dangerous here in {BiomeName} to do anyting!
+		LikeNPC: I like how {NPCName} is always so chill.
+		LoveNPC: I love {NPCName}.
+		DislikeNPC: I dislike {NPCName}.
+		HateNPC: I really hate how {NPCName} constantly wants to fight everyone.
+		LikeNPC_Princess: "{NPCName} is such a green thumb. I like her."
+	}
+
+	Builder: {
+		Content: I'm good right now.
+		NoHome: I can't build anything without a home.
+		FarFromHome: I need my equipments to do anything.
+		DislikeCrowded: Don't you need build new homes with this many people around?
+		HateCrowded: I know I make some noises, but this is too far.
+		LoveSpace: I don't have to worry about making noises here!
+		LikeBiome: "{BiomeName} is a great place to collect marbles."
+		LoveBiome: "{BiomeName} inspires me a million ideas!"
+		DislikeBiome: I don't really like how {BiomeName} is just rainbows and no prudence.
+		HateBiome: I said I can build anywhere, but {BiomeName} is off my limits.
+		LikeNPC: I like how {NPCName} isn't afraid to say anything he wants.
+		LoveNPC: I love {NPCName}.
+		DislikeNPC: "{NPCName} thinks architecture is not an art form. I think that thing has no appreciation for arts."
+		HateNPC: I hate {NPCName}.
+		LikeNPC_Princess: I visited {NPCName}'s palace and it was gorgeous!
+	}
+
+	Dealer: {
+		Content: I'm fine.
+		NoHome: I need a place to settle.
+		FarFromHome: This reminds me of bad times when I was stranded.
+		DislikeCrowded: People are starting to wonder about how I got my goods...
+		HateCrowded: I think I might be busted around this many people!
+		LoveSpace: There aren't many people around to ask me about anything. I like this.
+		LikeBiome: "{BiomeName} is a great place to hide. Goods AND myself."
+		LoveBiome: I love {BiomeName}.
+		DislikeBiome: I can't restock my goods in {BiomeName}. Too open to do business!
+		HateBiome: I'm all for risk and reward, but {BiomeName} is just risk.
+		LikeNPC: Have you ever talked with {NPCName}? He's just so rad.
+		LoveNPC: Do you think {NPCName} also thinks about me?
+		DislikeNPC: I dislike {NPCName}.
+		HateNPC: Can you tell {NPCName} to skidaddle? We both know only one of us can get her and it ain't him.
+		LikeNPC_Princess: "{NPCName} is the only person who doesn't ask me about how I got these."
+	}
+
+	Hephaestus: {
+		Content: I'm good... and god.
+		NoHome: I may be a god, but I still need a home.
+		FarFromHome: I don't really mind being far from home, but the game mechanic dictates that I should hate this.
+		DislikeCrowded: I don't think people are happy around here.
+		HateCrowded: You are pretty lazy about building houses.
+		LoveSpace: Happiness is important, yes.
+		LikeBiome: I like {BiomeName}.
+		LoveBiome: I love {BiomeName}.
+		DislikeBiome: I dislike {BiomeName}.
+		HateBiome: It's too hectic around here. Can't you move my house?
+		LikeNPC: I like {NPCName}.
+		LoveNPC: I love {NPCName}.
+		DislikeNPC: I dislike {NPCName}.
+		HateNPC: I hate {NPCName}.
+		LikeNPC_Princess: I have to like {NPCName}, or it'll get really complicated.
+	}
+
+	Martian: {
+		Content: I'm alright I guess.
+		NoHome: I can't go back, so I really would appreciate a home.
+		FarFromHome: Am i abandoned again?? Help!?
+		DislikeCrowded: I don't like how people stare at me.
+		HateCrowded: I think people are planning to throw me out.
+		LoveSpace: I don't have to walk on eggshells here.
+		LikeBiome: This cold reminds me where I came from.
+		LoveBiome: I love {BiomeName}.
+		DislikeBiome: "{BiomeName} is too hot! How can any kind of lifeform survive here?"
+		HateBiome: I know I did some questionable things, but putting me here is not the answer.
+		LikeNPC: "{NPCName} is an interesting specimen."
+		LoveNPC: I..Is that really {NPCName}? The brother of my god? I need to talk to him!
+		DislikeNPC: I thought {NPCName} was studying about her conquest, but she was just "protecting" the nature! How stupid!
+		HateNPC: I hate {NPCName}.
+		LikeNPC_Princess: I don't really get why people like {NPCName}, but I guess I have to like her to blend in.
+	}
+
+	OldChampion: {
+		Content: I'm fine.
+		NoHome: Don't you know how to treat elders? Give me a home!
+		FarFromHome: Are you saying I have to walk all the way to MY home?
+		DislikeCrowded: These people should start talking one at a time.
+		HateCrowded: If you planned to make me deaf from this noise, you are wrong.
+		LoveSpace: It's quite around here... so I can do old people things.
+		LikeBiome: Ah, {BiomeName}, just feels natural.
+		LoveBiome: I love {BiomeName}.
+		DislikeBiome: What is this {BiomeName} nonesense? Who made this kind of biome?
+		HateBiome: I would have asked to live here if I were 10 years younger, but not now.
+		LikeNPC: "{NPCName} is the only good person around here."
+		LoveNPC: I love {NPCName}.
+		DislikeNPC: That whitebeard {NPCName} is so close minded. Be open minded like me!
+		HateNPC: I was arguing with {NPCName} the other day, and he just responded with OK Boomer. Any idea what that means?
+		LikeNPC_Princess: "{NPCName} knows her etiquette. She must have good parents."
+	}
+
+	ShootingStar: {
+		Content: (She seems to be too focused on the music)
+		NoHome: I need a place to write my sheets.
+		FarFromHome: I became a lonely star from the shooting star.
+		DislikeCrowded: Today 2 people came and told me to lower the volume. This is a sad day.
+		HateCrowded: Crowd would not understand a genius musician like me.
+		LoveSpace: Should I raise the volume a little more? People might not hear it.
+		LikeBiome: Rainbows... Makes me think something cool!
+		LoveBiome: "{BiomeName} has such a cool music!"
+		DislikeBiome: "{BiomeName} is just full of buzzing. I don't like this!"
+		HateBiome: I like the music here, but I haven't finished it.
+		LikeNPC: That {NPCName} sure knows good music. I might even say, she's "otherworldly"
+		LoveNPC: Hey, can you ask {NPCName} how he can make such a jam?
+		DislikeNPC: I dislike {NPCName}.
+		HateNPC: "{NPCName} once told me my UNfinished music sucks. You know what? His FINISHED buildings suck too!"
+		LikeNPC_Princess: "{NPCName} is such a great singer with perfect pitch. And rhythm. And expression. And generally a great person."
+	}
+}
+

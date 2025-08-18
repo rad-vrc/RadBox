@@ -1,0 +1,571 @@
+Buffs: {
+	BetterBleed: {
+		DisplayName: ベターII
+		Description: 出血しているが、実際にダメージを受けている
+	}
+
+	Catdebuff: {
+		DisplayName: ウォーク・ザ・キャット: クールダウン
+		Description: あなたの猫はリードに繋がれて疲れ果てている。自由にさせてあげよう！
+	}
+
+	Chargebuff: {
+		DisplayName: スタティックチャージ: チャージ中
+		Description: ヨーヨーに静電気をチャージしている
+	}
+
+	Chargedebuff: {
+		DisplayName: スタティックチャージ: クールダウン
+		Description: これ以上静電気をチャージできない
+	}
+
+	CounterDebuff: {
+		DisplayName: ダブルトラブル: クールダウン
+		Description: カウンターウェイトが深刻なダメージを受け、修理が必要
+	}
+
+	Healthdebuff: {
+		DisplayName: ユニークエグゼキューション: クールダウン
+		Description: あなたのスキルは反復的になるにつれて、それほどユニークではなくなる :/
+	}
+
+	Popbuff: {
+		DisplayName: ポップ: ノックバックボーナス
+		Description:
+			'''
+			あなたのポッピングスキルがヨーヨーの次のヒットを強化した！
+			ヨーヨーの次のヒットがノックバックとわずかなダメージを増加させる
+			'''
+	}
+
+	Popdebuff: {
+		DisplayName: ポップ: クールダウン
+		Description: 手首がポップのしすぎで疲れている
+	}
+
+	Sacrifice: {
+		DisplayName: サクリファイス
+		Description:
+			'''
+			ヨーヨーが重くなるにつれて体が軽く感じる
+			防御力が半減する
+			ヨーヨークリティカルストライクとダメージが増加する
+			'''
+	}
+
+	Sacrifice2: {
+		DisplayName: サクリファイス II
+		Description:
+			'''
+			ヨーヨーが重くなるにつれて体が軽く感じる
+			心が空っぽになり、より軽く感じる
+			最大体力が100減少し、防御力が半減する
+			真のヨーヨー能力が有効化され、ヨーヨークリティカルストライクとダメージが増加する
+			'''
+	}
+
+	Sacrifice3: {
+		DisplayName: サクリファイス III
+		Description:
+			'''
+			ヨーヨーが重くなるにつれて体が軽く感じる
+			心が空っぽになり、非常に軽く感じる
+			最大体力が300減少し、防御力が半減する
+			真のヨーヨー能力が有効化され、ヨーヨーグローブが有効化され、追加のヨーヨークリティカルストライクと追加ダメージが増加する
+			'''
+	}
+
+	Splinter: {
+		DisplayName: スプリンター！
+		Description: 追加ダメージが与えられる
+	}
+
+	Walkbuff: {
+		DisplayName: ウォーク・ザ・ドッグ: ストライクボーナス
+		Description:
+			'''
+			あなたのウォーキングスキルと摩擦が、次のストライクを強化した！
+			ヨーヨーが炎上デバフと追加ダメージを与える
+			'''
+	}
+
+	Walkdebuff: {
+		DisplayName: ウォーク・ザ・ドッグ: クールダウン
+		Description: あなたの「犬」は疲れ果てて休息が必要
+	}
+}
+
+Items: {
+	diamondst: {
+		DisplayName: ダイヤモンドの融合糸
+		Tooltip:
+			'''
+			ヨーヨーの展開時間が50%増加
+			ヨーヨーの速度が-15%低下
+			'''
+	}
+
+	Magnify: {
+		DisplayName: 極細の糸
+		Tooltip:
+			'''
+			ヨーヨーの速度が40%上昇
+			ヨーヨーの展開時間が-15%減少
+			'''
+	}
+
+	MYS: {
+		DisplayName: ヨーヨーソウル
+		Tooltip:
+			'''
+			ヨーヨーバッグのすべての効果を含む
+			ヨーヨーの攻撃範囲が50%増加（ヨーヨーバッグにスタック）
+			ヨーヨーの展開時間が50%増加
+			ヨーヨーの速度が40%上昇
+			「テラリアンに似ている」
+			'''
+	}
+
+	DoubleT: {
+		DisplayName: T3トリック: ダブルトラブル
+		Tooltip:
+			'''
+			プレイヤーが「ダブルトラブル」のトリックを習得できる
+			[c/FF5D52:使用にはヨーヨーソウルが必要]
+			このトリックはカウンターウェイトを使用することで実行される
+			カウンターウェイトを1.5倍のダメージを持つセカンダリヨーヨーとして使用できる
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	Pop: {
+		DisplayName: T1トリック: ポップ
+		Tooltip:
+			'''
+			プレイヤーが「ポップ」のトリックを習得できる
+			「すべてのトリックの中で最もシンプル」
+			このトリックは単に敵にヒットさせることで実行される
+			ヨーヨーの次のヒットに大きなノックバックとわずかなダメージを与える
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	StaticCharge: {
+		DisplayName: T3トリック: スタティックチャージ
+		Tooltip:
+			'''
+			プレイヤーが「スタティックチャージ」のトリックを習得できる
+			[c/FF5D52:使用にはヨーヨーソウルが必要]
+			このトリックはヨーヨーを体に10ティック近づけて保持することで実行される
+			ヨーヨーをチャージし、次のヒットで大規模な20倍ダメージの爆発を与える
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	UniqueX: {
+		DisplayName: T2トリック: ユニークエグゼキューション
+		Tooltip:
+			'''
+			プレイヤーが「ユニークエグゼキューション」のトリックを習得できる
+			[c/FF5D52:使用にはヨーヨーバッグが必要]
+			「町の住民を興奮させて愛を受け取ろう！」
+			このトリックは単に敵を倒すことで実行される
+			使用者にわずかなライフ自然回復増進を与える
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	WTC: {
+		DisplayName: T2トリック: ウォーク・ザ・キャット
+		Tooltip:
+			'''
+			プレイヤーが「ウォーク・ザ・キャット」のトリックを習得できる
+			[c/FF5D52:使用にはヨーヨーバッグが必要]
+			このトリックは敵を背後から、または背を向けた状態で攻撃することで実行される
+			敵に2.5倍のダメージでバックスタブし、出血を付与する
+			出血はボスに対してより多くのダメージを与える
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	WTD: {
+		DisplayName: T1トリック: ウォーク・ザ・ドッグ
+		Tooltip:
+			'''
+			プレイヤーが「ウォーク・ザ・ドッグ」のトリックを習得できる
+			このトリックはヨーヨーをいずれかのタイルに衝突させることで実行される
+			ヨーヨーの次のヒットに追加ダメージを与え、炎上を付与する
+			右クリックでこのトリックを忘れる（習得済みの場合）
+			'''
+	}
+
+	CrimTide: {
+		DisplayName: クリムゾンタイド
+		Tooltip: 「ロールタイド！」
+	}
+
+	FragmentI: {
+		DisplayName: 断片のヨーヨー？
+		Tooltip:
+			'''
+			「何かがおかしい…」
+			「全部一緒に混ぜるべきじゃなかったかもしれない」
+			合体したすべての月のヨーヨーの力を使う
+			'''
+	}
+
+	ghost: {
+		DisplayName: ホーンテッドスロー
+		Tooltip:
+			'''
+			「見えるけど、本当は見えない」
+			壁を貫通できる
+			'''
+	}
+
+	gold: {
+		DisplayName: 金のヨーヨー
+		Tooltip: 「金で作られたヨーヨー」
+	}
+
+	hallow: {
+		DisplayName: ホーリーアウト
+		Tooltip: 「中は空かもしれないが、かなり重い…」
+	}
+
+	iron: {
+		DisplayName: 鉄のヨーヨー
+		Tooltip: 「鉄で作られたヨーヨー」
+	}
+
+	lead: {
+		DisplayName: 鉛のヨーヨー
+		Tooltip: 「鉛で作られたヨーヨー」
+	}
+
+	LostIvy: {
+		DisplayName: ロストアイビー
+		Tooltip: ヨーヨーは定期的にスポアトラップを撃ち出す
+	}
+
+	MagmaRoller: {
+		DisplayName: マグマローラー
+		Tooltip: 邪魔するものを燃やす能力を持つ
+	}
+
+	BrokenYoyo: {
+		DisplayName: 壊れた英雄のヨーヨー
+		Tooltip: 「それは達人のものだった…」
+	}
+
+	Nebula: {
+		DisplayName: ネビュラのヨーヨー
+		Tooltip:
+			'''
+			天のダメージで強化されている
+			このヨーヨーは群を抜いて最も強力だが、速度に難がある
+			ネビュラ防具着用時、10%の追加ダメージを与える
+			'''
+	}
+
+	platinum: {
+		DisplayName: プラチナのヨーヨー
+		Tooltip: 「プラチナで作られたヨーヨー」
+	}
+
+	Rubix: {
+		DisplayName: フラストレーションキューブ
+		Tooltip: 「フラストレーションに満ちたキューブ！スケルトロンでさえ解けなかった」
+	}
+
+	silver: {
+		DisplayName: 銀のヨーヨー
+		Tooltip: 「銀で作られたヨーヨー」
+	}
+
+	SkyDefender: {
+		DisplayName: スカイディフェンダー
+		Tooltip: 「意のままに空を守れ」
+	}
+
+	SkyGuardian: {
+		DisplayName: スカイガーディアン
+		Tooltip: 「力にはわずかな速度の犠牲が伴う」
+	}
+
+	Solar: {
+		DisplayName: ソーラーフレアのヨーヨー
+		Tooltip:
+			'''
+			天の力で満たされている
+			このヨーヨーはソーラーイラプションの特性を持つ
+			'''
+	}
+
+	Stardust: {
+		DisplayName: スターダストのヨーヨー
+		Tooltip:
+			'''
+			天の力で満たされている
+			このヨーヨーは壁を貫通できる
+			追加のヨーヨーもスポーンすることがある
+			スターダスト防具着用時、10%の追加ダメージを与える
+			'''
+	}
+
+	TheBackaway: {
+		DisplayName: ザ・バックアウェイ
+		Tooltip: このヨーヨーは極端なノックバックを持ち、敵を吹き飛ばすことができる
+	}
+
+	TheEnd: {
+		DisplayName: ジ・エンド
+		Tooltip: 「最高のヨーヨー」
+	}
+
+	TheShortstopY: {
+		DisplayName: ショートストップ
+		Tooltip:
+			'''
+			このヨーヨーは射程が非常に短いが、高いダメージを与える
+			敵に2回ヒットすると壊れる
+			'''
+	}
+
+	TrueEnd: {
+		DisplayName: ザ・トゥルーエンド
+		Tooltip:
+			'''
+			「これで終わりだ」
+			[c/FF5D52:使用にはヨーヨーソウルが必要]
+			右クリックでサクリファイスを発動
+			サクリファイスは[c/FF0000:代償を払って]ヨーヨーを最大3段階まで強化する
+			ティア3になるまでヨーヨーグローブを無効化する
+			'''
+	}
+
+	truet: {
+		DisplayName: 真・テラリアン
+		Tooltip: アップグレードされた能力で弾のリングを発射する
+	}
+
+	tungsten: {
+		DisplayName: タングステンのヨーヨー
+		Tooltip: 「タングステンで作られたヨーヨー」
+	}
+
+	Vortex: {
+		DisplayName: ボルテックスのヨーヨー
+		Tooltip:
+			'''
+			天の力で満たされている
+			ホーミングロケットをランダムに発射する
+			ボルテックス防具着用時、10%の追加ダメージを与える
+			'''
+	}
+
+	YoyoCrateItem: {
+		DisplayName: ヨーヨーの木箱
+		Tooltip:
+			'''
+			右クリックで開く
+			様々なヨーヨーアイテムが入っている
+			'''
+	}
+}
+
+Projectiles: {
+	B2: {
+		DisplayName: B2
+	}
+
+	ball: {
+		DisplayName: ball
+	}
+
+	ball2: {
+		DisplayName: ball2
+	}
+
+	CounterD: {
+		DisplayName: Counter D
+	}
+
+	CrimTideP: {
+		DisplayName: Crim Tide P
+	}
+
+	CustomYoyoProjectile: {
+		DisplayName: Custom Yoyo Projectile
+	}
+
+	dup: {
+		DisplayName: dup
+	}
+
+	FragmentP: {
+		DisplayName: Fragment P
+	}
+
+	G2: {
+		DisplayName: G2
+	}
+
+	ghostP: {
+		DisplayName: ghost P
+	}
+
+	goldP: {
+		DisplayName: gold P
+	}
+
+	hallowedk: {
+		DisplayName: hallowedk
+	}
+
+	hallowp: {
+		DisplayName: hallowp
+	}
+
+	ironP: {
+		DisplayName: iron P
+	}
+
+	leadP: {
+		DisplayName: lead P
+	}
+
+	LostIvyP: {
+		DisplayName: Lost Ivy P
+	}
+
+	MagmaRollerP: {
+		DisplayName: Magma Roller P
+	}
+
+	NebulaP: {
+		DisplayName: Nebula P
+	}
+
+	O2: {
+		DisplayName: O2
+	}
+
+	piece: {
+		DisplayName: piece
+	}
+
+	platinumP: {
+		DisplayName: platinum P
+	}
+
+	R2: {
+		DisplayName: R2
+	}
+
+	RubixP: {
+		DisplayName: Rubix P
+	}
+
+	sack: {
+		DisplayName: sack
+	}
+
+	silverP: {
+		DisplayName: silver P
+	}
+
+	SkyDefenderP: {
+		DisplayName: Sky Defender P
+	}
+
+	SkyGuardianP: {
+		DisplayName: Sky Guardian P
+	}
+
+	SolarP: {
+		DisplayName: Solar P
+	}
+
+	StardustDupe: {
+		DisplayName: Stardust Dupe
+	}
+
+	StardustP: {
+		DisplayName: Stardust P
+	}
+
+	TheBackawayP: {
+		DisplayName: The Backaway P
+	}
+
+	TheEndP: {
+		DisplayName: The End P
+	}
+
+	TheShortstop: {
+		DisplayName: The Shortstop
+	}
+
+	trueball: {
+		DisplayName: trueball
+	}
+
+	trueball2: {
+		DisplayName: trueball2
+	}
+
+	TrueEndP: {
+		DisplayName: True End P
+	}
+
+	truetP: {
+		DisplayName: truet P
+	}
+
+	tungstenP: {
+		DisplayName: tungsten P
+	}
+
+	VortexP: {
+		DisplayName: Vortex P
+	}
+
+	W2: {
+		DisplayName: W2
+	}
+
+	wisp: {
+		DisplayName: wisp
+	}
+
+	Y2: {
+		DisplayName: Y2
+	}
+}
+
+Configs: {
+	YoyoConfig: {
+		VanillaYoyosTooltipToggle: {
+			Tooltip: 変更されたすべてのバニラヨーヨーに効果を説明するカスタムツールチップを追加する
+			Label: バニラヨーヨーのツールチップ変更を有効化
+		}
+
+		VanillaYoyosNameToggle: {
+			Tooltip: 変更されたすべてのバニラヨーヨーの隣にプラス記号を追加する
+			Label: バニラヨーヨーの名前変更を有効化
+		}
+
+		DisplayName: ヨーヨー設定
+
+		Headers: {
+			Config: 設定ヘッダー
+		}
+
+		VanillaYoyosToggle: {
+			Label: バニラヨーヨーの変更を有効化
+			Tooltip: バニラのヨーヨーに特殊効果を与える
+		}
+	}
+}
+

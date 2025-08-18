@@ -1,0 +1,414 @@
+Configs: {
+	CrossmodConfig: {
+		DisplayName: Crossmod Config
+
+		Headers: {
+			Items: Items Header
+		}
+
+		CalamitySelfDamageBackOn: {
+			Label: Calamity - Re-Enable Self-Damage
+			Tooltip:
+				'''
+				If true, vanilla rockets will damage the player even if Calamity is installed, allowing the player to Blast Jump.
+				Consider disabling this if you don't need the Blast Jump and want to focus on Calamity's Point-Blank bonuses.
+				'''
+		}
+	}
+}
+
+DamageClasses: {
+	RocketDamage: {
+		DisplayName: ranged (Rocket) damage
+	}
+}
+
+Projectiles: {
+	GoldBomblet: {
+		DisplayName: Gold Bomblet
+	}
+
+	DragonRocket: {
+		DisplayName: Dragon Rocket
+	}
+
+	ExplodingTar: {
+		DisplayName: Exploding Tar
+	}
+
+	SpaceRocket: {
+		DisplayName: Space Rocket
+	}
+
+	RainfallRetort: {
+		DisplayName: Rainfall Retort
+	}
+
+	Prismissile: {
+		DisplayName: Prismissile
+	}
+
+	FunkyPineappleRocket: {
+		DisplayName: Funky Pineapple Rocket
+	}
+
+	MysticMortarBlue: {
+		DisplayName: Mystic Mortar Blue
+	}
+
+	MysticMortarPink: {
+		DisplayName: Mystic Mortar Pink
+	}
+
+	MysticMortarPurple: {
+		DisplayName: Mystic Mortar Purple
+	}
+
+	BiggerIronCannonball: {
+		DisplayName: Bigger Iron Cannonball
+	}
+
+	BiggerIronCannonballMiniNuke: {
+		DisplayName: Bigger Iron Cannonball Mini Nuke
+	}
+
+	AshKickerFireJet: {
+		DisplayName: Ash Kicker Fire Jet
+	}
+
+	PineappleRocket: {
+		DisplayName: Pineapple Rocket
+	}
+
+	CrimsonBriar: {
+		DisplayName: Crimson Briar
+	}
+
+	CorruptBriar: {
+		DisplayName: Corrupt Briar
+	}
+
+	IceSheet: {
+		DisplayName: Ice Sheet
+	}
+
+	FlyingScarab: {
+		DisplayName: Flying Scarab
+	}
+
+	BigIronCannonballMiniNuke: {
+		DisplayName: Big Iron Cannonball Mini Nuke
+	}
+
+	BigIronCannonball: {
+		DisplayName: Big Iron Cannonball
+	}
+}
+
+Buffs: {
+	Smite: {
+		Description: Smited by a mighty smiter
+		DisplayName: Smite
+	}
+
+	MarketGardenerCooldown: {
+		Description: You can't do another Ballistic Strike until this wears off
+		DisplayName: Market Gardener Cooldown
+	}
+
+	BlastJumpBuff: {
+		DisplayName: Blast Jump Buff
+		Description: Prevents fall damage and doubles flight time after a rocket jump!
+	}
+
+	MarketGardenerBuff: {
+		DisplayName: Ballistic Strike!
+		Description: Next melee hit deals high damage, as long as it happens while mid-jump or shortly after you land
+	}
+}
+
+Items: {
+	SpikePhysicsBook: {
+		Tooltip:
+			'''
+			"Hypothesis: Pointy things hurt more if they go fast."
+			+20 Armor Penetration on Ballistic Strikes
+			'''
+		DisplayName: An Academic Treatise On The Physics Of Close Range Combat When You Go Really, Really Fast, Volume I
+	}
+
+	MercilessManntreads: {
+		Tooltip:
+			'''
+			"It's spectacularly lethal!"
+			+50% Blast Jump force and +15% Ballistic Strike damage
+			Cuts Blast Jump self-damage to 15%
+			'''
+		DisplayName: Merciless Manntreads
+	}
+
+	GlisteringGrapeshot: {
+		Tooltip:
+			'''
+			The pirate code says you're supposed to BURY your treasure, but since when do pirates follow the rules?
+			Your rockets and rocket accessories cause enemies to drop more coins
+			Rockets contain five golden bomblets with 1/3 of the rocket's base damage and 1.2x direct hit damage
+			'''
+		DisplayName: Glistering Grapeshot
+	}
+
+	WoodenDragon: {
+		Tooltip:
+			'''
+			"How could you miss? He was three feet in front of you!"
+			Fires dragon rockets that deal less direct-hit damage, but have a wider blast radius
+			'''
+		DisplayName: Wooden Dragon
+	}
+
+	Terrannihilator: {
+		Tooltip:
+			'''
+			Fires rockets that pierce twice
+			Rockets inflict Smite and Shadowflame
+			'''
+		DisplayName: Terrannihilator
+	}
+
+	SpaceRocket: {
+		DisplayName: Space Rocket
+		Tooltip: +4% Crit
+	}
+
+	RainfallRetort: {
+		DisplayName: Rainfall Retort
+		Tooltip:
+			'''
+			Straight out of my RPG Maker game!
+			Drops rain as it flies
+			'''
+	}
+
+	Prismissile: {
+		DisplayName: Prismissile
+		Tooltip:
+			'''
+			Fires an endless barrage of homing rainbow rockets!
+			Rockets have +3% crit and deal halved self-damage
+			'''
+	}
+
+	BoxOfScraps: {
+		DisplayName: Box of Scraps
+		Tooltip:
+			'''
+			Contains an endless supply of Scrap Rocket Is
+			This is Michael Bay's favorite item
+			'''
+	}
+
+	FunkyPineappleLauncher: {
+		Tooltip:
+			'''
+			Reptile kickin' hardware!
+			Fires homing pineapples that deal vastly more direct hit damage, but don't inherit special effects
+			'''
+		DisplayName: Funky Pineapple Launcher
+	}
+
+	Judgment: {
+		DisplayName: Judgment
+		Tooltip:
+			'''
+			JUDGMEEEEEENT HAS BEEN DEALT
+			Smites enemies and shoots fast; gains only 80% of ammo damage
+			'''
+	}
+
+	TrueUmbraBlaster: {
+		DisplayName: True Umbra Blaster
+		Tooltip:
+			'''
+			Fires a stronger (still unrealistic) enemy-piercing rocket 
+			Destructive & liquid rockets do not pierce
+			'''
+	}
+
+	MysticMortar: {
+		DisplayName: Mystic Mortar
+		Tooltip:
+			'''
+			Fires three crystal rockets with slightly reduced direct hit damage
+			The purple one goes straight ahead, the pink one soars up, and the blue one swoops down
+			'''
+	}
+
+	SwampLizard: {
+		DisplayName: Swamp Lizard
+		Tooltip:
+			'''
+			This changes everything!
+			Standard rockets become balls of highly flammable swamp tar
+			'''
+	}
+
+	BiggerIron: {
+		Tooltip:
+			'''
+			And if that don't work, use more iron.
+			Recoil knocks the user back a bit on firing
+			'''
+		DisplayName: Bigger Iron
+	}
+
+	BluriteMultibomber: {
+		DisplayName: Blurite Multibomber
+		Tooltip: ""
+	}
+
+	AshKicker: {
+		DisplayName: Ash Kicker
+		Tooltip:
+			'''
+			Rockets set target on fire
+			Produces a fiery backdraft behind the user
+			'''
+	}
+
+	Hyperdrive: {
+		DisplayName: Hyperdrive
+		Tooltip: +5% rocket damage and increased rocket velocity
+	}
+
+	RocketBooster: {
+		DisplayName: The Rocket Booster
+		Tooltip:
+			'''
+			+6% rocket damage and critical strike chance
+			+15% rocket attack speed and increased rocket velocity
+			+20% rocket knockback
+			'''
+	}
+
+	SilverTargetingSystem: {
+		DisplayName: Silver Targeting System
+		Tooltip: +4% rocket critical strike chance
+	}
+
+	TungstenReloader: {
+		DisplayName: Tungsten Reloader
+		Tooltip: +10% rocket attack speed
+	}
+
+	PineappleLauncher: {
+		DisplayName: Pineapple Launcher
+		Tooltip:
+			'''
+			Pineapple rockets don't inherit special effects, but have additional direct hit damage
+			Use if you're one hell of a guy
+			'''
+	}
+
+	BriarBomberCrimson: {
+		Tooltip: Explosion also fires diagonal crimson thorns
+		DisplayName: Briar Bomber
+	}
+
+	BriarBomberCorrupt: {
+		Tooltip: Explosion also fires horizontal and vertical corrupted thorns
+		DisplayName: Briar Bomber
+	}
+
+	IceSheet: {
+		DisplayName: Ice Sheet
+		Tooltip: Rocket creates a wide, flat blast that inflicts Frostburn
+	}
+
+	FlyingScarab: {
+		Tooltip: Rocket creates a directional blast
+		DisplayName: Flying Scarab
+	}
+
+	ScrapRocketII: {
+		DisplayName: Scrap Rocket II
+		Tooltip:
+			'''
+			All rockets deal reduced self-damage that also launches user in the opposite direction
+			DOES destroy tiles - Careful!
+			'''
+	}
+
+	ScrapRocketI: {
+		Tooltip:
+			'''
+			All rockets deal reduced self-damage that also launches user in the opposite direction
+			Rocket jumping prevents fall damage and doubles flight time until the user lands
+			Melee weapons and whips land a powerful Ballistic Strike if used while or right after rocket jumping
+			Doesn't destroy tiles
+			'''
+		DisplayName: Scrap Rocket I
+	}
+
+	StingerMissiles: {
+		DisplayName: Stinger Missiles
+		Tooltip:
+			'''
+			Your rockets have bees in them
+			Rocket-borne bees inherit 5% of their source's damage (or 8% if they're big bees!)
+			(Warning: Might have a few bugs, and I don't mean the bees)
+			'''
+	}
+
+	RocketeerGunboats: {
+		DisplayName: Rocketeer's Gunboats
+		Tooltip:
+			'''
+			+30% Blast Jump force
+			Cuts Blast Jump self-damage to 1/4
+			'''
+	}
+
+	BlingBazooka: {
+		Tooltip:
+			'''
+			IT'S BEAUTIFUUUUUUL
+			+1 damage/crit for each unique Large Gem you have,
+			as well as a bonus effect for each Gem
+			'''
+		DisplayName: Bling Bazooka
+	}
+
+	BigIron: {
+		Tooltip:
+			'''
+			Don't put THIS Big Iron on your hip!
+			Recoil knocks the user back a bit on firing
+			'''
+		DisplayName: Big Iron
+	}
+
+	UmbraBlaster: {
+		Tooltip:
+			'''
+			Fires an unrealistic enemy-piercing rocket 
+			Destructive & liquid rockets do not pierce
+			'''
+		DisplayName: Umbra Blaster
+	}
+
+	TestAccessory: {
+		Tooltip: ""
+		DisplayName: Test Accessory
+	}
+
+	WoodLauncher: {
+		DisplayName: Wood Launcher
+		Tooltip: Reckless? Probably, but it's fun!
+	}
+
+	BasicLauncher: {
+		DisplayName: Basic Launcher
+		Tooltip: A testing item.
+	}
+}
+

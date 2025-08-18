@@ -1,0 +1,207 @@
+Common: {
+	GeneratorDropsTitle: 生成アイテム：
+	ItemsCounter: アイテムカウンター
+	ItemsCounterCount: ストレージ内のアイテム
+	CantUseWithoutSputnik: 利用可能なサテライトがない
+	Lang: ja
+}
+
+ChanceNames: {
+	_0: 非常に高い確率
+	_1: 高い確率
+	_2: 中程度の確率
+	_3: 低い確率
+	_4: 非常に低い確率
+}
+
+UITitles: {
+	AutoImport: 自動インポート
+	DriveChest: ネットワークターミナル
+	Sputnik: サテライト
+	SputnikItem: サテライト
+	DriveChestSearch: 検索
+	DriveChestRecipes: レシピ
+	DriveChestCraft: 製作
+}
+
+InfoDisplays: {
+	SatelliteInfoDisplay: {
+		DisplayName: アイテムカウンター
+	}
+}
+
+Tiles: {
+	BaseItemsGeneratorTile: {
+		MapEntry: アイテムジェネレーター
+	}
+
+	ChlorophyteGeneratorTile: {
+		MapEntry: クロロファイトジェネレーター
+	}
+
+	DriveChestTile: {
+		MapEntry: ネットワークターミナル
+	}
+
+	HallowedGeneratorTile: {
+		MapEntry: 神聖なジェネレーター
+	}
+
+	HellstoneGeneratorTile: {
+		MapEntry: ヘルストーンジェネレーター
+	}
+
+	LuminiteGeneratorTile: {
+		MapEntry: ルミナイトジェネレーター
+	}
+
+	MeteoriteGeneratorTile: {
+		MapEntry: メテオライトジェネレーター
+	}
+
+	PowerGeneratorTile: {
+		MapEntry: 強力なジェネレーター
+	}
+
+	QuartzCrateTile: {
+		MapEntry: 水晶の箱
+	}
+
+	ShroomiteGeneratorTile: {
+		MapEntry: シュルームライトジェネレーター
+	}
+
+	SoulGeneratorTile: {
+		MapEntry: ソウルジェネレーター
+	}
+
+	SpectreGeneratorTile: {
+		MapEntry: スペクタージェネレーター
+	}
+
+	SputnikTile: {
+		MapEntry: サテライト
+	}
+}
+
+Items: {
+	QuartzAxe: {
+		DisplayName: クォーツアックス
+		Tooltip: ""
+	}
+
+	QuartzCrateItem: {
+		DisplayName: 水晶の箱
+		Tooltip: ""
+	}
+
+	QuartzModule: {
+		DisplayName: ネットワークモジュール
+		Tooltip: ""
+	}
+
+	QuartzPickaxe: {
+		DisplayName: クォーツピッケル
+		Tooltip: ""
+	}
+
+	QuartzShard: {
+		DisplayName: クォーツシャード
+		Tooltip: ""
+	}
+
+	QuartzSword: {
+		DisplayName: クォーツソード
+		Tooltip: ""
+	}
+
+	ShroomiteGeneratorItem: {
+		DisplayName: シュルーマイトジェネレーター
+		Tooltip: ""
+	}
+
+	SoulBar: {
+		DisplayName: ソウルのインゴット
+		Tooltip: ""
+	}
+
+	SoulGeneratorItem: {
+		DisplayName: ソウルジェネレーター
+		Tooltip: ""
+	}
+
+	SpectreGeneratorItem: {
+		DisplayName: スペクタージェネレーター
+		Tooltip: ""
+	}
+
+	SputnikItem: {
+		DisplayName: サテライト
+		Tooltip: 宇宙空間にのみ設置可能
+	}
+
+	BaseItemsGeneratorItem: {
+		DisplayName: アイテムジェネレーター
+		Tooltip: ""
+	}
+
+	ChlorophyteGeneratorItem: {
+		DisplayName: クロロファイトジェネレーター
+		Tooltip: ""
+	}
+
+	DriveChestItem: {
+		DisplayName: ネットワークターミナル
+		Tooltip: サテライトからの無限ストレージにアクセスする！
+	}
+
+	DriveChestRemoteItem: {
+		DisplayName: ネットワークコントローラー
+		Tooltip: どこからでもサテライトからの無限ストレージにアクセスする！
+	}
+
+	HallowedGeneratorItem: {
+		DisplayName: 神聖なジェネレーター
+		Tooltip: ""
+	}
+
+	HellstoneGeneratorItem: {
+		DisplayName: ヘルストーンジェネレーター
+		Tooltip: ""
+	}
+
+	ItemsCountAccessoryItem: {
+		DisplayName: アイテムカウンター
+		Tooltip: ストレージ内のアイテム数を表示する
+	}
+
+	LuminiteGeneratorItem: {
+		DisplayName: ルミナイトジェネレーター
+		Tooltip: ""
+	}
+
+	MeteoriteGeneratorItem: {
+		DisplayName: メテオライトジェネレーター
+		Tooltip: ""
+	}
+
+	PowerBar: {
+		DisplayName: 力のインゴット
+		Tooltip: ""
+	}
+
+	PowerGeneratorItem: {
+		DisplayName: 強力なジェネレーター
+		Tooltip: ""
+	}
+}
+
+Keybinds: {
+	SearchItem: {
+		DisplayName: アイテム検索
+	}
+
+	QuickOpen: {
+		DisplayName: クイックオープン
+	}
+}

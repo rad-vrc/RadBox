@@ -1,0 +1,27 @@
+ClickEffect: {
+	WildMagicNew: {
+		Name: ワイルドマジック
+		Description: いずれかのクリック効果をランダムで発動する
+	}
+
+	ManiaNew: {
+		Name: マニア
+		Description: 下位のクリック効果がランダムで発動する
+	}
+}
+
+Configs: {
+	ClickerAPIConfig: {
+		DisplayName: Clicker Extra API 設定
+
+		Headers: {
+			Debug: デバッグ設定
+		}
+
+		OneClickClickerEffect: {
+			Label: ワンクリックでクリック効果を発動
+			Tooltip: クリックするたびにクリック効果を発動できるようにします
+		}
+	}
+}
+

@@ -1,0 +1,208 @@
+Common: {
+	GeneratorDropsTitle: Generated items:
+	ItemsCounter: Items Counter
+	ItemsCounterCount: items in storage
+	CantUseWithoutSputnik: No available Satellite
+	Lang: en
+}
+
+ChanceNames: {
+	_0: Very high chance
+	_1: High chance
+	_2: Medium chance
+	_3: Low chance
+	_4: Very low chance
+}
+
+UITitles: {
+	AutoImport: Auto Import
+	DriveChest: Network Terminal
+	Sputnik: Satellite
+	SputnikItem: Satellite
+	DriveChestSearch: Search
+	DriveChestRecipes: Recipes
+	DriveChestCraft: Crafting
+}
+
+InfoDisplays: {
+	SatelliteInfoDisplay: {
+		DisplayName: Items Counter
+	}
+}
+
+Tiles: {
+	BaseItemsGeneratorTile: {
+		MapEntry: Item Generator
+	}
+
+	ChlorophyteGeneratorTile: {
+		MapEntry: Chlorophyte Generator
+	}
+
+	DriveChestTile: {
+		MapEntry: Network Terminal
+	}
+
+	HallowedGeneratorTile: {
+		MapEntry: Hallowed Generator
+	}
+
+	HellstoneGeneratorTile: {
+		MapEntry: Hellstone Generator
+	}
+
+	LuminiteGeneratorTile: {
+		MapEntry: Luminite Generator
+	}
+
+	MeteoriteGeneratorTile: {
+		MapEntry: Meteorite Generator
+	}
+
+	PowerGeneratorTile: {
+		MapEntry: Powerful Generator
+	}
+
+	QuartzCrateTile: {
+		MapEntry: Quartz Crate
+	}
+
+	ShroomiteGeneratorTile: {
+		MapEntry: Shroomite Generator
+	}
+
+	SoulGeneratorTile: {
+		MapEntry: Soul Generator
+	}
+
+	SpectreGeneratorTile: {
+		MapEntry: Spectre Generator
+	}
+
+	SputnikTile: {
+		MapEntry: Satellite
+	}
+}
+
+Items: {
+	QuartzAxe: {
+		DisplayName: Quartz Axe
+		Tooltip: ""
+	}
+
+	QuartzCrateItem: {
+		DisplayName: Quartz Crate
+		Tooltip: ""
+	}
+
+	QuartzModule: {
+		DisplayName: Network Module
+		Tooltip: ""
+	}
+
+	QuartzPickaxe: {
+		DisplayName: Quartz Pickaxe
+		Tooltip: ""
+	}
+
+	QuartzShard: {
+		DisplayName: Quartz Shard
+		Tooltip: ""
+	}
+
+	QuartzSword: {
+		DisplayName: Quartz Sword
+		Tooltip: ""
+	}
+
+	ShroomiteGeneratorItem: {
+		DisplayName: Shroomite Generator
+		Tooltip: ""
+	}
+
+	SoulBar: {
+		DisplayName: Soul Bar
+		Tooltip: ""
+	}
+
+	SoulGeneratorItem: {
+		DisplayName: Soul Generator
+		Tooltip: ""
+	}
+
+	SpectreGeneratorItem: {
+		DisplayName: Spectre Generator
+		Tooltip: ""
+	}
+
+	SputnikItem: {
+		DisplayName: Satellite
+		Tooltip: Can be placed only in the Space
+	}
+
+	BaseItemsGeneratorItem: {
+		DisplayName: Item Generator
+		Tooltip: ""
+	}
+
+	ChlorophyteGeneratorItem: {
+		DisplayName: Chlorophyte Generator
+		Tooltip: ""
+	}
+
+	DriveChestItem: {
+		DisplayName: Network Terminal
+		Tooltip: Gives access to the infinite storage from the Satellite!
+	}
+
+	DriveChestRemoteItem: {
+		DisplayName: Network Controller
+		Tooltip: Gives access to the infinite storage from the Satellite from anywhere!
+	}
+
+	HallowedGeneratorItem: {
+		DisplayName: Hallowed Generator
+		Tooltip: ""
+	}
+
+	HellstoneGeneratorItem: {
+		DisplayName: Hellstone Generator
+		Tooltip: ""
+	}
+
+	ItemsCountAccessoryItem: {
+		DisplayName: Items Counter
+		Tooltip: Shows items count in storage
+	}
+
+	LuminiteGeneratorItem: {
+		DisplayName: Luminite Generator
+		Tooltip: ""
+	}
+
+	MeteoriteGeneratorItem: {
+		DisplayName: Meteorite Generator
+		Tooltip: ""
+	}
+
+	PowerBar: {
+		DisplayName: Power Bar
+		Tooltip: ""
+	}
+
+	PowerGeneratorItem: {
+		DisplayName: Powerful Generator
+		Tooltip: ""
+	}
+}
+
+Keybinds: {
+	SearchItem: {
+		DisplayName: Search Item
+	}
+
+	QuickOpen: {
+		DisplayName: Quick Open
+	}
+}
+

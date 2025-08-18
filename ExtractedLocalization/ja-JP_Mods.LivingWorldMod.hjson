@@ -1,0 +1,763 @@
+Bestiary: {
+	HarpyVillager: A villager from the Harpy Village in the sky. Don't ruffle their feathers or attempt flirtation if you value your life.
+}
+
+Biomes: {
+	HarpyVillageBiome: {
+		DisplayName: Harpy Village
+		TownNPCDialogueName: the Harpy Village Biome
+	}
+}
+
+Buffs: {
+	NimbusPetBuff: {
+		DisplayName: Nimbus Pet
+		Description: "'I bet it tastes like cotton candy...'"
+	}
+
+	SugarSuperfluity: {
+		DisplayName: Sugar Superfluity
+		Description: "'Is that you, Roy G. Biv?'"
+	}
+}
+
+Common: {
+	Reputation: Reputation
+}
+
+Event: {
+	WaystoneActivation: Waystone Activated!
+	NightPartyStarted: The townsfolk are throwing a party in celebration of your victory!
+
+	VillagerRespawned: {
+		Harpy: "{0} the Harpy Villager has hatched!"
+	}
+
+	VillagerLeft: {
+		Harpy: "{0} the Harpy Vilager has departed for a new home!"
+	}
+}
+
+VillagerDialogue: {
+	Harpy: {
+		Event: {
+			0: I'm super thankful we're above the clouds. I cannot stand my hair being wet.
+			1: Ahh, watching the rain fall from the clouds is so relaxing.
+			2: It's so fun watching all the monsters going crazy down there attacking people. I'm glad we're somewhat safe up here.
+			3: What, are you scared or something?
+			4: Primal dur-SQUAK... during Blood-SQUAK Moons-SQUAK!
+			5: ...Not going to SQUAK say any-SQUAK!
+			6: Wet SQUAK Blood SQUAK annoying!
+		}
+
+		Shop: {
+			Initial: {
+				SevereDislike: {
+					0: You're lucky I am even letting you speak to me, let alone buy my stuff. Just know there'll be a markup for anything you buy due to all the trouble you've caused us.
+					1: You filthy landwalkers coming around the world barging into places like you own them. Just tell me what you want and I'll decide how much to mark it up by.
+				}
+
+				Dislike: {
+					0: You know, since there aren't any laws regulating prices and there really isn't any competition, due to the minor trouble you've put us through, I think your next product will cost a little extra.
+					1: Tread carefully, landwalker. Keep slipping up like you have been lately, and soon it'll cost an entire platinum to buy one of these things!
+				}
+
+				Neutral: {
+					0: Nice of you to stop by, landwalker. Would appreciate the extra coin right now, everything is at the standard price!
+					1: What kind of harpy would I be to give you unfair prices if you really haven't made an impression?
+				}
+
+				Like: {
+					0: I wonder if my friends wanna go practice feather shooting later today... Erm- right, anything I got pique your interest landwalker?
+					1: You know, when you first came here, I thought you were like all the other landwalkers, but I was pleasantly surprised that's not the case. Have a small discount, on me!
+				}
+
+				Love: {
+					0: Looking for something to buy, landwalker? I know you could probably afford everything at normal price, but I can't hold back giving you a discount regardless.
+					1: You know landwalker, have this discount on me. I guess you deserve it for helping the village so much, or whatever. Just buy something!
+				}
+			}
+
+			Buy: {
+				SevereDislike: {
+					0: How stupid are you to buy something at such a massive price markup? I guess humans really are all stupid!
+					1: Like I was saying before, you're lucky I am even giving you the liberty of speaking to me. Thanks for the purchase I guess.
+				}
+
+				Dislike: {
+					0: If you thought this markup was a lot, you haven't seen anything yet. Watch yourself, landwalker. Thanks for the purchase.
+					1: You must think you're so rich being able to buy all this stuff no matter the price. Whatever. Thanks for the money, I guess.
+				}
+
+				Neutral: {
+					0: Like, thanks for the purchase, landwalker.
+					1: Thanks for the purchase, landwalker. Couldn't be keeping this economy alive without purchases like these!
+				}
+
+				Like: {
+					0: Hey, thanks for the purchase! It means alot. We don't get a whole lot of inter-species commerce up here, so it's nice to have you around.
+					1: Keep up the good work and the discount you just got might become even better. You didn't hear that from me, though, landwalker.
+				}
+
+				Love: {
+					0: We can like, never thank you enough for purchases like these. No other human has ever gotten discounts like these!
+					1: So you ended up buying something then? Whatever. Just kidding, thank you very much for the purchase, landwalker!
+				}
+			}
+		}
+
+		SevereDislike: {
+			0: Don't take it personally if we like, rip off your arms and eat you or something.
+			1: How do you even live with those repulsive meat sticks in place of wings?
+			2: You really ruffle my feathers, landwalker!
+			3: How's the weather down there? I hope it's horrible.
+			4: Leave me alone you ugly landwalking son of a- SQUAK!
+			5: Do you want my feathers going down your back like a stegosaurus?
+			6: Are all the flightless this fowl and annoying...?
+			7: Humans... Despicable. Created those foul windows!
+		}
+
+		Dislike: {
+			0: Tread carefully, landwalker. You've upset a few of us here around the village.
+			1: Sure, buy something if you want. But for the inconveniences you've caused some of us, there will be a bit of a markup.
+			2: If you think some of us are giving you a nasty look, you're probably right.
+			3: What do you want? I'm trying to relax here.
+			4: You haven't been making the best impressions around here lately. You might want to change that, preferably soon.
+			5: Oh hey. Can I help you at all? No? Then get out of my face.
+			6: I'm gonna be straight with you, human. You've caused some problems for us. Nothing outrageous, but it's left a bit of a sour taste in our mouths. We may understand if they were just one time mistakes, but you better act carefully before things get very, very bad for you.
+		}
+
+		Neutral: {
+			0: I don't get it, what's so wrong with being bird-brained?
+			1: I hope I can be at the front of the V formation at least once before I die.
+			2: Flying through the sky is like, so freeing. You should try it sometime.
+			3: I'm sort of scared of flying too high and floating into space or the sun or something.
+			4: You'll buy something, won't you? You didn't come here for nothing, right?
+			5: No, I don't want any crackers. And stop calling me Polly!
+			6: You're asking how we reproduce if we're all female? Don't be silly.
+		}
+
+		Like: {
+			0: Landwalker! You want to buy something, right? Or did you just want to talk to me?
+			1: Aren't my feathers pretty today? I spent all day grooming them.
+			2: You should sit with me on my perch sometime. The breeze is so nice, it really helps my zen.
+			3: You aren't so bad for a landwalking human. Come visit again sometime!
+			4: It gets sort of boring up here. But it's not so bad when you come around.
+			5: Does this top make my wings look fat?
+			6: ptoo- Sorry, I got a feather in my mouth again. Happens every time.
+			7: I really hope a blood moon doesn't happen soon, I don't want to deal with my feathers getting all ruffled.
+		}
+
+		Love: {
+			0: Hey! There's my favorite human! How have things been going for you?
+			1: You know, you're lucky you're super liked around here in the village. No way else would we be giving out discounts like these!
+			2: Heyyy! So happy you could stop by; you got some stories for us this time around? We'd love to hear them!
+			3: You know, if I'm being honest, when you first appeared in the village, we weren't sure what to think of you. We never get landwalking visitors up here. But you know what? We're glad you're here.
+			4: You don't find the phrase "landwalker" offensive, do you? We've been saying it for so long! Oh man...
+			5: I don't know how you could ever handle going underground. The air must be so stale and dry... It's much better up here in the sky!
+		}
+	}
+}
+
+Items: {
+	SkywareWallItem: {
+		DisplayName: Skyware Wall
+		Tooltip: ""
+	}
+
+	SandstoneSlabWallItem: {
+		DisplayName: Sandstone Slab Wall
+		Tooltip: ""
+	}
+
+	SkywareFenceItem: {
+		DisplayName: Skyware Fence
+		Tooltip: ""
+	}
+
+	SkipTileItem: {
+		DisplayName: Skip Tile Item
+		Tooltip: ""
+	}
+
+	SkipWallItem: {
+		DisplayName: Skip Wall Item
+		Tooltip: ""
+	}
+
+	FriedHarpyEgg: {
+		DisplayName: Fried Harpy Egg
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			'You monster.'
+			'''
+	}
+
+	NimbusInABottle: {
+		DisplayName: Nimbus In A Bottle
+		Tooltip: Summons a pet nimbus that follows you around
+	}
+
+	SkywareBlockItem: {
+		DisplayName: Skyware Block
+		Tooltip: ""
+	}
+
+	StarshardCloudItem: {
+		DisplayName: Starshard Cloud
+		Tooltip: "'Shards of fallen stars permeate throughout this cloud'"
+	}
+
+	StarshineBlockItem: {
+		DisplayName: Starshine Block
+		Tooltip: ""
+	}
+
+	SunslabBlockItem: {
+		DisplayName: Sunslab Block
+		Tooltip: ""
+	}
+
+	NimbusJarItem: {
+		DisplayName: Nimbus Jar
+		Tooltip: ""
+	}
+
+	GravityTapestryItem: {
+		DisplayName: Gravity Tapestry
+		Tooltip: ""
+	}
+
+	SkywareAnvilItem: {
+		DisplayName: Skyware Anvil
+		Tooltip: ""
+	}
+
+	SkywareLoomItem: {
+		DisplayName: Skyware Loom
+		Tooltip: ""
+	}
+
+	SunTapestryItem: {
+		DisplayName: Sun Tapestry
+		Tooltip: ""
+	}
+
+	HarpyShrineItem: {
+		DisplayName: Harpy Shrine
+		Tooltip: "'The magical source of protection for all those that inhabit a Harpy Village'"
+	}
+
+	StarTorchItem: {
+		DisplayName: Star Torch
+		Tooltip: "'Light the way with the essence of the cosmos'"
+	}
+
+	HarpyEgg: {
+		DisplayName: Harpy Egg
+		Tooltip: "'It's rather large, but looks like any other egg.'"
+	}
+
+	EffervescentNugget: {
+		DisplayName: Effervescent Chicken Nugget
+		Tooltip:
+			'''
+			Upon first consumption, permanently increases your movement speed by 5%
+			Otherwise, become one with the rainbow (epilepsy warning)
+			'Now with only 1 kilogram of sugar!'
+			'''
+	}
+
+	EffervescentHarpyFeather: {
+		DisplayName: Effervescent Harpy Feather
+		Tooltip:
+			'''
+			Grants the effects of the feather-fall potion
+			Increases damage reduction by 4% while airborne
+			'Float like a Harpy, sting like a Wyvern.'
+			'''
+	}
+
+	StormTapestryItem: {
+		DisplayName: Storm Tapestry
+		Tooltip: ""
+	}
+
+	WorldTapestryItem: {
+		DisplayName: World Tapestry
+		Tooltip: ""
+	}
+}
+
+MapInfo: {
+	Shrines: {
+		Harpy: Harpy Village
+	}
+
+	Waystones: {
+		Desert: Desert Waystone
+		Jungle: Jungle Waystone
+		Mushroom: Glowing Mushroom Waystone
+		Caverns: Caverns Waystone
+		Ice: Tundra Waystone
+	}
+}
+
+PlayerDeathReason: {
+	SugarSuperfluity: "{0} had a heart attack."
+}
+
+Tiles: {
+	GravityTapestryTile: {
+		MapEntry: Tapestry
+	}
+
+	StormTapestryTile: {
+		MapEntry: Tapestry
+	}
+
+	WorldTapestryTile: {
+		MapEntry: Tapestry
+	}
+
+	SunTapestryTile: {
+		MapEntry: Tapestry
+	}
+
+	SkywareAnvilTile: {
+		MapEntry: Skyware Anvil
+	}
+
+	SkywareLoomTile: {
+		MapEntry: Skyware Loom
+	}
+
+	VillageShrineTile: {
+		MapEntry: Village Shrine
+	}
+
+	WaystoneTile: {
+		MapEntry: Waystone
+	}
+
+	StarTorchTile: {
+		MapEntry: たいまつ
+	}
+}
+
+VillagerType: {
+	Harpy: Harpy
+}
+
+NPCs: {
+	HarpyVillager: {
+		DisplayName: Harpy Villager
+	}
+}
+
+Projectiles: {
+	NimbusPetProjectile: {
+		DisplayName: Nimbus Pet
+	}
+}
+
+UI: {
+	NPCHappiness: {
+		PriceModifier: Price Modifier
+	}
+
+	Bestiary: {
+		SleepIntervalTooltip: Preferred Sleep Schedule
+	}
+
+	Fraction: "{Numerator}/{Denominator}"
+	DurationMoodFlavorText:
+		'''
+		\"{FlavorText}\"
+
+		Duration: {Time}
+		'''
+	MoodFlavorText: '''"{FlavorText}"'''
+
+	VillagerShop: {
+		Buying: Buying:
+		Stock: Stock:
+		Buy: Buy
+		Savings: Savings
+	}
+
+	VillagerHousing: {
+		ButtonHoverText: Villager Housing
+		VillagerTypeLocked: "{0} Villagers cannot be re-housed until you are liked by them!"
+		VillagerHousedOutsideOfVillageError: Villagers cannot be housed outside of their Village Shrine's range!
+		NonVillagerHousedInsideOfVillageError: Non-villagers cannot be housed within a Village Shrine's range!
+	}
+
+	Shrine: {
+		HarpyCountdown: New Harpy Egg in:
+		AddText: Add 1
+		TakeText: Take 1
+		DisableVillageRadius: Hide Village Radius Display
+		EnableVillageRadius: Show Village Radius Display
+		ForceShrineButtonText: Force Synchronize Housing
+		PauseVillagerSpawning: Pause Villager Spawning
+		ResumeVillagerSpawning: Resume Villager Spawning
+	}
+}
+
+Configs: {
+	DebugConfig: {
+		DisplayName: Debug Config
+
+		forceDebugMode: {
+			Label: Force Debug Mode
+			Tooltip:
+				'''
+				Forces the mod to enter Debug mode, regardless of if the mod is being built from an IDE.
+				ONLY enable this if you know what you're doing.
+				'''
+		}
+
+		guaranteedWanderOffCooldown: {
+			Label: Guaranteed Town NPC Wandering
+			Tooltip: Guarantees Town NPC wandering while in the Default AI State instead of it being a chance.
+		}
+
+		disablePathPruning: {
+			Label: Disable Path Pruning
+			Tooltip: Disables the optimization that prunes Town NPC paths.
+		}
+	}
+
+	RevitalizationConfigClient: {
+		DisplayName: Town NPC Config (Client)
+
+		disabledDrawOverhauls: {
+			Label: Disabled Town NPC Drawing Overhauls
+			Tooltip:
+				'''
+				Adding an NPC to this list will disable their Drawing Overhaul. This means that each added NPC will no longer
+				have any additional drawing take place, and will be drawn exactly like they do without this mod enabled. 
+				You should only add an NPC to this list if there is some kind of animation error occuring.
+				'''
+		}
+
+		enabledNPCSmallTalk: {
+			Label: Town NPC Small Talk
+			Tooltip:
+				'''
+				Enables NPCs engaging in "small talk" with each other, shown with text bubbles of randomly generated sentences
+				over them.
+
+				Note: This system overrides the normal Vanilla "Chat Icon Bubbles" feature. Currently, even if this system is disabled, 
+				this will not re-enable the Vanilla "Chat Icon Bubbles" feature. This system and functionality is going to be overhauled 
+				and fixed in Part 2 of this update.
+				'''
+		}
+	}
+}
+
+TownNPCMoodDescription: {
+	Event_BloodMoon: Blood Moon
+	Event_Party: Party
+	Event_Rain: Rain
+	Event_Storm: Storm
+	InBiome: In {Biome}
+	NeighborNPC: Lives near {NPCTypeName}
+	Crowded: Crowded
+	VeryCrowded: Very Crowded
+	NotCrowded: Privacy
+	Lonely: Lonely
+	Homeless: Homeless
+	FarFromHome: Far from home
+	VeryWellRested: Very well rested
+	WellRested: Well rested
+	Tired: Tired
+	SleepDeprived: Sleep deprived
+}
+
+TownNPCMoodFlavorText: {
+	Default: {
+		VeryWellRested: I am very well rested.
+		WellRested: I am well rested.
+		Tired: I am tired.
+		SleepDeprived: I am really, really, tired.
+	}
+
+	Nurse: {
+		Event_BloodMoon: I'm THIS close to marching up to that moon and destroying it myself!
+		Event_Party: I seriously hope I don't have to treat anyone for alcohol poisoning after this.
+		VeryWellRested: Sleep is important for a healthy body and mind.
+		WellRested: I'm pretty lucky to get this much sleep.
+		Tired: Another day, another tired Nurse.
+		SleepDeprived: Just like nursing school...
+	}
+
+	BestiaryGirl: {
+		Event_BloodMoon: GRR! This moon make me ANGRY!!!
+		Event_Party: Yass!!! I LOVE parties!!!
+		Event_Rain: Nooo! The rain is SO irritating!
+		Event_Storm: EEK! THUNDER!
+		VeryWellRested: I. Feel. GREAT! YAS!
+		WellRested: I like, slept super well last night!
+		Tired: I'm, like, kinda tired.
+		SleepDeprived: Need. Sleep.
+	}
+
+	Stylist: {
+		Event_BloodMoon: I'm about to use these scissors for MUCH more than cutting hair!
+		Event_Party: Parties are always a great way to relax after a long day of work.
+		VeryWellRested: I slept like a princess last night!
+		WellRested: I feel about right. Decent sleep.
+		Tired: I hope I don't accidentally cut off someones hair by accident.
+		SleepDeprived: I am so tired...
+	}
+
+	Dryad: {
+		Event_BloodMoon: The land is bathed in blood and death. Mother has forsaken us!
+		Event_Party: Parties aren't of nature, but even I'll admit they're fun!
+		Event_Rain: The rain is a gift, the beauty of water peacefully falling from the heavens.
+		VeryWellRested: Mother has blessed me with gorgeous sleep last night! I feel wonderful.
+		WellRested: Nothing like a healthy amount of rest. I feel pretty good!
+		Tired: Mmm... I need to lay down...
+		SleepDeprived: I crave to lay in the soil and hibernate for eons...
+	}
+
+	Mechanic: {
+		Event_BloodMoon: UGH! I'm going to find whoever is in charge of that moon and hit them upside with a wrench!
+		Event_Party: I love parties! I have so many gizmos to use for party tricks!
+		Event_Rain: Ugh, the rain always makes it so hard to get anything done. It always fries my stuff!
+		Event_Storm: I better not see any lightning hit my stuff, or so help me!
+		VeryWellRested: I feel amazing! Time to get some serious work done!
+		WellRested: A well rested mind is a productive mind!
+		Tired: So much work left to do, and so little gas left in the tank...
+		SleepDeprived: Must finish... but must... sleep...
+	}
+
+	Steampunker: {
+		Event_BloodMoon: Bloody hell, this is!
+		Event_Party: Can't wait to chat with the chaps! Love these parties.
+		Event_Rain: I may love me some free water for steam, but not when it gets all over my gear!
+		VeryWellRested: I'm like a steam engine topped off with some bloody steam! I feel divine!
+		WellRested: Oi! I feel pretty good!
+		Tired: Blimey, I need some proper rest.
+		SleepDeprived: Brass, unlike my weak self, doesn't need... rest...
+	}
+
+	DyeTrader: {
+		Event_Party: I quite love these parties! So many beautiful colors for our beautiful guests!
+		Event_BloodMoon: Oh dear, I'm afraid all this red simply won't do...
+		Event_Rain: My turban has moisture sensitive dye in it! I mustn't go outside...
+		VeryWellRested: The colors of the world seem so vibrant and alive! I feel great!
+		WellRested: I feel rich and ready for a wonderful day!
+		Tired: My mind's color is slowly draining a drab gray...
+		SleepDeprived: I can see them... the colors of the sky, begging for me to rest...
+	}
+
+	TaxCollector: {
+		Event_Party: Bah, even I have to admit this is pretty fun...
+		Event_BloodMoon: Please! These monsters can't take my coin!
+		VeryWellRested: Looks like I woke up on the right side of the bed today.
+		WellRested: Hmmm... some surprisingly good rest for my age.
+		Tired: Bah, I need a nap.
+		SleepDeprived: Agh! I'll pay anything! Let me get some sleep!
+	}
+
+	Demolitionist: {
+		Event_Party: Hah! These surface parties are pretty fun, but nothing beats the dwarven ones back home!
+		Event_BloodMoon: Perfect! More fodder for my explosives!
+		VeryWellRested: The bed was rock-solid last night! I feel great!
+		WellRested: I feel pretty good, like a nice, hardy explosive!
+		Tired: I hope I don't lose a limb, my aim feels a bit off...
+		SleepDeprived: I'm about to blow a fuse if I don't sleep right now!
+	}
+
+	DD2Bartender: {
+		Event_Party: I expect some good business! People always try to find some excuse for a good mug of ale.
+		Event_BloodMoon: The monsters out there remind me of some the nastiest drunkards I've served in my time. Disgusting.
+		VeryWellRested: Nothing like a great night's rest.
+		WellRested: I feel pretty good! Could go for a mug of ale.
+		Tired: This tavern business is pretty tiring.
+		SleepDeprived: Maybe a couple mugs will get me the rest I deserve!
+	}
+
+	Golfer: {
+		Event_Party: Do you think these party people would be up for some golf?
+		Event_BloodMoon: Can't play golf when all those monsters are outside!
+		Event_Rain: These are hardly suitable conditions for golfing...
+		VeryWellRested: I feel sharper than a blade of well-trimmed fairway grass!
+		WellRested: A sufficient amount of a rest for a good game of golf!
+		Tired: I don't feel my sharpest. My golf game requires my A game!
+		SleepDeprived: The grass looks so comfy... just a quick nap...
+	}
+
+	PartyGirl: {
+		Event_Party: YESSS!!! I was BORN to party!
+		Event_BloodMoon: I can't party with those monsters! That's not fair!
+		Event_Rain: Can't have a party in the rain! What do I do now???
+		Event_Storm: Now we DEFINITELY can't have a party! Aw man...
+		VeryWellRested: I feel great! Let's PARTY!
+		WellRested: At this rate, I could party all day!
+		Tired: The party might not stop, but I could lay down for a second or two...
+		SleepDeprived: The party within me is fading away... I need sleep...
+	}
+
+	Merchant: {
+		Event_Party: My shop stays open, even during the celebration! Win-win in my book!
+		Event_BloodMoon: Those monsters are driving away my customers!
+		VeryWellRested: I feel great and ready for some haggling!
+		WellRested: I feel good and ready for some business!
+		Tired: My brain feels like its got the rest quality of a silver coin. Not the best.
+		SleepDeprived: That's it! I'll pay anything! I just want to SLEEP!
+	}
+
+	Angler: {
+		Event_Party: Hehe, I was able to sneak away some of the ale...
+		Event_BloodMoon: They say there are some super rare fish during these moons, but I'm not going out there! NO!
+		Event_Rain: Yes! Gotta start fishing! NOW!
+		VeryWellRested: I feel AWESOME! No fish is going to get off my line today!
+		WellRested: I feel ready and ready to boss someone around to get me some fish!
+		Tired: I need to get someone to grab me something nice to sleep on...
+		SleepDeprived: The fishies are sleeping really good right now. I want to join them...
+	}
+
+	GoblinTinkerer: {
+		Event_Party: I didn't get invited to many parties back home, but I'm glad I'm invited here!
+		Event_BloodMoon: Please don't tell me there are any goblins out there...
+		VeryWellRested: I feel like a well-oiled machine! It feels amazing!
+		WellRested: I feel good and ready for a productive day!
+		Tired: Mmm... one quick nap wouldn't hurt, right?
+		SleepDeprived: Do the machines anger, knowing they can't understand the joy of unconscious rest?
+	}
+
+	SantaClaus: {
+		Event_Party: Ho ho ho! Even I get out and hit some parties outside of Christmas!
+		Event_BloodMoon: Well these folks certainly aren't very jolly...
+		VeryWellRested: HO HO HO! I feel like a jolly bowl of jelly!
+		WellRested: I feel ready for a jolly day to give out some holiday cheer!
+		Tired: Oh, even the big man himself needs to some proper sleep!
+		SleepDeprived: I'm putting whoever isn't letting me sleep on the PERMANENT naughty list...
+	}
+
+	ArmsDealer: {
+		Event_Party: Hah! Let's PARTY!
+		Event_BloodMoon: Heh, free target practice!
+		VeryWellRested: I feel like the sharpest shooter alive!
+		WellRested: I feel pretty good and ready for some gun-slinging!
+		Tired: Ugh, I could really go for a nap right now...
+		SleepDeprived: GAH! Who do I need to shoot to get some sleep right now???
+	}
+
+	Painter: {
+		Event_Party: Ah, every moment worthy of a painting...
+		Event_BloodMoon: Color, in moderation! Please! This is TOO MUCH red!
+		Event_Rain: Ugh, the rain always makes the world so gray! Needs MUCH more color.
+		VeryWellRested: The world feels so colorful and amazing! I need to start painting right now!
+		WellRested: My mind feels ready and full of ideas for some good painting!
+		Tired: I think I need a break to rest.
+		SleepDeprived: My eyes yearn to close for the beautiful color of black to greet me for my sleep.
+	}
+
+	Guide: {
+		Event_Party: Parties are always a great way to unwind.
+		Event_BloodMoon: Please don't let any of those monsters out there have any lava...
+		Event_Rain: I've seen rain much in my travels, but it's beautiful each time.
+		VeryWellRested: I feel fired up and ready for my day!
+		WellRested: I am feeling pretty good!
+		Tired: A good guide deserves their rest, lest they lead someone on the wrong path.
+		SleepDeprived: Please, someone guide me to the nearest floor to sleep on...
+	}
+
+	WitchDoctor: {
+		Event_Party: Though our parties differ greatly, I must say I enjoy your kind's parties more.
+		Event_BloodMoon: Nature is not well, the magic emanating from that moon is not of peace.
+		Event_Rain: The rain is a gift of the spirits to hydrate the earth. They deserve thanks.
+		VeryWellRested: I feel serene. The spirits have blessed me with superb rest.
+		WellRested: Those above smile upon me for a good day.
+		Tired: Which doctor needs sleep? The Witch Doctor needs sleep.
+		SleepDeprived: Please, spirits, hear me! I pray for the sweet darkness of slumber!
+	}
+
+	Pirate: {
+		Event_Party: Ar! These landlubbers know how to party!
+		Event_BloodMoon: Those monsters out there got some free booty! More for me!
+		Event_Rain: Many days and nights on the seas in the rain. Reminds me of some beautiful times.
+		VeryWellRested: Aye, I don't sleep this well usually! I feel great!
+		WellRested: This sailor feels ready like a well-loaded flintlock!
+		Tired: Arr, this captain needs to retire to his quarters...
+		SleepDeprived: Which of the these scallywags needs to walk the plank so I can get some proper sleep!?
+	}
+
+	Cyborg: {
+		Event_Party: This party beats solitaire!
+		Event_BloodMoon: Sensors are picking up large, likely hostile life-forms!
+		Event_Rain: BEEP! BEEP! RUST WARNING! BEEP! BEEP!
+		VeryWellRested: All systems are primed and ready to go! I feel great!
+		WellRested: Beep! Systems are still functioning well!
+		Tired: Getting some warning notifications about some software updates... I should power down soon.
+		SleepDeprived: 01010011 01001100 01000101 01000101 01010000
+	}
+
+	Clothier: {
+		Event_Party: Parties are a perfect excuse to make some new costumes!
+		Event_BloodMoon: Reminds me of the nights, trapped in front of that decrepit dungeon...
+		Event_Rain: Fabric and water do NOT mix.
+		VeryWellRested: I feel like some fresh new fabric! Ready for a great day!
+		WellRested: Feeling pretty good, and dapper, if I dare!
+		Tired: I think it's a good time to put up the coat for today.
+		SleepDeprived: Please, I won't even put on my pajamas... I just want to sleep...
+	}
+
+	Wizard: {
+		Event_Party: I think this party could use some MAGIC!
+		Event_BloodMoon: ABIIT MALA LUNA RUBEI!
+		VeryWellRested: Some pixie must've sprinkled some sand dust on me! I slept like an angel!
+		WellRested: I feel pretty swell!
+		Tired: Ah, what was that sleeping spell again?
+		SleepDeprived: Please, this old man needs to sleep.
+	}
+
+	Truffle: {
+		Event_Party: Parties are alright, but some of the attendees are staring at me rather... hungrily.
+		Event_BloodMoon: These monsters better not be keen on eating any mushrooms!
+		VeryWellRested: I feel so in-tune with the world around me, like I'm back in the earth!
+		WellRested: I feel pretty good! I think I can hit the shroom shuffle!
+		Tired: This fungus could really go for a good nap...
+		SleepDeprived: I don't care if someone is going to eat me! I'll sleep on the dirt if I have to!
+	}
+
+	Princess: {
+		Event_Party: Ah! Just like the royal ball back home!
+		VeryWellRested: I slept like royalty last night! Well, hehe, I am royalty!
+		WellRested: I feel ready for an amazing day!
+		Tired: This princess may be a little weary around the eyes, but I still feel ready for today!
+		SleepDeprived: May I rest soon, whether it be on the royal beds or on the slack of the street.
+	}
+}
+
+InterTownNPCChat: {
+	NiceJoke: "{SpeakingNPC} makes a light-hearted joke about {RandomNPCName} while chatting with {ChatRecipient}."
+	MeanJoke: "{SpeakingNPC} makes a mean-spirited joke about {RandomNPCName} by calling it {Adjective} while chatting with {ChatRecipient}."
+	Pun: "{SpeakingNPC} makes a pun about {RandomNPCName} in the presence of {ChatRecipient}."
+	Validity: "{SpeakingNPC} questions the validity of {RandomNPCName} while making eye contact with {ChatRecipient}."
+	Existential: "{SpeakingNPC} ponders with {ChatRecipient} on the meaning of life, the universe, and everything."
+	SillyExistential: "{SpeakingNPC} ponders the existence of {RandomNPCName} with {ChatRecipient}."
+	Economic: "{SpeakingNPC} discusses the socio-economic implications of {RandomNPCName} with {ChatRecipient}."
+	Geopolitical: "{SpeakingNPC} debates {ChatRecipient} on the geo-political ramifications of {RandomNPCName} armed with {RandomItemName}."
+	Argument: "{SpeakingNPC} argues that {RandomNPCName} is the direct cause of {Noun} in {RandomNPCNameTwo}."
+	Adjective: "{SpeakingNPC} states that {RandomNPCName} is {Adjective}."
+	Dismissive: "{SpeakingNPC} maintains that {RandomNPCName} is not {Adjective}, despite {ChatRecipient} making a persuasive argument."
+	DeepExistential: "{SpeakingNPC} deeply contemplates with {ChatRecipient} on the devastating reality where {RandomNPCName} exist along-side {RandomNPCNameTwo}."
+	FreeNoun: "{SpeakingNPC} whispers to {ChatRecipient} that {RandomNPCName} in The {Location} is giving out free {Noun}."
+	ScaryLocation: "{SpeakingNPC} warns {ChatRecipient} that The {Location} is packed with evil {Noun}."
+	Smelly: "{SpeakingNPC} tries to politely let {ChatRecipient} know that they reek of {RandomNPCName}."
+	WishingForItem: "{SpeakingNPC} lets {ChatRecipient} know that they still really want {RandomItemName}."
+	ItemRumor: "{SpeakingNPC} relays to {ChatRecipient} that there's a rumor floating around about {RandomItemName} being in The {Location}, guarded by {RandomNPCName}."
+	WhodWinAFight: "{SpeakingNPC} insists to {ChatRecipient} that {RandomNPCName} would win in a fight against {RandomPlayer}, assuming no {RandomItemName} is allowed."
+	WhodLoseAFight: "{SpeakingNPC} asks {ChatRecipient} who would lose the matchup between {RandomNPCName} and {RandomNPCNameTwo}."
+	NoJokingAbout: "{SpeakingNPC} tries to stop {ChatRecipient} from making a joke about {RandomNPCName} and {RandomPlayer}."
+	Whistleblower: "{SpeakingNPC} overzealously presses {ChatRecipient} on the The {RandomItemName} Event that triggered The {Location} Crisis a couple years ago."
+	PlayerConcern: "{SpeakingNPC} murmurs to {ChatRecipient} with concern that they saw {RandomPlayer} rambling about {RandomNPCName} brawling with {RandomNPCNameTwo} in The {Location}."
+}
+

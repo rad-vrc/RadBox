@@ -1,0 +1,65 @@
+Projectiles: {
+	XenopopperMinion: {
+		DisplayName: Animated Xenopopper
+	}
+
+	VortexBeaterMinion: {
+		DisplayName: Animated Vortex Beater
+	}
+
+	VenusMagnumMinion: {
+		DisplayName: Animated Venus Magnum
+	}
+
+	TheUndertakerMinion: {
+		DisplayName: The Animated Undertaker
+	}
+
+	SDMGMinion: {
+		DisplayName: Animated SDMG Minion
+	}
+
+	PhoenixBlasterMinion: {
+		DisplayName: Animated Phoenix Blaster
+	}
+
+	OnyxBlasterMinion: {
+		DisplayName: Animated Onyx Blaster
+	}
+
+	MusketMinion: {
+		DisplayName: Animated Musket
+	}
+
+	MegasharkMinion: {
+		DisplayName: Animated Megashark
+	}
+
+	ClockworkAssaultRifleMinion: {
+		DisplayName: Animated Clockwork Assault Rifle
+	}
+
+	ChainGunMinion: {
+		DisplayName: Animated Chain Gun
+	}
+}
+
+Items: {
+	ZenithGun: {
+		Tooltip:
+			'''
+			'The amalgamation of all your efforts'
+			Summons the entire arsenal to fight for you
+			66% chance to not consume ammo
+			'''
+		DisplayName: Zenith Gun
+	}
+}
+
+Buffs: {
+	ZenithGunMinionBuff: {
+		Description: This is getting a little ridiculous.
+		DisplayName: The Arsenal
+	}
+}
+

@@ -1,0 +1,286 @@
+{
+	Projectiles: {
+		StygianSnowballProjectile: {
+			DisplayName: "スティギアン・スノーボール発射体"
+		}
+		PopRockCornProjectile: {
+			DisplayName: "ポップロックコーン発射体"
+		}
+		PinkGelProjectile: {
+			DisplayName: "ピンクジェル発射体"
+		}
+		HallowedStakeProjectile: {
+			DisplayName: "ハロウドステーク発射体"
+		}
+		FrozenGelProjectileClone: {
+			DisplayName: "フローズンジェル発射体クローン"
+		}
+		FrozenGelProjectile: {
+			DisplayName: "フローズンジェル発射体"
+		}
+		BayonetProjectile: {
+			DisplayName: "銃剣発射体"
+		}
+		SharpDartProjectile: {
+			DisplayName: "シャープダーツ発射体"
+		}
+		ShadowflameDartProjectile: {
+			DisplayName: "シャドウフレイムダーツ発射体"
+		}
+		MoltenDartProjectile: {
+			DisplayName: "モルテンダーツ発射体"
+		}
+		BloontoniumDartProjectile: {
+			DisplayName: "ブルントニウムダーツ発射体"
+		}
+		ZenithShotProjectile: {
+			DisplayName: "ゼニスショット発射体"
+		}
+		TaintedMusketBallProjectile: {
+			DisplayName: "汚染されたマスケット弾発射体"
+		}
+		StarfallShotProjectile: {
+			DisplayName: "スターフォールショット発射体"
+		}
+		ShroomiteBulletProjectile: {
+			DisplayName: "シュルームタイト弾発射体"
+		}
+		ShadowflameBulletProjectile: {
+			DisplayName: "シャドウフレイム弾発射体"
+		}
+		OverloadedZenithShotProjectile: {
+			DisplayName: "オーバーロードゼニスショット発射体"
+		}
+		BeeBulletProjectile: {
+			DisplayName: "ハチの弾丸発射体"
+		}
+		ZenithArrowProjectile: {
+			DisplayName: "ゼニスの矢発射体"
+		}
+		TaintedWoodenArrowProjectile: {
+			DisplayName: "汚染された木の矢発射体"
+		}
+		SpectreArrowProjectile: {
+			DisplayName: "スペクターアロー発射体"
+		}
+		OverloadedZenithArrowProjectile: {
+			DisplayName: "オーバーロードゼニスアロー発射体"
+		}
+		MartianTeslaArrowProjectile: {
+			DisplayName: "マーシャンテスラアロー発射体"
+		}
+		HellwingFixedProjectile: {
+			DisplayName: "ヘルウィング固定発射体"
+		}
+		EventideFixedProjectile: {
+			DisplayName: "エバータイド固定発射体"
+		}
+	}
+	NPCs: {
+		DartMonkey: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "＊{NPCName}に威嚇する＊"
+				DislikeNPC: "＊{NPCName}を不快そうに見る＊"
+				LikeNPC: "＊{NPCName}に嬉しそうに身振りをする＊"
+				LoveNPC: "＊{NPCName}の方向に向かって愛情を込めて鳴く＊"
+				DislikeBiome: "＊{BiomeName}の寒さに震える＊"
+				LikeBiome: "＊{BiomeName}を歩き回りながら嬉しそうに鳴く＊"
+				LoveBiome: "＊{BiomeName}を駆け回りながら楽しそうに鳴く＊"
+				HateCrowded: "＊近づきすぎるNPCに威嚇する＊"
+				DislikeCrowded: "＊近くの人混みにイライラして鳴く＊"
+				LoveSpace: "＊周りの開けた空間に嬉しそうに身振りをする＊"
+				FarFromHome: "＊恋しそうに家の方向を指さす＊"
+				NoHome: "＊空中に指で家の形を描く＊"
+				Content: "＊満足げに鳴く＊"
+			}
+			DisplayName: "ダーツモンキー"
+		}
+	}
+	Items: {
+		OperationDartstorm: {
+			Tooltip: ""
+			DisplayName: "オペレーション・ダーツストーム"
+		}
+		FlameCrucible: {
+			Tooltip: ""
+			DisplayName: "フレイムるつぼ"
+		}
+		DualBarrelBlowGun: {
+			Tooltip: ""
+			DisplayName: "双銃身吹き矢銃"
+		}
+		DartlingGun: {
+			Tooltip: ""
+			DisplayName: "ダートリングガン"
+		}
+		BayonetMusket: {
+			Tooltip: ""
+			DisplayName: "銃剣マスケット"
+		}
+		ResidualShadowflame: {
+			Tooltip: ""
+			DisplayName: "残留シャドウフレイム"
+		}
+		StygianSnowball: {
+			Tooltip: ""
+			DisplayName: "スティギアン・スノーボール"
+		}
+		PopRockCorn: {
+			Tooltip: ""
+			DisplayName: "ポップロックコーン"
+		}
+		HallowedStake: {
+			Tooltip: ""
+			DisplayName: "ハロウドステーク"
+		}
+		FrozenGel: {
+			Tooltip: ""
+			DisplayName: "フローズンジェル"
+		}
+		SharpDart: {
+			Tooltip: ""
+			DisplayName: "シャープダーツ"
+		}
+		ShadowflameDart: {
+			Tooltip: ""
+			DisplayName: "シャドウフレイムダーツ"
+		}
+		MoltenDart: {
+			Tooltip: ""
+			DisplayName: "モルテンダーツ"
+		}
+		EndlessShadowflameDartSatchel: {
+			Tooltip: ""
+			DisplayName: "無限のシャドウフレイムダーツサッチェル"
+		}
+		EndlessDartSatchel: {
+			Tooltip: ""
+			DisplayName: "無限のダーツサッチェル"
+		}
+		BloontoniumDart: {
+			Tooltip: ""
+			DisplayName: "ブルントニウムダーツ"
+		}
+		ZenithShot: {
+			Tooltip: ""
+			DisplayName: "ゼニスショット"
+		}
+		TaintedMusketBall: {
+			Tooltip: ""
+			DisplayName: "汚染されたマスケット弾"
+		}
+		StarfallShot: {
+			Tooltip: ""
+			DisplayName: "スターフォールショット"
+		}
+		ShroomiteBullet: {
+			Tooltip: ""
+			DisplayName: "シュルームタイト弾"
+		}
+		ShadowflameBullet: {
+			Tooltip: ""
+			DisplayName: "シャドウフレイム弾"
+		}
+		OverloadedZenithShot: {
+			Tooltip: ""
+			DisplayName: "オーバーロードゼニスショット"
+		}
+		BeeswaxBullet: {
+			Tooltip: ""
+			DisplayName: "蜜蝋弾"
+		}
+		ZenithArrow: {
+			Tooltip: ""
+			DisplayName: "ゼニスの矢"
+		}
+		TaintedWoodenArrow: {
+			Tooltip: ""
+			DisplayName: "汚染された木の矢"
+		}
+		SpectreArrow: {
+			Tooltip: ""
+			DisplayName: "スペクターアロー"
+		}
+		ShadowflameArrow: {
+			Tooltip: ""
+			DisplayName: "シャドウフレイムアロー"
+		}
+		PulseArrow: {
+			Tooltip: ""
+			DisplayName: "パルスアロー"
+		}
+		PrismaticArrow: {
+			Tooltip: ""
+			DisplayName: "プリズマティックアロー"
+		}
+		HellwingArrow: {
+			Tooltip: ""
+			DisplayName: "ヘルウィングアロー"
+		}
+		FrostArrow: {
+			Tooltip: ""
+			DisplayName: "フロストアロー"
+		}
+		DraconicArrow: {
+			Tooltip: ""
+			DisplayName: "ドラコニックアロー"
+		}
+		BloodyArrow: {
+			Tooltip: ""
+			DisplayName: "ブラッディアロー"
+		}
+		BeeswaxArrow: {
+			Tooltip: ""
+			DisplayName: "蜜蝋の矢"
+		}
+		AncientBoneArrow: {
+			Tooltip: ""
+			DisplayName: "古代の骨の矢"
+		}
+		OverloadedZenithArrow: {
+			Tooltip: ""
+			DisplayName: "オーバーロードゼニスアロー"
+		}
+		MartianTeslaArrow: {
+			Tooltip: ""
+			DisplayName: "マーシャンテスラアロー"
+		}
+		ShroomiteBandana: {
+			Tooltip: ""
+			DisplayName: "シュルームタイトバンダナ"
+		}
+		DartMonkeyBandana: {
+			Tooltip: ""
+			DisplayName: "ダーツモンキーバンダナ"
+		}
+	}
+	Buffs: {
+		EnemyElectrified: {
+			Description: "Mods.AdvancedAmmunition.Buffs.EnemyElectrified.Description"
+			DisplayName: "感電した敵"
+		}
+		BlindingRadiance: {
+			Description: "Mods.AdvancedAmmunition.Buffs.BlindingRadiance.Description"
+			DisplayName: "眩い輝き"
+		}
+	}
+	TownNPCMood: {
+		DartMonkey: {
+			HateNPC: "＊{NPCName}に威嚇する＊"
+			DislikeNPC: "＊{NPCName}を不快そうに見る＊"
+			LoveNPC: "＊{NPCName}の方向に向かって愛情を込めて鳴く＊"
+			LikeNPC: "＊{NPCName}に嬉しそうに身振りをする＊"
+			DislikeBiome: "＊{BiomeName}の寒さに震える＊"
+			LoveBiome: "＊{BiomeName}を駆け回りながら楽しそうに鳴く＊"
+			LikeBiome: "＊{BiomeName}を歩き回りながら嬉しそうに鳴く＊"
+			HateCrowded: "＊近づきすぎるNPCに威嚇する＊"
+			DislikeCrowded: "＊近くの人混みにイライラして鳴く＊"
+			FarFromHome: "＊恋しそうに家の方向を指さす＊"
+			LoveSpace: "＊周りの開けた空間に嬉しそうに身振りをする＊"
+			NoHome: "＊空中に指で家の形を描く＊"
+			Content: "＊満足げに鳴く＊"
+		}
+	}
+}

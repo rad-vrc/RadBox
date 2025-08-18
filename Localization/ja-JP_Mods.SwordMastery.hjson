@@ -1,0 +1,629 @@
+Buffs: {
+	BuffsFlyingIronBroadsword: {
+		DisplayName: "フライング鉄の剣"
+		Description: "フライング鉄の剣があなたのために戦う"
+	}
+
+	BuffsFlyingSilverBroadsword: {
+		DisplayName: "フライング銀の剣"
+		Description: "フライング銀の剣があなたのために戦う"
+	}
+
+	BuffsFlyingGoldBroadsword: {
+		DisplayName: "フライング金の剣"
+		Description: "フライング金の剣があなたのために戦う"
+	}
+
+	BuffsFlyingLightsBane: {
+		DisplayName: "フライングライツベイン"
+		Description: "フライングライツベインがあなたのために戦う"
+	}
+
+	BuffsFlyingBloodButcherer: {
+		DisplayName: "フライング血の肉切り包丁"
+		Description: "フライング血の肉切り包丁があなたのために戦う"
+	}
+
+	BuffsFlyingBladeofGrass: {
+		DisplayName: "フラインググラスブレード"
+		Description: "フラインググラスブレードがあなたのために戦う"
+	}
+
+	BuffsFlyingBeeKeeper: {
+		DisplayName: "フライングビーキーパー"
+		Description: "フライングビーキーパーがあなたのために戦う"
+	}
+
+	BuffsFlyingStarfury: {
+		DisplayName: "フライングスターフューリー"
+		Description: "フライングスターフューリーがあなたのために戦う"
+	}
+
+	BuffsFlyingEnchantedSword: {
+		DisplayName: "フライングエンチャントソード"
+		Description: "フライングエンチャントソードがあなたのために戦う"
+	}
+
+	BuffsFlyingIceBlade: {
+		DisplayName: "フライング氷の剣"
+		Description: "フライング氷の剣があなたのために戦う"
+	}
+
+	BuffsFlyingFieryGreatsword: {
+		DisplayName: "フライングヴォルケイノ"
+		Description: "フライングヴォルケイノがあなたのために戦う"
+	}
+
+	BuffsFlyingBoneSword: {
+		DisplayName: "フライング骨の剣"
+		Description: "フライング骨の剣があなたのために戦う"
+	}
+
+	BuffsFlyingBoneSword_: {
+		DisplayName: "忘れえぬもの"
+		Description: "敵の防御力を1減少させ、無限にスタックする"
+	}
+
+	BuffsFlyingTerragrim: {
+		DisplayName: "フライングテラグリム"
+		Description: "フライングテラグリムがあなたのために戦う"
+	}
+
+	BuffsFlyingNightsEdge: {
+		DisplayName: "フライングナイトエッジ"
+		Description: "フライングナイトエッジがあなたのために戦う"
+	}
+
+	BuffsDemonBlade: {
+		DisplayName: "デーモンブレード"
+		Description: "デーモンブレードがあなたのために戦う"
+	}
+
+	BuffsFlyingLeadBroadsword: {
+		DisplayName: "フライング鉛の剣"
+		Description: "フライング鉛の剣があなたのために戦う"
+	}
+
+	BuffsFlyingPlatinumBroadsword: {
+		DisplayName: "フライングプラチナの剣"
+		Description: "フライングプラチナの剣があなたのために戦う"
+	}
+
+	BuffsFlyingTungstenBroadsword: {
+		DisplayName: "フライングタングステンの剣"
+		Description: "フライングタングステンの剣があなたのために戦う"
+	}
+
+	BuffsFlyingCobaltSword: {
+		DisplayName: "フライングコバルトの剣"
+		Description: "フライングコバルトの剣があなたのために戦う"
+	}
+
+	BuffsDemonBladAddRecipes: {
+		DisplayName: "龙葵の犠牲"
+		Description: "兄さん、千年の時を経て、龙葵がついにあなたを助けることができます"
+	}
+
+	BuffsFlyingPalladiumSword: {
+		DisplayName: "フライングパラジウムの剣"
+		Description: "フライングパラジウムの剣があなたのために戦う"
+	}
+
+	BuffsFlyingMuramasa: {
+		DisplayName: "フライングムラマサ"
+		Description: "フライングムラマサがあなたのために戦う"
+	}
+
+	BuffsFlyingMythrilSword: {
+		DisplayName: "フライングミスリルの剣"
+		Description: "フライングミスリルの剣があなたのために戦う"
+	}
+
+	BuffsFlyingOrichalcumSword: {
+		DisplayName: "フライングオリハルコンの剣"
+		Description: "フライングオリハルコンの剣があなたのために戦う"
+	}
+
+	BuffsFlyingTitaniumSword: {
+		DisplayName: "フライングチタニウムの剣"
+		Description: "フライングチタニウムの剣があなたのために戦う"
+	}
+
+	BuffsFlyingAdamantiteSword: {
+		DisplayName: "フライングアダマンタイトの剣"
+		Description: "フライングアダマンタイトの剣があなたのために戦う"
+	}
+
+	BuffsFlyingExcalibur: {
+		DisplayName: "フライングエクスカリバー"
+		Description: "フライングエクスカリバーがあなたのために戦う"
+	}
+
+	BuffsFlyingTrueExcalibur: {
+		DisplayName: "真・フライングエクスカリバー"
+		Description: "真・フライングエクスカリバーがあなたのために戦う"
+	}
+
+	BuffsFlyingTrueNightsEdge: {
+		DisplayName: "真・フライングナイトエッジ"
+		Description: "真・フライングナイトエッジがあなたのために戦う"
+	}
+
+	BuffsFlyingTerraBlade: {
+		DisplayName: "フライングテラブレード"
+		Description: "フライングテラブレードがあなたのために戦う"
+	}
+}
+
+Items: {
+	FlyingIronBroadsword: {
+		DisplayName: "フライング鉄の剣"
+		Tooltip: ""
+	}
+
+	FlyingSilverBroadsword: {
+		DisplayName: "フライング銀の剣"
+		Tooltip: ""
+	}
+
+	FlyingGoldBroadsword: {
+		DisplayName: "フライング金の剣"
+		Tooltip: ""
+	}
+
+	FlyingLightsBane: {
+		DisplayName: "フライングライツベイン"
+		Tooltip:
+			'''
+			「魔法の光の剣」が敵を攻撃する
+			ダークスラッシュアタックを発動する
+			'''
+	}
+
+	FlyingBloodButcherer: {
+		DisplayName: "フライング血の肉切り包丁"
+		Tooltip:
+			'''
+			「フライング血の肉切り包丁」が敵を攻撃する
+			「血の虐殺」効果を発動する
+			'''
+	}
+
+	FlyingBladeofGrass: {
+		DisplayName: "フラインググラスブレード"
+		Tooltip:
+			'''
+			「フラインググラスブレード」が敵を攻撃する
+			リーフブレードアタックを発動する
+			'''
+	}
+
+	FlyingBeeKeeper: {
+		DisplayName: "フライングビーキーパー"
+		Tooltip:
+			'''
+			「フライングビーキーパー」が敵を攻撃する
+			キラービーアタックを発動する
+			25%の確率で混乱の追加効果を付与する
+			'''
+	}
+
+	FlyingStarfury: {
+		DisplayName: "フライングスターフューリー"
+		Tooltip:
+			'''
+			「フライングスターフューリー」が敵を攻撃する
+			33%の確率でスターアタックを発動する
+			'''
+	}
+
+	FlyingEnchantedSword: {
+		DisplayName: "フライングエンチャントソード"
+		Tooltip:
+			'''
+			「フライングエンチャントソード」が敵を攻撃する
+			ソードアタックを発動する
+			'''
+	}
+
+	FlyingIceBlade: {
+		DisplayName: "フライング氷の剣"
+		Tooltip:
+			'''
+			「フライング氷の剣」が飛行する際
+			アイスアローアタックを発動する
+			'''
+	}
+
+	FlyingFieryGreatsword: {
+		DisplayName: "フライングヴォルケイノ"
+		Tooltip:
+			'''
+			「フライングヴォルケイノ」が敵を攻撃する
+			爆発攻撃を発動する
+			'''
+	}
+
+	FlyingBoneSword: {
+		DisplayName: "フライング骨の剣"
+		Tooltip:
+			'''
+			「フライング骨の剣」が敵を攻撃する
+			敵の防御力を1減少させる
+			2秒間持続
+			スタック可能
+			'''
+	}
+
+	FlyingTerragrim: {
+		DisplayName: "フライングテラグリム"
+		Tooltip:
+			'''
+			「フライングテラグリム」が敵を攻撃する
+			切断攻撃を発動する
+			'''
+	}
+
+	FlyingNightsEdge: {
+		DisplayName: "フライングナイツエッジ"
+		Tooltip:
+			'''
+			「フライングナイツエッジ」が敵を攻撃する
+			ルミナススラッシュアタックを発動する
+			'''
+	}
+
+	DemonBlade: {
+		DisplayName: "デーモンブレード"
+		Tooltip:
+			'''
+			「デーモンブレード」が敵を攻撃する
+			80%の確率でデモニックアタックを発動する
+			デモニックエネルギーには吸血効果が付随する
+			'''
+	}
+
+	BladeForge: {
+		DisplayName: "剣のかまど"
+		Tooltip: ""
+	}
+
+	FlyingLeadBroadsword: {
+		DisplayName: "フライング鉛の剣"
+		Tooltip: ""
+	}
+
+	FlyingPlatinumBroadsword: {
+		DisplayName: "フライングプラチナの剣"
+		Tooltip: ""
+	}
+
+	FlyingTungstenBroadsword: {
+		DisplayName: "フライングタングステンの剣"
+		Tooltip: ""
+	}
+
+	FlyingCobaltSword: {
+		DisplayName: "フライングコバルトの剣"
+		Tooltip:
+			'''
+			「フライングコバルトの剣」が敵を攻撃する
+			コバルトソロスラッシュアタックを発動する
+			鞭の攻撃速度が10%上昇
+			2秒間持続
+			'''
+	}
+
+	LongkuiVoodooDoll: {
+		DisplayName: "龙葵のブードゥー人形"
+		Tooltip: ""
+	}
+
+	RemoveLightStone: {
+		DisplayName: "ライトストーン除去"
+		Tooltip: ""
+	}
+
+	FlyingPalladiumSword: {
+		DisplayName: "フライングパラジウムの剣"
+		Tooltip:
+			'''
+			「フライングピグミーネックレス」が敵を攻撃する
+			パラジウムストーンアタックを発動する
+			50%の確率で高速回復効果を発動する
+			2秒間持続
+			'''
+	}
+
+	FlyingMuramasa: {
+		DisplayName: "フライングムラマサ"
+		Tooltip:
+			'''
+			「ムラマサ」が敵を攻撃する
+			連斬攻撃を発動する
+			'''
+	}
+
+	FlyingMythrilSword: {
+		DisplayName: "フライングミスリルの剣"
+		Tooltip:
+			'''
+			「フライングミスリルの剣」が敵を攻撃する
+			花弁の舞攻撃を発動する
+			鞭の攻撃範囲が20上昇
+			2秒間持続
+			'''
+	}
+
+	FlyingOrichalcumSword: {
+		DisplayName: "フライングオリハルコンの剣"
+		Tooltip:
+			'''
+			「フライングオリハルコンの剣」が敵を攻撃する
+			花弁の舞攻撃を発動する
+			鞭の攻撃範囲が20上昇
+			2秒間持続
+			'''
+	}
+
+	FlyingTitaniumSword: {
+		DisplayName: "フライングチタニウムの剣"
+		Tooltip:
+			'''
+			「フライングチタニウムの剣」が敵を攻撃する
+			チタニウムバリア効果
+			（チタニウム装備着用時は無効）
+			（1本の剣/チタニウム破片5個）
+			被ダメージが10%軽減
+			鞭ダメージが10%増加
+			2秒間持続
+			'''
+	}
+
+	FlyingAdamantiteSword: {
+		DisplayName: "フライングアダマンタイトの剣"
+		Tooltip:
+			'''
+			「フライングアダマンタイトの剣」が敵を攻撃する
+			アダマンタイトガード効果を発動する
+			鞭武器を振るうと、ガードが発動する
+			（最初の剣は3体の皇帝ガード、残りは1本の剣/1体の皇帝ガード）
+			鞭の攻撃速度が10%上昇
+			移動速度が10%上昇
+			2秒間持続
+			'''
+	}
+
+	FlyingExcalibur: {
+		DisplayName: "フライングエクスカリバー"
+		Tooltip:
+			'''
+			「フライングエクスカリバー」が敵を攻撃する
+			スチールスラッシュアタックを発動する
+			鞭の攻撃範囲が10%上昇
+			召喚ダメージが10%増加
+			2秒間持続
+			'''
+	}
+
+	FlyingTrueExcalibur: {
+		DisplayName: "真・フライングエクスカリバー"
+		Tooltip:
+			'''
+			「真・フライングエクスカリバー」が敵を攻撃する
+			真・スチールスラッシュアタックを発動する
+			鞭の攻撃範囲が15%上昇
+			召喚ダメージが15%増加
+			2秒間持続
+			'''
+	}
+
+	FlyingTrueNightsEdge: {
+		DisplayName: "真・フライングナイトエッジ"
+		Tooltip:
+			'''
+			「真・フライングナイトエッジ」が飛行・攻撃時
+			オーロラスピニングスラッシュとルミナスマイクロスラッシュを発動する
+			鞭の攻撃速度が15%上昇
+			鞭ダメージが15%増加
+			2秒間持続
+			'''
+	}
+
+	FlyingTerraBlade: {
+		DisplayName: "フライングテラブレード"
+		Tooltip:
+			'''
+			「フライングテラブレード」が飛行・攻撃時
+			テラライトスラッシュとテラブレードスラッシュを発動する
+			召喚ダメージが20%増加
+			鞭ダメージが20%増加
+			鞭の攻撃速度が20%上昇
+			鞭の攻撃範囲が20%上昇
+			2秒間持続
+			'''
+	}
+}
+
+Projectiles: {
+	FlyingIronBroadswordProj: {
+		DisplayName: "フライング鉄の剣弾"
+	}
+
+	FlyingSilverBroadswordProj: {
+		DisplayName: "フライング銀の剣弾"
+	}
+
+	FlyingGoldBroadswordProj: {
+		DisplayName: "フライング金の剣弾"
+	}
+
+	FlyingLightsBaneProj: {
+		DisplayName: "フライングライツベイン弾"
+	}
+
+	FlyingBloodButchererProj: {
+		DisplayName: "フライングブラッドバッチャー弾"
+	}
+
+	FlyingBladeofGrassProj: {
+		DisplayName: "フライングブレード・オブ・グラス弾"
+	}
+
+	FlyingBeeKeeperProj: {
+		DisplayName: "フライングビーキーパー弾"
+	}
+
+	FlyingStarfuryProj: {
+		DisplayName: "フライングスターフューリー弾"
+	}
+
+	FlyingEnchantedSwordProj: {
+		DisplayName: "フライングエンチャンテッドソード弾"
+	}
+
+	FlyingEnchantedSwordProj_: {
+		DisplayName: "フライングエンチャンテッドソード弾_"
+	}
+
+	FlyingIceBladeProj: {
+		DisplayName: "フライングアイスブレード弾"
+	}
+
+	FlyingFieryGreatswordProj: {
+		DisplayName: "フライング炎のグレートソード弾"
+	}
+
+	FlyingBoneSwordProj: {
+		DisplayName: "フライングボーンソード弾"
+	}
+
+	FlyingTerragrimProj: {
+		DisplayName: "フライングテラグリム弾"
+	}
+
+	FlyingTerragrimProj_: {
+		DisplayName: "フライングテラグリム弾_"
+	}
+
+	FlyingNightsEdgeProj: {
+		DisplayName: "フライングナイツエッジ弾"
+	}
+
+	FlyingNightsEdgeProj_: {
+		DisplayName: "フライングナイツエッジ弾_"
+	}
+
+	DemonBladeProj: {
+		DisplayName: "デーモンブレード弾"
+	}
+
+	DemonBlade_Swing: {
+		DisplayName: "デーモンブレード・スイング"
+	}
+
+	DemonBladeProj_: {
+		DisplayName: "デーモンブレード弾_"
+	}
+
+	DemonBladeProj_R: {
+		DisplayName: "デーモンブレード弾_R"
+	}
+
+	FlyingLeadBroadswordProj: {
+		DisplayName: "フライング鉛の剣弾"
+	}
+
+	FlyingPlatinumBroadswordProj: {
+		DisplayName: "フライングプラチナの剣弾"
+	}
+
+	FlyingTungstenBroadswordProj: {
+		DisplayName: "フライングタングステンの剣弾"
+	}
+
+	FlyingCobaltSwordProj: {
+		DisplayName: "フライングコバルトソード弾"
+	}
+
+	FlyingCobaltSwordProj_P: {
+		DisplayName: "フライングコバルトソード弾_P"
+	}
+
+	FlyingPalladiumSwordProj: {
+		DisplayName: "フライングパラジウムソード弾"
+	}
+
+	FlyingPalladiumSwordProj_P: {
+		DisplayName: "フライングパラジウムソード弾_P"
+	}
+
+	FlyingMuramasaProj: {
+		DisplayName: "フライング村正弾"
+	}
+
+	FlyingMythrilSwordProj: {
+		DisplayName: "フライングミスリルソード弾"
+	}
+
+	FlyingMythrilSwordProj_P: {
+		DisplayName: "フライングミスリルソード弾_P"
+	}
+
+	FlyingOrichalcumSwordProj: {
+		DisplayName: "フライングオリハルコンソード弾"
+	}
+
+	FlyingOrichalcumSwordProj_P: {
+		DisplayName: "フライングオリハルコンソード弾_P"
+	}
+
+	FlyingTitaniumSwordProj: {
+		DisplayName: "フライングチタニウムソード弾"
+	}
+
+	FlyingAdamantiteSwordProj: {
+		DisplayName: "フライングアダマンタイトソード弾"
+	}
+
+	FlyingAdamantiteSwordProj_P: {
+		DisplayName: "フライングアダマンタイトソード弾_P"
+	}
+
+	FlyingExcaliburProj: {
+		DisplayName: "フライングエクスカリバー弾"
+	}
+
+	FlyingExcaliburProj_P: {
+		DisplayName: "フライングエクスカリバー弾_P"
+	}
+
+	FlyingTrueExcaliburProj: {
+		DisplayName: "フライング真・エクスカリバー弾"
+	}
+
+	FlyingTrueExcaliburProj_P: {
+		DisplayName: "フライング真・エクスカリバー弾_P"
+	}
+
+	FlyingTrueNightsEdgeProj: {
+		DisplayName: "フライング真・ナイツエッジ弾"
+	}
+
+	FlyingTrueNightsEdgeProj_P: {
+		DisplayName: "フライング真・ナイツエッジ弾_P"
+	}
+
+	FlyingTerraBladeProj: {
+		DisplayName: "フライングテラブレード弾"
+	}
+
+	FlyingTerraBladeProj_P: {
+		DisplayName: "フライングテラブレード弾_P"
+	}
+
+	FlyingTerraBladeProj_P_: {
+		DisplayName: "フライングテラブレード弾_P_"
+	}
+}
+

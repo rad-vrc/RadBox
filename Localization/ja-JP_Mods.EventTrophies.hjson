@@ -1,0 +1,1877 @@
+Items: {
+	TorchGodRelic: {
+		DisplayName: たいまつの神のレリック
+		Tooltip: ""
+	}
+	TorchGodTrophy: {
+		DisplayName: たいまつの神のトロフィー
+		Tooltip: ""
+	}
+	BloodMoonRelic: {
+		DisplayName: ブラッドムーンのレリック
+		Tooltip: ""
+	}
+	BloodMoonTrophy: {
+		DisplayName: ブラッドムーンのトロフィー
+		Tooltip: ""
+	}
+	GoblinArmyTrophy: {
+		Tooltip: ""
+		DisplayName: ゴブリン軍団のトロフィー
+	}
+	GoblinArmyRelic: {
+		Tooltip: ""
+		DisplayName: ゴブリン軍団のレリック
+	}
+	PatchWerkTrophy: {
+		Tooltip: ""
+		DisplayName: パッチウェルクのトロフィー
+	}
+	CorpseBloomTrophy: {
+		DisplayName: コープスブルームのトロフィー
+		Tooltip: ""
+	}
+	IllusionistTrophy: {
+		DisplayName: イリュージョニストのトロフィー
+		Tooltip: ""
+	}
+	OldOnesArmyRelic: {
+		DisplayName: オールドワンズ・アーミーのレリック
+		Tooltip: ""
+	}
+	OldOnesArmyTrophy: {
+		DisplayName: オールドワンズ・アーミーのトロフィー
+		Tooltip: ""
+	}
+	FrostLegionTrophy: {
+		Tooltip: ""
+		DisplayName: フロストレギオンのトロフィー
+	}
+	FrostLegionRelic: {
+		Tooltip: ""
+		DisplayName: フロストレギオンのレリック
+	}
+	SolarEclipseTrophy: {
+		Tooltip: ""
+		DisplayName: 日食のトロフィー
+	}
+	SolarEclipseRelic: {
+		Tooltip: ""
+		DisplayName: 日食のレリック
+	}
+	PirateInvasionTrophy: {
+		Tooltip: ""
+		DisplayName: 海賊の襲来のトロフィー
+	}
+	PirateInvasionRelic: {
+		Tooltip: ""
+		DisplayName: 海賊の襲来のレリック
+	}
+	VortexPillarTrophy: {
+		Tooltip: ""
+		DisplayName: ボルテックスピラーのトロフィー
+	}
+	VortexPillarRelic: {
+		Tooltip: ""
+		DisplayName: ボルテックスピラーのレリック
+	}
+	StardustPillarTrophy: {
+		Tooltip: ""
+		DisplayName: スターダストピラーのトロフィー
+	}
+	StardustPillarRelic: {
+		Tooltip: ""
+		DisplayName: スターダストピラーのレリック
+	}
+	SolarPillarTrophy: {
+		Tooltip: ""
+		DisplayName: ソーラーピラーのトロフィー
+	}
+	SolarPillarRelic: {
+		Tooltip: ""
+		DisplayName: ソーラーピラーのレリック
+	}
+	PumpkinMoonTrophy: {
+		Tooltip: ""
+		DisplayName: パンプキンムーンのトロフィー
+	}
+	PumpkinMoonRelic: {
+		Tooltip: ""
+		DisplayName: パンプキンムーンのレリック
+	}
+	NebulaPillarTrophy: {
+		Tooltip: ""
+		DisplayName: ネビュラピラーのトロフィー
+	}
+	NebulaPillarRelic: {
+		Tooltip: ""
+		DisplayName: ネビュラピラーのレリック
+	}
+	MartianMadnessTrophy: {
+		Tooltip: ""
+		DisplayName: 火星の侵攻のトロフィー
+	}
+	MartianMadnessRelic: {
+		Tooltip: ""
+		DisplayName: 火星の侵攻のレリック
+	}
+	FrostMoonTrophy: {
+		Tooltip: ""
+		DisplayName: フロストムーンのトロフィー
+	}
+	FrostMoonRelic: {
+		Tooltip: ""
+		DisplayName: フロストムーンのレリック
+	}
+	TheTwinsTrophy: {
+		Tooltip: ""
+		DisplayName: ツインズのトロフィー
+	}
+	DreadnautilusRelic: {
+		DisplayName: ドレッドノーチラスのレリック
+		Tooltip: ""
+	}
+	DreadnautilusTrophy: {
+		DisplayName: ドレッドノーチラスのトロフィー
+		Tooltip: ""
+	}
+	IceGolemRelic: {
+		DisplayName: アイスゴーレムのレリック
+		Tooltip: ""
+	}
+	IceGolemTrophy: {
+		DisplayName: アイスゴーレムのトロフィー
+		Tooltip: ""
+	}
+	SandElementalTrophy: {
+		Tooltip: ""
+		DisplayName: サンドエレメンタルのトロフィー
+	}
+	SandElementalRelic: {
+		Tooltip: ""
+		DisplayName: サンドエレメンタルのレリック
+	}
+	MothronTrophy: {
+		Tooltip: ""
+		DisplayName: モスロンのトロフィー
+	}
+	MothronRelic: {
+		Tooltip: ""
+		DisplayName: モスロンのレリック
+	}
+	CorruptMimicRelic: {
+		DisplayName: 不浄のミミックのレリック
+		Tooltip: ""
+	}
+	CorruptMimicTrophy: {
+		DisplayName: 不浄のミミックのトロフィー
+		Tooltip: ""
+	}
+	CrimsonMimicRelic: {
+		DisplayName: 真紅のミミックのレリック
+		Tooltip: ""
+	}
+	CrimsonMimicTrophy: {
+		DisplayName: 真紅のミミックのトロフィー
+		Tooltip: ""
+	}
+	HallowedMimicRelic: {
+		DisplayName: 神聖なミミックのレリック
+		Tooltip: ""
+	}
+	HallowedMimicTrophy: {
+		DisplayName: 神聖なミミックのトロフィー
+		Tooltip: ""
+	}
+	AcidRainRelic: {
+		DisplayName: 酸性雨のレリック
+		Tooltip: ""
+	}
+	AcidRainTrophy: {
+		DisplayName: 酸性雨のトロフィー
+		Tooltip: ""
+	}
+	CnidrionRelic: {
+		DisplayName: クニドピオンのレリック
+		Tooltip: ""
+	}
+	CnidrionTrophy: {
+		DisplayName: クニドピオンのトロフィー
+		Tooltip: ""
+	}
+	HellbringerMimicRelic: {
+		DisplayName: ヘルブリンガーミミックのレリック
+		Tooltip: ""
+	}
+	HellbringerMimicTrophy: {
+		DisplayName: ヘルブリンガーミミックのトロフィー
+		Tooltip: ""
+	}
+	MyceliumMimicRelic: {
+		DisplayName: マイセリウムミミックのレリック
+		Tooltip: ""
+	}
+	MyceliumMimicTrophy: {
+		DisplayName: マイセリウムミミックのトロフィー
+		Tooltip: ""
+	}
+	SubmergedMimicRelic: {
+		DisplayName: 沈んだミミックのレリック
+		Tooltip: ""
+	}
+	SubmergedMimicTrophy: {
+		DisplayName: 沈んだミミックのトロフィー
+		Tooltip: ""
+	}
+	PaladinRelic: {
+		DisplayName: パラディンのレリック
+		Tooltip: ""
+	}
+	PaladinTrophy: {
+		DisplayName: パラディンのトロフィー
+		Tooltip: ""
+	}
+	HemogoblinSharkRelic: {
+		DisplayName: ヘモゴブリンシャークのレリック
+		Tooltip: ""
+	}
+	HemogoblinSharkTrophy: {
+		DisplayName: ヘモゴブリンシャークのトロフィー
+		Tooltip: ""
+	}
+	GladeWraithTrophy: {
+		Tooltip: ""
+		DisplayName: グレイドレイスのトロフィー
+	}
+	GladeWraithRelic: {
+		Tooltip: ""
+		DisplayName: グレイドレイスのレリック
+	}
+	OccultistTrophy: {
+		Tooltip: ""
+		DisplayName: オカルティストのトロフィー
+	}
+	HauntedTomeTrophy: {
+		Tooltip: ""
+		DisplayName: 呪われた書物のトロフィー
+	}
+	HauntedTomeRelic: {
+		Tooltip: ""
+		DisplayName: 呪われた書物のレリック
+	}
+	PinkyRelic: {
+		DisplayName: ピンキーのレリック
+		Tooltip: ""
+	}
+	PinkyTrophy: {
+		DisplayName: ピンキーのトロフィー
+		Tooltip: ""
+	}
+	JellyDelugeRelic: {
+		DisplayName: ジェリーデリュージのレリック
+		Tooltip: ""
+	}
+	JellyDelugeTrophy: {
+		DisplayName: ジェリーデリュージのトロフィー
+		Tooltip: ""
+	}
+	BeholderRelic: {
+		DisplayName: ビホルダーのレリック
+		Tooltip: ""
+	}
+	BeholderTrophy: {
+		DisplayName: ビホルダーのトロフィー
+		Tooltip: ""
+	}
+	MechromancerRelic: {
+		DisplayName: メクロマンサーのレリック
+		Tooltip: ""
+	}
+	MechromancerTrophy: {
+		DisplayName: メクロマンサーのトロフィー
+		Tooltip: ""
+	}
+	SnaptrapperRelic: {
+		DisplayName: スナップトラッパーのレリック
+		Tooltip: ""
+	}
+	SnaptrapperTrophy: {
+		DisplayName: スナップトラッパーのトロフィー
+		Tooltip: ""
+	}
+	ThespianTrophy: {
+		DisplayName: 錬金術の演者、セスピアンのトロフィー
+		Tooltip: ""
+	}
+	TidesRelic: {
+		DisplayName: タイズのレリック
+		Tooltip: ""
+	}
+	TidesTrophy: {
+		DisplayName: タイズのトロフィー
+		Tooltip: ""
+	}
+	TrophyPrepTable: {
+		Tooltip: ""
+		DisplayName: トロフィー準備用テーブル
+	}
+	ArchWyvernRelic: {
+		DisplayName: アークワイバーンのレリック
+		Tooltip: ""
+	}
+	ArchWyvernTrophy: {
+		DisplayName: アークワイバーンのトロフィー
+		Tooltip: ""
+	}
+	ArmoredDiggerRelic: {
+		DisplayName: アーマードディガーのレリック
+		Tooltip: ""
+	}
+	ArmoredDiggerTrophy: {
+		DisplayName: アーマードディガーのトロフィー
+		Tooltip: ""
+	}
+	CloudElementalRelic: {
+		DisplayName: クラウドエレメンタルのレリック
+		Tooltip: ""
+	}
+	CloudElementalTrophy: {
+		DisplayName: クラウドエレメンタルのトロフィー
+		Tooltip: ""
+	}
+	EarthElementalRelic: {
+		DisplayName: アースエレメンタルのレリック
+		Tooltip: ""
+	}
+	EarthElementalTrophy: {
+		DisplayName: アースエレメンタルのトロフィー
+		Tooltip: ""
+	}
+	BloodEelRelic: {
+		DisplayName: ブラッドイールのレリック
+		Tooltip: ""
+	}
+	BloodEelTrophy: {
+		DisplayName: ブラッドイールのトロフィー
+		Tooltip: ""
+	}
+	MysticMoonRelic: {
+		DisplayName: ミスティックムーンのレリック
+		Tooltip: ""
+	}
+	MysticMoonTrophy: {
+		DisplayName: ミスティックムーンのトロフィー
+		Tooltip: ""
+	}
+	PirateCaptainRelic: {
+		DisplayName: 海賊の船長のレリック
+		Tooltip: ""
+	}
+	PirateCaptainTrophy: {
+		DisplayName: 海賊の船長のトロフィー
+		Tooltip: ""
+	}
+	PlaguebringerRelic: {
+		DisplayName: プレイグブリンガーのレリック
+		Tooltip: ""
+	}
+	PlaguebringerTrophy: {
+		DisplayName: プレイグブリンガーのトロフィー
+		Tooltip: ""
+	}
+	SnowMongerTrophy: {
+		DisplayName: スノーモンガーのトロフィー
+		Tooltip: ""
+	}
+	WyvernRelic: {
+		DisplayName: ワイバーンのレリック
+		Tooltip: ""
+	}
+	WyvernTrophy: {
+		DisplayName: ワイバーンのトロフィー
+		Tooltip: ""
+	}
+	SuspiciousTome: {
+		Tooltip: 呪われた書物を召喚する
+		DisplayName: 怪しげな書物
+	}
+	EyeStalk: {
+		DisplayName: アイストーク
+		Tooltip: 大理石バイオームでビホルダーを召喚する
+	}
+	RichScissorleaf: {
+		DisplayName: リッチシザーリーフ
+		Tooltip: ジャングルでスナップトラッパーを召喚する
+	}
+	AmalgamatedHeart: {
+		DisplayName: 融合した心臓
+		Tooltip: 夜にパッチウェルクを召喚する
+	}
+	DeathBulb: {
+		DisplayName: デスバルブ
+		Tooltip: ジャングルでコープスブルームを召喚する
+	}
+	PeculiarMirror: {
+		DisplayName: 奇妙な鏡
+		Tooltip: ダンジョンでイリュージョニストを召喚する
+	}
+	ArchScale: {
+		DisplayName: アークスケール
+		Tooltip: アークワイバーンを召喚する
+	}
+	MythicalScale: {
+		DisplayName: 神話の鱗
+		Tooltip: ""
+	}
+	MythicalWyvernRelic: {
+		DisplayName: 神話のワイバーンのレリック
+		Tooltip: ""
+	}
+	MythicalWyvernTrophy: {
+		DisplayName: 神話のワイバーンのトロフィー
+		Tooltip: 神話のワイバーンを召喚する
+	}
+	FrozenProbe: {
+		DisplayName: 凍ったプローブ
+		Tooltip: スノーモンガーを召喚する
+	}
+	HellBringerChest: {
+		DisplayName: ヘルブリンガーのチェスト
+		Tooltip: ヘルブリンガーミミックを召喚する
+	}
+	MyceliumChest: {
+		DisplayName: マイセリウムのチェスト
+		Tooltip: マイセリウムミミックを召喚する
+	}
+	SludgeCrown: {
+		DisplayName: スラッジクラウン
+		Tooltip: 硫黄の海でクラッグモーマイアを召喚する
+	}
+	VictoryPearl: {
+		DisplayName: 勝利の真珠
+		Tooltip: 沈んだ海でジャイアントクラムを召喚する
+	}
+	SubmergedChest: {
+		DisplayName: 沈んだ宝箱
+		Tooltip: 沈んだミミックを召喚する
+	}
+	CataclysmicConstructRelic: {
+		DisplayName: 大変動の創造物のレリック
+		Tooltip: ""
+	}
+	CatastrophicConstructRelic: {
+		DisplayName: 大災害の創造物のレリック
+		Tooltip: ""
+	}
+	LeviathanAndAnahitaTrophy: {
+		DisplayName: レヴィアタンとアナヒータのトロフィー
+		Tooltip: ""
+	}
+	HypnosRelic: {
+		DisplayName: ヒュプノスのレリック
+		Tooltip: ""
+	}
+	GiantClam: {
+		Tooltip: ""
+		DisplayName: ジャイアントクラム
+	}
+	SunkenSea: {
+		Tooltip: ""
+		DisplayName: 沈んだ海
+	}
+	Deerclops: {
+		Tooltip: ""
+		DisplayName: ディアクロップス
+	}
+	LunaticCultist: {
+		Tooltip: ""
+		DisplayName: 狂気の崇拝者
+	}
+	MoonLord: {
+		Tooltip: ""
+		DisplayName: ムーンロード
+	}
+	TorchGod: {
+		Tooltip: ""
+		DisplayName: たいまつの神
+	}
+	GoblinArmy: {
+		Tooltip: ""
+		DisplayName: ゴブリン軍団
+	}
+	Pirates: {
+		Tooltip: ""
+		DisplayName: 海賊
+	}
+	TheHallow: {
+		Tooltip: ""
+		DisplayName: 聖域
+	}
+	TheJungle: {
+		Tooltip: ""
+		DisplayName: ジャングル
+	}
+	Sandstorm: {
+		Tooltip: ""
+		DisplayName: 砂嵐
+	}
+	GreatSandShark: {
+		Tooltip: ""
+		DisplayName: グレートサンドシャーク
+	}
+	Eclipse: {
+		Tooltip: ""
+		DisplayName: 日食
+	}
+	PumpkinMoon: {
+		Tooltip: ""
+		DisplayName: パンプキンムーン
+	}
+	FrostMoon: {
+		Tooltip: ""
+		DisplayName: フロストムーン
+	}
+	TheOldOnesArmy: {
+		Tooltip: ""
+		DisplayName: オールドワンズ・アーミー
+	}
+	NebulaTower: {
+		DisplayName: ネビュラタワー
+		Tooltip: ""
+	}
+	SolarTower: {
+		DisplayName: ソーラータワー
+		Tooltip: ""
+	}
+	StardustTower: {
+		DisplayName: スターダストタワー
+		Tooltip: ""
+	}
+	VortexTower: {
+		DisplayName: ボルテックスタワー
+		Tooltip: ""
+	}
+	AcidRain: {
+		DisplayName: 酸性雨
+		Tooltip: ""
+	}
+	TheGrandThunderBird: {
+		Tooltip: ""
+		DisplayName: グランドサンダーバード
+	}
+	QueenJellyfish: {
+		DisplayName: クイーンジェリーフィッシュ
+		Tooltip: ""
+	}
+	Viscount: {
+		DisplayName: ヴァイカウント
+		Tooltip: ""
+	}
+	BuriedChampion: {
+		DisplayName: 埋葬されたチャンピオン
+		Tooltip: ""
+	}
+	GraniteEnergyStorm: {
+		DisplayName: グラナイトエナジーストーム
+		Tooltip: ""
+	}
+	StarScouter: {
+		DisplayName: スタースカウター
+		Tooltip: ""
+	}
+	ThePrimordials: {
+		Tooltip: ""
+		DisplayName: 原初の者たち
+	}
+	TheLich: {
+		Tooltip: ""
+		DisplayName: リッチ
+	}
+	CoznixTheFallenBeholder: {
+		Tooltip: ""
+		DisplayName: 堕ちたビホルダー、コズニクス
+	}
+	BoreanStrider: {
+		Tooltip: ""
+		DisplayName: ボリアンストライダー
+	}
+	AbyssionTheForgottenOne: {
+		Tooltip: ""
+		DisplayName: 忘れられし者、アビシオン
+	}
+	AquaticDepths: {
+		Tooltip: ""
+		DisplayName: 水中の深淵
+	}
+	PatchWerk: {
+		Tooltip: ""
+		DisplayName: パッチウェルク
+	}
+	CorpseBloom: {
+		Tooltip: ""
+		DisplayName: コープスブルーム
+	}
+	Illusionist: {
+		Tooltip: ""
+		DisplayName: イリュージョニスト
+	}
+	TheOcean: {
+		Tooltip: ""
+		DisplayName: 海
+	}
+	Granite: {
+		Tooltip: ""
+		DisplayName: グラナイト
+	}
+	Marble: {
+		Tooltip: ""
+		DisplayName: 大理石
+	}
+	Blizzard: {
+		Tooltip: ""
+		DisplayName: ブリザード
+	}
+	TheVagrantOfSpaceAndTime: {
+		Tooltip: ""
+		DisplayName: 時空の放浪者
+	}
+	ThespianTheActOfAlchemy: {
+		Tooltip: ""
+		DisplayName: 錬金術の演者、セスピアン
+	}
+	DioskouroiTheTwinForces: {
+		Tooltip: ""
+		DisplayName: 双つの力、ディオスクロイ
+	}
+	Corvus: {
+		Tooltip: ""
+		DisplayName: コーヴァス
+	}
+	TraceOfCorvus: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: コーヴァスの痕跡
+	}
+	Caelum: {
+		Tooltip: ""
+		DisplayName: カエルム
+	}
+	TraceOfCaelum: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: カエルムの痕跡
+	}
+	Cygnus: {
+		Tooltip: ""
+		DisplayName: シグナス
+	}
+	TraceOfCygnus: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: シグナスの痕跡
+	}
+	Aries: {
+		Tooltip: ""
+		DisplayName: アリエス
+	}
+	TraceOfAries: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: アリエスの痕跡
+	}
+	Celestia: {
+		Tooltip: ""
+		DisplayName: セレスティア
+	}
+	TraceOfCelestia: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: セレスティアの痕跡
+	}
+	StarfarerDecipherer: {
+		DisplayName: 星間旅行者の解読機
+		Tooltip: サンプルの痕跡を使い、最初の星間旅行者の通信を解読する
+	}
+	TraceOfSerpens: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: サーペンスの痕跡
+	}
+	Serpens: {
+		Tooltip: ""
+		DisplayName: サーペンス
+	}
+	TraceOfScorpius: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: スコーピウスの痕跡
+	}
+	Scorpius: {
+		Tooltip: ""
+		DisplayName: スコーピウス
+	}
+	PenthesileaTheWitchOfInk: {
+		Tooltip: ""
+		DisplayName: インクの魔女、ペンテシレイア
+	}
+	TraceOfUltraPlant: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: ウルトラプラントの痕跡
+	}
+	UltraPlant: {
+		Tooltip: ""
+		DisplayName: ウルトラプラント
+	}
+	TraceOfTucana: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: トゥカーナの痕跡
+	}
+	Tucana: {
+		Tooltip: ""
+		DisplayName: トゥカーナ
+	}
+	TraceOfTheranhad: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: セラナドの痕跡
+	}
+	FallenTheranhad: {
+		Tooltip: ""
+		DisplayName: 堕ちたセラナド
+	}
+	TraceOfFaintArchives: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: 微かなアーカイブの痕跡
+	}
+	FaintArchives: {
+		Tooltip: ""
+		DisplayName: 微かなアーカイブ
+	}
+	NalhaunTheBurnishedKing: {
+		Tooltip: ""
+		DisplayName: 磨かれし王、ナルハウン
+	}
+	AsphodeneAndEridani: {
+		Tooltip: ""
+		DisplayName: アスフォデンとエリダニ
+	}
+	TraceOfAstralPlague: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: アストラルプレイグの痕跡
+	}
+	TheMartians: {
+		Tooltip: ""
+		DisplayName: マーティアン
+	}
+	ObservatoryHyperborea: {
+		Tooltip: ""
+		DisplayName: ヒュペルボレア観測所
+	}
+	AstralPlague: {
+		Tooltip: ""
+		DisplayName: アストラルプレイグ
+	}
+	TraceOfLyra: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: ライラの痕跡
+	}
+	TraceOfDreamingCity: {
+		Tooltip: 囁きが耳元で踊るが、何を言っているのかは聞き取れない…
+		DisplayName: 夢見る都市の痕跡
+	}
+	Lyra: {
+		Tooltip: ""
+		DisplayName: ライラ
+	}
+	DreamingCity: {
+		Tooltip: ""
+		DisplayName: 夢見る都市
+	}
+	Arbitration: {
+		Tooltip: ""
+		DisplayName: アービトレーション
+	}
+	WarriorOfLight: {
+		Tooltip: ""
+		DisplayName: 光の戦士
+	}
+	Tsukiyomi: {
+		Tooltip: ""
+		DisplayName: ツクヨミ
+	}
+	PinkPetriDish: {
+		DisplayName: ピンクのペトリ皿
+		Tooltip: ピンキーを召喚する
+	}
+	TrojanSquirrel: {
+		Tooltip: ""
+		DisplayName: トロイの木馬スカーレル
+	}
+	RelicPylonItem: {
+		Tooltip: ""
+		DisplayName: レリックパイロン
+	}
+	CygnusRelic: {
+		Tooltip: ""
+		DisplayName: シグナスのレリック
+	}
+	CygnusRelicFragment: {
+		Tooltip: ""
+		DisplayName: シグナスのレリックの破片
+	}
+	AriesRelic: {
+		Tooltip: ""
+		DisplayName: アリエスのレリック
+	}
+	AriesRelicFragment: {
+		Tooltip: ""
+		DisplayName: アリエスのレリックの破片
+	}
+	AriesPortrait: {
+		DisplayName: アリエスの肖像画
+		Tooltip: ""
+	}
+	CygnusPortrait: {
+		DisplayName: シグナスの肖像画
+		Tooltip: ""
+	}
+	CygnusPortraitPiece: {
+		Tooltip: ""
+		DisplayName: シグナスの肖像画の欠片
+	}
+	AriesPortraitPiece: {
+		Tooltip: ""
+		DisplayName: アリエスの肖像画の欠片
+	}
+	CelestiaPortraitPiece: {
+		DisplayName: セレスティアの肖像画の欠片
+		Tooltip: ""
+	}
+	CelestiaPortrait: {
+		DisplayName: セレスティアの肖像画
+		Tooltip: ""
+	}
+	UltraPlantPortraitPiece: {
+		DisplayName: ウルトラプラントの肖像画の欠片
+		Tooltip: ""
+	}
+	UltraPlantPortrait: {
+		DisplayName: ウルトラプラントの肖像画
+		Tooltip: ""
+	}
+	CelestiaRelicFragment: {
+		DisplayName: セレスティアのレリックの破片
+		Tooltip: ""
+	}
+	CelestiaRelic: {
+		DisplayName: セレスティアのレリック
+		Tooltip: ""
+	}
+	UltraPlantRelicFragment: {
+		DisplayName: ウルトラプラントのレリックの破片
+		Tooltip: ""
+	}
+	UltraPlantRelic: {
+		DisplayName: ウルトラプラントのレリック
+		Tooltip: ""
+	}
+	ScorpiusPortraitPiece: {
+		DisplayName: スコーピウスの肖像画の欠片
+		Tooltip: ""
+	}
+	ScorpiusPortrait: {
+		DisplayName: スコーピウスの肖像画
+		Tooltip: ""
+	}
+	SerpensPortraitPiece: {
+		DisplayName: サーペンスの肖像画の欠片
+		Tooltip: ""
+	}
+	SerpensPortrait: {
+		DisplayName: サーペンスの肖像画
+		Tooltip: ""
+	}
+	TucanaPortraitPiece: {
+		DisplayName: トゥカーナの肖像画の欠片
+		Tooltip: ""
+	}
+	TucanaPortrait: {
+		DisplayName: トゥカーナの肖像画
+		Tooltip: ""
+	}
+	ScorpiusRelicFragment: {
+		DisplayName: スコーピウスのレリックの破片
+		Tooltip: ""
+	}
+	ScorpiusRelic: {
+		DisplayName: スコーピウスのレリック
+		Tooltip: ""
+	}
+	SerpensRelicFragment: {
+		DisplayName: サーペンスのレリックの破片
+		Tooltip: ""
+	}
+	SerpensRelic: {
+		DisplayName: サーペンスのレリック
+		Tooltip: ""
+	}
+	TucanaRelicFragment: {
+		DisplayName: トゥカーナのレリックの破片
+		Tooltip: ""
+	}
+	TucanaRelic: {
+		DisplayName: トゥカーナのレリック
+		Tooltip: ""
+	}
+	CorvusPortraitPiece: {
+		DisplayName: コーヴァスの肖像画の欠片
+		Tooltip: ""
+	}
+	CorvusPortrait: {
+		DisplayName: コーヴァスの肖像画
+		Tooltip: ""
+	}
+	CorvusRelicFragment: {
+		DisplayName: コーヴァスのレリックの破片
+		Tooltip: ""
+	}
+	CorvusRelic: {
+		DisplayName: コーヴァスのレリック
+		Tooltip: ""
+	}
+	YharimsArchive: {
+		DisplayName: ヤリムのアーカイブ
+		Tooltip: ""
+	}
+	GalacticArchive: {
+		DisplayName: 銀河のアーカイブ
+		Tooltip: ""
+	}
+	Lepus: {
+		DisplayName: レプス
+		Tooltip: ""
+	}
+	CaelumPortraitPiece: {
+		DisplayName: カエルムの肖像画の欠片
+		Tooltip: ""
+	}
+	CaelumPortrait: {
+		DisplayName: カエルムの肖像画
+		Tooltip: ""
+	}
+	CaelumRelicFragment: {
+		DisplayName: カエルムのレリックの破片
+		Tooltip: ""
+	}
+	CaelumRelic: {
+		DisplayName: カエルムのレリック
+		Tooltip: ""
+	}
+	TurkorTheUngrateful: {
+		DisplayName: 恩知らずのタルコル
+		Tooltip: ""
+	}
+	Deviantt: {
+		DisplayName: デビアント
+		Tooltip: ""
+	}
+	SiegeEngine: {
+		DisplayName: シージエンジン
+		Tooltip: ""
+	}
+	Stasys: {
+		DisplayName: ステイシス
+		Tooltip: ""
+	}
+	TheCaretaker: {
+		DisplayName: ケアテイカー
+		Tooltip: ""
+	}
+	TheTerminator: {
+		DisplayName: ターミネーター
+		Tooltip: ""
+	}
+	BanishedBaron: {
+		DisplayName: 追放されたバロン
+		Tooltip: ""
+	}
+	FaintArchivesPortraitPiece: {
+		DisplayName: 微かなアーカイブの肖像画の欠片
+		Tooltip: ""
+	}
+	FaintArchivesPortrait: {
+		DisplayName: 微かなアーカイブの肖像画
+		Tooltip: ""
+	}
+	FallenTheranhadPortraitPiece: {
+		DisplayName: 堕ちたセラナドの肖像画の欠片
+		Tooltip: ""
+	}
+	FallenTheranhadPortrait: {
+		DisplayName: 堕ちたセラナドの肖像画
+		Tooltip: ""
+	}
+	FaintArchivesRelicFragment: {
+		DisplayName: 微かなアーカイブのレリックの破片
+		Tooltip: ""
+	}
+	FaintArchivesRelic: {
+		DisplayName: 微かなアーカイブのレリック
+		Tooltip: ""
+	}
+	FallenTheranhadRelicFragment: {
+		DisplayName: 堕ちたセラナドのレリックの破片
+		Tooltip: ""
+	}
+	FallenTheranhadRelic: {
+		DisplayName: 堕ちたセラナドのレリック
+		Tooltip: ""
+	}
+	Lifelight: {
+		DisplayName: ライフライト
+		Tooltip: ""
+	}
+	Ocram: {
+		DisplayName: オクラム
+		Tooltip: ""
+	}
+	StarfarerRelic: {
+		DisplayName: 星間旅行者のレリック
+		Tooltip: ""
+	}
+	StarfarerPortrait: {
+		DisplayName: 星間旅行者の肖像画
+		Tooltip: ""
+	}
+	DreamingCityPortraitPiece: {
+		DisplayName: 夢見る都市の肖像画の欠片
+		Tooltip: ""
+	}
+	DreamingCityPortrait: {
+		DisplayName: 夢見る都市の肖像画
+		Tooltip: ""
+	}
+	LyraPortraitPiece: {
+		DisplayName: ライラの肖像画の欠片
+		Tooltip: ""
+	}
+	LyraPortrait: {
+		DisplayName: ライラの肖像画
+		Tooltip: ""
+	}
+	DreamingCityRelicFragment: {
+		DisplayName: 夢見る都市のレリックの破片
+		Tooltip: ""
+	}
+	DreamingCityRelic: {
+		DisplayName: 夢見る都市のレリック
+		Tooltip: ""
+	}
+	LyraRelicFragment: {
+		DisplayName: ライラのレリックの破片
+		Tooltip: ""
+	}
+	LyraRelic: {
+		DisplayName: ライラのレリック
+		Tooltip: ""
+	}
+	SerialDesignationN: {
+		DisplayName: シリアルデジグネーションN
+		Tooltip: ""
+	}
+	NRelic: {
+		DisplayName: Nのレリック
+		Tooltip: ""
+	}
+	NTrophy: {
+		DisplayName: Nのトロフィー
+		Tooltip: ""
+	}
+	ExodygenTrophy: {
+		Tooltip: ""
+		DisplayName: エキソダイジェンのトロフィー
+	}
+	Exodygen: {
+		Tooltip: ""
+		DisplayName: エキソダイジェン
+	}
+	AuricGodcaller: {
+		Tooltip: '''
+			消耗品ではない
+			オーバーワールドでネームレスデイティを召喚する
+			マルチプレイヤーでの使用、またはサブワールドが機能しない場合向け
+			'''
+		DisplayName: オーリックゴッドコーラー
+	}
+	TerraBladeTrophy: {
+		Tooltip: ""
+		DisplayName: テラブレードのトロフィー
+	}
+	TerraBladeRelic: {
+		Tooltip: ""
+		DisplayName: テラブレードのレリック
+	}
+	PolyphemalusTrophy: {
+		Tooltip: ""
+		DisplayName: ポリフェマラスのトロフィー
+	}
+	PolyphemalusRelic: {
+		Tooltip: ""
+		DisplayName: ポリフェマラスのレリック
+	}
+	Polyphemalus: {
+		Tooltip: ""
+		DisplayName: ポリフェマラス
+	}
+	CursedMirror: {
+		Tooltip: ""
+		DisplayName: 呪われた鏡
+	}
+}
+LoreLines: {
+	Default: {
+		Line1Yharim: 高みからの囁きが耳元で踊る…
+		Line1Tsukiyomi: 星々の彼方からの囁きが耳元で踊る…
+		Line2: 「左Shift」キーを押して、さらに耳を澄ます
+	}
+	GiantClam: {
+		Line1: "奴らは大きく、非常にのろまな生き物だが、かなりの力を持っている。"
+		Line2: "その殻のおかげでほとんどの攻撃に耐性があり、非常に優れた防御力を持っている。"
+		Line3: "しかし、私は奴らをどう倒せばよいか熟知しているため、全く恐れてはいない。"
+		Line4: ""
+	}
+	SunkenSea: {
+		Line1: "カラミタスがイルメリスの海を干上がらせた後でさえ、深淵では自然が進化し、"
+		Line2: "繁栄していたようだ。ドレイドンはこの場所にかなりの興味を持っていたらしい。"
+		Line3: ""
+	}
+	Deerclops: {
+		Line1: "…テラリアの地を徘徊する全ての生き物の中で、これほどまでに"
+		Line2: "私が出会った他のどの存在よりも混乱を招くものはいない。"
+		Line3: "この存在は明らかに神ではないが、影と光を自らの利益のために操り、"
+		Line4: "獲物を攻撃し、捕食しているように見える。"
+		Line5: "その巨大な顔、そしてツンドラの吹雪の影の中に"
+		Line6: "溶け込むように消える能力から、私はそれが異世界からの"
+		Line7: "侵入者ではないかと信じている。それがどこから来たのかは、まだ私を惑わせる。"
+		Line8: "ドレイドンの記録でさえ、この獣の正体を掴めなかった。"
+	}
+	LunaticCultist: {
+		Line1: "遥か昔、その比類なき神秘の力で私の大いなる召喚を終わらせた、天賦の才を持つ者。"
+		Line2: "かつてはその行動に軽蔑を抱いていた相手が、今や…亡くなり、その封印の儀式も解かれた…"
+		Line3: "終焉に備えよ。"
+		Line4: "お前の差し迫る破滅が近づいている…"
+	}
+	MoonLord: {
+		Line1: "お前が殺したのは、古代の恐怖の不具の自己に過ぎない。この宇宙の巨人は"
+		Line2: "竜の時代後期に、その忌まわしき軍勢と共にテラリアに侵攻し、かつて夢にも思わなかった規模の死と破壊をもたらした。"
+		Line3: "地上の住人たちはそれをフォボス、不屈の恐怖と呼んだ。そのそびえ立つ存在に耐えられる者はほとんどいなかったからだ。"
+	}
+	TorchGod: {
+		Line1: たいまつの神がいるだと？？？
+		Line2: それはトーチドラゴンの存在を示唆している…
+		Line3: …
+		Line4: これについてはさらに研究せねばなるまい…
+	}
+	GoblinArmy: {
+		Line1: "ゴブリン軍団か… 私の力に何ら脅威をもたらすものではないが、それでも私の"
+		Line2: "臣民にとっては厄介な存在だ。力と数の点ではかなり手強い。"
+		Line3: "彼らは多くの破壊を引き起こす可能性があるため、対処するのは非常に面倒だと感じている。"
+		Line4: "彼らは何度か私の王国を攻撃してきたが、私にとっては全く敵ではない。"
+	}
+	Pirates: {
+		Line1: "海賊はただの海賊、テラリアを引き裂いた邪悪な政権から逃れてきた者たちだろう。"
+		Line2: "元々は水に縛られた遊牧民だったが、水が病的な緑色に変わり、"
+		Line3: "死の香りを帯びるにつれて、彼らもそこから追い出された。今や空を駆ける襲撃者として、"
+		Line4: "反逆者であれ帝国軍であれ、活動拠点を探し出し、生き延びるために略奪できるものを奪っている。"
+	}
+	TheHallow: {
+		Line1: "それは光の神の本質であり、死体からではなく、彼自身の手によってウォール・オブ・フレッシュに注入されたものだ。"
+		Line2: "多くの者はその外見に騙され、何か神聖なものだと考えるが、それはこの世界の全てにとって"
+		Line3: "真の脅威であり、それ自体もまた一種の汚染なのだ。"
+	}
+	TheJungle: {
+		Line1: "ジャングルでは自然の力が強く示されている。獰猛な生き物や知的な存在が"
+		Line2: "地下に生息しており、実に刺激的な場所だ。"
+		Line3: "ジャングルは間違いなく私のお気に入りの場所の一つであり、ドレイドンもまた"
+		Line4: "興味を持っていたようだ…彼がそこで何をしていたのか知ってさえいれば…"
+	}
+	GreatSandShark: {
+		Line1: "かつて、それは獰猛な狩人であり、砂漠中の生き物を捕食していた。しかし、"
+		Line2: "砂漠の激しい熱と暴力的な砂嵐がその体力を消耗させた。"
+		Line3: "時を経て、それは食事の後に休息するために砂の中に潜ることに適応した。"
+
+		Line4: "砂の下で休息しながら食事を続けていると信じられているが、それを見た者で"
+		Line5: "真実を広めるために戻ってきた者はいない。"
+	}
+	Sandstorm: {
+		Line1: "世界の熱と同様に、砂嵐も古代の神々の行動によって増幅された。"
+		Line2: "広大な砂漠は、その灼熱のためにすでに非常に住みにくい場所だった。"
+		Line3: "風と砂がわずかに増すだけで、最も住みにくい場所の一つがさらに過酷になった。"
+	}
+	Eclipse: {
+		Line1: "日食のモンスターは、これまで完全に理解されたことはない。"
+		Line2: "多くの異なる文化や種族は、彼らの出現が太陽が食べられた結果であると推測している。"
+		Line3: "いずれにせよ、日食の生き物は非常に危険だ。"
+		Line4: "一部の人々は、これらの生き物が神の力が漏れ出し、"
+		Line5: "破壊の生き物として現れた産物であると理論立てている。"
+	}
+	PumpkinMoon: {
+		Line1: "昔、このイベントは収穫期の終わりを告げるものだった。今では、"
+		Line2: "生き残る可能性の終わりを告げるものとなっている。"
+		Line3: "パンプキングは特に興味深い存在だ。この生き物がかつて何であったか、"
+		Line4: "真剣に考えたことはない。しかし、それが何であれ、もはや救いようがない。"
+	}
+	FrostMoon: {
+		Line1: "季節が若いうちは寒さも穏やかだが、すぐに容赦なく無慈悲なものとなるだろう。"
+		Line2: "この身も凍るような雰囲気は、未知の起源を持つ古代の存在の結果だ。"
+		Line3: "もちろん、そのような生き物が生まれてから久しく、その意図は不明なままだ。"
+		Line4: "この特定のフロストムーンは、さらに奇妙な存在、アイスクイーンを擁している。"
+		Line5: "伝えられるところによれば、美しく優雅な女性だが、むしろ冷たく謎めいている…"
+	}
+	TheOldOnesArmy: {
+		Line1: "かつて古代のテラリアを支配した強大な文明があった。"
+		Line2: "この忘れ去られた文明は強力で知識が豊富だった。彼らは神秘的な力を操り、驚異を創造した。"
+		Line3: "彼らの最も進んだ創造物、特に、最も不可解なものだ。"
+
+		Line4: "彼らの古いドラゴン、ベッツィは単なる獣ではなく、彼らの古代魔法によって鍛えられた戦争兵器だと言われている。"
+		Line5: "古き者たちは遠い昔に去ったが、その遺産の痕跡は残っている。"
+		Line6: "ベッツィが最も古く、最も顕著な存在だが、彼女はオーリックのドラゴンではない…"
+	}
+	Towers: {
+		Line1: "もしカルティストたちが倒れた場合、フォボスの帰還を防ぐために封印を維持する"
+		Line2: "4つの塔が、天の月と繋がった安全装置として設置されていた。しかし、塔の魔法は"
+		Line3: "それらを守るために、その月の住人たちをここに転送する…"
+	}
+	SolarTower: {
+		Line1: "ソーラームーンは太陽に焼かれた月の故郷であり、これらの存在はその力を利用して武器を作り、"
+		Line2: "近接戦闘の腕前を誇りにしている。"
+	}
+	VortexTower: {
+		Line1: "ボルテックスムーンは不安定な領域にあり、混沌としたエネルギーが定期的に月に裂け目を開く。住人は"
+		Line2: "致命的なエイリアンのスズメバチと、それらを駆除するための火力を生み出した人々で構成されている。"
+	}
+	NebulaTower: {
+		Line1: "ネビュラムーンは宇宙の塵雲の中にあり、大量のマナで照らされている。"
+		Line2: "この月の生き物は優れた知性を持ち、他者の知性を吸収することを好む。"
+	}
+	StardustTower: {
+		Line1: "スターダストムーンは太陽の光が届かない場所にあり、代わりに核内の化学反応が不気味な青い"
+		Line2: "輝きを生み出している。この月の生き物はこの光で覆われており、精製されると神話の黄金に変わる。"
+	}
+	AcidRain: {
+		Line1: "硫黄の海の汚染が空に舞い上がり、雨はその腐食性と苛性を帯びる。"
+		Line2: "これらの恐ろしい豪雨の間、最も進化した生き物たちが姿を現す。"
+		Line3: "自然は常に道を見つけるということを、改めて証明している。"
+	}
+	TheGrandThunderBird: {
+		Line1: "かつてこの地の上空を支配していた壮大で強力な鳥がいた。それは私と"
+		Line2: "私の軍勢に戦いを挑んできたが、我々はなんとかそれを打ち負かした。しかし、私はまだグランドサンダーバードが本当に"
+		Line3: "死んだのか疑問に思っている。あの戦いの後、彼の噂を再び聞くことはなく、"
+		Line4: "それが私に不安な気持ちを抱かせる。"
+	}
+	QueenJellyfish: {
+		Line1: "クイーンジェリーフィッシュはかつて海を支配し、その手下たちはその命令に従っていた。"
+		Line2: "このジェリーフィッシュは非常に強力だが、しばらくの間姿を見ていない。"
+		Line3: "絶滅したと言う者もいるが、私が捕らえたカルティストたちは、"
+		Line4: "それがまだ徘徊しており、近づきすぎる不運なダイバーを"
+		Line5: "飲み込んでいると何度も私に語った。"
+	}
+	Viscount: {
+		Line1: "非常に強力な生物で、地下深く封印されなければならなかった。そして今、彼は"
+		Line2: "手に入れられるものなら何でも守るために仕えている。彼は強力な吸血鬼であり、その強い"
+		Line3: "声で極度の痛みを負わせ、周りの犠牲者をコウモリに変えることができる。"
+		Line4: "しかし、彼は日光に弱いようで、それが彼の力を制限することがある。"
+	}
+	BuriedChampion: {
+		Line1: "かつて光と闇の古の精霊のもとで仕えた勇敢な戦士。彼はあらゆる"
+		Line2: "種類の敵と戦い、その英雄的な行為で伝説となった。残念ながら、彼は戦いで命を落としたが、"
+		Line3: "数千年後、何かが彼を蘇らせた。彼は今、感知するものは何でも攻撃するが、"
+
+		Line4: "以前の人生よりも弱くなっている。"
+	}
+	GraniteEnergyStorm: {
+		Line1: "それは非常に破壊的で、接触するものは何でも破壊すると言われ、"
+		Line2: "精霊たち自身もそれを恐れていた。しかし、私は嵐が"
+		Line3: "弱まれば、瓶に捕らえることができ、その破壊的な"
+		Line4: "力を自分のものにできることを発見した。"
+	}
+	StarScouter: {
+		Line1: "彼らの世界が邪悪な感染症によってゆっくりと"
+		Line2: "滅ぼされつつあったため、地球外生命体がこの惑星に侵入しようとすることは珍しくなかった。何度も何度も宇宙船がやってきたが、"
+		Line3: "私がそれらを空から撃ち落とすだけだった。"
+	}
+	ThePrimordials: {
+		Line1: "原初の者たち…火、水、土の元素を操ることができる強力な存在であり、"
+		Line2: "私が倒すことのできなかった数少ない存在の一部だ。私がこれほど"
+		Line3: "強力になった今でさえ、彼らは私にとって非常に危険な力を持っている。これらの存在は、"
+		Line4: "ゼロク以外で私の力に真の脅威をもたらすことができる唯一のものの一つだ。"
+	}
+	TheLich: {
+		Line1: "リッチか… 彼が再び目覚め、その力を養うために魂を求めていると聞いたが、"
+		Line2: "それは問題ではない。リッチは人間に対しては非常に強力だが、力と意志力において"
+		Line3: "私には及ばない。私はすでに一度彼を殺しており、再びそれができると確信している。"
+	}
+	CoznixTheFallenBeholder: {
+		Line1: "ビホルダーは厄介な種族だ…レーザーを撃ち、心を読み、また"
+		Line2: "精神的な戦闘においても非常に強い。しかし、私は最終的にコズニクスを倒し、その死体は今"
+		Line3: "私の玉座の上のトロフィーとして役立っている。コズニクスはかなり印象的な標本だった。それが"
+		Line4: "破壊されなければならなかったのは残念だが、私は何よりも上に君臨しなければならない。"
+	}
+	BoreanStrider: {
+		Line1: "強力なボリアンストライダーは、極寒のツンドラの吹雪の中で厄介な存在だった。それは"
+		Line2: "非常に大きく強力な生き物だったので、追い詰めて殺すのに時間がかかった。その速さと"
+		Line3: "力は、私の軍勢に対する優れた競争相手となり、また、その氷の"
+		Line4: "腹の中に隠れていた子供たちも同様だった。"
+	}
+	AbyssionTheForgottenOne: {
+		Line1: "その外見はかなり不吉で非常に脅威的なので、私がすでに"
+		Line2: "これほど強力になっていなければ心配していただろう。私は忘れられし者についてほとんど知らないが、"
+		Line3: "それが私の支配に対する脅威にはならないことは知っている。"
+	}
+	AquaticDepths: {
+		Line1: "沈んだ海に似ているが、アビスほど深くはなく、水中の深淵は確かに"
+		Line2: "アビスの深くにいるような恐ろしい生き物を擁してはいないが、それでも非常に危険だ。"
+		Line3: "私が送り込んだ探検家たちはいつも幻覚についてとりとめもなく話して戻ってくる。"
+	}
+	PatchWerk: {
+		Line1: "アンデッドはあらゆる種類の融合体として現れるが、縫い合わされた死体は極めて"
+		Line2: "稀だ。ネクロマンシーの術に長けた者がその創造に関わっているに違いない。"
+		Line3: "おそらく、墓地にある奇妙な物体が後でその起源を説明してくれるだろう…"
+	}
+	CorpseBloom: {
+		Line1: "小さな捕食性の突然変異球根で、ジャングルの植物に魂を食わせて作られたらしい。"
+		Line2: "これは小さくて不完全だ、完成品はもっと大きいだろう…"
+	}
+	Illusionist: {
+		Line1: "多くの強力な囚人がダンジョンに投獄され、中には強力な魔法と"
+		Line2: "狡猾な手口を持つ者もいた。しばらくすると、彼らの骸骨は蘇り、"
+		Line3: "その心は失われたが、その技術はまだ残っている。"
+	}
+	TheOcean: {
+		Line1: "この世界の深い水を乱さないように注意せよ。"
+		Line2: "死そのものよりも恐ろしいものを目覚めさせるかもしれない。"
+	}
+	Granite: {
+		Line1: "不吉な青い石の暗い裂け目。さらに探索を進めると、まるで洞窟"
+		Line2: "自体が帯電しているかのような奇妙なエネルギーを空気中に感じた。"
+		Line3: "壁自体から作られた構造物が、この奇妙な洞窟を守るために現れる…"
+	}
+	Marble: {
+		Line1: "古代の戦士たちが埋葬された美しい白い裂け目。そこには"
+		Line2: "遠い昔の文明の陶器もあった。これらの埋葬されたチャンピオンは、邪魔されると墓を守るために立ち上がる。"
+	}
+	Blizzard: {
+		Line1: "雨が降るたびにツンドラの雪は厳しくなり、雪の"
+		Line2: "奥深くに隠された凍った構造物が動き出す。"
+		Line3: "視界が悪く、パーマフロストのアイスゴーレムが徘徊しているため、準備なしで冒険するのは危険だ。"
+	}
+	TheVagrantOfSpaceAndTime: {
+		Line1: "彼自身も星間旅行者であるように見えるフードをかぶった人物。彼が"
+		Line2: "長い間私を捕まえようとしていることは知っている。しかし、彼がどれだけ多くの"
+		Line3: "定命の者を試そうとも、彼は成功しないだろう。"
+	}
+	ThespianTheActOfAlchemy: {
+		Line1: "私の召使いから奇妙な調合薬を渡された。彼はそれが"
+		Line2: "戦いで私に大きな力をもたらすと約束したが、それが"
+		Line3: "遠い昔に死んだ錬金術師を蘇らせる触媒だったとは知らなかった。私は"
+		Line4: "彼の上にある大きな仮面に操られ、嘲笑されているのを感じたが、その支配を"
+		Line5: "克服し、幻影を打ち負かすことができた。"
+	}
+	DioskouroiTheTwinForces: {
+		Line1: "二人の兄弟間の永遠の確執は、彼らが出会うすべての人々を危険にさらしている。"
+		Line2: "他人の意見や理由に耳を貸さず、ただ終わりのない戦いで"
+		Line3: "相手を打ち負かすことだけを考えている。彼らがなぜこれほどまでにお互いを憎むようになったのか、私は不思議に思う。"
+	}
+	Corvus: {
+		Line1: "アルドール以前は繁栄した社会だった、冷たく見捨てられた惑星。"
+		Line2: "資源が乏しくなるにつれて、惑星は戦争で荒廃し、 desolateになり、最終的に"
+		Line3: "その住民は惑星を去り、宇宙海賊にとって格好の標的となった。"
+	}
+	Caelum: {
+		Line1: "カエルム…二つに裂けつつある惑星。その崩壊は非常に深く、惑星は"
+		Line2: "もう長くはもたないかもしれない。しかし、マナの集中は信じられないほどで、"
+		Line3: "その住民の魂を、自分自身をとうに忘れてしまった幻影として保っている。"
+	}
+	Cygnus: {
+		Line1: "奇妙な小惑星群。おそらく惑星の残骸か…これらの岩石には"
+		Line2: "文明の兆候があるが、どうも断片を繋ぎ合わせることができない…"
+	}
+	Aries: {
+		Line1: "この惑星に何が起こったのかは実に忌まわしい…かつては生命で満ち溢れていたかもしれないが、人々が"
+		Line2: "欲張りすぎて世界の核を掘り尽くし、今ではかつての姿の抜け殻となっている…"
+	}
+	Celestia: {
+		Line1: "これらの建造物は非常に美しく、何もない"
+		Line2: "場所にある割にはかなりの量のマナを放出している…何かの崇拝地だったに違いない…"
+	}
+	Serpens: {
+		Line1: "ほとんどの星間旅行者はこれを異質な塊、死んだリヴァイアサン級の生物だと信じている…"
+		Line2: "しかし、さらに調査すると、これは神の死体だ。"
+		Line3: "死体が自己を腐敗させ、近くの惑星に漏れ出すにつれて、疫病の臭いがする。"
+		Line4: "これらの神々を殺している者は誰であれ、深刻な大災害を引き起こしている…"
+	}
+	Scorpius: {
+		Line1: "ブラッドムーンの発生源である月は、殺された神の死体も宿している。これをやった者は"
+		Line2: "本当にずさんな仕事をしている。クリムゾンは隣の惑星にも漏れ出している。"
+		Line3: "このヤリムという人物が誰であれ、止めなければならない。"
+	}
+	PenthesileaTheWitchOfInk: {
+		Line1: "芸術の魔法を文字通り発見した強力な魔女。莫大な量のマナを"
+		Line2: "絵の具や顔料に注ぎ込むことができ、彼女は自身の芸術的能力を武器化し、"
+		Line3: "芸術的な神秘の恐ろしい達人となった。"
+	}
+	UltraPlant: {
+		Line1: "この構造物は少し場違いに見える。常に電気を生成し、木々が"
+		Line2: "生きていてワイヤーでできているように見える。この場所は、別の宇宙から来た二人の宇宙的存在によって稀に訪れられるようだ…"
+	}
+	Tucana: {
+		Line1: "この惑星はこの恒星のハビタブルゾーンの内側の端にある…惑星全体が緑豊かで敵対的だ。"
+		Line2: "同じ生命が隣の惑星のジャングルに行き着いたのは驚くべきことだ…"
+	}
+	FallenTheranhad: {
+		Line1: "ここはかつて壮大な土地、美しい建築を持つ浮遊群島だったが、"
+		Line2: "土地の皇帝がエントロピーの神の意志に引かれ…その場所は宇宙の疫病で崩壊した。"
+	}
+	FaintArchives: {
+		Line1: "ここはまた別の謎に包まれた場所だ。一種の神殿のようだが、"
+		Line2: "その起源は曖昧だ。しかし、そこには多くの秘密が含まれている。もしかしたら、アルドールの解決策がここにあるかもしれない。"
+	}
+	AstralPlague: {
+		Line1: "セラナドを破壊した疫病の痕跡を追った後、私はそれが時間とともに著しく進化していることを発見した。"
+		Line2: "意志の弱い生き物をその意のままに歪め、今では隕石に乗って他の惑星へ旅している。"
+		Line3: "最初はアルドール、そして今度はこれ…この銀河をこれ以上何が苦しめるというのだ？"
+	}
+	NalhaunTheBurnishedKing: {
+		Line1: "正気を失った支配者。その武器で彼は鉄の拳で世界を支配したが、それは"
+		Line2: "アルドールに最初に陥落した世界の一つだった。王は純粋な怒りと狂気から生き延び、その剣は彼に"
+		Line3: "星間旅行者の力を与えた。"
+	}
+	AsphodeneAndEridani: {
+		Line1: "この二人、私を苛立たせ始めている。私がこの銀河を救うために"
+		Line2: "何をしなければならないか、彼らには理解できないだろう。そして彼らのチャンピオン？彼らは自分たちの惑星の紛争に集中すべきだ。"
+		Line3: "やがて彼らは私を見つけ、私は彼らを排除するしかなくなるだろう。"
+	}
+	ObservatoryHyperborea: {
+		Line1: "居住可能な世界の周回軌道上に見られる多くの浮遊衛星の一つ。"
+		Line2: "誰がそれらを建設したのか、その目的が何だったのかは不明だが、"
+		Line3: "修復すれば優れた作戦基地になる可能性がある。"
+	}
+	TheMartians: {
+		Line1: "アリエスの失われた住民、マーティアンはずっと前に彼らの惑星を採掘し尽くし、"
+		Line2: "核が破壊されるまで続けた。新しい住処を探して、彼らは外交に頼るよりも"
+		Line3: "他の惑星の生命を制圧し、絶滅させることを選ぶだろう…"
+	}
+	DreamingCity: {
+		Line1: "場違いに見える神秘的な都市。まるで別の次元から来たかのようだ。私がこの"
+		Line2: "都市を訪れたとき、そのエキゾチックな建築に畏敬の念を抱いた…その時だった、闇の生き物が"
+		Line3: "どこからともなく現れ、私を追い払った…そして私が去るとともに都市は消えた…"
+	}
+	Lyra: {
+		Line1: "異常イオタ…この惑星はほとんどが酸性で、長くいるのは間違いなく危険だ。"
+		Line2: "頻繁に地震が起こるようだが、それはまるで心臓の鼓動のようなリズムを刻んでいる…"
+	}
+	Arbitration: {
+		Line1: "再び私は夢見る都市を探し求めた。そこに徘徊する多くの悪夢のような生き物と戦い抜いた。"
+		Line2: "しかしその後、私は別の場所に転送された。ステラグリフにはまだ記録されていない場所へ…"
+		Line3: "私は非常に恐ろしい…非常に強力な存在を見た。それが我々全員にとって危険であることは間違いない…"
+		Line4: "私は逃げなければならなかった、この場所から脱出するために。アービトレーションが私を見つけ次第殺したであろうことは疑いない。"
+	}
+	WarriorOfLight: {
+		Line1: "彼らはどれほど無謀なのか？フォボスのような危険な神の封印を解くとは。彼らは勝ったかもしれないが、"
+		Line2: "生かしておくには危険すぎる存在になりつつある。"
+		Line3: "私は直ちに最強の戦士をそこに送り、彼らを屈服させるだろう。"
+		Line4: "あの厄介者たちが片付いたら、我々自身でヤリムを始末する…"
+	}
+	Tsukiyomi: {
+		Line1: "この広大な宇宙には、私に挑戦する力を持つ存在が無数にいる。"
+		Line2: "ツクヨミは自分もその一人だと主張している。彼女の主張が事実に根ざしているのか、それとも単なる狂信者の妄想なのかは、"
+		Line3: "まだ見極める必要がある。いずれにせよ、結果は同じことになるだろう。"
+	}
+	TrojanSquirrel: {
+		Line1: "ドレイドンが私の軍に紹介された後、多くの者が工学の成果とその力の大きさを目にした。"
+		Line2: "テラリアの最も低い生き物でさえ、大きくて印象的な機械を作りたいと望んだ。"
+		Line3: "しかし、ナイトメア・ファブリケーターとその心に匹敵するものはいない。"
+		Line4: "このちっぽけな機械は、彼の偉大な作品に対する単なる侮辱であり、"
+		Line5: "敵と見なすことさえほとんどできない。"
+	}
+	Lepus: {
+		Line1: "毎年特定の日曜日に、奇妙な病気がこの土地のウサギたちを苦しめる。"
+		Line2: "真紅や不浄の結果ではなく、私のトップ科学者でさえこの疫病が何であるか解明できない…"
+		Line3: "我々が知っているのは、どこかにもっと大きなウサギがいて、これらの忌まわしい融合体を生み出しているということだけだ…"
+	}
+	Turkor: {
+		Line1: "かつて我々の多くの偉大な勝利を祝うために、私の王室の料理人たちがご馳走を用意した。"
+		Line2: "彼らは知らなかった、詰め物が闇の魔法で汚染されていたことを。焼かれた鳥は10倍の大きさに成長し、頭を再生させた。"
+		Line3: "そしてその瞬間、健康的なご馳走になるはずだったものが、このような大惨事へと変わった…"
+	}
+	Deviantt: {
+		Line1: "異形の姿と他に類を見ないほどの大きな力を持つため、最初は彼ら自身が神々であると考えるだろう。"
+		Line2: "しかし、この考えは誤りだ。彼らの力は、彼らが吸収した神々のエッセンスから来ている。"
+		Line3: "私はかつて彼らに私の軍団に加わるよう頼んだが、彼らは誰のしもべにもならないと言って断った。"
+		Line4: "たとえ私の利益にはならなかったとしても、実に称賛に値する特性だ。"
+	}
+	TheTerminator: {
+		Line1: "最も聡明で知的な被験者たちが、この機械の中で新たな命を与えられた。"
+		Line2: "中央情報処理装置として機能し、この機械は隠密行動を取り、敵を沈黙させる前にできるだけ多くの情報を収集した。"
+		Line3: "ドレイドンはターミネーターのデータの多くを、彼の機械の改良に利用した。"
+		Line4: "それは彼の最も有用な資産の一つだった。"
+	}
+	TheCaretaker: {
+		Line1: "ドレイドンはいつもジャングルのハチに魅了されていた…"
+		Line2: "彼の機械の一つは、女王蜂を模倣して作られ、突然変異種の行動をコピーし、真似しようとしていた。"
+		Line3: "それは完璧な戦争機械として機能し、我々に反対する多くの者を倒すことができた。"
+		Line4: "私はそれを成功と見ていたが、ドレイドンにとっては十分ではなかった。"
+	}
+	Stasys: {
+		Line1: "ツンドラの吹雪で見つかった奇妙な生物に基づいて、"
+		Line2: "ドレイドンは並外れた力を持つ巨大な貨物ローダーを作成した。"
+		Line3: "実験的な兵器を装備し、それは恐ろしい機械の獣として知られていた…"
+		Line4: "しかし、実際には、それはメカの中で最も効果が低かった。"
+	}
+	SiegeEngine: {
+		Line1: "肉の壁を観察した後、ドレイドンは機械的なレプリカの建設を始めた。"
+		Line2: "この機械は、もし壁が冥界を暴れ始めた場合にそれを制圧するために使用されるはずだった。"
+		Line3: "また、堕ちた神々のエネルギーを封じ込めるための新しい牢獄としても機能するだろう…"
+		Line4: "その憤怒の機械は、古代の青銅の構造物の計画を使用していた。"
+		Line5: "それは、もし地獄が凍りついた場合の代替の炉であると言われていた。"
+	}
+	BanishedBaron: {
+		Line1: "私がドレイドンに最初に作らせた機械の一つで、フィッシュロンに似せて作られた。"
+		Line2: "残念ながら、それは最も不従順で、それを飼いならす試みはすべて無駄だった…"
+		Line3: "その極端な兵器は、特に危険な脅威となった。それが海に泳ぎ去ったのは幸運だった。"
+		Line4: "この失敗により、ドレイドンは後の機械に使用する魂をより慎重に選ぶようになった。"
+	}
+	Lifelight: {
+		Line1: "ピクシーの proclaimed master, a slain diety of a slain diety into a polterghastly visageの意識の現れかもしれない。"
+		Line2: "それは黄金のアーティファクトの球体として現れ、時には黄金のピラミッドに凝縮されることさえある。"
+		Line3: "この黄金の構造物については、あまり知られていない。"
+		Line4: "しかし、その金切り声は人の背筋を凍らせるのに十分だ。"
+	}
+	Ocram: {
+		Line1: "不浄の地に放棄された古いウルフラムの機械が、ゆっくりと感染し、ハイブマインドに乗っ取られた。"
+		Line2: "彼の怒りは純粋で、実際、それがこの機械仕掛けの汚らわしい心をよぎる唯一のものだ。"
+		Line3: "彼は今、この改良された姿であなたに復讐を計画している。"
+		Line4: "この生き物を今度こそ完全に殺さなければならない…"
+	}
+	SerialDesignationN: {
+		Line1: "未知の起源を持つ非常に高度でエルドリッチな知性によって汚染されたワーカー・ドローン。"
+		Line2: "その飢えを満たすために全ての生命を消費しようと求める。"
+		Line3: "惑星全体を破壊する特異点を生成する。"
+		Line4: "これらの汚染されたドローンは、人類に解き放たれた吸血機械へと進化した。"
+	}
+	Exodygen: {
+		Line1: "スライムのような姿をした神。この神聖な存在についてはあまり知られていない。"
+		Line2: "グーズマと呼ばれる忌まわしい存在とは異なり、このスライムは"
+		Line3: "ドレイドンの究極の機械の残骸から力を得ているようだ…"
+	}
+	CursedMirror: {
+		Line1: "伝説の剣を持つ、自分自身の敵対的な反映を生み出すように見える奇妙な小物。"
+		Line2: "確かに厳しい試練だ。しかし、あなたは自分自身を超越したようだ。"
+		Line3: "おそらく鏡の中の反映は、あなたがどれだけ遠くまで来たかを正確に示すためにそこにあるのだろう…"
+	}
+	Polyphemalus: {
+		Line1: "この存在の起源は知らないが、それぞれの目は"
+		Line2: "フォボスを封印するために使われたものの力を持っているようだ…おそらくこの存在は何らかの形で繋がっているのだろう。"
+		Line3: "いずれにせよ、それを根絶するのが最善だ。"
+	}
+}
+SpawnInfo: {
+	Dreadnautilus: ブラッドムーン中に海で釣りをすると確率で出現する。
+	IceGolem: ブリザード中に確率で出現する。
+	SandElemental: 砂嵐中に確率で出現する。
+	Mothron: プランテラ討伐後、日食中に出現する。
+	CorruptMimic: 地下の不浄の地でランダムに出現する。不浄のワールドでは、空の宝箱に夜の鍵を入れることで召喚できる。
+	CrimsonMimic: 地下の真紅の地でランダムに出現する。真紅のワールドでは、空の宝箱に夜の鍵を入れることで召喚できる。
+	HallowedMimic: 地下の聖域でランダムに出現する。空の宝箱に光の鍵を入れることで召喚できる。
+	MyceliumMimic: 地下のキノコバイオームでランダムに出現する。空の宝箱にキノコの鍵を入れることで召喚できる。
+	SubmergedMimic: 水中の深淵でランダムに出現する。空の宝箱に潮の鍵を入れることで召喚できる。
+	HellBringerMimic: 地獄でランダムに出現する。空の宝箱に災いの鍵を入れることで召喚できる。
+	Cnidrion: 砂漠でランダムに出現する。
+	Paladin: プランテラ討伐後、ダンジョンでランダムに出現する。
+	HemogoblinShark: ブラッドムーン中に海で釣りをすると確率で出現する。
+	Pinky: 通常のスライムが出現できる場所ならどこでも低確率で出現する。
+	Rylheian: タイズイベントのウェーブ5で出現する。
+	ArchWyvern: ハードモードの空でランダムに出現する。
+	ArmoredDigger: プランテラ討伐後、洞窟層でランダムに出現する。
+	CloudElemental: ハードモードで雨が降っている間に宇宙でランダムに出現する。
+	EarthElemental: ハードモードの洞窟層でランダムに出現する。
+	Wyvern: ハードモードの空でランダムに出現する。
+	Plaguebringer: ゴーレム討伐後、地下ジャングルでランダムに出現する。
+	BloodEel: ブラッドムーン中に海で釣りをすると確率で出現する。
+	PirateCaptain: 海賊の襲来中に出現する。
+	Constructs: カラミタスのクローンが体力40%になると出現する。
+	HypnosBoss: エキソメカ討伐後、コードブレイカーで血の静脈を使用する。
+	CygnusAsteroidField: ティア1のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	MiningStationAries: ティア1のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Celestia: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	UltraPlant: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Tucana: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Serpens: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Scorpius: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Corvus: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Caelum: ティア2のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	FaintArchives: ティア3のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	FallenTheranhad: ティア3のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	Lyra: ティア3のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	DreamingCity: ティア3のステラグリフを使い、そこから何かを持ち帰り、この目標を達成せよ。
+	BereftVassal: 砂漠の中心にある台座で砂嵐の核を使用する。
+	polyphemalus: 夜に融合した目を使用する。
+}
+Conditions: {
+	DownedHauntedTome: 呪われた書物討伐後
+	DownedTrojanSquirrel: トロイの木馬スカーレル討伐後
+	DownedGrandThunderbird: グランドサンダーバード討伐後
+}
+NPCs: {
+	PinkyPlaceholder: {
+		DisplayName: ピンキープレースホルダー
+	}
+}
+DropConditions: {
+	JourneyMode: Mods.EventTrophies.DropConditions.JourneyMode
+}
+MergeWarning: このMODはEventTrophiesに統合されました。アイテムをEvent Trophiesのアイテムにクラフトし、もう一方のMODを削除することができます。
+Configs: {
+	EventTrophiesConfig: {
+		DisplayName: イベントトロフィー設定
+		Headers: {
+			Mods: {
+				EventTrophies: {
+					Config: {
+						TrophyDrops: トロフィーとレリックのドロップ
+						SummoningItems: 召喚アイテム
+						BossChecklist: ボスチェックリストとの統合
+						Pylons: パイロン
+						Calamity: Calamity
+						Thorium: Thorium
+						Misc: その他
+						TrophyMasterCrafting: マスターモードのトロフィークラフト
+						Visuals: ビジュアル
+						Infernum: Infernum
+					}
+				}
+			}
+		}
+		ChallengingEnemiesDropTrophiesAndRelics: {
+			Label: 強敵がトロフィーとレリックをドロップ
+			Tooltip: ピンキーやクニドピオンのような強敵がトロフィーとレリックをドロップする
+		}
+		PseudoMiniBossesDropTrophiesAndRelics: {
+			Label: 疑似ミニボスがトロフィーとレリックをドロップ
+			Tooltip: バイオームミミック、アイスゴーレム、エレメンタルのような疑似ミニボスがトロフィーとレリックをドロップする
+		}
+		AddSummonersForChallengingEnemies: {
+			Label: 追加の召喚アイテム
+			Tooltip: チェックリストのアイテムに召喚アイテムがない場合、召喚アイテムを追加する
+		}
+		AddNonConsumableSummoners: {
+			Label: 強敵用の非消耗召喚アイテムを追加
+			Tooltip: チェックリストのアイテムに非消耗の召喚アイテムがない場合、追加する
+		}
+		AddChallengingEnemies: {
+			Label: 強敵を追加
+			Tooltip: ピンキーやクニドピオンのような強敵をチェックリストに追加する
+		}
+		AddPseudoMiniBosses: {
+			Label: 疑似ミニボスを追加
+			Tooltip: バイオームミミック、アイスゴーレム、エレメンタルのような疑似ミニボスをチェックリストに追加する
+		}
+		AddLesserEvents: {
+			Label: 小規模イベントを追加
+			Tooltip: ブリザード、スライムレイン、砂嵐などの小規模イベントをチェックリストに追加する（未実装）
+		}
+		AddStellarVoyages: {
+			Label: 星々の航海を追加
+			Tooltip: Stars Aboveの星々の航海をチェックリストに追加する。
+		}
+		ExtraCalamityLoreItems: {
+			Label: 追加のCalamityロアアイテム
+			Tooltip: バニラのボスにCalamityの追加ロアアイテムを追加する
+		}
+		ThoriumLoreItems: {
+			Label: Thoriumロアアイテム
+			Tooltip: ThoriumのボスにCalamityの追加ロアアイテムを追加する
+		}
+		StarsAboveLoreItems: {
+			Label: Stars Aboveロアアイテム
+			Tooltip: Stars Aboveのボスや航海の痕跡にCalamityの追加ロアアイテムを追加する
+		}
+		FargosLoreItems: {
+			Label: Fargo'sロアアイテム
+			Tooltip: Fargo'sのボスにCalamityの追加ロアアイテムを追加する
+		}
+		ChallengingEnemiesDropVanquisherMedals: {
+			Label: 強敵が征服者のメダルをドロップ
+			Tooltip: 契約されたもの以外の強敵が征服者のメダルをドロップする
+		}
+		PseudoMiniBossesDropVanquisherMedals: {
+			Label: 疑似ミニボスが征服者のメダルをドロップ
+			Tooltip: 契約されたもの以外の疑似ミニボスが征服者のメダルをドロップする
+		}
+		MiniBossesDropVanquisherMedals: {
+			Label: ミニボスが征服者のメダルをドロップ
+			Tooltip: ミニボスが征服者のメダルをドロップする
+		}
+		HideModMergeItemTooltip: {
+			Label: MOD統合アイテムのツールチップを非表示
+			Tooltip: StarsAboveLoreとThoriumLoreの統合ツールチップを非表示にする
+		}
+		CraftableTrophiesFromRelics: {
+			Label: レリックからトロフィーをクラフト可能
+			Tooltip: トロフィー準備テーブルでレリックからトロフィーを作成できるようにする
+		}
+
+		EventTrophyRelicAmount: {
+			Label: イベントトロフィーのレリック数
+			Tooltip: トロフィーを1つ作成するために必要なイベントからのレリックの数
+		}
+		BossTrophyRelicAmount: {
+			Label: ボストロフィーのレリック数
+			Tooltip: トロフィーを1つ作成するために必要なボスからのレリックの数（複数のトロフィーを持つボスはこの数をトロフィーの数で割る）
+		}
+		VoyageTrophyRelicAmount: {
+			Label: 星々の航海トロフィーのレリック数
+			Tooltip: トロフィーを1つ作成するために必要な星々の航海からのレリックの数。
+		}
+		RelicPylon: {
+			Label: NPCがレリックパイロンを販売
+			Tooltip: マスターモードでNPCがレリックのパイロンを販売できるようにする
+		}
+		CraftableMasterModePylons: {
+			Label: クラフト可能なマスターモードのパイロン
+			Tooltip: レリックのパイロンからパイロンを作成できるようにする
+		}
+		ConsolariaLoreItems: {
+			Label: Consolariaロアアイテム
+			Tooltip: ConsolariaのボスにCalamityの追加ロアアイテムを追加する
+		}
+		PrimeReworkLoreItems: {
+			Label: Prime Reworkロアアイテム
+			Tooltip: メカボスリワークのボスにCalamityの追加ロアアイテムを追加する
+		}
+		ColoredRelics: {
+			Label: 色付きのレリック
+			Tooltip: このMODのレリックに色を付ける
+		}
+		AddStarsAboveInfernumIntros: {
+			Label: Stars AboveのInfernumイントロを追加
+			Tooltip: ""
+		}
+		AddYouInfernumIntros: {
+			Label: YouのInfernumイントロを追加
+			Tooltip: ""
+		}
+		AddCatalystInfernumIntros: {
+			Label: CatalystのInfernumイントロを追加
+			Tooltip: ""
+		}
+		AddPrimeReworkInfernumIntros: {
+			Label: Prime ReworkのInfernumイントロを追加
+			Tooltip: ""
+		}
+		AddClamityInfernumIntros: {
+			Label: ClamityのInfernumイントロを追加
+			Tooltip: ""
+
+		}
+		AddEntropyInfernumIntros: {
+			Tooltip: ""
+			Label: EntropyのInfernumイントロを追加
+		}
+		AddPolyphemalusInfernumIntros: {
+			Tooltip: ""
+			Label: PolyphemalusのInfernumイントロを追加
+		}
+		AddSloomeInfernumIntros: {
+			Tooltip: ""
+			Label: SloomeのInfernumイントロを追加
+		}
+		AddSolynSummoner: {
+			Tooltip: ""
+			Label: Solynの召喚アイテムを追加
+		}
+	}
+}
+Tiles: {
+	RelicPylonTile: {
+		MapEntry: レリックのパイロン
+	}
+}
+InfernumIntros: {
+	Vagrant: '''
+		時空の
+		放浪者
+		'''
+	Thespian: '''
+		錬金術の演者
+		セスピアン
+		'''
+	Dioskouroi: '''
+		双つの力
+		ディオスクロイ
+		'''
+	Penthesilea: '''
+		インクの魔女
+		ペンテシレイア
+		'''
+	Starfarers: '''
+		アスフォデンとエリダニ
+		星間旅行者たち
+		'''
+	Nalhaun: '''
+		磨かれし王
+		ナルハウン
+		'''
+	Arbitration: '''
+		宇宙の異常
+		アービトレーション
+		'''
+	WarriorOfLight: '''
+		光の
+		戦士
+		'''
+	Tsukiyomi: '''
+		最初の星間旅行者
+		ツクヨミ
+		'''
+	You: '''
+		謎めいた鏡
+		あなた
+		'''
+	Astrageldon: '''
+		全てを喰らう者
+		アストラゲルドン
+		'''
+	Caretaker: '''
+		疫病の先駆者
+		ケアテイカー
+		'''
+	Mechclops: '''
+		極寒の貨物ローダー
+		St4-sys
+		'''
+	SiegeEngine: '''
+		憤怒の機械
+		シージエンジン
+		'''
+	ClamitasBoss: '''
+		至高のクラム
+		クラミタス
+		'''
+	WallOfBronze: '''
+		地獄の炉
+		青銅の壁
+		'''
+	SerialDesignationN: '''
+		シリアルデジグネーション
+		N
+		'''
+	ExoSlimeGod: '''
+		エキソ・スライム・ゴッド
+		エキソダイジェン
+		'''
+	Polyphemalus: '''
+		四つ子
+		ポリフェマラス
+		'''
+	NihilityTwin: '''
+		虚無からの侵略者
+		ニヒリティ・ツイン
+		'''
+	Cruiser: '''
+		エントロピーワーム
+		クルーザー
+		'''
+}

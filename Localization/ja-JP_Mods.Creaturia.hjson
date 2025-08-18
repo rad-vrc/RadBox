@@ -1,0 +1,743 @@
+Dialogue: {
+	Ninja: {
+		SnowDia: 「ここの雪は以前住んでいた県を思い出させる。とても心が落ち着く」
+		HallowDia2: 「頼む、この場所から出してくれ」
+		HallowDia1: 「すべてが光る場所でどうやって隠密行動をしろというのだ？」
+		PartyDia: 「何？パーティーのためにヘルメットを脱げと？冗談じゃない」
+		TabiDia: 「その足袋を黒帯に変えてやろう。ほとんどの人が知らないが、実は同じものなのだ。ただ畳み方が違うだけだ。畳み方の技術は秘密だがな」
+		BlackBeltDia: 「その黒帯を足袋に変えてやろう。ほとんどの人が知らないが、実は同じものなのだ。ただ畳み方が違うだけだ。畳み方の技術は秘密だがな」
+		ShinglesDia: 「ここの板張りは本当に美しい。故郷を思い出す」
+		AnglerDia: 「あの釣り人の子供は生意気だな。私の時代なら、目上の者にそんな態度をとったら刀で叩かれていただろう」
+		QueenSlimeDia: 「...クイーンスライム... おお、{0}よ、気づかなかった、はは...は...」
+		StandardDialogue8: 「私は90年代に有名だったのだが...とだけ言っておこう...」
+		StandardDialogue7: 「Kuai Liangという男を知っているか？少し気になってな...」
+		StandardDialogue6: 「見ての通り、私は故郷の産品をすべて売っているわけではない。必要なものがあれば、商人から手に入ることが多い - おそらく行商人からな！」
+		StandardDialogue5: 「スライムが嫌いだ」
+		StandardDialogue4: 「ここで意志の強い戦士に会えて嬉しい。私は落ちぶれてしまったが。はあ」
+		StandardDialogue3: 「正表示, 願部私, 金属鉱山。私の言葉は一つも理解できなかっただろう？」
+		StandardDialogue2: 「手裏剣と...そう、今やジェルも必要なだけ揃えている」
+		StandardDialogue1: 「あの獣から解放してくれてありがとう。君が私の予備の衣服を盗んだことは見なかったことにしよう」
+	}
+
+	SpectralMirrorman: {
+		StandardDialogue7: 「私のサービスが...君には有用だと思う。私が必要とするものを持ってきてくれる限り...まあ、それで十分だろう」
+		StandardDialogue6: 「私の...姿が、君を不安にさせているか？申し訳ない。君が安心できそうなものの姿になろうとしただけなのだが...」
+		StandardDialogue5: 「君がどれほど有用かを知ってもらえれば」
+		StandardDialogue4: 「ああ、わかる。君が我々を解放してくれたのだな？」
+		StandardDialogue3: 「ああ、わかる。君が我々を解放してくれたのだったな？」
+		StandardDialogue2: 「...」
+		StandardDialogue1: 「警告しておく。あまり長く見つめていると、行きたくない場所に行くことになるぞ」
+		MoonDia: 「満月の間、十分に集中して見つめれば、月の表面で大きな影がうごめくのが見えると言う者もいる。どう思う？」
+		WizardDia: 「君は冒険者タイプのようだから、私の*鼻息*魔法の餌に興味があるかもしれん。強力な場所でしか効果がないと聞いているがな」
+		GuideDia: 「私の、適切な言葉がないが『自由』から判断するに、君はガイドの{0}についての真実を学んだと考えて間違いなかろう？」
+	}
+
+	GoldenWishingFish: {
+		CheatWish: 「よくもそんな風にシステムを騙そうとしたな！」
+		EvilWish1: 「本当に私が願いを叶えてくれると思ったのか？ムハハハハ！」
+		WishGrantedDia: 「御意のままに！」
+		WishDia: 「私を自由にしてくれれば、願いを一つ叶えてやろう！」
+	}
+
+	Fishman: {
+		StandardDialogue7: 「邪悪な場所の魚の中には友好的でないのもいるからな、そこで釣りをするときは気をつけろよ」
+		StandardDialogue6: 「新鮮な魚。選ぶのは簡単だ」
+		StandardDialogue5: 「長くは留まらん。海の足には陸への配慮などないからな」
+		StandardDialogue4: 「少しばかり酔っ払ってるが、商品は上等だぞ！」
+		StandardDialogue3: 「おそらく私の宝に興味があるんだろう？私の財宝という意味だがな、はーはーはー」
+		StandardDialogue2: 「*鼻息*何のために私を引き上げたんだ？」
+		StandardDialogue1: 「*鼻息*君の金には興味がない。金の宝箱をたくさん持っているからな」
+		FishmanDia2: 「君は冒険者タイプのようだから、私の*鼻息*魔法の餌に興味があるかもしれん。強力な場所でしか効果がないと聞いているがな」
+		PirateDia: 「私の親友{0}とは昔馴染みだ。奴はいつも少し『甲板まで積まれて』いるがな、意味がわかるだろう」
+		AnglerDia: 「*鼻息*{0}を見かけなかったか？もし見かけたら、容赦するな」
+	}
+}
+
+NPCs: {
+	GolemFists_Bestiary: {
+		DisplayName: ゴーレムの拳
+	}
+
+	MrFighter: {
+		DisplayName: Mr.ファイター
+	}
+
+	Butter1Hummingbird: {
+		DisplayName: スレートハチドリ
+	}
+
+	TorchwoodHummingbird: {
+		DisplayName: トーチウッドハチドリ
+	}
+
+	PurpleHeadedHummingbird: {
+		DisplayName: クラウンドウッドニンフハチドリ
+	}
+
+	LeafyHummingbird: {
+		DisplayName: リーフィーハチドリ
+	}
+
+	ButterHummingbird: {
+		DisplayName: スレートハチドリ
+	}
+
+	Ninja: {
+		TownNPCMood: {
+			HateNPC: "{NPCName}は血筋の恥さらしだ。私の故郷では、あんな子供は叩き直されていただろう"
+			DislikeNPC: "{NPCName}は嫌な性格をしている"
+			LikeNPC: "{NPCName}は一緒にいて心地良い"
+			Princess_LovesNPC: "{NPCName}はとてもクールだ。本物の忍者に会いたいといつも思っていた！"
+			LikeNPC_Princess: "{NPCName}は好ましい。彼女の振る舞いは王族の血筋をよく表している"
+			HateNPC_Angler: "{NPCName}は血筋の恥さらしだ！私の故郷では、あんな子供は叩き直されていただろう"
+			DislikeNPC_Merchant: "{NPCName}の強欲さには嫌気がさす"
+			HateBiome: この場所は忌まわしい。できるなら他の場所に移してくれ！
+			DislikeBiome: このバイオームはあまり好きになれない
+			LikeBiome: こういうバイオームに住むのは好きだ。故郷を思い出す
+			HateCrowded: ここは人が多すぎる。ジェルに押し潰されているような気分だ！
+			DislikeCrowded: これだけ多くの人に囲まれていると、しばらくすると苛立ってくる
+			LoveSpace: 孤独の平静と静寂は瞑想に素晴らしい - 騒がしい獣たちがいなければの話だが
+			FarFromHome: 故郷から十分に長い時間離れている。今もその前も
+			NoHome: 家を与えてもらえるなら、とてもありがたい
+			Content: 君が私のためにしてくれたすべてに感謝している。満足だ
+		}
+
+		Census: {
+			SpawnCondition: キングスライムから解放！
+		}
+
+		DisplayName: 忍者
+	}
+
+	RainbowFishSpawner: {
+		DisplayName: レインボーフィッシュのスポナー
+	}
+
+	CorruptHamster: {
+		DisplayName: 不浄のハムスター
+	}
+
+	OrangeHamster: {
+		DisplayName: ハムスター
+	}
+
+	VioletSapphireHummingbird: {
+		DisplayName: トワイライトハチドリ
+	}
+
+	HummingbirdBestiary: {
+		DisplayName: ハチドリ
+	}
+
+	HummingBird2: {
+		DisplayName: フォレスティハチドリ
+	}
+
+	SpectralWatchman: {
+		DisplayName: スペクトラルミラーマン
+	}
+
+	GoldenFish: {
+		DisplayName: 神秘の金魚
+	}
+
+	Fishman: {
+		DisplayName: フィッシュマン
+	}
+
+	DuckMaiden: {
+		DisplayName: アヒルの少女
+	}
+
+	GravPlant: {
+		DisplayName: 重力の花
+	}
+
+	SkinWalker: {
+		DisplayName: スキンウォーカー
+	}
+
+	HyperrealisticEyeball: {
+		DisplayName: 眼球
+	}
+
+	GreatPixie: {
+		DisplayName: グレートピクシー
+	}
+
+	sunglasses: {
+		DisplayName: サングラス
+	}
+
+	strongerglassesgnome: {
+		DisplayName: 強いノーム
+	}
+
+	glassesgnome: {
+		DisplayName: ノーム
+	}
+
+	TheHellborneSkull: {
+		DisplayName: ヘルボーンスカル（旧）
+	}
+
+	HellborneSkullMinion: {
+		DisplayName: ヘルボーンスカルミニオン（旧）
+	}
+
+	HellborneGuardian: {
+		DisplayName: ヘルボーンガーディアン（旧）
+	}
+
+	GolemFistR: {
+		DisplayName: 凍結の拳
+	}
+
+	GolemFistL: {
+		DisplayName: 恐怖の拳
+	}
+
+	RainbowFish: {
+		DisplayName: レインボーフィッシュ
+	}
+
+	DunklerFish: {
+		DisplayName: ダンクル
+	}
+
+	CrimsonFishMiniBoss: {
+		DisplayName: ランプサッカー
+	}
+
+	BabyLumpFish: {
+		DisplayName: ベビーランプサッカー
+	}
+
+	testing: {
+		DisplayName: フェー
+	}
+
+	SlipperySlug: {
+		DisplayName: スリッピースラッギー
+	}
+
+	Plubee: {
+		DisplayName: プルビー
+	}
+
+	MantisShrimp: {
+		DisplayName: シャコ
+	}
+
+	Jackrabbit: {
+		DisplayName: ジャックラビット
+	}
+
+	HummingBird1: {
+		DisplayName: ノドアカハチドリ
+	}
+
+	HoopSnake: {
+		DisplayName: フープスネーク
+	}
+
+	FallenPixie: {
+		DisplayName: 堕ちたピクシー
+	}
+
+	DungeonFrogEmpty: {
+		DisplayName: エクトガエル
+	}
+
+	DungeonFrog: {
+		DisplayName: エクトガエル
+	}
+}
+
+Items: {
+	TorchwoodHummingbirdItem: {
+		Tooltip: 「トーチウッドハチドリには秘密がある：読むことができない」
+		DisplayName: トーチウッドハチドリ
+	}
+
+	PurpleHeadedHummingbirdItem: {
+		Tooltip: 「紫色...でも暴力的でもある？」
+		DisplayName: クラウンドウッドニンフハチドリ
+	}
+
+	LeafyHummingbirdItem: {
+		Tooltip: 「葉っぱに溶け込む」
+		DisplayName: リーフィーハチドリ
+	}
+
+	ButterHummingbirdItem: {
+		Tooltip: ""
+		DisplayName: スレートハチドリ
+	}
+
+	JackrabbitItem: {
+		Tooltip: ""
+		DisplayName: ジャックラビット
+	}
+
+	MoltenBone: {
+		Tooltip: ""
+		DisplayName: 溶岩骨
+	}
+
+	SinfulSoil: {
+		Tooltip: 「えーっと...開発者専用！」
+		DisplayName: 邪悪な土
+	}
+
+	BlankItem: {
+		DisplayName: 空白アイテム
+		Tooltip: このアイテムについて：基本的にMODで特定のものをレンダリングするために空白のスプライトが必要だっただけ
+	}
+
+	AncientDartGunPieces: {
+		Tooltip: 「なんだか懐かしい」
+		DisplayName: 古代のダーツ銃パーツ
+	}
+
+	OrangeHamsterItem: {
+		Tooltip: 「大切に扱って！」
+		DisplayName: ハムスター
+	}
+
+	TroutCannon: {
+		Tooltip: 「魚が飛ぶとき...とか何とか」
+		DisplayName: マスキャノン
+	}
+
+	HummingBirdFeederItem: {
+		Tooltip: 「ハチドリを引き寄せる！」
+		DisplayName: ハチドリの餌台
+	}
+
+	VioletSapphireHummingbirdItem: {
+		Tooltip: 「きらめく模様に迷い込んでしまいそう...」
+		DisplayName: トワイライトハチドリ
+	}
+
+	HummingBird2Item: {
+		Tooltip: 「森に溶け込む」
+		DisplayName: フォレスティハチドリ
+	}
+
+	SlipperySlugItem: {
+		Tooltip: 「落とさないよう注意して！」
+		DisplayName: スリッピースラッギー
+	}
+
+	HummingBird1Item: {
+		Tooltip: 「きれい！」
+		DisplayName: ノドアカハチドリ
+	}
+
+	HoopSnakeItem: {
+		Tooltip: 「テラリア人は長きにわたり恐ろしいフープスネークに恐怖を抱いて生きてきた」
+		DisplayName: フープスネーク
+	}
+
+	TridentoftheFishman: {
+		Tooltip:
+			'''
+			敵を攻撃時に幽霊のトライデントを召喚する可能性あり
+			右クリックで彼の祝福を発動
+			濡れている間はステータス増加
+			「優れしトライデントとともに」
+			'''
+		DisplayName: フィッシュマンのトライデント
+	}
+
+	ScaledLamp: {
+		Tooltip:
+			'''
+			「骨がランプをほぼ破壊不可能にしている」
+			長押しでダンクルの霊と力を召喚
+			この間はアイテムと召喚物は使用不可
+			'''
+		DisplayName: 脊椎のランプ
+	}
+
+	RainbowFocus: {
+		Tooltip:
+			'''
+			「偉大な力を持つ者のみを祝福する」
+			装備している魔法アイテムの強さに基づいてマナをHPに変換
+			右クリックで400マナを消費して大回復、通常回復6回後にリチャージ
+			'''
+		DisplayName: レインボーフォーカス
+	}
+
+	FlagrantEyeball: {
+		Tooltip:
+			'''
+			「ランプフィッシュの目だぁ」
+			「没になった武器のごく初期のプロトタイプ」
+			'''
+		DisplayName: フラグラントアイ
+	}
+
+	ElectricEel: {
+		Tooltip:
+			'''
+			召喚物が攻撃した敵に集中する
+			100%の確率で敵を感電させる（最低2.5秒、チャージ時最大5秒）
+			鞭をチャージすると鞭の長さが最大2倍になる
+			'''
+		DisplayName: エレキウナギ
+	}
+
+	AncientStoneShortsword: {
+		Tooltip: 「一撃で崩れてしまいそうだ」
+		DisplayName: 古代の石の短剣
+	}
+
+	AncientDartRifle: {
+		Tooltip:
+			'''
+			「アンティーク」
+			高精度だが遅い
+			'''
+		DisplayName: 古代のダーツライフル
+	}
+
+	SlipperyHook: {
+		Tooltip:
+			'''
+			フックで引き寄せられている間は50%の確率で攻撃を回避
+			スライムまみれだ
+			'''
+		DisplayName: スリッピーフック
+	}
+
+	SummonFallen: {
+		Tooltip: "「おい、これは開発者専用だ！」 取得不可"
+		DisplayName: 堕ちたピクシー召喚
+	}
+
+	RainbowScale2: {
+		Tooltip: 「虹色の輝きに目を奪われる」
+		DisplayName: レインボースケール
+	}
+
+	LumpsuckerHeart: {
+		Tooltip: 「背骨はカミソリのように清潔でも、臭いは最悪のまま」
+		DisplayName: 霊液の棘
+	}
+
+	HellborneIcon: {
+		Tooltip: "えっと…このツールチップは見えないはずだ！"
+		DisplayName: ヘルボーンスカルとゴーレムはこの武器に弱い！
+	}
+
+	ExampleSword: {
+		Tooltip: すべてのModはサンプルソードから始まる
+		DisplayName: サンプルソード
+	}
+
+	DunkleVertebrae: {
+		Tooltip: 「骨の密度が高く、ほぼ壊れない」
+		DisplayName: ダンクルの椎骨
+	}
+
+	HallowBait: {
+		Tooltip:
+			'''
+			「！」
+			聖域で使用
+			'''
+		DisplayName: きらめくロリポップ
+	}
+
+	GoldenFishDevBait: {
+		Tooltip:
+			'''
+			「威圧感はないが力のオーラが漂う」
+			海で使用
+			'''
+		DisplayName: マジックワーム
+	}
+
+	FishmanDevbait: {
+		Tooltip:
+			'''
+			「開発者専用！」
+			海で使用
+			'''
+		DisplayName: フィッシーワーム
+	}
+
+	CrimsonBait: {
+		Tooltip:
+			'''
+			「！」
+			真紅で使用
+			'''
+		DisplayName: 霊液のステーキ
+	}
+
+	CorruptBait: {
+		Tooltip:
+			'''
+			「！」
+			不浄で使用
+			'''
+		DisplayName: 腐った餌
+	}
+
+	BundleOfFishBullets: {
+		Tooltip:
+			'''
+			フィッシュ弾を10～20個含む
+			<right>で開く
+			'''
+		DisplayName: フィッシュ弾の束
+	}
+
+	BundleOfCoral: {
+		Tooltip:
+			'''
+			貝殻やガラクタがたくさん詰まっている
+			<right>で開く
+			'''
+		DisplayName: サンゴの束
+	}
+
+	FishBullet: {
+		Tooltip:
+			'''
+			水中や雨天時に魚へ変化
+			変化中はクリティカル率+5%
+			変化中はノックバックが大幅に増加
+			変化中は敵を追尾
+			'''
+		DisplayName: フィッシュ弾
+	}
+
+	SpinyNecklace: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			ランプリングがあなたを母親と勘違いしている
+			'''
+		DisplayName: 棘のネックレス
+	}
+
+	RabbitsFoot: {
+		Tooltip:
+			'''
+			「幸運のお守りと言われるが…正直不気味だ」
+			運が少し増加
+			1%の確率で攻撃を回避
+			'''
+		DisplayName: ウサギの足
+	}
+}
+
+Configs: {
+	CreaturiaSettings: {
+		Ninja: {
+			Tooltip: 無効にすると忍者NPCが削除されます
+			Label: 忍者
+		}
+
+		GolemFists: {
+			Tooltip: 有効にするとゴーレムのコンテンツや変更が再追加されます。デフォルトでは無効
+			Label: "[i:1297]ゴーレムのリワーク"
+		}
+
+		Headers: {
+			Settings: 設定
+		}
+
+		DisplayName: Creaturia設定
+	}
+}
+
+Tiles: {
+	SinfulDirt: {
+		MapEntry: 邪悪な土
+	}
+
+	AshwoodSapling: {
+		MapEntry: アッシュウッドの苗木
+	}
+}
+
+Projectiles: {
+	TroutProj: {
+		DisplayName: マス弾
+	}
+
+	TunaProj: {
+		DisplayName: マグロ弾
+	}
+
+	TestingProj: {
+		DisplayName: テスト
+	}
+
+	SmallRainbowDust: {
+		DisplayName: レインボーダスト
+	}
+
+	RainbowDust: {
+		DisplayName: レインボーダスト
+	}
+
+	RainbowBall: {
+		DisplayName: レインボーダスト
+	}
+
+	NinjasShuriken: {
+		DisplayName: 忍者の手裏剣
+	}
+
+	HoopSnakePoison: {
+		DisplayName: フープスネークの毒
+	}
+
+	GravityGloop: {
+		DisplayName: 重力グループ
+	}
+
+	VileSpitHit: {
+		DisplayName: 邪悪な吐き気
+	}
+
+	QueenSlimeHit: {
+		DisplayName: クイーンスライム
+	}
+
+	PlanteraHit: {
+		DisplayName: プランテラ
+	}
+
+	EmpressofLightHit: {
+		DisplayName: エンプレスオブライト
+	}
+
+	EaterofWorldsHit: {
+		DisplayName: イーターオブワールド
+	}
+
+	BrainofCthulhuHit: {
+		DisplayName: クトゥルフの脳
+	}
+
+	DunkleGhost: {
+		DisplayName: ダンクルの霊
+	}
+
+	BabyLumpsucker: {
+		DisplayName: ランプリング
+	}
+
+	HellborneSkullProj: {
+		DisplayName: フレイミングスカル
+	}
+
+	HellborneFireball: {
+		DisplayName: ヘルボーンスカルの火球
+	}
+
+	TridentGhostProjectile: {
+		DisplayName: フィッシュマンのトライデント
+	}
+
+	TridentProjectile: {
+		DisplayName: フィッシュマンのトライデント
+	}
+
+	LumpEye: {
+		DisplayName: フラグラントアイ
+	}
+
+	EelWhipProjectile: {
+		DisplayName: ウナギの鞭
+	}
+
+	SlipperyHookProj: {
+		DisplayName: スリッピーフック
+	}
+
+	FishBulletProj: {
+		DisplayName: フィッシュ弾
+	}
+}
+
+Buffs: {
+	SlipperyBuff: {
+		Description: ぬるぬるしている間は50%の確率で攻撃を回避！
+		DisplayName: ぬるぬる
+	}
+
+	FishmanBuff: {
+		Description: 移動速度と近接速度が大幅上昇、感覚も鋭くなる！
+		DisplayName: フィッシュマンの祝福
+	}
+
+	DunkleBuff: {
+		Description:
+			'''
+			物理的な力が大幅に増加するが、アイテムは使用不可
+			防御力+50、持久力+5%、移動速度+10%
+			'''
+		DisplayName: ダンクルの霊
+	}
+
+	BabyLumpsuckerBuff: {
+		Description: ベビーランプサッカーがあなたのために戦う！
+		DisplayName: ランプリング
+	}
+}
+
+Bestiary: {
+	Mirrorman: 謎めいたミラーマンは、世界の守護者の中での幽閉から解放され、今は未知の理由で地下聖域を徘徊している...そしてゴブリン改造師よりも良いサービスを提供する
+	Ninja: 忍者はキングスライムから解放された後、テラリアの地に留まることを選んだ
+	WishingFish: 伝説によると、この話す魚はかつて王子だったが、遙か昔に金魚の体に呪いをかけられたという。少なくとも無料で願いを叶えてくれる！
+	Fishman: 海の深淵のフィッシュマンは孤独を好むが、海以外の魚との取引の機会があれば喜んで交易する
+	SkinWalker: 自然の忌まわしき存在。生物の体に潜り込み、本当の姿を現すチャンスを待っている
+	GreatPixieLine2: その危険性は大きいが、それが解放する力もまた同じく大きい
+	GreatPixieLine1: 古代の狡猾なピクシーで、昔は実際よりも弱いふりをして偽装していた
+	GnomeLine2: 残念ながら太陽が出ていないときに侵入するほど賢くはない！
+	GnomeLine1: ノームたちはついに眼鏡をかけ始めるほど賢くなった
+	GolemFists: かつてはゴーレムの一部だったこれらの拳は、恐怖の王と霜の女王によって憑依され力を与えられた。そのどちらかを倒せば確実に拳の呪いを解き、通常の状態に戻すことができるだろう...
+	RainbowFish: レインボーフィッシュは群れで行動することで聖域の混沌を生き抜き、鋭い鱗の破片を放って潜在的な脅威や獲物を切り裂く
+	Dunkle: 不浄の水域の巨大な鱗を持つ獣、残忍で破壊的。その体格は信じられないほどの力を与えている
+	Lumpsucker: 真紅の水域の巨大な粘液質の獣、凶暴で容赦がない
+	BabyLumpsucker: ランプリングの赤ちゃんたちは母親への献身が強く、喜んで母親のために自爆する
+	SlipperySlug2: ナメクジにとって幸運なことに、つかむのがとても困難で、何も長時間捕まえておくことができない！
+	SlipperySlug1: 洞窟の珍しく貴重で（魚にとっては）美味しいナメクジ
+	Plubee: ウサギの姿をとることで知られるいたずら好きな存在で、運良く攻撃できた者に財宝を与える！
+	Jackrabbit: この痩せこけたウサギは砂漠の砂丘で繁栄し、常に食べ物を探している
+	Hummingbirds: 蜜と森の友達を探しているかわいい小鳥たち！野生すぎて檻の中では飼えないが、ハチドリの餌台で引き寄せることができる！
+	HoopSnake: 「テラリア人は長きにわたり恐ろしいフープスネークに恐怖を抱いて生きてきた」悪評にもかかわらず、信じられないほど珍しいフープスネークは転がりながらあなたとの親交を楽しみたいだけである
+	FallenPixie: 力を失った妖精。回復させてみるべきかもしれない！
+	Ectoad: ダンジョンの謎めいた住人で、本当はダメなものを糧にして生きている
+	GravPlant: この古代植物は反重力ジュースを生産する。素晴らしい！
+}
+
+Common: {
+	WishingFishPoleTxt: 水面下で金の鱗がきらめいている...
+	FishPoleTxt: ウキの下から泡が上がってくる...
+	LumpPoleTxt: 棘と肉が下で脈打っている...
+	DunklePoleTxt: 腐敗と板が下で脈打っている...
+	GreenMushroomTt: 短期間の強力な回復だが、毒とポーション酔いを与える
+	OrangeBloodrootTt: 「液体コルチゾールで捕食者を威嚇する。明らかにあなたには効かなかったが！」
+	SkyBlueManaTt: 「きれい！」
+	TealMushroomTt: 「美味しそう」
+	BlueberriesTt: 「甘い！」
+	YellowMarigoldTt2: 50%の確率で一定時間、急速回復または毒のどちらかを受ける
+	YellowMarigoldTt: 「本当に健康的なマリーゴールドか毒性のあるマリーゴールドかのどちらか。見分けるのはかなり難しい」
+	VikingHelmetTt: 装備時、アンデッドバイキングとアーマードバイキングがあなたを狙わなくなる
+	ThornHookTooltip: プレイヤーがフックされている間に攻撃した敵は5秒間毒状態になる
+	RightClickConsumeTooltip: 右クリックで消費
+	GolemFistTooltip: 20%の確率でアイスクイーンまたはパンプキングの力で強化された攻撃を発射
+	# Keep the color tag and translate the message while avoiding extra brackets
+	GolemItemTooltip: "[c/8b82e7: ゴーレムはこの武器に弱い]"
+}
+

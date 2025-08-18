@@ -1,0 +1,512 @@
+Items: {
+	WildernessGuide: {
+		Tooltip:
+			'''
+			ツタからツタロープを回収できる
+			インベントリにある間、クリッターを傷つけない
+			「自然の理は教えてくれない」
+			'''
+		DisplayName: 荒野のガイド
+	}
+
+	VortexCharm: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			遠距離ダメージが5％増加
+			遠距離クリティカル率が5％上昇
+			敵命中時にランダムな効果を付与
+			'''
+		DisplayName: ボルテックスのお守り
+	}
+
+	UnholyAbomination: {
+		Tooltip: 悪魔の祭壇を破壊できるほど強力
+		DisplayName: 不浄のアボミネーション
+	}
+
+	TubularMagiluminescence: {
+		Tooltip:
+			'''
+			水中で浮遊可能
+			移動速度と加速度が上昇
+			装備中は周囲を照らす
+			「どうして浮くんだ？」
+			'''
+		DisplayName: チューブラ・マギルミネッセンス
+	}
+
+	StardustCharm: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			召喚ダメージが5％増加
+			鞭の攻撃速度が8％上昇
+			ミニオンの攻撃が当たった敵はあなたに対して脆弱化
+			'''
+		DisplayName: スターダストのお守り
+	}
+
+	SolarCharm: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			近接ダメージが5％増加
+			距離が近いほど攻撃のダメージが増加
+			「もう少し近くに」
+			'''
+		DisplayName: 太陽のお守り
+	}
+
+	SlimeShield: {
+		Tooltip:
+			'''
+			スライムが友好的になる
+			敵に向かってダッシュ可能
+			方向キーを素早く2回押す
+			'''
+		DisplayName: スライムの盾
+	}
+
+	OvergrownTreads: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			超高速で走れる
+			ツタからツタロープを回収できる
+			歩いた草地に花が咲く
+			植物を壊してもドロップ率が低下しない
+			錬金植物の収集量が増加
+			ライフとマナの回復が増進
+			'''
+		DisplayName: オーバーグロウン・トレッド
+	}
+
+	NebulaCharm: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			最大マナ+20
+			魔法ダメージが5％増加
+			ダメージ蓄積の強化バフを付与
+			'''
+		DisplayName: ネビュラのお守り
+	}
+
+	MOPPGear: {
+		Tooltip:
+			'''
+			水泳が可能になり、水中呼吸時間が大幅に延長
+			氷上での移動が向上
+			微弱な発光を放ち、水中でより明るくなる
+			ほとんどのデバフを無効化
+			被弾時にハチを放ち、蜂蜜を浴びる
+			溶岩接触時の被ダメージを軽減
+			再充填される防護バリアを付与
+			'''
+		DisplayName: MOPPギア
+	}
+
+	MoonTablet: {
+		Tooltip:
+			'''
+			夜は所持者が人狼化する
+			夜間装備中はダメージ/近接速度/クリティカル率/ライフ自然回復/防御/採掘速度/ミニオンノックバックがわずかに上昇
+			'''
+		DisplayName: 月のタブレット
+	}
+
+	MoltenShield: {
+		Tooltip:
+			'''
+			近接攻撃が火炎ダメージを与える
+			火炎ブロックを無効化
+			溶岩接触時の被ダメージを軽減
+			ノックバックを無効化
+			周囲の敵を発火させる
+			「地獄の騎士には必需品」
+			'''
+		DisplayName: 溶岩の盾
+	}
+
+	MirrorNecklace: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			石化を無効化
+			召喚タグダメージが増加
+			'''
+		DisplayName: 鏡のネックレス
+	}
+
+	MasterThrowingCharm: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			投擲ダメージが8％増加
+			投擲クリティカル率が8％上昇
+			投擲速度が20％上昇
+			一度に2本の投擲物を投げる
+			'''
+		DisplayName: 投擲達人のお守り
+	}
+
+	MagicArrow: {
+		Tooltip:
+			'''
+			マナを消費して飛行を延長
+			「一緒に飛ぼう——自由に」
+			'''
+		DisplayName: マジックアロー
+	}
+
+	JungleBoots: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			超高速で走れる
+			ツタからツタロープを回収できる
+			歩いた草地に花が咲く
+			植物を壊してもドロップ率が低下しない
+			錬金植物の収集量が増加
+			ライフとマナの回復が増進
+			時間経過で胞子を生成し、敵にダメージ
+			'''
+		DisplayName: ジャングルブーツ
+	}
+
+	HuntersMark: {
+		Tooltip:
+			'''
+			アイテムの取得範囲が拡大
+			遠距離攻撃で敵に印を付与
+			「獲物を執拗に追跡する」
+			'''
+		DisplayName: ハンターズマーク
+	}
+
+	HellBoots: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			水/蜂蜜/溶岩の上を歩ける
+			火炎ブロックを無効化し、溶岩への耐性を7秒付与
+			溶岩接触時の被ダメージを軽減
+			通った跡に炎を残す
+			地獄で装備中はダメージ/攻撃速度/クリティカル率/ライフ自然回復/防御がわずかに上昇
+			'''
+		DisplayName: ヘルブーツ
+	}
+
+	HazardousEnviromentGear: {
+		Tooltip:
+			'''
+			水泳が可能になり、水中呼吸時間が大幅に延長
+			氷上での移動が向上
+			微弱な発光を放ち、水中でより明るくなる
+			火炎ブロック、毒、落下ダメージを無効化
+			被弾時にハチを放ち、蜂蜜を浴びる
+			「H.E.V. ギア」
+			'''
+		DisplayName: 危険な環境ギア
+	}
+
+	GardeningKit: {
+		Tooltip:
+			'''
+			ツタからツタロープを回収できる
+			歩いた草地に花が咲く
+			植物を壊してもドロップ率が低下しない
+			「ノームはどこに置いたっけ？」
+			'''
+		DisplayName: ガーデニングキット
+	}
+
+	GardeningBoots: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			超高速で走れる
+			ツタからツタロープを回収できる
+			歩いた草地に花が咲く
+			植物を壊してもドロップ率が低下しない
+			'''
+		DisplayName: ガーデニングブーツ
+	}
+
+	DruidTreads: {
+		Tooltip:
+			'''
+			飛行を可能にする
+			超高速で走れる
+			ツタからツタロープを回収できる
+			歩いた草地に花が咲く
+			植物を壊してもドロップ率が低下しない
+			錬金植物の収集量が増加
+			'''
+		DisplayName: ドルイドトレッド
+	}
+
+	DeadlyEnviromentGear: {
+		Tooltip:
+			'''
+			水泳が可能になり、水中呼吸時間が大幅に延長
+			氷上での移動が向上
+			微弱な発光を放ち、水中でより明るくなる
+			火炎ブロック、毒、出血、落下ダメージを無効化
+			被弾時にハチを放ち、蜂蜜を浴びる
+			溶岩接触時の被ダメージを軽減
+			再充填される防護バリアを付与
+			'''
+		DisplayName: 決死の環境ギア
+	}
+
+	CrownOfLight: {
+		Tooltip: ""
+		DisplayName: 光の冠
+	}
+
+	CloudOutOfBottle: {
+		Tooltip: 所持者は浮遊可能
+		DisplayName: 瓶から出た雲
+	}
+
+	CharmOfWizards: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			最大マナ+20
+			魔法ダメージが5％増加
+			'''
+		DisplayName: 魔術師のお守り
+	}
+
+	CharmOfWarriors: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			近接ダメージが5％増加
+			'''
+		DisplayName: 戦士のお守り
+	}
+
+	CharmOfTrueFlight: {
+		Tooltip:
+			'''
+			無限飛行を付与
+			飛行とジャンプの機動性が上昇
+			「飛ぶことは呼吸のようなもの」
+			'''
+		DisplayName: 真なる飛翔のお守り
+	}
+
+	CharmOfThrowing: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			投擲ダメージが8％増加
+			投擲クリティカル率が8％上昇
+			投擲速度が20％上昇
+			「この先の道は霞んでいる」
+			'''
+		DisplayName: 投擲のお守り
+	}
+
+	CharmOfSummoning: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			召喚ダメージが5％増加
+			鞭の攻撃速度が8％上昇
+			'''
+		DisplayName: 召喚のお守り
+	}
+
+	CharmOfRangers: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			遠距離ダメージが5％増加
+			遠距離クリティカル率が5％上昇
+			'''
+		DisplayName: レンジャーのお守り
+	}
+
+	CharmOfEndurance: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			回復ポーションのクールダウンが25％短縮
+			'''
+		DisplayName: 忍耐のお守り
+	}
+
+	BuildersPack: {
+		Tooltip:
+			'''
+			採掘速度が25％上昇
+			ブロックと壁の設置速度が上昇
+			設置物を自動で塗装
+			ブロック設置/ツールの射程+4
+			上キーを押し続けるとより高く届く
+			'''
+		DisplayName: ビルダーズパック
+	}
+
+	BonePile: {
+		Tooltip:
+			'''
+			攻撃中、敵にクロスボーンを発射
+			影の手が敵を攻撃
+			「その出自は考えないようにしている」
+			'''
+		DisplayName: 骨の山
+	}
+
+	BandOfToughness: {
+		Tooltip:
+			'''
+			ライフがゆっくり増進
+			「どれだけタフなんだ？」
+			'''
+		DisplayName: タフネスの腕輪
+	}
+
+	ArchmagiLuminarium: {
+		Tooltip:
+			'''
+			消費マナが8％減少
+			必要時に自動でマナポーションを使用
+			被弾後に星が降る
+			星を拾うとマナを回復
+			移動速度と加速度が上昇
+			装備中は周囲を照らす
+			'''
+		DisplayName: アークメイジ・ルミナリウム
+	}
+
+	AgletOfTheWind: {
+		Tooltip: 移動速度が12％上昇
+		DisplayName: 風のアグレット
+	}
+}
+
+Buffs: {
+	StardustCharmBuff: {
+		Description: スターダストのお守りでタグ付けされている
+		DisplayName: スターダストのお守り
+	}
+
+	NebulaCharmBuff: {
+		Description: 魔力が上昇している
+		DisplayName: 銀河の力
+	}
+
+	MirrorNecklaceBuff: {
+		Description: 鏡のネックレスでタグ付けされている
+		DisplayName: ミラーヒット
+	}
+
+	HuntersMarkBuffTwo: {
+		Description: 狩りが始まる
+		DisplayName: ハンターズマーク
+	}
+
+	HuntersMarkBuffThree: {
+		Description: 狩りが始まる
+		DisplayName: ハンターズマーク
+	}
+
+	HuntersMarkBuffOne: {
+		Description: 狩りが始まる
+		DisplayName: ハンターズマーク
+	}
+
+	HuntersMarkBuffFour: {
+		Description: 狩りが始まる
+		DisplayName: ハンターズマーク
+	}
+}
+
+Interop: {
+	Calamity: {
+		CharmOfThrowing: {
+			Tooltip:
+				'''
+				ライフがゆっくり増進
+				回復ポーションのクールダウンが25％短縮
+				投擲ダメージが8％増加
+				ローグダメージが8％増加
+				投擲クリティカル率が8％上昇
+				ローグクリティカル率が8％上昇
+				投擲速度が20％上昇
+				「この先の道は霞んでいる」
+				'''
+		}
+
+		MoonTablet: {
+			Tooltip:
+				'''
+				夜は所持者が人狼化する
+				夜間装備中はダメージ/近接速度/クリティカル率/ライフ自然回復/防御/採掘速度/ミニオンノックバックがわずかに上昇
+				ムーンバーンを無効化
+				'''
+		}
+
+		HellBoots: {
+			Tooltip:
+				'''
+				飛行を可能にする
+				水/蜂蜜/溶岩の上を歩ける
+				火炎ブロックを無効化し、溶岩への耐性を7秒付与
+				溶岩接触時の被ダメージを軽減
+				通った跡に炎を残す
+				地獄で装備中はダメージ/攻撃速度/クリティカル率/ライフ自然回復/防御がわずかに上昇
+				バーニングと燃えている！を無効化
+				火炎系デバフのダメージに1.5倍の乗算補正
+				すべての攻撃がヘルファイアを付与
+				'''
+		}
+	}
+}
+
+Misc: {
+	MasterModeOnly: マスターモード限定
+}
+
+Configs: {
+	CombinationsConfig: {
+		DisplayName: Combinations 設定
+
+		EnableUnfinishedItems: {
+			Tooltip: テクスチャやバランス調整が未了のアイテムを有効にする
+			Label: 未完成アイテムを有効化
+		}
+
+		DisableVineRopeForBoots: {
+			Tooltip: ツタロープでインベントリが埋まらなくなる
+			Label: ブーツのツタロープ回収を無効化
+		}
+
+		HideMoltenShieldRing: {
+			Tooltip: 溶岩の盾の「炎の輪」エフェクトを非表示にする
+			Label: 溶岩の盾の炎輪を非表示
+		}
+
+		Headers: {
+			Gameplay: ゲームプレイ
+			Visual: 視覚
+		}
+	}
+}
+

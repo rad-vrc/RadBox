@@ -1,0 +1,59 @@
+{
+	Command: {
+		OverrideDescription: "'Weapon Fusion' MOD用のコマンド"
+		ReplyParseError: "'{0}'は整数ではない。使用法: {1}"
+		ReplySuccess: "新しいレベルが適用された"
+		ReplyTooManyArguments: "引数が{0}個渡されたが、必要なのは{1}個のみ。使用法: {2}"
+		ReplyUnauthorize: "このコマンドを実行する権限がない"
+		ReplyWrongArgument: "引数'{0}'は存在しない。使用法: {1}"
+	}
+	Config: {
+		GeneralHeader: "一般"
+		MultipliersHeader: "倍率"
+	}
+	Global: {
+		WorkInProgress: "作業中"
+	}
+	GlobalItem: {
+		TooltipsLevel: "レベル: {0} {1} {2}"
+		TooltipsDetail: "- [Shiftで詳細表示]"
+		TooltipsLevelMax: "[最大]"
+		TooltipsMultDamage: "  ダメージ: +{0}%"
+		TooltipsMultDefense: "  防御力: +{0}%"
+		TooltipsMultCritical: "  クリティカル率: +{0}%"
+		TooltipsMultKnockback: "  ノックバック: +{0}%"
+	}
+	Configs: {
+		WeaponFusionConfig: {
+			DisplayName: "ウェポンフュージョン設定"
+			MaxLevel: {
+				Label: "レベルキャップ"
+				Tooltip: ""
+			}
+			Blacklist: {
+				Label: "ブラックリスト"
+				Tooltip: ""
+			}
+			MultDefense: {
+				Label: "防御力"
+				Tooltip: ""
+			}
+			MultDamage: {
+				Label: "ダメージ"
+				Tooltip: ""
+			}
+			MultCrit: {
+				Label: "クリティカル率"
+				Tooltip: ""
+			}
+			MultKnockback: {
+				Label: "ノックバック"
+				Tooltip: ""
+			}
+			EnabledCommands: {
+				Label: "マルチプレイヤーでのコマンドを許可する (OPを除く)"
+				Tooltip: ""
+			}
+		}
+	}
+}

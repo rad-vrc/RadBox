@@ -1,0 +1,760 @@
+ShieldAbilities: {
+	ZenithShield: "インフィニットリバーブ: シールドが、そのクラフト素材となったシールドを発射する]\n"
+	MeowShield: "レインボーバースト: チャージを10消費して、]\n[c/FFFF00:8匹の愉快なネコを発射する！]\n"
+	StellarShield: "スターライト: チャージを10消費して、シールドが]\n[c/FFFF00:それ自身を発射し、消滅時に星を生成する]\n"
+	LuminiteShield: "ヴォイドウォーク: チャージを70消費して、プレイヤーは]\n[c/FFFF00:マウスカーソルに向かって短距離をテレポートできる]\n"
+	ShieldOfLife: "ブロークンハート: チャージを120消費して、]\n[c/FFFF00:周囲の全てのハートが一つに融合し、]\n[c/FFFF00:3倍のダメージを与え、ゆっくりとマウスに向かって]\n[c/FFFF00:ホーミングする]\n"
+	TerraShield: "テラ・ドメイン: チャージを8消費して、]\n[c/FFFF00:シールドが、そのクラフト素材となったシールドを発射する]\n"
+	TrueAegisShield: "勇気のオーラ: 毎秒チャージを8消費して、]\n[c/FFFF00:きらめくオーラがあなたを包み込み、]\n[c/FFFF00:接触ダメージを10%増加させ、]\n[c/FFFF00:20秒間被ダメージを5%減少させる]\n"
+	ShroomiteShield: "ヴェロシティサージ: チャージを20消費して、シールドダッシュが強化される]"
+	SpectreShield: "スペクトラルブースト: チャージを60消費して、プレイヤーの]\n[c/FFFF00:接触ダメージが18秒間180%増加する]\n"
+	InfluxShield: "次元斬: チャージを6消費して、シールドが]\n[c/FFFF00:敵に向かってそれ自身を発射する]\n"
+	ShieldOfTimber: "森の精霊の怒り: チャージを6消費して、シールドが]\n[c/FFFF00:そのクラフト素材となったシールドを敵に向かってホーミング発射する]\n"
+	LunarShield: "ルナー・エクリプス: チャージを4消費して、シールドが]\n[c/FFFF00:そのクラフト素材となったシールドを発射し、敵に様々な]\n[c/FFFF00:デバフを与える]\n"
+	MoltenShield: "ブレイジングチャージ: チャージを20消費して、プレイヤーは]\n[c/FFFF00:マウスの方向に安全に爆発し、近くの敵に点火し、]\n[c/FFFF00:背後に炎の軌跡を残す]\n"
+}
+
+ShieldTooltips: {
+	ZenithShield: "無限チャージ"
+	ShieldOfLife: "ハートが追従し、敵を攻撃する"
+	TerraShield: "チャージを15消費し、敵に命中すると呪炎で包む\n"
+	TrueLunarShield: "チャージを20消費し、敵に命中すると呪炎で包む\n「狂気の記憶」'\n"
+	Horseman_sShield: "敵に命中するとチャージを15消費してカボチャを発射する"
+	SeedShield: "敵に命中するとチャージを15消費して木の実を投げる"
+	ChlorophyteShield: "チャージを15消費して、ヒットごとに10のライフを吸収する\n再生速度が速くなる\n"
+	AegisShield: "チャージを15消費して、ヒット時に敵を追撃する\n敵に攻撃を当てた後、無敵になる\n"
+	HallowedShield: "敵に攻撃を当てた後、無敵になる"
+	MoltenShield: "ヒット時に敵をオイル状態にしてから燃やす"
+	BeeShield: "NPCに命中するとチャージを5消費して味方のハチを発射する"
+	CrimtaneShield: "ヒット時にチャージを5消費して敵を大出血させる"
+	DemoniteShield: "ヒット時にチャージを5消費して敵を汚染する"
+	StarShield: "NPCに命中するとチャージを5消費して星を発射する"
+	EnchantedShield: "NPCに命中するとチャージを5消費してエンチャントビームを発射する"
+	MeteoriteShield: "ヒット時にチャージを5消費して敵を燃やす"
+	GrassShield: "ヒット時にチャージを5消費して敵を毒にする"
+}
+
+ShieldWeapon: {
+	SecondCooldown: "秒のクールダウン"
+	DoubleTap: "方向キーをダブルタップ"
+	PlayerDash: "敵にダッシュできる\n\n"
+	Block: "」でブロック/パリィ\n\n"
+	Defense: "防御力 \n「"
+	MaxCharge: "\n\n最大チャージ= "
+	CurrentDash: "現在のダッシュ= "
+	ActivateSpecial: "」で特殊能力を発動\n\n"
+	Press: "「"
+}
+
+Keybinds: {
+	Block: {
+		DisplayName: "ブロック"
+	}
+
+	ChargedDash: {
+		DisplayName: "チャージダッシュ"
+	}
+
+	SpecialAbility: {
+		DisplayName: "特殊能力"
+	}
+}
+
+DamageClasses: {
+	ShieldClassDamage: {
+		DisplayName: "接触ダメージ"
+	}
+}
+
+Buffs: {
+	DivineHealing: {
+		Description: "神聖なる癒しがあなたを助ける！"
+		DisplayName: "ディバインヒーリング"
+	}
+
+	AuraOfValor: {
+		Description: "接触ダメージを10%増加させる\n被ダメージを5%減少させる\n[毎秒]\n"
+		DisplayName: "勇気のオーラ"
+	}
+
+	RoyalGuardBuff: {
+		Description: "何かに命中するたびに防御力が増加する？！"
+		DisplayName: "ロイヤルガード"
+	}
+
+	BlueDemonBuff: {
+		Description: "接触ダメージが180%増加！"
+		DisplayName: "ブルーデーモン"
+	}
+
+	Oiled: {
+		Description: "炎上によるダメージが増加している"
+		DisplayName: "オイル"
+	}
+
+	CorruptedDebuff: {
+		Description: "急速に出血している"
+		DisplayName: "コラプト"
+	}
+
+	BloodButcheredDebuff: {
+		Description: "急速に出血している"
+		DisplayName: "ブラッドブッチャード"
+	}
+
+	God_sPersecution: {
+		Description: "神はあなたを見捨てた！"
+		DisplayName: "神の迫害"
+	}
+
+	ShieldSickness: {
+		Description: "接触ダメージが65%減少\nチャージが時間とともに減少し、最大80%に制限される\n"
+		DisplayName: "シールド酔い"
+	}
+}
+
+Items: {
+	HeartShapedChocolate: {
+		Tooltip: "様々なバフであなたのハートにチャンスを与える！"
+		DisplayName: "ハート型のチョコレート"
+	}
+
+	ShieldEmblem: {
+		Tooltip: "接触ダメージが15%増加"
+		DisplayName: "盾の紋章"
+	}
+
+	ShadowFlameShield: {
+		Tooltip: ""
+		DisplayName: "シャドウフレイムの盾"
+	}
+
+	BandOfFortification: {
+		Tooltip: "チャージバーを急速にチャージする\nチャージに応じて防御力を増加させる\n「シールド酔い」を完全に無効化する\n"
+		DisplayName: "要塞の腕輪"
+	}
+
+	BandOfMight: {
+		Tooltip: "チャージバーを最大80%までチャージする\nチャージに応じて防御力を増加させる\n「シールド酔い」のチャージ減少を完全に無効化する\n「シールド酔い」のダメージ減少を軽減する\n"
+		DisplayName: "力の腕輪"
+	}
+
+	BandOfCharging: {
+		Tooltip: "チャージバーを最大70%までゆっくりチャージする\n「シールド酔い」のチャージ減少を完全に無効化する\n"
+		DisplayName: 充填の腕輪"
+	}
+
+	RoyalGuardMask: {
+		SetBonus: "「王が汝を祝福する」\n「ロイヤルガード」効果を得る"
+		Tooltip: "接触ダメージとクリティカル率が25%上昇\n接触ダメージの防御無視値が10増加\n敵に狙われやすくなる\n"
+		DisplayName: "ロイヤルガードの仮面"
+	}
+
+	RoyalGuardGreaves: {
+		Tooltip: "接触ダメージとクリティカル率が15%上昇\n接触ダメージの防御無視値が10増加\n移動速度が18%上昇\n敵に狙われやすくなる\n"
+		DisplayName: "ロイヤルガードのすね当て"
+	}
+
+	RoyalGuardBreastplate: {
+		Tooltip: "接触ダメージとクリティカル率が20%上昇\n接触ダメージの防御無視値が10増加\n敵に狙われやすくなる\n"
+		DisplayName: "ロイヤルガードの胸当て"
+	}
+
+	BrokenHeroLeggings: {
+		Tooltip: "接触ダメージとクリティカル率が12%上昇\n接触ダメージの防御無視値が6増加\n移動速度が5%上昇\n"
+		DisplayName: "壊れた英雄のすね当て"
+	}
+
+	BrokenHeroHelmet: {
+		SetBonus: "ベビーモスロンが敵を倒すのを手伝う"
+		Tooltip: "接触ダメージとクリティカル率が18%上昇\n接触ダメージの防御無視値が6増加\n"
+		DisplayName: "壊れた英雄の兜"
+	}
+
+	BrokenHeroChestplate: {
+		Tooltip: "接触ダメージとクリティカル率が15%上昇\n接触ダメージの防御無視値が6増加\n"
+		DisplayName: "壊れた英雄の胸当て"
+	}
+
+	PaladinPlateMail: {
+		Tooltip: "接触ダメージとクリティカル率が16%上昇\n接触ダメージの防御無視値が7増加\n"
+		DisplayName: "パラディンのプレートメイル"
+	}
+
+	PaladinMask: {
+		SetBonus: "被ダメージを35%減少"
+		Tooltip: "接触ダメージとクリティカル率が20%上昇\n接触ダメージの防御無視値が7増加\n"
+		DisplayName: "パラディンの仮面"
+	}
+
+	PaladinGreaves: {
+		Tooltip: "接触ダメージとクリティカル率が12%上昇\n接触ダメージの防御無視値が7増加\n"
+		DisplayName: "パラディンのすね当て"
+	}
+
+	ProtectorLeggings: {
+		Tooltip: "接触ダメージとクリティカル率が10%上昇\n接触ダメージの防御無視値が5増加\n移動速度が8%上昇\n"
+		DisplayName: "プロテクターのすね当て"
+	}
+
+	ProtectorHelmet: {
+		SetBonus: "敵から攻撃を受けた後、敵を混乱させる"
+		Tooltip: "接触ダメージとクリティカル率が16%上昇\n接触ダメージの防御無視値が5増加\n"
+		DisplayName: "プロテクターの兜"
+	}
+
+	ProtectorChestplate: {
+		Tooltip: "接触ダメージとクリティカル率が14%上昇\n接触ダメージの防御無視値が5増加\n"
+		DisplayName: "プロテクターの胸当て"
+	}
+
+	DefenderLeggings: {
+		Tooltip: "接触ダメージとクリティカル率が5%上昇\n接触ダメージの防御無視値が3増加\n"
+		DisplayName: "ディフェンダーのすね当て"
+	}
+
+	DefenderHelmet: {
+		SetBonus: "被ダメージを15%減少"
+		Tooltip: "接触ダメージとクリティカル率が12%上昇\n接触ダメージの防御無視値が3増加\n"
+		DisplayName: "ディフェンダーの兜"
+	}
+
+	DefenderChestplate: {
+		Tooltip: "接触ダメージとクリティカル率が15%上昇\n接触ダメージの防御無視値が4増加\n"
+		DisplayName: "ディフェンダーの胸当て"
+	}
+
+	GuardLeggings: {
+		Tooltip: "接触ダメージとクリティカル率が4%上昇\n接触ダメージの防御無視値が2増加\n"
+		DisplayName: "ガードのすね当て"
+	}
+
+	GuardHelmet: {
+		SetBonus: "毎秒3チャージ獲得"
+		Tooltip: "接触ダメージとクリティカル率が6%上昇\n接触ダメージの防御無視値が2増加\n"
+		DisplayName: "ガードの兜"
+	}
+
+	GuardChestplate: {
+		Tooltip: "接触ダメージとクリティカル率が18%上昇\n接触ダメージの防御無視値が4増加\n"
+		DisplayName: "ガードの胸当て"
+	}
+
+	FaithfulFragment: {
+		Tooltip: "「このカケラからは宇宙の信念が感じられる」"
+		DisplayName: "信念の断片"
+	}
+
+	LuminiteShield: {
+		DisplayName: "ルミナイトの盾"
+		Tooltip: ""
+	}
+
+	MeowShield: {
+		DisplayName: "ミャウシールド"
+		Tooltip: ""
+	}
+
+	StellarShield: {
+		DisplayName: "ステラーシールド"
+		Tooltip: ""
+	}
+
+	ZenithShield: {
+		DisplayName: "シールド・オブ・ゼニス"
+		Tooltip: ""
+	}
+
+	AdamantiteShield: {
+		DisplayName: "アダマンタイトの盾"
+		Tooltip: ""
+	}
+
+	AegisShield: {
+		DisplayName: "イージスの盾"
+		Tooltip: ""
+	}
+
+	BrokenHeroShield: {
+		DisplayName: "壊れた英雄の盾"
+		Tooltip: ""
+	}
+
+	ChlorophyteShield: {
+		DisplayName: "クロロファイトの盾"
+		Tooltip: ""
+	}
+
+	CobaltShield: {
+		DisplayName: "コバルトの盾"
+		Tooltip: ""
+	}
+
+	HallowedShield: {
+		DisplayName: "神聖な盾"
+		Tooltip: ""
+	}
+
+	Horseman_sShield: {
+		DisplayName: "カボチャ騎手の盾"
+		Tooltip: ""
+	}
+
+	InfluxShield: {
+		DisplayName: "インフラックスシールド"
+		Tooltip: ""
+	}
+
+	MythrilShield: {
+		DisplayName: "ミスリルの盾"
+		Tooltip: ""
+	}
+
+	OrichalcumShield: {
+		DisplayName: "オリハルコンの盾"
+		Tooltip: ""
+	}
+
+	PalladiumShield: {
+		DisplayName: "パラジウムの盾"
+		Tooltip: ""
+	}
+
+	PearlwoodShield: {
+		DisplayName: "パールウッドの盾"
+		Tooltip: ""
+	}
+
+	SeedShield: {
+		DisplayName: "シードシールド"
+		Tooltip: ""
+	}
+
+	ShieldOfLife: {
+		DisplayName: "シールド・オブ・ライフ"
+		Tooltip: ""
+	}
+
+	ShieldOfTimber: {
+		DisplayName: "シールド・オブ・ティンバー"
+		Tooltip: ""
+	}
+
+	ShroomiteShield: {
+		DisplayName: "シュルーマイトシールド"
+		Tooltip: ""
+	}
+
+	SpectreShield: {
+		DisplayName: "スペクターシールド"
+		Tooltip: ""
+	}
+
+	SpookyWoodShield: {
+		DisplayName: "不気味な木の盾"
+		Tooltip: ""
+	}
+
+	TerraShield: {
+		DisplayName: "テラシールド"
+		Tooltip: ""
+	}
+
+	TitaniumShield: {
+		DisplayName: "チタニウムの盾"
+		Tooltip: ""
+	}
+
+	TrueAegisShield: {
+		DisplayName: "真・イージスの盾"
+		Tooltip: ""
+	}
+
+	TrueLunarShield: {
+		DisplayName: "真・ルナシールド"
+		Tooltip: ""
+	}
+
+	BeeShield: {
+		DisplayName: "ビーシールド"
+		Tooltip: ""
+	}
+
+	BorealWoodShield: {
+		DisplayName: "ボリアルウッドの盾"
+		Tooltip: ""
+	}
+
+	CactusShield: {
+		DisplayName: "サボテンの盾"
+		Tooltip: ""
+
+	}
+
+	CopperShield: {
+		DisplayName: "銅の盾"
+		Tooltip: ""
+	}
+
+	CrimtaneShield: {
+		DisplayName: "クリムゾンの盾"
+		Tooltip: ""
+	}
+
+	DemoniteShield: {
+		DisplayName: "暗影の盾"
+		Tooltip: ""
+	}
+
+	EbonwoodShield: {
+		DisplayName: "エボンウッドの盾"
+		Tooltip: ""
+	}
+
+	EnchantedShield: {
+		DisplayName: "エンチャントシールド"
+		Tooltip: ""
+	}
+
+	GoldShield: {
+		DisplayName: "金の盾"
+		Tooltip: ""
+	}
+
+	GrassShield: {
+		DisplayName: "グラスシールド"
+		Tooltip: ""
+	}
+
+	HellStoneShield: {
+		DisplayName: "溶岩の盾"
+		Tooltip: ""
+	}
+
+	IronShield: {
+		DisplayName: "鉄の盾"
+		Tooltip: ""
+	}
+
+	LeadShield: {
+		DisplayName: "鉛の盾"
+		Tooltip: ""
+	}
+
+	LunarShield: {
+		DisplayName: "ルナシールド"
+		Tooltip: ""
+	}
+
+	MagicShield: {
+		DisplayName: "マジックシールド"
+		Tooltip: ""
+	}
+
+	MeteoriteShield: {
+		DisplayName: "隕石の盾"
+		Tooltip: ""
+	}
+
+	PalmWoodShield: {
+		DisplayName: "パームウッドの盾"
+		Tooltip: ""
+	}
+
+	PlatinumShield: {
+		DisplayName: "プラチナの盾"
+		Tooltip: ""
+	}
+
+	RichMahoganyShield: {
+		DisplayName: "リッチマホガニーの盾"
+		Tooltip: ""
+	}
+
+	ShadewoodShield: {
+		DisplayName: "シェイドウッドの盾"
+		Tooltip: ""
+	}
+
+	SilverShield: {
+		DisplayName: "銀の盾"
+		Tooltip: ""
+	}
+
+	StarShield: {
+		DisplayName: "スターシールド"
+		Tooltip: ""
+	}
+
+	TinShield: {
+		DisplayName: "錫の盾"
+		Tooltip: ""
+	}
+
+	TungstenShield: {
+		DisplayName: "タングステンの盾"
+		Tooltip: ""
+	}
+
+	WoodShield: {
+		DisplayName: "木の盾"
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ZenithShieldProjectile: {
+		DisplayName: "ゼニスシールド発射体"
+	}
+
+	StarShieldProjectile: {
+		DisplayName: "スターシールド発射体"
+	}
+
+	ShieldOfLifeProjectile: {
+		DisplayName: "シールドオブライフ発射体"
+	}
+
+	SeedShieldProjectile: {
+		DisplayName: "シードシールド発射体"
+	}
+
+	MeowShieldProjectile: {
+		DisplayName: "ミャオシールド発射体"
+	}
+
+	EnchantedShieldProjectile: {
+		DisplayName: "エンチャントシールド発射体"
+	}
+
+	CopperShieldProjectile: {
+		DisplayName: "銅の盾発射体"
+	}
+
+	BeeShieldProjectile: {
+		DisplayName: "ビーシールド発射体"
+	}
+
+	WrathShieldProjectile: {
+		DisplayName: "ラスシールド発射体"
+	}
+
+	DivineHealerSentry: {
+		DisplayName: "ディバインヒーラー"
+	}
+
+	DivineHealer: {
+		DisplayName: "ディバインヒーラー"
+	}
+
+	BrokenHeroShieldFragmentProjectile: {
+		DisplayName: "壊れた英雄の盾の破片発射体"
+	}
+
+	TrueLunarShieldProjectile: {
+		DisplayName: "真・ルナシールド発射体"
+	}
+
+	TrueAegisShieldProjectile: {
+		DisplayName: "真・イージスの盾発射体"
+	}
+
+	TerraShieldProjectile: {
+		DisplayName: "テラシールド発射体"
+	}
+
+	ShadowFlameShieldProjectile: {
+		DisplayName: "シャドウフレイムシールド発射体"
+	}
+
+	HallowedShieldProjectile: {
+		DisplayName: "聖なる盾発射体"
+	}
+
+	ChlorophyteShieldProjectile: {
+		DisplayName: "クロロファイトシールド発射体"
+	}
+
+	BrokenHeroShieldProjectile: {
+		DisplayName: "壊れた英雄の盾発射体"
+	}
+
+	AegisShieldProjectile: {
+		DisplayName: "イージスの盾発射体"
+	}
+
+	InfluxShieldProjectile: {
+		DisplayName: "インフラックスシールド発射体"
+	}
+
+	WoodenShieldProjectile: {
+		DisplayName: "木の盾発射体"
+	}
+
+	SpookyWoodShieldProjectile: {
+		DisplayName: "スプーキーウッドシールド発射体"
+	}
+
+	ShadewoodShieldProjectile: {
+		DisplayName: "シェイドウッドシールド発射体"
+	}
+
+	RichMahoganyShieldProjectile: {
+		DisplayName: "リッチマホガニーシールド発射体"
+	}
+
+	PearlwoodShieldProjectile: {
+		DisplayName: "パールウッドシールド発射体"
+	}
+
+	PalmWoodShieldProjectile: {
+		DisplayName: "パームウッドシールド発射体"
+	}
+
+	EbonwoodShieldProjectile: {
+		DisplayName: "エボンウッドシールド発射体"
+	}
+
+	BorealWoodShieldProjectile: {
+		DisplayName: "ボリアルウッドシールド発射体"
+	}
+
+	MoltenShieldProjectile: {
+		DisplayName: "モルテンシールド発射体"
+	}
+
+	LunarShieldProjectile: {
+		DisplayName: "ルナシールド発射体"
+	}
+
+	GrassShieldProjectile: {
+		DisplayName: "グラスシールド発射体"
+	}
+
+	DemoniteShieldProjectile: {
+		DisplayName: "デモナイトシールド発射体"
+	}
+
+	CrimtaneShieldProjectile: {
+		DisplayName: "クリムタンシールド発射体"
+	}
+
+	NothingProjectile: {
+		DisplayName: "ナッシング発射体"
+	}
+
+	HeartedProjectile: {
+		DisplayName: "ハーテッド発射体"
+	}
+
+	HellStoneShieldProjectile: {
+		DisplayName: "モルテンシールド発射体"
+	}
+
+	LuminiteShieldProjectile: {
+		DisplayName: "ルミナイトシールド発射体"
+	}
+
+	MiniMothronBabyProjectile: {
+		DisplayName: "ミニモスロンベビー発射体"
+	}
+
+	AppleProjectile: {
+		DisplayName: "リンゴ発射体"
+	}
+
+	BananaProjectile: {
+		DisplayName: "バナナ発射体"
+	}
+
+	BlackcurrantProjectile: {
+		DisplayName: "クロスグリ発射体"
+	}
+
+	BloodOrangeProjectile: {
+		DisplayName: "ブラッドオレンジ発射体"
+	}
+
+	CherryProjectile: {
+		DisplayName: "チェリー発射体"
+	}
+
+	DragonFruitProjectile: {
+		DisplayName: "ドラゴンフルーツ発射体"
+	}
+
+	PineappleProjectile: {
+		DisplayName: "パイナップル発射体"
+	}
+}
+
+Configs: {
+	EventsConfig: {
+		Headers: {
+			Events: "イベント"
+		}
+
+		PlayValentinesEvent: {
+			Tooltip: "有効にすると、敵がチョコレートをドロップするチャンスを得る！"
+			Label: "バレンタインイベントを復活"
+		}
+
+		DisplayName: "イベント設定"
+	}
+
+	ShieldClassConfig: {
+		ShieldSickness: {
+			Tooltip: "シールド酔いを無効にする"
+			Label: "シールド酔い"
+		}
+
+		AlwaysManualChargedDash: {
+			Tooltip: "チャージダッシュキーバインドを手動で使用してチャージダッシュする"
+			Label: "常に手動チャージダッシュ"
+		}
+
+		ShieldChargeBarLocked: {
+			Tooltip: "チャージバーの動きをロックする"
+			Label: "シールドチャージバーをロック"
+		}
+
+		Headers: {
+			Class: "クラス"
+			Bar: "バー"
+			Shield-Class: "シールドクラス"
+			Shield-Charge-Bar: "シールドチャージバー"
+		}
+
+		ShieldChargeBarY: {
+			Tooltip: "チャージバーの垂直位置を変更する"
+			Label: "シールドチャージバー Y"
+		}
+
+		ShieldChargeBarFadeTime: {
+			Tooltip: "チャージバーのフェード時間を変更する（秒単位）"
+			Label: "シールドチャージバーフェード時間"
+		}
+
+		ShieldChargeBarX: {
+			Tooltip: "チャージバーの水平位置を変更する"
+			Label: "シールドチャージバー X"
+		}
+
+		ShieldChargeBar: {
+			Tooltip: "チャージバーを無効にする"
+			Label: "シールドチャージバー"
+		}
+
+		ShieldDamageCooldownTime: {
+			Tooltip: "すべてのシールドのヒットごとのクールダウン時間（ティック単位）"
+			Label: "シールドダメージクールダウン時間"
+		}
+
+		NerfShieldClass: {
+			Tooltip: "有効にすると、上下にダッシュする能力を削除する"
+			Label: "シールドクラスをナーフ"
+		}
+
+		DisplayName: "シールドクラス設定"
+	}
+}

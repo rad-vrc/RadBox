@@ -1,0 +1,173 @@
+Items: {
+	PotionFountain: {
+		DisplayName: "{0}の泉"
+		Tooltip: ""
+	}
+}
+
+CommonMapName: ポーションの泉
+
+Configs: {
+	PotionFountainsConfig: {
+		DisplayName: メイン設定
+
+		Headers: {
+			General: 全般
+			Crafting: 製作
+			Other: その他
+		}
+
+		FountainsApplyBuffs: {
+			Label: 泉によるバフ付与
+			Tooltip: ポーションの泉を装飾目的にのみ使用したい場合は無効にする。
+		}
+
+		FountainBrightness: {
+			Label: 泉の明るさ
+			Tooltip: ポーションの泉が放つ光の量。
+		}
+
+		StoneForCrafting: {
+			Label: 石
+			Tooltip: 泉の製作に必要な石ブロックの数。
+		}
+
+		RequireEctoMist: {
+			Label: 墓地バイオームが必要
+			Tooltip: 泉を製作するために、プレイヤーが墓地バイオームにいる必要があるかどうか。
+		}
+
+		PotionsForCrafting: {
+			Label: ポーション
+			Tooltip: 泉の製作に必要なポーションまたはフラスコの数。
+		}
+
+		AfterDeathRedPotionImmunity: {
+			Label: 死亡後のレッドポーションの泉への耐性
+			Tooltip: 死亡後1分間、プレイヤーがレッドポーションの泉の影響を受けなくなるかどうか。
+		}
+
+		RequiredCraftingStation: {
+			Label: 必要な製作ステーション
+			Tooltip: 泉の製作に必要となるクラフティングステーション。
+		}
+
+		CanBeToggledByPlayers: {
+			Label: プレイヤーによる切り替え
+			Tooltip: 無効にすると、泉はワイヤーによってのみ有効化/無効化できる。
+		}
+
+		ShowAreaOfEffect: {
+			Label: 効果範囲の表示
+			Tooltip: 泉の効果範囲を表示する。
+		}
+
+		EffectRangeLeft: {
+			Label: 効果範囲: 左
+			Tooltip: ""
+		}
+
+		EffectRangeRight: {
+			Label: 効果範囲: 右
+			Tooltip: ""
+		}
+
+		EffectRangeUp: {
+			Label: 効果範囲: 上
+			Tooltip: ""
+		}
+
+		EffectRangeDown: {
+			Label: 効果範囲: 下
+			Tooltip: ""
+		}
+
+		BuffEndDelay: {
+			Label: バフ終了遅延
+			Tooltip:
+				'''
+				泉を無効にするか、効果範囲から離れた後、バフが持続する時間。
+				泉のバフが時々一瞬消える場合は、この値を数ティック増やしてみること。
+				'''
+		}
+
+		HideBuffTimer: {
+			Label: バフタイマーを隠す
+			Tooltip: 泉によって付与されたバフのタイマーを非表示にするかどうか。
+		}
+	}
+
+	FountainCraftingStation: {
+		Tooltip: ""
+
+		HeavyWorkbench: {
+			Label: "[i:2172]"
+		}
+
+		MythrilAnvil: {
+			Label: "[i:525][i:1220]"
+		}
+
+		AncientManipulator: {
+			Label: "[i:3549]"
+		}
+
+		Workbench: {
+			Label: "[i:36]"
+		}
+
+		Anvil: {
+			Label: "[i:35][i:716]"
+		}
+
+
+
+		Hellforge: {
+			Label: "[i:221]"
+		}
+
+		CrystalBall: {
+			Label: "[i:487]"
+		}
+
+		AdamantiteForge: {
+			Label: "[i:524][i:1221]"
+		}
+
+
+
+		Autohammer: {
+			Label: "[i:1551]"
+		}
+
+		Uncraftable: {
+			Label: 製作不可
+		}
+	}
+
+	BuffDuration: {
+		Tooltip: ""
+
+		Minutes: {
+			Label: 分
+			Tooltip: ""
+		}
+
+		Seconds: {
+			Label: 秒
+			Tooltip: ""
+		}
+
+		Ticks: {
+			Label: ティック
+			Tooltip: ""
+		}
+	}
+}
+
+Buffs: {
+	WormholeBuff: {
+		DisplayName: ワームホール
+		Description: フルスクリーンマップでパーティメンバーの頭の下にあるアイコンをクリックして、そのメンバーの場所にテレポートする
+	}
+}

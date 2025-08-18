@@ -1,0 +1,2052 @@
+Items: {
+	Fishinrodzenith: {
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			12～27本のフックを同時に使って釣りができる（最高の結果を得るには海でトリュフワームを使え）
+			「そんなに釣りが好きなのか？こんなことまでして…？」
+			'''
+		DisplayName: ロッド・オブ・ゼニス
+	}
+
+	NebulosaBait: {
+		DisplayName: ネビュラの餌
+		Tooltip: 釣りをしているとネビュラの柱の真髄を感じる
+	}
+
+	SolarBait: {
+		DisplayName: 太陽の餌
+		Tooltip: 釣りをしていると太陽の柱の熱を感じる
+	}
+
+	VorticeBait: {
+		DisplayName: ボルテックスの餌
+		Tooltip: 釣りをしているとボルテックスの柱の独特な存在感を感じる
+	}
+
+	StardustBait: {
+		DisplayName: スターダストの餌
+		Tooltip: 釣りをしているとスターダストの柱の宇宙的な雰囲気を感じる
+	}
+
+	SuperCratePotion: {
+		DisplayName: スーパークレートポーション
+		Tooltip: 釣りで箱を入手する確率が30%上昇する
+	}
+
+	LuckyFishingPotion: {
+		DisplayName: ラッキーフィッシングポーション
+		Tooltip: 高レアリティの魚を釣る確率が上昇する
+	}
+
+	FishinRodOfGrass: {
+		DisplayName: 草の釣り竿
+		Tooltip: ハーブの餌を使うと種を釣ることができる
+	}
+
+	FishingRodOfBones: {
+		DisplayName: 骨の釣り竿
+		Tooltip: ダンジョンで釣りをすると骨を釣ることができる
+	}
+
+	MeltedFishingRod: {
+		DisplayName: 溶けた釣竿
+		Tooltip: 溶岩で釣りができる
+	}
+
+	NightFishingRod: {
+		DisplayName: ロッドエッジ
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			時々2本のフックを投げる、変だろ？
+			「ナイトエッジじゃないけど、少なくともこれで釣りはできる…」
+			'''
+	}
+
+	BrokenHeroFishingRod: {
+		DisplayName: 壊れた英雄の釣り竿
+		Tooltip: ""
+	}
+
+	TrueNightsFishingRod: {
+		DisplayName: 真・ロッドエッジ
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			4本の浮きを同時に投げられる、なぜだろう…
+			'''
+	}
+
+	ExcaliburFishingRod: {
+		DisplayName: ロッドエクスカリバー
+		Tooltip: 「真の漁師だけがリヴァイアサンの口からこの竿を取り出せる‥明らかに君じゃない」
+	}
+
+	TrueExcaliburFishingRod: {
+		DisplayName: 真・ロッドエクスカリバー
+		Tooltip: 「伝説の釣り竿‥それは…本物なのか？」
+	}
+
+	TerraFishingRod: {
+		DisplayName: テラロッド
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			5本のフックを同時に投げられる
+			「待って、どうやってこんなことを？」
+			'''
+	}
+
+	FishSonar: {
+		DisplayName: 魚群探知機
+		Tooltip: 装備している間、食いついた魚を見抜く
+	}
+
+	CopperFishingRod: {
+		DisplayName: 銅の釣り竿
+		Tooltip: ""
+	}
+
+	StarfuryFishingRod: {
+		DisplayName: スターフューリーの釣り竿
+		Tooltip: 「フックが大きな星？ ホントに！？」
+	}
+
+	EnchantedFishingRod: {
+		DisplayName: エンチャントロッド
+		Tooltip: ""
+	}
+
+	BeeKeeperFishingRod: {
+		DisplayName: フィッシュ・キーパー
+		Tooltip: 蜂蜜で釣りをすると特別なものを釣ることができる
+	}
+
+	TheHorsemansFishingRod: {
+		DisplayName: カボチャ騎手の釣り竿
+		Tooltip: ""
+	}
+
+	InfluxWaverFishingRod: {
+		DisplayName: インフラックスウェイバーの釣り竿
+		Tooltip: 「これで魚は俺たちがエイリアンだと信じるだろうな！」
+	}
+
+	SeedlerFishingRod: {
+		DisplayName: シードロッド
+		Tooltip: ""
+	}
+
+	StarWrathFishingRod: {
+		DisplayName: スターラースの釣り竿
+		Tooltip: ""
+	}
+
+	MeowmereFishingRod: {
+		DisplayName: ミャウメアーロッド
+		Tooltip: 「フックが猫？」
+	}
+
+	MineralFishingRod: {
+		DisplayName: 鉱石の釣り竿
+		Tooltip:
+			'''
+			特別な鉱石の釣り餌を使って鉱石を釣ることができる
+			鉱石を釣るには地下または洞窟にいる必要がある
+			'''
+	}
+
+	CopperBait: {
+		DisplayName: 銅の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	GoldBait: {
+		DisplayName: 金の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	IronBait: {
+		DisplayName: 鉄の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	LeadBait: {
+		DisplayName: 鉛の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	SilverBait: {
+		DisplayName: 銀の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	TungstenBait: {
+		DisplayName: タングステンの餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	TinBait: {
+		DisplayName: 錫の餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	CrimtaneBait: {
+		DisplayName: クリムタンの餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	DemoniteBait: {
+		DisplayName: デモナイトの餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	PlatinumBait: {
+		DisplayName: プラチナの餌
+		Tooltip: 鉱石の釣り竿と一緒に使うと鉱石を釣ることができる
+	}
+
+	LowQualityCobaltBait: {
+		DisplayName: 低品質なコバルトの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityPalladiumBait: {
+		DisplayName: 低品質なパラジウムの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityMythrilBait: {
+		DisplayName: 低品質なミスリルの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityOrichalcumBait: {
+		DisplayName: 低品質なオリハルコンの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityAdamantiteBait: {
+		DisplayName: 低品質なアダマンタイトの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityTitaniumBait: {
+		DisplayName: 低品質なチタンの餌
+		Tooltip: この餌を使えば少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityCobaltBait: {
+		DisplayName: 中品質なコバルトの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityPalladiumBait: {
+		DisplayName: 中品質なパラジウムの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityMythrilBait: {
+		DisplayName: 中品質なミスリルの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityOrichalcumBait: {
+		DisplayName: 中品質なオリハルコンの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityAdamantiteBait: {
+		DisplayName: 中品質なアダマンタイトの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityTitaniumBait: {
+		DisplayName: 中品質なチタンの餌
+		Tooltip: この餌を使えば中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityAdamantiteBait: {
+		DisplayName: 高品質なアダマンタイトの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityCobaltBait: {
+		DisplayName: 高品質なコバルトの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityMythrilBait: {
+		DisplayName: 高品質なミスリルの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityOrichalcumBait: {
+		DisplayName: 高品質なオリハルコンの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityPalladiumBait: {
+		DisplayName: 高品質なパラジウムの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityTitaniumBait: {
+		DisplayName: 高品質なチタンの餌
+		Tooltip: この餌を使えば大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	HighQualityChlorophyteBait: {
+		DisplayName: 高品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルバイオームで大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityChlorophyteBait: {
+		DisplayName: 低品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルバイオームで少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityChlorophyteBait: {
+		DisplayName: 中品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルバイオームで中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MagneticFishingRod: {
+		Tooltip:
+			'''
+			鉱石の餌を使うとインゴットを釣ることができる特殊な能力を持つ
+			インゴットを釣るには地下または洞窟にいる必要がある
+			'''
+		DisplayName: 磁石の釣り竿
+	}
+
+	FishermanEmblem: {
+		DisplayName: 漁師の紋章
+		Tooltip: フィッシング・パワーを向上させる
+	}
+
+	Rodprisma: {
+		DisplayName: ロッドプリズマ
+		Tooltip:
+			'''
+			8本のフックを同時に投げられる
+			「光の女帝を倒してまでこの竿を手に入れたのか…？」
+			'''
+	}
+
+	SoulofFish: {
+		DisplayName: 魚のソウル
+		Tooltip: ""
+	}
+
+	SoulOfFish: {
+		DisplayName: 魚のソウル
+		Tooltip: 「水生生物のエッセンス」
+	}
+
+	NauticalEmblem: {
+		DisplayName: 航海の紋章
+		Tooltip: フィッシング・パワーが向上し、紋章を装備している間は釣りのポーションと同じバフを得る
+	}
+
+	HighQualityChlorophyteBait: {
+		DisplayName: 高品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルで大量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	LowQualityChlorophyteBait: {
+		DisplayName: 低品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルで少量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	MediumQualityChlorophyteBait: {
+		DisplayName: 中品質なクロロファイトの餌
+		Tooltip: この餌を使えばジャングルで中程度の量の鉱石を釣ることができる（鉱石の釣り竿でのみ）
+	}
+
+	BlinkrootBait: {
+		DisplayName: ブリンクルートの餌
+		Tooltip: 地下または洞窟で釣りをするとブリンクルートの種を釣ることができる
+	}
+
+	DaybloomBait: {
+		DisplayName: デイブルームの餌
+		Tooltip: 昼間に森林で釣りをするとデイブルームの種を釣ることができる
+	}
+
+	DeathweedBait: {
+		DisplayName: デスウィードの餌
+		Tooltip:
+			'''
+			ブラッドムーンの間に汚染されたバイオームで釣りをすると
+			デスウィードの種を釣ることができる
+			'''
+	}
+
+	FireblossomBait: {
+		DisplayName: ファイアブロッサムの餌
+		Tooltip: 地下世界の溶岩で釣りをするとファイアブロッサムの種を釣ることができる
+	}
+
+	MoonglowBait: {
+		DisplayName: ムーングロウの餌
+		Tooltip: 夜のジャングルで釣りをするとムーングロウの種を釣ることができる
+	}
+
+	ShiverthornBait: {
+		DisplayName: シヴァーソーンの餌
+		Tooltip: 雪原で釣りをするとシヴァーソンの種を釣ることができる
+	}
+
+	WaterleafBait: {
+		DisplayName: ウォーターリーフの餌
+		Tooltip: 雨の降る砂漠で釣りをするとウォーターリーフの種を釣ることができる
+	}
+
+	RodOfRegrowth: {
+		DisplayName: 成長の釣り竿
+		Tooltip: ハーブの餌を使うと種ではなくハーブ自体を釣ることができる
+	}
+
+	LuckyFin: {
+		DisplayName: 幸運のヒレ
+		Tooltip: 「奇妙な魚のヒレだ…でも、なんだか幸運が舞い込んできそうな気がする」
+	}
+
+	ExampleLifeFruit: {
+		DisplayName: オーシャンコア
+		Tooltip: 永久にライフを10増加
+	}
+
+	FragmentOfDukeFishron: {
+		DisplayName: デューク・フィッシュロンの残骸
+		Tooltip:
+			'''
+			突然変異した海の魚の残骸
+			「これでどうやって生命力を保っているんだ…？」
+			'''
+	}
+
+	FishinrodzenithOG: {
+		DisplayName: 古代のロッド・オブ・ゼニス
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			12～27本のフックを同時に使って釣りができる（最高の結果を得るには海でトリュフワームを使え）
+			「待って、どうやってこんなことを？」
+			'''
+	}
+
+	crimsonkeymold: {
+		DisplayName: 真紅の鍵型
+		Tooltip: 真紅の鍵を作るのに使用
+	}
+
+	CrimsonKeyMold: {
+		DisplayName: 真紅の鍵型
+		Tooltip: 真紅の鍵真紅の鍵に使用
+	}
+
+	CorruptKeyMold: {
+		DisplayName: 不浄の鍵型
+		Tooltip: 不浄の鍵を作るのに使用
+	}
+
+	FrozenKeyMold: {
+		DisplayName: 氷の鍵型
+		Tooltip: 氷の鍵を作るのに使用
+	}
+
+	HallowedKeyMold: {
+		DisplayName: 聖域の鍵型
+		Tooltip: 聖域の鍵を作るのに使用
+	}
+
+	JungleKeyMold: {
+		DisplayName: ジャングルの鍵型
+		Tooltip: ジャングルの鍵を作るのに使用
+	}
+
+	EclipseFishingCrate: {
+		DisplayName: 日食の木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	HiveFishingCrate: {
+		DisplayName: 蜂の巣の箱
+		Tooltip: <右クリック>で開く
+	}
+
+	ChristmasTreeFishingRod: {
+		DisplayName: クリスマスツリーロッド
+		Tooltip: 崇高だ
+	}
+
+	CandyCaneFishingRod: {
+		DisplayName: キャンディステッキのロッド
+		Tooltip: 「ミントの味がするよ！」
+	}
+
+	GingerbreadCookieFish: {
+		DisplayName: ジンジャーブレッド・クッキーフィッシュ
+		Tooltip: 「効果はいいけど、味は最悪だ」
+	}
+
+	GingerbreadCookieBait: {
+		DisplayName: ジンジャーブレッドクッキーの餌
+		Tooltip: 食べない方がいいよ…
+	}
+
+	LihzahrdCrate: {
+		DisplayName: 寺院の木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	CavernsCrate: {
+		DisplayName: 洞窟の木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	MarbleCrate: {
+		DisplayName: 大理石の箱
+		Tooltip: <右クリック>で開く
+	}
+
+	PumpkinCrate: {
+		DisplayName: カボチャの木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	PresentCrate: {
+		DisplayName: プレゼントの木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	ShroomiteClawFishingPole: {
+		DisplayName: シュルーマイトポールクロー
+		Tooltip:
+			'''
+			<右クリック>で釣り竿として使用
+			「これが釣り竿についた爪だって！？」
+			'''
+	}
+
+	PakoCaña: {
+		DisplayName: パコの釣り竿
+		Tooltip: "[c/FF0000: - ドナーアイテム -]"
+	}
+
+	MoltenHat: {
+		SetBonus:
+			'''
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			近接ダメージが10%増加
+			炎上を防ぐ
+			'''
+		DisplayName: 溶岩の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			近接クリティカル率が7%上昇
+			'''
+	}
+
+	JungleBucketHat: {
+		SetBonus:
+			'''
+			消費マナが16%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: ジャングルのバケツハット
+		Tooltip:
+			'''
+			フィッシング・パワーが8向上する
+			最大マナが40増加
+			魔法クリティカル率が6%上昇
+			'''
+	}
+
+	NecroHat: {
+		SetBonus:
+			'''
+			遠距離クリティカル率が10%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 死者の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが12向上する
+			遠距離ダメージが5%増加
+			'''
+	}
+
+	FossilHat: {
+		SetBonus:
+			'''
+			20%の確率で弾薬を消費しない
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 化石の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			遠距離クリティカル率が4%上昇
+			'''
+	}
+
+	ShadowHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが7向上する
+			クリティカル率が5%上昇
+			'''
+		DisplayName: 暗影の帽子
+		SetBonus:
+			'''
+			移動速度と加速度上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	CrimsonHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが9向上する
+			ダメージが3%増加
+			'''
+		DisplayName: クリムゾンの帽子
+		SetBonus:
+			'''
+			ライフ自然回復が大幅に増進
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	FishKnuckles: {
+		DisplayName: 魚のナックル
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			近接ダメージが7%増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	TacticalPuffeFish: {
+		DisplayName: タクティカルパフィーフィッシュ
+		Tooltip: ""
+	}
+
+	GemHeadband: {
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			魔法ダメージが5%増加
+			最大マナが20増加
+			'''
+		DisplayName: 宝石のヘッドバンド(金)
+		SetBonus:
+			'''
+			最大マナが20増加
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	FlinxFurHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが2向上する
+			召喚ダメージが5%増加
+			'''
+		DisplayName: フリンクスの毛皮の帽子
+		SetBonus:
+			'''
+			鞭の攻撃速度が5%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	GemHeadband2: {
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			魔法ダメージが5%増加
+			最大マナが20増加
+			'''
+		DisplayName: 宝石のヘッドバンド(プラチナ)
+		SetBonus:
+			'''
+			最大マナが20増加
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	TheBeeHat: {
+		SetBonus:
+			'''
+			召喚ダメージが10%増加
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 蜂の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが4向上する
+			召喚ダメージが4%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	ObsidianVisorHat: {
+		SetBonus:
+			'''
+			鞭の攻撃範囲が30%増加、攻撃速度が15%上昇
+			召喚ダメージが15%増加
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 黒曜石のバイザーハット
+		Tooltip:
+			'''
+			召喚ダメージが8%増加
+			フィッシング・パワーが10向上する
+			'''
+	}
+
+	NecklaceFin: {
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			魔法ダメージが5%増加
+			魔法攻撃速度が5%上昇
+			'''
+		DisplayName: ヒレのネックレス
+	}
+
+	RingFish: {
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			召喚できるミニオンの数が1体増える
+			鞭の攻撃速度が5%上昇
+			'''
+		DisplayName: 魚のリング
+	}
+
+	GripGlove: {
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			遠距離ダメージが5%増加
+			遠距離攻撃速度が5%上昇
+			'''
+		DisplayName: グリップグローブ
+	}
+
+	ManaNecklace: {
+		DisplayName: マナのネックレス
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			魔法ダメージが8%増加
+			魔法攻撃速度が8%上昇
+			最大マナが40増加
+			マナ消費量が12%減少
+			マナポーションを自動で使用してくれる
+			'''
+	}
+
+	FishVoodooDoll: {
+		DisplayName: 魚のブードゥー人形
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが10%増加
+			'''
+	}
+
+	SharkFinGrip: {
+		DisplayName: サメのヒレのグリップ
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			遠距離クリティカル率が8%上昇
+			遠距離攻撃速度が8%上昇
+			「弓にも使えるんだ！？」
+			'''
+	}
+
+	SharkTeeth: {
+		DisplayName: サメの歯
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			近接クリティカル率が8%上昇
+			敵の防御力を20無視する
+			'''
+	}
+
+	MagicRuneFish: {
+		DisplayName: マジックルーンフィッシュ
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			遠距離ダメージが8%増加
+			遠距離クリティカル率が9%上昇
+			'''
+	}
+
+	CobaltMagicHat: {
+		SetBonus:
+			'''
+			マナ消費量が14%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: コバルトの魔法の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			最大マナが40増加
+			魔法ダメージが10%増加
+			魔法クリティカル率が9%上昇
+			'''
+	}
+
+	CobaltSummonerHat: {
+		SetBonus: 召喚できるミニオンの数が2体増える
+		DisplayName: コバルトの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			召喚ダメージが10%増加
+			'''
+	}
+
+	CobaltGlasses: {
+		SetBonus:
+			'''
+			20%の確率で弾薬を消費しない
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: コバルトのグラス
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			遠距離ダメージが10%増加
+			遠距離クリティカル率が10%上昇
+			'''
+	}
+
+	CobaltMeleeHat: {
+		SetBonus:
+			'''
+			近接攻撃速度が15%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: コバルトの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			移動速度が10%上昇
+			近接ダメージが15%増加
+			'''
+	}
+
+	test: {
+		SetBonus: Mods.FishinRodZenith.Items.test.SetBonus
+		DisplayName: テスト
+		Tooltip: ""
+	}
+
+	PalladiumBlindfold: {
+		SetBonus:
+			'''
+			敵を攻撃するとライフ自然回復が大幅に増進
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: パラジウムの目隠し
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			遠距離ダメージが9%増加
+			遠距離クリティカル率が9%上昇
+			'''
+	}
+
+	PalladiumMagicHat: {
+		SetBonus:
+			'''
+			敵を攻撃するとライフ自然回復が大幅に増進
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: パラジウムの魔法の帽子
+		Tooltip:
+			'''
+			魔法ダメージとクリティカル率が9%上昇
+			最大マナが60増加
+			フィッシング・パワーが15向上する
+			'''
+	}
+
+	PalladiumSummonerHat: {
+		SetBonus:
+			'''
+			敵を攻撃するとライフ自然回復が大幅に増進
+			召喚できるミニオンの数が1体増える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: パラジウムの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			召喚ダメージが12%増加
+			'''
+	}
+
+	PalladiumWarriorHat: {
+		SetBonus:
+			'''
+			敵を攻撃するとライフ自然回復が大幅に増進
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: パラジウムの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが15向上する
+			近接ダメージが12%増加
+			近接攻撃速度が12%上昇
+			'''
+	}
+
+	MythrilMagicHat: {
+		SetBonus:
+			'''
+			マナ消費量が17%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: ミスリルの魔法の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが20向上する
+			最大マナが60増加
+			魔法ダメージが15%増加
+			'''
+	}
+
+	MythrilMonocle: {
+		SetBonus:
+			'''
+			20%の確率で弾薬を消費しない
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: ミスリルのモノクル
+		Tooltip:
+			'''
+			フィッシング・パワーが20向上する
+			遠距離ダメージが12%増加
+			遠距離クリティカル率が7%上昇
+			'''
+	}
+
+	MythrilSummonerHat: {
+		SetBonus:
+			'''
+			召喚できるミニオンの数が1体増える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: ミスリルの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが20向上する
+			召喚ダメージが14%増加
+			'''
+	}
+
+	MythrilWarriorHat: {
+		SetBonus:
+			'''
+			近接クリティカル率が10%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: ミスリルの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが20向上する
+			近接クリティカル率が8%上昇
+			近接ダメージが10%増加
+			'''
+	}
+
+	OrichalcumMagicHat: {
+		SetBonus:
+			'''
+			ターゲットに花びらが落ちて追加ダメージを与える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: オリハルコンの魔法の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが25向上する
+			魔法クリティカル率が18%上昇
+			最大マナが80増加
+			'''
+	}
+
+	OrichalcumSummonerHat: {
+		SetBonus:
+			'''
+			ターゲットに花びらが落ちて追加ダメージを与える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: オリハルコンの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが25向上する
+			召喚ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	OrichalcumCap: {
+		SetBonus:
+			'''
+			ターゲットに花びらが落ちて追加ダメージを与える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: オリハルコンのキャップ
+		Tooltip:
+			'''
+			フィッシング・パワーが25向上する
+			遠距離クリティカル率が15%上昇
+			移動速度が8%上昇
+			'''
+	}
+
+	OrichalcumWarriorHat: {
+		SetBonus:
+			'''
+			ターゲットに花びらが落ちて追加ダメージを与える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: オリハルコンの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが25向上する
+			近接ダメージと近接攻撃速度が11%上昇
+			移動速度が7%増加
+			'''
+	}
+
+	AdamantiteVisor: {
+		SetBonus:
+			'''
+			25%の確率で弾薬を消費しない
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: アダマンタイトのバイザー
+		Tooltip:
+			'''
+			フィッシング・パワーが30向上する
+			遠距離ダメージが14%増加
+			遠距離クリティカル率が10%上昇
+			'''
+	}
+
+	AdamantiteMagicHat: {
+		SetBonus:
+			'''
+			マナ消費量が19%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: アダマンタイトの魔法の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが30向上する
+			最大マナが80増加
+			魔法ダメージとクリティカル率が12%上昇
+			'''
+	}
+
+	AdamantiteWarriorHat: {
+		SetBonus:
+			'''
+			近接ダメージと移動速度が20%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: アダマンタイトの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが30向上する
+			近接クリティカル率が7%上昇
+			近接ダメージが14%増加
+			'''
+	}
+
+	AdamantiteSummonerHat: {
+		SetBonus:
+			'''
+			召喚できるミニオンの数が1体増える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: アダマンタイトの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが30向上する
+			召喚ダメージが14%増加
+			召喚できるミニオンの数が2体増える
+			'''
+	}
+
+	MeteorHat: {
+		SetBonus:
+			'''
+			スペースガンの消費マナが0になる
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 隕石の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが5向上する
+			魔法ダメージが9%増加
+			'''
+	}
+
+	TitaniumGlasses: {
+		SetBonus:
+			'''
+			攻撃するとチタンの欠片の防護を生成
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: チタンのグラス
+		Tooltip:
+			'''
+			フィッシング・パワーが35向上する
+			遠距離ダメージが16%増加
+			遠距離クリティカル率が7%上昇
+			'''
+	}
+
+	TitaniumSummonerHat: {
+		SetBonus:
+			'''
+			攻撃するとチタンの欠片の防護を生成
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: チタンの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが35向上する
+			召喚ダメージが8%増加
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	TitaniumEarring: {
+		SetBonus:
+			'''
+			攻撃するとチタンの欠片の防護を生成
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: チタンのイヤリング
+		Tooltip:
+			'''
+			フィッシング・パワーが35向上する
+			魔法ダメージが16%増加、魔法クリティカル率が7%上昇
+			最大マナが100増加
+			'''
+	}
+
+	TitaniumWarriorHat: {
+		SetBonus:
+			'''
+			攻撃するとチタンの欠片の防護を生成
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: チタンの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが35向上する
+			近接ダメージとクリティカル率が9%上昇
+			近接攻撃速度が9%増加
+			'''
+	}
+
+	HitModifiersShowcase: {
+		DisplayName: ヒットモディファイアショーケース
+		Tooltip: ""
+	}
+
+	HallowedSummonerHat: {
+		SetBonus:
+			'''
+			召喚できるミニオンの数が2体増える
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 神聖な召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが40向上する
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが10%増加
+			'''
+	}
+
+	HallowedMageHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが40向上する
+			最大マナが100増加
+			魔法ダメージとクリティカル率が12%上昇
+			'''
+		DisplayName: 神聖な魔術師の帽子
+		SetBonus:
+			'''
+			マナ使用量が20%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	HallowedCap: {
+		Tooltip:
+			'''
+			フィッシング・パワーが40向上する
+			近接ダメージとクリティカル率が10%上昇
+			近接攻撃速度が10%上昇
+			'''
+		DisplayName: 神聖な帽子
+		SetBonus:
+			'''
+			近接攻撃速度と移動速度が19%上昇
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	HallowedRangedHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが40向上する
+			遠距離ダメージが15%増加
+			遠距離クリティカル率が8%上昇
+			'''
+		DisplayName: 神聖な狩人の帽子
+		SetBonus:
+			'''
+			25%の確率で弾薬を消費しない
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+	}
+
+	ChlorophyteBandana: {
+		SetBonus:
+			'''
+			強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: クロロファイトのバンダナ
+		Tooltip:
+			'''
+			遠距離ダメージが16%増加
+			20%の確率で弾薬を消費しない
+			フィッシング・パワーが45向上する
+			'''
+	}
+
+	ChlorophyteWarriorHat: {
+		SetBonus:
+			'''
+			強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+			被ダメージを5%軽減する
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: クロロファイトの戦士の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが45向上する
+			近接ダメージが16%増加
+			近接クリティカル率が6%上昇
+			'''
+	}
+
+	ChlorophyteSummonerHat: {
+		SetBonus:
+			'''
+			強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+			近接攻撃に毒の追加効果を付与
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: クロロファイトの召喚帽
+		Tooltip:
+			'''
+			フィッシング・パワーが45向上する
+			召喚ダメージが20%増加
+			鞭の攻撃範囲が20%増加
+			'''
+	}
+
+	ChlorophyteEarring: {
+		SetBonus:
+			'''
+			強力なリーフクリスタルが召喚され、近くにいる敵を攻撃する
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: クロロファイトのイヤリング
+		Tooltip:
+			'''
+			フィッシング・パワーが45向上する
+			最大マナが80増加、マナ消費量が17%減少
+			魔法ダメージが16%増加
+			'''
+	}
+
+	NauticalShield: {
+		DisplayName: 航海の盾
+		Tooltip:
+			'''
+			ノックバックと燃えるブロックのダメージを無効化
+			ほとんどの状態異常に対する耐性
+			フィッシング・パワーが大幅に向上
+			釣りのバフを付与
+			ダメージが15%減少
+			'''
+	}
+
+	LifeFishNecklace: {
+		Tooltip:
+			'''
+			フィッシング・パワーが10向上する
+			ライフ自然回復がわずかに増進
+			最大ライフを35増加
+			移動速度とダメージがわずかに減少
+			'''
+		DisplayName: ライフクリスタルのフィッシュネックレス
+	}
+
+	LifeFruitFishNecklace: {
+		Tooltip:
+			'''
+			フィッシング・パワーが20向上する
+			ライフ自然回復が中程度増進
+			最大ライフを65増加
+			移動速度とダメージが中程度減少
+			'''
+		DisplayName: ライフフルーツのフィッシュネックレス
+	}
+
+	LifeOceanFishNecklace: {
+		Tooltip:
+			'''
+			フィッシング・パワーが35向上する
+			ライフ自然回復が大幅に増進
+			最大ライフを100増加
+			移動速度とダメージが大幅に減少
+			'''
+		DisplayName: ライフオーシャンのフィッシュネックレス
+	}
+
+	TurtleHat: {
+		SetBonus:
+			'''
+			接触ダメージを倍にして反射
+			被ダメージが15%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: 亀甲の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが50向上する
+			近接ダメージが6%増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	BeetleMask: {
+		SetBonus: フィッシング・パワーが上がるほどダメージ軽減と防御力がさらに増加
+		DisplayName: 甲虫の仮面
+		Tooltip:
+			'''
+			フィッシング・パワーが55向上する
+			近接ダメージが6%増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	BeetleHat: {
+		SetBonus: フィッシング・パワーが上がるほどダメージと近接攻撃速度がさらに上昇
+		DisplayName: 甲虫の帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが55向上する
+			近接ダメージが6%増加
+			敵に狙われやすくなる
+			'''
+	}
+
+	SolarFlareHat: {
+		Tooltip:
+			'''
+			フィッシング・パワーが60向上する
+			近接クリティカル率が26%上昇
+			ライフ自然回復をわずかに増進
+			敵に狙われやすくなる
+			'''
+		DisplayName: ソーラーフレアの帽子
+		SetBonus: フィッシング・パワーが上がるほどダメージ軽減と防御力、ダメージと近接攻撃速度がさらに上昇
+	}
+
+	SpectreHat: {
+		SetBonus:
+			'''
+			魔法ダメージが40%減少し、最大マナが40減少
+			魔法攻撃速度が15%増加
+			ライフとマナの自然回復が増進
+			フィッシング・パワーが上がるとオフェンシブな効果に変化し、前の効果はキャンセルされる
+			'''
+		DisplayName: スペクターハット
+		Tooltip:
+			'''
+			フィッシング・パワーが55向上する
+			最大マナが100増加
+			魔法ダメージが6%増加
+			マナ消費量が10%減少
+			'''
+	}
+
+	NebulaDiadem: {
+		SetBonus:
+			'''
+			魔法ダメージが15%増加
+			ライフ自然回復が増進
+			マナ自然回復が増進
+			フィッシング・パワーが上がるほどダメージとライフ自然回復がさらに増加
+			'''
+		DisplayName: ネビュラの王冠
+		Tooltip:
+			'''
+			フィッシング・パワーが60向上する
+			最大マナが60増加、マナ消費量が15%減少
+			魔法ダメージとクリティカル率が7%上昇
+			'''
+	}
+
+	ShroomiteHat: {
+		SetBonus:
+			'''
+			遠距離ダメージが20%増加
+			遠距離クリティカル率が10%上昇
+			敵に狙われにくくなる
+			フィッシング・パワーが上がるほど遠距離ダメージとクリティカル率がさらに上昇
+			'''
+		DisplayName: シュルーマイトの帽子
+		Tooltip:
+			'''
+			フィッシング・パワーが55向上する
+			遠距離ダメージが15%増加
+			遠距離クリティカル率が5%上昇
+			'''
+	}
+
+	VortexVisor: {
+		SetBonus:
+			'''
+			遠距離ダメージが27%増加
+			遠距離クリティカル率が15%上昇
+			敵に狙われにくくなる
+			フィッシング・パワーが上がるほど遠距離ダメージとクリティカル率がさらに上昇
+			'''
+		DisplayName: ボルテックスのバイザー
+		Tooltip:
+			'''
+			フィッシング・パワーが60向上する
+			遠距離ダメージが16%増加
+			遠距離クリティカル率が7%上昇
+			「9000オーバーのダメージを見よ！！」
+			'''
+	}
+
+	StardustEarring: {
+		SetBonus:
+			'''
+			移動速度が25%増加
+			防御力が大幅に増加
+			ダメージが25%減少
+			フィッシング・パワーが上がるほどステータス上昇量が増加
+			'''
+		DisplayName: スターダストのイヤリング
+		Tooltip:
+			'''
+			フィッシング・パワーが60向上する
+			召喚できるミニオンの数が1体増える
+			召喚できるセントリーの数が1体増える
+			召喚ダメージが22%増加
+			'''
+	}
+
+	leftovers: {
+		DisplayName: 残り物
+		Tooltip: なんでこんなものを売ってるんだ？…とは言ったものの、これで何か面白いことができそうな気もする
+	}
+
+	DecentLeftovers: {
+		DisplayName: まあまあな残り物
+		Tooltip: 見た目も匂いもそんなに悪くない…
+	}
+
+	GoodLeftovers: {
+		DisplayName: 良い残り物
+		Tooltip: 見た目が良くて、ちょっと美味しそう
+	}
+
+	MoonFish: {
+		DisplayName: ムーンフィッシュ
+		Tooltip:
+			'''
+			夜間にフィッシング・パワー、移動速度が大幅に上昇
+			ダメージ軽減、ミニオンの最大召喚数、ブロックの設置範囲、防御貫通力がわずかに増加
+			'''
+	}
+
+	SunFish: {
+		DisplayName: サンフィッシュ
+		Tooltip:
+			'''
+			昼間にフィッシング・パワー、移動速度が大幅に上昇
+			ダメージ軽減、ミニオンの最大召喚数、ブロックの設置範囲、防御貫通力がわずかに増加
+			'''
+	}
+
+	CelestialFish: {
+		DisplayName: セレスタルフィッシュ
+		Tooltip:
+			'''
+			フィッシング・パワー、移動速度が大幅に上昇
+			ダメージ軽減、ミニオンの最大召喚数、ブロック範囲、アーマー貫通力がわずかに増加
+			特別なイベントでその真の力を引き出す必要がある
+			'''
+	}
+
+	FishingQuestCount: {
+		DisplayName: 釣りクエストカウンター
+		Tooltip: キャラクターが完了した釣りクエストの数を表示
+	}
+
+	Concentration_Potion: {
+		DisplayName: 集中のポーション
+		Tooltip: 遠距離と魔法攻撃速度が8%上昇
+	}
+
+	ShinyGills: {
+		DisplayName: シャイニーギル
+		Tooltip: ""
+	}
+
+	DigitalReel: {
+		DisplayName: デジタルリール
+		Tooltip:
+			'''
+			フィッシング・パワーの量を表示
+			「バッテリーを忘れるなよ！！！」
+			'''
+	}
+
+	EuphoriaPotion: {
+		DisplayName: 陶酔のポーション
+		Tooltip: 近接攻撃と鞭の攻撃速度が8%上昇
+	}
+
+	BloodFish: {
+		DisplayName: ブラッドフィッシュ
+		Tooltip: ""
+	}
+
+	ScourgePotion: {
+		DisplayName: 鞭のポーション
+		Tooltip: 鞭の射程が20%上昇
+	}
+
+	ElasticFish: {
+		DisplayName: エラスティックフィッシュ
+		Tooltip: ""
+	}
+
+	EnlargementPotion: {
+		DisplayName: 拡大のポーション
+		Tooltip: 近接武器のサイズが20%増加させる
+	}
+
+	AnnoyingFish: {
+		DisplayName: アノーイングフィッシュ
+		Tooltip: 「いつも人生にイライラしてる…まるで自分を見てるみたいだ」
+	}
+
+	SuperFishingPotion: {
+		DisplayName: スーパーフィッシングポーション
+		Tooltip: フィッシング・パワーが45向上する
+	}
+
+	FishingChip: {
+		DisplayName: フィッシングチップ
+		Tooltip:
+			'''
+			釣りクエストとキャラクターのフィッシング・パワーを表示
+			「月々たったの59.99ドルで！！！」
+			'''
+	}
+
+	SombreroVaquero: {
+		DisplayName: カウボーイハット
+		Tooltip: "[c/FF0000: - ドナーアイテム -]"
+		SetBonus: Mods.FishinRodZenith.Items.SombreroVaquero.SetBonus
+	}
+
+	BotasVaqueras: {
+		DisplayName: カウボーイブーツ
+		Tooltip: "[c/FF0000: - ドナーアイテム -]"
+	}
+
+	CamisaVaquera: {
+		DisplayName: カウボーイシャツ
+		Tooltip: "[c/FF0000: - ドナーアイテム -]"
+	}
+
+	Logro1Relic: {
+		DisplayName: ロッド・オブ・ゼニスのレリック
+		Tooltip:
+			'''
+			初めてロッド・オブ・ゼニスを作った
+			「やあ；）」
+			'''
+	}
+
+	Logro2Relic: {
+		DisplayName: アノーイングフィッシュのレリック
+		Tooltip:
+			'''
+			釣りクエストを500回完了した
+			「漁師に休息はない」
+			'''
+	}
+
+	Logro3Relic: {
+		DisplayName: 釣りによる死のレリック
+		Tooltip:
+			'''
+			釣りクエストを1000回完了した
+			「釣りクエストを1000回やるほどの自由時間があるの？」
+			'''
+	}
+
+	Logro4Relic: {
+		DisplayName: 釣りは本気だ‥のレリック
+		Tooltip:
+			'''
+			フィッシング・パワーが500以上になる
+			「俺は釣り人ではない、俺は漁師だ！！」
+			'''
+	}
+
+	MultipleStringFrame: {
+		DisplayName: マルチプルストリングフレーム
+		Tooltip:
+			'''
+			釣り竿に浮きを2つ追加
+			「1本じゃダメなら、もっと浮きを使え！」
+			'''
+	}
+
+	AdditionalPieceOfString: {
+		DisplayName: 追加の釣り糸
+		Tooltip: 釣り竿に浮きを1つ追加
+	}
+
+	AdvancedLineGuide: {
+		DisplayName: 追加のラインガイド
+		Tooltip: 釣り竿に浮きを4つ追加
+	}
+
+	FishingMasterEquipment: {
+		DisplayName: フィッシングマスターギア
+		Tooltip:
+			'''
+			釣り糸を切られなくなる
+			エサを消費しにくくなる
+			フィッシング・パワーが35向上する
+			溶岩で釣りができる
+			浮きを4つ追加
+			「ちょっと待て、ここネジが足りてないぞ！！！」
+			'''
+	}
+
+	RemainsOfTheLegendaryBait: {
+		DisplayName: 伝説の餌の残骸
+		Tooltip:
+			'''
+			永久にフィッシング・パワーが大幅に向上する
+			「これどうやってここに来たんだ？」
+			'''
+	}
+
+	FishingStepStool: {
+		DisplayName: 釣りの踏み台
+		Tooltip: 「鍵はできるだけ遠くまで届けることだ」
+	}
+
+	CloudOfTempest: {
+		DisplayName: 嵐の雲
+		Tooltip:
+			'''
+			嵐を呼ぶ
+			「なんてひどい嵐だ、呪いまであるなんて。やっぱり釣りに行った方がいいな！」
+			'''
+	}
+
+	MartianCrate: {
+		DisplayName: 火星の箱
+		Tooltip: <右クリック>で開く
+	}
+
+	BloodMoonCrate: {
+		DisplayName: ブラッドムーンの木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	GlowMushroomCrate: {
+		DisplayName: 光るキノコの木箱
+		Tooltip: <右クリック>で開く
+	}
+
+	DigitalRodGrip: {
+		DisplayName: デジタルロッドグリップ
+		Tooltip:
+			'''
+			フィッシング・パワーに基づいて採掘速度が上昇
+			「釣り竿にはつけられないのに、なんでつるはしにはつけられるんだ！？」
+			'''
+	}
+
+	StarterBag: {
+		DisplayName: フィッシングスターターバッグ
+		Tooltip: <右クリック>で開く
+	}
+}
+
+Projectiles: {
+	bobber: {
+		DisplayName: 浮き
+	}
+
+	Fishinrodzenith: {
+		DisplayName: ロッド・オブ・ゼニス
+	}
+
+	ExampleBobber: {
+		DisplayName: サンプル浮き
+	}
+
+	BobberGrass: {
+		DisplayName: 草の浮き
+	}
+
+	BoneBobber: {
+		DisplayName: 骨の浮き
+	}
+
+	TridentBobber: {
+		DisplayName: トライデントの浮き
+	}
+
+	NightBobber: {
+		DisplayName: ナイトの浮き
+	}
+
+	TrueNightsBobber: {
+		DisplayName: トゥルーナイトの浮き
+	}
+
+	HollyBobber: {
+		DisplayName: 神聖な浮き
+	}
+
+	TrueHollyBobber: {
+		DisplayName: 真・神聖な浮き
+	}
+
+	TerraBobber: {
+		DisplayName: テラ浮き
+	}
+
+	CopperBobber: {
+		DisplayName: 銅の浮き
+	}
+
+	StarBobber: {
+		DisplayName: スターの浮き
+	}
+
+	EnchantedBobber: {
+		DisplayName: エンチャンテッドの浮き
+	}
+
+	BeeBobber: {
+		DisplayName: 蜂の浮き
+	}
+
+	FlamingJackBobber: {
+		DisplayName: フレイミングジャックの浮き
+	}
+
+	InfluxWaverBobber: {
+		DisplayName: インフラックスウェーバーの浮き
+	}
+
+	SeedlerBobber: {
+		DisplayName: シードラーの浮き
+	}
+
+	StarWrathBobber: {
+		DisplayName: スター・ラースの浮き
+	}
+
+	MeowmereBobber: {
+		DisplayName: ミャウメアーの浮き
+	}
+
+	ZenithBobber: {
+		DisplayName: ロッド・オブ・ゼニスの浮き
+	}
+
+	MinerBobber: {
+		DisplayName: 採掘の浮き
+	}
+
+	MagneticBobber: {
+		DisplayName: 磁石の浮き
+	}
+
+	PrismaBobber: {
+		DisplayName: プリズマの浮き
+	}
+
+	RegrowthBobber: {
+		DisplayName: 成長の浮き
+	}
+
+	ZenithBobberv2: {
+		DisplayName: 古代のロッド・オブ・ゼニスの浮き
+	}
+
+	ChristmasTreeBobber: {
+		DisplayName: クリスマスツリーの浮き
+	}
+
+	CandyBobber: {
+		DisplayName: キャンディの浮き
+	}
+
+	ShroomiteBobber: {
+		DisplayName: シュルーマイトの浮き
+	}
+
+	FierroBobber: {
+		DisplayName: フィエロの浮き
+	}
+
+	FishingStepStoolBobber: {
+		DisplayName: 釣りの踏み台の浮き
+	}
+}
+
+Buffs: {
+	ExampleCrateBuff: {
+		DisplayName: スーパークレート
+		Description: 釣りで箱を入手する確率が30%上昇
+	}
+
+	FishingPowerBuff: {
+		Description: 高レアリティの魚を釣る確率が上昇
+		DisplayName: ラッキーフィッシング
+	}
+
+	CelestialPowerBuff: {
+		DisplayName: 宇宙のフィッシング・パワー
+		Description: 偉大なる天の力を抱き、すべての魚を釣れ！
+	}
+
+	ConcentrationBuff: {
+		DisplayName: 集中
+		Description: 遠距離と魔法攻撃速度が8%上昇
+	}
+
+	EuphoriaBuff: {
+		DisplayName: 陶酔
+		Description: 近接攻撃と鞭の攻撃速度が8%上昇
+	}
+
+	ScourgeBuff: {
+		DisplayName: 鞭
+		Description: 鞭の射程が20%上昇
+	}
+
+	EnlargementBuff: {
+		DisplayName: 拡大
+		Description: 近接武器のサイズが20%大きくなる
+	}
+
+	SuperFishingBuff: {
+		DisplayName: スーパーフィッシング
+		Description: フィッシング・パワーを大幅に上昇
+	}
+
+	LegendaryFishermanDebuff: {
+		DisplayName: 伝説の漁師の呪い
+		Description: 伝説の漁師に呪われている…
+	}
+}
+
+Tiles: {
+	EclipseFishingCrateTile: {
+		MapEntry: 日食の木箱のタイル
+	}
+
+	HiveFishingCrateTile: {
+		MapEntry: 蜂の巣の箱
+	}
+
+	LihzahrdCrateTile: {
+		MapEntry: 寺院の木箱
+	}
+
+	CavernsCrateTile: {
+		MapEntry: 洞窟の木箱
+	}
+
+	MarbleCrateTile: {
+		MapEntry: 大理石の木箱
+	}
+
+	PumpkinCrateTile: {
+		MapEntry: カボチャの木箱
+	}
+
+	PresentCrateTile: {
+		MapEntry: プレゼントの木箱
+	}
+
+	MartianCrateTile: {
+		MapEntry: 火星の木箱
+	}
+
+	BloodMoonCrateTile: {
+		MapEntry: ブラッドムーンの木箱
+	}
+
+	GlowMushroomCrateTile: {
+		MapEntry: 光るキノコの木箱
+	}
+}
+
+Prefixes: {
+	PowerTooltip: ""
+
+	PrefixPescaLv1: {
+		AdditionalTooltip: フィッシング・パワーが1向上する
+		DisplayName: イワシの
+	}
+
+	PrefixPescaLv2: {
+		AdditionalTooltip: フィッシング・パワーが2向上する
+		DisplayName: 未熟な漁師の
+	}
+
+	PrefixPescaLv3: {
+		AdditionalTooltip: フィッシング・パワーが3向上する
+		DisplayName: マスの
+	}
+
+	PrefixPescaLv4: {
+		AdditionalTooltip: フィッシング・パワーが4向上する
+		DisplayName: サメの
+	}
+
+	PrefixPescaLv5: {
+		AdditionalTooltip: フィッシング・パワーが5向上する
+		DisplayName: 釣り名人の
+	}
+}
+
+InfoDisplays: {
+	FishingSkillInfoDisplay: {
+		DisplayName: 釣り装備情報
+		FishingSkillInfoDisplayName: 装備フィッシング・パワー
+		NonFishingSkill: 装備フィッシング・パワー
+	}
+
+	QuestInfoDisplay: {
+		DisplayName: 釣りクエスト
+		InfoDisplayName: 完了済みクエスト
+		NonQuest: クエスト
+	}
+}
+
+Common: {
+	Players: {
+		AchievementUnlocked: 実績解除：釣りなくしては生きられない
+		AchievementUnlocked2: 実績解除：釣りによる死
+		AchievementUnlocked3: 実績解除：釣りは本気でやるものだ‥
+		CraftingAchievementUnlocked: 実績解除：ロッド・オブ・ゼニス
+		WorldMessage: 伝説の漁師：君は釣るべき以上の魚を釣っているな
+		WorldMessage2: 伝説の漁師：だが、伝説の漁師にはまだ会ったことがない
+		WorldMessage3: 伝説の漁師：君の釣りは終わった、小さき漁師よ
+		WorldMessage4: 伝説の漁師：死ぬ時だ
+		EventStart: 風が激しく囁き、水滴が激しく落ちる、これはただの雨じゃない…
+		EventEnd: 風が吹き止み、雲が散り始める
+	}
+
+	LegendaryFishermanDropDescription: マスターモードの世界かつ「LegendaryFisherman」シードの時にドロップ
+}
+
+Configs: {
+	ModConfigSettings: {
+		DisplayName: MOD設定
+
+		EnableReforges: {
+			Label: リフォージを有効
+			Tooltip: オフにすると、このMODの新しいリフォージが適用されなくなる
+		}
+	}
+
+	MyModClientConfig: {
+		DisplayName: MODクライアント設定
+
+		enableReforges: {
+			Label: リフォージを有効（クライアント）
+			Tooltip:
+				'''
+				オフにすると、このMODのリフォージが表示されなくなる
+				*注：既に適用されているリフォージはアクセサリーに残る*
+				'''
+		}
+
+		enableStarterBag: {
+			Label: スターターバッグを有効（クライアント）
+			Tooltip: オフにすると、新ワールドのキャラクターにフィッシングスターターバッグがドロップしなくなる
+		}
+	}
+
+	MyModConfig: {
+		DisplayName: MODサーバー設定
+
+		enableReforges: {
+			Label: リフォージを有効（サーバー）
+			Tooltip:
+				'''
+				オフにすると、このMODのリフォージが表示されなくなる
+				*注：既に適用されているリフォージはアクセサリーに残る*（これらの変更はサーバーホストにのみ適用される）
+				'''
+		}
+
+		enableStarterBag: {
+			Label: スターターバッグを有効（サーバー）
+			Tooltip: オフにすると、新ワールドのキャラクターにフィッシングスターターバッグがドロップしなくなる（これらの変更はサーバーホストにのみ適用される）
+		}
+	}
+}

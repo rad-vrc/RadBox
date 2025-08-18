@@ -1,0 +1,229 @@
+Items: {
+	SolarCultistHead: {
+		Tooltip: ""
+		DisplayName: Solar Cultist's Head
+	}
+
+	AlchemistHead: {
+		DisplayName: Alchemist's Head
+		Tooltip: ""
+	}
+
+	ClickerBag: {
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Clicker equipment
+			'''
+		DisplayName: Clicker Bag
+	}
+
+	KiBag: {
+		DisplayName: Ki Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Saiyan equipment
+			'''
+	}
+
+	ThrowerBag: {
+		DisplayName: Thrower Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Thrower equipment
+			'''
+	}
+
+	SummonerBag: {
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Summoner equipment
+			'''
+		DisplayName: Summoner Bag
+	}
+
+	UnopenedClassBag: {
+		Tooltip:
+			'''
+			Can be crafted into Starter Class Bags 
+			DO NOT DELETE THIS ITEM
+			'''
+		DisplayName: Unopened Class Bag
+	}
+
+	BardBag: {
+		DisplayName: Bard Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Bard equipment
+			'''
+	}
+
+	ClericBag: {
+		DisplayName: Cleric Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Cleric equipment
+			'''
+	}
+
+	MageBag: {
+		DisplayName: Mage Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Mage equipment
+			'''
+	}
+
+	MeleeBag: {
+		DisplayName: Melee Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Warrior equipment
+			'''
+	}
+
+	RangedBag: {
+		DisplayName: Ranged Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Archer equipment
+			'''
+	}
+
+	RogueBag: {
+		DisplayName: Rogue Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter Rogue equipment
+			'''
+	}
+
+	MagicStorageStarterBag: {
+		DisplayName: Magic Storage Starter Bag
+		Tooltip:
+			'''
+			Right Click to open
+			Contains starter storage units
+			'''
+	}
+}
+
+NPCs: {
+	SolarCultist: {
+		TownNPCMood: {
+			Princess_LovesNPC: "[i/s1:3458]"
+			LikeNPC_Princess: "[i/s1:3458]"
+			HateCrowded: "[i/s1:3458]"
+			DislikeCrowded: "[i/s1:3458]"
+			LoveSpace: "[i/s1:3458]"
+			FarFromHome: "[i/s1:3458]"
+			NoHome: "[i/s1:3458]"
+			Content: "[i/s1:3458]"
+			DislikeNPC: "[i/s1:3458]"
+			LikeNPC: "[i/s1:3458]"
+			LoveNPC: "[i/s1:3458]"
+			HateBiome: "[i/s1:3458]"
+			LikeBiome: "[i/s1:3458]"
+			LoveBiome: "[i/s1:3458]"
+		}
+
+		DisplayName: Solar Cultist
+	}
+
+	Alchemist: {
+		DisplayName: Alchemist
+
+		TownNPCMood: {
+			HateBiome: My potions freeze before I can finish them, I hate it here.
+			LoveNPC: The Merchant always brings the rarest herbs.
+			LikeNPC: The Angler's catches are great for my mixtures.
+			DislikeNPC: The Wizard always messes with my experiments.
+			Content: Everything is good.
+			NoHome: I need a house to cook!
+			FarFromHome: Where is my lab?
+			LoveSpace: I need all this space for my equipment, perfect.
+			DislikeCrowded: Too many people make it hard to focus on my work.
+			HateCrowded: Too many people ruin the concentration for my potions.
+			LikeNPC_Princess: The Princess is always so curious. I like having her around.
+			Princess_LovesNPC: The Alchemist always has something fascinating to show me. I love learning from them!
+			LoveBiome: I love the forest, so many fresh herbs to discover.
+		}
+	}
+}
+
+Configs: {
+	ModConfig: {
+		SleepTimeScale: {
+			Tooltip: "[i/s1:224] Vanilla speed is 1"
+			Label: "[i/s1:224] Player Sleep Time Scale"
+		}
+
+		PickaxeBuffs: {
+			Tooltip: "[i/s1:1294] Vanilla speed is 1"
+			Label: "[i/s1:1294] Player Tool Speed Scale"
+		}
+
+		EnableSolarCultistNPC: {
+			Label: "[i:QOLMod/SolarCultistHead] Can Solar Cultist NPC spawn"
+			Tooltip: "[i:QOLMod/SolarCultistHead] Allows the Solar Cultist NPC to move in if enabled"
+		}
+
+		PlayerRespawnBoss: {
+			Tooltip: "[i/s1:3601] Vanilla respawn is 1"
+			Label: "[i/s1:3601] Player Boss Respawn Time Scale"
+		}
+
+		PlayerRespawn: {
+			Tooltip: "[i/s1:1175] Vanilla respawn is 1"
+			Label: "[i/s1:1175] Player Respawn Time Scale"
+		}
+
+		EnableRecipes: {
+			Tooltip: "[i/s1:1326] Enables the recipes added by this mod"
+			Label: "[i/s1:1326] Enable Mod Recipes"
+		}
+
+		EnableClassBag: {
+			Label: "[i:QOLMod/UnopenedClassBag] Enable Class Starter Bag"
+			Tooltip: "[i:QOLMod/UnopenedClassBag] Gives a Class Starter Bag on newly created characters"
+		}
+
+		EnableMagicStorageStarterBag: {
+			Label: "[i:QOLMod/MagicStorageStarterBag] Enable Magic Storage Starter Bag"
+			Tooltip: "[i:QOLMod/MagicStorageStarterBag] Gives a Magic Storage Starter Bag on newly created characters"
+		}
+
+		EnableEndlessBuffStations: {
+			Label: "[i/s1:2999] Unlimited Buff Stations"
+			Tooltip: "[i/s1:2999] Enables all buff stations to be active while in inventory or piggy bank [i/s1:87]"
+		}
+
+		DisplayName: Config
+
+		EnableAlchemistNPC: {
+			Label: "[i:QOLMod/AlchemistHead] Can Alchemist NPC spawn"
+			Tooltip: "[i:QOLMod/AlchemistHead] Allows the Alchemist NPC to move in if enabled"
+		}
+
+		EnableEndlessBuffs: {
+			Label: "[i/s1:290] Unlimited Buffs at a configurable stack"
+			Tooltip: "[i/s1:290] Enables the option to get unlimited buffs at a customizable stack while in inventory, piggy bank [i/s1:87], safe [i/s1:346], or defender's forge [i/s1:3813]"
+		}
+
+		EndlessBuffsThreshold: {
+			Label: "[i/s1:2349] Unlimited Buffs stack requirement"
+			Tooltip: "[i/s1:2349] The number of buffs required to get unlimited while in inventory, piggy bank [i/s1:87], safe [i/s1:346], or defender's forge [i/s1:3813]"
+		}
+	}
+}
+

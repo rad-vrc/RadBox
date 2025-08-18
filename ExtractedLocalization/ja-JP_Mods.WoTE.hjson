@@ -1,0 +1,127 @@
+NPCs: {
+	EmpressOfLight: {
+		DisplayName: Empress of Light
+	}
+
+	Lacewing: {
+		DisplayName: Lacewing
+	}
+}
+
+Projectiles: {
+	PrismaticBolt: {
+		DisplayName: Prismatic Bolt
+	}
+
+	LightLance: {
+		DisplayName: Light Lance
+	}
+
+	AcceleratingLightLance: {
+		DisplayName: Light Lance
+	}
+
+	AcceleratingRainbow: {
+		DisplayName: Rainbow
+	}
+
+	SpinningTerraprisma: {
+		DisplayName: Terraprisma
+	}
+
+	DazzlingPetal: {
+		DisplayName: Dazzling Petal
+	}
+
+	StarBolt: {
+		DisplayName: Star Bolt
+	}
+
+	PrismaticBurst: {
+		DisplayName: Prismatic Burst
+	}
+
+	DazzlingTornado: {
+		DisplayName: Dazzling Tornado
+	}
+
+	EmpressOrbitingTerraprisma: {
+		DisplayName: Terraprisma
+	}
+
+	ConvergingMoonlight: {
+		DisplayName: Converging Moonlight
+	}
+
+	DazzlingDeathray: {
+		DisplayName: Dazzling Deathray
+	}
+
+	MagicCircle: {
+		DisplayName: Magic Circle
+	}
+
+	HomingLacewing: {
+		DisplayName: Lacewing
+	}
+
+	LanceWallTelegraph: {
+		DisplayName: Lance Wall Telegraph
+	}
+
+	RainbowRiftArrow: {
+		DisplayName: Rainbow Rift Arrow
+	}
+
+	SilverReleaseLanternProj: {
+		DisplayName: Silver Release Lantern
+	}
+
+	GlowingAurora: {
+		DisplayName: Glowing Aurora
+	}
+}
+
+Configs: {
+	WoTEConfig: {
+		DisplayName: Client-side Config
+
+		PhotosensitivityMode: {
+			Label: Photosensitivity Mode
+			Tooltip: Whether certain noticeably fast or visually intense effects should be toned done for photosensitivity reasons
+		}
+	}
+}
+
+Buffs: {
+	GracedWings: {
+		DisplayName: Graced Wings
+		Description: The Empress is letting you dance with her
+	}
+}
+
+Items: {
+	SilverReleaseLantern: {
+		DisplayName: Silver Release Lantern
+		Tooltip: Engages the Empress of Light in combat
+	}
+}
+
+Dialogue: {
+	BaseIntroduction: Blessed one... Let us dance beneath the silver moonglow this night.
+	DayIntroduction: Blessed one... Let us dance beneath the glorious sun.
+	BloodMoonIntroduction: Blessed one... This night is scarlet. Still, we shall dance.
+	EclipseIntroduction: Blessed one... This day is a harmony of sun and moon. Beneath it, we shall dance.
+	AngryIntroduction: THOU GRACELESS KNAVE!
+}
+
+MenuThemes: {
+	GloriousDawnMainMenu: {
+		DisplayName: Glorious Dawn
+	}
+
+	GlimmerdewBlessedMoonlightMainMenu: {
+		DisplayName: Glimmerdew-Blessed Moonlight
+	}
+}
+

@@ -1,0 +1,2096 @@
+Configs: {
+	TweaksConfig: {
+		safeNinja: {
+			Tooltip:
+				'''
+				Caused the Slimed Ninja (Not the normal Ninja NPC) to take 25% damage from common and spiked slimes
+				Helps prevent the Ninja from being killed by the slimes dropped by King Slime's death
+				'''
+			Label: Slimed Ninja Safety
+		}
+
+		flasksAffectThrowingWeapons: {
+			Tooltip:
+				'''
+				Allows vanilla flasks to apply their effects to weapons with Throwing damage
+				Also adjusts item tooltips (But not buff tooltips) to match the change
+				Has no effect on any modded flasks
+				'''
+			Label: Flasks Affect Throwing Weapons
+		}
+
+		moveThrowingKnives: {
+			Tooltip:
+				'''
+				Removes Throwing Knives from the Merchant NPC's shop to accomidate the Ninja NPC selling them
+				Note that the Ninja will sell Throwing Knives any night, not just on Blood Moons like the Merchant
+				'''
+			Label: Remove Throwing Knives from Merchant
+		}
+
+		moveShurikens: {
+			Tooltip: Removes Shurikens from the Merchant NPC's shop to accomidate the Ninja NPC selling them
+			Label: Remove Shurikens from Merchant
+		}
+
+		moveNinjaArmor: {
+			Tooltip:
+				'''
+				Removes Ninja Armor from King Slime's loot pool, but allows the Ninja NPC to sell it
+				Also slightly adjusts the sell price of the armor pieces, to 15 silver each
+				For reference, the hood normally sells for 20 silver, and the shirt and pants 10 silver
+				'''
+			Label: Move Ninja Armor to Ninja NPC
+		}
+
+		visiblyFreeNinja: {
+			Tooltip:
+				'''
+				Tweaks King Slime's drawing to remove the ninja trapped inside of him, once the Ninja NPC is initally freed
+				Has no effect in worlds where the Ninja NPC has not been unlocked
+				Note that this may have strange (visual) effects if other mods also modify how King Slime is drawn
+				'''
+			Label: Visibly Free Ninja
+		}
+
+		DisplayName: Other Vanilla Tweaks
+	}
+
+	ConversionConfig: {
+		globalConversion: {
+			Tooltip:
+				'''
+				Automatically converts all consumable ranged weapons (both vanilla and modded) to throwing class
+				This won't convert any items that also count as ammo, like vanilla Snowballs
+				May have balancing implications since no stat adjustments are made to accomidate the type change
+				This setting will override many of the independent conversion settings below
+				'''
+			Label: Convert ALL Consumable Ranged Weapons
+		}
+
+		daggerfishConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:3197] Revert Frost Daggerfish"
+		}
+
+		javelinConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:3094] Revert Javelin"
+		}
+
+		rottenEggConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:1809] Revert Rotten Egg"
+		}
+
+		snowballConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:949] Revert Snowball"
+		}
+
+		spikyBallConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:161] Revert Spiky Ball"
+		}
+
+		boneConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:154] Revert Bone"
+		}
+
+		molotovConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:2590] Revert Molotov Cocktail"
+		}
+
+		aleThrowerConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:3821] Revert Ale Tosser"
+		}
+
+		boneKnifeConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:3379] Revert Bone Throwing Knife"
+		}
+
+		boneJavConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:3378] Revert Bone Javelin"
+		}
+
+		starAniseConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:1913] Revert Star Anise"
+		}
+
+		shurikenConv: {
+			Tooltip: Change this weapon's damage class to thrower
+			Label: "[i:42] Revert Shuriken"
+		}
+
+		grenadeConv: {
+			Tooltip:
+				'''
+				Changes the damage class of all vanilla grenades to thrower
+				This impacts Grenades (Including sticky/bouncy), Beenades, and Happy Grenades
+				Other explosives (Bombs, dynamite, etc.) are unaffected and remain class-less
+				'''
+			Label: "[i:168] Revert Grenades"
+		}
+
+		thorwingKnifeConv: {
+			Tooltip: Changes the damage class of Throwing Knives and Poisoned Knives to thrower
+			Label: "[i:279] Revert Thorwing Knives"
+		}
+
+		airplaneConv: {
+			Tooltip: Changes the damage class of both vanilla paper airplanes to thrower
+			Label: "[i:4343] Convert Paper Airplanes"
+		}
+
+		thrownWaterConv: {
+			Tooltip:
+				'''
+				Gives all vanilla thrown water the thrower damage class
+				This impacts Holy, Unholy, and Blood Water
+				Note that these weapons normally don't have a damage class
+				'''
+			Label: "[i:422] Convert Thrown Water"
+		}
+
+		magicDaggerConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				Additionally removes mana cost, but lowers damage accordingly
+				'''
+			Label: "[i:517] Rework Magic Dagger"
+		}
+
+		flaskConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				Additionally removes mana cost, but lowers damage accordingly
+				'''
+			Label: "[i:3105] Rework Toxic Flask"
+		}
+
+		flyingKnifeConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				'''
+			Label: "[i:3030] Convert Flying Knife"
+		}
+
+		shadowflameKnifeConv: {
+			Tooltip:
+				'''
+				Change this weapon's damage class to thrower
+				Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				This weapon's damage stat will also be adjusted to be more in line with other thrower weapons
+				'''
+			Label: "[i:3054] Convert Shadowflame Knife"
+		}
+
+		biomeWepConv: {
+			Tooltip:
+				'''
+				Changes the damage class of either the Scourge of the Corruptor OR the Vampire Knives to thrower
+				When converted to Thrower, the Scourge of the Corruptor's damage stat will also be adjusted to be more in line with other thrower weapons
+				Only one weapon can be changed at a time, so that each class has a respective biome chest weapon
+				If this config is turned on, the Scourge of the Corruptor and Vampire Knives can be shimmered between
+				Note that due to their original damage type, both weapons will only be able to receive generic (I.e. non-class specific) prefixes when converted
+				'''
+			Label: "[i:1571] Biome Weapon Rework"
+		}
+
+		ninjaArmorConv: {
+			Tooltip:
+				'''
+				Changes this armor set's stats/bonuses to be thrower-oriented
+				Defense values are unchanged
+				New stats are NOT identical to pre-1.4 Ninja Armor
+				'''
+			Label: "[i:256] Revert Ninja Armor"
+		}
+
+		shinboiArmorConv: {
+			Tooltip:
+				'''
+				Changes this armor set's stats/bonuses to be thrower-oriented
+				Summon damage boosts are kept, but melee speed (Which benefits whips) isn't
+				Set bonus and defense values are unchanged
+				'''
+			Label: "[i:3880] Rework Shinobi Infiltrator Armor"
+		}
+
+		assassinArmorConv: {
+			Tooltip:
+				'''
+				Changes this armor set's stats/bonuses to be thrower-oriented
+				Also increases the set's defense a little
+				Set bonus's dash is unchanged
+				'''
+			Label: "[i:4982] Rework Crystal Assassin Armor"
+		}
+
+		DisplayName: Vanilla Conversions
+	}
+}
+
+Projectiles: {
+	BloodyHarpoonProj: {
+		DisplayName: Bloody Harpoon
+	}
+
+	WebTrapProj: {
+		DisplayName: Web Trap
+	}
+
+	FossilShardProj: {
+		DisplayName: Fossil Shard
+	}
+
+	CyberCutterProj: {
+		DisplayName: Cyber Cutter
+	}
+
+	SmartStrikerProj: {
+		DisplayName: Smart Striker
+	}
+
+	ThrowingSpearProj: {
+		DisplayName: Throwing Spear
+	}
+
+	CryonadeProj: {
+		DisplayName: Cryonade
+	}
+
+	GildedShurikenProj: {
+		DisplayName: Gilded Shuriken
+	}
+
+	SlingStoneProj: {
+		DisplayName: Stone
+	}
+
+	EnchantedDaggerProj: {
+		DisplayName: Enchanted Knife
+	}
+
+	ChlorophyteJavelinCloud: {
+		DisplayName: Spore Cloud
+	}
+
+	WiseMysticTomeWaterspout: {
+		DisplayName: Waterspout
+	}
+
+	WiseMysticTomeSplitshot: {
+		DisplayName: Prismatic Orb
+	}
+
+	SplitshotPellet: {
+		DisplayName: Prismatic Orb
+	}
+
+	WiseMysticTomeLightning: {
+		DisplayName: Lightning
+	}
+
+	WiseMysticTomeProj: {
+		DisplayName: Wise Mystic Tome
+	}
+
+	SpikyBombProj: {
+		DisplayName: Spiky Bomb
+	}
+
+	HungeringSpearProj: {
+		DisplayName: Hungering Spear
+	}
+
+	HungeringSpearHeal: {
+		DisplayName: Hungering Spear Heal
+	}
+
+	JadeStarProj: {
+		DisplayName: Jade Star
+	}
+
+	JadeStarMini: {
+		DisplayName: Jade Star
+	}
+
+	SuperSpikyBallProj: {
+		DisplayName: Super Spiky Ball
+	}
+
+	CopyrightInfringementProj: {
+		DisplayName: Kohga Rocket
+	}
+
+	JarOfDirtProj: {
+		DisplayName: Jar Of Dirt
+	}
+
+	LunaticLanceVortex: {
+		DisplayName: Vortex Lance
+	}
+
+	LunaticLanceVoid: {
+		DisplayName: Void Lance
+	}
+
+	LunaticLanceStardust: {
+		DisplayName: Stardust Lance
+	}
+
+	LunaticLanceSolar: {
+		DisplayName: Solar Lance
+	}
+
+	LunaticLanceNebula: {
+		DisplayName: Nebula Lance
+	}
+
+	LunaticLanceHead: {
+		DisplayName: Stardust Lance
+	}
+
+	LunaticLanceFireball: {
+		DisplayName: Solar Fireball
+	}
+
+	LunaticLanceClone: {
+		DisplayName: Nebula Lance
+	}
+
+	LunaticLanceBlast: {
+		DisplayName: Solar Explosion
+	}
+
+	MoonRuneEye: {
+		DisplayName: Phantasmal Eye
+	}
+
+	MoonRuneProj: {
+		DisplayName: Moon Rune
+	}
+
+	MoonRuneSphere: {
+		DisplayName: Phantasmal Sphere
+	}
+
+	LuminiteBitProj: {
+		DisplayName: Luminite Bit
+	}
+
+	LuminiteBitShard: {
+		DisplayName: Luminite Bit
+	}
+
+	DarkStarVortex: {
+		DisplayName: Spacial Anomaly
+	}
+
+	DarkStarProj: {
+		DisplayName: Dark Star
+	}
+
+	DarkStarMini: {
+		DisplayName: Dark Star
+	}
+
+	OblivionPiercerProj: {
+		DisplayName: Oblivion Piercer
+	}
+
+	ShockMineProj: {
+		DisplayName: Shock Mine
+	}
+
+	HypercutterProj: {
+		DisplayName: Hypercutter
+	}
+
+	PlasmaGrenadeProj: {
+		DisplayName: Plasma Grenade
+	}
+
+	EnchantedEtherianJavelinProj: {
+		DisplayName: Enchanted Etherian Javelin
+	}
+
+	FallenFuryProj: {
+		DisplayName: Fury of the Fallen
+	}
+
+	FracturedSpikeShard: {
+		DisplayName: Fractured Spike
+	}
+
+	FracturedSpikeProj: {
+		DisplayName: Fractured Spike
+	}
+
+	DisruptionLanceProj: {
+		DisplayName: Disruption Lance
+	}
+
+	FlockoMittProj: {
+		DisplayName: Flocko Cutter
+	}
+
+	FrostFangShard: {
+		DisplayName: Frost Shard
+	}
+
+	FrostFangProj: {
+		DisplayName: Frost Fang
+	}
+
+	BlastBaubleProj: {
+		DisplayName: Blast Bauble
+	}
+
+	BlastBaubleShard: {
+		DisplayName: Bauble Shard
+	}
+
+	SporenadeProj: {
+		DisplayName: Sporenade
+	}
+
+	SporenadeSpore: {
+		DisplayName: Spore
+	}
+
+	EternityStar: {
+		DisplayName: Everlasting Rainbow
+	}
+
+	EternityProj: {
+		DisplayName: Eternity Star
+	}
+
+	FishronFangProj: {
+		DisplayName: Fang of the Fishron
+	}
+
+	MourningMolotovProj: {
+		DisplayName: Mourning Molotov
+	}
+
+	MourningMolotovFire: {
+		DisplayName: Greek Fire
+	}
+
+	UmbraBiteProj: {
+		DisplayName: Umbra's Bite
+	}
+
+	ChlorophyteDaggerProj: {
+		DisplayName: Chlorophyte Dagger
+	}
+
+	ChlorophyteJavelinProj: {
+		DisplayName: Chlorophyte Javelin
+	}
+
+	EclipseCutterProj: {
+		DisplayName: Eclipse Cutter
+	}
+
+	ShadowboundTalismanProj: {
+		DisplayName: Shadowbound Talisman
+	}
+
+	SeekerLanceProj: {
+		DisplayName: Seeker Lance
+	}
+
+	EnergyCoreProj: {
+		DisplayName: Energy Core
+	}
+
+	SawbladeCleaverProj: {
+		DisplayName: Sawblade Cleaver
+	}
+
+	SawbladeCleaverSpark: {
+		DisplayName: energy Spark
+	}
+
+	BlastCapFungi: {
+		DisplayName: Fungi Spore
+	}
+
+	BlastCapProj: {
+		DisplayName: Blast Cap
+	}
+
+	ReinforcedEtherianJavelinProj: {
+		DisplayName: Reinforced Etherian Javelin
+	}
+
+	DivineStarProj: {
+		DisplayName: Divine Star
+	}
+
+	SlimeslayerGlob: {
+		DisplayName: Gel Glob
+	}
+
+	SlimeslayerSpike: {
+		DisplayName: Crystal Spike
+	}
+
+	ShinobiTagProj: {
+		DisplayName: Shinobi Tag
+	}
+
+	AssassinNeedleProj: {
+		DisplayName: Assassin Needle
+	}
+
+	EquilibriumProjW: {
+		DisplayName: Light Javelin
+	}
+
+	EquilibriumProjB: {
+		DisplayName: Dark Javelin
+	}
+
+	JotunHatchetProj: {
+		DisplayName: Jotun Hatchet
+	}
+
+	SandShurikenProj: {
+		DisplayName: Shuriken of the Sands
+	}
+
+	SandShurikenSand: {
+		DisplayName: Dust Cloud
+	}
+
+	GlaiveProj: {
+		DisplayName: Glaive
+	}
+
+	GoldenJarProj: {
+		DisplayName: Golden Jar
+	}
+
+	GoldenJarIchor: {
+		DisplayName: Golden Shower
+	}
+
+	CursedMolotovProj: {
+		DisplayName: Cursed Molotov
+	}
+
+	CursedMolotovFire: {
+		DisplayName: Cursed Fire
+	}
+
+	BlastCrystalShard: {
+		DisplayName: Crystal Shard
+	}
+
+	BlastCrystalProj: {
+		DisplayName: Blast Crystal
+	}
+
+	KunaiProj: {
+		DisplayName: Kunai
+	}
+
+	ShadowspikeBallProj: {
+		DisplayName: Shadowspike Ball
+	}
+
+	ChargedSkyMineProj: {
+		DisplayName: Charged Sky Mine
+	}
+
+	CaltropProj: {
+		DisplayName: Caltrop
+	}
+
+	StingerStarStinger: {
+		DisplayName: Stinger
+	}
+
+	StingerStarProj: {
+		DisplayName: Stinger Star
+	}
+
+	FireyPitchforkProj: {
+		DisplayName: Firey Pitchfork
+	}
+
+	StunBombProj: {
+		DisplayName: Stun Bomb
+	}
+
+	JungleBombProj: {
+		DisplayName: Jungle Bomb
+	}
+
+	JungleBombGas: {
+		DisplayName: Spore Cloud
+	}
+
+	NeedlebladeProj: {
+		DisplayName: Needleblade
+	}
+
+	BrittleShivShrapnel: {
+		DisplayName: Brittle Shrapnel
+	}
+
+	BrittleShivProj: {
+		DisplayName: Brittle Shiv
+	}
+
+	StickySpikyBallProj: {
+		DisplayName: Sticky Spiky Ball
+	}
+
+	BouncySpikyBallProj: {
+		DisplayName: Bouncy Spiky Ball
+	}
+
+	PyrosparkerProj: {
+		DisplayName: Fireball
+	}
+
+	EtherianJavelinProj: {
+		DisplayName: Etherian Javelin
+	}
+
+	SkyMineProj: {
+		DisplayName: Sky Mine
+	}
+
+	FlyingSunProj: {
+		DisplayName: Flying Sun
+	}
+
+	BrimstoneProj: {
+		DisplayName: Brimstone
+	}
+
+	AirBurstProj: {
+		DisplayName: Air Burst
+	}
+
+	DarkSpikeProj: {
+		DisplayName: Dark Spike
+	}
+
+	RosethornSpike: {
+		DisplayName: Rose Thorn
+	}
+
+	RosethornProj: {
+		DisplayName: Rosethorn
+	}
+
+	GoreGougerProj: {
+		DisplayName: Gore Gouger
+	}
+
+	ThrowingStarProj: {
+		DisplayName: Throwing Star
+	}
+
+	ShadeStarProj: {
+		DisplayName: Shade Star
+	}
+
+	VoidArmorProj: {
+		DisplayName: Spacial Anomaly
+	}
+
+	AkumaArmorProj: {
+		DisplayName: Akuma Bomb
+	}
+
+	FeatherArmorProj: {
+		DisplayName: Feather
+	}
+}
+
+Emotes: {
+	NinjaEmote: {
+		Command: ninja
+	}
+}
+
+Buffs: {
+	BloodyHarpoonDebuff: {
+		Description: The enemy is hooked by a sanguine harpoon
+		DisplayName: Bloodiest Catch
+	}
+
+	StickyWeb: {
+		Description: Enemy movement crippled
+		DisplayName: Sticky Web
+	}
+
+	CryoChill: {
+		Description: Enemy movement slowed
+		DisplayName: Chilled
+	}
+
+	Dirty: {
+		Description: You take extra damage. Because you're dirty.
+		DisplayName: Dirty
+	}
+
+	LunaticLanceDebuff: {
+		Description: The enemy is impaled by a Void-empowered javelin
+		DisplayName: Void Impale
+	}
+
+	DisruptionLanceDebuff: {
+		Description: The enemy's vital functions are being disrupted
+		DisplayName: Disrupted
+	}
+
+	FrostFangDebuff: {
+		Description: The enemy is impaled by an icy dagger
+		DisplayName: Icicle Impale
+	}
+
+	EquilibriumDebuff: {
+		Description: A dark javelin drains this enemy's life
+		DisplayName: Dark Impale
+	}
+
+	JotunHatchetDebuff: {
+		Description: The enemy's defense is lowered by a rending hatchet
+		DisplayName: Frost Giant's Rend
+	}
+
+	FireyPitchforkDebuff: {
+		Description: The enemy is impaled by a burning pitchfork
+		DisplayName: Firey Impale
+	}
+
+	GoreGougerDebuff: {
+		Description: The enemy is bleeding out
+		DisplayName: Gore Gouge
+	}
+
+	RosethornDebuff: {
+		Description: The enemy is impaled by thorns
+		DisplayName: Rose Thorns
+	}
+
+	DeadlyPrecision: {
+		Description: Increased throwing critical strike chance, velocity, and knockback
+		DisplayName: Deadly Precision
+	}
+
+	Dexterity: {
+		Description: May conserve thrown items and increased throwing speed and velocity
+		DisplayName: Dexterity
+	}
+
+	Stealth: {
+		Description: Less likely to be targetted and increased throwing critical strike chance
+		DisplayName: Stealth
+	}
+
+	BionicBuff: {
+		Description: Electrolytes rejuvenate you and empower your throwing attacks
+		DisplayName: Bionic Stimulation
+	}
+
+	DarkKnightCooldown: {
+		Description: Dark Knight teleportation is on cooldown
+		DisplayName: Dark Shift
+	}
+
+	DarkKnightBuff: {
+		Description: Throwing weapons are empowered
+		DisplayName: Dark Ambush
+	}
+}
+
+NPCs: {
+	SlimedNinja: {
+		TownNPCMood: {
+			Princess_LovesNPC: ""
+			LikeNPC_Princess: ""
+			HateCrowded: ""
+			Content: ""
+			NoHome: ""
+			FarFromHome: ""
+			LoveSpace: ""
+			DislikeCrowded: ""
+		}
+
+		DisplayName: Slimed Ninja
+	}
+
+	Ninja: {
+		Census: {
+			SpawnCondition: Defeat King Slime and rescue the Slimed Ninja
+		}
+
+		BestiaryEntry: An enigmatic shinobi rescued from King Slime. He prefers to not talk about that incident, but will happily supply handy throwing gear and techniques.
+
+		TownNPCMood: {
+			Princess_LovesNPC: It's really fun when {NPCName} shows me his cool ninja tricks!
+			LikeNPC_Princess: "{NPCName} is quite interested in the ways of the ninja. Her enthusiasm to learn is both entertaining and heartfelt."
+			HateNPC: "{NPCName} truly tests my patience with his incessant attempts to sell shurikens. Doesn't he understand those are my wares?"
+			DislikeNPC: "{NPCName} could use a lesson in subtlety..."
+			LikeNPC: I find {NPCName}'s wisdom to be a very respectable trait.
+			LoveNPC: Ah, so {NPCName} is of the Order? Us shinobi have some deep ties to the Order of the Guide; any member is a good friend in my book.
+			HateBiome: The {BiomeName}'s cursed envrionment is hazardous to both body and mind. I'd rather not take my chances here.
+			DislikeBiome: Hmm, the {BiomeName} reminds me of that one time we tried being ninja pirates... It did not end well, to say the least.
+			LikeBiome: The terrain and foliage of the {BiomeName} offers many opportunities for concealing oneself. The pristine scenery doesn't hurt, either.
+			HateCrowded: With this many people around it's hardly safe for me to practice my throwing...
+			DislikeCrowded: It's rather hard to meditate with all the noise made by neighbors...
+			LoveSpace: I quite appreciate the tranquility of this space.
+			Content: I am at peace.
+			NoHome: I'd be very grateful for a place to stay...
+			FarFromHome: It seems I've strayed far from my residence...
+		}
+
+		ChatDialogue: {
+			Dryad: Many tales tell of the Dryads and their heroic deeds. It's quite the honor to have {0} walk among us.
+			Demo: I was considering trying out grenades, but {0} is insistent they be his specialty...
+			Tavernkeep: I would never have thought ale to be a viable throwing weapon, but {0} has shown me otherwise! The more you know, I suppose.
+			Goblin: I wonder if {0} would mind me taking those spiky balls off his hands...
+			PostQS: There was a second royal slime, you say? Well, I'm glad both have been felled now. Excellent work.
+			PostPlant: You may want to keep an eye out for shinobi in the Dungeon. It is said a group of my ancestors were among the victims of the curse.
+			SlimeRain: Wake up, Terrarian; we have slimes to burn.
+			Graveyard: This fog may be unsettling, but it can also hide you from sight.
+			WindyDay: Be wary of strong headwinds today; your attacks might just be returned to the sender!
+			Party: We ninjas prefer to live in the shadows and the silence, but it is also good to occasionally unwind with some noise and merriment.
+			Storm: Be careful what you're throwing out there, wouldn't want to suddenly become a lightning rod now would we?
+			Rain: Ah, the sound of rain is soothing. Better yet, it can hide the sound of your footsteps.
+			BloodMoon: Unless you're daring enough to use this as an opportunity for target practice, I would not suggest visiting the outdoors tonight...
+			Night: The dark of night is optimal for the work of a ninja. Learn to utilize the shadows, not to fear them.
+			Armor: I see you've taken to the armor of the ninja! Hopefully nobody confuses you for me...
+			Rare2: Did you know some people think ranged and throwing weapons are the same? It's abusrd.
+			Rare1: Ugh, there is STILL some slime saturating these garbs...
+			Rare0: Why does everyone keep asking if I sell ramen? Why in the world would I sell ramen?
+			Normal2: Know that I ensure quality performance from my blades. Those dusty pots are small time.
+			Normal1: While you were way back in the mines, I've been studying the blade.
+			Normal0: Ah, welcome {0}. Allow me to repay your heroism by offering you my wares.
+			Rescue: Ah, free at last. Oh, slimes, now dawns your reckoning. Terrarian, you have my graditude for my freedom.
+		}
+
+		Names: {
+			19: Obi
+			18: Cronin
+			17: Occam
+			16: Minos
+			15: Jinx
+			14: Orion
+			13: Kohga
+			12: Altair
+			11: Dale
+			10: Rodrigues
+			9: Kai
+			8: Chan
+			7: Shifu
+			6: Lee
+			5: Travis
+			4: Samuel
+			3: Sam
+			2: Raiden
+			1: Gaiden
+			0: Machigai
+		}
+
+		DisplayName: Ninja
+	}
+}
+
+Items: {
+	BloodyHarpoon: {
+		Tooltip:
+			'''
+			Imaples enemies, chaining them to you and preventing escape
+			'You're gonna need a bigger boat'
+			'''
+		DisplayName: Bloody Harpoon
+	}
+
+	WebTrap: {
+		Tooltip:
+			'''
+			Sticks to tiles and causes a small, sticky blast when touched
+			Briefly cripples the movement of most enemies
+			'''
+		DisplayName: Web Trap
+	}
+
+	FossilShard: {
+		Tooltip: Throws up to two sharp, lingering pieces of fossil
+		DisplayName: Fossil Shard
+	}
+
+	CyberCutter: {
+		Tooltip: Bounces off tiles and ignores gravity
+		DisplayName: Cyber Cutter
+	}
+
+	SmartStriker: {
+		Tooltip: Curves towards the cursor before being affected by gravity
+		DisplayName: Smart Striker
+	}
+
+	ThrowingSpear: {
+		Tooltip: ""
+		DisplayName: Throwing Spear
+	}
+
+	Cryonade: {
+		Tooltip:
+			'''
+			Can briefly inflict most enemies with a slowing chill
+			'Chill out!'
+			'''
+		DisplayName: Cryonade
+	}
+
+	GildedShuriken: {
+		Tooltip: "'Though ceremonial, its blades are still quite sharp'"
+		DisplayName: Gilded Shuriken
+	}
+
+	EnchantedDagger: {
+		Tooltip:
+			'''
+			Throw an endless supply of knives
+			'Not to be confused with the Magic Dagger'
+			'''
+		DisplayName: Enchanted Knife
+	}
+
+	SlingStone: {
+		Tooltip:
+			'''
+			Pelt enemies with short-ranged rocks
+			'Cruel and unusual punishment'
+			'''
+		DisplayName: Sling Stone
+	}
+
+	WiseMysticTome: {
+		Tooltip:
+			'''
+			Throw a magical tome that unleashes volatile, elemental attacks on impact
+			'The spells inside are incomprehensible, so you might as well just throw it at your enemies'
+			'''
+		DisplayName: Wise Mystic Tome
+	}
+
+	SpikyBomb: {
+		Tooltip:
+			'''
+			Throw up to ten bombs that stick to tiles and automatically explode once an enemy draws near
+			<right> to manually detonate all of your bombs for extra damage
+			Bombs deal reduced damage if they explode before sticking to a surface
+			'...AND KABLEW-Y!'
+			'''
+		DisplayName: Spiky Bomb
+	}
+
+	HungeringSpear: {
+		Tooltip: Steals life on hit
+		DisplayName: Hungering Spear
+	}
+
+	SuperSpikyBall: {
+		Tooltip:
+			'''
+			Extremely bouncy
+			'Is it super or is it super spiky?'
+			'''
+		DisplayName: Super Spiky Ball
+	}
+
+	JadeStar: {
+		Tooltip:
+			'''
+			Throws a large spread of shurikens
+			'Only to be weilded by a chosen few'
+			'''
+		DisplayName: Jade Star
+	}
+
+	CopyrightInfringementMissile: {
+		Tooltip:
+			'''
+			Throws a large missile that accelerates and explodes
+			The explosion deals extra damage
+			'Only one man is capable of evoking a full sized Missile'
+			'''
+		DisplayName: Kohga Rocket
+	}
+
+	JarOfDirt: {
+		Tooltip:
+			'''
+			Gets targets dirty, causing them to take more damage
+			'I've got a jar of dirt! I've got a jar of dirt!'
+			'''
+		DisplayName: Jar Of Dirt
+	}
+
+	LunaticLance: {
+		Tooltip:
+			'''
+			Throws javelins infused with either Solar, Vortex, Nebula, Stardust, or Void power
+			Javelins behave differently based on what lunar power the are infused with
+			'''
+		DisplayName: Lunatic's Lance
+	}
+
+	MoonRune: {
+		Tooltip:
+			'''
+			Throws homing motes of runic, phantasmal energy which stick to enemies and explode
+			Sticking multiple runes to an enemy in a row delays and syncs the explosion
+			Damage and blast radius increases and extra effects may occur based on how many runes simultaneously detonate
+			'The moon runes! The moon runes are real!'
+			'''
+		DisplayName: Moon Rune
+	}
+
+	LuminiteBit: {
+		Tooltip:
+			'''
+			Throws floating chunks of luminite that may release smaller bits on hit
+			Bits will launch themselves towards the cursor
+			Ignores a large amount of enemy defense
+			'''
+		DisplayName: Luminite Bit
+	}
+
+	DarkStar: {
+		Tooltip:
+			'''
+			Creates smaller stars and a spacial anomaly on impact, shredding enemies
+			Gains damage as it flies
+			'It is not benevolent'
+			'''
+		DisplayName: Dark Star
+	}
+
+	OblivionPiercer: {
+		Tooltip:
+			'''
+			Unleashes a torrent of daggers that pierce enemies and walls
+			'The Void's gaze is not a soft one...'
+			'''
+		DisplayName: Oblivion Piercer
+	}
+
+	ShockMine: {
+		Tooltip:
+			'''
+			Throws floating mines which link to other, nearby mines with electric beams
+			Enemies take damage when passing through electric beams
+			'''
+		DisplayName: Shock Mine
+	}
+
+	Hypercutter: {
+		Tooltip:
+			'''
+			Throws short ranged daggers which become chaining energy bolts upon detecting an enemy
+			'Say the line, Yondu'
+			'''
+		DisplayName: Hypercutter
+	}
+
+	PlasmaGrenade: {
+		Tooltip:
+			'''
+			Sticks to surfaces and enemies, then explodes
+			Deals extra damage when stuck on an enemy
+			'Wort wort wort'
+			'''
+		DisplayName: Plasma Grenade
+	}
+
+	EnchantedEtherianJavelin: {
+		Tooltip: "'It's hard to tell the difference until you use it on something'"
+		DisplayName: Enchanted Etherian Javelin
+	}
+
+	FallenFury: {
+		Tooltip: Throws powerful daggers which quickly drop off in power
+		DisplayName: Fury of the Fallen
+	}
+
+	FracturedSpike: {
+		Tooltip: Throws a set of spikes that break into further shrapnel
+		DisplayName: Fractured Spike
+	}
+
+	DisruptionLance: {
+		Tooltip:
+			'''
+			Fires javelin heads that stick to enemies
+			Enemies with a javelin head in them take damage over time and may become confused
+			'''
+		DisplayName: Disruption Lance
+	}
+
+	FlockoMitt: {
+		Tooltip:
+			'''
+			Throws friendly flockos that curve towards nearby enemies
+			'Let it snow'
+			'''
+		DisplayName: Flocko Mitt
+	}
+
+	FrostFang: {
+		Tooltip:
+			'''
+			Impales struck enemies and afflicts them with frostbite
+			Breaks into ice shards, potentially dealing extra damage
+			'Sticks to more than just tounges...'
+			'''
+		DisplayName: Frost Fang
+	}
+
+	BlastBauble: {
+		Tooltip:
+			'''
+			Shatters into many damaging shards
+			'Excellent for DIY home defense'
+			'''
+		DisplayName: Blast Bauble
+	}
+
+	Sporenade: {
+		Tooltip:
+			'''
+			Bursts into drifting spores that seek out enemies below them
+			'Not to be confused with Bud Bombs...'
+			'''
+		DisplayName: Sporenade
+	}
+
+	Eternity: {
+		Tooltip: Releases a localized Everlasting Rainbow upon expiring
+		DisplayName: Eternity
+	}
+
+	FishronFang: {
+		Tooltip: May perform a series of dashes towards a nearby target
+		DisplayName: Fang of the Fishron
+	}
+
+	MourningMolotov: {
+		Tooltip:
+			'''
+			A small explosion that ignites enemies with hellfire
+			Lights nearby area with greek flames for a while
+			'''
+		DisplayName: Mourning Molotov
+	}
+
+	UmbraBite: {
+		Tooltip: Throws a set of spikes that deal extra damage based on how slow they are moving
+		DisplayName: Umbra's Bite
+	}
+
+	ChlorophyteDagger: {
+		Tooltip: Very bouncy
+		DisplayName: Chlorophyte Dagger
+	}
+
+	ChlorophyteJavelin: {
+		Tooltip: Leaves a trail of spore clouds as it flies
+		DisplayName: Chlorophyte Javelin
+	}
+
+	EclipseCutter: {
+		Tooltip: ""
+		DisplayName: Eclipse Cutter
+	}
+
+	ShadowboundTalisman: {
+		Tooltip:
+			'''
+			Throws homing talismans which stick to enemies and explode
+			Sticking multiple talismans to an enemy in a row delays and syncs the explosion
+			Extra damage is inflicted based on how many talismans simultaneously detonate
+			'You are already dead'
+			'''
+		DisplayName: Shadowbound Talisman
+	}
+
+	SeekerLance: {
+		Tooltip:
+			'''
+			Fires javelin heads that gain sharp homing
+			'No escape'
+			'''
+		DisplayName: Seeker Lance
+	}
+
+	EnergyCore: {
+		Tooltip: Emits a small aura of energy that damages enemies
+		DisplayName: Energy Core
+	}
+
+	SawbladeCleaver: {
+		Tooltip:
+			'''
+			Ignores 15 points of defense
+			Unleashes energy sparks when it breaks
+			'Like throwing minature chainsaws!'
+			'''
+		DisplayName: Sawblade Cleaver
+	}
+
+	BlastCap: {
+		Tooltip:
+			'''
+			Bursts into lingering spores
+			'The forbidden cookie'
+			'''
+		DisplayName: Blast Cap
+	}
+
+	ReinforcedEtherianJavelin: {
+		Tooltip: "'A little extra metal goes a long way apparently'"
+		DisplayName: Reinforced Etherian Javelin
+	}
+
+	DivineStar: {
+		Tooltip:
+			'''
+			Increases in power as it hits enemies, causing a small blast on the final hit
+			Ignores walls and terrain
+			'''
+		DisplayName: Divine Star
+	}
+
+	Slimeslayer: {
+		Tooltip: Unleashes large spreads of crystal shards and bouncy gel
+		DisplayName: Slimeslayer
+	}
+
+	ShinobiTag: {
+		Tooltip:
+			'''
+			Throws tags which stick to enemies and explodes
+			Sticking multiple tags to an enemy in a row delays and syncs the explosion
+			Extra damage is inflicted based on how many tags simultaneously detonate
+			'''
+		DisplayName: Shinobi Tag
+	}
+
+	AssassinNeedle: {
+		Tooltip: Ignores 15 points of defense
+		DisplayName: Assassin's Needle
+	}
+
+	Equilibrium: {
+		Tooltip:
+			'''
+			Alternates between throwing black and white halves of the javelin
+			Black javelins impale enemies
+			White javelins pierce enemies
+			'''
+		DisplayName: Equilibrium
+	}
+
+	JotunHatchet: {
+		Tooltip: Embeds itself in struck enemies, temporarily lowering defense
+		DisplayName: Jotun Hatchet
+	}
+
+	SandShuriken: {
+		Tooltip: Releases clouds of sand upon impacting walls
+		DisplayName: Shuriken of the Sands
+	}
+
+	Glaive: {
+		Tooltip: "'Not to be confused with polearms'"
+		DisplayName: Glaive
+	}
+
+	GoldenJar: {
+		Tooltip:
+			'''
+			A small explosion that spreads ichor and coats enemies in it
+			'Is this...? Mon Dieu!'
+			'''
+		DisplayName: Golden Jar
+	}
+
+	CursedMolotov: {
+		Tooltip:
+			'''
+			A small explosion that ignites enemies with cursed flames
+			Lights nearby area with cursed flames for a while
+			'''
+		DisplayName: Cursed Molotov
+	}
+
+	BlastCrystal: {
+		Tooltip:
+			'''
+			Unleashes a dazzling blast that scatters damaging shards and may confuse enemies
+			Shards partially ignore enemy defense
+			'''
+		DisplayName: Blast Crystal
+	}
+
+	Kunai: {
+		Tooltip: "'With chain?'"
+		DisplayName: Kunai
+	}
+
+	Caltrop: {
+		Tooltip: ""
+		DisplayName: Caltrop
+	}
+
+	ChargedSkyMine: {
+		Tooltip:
+			'''
+			Hovers midair and explodes upon expiring
+			Explosions deal double damage
+			'''
+		DisplayName: Charged Sky Mine
+	}
+
+	ShadowspikeBall: {
+		Tooltip: Inflicts Shadowflame for longer based on the number of hits inflicted
+		DisplayName: Shadowspike Ball
+	}
+
+	StingerStar: {
+		Tooltip:
+			'''
+			Fires a spread of stingers upon breaking
+			'Be careful to not touch the points'
+			'''
+		DisplayName: Stinger Star
+	}
+
+	FireyPitchfork: {
+		Tooltip: Ignites and impales enemies
+		DisplayName: Firey Pitchfork
+	}
+
+	StunBomb: {
+		Tooltip: Confuses and sometimes ignites enemies
+		DisplayName: Stun Bomb
+	}
+
+	JungleBomb: {
+		Tooltip:
+			'''
+			Bursts into damaging spore clouds
+			'Not to be confused with Pod Bombs'
+			'''
+		DisplayName: Jungle Bomb
+	}
+
+	Needleblade: {
+		Tooltip: Poisons enemies for longer based on the number of hits inflicted
+		DisplayName: Needleblade
+	}
+
+	BrittleShiv: {
+		Tooltip: Breaks into bone shrapnel that lingers for a short time, dealing extra damage
+		DisplayName: Brittle Shiv
+	}
+
+	BouncySpikyBall: {
+		Tooltip: Very bouncy
+		DisplayName: Bouncy Spiky Ball
+	}
+
+	StickySpikyBall: {
+		Tooltip: "'Try saying that three times fast!'"
+		DisplayName: Sticky Spiky Ball
+	}
+
+	Pyrosparker: {
+		Tooltip:
+			'''
+			Throw fireballs that bounce along the ground
+			The amount of fireballs that can be thrown at once is limited
+			'Do the Mario!'
+			'''
+		DisplayName: Pyrosparker
+	}
+
+	EtherianJavelin: {
+		Tooltip: ""
+		DisplayName: Etherian Javelin
+	}
+
+	SkyMine: {
+		Tooltip: Hovers midair
+		DisplayName: Sky Mine
+	}
+
+	FlyingSun: {
+		Tooltip: Falls upwards
+		DisplayName: Flying Sun
+	}
+
+	DarkSpike: {
+		Tooltip:
+			'''
+			Throws a set of spikes that stick to surfaces if they impact one shortly after being thrown
+			'Spike and Ball torture'
+			'''
+		DisplayName: Dark Spike
+	}
+
+	AirBurst: {
+		Tooltip:
+			'''
+			A floaty grenade with a short fuse that deals extra damage if its fuse expires
+			Explodes on impact with surfaces and enemies, but deals less damage in this case
+			'Nice throw!'
+			'''
+		DisplayName: Air Burst
+	}
+
+	Brimstone: {
+		Tooltip:
+			'''
+			Sticks to surfaces and enemies, creating a firey explosion after a delay
+			'There!'
+			'''
+		DisplayName: Brimstone
+	}
+
+	Rosethorn: {
+		Tooltip:
+			'''
+			Breaks on impact, unleashing imapling thorns
+			'Every Thrower has its Rosethorn'
+			'''
+		DisplayName: Rosethorn
+	}
+
+	GoreGouger: {
+		Tooltip: Impales struck enemies
+		DisplayName: Gore Gouger
+	}
+
+	ShadeStar: {
+		Tooltip: Ignores a small amount of defense
+		DisplayName: Shade Star
+	}
+
+	ThrowingStar: {
+		Tooltip: "'Explicility for throwing, not for shooting'"
+		DisplayName: Throwing Star
+	}
+
+	VoidSigil: {
+		Tooltip: Allows flight and slow fall
+		DisplayName: Void Sigil
+	}
+
+	ThrowingBoard: {
+		Tooltip:
+			'''
+			Increases throwing critical strike chance, velocity, and knockback
+			'Bullseye!'
+			'''
+		DisplayName: Throwing Board
+	}
+
+	StealthPotion: {
+		Tooltip:
+			'''
+			Enemies are less likely to target you
+			Increases throwing critical strike chance based on how unlikely you are to be targetted
+			'''
+		DisplayName: Stealth Potion
+	}
+
+	DexterityPotion: {
+		Tooltip:
+			'''
+			10% chance to not consume thrown items
+			5% increased throwing speed and velocity
+			'''
+		DisplayName: Dexterity Potion
+	}
+
+	ThrowerEmblem: {
+		Tooltip: "{0}% increased throwing damage"
+		DisplayName: Thrower Emblem
+	}
+
+	SunHeadband: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			{1}% increased throwing knockback
+			Enemies are slightly less likely to target you
+			Throwing critical strikes inflict Hellfire
+			'''
+		DisplayName: Sun Headband
+	}
+
+	StealthHeadband: {
+		Tooltip: Enemies are slightly less likely to target you
+		DisplayName: Stealth Headband
+	}
+
+	ShinobiArmband: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			{1}% increased throwing velocity
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Shinobi Armband
+	}
+
+	ShadowArmband: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			{1}% increased throwing damage
+			{2}% increased throwing velocity
+			Enemies are much less likely to target you
+			'''
+		DisplayName: Shadow Armband
+	}
+
+	SerenityBand: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			{1}% increased throwing velocity
+			Increased life regeneration
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Serenity Band
+	}
+
+	NinjaWarriorGear: {
+		Tooltip:
+			'''
+			{0}% chance to not consume thrown items
+			{0}% increased throwing knockback
+			{1}% increased throwing velocity
+			Allows the ability to dash
+			Gives a chance to dodge attacks
+			'''
+		DisplayName: Ninja Warrior Gear
+	}
+
+	MasterScroll: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance, speed, and velocity
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Master Scroll
+	}
+
+	GrandmasterEmblem: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			{0}% increased throwing velocity and speed
+			'''
+		DisplayName: Grandmaster Emblem
+	}
+
+	GelatinGrip: {
+		Tooltip:
+			'''
+			{0}% chance to not consume thrown items
+			{0}% increased throwing knockback
+			{1}% increased throwing velocity
+			'Mind the sticky fingers...'
+			'''
+		DisplayName: Gelatin Grip
+	}
+
+	DexterityScroll: {
+		Tooltip:
+			'''
+			{0}% chance to not consume thrown items
+			{1}% increased throwing speed
+			'''
+		DisplayName: Dexterity Scroll
+	}
+
+	DisciplineScroll: {
+		Tooltip: "{0}% increased throwing velocity and damage"
+		DisplayName: Discipline Scroll
+	}
+
+	DragonScroll: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance and speed
+			{0}% increased throwing velocity and knockback
+			Enemies are slightly less likely to target you
+			Throwing attacks inflict Hellfire
+			Throwing critical strikes inflict Daybroken
+			'It's blank'
+			'''
+		DisplayName: Dragon Scroll
+	}
+
+	VoidGreaves: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			{1}% increased throwing velocity and speed
+			{2}% increased movement speed
+			Reduces damage taken by {3}%
+			Enemies are less likely to target you
+			'''
+		DisplayName: Void Greaves
+	}
+
+	VoidPlate: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			{1}% increased throwing critical strike chance
+			Reduces damage taken by {2}%
+			Enemies are less likely to target you
+			'''
+		DisplayName: Void Plate
+	}
+
+	VoidMask: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			{1}% increased throwing speed
+			{2}% increased throwing velocity and critical strike chance
+			Reduces damage taken by {3}%
+			Enemies are less likely to target you
+			'''
+		DisplayName: Void Mask
+	}
+
+	VoidFragment: {
+		Tooltip: "'The ceaseless presence of a cosmic abyss permeates this fragment'"
+		DisplayName: Void Fragment
+	}
+
+	BionicGreaves: {
+		Tooltip:
+			'''
+			{0}% increased throwing velocity
+			{1}% increased movement speed
+			Enemies are slightly less likely to target you
+			'Standing here, I realize...'
+			'''
+		DisplayName: Bionic Greaves
+	}
+
+	BionicPlate: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			{1}% increased throwing speed
+			Enemies are slightly less likely to target you
+			'Rules of nature!'
+			'''
+		DisplayName: Bionic Plate
+	}
+
+	BionicHeadgear: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			Enemies are slightly less likely to target you
+			'Memories broken, the truth goes unspoken...'
+			'''
+		DisplayName: Bionic Headgear
+	}
+
+	WinterLeggings: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			{1}% increased movement speed
+			Reduces damage taken by {2}%
+			Increased life regeneration
+			'Herald the coming of winter'
+			'''
+		DisplayName: Winter's Leggings
+	}
+
+	WinterMail: {
+		Tooltip:
+			'''
+			{0}% increased throwing velocity and speed
+			Reduces damage taken by {1}%
+			Increased life regeneration
+			'Mittens not included'
+			'''
+		DisplayName: Winter's Mail
+	}
+
+	WinterHood: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance and speed
+			Reduces damage taken by {1}%
+			Slightly increased life regeneration
+			'He's Mr. White Christmas, he's Mr. Snow...'
+			'''
+		DisplayName: Winter's Hood
+	}
+
+	ShatteredFlake: {
+		Tooltip: ""
+		DisplayName: Shattered Flake
+	}
+
+	DarkKnightGreaves: {
+		Tooltip:
+			'''
+			{0}% increased movement and throwing speed
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Dark Knight Greaves
+	}
+
+	DarkKnightBreastplate: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			{1}% increased throwing velocity
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Dark Knight Breastplate
+	}
+
+	DarkKnightHelmet: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Dark Knight Helmet
+	}
+
+	UmbraCloth: {
+		Tooltip: "'Its eerie lining is reminiscent of the shadow of the sun'"
+		DisplayName: Umbra Cloth
+	}
+
+	AncientHallowedVisage: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			{0}% increased throwing velocity and speed
+			'''
+		DisplayName: Ancient Hallowed Visage
+	}
+
+	HallowedVisage: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			{0}% increased throwing velocity and speed
+			'''
+		DisplayName: Hallowed Visage
+	}
+
+	HiddenOneLeggings: {
+		Tooltip:
+			'''
+			{0}% increased movement speed and throwing damage
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Hidden One's Leggings
+	}
+
+	HiddenOneRobes: {
+		Tooltip:
+			'''
+			{0}% increased throwing velocity and critical strike chance
+			Increased life regeneration
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Hidden One's Robes
+	}
+
+	HiddenOneCowl: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Hidden One's Cowl
+	}
+
+	AkumaTabi: {
+		Tooltip:
+			'''
+			{0}% increased movement speed and throwing velocity
+			'No, they don't let you dash'
+			'''
+		DisplayName: Akuma Tabi
+	}
+
+	AkumaMail: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and speed
+			'Still warm to the touch'
+			'''
+		DisplayName: Akuma Mail
+	}
+
+	AkumaMask: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage and critical strike chance
+			'Unleash your inner demons upon the enemy'
+			'''
+		DisplayName: Akuma Mask
+	}
+
+	MasterGeta: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			Enemies are less likely to target you
+			'''
+		DisplayName: Master's Geta
+	}
+
+	MasterYukata: {
+		Tooltip:
+			'''
+			{0}% increased throwing damage
+			Slightly increased life regeneration
+			'''
+		DisplayName: Master's Yukata
+	}
+
+	MasterJingasa: {
+		Tooltip:
+			'''
+			{0}% increased throwing speed
+			{1}% chance to not consume thrown items
+			'''
+		DisplayName: Master's Jingasa
+	}
+
+	FeatherPants: {
+		Tooltip: "{0}% increased movement and throwing speed"
+		DisplayName: Feather Pants
+	}
+
+	FeatherShirt: {
+		Tooltip: "{0}% increased movement speed and throwing velocity"
+		DisplayName: Feather Breastplate
+	}
+
+	FeatherHeadgear: {
+		Tooltip:
+			'''
+			{0}% increased throwing critical strike chance
+			Slightly increased life regeneration
+			Enemies are slightly less likely to target you
+			'''
+		DisplayName: Feather Headgear
+	}
+
+	StealthPants: {
+		Tooltip: "{0}% increased movement speed"
+		DisplayName: Stealth Boots
+	}
+
+	StealthShirt: {
+		Tooltip: "{0}% increased throwing velocity"
+		DisplayName: Stealth Shirt
+	}
+
+	StealthFacewrap: {
+		Tooltip: "{0}% increased throwing damage"
+		DisplayName: Stealth Facewraps
+	}
+}
+
+CommonTooltips: {
+	Flasks: {
+		FlaskVenom: inflict Acid Venom on enemies
+		FlaskNanites: confuse enemies
+		FlaskParty: cause confetti to appear
+		FlaskIchor: decrease enemies defense
+		FlaskGold: make enemies drop more gold
+		FlaskCursed: inflict enemies with cursed flames
+		FlaskPoison: poison enemies
+		FlaskFire: set enemies on fire
+		FlaskBase: "Melee, Throwing, and Whip attacks "
+	}
+
+	Shop: {
+		ShadowspikeBallCond: After defeating a Goblin Warlock
+		DisciplineScrollCond: During the day, after defeating any pre-Hardmode boss other than King Slime
+		MasterScrollCond: During night, after defeating either Golem, Empress of Light, or Duke Fishron
+		NinjaArmorCond: Enable 'Move Ninja Armor to Ninja NPC' setting in 'Other Vanilla Tweaks' config
+	}
+
+	Config: {
+		ConvertWarning: Due to its original damage type, this weapon will only be able to receive generic (I.e. non-class specific) prefixes when converted
+		ArmorChange: Changes this armor set's stats/bonuses to be thrower-oriented
+		DamageRebalance: This weapon's damage stat will also be adjusted to be more in line with other thrower weapons
+		MagicTweaks: Additionally removes mana cost, but lowers damage accordingly
+		DamageChange: Change this weapon's damage class to thrower
+	}
+
+	SetBonus: {
+		Void:
+			'''
+			33% chance to not consume thrown items
+			Gives a chance to absorb attacks, healing you for a fraction of the damage instead of hurting you
+			This chance may increase at low health, or if the effect fails to trigger many times in a row
+			Absorbing an attack also generates a temporary spatial anomaly to shred enemies
+			'''
+		Bionic:
+			'''
+			Enemies are less likely to target you
+			Killing blows heal you for a fraction of the damage dealt and briefly empower your throwing weapons
+			This effect has a 6 second cooldown
+			'''
+		Winter:
+			'''
+			15% chance to not consume thrown items
+			Enemies are much less likely to target you
+			Grants a 25% chance to triple throwing attacks
+			'''
+		DarkTriggerDown: DOWN
+		DarkTriggerUp: UP
+		DarkSet:
+			'''
+			20% chance to not consume thrown items
+			Enemies are slightly less likely to target you
+			Double tap {0} to teleport to the position of the mouse, briefly empowering your throwing weapons in the process
+			This effect has a 15 second cooldown
+			'''
+		Hidden:
+			'''
+			10% increased throwing critical strike chance
+			Holding a throwing weapon and not moving will accumulate stealth
+			Stealth will increase the damage of your next throwing attack and reduce the chance for enemies to target you
+			Stealth is not lost whilst moving, but having stealth decreases movement speed
+			Stealth will decay over time if not holding a throwing weapon
+			'''
+		Akuma:
+			'''
+			Throwing attacks have a chance to confuse and/or ignite enemies
+			Throwing attacks are occasionally accompanied by a fire bomb that confuses and ingites enemies
+			'''
+		Master:
+			'''
+			10% increased throwing velocity
+			Gives a chance to dodge attacks
+			'''
+		Feather:
+			'''
+			Increases jump speed and fall resistance
+			Being attacked launches a spread of feathers in retaliation
+			'''
+		Stealth:
+			'''
+			Slightly increased life regeneration
+			Enemies are slightly less likely to target you
+			'''
+		CrystalNinjaBCThrower:
+			'''
+			Allows the ability to dash
+			5% increased throwing damage and critical strike chance
+			'''
+		NinjaBCThrower:
+			'''
+			12% increased movement speed
+			12% increased throwing velocity
+			'''
+		FossilBCThrower:
+			'''
+			20% chance to save ammo
+			20% chance to not consume thrown items
+			'''
+	}
+
+	Stats: {
+		ShinobiLegs:
+			'''
+			20% increased summon damage
+			15% increased throwing critical strike chance
+			'''
+		ShinobiBody:
+			'''
+			20% increased summon damage
+			15% increased throwing speed
+			'''
+		ShinobiHead:
+			'''
+			Increases your max number of sentries by 2 and increases summon damage by 20%
+			15% increased throwing damage
+			'''
+		CrystalNinjaConserv:
+			'''
+			10% chance to save ammo
+			10% chance to not consume thrown items
+			'''
+		FossilDmg: 4% increased ranged and throwing critical strike chance
+		FossilCrit: 5% increased ranged and throwing damage
+		HugeRegen: Massivley increased life regeneration
+		GreatRegen: Greatly increased life regeneration
+		Regen: Increased life regeneration
+		SlightRegen: Slightly increased life regeneration
+		GreatReducedAggro: Enemies are much less likely to target you
+		ReducedAggro: Enemies are less likely to target you
+		SlightReducedAggro: Enemies are slightly less likely to target you
+		PercentIncThrowDmgAndMoveSpd: "{0}% increased movement speed and throwing damage"
+		PercentIncThrowVelAndMoveSpd: "{0}% increased movement speed and throwing velocity"
+		PercentIncThrowAndMoveSpd: "{0}% increased movement and throwing speed"
+		PercentIncThrowVelAndKB: "{0}% increased throwing velocity and knockback"
+		PercentIncThrowVelAndSpd: "{0}% increased throwing velocity and speed"
+		PercentIncThrowVelAndCrit: "{0}% increased throwing velocity and critical strike chance"
+		PercentIncThrowVelAndDmg: "{0}% increased throwing velocity and damage"
+		PercentIncThrowCritAndSpd: "{0}% increased throwing critical strike chance and speed"
+		PercentIncThrowDmgAndSpd: "{0}% increased throwing damage and speed"
+		PercentIncThrowDmgAndCrit: "{0}% increased throwing damage and critical strike chance"
+		PercentDamageReduction: Reduces damage taken by {0}%
+		PercentThrowConserv: "{0}% chance to not consume thrown items"
+		PercentIncThrowKB: "{0}% increased throwing knockback"
+		PercentIncThrowVelocity: "{0}% increased throwing velocity"
+		PercentIncThrowSpd: "{0}% increased throwing speed"
+		PercentIncThrowCrit: "{0}% increased throwing critical strike chance"
+		PercentIncThrowDmg: "{0}% increased throwing damage"
+	}
+}
+

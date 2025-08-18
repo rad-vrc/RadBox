@@ -1,0 +1,20 @@
+Configs: {
+	CraftableAccessoriesConfig: {
+		DisplayName: Craftable Accessories Config
+
+		Headers: {
+			Recipes: "[i:2534] Recipes"
+		}
+
+		AnglerEquipmentRecipes: {
+			Label: "[i:3120] Angler Equipment Recipes"
+			Tooltip: Once activated, Angler accessories will be available to craft.
+		}
+
+		TinkererWorkshopRequirement: {
+			Label: "[i:398] Tinkerer Workshop Requirement"
+			Tooltip: If on, recipes will require Tinkerer Workshop.
+		}
+	}
+}
+

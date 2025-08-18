@@ -1,0 +1,785 @@
+Items: {
+	Type25CBrutePlasmaRifle: {
+		DisplayName: Type25 C ブルート・プラズマライフル
+		Tooltip: ""
+	}
+
+	Type25RSpiker: {
+		DisplayName: Type25 R スパイカー
+		Tooltip: ""
+	}
+
+	ConcussionRocket: {
+		DisplayName: コンカッションロケット
+		Tooltip: ""
+	}
+
+	Type50RConcussionRifle: {
+		DisplayName: Type50 R コンカッションライフル
+		Tooltip: ""
+	}
+
+	Type1REnergySword: {
+		DisplayName: Type1 R エナジーソード
+		Tooltip: ""
+	}
+
+	FuelRod: {
+		DisplayName: フューエルロッド
+		Tooltip: ""
+	}
+
+	Type33CFuelRodCannon: {
+		DisplayName: Type33 C フューエルロッドキャノン
+		Tooltip: ""
+	}
+
+	Type33RFuelRodCannon: {
+		DisplayName: Type33 R フューエルロッドキャノン
+		Tooltip: ""
+	}
+
+	Type58FuelRodCannon: {
+		DisplayName: Type58 フューエルロッドキャノン
+		Tooltip: ""
+	}
+
+	UnidentifiedFuelRodCannon: {
+		DisplayName: 未識別フューエルロッドキャノン
+		Tooltip: ""
+	}
+
+	BlamiteCrystal: {
+		DisplayName: ブラマイト・クリスタル
+		Tooltip: ""
+	}
+
+	Type33RNeedler: {
+		DisplayName: Type33 R ニードラー
+		Tooltip: ""
+	}
+
+	Type31NeedleRifle: {
+		DisplayName: Type31 ニードルライフル
+		Tooltip: ""
+	}
+
+	Type1RPlasmaGrenade: {
+		DisplayName: Type1 R プラズマグレネード
+		Tooltip: ""
+	}
+
+	Type25DPlasmaPistol: {
+		DisplayName: Type25 D プラズマピストル
+		Tooltip: ""
+	}
+
+	Type51PlasmaRepeater: {
+		DisplayName: Type51 プラズマリピーター
+		Tooltip: ""
+	}
+
+	Type25RPlasmaRifle: {
+		DisplayName: Type25 R プラズマライフル
+		Tooltip: ""
+	}
+
+	PhotonCell: {
+		DisplayName: フォトンセル
+		Tooltip: ""
+	}
+
+	Z110GBoltshot: {
+		DisplayName: Z110 G ボルトショット
+		Tooltip: ""
+	}
+
+	Z390GIncinerationCannon: {
+		DisplayName: Z390 G 焼却砲
+		Tooltip: ""
+	}
+
+	Z250GLightRifle: {
+		DisplayName: Z250 G ライトライフル
+		Tooltip: ""
+	}
+
+	Z180GScattershot: {
+		DisplayName: Z180 G スキャッターショット
+		Tooltip: ""
+	}
+
+	Z130GSuppressor: {
+		DisplayName: Z130 G サプレッサー
+		Tooltip: ""
+	}
+
+	MA5BAssaultRifle: {
+		DisplayName: MA5B アサルトライフル
+		Tooltip: ""
+	}
+
+	MA5CAssaultRifle: {
+		DisplayName: MA5C アサルトライフル
+		Tooltip: ""
+	}
+
+	MA37AssaultRifle: {
+		DisplayName: MA37 アサルトライフル
+		Tooltip: ""
+	}
+
+	M392DMR: {
+		DisplayName: M392 DMR
+		Tooltip: ""
+	}
+
+	M9RFragGrenade: {
+		DisplayName: M9 R フラググレネード
+		Tooltip: ""
+	}
+
+	M319Grenade: {
+		DisplayName: M319 グレネード
+		Tooltip: ""
+	}
+
+	M319GrenadeLauncher: {
+		DisplayName: M319 グレネードランチャー
+		Tooltip: ""
+	}
+
+	M6DMagnum: {
+		DisplayName: M6D マグナム
+		Tooltip: ""
+	}
+
+	M6GMagnum: {
+		DisplayName: M6G マグナム
+		Tooltip: ""
+	}
+
+	M45DSmartScopeShotgun: {
+		DisplayName: M45D スマートスコープ・ショットガン
+		Tooltip: ""
+	}
+
+	M45Shotgun: {
+		DisplayName: M45 ショットガン
+		Tooltip: ""
+	}
+
+	SRS99AMSniperRifle: {
+		DisplayName: SRS99-AM スナイパーライフル
+		Tooltip: ""
+	}
+
+	M41GSPNKr: {
+		DisplayName: M41 G S P N Kr
+		Tooltip: ""
+	}
+
+	M41RSPNKr: {
+		DisplayName: M41 R S P N Kr
+		Tooltip: ""
+	}
+
+	M6RSpartanLaser: {
+		DisplayName: M6 R スパルタンレーザー
+		Tooltip: ""
+	}
+
+	M247HRHeavyMachineGun: {
+		DisplayName: M247 H R ヘビーマシンガン
+		Tooltip: ""
+	}
+
+	Type2RGravityHammer: {
+		DisplayName: Type2 R グラビティハンマー
+		Tooltip: ""
+	}
+
+	Type52FocusRifle: {
+		DisplayName: Type52 フォーカスライフル
+		Tooltip: ""
+	}
+
+	UnidentifiedFuelRodCannonGold: {
+		DisplayName: 未識別フューエルロッドキャノン（ゴールド）
+		Tooltip: ""
+	}
+
+	M9SpartanFragGrenade: {
+		DisplayName: M9 スパルタン・フラググレネード
+		Tooltip: ""
+	}
+
+	M247HHeavyMachineGun: {
+		DisplayName: M247H ヘビーマシンガン
+		Tooltip: ""
+	}
+
+	M6VSpartanLaser: {
+		DisplayName: M6V スパルタンレーザー
+		Tooltip: ""
+	}
+
+	M41ReachSPNKr: {
+		DisplayName: M41 Reach SPNKr
+		Tooltip: ""
+	}
+
+	M41GuardianSPNKr: {
+		DisplayName: M41 Guardian SPNKr
+		Tooltip: ""
+	}
+
+	KewuRshikChromePlasmaRifle: {
+		DisplayName: Kewu R'shi'k クローム・プラズマライフル
+		Tooltip: ""
+	}
+
+	PaegaasGravityHammer: {
+		DisplayName: Paegaas グラビティハンマー
+		Tooltip: ""
+	}
+
+	PaegaasSpiker: {
+		DisplayName: Paegaas スパイカー
+		Tooltip: ""
+	}
+
+	EloNakadaConcussionRifle: {
+		DisplayName: Elo'Nakada コンカッションライフル
+		Tooltip: ""
+	}
+
+	UnidentifiedEnergySword: {
+		DisplayName: 未識別エナジーソード
+		Tooltip: ""
+	}
+
+	MtaraFocusRifle: {
+		DisplayName: M'tara フォーカスライフル
+		Tooltip: ""
+	}
+
+	ZasqiFuelRodGunGold: {
+		DisplayName: Zasqi フューエルロッドガン（ゴールド）
+		Tooltip: ""
+	}
+
+	ZasqiFuelRodGun: {
+		DisplayName: Zasqi フューエルロッドガン
+		Tooltip: ""
+	}
+
+	PeztkFuelRodGun: {
+		DisplayName: Pez'tk フューエルロッドガン
+		Tooltip: ""
+	}
+
+	KorvaFuelRodGun: {
+		DisplayName: Korva フューエルロッドガン
+		Tooltip: ""
+	}
+
+	GespuFuelRodGun: {
+		DisplayName: Gespu フューエルロッドガン
+		Tooltip: ""
+	}
+
+	NahlehaxNeedler: {
+		DisplayName: Nahle'hax ニードラー
+		Tooltip: ""
+	}
+
+	GaduloNeedleRifle: {
+		DisplayName: Gadulo ニードルライフル
+		Tooltip: ""
+	}
+
+	AnskumGlyph1PlasmaGrenade: {
+		DisplayName: Anskum Glyph-1 プラズマグレネード
+		Tooltip: ""
+	}
+
+	EosMakHesdurosPlasmaPistol: {
+		DisplayName: Eos'Mak Hesduros プラズマピストル
+		Tooltip: ""
+	}
+
+	NakatavhoPlasmaRepeater: {
+		DisplayName: Nakata'vho プラズマリピーター
+		Tooltip: ""
+	}
+
+	OrkadaphaaPlasmaRifle: {
+		DisplayName: Okarda'phaa プラズマライフル
+		Tooltip: ""
+	}
+
+	Z110RequiemBoltshot: {
+		DisplayName: Z110 鎮魂歌のボルトショット
+		Tooltip: ""
+	}
+
+	Z390RequiemIncinerationCannon: {
+		DisplayName: Z390 鎮魂歌の焼却砲
+		Tooltip: ""
+	}
+
+	Z250RequiemLightRifle: {
+		DisplayName: Z250 鎮魂歌のライトライフル
+		Tooltip: ""
+	}
+
+	Z180RequiemScattershot: {
+		DisplayName: Z180 鎮魂歌のスキャッターショット
+		Tooltip: ""
+	}
+
+	Z130RequiemSuppressor: {
+		DisplayName: Z130 鎮魂歌のサプレッサー
+		Tooltip: ""
+	}
+
+	ConcussionCharge: {
+		DisplayName: コンカッションチャージ
+		Tooltip: ""
+	}
+
+	SubaneseCrystal: {
+		DisplayName: スバニーズクリスタル
+		Tooltip: ""
+	}
+
+	EosMakPlasmaPistol: {
+		DisplayName: Eos'Mak プラズマピストル
+		Tooltip: ""
+	}
+
+	KopasamadaPlasmaLauncher: {
+		DisplayName: Kopasa'mada プラズマランチャー
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Type25CBrutePlasmaRifleProjectile: {
+		DisplayName: Type25 C ブルート・プラズマライフルの発射体
+	}
+
+	Type25RSpikerBullet: {
+		DisplayName: Type25 R スパイカーの弾丸
+	}
+
+	Type50RConcussionRifleBlast: {
+		DisplayName: Type50 R コンカッションライフルの爆風
+	}
+
+	Type50RConcussionRifleExplode: {
+		DisplayName: Type50 R コンカッションライフルの爆発
+	}
+
+	Type33CFuelRodBomb: {
+		DisplayName: Type33 C フューエルロッド爆弾
+	}
+
+	Type33CFuelRodBombExplosion: {
+		DisplayName: Type33 C フューエルロッド爆弾の爆発
+	}
+
+	Type33RFuelRodBomb: {
+		DisplayName: Type33 R フューエルロッド爆弾
+	}
+
+	Type33RFuelRodBombExplosion: {
+		DisplayName: Type33 R フューエルロッド爆弾の爆発
+	}
+
+	Type58FuelRodBomb: {
+		DisplayName: Type58 フューエルロッド爆弾
+	}
+
+	Type58FuelRodBombExplosion: {
+		DisplayName: Type58 フューエルロッド爆弾の爆発
+	}
+
+	UnidentifiedFuelRodBomb: {
+		DisplayName: 未識別フューエルロッド爆弾
+	}
+
+	UnidentifiedFuelRodBombExplosion: {
+		DisplayName: 未識別フューエルロッド爆弾の爆発
+	}
+
+	Type33RNeedlerBullet: {
+		DisplayName: Type33 R ニードラーの弾丸
+	}
+
+	Type33RNeedlerSupercombine: {
+		DisplayName: Type33 R ニードラーのスーパーコンバイン
+	}
+
+	Type31NeedleRifleBullet: {
+		DisplayName: Type31 ニードルライフルの弾丸
+	}
+
+	Type31NeedleRifleSupercombine: {
+		DisplayName: Type31 ニードルライフルのスーパーコンバイン
+	}
+
+	Type1RPlasmaGrenadeProjectile: {
+		DisplayName: Type1 R プラズマグレネードの発射体
+	}
+
+	Type25DPlasmaPistolEMP: {
+		DisplayName: Type25 D プラズマピストル E M P
+	}
+
+	Type25DPlasmaPistolProjectile: {
+		DisplayName: Type25 D プラズマピストルの発射体
+	}
+
+	Type51PlasmaRepeaterProjectile: {
+		DisplayName: Type51 プラズマリピーターの発射体
+	}
+
+	Type25RPlasmaRifleProjectile: {
+		DisplayName: Type25 R プラズマライフルの発射体
+	}
+
+	Z110GBoltshotBeam: {
+		DisplayName: Z110 G ボルトショットのビーム
+	}
+
+	Z390GIncinerationCannonChargedShot: {
+		DisplayName: Z390 G 焼却砲のチャージショット
+	}
+
+	Z390GIncinerationCannonExplosion: {
+		DisplayName: Z390 G 焼却砲の爆発
+	}
+
+	Z390GIncinerationCannonSmallBlast: {
+		DisplayName: Z390 G 焼却砲の小規模爆風
+	}
+
+	Z390GIncinerationCannonSmallBlastExplosion: {
+		DisplayName: Z390 G 焼却砲の小規模爆風の爆発
+	}
+
+	Z390GIncinerationCannonSmallBlastExplosionNoSound: {
+		DisplayName: Z390 G 焼却砲の小規模爆風の爆発（無音）
+	}
+
+	Z250GLightRifleBeam: {
+		DisplayName: Z250 G ライトライフルのビーム
+	}
+
+	Z250GLightRifleBeamPrecision: {
+		DisplayName: Z250 G ライトライフルの精密ビーム
+	}
+
+	Z180GScattershotBeam: {
+		DisplayName: Z180 G スキャッターショットのビーム
+	}
+
+	Z130GSuppressorBullet: {
+		DisplayName: Z130 G サプレッサーの弾丸
+	}
+
+	MA5BAssaultRifleProjectile: {
+		DisplayName: M A5 B アサルトライフルの発射体
+	}
+
+	MA5CAssaultRifleProjectile: {
+		DisplayName: M A5 C アサルトライフルの発射体
+	}
+
+	MA37AssaultRifleProjectile: {
+		DisplayName: M A37 アサルトライフルの発射体
+	}
+
+	M392DMRProjectile: {
+		DisplayName: M392 D M R の発射体
+	}
+
+	M9RFragGrenadeProjectile: {
+		DisplayName: M9 R フラググレネードの発射体
+	}
+
+	M319GrenadeLauncherExplosion: {
+		DisplayName: M319 グレネードランチャーの爆発
+	}
+
+	M319GrenadeLauncherExplosionEMP: {
+		DisplayName: M319 グレネードランチャーの爆発 E M P
+	}
+
+	M319GrenadeLauncherProjectile: {
+		DisplayName: M319 グレネードランチャーの発射体
+	}
+
+	M6DMagnumProjectile: {
+		DisplayName: M6 D マグナムの発射体
+	}
+
+	M6GMagnumProjectile: {
+		DisplayName: M6 G マグナムの発射体
+	}
+
+	M45DSmartScopeShotgunProjectile: {
+		DisplayName: M45 D スマートスコープ・ショットガンの発射体
+	}
+
+	M45ShotgunProjectile: {
+		DisplayName: M45 ショットガンの発射体
+	}
+
+	SRS99AMSniperRifleProjectile: {
+		DisplayName: S R S99 A M スナイパーライフルの発射体
+	}
+
+	M41GSPNKrExplode: {
+		DisplayName: M41 G S P N Kr の爆発
+	}
+
+	M41GSPNKrRocket: {
+		DisplayName: M41 G S P N Kr のロケット
+	}
+
+	M41RSPNKrExplode: {
+		DisplayName: M41 R S P N Kr の爆発
+	}
+
+	M41RSPNKrRocket: {
+		DisplayName: M41 R S P N Kr のロケット
+	}
+
+	M6RSpartanLaserBeam: {
+		DisplayName: M6 R スパルタンレーザーのビーム
+	}
+
+	M6RSpartanLaserTargetingBeam: {
+		DisplayName: M6 R スパルタンレーザーの照準ビーム
+	}
+
+	M247HRHeavyMachineGunProjectile: {
+		DisplayName: M247 H R ヘビーマシンガンの発射体
+	}
+
+	Type2RGravityHammerProjectile: {
+		DisplayName: Type2 R グラビティハンマーの発射体
+	}
+
+	Type2RGravityHammerExplosion: {
+		DisplayName: Type2 R グラビティハンマーの爆発
+	}
+
+	Type52FocusRifleBeam: {
+		DisplayName: Type52 フォーカスライフルのビーム
+	}
+
+	Type52FocusRifleDisplay: {
+		DisplayName: Type52 フォーカスライフルの表示
+	}
+
+	M9SpartanFragGrenadeProjectile: {
+		DisplayName: M9 スパルタン・フラググレネードの発射体
+	}
+
+	M247HHeavyMachineGunProjectile: {
+		DisplayName: M247 H ヘビーマシンガンの発射体
+	}
+
+	M6VSpartanLaserBeam: {
+		DisplayName: M6 V スパルタンレーザーのビーム
+	}
+
+	M6VSpartanLaserTargetingBeam: {
+		DisplayName: M6 V スパルタンレーザーの照準ビーム
+	}
+
+	M41ReachSPNKrExplode: {
+		DisplayName: M41 Reach S P N Kr の爆発
+	}
+
+	M41ReachSPNKrRocket: {
+		DisplayName: M41 Reach S P N Kr のロケット
+	}
+
+	M41GuardianSPNKrExplode: {
+		DisplayName: M41 Guardian S P N Kr の爆発
+	}
+
+	M41GuardianSPNKrRocket: {
+		DisplayName: M41 Guardian S P N Kr のロケット
+	}
+
+	KewuRshikChromePlasmaRifleProjectile: {
+		DisplayName: Kewu Rshik クローム・プラズマライフルの発射体
+	}
+
+	PaegaasGravityHammerExplosion: {
+		DisplayName: Paegaas グラビティハンマーの爆発
+	}
+
+	PaegaasGravityHammerProjectile: {
+		DisplayName: Paegaas グラビティハンマーの発射体
+	}
+
+	PaegaasSpikerBullet: {
+		DisplayName: Paegaas スパイカーの弾丸
+	}
+
+	EloNakadaConcussionRifleBlast: {
+		DisplayName: Elo Nakada コンカッションライフルの爆風
+	}
+
+	EloNakadaConcussionRifleExplode: {
+		DisplayName: Elo Nakada コンカッションライフルの爆発
+	}
+
+	MtaraFocusRifleBeam: {
+		DisplayName: Mtara フォーカスライフルのビーム
+	}
+
+	MtaraFocusRifleDisplay: {
+		DisplayName: Mtara フォーカスライフルの表示
+	}
+
+	ZasqiFuelRodBomb: {
+		DisplayName: Zasqi フューエルロッド爆弾
+	}
+
+	ZasqiFuelRodBombExplosion: {
+		DisplayName: Zasqi フューエルロッド爆弾の爆発
+	}
+
+	PeztkFuelRodBomb: {
+		DisplayName: Peztk フューエルロッド爆弾
+	}
+
+	PeztkFuelRodBombExplosion: {
+		DisplayName: Peztk フューエルロッド爆弾の爆発
+	}
+
+	KorvaFuelRodBomb: {
+		DisplayName: Korva フューエルロッド爆弾
+	}
+
+	KorvaFuelRodBombExplosion: {
+		DisplayName: Korva フューエルロッド爆弾の爆発
+	}
+
+	GespuFuelRodBomb: {
+		DisplayName: Gespu フューエルロッド爆弾
+	}
+
+	GespuFuelRodBombExplosion: {
+		DisplayName: Gespu フューエルロッド爆弾の爆発
+	}
+
+	NahlehaxNeedlerBullet: {
+		DisplayName: Nahlehax ニードラーの弾丸
+	}
+
+	NahlehaxNeedlerSupercombine: {
+		DisplayName: Nahlehax ニードラーのスーパーコンバイン
+	}
+
+	GaduloNeedleRifleBullet: {
+		DisplayName: Gadulo ニードルライフルの弾丸
+	}
+
+	GaduloNeedleRifleSupercombine: {
+		DisplayName: Gadulo ニードルライフルのスーパーコンバイン
+	}
+
+	AnskumGlyph1PlasmaGrenadeProjectile: {
+		DisplayName: Anskum Glyph1 プラズマグレネードの発射体
+	}
+
+	EosMakHesdurosPlasmaPistolEMP: {
+		DisplayName: Eos Mak Hesduros プラズマピストル E M P
+	}
+
+	EosMakHesdurosPlasmaPistolProjectile: {
+		DisplayName: Eos Mak Hesduros プラズマピストルの発射体
+	}
+
+	NakatavhoPlasmaRepeaterProjectile: {
+		DisplayName: Nakatavho プラズマリピーターの発射体
+	}
+
+	OrkadaphaaPlasmaRifleProjectile: {
+		DisplayName: Orkadaphaa プラズマライフルの発射体
+	}
+
+	Z110RequiemBoltshotBeam: {
+		DisplayName: Z110 鎮魂歌のボルトショットのビーム
+	}
+
+	Z390RequiemIncinerationCannonChargedShot: {
+		DisplayName: Z390 鎮魂歌の焼却砲のチャージショット
+	}
+
+	Z390RequiemIncinerationCannonExplosion: {
+		DisplayName: Z390 鎮魂歌の焼却砲の爆発
+	}
+
+	Z390RequiemIncinerationCannonSmallBlast: {
+		DisplayName: Z390 鎮魂歌の焼却砲の小規模爆風
+	}
+
+	Z390RequiemIncinerationCannonSmallBlastExplosion: {
+		DisplayName: Z390 鎮魂歌の焼却砲の小規模爆風の爆発
+	}
+
+	Z390RequiemIncinerationCannonSmallBlastExplosionNoSound: {
+		DisplayName: Z390 鎮魂歌の焼却砲の小規模爆風の爆発（無音）
+	}
+
+	Z250RequiemLightRifleBeam: {
+		DisplayName: Z250 鎮魂歌のライトライフルのビーム
+	}
+
+	Z250RequiemLightRifleBeamPrecision: {
+		DisplayName: Z250 鎮魂歌のライトライフルの精密ビーム
+	}
+
+	Z180RequiemScattershotBeam: {
+		DisplayName: Z180 鎮魂歌のスキャッターショットのビーム
+	}
+
+	Z130RequiemSuppressorBullet: {
+		DisplayName: Z130 鎮魂歌のサプレッサーの弾丸
+	}
+
+	EosMakPlasmaPistolEMP: {
+		DisplayName: Eos Mak プラズマピストル E M P
+	}
+
+	EosMakPlasmaPistolProjectile: {
+		DisplayName: Eos Mak プラズマピストルの発射体
+	}
+
+	KopasamadaPlasmaLauncherProjectile: {
+		DisplayName: Kopasamada プラズマランチャーの発射体
+	}
+}
+
+Buffs: {
+	Incinerating: {
+		DisplayName: 焼却
+		Description: 焼却されている
+	}
+
+	Supercombine: {
+		DisplayName: スーパーコンバイン
+		Description: 針弾が超結合し爆発を引き起こす
+	}
+}
+

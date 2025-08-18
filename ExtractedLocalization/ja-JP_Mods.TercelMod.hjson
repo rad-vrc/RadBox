@@ -1,0 +1,203 @@
+Keybinds: {
+	"Toggle Headlights": {
+		DisplayName: Toggle  Headlights
+	}
+}
+
+InfoDisplays: {
+	CarInfoDisplay: {
+		DisplayName: Car Info Display
+	}
+}
+
+NPCs: {
+	Salesman: {
+		DisplayName: Car Salesman
+
+		TownNPCMood: {
+			Princess_LovesNPC: Yum... {NPCName}.
+			LikeNPC_Princess: Yeah yeah who doesn't love {NPCName}.
+			Content: Could be worse.
+			NoHome: Is the housing market that bad?
+			FarFromHome: I should've came by car.
+			LoveSpace: Plenty of space for a parking lot or two!
+			DislikeCrowded: I have important calls to make. I can't with all that noise around.
+			HateCrowded: What is this, an appartment building? I want to speak to your manager.
+			LikeBiome: Well, listen, {BiomeName} would be awesome if it had a 4-lane highway.
+			DislikeBiome: What is this place... {BiomeName}, you say? Ok...
+			HateBiome: I despise snow... {BiomeName} is probably the worst place for a dealership. It's wet, slippery, it makes cars rust quicker... and we don't even have winter tires!
+			LoveNPC: Boy, {NPCName} is a lifesaver. You should see the number of "salvage title" cars she can turn into new-ish cars... just don't tell anybody this.
+			LikeNPC: "{NPCName} and I are great pals, we go golfing every other week. He's also a great customer of mine!"
+			DislikeNPC: I don't like how {NPCName} keeps negotiating my prices. Buddy, no. I won't knock 50% off the price because of "low demand".
+			HateNPC: Hey, uh... I saw {NPCName} steal catalytic converters off of my cars.?
+		}
+	}
+}
+
+Dialogue: {
+	Salesman: {
+		Line3: I'm somewhat busy, make it quick.
+		Line2: We offer financing! What's that, you don't have a good credit score? Excellent! Ahem, right this way.
+		Line1: ... so what kind of car are you looking to get into?
+	}
+}
+
+Items: {
+	F40Item: {
+		Tooltip: The first production car to break 200mph!
+		DisplayName: Ferrari F40 Key
+	}
+
+	ExigeItem: {
+		Tooltip: Thrilling!
+		DisplayName: Lotus Exige Key
+	}
+
+	AE86Item: {
+		Tooltip: TOKYO DRIFT???
+		DisplayName: Toyota Corolla AE86 Key
+	}
+
+	FleetwoodItem: {
+		Tooltip: We ballin'
+		DisplayName: Cadillac Fleetwood Key
+	}
+
+	FocusItem: {
+		Tooltip: It was cheap for a reason...
+		DisplayName: Ford Focus Key
+	}
+
+	CelicaItem: {
+		Tooltip: Sleek sportscar, straight from the 90's!
+		DisplayName: Toyota Celica Key
+	}
+
+	SilveradoItem: {
+		Tooltip: AMERICA!!!!!!!!!!!!!!!
+		DisplayName: Chevrolet Silverado Key
+	}
+
+	MetalMolderItem: {
+		Tooltip: what even is this item (TODO REMOVE)
+		DisplayName: Metal Molder Item
+	}
+
+	MiataItem: {
+		DisplayName: Mazda Miata Key
+		Tooltip: Liddle car :D
+	}
+
+	YarisItem: {
+		Tooltip: Well, it's a car.
+		DisplayName: Toyota Yaris Key
+	}
+
+	AudiQuattroItem: {
+		Tooltip: Oh, rally car!
+		DisplayName: Audi Quattro Key
+	}
+
+	S14Item: {
+		Tooltip: JDM!
+		DisplayName: Nissan Silvia key
+	}
+
+	Nine11Item: {
+		Tooltip: A german icon.
+		DisplayName: Porsche 911 key
+	}
+
+	CherryItem: {
+		Tooltip: It looks really old...
+		DisplayName: Datsun Cherry key
+	}
+
+	Mazda6Item: {
+		DisplayName: Mazda 6 key
+		Tooltip: A sensible car choice
+	}
+
+	TercelItem: {
+		Tooltip: Likely your first car ever!
+		DisplayName: Toyota Tercel key
+	}
+}
+
+Buffs: {
+	F40Buff: {
+		Description: FAST!!!!!!!!!
+		DisplayName: F40 Buff
+	}
+
+	ExigeBuff: {
+		Description: I literally don't know what to put here (TODO)
+		DisplayName: Exige Buff
+	}
+
+	AE86Buff: {
+		Description: I only race for pink slips.
+		DisplayName: Toyota Corolla AE86
+	}
+
+	FleetwoodBuff: {
+		Description: You feel baller *sunglass emoji*
+		DisplayName: Cadillac Fleetwood
+	}
+
+	FocusBuff: {
+		Description: I feel like... it's not supposed to be like that.
+		DisplayName: Broken Ford Focus
+	}
+
+	CelicaBuff: {
+		Description: Car noises
+		DisplayName: Toyota Celica
+	}
+
+	SilveradoBuff: {
+		Description: BIG TRUCK YEAH!!!!!!
+		DisplayName: Chevrolet Silverado
+	}
+
+	MiataBuff: {
+		DisplayName: Mazda Miata
+		Description: Zippy little thing!
+	}
+
+	YarisBuff: {
+		Description: Toyota's modern subcompact.
+		DisplayName: Toyota Yaris
+	}
+
+	AudiQuattroBuff: {
+		Description: The rallying champion from the eighties!
+		DisplayName: Audi Quattro
+	}
+
+	S14Buff: {
+		Description: Drift LEGEND!
+		DisplayName: Nissan Silvia
+	}
+
+	Nine11Buff: {
+		Description: So, so cool!
+		DisplayName: Porsche 911
+	}
+
+	CherryBuff: {
+		Description: Small!
+		DisplayName: Datsun Cherry
+	}
+
+	Mazda6Buff: {
+		DisplayName: Mazda 6
+		Description: You've never felt so bored.
+	}
+
+	TercelBuff: {
+		Description: You feel... unstoppable!
+		DisplayName: Toyota Tercel
+	}
+}
+

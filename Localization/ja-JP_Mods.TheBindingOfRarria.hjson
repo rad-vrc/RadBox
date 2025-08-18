@@ -1,0 +1,1137 @@
+Configs: {
+	ClientConfig: {
+		SanguineGiftUIColor: {
+			Tooltip: Sanguine Gift のUIのフィラー色を変更する
+			Label: Sanguine Gift UIの色
+		}
+
+		SanguineGiftUIPosition: {
+			Tooltip: Sanguine Gift のUIの位置（画面座標基準）
+			Label: Sanguine Gift UIの位置
+		}
+
+		SanguineGiftUIDraggable: {
+			Tooltip: Sanguine Gift のUIをドラッグで移動可能にする（調整後はオフに戻すのを忘れずに）
+			Label: Sanguine Gift UIドラッグ可
+		}
+
+		DisplayName: クライアント設定
+	}
+}
+
+WorldGen: {
+	SihilStonePassMessage: 刃に呪いを刻み込んでいる…
+	PaleOrePassMessage: 誰が鉱石を蒼白にしてるんだ
+}
+
+Tiles: {
+	SuspiciousScaleTile: {
+		MapEntry: 怪しげなウロコ
+	}
+
+	MardroemeTile: {
+		MapEntry: 怪しげなキノコ
+	}
+
+	SihilStone: {
+		MapEntry: 氷に刺さった剣
+	}
+
+	PaleOreTile: {
+		MapEntry: 蒼白の鉱石
+	}
+}
+
+Keybinds: {
+	Sangreal: {
+		DisplayName: サングリアル
+	}
+
+	CrystalHeart: {
+		DisplayName: クリスタルハート
+	}
+
+	AbsorbingLiquid: {
+		DisplayName: 吸収液
+	}
+
+	CursedBlood: {
+		DisplayName: 呪血
+	}
+
+	BrokenWatch: {
+		DisplayName: 壊れた時計
+	}
+}
+
+Projectiles: {
+	PharmaceuticBullet: {
+		DisplayName: 薬剤弾
+	}
+
+	HomingMissile: {
+		DisplayName: ホーミングミサイル
+	}
+
+	DarkDash: {
+		DisplayName: ダークダッシュ
+	}
+
+	CryptAura: {
+		DisplayName: クリプトオーラ
+	}
+
+	CryptBloomProjectile: {
+		DisplayName: クリプトブルーム弾
+	}
+
+	FlippityFloppity: {
+		DisplayName: ピチパタ
+	}
+
+	FishBullet: {
+		DisplayName: フィッシュ弾
+	}
+
+	BlockBoulder: {
+		DisplayName: ブロック岩
+	}
+
+	CEFist: {
+		DisplayName: CEフィスト
+	}
+
+	CrystalDashTrail: {
+		DisplayName: クリスタルダッシュの残光
+	}
+
+	AbsorbingLiquidEffect: {
+		DisplayName: 吸収液の効果
+	}
+
+	CursedBloodEffect: {
+		DisplayName: 呪血の効果
+	}
+
+	LifeSucker: {
+		DisplayName: ライフサッカー
+	}
+
+	LightBeam: {
+		DisplayName: 光のビーム
+	}
+
+	FlyingKunai: {
+		DisplayName: 飛翔クナイ
+	}
+
+	HeavyBlowThing: {
+		DisplayName: ヘビーブロー
+	}
+
+	HolyMantleBurst: {
+		DisplayName: 聖なるマントの爆散
+	}
+
+	Cleave: {
+		DisplayName: クリーブ
+	}
+
+	CarefreePower: {
+		DisplayName: 気楽の力
+	}
+
+	MirrorCrack: {
+		DisplayName: 鏡のひび割れ
+	}
+
+	LightCone: {
+		DisplayName: 光のコーン
+	}
+
+	SlowingAura: {
+		DisplayName: 減速オーラ
+	}
+
+	FireExplotaro: {
+		DisplayName: ファイア・エクスプロタロ
+	}
+
+	CircleOfLight: {
+		DisplayName: 光の輪
+	}
+
+	RepellingPulse: {
+		DisplayName: 反発パルス
+	}
+
+	ReflectiveRib: {
+		DisplayName: 反射する肋骨
+	}
+
+	Extra98Bomb: {
+		DisplayName: エクストラ98ボム
+	}
+}
+
+Buffs: {
+	SpiritRush: {
+		Description: 魔法ダメージ倍率に+0.1の乗算補正
+		DisplayName: スピリットラッシュ
+	}
+
+	YghernBuff_CD: {
+		DisplayName: イェヘルンの加護・クールダウン
+	}
+
+	TojiNullDebuff_CD: {
+		DisplayName: 無為転変・デバフ・クールダウン
+	}
+
+	ReverseCT_CD: {
+		DisplayName: 反転術式・クールダウン
+	}
+
+	NobleWine_CD: {
+		DisplayName: 高貴な葡萄酒・クールダウン
+	}
+
+	ModLiquid_CD: {
+		DisplayName: 吸収液・クールダウン
+	}
+
+	HolyProtection_CD: {
+		DisplayName: 聖なる加護・クールダウン
+	}
+
+	BrokenWatch_CD: {
+		DisplayName: 壊れた時計・クールダウン
+	}
+
+	BloodShield_CD: {
+		DisplayName: 血の盾・クールダウン
+	}
+
+	Cooldown: {
+		Description: このバフはクールダウン中
+	}
+
+	YghernBuff: {
+		Description: あなたへの攻撃のダメージを軽減
+		DisplayName: イェヘルンの加護
+	}
+
+	NobleWine: {
+		Description: 一時的なライフを付与
+		DisplayName: 高貴な葡萄酒
+	}
+
+	BerserkersPauldronBuff: {
+		Description: 与えるダメージが25％増加
+		DisplayName: バーサーク
+	}
+
+	BloodShieldBleed: {
+		Description: 防御のためにライフを犠牲にする
+		DisplayName: 血の盾・流血
+	}
+
+	BloodShield: {
+		Description: 犠牲にしたライフを防御として使用
+		DisplayName: 血の盾
+	}
+
+	NullifiedPowers: {
+		Description: ダメージを与えられない
+		DisplayName: 力の無効化
+	}
+
+	ReverseCT: {
+		Description: 異常なライフ再生を得る
+		DisplayName: 反転術式
+	}
+
+	MagneticField: {
+		Description: 引力が強まる
+		DisplayName: 磁場
+	}
+
+	LifePool: {
+		Description: 最大ライフが増加
+		DisplayName: ライフプール
+	}
+
+	HolyProtection: {
+		Description: 聖なる加護
+		DisplayName: 聖なる加護
+	}
+
+	PoisonImmunity: {
+		Description: ライフ再生が2 HP/秒増進
+		DisplayName: クール・ヴァイタリティ
+	}
+
+	FireImmunity: {
+		Description: 被ダメージが10％軽減
+		DisplayName: クール・レジリエンス
+	}
+
+	AnubisCurse: {
+		DisplayName: アヌビスの呪い
+		Description: ライフ再生が1 HP/秒低下
+	}
+}
+
+Items: {
+	SteelyAegis: {
+		Tooltip:
+			'''
+			被ダメージを9％軽減
+			所持するダメージ軽減が3％増えるごとに与えるダメージが1％増加
+			「壁は石の積み重ねでできている」
+			'''
+		DisplayName: スティーリー・イージス
+	}
+
+	MysticSandclock: {
+		Tooltip:
+			'''
+			自身のデバフの残り時間が33％早く減少
+			「運命の砂は決して尽きない」
+			'''
+		DisplayName: 神秘の砂時計
+	}
+
+	Guillotine: {
+		Tooltip:
+			'''
+			ライフが75％超の敵に与えるダメージが25％増加
+			「かなり使い古されているが、まだ使える」
+			'''
+		DisplayName: ギロチン
+	}
+
+	DeathsBell: {
+		Tooltip:
+			'''
+			30秒ごとに周囲の通常の敵が1体消滅
+			「逃れられぬ鐘の音」
+			'''
+		DisplayName: 死の鐘
+	}
+
+	ShieldTalisman: {
+		Tooltip:
+			'''
+			正面からの攻撃による被ダメージを10％軽減
+			「持ち主より長生きした家宝」
+			'''
+		DisplayName: 盾の護符
+	}
+
+	GreatshieldTalisman: {
+		Tooltip:
+			'''
+			盾を装備している間、被ダメージを20％軽減
+			「壁が戦場を歩いていた時代の遺物」
+			'''
+		DisplayName: 大盾の護符
+	}
+
+	SpiritKnuckle: {
+		Tooltip:
+			'''
+			近接攻撃に追加の魔法ダメージが発生し、命中時にマナを15回復
+			「付いた血は気にするな、とても丁寧に使われている」
+			'''
+		DisplayName: スピリットナックル
+	}
+
+	RestorativeLocket: {
+		Tooltip:
+			'''
+			周囲の敵が継続ダメージで失うライフに比例して自身のライフ再生が増進
+			「誓約守の貪欲さの小さな模造品」
+			'''
+		DisplayName: 回復のロケット
+	}
+
+	PharmaceuticRounds: {
+		Tooltip:
+			'''
+			敵に命中するとポーション病の時間を短縮
+			「フェアファクス工業提供」
+			'''
+		DisplayName: 薬剤弾
+	}
+
+	BoundlessSpirit: {
+		Tooltip:
+			'''
+			魔法ダメージボーナスに1.1倍乗算
+			マナが50％未満になるたび、ライフを{0} [c/82caff:(最大マナの10％)]回復し、このアイテムのダメージボーナスが短時間2倍
+			この能力はマナが全回復すると再チャージ
+			「秘奥の極みに到達した者は伝説となる」
+			'''
+		DisplayName: 無窮の精魂
+	}
+
+	BloodBag: {
+		Tooltip:
+			'''
+			わずかなライフ再生を付与 [c/90ee90:(1 HP/秒)]
+			余剰のライフ再生を蓄積し、ライフ50％未満のとき再生ボーナスとして放出
+			「血を内側に保つ助けになる」
+			'''
+		DisplayName: 血液バッグ
+	}
+
+	VesselMask1: {
+		Tooltip: ""
+		DisplayName: 器の仮面
+	}
+
+	VesselMask0: {
+		Tooltip: ""
+		DisplayName: 器の仮面
+	}
+
+	WoodOMask: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			周囲の敵に新たなデバフが付与されるたび、すべてのミニオンが誘導ミサイルを発射
+			「妙に見覚えがある」
+			'''
+		DisplayName: ウッド・オー・マスク
+	}
+
+	TheLastOffering: {
+		Tooltip:
+			'''
+			周囲の敵が倒れると誘導ミサイルを発射
+			「これで汝の残酷さも満たされるだろう」
+			'''
+		DisplayName: 最後の供物
+	}
+
+	MagicMushroom: {
+		Tooltip:
+			'''
+			最大ライフが10％増加
+			ダメージ倍率が1.1倍
+			見た目が大きくなる
+			「ビッグチャンガス」
+			'''
+		DisplayName: マジックマッシュルーム
+	}
+
+	PiercingMissile: {
+		Tooltip:
+			'''
+			複数の敵を貫通できる飛翔体は防御無視+8を得る
+			「貫けぬ装甲はない」
+			'''
+		DisplayName: ピアシングミサイル
+	}
+
+	YghernScale: {
+		Tooltip:
+			'''
+			次に受ける2回の被ダメージを{0} [c/90ee90:(最大ライフの10％)]まで軽減
+			「この鱗の持ち主を知りたくはないだろう」
+			'''
+		DisplayName: イェヘルンの鱗
+	}
+
+	Sangreal: {
+		DeathMessage: "{0} は高貴なる酒の力に耐えられなかった"
+		Tooltip:
+			'''
+			{0} で一時的な最大ライフ+150を得る
+			効果終了時、残存する一時ライフの2倍のダメージを受ける
+			クールダウン：45秒
+			「サングリアルの高貴で樽香る味わいは選ばれし特権。耐えられるか？」
+			'''
+		DisplayName: サングリアル
+	}
+
+	MoltenShield: {
+		Tooltip:
+			'''
+			ノックバック、燃えている！、ヘルファイアを無効化
+			ライフ50％超のとき、防御の有効度が10％増加 
+			現在の防御有効度：{0}
+			「どういうわけか、まだ頑丈？」
+			'''
+		DisplayName: 溶岩の盾
+	}
+
+	DivingPlating: {
+		Tooltip:
+			'''
+			最大ライフ+30
+			「海の生き物になった気分だ」
+			'''
+		DisplayName: ダイビングプレーティング
+	}
+
+	DivingGreaves: {
+		Tooltip:
+			'''
+			最大ライフ+30
+			「不快なほど乾いている」
+			'''
+		DisplayName: ダイビンググリーブ
+	}
+
+	DivingHelm: {
+		SetBonus:
+			'''
+			水中呼吸時間が大きく延長され、窒息を無効化
+			釣りの釣果が上がる可能性がある
+			'''
+		Tooltip:
+			'''
+			最大ライフ+40
+			「まだ使える」
+			'''
+			DisplayName: ダイビングヘルム
+	}
+
+	NecromancersTome: {
+		Tooltip:
+			'''
+			未召喚のミニオンを2体、コストなしで召喚
+			所持している召喚アイテムのミニオンのみ召喚
+			「私なら触りたくはないね」
+			'''
+		DisplayName: ネクロマンサーの書
+	}
+
+	GirdleOfGiantStrength: {
+		Tooltip:
+			'''
+			回復量の1/2を一時的な最大ライフとして得る
+			「明らかに巨人のために作られたのに、なぜか誰にでも合う」
+			'''
+		DisplayName: 巨人の力帯
+	}
+
+	DarkArts: {
+		Tooltip:
+			'''
+			無敵の影ダッシュが使えるようになる
+			「影と一つになる」
+			'''
+		DisplayName: 闇の秘術
+	}
+
+	CryptBloom: {
+		Tooltip:
+			'''
+			周囲で10体目の敵が倒れるたび回復オーラを生成
+			「死より、生が芽吹く」
+			'''
+		DisplayName: 霊廟の花
+	}
+
+	PetriciteCuffs: {
+		Tooltip:
+			'''
+			受けるダメージの{0}％をマナを消費してブロック
+			ブロック量は魔法ダメージボーナスでスケール
+			「何世紀も魔力を吸収できるが…限界はどこにある？」
+			'''
+		DisplayName: ペトリサイトの手枷
+	}
+
+	Sihil: {
+		Tooltip:
+			'''
+			敵を倒すとポーションのバフを得る
+			「この刃に記されているのは？ 呪いか？」
+			「いや。侮辱だ」
+			'''
+		DisplayName: シヒル
+	}
+
+	FunnyFish: {
+		Tooltip:
+			'''
+			弾丸の代わりに魚を撃つ
+			「泣くな、私はただの“サカナ”だ」
+			'''
+		DisplayName: ファニーフィッシュ
+	}
+
+	FocusCrystal: {
+		Tooltip:
+			'''
+			近距離の敵に与えるダメージが20％増加
+			「…そして去った、自由という妄想とともに」
+			'''
+		DisplayName: フォーカスクリスタル
+	}
+
+	FishTank: {
+		Tooltip:
+			'''
+			ダッシュするたびに跳ねる魚を投げる
+			「フィッシュなダッシュ」
+			'''
+		DisplayName: フィッシュタンク
+	}
+
+	BrilliantBehemoth: {
+		Tooltip:
+			'''
+			敵に命中すると周囲の敵に爆発でダメージ
+			「爆破されたい者なんていない、だろ？」
+			'''
+		DisplayName: ブリリアントベヒーモス
+	}
+
+	BerserkersPauldron: {
+		Tooltip:
+			'''
+			短時間に複数体を倒すと6秒間、与えるダメージが25％増加
+			「もちろん推測にすぎないが…」
+			'''
+		DisplayName: 狂戦士の肩当て
+	}
+
+	ToothAndNail: {
+		Tooltip:
+			'''
+			被弾時に釘を射出
+			10％の確率で代わりに守護の巨岩に包まれる
+			「チクチクする」
+			'''
+		DisplayName: 歯と爪
+	}
+
+	SlasherHalberd: {
+		Tooltip:
+			'''
+			近接攻撃が敵に当たると、近くの別の敵も斬りつける
+			「ムラマサっぽいけど、そうじゃない」
+			'''
+		DisplayName: 壊れたスラッシャーハルバード
+	}
+
+	DivergentsFist: {
+		Tooltip:
+			'''
+			近接攻撃命中後、遅れて追撃が発生
+			「黒閃に一歩近づいた」
+			'''
+		DisplayName: 異分子の拳
+	}
+
+	CrystalHeart: {
+		Tooltip:
+			'''
+			{0} を押し続けて水平無限ダッシュをチャージ
+			「古い採掘ゴーレムに使われていたエネルギーコア」
+			'''
+		DisplayName: クリスタルハート
+	}
+
+	DoransShield: {
+		Tooltip:
+			'''
+			毎秒、欠けているライフの1％を回復
+			「遠距離相手なら素晴らしい選択」
+			'''
+		DisplayName: ドランの盾
+	}
+
+	AbsorbingLiquid: {
+		Tooltip:
+			'''
+			被弾直後に {0} で受けたダメージの1/2を回復
+			クールダウン：20秒
+			「これで作った刺青は強大な力を宿すという…」
+			'''
+		DisplayName: 吸収液
+	}
+
+	CursedBlood: {
+		Tooltip:
+			'''
+			{0} で出血を開始
+			もう一度押すと出血を停止
+			出血で失ったライフに応じて一時的に防御を付与
+			クールダウン：20秒
+			「守るための犠牲」
+			'''
+		DisplayName: カースドブラッド
+	}
+
+	UnendingDespair: {
+		Tooltip:
+			'''
+			周囲の最大4体の敵からライフを吸収し、{0} [c/90ee90:(最大ライフの10％)]の魔法ダメージ
+			このアイテムで与えたダメージの20％を回復
+			「店員さん！ もっと回復を」
+			'''
+		DisplayName: 終わりなき絶望
+	}
+
+	SanguineGift: {
+		Tooltip:
+			'''
+			受けたダメージの20％を蓄積
+			蓄積ダメージが {0} [c/90ee90:(最大ライフの10％)]を超えると、その分のライフを回復
+			近くに味方がいれば回復を共有
+			現在の蓄積ダメージ：{1}
+			「血に縛られて」
+			'''
+		DisplayName: 吸血の贈り物
+	}
+
+	CullingBlade: {
+		Tooltip:
+			'''
+			攻撃が命中すると回復し、コインを落とす
+			「クール…いや“コール”？」
+			'''
+		DisplayName: カリングブレード
+	}
+
+	TojiNullWeapon: {
+		Tooltip:
+			'''
+			近接攻撃が命中すると一定時間、敵の接触ダメージを無効化
+			クールダウン：15秒
+			「魔虚羅にも効くのだろうか…」
+			'''
+		DisplayName: 天逆鉾
+	}
+
+	WoodenDice: {
+		Tooltip:
+			'''
+			あなたへの被ダメージの乱数をもう1回振り、低い方の結果を採用
+			「無運と最大幸運の差」
+			'''
+		DisplayName: ラッキーダイス
+	}
+
+	AdamantineTalisman: {
+		Tooltip:
+			'''
+			あなたへの被ダメージの乱数が常に有利に振られる
+			「統計をねじ曲げろ」
+			'''
+		DisplayName: アダマンタイトの護符
+	}
+
+	WheelOfHarmony: {
+		Tooltip:
+			'''
+			同じ攻撃に連続2回当たると、その攻撃のダメージの1/2を回復
+			「森羅万象に適応する能力」
+			'''
+		DisplayName: 和合の輪
+	}
+
+	PhoenixKunai: {
+		Tooltip:
+			'''
+			3発ごとにクナイを投げる
+			「武器は道具にあらず、武器は“お前”だ」
+			'''
+		DisplayName: フェニックスクナイ
+	}
+
+	HornOfTheRoundDeer: {
+		Tooltip:
+			'''
+			ライフ33％未満になると急速なライフ再生を得る
+			クールダウン：1分
+			「影から生まれ、神を殺すために捧げられた」
+			'''
+		DisplayName: 円鹿の角笛
+	}
+
+	PaleOre: {
+		Tooltip: 冷気を放つ希少な蒼白の金属
+		DisplayName: 蒼白の鉱石
+	}
+
+	LoupesForWeakness: {
+		Tooltip:
+			'''
+			攻撃が敵の防御力の1/4を無視する
+			「弱点は七三にあり」
+			'''
+		DisplayName: 弱点観察ルーペ
+	}
+
+	SoulCatcher: {
+		Tooltip:
+			'''
+			近接攻撃の命中でマナを9回復
+			「忘れられたシャーマンの遺物。生きたまま魂を引き抜くために使われた」
+			'''
+		DisplayName: ソウルキャッチャー
+	}
+
+	GoldenCape: {
+		Tooltip:
+			'''
+			落下ダメージ、自然発生のトラップなどの危険を無効化
+			「理屈はさておき、好きだ」
+			'''
+		DisplayName: 黄金のマント
+	}
+
+	DeepFocus: {
+		Tooltip:
+			'''
+			回復ポーションの回復量が2倍になるが、ポーション病が20％長くなる
+			「奥底に奇妙な力が宿っている…」
+			'''
+		DisplayName: ディープフォーカス
+	}
+
+	CobaltBulletShell: {
+		Tooltip:
+			'''
+			銃弾が敵に磁化効果を与え、飛翔体を引き寄せる
+			「実用的じゃない、だって？」
+			'''
+		DisplayName: コバルトの弾殻
+	}
+
+	HolyMantle: {
+		Tooltip:
+			'''
+			次の被弾を無効化
+			クールダウン：1分
+			「聖なる盾」
+			'''
+		DisplayName: 聖なるマント
+	}
+
+	TheLastFinger: {
+		Tooltip:
+			'''
+			最大マナ+100
+			周囲の敵を常に斬り刻む
+			狙われにくくなる
+			「今や彼の遺骸は弱者を守るために使われている。なんという皮肉」
+			'''
+		DisplayName: 最後の指
+	}
+
+	WeaverSong: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が2体増える
+			ミニオンの命中で敵を減速
+			「別れの歌を織り込んだ絹の護符」
+			'''
+		DisplayName: ウィーバーソング
+	}
+
+	TinyPlanet: {
+		Tooltip:
+			'''
+			飛翔体が自分の周りを周回
+			周回中の飛翔体は与えるダメージが15％低下
+			「技術的には天体」
+			'''
+		DisplayName: タイニープラネット
+	}
+
+	TitanicHydra: {
+		Tooltip:
+			'''
+			最大ライフ+60 
+			6秒ごとに{0} [c/90ee90:(最大ライフの20％)]のダメージを与える衝撃波を発生
+			「制御し得ぬ巨力」
+			'''
+		DisplayName: タイタニックヒュドラ
+	}
+
+	CarefreeMelody: {
+		Tooltip:
+			'''
+			6回に1回、攻撃を回避
+			「守護の歌が込められている」
+			'''
+		DisplayName: 気ままな調べ
+	}
+
+	ShamanStone: {
+		Tooltip:
+			'''
+			魔法ダメージが10％増加
+			魔法の飛翔体のサイズが増加
+			「歴代のシャーマンの知恵が宿ると言われる」
+			'''
+		DisplayName: シャーマンストーン
+	}
+
+	GoodFruit: {
+		Tooltip:
+			'''
+			常時、食事と幸福のバフを得る
+			「うまうま」
+			'''
+		DisplayName: 良い果実
+	}
+
+	GeneSickle: {
+		Tooltip:
+			'''
+			敵を倒すたびに最大ライフが1増加（上限150）
+			ボーナスは5秒ごとに1減少
+			「進化の果実を刈り取れ」
+			'''
+		DisplayName: 遺伝の鎌
+	}
+
+	NightLight: {
+		Tooltip:
+			'''
+			敵と飛翔体を減速させる光のコーンを放つ
+			「暗闇が怖い？」
+			'''
+		DisplayName: ナイトライト
+	}
+
+	UdjatEye: {
+		Tooltip:
+			'''
+			トラップと財宝を見抜く視界を得る
+			「スペランキー？」
+			'''
+		DisplayName: ウジャトの目
+	}
+
+	SweetHeart: {
+		Tooltip:
+			'''
+			攻撃にライフ吸収を付与
+			自身のライフ再生が2 HP/秒低下
+			「鼓動のたびに罪悪感は重くなる」
+			'''
+		DisplayName: スイートハート
+	}
+
+	RubberCement: {
+		Tooltip:
+			'''
+			飛翔体がバウンドするようになる
+			「味が変」
+			'''
+		DisplayName: ラバーセメント
+	}
+
+	BrokenWatch: {
+		Tooltip:
+			'''
+			{0} で周囲の飛翔体と生物の時間を遅くしたり早めたりする
+			クールダウン：20秒
+			「二度と遅れないために…」
+			'''
+		DisplayName: 壊れた時計
+	}
+
+	HiveBlood: {
+		Tooltip:
+			'''
+			常時ハチミツのバフを得る
+			被ダメージの10％を回復
+			「存在を尊べ、さもなくば抵抗を覚悟せよ」
+			'''
+		DisplayName: ハイブブラッド
+	}
+
+	SuspiciousLookingMask: {
+		Tooltip:
+			'''
+			同じデバフにかかっている間、5秒ごとに持続時間を短縮
+			被弾時に影の精霊が敵を攻撃
+			「殺せないなら…もっと狂わせる？」
+			'''
+		DisplayName: 疑わしい顔つきの仮面
+	}
+
+	SerpentsKiss: {
+		Tooltip:
+			'''
+			攻撃が敵に毒を付与
+			あなたを攻撃した敵は毒にかかる
+			「致死の口づけ」
+			'''
+		DisplayName: 蛇の口づけ
+	}
+
+	FireBomb: {
+		Tooltip:
+			'''
+			非クリティカル攻撃で敵に発火を付与
+			燃焼中の敵へのクリティカルは爆発を誘発
+			「さあ放火だ！」
+			'''
+		DisplayName: ファイアボム
+	}
+
+	DevilsTrumpet: {
+		Tooltip:
+			'''
+			攻撃が敵の毒を猛毒に変換
+			「いや、あの“ヴェノム”ではない」
+			'''
+		DisplayName: 魔の喇叭
+	}
+
+	GodHead: {
+		Tooltip:
+			'''
+			12％の確率で飛翔体を反射する後光を得る
+			「未知の次元より来た守護の後光」
+			'''
+		DisplayName: ゴッドヘッド
+	}
+
+	Censer: {
+		Tooltip:
+			'''
+			減速オーラを付与
+			「のろまばかりだ」
+			'''
+		DisplayName: 香炉
+	}
+
+	SlippedRib: {
+		Tooltip:
+			'''
+			周囲を回る骨を得て、飛翔体を反射
+			「以前の持ち主が誰か、重要だろうか？」
+			'''
+		DisplayName: 脱臼した肋骨
+	}
+
+	GolemsHeart: {
+		Tooltip:
+			'''
+			反発するオーラを付与
+			「まだ鼓動しているのか？」
+			'''
+		DisplayName: ゴーレムハート
+	}
+
+	AfterimageMirror: {
+		Tooltip:
+			'''
+			16％の確率で飛翔体を反射
+			「過ちを反射（反省）せよ」
+			'''
+		DisplayName: 残光の鏡
+	}
+
+	ButtonBomb: {
+		Tooltip:
+			'''
+			飛翔体が敵にボタン爆弾を残す
+			「ちょっとした悪ふざけ」
+			'''
+		DisplayName: ボタンボム
+	}
+
+	CursedChain: {
+		Tooltip:
+			'''
+			被ダメージが50％増加
+			受けたダメージの50％を6秒かけて回復
+			「計算されたリスク」
+			'''
+		DisplayName: 呪われた鎖
+	}
+
+	ValiantArmor: {
+		Tooltip:
+			'''
+			最大ライフ+50
+			被ダメージを10％軽減
+			狙われやすくなる
+			「英雄にふさわしい不撓不屈」
+			'''
+		DisplayName: 勇壮の鎧
+	}
+
+	PhantomPopper: {
+		Tooltip:
+			'''
+			魔法の飛翔体が誘導ミサイルに分裂
+			「ちょっとした弾幕スパム」
+			'''
+		DisplayName: ファントムポッパー
+	}
+
+	Mardroeme: {
+		Tooltip:
+			'''
+			使用時に50ダメージを受け、回復は遅延する
+			「食べ続ければ、世界はもう同じではいられない…」
+			'''
+		DisplayName: マルドロエメ
+	}
+
+	MedicalIceBag: {
+		Tooltip:
+			'''
+			発火！と毒をバフに変換
+			自身のデバフの持続時間を20％短縮
+			「ひんやり気分」
+			'''
+		DisplayName: 医療用氷嚢
+	}
+
+	ArmorConversion: {
+		Tooltip:
+			'''
+			最大ライフ+80
+			防御力-8
+			追加で2 HP/秒回復
+			「健康すぎて死ねない」
+			'''
+		DisplayName: 装甲転換
+	}
+
+	FallingBlossomEmotion: {
+		Tooltip:
+			'''
+			攻撃を回避する{0}の確率を付与
+			確率は移動速度ボーナスで上昇
+			「結界対策の秘術の痕跡を含む」
+			'''
+		DisplayName: 落花情
+	}
+
+	Ankh: {
+		Tooltip:
+			'''
+			致死ダメージを受けてもライフ半分で生存
+			クールダウン：1分
+			「永遠の命」
+			'''
+		DisplayName: お守り
+	}
+
+	BrokenAnkh: {
+		Tooltip:
+			'''
+			22.22％の確率で、致死ダメージを受けてもライフ100で生存
+			「永遠の命…なのか？」
+			'''
+		DisplayName: 壊れたお守り
+	}
+}
+

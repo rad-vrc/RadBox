@@ -1,0 +1,68 @@
+Configs: {
+	dethCounterConfig: {
+		Headers: {
+			LeaderboardDisplaySetting: ランキング表示の設定
+			DataConfig: データ設定
+			Server: サーバー
+			ShorterRespawn: リスポーン短縮
+		}
+
+		leaderboardShowNum: {
+			Tooltip: 15人を超える場合はUIが崩れる可能性があるため通常は変更不要です
+			Label: ランキングUIに表示する順位の最大数
+		}
+
+		updateTime: {
+			Tooltip: 値を小さくしすぎると低スペックなサーバーでラグの原因になります
+			Label: サーバーでのデータ更新間隔
+		}
+
+		enableShorterRespawn: {
+			Tooltip: リスポーン時間の短縮を有効にします
+			Label: リスポーン短縮を有効化
+		}
+
+		saveWorldSide: {
+			Tooltip: プレイヤーファイルではなくワールドファイルにデータを保存します
+			Label: データをワールド側に保存
+		}
+
+		respawnSetBoss: {
+			Tooltip: ボス戦中のリスポーン時間を設定します
+			Label: ボス戦中のリスポーン時間
+		}
+
+		respawnSet: {
+			Tooltip: リスポーン時間を設定します
+			Label: リスポーン時間
+		}
+
+		cannotChangeConfigOnServer: {
+			Tooltip: 専用サーバーとホスト&プレイで動作します
+			Label: サーバー上でプレイヤーの設定変更を禁止
+		}
+
+		spawnReduceByBoss: {
+			Tooltip: 導入済みのリスポーン短縮Modがバニラの時間からどれだけ短縮するか（ボス戦中）
+			Label: Modによるボス戦のリスポーン短縮量
+		}
+
+		spawnReduceBy: {
+			Tooltip: 導入済みのリスポーン短縮Modがバニラの時間からどれだけ短縮するか
+			Label: Modによるリスポーン短縮量
+		}
+
+		DisplayName: Mod設定
+	}
+}
+
+Keybinds: {
+	OpenMenu: {
+		DisplayName: メニューを開く
+	}
+
+	"Open Menu": {
+		DisplayName: メニューを開く
+	}
+}
+

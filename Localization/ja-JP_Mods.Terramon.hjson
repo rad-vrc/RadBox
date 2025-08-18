@@ -1,0 +1,1534 @@
+Buffs: {
+	PokemonCompanion: {
+		DisplayName: "ポケモンの仲間"
+		Description: "{0}があなたに付き従っている！"
+	}
+}
+
+Commands: {
+	RequiresDebugMode: "このコマンドを使用するには、MOD設定でチートコマンドの許可を有効にする必要がある。"
+
+	DexEdit: {
+		Description: "図鑑のステータスを強制的に設定する"
+		Usage: "/dexedit <id> <status>"
+		ParseErrorID: "ID引数を整数として解析できなかった"
+		ParseErrorStatus: "ステータス引数を整数として解析できなかった"
+		StatusOutOfRange: "ステータス引数が範囲外（0-2）"
+		IDOutOfRange: "図鑑のエントリ{0}は範囲外（1-{1}）"
+		Success: "図鑑エントリ{0}のステータスを{1}に設定した"
+	}
+
+	Nickname: {
+		Description: "ポケモンのニックネームを設定する"
+		Usage: "/nickname <set|clear> <nickname>"
+
+		Set: {
+			NoActivePokemon: "現在アクティブなポケモンがいない"
+			NoNicknameProvided: "ニックネームが指定されていない"
+			NicknameTooLong: "ニックネームは12文字以内（スペースを含む）にする必要がある"
+			SameNickname: "ニックネームは既にその値に設定されている"
+			SuccessNew: "{0}のニックネームを{1}に設定した"
+			SuccessUpdate: "{0}のニックネームを{1}から{2}に変更した"
+		}
+
+		Clear: {
+			NoNicknameSet: "このポケモンにはニックネームが設定されていない"
+			Success: "{0}のニックネームを消去した"
+		}
+
+		InvalidSubcommand: "無効なサブコマンド。「set」または「clear」を使用すること"
+	}
+
+	Party: {
+		ParseErrorSlot: "スロット引数を整数として解析できなかった"
+		SlotOutOfRange: "スロット引数が範囲外（1-6）"
+	}
+
+	PartyClear: {
+		Description: "指定したポケモンをパーティから除外する"
+		Usage: "/partyclear <slot|all>"
+		NoPokemonInSlot: "スロット{0}にポケモンが見つからない"
+		Success: "{0}をパーティから除外した"
+		SuccessAll: "全てのポケモンをパーティから除外した"
+	}
+
+	PartyData: {
+		Description: "指定したパーティのポケモンの情報をログに出力する"
+		Usage: "/partydata <slot>"
+		NoPokemonInSlot: "スロット{0}に利用可能なポケモンデータがない"
+		Success: "スロット{0}のポケモンデータをclient.logに書き出した"
+	}
+
+	PokeClear: {
+		Description: "ワールド内のすべてのアクティブなポケモンNPCを消去する"
+		Usage: "/pokeclear"
+		Success: "{0}体のポケモンNPCを消去した"
+		SuccessByPlayer: "{0}が{1}体のポケモンNPCを消去した"
+	}
+
+	PC: {
+		Description: "どこからでもポケモンストレージシステム（PC）を開く"
+		Usage: "/pc"
+	}
+
+	Dex: {
+		Description: "ポケモン図鑑を開く"
+		Usage: "/dex"
+	}
+
+	Upgrade: {
+		Description: "プレリリースバージョンからポケモンを転送する"
+		Usage: "/upgrade"
+		TypeResolveError: "一つ以上の必要なレガシータイプが見つからなかった！この問題をTerramon開発者に報告してください"
+		NopUpgrade: "インベントリにアップグレードするポケモンが見つからなかった"
+		Success: "{0}体のポケモンを{1}のPCにアップグレードして転送した"
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: "クライアント設定"
+
+		Headers: {
+			Miscellaneous: "各種設定"
+			GUI: "GUI"
+			Accessibility: "アクセシビリティ"
+		}
+
+		FastEvolution: {
+			Label: "高速進化"
+			Tooltip: "ふしぎなアメを使用したときにポケモンを自動的に進化させるかどうか（させない場合はポケモンショップ店員に話しかける）"
+		}
+
+		ShowPokedexRegistrationMessages: {
+			Label: "図鑑登録メッセージ"
+			Tooltip: "新しいポケモンが図鑑に登録されたときにチャットでメッセージを表示するかどうか"
+		}
+
+		ReducedAudio: {
+			Label: "（パーティサイドバー）オーディオの簡略化"
+			Tooltip: "サイドバーでポケモンを並べ替える際の音楽的なトーンを無効にする"
+		}
+
+		ReducedMotion: {
+			Label: "（インベントリスロット）モーションの簡略化"
+			Tooltip: "インベントリのパーティスロットを切り替える際のスライドアニメーションを無効にする"
+		}
+
+		ModIconType: {
+			Label: "Modアイコンタイプ"
+			Tooltip: "Modのアイコンを変更する"
+		}
+
+		AnimatedModIcon: {
+			Label: "アニメーション付きModアイコン"
+			Tooltip: "Modが有効なとき、ModsメニューでModのアイコンをアニメーションさせる"
+		}
+
+
+
+		RainbowBuffText: {
+			Label: "レインボーバフテキスト"
+			Tooltip: "ポケモンの仲間のバフ名が虹色に変化する"
+		}
+	}
+
+	GameplayConfig: {
+		DisplayName: "ゲームプレイ設定"
+
+		Headers: {
+			Spawning: "出現"
+			Visuals: "ビジュアル"
+			Miscellaneous: "その他"
+			Advanced: "高度な設定"
+		}
+
+		PokemonSpawnRateMultiplier: {
+			Label: "ポケモン出現率の倍率"
+			Tooltip: "野生のポケモンの出現率に乗算する\n[c/F2A754:0に設定すると、ポケモンは一切出現しない]"
+		}
+
+		SpawningStage: {
+			Label: "出現段階"
+			Tooltip: "野生で出現するポケモンの段階（高い段階は全ての下位段階を含む）"
+		}
+
+		EncourageDespawning: {
+			Label: "デスポーンの推奨"
+			Tooltip: "エリアを離れたときに、新しい出現のために野生のポケモンがデスポーンしやすくなるかどうか"
+		}
+
+		ShinySpawnRate: {
+			Label: "色違い出現率"
+			Tooltip: "野生で色違いポケモンが出現する確率（1/x）"
+		}
+
+		FastAnimations: {
+			Label: "高速アニメーション"
+			Tooltip: "特定のイベント（例：ポケモンを捕まえる）のアニメーションをスキップするかどうか"
+		}
+
+		ShinyLockedStarters: {
+			Label: "スターターポケモンの色違い防止"
+			Tooltip: "スターターポケモンが色違いになるのを防ぐ"
+		}
+
+		DebugMode: {
+			Label: "チートコマンドを許可"
+			Tooltip: "チャットでのチートコマンド（例：/pokeclear）の使用を有効にする\n[c/F2A754:通常のゲームプレイを妨げる可能性がある]"
+		}
+	}
+
+	SpawningStage: {
+		Tooltip: ""
+
+		Basic: {
+			Label: "未進化/基礎ポケモン"
+		}
+
+		Stage1: {
+			Label: "1段階進化/ステージ1ポケモン"
+		}
+
+
+
+		Stage2: {
+			Label: "2段階進化/ステージ2ポケモン"
+		}
+
+		Legendary: {
+			Label: "伝説/幻のポケモン"
+		}
+	}
+}
+
+GUI: {
+	Inventory: {
+		ShowParty: "パーティを表示"
+		HideParty: "パーティを隠す"
+		OpenPokedex: "図鑑を開く"
+		SlotName: "{0} (Lv. {1})"
+		SlotTooltip: "HP: {0}/{1}\nEXP: {2}/{3}"
+		SlotTooltipMaxLevel: "HP: {0}/{1}\nEXP: MAX"
+		SlotTooltipPCMode: "[c/FFFFFF:パーティ内]"
+		SlotTooltipPCModeActive: "[c/FFFFFF:パーティ内 (アクティブ)]"
+		CannotRemoveLastPokemon: "パーティには少なくとも1体のポケモンが必要！"
+	}
+
+	Starter: {
+		Title: "ポケモンの世界へようこそ！TerramonMODをご利用いただきありがとうございます！"
+		Subtitle: "さあ、冒険を始めるためにスターターポケモンを選んでください！"
+		Hint: "(閉じるにはBackを押してください)"
+		ComingSoon: "近日公開..."
+		ChosenMessage: "{0}の[c/{1}:{2}]を最初のパートナーとして選んだ！"
+	}
+
+	NPCShop: {
+		PremierBonus: "おまけにプレミアボールを1個手に入れた！"
+		PremierBonusPlural: "おまけにプレミアボールを{0}個手に入れた！"
+	}
+
+	Party: {
+		LevelDisplay: "Lv.{0}"
+		SlotHover: "左クリックで出す"
+		SlotHoverActive: "左クリックで戻す"
+		SlotHoverExtra: "\n\nクリック＆ドラッグで並び替え\n"
+	}
+
+	Pokedex: {
+		NumberPrefix: "No."
+		ShowingRange: "{0}～{1}を表示中 ({2})"
+		Obtained: "捕まえた数"
+		Seen: "見つけた数"
+		ObtainedBy: "\n\n[c/FFE745:{0}によって捕獲済み]\n"
+		SeenBy: "\n\n[c/FFE745:{0}によって発見済み]\n"
+		Completion: "{0}% 達成"
+		PlayerDexFilter: "{0}の図鑑を表示"
+		PlayerShinyDexFilter: "{0}の色違い図鑑を表示"
+		WorldDexFilter: "ワールド図鑑を表示"
+		ShinyWorldDexFilter: "色違いワールド図鑑を表示"
+		Height: "たかさ"
+		Weight: "おもさ"
+		Entry: "せつめい"
+	}
+}
+
+CommonTooltips: {
+	Apricorn: "きのみに関連すると思われる特別な果実\n様々な種類のポケボールを製作するために使用できる"
+	EvolutionaryItem: "進化用アイテム"
+	KeyItem: "キーアイテム"
+	Vitamin: "ビタミン"
+	RightClickPlace: "右クリックで設置可能"
+	PCItems: "ポケモンストレージシステムにアクセスする"
+	PokeBallMinis: "装飾用\nアイテムフレームに設置可能"
+	Unobtainable: "入手不可"
+}
+
+Items: {
+	PokeBallItem: {
+		DisplayName: "ポケボール"
+		Tooltip: "野生のポケモンを捕まえるための装置\n対象に向かってボールのように投げる"
+		CatchRate: "捕獲率x1"
+	}
+
+	PokeBallMiniItem: {
+		DisplayName: "ポケボール（ミニ）"
+		Tooltip: ""
+	}
+
+	GreatBallItem: {
+		DisplayName: "グレートボール"
+		Tooltip: "高性能なポケボール\n通常のポケボールよりも高い捕獲率を持つ"
+		CatchRate: "捕獲率x1.5"
+	}
+
+	GreatBallMiniItem: {
+		DisplayName: "グレートボール（ミニ）"
+		Tooltip: ""
+	}
+
+	UltraBallItem: {
+		DisplayName: "ウルトラボール"
+		Tooltip: "超高性能なポケボール\nグレートボールよりも高い捕獲率を持つ"
+		CatchRate: "捕獲率x2"
+	}
+
+	UltraBallMiniItem: {
+		DisplayName: "ウルトラボール（ミニ）"
+		Tooltip: ""
+	}
+
+	MasterBallItem: {
+		DisplayName: "マスターボール"
+		Tooltip: "究極の性能を誇る最高のポケボール\nどんな野生のポケモンも必ず捕獲する"
+		CatchRate: "捕獲率100%"
+	}
+
+	MasterBallMiniItem: {
+		DisplayName: "マスターボール（ミニ）"
+		Tooltip: ""
+	}
+
+	PremierBallItem: {
+		DisplayName: "プレミアボール"
+		Tooltip: "やや珍しいポケボール\n何らかのイベントを記念して作られた記念品"
+		CatchRate: "捕獲率x1"
+	}
+
+	PremierBallMiniItem: {
+		DisplayName: "プレミアボール（ミニ）"
+		Tooltip: ""
+	}
+
+	CherishBallItem: {
+		DisplayName: "プレシャスボール"
+		Tooltip: "非常に珍しいポケボール\n特別な機会を記念して作られた"
+		CatchRate: "捕獲率x1"
+	}
+
+	CherishBallMiniItem: {
+		DisplayName: "プレシャスボール（ミニ）"
+		Tooltip: ""
+	}
+
+	AetherBallItem: {
+		DisplayName: "エーテルボール"
+		Tooltip: "輝くエネルギーを宿した幻想的なポケボール\n野生のポケモンを落ち着かせる効果があると言われている"
+		CatchRate: "捕獲率x1"
+	}
+
+	AetherBallMiniItem: {
+		DisplayName: "エーテルボール（ミニ）"
+		Tooltip: ""
+	}
+
+	RareCandy: {
+		DisplayName: "ふしぎなアメ"
+		Tooltip: "エネルギーが詰まったアメ\n消費するとポケモンのレベルが1上がる"
+	}
+
+	TrainerCap: {
+		DisplayName: "ポケモントレーナーキャップ"
+		Tooltip: "「ゲットだぜ！」"
+	}
+
+	TrainerTorso: {
+		DisplayName: "ポケモントレーナージャケット"
+		Tooltip: "「ゲットだぜ！」"
+	}
+
+	TrainerLegs: {
+		DisplayName: "ポケモントレーナージーンズ"
+		Tooltip: "「ゲットだぜ！」"
+	}
+
+	MusicItemCenter: {
+		DisplayName: "ミュージックボックス（ポケモンセンター）"
+		Tooltip: ""
+	}
+
+	MusicItemWildBattle: {
+		DisplayName: "ミュージックボックス（戦闘！野生ポケモン）"
+		Tooltip: ""
+	}
+
+	ShinyCharm: {
+		DisplayName: "ひかるおまもり"
+		Tooltip: "野生で色違いのポケモンを見つける確率を上げると言われるお守り\n図鑑に全てのポケモンを登録することで報酬として得られる"
+	}
+
+	FireStone: {
+		DisplayName: "ほのおのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「炎のようなオレンジ色の心を持つ」"
+	}
+
+	WaterStone: {
+		DisplayName: "みずのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「透き通る水面の青さを持つ」"
+	}
+
+	ThunderStone: {
+		DisplayName: "かみなりのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「稲妻の模様が刻まれている」"
+	}
+
+	LeafStone: {
+		DisplayName: "リーフのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「特徴的な葉の模様を持つ」"
+	}
+
+	MoonStone: {
+		DisplayName: "つきのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし。\n「小惑星の岩のような質感に似ている」"
+	}
+
+	DuskStone: {
+		DisplayName: "やみのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「可能な限り暗い影を宿す」"
+	}
+
+	IceStone: {
+		DisplayName: "こおりのいし"
+		Tooltip: "特定のポケモンを進化させるためのいし\n「特徴的な雪の結晶模様を持つ」"
+	}
+
+	LinkingCord: {
+		DisplayName: "つながりのヒモ"
+		Tooltip: "不思議な繋がりを感じさせるヒモ\n「一部のポケモンに愛されている」"
+	}
+
+	BlackApricorn: {
+		DisplayName: "くろぼんぐり"
+	}
+
+	BlueApricorn: {
+		DisplayName: "あおぼんぐり"
+	}
+
+	GreenApricorn: {
+		DisplayName: "みどぼんぐり"
+	}
+
+	PinkApricorn: {
+		DisplayName: "ももぼんぐり"
+	}
+
+	RedApricorn: {
+		DisplayName: "あかぼんぐり"
+	}
+
+	WhiteApricorn: {
+		DisplayName: "しろぼんぐり"
+	}
+
+	YellowApricorn: {
+		DisplayName: "きぼんぐり"
+	}
+
+	ExpCandyXS: {
+		DisplayName: "けいけんアメXS"
+		Tooltip: "エネルギーが詰まったアメ\n消費するとごく少量の経験値を与える"
+	}
+
+	ExpCandyS: {
+		DisplayName: "けいけんアメS"
+		Tooltip: "エネルギーが詰まったアメ\n消費すると少量の経験値を与える"
+	}
+
+	ExpCandyM: {
+		DisplayName: "けいけんアメM"
+		Tooltip: "エネルギーが詰まったアメ\n消費すると中程度の経験値を与える"
+	}
+
+	ExpCandyL: {
+		DisplayName: "けいけんアメL"
+		Tooltip: "エネルギーが詰まったアメ\n消費すると大量の経験値を与える"
+	}
+
+	ExpCandyXL: {
+		DisplayName: "けいけんアメXL"
+		Tooltip: "エネルギーが詰まったアメ\n消費すると非常に大量の経験値を与える"
+	}
+
+	ShimmerStateDrive: {
+		DisplayName: "SSD（シマーステートドライブ）"
+		Tooltip: "このワールドで共有PCボックスを恒久的に解除する\nこれにより、プレイヤー間でポケモンを簡単に移動できる\n「エーテル財団の所有物」"
+	}
+
+
+	PCItemRed: {
+		DisplayName: "PC（レッド）"
+		Tooltip: ""
+	}
+
+	PCItemWhite: {
+		DisplayName: "PC（ホワイト）"
+		Tooltip: ""
+	}
+
+	ErikaPaintingItem: {
+		DisplayName: "エリカの絵画"
+		Tooltip: "「L. Walter」"
+	}
+}
+
+Keybinds: {
+	ToggleParty: {
+		DisplayName: "パーティ切り替え"
+	}
+
+	OpenPokedex: {
+		DisplayName: "図鑑を開く"
+	}
+
+	OpenPokedexEntry: {
+		DisplayName: "ポケモンの図鑑を開く"
+	}
+}
+
+Tiles: {
+	MusicBoxCenter: {
+		MapEntry: "ミュージックボックス"
+	}
+
+	MusicBoxWildBattle: {
+		MapEntry: "ミュージックボックス"
+	}
+
+	PCWhite: {
+		MapEntry: "PC"
+	}
+
+	PCRed: {
+		MapEntry: "PC"
+	}
+}
+
+Types: {
+	Normal: "ノーマル"
+	Fire: "ほのお"
+	Fighting: "かくとう"
+	Water: "みず"
+	Flying: "ひこう"
+	Grass: "くさ"
+	Poison: "どく"
+	Electric: "でんき"
+	Ground: "じめん"
+	Psychic: "エスパー"
+	Rock: "いわ"
+	Ice: "こおり"
+	Bug: "むし"
+	Dragon: "ドラゴン"
+	Ghost: "ゴースト"
+	Dark: "あく"
+	Steel: "はがね"
+	Fairy: "フェアリー"
+}
+
+NPCs: {
+	PokemartClerk: {
+		DisplayName: "フレンドリィショップ店員"
+		BestiaryText: "フレンドリィショップの店員は献身的な販売員で、ポケモントレーニングに必要な様々なアイテムを取り揃えている。"
+		EvolveButton: "{0}を進化させる"
+
+		TownNPCMood: {
+			Content: "自分の住まいがとても気に入っている。"
+			NoHome: "住む場所があればいいのに。"
+			FarFromHome: "故郷が恋しい。"
+			LoveSpace: "野生ポケモンがたくさん出現する広々とした空間が大好き！"
+			DislikeCrowded: "話す相手はたくさんいるが、少し混雑している。"
+			HateCrowded: "ここは住む人が多すぎる！"
+			LikeBiome: "{BiomeName}にはたくさんのポケモンがいて楽しい！"
+			DislikeBiome: "{BiomeName}は嫌いだ。不気味だし、すべてが襲いかかってくる！"
+			LikeNPC: "{NPCName}は好きだ。とても助けてくれた。"
+			DislikeNPC: "{NPCName}は少し騒々しいと思う。"
+			HateNPC: "{NPCName}は大嫌いだ。ポケモンを尊重しない。"
+			LikeNPC_Princess: "{NPCName}は好きだ。嫌いな人なんている？"
+			Princess_LovesNPC: "{NPCName}は好き。"
+		}
+
+		Dialogue: {
+			Catchem: "野生のポケモンはたくさんいるが、捕まえるにはポケボールが必要！運良く、在庫がある。"
+			Furret: "ジョウト地方にはオオタチというポケモンがいる。彼らは歩くのが大好きさ！"
+			CheckBack: "旅が進むにつれて、新しい品を提供する。時々ここをチェックすること。"
+			Biomes: "ポケモンは様々な場所に生息するのが好きだ。旅をすれば新たなポケモンに出会えるかもしれない！"
+			Regions: "世界には様々な地域がある。いつか全てを訪れたい。"
+			Crafting: "ポケボールを便利に販売しているが、お金が足りない場合はぼんぐりと{0}を使って自作することも可能さ！"
+	                EvolutionStones: "特定の石に触れると進化するポケモンもいる。非常に希少だ。"
+			SickBurn: "Mobile Creaturesのリメイクが発表された！ただ、アートスタイルについてはどう感じるか微妙だ…。"
+			Dedication: "{0}にポケモンが現れ始めてから、人々がポケモンについてもっと学べるよう手助けすることに人生を捧げている。"
+			NoBattleRip: "ここのポケモンはとても平和的だ。生き物同士がこんなに仲良くしているのは珍しい。"
+			BadName: "さて、皆さんも思うだろう。『なんて創造的な名前なんだ！』と。"
+			Shimmer: "私の服装はどう？まるで本物のポケモントレーナーのようだ！"
+			ShimmerQuery: "シマーについて聞いたことはあるか？どうやら自分専用の色違いフォームを与えてくれるらしい！"
+			PokemonHello: "それはきみの{0}か？こんにちは、{1}！"
+			PokemonGrass: "あれはくさタイプのポケモンか？大好きだ！"
+			PokemonIce: "こおりタイプのポケモンだ！ずっと見ていたい。"
+			PokemonShiny: "あれは色違いポケモンか？素晴らしい！自分も欲しい。"
+			PokemonShimmer: "面白い…きみのポケモンは色違いと同じ色をしているが、輝きがない。"
+			PokemonNicknameHowto: "ポケモンにニックネームを付けられることを知っていたか？チャットで「/nickname」とお好みの名前を入力するんだ。"
+			PokemonNickname: "{0}？素敵な名前だ！きみがポケモンをとても大切にしていることが伝わってくる。"
+			MerchantComment: "{0}は少し欲張りかもしれないが、商売について知っていることは全て彼から教わった。"
+			MechanicComment: "{0}はポケボールについて詳しい。いつか私ももっと多くの種類を売れるようになるかもしれない！"
+			PirateComment: "{0}と話してみたか？彼が何を言っているのか全く理解できない。"
+			ArmsDealerComment: "{0}にポケモンを撃つのをやめるよう言ってくれないか？"
+			EvolutionCongrats: "おめでとう！{0}は{1}に進化した！"
+		}
+
+		Census: {
+			SpawnCondition: "条件不明"
+
+		}
+	}
+}
+
+WorldGen: {
+	ItemsPass: "アメを散布中"
+}
+
+Misc: {
+	CatchSuccess: "やったー！ [c/{0}:{1}]を捕まえた！"
+	CatchSuccessPC: "やったー！ [c/{0}:{1}]を捕まえて{3}のPCに転送した！"
+	CatchSuccessPCNoRoom: "やったー！ [c/{0}:{1}]を捕まえたが、{2}のPCに空きがなかった！"
+	PokedexRegistered: "{0}のデータが図鑑に登録された。"
+	PCBoxDefaultName: "ボックス{0}"
+	RequireStarter: "最初にスターターポケモンを選ぶ必要がある！"
+	NoActivePokemon: "それをするにはアクティブなポケモンが必要！"
+	ItemNoEffect: "{0}には効果がないようだ。"
+	PokemonEvolved: "{0}は{1}に進化した！"
+	PokemonEvolutionReady: "{0}は進化の準備ができたようだ！"
+
+	RareCandyUse: "{0}はLv.{1}になった！"
+	ExpCandyUse: "ポケモンは{0}の経験値を手に入れた！"
+	MOTD: "Terramon v{1}をインストールしました—お楽しみください！[i:{2}]\n\n[c/C9C9E5:Mod設定メニューで好みに合わせてModをカスタマイズし、操作設定メニューでキーバインドを設定してください。]"
+}
+
+
+Pokemon: {
+	Bulbasaur: {
+		DisplayName: "フシギダネ"
+		Species: "たねポケモン"
+		DexEntry: "うまれたときから せなかに ふしぎな タネが うえてあって からだと ともに そだつ。"
+	}
+
+	Ivysaur: {
+		DisplayName: "フシギソウ"
+		Species: "たねポケモン"
+		DexEntry: "せなかの つぼみは えいようを きゅうしゅうして おおきな はなを さかせると いわれている。"
+	}
+
+	Venusaur: {
+		DisplayName: "フシギバナ"
+		Species: "たねポケモン"
+		DexEntry: "おおきな はなびらを ひろげ たいようの ひかりを あびることで ぜんしんに ちからを たくわえる。"
+	}
+
+	Charmander: {
+		DisplayName: "ヒトカゲ"
+		Species: "とかげポケモン"
+		DexEntry: "しっぽの ほのおは ヒトカゲの いのちの ともしび。げんきだと ほのおは あざやかに もえあがる。"
+	}
+
+	Charmeleon: {
+		DisplayName: "リザード"
+		Species: "かえんポケモン"
+		DexEntry: "しっぽで てきを たたきのめし、するどい ツメで たおれた あいてを ひきさく。"
+	}
+
+	Charizard: {
+		DisplayName: "リザードン"
+		Species: "かえんポケモン"
+		DexEntry: "もうれつな かえんを はくと しっぽさきの あかい ほのおが さらに はげしく もえあがる。"
+	}
+
+	Squirtle: {
+		DisplayName: "ゼニガメ"
+		Species: "かめのこポケモン"
+		DexEntry: "こうらに みを かくし すきを みて みずを ふんしゃして はんげきする。"
+	}
+
+	Wartortle: {
+		DisplayName: "カメール"
+		Species: "かめポケモン"
+		DexEntry: "タップすると あたまを ひっこめるが おは すこしだけ でたまま。"
+	}
+
+	Blastoise: {
+		DisplayName: "カメックス"
+		Species: "こうらポケモン"
+		DexEntry: "おもい からだで てきを おしつぶし きぜつさせる。こまったときは こうらの なかに かくれる。"
+	}
+
+	Caterpie: {
+		DisplayName: "キャタピー"
+		Species: "いもむしポケモン"
+		DexEntry: "てきから みを まもるため あたまの しょっかくから いやな においを だして おいはらう。"
+	}
+
+	Metapod: {
+		DisplayName: "トランセル"
+		Species: "さなぎポケモン"
+		DexEntry: "かたい カラが やわらかい からだを まもり しんかを まつ あいだ しずかに くなんに たえる。"
+	}
+
+	Butterfree: {
+		DisplayName: "バタフリー"
+		Species: "ちょうちょポケモン"
+		DexEntry: "はなの みつが だいすきで しょうりょうの かふんが ある かだんも みつけだせる。"
+	}
+
+	Weedle: {
+		DisplayName: "ビードル"
+		Species: "けむしポケモン"
+		DexEntry: "もりや そうげんに よく せいそくし あたまの うえに やく5センチの するどい どくばりを もつ。"
+	}
+
+	Kakuna: {
+		DisplayName: "コクーン"
+		Species: "さなぎポケモン"
+		DexEntry: "ほとんど うごけず きけんを かんじると カラを かためて みを まもるだけ。"
+	}
+
+	Beedrill: {
+		DisplayName: "スピアー"
+		Species: "どくばちポケモン"
+		DexEntry: "まえあしと おに 3ぼんの どくばりを もち てきを つぎつぎと つくために しようする。"
+	}
+
+	Pidgey: {
+		DisplayName: "ポッポ"
+		Species: "ことりポケモン"
+		DexEntry: "もりや はやしで よく みかける ポケモン。ていくうで つばさを ひろげ まぶしい すなを まきあげる。"
+	}
+
+	Pidgeotto: {
+		DisplayName: "ピジョン"
+		Species: "とりポケモン"
+		DexEntry: "あしの ツメが はったつしており ナッシーのような えものを すまで はこぶことが できる。"
+	}
+
+	Pidgeot: {
+		DisplayName: "ピジョット"
+		Species: "とりポケモン"
+		DexEntry: "かりの さい こうそくで すいめんを すべり ゆだんした えもの（コイキングなど）を おそう。"
+	}
+
+	Rattata: {
+		DisplayName: "コラッタ"
+		Species: "ねずみポケモン"
+		DexEntry: "たべものが ある ところなら どこでも せいそくし いちにちじゅう たえず しょくりょうを あさる。"
+	}
+
+	Raticate: {
+		DisplayName: "ラッタ"
+		Species: "ねずみポケモン"
+		DexEntry: "たえず のびる きばを かたいものを かじって けずり レンガの かべさえも かみくだくことが できる。"
+	}
+
+	Spearow: {
+		DisplayName: "オニスズメ"
+		Species: "ことりポケモン"
+		DexEntry: "なわばりに ひじょうに びんかんで みじかい つばさを すばやく はばたかせて かけまわる。"
+	}
+
+	Fearow: {
+		DisplayName: "オニドリル"
+		Species: "くちばしポケモン"
+		DexEntry: "きょだいで そうごんな つばさを もち やすむために ちゃくりくすることなく とびつづけられる。"
+	}
+
+	Ekans: {
+		DisplayName: "アーボ"
+		Species: "へびポケモン"
+		DexEntry: "としを とるほど ながくなり よるは ながい からだを きの えだに まきつけて やすむ。"
+	}
+
+	Arbok: {
+		DisplayName: "アーボック"
+		Species: "コブラポケモン"
+		DexEntry: "おなかの もようは おそろしい かおのように みえ よわい てきは そのもようを みるだけで にげだす。"
+	}
+
+	Pikachu: {
+		DisplayName: "ピカチュウ"
+		Species: "ねずみポケモン"
+		DexEntry: "しっぽを あげて まわりを かくにんする。この しせいでは たまに かみなりに うたれることも。"
+	}
+
+	Raichu: {
+		DisplayName: "ライチュウ"
+		Species: "ねずみポケモン"
+		DexEntry: "でんきが たまると きんにくが しげきされ ふだんいじょうに こうげきてきに なる。"
+	}
+
+	Sandshrew: {
+		DisplayName: "サンド"
+		Species: "もぐらポケモン"
+		DexEntry: "ちちゅうに もぐり せいかつする。おどかされると まるくなって みを まもる。"
+	}
+
+	Sandslash: {
+		DisplayName: "サンドパン"
+		Species: "ハリネズミポケモン"
+		DexEntry: "きょういてきな はやさで ほるため トゲや ツメが おれることが あり いちにちで さいせいする。"
+	}
+
+	NidoranF: {
+		DisplayName: "ニドラン♀"
+		Species: "どくバリポケモン"
+		DexEntry: "ちいさいながらも どくの ある トゲが このポケモンを きけんな そんざいに している。メスは ツノが ちいさい。"
+	}
+
+	Nidorina: {
+		DisplayName: "ニドリーナ"
+		Species: "どくバリポケモン"
+		DexEntry: "メスは おだやかな せいかくで ちょうおんぱの なきごえで てきを こんらんさせる ちからが ある。"
+	}
+
+	Nidoqueen: {
+		DisplayName: "ニドクイン"
+		Species: "ドリルポケモン"
+		DexEntry: "うろこじょうの がっしりした からだで すの いりぐちを ふさぎ こを ほしょくしゃから まもる。"
+	}
+
+	NidoranM: {
+		DisplayName: "ニドラン♂"
+		Species: "どくバリポケモン"
+		DexEntry: "くさむらから みみを たて まわりを さぐる。どくの ツノは ぼうぎょよう。"
+	}
+
+	Nidorino: {
+		DisplayName: "ニドリーノ"
+		Species: "どくバリポケモン"
+		DexEntry: "おおきな みみを たてて まわりを かくにんし なにかを かんじると そくざに こうげきする。"
+	}
+
+	Nidoking: {
+		DisplayName: "ニドキング"
+		Species: "ドリルポケモン"
+		DexEntry: "いわのように かたい からだと のびた ツノが とくちょう。ツノには どくが ふくまれているので ちゅういが ひつよう。"
+	}
+
+	Clefairy: {
+		DisplayName: "ピッピ"
+		Species: "ようせいポケモン"
+		DexEntry: "まんげつの よるに おどる ピッピの しゅうだんを みると しあわせが おとずれると いわれている。"
+	}
+
+	Clefable: {
+		DisplayName: "ピクシー"
+		Species: "ようせいポケモン"
+		DexEntry: "その ちょうりょくは きょういてきで はんマイル はなれた ばしょでも ピンの らっかおんが きこえる といわれ しずかな やまに せいそくする。"
+	}
+
+	Vulpix: {
+		DisplayName: "ロコン"
+		Species: "きつねポケモン"
+		DexEntry: "うまれたばかりの ときは まっしろな おが 1ぽんだけで せいちょうすると おが わかれていく。"
+	}
+
+	Ninetales: {
+		DisplayName: "キュウコン"
+		Species: "きつねポケモン"
+		DexEntry: "9ほんの ながい おと こんじきに かがやく けを もち 1000ねん いきると いわれている。"
+	}
+
+	Jigglypuff: {
+		DisplayName: "プリン"
+		Species: "ふうせんポケモン"
+		DexEntry: "おおきく まるい めで てきを みりょうし やさしい メロディーで ねむりに さそう。"
+	}
+
+	Wigglytuff: {
+		DisplayName: "プクリン"
+		Species: "ふうせんポケモン"
+		DexEntry: "その けは とても やわらかく 2ひきで よりそうと はまれたく なくなる。"
+	}
+
+	Zubat: {
+		DisplayName: "ズバット"
+		Species: "こうもりポケモン"
+		DexEntry: "めが なくても くちから はっしゃする ちょうおんぱで しょうがいぶつを かんちする。"
+	}
+
+	Golbat: {
+		DisplayName: "ゴルバット"
+		Species: "こうもりポケモン"
+		DexEntry: "いちど かみつくと とぶには おもすぎるほどでも ぎせいしゃの エネルギーを すいとりつづける。"
+	}
+
+	Oddish: {
+		DisplayName: "ナゾノクサ"
+		Species: "ざっそうポケモン"
+		DexEntry: "にっちゅうは たいようを さけるため つめたい ちかに もぐみ げっこうよくで せいちょうする。"
+	}
+
+	Gloom: {
+		DisplayName: "クサイハナ"
+		Species: "ざっそうポケモン"
+		DexEntry: "ひじょうに ふかいな においを はなつが せんにんに ひとり はその きょうれつな においを このむと いわれている。"
+	}
+
+	Vileplume: {
+		DisplayName: "ラフレシア"
+		Species: "フラワーポケモン"
+		DexEntry: "はなびらが おおきいほど より ゆうどくな かふんを ふくみ その おおきな あたまは おもく ささえにくい。"
+	}
+
+	Paras: {
+		DisplayName: "パラス"
+		Species: "きのこポケモン"
+		DexEntry: "からだから つきでた キノコは「トチュウカソウ」と よばれ むしと ともに せいちょうする。"
+	}
+
+	Parasect: {
+		DisplayName: "パラセクト"
+		Species: "きのこポケモン"
+		DexEntry: "やどぬしより おおきく せいちょうした キノコが しはいし どくせいの ほうしを まきちらす。"
+	}
+
+	Venonat: {
+		DisplayName: "コンパン"
+		Species: "こんちゅうポケモン"
+		DexEntry: "おおきな めは じつは ちいさな めの あつまりで よるには ひかりに ひきよせられる。"
+	}
+
+	Venomoth: {
+		DisplayName: "モルフォン"
+		Species: "どくがポケモン"
+		DexEntry: "ひさんする りんぷんは ふれた ものを まひさせ たちあがれなくする。"
+	}
+
+	Diglett: {
+		DisplayName: "ディグダ"
+		Species: "もぐらポケモン"
+		DexEntry: "やく1ヤード ちかで しょくぶつの ねを たべながら せいかつし ときおり ちじょうに すがたを あらわす。"
+	}
+
+	Dugtrio: {
+		DisplayName: "ダグトリオ"
+		Species: "もぐらポケモン"
+		DexEntry: "せんとうちゅう じめんを ほりすすめ ふいを ついて てきに こうげきを しかける。"
+	}
+
+	Meowth: {
+		DisplayName: "ニャース"
+		Species: "ばけねこポケモン"
+		DexEntry: "やこうせいで かがやく ものを みつけると めが キラキラ かがやく。"
+	}
+
+	Persian: {
+		DisplayName: "ペルシアン"
+		Species: "シャムネコポケモン"
+		DexEntry: "けなみは おおくの ひとに あいされているが きまぐれで いじわるなため ペットとして かうのは むずかしい。"
+	}
+
+	Psyduck: {
+		DisplayName: "コダック"
+		Species: "あひるポケモン"
+		DexEntry: "つねに ずつうに くるしんでおり いたみが はげしくなると なぞの ちからを はっきする。"
+	}
+
+	Golduck: {
+		DisplayName: "ゴルダック"
+		Species: "あひるポケモン"
+		DexEntry: "ゆうぐれどきに みずべに あらわれ ひたいが しんぴてきに ひかると ねんりきを つかうことも ある。"
+	}
+
+	Mankey: {
+		DisplayName: "マンキー"
+		Species: "ぶたざるポケモン"
+		DexEntry: "りゆうもなく げきどし なかまと てきを くべつできなくなるので ちかづくのは きけん。"
+	}
+
+	Primeape: {
+		DisplayName: "オコリザル"
+		Species: "ぶたざるポケモン"
+		DexEntry: "だれも いない ときだけ いかりが おさまり その しゅんかんを みるのは ひじょうに こんなん。"
+	}
+
+	Growlithe: {
+		DisplayName: "ガーディ"
+		Species: "こいぬポケモン"
+		DexEntry: "ひじょうに ひとなつっこく ちゅうじつで ほえたり かんだりして てきを おいはらおうとする。"
+	}
+
+	Arcanine: {
+		DisplayName: "ウインディ"
+		Species: "でんせつポケモン"
+		DexEntry: "その うつくしさは ふるくから しょうさんされ つばさを もつかのように しゅんびんに はしる。"
+	}
+
+	Poliwag: {
+		DisplayName: "ニョロモ"
+		Species: "おたまポケモン"
+		DexEntry: "ツルツルした くろい ひふは うすく しめっており ないぶの いちぶが らせんじょうに すけて みえる。"
+	}
+
+	Poliwhirl: {
+		DisplayName: "ニョロゾ"
+		Species: "おたまポケモン"
+		DexEntry: "すいちゅうでも りくじょうでも いきられ すいちゅうに いない ときは つねに あせを かいて からだを ぬめぬめに たもつ。"
+	}
+
+	Poliwrath: {
+		DisplayName: "ニョロボン"
+		Species: "おたまポケモン"
+		DexEntry: "ひじょうに きょうじんな きんにくで たいへいようを やすまずに およぎつづけることが できる。"
+	}
+
+	Abra: {
+		DisplayName: "ケーシィ"
+		Species: "ねんりきポケモン"
+		DexEntry: "いちにちに 18じかん ねむり ねむっている あいだも さまざまな ちょうのうりょくを はっきする。"
+	}
+
+	Kadabra: {
+		DisplayName: "ユンゲラー"
+		Species: "ねんりきポケモン"
+		DexEntry: "ちょうのうりょくを つかうと せいみつききを こわすほどの きょうりょくの アルファはを はなつ。"
+	}
+
+	Alakazam: {
+		DisplayName: "フーディン"
+		Species: "ねんりきポケモン"
+		DexEntry: "のうさいぼうが しぬまで ふえつづけるため すべてを きおくしている。"
+	}
+
+	Machop: {
+		DisplayName: "ワンリキー"
+		Species: "かいりきポケモン"
+		DexEntry: "ゴーリキーを なんども もちあげ ぜんしんを きたえあげ あらゆる かくとうぎを つかう。"
+	}
+
+	Machoke: {
+		DisplayName: "ゴーリキー"
+		Species: "かいりきポケモン"
+		DexEntry: "きんにくしつな からだは ひじょうに きょうりょくで うごきを せいぎょするために パワーセーブベルトを ちゃくようする ひつようが ある。"
+	}
+
+	Machamp: {
+		DisplayName: "カイリキー"
+		Species: "かいりきポケモン"
+		DexEntry: "はったつした 4ほんの うでで たった 2びょうで 1000かいの パンチを くりだす。"
+	}
+
+	Bellsprout: {
+		DisplayName: "マダツボミ"
+		Species: "フラワーポケモン"
+		DexEntry: "ほそみながら しなやかな からだは どんな こうげきも しなって かわすことが できる。"
+	}
+
+	Weepinbell: {
+		DisplayName: "ウツドン"
+		Species: "ハエとりポケモン"
+		DexEntry: "はっぱの カッターで てきを きりさく。あぶなくなると どくのこなを はいて にげる。"
+	}
+
+	Victreebel: {
+		DisplayName: "ウツボット"
+		Species: "ハエとりポケモン"
+		DexEntry: "あまい かおりの する とけるえきで えものを さそいこみ まるのみに してしまう。"
+	}
+
+	Tentacool: {
+		DisplayName: "メノクラゲ"
+		Species: "くらげポケモン"
+		DexEntry: "からだの ほとんどが みずで できており すいしょうのような めから ふしぎな ひかりを はなつ。"
+	}
+
+	Tentacruel: {
+		DisplayName: "ドククラゲ"
+		Species: "くらげポケモン"
+		DexEntry: "ふだんは みじかい しょくしゅだが かりの さいには のばして えものを からめとって うごきを ふうじる。"
+	}
+
+	Geodude: {
+		DisplayName: "イシツブテ"
+		Species: "がんせきポケモン"
+		DexEntry: "のはらや やまなかで よく みかけられ ころがる いわと みまちがわれることも しばしば。"
+	}
+
+	Graveler: {
+		DisplayName: "ゴローン"
+		Species: "がんせきポケモン"
+
+		DexEntry: "じゆうほんぽうな せいかくで ころがる さいに いわが かけても きにしない。"
+	}
+
+	Golem: {
+		DisplayName: "ゴローニャ"
+		Species: "メガトンポケモン"
+		DexEntry: "やまから やまへと ころげおち ちょうじょうから ふもとまで みぞを のこす。ちかよらないように しよう。"
+	}
+
+	Ponyta: {
+		DisplayName: "ポニータ"
+		Species: "ひのうまポケモン"
+		DexEntry: "うまれたばかりでは たつのも ままならないが はしることで あしが きたえられ はやくなる。"
+	}
+
+	Rapidash: {
+		DisplayName: "ギャロップ"
+		Species: "ひのうまポケモン"
+		DexEntry: "ものすごく きょうそうしんが つよく うごくものなら なんでも おいかけ レースを いどむ。"
+	}
+
+	Slowpoke: {
+		DisplayName: "ヤドン"
+		Species: "まぬけポケモン"
+		DexEntry: "つねに ぼんやりしており なにを かんがえているのか わからないが しっぽで つりを するのが とくい。"
+	}
+
+	Slowbro: {
+		DisplayName: "ヤドラン"
+		Species: "やどかりポケモン"
+		DexEntry: "からだに ついた シェルダーが おから ながれでる おいしい ふうみを はなつため はなれない。"
+	}
+
+	Magnemite: {
+		DisplayName: "コイル"
+		Species: "じしゃくポケモン"
+		DexEntry: "からだの りょうがわに ある ユニットが はんじゅうりょくエネルギーを はっせいさせ くうちゅうに ふゆうする。"
+	}
+
+	Magneton: {
+		DisplayName: "レアコイル"
+		Species: "じしゃくポケモン"
+		DexEntry: "ふくすうの コイルが れんけつし こうでんあつの きょうりょくな じきはを ほうしゅつする。"
+	}
+
+	Farfetchd: {
+		DisplayName: "カモネギ"
+		Species: "かるがもポケモン"
+		DexEntry: "もっている クキを ぶきに けんのように あらゆるものを きりさく。"
+	}
+
+	Doduo: {
+		DisplayName: "ドードー"
+		Species: "ふたごどりポケモン"
+		DexEntry: "とつぜんへんいで たんじょうした にとうの ポケモンで じそく100キロいじょうで はしる。"
+	}
+
+	Dodrio: {
+		DisplayName: "ドードリオ"
+		Species: "みつごどりポケモン"
+		DexEntry: "みっつの あたまの どれか ひとつでも めを はなすと はげしく つつかれてしまう。"
+	}
+
+	Seel: {
+		DisplayName: "パウワウ"
+		Species: "アシカポケモン"
+		DexEntry: "ひょうざんに すみ あたまの とっきで こおりを くだきながら かいちゅうを およぐ。"
+	}
+
+	Dewgong: {
+		DisplayName: "ジュゴン"
+		Species: "アシカポケモン"
+		DexEntry: "まっしろな けで おおわれ さむいほど かっぱつに うごく。"
+	}
+
+	Grimer: {
+		DisplayName: "ベトベター"
+		Species: "ヘドロポケモン"
+		DexEntry: "つきの Xせんに さらされた ヘドロが へんかして たんじょう。よごれた ものを このんで たべる。"
+	}
+
+	Muk: {
+		DisplayName: "ベトベトン"
+		Species: "ヘドロポケモン"
+		DexEntry: "あくしゅうの する ばしょに あつまり まわりの しゅうきを いっそう つよめる。"
+	}
+
+	Shellder: {
+		DisplayName: "シェルダー"
+		Species: "２まいがいポケモン"
+		DexEntry: "かたい カラで こうげきを はねかえすが カラが ひらくと すきが しょうじる。"
+	}
+
+	Cloyster: {
+		DisplayName: "パルシェン"
+		Species: "２まいがいポケモン"
+		DexEntry: "はげしい ちょうりゅうの うみに せいそくする シェルダーは おおきく するどい トゲを カラに はやす。"
+	}
+
+	Gastly: {
+		DisplayName: "ゴース"
+		Species: "ガスじょうポケモン"
+		DexEntry: "からだが ガスで できており じったいは ないが あらゆる おおきさの あいてを おおい ちっそくさせる。"
+	}
+
+	Haunter: {
+		DisplayName: "ゴースト"
+		Species: "ガスじょうポケモン"
+		DexEntry: "だれも いない くらやみで みはられているような かんかくを おぼえると そこに いるのが ゴースト。"
+	}
+
+	Gengar: {
+		DisplayName: "ゲンガー"
+		Species: "シャドーポケモン"
+		DexEntry: "かげに かくれており かくれていると まわりの おんどが やく5ど さがると いわれている。"
+	}
+
+	Onix: {
+		DisplayName: "イワーク"
+		Species: "いわへびポケモン"
+		DexEntry: "たべものを さがして こうそくで ちちゅうを ほり のこした トンネルは ディグダの すみかとなる。"
+	}
+
+	Drowzee: {
+		DisplayName: "スリープ"
+		Species: "さいみんポケモン"
+		DexEntry: "てきを ねむらせ その ゆめを たべるが わるい ゆめだけを たべつづけると びょうきに なる。"
+	}
+
+	Hypno: {
+		DisplayName: "スリーパー"
+		Species: "さいみんポケモン"
+		DexEntry: "ふりこのような どうぐを もち かつて さいみんじゅつで こどもを つれさった じけんも あったと いわれている。"
+	}
+
+	Krabby: {
+		DisplayName: "クラブ"
+		Species: "さわがにポケモン"
+		DexEntry: "きけんを かんじると くちから あわを ふいて おおきく みせる。"
+	}
+
+	Kingler: {
+		DisplayName: "キングラー"
+		Species: "はさみポケモン"
+		DexEntry: "その おおきく かたい ハサミは 1まんバリキの ちからを もつが おおきすぎて うごかすのが むずかしい。"
+	}
+
+	Voltorb: {
+		DisplayName: "ビリリダマ"
+		Species: "ボールポケモン"
+		DexEntry: "ポケボールが とうじょうした ときに はっけんされ なにかの かんけいが あると いわれている。"
+	}
+
+	Electrode: {
+		DisplayName: "マルマイン"
+		Species: "ボールポケモン"
+		DexEntry: "かるい しげきでも ばくはつし 「ばくだんボール」と おそれられている。"
+	}
+
+	Exeggcute: {
+		DisplayName: "タマタマ"
+		Species: "たまごポケモン"
+		DexEntry: "6この たまごが テレパシーで かいわし はなれると すぐに あつまる。"
+	}
+
+	Exeggutor: {
+		DisplayName: "ナッシー"
+		Species: "やしのみポケモン"
+		DexEntry: "3つの あたまが どくりつして かんがえるが なかが よく けんかすることは ない。"
+	}
+
+	Cubone: {
+		DisplayName: "カラカラ"
+		Species: "こどくポケモン"
+		DexEntry: "なきははの ずがいこつを かぶり さびしくなると おおきな こえで なく といわれている。"
+	}
+
+	Marowak: {
+		DisplayName: "ガラガラ"
+		Species: "ほねずきポケモン"
+		DexEntry: "こがらで かつては とても よわかったが ほねを つかうように なって せいかくが きょうぼうに なった。"
+	}
+
+	Hitmonlee: {
+		DisplayName: "サワムラー"
+		Species: "キックポケモン"
+		DexEntry: "じゆうに しゅうしゅく・しんてんする あしで とおくの あいてに むかって じょうしょうキックを くりだす。"
+	}
+
+	Hitmonchan: {
+		DisplayName: "エビワラー"
+		Species: "パンチポケモン"
+		DexEntry: "うでを ねじるような こぶしで コンクリートさえも ふんさいし 3ぷんかんの たたかいの あとに きゅうそくする。"
+	}
+
+	Lickitung: {
+		DisplayName: "ベロリンガ"
+		Species: "なめまわしポケモン"
+		DexEntry: "ながい したに ぬるぬるした よだれが ついており なににでも くっつくため たいへん ゆうよう。"
+	}
+
+	Koffing: {
+		DisplayName: "ドガース"
+		Species: "どくガスポケモン"
+		DexEntry: "うすい ふうせんのような からだは おろしく ゆうどくな ガスで ぼうちょうし ちかくに いると あくしゅうを はなつ。"
+	}
+
+	Weezing: {
+		DisplayName: "マタドガス"
+		Species: "どくガスポケモン"
+		DexEntry: "ふたごの ドガースの うち いっぽうが ぼうちょうすると もういっぽうは しぼみ つねに どくガスを まぜあわせている。"
+	}
+
+	Rhyhorn: {
+		DisplayName: "サイホーン"
+		Species: "とげとげポケモン"
+		DexEntry: "ちからづよいが あまり かしこくなく とっしんこうげきで こうそうビルさえも ふんさいすることが できる。"
+	}
+
+	Rhydon: {
+		DisplayName: "サイドン"
+		Species: "ドリルポケモン"
+		DexEntry: "よろいのような ひふで まもられ せっし3600どの ようがんちゅうでも いきることが できる。"
+	}
+
+	Chansey: {
+		DisplayName: "ラッキー"
+		Species: "たまごポケモン"
+		DexEntry: "しあわせを はこぶと いわれ おもいやりが あり きずついた ひとに たまごを わけあたえる。"
+	}
+
+	Tangela: {
+		DisplayName: "モンジャラ"
+		Species: "ツルじょうポケモン"
+		DexEntry: "うねる ツルの つたに おおわれ その しょうたいは なぞに つつまれている。あおい つたは いっしょうがい のびつづける。"
+	}
+
+	Kangaskhan: {
+		DisplayName: "ガルーラ"
+		Species: "おやこポケモン"
+		DexEntry: "おなかの ポーチで こを そだて あんしんすると こを そとに だして あそばせる。"
+	}
+
+	Horsea: {
+		DisplayName: "タッツー"
+		Species: "ドラゴンポケモン"
+		DexEntry: "すいめんから インクのような ビームを せいかくに はなち とぶ むしを げきついする。"
+	}
+
+	Seadra: {
+		DisplayName: "シードラ"
+		Species: "ドラゴンポケモン"
+		DexEntry: "からだじゅうに するどい トゲが はえ むやみに ふれると その トゲで きぜつさせられる きけんが ある。"
+	}
+
+	Goldeen: {
+		DisplayName: "トサキント"
+		Species: "きんぎょポケモン"
+		DexEntry: "いっていの そくど（やく5ノット）で およぎ きけんを かんじると するどい ツノで はんげきする。"
+	}
+
+	Seaking: {
+		DisplayName: "アズマオウ"
+		Species: "きんぎょポケモン"
+		DexEntry: "あきの さんらんきに ちからづよく かわや おがわを さかのぼる すがたが みられる。"
+	}
+
+	Staryu: {
+		DisplayName: "ヒトデマン"
+		Species: "ほしがたポケモン"
+		DexEntry: "からだが きれても かがやく ちゅうしんかくが のこっていれば さいせいする。"
+	}
+
+	Starmie: {
+		DisplayName: "スターミー"
+		Species: "なぞのポケモン"
+		DexEntry: "ちゅうしんかくが にじの 7しょくに かがやき その かくは ほうせきの ように かちが あると されている。"
+	}
+
+	MrMime: {
+		DisplayName: "バリヤード"
+		Species: "バリアーポケモン"
+		DexEntry: "ゆびさきから はなたれる エネルギーで くうきを かためて みえない かべを つくりだし きょうりょくな こうげきを ふせぐ。"
+	}
+
+	Scyther: {
+		DisplayName: "ストライク"
+		Species: "かまきりポケモン"
+		DexEntry: "するどい おおガマで えものを きりさき めったに つばさを ひろげて とぶことは ない。"
+	}
+
+	Jynx: {
+		DisplayName: "ルージュラ"
+		Species: "ひとがたポケモン"
+		DexEntry: "あるく ときに こしを くねらせ まわりの ひとびとを いっせいに おどらせることが ある。"
+	}
+
+	Electabuzz: {
+		DisplayName: "エレブー"
+		Species: "でんげきポケモン"
+		DexEntry: "たいひょうを つたう でんりゅうが くらやみでは ぜんしんを しろっぽく かがやかせます。"
+	}
+
+	Magmar: {
+		DisplayName: "ブーバー"
+		Species: "ひふきポケモン"
+		DexEntry: "かざんの ちかくで みられ たいおんは せっし2200ど ちかくに たっすることも ある。"
+	}
+
+	Pinsir: {
+		DisplayName: "カイロス"
+		Species: "くわがたポケモン"
+		DexEntry: "その するどい ハサミで えものを ひきさき きれない ものは とおくへ なげとばす。"
+	}
+
+	Tauros: {
+		DisplayName: "ケンタロス"
+		Species: "あばれうしポケモン"
+		DexEntry: "みっつの おで みずからの せんいを たかめ ぜんそくりょくで とっしんする。"
+	}
+
+	Magikarp: {
+		DisplayName: "コイキング"
+		Species: "さかなポケモン"
+		DexEntry: "ちからも はやさも ほとんどなく せかいで もっとも よわく あわれな ポケモンと されている。"
+	}
+
+	Gyarados: {
+		DisplayName: "ギャラドス"
+		Species: "きょうあくポケモン"
+		DexEntry: "こもんじょには ぼうりょくが さくれつした ときに むらを かいめつさせた ギャラドスの きろくが のこされている。"
+	}
+
+	Lapras: {
+		DisplayName: "ラプラス"
+		Species: "のりものポケモン"
+		DexEntry: "おだやかな こころを もち たたかわないため おおく ほかくされ その かずは しだいに げんしょうしている。"
+	}
+
+	Ditto: {
+		DisplayName: "メタモン"
+		Species: "へんしんポケモン"
+		DexEntry: "みたもの すべてに へんしんできる その きょういてきな さいこうせいのうりょくを もつ。"
+	}
+
+	Eevee: {
+		DisplayName: "イーブイ"
+		Species: "しんかポケモン"
+		DexEntry: "かこくな かんきょうに てきおうするため さまざまな しんかげいたいを とる きしょうな ポケモン。"
+	}
+
+	Vaporeon: {
+		DisplayName: "シャワーズ"
+		Species: "あわはきポケモン"
+		DexEntry: "うつくしい かいがんを このみ みずぶんしに にた さいぼうこうぞうのため すいちゅうで とける かのうせいが ある。"
+	}
+
+	Jolteon: {
+		DisplayName: "サンダース"
+		Species: "かみなりポケモン"
+		DexEntry: "からだじゅうの けが でんきを おび じゅうでんされると いっせいに さかだつ。"
+	}
+
+	Flareon: {
+		DisplayName: "ブースター"
+		Species: "ほのおポケモン"
+		DexEntry: "たいないに ほのおの のうがあり せんとうまえには たいおんが 1650°Fに たっする。"
+	}
+
+	Porygon: {
+		DisplayName: "ポリゴン"
+		Species: "バーチャルポケモン"
+		DexEntry: "けんきゅうの けっかとして じんこうてきに うみだされた ポケモンで きほんてきな どうさしか プログラムされていない。"
+	}
+
+	Omanyte: {
+		DisplayName: "オムナイト"
+		Species: "うずまきポケモン"
+		DexEntry: "げんしの うみに せいそくしていた せんしじだいの ポケモンで 10ぽんの しょくしゅを ねじるように およぐ。"
+	}
+
+	Omastar: {
+		DisplayName: "オムスター"
+		Species: "うずまきポケモン"
+		DexEntry: "しょくしゅが てあしのように はったつしており えものを とらえるやいなや かみつく。"
+	}
+
+	Kabuto: {
+		DisplayName: "カブト"
+		Species: "こうらポケモン"
+		DexEntry: "3おくねんまえの かいがんに せいそくしていたと かんがえられ かたい カラで まもられている。"
+	}
+
+	Kabutops: {
+		DisplayName: "カブトプス"
+		Species: "こうらポケモン"
+		DexEntry: "すいちゅうでは てあしを からだに まきつけ コンパクトに なった あと すばやく およぐために カラを しんどうさせる。"
+	}
+
+	Aerodactyl: {
+		DisplayName: "プテラ"
+		Species: "かせきポケモン"
+		DexEntry: "こはくから はっけんされた きょうりゅうの いでんぶっしつから さいせいされ こうおんの さけびごえと ともに とぶ。"
+	}
+
+	Snorlax: {
+		DisplayName: "カビゴン"
+		Species: "いねむりポケモン"
+		DexEntry: "まいにち やく400キロの しょくじを しないと まんぞくせず しょくごは すぐに ねむりに つく。"
+	}
+
+	Articuno: {
+		DisplayName: "フリーザー"
+		Species: "れいとうポケモン"
+		DexEntry: "でんせつの とりポケモンで くうちゅうの すいぶんを こおらせて ふぶきを つくりだす。"
+	}
+
+	Zapdos: {
+		DisplayName: "サンダー"
+		Species: "でんげきポケモン"
+		DexEntry: "きょだいな いかづちを おとしながら くもから あらわれる でんせつの とりポケモンと されている。"
+	}
+
+	Moltres: {
+		DisplayName: "ファイヤー"
+		Species: "かえんポケモン"
+		DexEntry: "ほのおの でんせつの とりポケモンと され つばさを はばたくたびに まばゆい ほのおの せんこうを はなつ。"
+	}
+
+	Dratini: {
+		DisplayName: "ミニリュウ"
+		Species: "ドラゴンポケモン"
+		DexEntry: "ごくわずかしか もくげきされないため 「しんきろうポケモン」と よばれ その だっぴした かわが はっけんされている。"
+	}
+
+	Dragonair: {
+		DisplayName: "ハクリュー"
+		Species: "ドラゴンポケモン"
+		DexEntry: "すきとおる きゅうたいのような めが このポケモンに じゆうに てんこうを あやつる ちからを あたえているかの ように みえる。"
+	}
+
+	Dragonite: {
+		DisplayName: "カイリュー"
+		Species: "ドラゴンポケモン"
+		DexEntry: "おおきく おもい からだにも かかわらず ひこうでき 16じかんで ちきゅうを いっしゅうするほどの はやさで そらを かけまわる。"
+	}
+
+	Mewtwo: {
+		DisplayName: "ミュウツー"
+		Species: "いでんしポケモン"
+		DexEntry: "すうねんに わたる おそろしい いでんしそうさと DNAこうがくの じっけんの すえに かがくしゃに よって つくられた。"
+	}
+
+	Mew: {
+		DisplayName: "ミュウ"
+		Species: "しんしゅポケモン"
+		DexEntry: "あらゆる わざを つかいこなせるため おおくの かがくしゃが ミュウを ポケモンの そせんと しんじている。"
+	}
+}

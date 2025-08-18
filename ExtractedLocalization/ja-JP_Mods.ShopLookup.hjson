@@ -1,0 +1,96 @@
+Keybinds: {
+	"Look up": {
+		DisplayName: Open panel or Lookup Item
+	}
+}
+
+Info: {
+	NoSell: No shop sell this
+	NoResult: No Result
+	NoCondition: Any time
+	Source: From {0}
+	UnknowCds: Unknown condition, ignore can be enabled in ModConfig
+	EmptyShop: Empty shop
+	NoValue: No value
+	NoSavings: None
+	SearchAny: Search item or npc
+	LookupItem: Lookup Item - {0}
+	Refund: Can refund:
+	Repurchase: Repurchase:
+	SellTip: Place item below or Shift and left-click
+	InputStack: Stack
+}
+
+Travel: Need two town NPCs in the world
+
+Report: {
+	NoMet: Conditions not met
+	NoActive: No corresponding NPC visit in the world
+	CantAfford: You don't have enough currency
+	NotSameStack: Purchase time is different
+}
+
+UIButton: {
+	Adjust:
+		'''
+		Hold down the mouse
+		and drag outside the panel to resize
+		'''
+	Move: Hold down the mouse to drag the panel
+	Flow: Flow Layout
+	Strip: Strip Layout, will be disabled at some time
+	Shop: Buy items
+	Search: Search items
+	Sell:
+		'''
+		Sell items
+		This page fixed to flow layout
+		'''
+	OnlyCanBuy: View only purchasable items
+	Find: Requires {0} in the world
+	TravelMerchant: Right click to refresh the Traveling Merchant shop
+	Stack: Change purchase quantity
+	StackCurrent: "Current: "
+}
+
+FakeShops: {
+	Pylon: {
+		Label: Pylon shop
+		Disable: No pylons
+		Vanilla: Vanilla pylon shop
+		Mods: Mod pylons shop
+	}
+
+	Vanilla: {
+		Label: Convenience shop
+		Disable: No result
+		Spawner: Summoning shop
+		Fish: Fishing shop
+		Other: Other item shop
+	}
+
+	Fish: {
+		Label: Fishing Shop
+		Disable: No result
+		FishingRod: Fishing Rod
+		TackleAndBait: Tackle and Bait
+		QuestRewards: Quest Rewards
+		Furnitures: Furnitures
+	}
+}
+
+Configs: {
+	SLConfig: {
+		DisplayName: Mod Config
+
+		IgnoreUnknownCds: {
+			Label: Ignore unknow buy conditions
+			Tooltip:
+				'''
+				If enab1e, players may be able to obtain items beyond the progress
+				Please use with caution
+				'''
+		}
+	}
+}
+

@@ -1,0 +1,175 @@
+Biomes: {
+	DaylandSurfaceBiome: {
+		DisplayName: Dayland Surface Biome
+		TownNPCDialogueName: the Dayland Surface Biome
+	}
+
+	DaylandUndergroundBiome: {
+		DisplayName: Dayland Underground Biome
+		TownNPCDialogueName: the Dayland Underground Biome
+	}
+}
+
+Items: {
+	DaylandSolutionItem: {
+		DisplayName: Dayland Solution Item
+		Tooltip: ""
+	}
+
+	SandSnowCompound: {
+		DisplayName: Sand Snow Compound
+		Tooltip: ""
+	}
+
+	SunGrassCampfire: {
+		DisplayName: Sun Grass Campfire
+		Tooltip: ""
+	}
+
+	SunGrassSeed: {
+		DisplayName: Sun Grass Seed
+		Tooltip: ""
+	}
+
+	SunGrassTorch: {
+		DisplayName: Sun Grass Torch
+		Tooltip: ""
+	}
+
+	SunGrassWall: {
+		DisplayName: Sun Grass Wall
+		Tooltip: ""
+	}
+
+	WaterGrassSeed: {
+		DisplayName: Water Grass Seed
+		Tooltip: ""
+	}
+
+	DeadSunflowerItem: {
+		DisplayName: Dead Sunflower Item
+		Tooltip: ""
+	}
+
+	SunflowerSeedItem: {
+		DisplayName: Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	BeachSunflowerItem: {
+		DisplayName: Beach Sunflower Item
+		Tooltip: ""
+	}
+
+	BeachSunflowerSeedItem: {
+		DisplayName: Beach Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	DeadSunflowerSeedItem: {
+		DisplayName: Dead Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	DrySunflowerSeedItem: {
+		DisplayName: Dry Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	FireSunflowerSeedItem: {
+		DisplayName: Fire Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	IceSunflowerSeedItem: {
+		DisplayName: Ice Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	JungleSunflowerSeedItem: {
+		DisplayName: Jungle Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	ObsidianSunflowerSeedItem: {
+		DisplayName: Obsidian Sunflower Seed Item
+		Tooltip: ""
+	}
+
+	SnowSunflowerSeedItem: {
+		DisplayName: Snow Sunflower Seed Item
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	DaylandSolutionProjectile: {
+		DisplayName: Dayland Solution Projectile
+	}
+
+	SandBallFallingNoItemProjectile: {
+		DisplayName: Sand Ball Falling No Item Projectile
+	}
+
+	SandSnowCompoundBallFallingProjectile: {
+		DisplayName: Sand Snow Compound Ball Falling Projectile
+	}
+
+	SandSnowCompoundBallGunProjectile: {
+		DisplayName: Sand Snow Compound Ball Gun Projectile
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		Headers: {
+			JamOfBiomology: Jam Of Biomology Header
+		}
+
+		ShowMessageWhenEnteringWorld: {
+			Label: Show Message When Entering World
+			Tooltip: ""
+		}
+
+		DestabilizeTiles: {
+			Label: Destabilize Tiles
+			Tooltip: ""
+		}
+
+		RadiusOfSunflower: {
+			Label: Radius Of Sunflower
+			Tooltip: ""
+		}
+
+		HowFastSunGrassDecays: {
+			Label: How Fast Sun Grass Decays
+			Tooltip: ""
+		}
+
+		HowMuchYouNeedBlocksForDayland: {
+			Label: How Much You Need Blocks For Dayland
+			Tooltip: ""
+		}
+
+		SunflowerGrowFast: {
+			Label: Sunflower Grow Fast
+			Tooltip: ""
+		}
+	}
+}
+
+NPCs: {
+	BigBunny: {
+		DisplayName: Big Bunny
+	}
+}
+
+Buffs: {
+	DeadSunflowerBuff: {
+		DisplayName: Dead Sunflower
+		Description: Your health suffers, get rid of the dead sunflower!
+	}
+}
+

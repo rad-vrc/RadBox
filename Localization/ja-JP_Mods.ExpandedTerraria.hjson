@@ -1,0 +1,9282 @@
+Items: {
+	RazorleafSword: {
+		DisplayName: レーザーリーフの剣
+		Tooltip: ""
+	}
+
+	Razorleaf: {
+		DisplayName: レーザーリーフ
+		Tooltip: ""
+	}
+
+	Leaf: {
+		DisplayName: 葉
+		Tooltip: ""
+	}
+
+	LivingflameLeaf: {
+		DisplayName: リビングフレイムの葉
+		Tooltip: "「燃えてる！」"
+	}
+
+	RazorleafBow: {
+		DisplayName: レーザーリーフの弓
+		Tooltip: ""
+	}
+
+	BandofSharpness: {
+		DisplayName: 切れ味のバンド
+		Tooltip: クリティカル率が4％上昇
+	}
+
+	LivingflameBow: {
+		DisplayName: リビングフレイムの弓
+		Tooltip: 木の矢に着火
+	}
+
+	LivingflameSword: {
+		DisplayName: リビングフレイムの剣
+		Tooltip: 炎をまとう刃は確率で敵を炎上させる
+	}
+
+	BandofWrath: {
+		DisplayName: 怒りのバンド
+		Tooltip: クリティカル率が8％上昇
+	}
+
+	LivingflameWorm: {
+		DisplayName: リビングフレイムのワーム
+		Tooltip: ""
+	}
+
+	LivingflameFishingPole: {
+		DisplayName: リビングフレイムの釣り竿
+		Tooltip: ""
+	}
+
+	Soul: {
+		DisplayName: 魂
+		Tooltip: "「存在の精髄」"
+	}
+
+	MinersBag: {
+		DisplayName: 鉱夫のバッグ
+		Tooltip: 右クリックで開く
+	}
+
+	GlowingFishingStick: {
+		DisplayName: 発光釣り竿
+		Tooltip: ""
+	}
+
+	SharkFinFishingRod: {
+		DisplayName: サメヒレ釣り竿
+		Tooltip: ""
+	}
+
+	AnkletoftheSoul: {
+		DisplayName: 魂の足枷
+		Tooltip: 移動速度と加速度が10％増加
+	}
+
+	SoulRadar: {
+		DisplayName: 魂レーダー
+		Tooltip: 釣力が5増加
+	}
+
+	SoulReaver: {
+		DisplayName: ソウルリーバー
+		Tooltip:
+			'''
+			信じられない速さで斬りつけるが、射程に乏しい
+			敵を魂炎で燃やす
+			魂を糧とし、十分に満ちると使用者を大きく回復
+			'''
+	}
+
+	Soulfire: {
+		DisplayName: 魂炎
+		Tooltip:
+			'''
+			魂炎の奔流を放つ
+			魂炎は近距離で敵に絡みつく
+			燃焼が止む前に敵が倒れると花火のように爆発
+			魂を糧とし、十分に満ちると使用者を回復
+			「容赦なく貫き焼き尽くす」
+			'''
+	}
+
+	BrokenSword: {
+		DisplayName: 壊れた道具
+		Tooltip: "「昔はなかなかの道具だった…」"
+	}
+
+	Crusher: {
+		DisplayName: クラッシャー
+		Tooltip:
+			'''
+			防御無視値が増加
+			「これはかなり重い！」
+			'''
+	}
+
+	ForgottenSword: {
+		DisplayName: スクラップソード
+		Tooltip: 確率で錆を与える
+	}
+
+	SawtoothBlade: {
+		DisplayName: ノコギリ刃
+		Tooltip:
+			'''
+			防御無視値が増加
+			確率で失血を与える
+			'''
+	}
+
+	Charcoal: {
+		DisplayName: 木炭
+		Tooltip: ""
+	}
+
+	ForgottenScrap: {
+		DisplayName: スクラップ
+		Tooltip: "「ガラクタに見えるが確かに価値はある」"
+	}
+
+	SteelPlate: {
+		DisplayName: 鋼鉄板
+		Tooltip: ""
+	}
+
+	EveningStar: {
+		DisplayName: イヴニングスター
+		Tooltip: ""
+	}
+
+	SpikedStaff: {
+		DisplayName: トゲ付き杖
+		Tooltip: 数回に一度トゲ鉄球を発射
+	}
+
+	Shimmermourne: {
+		DisplayName: シマーモーン
+		Tooltip:
+			'''
+			凍傷を与える
+			確率で敵からマナを吸収
+			'''
+	}
+
+	Starstorm: {
+		DisplayName: スカイフォール
+		Tooltip:
+			'''
+			様々な星を降らせる
+			星の種類に応じてダメージが増加
+			'''
+	}
+
+	Iceladen: {
+		DisplayName: アイスレイデン
+		Tooltip: 確率で凍傷を与える
+	}
+
+	Falchion: {
+		DisplayName: ファルシオン
+		Tooltip: ""
+	}
+
+	ForgottenCrate: {
+		DisplayName: ルマガーの木箱
+		Tooltip: 右クリックで開く
+	}
+
+	HarpoonBow: {
+		DisplayName: ハープーンボウ
+		Tooltip:
+			'''
+			致命的な銛を放つ
+			対象が近いほど素早く戻る
+			「地上戦で真価を発揮！」
+			'''
+	}
+
+	Pummeler: {
+		DisplayName: 粉砕リピーター
+		Tooltip:
+			'''
+			同時に4発の弾を発射
+			弾の防御無視値が大きく増加
+			'''
+	}
+
+	RynoV1: {
+		DisplayName: ライノ V1
+		Tooltip:
+			'''
+			信じられない速度で弾幕を発射
+			マスター
+			'''
+	}
+
+	HauntedRepeater: {
+		DisplayName: ソウルリピーター
+		Tooltip:
+			'''
+			同時に2発の弾を発射
+			やや弾が散る
+			'''
+	}
+
+	Soultaker: {
+		DisplayName: ソウルテイカー
+		Tooltip:
+			'''
+			魂の弾をばら撒いて発射
+			弾は空中でそれぞれ異なる速度で漂う
+			魂を糧とし、十分に集まると使用者を回復
+			'''
+	}
+
+	GunParts: {
+		DisplayName: 壊れた銃の部品
+		Tooltip: "「昔はなかなかの銃だった…」"
+	}
+
+	JAWS: {
+		DisplayName: J.A.W.S.
+		Tooltip:
+			'''
+			40％の確率で弾薬を消費しない
+			「ミニシャークが憧れるサメ銃」
+			'''
+	}
+
+	BarkBeetle: {
+		DisplayName: 樹皮カミキリ
+		Tooltip: ""
+	}
+
+	EnchantedOakworm: {
+		DisplayName: 魔法のオークワーム
+		Tooltip: ""
+	}
+
+	Mite: {
+		DisplayName: ダニ
+		Tooltip: ""
+	}
+
+	Oakworm: {
+		DisplayName: オークワーム
+		Tooltip: ""
+	}
+
+	SoulWorm: {
+		DisplayName: ソウルワーム
+		Tooltip: ""
+	}
+
+	FishermansBag: {
+		DisplayName: 釣り師のバッグ
+		Tooltip: 右クリックで開く
+	}
+
+	GlitteringBarkBeetle: {
+		DisplayName: 煌めく樹皮カミキリ
+		Tooltip: ""
+	}
+
+	WoodsmansBag: {
+		DisplayName: 密猟者のバッグ
+		Tooltip: 右クリックで開く
+	}
+
+	AnglersFishingRod: {
+		DisplayName: 釣り師の釣り竿
+		Tooltip:
+			'''
+			釣り糸が切れない
+			「光る！」
+			'''
+	}
+
+	FilletKnife: {
+		DisplayName: 三枚おろしナイフ
+		Tooltip: ""
+	}
+
+	GoldenFishingLine: {
+		DisplayName: 黄金の釣り糸
+		Tooltip: 釣り力が25増加
+	}
+
+	SeafarersBobber: {
+		DisplayName: 船乗りのウキ
+		Tooltip: 釣り力が20増加
+	}
+
+	AquafinaNecklace: {
+		DisplayName: アクアフィナの首飾り
+		Tooltip: 釣り力が10増加
+	}
+
+	LivingflameAxe: {
+		DisplayName: リビングフレイムの斧
+		Tooltip: ""
+	}
+
+	LivingflameHammer: {
+		DisplayName: リビングフレイムのハンマー
+		Tooltip: ""
+	}
+
+	RazorleafAxe: {
+		DisplayName: レーザーリーフの斧
+		Tooltip: ""
+	}
+
+	RazorleafHammer: {
+		DisplayName: レーザーリーフのハンマー
+		Tooltip: ""
+	}
+
+	GhoulishHamaxe: {
+		DisplayName: グールリッシュ・ハマックス
+		Tooltip: ""
+	}
+
+	SoulCatcher: {
+		DisplayName: ソウルキャッチャー
+		Tooltip: 溶岩で釣りができる
+	}
+
+	MeteorFishingPole: {
+		DisplayName: 流星釣り竿
+		Tooltip: 溶岩で釣りができる
+	}
+
+	AquafinaShard: {
+		DisplayName: アクアフィナの欠片
+		Tooltip: "「海の純粋で固体のかたち」"
+	}
+
+	AecorSword: {
+		DisplayName: サンゴ礁の剣
+		Tooltip:
+			'''
+			色とりどりの魔弾を放つ
+			「とても綺麗…」
+			'''
+	}
+
+	GummyWormBait: {
+		DisplayName: グミワームの餌
+		Tooltip: ""
+	}
+
+	HollowLog: {
+		DisplayName: うろの丸太
+		Tooltip: 右クリックで中を覗く
+	}
+
+	MinersCasket: {
+		DisplayName: 鉱夫の小箱
+		Tooltip: 右クリックで開く
+	}
+
+	EnchantedTuna: {
+		DisplayName: 魔法のマグロ
+		Tooltip: ""
+	}
+
+	Boops: {
+		DisplayName: ブープス
+		Tooltip: ""
+	}
+
+	DriftingBottle: {
+		DisplayName: 漂流瓶
+		Tooltip: 右クリックで中を覗く
+	}
+
+	Diplodus: {
+		DisplayName: ディプロドゥス
+		Tooltip: ""
+	}
+
+	GiantTigerPrawn: {
+		DisplayName: ウシエビ
+		Tooltip: ""
+	}
+
+	NeocaridinaShrimp: {
+		DisplayName: ネオカリディナ・シュリンプ
+		Tooltip: ""
+	}
+
+	DevastatorsGlove: {
+		DisplayName: デバステーターの手袋
+		Tooltip:
+			'''
+			近接ノックバックが増加
+			近接攻撃速度が10％上昇
+			近接クリティカル率が5％上昇
+			'''
+	}
+
+	DriftingBox: {
+		DisplayName: 漂流箱
+		Tooltip: 右クリックで開く
+	}
+
+	BerserkersBow: {
+		DisplayName: 狂戦士の弓
+		Tooltip:
+			'''
+			砕けて爆発する狂戦士の矢を放つ
+			手に持っている間は防御無視のバフを得る
+			'''
+	}
+
+	ArtificialRose: {
+		DisplayName: 人造の花
+		Tooltip: 遠隔の防御無視値が5増加
+	}
+
+	OceansWrathCrate: {
+		DisplayName: 海の怒りの木箱
+		Tooltip: 右クリックで開く
+	}
+
+	MurkyTwig: {
+		DisplayName: 呪われた小枝
+		Tooltip: シャドウフレイムを与える呪われた髑髏を放つ
+	}
+
+	WitheringBow: {
+		DisplayName: 枯れ弓
+		Tooltip:
+			'''
+			同時に最大6本の枯れ矢を放つ
+			矢は燃え、跳ね、最大2体まで貫通
+			稀にシャドウフレイムを与える呪われた髑髏を放つ
+			'''
+	}
+
+	MeteorBow: {
+		DisplayName: メテオボウ
+		Tooltip:
+			'''
+			同時に2本の炎の矢を放つ
+			矢は時々レーザービームに変化し、複数の敵を貫通
+			'''
+	}
+
+	Test1: {
+		DisplayName: テスト1
+		Tooltip: ""
+	}
+
+	SteelShield: {
+		DisplayName: 鋼の盾
+		Tooltip:
+			'''
+			敵に向かってダッシュできる
+			方向キーを素早く2回押す
+			近接クリティカル率が16％上昇
+			遠隔クリティカル率が7％上昇
+			魔法クリティカル率が3％上昇
+			召喚クリティカル率が6％上昇
+			移動加速度が5％減少
+			敵の出現率が上昇
+			'''
+	}
+
+	VitalNecklace: {
+		DisplayName: 活力の首飾り
+		Tooltip: ライフをゆっくり回復
+	}
+
+	SoulFlower: {
+		DisplayName: 魂の花
+		Tooltip:
+			'''
+			魔法ダメージが8％増加
+			消費マナが6％減少
+			最大マナが20増加
+			'''
+	}
+
+	SoulQuiver: {
+		DisplayName: 魂の矢筒
+		Tooltip: 遠隔攻撃速度が12％上昇
+	}
+
+	StarterBag: {
+		DisplayName: 汚れたバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			「どこから来たのか分からないが役に立つかもしれない」
+			'''
+	}
+
+	WoodenAxe: {
+		DisplayName: 木の斧
+		Tooltip: ""
+	}
+
+	WoodenPickaxe: {
+		DisplayName: 木のツルハシ
+		Tooltip: ""
+	}
+
+	TrainingSword: {
+		DisplayName: 上質な剣
+		Tooltip:
+			'''
+			「たいして上等ではないが、注入はできる」
+			[c/F1A500:Sockets:]
+			[i/s1:14]= 空
+			'''
+	}
+
+	LeafyAxe: {
+		DisplayName: 葉の斧
+		Tooltip: ""
+	}
+
+	LeafyHammer: {
+		DisplayName: 葉のハンマー
+		Tooltip: ""
+	}
+
+	LeafyPickaxe: {
+		DisplayName: 葉のツルハシ
+		Tooltip: ""
+	}
+
+	RazorleafFishingPole: {
+		DisplayName: レーザーリーフの釣り竿
+		Tooltip: ""
+	}
+
+	LeafyBow: {
+		DisplayName: 葉の弓
+		Tooltip: ""
+	}
+
+	LeafySword: {
+		DisplayName: 葉の剣
+		Tooltip: ""
+	}
+
+	GoldenLeaf: {
+		DisplayName: 黄金の葉
+		Tooltip: "「これは間違いなくよく売れる」"
+	}
+
+	LivingflamePickaxe: {
+		DisplayName: リビングフレイムのツルハシ
+		Tooltip: 隕石を掘れる
+	}
+
+	RazorleafPickaxe: {
+		DisplayName: レーザーリーフのツルハシ
+		Tooltip: ""
+	}
+
+	BabyFacesBlaster: {
+		DisplayName: ベビーフェイスのブラスター
+		Tooltip: 散弾を発射
+	}
+
+	Ravager: {
+		DisplayName: ガジェットピストル
+		Tooltip: ""
+	}
+
+	Revolver1: {
+		DisplayName: リボルバー
+		Tooltip: ""
+	}
+
+	Deadshot: {
+		DisplayName: デッドショット
+		Tooltip: ""
+	}
+
+	BoneCage: {
+		DisplayName: 骨の山
+		Tooltip: 右クリックで探る
+	}
+
+	DriftingPumpkin: {
+		DisplayName: おイタなカボチャ
+		Tooltip: 右クリックで開く
+	}
+
+	GothicCrate: {
+		DisplayName: ゴシックの木箱
+		Tooltip: 右クリックで開く
+	}
+
+	GravediggingPickaxe: {
+		DisplayName: 墓掘りのツルハシ
+		Tooltip:
+			'''
+			隕石を掘れる
+			非常に速く採掘できる
+			「これで墓を掘り起こす人はいないと思う」
+			'''
+	}
+
+	PumpkinSpellBook: {
+		DisplayName: 首なし騎士の書
+		Tooltip:
+			'''
+			敵を追尾する燃えるジャックを放つ
+			ジャックはブロックをすり抜ける
+			'''
+	}
+
+	TomeofDarkness: {
+		DisplayName: ダークボルト
+		Tooltip:
+			'''
+			闇の弾をばら撒いて放つ
+			命中時に敵を混乱させることがある
+			'''
+	}
+
+	VictorianRevolver: {
+		DisplayName: ヴィクトリアン・リボルバー
+		Tooltip: ""
+	}
+
+	PumpkinPickaxe: {
+		DisplayName: カボチャのツルハシ
+		Tooltip: ""
+	}
+
+	GrimmMacabre: {
+		DisplayName: トワイライトブレード
+		Tooltip:
+			'''
+			手に持っている間、移動速度が25％上昇
+			敵を魔炎で燃やす
+			「天地の怒りで鍛えられた」
+			'''
+	}
+
+	PumpkinSword: {
+		DisplayName: カボチャの剣
+		Tooltip: ""
+	}
+
+	BoneThrowingGlove: {
+		DisplayName: 骨投げの手袋
+		Tooltip:
+			'''
+			骨を高い速度で投げる
+			骨を必要とせず消費もしない
+			'''
+	}
+
+	ShurikenThrowingGlove: {
+		DisplayName: 手裏剣投げの手袋
+		Tooltip:
+			'''
+			手裏剣を高い速度で投げる
+			手裏剣を必要とせず消費もしない
+			'''
+	}
+
+	MeteorPickaxe: {
+		DisplayName: メテオツルハシ
+		Tooltip: ""
+	}
+
+	GraveyardBonefish: {
+		DisplayName: 共同墓地カワカマス
+		Tooltip: ""
+	}
+
+	Soulmon: {
+		DisplayName: ソウルモン
+		Tooltip: ""
+	}
+
+	Bloodrainer: {
+		DisplayName: ブラッドレイナー
+		Tooltip: 血流を発射
+	}
+
+	KrankenWatcher: {
+		DisplayName: ブルータイマー
+		Tooltip: 移動速度と加速度が上昇
+	}
+
+	Bloodtterfly: {
+		DisplayName: ヘモグロッタフライ
+		Tooltip: ""
+	}
+
+	BloodlettingPickaxe: {
+		DisplayName: 放血のツルハシ
+		Tooltip:
+			'''
+			隕石を掘れる
+			非常に速く採掘できる
+			'''
+	}
+
+	AnkletoftheBlood: {
+		DisplayName: 走る血の足枷
+		Tooltip: 移動速度と加速度が大きく上昇
+	}
+
+	BloodMoonCharm: {
+		DisplayName: 血塗れのお守り
+		Tooltip: ダメージが7％増加
+	}
+
+	Wasfish: {
+		DisplayName: ワスフィッシュ
+		Tooltip: "「そうだった…のかもしれない」"
+	}
+
+	Bloodlicker: {
+		DisplayName: ブラッドボーン
+		Tooltip:
+			'''
+			斬撃波は失血または酸の毒を与えることがある
+			剣のヒットが成功すると、時折致命の一撃を放つ
+			血を糧とし、十分に満ちると使用者を回復
+			'''
+	}
+
+	ArtificialRose2: {
+		DisplayName: 人工のバラ2
+		Tooltip: ""
+	}
+
+	Aquaflower: {
+		DisplayName: モンスーンフラワー
+		Tooltip: 魔法の防御無視値が5増加
+	}
+
+	Bloodflower: {
+		DisplayName: 滴血の花
+		Tooltip: 近接の防御無視値が5増加
+	}
+
+	SharpflowerNecklace: {
+		DisplayName: シャープフラワーの首飾り
+		Tooltip:
+			'''
+			防御無視値が12増加
+			エキスパート
+			'''
+	}
+
+	RynoV2: {
+		DisplayName: ライノ V2
+		Tooltip:
+			'''
+			信じられない速度で弾幕を発射
+			マスター
+			'''
+	}
+
+	Hemogoblade: {
+		DisplayName: ヘモゴブレード
+		Tooltip:
+			'''
+			失血を与える
+			確率で犠牲者の血を吸い、以下の効果を得る
+			- 使用者を回復
+			- 使用者のライフ再生が大きく増進
+			- 使用者の被ダメージが10％減少
+			- 使用者の移動速度が10％上昇
+			- 使用者の攻撃速度が2倍になる
+			'''
+	}
+
+	Grimmblade: {
+		DisplayName: グリムブレード
+		Tooltip:
+			'''
+			敵を魔炎で燃やす
+			「私に語りかけてくる…」
+			'''
+	}
+
+	MoltenShield: {
+		DisplayName: 溶岩の盾
+		Tooltip:
+			'''
+			敵に向かってダッシュできる
+			方向キーを素早く2回押す
+			溶岩接触時の被ダメージを軽減
+			溶岩に3秒間の耐性
+			火炎/炎上に耐性
+			'''
+	}
+
+	SteelBreastplate: {
+		DisplayName: 鋼の胸当て
+		Tooltip: クリティカル率が3％上昇
+	}
+
+	SteelHelmet: {
+		DisplayName: 鋼の兜
+		Tooltip: クリティカル率が2％上昇
+		SetBonus: ダメージが10％増加
+	}
+
+	SteelLeggings: {
+		DisplayName: 鋼のすね当て
+		Tooltip: クリティカル率が2％上昇
+	}
+
+	HauntedHat: {
+		DisplayName: ガストリーの帽子
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが15％増加
+			'''
+	}
+
+	GhastlyShield: {
+		DisplayName: ガストリーの盾
+		Tooltip:
+			'''
+			敵に向かってダッシュできる
+			方向キーを素早く2回押す
+			召喚ダメージ+1
+			召喚ダメージが7％増加
+			召喚ノックバックが24％増加
+			移動加速度が15％上昇
+			'''
+	}
+
+	HauntedCoat: {
+		DisplayName: ガストリーのコート
+		Tooltip: 召喚ノックバックが15％増加
+	}
+
+	Bloodrainer2: {
+		DisplayName: ブラッドレイナー2
+		Tooltip: デバッグ用アイテム
+	}
+
+	BrokenAccessory: {
+		DisplayName: 壊れたアクセサリー
+		Tooltip: "「昔はなかなかのアクセサリーだった…」"
+	}
+
+	TatteredTome: {
+		DisplayName: ぼろぼろの本
+		Tooltip: "「昔はなかなかの魔導書だった…」"
+	}
+
+	SoulGauntlet: {
+		DisplayName: 魂の篭手
+		Tooltip:
+			'''
+			近接ノックバックが増加
+			近接ダメージが10％増加
+			'''
+	}
+
+	SoulHeart: {
+		DisplayName: 魂の心臓
+		Tooltip: ライフ再生を付与
+	}
+
+	SoulheartNecklace: {
+		DisplayName: ささやき心の首飾り
+		Tooltip: 強力なライフ再生を付与
+	}
+
+	HealthNecklace: {
+		DisplayName: 体力の首飾り
+		Tooltip: ライフをゆっくり回復
+	}
+
+	BandofHealth: {
+		DisplayName: 活力のバンド
+		Tooltip: ライフ再生を付与
+	}
+
+	ManaNecklace: {
+		DisplayName: マナの首飾り
+		Tooltip:
+			'''
+			最大マナが20増加
+			マナ再生が増進
+			'''
+	}
+
+	RavagerNecklace: {
+		DisplayName: ラヴェジャーの首飾り
+		Tooltip:
+			'''
+			ダメージが5％増加
+			防御無視値が3増加
+			'''
+	}
+
+	CrabClaw: {
+		DisplayName: カニの爪
+		Tooltip: ""
+	}
+
+	CrabBoots: {
+		DisplayName: カニのブーツ
+		Tooltip:
+			'''
+			移動速度と加速度が低下
+			「で、でもカニは靴を履かないのでは？」
+			'''
+	}
+
+	CrabFlail: {
+		DisplayName: カニのフレイル
+		Tooltip: "「心配いらない このカニはむしろ喜んでいる」"
+	}
+
+	XSword: {
+		DisplayName: 粛清
+		Tooltip:
+			'''
+			致命的な浄化粒子を放つ
+			凍傷を与える
+			'''
+	}
+
+	RunicSword: {
+		DisplayName: ルーンの剣
+		Tooltip:
+			'''
+			ルーンのソードビームを放つ
+			敵を聖炎で燃やす
+			「聖なる力が宿っている」
+			'''
+	}
+
+	AncientRune: {
+		DisplayName: 古代のルーン
+		Tooltip: "「聖なる力が宿っている」"
+	}
+
+	TestSword: {
+		DisplayName: テストソード
+		Tooltip: おなら総集編2
+	}
+
+	StoneAxe: {
+		DisplayName: 石の斧
+		Tooltip: ""
+	}
+
+	StoneHammer: {
+		DisplayName: 石のハンマー
+		Tooltip: ""
+	}
+
+	StonePickaxe: {
+		DisplayName: 石のツルハシ
+		Tooltip: ""
+	}
+
+	StoneSword: {
+		DisplayName: 石の剣
+		Tooltip: ""
+	}
+
+	Leaflow: {
+		DisplayName: リーフロウ
+		Tooltip: "「Leafy Sword のかっこいい兄貴分」"
+	}
+
+	SoulScroll: {
+		DisplayName: ガストリーの巻物
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ノックバックが増加		
+			召喚の防御無視値が5増加
+			召喚クリティカル率が5％上昇
+			'''
+	}
+
+	SummoningNecklace: {
+		DisplayName: 召喚の首飾り
+		Tooltip: 召喚できるミニオンの数が1体増える
+	}
+
+	MinionBait: {
+		DisplayName: ミニオンの餌
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージ+1
+			「見たところ、ただの蜂蜜」
+			'''
+	}
+
+	BeeStinger: {
+		DisplayName: ハチの針
+		Tooltip: 召喚ダメージが7％増加
+	}
+
+	EnhancedMinionBait: {
+		DisplayName: 強化ミニオンの餌
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが7％増加
+			召喚ダメージ+1
+			「どうやら超甘いらしい」
+			'''
+	}
+
+	LeafHairpin: {
+		DisplayName: 葉の髪飾り
+		Tooltip: 召喚ダメージが1増加
+		SetBonus: 落下ダメージが発生するまでに必要なブロック数が5増え 移動速度が12％上昇
+	}
+
+	HellfireBow: {
+		DisplayName: ヘルファイアボウ
+		Tooltip:
+			'''
+			最大3本の炎の矢を放つ
+			矢は時々ヘルファイアアローに変化
+			「メフィストのもの」
+			'''
+	}
+
+	HellbatWing: {
+		DisplayName: ヘルバットの翼
+		Tooltip: "「これでは飛べない 残念だ」"
+	}
+
+	LavaGel: {
+		DisplayName: 溶岩ジェル
+		Tooltip: "「うまそうには見えないが確実に可燃だ」"
+	}
+
+	ImpEar: {
+		DisplayName: インプの耳
+		Tooltip: "「何でも聞き逃さない」"
+	}
+
+	DemonicHeart: {
+		DisplayName: 悪魔のチャーム
+		Tooltip:
+			'''
+			魔法ダメージ+2
+			詠唱速度が5％上昇
+			最大マナが20増加
+			'''
+	}
+
+	Bown: {
+		DisplayName: ボウン
+		Tooltip:
+			'''
+			非常に高速で飛ぶ骨の矢を放つ
+			矢はしばしば速度と引き換えに致命的な貫通骨に分解される
+			'''
+	}
+
+	DevilsCharm: {
+		DisplayName: 悪魔の紋章
+		Tooltip:
+			'''
+			魔法ダメージ+2
+			詠唱速度が7％上昇
+			最大マナが20増加
+			'''
+	}
+
+	IfritesHeart: {
+		DisplayName: イフリートの心臓
+		Tooltip:
+			'''
+			魔法ダメージ+5
+			詠唱速度が12％上昇
+			最大マナが40増加
+			'''
+	}
+
+	Ifrite: {
+		DisplayName: イフリート
+		Tooltip:
+			'''
+			ヘルファイアの弾をばら撒いて放つ
+			弾は跳ねて敵を貫通
+			取り扱い注意 手に持っていると手が焼ける
+			'''
+	}
+
+	Whip: {
+		DisplayName: トゲ付きムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物が攻撃した敵を優先して狙う
+			'''
+	}
+
+	GhastlyStaff: {
+		DisplayName: ガストリーの杖
+		Tooltip:
+			'''
+			ゴーストを召喚して戦わせる
+			ゴーストが移動速度を上げる
+			'''
+	}
+
+	StarStaff: {
+		Tooltip:
+			'''
+			星を召喚して戦わせる
+			星はジャンプ高度を上げ 暗視を付与し 落下ダメージを無効化
+			'''
+		DisplayName: スターライトスタッフ
+	}
+
+	BeginnersBag: {
+		DisplayName: ガジェットバッグ
+		Tooltip: 右クリックで開く
+	}
+
+	StarHairpin: {
+		DisplayName: 星の簪
+		Tooltip: 右クリックで開く
+	}
+
+	StarShield: {
+		DisplayName: 星の盾
+		Tooltip:
+			'''
+			ダッシュが可能
+			方向キーを素早く2回押す
+			体力50％以上のとき:
+			- 魔法ダメージ+1
+			- 詠唱速度が8％上昇
+			- マナ再生が大きく増進
+			- 移動速度と加速度が上昇
+			- 魔法クリティカル率が10％上昇
+			- 消費マナが25％増加
+			体力20％未満のとき:
+			- 魔法ダメージ+6
+			- 移動速度と加速度が低下
+			- 魔法クリティカル率が66％上昇
+			- 消費マナが50％増加
+			- マナが40減少
+			'''
+	}
+
+	LeafStaff: {
+		DisplayName: リーフリングの杖
+		Tooltip:
+			'''
+			リーフリングを召喚して戦わせる
+			リーフリングが移動速度をわずかに上げる
+			'''
+	}
+
+	SeagullFeather: {
+		DisplayName: 柔らかな羽根
+		Tooltip: ""
+	}
+
+	BallOJunk: {
+		DisplayName: ガラクタの塊
+		Tooltip:
+			'''
+			振るほどノックバックが最大+50％まで増加
+			確率で錆を与える 
+			'''
+	}
+
+	Scrappergun: {
+		DisplayName: スクラッパーガン
+		Tooltip:
+			'''
+			散弾を発射
+			かなり弾が散る
+			'''
+	}
+
+	Junkhead: {
+		DisplayName: ジャンクヘッド
+		Tooltip:
+			'''
+			移動速度と加速度が低下
+			被ダメージが5％減少
+			「かなり重そうだ」
+			'''
+	}
+
+	EdibleGel: {
+		RestoreLifeText: Mods.ExpandedTerraria.Items.EdibleGel.RestoreLifeText
+		DisplayName: 食用ジェル
+		Tooltip: "「スプーン付き！おいしい！」"
+	}
+
+	SlimyBag: {
+		DisplayName: スライムのバッグ
+		Tooltip: 右クリックで開く
+	}
+
+	SlimyPickaxe: {
+		DisplayName: スライムのツルハシ
+		Tooltip: "「これで実際に掘れるなんて奇跡だ」"
+	}
+
+	SlimyKnife: {
+		DisplayName: スライムナイフ
+		Tooltip: "「どうしてこれがナイフと呼べるんだ？」"
+	}
+
+	Slimeworm: {
+		DisplayName: スライムワーム
+		Tooltip: ""
+	}
+
+	SlimeBoots: {
+		DisplayName: スライムの靴
+		Tooltip:
+			'''
+			ダッシュが可能
+			方向キーを素早く2回押す
+			移動速度と加速度が低下
+			「誰がこんなの履くんだ？」
+			'''
+	}
+
+	CopperGreatsword: {
+		DisplayName: 銅のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	GoldGreatsword: {
+		DisplayName: 金のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	IronGreatsword: {
+		DisplayName: 鉄のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	LeadGreatsword: {
+		DisplayName: 鉛のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	PlatinumGreatsword: {
+		DisplayName: 白金のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	SilverGreatsword: {
+		DisplayName: 銀のグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	TinGreatsword: {
+		DisplayName: スズのグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	TungstenGreatsword: {
+		DisplayName: タングステンのグレートソード
+		Tooltip: "「これはかなり重い！」"
+	}
+
+	PlagueBlade: {
+		DisplayName: 疫病の刃
+		Tooltip: 瘴疫を与える
+	}
+
+	PlagueAmulet: {
+		DisplayName: 疫病の護符
+		Tooltip:
+			'''
+			魔法ダメージ+1
+			防御-3
+			ダメージとクリティカル率が6％上昇
+			被ダメージ後の無敵時間が延長
+			移動速度と加速度が10％低下
+			'''
+	}
+
+	Innards: {
+		DisplayName: 内臓
+		Tooltip: ""
+	}
+
+	RottenBrain: {
+		DisplayName: 腐った脳
+		Tooltip: ""
+	}
+
+	RottenFlesh: {
+		DisplayName: 腐った肉
+		Tooltip: ""
+	}
+
+	BrainFlail: {
+		DisplayName: ブレインフレイル
+		Tooltip: 確率で瘴疫を与える
+	}
+
+	BrainStaff: {
+		DisplayName: 腐った脳の杖
+		Tooltip:
+			'''
+			腐った脳を召喚して戦わせる
+			腐った脳は確率で腐敗を与える
+			'''
+	}
+
+	BrokenZombieArm: {
+		DisplayName: 折れたゾンビの腕
+		Tooltip: "「ちょっと可哀想な気がする」"
+	}
+
+	RibcageWand: {
+		DisplayName: 肋骨の杖
+		Tooltip: 致命的な回転骨を放つ
+	}
+
+	SeagullWings: {
+		DisplayName: 柔羽の翼
+		Tooltip: 飛行とゆっくり落下が可能
+	}
+
+	StarstruckSword: {
+		DisplayName: 星詠みの剣
+		Tooltip: 確率で敵を聖炎で燃やす
+	}
+
+	IceSickle: {
+		DisplayName: 氷の草刈鎌
+		Tooltip:
+			'''
+			確率で凍傷を与える
+			「これは干し草集め用ではないと思う」
+			'''
+	}
+
+	HoneyWhip: {
+		DisplayName: スティンガームチ
+		Tooltip:
+			'''
+			召喚タグダメージ+10
+			召喚物が攻撃した敵を優先して狙う
+			確率でハニースティングを与える
+			'''
+	}
+
+	HoneyCrate: {
+		DisplayName: 蜜の木箱
+		Tooltip: 右クリックで開く
+	}
+
+	StingerKnife: {
+		DisplayName: スティンガー・スタバー
+		Tooltip:
+			'''
+			非常に素早く二連刺し
+			確率でハニースティングを与える
+			'''
+	}
+
+	GutWhip: {
+		DisplayName: 内臓ムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+6
+			召喚物が攻撃した敵を優先して狙う
+			確率で瘴疫を与える
+			'''
+	}
+
+	RottenWorm: {
+		DisplayName: 腐ったワーム
+		Tooltip: "「魚がこれを好む理由は分からない」"
+	}
+
+	Stingerfish: {
+		DisplayName: スティンガーフィッシュ
+		Tooltip: 消耗品
+	}
+
+	Ebonwhip: {
+		DisplayName: 邪なるエボンムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+6
+			召喚物が攻撃した敵を優先して狙う
+			複数の敵に対して多くの鞭よりやや優れる
+			'''
+	}
+
+	Artery: {
+		DisplayName: 血管
+		Tooltip:
+			'''
+			召喚タグダメージ+8
+			召喚物が攻撃した敵を優先して狙う
+			血を糧とし 充分に満ちると使用者を回復
+			確率で失血を与える
+			'''
+	}
+
+	HoneyJellyfish: {
+		DisplayName: 蜜クラゲ
+		Tooltip: 消耗品
+	}
+
+	Mechalodon: {
+		DisplayName: ミニロドン
+		Tooltip:
+			'''
+			50％の確率で弾薬を消費しない
+			やや弾が散る
+			「半分メガロドン 半分銃 そして完全に最高」
+			'''
+	}
+
+	GuardianTotem: {
+		DisplayName: 守護者の彫像
+		Tooltip: 被ダメージが3％減少
+	}
+
+	ShamansStaff: {
+		DisplayName: シャーマンの杖
+		Tooltip:
+			'''
+			敵を貫通する毒の牙の斉射を放つ
+			時折 毒の胞子雲を放出
+			'''
+	}
+
+	GiantTwig: {
+		DisplayName: 巨大マホガニーの棍棒
+		Tooltip:
+			'''
+			確率で毒を与える
+			「これはかなり重い！」
+			'''
+	}
+
+	ArcaneNecklace: {
+		DisplayName: 秘儀の首飾り
+		Tooltip:
+			'''
+			消費マナが6％減少
+			最大マナが20増加
+			'''
+	}
+
+	SummonlordsNecklace: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が2体増える
+			召喚ダメージが7％増加
+			'''
+		DisplayName: サモンロードの首飾り
+	}
+
+	GreaterSummoningNecklace: {
+		Tooltip:
+			'''
+			召喚できるミニオンの数が1体増える
+			召喚ダメージが7％増加
+			'''
+		DisplayName: 上位召喚の首飾り
+	}
+
+	ConquerorsNecklace: {
+		DisplayName: 征服者の首飾り
+		Tooltip:
+			'''
+			ダメージが12％増加
+			防御無視値が3増加
+			'''
+	}
+
+	PhantomNecklace: {
+		DisplayName: 幻影の首飾り
+		Tooltip:
+			'''
+			消費マナが15％減少
+			最大マナが40増加
+			'''
+	}
+
+	SsybasAmulet: {
+		DisplayName: 深淵の護符
+		Tooltip:
+			'''
+			魔法ダメージ+5
+			詠唱速度が12％上昇
+			消費マナが20％減少
+			最大マナが60増加
+			「バロールの所有物」
+			マスター
+			'''
+	}
+
+	SolarSpirit: {
+		DisplayName: 太陽の精霊
+		Tooltip: "「触ると熱い」"
+	}
+
+	ShackledGuardianTotem: {
+		DisplayName: 守護者のトーテム
+		Tooltip: 被ダメージが3％減少
+	}
+
+	StingerBlade: {
+		DisplayName: スティンガーブレード
+		Tooltip: 確率でハニースティングを与える
+	}
+
+	StingerFlail: {
+		DisplayName: スティンガーフレイル
+		Tooltip: 確率でハニースティングを与える
+	}
+
+	AngryTrapperVine: {
+		DisplayName: トラッパーのツタ
+		Tooltip: "「こいつはそんなに怒ってない…」"
+	}
+
+	ArmoredVineSword: {
+		DisplayName: バインスウィング
+		Tooltip:
+			'''
+			時折 着弾で毒ガスに爆発する胞子を放つ
+			毒を与える
+			'''
+	}
+
+	VinedBow: {
+		DisplayName: 棘の弓
+		Tooltip:
+			'''
+			非常に高速で飛ぶ棘の斉射を放つ
+			棘はしばしば速度と引き換えに毒の針へと変化
+			'''
+	}
+
+	VinedStaff: {
+		DisplayName: 胞子の杖
+		Tooltip: 着弾で毒ガスに爆発する胞子を束で放つ
+	}
+
+	TotemofImmortality: {
+		DisplayName: 不死のトーテム
+		Tooltip:
+			'''
+			防御が10％増加
+			被ダメージが8％減少
+			移動速度と加速度が大きく低下
+			マスター
+			'''
+	}
+
+	TurtleShellShard: {
+		DisplayName: ジャイアントトータスの甲羅
+		Tooltip:
+			'''
+			防御が10％増加
+			被ダメージが5％減少
+			移動速度と加速度が大きく低下
+			'''
+	}
+
+	PieceofScrap: {
+		DisplayName: スクラップ片
+		Tooltip: ""
+	}
+
+	FlyingFoxStaff: {
+		DisplayName: オオコウモリの杖
+		Tooltip:
+			'''
+			オオコウモリを召喚して戦わせる
+			オオコウモリが防御無視値をわずかに増やす
+			'''
+	}
+
+	FlowerPetal: {
+		DisplayName: 花びら
+		Tooltip: "「プランテラ純正！」"
+	}
+
+	Moss: {
+		DisplayName: ジャングルの苔
+		Tooltip: "「天然の苔と異なり 毒があると言われている」"
+	}
+
+	BlossomBlade: {
+		DisplayName: 魔法のブロッサムブレード
+		Tooltip: 敵を貫通する魔法の花びらの斉射を放つ
+	}
+
+	MossFlail: {
+		DisplayName: 棘の球
+		Tooltip: トゲを与える
+	}
+
+	Thorns: {
+		DisplayName: 蛾の棘
+		Tooltip: "「取り扱い注意」"
+	}
+
+	ZombieSpear: {
+		DisplayName: 汚れた突き棒
+		Tooltip: 確率で瘴疫を与える
+	}
+
+	Fork: {
+		DisplayName: フォーク
+		Tooltip:
+			'''
+			突くほど攻撃速度が最大2倍まで上昇
+			「これで食べるものじゃないと思う…」
+			'''
+	}
+
+	LeafyWand: {
+		DisplayName: 葉の杖
+		Tooltip: 葉を放つ
+	}
+
+	MagicToadstoolStaff: {
+		DisplayName: 魔法の毒キノコの杖
+		Tooltip: 敵を貫通する魔法のキノコを放つ
+	}
+
+	PoisonTippedSpear: {
+		DisplayName: 毒の穂先の槍
+		Tooltip: 毒を与える
+	}
+
+	Fireflayer: {
+		DisplayName: ファイアフレイヤー
+		Tooltip: ホタルのやわらかな炎で敵を包む
+	}
+
+	ScorpionTail: {
+		DisplayName: サソリの尾
+		Tooltip:
+			'''
+			ダメージ+1
+			クリティカル率が9％上昇
+			'''
+	}
+
+	ScorpionSpear: {
+		DisplayName: サソリの槍
+		Tooltip: 稀に短時間の致死級の猛毒を付与
+	}
+
+	UnyieldingSword: {
+		DisplayName: ヤタガン
+		Tooltip:
+			'''
+			敵を聖炎にする
+			時々 敵を混乱させる
+			敵が落とすコインが増える
+			「お前に扱う資格はない」
+			'''
+	}
+
+	SqualidPincer: {
+		DisplayName: 不潔な鋏
+		Tooltip:
+			'''
+			攻撃し続けている間 腐敗を付与
+			やや狙いがぶれる
+			'''
+	}
+
+	CursedThorns: {
+		DisplayName: ソーンボルト
+		Tooltip:
+			'''
+			棘付きの矢を拡散射出
+			命中で荊棘を付与
+			'''
+	}
+
+	ThornedSpear: {
+		DisplayName: 棘付きコルセスカ
+		Tooltip: 荊棘を付与
+	}
+
+	ThornedSword: {
+		DisplayName: 棘付きグレートソード
+		Tooltip:
+			'''
+			荊棘を付与
+			「これは相当重い」
+			'''
+	}
+
+	Sporelash: {
+		DisplayName: 草のサーベル
+		Tooltip: 毒を付与
+	}
+
+	ThornedFalchion: {
+		DisplayName: 棘付きファルシオン
+		Tooltip:
+			'''
+			時々 棘をばら撒く
+			荊棘を付与
+			'''
+	}
+
+	BerserkerFish: {
+		DisplayName: ラヴァカープ
+		Tooltip:
+			'''
+			敵を貫通するきらめきを吐き出す
+			手に持っている間 防御無視の効果を得る
+			'''
+	}
+
+	HorridTongue: {
+		DisplayName: ブラッドリッカー
+		Tooltip:
+			'''
+			時々 血の飛翔体を放つ
+			攻撃し続けている間 近接攻撃で出血を付与
+			血を糧とし 満たされると使用者を回復
+			'''
+	}
+
+	Skyfall: {
+		DisplayName: スターストーム
+		Tooltip: 敵を貫通する落星を放つ
+	}
+
+	RavagerShard: {
+		DisplayName: ラヴェジャーの水晶
+		Tooltip: "「憎悪が溢れ出ている」"
+	}
+
+	EnchantedCoral: {
+		DisplayName: 魔法のサンゴ
+		Tooltip: "「光の魔力が宿る」"
+	}
+
+	WandofGrass: {
+		DisplayName: 草の杖
+		Tooltip: 毒の葉を放つ
+	}
+
+	FlyingFishStaff: {
+		DisplayName: 空飛ぶ魚の杖
+		Tooltip:
+			'''
+			空飛ぶ魚を召喚して戦わせる
+			空飛ぶ魚が釣り力を高める
+			'''
+	}
+
+	GadgetBoots: {
+		DisplayName: ガジェットブーツ
+		Tooltip:
+			'''
+			ダッシュが可能
+			方向キーを素早く2回押す
+			移動速度と加速度が増加
+			'''
+	}
+
+	BloodlettingBoots: {
+		DisplayName: 放血のブーツ
+		Tooltip:
+			'''
+			移動速度と加速度が大きく増加
+			召喚ダメージが3増加
+			'''
+	}
+
+	FireflyFlames: {
+		DisplayName: ホタルの炎
+		Tooltip: 優しく燃え 敵を貫通するホタルの炎の奔流を放つ
+	}
+
+	BlossomGreatsword: {
+		DisplayName: ブロッサム・グレートソード
+		Tooltip:
+			'''
+			花棘を付与
+			「これは相当重い」
+			'''
+	}
+
+	NecklaceofEternity: {
+		DisplayName: 永遠の首飾り
+		Tooltip:
+			'''
+			ライフ回復が非常に大きく増進
+			溶岩接触時の被ダメージを軽減
+			溶岩に1秒間の無敵を付与
+			炎上とヘルファイアに免疫
+			使用者にポーション酔いを付与
+			マスター
+			'''
+	}
+
+	BeholdersWhipPiece: {
+		DisplayName: ビホルダーの紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが20増加
+			ムチのノックバックが30％増加
+			ムチの攻撃速度が8％上昇
+			ムチの防御無視値が5増加
+			'''
+	}
+
+	EnchantedWhipPiece: {
+		DisplayName: 魔法の紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが25増加
+			移動速度が20％上昇
+			ライフ回復が増進
+			'''
+	}
+
+	GoldenWhipPiece: {
+		DisplayName: 黄金の紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが25増加
+			ムチの防御無視値が5増加
+			'''
+	}
+
+	LurkingWhipPiece: {
+		DisplayName: 潜む紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが8増加
+			ムチの攻撃速度が8％上昇
+			'''
+	}
+
+	RavagerWhipPiece: {
+		DisplayName: 狂戦士の紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが10増加
+			ムチのノックバックが20％増加
+			ムチの防御無視値が3増加
+			'''
+	}
+
+	SpikedWhipPiece: {
+		DisplayName: 棘付きの紐
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが4増加
+			ムチのノックバックが10％増加
+			ムチの防御無視値が2増加
+			'''
+	}
+
+	CthulhusTentacle: {
+		DisplayName: クトゥルフの触手
+		Tooltip:
+			'''
+			召喚不可
+			ムチのダメージが50増加
+			ムチのノックバックが30％増加
+			ムチの攻撃速度が8％上昇
+			ムチの防御無視値が10増加
+			移動速度が20％上昇
+			ライフ回復が増進
+			被ダメージが5％減少
+			'''
+	}
+
+	GoldenKatana: {
+		DisplayName: ルーンの刀
+		Tooltip:
+			'''
+			敵を聖炎にする
+			「聖なる力が宿る」
+			'''
+	}
+
+	RiversofBlood: {
+		DisplayName: 血の奔流
+		Tooltip:
+			'''
+			手に持っている間 クリティカル率が10％上昇
+			出血を付与
+			敵を地獄炎にすることがある
+			血を糧とし 満たされると使用者を回復
+			次の効果が発生することがある
+			- 血が沸騰して爆ぜ 追加ダメージを与える
+			- 回復量が2倍になる
+			「境の地よりもたらされた……」
+			'''
+	}
+
+	BoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:14][i/s1:14]= 空き
+			'''
+	}
+
+	CrescentMoonbow: {
+		DisplayName: クレセント・ムーンボウ
+		Tooltip:
+			'''
+			三日月の矢を放つ
+			矢は跳ね返るか 1体を貫通
+			'''
+	}
+
+	FiberglassSword: {
+		DisplayName: グラスファイバーの剣
+		Tooltip: ""
+	}
+
+	StarstruckBow: {
+		DisplayName: スターフューリアス・ボウ
+		Tooltip:
+			'''
+			ジェスターの矢を放つ
+			「天の怒りで鍛えられた」
+			'''
+	}
+
+	WebbedSpiderStaff: {
+		DisplayName: クモの巣まみれの杖
+		Tooltip:
+			'''
+			しばらく地上に留まるクモを放つ
+			クモは敵を追い詰め 命中で猛毒を付与
+			'''
+	}
+
+	WebbedFang: {
+		DisplayName: クモの巣まみれの牙
+		Tooltip: 猛毒を付与することがある
+	}
+
+	WebbedGreatsword: {
+		DisplayName: クモの巣まみれのグレートソード
+		Tooltip: 猛毒を付与することがある
+	}
+
+	CactusBow: {
+		DisplayName: サボテンの弓
+		Tooltip: ""
+	}
+
+	OceanicBolt: {
+		DisplayName: オーシャンボルト
+		Tooltip: ゆっくり進む水弾を放つが 撃つほどに勢いが増す
+	}
+
+	DragonSlayer: {
+		DisplayName: ドラゴン殺し
+		Tooltip: "「それは剣と呼ぶにはあまりに大きすぎた……」"
+	}
+
+	PoisonedArrow: {
+		DisplayName: 毒矢
+		Tooltip: 毒を付与
+	}
+
+	HoneystingArrow: {
+		DisplayName: ハニースティングの矢
+		Tooltip: ハニースティングを付与
+	}
+
+	SpiderArrow: {
+		DisplayName: スパイダーファングの矢
+		Tooltip: 猛毒を付与することがある
+	}
+
+	SpiderLeg: {
+		DisplayName: クモの脚
+		Tooltip: ""
+	}
+
+	PlagueArrow: {
+		DisplayName: 疫病の矢
+		Tooltip: 疫病を付与
+	}
+
+	AncientBladeofGrass: {
+		DisplayName: 古の草刃
+		Tooltip:
+			'''
+			敵を毒にすることがある
+			「これは古典だ！」
+			'''
+	}
+
+	EvilEssence: {
+		DisplayName: 苦悶の心臓
+		Tooltip: "「純粋な憎悪」"
+	}
+
+	WormWand: {
+		DisplayName: ワームの杖
+		Tooltip:
+			'''
+			貪欲なワームを放つ
+			至近距離で敵に食らいつく
+			最大8回噛みつく
+			飢えが満たされないと さらに獲物を求めて跳ねていく
+			時々 獲物に腐敗を付与
+			'''
+	}
+
+	Vertebrow: {
+		DisplayName: バーテブロウ
+		Tooltip:
+			'''
+			血の矢を同時に2本放つ
+			矢は減速しやすい
+			'''
+	}
+
+	BandofPeace: {
+		DisplayName: 平和の指輪
+		Tooltip: 敵の出現率が低下
+	}
+
+	BandofWar: {
+		DisplayName: 戦争の指輪
+		Tooltip: 敵の出現率が上昇
+	}
+
+	CrawlerLeg: {
+		DisplayName: クロウラーの脚
+		Tooltip: ""
+	}
+
+	BloodArrow: {
+		DisplayName: 血の矢
+		Tooltip:
+			'''
+			出血を付与
+			最大3体を貫通
+			ライフを吸収
+			'''
+	}
+
+	CactusThorn: {
+		DisplayName: サボテンの棘
+		Tooltip: 1体を貫通
+	}
+
+	LeafyBoots: {
+		DisplayName: 葉のブーツ
+		Tooltip:
+			'''
+			移動速度と加速度がわずかに上昇
+			落下ダメージの発生距離が5ブロック増加
+			召喚ダメージが2増加
+			'''
+	}
+
+	LeafyWhip: {
+		DisplayName: 葉のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+2
+			召喚物は攻撃した敵を優先して狙う
+			'''
+	}
+
+	KnifeCrossbow: {
+		DisplayName: ナイフ・クロスボウ
+		Tooltip:
+			'''
+			投げナイフを高速度で撃ち出す
+			ナイフを必要とせず消費もしない
+			'''
+	}
+
+	Verteball: {
+		DisplayName: バーテボール
+		Tooltip: 出血を付与することがある
+	}
+
+	RottenClub: {
+		DisplayName: 腐った棍棒
+		Tooltip:
+			'''
+			腐敗を付与することがある
+			「これは相当重い」
+			'''
+	}
+
+	InfectedFlesh: {
+		DisplayName: 腐咲の肉
+		Tooltip: "「疫病に侵されている」"
+	}
+
+	InfestedVomit: {
+		DisplayName: 蠢く杖
+		Tooltip: 疫病を付与する胞子を吐き出す
+	}
+
+	CursedBone: {
+		DisplayName: 呪われた骨
+		Tooltip: "「芯まで呪われている」"
+	}
+
+	PoisonedKnifeCrossbow: {
+		DisplayName: 毒ナイフ・クロスボウ
+		Tooltip:
+			'''
+			毒ナイフを高速度で撃ち出す
+			ナイフを必要とせず消費もしない
+			'''
+	}
+
+	AquafinaArrow: {
+		DisplayName: アクアフィナの矢
+		Tooltip: 1体を貫通
+	}
+
+	Curseflame: {
+		DisplayName: カースドインフェルノ
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物は攻撃した敵を優先して狙う
+			呪炎を付与
+			'''
+	}
+
+	ObservingWhip: {
+		DisplayName: 観察者のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+15
+			召喚物は攻撃した敵を優先して狙う
+			命中ごとに使用者を回復
+			攻撃し続けている間 出血を付与
+			'''
+	}
+
+	PetalArrow: {
+		DisplayName: 花弁の矢
+		Tooltip:
+			'''
+			花棘を付与
+			最大3体を貫通
+			'''
+	}
+
+	BlossomBow: {
+		DisplayName: 魔法のブロッサムボウ
+		Tooltip:
+			'''
+			花びらの矢を連射
+			矢は減速しやすい
+			時々 代わりに魔法の花びらを放つ
+			やや精度が低い
+			'''
+	}
+
+	BlossomStaff: {
+		DisplayName: 魔法のブロッサムスタッフ
+		Tooltip:
+			'''
+			魔法の花びらを束で放つ
+			至近距離では花びらが敵へ吸い込まれるように飛ぶ
+			'''
+	}
+
+	Vulcan: {
+		DisplayName: ヴァルカン
+		Tooltip:
+			'''
+			ヴァルカン弾を連射
+			至近距離では弾が敵へ吸い込まれるように飛ぶ
+			マスター
+			'''
+	}
+
+	HeroicGunParts: {
+		DisplayName: 古の銃の部品
+		Tooltip: "「どこでも持ち込み禁止」"
+	}
+
+	RingofWarmth: {
+		DisplayName: 温もりの指輪
+		Tooltip: 装備中 ほのかな光を放つ
+	}
+
+	VileRing: {
+		DisplayName: 邪悪の指輪
+		Tooltip:
+			'''
+			クリティカル率が7％上昇
+			移動速度と加速度が5％上昇
+			装備中 明るい光を放つ
+			'''
+	}
+
+	BlightedRing: {
+		DisplayName: 侵蝕の指輪
+		Tooltip:
+			'''
+			ライフがゆっくり回復
+			装備中 明るい光を放つ
+			'''
+	}
+
+	SoulfireWhip: {
+		DisplayName: ソウルファイアのムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+10
+			召喚物は攻撃した敵を優先して狙う
+			魂を糧とし 満たされると使用者を回復
+			敵に魂炎を灯す
+			'''
+	}
+
+	OldSunkenCrate: {
+		DisplayName: 呪われた海の木箱
+		Tooltip:
+			'''
+			右クリックで開く
+			「海の最深部に沈んでいたらしい」
+			'''
+	}
+
+	DavyJonesLantern: {
+		DisplayName: 略奪されたネクロランタン
+		Tooltip:
+			'''
+			周囲を旋回する霊を召喚
+			霊はしばらくすると消える
+			霊は自動で敵に取り憑く
+			魂を糧として 満たされると使用者を回復
+			「デイヴィ・ジョーンズの持ち物だったらしい」
+			'''
+	}
+
+	Spiritflayer: {
+		DisplayName: スピリットフレイヤー
+		Tooltip: 魂を糧とし 満たされると使用者を回復
+	}
+
+	BaneofTheSea: {
+		DisplayName: 海の災厄
+		Tooltip:
+			'''
+			必中の魂炎を放つ
+			魂炎は魂を糧として 満たされると使用者を回復
+			'''
+	}
+
+	DavyJonesSkull: {
+		DisplayName: デイヴィ・ジョーンズのドクロ
+		Tooltip:
+			'''
+			体力が50％を超えると
+			- ライフ回復速度が低下
+			体力が25％未満のとき
+			- ライフ回復が桁違いに増進
+			- 移動速度が非常に大きく増加
+			- 被ダメージが10％増加
+			使用者にポーション酔いを付与
+			「死んでいるはずなのに 目がこちらを見つめている…」
+			'''
+	}
+
+	Spiritworm: {
+		DisplayName: スピリットワーム
+		Tooltip: "「触ると冷たい」"
+	}
+
+	PoltergeistStaff: {
+		DisplayName: ポルターガイストの杖
+		Tooltip:
+			'''
+			ポルターガイストを召喚して戦わせる
+			時々 回復し 移動速度を上昇させる
+			'''
+	}
+
+	SpiritflameWhip: {
+		DisplayName: 霊炎のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+15
+			召喚物は攻撃した敵を優先して狙う
+			命中ごとに使用者を回復
+			'''
+	}
+
+	HauntedBrew: {
+		DisplayName: 呪われた酒
+		Tooltip:
+			'''
+			ライフ回復を付与
+			海で「呪われた海の木箱」を釣れる
+			マスターモード中
+			- プランテラ撃破後 浜辺で望まれざる訪問者を引き寄せる
+			'''
+	}
+
+	HauntedRing: {
+		DisplayName: 呪われた指輪
+		Tooltip:
+			'''
+			体力が50％未満のとき
+			- ダメージと攻撃速度が8％上昇
+			- 被ダメージが5％増加
+			- 攻撃を回避することがある
+			- ハートとマナの取得範囲が拡大
+			体力が10％未満のとき
+			- 被ダメージが5％減少
+			- 防御が12％上昇
+			- ライフがゆっくり回復
+			装備中 明るい光を放つ
+			「デイヴィ・ジョーンズ純正品」
+			'''
+	}
+
+	GoldJellyfish: {
+		DisplayName: 金のクラゲ
+		Tooltip: ""
+	}
+
+	HauntedJellyfish: {
+		DisplayName: 取り憑かれたクラゲ
+		Tooltip: ""
+	}
+
+	FlameBolt: {
+		DisplayName: 火炎弾
+		Tooltip: 移動する火の弾を放つ
+	}
+
+	Minisharkron: {
+		DisplayName: ミニシャークロン
+		Tooltip:
+			'''
+			50％の確率で弾薬を消費しない
+			「半分サメロン 半分銃 つまり最高」
+			'''
+	}
+
+	StrawHat: {
+		DisplayName: 麦わら帽子
+		Tooltip:
+			'''
+			釣り力が15増加
+			「とても陽気な人物の持ち物だったとか」
+			'''
+	}
+
+	SeashellNecklace: {
+		DisplayName: 貝殻のネックレス
+		Tooltip:
+			'''
+			釣り系ポーションを飲むたびにボーナスを得る
+			- 釣り力が10増加
+			- 敵の出現率が低下
+			'''
+	}
+
+	EnchantedCoralNecklace: {
+		DisplayName: 魔法のサンゴのネックレス
+		Tooltip:
+			'''
+			釣り系ポーションを飲むたびにボーナスを得る
+			- 釣り力が20増加
+			- 敵の出現率が低下
+			- 運がわずかに増加
+			'''
+	}
+
+	GoldLadybugNecklace: {
+		DisplayName: 金のてんとう虫のネックレス
+		Tooltip: 運が大きく増加
+	}
+
+	LadybugNecklace: {
+		DisplayName: てんとう虫のネックレス
+		Tooltip: 運がわずかに増加
+	}
+
+	FourLeafClover: {
+		DisplayName: 四つ葉のクローバー
+		Tooltip: 運が大きく増加
+	}
+
+	GoldenFourLeafClover: {
+		DisplayName: 金の四つ葉のクローバー
+		Tooltip: 運が非常に大きく増加
+	}
+
+	StingerWaders: {
+		DisplayName: スティンガーウェーダー
+		Tooltip:
+			'''
+			水とハチミツの上を歩ける
+			移動速度と加速度が大きく低下
+			装備中 常にハチミツを浴びる
+			召喚ダメージが4増加
+			'''
+	}
+
+	BloodlustingWaders: {
+		DisplayName: 血慾のウェーダー
+		Tooltip:
+			'''
+			移動速度と加速度が増加
+			水とハチミツの上を歩ける
+			装備中 常にハチミツを浴びる
+			召喚ダメージが7増加
+			'''
+	}
+
+	FlinxFurGloves: {
+		DisplayName: フリンクスファーグローブ
+		Tooltip:
+			'''
+			召喚ダメージ+1
+			召喚ノックバックが増加
+			冷気と凍結に免疫
+			'''
+	}
+
+	SpiritflameFishingRod: {
+		DisplayName: 霊炎の釣り竿
+		Tooltip:
+			'''
+			溶岩で釣りができる
+			釣り糸が切れない
+			'''
+	}
+
+	Grimmspear: {
+		DisplayName: グリムスピア
+		Tooltip:
+			'''
+			敵を術炎にする
+			「語りかけてくる…」
+			'''
+	}
+
+	PhasingAmulet: {
+		DisplayName: 位相のお守り
+		Tooltip:
+			'''
+			魔法ダメージ+2
+			防御-5
+			ダメージとクリティカル率が12％上昇
+			被ダメージ後の無敵時間が延長
+			移動速度と加速度が10％低下
+			'''
+	}
+
+	EyeBall: {
+		DisplayName: 目玉
+		Tooltip: "「見つめられている気がする」"
+	}
+
+	PixieStaff: {
+		DisplayName: ピクシーの杖
+		Tooltip: 妖精の粉の波を放つ
+	}
+
+	Fairybloom: {
+		DisplayName: フェアリーブルーム
+		Tooltip: 消費マナが25％減少
+	}
+
+	Unihorn: {
+		DisplayName: ユニホーン
+		Tooltip:
+			'''
+			敵を混乱させることがある
+			「そりゃ…見たら誰でも混乱するよな？」
+			'''
+	}
+
+	PixieDustWhip: {
+		DisplayName: 妖精の粉のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+12
+			召喚物は攻撃した敵を優先して狙う
+			混乱を付与
+			'''
+	}
+
+	Portal: {
+		DisplayName: ポータル
+		Tooltip: ""
+	}
+
+	EnchantedKnife: {
+		DisplayName: 魔法のダガー
+		Tooltip: 魔法のリターンダガー
+	}
+
+	FieryDagger: {
+		DisplayName: 火炎ナイフ
+		Tooltip: 命中でヘルファイアを付与
+	}
+
+	ArcaneSword: {
+		DisplayName: ジャイアント・ハーピー・ブレード
+		Tooltip:
+			'''
+			時々 ハーピーの羽を放つ
+			至近距離では羽が敵へ吸い込まれるように飛ぶ
+			'''
+	}
+
+	ArcaneSword2: {
+		DisplayName: 秘術の剣
+		Tooltip:
+			'''
+			時々 落星を放つ
+			敵を聖炎にする
+			'''
+	}
+
+	EnchantedFallenStar: {
+		DisplayName: ヘヴンクレスト・スター
+		Tooltip: "「秘術の魔力が宿る」"
+	}
+
+	HolyBow: {
+		DisplayName: 聖弓
+		Tooltip:
+			'''
+			聖なる矢を連射
+			矢は減速しやすい
+			やや精度が低い
+			'''
+	}
+
+	SacredStaff: {
+		DisplayName: 天の杖
+		Tooltip: 超級の星を放つ
+	}
+
+	SanguineBow: {
+		DisplayName: 猩紅の弓
+		Tooltip: 血の奔流を吐き出す
+	}
+
+	PumpkinCrate: {
+		DisplayName: 呪われたカボチャの木箱
+		Tooltip: 右クリックで開く
+	}
+
+	PumpkinStaff: {
+		DisplayName: 呪われたカボチャの杖
+		Tooltip:
+			'''
+			敵を追う燃えるカボチャを放つ
+			カボチャはブロックをすり抜け可能
+			'''
+	}
+
+	CursedPumpkin: {
+		DisplayName: 呪われたカボチャの手袋
+		Tooltip:
+			'''
+			近接のノックバックが増加
+			近接速度が5％上昇
+			近接クリティカル率が10％上昇
+			近接とムチ攻撃で敵を炎上させる
+			'''
+	}
+
+	PumpkinAmulet: {
+		DisplayName: 呪われたカボチャのお守り
+		Tooltip:
+			'''
+			体力が25％未満のとき
+			- 防御が8増加
+			- 詠唱速度が10％上昇
+			- 消費マナが15％減少
+			- 敵の出現率が上昇
+			'''
+	}
+
+	MurkyTwig2: {
+		DisplayName: 濁った小枝
+		Tooltip: 小さな火花を放つ
+	}
+
+	Bezoflail: {
+		DisplayName: ベゾボール
+		Tooltip: 毒を付与
+	}
+
+	Stinkball: {
+		DisplayName: タマネギのフレイル
+		Tooltip:
+			'''
+			悪臭を付与
+			敵を混乱させることがある
+			「涙ボロボロでもブン回す」
+			'''
+	}
+
+	SeashellHelmet: {
+		SetBonus: ソナーのバフが常時付与
+		DisplayName: 貝殻のヘルメット
+		Tooltip:
+			'''
+			遠隔クリティカル率が7％上昇
+			釣り力が5増加
+			'''
+	}
+
+	SeashellBreastplate: {
+		DisplayName: 貝殻のブレストプレート
+		Tooltip:
+			'''
+			遠隔ダメージが10％増加
+			釣り力が5増加
+			'''
+	}
+
+	SeashellLeggings: {
+		DisplayName: 貝殻のレギンス
+		Tooltip:
+			'''
+			移動速度が5％上昇
+			釣り力が5増加
+			'''
+	}
+
+	CoralHelmet: {
+		SetBonus: 魔法ダメージが10％増加
+		DisplayName: サンゴのヘルメット
+		Tooltip: 水中呼吸時間が大幅に延長
+	}
+
+	CoralBreastplate: {
+		DisplayName: サンゴのブレストプレート
+		Tooltip: 魔法ダメージが8％増加
+	}
+
+	CoralLeggings: {
+		DisplayName: サンゴのレギンス
+		Tooltip: 泳げるようになる
+	}
+
+	LeafHelmet: {
+		SetBonus: 移動速度が5％上昇
+		DisplayName: 葉っぱの帽子
+		Tooltip: 落下ダメージの発生距離が3ブロック増加
+	}
+
+	LeafBreastplate: {
+		DisplayName: 葉っぱのチュニック
+		Tooltip: 落下ダメージの発生距離が4ブロック増加
+	}
+
+	LeafLeggings: {
+		DisplayName: 葉っぱのズボン
+		Tooltip: 落下ダメージの発生距離が3ブロック増加
+	}
+
+	StingerHelmet: {
+		SetBonus: 防御無視値が5増加
+		DisplayName: スティンガーヘルメット
+		Tooltip: クリティカル率が5％上昇
+	}
+
+	StingerBreastplate: {
+		DisplayName: スティンガーブレストプレート
+		Tooltip: ダメージが5％増加
+	}
+
+	StingerLeggings: {
+		DisplayName: スティンガーレギンス
+		Tooltip: 移動速度と加速度が低下
+	}
+
+	CrabHelmet: {
+		SetBonus: 近接ノックバックが10％増加
+		DisplayName: カニのヘルメット
+		Tooltip:
+			'''
+			近接ダメージが3％増加
+			移動速度が5％低下
+			'''
+	}
+
+	CrabBreastplate: {
+		DisplayName: カニのブレストプレート
+		Tooltip:
+			'''
+			近接ダメージが3％増加
+			移動速度が5％低下
+			'''
+	}
+
+	CrabLeggings: {
+		DisplayName: カニのレギンス
+		Tooltip:
+			'''
+			近接ダメージが3％増加
+			移動速度が5％低下
+			'''
+	}
+
+	CrabHusk: {
+		DisplayName: カニの殻
+		Tooltip: ""
+	}
+
+	BerserkerHelmet: {
+		SetBonus: 防御無視値が5増加
+		DisplayName: バーサーカーヘルメット
+		Tooltip: クリティカル率が5％上昇
+	}
+
+	BerserkerBreastplate: {
+		DisplayName: バーサーカーブレストプレート
+		Tooltip: ダメージが5％増加
+	}
+
+	BerserkerLeggings: {
+		DisplayName: バーサーカーレギンス
+		Tooltip: クリティカル率が5％上昇
+	}
+
+	StarfishArrow: {
+		DisplayName: ヒトデの矢
+		Tooltip: 跳ね返るか 1体を貫通
+	}
+
+	Frogun: {
+		DisplayName: フロガン
+		Tooltip: 舌を素早く伸ばして放つ
+	}
+
+	FlareRifle: {
+		DisplayName: フレアライフル
+		Tooltip: ""
+	}
+
+	MagicSquid: {
+		DisplayName: 魔法のイカ
+		Tooltip: 敵を短時間混乱させるインクを噴射
+	}
+
+	WispLamp: {
+		DisplayName: ウィスプランタン
+		Tooltip:
+			'''
+			地下でウィスプ商人を呼び寄せると言われる
+			マスターモードでは望まれざる訪問者を引き寄せる場合がある
+			マスター
+			'''
+	}
+
+	SpiritNecklace: {
+		DisplayName: スピリットネックレス
+		Tooltip:
+			'''
+			高いライフ回復を付与
+			魔法ダメージが3増加
+			呪文ノックバックが増加
+			詠唱速度が12％低下
+			被ダメージが10％増加
+			マスター
+			'''
+	}
+
+	SpiritArrow: {
+		DisplayName: 霊矢
+		Tooltip:
+			'''
+			最大8体を貫通
+			高速で飛ぶ
+			マスター
+			'''
+	}
+
+	SpiritBow: {
+		DisplayName: 霊弓
+		Tooltip:
+			'''
+			霊矢を放つ
+			手に持つと呪いを付与
+			マスター
+			'''
+	}
+
+	SpiritLamp: {
+		Tooltip:
+			'''
+			周囲を旋回する霊を召喚
+			霊はしばらくすると消える
+			霊は自動で敵に取り憑く
+			魂を糧として 満たされると使用者を回復
+			手に持つと呪いを付与
+			マスター
+			'''
+		DisplayName: スピリットランプ
+	}
+
+	SpiritflameKnife: {
+		Tooltip:
+			'''
+			手に持つと呪いを付与
+			マスター
+			'''
+		DisplayName: 霊炎のナイフ
+	}
+
+	SuspiciousLookingMushroom: {
+		Tooltip:
+			'''
+			使用後15秒間 効果を付与
+			- 適度にライフ回復
+			- 移動速度と加速度が25％上昇
+			- ダメージが8％増加
+			- 被ダメージが10％増加
+			マスター
+			'''
+		DisplayName: 怪しいキノコ
+	}
+
+	PossessedTools: {
+		Tooltip:
+			'''
+			「ささやきが聞こえる…」
+			マスター
+			'''
+		DisplayName: 取り憑かれた道具
+	}
+
+	PossessedArrow: {
+		Tooltip:
+			'''
+			最大8体まで跳ね返るか貫通
+			非常に高速で飛ぶ
+			マスター
+			'''
+		DisplayName: 取り憑かれた矢
+	}
+
+	PossessedRing: {
+		Tooltip:
+			'''
+			体力が50％以上のとき:
+			- 被ダメージが10％減少
+			- 防御力が5％上昇
+			- ダメージと攻撃速度が5％減少
+			体力が50％未満のとき:
+			- ダメージと攻撃速度が15％増加
+			- 被ダメージが25％増加
+			- 攻撃回避のチャンスを得る
+			- ハートとマナの取得範囲が拡大
+			体力が20％未満のとき:
+			- 被ダメージが20％減少
+			- 防御力が15％上昇
+			- ゆっくりライフ回復
+			装備中 明るい光を放つ
+			マスター
+			'''
+		DisplayName: 取り憑かれた指輪
+	}
+
+	MoltenGlove: {
+		DisplayName: 溶岩の手袋
+		Tooltip: 炎に対する免疫を得る
+	}
+
+	ShadowGlove: {
+		DisplayName: 召術師の手袋
+		Tooltip: あらゆる火炎に対する免疫を得る
+	}
+
+	TrueTizona: {
+		DisplayName: オーシャンタイド
+		Tooltip:
+			'''
+			微風を付与
+			「ティソナと呼ぶ者もいる」
+			'''
+	}
+
+	AzurePearl: {
+		DisplayName: アズールパール
+		Tooltip: "「デューク・フィッシュロンの私物だったとか！」"
+	}
+
+	DemigodBlood: {
+		DisplayName: 吸血鬼の血
+		Tooltip: ""
+	}
+
+	MortalBlade: {
+		DisplayName: モータルブレード
+		Tooltip:
+			'''
+			聖炎を付与
+			稀にダメージが400％になる
+			攻撃成功時 たまに神聖回避を付与
+			敵の魂を貫通
+			血を糧にし 満ちると使用者を回復
+			「呪いと見る者もいれば 聖なるものと見る者もいる」
+			'''
+	}
+
+	RuneofDeath: {
+		DisplayName: 死のルーン
+		Tooltip: "「穢れた力が宿っている」"
+	}
+
+	DizzyArrow: {
+		DisplayName: めまいの矢
+		Tooltip: 混乱を付与
+	}
+
+	CoolKnives: {
+		DisplayName: クールナイフ
+		Tooltip:
+			'''
+			氷の短剣を素早く投げる
+			短剣は凍傷を付与
+			'''
+	}
+
+	LightsEdge: {
+		DisplayName: 光の刃
+		Tooltip:
+			'''
+			斬撃波が敵に聖炎を付与
+			剣攻撃が命中すると たまに神聖回避を付与
+			「聖なる力が宿っている」
+			'''
+	}
+
+	LunaticTools: {
+		DisplayName: 狂信者の道具
+		Tooltip: "「狂信者の私物」"
+	}
+
+	Rancor: {
+		DisplayName: 狂信者の刃
+		Tooltip:
+			'''
+			混乱を付与
+			「月の領主を護るために鍛えられた 邪なる刃」
+			'''
+	}
+
+	TrueLightsEdge: {
+		DisplayName: 真・光の刃
+		Tooltip:
+			'''
+			斬撃波が敵に聖炎を付与 まれにソーラーブレイズを付与
+			剣攻撃が命中すると たまに神聖回避を付与
+			稀にダメージが400％になる
+			「輝く美しさ…」
+			'''
+	}
+
+	GoldenArrow: {
+		DisplayName: 金の矢
+		Tooltip: 倒した敵がより多くのコインを落とす
+	}
+
+	TravelersBlade: {
+		DisplayName: 旅人の剣
+		Tooltip:
+			'''
+			稀に敵がより多くのコインを落とす
+			「冒険の匂いがする…」
+			'''
+	}
+
+	SorcerersStaff: {
+		DisplayName: 魔術師の杖
+		Tooltip: 敵を貫通するきらめきを放つ
+	}
+
+	RangersQuiver: {
+		DisplayName: レンジャーの矢筒
+		Tooltip:
+			'''
+			遠隔ダメージが2増加
+			遠隔速度が4％上昇
+			矢を消費しない確率20％
+			'''
+	}
+
+	SharpshootersNecklace: {
+		DisplayName: 神射手のネックレス
+		Tooltip:
+			'''
+			遠隔ダメージが1増加
+			遠隔クリティカル率が7％上昇
+			'''
+	}
+
+	SharpArrow: {
+		DisplayName: 鋭い矢
+		Tooltip: 敵を1体貫通
+	}
+
+	Autobow: {
+		DisplayName: オートボウ
+		Tooltip: 信じられないほど速く矢を放つ
+	}
+
+	DualshotBow: {
+		DisplayName: デュアルショットボウ
+		Tooltip:
+			'''
+			一度に2本の矢を放つ
+			矢は減速しやすい
+			'''
+	}
+
+	SharpshootersBow: {
+		DisplayName: 神射手の弓
+		Tooltip: ""
+	}
+
+	TriplexBow: {
+		DisplayName: トリプレックスボウ
+		Tooltip:
+			'''
+			一度に3本の矢を放つ
+			矢は減速しやすい
+			'''
+	}
+
+	GhostQuiver: {
+		DisplayName: 幽霊の矢筒
+		Tooltip:
+			'''
+			遠隔ダメージが12％増加
+			遠隔クリティカル率が7％上昇
+			遠隔速度が16％上昇
+			矢を消費しない確率25％
+			'''
+	}
+
+	SharpshootersQuiver: {
+		DisplayName: 神射手の矢筒
+		Tooltip:
+			'''
+			遠隔ダメージが3増加
+			遠隔クリティカル率が7％上昇
+			遠隔速度が4％上昇
+			矢を消費しない確率20％
+			'''
+	}
+
+	ElectrowaveKatana: {
+		DisplayName: エレクトロウェーブ・カタナ
+		Tooltip:
+			'''
+			感電を付与することがある
+			「全部ぶった斬れ！」
+			'''
+	}
+
+	BeenadeLauncher: {
+		DisplayName: ビーネードランチャー
+		Tooltip:
+			'''
+			高速でビーネードを撃つ
+			ビーネードを必要とせず消費もしない
+			'''
+	}
+
+	MagiciansStaff: {
+		DisplayName: 魔術師の杖
+		Tooltip: 敵を貫通するきらめきを放つ
+	}
+
+	MagiciansTrident: {
+		DisplayName: 魔術師の三叉槍
+		Tooltip:
+			'''
+			きらめきを束で放つ
+			至近距離ではきらめきが敵へ吸い込まれるように飛ぶ
+			'''
+	}
+
+	FireflyArrow: {
+		DisplayName: ホタルの矢
+		Tooltip: 優しいホタルの炎で敵を包む
+	}
+
+	Fireflow: {
+		DisplayName: ファイアフロー
+		Tooltip: ホタルの矢を放つ
+	}
+
+	IceShard: {
+		DisplayName: 氷の欠片
+		Tooltip: "「ひんやり！」"
+	}
+
+	PricklyIceNecklace: {
+		DisplayName: 氷の欠片のネックレス
+		Tooltip: 防御無視値+3
+	}
+
+	PiranhaBytes: {
+		DisplayName: ピラニアバイト
+		Tooltip:
+			'''
+			水の上を歩ける
+			防御無視値+3
+			'''
+	}
+
+	PiranhaFin: {
+		DisplayName: ピラニアのヒレ
+		Tooltip: ""
+	}
+
+	PiranhaHead: {
+		DisplayName: ピラニアの頭
+		Tooltip: "「ガブガブ！」"
+	}
+
+	PiranhaFlail: {
+		DisplayName: ピラニアフレイル
+		Tooltip:
+			'''
+			攻撃がより防御を無視しやすくなる
+			「口も臭う…うぇっ…」
+			'''
+	}
+
+	BloodSermon: {
+		DisplayName: 血の説法
+		Tooltip: 血を噴射
+	}
+
+	IfriteBlood: {
+		DisplayName: イフリートの血
+		Tooltip:
+			'''
+			ライフ回復がわずかに増進
+			防御無視値+3
+			'''
+	}
+
+	FieryCrossbow: {
+		DisplayName: 火炎クロスボウ
+		Tooltip:
+			'''
+			高速で火炎ナイフを撃つ
+			ナイフを必要とせず消費もしない
+			'''
+	}
+
+	BloodflameBell: {
+		DisplayName: 血炎の鐘
+		Tooltip:
+			'''
+			周囲を旋回する血炎を召喚
+			血炎はしばらくすると消える
+			血炎は自動で敵に取り憑く
+			血を糧とし 満たされると使用者を回復
+			'''
+	}
+
+	FleshBag: {
+		DisplayName: 肉袋
+		Tooltip: 右クリックで開く
+	}
+
+	FilthyMeat: {
+		DisplayName: 汚れた肉
+		Tooltip: "「うぇっ…」"
+	}
+
+	HexDoll: {
+		DisplayName: 呪術人形
+		Tooltip: 特定の力を注入できる
+	}
+
+	RottenFish: {
+		DisplayName: 腐った魚
+		Tooltip: ""
+	}
+
+	BloodflameHexDoll: {
+		DisplayName: 血炎の呪術人形
+		Tooltip:
+			'''
+			周囲を旋回する血炎を召喚
+			血炎はしばらくすると消える
+			血炎は自動で敵に取り憑く
+			血を糧とし 満たされると使用者を回復
+			'''
+	}
+
+	BloodSurge: {
+		DisplayName: ブラッドサージ
+		Tooltip:
+			'''
+			矢を『嘔吐』する
+			手に持つと防御無視値+3
+			手に持つとゆっくりライフ回復
+			'''
+	}
+
+	BloodWave: {
+		DisplayName: ブラッドウェーブ
+		Tooltip:
+			'''
+			裂傷を付与することがある
+			血を糧にし 満ちると使用者を回復
+			'''
+	}
+
+	FleshrotWand: {
+		DisplayName: ビホルダーの凝視
+		Tooltip:
+			'''
+			裂傷を短時間付与する血弾を放つ
+			たまに疫病を付与する寄生を『嘔吐』する
+			'''
+	}
+
+	SanguineWand: {
+		DisplayName: 猩紅の杖
+		Tooltip: 血を放つ
+	}
+
+	SwordofActuation: {
+		DisplayName: 作動の剣
+		Tooltip: "「???」"
+	}
+
+	HollowPickaxe: {
+		DisplayName: アンブロジウムのツルハシ
+		Tooltip: "「ドレックスのいとこ」"
+	}
+
+	Andariel: {
+		DisplayName: アンダリエル
+		Tooltip: "「???」"
+	}
+
+	RunicWings: {
+		DisplayName: ルーンの翼
+		Tooltip:
+			'''
+			飛行と緩降下が可能
+			被ダメージ5％減少
+			装備中 明るい光を放つ
+			'''
+	}
+
+	HelltideSharkFinFishingRod: {
+		DisplayName: ヘルタイドのサメヒレ釣り竿
+		Tooltip: 釣り糸が切れない
+	}
+
+	SymbolofAvarice: {
+		DisplayName: 強欲の象徴
+		Tooltip:
+			'''
+			クリティカル率が60％上昇
+			ノックバックが10％増加
+			被ダメージが40％増加
+			ダメージが20％減少
+			ゆっくりライフが減少
+			「ほのかな希望の光が…」
+			'''
+	}
+
+	HeavyPlateBoots: {
+		DisplayName: クトゥルフのブーツ
+		Tooltip:
+			'''
+			移動速度と加速度が非常に大きく増加
+			ゆっくりライフ回復
+			ダメージが15％増加
+			攻撃速度が23％低下
+			「見ているぞ…」
+			'''
+	}
+
+	GoldenHexDoll: {
+		DisplayName: 金の呪術人形
+		Tooltip: "「力は入っていないが よく売れるだろう！」"
+	}
+
+	HexDollofHatred: {
+		DisplayName: 憎悪の呪術人形
+		Tooltip: クリティカル率が16％上昇
+	}
+
+	ToxicPickaxe: {
+		DisplayName: 毒のツルハシ
+		Tooltip: "「行く手をほぼ何でも溶かす…」"
+	}
+
+	Toxistaff: {
+		DisplayName: トクシスタッフ
+		Tooltip:
+			'''
+			毒の泡を吐く
+			たまに疫病を付与する寄生体を吐き出す
+			'''
+	}
+
+	ExtraSlimyBag: {
+		DisplayName: エクストラ・スライムの袋
+		Tooltip:
+			'''
+			右クリックで開く
+			「臭う…」
+			'''
+	}
+
+	SuspiciousLookingVial: {
+		DisplayName: 怪しい小瓶
+		Tooltip: "「???」"
+	}
+
+	Toxibow: {
+		DisplayName: トクシボウ
+		Tooltip:
+			'''
+			跳ね返るか貫通しデバフを与える放射性の矢を『嘔吐』する
+			弓を射つと たまに自身が被曝する
+			たまに代わりに毒の泡を吐き出す
+			'''
+	}
+
+	TreasureGoblinsCoinBag: {
+		DisplayName: 宝物ゴブリンのコイン袋
+		Tooltip:
+			'''
+			大量のゴールドコインを投げられる
+			コインを消費しない
+			「大金持ちだ！」
+			'''
+	}
+
+	UnalloyedSpear: {
+		DisplayName: 無垢の槍
+		Tooltip:
+			'''
+			聖炎を付与
+			たまに代わりに幻槍を放つ
+			幻槍ははるかに長く 呪炎を付与
+			制御が難しく 刺突はかなり不正確
+			「アルクズの失われた秘宝」
+			'''
+	}
+
+	ShardofHate: {
+		DisplayName: 憎悪の欠片
+		Tooltip:
+			'''
+			炎上を付与
+			「どうしてここに…？」
+			'''
+	}
+
+	BoneNecklace: {
+		DisplayName: 骨のネックレス
+		Tooltip: ダメージが5増加
+	}
+
+	BoneBag: {
+		DisplayName: 骨の檻
+		Tooltip: 右クリックで開く
+	}
+
+	CLAMP: {
+		DisplayName: C.L.A.M.P.
+		Tooltip: 弾薬を節約する確率50％
+	}
+
+	SkeletonLordHelmet: {
+		DisplayName: 骸骨王のヘルメット
+		Tooltip:
+			'''
+			召喚数上限+1
+			召喚ダメージが5増加
+			召喚クリティカル率が20％上昇
+			召喚の防御無視値が10増加
+			「ベリアルの私物」
+			'''
+	}
+
+	RestorationPotion: {
+		DisplayName: 下位回復薬
+		Tooltip:
+			'''
+			時間経過でライフ回復
+			他の回復効果を打ち消す
+			「下位回復ポーションの悪くない代替！」
+			'''
+	}
+
+	RestorationPotion2: {
+		DisplayName: 回復薬
+		Tooltip:
+			'''
+			短時間でライフ回復
+			他の回復効果を打ち消す
+			「回復ポーションの良い代替！」
+			'''
+	}
+
+	CoinBag: {
+		DisplayName: コイン袋
+		Tooltip: 右クリックで開く
+	}
+
+	RockHammer: {
+		DisplayName: 岩のハンマー
+		Tooltip: ""
+	}
+
+	RockPickaxe: {
+		DisplayName: 岩のツルハシ
+		Tooltip: ""
+	}
+
+	EmberKnife: {
+		DisplayName: エンバー・ナイフ
+		Tooltip:
+			'''
+			敵を炎上させる
+			「貫通に長けた灼熱の斬撃を解き放て」
+			'''
+	}
+
+	EmberSpear: {
+		DisplayName: エンバー・スピア
+		Tooltip: まれに敵を炎上させる
+	}
+
+	ImbuedWand: {
+		DisplayName: 注魔の杖
+		Tooltip: クリスタルの破片を放つ
+	}
+
+	Spellflames: {
+		DisplayName: 呪炎
+		Tooltip: 追尾する呪炎を放つ
+	}
+
+	BloodflameWand: {
+		DisplayName: 血炎の杖
+		Tooltip:
+			'''
+			血炎を召喚して周囲を旋回させる
+			血炎はしばらくすると消える
+			血炎は自動的に敵に張り付く
+			血を糧にし 満ちると使用者を回復
+			'''
+	}
+
+	Reduvia: {
+		DisplayName: レドゥヴィア
+		Tooltip:
+			'''
+			シャドウフレイムと地獄の炎を付与するコーラス粒子の弾幕を『嘔吐』する
+			血を糧にし 満ちると使用者を回復
+			たまに食べ過ぎて 代わりに血を噴き出す
+			手に持っている間 防御無視値が3増加
+			手に持っている間 ゆっくりライフ回復
+			「ウリヴァールの所有物」
+			'''
+	}
+
+	ScarletManaNecklace: {
+		DisplayName: 緋色のマナネックレス
+		Tooltip: マナ回復が大きく増進
+	}
+
+	VolcanicRockHammer: {
+		DisplayName: 火山岩のハンマー
+		Tooltip: ""
+	}
+
+	VolcanicRockPickaxe: {
+		DisplayName: 火山岩のツルハシ
+		Tooltip: ""
+	}
+
+	ElectroWand: {
+		DisplayName: 超帯電の杖
+		Tooltip:
+			'''
+			炎を高速で放つ
+			炎はしばらく地面に残る
+			'''
+	}
+
+	ElectroStaff: {
+		DisplayName: 雷嵐の杖
+		Tooltip:
+			'''
+			近くの敵に絡みつく雷を放つ
+			近くの群れに放電し その間を跳ね回る
+			雷は継続的にダメージを与える
+			感電後 しばらく火花を散らす
+			'''
+	}
+
+	EmberPrawn: {
+		DisplayName: エンバー・エビ
+		Tooltip: ""
+	}
+
+	MoltenTuna: {
+		DisplayName: 溶岩マグロ
+		Tooltip: ""
+	}
+
+	Soulslash: {
+		DisplayName: ワイスパー
+		Tooltip: まれに魂炎を付与
+	}
+
+	ShardofHope: {
+		DisplayName: 神性の刃
+		Tooltip:
+			'''
+			炎で敵を包み込む
+			手に持っている間 運が増加
+			手に持っている間 防御無視値が3増加
+			手に持っている間 ゆっくりライフ回復
+			「これは神聖なものだ…」
+			'''
+	}
+
+	InflorescentSword: {
+		DisplayName: 花穂の剣
+		Tooltip: ブルームソーンを付与
+	}
+
+	BlossomCrown: {
+		SetBonus:
+			'''
+			最大マナ+40
+			マナ回復が大きく増進
+			魔法ダメージが8％増加
+			マナ消費が20％減少
+			'''
+		DisplayName: ブロッサムクラウン
+		Tooltip: 魔法の防御無視値が8増加
+	}
+
+	BlossomFlower: {
+		SetBonus:
+			'''
+			召喚数上限+4
+			召喚ダメージが40％増加		
+			'''
+		DisplayName: ブロッサムフラワー
+		Tooltip: 召喚の防御無視値が8増加
+	}
+
+	BlossomBreastplate: {
+		DisplayName: ブロッサムブレストプレート
+		Tooltip: クリティカル率が16％上昇
+	}
+
+	BlossomLeggings: {
+		DisplayName: ブロッサムレギンス
+		Tooltip:
+			'''
+			ダメージが8％増加
+			移動速度が12％上昇
+			'''
+	}
+
+	AlbinoAntlionWand: {
+		DisplayName: 白化顎の杖
+		Tooltip: ""
+	}
+
+	AlbinoMandibleBlade: {
+		DisplayName: 白化顎の刃
+		Tooltip: まれに呪炎を付与
+	}
+
+	SandWave: {
+		DisplayName: 砂の波
+		Tooltip: まれに敵を鈍化
+	}
+
+	AntlionMandibleAmulet: {
+		DisplayName: アントリオンの顎のお守り
+		Tooltip:
+			'''
+			ダメージが3増加
+			クリティカル率が3％上昇
+			'''
+	}
+
+	ScorpionAmulet: {
+		DisplayName: サソリのお守り
+		Tooltip:
+			'''
+			ダメージが4増加
+			クリティカル率が10％上昇
+			'''
+	}
+
+	SentinelsNecklace: {
+		DisplayName: センチネルのネックレス
+		Tooltip:
+			'''
+			ダメージが10増加
+			クリティカル率が5％上昇
+			マスター
+			'''
+	}
+
+	TrueRiversofBlood: {
+		DisplayName: 真・血の奔流
+		Tooltip:
+			'''
+			手に持っている間 クリティカル率が10％上昇
+			裂傷を付与
+			まれに地獄の炎を付与
+			血を糧にし 満ちると使用者を回復
+			次の効果が発生する可能性:
+			- 血を沸騰させ爆発させ 追加ダメージを与える
+			- 回復量が2倍になる
+			「敵を血の川に変えろ…」
+			'''
+	}
+
+	HolyBlade: {
+		DisplayName: 聖剣
+		Tooltip:
+			'''
+			斬撃波が敵に聖炎を付与
+			剣攻撃が命中すると たまに神聖回避を付与
+			「聖なる力が宿っている」
+			'''
+	}
+
+	HazelheartNecklace: {
+		DisplayName: ヘーゼルハートのネックレス
+		Tooltip: 非常にゆっくりライフ回復
+	}
+
+	RingofEmbers: {
+		DisplayName: 残火の指輪
+		Tooltip:
+			'''
+			非常にゆっくりライフ回復
+			装備中 光を放つ
+			'''
+	}
+
+	MischeviousBag: {
+		DisplayName: いたずら袋
+		Tooltip: 右クリックで開く
+	}
+
+	StolenWeddingRing: {
+		DisplayName: 盗まれた結婚指輪
+		Tooltip: "「恥を知れ 盗人め!!!」"
+	}
+
+	PoisonedMace: {
+		DisplayName: 毒のメイス
+		Tooltip: 毒を付与
+	}
+
+	Shiverleaf: {
+		DisplayName: ふるえ草
+		Tooltip: "「ちょっと冷たい！」"
+	}
+
+	ShiverleafBow: {
+		DisplayName: ふるえ草の弓
+		Tooltip: 凍傷の矢を放つ
+	}
+
+	ShiverleafSword: {
+		DisplayName: ふるえ草の剣
+		Tooltip: まれに凍傷を付与
+	}
+
+	ShiverleafWand: {
+		DisplayName: ふるえ草の杖
+		Tooltip: 攻撃時 まれにマナ回復
+	}
+
+	LivingflameHelmet: {
+		SetBonus: マナ消費が33％減少
+		DisplayName: 残火のヘルメット
+		Tooltip: 魔法ダメージが10％増加
+	}
+
+	EmberNecklace: {
+		DisplayName: 残火のネックレス
+		Tooltip:
+			'''
+			マナ回復が適度に増進
+			必要時 自動でマナポーションを使用
+			装備中 ほのかな光を放つ
+			'''
+	}
+
+	Ember: {
+		DisplayName: 残火
+		Tooltip: "「触るとちょっと熱い」"
+	}
+
+	HallowedHand: {
+		DisplayName: 魔法の手袋
+		Tooltip: 必要時 自動でマナポーションを使用
+	}
+
+	ShiverleafHairpin: {
+		DisplayName: ふるえ草の髪飾り
+		Tooltip: 魔法ダメージが2増加
+	}
+
+	SandTyphoon: {
+		DisplayName: 砂のタイフーン
+		Tooltip: シャドウフレイムを付与し 敵を鈍化
+	}
+
+	IceAxe: {
+		DisplayName: 氷のオノ
+		Tooltip: ""
+	}
+
+	IceHammer: {
+		DisplayName: 氷のハンマー
+		Tooltip: ""
+	}
+
+	IcePickaxe: {
+		DisplayName: 氷のツルハシ
+		Tooltip: ""
+	}
+
+	IceSword: {
+		DisplayName: 氷の剣
+		Tooltip: ""
+	}
+
+	TaintedFlesh: {
+		DisplayName: 穢れた肉
+		Tooltip:
+			'''
+			右クリックで開く
+			「くっさ…」
+			'''
+	}
+
+	GoblinLamp: {
+		DisplayName: 寒炎のランタン
+		Tooltip:
+			'''
+			地下にいるとゴブリン商人を引き寄せると言われている
+			目玉のボス討伐後 夜間はナイトグロー商人も引き寄せる
+			マスターモードでは望まれざる訪問者を引き寄せる場合がある
+			'''
+	}
+
+	Claymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:]
+			[i/s1:14][i/s1:14]= Empty
+			'''
+	}
+
+	LaserBow: {
+		DisplayName: レーザーボウ
+		Tooltip: "「宇宙からやってきた！」"
+	}
+
+	ShroonadeLauncher: {
+		DisplayName: シュルムネードランチャー
+		Tooltip:
+			'''
+			大爆発を残すシュルム弾を発射
+			いかなる手榴弾も必要とせず消費しない
+			自分もダメージを受ける
+			'''
+	}
+
+	SporeHat: {
+		DisplayName: 胞子の帽子
+		Tooltip:
+			'''
+			遠隔ダメージが2増加
+			遠隔速度が5％上昇
+			遠隔クリティカル率が15％上昇
+			'''
+	}
+
+	Shroomebow: {
+		DisplayName: シュルームボウ
+		Tooltip:
+			'''
+			スロウを付与するトリュフ胞子をばらまく
+			胞子は大きく減速する
+			命中精度が非常に低い
+			'''
+	}
+
+	FungalNecklace: {
+		DisplayName: 菌糸のネックレス
+		Tooltip:
+			'''
+			マナ回復が大きく増進
+			マナ消費が15％増加
+			詠唱速度が6％上昇
+			'''
+	}
+
+	FungalAxe: {
+		DisplayName: 菌糸のオノ
+		Tooltip: ""
+	}
+
+	FungalHammer: {
+		DisplayName: 菌糸のハンマー
+		Tooltip: ""
+	}
+
+	FungalPickaxe: {
+		DisplayName: 菌糸のツルハシ
+		Tooltip: ""
+	}
+
+	FungalSword: {
+		DisplayName: 菌糸の剣
+		Tooltip: まれに敵を鈍化
+	}
+
+	ShroomlingStaff: {
+		DisplayName: キノコ仔の杖
+		Tooltip:
+			'''
+			キノコ仔を召喚して戦わせる
+			キノコ仔は毒と真菌感染に対する免疫を与える
+			'''
+	}
+
+	HornofSalvation: {
+		DisplayName: 救済の角笛
+		Tooltip:
+			'''
+			守護者を召喚し 次の効果を発揮する:
+			- 周囲を旋回し 近くの敵をノックバック
+			- 防御無視値が7増加
+			- ダメージが5％増加
+			- クリティカル率が5％上昇
+			- 被ダメージが5％減少
+			- 防御力が5上昇
+			守護者は召喚スロットを2つ占有
+			使用者を石化させる 解除には 救済の腕 が必要
+			マスター
+			'''
+	}
+
+	ArmofSalvation: {
+		DisplayName: 救済の腕
+		Tooltip:
+			'''
+			ノックバックが増加
+			装備中 石化しない
+			'''
+	}
+
+	FairyStaff: {
+		DisplayName: ピクシーの杖
+		Tooltip:
+			'''
+			ピクシーを召喚して戦わせる
+			ピクシーが運を増加させる
+			'''
+	}
+
+	EldenRing: {
+		DisplayName: エルデンリング
+		Tooltip:
+			'''
+			ライフ回復
+			装備中 明るい光を放つ
+			「狭間の地から…」
+			'''
+	}
+
+	GoldenGuardianTotem: {
+		DisplayName: 金光のトーテム
+		Tooltip:
+			'''
+			被ダメージが7％減少
+			運がわずかに増加
+			'''
+	}
+
+	GoldenMinionBait: {
+		DisplayName: 輝くミニオンの餌
+		Tooltip:
+			'''
+			召喚数上限+1
+			召喚ダメージが3増加
+			運がわずかに増加
+			「どうやら金色のハチミツらしい！」
+			'''
+	}
+
+	GoldenSharpshootersNecklace: {
+		DisplayName: ゴールドアローのネックレス
+		Tooltip:
+			'''
+			遠隔ダメージが3増加
+			遠隔クリティカル率が24％上昇
+			運がわずかに増加
+			'''
+	}
+
+	GoldheartNecklace: {
+		DisplayName: ゴールドハートのネックレス
+		Tooltip:
+			'''
+			大きくライフ回復
+			運がわずかに増加
+			'''
+	}
+
+	AncientBag: {
+		DisplayName: 黄金の袋
+		Tooltip:
+			'''
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	GoldenMace: {
+		DisplayName: 金のメイス
+		Tooltip: たまに敵がより多くのコインを落とす
+	}
+
+	VampireBatStaff: {
+		DisplayName: 吸血コウモリの杖
+		Tooltip:
+			'''
+			吸血コウモリを召喚して戦わせる
+			吸血コウモリは時々回復してくれる
+			'''
+	}
+
+	WillowleafAxe: {
+		DisplayName: 柳葉のオノ
+		Tooltip: ""
+	}
+
+	WillowleafHammer: {
+		DisplayName: 柳葉のハンマー
+		Tooltip: ""
+	}
+
+	WillowleafPickaxe: {
+		DisplayName: 柳葉のツルハシ
+		Tooltip: ""
+	}
+
+	WillowleafBow: {
+		DisplayName: 柳葉の弓
+		Tooltip: ""
+	}
+
+	WillowleafSword: {
+		DisplayName: 柳葉の剣
+		Tooltip: 稀に敵がより多くのコインを落とす
+	}
+
+	YellowWillowLeaf: {
+		DisplayName: 黄色い柳の葉
+		Tooltip: "「とっても黄色でキレイ！」"
+	}
+
+	Squid: {
+		DisplayName: イカ
+		Tooltip: ""
+	}
+
+	DiamondAxe: {
+		DisplayName: ダイヤモンドのオノ
+		Tooltip: ""
+	}
+
+	DiamondHammer: {
+		DisplayName: ダイヤモンドのハンマー
+		Tooltip: ""
+	}
+
+	DiamondPickaxe: {
+		DisplayName: ダイヤモンドのツルハシ
+		Tooltip: ""
+	}
+
+	DiamondBow: {
+		DisplayName: ダイヤモンドの弓
+		Tooltip: 道化の矢を放つ
+	}
+
+	DiamondSword: {
+		DisplayName: ダイヤモンドの剣
+		Tooltip: "「きらめく斬撃を解き放て」"
+	}
+
+	SapphireRing: {
+		DisplayName: サファイアの指輪
+		Tooltip:
+			'''
+			魔法ダメージが1増加
+			マナ消費が5％減少
+			「見栄えいいね！」
+			'''
+	}
+
+	GoldenLeafStaff: {
+		DisplayName: 金のリーフリングの杖
+		Tooltip:
+			'''
+			金色のリーフリングを召喚して戦わせる
+			金のリーフリングは発光し 敵がより多くのコインを落とすようにする
+			'''
+	}
+
+	GoldenLeafSpear: {
+		DisplayName: 金のリーフの槍
+		Tooltip: 敵がより多くのコインを落とすようになる
+	}
+
+	GoldenLeafySword: {
+		DisplayName: 金のリーフィーソード
+		Tooltip:
+			'''
+			敵がより多くのコインを落とすようになる
+			「黄金の波を解き放て！」
+			'''
+	}
+
+	FireGem: {
+		DisplayName: 下位・火の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  ダメージが1増加
+			  炎上を付与
+			'''
+	}
+
+	FireClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:366]= [c/EDADB6:Fire]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+2]
+			- [c/B9FFAF:炎上を付与]
+			'''
+	}
+
+	CelestialGem: {
+		DisplayName: 下位・天の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  攻撃成功時にマナ回復
+			  鈍化を付与
+			'''
+	}
+
+	EarthGem: {
+		DisplayName: 下位・大地の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  クリティカル率が10％上昇
+			  ノックバックが6％増加
+			'''
+	}
+
+	NatureGem: {
+		DisplayName: 下位・自然の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  移動速度と加速度が6％上昇
+			  受動的なライフ回復
+			'''
+	}
+
+	FireCelestialClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:364]= [c/AE35FF:Chaos]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+1]
+			- [c/B9FFAF:呪炎を付与]
+			- [c/B9FFAF:たまに敵を混乱させる]
+			- [c/FF9B9D:移動速度と加速度が5％低下]
+			'''
+	}
+
+	GemSocket: {
+		DisplayName: 宝石ソケット
+		Tooltip:
+			'''
+			特定の武器に装着可能
+			エキスパート
+			'''
+	}
+
+	DullGem: {
+		DisplayName: くすんだ宝石
+		Tooltip:
+			'''
+			霊的な力を注入できる
+			「これは空っぽ…」
+			エキスパート
+			'''
+	}
+
+	ShrivingStone: {
+		DisplayName: 清めの石
+		Tooltip:
+			'''
+			武器から注入を取り除く
+			エキスパート
+			'''
+	}
+
+	CelestialClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:364][i/s1:364]= [c/ADC7EC:Celestial]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:攻撃成功時にマナ回復]
+			- [c/B9FFAF:鈍化を付与]
+			'''
+	}
+
+	FireEarthClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:11]= [c/EA2E35:Blood]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+1]			
+			- [c/B9FFAF:裂傷を付与]
+			- [c/B9FFAF:攻撃成功時 たまに使用者を回復]
+			- [c/B9FFAF:ゆっくりライフ回復]
+			- [c/FF9B9D:ノックバック-10%]
+			'''
+	}
+
+	CelestialNatureClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:947]= [c/00FAFF:Lightning]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ノックバック+5%]
+			- [c/B9FFAF:防御無視値が4増加]
+			- [c/B9FFAF:まれに敵を感電させる]
+			- [c/FF9B9D:ダメージ-1]
+			'''
+	}
+
+	HugeFireGem: {
+		DisplayName: 火の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  ダメージが3増加
+			  地獄の炎を付与
+			'''
+	}
+
+	NatureEarthClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:947][i/s1:11]= [c/96FF4C:Poison]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ノックバック+8%]
+			- [c/B9FFAF:クリティカル率が4％上昇]
+			- [c/B9FFAF:毒を付与]
+			- [c/FF9B9D:ライフ回復量が低下]
+			'''
+	}
+
+	NatureClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:947][i/s1:947]= [c/CDECAD:Nature]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:移動速度と加速度が6％上昇]
+			- [c/B9FFAF:受動的なライフ回復]
+			'''
+	}
+
+	EarthClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:11][i/s1:11]= [c/E0D6BC:Earth]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:クリティカル率が10％上昇]
+			- [c/B9FFAF:ノックバック+12%]
+			'''
+	}
+
+	CelestialEarthClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:364][i/s1:11]= [c/4355FF:Dark]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+3]
+			- [c/B9FFAF:サイズ+10%]
+			- [c/B9FFAF:暗闇と呪いに対する免疫を得る]
+			- [c/B9FFAF:まれにシャドウフレイムを付与]
+			- [c/FF9B9D:攻撃速度-5%]
+			'''
+	}
+
+	FireNatureClaymore: {
+		DisplayName: クレイモア
+		Tooltip:
+			'''
+			攻撃速度ボーナスは適用されない
+			「伝説の武具 呪いは効かない！」
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:947]= [c/EAD33F:Holy]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:被ダメージ2％減少]
+			- [c/B9FFAF:敵がより多くのコインを落とす]
+			- [c/B9FFAF:発光する]
+			- [c/B9FFAF:聖炎を付与]
+			- [c/FF9B9D:ダメージ-1]
+			'''
+	}
+
+	CelestialSpirit: {
+		DisplayName: 天の精霊
+		Tooltip:
+			'''
+			「秘術の力がみなぎっている」
+			[c/F1A500:Infusion material]
+			エキスパート
+			'''
+	}
+
+	EarthSpirit: {
+		DisplayName: 大地の精霊
+		Tooltip:
+			'''
+			「破砕の力がみなぎっている」
+			[c/F1A500:Infusion material]
+			エキスパート
+			'''
+	}
+
+	FireSpirit: {
+		DisplayName: 火の精霊
+		Tooltip:
+			'''
+			「地獄の力がみなぎっている」
+			[c/F1A500:Infusion material]
+			エキスパート
+			'''
+	}
+
+	NatureSpirit: {
+		DisplayName: 自然の精霊
+		Tooltip:
+			'''
+			「生気の力がみなぎっている」
+			[c/F1A500:Infusion material]
+			エキスパート
+			'''
+	}
+
+	CelestialBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:364][i/s1:364]= [c/ADC7EC:Celestial]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:攻撃成功時にマナ回復]
+			- [c/B9FFAF:鈍化を付与]
+			'''
+	}
+
+	EarthBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:11][i/s1:11]= [c/E0D6BC:Earth]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:クリティカル率が20％上昇]
+			- [c/B9FFAF:ノックバック+12%]
+			'''
+	}
+
+	FireBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:366][i/s1:366]= [c/EDADB6:Fire]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+2]
+			- [c/B9FFAF:炎上を付与]
+			'''
+	}
+
+	NatureBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:947][i/s1:947]= [c/CDECAD:Nature]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:移動速度と加速度が12％上昇]
+			- [c/B9FFAF:受動的なライフ回復]
+			'''
+	}
+
+	SuspiciousLookingBag: {
+		DisplayName: 怪しい袋
+		Tooltip:
+			'''
+			エリオットを召喚
+			「これ うちの猫そのもの…」
+			'''
+	}
+
+	PureGem: {
+		DisplayName: 純粋な宝石
+		Tooltip:
+			'''
+			武器から特性を取り除く
+			「いや 自分のやり方で行く！」
+			エキスパート
+			'''
+	}
+
+	Excalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1975][i/s1:1975]= 空き
+			'''
+	}
+
+	FireExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1974][i/s1:1974]= [c/EDADB6:Fire]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+6]
+			- [c/B9FFAF:地獄の炎を付与]
+			'''
+	}
+
+	HugeCelestialGem: {
+		DisplayName: 天の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  移動速度と加速度が12％上昇
+			  鈍化・冷却・凍結・凍傷に対する免疫を得る
+			'''
+	}
+
+	HugeEarthGem: {
+		DisplayName: 大地の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  防御無視値が上昇
+			  ノックバック+15%
+			'''
+	}
+
+	HugeNatureGem: {
+		DisplayName: 自然の宝石
+		Tooltip:
+			'''
+			他の宝石と混ぜてボーナスを高められる
+			[c/F1A500:Infusion bonuses:]
+			  受動的なライフ回復
+			  毒・酸性毒・呪いの業火に対する免疫を得る
+			'''
+	}
+
+	CelestialExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1972][i/s1:1972]= [c/ADC7EC:Celestial]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:移動速度と加速度が12％上昇]
+			- [c/B9FFAF:鈍化・冷却・凍結・凍傷に対する免疫を得る]
+			'''
+	}
+
+	AscensionGem: {
+		DisplayName: 昇華の宝石
+		Tooltip:
+			'''
+			一部のソケット2つの武器に装着可能
+			[c/F1A500:Ascension bonuses:]
+			- [c/FCF085:+15% ダメージと攻撃速度]
+			- [c/FCF085:被ダメージ5％減少]
+			- [c/FCF085:防御無視値+10]
+			- [c/FCF085:受動的なライフ回復]
+			- [c/FCF085:コインのドロップ率と回収範囲が上昇]
+			- [c/FCF085:明るい光を放つ]
+			マスター
+			'''
+	}
+
+	HollowGem: {
+		DisplayName: 空虚の宝石
+		Tooltip:
+			'''
+			武器を元の形に戻す
+			エキスパート
+			'''
+	}
+
+	SoulStone: {
+		DisplayName: ソウルストーン
+		Tooltip:
+			'''
+			2番目のソケットに装着可能 最初のソケットの属性を複製する
+			エキスパート
+			'''
+	}
+
+	BloodExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1974][i/s1:1971]= [c/EA2E35:Blood]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+3]
+			- [c/B9FFAF:裂傷を付与]
+			- [c/B9FFAF:ゆっくりライフ回復]
+			- [c/B9FFAF:攻撃成功時 たまに使用者を回復]
+			- [c/B9FFAF:回復量が2倍になることがある]
+			- [c/FF9B9D:ノックバック-12%]
+			'''
+	}
+
+	ChaosExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1974][i/s1:1972]= [c/AE35FF:Chaos]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+3]
+			- [c/B9FFAF:移動速度と加速度が12％上昇]
+			- [c/B9FFAF:呪炎を付与]
+			- [c/B9FFAF:たまに敵を混乱させる]
+			- [c/B9FFAF:マナ回復が増進]
+			- [c/FF9B9D:被ダメージ3％増加]
+			'''
+	}
+
+	DarkExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1972][i/s1:1971]= [c/4355FF:Dark]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+5]
+			- [c/B9FFAF:サイズ+10%]
+			- [c/B9FFAF:シャドウフレイムを付与]
+			- [c/B9FFAF:暗闇と呪いに対する免疫を得る]
+			- [c/FF9B9D:防御無視値が低下]
+			'''
+	}
+
+	EarthExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1971][i/s1:1971]= [c/E0D6BC:Earth]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:防御無視値が上昇]
+			- [c/B9FFAF:ノックバック+15%]
+			'''
+	}
+
+	HolyExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1974][i/s1:1973]= [c/EAD33F:Holy]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:被ダメージ4％減少]
+			- [c/B9FFAF:聖炎を付与]
+			- [c/B9FFAF:まれにイコルを付与]
+			- [c/B9FFAF:敵がより多くのコインを落とす]
+			- [c/B9FFAF:発光する]
+			- [c/FF9B9D:ダメージ-2]
+			'''
+	}
+
+	LightningExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1972][i/s1:1973]= [c/00FAFF:Lightning]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:攻撃速度+12％]
+			- [c/B9FFAF:ノックバック+8%]
+			- [c/B9FFAF:まれに敵を感電させる]
+			- [c/B9FFAF:防御無視値が8増加]
+			- [c/FF9B9D:ダメージ-2]
+			'''
+	}
+
+	NatureExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1973][i/s1:1973]= [c/CDECAD:Nature]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:受動的なライフ回復]
+			- [c/B9FFAF:毒・酸性毒・呪いの業火に対する免疫を得る]
+			'''
+	}
+
+	PoisonExcalibur: {
+		DisplayName: エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1973][i/s1:1971]= [c/96FF4C:Poison]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:攻撃速度+4％]
+			- [c/B9FFAF:クリティカル率が8％上昇]
+			- [c/B9FFAF:毒を付与]
+			- [c/B9FFAF:まれに酸性毒を付与]
+			- [c/FF9B9D:ライフ回復が低下]
+			'''
+	}
+
+	Whetstone: {
+		DisplayName: 砥石
+		Tooltip:
+			'''
+			一部の武器に使用して強化できる
+			マスター
+			'''
+	}
+
+	GemBag: {
+		DisplayName: 宝石の袋
+		Tooltip:
+			'''
+			元素の宝石が1つ入っている
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	NatureQualitySword: {
+		Tooltip:
+			'''
+			「たいして上質じゃないが 注入は可能！」
+			[c/F1A500:Sockets:]
+			[i/s1:947]= [c/CDECAD:Nature]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:移動速度と加速度が6％上昇]
+			- [c/B9FFAF:受動的なライフ回復]
+			'''
+		DisplayName: 自然の上質な剣
+	}
+
+	FireQualitySword: {
+		Tooltip:
+			'''
+			「たいして上質じゃないが 注入は可能！」
+			[c/F1A500:Sockets:]
+			[i/s1:366]= [c/EDADB6:Fire]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+1]
+			- [c/B9FFAF:炎上を付与]
+			'''
+		DisplayName: 上質な剣
+	}
+
+	EarthQualitySword: {
+		DisplayName: 大地の上質な剣
+		Tooltip:
+			'''
+			「たいして上質じゃないが 注入は可能！」
+			[c/F1A500:Sockets:]
+			[i/s1:11]= [c/E0D6BC:Earth]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:クリティカル率が10％上昇]
+			- [c/B9FFAF:ノックバック+12%]
+			'''
+	}
+
+	CelestialQualitySword: {
+		Tooltip:
+			'''
+			「たいして上質じゃないが 注入は可能！」
+			[c/F1A500:Sockets:] 
+			[i/s1:364]= [c/ADC7EC:Celestial]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:攻撃成功時にマナ回復]
+			- [c/B9FFAF:鈍化を付与]
+			'''
+		DisplayName: 天の上質な剣
+	}
+
+	GuideBook: {
+		DisplayName: ガイドブック
+		Tooltip:
+			'''
+			Expanded Terraria へようこそ！
+			[c/B9FFAF:追加要素:]
+			ゴブリンTinkererで防具パーツをリフォージ可能に
+			稀に地下に『ゴブリン商人』が出現
+			新しい初期装備・武器・防具・ツール・アクセサリ・NPC・戦利品・チェスト中身・ショップ品
+			釣り戦利品・木箱・釣り竿・餌の追加、バニラ調整、バランス調整、拡張イベント、エキスパート/マスターモードのスケーリング改善など多数！
+			[c/FFAC54:エキスパート限定追加:]
+			アクセサリスロット追加！（発光アクセ専用、バフを付与）
+			選ばれた武器はゴブリンTinkererの作業台で元素宝石を注入可能
+			雪原/ジャングル/地下/洞窟で稀に元素がドロップ
+			一部の宝石は『魔術師』や『ゴブリン商人』から購入、または邪悪/ハロウにてドロップ
+			[c/EA2E35:マスター限定追加:]
+			アクセサリスロット追加！（マスター用アクセ専用。発光アクセ装備が必要。デバフを付与）
+			アクセサリスロット追加！（機動力アクセ専用。マスター用アクセ装備が必要。バフを付与）
+			選ばれた武器はゴブリンTinkererで『焼き入れ（Tempered）』可能
+			プランテラ/ゴーレム後に追加の宝石をクラフト可能
+			『ウィスプ商人』が地下に出現する場合あり（商人から『ウィスプランタン』が必要）
+			[c/F1A500:* 進め方に迷ったらガイド/図鑑/Mod設定やDiscordへ！ https://discord.gg/aZVe7EPrTY]
+			[c/F1A500:* #generalで質問するか #FAQ を参照。入手法の詳説があります]
+			[c/FF7A77:* 設定ファイルの確認もお忘れなく。問題解決に役立つ場合があります]
+			'''
+	}
+
+	HeavyGem: {
+		DisplayName: 重い宝石
+		Tooltip:
+			'''
+			一部のソケット2つの武器に装着可能
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+5]
+			マスター
+			'''
+	}
+
+	RawGem: {
+		DisplayName: 生の宝石
+		Tooltip:
+			'''
+			一部のソケット2つの武器に装着可能
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:被ダメージ5％減少]
+			マスター
+			'''
+	}
+
+	SharpGem: {
+		DisplayName: 鋭い宝石
+		Tooltip:
+			'''
+			一部のソケット2つの武器に装着可能
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:クリティカル率+15%]
+			マスター
+			'''
+	}
+
+	AscensionExcaliburHeavy: {
+		DisplayName: 覚醒・真エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1975][i/s1:1874]= [c/F0EFC3:Heavy Ascension]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+5]
+			[c/F1A500:Ascended:]
+			- [c/FCF085:+15% ダメージと攻撃速度]
+			- [c/FCF085:被ダメージ5％減少]
+			- [c/FCF085:防御無視値+10]
+			- [c/FCF085:受動的なライフ回復]
+			- [c/FCF085:コインのドロップ率と回収範囲が上昇]
+			- [c/FCF085:明るい光を放つ]
+			'''
+	}
+
+	AscensionExcaliburRaw: {
+		DisplayName: 覚醒・真エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1975][i/s1:1874]= [c/F0EFC3:Raw Ascension]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:被ダメージ5％減少]
+			[c/F1A500:Ascended:]
+			- [c/FCF085:+15% ダメージと攻撃速度]
+			- [c/FCF085:被ダメージ5％減少]
+			- [c/FCF085:防御無視値+10]
+			- [c/FCF085:受動的なライフ回復]
+			- [c/FCF085:コインのドロップ率と回収範囲が上昇]
+			- [c/FCF085:明るい光を放つ]
+			'''
+	}
+
+	AscensionExcaliburSharp: {
+		DisplayName: 覚醒・真エクスカリバー
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:1975][i/s1:1874]= [c/F0EFC3:Sharp Ascension]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:クリティカル率が15％上昇]
+			[c/F1A500:Ascended:]
+			- [c/FCF085:+15% ダメージと攻撃速度]
+			- [c/FCF085:被ダメージ5％減少]
+			- [c/FCF085:防御無視値+10]
+			- [c/FCF085:受動的なライフ回復]
+			- [c/FCF085:コインのドロップ率と回収範囲が上昇]
+			- [c/FCF085:明るい光を放つ]
+			'''
+	}
+
+	AncientBladeofGrassTemperable: {
+		DisplayName: +1 古代の草の刃
+		Tooltip:
+			'''
+			毒を付与することがある
+			「これはクラシック！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:ダメージと攻撃速度+6%]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	AndarielTemperable: {
+		DisplayName: +3 アンダリエル
+		Tooltip:
+			'''
+			「???」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:ダメージと攻撃速度+10%]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	DiamondSwordTemperable: {
+		DisplayName: +1 ダイヤモンドの剣
+		Tooltip:
+			'''
+			「きらめく斬撃を解き放て」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:ダメージと攻撃速度+6%]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	FiberglassSwordTemperable: {
+		DisplayName: +1 ファイバーグラスの剣
+		Tooltip:
+			'''
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:ダメージと攻撃速度+6%]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	AlbinoMandibleBladeTemperable: {
+		DisplayName: +1 白化顎の刃
+		Tooltip:
+			'''
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:ダメージと攻撃速度+6%]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	ArteryTemperable: {
+		DisplayName: +1 血管
+		Tooltip:
+			'''
+			召喚タグダメージ+8
+			召喚物はヒットした敵を優先して狙う
+			血を吸収し 満ちると使用者を回復
+			まれに裂傷を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	BallOJunkTemperable: {
+		DisplayName: +1 ガラクタ玉
+		Tooltip:
+			'''
+			振るほどノックバックが最大+50%まで増加
+			まれに錆を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	BezoflailTemperable: {
+		DisplayName: +2 ベゾボール
+		Tooltip:
+			'''
+			毒を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	BloodlickerTemperable: {
+		DisplayName: +3 ブラッドボーン
+		Tooltip:
+			'''
+			斬撃波は裂傷または酸性毒を付与する
+			剣撃が成功すると時々『致命の一撃』を放つ
+			血を吸収し 満ちると使用者を回復
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	BloodWaveTemperable: {
+		DisplayName: +1 血の奔流
+		Tooltip:
+			'''
+			まれに裂傷を付与
+			血を吸収し 満ちると使用者を回復
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	BlossomGreatswordTemperable: {
+		DisplayName: +3 花の大剣
+		Tooltip:
+			'''
+			花棘を付与
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	BrainFlailTemperable: {
+		DisplayName: +1 ブレインフレイル
+		Tooltip:
+			'''
+			まれに疫病を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	CrusherTemperable: {
+		DisplayName: +1 粉砕者
+		Tooltip:
+			'''
+			防御無視性能が向上
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	CurseflameTemperable: {
+		DisplayName: +2 呪われた業火
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物はヒットした敵を優先して狙う
+			呪われた炎を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	EbonwhipTemperable: {
+		DisplayName: +1 邪悪な黒檀のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+6
+			召喚物はヒットした敵を優先して狙う
+			複数の敵に対して 他のムチよりやや優れる
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	ElectrowaveKatanaTemperable: {
+		DisplayName: +2 電波刀
+		Tooltip:
+			'''
+			まれに敵を感電させる
+			「全てを斬り伏せろ！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	EmberKnifeTemperable: {
+		DisplayName: +1 余燼のナイフ
+		Tooltip:
+			'''
+			敵を炎上させる
+			「貫通に優れる灼熱の斬撃を解き放て」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	EmberSpearTemperable: {
+		DisplayName: +1 余燼の槍
+		Tooltip:
+			'''
+			まれに炎上を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	EveningStarTemperable: {
+		DisplayName: +1 明けの明星
+		Tooltip:
+			'''
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	EyeBallTemperable: {
+		DisplayName: +2 目玉
+		Tooltip:
+			'''
+			「見られてる気がする…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	FireflayerTemperable: {
+		DisplayName: +1 火の小鱗
+		Tooltip:
+			'''
+			敵をほのかな蛍火で包む
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	ForkTemperable: {
+		DisplayName: +3 フォーク
+		Tooltip:
+			'''
+			突くほど攻撃速度が最大2倍まで上昇
+			「これで食べるものじゃないと思う…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	GiantTwigTemperable: {
+		DisplayName: +1 巨大マホガニーの棍棒
+		Tooltip:
+			'''
+			まれに毒を付与
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	GoldenKatanaTemperable: {
+		DisplayName: +1 ルーンの刀
+		Tooltip:
+			'''
+			聖炎を付与
+			「聖なる力が宿っている」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	GoldenLeafySwordTemperable: {
+		DisplayName: +1 金のリーフィーソード
+		Tooltip:
+			'''
+			敵がより多くのコインを落とす
+			「黄金の波を解き放て！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	GoldenMaceTemperable: {
+		DisplayName: +1 金のメイス
+		Tooltip:
+			'''
+			敵がより多くのコインを落とす
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	GoldGreatswordTemperable: {
+		DisplayName: +1 金のグレートソード
+		Tooltip:
+			'''
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	GrimmMacabreTemperable: {
+		DisplayName: +2 トワイライトブレード
+		Tooltip:
+			'''
+			手に持つと移動速度+25%
+			呪炎を付与
+			「天地の怒りで鍛えられた」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	GrimmspearTemperable: {
+		DisplayName: +2 グリムスピア
+		Tooltip:
+			'''
+			呪炎を付与
+			「語りかけてくる…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	GutWhipTemperable: {
+		DisplayName: +1 内臓ムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+6
+			召喚物はヒットした敵を優先して狙う
+			まれに疫病を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	HemogobladeTemperable: {
+		DisplayName: +2 ヘモゴブレード
+		Tooltip:
+			'''
+			裂傷を付与
+			まれに犠牲者の血を吸い 次の効果を得る:
+			- 使用者を回復
+			- 使用者のライフ回復が大きく増進
+			- 被ダメージ10％減少
+			- 移動速度が10％上昇
+			- 攻撃速度が2倍になる
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	HoneyWhipTemperable: {
+		DisplayName: +1 スティンガームチ
+		Tooltip:
+			'''
+			召喚タグダメージ+10
+			召喚物はヒットした敵を優先して狙う
+			まれにハニースティングを付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	IceSickleTemperable: {
+		DisplayName: +1 氷の草切鎌
+		Tooltip:
+			'''
+			まれに凍傷を付与
+			「これは干し草集め用じゃないと思う」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	InflorescentSwordTemperable: {
+		DisplayName: +3 花穂の剣
+		Tooltip:
+			'''
+			花棘を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	LivingflameSwordTemperable: {
+		DisplayName: +1 リビングフレイムの剣
+		Tooltip:
+			'''
+			燃える刃はまれに炎上を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	MortalBladeTemperable: {
+		DisplayName: +3 モータルブレード
+		Tooltip:
+			'''
+			聖炎を付与
+			400％のダメージを与えることがある
+			攻撃成功時 たまに聖なる回避を得る
+			敵の魂を貫く
+			血を吸収し 満ちると使用者を回復
+			「呪われたという者もいれば 聖なるという者もいる」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	MossFlailTemperable: {
+		DisplayName: +2 いばらの球
+		Tooltip:
+			'''
+			棘を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	ObservingWhipTemperable: {
+		DisplayName: +2 観察者のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+15
+			召喚物はヒットした敵を優先して狙う
+			攻撃成功ごとに使用者を回復
+			攻撃が続く限り裂傷を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	PiranhaFlailTemperable: {
+		DisplayName: +1 ピラニアフレイル
+		Tooltip:
+			'''
+			攻撃の防御無視性能が向上
+			「口も臭い…うえっ…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	PixieDustWhipTemperable: {
+		DisplayName: +2 妖精の粉のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+12
+			召喚物はヒットした敵を優先して狙う
+			混乱を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	PlagueBladeTemperable: {
+		DisplayName: +1 疫病の刃
+		Tooltip:
+			'''
+			疫病を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	PlatinumGreatswordTemperable: {
+		DisplayName: +1 白金のグレートソード
+		Tooltip:
+			'''
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	PoisonedMaceTemperable: {
+		DisplayName: +1 毒のメイス
+		Tooltip:
+			'''
+			毒を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	RancorTemperable: {
+		DisplayName: +3 狂信者の刃
+		Tooltip:
+			'''
+			混乱を付与
+			「月の王を護るために鍛えられた 邪なる刃」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	RottenClubTemperable: {
+		DisplayName: +1 腐った棍棒
+		Tooltip:
+			'''
+			まれに腐敗を付与
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	RunicSwordTemperable: {
+		DisplayName: +3 ルーンの剣
+		Tooltip:
+			'''
+			ルーンのソードビームを放つ
+			聖炎を付与
+			「聖なる力が宿っている」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	SandTyphoonTemperable: {
+		DisplayName: +2 砂のタイフーン
+		Tooltip:
+			'''
+			シャドウフレイムを付与し 敵を鈍化
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	SawtoothBladeTemperable: {
+		DisplayName: +1 ノコギリ刃
+		Tooltip:
+			'''
+			防御無視性能が向上
+			まれに裂傷を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	ShardofHopeTemperable: {
+		DisplayName: +3 神性の刃
+		Tooltip:
+			'''
+			敵を炎で包む
+			手に持つと 運が増加
+			手に持つと 防御無視値+3
+			手に持つと ゆっくりライフ回復
+			「これは神聖なものだ…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	SoulfireWhipTemperable: {
+		DisplayName: +1 ソウルファイアのムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+10
+			召喚物はヒットした敵を優先して狙う
+			魂を吸収し 満ちると使用者を回復
+			魂炎を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	SoulReaverTemperable: {
+		DisplayName: +1 ソウルリーバー
+		Tooltip:
+			'''
+			常識外れに速く斬るが 射程に欠ける
+			魂炎を付与
+			魂を吸収し 十分に満ちると大きく回復
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	SoulslashTemperable: {
+		DisplayName: +1 ワイスパー
+		Tooltip:
+			'''
+			まれに魂炎を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	SpiritflameWhipTemperable: {
+		DisplayName: +2 霊炎のムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+15
+			召喚物はヒットした敵を優先して狙う
+			攻撃成功ごとに使用者を回復
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	SpiritflayerTemperable: {
+		DisplayName: +2 スピリットフレイヤー
+		Tooltip:
+			'''
+			魂を吸収し 満ちると使用者を回復
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	SporelashTemperable: {
+		DisplayName: +1 草のサーベル
+		Tooltip:
+			'''
+			毒を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	StarstruckSwordTemperable: {
+		DisplayName: +1 星詠みの剣
+		Tooltip:
+			'''
+			まれに聖炎を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	StingerBladeTemperable: {
+		DisplayName: +1 スティンガーブレード
+		Tooltip:
+			'''
+			まれにハニースティングを付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	StingerFlailTemperable: {
+		DisplayName: +1 スティンガーフレイル
+		Tooltip:
+			'''
+			まれにハニースティングを付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	StingerKnifeTemperable: {
+		DisplayName: +1 スティンガー・スタバー
+		Tooltip:
+			'''
+			とても速い二連突き
+			まれにハニースティングを付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	StinkballTemperable: {
+		DisplayName: +1 タマネギのフレイル
+		Tooltip:
+			'''
+			悪臭を付与
+			まれに敵を混乱させる
+			「涙が止まらないけど まだ振れる！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	ThornedSpearTemperable: {
+		DisplayName: +2 棘付きコルセスカ
+		Tooltip:
+			'''
+			棘を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	ThornedSwordTemperable: {
+		DisplayName: +2 棘付きグレートソード
+		Tooltip:
+			'''
+			棘を付与
+			「これはかなり重い！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+8% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ2％減少]
+			- [c/A6F1FC:防御無視値+4]
+			'''
+	}
+
+	TreasureGoblinsCoinBagTemperable: {
+		DisplayName: +3 宝物ゴブリンのコイン袋
+		Tooltip:
+			'''
+			大量の金貨を投げられる
+			コインを消費しない
+			「金持ちだ！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	TrueRiversofBloodTemperable: {
+		DisplayName: +3 真・血の奔流
+		Tooltip:
+			'''
+			手に持つと クリティカル率が10％上昇
+			裂傷を付与
+			地獄の炎を付与することがある
+			血を吸収し 満ちると使用者を回復
+			次の効果が発生することがある:
+			- 血を沸騰させ爆発させ 追加ダメージを与える
+			- 回復量が2倍になる
+			「敵を血の奔流へと変えろ…」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	TrueTizonaTemperable: {
+		DisplayName: +3 オーシャンタイド
+		Tooltip:
+			'''
+			ブリーズを付与
+			「ティソーナと呼ぶ者もいる」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	UnalloyedSpearTemperable: {
+		DisplayName: +3 無垢の槍
+		Tooltip:
+			'''
+			聖炎を付与
+			時々 幻影の槍を代わりに放つ
+			幻影の槍ははるかに長く 呪炎を付与
+			制御が難しく 命中はかなり不正確
+			「アルクズの失われた秘宝」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	UnihornTemperable: {
+		DisplayName: +3 ユニホーン
+		Tooltip:
+			'''
+			まれに敵を混乱させる
+			「…あれを見て混乱しない者がいるか？」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	UnyieldingSwordTemperable: {
+		DisplayName: +3 ヤタガン
+		Tooltip:
+			'''
+			聖炎を付与
+			時々 敵を混乱させる
+			敵がより多くのコインを落とす
+			「お前に相応しくない」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+10% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ3％減少]
+			- [c/A6F1FC:防御無視値+5]
+			'''
+	}
+
+	VerteballTemperable: {
+		DisplayName: +1 バーテボール
+		Tooltip:
+			'''
+			まれに裂傷を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	WebbedGreatswordTemperable: {
+		DisplayName: +1 クモの巣まみれのグレートソード
+		Tooltip:
+			'''
+			まれに毒液を付与
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	WhipTemperable: {
+		DisplayName: +1 棘付きのムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物はヒットした敵を優先して狙う
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	FieryGreatsword: {
+		DisplayName: 炎の大剣
+		Tooltip: "「火でできてる！」"
+	}
+
+	FieryGreatswordTemperable: {
+		DisplayName: +1 炎の大剣
+		Tooltip:
+			'''
+			「火でできてる！」
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	CuteGem: {
+		DisplayName: かわいい宝石
+		Tooltip:
+			'''
+			「何に使うかさっぱり…それと こっち見てない？？？」
+			マスター
+			'''
+	}
+
+	AlienBlood: {
+		DisplayName: 放射能の血
+		Tooltip:
+			'''
+			「できるだけ早く手放すべきな気がする」
+			マスター
+			'''
+	}
+
+	StinkyEdibleGel: {
+		DisplayName: くさい食用ジェル
+		Tooltip:
+			'''
+			30秒間 ゆっくりライフ回復
+			「うわっ 本当に臭い」
+			'''
+	}
+
+	TaintedHand: {
+		DisplayName: 穢れた手袋
+		Tooltip:
+			'''
+			必要に応じて自動でマナポーションを使用
+			呪文ノックバックが増加
+			魔法クリティカル率が15％上昇
+			マスター
+			'''
+	}
+
+	WeakMinionBait: {
+		DisplayName: 弱いミニオンの餌
+		Tooltip: 召喚ダメージ+1
+	}
+
+	HellbendersNecklace: {
+		DisplayName: ヘルベンダーのネックレス
+		Tooltip:
+			'''
+			ダメージが5％増加
+			ダメージが5増加
+			防御無視値が3増加
+			マスター
+			'''
+	}
+
+	PlasmaStone: {
+		DisplayName: プラズマの石
+		Tooltip:
+			'''
+			近接およびムチ攻撃が呪いの業火を付与
+			近接の防御無視値+8
+			マスター
+			'''
+	}
+
+	ShiverheartNecklace: {
+		DisplayName: シヴァーハートのネックレス
+		Tooltip:
+			'''
+			大きくライフ回復
+			防御無視値が3増加
+			ライフハートの回収範囲が拡大
+			マスター
+			'''
+	}
+
+	BlizzardStone: {
+		DisplayName: 凍てつく石
+		Tooltip:
+			'''
+			近接およびムチ攻撃が凍傷を付与
+			近接の防御無視値+3
+			マスター
+			'''
+	}
+
+	HolyStone: {
+		DisplayName: 祈りの石
+		Tooltip:
+			'''
+			近接およびムチ攻撃が聖炎を付与
+			近接の防御無視値+12
+			マスター
+			'''
+	}
+
+	TrickstersGlove: {
+		DisplayName: トリックスターの手袋
+		Tooltip:
+			'''
+			近接攻撃速度が12％上昇
+			近接武器のサイズが増加
+			マスター
+			'''
+	}
+
+	StartingAccessoryGem: {
+		DisplayName: 静謐の石
+		Tooltip: 初期バッグを選べる
+	}
+
+	FletchersQuiver: {
+		DisplayName: 矢師の矢筒
+		Tooltip:
+			'''
+			遠隔ダメージ+1
+			遠隔攻撃速度が10％上昇
+			25％の確率で矢を消費しない
+			他クラス関連の武器を無効化
+			マスター
+			'''
+	}
+
+	SentinelsGlove: {
+		DisplayName: 守護者の手袋
+		Tooltip:
+			'''
+			近接ダメージ+3
+			近接攻撃速度が5％上昇
+			近接ノックバックが増加
+			近接武器のサイズが増加
+			他クラス関連の武器を無効化
+			マスター
+			'''
+	}
+
+	EnchantedNectar: {
+		DisplayName: 魔法のネクター
+		Tooltip:
+			'''
+			ダッシュが可能になる
+			方向キーを素早く2回押す
+			召喚数上限+1
+			ムチの攻撃速度が15％上昇
+			召喚のノックバックが33％増加
+			ジャンプ力が上昇
+			他クラス関連の武器を無効化
+			マスター
+			'''
+	}
+
+	HallowedFlower: {
+		DisplayName: 聖なる花
+		Tooltip:
+			'''
+			魔法ダメージ+1
+			消費マナが20％減少
+			マナ回復が大きく上昇
+			最大マナ+40
+			ダッシュが可能になる
+			必要に応じて自動でマナポーションを使用
+			他クラス関連の武器を無効化
+			マスター
+			'''
+	}
+
+	MagicStarterBag: {
+		DisplayName: 魔法スターターバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	MeleeStarterBag: {
+		DisplayName: 近接スターターバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	RangedStarterBag: {
+		DisplayName: 遠隔スターターバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	SummonStarterBag: {
+		DisplayName: 召喚スターターバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	SoulKnife: {
+		DisplayName: ソウルナイフ
+		Tooltip:
+			'''
+			敵を押しのける
+			短時間の混乱を付与し 20秒間 敵を弱体化
+			まれに魂炎を付与
+			手に持つと 移動速度が25％上昇
+			マスター
+			'''
+	}
+
+	GelWhip: {
+		DisplayName: ジェルムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+2
+			召喚物はヒットした敵を優先して狙う
+			短時間 敵を弱体化
+			「べったべた！」
+			'''
+	}
+
+	RazorleafWhip: {
+		DisplayName: レーザーリーフムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物はヒットした敵を優先して狙う
+			多くのムチより複数目標にやや強い
+			'''
+	}
+
+	ReinforcedWhip: {
+		DisplayName: 強化ムチ
+		Tooltip:
+			'''
+			召喚タグダメージ+5
+			召喚物はヒットした敵を優先して狙う
+			短時間 敵を弱体化
+			'''
+	}
+
+	NecklaceofTranquility: {
+		DisplayName: 安寧の首飾り
+		Tooltip:
+			'''
+			ゆっくりライフ回復
+			装備時にほのかな光を放つ
+			[c/F1A500:発光アクセサリースロットに装備すると マスターアクセサリースロットが有効になる]
+			「クトゥルフの呪いによるライフ回復低下に対抗するために身につけろ」
+			マスター
+			'''
+	}
+
+	HoarfrostRing: {
+		DisplayName: 霜華の指輪
+		Tooltip:
+			'''
+			装備時にほのかな光を放つ
+			[c/F1A500:発光アクセサリースロットに装備すると マスターアクセサリースロットが有効になる]
+			「これは冷たい」
+			マスター
+			'''
+	}
+
+	EquilibriousShard: {
+		DisplayName: 均衡の欠片
+		Tooltip:
+			'''
+			「均衡こそが鍵」
+			マスター
+			'''
+	}
+
+	BloodBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:]
+			[i/s1:366][i/s1:11]= [c/EA2E35:Blood]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+1]
+			- [c/B9FFAF:裂傷を付与]
+			- [c/B9FFAF:攻撃成功時 たまに使用者を回復]
+			- [c/B9FFAF:ゆっくりライフ回復]
+			- [c/FF9B9D:ノックバック-10%]
+			'''
+	}
+
+	ChaosBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:364]= [c/AE35FF:Chaos]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+1]
+			- [c/B9FFAF:呪炎を付与]
+			- [c/B9FFAF:たまに敵を混乱させる]
+			- [c/FF9B9D:移動速度と加速度が5％低下]
+			'''
+	}
+
+	DarkBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:364][i/s1:11]= [c/4355FF:Dark]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ダメージ+3]
+			- [c/B9FFAF:サイズ+10%]
+			- [c/B9FFAF:暗闇と呪いに対する免疫を得る]
+			- [c/B9FFAF:まれにシャドウフレイムを付与]
+			- [c/FF9B9D:攻撃速度-5%]
+			'''
+	}
+
+	HolyBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:947]= [c/EAD33F:Holy]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:被ダメージ2％減少]
+			- [c/B9FFAF:敵がより多くのコインを落とす]
+			- [c/B9FFAF:発光する]
+			- [c/B9FFAF:聖炎を付与]
+			- [c/FF9B9D:ダメージ-1]
+			'''
+	}
+
+	LightningBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:366][i/s1:947]= [c/00FAFF:Lightning]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ノックバック+5%]
+			- [c/B9FFAF:防御無視値が4増加]
+			- [c/B9FFAF:まれに敵を感電させる]
+			- [c/FF9B9D:ダメージ-1]
+			'''
+	}
+
+	PoisonBoneKatana: {
+		DisplayName: 骨のカタナ
+		Tooltip:
+			'''
+			[c/F1A500:Sockets:] 
+			[i/s1:947][i/s1:11]= [c/96FF4C:Poison]
+			[c/F1A500:Infusion bonuses:]
+			- [c/B9FFAF:ノックバック+8%]
+			- [c/B9FFAF:クリティカル率が4％上昇]
+			- [c/B9FFAF:毒を付与]
+			- [c/FF9B9D:ライフ回復量が低下]
+			'''
+	}
+
+	MurmurShard: {
+		DisplayName: さざめきの欠片
+		Tooltip:
+			'''
+			特殊なクラフトに使用
+			エキスパート
+			'''
+	}
+
+	UnholyShard: {
+		DisplayName: 邪なる欠片
+		Tooltip:
+			'''
+			特殊なクラフトに使用
+			マスター
+			'''
+	}
+
+	BrassArrow: {
+		DisplayName: 真鍮の矢
+		Tooltip: 敵を1体貫通
+	}
+
+	Brass: {
+		DisplayName: 真鍮のインゴット
+		Tooltip: ""
+	}
+
+	Chromium: {
+		DisplayName: クロムのインゴット
+		Tooltip: ""
+	}
+
+	BrassBeast: {
+		DisplayName: 真鍮のビースト
+		Tooltip:
+			'''
+			50％の確率で弾薬を消費しない
+			やや命中精度が低い
+			'''
+	}
+
+	BrassHelmet: {
+		SetBonus: 近接ノックバックが10％増加
+		DisplayName: 真鍮の兜
+		Tooltip: 近接ダメージが3％増加
+	}
+
+	BrassChestplate: {
+		DisplayName: 真鍮の胸当て
+		Tooltip: 近接ダメージが3％増加
+	}
+
+	BrassLeggings: {
+		DisplayName: 真鍮のすね当て
+		Tooltip: 近接ダメージが3％増加
+	}
+
+	BrassAxe: {
+		DisplayName: 真鍮の斧
+		Tooltip: ""
+	}
+
+	BrassHammer: {
+		DisplayName: 真鍮のハンマー
+		Tooltip: ""
+	}
+
+	BrassPickaxe: {
+		DisplayName: 真鍮のツルハシ
+		Tooltip: ""
+	}
+
+	BrassClaymore: {
+		DisplayName: 真鍮の刃
+		Tooltip: ""
+	}
+
+	BronzeOre: {
+		DisplayName: 青銅鉱石
+		Tooltip: ""
+	}
+
+	EnforcingPotion: {
+		DisplayName: 防護のポーション
+		Tooltip: 防御力+3、被ダメージ1％減少
+	}
+
+	BrokenBone: {
+		DisplayName: 折れた骨
+		Tooltip: "「骨がないよりマシ」"
+	}
+
+	CelestialRune: {
+		DisplayName: 天のルーン
+		Tooltip:
+			'''
+			マスターモードのクラフトに使用
+			「商人は呪われてるって言ってた…」
+			マスター
+			'''
+	}
+
+	ClassStarterBag: {
+		DisplayName: ランダムスターターバッグ
+		Tooltip:
+			'''
+			右クリックで開く
+			「クラス関連のアイテムがランダムで入っている」
+			'''
+	}
+
+	BrokenBoneNecklace: {
+		DisplayName: 折れた骨のネックレス
+		Tooltip: 遠隔ダメージ+3
+	}
+
+	RibcageBow: {
+		DisplayName: 肋骨の弓
+		Tooltip:
+			'''
+			非常に高速で飛ぶ骨の矢を放つ
+			矢はしばしば速度を犠牲にし 致命的な貫通骨に分裂する
+			'''
+	}
+
+	CarrionPicker: {
+		DisplayName: 腐肉の突き棒
+		Tooltip:
+			'''
+			まれに裂傷または疫病を付与
+			やや命中が不正確に突く
+			'''
+	}
+
+	CarrionPickerTemperable: {
+		DisplayName: +1 腐肉の突き棒
+		Tooltip:
+			'''
+			まれに裂傷または疫病を付与
+			やや命中が不正確に突く
+			[c/F1A500:Tempered:]
+			- [c/A6F1FC:+6% ダメージと攻撃速度]
+			- [c/A6F1FC:被ダメージ1％減少]
+			- [c/A6F1FC:防御無視値+3]
+			'''
+	}
+
+	SanguineFork: {
+		DisplayName: 緋のフォーク
+		Tooltip:
+			'''
+			血のしぶきを噴射
+			至近距離では滴が敵に飛び込む
+			滴は裂傷を付与し たまに使用者を回復
+			手に持つと 出血に対する免疫を得る
+			'''
+	}
+
+	StingerBow: {
+		DisplayName: スティンガーボウ
+		Tooltip: "毒の矢を『嘔吐』する"
+	}
+
+	RadioactiveFish: {
+		DisplayName: 放射能汚染された魚
+		Tooltip:
+			'''
+			毒々しい泡を吐き出す
+			マスター
+			'''
+	}
+
+	BoneQuiver: {
+		DisplayName: 骨の矢筒
+		Tooltip:
+			'''
+			遠隔ダメージ+6
+			遠隔クリティカル率が7％上昇
+			遠隔攻撃速度が4％上昇
+			20％の確率で矢を消費しない
+			マスター
+			'''
+	}
+
+	HauntedHeart: {
+		DisplayName: 取り憑かれたハート
+		Tooltip:
+			'''
+			ライフ回復
+			沈黙と呪いに対する免疫を得る
+			マスター
+			'''
+	}
+
+	HauntedRelic: {
+		DisplayName: 取り憑かれた遺物
+		Tooltip:
+			'''
+			近接およびムチ攻撃が混乱を付与
+			被ダメージ3％減少
+			ライフ回復
+			多くのデバフに対する免疫を得る
+			運がわずかに増加
+			マスター
+			'''
+	}
+
+	TotemofPurity: {
+		DisplayName: 純潔のトーテム
+		Tooltip:
+			'''
+			近接およびムチ攻撃が毒を付与
+			被ダメージ3％減少
+			毒と出血に対する免疫を得る
+			運がわずかに増加
+			マスター
+			'''
+	}
+
+	TotemofStability: {
+		DisplayName: 安定のトーテム
+		Tooltip:
+			'''
+			近接およびムチ攻撃が毒を付与
+			被ダメージ3％減少
+			毒、出血、鈍化、混乱、虚弱に対する免疫を得る
+			運がわずかに増加
+			マスター
+			'''
+	}
+
+	LostFractal: {
+		DisplayName: 失われたフラクタル
+		Tooltip: "[c/22FCB6:'???']"
+	}
+
+	BrokenFractal: {
+		DisplayName: 壊れたフラクタル
+		Tooltip: "[c/22FCB6:'???']"
+	}
+
+	Ultimatum: {
+		DisplayName: 最終通牒
+		Tooltip:
+			'''
+			[c/F56962:'究極の姿を解き放て']
+			マスター
+			'''
+	}
+
+	OtherwordlyGel: {
+		DisplayName: 異界のジェル
+		Tooltip: "[c/22FCB6:'クトゥルフの鼻水を瓶詰め']"
+	}
+
+	PhantomDagger: {
+		DisplayName: ファントムダガー
+		Tooltip: "「幻影の斬撃を解き放て！」"
+	}
+
+	BloodMuramasa: {
+		DisplayName: 血のムラマサ
+		Tooltip:
+			'''
+			血を糧とし、十分に満たされると使用者を回復する
+			「ムラマサのイマイチな従兄弟！」
+			'''
+	}
+
+	ChaosBlade: {
+		DisplayName: カオスブレード
+		Tooltip:
+			'''
+			呪炎とシャドウフレイムを付与することがある
+			時々クリティカル率が10%上昇する
+			血を糧とし、十分に満たされると使用者を回復する
+			敵防御を貫通しやすい
+			使用者の体力が33%未満のとき:
+			- ライフ自然回復が上昇する
+			- 攻撃速度+33%
+			「おぞましき猛りを解き放て！」
+			エキスパート
+			'''
+	}
+
+	ChaosBladeTemperable: {
+		DisplayName: +3 カオスブレード（焼入れ可）
+		Tooltip:
+			'''
+			呪炎とシャドウフレイムを付与することがある
+			時々クリティカル率が10%上昇する
+			血を糧とし、十分に満たされると使用者を回復する
+			敵防御を貫通しやすい
+			使用者の体力が33%未満のとき:
+			- ライフ自然回復が上昇する
+			- 攻撃速度+33%
+			「おぞましき猛りを解き放て！」
+			エキスパート
+			'''
+	}
+
+	ChaosBonePickaxe: {
+		DisplayName: カオスボーンつるはし
+		Tooltip: 非常に速く採掘する
+	}
+
+	BloodVial: {
+		DisplayName: 血の小瓶
+		Tooltip: "「今夜は月が血に満ちている…」"
+	}
+
+	RevenantStar: {
+		DisplayName: レヴナントスター
+		Tooltip:
+			'''
+			不浄の欠片の作成に使用
+			「囁きかけてくる…」
+			マスター
+			'''
+	}
+
+	FistofTheNorthStar: {
+		DisplayName: 北斗の拳
+		Tooltip:
+			'''
+			近接ノックバックを大幅に増加
+			近接ダメージ+10%
+			近接速度+20%
+			近接クリティカル率+5%
+			近接武器のサイズが大きくなる
+			マスター
+			'''
+	}
+
+	SoulArrow: {
+		DisplayName: ソウルアロー
+		Tooltip:
+			'''
+			ソウルフレイムを付与する
+			矢が近くの敵に素早く吸い付く
+			'''
+	}
+
+	ReinforcedBow: {
+		DisplayName: 混沌の弓
+		Tooltip:
+			'''
+			矢の速度が大幅に上がる
+			エキスパート
+			'''
+	}
+
+	SoulBow: {
+		DisplayName: ソウルボウ
+		Tooltip:
+			'''
+			一度に矢を3本発射する
+			矢の速度が大幅に上がる
+			'''
+	}
+
+	SoulAxe: {
+		DisplayName: ソウルアックス
+		Tooltip: ""
+	}
+
+	SoulHammer: {
+		DisplayName: ソウルハンマー
+		Tooltip: ""
+	}
+
+	SoulPickaxe: {
+		DisplayName: ソウルつるはし
+		Tooltip: ""
+	}
+
+	SoulMuramasa: {
+		DisplayName: 魂のムラマサ
+		Tooltip: "「ムラマサのイマイチな従兄弟！」"
+	}
+
+	BladeofSoul: {
+		DisplayName: 魂の刃
+		Tooltip: ""
+	}
+
+	SoulLamp: {
+		DisplayName: ソウルランプ
+		Tooltip:
+			'''
+			周囲を回る魂を召喚する
+			魂はしばらくすると消える
+			魂は自動で敵に張り付く
+			魂を糧とし、十分に満たされると使用者を回復する
+			'''
+	}
+
+	SteelLamp: {
+		DisplayName: スチールランプ
+		Tooltip: "「これは今は空っぽだ…」"
+	}
+
+	ChaosflamePickaxe: {
+		DisplayName: カオスフレイムつるはし
+		Tooltip: ""
+	}
+
+	RustyCog: {
+		DisplayName: 錆びた歯車
+		Tooltip: "「少し錆びてるが使えるかも」"
+	}
+
+	HolyflamePickaxe: {
+		DisplayName: ホーリーフレイムつるはし
+		Tooltip: ""
+	}
+
+	AutomaticShotgun: {
+		DisplayName: オートショットガン
+		Tooltip:
+			'''
+			弾をばらまき射撃する
+			撃ち続けるほど溜めが進む
+			'''
+	}
+
+	SteampunkRepeater: {
+		DisplayName: スチームパンク・リピーター
+		Tooltip:
+			'''
+			弾をばらまき射撃する
+			撃ち続けるほど溜めが進む
+			'''
+	}
+
+	TurboPickaxe: {
+		DisplayName: ターボつるはし
+		Tooltip:
+			'''
+			信じられないほど速く採掘する
+			「ほぼドリルと言っていい！」
+			'''
+	}
+
+	OmnipotentEyeStaff: {
+		DisplayName: 全能の眼の杖
+		Tooltip:
+			'''
+			全能の眼を召喚し、次の効果を得る:
+			- 自身の周囲を回り、近くの敵をノックバックさせる
+			- ライフ自然回復が上昇
+			- 出血と鈍化に対する免疫を付与
+			- 敵を連続で攻撃すると回復する
+			マスター
+			'''
+	}
+
+	WispStaff: {
+		DisplayName: ウィスプの杖
+		Tooltip:
+			'''
+			ウィスプを召喚して戦わせる
+			ウィスプは鈍化に対する免疫を付与する
+			'''
+	}
+
+	BloodfrogBoots: {
+		DisplayName: 血蛙のブーツ
+		Tooltip:
+			'''
+			移動速度と加速度を大幅に上昇
+			ジャンプの高さと速度を上昇
+			オートジャンプが可能になる
+			被ダメージ2%減少
+			落下ダメージを無効化
+			マスター
+			'''
+	}
+
+	LuckyheartNecklace: {
+		DisplayName: 幸運のハートネックレス
+		Tooltip:
+			'''
+			高いライフ自然回復を提供
+			運が少し増加する
+			敵に命中時、たまに追加のコインを落とす
+			「今日はツイてる！」
+			'''
+	}
+
+	SoulboneArrow: {
+		DisplayName: ソウルボーンの矢
+		Tooltip:
+			'''
+			ソウルフレイムを付与する
+			矢が近くの敵に素早く吸い付く
+			'''
+	}
+
+	SoultouchedBow: {
+		DisplayName: 魂宿りの弓
+		Tooltip:
+			'''
+			一度に最大6本のソウルボーンの矢を放つ
+			矢が近くの敵に素早く吸い付く
+			時々、追尾する呪炎を放つ
+			'''
+	}
+
+	BlackGel: {
+		DisplayName: ブラックジェル
+		Tooltip: "「これはちょっと暗い」"
+	}
+
+	BlackwaterPotion: {
+		DisplayName: ブラックウォーターのポーション
+		Tooltip: 鈍化・虚弱・暗闇への免疫を付与
+	}
+
+	BlackBlade: {
+		DisplayName: 黒刃
+		Tooltip:
+			'''
+			敵を呪炎状態にする
+			命中に成功すると、たまに防護を得る
+			構えている間、使用者に棘効果を付与
+			振り続けるほどクリティカル率が最大+50%まで上昇
+			振り続けるほど攻撃速度が最大+33%まで上昇
+			「覇気が宿っていると言われている。何かは知らないが…」
+			'''
+	}
+
+	VultureWings: {
+		DisplayName: ハゲタカの翼
+		Tooltip: 飛行とゆっくり落下を可能にする
+	}
+
+	VultureBeak: {
+		DisplayName: ハゲタカのくちばし
+		Tooltip: "「いてっ…」"
+	}
+
+	VultureFeather: {
+		DisplayName: ハゲタカの羽根
+		Tooltip: ""
+	}
+
+	GlowingSoulFishingStick: {
+		DisplayName: 輝くソウルの釣り竿
+		Tooltip: ""
+	}
+
+	SoulplateFishingPole: {
+		DisplayName: ソウルプレートの釣り竿
+		Tooltip: ""
+	}
+
+	SoulslimeBoots: {
+		DisplayName: ソウルスライムのブーツ
+		Tooltip:
+			'''
+			ダッシュが可能になる
+			任意の方向を素早く2回押す
+			移動速度と加速度+20%
+			'''
+	}
+
+	StinkySlimeBag: {
+		DisplayName: くさいスライム袋
+		Tooltip:
+			'''
+			右クリックで開く
+			「なんて臭いんだ！」
+			エキスパート
+			'''
+	}
+
+	SoulslimePickaxe: {
+		DisplayName: ソウルスライムのツルハシ
+		Tooltip: 非常に速く採掘
+	}
+
+	SoulslimeKnife: {
+		DisplayName: ソウルスライムナイフ
+		Tooltip: "「魂の波動を解き放て！」"
+	}
+
+	ReinforcedMiningHelmet: {
+		DisplayName: 補強採掘ヘルメット
+		Tooltip:
+			'''
+			装備時に強い光を放つ
+			採掘速度が25％上昇
+			'''
+	}
+
+	UltrabrightLightbulb: {
+		DisplayName: 超高輝度電球
+		Tooltip: "「とても明るく光る！」"
+	}
+
+	CosmicReaverShark: {
+		DisplayName: コズミック・リーヴァーシャーク
+		Tooltip: 超高速で採掘
+	}
+
+	BloodbatWings: {
+		DisplayName: ヴァンパイアの翼
+		Tooltip:
+			'''
+			素早いが短い飛行が可能になり ゆっくり落下
+			ライフ回復が上昇
+			ハートの回収範囲が拡大
+			'''
+	}
+
+	RadioactiveArrow: {
+		DisplayName: 放射性の矢
+		Tooltip:
+			'''
+			デバフを付与
+			1回だけ跳ね返るか貫通
+			マスター
+			'''
+	}
+
+	RadioactiveBullet: {
+		DisplayName: 放射性の弾丸
+		Tooltip:
+			'''
+			敵を追尾
+			マスター
+			'''
+	}
+
+	VampireBullet: {
+		DisplayName: ヴァンパイア弾
+		Tooltip:
+			'''
+			近くの敵に喰らいつく
+			犠牲者の血を吸い あなたを回復
+			'''
+	}
+
+	BoneBag2: {
+		DisplayName: 骨袋
+		Tooltip: 右クリックで開く
+	}
+
+	BoneMace: {
+		DisplayName: 骨のメイス
+		Tooltip: "「ビリー・マロウズのもの！」"
+	}
+
+	VampireFlames: {
+		Tooltip:
+			'''
+			予測不能な吸血炎を多数放つ
+			吸血炎は至近距離で敵に喰らいつき 壁をすり抜ける
+			犠牲者から吸収し 満ちると使用者を回復
+			「アルカードの所有物」
+			'''
+		DisplayName: ヴァンパイアフレイム
+	}
+
+	HollowFlames: {
+		DisplayName: ホロウフレイムランタン
+		Tooltip:
+			'''
+			予測不能な虚炎を多数放つ
+			虚炎は至近距離で敵に喰らいつき 壁をすり抜ける
+			犠牲者から吸収し 満ちると使用者を回復
+			手に持つと ライフ回復が大幅に上昇 ただし 防御力-20%
+			マスター
+			'''
+	}
+
+	BioluminescentBlood: {
+		DisplayName: 生物発光の血液
+		Tooltip: "「暗闇で光る」"
+	}
+
+	BioShock: {
+		DisplayName: バイオショック
+		Tooltip:
+			'''
+			生物発光の弾を高速連射
+			時々 生物発光レーザーを発射
+			マスター
+			'''
+	}
+
+	SoulsEdge: {
+		DisplayName: 魂のエッジ
+		Tooltip:
+			'''
+			斬撃波が魂炎を付与
+			攻撃成功時 たまに回復
+			「囁きが聞こえる…」
+			'''
+	}
+
+	TrueSoulsEdge: {
+		DisplayName: 真・魂のエッジ
+		Tooltip:
+			'''
+			斬撃波が魂炎を付与
+			攻撃成功時 たまに回復
+			「囁きが聞こえる…」
+			'''
+	}
+
+	HollowFalchion: {
+		DisplayName: ホロウ・ファルシオン
+		Tooltip:
+			'''
+			魂炎を付与
+			手に持つと ライフ回復が大幅に上昇 ただし 防御力-20%
+			マスター
+			'''
+	}
+
+	Lodestone: {
+		DisplayName: ロードストーン
+		Tooltip:
+			'''
+			体力が低いほど ライフ回復が増加
+			被ダメージ後の無敵時間が延長
+			回避のチャンスを得る
+			ハートとマナの回収範囲が拡大
+			運が大きく増加
+			他の回復効果はこの秘宝と重複しない
+			使用者にポーション病を付与
+			[c/22FCB6:'???']
+			'''
+	}
+
+	PowerBoots: {
+		DisplayName: ターボブーツ
+		Tooltip:
+			'''
+			ダッシュが可能になる
+			方向キーを素早く2回押す
+			移動速度と加速度が大きく上昇
+			ジャンプ力と速度が大幅に上昇
+			落下ダメージ無効
+			装備時に強い光を放つ
+			採掘速度が25％上昇
+			マスター
+			'''
+	}
+
+	Scrapclock: {
+		DisplayName: スクラップクロック
+		Tooltip:
+			'''
+			移動速度と加速度が大きく上昇
+			マスター
+			'''
+	}
+
+	BioluminescentEye: {
+		DisplayName: 生物発光の眼
+		Tooltip:
+			'''
+			クトゥルフのしもべを召喚
+			マスター
+			'''
+	}
+
+	HauntedPotion: {
+		DisplayName: 呪われたポーション
+		Tooltip:
+			'''
+			ライフ回復
+			海で古びた沈没クレートを釣れるようになる
+			マスターモード中:
+			- プランテラ撃破後 浜辺にいると望まぬ訪問者を引き寄せる
+			'''
+	}
+
+	TurboBlade: {
+		DisplayName: ターボブレード
+		Tooltip:
+			'''
+			振るたびに巻き上がる
+			敵の防御を大きく無視
+			まれに敵を感電させる
+			'''
+	}
+
+	BloodKnives: {
+		DisplayName: ブラッドリーヴァーズ
+		Tooltip:
+			'''
+			ライフ吸収の貫通ダガーを高速で投げる
+			ダガーは近くの敵に喰らいつく
+			手に持つと ゆっくりライフ回復
+			'''
+	}
+
+	ShinyWeddingRing: {
+		DisplayName: 輝く結婚指輪
+		Tooltip: "「これは見栄えがいい！ きっと高く売れる」"
+	}
+
+	Soap: {
+		DisplayName: 石鹸
+		Tooltip:
+			'''
+			特殊なクラフトに使用
+			「とてもいい匂い…」
+			'''
+	}
+
+	SpiritflameLantern: {
+		Tooltip:
+			'''
+			予測不能なスピリットフレイムを多数放つ
+			スピリットフレイムは至近距離で敵に喰らいつき 壁をすり抜ける
+			魂を糧とし 満ちると使用者を回復
+			'''
+		DisplayName: スピリットフレイムランタン
+	}
+
+	SpiritBlade: {
+		Tooltip: 魂を糧とし 満ちると使用者を回復
+		DisplayName: スピリットブレード
+	}
+
+	GhostflameBow: {
+		Tooltip:
+			'''
+			標的を決して外さないゴーストフレイムを放つ
+			ゴーストフレイムは魂を糧とし 満ちると使用者を回復
+			'''
+		DisplayName: ゴーストフレイムの弓
+	}
+
+	SteelNugget: {
+		Tooltip: 弾薬のクラフトに使用
+		DisplayName: スチールナゲット
+	}
+
+	SpirititeBar: {
+		Tooltip: "「どうやら取り憑かれているらしい…」"
+		DisplayName: スピリティウムのインゴット
+	}
+
+	HauntedSoul: {
+		Tooltip: "「私に囁きかけてくる…」"
+		DisplayName: 取り憑かれた魂
+	}
+
+	RustyHighVelocityBullet: {
+		Tooltip: ""
+		DisplayName: 錆びた高速弾
+	}
+
+	Gostbloom: {
+		DisplayName: ゴストブルーム
+		Tooltip:
+			'''
+			魔法ダメージ+2
+			放射能と冷却効果に対する免疫を得る
+			'''
+	}
+
+	MechaTortoiseShell: {
+		DisplayName: メカ亀の甲羅
+		Tooltip:
+			'''
+			防御力+10％
+			被ダメージ5％減少
+			移動速度と加速度が著しく低下
+			「超ヘビー…」
+			マスター
+			'''
+	}
+
+	ScrapRadar: {
+		DisplayName: スクラップレーダー
+		Tooltip: 釣り力+20
+	}
+
+	AutomatedArrow: {
+		DisplayName: 自動矢
+		Tooltip: 矢が近くの敵に素早く喰らいつく
+	}
+
+	Mechasharkron: {
+		DisplayName: メカシャークロン
+		Tooltip:
+			'''
+			50％の確率で弾薬を消費しない
+			「半分銃 半分銃 あれ…？」
+			'''
+	}
+
+	QuadruplexBow: {
+		DisplayName: クアドラプレックスボウ
+		Tooltip:
+			'''
+			一度に4本の矢を放つ
+			矢は速度をやや失いやすい
+			'''
+	}
+
+	TurboBladeMKII: {
+		DisplayName: ターボブレード Mk. II
+		Tooltip:
+			'''
+			振るたびに巻き上がる
+			敵の防御を大きく無視
+			まれに敵を感電させる
+			'''
+	}
+
+	PocketParticleAccelerator: {
+		DisplayName: 携帯型粒子加速器
+		Tooltip:
+			'''
+			遠隔攻撃速度+75％
+			遠隔ノックバック-50％
+			遠隔ダメージ-50％
+			遠隔クリティカル率-50％
+			'''
+	}
+
+	RadianitePotion: {
+		DisplayName: ラディアナイトのポーション
+		Tooltip: 放射能と冷却効果に対する免疫を得る
+	}
+
+	IceBarrierPotion: {
+		DisplayName: 氷の障壁のポーション
+		Tooltip:
+			'''
+			氷の障壁を呼び出す
+			体力が50％以上の場合:
+			- 防御+8
+			- 被ダメージ10％減少
+			体力が50％未満の場合:
+			- 10％の確率で回避
+			'''
+	}
+
+	IceBarrierPotion2: {
+		DisplayName: 氷の障壁のポーション
+		Tooltip:
+			'''
+			氷の障壁を呼び出す
+			体力が50％以上の場合:
+			- 防御+8
+			- 被ダメージ10％減少
+			体力が50％未満の場合:
+			- 10％の確率で回避
+			'''
+	}
+
+	HolyRelic: {
+		DisplayName: 聖なる遺物
+		Tooltip:
+			'''
+			被ダメージ7％減少
+			ダメージ+5
+			クリティカル率+24％
+			召喚数上限+1
+			大きくライフ回復
+			運が大幅に増加
+			「イナリウス神父の所有物」
+			マスター
+			'''
+	}
+
+	BronzeSword: {
+		DisplayName: 青銅の剣
+		Tooltip: "「銅の剣よりちょっと頼れる！」"
+	}
+
+	ParticleBow: {
+		DisplayName: 粒子の弓
+		Tooltip:
+			'''
+			光の粒子の一斉射を放つ
+			粒子は至近距離で敵に飛び込む
+			「太陽の力が宿っている…」
+			'''
+	}
+
+	GlowingSlimeworm: {
+		DisplayName: 輝くソウルワーム
+		Tooltip: "「これは魔力を帯びてる！ 魚が大好きだ！」"
+	}
+
+	TurboPickaxeMKII: {
+		DisplayName: ターボつるはし Mk. II
+		Tooltip: 信じられないほど速く採掘
+	}
+
+	TheRuin: {
+		DisplayName: 破滅
+		Tooltip:
+			'''
+			一度に5〜6本の自動矢を放つ
+			ときどきアドレナリンを血液に注入
+			「この弓は敵に破滅をもたらすだろう」
+			'''
+	}
+
+	SpiritflameStaff: {
+		DisplayName: スピリットフレイムの杖
+		Tooltip:
+			'''
+			周囲を回るスピリットを召喚
+			スピリットはしばらくすると消える
+			スピリットは自動で敵に取り付き
+			魂を糧とし 満ちると使用者を回復
+			'''
+	}
+
+	AquaTrident: {
+		DisplayName: アクアトライデント
+		Tooltip: 振るたびに攻撃が速くなる
+	}
+
+	SunSonar: {
+		DisplayName: サンソナー
+		Tooltip:
+			'''
+			釣り力+50
+			多くの釣りバフを付与
+			運がそこそこ増加
+			'''
+	}
+
+	FireflyFlameLamp: {
+		DisplayName: ホタルフレイムランプ
+		Tooltip:
+			'''
+			周囲を回るホタルフレイムを召喚
+			ホタルフレイムはしばらくすると消える
+			ホタルフレイムは自動で敵に取り付き 穏やかに燃やす
+			'''
+	}
+
+	HauntedSkull: {
+		DisplayName: 取り憑かれたドクロ
+		Tooltip:
+			'''
+			アンホーリー・スケレグロンを召喚
+			マスター
+			'''
+	}
+
+	GemBag2: {
+		DisplayName: ジェム袋
+		Tooltip:
+			'''
+			属性ジェムが1つ入っている
+			右クリックで開く
+			マスター
+			'''
+	}
+
+	BrokenSoulLamp: {
+		DisplayName: 壊れたソウルランプ
+		Tooltip:
+			'''
+			周囲を回る魂を召喚
+			魂はしばらくすると消える
+			魂は自動で敵に取り付き
+			魂を糧とし 満ちると使用者を回復
+			「ほとんど動かない…」
+			'''
+	}
+
+	CrackedGoldenBone: {
+		DisplayName: ひび割れた金の骨
+		Tooltip: "「売る以外に使い道は…ない！」"
+	}
+
+	BrokenRavenWing: {
+		DisplayName: 壊れたレイヴンの翼
+		Tooltip: ""
+	}
+
+	RadianiteBar: {
+		DisplayName: ラディアナイトのインゴット
+		Tooltip: "「パチパチ音が聞こえる…」"
+	}
+
+	RadiatedTools: {
+		DisplayName: 放射化された道具
+		Tooltip: 特殊なクラフトに使用
+	}
+
+	RadioLamp: {
+		DisplayName: ラジオフレイムランタン
+		Tooltip:
+			'''
+			放射性の敵を引き寄せると言われている
+			「やつらは炎をどこまでも追う…」
+			'''
+	}
+
+	GoldflameNecklace: {
+		Tooltip:
+			'''
+			大きくライフ回復
+			魔法ダメージ+5
+			呪文ノックバックが増加
+			運がわずかに増加
+			敵に命中させると たまに追加でコインを落とす
+			放射能と冷却効果に対する免疫を得る
+			呪文詠唱速度-12％
+			被ダメージ10％増加
+			「黄金の光に身を浸して…」
+			マスター
+			'''
+		DisplayName: ゴーストフレイムのネックレス
+	}
+
+	NightglowLamp: {
+		DisplayName: ナイトグロウランプ
+		Tooltip:
+			'''
+			周囲を回るスピリットまたはホタルフレイムを召喚
+			どちらも しばらくすると消える
+			スピリットは自動で敵に取り付き
+			魂を糧とし 満ちると使用者を回復
+			ホタルフレイムは自動で敵に取り付き 穏やかに燃やす
+			発動時 まれに短時間アドレナリンを得る
+			手に持つと呪いを受ける
+			「今夜は夜が光る…」
+			マスター
+			'''
+	}
+
+	GlowingBlood: {
+		DisplayName: 輝く血液
+		Tooltip: "「ナイトグロウ商人の所有物」"
+	}
+
+	Electrofish: {
+		DisplayName: エレクトロフィッシュ
+		Tooltip:
+			'''
+			使うほど 攻撃速度とクリティカル率が上昇
+			同時に 消費マナも増えていく
+			近くの敵に喰らいつく雷を放つ
+			近くに固まった敵へ放電し その間で跳ね回る
+			雷は敵に継続ダメージを与える
+			感電後もしばらく火花を散らす
+			'''
+	}
+
+	GoldboneFish: {
+		DisplayName: 金骨魚
+		Tooltip: "「これはなかなか高く売れる」"
+	}
+}
+
+Projectiles: {
+	LivingflameBobber: {
+		DisplayName: 生ける炎のウキ
+	}
+
+	GlowingBobber: {
+		DisplayName: 光るウキ
+	}
+
+	SharkBobber: {
+		DisplayName: サメのウキ
+	}
+
+	SoulReaverProjectile: {
+		DisplayName: ソウルリーヴァーの投射体
+	}
+
+	AnglersBobber: {
+		DisplayName: 釣り人のウキ
+	}
+
+	SoulBobber: {
+		DisplayName: ソウルのウキ
+	}
+
+	MeteorBobber: {
+		DisplayName: 流星のウキ
+	}
+
+	WitheringBolt: {
+		DisplayName: 枯死のボルト
+	}
+
+	RazorleafBobber: {
+		DisplayName: レイザリーフのウキ
+	}
+
+	HomingSoulflame: {
+		DisplayName: 追尾ソウルフレイム
+	}
+
+	SoulBullet: {
+		DisplayName: ソウル弾
+	}
+
+	CrabFlailProjectile: {
+		DisplayName: カニ・フレイルの投射体
+	}
+
+	WhipProjectile: {
+		DisplayName: ムチの投射体
+	}
+
+	GhastlyStaffMinion: {
+		DisplayName: ゴースト
+	}
+
+	StarStaffMinion: {
+		DisplayName: 星の杖のミニオン
+	}
+
+	LeafStaffMinion: {
+		DisplayName: 葉の杖のミニオン
+	}
+
+	BallOJunkProjectile: {
+		DisplayName: ボール・オブ・ジャンクの投射体
+	}
+
+	BrainFlailProjectile: {
+		DisplayName: 脳フレイルの投射体
+	}
+
+	BrainStaffMinion: {
+		DisplayName: 脳の杖のミニオン
+	}
+
+	HoneyWhipProjectile: {
+		DisplayName: ハニー・ムチの投射体
+	}
+
+	StingerSpearProjectile: {
+		DisplayName: スティンガー槍の投射体
+	}
+
+	GutWhipProjectile: {
+		DisplayName: ガットムチの投射体
+	}
+
+	EbonWhipProjectile: {
+		DisplayName: エボンムチの投射体
+	}
+
+	ArteryWhipProjectile: {
+		DisplayName: アーテリームチの投射体
+	}
+
+	StingerFlailProjectile: {
+		DisplayName: スティンガー・フレイルの投射体
+	}
+
+	FlyingFoxStaffMinion: {
+		DisplayName: 飛狐の杖のミニオン
+	}
+
+	MossFlailProjectile: {
+		DisplayName: コケ・フレイルの投射体
+	}
+
+	ZombieSpearProjectile: {
+		DisplayName: ゾンビ槍の投射体
+	}
+
+	ForkProjectile: {
+		DisplayName: フォークの投射体
+	}
+
+	HomingMushroom: {
+		DisplayName: 追尾キノコ
+	}
+
+	PoisonTippedSpearProjectile: {
+		DisplayName: 毒塗り槍の投射体
+	}
+
+	ScorpionSpearProjectile: {
+		DisplayName: サソリ槍の投射体
+	}
+
+	SqualidPincerProjectile: {
+		DisplayName: 不潔なハサミの投射体
+	}
+
+	ThornedBolt: {
+		DisplayName: 荊のボルト
+	}
+
+	ThornedSpearProjectile: {
+		DisplayName: 荊槍の投射体
+	}
+
+	ThornedGreatswordSwing: {
+		DisplayName: 荊の大剣の振り
+	}
+
+	CrusherBolt: {
+		DisplayName: 粉砕のボルト
+	}
+
+	CrusherSwing: {
+		DisplayName: 粉砕の振り
+	}
+
+	Sharpness: {
+		DisplayName: 切れ味
+	}
+
+	BreakerBladeSwing: {
+		DisplayName: ブレイカーブレードの振り
+	}
+
+	FlyingFishStaffMinion: {
+		DisplayName: フライングフィッシュの杖のミニオン
+	}
+
+	FireflyFlameProjectile: {
+		DisplayName: ホタルフレイムの投射体
+	}
+
+	BlossomGreatswordSwing: {
+		DisplayName: ブロッサム大剣の振り
+	}
+
+	BlossomPetal: {
+		DisplayName: ブロッサムの花びら
+	}
+
+	BlossomPetalSmall: {
+		DisplayName: 小さなブロッサムの花びら
+	}
+
+	DemiGodProjectile: {
+		DisplayName: 半神の投射体
+	}
+
+	RiversofBloodProjectile: {
+		DisplayName: 血の川の投射体
+	}
+
+	CactusThorn: {
+		DisplayName: サボテンの棘
+	}
+
+	DragonSlayerSwing: {
+		DisplayName: ドラゴンスレイヤーの振り
+	}
+
+	PoisonedArrowProjectile: {
+		DisplayName: 毒矢の投射体
+	}
+
+	HoneystingArrowProjectile: {
+		DisplayName: ハニースティングの矢の投射体
+	}
+
+	SpiderArrowProjectile: {
+		DisplayName: スパイダーの矢の投射体
+	}
+
+	PlagueArrowProjectile: {
+		DisplayName: 疫病の矢の投射体
+	}
+
+	CrescentArrowProjectile: {
+		DisplayName: 三日月の矢の投射体
+	}
+
+	HomingWorm: {
+		DisplayName: 追尾ワーム
+	}
+
+	BloodArrowProjectile: {
+		DisplayName: 血の矢の投射体
+	}
+
+	WitheredArrowProjectile: {
+		DisplayName: 枯れ矢の投射体
+	}
+
+	CactusThornProjectile: {
+		DisplayName: サボテンの棘の投射体
+	}
+
+	LeafyWhipProjectile: {
+		DisplayName: リーフィームチの投射体
+	}
+
+	VerteballProjectile: {
+		DisplayName: ヴァーテボールの投射体
+	}
+
+	GiantTwigSwing: {
+		DisplayName: 巨大な小枝の振り
+	}
+
+	RottenClubSwing: {
+		DisplayName: 腐ったこん棒の振り
+	}
+
+	CopperGreatswordSwing: {
+		DisplayName: 銅の大剣の振り
+	}
+
+	GoldGreatswordSwing: {
+		DisplayName: 金の大剣の振り
+	}
+
+	IronGreatswordSwing: {
+		DisplayName: 鉄の大剣の振り
+	}
+
+	LeadGreatswordSwing: {
+		DisplayName: 鉛の大剣の振り
+	}
+
+	PlatinumGreatswordSwing: {
+		DisplayName: 白金の大剣の振り
+	}
+
+	SilverGreatswordSwing: {
+		DisplayName: 銀の大剣の振り
+	}
+
+	TinGreatswordSwing: {
+		DisplayName: スズの大剣の振り
+	}
+
+	TungstenGreatswordSwing: {
+		DisplayName: タングステンの大剣の振り
+	}
+
+	Vomit: {
+		DisplayName: 嘔吐
+	}
+
+	AquafinaArrowProjectile: {
+		DisplayName: アクアフィナの矢の投射体
+	}
+
+	CurseflameProjectile: {
+		DisplayName: 呪炎の投射体
+	}
+
+	ObservingWhipProjectile: {
+		DisplayName: オブザービングムチの投射体
+	}
+
+	PetalArrowProjectile: {
+		DisplayName: 花びらの矢の投射体
+	}
+
+	EnchantedPetalArrowProjectile: {
+		DisplayName: 魔法の花びらの矢の投射体
+	}
+
+	BlossomStaffProjectile: {
+		DisplayName: ブロッサムの杖の投射体
+	}
+
+	VulcanBolt: {
+		DisplayName: ヴァルカン・ボルト
+	}
+
+	SoulWhipProjectile: {
+		DisplayName: ソウルムチの投射体
+	}
+
+	DavyJonesFlame: {
+		DisplayName: デイヴィ・ジョーンズの炎
+	}
+
+	SpiritflayerSwing: {
+		DisplayName: スピリットフレイヤーの振り
+	}
+
+	SpiritArrowProjectile: {
+		DisplayName: スピリットの矢の投射体
+	}
+
+	PoltergeistStaffMinion: {
+		DisplayName: ポルターガイストの杖のミニオン
+	}
+
+	SpiritflameWhipProjectile: {
+		DisplayName: スピリットフレイムムチの投射体
+	}
+
+	FlameBoltProjectile: {
+		DisplayName: 炎のボルトの投射体
+	}
+
+	SpiritBobber: {
+		DisplayName: スピリットのウキ
+	}
+
+	GrimmspearProjectile: {
+		DisplayName: グリムスピアの投射体
+	}
+
+	EyeBallProjectile: {
+		DisplayName: 飛眼の投射体
+	}
+
+	UnihornProjectile: {
+		DisplayName: ユニホーンの投射体
+	}
+
+	PixieDustWhipProjectile: {
+		DisplayName: ピクシーダスト・ムチの投射体
+	}
+
+	PortalProj: {
+		DisplayName: ポータル投射体
+	}
+
+	EnchantedKnifeProjectile: {
+		DisplayName: 魔法のナイフの投射体
+	}
+
+	FieryDaggerProjectile: {
+		DisplayName: 炎のダガーの投射体
+	}
+
+	FeatherProj: {
+		DisplayName: 羽根の投射体
+	}
+
+	BezoflailProjectile: {
+		DisplayName: ベゾフレイルの投射体
+	}
+
+	StinkballProjectile: {
+		DisplayName: スティンクボールの投射体
+	}
+
+	StarfishArrowProjectile: {
+		DisplayName: ヒトデの矢の投射体
+	}
+
+	FrogunProjectile: {
+		DisplayName: フロガンの投射体
+	}
+
+	InkProjectile: {
+		DisplayName: インクの投射体
+	}
+
+	SpiritArrow2Projectile: {
+		DisplayName: スピリットの矢2の投射体
+	}
+
+	SpiritflameKnifeProjectile: {
+		DisplayName: スピリットフレイム・ナイフの投射体
+	}
+
+	PossessedArrowProjectile: {
+		DisplayName: 憑依の矢の投射体
+	}
+
+	IfriteBullet: {
+		DisplayName: イフリート弾
+	}
+
+	TrueTizonaProjectile: {
+		DisplayName: 真・ティソーナの投射体
+	}
+
+	MortalBladeProjectile: {
+		DisplayName: モータルブレードの投射体
+	}
+
+	DizzyArrowProjectile: {
+		DisplayName: ふらふら矢の投射体
+	}
+
+	CoolKnife: {
+		DisplayName: クールナイフ
+	}
+
+	LightsEdgeProjectile: {
+		DisplayName: ライトエッジの投射体
+	}
+
+	RancorProjectile: {
+		DisplayName: ランカーの投射体
+	}
+
+	TrueLightsEdgeProjectile: {
+		DisplayName: 真・ライトエッジの投射体
+	}
+
+	GoldenArrowProjectile: {
+		DisplayName: 黄金の矢の投射体
+	}
+
+	Sparkle: {
+		DisplayName: きらめき
+	}
+
+	SharpArrowProjectile: {
+		DisplayName: 鋭い矢の投射体
+	}
+
+	ElectrowaveProjectile: {
+		DisplayName: 電撃波の投射体
+	}
+
+	HomingSparkle: {
+		DisplayName: 追尾きらめき
+	}
+
+	FireflyArrowProjectile: {
+		DisplayName: ホタルの矢の投射体
+	}
+
+	PiranhaFlailProjectile: {
+		DisplayName: ピラニア・フレイルの投射体
+	}
+
+	BloodborneProjectile: {
+		DisplayName: ブラッドボーンの投射体
+	}
+
+	Bloodflame: {
+		DisplayName: ブラッドフレイム
+	}
+
+	ActuationProjectile: {
+		DisplayName: アクチュエーションの投射体
+	}
+
+	BloodWaveProjectile: {
+		DisplayName: ブラッドウェーブの投射体
+	}
+
+	ROBProjectile: {
+		DisplayName: R O B の投射体
+	}
+
+	WitheringBolt2: {
+		DisplayName: 枯死のボルト2
+	}
+
+	GrimmbladeProjectile: {
+		DisplayName: グリムブレードの投射体
+	}
+
+	SpiritflayerProjectile: {
+		DisplayName: スピリットフレイヤーの投射体
+	}
+
+	TwilightBladeProjectile: {
+		DisplayName: 黄昏の刃の投射体
+	}
+
+	AndarielProjectile: {
+		DisplayName: アンダリエルの投射体
+	}
+
+	UnalloyedSpearProjectile: {
+		DisplayName: 無垢の槍の投射体
+	}
+
+	HateProjectile: {
+		DisplayName: 憎悪の投射体
+	}
+
+	EmberSpearProjectile: {
+		DisplayName: エンバーの槍の投射体
+	}
+
+	Spellflames: {
+		DisplayName: 呪炎
+	}
+
+	ReduviaProjectile: {
+		DisplayName: レドゥヴィアの投射体
+	}
+
+	UnalloyedSpearProjectile2: {
+		DisplayName: 無垢の槍の投射体2
+	}
+
+	ElectroProjectile: {
+		DisplayName: 電撃の投射体
+	}
+
+	SoulslashProjectile: {
+		DisplayName: ソウルスラッシュの投射体
+	}
+
+	InflorescentProjectile: {
+		DisplayName: 開花の投射体
+	}
+
+	SandWaveProjectile: {
+		DisplayName: 砂の波の投射体
+	}
+
+	HolyBladeProjectile: {
+		DisplayName: 聖なる刃の投射体
+	}
+
+	PoisonedMaceProjectile: {
+		DisplayName: 毒メイスの投射体
+	}
+
+	ShiverleafProjectile: {
+		DisplayName: シヴァーリーフの投射体
+	}
+
+	IceladenProjectile: {
+		DisplayName: アイスレイデンの投射体
+	}
+
+	SandTyphoonProjectile: {
+		DisplayName: 砂の台風の投射体
+	}
+
+	ShimmermourneProjectile: {
+		DisplayName: シマー・モーンの投射体
+	}
+
+	IcySickleProjectile: {
+		DisplayName: 氷のカマの投射体
+	}
+
+	ClaymoreSwing: {
+		DisplayName: クレイモアの振り
+	}
+
+	ShroomProjectile: {
+		DisplayName: キノコの投射体
+	}
+
+	ShroomProjectile2: {
+		DisplayName: キノコの投射体2
+	}
+
+	ShroomlingStaffMinion: {
+		DisplayName: シュルームリングの杖のミニオン
+	}
+
+	HornMinion: {
+		DisplayName: 角のミニオン
+	}
+
+	PixieStaffMinion: {
+		DisplayName: ピクシーの杖のミニオン
+	}
+
+	GoldenMaceProjectile: {
+		DisplayName: 黄金のメイスの投射体
+	}
+
+	VampireBatStaffMinion: {
+		DisplayName: ヴァンパイア・バットの杖のミニオン
+	}
+
+	DiamondSwordProjectile: {
+		DisplayName: ダイヤモンドの剣の投射体
+	}
+
+	GoldenLeafStaffMinion: {
+		DisplayName: 黄金のリーフリング
+	}
+
+	GoldenLeafSpearProjectile: {
+		DisplayName: 黄金のリーフ槍の投射体
+	}
+
+	GoldenLeafySwordProjectile: {
+		DisplayName: 黄金のリーフの剣の投射体
+	}
+
+	FireClaymoreSwing: {
+		DisplayName: 火のクレイモアの振り
+	}
+
+	FireCelestialClaymoreSwing: {
+		DisplayName: 火・天界クレイモアの振り
+	}
+
+	CelestialClaymoreSwing: {
+		DisplayName: 天界クレイモアの振り
+	}
+
+	FireEarthClaymoreSwing: {
+		DisplayName: 火・土クレイモアの振り
+	}
+
+	CelestialNatureClaymoreSwing: {
+		DisplayName: 天界・自然クレイモアの振り
+	}
+
+	Fire2ClaymoreSwing: {
+		DisplayName: 火2クレイモアの振り
+	}
+
+	NatureEarthClaymoreSwing: {
+		DisplayName: 自然・土クレイモアの振り
+	}
+
+	NatureClaymoreSwing: {
+		DisplayName: 自然クレイモアの振り
+	}
+
+	EarthClaymoreSwing: {
+		DisplayName: 土クレイモアの振り
+	}
+
+	CelestialEarthClaymoreSwing: {
+		DisplayName: 天界・土クレイモアの振り
+	}
+
+	FireNatureClaymoreSwing: {
+		DisplayName: 火・自然クレイモアの振り
+	}
+
+	ElliotMinion: {
+		DisplayName: エリオットのミニオン
+	}
+
+	FireExcaliburProjectile: {
+		DisplayName: 火のエクスカリバーの投射体
+	}
+
+	CelestialExcaliburProjectile: {
+		DisplayName: 天界のエクスカリバーの投射体
+	}
+
+	BloodExcaliburProjectile: {
+		DisplayName: 血のエクスカリバーの投射体
+	}
+
+	ChaosExcaliburProjectile: {
+		DisplayName: カオス・エクスカリバーの投射体
+	}
+
+	DarkExcaliburProjectile: {
+		DisplayName: 闇のエクスカリバーの投射体
+	}
+
+	EarthExcaliburProjectile: {
+		DisplayName: 土のエクスカリバーの投射体
+	}
+
+	HolyExcaliburProjectile: {
+		DisplayName: 聖なるエクスカリバーの投射体
+	}
+
+	LightningExcaliburProjectile: {
+		DisplayName: 雷のエクスカリバーの投射体
+	}
+
+	NatureExcaliburProjectile: {
+		DisplayName: 自然のエクスカリバーの投射体
+	}
+
+	PoisonExcaliburProjectile: {
+		DisplayName: 毒のエクスカリバーの投射体
+	}
+
+	AscensionExcaliburProjectile: {
+		DisplayName: 昇華エクスカリバーの投射体
+	}
+
+	FieryGreatswordSwing: {
+		DisplayName: 炎の大剣の振り
+	}
+
+	CelestialBoneKatanaProjectile: {
+		DisplayName: 天界・骨のカタナの投射体
+	}
+
+	EarthBoneKatanaProjectile: {
+		DisplayName: 土・骨のカタナの投射体
+	}
+
+	FireBoneKatanaProjectile: {
+		DisplayName: 火・骨のカタナの投射体
+	}
+
+	NatureBoneKatanaProjectile: {
+		DisplayName: 自然・骨のカタナの投射体
+	}
+
+	PlagueBladeProjectile: {
+		DisplayName: 疫病の刃の投射体
+	}
+
+	CelestialQualitySwordProjectile: {
+		DisplayName: 天界・良質な剣の投射体
+	}
+
+	EarthQualitySwordProjectile: {
+		DisplayName: 土・良質な剣の投射体
+	}
+
+	FireQualitySwordProjectile: {
+		DisplayName: 火・良質な剣の投射体
+	}
+
+	NatureQualitySwordProjectile: {
+		DisplayName: 自然・良質な剣の投射体
+	}
+
+	SoulKnifeProjectile: {
+		DisplayName: ソウルナイフの投射体
+	}
+
+	GelWhipProjectile: {
+		DisplayName: ゲルムチの投射体
+	}
+
+	RazorleafWhipProjectile: {
+		DisplayName: レイザリーフ・ムチの投射体
+	}
+
+	ReinforcedWhipProjectile: {
+		DisplayName: 強化ムチの投射体
+	}
+
+	BloodBoneKatanaProjectile: {
+		DisplayName: 血・骨のカタナの投射体
+	}
+
+	ChaosBoneKatanaProjectile: {
+		DisplayName: カオス・骨のカタナの投射体
+	}
+
+	DarkBoneKatanaProjectile: {
+		DisplayName: 闇・骨のカタナの投射体
+	}
+
+	HolyBoneKatanaProjectile: {
+		DisplayName: 聖・骨のカタナの投射体
+	}
+
+	LightningBoneKatanaProjectile: {
+		DisplayName: 雷・骨のカタナの投射体
+	}
+
+	PoisonBoneKatanaProjectile: {
+		DisplayName: 毒・骨のカタナの投射体
+	}
+
+	ScrapSwordProjectile: {
+		DisplayName: スクラップソードの投射体
+	}
+
+	BrassArrowProjectile: {
+		DisplayName: 真鍮の矢の投射体
+	}
+
+	HemogobladeProjectile: {
+		DisplayName: ヘモゴブレードの投射体
+	}
+
+	CarrionPickerProjectile: {
+		DisplayName: 腐肉ついばみの投射体
+	}
+
+	BloodSparkle: {
+		DisplayName: 血のきらめき
+	}
+
+	LostFractalProjectile: {
+		DisplayName: 失われたフラクタルの投射体
+	}
+
+	UltimatumProjectile: {
+		DisplayName: 最終通告の投射体
+	}
+
+	SoulArrowProjectile: {
+		DisplayName: ソウルアローの投射体
+	}
+
+	SoulLampFlame: {
+		DisplayName: ソウルランプの炎
+	}
+
+	OmnipotentEyeMinion: {
+		DisplayName: 全能の眼のミニオン
+	}
+
+	WispStaffMinion: {
+		DisplayName: ウィスプの杖のミニオン
+	}
+
+	SoulboneArrowProjectile: {
+		DisplayName: ソウルボーンの矢の投射体
+	}
+
+	RadioactiveArrowProjectile: {
+		DisplayName: 放射性の矢の投射体
+	}
+
+	RadioactiveBulletProjectile: {
+		DisplayName: 放射性の弾丸の投射体
+	}
+
+	VampireBulletProjectile: {
+		DisplayName: ヴァンパイア弾の投射体
+	}
+
+	BoneMaceProjectile: {
+		DisplayName: 骨のメイスの投射体
+	}
+
+	VampireFlameProjectile: {
+		DisplayName: ヴァンパイアフレイムの投射体
+	}
+
+	HollowFlameProjectile: {
+		DisplayName: ホロウフレイムの投射体
+	}
+
+	LightningBoneKatanaProjectile2: {
+		DisplayName: 雷・骨のカタナの投射体2
+	}
+
+	SoulslashProjectile2: {
+		DisplayName: ソウルスラッシュの投射体2
+	}
+
+	BloodKnife: {
+		DisplayName: ブラッドナイフ
+	}
+
+	AutomatedArrowProjectile: {
+		DisplayName: 自動矢の投射体
+	}
+
+	WebbedGreatswordProjectile: {
+		DisplayName: 蜘蛛の巣の大剣の投射体
+	}
+
+	DavyJonesFlame2: {
+		DisplayName: デイヴィ・ジョーンズの炎2
+	}
+
+	AquaTridentProjectile: {
+		DisplayName: 水の三叉槍の投射体
+	}
+
+	FireflyLampFlame: {
+		DisplayName: ホタルランプの炎
+	}
+
+	GhostlySickle: {
+		DisplayName: ゴーストの大鎌
+	}
+}
+
+Buffs: {
+	Haemorrhage: {
+		DisplayName: 裂傷
+		Description: -
+	}
+
+	Soulflame: {
+		DisplayName: 魂炎
+		Description: -
+	}
+
+	Grimmflame: {
+		DisplayName: グリムフレイム
+		Description: -
+	}
+
+	Holyflame: {
+		DisplayName: 聖炎
+		Description: -
+	}
+
+	WhipDebuff: {
+		DisplayName: ムチデバフ
+		Description: -
+	}
+
+	GhastlyStaffBuff: {
+		DisplayName: ゴースト
+		Description: ゴーストがあなたのために戦い 移動速度と加速度を上昇させる
+	}
+
+	StarStaffBuff: {
+		Description: 堕ちた星があなたのために戦い ジャンプ力と暗視を強化し 落下ダメージを無効化
+		DisplayName: 堕ちた星
+	}
+
+	LeafStaffBuff: {
+		DisplayName: リーフリング
+		Description: リーフリングがあなたのために戦う
+	}
+
+	Rusted: {
+		DisplayName: 錆びつき
+		Description: -
+	}
+
+	Plague: {
+		DisplayName: 疫病
+		Description: -
+	}
+
+	BrainStaffBuff: {
+		DisplayName: 腐った脳
+		Description: 腐った脳があなたのために戦う
+	}
+
+	HoneyWhipDebuff: {
+		DisplayName: スティンガームチのデバフ
+		Description: -
+	}
+
+	WhipDebuff3: {
+		DisplayName: ガットムチのデバフ
+		Description: -
+	}
+
+	WhipDebuff4: {
+		DisplayName: エボンムチのデバフ
+		Description: -
+	}
+
+	WhipDebuff5: {
+		DisplayName: アーテリームチのデバフ
+		Description: -
+	}
+
+	Sting: {
+		DisplayName: 刺傷
+		Description: -
+	}
+
+	FlyingFoxStaffBuff: {
+		DisplayName: 巨大なオオコウモリ
+		Description: 巨大なオオコウモリがあなたのために戦い 防御無視値+5
+	}
+
+	Bloomthorns: {
+		DisplayName: 花棘
+		Description: -
+	}
+
+	Thorns: {
+		DisplayName: 棘
+		Description: -
+	}
+
+	Hallucinations: {
+		DisplayName: 幻覚
+		Description: -
+	}
+
+	FireflyFlame: {
+		DisplayName: ホタルフレイム
+		Description: -
+	}
+
+	Rot: {
+		DisplayName: 腐敗
+		Description: -
+	}
+
+	FlyingFishStaffBuff: {
+		DisplayName: フライングフィッシュ
+		Description: フライングフィッシュがあなたのために戦い 釣り力+15
+	}
+
+	LeafyWhipDebuff: {
+		DisplayName: リーフィームチのデバフ
+		Description: -
+	}
+
+	WhipDebuffCurseflame: {
+		DisplayName: 呪炎のデバフ
+		Description: -
+	}
+
+	WhipDebuffObserving: {
+		DisplayName: オブザービングムチのデバフ
+		Description: -
+	}
+
+	SoulWhipDebuff: {
+		DisplayName: ソウルフレイムムチのデバフ
+		Description: -
+	}
+
+	Spiritsteal: {
+		DisplayName: スピリットスティール
+		Description: -
+	}
+
+	PoltergeistStaffBuff: {
+		DisplayName: ポルターガイスト
+		Description: ポルターガイストがあなたのために戦い たまに回復し 移動速度と加速度を上昇させる
+	}
+
+	HauntedBrewBuff: {
+		DisplayName: スピリットヒール
+		Description: ライフ回復
+	}
+
+	WhipDebuff6: {
+		DisplayName: スピリットフレイムのデバフ
+		Description: -
+	}
+
+	Ink: {
+		DisplayName: インク
+		Description: -
+	}
+
+	SpiritWeaponry: {
+		DisplayName: スピリットブロークン
+		Description: 被ダメージ10％増加
+	}
+
+	SuspiciousLookingMushroomBuff: {
+		DisplayName: 怪しい食事
+		Description: 激しい怒りを感じつつ 同時に少し疲れている
+	}
+
+	Breeze: {
+		DisplayName: ブリーズ
+		Description: -
+	}
+
+	MortalStrike: {
+		DisplayName: 致命の一撃
+		Description: 近接の防御無視値+15
+	}
+
+	Ravager: {
+		DisplayName: バーサーク
+		Description: 防御無視値+10
+	}
+
+	ChopChop: {
+		DisplayName: むしゃむしゃ！
+		Description: 防御無視値+3
+	}
+
+	IfriteBloodBuff: {
+		DisplayName: イフリートの血
+		Description: ライフ回復がわずかに上昇し 防御無視値+3
+	}
+
+	BloodExplosion: {
+		DisplayName: 血液爆発
+		Description: Mods.ExpandedTerraria.Buffs.BloodExplosion.Description
+	}
+
+	CurseofDiablo: {
+		DisplayName: ディアブロの呪い
+		Description: ライフが吸い取られている
+	}
+
+	Restoration2Buff: {
+		DisplayName: 回復
+		Description: ライフ回復が中程度に上昇
+	}
+
+	RestorationBuff: {
+		DisplayName: 回復
+		Description: ライフ回復が上昇
+	}
+
+	FungalInfection: {
+		DisplayName: 菌感染
+		Description: ライフがゆっくり減少し 攻撃力がわずかに低下し 被ダメージがわずかに増加
+	}
+
+	ShroomlingStaffBuff: {
+		DisplayName: シュルームリング
+		Description: シュルームリングがあなたのために戦い 毒と菌感染に対する免疫を付与
+	}
+
+	HornBuff: {
+		DisplayName: 救済の角笛
+		Description: 究極の守護者が側を離れない
+	}
+
+	PixieStaffBuff: {
+		DisplayName: ピクシー
+		Description: ピクシーがあなたのために戦い 運が増加
+	}
+
+	VampireBatStaffBuff: {
+		DisplayName: ヴァンパイアバット
+		Description: ヴァンパイアバットがあなたのために戦い 敵に裂傷を付与し 時折その血であなたを回復させる
+	}
+
+	Vampire: {
+		DisplayName: ヴァンパイア
+		Description: ライフが回復している
+	}
+
+	GoldenLeafStaffBuff: {
+		DisplayName: ゴールデン・リーフリング
+		Description: ゴールデン・リーフリングがあなたのために戦い 発光し 敵がより多くのコインを落とす
+	}
+
+	Ascension: {
+		DisplayName: 昇華
+		Description: 今や神をも屠れる…
+	}
+
+	ElliotBuff: {
+		DisplayName: エリオット
+		Description: 秘密がバレた！
+	}
+
+	PummelingBullets: {
+		DisplayName: 粉砕弾
+		Description: 防御無視値+20
+	}
+
+	Lightning: {
+		DisplayName: 電撃
+		Description: デバフ
+	}
+
+	Radioactive: {
+		DisplayName: 放射能汚染
+		Description: 急速にライフが減少し 防御とダメージが25％低下
+	}
+
+	PlasmaStone: {
+		DisplayName: プラズマの石
+		Description: Mods.ExpandedTerraria.Buffs.PlasmaStone.Description
+	}
+
+	Mobility: {
+		DisplayName: 秘術の機動力
+		Description: 移動速度と加速度が大きく上昇
+	}
+
+	MobilityNormal: {
+		DisplayName: 機動力
+		Description: 移動速度と加速度が5％上昇
+	}
+
+	CurseofCthulhu: {
+		DisplayName: クトゥルフの呪い
+		Description: 被ダメージ10％増加 および ライフ回復が低下
+	}
+
+	NightVision: {
+		DisplayName: 啓蒙
+		Description: 暗視が向上
+	}
+
+	MasterMode: {
+		DisplayName: マスターモード
+		Description: 被ダメージ5％増加、ダメージ+1、防御無視値+1
+	}
+
+	MasterModeBuff: {
+		DisplayName: マスターモードの試練
+		Description: 被ダメージ10％増加、防御無視値-3、ダメージと攻撃速度-10％
+	}
+
+	EnforcingBuff: {
+		DisplayName: 防護
+		Description: 防御+3、被ダメージ1％減少
+	}
+
+	Temper1: {
+		DisplayName: 焼入れ +1
+		Description: わずかなステータス上昇を得る
+	}
+
+	Temper2: {
+		DisplayName: 焼入れ +2
+		Description: 中程度のステータス上昇を得る
+	}
+
+	Temper3: {
+		DisplayName: 焼入れ +3
+		Description: 大きなステータス上昇を得る
+	}
+
+	Hemorphine: {
+		DisplayName: ヘモルフィン
+		Description: 犠牲者の血を吸うほど 激昂していく…
+	}
+
+	ChaosRage: {
+		DisplayName: カオスの激昂
+		Description: 体力が33％未満になると激昂する
+	}
+
+	OmnipotentEyeBuff: {
+		DisplayName: 全能の眼
+		Description: 見守られている…
+	}
+
+	WispStaffBuff: {
+		DisplayName: ウィスプ
+		Description: ウィスプがあなたのために戦い 魂炎を付与し 鈍化に対する免疫を付与
+	}
+
+	BlackwaterBuff: {
+		DisplayName: 闇の耐性
+		Description: 鈍化・虚弱・暗闇に対する免疫
+	}
+
+	Adrenaline: {
+		DisplayName: アドレナリン
+		Description: 全ステータスが大幅上昇し 無敵時間も延長 ただし ライフが徐々に吸い取られる
+	}
+
+	Radiated: {
+		DisplayName: 被曝
+		Description: 防御-10％ および ライフ回復が低下
+	}
+
+	Rabies: {
+		Description: 防御-10％ および ライフが吸い取られている
+		DisplayName: 狂犬病
+	}
+
+	HollowheartBuff: {
+		DisplayName: ホロウハート
+		Description: ライフ回復が大幅に上昇 ただし 防御-20％
+	}
+
+	HolyProtection: {
+		DisplayName: 聖なる回避
+		Description: 防御+5、被ダメージ5％減少、10％の確率で回避、無敵時間延長
+	}
+
+	HauntedBrewBuff2: {
+		DisplayName: ラッドアウェイ
+		Description: 放射能と冷却効果に対する免疫を得る
+	}
+
+	IceBarrierBuff: {
+		DisplayName: アイスバリア
+		Description: 冷たいそよ風があなたを包む
+	}
+
+	CurseofSkeletron: {
+		DisplayName: スケルトロンの呪い
+		Description: 被ダメージ90％増加 および ライフが吸い取られている
+	}
+}
+
+NPCs: {
+	WispTrader: {
+		DisplayName: ウィスプ商人
+	}
+
+	GoblinMerchant: {
+		DisplayName: ゴブリン商人
+	}
+
+	Spirit: {
+		DisplayName: スピリット
+	}
+
+	Fletcher: {
+		DisplayName: フレッチャー
+
+		TownNPCMood: {
+			Content: 私は満足している。
+			NoHome: 家がないのは嫌いだ。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 広い空間が大好きだ。
+			DislikeCrowded: 混雑しているのは好きじゃない。
+			HateCrowded: 混雑しているのは大嫌いだ。
+			LoveBiome: "{BiomeName} が大好きだ。"
+			LikeBiome: "{BiomeName} が好きだ。"
+			DislikeBiome: "{BiomeName} は好きじゃない。"
+			LoveNPC: "{NPCName} が大好きだ。"
+			LikeNPC: "{NPCName} が好きだ。"
+			DislikeNPC: "{NPCName} は好きじゃない。"
+			HateNPC: "{NPCName} は大嫌いだ。"
+			LikeNPC_Princess: "{NPCName} が好きだ。"
+			Princess_LovesNPC: "{NPCName} が好きだ。"
+		}
+	}
+
+	Sorcerer: {
+		DisplayName: 魔術師
+
+		TownNPCMood: {
+			Content: 私は満足している。
+			NoHome: 家がないのは嫌いだ。
+			FarFromHome: 家から遠すぎる。
+			LoveSpace: 広い空間が大好きだ。
+			DislikeCrowded: 混雑しているのは好きじゃない。
+			HateCrowded: 混雑しているのは大嫌いだ。
+			LoveBiome: "{BiomeName} が大好きだ。"
+			LikeBiome: "{BiomeName} が好きだ。"
+			DislikeBiome: "{BiomeName} は好きじゃない。"
+			LoveNPC: "{NPCName} が大好きだ。"
+			LikeNPC: "{NPCName} が好きだ。"
+			DislikeNPC: "{NPCName} は好きじゃない。"
+			HateNPC: "{NPCName} は大嫌いだ。"
+			LikeNPC_Princess: "{NPCName} が好きだ。"
+			Princess_LovesNPC: "{NPCName} が好きだ。"
+		}
+	}
+
+	Ifrite: {
+		DisplayName: エンバー
+	}
+
+	BloodflameSerpentBody: {
+		DisplayName: ブラッドフレイム・サーペント
+	}
+
+	BloodflameSerpentHead: {
+		DisplayName: ブラッドフレイム・サーペント
+	}
+
+	BloodflameSerpentTail: {
+		DisplayName: ブラッドフレイム・サーペント
+	}
+
+	Ember: {
+		DisplayName: イフリート
+	}
+
+	BloodflameBat: {
+		DisplayName: ブラッドフレイム・バット
+	}
+
+	HellBaron: {
+		DisplayName: ヘル・バロン
+	}
+
+	SpiritofVengeance: {
+		DisplayName: ブラッドファントム
+	}
+
+	Hollow: {
+		DisplayName: ホロウ
+	}
+
+	Apparition: {
+		DisplayName: アパリション
+	}
+
+	GhostMummy: {
+		DisplayName: ゴーストマミー
+	}
+
+	BloodMaggot: {
+		DisplayName: ブラッドマゴット
+	}
+
+	Bloodsucker: {
+		DisplayName: ブラッドサッカー
+	}
+
+	SanguineCrawdad: {
+		DisplayName: サングイン・ザリガニ
+	}
+
+	AmberSlime: {
+		DisplayName: アンバー・スライム
+	}
+
+	AngelicSlime: {
+		DisplayName: エンジェリック・スライム
+	}
+
+	AquaSlime: {
+		DisplayName: アクア・スライム
+	}
+
+	BloodSlime: {
+		DisplayName: ブラッド・スライム
+	}
+
+	BrownSlime: {
+		DisplayName: ブラウン・スライム
+	}
+
+	CaveSlime: {
+		DisplayName: 洞窟スライム
+	}
+
+	EmberSlime: {
+		DisplayName: エンバー・スライム
+	}
+
+	FlyingSlime: {
+		DisplayName: フライング・スライム
+	}
+
+	GoblinThief: {
+		DisplayName: ゴブリン盗賊
+	}
+
+	HazelSlime: {
+		DisplayName: ヘーゼル・スライム
+	}
+
+	ImbuedSlime: {
+		DisplayName: インビュード・スライム
+	}
+
+	OrangeSlime: {
+		DisplayName: オレンジ・スライム
+	}
+
+	RockSlime: {
+		DisplayName: ロック・スライム
+	}
+
+	SandSlime: {
+		DisplayName: 海砂スライム
+	}
+
+	StarstruckSlime: {
+		DisplayName: スターストラック・スライム
+	}
+
+	TreasureGoblin: {
+		DisplayName: トレジャー・ゴブリン
+	}
+
+	TurquoiseSlime: {
+		DisplayName: ターコイズ・スライム
+	}
+
+	MagentaSlime: {
+		DisplayName: マゼンタ・スライム
+	}
+
+	PhantomSlime: {
+		DisplayName: ファントム・スライム
+	}
+
+	ToxicSlime: {
+		DisplayName: トキシック・スライム
+	}
+
+	ScarletSlime: {
+		DisplayName: スカーレット・スライム
+	}
+
+	SuperchargedSlime: {
+		DisplayName: サンダーストラック・スライム
+	}
+
+	HobgoblinPyromancer: {
+		DisplayName: ホブゴブリン・パイロマンサー
+	}
+
+	HobgoblinWarrior: {
+		DisplayName: ホブゴブリン・ウォリアー
+	}
+
+	SteelGolem: {
+		DisplayName: スチールゴーレム
+	}
+
+	GhosblinWarrior: {
+		DisplayName: ゴースブリン・ウォリアー
+	}
+
+	GhosblinWitch: {
+		DisplayName: ゴースブリン・ウィッチ
+	}
+
+	PhantomGolem: {
+		DisplayName: ファントム・ゴーレム
+	}
+
+	BloomSlime: {
+		DisplayName: ブルーム・スライム
+	}
+
+	AlbinoAntlion: {
+		DisplayName: アルビノ・アントリオン
+	}
+
+	RainSlime: {
+		DisplayName: レイン・スライム
+	}
+
+	BloodflameBaron: {
+		DisplayName: ブラッドフレイム・バロン
+	}
+
+	BloodlettingEye: {
+		DisplayName: ブラッドレッティング・アイ
+	}
+
+	MoonshineMoth: {
+		DisplayName: ムーンシャイン・モス
+	}
+
+	SanguineSlime: {
+		DisplayName: サングイン・スライム
+	}
+
+	FungalSlime: {
+		DisplayName: ファンガル・スライム
+	}
+
+	FungalAntlion: {
+		DisplayName: ファンガル・アントリオン
+	}
+
+	AncientSkeleton: {
+		DisplayName: ルーンスケルトン戦士
+	}
+
+	AngrySlime: {
+		DisplayName: テインテッド・スライム
+	}
+
+	ChaosSlime: {
+		DisplayName: カオス・スライム
+	}
+
+	SteelSlime: {
+		DisplayName: スチール・スライム
+	}
+
+	StinkySlime: {
+		DisplayName: くさいスライム
+	}
+
+	DizzySlime: {
+		DisplayName: ふらふらスライム
+	}
+
+	RadgoblinPeon: {
+		DisplayName: ラドゴブリンの下っ端
+	}
+
+	ElementalHollowCelestial: {
+		DisplayName: 天界のエレメンタル
+	}
+
+	ElementalHollowEarth: {
+		DisplayName: 土のエレメンタル
+	}
+
+	ElementalHollowFire: {
+		DisplayName: 炎のエレメンタル
+	}
+
+	ElementalHollowNature: {
+		DisplayName: 自然のエレメンタル
+	}
+
+	LeafySlime: {
+		DisplayName: リーフィー・スライム
+	}
+
+	BloodWarden: {
+		DisplayName: ブラッド・ウォーデン
+	}
+
+	WillowleafSlime: {
+		DisplayName: ウィローリーフ・スライム
+	}
+
+	BloodBat: {
+		DisplayName: ブラッドバット
+	}
+
+	WanderingSkeleton: {
+		DisplayName: さまようスケルトン
+	}
+
+	VampireBat: {
+		DisplayName: ヴァンパイア・バット
+	}
+
+	HauntedWisp: {
+		DisplayName: 取り憑かれたウィスプ
+	}
+
+	HauntedSlime: {
+		DisplayName: 取り憑かれたスライム
+	}
+
+	MechanicalBat: {
+		DisplayName: メカニカル・バット
+	}
+
+	ScrapGolem: {
+		DisplayName: スクラップ・ゴーレム
+	}
+
+	TrueEyeofCthulhu: {
+		DisplayName: 真・クトゥルフの目
+	}
+
+	HauntedSlime2: {
+		DisplayName: 取り憑かれたスライム
+	}
+
+	HauntedWisp2: {
+		DisplayName: 取り憑かれたウィスプ
+	}
+
+	SpiritflameSerpentBody: {
+		DisplayName: スピリットフレイム・サーペント
+	}
+
+	SpiritflameSerpentHead: {
+		DisplayName: スピリットフレイム・サーペント
+	}
+
+	SpiritflameSerpentTail: {
+		DisplayName: スピリットフレイム・サーペント
+	}
+
+	MechaEyezor: {
+		DisplayName: メカ・アイザー
+	}
+
+	BrassSkeletonGunner: {
+		DisplayName: 真鍮スケルトンの銃手
+	}
+
+	NightglowMerchant: {
+		DisplayName: ナイトグロウ商人
+	}
+
+	UnholySkeleghron: {
+		DisplayName: アンホーリー・スケレグロン
+	}
+
+	RadioactiveCrawdad: {
+		DisplayName: 放射性ザリガニ
+	}
+
+	RadioflameSerpentBody: {
+		DisplayName: ラジオフレイム・サーペント（胴）
+	}
+
+	RadioflameSerpentHead: {
+		DisplayName: ラジオフレイム・サーペント（頭）
+	}
+
+	RadioflameSerpentTail: {
+		DisplayName: ラジオフレイム・サーペント（尾）
+	}
+
+	RadioflameSlime: {
+		DisplayName: ラジオフレイム・スライム
+	}
+
+	UnholySkeleghronPrime: {
+		DisplayName: クトゥルフのリッチ（真・スケレグロン）
+	}
+
+	UnholyHand: {
+		DisplayName: アンホーリー・ハンド
+	}
+
+	GhostflameSlime: {
+		DisplayName: ゴーストフレイム・スライム
+	}
+
+	GhostflameSlime2: {
+		DisplayName: ゴーストフレイム・スライム
+	}
+}
+
+Prefixes: {
+	PowerTooltip: 焼入れ
+	Tempered: "[c/F1A500:焼入れ]"
+
+	ArmorTempering: {
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+		DisplayName: +1
+	}
+
+	DerivedPrefix: {
+		AdditionalTooltip: 焼入れ
+		DisplayName: "[c/F1A500:焼入れ] [i/s1:184] [i/s1:75] [i/s1:193]"
+	}
+
+	ArmorTempering2: {
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+		DisplayName: +2
+	}
+
+	ArmorTempering3: {
+		DisplayName: "-1"
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:161]"
+	}
+
+	ArmorTempering10: {
+		DisplayName: +7
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering11: {
+		DisplayName: +8
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering12: {
+		DisplayName: +9
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering13: {
+		DisplayName: 昇華
+		AdditionalTooltip: "[c/F1A500:昇華] [i/s1:75]"
+	}
+
+	ArmorTempering4: {
+		DisplayName: "-2"
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:161]"
+	}
+
+	ArmorTempering5: {
+		DisplayName: "-3"
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:161]"
+	}
+
+	ArmorTempering6: {
+		DisplayName: +3
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering7: {
+		DisplayName: +4
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering8: {
+		DisplayName: +5
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering9: {
+		DisplayName: +6
+		AdditionalTooltip: "[c/F1A500:焼入れ] [i/s1:182]"
+	}
+
+	ArmorTempering14: {
+		DisplayName: 呪われた
+		AdditionalTooltip: "[c/F1A500:呪われた] [i/s1:193]"
+	}
+
+	ArmorTemperingReal: {
+		AdditionalTooltip: Mods.ExpandedTerraria.Prefixes.ArmorTemperingReal.AdditionalTooltip
+		DisplayName: 真の焼入れ
+	}
+
+	ModifierDefense1: {
+		AdditionalTooltip: 防御力+1
+		DisplayName: 硬化
+	}
+
+	ModifierDefense0: {
+		DisplayName: 老朽
+	}
+
+	ModifierDefense00: {
+		DisplayName: 破損
+	}
+
+	ModifierEndurance0: {
+		DisplayName: 弱体化
+	}
+
+	ModifierEndurance00: {
+		DisplayName: 損壊
+	}
+
+	ModifierEndurance1: {
+		DisplayName: 防護
+	}
+
+	ModifierMovementSpeed: {
+		DisplayName: 軽快
+	}
+
+	ModifierArmorRare: {
+		DisplayName: 強化
+	}
+
+	ModifierEmbered: {
+		DisplayName: 残り火
+	}
+
+	ModifierEmitsLight: {
+		DisplayName: 発光
+	}
+
+	ModifierExtraFall: {
+		DisplayName: 柔軟
+	}
+
+	ModifierInvincibility: {
+		DisplayName: 聖
+	}
+
+	ModifierLavaImmunity: {
+		DisplayName: 灼熱
+	}
+
+	ModifierLuck: {
+		DisplayName: 幸運
+	}
+
+	ModifierManaMagnet: {
+		DisplayName: 天界
+	}
+
+	ModifierManaRegen: {
+		DisplayName: 秘術
+	}
+
+	ModifierMovementSpeed0: {
+		DisplayName: 息切れ
+	}
+
+	ModifierNoKnockback: {
+		DisplayName: 不動
+	}
+
+	ModifierPotionDelay: {
+		DisplayName: 活力
+	}
+
+	ModifierRangedSpeed: {
+		DisplayName: 迅速
+	}
+
+	ArmorTemperingVampire: {
+		DisplayName: ヴァンパイア
+	}
+}
+
+AccessorySlotLightSlot: {
+	Light: 発光アクセサリー
+	LightDye: 発光アクセサリーの染料
+}
+
+AccessorySlotMasterSlot: {
+	Master: マスターアクセサリー（発光アクセサリーの装備が必要）
+	MasterDye: マスターアクセサリーの染料
+}
+
+AccessorySlotWingSlot: {
+	Wings: 機動アクセサリー（マスターアクセサリーの装備が必要）
+	WingsDye: 機動アクセサリーの染料
+}
+
+Configs: {
+	ExpandedTerrariaConfig: {
+		DisplayName: Expanded Terraria 設定
+
+		Headers: {
+			Items: アクセサリースロット
+		}
+
+		WingsToggle: {
+			Label: 機動/翼アクセサリースロットの切り替え
+			Tooltip: 他のMODで翼スロットを追加している場合は無効にしてください
+		}
+
+		LightAccessoryToggle: {
+			Label: 発光アクセサリーの切り替え
+			Tooltip: ""
+		}
+
+		MasterAccessoryToggle: {
+			Label: マスターアクセサリーの切り替え
+			Tooltip: ""
+		}
+	}
+}
+

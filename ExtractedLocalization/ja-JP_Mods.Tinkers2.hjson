@@ -1,0 +1,610 @@
+Buffs: {
+	GroundMinionBuff: {
+		Description: Mods.Tinkers2.Buffs.GroundMinionBuff.Description
+		DisplayName: Ground Minion Buff
+	}
+
+	TimeFreezeBuff: {
+		Description: Mods.Tinkers2.Buffs.TimeFreezeBuff.Description
+		DisplayName: Time Freeze Buff
+	}
+
+	TeamShieldBuff: {
+		Description: Mods.Tinkers2.Buffs.TeamShieldBuff.Description
+		DisplayName: Team Shield Buff
+	}
+
+	DefensiveAuraBuff: {
+		Description: Mods.Tinkers2.Buffs.DefensiveAuraBuff.Description
+		DisplayName: Defensive Aura Buff
+	}
+}
+
+Keybinds: {
+	"Toggle Simple UI": {
+		DisplayName: Toggle  Simple  U I
+	}
+}
+
+Projectiles: {
+	GroundMinion2: {
+		DisplayName: Ground Minion2
+	}
+
+	GroundMinion: {
+		DisplayName: Ground Minion
+	}
+
+	BoneShard: {
+		DisplayName: Bone Shard
+	}
+
+	ModularScytheThrust: {
+		DisplayName: Modular Scythe Thrust
+	}
+
+	StickySplitDamage: {
+		DisplayName: Sticky Split Damage
+	}
+
+	EnergyBeamProjectile: {
+		DisplayName: Energy Beam Projectile
+	}
+
+	ScytheProjectile: {
+		DisplayName: Scythe Projectile
+	}
+
+	ParametricCurveProjectile: {
+		DisplayName: Parametric Curve Projectile
+	}
+
+	ColorChangingSquareProjectile: {
+		DisplayName: Color Changing Square Projectile
+	}
+
+	ModularScytheSwing: {
+		DisplayName: Modular Scythe Swing
+	}
+
+	SimplifiedSwordSwingProjectile: {
+		DisplayName: Simplified Sword Swing Projectile
+	}
+
+	ExampleAdvancedAnimatedProjectile: {
+		DisplayName: Example Advanced Animated Projectile
+	}
+
+	GlobalScytheProjectile: {
+		DisplayName: Global Scythe Projectile
+	}
+
+	StaticProj: {
+		DisplayName: Static Proj
+	}
+
+	StaticProjectile: {
+		DisplayName: Static Projectile
+	}
+
+	RainingProj: {
+		DisplayName: Raining Proj
+	}
+
+	RainingProjectile: {
+		DisplayName: Raining Projectile
+	}
+
+	ShootingProjectile: {
+		DisplayName: Shooting Projectile
+	}
+
+	RedEnergyProjectile: {
+		DisplayName: Red Energy Projectile
+	}
+
+	Meowmere: {
+		DisplayName: Meowmere
+	}
+
+	DeathSickle: {
+		DisplayName: Death Sickle
+	}
+
+	EnergyProjectile: {
+		DisplayName: Energy Projectile
+	}
+
+	SwordProjectile: {
+		DisplayName: Sword Projectile
+	}
+
+	ScytheDraw: {
+		DisplayName: Scythe Draw
+	}
+
+	ScytheRender: {
+		DisplayName: Scythe Render
+	}
+
+	ForgedSwordSwingProjectile: {
+		DisplayName: Forged Sword Swing Projectile
+	}
+
+	ExampleCustomSwingProjectile: {
+		DisplayName: Example Custom Swing Projectile
+	}
+}
+
+Items: {
+	GroundMinionStaff: {
+		Tooltip: ""
+		DisplayName: Ground Minion Staff
+	}
+
+	FleshyGem: {
+		Tooltip: ""
+		DisplayName: Fleshy Gem
+	}
+
+	VampireKnifeMaterial: {
+		Tooltip: ""
+		DisplayName: Vampire Knife Material
+	}
+
+	MechanicalWormBlade: {
+		Tooltip: ""
+		DisplayName: Mechanical Worm Blade
+	}
+
+	IronskinSword: {
+		Tooltip: ""
+		DisplayName: Ironskin Sword
+	}
+
+	WaspPommel: {
+		Tooltip: ""
+		DisplayName: Wasp Pommel
+	}
+
+	GolemPommel: {
+		Tooltip: ""
+		DisplayName: Golem Pommel
+	}
+
+	CultistGem: {
+		Tooltip: ""
+		DisplayName: Cultist Gem
+	}
+
+	DiscordPommel: {
+		Tooltip: ""
+		DisplayName: Discord Pommel
+	}
+
+	SkeletonGem: {
+		Tooltip: ""
+		DisplayName: Skeleton Gem
+	}
+
+	MechEyeGem: {
+		Tooltip: ""
+		DisplayName: Mech Eye Gem
+	}
+
+	SolarBlade: {
+		Tooltip: ""
+		DisplayName: Solar Blade
+	}
+
+	EmpressSnath: {
+		Tooltip: ""
+		DisplayName: Empress Snath
+	}
+
+	SkeletonBlade: {
+		Tooltip: ""
+		DisplayName: Skeleton Blade
+	}
+
+	MechWormBlade: {
+		Tooltip: ""
+		DisplayName: Mech Worm Blade
+	}
+
+	DragonPommel: {
+		Tooltip: ""
+		DisplayName: Dragon Pommel
+	}
+
+	GolemSnath: {
+		Tooltip: ""
+		DisplayName: Golem Snath
+	}
+
+	GolemBlade: {
+		Tooltip: ""
+		DisplayName: Golem Blade
+	}
+
+	GollumSnath: {
+		Tooltip: ""
+		DisplayName: Gollum Snath
+	}
+
+	TitaniumSnath: {
+		Tooltip: ""
+		DisplayName: Titanium Snath
+	}
+
+	DungeonSnath: {
+		Tooltip: ""
+		DisplayName: Dungeon Snath
+	}
+
+	AdamantineSnath: {
+		Tooltip: ""
+		DisplayName: Adamantine Snath
+	}
+
+	EyeSnath: {
+		Tooltip: ""
+		DisplayName: Eye Snath
+	}
+
+	LuminiteSnath: {
+		Tooltip: ""
+		DisplayName: Luminite Snath
+	}
+
+	QueenSlimeSnath: {
+		Tooltip: ""
+		DisplayName: Queen Slime Snath
+	}
+
+	SanguinePommel: {
+		Tooltip: ""
+		DisplayName: Sanguine Pommel
+	}
+
+	StarfuryGem: {
+		Tooltip: ""
+		DisplayName: Starfury Gem
+	}
+
+	IceQueenSnath: {
+		Tooltip: ""
+		DisplayName: Ice Queen Snath
+	}
+
+	ShadowflameGem: {
+		Tooltip: ""
+		DisplayName: Shadowflame Gem
+	}
+
+	SeedlerGem: {
+		Tooltip: ""
+		DisplayName: Seedler Gem
+	}
+
+	LuminiteBlade: {
+		Tooltip: ""
+		DisplayName: Luminite Blade
+	}
+
+	SlimePommel: {
+		Tooltip: ""
+		DisplayName: Slime Pommel
+	}
+
+	BrainSnath: {
+		Tooltip: ""
+		DisplayName: Brain Snath
+	}
+
+	CorruptionSnath: {
+		Tooltip: ""
+		DisplayName: Corruption Snath
+	}
+
+	CrimsonBlade: {
+		Tooltip: ""
+		DisplayName: Crimson Blade
+	}
+
+	CorruptionBlade: {
+		Tooltip: ""
+		DisplayName: Corruption Blade
+	}
+
+	CrimsonSnath: {
+		Tooltip: ""
+		DisplayName: Crimson Snath
+	}
+
+	EnergyTestSword: {
+		Tooltip: ""
+		DisplayName: Energy Test Sword
+	}
+
+	NightsEdgeBlade: {
+		Tooltip: ""
+		DisplayName: Nights Edge Blade
+	}
+
+	MechSkeletonPommel: {
+		Tooltip: ""
+		DisplayName: Mech Skeleton Pommel
+	}
+
+	MeteorPommel: {
+		Tooltip: ""
+		DisplayName: Meteor Pommel
+	}
+
+	GrassBlade: {
+		Tooltip: ""
+		DisplayName: Grass Blade
+	}
+
+	HellstoneBlade: {
+		Tooltip: ""
+		DisplayName: Hellstone Blade
+	}
+
+	HellstoneSnath: {
+		Tooltip: ""
+		DisplayName: Hellstone Snath
+	}
+
+	QueenBeePommel: {
+		Tooltip: ""
+		DisplayName: Queen Bee Pommel
+	}
+
+	StormbowGem: {
+		Tooltip: ""
+		DisplayName: Stormbow Gem
+	}
+
+	ChlorophyteSnath: {
+		Tooltip: ""
+		DisplayName: Chlorophyte Snath
+	}
+
+	EmpressGem: {
+		Tooltip: ""
+		DisplayName: Empress Gem
+	}
+
+	FishPommel: {
+		Tooltip: ""
+		DisplayName: Fish Pommel
+	}
+
+	ChlorophytePommel: {
+		Tooltip: ""
+		DisplayName: Chlorophyte Pommel
+	}
+
+	ScaryWoodSnath: {
+		Tooltip: ""
+		DisplayName: Scary Wood Snath
+	}
+
+	SanguineBlade: {
+		Tooltip: ""
+		DisplayName: Sanguine Blade
+	}
+
+	ParametricCurveWeapon: {
+		Tooltip: ""
+		DisplayName: Parametric Curve Weapon
+	}
+
+	ColorChangingSquareWeapon: {
+		Tooltip: ""
+		DisplayName: Color Changing Square Weapon
+	}
+
+	SimplifiedCustomSwingSword: {
+		Tooltip: ""
+		DisplayName: Simplified Custom Swing Sword
+	}
+
+	ModularScytheInstanceNotLoaded: {
+		Tooltip: ""
+		DisplayName: Modular Scythe Instance Not Loaded
+	}
+
+	ExampleAdvancedAnimatedProjectileItem: {
+		Tooltip: ""
+		DisplayName: Example Advanced Animated Projectile Item
+	}
+
+	PlanteraPommel: {
+		Tooltip: ""
+		DisplayName: Plantera Pommel
+	}
+
+	EnchantedGem: {
+		Tooltip: ""
+		DisplayName: Enchanted Gem
+	}
+
+	ShootingSword: {
+		Tooltip: ""
+		DisplayName: Shooting Sword
+	}
+
+	ExampleRainingSword: {
+		Tooltip: ""
+		DisplayName: Example Raining Sword
+	}
+
+	ExampleShootingSword: {
+		Tooltip: ""
+		DisplayName: Example Shooting Sword
+	}
+
+	GlobalBlade: {
+		Tooltip: ""
+		DisplayName: Global Blade
+	}
+
+	GlobalGem: {
+		Tooltip: ""
+		DisplayName: Global Gem
+	}
+
+	GlobalPommel: {
+		Tooltip: ""
+		DisplayName: Global Pommel
+	}
+
+	GlobalSnath: {
+		Tooltip: ""
+		DisplayName: Global Snath
+	}
+
+	GraphicsTesting: {
+		DisplayName: Graphics Testing
+		Tooltip: ""
+	}
+
+	PlatinumSnath: {
+		Tooltip: ""
+		DisplayName: Platinum Snath
+	}
+
+	GoldSnath: {
+		Tooltip: ""
+		DisplayName: Gold Snath
+	}
+
+	PlatinumPommel: {
+		Tooltip: ""
+		DisplayName: Platinum Pommel
+	}
+
+	GoldPommel: {
+		Tooltip: ""
+		DisplayName: Gold Pommel
+	}
+
+	PlatinumGem: {
+		Tooltip: ""
+		DisplayName: Platinum Gem
+	}
+
+	GoldGem: {
+		Tooltip: ""
+		DisplayName: Gold Gem
+	}
+
+	PlatinumBlade: {
+		Tooltip: ""
+		DisplayName: Platinum Blade
+	}
+
+	GoldBlade: {
+		Tooltip: ""
+		DisplayName: Gold Blade
+	}
+
+	ModularScytheInstance2: {
+		Tooltip: ""
+		DisplayName: Modular Scythe Instance2
+	}
+
+	ModularScytheInstance: {
+		Tooltip: ""
+		DisplayName: Modular Scythe Instance
+	}
+
+	SnathPurple: {
+		Tooltip: ""
+		DisplayName: Snath Purple
+	}
+
+	SnathGreen: {
+		Tooltip: ""
+		DisplayName: Snath Green
+	}
+
+	ModularScythe: {
+		Tooltip: ""
+		DisplayName: Modular Scythe
+	}
+
+	BladePurple: {
+		Tooltip: ""
+		DisplayName: Blade Purple
+	}
+
+	BladeGreen: {
+		Tooltip: ""
+		DisplayName: Blade Green
+	}
+
+	AccentPurple: {
+		Tooltip: ""
+		DisplayName: Accent Purple
+	}
+
+	AccentGreen: {
+		Tooltip: ""
+		DisplayName: Accent Green
+	}
+
+	PurpleGem: {
+		Tooltip: ""
+		DisplayName: Purple Gem
+	}
+
+	GreenGem: {
+		Tooltip: ""
+		DisplayName: Green Gem
+	}
+
+	ClockHilt: {
+		Tooltip: ""
+		DisplayName: Clock Hilt
+	}
+
+	ClockBlade: {
+		Tooltip: ""
+		DisplayName: Clock Blade
+	}
+
+	BreakerHilt: {
+		Tooltip: ""
+		DisplayName: Breaker Hilt
+	}
+
+	BreakerBlade: {
+		Tooltip: ""
+		DisplayName: Breaker Blade
+	}
+
+	ExampleInstancedItem: {
+		Tooltip: ""
+		DisplayName: Example Instanced Item
+	}
+
+	ForgedSwordCustomProjectile: {
+		Tooltip: ""
+		DisplayName: Forged Sword Custom Projectile
+	}
+
+	ForgedSword: {
+		Tooltip: ""
+		DisplayName: Forged Sword
+	}
+
+	ExampleCustomSwingSword: {
+		Tooltip: ""
+		DisplayName: Example Custom Swing Sword
+	}
+}
+

@@ -1,0 +1,3924 @@
+Keybinds: {
+	"Infinity Armor: Shield Visual Toggle": {
+		DisplayName: Infinity  Armor:  Shield  Visual  Toggle
+	}
+
+	"Set Bonus Ability": {
+		DisplayName: Set  Bonus  Ability
+	}
+}
+
+Buffs: {
+	ArcaniumBoost: {
+		DisplayName: Arcanium Empowerment
+		Description: Maximum mana increased by 100
+	}
+
+	CosmicFlame: {
+		DisplayName: Cosmic Flame
+		Description: An otherworldy flame swiftly eats at your body
+	}
+
+	Energy1: {
+		DisplayName: Energy Shield
+		Description: Your shield protects you
+	}
+
+	Energy2: {
+		DisplayName: Energy Shield
+		Description: Your shield protects you
+	}
+
+	Energy3: {
+		DisplayName: Energy Shield
+		Description: Your shield protects you
+	}
+
+	Genocide: {
+		DisplayName: Genocide
+		Description: Defense is halved
+	}
+
+	GetFuckedBitch: {
+		DisplayName: Blessing of Light
+		Description: "'Your wings bask in harsh sunlight, you feel like you could fly forever'"
+	}
+
+	HCurse: {
+		DisplayName: Curse of Helplessness
+		Description: You know you can't win
+	}
+
+	InfinitePower: {
+		DisplayName: Infinite Power
+		Description: Critical damage boosted by 200%
+	}
+
+	Judgement: {
+		DisplayName: Judgement
+		Description: There is no escape..
+	}
+
+	MagniumAbility: {
+		DisplayName: Magnium Burst
+		Description: Increases your max number of sentries by 3
+	}
+
+	MagniumCooldown: {
+		DisplayName: Magnium Burst Cooldown
+		Description: You cannot trigger your Magnium armor ability
+	}
+
+	Marked: {
+		DisplayName: Marked
+		Description: Marked
+	}
+
+	MCurse: {
+		DisplayName: Curse of Mortality
+		Description: You feel your mortality greater then ever
+	}
+
+	NoCrit: {
+		DisplayName: Unprepared
+		Description: Your next Universium Replicator shot will not be a critical strike
+	}
+
+	Oil: {
+		DisplayName: Covered in oil
+		Description: Step 2
+	}
+
+	overdrive: {
+		DisplayName: Infinity Overdrive
+		Description: You instantly die to attacks, but every attack you land is a critical strike
+	}
+
+	overdriveCooldown: {
+		DisplayName: Infinity Overdrive Cooldown
+		Description:
+			'''
+			Cannot go into overdrive
+			Your Infinity Shield cannot be put up
+			'''
+	}
+
+	Overgrowth: {
+		DisplayName: Overgrowth
+		Description: 25% increased magic damage
+	}
+
+	PhoenixCooldown: {
+		DisplayName: Phoenix Sickness
+		Description: Your feather is powerless
+	}
+
+	Prism: {
+		DisplayName: blah
+		Description: blah
+	}
+
+	Regrowth: {
+		DisplayName: Regrowth
+		Description: Greatly increased health and mana regeneration
+	}
+
+	ScarletRegen: {
+		DisplayName: Scarlet Regen
+		Description: Increased life regeneration
+	}
+
+	SkyGravity: {
+		DisplayName: Skystone Gravity
+		Description: Your gravity is reversed
+	}
+
+	Sunspot: {
+		DisplayName: Sunspot Strength
+		Description:
+			'''
+			Reduces damage taken by 10%
+			Falling Sun solar flares are bigger and more powerful
+			'''
+	}
+
+	SunstrikeBuff: {
+		DisplayName: Sunstruck Strength
+		Description: Increased radius and damage of Sunstrikes
+	}
+}
+
+Items: {
+	AmberPen: {
+		DisplayName: Amber Pendant
+		Tooltip: Increases the duration of Archery Potions
+	}
+
+	AmethystPen: {
+		DisplayName: Amethyst Pendant
+		Tooltip: Increases the duration of Regeneration Potions
+	}
+
+	AP_Ammo_Box: {
+		DisplayName: AP Ammo Box
+		Tooltip: Increases bullet armor penetration by 5
+	}
+
+	Astronomica: {
+		DisplayName: Astronomica
+		Tooltip:
+			'''
+			Absorbs 25% of damage done to players on your team when above 25% life
+			Grants immunity to knockback
+			15% increased damage above 50% life
+			15% reduced damage taken when below 50% life
+			Immunity to the sandstorm's mighty wind and Petrification
+			'''
+	}
+
+	Comet_Wings: {
+		DisplayName: Stellar Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	Demonthorn_Rose: {
+		DisplayName: Demonthorn Rose
+		Tooltip:
+			'''
+			5% increased magic damage
+			15% increased magic damage when near a campfire
+			Increased life regeneration
+			Automatically uses mana potions when low on mana
+			8% reduced mana usage
+			Every 10000 magic damage dealt creates a demonic explosion on enemy hit
+			'''
+	}
+
+	DiamondPen: {
+		DisplayName: Diamond Pendant
+		Tooltip: Increases the duration of Endurance Potions
+	}
+
+	DuskbulbWings: {
+		DisplayName: Dusk Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	EmeraldPen: {
+		DisplayName: Emerald Pendant
+		Tooltip: Increases the duration of Swiftness Potions
+	}
+
+	EnergyShield: {
+		DisplayName: Energy Shield
+		Tooltip:
+			'''
+			Charges up a shield around you
+			Getting hit removes a charge
+			Damage taken reduced by 20% when you have at least one charge
+			'''
+	}
+
+	Enkin_Wings: {
+		DisplayName: Infernal Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	ExploringGear: {
+		DisplayName: Exploring Gear
+		Tooltip:
+			'''
+			Grants the ability to swim and greatly extends underwater breathing
+			Allows the ability to climb walls
+			Provides light when worn
+			'''
+	}
+
+	Greater_Fairy_Ring: {
+		DisplayName: Greater Fairy Ring
+		Tooltip: Spawns protective fairies around you
+	}
+
+	Hallowed_Lantern: {
+		DisplayName: Hallowed Lantern
+		Tooltip: 15% increased damage when near a campfire
+	}
+
+	Idol_Of_Incineration: {
+		DisplayName: Idol of Incineration
+		Tooltip:
+			'''
+			'A miniature statue of the fire ancient'
+			10% increased minion damage
+			Increases your maximum number of minions by 2
+			'''
+	}
+
+	Idol_Of_Natures_Dusk: {
+		DisplayName: Idol of Natures Dusk
+		Tooltip:
+			'''
+			'A miniature statue of the nature ancient'
+			10% increased magic critical damage
+			10% increased magic damage
+			10% reduced mana usage
+			Maximum mana increased by 40
+			'''
+	}
+
+	Idol_Of_The_Comet: {
+		DisplayName: Idol of Vast Galaxies
+		Tooltip:
+			'''
+			'A miniature statue of the cosmic ancient'
+			10% increased melee critical damage
+			10% increased melee damage
+			10% increased melee speed
+			Increases melee armor penetration by 10
+			'''
+	}
+
+	Idol_Of_The_Rising_Tide: {
+		DisplayName: Idol of Rising Tide
+		Tooltip:
+			'''
+			'A miniature statue of the water ancient'
+			10% increased ranged critical damage
+			10% increased ranged damage
+			20% chance not to consume ammo
+			'''
+	}
+
+	IFlask: {
+		DisplayName: Flask of Immortality
+		Tooltip:
+			'''
+			Healing potions restore an additional 50 life
+			Increased life regeneration
+			Reduced healing potion cooldown
+			'''
+	}
+
+	InfinityWing: {
+		DisplayName: Infinity Skypack
+		Tooltip: Allows infinite flight and slow fall
+	}
+
+	Lifebound: {
+		DisplayName: Lifebound Charm
+		Tooltip: Critical Strikes don't do bonus damage, but your normal damage is increased by 35%
+	}
+
+	LightUpSneakers: {
+		DisplayName: Light-Up Sneakers
+		Tooltip:
+			'''
+			Allows sticking to walls and skating on ice
+			Allows you to walk on liquids and swim
+			Allows you to stay in lava and breathe for an extended time
+			Creates light around you
+			Spawns hyper-powered fairies around you to protect you
+			Greatly increased run speed, acceleration, movement speed, and jump speed
+			'''
+	}
+
+	Lunar_Reach: {
+		DisplayName: Stellar Grip
+		Tooltip:
+			'''
+			Increases melee armor penetration by 10
+			15% increased melee damage and critical damage
+			15% increased melee speed
+			Increased melee knockback
+			Melee attacks ignite enemies with an otherworldy fire
+			Enables auto swing for melee weapons
+			Increases the size of melee weapons
+			'''
+	}
+
+	MechArm: {
+		DisplayName: Mechanical Arm
+		Tooltip:
+			'''
+			Increases melee armor penetration by 10
+			12% increased melee damage and 12% increased melee speed
+			Increased melee knockback
+			Melee attacks ignite enemies
+			Enables auto swing for melee weapons
+			Increases the size of melee weapons
+			'''
+	}
+
+	Mirror_Shield: {
+		DisplayName: Mirror Shield
+		Tooltip:
+			'''
+			Immunity to the sandstorms mighty wind and petrification
+			'A gift from Biggoron'
+			'''
+	}
+
+	OnyxShield: {
+		DisplayName: Onyx Shield
+		Tooltip: Immunity to the sandstorms mighty wind
+	}
+
+	PhoenixFeather: {
+		DisplayName: Phoenix Feather
+		Tooltip:
+			'''
+			Taking fatal damage revives you
+			Recharges every 3 minutes
+			'''
+	}
+
+	RapierEmblem: {
+		DisplayName: Rapier Emblem
+		Tooltip:
+			'''
+			Increases melee armor penetration by 10
+			10% increased melee damage
+			'''
+	}
+
+	RubyPen: {
+		DisplayName: Ruby Pendant
+		Tooltip: Increases the duration of Wrath and Rage Potions
+	}
+
+	SapphirePen: {
+		DisplayName: Sapphire Pendant
+		Tooltip: Increases the duration of Gills Potions
+	}
+
+	ScarletCloak: {
+		DisplayName: Cloak of Retaliation
+		Tooltip:
+			'''
+			Causes stars to fall and increases length of invincibility after taking damage
+			Increases movement speed and releases bees after taking damage
+			Summons life stealing orbs after taking damage
+			'''
+	}
+
+	Sinned_Flower: {
+		DisplayName: Blood Rose
+		Tooltip:
+			'''
+			5% increased magic damage
+			Increased life regeneration
+			Automatically uses mana potions when low on mana
+			8% reduced mana usage
+			'''
+	}
+
+	SkyresPendant: {
+		DisplayName: Skyre's Pendant
+		Tooltip:
+			'''
+			Defense is reduced by 15
+			17% increased damage
+			'''
+	}
+
+	Sojurners_Band: {
+		DisplayName: Sojourner's Band
+		Tooltip:
+			'''
+			Spawns protective fairies around you
+			Increased maximum run speed, acceleration, movement speed, and jump speed
+			'''
+	}
+
+	Sojurners_Sash: {
+		DisplayName: Globetrotter's Sash
+		Tooltip: Increased maximum run speed, acceleration, movement speed, and jump speed
+	}
+
+	Soulbound: {
+		DisplayName: Soulbound Charm
+		Tooltip: Critical strikes do double damage, but your normal damage is reduced by 35%
+	}
+
+	Starphobia: {
+		DisplayName: Starphobia
+		Tooltip:
+			'''
+			15% increased melee damage when above 50% life
+			Reduces damage taken by 10% when below 50% life
+			'''
+	}
+
+	TopazPen: {
+		DisplayName: Topaz Pendant
+		Tooltip: Increases the duration of Ironskin Potions
+	}
+
+	TrueThirdEye: {
+		DisplayName: True Third Eye
+		Tooltip: 15% Increased critical damage
+	}
+
+	Tungqua_Thruster: {
+		DisplayName: Tungqua Plasmawings
+		Tooltip: Allows flight and slow fall
+	}
+
+	UnicornBlood: {
+		DisplayName: Unicorn Tears
+		Tooltip:
+			'''
+			'You are a horrible person.'
+			5% increased magic damage
+			Increased life regeneration
+			'''
+	}
+
+	VitalityFlask: {
+		DisplayName: Flask of Vitality
+		Tooltip: Healing potions restore an additional 50 life
+	}
+
+	VoidDragWings: {
+		DisplayName: Void Dragon Wings
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Arcanium_Axe: {
+		DisplayName: Arcanium Battleaxe
+		Tooltip: Swings faster depending on how high your maximum mana is
+	}
+
+	Arcanium_Bar: {
+		DisplayName: Arcanium Bar
+		Tooltip: "'Magically reinforced'"
+	}
+
+	Arcanium_Bow: {
+		DisplayName: Arcanium Shortbow
+		Tooltip: Deals more damage depending on how high your maximum mana is
+	}
+
+	Arcanium_Broadsword: {
+		DisplayName: Arcanium Broadsword
+		Tooltip: Deals more damage depending on how high your maximum mana is
+	}
+
+	Arcanium_Chest: {
+		DisplayName: Arcanium Chestplate
+		Tooltip: Reduces damage taken by 5%
+	}
+
+	Arcanium_Hammer: {
+		DisplayName: Arcanium Hammer
+		Tooltip: Swings faster depending on how high your maximum mana is
+	}
+
+	Arcanium_Helm: {
+		DisplayName: Arcanium Helmet
+		Tooltip: ""
+	}
+
+	Arcanium_Legs: {
+		DisplayName: Arcanium Greaves
+		Tooltip: 5% increased movement speed
+	}
+
+	Arcanium_Pickaxe: {
+		DisplayName: Arcanium Pickaxe
+		Tooltip: Swings faster depending on how high your maximum mana is
+	}
+
+	Arcanium_Wand: {
+		DisplayName: Arcanium Wand
+		Tooltip: Launches more projectiles depending on how high your maximum mana is
+	}
+
+	ArcaniumOre: {
+		DisplayName: Arcanium Ore
+		Tooltip: "'It radiates magic'"
+	}
+
+	Ashen_Hood: {
+		DisplayName: Volcanic Hood
+		Tooltip:
+			'''
+			Increased mana regeneration
+			Maximum mana increased by 60
+			Increases your max number of minions by 1
+			'''
+	}
+
+	Ashen_Legs: {
+		DisplayName: Volcanic Subligar
+		Tooltip:
+			'''
+			10% increased magic damage and movement speed
+			Increases your max number of minions by 1
+			'''
+	}
+
+	Ashen_Robe: {
+		DisplayName: Volcanic Robe
+		Tooltip:
+			'''
+			10% increased magic and minion damage and magic critical damage
+			Increases your max number of minions by 1
+			'''
+	}
+
+	CometChest: {
+		DisplayName: Stellarite Chestpeice
+		Tooltip:
+			'''
+			24% increased melee damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	CometHelm: {
+		DisplayName: Stellarite Helmet
+		Tooltip:
+			'''
+			20% increased melee critical damage
+			Enemies are more likely to target you
+			'''
+	}
+
+	CometLegs: {
+		DisplayName: Stellarite Greaves
+		Tooltip:
+			'''
+			20% increased movement and melee speed
+			Enemies are more likely to target you
+			'''
+	}
+
+	Creation_Mask: {
+		DisplayName: Creation Mask
+		Tooltip: ""
+	}
+
+	Destruction_Mask: {
+		DisplayName: Destruction Mask
+		Tooltip: ""
+	}
+
+	Divine_Battlevisor: {
+		DisplayName: Divine Battlevisor
+		Tooltip:
+			'''
+			13% increased ranged damage
+			5% increased ranged critical damage
+			Maximum life increased by 25
+			Right click to cycle between the Divine Helmets
+			'''
+	}
+
+	Divine_Chest: {
+		DisplayName: Divine Battlerobe
+		Tooltip:
+			'''
+			10% increased damage and critical damage
+			Maximum life increased by 40
+			'''
+	}
+
+	Divine_Circlet: {
+		DisplayName: Divine Circlet
+		Tooltip:
+			'''
+			Increases maximum mana by 40 and reduces mana usage by 12%
+			5% increased magic damage and critical damage
+			Maximum life increased by 25
+			Right click to cycle between the Divine Helmets
+			'''
+	}
+
+	Divine_Crown: {
+		DisplayName: Divine Crown
+		Tooltip:
+			'''
+			Increases your max number of minions by 3
+			Increases minion damage by 18%
+			Maximum life increased by 25
+			Right click to cycle between the Divine Helmets
+			'''
+	}
+
+	Divine_Greathelm: {
+		DisplayName: Divine Greathelm
+		Tooltip:
+			'''
+			14% increased melee critical damage
+			Maximum life increased by 25
+			Right click to cycle between the Divine Helmets
+			'''
+	}
+
+	Divine_Greaves: {
+		DisplayName: Divine Greaves
+		Tooltip:
+			'''
+			12% increased movement speed
+			Maximum life increased by 35
+			'''
+	}
+
+	DuckMask: {
+		DisplayName: Duck Mask
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Duck: {
+		DisplayName: Infinity Duck
+		Tooltip: "'Endless power in the form of the most perfect creature'"
+	}
+
+	Duskbulb_Chest: {
+		DisplayName: Duskbulb Vineguard
+		Tooltip: 13% increased magic damage and magic critical damage
+	}
+
+	Duskbulb_Legs: {
+		DisplayName: Duskbulb Legrobes
+		Tooltip:
+			'''
+			12% increased movement speed and magic damage
+			29% reduced mana usage
+			'''
+	}
+
+	DuskbulbHelm: {
+		DisplayName: Duskbulb Hood
+		Tooltip:
+			'''
+			Increases mana regeneration
+			Maximum mana increased by 80
+			'''
+	}
+
+	Duskbulb: {
+		DisplayName: Duskbulb
+		Tooltip: "'Just touching it brings back your darkest thoughts'"
+	}
+
+	EnkinChest: {
+		DisplayName: Enkin Breastguard
+		Tooltip:
+			'''
+			Increases your max number of minions by 2
+			24% increased minion damage
+			'''
+	}
+
+	EnkinHelm: {
+		DisplayName: Enkin Hood
+		Tooltip:
+			'''
+			Increases your max number of minions by 2
+			24% increased minion damage
+			'''
+	}
+
+	EnkinLegs: {
+		DisplayName: Enkin Leggings
+		Tooltip:
+			'''
+			Increases your max number of minions by 2
+			24% increased minion damage
+			'''
+	}
+
+	Enkin: {
+		DisplayName: Enkin
+		Tooltip: "'An arcane inferno in convenient bottled form'"
+	}
+
+	FoxMask: {
+		DisplayName: Fox Mask
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Infinity_Armor: {
+		DisplayName: Infinity Cosmoplate
+		Tooltip:
+			'''
+			Increases maximum mana by 200
+			Grants immunity to knockback, lava and fire
+			Reduces damage taken by 20%
+			15% increased damage
+			Maximum life increased by 50 and increases your max number of minions by 3
+			'''
+	}
+
+	Infinity_Helm: {
+		DisplayName: Infinity Helmet
+		Tooltip:
+			'''
+			Cloaks you in a shield of infinity energy while not using an item
+			Press the 'Infinity Armor: Shield Toggle' key to toggle the visual effect
+			Critical strike chance increased by 15% and allows underwater breathing
+			Maximum life increased by 50 and increases your max number of minions by 3
+			'''
+	}
+
+	Infinity_Legs: {
+		DisplayName: Infinity Strides
+		Tooltip:
+			'''
+			Greatly increased movement abilities
+			Negates fall damage
+			Grants the ability to swim and immunity to fire blocksMaximum life increased by 50 and increases your max number of minions by 3
+			'''
+	}
+
+	MagniumChestplate: {
+		DisplayName: Magnium Chestplate
+		Tooltip:
+			'''
+			Increases minion damage by 6%
+			Increases your max number of sentries by 1
+			'''
+	}
+
+	MagniumHelm: {
+		DisplayName: Magnium Helmet
+		Tooltip:
+			'''
+			Increases minion damage by 6%
+			Increases your max number of sentries by 1
+			'''
+	}
+
+	MagniumLeggings: {
+		DisplayName: Magnium Greaves
+		Tooltip:
+			'''
+			Increases minion damage by 6%
+			Increases your max number of minions by 1
+			'''
+	}
+
+	Nightmare_Chest: {
+		DisplayName: Nightmare Chestguard
+		Tooltip: 15% increased movement speed
+	}
+
+	Nightmare_Headgear: {
+		DisplayName: Nightmare Headgear
+		Tooltip: 15% increased movement speed
+	}
+
+	Nightmare_Legs: {
+		DisplayName: Nightmare Leggings
+		Tooltip: 15% increased movement speed
+	}
+
+	Relic_Chest: {
+		DisplayName: Relic Scalemail
+		Tooltip: 5% increased ranged damage and ranged critical damage
+	}
+
+	Relic_Helm: {
+		DisplayName: Relic Facegaurd
+		Tooltip: 7% increased ranged critical damage
+	}
+
+	Relic_Legs: {
+		DisplayName: Relic Greaves
+		Tooltip:
+			'''
+			5% increased ranged damage
+			14% increased movement speed
+			'''
+	}
+
+	Scarlet_Chest: {
+		DisplayName: Scarlet Chestguard
+		Tooltip: 5% increased damage
+	}
+
+	Scarlet_Helm: {
+		DisplayName: Scarlet Helmet
+		Tooltip: 5% increased damage
+	}
+
+	Scarlet_Legs: {
+		DisplayName: Scarlet Leggings
+		Tooltip: 5% increased damage
+	}
+
+	Skystone_Chest: {
+		DisplayName: Skystone Chestplate
+		Tooltip:
+			'''
+			15% increased melee speed
+			20% chance not to consume ammo
+			'''
+	}
+
+	Skystone_Helm: {
+		DisplayName: Skystone Helmet
+		Tooltip: 10% increased ranged and melee damage
+	}
+
+	Skystone_Legs: {
+		DisplayName: Skystone Greaves
+		Tooltip:
+			'''
+			15% increased movement speed
+			6% increased ranged and melee critical damage
+			'''
+	}
+
+	TungquaChest: {
+		DisplayName: Tungqua Chestguard
+		Tooltip:
+			'''
+			14% increased ranged damage and critical damage
+			25% chance not to consume ammo
+			'''
+	}
+
+	TungquaHelm: {
+		DisplayName: Tungqua Mask
+		Tooltip:
+			'''
+			19% increased ranged damage
+			9% increased ranged critical damage
+			'''
+	}
+
+	TungquaLegs: {
+		DisplayName: Tungqua Leggings
+		Tooltip:
+			'''
+			12% increased ranged damage and critical damage
+			10% increased movement speed
+			'''
+	}
+
+	Tungqua: {
+		DisplayName: Tungqua
+		Tooltip: "'An alloy made up of extraterrestrial metals, also water'"
+	}
+
+	VoidDragChest: {
+		DisplayName: Void Dragon Suit
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	VoidDragHelm: {
+		DisplayName: Void Dragon Helmet
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	VoidDragLegs: {
+		DisplayName: Void Dragon Leggings
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	WyvernChest: {
+		DisplayName: Wyvern Chestguard
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			8% Increased minion damage and 10% increased movement speed
+			'''
+	}
+
+	WyvernEars: {
+		DisplayName: Wyvern Ears
+		Tooltip: ""
+	}
+
+	WyvernHelm: {
+		DisplayName: Wyvern Helmet
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			8% Increased minion damage and 10% increased movement speed
+			'''
+	}
+
+	WyvernLegs: {
+		DisplayName: Wyvern Leggings
+		Tooltip:
+			'''
+			Increases your max number of minions by 1
+			8% Increased minion damage and 10% increased movement speed
+			'''
+	}
+
+	Ashen_Axe: {
+		DisplayName: Volcanic Axe
+		Tooltip: ""
+	}
+
+	Ashen_Bar: {
+		DisplayName: Volcanic Bar
+		Tooltip: ""
+	}
+
+	Ashen_Bow: {
+		DisplayName: Infernal Shot
+		Tooltip: ""
+	}
+
+	Ashen_Chainsaw: {
+		DisplayName: Volcanic Chainsaw
+		Tooltip: ""
+	}
+
+	Ashen_Drill: {
+		DisplayName: Volcanic Drill
+		Tooltip: ""
+	}
+
+	Ashen_Hammer: {
+		DisplayName: Volcanic Hammer
+		Tooltip: ""
+	}
+
+	Ashen_Ore: {
+		DisplayName: Volcanic Ore
+		Tooltip: "'Hot!'"
+	}
+
+	Ashen_Pickaxe: {
+		DisplayName: Volcanic Pickaxe
+		Tooltip: ""
+	}
+
+	Ashen_Staff: {
+		DisplayName: Volcanic Staff
+		Tooltip:
+			'''
+			Casts multiple bouncing fireballs
+			Bouncing the fireballs of a wall causes them to explode upon hitting an enemy
+			'''
+	}
+
+	BetsyScale: {
+		DisplayName: Betsy Scale
+		Tooltip: "'Rough and somehow pulsing with life'"
+	}
+
+	Broken_Hero_GunParts: {
+		DisplayName: Broken Hero Gun Parts
+		Tooltip: ""
+	}
+
+	CorruptShard: {
+		DisplayName: Corrupt Stone
+		Tooltip: ""
+	}
+
+	Cosmic_Essence: {
+		DisplayName: Cosmic Essence
+		Tooltip: "'Essence of the cosmos, used for a wide variety of things'"
+	}
+
+	Cosmic_Key: {
+		DisplayName: Cosmic Key
+		Tooltip: Right click to open an interdimensional vault and take its loot
+	}
+
+	CosmicCore: {
+		DisplayName: Cosmic Core
+		Tooltip:
+			'''
+			'Brimming with potential'
+			Right click while holding a weapon to upgrade it to a greater form
+			Weapons you can upgrade will be marked in your inventory
+			'''
+	}
+
+	Crimson_Stone: {
+		DisplayName: Crimson Stone
+		Tooltip: ""
+	}
+
+	Arcum: {
+		DisplayName: Arcum
+		Tooltip:
+			'''
+			Converts arrows into Divine Arrows
+			Divine Arrows speed up and increase in damage whenever they bounce off of walls
+			'''
+	}
+
+	Divine_Fragment: {
+		DisplayName: Divine Fragment
+		Tooltip: "'You feel a great sense of peace when near it'"
+	}
+
+	DivineGem: {
+		DisplayName: Divine Armor Gem
+		Tooltip: Right click to cycle between the Divine Helmets
+	}
+
+	Judicium: {
+		DisplayName: Judicium
+		Tooltip: Consumes and fires MANY bullets
+	}
+
+	Lucis: {
+		DisplayName: Lucis
+		Tooltip: Fires an exploding divine laser and multiple bolts of light
+	}
+
+	Radia: {
+		DisplayName: Radia
+		Tooltip: Throws out a scythe that will create more scythes
+	}
+
+	DragonIdol: {
+		DisplayName: Dragon Idol
+		Tooltip: "'Cute!'"
+	}
+
+	Duskbulb_Battleaxe: {
+		DisplayName: Duskbulb Battleaxe
+		Tooltip: ""
+	}
+
+	Duskbulb_Hammer: {
+		DisplayName: Duskbulb Hammer
+		Tooltip: ""
+	}
+
+	Duskbulb_Magnum: {
+		DisplayName: Duskbulb Magnum
+		Tooltip:
+			'''
+			Left click to fan the hammer
+			Right click to launch a bulb
+			Kill the bulb to release healing energy
+			'''
+	}
+
+	Duskbulb_Pickaxe: {
+		DisplayName: Duskbulb Pickaxe
+		Tooltip: ""
+	}
+
+	Duskbulb_Repeater: {
+		DisplayName: Duskbulb Repeater
+		Tooltip: Arrows shot turn into vicious shadow petals after some time
+	}
+
+	Duskbulb_Staff: {
+		DisplayName: Duskbulb Staff
+		Tooltip:
+			'''
+			Casts hexxing bolts that apply a stacking hex on critical strikes
+			Enemies take more damage based on the amount of hex they have
+			The maximum amount of hex you can apply to an enemy is based off of your bonus magic damage
+			Right click to detonate all enemies that are hexxed, dealing damage based on the amount of hex they had
+			'''
+	}
+
+	Duskbulb_Sword: {
+		DisplayName: Duskbulb Blade
+		Tooltip:
+			'''
+			Right click to throw a bulb upwards
+			Hit it to lob it into enemies for incredible damage
+			'''
+	}
+
+	Duskbulb_Tome: {
+		DisplayName: Shadow Storm
+		Tooltip: ""
+	}
+
+	Enkin_Axe: {
+		DisplayName: Enkin Axe
+		Tooltip: ""
+	}
+
+	Enkin_Bow: {
+		DisplayName: Hellbringer
+		Tooltip: ""
+	}
+
+	Enkin_Edge: {
+		DisplayName: Enkin Edge
+		Tooltip: Creates a fiery sword beam that causes chain explosions on critical hits
+	}
+
+	Enkin_Hammer: {
+		DisplayName: Enkin Hammer
+		Tooltip: ""
+	}
+
+	Enkin_Incinerator: {
+		DisplayName: Enkin Incinerator
+		Tooltip: ""
+	}
+
+	Enkin_Pickaxe: {
+		DisplayName: Enkin Pickaxe
+		Tooltip: ""
+	}
+
+	Enkin_Staff: {
+		DisplayName: Enkin Staff
+		Tooltip:
+			'''
+			Launches volatile fireballs
+			The fireballs grow in strength as you fire them
+			'''
+	}
+
+	Alectrona: {
+		DisplayName: Alectrona
+		Tooltip: ""
+	}
+
+	AmaterasuBane: {
+		DisplayName: Amaterasu Bane
+		Tooltip:
+			'''
+			Firing the bow also creates an echo at your location
+			If your shot hit an enemy, it will create an additional echo
+			Whenever you fire an arrow, it also fires one from each echo
+			'''
+	}
+
+	Apollo: {
+		DisplayName: Apollo
+		Tooltip:
+			'''
+			Right click to cast a block destroying laser
+			The laser can only cut through weak blocks
+			'''
+	}
+
+	Aublade: {
+		DisplayName: Aublade
+		Tooltip: Critical strikes summon a ring of Flame Followers around you
+	}
+
+	GalahisBag: {
+		DisplayName: Treasure Bag (Galahis)
+		Tooltip: <right>で開く
+	}
+
+	BaneOfSurvival: {
+		DisplayName: Bane of Survival
+		Tooltip:
+			'''
+			Converts fired bullets into Bane Bullets
+			Bane Bullets stick to enemies and cause enemies to explode once enough are stuck
+			'''
+	}
+
+	EnduranceSmite: {
+		DisplayName: Bane of Endurance
+		Tooltip:
+			'''
+			Fires a penetrating genocidal arrow that explodes into genocidal bulbs
+			Genocidal arrows will inflict the 'Genocide' debuff, lowering enemy defense
+			'''
+	}
+
+	GenocideCore: {
+		DisplayName: Genocide Core
+		Tooltip: ""
+	}
+
+	Hallow_Stone: {
+		DisplayName: Hallow Stone
+		Tooltip: ""
+	}
+
+	Hell_Stone: {
+		DisplayName: Hell Stone
+		Tooltip: ""
+	}
+
+	Ice_Stone: {
+		DisplayName: Icy Stone
+		Tooltip: ""
+	}
+
+	CosmicFabric: {
+		DisplayName: Fabric of Reality
+		Tooltip: "'[c/F44242:B][c/F49841:o][c/FFEE00:u][c/68FC28:n][c/28E6FC:d][c/4e28fc:l][c/F44242:e][c/F49841:s][c/FFEE00:s]'"
+	}
+
+	CosmodiaCannon: {
+		DisplayName: Cosmodia Cannon
+		Tooltip: Fires multiple homing rockets and a bigger rocket
+	}
+
+	CrescentPierce: {
+		DisplayName: Crescent Pierce
+		Tooltip: Fires various projectiles, with the amount and speed getting more intense over time
+	}
+
+	EndlessThesis: {
+		DisplayName: Endless Thesis
+		Tooltip: Creates chaos around you
+	}
+
+	Eternity: {
+		DisplayName: Nova Crash
+		Tooltip:
+			'''
+			Striking an enemy will create a massive rainbow explosion
+			Striking an enemy also calls down multiple comets and creates bouncing ds
+			'''
+	}
+
+	Infinity_Star: {
+		DisplayName: Infinity Star
+		Tooltip: ""
+	}
+
+	InfinityCrystal: {
+		DisplayName: Infinity Crystal
+		Tooltip: "'[c/F44242:E][c/F49841:n][c/FFEE00:d][c/68FC28:l][c/28E6FC:e][c/4e28fc:s][c/F44242:s] [c/F49841:P][c/FFEE00:o][c/68FC28:w][c/28E6FC:e][c/4e28fc:r]'"
+	}
+
+	InfinityGeode: {
+		DisplayName: Infinity Geode
+		Tooltip: "'[c/F44242:I][c/F49841:n][c/FFEE00:d][c/68FC28:e][c/28E6FC:s][c/4e28fc:t][c/F44242:r][c/F49841:u][c/FFEE00:c][c/68FC28:t][c/28E6FC:i][c/4e28fc:b][c/F44242:l][c/F49841:e]'"
+	}
+
+	Riftbringer: {
+		DisplayName: Riftbringer
+		Tooltip:
+			'''
+			Critical strikes create rifts that bounce on tiles and air
+			If the spear does not hit an enemy it will call down bolts of energy
+			'''
+	}
+
+	SingularityCatalyst: {
+		DisplayName: Singularity Catalyst
+		Tooltip: "'[c/F44242:I][c/F49841:t][c/FFEE00:'s] [c/68FC28:p][c/28E6FC:u][c/4e28fc:l][c/F44242:l][c/F49841:i][c/FFEE00:n][c/68FC28:g] [c/28E6FC:y][c/4e28fc:o][c/F44242:u] [c/F49841:i][c/FFEE00:n]'"
+	}
+
+	Spectrum_Catharsis: {
+		DisplayName: Spectrum Catharsis
+		Tooltip: Fires different colored beams with different effects
+	}
+
+	Stardust: {
+		DisplayName: Spectrum Stardust
+		Tooltip: "'[c/F44242:S][c/F49841:p][c/FFEE00:a][c/68FC28:r][c/28E6FC:k][c/4e28fc:l][c/F44242:y]'"
+	}
+
+	Ultranet: {
+		DisplayName: Ultranet
+		Tooltip:
+			'''
+			'Now look at this net that I just found! When I say go, be ready to throw!'
+			Right click to launch the net
+			'''
+	}
+
+	Jungle_Stone: {
+		DisplayName: Jungle Stone
+		Tooltip: ""
+	}
+
+	Life_Fish: {
+		DisplayName: Life Fish
+		Tooltip: Permanently increases maximum life by 20
+	}
+
+	LunarSilk: {
+		DisplayName: Lunar Silk
+		Tooltip: "'It shimmers in the moonlight'"
+	}
+
+	Magmonia: {
+		DisplayName: Magmodia
+		Tooltip: Fires a blob of lava, creating a shockwave which causes lava spears to rise
+	}
+
+	MagniumBow: {
+		DisplayName: Magnium Bow
+		Tooltip: Converts wooden arrows into exploding flare arrows
+	}
+
+	MagniumBroadsword: {
+		DisplayName: Magnium Broadsword
+		Tooltip: Fires a blob of lava and rock, creating a shockwave when it lands
+	}
+
+	MagniumFirestorm: {
+		DisplayName: Magnium Firestorm
+		Tooltip: ""
+	}
+
+	MagniumStaff: {
+		DisplayName: Magnium Staff
+		Tooltip: Launches multiple small fireballs
+	}
+
+	LunaProjector: {
+		DisplayName: Luna Projector
+		Tooltip:
+			'''
+			Projects forward a wave of potent starlight energy that reflects weaker projectiles
+			The wave grows weaker whenever it reflects a projectile
+			Bosses block the power of the weapon, preventing it from being used against them
+			'''
+	}
+
+	LunarRipper: {
+		DisplayName: Lunar Ripper
+		Tooltip:
+			'''
+			Continiously creates stellar sword beams
+			Bosses block the power of the weapon, preventing it from being used against them
+			'''
+	}
+
+	MoonlightCaster: {
+		DisplayName: Moonlight Caster
+		Tooltip:
+			'''
+			Launches a moonlight bomb that takes a few seconds to prime
+			Bosses block the power of the weapon, preventing it from being used against them
+			'''
+	}
+
+	Moonstone: {
+		DisplayName: Moonstone
+		Tooltip: "'Out of this world'"
+	}
+
+	StellarGreatsword: {
+		DisplayName: Stellar Greatsword
+		Tooltip:
+			'''
+			Summons stars upon striking an enemy
+			Bosses block the power of the weapon, preventing it from being used against them
+			'''
+	}
+
+	Eldritch_Blade: {
+		DisplayName: Nightmare Blade
+		Tooltip: Fires a bouncing ball of chaotic energy that creates a tentacle shortly after bouncing or hitting an enemy
+	}
+
+	Eldritch_Lance: {
+		DisplayName: Eldritch Lance
+		Tooltip: ""
+	}
+
+	Nightmare_Blaster: {
+		DisplayName: Nightmare Blaster
+		Tooltip: Converts bullets into blasts of cursed flames that create clouds of fire
+	}
+
+	Purity_Stone: {
+		DisplayName: Purity Stone
+		Tooltip: ""
+	}
+
+	Ray_Tracer: {
+		DisplayName: Ray Tracer
+		Tooltip:
+			'''
+			Shoots out a harmless beam of light
+			Useful for mapping and exploration
+			'''
+	}
+
+	AmberPistol: {
+		DisplayName: Amber Buster
+		Tooltip:
+			'''
+			Turns bullets into splitting amber shards
+			10% chance not to consume ammo
+			'''
+	}
+
+	Relic_Fragment: {
+		DisplayName: Relic Fragment
+		Tooltip: "'Ancient'"
+	}
+
+	Relic_Repeater: {
+		DisplayName: Relic Crossbow
+		Tooltip: ""
+	}
+
+	Relic_Sword: {
+		DisplayName: Basilisk Blade
+		Tooltip: Sends forth a basilisk spirit head
+	}
+
+	Sand_Stone: {
+		DisplayName: Sandy Stone
+		Tooltip: ""
+	}
+
+	Scarlet_Longbow: {
+		DisplayName: Scarlet Longbow
+		Tooltip: ""
+	}
+
+	ScarletAxe: {
+		DisplayName: Scarlet Fury
+		Tooltip: ""
+	}
+
+	Skystone_Axe: {
+		DisplayName: Skystone Axe
+		Tooltip: ""
+	}
+
+	Skystone_Chainsaw: {
+		DisplayName: Skystone Chainsaw
+		Tooltip: ""
+	}
+
+	Skystone_Drill: {
+		DisplayName: Skystone Drill
+		Tooltip: ""
+	}
+
+	Skystone_Hammer: {
+		DisplayName: Skystone Hammer
+		Tooltip: ""
+	}
+
+	Skystone_Ore: {
+		DisplayName: Skystone
+		Tooltip: "'Weightless'"
+	}
+
+	Skystone_Pickaxe: {
+		DisplayName: Skystone Pickaxe
+		Tooltip: ""
+	}
+
+	Skystone_Repeater: {
+		DisplayName: Skystone Repeater
+		Tooltip: Summons extra feathers from the sky
+	}
+
+	Skystone_Staff: {
+		DisplayName: Skystone Staff
+		Tooltip: Creates deadly razorwinds
+	}
+
+	Skystone_Sword: {
+		DisplayName: Skystone Blade
+		Tooltip: ""
+	}
+
+	SkystoneBar: {
+		DisplayName: Skystone Bar
+		Tooltip: ""
+	}
+
+	Comet_Axe: {
+		DisplayName: Stellarite Axe
+		Tooltip: ""
+	}
+
+	Comet_Hammer: {
+		DisplayName: Stellarite Hammer
+		Tooltip: ""
+	}
+
+	Comet_Longbow: {
+		DisplayName: Stellarite Longbow
+		Tooltip:
+			'''
+			Fires a beam and two other arrows
+			Arrows fired by the bow will explode upon colliding with something
+			'''
+	}
+
+	Comet_Pickaxe: {
+		DisplayName: Stellarite Pickaxe
+		Tooltip: ""
+	}
+
+	Comet_Sniper: {
+		DisplayName: Stellarite Railblaster
+		Tooltip:
+			'''
+			Charges up a burst of high-powered comet slugs
+			Right click to release the stored up power early
+			Consumes multiple bullets per shot
+			'''
+	}
+
+	Comet_Staff: {
+		DisplayName: Stellarite Staff
+		Tooltip: Rains the fury of the heavens on your foes
+	}
+
+	Comet_Wrath: {
+		DisplayName: Comet Cleaver
+		Tooltip: "'Strike your foes with the fury of a star!'"
+	}
+
+	CometFragment: {
+		DisplayName: Comet Fragment
+		Tooltip: "'A fragment of unfathomable power'"
+	}
+
+	SunlitStormer: {
+		DisplayName: Sunlit Stormer
+		Tooltip: Fires multiple bullets and a sunlight beam
+	}
+
+	SunstormStrike: {
+		DisplayName: Sunlit Striker
+		Tooltip:
+			'''
+			Swinging the sword causes nearby enemies to be hit by solar slashes
+			Striking an enemy directly empowers the slashes for a short duration
+			'''
+	}
+
+	SunstruckBirdAura: {
+		DisplayName: Sunstruck Flare Strike
+		Tooltip: ""
+	}
+
+	SunstruckBlasterous: {
+		DisplayName: Sunstruck Blasterous
+		Tooltip: "'The sun dives deep within your enemies'"
+	}
+
+	SunstruckEssence: {
+		DisplayName: Sunstruck Essence
+		Tooltip: "'The gods of sun bestow such a wonderful power, don't they?'"
+	}
+
+	Lad: {
+		DisplayName: Glorious Master
+		Tooltip: "'-B. L. Argman'"
+	}
+
+	Soft_Sunrise_Item: {
+		DisplayName: Soft Sunrise
+		Tooltip: "'-B. L. Argman'"
+	}
+
+	Steampunk_Smeltery: {
+		DisplayName: Steampunk Smeltery
+		Tooltip: Allows mass production of metal bars and bricks
+	}
+
+	Maelstorm: {
+		DisplayName: Maelstrom
+		Tooltip:
+			'''
+			Converts all shot arrows into Wave Arrows
+			Wave Arrows will summon more arrows upon hitting an enemy
+			'''
+	}
+
+	Tungqua_GMG: {
+		DisplayName: T.G.M.G.
+		Tooltip: 50% chance not to consume ammo
+	}
+
+	Tungqua_Hammer: {
+		DisplayName: Tungqua Hammer
+		Tooltip: ""
+	}
+
+	Tungqua_Musket: {
+		DisplayName: Tungket
+		Tooltip: ""
+	}
+
+	Tungqua_Pickaxe: {
+		DisplayName: Tungqua Pickaxe
+		Tooltip: ""
+	}
+
+	Tungqua_Sickle: {
+		DisplayName: Tungqua Reaper
+		Tooltip: ""
+	}
+
+	Tungqua_Staff: {
+		DisplayName: Tungqua Staff
+		Tooltip: Casts tridents that create more tridents on enemy hits
+	}
+
+	Tungqua_Waraxe: {
+		DisplayName: Tungqua Axe
+		Tooltip: ""
+	}
+
+	Underground_Stone: {
+		DisplayName: Depth Stone
+		Tooltip: ""
+	}
+
+	UniversiumBar: {
+		DisplayName: Universium Bar
+		Tooltip: "'Out of this world'"
+	}
+
+	UniversiumBattleaxe: {
+		DisplayName: Universium Battleaxe
+		Tooltip: ""
+	}
+
+	UniversiumBow: {
+		DisplayName: Universium Energybow
+		Tooltip: Fires multiplying bolts of energy
+	}
+
+	UniversiumFlameShot: {
+		DisplayName: Universium Flameshot
+		Tooltip:
+			'''
+			Fires multiple flame blasts
+			Right click to launch cosmic oil out of the flamethrower
+			Enemies covered in oil that get hit with a flame blast will erupt into a fireball
+			50% chance not to consume ammo
+			'''
+	}
+
+	UniversiumHammer: {
+		DisplayName: Universium Hammer
+		Tooltip: ""
+	}
+
+	UniversiumOre: {
+		DisplayName: Universium
+		Tooltip: "'Interstellar'"
+	}
+
+	UniversiumPickaxe: {
+		DisplayName: Universium Pickaxe
+		Tooltip: ""
+	}
+
+	UniversiumRepeater: {
+		DisplayName: Universium Boltbow
+		Tooltip: Arrows fired move erratically
+	}
+
+	UniversiumSword: {
+		DisplayName: Universium Blade
+		Tooltip: ""
+	}
+
+	Universniper: {
+		DisplayName: Universium Replicator
+		Tooltip:
+			'''
+			Transforms bullets into fast bolts that retain most properties the orignial bullet had
+			Critical strikes swarm your target with bullets and will prevent hitting a critical strike on the next shot
+			'''
+	}
+
+	VarsiumCrystal: {
+		DisplayName: Varsium Crystal
+		Tooltip: "'Formed from crystallized hallowed matter infused with chaotic energy'"
+	}
+
+	VarsiumCrystalshot: {
+		DisplayName: Varsium Crystalshot
+		Tooltip: Fires multiple arrows and multiple splitting crystal shards
+	}
+
+	VarsiumShortblade: {
+		DisplayName: Varsium Swiftblade
+		Tooltip: Throws a seeking blade that creates chaining lasers on enemy hits
+	}
+
+	VarsiumStaff: {
+		DisplayName: Varsium Staff
+		Tooltip: Calls down a storm of various Varsium Projectiles
+	}
+
+	Water_Stone: {
+		DisplayName: Ocean Stone
+		Tooltip: ""
+	}
+
+	ArcanicDestruction: {
+		DisplayName: Star Spark
+		Tooltip:
+			'''
+			Fires a barrage of unstable sparks
+			If all the sparks from a single burst hit, an extra barrage of sparks will be summoned
+			'''
+	}
+
+	AU47: {
+		DisplayName: AU-47
+		Tooltip:
+			'''
+			Slightly innacurate
+			'You're too rich to consume ammo'
+			'''
+	}
+
+	BlackholeBuster: {
+		DisplayName: Blackhole Buster
+		Tooltip:
+			'''
+			Has a chance to launch a black hole grenade that explodes into bullets if it collides with a tile
+			Grenades explode into the ammo in your furthest down ammo slot
+			66% chance to not consume ammo
+			'''
+	}
+
+	Blasterbluss: {
+		DisplayName: Blasterbuss
+		Tooltip: Blasts your foes with lasers
+	}
+
+	BulletHell: {
+		DisplayName: Bullet Hell
+		Tooltip: ""
+	}
+
+	Chloro_Barrage: {
+		DisplayName: Chlorophyte Barrager
+		Tooltip:
+			'''
+			Has a chance to turn normal bullets into chlorophyte ones
+			25% chance not to consume ammo
+			'''
+	}
+
+	Clinger_Claymore: {
+		DisplayName: Clinger Claymore
+		Tooltip: Unleashes balls of cursed fire
+	}
+
+	CorruptionSentryStaff: {
+		DisplayName: Vile Spitter Staff
+		Tooltip: Summons a stationary Vile Spitter to help you in defense
+	}
+
+	CosmicPhotobeam: {
+		DisplayName: Cosmic Photobeam
+		Tooltip:
+			'''
+			Fires a burst of cosmic energy
+			Right click to fire a penetrating lance of energy
+			'''
+	}
+
+	Cosmobringer: {
+		DisplayName: Cosmobringer
+		Tooltip: "'Bring the heavens to the lands!'"
+	}
+
+	DartGun: {
+		DisplayName: Dartling Gun
+		Tooltip:
+			'''
+			50% chance not to consume ammo
+			'A Kiwi Ninja's weapon of choice!'
+			'''
+	}
+
+	DaughtersBlade: {
+		DisplayName: Heir of Luna
+		Tooltip:
+			'''
+			Swings in a directional arc
+			Hitting enemies builds up stacks of Lunar Grace
+			Beginning a new combo while holding right click will perform different effects depending on the amount of Lunar Grace you have accumulated
+			Low amounts cause a single empowered slash, while higher amounts cause you to throw the sword, which must be picked up again
+			'''
+	}
+
+	Draconic_Axe: {
+		DisplayName: Draconic Spinecrusher
+		Tooltip: Crushes enemy defense on hit
+	}
+
+	DragonHunter: {
+		DisplayName: Wormbane
+		Tooltip: Fires a worm decimating arrow
+	}
+
+	Dragons_Teeth: {
+		DisplayName: Blazing Jaw
+		Tooltip: Calls forth phantom dragon fangs upon striking an enemy
+	}
+
+	DragonsEye: {
+		DisplayName: Dragon's Eye
+		Tooltip: "'Great for impersonating devs!'"
+	}
+
+	Dragonslayer: {
+		DisplayName: Dragonslayer
+		Tooltip:
+			'''
+			Converts wooden arrows into Dragonslayer arrows
+			Dealing enough damage fires a swarm of seeking Dragonblood arrows
+			'Forged from blood and scales'
+			'''
+	}
+
+	EldritchFury: {
+		DisplayName: Eldritch Curse
+		Tooltip: ""
+	}
+
+	ElementalDream: {
+		DisplayName: Dream Abyssion
+		Tooltip:
+			'''
+			Releases a torrent of void and dream projectiles
+			'The void calls, will you answer it?'
+			'''
+	}
+
+	ElephantGun: {
+		DisplayName: Elephant Gun
+		Tooltip: Increases damage for a short time on every critical strike
+	}
+
+	Excaliber: {
+		DisplayName: Excaliber
+		Tooltip: ""
+	}
+
+	FlareChainGun: {
+		DisplayName: Flare Chain Gun
+		Tooltip: 50% chance to not consume ammo
+	}
+
+	GalacticSlicer: {
+		DisplayName: Galactic Slicer
+		Tooltip: ""
+	}
+
+	Granite_Vicer: {
+		DisplayName: Granite Vicer
+		Tooltip:
+			'''
+			Fires an energy laser
+			When below half health, a short range burst of lasers is fired instead
+			'''
+	}
+
+	Guardian1: {
+		DisplayName: Guardian
+		Tooltip: "'Only for those who are worthy'"
+	}
+
+	HA8196: {
+		DisplayName: HA-81
+		Tooltip:
+			'''
+			Fires in 3-round bursts
+			The second and third shot will be a crystal bullet
+			The third shot will also send out a spectre bolt
+			50% chance not to consume ammo
+			'Great for impersonating devs!'
+			'''
+	}
+
+	HellfireBlaster: {
+		DisplayName: Hellfire Blaster
+		Tooltip: Fires explosive phoenix rounds
+	}
+
+	Hellraiser: {
+		DisplayName: Hellraiser
+		Tooltip: ""
+	}
+
+	Ichor_Bow: {
+		DisplayName: Gilded Flesh
+		Tooltip: Converts wooden arrows into streams of ichor or ichor arrows
+	}
+
+	InfernalBlade: {
+		DisplayName: Infernal Blade
+		Tooltip:
+			'''
+			Fires an exploding sword blade
+			'Great for impersonating devs!'
+			'''
+	}
+
+	InfernalWrath: {
+		DisplayName: Infernal Wrath
+		Tooltip:
+			'''
+			Fires a sword beam that explodes into exploding shrapnel
+			'Great for impersonating devs!'
+			'''
+	}
+
+	KeyOfTheKingsLaw: {
+		DisplayName: Key to Heaven's Barracks
+		Tooltip: Conjures holy swords to strike your foes
+	}
+
+	Laser_Harp: {
+		DisplayName: Laser Harp
+		Tooltip: ""
+	}
+
+	Marblestaff: {
+		DisplayName: Marble Wand
+		Tooltip: Shoots out the powers of the gods
+	}
+
+	NebulaVanquisher: {
+		DisplayName: Nebula Vanquisher
+		Tooltip: Casts a swarm of nebula wisps and a powerful burst of short-ranged nebula energy
+	}
+
+	NightsShot: {
+		DisplayName: Night's Shot
+		Tooltip: ""
+	}
+
+	Ninetech: {
+		DisplayName: Ninetech
+		Tooltip: Fires a flurry of phantasmal and spectral projectiles
+	}
+
+	Pestillence: {
+		DisplayName: Pestillence
+		Tooltip: WARNING: May break some enemies.
+	}
+
+	PoseidonsTrident: {
+		DisplayName: Poseidon's Trident
+		Tooltip: Shoots a solid beam of water that splits into more streams
+	}
+
+	QuadBlade: {
+		DisplayName: Quad Blade
+		Tooltip:
+			'''
+			'The weapon of a true hero'
+			'Great for impersonating devs!'
+			'''
+	}
+
+	ShroomiteAssault: {
+		DisplayName: Mycel Blaster
+		Tooltip: Converts normal bullets into high velocity ones
+	}
+
+	ShroomiteUzi: {
+		DisplayName: Shroomzi
+		Tooltip: Converts normal bullets into high velocity ones
+	}
+
+	SolarAnnihilation: {
+		DisplayName: Solar Annihilation
+		Tooltip: Casts orbitting solar knives
+	}
+
+	SolusPierce: {
+		DisplayName: Solus Pierce
+		Tooltip: Calls down a flurry of spears upon sticking to an enemy
+	}
+
+	Staff_Of_Autumn: {
+		DisplayName: Staff of Autumn
+		Tooltip: Shoots a flurry of autumn leaves
+	}
+
+	Staff_Of_Seasons: {
+		DisplayName: Staff of Quad Divinity
+		Tooltip:
+			'''
+			Rapidly fires bursts of primal energy
+			Every fifth shot will instead release multiple debuffing elemental blasts
+			'''
+	}
+
+	Staff_Of_Spring: {
+		DisplayName: Staff of Spring
+		Tooltip: Casts a bolt of blooming energy
+	}
+
+	Staff_Of_Summer: {
+		DisplayName: Staff of Summer
+		Tooltip: Creates a flame circle that erupts into a flame geyser after a short time
+	}
+
+	Staff_Of_Winter: {
+		DisplayName: Staff of Winter
+		Tooltip: Casts down a flurry of snowflakes
+	}
+
+	StardustMassacre: {
+		DisplayName: Stardust Massacre
+		Tooltip:
+			'''
+			Forms a friendly Star Cell near the cursor
+			The cell will grow and then launch towards your cursor
+			'''
+	}
+
+	StormBlaster: {
+		DisplayName: Coil Cannon
+		Tooltip:
+			'''
+			Shoots chaining rays of electricity
+			The final hit in a chain creates a powerful explosion
+			'''
+	}
+
+	TerraShotgun: {
+		DisplayName: Terra Blaster
+		Tooltip: Fires ricocheting blasts of energy
+	}
+
+	TorturedEyeStaff: {
+		DisplayName: Tortured Eye Staff
+		Tooltip: Summons a stationary Tortured Eye to help you in defense
+	}
+
+	True_Copper_Shortsword: {
+		DisplayName: True Copper Shortsword
+		Tooltip: ""
+	}
+
+	True_Excaliber: {
+		DisplayName: True Excaliber
+		Tooltip: Fires two bullets along with an extra penetrating one
+	}
+
+	TrueNightsShot: {
+		DisplayName: True Night's Shot
+		Tooltip: ""
+	}
+
+	VAR: {
+		DisplayName: V.A.R.
+		Tooltip:
+			'''
+			Shoots in three round bursts
+			Only the first shot consumes ammo
+			The third round of each burst is a vortex rocket
+			'''
+	}
+
+	VoidTex_Rifle: {
+		DisplayName: Void Rifle
+		Tooltip:
+			'''
+			Fires powerful void lasers
+			'Great for impersonating devs!'
+			'''
+	}
+
+	VolcanicBlaze: {
+		DisplayName: Volcanic Blaze
+		Tooltip:
+			'''
+			Fires a sword beam that explodes into exploding shrapnel and fire
+			Causes a volcanic eruption at the cursor location
+			'Great for impersonating devs!'
+			'''
+	}
+
+	VolcanicWrath: {
+		DisplayName: Volcanic Wrath
+		Tooltip:
+			'''
+			Fires a sword beam that explodes into exploding shrapnel and fire
+			'Great for impersonating devs!'
+			'''
+	}
+
+	Vortex_Blaster: {
+		DisplayName: Vortexian Onyx
+		Tooltip: ""
+	}
+
+	VortexDestructor: {
+		DisplayName: Vortex Destructor
+		Tooltip:
+			'''
+			Fires a spread of extremely fast rockets
+			'Great for impersonating devs!'
+			'''
+	}
+
+	VortexSmasher: {
+		DisplayName: Vortex Smasher
+		Tooltip: Creates multiple homing vortex blades
+	}
+
+	WarpRifle: {
+		DisplayName: Warp Shot
+		Tooltip:
+			'''
+			Hitting a shot returns the bullet to the chamber
+			'Don't miss'
+			'''
+	}
+
+	Wyrm_Rune: {
+		DisplayName: Rune of Judgement
+		Tooltip: Calls upon the two that shall end the world
+	}
+
+	ArmageddonBell: {
+		DisplayName: Armageddon Bell
+		Tooltip:
+			'''
+			Fires a barrage of entropic energy
+			Hitting enemies with the energy builds up combo
+			If you have at least 250 combo, you can right click to unleash a devastating sound wave around you
+			Utilizing the sound wave will consume all combo and become more powerful with higher combo
+			'''
+	}
+
+	CreationBag: {
+		DisplayName: Treasure Bag (Creation)
+		Tooltip: <right>で開く
+	}
+
+	DestructionBag: {
+		DisplayName: Treasure Bag (Destruction)
+		Tooltip: <right>で開く
+	}
+
+	EyeOfCreation: {
+		DisplayName: Eye of Creation
+		Tooltip:
+			'''
+			Has a chance to create a comet portal on enemy hits
+			'It's staring at you'
+			'''
+	}
+
+	FallenSun: {
+		DisplayName: Falling Sun
+		Tooltip:
+			'''
+			Right click to create a Sunspot at your cursor's location, which reduces damage taken while you're inside of it
+			Striking an enemy creates a solar flare explosion, which will be stronger if you're in a Sunspot
+			'The sword wielded by Destruction's human form'
+			'''
+	}
+
+	FalloftheCosmos: {
+		DisplayName: Fall of the Cosmos
+		Tooltip:
+			'''
+			Requires a star but does not consume it
+			'Tear through the galaxy'
+			'''
+	}
+
+	FirstPrism: {
+		DisplayName: First Prism
+		Tooltip:
+			'''
+			Showers your enemies in multicolored light rays
+			'The Alpha'
+			'''
+	}
+
+	OrionFury: {
+		DisplayName: Orion Fury
+		Tooltip:
+			'''
+			'Forged from a radiant star'
+			Every 3rd shot will fire many stars
+			'''
+	}
+
+	Plaguebearer: {
+		DisplayName: Plaguebearer
+		Tooltip: ""
+	}
+
+	RisenMoon: {
+		DisplayName: Rising Moon
+		Tooltip: "'The sword wielded by Creation's human form'"
+	}
+
+	Wyvernscale: {
+		DisplayName: Wyvern Scale
+		Tooltip: "'Incredibly aerodynamic'"
+	}
+}
+
+Tiles: {
+	ArcaniumOreTile: {
+		MapEntry: Arcanium Ore
+	}
+
+	Ashen_Ore_Tile: {
+		MapEntry: Volcanic Ore
+	}
+
+	MoonstoneTile: {
+		MapEntry: Moonstone
+	}
+
+	Skystone_Ore_Tile: {
+		MapEntry: Skystone
+	}
+
+	UniversiumOreTile: {
+		MapEntry: Universium
+	}
+
+	VarsiumTile: {
+		MapEntry: Varsium Crystal
+	}
+
+	LadTile: {
+		MapEntry: Glorious Master
+	}
+
+	Soft_SunriseTile: {
+		MapEntry: Soft Sunrise
+	}
+
+	Steampunk_SmelteryTile: {
+		MapEntry: Steampunk Smeltery
+	}
+}
+
+NPCs: {
+	DuskbulbM: {
+		DisplayName: Duskbulb
+	}
+
+	DuskbulbR: {
+		DisplayName: Duskbulb
+	}
+
+	FlameFollower: {
+		DisplayName: Flame Follower
+	}
+
+	Galahis: {
+		DisplayName: Galahis
+	}
+
+	AquaWormBody: {
+		DisplayName: Creation
+	}
+
+	AquaWormHead: {
+		DisplayName: Creation
+
+		BossChecklistIntegration: {
+			EntryName: Creation and Destruction
+			SpawnInfo: Use a [i:5846]
+		}
+	}
+
+	AquaWormTail: {
+		DisplayName: Creation
+	}
+
+	InfernalGuardBody: {
+		DisplayName: Infernal Guardian
+	}
+
+	InfernalGuardHead: {
+		DisplayName: Infernal Guardian
+	}
+
+	InfernalGuardTail: {
+		DisplayName: Infernal Guardian
+	}
+
+	PumpkinWormBody: {
+		DisplayName: Destruction
+	}
+
+	PumpkinWormHead: {
+		DisplayName: Destruction
+	}
+
+	PumpkinWormTail: {
+		DisplayName: Destruction
+	}
+
+	SunstruckSlimer: {
+		DisplayName: Sunstruck Slimer
+	}
+}
+
+Projectiles: {
+	AbyssFireball: {
+		DisplayName: Abyss Fireball
+	}
+
+	AbyssionExplosion: {
+		DisplayName: Explosion
+	}
+
+	AbyssLaser: {
+		DisplayName: Abyss Laser
+	}
+
+	AbyssTentacle: {
+		DisplayName: Abyss Tentacle
+	}
+
+	AbyssWisp: {
+		DisplayName: Abyss Wisp
+	}
+
+	AccelAlph: {
+		DisplayName: Accelerator
+	}
+
+	AccelBolt: {
+		DisplayName: Starbolt
+	}
+
+	AmaterasuEcho: {
+		DisplayName: Echo
+	}
+
+	AmberArrow: {
+		DisplayName: Amber Arrow
+	}
+
+	AmberFragment: {
+		DisplayName: Amber Fragment
+	}
+
+	AmberShard: {
+		DisplayName: Amber Shard
+	}
+
+	Aquasickle: {
+		DisplayName: Aqua Scythe
+	}
+
+	Aquasickle2: {
+		DisplayName: Aqua Scythe
+	}
+
+	AquaSpear: {
+		DisplayName: Aquatic Spear
+	}
+
+	AquaSpear1: {
+		DisplayName: Aquatic Spear
+	}
+
+	AquastellarBubble: {
+		DisplayName: Bubble
+	}
+
+	AquastellarBubble1: {
+		DisplayName: Bubble
+	}
+
+	AquastellarStar: {
+		DisplayName: Aquastellar Sphere
+	}
+
+	AquastellarWormProjectile1: {
+		DisplayName: Aquastellar Sphere
+	}
+
+	AquastellarWormProjectile2: {
+		DisplayName: Aquastellar Bolt
+	}
+
+	ArcanicBolt: {
+		DisplayName: Arcanic Bolt
+	}
+
+	ArcaniumBolt: {
+		DisplayName: Arcanium Bolt
+	}
+
+	ArcaniumWisp: {
+		DisplayName: Arcanium Wisp
+	}
+
+	ArmorComet: {
+		DisplayName: Comet
+	}
+
+	ArrowBoom: {
+		DisplayName: Explosion
+	}
+
+	Ashen_Chainsaw: {
+		DisplayName: Ashen Chainsaw
+	}
+
+	Ashen_Drill: {
+		DisplayName: Ashen Drill
+	}
+
+	AshenExplosion: {
+		DisplayName: Explosion
+	}
+
+	AshenFireball: {
+		DisplayName: Fireball
+	}
+
+	BaneBullet: {
+		DisplayName: Bane Bullet
+	}
+
+	BaneExplosion: {
+		DisplayName: Explosion
+	}
+
+	BasiliskHead: {
+		DisplayName: Basilisk Head
+	}
+
+	Bell: {
+		DisplayName: Entropy
+	}
+
+	Bell2: {
+		DisplayName: Entropy
+	}
+
+	BellNote1: {
+		DisplayName: Entropic Note
+	}
+
+	BellNote2: {
+		DisplayName: Entropic Note
+	}
+
+	BellNote3: {
+		DisplayName: Entropic Note
+	}
+
+	BigLightBeam: {
+		DisplayName: Light Beam
+	}
+
+	BlackholeBuster: {
+		DisplayName: BlackholeBuster
+	}
+
+	BlackholeExplosion: {
+		DisplayName: Blackhole Grenade
+	}
+
+	BlackholeGrenade: {
+		DisplayName: Blackhole Grenade
+	}
+
+	BloodBolt: {
+		DisplayName: Blood Bolt
+	}
+
+	Bolt: {
+		DisplayName: Infinity Lightning
+	}
+
+	BreathSpawner: {
+		DisplayName: Breath Spawner
+	}
+
+	CelestBolt: {
+		DisplayName: Star Bolt
+	}
+
+	CelestDiskFriendly: {
+		DisplayName: Energy Disk
+	}
+
+	CelestLaser: {
+		DisplayName: Star Laser
+	}
+
+	CelestNova: {
+		DisplayName: Laser Portal
+	}
+
+	CelestNovaRanged: {
+		DisplayName: Nova
+	}
+
+	CelestStar: {
+		DisplayName: Star
+	}
+
+	CelestusIndicator: {
+		DisplayName: what even
+	}
+
+	ChaosBall: {
+		DisplayName: Chaos Ball
+	}
+
+	CleaverComet: {
+		DisplayName: Comet
+	}
+
+	CoilExplosion: {
+		DisplayName: Explosion
+	}
+
+	CoilLash: {
+		DisplayName: Coil Beam
+	}
+
+	Comet: {
+		DisplayName: Comet
+	}
+
+	Comet_Sniper: {
+		DisplayName: Stellarite Railblaster
+	}
+
+	Comet_Staff: {
+		DisplayName: Comet Staff
+	}
+
+	CometBeam: {
+		DisplayName: Comet Beam
+	}
+
+	CometBoom: {
+		DisplayName: Cosmic Comet
+	}
+
+	CometCircle: {
+		DisplayName: what even
+	}
+
+	CometPortal: {
+		DisplayName: Comet Portal
+	}
+
+	CometRail: {
+		DisplayName: Comet Slug
+	}
+
+	CorruptionBall: {
+		DisplayName: Vile Ball
+	}
+
+	CorruptionSentry: {
+		DisplayName: Vile Eater
+	}
+
+	CosBolt: {
+		DisplayName: Universe Bolt
+	}
+
+	CosBolt2: {
+		DisplayName: Universe Bolt
+	}
+
+	CosmicBeam: {
+		DisplayName: Cosmic Beam
+	}
+
+	CosmicLance: {
+		DisplayName: Cosmic Beam
+	}
+
+	CosmicRift: {
+		DisplayName: Rift
+	}
+
+	CosmobringerBeam: {
+		DisplayName: Sword Beam
+	}
+
+	CosmoComet: {
+		DisplayName: Cosmic Comet
+	}
+
+	CosmoComet2: {
+		DisplayName: Cosmic Meteor
+	}
+
+	CrescentPierce: {
+		DisplayName: Crescent Pierce
+	}
+
+	CRiftBoom: {
+		DisplayName: Explosion
+	}
+
+	CrimsonLaser: {
+		DisplayName: Eye Laser
+	}
+
+	CThing: {
+		DisplayName: Element
+	}
+
+	CursedCloud: {
+		DisplayName: Cursed Cloud
+	}
+
+	CursedFlameBlast: {
+		DisplayName: Cursed Flames
+	}
+
+	DaughterBeam: {
+		DisplayName: Light Beam
+	}
+
+	DaughtersBlade: {
+		DisplayName: Daughters Blade
+	}
+
+	DaughtersBladeBlade: {
+		DisplayName: Daughters Blade
+	}
+
+	DaughtersBladeExtra: {
+		DisplayName: Daughters Blade
+	}
+
+	DaughtersBladeExtraDamaging: {
+		DisplayName: Daughters Blade
+	}
+
+	DaughtersBladeThrown: {
+		DisplayName: Daughters Blade
+	}
+
+	DBoom: {
+		DisplayName: Daughter's Star
+	}
+
+	Death: {
+		DisplayName: Emperius Prisma
+	}
+
+	DiskMan: {
+		DisplayName: Element
+	}
+
+	Divine_Arrow: {
+		DisplayName: Divine Arrow
+	}
+
+	DivineBolt: {
+		DisplayName: Divine Bolt
+	}
+
+	DivineExplode: {
+		DisplayName: Divine Explosion
+	}
+
+	DivineExplodeLucis: {
+		DisplayName: Divine Explosion
+	}
+
+	DivineFlash: {
+		DisplayName: Divine Flash
+	}
+
+	DivineLaser: {
+		DisplayName: Divine Laser
+	}
+
+	DivineLaserLucis: {
+		DisplayName: Divine Laser
+	}
+
+	DivineWisp: {
+		DisplayName: Divine Wisp
+	}
+
+	DivineWispHoming: {
+		DisplayName: Divine Wisp
+	}
+
+	DMeteor: {
+		DisplayName: Meteor
+	}
+
+	DolphinRocket: {
+		DisplayName: Space Dolphin Rocket
+	}
+
+	DragonArrow: {
+		DisplayName: Dragonslayer Arrow
+	}
+
+	DragonBlast: {
+		DisplayName: Draconic Fire
+	}
+
+	DragonBloodArrow: {
+		DisplayName: Dragonblood Arrow
+	}
+
+	DragonBreath: {
+		DisplayName: Dragon's Breath
+	}
+
+	DragonExplosion: {
+		DisplayName: Dragon Explosion
+	}
+
+	Dragons_Claw: {
+		DisplayName: Dragon's Claw
+	}
+
+	DragonsEyeP: {
+		DisplayName: Dragon's Eye
+	}
+
+	dRazor: {
+		DisplayName: Infinity Saw
+	}
+
+	DreamFireball: {
+		DisplayName: Dream Fireball
+	}
+
+	DreamLaser: {
+		DisplayName: Dream Laser
+	}
+
+	DreamTentacle: {
+		DisplayName: Dream Tentacle
+	}
+
+	DreamWisp: {
+		DisplayName: Dream Wisp
+	}
+
+	DThing: {
+		DisplayName: Element
+	}
+
+	Duskbulb: {
+		DisplayName: Duskbulb
+	}
+
+	DuskbulbBoom: {
+		DisplayName: Duskbulb
+	}
+
+	DuskbulbR: {
+		DisplayName: Duskbulb
+	}
+
+	DuskPetal: {
+		DisplayName: Shadow Petal
+	}
+
+	DuskPetal1: {
+		DisplayName: Shadow Petal
+	}
+
+	DuskpetalBulb: {
+		DisplayName: Petal
+	}
+
+	DuskPetalRanged: {
+		DisplayName: Shadow Petal
+	}
+
+	EldBolt: {
+		DisplayName: Eldritch Bolt
+	}
+
+	Eldritch_Lance: {
+		DisplayName: Eldritch Lance
+	}
+
+	EldritchBolt: {
+		DisplayName: Eldritch Bolt
+	}
+
+	EldritchTentacle: {
+		DisplayName: Eldritch Tentacle
+	}
+
+	EldritchTentacle2: {
+		DisplayName: Eldritch Tentacle
+	}
+
+	ElectroWave: {
+		DisplayName: Electrolyte Wave
+	}
+
+	ElementalDisk: {
+		DisplayName: Elemental Disk
+	}
+
+	ElementiumHoming: {
+		DisplayName: Elemental Wisp
+	}
+
+	ElementLaser: {
+		DisplayName: ElementLaser
+	}
+
+	EnkinArrow: {
+		DisplayName: Enkin Arrow
+	}
+
+	EnkinArrow2: {
+		DisplayName: Enkin Arrow
+	}
+
+	EnkinBall: {
+		DisplayName: Enkin Fireball
+	}
+
+	EnkinChainExplosion: {
+		DisplayName: Flame Ball
+	}
+
+	EnkinExplosion: {
+		DisplayName: Explosion
+	}
+
+	EnkinStaffExplosion: {
+		DisplayName: Explosion
+	}
+
+	EnkinStaffFireball: {
+		DisplayName: Fireball
+	}
+
+	EThing: {
+		DisplayName: Element
+	}
+
+	EyeOfCreationP: {
+		DisplayName: Eye of Creation
+	}
+
+	EZ: {
+		DisplayName: EZ
+	}
+
+	Fang: {
+		DisplayName: Dragon Fang
+	}
+
+	FangBoom: {
+		DisplayName: Fang
+	}
+
+	FearScythe: {
+		DisplayName: Plauge Scythe
+	}
+
+	FireballBoom: {
+		DisplayName: Holy Blast
+	}
+
+	FireboltHostile: {
+		DisplayName: Firebolt
+	}
+
+	FireSpirit: {
+		DisplayName: Fire Spirit
+	}
+
+	FirestormDestruction: {
+		DisplayName: Firestorm
+	}
+
+	Flame_Beam: {
+		DisplayName: Flame Beam
+	}
+
+	FlameArrow: {
+		DisplayName: Flametorrent Arrow
+	}
+
+	FlameArrow2: {
+		DisplayName: Flametorrent Arrow
+	}
+
+	FlameArrow3: {
+		DisplayName: Flametorrent Arrow
+	}
+
+	Flameball: {
+		DisplayName: Flame Ball
+	}
+
+	Flameball1: {
+		DisplayName: Flame Ball
+	}
+
+	FlameCircle: {
+		DisplayName: Flame Circle
+	}
+
+	FlameCircleExplosion: {
+		DisplayName: Flame Circle
+	}
+
+	FlameFollowerFriendly: {
+		DisplayName: Flame Follower
+	}
+
+	Flameshot: {
+		DisplayName: Flame Shot
+	}
+
+	FlareArrow: {
+		DisplayName: Flare Arrow
+	}
+
+	FlareBall: {
+		DisplayName: Flare Ball
+	}
+
+	FlareBoom: {
+		DisplayName: Holy Flare
+	}
+
+	FlareBoom1: {
+		DisplayName: Flare Ball
+	}
+
+	GaiaWisp: {
+		DisplayName: Wisp
+	}
+
+	GalacticBeam: {
+		DisplayName: Galactic Beam
+	}
+
+	GalacticBeam1: {
+		DisplayName: Galactic Beam
+	}
+
+	GalahisIndicatorBeam: {
+		DisplayName: Indicator Beam
+	}
+
+	GalahisLaser: {
+		DisplayName: Galahis Laser
+	}
+
+	GalahisSword: {
+		DisplayName: Galahis Sword
+	}
+
+	Genobulb: {
+		DisplayName: Genocide Bulb
+	}
+
+	GenocideArrow: {
+		DisplayName: Genocide Arrow
+	}
+
+	GraniteLaser: {
+		DisplayName: Granite Laser
+	}
+
+	GraniteLaser2: {
+		DisplayName: Granite Laser
+	}
+
+	GreenBolt: {
+		DisplayName: Green Bolt
+	}
+
+	Guardian1: {
+		DisplayName: Guardian Alpha
+	}
+
+	HadesExplosion: {
+		DisplayName: Fireball
+	}
+
+	HadesFire: {
+		DisplayName: Fireball
+	}
+
+	HealingEnergy: {
+		DisplayName: Healing Energy
+	}
+
+	HeatBeam: {
+		DisplayName: Heat Beam
+	}
+
+	HellfireBullet: {
+		DisplayName: Hellfire Bullet
+	}
+
+	HellfireExplosion: {
+		DisplayName: Hellfire Bullet
+	}
+
+	HexBolt: {
+		DisplayName: Hexxing Bolt
+	}
+
+	HexExplosion: {
+		DisplayName: Explosion
+	}
+
+	HolyBeam1: {
+		DisplayName: Radiant Laser
+	}
+
+	HolyBeam2: {
+		DisplayName: Radiant Laser
+	}
+
+	HolyBlast: {
+		DisplayName: Holy Blast
+	}
+
+	HolyFlame: {
+		DisplayName: Holy Fire
+	}
+
+	HolyFlare: {
+		DisplayName: Holy Flare
+	}
+
+	HyperComet: {
+		DisplayName: Hypercharged Comet
+	}
+
+	Ind: {
+		DisplayName: Radiant Laser
+	}
+
+	InfernalBlade1: {
+		DisplayName: Infernal Beam
+	}
+
+	InfernalBlade2: {
+		DisplayName: Infernal Beam
+	}
+
+	InfernalBlade3: {
+		DisplayName: Infernal Beam
+	}
+
+	InfernalBoom: {
+		DisplayName: Infernal Beam
+	}
+
+	InfernalShrapnel: {
+		DisplayName: Infernal Shrapnel
+	}
+
+	InfernalShrapnelBoom: {
+		DisplayName: Infernal Shrapnel
+	}
+
+	Infinity_Rocket: {
+		DisplayName: Infinity Rocket
+	}
+
+	InfinityBlast: {
+		DisplayName: Infinity Blast
+	}
+
+	InfinityBolt: {
+		DisplayName: Infinity Bolt
+	}
+
+	InfinityBolt2: {
+		DisplayName: Infinity Bolt
+	}
+
+	InfinityCircle: {
+		DisplayName: Endless Thesis
+	}
+
+	InfinityComet: {
+		DisplayName: Comet
+	}
+
+	InfinityEnergy: {
+		DisplayName: Infinity Energy
+	}
+
+	InfinityEnergy2: {
+		DisplayName: Infinity Energy
+	}
+
+	InfinityExplode: {
+		DisplayName: Infinity Explosion
+	}
+
+	InfinityExplodeCrash: {
+		DisplayName: Infinity Explosion
+	}
+
+	InfinityFireball: {
+		DisplayName: Infinity Fireball
+	}
+
+	InfinityFireballM: {
+		DisplayName: Infinity Fireball
+	}
+
+	InfinityHoming: {
+		DisplayName: Primal Wisp
+	}
+
+	InfinityLaser: {
+		DisplayName: Infinty Laser
+	}
+
+	InfinityLong: {
+		DisplayName: Infinity Blast
+	}
+
+	InfinityThing: {
+		DisplayName: Infinity Blob
+	}
+
+	InfinityWisp: {
+		DisplayName: Infinity Wisp
+	}
+
+	KeyOfTheKingsLaw: {
+		DisplayName: Key to the Barracks of Heaven
+	}
+
+	King: {
+		DisplayName: King
+	}
+
+	KingSlash: {
+		DisplayName: Light Blade
+	}
+
+	KingSword: {
+		DisplayName: Light Blade
+	}
+
+	LavaBlob: {
+		DisplayName: Lava Blob
+	}
+
+	LavaQuake: {
+		DisplayName: Shockwave
+	}
+
+	LavaSpear: {
+		DisplayName: Lava Spear
+	}
+
+	Lazor: {
+		DisplayName: Laser
+	}
+
+	Leaf: {
+		DisplayName: Leaf
+	}
+
+	LightArrow: {
+		DisplayName: Light Arrow
+	}
+
+	LightArrow2: {
+		DisplayName: Light Arrow
+	}
+
+	LightBeam: {
+		DisplayName: Light Beam
+	}
+
+	LightBolt: {
+		DisplayName: Light Bolt
+	}
+
+	LightBomb: {
+		DisplayName: Light Bomb
+	}
+
+	Lightbow: {
+		DisplayName: Light Bow
+	}
+
+	LightComet: {
+		DisplayName: Light Comet
+	}
+
+	LightningBoom: {
+		DisplayName: Lightning
+	}
+
+	LightningBoomI: {
+		DisplayName: Infinity Lightning
+	}
+
+	LightningStrike: {
+		DisplayName: Lightning
+	}
+
+	LunarBeam: {
+		DisplayName: Void Beam
+	}
+
+	Lunarenergy: {
+		DisplayName: Lunar Storm
+	}
+
+	LunarFlame: {
+		DisplayName: Lunar Fire
+	}
+
+	MagicCometBeam: {
+		DisplayName: Comet Beam
+	}
+
+	MagicVarsCrystal: {
+		DisplayName: Varsium Crystal
+	}
+
+	MagmaBlob: {
+		DisplayName: Magma Blob
+	}
+
+	MagQuake: {
+		DisplayName: Shockwave
+	}
+
+	MeleeComet: {
+		DisplayName: Comet
+	}
+
+	MeteorMan: {
+		DisplayName: Inferno
+	}
+
+	MiniAquaBubble: {
+		DisplayName: Bubble
+	}
+
+	MiniHyperComet: {
+		DisplayName: Hypercharged Comet
+	}
+
+	MiningLaser: {
+		DisplayName: Mining Laser
+	}
+
+	MiniStardustMan: {
+		DisplayName: Star Cell
+	}
+
+	Minisun: {
+		DisplayName: Miniature Sun
+	}
+
+	Moonblade: {
+		DisplayName: Lunar Blade
+	}
+
+	MoonBomb: {
+		DisplayName: Moonlight Bomb
+	}
+
+	MoonBombExplosion: {
+		DisplayName: Explosion
+	}
+
+	MoonHeart: {
+		DisplayName: Ascension Heart
+	}
+
+	MoonStar: {
+		DisplayName: Star
+	}
+
+	MurkynBeam: {
+		DisplayName: Murkyn Beam
+	}
+
+	MurkynShuriken: {
+		DisplayName: Murkyn Shuriken
+	}
+
+	NebulaWave: {
+		DisplayName: Nebula Wave
+	}
+
+	NebulaWisp: {
+		DisplayName: Nebula Particle
+	}
+
+	NightmareTentacle: {
+		DisplayName: Nightmare Tentacle
+	}
+
+	NightmareTentacleArmor: {
+		DisplayName: Nightmare Tentacle
+	}
+
+	PhantasmBlast: {
+		DisplayName: Phantasm Blast
+	}
+
+	PhantasmBolt: {
+		DisplayName: Phantasmal Bolt
+	}
+
+	PhantasmBolt2: {
+		DisplayName: Phantasmal Bolt
+	}
+
+	PhantasmEye: {
+		DisplayName: Phantasmal Eye
+	}
+
+	PlaugeExplosion: {
+		DisplayName: Plauge Explosion
+	}
+
+	PlaugeScythe: {
+		DisplayName: Plauge Scythe
+	}
+
+	PlaugeScythe1: {
+		DisplayName: Plauge Scythe
+	}
+
+	PosTrident: {
+		DisplayName: Trident
+	}
+
+	PrimalEnergy: {
+		DisplayName: Primal Energy
+	}
+
+	PrismBeam: {
+		DisplayName: Prism Laser
+	}
+
+	PrismBeam2: {
+		DisplayName: Prism Laser
+	}
+
+	ProjectorWave: {
+		DisplayName: Projector Wave
+	}
+
+	QuadEnergy: {
+		DisplayName: Primal Energy
+	}
+
+	Radia: {
+		DisplayName: Radia
+	}
+
+	Radia2: {
+		DisplayName: Radia
+	}
+
+	RadiaLaser: {
+		DisplayName: Divine Laser
+	}
+
+	RadiantBig: {
+		DisplayName: RADIANT
+	}
+
+	RadiantBlue: {
+		DisplayName: Fortitude Blast
+	}
+
+	RadiantBolt: {
+		DisplayName: Solar Flare
+	}
+
+	RadiantBolt1: {
+		DisplayName: Solar Flare
+	}
+
+	RadiantBolt2: {
+		DisplayName: Solar Flare
+	}
+
+	RadiantSpark: {
+		DisplayName: Radiant Spark
+	}
+
+	RadiantSpark2: {
+		DisplayName: Radiant Spark
+	}
+
+	RadiantSpark3: {
+		DisplayName: Radiant Spark
+	}
+
+	RainbowBounce: {
+		DisplayName: Rainbounce
+	}
+
+	RayTracerBeam: {
+		DisplayName: Beam
+	}
+
+	RazorWind: {
+		DisplayName: Razorwind
+	}
+
+	RedBeam: {
+		DisplayName: Red Beam
+	}
+
+	RedExplosion: {
+		DisplayName: Red Beam
+	}
+
+	Rift: {
+		DisplayName: Rift
+	}
+
+	Riftbeam: {
+		DisplayName: Rift Laser
+	}
+
+	Riftbringer: {
+		DisplayName: Riftbringer
+	}
+
+	RiftExplosion: {
+		DisplayName: Lunar Rift
+	}
+
+	ScarletAxe: {
+		DisplayName: Scarlet Fury
+	}
+
+	ScarletOrb: {
+		DisplayName: Scarlet Orb
+	}
+
+	SelenianSlicerBoom: {
+		DisplayName: Selenian Slicer
+	}
+
+	ShadowflameExplosion: {
+		DisplayName: Demonic Explosion
+	}
+
+	SkyFeather: {
+		DisplayName: Feather
+	}
+
+	Skystone_Chainsaw: {
+		DisplayName: Skystone Chainsaw
+	}
+
+	Skystone_Drill: {
+		DisplayName: Skystone Drill
+	}
+
+	Snowflake: {
+		DisplayName: Snowflake
+	}
+
+	SolarBeam: {
+		DisplayName: Solar Beam
+	}
+
+	SolarBlade: {
+		DisplayName: Solar Knife
+	}
+
+	SolarBladeMaker: {
+		DisplayName: Solar Blade
+	}
+
+	SolarBoom: {
+		DisplayName: Solar Flare
+	}
+
+	SolusPierce: {
+		DisplayName: Solus Pierce
+	}
+
+	SolusPierce2: {
+		DisplayName: Solus Pierce
+	}
+
+	Soul_Beam: {
+		DisplayName: Soul Beam
+	}
+
+	Soulball: {
+		DisplayName: Soul Ball
+	}
+
+	Soulball1: {
+		DisplayName: Soul Ball
+	}
+
+	SoulExtractinator: {
+		DisplayName: Radia
+	}
+
+	Soulshot: {
+		DisplayName: Soul Shot
+	}
+
+	SpecBlue: {
+		DisplayName: Infinty Laser
+	}
+
+	SpecGreen: {
+		DisplayName: Infinty Laser
+	}
+
+	SpecOrange: {
+		DisplayName: Infinty Laser
+	}
+
+	SpecPurple: {
+		DisplayName: Infinty Laser
+	}
+
+	SpecRed: {
+		DisplayName: Infinty Laser
+	}
+
+	SpecYellow: {
+		DisplayName: Infinty Laser
+	}
+
+	SpringBolt: {
+		DisplayName: Bloom Energy
+	}
+
+	SpringBolt2: {
+		DisplayName: Bloom Energy
+	}
+
+	StaffComet: {
+		DisplayName: Comet
+	}
+
+	StaffComet2: {
+		DisplayName: Comet
+	}
+
+	Starburst: {
+		DisplayName: Starburst
+	}
+
+	StardustExplosion: {
+		DisplayName: Stardust Field
+	}
+
+	StardustMan: {
+		DisplayName: Star Cell
+	}
+
+	StarforceWhip: {
+		DisplayName: Starforce Energywhip
+	}
+
+	StarHeal: {
+		DisplayName: Healing Energy
+	}
+
+	StarHeartHeal: {
+		DisplayName: Healing Energy
+	}
+
+	StarHeartHealBig: {
+		DisplayName: Healing Energy
+	}
+
+	StarHeartWisp: {
+		DisplayName: Wisp
+	}
+
+	StarlightDagger: {
+		DisplayName: Star Fang
+	}
+
+	StarShard: {
+		DisplayName: Star Shard
+	}
+
+	StarSpark: {
+		DisplayName: Spark
+	}
+
+	StellarBlade: {
+		DisplayName: Stellar Blade
+	}
+
+	StellarBoom: {
+		DisplayName: Stellar Slash
+	}
+
+	StellarStrike: {
+		DisplayName: Stellar Slash
+	}
+
+	StrikeNova: {
+		DisplayName: Nova
+	}
+
+	SunBeam: {
+		DisplayName: Sun Ray
+	}
+
+	SunBoom: {
+		DisplayName: Sun Ray
+	}
+
+	SunL: {
+		DisplayName: Fireball
+	}
+
+	SunLaser: {
+		DisplayName: Sun Laser
+	}
+
+	SunLaserSpawner: {
+		DisplayName: Sun
+	}
+
+	Sunspot: {
+		DisplayName: Sunspot
+	}
+
+	Sunstrike: {
+		DisplayName: Sunstrike
+	}
+
+	SunstruckBlasterous: {
+		DisplayName: Sunstruck Blasterous
+	}
+
+	SunstruckFlare: {
+		DisplayName: Sunstruck Flare
+	}
+
+	SunstruckFlareExplosion: {
+		DisplayName: Explosion
+	}
+
+	SunstruckFlareOrb: {
+		DisplayName: Sunstruck Flare Orb
+	}
+
+	TCSSP: {
+		DisplayName: True Copper Shortsword
+	}
+
+	TerraBlast: {
+		DisplayName: Terra Blast
+	}
+
+	TerraShard: {
+		DisplayName: Terra Shard
+	}
+
+	TorturedEye: {
+		DisplayName: Tortured Eye
+	}
+
+	True_Copper_Shortsword_Stab: {
+		DisplayName: True Copper Shortsword
+	}
+
+	TrueLight: {
+		DisplayName: Light Bullet
+	}
+
+	TrueNight: {
+		DisplayName: Night Bullet
+	}
+
+	TThing: {
+		DisplayName: Element
+	}
+
+	TungquaTrident: {
+		DisplayName: Trident
+	}
+
+	TungquaTrident2: {
+		DisplayName: Trident
+	}
+
+	Ultranet: {
+		DisplayName: Ultranet
+	}
+
+	UnivBolt: {
+		DisplayName: Universe Bolt
+	}
+
+	UnivBolt2: {
+		DisplayName: Universe Bolt
+	}
+
+	UnivBoom: {
+		DisplayName: Universium Explosion
+	}
+
+	UniverseFlame: {
+		DisplayName: Universe Flame
+	}
+
+	UniverseFlame2: {
+		DisplayName: Universe Flame
+	}
+
+	UniversiumOil: {
+		DisplayName: Oil
+	}
+
+	UniversiumSpawner: {
+		DisplayName: Universium Spawner
+	}
+
+	VarsCrystal: {
+		DisplayName: Varsium Crystal
+	}
+
+	VarsiumLaserBlade: {
+		DisplayName: Varsium Laser
+	}
+
+	VarsiumShortblade: {
+		DisplayName: Varsium Swiftblade
+	}
+
+	VarsLaser: {
+		DisplayName: Varsium Laser
+	}
+
+	VarsShard: {
+		DisplayName: Varsium Crystal
+	}
+
+	VarsShardMagic: {
+		DisplayName: Varsium Crystal
+	}
+
+	VOnyx: {
+		DisplayName: Vortexian Onyx
+	}
+
+	VOnyxBoom: {
+		DisplayName: Vortexian Onyx
+	}
+
+	Vortex_Blade: {
+		DisplayName: Vortex Blade
+	}
+
+	Vortex_Rocket: {
+		DisplayName: Vortex Rocket
+	}
+
+	WarpReload: {
+		DisplayName: Warp Reload
+	}
+
+	Water_Arrow: {
+		DisplayName: Tidal Arrow
+	}
+
+	WaterArrow2: {
+		DisplayName: Tidal Arrow
+	}
+
+	WaterBeam: {
+		DisplayName: Water Beam
+	}
+
+	WhiteBlob: {
+		DisplayName: Light Blob
+	}
+
+	WyvernBolt: {
+		DisplayName: Wyvern Bolt
+	}
+
+	YellowLaser: {
+		DisplayName: Infinty Laser
+	}
+
+	ZeusBolt: {
+		DisplayName: Bolt
+	}
+
+	RainbowRazor: {
+		DisplayName: Infinity Saw
+	}
+
+	VOrb: {
+		DisplayName: V Orb
+	}
+
+	SunRay: {
+		DisplayName: Sun Ray
+	}
+
+	SunOrb: {
+		DisplayName: Sun Orb
+	}
+
+	RAY: {
+		DisplayName: R A Y
+	}
+}
+
+Configs: {
+	EchoesConfigVanillaTweaks: {
+		RallyRecipe: {
+			Tooltip: Enables a recipe for the Rally, requiring 20 Marble Blocks, 20 Granite Blocks, and 20 Cobwebs
+			Label: Rally Recipe
+		}
+
+		PicksawRecipe: {
+			Tooltip: Enables a recipe for the Picksaw, requiring a Chlorophyte Pickaxe and eight Beetle Husks
+			Label: Picksaw Recipe
+		}
+
+		MoonLordCosmicFlame: {
+			Tooltip: Certain attacks from the Moon Lord inflict Cosmic Flame on the player
+			Label: Moon Lord inflicts Cosmic Flame
+		}
+
+		DisplayName: Vanilla Tweaks
+	}
+}
+
+BossChecklist: {
+	Galahis: {
+		GalahisSpawnInfo: Kill 3 Sunstruck Slimers in the desert during the day.
+		GalahisDespawn: Kill 3 Sunstruck Slimers in the desert during the day.
+	}
+
+	Wyrms: {
+		WyrmsName: Creation and Destruction
+		WyrmsSpawnInfo: Use a [i:EchoesoftheAncients/Wyrm_Rune]
+	}
+}
+

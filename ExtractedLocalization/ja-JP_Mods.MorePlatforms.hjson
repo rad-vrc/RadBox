@@ -1,0 +1,72 @@
+Items: {
+	AsphaltPlatformItem: {
+		DisplayName: アスファルトの足場
+		Tooltip: 走る速度を上昇させる
+	}
+
+	CrimbrickPlatform: {
+		DisplayName: クリムストーンのレンガの足場
+		Tooltip: クリムストーンのレンガで作られた
+	}
+
+	DirtPlatform: {
+		DisplayName: 土の足場
+		Tooltip: 土で作られた
+	}
+
+	EbonbrickPlatform: {
+		DisplayName: エボンストーンのレンガの足場
+		Tooltip: エボンストーンのレンガで作られた
+	}
+
+	InfusedHoneyPlatform: {
+		DisplayName: はちみつ入りの足場
+		Tooltip: 「はちみつの中で泳ぐような感覚！」
+	}
+
+	MudPlatform: {
+		DisplayName: 泥の足場
+		Tooltip: 泥で作られた
+	}
+
+	PearlbrickPlatform: {
+		DisplayName: パールストーンのレンガの足場
+		Tooltip: パールストーンのレンガで作られた
+	}
+
+	PooPlatform: {
+		DisplayName: うんちの足場
+		Tooltip: 「君、なんか匂うんだけど...なんで？」
+	}
+
+	RainbowbrickPlatformItem: {
+		DisplayName: 虹のレンガの足場
+		Tooltip: 「虹を歩くようだ‥」
+	}
+
+	RedbrickPlatform: {
+		DisplayName: 赤レンガの足場
+		Tooltip: 赤いレンガで作られた
+	}
+
+	SandbrickPlatform: {
+		DisplayName: 砂レンガの足場
+		Tooltip: 砂のレンガで作られた
+	}
+
+	StonePlatform: {
+		DisplayName: 石の足場
+		Tooltip: 石で作られた
+	}
+
+	CandyCanePlatformItem: {
+		DisplayName: キャンディの足場
+		Tooltip: 「赤くて陽気だ」
+	}
+
+	GreenCandyCanePlatformItem: {
+		DisplayName: キャンディの足場（緑）
+		Tooltip: 「緑で陽気だ」
+	}
+}
+

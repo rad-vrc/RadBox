@@ -1,0 +1,783 @@
+Buffs: {
+	AmmoReservationBuff: {
+		DisplayName: Ammo Reservation Charm Buff
+		Description: 20% chance to not consume ammo
+	}
+
+	ArcheryBuff: {
+		DisplayName: Archery Charm Buff
+		Description: 20% increased arrow speed and damage
+	}
+
+	BattleBuff: {
+		DisplayName: Battle Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	BuilderBuff: {
+		DisplayName: Builder Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	CalmingBuff: {
+		DisplayName: Calming Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	CrateBuff: {
+		DisplayName: Crate Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	DangersenseBuff: {
+		DisplayName: Dangersense Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	EnduranceBuff: {
+		DisplayName: Endurance Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	FeatherfallBuff: {
+		DisplayName: Featherfall Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	FishingBuff: {
+		DisplayName: Fishing Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	FlipperBuff: {
+		DisplayName: Flipper Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	GillsBuff: {
+		DisplayName: Gills Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	GravitationBuff: {
+		DisplayName: Gravitation Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	GreaterLuckBuff: {
+		DisplayName: Greater Luck Charm Buff
+		Description: Lesser Luck
+	}
+
+	HeartreachBuff: {
+		DisplayName: Heartreach Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	HunterBuff: {
+		DisplayName: Hunter Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	InfernoBuff: {
+		DisplayName: Inferno Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	InvisibilityBuff: {
+		DisplayName: Invisibility Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	IronskinBuff: {
+		DisplayName: Ironskin Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	LesserLuckBuff: {
+		DisplayName: Lesser Luck Charm Buff
+		Description: Lesser Luck
+	}
+
+	LifeforceBuff: {
+		DisplayName: Lifeforce Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	LovestruckBuff: {
+		DisplayName: Lovestruck Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	LuckBuff: {
+		DisplayName: Luck Charm Buff
+		Description: Luck
+	}
+
+	MagicPowerBuff: {
+		DisplayName: Magic Power Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	ManaRegenerationBuff: {
+		DisplayName: ManaRegeneration Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	MiningBuff: {
+		DisplayName: Mining Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	NightOwlBuff: {
+		DisplayName: Night Owl Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	ObsidianSkinBuff: {
+		DisplayName: Obsidian Skin Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	RageBuff: {
+		DisplayName: Rage Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	RegenerationBuff: {
+		DisplayName: Regeneration Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	ShineBuff: {
+		DisplayName: Shine Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	SonarBuff: {
+		DisplayName: Sonar Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	SpelunkerBuff: {
+		DisplayName: Spelunker Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	StinkBuff: {
+		DisplayName: Stink Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	SummoningBuff: {
+		DisplayName: Summoning Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	SwiftnessBuff: {
+		DisplayName: Swiftness Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	ThornsBuff: {
+		DisplayName: Thorns Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	TitanBuff: {
+		DisplayName: Titan Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	WarmthBuff: {
+		DisplayName: Warmth Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	WaterWalkingBuff: {
+		DisplayName: Water Walking Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	WrathBuff: {
+		DisplayName: Wrath Charm Buff
+		Description: AAAAAAAAAAAAAAAAAAAA
+	}
+
+	AttackCharmBuff: {
+		DisplayName: Attack Charm Buff
+		Description: Battle, Rage, Titan, Wrath
+	}
+
+	AwkwardCharmBuff: {
+		DisplayName: Awkward Charm Buff
+		Description: Builder, Mining, Lovestruck, Stinky
+	}
+
+	DefensiveCharmBuff: {
+		DisplayName: Defensive Charm Buff
+		Description: Endurance, Inferno, Ironskin, Thorns, Heartreach, Lifeforce, Mana Regeneration, Regeneration, Calm, Invisibility, Warmth
+	}
+
+	FishermanCharmBuff: {
+		DisplayName: Fisherman Charm Buff
+		Description: Crate, Fishing, Sonar
+	}
+
+	GhostyCharmBuff: {
+		DisplayName: Ghosty Charm Buff
+		Description: Calm, Invisibility, Warmth
+	}
+
+	HealthyCharmBuff: {
+		DisplayName: Healthy Charm Buff
+		Description: Heartreach, Lifeforce, Mana Regeneration, Regeneration
+	}
+
+	LuckyCharmBuff: {
+		DisplayName: Lucky Charm Buff
+		Description: Super Luck
+	}
+
+	MovementCharmBuff: {
+		DisplayName: Movement Charm Buff
+		Description: Featherfall, Gravitation, Swiftness
+	}
+
+	OceanCharmBuff: {
+		DisplayName: Ocean Charm Buff
+		Description: Crate, Fishing, Sonar, Flipper, Gills, Obsidian Skin, Water Walking
+	}
+
+	OmniCharmBuff: {
+		DisplayName: Omni-Charm Buff
+		Description:
+			'''
+			Endurance, Inferno, Ironskin, Thorns, Heartreach, Lifeforce, Mana Regeneration, Regeneration, Calm, Invisibility, Warmth, 
+			Crate, Fishing, Sonar, Flipper, Gills, Obsidian Skin, Water Walking, 
+			Dangersense, Hunter, Night Owl, Shine, Spelunker, Featherfall, Gravitation, Swiftness 
+			Battle, Rage, Titan, Wrath, Ammo Reservation, Archery, Magic Power, Summoning 
+			Greatest Luck, Builder, Lovestruck, Mining, Stinky
+			'''
+	}
+
+	RangedCharmBuff: {
+		DisplayName: Ranged Charm Buff
+		Description: Ammo Reservation, Archery, Magic Power, Summoning
+	}
+
+	SafetyCharmBuff: {
+		DisplayName: Safety Charm Buff
+		Description: Endurance, Inferno, Ironskin, Thorns
+	}
+
+	SpeedRunnerCharmBuff: {
+		DisplayName: Speed Runner Charm Buff
+		Description: Dangersense, Hunter, Night Owl, Shine, Spelunker, Featherfall, Gravitation, Swiftness
+	}
+
+	VisionCharmBuff: {
+		DisplayName: Vision Charm Buff
+		Description: Dangersense, Hunter, Night Owl, Shine, Spelunker
+	}
+
+	WarCharmBuff: {
+		DisplayName: War Charm Buff
+		Description: Battle, Rage, Titan, Wrath, Ammo Reservation, Archery, Magic Power, Summoning
+	}
+
+	WaterCharmBuff: {
+		DisplayName: Water Charm Buff
+		Description: Flipper, Gills, Obsidian Skin, Water Walking
+	}
+
+	WeirdCharmBuff: {
+		DisplayName: Weird Charm Buff
+		Description: Greatest Luck, Builder, Lovestruck, Mining, Stinky
+	}
+}
+
+Items: {
+	AmmoReservationCharm: {
+		DisplayName: Ammo Reservation Charm
+		Tooltip: 20% chance to not consume ammo
+	}
+
+	ArcheryCharm: {
+		DisplayName: Archery Charm
+		Tooltip: 20% increased arrow speed and damage
+	}
+
+	BattleCharm: {
+		DisplayName: Battle Charm
+		Tooltip: Increases enemy spawn rate
+	}
+
+	BuilderCharm: {
+		DisplayName: Builder Charm
+		Tooltip: Increases placement speed and range
+	}
+
+	CalmingCharm: {
+		DisplayName: Calming Charm
+		Tooltip: Decreases enemy spawn rate
+	}
+
+	CrateCharm: {
+		DisplayName: Crate Charm
+		Tooltip: Increases chance to get a crate
+	}
+
+	DangersenseCharm: {
+		DisplayName: Dangersense Charm
+		Tooltip: Allows you to see nearby danger sources
+	}
+
+	EnduranceCharm: {
+		DisplayName: Endurance Charm
+		Tooltip: Reduces damage taken by 10%
+	}
+
+	FeatherfallCharm: {
+		DisplayName: Featherfall Charm
+		Tooltip: Slows falling speed
+	}
+
+	FishingCharm: {
+		DisplayName: Fishing Charm
+		Tooltip: Increases fishing power
+	}
+
+	FlipperCharm: {
+		DisplayName: Flipper Charm
+		Tooltip: Lets you move swiftly in liquids
+	}
+
+	GillsCharm: {
+		DisplayName: Gills Charm
+		Tooltip: Breathe water instead of air
+	}
+
+	GravitationCharm: {
+		DisplayName: Gravitation Charm
+		Tooltip: Allows the control of gravity
+	}
+
+	GreaterLuckCharm: {
+		DisplayName: Greater Luck Charm
+		Tooltip: Greatly Increases the Luck of the user
+	}
+
+	HeartreachCharm: {
+		DisplayName: Heartreach Charm
+		Tooltip: Increases pickup range for life hearts
+	}
+
+	HunterCharm: {
+		DisplayName: Hunter Charm
+		Tooltip: Shows the location of enemies
+	}
+
+	InfernoCharm: {
+		DisplayName: Inferno Charm
+		Tooltip: Ignites nearby enemies
+	}
+
+	InvisibilityCharm: {
+		DisplayName: Invisibility Charm
+		Tooltip: Grants invisibility and lowers the spawn rate of enemies
+	}
+
+	IronskinCharm: {
+		DisplayName: Ironskin Charm
+		Tooltip: Increase defense by 8
+	}
+
+	LesserLuckCharm: {
+		DisplayName: Lesser Luck Charm
+		Tooltip: Slightly Increases the Luck of the user
+	}
+
+	LifeforceCharm: {
+		DisplayName: Lifeforce Charm
+		Tooltip: Increases max life by 20%
+	}
+
+	LovestruckCharm: {
+		DisplayName: Love Charm
+		Tooltip: Use this to make yourself fall in love
+	}
+
+	LuckCharm: {
+		DisplayName: Luck Charm
+		Tooltip: Increases the Luck of the user
+	}
+
+	MagicPowerCharm: {
+		DisplayName: Magic Power Charm
+		Tooltip: 20% increased magic damage
+	}
+
+	ManaRegenerationCharm: {
+		DisplayName: Mana Regeneration Charm
+		Tooltip: Increased mana regeneration
+	}
+
+	MiningCharm: {
+		DisplayName: Mining Charm
+		Tooltip: Increases mining speed by 25%
+	}
+
+	NightOwlCharm: {
+		DisplayName: Night Owl Charm
+		Tooltip: Increases night vision
+	}
+
+	ObsidianSkinCharm: {
+		DisplayName: ObsidianSkin Charm
+		Tooltip: Immune to lava
+	}
+
+	RageCharm: {
+		DisplayName: Rage Charm
+		Tooltip: Increases critical chance by 10%
+	}
+
+	RegenerationCharm: {
+		DisplayName: Regeneration Charm
+		Tooltip: Provides life regeneration
+	}
+
+	ShineCharm: {
+		DisplayName: Shine Charm
+		Tooltip: Emits an aura of light
+	}
+
+	SonarCharm: {
+		DisplayName: Sonar Charm
+		Tooltip: You can see what's biting your hook
+	}
+
+	SpelunkerCharm: {
+		DisplayName: Spelunker Charm
+		Tooltip: Shows the location of treasure and ore
+	}
+
+	StinkCharm: {
+		DisplayName: Stink Charm
+		Tooltip: Use this to make yourself smell terrible
+	}
+
+	SummoningCharm: {
+		DisplayName: Summoning Charm
+		Tooltip: Increases your max number of minions by 1
+	}
+
+	SwiftnessCharm: {
+		DisplayName: Swiftness Charm
+		Tooltip: 25% increased movement speed
+	}
+
+	ThornsCharm: {
+		DisplayName: Thorns Charm
+		Tooltip: Attackers also take damage
+	}
+
+	TitanCharm: {
+		DisplayName: Titan Charm
+		Tooltip: Increases knockback
+	}
+
+	WarmthCharm: {
+		DisplayName: Warmth Charm
+		Tooltip: Reduces damage from cold sources
+	}
+
+	WaterWalkingCharm: {
+		DisplayName: Water Walking Charm
+		Tooltip: Allows the ability to walk on water
+	}
+
+	WrathCharm: {
+		DisplayName: Wrath Charm
+		Tooltip: Increases damage by 10%
+	}
+
+	AttackCharm: {
+		DisplayName: Attack Charm
+		Tooltip: Grants attack related buffs
+	}
+
+	AwkwardCharm: {
+		DisplayName: Awkward Charm
+		Tooltip: Grants awkward buffs
+	}
+
+	DefensiveCharm: {
+		DisplayName: Defensive Charm
+		Tooltip: Grants defence related buffs
+	}
+
+	FishermanCharm: {
+		DisplayName: Fisherman Charm
+		Tooltip: Grants all fishing related buffs
+	}
+
+	GhostyCharm: {
+		DisplayName: Ghosty Charm
+		Tooltip: Grants stealthy related buffs
+	}
+
+	HealthyCharm: {
+		DisplayName: Healthy Charm
+		Tooltip: Grants healthy related buffs
+	}
+
+	LuckyCharm: {
+		DisplayName: Super Lucky Charm
+		Tooltip: Ridiculously Increases the Luck of the user
+	}
+
+	MovementCharm: {
+		DisplayName: Movement Charm
+		Tooltip: Grants movement related buffs
+	}
+
+	OceanCharm: {
+		DisplayName: Ocean Charm
+		Tooltip: Grants all water related buffs
+	}
+
+	OmniCharm: {
+		DisplayName: OMNI-CHARM
+		Tooltip: Grants all potion buffs
+	}
+
+	RangedCharm: {
+		DisplayName: Ranged Charm
+		Tooltip: Grants ranged related buffs
+	}
+
+	SafetyCharm: {
+		DisplayName: Safety Charm
+		Tooltip: Grants protection related buffs
+	}
+
+	SpeedRunnerCharm: {
+		DisplayName: Speed-Runner Charm
+		Tooltip: Grants speed and vision related buffs
+	}
+
+	VisionCharm: {
+		DisplayName: Vision Charm
+		Tooltip: Grants vision related buffs
+	}
+
+	WarCharm: {
+		DisplayName: War Charm
+		Tooltip: Grants damage related buffs
+	}
+
+	WaterCharm: {
+		DisplayName: Water Charm
+		Tooltip: Grants water related buffs
+	}
+
+	WeirdCharm: {
+		DisplayName: Weird Charm
+		Tooltip: Grants Weird buffs
+	}
+}
+
+Configs: {
+	PotionCharmsConfig: {
+		DisplayName: Potion Charms Config
+
+		ObsidianSkinCharmToggle: {
+			Tooltip: ""
+		}
+
+		RegenerationCharmToggle: {
+			Tooltip: ""
+			Label: Regeneration Charm Toggle
+		}
+
+		SwiftnessCharmToggle: {
+			Tooltip: ""
+		}
+
+		GillsCharmToggle: {
+			Tooltip: ""
+		}
+
+		IronskinCharmToggle: {
+			Tooltip: ""
+		}
+
+		ManaRegenerationCharmToggle: {
+			Tooltip: ""
+		}
+
+		MagicPowerCharmToggle: {
+			Tooltip: ""
+		}
+
+		FeatherfallCharmToggle: {
+			Tooltip: ""
+		}
+
+		SpelunkerCharmToggle: {
+			Tooltip: ""
+		}
+
+		InvisibilityCharmToggle: {
+			Tooltip: ""
+		}
+
+		ShineCharmToggle: {
+			Tooltip: ""
+		}
+
+		NightOwlCharmToggle: {
+			Tooltip: ""
+		}
+
+		BattleCharmToggle: {
+			Tooltip: ""
+		}
+
+		ThornsCharmToggle: {
+			Tooltip: ""
+		}
+
+		WaterWalkingCharmToggle: {
+			Tooltip: ""
+		}
+
+		ArcheryCharmToggle: {
+			Tooltip: ""
+		}
+
+		HunterCharmToggle: {
+			Tooltip: ""
+		}
+
+		GravitationCharmToggle: {
+			Tooltip: ""
+		}
+
+		MiningCharmToggle: {
+			Tooltip: ""
+		}
+
+		HeartreachCharmToggle: {
+			Tooltip: ""
+		}
+
+		CalmingCharmToggle: {
+			Tooltip: ""
+		}
+
+		BuilderCharmToggle: {
+			Tooltip: ""
+		}
+
+		TitanCharmToggle: {
+			Tooltip: ""
+		}
+
+		FlipperCharmToggle: {
+			Tooltip: ""
+		}
+
+		SummoningCharmToggle: {
+			Tooltip: ""
+		}
+
+		DangersenseCharmToggle: {
+			Tooltip: ""
+		}
+
+		AmmoReservationCharmToggle: {
+			Tooltip: ""
+		}
+
+		LifeforceCharmToggle: {
+			Tooltip: ""
+		}
+
+		EnduranceCharmToggle: {
+			Tooltip: ""
+		}
+
+		RageCharmToggle: {
+			Tooltip: ""
+		}
+
+		InfernoCharmToggle: {
+			Tooltip: ""
+		}
+
+		WrathCharmToggle: {
+			Tooltip: ""
+		}
+
+		LovestruckCharmToggle: {
+			Tooltip: ""
+		}
+
+		StinkyCharmToggle: {
+			Tooltip: ""
+		}
+
+		FishingCharmToggle: {
+			Tooltip: ""
+		}
+
+		SonarCharmToggle: {
+			Tooltip: ""
+		}
+
+		CrateCharmToggle: {
+			Tooltip: ""
+		}
+
+		WarmthCharmToggle: {
+			Tooltip: ""
+		}
+
+		LuckCharmToggle: {
+			Tooltip: ""
+		}
+
+		PotionsPerCharm: {
+			Tooltip: ""
+			Label: Potions Per Charm
+		}
+	}
+
+	CharmConfigCheck: {
+		Tooltip: ""
+
+		Never: {
+			Label: Never
+		}
+
+		OnlyEvents: {
+			Label: Only Events
+		}
+
+		OnlyBosses: {
+			Label: Only Bosses
+		}
+
+		BossesAndEvents: {
+			Label: Bosses And Events
+		}
+
+		Always: {
+			Label: Always
+		}
+	}
+}
+

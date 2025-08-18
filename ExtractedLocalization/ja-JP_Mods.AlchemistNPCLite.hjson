@@ -1,0 +1,1889 @@
+Bestiary: {
+	Alchemist: 様々なユーティリティポーション、植物、キノコ、その他様々なものを販売します。''Lore-wise''は醸造屋の古い友人であり、恋敵でもある。現在は離婚している
+	Brewer: 様々なバフポーションを販売します。''Lore-wise''は錬金術師の旧友であり、恋敵でもある。現在は離婚している
+	Jeweler: 様々な宝石を無限に売ることができる。また、研磨やボス戦のためのアリーナを設置するための物品を提供しますこともできる。''Lore-wise''は商人の双子の兄弟と考えるべきだろう
+	Musician: ある程度進むと、さまざまなオルゴールが販売される。現在のところ、本当の伝承は存在しない
+	Operator: (Expert+でプレイしている場合）様々なクラフト材料や宝物袋を提供します。人間ではありません
+	Architect: さまざまな建築ブロックやクラフティングステーションを提供。デコレーションのエキスパート
+	Tinkerer: 進行度によってアンロックされる様々なアクセサリーを提供します。''Lore-wise''はスチームパンカーの弟分である
+	YoungBrewer: 様々なポーションの組み合わせとフラスコを販売します。''Lore-wise''は錬金術師と醸造屋の息子
+}
+
+Common: {
+	DayTimeSet: 時間が朝になった
+	NightTimeSet: 時間が夕方になった
+	SandstormStarted: 砂嵐が始まった
+	SandstormStopped: 砂嵐が止まった
+	RainStarted: 雨が降り始めた
+	RainStopped: 雨が止んだ
+}
+
+TownNPCMood: {
+	Alchemist: {
+		Content: いい感じだよ!
+		NoHome: 予備の住居はありますか?頭上に屋根がないと、ポーションを作るのが本当に不安なんだ
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: 暖かくて平和で、ポーション作りにこれ以上適したものがあるだろうか?
+		LoveBiome: この場所は、私が友人と練習していた昔を思い出させてくれる
+		DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} は努力の大切さを理解している。彼女がいてくれてよかった"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} がここにいる!誰の息子?"
+		DislikeNPC: "{NPCName} が近くにいると集中できないんだ。彼女は私をからかうのを止められない"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Brewer: {
+		Content: いい感じだよ!
+		NoHome: 予備の住居はありますか?頭上に屋根がないと、ポーションを作るのが本当に不安なんだ
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: ここはちょっと暑すぎるが、空気は完璧だ
+		LoveBiome: 暖かく、穏やかで、私が望んでいた通りだ!
+		DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} はいじめるのがとても簡単なんだ!どうしようもない..."
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} がここにいる!誰の息子?"
+		DislikeNPC: "{NPCName} がしきりに警告してうっとうしい。我慢できないよ"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Jeweler: {
+		Content: いい感じだよ!
+		NoHome: 予備の住居はありますか?屋根のないところで宝石を作るのは本当に不安です
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: ここはちょっと暑すぎるが、空気は完璧だ
+		LoveBiome: 暖かく、穏やかで、私が望んでいた通りだ!
+		DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} には金銭感覚がある。ちょっと貪欲すぎるけど、すごく共感できる"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} がここにいる! 私たちはほとんど同じだとはっきりわかりますね。ヒゲは生やしたくないけどね"
+		DislikeNPC: "{NPCName} のような女の子は耐えられない。彼女は完全に私の集中力をそぐ"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Musician: {
+		Content: いい感じだよ!
+		NoHome: 予備の住居はありますか?屋根がないのに音楽ができるわけがない
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: 静寂と平和、それ以外に音楽制作に必要なものがあるだろうか?それにここの音響は素晴らしい!
+		LoveBiome: ピカピカで明るいところがいい。パーティーにも最適
+		DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} はオルゴールが足りないときに便利なんだ。作るのがどれだけ大変か知ってる?"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} も私と同じように音楽が好きなんだ!彼女となら一日中一緒にいられる"
+		DislikeNPC: このケチな {NPCName} がうっとうしい。どっか連れてってくれない?
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Operator: {
+		Content: いい感じだよ!
+		NoHome: シェルターが必要なんだ。屋根がないと嫌なんだ
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: 海。私が見たかったものだ。ありがとう
+		LoveBiome: 私の回路はここで完璧に機能している。驚いたことに。私は雪が好きだ
+		DislikeBiome: 地下は嫌いだ。知ってるでしょ?
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} は、私がその技術について話すことができる多くの人物の一人です"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} は、私がサイボーグであることを理解できる唯一の人でしょう。"
+		DislikeNPC: "{NPCName} は私を恐れているようだ。なぜだろう。しかし、彼の恐怖は私をいささか悩ませる"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Architect: {
+		Content: いい感じだよ!
+		NoHome: 建築家である私は、家を持たないことが特に好きではない
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: とても落ち着く場所だ。気に入ったよ
+		LoveBiome: たくさんの色、たくさんの建材。完璧だ
+		DislikeBiome: 寒いのは嫌いだ。もっと暖かい場所が欲しい
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} はただの迷惑なゴブリンかもしれないが、彼は組み立て方を理解している。尊敬するよ"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} はすべての色の作り方を知っている。それは素晴らしいことだ"
+		DislikeNPC: "{NPCName} はとても不機嫌で、色を嫌います。彼をハロに住まわせるのは楽しいだろうね"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	Tinkerer: {
+		Content: いい感じだよ!
+		NoHome: アクセサリー作りには忍耐が必要だ。それに、家がなければできないことだ
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: ちょっと暗いけど、ここでなら全然暮らせる
+		LoveBiome: 僕と妹は寒いところに住むのに慣れているから、全然大丈夫だよ
+		DislikeBiome: 私は暑いのと砂が嫌いだから、ここには住まない
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: "{NPCName} }はとても親切で賢い。尊敬します"
+		LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+		LoveNPC: "{NPCName} がついに来たか。お姉ちゃん、話すことがいっぱいあるんだ!"
+		DislikeNPC: "{NPCName} を私の周りに近づけるな。彼の服から出る砂がいつも私のメカを詰まらせる"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+
+	YoungBrewer: {
+		Content: いい感じだよ!
+		NoHome: 長時間外にいるのは好きじゃない。自分の部屋が必要なんだ
+		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+		FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+		DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+		LikeBiome: 多少暖かくても生きていけるから、それでいいんだ
+		LoveBiome: 森が好きだ!新鮮な空気と緑。他に必要なものはありますか?
+		DislikeBiome: こんなのは嫌だ。もっと暖かいところに住みたい
+		HateBiome: 別の場所で暮らしたい!これはひどい
+		LikeNPC: パパもいるの?パパは時々おバカさんだけど、ママはテレポーターのポーションでパパを尊敬しているの。彼女はどうやっても再現できなかった
+		LikeNPC_Princess: "{NPCName} に会いに行かなきゃ。彼女は本当に私と遊ぶのが好きなんだ。私もよ"
+		LoveNPC: ママはここにいるの?最高だよ!パパは好きだけど、ママは...。彼女のポーションはほとんど何でもできるし、一番役に立つ!
+		DislikeNPC: "{NPCName} はとても不機嫌です。何度かおもちゃを作らないかって誘ったんだけど、いつも時間がないって言うんだ"
+		HateNPC: ここだけの話ですが {NPCName} 見つけた場所に投げ返すことを考えたことはあるかい?
+	}
+}
+
+Buffs: {
+	BattleComb: {
+		DisplayName: 戦いの複合ポーション
+		Description: 鉄壁、リストア、耐久、生命強化、怒り、激怒のポーションの効果を併せ持つ
+	}
+
+	Blurring: {
+		DisplayName: 残像
+		Description: 敵はあなたを捉えることができない...
+	}
+
+	BuilderComb: {
+		DisplayName: 建築家の複合ポーション
+		Description: 建築、冷静、掘削のポーションの効果を併せ持つ
+	}
+
+	CalamityComb: {
+		DisplayName: Calamityの複合ポーション
+		Description: ファブソルのウォッカと光合成、飛翔、弾性のポーションの効果を併せ持つ
+	}
+
+	Corrosion: {
+		DisplayName: 腐食
+		Description: 肉体が溶けていく...
+	}
+
+	DiscordBuff: {
+		DisplayName: ディスコード
+		Description:
+			'''
+			ホットキーでカーソル位置までテレポートする
+			テレポート後、プレイヤーは10秒間カオス状態になる
+			カオス状態中に再使用すると、大ダメージを受ける
+			'''
+	}
+
+	Excavation: {
+		DisplayName: 掘削
+		Description: 採掘能力が大幅に向上
+	}
+
+	ExplorerComb: {
+		DisplayName: 探検家の複合ポーション
+		Description: 探検家、危険察知、狩人、掘削、暗視、輝き、エラ、水中歩行ポーションと足ヒレの効果を併せ持つ
+	}
+
+	FishingComb: {
+		DisplayName: 釣り師の複合ポーション
+		Description: 箱、探知、釣り、自然治癒、茨、鉄壁、冷静、獄炎のポーションの効果を併せ持つ
+	}
+
+	Fortitude: {
+		DisplayName: 不屈
+		Description: ノックバック耐性
+	}
+
+	GreaterDangersense: {
+		DisplayName: 危険察知（上級）
+		Description: 敵の発射物を光らせる
+	}
+
+	LongInvincible: {
+		DisplayName: 透明化（上級）
+		Description: 透明になれる
+	}
+
+	MageComb: {
+		DisplayName: 魔術師の複合ポーション
+		Description: 魔法力、マナ自然回復、怒り、激怒のポーションの効果を併せ持つ
+	}
+
+	NinjaSkill: {
+		DisplayName: 忍者
+		Description: 本物の忍者になったような気分だ...
+	}
+
+	RangerComb: {
+		DisplayName: 射手の複合ポーション
+		Description: 弾丸節約、弓使い、怒り、激怒のポーションの効果を併せ持つ
+	}
+
+	StationUltimaBuff: {
+		DisplayName: 最強のワークベンチ
+		Description: 全ての作業台の効果を得る
+	}
+
+	SummonerComb: {
+		DisplayName: 召喚師の複合ポーション
+		Description: 召喚、魔術の力、闘争のポーションの効果を併せ持つ
+	}
+
+	Sunshine: {
+		DisplayName: 太陽光
+		Description: 太陽のような光を生み出している
+	}
+
+	TankComb: {
+		DisplayName: タンクの複合ポーション (Mod)
+		Description: 鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨、巨人の肌、無敵のポーションの効果を併せ持つ
+	}
+
+	TitanSkin: {
+		DisplayName: 巨人の肌
+		Description: 高いデバフ耐性
+	}
+
+	TrapsBuff: {
+		DisplayName: 罠バフ
+		Description: トラップが強化される
+	}
+
+	TrueDiscordBuff: {
+		DisplayName: トゥルーディスコード
+		Description:
+			'''
+			ホットキーでカーソル位置までテレポートする
+			ロッド・オブ・ディスコードと全く同じ動作をする
+			'''
+	}
+
+	UniversalComb: {
+		DisplayName: 万能の複合ポーション
+		Description: タンク、射手、魔術師、召喚師の複合ポーションの効果を併せ持つ
+	}
+
+	VanTankComb: {
+		DisplayName: タンクの複合ポーション (バニラ)
+		Description: 鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨のポーションの効果を併せ持つ
+	}
+
+	ThoriumComb: {
+		DisplayName: Thoriumの複合ポーション
+		Description: 暗殺者、血、怒り、光る、聖なる、創造性、イヤーワーム、ひらめき、水分補給のポーションの効果を併せ持つ
+	}
+}
+
+Items: {
+	BattleCombination: {
+		DisplayName: 戦いの複合ポーション
+		Tooltip: 戦闘に必要なバフを得る(鉄壁、リストア、耐久、生命強化、怒り、激怒)
+	}
+
+	BeachTeleporterPotion: {
+		DisplayName: 海岸転送ポーション
+		Tooltip:
+			'''
+			海岸へテレポート
+			どちら側の海岸になるかは、押したマウスボタンによって決まる
+			'''
+	}
+
+	BewitchingPotion: {
+		DisplayName: 妖しいポーション
+		Tooltip:
+			'''
+			召喚数を増やす妖しいバフを得る
+			非Calamity系バフポーション
+			'''
+	}
+
+	BlurringPotion: {
+		DisplayName: 残像のポーション
+		Tooltip:
+			'''
+			残像バフを得る
+			10秒間シャドウ・ドッジが発動するが、30秒のクールダウンがある
+			非Calamity系バフポーション
+			'''
+	}
+
+	BuilderCombination: {
+		DisplayName: 建築家のポーション
+		Tooltip: 建築に必要なバフを得る (建築、冷静、掘削)
+	}
+
+	CalamityCombination: {
+		DisplayName: Calamityの複合ポーション
+		Tooltip: Calamity Modのバフを得る (ファブソルのウォッカと光合成、飛翔、弾性のポーション)
+	}
+
+	DiscordPotion: {
+		DisplayName: ディスコードポーション
+		Tooltip:
+			'''
+			ホットキーでカーソル位置までテレポートする
+			テレポート後、プレイヤーを10秒間カオス状態にする
+			カオス状態中にテレポートすると、大ダメージを受ける
+			非Calamity系バフポーション
+			'''
+	}
+
+	Dopamine: {
+		DisplayName: ドーパミン
+		Tooltip:
+			'''
+			幸せな気持ちでいっぱいだ...
+			非Calamity系バフポーション
+			'''
+	}
+
+	DungeonTeleportationPotion: {
+		DisplayName: ダンジョン転送ポーション
+		Tooltip: ダンジョンの入口にテレポートする
+	}
+
+	ExcavationPotion: {
+		DisplayName: 掘削ポーション
+		Tooltip:
+			'''
+			採掘範囲を1ブロックから3x3に拡大
+			バフを右クリックすると、採掘範囲が1x1と3x3の間で変更される
+			非Calamity系バフポーション
+			'''
+	}
+
+	ExplorerCombination: {
+		DisplayName: 探検家の複合ポーション
+		Tooltip: 探検に必要なバフを得る (探検家、危険察知、狩人、掘削、暗視、輝き)
+	}
+
+	FishingCombination: {
+		DisplayName: 釣り師の複合ポーション
+		Tooltip: 釣りに必要なバフを得る(箱、探知、釣り、自然治癒、茨、鉄壁、冷静、獄炎)
+	}
+
+	FortitudePotion: {
+		DisplayName: 不屈のポーション
+		Tooltip:
+			'''
+			ノックバックを無効化
+			非Calamity系バフポーション
+			'''
+	}
+
+	GreaterDangersensePotion: {
+		DisplayName: 危険察知の高級ポーション
+		Tooltip:
+			'''
+			より強力な危険察知のバフを得る
+			敵の発射物を光らせる
+			一部の透明な発射物（例：ムーンロード）は見えにくくなることがあるので注意
+			この効果は全プレイヤーに適用される
+			非Calamity系バフポーション
+			'''
+	}
+
+	InvincibilityPotion: {
+		DisplayName: 無敵のポーション
+		Tooltip:
+			'''
+			ダメージを受けた後の無敵時間が長くなる
+			非Calamity系バフポーション
+			'''
+	}
+
+	JungleTeleporterPotion: {
+		DisplayName: ジャングル転送ポーション
+		Tooltip:
+			'''
+			ジャングルにテレポートする
+			左クリックでジャングルの木にテレポート
+			右クリックでリビングマホガニーの葉にテレポート
+			'''
+	}
+
+	MageCombination: {
+		DisplayName: 魔術師の複合ポーション
+		Tooltip: 魔術師に必要なバフを得る (魔法力、マナ自然回復、怒り、激怒)
+	}
+
+	AlchemistCharmTier1: {
+		DisplayName: 錬金術師のチャーム ティア1
+		Tooltip:
+			'''
+			これがインベントリにある間は、低確率でポーションを消費しない
+			錬金術師、醸造屋、若い醸造屋のショップで10%割引される
+			バフの持続時間が10%長くなる
+			'''
+	}
+
+	AlchemistCharmTier2: {
+		DisplayName: 錬金術師のチャーム ティア2
+		Tooltip:
+			'''
+			これがインベントリにある間は、中程度の確率でポーションを消費しない
+			豚の貯金箱のポーションをクイックバフで使えるようになる
+			錬金術師、醸造屋、若い醸造屋のショップで25%割引される
+			バフの持続時間が25%長くなる
+			'''
+	}
+
+	AlchemistCharmTier3: {
+		DisplayName: 錬金術師のチャーム ティア3
+		Tooltip:
+			'''
+			これがインベントリにある間は、高い確率でポーションを消費しない
+			豚の貯金箱のポーションをクイックバフで使えるようになる
+			錬金術師、醸造屋、若い醸造屋のショップで35%割引される
+			バフの持続時間が35%長くなる
+			'''
+	}
+
+	AlchemistCharmTier4: {
+		DisplayName: 錬金術師のチャーム ティア4
+		Tooltip:
+			'''
+			これがインベントリにある間は、非常に高い確率でポーションを消費しない
+			豚の貯金箱のポーションをクイックバフで使えるようになる
+			錬金術師、醸造屋、若い醸造屋のショップで50%割引される
+			カラミタスを倒したあとはポーションが消費されなくなる
+			バフの持続時間が50%長くなる
+			'''
+	}
+
+	GlobalTeleporter: {
+		DisplayName: ワールド転送機
+		Tooltip:
+			'''
+			マップの好きな場所にテレポート
+			フルスクリーンの地図上で右クリックしてテレポートする
+			ボスが生きている場合は機能しない
+			使用後に壊れる
+			「ああ、紺碧の正義、深紅の愛、
+			　運命に埋もれた者の名において、
+			　私は光に誓いを立てる、
+			　私たちは、そのような
+			　私たちの前に立ちはだかる、愛の力！」
+			'''
+	}
+
+	GlobalTeleporterUp: {
+		DisplayName: 改造ワールド転送機
+		Tooltip:
+			'''
+			マップの好きな場所にテレポート
+			フルスクリーンの地図上で右クリックしてテレポートする
+			ボスが生きている場合は機能しない
+			使用後も壊れない
+			「ああ、紺碧の正義、深紅の愛、
+			　運命に埋もれた者の名において、
+			　私は光に誓いを立てる、
+			　私たちは、そのような
+			　私たちの前に立ちはだかる、愛の力!」
+			'''
+	}
+
+	WorldControlUnit: {
+		DisplayName: シミュレーション管理ユニット
+		Tooltip:
+			'''
+			アンジェラがデザインした限定商品
+			左クリックで日中と夜間を切り替え
+			右クリックで雨（砂漠の砂嵐）を有効または無効にする
+			'''
+	}
+
+	LuckCharm: {
+		DisplayName: 幸運のチャーム
+		Tooltip:
+			'''
+			これがインベントリにある間は、より良いコンディションが得られる可能性が高くなる
+			アクセサリーには影響しない
+			'''
+	}
+
+	LuckCharmT2: {
+		DisplayName: 豪運のチャーム
+		Tooltip:
+			'''
+			これがインベントリにある間は、より良いリフォージが得られる可能性が高くなる
+			アクセサリーにも影響する (Menacing->Lucky->Warding)
+			'''
+	}
+
+	MorePotionsCombination: {
+		DisplayName: たくさんの複合ポーション
+		Tooltip: 色々なポーションからバフを得る
+	}
+
+	NatureBlessingPotion: {
+		DisplayName: 自然の祝福ポーション
+		Tooltip: ドライアドの祝福バフを得る
+	}
+
+	NinjaPotion: {
+		DisplayName: 忍びのポーション
+		Tooltip:
+			'''
+			ダメージとクリティカル確率が5%増加
+			攻撃を回避することがあり、壁をよじ登ることができる
+			非Calamity系バフポーション
+			'''
+	}
+
+	InformatingNote: {
+		DisplayName: 情報ノート
+		Tooltip:
+			'''
+			トレジャーバッグはまだありません
+			スケルトロンを倒して最初のウェーブをアンロックする
+			'''
+	}
+
+	OceanTeleporterPotion: {
+		DisplayName: 海転送ポーション
+		Tooltip:
+			'''
+			海へテレポート（左端または右端のサンゴ礁付近）
+			どちら側の海になるかは、押したマウスボタンによって決まる
+			もしサンゴ礁が存在しなければ、どこにもテレポートしない
+			'''
+	}
+
+	PerfectDiscordPotion: {
+		DisplayName: 完璧なディスコードポーション
+		Tooltip:
+			'''
+			[c/00FF00:「ユニークな探検家のポーション」]
+			カーソル位置にテレポートする
+			ロッド・オブ・ディスコードと全く同じ動作をする
+			非Calamity系バフポーション
+			'''
+	}
+
+	HMCraftPound: {
+		DisplayName: 素晴らしい作業台
+		Tooltip:
+			'''
+			「これでベストを尽くせる」
+			様々な作業台の効果を併せ持つ
+			'''
+	}
+
+	MateriaTransmutator: {
+		DisplayName: マテリアトランスミューテーター
+		Tooltip:
+			'''
+			多くの作業台の効果を1つに集約
+			水/蜂蜜/溶岩の供給源としても機能する
+			'''
+	}
+
+	PreHMPenny: {
+		DisplayName: シンプルなクラフト通貨
+		Tooltip:
+			'''
+			「大工仕事にピッタリかも」
+			様々な作業台の効果を併せ持つ
+			'''
+	}
+
+	SpecCraftPoint: {
+		DisplayName: 特別な作業台
+		Tooltip:
+			'''
+			「あなたはどんな素材でも何でもできることを証明した」
+			様々な作業台の効果を併せ持つ
+			'''
+	}
+
+	RangerCombination: {
+		DisplayName: 射手の複合ポーション
+		Tooltip: 射手に必要なバフを得る (弾丸節約、弓使い、怒り、激怒)
+	}
+
+	SpiritCombination: {
+		DisplayName: スピリットの複合ポーション
+		Tooltip: Grants most buffs from Spirit Mod potions (Runescribe, Soulguard, Spirit, Starburn, Steadfast and Toxin)
+	}
+
+	SummonerCombination: {
+		DisplayName: 召喚師の複合ポーション
+		Tooltip: 召喚士に必要なバフを得る (召喚、魔術の力、闘争)
+	}
+
+	AlchemistHorcrux: {
+		DisplayName: 錬金術師の分霊箱
+		Tooltip: 錬金術師の魂の一部が入っている
+	}
+
+	APMC: {
+		DisplayName: AI とメモリーチップ
+		Tooltip: これはアンジェラのバックアップです
+	}
+
+	ArchitectHorcrux: {
+		DisplayName: 建築家の分霊箱
+		Tooltip: 建築家の魂の一部が入っている
+	}
+
+	BrewerHorcrux: {
+		DisplayName: 醸造屋の分霊箱
+		Tooltip: 醸造屋の魂の一部が入っている
+	}
+
+	HorrifyingSkull: {
+		DisplayName: 恐ろしい骸骨
+		Tooltip:
+			'''
+			最強の敵を召喚
+			細心の注意を払って使用すること
+			'''
+	}
+
+	JewelerHorcrux: {
+		DisplayName: 宝石屋の分霊箱
+		Tooltip: 宝石屋の魂の一部が入っている
+	}
+
+	MusicianHorcrux: {
+		DisplayName: 音楽家の分霊箱
+		Tooltip: 音楽家の魂の一部が入っている
+	}
+
+	TinkererHorcrux: {
+		DisplayName: 修理屋の分霊箱
+		Tooltip: 修理屋の魂の一部が入っている
+	}
+
+	SunshinePotion: {
+		DisplayName: 太陽光ポーション
+		Tooltip:
+			'''
+			光の範囲が大きく拡がる
+			非Calamity系バフポーション
+			'''
+	}
+
+	TankCombination: {
+		DisplayName: タンクの複合ポーション (Modアイテム)
+		Tooltip: タンクに必要なバフを得る (鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨、巨人の肌、無敵)
+	}
+
+	TempleTeleportationPotion: {
+		DisplayName: 寺院転送ポーション
+		Tooltip: リザードの祭壇にテレポートする
+	}
+
+	ThoriumCombination: {
+		DisplayName: Thoriumの複合ポーション
+		Tooltip: Thorium Modのバフを得る (暗殺者、血、怒り、光る、聖なる、創造性、イヤーワーム、ひらめき、水分補給のポーションの効果)
+	}
+
+	TitanSkinPotion: {
+		DisplayName: 巨人の肌のポーション
+		Tooltip:
+			'''
+			いくつかのデバフを無効化するバフを得る (燃えている！、凍傷、呪いの炎、凍え、凍結、イコル)
+			呪いの炎とイコルの無効化は、ツインズを倒した後にのみ機能する
+			非Calamity系バフポーション
+			'''
+	}
+
+	TrapsPotion: {
+		DisplayName: 罠師のポーション
+		Tooltip:
+			'''
+			全ての罠を強化する
+			非Calamity系バフポーション
+			'''
+	}
+
+	UltimaCake: {
+		DisplayName: 究極のケーキ
+		Tooltip:
+			'''
+			ほぼ全てのバフ効果のある家具の特殊効果を同時付与する
+			焚き火+ハートのランタン+バステトの石像+砥石+弾薬箱+水晶玉+切り分けたケーキ+魔術のテーブル
+			消費されない
+			非Calamity系バフポーション
+			'''
+	}
+
+	UnderworldTeleportationPotion: {
+		DisplayName: 地底世界転送ポーション
+		Tooltip:
+			'''
+			地下世界の黒曜石の塔の左端または右端へテレポートする
+			どちら側になるかは、押したマウスボタンによって決まる
+			使用する前に黒曜石の肌ポーションを飲んで、非常事態に備えよう
+			'''
+	}
+
+	UniversalCombination: {
+		DisplayName: 万能の複合ポーション
+		Tooltip: タンク、射手、魔術師、召喚師の複合ポーションの効果を併せ持つ
+	}
+
+	VanTankCombination: {
+		DisplayName: タンクの複合ポーション (バニラ)
+		Tooltip: タンクに必要なバフを得る (鉄壁、自然回復、生命強化、耐久、黒曜石の肌、茨)
+	}
+
+	MateriaTransmutatorMK2: {
+		DisplayName: マテリアトランスミューテーターMK-2
+		Tooltip: ほとんどの作業台の効果を併せ持ち、これにはドラエドンの鍛冶場も含まれる
+	}
+}
+
+NPCs: {
+	Alchemist: {
+		DisplayName: 錬金術師
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 予備の住居はありますか?頭上に屋根がないと、ポーションを作るのが本当に不安なんだ
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: この場所は、私が友人と練習していた昔を思い出させてくれる
+			LikeBiome: 暖かくて平和で、ポーション作りにこれ以上適したものがあるだろうか?
+			DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+			LoveNPC: "{NPCName} がここにいる!誰の息子?"
+			LikeNPC: "{NPCName} は努力の大切さを理解している。彼女がいてくれてよかった"
+			DislikeNPC: "{NPCName} が近くにいると集中できないんだ。彼女は私をからかうのを止められない"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	Architect: {
+		DisplayName: 建築家
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 建築家である私は、家を持たないことが特に好きではない
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: たくさんの色、たくさんの建材。完璧だ
+			LikeBiome: とても落ち着く場所だ。気に入ったよ
+			DislikeBiome: 寒いのは嫌いだ。もっと暖かい場所が欲しい
+			LoveNPC: "{NPCName} はすべての色の作り方を知っている。それは素晴らしいことだ"
+			LikeNPC: "{NPCName} はただの迷惑なゴブリンかもしれないが、彼は組み立て方を理解している。尊敬するよ"
+			DislikeNPC: "{NPCName} はとても不機嫌で、色を嫌います。彼をハロに住まわせるのは楽しいだろうね"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: 3人以上のNPCがいる
+		}
+	}
+
+	Brewer: {
+		DisplayName: 醸造屋
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 予備の住居はありますか?頭上に屋根がないと、ポーションを作るのが本当に不安なんだ
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: 暖かく、穏やかで、私が望んでいた通りだ!
+			LikeBiome: ここはちょっと暑すぎるが、空気は完璧だ
+			DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+			LoveNPC: "{NPCName} がここにいる!誰の息子?"
+			LikeNPC: "{NPCName} はいじめるのがとても簡単なんだ!どうしようもない..."
+			DislikeNPC: "{NPCName} がしきりに警告してうっとうしい。我慢できないよ"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	Jeweler: {
+		DisplayName: 宝石屋
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 予備の住居はありますか?屋根のないところで宝石を作るのは本当に不安です
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: 暖かく、穏やかで、私が望んでいた通りだ!
+			LikeBiome: ここはちょっと暑すぎるが、空気は完璧だ
+			DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+			LoveNPC: "{NPCName} がここにいる! 私たちはほとんど同じだとはっきりわかりますね。ヒゲは生やしたくないけどね"
+			LikeNPC: "{NPCName} には金銭感覚がある。ちょっと貪欲すぎるけど、すごく共感できる"
+			DislikeNPC: "{NPCName} のような女の子は耐えられない。彼女は完全に私の集中力をそぐ"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	Musician: {
+		DisplayName: 音楽家
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 予備の住居はありますか?屋根がないのに音楽ができるわけがない
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: ピカピカで明るいところがいい。パーティーにも最適
+			LikeBiome: 静寂と平和、それ以外に音楽制作に必要なものがあるだろうか?それにここの音響は素晴らしい!
+			DislikeBiome: ここは寒すぎる...。手が凍えそうだ
+			LoveNPC: "{NPCName} も私と同じように音楽が好きなんだ!彼女となら一日中一緒にいられる"
+			LikeNPC: "{NPCName} はオルゴールが足りないときに便利なんだ。作るのがどれだけ大変か知ってる?"
+			DislikeNPC: このケチな {NPCName} がうっとうしい。どっか連れてってくれない?
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: スケルトロンを倒す
+		}
+	}
+
+	Operator: {
+		DisplayName: オペレーター
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: シェルターが必要なんだ。屋根がないと嫌なんだ
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: 私の回路はここで完璧に機能している。驚いたことに。私は雪が好きだ
+			LikeBiome: 海。私が見たかったものだ。ありがとう
+			DislikeBiome: 地下は嫌いだ。知ってるでしょ?
+			LoveNPC: "{NPCName} は、私がサイボーグであることを理解できる唯一の人でしょう。"
+			LikeNPC: "{NPCName} は、私がその技術について話すことができる多くの人物の一人です"
+			DislikeNPC: "{NPCName} は私を恐れているようだ。なぜだろう。しかし、彼の恐怖は私をいささか悩ませる"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: イーターオブワールドまたはクトゥルフの脳を倒す
+		}
+	}
+
+	Tinkerer: {
+		DisplayName: 修理屋
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: アクセサリー作りには忍耐が必要だ。それに、家がなければできないことだ
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: 僕と妹は寒いところに住むのに慣れているから、全然大丈夫だよ
+			LikeBiome: ちょっと暗いけど、ここでなら全然暮らせる
+			DislikeBiome: 私は暑いのと砂が嫌いだから、ここには住まない
+			LoveNPC: "{NPCName} がついに来たか。お姉ちゃん、話すことがいっぱいあるんだ!"
+			LikeNPC: "{NPCName} }はとても親切で賢い。尊敬します"
+			DislikeNPC: "{NPCName} を私の周りに近づけるな。彼の服から出る砂がいつも私のメカを詰まらせる"
+			LikeNPC_Princess: いつかまた {NPCName} を訪ねなきゃ、僕を理解してくれる女の子がいるんだ!
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: クトゥルフの目を倒す
+		}
+	}
+
+	YoungBrewer: {
+		DisplayName: 若い醸造屋
+
+		TownNPCMood: {
+			Content: いい感じだよ!
+			NoHome: 長時間外にいるのは好きじゃない。自分の部屋が必要なんだ
+			FarFromHome: 私の家もそうだったと思うんだけど......どこか連れてってくれるなら別だけど?
+			LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということだ!
+			DislikeCrowded: 多ければ多いほどいいんだけど、ちょっと過密な感じがするんだ
+			HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんだ...
+			LoveBiome: 森が好きだ!新鮮な空気と緑。他に必要なものはありますか?
+			LikeBiome: 多少暖かくても生きていけるから、それでいいんだ
+			DislikeBiome: こんなのは嫌だ。もっと暖かいところに住みたい
+			LoveNPC: ママはここにいるの?最高だよ!パパは好きだけど、ママは...。彼女のポーションはほとんど何でもできるし、一番役に立つ!
+			LikeNPC: パパもいるの?パパは時々おバカさんだけど、ママはテレポーターのポーションでパパを尊敬しているの。彼女はどうやっても再現できなかった
+			DislikeNPC: "{NPCName} はとても不機嫌です。何度かおもちゃを作らないかって誘ったんだけど、いつも時間がないって言うんだ"
+			LikeNPC_Princess: "{NPCName} に会いに行かなきゃ。彼女は本当に私と遊ぶのが好きなんだ。私もよ"
+			Princess_LovesNPC: 私は、{NPCName}　が好きだ
+		}
+
+		Census: {
+			SpawnCondition: ワールドをハードモードにする
+		}
+	}
+}
+
+Projectiles: {
+	CorrosiveFlask: {
+		DisplayName: Corrosive Flask
+	}
+
+	CorrosiveFlaskCloud: {
+		DisplayName: Corrosive Flask Cloud
+	}
+
+	Gemstone: {
+		DisplayName: Gemstone
+	}
+
+	LocatorProjectile: {
+		DisplayName: Locator Projectile
+	}
+}
+
+DiscordBuffTeleportation: Discord Buff Teleportation
+
+evilBossMask: Corruption/Crimson boss mask
+
+cultist: Cultist mask/hood
+
+tier3HardmodeBar: tier 3 Hardmode Bar
+
+hardmodeComponent: Hardmode component
+
+evilBar: Crimson/Corruption bar
+
+evilMushroom: evil mushroom
+
+evilComponent: evil component
+
+evilDrop: evil drop
+
+tier2anvil: tier 2 anvil
+
+tier2forge: tier 2 forge
+
+tier1anvil: tier 1 anvil
+
+CelestialWings: Celestial Wings
+
+LunarHamaxe: Lunar Hamaxe
+
+tier3Watch: tier 3 Watch
+
+tier3PreHmOre: tier 3 Pre-hardmode ore
+
+KingSlime: King Slime Treasure Bag
+
+EyeofCthulhu: Eye of Cthulhu Treasure Bag
+
+EaterOfWorlds: Eater Of Worlds Treasure Bag
+
+BrainOfCthulhu: Brain Of Cthulhu Treasure Bag
+
+QueenBee: Queen Bee Treasure Bag
+
+Skeletron: Skeletron Treasure Bag
+
+Deerclops: Deerclops Treasure Bag
+
+WallOfFlesh: Wall Of Flesh Treasure Bag
+
+QueenSlime: Queen Slime Treasure Bag
+
+Destroyer: Destroyer Treasure Bag
+
+Twins: Twins Treasure Bag
+
+SkeletronPrime: Skeletron Prime Treasure Bag
+
+Plantera: Plantera Treasure Bag
+
+EmpressOfLight: Empress of Light Treasure Bag
+
+Golem: Golem Treasure Bag
+
+Betsy: Betsy Treasure Bag
+
+DukeFishron: Duke Fishron Treasure Bag
+
+MoonLord: Moon Lord Treasure Bag
+
+DesertScourge: Desert Scourge Treasure Bag
+
+Crabulon: Crabulon Treasure Bag
+
+HiveMind: The Hive Mind Treasure Bag
+
+Perforator: The Perforators Treasure Bag
+
+SlimeGod: The Slime God Treasure Bag
+
+Cryogen: Cryogen Treasure Bag
+
+BrimstoneElemental: Brimstone Elemental Treasure Bag
+
+AquaticScourge: Aquatic Scourge Treasure Bag
+
+Calamitas: Calamitas Doppelganger Treasure Bag
+
+AstrageldonSlime: Astrum Aureus Treasure Bag
+
+AstrumDeus: Astrum Deus Treasure Bag
+
+Leviathan: The Leviathan Treasure Bag
+
+PlaguebringerGoliath: The Plaguebringer Goliath Treasure Bag
+
+Ravager: Ravager Treasure Bag
+
+Providence: Providence, the Profaned Goddess Treasure Bag
+
+StormWeaver: Storm Weaver Treasure Bag
+
+CeaselessVoid: Ceaseless Void Treasure Bag
+
+Signus: Signus, Envoy of the Devourer Treasure Bag
+
+Polterghast: Polterghast Treasure Bag
+
+OldDuke: The Old Duke Treasure Bag
+
+DevourerofGods: The Devourer of Gods Treasure Bag
+
+Bumblebirb: The Dragonfolly Treasure Bag
+
+Yharon: Jungle Dragon, Yharon Treasure Bag
+
+ExoMechs: Exo Mechs Treasure Bag
+
+SupremeCalamitas: Supreme Calamitas Treasure Bag
+
+DarkMage: Dark Mage Treasure Bag
+
+Ogre: Ogre Treasure Bag
+
+ThunderBird: The Great Thunder Bird Treasure Bag
+
+QueenJellyfish: The Queen Jellyfish Treasure Bag
+
+CountEcho: Count Echo Treasure Bag
+
+GraniteEnergyStorm: Granite Energy Storm Treasure Bag
+
+TheBuriedChampion: The Buried Champion Treasure Bag
+
+TheStarScouter: The Star Scouter Treasure Bag
+
+BoreanStrider: Borean Strider Treasure Bag
+
+CoznixTheFallenBeholder: Coznix, The Fallen Beholder Treasure Bag
+
+TheLich: The Lich Treasure Bag
+
+AbyssionTheForgottenOne: Abyssion, The Forgotten One Treasure Bag
+
+TheRagnarok: The Ragnarok Treasure Bag
+
+KingChicken: The Mighty King Chicken Treasure Bag
+
+ThornBane: Thorn, Bane of the Forest Treasure Bag
+
+TheKeeper: The Keeper Treasure Bag
+
+XenoCrystal: Xenomite Crystal Treasure Bag
+
+IEye: Infected Eye Treasure Bag
+
+KingSlayer: King Slayer III Treasure Bag
+
+V1: Vlitch Cleaver Treasure Bag
+
+V2: Vlitch Gigipede Treasure Bag
+
+V3: Omega Obliterator Treasure Bag
+
+PZ: Patient Zero Treasure Bag
+
+ThornRematch: Thorn, Bane of the Forest Rematch Treasure Bag
+
+Nebuleus: Nebuleus, Angel of the Cosmos Treasure Bag
+
+Wasteland: Wasteland Treasure Bag
+
+Infernace: Infernace Treasure Bag
+
+ScourgeFighter: Scourge Fighter Treasure Bag
+
+Regaroth: Regaroth Treasure Bag
+
+TheCelestials: The Celestials Treasure Bag
+
+Permafrost: Permafrost Treasure Bag
+
+Obsidious: Obsidious Treasure Bag
+
+Aqueous: Aqueous Treasure Bag
+
+TempleKeepers: The Temple Keepers Treasure Bag
+
+Guardian: The Guardian Treasure Bag
+
+Volcanox: Volcanox Treasure Bag
+
+VoidLevi: Void Leviathan Treasure Bag
+
+Azana: Azana Treasure Bag
+
+Ancients: The Ancients Treasure Bag
+
+Decree: The Decree Treasure Bag
+
+FlamingPumpkin: The Flaming Pumpkin Treasure Bag
+
+Jensen: Jensen, the Grand Harpy Treasure Bag
+
+Araneas: Araneas Treasure Bag
+
+Raynare: Harpy Queen, Raynare Treasure Bag
+
+Primordia: Primordia Treasure Bag
+
+Abaddon: Abaddon, the Emissary of Nightmares Treasure Bag
+
+Araghur: Araghur, the Flare Serpent Treasure Bag
+
+Lunarians: The Lunarians Treasure Bag
+
+Challenger: Erazor Treasure Bag
+
+Spookboi: Nihilus Treasure Bag
+
+Scarabeus: Scarabeus Treasure Bag
+
+Bane: Vinewrath Bane Treasure Bag
+
+Flier: Ancient Flier Treasure Bag
+
+Raider: Starplate Raider Treasure Bag
+
+Infernon: Infernon Treasure Bag
+
+Dusking: Dusking Treasure Bag
+
+EtherialUmbra: Etherial Umbra Treasure Bag
+
+IlluminantMaster: Illuminant Master Treasure Bag
+
+Atlas: Atlas Treasure Bag
+
+Overseer: Overseer Treasure Bag
+
+Sharkron: Dune Sharkron Treasure Bag
+
+Hypothema: Hypothema Treasure Bag
+
+Ragnar: Ragnar Treasure Bag
+
+AnDio: Andesia & Dioritus Treasure Bag
+
+Annihilator: The Annihilator Treasure Bag
+
+Slybertron: Slybertron Treasure Bag
+
+SteamTrain: Steam Train Treasure Bag
+
+SunlightTrader: Sunlight Trader Treasure Bag
+
+THOFC: The Heart of the Cavern Treasure Bag
+
+MythrilSlime: Mythril Slime Treasure Bag
+
+Valdaris: Valdaris Treasure Bag
+
+Gatekeeper: The Gatekeeper Treasure Bag
+
+Monarch: Mushroom Monarch Treasure Bag
+
+Grips: Grips of Chaos Treasure Bag
+
+Broodmother: Broodmother Treasure Bag
+
+Hydra: Hydra Treasure Bag
+
+Serpent: Subzero Serpent Treasure Bag
+
+Djinn: Desert Djinn Treasure Bag
+
+Retriever: Retriever Treasure Bag
+
+RaiderU: Raider Ultima Treasure Bag
+
+Orthrus: Orthrus X Treasure Bag
+
+EFish: Emperor Fishron Treasure Bag
+
+Nightcrawler: Nightcrawler Treasure Bag
+
+Daybringer: Daybringer Treasure Bag
+
+Yamata: Yamata Treasure Bag
+
+Akuma: Akuma Treasure Bag
+
+Zero: Zero Treasure Bag
+
+Shen: Shen Doragon Treasure Cache
+
+ShenGrips: Shen Doragon Grips Treasure Bag
+
+PlantsShop: 植物ショップ
+
+GetCharm: チャームをもらう
+
+Edward: Edward
+
+Severus: Severus
+
+Horace: Horace
+
+Tilyorn: Tilyorn
+
+Nicolas: Nicolas
+
+Gregg: Gregg
+
+EntryA1: My Healing potions will cure your deepest wounds.
+
+EntryA2: My Mana potions will restore your magic power.
+
+EntryA3: Restoration potions... I'm not sure if I trust them...
+
+EntryA4: There's a legendary yoyo known as the Sasscade.
+
+EntryA5: The Strange Brew I bought from the Skeleton Merchant smells awful, but its Mana Restoration effect is awesome!
+
+EntryA6: Hi, *cough*... That definitely wasn't a Teleporation potion.
+
+EntryA7: Have you seen any Mechanical Skulls around?
+
+EntryA8: Have you ever heard of Ultra Mushroom? If you find one, I do believe I got some stuff to aid you in boosting that thing.
+
+EntryA9: "I asked "
+
+EntryA10: " if I could buy the recipe for the Potent Extract. He said no because, and I quote, ''Even an idiot would figure it out.''"
+
+EntryA11: And to think, she's getting the potions and not me... but I can't argue there.
+
+EntryA12: "What is his name? "
+
+EntryA13: ? So... Teacher's here? Better step up my game!
+
+EntryA14: Thank goodness I got those pieces from Skeletron. Want to check it out?
+
+EntryA15: "Can you please ask "
+
+EntryA16: " to stop mocking me? I know my potions can't make you stronger, but at least they aren't as dangerous to drink."
+
+EntryA17: These goblins are so annoying... Thankfully, they cannot stay here for too long.
+
+EntryA18: You better deal with Pirates as fast, as you can. I can't wait to talk with Captain! Haven't seen him for years!
+
+EntryA19: I hope that you will not let them into my house, will you?
+
+EntryA20: Perhaps there are better things for you to do, rather than talking to me, at the moment. I don't know... maybe defend us?!
+
+EntryA21: ...My friend, the best thing to do in this case is not bother me during this time.
+
+EntryA22: I have an explosive flask. You do NOT want to know what it tastes like.
+
+EntryA23: "How can "
+
+EntryA24: " stay calm in a time like this? I want to know, NOW."
+
+EntryA25: "Don't let the dark one that came from the Jungle fool you with charming wisdom. Me and "
+
+EntryA26: " were once his apprentices. I quit when his lessons turned too dark but "
+
+EntryA27: " interest in occult Alchemy did nothing but grow."
+
+Joe: Joe
+
+Mark: Mark
+
+Walter: Walter
+
+Archer: Archer
+
+Frido: Frido
+
+Li: Li
+
+A1: "If this dastardly "
+
+A2: " isn't going to shut up, I'm letting "
+
+A3: " bite her."
+
+A4: KILL THE ZOMBIES! KILL THE BUNNIES! IN THE NAME OF THE BLOO- oh sorry I didn't notice you here.
+
+A5: Why hello there I'm just getting some blood buckets for a lake I'm making pleasedontaskanymorequestions
+
+A6: I like it when there is a gigantic horde of zombies behind our doors. But I HATE WHEN THEY BREAK MY DOORS!
+
+A7: Ah, the feeling that I'm not safe, the paranoia is embraced the moment the bloodmoon rises up in the sky.
+
+A8: Are you interested in my religion? It invloves sacrifices to the bloody moon.
+
+A9: Do you know why I hate these goblins? They are mildly annoying.
+
+A10: Hooray to pirates! They supply me with my golden furniture!
+
+A11: Ah! Finally some proper plating to have my roof done!
+
+A12: "No explosives please, "
+
+A13: " is already annoying me enough."
+
+A14: BUILDER POTIONS FREE FOR EVERYONE but you.
+
+A15: What? Where I got my architect degree? There's an architect degree?
+
+A16: Did'ja know that wood somehow doesn't burn? Though under certain circumstances it does. Weird...
+
+A17: No, I am not the guy. I'm the dude.
+
+A18: Well, the one you recently made was ALMOST impressive. (not really)
+
+A19: So, you say that chests are furniture too. I reply: Screw you.
+
+A20: I saw your buildings but I am still not impressed
+
+A21: Have you heard 'bout that FuryForged guy? I taught him all he knows!
+
+A22: I was once hired by a certain company to build a supermassive hi-tech, hi-security installation. Lemme tell ya its my magnum opus in terms of security and containment.
+
+AS1: 1st shop (基本ブロック)
+
+AS2: 2nd shop (建築ブロック)
+
+AS3: 3rd shop (基本的な家具)
+
+AS4: 4th shop (高度な家具)
+
+AS5: 5th shop (たいまつ)
+
+AS6: 6th shop (蝋燭)
+
+AS7: 7th shop (ランプ)
+
+AS8: 8th shop (ランタン)
+
+AS9: 9th shop (シャンデリア)
+
+AS10: 10th shop (燭台)
+
+ShopsChanger: ショップ切り替え
+
+Combinations: 複合ポーション
+
+Flasks: フラスコ
+
+ShopB1: 1st shop (バニラ)
+
+ShopB2: 2nd shop (Mod/Calamity)
+
+ShopB3: 3rd shop (Thorium/RG)
+
+ShopB4: 4th shop (Atheria)
+
+ShopB5: 5th shop (UnuBattleRods/Tacklebox)
+
+ShopB6: 6th shop (Spirit)
+
+Lillian: Lillian
+
+Lucy: Lucy
+
+Alice: Alice
+
+Rocksahn: Rocksahn
+
+Agness: Agness
+
+Mary: Mary
+
+EntryB1: Care to try this potion? It's supposed to grant wings.
+
+EntryB2: I don't think that was a Spelunker potion...
+
+EntryB3: I got my degrees in Riddle University.
+
+EntryB4: There's a legendary yoyo known as the Sasscade.
+
+EntryB5: Aww, bread crumbs and beaver spit!
+
+EntryB6: Hi, *cough* that wasn't an Inferno potion!
+
+EntryB7: Have you seen two mechanical eyes around?
+
+EntryB8: "That silly goose "
+
+EntryB9: " is too afraid of using occult powers in Alchemy. And so his potions are just some useless water."
+
+EntryB10: *sneezes* Eww... I always sneeze while these Goblins are around!
+
+EntryB11: Just don't let them in my house... There are so many needed supplies and instruments.
+
+EntryB12: Is this a Martians Invasion? Are they going to enslave us all? Or they want to destroy us all? No one knows the answer...
+
+EntryB13: Is it Blood Moon in the sky? I love it! It is so beautiful!
+
+EntryB14: I was born under the light of Blood Moon. I am always so excited when IT appears!
+
+EntryB15: Yeah, I can understand why the other girls are annoyed, but that's not stopping me!
+
+EntryB16: As happy as I am, I'm not giving discounts - I'm not dumb.
+
+EntryB17: "Normally I'm confused with how "
+
+EntryB18: " is just as calm as I am, but then I remember "
+
+EntryB19: I once traveled far away from Terraria to learn more about Alchemy. In my travels I met a ''scientist of magic'' called Azanor. He showed me the secrets of something called ''thaumaturgy''.
+
+ArenaShop: バトルアリーナショップ
+
+Carl: Carl
+
+John: John
+
+JanMare: JanMare
+
+LuiFransua: LuiFransua
+
+Daniel: Daniel
+
+Charley: Charley
+
+EntryJ1: I found some gems for selling. Would you check them?
+
+EntryJ2: Magic rings are not as powerful as Legendary Emblems, but still can give you some advantage against powerful creatures.
+
+EntryJ3: Ouch... what do you want, my friend?
+
+EntryJ4: I can make a Diamond Ring for you.
+
+EntryJ5: No, don't think that I somehow related to Skeleton Merchant.
+
+EntryJ6: If you somehow find all Magic Rings,then you could make the Omniring.
+
+EntryJ7: Have you seen Mechanical Creatures?
+
+EntryJ8: "Did you notice that "
+
+EntryJ9: " and I looks almost the same? It's because we're twin brothers."
+
+EntryJ10: Should you find enought of those torn notes, bring the to me and ill decipher them for you. Dont ask me why, just know that they hold a value for me.
+
+Shop1: バニラのオルゴール
+
+Shop2: バニラのオルゴール #2
+
+Shop3: その他のオルゴール
+
+Shop4: Modのオルゴール (Calamity)
+
+Shop5: Modのオルゴール (Calamity/Thorium)
+
+ShopChanger: ショップ切り替え
+
+Beethoven: Beethoven
+
+Bach: Bach
+
+Johan: Johan
+
+Edison: Edison
+
+Scott: Scott
+
+Lloyd: Lloyd
+
+Gamma: Gamma
+
+EntryM1: I would wear headphones, but I'm not sure if Terrarians even have ears...
+
+EntryM2: I have to wonder why Boss 1 and Boss 2 didn't get better names in the OST. Those names are soooo bland.
+
+EntryM3: Look, the Cyborg may have my name, but I've still got the better job here.
+
+EntryM4: Shhhhh! You'll ruin my recording!
+
+EntryM5: I swear, if one more person asks me to sell them a ''Megalovania'' music box....
+
+EntryM6: Look, your enthusiasm is awesome, but could you maybe record the next boss track yourself? I don't really want to risk my life for some tunes.
+
+EntryM7: Ah, I see you were able to save the Explorer! Well done! Perhaps my next song is going to be about your triumph.
+
+EntryM8: "You know, "
+
+EntryM9: " has been really helpful while I've been setting up this sound system. Wires are key!"
+
+EntryM10: "If you run into "
+
+EntryM11: ", let him know he still owes me for those music boxes I sold him."
+
+EntryM12: "I'll be honest, I'm not sure if I trust "
+
+EntryM13: . He claims to not be possessed, and yet he still is using skulls to fight... I'm getting mixed messages here.
+
+EntryM14: Man, my mixtape is so much better than this, but I can't sell you that due to copyright.
+
+EntryM15: No, I don't have an ''All Star'' music box. Code it in yourself.
+
+EntryM16: Wait, NPC? I thought I was the protagonist!
+
+EntryM17: Never thought I'd be selling a music box with lyrics... DM DOKURO, you're a madman and I love it!
+
+EntryM18: A whole music based class? That sounds amazing! Too bad I don't have any gear for that, huh?
+
+EntryM19: This is your fault. GET. OUT.
+
+EntryM20: Ah, this takes me back! I remember when this song used to play in the dungeon and the underworld... good times!
+
+EntryM21: Is there a name for the fear of being spied by a cake?
+
+EntryM22: You are hurting my ears! Turn it down!
+
+BossDropsShop: ボスドロップ & 素材ショップ
+
+BossDropsModsShop: Mod用ボスドロップ & 素材ショップ
+
+VanillaTreasureBagsShop: バニラトレジャーバッグショップ
+
+ModdedTreasureBagsShop: Mod用トレジャーバッグショップ
+
+ModdedTreasureBagsShop2: Mod用トレジャーバッグショップ #2
+
+ModdedTreasureBagsShop3: Mod用トレジャーバッグショップ #3
+
+Angela: Angela
+
+Carmen: Carmen
+
+EntryO1: How is your day, Manager? Can I help you?
+
+EntryO2: That 'The Great Thunder Bird' doesn't seems so dangerous. I am only hoping that it isn't a part of Apocalypse Bird...
+
+EntryO3: Hello, Manager! Isn't this day silent, is it?
+
+EntryO4: Do you want anything special, Manager?
+
+EntryO5: Eater of Worlds is an Abnormality with risk class TETH. And now it is contained. Do you need something from it?
+
+EntryO6: If you manage to supress Ragnarok, then you could do everything imaginable.
+
+EntryO7: Eye of Cthulhu is a pretty strange creature. It seems like it is just a small part of something really dangerous. It would be better for us if it never escapes.
+
+EntryO8: Brain of Cthulhu may look horrifying, but without its minions it can't do anything.
+
+EntryO9: Something changed in this world, Manager. Evil is spreading even wider, but at the same time, my sensor system caught the birth of new biome, called Hallow.
+
+EntryO10: All these Mechanical Bosses... They definitely could have Trauma origin. What classification numbers will they get? I think they would be started as T-05-...
+
+EntryO11: Goblins... Such a pathetic creatures. And the only useful things from them are just Spiky Balls and Harpoons.
+
+EntryO12: Pretty strange Abnormal event... They all look as living creatures, but their 'Flying Dutchman' is definetly a ghost with HE risk class.
+
+EntryO13: Martians came again. Last time they were here, several big towns were destroyed. But we could say as an excuse that we weren't as ready, as we were now.
+
+EntryO14: Blood Moon? Shouldn't it happen once in 666 years?
+
+EntryO15: All these strange cratures just keep coming and coming to this 'Beacon'... Hope we all will survive until Dawn.
+
+EntryO16: Anyway, there are some reasons for optimism. Blood Moon attracts some creatures, which cannot be seen in normal conditions.
+
+EntryO17: I read a few manuscripts about creature, named Slime God. They say that he is one of the first creatures in this world.
+
+EntryO18: Yharim... I am pretty sure I heard that name before. But my memory data is corrupted. Try asking Calamitas about him...
+
+EntryO19: This carnivorous plant was really dangerous... Looks like it was at least HE Risk Class. Glad to see you again in one piece after all.
+
+EntryO20: This ancient machine was holding celestial powers inside. With its death, world can change forever...
+
+EntryO21: An insect the size of the Queen Bee defies current methods of classification. I propose insects of this size be given a new classification MI-XX. It is a wonder that nobody has used them for their own means, let us be the first.
+
+EntryO22: It appears I was wrong about the queen bees. Their memory storage contains the ramblings of a scientist who was blinded by ambition and cruelly introduced the plague to them. Let us classify them as MP-0X.
+
+EntryO23: According to my notes, this Coznix you speak of was a lesser Void Observer, classified as OB-V-01. There are greater threats waiting beyond the veil of reality.
+
+EntryO24: This flying scouter..... curious. From the memory banks stored in the wreckage, this looks to have been a scouting ship for the Martians, to determine how hospitable Terraria is. I fear the pilot's last moments have been transmitted to the main Martian command centre.
+
+EntryO25: Turning a mages' power in on himself and trapping him within it is no easy task, but to observe cruelty of such magnitude..... Permafrost, former lord of the Ice Castle, may you see peace.
+
+EntryO26: The Starplate raider is a Genius Stardust Centipede, or a G-S-C3, popular with the Martian elite as lifelong companions and raiding partners. It must have wandered far from home, judging from the transmitter memory banks I recovered.
+
+EntryO27: I took the time to analyze the remains of this incredible creature. Every time it attacked, the entire planet seemed to resonate against its will. I can do nothing but to worry about the consequences of its death. At least, you saved Terraria of certain doom..........again.
+
+EntryO28: Such an ancient presence is worth documenting - the material of its plates can withstand temperatures equal to the core of the Terrarian Sun! This will revolutionize containment procedures for ARS-0N prisoners if we can make materials half as resistant to heat!
+
+EntryO29: Whoever made the Ravager deserves to be put in HI-MAX containment. All those tortured souls....... Well, at least you put them out of their misery.
+
+EntryO30: Interesting... those Bumblebirbs were actually meant to be clones of Yharon. I’m glad that experiment was a failure!
+
+EntryO31: You were lucky that thing got complacent and didn't open a portal to the Sun on our heads. The sheer strength and intelligence it exhibited means I need to make a whole new category for the classification of Worms.
+
+EntryO32: I have my theories about the origin of this being, frightening more than his soul (if he even has one)... Irradiates negative energy, experimentation shown how in darkness this ''oblivion energy'', irradiated light but in light places irradiated shadow. I don't know where he came from but I know that whatever it is, it must be contained at any cost!
+
+EntryO33: Supreme Calamitas has been defeated but she speaks of a being even stronger than herself. We must hope that he hasn't taken notice of us yet.
+
+EntryO34: I’m honestly not sure why giant spinning skulls are the key to everything, but somehow they seem to contain the power of celestial beings within them...
+
+EntryO35: Yeah, I know that we are the ones capturing and farming horrifying eldritch entities. But who the hell thought It was a good idea to put loot bags inside a giant monster?!?!
+
+EntryO36: Кemember Manager, Treasure Bags are valuable but not everything comes inside them. That mutant man can help you get a boss's most elusive drops.
+
+Alexander: Alexander
+
+Peter: Peter
+
+TinkererButton1: 移動系/その他
+
+TinkererButton2: 戦闘系
+
+EntryT1: Do you need something special? Just say if so...
+
+EntryT2: Have you seen my elder sister yet? She is more Steampunker than Tinkerer...
+
+EntryT3: If you seen Paper Tube somewhere, bring it to me and I will unlock it for you.
+
+EntryT4: As you will progress through the world, you may found more valueable things. Counting blueprints for creating rarer accessories.
+
+EntryT5: You never know where you may get really rare or valueable things. So explore every possible corner with patience.
+
+Harold: Harold
+
+Charles: Charles
+
+Monty: Monty
+
+Lucas: Lucas
+
+Porky: Porky
+
+Leeland: Leeland
+
+Atreus: Atreus
+
+Entry1: I'm trading potions which were made by my parents.
+
+Entry2: I have some potions I can sell to you.
+
+Entry3: Although, the Battle Combination was my idea.
+
+Entry4: There's a legendary yoyo known as the Sasscade.
+
+Entry5: Strange Brew from Skeleton Merchant smells really terrible, but Mana Restoration effect is awesome.
+
+Entry6: Hi, *cough*.. That definetly wasn't a lemonade.
+
+Entry7: Have you seen a Mechanical Worm around?
+
+Entry8: "My mom, "
+
+Entry9: ", is the coolest brewer ever, isn't she? She can brew the hardest potions with ease."
+
+Entry10: Certain combinations can only be brewed if certain types of magic are present in the world.
+
+Excavation1: 採掘能力が大幅に向上した
+
+Excavation2: 採掘範囲を設定:
+
+Excavation3: CTRL+右クリックでバフを削除
+
+Tiles: {
+	HMCraftPound: {
+		MapEntry: Superb Crafting Pound
+	}
+
+	MateriaTransmutator: {
+		MapEntry: Materia Transmutator
+	}
+
+	MateriaTransmutatorMK2: {
+		MapEntry: Materia Transmutator MK2
+	}
+
+	PreHMPenny: {
+		MapEntry: Simple Crafting Penny
+	}
+
+	SpecCraftPoint: {
+		MapEntry: Special Crafting Point
+	}
+}
+
+Keybinds: {
+	"Discord Buff Teleportation": {
+		DisplayName: ディスコードバフテレポート
+	}
+}
+
+Configs: {
+	ModConfiguration: {
+		ShopChangeDelay: {
+			Tooltip: インターフェースを開いた後にショップを変更できるまでの遅延。デフォルトは10フレーム
+			Label: ショップ変更の遅延
+		}
+
+		DesertFossilPrice: {
+			Tooltip: デフォルトは1000で価格は10シルバー
+			Label: 砂漠の化石の価格
+		}
+
+		SiltSlushPrice: {
+			Tooltip: デフォルトは700で価格は7シルバー
+			Label: 水雪/砂利ブロックの価格
+		}
+
+		WormholePrice: {
+			Tooltip: デフォルトは1000で価格は10シルバー
+			Label: ワームホールポーションの価格
+		}
+
+		RecallPrice: {
+			Tooltip: デフォルトは1000で価格は10シルバー
+			Label: 帰還のポーションの価格
+		}
+
+		StarPrice: {
+			Tooltip: デフォルトは1000で価格は10シルバー
+			Label: 流れ星の価格
+		}
+
+		PotsPriceMulti: {
+			Tooltip: ポーションの価格をX倍にする。デフォルトは1
+			Label: ポーション価格倍率
+		}
+
+		CatchNPC: {
+			Tooltip: ModのタウンNPCを捕獲可能にします。デフォルトはオン
+			Label: ModのNPC捕獲の切り替え
+		}
+
+		ModItems: {
+			Tooltip: MODによるカスタムアイテム、ポーション(例：残像のポーションなど)の有無を切り替えます。デフォルトはオン(これを変更すると再読み込みが必要になります)
+			Label: MODのカスタムアイテムの切り替え
+		}
+
+		RevPrices: {
+			Tooltip: ポーションの価格を高くします。デフォルトはオン
+			Label: リベンジェンスモード価格倍率
+		}
+
+		DisabledLocatorNpcs: {
+			Tooltip: 矢印がこれらのNPCを指さないようにします
+			Label: ライフフォームアナライザーの無効NPC
+		}
+
+		LocatorRange: {
+			Tooltip: ポインターが追跡する最大距離。デフォルトは4000
+			Label: ライフフォームアナライザーの指示範囲
+		}
+
+		LifeformAnalyzer: {
+			Tooltip: ライフフォームアナライザーのレーザー指示を切り替えます（毎秒ティック）。デフォルトはオン
+			Label: ライフフォームアナライザーのレーザー指示
+		}
+
+		TinkererSpawn: {
+			Tooltip: 修理屋のスポーンを切り替えます。デフォルトはオン
+			Label: 修理屋スポーンの切り替え
+		}
+
+		MusicianSpawn: {
+			Tooltip: 音楽家のスポーンを切り替えます。デフォルトはオン
+			Label: 音楽家スポーンの切り替え
+		}
+
+		OperatorSpawn: {
+			Tooltip: オペレーターのスポーンを切り替えます。デフォルトはオン
+			Label: オペレータースポーンの切り替え
+		}
+
+		ArchitectSpawn: {
+			Tooltip: 建築家のスポーンを切り替えます。デフォルトはオン
+			Label: 建築家スポーンの切り替え
+		}
+
+		YoungBrewerSpawn: {
+			Tooltip: 若い醸造家のスポーンを切り替えます。デフォルトはオン
+			Label: 若い醸造家スポーンの切り替え
+		}
+
+		JewelerSpawn: {
+			Tooltip: 宝石屋のスポーンを切り替えます。デフォルトはオン
+			Label: 宝石屋スポーンの切り替え
+		}
+
+		BrewerSpawn: {
+			Tooltip: 醸造家のスポーンを切り替えます。デフォルトはオン
+			Label: 醸造家スポーンの切り替え
+		}
+
+		AlchemistSpawn: {
+			Tooltip: 錬金術師のスポーンを切り替えます。デフォルトはオン
+			Label: 錬金術師スポーンの切り替え
+		}
+
+		DisplayName: Mod設定
+
+		LifeformAnalyzerAlt: {
+			Label: ライフフォームアナライザーの代替テクスチャ
+			Tooltip: ライフフォームアナライザーの代替テクスチャを使用する。デフォルトはオフ
+		}
+	}
+}
+

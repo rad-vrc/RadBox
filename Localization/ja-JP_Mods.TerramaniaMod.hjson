@@ -1,0 +1,452 @@
+Buffs: {
+	WispMinionBuff: {
+	Description: 骸骨のウィスプがあなたのために戦う
+	DisplayName: スケルタル・ウィスプ
+	}
+
+	FlickerWhipDebuff: {
+		Description: Mods.TerramaniaMod.Buffs.FlickerWhipDebuff.Description
+	DisplayName: フリッカーウィップ
+	}
+
+	LaserLasherDebuff: {
+		Description: Mods.TerramaniaMod.Buffs.LaserLasherDebuff.Description
+	DisplayName: レーザーラッシャー
+	}
+
+	FireflyMinionBuff: {
+	DisplayName: ホタル
+	Description: ホタルがあなたのために戦う
+	}
+
+	LightningBugMinionBuff: {
+	DisplayName: ヒカリムシ
+	Description: ヒカリムシがあなたのために戦う
+	}
+
+	TranquilizerDebuff: {
+	DisplayName: トランキライザー
+		Description: Mods.TerramaniaMod.Buffs.TranquilizerDebuff.Description
+	}
+
+	WhiplashDebuff: {
+	DisplayName: ウィップラッシュ
+		Description: Mods.TerramaniaMod.Buffs.WhiplashDebuff.Description
+	}
+}
+
+Items: {
+	SkeletonStaff: {
+		Tooltip:
+			'''
+			骸骨のウィスプを召喚して戦わせる
+			ミニオン枠を2つ消費する
+			'''
+		DisplayName: スケルトンの杖
+	}
+
+	RainCrest: {
+		Tooltip: 豪雨を召喚する
+		DisplayName: レインクレスト
+	}
+
+	FlickerWhip: {
+		DisplayName: フリッカーウィップ
+		Tooltip:
+			'''
+			召喚タグダメージが7
+			召喚獣は打撃した敵を優先して攻撃する
+			レーザーを連続発射
+			'''
+	}
+
+	FlowerBracelet: {
+		DisplayName: 花のブレスレット
+		Tooltip: 装備者を「ハッピー！」にする
+	}
+
+	FroggyBoots: {
+		DisplayName: フロッギーブーツ
+		Tooltip:
+			'''
+			歩くよりもジャンプのほうが速い
+			静止しているとジャンプ力が上昇
+			'''
+	}
+
+	GoblinProtein: {
+		DisplayName: ゴブリンプロテイン
+		Tooltip:
+			'''
+			最大ライフが25増加
+			近接ダメージが6％増加
+			'''
+	}
+
+	ChubbleCoat: {
+		DisplayName: チャブルのコート
+		Tooltip: 魔法ダメージが12％増加
+	}
+
+	ChubbleHat: {
+		DisplayName: チャブルの帽子
+		Tooltip:
+			'''
+			最大マナが20増加 
+			魔法クリティカル率が12％上昇
+			'''
+	}
+
+	ChubblePants: {
+		DisplayName: チャブルのズボン
+		Tooltip:
+			'''
+			最大マナが20増加 
+			消費マナが16％減少
+			'''
+	}
+
+	ChubbleFur: {
+		DisplayName: チャブルの毛皮
+		Tooltip: ""
+	}
+
+	Dewdrop: {
+		DisplayName: 露の雫
+		Tooltip: ""
+	}
+
+	LiquidBowstring: {
+		DisplayName: リキッド・ボウストリング
+		Tooltip: ""
+	}
+
+	ShellFragment: {
+		DisplayName: 殻の欠片
+		Tooltip: ""
+	}
+
+	SnakeSkin: {
+		DisplayName: 蛇の鱗
+		Tooltip: ""
+	}
+
+	Tranquilizer: {
+		DisplayName: トランキライザー
+		Tooltip: 敵の移動速度を大幅に低下させ無防備にする
+	}
+
+	GooglyGoggles: {
+		DisplayName: DaTacoXのゴーグル
+		Tooltip: ":D"
+	}
+
+	OrangeScarf: {
+		DisplayName: DaTacoXのスカーフ
+		Tooltip: ":D"
+	}
+
+	Scrap: {
+		DisplayName: 木のスクラップ
+		Tooltip: シュレッダーで使用
+	}
+
+	SpectreArrow: {
+		DisplayName: スペクターの矢
+		Tooltip: 破裂時に敵を追尾するスペクターの炎を放つ
+	}
+
+	SpectreBullet: {
+		DisplayName: スペクター弾
+		Tooltip: 執拗に敵を追尾する
+	}
+
+	Coldsnap: {
+		DisplayName: コールドスナップ
+		Tooltip: ""
+	}
+
+	Diffractinator: {
+		DisplayName: ディフラクティネーター
+		Tooltip: 貫通するレーザーを高速で拡散発射
+	}
+
+	Grinder: {
+		DisplayName: グラインダー
+		Tooltip: ""
+	}
+
+	SporeGun: {
+		DisplayName: スポアガン
+		Tooltip: 分裂する胞子の塊を発射
+	}
+
+	ToxiGun: {
+		DisplayName: トキシガン
+		Tooltip: ""
+	}
+
+	BowlingBall: {
+		DisplayName: ボウリングボール
+		Tooltip: 「ストライク！」
+	}
+
+	Echolok: {
+		DisplayName: エコーロック
+		Tooltip: 小さな音波を放つ
+	}
+
+	Taser: {
+		DisplayName: テイザー
+		Tooltip: ""
+	}
+
+	TheJungleSpear: {
+		DisplayName: ジャングルの槍
+		Tooltip: ""
+	}
+
+	TribalSpear: {
+		DisplayName: トライバルスピア
+		Tooltip: ""
+	}
+
+	Fusillade: {
+		DisplayName: フシラード
+		Tooltip: 「楽しさ2倍！」
+	}
+
+	Repetide: {
+		DisplayName: リピタイド
+		Tooltip: 木の矢の発射が速くなり水しぶきを上げる水矢に変化
+	}
+
+	SixShooter: {
+		DisplayName: シックスシューター
+		Tooltip: ""
+	}
+
+	Splitstick: {
+		DisplayName: スプリットスティック
+		Tooltip: ゆっくり飛ぶ弾丸を拡散発射
+	}
+
+	Viper: {
+		DisplayName: バイパー
+		Tooltip: ""
+	}
+
+	Chipper: {
+		DisplayName: チッパー
+		Tooltip: 33％の確率で弾薬を消費しない
+	}
+
+	FireflyStaff: {
+		DisplayName: ホタルの杖
+		Tooltip: ホタルを召喚して戦わせる
+	}
+
+	LightningBugStaff: {
+		DisplayName: ライトニングロッド
+		Tooltip: ヒカリムシを召喚して戦わせる
+	}
+
+	Whiplash: {
+		DisplayName: ウィップラッシュ
+		Tooltip:
+			'''
+			召喚タグダメージが5
+			召喚獣は打撃した敵を優先して攻撃する
+			混乱の効果を与えることがある
+			'''
+	}
+}
+
+NPCs: {
+	ExileFireball: {
+	DisplayName: 追放者の火球
+	}
+
+	Exile: {
+	DisplayName: 追放者
+	}
+
+	ChubbleBody: {
+	DisplayName: チャブル
+	}
+
+	ChubbleHead: {
+	DisplayName: チャブル
+	}
+
+	ChubbleTail: {
+	DisplayName: チャブル
+	}
+
+	GoblinBeast: {
+	DisplayName: ゴブリンビースト
+	}
+
+	GoblinTrainer: {
+	DisplayName: ゴブリントレーナー
+	}
+
+	Leapfrog: {
+	DisplayName: リープフロッグ
+	}
+
+	MistyBody: {
+	DisplayName: ミスティ
+	}
+
+	MistyHead: {
+	DisplayName: ミスティ
+	}
+
+	MistyTail: {
+	DisplayName: ミスティ
+	}
+}
+
+Projectiles: {
+	WispMinion: {
+	DisplayName: ウィスプのミニオン
+	}
+
+	WispFireball: {
+	DisplayName: ウィスプの火球
+	}
+
+	WispExplosion: {
+	DisplayName: ウィスプの爆発
+	}
+
+	ExileFireball: {
+	DisplayName: 追放者の火球
+	}
+
+	WhiplashProj: {
+	DisplayName: ウィップラッシュ（投射物）
+	}
+
+	FlickerWhipProj: {
+	DisplayName: フリッカーウィップ（投射物）
+	}
+
+	FlickerWhipLaser: {
+	DisplayName: フリッカーウィップ・レーザー
+	}
+
+	LasherLaser: {
+	DisplayName: ラッシャー・レーザー
+	}
+
+	LaserLasherProj: {
+	DisplayName: レーザーラッシャー（投射物）
+	}
+
+	BatScree: {
+	DisplayName: コウモリの悲鳴
+	}
+
+	BowlingBallProj: {
+	DisplayName: ボウリングボール（投射物）
+	}
+
+	ColdsnapProj: {
+	DisplayName: コールドスナップ（投射物）
+	}
+
+	DiffractionLaser1: {
+	DisplayName: 回折レーザー1
+	}
+
+	DiffractionLaser2: {
+	DisplayName: 回折レーザー2
+	}
+
+	DiffractionLaser3: {
+	DisplayName: 回折レーザー3
+	}
+
+	FireflyMinion: {
+	DisplayName: ホタルのミニオン
+	}
+
+	GoblinBeastBall: {
+	DisplayName: ゴブリン・ビーストの球
+	}
+
+	GoblinBeastSpawn: {
+	DisplayName: ゴブリン・ビーストのスポーン
+	}
+
+	JungleSpearProj: {
+	DisplayName: ジャングルの槍（投射物）
+	}
+
+	LightningBugMinion: {
+	DisplayName: ヒカリムシのミニオン
+	}
+
+	PoisonBlob: {
+	DisplayName: 毒の塊
+	}
+
+	SingleSpore: {
+	DisplayName: 単体胞子
+	}
+
+	Sludge: {
+	DisplayName: ヘドロ
+	}
+
+	Spark: {
+	DisplayName: スパーク
+	}
+
+	SpectreArrow: {
+	DisplayName: スペクターの矢
+	}
+
+	SpectreBullet: {
+	DisplayName: スペクターの弾
+	}
+
+	SpectreSpirit: {
+	DisplayName: スペクター・スピリット
+	}
+
+	SporeClump: {
+	DisplayName: 胞子の塊
+	}
+
+	TaserProj: {
+	DisplayName: テイザー（投射物）
+	}
+
+	TranquilizerDart: {
+	DisplayName: トランキライザー・ダーツ
+	}
+
+	VenomBlob: {
+	DisplayName: 猛毒の塊
+	}
+
+	VenomSpearProj: {
+	DisplayName: 猛毒の槍（投射物）
+	}
+
+	WaterArrow: {
+	DisplayName: 水矢
+	}
+
+	WaterArrowSplash: {
+	DisplayName: 水矢の水しぶき
+	}
+
+	WoodScraps: {
+	DisplayName: 木のスクラップ
+	}
+}
+

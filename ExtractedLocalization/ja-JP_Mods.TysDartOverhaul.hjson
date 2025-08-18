@@ -1,0 +1,300 @@
+Buffs: {
+	CarapaceDartDebuff: {
+		DisplayName: 串刺し
+		Tooltip: 激しく出血している
+		Description: 激しく出血している
+	}
+}
+
+Items: {
+	BoneDart: {
+		DisplayName: 骨のダーツ
+		Tooltip: 致命的な破片に砕け散る
+	}
+
+	CarapaceDart: {
+		DisplayName: 甲殻のダーツ
+		Tooltip: 敵に突き刺さる
+	}
+
+	ChlorophyteDart: {
+		DisplayName: クロロファイトのダーツ
+		Tooltip: 自然のエネルギーで敵を切り裂く
+	}
+
+	Dart: {
+		DisplayName: ダーツ
+		Tooltip: ""
+	}
+
+	EctoplasmDart: {
+		DisplayName: 霊魂のダーツ
+		Tooltip: 着弾時にホーミングするウィスプを生成する
+	}
+
+	EndlessDartCase: {
+		DisplayName: 無限のダーツケース
+		Tooltip: ""
+	}
+
+	FeatherDart: {
+		DisplayName: 羽のダーツ
+		Tooltip: 重力の影響を受けない
+	}
+
+	LuminiteDart: {
+		DisplayName: ルミナイトのダーツ
+		Tooltip: 「我が道に立つとは大胆な…」
+	}
+
+	ShimmerDart: {
+		DisplayName: シマーのダーツ
+		Tooltip: 非常に良く跳ねる
+	}
+
+	VenomDart: {
+		DisplayName: 猛毒のダーツ
+		Tooltip: 二重らせんのダーツに分裂する
+	}
+
+	DartlingHelm: {
+		DisplayName: ダーツリングヘルム
+		Tooltip: ""
+	}
+
+	AirRifle: {
+		DisplayName: エアライフル
+		Tooltip:
+			'''
+			高速のダーツを発射する
+			「正真正銘のクラシック」
+			'''
+	}
+
+	AncientCrossbow: {
+		DisplayName: 古代のクロスボウ
+		Tooltip: 貫通する死者のダーツを撃つ
+	}
+
+	Atlatl: {
+		DisplayName: アトラトル
+		Tooltip: ""
+	}
+
+	ClockworkBallista: {
+		DisplayName: クロックワーク・バリスタ
+		Tooltip: 66%の確率でダーツを消費しない
+	}
+
+	DartGlove: {
+		DisplayName: ダーツグローブ
+		Tooltip: ""
+	}
+
+	DartlingGun: {
+		DisplayName: ダートリングガン
+		Tooltip: 50%の確率でダーツを消費しない
+	}
+
+	Decapitator: {
+		DisplayName: デキャピテーター
+		Tooltip: 2本の死者のダーツを平行に発射する
+	}
+
+	HellfireBlaster: {
+		DisplayName: ヘルファイアブラスター
+		Tooltip: 爆発性のブレイジングダーツを発射する
+	}
+
+	PhasicDartEjector: {
+		DisplayName: フェイジックダーツイジェクター
+		Tooltip: 最大9本のダーツの爆風をチャージする
+	}
+
+	PoisonDartFrog: {
+		DisplayName: ポイズンダーツフロッグ
+		Tooltip: 毒のダーツを拡散発射する
+	}
+
+	SHREDR: {
+		DisplayName: S.H.R.E.D.R.
+		Tooltip: 50%の確率でダーツを消費しない
+	}
+
+	StingOperation: {
+		DisplayName: スティング・オペレーション
+		Tooltip:
+			'''
+			猛毒のスティンガーダーツを電光石火の速さで発射する
+			33%の確率で弾薬を消費しない
+			'''
+	}
+
+	TheStinger: {
+		DisplayName: ザ・スティンガー
+		Tooltip:
+			'''
+			毒のあるスティンガーダーツを高速で発射する
+			25%の確率で弾薬を消費しない
+			'''
+	}
+
+	TripleDartGlove: {
+		DisplayName: トリプルダーツグローブ
+		Tooltip: ""
+	}
+
+	HuntsmanBandana: {
+		DisplayName: ハントマンのバンダナ
+		Tooltip:
+			'''
+			ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる
+			20%の確率でダーツを消費しない
+			'''
+	}
+
+	AssassinsHeadband: {
+		DisplayName: アサシンのヘッドバンド
+		Tooltip:
+			'''
+			ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる
+			20%の確率でダーツを消費しない
+			敵に狙われにくくなる
+			'''
+	}
+
+	PredatorsBandana: {
+		DisplayName: プレデターのバンダナ
+		Tooltip:
+			'''
+			ダーツのダメージを10%増加させ、ダーツのノックバックを大幅に増加させる
+			20%の確率でダーツを消費しない
+			基本的なダーツを毒でコーティングする
+			'''
+	}
+}
+
+Projectiles: {
+	ClockworkBallista_HeldProjectile: {
+		DisplayName: クロックワークバリスタ（保持）
+	}
+
+	PhasicDartEjector_HeldProjectile: {
+		DisplayName: フェイジックダーツイジェクター（保持）
+	}
+
+	BoneDartShrapnelProjectile: {
+		DisplayName: 骨の破片
+	}
+
+	BoneDartProjectile: {
+		DisplayName: ボーンダーツ
+	}
+
+	CarapaceDartProjectile: {
+		DisplayName: カラペースダーツ
+	}
+
+	ChlorophyteDartProjectile: {
+		DisplayName: クロロファイトダーツ
+	}
+
+	ChlorophyteDartSlashProjectile: {
+		DisplayName: クロロファイトスラッシュ
+	}
+
+	DartProjectile: {
+		DisplayName: ダーツ
+	}
+
+	EctoplasmDartProjectile: {
+		DisplayName: エクトプラズムダーツ
+	}
+
+	EctoplasmDartEctoboltProjectile: {
+		DisplayName: エクトボルト
+	}
+
+	FeatherDartProjectile: {
+		DisplayName: フェザーダーツ
+	}
+
+	LuminiteDartProjectile: {
+		DisplayName: ルミナイトダーツ
+	}
+
+	ShimmerDartProjectile: {
+		DisplayName: シマーダーツ
+	}
+
+	VenomDartProjectile: {
+		DisplayName: ヴェノムダーツ
+	}
+
+	BlazingDartProjectile: {
+		DisplayName: ブレイジングダーツ
+	}
+
+	NecroDartProjectile: {
+		DisplayName: ネクロダーツ
+	}
+
+	QueensStingerDartProjectile: {
+		DisplayName: クイーンズ・スティンガー
+	}
+
+	StingerDartProjectile: {
+		DisplayName: スティンガーダーツ
+	}
+
+	IchorDartReworked: {
+		DisplayName: イコル・ダーツ
+	}
+}
+
+Configs: {
+	TysDartOverhaulConfig: {
+		DisplayName: Mod設定
+
+		AddNewDartguns: {
+			Label: 新しいModのダーツガンを追加
+			Tooltip:
+				'''
+				新しいModのダーツガンを追加する
+				(デフォルトで有効)
+				'''
+		}
+
+		AddNewDarts: {
+			Label: 新しいModのダーツを追加
+			Tooltip:
+				'''
+				新しいModのダーツ弾薬タイプを追加する
+				(デフォルトで有効)
+				'''
+		}
+
+		AddNewAccessories: {
+			Label: 新しいModのダーツアクセサリーを追加
+			Tooltip:
+				'''
+				新しいModのダーツサブクラス用アクセサリーを追加する
+				(デフォルトで有効)
+				'''
+		}
+
+		VanillaDartChanges: {
+			Label: バニラのダーツへの変更
+			Tooltip:
+				'''
+				バニラのダーツを変更し、ビジュアルとバランスを改善する
+				(デフォルトで有効)
+				'''
+		}
+	}
+}
+
+VanillaItemTooltips: {
+	PoisonDart: 着弾時に爆発する
+}
+

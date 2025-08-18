@@ -1,0 +1,515 @@
+Items: {
+	Demon_Launcher: {
+		Tooltip: "「何が私を優秀な爆撃手にするのか？」"
+		DisplayName: "デーモンランチャー"
+	}
+
+	Skull_Cannon: {
+		Tooltip: "グレネードを爆発スカルに憑依させる"
+		DisplayName: "スカルキャノン"
+	}
+
+	PinkyWrath: {
+		Tooltip:
+			'''
+			発射時に2個の弾むグレネードを放つ
+			弾むグレネードの弾薬を強化する
+			'''
+		DisplayName: "ピンキーの怒り"
+	}
+
+	Hallowed_BlastPlate: {
+		Tooltip: "自爆ダメージを大幅に軽減"
+		DisplayName: "ハローブラストプレート"
+	}
+
+	Rusty_Thumper: {
+		DisplayName: "ブループチューブ"
+		Tooltip: "グレネードをより遠くに発射"
+	}
+
+	Mushroom_Mortar: {
+		DisplayName: "マッシュルームモルタル"
+		Tooltip: "グレネードを菌類化する"
+	}
+
+	Capillary_Launcher: {
+		Tooltip: "「懐かしのクリムストーン」"
+		DisplayName: "キャピラリーランチャー"
+	}
+
+	Bamboom_Chute: {
+		Tooltip: "グレネードの代わりにバンブームを発射"
+		DisplayName: "バンブームシュート"
+	}
+
+	HiveBlaster: {
+		DisplayName: "ハイブブラスター"
+		Tooltip: "ハイブロケットをバースト発射"
+	}
+
+	ShadowShot: {
+		DisplayName: "シャドウショット"
+		Tooltip: "グレネードをシャドウフレイムで包む"
+	}
+
+	ThornGrenade: {
+		Tooltip: "爆発するスパイクを放ち、標的を毒状態にする"
+		DisplayName: "ソーングレネード"
+	}
+
+	GrenadeBelt: {
+		Tooltip: ""
+		DisplayName: "エンドレスグレネードベルト"
+	}
+
+	RocketCrate: {
+		Tooltip: ""
+		DisplayName: "エンドレスロケットクレート"
+	}
+
+	Quad_Blitzer: {
+		Tooltip: "5発のロケットを素早くバースト発射"
+		DisplayName: "ペンタブリッツァー"
+	}
+
+	JumboGrenade: {
+		Tooltip: "爆発範囲から離れること"
+		DisplayName: "ジャンボグレネード"
+	}
+
+	IchorGrenade: {
+		Tooltip: "標的の防御力を減少させる"
+		DisplayName: "霊液のグレネード"
+	}
+
+	CursedGrenade: {
+		Tooltip: "敵を呪いの業火で燃やす"
+		DisplayName: "呪いのグレネード"
+	}
+
+	ChatterBox: {
+		Tooltip: "歯がカチカチ鳴る爆弾がこの武器に詰まっている"
+		DisplayName: "チャッターボックス"
+	}
+
+	Orbital_Striker: {
+		DisplayName: "オービタルストライカー"
+		Tooltip: "カーソルを追跡する低速ロケットを発射"
+	}
+
+	Loose_Cannon: {
+		DisplayName: "ルースキャノン"
+		Tooltip:
+			'''
+			チャージで発射物ダメージが増加
+			遅い命中は追加ダメージを与える
+			'''
+	}
+
+	SlimeFall: {
+		DisplayName: "スライムフォール"
+		Tooltip: "スライムグレネードを連射"
+	}
+
+	RattleLauncher: {
+		DisplayName: "ラトルバズーカ"
+		Tooltip: "すべてのグレネードタイプをサンドストームロケットに変換"
+	}
+
+	AdamantiteLauncher: {
+		DisplayName: "アダマンタイトランチャー"
+		Tooltip: "ロケットを発射"
+	}
+
+	TitaniumLauncher: {
+		DisplayName: "チタニウムランチャー"
+		Tooltip: "グレネードを発射"
+	}
+
+	HeatSeeker: {
+		DisplayName: "ヒートシーカー"
+		Tooltip: "追加でホーミングロケットを発射"
+	}
+
+	ShellbackThumper: {
+		DisplayName: "シェルバックサンパー"
+		Tooltip: "グレネードを亀の甲羅で包む"
+	}
+
+	StickyGrenadeLauncher: {
+		Tooltip:
+			'''
+			地面を住めなくする
+			粘着グレネードの弾薬を強化する
+			'''
+		DisplayName: "スティッキースパマー"
+	}
+}
+
+Projectiles: {
+	SkullRocket: {
+		DisplayName: "スカルロケット"
+	}
+
+	MushNade: {
+		DisplayName: "マッシュネード"
+	}
+
+	Bamboom: {
+		DisplayName: "バンブーム"
+	}
+
+	Hive_Rocket: {
+		DisplayName: "ハイブロケット"
+	}
+
+	ShadowflameGrenade: {
+		DisplayName: "シャドウフレイムグレネード"
+	}
+
+	ThornBomb: {
+		DisplayName: "ソーングレネード"
+	}
+
+	BouncySkullRocket: {
+		DisplayName: "弾むスカルロケット"
+	}
+
+	StickySkullRocket: {
+		DisplayName: "粘着スカルロケット"
+	}
+
+	HappySkullRocket: {
+		DisplayName: "ハッピースカルロケット"
+	}
+
+	ThornSkullRocket: {
+		DisplayName: "ソーンスカルロケット"
+	}
+
+	ThornBamboom: {
+		DisplayName: "ソーンバンブーム"
+	}
+
+	StickyBamboom: {
+		DisplayName: "粘着バンブーム"
+	}
+
+	HappyBamboom: {
+		DisplayName: "ハッピーバンブーム"
+	}
+
+	BouncyBamboom: {
+		DisplayName: "弾むバンブーム"
+	}
+
+	ThornHive_Rocket: {
+		DisplayName: "ソーンハイブロケット"
+	}
+
+	StickyHive_Rocket: {
+		DisplayName: "粘着ハイブロケット"
+	}
+
+	HappyHive_Rocket: {
+		DisplayName: "ハッピーハイブロケット"
+	}
+
+	BouncyHive_Rocket: {
+		DisplayName: "弾むハイブロケット"
+	}
+
+	EarlyHMRocket: {
+		DisplayName: "グレネードロケット"
+	}
+
+	ThornEarlyHMRocket: {
+		DisplayName: "ソーンロケット"
+	}
+
+	StickyEarlyHMRocket: {
+		DisplayName: "粘着ロケット"
+	}
+
+	HappyEarlyHMRocket: {
+		DisplayName: "ハッピーロケット"
+	}
+
+	BouncyEarlyHMRocket: {
+		DisplayName: "弾むロケット"
+	}
+
+	JumboBomb: {
+		DisplayName: "ジャンボグレネード"
+	}
+
+	JumboEarlyHMRocket: {
+		DisplayName: "ジャンボロケット"
+	}
+
+	IchorBomb: {
+		DisplayName: "霊液爆弾"
+	}
+
+	CursedBomb: {
+		DisplayName: "呪いの爆弾"
+	}
+
+	IchorEarlyHMRocket: {
+		DisplayName: "霊液ロケット"
+	}
+
+	CursedEarlyHMRocket: {
+		DisplayName: "呪いのロケット"
+	}
+
+	JumboSkullRocket: {
+		DisplayName: "ジャンボスカルロケット"
+	}
+
+	IchorSkullRocket: {
+		DisplayName: "霊液スカルロケット"
+	}
+
+	CursedSkullRocket: {
+		DisplayName: "呪いのスカルロケット"
+	}
+
+	JumboHive_Rocket: {
+		DisplayName: "ジャンボハイブロケット"
+	}
+
+	IchorHive_Rocket: {
+		DisplayName: "霊液ハイブロケット"
+	}
+
+	CursedHive_Rocket: {
+		DisplayName: "呪いのハイブロケット"
+	}
+
+	JumboBamboom: {
+		DisplayName: "ジャンボバンブーム"
+	}
+
+	IchorBamboom: {
+		DisplayName: "霊液バンブーム"
+	}
+
+	CursedBamboom: {
+		DisplayName: "呪いのバンブーム"
+	}
+
+	Chatter: {
+		DisplayName: "チャッター歯ガチガチグレネード"
+	}
+
+	SpaceRocket: {
+		DisplayName: "スペースロケット"
+	}
+
+	BouncySpaceRocket: {
+		DisplayName: "弾むスペースロケット"
+	}
+
+	CursedSpaceRocket: {
+		DisplayName: "呪いのスペースロケット"
+	}
+
+	HappySpaceRocket: {
+		DisplayName: "ハッピースペースロケット"
+	}
+
+	IchorSpaceRocket: {
+		DisplayName: "霊液スペースロケット"
+	}
+
+	JumboSpaceRocket: {
+		DisplayName: "ジャンボスペースロケット"
+	}
+
+	StickySpaceRocket: {
+		DisplayName: "粘着スペースロケット"
+	}
+
+	ThornSpaceRocket: {
+		DisplayName: "ソーンスペースロケット"
+	}
+
+	CannonBall: {
+		DisplayName: "キャノンボール"
+	}
+
+	CannonBallHalf: {
+		DisplayName: "キャノンボールハーフ"
+	}
+
+	CannonBallLow: {
+		DisplayName: "キャノンボールロー"
+	}
+
+	BouncyCannonBall: {
+		DisplayName: "弾むキャノンボール"
+	}
+
+	CursedCannonBall: {
+		DisplayName: "呪いのキャノンボール"
+	}
+
+	HappyCannonBall: {
+		DisplayName: "ハッピーキャノンボール"
+	}
+
+	IchorCannonBall: {
+		DisplayName: "霊液キャノンボール"
+	}
+
+	JumboCannonBall: {
+		DisplayName: "ジャンボキャノンボール"
+	}
+
+	StickyCannonBall: {
+		DisplayName: "粘着キャノンボール"
+	}
+
+	ThornCannonBall: {
+		DisplayName: "ソーンキャノンボール"
+	}
+
+	GelBomb: {
+		DisplayName: "スパークルスライムグレネード"
+	}
+
+	ThornBombHM: {
+		DisplayName: "ソーングレネード"
+	}
+
+	HomingEarlyHMRocket: {
+		DisplayName: "ホーミングレーザーロケット"
+	}
+
+	TurtleBomb: {
+		DisplayName: "タートルグレネード"
+	}
+
+	StickyMushNade: {
+		DisplayName: "粘着マッシュネード"
+	}
+
+	BouncyMushNade: {
+		DisplayName: "弾むマッシュネード"
+	}
+
+	HappyMushNade: {
+		DisplayName: "ハッピーマッシュネード"
+	}
+
+	ThornMushNade: {
+		DisplayName: "ソーンマッシュネード"
+	}
+
+	CursedMushNade: {
+		DisplayName: "呪いのマッシュネード"
+	}
+
+	IchorMushNade: {
+		DisplayName: "霊液マッシュネード"
+	}
+
+	JumboMushNade: {
+		DisplayName: "ジャンボマッシュネード"
+	}
+
+	StickyShadowGrenade: {
+		DisplayName: "粘着シャドウフレイムグレネード"
+	}
+
+	BouncyShadowGrenade: {
+		DisplayName: "弾むシャドウフレイムグレネード"
+	}
+
+	HappyShadowGrenade: {
+		DisplayName: "ハッピーシャドウフレイムグレネード"
+	}
+
+	ThornShadowBomb: {
+		DisplayName: "ソーンシャドウフレイムグレネード"
+	}
+
+	CursedShadowGrenade: {
+		DisplayName: "呪いのシャドウフレイムグレネード"
+	}
+
+	IchorShadowBomb: {
+		DisplayName: "霊液シャドウフレイムグレネード"
+	}
+
+	JumboShadowGrenade: {
+		DisplayName: "ジャンボシャドウフレイムグレネード"
+	}
+
+	StickyTurtleBomb: {
+		DisplayName: "粘着タートルグレネード"
+	}
+
+	BouncyTurtleBomb: {
+		DisplayName: "弾むタートルグレネード"
+	}
+
+	HappyTurtleBomb: {
+		DisplayName: "ハッピータートルグレネード"
+	}
+
+	ThornTurtleBomb: {
+		DisplayName: "ソーンタートルグレネード"
+	}
+
+	CursedTurtleBomb: {
+		DisplayName: "呪いのタートルグレネード"
+	}
+
+	IchorTurtleBomb: {
+		DisplayName: "霊液タートルグレネード"
+	}
+
+	JumboTurtleBomb: {
+		DisplayName: "ジャンボタートルグレネード"
+	}
+
+	StickierGrenade: {
+		DisplayName: "より粘着グレネード"
+	}
+
+	BouncierGrenade: {
+		DisplayName: "より弾むグレネード"
+	}
+
+	RealFakeSticky: {
+		DisplayName: "粘着グレネード"
+	}
+
+	RealFakeBouncy: {
+		DisplayName: "弾むグレネード"
+	}
+
+	BouncierGrenadeHM: {
+		DisplayName: "より弾むグレネード"
+	}
+
+	StickierGrenadeHM: {
+		DisplayName: "より粘着グレネード"
+	}
+
+	DoubleRocket: {
+		DisplayName: "ダブルロケット"
+	}
+
+	SandRocket: {
+		DisplayName: "サンドストームロケット"
+	}
+
+	SnakeTornado: {
+		DisplayName: "スネークトルネード"
+	}
+}
+

@@ -1,0 +1,678 @@
+Projectiles: {
+	ZodiacBobberP: {
+		DisplayName: Zodiac Bobber
+	}
+
+	XolaBobberP: {
+		DisplayName: Xola Bobber
+	}
+
+	VoyageBobberP: {
+		DisplayName: Voyage Bobber
+	}
+
+	TwinBobberP: {
+		DisplayName: Twin Bobber
+	}
+
+	SporetoothP: {
+		DisplayName: Sporetooth
+	}
+
+	LuckyBobberP: {
+		DisplayName: Lucky Bobber
+	}
+
+	JuniorBobberP: {
+		DisplayName: Junior Bobber
+	}
+
+	GemBobberP: {
+		DisplayName: Gem Bobber
+	}
+
+	FlyfishP: {
+		DisplayName: Flyfish
+	}
+
+	CaveBobberP: {
+		DisplayName: Cave Bobber
+	}
+
+	AdeptBobberP: {
+		DisplayName: Adept Bobber
+	}
+}
+
+Items: {
+	HivePuffer: {
+		Tooltip: "'It's... buzzing!'"
+		DisplayName: Hive Puffer
+	}
+
+	Sporetooth: {
+		Tooltip: "'Oh, I get it!'"
+		DisplayName: Sporetooth Mushark
+	}
+
+	Ocarina: {
+		Tooltip: Summons rain when played
+		DisplayName: Ocarina
+	}
+
+	FulgurShark: {
+		Tooltip: "'When the depths aren't deep enough'"
+		DisplayName: Fulgur Shark
+	}
+
+	KevlonSpool: {
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast four lines when fishing
+			'The power of kevlon!'
+			'''
+		DisplayName: Kevlon Spool
+	}
+
+	BilineSpool: {
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast two lines when fishing
+			'''
+		DisplayName: Biline Spool
+	}
+
+	PlatinumReel: {
+		Tooltip:
+			'''
+			+10% increased chance to upgrade crates to the next tier
+			+2% chance to fish an additional crate
+			'''
+		DisplayName: Platinum Reel
+	}
+
+	GoldReel: {
+		Tooltip:
+			'''
+			+10% increased chance to upgrade crates to the next tier
+			+2% chance to fish an additional crate
+			'''
+		DisplayName: Gold Reel
+	}
+
+	TitanReel: {
+		Tooltip:
+			'''
+			+20% increased chance to upgrade crates to the next tier
+			+4% chance to fish an additional crate
+			'''
+		DisplayName: Titanium Reel
+	}
+
+	AdamReel: {
+		Tooltip:
+			'''
+			+20% increased chance to upgrade crates to the next tier
+			+4% chance to fish an additional crate
+			'''
+		DisplayName: Adamantite Reel
+	}
+
+	QuestTicket: {
+		Tooltip: Swap this for a different fishing quest!
+		DisplayName: Quest Ticket
+	}
+
+	UltrabrightPotion: {
+		Tooltip: Makes you ultrabright
+		DisplayName: Ultrabright Potion
+	}
+
+	SuperFishingPotion: {
+		Tooltip:
+			'''
+			Increases fishing power by 23
+			Does not stack with the effects of 釣りのポーション
+			'''
+		DisplayName: Super Fishing Potion
+	}
+
+	SuperCratePotion: {
+		Tooltip:
+			'''
+			Increases chance to get a crate a lot
+			Does not stack with the effects of 箱のポーション
+			'''
+		DisplayName: Super Crate Potion
+	}
+
+	SuperAnglerPotion: {
+		Tooltip: Significantly improves overall fishing ability
+		DisplayName: Super Angler Potion
+	}
+
+	FrogPotion: {
+		Tooltip: Increases jump height
+		DisplayName: Frog Potion
+	}
+
+	DivingPotion: {
+		Tooltip: Grants underwater breathing and mobility
+		DisplayName: Diving Potion
+	}
+
+	AnglerPotion: {
+		Tooltip: Improves overall fishing ability
+		DisplayName: Angler Potion
+	}
+
+	XolaRod: {
+		Tooltip: Bait power is doubled
+		DisplayName: Xola's Fishing Rod
+	}
+
+	TwinPole: {
+		Tooltip: Cast one additional line when fishing
+		DisplayName: Twin Cattail Pole
+	}
+
+	TheZodiac: {
+		Tooltip:
+			'''
+			Influenced by moon phase
+			'The brighter the better, the dimmer the slimmer...normal at half moon.'
+			'''
+		DisplayName: The Zodiac
+	}
+
+	TheVoyager: {
+		Tooltip: "'From across the seven depths'"
+		DisplayName: The Voyager
+	}
+
+	LadyLuck: {
+		Tooltip: Fishing power based on highest Critical Chance
+		DisplayName: Lady Luck
+	}
+
+	JuniorPole: {
+		Tooltip: "'Some day I gonna reel 'em all!'"
+		DisplayName: Junior Pole
+	}
+
+	GemRod: {
+		Tooltip:
+			'''
+			Catch gems instead of fish
+			Fishing power is halved
+			'Likely to get a lot of junk...'
+			'''
+		DisplayName: Jewel Fishing Rod
+	}
+
+	CaveRod: {
+		Tooltip: "'We have to fish deeper!'"
+		DisplayName: Spelunking Rod
+	}
+
+	AdeptPole: {
+		Tooltip: "'Very makeshift'"
+		DisplayName: Adept's Pole
+	}
+
+	Plankton: {
+		Tooltip: "'You feel an ancient presence seeking this item...'"
+		DisplayName: Alien Plankton
+	}
+
+	Gnomon: {
+		ReducedCooldownMessage: Enchanted Sundial cooldown reduced from {0} to {1} days by using the Enchanted Gnomon!
+		Tooltip: Reduces the cooldown of the Enchanted Sundial
+		DisplayName: Enchanted Gnomon
+	}
+
+	WaywardBottle: {
+		Tooltip: "'What's that inside?'"
+		DisplayName: Wayward Bottle
+	}
+
+	PrettyGuppy: {
+		Tooltip: "'Worth a pretty penny!'"
+		DisplayName: Pristine Guppy
+	}
+
+	OldScale: {
+		Tooltip: It's a work in progress...
+		DisplayName: Primordial Ecailles
+	}
+
+	OldFin: {
+		Tooltip: It's a work in progress...
+		DisplayName: Primordial Nageoires
+	}
+
+	OldEye: {
+		Tooltip: It's a work in progress...
+		DisplayName: Primordial Yeux
+	}
+
+	OddString: {
+		Tooltip: "'This durable thread just gave you a great idea!'"
+		DisplayName: Suspicious String
+	}
+
+	KevlonString: {
+		Tooltip: Super tearproof!
+		DisplayName: Kevlon String
+	}
+
+	CrocTooth: {
+		Tooltip: "'Something is looking for this...'"
+		DisplayName: Crocodile Tooth
+	}
+
+	Driftwood: {
+		Tooltip: "'At least it gave you a workout, while dragging it out'"
+		DisplayName: Driftwood
+	}
+
+	Cattail: {
+		Tooltip: "'Nice looking...except when at your fishing hook'"
+		DisplayName: Cattail
+	}
+
+	Cassette: {
+		Tooltip: "'Take your music anywhere, it never skips or scratches, just rips, tears or melts!'"
+		DisplayName: Cassette
+	}
+
+	BrokenSonar: {
+		Tooltip: "'It's missing some parts...but seems repairable'"
+		DisplayName: Broken Sonar
+	}
+
+	BrokenPDA: {
+		Tooltip: "'Almost got your hopes up...'"
+		DisplayName: Broken PDA
+	}
+
+	JigCollection: {
+		Tooltip: Has a jig for every situation
+		DisplayName: Jig Collection
+	}
+
+	SnowJig: {
+		Tooltip: Allows catching unique Tundra fish
+		DisplayName: Frozen Jig
+	}
+
+	SeaJig: {
+		Tooltip: Allows catching unique Ocean fish
+		DisplayName: Ocean Jig
+	}
+
+	JungleJig: {
+		Tooltip: Allows catching unique Jungle fish
+		DisplayName: Jungle Jig
+	}
+
+	HellJig: {
+		Tooltip: Allows catching unique Underworld fish
+		DisplayName: Infernal Jig
+	}
+
+	TitanHook: {
+		Tooltip: +10 Fishing Power
+		DisplayName: Titanium Hook
+	}
+
+	PlatinumHook: {
+		Tooltip: +5 Fishing Power
+		DisplayName: Platinum Hook
+	}
+
+	GoldHook: {
+		Tooltip: +5 Fishing Power
+		DisplayName: Gold Hook
+	}
+
+	CoinHook: {
+		Tooltip:
+			'''
+			+10 Fishing Power
+			Gain some small coin for each reeled in catch
+			'Catch money and fish!'
+			'''
+		DisplayName: Coin Hook
+	}
+
+	AdamHook: {
+		Tooltip: +10 Fishing Power
+		DisplayName: Adamantite Hook
+	}
+
+	Sweetglub: {
+		Tooltip: "'Honeyed fish!'"
+		DisplayName: Sweetglub
+	}
+
+	Superglub: {
+		Tooltip: "'Something with you and honey, huh?'"
+		DisplayName: Sweet Sweetglub
+	}
+
+	OceanSurprise: {
+		Tooltip: "'A menagerie of sea things'"
+		DisplayName: Ocean Surprise
+	}
+
+	Moonshine: {
+		Tooltip: Makes you a danger to yourself
+		DisplayName: Moonshine
+	}
+
+	LobsterChow: {
+		Tooltip: ""
+		DisplayName: Lobster Chow
+	}
+
+	Frostedfin: {
+		Tooltip: "'Chill out!'"
+		DisplayName: Frosted Flarefin
+	}
+
+	DevilDish: {
+		Tooltip: "'An underworld delicacy'"
+		DisplayName: Devil's Dish
+	}
+
+	CookedShark: {
+		Tooltip: "'A delicacy in distant lands'"
+		DisplayName: Cooked Shark
+	}
+
+	CookedEel: {
+		Tooltip: Imbues you with sandy strength
+		DisplayName: Cooked Eel
+	}
+
+	CookedCluster: {
+		Tooltip: "'An exotic food with exotic properties'"
+		DisplayName: Cooked Colony
+	}
+
+	Caviar: {
+		Tooltip: "'Quite...cold....why?'"
+		DisplayName: Caviar
+	}
+
+	Whiskeyfish: {
+		Tooltip: "'This fish looks... inebriated'"
+		DisplayName: Whiskeyfish
+	}
+
+	Venomfish: {
+		Tooltip: "'Watch where you hold it!'"
+		DisplayName: Venomous Stonefish
+	}
+
+	Sturgeon: {
+		Tooltip: ""
+		DisplayName: Snow Sturgeon
+	}
+
+	Spacefish: {
+		Tooltip: "'What happens if you squeeze it?'"
+		DisplayName: Bollywog
+	}
+
+	Sardine: {
+		Tooltip: ""
+		DisplayName: Sardine
+	}
+
+	SandShark: {
+		Tooltip: "'Quite a catch!'"
+		DisplayName: Sand Shark
+	}
+
+	RedHerring: {
+		Tooltip: ""
+		DisplayName: Red Herring
+	}
+
+	Pupfish: {
+		Tooltip: "'Sometimes the small ones are the most valuable!'"
+		DisplayName: Legendary Pupfish
+	}
+
+	Mushfin: {
+		Tooltip: "'Strangely familiar... Eat it?'"
+		DisplayName: Spongy Onuso
+	}
+
+	Lobster: {
+		Tooltip: ""
+		DisplayName: Lobster
+	}
+
+	LavaEel: {
+		Tooltip: "'A hot catch!'"
+		DisplayName: Infernal Eel
+	}
+
+	Glittergill: {
+		Tooltip: "'All that glitters is gold'"
+		DisplayName: Glittergill
+	}
+
+	Gamifish: {
+		Tooltip: "'Is it a fish or paper?'"
+		DisplayName: Origami Fish
+	}
+
+	Flyfish: {
+		Tooltip: ""
+		DisplayName: Flyfish
+	}
+
+	Flounder: {
+		Tooltip: ""
+		DisplayName: Flounder
+	}
+
+	DesertEel: {
+		Tooltip: "'Doubles like a snake'"
+		DisplayName: Oasis Eel
+	}
+
+	Coelacanth: {
+		Tooltip: ""
+		DisplayName: Coelacanth
+	}
+
+	Clusterfish: {
+		Tooltip: "'A small colony of fish'"
+		DisplayName: Clusterfish
+	}
+
+	Boxfish: {
+		Tooltip: "'A funny-looking fish'"
+		DisplayName: Boxfish
+	}
+
+	Angling: {
+		Tooltip: ""
+		DisplayName: Angling
+	}
+
+	Anglerfish: {
+		Tooltip: Provides light when held
+		DisplayName: Anglerfish
+	}
+
+	GemCrate: {
+		Tooltip: <right>で開く
+		DisplayName: Jeweled Crate
+	}
+
+	Wiggler: {
+		Tooltip: "'Worth it!'"
+		DisplayName: Lovely Wiggler
+	}
+
+	SpecialBait: {
+		Tooltip: Makes your hook irresistible to quest fish
+		DisplayName: Special Bait
+	}
+
+	Guppy: {
+		Tooltip: Some big fish are crazy for these little tidbits
+		DisplayName: Guppy
+	}
+
+	GoldJelly: {
+		Tooltip: ""
+		DisplayName: Gold Jelly
+	}
+
+	Glowfly: {
+		Tooltip: "'Tempting...'"
+		DisplayName: Glowfly
+	}
+
+	CrabClaw: {
+		Tooltip: Bonus power with Jewel Fishing Rod
+		DisplayName: Crab Claw
+	}
+
+	SonarStick: {
+		Tooltip: Shows what nibbles your hook
+		DisplayName: Sonar Stick
+	}
+
+	RodKit: {
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Increases fishing power and crate chance by 5
+			Cast two lines when fishing
+			'''
+		DisplayName: Fishing Rod Kit
+	}
+
+	MegaRodKit: {
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Increases fishing power and crate chance by 10
+			Cast four lines when fishing
+			'''
+		DisplayName: Advanced Rod Kit
+	}
+
+	Dragnet: {
+		Tooltip:
+			'''
+			Fishing line never breaks
+			Cast eight lines when fishing
+			'Those poor fish...'
+			'''
+		DisplayName: Dragnet
+	}
+}
+
+Buffs: {
+	SonarStickBuff: {
+		Description: You can see what's biting your hook
+		DisplayName: Sonar
+	}
+
+	WaterBoost: {
+		Description:
+			'''
+			Seafood Effect
+			Move freely and faster in water!
+			'''
+		DisplayName: Water Boost
+	}
+
+	Ultrabright: {
+		Description: Whoa, that's bright!
+		DisplayName: Ultrabright
+	}
+
+	Seafood: {
+		Description: Grants buffs while submerged in liquid
+		DisplayName: Seafood
+	}
+
+	Redonkulous: {
+		Description:
+			'''
+			Significantly reduced max life
+			Melee damage increased by max life
+			'''
+		DisplayName: Redonkulous
+	}
+
+	Oasis: {
+		Description: Improved desert defenses
+		DisplayName: Oasis
+	}
+
+	Leapfrog: {
+		Description: Jump like a frog!
+		DisplayName: Leapfrog
+	}
+
+	LavaBoost: {
+		Description:
+			'''
+			Seafood Effect
+			You deal 24% more damage while melting!
+			'''
+		DisplayName: Lava Boost
+	}
+
+	HoneyBoost: {
+		Description:
+			'''
+			Seafood Effect
+			Life regeneration increased even more!
+			'''
+		DisplayName: Honey Boost
+	}
+
+	DrunkWisdom: {
+		Description:
+			'''
+			Significantly reduced max life
+			Magic damage increased by max life
+			'''
+		DisplayName: Drunken Wisdom
+	}
+
+	BigFishing: {
+		Description: Increases fishing power significantly
+		DisplayName: Big Fishing
+	}
+
+	BigCrate: {
+		Description: Greatest chance of fishing up a crate
+		DisplayName: Big Crate
+	}
+
+	BaitBuddies: {
+		Description: Run 4% faster for every active minion
+		DisplayName: Bait Buddies
+	}
+
+	AncientRay: {
+		Description: You've befriended a flying manta ray from outer space
+		DisplayName: Ancient Ray
+	}
+}
+

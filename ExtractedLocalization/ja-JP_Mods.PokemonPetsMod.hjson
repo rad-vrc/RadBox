@@ -1,0 +1,854 @@
+Configs: {
+	VanityPetOrLightPetEnum: {
+		LightPet: {
+			Label: Light Pet
+		}
+
+		VanityPet: {
+			Label: Vanity Pet
+		}
+
+		Tooltip: ""
+	}
+
+	Config: {
+		PumpkabooPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Pumpkaboo should behave as a Vanity Pet or a Light Pet
+				If Pumpkaboo is set as a Light Pet, it will emit light slightly brighter than a Fairy Bell
+				Default is Light Pet (Recommended)
+				'''
+			Label: Pumpkaboo Pet Settings
+		}
+
+		CyndaquilPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Cyndaquil should behave as a Vanity Pet or a Light Pet
+				If Cyndaquil is set as a Light Pet, it will emit light equivalent to a Magic Lantern
+				Default is Vanity Pet (Recommended)
+				'''
+			Label: Cyndaquil Pet Settings
+		}
+
+		PidgeyToggle: {
+			Tooltip:
+				'''
+				If enabled, Pidgey's pet summon item will become obtainable by defeating Harpies
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/PidgeyItem] Toggle Pidgey"
+		}
+
+		PumpkabooToggle: {
+			Tooltip:
+				'''
+				If enabled, Pumpkaboo's pet summon item will become obtainable by defeating Headless Horsemen
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/PumpkabooItem] Toggle Pumpkaboo"
+		}
+
+		CyndaquilToggle: {
+			Tooltip:
+				'''
+				If enabled, Cyndaquil's pet summon item will become obtainable by defeating Lava Slimes
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/CyndaquilItem] Toggle Cyndaquil"
+		}
+
+		BeldumToggle: {
+			Tooltip:
+				'''
+				If enabled, Beldum's pet summon item will become obtainable by buying it from the Cyborg
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/BeldumItem] Toggle Beldum"
+		}
+
+		MismagiusToggle: {
+			Tooltip:
+				'''
+				If enabled, Mismagius' pet summon item will become obtainable by defeating Tims and Rune Wizards
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/MismagiusItem] Toggle Mismagius"
+		}
+
+		SnomToggle: {
+			Tooltip:
+				'''
+				If enabled, Snom's pet summon item will become obtainable by defeating Ice Slimes and Spiked Ice Slimes
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/SnomItem] Toggle Snom"
+		}
+
+		LedybaToggle: {
+			Tooltip:
+				'''
+				If enabled, Ledyba's pet summon item will become obtainable by buying it from the Traveling Merchant*
+				If disabled, it will become unobtainable
+
+				*This is a placeholder method. It will be changed in tModLoader's Stable update of March 2025
+				'''
+			Label: "[i:PokemonPetsMod/LedybaItem] Toggle Ledyba"
+		}
+
+		DiancieToggle: {
+			Tooltip:
+				'''
+				If enabled, Diancie's pet summon item will become obtainable by breaking Geodes
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/DiancieItem] Toggle Diancie"
+		}
+
+		DiglettToggle: {
+			Tooltip:
+				'''
+				If enabled, Diglett's pet summon item will become obtainable by buying it from the Skeleton Merchant during days with a Full Moon
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/DiglettItem] Toggle Diglett"
+		}
+
+		MythTrioShimmerToggle: {
+			Tooltip:
+				'''
+				Toggles whether you can exchange Mew, Celebi or Manaphy for one another by transmuting them in Shimmer
+				Disabled Pets will be removed from the cycle
+				'''
+			Label: "[i:5364] Toggle Mew, Celebi and Manaphy Shimmer Cycling"
+		}
+
+		ManaphyPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Manaphy should behave as a Vanity Pet or a Light Pet
+				If Manaphy is set as a Light Pet, it will emit light equivalent to a Fairy Bell
+				Default is Light Pet (Recommended)
+				'''
+			Label: Manaphy Pet Settings
+		}
+
+		CelebiPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Celebi should behave as a Vanity Pet or a Light Pet
+				If Celebi is set as a Light Pet, it will emit light equivalent to a Fairy Bell
+				Default is Light Pet (Recommended)
+				'''
+			Label: Celebi Pet Settings
+		}
+
+		MewPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Mew should behave as a Vanity Pet or a Light Pet
+				If Mew is set as a Light Pet, it will emit light equivalent to a Fairy Bell
+				Default is Light Pet (Recommended)
+				'''
+			Label: Mew Pet Settings
+		}
+
+		ManaphyToggle: {
+			Tooltip:
+				'''
+				If enabled, Manaphy's pet summon item will become obtainable by opening Hardmode Seaside Crates
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/ManaphyItem] Toggle Manaphy"
+		}
+
+		CelebiToggle: {
+			Tooltip:
+				'''
+				If enabled, Celebi's pet summon item will become obtainable by opening Hardmode Bramble Crates
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/CelebiItem] Toggle Celebi"
+		}
+
+		MewToggle: {
+			Tooltip:
+				'''
+				If enabled, Mew's pet summon item will become obtainable by opening Hardmode Divine Crates
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/MewItem] Toggle Mew"
+		}
+
+		VenipedeToggle: {
+			Tooltip:
+				'''
+				If enabled, Venipede's pet summon item will become obtainable by buying it from the Witch Doctor during a Blood Moon
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/VenipedeItem] Toggle Venipede"
+		}
+
+		ShinyCharmDroprate: {
+			Tooltip:
+				'''
+				Controls the odds of obtaining the Shiny Charm from defeating Queen Slime
+				This value represents the denominator
+				Recommended value is 20 (1/20 or 5%)
+				Set it to 1 for a guaranteed drop each kill (1/1 or 100%)
+				Set it to 0 to make the Shiny Charm unobtainable
+
+				The Shiny Charm is an accessory which grants your Pokémon an alternate appearance
+				Optional shiny particles are affected by equipped dye
+				'''
+			Label: "[i:PokemonPetsMod/ShinyCharm] Shiny Charm Droprate"
+		}
+
+		AegislashToggle: {
+			Tooltip:
+				'''
+				If enabled, Aegislash's pet summon item will become obtainable by defeating Enchanted Swords, Cursed Hammers and Crimson Axes
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/AegislashItem] Toggle Aegislash"
+		}
+
+		DarkraiToggle: {
+			Tooltip:
+				'''
+				If enabled, Darkrai's pet summon item will become obtainable by defeating Reapers
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/DarkraiItem] Toggle Darkrai"
+		}
+
+		ShayminToggle: {
+			Tooltip:
+				'''
+				If enabled, Shaymin's pet summon item will become obtainable by transmuting a Glommer's Flower in Shimmer
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/ShayminItem] Toggle Shaymin"
+		}
+
+		ShuckleToggle: {
+			Tooltip:
+				'''
+				If enabled, Shuckle's pet summon item will become obtainable by defeating Giant Tortoises and Ice Tortoises
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/ShuckleItem] Toggle Shuckle"
+		}
+
+		DrifloonToggle: {
+			Tooltip:
+				'''
+				If enabled, Drifloon's pet summon item will become obtainable by buying it from the Party Girl during a Windy Day
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/DrifloonItem] Toggle Drifloon"
+		}
+
+		NinjaskToggle: {
+			Tooltip:
+				'''
+				If enabled, Ninjask's pet summon item will become obtainable by defeating Antlion Swarmers
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/NinjaskItem] Toggle Ninjask"
+		}
+
+		VolcaronaPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Volcarona should behave as a Vanity Pet or a Light Pet
+				If Volcarona is set as a Light Pet, it will emit light slightly brighter than a Magic Lantern
+				Default is Vanity Pet (Recommended)
+				'''
+			Label: Volcarona Pet Settings
+		}
+
+		VolcaronaToggle: {
+			Tooltip:
+				'''
+				If enabled, Volcarona's pet summon item will become obtainable by defeating Red Devils
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/VolcaronaItem] Toggle Volcarona"
+		}
+
+		MimikyuToggle: {
+			Label: "[i:PokemonPetsMod/MimikyuItem] Toggle Mimikyu"
+			Tooltip:
+				'''
+				If enabled, Mimikyu's pet summon item will become obtainable by defeating Scarecrows
+				If disabled, it will become unobtainable
+				'''
+		}
+
+		CosmogPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Cosmog should behave as a Vanity Pet or a Light Pet
+				If Cosmog is set as a Light Pet, it will emit light equivalent to a Wisp in a Bottle
+				Default is Vanity Pet (Recommended)
+				'''
+			Label: Cosmog Pet Settings
+		}
+
+		GastlyPetSettings: {
+			Tooltip:
+				'''
+				Toggles whether Gastly should behave as a Vanity Pet or a Light Pet
+				If Gastly is set as a Light Pet, it will emit light slightly brighter than a Magic Lantern
+				Default is Light Pet (Recommended)
+				'''
+			Label: Gastly Pet Settings
+		}
+
+		GastlyToggle: {
+			Tooltip:
+				'''
+				If enabled, Gastly's pet summon item will become obtainable by defeating Wraiths
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/GastlyItem] Toggle Gastly"
+		}
+
+		MagikarpToggle: {
+			Tooltip:
+				'''
+				If enabled, Magikarp's pet summon item will become obtainable by opening Wooden Crates and Pearlwood Crates
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/MagikarpItem] Toggle Magikarp"
+		}
+
+		PorygonToggle: {
+			Tooltip:
+				'''
+				If enabled, Porygon's pet summon item will become obtainable by defeating Martians
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/PorygonItem] Toggle Porygon"
+		}
+
+		HoppipToggle: {
+			Tooltip:
+				'''
+				If enabled, Hoppip's pet summon item will become obtainable by defeating Man Eaters, Snatchers and Angry Trappers
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/HoppipItem] Toggle Hoppip"
+		}
+
+		GlaceonToggle: {
+			Tooltip:
+				'''
+				If enabled, Glaceon's pet summon item will become obtainable by defeating Ice Golems
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/GlaceonItem] Toggle Glaceon"
+		}
+
+		ArchenToggle: {
+			Tooltip:
+				'''
+				If enabled, Archen's pet summon item will become obtainable by extracting Silt, Slush or Desert Fossils
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/ArchenItem] Toggle Archen"
+		}
+
+		CosmogToggle: {
+			Tooltip:
+				'''
+				If enabled, Cosmog's pet summon item will become obtainable by buying it from the Traveling Merchant during Hardmode
+				If Cosmog is set to be a Light Pet, the item will only be sold after Plantera has been defeated
+				If disabled, it will become unobtainable
+				'''
+			Label: "[i:PokemonPetsMod/CosmogItem] Toggle Cosmog"
+		}
+
+		Headers: {
+			MiscSettings: "[i:207] Miscellaneous Settings"
+			PetSettings: "[i:509] Pet Settings"
+			PetSummonItemAcquisition: "[i:48] Pet Summon Item Acquisition"
+		}
+
+		DisplayName: Config
+	}
+}
+
+Projectiles: {
+	PidgeyProjectile: {
+		DisplayName: Pidgey Projectile
+	}
+
+	PumpkabooProjectile: {
+		DisplayName: Pumpkaboo Projectile
+	}
+
+	CyndaquilProjectile: {
+		DisplayName: Cyndaquil Projectile
+	}
+
+	BeldumProjectile: {
+		DisplayName: Beldum Projectile
+	}
+
+	MismagiusProjectile: {
+		DisplayName: Mismagius Projectile
+	}
+
+	LedybaProjectile: {
+		DisplayName: Ledyba Projectile
+	}
+
+	SnomProjectile: {
+		DisplayName: Snom Projectile
+	}
+
+	DiancieProjectile: {
+		DisplayName: Diancie Projectile
+	}
+
+	DiglettProjectile: {
+		DisplayName: Diglett Projectile
+	}
+
+	MewProjectile: {
+		DisplayName: Mew Projectile
+	}
+
+	CelebiProjectile: {
+		DisplayName: Celebi Projectile
+	}
+
+	ManaphyProjectile: {
+		DisplayName: Manaphy Projectile
+	}
+
+	VenipedeProjectile: {
+		DisplayName: Venipede Projectile
+	}
+
+	AegislashProjectile: {
+		DisplayName: Aegislash Projectile
+	}
+
+	DarkraiProjectile: {
+		DisplayName: Darkrai Projectile
+	}
+
+	ShayminProjectile: {
+		DisplayName: Shaymin Projectile
+	}
+
+	ShuckleProjectile: {
+		DisplayName: Shuckle Projectile
+	}
+
+	DrifloonProjectile: {
+		DisplayName: Drifloon Projectile
+	}
+
+	NinjaskProjectile: {
+		DisplayName: Ninjask Projectile
+	}
+
+	VolcaronaProjectile: {
+		DisplayName: Volcarona Projectile
+	}
+
+	MimikyuProjectile: {
+		DisplayName: Mimikyu Projectile
+	}
+
+	CosmogProjectile: {
+		DisplayName: Cosmog Projectile
+	}
+
+	GastlyProjectile: {
+		DisplayName: Gastly Projectile
+	}
+
+	HoppipProjectile: {
+		DisplayName: Hoppip Projectile
+	}
+
+	GlaceonProjectile: {
+		DisplayName: Glaceon Projectile
+	}
+
+	PorygonProjectile: {
+		DisplayName: Porygon Projectile
+	}
+
+	MagikarpProjectile: {
+		DisplayName: Magikarp Projectile
+	}
+
+	ArchenProjectile: {
+		DisplayName: Archen Projectile
+	}
+}
+
+Items: {
+	PidgeyItem: {
+		Tooltip: ペットのポッポを召喚する
+		DisplayName: ポッポの羽
+	}
+
+	PumpkabooItem: {
+		Tooltip:
+			'''
+			ペットのバケッチャを召喚する
+			「さまよう霊を帰るべき場所に導く」  
+			'''
+		DisplayName: 光るカボチャ
+	}
+
+	CyndaquilItem: {
+		Tooltip:
+			'''
+			ペットのヒノアラシを召喚する
+			「この子は少し短気だ」  
+			'''
+		DisplayName: きんのおうかん
+	}
+
+	BeldumItem: {
+		Tooltip:
+			'''
+			ペットのダンバルを召喚する
+			「いつの日かまた巡り会えますように」
+			'''
+		DisplayName: ダイゴのお願い
+	}
+
+	MismagiusItem: {
+		Tooltip:
+			'''
+			ペットのムウマージを召喚する
+			「真っ暗そのもの」  
+			'''
+		DisplayName: やみのいし
+	}
+
+	SnomItem: {
+		Tooltip: ペットのユキハミを召喚する
+		DisplayName: つららばり
+	}
+
+	LedybaItem: {
+		Tooltip:
+			'''
+			ペットのレディバを召喚する
+			「五つ星の虫ポケモン」
+			'''
+		DisplayName: レディバの鞘翅
+	}
+
+	DiancieItem: {
+		Tooltip:
+			'''
+			ペットのディアンシーを召喚する
+			「メレシーの女王様」
+			'''
+		DisplayName: ピンクダイヤモンド
+	}
+
+	DiglettItem: {
+		Tooltip: ペットのディグダを召喚する
+		DisplayName: やわらかいすな
+	}
+
+	MewItem: {
+		Tooltip:
+			'''
+			ペットのミュウを召喚する
+			「その裏を覗いてごらん」
+			'''
+		DisplayName: おもちゃのトラック
+	}
+
+	CelebiItem: {
+		Tooltip:
+			'''
+			ペットのセレビィを召喚する
+			「ウバメの森がそわそわと待っている」  
+			'''
+		DisplayName: ゴールドシルバーボール
+	}
+
+	ManaphyItem: {
+		Tooltip:
+			'''
+			ペットのマナフィを召喚する
+			「体の80パーセントが水」
+			'''
+		DisplayName: マナフィのたまご
+	}
+
+	VenipedeItem: {
+		Tooltip: ペットのフシデを召喚する
+		DisplayName: どくバリ
+	}
+
+	AegislashItem: {
+		Tooltip: ペットのギルガルドを召喚する
+		DisplayName: キングシールド
+	}
+
+	DarkraiItem: {
+		Tooltip:
+			'''
+			ペットのダークライを召喚する
+			「悪夢の島に導くチケット」
+			'''
+		DisplayName: メンバーカード
+	}
+
+	ShinyCharm: {
+		Tooltip: あなたのポケモンに特別な輝きを与える
+		DisplayName: ひかるおまもり
+	}
+
+	ShayminItem: {
+		Tooltip:
+			'''
+			ペットのシェイミを召喚する
+			「感謝の気持ちを込めた花」 
+			'''
+		DisplayName: グラシデアのはな
+	}
+
+	ShuckleItem: {
+		Tooltip: ペットのツボツボを召喚する
+		DisplayName: ツボツボの甲羅
+	}
+
+	DrifloonItem: {
+		Tooltip: ペットのフワンテを召喚する
+		DisplayName: イエローテープ
+	}
+
+	NinjaskItem: {
+		Tooltip:
+			'''
+			ペットのテッカニンを召喚する
+			「ヌケニンをパーティに加えるための空きがないよ」  
+			'''
+		DisplayName: ツチニンの翼
+	}
+
+	VolcaronaItem: {
+		Tooltip:
+			'''
+			ペットのウルガモスを召喚する
+			「太陽の化身」  
+			'''
+		DisplayName: メラルバの繭
+	}
+
+	MimikyuItem: {
+		Tooltip: ペットのミミッキュを召喚する
+		DisplayName: ねじれた枝
+	}
+
+	CosmogItem: {
+		Tooltip:
+			'''
+			ペットのコスモッグを召喚する
+			「ほしぐもちゃん、袋に戻ってきて！」
+			'''
+		DisplayName: リーリエのバッグ
+	}
+
+	GastlyItem: {
+		Tooltip:
+			'''
+			ペットのゴースを召喚する
+			「幽霊の力を高めると言われている」
+			'''
+		DisplayName: のろいのおふだ
+	}
+
+	HoppipItem: {
+		Tooltip: ペットのハネッコを召喚する
+		DisplayName: ハネッコの葉
+	}
+
+	GlaceonItem: {
+		Tooltip:
+			'''
+			ペットのグレイシアを召喚する
+			「特定のポケモンを進化させることができる」
+			'''
+		DisplayName: こおりのいし
+	}
+
+	PorygonItem: {
+		Tooltip:
+			'''
+			ペットのポリゴンを召喚する
+			「9,999個のコインが詰まっている」
+			'''
+		DisplayName: コインケース
+	}
+
+	MagikarpItem: {
+		Tooltip: ペットのコイキングを召喚する
+		DisplayName: ボロのつりざお
+	}
+
+	ArchenItem: {
+		Tooltip: ペットのアーケンを召喚する
+		DisplayName: はねのカセキ
+	}
+}
+
+Buffs: {
+	PidgeyBuff: {
+		Description: ポッポ、キミに決めた！
+		DisplayName: ペット ポッポ
+	}
+
+	PumpkabooBuff: {
+		Description: バケッチャ、キミに決めた！
+		DisplayName: ペット バケッチャ
+	}
+
+	CyndaquilBuff: {
+		Description: ヒノアラシ、キミに決めた！
+		DisplayName: ペット ヒノアラシ
+	}
+
+	BeldumBuff: {
+		Description: ダンバル、キミに決めた！
+		DisplayName: ペット ダンバル
+	}
+
+	MismagiusBuff: {
+		Description: ムウマージ、キミに決めた！
+		DisplayName: ペット ムウマージ
+	}
+
+	SnomBuff: {
+		Description: ユキハミ、キミに決めた！
+		DisplayName: ペット ユキハミ
+	}
+
+	LedybaBuff: {
+		Description: レディバ、キミに決めた！
+		DisplayName: ペット レディバ
+	}
+
+	DiancieBuff: {
+		Description: ディアンシー、キミに決めた！
+		DisplayName: ペット ディアンシー
+	}
+
+	DiglettBuff: {
+		Description: ディグダ、キミに決めた！
+		DisplayName: ペット ディグダ
+	}
+
+	MewBuff: {
+		Description: ミュウ、キミに決めた！
+		DisplayName: ペット ミュウ
+	}
+
+	CelebiBuff: {
+		Description: セレビィ、キミに決めた！
+		DisplayName: ペット セレビィ
+	}
+
+	ManaphyBuff: {
+		Description: マナフィ、キミに決めた！
+		DisplayName: ペット マナフィ
+	}
+
+	VenipedeBuff: {
+		Description: フシデ、キミに決めた！
+		DisplayName: ペット フシデ
+	}
+
+	AegislashBuff: {
+		Description: ギルガルド、キミに決めた！
+		DisplayName: ペット ギルガルド
+	}
+
+	DarkraiBuff: {
+		Description: ダークライ、キミに決めた！
+		DisplayName: ペット ダークライ
+	}
+
+	ShayminBuff: {
+		Description: シェイミ、キミに決めた！
+		DisplayName: ペット シェイミ
+	}
+
+	ShuckleBuff: {
+		Description: ツボツボ、キミに決めた！
+		DisplayName: ペット ツボツボ
+	}
+
+	DrifloonBuff: {
+		Description: フワンテ、キミに決めた！
+		DisplayName: ペット フワンテ
+	}
+
+	NinjaskBuff: {
+		Description: テッカニン、キミに決めた！
+		DisplayName: ペット テッカニン
+	}
+
+	VolcaronaBuff: {
+		Description: ウルガモス、キミに決めた！
+		DisplayName: ペット ウルガモス
+	}
+
+	MimikyuBuff: {
+		Description: ミミッキュ、キミに決めた！
+		DisplayName: ペット ミミッキュ
+	}
+
+	CosmogBuff: {
+		Description: コスモッグ、キミに決めた！
+		DisplayName: ペット コスモッグ
+	}
+
+	GastlyBuff: {
+		Description: ゴース、キミに決めた！
+		DisplayName: ペット ゴース
+	}
+
+	HoppipBuff: {
+		Description: ハネッコ、キミに決めた！
+		DisplayName: ペット ハネッコ
+	}
+
+	GlaceonBuff: {
+		Description: グレイシア、キミに決めた！
+		DisplayName: ペット グレイシア
+	}
+
+	PorygonBuff: {
+		Description: ポリゴン、キミに決めた！
+		DisplayName: ペット ポリゴン
+	}
+
+	MagikarpBuff: {
+		Description: コイキング、キミに決めた！
+		DisplayName: ペット コイキング
+	}
+
+	ArchenBuff: {
+		Description: アーケン、キミに決めた！
+		DisplayName: ペット アーケン
+	}
+}
+

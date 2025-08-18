@@ -1,0 +1,5602 @@
+	Buffs: {
+		AutomaticWhipCrackerMk2Buff: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "オートマチックウィップクラッカーMk2タグバフ"
+		}
+		AutomaticWhipCrackerBuff: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "オートマチックウィップクラッカータグバフ"
+		}
+		AxeOfTheAbyssBuff: {
+			DisplayName: "アビスの力"
+			Description: "あなたに不死を与える"
+		}
+		BattleGuyBuff: {
+			DisplayName: "バトルガイ"
+			Description: "バトルガイは今あなたの手の中にある…"
+		}
+		CandyCaneBuff: {
+			DisplayName: "キャンディラッシュ"
+			Description: "マナと体力の回復ステータスが増加"
+		}
+		ChainedWhipBuff: {
+			DisplayName: "チェーンドウィップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		ChickenBuff: {
+			DisplayName: "チキン化"
+			Description: "移動速度が増加し、攻撃ダメージが減少"
+		}
+		CoiledSerpentBuff: {
+			DisplayName: "コイルドサーペントタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		CoiledSerpentBuff2: {
+			DisplayName: "サーペントの祝福"
+			Description: "鞭の速度、召喚ダメージ、移動速度が増加"
+		}
+		CosmicWhipBuff: {
+			DisplayName: "コズミックウィップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		CosmicWhipBuff2: {
+			DisplayName: "コズミックパワー"
+			Description: "サモナーの攻撃および防御ステータスが増加"
+		}
+		CrimtaneWhipBuff: {
+			DisplayName: "クリムタンウィップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		DemoniteWhipBuff: {
+			DisplayName: "デモナイトウィップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		DoomCaneBuff: {
+			DisplayName: "ドゥームラッシュ"
+			Description: "マナと体力の回復ステータスが増加"
+		}
+		EarthquakeBuff: {
+			DisplayName: "アースクエイクレイジ"
+			Description: "近接ステータスが大幅に増加"
+		}
+		ElectricEelBuff: {
+			DisplayName: "エレキウナギタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		IcedBuff: {
+			DisplayName: "凍結"
+			Description: "もうアイテムを使用できない"
+		}
+		LavaEelBuff: {
+			DisplayName: "溶岩ウナギタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		LovePowerBuff: {
+			DisplayName: "ラブパワー"
+			Description: "生命回復と遠距離攻撃速度が増加"
+		}
+		MeditatedBuff: {
+			DisplayName: "瞑想"
+			Description: "無限のマナと魔法ダメージがわずかに増加"
+		}
+		MeteorBuff: {
+			DisplayName: "メテオレイジ"
+			Description: "近接ステータスがわずかに増加"
+		}
+		NightsCackleBuff: {
+			DisplayName: "ナイツカックルタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		OriginalSnapBuff: {
+			DisplayName: "オリジナルスナップ"
+			Description: "鞭の速度、鞭のノックバック、召喚ダメージが増加"
+		}
+		OriginWhipBuff: {
+			DisplayName: "オリジンウィップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		PainBuff: {
+			DisplayName: "苦痛"
+			Description: "攻撃ステータスが増加するが、防御と回復が大幅に減少"
+		}
+		PowerBuff: {
+			DisplayName: "オーバーパワー"
+			Description: "ステータスが2倍になり、マナが無限になる"
+		}
+		QuipBuff: {
+			DisplayName: "クイップタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		ReloadBuff: {
+			DisplayName: "リロード"
+			Description: "遠距離ダメージと速度が10%増加"
+		}
+		SilverBuff: {
+			DisplayName: "クイックシルバー"
+			Description: "近接攻撃能力が大幅に増加"
+		}
+		SpookyBuff: {
+			DisplayName: "スプーキー"
+			Description: "ステータスが大幅に増加"
+		}
+		StrikerBuff: {
+			DisplayName: "ストライカーの力"
+			Description: "鞭の速度、鞭のダメージ、鞭の範囲が10%増加"
+		}
+		TrueDurendalBuff: {
+			DisplayName: "真デュランダルタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		TrueDurendalBuff2: {
+			DisplayName: "真デュランダルの祝福"
+			Description: "鞭の速度と召喚ダメージが増加"
+		}
+		TrueNightsCackleBuff: {
+			DisplayName: "真ナイツカックルタグバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		HailStormCooldown: {
+			Description: "ヘイルストームはクールダウン中"
+			DisplayName: "ヘイルストームクールダウン"
+		}
+		RustedDaggerCooldown: {
+			Description: "ラスティブレードはクールダウン中"
+			DisplayName: "ラスティブレードクールダウン"
+		}
+		PaleRapierCooldown: {
+			DisplayName: "ペイルレイピアクールダウン"
+			Description: "ペイルレイピアはクールダウン中"
+		}
+		PixelBladeCooldown: {
+			DisplayName: "ピクセルブレードクールダウン"
+			Description: "ピクセルダガーはクールダウン中"
+		}
+		Cooldown6: {
+			Description: "ピクセルゼニスはクールダウン中"
+			DisplayName: "クールダウン"
+		}
+		NukeCallerCooldown: {
+			Description: "ニュークコーラーはクールダウン中"
+			DisplayName: "ニュークコーラークールダウン"
+		}
+		NuclearFalloutCooldown: {
+			DisplayName: "ニュークリアフォールアウトクールダウン"
+			Description: "ニュークリアフォールアウトはクールダウン中"
+		}
+		Cooldown9: {
+			Description: "スプークストームはクールダウン中"
+			DisplayName: "クールダウン"
+		}
+		Cooldown10: {
+			DisplayName: "クールダウン"
+			Description: "ウィークニングショットはクールダウン中"
+		}
+		Feared: {
+			Description: "とても怖い"
+			DisplayName: "恐怖"
+		}
+		BrokenBones: {
+			DisplayName: "骨折"
+			Description: "このバフは付与されるべきではない"
+		}
+		Blinded: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "盲目"
+		}
+		BrokenBones2: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "骨折2"
+		}
+		Cooldown11: {
+			Description: "リボルビングリボルバーはクールダウン中"
+			DisplayName: "クールダウン"
+		}
+		Pause: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "一時停止"
+		}
+		FastForward: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "早送り"
+		}
+		Dead: {
+			DisplayName: "死亡"
+			Description: "このバフは付与されるべきではない"
+		}
+		Stealthy: {
+			DisplayName: "ステルス"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が10%増加"
+		}
+		PrehistoricPower: {
+			DisplayName: "先史時代の力"
+			Description: "近接ダメージが50%増加し、クリティカル率が190%増加"
+		}
+		Energized: {
+			DisplayName: "エナジャイズド"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が8%増加し、移動速度が2倍になる"
+		}
+		KittyCrazy: {
+			DisplayName: "キティクレイジー"
+			Description: "近接ダメージが50%増加し、近接クリティカル率が12%増加し、移動速度が2倍になり、近接速度が増加"
+		}
+		CrazyKitty: {
+			DisplayName: "クレイジーキティ"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が12%増加し、移動速度が2倍になり、近接速度が50%増加"
+		}
+		NaturesPower: {
+			DisplayName: "自然の力"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が100%増加し、防御力が12増加"
+		}
+		HealthDecrease: {
+			DisplayName: "体力減少"
+			Description: "このバフは付与されるべきではない"
+		}
+		StormShield: {
+			DisplayName: "ストームシールド"
+			Description: "防御力が12、生命回復が6増加し、ノックバック耐性を付与"
+		}
+		ShadowStrike: {
+			DisplayName: "シャドウストライク"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が30%増加し、近接速度が15%増加し、防御力が10増加"
+		}
+		TerraPower: {
+			DisplayName: "テラパワー"
+			Description: "近接ダメージが65%増加し、近接クリティカル率が30%増加し、近接速度が20%増加し、防御力が12増加"
+		}
+		DarkenedPower: {
+			DisplayName: "ダークンドパワー"
+			Description: "近接ダメージが100%増加し、近接クリティカル率が100%増加し、近接速度が増加し、防御力が16増加し、移動速度が2倍になる"
+		}
+		Shadowblood: {
+			DisplayName: "シャドウブラッド"
+			Description: "体力が50増加するが、生命回復が2減少"
+		}
+		FrostedFrights: {
+			DisplayName: "フロストフライツ"
+			Description: "このバフは付与されるべきではない"
+		}
+		FrozenStrength: {
+			DisplayName: "フローズンストレングス"
+			Description: "近接ダメージが500%増加し、近接クリティカル率が20%増加するが、全ての防御を失う"
+		}
+		SuspiciousDollCooldown: {
+			DisplayName: "怪しげな人形クールダウン"
+			Description: "怪しげな人形はクールダウン中"
+		}
+		Cooldown13: {
+			DisplayName: "スピリットドールクールダウン"
+			Description: "スピリットドールはクールダウン中"
+		}
+		GuardianDefense: {
+			DisplayName: "ガーディアンディフェンス"
+			Description: "近接ダメージが50%増加し、防御が2倍になるが、全ての生命回復を失う"
+		}
+		Stunned: {
+			DisplayName: "スタン"
+			Description: "このバフは付与されるべきではない"
+		}
+		PrismaticPower: {
+			DisplayName: "プリズマティックパワー"
+			Description: "近接ダメージが100%増加し、生命回復が5増加するが、防御が半分になる"
+		}
+		SuperBuff: {
+			DisplayName: "スーパー"
+			Description: "近接ダメージが100%増加し、クリティカル率が25%増加し、移動速度が2倍になり、無限飛行を付与"
+		}
+		SpikedDollCooldown: {
+			DisplayName: "スパイクドールクールダウン"
+			Description: "スパイクドールはクールダウン中"
+		}
+		PowerSpin: {
+			DisplayName: "パワースピン"
+			Description: "遠距離ダメージが50%増加し、クリティカル率が25%増加し、攻撃速度が15%増加"
+		}
+		BoneSpin: {
+			DisplayName: "ボーンスピン"
+			Description: "遠距離ダメージが25%増加し、クリティカル率が15%増加し、防御力が12増加"
+		}
+		QuickDraw: {
+			DisplayName: "クイックドロー"
+			Description: "近接ダメージが50%増加し、近接速度が100%増加"
+		}
+		Enchanted: {
+			DisplayName: "エンチャント"
+			Description: "近接ダメージが100%増加し、クリティカル率が10%増加し、攻撃速度が25%増加"
+		}
+		Refreshed: {
+			DisplayName: "リフレッシュ"
+			Description: "近接ダメージが200%増加し、クリティカル率が10%増加し、攻撃速度が25%増加"
+		}
+		NaturesPower2: {
+			DisplayName: "自然の力"
+			Description: "ダメージが50%増加し、近接クリティカル率が50%増加し、防御力が15増加"
+		}
+		QuickDraw2: {
+			DisplayName: "クイックドロー"
+			Description: "近接および遠距離速度が35%増加"
+		}
+		Angry: {
+			DisplayName: "怒り"
+			Description: "攻撃ステータスが増加するが、防御と回復が大幅に減少"
+		}
+		TranquilizerCooldown: {
+			DisplayName: "トランキライザークールダウン"
+			Description: "トランキライザーはクールダウン中"
+		}
+		Tranquilized: {
+			DisplayName: "鎮静化"
+			Description: "このバフは付与されるべきではない"
+		}
+		DisabledMana: {
+			DisplayName: "マナ無効化"
+			Description: "このバフは付与されるべきではない"
+		}
+		SuperSpin: {
+			DisplayName: "スーパースピン"
+			Description: "このバフは付与されるべきではない"
+		}
+		NuclearPower: {
+			DisplayName: "ニュークリアパワー"
+			Description: "遠距離ダメージが増加"
+		}
+		BookWorm: {
+			DisplayName: "ブックワーム"
+			Description: "防御、生命回復、マナ回復が増加"
+		}
+		DiamondSwordCooldown: {
+			DisplayName: "ダイヤモンドソードクールダウン"
+			Description: "ダイヤモンドソードはクールダウン中"
+		}
+		PeaceKeeperCooldown: {
+			DisplayName: "ピースキーパークールダウン"
+			Description: "ピースキーパーはクールダウン中"
+		}
+		FieryDoomCooldown: {
+			DisplayName: "ファイアリードゥームクールダウン"
+			Description: "ファイアリードゥームはクールダウン中"
+		}
+		RocketPower: {
+			DisplayName: "ロケットパワー"
+			Description: "移動速度が増加し、ノックバック耐性を付与"
+		}
+		TotemOfLifeCooldown: {
+			DisplayName: "生命のトーテムクールダウン"
+			Description: "生命のトーテムはクールダウン中"
+		}
+		Bloodshed: {
+			DisplayName: "ブラッドシェッド"
+			Description: "遠距離ダメージが増加"
+		}
+		NegativePower: {
+			DisplayName: "ネガティブパワー"
+			Description: "近接ダメージが300%減少し、クリティカル率が10%減少し、攻撃速度が25%減少"
+		}
+		HardenedHoney: {
+			DisplayName: "硬化したハチミツ"
+			Description: "生命回復と防御が増加"
+		}
+		ChlorophyteTranquilizerCooldown: {
+			DisplayName: "クロロファイトトランキライザークールダウン"
+			Description: "クロロファイトトランキライザーはクールダウン中"
+		}
+		FlamingWoodKunaiCooldown: {
+			DisplayName: "燃える木のクナイクールダウン"
+			Description: "燃える木のクナイはクールダウン中"
+		}
+		OrnamentsofDoomCooldown: {
+			DisplayName: "破滅のオーナメントクールダウン"
+			Description: "破滅のオーナメントはクールダウン中"
+		}
+		ShamanTabletCooldown: {
+			DisplayName: "シャーマンタブレットクールダウン"
+			Description: "シャーマンタブレットはクールダウン中"
+		}
+		Purified: {
+			DisplayName: "浄化"
+			Description: "このバフは付与されるべきではない"
+		}
+		ShamanStaffBuff: {
+			DisplayName: "シャーマンスタッフバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		BigClubCooldown: {
+			DisplayName: "ビッグクラブクールダウン"
+			Description: "ビッグクラブはクールダウン中"
+		}
+		Unconscious: {
+			DisplayName: "無意識"
+			Description: "このバフは付与されるべきではない"
+		}
+		Splintered: {
+			DisplayName: "破片"
+			Description: "このバフは付与されるべきではない"
+		}
+		StarStrength: {
+			DisplayName: "星の力"
+			Description: "生命回復、防御が増加し、移動速度が2倍になる"
+		}
+		CogMachineCooldown: {
+			DisplayName: "コグマシーンクールダウン"
+			Description: "コグマシーンはクールダウン中"
+		}
+		GearGloveBuff: {
+			DisplayName: "ギアグローブバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		Gutted: {
+			DisplayName: "ガテッド"
+			Description: "このバフは付与されるべきではない"
+		}
+		ColorSplash: {
+			DisplayName: "カラースプラッシュ"
+			Description: "このバフは付与されるべきではない"
+		}
+		MarbleSpikefishCooldown: {
+			DisplayName: "マーブルスパイクフィッシュクールダウン"
+			Description: "マーブルスパイクフィッシュはクールダウン中"
+		}
+		Marbleskin: {
+			DisplayName: "マーブルスキン"
+			Description: "防御力が12増加し、ノックバック耐性を付与"
+		}
+		SeaweepBuff: {
+			DisplayName: "シーウィープバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		TridentPower: {
+			DisplayName: "トライデントパワー"
+			Description: "水中にいる間、ダメージが15%増加"
+		}
+		AcidicStrength: {
+			DisplayName: "アシディックストレングス"
+			Description: "近接ダメージとノックバックが50%増加"
+		}
+		Fishified: {
+			DisplayName: "魚化"
+			Description: "遠距離ダメージが増加し、水中での機動性を付与し、水中にいる間、遠距離攻撃速度が増加"
+		}
+		BreakfastPower: {
+			DisplayName: "ブレックファーストパワー"
+			Description: "ベーコンと卵の力があなたの中に流れる"
+		}
+		Clouded: {
+			DisplayName: "クラウデッド"
+			Description: "このバフは付与されるべきではない"
+		}
+		WinterfishBuff: {
+			DisplayName: "ウィンターフィッシュバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		WeaknessDetected: {
+			DisplayName: "弱点検出"
+			Description: "ダメージが100%増加"
+		}
+		PrimeSawCooldown: {
+			DisplayName: "プライムソークールダウン"
+			Description: "プライムソーはクールダウン中"
+		}
+		InfernoSacrifice: {
+			DisplayName: "インフェルノサクリファイス"
+			Description: "近接ダメージが75%増加し、近接速度が30%増加し、クリティカル率が15%増加"
+		}
+		GoldenAchievementCooldown: {
+			DisplayName: "ゴールデンアチーブメントクールダウン"
+			Description: "ゴールデンアチーブメントはクールダウン中"
+		}
+		ShroomSpin: {
+			DisplayName: "シュルームスピン"
+			Description: "遠距離ダメージが33%増加し、クリティカル率が17%増加し、攻撃速度が12%増加"
+		}
+		ShadowPain: {
+			DisplayName: "シャドウペイン"
+			Description: "このバフは付与されるべきではない"
+		}
+		LifeCrystalLauncherCooldown: {
+			DisplayName: "ライフクリスタルランチャークールダウン"
+			Description: "ライフクリスタルランチャーはクールダウン中"
+		}
+		SkyStrength: {
+			DisplayName: "スカイストレングス"
+			Description: "生命回復、防御、移動速度が増加"
+		}
+		BulletCannonCooldown: {
+			DisplayName: "バレットキャノンクールダウン"
+			Description: "バレットキャノンはクールダウン中"
+		}
+		Heavy: {
+			DisplayName: "ヘビー"
+			Description: "垂直方向の移動が制限される"
+		}
+		ReloadBuff2: {
+			Description: "遠距離攻撃速度が増加"
+			DisplayName: "リロード"
+		}
+		BloodThirsty: {
+			DisplayName: "ブラッドサースティ"
+			Description: "近接クリティカル率が50%増加し、生命回復が3増加し、ブラッドファングのクールダウンをクリアする"
+		}
+		SuperGutted: {
+			DisplayName: "スーパーガテッド"
+			Description: "このバフは付与されるべきではない"
+		}
+		GranitePower: {
+			DisplayName: "グラナイトパワー"
+			Description: "近接ダメージが25%増加し、防御が10増加"
+		}
+		MarblePower: {
+			DisplayName: "マーブルパワー"
+			Description: "近接速度が25%増加し、生命回復が3増加"
+		}
+		MushroomPower: {
+			DisplayName: "マッシュルームパワー"
+			Description: "近接速度が50%増加し、生命回復が5増加"
+		}
+		ShroomitePower: {
+			DisplayName: "シュルーマイトパワー"
+			Description: "近接ダメージが50%増加し、防御が16増加"
+		}
+		Crystalized: {
+			DisplayName: "クリスタライズド"
+			Description: "近接速度が50%増加し、移動速度が50%増加し、近接クリティカル率が8%増加"
+		}
+		BlockyPower: {
+			DisplayName: "ブロッキーパワー"
+			Description: "ブロックと花火の力があなたの中に流れる"
+		}
+		WindyPower: {
+			DisplayName: "ウィンディパワー"
+			Description: "激しい風の力があなたの中に流れる"
+		}
+		FlyPower: {
+			DisplayName: "フライパワー"
+			Description: "ハエの力があなたの中に流れる"
+		}
+		PumpkinPower: {
+			DisplayName: "パンプキンパワー"
+			Description: "不気味な力があなたの中で成長する"
+		}
+		StickyDollCooldown: {
+			Description: "スティッキードールはクールダウン中"
+			DisplayName: "スティッキードールクールダウン"
+		}
+		CursedKeyBuff: {
+			DisplayName: "カースドキーバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		LoveCooldown: {
+			DisplayName: "ラブクールダウン"
+			Description: "ラブパワーバフはクールダウン中"
+		}
+		SpiritDollCooldown: {
+			Description: "スピリットドールはクールダウン中"
+			DisplayName: "スピリットドールクールダウン"
+		}
+		StardustDollCooldown: {
+			Description: "スターダストドールはクールダウン中"
+			DisplayName: "スターダストドールクールダウン"
+		}
+		ForbiddenPower: {
+			Description: "近接速度が33%増加し、生命回復が4増加"
+			DisplayName: "フォービドゥンパワー"
+		}
+		FrostPower: {
+			DisplayName: "フロストパワー"
+			Description: "近接ダメージが33%増加し、防御が12増加"
+		}
+		HealthDecrease2: {
+			DisplayName: "体力減少2"
+			Description: "このバフは付与されるべきではない"
+		}
+		HealthIncrease: {
+			DisplayName: "体力増加"
+			Description: "このバフは付与されるべきではない"
+		}
+		HealthIncrease2: {
+			DisplayName: "体力増加2"
+			Description: "このバフは付与されるべきではない"
+		}
+		OtherworldlyScarCooldown: {
+			DisplayName: "アザーワールドリースカークールダウン"
+			Description: "アザーワールドリースカーはクールダウン中"
+		}
+		SpiderScepterCooldown: {
+			DisplayName: "スパイダーセプタークールダウン"
+			Description: "スパイダーセプターはクールダウン中"
+		}
+		Dusty: {
+			DisplayName: "ダスティー"
+			Description: "このバフは付与されるべきではない"
+		}
+		Dusty2: {
+			DisplayName: "ダスティー2"
+			Description: "このバフは付与されるべきではない"
+		}
+		ShadowflameWeakness: {
+			DisplayName: "シャドウフレイムウィークネス"
+			Description: "このバフは付与されるべきではない"
+		}
+		FleshWeakness: {
+			DisplayName: "フレッシュウィークネス"
+			Description: "このバフは付与されるべきではない"
+		}
+		CreepyEyedolBuff: {
+			DisplayName: "クリーピーアイドールバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		BoneJacketCooldown: {
+			DisplayName: "ボーンジャケットクールダウン"
+			Description: "ボーンジャケットはクールダウン中"
+		}
+		HellSerpentScepterCooldown: {
+			DisplayName: "ヘルサーペントセプタークールダウン"
+			Description: "ヘルサーペントはクールダウン中"
+		}
+		IceCubeScepterCooldown: {
+			DisplayName: "アイスキューブセプタークールダウン"
+			Description: "アイスキューブセプターはクールダウン中"
+		}
+		BloodfangCooldown: {
+			DisplayName: "ブラッドファングクールダウン"
+			Description: "ブラッドファングはクールダウン中"
+		}
+		DustDevilBuff: {
+			DisplayName: "ダストデビルバフ"
+			Description: "このバフは付与されるべきではない"
+		}
+		SandyStrength: {
+			DisplayName: "サンディストレングス"
+			Description: "鞭の速度、範囲、ダメージが増加"
+		}
+		SnowyDollCooldown: {
+			DisplayName: "スノウィードールクールダウン"
+			Description: "スノウィードールはクールダウン中"
+		}
+		NaturesCurse: {
+			DisplayName: "自然の呪い"
+			Description: "このバフは付与されるべきではない"
+		}
+		DruidPower: {
+			DisplayName: "ドルイドパワー"
+			Description: "ドルイドの祝福があなたを守る"
+		}
+		AerialBlessing: {
+			DisplayName: "エアリアルブレッシング"
+			Description: "遠距離攻撃速度が増加"
+		}
+		LootLusted: {
+			DisplayName: "ルートラステッド"
+			Description: "このバフは付与されるべきではない"
+		}
+		SunPowerStaffCooldown: {
+			DisplayName: "サンパワースタッフクールダウン"
+			Description: "サンパワースタッフはクールダウン中"
+		}
+		VenomizedSpiderScepterCooldown: {
+			DisplayName: "ヴェノマイズドスパイダーセプタークールダウン"
+			Description: "ヴェノマイズドスパイダーセプターはクールダウン中"
+		}
+		Greed: {
+			DisplayName: "強欲"
+			Description: "このバフは付与されるべきではない"
+		}
+		HealthDecrease3: {
+			DisplayName: "体力減少3"
+			Description: "このバフは付与されるべきではない"
+		}
+		ManaCrystalLauncherCooldown: {
+			DisplayName: "マナクリスタルランチャークールダウン"
+			Description: "マナクリスタルランチャーはクールダウン中"
+		}
+		SoulWeakness: {
+			DisplayName: "ソウルウィークネス"
+			Description: "このバフは付与されるべきではない"
+		}
+		SoulWeakness2: {
+			DisplayName: "ソウルウィークネス2"
+			Description: "このバフは付与されるべきではない"
+		}
+		PumpkinsCurse: {
+			Description: "このバフは付与されるべきではない"
+			DisplayName: "パンプキンの呪い"
+		}
+		SiegeBowCooldown: {
+			DisplayName: "シージボウクールダウン"
+			Description: "シージボウはクールダウン中"
+		}
+		Targeted: {
+			DisplayName: "ターゲット"
+			Description: "このバフは付与されるべきではない"
+		}
+		OnyxReload: {
+			DisplayName: "オニキスリロード"
+			Description: "遠距離攻撃速度が増加"
+		}
+	}
+
+	Items: {
+		AdamantiteArrowLauncher: {
+			DisplayName: "アダマンタイトアローランチャー"
+			Tooltip:
+				'''
+				50%の確率で弾薬を節約
+				空と目の前からランダムな[c/ff000a:矢]の詰め合わせを発射
+				AdamChromee、あなたのサポートに感謝！
+				[c/00b332:'忘れるな、魚釣りはするな']
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		AerialStorm: {
+			DisplayName: "エアリアルストーム"
+			Tooltip:
+				'''
+				66%の確率で弾薬を節約
+				毎回のショットで高ダメージの矢の集団を発射し、遠距離攻撃速度を3.5%増加させる
+				遠距離攻撃速度バフは14秒で上限に達する
+				このバフを過剰にスタックすると進行がリセットされる
+				'''
+		}
+		AncientScroll: {
+			DisplayName: "古代の巻物"
+			Tooltip:
+				'''
+				魔法にかかった召喚ダメージとノックバックを25%増加させる
+				プレイヤーをアンデッドゾンビに変える
+				ゾンビとして、プレイヤーは移動速度が遅くなり、飛べなくなる
+				しかしゾンビとして、プレイヤーはより多くの体力、生命回復、ダメージを得て、全てのアンデッドが友好的になる
+				'''
+		}
+		Apex: {
+			DisplayName: "エイペックス"
+			Tooltip: "槍の力で敵を突き刺す"
+		}
+		Apocalypse: {
+			DisplayName: "アポカリプス"
+			Tooltip:
+				'''
+				左クリックでフレイルを振り、ヨーヨーを投げて敵に多くの発射物を放つ
+				右クリックで槍の集大成で突き、敵にジャベリンを投げる
+				異なる種類の隕石を発射し、それぞれがあなたと敵に異なるバフとデバフを与える
+				プレイヤーに以下のステータス増加を付与：ダメージ、体力、防御
+				信じてくれ、これは'完璧にバランスが取れている'
+				'''
+		}
+		ApprenticeEmblem: {
+			DisplayName: "見習いのエンブレム"
+			Tooltip: "魔法ダメージ+8%"
+		}
+		ArcaniumCuffs: {
+			DisplayName: "アーカニウムカフス"
+			Tooltip:
+				'''
+				マナスターの取得範囲を増加
+				魔法ダメージ+15%
+				魔法クリティカルヒット率+12%
+				'''
+		}
+		StrategyEmblem: {
+			DisplayName: "戦略のエンブレム"
+			Tooltip:
+				'''
+				戦術的遠距離ダメージ+30%
+				遠距離ダメージ-15%
+				'''
+		}
+		AutomaticWhipCracker: {
+			DisplayName: "オートマチックウィップクラッカー"
+			Tooltip:
+				'''
+				3召喚タグダメージ
+				アイテム使用中に定期的に鞭を振るう
+				鞭の範囲は武器の速度に応じてスケールする
+				'''
+		}
+		AutomaticWhipCrackerMk2: {
+			DisplayName: "オートマチックウィップクラッカーMk2"
+			Tooltip:
+				'''
+				5召喚タグダメージ
+				アイテム使用中に定期的に鞭を振るう
+				鞭の範囲は武器の速度に応じてスケールする
+				'''
+		}
+		AvengerCuffs: {
+			DisplayName: "アベンジャーカフス"
+			Tooltip:
+				'''
+				マナスターの取得範囲を増加
+				魔法ダメージ+12%
+				魔法クリティカルヒット率+8%
+				'''
+		}
+		AxeOfTheAbyss: {
+			DisplayName: "アビスの斧"
+			Tooltip:
+				'''
+				AOTAとしても知られている
+				敵を追尾する回転するアビスアックスを放つ
+				ほとんどのボスをKOできる
+				[c/871b28:チートアイテム]
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		BasicBolt: {
+			DisplayName: "ベーシックボルト"
+			Tooltip: "貫通力が非常に弱い"
+		}
+		BattleBlade: {
+			DisplayName: "バトルブレード"
+			Tooltip:
+				'''
+				振った後に回転する強力なバトルブレードを振る
+				敵に命中すると追加のバトルブレードをスポーンさせる
+				全てのバトルブレードは敵のHPを0.35%減少させる
+				'テラブレードのいとこ'
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		BattleBoots: {
+			DisplayName: "バトルブーツ"
+			Tooltip:
+				'''
+				私のMODをダウンロードしてくれてありがとう、楽しんでくれると嬉しい！
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		BattleChestplate: {
+			DisplayName: "バトルチェストプレート"
+			Tooltip:
+				'''
+				私のMODをダウンロードしてくれてありがとう、楽しんでくれると嬉しい！
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		BattleGuy: {
+			DisplayName: "バトルガイ"
+			Tooltip:
+				'''
+				私のMODをダウンロードしてくれてありがとう、楽しんでくれると嬉しい！
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		BattleMask: {
+			DisplayName: "バトルマスク"
+			Tooltip:
+				'''
+				私のMODをダウンロードしてくれてありがとう、楽しんでくれると嬉しい！
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		BeeArrow: {
+			DisplayName: "ビーアロー"
+			Tooltip: "'蜂は嫌だ！'"
+		}
+		BeeBolt: {
+			DisplayName: "ビーボルト"
+			Tooltip:
+				'''
+				貫通力が弱い
+				敵に接触すると巨大な蜂をスポーンさせる
+				'''
+		}
+		BeeStinger: {
+			DisplayName: "ビースティンガー"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトをビーボルトに変換する
+				'''
+		}
+		BerserkStone: {
+			DisplayName: "バーサークストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると攻撃能力が向上する
+				最大体力の半分以下になると定期的にインフェルノ爆発をスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		BiomeMorph: {
+			DisplayName: "バイオームモーフ"
+			Tooltip:
+				'''
+				様々なバイオーム関連のヨーヨーを放つ
+				テラリアのいくつかのバイオームの力をあなたの味方につける
+				'''
+		}
+		BlazingSun: {
+			DisplayName: "ブレイジングサン"
+			Tooltip:
+				'''
+				敵に命中するとフレイムラッシュをスポーンさせる
+				[c/ff9d00:伝説のアイテム]
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		BlockyCrossbow: {
+			DisplayName: "ブロッキークロスボウ"
+			Tooltip:
+				'''
+				死亡時に爆発する花火を放つ
+				ダメージと生命回復はボスの進行度に応じてスケールする
+				'あーあ'
+				[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+				'''
+		}
+		BlueRomanCandle: {
+			DisplayName: "ブルーローマンキャンドル"
+			Tooltip: "青い追尾性の炎を放つ"
+		}
+		BlueZapinator: {
+			DisplayName: "ブルーザピネーター"
+			Tooltip: "'壊れているかもしれない'"
+		}
+		BoltBlaster: {
+			DisplayName: "ボルトブラスター"
+			Tooltip: "弾薬としてボルトを使用"
+		}
+		BoneBreaker: {
+			DisplayName: "ボーンブレイカー"
+			Tooltip: "敵に命中すると気絶させる可能性がある大きな斬撃を振るう"
+		}
+		BoneBlade: {
+			DisplayName: "ボーンブレード"
+			Tooltip: "敵に命中すると気絶させる可能性がある小さな斬撃を振るう"
+		}
+		BoneDart: {
+			DisplayName: "ボーンドダート"
+			Tooltip:
+				'''
+				最大2体の敵を貫通し、タイルに跳ね返る
+				2ショットごとにボーンを追加で発射する
+				'''
+		}
+		BouncyBolt: {
+			DisplayName: "バウンシーボルト"
+			Tooltip:
+				'''
+				貫通力が弱い
+				タイルに跳ね返ることができる
+				'''
+		}
+		Brick: {
+			DisplayName: "レンガ"
+			Tooltip: "'ヘイ、ワトソン、シンダーブロックだ！'"
+		}
+		BrokenFlail: {
+			DisplayName: "壊れたフレイル"
+			Tooltip: "フレイルの基本的な素材として使用される"
+		}
+		BuildStone: {
+			DisplayName: "ビルドストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると建築能力が向上する
+				最大体力の半分以下になると定期的に岩をスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		BulletBlaster: {
+			DisplayName: "バレットブラスター"
+			Tooltip:
+				'''
+				25%の確率で弾薬を節約
+				右クリックでリロードし、遠距離ステータスを向上させる
+				10%の確率で2倍のダメージを与える大きな弾丸を発射する
+				'''
+
+		}
+		BulletCannon: {
+			DisplayName: "バレットキャノン"
+			Tooltip:
+				'''
+				毎回のショットで2〜3発の弾丸を発射し、遠距離攻撃速度を5%増加させる
+				遠距離攻撃速度バフは7秒で上限に達する
+				25ショットごとに1.5秒のクールダウンが発生する
+				'''
+		}
+		AssaultEmblem: {
+			DisplayName: "アサルトエンブレム"
+			Tooltip:
+				'''
+				遠距離ダメージ+30%
+				戦術的遠距離ダメージ-15%
+				'''
+		}
+		CandyPainGun: {
+			DisplayName: "キャンディペインガン"
+			Tooltip:
+				'''
+				2点バーストで2発の弾丸を発射
+				弾丸を、移動中にカミソリ松葉を発射する致命的なクリスマスツリーに変換する
+				'敵は間違いなく痛みを感じるだろう！'
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		CardOfCompanionship: {
+			DisplayName: "仲間たちのカード"
+			Tooltip:
+				'''
+				アクティブなミニオンごとにミニオンダメージを10%増加させるが、最大ミニオン数を半分にする
+				この効果はアクティブなミニオン5体で上限に達する
+				アイテム自体を右クリックすると、密集のカードに変更できる
+				'少ない方が良いこともある'
+				'''
+		}
+		Catlauncher: {
+			DisplayName: "キャットランチャー"
+			Tooltip:
+				'''
+				ニャンキャットが敵を追尾し、敵に命中すると追尾性の虹色のボルトをスポーンさせる
+				ニャンキャットは敵に命中するとマナを回復する可能性がある
+				'なぜ私のいとこはこれをリクエストしたのか…'
+				[c/00fff7:貢献者アイテム]
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+		ChainedMimic: {
+			DisplayName: "チェーンドミミック"
+			Tooltip:
+				'''
+				所持中に運を増加させる
+				敵にまとわりつき、命中時にマイダスを付与する
+				全てのバニラのレアな敵に対して追加ダメージを与える
+				'''
+		}
+		ChainedWhip: {
+			DisplayName: "チェーンドウィップ"
+			Tooltip:
+				'''
+				8召喚タグダメージ
+				短距離で5本のチェーンウィップを振るう
+				'''
+		}
+		ChaosFlail: {
+			DisplayName: "カオスフレイル"
+			Tooltip:
+				'''
+				ランダムなフレイルの詰め合わせに切り替わる
+				フレイルを投げて発射物を放つ
+				使用するたびにステータスがランダム化される
+				'''
+		}
+		ChaosStorm: {
+			DisplayName: "カオスストーム"
+			Tooltip:
+				'''
+				ランダムな矢や弾丸の詰め合わせを発射
+				使用するたびにステータスがランダム化される
+				'とにかく、撃ち始めた！'
+				'''
+		}
+		ChaosWhip: {
+			DisplayName: "カオスウィップ"
+			Tooltip:
+				'''
+				???召喚タグダメージ
+				ランダムな鞭を放つ
+				追加の鞭を発射する可能性がある
+				使用するたびにステータスがランダム化される
+				'スナップ、クラックル、ポップ！'
+				'''
+		}
+		ChargeShot: {
+			DisplayName: "チャージショット"
+			Tooltip:
+				'''
+				弾薬としてナナイトを25個使用
+				大ダメージを与えるビームをチャージアップする
+				完全にチャージされると、ビームは消える前に2秒間持続する
+				'いや、これを使って物質を操作することはできない'
+				'''
+		}
+		CoiledSerpent: {
+			DisplayName: "コイルドサーペント"
+			Tooltip:
+				'''
+				13召喚タグダメージ
+				2匹のコイルドサーペントを振るう
+				敵に命中すると自然の発射物を放つ可能性がある
+				敵に命中するとサーペントの祝福バフを付与する
+				サーペントの祝福は鞭の速度、召喚ダメージ、移動速度を増加させる
+				'この蛇は、ふさわしい者にのみ祝福を与えると言われている'
+				'''
+		}
+		CommanderEmblem: {
+			DisplayName: "コマンダーエンブレム"
+			Tooltip: "召喚ダメージ+8%"
+		}
+		CommandersMagic: {
+			DisplayName: "コマンダーズマジック"
+			Tooltip:
+				'''
+				右クリックで瞑想し、無限のマナとわずかに増加した魔法ダメージを付与する
+				'レーザー発射！'
+				'''
+		}
+		ConcentrationStone: {
+			DisplayName: "コンセントレーションストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になるとステータス能力が向上する
+				最大体力の半分以下になると定期的に発射物をスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		CosmicWhip: {
+			DisplayName: "コズミックウィップ"
+			Tooltip:
+				'''
+				15召喚タグダメージ
+				広範囲に10本のコズミックウィップを振るう
+				振るうとカーソルに向かってルナボルトを放つ
+				敵に命中するとコズミックパワーバフを付与する
+				コズミックパワーは攻撃および防御ステータスをブーストする
+				'宇宙の存在の力で振るう'
+				'''
+		}
+		CreepyCrossbow: {
+			DisplayName: "クリーピークロスボウ"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトを花火に変換する
+				プレイヤーを爆発させる可能性がある
+				'あーあ'
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		CrimtaneWhip: {
+			DisplayName: "クリムタンウィップ"
+			Tooltip:
+				'''
+				5召喚タグダメージ
+				敵に命中すると体力を回復する
+				'''
+		}
+		CrystalBag: {
+			DisplayName: "クリスタルバッグ"
+			Tooltip:
+				'''
+				炎上、フロスト、命中時に効果を付与し、ヨーヨーバッグの効果も持つ
+				近接ダメージと速度+20%
+				クリティカルヒット率+10%
+				生命回復を3増加させる
+				'''
+		}
+		CrystalGauntlet: {
+			DisplayName: "クリスタルガントレット"
+			Tooltip:
+				'''
+				命中時に炎上とフロストバーンを付与
+				近接ダメージと速度+17%
+				現在の体力に基づいてバーバリアン近接および戦術的遠距離ダメージを増加させる
+				現在のマナに基づいてエンチャント魔法および魔法にかかった召喚ダメージを増加させる
+				'''
+		}
+		CrystalizedWandOfSparkle: {
+			DisplayName: "クリスタライズドワンドオブスパークル"
+			Tooltip:
+				'''
+				ミニイーター、星、クリスタルボルト、隕石を降らせて敵を破壊せよ！
+				信じてくれ、見た目以上のダメージを出す！
+				'''
+		}
+		CrystalShield: {
+			DisplayName: "クリスタルシールド"
+			Tooltip:
+				'''
+				内部の敵にデイブロークンを付与するソーラーフレアリングをスポーンさせる
+				リング内の全てのバニラの悪魔のような敵は2倍のダメージを受ける
+				ノックバック耐性と炎ブロックを付与
+				生命回復を増加させ、回復ポーションのクールダウンを25%減少させる
+				ほとんどのデバフに対する耐性を付与
+				体力を50増加させる
+				敵に狙われやすくなる
+				プレイヤーが全方向にダッシュできるようになる
+				全てのシールドの力を合わせたもの
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		CupidsBow: {
+			DisplayName: "キューピッドの弓"
+			Tooltip:
+				'''
+				木の矢を、接触時に生命/マナを回復するキューピッドの矢に変換する
+				15ショットごとに遠距離攻撃速度を蓄積し、その後0.5秒のクールダウンに入る
+				ラブパワーは生命回復と遠距離攻撃速度を増加させる
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		DeadlyCane: {
+			DisplayName: "デッドリーケイン"
+			Tooltip:
+				'''
+				敵に命中するとマナを回復し、キャンディラッシュを付与する可能性があるキャンディボルトを放つ
+				キャンディラッシュは生命とマナの回復を増加させる
+				'ハッピーホリデー！'
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+
+		}
+		DeathsBreath: {
+			DisplayName: "デスの息吹"
+			Tooltip:
+				'''
+				消耗品ではない
+				あなたを回復させ、浄化の塵をスポーンさせる瓶詰めのデスの息吹を投げる
+				瓶はまた、その後ろに泡の軌跡を残す
+				'オーケー、ミントが絶対に必要だ'
+				'''
+		}
+		DemoniteWhip: {
+			DisplayName: "デモナイトウィップ"
+			Tooltip:
+				'''
+				5召喚タグダメージ
+				敵に命中するとマナを回復する
+				'''
+		}
+		DiamondSword: {
+			DisplayName: "ダイヤモンドソード"
+			Tooltip:
+				'''
+				プレイヤーが空中にいる間、剣が常にクリティカルストライクすることを可能にする
+				命中時にプレイヤーを後方にノックバックする
+				'それは奇妙に異世界的だ'
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		DoomCane: {
+			DisplayName: "ドゥームケイン"
+			Tooltip:
+				'''
+				敵に命中するとマナを回復し、ドゥームラッシュを付与する可能性があるキャンディボルトを放つ
+				ドゥームラッシュは生命とマナの回復を増加させる
+				'ハッピーホリデー！'
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		DoomCannon: {
+			DisplayName: "ドゥームキャノン"
+			Tooltip:
+				'''
+				通常の弾丸を高速度弾に変換する
+				'彼らが恐れる唯一のものは、あなただ…'
+				'''
+		}
+		DragonArrow: {
+			DisplayName: "ドラゴンアロー"
+			Tooltip: "敵に命中するとさらなる矢をスポーンさせる"
+		}
+		DragonBullet: {
+			DisplayName: "ドラゴンバレット"
+			Tooltip: "多くのデバフを付与する"
+		}
+		DragonsBreath: {
+			DisplayName: "ドラゴンの息吹"
+			Tooltip:
+				'''
+				消耗品ではない
+				あなたを回復させ、衝撃時に浄化の塵をスポーンさせる瓶詰めのドラゴンの息吹を投げる
+				瓶はまた、その後ろに泡の軌跡を残す
+				'ミントいる？'
+				'''
+		}
+		DrumShotgun: {
+			DisplayName: "ドラムショットガン"
+			Tooltip:
+				'''
+				通常の弾丸を爆発弾に変換する
+				3ショットごとにグレネードを発射する
+				'お前の敵は裁かれるだろう'
+				'''
+		}
+		DustBolt: {
+			DisplayName: "ダストボルト"
+			Tooltip:
+				'''
+				貫通力が良い
+				タイルに跳ね返ることができる
+				敵に命中するとクロスボーンをスポーンさせる
+				'''
+		}
+		Earthquake: {
+			DisplayName: "アースクエイク"
+			Tooltip:
+				'''
+				左クリックでフレイルを振り、敵に多くの発射物を放つ
+				異なる種類の隕石を発射し、それぞれがあなたと敵に異なるバフとデバフを与える
+				プレイヤーに以下のステータス増加を付与：ダメージ、体力、防御
+				信じてくれ、これは'完璧にバランスが取れている'
+				'''
+		}
+		EggGun: {
+			DisplayName: "エッグガン"
+			Tooltip:
+				'''
+				33%の確率で弾薬を節約
+				弾薬としてコインを使用
+				左クリックで異なる効果を持つ様々なイースターエッグを発射
+				右クリックでチキンアウトし、移動速度を増加させるが攻撃ダメージを減少させる
+				卵は効果を組み合わせる可能性がある
+				'イースターバニーがもう我慢できなくなったとき！'
+				[c/00fff7:貢献者アイテム]
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		ElectricEel: {
+			DisplayName: "エレキウナギ"
+			Tooltip:
+				'''
+				9召喚タグダメージ
+				敵を感電させる可能性がある
+				[c/3F00FF:釣りアイテム]
+				'''
+		}
+		ElementalYoyo: {
+			DisplayName: "エレメンタルヨーヨー"
+			Tooltip: "敵に命中するとバイオームの発射物をスポーンさせる"
+		}
+		EnergyYoyo: {
+			DisplayName: "エナジーヨーヨー"
+			Tooltip:
+				'''
+				全てのエレメンタルヨーヨーを放つ
+				'テラリアの全てのエネルギーの力をあなたの味方につける'
+				'''
+		}
+		Evenpulse: {
+			DisplayName: "イーブンパルス"
+			Tooltip:
+				'''
+				木の矢を、敵に命中すると3つの追尾スパークルに分裂するイーブンパルスの矢に変換する
+				イーブンパルスの矢は重力の影響を受けない
+				追加で3つのトワイライトランスを発射する
+				'''
+		}
+		ExplosiveBolt: {
+			DisplayName: "エクスプローシブボルト"
+			Tooltip:
+				'''
+				貫通力がそこそこある
+				敵に接触すると爆発する
+				'''
+		}
+		ExtendedCandle: {
+			DisplayName: "エクステンデッドキャンドル"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				ベッツィーの火の玉を放つ
+				'''
+		}
+		ExtraThornyWandOfSparkle: {
+			DisplayName: "エクストラソーニーワンドオブスパークル"
+			Tooltip:
+				'''
+				腐敗者、星、クリスタルボルト、隕石、葉、スズメバチを降らせて敵を破壊せよ！
+				信じてくれ、見た目以上のダメージを出す！
+				'''
+		}
+		FlameBullet: {
+			DisplayName: "フレイムバレット"
+			Tooltip: "炎上を付与する"
+		}
+		FlameMini: {
+			DisplayName: "フレイムミニ"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				跳ねる火の玉を放つ
+				'''
+		}
+		FlameMissile: {
+			DisplayName: "フレイムミサイル"
+			Tooltip: "水と火の力を宿す！"
+		}
+		FlyingFish: {
+			DisplayName: "フライングフィッシュ"
+			Tooltip: "矢を、敵に命中すると矢の群れをスポーンさせるフィッシュロンの矢に変換する"
+		}
+		ForceEmblem: {
+			DisplayName: "フォースエンブレム"
+			Tooltip:
+				'''
+				マナ回復を3減少させる
+				最大マナを40減少させる
+				魔法ダメージとマナコスト+30%
+				'''
+		}
+		FossilRod: {
+			DisplayName: "フォッシルロッド"
+			Tooltip: "雷と化石のボルトを放つ"
+		}
+		FrostBullet: {
+			DisplayName: "フロストバレット"
+			Tooltip: "フロストバーンを付与する"
+		}
+		FrostGauntlet: {
+			DisplayName: "フロストガントレット"
+			Tooltip:
+				'''
+				命中時に炎上とフロストバーンを付与
+				近接ダメージと速度+15%
+				'''
+		}
+		FrostStorm: {
+			DisplayName: "フロストストーム"
+			Tooltip:
+				'''
+				6%の確率で3つのアイスボルトを発射する
+				'素晴らしい！'
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		FrozenHeroShield: {
+			DisplayName: "フローズンヒーローシールド"
+			Tooltip:
+				'''
+				ノックバック耐性を付与
+				プレイヤーに棘を与え、回復ポーションのクールダウンを25%減少させる
+				敵に狙われやすくなる
+				'''
+		}
+		FryingPan: {
+			DisplayName: "フライパン"
+			Tooltip:
+				'''
+				ベーコンと卵の間でランダムに撃つ
+				フライパン自体で敵に命中させると混乱を付与する
+				ダメージと攻撃速度はボスの進行度に応じてスケールする
+				[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+				'''
+		}
+		Funeral: {
+			DisplayName: "フューネラル"
+			Tooltip:
+				'''
+				左クリックで弾薬を消費しない溶岩ビームを発射
+				溶岩ビームは敵に命中するとプレイヤーに隕石爆発を引き起こす
+				右クリックで強力な爆発性の隕石を発射
+				'敵は間違いなく最期を迎えるだろう！'
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		FungalSpell: {
+			DisplayName: "ファンガルスペル"
+			Tooltip:
+				'''
+				10%の確率で追加の5つのキノコを発射する
+				ただ食べないで…
+				'''
+		}
+		FuryEmblem: {
+			DisplayName: "フューリーエンブレム"
+			Tooltip:
+				'''
+				近接速度+30%
+				近接ダメージ-30%
+				'''
+		}
+		GlassCannon: {
+			DisplayName: "グラスキャノン"
+			Tooltip:
+				'''
+				左クリック長押しで強力なビームをチャージアップする
+				キャノンが5秒に達したら発射準備
+				最大体力を200に設定し、防御を0に設定する
+				'脆くて致命的'
+				'''
+		}
+		GlitchYoyo: {
+			DisplayName: "グリッチヨーヨー"
+			Tooltip:
+				'''
+				その動きは速すぎてグリッチする
+				敵に命中すると虹色の弾丸をスポーンさせる
+				ヨーヨーを離して制御された虹色の弾丸を解放する
+				[c/17ff00:グﾘッc7] [c/ff00ec:iテm]
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		GoblinTome: {
+			DisplayName: "ゴブリントーム"
+			Tooltip:
+				'''
+				20%の確率でシャドウフレイム爆発を引き起こす
+				未知の言語で書かれている…
+				'''
+		}
+		GoldDigger: {
+			DisplayName: "ゴールドディガー"
+			Tooltip:
+				'''
+				急速にコインを発射
+				7ショットごとにキャノンボールを発射する
+				'海賊のお気に入りの携帯武器'
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		GoldenEmblem: {
+			DisplayName: "ゴールデンエンブレム"
+			Tooltip:
+				'''
+				ダメージを50%増加させる
+				防御と最大体力を半分にする
+				'''
+		}
+		GreenRomanCandle: {
+			DisplayName: "グリーンローマンキャンドル"
+			Tooltip: "緑の追尾性の炎を放つ"
+		}
+		GuardStone: {
+			DisplayName: "ガードストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると防御能力が向上する
+				最大体力の半分以下になると定期的にエレクトロスフィアをスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		HailStorm: {
+			DisplayName: "ヘイルストーム"
+			Tooltip:
+				'''
+				3つの巨大な雪だるま核を発射する
+				5秒のクールダウンがある
+				敵に命中すると大きな爆発を引き起こす
+				'アメリカってこんな感じ'
+				'''
+		}
+		Hamdrax: {
+			DisplayName: "ハムドラックス"
+			Tooltip: "テスト"
+		}
+		HandCannon: {
+			DisplayName: "ハンドキャノン"
+			Tooltip:
+				'''
+				衝撃で爆発するキャノンボールを放つ
+				'船の武器を携帯版に単純化したもの'
+				'''
+		}
+		HandheldBunnyCannon: {
+			DisplayName: "ハンドヘルドバニーキャノン"
+			Tooltip:
+				'''
+				衝撃で爆発するウサギを放つ
+				'この武器を作るために多くのウサギが犠牲になった'
+				'''
+		}
+		HauntedHouse: {
+			DisplayName: "ホーンテッドハウス"
+			Tooltip:
+				'''
+				35%の確率で弾薬を節約
+				左クリックで弾薬を消費しないホーンテッドビームを発射
+				ホーンテッドビームは敵に命中するとプレイヤーにスプーキー爆発を引き起こす
+				右クリックでゴーストリーヴァンパイアバットとゴーストリーパンプキンバットの間で撃ち分ける
+				右クリックはキャンディコーンを弾薬として使用
+				'敵は間違いなく悪夢に会うだろう！'
+				[c/09ff00:開発者アイテム]
+				[c/ffa0bf:ホリデーアイテム]
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		HealingCharm: {
+			DisplayName: "ヒーリングチャーム"
+			Tooltip:
+				'''
+				最大体力を100減少させる
+				最大体力の1/6以下になると100の体力を回復する可能性がある
+				'''
+		}
+		HeatSeekingShuriken: {
+			DisplayName: "ヒートシーキングシュリケン"
+			Tooltip:
+				'''
+				追尾性の手裏剣を投げる
+				'航空力学の全ての法則によれば、手裏剣は飛べるはずがない'
+				'''
+		}
+		HellBatArrow: {
+			DisplayName: "ヘルバットアロー"
+			Tooltip: "'ナナナナナ バットアロー！'"
+		}
+		HellBeeBow: {
+			DisplayName: "ヘルビーボウ"
+			Tooltip:
+				'''
+				木の矢をスティンガーに変換する
+				接触時にさらに多くの蜂に爆発する追加のヘルビーアローを発射する
+				'ジャズは好きかい？'
+				'''
+		}
+		HellCandle: {
+			DisplayName: "ヘルキャンドル"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				炎の爆風を放つ
+				'''
+		}
+		HunterEmblem: {
+			DisplayName: "ハンターエンブレム"
+			Tooltip: "遠距離ダメージ+8%"
+		}
+		IceArrow: {
+			DisplayName: "アイスアロー"
+			Tooltip: "フリーズ！"
+		}
+		InfernoWrath: {
+			DisplayName: "インフェルノラース"
+			Tooltip:
+				'''
+				インフェルノに爆発するラースの火の玉を放つ
+				ラースの火の玉はベッツィーの呪いを付与する
+				'''
+		}
+		InstantDetonation: {
+			DisplayName: "インスタントデトネーション"
+			Tooltip:
+				'''
+				防御ポイントごとに体力を2増加させる
+				最大体力の1/8以下になると爆発する
+				爆発すると死ぬが、敵に大ダメージを与える
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		JumboJumbow: {
+			DisplayName: "ジャンボジャンボウ"
+			Tooltip:
+				'''
+				矢の弾幕を発射
+				20%の確率でジャンボアローを発射する
+				'こりゃでかい！'
+				'''
+		}
+		Jumbow: {
+			DisplayName: "ジャンボウ"
+			Tooltip:
+				'''
+				矢の弾幕を発射
+				'こりゃでかい！'
+				'''
+		}
+		JumpBoots: {
+			DisplayName: "ジャンプブーツ"
+			Tooltip:
+				'''
+				移動速度とジャンプ速度を大幅に増加させる
+				テラスパークブーツ、フライングカーペット、フロッグギア、アークティックダイビングギアの効果
+				'''
+		}
+		KingsBlade: {
+			DisplayName: "キングスブレード"
+			Tooltip: "1.25秒ごとにカーソルに向かって刃を振るう"
+		}
+		KingsRobe: {
+			DisplayName: "キングスローブ"
+			Tooltip:
+				'''
+				最大ミニオン数を2増加させる
+				召喚ダメージと鞭の速度を13%増加させる
+				鞭の範囲を10%増加させる
+				'''
+		}
+		KingsShoes: {
+			DisplayName: "キングスシューズ"
+			Tooltip:
+				'''
+				最大ミニオン数を1増加させる
+				召喚ダメージと鞭の速度を7%増加させる
+				鞭の範囲を5%増加させる
+				移動速度+15%
+				'''
+		}
+		KnockoutBag: {
+			DisplayName: "ノックアウトバッグ"
+			Tooltip:
+				'''
+				高いノックバックを適用する
+				敵に命中すると小さな爆発を引き起こす
+				'''
+		}
+		LavaEel: {
+			DisplayName: "溶岩ウナギ"
+			Tooltip:
+				'''
+				9召喚タグダメージ
+				目の前で3つの頭を振り、後ろで1つの頭を振るう
+				敵に命中すると炎の爆風で爆発する可能性がある
+				後ろの頭は常に爆発するが、発射物のダメージは少ない
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		LifeArrow: {
+			DisplayName: "ライフアロー"
+			Tooltip: "体力を回復する"
+		}
+		LifeBolt: {
+			DisplayName: "ライフボルト"
+			Tooltip:
+				'''
+				貫通力なし
+				敵に命中すると体力を回復する
+				'''
+		}
+		LifeRing: {
+			DisplayName: "ライフリング"
+			Tooltip:
+				'''
+				体力を100増加させ、生命回復を増加させる
+				最大体力の1/3以下になると定期的に爆発性の釘を発射し、5の体力を回復する
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		LifeStone: {
+			DisplayName: "ライフストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると体力能力が向上する
+				最大体力の半分以下になると定期的に小さなイーターをスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		LightningRod: {
+			DisplayName: "ライトニングロッド"
+			Tooltip:
+				'''
+				近くの敵に電気のボルトを素早く撃つ
+				'少しショックを受けるかもしれない'
+				'''
+		}
+		LongShot: {
+			DisplayName: "ロングショット"
+			Tooltip:
+				'''
+				両方向に撃つ
+				本当に全てのショットガンの中で最も奇妙…
+				'この銃の弾の量なら、もうリロードする必要はない！'
+				'''
+		}
+		LuminiteBolt: {
+			DisplayName: "ルミナイトボルト"
+			Tooltip:
+				'''
+				貫通力なし
+				敵に接触すると4つのルナマインをスポーンさせる
+				'''
+		}
+		LunarDart: {
+			DisplayName: "ルナダート"
+			Tooltip:
+				'''
+				最大7体の敵を貫通できる
+				敵に命中するとルナブラストを引き起こす
+				'''
+		}
+		ManaBolt: {
+			DisplayName: "マナボルト"
+			Tooltip:
+				'''
+				貫通力なし
+				敵に命中するとマナを回復する
+				'''
+		}
+		ManaBullet: {
+			DisplayName: "マナバレット"
+			Tooltip: "マナを回復する"
+		}
+		ManaEmblem: {
+			DisplayName: "マナエンブレム"
+			Tooltip:
+				'''
+				マナ回復を3増加させる
+				最大マナを40増加させる
+				魔法ダメージとマナコスト-30%
+				'''
+		}
+		ManaStone: {
+			DisplayName: "マナストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になるとマナ能力が向上する
+				最大体力の半分以下になると定期的にソウルをスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		MazeShot: {
+			DisplayName: "メイズショット"
+			Tooltip:
+				'''
+				ショットに遅延があるが、弾丸を至る所に撃つ
+				これは馬鹿げている…
+				な ん だ こ れ は？
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		MeltMini: {
+			DisplayName: "メルトミニ"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				氷のボルトを放つ
+				'''
+		}
+		MeteorBroadsword: {
+			DisplayName: "メテオブロードソード"
+			Tooltip: "敵に命中すると空から隕石が降ってくる"
+		}
+		MinionEmblem: {
+			DisplayName: "ミニオンエンブレム"
+			Tooltip:
+				'''
+				最大ミニオン数を3増加させる
+				ミニオンのノックバックとミニオンダメージ+30%
+				鞭の速度、範囲、ダメージ、ノックバック-30%
+				'''
+		}
+		MoltenBlood: {
+			DisplayName: "モルテンブラッド"
+			Tooltip:
+				'''
+				木の矢を、接触時に小さな爆発を起こす肉の矢に変換する
+				空とカーソルに向かって矢を2点バーストで発射する
+				'''
+		}
+		MonkeyDart: {
+			DisplayName: "モンキーダート"
+			Tooltip: "最大3体の敵を貫通できる"
+		}
+		MostEnchantedMagicalEmperorSharkron: {
+			DisplayName: "モストエンチャンテッドマジカルエンペラーシャークロン"
+			Tooltip:
+				'''
+				略してM.E.M.E.Sとも呼ばれる
+				左クリックでサメが敵を噛み、カーソルに向かって突進する
+				右クリックで敵に張り付くサメを投げる
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		MutantDragonfish: {
+			DisplayName: "ミュータントドラゴンフィッシュ"
+			Tooltip:
+				'''
+				33%の確率でインフェルノブラストの弾幕を放つ
+				20%の確率で防御を減少させる火の玉を放つ
+				10%の確率で追尾性のフレイムラッシュの群れを放つ
+				炎の群れを放つ
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		MutantSharkron: {
+			DisplayName: "ミュータントシャークロン"
+			Tooltip:
+				'''
+				33%の確率で有害な泡の弾幕を放つ
+				10%の確率で追尾性のタイフーンを放つ
+				シャークロンの群れを放つ
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		MutantSewerFish: {
+			DisplayName: "ミュータントシーワーフィッシュ"
+			Tooltip:
+				'''
+				左クリックでサメが敵を噛み、近接ダメージを与える
+				敵を噛むと追尾性のミニトキシックフィッシュがスポーンし、敵を引き裂く
+				右クリックでトキシックフィッシュを投げ、投擲ダメージを与える
+				トキシックフィッシュは投げると敵を追尾する
+				トキシックフィッシュは敵に命中すると小さなイーターをスポーンさせる
+				[c/09ff00:開発者アイテム]
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		NaniteSyringe: {
+			DisplayName: "ナナイトシリンジ"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトをナナイトボルトに変換する
+				'''
+		}
+		NetheriteSword: {
+			DisplayName: "ネザライトソード"
+			Tooltip:
+				'''
+				素早く振るう
+				'それは奇妙に異世界的だ'
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		NightsCackle: {
+			DisplayName: "ナイツカックル"
+			Tooltip:
+				'''
+				8召喚タグダメージ
+				敵に命中すると追加のシャドウフレイムスカルをスポーンさせる
+				'''
+		}
+		NightsFury: {
+			DisplayName: "ナイツフューリー"
+			Tooltip:
+				'''
+				近くの敵にクリスタルペブルを素早く撃つ
+				フレイルを投げて発射物を放つ
+				'''
+		}
+		Notes: {
+			DisplayName: "ノート"
+			Tooltip: "ハードモードのジャングルで釣りをすることで入手可能"
+		}
+		NukeCaller: {
+			DisplayName: "ニュークコーラー"
+			Tooltip:
+				'''
+				召喚物が命中した敵を集中攻撃する
+				追尾性の爆弾の弾幕を降らせる
+				10秒のクールダウンがある
+				'戦術核、投下！'
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		OmegaStorm: {
+			DisplayName: "オメガストーム"
+			Tooltip:
+				'''
+				敵に命中するとネビュラアルカナムをスポーンさせる
+				'星に気をつけろ'
+				[c/00fff7:貢献者アイテム]
+				[c/09ff00:開発者アイテム]
+				'''
+		}
+		OmegaYoyo: {
+			DisplayName: "オメガヨーヨー"
+			Tooltip:
+				'''
+				敵に命中するとアルカナムをスポーンさせる
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		Omeglageddon: {
+			DisplayName: "オメガゲドン"
+			Tooltip:
+				'''
+				50%の確率で弾薬を節約
+				敵に様々な種類の弾丸をスプレーする
+				右クリックでリロードし、遠距離ステータスを向上させる
+				通常の弾丸を特殊な弾丸に変換する
+				'カオス、カオス'
+				'''
+		}
+		OneShot: {
+			DisplayName: "ワンショット"
+			Tooltip:
+				'''
+				3つの遅い弾丸を撃つ
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		Origin: {
+			DisplayName: "オリジン"
+			Tooltip:
+				'''
+				161召喚タグダメージ
+				全ての鞭の力で敵を振るう
+				右クリックで鞭を鳴らし、サモナーの攻撃能力を向上させる
+				'''
+		}
+		PaleRapier: {
+			DisplayName: "ペイルレイピア"
+			Tooltip:
+				'''
+				敵に一貫したダメージを与える短いビームを発射する
+				ビームは消えるまで一定時間しか持続しない
+				'民主主義の始まり'
+				'''
+		}
+		PanicPotion: {
+			DisplayName: "パニックポーション"
+			Tooltip: "バリスタを強化する"
+		}
+		PhantomShuriken: {
+			DisplayName: "ファントムシュリケン"
+			Tooltip:
+				'''
+				タイルを無視する追尾性の手裏剣を投げる
+				移動中に定期的に追尾性のコウモリをスポーンさせる
+				'''
+		}
+		PhaseMonster: {
+			DisplayName: "フェイズモンスター"
+			Tooltip:
+				'''
+				近くの敵にレーザーを発射
+				'フォースと共にあらんことを'
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		PixelBlade: {
+			DisplayName: "ピクセルブレード"
+			Tooltip:
+				'''
+				敵に一貫したダメージを与える中程度のビームを発射する
+				ビームは消えるまで一定時間しか持続しない
+				'王の帰還'
+				'''
+		}
+		PixelGun: {
+			DisplayName: "ピクセルガン"
+			Tooltip:
+				'''
+				さらに多くの銃に分裂する銃を投げる
+				それが静止状態になる
+				そして多くの弾丸に分裂する
+				'''
+		}
+		PixelZenith: {
+			DisplayName: "ピクセルゼニス"
+			Tooltip:
+				'''
+				剣の力で振るう
+				10%の確率で異なる効果を持つ追加の剣ビームを発射する
+				'女王の帰還'
+				'''
+		}
+		PixieStaff: {
+			DisplayName: "ピクシースタッフ"
+			Tooltip: "3本のゴールデンソードを放つ"
+		}
+		PocketWatch: {
+			DisplayName: "ポケットウォッチ"
+			Tooltip:
+				'''
+				13%の確率で弾薬を節約
+				左クリックで弾丸を発射
+				右クリックで矢を発射
+				奇妙なダイヤモンドで輝いている…
+				'今何時？'
+				'''
+		}
+		PoisonBolt: {
+			DisplayName: "ポイズンボルト"
+			Tooltip:
+				'''
+				貫通力が弱い
+				敵に毒を付与する
+				'''
+		}
+		PowerBoots: {
+			DisplayName: "パワーブーツ"
+			Tooltip:
+				'''
+				体力を100増加させる
+				釣りパワーを5増加させる
+				採掘速度と設置速度を15%増加させる
+				設置範囲を1増加させる
+				ダメージ、クリティカル率、ノックバックを15%増加させる
+				最大ミニオン数を2、最大セントリー数を1増加させる
+				全てのレギンスの力を合わせたもの
+				'''
+		}
+		PowerCloak: {
+			DisplayName: "パワークローク"
+			Tooltip:
+				'''
+				体力を200、マナを100増加させる
+				釣りパワーを15増加させる
+				採掘速度と設置速度を30%増加させる
+				設置範囲を3増加させる
+				ダメージ、クリティカル率、ノックバックを30%増加させる
+				最大ミニオン数を3、最大セントリー数を1増加させる
+				全てのチェストプレートの力を合わせたもの
+				'''
+		}
+		PowerCrown: {
+			DisplayName: "パワークラウン"
+			Tooltip:
+				'''
+				体力を150増加させる
+				釣りパワーを10増加させる
+				採掘速度と設置速度を20%増加させる
+				設置範囲を2増加させる
+				ダメージ、クリティカル率、ノックバックを15%増加させる
+				最大ミニオン数を3増加させる
+				良い回復を与える
+				全てのヘルメットの力を合わせたもの
+				'''
+		}
+		PowerEmblem: {
+			DisplayName: "パワーエンブレム"
+			Tooltip:
+				'''
+				様々なアクセサリーの効果を持つ
+				ほぼ無限の飛行時間を持つ
+				防御を2倍にする
+				ノックバック耐性と炎ブロックを付与
+				ほぼ全てのデバフに対する耐性を付与
+				釣りパワーを15増加させる
+				採掘速度と設置速度を30%増加させる
+				体力を100増加させる
+				ダメージ、クリティカル率、ノックバックを50%増加させる
+				最大ミニオン数を5、最大セントリー数を2増加させる
+				無限のマナを与える
+				ユーザーがダッシュできるようになる
+				全てのアクセサリーの力を合わせたもの
+				'''
+		}
+		PowerShot: {
+			DisplayName: "パワーショット"
+			Tooltip:
+				'''
+				広範囲に撃つ
+				本当に全てのショットガンの中で最も強力！
+				'この銃の弾の量なら、もうリロードする必要はない！'
+				'''
+		}
+		PowerWings: {
+			DisplayName: "パワーウィング"
+			Tooltip:
+				'''
+				ほぼ無限の飛行時間を持つ
+				全ての翼の力を合わせたもの
+				'''
+		}
+		PrismaticKunai: {
+			DisplayName: "プリズマティッククナイ"
+			Tooltip:
+				'''
+				消耗品ではない
+				最大3体の敵を貫通できる
+				死亡時および敵に命中時にピンクの爆風をスポーンさせる
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		PrismaticStaff: {
+			DisplayName: "プリズマティックスタッフ"
+			Tooltip:
+				'''
+				遅いプリズマティックビームを放つ
+				敵に命中すると追尾性のパワージェムをスポーンさせる
+				'全ての力を合わせれば！'
+				[c/ff9d00:伝説のアイテム]
+				'''
+		}
+		Quip: {
+			DisplayName: "クイップ"
+			Tooltip:
+				'''
+				7召喚タグダメージ
+				短距離で3本の鞭を発射する
+				敵に命中すると電気ショックをスポーンさせる可能性がある
+				速いが射程は短い
+				装備可能
+				装備すると、召喚ダメージ、ノックバック-15%、鞭の範囲-10%になるが、鞭の速度+25%になる
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		RainbowMissile: {
+			DisplayName: "レインボーミサイル"
+			Tooltip: "エレメントの力を宿す！"
+		}
+		ReaperScythe: {
+			DisplayName: "リーパーサイス"
+			Tooltip: "近くの敵に骨を素早く投げる"
+		}
+		RedRomanCandle: {
+			DisplayName: "レッドローマンキャンドル"
+			Tooltip: "赤い追尾性の炎を放つ"
+		}
+		RevolvingRevolver: {
+			DisplayName: "リボルビングリボルバー"
+			Tooltip:
+				'''
+				左クリックを長押しすると、定期的に3つの追尾スカルを発射する
+				右クリックで銃を回し、遠距離ステータスを向上させる
+				'''
+		}
+		RustedDagger: {
+			DisplayName: "ラスティブレード"
+			Tooltip:
+				'''
+				敵に一貫したダメージを与える非常に小さなビームを発射する
+				ビームは消えるまで一定時間しか持続しない
+				'帝国の始まり'
+				'''
+		}
+		SawbladeTyphoon: {
+			DisplayName: "ソーブレードタイフーン"
+			Tooltip: "命中時に追加の出血ダメージを与える3つのソーブレードを発射する"
+		}
+		SeasonalFall: {
+			DisplayName: "シーズナルフォール"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトを爆発ボルトに変換する
+				'''
+		}
+		ShadowFlameArrow: {
+			DisplayName: "シャドウフレイムアロー"
+			Tooltip: "敵に張り付き、シャドウフレイムデバフを付与する"
+		}
+		ShadowPhoenix: {
+			DisplayName: "シャドウフェニックス"
+			Tooltip:
+				'''
+				矢をシャドウフレイムスカルに変換する
+				シャドウフレイムアローを強力なシャドウフレイムファイアボールに変換する
+				シャドウフレイムファイアボールはタイルを無視し、死亡時にシャドウフレイムに爆発する
+				追加のシャドウフレイム触手を発射する
+				'''
+		}
+		SharkShot: {
+			DisplayName: "シャークショット"
+			Tooltip:
+				'''
+				左クリックでサメが敵を噛み、カーソルに向かって突進する
+				右クリックで敵に張り付くサメを投げる
+				'シャーァァァァク！'
+				'''
+		}
+		ShroomerBoomer: {
+			DisplayName: "シュルーマーブーマー"
+			Tooltip:
+				'''
+				通常の弾丸を爆発キノコに変換する
+				爆発キノコは移動中にさらなるキノコをスポーンさせる
+				3点バーストで撃つ
+				'''
+		}
+		ShroomiteArrow: {
+			DisplayName: "シュルーマイトアロー"
+			Tooltip: "衝撃時に静止したキノコをスポーンさせる"
+		}
+		ShroomiteBlaster: {
+			DisplayName: "シュルーマイトブラスター"
+			Tooltip:
+				'''
+				3つの弾丸を3点バーストで撃つ
+				右クリックで銃を回し、遠距離ステータスを向上させる
+				通常の弾丸をシュルーマイト弾に変換する
+				'''
+		}
+		ShroomiteBullet: {
+			DisplayName: "シュルーマイトバレット"
+			Tooltip: "衝撃時に静止したキノコをスポーンさせる"
+		}
+		SkullArrow: {
+			DisplayName: "スカルアロー"
+			Tooltip: "ネクロマンシーは含まれていない"
+		}
+		SkullGun: {
+			DisplayName: "スカルガン"
+			Tooltip: "速い連射速度でスカルを撃つ"
+		}
+		SmallCandle: {
+			DisplayName: "スモールキャンドル"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				小さな火花を放つ
+				'''
+		}
+		SnowballLauncher: {
+			DisplayName: "スノーボールランチャー"
+			Tooltip: "基本的なスノーボールランチャーの携帯版"
+		}
+		SnowStorm: {
+			DisplayName: "スノーストーム"
+			Tooltip:
+				'''
+				弾薬として雪玉を10個使用
+				'カナダってこんな感じ'
+				'''
+		}
+		SolarStorm: {
+			DisplayName: "ソーラーストーム"
+			Tooltip:
+				'''
+				空からデイブレイクと発射物を放つ
+				33%の確率で追尾性のフレイムラッシュの群れを放つ
+				20%の確率でフェニックスの嵐を放つ
+				'空に気をつけろ'
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		SpaceTomeOfSparkle: {
+			DisplayName: "スペーストームオブスパークル"
+			Tooltip:
+				'''
+				腐敗者、星、クリスタルボルト、隕石、葉、巨大な蜂、コウモリ、ルナフレアを降らせて敵を破壊せよ！
+				信じてくれ、見た目以上のダメージを出す！
+				'''
+		}
+		Sparkly: {
+			DisplayName: "スパークリー"
+			Tooltip:
+				'''
+				50%の確率で弾薬を節約
+				左クリックで敵に様々な種類の弾丸と混沌とした発射物の嵐をスプレーする
+				右クリックで敵に様々な種類の矢と混沌とした発射物の嵐をスプレーする
+				弾薬を特殊な弾丸と矢に変換する
+				'''
+		}
+		SpawnStone: {
+			DisplayName: "スポーンストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると召喚能力が向上する
+				最大体力の半分以下になると定期的に竜巻をスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		SpectreArrow: {
+			DisplayName: "スペクターアロー"
+			Tooltip: "タイルを無視し、敵に命中すると貫通して速度が低下する"
+		}
+		SpectreBolt: {
+			DisplayName: "スペクターボルト"
+			Tooltip:
+				'''
+				貫通力が非常に弱い
+				タイルを無視する
+				'''
+		}
+		SpectreBullet: {
+			DisplayName: "スペクターバレット"
+			Tooltip: "タイルを無視し、敵に命中すると貫通して速度が低下する"
+		}
+		SpeedStone: {
+			DisplayName: "スピードストーン"
+			Tooltip:
+				'''
+				最大体力の半分以下になると移動能力が向上する
+				最大体力の半分以下になると定期的にキノコをスポーンさせる
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		SpikeRing: {
+			DisplayName: "スパイクリング"
+			Tooltip:
+				'''
+				最大体力の半分以上になると爆発性の釘を発射する
+				時間経過でダメージを受ける
+				[c/a0a0a0:クラスレスアイテム]
+				'''
+		}
+		SpiritFlail: {
+			DisplayName: "スピリットフレイル"
+			Tooltip:
+				'''
+				振るうとプレイヤーを回復する追尾性の発射物を放つ
+				'不気味で怖い骸骨'
+				'''
+		}
+		SpiritWatch: {
+			DisplayName: "スピリットウォッチ"
+			Tooltip:
+				'''
+				17%の確率で弾薬を節約
+				左クリックでスペクター弾を発射
+				右クリックでスペクター矢を発射
+				空から発射物を降らせる
+				奇妙なダイヤモンドで輝いている…
+				'今何時？'
+				'''
+		}
+		SpookStorm: {
+			DisplayName: "スプークストーム"
+			Tooltip:
+				'''
+				空から巨大な不気味な核を呼び出す
+				攻撃クールダウンがある
+				敵に命中すると爆発する
+				'不気味なアメリカってこんな感じ'
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		Spookzooka: {
+			DisplayName: "スプークズーカ"
+			Tooltip:
+				'''
+				25%の確率で弾薬を節約
+				右クリックで攻撃を切り替える
+				左クリックはキャンディコーンを使用、右クリックはジャック・オ・ランタンを使用
+				キャンディコーンをコウモリに変換する
+				'''
+		}
+		SpookzookaMk2: {
+			DisplayName: "スプークズーカMk2"
+			Tooltip:
+				'''
+				33%の確率で弾薬を節約
+				弾薬としてキャンディコーンを使用
+				ゴーストリーヴァンパイアバットとゴーストリーパンプキンバットの間で撃ち分ける
+				ゴーストリーヴァンパイアバットはブロックを通過し、あなたを回復させ、敵を追尾する
+				ゴーストリーパンプキンバットはブロックを通過し、無限に貫通し、爆発性のジャック・オ・ランタンと追尾性のコウモリをスポーンさせる
+				爆発性のジャック・オ・ランタン核を発射する可能性がある
+				'これがハロウィンだ'
+				[c/09ff00:開発者アイテム]
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		SprayCandle: {
+			DisplayName: "スプレーキャンドル"
+			Tooltip:
+				'''
+				弾薬としてゲルを使用
+				弱い追尾性を持つ水の流れを噴出する
+				'''
+		}
+		StrangeCase: {
+			DisplayName: "ストレンジケース"
+			Tooltip: "何もしない、今のところは…"
+		}
+		StrangeVial: {
+			DisplayName: "ストレンジバイアル"
+			Tooltip:
+				'''
+				消耗品ではない
+				プレイヤーを回復させる奇妙なバイアルを投げる
+				瓶はまた、その後ろに泡の軌跡を残す
+				'''
+		}
+		StrikerPotion: {
+			DisplayName: "ストライカーポーション"
+			Tooltip: "鞭のステータスを10%増加させる"
+		}
+		SuperBlaster: {
+			DisplayName: "スーパーブラスター"
+			Tooltip:
+				'''
+				地上にいると攻撃が遅くなるが、ダメージが増加する
+				小さな範囲にランダムな数の弾丸を発射する
+				'''
+		}
+		SuperMonkeyDart: {
+			DisplayName: "スーパーモンキーダート"
+			Tooltip:
+				'''
+				消耗品ではない
+				最大5体の敵を貫通できる
+				'''
+		}
+		SuperStormBeater: {
+			DisplayName: "スーパーストームビーター"
+			Tooltip: "ボルテックスロケットに爆発する追尾性のボルテックススターを放つ"
+		}
+		SuperSyringe: {
+			DisplayName: "スーパーシリンジ"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトをヴェノムボルトに変換する
+				'''
+		}
+		SuspiciousKnife: {
+			DisplayName: "怪しげなナイフ"
+			Tooltip:
+				'''
+				最大3体の敵を貫通できる
+				敵に命中すると血の塊をスポーンさせる
+				敵に命中すると少量の体力を回復し、ガテッドデバフを付与する
+				ガテッドは敵に時間経過で素早くダメージを与える
+				'AMONG US'
+				[c/00fff7:貢献者アイテム]
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		SweetTooth: {
+			DisplayName: "スイートトゥース"
+			Tooltip:
+				'''
+				2点バーストで3発の弾丸を発射
+				弾丸を、移動中に爆発性のジャック・オ・ランタンをスポーンさせる致命的なキャンディコーンに変換する
+				'トリック・オア・トリート！'
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		Syringe: {
+			DisplayName: "シリンジ"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				ベーシックボルトをポイズンボルトに変換する
+				'''
+		}
+		TerraFlail: {
+			DisplayName: "テラフレイル"
+			Tooltip:
+				'''
+				テラブレードの未知のいとこ
+				左クリックで周囲に振り回し、多くの葉に分裂するオーブを発射する
+				右クリックでフレイルを投げ、あなたを回復させることができる
+				'''
+		}
+		TetheredRope: {
+			DisplayName: "テザードロープ"
+			Tooltip: "'これ以上基本的なものはない'"
+		}
+		TheColossus: {
+			DisplayName: "ザ・コロッサス"
+			Tooltip:
+				'''
+				振るうと敵に素早く命中する
+				投げると4倍のダメージを与える
+				'''
+		}
+		TheDevice: {
+			DisplayName: "ザ・デバイス"
+			Tooltip:
+				'''
+				消耗品ではない
+				コントローラーを投げ、まれにモニターを投げる
+				モニターは敵に命中すると怒りバフを付与する
+				怒りはクリティカル率、ダメージ、攻撃速度を10%増加させるが、生命回復と防御を半分にする
+				'黙れ、マインクラフトやってんだ'
+				'''
+		}
+		TheEgger: {
+			DisplayName: "ジ・エッガー"
+			Tooltip:
+				'''
+				25%の確率で弾薬を節約
+				弾薬としてコインを使用
+				左クリックで異なる効果を持つ様々なイースターエッグを発射
+				右クリックでチキンアウトし、移動速度を増加させるが攻撃ダメージを減少させる
+				'卵を食らえ！'
+				[c/00fff7:貢献者アイテム]
+				[c/ffa0bf:ホリデーアイテム]
+				'''
+		}
+		ThornMace: {
+			DisplayName: "ソーンメイス"
+			Tooltip:
+				'''
+				葉を吹いて近くの敵を攻撃する
+				フレイルを投げて発射物を放つ
+				'ただ棘には気をつけて'
+				'''
+		}
+		ThornyWandOfSparkle: {
+			DisplayName: "ソーニーワンドオブスパークル"
+			Tooltip:
+				'''
+				ミニイーターと星を空から降らせて敵を破壊せよ！
+				信じてくれ、見た目以上のダメージを出す！
+				'''
+		}
+		ThunderFang: {
+			DisplayName: "サンダーファング"
+			Tooltip: "敵に命中すると20%の確率で雷をスポーンさせる"
+		}
+		TimerRymer: {
+			DisplayName: "タイマーライマー"
+			Tooltip:
+				'''
+				2点バーストで3発の弾丸を発射
+				通常の弾丸を高速度弾に変換する
+				'''
+		}
+		ToxicRifle: {
+			DisplayName: "トキシックライフル"
+			Tooltip:
+				'''
+				プレイヤーのマナが尽きても使用可能
+				マナが少なくなると魔法ダメージが増加するが、酸性毒を付与する
+				'2020年ってこんな感じ'
+				'''
+		}
+		TrainingEmblem: {
+			DisplayName: "トレーニングエンブレム"
+			Tooltip: "近接ダメージ+8%"
+		}
+		TrueBiomeMorph: {
+			DisplayName: "トゥルーバイオームモーフ"
+			Tooltip:
+				'''
+				多くのバイオーム関連のヨーヨーを放つ
+				テラリアの全てのバイオームの力をあなたの味方につける
+				'''
+		}
+		TrueDurendal: {
+			DisplayName: "真デュランダル"
+			Tooltip:
+				'''
+				11召喚タグダメージ
+				2本の真デュランダルを振るう
+				'''
+		}
+		TrueEyeOfCthulhu: {
+			DisplayName: "真クトゥルフの目"
+			Tooltip:
+				'''
+				エンドゲームのヨーヨーを放って敵を傷つける
+				'人々は私をヨーヨーマスターと呼ぶ！'
+				'''
+		}
+		TrueNightsCackle: {
+			DisplayName: "真ナイツカックル"
+			Tooltip:
+				'''
+				11召喚タグダメージ
+				敵に命中すると追加のシャドウフレイムスカルをスポーンさせる
+				'''
+		}
+		TrueNightsFury: {
+			DisplayName: "真ナイツフューリー"
+			Tooltip:
+				'''
+				近くの敵にクリスタルボルトを素早く撃つ
+				フレイルを投げて発射物を放つ
+				'''
+		}
+		TruePixieStaff: {
+			DisplayName: "真ピクシースタッフ"
+			Tooltip:
+				'''
+				5本の真の剣を放つ
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		VoidPurse: {
+			DisplayName: "ヴォイドパース"
+			Tooltip:
+				'''
+				残念ながら収納としては使用できない
+				フレイルを投げて発射物を放つ
+				'''
+		}
+		VortexYoyo: {
+			DisplayName: "ボルテックスヨーヨー"
+			Tooltip: "回転中にルナボルトをスポーンさせる"
+		}
+		WandOfSparkle: {
+			DisplayName: "ワンドオブスパークル"
+			Tooltip:
+				'''
+				空から星を降らせて敵を破壊せよ！
+				信じてくれ、見た目以上のダメージを出す！
+				'''
+		}
+		WarEmblem: {
+			DisplayName: "ウォーエンブレム"
+			Tooltip:
+				'''
+				近接ダメージ+30%
+				近接速度-30%
+				'''
+		}
+		WaspNest: {
+			DisplayName: "ワスプネスト"
+			Tooltip: "回転中にスズメバチをスポーンさせる"
+		}
+		WaterFlail: {
+			DisplayName: "ウォーターフレイル"
+			Tooltip:
+				'''
+				フレイルを投げて発射物を放つ
+				'氷のように冷たいかもしれない'
+				'''
+		}
+		WhipEmblem: {
+			DisplayName: "ウィップエンブレム"
+			Tooltip:
+				'''
+				最大ミニオン数を3減少させる
+				鞭の速度、範囲、ダメージ、ノックバック+30%
+				ミニオンのノックバックとミニオンダメージ-30%
+				'''
+		}
+		WhipExtender: {
+			DisplayName: "ウィップエクステンダー"
+			Tooltip: "鞭の範囲+12%"
+		}
+		WhipMastersGlory: {
+			DisplayName: "ウィップマスターズグローリー"
+			Tooltip:
+				'''
+				5召喚タグダメージ
+				アイテム使用中に定期的に鞭を振るう
+				鞭の範囲は武器の速度に応じてスケールする
+				最大ミニオン数を2増加させる
+				鞭の速度、範囲、ミニオンのノックバック、ミニオンダメージ+20%
+				敵に狙われやすくなる
+				'''
+		}
+		WoodenCrossbow: {
+			DisplayName: "木製クロスボウ"
+			Tooltip:
+				'''
+				弾薬としてボルトを使用
+				[c/00fff7:貢献者アイテム]
+				'''
+		}
+		WoodenRifle: {
+			DisplayName: "木製ライフル"
+			Tooltip:
+				'''
+				25%の確率で弾薬を節約
+				弾薬としてドングリを使用
+				死ぬと葉をスポーンさせるドングリを撃つ
+				'''
+		}
+		WormOfCthulhu: {
+			DisplayName: "クトゥルフのワーム"
+			Tooltip:
+				'''
+				長いヨーヨー
+				ヨーヨーは何度もヒットされると死ぬ
+				[c/6d006f:ジョークアイテム]
+				'''
+		}
+		YoyoOfElements: {
+			DisplayName: "エレメンツのヨーヨー"
+			Tooltip:
+				'''
+				異なる能力を持つ多くのヨーヨーを撃つ
+				'良いも悪いも、俺はヨーヨーを持つ男だ！'
+				'''
+		}
+		AsteroidGreatsword: {
+			DisplayName: "アステロイドグレートソード"
+			Tooltip:
+				'''
+				敵に命中すると空から小惑星が降ってくる
+				小惑星は最大3回まで跳ね返り、貫通する
+				'''
+		}
+		NuclearFallout: {
+			DisplayName: "ニュークリアフォールアウト"
+			Tooltip:
+				'''
+				召喚物が命中した敵を集中攻撃する
+				追尾性の爆弾の弾幕を降らせる
+				10秒のクールダウンがある
+				'核爆弾、投下！'
+				'''
+		}
+		Notes2: {
+			Tooltip: "クロスネックレスをシマーにかけることで入手可能"
+			DisplayName: "ノート"
+		}
+		CharmOfSynergy: {
+			DisplayName: "シナジーのチャーム"
+			Tooltip:
+				'''
+				生命回復とマナ回復を無効にする
+				バーバリアン近接、エンチャント魔法、戦術的遠距離、魔法にかかった召喚ダメージを30%増加させる
+				これらのブーストはプレイヤーが最大体力の半分以下の場合にのみ発生する
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+		HeavenlyStorm: {
+			DisplayName: "ヘブンリーストーム"
+			Tooltip:
+				'''
+				矢をシマーアローに変換する
+				ホーリーアローをヘブンリーアローに変換する
+				ヘブンリーアローは上向きに落ち、命中時に星のような爆発を引き起こす
+				ホーリーアローも発射する可能性がある
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+		Notes3: {
+			DisplayName: "ノート"
+			Tooltip: "デッドリーストームボウをシマーにかけることで入手可能"
+		}
+		Notes4: {
+			DisplayName: "ノート"
+			Tooltip: "マスケットボールをシマーにかけることで入手可能"
+		}
+		ShimmerBullet: {
+			DisplayName: "シマーバレット"
+			Tooltip:
+				'''
+				重力の影響を受ける
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+		Shimmerstick: {
+			DisplayName: "シマースティック"
+			Tooltip:
+				'''
+				弾丸をシマーバレットに変換する
+				メテオバレットをヘブンリーバレットに変換する
+				ヘブンリーバレットは貫通し、跳ね返り、重力の影響を受け、跳ね返るか死ぬと小さな破片に砕ける
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+		Notes5: {
+			DisplayName: "ノート"
+			Tooltip: "ブームスティックをシマーにかけることで入手可能"
+		}
+		Notes6: {
+			DisplayName: "ノート"
+			Tooltip: "プリズマティックスタッフをシマーにかけることで入手可能"
+		}
+		SparklingStaff: {
+			DisplayName: "スパークリングスタッフ"
+			Tooltip:
+				'''
+				たくさんのジェムボルトの間で発射する
+				追加の追尾パワージェムを発射する
+				'古代の武器、時に失われた'
+				[c/ff9d00:伝説のアイテム]
+				[c/b225e6:シマーアイテム]
+				'''
+		}
+	VoidAxe: {
+		Tooltip:
+			'''
+			近接速度ボーナスの50%の恩恵を受ける
+			敵を追尾し、生命を盗み、タイルを無視する強力なヴォイドアックスを放つ
+			追尾していない場合、ヴォイドアックスはその場で停止する
+			真の近接ヒットもプレイヤーを回復する
+			[c/b225e6:シマーアイテム]
+			'''
+		DisplayName: "ヴォイドアックス"
+	}
+	Notes7: {
+		Tooltip: "デスシックルをシマーにかけることで入手可能"
+		DisplayName: "ノート"
+	}
+	Notes8: {
+		DisplayName: "ノート"
+		Tooltip: "ワンショットをシマーにかけることで入手可能"
+	}
+	WeakeningShot: {
+		DisplayName: "ウィークニングショット"
+		Tooltip:
+			'''
+			様々なデバフを付与する貫通性の弱いレーザーを3本放つ
+			[c/a0a0a0:クラスレスアイテム]
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	Notes9: {
+		DisplayName: "ノート"
+		Tooltip:
+			'''
+			武器商人から購入することで入手可能
+			武器商人が十分に幸福で、いずれかの邪悪なボスが倒されている必要がある
+			'''
+	}
+	IceBlizzard: {
+		DisplayName: "アイスブリザード"
+		Tooltip:
+			'''
+			2本のつららを素早く発射する
+			10%の確率で5本のアイスボルトを発射する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	IcicleBarrage: {
+		Tooltip:
+			'''
+			3本のつららを素早く発射する
+			12%の確率で10本のアイスボルトを発射する
+			[c/ff9d00:伝説のアイテム]
+			'''
+		DisplayName: "アイシクルバレッジ"
+	}
+	CreepyEyedol: {
+		DisplayName: "クリーピーアイドール"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			召喚物が命中した敵を集中攻撃する
+			狂気の視線で敵を睨みつける
+			視線はタイルを貫通できる
+			命中した敵は恐怖し、速度が低下する
+			'まばたきするな！'
+			'''
+	}
+	Flashlight: {
+		Tooltip:
+			'''
+			7秒間、盲目デバフを付与する明るい光を放つ
+			盲目は敵の防御を半分にする
+			'自分の顔に向けないように！'
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+		DisplayName: "フラッシュライト"
+	}
+	PrismaticCrystalStaff: {
+		DisplayName: "プリズマティッククリスタルスタッフ"
+		Tooltip:
+			'''
+			弱い追尾性を持ち、命中時に速度が低下する虹色のクリスタルを発射する
+			虹色のクリスタルは命中時に破片に砕ける
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	FistsOfFury: {
+		DisplayName: "フィストオブフューリー"
+		Tooltip:
+			'''
+			千の拳の怒りで素早くパンチする
+			攻撃せずに3秒間拳を構えると、プレイヤーにスーパーバフを付与する
+			スーパーバフは近接ダメージを2倍にし、クリティカル率を25%増加させ、移動速度を2倍にし、無限飛行を付与する
+			クリティカルストライクで敵を2秒間気絶させる
+			所持中、Oozed、Mighty Wind、Distortedに対する耐性を付与する
+			'ここで史上最高のオムレツを作っているんだ'
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	Superflux: {
+		DisplayName: "スーパーフラックス"
+		Tooltip: ""
+	}
+	SwordOfLight: {
+		Tooltip: "20%の確率で5本の光のビームを発射する"
+		DisplayName: "ソードオブライト"
+	}
+	BlazingStaff: {
+		DisplayName: "ブレイズワンド"
+		Tooltip:
+			'''
+			左クリックを3秒間押し続けて、炎の爆風をチャージする
+			アイテムを右クリックしてフレイムモードに変更する
+			'熱すぎて扱いきれないかもしれない'
+			'''
+	}
+	BlazingStaff2: {
+		Tooltip:
+			'''
+			マナを回復する炎を広範囲に素早く発射する
+			アイテムを右クリックしてブレイズモードに変更する
+			'熱すぎて扱いきれないかもしれない'
+			'''
+		DisplayName: "フレイムワンド"
+	}
+	Notes10: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモードでパーティーガールから購入することで入手可能"
+	}
+	ClockworkArrow: {
+		Tooltip:
+			'''
+			敵を1秒間時間停止させる
+			停止後、敵を3秒間加速させる
+			'''
+		DisplayName: "クロックワークアロー"
+	}
+	ClockworkRepeater: {
+		Tooltip:
+			'''
+			33%の確率で弾薬を節約
+			3ショットバーストで2〜3本の矢を撃つ
+			矢をスチームパンクアローに変換する
+			スチームパンクアローは死亡時にテレポートし、カーソルに向かってクロックワークアローをスポーンさせる
+			'''
+		DisplayName: "クロックワークリピーター"
+	}
+	CogMachine: {
+		DisplayName: "コグマシーン"
+		Tooltip:
+			'''
+			敵に命中後、その場に留まる歯車を素早く発射する
+			しばらくすると、マシンは1.5秒のクールダウンに入る
+			'''
+	}
+	OverloadedMagazine: {
+		DisplayName: "オーバーロードマガジン"
+		Tooltip:
+			'''
+			弾丸ダメージを10%増加させる
+			5秒ごとにリロードバフを適用する
+			'''
+	}
+	GearBreaker: {
+		Tooltip:
+			'''
+			敵に命中すると巨大な歯車をスポーンさせる巨大なレンチを振るう
+			巨大な歯車はダメージが増加し、しばらく移動すると停止する
+			'''
+		DisplayName: "ギアブレイカー"
+	}
+	GearGlove: {
+		DisplayName: "ギアグローブ"
+		Tooltip:
+			'''
+			3召喚タグダメージ
+			攻撃中に1秒ごとに追尾性の歯車を発射する
+			'''
+	}
+	TestBlade: {
+		DisplayName: "コードブレイカー"
+		Tooltip: "敵を存在から消し去る"
+	}
+	Test: {
+		DisplayName: "テスト"
+		Tooltip: ""
+	}
+	CodeBreaker: {
+		DisplayName: "コードブレイカー"
+		Tooltip:
+			'''
+			敵を存在から消し去る
+			[c/871b28:チートアイテム]
+			'''
+	}
+	TheEraser: {
+		DisplayName: "ジ・イレイザー"
+		Tooltip:
+			'''
+			命中時に敵を気絶させる
+			敵を存在から消し去る
+			[c/871b28:チートアイテム]
+			'''
+	}
+	CardOfCrowdedness: {
+		DisplayName: "密集のカード"
+		Tooltip:
+			'''
+			アクティブなミニオンごとにミニオンダメージを10%減少させるが、最大ミニオン数を2倍にする
+			この効果はアクティブなミニオン5体で上限に達する
+			アイテム自体を右クリックすると、仲間たちのカードに変更できる
+			'多ければ少ないこともある'
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	WoodenDagger: {
+		DisplayName: "木のダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにステルスバフを付与する
+			ステルスバフは近接ダメージを2倍にし、クリティカル率を12%増加させる
+			'''
+	}
+	HolyDagger: {
+		DisplayName: "ホーリーダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにリフレッシュバフを付与する
+			リフレッシュバフは近接ダメージを2倍にし、近接速度を15%増加させ、クリティカル率を50%増加させる
+			リフレッシュバフを得ると聖なる爆発をスポーンさせる
+			命中時にプレイヤーを回復する
+			'''
+	}
+	ShortbowDagger: {
+		DisplayName: "ショートボウダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度と近接ダメージを2倍にする
+			カーソルに向かって矢を撃つ
+			'''
+	}
+	TheGenocide: {
+		DisplayName: "ジェノサイド"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度と近接ダメージを2倍にする
+			クイックドローバフを得るとカーソルに向かって3本の血の矢を撃つ
+			一度に2〜4本の矢を撃つ
+			矢を血の矢に変換する
+			'''
+	}
+	TheBattler: {
+		DisplayName: "ザ・バトラー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度と近接ダメージを2倍にする
+			クイックドローバフを得るとカーソルに向かって5本のクロロファイトの矢を撃つ
+			一度に3〜5本の矢を撃つ
+			矢をクロロファイトの矢に変換する
+			[c/09ff00:開発者アイテム]
+			'''
+	}
+	PrehistoricDagger: {
+		DisplayName: "先史時代のダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーに先史時代の力バフを付与する
+			先史時代の力バフは近接ダメージを50%増加させ、クリティカル率を100%増加させる
+			'''
+	}
+	GrassDagger: {
+		DisplayName: "草のダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーに自然の力バフを付与する
+			自然の力バフは近接ダメージを2倍にし、クリティカル率を100%増加させ、防御を12増加させる
+			カーソルに向かって葉を撃つ
+			'''
+	}
+	WaterDagger: {
+		DisplayName: "水のダガー"
+		Tooltip:
+			'''
+			短距離の水の流れを撃つ
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにリフレッシュバフを付与する
+			リフレッシュバフは近接ダメージを2倍にし、近接速度を15%増加させ、クリティカル率を50%増加させる
+			リフレッシュバフを得るとプレイヤーの周りに水のボルトをスポーンさせる
+			'''
+	}
+	InfernoHand: {
+		DisplayName: "インフェルノハンド"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにインフェルノサクリファイスバフを付与する
+			インフェルノサクリファイスバフは近接ダメージを75%増加させ、近接速度を30%増加させ、クリティカル率を15%増加させる
+			近接ヒットは敵から炎を噴出させ、カーソルに向かわせる
+			インフェルノハンドを振るっている間、プレイヤーに炎上！デバフを適用する
+			'''
+	}
+	BoltDagger: {
+		DisplayName: "ボルトダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにエナジャイズドバフを付与する
+			エナジャイズドバフは近接ダメージを2倍にし、クリティカル率を8%増加させ、移動速度を2倍にする
+			エナジャイズドバフを得るとカーソルに向かってマグネットスフィアを撃つ
+			ダガーを振る代わりに1〜3本のボルトを撃つ
+			'''
+	}
+	SolarExplosion: {
+		DisplayName: "ソーラーエクスプロージョン"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにエナジャイズドバフを付与する
+			エナジャイズドバフは近接ダメージを2倍にし、クリティカル率を8%増加させ、移動速度を2倍にする
+			エナジャイズドバフを得るとカーソルに向かってソーラーエラプションを撃つ
+			爆発性のソーラーファイアボールを撃つ
+			'''
+	}
+	CatsPaw: {
+		DisplayName: "キャッツポウ"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクレイジーキティバフを付与する
+			クレイジーキティバフは近接ダメージを50%増加させ、クリティカル率を12%増加させ、移動速度を2倍にし、近接速度を増加させる
+			クレイジーキティバフを得るとプレイヤーの周りに虹色のボルトを撃つ
+			鋭い追尾性の爪を撃つ
+			'''
+	}
+	Seedling: {
+		DisplayName: "シードリング"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーに自然の力バフを付与する
+			自然の力バフは近接ダメージを2倍にし、クリティカル率を100%増加させ、防御を12増加させる
+			自然の力バフを得るとプレイヤーの周りに爆発する種を撃つ
+			敵に命中するとその周りに胞子をスポーンさせる
+			'''
+	}
+	StormDagger: {
+		DisplayName: "ストームダガー"
+		Tooltip:
+			'''
+			攻撃せずにダガーを構えている間、プレイヤーにストームシールドバフを付与する
+			ストームシールドバフは防御を12、生命回復を6増加させ、ノックバック耐性を付与する
+			死亡時にストームボールに分裂するストームブラストを撃つ
+			10%の確率で200%多くのダメージを与える
+			'''
+	}
+	DarkPortal: {
+		DisplayName: "ダークポータル"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにシャドウストライクバフを付与する
+			シャドウストライクバフは近接ダメージを2倍にし、クリティカル率を30%増加させ、近接速度を15%増加させ、防御を10増加させる
+			シャドウストライクバフを得るとカーソルに向かってデスシックルを撃つ
+			死亡時にカーソルに向かって新しいダークオーブをスポーンさせるダークオーブを撃つ
+			新しくスポーンしたダークオーブは命中時に速度を失う
+			近接ヒットでシャドウフレイムブラストを引き起こす可能性がある
+			'''
+	}
+	CursedPortal: {
+		DisplayName: "カースドポータル"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにシャドウストライクバフを付与する
+			シャドウストライクバフは近接ダメージを2倍にし、クリティカル率を30%増加させ、近接速度を15%増加させ、防御を10増加させる
+			シャドウストライクバフを得るとカーソルに向かってデスシックルを撃つ
+			死亡時にカーソルに向かって新しいダークオーブをスポーンさせるダークオーブを撃つ
+			新しくスポーンしたダークオーブは命中時に速度を失う
+			近接ヒットでシャドウフレイムブラストを引き起こす可能性がある
+			'''
+	}
+	SacrificalDagger: {
+		DisplayName: "サクリフィカルダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにリフレッシュバフを付与する
+			リフレッシュバフは近接ダメージを2倍にし、近接速度を15%増加させ、クリティカル率を50%増加させる
+			リフレッシュバフを得ると聖なる爆発をスポーンさせる
+			命中時にプレイヤーを回復する
+			'''
+	}
+	SacrificialDagger: {
+		DisplayName: "サクリフィシャルダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにリフレッシュバフを付与する
+			リフレッシュバフは近接ダメージを2倍にし、近接速度を15%増加させ、クリティカル率を50%増加させる
+			リフレッシュバフを得ると聖なる爆発をスポーンさせる
+			命中時にプレイヤーを回復する
+			'''
+	}
+	TerraDagger: {
+		DisplayName: "テラダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにテラパワーバフを付与する
+			テラパワーバフは近接ダメージを65%増加させ、クリティカル率を30%増加させ、近接速度を増加させ、防御を12増加させる
+			テラパワーバフを得るとカーソルに向かってテラビームを撃つ
+			カーソルに向かって剣の発射物を撃つ
+			近接ヒットでクロロファイトブラストを引き起こす可能性がある
+			'''
+	}
+	ShockDagger: {
+		DisplayName: "ショックダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにクリスタライズドバフを付与する
+			クリスタライズドバフは近接速度と移動速度を50%増加させ、クリティカルストライク率を12%増加させる
+			エナジャイズドバフを得るとカーソルに向かってエレクトロスフィアミサイルを撃つ
+			ダガーを振る代わりに3〜5本の雷ボルトを撃つ
+			地上にいると攻撃が速くなる
+			'''
+	}
+	SpaceDagger: {
+		DisplayName: "スペースダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーに星の力バフを付与する
+			星の力バフは生命回復、防御を増加させ、移動速度を2倍にする
+			近接ヒットで空から星の弾幕が降ってくる
+			'''
+	}
+	CandyCornDagger: {
+		DisplayName: "キャンディコーんだがー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーに先史時代の力バフを付与する
+			先史時代の力バフは近接ダメージを50%増加させ、クリティカル率を100%増加させる
+			先史時代の力バフを得るとカーソルに向かって爆発性のジャック・オ・ランタンを撃ち、プレイヤーを回復する
+			敵に命中すると炎の爆発を引き起こす可能性がある
+			'''
+	}
+	DarkestDagger: {
+		DisplayName: "ダーケストダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにダークンドパワーバフを付与する
+			ダークンドパワーバフは近接ダメージを2倍にし、クリティカル率を100%増加させ、近接速度を増加させ、防御を16増加させ、移動速度を2倍にする
+			ダークンドパワーバフを得るとプレイヤーを回復する
+			シャドウペインを付与し、敵を掴むことができる壊滅的なビームを発射する
+			シャドウペインは時間経過で極端なダメージを与える
+			'''
+	}
+	EnchantedDagger: {
+		DisplayName: "エンチャンテッドダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにエンチャンテッドバフを付与する
+			エンチャンテッドバフは近接ダメージを2倍にし、近接速度を25%増加させ、クリティカル率を10%増加させる
+			カーソルに向かってエンチャントされた剣のビームを撃つ
+			'''
+	}
+	Bowulder: {
+		DisplayName: "ボウルダー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度を2倍にし、近接ダメージを50%増加させる
+			命中時に岩をスポーンさせる巨大な岩の矢を撃つ
+			[c/6d006f:ジョークアイテム]
+			'''
+	}
+	Bowmama: {
+		DisplayName: "ボウママ"
+		Tooltip:
+			'''
+			矢の弾幕を発射する
+			通常の矢をルミナイトアローに変換する
+			33%の確率でジャンボルミナイトアローを撃つ
+			'ボウママはとても太っている…'
+			[c/00fff7:貢献者アイテム]
+			[c/6d006f:ジョークアイテム]
+			'''
+	}
+	ChargeShotGreen: {
+		DisplayName: "グリーンチャージショット"
+		Tooltip:
+			'''
+			弾薬としてナナイトを25個使用
+			大ダメージを与えるビームをチャージアップする
+			完全にチャージされると、ビームは消える前に2秒間持続する
+			'いや、これを使って物質を操作することはできない'
+			'''
+	}
+	ChargeShotPurple: {
+		DisplayName: "パープルチャージショット"
+		Tooltip:
+			'''
+			弾薬としてナナイトを25個使用
+			大ダメージを与えるビームをチャージアップする
+			完全にチャージされると、ビームは消える前に2秒間持続する
+			'いや、これを使って物質を操作することはできない'
+			'''
+	}
+	ChargeShotRed: {
+		DisplayName: "レッドチャージショット"
+		Tooltip:
+			'''
+			弾薬としてナナイトを25個使用
+			大ダメージを与えるビームをチャージアップする
+			完全にチャージされると、ビームは消える前に2秒間持続する
+			'いや、これを使って物質を操作することはできない'
+			'''
+	}
+	Shadowflame: {
+		DisplayName: "シャドウフレイム"
+		Tooltip: "'ゴブリンのウォーロックが魔法に使う魔法の炎'"
+	}
+	ShadowbloodPotion: {
+		DisplayName: "シャドウブラッドポーション"
+		Tooltip:
+			'''
+			体力を50増加させるが、生命回復を2減少させる
+			'飲むとチクチクする感じがする'
+			'''
+	}
+	UndeadPerfume: {
+		DisplayName: "アンデッドパフューム"
+		Tooltip:
+			'''
+			魔法にかかった召喚ダメージとノックバックを50%増加させる
+			プレイヤーにアンデッドの悪臭を染み込ませる
+			プレイヤーの移動速度がわずかに遅くなり、飛べなくなる
+			しかしプレイヤーはより多くの体力、生命回復を得て、全てのアンデッドが友好的になる
+			'''
+	}
+	FrostbittenDagger: {
+		DisplayName: "フロストビトゥンダガー"
+		Tooltip:
+			'''
+			短距離のつららを撃つ
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにフローズンストレングスバフを付与する
+			フローズンストレングスバフは近接ダメージを5倍にし、クリティカル率を20%増加させるが、全ての防御を失う
+			近接ヒットは敵を遅くする
+			'''
+	}
+	CorrodedDagger: {
+		DisplayName: "腐食したダガー"
+		Tooltip:
+			'''
+			ひどく損傷し、錆びたダガー
+			昼間に使用すると、シャドウシーフNPCを召喚する
+			'''
+	}
+	SuspiciousDoll: {
+		DisplayName: "怪しげな人形"
+		Tooltip:
+			'''
+			弾薬としてシャドウフレイムを使用
+			ランダムな角度で追尾性の矢の弾幕を放つ
+			2.5秒のクールダウンがある
+			'見覚えがあるような…'
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	WinterDagger: {
+		DisplayName: "ウィンターダガー"
+		Tooltip:
+			'''
+			短距離のつららを撃つ
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにフローズンストレングスバフを付与する
+			フローズンストレングスバフは近接ダメージを5倍にし、クリティカル率を20%増加させるが、全ての防御を失う
+			フローズンストレングスバフを得るとプレイヤーの周りにノースポールスピアを撃つ
+			近接ヒットは敵を遅くする
+			'''
+	}
+	SpiritDoll: {
+		DisplayName: "スピリットドール"
+		Tooltip:
+			'''
+			弾薬としてシャドウフレイムを使用
+			ランダムな角度で追尾性のスペクターアローの弾幕を放つ
+			33%の確率で弾薬を節約
+			2.25秒のクールダウンがある
+			'恐怖を感じさせる'
+			'''
+	}
+	LihzahrdianDagger: {
+		DisplayName: "リザードダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにガーディアンディフェンスバフを付与する
+			ガーディアンディフェンスバフは近接ダメージを50%増加させ、防御を2倍にするが、生命回復を0に設定する
+			近接ヒットは敵を混乱させ、敵の下に岩を撃ち出す可能性がある
+			'''
+	}
+	LightShow: {
+		DisplayName: "ライトショー"
+		Tooltip:
+			'''
+			タイルを無視し、一定のダメージを与える小さなビームを撃つ
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにプリズマティックパワーバフを付与する
+			プリズマティックパワーバフは近接ダメージを2倍にし、生命回復を5増加させるが、防御を半分にする
+			近接ヒットは敵がより多くの金を落とすようにし、追尾性の星をスポーンさせる可能性がある
+			'''
+	}
+	SpikedDoll: {
+		DisplayName: "スパイクドール"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを使用
+			ランダムな角度で跳ね返る矢の嵐を放つ
+			3秒のクールダウンがある
+			'誰にでも10000回は傷つけられるだけのスパイクがある'
+			'''
+	}
+	ShadowSlap: {
+		DisplayName: "シャドウスラップ"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにシャドウストライクバフを付与する
+			シャドウストライクバフは近接ダメージを2倍にし、クリティカル率を30%増加させ、近接速度をわずかに増加させ、防御を10増加させる
+			近接ヒットでシャドウフレイムを付与する
+			'''
+	}
+	BandOfDarkness: {
+		DisplayName: "バンドオブダークネス"
+		Tooltip:
+			'''
+			敵に狙われやすくなる
+			ジャンプ速度を増加させ、近接ダメージを10%増加させる
+			'''
+	}
+	DarkenedLight: {
+		DisplayName: "ダークンドライト"
+		Tooltip:
+			'''
+			移動速度を増加させ、近接速度を15%増加させる
+			ジャンプ速度を増加させ、近接ダメージを15%増加させる
+			'''
+	}
+	LightBelt: {
+		DisplayName: "ライトベルト"
+		Tooltip:
+			'''
+			敵に狙われにくくなる
+			移動速度を増加させ、近接速度を10%増加させる
+			'''
+	}
+	AllSeeingEye: {
+		DisplayName: "オールシーイングアイ"
+		Tooltip:
+			'''
+			追尾性の目玉を召喚する
+			追尾性の目玉は命中時にミニオンが敵をターゲットするようにする
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	BloodyKnives: {
+		DisplayName: "ブラッディナイフ"
+		Tooltip:
+			'''
+			ゆっくりとしたバーストで生命を盗むナイフを放つ
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	WormPike: {
+		DisplayName: "ワームパイク"
+		Tooltip:
+			'''
+			追尾性のイーターを放つ
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	HoneyDew: {
+		DisplayName: "ハニーデュー"
+		Tooltip:
+			'''
+			消耗品ではない
+			[c/ff9d00:伝説のアイテム]
+			'''
+		RestoreLifeText: "120"
+	}
+	SlimeSpewer: {
+		DisplayName: "スライムスピューワー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			気絶させる粘着ゲルを撃つ
+			粘着ゲルは弱い追尾性を持つ
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	CursedKey: {
+		DisplayName: "カースドキー"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			弾薬としてボーンダストを使用
+			召喚物が命中した敵を集中攻撃する
+			敵に命中すると追尾し、速度が低下するゴーストドラゴンを召喚する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	MeatShield: {
+		DisplayName: "ミートシールド"
+		Tooltip:
+			'''
+			内部の敵にデイブロークンを付与するソーラーフレアリングをスポーンさせる
+			リング内の全てのバニラの悪魔のような敵は2倍のダメージを受ける
+			プレイヤーが全方向にダッシュできるようになる
+			生命回復を増加させ、ノックバック耐性を付与する
+			敵に狙われやすくなる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	GreenDrone: {
+		DisplayName: "グリーンドローン"
+		Tooltip:
+			'''
+			30%の確率で弾薬を節約
+			通常の弾丸を呪われた弾丸に変換する
+			右クリックでレッドドローンに変更できる
+			'スペース！'
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	RedDrone: {
+		DisplayName: "レッドドローン"
+		Tooltip:
+			'''
+			30%の確率で弾薬を節約
+			通常の弾丸を爆発弾に変換する
+			右クリックでグリーンドローンに変更できる
+			'スペース！'
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	PrimeSaw: {
+		DisplayName: "プライムソー"
+		Tooltip:
+			'''
+			チェーンソーで敵に命中すると追加の刃をスポーンさせる
+			さらに、クリティカルストライクで敵に命中するとプレイヤーを回復し、ガテッドデバフを付与する
+			ガテッドは敵に時間経過で素早くダメージを与える
+			'敵を切り刻むのに最適'
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	LaserGun: {
+		DisplayName: "レーザーガン"
+		Tooltip:
+			'''
+			貫通レーザーを撃つ
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	RoyalDevotion: {
+		DisplayName: "ロイヤルデボーション"
+		Tooltip:
+			'''
+			最大セントリーと最大ミニオンを1増加させる
+			近接速度と遠距離ダメージを10%増加させる
+			最大マナを20増加させる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	BetsysCore: {
+		DisplayName: "ベッツィーズコア"
+		Tooltip:
+			'''
+			クリティカル率を100%増加させるが、ダメージを50%減少させる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	EtherealEmblem: {
+		DisplayName: "イーサリアルエンブレム"
+		Tooltip:
+			'''
+			クリティカル率を10%増加させる
+			攻撃ダメージと速度を15%増加させる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	SinnersAmbition: {
+		DisplayName: "シナーズアンビション"
+		Tooltip:
+			'''
+			通常の弾丸を、命中時に爆発する跳ね返るレーザーに変換する
+			右クリックで銃を回し、遠距離ステータスを向上させる
+			'V2には到底無理だ'
+			[c/00fff7:貢献者アイテム]
+			[c/09ff00:開発者アイテム]
+			'''
+	}
+	SparkCell: {
+		DisplayName: "スパークセル"
+		Tooltip:
+			'''
+			ターゲットの周りに8体のガストをスポーンさせる可能性がある
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	LunarticMask: {
+		DisplayName: "ルナーティックマスク"
+		Tooltip:
+			'''
+			より小さな追尾性の星をスポーンさせるきらめく星を発射する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	DroneRemote: {
+		DisplayName: "ドローンリモート"
+		Tooltip:
+			'''
+			攻撃せずにリモートを構えている間、プレイヤーにロケットパワーバフを付与する
+			ロケットパワーバフは移動速度を増加させ、ノックバック耐性を付与する
+			移動中に弾丸を発射するドローンを発射する
+			ドローン自体は敵を貫通し、死亡時に爆発する
+			'''
+	}
+	TuskSword: {
+		DisplayName: "タスクソード"
+		Tooltip:
+			'''
+			時々カーソルに向かってフィッシュロンの頭を発射する
+			フィッシュロンの頭は短時間敵に張り付く
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	NaturesRevenge: {
+		DisplayName: "ネイチャーズリベンジ"
+		Tooltip:
+			'''
+			復讐の葉と種の嵐を放つ
+			復讐の葉は命中時に速度が低下し、7秒間自然の呪いデバフを付与する
+			自然の呪いは酸性毒を付与する可能性があり、毒デバフの効果を高める
+			所持中、プレイヤーにドルイドパワーを付与し、内部の敵に毒を付与する毒のリングをスポーンさせる
+			[c/a0a0a0:クラスレスアイテム]
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	PotionMess: {
+		DisplayName: "ポーションメス"
+		Tooltip:
+			'''
+			運をわずかに増加させる
+			ランダムにバフまたはデバフを与える
+			バフ/デバフはバフを与えるまでにかかる時間によって異なる
+			[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+			'''
+	}
+	Tranquilizer: {
+		DisplayName: "トランキライザー"
+		Tooltip:
+			'''
+			1.5秒のクールダウンがある
+			敵を非常に短時間気絶させるダーツを撃つ
+			ダーツは敵に命中すると100マナを回復する
+			'''
+	}
+	Sharkzooka: {
+		DisplayName: "シャークズーカ"
+		Tooltip:
+			'''
+			敵に張り付くサメ爆弾を発射する
+			右クリックで遠距離ダメージを増加させるバフを与える
+			右クリックはそのバフの持続時間を最大10秒まで追加する
+			バフは残りの持続時間に応じてより多くのダメージを与える
+			[c/6d006f:ジョークアイテム]
+			'''
+	}
+	BulletShield: {
+		DisplayName: "バレットシールド"
+		Tooltip: ""
+	}
+	SWATShield: {
+		DisplayName: "SWATシールド"
+		Tooltip:
+			'''
+			カーソルに向かって撃つSWATチームをスポーンさせる
+			SWATチームは接触ダメージを与え、サモナーダメージを与える
+			'''
+	}
+	CataclysmicRay: {
+		DisplayName: "カタクリスミックレイ"
+		Tooltip:
+			'''
+			一定のダメージを与える悪魔の触手をキャストする
+			プレイヤーにブックワームバフを与える
+			ブックワームは防御、生命回復、マナ回復を増加させる
+			'''
+	}
+	Railgun: {
+		DisplayName: "レールガン"
+		Tooltip:
+			'''
+			遅いが強力なレーザービームを撃つ
+			ビームは数秒後に消える
+			'''
+	}
+	Oiler: {
+		DisplayName: "オイラー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			炎デバフが時間経過でより多くのダメージを与えるようにするオイルを噴出する
+			時々追加の炎を撃つ
+			'''
+	}
+	BloodflameSpewer: {
+		DisplayName: "ブラッドフレイムスピューワー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			命中時にプレイヤーを回復する血の炎を噴出する
+			不正確な範囲に追加の炎を噴出する
+			'''
+	}
+	ShadowflameCandle: {
+		DisplayName: "シャドウフレイムキャンドル"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			複数のデバフを付与する様々な炎を噴出する
+			'''
+	}
+	SeveredClinger: {
+		DisplayName: "セバードクリンガー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			呪われた業火を付与する呪いの炎を噴出する
+			5ショットごとに呪いの火の玉を撃つ
+			'''
+	}
+	SeveredIchorSticker: {
+		DisplayName: "セバードイコースティッカー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			イコルを付与するイコルの炎を噴出する
+			5ショットごとにイコルの火の玉を撃つ
+			'''
+	}
+	PeaceKeeper: {
+		DisplayName: "ピースキーパー"
+		Tooltip:
+			'''
+			プレイヤーが空中にいる間、剣が常にクリティカルストライクすることを可能にする
+			命中時にプレイヤーを後方にノックバックする
+			'''
+	}
+	GasSpewer: {
+		DisplayName: "ガススピューワー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			毒を付与するガスを噴出する
+			'''
+	}
+	MeteorSpewer: {
+		DisplayName: "メテオスピューワー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			命中時にカーソルに向かって隕石を撃つメテオライトガスを噴出する
+			'''
+	}
+	SkullSpewer: {
+		DisplayName: "スカルスピューワー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			追尾性のスカルを撃つ骨の息吹を撃つ
+			'''
+	}
+	Waxer: {
+		DisplayName: "ワックス"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			ハニーガスを撃ち、所持中に硬化したハチミツバフを与える
+			'''
+	}
+	GhostBelcher: {
+		DisplayName: "ゴーストベルチャー"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			追尾性のスピリットを撃つゴーストリーチルを撃つ
+			これらの発射物は両方とも壁を通過する
+			'誰に電話する？'
+			'''
+	}
+	FieryDoom: {
+		DisplayName: "ファイアリードゥーム"
+		Tooltip:
+			'''
+			プレイヤーが空中にいる間、剣が常にクリティカルストライクすることを可能にする
+			命中時にプレイヤーを後方にノックバックし、死亡時に炎を撃つ
+			'''
+	}
+	TotemOfLife: {
+		DisplayName: "生命のトーテム"
+		Tooltip:
+			'''
+			死にかけの時に所持していると、トーテムがプレイヤーを回復する
+			この回復には2分のクールダウンがある
+			'''
+	}
+	FallenJudgesCrown: {
+		DisplayName: "堕ちた審判の冠"
+		Tooltip: "[c/00fff7:貢献者アイテム]"
+	}
+	OnyxCannon: {
+		DisplayName: "オニキスキャノン"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			炎デバフが時間経過でより多くのダメージを与えるようにするシャドウフレイムオイルを噴出する
+			時々追加のオニキスブラストを撃つ
+			'''
+	}
+	TrashCollector: {
+		DisplayName: "トラッシュコレクター"
+		Tooltip:
+			'''
+			弾薬としてゴミを使用
+			使用するたびにステータスがランダム化される
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+	}
+	Trash: {
+		DisplayName: "ゴミ"
+		Tooltip: "トラッシュコレクターの弾薬として使用される"
+	}
+	NegativeDagger: {
+		DisplayName: "ネガティブダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにネガティブパワーデバフを付与する
+			ネガティブパワーデバフは近接ダメージを300%減少し、近接速度を25%減少し、クリティカル率を10%減少させる
+			カーソルに向かって負の追尾ボルトを撃つ
+			使用するたびにステータスがランダム化される
+			'''
+	}
+	WoodenSpearBow: {
+		DisplayName: "木製スピアボウ"
+		Tooltip:
+			'''
+			3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度を2倍にし、近接ダメージを50%増加させる
+			カーソルに向かって矢を撃つ
+			'''
+	}
+	TreeCannon: {
+		DisplayName: "ツリーキャノン"
+		Tooltip:
+			'''
+			33%の確率で弾薬を節約
+			弾薬としてドングリを使用
+			死ぬと葉をスポーンさせる3つのドングリを撃つ
+			'''
+	}
+	ShadowflameBullet: {
+		DisplayName: "シャドウフレイムバレット"
+		Tooltip: "領域間をテレポートする"
+	}
+	BattleCape: {
+		DisplayName: "バトルケープ"
+		Tooltip:
+			'''
+			私のMODをダウンロードしてくれてありがとう、楽しんでくれると嬉しい！
+			[c/09ff00:開発者アイテム]
+			'''
+	}
+	ThornyMace: {
+		DisplayName: "ソーニーメイス"
+		Tooltip:
+			'''
+			近くの敵に棘を撃つ
+			フレイルを投げて発射物を放つ
+			'''
+	}
+	ChlorophyteTranquilizer: {
+		DisplayName: "クロロファイトトランキライザー"
+		Tooltip:
+			'''
+			1.5秒のクールダウンがある
+			敵を非常に短時間気絶させるダーツを撃つ
+			ダーツは敵に命中すると100マナと25体力を回復する
+			'''
+	}
+	ExplosiveHoliday: {
+		DisplayName: "エクスプローシブホリデー"
+		Tooltip:
+			'''
+			タイルを破壊するミサイルのバーストを撃つ
+			'多くの不幸な休日の原因になるかもしれない'
+			[c/a0a0a0:クラスレスアイテム]
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	PumpkinCore: {
+		DisplayName: "パンプキンコア（破壊）"
+		Tooltip:
+			'''
+			小さなヨーヨー
+			リザードブリック、リザードアルター、プラットフォーム、松明を除く全てのタイルを破壊できる
+			回転中にヨーヨーの周りにコウモリをスポーンさせる
+			アイテムを右クリックしてタイル破壊を無効にする
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	PumpkinCore2: {
+		DisplayName: "パンプキンコア"
+		Tooltip:
+			'''
+			小さなヨーヨー
+			回転中にヨーヨーの周りにコウモリをスポーンさせる
+			アイテムを右クリックしてタイル破壊を有効にする
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	FlamingWoodKunai: {
+		DisplayName: "燃える木のクナイ"
+		Tooltip:
+			'''
+			命中時に炎の火花をスポーンさせる燃える木のクナイを素早く撃つ
+			25ショットごとに3秒のクールダウンが発生する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	OrnamentsOfDoom: {
+		DisplayName: "破滅のオーナメント"
+		Tooltip:
+			'''
+			タイルに跳ね返る致命的なオーナメントを素早く撃つ
+			25ショットごとに3秒のクールダウンが発生する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	FrozenMachine: {
+		DisplayName: "フローズンマシーン"
+		Tooltip:
+			'''
+			1.5秒チャージして、遅いアイスボールを発射する
+			アイスボールは移動中に定期的にミニ雪の結晶をスポーンさせる
+			'''
+	}
+	FrostMachine: {
+		DisplayName: "フロストマシーン"
+		Tooltip:
+			'''
+			1.5秒チャージして、遅いアイスボールを発射する
+			アイスボールは生きている間、定期的にミニ雪の結晶をスポーンさせる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	ShamanStaff: {
+		DisplayName: "シャーマンスタッフ"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			5秒間、防御を大幅に減少させる可能性がある浄化の呪文を撃つ
+			浄化の呪文は命中時に5マナを回復し、敵の防御を減少させると追加で25マナを回復する
+			1秒のクールダウンがある
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	MartianCore: {
+		DisplayName: "マーシャンコア"
+		Tooltip:
+			'''
+			ダメージを50%増加させるが、クリティカル率を100%減少させる
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	CursedPumpkin: {
+		DisplayName: "カースドパンプキン"
+		Tooltip:
+			'''
+			ブロック範囲を3増加させる
+			シャインバフを適用する
+			ボスの進行度に応じてダメージと採掘速度が増加する
+			ハードモードでは、内部の敵に与えるダメージを増加させる死のリングが付与される
+			[c/ffa0bf:ホリデーアイテム]
+			[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+			'''
+	}
+	RoseOfCourage: {
+		DisplayName: "勇気のバラ"
+		Tooltip:
+			'''
+			アクティブなミニオンごとに非サモナーダメージを5%増加させる
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	BigClub: {
+		DisplayName: "ビッグクラブ"
+		Tooltip:
+			'''
+			スプリンタードを付与する強力だが重いクラブを振るう
+			スプリンタードは敵に時間経過で素早くダメージを与える
+			スプリンタードは全てのバニラのボスのような敵に追加ダメージを与える
+			クリティカルヒットでストライキングモーメントバフを付与する
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	ChristmasCheer: {
+		DisplayName: "クリスマスチアー"
+		Tooltip:
+			'''
+			松葉を撃つ
+			33%の確率でクリスマスオーナメントを撃つ
+			'''
+	}
+	UnstableBrick: {
+		DisplayName: "不安定なレンガ"
+		Tooltip:
+			'''
+			強力だが遅い爆発性のレンガを投げる
+			レンガが爆発すると、爆発性の破片に砕ける
+			'''
+	}
+	ShamanTablet: {
+		DisplayName: "シャーマンタブレット"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			5秒間、防御を大幅に減少させる可能性がある追尾性の浄化の呪文を撃つ
+			浄化の呪文は命中時に5マナを回復し、敵の防御を減少させると追加で25マナを回復する
+			0.75秒のクールダウンがある
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	SuperCharger: {
+		DisplayName: "スーパーチャージャー"
+		Tooltip: ""
+	}
+	ColorParty: {
+		DisplayName: "カラーパーティー"
+		Tooltip:
+			'''
+			7秒間、カラースプラッシュデバフを付与する回転する虹色のレーザーを撃つ
+			カラースプラッシュは敵の防御を半分にし、時間経過ダメージデバフの効果を高める
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+	}
+	MarbleSpikefish: {
+		DisplayName: "マーブルスパイクフィッシュ"
+		Tooltip:
+			'''
+			プレイヤーにマーブルスキンバフを与えるエキゾチックな石化した魚を回す
+			マーブルスキンは防御を12増加させ、ノックバック耐性を付与する
+			スパイクフィッシュを敵に投げると、大理石の岩に砕ける
+			プレイヤーが空中にいる場合にのみクリティカルヒットが可能
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes11: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモードの大理石バイオームで釣りをすることで入手可能"
+	}
+	Notes12: {
+		DisplayName: "ノート"
+		Tooltip: "海で釣りをすることで入手可能"
+	}
+	Seaweep: {
+		DisplayName: "シーウィープ"
+		Tooltip:
+			'''
+			5召喚タグダメージ
+			敵を短時間気絶させる珍しい種類の海藻を振るう
+			[c/3F00FF:釣りアイテム]
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	EnchantedTrident: {
+		DisplayName: "エンチャンテッドトライデント"
+		Tooltip:
+			'''
+			2ショットごとにエンチャントされたトライデントの発射物を撃つ
+			所持中にトライデントパワーバフを適用する
+			トライデントパワーは水中にいる間、近接ダメージを15%増加させる
+			所持中に水中での機動性を増加させる
+			上キーを押し続けるとゆっくり下降する
+			'''
+	}
+	Candiru: {
+		DisplayName: "カンディル"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにアシディックストレングスバフを付与する
+			アシディックストレングスバフは近接ダメージとノックバックを50%増加させる
+			アシディックストレングスバフを得るとプレイヤーに害を及ぼす
+			敵に命中すると毒の爆発を引き起こす可能性があり、クリティカルストライクする可能性がある
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes13: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモードの雨の中で釣りをすることで入手可能"
+	}
+	ExplosiveSea: {
+		DisplayName: "エクスプローシブシー"
+		Tooltip:
+			'''
+			敵に近づくと移動を停止する高爆発性の機雷を発射する
+			タイルや敵に命中しない機雷はクリティカルストライクし、死亡時に炎に包まれる
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes14: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモードの海で釣りをすることで入手可能"
+	}
+	TetheredRock: {
+		DisplayName: "テザードロック"
+		Tooltip: "'これ以上基本的なものはない'"
+	}
+	EnergyFish: {
+		DisplayName: "エナジーフィッシュ"
+		Tooltip:
+			'''
+			敵に命中すると花崗岩のボルトを割って開ける花崗岩の岩を撃つ
+			花崗岩のボルトは敵に命中するとマナを回復する可能性がある
+			プレイヤーが地上にいる場合にのみクリティカルヒットが可能
+			'名前とは裏腹に、エナジーフィッシュは野生ではあまりエネルギッシュではない'
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes15: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモードの花崗岩バイオームで釣りをすることで入手可能"
+	}
+	Fishgun: {
+		DisplayName: "フィッシュガン"
+		Tooltip:
+			'''
+			通常の弾丸をウォーターペレットに変換する
+			ウォーターペレットは死亡時に水っぽい爆発を引き起こす
+			右クリックで銃を回し、遠距離ダメージを増加させ、水中での機動性を付与する
+			右クリックは水中にいる間、遠距離攻撃速度も増加させる
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes16: {
+		DisplayName: "ノート"
+		Tooltip: "森で釣りをすることで入手可能"
+	}
+	CloudStaff: {
+		DisplayName: "クラウドスタッフ"
+		Tooltip:
+			'''
+			7秒間、クラウデッドデバフを付与する巨大な雲のビームを撃つ
+			クラウデッドは時間経過ダメージデバフの効果を高める
+			クラウドビームは5ヒットごとに敵を一時的に気絶させる
+			[c/a0a0a0:クラスレスアイテム]
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	Notes17: {
+		DisplayName: "ノート"
+		Tooltip: "宇宙で釣りをすることで入手可能"
+	}
+	WorldBreaker: {
+		DisplayName: "ワールドブレイカー"
+		Tooltip:
+			'''
+			世界を破壊するビームを撃つ
+			ビームはタイル、壁、液体、アイテム、チェストを蒸発させる
+			[c/871b28:チートアイテム]
+			'''
+	}
+	Notes18: {
+		DisplayName: "ノート"
+		Tooltip: "砂漠で釣りをすることで入手可能"
+	}
+	Thornfish: {
+		DisplayName: "ソーンフィッシュ"
+		Tooltip:
+			'''
+			消耗品ではない
+			敵に張り付く魚を投げる
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	HandheldSnowballLauncher: {
+		DisplayName: "ハンドヘルドスノーボールランチャー"
+		Tooltip: "基本的なスノーボールランチャーの携帯版"
+	}
+	Notes19: {
+		DisplayName: "ノート"
+		Tooltip: "雪バイオームで釣りをすることで入手可能"
+	}
+	Winterfish: {
+		DisplayName: "ウィンターフィッシュ"
+		Tooltip:
+			'''
+			3召喚タグダメージ
+			消耗品ではない
+			敵を貫通するウィンターフィッシュの弾幕を投げる
+			[c/3F00FF:釣りアイテム]
+			'''
+	}
+	ShimmerDart: {
+		DisplayName: "シマーダート"
+		Tooltip:
+			'''
+			移動中に重力が絶えず変化する
+			最大3体の敵を貫通できる
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	WeaknessPolicy: {
+		DisplayName: "ウィークネスポリシー"
+		Tooltip:
+			'''
+			クリティカルストライクは100%のダメージブーストを適用する
+			効果が有効な間は、再びクリティカルを出すことはできない
+			'''
+	}
+	Notes20: {
+		DisplayName: "ノート"
+		Tooltip: "モンキーダートをシマーにかけることで入手可能"
+	}
+	CoralShortbow: {
+		DisplayName: "コーラルショートボウ"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度を2倍にし、近接ダメージを50%増加させる
+			一度に1〜2本の矢と貫通性の泡を撃つ
+			'''
+	}
+	Yappinator: {
+		DisplayName: "ヤッピネーター"
+		Tooltip:
+			'''
+			敵のHPを0.25%減少させるバナナを素早く発射する
+			[c/6d006f:ジョークアイテム]
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+	}
+	GoldenAchievement: {
+		DisplayName: "ゴールデンアチーブメント"
+		Tooltip:
+			'''
+			消耗品ではない
+			ほとんど全ての防御を無視する金の像を投げる
+			'''
+	}
+	HellBringer: {
+		DisplayName: "ヘルブリンガー"
+		Tooltip:
+			'''
+			弾薬として黒曜石を使用
+			爆発し、炎上！を付与するロケットを発射する
+			'''
+	}
+	LifeCrystalLauncher: {
+		DisplayName: "ライフクリスタルランチャー"
+		Tooltip:
+			'''
+			弾薬としてライフクリスタルを使用
+			左クリック長押しで強力な生命回復ショットをチャージ
+			ランチャーが15秒に達したら発射準備
+			15秒のクールダウンがある
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+	}
+	CursedPointer: {
+		DisplayName: "カースドポインター"
+		Tooltip:
+			'''
+			全てのクールダウンに対する完全な耐性を付与する
+			[c/871b28:チートアイテム]
+			'''
+	}
+	FutureSurprise: {
+		DisplayName: "フューチャーサプライズ"
+		Tooltip: "十分な忍耐力があれば、敵は特別なサプライズで報われる"
+	}
+	SkyProtector: {
+		DisplayName: "スカイプロテクター"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーに星の力バフを付与する
+			星の力バフは生命回復、防御、移動速度を増加させる
+			近接ヒットで空から星が降ってくる
+			'''
+	}
+	MeteorShortbow: {
+		DisplayName: "メテオショートボウ"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにクイックドローバフを付与する
+			クイックドローバフは近接速度を2倍にし、近接ダメージを50%増加させる
+			通常の矢を、死亡時に空から星をスポーンさせるメテオアローに変換する
+			一度に1〜2本の矢を撃つ
+			'''
+	}
+	RuneCannon: {
+		DisplayName: "ルーンキャノン"
+		Tooltip:
+			'''
+			攻撃していない間、内部の敵に呪われた業火を付与する呪いのリングをスポーンさせる
+			攻撃中、内部の敵にイコルを付与するイコルのリングをスポーンさせる
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	BouncyBlaster: {
+		DisplayName: "バウンシーブラスター"
+		Tooltip:
+			'''
+			弾薬としてゲルを使用
+			気絶させる跳ねるゲルを撃つ
+			跳ねるゲルは弱い追尾性を持つ
+			[c/ff9d00:伝説のアイテム]
+			'''
+	}
+	Bloodfang: {
+		DisplayName: "ブラッドファング"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにブラッドサースティバフを付与する
+			ブラッドサースティバフは近接クリティカル率を50%増加させ、生命回復を3増加させ、ブラッドファングのクールダウンをクリアする
+			敵に命中するとスーパーガテッドを付与する
+			スーパーガテッドは敵に時間経過で素早くダメージを与える
+			命中時にかなりの量の体力を回復し、クリティカルヒットではさらに多くの体力を回復する
+			0.5秒のクールダウンがある
+			[c/3F00FF:釣りアイテム]
+			[c/00fff7:貢献者アイテム]
+			'''
+	}
+	Notes21: {
+		DisplayName: "ノート"
+		Tooltip: "ブラッドムーン中に洞窟層で釣りをすることで入手"
+	}
+	MarbleGraniteDuals: {
+		DisplayName: "マーブルグラナイトデュアル"
+		Tooltip:
+			'''
+			左クリックで電撃を帯びたグラナイトダガーで素早く突く
+			グラナイトダガーはダメージと防御を増加させるグラナイトパワーバフを付与する
+			右クリックで炎を帯びたマーブルダガーでゆっくり突く
+			マーブルダガーは攻撃速度と生命回復を増加させるマーブルパワーバフを付与する
+			'''
+	}
+	MushroomDuals: {
+		DisplayName: "マッシュルームデュアル"
+		Tooltip:
+			'''
+			左クリックで毒を帯びたシュルーマイトダガーで素早く突く
+			シュルーマイトダガーはダメージと防御を増加させるシュルーマイトパワーバフを付与する
+			右クリックで毒を帯びたマッシュルームダガーでゆっくり突く
+			マッシュルームダガーは攻撃速度と生命回復を増加させるマッシュルームパワーバフを付与する
+			'''
+	}
+	CrystalDagger: {
+		DisplayName: "クリスタルダガー"
+		Tooltip:
+			'''
+			攻撃中に3秒間ダガーを構えると、プレイヤーにクリスタライズドバフを付与する
+			クリスタライズドバフは近接速度と移動速度を50%増加させ、クリティカルストライク率を12%増加させる
+			クリスタライズドバフを得るとカーソルに向かってオリハルコンの花びらを撃つ
+			ダガーを振る代わりに3〜5個のクリスタルを撃つ
+			'''
+	}
+	ExoticMatter: {
+		DisplayName: "エキゾチックマター"
+		Tooltip:
+			'''
+			異世界から来たように見える珍しい物質
+			ほとんどの敵から1000分の1の確率でドロップする
+			[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+			'''
+	}
+	StrongWinds: {
+		DisplayName: "ストロングウィンズ"
+		Tooltip:
+			'''
+			命中時に気絶させる強力な風を撃つ
+			ダメージと気絶時間はボスの進行度に応じてスケールする
+			[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+			'''
+	}
+	Flyshooter: {
+		DisplayName: "フライシューター"
+		Tooltip:
+			'''
+			召喚物が命中した敵を集中攻撃する
+			敵に張り付く2〜7匹のハエのバーストを撃つ
+			ダメージと装甲貫通はボスの進行度に応じてスケールする
+			[c/2ea395:神][c/36a382:話][c/47a36c:の][c/5da056:ア][c/749c40:イ][c/8c972c:テ][c/a58e1f:ム]
+			'''
+	}
+	BoneDust: {
+		DisplayName: "ボーンダスト"
+		Tooltip: "骨をのこぎりで切り刻んで汎用性を持たせたもの"
+	}
+	StickyDoll: {
+		DisplayName: "スティッキードール"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを使用
+			ランダムな角度で敵に張り付く矢の弾幕を放つ
+			1.5秒のクールダウンがある
+			'心配しないで、持ってもべたつかないから'
+			'''
+	}
+	StardustDoll: {
+		DisplayName: "スターダストドール"
+		Tooltip:
+			'''
+			弾薬としてシャドウフレイムダストを使用
+			ランダムな角度でスターダストアローの群れを放つ
+			スターダストアローは追加の追尾性スターダストアローに分裂する
+			2.5秒のクールダウンがある
+			'強力な闇魔法の集大成'
+			'''
+	}
+	CorruptedBlade: {
+		DisplayName: "コラプテッドブレード"
+		Tooltip: "1.25秒ごとにカーソルに向かって刃を振るう"
+	}
+	WeatherDuals: {
+		DisplayName: "ウェザーデュアル"
+		Tooltip:
+			'''
+			左クリックで凍てつくアイスダガーで素早く突く
+			アイスダガーはダメージと防御を増加させるフロストパワーバフを付与する
+			右クリックで禁断のサンドダガーでゆっくり突く
+			サンドダガーは攻撃速度と生命回復を増加させるフォービドゥンパワーバフを付与する
+			'''
+	}
+	Magic8Ball: {
+		DisplayName: "マジック8ボール"
+		Tooltip:
+			'''
+			消耗品ではない
+			効果が様々なマジック8ボールを投げる
+			効果は敵にとって有害なものも有益なものもある
+			'マジック8ボールよ、私の敵は私の怒りに直面すべきか？'
+			'''
+	}
+	TeslaCannon: {
+		DisplayName: "テスラキャノン"
+		Tooltip:
+			'''
+			弾薬としてナナイトを15個使用
+			重いノックバックを引き起こすテラボルトの弾幕をチャージする
+			テラボルトは7秒間、盲目と感電デバフを付与する
+			盲目は敵の防御を半分にする
+			'''
+	}
+	OtherworldlyScar: {
+		DisplayName: "アザーワールドリースカー"
+		Tooltip:
+			'''
+			通常の弾丸を高速度弾に変換する
+			30ショットごとに武器がリロードする
+			'エイプリルフール！'
+			[c/6d006f:ジョークアイテム]
+			[c/ffa0bf:ホリデーアイテム]
+			'''
+	}
+	BrawlerBadge: {
+		DisplayName: "ブローラーバッジ"
+		Tooltip:
+			'''
+			装備すると、ほとんどのステータスに+5%のバッジが与えられる
+			バッジはさらに+3の防御、生命回復、マナ回復を与える
+			'''
+	}
+	ExecutionAxe: {
+		DisplayName: "エグゼキューションアックス"
+		Tooltip:
+			'''
+			召喚物が命中した敵を集中攻撃する
+			全てのバニラのゾンビのような敵に追加ダメージを与える斧を振るう
+			全てのバニラのゾンビのような敵からボーンダストを収集できる
+			'''
+	}
+	SpiderScepter: {
+		DisplayName: "スパイダーセプター"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを10個使用
+			カーソルに向かってクモの巣を撃つスパイダータレットをスポーンさせる
+			クモの巣は敵を気絶させ、接触時にプレイヤーを回復させることができる
+			15秒のクールダウンがある
+			'''
+	}
+	Harvester: {
+		DisplayName: "ハーベスター"
+		Tooltip:
+			'''
+			召喚物が命中した敵を集中攻撃する
+			全てのバニラのゾンビのような敵に追加ダメージを与える鎌を振るう
+			全てのバニラのゾンビのような敵からシャドウフレイムを収集できる
+			'''
+	}
+	ShadowflameMask: {
+		DisplayName: "シャドウフレイムマスク"
+		Tooltip:
+			'''
+			最大ミニオン数を1増加させる
+			魔法にかかった召喚ダメージを17%増加させる
+			内部の敵にシャドウフレイムを付与するシャドウフレイムリングをスポーンさせる
+			リング内の全てのゾンビのような敵は2倍のダメージを受ける
+			'''
+	}
+	RustedKnightBreastplate: {
+		DisplayName: "ラスティナイトブレストプレート"
+		Tooltip:
+			'''
+			最大ミニオン数を1増加させる
+			魔法にかかった召喚ダメージを17%増加させる
+			'''
+	}
+	RustedKnightHood: {
+		DisplayName: "ラスティナイトフード"
+		Tooltip:
+			'''
+			最大ミニオン数を1増加させる
+			魔法にかかった召喚ダメージを15%増加させる
+			'''
+	}
+	RustedKnightLeggings: {
+		DisplayName: "ラスティナイトレギンス"
+		Tooltip:
+			'''
+			最大ミニオン数を1増加させる
+			魔法にかかった召喚ダメージを13%増加させる
+			移動速度+20%
+			'''
+	}
+	BoneJacket: {
+		DisplayName: "ボーンジャケット"
+		Tooltip:
+			'''
+			最大ミニオン数を1増加させる
+			魔法にかかった召喚ダメージと鞭の範囲を7%増加させる
+			体力が半分以下になると全回復する
+			この効果には1分のクールダウンがある
+			'''
+	}
+	HellSerpentScepter: {
+		DisplayName: "ヘルサーペントセプター"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを10個使用
+			カーソルに向かって炎を撃つヘルサーペントタレットをスポーンさせる
+			炎は接触時にプレイヤーを回復させる
+			15秒のクールダウンがある
+			'''
+	}
+	IceCubeScepter: {
+		DisplayName: "アイスキューブセプター"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを10個使用
+			下向きにつららを撃つアイスキューブをスポーンさせる
+			つららは接触時にプレイヤーを回復させる
+			15秒のクールダウンがある
+			'''
+	}
+	MeteorHat: {
+		DisplayName: "メテオハット"
+		Tooltip:
+			'''
+			最大マナを20増加させる
+			エンチャント魔法ダメージ+7%
+			'''
+	}
+	BlacksteelAnvil: {
+		DisplayName: "ブラックスチールアンヴィル"
+		Tooltip:
+			'''
+			落下速度を2倍にする
+			地上にいるとき、バーバリアン近接ダメージ+25%
+			'''
+	}
+	ColorfulFeather: {
+		DisplayName: "カラフルフェザー"
+		Tooltip:
+			'''
+			スローフォールを適用する
+			空中にいるとき、戦術的遠距離ダメージ+25%
+			'''
+	}
+	Notes22: {
+		DisplayName: "ノート"
+		Tooltip: "レインボーガンをシマーにかけることで入手可能"
+	}
+	MoonlightMask: {
+		DisplayName: "ムーンライトマスク"
+		Tooltip:
+			'''
+			最大マナを20増加させる
+			エンチャント魔法ダメージを15%増加させる
+			'''
+	}
+	MoonlightPants: {
+		DisplayName: "ムーンライトパンツ"
+		Tooltip:
+			'''
+			最大マナを20増加させる
+			エンチャント魔法ダメージを13%増加させる
+			移動速度+20%
+			'''
+	}
+	MoonlightShirt: {
+		DisplayName: "ムーンライトシャツ"
+		Tooltip:
+			'''
+			最大マナを20増加させる
+			エンチャント魔法ダメージを17%増加させる
+			'''
+	}
+	FloweringRepeater: {
+		DisplayName: "フラワリングリピーター"
+		Tooltip:
+			'''
+			ランダムな種類の矢を発射する
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	Notes23: {
+		DisplayName: "ノート"
+		Tooltip: "ピラニアガンをシマーにかけることで入手可能"
+	}
+	BloodRipper: {
+		DisplayName: "ブラッドリッパー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにダークンドパワーバフを付与する
+			ダークンドパワーバフは近接ダメージを2倍にし、クリティカル率を100%増加させ、近接速度を増加させ、防御を16増加させ、移動速度を2倍にする
+			敵に命中すると生命を回復する
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	Notes24: {
+		DisplayName: "ノート"
+		Tooltip: "スカージオブザコラプターをシマーにかけることで入手可能"
+	}
+	Notes25: {
+		DisplayName: "ノート"
+		Tooltip: "ヴァンパイアナイフをシマーにかけることで入手可能"
+	}
+	VoidTendril: {
+		DisplayName: "ヴォイドテンドリル"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにダークンドパワーバフを付与する
+			ダークンドパワーバフは近接ダメージを2倍にし、クリティカル率を100%増加させ、近接速度を増加させ、防御を16増加させ、移動速度を2倍にする
+			敵に命中するとミニイーターをスポーンさせる可能性がある
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	DustDevil: {
+		DisplayName: "ダストデビル"
+		Tooltip:
+			'''
+			11召喚タグダメージ
+			敵を攻撃して攻撃速度、ダメージ、鞭の範囲をスタックさせる
+			バフを過剰にスタックすると進行がリセットされる
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	Notes26: {
+		DisplayName: "ノート"
+		Tooltip: "デザートタイガースタッフをシマーにかけることで入手可能"
+	}
+	Notes27: {
+		DisplayName: "ノート"
+		Tooltip: "フロストヒュドラの杖をシマーにかけることで入手可能"
+	}
+	SnowyDoll: {
+		DisplayName: "スノウィードール"
+		Tooltip:
+			'''
+			弾薬としてシャドウフレイムを使用
+			ランダムな角度で雪玉の群れを放つ
+			雪玉はしばらくするとその場に停止する
+			1.5秒のクールダウンがある
+			[c/b225e6:シマーアイテム]
+			'''
+	}
+	AncestralEye: {
+		DisplayName: "アンセストラルアイ"
+		Tooltip:
+			'''
+			現在の体力に基づいてバーバリアン近接および戦術的遠距離ダメージを増加させる
+			現在のマナに基づいてエンチャント魔法および魔法にかかった召喚ダメージを増加させる
+			'''
+	}
+	Notes28: {
+		DisplayName: "ノート"
+		Tooltip:
+			'''
+			サイボーグから購入することで入手可能
+			サイボーグがそれを売るためには雨が降っている必要がある
+			'''
+	}
+	NobleBreastplate: {
+		DisplayName: "ノーブルブレストプレート"
+		Tooltip:
+			'''
+			最大体力を50増加させる
+			バーバリアン近接ダメージとクリティカルストライク率を13%増加させる
+			'''
+	}
+	NobleHelmet: {
+		DisplayName: "ノーブルヘルメット"
+		Tooltip:
+			'''
+			最大体力を25増加させる
+			バーバリアン近接ダメージと攻撃速度を15%増加させる
+			'''
+	}
+	NobleLeggings: {
+		DisplayName: "ノーブルレギンス"
+		Tooltip:
+			'''
+			最大体力を25増加させる
+			バーバリアン近接ダメージを11%増加させる
+			移動速度+15%
+			'''
+	}
+	HumbleBandana: {
+		DisplayName: "ハンブルバンダナ"
+		Tooltip:
+			'''
+			最大体力を25増加させる
+			戦術的遠距離ダメージと攻撃速度を15%増加させる
+			'''
+	}
+	HumbleTuxedo: {
+		DisplayName: "ハンブルタキシード"
+		Tooltip:
+			'''
+			最大体力を50増加させる
+			戦術的遠距離ダメージとクリティカルストライク率を13%増加させる
+			'''
+	}
+	HumbleTuxedoPants: {
+		DisplayName: "ハンブルタキシードパンツ"
+		Tooltip:
+			'''
+			最大体力を25増加させる
+			戦術的遠距離ダメージを11%増加させる
+			移動速度+15%
+			'''
+	}
+	FungiSpell: {
+		DisplayName: "ファンギスペル"
+		Tooltip:
+			'''
+			移動中にトリュフをスポーンさせる胞子を放つ
+			20%の確率で追加の2つの胞子を発射する
+			絶対に食べないで…
+			'''
+	}
+	DiscoMask: {
+		DisplayName: "ディスコマスク"
+		Tooltip:
+			'''
+			バーバリアン近接、エンチャント魔法、戦術的遠距離、魔法にかかった召喚ダメージを13%増加させる
+			内部の敵にカラースプラッシュを付与するカラフルなリングをスポーンさせる
+			カラースプラッシュは敵の防御を半分にし、時間経過ダメージデバフの効果を高める
+			'''
+	}
+	DryadsArtifact: {
+		DisplayName: "ドライアドのアーティファクト"
+		Tooltip:
+			'''
+			装備するとプレイヤーにドライアドの祝福を与える
+			内部の敵にドライアドの守りを付与する自然のリングをスポーンさせる
+			'''
+	}
+	Notes29: {
+		DisplayName: "ノート"
+		Tooltip: "ハードモード中にドライアドから購入することで入手可能"
+	}
+	LihzahrdChestplate: {
+		DisplayName: "リザードチェストプレート"
+		Tooltip:
+			'''
+			バーバリアン近接ダメージとクリティカルストライク率を20%増加させる
+			敵に狙われやすくなる
+			'''
+	}
+	LihzahrdHelmet: {
+		DisplayName: "リザードヘルメット"
+		Tooltip:
+			'''
+			バーバリアン近接ダメージと攻撃速度を17%増加させる
+			敵に狙われやすくなる
+			'''
+	}
+	LihzahrdLeggings: {
+		DisplayName: "リザードレギンス"
+		Tooltip:
+			'''
+			バーバリアン近接ダメージを13%増加させる
+			移動速度+20%
+			敵に狙われやすくなる
+			'''
+	}
+	CrystalWand: {
+		DisplayName: "クリスタルワンド"
+		Tooltip: "敵に命中するとマナを回復し、シャドウフレイムに爆発するクリスタライズドオーブを撃つ"
+	}
+	SunPowerStaff: {
+		DisplayName: "サンパワースタッフ"
+		Tooltip:
+			'''
+			弾薬としてシャドウフレイムを10個使用
+			敵に接触ダメージを与える巨大な太陽をスポーンさせる
+			巨大な太陽は接触時にプレイヤーを素早く回復する
+			15秒のクールダウンがある
+			'''
+	}
+	VenomizedSpiderScepter: {
+		DisplayName: "ヴェノマイズドスパイダーセプター"
+		Tooltip:
+			'''
+			弾薬としてボーンダストを10個使用
+			カーソルに向かってクモの巣を撃つ毒を帯びたスパイダータレットをスポーンさせる
+			クモの巣は敵を気絶させ、酸性毒を付与し、接触時にプレイヤーを回復させることができる
+			15秒のクールダウンがある
+			'''
+	}
+	TrapBreastplate: {
+		DisplayName: "トラップブレストプレート"
+		Tooltip: "戦術的遠距離ダメージとクリティカルストライク率を17%増加させる"
+	}
+	TrapMask: {
+		DisplayName: "トラップマスク"
+		Tooltip:
+			'''
+			戦術的遠距離ダメージを21%増加させる
+			遠距離クリティカルストライク率を5%増加させる
+			'''
+	}
+	TrapPants: {
+		DisplayName: "トラップパンツ"
+		Tooltip:
+			'''
+			戦術的遠距離ダメージを12%増加させる
+			移動速度+15%
+			'''
+	}
+	ManaCrystalLauncher: {
+		DisplayName: "マナクリスタルランチャー"
+		Tooltip:
+			'''
+			弾薬としてマナクリスタルを使用
+			左クリック長押しで強力なマナ回復ショットをチャージ
+			ランチャーが15秒に達したら発射準備
+			15秒のクールダウンがある
+			[c/a0a0a0:クラスレスアイテム]
+			'''
+	}
+	SoulWhip: {
+		DisplayName: "ソウルウィップ"
+		Tooltip:
+			'''
+			攻撃はタイルを無視し、7秒間ソウルウィークネスデバフを付与する
+			ソウルウィークネスは防御を減少させ、移動速度を遅くし、時間経過で急速なダメージを与える
+			全てのバニラの水のような敵に対してダメージが増加する
+			'''
+	}
+	VoidHeart: {
+		DisplayName: "ヴォイドハート"
+		Tooltip:
+			'''
+			ダメージを100%増加させる
+			どんなダメージを受けても即死する
+			'''
+	}
+	RetroGun: {
+		DisplayName: "レトロガン"
+		Tooltip: "'フレアガンを再び偉大に！'"
+	}
+	Notes30: {
+		DisplayName: "ノート"
+		Tooltip: "フレアガンをシマーにかけることで入手可能"
+	}
+	GlassHeart: {
+		DisplayName: "グラスハート"
+		Tooltip:
+			'''
+			最大体力を半分にし、防御を0に設定する
+			最大体力に基づいて生命回復を与える
+			'''
+	}
+	SiegeBow: {
+		DisplayName: "シージボウ"
+		Tooltip:
+			'''
+			地上にいるときのみ使用可能
+			貫通し、気絶させる強力なショットをチャージする
+			'''
+	}
+	SharpeningStone: {
+		DisplayName: "シャープニングストーン"
+		Tooltip: "エグゼキューションアックスとハーベスターのダメージを50%増加させる"
+	}
+	HeatDagger: {
+		DisplayName: "ヒートダガー"
+		Tooltip:
+			'''
+			攻撃せずに3秒間ダガーを構えると、プレイヤーにエナジャイズドバフを付与する
+			エナジャイズドバフは近接ダメージを2倍にし、クリティカル率を8%増加させ、移動速度を2倍にする
+			エナジャイズドバフを得るとカーソルに向かって取り憑かれたハチェットを撃つ
+			ダガーを振る代わりに1〜3本のヒートレイを撃つ
+			空中にいると攻撃が速くなる
+			'''
+	}
+	FingerGun: {
+		DisplayName: "フィンガーガン"
+		Tooltip:
+			'''
+			敵にターゲットデバフを付与する
+			ターゲットは影響を受けた敵に与えるダメージを増加させる
+			[c/a0a0a0:クラスレスアイテム]
+			[c/6d006f:ジョークアイテム]
+			'''
+	}
+	Notes31: {
+		DisplayName: "ノート"
+		Tooltip: "パーティー中に商人から購入することで入手可能"
+	}
+	OnyxEngineMachineGun: {
+		DisplayName: "オニキスエンジンマシンガン"
+		Tooltip:
+			'''
+			33%の確率で弾薬を節約
+			毎回のショットで遠距離攻撃速度が増加する
+			遠距離攻撃速度バフは3秒で上限に達する
+			'''
+	}
+}
+	Projectiles: {
+		"ApocalypseProjectile.DisplayName": "アポカリプス"
+		"ApocalypseProjectile2.DisplayName": "アポカリプス"
+		"ApocalypseProjectile3.DisplayName": "アポカリプス"
+		"ApocalypseProjectile4.DisplayName": "アポカリプス"
+		"AutomaticWhipCrackerMk2Projectile.DisplayName": "オートマチックウィップクラッカーMk2"
+		"AutomaticWhipCrackerProjectile.DisplayName": "オートマチックウィップクラッカー"
+		"AxeOfTheAbyssProjectile.DisplayName": "アビスの斧"
+		"BasicBoltProjectile.DisplayName": "ベーシックボルト"
+		"BattleBladeProjectile.DisplayName": "バトルブレード"
+		"BattleBladeProjectile2.DisplayName": "バトルブレード"
+		"BattleGuyProjectile.DisplayName": "バトルガイ発射物"
+		"BeeBoltProjectile.DisplayName": "ビーボルト"
+		"BiomeMorphProjectile.DisplayName": "バイオームモーフ"
+		"BlazingSunProjectile.DisplayName": "ブレイジングサン"
+		"BoneBreakerProjectile.DisplayName": "ボーンブレイカー"
+		"BoneDaggerProjectile.DisplayName": "ボーンブレード"
+		"BoneDaggerProjectile2.DisplayName": "ボーンブレード"
+		"BoneDartProjectile.DisplayName": "ボーンドダート"
+		"BouncyBoltProjectile.DisplayName": "バウンシーボルト"
+		"BrickProjectile.DisplayName": "レンガ"
+		"CandyPainGunProjectile.DisplayName": "キャンディペインガン"
+		"CatlauncherProjectile.DisplayName": "キャットランチャー"
+		"ChainedMimicProjectile.DisplayName": "チェーンドミミック"
+		"ChainedWhipProjectile.DisplayName": "チェーンドウィップ"
+		"ChaosFlailProjectile.DisplayName": "カオスフレイル"
+		"ChargeShotBeam.DisplayName": "チャージショット"
+		"ChargeShotHoldout.DisplayName": "チャージショット"
+		"CoiledSerpentProjectile.DisplayName": "コイルドサーペント"
+		"CoiledSerpentProjectile2.DisplayName": "コイルドサーペント"
+		"ControllerProjectile.DisplayName": "コントローラー"
+		"CosmicWhipProjectile.DisplayName": "コズミックウィップ"
+		"CrimtaneWhipProjectile.DisplayName": "クリムタンウィップ"
+		"CupidsBowProjectile.DisplayName": "キューピッドの矢"
+		"CupidsBowProjectile2.DisplayName": "キューピッドの矢"
+		"DeadlyCaneProjectile.DisplayName": "デッドリーケイン"
+		"DeathsBreathProjectile.DisplayName": "デスの息吹"
+		"DemoniteWhipProjectile.DisplayName": "デモナイトウィップ"
+		"DiamondSwordProjectile.DisplayName": "ダイヤモンドソード"
+		"DoomCaneProjectile.DisplayName": "ドゥームケイン"
+		"DragonBulletProjectile.DisplayName": "ドラゴンバレット"
+		"DragonsBreathProjectile.DisplayName": "ドラゴンの息吹"
+		"DustBoltProjectile.DisplayName": "ダストボルト"
+		"EarthquakeProjectile.DisplayName": "アースクエイク"
+		"EarthquakeProjectile10.DisplayName": "アースクエイク"
+		"EarthquakeProjectile2.DisplayName": "アースクエイク"
+		"EarthquakeProjectile3.DisplayName": "アースクエイク"
+		"EarthquakeProjectile4.DisplayName": "アースクエイク"
+		"EarthquakeProjectile5.DisplayName": "アースクエイク"
+		"EarthquakeProjectile6.DisplayName": "アースクエイク"
+		"EarthquakeProjectile7.DisplayName": "アースクエイク"
+		"EarthquakeProjectile8.DisplayName": "アースクエイク"
+		"EarthquakeProjectile9.DisplayName": "アースクエイク"
+		"EggProjectile.DisplayName": "卵"
+		"EggProjectile2.DisplayName": "卵"
+		"EggProjectile3.DisplayName": "卵"
+		"EggProjectile4.DisplayName": "卵"
+		"EggProjectile5.DisplayName": "卵"
+		"EggProjectile6.DisplayName": "卵"
+		"EggProjectile7.DisplayName": "卵"
+		"EggProjectile8.DisplayName": "卵"
+		"EggProjectile9.DisplayName": "卵"
+		"ElectricEelProjectile.DisplayName": "エレキウナギ"
+		"ElectricEelProjectile2.DisplayName": "エレキウナギ"
+		"ElementalYoyoProjectile.DisplayName": "エレメンタルヨーヨー"
+		"ElementalYoyoProjectile2.DisplayName": "エレメンタルヨーヨー"
+		"EnergyYoyoProjectile.DisplayName": "エナジーヨーヨー"
+		"EvenpulseProjectile.DisplayName": "イーブンパルスの矢"
+		"EvilMenaceProjectile.DisplayName": "イービルメナス"
+		"ExplosiveBoltProjectile.DisplayName": "エクスプローシブボルト"
+		"FireworkProjectile.DisplayName": "花火"
+		"FlameBulletProjectile.DisplayName": "フレイムバレット"
+		"FlyingFishProjectile.DisplayName": "フライングフィッシュ"
+		"FlyingFishProjectile2.DisplayName": "フライングフィッシュ"
+		"FracturedZenithProjectile.DisplayName": "フラクチャードゼニス"
+		"FracturedZenithProjectile2.DisplayName": "フラクチャードゼニス"
+		"FrostBulletProjectile.DisplayName": "フロストバレット"
+		"FuneralBeam.DisplayName": "フューネラル"
+		"FuneralHoldout.DisplayName": "フューネラル"
+		"FuneralProjectile.DisplayName": "フューネラルメテオ"
+		"GildedYoyoProjectile.DisplayName": "ギルデッドヨーヨー"
+		"GlitchYoyoProjectile.DisplayName": "グリッチヨーヨー"
+		"HailStormProjectile.DisplayName": "ヘイルストームロケット"
+		"HamdraxBeam.DisplayName": "ハムドラックス"
+		"HamdraxHoldout.DisplayName": "ハムドラックス"
+		"HamdraxProjectile.DisplayName": "ハムドラックス"
+		"HamdraxProjectile2.DisplayName": "ハムドラックス"
+		"HauntedHouseBeam.DisplayName": "ホーンテッドハウス"
+		"HauntedHouseHoldout.DisplayName": "ホーンテッドハウス"
+		"HauntedHouseProjectile.DisplayName": "ホーンテッドハウスメテオ"
+		"HeatSeekingShurikenProjectile.DisplayName": "ヒートシーキングシュリケン"
+		"HellBeeBowProjectile.DisplayName": "ヘルビーアロー"
+		"HellBeeBowProjectile2.DisplayName": "ヘルビーアロー"
+		"ImprovedAmarokProjectile.DisplayName": "アマロック"
+		"ImprovedAmazonProjectile.DisplayName": "アマゾン"
+		"ImprovedArteryProjectile.DisplayName": "アーテリー"
+		"ImprovedBallOHurtProjectile.DisplayName": "ボールオーハート"
+		"ImprovedBlueMoonProjectile.DisplayName": "ブルームーン"
+		"ImprovedCascadeProjectile.DisplayName": "カスケード"
+		"ImprovedChikProjectile.DisplayName": "チク"
+		"ImprovedCode1Projectile.DisplayName": "コード1"
+		"ImprovedCode2Projectile.DisplayName": "コード2"
+		"ImprovedDaoPowProjectile.DisplayName": "ダオオブパウ"
+		"ImprovedDripplerCripplerProjectile.DisplayName": "ドリッパークリプラー"
+		"ImprovedEyeOfCthulhuProjectile.DisplayName": "クトゥルフの目"
+		"ImprovedFlowerPowProjectile.DisplayName": "フラワーパウ"
+		"ImprovedFormatCProjectile.DisplayName": "フォーマットC"
+		"ImprovedGradientProjectile.DisplayName": "グラディエント"
+		"ImprovedHelFireProjectile.DisplayName": "ヘルファイア"
+		"ImprovedKrakenProjectile.DisplayName": "クラーケン"
+		"ImprovedMalaiseProjectile.DisplayName": "メイルストローム"
+		"ImprovedMeatballProjectile.DisplayName": "ミートボール"
+		"ImprovedRallyProjectile.DisplayName": "ラリー"
+		"ImprovedSunfuryProjectile.DisplayName": "サンフューリー"
+		"ImprovedTerrarianProjectile.DisplayName": "テラリアン"
+		"ImprovedValorProjectile.DisplayName": "ヴァラー"
+		"ImprovedWoodenYoyoProjectile.DisplayName": "木製ヨーヨー"
+		"ImprovedYeletsProjectile.DisplayName": "イェレッツ"
+		"JumboJumbowProjectile.DisplayName": "ジャンボジャンボウの矢"
+		"KnockoutBagProjectile.DisplayName": "ノックアウトバッグ"
+		"LavaEelProjectile.DisplayName": "溶岩ウナギ"
+		"LifeArrowProjectile.DisplayName": "ライフアロー"
+		"LifeBoltProjectile.DisplayName": "ライフボルト"
+		"LightningRodProjectile.DisplayName": "ライトニングロッド"
+		"LuminiteBoltProjectile.DisplayName": "ルミナイトボルト"
+		"LunarDartProjectile.DisplayName": "ルナダート"
+		"ManaBoltProjectile.DisplayName": "マナボルト"
+		"ManaBulletProjectile.DisplayName": "マナバレット"
+		"MeteorBroadswordProjectile.DisplayName": "メテオブロードソード"
+		"MeteorBroadswordProjectile2.DisplayName": "メテオブロードソード"
+		"MeteorBroadswordProjectile3.DisplayName": "メテオブロードソード"
+		"MeteorBroadswordProjectile4.DisplayName": "メテオブロードソード"
+		"MeteorBroadswordProjectile5.DisplayName": "メテオブロードソード"
+		"MoltenBloodProjectile.DisplayName": "モルテンブラッドアロー"
+		"MonitorProjectile.DisplayName": "モニター"
+		"MonkeyDartProjectile.DisplayName": "モンキーダート"
+		"MostEnchantedMagicalEmperorSharkronBeam.DisplayName": "モストエンチャンテッドマジカルエンペラーシャークロン"
+		"MostEnchantedMagicalEmperorSharkronHoldout.DisplayName": "モストエンチャンテッドマジカルエンペラーシャークロンホールドアウト"
+		"MostEnchantedMagicalEmperorSharkronProjectile.DisplayName": "モストエンチャンテッドマジカルエンペラーシャークロン"
+		"MostEnchantedMagicalEmperorSharkronProjectile2.DisplayName": "モストエンチャンテッドマジカルエンペラーシャークロン"
+		"MutantSewerFishBeam.DisplayName": "ミュータントシーワーフィッシュ"
+		"MutantSewerFishHoldout.DisplayName": "ミュータントシーワーフィッシュ"
+		"MutantSewerFishProjectile.DisplayName": "ミュータントシーワーフィッシュ"
+		"MutantSewerFishProjectile2.DisplayName": "ミュータントシーワーフィッシュ"
+		"NaniteBoltProjectile.DisplayName": "ナナイトボルト"
+		"NetheriteSwordProjectile.DisplayName": "ネザライトソード"
+		"NightsCackleProjectile.DisplayName": "ナイツカックル"
+		"NightsCackleProjectile2.DisplayName": "ナイツカックル"
+		"NightsFuryProjectile.DisplayName": "ナイツフューリー"
+		"NukeCallerProjectile.DisplayName": "ニュークコーラー"
+		"OmegaStormProjectile.DisplayName": "オメガストーム"
+		"OmegaYoyoProjectile.DisplayName": "オメガヨーヨー"
+		"OmeglageddonProjectile.DisplayName": "オメガゲドンバレット"
+		"OmeglageddonProjectile2.DisplayName": "オメガゲドンバレット"
+		"OriginProjectile.DisplayName": "オリジン"
+		"OriginProjectile2.DisplayName": "オリジン"
+		"PaleRapierBeam.DisplayName": "ペイルレイピア"
+		"PaleRapierHoldout.DisplayName": "ペイルレイピア"
+		"PhantomShurikenProjectile.DisplayName": "ファントムシュリケン"
+		"PhaseMonsterProjectile.DisplayName": "フェイズモンスター"
+		"PixelBladeBeam.DisplayName": "ピクセルブレード"
+		"PixelBladeHoldout.DisplayName": "ピクセルブレード"
+		"PocketWatchProjectile.DisplayName": "ポケットウォッチ"
+		"PocketWatchProjectile2.DisplayName": "ポケットウォッチ"
+		"PoisonBoltProjectile.DisplayName": "ポイズンボルト"
+		"PowerFlailProjectile.DisplayName": "パワーフレイル"
+		"PowerKunaiProjectile.DisplayName": "パワークナイ"
+		"PrismaticKunaiProjectile.DisplayName": "プリズマティッククナイ"
+		"PrismaticStaffBeam.DisplayName": "プリズマティックスタッフ"
+		"PrismaticStaffHoldout.DisplayName": "プリズマティックスタッフ"
+		"PrismaticStaffProjectile.DisplayName": "プリズマティックボルト"
+		"QuipProjectile.DisplayName": "クイップ"
+		"ReaperScytheProjectile.DisplayName": "リーパーサイス"
+		"RevolvingRevolverProjectile.DisplayName": "リボルビングリボルバー"
+		"RustedDaggerBeam.DisplayName": "ラスティブレード"
+		"RustedDaggerHoldout.DisplayName": "ラスティブレード"
+		"ShadowPhoenixProjectile.DisplayName": "シャドウフレイム"
+		"ShadowPhoenixProjectile2.DisplayName": "シャドウフレイム"
+		"SharkShotBeam.DisplayName": "シャークショット"
+		"SharkShotHoldout.DisplayName": "シャークショット"
+		"SharkShotProjectile.DisplayName": "シャークショット"
+		"ShroomiteArrowProjectile.DisplayName": "シュルーマイトアロー"
+		"ShroomiteBlasterProjectile.DisplayName": "シュルーマイトバレット"
+		"ShroomiteBulletProjectile.DisplayName": "シュルーマイトバレット"
+		"SparklyProjectile.DisplayName": "スパークリーバレット"
+		"SparklyProjectile2.DisplayName": "スパークリーアロー"
+		"SpectreArrowProjectile.DisplayName": "スペクターアロー"
+		"SpectreBoltProjectile.DisplayName": "スペクターボルト"
+		"SpectreBulletProjectile.DisplayName": "スペクターバレット"
+		"SpiritFlailProjectile.DisplayName": "スピリットフレイル"
+		"SpiritFlailProjectile2.DisplayName": "スピリットフレイル"
+		"SpiritFlailProjectile3.DisplayName": "スピリットフレイル"
+		"SpiritFlailProjectile4.DisplayName": "スピリットフレイル"
+		"SpiritFlailProjectile5.DisplayName": "スピリットフレイル"
+		"SpookStormProjectile.DisplayName": "スプークストーム"
+		"SpookzookaMk2Projectile.DisplayName": "スプークズーカMk2"
+		"SpookzookaMk2Projectile2.DisplayName": "スプークズーカMk2"
+		"SpookzookaMk2Projectile3.DisplayName": "スプークズーカMk2"
+		"SpookzookaMk2Projectile4.DisplayName": "スプークズーカMk2"
+		"SprayCandleProjectile.DisplayName": "スプレーキャンドル"
+		"StrangeVialProjectile.DisplayName": "ストレンジバイアル"
+		"SuperMonkeyDartProjectile.DisplayName": "スーパーモンキーダート"
+		"SuspiciousKnifeProjectile.DisplayName": "怪しげなナイフ"
+		"SweetToothProjectile.DisplayName": "スイートトゥースキャンディコーン"
+		"TerraFlailProjectile.DisplayName": "テラフレイル"
+		"TerraFlailProjectile2.DisplayName": "テラフレイル"
+		"TerraFlailProjectile3.DisplayName": "テラフレイル"
+		"TerraFlailProjectile4.DisplayName": "テラフレイル"
+		"TetheredRopeProjectile.DisplayName": "テザードロープ"
+		"TheColossusProjectile.DisplayName": "ザ・コロッサス"
+		"ThornMaceProjectile.DisplayName": "ソーンメイス"
+		"ThunderFangProjectile.DisplayName": "サンダーファング"
+		"TommyGunProjectile.DisplayName": "トミーガン"
+		"TridentProjectile.DisplayName": "トライデント"
+		"TrueBiomeMorphProjectile.DisplayName": "トゥルーバイオームモーフ"
+		"TrueDurendalProjectile.DisplayName": "真デュランダル"
+		"TrueEyeOfCthulhuProjectile.DisplayName": "真クトゥルフの目"
+		"TrueNightsCackleProjectile.DisplayName": "真ナイツカックル"
+		"TrueNightsFuryProjectile.DisplayName": "真ナイツフューリー"
+		"VenomBoltProjectile.DisplayName": "ヴェノムボルト"
+		"VoidPurseProjectile.DisplayName": "ヴォイドパース"
+		"VortexYoyoProjectile.DisplayName": "ボルテックスヨーヨー"
+		"WaspNestProjectile.DisplayName": "ワスプネスト"
+		"WaterFlailProjectile.DisplayName": "ウォーターフレイル"
+		"WormOfCthulhuProjectile.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile10.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile2.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile3.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile4.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile5.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile6.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile7.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile8.DisplayName": "クトゥルフのワーム"
+		"WormOfCthulhuProjectile9.DisplayName": "クトゥルフのワーム"
+		"YoyoOfElementsProjectile.DisplayName": "エレメンツのヨーヨー"
+		"FuneralProjectile2.DisplayName": "フューネラルメテオ"
+		"HauntedHouseProjectile2.DisplayName": "ホーンテッドハウスメテオ"
+		"MeteorBroadswordEnergyProjectile.DisplayName": "メテオブロードソード"
+		"AsteroidGreatswordEnergyProjectile.DisplayName": "アステロイドグレートソード"
+		"AsteroidGreatswordProjectile.DisplayName": "アステロイドグレートソード"
+		"AsteroidGreatswordProjectile2.DisplayName": "アステロイドグレートソード"
+		"AsteroidGreatswordProjectile3.DisplayName": "アステロイドグレートソード"
+		"AsteroidGreatswordProjectile4.DisplayName": "アステロイドグレートソード"
+		"AsteroidGreatswordProjectile5.DisplayName": "アステロイドグレートソード"
+		"NuclearFalloutProjectile.DisplayName": "ニュークリアフォールアウト"
+		"HeavenArrowProjectile.DisplayName": "ヘブンアロー"
+		"ShimmerBulletProjectile.DisplayName": "シマーバレット"
+		"HeavenlyBulletProjectile.DisplayName": "ヘブンリーバレット"
+		"GlassCannonHoldout.DisplayName": "グラスキャノン"
+		"GlassCannonBeam.DisplayName": "グラスキャノン"
+		"BattleBladeSwingProjectile.DisplayName": "バトルブレード"
+		"BattleBladeProjectile3.DisplayName": "バトルブレード"
+		"VoidAxeProjectile.DisplayName": "ヴォイドアックス"
+		"WeakeningShotProjectile.DisplayName": "ウィークニングショット"
+		"SawbladeProjectile.DisplayName": "ソーブレード"
+		"CreepyEyedolBeam.DisplayName": "クリーピーアイドール"
+		"CreepyEyedolHoldout.DisplayName": "クリーピーアイドール"
+		"FlashlightProjectile.DisplayName": "フラッシュライト"
+		"RainbowCrystalProjectile.DisplayName": "レインボークリスタル"
+		"FistOfFuryProjectile.DisplayName": "フィストオブフューリー"
+		"SuperfluxEnergyProjectile.DisplayName": "スーパーフラックス"
+		"SwordOfLightEnergyProjectile.DisplayName": "ソードオブライト"
+		"PixelZenithEnergyProjectile.DisplayName": "ピクセルゼニス"
+		"BlazingStaffBeam.DisplayName": "ブレイズワンド"
+		"BlazingStaffHoldout.DisplayName": "ブレイズワンド"
+		"BlazingStaffProjectile.DisplayName": "ブレイズワンド"
+		"BlazingStaffProjectile2.DisplayName": "フレイムワンド"
+		"RevolvingRevolverHoldout.DisplayName": "リボルビングリボルバー"
+		"RevolvingRevolverBeam.DisplayName": "リボルビングリボルバー"
+		"ToxicRifleHoldout.DisplayName": "トキシックライフル"
+		"ToxicRifleBeam.DisplayName": "トキシックライフル"
+		"ClockworkArrowProjectile.DisplayName": "クロックワークアロー"
+		"SteampunkArrowProjectile.DisplayName": "スチームパンクアロー"
+		"CogMachineProjectile.DisplayName": "コグマシーン"
+		"CogMachineHoldout.DisplayName": "コグマシーン"
+		"CogMachineBeam.DisplayName": "コグマシーン"
+		"GearBreakerSwingProjectile.DisplayName": "ギアブレイカー"
+		"GearBreakerProjectile.DisplayName": "ギアブレイカー"
+		"GearGloveProjectile.DisplayName": "ギアグローブ"
+		"TestBladeEnergyProjectile.DisplayName": "テストブレードエネルギー"
+		"CodeBreakerEnergyProjectile.DisplayName": "コードブレイカーエネルギー"
+		"TheEraserEnergyProjectile.DisplayName": "ジ・イレイザーエネルギー"
+		"HandheldBunnyCannonBeam.DisplayName": "ハンドヘルドバニーキャノン"
+		"HandheldBunnyCannonHoldout.DisplayName": "ハンドヘルドバニーキャノン"
+		"HolyDaggerProjectile.DisplayName": "ホーリーダガー"
+		"WaterDaggerProjectile.DisplayName": "水のダガー"
+		"CatsPawProjectile.DisplayName": "キャッツポウ"
+		"SolarExplosionEnergyProjectile.DisplayName": "ソーラーエクスプロージョン"
+		"SolarExplosionProjectile.DisplayName": "ソーラーエクスプロージョンスター"
+		"CatsPawEnergyProjectile.DisplayName": "キャッツポウ"
+		"CatsPawProjectile2.DisplayName": "キャッツポウ"
+		"SeedlingProjectile.DisplayName": "シードリング"
+		"StormDaggerProjectile.DisplayName": "ストームダガー"
+		"DarkPortalProjectile.DisplayName": "ダークポータル"
+		"DarkPortalProjectile2.DisplayName": "ダークポータル"
+		"SacrificalDaggerProjectile.DisplayName": "サクリフィカルダガー"
+		"SacrificialDaggerProjectile.DisplayName": "サクリフィシャルダガー"
+		"TerraDaggerEnergyProjectile.DisplayName": "テラダガーエネルギー"
+		"DarkestDaggerProjectile.DisplayName": "ダーケストボルテックス"
+		"BowulderArrowProjectile.DisplayName": "ボウルダーアロー"
+		"BigBulletProjectile.DisplayName": "ビッグバレット発射物"
+		"BowmamaProjectile.DisplayName": "ボウママアロー"
+		"BowmamaProjectile2.DisplayName": "ボウママミニアロー"
+		"ChargeShotGreenBeam.DisplayName": "グリーンチャージショット"
+		"ChargeShotGreenHoldout.DisplayName": "グリーンチャージショット"
+		"ChargeShotBeamPurple.DisplayName": "パープルチャージショット"
+		"ChargeShotBeamRed.DisplayName": "レッドチャージショット"
+		"ChargeShotHoldoutPurple.DisplayName": "パープルチャージショット"
+		"ChargeShotHoldoutRed.DisplayName": "レッドチャージショット"
+		"SuspiciousDollProjectile.DisplayName": "怪しげな人形"
+		"WinterDaggerProjectile.DisplayName": "ウィンターダガー"
+		"SpiritDollProjectile.DisplayName": "スピリットドール"
+		"LightShowBeam.DisplayName": "ライトショー"
+		"LightShowHoldout.DisplayName": "ライトショー"
+		"SpikedDollProjectile.DisplayName": "スパイクドール"
+		"AllSeeingEyeProjectile.DisplayName": "オールシーイングアイ"
+		"SlimeSpewerProjectile.DisplayName": "スライムスピューワー"
+		"GhostDragon.DisplayName": "ゴーストドラゴン"
+		"GhostDragonProjectile.DisplayName": "ゴーストドラゴン"
+		"MeatShieldProjectile.DisplayName": "ミートシールド"
+		"CrystalShieldProjectile.DisplayName": "クリスタルシールド"
+		"PrimeSawProjectile.DisplayName": "プライムソー"
+		"LaserGunProjectile.DisplayName": "レーザー"
+		"SinnersAmbitionProjectile.DisplayName": "シナーズレーザー"
+		"SparkCellProjectile.DisplayName": "スパークセル"
+		"LavaEelProjectile2.DisplayName": "溶岩ウナギ"
+		"SinnerAmbitionProjectile2.DisplayName": "シナーアンビション"
+		"ThunderFangProjectile2.DisplayName": "サンダー"
+		"LunarticMaskProjectile.DisplayName": "ルナーティックマスク"
+		"LunarticMaskProjectile2.DisplayName": "ルナーティックマスク"
+		"RevolvingRevolverProjectile2.DisplayName": "リボルビングリボルバー"
+		"DroneRemoteProjectile.DisplayName": "ドローン"
+		"TuskSwordBeam.DisplayName": "タスクソード"
+		"TuskSwordHoldout.DisplayName": "タスクソード"
+		"TuskSwordProjectile.DisplayName": "タスクソード発射物"
+		"CommandersMagicBeam.DisplayName": "コマンダーズマジック"
+		"CommandersMagicHoldout.DisplayName": "コマンダーズマジック"
+		"TranquilizerProjectile.DisplayName": "トランキライザー"
+		"GunProjectile.DisplayName": "銃"
+		"NukeGunProjectile.DisplayName": "ニュークガン"
+		"ImprovedAnchorProjectile.DisplayName": "アンカー"
+		"ImprovedSolarEruptionProjectile.DisplayName": "ソーラーエラプション"
+		"AcornProjectile.DisplayName": "ドングリ"
+		"BulletShieldProjectile.DisplayName": "バレットシールド"
+		"SWATShieldProjectile.DisplayName": "S.W.A.Tシールド"
+		"SWATShieldProjectile2.DisplayName": "S.W.A.Tシールド"
+		"CataclysmicRayBeam.DisplayName": "カタクリスミックレイ"
+		"CataclysmicRayHoldout.DisplayName": "カタクリスミックレイ"
+		"RailgunBeam.DisplayName": "レールガン"
+		"RailgunHoldout.DisplayName": "レールガン"
+		"SprayCandleProjectile2.DisplayName": "スプレーキャンドル"
+		"OilerProjectile.DisplayName": "オイル"
+		"BloodflameSpewerProjectile.DisplayName": "ブラッドフレイム"
+		"ShadowflameCandleProjectile.DisplayName": "シャドウフレイム"
+		"SeveredClingerProjectile.DisplayName": "カースドフレイム"
+		"SeveredIchorStickerProjectile.DisplayName": "イコルフレイム"
+		"DiamondSwordBeam.DisplayName": "ダイヤモンドソード"
+		"DiamondSwordHoldout.DisplayName": "ダイヤモンドソード"
+		"PeaceKeeperBeam.DisplayName": "ピースキーパー"
+		"PeaceKeeperHoldout.DisplayName": "ピースキーパー"
+		"BoomthrowerProjectile.DisplayName": "ブームスロワー"
+		"FirespreaderProjectile.DisplayName": "ファイアスプレッダー"
+		"FireSpreaderProjectile.DisplayName": "ファイアスプレッダー"
+		"MeteorSpewerProjectile.DisplayName": "メテオスピューワー"
+		"GasSpewerProjectile.DisplayName": "ガス"
+		"SkullSpewerProjectile.DisplayName": "スカルスピューワー"
+		"SkullSpewerProjectile2.DisplayName": "スカル"
+		"WaxerProjectile.DisplayName": "ワックス"
+		"GhostBelcherProjectile.DisplayName": "ゴーストベルチャー"
+		"GhostBelcherProjectile2.DisplayName": "ゴーストリースカル"
+		"FieryDoomBeam.DisplayName": "ファイアリードゥーム"
+		"FieryDoomHoldout.DisplayName": "ファイアリードゥーム"
+		"FieryDoomProjectile.DisplayName": "ファイアリードゥーム"
+		"TotemOfLifeBeam.DisplayName": "生命のトーテム"
+		"TotemOfLifeHoldout.DisplayName": "生命のトーテム"
+		"TotemOfLifeProjectile.DisplayName": "ライフボール"
+		"OnyxCannonProjectile.DisplayName": "オニキスフレイム"
+		"NukeGunProjectile2.DisplayName": "ニュークガン"
+		"SharkzookaProjectile.DisplayName": "シャークミサイル"
+		"SharkzookaProjectile2.DisplayName": "スプラッシュ"
+		"TrashCollectorProjectile.DisplayName": "トラッシュコレクター"
+		"TrashCollectorProjectile2.DisplayName": "トラッシュコレクター"
+		"TrashCollectorProjectile3.DisplayName": "トラッシュコレクター"
+		"TrashCollectorProjectile4.DisplayName": "トラッシュコレクター"
+		"TrashCollectorProjectile5.DisplayName": "トラッシュコレクター"
+		"TrashCollectorProjectile6.DisplayName": "トラッシュコレクター"
+		"NegativeDaggerProjectile.DisplayName": "ネガティブダガー"
+		"NegativeDaggerProjectile2.DisplayName": "ネガティブボルト"
+		"NaturesRevengeProjectile.DisplayName": "自然の葉"
+		"WoodenSpearBowProjectile.DisplayName": "木製スピアボウ"
+		"SuperStormBeaterProjectile.DisplayName": "スーパーストームビーター"
+		"ShadowflameBulletProjectile.DisplayName": "シャドウフレイムバレット"
+		"ShadowflameBulletProjectile2.DisplayName": "シャドウフレイムバレット"
+		"ShadowflameBulletProjectile3.DisplayName": "シャドウフレイムバレット"
+		"LaserGunBeam.DisplayName": "レーザーガン"
+		"LaserGunHoldout.DisplayName": "レーザーガン"
+		"ShroomerBoomerProjectile.DisplayName": "シュルームブーム"
+		"ThornyMaceProjectile.DisplayName": "ソーニーメイス"
+		"ThornyMaceProjectile2.DisplayName": "ソーニーメイス"
+		"LihzahrdianDaggerEnergyProjectile.DisplayName": "リザードダガー"
+		"LihzahrdianDaggerEnergyProjectile2.DisplayName": "リザードダガー"
+		"WaterDaggerProjectile2.DisplayName": "水のダガー"
+		"FrostbittenDaggerProjectile.DisplayName": "フロストビトゥンダガー"
+		"WinterDaggerProjectile2.DisplayName": "ウィンターダガー"
+		"DaggerProjectile.DisplayName": "ダガー"
+		"CandyCornDaggerEnergyProjectile.DisplayName": "キャンディコーんだがー"
+		"ChlorophyteTranquilizerBeam.DisplayName": "クロロファイトトランキライザー"
+		"ChlorophyteTranquilizerHoldout.DisplayName": "クロロファイトトランキライザー"
+		"ChlorophyteTranquilizerProjectile.DisplayName": "クロロファイトトランキライザー"
+		"TranquilizerBeam.DisplayName": "トランキライザー"
+		"TranquilizerHoldout.DisplayName": "トランキライザー"
+		"TerraDaggerEnergyProjectile2.DisplayName": "テラダガー"
+		"SparklingStaffProjectile.DisplayName": "スパークリングボルト"
+		"ExplosiveHolidayProjectile.DisplayName": "ホリデーミサイル"
+		"PumpkinCoreProjectile.DisplayName": "パンプキンコア"
+		"FlamingWoodKunaiProjectile.DisplayName": "燃える木のクナイ"
+		"FlamingWoodKunaiProjectile2.DisplayName": "燃える木のクナイ"
+		"OrnamentsOfDoomProjectile.DisplayName": "破滅のオーナメント"
+		"OrnamentsOfDoomProjectile2.DisplayName": "破滅のオーナメント"
+		"FrozenMachineBeam.DisplayName": "フローズンマシーン"
+		"FrozenMachineHoldout.DisplayName": "フローズンマシーン"
+		"FrozenMachineProjectile.DisplayName": "アイスボール"
+		"TheEraserBeam.DisplayName": "ジ・イレイザー"
+		"TheEraserHoldout.DisplayName": "ジ・イレイザー"
+		"FrostMachineBeam.DisplayName": "フロストマシーン"
+		"FrostMachineHoldout.DisplayName": "フロストマシーン"
+		"FrostMachineProjectile.DisplayName": "アイスボール"
+		"ShamanStaffProjectile.DisplayName": "浄化の呪文"
+		"BigClubProjectile.DisplayName": "ビッグクラブ"
+		"ChristmasCheerEnergyProjectile.DisplayName": "クリスマスチアー"
+		"TestClubProjectile.DisplayName": "テストクラブ"
+		"UnstableBrickProjectile.DisplayName": "不安定なレンガ"
+		"ShamanTabletProjectile.DisplayName": "浄化の呪文"
+		"SpaceDaggerBeam.DisplayName": "スペースダガー"
+		"SpaceDaggerHoldout.DisplayName": "スペースダガー"
+		"PumpkinCoreProjectile2.DisplayName": "パンプキンコア"
+		"LunarDartProjectile2.DisplayName": "ルナダート"
+		"SuperChargerBeam.DisplayName": "スーパーチャージャー"
+		"SuperChargerHoldout.DisplayName": "スーパーチャージャー"
+		"ColorPartyBeam.DisplayName": "カラーパーティー"
+		"ColorPartyHoldout.DisplayName": "カラーパーティー"
+		"FlashlightBeam.DisplayName": "フラッシュライト"
+		"FlashlightHoldout.DisplayName": "フラッシュライト"
+		"SeveredClingerProjectile2.DisplayName": "カースドファイアボール"
+		"SeveredIchorStickerProjectile2.DisplayName": "イコルファイアボール"
+		"MarbleSpikefishProjectile.DisplayName": "マーブルスパイクフィッシュ"
+		"MarbleSpikefishProjectile2.DisplayName": "マーブルスパイクフィッシュ"
+		"SeaweepProjectile.DisplayName": "シーウィープ"
+		"EnchantedTridentProjectile.DisplayName": "エンチャンテッドトライデント"
+		"EnchantedTridentProjectile2.DisplayName": "エンチャンテッドトライデント"
+		"CandiruEnergyProjectile.DisplayName": "カンディル"
+		"ExplosiveSeaProjectile.DisplayName": "エクスプローシブシー"
+		"TetheredRockProjectile.DisplayName": "テザードロック"
+		"ImprovedSunfuryProjectile2.DisplayName": "サンフレイム"
+		"EnergyFishProjectile.DisplayName": "グラナイトロック"
+		"EnergyFishProjectile2.DisplayName": "グラナイトボルト"
+		"FishGunProjectile.DisplayName": "フィッシュガンバレット"
+		"FishgunProjectile2.DisplayName": "フィッシュガン"
+		"FryingPanProjectile.DisplayName": "ベーコン"
+		"FryingPanProjectile2.DisplayName": "卵黄"
+		"CloudStaffBeam.DisplayName": "クラウドスタッフ"
+		"CloudStaffHoldout.DisplayName": "クラウドスタッフ"
+		"TestBeam.DisplayName": "テスト"
+		"TestHoldout.DisplayName": "テスト"
+		"WorldBreakerBeam.DisplayName": "ワールドブレイカー"
+		"WorldBreakerHoldout.DisplayName": "ワールドブレイカー"
+		"WorldBreakerProjectile.DisplayName": "ワールドブレイカー発射物"
+		"ThornfishProjectile.DisplayName": "ソーンフィッシュ発射物"
+		"HandCannonBeam.DisplayName": "ハンドキャノン"
+		"HandCannonHoldout.DisplayName": "ハンドキャノン"
+		"WinterfishProjectile.DisplayName": "ウィンターフィッシュ発射物"
+		"ShimmerDartProjectile.DisplayName": "シマーダート発射物"
+		"WeaknessPolicyProjectile.DisplayName": "ウィークネスポリシー発射物"
+		"InfernoHandProjectile.DisplayName": "インフェルノハンド"
+		"InstantDetonationProjectile.DisplayName": "インスタントデトネーション"
+		"YappinatorBeam.DisplayName": "ヤッピネーター"
+		"YappinatorHoldout.DisplayName": "ヤッピネーター"
+		"GoldenAchievementProjectile.DisplayName": "ゴールデンアチーブメント発射物"
+		"ShadowPhoenixProjectile3.DisplayName": "シャドウフェニックス発射物3"
+		"ImprovedAmazonProjectile2.DisplayName": "アマゾン"
+		"DarkestDaggerBeam.DisplayName": "ダーケストダガー"
+		"DarkestDaggerHoldout.DisplayName": "ダーケストダガー"
+		"SolarExplosionProjectile2.DisplayName": "ソーラーエクスプロージョン"
+		"HellBringerProjectile.DisplayName": "ヘルブリンガー"
+		"BlueRomanCandleProjectile.DisplayName": "ブルーローマンキャンドル"
+		"GreenRomanCandleProjectile.DisplayName": "グリーンローマンキャンドル"
+		"RedRomanCandleProjectile.DisplayName": "レッドローマンキャンドル"
+		"KnockoutBagProjectile2.DisplayName": "ノックアウトバッグ"
+		"LifeCrystalLauncherBeam.DisplayName": "ライフクリスタルランチャー"
+		"LifeCrystalLauncherHoldout.DisplayName": "ライフクリスタルランチャー"
+		"LifeCrystalLauncherProjectile.DisplayName": "ライフクリスタル"
+		"GlassCannonHoldout2.DisplayName": "グラスキャノン"
+		"FutureSurpriseBeam.DisplayName": "フューチャーサプライズ"
+		"FutureSurpriseHoldout.DisplayName": "フューチャーサプライズ"
+		"FutureSurpriseProjectile.DisplayName": "フューチャーサプライズ"
+		"SkyProtectorEnergyProjectile.DisplayName": "スカイプロテクター"
+		"CursedPortalEnergyProjectile.DisplayName": "カースドポータルエネルギー"
+		"DarkPortalEnergyProjectile.DisplayName": "ダークポータルエネルギー"
+		"MeteorShortbowProjectile.DisplayName": "メテオアロー"
+		"RuneCannonProjectile.DisplayName": "ルーンロケット"
+		"BouncyBlasterProjectile.DisplayName": "バウンシーブラスター"
+		"BulletCannonProjectile.DisplayName": "バレットキャノン"
+		"BloodfangProjectile.DisplayName": "ブラッドファング"
+		"MarbleGraniteDualsProjectile.DisplayName": "マーブルグラナイトデュアル"
+		"MarbleGraniteDualsProjectile2.DisplayName": "マーブルグラナイトデュアル"
+		"MushroomDualsProjectile.DisplayName": "マッシュルームデュアル"
+		"MushroomDualsProjectile2.DisplayName": "マッシュルームデュアル"
+		"BlockyCrossbowProjectile.DisplayName": "ブロッキー花火"
+		"StrongWindsProjectile.DisplayName": "ストロングウィンズ"
+		"FlyshooterProjectile.DisplayName": "ハエ"
+		"StickyDollProjectile.DisplayName": "スティッキーアロー"
+		"CupidsBowProjectile3.DisplayName": "キューピッドの矢"
+		"ShadowflameArrowProjectile.DisplayName": "シャドウフレイムアロー"
+		"SeedlingProjectile2.DisplayName": "シードリング"
+		"StardustDollProjectile.DisplayName": "スターダストアロー"
+		"StardustDollProjectile2.DisplayName": "スターダストアロー"
+		"WeatherDualsProjectile.DisplayName": "ウェザーデュアル"
+		"WeatherDualsProjectile2.DisplayName": "ウェザーデュアル"
+		"YappinatorProjectile.DisplayName": "ヤッピネーター"
+		"Magic8BallProjectile.DisplayName": "マジック8ボール"
+		"Magic8BallProjectile2.DisplayName": "マジック8ボール"
+		"Magic8BallProjectile3.DisplayName": "マジック8ボール"
+		"Magic8BallProjectile4.DisplayName": "マジック8ボール"
+		"Magic8BallProjectile5.DisplayName": "マジック8ボール"
+		"Magic8BallProjectile6.DisplayName": "マジック8ボール"
+		"InfernoWrathProjectile.DisplayName": "ラースファイアボール"
+		"TeslaCannonBeam.DisplayName": "テスラキャノン"
+		"TeslaCannonHoldout.DisplayName": "テスラキャノン"
+		"TeslaCannonProjectile.DisplayName": "テスラボルト"
+		"OtherworldlyScarProjectile.DisplayName": "アザーワールドリースカー発射物"
+		"BattleBladeSwingProjectile2.DisplayName": "バトルブレードスイング発射物2"
+		"SpiderScepterProjectile.DisplayName": "スパイダーセプター発射物"
+		"SpiderScepterProjectile2.DisplayName": "スパイダーセプター発射物2"
+		"ExecutionerAxeSwingProjectile.DisplayName": "エグゼキューショナーアックススイング発射物"
+		"HarvesterSwingProjectile.DisplayName": "ハーベスタースイング発射物"
+		"HellSerpentScepterProjectile.DisplayName": "ヘルサーペントセプター発射物"
+		"HellSerpentScepterProjectile2.DisplayName": "ヘルサーペントセプター発射物2"
+		"IceCubeScepterProjectile.DisplayName": "アイスキューブセプター発射物"
+		"IceCubeScepterProjectile2.DisplayName": "アイスキューブセプター発射物2"
+		"ToxicRifleProjectile.DisplayName": "トキシックライフル発射物"
+		"ToxicRifleProjectile2.DisplayName": "トキシックライフル発射物2"
+		"DustDevilProjectile.DisplayName": "ダストデビル発射物"
+		"SnowyDollProjectile.DisplayName": "スノウィードール発射物"
+		"FungiSpellProjectile.DisplayName": "ファンギスペル発射物"
+		"NaturesRevengeProjectile2.DisplayName": "ネイチャーズリベンジ発射物2"
+		"CrystalWandProjectile.DisplayName": "クリスタルワンド発射物"
+		"CrystalWandProjectile2.DisplayName": "クリスタルワンド発射物2"
+		"SunPowerStaffProjectile.DisplayName": "サンパワースタッフ発射物"
+		"VenomizedSpiderScepterProjectile.DisplayName": "ヴェノマイズドスパイダーセプター発射物"
+		"VenomizedSpiderScepterProjectile2.DisplayName": "ヴェノマイズドスパイダーセプター発射物2"
+		"TrapArmorProjectile.DisplayName": "トラップアーマー発射物"
+		"HellBringerProjectile2.DisplayName": "ヘルブリンガー発射物2"
+		"ManaCrystalLauncherBeam.DisplayName": "マナクリスタルランチャービーム"
+		"ManaCrystalLauncherHoldout.DisplayName": "マナクリスタルランチャーホールドアウト"
+		"ManaCrystalLauncherProjectile.DisplayName": "マナクリスタルランチャー発射物"
+		"SoulWhipProjectile.DisplayName": "ソウルウィップ発射物"
+		"RetroGunProjectile.DisplayName": "レトロガン発射物"
+		"SiegeBowBeam.DisplayName": "シージボウビーム"
+		"SiegeBowHoldout.DisplayName": "シージボウホールドアウト"
+		"SiegeBowProjectile.DisplayName": "シージボウ発射物"
+		"TrashCollectorProjectile7.DisplayName": "トラッシュコレクター発射物7"
+		"FingerGunProjectile.DisplayName": "フィンガーガン発射物"
+	}
+
+	Configs: {
+		BetterClassesConfig: {
+			DisplayName: "Better Classes設定"
+			ExampleWingsToggle: {
+				Label: "{$Mods.BetterClasses.Config.ExampleWingsToggle.Label}"
+				Tooltip: "{$Mods.BetterClasses.Config.ExampleWingsToggle.Tooltip}"
+			}
+		}
+	}
+	DamageClasses: {
+		"MultiClass.DisplayName": "マルチクラス"
+		"BreakfastDamageClass.DisplayName": "朝食ダメージ"
+		"FireworkDamageClass.DisplayName": "花火ダメージ"
+		"WindDamageClass.DisplayName": "風ダメージ"
+		"FlyDamageClass.DisplayName": "ハエダメージ"
+		"BewitchedSummonDamageClass.DisplayName": "ビウィッチド召喚ダメージ"
+		"BarbaricMeleeDamageClass.DisplayName": "バーバリアン近接ダメージ"
+		"EnchantedMagicDamageClass.DisplayName": "エンチャント魔法ダメージ"
+		"TacticalRangedDamageClass.DisplayName": "タクティカル遠距離ダメージ"
+	}
+	NPCs: {
+		ExamplePerson: {
+			DisplayName: "サンプルさん"
+			TownNPCMood: {
+				Content: "満足している"
+				NoHome: "家がないのは嫌いだ"
+				FarFromHome: "家から遠すぎる"
+				LoveSpace: "こんなに広いスペースがあるのが大好きだ"
+				DislikeCrowded: "こんなに混雑しているのは嫌だ"
+				HateCrowded: "こんなに混雑しているのは大嫌いだ"
+				LoveBiome: "私は{BiomeName}が大好きだ"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				DislikeBiome: "私は{BiomeName}が嫌いだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				LikeNPC: "私は{NPCName}が好きだ"
+				DislikeNPC: "私は{NPCName}が嫌いだ"
+				HateNPC: "私は{NPCName}が大嫌いだ"
+				LikeNPC_Princess: "私は{NPCName}が好きだ"
+				Princess_LovesNPC: "私は{NPCName}が好きだ"
+			}
+			"Census.SpawnCondition": "条件不明"
+		}
+		ShadowThief: {
+			DisplayName: "シャドウシーフ"
+			TownNPCMood: {
+				Content: "満足している"
+				NoHome: "頭の上に屋根がないのは嫌だ"
+				FarFromHome: "シェルターから遠すぎる"
+				LoveSpace: "魔法をするための部屋がたくさんあるのが大好きだ"
+				DislikeCrowded: "プライバシーがほとんどないのが嫌だ"
+				HateCrowded: "見つからずに物を盗めないのが大嫌いだ"
+				LoveBiome: "私は{BiomeName}が大好きだ"
+				LikeBiome: "私は{BiomeName}が平和で好きだ"
+				DislikeBiome: "私は{BiomeName}の雰囲気が嫌いだ"
+				HateBiome: "私は{BiomeName}の雰囲気が大嫌いだ"
+				LoveNPC: "私と{NPCName}がどれだけ共感できるかが大好きだ"
+				LikeNPC: "私は{NPCName}が好きだ、私たちの友情は昔から続いている"
+				DislikeNPC: "私は{NPCName}が嫌いだ、彼らの仕事のやり方が嫌いだからだ"
+				HateNPC: "{NPCName}がうるさいのが大嫌いだ"
+				LikeNPC_Princess: "私は{NPCName}が好きだ"
+				Princess_LovesNPC: "私は{NPCName}が好きだ"
+			}
+			"Census.SpawnCondition": "森で腐食したダガーを使用することでスポーンする"
+		}
+	}
+	"Conditions.PlayerHasShadowbloodBufff": "プレイヤーがシャドウブラッドバフを持っている"

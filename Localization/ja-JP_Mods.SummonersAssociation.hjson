@@ -1,0 +1,177 @@
+Items: {
+	MinionControlRod: {
+		DisplayName: ミニオン制御ロッド
+		Tooltip:
+			'''
+			「ミニオンを支配し、指示する」
+			左クリックで全てのミニオンをカーソル位置にテレポートさせる
+			'''
+		Rightclick1: 敵を右クリックしてターゲットに設定する
+		Rightclick2Remove: または照準を右クリックして再度解除する
+		Rightclick2Spawn: または別の場所を右クリックしてミニオンが攻撃する照準を生成する
+		Rightclick3: 他のプレイヤーの照準を右クリックし、ミニオンのターゲット制御をそのプレイヤーに渡す
+	}
+
+	MinionLoadoutBook: {
+		DisplayName: ミニオン召喚構成ブック
+		Tooltip:
+			'''
+			左クリックで召喚構成に基づいてミニオンを召喚する
+			右クリックでUIを開く
+			アイテムアイコンの上でスクロールホイールを動かして召喚数を調整する
+			'''
+		NoLoadout: 召喚構成が指定されていない
+		ExpectedManaCost: 現在の召喚構成から追加で{0}マナが必要
+		LoadoutHeader: 召喚構成：
+		SummonsPerUse: "{0}: {1}"
+	}
+
+	MinionLoadoutBookAuto: {
+		DisplayName: 自動ミニオン召喚構成ブック
+		Tooltip:
+			'''
+			左クリックで召喚構成に基づいてミニオンを召喚する
+			右クリックでUIを開く
+			アイテムアイコンの上でスクロールホイールを動かして召喚数を調整する
+			リスポーン時に自動でミニオンを召喚する
+			'''
+	}
+
+	MinionLoadoutBookSimple: {
+		DisplayName: ミニオン選択ブック
+		Tooltip:
+			'''
+			右クリックでUIを開く
+			アイテムアイコンを左/右クリックで選択する
+			左クリックで選択したアイテムを使用する
+			'''
+		SelectedNotInInventory: 選択したアイテムが見つからない
+		NoSelected: アイテムが指定されていない
+	}
+
+	SummonersAssociationCard: {
+		DisplayName: サモナーズ連合のカード
+		Tooltip:
+			'''
+			「サモナーズ連合へようこそ」
+			召喚士関連の情報を表示する
+			'''
+	}
+}
+
+InfoDisplays: {
+	MinionInfoDisplay: {
+		DisplayName: ミニオンスロット
+	}
+
+	SentryInfoDisplay: {
+		DisplayName: セントリースロット
+	}
+}
+
+NPCs: {
+	MinionTarget: {
+		DisplayName: ミニオンターゲット
+		GivenName: "{0} ({1})"
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: クライアント設定
+
+		InventoryIcon: {
+			Label: インベントリアイコンの表示切替
+			Tooltip: ミニオン/セントリーのインベントリスロット要素の表示を切り替える
+		}
+
+		InfoIcon: {
+			Label: 情報アイコンの表示切替
+			Tooltip: ミニオン/セントリーの情報表示エントリーの表示を切り替える
+		}
+
+		Headers: {
+			Blank: ""
+			HintToServerConfig: ヒント：機能の表示切替を含むサーバー設定に移動するには、右下の「>」矢印を押す
+		}
+
+		Offset: {
+			Label: インベントリアイコンのオフセット
+			Tooltip: 画面に対する「インベントリアイコン」の位置を変更する
+		}
+
+		Hint: {
+			Label: ヒント
+			Tooltip: ""
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		DisableAdvancedTargetingFeature: {
+			Label: 高度なターゲティング機能を無効化
+			Tooltip: オンにすると、ミニオン制御ロッドのターゲティング照準機能を無効にする
+		}
+
+		PersistentReticle: {
+			Label: 持続レティクルを有効化
+			Tooltip: オンにすると、ミニオン制御ロッドの照準が範囲外になっても消えなくなる
+		}
+
+		PersistentBuffs: {
+			Label: 持続バフを有効化
+			Tooltip: オンにすると、召喚のポーションなど、最大ミニオンまたはセントリースロットを提供するバフが死亡またはワールド退出時に保持される
+		}
+
+		Headers: {
+			HintToClientConfig: ヒント：UI調整を含むクライアント設定に移動するには、左下の「<」矢印を押す
+		}
+
+		Hint: {
+			Label: ヒント
+			Tooltip: ""
+		}
+
+		LoadoutBookSpeed: {
+			Label: 召喚構成ブックの速度
+			Tooltip: 召喚構成ブックを通じてミニオン武器が使用される速度を選択する。最大値では即座に使用される
+		}
+	}
+}
+
+RecipeGroups: {
+	RecipeGroupGeneric: "{0} {1}"
+}
+
+UI: {
+	Buffs: {
+		MinionSlots: "{0} / {1}"
+		UncountableMinions: カウント不能なMODミニオンスロット: {0} / {1}
+	}
+
+	MinionSlotsIcon: {
+		MinionSlots: "{0} / {1} ミニオンスロット"
+	}
+
+	SentrySlotsIcon: {
+		SentrySlots: "{0} / {1} セントリースロット"
+		Counted: "{0}: {1}"
+		Uncountable: カウント不能
+	}
+
+	LoadoutBook: {
+		SlotsRequired: 必要スロット: {0}
+		Selected: (選択中)
+		NotFoundInInventory: インベントリに見つからない
+		SummonCountTotal: "{0}/{1}"
+		LeftClickClear: 左クリックでロードアウトをクリア
+		RightClickCancel: 右クリックでキャンセル
+		LeftClickTwiceClear: 左クリック2回で召喚構成をクリア
+		RightClickSave: 右クリックでロードアウトを保存
+		OnUseNoWeapons: 召喚武器が見つからない
+		OnUseReset: 召喚構成をリセット
+		OnUseSaved: 召喚構成を保存しました
+		OnUseSelected: 選択中: {0}
+	}
+}

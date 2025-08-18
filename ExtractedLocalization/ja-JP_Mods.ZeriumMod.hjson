@@ -1,0 +1,232 @@
+Items: {
+	Zerium: {
+		Tooltip: ""
+		DisplayName: Zerium
+	}
+
+	ZeriumSword: {
+		Tooltip: ""
+		DisplayName: Zerium Sword
+	}
+
+	ZincSword: {
+		DisplayName: Zinc Sword
+		Tooltip: ""
+	}
+
+	ZincPickaxe: {
+		DisplayName: Zinc Pickaxe
+		Tooltip: ""
+	}
+
+	ZincOre: {
+		DisplayName: Zinc Ore
+		Tooltip: ""
+	}
+
+	ZincBar: {
+		DisplayName: Zinc Bar
+		Tooltip: ""
+	}
+
+	ZincShortsword: {
+		DisplayName: Zinc Shortsword
+		Tooltip: ""
+	}
+
+	ZincStaff: {
+		DisplayName: Brown Diamond Staff
+		Tooltip: ""
+	}
+
+	ZincAxe: {
+		DisplayName: Zinc Axe
+		Tooltip: ""
+	}
+
+	ZincChainmail: {
+		DisplayName: Zinc Chainmail
+		Tooltip: ""
+	}
+
+	ZincHelmet: {
+		SetBonus: Immune to Bleeding, +5 Max Health
+		DisplayName: Zinc Helmet
+		Tooltip: ""
+	}
+
+	ZincGreaves: {
+		DisplayName: Zinc Greaves
+		Tooltip: ""
+	}
+
+	BrownDiamond: {
+		DisplayName: Brown Diamond
+		Tooltip: ""
+	}
+
+	ZincYoyo: {
+		DisplayName: Zinc Yoyo
+		Tooltip: ""
+	}
+
+	WaterBoltFramenic: {
+		DisplayName: Water Bolt Framenic
+		Tooltip: ""
+	}
+
+	WaterBoltFrame: {
+		DisplayName: Water Bolt Frame
+		Tooltip: An upgraded WaterBolt
+	}
+
+	RockScepter: {
+		DisplayName: Rock Scepter
+		Tooltip: ""
+	}
+
+	EmptyFrame: {
+		DisplayName: Empty Frame
+		Tooltip: ""
+	}
+
+	RockBigBlade: {
+		DisplayName: Rock Big Blade
+		Tooltip: ""
+	}
+
+	WormMeat: {
+		DisplayName: Worm Meat
+		Tooltip: ""
+	}
+
+	GelandWormMeatMeal: {
+		DisplayName: Gel and Worm Meat Meal
+		Tooltip: No Longer In game
+	}
+
+	SilverScale: {
+		DisplayName: Silver Scale
+		Tooltip: ""
+	}
+
+	SilverTooth: {
+		DisplayName: Silver Tooth
+		Tooltip: ""
+	}
+
+	ThemisHide: {
+		DisplayName: Themis Hide
+		Tooltip: ""
+	}
+
+	LoamsBlock: {
+		Tooltip: ""
+		DisplayName: Loams Block
+	}
+
+	ThemisRelic: {
+		DisplayName: Themis Relic
+		Tooltip: ""
+	}
+
+	ThemisTrophy: {
+		DisplayName: Themis Trophy
+		Tooltip: ""
+	}
+
+	LasangnaAndGrubSoup: {
+		DisplayName: Lasagna And Grub Soup
+		Tooltip: Summons Themis
+	}
+
+	ThemisBossBag: {
+		DisplayName: Themis Boss Bag
+		Tooltip: ""
+	}
+
+	ThemisMask: {
+		DisplayName: Themis Mask
+		Tooltip: ""
+	}
+
+	SilverGuard: {
+		DisplayName: Silver Guard
+		Tooltip: ""
+	}
+
+	SilverToothedWorm: {
+		DisplayName: Silver Toothed Worm
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	ZincOre: {
+		MapEntry: Zinc Ore
+	}
+
+	ZincOreTile: {
+		MapEntry: Zinc Ore Tile
+	}
+}
+
+WorldGen: {
+	ZincOrePassMessage: Mods.ZeriumMod.WorldGen.ZincOrePassMessage
+}
+
+Projectiles: {
+	ZincShortswordProjectile: {
+		DisplayName: Zinc Shortsword Projectile
+	}
+
+	ZincStaffProjectile: {
+		DisplayName: Zinc Staff Projectile
+	}
+
+	ZincYoyoProjectile: {
+		DisplayName: Zinc Yoyo Projectile
+	}
+
+	AniRock: {
+		DisplayName: Ani Rock
+	}
+
+	AniRockHostile: {
+		DisplayName: Ani Rock Hostile
+	}
+
+	ThemisPetWormHead: {
+		DisplayName: Themis Pet Worm Head
+	}
+
+	ThemisScream: {
+		DisplayName: Themis Scream
+	}
+}
+
+NPCs: {
+	BrownDiamondZombie: {
+		DisplayName: Brown Diamond Zombie
+	}
+
+	ThemisWormTail: {
+		DisplayName: Themis
+	}
+
+	ThemisWormHead: {
+		DisplayName: Themis
+	}
+
+	ThemisWormBody: {
+		DisplayName: Themis
+	}
+}
+
+Buffs: {
+	ThemisPetWormBuff: {
+		DisplayName: Themis Pet Worm Buff
+		Description: The Ghostly Head of Themis
+	}
+}
+

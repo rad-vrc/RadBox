@@ -1,0 +1,174 @@
+Biomes: {
+	DaylandSurfaceBiome: {
+		DisplayName: "デイランド地表バイオーム"
+		TownNPCDialogueName: "デイランド地表バイオーム"
+	}
+
+	DaylandUndergroundBiome: {
+		DisplayName: "デイランド地下バイオーム"
+		TownNPCDialogueName: "デイランド地下バイオーム"
+	}
+}
+
+Items: {
+	DaylandSolutionItem: {
+		DisplayName: "デイランドソリューション"
+		Tooltip: ""
+	}
+
+	SandSnowCompound: {
+		DisplayName: "砂雪混合物"
+		Tooltip: ""
+	}
+
+	SunGrassCampfire: {
+		DisplayName: "サン草のキャンプファイア"
+		Tooltip: ""
+	}
+
+	SunGrassSeed: {
+		DisplayName: "サン草の種"
+		Tooltip: ""
+	}
+
+	SunGrassTorch: {
+		DisplayName: "サン草の松明"
+		Tooltip: ""
+	}
+
+	SunGrassWall: {
+		DisplayName: "サン草の壁"
+		Tooltip: ""
+	}
+
+	WaterGrassSeed: {
+		DisplayName: "ウォーターグラスの種"
+		Tooltip: ""
+	}
+
+	DeadSunflowerItem: {
+		DisplayName: "枯れたヒマワリ"
+		Tooltip: ""
+	}
+
+	SunflowerSeedItem: {
+		DisplayName: "ヒマワリの種"
+		Tooltip: ""
+	}
+
+	BeachSunflowerItem: {
+		DisplayName: "浜辺のヒマワリ"
+		Tooltip: ""
+	}
+
+	BeachSunflowerSeedItem: {
+		DisplayName: "浜辺のヒマワリの種"
+		Tooltip: ""
+	}
+
+	DeadSunflowerSeedItem: {
+		DisplayName: "枯れたヒマワリの種"
+		Tooltip: ""
+	}
+
+	DrySunflowerSeedItem: {
+		DisplayName: "乾いたヒマワリの種"
+		Tooltip: ""
+	}
+
+	FireSunflowerSeedItem: {
+		DisplayName: "炎のヒマワリの種"
+		Tooltip: ""
+	}
+
+	IceSunflowerSeedItem: {
+		DisplayName: "氷のヒマワリの種"
+		Tooltip: ""
+	}
+
+	JungleSunflowerSeedItem: {
+		DisplayName: "ジャングルのヒマワリの種"
+		Tooltip: ""
+	}
+
+	ObsidianSunflowerSeedItem: {
+		DisplayName: "黒曜石のヒマワリの種"
+		Tooltip: ""
+	}
+
+	SnowSunflowerSeedItem: {
+		DisplayName: "雪のヒマワリの種"
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	DaylandSolutionProjectile: {
+		DisplayName: "デイランドソリューション発射体"
+	}
+
+	SandBallFallingNoItemProjectile: {
+		DisplayName: "砂玉（アイテムなし落下）"
+	}
+
+	SandSnowCompoundBallFallingProjectile: {
+		DisplayName: "砂雪混合物の玉（落下）"
+	}
+
+	SandSnowCompoundBallGunProjectile: {
+		DisplayName: "砂雪混合物の玉（銃）"
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: "設定"
+
+		Headers: {
+			JamOfBiomology: "バイオーム学のジャムヘッダー"
+		}
+
+		ShowMessageWhenEnteringWorld: {
+			Label: "ワールドに入った時にメッセージを表示"
+			Tooltip: ""
+		}
+
+		DestabilizeTiles: {
+			Label: "タイルを不安定化"
+			Tooltip: ""
+		}
+
+		RadiusOfSunflower: {
+			Label: "ヒマワリの半径"
+			Tooltip: ""
+		}
+
+		HowFastSunGrassDecays: {
+			Label: "サン草が腐敗する速さ"
+			Tooltip: ""
+		}
+
+		HowMuchYouNeedBlocksForDayland: {
+			Label: "デイランドに必要なブロック数"
+			Tooltip: ""
+		}
+
+		SunflowerGrowFast: {
+			Label: "ヒマワリの高速成長"
+			Tooltip: ""
+		}
+	}
+}
+
+NPCs: {
+	BigBunny: {
+		DisplayName: "ビッグバニー"
+	}
+}
+
+Buffs: {
+	DeadSunflowerBuff: {
+		DisplayName: "枯れたヒマワリ"
+		Description: "体力が削られる、枯れたヒマワリを取り除け！"
+	}
+}

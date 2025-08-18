@@ -1,0 +1,1450 @@
+UnimplementedItem: このアーティファクトは現在未実装です
+
+Items: {
+	BlazingAspect: {
+		DisplayName: イフリートの識別章
+		Tooltip:
+			'''
+			[c/fa3924:火]の側面になる
+			移動経路に炎の軌跡を残す
+			命中時に敵を炎上させる
+			'''
+	}
+
+	CelestineAspect: {
+		DisplayName: スペクトラル・サークレット
+		Tooltip:
+			'''
+			[c/649791:幽体]の側面になる
+			周囲の味方を不可視にする
+			命中時に敵をスロー
+			'''
+	}
+
+	GlacialAspect: {
+		DisplayName: 彼女の凍てつく抱擁
+		Tooltip:
+			'''
+			[c/5e7e8f:氷]の側面になる
+			命中時に敵をスロー
+			大ダメージを受けると氷結爆発を放つ
+			'''
+	}
+
+	MendingAspect: {
+		DisplayName: 彼の慰撫
+		Tooltip:
+			'''
+			[c/baf27d:大地]の側面になる
+			周囲の負傷した味方をゆっくり回復
+			大ダメージを受けると回復爆発を放つ
+			'''
+	}
+
+	OverloadingAspect: {
+		DisplayName: 二撃の間の静寂
+		Tooltip:
+			'''
+			[c/7dd9f2:雷]の側面になる
+			ライフの半分が再生するシールドに置き換わる
+			命中時に敵へ雷の爆弾を付着させ 短時間後に爆発
+			'''
+	}
+
+	TrollAspect: {
+		DisplayName: 黄金の盟約
+		Tooltip:
+			'''
+			[c/cfff53:幸運]の側面になる
+			もう少し…うーん…裕福になってから出直してきて
+			'''
+	}
+
+	ArmorPiercingRounds: {
+		DisplayName: 対装甲弾
+		Tooltip: ボスに対するダメージが10%増加
+	}
+
+	BackupMagazine: {
+		DisplayName: バックアップマガジン
+		Tooltip: 10%の確率で弾薬を消費しない
+		KeybindTooltip: "{Keybind} で弾薬種を切り替えられる"
+	}
+
+	BundleOfFireworks: {
+		DisplayName: 打ち上げ花火の束
+		Tooltip: 敵を倒すと追尾花火を放つ
+	}
+
+	BustlingFungus: {
+		DisplayName: 繁茂する菌糸
+		Tooltip: 立ち止まっている間 周囲の味方を回復
+	}
+
+	CautiousSlug: {
+		DisplayName: 用心深いナメクジ
+		Tooltip: 戦闘外はライフ自然回復が上昇
+	}
+
+	Crowbar: {
+		DisplayName: バール
+		Tooltip: ライフが90%を超える敵へのダメージが25%増加
+	}
+
+	DelicateWatch: {
+		DisplayName: 精巧な時計
+		Tooltip: ライフが50%以上のとき与ダメージが10%増加
+	}
+
+	FocusCrystal: {
+		DisplayName: 集束水晶
+		Tooltip: 近くの敵が受けるダメージが25%増加
+	}
+
+	Gasoline: {
+		DisplayName: ガソリン
+		Tooltip: 敵を倒すと周囲の敵を炎上させる
+	}
+
+	LensMakersGlasses: {
+		DisplayName: レンズ工の眼鏡
+		Tooltip: クリティカル率が10%上昇
+	}
+
+	Medkit: {
+		DisplayName: 救急キット
+		Tooltip:
+			'''
+			ダメージを受けた後 遅延回復を得る
+			最大ライフの5%に加えて10回復
+			'''
+	}
+
+	MonsterTooth: {
+		DisplayName: 魔物の牙
+		Tooltip:
+			'''
+			敵は死亡時に回復オーブを落とす
+			最大ライフの2%に加えて8回復
+			'''
+	}
+
+	OddlyShapedOpal: {
+		DisplayName: 奇妙な形のオパール
+		Tooltip:
+			'''
+			防御力+50
+			ダメージを受けると7秒間 この防御力は無効化
+			'''
+	}
+
+	PaulsGoatHoof: {
+		DisplayName: ポールのヤギ蹄
+		Tooltip: 水平および垂直の移動速度が上昇
+	}
+
+	PersonalShieldGenerator: {
+		DisplayName: 個人用シールド発生器
+		Tooltip:
+			'''
+			最大ライフの12%に等しいシールドを得る
+			5秒間ダメージを受けないとこのシールドは再充電される
+			'''
+	}
+
+	RepulsionArmorPlate: {
+		DisplayName: 反発装甲板
+		Tooltip: デバフによるダメージを5減少
+	}
+
+	RollOfPennies: {
+		DisplayName: ペニーの束
+		Tooltip: 被弾時に所持金を得る
+	}
+
+	SoldiersSyringe: {
+		DisplayName: 兵士の注射器
+		Tooltip: 攻撃速度が10%上昇
+	}
+
+	StickyExplosives: {
+		DisplayName: 粘着爆弾
+		Tooltip: 命中時10%の確率で粘着爆弾を付与
+	}
+
+	StunGrenade: {
+		DisplayName: スタングレネード
+		Tooltip: 命中時10%の確率で防御低下の煙で敵を包む
+	}
+
+	TopazBrooch: {
+		DisplayName: トパーズブローチ
+		Tooltip: 敵を倒すと一時的にライフ15のバリアを得る
+	}
+
+	TougherTimes: {
+		DisplayName: タフな時代
+		Tooltip: 攻撃を回避する確率が10%
+	}
+
+	TriTipDagger: {
+		DisplayName: トリップダガー
+		Tooltip: 敵に出血を付与する確率が10%
+	}
+
+	Warbanner: {
+		DisplayName: ウォーバナー
+		Tooltip: 2分ごとに攻撃と移動速度を上げるウォーバナーを設置
+	}
+
+	AtGMissileMk1: {
+		DisplayName: AtGミサイル Mk1
+		Tooltip: 命中時10%の確率でミサイルを発射
+	}
+
+	Bandolier: {
+		DisplayName: 弾帯
+		Tooltip:
+			'''
+			倒した敵が20%の確率で弾薬箱を落とす
+			弾薬箱は一時的に弾薬消費を100%軽減
+			弾薬消費を10%軽減
+			'''
+	}
+
+	BerzerkersPauldron: {
+		DisplayName: 狂戦士の肩当て
+		Tooltip:
+			'''
+			短時間に敵を4体倒すと狂乱状態になる
+			この間 移動速度と攻撃速度が大きく上昇
+			'''
+	}
+
+	Chronobauble: {
+		DisplayName: クロノバウブル
+		Tooltip: ダメージを与えると対象を6秒間スロー
+	}
+
+	DeathMark: {
+		DisplayName: 死の刻印
+		Tooltip: デバフが4つ以上の敵は被ダメージが10%増加
+	}
+
+	FuelCell: {
+		DisplayName: 燃料電池
+		Tooltip:
+			'''
+			デバフ持続時間が15%短縮
+			バフ持続時間が15%延長
+			'''
+	}
+
+	GhorsTome: {
+		DisplayName: ゴアの書
+		Tooltip:
+			'''
+			倒した敵が10%の確率で金塊を落とす
+			金塊はお金を得る
+			'''
+	}
+
+	HarvestersScythe: {
+		DisplayName: 収穫者の大鎌
+		Tooltip: クリティカル時にライフを12回復
+	}
+
+	HopooFeather: {
+		DisplayName: ホプーフェザー
+		Tooltip:
+			'''
+			落下ダメージを無効化
+			ジャンプの高さと速度が上昇
+			ダブルジャンプを1回追加
+			'''
+	}
+
+	HuntersHarpoon: {
+		DisplayName: 狩人のハープーン
+		Tooltip: 敵を倒すと短時間移動速度が上昇
+	}
+
+	IgnitionTank: {
+		DisplayName: 点火タンク
+		Tooltip: 敵に炎上を付与すると代わりに呪われた炎を付与
+	}
+
+	Infusion: {
+		DisplayName: 注入
+		Tooltip: 敵を倒すと最大ライフが徐々に増加 最大+50
+	}
+
+	KjarosBand: {
+		DisplayName: キャロの指輪
+		Tooltip:
+			'''
+			命中時8%の確率で炎の竜巻を呼ぶ
+			この効果は10秒のクールダウンを持つ
+			ルナルドの指輪と同時に発動
+			'''
+	}
+
+	LeechingSeed: {
+		DisplayName: 吸血の種
+		Tooltip: ダメージを与えると回復
+	}
+
+	LeptonDaisy: {
+		DisplayName: レプトンデイジー
+		Tooltip: ボス戦と侵攻中に一定間隔で全プレイヤーのライフを最大の20%回復
+	}
+
+	OldWarStealthkit: {
+		DisplayName: 旧式ステルスキット
+		Tooltip:
+			'''
+			ライフが25%未満で不可視になり 移動速度が上昇
+			クールダウン30秒
+			'''
+	}
+
+	PredatoryInstincts: {
+		DisplayName: 狩猟本能
+		Tooltip:
+			'''
+			クリティカル率が5%上昇
+			クリティカル時に短時間 攻撃速度が上昇
+			'''
+	}
+
+	Razorwire: {
+		DisplayName: 有刺鉄線
+		Tooltip: 被弾時 追尾カミソリを発射 現在の武器ダメージの160%を与える
+	}
+
+	RedWhip: {
+		DisplayName: 赤い鞭
+		Tooltip: 戦闘外の移動速度が上昇
+	}
+
+	ReloadingShurikens: {
+		DisplayName: 補充式手裏剣
+		Tooltip:
+			'''
+			攻撃と同時に敵へ手裏剣を放つ
+			手裏剣は時間経過で再装填される
+			'''
+	}
+
+	RoseBuckler: {
+		DisplayName: ローズバックラー
+		Tooltip:
+			'''
+			ダッシュ中は防御力+30
+			ダッシュはブーツ系アクセの走行速度上昇と同義
+			'''
+	}
+
+	RunaldsBand: {
+		DisplayName: ルナルドの指輪
+		Tooltip:
+			'''
+			命中時8%の確率で氷爆発を起こし 敵を凍結
+			この効果は10秒のクールダウンを持つ
+			キャロの指輪と同時に発動
+			'''
+	}
+
+	Ukulele: {
+		DisplayName: ウクレレ
+		Tooltip:
+			'''
+			被弾した敵から近くの敵へ稲妻が連鎖することがある
+			この稲妻は命中時効果を発動できる
+			「…彼の音楽は電撃的だった」
+			'''
+	}
+
+	WarHorn: {
+		DisplayName: 軍角
+		Tooltip: 初回命中時 1秒間 攻撃速度が70%上昇
+	}
+
+	WaxQuail: {
+		DisplayName: ワックスクェイル
+		Tooltip:
+			'''
+			ダッシュ中にジャンプで水平方向の速度が上昇
+			ダッシュはブーツ系アクセの走行速度上昇と同義
+			'''
+	}
+
+	WillOTheWisp: {
+		DisplayName: ウィルオウィスプ
+		Tooltip: 敵は死亡時に爆発
+	}
+
+	Aegis: {
+		DisplayName: イージス
+		Tooltip:
+			'''
+			あらゆる回復の半分がバリアとして加算
+			バリアの最後の10%は自然減衰しない
+			'''
+	}
+
+	BrilliantBehemoth: {
+		DisplayName: 輝ける巨獣
+		Tooltip: あらゆる攻撃が爆発する
+	}
+
+	DiosBestFriend: {
+		DisplayName: ディオの親友
+		Tooltip:
+			'''
+			死を欺く
+			使用時 10分のクールダウンを受ける
+			「長生きしてね――私も寂しがりだから」
+			'''
+	}
+
+	SacrificialDagger: {
+		DisplayName: 儀式の短剣
+		Tooltip:
+			'''
+			敵を倒すと幽鬼の短剣が3本解き放たれる
+			短剣は他の敵を追尾し 怒りが収まると地に沈む
+			'''
+	}
+
+	ShatteringJustice: {
+		DisplayName: 砕ける正義
+		Tooltip: 連続で攻撃を当てると敵の防御が低下
+	}
+
+	Shatterspleen: {
+		DisplayName: 破裂する脾臓
+		Tooltip:
+			'''
+			クリティカル率が5%上昇
+			すべてのクリティカルは敵に出血を付与
+			出血中に死亡した敵は血の爆発を起こす
+			'''
+	}
+
+	Honor: {
+		DisplayName: アーティファクト・オブ・オナー
+		Tooltip: エリートの出現率を大幅に上昇
+	}
+
+	Death: {
+		DisplayName: アーティファクト・オブ・デス
+		Tooltip: 誰か一人が死ぬと全員が死亡
+	}
+
+	Chaos: {
+		DisplayName: アーティファクト・オブ・カオス
+		Tooltip: プレイヤーとモンスター双方でフレンドリーファイア有効
+	}
+
+	Dissonance: {
+		DisplayName: アーティファクト・オブ・ディソナンス
+		Tooltip: モンスターが通常環境外にも出現
+	}
+
+	Enigma: {
+		DisplayName: アーティファクト・オブ・エニグマ
+		Tooltip: ホットバーが3秒ごとにシャッフル
+	}
+
+	Glass: {
+		DisplayName: アーティファクト・オブ・グラス
+		Tooltip: 与ダメージ500% ライフ10%
+	}
+
+	Soul: {
+		DisplayName: アーティファクト・オブ・ソウル
+		Tooltip: 敵が倒れたモンスターから出現
+	}
+
+	Spite: {
+		DisplayName: アーティファクト・オブ・スパイト
+		Tooltip: モンスターは死亡時に複数のグレネードを放出
+	}
+
+	WeakAssKnees: {
+		DisplayName: アーティファクト・オブ・フレイルティ
+		Tooltip: 落下ダメージが2倍 落下耐性アクセが弱体化
+	}
+
+	BisonSteak: {
+		DisplayName: バイソンステーキ
+		Tooltip: 全ステータスが大きく強化
+	}
+
+	PowerElixir: {
+		DisplayName: 力のエリクサー
+		Tooltip:
+			'''
+			ライフ50%未満で被弾時に自動消費
+			ポーション病の時間が25%増加
+			'''
+	}
+
+	RustedKey: {
+		DisplayName: さびた鍵
+		Tooltip: 施錠されたさびた小箱を1つ開く
+	}
+
+	LargeChest: {
+		DisplayName: 大型チェスト
+		Tooltip: ""
+	}
+
+	RustyLockbox: {
+		DisplayName: さびた小箱
+		Tooltip: ""
+	}
+
+	SecurityChest: {
+		DisplayName: セキュリティチェスト
+		Tooltip: ""
+	}
+
+	EliteSpawner: {
+		DisplayName: エリートスポーナー
+		Tooltip:
+			'''
+			開発者ツール
+			敵をクリックでエリート化
+			右クリックで対象エリートを切り替え
+			'''
+	}
+
+	ICBM: {
+		DisplayName: ICBM
+		Tooltip: ミサイル ロケット 花火が3倍になり追加ダメージ
+	}
+
+	LazerScope: {
+		DisplayName: レーザースコープ
+		Tooltip: クリティカルダメージが100%増加
+	}
+
+	Clover: {
+		DisplayName: 57枚葉のクローバー
+		Tooltip:
+			'''
+			確率発動系効果の発生率が上昇
+			運が上昇
+			'''
+	}
+
+	OldGuillotine: {
+		DisplayName: 古いギロチン
+		Tooltip: ライフ13%未満のエリートを処刑
+	}
+
+	WakeOfVultures: {
+		DisplayName: ハゲタカの覇道
+		Tooltip: エリート撃破でその能力を15秒得る
+	}
+
+	SentientMeatHook: {
+		DisplayName: 意志ある肉鉤
+		Tooltip: 命中時に敵を引っかけることがある
+	}
+
+	SymbioticScorpion: {
+		DisplayName: 共生サソリ
+		Tooltip: 命中時 敵の防御力を永続で低下
+	}
+
+	NkuhanasOpinion: {
+		DisplayName: ヌクハナの見解
+		Tooltip: 回復中に追尾する髑髏を放つ 回復するほど強化
+	}
+
+	HappiestMask: {
+		DisplayName: 至福の仮面
+		Tooltip: 倒した敵を7%の確率で幽霊に変える
+	}
+
+	Headset: {
+		DisplayName: H3AD-5T v2
+		Tooltip: ""
+		KeybindTooltip:
+			'''
+			{Keybind} でストンプ 距離に応じて下の敵にダメージ
+			ジャンプの高さと速度が上昇 落下ダメージ無効
+			ストンプとジャンプ強化は10秒のクールダウンを共有
+			'''
+	}
+
+	SoulboundCatalyst: {
+		DisplayName: ソウルバウンド触媒
+		Tooltip:
+			'''
+			倒れた敵の魂を収穫
+			被弾時 魂が解き放たれ 他の敵を追う
+			'''
+	}
+
+	BensRaincoat: {
+		DisplayName: ベンのレインコート
+		Tooltip:
+			'''
+			デバフを受けるとそれを解除し ライフ50のバリアを付与
+			この効果は20秒のクールダウン
+			'''
+	}
+
+	BottledChaos: {
+		DisplayName: 瓶詰めの混沌
+		Tooltip:
+			'''
+			ポーションを飲むと10秒間 別のランダムなバフを得る
+			元のポーションで得られるバフを既に持つ場合は発動しない
+			'''
+	}
+
+	AlienHead: {
+		DisplayName: エイリアンヘッド
+		Tooltip: 攻撃速度が15%上昇
+	}
+
+	Brainstalks: {
+		DisplayName: ブレインストークス
+		Tooltip: エリート撃破後 10秒間 攻撃速度が70%上昇
+	}
+
+	RejuvenationRack: {
+		DisplayName: 若返りラック
+		Tooltip: 回復を得るたび その量が2倍
+	}
+
+	InterstellarDeskPlant: {
+		DisplayName: 星間デスク植物
+		Tooltip:
+			'''
+			敵を倒すと回復植物を生成
+			同時に存在できるのは最大3本
+			'''
+	}
+
+	ResonanceDisc: {
+		DisplayName: レゾナンスディスク
+		Tooltip:
+			'''
+			敵を倒すたびに充電されるディスクを得る
+			チャージは時間経過で減衰
+			6チャージに達するとディスクが飛び出し 敵間を跳ね回り キルで爆発
+			'''
+	}
+
+	FrostRelic: {
+		DisplayName: 霜の秘宝
+		Tooltip: 敵を倒すと自分の周囲を8秒周回する攻撃的な氷柱を3本召喚
+	}
+
+	ArtificerBody: {
+		DisplayName: ENVスーツ
+		Tooltip:
+			'''
+			最大マナ+30
+			ジャンプボタン押しっぱなしでゆっくり降下
+			'''
+	}
+
+	ArtificerHead: {
+		DisplayName: ENVバイザー
+		Tooltip:
+			'''
+			最大マナ+30
+			魔法ダメージが7%増加
+			魔法クリティカル率が13%上昇
+			'''
+	}
+
+	ArtificerLegs: {
+		DisplayName: ENVブーツ
+		Tooltip:
+			'''
+			最大マナ+30
+			落下ダメージ無効
+			'''
+		KeybindTooltip: "{Keybind} で空へ飛び上がり 周囲の敵にダメージ"
+	}
+
+	ArtificerBoltWeapon: {
+		DisplayName: ENVガントレット
+		Tooltip:
+			'''
+			右クリックで切り替え可能な3モードを持つ
+			第1モード: 敵を炎上させる火球を発射
+			第2モード: 範囲で爆発するプラズマ弾を発射
+			第3モード: 貫通して凍結させる氷槍を発射
+			移動でチャージを溜め 満充電で右クリックすると必殺を解放
+			'''
+	}
+
+	CommandoGunWeapon: {
+		DisplayName: ダブルタップ
+		Tooltip:
+			'''
+			射撃中に右クリックでフェーズ弾を発射
+			この弾は敵を貫通し 貫通数に応じてダメージ上昇
+			'''
+	}
+
+	CommandoGrenadeWeapon: {
+		DisplayName: 破片手榴弾
+		Tooltip: 5秒のクールダウンで爆発する手榴弾を投げる
+	}
+
+	UnstableTeslaCoil: {
+		DisplayName: 不安定なテスラコイル
+		Tooltip: 2秒ごとに周囲の全ての敵に感電
+	}
+
+	HardlightAfterburner: {
+		DisplayName: ハードライト・アフターバーナー
+		Tooltip:
+			'''
+			ダッシュを最大3回まで保持可能
+			ダッシュのクールダウンは10秒
+			'''
+		KeybindTooltip: "{Keybind} でマウス方向へダッシュ"
+	}
+
+	EngineerTurretSpawner: {
+		DisplayName: エンジニア・タレットスポーナー【WIP】
+		Tooltip: ""
+	}
+
+	MinerPickaxeWeapon: {
+		DisplayName: 採掘者のピッケル武器
+		Tooltip: ""
+	}
+
+	MinerBody: {
+		DisplayName: 採掘者の外骨格
+		Tooltip:
+			'''
+			攻撃速度が5%上昇
+			近接クリティカル率が7%上昇
+			'''
+	}
+
+	MinerHead: {
+		DisplayName: 採掘者のフード
+		Tooltip:
+			'''
+			攻撃速度が5%上昇
+			近接ダメージが15%増加
+			'''
+	}
+
+	MinerLegs: {
+		DisplayName: 採掘者のブーツ
+		Tooltip:
+			'''
+			攻撃速度が5%上昇
+			ダッシュ可能
+			'''
+	}
+
+	WeepingFungus: {
+		DisplayName: 泣き虫キノコ
+		Tooltip:
+			'''
+			ダッシュ中 毎秒 ライフの2%を回復
+			ダッシュはブーツ系アクセの走行速度上昇と同義
+			'''
+	}
+
+	CommandoBody: {
+		DisplayName: コマンドー・ボディ
+		Tooltip: 弾薬節約確率5%
+	}
+
+	CommandoHead: {
+		DisplayName: コマンドー・ヘッド
+		Tooltip: 遠隔クリティカル率+5%
+	}
+
+	CommandoLegs: {
+		DisplayName: コマンドー・レッグ
+		Tooltip: 遠隔ダメージ+1
+	}
+}
+
+SetBonuses: {
+	ArtificerSet: 消費マナが10%減少
+	CommandoSetKeybind: セットボーナス: {Keybind} でドッジロール
+	MinerSet:
+		'''
+		ブロック破壊と戦闘で燃料が蓄積
+		燃料が多いほど攻撃が炎上かつ爆発的になる
+		'''
+}
+
+Announcements: {
+	ChaosPVP: もはや所属チームを自分で選べない
+	ArtifactEnabled: "{1}が{0}を有効化！"
+	ArtifactDisabled: "{1}が{0}を無効化！"
+}
+
+DeathReason: {
+	DeathArtifact: "{0}が起動したアーティファクト・オブ・デスにより{1}は倒れた"
+}
+
+BossDesc: {
+	EyeofCthulhu: 夜の恐怖
+	EaterofWorlds: 邪悪の落胤
+	BrainofCthulhu: 深紅の首謀者
+	KingSlime: 粘体の覇者
+	Skeletron: 呪われた暴君
+	QueenBee: 巣の女家長
+	WallOfFlesh: 世界の中核
+	MechanicalBoss: 機械の疑似体
+	Plantera: ジャングルの憤怒
+	Golem: リザード建造体
+	LunaticCultist: 破滅の先触れ
+	MoonLord: 終焉
+	EmpressOfLight: プリズムの神性
+	QueenSlime: 上位権威
+	CollabEvent: 異界の怪物
+	DukeFishron: 海の変異の恐怖
+	Deerclops: 冬の異形
+	MartianSaucer: エイリアンの戦艦
+	Pillars: 星界の枷
+}
+
+Configuration: {
+	ScreenShake: 画面揺れの強さ
+	ScreenShakeTooltip: 画面揺れ効果の強さを設定
+	EnemyHB: 敵ライフバー
+	EnemyHBTooltip:
+		'''
+		通常のライフバーの表示状態を設定
+		ボス用ライフバーとは別物で 負傷時にNPCの下に描画されるバー
+		'''
+	NPCDrawBuff: デバフ表示
+	NPCDrawBuffTooltip: NPCの頭上にデバフを表示するか
+	NPCDrawBuff_All: > すべてのバフを表示
+	NPCDrawBuff_AllTooltip: 特別なUIテクスチャを持たないバフは描画されない
+	PlayerHealthbarOverlay: プレイヤーライフバーのオーバーレイ
+	PlayerHealthbarOverlayTooltip: プレイヤーライフバーのオーバーレイを有効にするか 別ModでUI変更時は無効推奨
+	BossHealthbarActive: ボスライフバー状態
+	BossHealthbarActiveTooltip:
+		'''
+		ボスライフバーの表示状態を設定
+		'Enabled_AlwaysUse' は専用ライフバーがあっても常に使用を強制
+		'''
+	BossHealthbarBottom: ボスライフバー: 画面下に配置
+	BossHealthbarBottomTooltip: ライフバーを画面上部ではなく下部に配置
+	BlazingElitesDisable: 焔エリートを無効化
+	BlazingElitesDisableTooltip: 焔エリートは出現しなくなる
+	CelestineElitesDisable: 幽体エリートを無効化
+	CelestineElitesDisableTooltip: 幽体エリートは出現しなくなる
+	GlacialElitesDisable: 氷結エリートを無効化
+	GlacialElitesDisableTooltip: 氷結エリートは出現しなくなる
+	MendingElitesDisable: 大地エリートを無効化
+	MendingElitesDisableTooltip: 大地エリートは出現しなくなる
+	OverloadingElitesDisable: 雷撃エリートを無効化
+	OverloadingElitesDisableTooltip: 雷撃エリートは出現しなくなる
+}
+
+BlazingElite: 焔
+
+CelestineElite: 幽体
+
+GhostElite: 亡霊
+
+GlacialElite: 氷結
+
+MalachiteElite: マラカイト
+
+MendingElite: 大地
+
+OverloadingElite: 雷撃
+
+PerfectedElite: 完璧
+
+TrollElite: 黄金
+
+VoidtouchedElite: 虚触
+
+UnboundKey: 未割り当てキー
+
+Revived: 復活！
+
+Blocked: 防がれた！
+
+Keybinds: {
+	"Backup Magazine Swap": {
+		DisplayName: バックアップマガジン切替
+	}
+
+	"H3AD-5T Keybind": {
+		DisplayName: H3AD-5T v2 ストンプ
+	}
+
+	"Armor Effect Key": {
+		DisplayName: 防具効果キー
+	}
+
+	"Hardlight Afterburner Dash Key": {
+		DisplayName: ハードライト・ダッシュ
+	}
+}
+
+Buffs: {
+	BandolierBuff: {
+		DisplayName: 弾薬再補給
+		Description: 弾薬消費が100%軽減
+	}
+
+	BerzerkerBuff: {
+		DisplayName: 狂乱
+		Description: 移動速度と攻撃速度が上昇
+	}
+
+	BustlingFungusBuff: {
+		DisplayName: 菌糸活動
+		Description: 自然回復が増進
+	}
+
+	CelestineInvis: {
+		DisplayName: 幽体
+		Description: 光に馴染まない存在になる
+	}
+
+	CelestineSlow: {
+		DisplayName: 不活性
+		Description: 包む影が歩みを鈍らせる
+	}
+
+	BleedingDebuff: {
+		DisplayName: 出血
+		Description: 生命が皮膚から滲み出ている
+	}
+
+	ChronobaubleDebuff: {
+		DisplayName: スロー
+		Description: 時の手が容赦なく絡みつく
+	}
+
+	DeathMarkDebuff: {
+		DisplayName: 死の刻印
+		Description: 邪悪な力が敗北を早め 傷を深める
+	}
+
+	DiosCooldown: {
+		DisplayName: 予備命のクールダウン中
+		Description: クールダウンが終わるまで復活アイテムは発動しない
+	}
+
+	RunaldFreeze: {
+		DisplayName: ルーン凍結
+		Description: 凍てつく氷に縛られている
+	}
+
+	ShatteredDebuff: {
+		DisplayName: 粉砕
+		Description: 鎧が砕け 防御が低下
+	}
+
+	StunGrenadeDebuff: {
+		DisplayName: 眩暈
+		Description: 平衡を失い 攻撃に脆くなる
+	}
+
+	HuntersHarpoonBuff: {
+		DisplayName: 狩りの最中
+		Description: アドレナリンで速度が上昇
+	}
+
+	MedkitBuff: {
+		DisplayName: 遅延回復
+		Description: このデバフ終了時にライフを回復
+	}
+
+	PredatoryInstinctsBuff: {
+		DisplayName: 研ぎ澄まされた本能
+		Description: 研ぎ澄まされた本能が集中と速度をもたらす
+	}
+
+	ShurikenBuff: {
+		DisplayName: 手裏剣
+		Description: 次の攻撃時にこの武器が発射される
+	}
+
+	WarbannerBuff: {
+		DisplayName: 参戦準備完了
+		Description: 士気高揚で攻撃速度と移動速度が上昇
+	}
+
+	WarHornBuff: {
+		DisplayName: 参戦準備完了
+		Description: 士気高揚で攻撃速度が上昇
+	}
+
+	BlazingWOV: {
+		DisplayName: 焔
+		Description: "[c/fa3924:焔エリート]の力を得る"
+	}
+
+	CelestineWOV: {
+		DisplayName: 幽体
+		Description: "[c/649791:幽体エリート]の力を得る"
+	}
+
+	GlacialWOV: {
+		DisplayName: 氷結
+		Description: "[c/5e7e8f:氷結エリート]の力を得る"
+	}
+
+	MendingWOV: {
+		DisplayName: 大地
+		Description: "[c/baf27d:大地エリート]の力を得る"
+	}
+
+	OverloadingWOV: {
+		DisplayName: 雷撃
+		Description: "[c/7dd9f2:雷撃エリート]の力を得る"
+	}
+
+	BensRaincoatBuff: {
+		DisplayName: ベンのレインコート クールダウン中
+		Description: デバフ無効化がクールダウン中
+	}
+
+	BrainstalksBuff: {
+		DisplayName: 花咲く茎
+		Description: 攻撃速度が70%上昇
+	}
+
+	GlacialSlow: {
+		DisplayName: 冷気
+		Description: 氷の抱擁が歩みを鈍らせる
+	}
+
+	StunDebuff: {
+		DisplayName: スタン
+		Description: 動けなくなり被弾しやすくなる
+	}
+
+	ArtiFreeze: {
+		DisplayName: アルティ・フリーズ
+		Description: 極低温で凍結しかけている
+	}
+
+	AfterburnerBuff: {
+		DisplayName: アフターバーナー
+		Description: ダッシュ回数が増加
+	}
+
+	ArmorEffectCooldown: {
+		DisplayName: 防具効果のクールダウン中
+		Description: 防具セットの特殊能力は一時的に無効
+	}
+}
+
+Projectiles: {
+	EliteSpawningProj: {
+		DisplayName: エリートスポーン弾
+	}
+
+	AtGMissileExplosion: {
+		DisplayName: AtGミサイル爆発
+	}
+
+	AtGMissileProj: {
+		DisplayName: AtGミサイル弾
+	}
+
+	BandolierProj: {
+		DisplayName: 弾帯弾
+	}
+
+	BehemothExplosion: {
+		DisplayName: 巨獣爆発
+	}
+
+	BustlingFungusProj: {
+		DisplayName: 菌糸弾
+	}
+
+	CelestineProj: {
+		DisplayName: 幽体弾
+	}
+
+	DeathMarkProj: {
+		DisplayName: 死の刻印弾
+	}
+
+	DioRevive: {
+		DisplayName: ディオ復活
+	}
+
+	FireworksProj: {
+		DisplayName: 花火弾
+	}
+
+	FireworksSpawner: {
+		DisplayName: 花火スポナー
+	}
+
+	FocusCrystalProj: {
+		DisplayName: 集束水晶弾
+	}
+
+	GasolineProj: {
+		DisplayName: ガソリン弾
+	}
+
+	GhorsTomeProj: {
+		DisplayName: ゴアの書弾
+	}
+
+	MonsterToothProj: {
+		DisplayName: 魔物の牙弾
+	}
+
+	OverloadingBomb: {
+		DisplayName: 雷撃爆弾
+	}
+
+	RazorwireProj: {
+		DisplayName: 有刺鉄線弾
+	}
+
+	ReloadingShurikenProj: {
+		DisplayName: 補充式手裏剣弾
+	}
+
+	RunaldsBandExplosion: {
+		DisplayName: ルナルドの爆発
+	}
+
+	RunaldsBandShard: {
+		DisplayName: ルナルドの欠片
+	}
+
+	SacrificialProj: {
+		DisplayName: 供犠弾
+	}
+
+	ShatterspleenExplosion: {
+		DisplayName: 破裂の爆発
+	}
+
+	StickyExplosivesExplosion: {
+		DisplayName: 粘着爆弾の爆発
+	}
+
+	StickyExplosivesProj: {
+		DisplayName: 粘着爆弾弾
+	}
+
+	StunGrenadeProj: {
+		DisplayName: スタングレネード弾
+	}
+
+	WarbannerProj: {
+		DisplayName: ウォーバナー弾
+	}
+
+	WilloExplosion: {
+		DisplayName: ウィロー爆発
+	}
+
+	ProjectileName: {
+		ShatterspleenExplosion: 破裂する脾臓
+	}
+
+	KjarosBandTornado: {
+		DisplayName: キャロの竜巻
+	}
+
+	OnHitEffect: {
+		DisplayName: 命中時効果
+	}
+
+	MeatHookProjVanity: {
+		DisplayName: 肉鉤（演出）
+	}
+
+	NkuhanaSkull: {
+		DisplayName: ヌクハナの髑髏
+	}
+
+	HeadsetSmash: {
+		DisplayName: ヘッドセット・スマッシュ
+	}
+
+	BoundSoul: {
+		DisplayName: 縛られた魂
+	}
+
+	BottledChaosIndicator: {
+		DisplayName: 混沌瓶の指標
+	}
+
+	MendingMender: {
+		DisplayName: 回復の癒し手
+	}
+
+	MendingBomb: {
+		DisplayName: 回復爆弾
+	}
+
+	MendingAspectMender: {
+		DisplayName: 大地の側面の癒し手
+	}
+
+	IDPPlant: {
+		DisplayName: 回復植物
+	}
+
+	GlacialBomb: {
+		DisplayName: 氷結爆弾
+	}
+
+	ResonanceDiscProj: {
+		DisplayName: レゾナンスディスク弾
+	}
+
+	FrostRelicIcicle: {
+		DisplayName: 霜の秘宝の氷柱
+	}
+
+	PlasmaBolt: {
+		DisplayName: プラズマボルト
+	}
+
+	PlasmaBoltImpact: {
+		DisplayName: プラズマ着弾
+	}
+
+	FireBolt: {
+		DisplayName: ファイアボルト
+	}
+
+	ArtificerBarDrawingProj: {
+		DisplayName: アーティフィサーゲージ描画
+	}
+
+	ProjOwnedBustlingFungusProj: {
+		DisplayName: 所有者付き菌糸弾
+	}
+
+	IonSurgeVisual: {
+		DisplayName: イオンサージ演出
+	}
+
+	FireworkBlast: {
+		DisplayName: 花火爆発
+	}
+
+	Nanobomb: {
+		DisplayName: ナノボム
+	}
+
+	DoubleTapPierce: {
+		DisplayName: ダブルタップ貫通
+	}
+
+	GrenadeExplosion: {
+		DisplayName: 手榴弾爆発
+	}
+
+	GrenadeProj: {
+		DisplayName: 手榴弾
+	}
+
+	IceWall: {
+		DisplayName: 氷の壁
+	}
+
+	IceWallSpawner: {
+		DisplayName: 氷壁スポナー
+	}
+
+	IceSpear: {
+		DisplayName: 氷槍
+	}
+
+	ElementIcon: {
+		DisplayName: 属性アイコン
+	}
+
+	MeatHookProjDamaging: {
+		DisplayName: 肉鉤（攻撃）
+	}
+
+	EngineerTurret: {
+		DisplayName: エンジニア・タレット
+	}
+
+	EngineerTurretBullet: {
+		DisplayName: エンジニア・タレット弾
+	}
+
+	FuelProj: {
+		DisplayName: 燃料弾
+	}
+
+	LightningEffectProj: {
+		DisplayName: 落雷演出
+	}
+}
+
+Tiles: {
+	LargeChestTile: {
+		MapEntry: 大型チェスト
+		MapEntry_Locked: 大型チェスト
+	}
+
+	SecurityChestTile: {
+		MapEntry: セキュリティチェスト
+		MapEntry_Locked: セキュリティチェスト
+	}
+
+	RustyLockboxTile: {
+		MapEntry: さびた小箱
+		MapEntry_Locked: さびた小箱
+	}
+}
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		ScreenShake: {
+			Label: 画面揺れの強さ
+			Tooltip: 画面揺れ効果の強さを設定
+		}
+
+		BossHealthbarActive: {
+			Label: ボスライフバー状態
+			Tooltip:
+				'''
+				ボスライフバーの表示状態を設定
+				'Enabled_AlwaysUse' は専用ライフバーがあっても常に使用を強制
+				'''
+		}
+
+		BossHealthbarBottom: {
+			Label: ボスライフバー: 画面下に配置
+			Tooltip: ライフバーを画面上部ではなく下部に配置
+		}
+
+		EnemyHBState: {
+			Label: 敵ライフバー
+			Tooltip:
+				'''
+				通常のライフバーの表示状態を設定
+				ボス用ライフバーとは別物で 負傷時にNPCの下に描画されるバー
+				'''
+		}
+
+		NPCDrawBuff: {
+			Label: デバフ表示
+			Tooltip: NPCの頭上にデバフを表示するか
+		}
+
+		NPCDrawBuff_All: {
+			Label: > すべてのバフを表示
+			Tooltip: 特別なUIテクスチャを持たないバフは描画されない
+		}
+
+		PlayerHealthbarOverlay: {
+			Label: プレイヤーライフバーのオーバーレイ
+			Tooltip: プレイヤーライフバーのオーバーレイを有効にするか 別ModでUI変更時は無効推奨
+		}
+	}
+
+	State: {
+		Tooltip: ""
+
+		Disabled: {
+			Label: 無効
+		}
+
+		Enabled: {
+			Label: 有効
+		}
+
+		Enabled_AlwaysUse: {
+			Label: Enabled_AlwaysUse
+		}
+
+		Vanilla: {
+			Label: バニラ
+		}
+
+		RORTheme: {
+			Label: RORテーマ
+		}
+
+		MixedTheme: {
+			Label: 混合テーマ
+		}
+	}
+
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		BlazingElitesDisable: {
+			Label: 焔エリートを無効化
+			Tooltip: 焔エリートは出現しなくなる
+		}
+
+		CelestineElitesDisable: {
+			Label: 幽体エリートを無効化
+			Tooltip: 幽体エリートは出現しなくなる
+		}
+
+		GlacialElitesDisable: {
+			Label: 氷結エリートを無効化
+			Tooltip: 氷結エリートは出現しなくなる
+		}
+
+		MendingElitesDisable: {
+			Label: 大地エリートを無効化
+			Tooltip: 大地エリートは出現しなくなる
+		}
+
+		OverloadingElitesDisable: {
+			Label: 雷撃エリートを無効化
+			Tooltip: 雷撃エリートは出現しなくなる
+		}
+	}
+}
+
+NPCs: {
+	MalachiteUrchin: {
+		DisplayName: マラカイトウニ
+	}
+
+	CautiousSlugCritter: {
+		DisplayName: 用心深いナメクジ
+	}
+
+	Gup: {
+		DisplayName: ガップ
+		NameSize0: ガップ
+		NameSize1: ジープ
+		NameSize2: ギップ
+	}
+}
+
+Bestiary: {
+	MalachiteUrchin: ...
+	CautiousSlugCritter: 用心深いナメクジは洞窟に棲む隠遁的な小動物 捕食者から身を隠し 岩の小さな割れ目の巣から外に出ることは稀
+	Gup: ガップのゼラチン質の塊は実のところ単一の巨大細胞 その粘液は苺を思わせる甘い香りを放つが 摂取すると苦く嘔吐を催す
+}
+

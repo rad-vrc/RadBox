@@ -1,0 +1,88 @@
+{
+	Configs: {
+		Config: {
+			PossessedEnemyEndurance: {
+				Tooltip: "獲得する防御力"
+				Label: "憑依された敵の防御力"
+			}
+			PossessionTime: {
+				Tooltip: "秒単位"
+				Label: "敵の憑依時間"
+			}
+			PossessionChance: {
+				Tooltip: "X分の1"
+				Label: "敵の憑依確率"
+			}
+			HolyDoubleStrike: {
+				Tooltip: "X分の1"
+				Label: "ダブルストライクの確率"
+			}
+			ModMsg: {
+				Tooltip: ""
+				Label: "チャットメッセージ"
+			}
+			Headers: {
+				GhostlyGrip: "ゴーストリーグリップ ヘッダー"
+				SanctifiedGauntlet: "サンクティファイドガントレット ヘッダー"
+				ModSettings: "Mod設定 ヘッダー"
+			}
+			DisplayName: "設定"
+		}
+	}
+	Items: {
+		WoodenBracers: {
+			Tooltip: "'''\n鞭のダメージが4%増加\n「痛い！」\n'''"
+			DisplayName: "木の腕甲"
+		}
+		StellarGloves: {
+			Tooltip: "'''\n鞭の攻撃速度が8%上昇\n鞭の攻撃範囲が5%増加\nミニオンの攻撃が、鞭で攻撃された敵に星を降らせる\n'''"
+			DisplayName: "星のグローブ"
+		}
+		ObsidianGlove: {
+			Tooltip: "'''\n鞭のダメージが15%増加\n鞭の攻撃速度が14%上昇\n鞭の攻撃範囲が8%増加\n「間違いなくぴったりフィット」\n'''"
+			DisplayName: "黒曜石のグローブ"
+		}
+		LeatherGlove: {
+			Tooltip: "'''\n鞭の攻撃速度が4%上昇\n「指紋を残すなよ！」\n'''"
+			DisplayName: "レザーグローブ"
+		}
+		HolyGauntlet: {
+			Tooltip: "'''\n鞭の攻撃速度が25%上昇\n鞭の攻撃範囲が20%増加\n鞭が確率で2回攻撃する\n'''"
+			DisplayName: "神聖なガントレット"
+		}
+		GleamingGauntlets: {
+			Tooltip: "'''\n鞭の攻撃速度が20%上昇\n鞭の攻撃範囲が10%増加\n敵に鞭を当てるたびに、死亡時にドロップするお金が増加\n'''"
+			DisplayName: "きらめくガントレット"
+		}
+		GhostlyGrip: {
+			Tooltip: "'''\n鞭のダメージが10%減少\n鞭の攻撃速度が65%上昇\nまれに弱い敵に憑依する\n「霊魂との握手を保証」\n'''"
+			DisplayName: "ゴーストグリップ"
+		}
+		FortifiedKnockers: {
+			Tooltip: "'''\n鞭のダメージが10%増加\n「ダブルで痛い！」\n'''"
+			DisplayName: "強化ナックル"
+		}
+		DungeonGlove: {
+			Tooltip: "'''\n鞭のダメージが40%増加\n鞭の攻撃速度が25%減少\n「古く壊れているが、まだ効果的」\n'''"
+			DisplayName: "ダンジョングローブ"
+		}
+		CarapaceBattlegrips: {
+			Tooltip: "'''\n鞭のダメージが25%増加\n鞭の攻撃速度が18%上昇\n鞭の攻撃範囲が25%増加\n鞭で敵を攻撃すると防御力が+10される\n敵から受けたダメージを2倍にして反射する\n'''"
+			DisplayName: "甲殻のバトルグリップ"
+		}
+	}
+	Buffs: {
+		StarStruckBuff: {
+			Description: "鞭で攻撃された敵に星が降ってくる"
+			DisplayName: "スターストラック"
+		}
+		SpiritedSoulBuff: {
+			Description: "この敵は憑依されている"
+			DisplayName: "スピリットソウル"
+		}
+		Shelled: {
+			Description: "防御力が+10増加"
+			DisplayName: "シェル状態"
+		}
+	}
+}

@@ -1,0 +1,311 @@
+Keybinds: {
+	ToggleItemBorder: {
+		DisplayName: "アイテム枠の切り替え"
+	}
+}
+
+Configs: {
+	UICheckbox: {
+		Selected: {
+			Tooltip: ""
+			Label: 選択中
+		}
+
+		checkbox: {
+			Tooltip: ""
+			Label: チェックボックス
+		}
+
+		Tooltip: ""
+	}
+
+	CustomTableUI: {
+		rows: {
+			Tooltip: ""
+			Label: 行数
+		}
+
+		checkboxBorder: {
+			Label: チェックボックスの枠
+			Tooltip: ""
+		}
+
+		checkboxOutline: {
+			Label: チェックボックスのアウトライン
+			Tooltip: ""
+		}
+
+		Tooltip: カスタマイズ項目です。右側の列ヘッダーをクリックすると、その列の全項目が反転します。
+	}
+
+	TableRowConfig: {
+		KEY: {
+			Tooltip: ""
+			Label: キー
+		}
+
+		Outline: {
+			Tooltip: ""
+			Label: アウトライン
+		}
+
+		Border: {
+			Tooltip: ""
+			Label: 枠
+		}
+
+		Label: {
+			Tooltip: ""
+			Label: ラベル
+		}
+
+		Tooltip: ""
+	}
+
+	ItemBorderConfig: {
+		excludedItems: {
+			Tooltip: ""
+			Label: 除外アイテム
+		}
+
+		toggleHotkey: {
+			Label: 切り替えホットキー
+			Tooltip: ""
+		}
+
+		worldOpacity: {
+			Tooltip: ""
+			Label: ワールドの不透明度
+		}
+
+		worldWidth: {
+			Tooltip: ""
+			Label: ワールドの幅
+		}
+
+		worldBaseRarity: {
+			Tooltip: ""
+			Label: ワールドの基準レア度
+		}
+
+		useWorld: {
+			Tooltip: ""
+			Label: ワールド表示を使用
+		}
+
+		outlineOpacity: {
+			Tooltip: ""
+			Label: アウトラインの不透明度
+		}
+
+		outlineBaseRarity: {
+			Tooltip: ""
+			Label: アウトラインの基準レア度
+		}
+
+		borderBaseRarity: {
+			Tooltip: ""
+			Label: 枠の基準レア度
+		}
+
+		ConfigTable: {
+			Label: 設定テーブル
+			Tooltip: ""
+		}
+
+		useBaseRarity: {
+			Tooltip: ""
+			Label: 基準レア度を使用
+		}
+
+		useForMannequinDye: {
+			Tooltip: ""
+			Label: マネキンの染料スロットに適用
+		}
+
+		useForMannequinAccessory: {
+			Tooltip: ""
+			Label: マネキンのアクセサリースロットに適用
+		}
+
+		useForMannequinArmor: {
+			Tooltip: ""
+			Label: マネキンの防具スロットに適用
+		}
+
+		useForHatRackDye: {
+			Tooltip: ""
+			Label: 帽子掛けの染料スロットに適用
+		}
+
+		useForHatRack: {
+			Tooltip: ""
+			Label: 帽子掛けの帽子スロットに適用
+		}
+
+		useForBank: {
+			Tooltip: ""
+			Label: 銀行スロットに適用
+		}
+
+		useForLightPet: {
+			Tooltip: ""
+			Label: ライトペットスロットに適用
+		}
+
+		useForPet: {
+			Tooltip: ""
+			Label: ペットスロットに適用
+		}
+
+		useForMinecart: {
+			Tooltip: ""
+			Label: トロッコスロットに適用
+		}
+
+		useForMount: {
+			Tooltip: ""
+			Label: マウントスロットに適用
+		}
+
+		useForGrapple: {
+			Tooltip: ""
+			Label: フックショットスロットに適用
+		}
+
+		useForShop: {
+			Tooltip: ""
+			Label: ショップスロットに適用
+		}
+
+		useForDye: {
+			Tooltip: ""
+			Label: 染料スロットに適用
+		}
+
+		useForVanityAccessory: {
+			Tooltip: ""
+			Label: 見た目アクセサリースロットに適用
+		}
+
+		useForAccessory: {
+			Tooltip: ""
+			Label: アクセサリースロットに適用
+		}
+
+		useForVanityArmor: {
+			Tooltip: ""
+			Label: 見た目防具スロットに適用
+		}
+
+		useForArmor: {
+			Tooltip: ""
+			Label: 防具スロットに適用
+		}
+
+		useForTrash: {
+			Tooltip: ""
+			Label: ゴミ箱スロットに適用
+		}
+
+		useForCoin: {
+			Tooltip: ""
+			Label: コインスロットに適用
+		}
+
+		useForAmmo: {
+			Tooltip: ""
+			Label: 弾薬スロットに適用
+		}
+
+		useForInventory: {
+			Tooltip: ""
+			Label: インベントリスロットに適用
+		}
+
+		useForChests: {
+			Tooltip: ""
+			Label: チェストスロットに適用
+		}
+
+		useForHotbar: {
+			Tooltip: ""
+			Label: ホットバースロットに適用
+		}
+
+		outlineWidth: {
+			Tooltip: ""
+			Label: アウトラインの幅
+		}
+
+		useOutline: {
+			Tooltip: アイテムのアウトラインを使用します
+			Label: アウトラインを使用
+		}
+
+		customBorderType: {
+			Tooltip: ""
+			Label: カスタム枠
+		}
+
+		specialPickup: {
+			Tooltip: 初回入手時に特別な枠を表示するかを切り替えます
+			Label: 新規入手時に特別枠を表示
+		}
+
+		specialItems: {
+			Tooltip: アイテムに特別な印を付けるために使用します
+			Label: 特別アイテム
+		}
+
+		showMaterialBorder: {
+			Tooltip: ""
+			Label: 素材に適用
+		}
+
+		showWallBorder: {
+			Tooltip: ""
+			Label: 壁に適用
+		}
+
+		showTileBorder: {
+			Tooltip: ""
+			Label: タイルに適用
+		}
+
+		showPotionBorder: {
+			Tooltip: ""
+			Label: ポーションに適用
+		}
+
+		borderOpacity: {
+			Tooltip: ""
+			Label: 枠の不透明度 %
+		}
+
+		useBorder: {
+			Tooltip: 枠を使用します
+			Label: 枠を使用
+		}
+
+		borderType: {
+			Tooltip: ""
+			Label: 枠の種類
+		}
+
+		Headers: {
+			ItemToggle: アイテム切替
+			World: ワールド
+			Outline: アウトライン
+			Customization: カスタマイズ
+			Slot-options: スロット設定
+			Slot_options: スロット設定
+			Extra: 追加
+			Types: 種別
+			Border: 枠
+		}
+
+		DisplayName: アイテム枠の設定
+	}
+}
+

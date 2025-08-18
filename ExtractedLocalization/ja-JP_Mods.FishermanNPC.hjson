@@ -1,0 +1,468 @@
+Emotes: {
+	FisherwomanEmote: {
+		Command: fnpcfisherwoman
+	}
+
+	FishermanEmote: {
+		Command: fnpcfisherman
+	}
+}
+
+UI: {
+	Dislike: Dislike
+	Like: Like
+
+	Fisherman: {
+		CapturedSpawnText: The Fisherman has spawned!
+		NoShop: Shops are disabled!
+		CycleShop: Cycle Shop
+		Shop4: Extras
+		Shop3: Rods
+		Shop2: Fish
+		Shop1: Bait
+	}
+}
+
+Tiles: {
+	PlasticWormLureCage: {
+		MapEntry: Plastic Worm Lure Cage
+	}
+
+	RedWormCage: {
+		MapEntry: Red Worm Cage
+	}
+
+	MealwormCage: {
+		MapEntry: Mealworm Cage
+	}
+
+	RecyclingMachine: {
+		MapEntry: Recycling Machine
+	}
+}
+
+Projectiles: {
+	HarpoonSpear: {
+		DisplayName: Harpoon Spear
+	}
+}
+
+Items: {
+	DebugAnglerQuestChanger: {
+		Tooltip: ""
+		DisplayName: Debug Angler Quest Changer
+	}
+
+	CaughtFisherman: {
+		Tooltip: "'Greetings. Care to do some fishin'?'"
+		DisplayName: Fisherman
+	}
+
+	PlasticWormLureCage: {
+		Tooltip: "'What did you expect?'"
+		DisplayName: Plastic Worm Lure Cage
+	}
+
+	RedWormCage: {
+		Tooltip: ""
+		DisplayName: Red Worm Cage
+	}
+
+	MealwormCage: {
+		Tooltip: ""
+		DisplayName: Mealworm Cage
+	}
+
+	RecyclingMachine: {
+		Tooltip:
+			'''
+			Converts trash items into more useful items
+			'It's unlike anything you've ever seen.'
+			'''
+		DisplayName: Recycling Machine
+	}
+
+	Fisherman_Vanity_Pants: {
+		Tooltip: ""
+		DisplayName: Fisherman's Pants
+	}
+
+	Fisherman_Vanity_Shirt: {
+		Tooltip: ""
+		DisplayName: Fisherman's Shirt
+	}
+
+	BaitBox: {
+		Tooltip:
+			'''
+			Contains a bunch of bait!
+			<right>で開く
+			'''
+		DisplayName: Bait Box
+	}
+
+	GlowingMushroomChunk: {
+		Tooltip: "'Not tasty enough to attract large beasts'"
+		DisplayName: Glowing Mushroom Chunk
+	}
+
+	RedWorm: {
+		Tooltip: ""
+		DisplayName: Red Worm
+	}
+
+	Mealworm: {
+		Tooltip: ""
+		DisplayName: Mealworm
+	}
+
+	PlasticWormLure: {
+		Tooltip: "'Not the best bait'"
+		DisplayName: Plastic Worm Lure
+	}
+}
+
+Bestiary: {
+	Happiness: {
+		Fisherman: {
+			Hate: None
+			Dislike: Desert, 海賊, ナース
+			Like: Forest, プリンセス, トリュフ, メカニック
+			Love: Ocean, 釣り人
+		}
+	}
+
+	Description: {
+		RedWormCritter: Related to regular worms, this big juicy red wriggler makes great fishing bait.
+		MealwormCritter: Despite its name, Mealworms are not actually worms. They are instead the larval stage of a beetle.
+		Fisherman: A commercial fisherman from abroad, the Fisherman is skilled in his profession. He will sell you many fishing related items.
+	}
+}
+
+NPCs: {
+	RedWormCritter: {
+		DisplayName: Red Worm
+	}
+
+	MealwormCritter: {
+		DisplayName: Mealworm
+	}
+
+	Princess: {
+		NPCDialog: {
+			ExtraChat: "{0} catches all sorts of tasty fish for the town!"
+		}
+	}
+
+	Truffle: {
+		NPCDialog: {
+			ExtraChat: "{0} is nice to me. He doesn't seem to want to eat me."
+		}
+	}
+
+	Angler: {
+		NPCDialog: {
+			ExtraChat: Yeah? What about {0}? He's alright I guess. Back to work with you!
+		}
+	}
+
+	Zoologist: {
+		NPCDialog: {
+			ExtraChatTransformed: "{0} DESTROY environment!"
+			ExtraChat: I keep telling {0} the dangers of over-fishing and he just shrugs me off! What nerve!
+		}
+	}
+
+	Fisherman: {
+		Census: {
+			SpawnCondition: Rescue the Angler and have at least 5 Town NPCs
+		}
+
+		Census_SpawnCondition: Rescue the Angler and have at least 5 Town NPCs
+
+		NPCDialog: {
+			HelpfulNPCs: {
+				Fisherman2: "{0} may be my competitor, but I can't stay mad at a fellow Fisherman."
+			}
+
+			RijamsMod: {
+				HellTrader: I let {0} try some different kinds of fish. She seemed to enjoy them!
+				Harpy: "{0} sometimes helps me scout ahead on my fishing journies. Very helpful!"
+				InterTravel: "{0} is nice and all, but I don't trust her around my stash of fish!"
+			}
+
+			BossesAsNPCs: {
+				DukeFishron: Duke Fishron is quite the fellow. Never thought I'd get to actually get to talk to someone like him!
+			}
+
+			TorchSeller: {
+				TorchMan: really lightens my spirits when I'm around them.
+			}
+
+			PbonesUtilities: {
+				MysteriousTrader: I heard rumors of a blue hooded man who sells valuables...
+			}
+
+			NoFishingQuests: {
+				AnglerShop: It seems like {0} has started to sell his own items. Don't forget about me; I still have plenty of goods available in my shop!
+			}
+
+			FargosMutant: {
+				Mutant: The wings that {0} have remind me of something else...
+			}
+
+			SGAmod: {
+				Sharkvern: A Shark-what? That is truly a freak of nature.
+			}
+
+			CalamityMod: {
+				Warn2: Careful with mermaids, lass, not all of them are friendly.
+				Warn1: Careful with mermaids, son, not all of them are friendly.
+				SeaKing: Amidias is such an interesting person. I hope he doesn't mind me fishin'.
+			}
+
+			ThoriumMod: {
+				Diverman: Now {0} is the kind of guy I respect!
+			}
+
+			MechanicHappiness: "{0} the Mechanic is always here to help me when me ship needs repairs."
+			NurseHappiness: I dislike {0} the Nurse. She always bugs me for check-ups that I don't need.
+			TruffleHappiness: I'm friends with {0} the Truffle. Glowing Mushrooms make good bait!
+			TruffleNormal: I occasionally take Glowing Mushrooms to use as bait. I don't think {0} knows that I do that, so don't tell 'em!
+			PrincessHappiness: "{0} the Princess has offered to get me a fancy new vessel. How kind of her!"
+			PirateHappiness: I wouldn't trust {0} the Pirate. I've had my fair share of run-ins with pirates.
+			AnglerHappiness: No I'm not {0} the Angler's father, but I'll gladly watch over him!
+			AnglerQuest6: Nice job, lass! You have completed {1} quests for {0} the Angler. Why not keep going?
+			AnglerQuest5: Nice job, son! You have completed {1} quests for {0} the Angler. Why not keep going?
+			AnglerQuest4: Great job! Keep going!
+			AnglerQuest3: Keep at it!
+			AnglerQuest2: I think it is time for you to start!
+			AnglerQuest1: "So far you have completed {1} quests for {0} the Angler. "
+			AnglerInfo: "{0} is after all sorts of exotic fish. You should see what he wants today. Currently, you have completed {1} for him."
+			SellNothing: A mysterious force told me not to sell anything. They said to check the "config", whatever that is.
+			HowDidIGetHere: Some sort of storm must've pushed me off course. I know I didn't intend on being here at this time.
+			BloodMoon: I hear that there are some crazy creatures swimming in the water tonight. Fish them up!
+			Party2: I cooked me up some Bumblebee Tuna. Those things are tasty!
+			Party1: That's the biggest catch I've seen yet! Time to celebrate.
+			PlayerHasLadyBug: I wouldn't use that lady bug as bait if I were you. There are tales of an evil curse being put on you if you do...
+			PlayerHasWings: Aye, I saw a large fish with wings once...
+			HasHome: Now I can really set up shop! Make sure you purchase some goods!
+			Homeless: Could you provide me with a vessel of some sort? A man needs a place to sleep!
+			NightTimeRaining: Careful out there. There's a nasty storm out tonight!
+			NightTime: Time to get some shut-eye.
+			DayTimeRaining: Rain is the perfect time to do some fishin'!
+			DayTime: A nice sunny day today.
+			Hurt: That's gonna leave a mark.
+			Rare2: You were paying way too much for worms. I'm your new worm guy.
+			Rare1: Hm... I seem to have misplaced my rod...
+			Default6: Ahoy there. My name is {0}.
+			Default5: There are all sorts of strange fish in these waters; see what you can catch!
+			Default4: Make sure you have bait on your hook.
+			Default3: Fishing rods? Bait? Hooks? You want it?
+			Default2: I got all the supplies you'd need if you want to do some fishin'.
+			Default1: Greetings. Care to do some fishin'?
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName} catches all sorts of tasty fish for the town!"
+			HateNPC: I hate {NPCName}. They insult me and my trade.
+			DislikeNPC: I don't like being around {NPCName}. They are not the kind of person I associate myself with.
+			LoveNPC: No I'm not {NPCName}'s father, but I'll gladly watch over him!
+			LikeNPC_Princess: "{NPCName} has offered to get me a fancy new vessel. How kind of her!"
+			LikeNPC: I view {NPCName} as one of me crew members. They're a trustworthy person.
+			HateBiome: Davy Jones, {BiomeName} is not a safe place!
+			DislikeBiome: The lack of water in {BiomeName} makes fishin' harder than it should be.
+			LoveBiome: I love {BiomeName}, it's the best place to do some fishin'!
+			LikeBiome: There are plenty of fish to catch in {BiomeName}.
+			HateCrowded: Fishing is supposed to be relaxing, but I can't focus with everyone around here!
+			DislikeCrowded: I would prefer some more personal space.
+			FarFromHome: Man overboard! I am too far from my home!
+			LoveSpace: I enjoy the open space, just like the vast ocean.
+			NoHome: Could you provide me with a vessel of some sort? A man needs a place to sleep!
+			Content: Everything is swell.
+		}
+
+		DisplayName: Fisherman
+	}
+}
+
+Conditions: {
+	CrossModError: There was an error with this cross mod item!
+
+	ThoriumMod: {
+		DownedForgottenOne: Mods.FishermanNPC.Conditions.ThoriumMod.DownedForgottenOne
+	}
+
+	Thorium: {
+		DownedForgottenOne: After defeating Forgotten One
+	}
+
+	Calamity: {
+		DownedDoG: After defeating Devourer of Gods
+		DownedProvidence: After defeating Providence
+		DownedCryogen: After defeating Cryogen
+		DownedHiveMindOrPerforators: After defeating Hive Mind or Perforators
+		DownedDesertScourge: After defeating Desert Scourge
+		InSunkenSea: In Sunken Sea
+		InCrag: In Brimstone Crag
+		AstralAndHardmode: In Astral Infection and Hardmode
+		DownedOldDuke: After defeating The Old Duke
+		CragAstralOrSulphur: In Brimstone Crag, Astral Infection, or Sulphurous Sea
+	}
+
+	EowOrMoonLord: After defeating Eater of Worlds in a Corruption world or after defeating Moon Lord
+	BocOrMoonLord: After defeating Brain of Cthulhu in a Crimson world or after defeating Moon Lord
+	NotInDesert: Not in the desert
+	CountTownNPCsS: When there are {0} or more Town NPCs in the world
+	InUnderworldOrHardmode: In the Underworld or Hardmode
+	InJungleOrHardmode: In the Jungle or Hardmode
+	DownedBocOrEoWCorruptionOrHardmode: After defeating Eater of Worlds, in a Corruption World, or in Hardmode
+	DownedBocOrEoWCrimsonOrHardmode: After defeating Brain of Cthulhu, in a Crimson World, or in Hardmode
+	InCavernsOrUnderworld: In the Underground, Caverns, Underworld
+	AnyUndergroundNotDesert: In the Underground, Caverns, Underworld, and not in the Desert
+	AnyUndergroundOrHardmode: In the Underground, Caverns, Underworld, or Hardmode
+	AnyUnderground: In the Underground, Caverns, Underworld
+	TownNPCsCrossModSupport: "'Fisherman Cross Mod Support' config is enabled"
+	SellExtraItems: "'Sell Extra Items' config is enabled"
+	SellFishingRods: "'Sell Fishing Rods' config is enabled"
+	SellFish: "'Sell Fish' config is enabled"
+	SellBait: "'Sell Bait' config is enabled"
+	SellModdedItems: "'Sell Fisherman NPC Modded Items' config is enabled"
+}
+
+Common: {
+	None: None
+	Desert: Desert
+	Ocean: Ocean
+	Forest: Forest
+}
+
+Configs: {
+	FishermanNPCConfigServer: {
+		MultiplayerMessage: You are not the server owner so you can not change this config!
+
+		Headers: {
+			ServerHeader: "[c/00FF00:Server Options]"
+		}
+
+		LoadDebugItems: {
+			Tooltip:
+				'''
+				This option toggles if the debug items will be loaded.
+				  When On: The debug items WILL be loaded.
+				  When Off: The debug items WILL NOT be loaded.
+				    Turn On to load the debug items.
+				This currently affects:
+				    Angler Quest Changer
+				Default value: Off
+				Requires a Reload.
+				'''
+			Label: "[i:784]   Load Debug Items"
+		}
+
+		CatchNPCs: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman added by this mod can be
+				caught with a Bug Net (Fargo's Mutant Mod style).
+				  When On: The Fisherman CAN be caught.
+				  When Off: The Fisherman CAN NOT be caught.
+				    Turn On to catch the Fisherman.
+				Default value: Off
+				Requires a Reload.
+				'''
+			Label: "[i:1991]   Catch Fisherman"
+		}
+
+		TownNPCsCrossModSupport: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell items from other mods,
+				if he will have cross mod dialog, and cross mod happiness.
+				  When On: The Fisherman will sell cross mod items.
+				  When Off: The Fisherman WILL NOT sell cross mod items.
+				    Turn Off to remove cross mod items from the shops and dialog.
+				Default value: On
+				Reload not required for dialog and shop items.
+				Reload required for happiness.
+				'''
+			Label: "[i:3121]   Fisherman Cross Mod Support"
+		}
+
+		ShopPriceScaling: {
+			Tooltip:
+				'''
+				This option sets the scaling for the prices in the Fisherman's shop.
+				  50 means half the normal price.
+				  200 means double the normal price.
+				    Change this value if you want the shop to be cheaper or more expensive.
+				Default value: 100
+				'''
+			Label: "[i:87]   Shop Price Scaling"
+		}
+
+		SellExtraItems: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell extra items such as:
+				fishing accessories, Fish Finder parts, and vanity items.
+				  When On: The Fisherman will sell extra items.
+				  When Off: The Fisherman WILL NOT sell extra items.
+				    Turn Off to remove extra items from the shop.
+				Default value: On
+				'''
+			Label: "[i:3120]   Sell Extra Items"
+		}
+
+		SellFishingRods: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell fishing rods.
+				  When On: The Fisherman WILL sell fishing rods.
+				  When Off: The Fisherman WILL NOT sell fishing rods.
+				    Turn Off to remove fishing rods from the shop.
+				Default value: On
+				'''
+			Label: "[i:2291]   Sell Fishing Rods"
+		}
+
+		SellFish: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell fish.
+				  When On: The Fisherman WILL sell fish.
+				  When Off: The Fisherman WILL NOT sell fish.
+				    Turn Off to remove fish from the shop.
+				Default value: On
+				'''
+			Label: "[i:2290]   Sell Fish"
+		}
+
+		SellBait: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell bait.
+				  When On: The Fisherman WILL sell bait.
+				  When Off: The Fisherman WILL NOT sell bait.
+				    Turn Off to remove bait from the shop.
+				Default value: On
+				'''
+			Label: "[i:2002]   Sell Bait"
+		}
+
+		SellModdedItems: {
+			Tooltip:
+				'''
+				This option toggles if the Fisherman will sell the custom items added by this mod.
+				  When On: The Fisherman WILL sell the custom items added by this mod.
+				  When Off: The Fisherman WILL NOT sell the custom items added by this mod.
+				    Turn Off to remove the modded items.
+				Default value: On
+				'''
+			Label: "[i:3122]   Sell Fisherman NPC Modded Items"
+		}
+
+		DisplayName: Fisherman NPC Server Options
+	}
+}
+

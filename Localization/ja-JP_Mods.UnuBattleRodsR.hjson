@@ -1,0 +1,2640 @@
+{
+	Currencies: {
+		FishSteaks: "フィッシュステーキ"
+	}
+	Crate: {
+		Unable: "最高の箱は開くことを拒んでいる…"
+	}
+	PotionShop: "ポーションと餌"
+	Tooltips: {
+		FishingDamage: "{0} 釣りダメージ"
+		FishingDamageBobbers: "({0}x{1} 浮き)"
+		FishingDamageBoost: "速度により{0}%ブースト"
+		NoFishingDamage: "釣りダメージなし"
+		NoBobs: "浮きなし"
+		BobSpeed: "{0}秒ごとの浮き（{1}ティック）"
+		ReelSpeedNoAcceleration: "巻き取り不可、テンション倍率: {0}"
+		ReelSpeed: "毎秒{0}ピクセルで巻き取る（ティックごとに+{1}ピクセル）、最大毎秒{2}ピクセルまで"
+		TensionMax: "テンション{0}で破損"
+		TensionMaxNoLimit: "ラインは切れない"
+		TensionSweetspot: "テンション{0}未満では{4}が{1}倍、\nテンション{2}以上では{4}が{3}倍。中間は変動する"
+		TensionBobSpeed: "浮き速度"
+		TensionBobDamage: "ダメージ"
+		TensionBobSpeedAndDamage: "浮き速度とダメージ"
+		DragSizeNoLimit: "常に敵を自分の方へ引き寄せる"
+		DragSizeSmaller: "自分より少なくとも{0}倍小さい敵を引き寄せる"
+		DragSizeEqual: "自分と同じサイズまでの敵を引き寄せる"
+		DragSizeBigger: "自分より最大{0}倍大きい敵を引き寄せる"
+		Syphon: "{0}%のマナを吸収する"
+		LifeSteal: "{0}%のライフを奪う"
+		NeverDrops: "回収時にラインは常に切れる"
+		DropsPercentage: "回収時に{0}%の確率でラインが切れる"
+		AlwaysDrops: "回収時にラインは常に地面に落ちる"
+		Retracts: "浮きは敵の背後からでも取り付け可能"
+		NoRetracts: "浮きは敵の背後からは取り付けられない"
+		NoBaits: "餌は使用できない"
+		Baits: "装備中の餌を一度に{0}個使用する"
+		NoDiscardables: "使い捨ての浮きは使用できない"
+		Discardables: "使い捨ての浮きを一度に{0}個使用する"
+		NoTurrets: "タレットは使用できない"
+		Turrets: "タレットを一度に{0}個使用する"
+		Prefixes: {
+			Damage: "{0}% ダメージ"
+			BobSpeed: {
+				Slow: "{0}% 浮き速度低下"
+				Fast: "{0}% 浮き速度上昇"
+			}
+			ReelSpeed: {
+				Slow: "{0}% 巻き取り速度低下"
+				Fast: "{0}% 巻き取り速度上昇"
+			}
+			Bobbers: {
+				None: "浮きは1つ、これ以上は不可"
+				Add1: "{0}個の浮きを獲得"
+				Add: "{0}個の浮きを獲得"
+				Lose1: "{0}個の浮きを失う"
+				Lose: "{0}個の浮きを失う"
+			}
+			Baits: {
+				None: "餌スロットなし"
+				Add1: "{0}個の餌スロットを獲得"
+				Add: "{0}個の餌スロットを獲得"
+				Lose1: "{0}個の餌スロットを失う"
+				Lose: "{0}個の餌スロットを失う"
+			}
+			Discardables: {
+				None: "使い捨て浮きスロットなし"
+				Add1: "{0}個の使い捨て浮きスロットを獲得"
+				Add: "{0}個の使い捨て浮きスロットを獲得"
+				Lose1: "{0}個の使い捨て浮きスロットを失う"
+				Lose: "{0}個の使い捨て浮きスロットを失う"
+			}
+			Turrets: {
+				None: "タレットスロットなし"
+				Add1: "{0}個のタレットスロットを獲得"
+				Add: "{0}個のタレットスロットを獲得"
+				Lose1: "{0}個のタレットスロットを失う"
+				Lose: "{0}個のタレットスロットを失う"
+			}
+			Disperser: {
+				Add: "{0}px 餌の拡散範囲が増加"
+				AddNative: "{0}px 餌の拡散範囲が増加、拡散機付き！"
+				Lose: "{0}px 餌の拡散範囲が減少"
+				LoseNative: "{0}px 餌の拡散範囲が減少、でも拡散機付き！"
+			}
+		}
+	}
+	Info: {
+		NoRod: "バトルロッドを装備していない！"
+		NoSticky: "くっついていない！"
+		NoBobber: "浮きが出ていない！"
+		NoStuckBobber: "浮きが刺さっていない！"
+		Tension: "テンション = {0}"
+	}
+	TownNPCMood: {
+		Fishylady: {
+			Content: "この場所はまあまあ、かな。"
+			NoHome: "商品を陳列する場所がない！頼む、どこかに住まわせてくれ。"
+			LoveSpace: "ここで繁盛するには安く売るしかないな。"
+			FarFromHome: "家から遠すぎる。そこまでの道のりは命がけだ！"
+			DislikeCrowded: "客が多いからここでは値段を上げられるな…。"
+			HateCrowded: "魚市場より人が多いじゃないか！何か買ってくれるならいいんだが、そうでもないし…。"
+			LikeBiome: "{BiomeName}での暮らしも悪くないな！"
+			LoveBiome: "{BiomeName}は大好きだ、釣って売る魚がたくさんいるからな！"
+			DislikeBiome: "ここは本当に好きじゃない…。"
+			HateBiome: "この場所は最悪だ、{PlayerName}のために何かする気になれない。"
+			LikeNPC: "「{NPCName}は最高だ！私からたくさん買ってくれるし、時には物を売ってくれることもある！」"
+			LoveNPC: "{NPCName}は私のことに気づいてくれるだろうか？"
+			DislikeNPC: "あの{NPCName}は怖い！あれは人間か？それとも機械か？"
+			HateNPC: "私は{NPCName}が嫌いだ。なぜかって？理由はない！"
+		}
+	}
+	Tiles: {
+		SnowstormCrate: {
+			MapEntry: "吹雪の木箱"
+		}
+		SlimeCrate: {
+			MapEntry: "スライムの箱"
+		}
+		ShroomiteCrate: {
+			MapEntry: "シュルーマイトの箱"
+		}
+		SandstormCrate: {
+			MapEntry: "砂嵐の木箱"
+		}
+		OldOnesCrate: {
+			MapEntry: "オールドワンズの木箱"
+		}
+		ObsidianCrate: {
+			MapEntry: "黒曜石の箱"
+		}
+		MimicCrate: {
+			MapEntry: "ミミックの木箱"
+		}
+		MeteorCrate: {
+			MapEntry: "隕石の箱"
+		}
+		MarbleCrate: {
+			MapEntry: "大理石の箱"
+		}
+		LuminiteCrate: {
+			MapEntry: "ルミナイトの箱"
+		}
+		HallowedCrate: {
+			MapEntry: "神聖な木箱"
+		}
+		GraniteCrate: {
+			MapEntry: "御影石の箱"
+		}
+		GoblinCrate: {
+			MapEntry: "ゴブリンの木箱"
+		}
+		FrostMoonCrate: {
+			MapEntry: "フロストムーンの木箱"
+		}
+		FrostLegionCrate: {
+			MapEntry: "フロストレギオンの木箱"
+		}
+		EclipseCrate: {
+			MapEntry: "日食の木箱"
+		}
+		CritterCrate: {
+			MapEntry: "生き物の木箱"
+		}
+		CrimsonCrate: {
+			MapEntry: "真紅の木箱"
+		}
+		CorruptCrate: {
+			MapEntry: "不浄の木箱"
+		}
+		ChlorophyteCrate: {
+			MapEntry: "クロロファイトの箱"
+		}
+		BloodCrate: {
+			MapEntry: "血の木箱"
+		}
+		BeeCrate: {
+			MapEntry: "蜂の木箱"
+		}
+		AnkhCrate: {
+			MapEntry: "お守りの木箱"
+		}
+		AlienCrate: {
+			MapEntry: "エイリアンの木箱"
+		}
+		BaitWorkshop: {
+			MapEntry: "餌作業台"
+		}
+		SoulCrate: {
+			MapEntry: "ソウルの木箱"
+		}
+		SpookyCrate: {
+			MapEntry: "不気味な木箱"
+		}
+		TerraCrate: {
+			MapEntry: "テラ・木箱"
+		}
+		TreasureCrate: {
+			MapEntry: "宝の木箱"
+		}
+		WingCrate: {
+			MapEntry: "翼の木箱"
+		}
+		FruitCrate: {
+			MapEntry: "フルーツの木箱"
+		}
+		LihzahrdCrate: {
+			MapEntry: "リザードの木箱"
+		}
+		TheCratestCrate: {
+			MapEntry: "最高の木箱"
+		}
+		CobwebCrate: {
+			MapEntry: "クモの巣の箱"
+		}
+		DyeCrate: {
+			MapEntry: "染料の木箱"
+		}
+		FlowerCrate: {
+			MapEntry: "花の木箱"
+		}
+		GeodeCrate: {
+			MapEntry: "ジオードの木箱"
+		}
+	}
+	NPCs: {
+		CoolerBoss: {
+			DisplayName: "クーラーボス"
+			BossChecklistIntegration: {
+				EntryName: "クーラー"
+				SpawnInfo: "凍ったワームを餌にして海で釣る。"
+				DespawnMessage: "{0}はもうあなたを追っていない…"
+			}
+		}
+		CrateMimic: {
+			DisplayName: "奇妙な木箱"
+		}
+		Fishylady: {
+			DisplayName: "フィッシーレディ"
+			TownNPCMood: {
+				Content: "この場所はまあまあ、かな。"
+				NoHome: "商品を陳列する場所がない！頼む、どこかに住まわせてくれ。"
+				FarFromHome: "家から遠すぎる。そこまでの道のりは命がけだ！"
+				LoveSpace: "ここで繁盛するには安く売るしかないな。"
+				DislikeCrowded: "客が多いからここでは値段を上げられるな…。"
+				HateCrowded: "魚市場より人が多いじゃないか！何か買ってくれるならいいんだが、そうでもないし…。"
+				LoveBiome: "{BiomeName}は大好きだ、釣って売る魚がたくさんいるからな！"
+				DislikeBiome: "ここは本当に好きじゃない…。"
+				LikeNPC: "「{NPCName}は最高だ！私からたくさん買ってくれるし、時には物を売ってくれることもある！」"
+				DislikeNPC: "あの{NPCName}は怖い！あれは人間か？それとも機械か？"
+				LikeNPC_Princess: "{NPCName}のことは好きだ。"
+				Princess_LovesNPC: "{NPCName}のことは好きだ。"
+			}
+			Census: {
+				SpawnCondition: "インベントリにフィッシュステーキを持っている"
+			}
+		}
+	}
+	Buffs: {
+		BobEscalation: {
+			DisplayName: "浮きの激化"
+			Description: "（旧）同じ敵に張り付いている間、ダメージが毎秒2%増加、最大100%まで。\n（新）オーバーテンションとオーバーテンションダメージが20%増加。オーバーテンションを付与する。\n"
+		}
+		BobTimeReduction: {
+			DisplayName: "浮き時間短縮"
+			Description: "浮きの間隔が25%短縮"
+		}
+		EnemyFrozenDebuff: {
+			DisplayName: "敵凍結"
+			Description: "NPCをその場に固定する。"
+		}
+		FasterEscalationBuff: {
+			DisplayName: "高速激化"
+			Description: "（旧）同じ敵に張り付いている間、ダメージが毎秒5%増加、最大100%まで\n（新）最大テンションが20%増加\nオーバーテンションとオーバーテンションダメージが50%増加\nオーバーテンションを付与する\n"
+		}
+		Frostfire: {
+			DisplayName: "フロストファイア"
+			Description: "冷たい火傷！"
+		}
+		FurtherEscalationBuff: {
+			DisplayName: "超高速激化"
+			Description: "（旧）浮きの激化は最大300%のダメージに到達可能\n激化ダメージは発生しない。\n（新）最大テンションを2倍に、最大オーバーテンションダメージを50%増加させる\nオーバーテンションは付与しない。\n"
+		}
+		MaximumEscalationBuff: {
+			DisplayName: "最大激化"
+			Description: "（旧）同じ敵に張り付いている間、ダメージが毎秒8%増加、最大で通常ダメージの100倍まで。\n（新）オーバーテンションとオーバーテンションダメージが10倍に増加\n最大テンションが8倍に増加。\n"
+		}
+		Buddyfish: {
+			DisplayName: "バディフィッシュ"
+			Description: "このペアがあなたのために戦ってくれる！"
+		}
+		CratePetBuff: {
+			DisplayName: "クレートペット"
+			Description: "箱を見つけるのを手伝ってくれる木箱！"
+		}
+		PoweredBaitBuff: {
+			DisplayName: "強化餌のバフ"
+			Description: "以下のバフが有効です："
+		}
+		PoweredBaitDebuff: {
+			DisplayName: "強化餌のデバフ"
+			Description: "以下のデバフが有効です："
+		}
+		SandpaperBuff: {
+			DisplayName: "紙やすり"
+			Description: "敵を倒した後も浮きが残るようになる。"
+		}
+		Solarfire: {
+			DisplayName: "ソーラーファイア"
+			Description: "太陽に近づきすぎたため。"
+		}
+		FishingDamageBuff: {
+			DisplayName: "釣りダメージ"
+			Description: "釣りダメージを25%増加させる"
+		}
+		TensionOilBuff: {
+			DisplayName: "テンションオイル"
+			Description: "最低必要テンションを50%減少させ、最大テンションを50%増加させる"
+		}
+		ActiveTurretBuff: {
+			DisplayName: "アクティブタレット"
+			Description: "有効："
+		}
+		CharmingWalrusfishBuff: {
+			DisplayName: "チャーミングセイウチ"
+			Description: "チャーミングなセイウチがついてくる！"
+		}
+		ImmunityDebuff: {
+			Description: ""
+			DisplayName: "免疫"
+		}
+	}
+	Items: {
+		BaitDisperser: {
+			DisplayName: "餌拡散機"
+			Tooltip: "半径8ブロック内の周囲の敵すべてに使用した餌のデバフを与える"
+		}
+		WormCape: {
+			DisplayName: "ワームのマント"
+			Tooltip: "'''\n歩くとワームがスポーンする\nトリュフワームがあなたから逃げなくなる\n'''"
+		}
+		BarbedHook: {
+			DisplayName: "有刺フック"
+			Tooltip: "釣りクリティカル率を10%上昇させる"
+		}
+		CrateCallingHook: {
+			DisplayName: "木箱呼びのフック"
+			Tooltip: "敵を倒した時、5%の確率で箱をドロップする\n箱の種類は使用したロッドに依存する"
+		}
+		CurrencyHook: {
+			DisplayName: "通貨のフック"
+			Tooltip: "浮きが刺さった敵が、浮きのヒット後にお金をドロップする確率が0.5%\nお金の種類はゲームの進行度によって変わる"
+		}
+		HeavenlyHook: {
+			DisplayName: "天上のフック"
+			Tooltip: "プレイヤーの高度に応じて釣りダメージが増加する"
+		}
+		HookSet: {
+			DisplayName: "フックセット"
+			Tooltip: "'''\nプレイヤーの高度に応じて釣りダメージが増加する\n敵が水中にいる場合、釣りダメージが増加する\n浮きが刺さった敵のダメージを20%封じる\n釣りクリティカル率を20%上昇させる\n'''"
+		}
+		RetractableHook: {
+			DisplayName: "格納式フック"
+			Tooltip: "浮きが自分に戻る時に攻撃できるようになる！"
+		}
+		RustyHook: {
+			DisplayName: "錆びたフック"
+			Tooltip: "敵が水中にいる場合、釣りダメージが増加する"
+		}
+		SealedHook: {
+			DisplayName: "封印のフック"
+			Tooltip: "浮きが刺さった敵のダメージを20%封じる"
+		}
+		SuperBarbedHook: {
+			DisplayName: "超有刺フック"
+			Tooltip: "釣りクリティカル率を20%上昇させる"
+		}
+		SuperiorBaitDisperser: {
+			DisplayName: "上位の餌拡散機"
+			Tooltip: "半径16ブロック内の周囲の敵すべてに使用した餌のデバフを与える"
+		}
+
+		UrgencyBobSpeeder: {
+			DisplayName: "緊急浮き加速器"
+			Tooltip: "体力が低いほど、浮きの動きが速くなる（最大75%高速）"
+		}
+		Wormicide: {
+			DisplayName: "ワーム殺し"
+			Tooltip: "ワーム系の敵に刺さっているとき、浮きのダメージが2倍になる"
+		}
+		BlazingFishingKnife: {
+			DisplayName: "ブレイジングフィッシングナイフ"
+			Tooltip: "'''\n1秒に1回、非常に近くにいる敵を攻撃する\n基本ダメージ80\n平均的なノックバック\nソーラーファイアデバフを与える\n浮きに刺さっている敵にはダメージ2倍\n'''"
+		}
+		FishingKnife: {
+			DisplayName: "フィッシングナイフ"
+			Tooltip: "'''\n1秒に1回、非常に近くにいる敵を攻撃する\n基本ダメージ40\n平均的なノックバック\n浮きに刺さっている敵にはダメージ2倍\n'''"
+		}
+		FractaliteFishingKnife: {
+			DisplayName: "フラクタイトフィッシングナイフ"
+			Tooltip: "'''\n1秒に2回、近くにいる敵を攻撃する\n基本ダメージ120\n強いノックバック\nフロストファイアデバフを与える\n浮きに刺さっている敵にはダメージ2倍\n'''"
+		}
+		WoodenFishingKnife: {
+			DisplayName: "木のフィッシングナイフ"
+			Tooltip: "'''\n2秒に1回、ほとんど接触している敵を攻撃する\n基本ダメージ15\n弱いノックバック\n浮きに刺さっている敵にはダメージ2倍\n'''"
+		}
+		BobLoser: {
+			DisplayName: "ボブ・ルーザー"
+			Tooltip: "使用しているロッドから釣り糸を1本取り除く（1本は必ず残る）"
+		}
+		BoxOfCountlessLures: {
+			DisplayName: "無数のルアーの箱"
+			Tooltip: "釣り中にさらに32本の釣り糸を投げることができる"
+		}
+		BoxOfLures: {
+			DisplayName: "ルアーの箱"
+			Tooltip: "釣り中にさらに16本の釣り糸を投げることができる"
+		}
+		DoubleBobLoser: {
+			DisplayName: "ダブル・ボブ・ルーザー"
+			Tooltip: "使用しているロッドから釣り糸を2本取り除く（1本は必ず残る）"
+		}
+		DoubleLure: {
+			DisplayName: "ダブルルアー"
+			Tooltip: "釣り中にさらに2本の釣り糸を投げることができる"
+		}
+		DoubleSelectiveBobbers: {
+			DisplayName: "ダブルセレクティブな浮き"
+			Tooltip: "同じ敵には2つの浮きしか引っかからない"
+		}
+		ExtraLure: {
+			DisplayName: "エキストラルアー"
+			Tooltip: "釣り中にさらに1本の釣り糸を投げることができる"
+
+		}
+		OctoLure: {
+			DisplayName: "オクトルアー"
+			Tooltip: "釣り中にさらに8本の釣り糸を投げることができる"
+		}
+		Omnilure: {
+			DisplayName: "オムニルアー"
+			Tooltip: "'''\n浮きを1つに強制するが、ダメージが20%増加する\nハードモードで効果が15%増加し、ムーンロード撃破後はさらに15%増加する\n'''"
+		}
+		QuadBobLoser: {
+			DisplayName: "クアッド・ボブ・ルーザー"
+			Tooltip: "使用しているロッドから釣り糸を4本取り除く（1本は必ず残る）"
+		}
+		QuadLure: {
+			DisplayName: "クアッドルアー"
+			Tooltip: "釣り中にさらに4本の釣り糸を投げることができる"
+		}
+		SelectiveBobbers: {
+			DisplayName: "セレクティブな浮き"
+			Tooltip: "同じ敵には1つの浮きしか引っかからない"
+		}
+		SmartBobbers: {
+			DisplayName: "スマートな浮き"
+			Tooltip: "浮きは、2ブロックの範囲内でターゲットとなった敵に均等に分散しようとする"
+		}
+		TurretBobbers: {
+			DisplayName: "タレットの浮き"
+			Tooltip: "'''\n浮きはどの敵にも引っかからない\n釣りダメージ30%増加\n浮き速度100%上昇\n'''"
+		}
+		FastMetronome: {
+			DisplayName: "高速メトロノーム"
+			Tooltip: "浮き速度を10%上昇させるが、釣りダメージを8%減少させる"
+		}
+		HyperFastMetronome: {
+			DisplayName: "超高速メトロノーム"
+			Tooltip: "浮き速度を30%上昇させるが、釣りダメージを26%減少させる"
+		}
+		HyperSlowMetronome: {
+			DisplayName: "超低速メトロノーム"
+			Tooltip: "釣りダメージを30%増加させるが、浮き速度を20%低下させる"
+		}
+		SlowMetronome: {
+			DisplayName: "低速メトロノーム"
+			Tooltip: "釣りダメージを10%増加させるが、浮き速度を5%低下させる"
+		}
+		SuperFastMetronome: {
+			DisplayName: "超高速メトロノーム"
+			Tooltip: "浮き速度を20%上昇させるが、釣りダメージを18%減少させる"
+		}
+		SuperSlowMetronome: {
+			DisplayName: "超低速メトロノーム"
+			Tooltip: "釣りダメージを20%増加させるが、浮き速度を15%低下させる"
+		}
+		BobAccelerator: {
+			DisplayName: "浮きアクセラレーター"
+			Tooltip: "キャスティング速度を30%上昇させる"
+		}
+		BobScope: {
+			DisplayName: "浮きスコープ"
+			Tooltip: "カーソルの狙った場所にすべての浮きを当てようとする"
+		}
+		DiscardableBobs: {
+			DisplayName: "使い捨ての浮き"
+			Tooltip: "敵から浮きを回収した場合、非常に速く再キャストできる（ロッドで右クリック）"
+		}
+		FasterFishingKit: {
+			DisplayName: "高速フィッシングキット"
+			Tooltip: "'''\n敵から浮きを回収した場合、非常に速く再キャストできる（ロッドで右クリック）\nカーソルの狙った場所に浮きを当てようとする\nキャスティング速度を30%上昇させる\n'''"
+		}
+		FishermansKit: {
+			DisplayName: "グローバルフィッシャーマンズキット"
+			Tooltip: "インベントリや銀行から直接、数種類の釣りアクセサリーを使用できる！"
+		}
+		FishermansKit1: {
+			DisplayName: "フィッシャーマンズキット - 貯金箱"
+			Tooltip: "豚の貯金箱から直接、数種類の釣りアクセサリーを使用できる！"
+		}
+		FishermansKit2: {
+			DisplayName: "フィッシャーマンズキット - 金庫"
+			Tooltip: "金庫から直接、数種類の釣りアクセサリーを使用できる！"
+		}
+		FishermansKit3: {
+			DisplayName: "フィッシャーマンズキット - ディフェンダーの金庫"
+			Tooltip: "ディフェンダーの金庫から直接、数種類の釣りアクセサリーを使用できる！"
+		}
+		FishermansKit4: {
+			DisplayName: "フィッシャーマンズキット - 虚空の金庫"
+			Tooltip: "虚空の金庫から直接、数種類の釣りアクセサリーを使用できる！"
+		}
+		FishSlicer: {
+			DisplayName: "フィッシュスライサー"
+			Tooltip: "釣ったすべての魚をフィッシュステーキに変える（変換可能な場合）"
+		}
+		KillingGate: {
+			DisplayName: "キリングゲート"
+			Tooltip: "'''\n最大スタックが1の釣ったアイテムをコインに変える\n釣ったすべての魚をフィッシュステーキに変える（変換可能な場合）\n'''"
+		}
+		MagneticTargetedThrow: {
+			DisplayName: "磁気ターゲットスロー"
+			Tooltip: "'''\n近づきすぎると浮きがマウスに吸い付く\nマウスが浮きの軌道上にある場合のみ機能する\n何かに張り付くか、濡れるか（シンカーなしの場合）、または呼び戻すまでマウスを追いかける\n'''"
+		}
+
+		ManaEscalationReel: {
+			DisplayName: "マナ激化リール"
+			Tooltip: "'''\n巻き取り中に毎秒8マナを消費\nシングルギアリール\nスローギア：巻き取り加速度を25%低下\nファストギア：巻き取り加速度を25%増加\n最大テンションとダメージのオーバー20%を提供し、最小テンションを20%減少\n（旧）毎秒浮きダメージを2%増加\n'''"
+		}
+		MaximumManaEscalationReel: {
+			DisplayName: "最大マナ激化リール"
+			Tooltip: "'''\n巻き取り中に毎秒24マナを消費\nクアッドギアリール\nスローギア：巻き取り加速度を25%/50%/75%/99%低下\nファストギア：巻き取り加速度を25%/50%/75%/99%増加\n最大テンションとダメージのオーバー3倍を提供し、最小テンションを60%減少\n（旧）毎秒浮きダメージを12%増加\n'''"
+		}
+		RetractableFasterFishingKit: {
+			DisplayName: "格納式高速フィッシングキット"
+			Tooltip: "'''\n敵から浮きを回収した場合、非常に速く再キャストできる（ロッドで右クリック）\nカーソルの狙った場所に浮きを当てようとする\nキャスティング速度を30%上昇させる\n浮きが自分に戻る時に攻撃できるようになる！\n'''"
+		}
+		SellGate: {
+			DisplayName: "セルゲート"
+			Tooltip: "最大スタックが1の釣ったアイテムをコインに変える"
+		}
+		Sinker: {
+			DisplayName: "シンカー"
+			Tooltip: "'''\nキャスト時に浮きを水中に沈ませる\n釣りはできない\nまた、プレイヤーが水中にいる場合、浮き速度と釣りダメージが5%増加\n'''"
+		}
+		StickyTargetedThrow: {
+			DisplayName: "粘着ターゲットスロー"
+			Tooltip: "'''\n近づきすぎると浮きがマウスに吸い付く\nマウスが浮きの軌道上にある場合のみ機能する\nマウスを離すと落ちる\n'''"
+		}
+		StrongerManaEscalationReel: {
+			DisplayName: "強化マナ激化リール"
+			Tooltip: "'''\n巻き取り中に毎秒16マナを消費\nトリプルギアリール\nスローギア：巻き取り加速度を25%/50%/75%低下\nファストギア：巻き取り加速度を25%/50%/75%増加\n最大テンションとダメージのオーバー150%を提供し、最小テンションを40%減少\n（旧）毎秒浮きダメージを7%増加\n'''"
+		}
+		TargetedThrow: {
+			DisplayName: "ターゲットスロー"
+			Tooltip: "'''\nマウスに近づきすぎると浮きが止まる\nマウスが浮きの軌道上にある場合のみ機能する\n'''"
+		}
+		ManaShieldShaft: {
+			DisplayName: "マナシールドシャフト"
+			Tooltip: "受けるすべてのダメージの最大15%が代わりにマナから差し引かれる"
+		}
+		MaximumManaShieldShaft: {
+			DisplayName: "最大マナシールドシャフト"
+			Tooltip: "受けるすべてのダメージの最大50%が代わりにマナから差し引かれる"
+		}
+		ProjectileCancelerShaft: {
+			DisplayName: "発射体キャンセラーシャフト"
+			Tooltip: "敵にフックしている場合、飛来する敵の発射体を30%の確率で無効化する"
+		}
+		StrongerManaShieldShaft: {
+			DisplayName: "強化マナシールドシャフト"
+			Tooltip: "受けるすべてのダメージの最大30%が代わりにマナから差し引かれる"
+		}
+		HookshotWire: {
+			DisplayName: "フックショットワイヤー"
+			Tooltip: "常に敵に向かって巻き取られる"
+		}
+		LinkCable: {
+			DisplayName: "リンクケーブル"
+			Tooltip: "異なる敵に刺さっている浮きの数だけダメージが増加する"
+		}
+		MoonWire: {
+			DisplayName: "ムーンワイヤー"
+			Tooltip: "天気、時間、月の満ち欠けに応じて釣りダメージが増加する"
+		}
+		RedirectorWire: {
+			DisplayName: "リダイレクターワイヤー"
+			Tooltip: "反射ダメージは、代わりに浮きが刺さっているすべての敵に均等に与えられる"
+		}
+		SyphoningWire: {
+			DisplayName: "サイフォンワイヤー"
+			Tooltip: "浮きで与えたダメージの10%をマナとして吸収する"
+		}
+		ThornyRedirectorWire: {
+			DisplayName: "棘のリダイレクターワイヤー"
+			Tooltip: "反射ダメージは、浮きが刺さっているすべての敵にも均等に与えられる"
+		}
+		TitanWire: {
+			DisplayName: "タイタンワイヤー"
+			Tooltip: "サイズに関係なく常に敵を引き寄せることができる（不動の敵を除く）\n決して切れない"
+		}
+		VacuumWire: {
+			DisplayName: "バキュームワイヤー"
+			Tooltip: "浮きに接触したアイテムを拾う"
+		}
+		VampiricWire: {
+			DisplayName: "ヴァンパイアワイヤー"
+			Tooltip: "浮きで与えたダメージの10%をライフとして吸収する"
+		}
+		EvilHatOfBlood: {
+			DisplayName: "血の邪悪な帽子"
+			Tooltip: "'''\nフィッシング・パワーが8向上\n浮き速度と釣りダメージが5%増加\n'''"
+		}
+		EvilHatOfDarkness: {
+			DisplayName: "闇の邪悪な帽子"
+			Tooltip: "'''\nフィッシング・パワーが8向上\n浮き速度と釣りダメージが5%増加\n'''"
+		}
+		EvilPantsOfBlood: {
+			DisplayName: "血の邪悪なズボン"
+			Tooltip: "'''\nフィッシング・パワーが8向上\n浮き速度と釣りダメージが5%増加\n'''"
+		}
+		EvilPantsOfDarkness: {
+			DisplayName: "闇の邪悪なズボン"
+			Tooltip: "'''\nフィッシング・パワーが8向上\n浮き速度と釣りダメージが5%増加\n'''"
+		}
+		EvilVestOfBlood: {
+			DisplayName: "血の邪悪なベスト"
+			Tooltip: "'''\nフィッシング・パワーが10向上\n浮き速度と釣りダメージが8%増加\n'''"
+		}
+		EvilVestOfDarkness: {
+			DisplayName: "闇の邪悪なベスト"
+			Tooltip: "'''\nフィッシング・パワーが10向上\n浮き速度と釣りダメージが8%増加\n'''"
+		}
+		HardTriadHat: {
+			DisplayName: "ハードトライアドハット"
+			Tooltip: "'''\nフィッシング・パワーが12向上\n浮き速度と釣りダメージが8%増加\n'''"
+		}
+		HardTriadPants: {
+			DisplayName: "ハードトライアドパンツ"
+			Tooltip: "'''\nフィッシング・パワーが13向上\n浮き速度と釣りダメージが8%増加\n'''"
+		}
+		HardTriadVest: {
+			DisplayName: "ハードトライアドベスト"
+			Tooltip: "'''\nフィッシング・パワーが15向上\n浮き速度と釣りダメージが12%増加\n'''"
+		}
+		LifeforceHat: {
+			DisplayName: "ライフフォースハット"
+			Tooltip: "'''\nフィッシング・パワーが20向上\n浮き速度と釣りダメージが12%増加\n'''"
+		}
+		LifeforcePants: {
+			DisplayName: "ライフフォースパンツ"
+			Tooltip: "'''\nフィッシング・パワーが20向上\n浮き速度と釣りダメージが20%増加\n'''"
+		}
+		LifeforceVest: {
+			DisplayName: "ライフフォースベスト"
+			Tooltip: "'''\nフィッシング・パワーが25向上\n浮き速度と釣りダメージが16%増加\n'''"
+		}
+		BeeteoriteHat: {
+			DisplayName: "ビーテオライトハット"
+			Tooltip: "'''\nフィッシング・パワーが12向上\n浮き速度と釣りダメージが12%増加\n'''"
+		}
+		BeeteoritePants: {
+			DisplayName: "ビーテオライトパンツ"
+			Tooltip: "'''\nフィッシング・パワーが15向上\n浮き速度と釣りダメージが12%増加\n'''"
+		}
+		BeeteoriteVest: {
+			DisplayName: "ビーテオライトベスト"
+			Tooltip: "'''\nフィッシング・パワーが20向上\n浮き速度と釣りダメージが20%増加\n'''"
+		}
+		FlinxHat: {
+			DisplayName: "フリンクスハット"
+			Tooltip: "'''\nフィッシング・パワーが3向上\n浮き速度と釣りダメージが3%増加\n「本物のフリンクス製！」\n'''"
+		}
+		SnowSlothPants: {
+			DisplayName: "スノースロースパンツ"
+			Tooltip: "'''\nフィッシング・パワーが3向上\n浮き速度と釣りダメージが2%増加\n「本物のフリンクス製！」\n'''"
+		}
+		SnowSlothVest: {
+			DisplayName: "スノースロースベスト"
+			Tooltip: "'''\nフィッシング・パワーが5向上\n浮き速度と釣りダメージが3%増加\n「本物のフリンクス製！」\n'''"
+		}
+		StarmixHat: {
+			DisplayName: "スターミックスハット"
+			Tooltip: "'''\nフィッシング・パワーが6向上\n浮き速度が5%上昇\nハードモードで防御力が2倍になる\n'''"
+		}
+		StarmixPants: {
+			DisplayName: "スターミックスパンツ"
+			Tooltip: "'''\nフィッシング・パワーが6向上\n浮き速度が5%上昇\nハードモードで防御力が2倍になる\n'''"
+		}
+		StarmixVest: {
+			DisplayName: "スターミックスベスト"
+			Tooltip: "'''\nフィッシング・パワーが8向上\n釣りダメージが5%増加\nハードモードで防御力が2倍になる\n'''"
+		}
+		VacationHat: {
+			DisplayName: "バケーションハット"
+			Tooltip: "フィッシング・パワーが3向上"
+		}
+		VacationPants: {
+			DisplayName: "バケーションパンツ"
+			Tooltip: "フィッシング・パワーが3向上"
+		}
+		VacationVest: {
+			DisplayName: "バケーションベスト"
+			Tooltip: "フィッシング・パワーが5向上"
+		}
+		WerewolfHat: {
+			DisplayName: "ウェアウルフハット"
+			Tooltip: "'''\n釣りダメージと浮き速度が上昇する\n夜間と月の満ち欠けでステータスが変化する\n月のイベントでも変化する！\n「狼人間に優しい」\n'''"
+		}
+		WerewolfPants: {
+			DisplayName: "ウェアウルフパンツ"
+			Tooltip: "'''\n釣りダメージと浮き速度が上昇する\n夜間と月の満ち欠けでステータスが変化する\n月のイベントでも変化する！\n「狼人間に優しい」\n'''"
+		}
+		WerewolfVest: {
+			DisplayName: "ウェアウルフベスト"
+			Tooltip: "'''\n釣りダメージと浮き速度が上昇する\n夜間と月の満ち欠けでステータスが変化する\n月のイベントでも変化する！\n「狼人間に優しい」\n'''"
+		}
+		FractaliteHat: {
+			DisplayName: "フラクタイトハット"
+			Tooltip: "'''\nフィッシング・パワーが30向上\n浮き速度と釣りダメージが15%増加\n'''"
+		}
+		FractalitePants: {
+			DisplayName: "フラクタイトパンツ"
+			Tooltip: "'''\nフィッシング・パワーが30向上\n浮き速度と釣りダメージが10%増加\n移動速度が35%上昇\n'''"
+		}
+		FractaliteVest: {
+			DisplayName: "フラクタイトベスト"
+			Tooltip: "'''\nフィッシング・パワーが50向上\n浮き速度と釣りダメージが20%増加\n'''"
+		}
+		DoctorBait: {
+			DisplayName: "ドクターの餌"
+			Tooltip: "ちょうどよく回復してくれる"
+		}
+		DryadApprenticeBait: {
+			DisplayName: "ドライアドの見習いの餌"
+			Tooltip: "餌形態のドライアドの祝福"
+		}
+		DryadBait: {
+			DisplayName: "ドライアドの餌"
+			Tooltip: "餌形態のドライアドの祝福"
+		}
+		DryadMasterBait: {
+			DisplayName: "ドライアドの達人の餌"
+			Tooltip: "餌形態のドライアドの祝福"
+		}
+		BetsyCurseApprenticeBait: {
+			DisplayName: "ベッツィの呪いの見習いの餌"
+			Tooltip: "ドラゴンの呪い！"
+		}
+		BetsyCurseBait: {
+			DisplayName: "ベッツィの呪いの餌"
+			Tooltip: "ドラゴンの呪い！"
+		}
+		BetsyCurseMasterBait: {
+			DisplayName: "ベッツィの呪いの達人の餌"
+			Tooltip: "ドラゴンの呪い！"
+		}
+		ConfusionApprenticeBait: {
+			DisplayName: "混乱の見習いの餌"
+			Tooltip: "混乱させる虫！"
+		}
+		ConfusionBait: {
+			DisplayName: "混乱の餌"
+			Tooltip: "混乱させる虫！"
+		}
+		ConfusionMasterBait: {
+			DisplayName: "混乱の達人の餌"
+			Tooltip: "混乱させる虫！"
+		}
+		CursedFlameApprenticeBait: {
+			DisplayName: "呪炎の見習いの餌"
+			Tooltip: "緑の炎の力！"
+		}
+		CursedFlameBait: {
+			DisplayName: "呪炎の餌"
+			Tooltip: "緑の炎の力！"
+		}
+		CursedFlameMasterBait: {
+			DisplayName: "呪炎の達人の餌"
+			Tooltip: "緑の炎の力！"
+		}
+		FireApprenticeBait: {
+			DisplayName: "炎の見習いの餌"
+			Tooltip: "触ると熱い！"
+		}
+		FireBait: {
+			DisplayName: "炎の餌"
+			Tooltip: "触ると熱い！"
+		}
+		FireMasterBait: {
+			DisplayName: "炎の達人の餌"
+			Tooltip: "触ると熱い！"
+		}
+		FrostburnApprenticeBait: {
+			DisplayName: "霜焼けの見習いの餌"
+			Tooltip: "触ると冷たい！"
+		}
+		FrostburnBait: {
+			DisplayName: "霜焼けの餌"
+			Tooltip: "触ると冷たい！"
+		}
+		FrostburnMasterBait: {
+			DisplayName: "霜焼けの達人の餌"
+			Tooltip: "触ると冷たい！"
+		}
+		FrostfireApprenticeBait: {
+			DisplayName: "氷炎の見習いの餌"
+			Tooltip: "熱すぎるか冷たすぎるかのどちらかだ！"
+		}
+		FrostfireBait: {
+			DisplayName: "氷炎の餌"
+			Tooltip: "熱すぎるか冷たすぎるかのどちらかだ！"
+		}
+		FrostfireMasterBait: {
+			DisplayName: "氷炎の達人の餌"
+			Tooltip: "熱すぎるか冷たすぎるかのどちらかだ！"
+		}
+		IchorApprenticeBait: {
+			DisplayName: "霊液の見習いの餌"
+			Tooltip: "気持ち悪くてベタベタ！"
+		}
+		IchorBait: {
+			DisplayName: "霊液の餌"
+			Tooltip: "気持ち悪くてベタベタ！"
+		}
+		IchorMasterBait: {
+			DisplayName: "霊液の達人の餌"
+			Tooltip: "気持ち悪くてベタベタ！"
+		}
+		MidasApprenticeBait: {
+			DisplayName: "強欲の見習いの餌"
+			Tooltip: "敵をコインに変える！"
+		}
+		MidasBait: {
+			DisplayName: "強欲の餌"
+			Tooltip: "敵をコインに変える！"
+		}
+		MidasMasterBait: {
+			DisplayName: "強欲の達人の餌"
+			Tooltip: "敵をコインに変える！"
+		}
+		OilApprenticeBait: {
+			DisplayName: "オイルの見習いの餌"
+			Tooltip: "非常に燃えやすい！"
+		}
+		OilBait: {
+			DisplayName: "オイルの餌"
+			Tooltip: "非常に燃えやすい！"
+		}
+		OilMasterBait: {
+			DisplayName: "オイルの達人の餌"
+			Tooltip: "非常に燃えやすい！"
+		}
+		PoisonApprenticeBait: {
+			DisplayName: "毒の見習いの餌"
+			Tooltip: "有毒！"
+		}
+		PoisonBait: {
+			DisplayName: "毒の餌"
+			Tooltip: "有毒！"
+		}
+		PoisonMasterBait: {
+			DisplayName: "毒の達人の餌"
+			Tooltip: "有毒！"
+		}
+		ShadowflameApprenticeBait: {
+			DisplayName: "シャドウフレイムの見習いの餌"
+			Tooltip: "ゴブリンから直送！"
+		}
+		ShadowflameBait: {
+			DisplayName: "シャドウフレイムの餌"
+			Tooltip: "ゴブリンから直送！"
+		}
+		ShadowflameMasterBait: {
+			DisplayName: "シャドウフレイムの達人の餌"
+			Tooltip: "ゴブリンから直送！"
+		}
+		Shadowflame: {
+			DisplayName: "シャドウフレイム"
+			Tooltip: "ゴブリンサモナーからの最も純粋な炎"
+		}
+		SolarfireApprenticeBait: {
+			DisplayName: "ソーラーファイアの見習いの餌"
+			Tooltip: "太陽のように熱い！"
+		}
+		SolarfireBait: {
+			DisplayName: "ソーラーファイアの餌"
+			Tooltip: "太陽のように熱い！"
+		}
+		SolarfireMasterBait: {
+			DisplayName: "ソーラーファイアの達人の餌"
+			Tooltip: "太陽のように熱い！"
+		}
+		VenomApprenticeBait: {
+			DisplayName: "猛毒の見習いの餌"
+			Tooltip: "猛毒！"
+		}
+		VenomBait: {
+			DisplayName: "猛毒の餌"
+			Tooltip: "猛毒！"
+		}
+		VenomMasterBait: {
+			DisplayName: "猛毒の達人の餌"
+			Tooltip: "猛毒！"
+		}
+		IceyWorm: {
+			DisplayName: "凍ったワーム"
+			Tooltip: "これで何が釣れるだろうか…"
+		}
+		CoolerBossBag: {
+			DisplayName: "トレジャーバッグ（クーラー）"
+			Tooltip: "右クリックで開ける"
+		}
+		Sandpaper: {
+			DisplayName: "紙やすり"
+			Tooltip: "物を滑らかにする、浮きも含む\n倒したり、無理に引き抜いたりした後、ほとんどが床に落ちるようになる"
+		}
+		AlienCrate: {
+			DisplayName: "エイリアンの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		AnkhCrate: {
+			DisplayName: "お守りの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		BeeCrate: {
+			DisplayName: "蜂の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		BloodCrate: {
+			DisplayName: "血の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		ChlorophyteCrate: {
+			DisplayName: "クロロファイトの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CorruptCrate: {
+			DisplayName: "不浄の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CrimsonCrate: {
+			DisplayName: "真紅の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		CritterCrate: {
+			DisplayName: "生き物の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		EclipseCrate: {
+			DisplayName: "日食の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		FrostLegionCrate: {
+			DisplayName: "フロストレギオンの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		FrostMoonCrate: {
+			DisplayName: "フロストムーンの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		GoblinCrate: {
+			DisplayName: "ゴブリンの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		GraniteCrate: {
+			DisplayName: "御影石の箱"
+			Tooltip: "右クリックで開ける"
+		}
+		HallowedCrate: {
+			DisplayName: "神聖な木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		LuminiteCrate: {
+			DisplayName: "ルミナイトの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		MarbleCrate: {
+			DisplayName: "大理石の箱"
+			Tooltip: "右クリックで開ける"
+		}
+		MeteorCrate: {
+			DisplayName: "隕石の箱"
+			Tooltip: "右クリックで開ける"
+		}
+		MimicCrate: {
+			DisplayName: "奇妙な木箱"
+			Tooltip: "これを開けようとすべきではないと何かが告げている…"
+		}
+		ObsidianCrate: {
+			DisplayName: "黒曜石の箱"
+			Tooltip: "右クリックで開ける"
+		}
+		OldOnesCrate: {
+			DisplayName: "オールドワンズの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		SandstormCrate: {
+			DisplayName: "砂嵐の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		ShroomiteCrate: {
+			DisplayName: "シュルーマイトの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		SlimeCrate: {
+			DisplayName: "スライムの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		SnowstormCrate: {
+			DisplayName: "吹雪の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		SoulCrate: {
+			DisplayName: "ソウルの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		SpookyCrate: {
+			DisplayName: "不気味な木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		TerraCrate: {
+			DisplayName: "テラ・木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		TreasureCrate: {
+			DisplayName: "宝の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		WingCrate: {
+			DisplayName: "翼の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		FishSteaks: {
+			DisplayName: "フィッシュステーキ"
+			Tooltip: "魚から作られ、通貨として使用される"
+		}
+		BetsyBobbers: {
+			DisplayName: "ベッツィの浮き"
+			Tooltip: "ラインを切るとフライングドラゴンのソニックブームを2発発射する"
+		}
+		DynamiteBobbers: {
+			DisplayName: "ダイナマイトの浮き"
+			Tooltip: "ラインを切るとダイナマイトを置き去りにする。タイルには優しくない。"
+		}
+		ExplosiveBobbers: {
+			DisplayName: "爆発の浮き"
+			Tooltip: "ラインを切るとグレネードを置き去りにする"
+		}
+		MolotovBobbers: {
+			DisplayName: "火炎瓶の浮き"
+			Tooltip: "ラインを切ると火を発生させる炎を置き去りにする"
+		}
+		NuclearBobbers: {
+			DisplayName: "核の浮き"
+			Tooltip: "ラインを切るとインフェルノの爆風を置き去りにする"
+		}
+		SandnadoBobbers: {
+			DisplayName: "古代の嵐の浮き"
+			Tooltip: "ラインを切ると古代の嵐を置き去りにする"
+		}
+		ScytheBobbers: {
+			DisplayName: "サイスの浮き"
+			Tooltip: "ラインを切るとデーモンサイスを2つ発射する"
+		}
+		ShadowBobbers: {
+			DisplayName: "影の浮き"
+			Tooltip: "ラインを切ると回転する刃を置き去りにする"
+		}
+		SnowyBobbers: {
+			DisplayName: "吹雪の浮き"
+			Tooltip: "敵をその場で凍らせる凍結コアを置き去りにする（刺さっている敵を除く）"
+		}
+		SpikyBallBobbers: {
+			DisplayName: "スパイクボールの浮き"
+			Tooltip: "ラインを切るとたくさんのスパイクボールを置き去りにする"
+		}
+		ApprenticeBaitBox: {
+			DisplayName: "見習いの餌箱"
+			Tooltip: "'''\n見習いの餌が6個入った箱\n右クリックで開ける\n'''"
+		}
+		BetsyBobbersBox: {
+			DisplayName: "ベッツィの浮きの箱"
+			Tooltip: "'''\nベッツィの浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		DynamiteBobbersBox: {
+			DisplayName: "ダイナマイトの浮きの箱"
+			Tooltip: "'''\nダイナマイトの浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		ExplosiveBobbersBox: {
+			DisplayName: "爆発の浮きの箱"
+			Tooltip: "'''\n爆発の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		MolotovBobbersBox: {
+			DisplayName: "火炎瓶の浮きの箱"
+			Tooltip: "'''\n火炎瓶の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		NuclearBobbersBox: {
+			DisplayName: "核の浮きの箱"
+			Tooltip: "'''\n核の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		SandnadoBobbersBox: {
+			DisplayName: "古代の嵐の浮きの箱"
+			Tooltip: "'''\n古代の嵐の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		ScytheBobbersBox: {
+			DisplayName: "サイスの浮きの箱"
+			Tooltip: "'''\nサイスの浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		ShadowBobbersBox: {
+			DisplayName: "影の浮きの箱"
+			Tooltip: "'''\n影の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		SnowyBobbersBox: {
+			DisplayName: "吹雪の浮きの箱"
+			Tooltip: "'''\n吹雪の浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		SpikyBallBobbersBox: {
+			DisplayName: "スパイクボールの浮きの箱"
+			Tooltip: "'''\nスパイクボールの浮きが6個入った箱\n右クリックで開ける\n'''"
+		}
+		JourneymanBaitBox: {
+			DisplayName: "熟練の餌箱"
+			Tooltip: "'''\n熟練の餌が6個入った箱\n右クリックで開ける\n'''"
+		}
+		MasterBaitBox: {
+			DisplayName: "達人の餌箱"
+			Tooltip: "'''\n達人の餌が6個入った箱\n右クリックで開ける\n'''"
+		}
+		BetsyScales: {
+			DisplayName: "ベッツィの鱗"
+			Tooltip: ""
+		}
+		CrustyStar: {
+			DisplayName: "硬い星"
+			Tooltip: "'''\n落ちてきた星、黒曜石で硬くなっている\nエキストラクティネーターで使用する\n'''"
+		}
+		EnergyAmalgamate: {
+			DisplayName: "エネルギーの融合体"
+			Tooltip: "濃縮されたソウル"
+		}
+		FractaliteBar: {
+			DisplayName: "フラクタイトのインゴット"
+			Tooltip: ""
+		}
+		FungalSpores: {
+			DisplayName: "菌類の胞子"
+			Tooltip: "毛皮の準備に使用できるかもしれない"
+		}
+		HoneyStar: {
+			DisplayName: "蜂蜜の星"
+			Tooltip: "'''\n落ちてきた星々、ハチによってくっついている\nかまどで蜂蜜を燃やし尽くす\n'''"
+		}
+		LesserEnergyAmalgamate: {
+			DisplayName: "下位のエネルギー融合体"
+			Tooltip: "濃縮された下位のソウル"
+		}
+		MasterBaiterCertificate: {
+			DisplayName: "マスターベイターの証明書"
+			Tooltip: "ワールドに設置すると強化餌をクラフトできる"
+		}
+		SeaweedStar: {
+			DisplayName: "海草の星"
+			Tooltip: "'''\n落ちてきた星、湿った（海）草で覆われている\nかまどで草を燃やし尽くす\n'''"
+		}
+		StarMix: {
+			DisplayName: "スターミックス"
+			Tooltip: "王族のジェル"
+		}
+		Buddylure: {
+			DisplayName: "バディルアー"
+			Tooltip: "'''\nあなたのために戦う2匹のバディフィッシュを召喚する\n通常の敵に対してダメージ2倍！\n'''"
+		}
+		CoolerPart: {
+			DisplayName: "クーラーの部品"
+			Tooltip: ""
+		}
+		FishSteakPart: {
+			DisplayName: "フィッシュステーキの部品"
+			Tooltip: ""
+		}
+		CratePetItem: {
+			DisplayName: "箱のチャーム"
+			Tooltip: "箱釣りで大いに役立つ箱のペットを召喚する"
+		}
+		BobEscalationPotion: {
+			DisplayName: "浮き激化ポーション"
+			Tooltip: "'''\n（旧）同じ敵に張り付いている間、ダメージが毎秒2%増加、最大100%まで\n（新）オーバーテンションとオーバーテンションダメージが20%増加\nオーバーテンションを付与する\n'''"
+		}
+		BobSpeedingPotion: {
+			DisplayName: "浮き加速ポーション"
+			Tooltip: "浮き速度を25%上昇させる"
+		}
+		FasterEscalationPotion: {
+			DisplayName: "高速激化ポーション"
+			Tooltip: "'''\n（旧）同じ敵に張り付いている間、ダメージが毎秒5%増加、最大100%まで\n（新）最大テンションが20%増加\nオーバーテンションとオーバーテンションダメージが50%増加\nオーバーテンションを付与する。\n'''"
+		}
+		FurtherEscalationPotion: {
+			DisplayName: "超高速激化ポーション"
+			Tooltip: "'''\n（旧）浮きの激化は最大300%のダメージに到達可能\n激化ダメージは発生しない\n（新）最大テンションを2倍に、最大オーバーテンションダメージを50%増加させる\nオーバーテンションは付与しない。\n'''"
+		}
+		MaximumEscalationPotion: {
+			DisplayName: "最大激化ポーション"
+			Tooltip: "'''\n（旧）同じ敵に張り付いている間、ダメージが毎秒8%増加、最大で通常ダメージの100倍まで\n（新）オーバーテンションとオーバーテンションダメージが10倍に増加\n最大テンションが8倍に増加\n'''"
+		}
+		AdamantiteBattlerod: {
+			DisplayName: "アダマンタイトのバトルロッド"
+			Tooltip: ""
+		}
+		BeeteoriteBattlerod: {
+			DisplayName: "ビーテオライトのバトルロッド"
+			Tooltip: "'''\n炎上と、餌が持つ可能性のある他のデバフを与えるファイアビーをスポーンさせる\n蜂がスポーンするたびに餌の時間が減少する\n'''"
+		}
+		BeetleBattlerod: {
+			DisplayName: "甲虫のバトルロッド"
+			Tooltip: "ビートルを放つ"
+		}
+		BetsyBattlerod: {
+			DisplayName: "ベッツィのバトルロッド"
+			Tooltip: "ベッツィの呪いを与える（NPCに）"
+		}
+		BlazeBeetleBattlerod: {
+			DisplayName: "燃え盛る甲虫のバトルロッド"
+			Tooltip: "燃え盛る爆発ビートルを放つ"
+		}
+		ChlorophyteBattlerod: {
+			DisplayName: "クロロファイトのバトルロッド"
+			Tooltip: "静止時に胞子を広げる"
+		}
+		CobaltBattlerod: {
+			DisplayName: "コバルトのバトルロッド"
+			Tooltip: ""
+		}
+		DeerstruckBattlerod: {
+			DisplayName: "ディアストラックのバトルロッド"
+			Tooltip: "影の手と流れ星…"
+		}
+		DragonMixBattlerod: {
+			DisplayName: "ドラゴンミックスバトルロッド"
+			Tooltip: "'''\nドラゴンの力！\nベッツィの呪いを与える（NPCに）\n泡を放つ\n'''"
+		}
+		EmpresssBattlerod: {
+			DisplayName: "女帝の個人用バトルロッド"
+			Tooltip: "きれいな光！"
+		}
+		EvilRodOfBlood: {
+			DisplayName: "邪悪なブラッドロッド"
+			Tooltip: "わずかにライフを奪う"
+		}
+		EvilRodOfDarkness: {
+			DisplayName: "邪悪なダークロッド"
+			Tooltip: "わずかにマナを吸収する"
+		}
+		FishronBattlerod: {
+			DisplayName: "フィッシュロンのバトルロッド"
+			Tooltip: "'''\n「海の王」\n泡を放つ\n'''"
+		}
+		ForbiddenBattlerod: {
+			DisplayName: "禁断のバトルロッド"
+			Tooltip: "古代の嵐に注意！"
+		}
+		FrostBattlerod: {
+			DisplayName: "氷のバトルロッド"
+			Tooltip: "フロストファイアの力が込められている。"
+		}
+		HallowedBattlerod: {
+			DisplayName: "神聖なバトルロッド"
+			Tooltip: "ボスに超効果的！"
+		}
+		HardTriadBattlerod: {
+			DisplayName: "ハードトライアドバトルロッド"
+			Tooltip: "'''\nボスにはあまり効果がないが、通常の敵には超効果的\n竜巻を生成し、フロストファイアを与える\n'''"
+		}
+		LifeforceBattlerod: {
+			DisplayName: "ライフフォースバトルロッド"
+			Tooltip: "'''\n対戦相手からライフを吸収する\n驚くほど速い\n'''"
+		}
+		MythrilBattlerod: {
+			DisplayName: "ミスリルのバトルロッド"
+			Tooltip: ""
+		}
+		OrichalcumBattlerod: {
+			DisplayName: "オリハルコンのバトルロッド"
+			Tooltip: "「とてもきれい！」"
+		}
+		PalladiumBattlerod: {
+			DisplayName: "パラジウムのバトルロッド"
+			Tooltip: ""
+		}
+		ShroomiteBattlerod: {
+			DisplayName: "シュルーマイトのバトルロッド"
+			Tooltip: "'''\n静止時にキノコを広げる\n驚くほど速い\n'''"
+		}
+		SlimeQueenBattlerod: {
+			DisplayName: "クイーンスライムのバトルロッド"
+			Tooltip: "スライミー！"
+		}
+		SpectreBattlerod: {
+			DisplayName: "スペクターバトルロッド"
+			Tooltip: "'''\n静止時にマグネットスフィアを広げる\nわずかにライフを奪う\n'''"
+		}
+		SpinyTurtleBattlerod: {
+			DisplayName: "トゲだらけのタートルバトルロッド"
+			Tooltip: "'''\n刺さっているとき、2倍のダメージを反射する\n「本質的にスマート！」\n'''"
+		}
+		SpookyBattlerod: {
+			DisplayName: "不気味なバトルロッド"
+			Tooltip: "餌を広げるコウモリを撃つ"
+		}
+		TerraBattlerod: {
+			DisplayName: "テラバトルロッド"
+			Tooltip: "'''\n伝説のロッド\n静止時に刃を撃つ\n'''"
+		}
+		TitaniumBattlerod: {
+			DisplayName: "チタンのバトルロッド"
+			Tooltip: ""
+		}
+		TurtleBattlerod: {
+			DisplayName: "タートルバトルロッド"
+			Tooltip: "'''\n刺さっているとき、すべてのダメージを反射する\nわずかな餌拡散\nタレットが餌を広げる\n'''"
+		}
+		BeeBattlerod: {
+			DisplayName: "蜂のバトルロッド"
+			Tooltip: "「たくさんのハチ！」"
+		}
+		CactusBattlerod: {
+			DisplayName: "サボテンのバトルロッド"
+			Tooltip: "「とげとげしい！」"
+		}
+		CoolerBattlerod: {
+			DisplayName: "クーラーバトルロッド"
+			Tooltip: "'''\n一度に3種類の強化餌を使用できる\n（ほとんど）ダメージを与えない\n'''"
+		}
+		CopperBattlerod: {
+			DisplayName: "銅のバトルロッド"
+			Tooltip: ""
+		}
+		CorruptBattlerod: {
+			DisplayName: "不浄なバトルロッド"
+			Tooltip: "ごくわずかにマナを吸収する"
+		}
+		CrimsonBattlerod: {
+			DisplayName: "真紅のバトルロッド"
+			Tooltip: "ごくわずかにライフを奪う"
+		}
+		DeerclopsBattlerod: {
+			DisplayName: "ディアクロップスのバトルロッド"
+			Tooltip: "'''\n2つの影を作り出す\n一度に2種類の強化餌を使用できる\n'''"
+		}
+		DungeonBattlerod: {
+			DisplayName: "ダンジョンのバトルロッド"
+			Tooltip: "見られているような気がする…"
+		}
+		EdgeBattlerod: {
+			DisplayName: "エッジバトルロッド"
+			Tooltip: ""
+		}
+		GoldBattlerod: {
+			DisplayName: "金のバトルロッド"
+			Tooltip: "'''\n金の釣竿ではない…\nお金が降ってくる音が聞こえる！\n'''"
+		}
+
+		HellstoneBattlerod: {
+			DisplayName: "溶岩のバトルロッド"
+			Tooltip: "'''\n敵を炎上させる！\n溶岩で釣りができる\n'''"
+		}
+		IronBattlerod: {
+			DisplayName: "鉄のバトルロッド"
+			Tooltip: ""
+		}
+		JungleBattlerod: {
+			DisplayName: "ジャングルのバトルロッド"
+			Tooltip: "敵を毒にする"
+		}
+		LeadBattlerod: {
+			DisplayName: "鉛のバトルロッド"
+			Tooltip: ""
+		}
+		MeteorBattlerod: {
+			DisplayName: "隕石のバトルロッド"
+			Tooltip: "'''\n敵を炎上させる！\nわずかな餌拡散\n'''"
+		}
+		PlatinumBattlerod: {
+			DisplayName: "プラチナのバトルロッド"
+			Tooltip: ""
+		}
+		SilverBattlerod: {
+			DisplayName: "銀のバトルロッド"
+			Tooltip: "ワーウルフに非常に効果的"
+		}
+		StarMixBattlerod: {
+			DisplayName: "スターミックスバトルロッド"
+			Tooltip: "ボスに対するダメージが2倍になる"
+		}
+		StarstruckBattlerod: {
+			DisplayName: "スターズトラックバトルロッド"
+			Tooltip: ""
+		}
+		TinBattlerod: {
+			DisplayName: "錫のバトルロッド"
+			Tooltip: ""
+		}
+		TungstenBattlerod: {
+			DisplayName: "タングステンのバトルロッド"
+			Tooltip: ""
+		}
+		WoodenBattlerod: {
+			DisplayName: "木のバトルロッド"
+			Tooltip: ""
+		}
+		FractaliteBattlerod: {
+			DisplayName: "フラクタイトのバトルロッド"
+			Tooltip: "'''\nソーラーファイアデバフを敵に与えるエリアを作り出す\n「本当に強い！」\nホーミング弾を発射する\n'''"
+		}
+		NebulaBattlerod: {
+			DisplayName: "ネビュラのバトルロッド"
+			Tooltip: "濡れると役立つピックアップを放つ"
+		}
+		PowerGuardBattlerod: {
+			DisplayName: "パワーガードバトルロッド"
+			Tooltip: "'''\n刺さっているとき、3倍のダメージを反射する\n「本質的にスマート！」\n燃え盛る爆発ビートルを放つ\n'''"
+		}
+		RegalSistersBattlerod: {
+			DisplayName: "リーガルシスターズバトルロッド"
+			Tooltip: "'''\nホーミング発射体が盛りだくさん！\n「釣りが本当に得意！」\n'''"
+		}
+		RodContainmentUnit: {
+			DisplayName: "ロッド格納ユニット"
+			Tooltip: "'''\n「究極のバトルロッド！」\n浮きの周りに大きなエリアを作り出し、中にいる者にダメージを与える\n'''"
+		}
+		SolarBattlerod: {
+			DisplayName: "ソーラーフレアのバトルロッド"
+			Tooltip: "'''\nソーラーファイアデバフを敵に与えるエリアを作り出す\n「本当に強い！」\n溶岩で釣りができる\n'''"
+		}
+		StardustBattlerod: {
+			DisplayName: "スターダストのバトルロッド"
+			Tooltip: "'''\n振ると2体のスターダストセルミニオンを生成する\n「釣りが本当に得意！」\n'''"
+		}
+		VortexBattlerod: {
+			DisplayName: "ボルテックスのバトルロッド"
+			Tooltip: "'''\nホーミング弾を発射する\n「本当に速い！」\n'''"
+		}
+		BeerPack: {
+			DisplayName: "ビールのパック"
+			Tooltip: "もうあまり冷たくない"
+		}
+		IceCreamer: {
+			DisplayName: "アイスクリーマー"
+			Tooltip: "4種類のフレーバーのいずれかを発射する！"
+		}
+		MagicSoda: {
+			DisplayName: "マジックソーダ"
+			Tooltip: "振ってスプレー！ダメージは通常、距離とともに減少する"
+		}
+		Melonbrand: {
+			DisplayName: "メロンブランド"
+			Tooltip: "振るとメロンのスライスを投げる"
+		}
+		VestContainmentVest: {
+			Tooltip: "フィッシング・パワーが200向上\n浮き速度と釣りダメージが50%増加"
+			DisplayName: "ベスト格納ベスト"
+		}
+		PantsContainmentPants: {
+			Tooltip: "'''\nフィッシング・パワーが100向上\n浮き速度と釣りダメージが25%増加\n'''"
+			DisplayName: "パンツ格納パンツ"
+		}
+		HatContainmentHat: {
+			Tooltip: "'''\nフィッシング・パワーが100向上\n浮き速度と釣りダメージが25%増加\n'''"
+			DisplayName: "ハット格納ハット"
+		}
+		LilSeidonVest: {
+			Tooltip: "'''\nフィッシング・パワーが8向上\n釣りダメージが5%増加\n'''"
+			DisplayName: "リルセイドンのベスト"
+		}
+		LilSeidonPants: {
+			Tooltip: "'''\nフィッシング・パワーが8向上\n浮き速度が3%上昇\n'''"
+			DisplayName: "リルセイドンのパンツ"
+		}
+		LilSeidonHat: {
+			Tooltip: "'''\nフィッシング・パワーが10向上\n浮き速度が2%上昇\n'''"
+			DisplayName: "リルセイドンの帽子"
+		}
+		BoneeBeeVest: {
+			Tooltip: "'''\nフィッシング・パワーが15向上\n釣りダメージが10%増加\n'''"
+			DisplayName: "ボニービーのベスト"
+		}
+		BoneeBeePants: {
+			Tooltip: "'''\nフィッシング・パワーが10向上\n浮き速度が8%上昇\n'''"
+			DisplayName: "ボニービーのパンツ"
+		}
+		BoneeBeeHat: {
+			Tooltip: "'''\nフィッシング・パワーが10向上\n浮き速度が8%上昇\n'''"
+			DisplayName: "ボニービーの帽子"
+		}
+		FishingEmblem: {
+			DisplayName: "釣りの紋章（ダメージ）"
+			Tooltip: "釣りダメージを15%増加させる"
+		}
+		FishingEmblemSpeed: {
+			DisplayName: "釣りの紋章（浮き速度）"
+			Tooltip: "浮き速度を15%上昇させる"
+		}
+		ReelAdvanced: {
+			DisplayName: "リール・アドバンスド"
+			Tooltip: "'''\nトリプルギアリール\nスローギア：巻き取り加速度と最高速度を20%/40%/60%低下\nファストギア：巻き取り加速度と最高速度を20%/40%/60%上昇\n「技術的には、もう一息！」\n'''"
+		}
+		ReelExpert: {
+			DisplayName: "リール・エキスパート"
+			Tooltip: "'''\nクアッドギアリール\nスローギア：巻き取り加速度と最高速度を20%/40%/60%/80%低下\nファストギア：巻き取り加速度と最高速度を20%/40%/60%/80%上昇\n「（ほぼ）完全な速度制御！」\n'''"
+		}
+		ReelLossless: {
+			DisplayName: "ロスレスリール"
+			Tooltip: "'''\nクインティプルギアリール\nスローギア：巻き取り加速度と最高速度を20%/40%/60%/80%/99%低下\nファストギア：巻き取り加速度と最高速度を20%/40%/60%/80%/99%上昇\nさらに最大テンションを15%/60%/135%/240%/375%増加！\n'''"
+		}
+		ReelSimple: {
+			DisplayName: "リール・シンプル"
+			Tooltip: "'''\nダブルギアリール\nスローギア：巻き取り加速度を20%/40%低下\nファストギア：巻き取り加速度を20%/40%上昇\n「そんなに複雑じゃない、本当だよ」\n'''"
+		}
+		ReelTraining: {
+			DisplayName: "トレーニングリール"
+			Tooltip: "'''\nシングルギアリール\nスローギア：巻き取り加速度を20%低下\nファストギア：巻き取り加速度を20%上昇\n「赤ちゃんのステップ…」\n'''"
+		}
+		FishingDamagePotion: {
+			DisplayName: "漁師の腕力ポーション"
+			Tooltip: "釣りダメージを25%増加させる"
+		}
+		TensionOil: {
+			DisplayName: "テンションオイル"
+			Tooltip: "'''\n手の届きにくいボスに！\n最低テンションを50%減少し、最大テンションを50%増加させる\n'''"
+		}
+		MachinegunTurretV2: {
+			DisplayName: "マシンガンタレットV2"
+			Tooltip: ""
+		}
+		DiscardableFlintlockShooterChlorophyte: {
+			DisplayName: "フリントロックの浮き（クロロファイト）"
+			Tooltip: "ラインを切るとクロロファイト弾を発射する"
+		}
+		DiscardableFlintlockShooterCrystal: {
+			DisplayName: "フリントロックの浮き（クリスタル）"
+			Tooltip: "ラインを切るとクリスタル弾を発射する"
+		}
+		DiscardableFlintlockShooterLoaded: {
+			DisplayName: "フリントロックの浮き（装填済み）"
+			Tooltip: "ラインを切ると弾丸を発射する"
+		}
+		DiscardableFlintlockShooterMeteor: {
+			DisplayName: "フリントロックの浮き（メテオライト）"
+			Tooltip: "ラインを切るとメテオライト弾を発射する"
+		}
+		DiscardableFlintlockShooterUnloaded: {
+			DisplayName: "フリントロックの浮き（未装填）"
+			Tooltip: "リチャージャーで弾丸を装填して、再び使い捨て浮きとして使用する！"
+		}
+		DiscardableBoomstickShooterChlorophyte: {
+			DisplayName: "ブームスティックの浮き（クロロファイト）"
+			Tooltip: "ラインを切るとクロロファイト弾を5発発射する"
+		}
+		DiscardableBoomstickShooterCrystal: {
+			DisplayName: "ブームスティックの浮き（クリスタル）"
+			Tooltip: "ラインを切るとクリスタル弾を5発発射する"
+		}
+		DiscardableBoomstickShooterLoaded: {
+			DisplayName: "ブームスティックの浮き（装填済み）"
+			Tooltip: "ラインを切ると弾丸を5発発射する"
+		}
+		DiscardableBoomstickShooterMeteor: {
+			DisplayName: "ブームスティックの浮き（メテオ）"
+			Tooltip: "ラインを切るとメテオライト弾を5発発射する"
+		}
+		DiscardableBoomstickShooterUnloaded: {
+			DisplayName: "ブームスティックの浮き（未装填）"
+			Tooltip: "リチャージャーで弾丸を装填して、再び使い捨て浮きとして使用する！"
+		}
+		PistolTurretV1: {
+			DisplayName: "ピストルタレット（マスケット）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- 弾丸1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV2: {
+			DisplayName: "ピストルタレットv2（マスケット）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- マスケット弾1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV3: {
+			DisplayName: "ピストルタレットv3（マスケット）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- マスケット弾1発\n最大持続時間10分\n'''"
+		}
+		BeeTurretV1: {
+			DisplayName: "ハチタレット"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとに発射：\n- ターゲットに直接ハチ1匹、または75%ダメージのハチ2匹\n最大持続時間5分\n'''"
+		}
+		BeeTurretV2: {
+			DisplayName: "ハチタレットv2"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ハチ1匹、または75%ダメージのハチ2匹\n最大持続時間7分\n'''"
+		}
+		BeeTurretV3: {
+			DisplayName: "ハチタレットv3"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ハチ1匹、または75%ダメージのハチ2匹\n最大持続時間10分\n'''"
+		}
+		BeetleTurretV1: {
+			DisplayName: "ビートルタレット"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒発射：\n- 125%ダメージのビートル1匹を直接ターゲットに、または75%ダメージのビートル4匹\n最大持続時間5分\n'''"
+		}
+		BeetleTurretV2: {
+			DisplayName: "ビートルタレットv2"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒スプレッダーを発射し、尽きるとスポーン：\n- 125%ダメージのビートル1匹を直接ターゲットに、または75%ダメージのビートル4匹\n最大持続時間7分\n'''"
+		}
+		BeetleTurretV3: {
+			DisplayName: "ビートルタレットv3"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒Lv2スプレッダーを発射し、尽きるとスポーン：\n- 125%ダメージのビートル1匹を直接ターゲットに、または75%ダメージのビートル4匹\n最大持続時間10分\n'''"
+		}
+		LaserTurret: {
+			DisplayName: "レーザータレット"
+			Tooltip: "'''\nどの浮きでも水平方向にレーザーを発射できるようになる。\n最大持続時間5分\n'''"
+		}
+		DoubleLaserTurret: {
+			DisplayName: "ダブルレーザータレット"
+			Tooltip: "'''\nどの浮きでも両方の水平方向にレーザーを発射できるようになる。\n最大持続時間10分\n'''"
+		}
+		LandmineTurret: {
+			DisplayName: "地雷タレット"
+			Tooltip: "'''\nどの浮きでも近接地雷を発射できるようになる。\n最大持続時間5分\n'''"
+		}
+		UnusaciesBattlerod: {
+			DisplayName: "ユヌサシーズバトルロッド"
+			Tooltip: "エンドロール！"
+		}
+		EmptyPistolTurretV1: {
+			DisplayName: "空のピストルタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはマスケットの弾丸、銀/タングステン弾、メテオショット、クリスタル弾、クロロファイト弾、またはルミナイト弾が100個必要\n'''"
+		}
+		EmptyPistolTurretV2: {
+			DisplayName: "空のピストルタレットV2"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはマスケットの弾丸、銀/タングステン弾、メテオショット、クリスタル弾、クロロファイト弾、またはルミナイト弾が100個必要\n'''"
+		}
+		EmptyPistolTurretV3: {
+			DisplayName: "空のピストルタレットV3"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはマスケットの弾丸、銀/タングステン弾、メテオショット、クリスタル弾、クロロファイト弾、またはルミナイト弾が100個必要\n'''"
+		}
+		PistolTurretV1Chlorophyte: {
+			DisplayName: "ピストルタレット（クロロファイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- クロロファイト弾1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV1Crystal: {
+			DisplayName: "ピストルタレット（クリスタル）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- クリスタル弾1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV1Luminite: {
+			DisplayName: "ピストルタレット（ルミナイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- ルミナイト弾1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV1Meteor: {
+			DisplayName: "ピストルタレット（メテオ）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- メテオショット1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV1Silver: {
+			DisplayName: "ピストルタレット（銀）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとに発射：\n- 銀の弾丸1発\n最大持続時間5分\n'''"
+		}
+		PistolTurretV2Chlorophyte: {
+			DisplayName: "ピストルタレットv2（クロロファイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- クロロファイト弾1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV2Crystal: {
+			DisplayName: "ピストルタレットv2（クリスタル）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- クリスタル弾1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV2Luminite: {
+			DisplayName: "ピストルタレットv2（ルミナイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- ルミナイト弾1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV2Meteor: {
+			DisplayName: "ピストルタレットv2（メテオ）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- メテオショット1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV2Silver: {
+			DisplayName: "ピストルタレットv2（銀）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- 銀の弾丸1発\n最大持続時間7分\n'''"
+		}
+		PistolTurretV3Chlorophyte: {
+			DisplayName: "ピストルタレットv3（クロロファイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- クロロファイト弾1発\n最大持続時間10分\n'''"
+		}
+		PistolTurretV3Crystal: {
+			DisplayName: "ピストルタレットv3（クリスタル）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- クリスタル弾1発\n最大持続時間10分\n'''"
+		}
+		PistolTurretV3Luminite: {
+			DisplayName: "ピストルタレットv3（ルミナイト）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- ルミナイト弾1発\n最大持続時間10分\n'''"
+		}
+		PistolTurretV3Meteor: {
+			DisplayName: "ピストルタレットv3（メテオ）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- メテオショット1発\n最大持続時間10分\n'''"
+		}
+		PistolTurretV3Silver: {
+			DisplayName: "ピストルタレットv3（銀）"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる。\n1.5秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- 銀の弾丸1発\n最大持続時間10分\n'''"
+		}
+		Recharger: {
+			DisplayName: "リチャージャー"
+			Tooltip: "'''\nワールドに設置してタレットを再充電できるようにする\nほとんどのタレットはアイテムを消費し、1分で再充電される。\n最低速度！\n'''"
+		}
+		Hellcharger: {
+			DisplayName: "ヘルチャージャー"
+			Tooltip: "'''\nワールドに設置してタレットを再充電できるようにする\nほとんどのタレットはアイテムを消費し、30秒で再充電される。\n中速！\n'''"
+		}
+		LunarRecharger: {
+			DisplayName: "ルナリチャージャー"
+			Tooltip: "'''\nワールドに設置してタレットを再充電できるようにする\nほとんどのタレットはアイテムを消費し、15秒で再充電される！\n最高速度！\n'''"
+		}
+		EmptySpiderTurret: {
+			DisplayName: "空のスパイダータレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n女王クモの杖またはドリームウィーバーバトルロッドが必要だが、消費はしない。\n'''"
+		}
+		SpiderTurret: {
+			DisplayName: "スパイダータレット"
+			Tooltip: "'''\nどの浮きでも静止時に発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- スパイダー！\n最大持続時間5分\n'''"
+		}
+		BeetleTurretV1Blaze: {
+			DisplayName: "ビートルタレット（ブレイズ）"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒発射：\n- 125%ダメージのブレイズビートル1匹を直接ターゲットに、または75%ダメージのブレイズビートル4匹\n最大持続時間5分\n'''"
+		}
+		BeetleTurretV2Blaze: {
+			DisplayName: "ビートルタレットv2（ブレイズ）"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒スプレッダーを発射し、尽きるとスポーン：\n- 125%ダメージのブレイズビートル1匹を直接ターゲットに、または75%ダメージのブレイズビートル4匹\n最大持続時間10分\n'''"
+		}
+		BeetleTurretV3Blaze: {
+			DisplayName: "ビートルタレットv3（ブレイズ）"
+			Tooltip: "'''\nどの浮きでも静止時にビートルを発射できるようになる。\n毎秒Lv2スプレッダーを発射し、尽きるとスポーン：\n- 125%ダメージのブレイズビートル1匹を直接ターゲットに、または75%ダメージのブレイズビートル4匹\n最大持続時間10分\n'''"
+		}
+		EmptyBeetleTurretV1: {
+			DisplayName: "空のビートルタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n甲虫の殻（消費）または燃え盛る/甲虫のバトルロッド（非消費）が必要。\n'''"
+		}
+		EmptyBeetleTurretV2: {
+			DisplayName: "空のビートルタレットv2"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n甲虫の殻（消費）または燃え盛る/甲虫のバトルロッド（非消費）が必要。\n'''"
+		}
+		EmptyBeetleTurretV3: {
+			DisplayName: "空のビートルタレットv3"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n甲虫の殻（消費）または燃え盛る/甲虫のバトルロッド（非消費）が必要。\n'''"
+		}
+		EmptyDoubleLaserTurret: {
+			DisplayName: "空のダブルレーザータレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\nリチャージャーでゆっくりと再装填されるが、再充電に何も必要としない。\n'''"
+		}
+		EmptyFlamerTurret: {
+			DisplayName: "空のフレイマータレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはジェルが必要。\n'''"
+		}
+		EmptyLaserTurret: {
+			DisplayName: "空のレーザータレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\nリチャージャーでゆっくりと再装填されるが、再充電に何も必要としない。\n'''"
+		}
+		FlamerTurret: {
+			DisplayName: "フレイマータレット"
+			Tooltip: "'''\nどの浮きでも静止時に炎を発射できるようになる。\n2秒ごとに発射：\n- 5回の炎のバースト\n最大持続時間5分\n'''"
+		}
+		BeeTurretV1Bonee: {
+			DisplayName: "ハチタレット（ボニー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとに発射：\n- ターゲットに直接ボニービー1匹、または75%ダメージのボニービー2匹\n最大持続時間5分\n'''"
+		}
+		BeeTurretV1FireBee: {
+			DisplayName: "ハチタレット（ファイアビー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとに発射：\n- ターゲットに直接ファイアビー1匹、または75%ダメージのファイアビー2匹\n最大持続時間5分\n'''"
+		}
+		BeeTurretV2Bonee: {
+			DisplayName: "ハチタレットv2（ボニー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ボニービー1匹、または75%ダメージのボニービー2匹\n最大持続時間7分\n'''"
+		}
+		BeeTurretV2FireBee: {
+			DisplayName: "ハチタレットv2（ファイアビー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ファイアビー1匹、または75%ダメージのファイアビー2匹\n最大持続時間7分\n'''"
+		}
+		BeeTurretV3Bonee: {
+			DisplayName: "ハチタレットv3（ボニー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ボニービー1匹、または75%ダメージのボニービー2匹\n最大持続時間10分\n'''"
+		}
+		BeeTurretV3FireBee: {
+			DisplayName: "ハチタレットv3（ファイアビー）"
+			Tooltip: "'''\nどの浮きでも静止時にハチを発射できるようになる。\n2秒ごとにLv2スプレッダーを発射し、尽きるとスポーン：\n- ターゲットに直接ファイアビー1匹、または75%ダメージのファイアビー2匹\n最大持続時間10分\n'''"
+		}
+		EmptyBeeTurretV1: {
+			DisplayName: "空のハチタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電には蜂蜜ブロック、こんがり蜂蜜ブロック、または骨が必要。\n'''"
+		}
+		EmptyBeeTurretV2: {
+			DisplayName: "空のハチタレットv2"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電には蜂蜜ブロック、こんがり蜂蜜ブロック、または骨が必要。\n'''"
+		}
+		EmptyBeeTurretV3: {
+			DisplayName: "空のハチタレットv3"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電には蜂蜜ブロック、こんがり蜂蜜ブロック、または骨が必要。\n'''"
+		}
+		EmptyNailTurret: {
+			DisplayName: "空のネイルタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはタングステン/シルバーバーが必要。\nハードモードで釘を使うとより良い結果が得られる！\n'''"
+		}
+		EmptySpikeballTurretV1: {
+			DisplayName: "空のスパイクボールタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはスパイクボールが必要。\nスパイクボールトラップで再充電するとさらに楽しい！\n'''"
+		}
+		EmptySpikeballTurretV2: {
+			DisplayName: "空のスパイクボールタレットv2"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはスパイクボールが必要。\nスパイクボールトラップで再充電するとさらに楽しい！\n'''"
+		}
+		EmptySpikeballTurretV3: {
+			DisplayName: "空のスパイクボールタレットV3"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはスパイクボールが必要。\nスパイクボールトラップで再充電するとさらに楽しい！\n'''"
+		}
+		NailTurret: {
+			DisplayName: "ネイルタレット"
+			Tooltip: "'''\nどの浮きでも静止時に釘を発射できるようになる。\n2秒ごとに発射：\n- 爆発性の釘のセット！\n最大持続時間5分\n'''"
+		}
+		SpikeballTurretV1: {
+			DisplayName: "スパイクボールタレット"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる。\n2秒ごとにスプレッダーを発射し、撃つ：\n- スパイクボール1個！\n最大持続時間5分\n'''"
+		}
+		SpikeballTurretV1Trap: {
+			DisplayName: "スパイクボールタレット（トラップ）"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる。\n2秒ごとにスプレッダーを発射し、撃つ：\n- リザードのスパイクボール1個！\n最大持続時間5分\nこれを使うのは良い考えではない…\n'''"
+		}
+		SpikeballTurretV2: {
+			DisplayName: "スパイクボールタレットv2"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる。\n2秒ごとにLv2スプレッダーを発射し、撃つ：\n- スパイクボール1個！\n最大持続時間7分\n'''"
+		}
+		SpikeballTurretV2Trap: {
+			DisplayName: "スパイクボールタレットv2（トラップ）"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる。\n2秒ごとにLv2スプレッダーを発射し、撃つ：\n- リザードのスパイクボール1個！\n最大持続時間7分\nこれを使うのは良い考えではない…\n'''"
+		}
+		SpikeballTurretV3: {
+			DisplayName: "スパイクボールタレットv3"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる\n2秒ごとにLv3スプレッダーを発射し、撃つ：\n- スパイクボール1個！\n最大持続時間10分\n'''"
+		}
+		SpikeballTurretV3Trap: {
+			DisplayName: "スパイクボールタレットv3（トラップ）"
+			Tooltip: "'''\nどの浮きでも静止時にスパイクボールを発射できるようになる\n2秒ごとにLv3スプレッダーを発射し、撃つ：\n- リザードのスパイクボール1個！\n最大持続時間10分\nこれを使うのは良い考えではない…\n'''"
+		}
+		TrueNailTurret: {
+			DisplayName: "真・ネイルタレット"
+			Tooltip: "'''\nどの浮きでも静止時に釘を発射できるようになる\n2秒ごとに発射：\n- より強力な爆発性の釘のセット！\n最大持続時間5分\n'''"
+		}
+		ElectromissileTurret: {
+			DisplayName: "エレクトロミサイルタレット"
+			Tooltip: "'''\nどの浮きでも静止時にロケットを発射できるようになる\n2秒ごとに発射：\n- エレクトロスフィアロケット\n最大持続時間10分\n'''"
+		}
+		EmptyElectromissileTurret: {
+			DisplayName: "空のエレクトロミサイルタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはロケットIが必要。\n'''"
+		}
+		EmptyLandmineTurret: {
+			DisplayName: "空の地雷タレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電には地雷が必要\n'''"
+		}
+		EmptyTyphoonTurret: {
+			DisplayName: "空のタイフーンタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはマナクリスタルまたはグレートマナポーションが必要\n'''"
+		}
+		TyphoonTurret: {
+			DisplayName: "タイフーンタレット"
+			Tooltip: "'''\nどの浮きでも静止時に発射できるようになる\n2秒ごとに発射：\n- 渦潮の刃のセット！\n最大持続時間10分\n'''"
+		}
+		EmptyNavalArtillery: {
+			DisplayName: "空の海軍砲"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電には高速弾または爆発弾が必要\n'''"
+		}
+		EmptyResonanceTurret: {
+			DisplayName: "空のレゾナンスタレット"
+			Tooltip: "'''\n枯渇したタレット、リチャージャーで再充電が必要\n再充電にはマナクリスタルまたはグレートマナポーションが必要\n'''"
+		}
+		NavalArtillery: {
+			DisplayName: "海軍砲"
+			Tooltip: "'''\nどの浮きでも静止時に弾丸を発射できるようになる\n2秒ごとに発射：\n- 高出力の高速弾の連鎖\n最大持続時間10分\n'''"
+		}
+		ResonanceTurret: {
+			DisplayName: "レゾナンスタレット"
+			Tooltip: "'''\nどの浮きでも静止時に発射できるようになる\n2秒ごとに発射：\n- 高出力の共鳴波の連鎖\n最大持続時間10分\n'''"
+		}
+		WormWings: {
+			DisplayName: "ワームの翼"
+			Tooltip: "'''\nワームでできた翼！\n歩くとワームがスポーンする\nトリュフワームがあなたから逃げなくなる\n近くにいるワームが多いほど小さなボーナス！\nボーナスはワームの種類によって異なる\n'''"
+		}
+		SuspiciousLookingFishSteak: {
+			DisplayName: "怪しげなフィッシュステーキ"
+			Tooltip: "ペットのチャーミングなセイウチを召喚する"
+		}
+		WireTransfer: {
+			DisplayName: "ワイヤートランスファー"
+			Tooltip: "1ヒットあたり99カッパ―コインを犠牲にして、ダメージを399に制限する"
+		}
+		WireTransferGold: {
+			DisplayName: "ワイヤートランスファー（金）"
+			Tooltip: "1ヒットあたり99ゴールドコインを犠牲にして、ダメージを99に制限する"
+		}
+		WireTransferPlatinum: {
+			DisplayName: "ワイヤートランスファー（プラチナ）"
+			Tooltip: "1ヒットあたり1プラチナコインを犠牲にして、ダメージを9に制限する\n以前のワイヤートランスファーのコストを99%削減する"
+		}
+		WireTransferSilver: {
+			DisplayName: "ワイヤートランスファー（銀）"
+			Tooltip: "1ヒットあたり99シルバーコインを犠牲にして、ダメージを199に制限する"
+		}
+		FruitCrate: {
+			DisplayName: "フルーツの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		LihzahrdCrate: {
+			DisplayName: "リザードの木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		TheCratestCrate: {
+			DisplayName: "最高の木箱"
+			Tooltip: "'''\n右クリックで開ける\n本当に最高！\n'''"
+		}
+		HeartOfMillions: {
+			DisplayName: "百万の心臓"
+			Tooltip: "100万以上の体力を持つ敵を倒した証！100万ごとに1つ"
+		}
+		BaitBox: {
+			DisplayName: "餌箱"
+			Tooltip: "バトルロッドに餌スロットを1つ追加する"
+		}
+		FishGlue: {
+			DisplayName: "魚の糊"
+			Tooltip: "バトルロッドに使い捨て浮きスロットを1つ追加する"
+		}
+		TurretDisperser: {
+			DisplayName: "タレット拡散機"
+			Tooltip: "'''\nタレットの発射体がヒット時に餌デバフを与えるようになる\n餌拡散機を装備している場合、周囲にも餌を拡散する\n'''"
+		}
+		TurretTrigger: {
+			DisplayName: "タレットトリガー"
+			Tooltip: "バトルロッドにタレットスロットを1つ追加する"
+		}
+		CobwebCrate: {
+			DisplayName: "クモの巣の箱"
+			Tooltip: "右クリックで開ける"
+		}
+		DyeCrate: {
+			DisplayName: "染料の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		FlowerCrate: {
+			DisplayName: "花の木箱"
+			Tooltip: "右クリックで開ける"
+		}
+		GeodeCrate: {
+			DisplayName: "ジオードの箱"
+			Tooltip: "右クリックで開ける"
+		}
+		TopazBattlerod: {
+			Tooltip: ""
+			DisplayName: "トパーズのバトルロッド"
+		}
+		ShimmeringBattlerod: {
+			Tooltip: "「宝石が混ざり合った！」"
+			DisplayName: "シマーのバトルロッド"
+		}
+		SapphireBattlerod: {
+			Tooltip: ""
+			DisplayName: "サファイアのバトルロッド"
+		}
+		RubyBattlerod: {
+			Tooltip: ""
+			DisplayName: "ルビーのバトルロッド"
+		}
+		PrismaticBattlerod: {
+			Tooltip: "「宝石の融合！」"
+			DisplayName: "プリズムバトルロッド"
+		}
+		EmeraldBattlerod: {
+			Tooltip: ""
+			DisplayName: "エメラルドのバトルロッド"
+		}
+		DiamondBattlerod: {
+			Tooltip: ""
+			DisplayName: "ダイヤモンドのバトルロッド"
+		}
+		AmethystBattlerod: {
+			Tooltip: ""
+			DisplayName: "アメジストのバトルロッド"
+		}
+		AmberBattlerod: {
+			Tooltip: ""
+			DisplayName: "コハクのバトルロッド"
+		}
+		SpiderBattlerod: {
+			Tooltip: "スパイダーをスポーンさせる！"
+			DisplayName: "クモのバトルロッド"
+		}
+		HardlightBattlerod: {
+			Tooltip: "本物の光から作られた！"
+			DisplayName: "ハードライトのバトルロッド"
+		}
+		DreamweaverSpiderTurret: {
+			DisplayName: "ドリームウィーバースパイダータレット"
+			Tooltip: "'''\nどの浮きでも静止時に発射できるようになる。\n1.5秒ごとにスプレッダーを発射し、尽きるとスポーン：\n- ドリームウィーバースパイダー！\n最大持続時間5分\n'''"
+		}
+		DreamweaverBattlerod: {
+			DisplayName: "ドリームウィーバーバトルロッド"
+			Tooltip: "敵からバフ耐性を奪い、遅くするスパイダーをスポーンさせる！"
+		}
+		MorallyWrongBattlerod: {
+			DisplayName: "モラリーロング"
+			Tooltip: "'''\nあなたの最も荒唐無稽な悪夢から！\nボスに超効果的！\n'''"
+		}
+		UltraFastMetronome: {
+			DisplayName: "ウルトラ高速メトロノーム"
+			Tooltip: "浮き速度を50%上昇させるが、釣りダメージを40%減少させる"
+		}
+		UltraSlowMetronome: {
+			DisplayName: "ウルトラ低速メトロノーム"
+			Tooltip: "釣りダメージを50%増加させるが、浮き速度を40%低下させる"
+		}
+		DarkSinker: {
+			DisplayName: "ダークシンカー"
+			Tooltip: "'''\nキャスト時に浮きを水中に沈ませる。\n釣りはできない\nまた、プレイヤーが水中にいる場合、浮き速度と釣りダメージが30%増加\n'''"
+		}
+		SuperSinker: {
+			DisplayName: "スーパーシンカー"
+			Tooltip: "'''\nキャスト時に浮きを水中に沈ませる。\n釣りはできない\nまた、プレイヤーが水中にいる場合、浮き速度と釣りダメージが15%増加\n'''"
+		}
+	}
+	Prefixes: {
+		BaitAdd1Prefix: {
+			DisplayName: "餌師の"
+		}
+		BaitAdd2Prefix: {
+			DisplayName: "熟練餌師の"
+		}
+		BaseBattlerodPrefix: {
+			DisplayName: ""
+		}
+		BobAdd1Prefix: {
+			DisplayName: "エキストラルアーの"
+		}
+		BobAdd4Prefix: {
+			DisplayName: "クアッドルアーの"
+		}
+		BobberAndDamageDecrease3Prefix: {
+			DisplayName: "静止した"
+		}
+		BobberAndDamageIncrease3Prefix: {
+			DisplayName: "双生の"
+		}
+		BobLose4Prefix: {
+			DisplayName: "クアッドルーザーの"
+		}
+		BobLosePrefix: {
+			DisplayName: "ルーザーの"
+		}
+		BobSpeedDecrease1Prefix: {
+			DisplayName: "緩慢な浮きの"
+		}
+		BobSpeedDecrease2Prefix: {
+			DisplayName: "鈍重な浮きの"
+		}
+		BobSpeedDecrease3Prefix: {
+			DisplayName: "静止した浮きの"
+		}
+		BobSpeedIncrease1Prefix: {
+			DisplayName: "浮きの"
+		}
+		BobSpeedIncrease2Prefix: {
+			DisplayName: "迅速な浮きの"
+		}
+		BobSpeedIncrease3Prefix: {
+			DisplayName: "最速の浮きの"
+		}
+		CrappyPrefix: {
+			DisplayName: "カニカマの"
+		}
+		DamageBobDecrease3Prefix: {
+			DisplayName: "短い"
+		}
+		DamageBobIncrease3Prefix: {
+			DisplayName: "致命的な"
+		}
+		DamageDecrease2Prefix: {
+			DisplayName: "脆弱な"
+		}
+		DamageDecrease1Prefix: {
+			DisplayName: "弱い"
+		}
+		DamageDecrease3Prefix: {
+			DisplayName: "無力な"
+		}
+		DamageIncrease1Prefix: {
+			DisplayName: "硬い"
+		}
+		DamageIncrease2Prefix: {
+			DisplayName: "より硬い"
+		}
+		DamageIncrease3Prefix: {
+			DisplayName: "最も硬い"
+		}
+		FishingOnlyPrefix: {
+			DisplayName: "トローラーの"
+		}
+		LegendaryPrefix: {
+			DisplayName: "伝説の"
+		}
+		OmnilurePrefix: {
+			DisplayName: "オムニルアーの"
+		}
+		DisperserPrefix: {
+			DisplayName: "キャリア"
+		}
+		Disperser2Prefix: {
+			DisplayName: "伝染性の"
+		}
+		SuperiorOmnilurePrefix: {
+			DisplayName: "上位オムニルアーの"
+		}
+		VelocityDecrease1Prefix: {
+			DisplayName: "届きが短い"
+		}
+		VelocityDecrease2Prefix: {
+			DisplayName: "ふにゃふにゃの"
+		}
+		VelocityIncrease1Prefix: {
+			DisplayName: "スピーディーな"
+		}
+		VelocityIncrease2Prefix: {
+			DisplayName: "高速の"
+		}
+		NoAmmoPrefix: {
+			DisplayName: "ブルーザー"
+		}
+	}
+	Projectiles: {
+		Beetle: {
+			DisplayName: "ビートル"
+		}
+		BlazeBeetleProjectile: {
+			DisplayName: "ブレイズビートル発射体"
+		}
+		AdamantiteBobber: {
+			DisplayName: "アダマンタイトの浮き"
+		}
+		BeeteoriteBobber: {
+			DisplayName: "ビーテオライトの浮き"
+		}
+		BeetleBobber: {
+			DisplayName: "甲虫の浮き"
+		}
+		BetsyBobber: {
+			DisplayName: "ベッツィの浮き"
+		}
+		BlazeBeetleBobber: {
+			DisplayName: "燃える甲虫の浮き"
+		}
+		ChlorophyteBobber: {
+			DisplayName: "クロロファイトの浮き"
+		}
+		CobaltBobber: {
+			DisplayName: "コバルトの浮き"
+		}
+		DeerstruckBobber: {
+			DisplayName: "ディアストラックの浮き"
+		}
+		DragonMixBobber: {
+			DisplayName: "ドラゴンミックスの浮き"
+		}
+		EmpresssPersonalBobber: {
+			DisplayName: "女帝のパーソナル浮き"
+		}
+		EvilRodOfBloodBobber: {
+			DisplayName: "血の邪悪なロッドの浮き"
+		}
+		EvilRodOfDarknessBobber: {
+			DisplayName: "闇の邪悪なロッドの浮き"
+		}
+		FishronBobber: {
+			DisplayName: "フィッシュロンの浮き"
+		}
+		ForbiddenBobber: {
+			DisplayName: "禁断の浮き"
+		}
+		FrostBobber: {
+			DisplayName: "フロストの浮き"
+		}
+		HallowedBobber: {
+			DisplayName: "神聖な浮き"
+		}
+		HardTriadBobber: {
+			DisplayName: "ハードトライアドの浮き"
+		}
+		LifeforceBobber: {
+			DisplayName: "ライフフォースの浮き"
+		}
+		MythrilBobber: {
+			DisplayName: "ミスリルの浮き"
+		}
+		OrichalcumBobber: {
+			DisplayName: "オリハルコンの浮き"
+		}
+		PalladiumBobber: {
+			DisplayName: "パラジウムの浮き"
+		}
+		QueenSlimeBobber: {
+			DisplayName: "クイーンスライムの浮き"
+		}
+		ShroomiteBobber: {
+			DisplayName: "シュルーマイトの浮き"
+		}
+		SpectreBobber: {
+			DisplayName: "スペクターの浮き"
+		}
+		SpinyTurtleBobber: {
+			DisplayName: "スパイニータートルの浮き"
+		}
+		SpookyBobber: {
+			DisplayName: "不気味な浮き"
+		}
+		TerraBobber: {
+			DisplayName: "テラバー"
+		}
+		TitaniumBobber: {
+			DisplayName: "チタンの浮き"
+		}
+		TurtleBobber: {
+			DisplayName: "タートル浮き"
+		}
+		BeeBobber: {
+			DisplayName: "ハチの浮き"
+		}
+		CactusBobber: {
+			DisplayName: "サボテンの浮き"
+		}
+		CoolerBobber: {
+			DisplayName: "クーラーの浮き"
+		}
+		CopperBobber: {
+			DisplayName: "銅の浮き"
+		}
+		CorruptBobber: {
+			DisplayName: "不浄な浮き"
+		}
+		CrimsonBobber: {
+			DisplayName: "真紅の浮き"
+		}
+		DeerclopsBobber: {
+			DisplayName: "ディアクロップスの浮き"
+		}
+		DungeonBobber: {
+			DisplayName: "ダンジョンの浮き"
+		}
+		EdgeBobber: {
+			DisplayName: "エッジの浮き"
+		}
+		GoldBobber: {
+			DisplayName: "金の浮き"
+		}
+		HellstoneBobber: {
+			DisplayName: "ヘルストーンの浮き"
+		}
+		IronBobber: {
+			DisplayName: "鉄の浮き"
+		}
+		JungleBobber: {
+			DisplayName: "ジャングルの浮き"
+		}
+		LeadBobber: {
+			DisplayName: "鉛の浮き"
+		}
+		MeteorBobber: {
+			DisplayName: "隕石の浮き"
+		}
+		PlatinumBobber: {
+			DisplayName: "プラチナの浮き"
+		}
+		SilverBobber: {
+			DisplayName: "銀の浮き"
+		}
+		StarMixBobber: {
+			DisplayName: "スターミックスの浮き"
+		}
+		StarstruckBobber: {
+			DisplayName: "スターズトラックの浮き"
+		}
+		TinBobber: {
+			DisplayName: "スズの浮き"
+		}
+		TungstenBobber: {
+			DisplayName: "タングステンの浮き"
+		}
+		WoodenBobber: {
+			DisplayName: "木の浮き"
+		}
+		FractaliteBobber: {
+			DisplayName: "フラクタイトの浮き"
+		}
+		NebulaBobber: {
+			DisplayName: "ネビュラの浮き"
+		}
+		PowerGuardBobber: {
+			DisplayName: "パワーガードの浮き"
+		}
+		RegalSistersBobber: {
+			DisplayName: "リーガルシスターズの浮き"
+		}
+		RodContainmentUnitBobber: {
+			DisplayName: "ロッド格納ユニットの浮き"
+		}
+		SolarBobber: {
+			DisplayName: "ソーラーフレアの浮き"
+		}
+		StardustBobber: {
+			DisplayName: "スターダストの浮き"
+		}
+		VortexBobber: {
+			DisplayName: "ボルテックスの浮き"
+		}
+		DiscardableBlade: {
+			DisplayName: "使い捨ての刃"
+		}
+		DiscardableDynamite: {
+			DisplayName: "使い捨てダイナマイト"
+		}
+		DiscardableElectricCore: {
+			DisplayName: "使い捨て電気コア"
+		}
+		DiscardableFireSpawner: {
+			DisplayName: "使い捨てファイヤースポーナー"
+		}
+		DiscardableGrenade: {
+			DisplayName: "使い捨てグレネード"
+		}
+		DiscardableNuke: {
+			DisplayName: "使い捨て核兵器"
+		}
+		DiscardableSnowball: {
+			DisplayName: "使い捨て雪玉"
+		}
+		DiscardableSpikyBall: {
+			DisplayName: "使い捨てスパイクボール"
+		}
+		FireBee: {
+			DisplayName: "ファイアビー"
+		}
+		FishyladyCleaver: {
+			DisplayName: "フィッシーレディクリーバー"
+		}
+		FishyladyKnife: {
+			DisplayName: "フィッシーレディナイフ"
+		}
+		Buddyfish: {
+			DisplayName: "バディフィッシュ"
+		}
+		CratePetProjectile: {
+			DisplayName: "箱ペット発射体"
+		}
+		Beer: {
+			DisplayName: "ビール"
+		}
+		ChocolateShot: {
+			DisplayName: "チョコレートショット"
+		}
+		GrapeSodaSpray: {
+			DisplayName: "グレープソーダスプレー"
+		}
+		MelonProjectile: {
+			DisplayName: "メロン発射体"
+		}
+		MintShot: {
+			DisplayName: "ミントショット"
+		}
+		StrawberryShot: {
+			DisplayName: "ストロベリーショット"
+		}
+		VanillaShot: {
+			DisplayName: "バニラショット"
+		}
+		BoneeBee: {
+			DisplayName: "ボニービー"
+		}
+		ChainsawBee: {
+			DisplayName: "チェーンソービー"
+		}
+		TurretSpreader: {
+			DisplayName: "タレットスプレッダー"
+		}
+		TurretLaser: {
+			DisplayName: "タレットレーザー"
+		}
+		UnusaciesBobber: {
+			DisplayName: "ユヌサシーズの浮き"
+		}
+		TurretRepeater: {
+			DisplayName: "タレットリピーター"
+		}
+		Brunee: {
+			DisplayName: "ブルーニー"
+		}
+		CharmingWalrusfishProjectile: {
+			DisplayName: "チャーミングセイウチ発射体"
+		}
+		TopazBobber: {
+			DisplayName: "トパーズの浮き"
+		}
+		ShimmeringBobber: {
+			DisplayName: "シマリングの浮き"
+		}
+		SapphireBobber: {
+			DisplayName: "サファイアの浮き"
+		}
+		RubyBobber: {
+			DisplayName: "ルビーの浮き"
+		}
+		PrismaticBobber: {
+			DisplayName: "プリズマティックの浮き"
+		}
+		HardlightBobber: {
+			DisplayName: "ハードライトの浮き"
+		}
+		EmeraldBobber: {
+			DisplayName: "エメラルドの浮き"
+		}
+		DiamondBobber: {
+			DisplayName: "ダイヤモンドの浮き"
+		}
+		AmethystBobber: {
+			DisplayName: "アメジストの浮き"
+		}
+		AmberBobber: {
+			DisplayName: "トパーズの浮き"
+		}
+		SpiderBobber: {
+			DisplayName: "スパイダーの浮き"
+		}
+		DreamweaverSpider: {
+			DisplayName: "ドリームウィーバースパイダー"
+		}
+		FireBat: {
+			DisplayName: "ファイアバット"
+		}
+		DreamweaverBobber: {
+			DisplayName: "ドリームウィーバーの浮き"
+		}
+		MorallyWrongBobber: {
+			DisplayName: "道徳的に間違った浮き"
+		}
+	}
+	Configs: {
+		FishSteakRecipesConfig: {
+			DisplayName: "フィッシュステーキのレシピ設定"
+			fishRecipes: {
+				Label: "フィッシュステーキの価値"
+				Tooltip: "フィッシュステーキに変換できるアイテムのリスト。変更にはリロードが必要。"
+			}
+			fishRecipesNotAuto: {
+				Label: "スライサーが切らない魚"
+				Tooltip: "フィッシュスライサーやキリングゲートを使用して自動的にフィッシュステーキに変換できないアイテムのリスト。変更にリロードは不要。"
+			}
+		}
+		FishToReplaceConfig: {
+			DisplayName: "置き換える魚の設定"
+			replaceAllFish: {
+				Label: "すべての魚を置き換える"
+				Tooltip: "このModが、釣れたアイテムを独自のアイテムに置き換えられるようにする。設定した場合、以下のリストは無視される。"
+			}
+			fishToReplace: {
+				Label: "置き換える魚"
+				Tooltip: "このModのアイテムに置き換えられる釣れたアイテムのリスト。変更にリロードは不要。"
+			}
+		}
+		UnuPlayerConfig: {
+			DisplayName: "Unuプレイヤー設定"
+			startWithRod: {
+				Label: "木のバトルロッドで開始"
+				Tooltip: ""
+			}
+			startWithBait: {
+				Label: "毒の餌で開始"
+				Tooltip: ""
+			}
+		}
+		UnuServerConfig: {
+			DisplayName: "Unuサーバー設定"
+			allowPrefixes: {
+				Label: "ロッドのプレフィックスを許可"
+				Tooltip: "このModがロッドにプレフィックスを付与すべきかどうか。簡単なプレイを望まない場合は無効にする。"
+			}
+			allowBorrowDamage: {
+				Label: "他のクラスからダメージスターを借りることを許可"
+				Tooltip: "このModが、バニラのクラスの最大ステータスを釣りダメージに加算する古いシステムを使用するかどうか。"
+			}
+			allowFishedItems: {
+				Label: "このModの釣れるアイテムを許可"
+				Tooltip: "このModが追加した箱が釣りで出現すべきかどうか。"
+			}
+			dontFallOnFloor: {
+				Label: "浮きは常に壊れる"
+				Tooltip: "ターゲットから外れたときに浮きが床に落ちないようにするかどうか。"
+			}
+			explosivesDamageEveryone: {
+				Label: "爆発物は全員にダメージを与える"
+				Tooltip: "グレネードおよびダイナマイトの浮きが、起爆したプレイヤーを含む全員にダメージを与えるべきか、そうでないか。"
+			}
+			noSellItems: {
+				Label: "売却すべきでないアイテム"
+				Tooltip: "セルゲートとキリングゲートがコインに置き換えないアイテム。"
+			}
+			forceSellItems: {
+				Label: "常に売却すべきアイテム"
+				Tooltip: "'''\nセルゲートとキリングゲートが最大スタックが1でなくてもコインに置き換えるアイテム。\n\n警告：ここに追加されたものは他のどの置き換えよりも優先されるため、置き換えオプションのすべての魚がここにある場合、箱は出現しない。フィッシュステーキも同様。\n'''"
+			}
+			rodBonus: {
+				Label: "ロッドテンションボーナス"
+				Tooltip: "このModのロッドがロッドテンションボーナスの恩恵を受けるかどうか。"
+			}
+			rodDamageBonus: {
+				Label: "ロッドテンションボーナス - ダメージ"
+				Tooltip: "このModにロッドテンションボーナスがある場合、それがダメージを乗算するかどうか。"
+			}
+			rodBobbingBonus: {
+				Label: "ロッドテンションボーナス - 浮き速度"
+				Tooltip: "このModにロッドテンションボーナスがある場合、それが浮き速度を低下させるかどうか。"
+			}
+			randomizedBobs: {
+				Label: "わずかにランダムな浮き"
+				Tooltip: "浮きが固定間隔で浮き沈みするか（false）、基本の浮き時間の1/2から3/2の間で変動するか"
+			}
+		}
+		Difficulties: {
+			Tooltip: ""
+			Vanilla: {
+				Label: "バニラ"
+			}
+			Experimental: {
+				Label: "エクスペリメンタル"
+			}
+			Calamity: {
+				Label: "Calamity"
+			}
+			Battlerods: {
+				Label: "バトルロッド"
+			}
+		}
+		UnuDificultyConfig: {
+			DisplayName: "Unu難易度設定"
+			difficulty: {
+				Label: "バランス"
+				Tooltip: "'''\nこのModのバランスを、バニラのTerrariaのエキスパートモード体験、Calamity modのエキスパート、またはオリジナルの（アン）バランスなバトルロッドに合わせるべきか。\nバニラバランスへの変更は、まずエクスペリメンタルモードで公開される。\n'''"
+			}
+			tensionOnly: {
+				Label: "テンションのみ"
+				Tooltip: "バトルロッドがテンションが最低値を上回っている場合にのみダメージを与えるかどうか。デフォルトはfalse"
+			}
+			oldEscalation: {
+				Label: "旧激化"
+				Tooltip: "バトルロッドが古い（固定増加）激化コードを使用するか、新しい（テンション修飾子）コードを使用するか。デフォルトはfalse"
+			}
+			tensionMode: {
+				Label: "テンションのみ"
+				Tooltip: "バトルロッドがワイヤーにテンションがある場合にのみダメージを与えるか、常にか、ボスにのみテンションをかけ、通常の敵にはテンションをかけないか。デフォルトはテンション不要"
+			}
+			ammoMode: {
+				Label: "ロッド弾薬モード"
+				Tooltip: "ロッド弾薬（餌、使い捨て、タレット、オプション）を使用しないか、古いシステム（弾薬スロットのみ）を使用するか、弾薬とロッドポーチの両方を使用し、弾薬を優先するかロッドポーチを優先するか、またはロッドポーチのみを使用するか。デフォルトはロッドポーチ優先。"
+			}
+			fishLadySellPotions: {
+				Label: "フィッシーレディのポーションショップ"
+				Tooltip: "フィッシーレディが2番目のショップでポーションと餌を販売するかどうか。デフォルトはfalse"
+			}
+			frozenOnBosses: {
+				Label: "凍結デバフはボスに効く"
+				Tooltip: "吹雪の浮きとドリームウィーバースパイダーからの凍結デバフがボスにも適用されるかどうか。（警告、効果が少しおかしくなることがある）"
+			}
+			bossBobberBreakHealthDivider: {
+				Label: "ボスが浮きから解放される：いつ"
+				Tooltip: "ボスタグの付いたNPCが、最大HP/[この値]の体力を失うごとにおおよそ浮きを壊そうとするかどうか。0と1は無効化する。"
+			}
+
+			bossBobberBreakChance: {
+				Label: "ボスが浮きから解放される：どのくらいの頻度で"
+				Tooltip: "ボスタグの付いたNPCが解放を試みるとき、どのくらいの頻度で成功するか。1/[この値]の確率。0は無効化、1は上記の値で保証された解放"
+			}
+		}
+		TensionMode: {
+			Tooltip: ""
+			TensionOnly: {
+				Label: "テンションのみ"
+			}
+			TensionOnBosses: {
+				Label: "ボスにテンション"
+			}
+			NoTension: {
+				Label: "テンションなし"
+			}
+		}
+		AmmoMode: {
+			Tooltip: ""
+			NoAmmo: {
+				Label: "弾薬なし"
+			}
+			Old: {
+				Label: "旧式"
+			}
+			AmmoFirst: {
+				Label: "弾薬優先"
+			}
+			DedicatedFirst: {
+				Label: "専用優先"
+			}
+			DedicatedOnly: {
+				Label: "専用のみ"
+			}
+		}
+	}
+	Keybinds: {
+		"Gear Shift": {
+			DisplayName: "ギアチェンジ（粘着モード時）またはタレット爆発（タレットモード時）"
+		}
+		"Turret Mode": {
+			DisplayName: "タレットモード切り替え（非粘着または粘着モード）"
+		}
+	}
+	DamageClasses: {
+		FishingDamage: {
+			DisplayName: "釣りダメージ"
+		}
+	}
+	InfoDisplays: {
+		RodTensionInfoDisplay: {
+			DisplayName: "ロッドテンション情報表示"
+		}
+	}
+}

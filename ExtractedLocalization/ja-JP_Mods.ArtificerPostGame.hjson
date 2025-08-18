@@ -1,0 +1,429 @@
+Projectiles: {
+	ClimaxBeam: {
+		DisplayName: Climax Beam
+	}
+
+	ClimaxDeathray: {
+		DisplayName: Climax Deathray
+	}
+
+	CatDrone: {
+		DisplayName: C.A.T. Drone
+	}
+
+	DroneBeam: {
+		DisplayName: Garfield Laser
+	}
+
+	DroneMissile: {
+		DisplayName: Garfield Missile
+	}
+
+	ProtectorShield: {
+		DisplayName: Protector Shield Generator
+	}
+
+	FluxForceBlast: {
+		DisplayName: Flux Force Blast
+	}
+
+	LienLifesteal2: {
+		DisplayName: Lien Lifesteal
+	}
+
+	LienKnife3: {
+		DisplayName: Lien Knife
+	}
+
+	LienKnife2: {
+		DisplayName: Righteous Knife
+	}
+
+	StarstrikeBlast: {
+		DisplayName: Starstrike Blast
+	}
+
+	SupernovaBlast: {
+		DisplayName: Supernova
+	}
+}
+
+Buffs: {
+	PermalloyProtection: {
+		Description: A nearby shield generator is greatly reducing damage taken!
+		DisplayName: Protector Shield
+	}
+
+	Apotheosis: {
+		Description: Empowered with incredible strength, endurance, regeneration, and mobility!
+		DisplayName: Apotheosis
+	}
+
+	HPStim5: {
+		Description: Rapidly regenerating health
+		DisplayName: Ultimate Vital Stimulation
+	}
+
+	ManaStim5: {
+		Description: Rapidly regenerating mana
+		DisplayName: Ultimate Arcana Stimulation
+	}
+
+	ElectrifiedEnemy2: {
+		Description: The enemy is overloaded with galvanic energy and taking constant damage
+		DisplayName: Overshock
+	}
+
+	PermarmorBuff: {
+		DisplayName: Permarmor Protection
+		Description: Your Permarmor's defenses are powered up, immensely decreasing damage taken!
+	}
+
+	SupernovaSurge: {
+		Description: Overflowing cosmic energy empowers your offense and defense!
+		DisplayName: Supernova Surge
+	}
+}
+
+Items: {
+	PermarmorAbilityDummy: {
+		Tooltip:
+			'''
+			[placeholder]
+			NOTICE: This item is meant to be unobtainable!
+			It is internally used to facilitate Permarmor's Set Bonus ability
+			Has no functional use in-game
+			If you found this item without an item browser or cheat mod then something's gone wrong
+			'Don't even think about equipping it...'
+			'''
+		DisplayName: Permarmor Ability Dummy
+	}
+
+	RighteousRequiem: {
+		AbilityDesc:
+			'''
+			Manifests a torrent of righteous vampire knives that will steal the life of enemies they hit
+			Smaller knives are unleashed at the beginning of the attack and also rain down when larger knives cause damage
+			Whenever you are healed by larger knives, nearby allies will recieve a small amount of healing as well
+			'''
+		Tooltip:
+			'''
+			10% increased critical strike chance
+			[placeholder]
+			Slowly regenerates life
+			Slightly improves your lifesteal capabilities
+			'Dedicated to Jason 'Lienfors' Parker'
+			'Mortality is temporary; impact is timeless'
+			'''
+		DisplayName: Righteous Requiem
+	}
+
+	ArtificerApotheosis: {
+		AbilityDesc:
+			'''
+			Cures debuffs, refills life and mana, and grants the following effects;
+			60% increased damage
+			60% decreased damage taken
+			Massively increased life and mana regeneration
+			Unlimited wing and rocket boot flight
+			Increased movement speed and acceleration
+			These effects last for 20 seconds
+			Causes 60 seconds of Potion Sickness
+			'''
+		Tooltip:
+			'''
+			[placeholder]
+			'The enemy shall witness the supreme artificer's coronation'
+			'''
+		DisplayName: Artificer's Apotheosis
+	}
+
+	ClimaxCatalyst: {
+		AbilityDesc:
+			'''
+			Unleashes a massive, unfathomably powerful beam of energy for 5 seconds
+			You cannot use normal attacks while firing, but you can still move and the beam can be slowly turned while firing
+			The beam also releases a cone of additional energy bolts, and emits a powerful radiation that shreds enemies that get too close to you
+			'''
+		Tooltip:
+			'''
+			[placeholder]
+			'...And with that, the fight is finished'
+			'''
+		DisplayName: Climax Catalyst
+	}
+
+	ParagonLeggings: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			14% increased damage
+			8% increased critical strike chance
+			5% reduced mana cost
+			5% chance to save ammo
+			5% increased throwing velocity
+			Increases your max number of minions by 1
+			25% increased movement speed, and improved acceleration
+			'Artificer technologies developed to perfection'
+			'''
+		DisplayName: Paragon Leggings
+	}
+
+	ParagonPlate: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			10% increased damage
+			10% increased critical strike chance
+			5% reduced mana cost
+			5% chance to save ammo
+			5% increased throwing velocity
+			Increases your max number of minions by 1
+			Massively increased life regeneration
+			'Artificer technologies developed to perfection'
+			'''
+		DisplayName: Paragon Plate
+	}
+
+	ParagonHeadpiece: {
+		Tooltip:
+			'''
+			Increases maximum mana by 20
+			8% increased damage
+			14% increased critical strike chance
+			5% reduced mana cost
+			5% chance to save ammo
+			5% increased throwing velocity
+			Increases your max number of minions by 1
+			Improves vision and provides a large amount of light
+			'Artificer technologies developed to perfection'
+			'''
+		DisplayName: Paragon Headpiece
+	}
+
+	ParagonParticle: {
+		Tooltip: "'Its potential knows no bounds'"
+		DisplayName: Paragon Particle
+	}
+
+	GalactaGravpack: {
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			Grants 5 defense when sufficiently airborne
+			Unleashs a flux force blast to repel attackers upon taking damage
+			'''
+		DisplayName: Galacta Gravpack
+	}
+
+	SupernovaEmblem: {
+		Tooltip:
+			'''
+			12% increased damage
+			33% reduced Ability Accessory cooldowns
+			'''
+		DisplayName: Supernova Emblem
+	}
+
+	StarstrikeCore: {
+		AbilityDesc:
+			'''
+			Releases a cluster of hyperdense sparks of stellar energy around you
+			These sparks will chase down nearby foes, and unleash devastating novas on hit
+			'''
+		Tooltip:
+			'''
+			4% increased damage and critical strike chance
+			Reduces damage taken by 5%
+			[placeholder]
+			'Call the galaxy itself to your cause!'
+			'''
+		DisplayName: Starstrike Core
+	}
+
+	VitalStimulator5: {
+		AbilityDesc:
+			'''
+			Restores 150 life over 5 seconds
+			Potion sickness is inflicted for the duration of regeneration
+			'''
+		Tooltip: "[placeholder]"
+		DisplayName: Vital Stimulator Mk5
+	}
+
+	ArcanaStimulator5: {
+		AbilityDesc: Restores 500 mana over 10 seconds
+		Tooltip: "[placeholder]"
+		DisplayName: Arcana Stimulator Mk5
+	}
+
+	SupernovaGreaves: {
+		Tooltip:
+			'''
+			Increases maximum mana by 40
+			8% increased damage and critical strike chance
+			10% increased throwing velocity
+			15% increased movement speed
+			'Unleash the true power of the Nova'
+			'''
+		DisplayName: Supernova Greaves
+	}
+
+	SupernovaCuirass: {
+		Tooltip:
+			'''
+			11% increased damage
+			6% increased critical strike chance
+			Increases your max number of minions by 2
+			Grants life regeneration
+			'Unleash the true power of the Nova'
+			'''
+		DisplayName: Supernova Cuirass
+	}
+
+	SupernovaHeadgear: {
+		Tooltip:
+			'''
+			6% increased damage
+			11% increased critical strike chance
+			10% reduced mana cost
+			10% chance to save ammo
+			Increases your max number of minions by 1
+			'Unleash the true power of the Nova'
+			'''
+		DisplayName: Supernova Headgear
+	}
+
+	SupernovaFragment: {
+		Tooltip: "'The limitless energy of an interstellar explosion is held inside this fragment'"
+		DisplayName: Supernova Fragment
+	}
+
+	PermachargeAugments: {
+		Tooltip:
+			'''
+			The wearer has improved acceleration can run incredibly fast
+			Greatly increases jump speed, and grants auto-jump and fall damage immunity
+			Attacks sometimes inflict a powerful, long-lasting shock on foes
+			Enables auto swing for melee weapons and whips, and increases their speed by 25%
+			'''
+		DisplayName: Permacharge Augments
+	}
+
+	OverclockDial: {
+		Tooltip:
+			'''
+			25% reduced Ability Accessory cooldowns
+			Automatically activates Ability Accessories for you while in combat
+			Increases attack, movmement, mining, and placement speed by 10% while abilities are on cooldown 
+			'''
+		DisplayName: Overclock Dial
+	}
+
+	PermalloyProtector: {
+		AbilityDesc:
+			'''
+			Creates a Protector Shield Generator at your position
+			Players within its aura take 40% reduced damage
+			The Shield Generator lasts for 15 seconds
+			'''
+		Tooltip:
+			'''
+			Grants immunity to knockback
+			[placeholder]
+			Reduces damage taken by 5%, or 10% while your Protector Shield Generator is active
+			Grants +1 defense, which increases up to +16 over time
+			This boost resets to +1 while your Protector Shield Generator is active or upon taking damage
+			'''
+		DisplayName: Permalloy Protector
+	}
+
+	CatCarrier: {
+		AbilityDesc:
+			'''
+			Activates the drone's assult mode for 5 seconds
+			In this state, the drone will pursue targets while launching a barrage of powerful, homing missiles
+			'''
+		Tooltip:
+			'''
+			Calls in a combat drone to protect you
+			[placeholder]
+			'Combat Assisstance Tech. Those aren't cat ears on it; they're minature missile silos'
+			'''
+		DisplayName: C.A.T. Carrier
+	}
+
+	PermarmorGreaves: {
+		Tooltip:
+			'''
+			10% increased damage
+			3% increased critical strike chance
+			10% reduced mana cost
+			10% chance to save ammo
+			15% increased movement speed
+			'Now THIS is Artificer's Armor'
+			'''
+		DisplayName: Permarmor Greaves
+	}
+
+	PermarmorPlate: {
+		Tooltip:
+			'''
+			18% increased damage
+			4% increased critical strike chance
+			10% increased throwing velocity
+			'Now THIS is Artificer's Armor'
+			'''
+		DisplayName: Permarmor Plate
+	}
+
+	PermarmorHelm: {
+		Tooltip:
+			'''
+			6% increased damage
+			5% increased critical strike chance
+			Increases maximum mana by 40
+			Increases your max number of minions by 2
+			'Now THIS is Artificer's Armor'
+			'''
+		DisplayName: Permarmor Helm
+	}
+
+	PermalloyBar: {
+		Tooltip: "'Its durability and versatility has been refined to perfection'"
+		DisplayName: Permalloy Bar
+	}
+}
+
+CommonTooltips: {
+	BonusAccessory: Bonus Accessory
+	AutoAbilityOff: Ability auto-trigger off!
+	AutoAbilityOn: Ability auto-trigger on!
+
+	SetBonus: {
+		KeywordDown: DOWN
+		KeywordUp: UP
+		Paragon:
+			'''
+			+4 Artificer Accessory Slots
+			25% reduced Ability Accessory cooldowns
+			Automatically activates Ability Accessories for you while in combat
+			This effect can be toggled by double tapping {0}
+			'''
+		Supernova:
+			'''
+			+3 Artificer Accessory Slots
+			25% reduced Ability Accessory cooldowns
+			Activating accessory abilities unleashes a surge of energy, increasing your offensive and defensive capabilities while on cooldown
+			This surge also causes a huge blast that heavily damages surrounding foes
+			'''
+		Permarmor:
+			'''
+			+3 Artificer Accessory Slots
+			+12 defense when an Ability Accessory is equipped
+			If an Ability Accessory isn't equipped, the armor provides an activated ability;
+			This ability triggers the effects of Power Armor, and has a flat cooldown of 40 seconds
+			'''
+	}
+}
+

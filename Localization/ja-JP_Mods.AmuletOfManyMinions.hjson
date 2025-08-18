@@ -1,0 +1,2220 @@
+{
+	Configs: {
+		Common: {
+			AcceptClientChanges: "あなたはサーバーの所有者ではないため、この設定を変更できません"
+		}
+		QuickDefendHotkeyStyleType: {
+			Hold: {
+				Label: "長押し"
+			}
+			Toggle: {
+				Label: "切り替え"
+			}
+			Tooltip: ""
+		}
+		TacticsUIAnchorType: {
+			Inventory: {
+				Label: "インベントリ"
+			}
+			Health: {
+				Label: "ライフ"
+			}
+			Tooltip: ""
+		}
+		ServerConfig: {
+			DisableSummonersShineAI: {
+				Tooltip: "trueの場合、このMODによるミニオンへのAI変更をSummoner's Shine製のものから無効にする"
+				Label: "サモナーズシャイン: AI変更を無効化"
+			}
+			AllowMultipleCombatPets: {
+				Tooltip: "有効にすると、高レベルの戦闘ペットエンブレムで操作できるペットの数が増える"
+				Label: "複数の戦闘ペットを許可"
+			}
+			CombatPetsMinionSlots: {
+				Tooltip: "有効にすると、全ての戦闘ペットがミニオンスロットを1つ占有する\nそうでなければ、最初に召喚されたペットはスロットを消費しない"
+				Label: "全ての戦闘ペットがミニオンスロットを占有する"
+			}
+			SquiresDealTagDamage: {
+				Tooltip: "有効にすると、スクワイアが召喚タグダメージボーナスを一律10%付与する"
+				Label: "スクワイアが召喚タグダメージを与える"
+			}
+			SquireSpecialsWithWhips: {
+				Tooltip: "有効にすると、鞭を持っている間もスクワイアの右クリックスペシャルを発動できる"
+				Label: "鞭を使用中もスクワイアスペシャルを許可"
+			}
+			SquireMinionSlot: {
+				Tooltip: "有効にすると、スクワイアがミニオンスロットを1つ占有する"
+				Label: "スクワイアがミニオンスロットを占有する"
+			}
+			MinionsInnacurate: {
+				Tooltip: "有効にすると、ミニオンが敵を追跡する際の射撃精度と旋回性能が低下する"
+				Label: "ミニオンの精度を低下させる"
+			}
+			SquireDamageMinionNerf: {
+				Tooltip: "アクティブなミニオン1体ごとにスクワイアのダメージを一定割合減少させる"
+				Label: "スクワイア/ミニオンのアンチシナジー"
+			}
+			MinionDamageSquireNerf: {
+				Tooltip: "スクワイアがアクティブな間、ミニオンのダメージを一定割合減少させる"
+				Label: "ミニオン/スクワイアのアンチシナジー"
+			}
+			OtherDamageMinionNerf: {
+				Tooltip: "ミニオンがアクティブな間、召喚武器以外のダメージを減少させる"
+				Label: "非ミニオンのアンチシナジー"
+			}
+			GlobalDamageMultiplier: {
+				Tooltip: "このMODの全てのアイテムのダメージを正または負の割合で増減させる\n100% = デフォルト"
+				Label: "グローバルダメージスケール"
+			}
+			SquireProjSetWaypoint: {
+				Tooltip: "trueの場合、スクワイアが発射した飛び道具が敵に命中すると、その敵に戦術ウェイポイントが移動する"
+				Label: "遠距離スクワイアが戦術ウェイポイントを設定"
+			}
+			SquiresSetWaypoint: {
+				Tooltip: "trueの場合、スクワイアが敵に直接命中すると、その敵に戦術ウェイポイントが移動する"
+				Label: "近接スクワイアが戦術ウェイポイントを設定"
+			}
+			WhipsSetWaypoint: {
+				Tooltip: "trueの場合、鞭が敵に命中すると、その敵に戦術ウェイポイントが移動する"
+				Label: "鞭が戦術ウェイポイントを設定"
+			}
+			Headers: {
+				CrossModCompatibility: "他MODとの互換性"
+				BalanceConfiguration: "バランス設定"
+				TacticsConfiguration: "戦術設定"
+			}
+			DisplayName: "サーバー設定"
+		}
+		ClientConfig: {
+			WhipRightClickTacticsRadial: {
+				Tooltip: "trueの場合、鞭を右クリックすると戦術ラジアルメニューが表示される\n注意: 他のModで追加された鞭の右クリックと競合する可能性がある"
+				Label: "鞭のクイック戦術メニューを有効化"
+			}
+			IgnoreVanillaTargetReticle: {
+				Tooltip: "trueの場合、ミニオンは現在の戦術で選択されたNPCを優先し、バニラのミニオンターゲットレティクルを無視する\n注意: これは鞭で敵を攻撃して配置されたレティクルには適用されない"
+				Label: "戦術がバニラのミニオンターゲットを無視"
+			}
+			ShowMinionVarietyBonus: {
+				Tooltip: "trueの場合、バフのツールチップに現在のミニオンバラエティボーナスを表示する"
+				Label: "ミニオンバラエティボーナスを表示"
+			}
+			QuickDefendHotkeyStyleNew: {
+				Tooltip: "ミニオンクイック防御をホットキーでオン/オフ切り替えにするか、ホットキー長押し中に発動させるかを選択する"
+				Label: "ミニオンクイック防御のホットキースタイル"
+			}
+			TacticsUIAnchor: {
+				Tooltip: "UIのアンカーをインベントリの右側にするか、体力/ミニマップの左側にするかを選択する"
+				Label: "ミニオン戦術UIのアンカー位置"
+			}
+			Headers: {
+				TacticsConfiguration: "戦術設定"
+				GeneralConfiguration: "一般設定"
+			}
+			DisplayName: "クライアント設定"
+		}
+	}
+	DropConditions: {
+		FirstBossDefeatedCondition: {
+			Description: "最初のボスを倒した後にドロップする"
+		}
+		NoLunarEventCondition: {
+			Description: "ルナイベント中はドロップしない"
+		}
+		AnyLunarEventCondition: {
+			Description: "いずれかのルナイベント中にドロップする"
+		}
+		SlimepireCondition: {
+			Description: "ハードモードのブラッドムーン中にドロップする"
+		}
+	}
+	TacticsGroups: {
+		Open: "ミニオン戦術を開く"
+		Close: "ミニオン戦術を閉じる"
+		Both: "両方のグループ"
+		Moon: "月グループ"
+		Sun: "太陽グループ"
+		Description: "各戦術グループには、それぞれ異なる戦術とウェイポイントを割り当てることができる\nバフアイコンを左クリックしてミニオンの戦術グループを設定する"
+	}
+	TargetSelectionTactics: {
+		WeakestEnemy: {
+			Description: "最大体力が[c/FF0000:最も低い]敵を攻撃する"
+			DisplayName: "最も弱い敵"
+		}
+		StrongestEnemy: {
+			Description: "最大体力が[c/FF0000:最も高い]敵を攻撃する"
+			DisplayName: "最も強い敵"
+		}
+		SpreadOut: {
+			Description: "可能であれば、各ミニオンが異なる敵を攻撃する"
+			DisplayName: "分散攻撃"
+		}
+		MostDamagedEnemy: {
+			Description: "現在体力が[c/FF0000:最も低い]敵を攻撃する"
+			DisplayName: "最もダメージを受けた敵"
+		}
+		LeastDamagedEnemy: {
+			Description: "現在体力が[c/FF0000:最も高い]敵を攻撃する"
+			DisplayName: "最もダメージを受けていない敵"
+		}
+		ClosestEnemyToPlayer: {
+			Description: "プレイヤーに最も近い敵を攻撃する"
+			DisplayName: "プレイヤーに最も近い敵"
+		}
+		ClosestEnemyToMinion: {
+			Description: "ミニオンに最も近い敵を攻撃する"
+			DisplayName: "ミニオンに最も近い敵"
+		}
+		AttackGroups: {
+			Description: "互いに近い敵の集団を攻撃する"
+			DisplayName: "集団を攻撃"
+		}
+	}
+	CombatPetQuiz: {
+		NextButton: {
+			Text: "次へ"
+		}
+		ClassSpecificQuestions: {
+			"3": {
+				Answers: {
+					HASTY: "せっかちで野心的"
+					RELAXED: "のんびり屋でリラックス！"
+				}
+				Text: "高尚な友達は素晴らしい選択だ！気性はどんな感じがいい？"
+			}
+			"2": {
+				Answers: {
+					CALM: "冷静沈着"
+					HARDY: "タフでたくましい！"
+				}
+				Text: "地に足のついた友達は素晴らしい選択だ！気性はどんな感じがいい？"
+			}
+			"1": {
+				Answers: {
+					QUIRKY: "風変わりでエキセントリック！"
+					JOLLY: "陽気で屈託がない！"
+				}
+				Text: "気楽な友達は素晴らしい選択だ！気性はどんな感じがいい？"
+			}
+			"0": {
+				Answers: {
+					QUIET: "控えめで静か"
+					BOLD: "社交的で大胆！"
+				}
+				Text: "情熱的な友達は素晴らしい選択だ！気性はどんな感じがいい？"
+			}
+		}
+		Questions: {
+			"18": {
+				Answers: {
+					RELAXED: "しばらくしてから"
+					CALM: "すぐに"
+					HASTY: "絶対にしない！"
+				}
+				Text: "木を切り倒した後、植え直す？"
+			}
+			"17": {
+				Answers: {
+					JOLLY: "スクワイア！"
+					QUIET: "スクワイア？"
+					CALM: "スクワイア"
+				}
+				Text: "スクワイアと鞭、どっちが好き？"
+			}
+			"16": {
+				Answers: {
+					RELAXED: "戦利品は均等に分ける"
+					HASTY: "早い者勝ち"
+				}
+				Text: "マルチプレイ中、世界に一つだけのチェストアイテムを見つけた！どうやって分ける？"
+			}
+			"15": {
+				Answers: {
+					BOLD: "マスター"
+					HARDY: "エキスパート"
+					RELAXED: "ノーマル"
+				}
+				Text: "一番好きなプレイ難易度は？"
+			}
+			"14": {
+				Answers: {
+					RELAXED: "しょっぱいもの"
+					JOLLY: "甘いもの！"
+				}
+				Text: "甘い食べ物としょっぱい食べ物、どっちが好き？"
+			}
+			"13": {
+				Answers: {
+					QUIRKY: "やった！火星人の侵略だ！"
+					HASTY: "追いかける！"
+					QUIET: "急いでセーブして終了する"
+				}
+				Text: "火星人のプローブに不意を突かれ、今にも飛び去ろうとしている！どうする？"
+			}
+			"12": {
+				Answers: {
+					RELAXED: "次の夜まで待つ"
+					HARDY: "まず間に合わせの闘技場を作る"
+					HASTY: "すぐにスケルトロンと戦う！"
+				}
+				Text: "ダンジョンの入り口に着いたけど、もう夜は半分過ぎている！どうする？"
+			}
+			"11": {
+				Answers: {
+					QUIET: "よく整理されている"
+					QUIRKY: "ちょっとだけ"
+					HASTY: "まったく"
+				}
+				Text: "あなたのチェストはどれくらい整理されている？"
+			}
+			"10": {
+				Answers: {
+					JOLLY: "青"
+					CALM: "緑"
+					BOLD: "赤"
+				}
+				Text: "好きな色は何？"
+			}
+			"9": {
+				Answers: {
+					QUIET: "罠のチェストだ！"
+					HARDY: "ミミックだ！"
+					QUIRKY: "やった、お宝だ！"
+				}
+				Text: "洞窟を探索中、開けた場所に宝箱が置いてあるのを見つけた"
+			}
+			"8": {
+				Answers: {
+					QUIRKY: "いいえ"
+					HARDY: "はい"
+				}
+				Text: "チェストから戦利品を取った後、チェストも持っていく？"
+			}
+			"7": {
+				Answers: {
+					QUIRKY: "釣り！"
+					BOLD: "冒険"
+					RELAXED: "建築"
+				}
+				Text: "建築と冒険、どっちが好き？"
+			}
+			"6": {
+				Answers: {
+					JOLLY: "新しいのを試す！"
+					HARDY: "使い続ける"
+				}
+				Text: "Re-Logicがお気に入りの武器を弱体化した！どう適応する？"
+			}
+			"5": {
+				Answers: {
+					HASTY: "家なんてない"
+					QUIET: "豆腐ハウス"
+					CALM: "素敵なキャビン"
+				}
+				Text: "新しいワールドを始めたところだ\nガイドのためにどんな家を建てる？"
+			}
+			"4": {
+				Answers: {
+					JOLLY: "自分もウサギを追いかける！"
+					CALM: "いいえ"
+					BOLD: "はい"
+				}
+				Text: "ゴブリンの斥候の集団に追われている無実のウサギを見つけた！助ける？"
+			}
+			"3": {
+				Answers: {
+					CALM: "仲裁しようと試みる"
+					BOLD: "ガイドに直接問いただす"
+					QUIET: "彼らに任せて戦わせる"
+				}
+				Text: "仕立屋が帽子をなくし、ガイドが盗んだと主張している！どう助ける？"
+			}
+			"2": {
+				Answers: {
+					QUIRKY: "Consistent Reforgingをインストール！"
+					JOLLY: "「リフォージ」を連打し続ける"
+					QUIET: "泣く"
+				}
+				Text: "誤ってリフォージを1回多くクリックしてしまい、レジェンダリーのゼニスが壊れた！どうする？"
+			}
+			"1": {
+				Answers: {
+					CALM: "魔法使い"
+					BOLD: "射手"
+					HARDY: "戦士"
+				}
+				Text: "一番好きなクラスは何？"
+			}
+			"0": {
+				Answers: {
+					BOLD: "召喚士！"
+					QUIRKY: "召喚士？"
+					CALM: "召喚士"
+				}
+				Text: "分かった、でも本当の本当に一番好きなクラスは何？"
+			}
+		}
+		Quizzes: {
+			ClassSpecificQuiz: {
+				Answers: {
+					"3": "雲の上に頭があるような友達！"
+					"2": "地に足のついた友達！"
+					"1": "流れに身を任せられる友達！"
+					"0": "燃えるような情熱を持った友達！"
+				}
+				Text: "あなたの旅に、どんな友達に参加してほしい？"
+				OutroLines: {
+					"2": "あなたと新しい友達が、たくさんの冒険を楽しめますように！"
+					"1": "{0}の{1}があなたのチームに加わるのを楽しみにしている！"
+					"0": "ああ、{0}な友達がいると心強いね！"
+				}
+				IntroLines: {
+					"2": "友達がいることより素晴らしいことは何か知ってる？もっとたくさんの友達がいることさ！"
+					"1": "君と君の友達が冒険を楽しんでいるといいな！"
+					"0": "テラリアの世界へ、ようこそ！"
+				}
+			}
+			QuizWithDominantTraits: {
+				OutroLines: {
+					"3": "あなたと新しい友達が、たくさんの冒険を楽しめますように！"
+					"2": "あなたのような{0}な人なら、{1}と素晴らしい友達になれるだろう！"
+					"1": "あなたの答えからすると、あなたは...{0}タイプのようだ！"
+					"0": "質問に答えてくれてありがとう！"
+				}
+				IntroLines: {
+					"3": "誠実に答えてくれ\nさあ、始めよう！"
+					"2": "あなたと新しい友達がお互いをよりよく知るために、いくつか質問がある！"
+					"1": "テラリアは危険な場所かもしれないが、良い友達がそばにいればいつも心強い！"
+					"0": "テラリアの世界へ、ようこそ！"
+				}
+			}
+		}
+		QuizResults: {
+			RELAXED: "クラウディファント"
+			HASTY: "ワイバーンフライ"
+			BOLD: "シンダーヘン"
+			QUIET: "スモールダー"
+			JOLLY: "リルゲイター"
+			QUIRKY: "アホリトル"
+			HARDY: "トリュフタートル"
+			CALM: "プラントパップ"
+		}
+		PersonalityTypes: {
+			RELAXED: "のんびり"
+			HASTY: "せっかち"
+			BOLD: "大胆"
+			QUIET: "静か"
+			JOLLY: "陽気"
+			QUIRKY: "風変わり"
+			HARDY: "タフ"
+			CALM: "冷静"
+			NONE: "なし"
+		}
+	}
+	CombatPetLevels: {
+		Celestial: "セレスティアル"
+		Stardust: "スターダスト"
+		Spectre: "スペクター"
+		Hallowed: "神聖"
+		Soulful: "ソウルフル"
+		Skeletal: "スケルタル"
+		Demonite: "不浄/真紅"
+		Golden: "ゴールデン"
+		Base: "ベース"
+	}
+	Common: {
+		RecipeGroups: {
+			EitherOr: "{0}/{1}"
+			Any: "{0} {1}"
+		}
+		CombatPets: {
+			LeveledUp: "あなたのエンブレムがこのペットのより強力な攻撃パターンを有効にした！"
+			NotLeveledUp: "このペットは{0}以上のエンブレムを所持していると、より強力な攻撃パターンを得る！"
+			CommonDescription: "このペットの闘争心が目覚めた！\n戦闘ペットエンブレムを所持することで強化できる"
+		}
+		CombatPetEmblems: {
+			MinionSlotsToCombatPet: "さらに、最大{0}体のミニオンスロットを戦闘ペットに使用できる"
+			CommonTooltip: "戦闘ペットの力を高めるエンブレム！\nこのアイテムがインベントリにある限り、あなたの戦闘ペットは\n追加ダメージを与え、移動速度と攻撃範囲にボーナスを得る"
+		}
+		WaypointRods: {
+			WaypointRange: "{0}ブロック範囲"
+			CommonTooltip: "ツール\nクリックでミニオン誘導ウェイポイントを設置！\nミニオンは自動的にウェイポイントへ向かう\n召喚武器以外で攻撃するとウェイポイントは消える\n遠くのウェイポイントを攻撃中のミニオンは与えるダメージが減少する"
+		}
+		Squires: {
+			RightClickSpecial: "右クリックスペシャル: {0}"
+			ClickAndHoldPlural: "クリック長押しで彼らの攻撃を誘導する"
+			ClickAndHold: "クリック長押しでその攻撃を誘導する"
+			SummonsASquire: "スクワイアを召喚する"
+		}
+		Replicas: {
+			CommonTooltip: "伝説によれば、真のマスターのみがこのペットの力を扱えるという\nしかし今なら、たった50ゴールドで君もその力を手にできる！"
+			Replica: "レプリカ"
+		}
+		Tooltips: {
+			AllowsMinionAttackAroundCornersIn: "ミニオンが半径{0}ブロック内の角の向こう側を自動的に攻撃できるようになる"
+			IgnoresEnemyDefense: "敵の防御力を{0}無視する"
+			IncreasesCombatPetMovementSpeed: "戦闘ペットの移動速度を上昇させる"
+			IncreasesSquireAttackSpeedBy: "スクワイアを使用中、攻撃速度が{0}%上昇する"
+			IncreasesSquireTravelRangeBy: "スクワイアの移動範囲を{0}ブロック増加させる"
+			IncreasesMinionVarietyBonusBy: "ミニオンバラエティボーナスを{0}%増加させる"
+			IncreasesMinionDamage: "召喚ダメージを増加させる"
+			IncreasesSquireDamageBy: "スクワイアのダメージを{0}%増加させる"
+			IncreasesMinionKnockbackBy: "ミニオンのノックバックを{0}増加させる"
+			IncreasesMinionDamageBy: "召喚ダメージを{0}%増加させる"
+			IncreasesMaxCombatPetsBy: "戦闘ペットの最大数を{0}増加させる"
+			DecreasesMinionVarietyBonusBy: "ミニオンバラエティボーナスを{0}%減少させる"
+			DecreasesMaxMinionsBy: "ミニオンの最大数を{0}減少させる"
+		}
+		ConcatenateTwo: "{0} {1}"
+		AoMMVersion: "(AoMMバージョン)"
+	}
+	Keybinds: {
+		MinionQuickDefend: {
+			DisplayName: "ミニオンクイック防御"
+		}
+		CycleTacticsGroup: {
+			DisplayName: "戦術グループを循環"
+		}
+		CycleMinionTactic: {
+			DisplayName: "ミニオン戦術を循環"
+		}
+	}
+	Projectiles: {
+		SoulboundArsenalBowMinion: {
+			DisplayName: "ソウルバウンド・アーセナル・ボウミニオン"
+		}
+		WoFSquireMinion: {
+			DisplayName: "肉のスクワイア"
+		}
+		GuideVoodooSquireMinion: {
+			DisplayName: "ガイドのスクワイア"
+		}
+		VikingSquireMinion: {
+			DisplayName: "バイキングのスクワイア"
+		}
+		TitaniumSquireMinion: {
+			DisplayName: "チタニウムのスクワイア"
+		}
+		TitaniumSquireDrone: {
+			DisplayName: "チタニウムのスクワイアドローン"
+		}
+		TitaniumDroneDamageHitbox: {
+			DisplayName: "チタニウムドローン・ダメージヒットボックス"
+		}
+		StarFistProjectile: {
+			DisplayName: "スターフィスト・投射物"
+		}
+		StardustSquireMinion: {
+			DisplayName: "エンシェントコバルトのスクワイア"
+		}
+		StardustHomingStar: {
+			DisplayName: "スターダスト・ホーミングスター"
+		}
+		StardustGuardianProjectile: {
+			DisplayName: "スターダストガーディアン・投射物"
+		}
+		StardustConstellation: {
+			DisplayName: "スターダスト・コンステレーション"
+		}
+		StardustBeastProjectile: {
+			DisplayName: "スターダストビースト・投射物"
+		}
+		ConstellationSeed: {
+			DisplayName: "コンステレーション・シード"
+		}
+		SqueyereMinion: {
+			DisplayName: "エンシェントコバルトのスクワイア"
+		}
+		SqueyereLaser: {
+			DisplayName: "スクアイア・レーザー"
+		}
+		SqueyereEyeMinion: {
+			DisplayName: "スクアイア・アイミニオン"
+		}
+		SqueyereEyeLaser: {
+			DisplayName: "スクアイア・アイレーザー"
+		}
+		SoulboundSwordMinion: {
+			DisplayName: "ソウルバウンド・ソード"
+		}
+		SoulboundSpecialBow: {
+			DisplayName: "ソウルバウンド・スペシャルボウ"
+		}
+		SoulboundDescendingArrow: {
+			DisplayName: "ソウルバウンド・降下矢"
+		}
+		SoulboundSpecialSword: {
+			DisplayName: "ソウルバウンド・スペシャルソード"
+		}
+		SoulboundBowMinion: {
+			DisplayName: "エンシェントコバルトのスクワイア"
+		}
+		SoulboundArrow: {
+			DisplayName: "ソウルバウンド・アロー"
+		}
+		SoulboundArsenalSwordProjectile: {
+			DisplayName: "ソウルバウンド・アーセナル・ソード投射物"
+		}
+		SoulboundArsenalMinion: {
+			DisplayName: "ソウルバウンド・アーセナル"
+		}
+		SoulboundArsenalLaser: {
+			DisplayName: "ソウルバウンド・アーセナル・レーザー"
+		}
+		SoulboundArsenalArrow: {
+			DisplayName: "ソウルバウンド・アーセナル・アロー"
+		}
+		SkywareSquireMinion: {
+			DisplayName: "スカイウェアのスクワイア"
+		}
+		SkywareLargeArrow: {
+			DisplayName: "スカイウェア・ラージアロー"
+		}
+		SkywareArrow: {
+			DisplayName: "スカイウェア・アロー"
+		}
+		ShadowSquireMinion: {
+			DisplayName: "シャドウのスクワイア"
+		}
+		CorruptFlaskProjectile: {
+			DisplayName: "カースフラスコ・投射物"
+		}
+		SeaSquireSharkMinion: {
+			DisplayName: "海のスクワイアシャークミニオン"
+		}
+		SeaSquireMinion: {
+			DisplayName: "海のスクワイア"
+		}
+		SeaSquireBubble: {
+			DisplayName: "海のスクワイアバブル"
+		}
+		PumpkinSquireMinion: {
+			DisplayName: "パンプキンのスクワイア"
+		}
+		BigPumpkinBomb: {
+			DisplayName: "巨大カボチャ爆弾"
+		}
+		PottedPalSeedProjectile: {
+			DisplayName: "鉢植えの相棒の種・投射物"
+		}
+		PottedPalMinion: {
+			DisplayName: "鉢植えの相棒"
+		}
+		PottedPalJrMinion: {
+			DisplayName: "鉢植えの相棒ジュニアミニオン"
+		}
+		MushroomSquireMushroomProjectile: {
+			DisplayName: "キノコのスクワイアのキノコ・投射物"
+		}
+		MushroomSquireMinion: {
+			DisplayName: "キノコのスクワイア"
+		}
+		GuideSquireMinion: {
+			DisplayName: "ガイドのスクワイア"
+		}
+		GuideArrow: {
+			DisplayName: "ガイドのアロー"
+		}
+		DescendingGuideArrow: {
+			DisplayName: "降下ガイドアロー"
+		}
+		AscendingGuideArrow: {
+			DisplayName: "上昇ガイドアロー"
+		}
+		GoldenRogueSquireMinion: {
+			DisplayName: "ゴールデンローグのスクワイア"
+		}
+		GoldenDaggerCloud: {
+			DisplayName: "ゴールデンダガー・クラウド"
+		}
+		GoldenDagger: {
+			DisplayName: "ゴールデンダガー"
+		}
+		EmpressStarlightProjectile: {
+			DisplayName: "女帝のスターライト・投射物"
+		}
+		EmpressSquireMinion: {
+			DisplayName: "光の女教皇"
+		}
+		EmpressSpecialOrbitProjectile: {
+			DisplayName: "女帝のスペシャルオービット・投射物"
+		}
+		DemonSquireUnholyTrident: {
+			DisplayName: "悪魔のスクワイアのアンホーリートライデント"
+		}
+		DemonSquireMinion: {
+			DisplayName: "悪魔のスクワイア"
+		}
+		DemonSquireImpMinion: {
+			DisplayName: "悪魔のスクワイアインプミニオン"
+		}
+		DemonSquireImpFireball: {
+			DisplayName: "悪魔のスクワイアインプファイアボール"
+		}
+		IchorFlaskProjectile: {
+			DisplayName: "イコルフラスコ・投射物"
+		}
+		EvilSquireExplosion: {
+			DisplayName: "邪悪なスクワイアの爆発"
+		}
+		CrimsonSquireMinion: {
+			DisplayName: "クリムゾンのスクワイア"
+		}
+		BoneSquireMinion: {
+			DisplayName: "ボーンのスクワイア"
+		}
+		SpiritFlailWormMinion: {
+			DisplayName: "スピリットフレイル・チェーン"
+		}
+		ArmoredBoneSquireSpiritProjectile: {
+			DisplayName: "アーマードボーンのスクワイアスピリット・投射物"
+		}
+		ArmoredBoneSquireMinion: {
+			DisplayName: "アーマードボーンのスクワイア"
+		}
+		AncientCobaltStream: {
+			DisplayName: "エンシェントコバルト・ストリーム"
+		}
+		AncientCobaltSquireMinion: {
+			DisplayName: "エンシェントコバルトのスクワイア"
+		}
+		AncientCobaltBolt: {
+			DisplayName: "エンシェントコバルト・ボルト"
+		}
+		AdamantiteSquireMinion: {
+			DisplayName: "アダマンタイトのスクワイア"
+		}
+		XCXCopterMinion: {
+			DisplayName: "コプターX"
+		}
+		XCXCopterCounterMinion: {
+			DisplayName: "XCXコプター・カウンターミニオン"
+		}
+		WhackAMoleMinionProjectile: {
+			DisplayName: "モグラたたきミニオン・投射物"
+		}
+		WhackAMoleMinion: {
+			DisplayName: "モグラたたき"
+		}
+		WhackAMoleCounterMinion: {
+			DisplayName: "モグラたたき・カウンターミニオン"
+		}
+		VoidKnifeMinion: {
+			DisplayName: "ヴォイドダガー"
+		}
+		UfoDamageHitbox: {
+			DisplayName: "UFOダメージヒットボックス"
+		}
+		StardustDragonCounterMinion: {
+			DisplayName: "スターダストドラゴン・カウンターミニオン"
+		}
+		StardustCellClinger: {
+			DisplayName: "スターダストセル・クリンガー"
+		}
+		SharknadoMinion: {
+			DisplayName: "テンペスト"
+		}
+		RavenGreekFire: {
+			DisplayName: "レイヴン・ギリシャ火"
+		}
+		PygmySpear: {
+			DisplayName: "ピグミースピア"
+		}
+		Pygmy4Minion: {
+			DisplayName: "ピグミー"
+		}
+		Pygmy3Minion: {
+			DisplayName: "ピグミー"
+		}
+		Pygmy2Minion: {
+			DisplayName: "ピグミー"
+		}
+		Pygmy1Minion: {
+			DisplayName: "ピグミー"
+		}
+		PirateDeadeyeBullet: {
+			DisplayName: "パイレーツデッドアイ・バレット"
+		}
+		PirateCannonballExplosion: {
+			DisplayName: "パイレーツキャノンボール・爆発"
+		}
+		PirateCannonball: {
+			DisplayName: "パイレーツキャノンボール"
+		}
+		MiniTwinsLaser: {
+			DisplayName: "ミニツインズ・レーザー"
+		}
+		MiniSharknado: {
+			DisplayName: "ミニシャークネード"
+		}
+		MiniEyeFire: {
+			DisplayName: "ミニアイ・ファイア"
+		}
+		VampireFrogMinion: {
+			DisplayName: "ヴァンパイアフロックミニオン"
+		}
+		FlinxMinion: {
+			DisplayName: "フリンクスミニオン"
+		}
+		DesertTigerMinion: {
+			DisplayName: "デザートタイガーミニオン"
+		}
+		DesertTigerDashMinion: {
+			DisplayName: "デザートタイガーダッシュミニオン"
+		}
+		DesertTigerCounterMinion: {
+			DisplayName: "デザートタイガー・カウンターミニオン"
+		}
+		BonusFlinxMinion: {
+			DisplayName: "ボーナスフリンクスミニオン"
+		}
+		AbigailMinion: {
+			DisplayName: "アビゲイル"
+		}
+		AbigailCounterMinion: {
+			DisplayName: "アビゲイル・カウンターミニオン"
+		}
+		ImpPortalUnholyTrident: {
+			DisplayName: "インプポータル・アンホーリートライデント"
+		}
+		ImpPortalMinion: {
+			DisplayName: "コプターX"
+		}
+		ImpMinion: {
+			DisplayName: "フライングインプ"
+		}
+		ImpFireball: {
+			DisplayName: "インプファイアボール"
+		}
+		HornetStinger: {
+			DisplayName: "ホーネットスティンガー"
+		}
+		HornetMinion: {
+			DisplayName: "ホーネット"
+		}
+		DeadlySphereFire: {
+			DisplayName: "デッドリースフィア・ファイア"
+		}
+		BigSharknadoMinion: {
+			DisplayName: "テンペスト"
+		}
+		TumbleSheepMinion: {
+			DisplayName: "タンブルシープ"
+		}
+		TerrarianEntMinion: {
+			DisplayName: "森のエント"
+		}
+		TerrarianEntCounterMinion: {
+			DisplayName: "テラリアンエント・カウンターミニオン"
+		}
+		LandChunkProjectile: {
+			DisplayName: "ランドチャンク・投射物"
+		}
+		CritterSwarmProjectile: {
+			DisplayName: "クリッタースウォーム・投射物"
+		}
+		StoneCloudMinion: {
+			DisplayName: "ストーンクラウド"
+		}
+		StarSurferProjectile: {
+			DisplayName: "スターサーファー・投射物"
+		}
+		StarSurferMinion: {
+			DisplayName: "スターサーファー"
+		}
+		SpiritGunMinionBullet: {
+			DisplayName: "スピリットガンミニオン・バレット"
+		}
+		SpiritGunMinion: {
+			DisplayName: "スピリットリボルバー"
+		}
+		SpiritGunCounterMinion: {
+			DisplayName: "スピリットガン・カウンターミニオン"
+		}
+		SlimeTrainSlimeMinion: {
+			DisplayName: "スライムトレイン・乗客"
+		}
+		SlimeTrainMinion: {
+			DisplayName: "セレスティアル・スチームトレイン"
+		}
+		SlimeTrainMarkerProjectile: {
+			DisplayName: "スライムトレイン・マーカー投射物"
+		}
+		SlimeTrainCounterMinion: {
+			DisplayName: "スライムトレイン・カウンターミニオン"
+		}
+		SlimeTrainCartProjectile: {
+			DisplayName: "スライムトレイン・カート投射物"
+		}
+		SlimepireMinion: {
+			DisplayName: "スライムパイア"
+		}
+		SlimecartMinion: {
+			DisplayName: "スライムカート"
+		}
+		RatsMinion: {
+			DisplayName: "ネズミ (友好)"
+		}
+		PricklyPearSeedProjectile: {
+			DisplayName: "ウチワサボテンの種・投射物"
+		}
+		PricklyPearMinion: {
+			DisplayName: "ウチワサボテン"
+		}
+		PricklyPearCactusProjectile: {
+			DisplayName: "ウチワサボテン・サボテン投射物"
+		}
+		CopperSwordMinion: {
+			DisplayName: "スターリー・スカイスラッシャー"
+		}
+		PaperSurferMinion: {
+			DisplayName: "ペーパーサーファー"
+		}
+		NullHatchetMinion: {
+			DisplayName: "ナルハチェット"
+		}
+		NecromancerSkeletonMinion: {
+			DisplayName: "ネクロマンサー・スケルトン"
+		}
+		NecromancerMinion: {
+			DisplayName: "ネクロマンサー"
+		}
+		BoneSphereProjectile: {
+			DisplayName: "ボーンスフィア・投射物"
+		}
+		BoneSphereBoneProjectile: {
+			DisplayName: "ボーンスフィア・ボーン投射物"
+		}
+		MysticPaintbrushMinion: {
+			DisplayName: "ミスティックパレット"
+		}
+		MycelialMageMinion: {
+			DisplayName: "マイセリアルメイジ"
+		}
+		MinionWaypoint: {
+			DisplayName: "ミニオンウェイポイント"
+		}
+		MeteorFistMinion: {
+			DisplayName: "メテオフィスト"
+		}
+		MeteorFistHead: {
+			DisplayName: "メテオフィスト"
+		}
+		LilEntMinion: {
+			DisplayName: "リルエントミニオン"
+		}
+		LilEntLeafProjectile: {
+			DisplayName: "リルエント・リーフ投射物"
+		}
+		GoblinTechnomancerProbeMinion: {
+			DisplayName: "ゴブリンテクノマンサー・プローブ"
+		}
+		GoblinTechnomancerMinion: {
+			DisplayName: "ゴブリンテクノマンサー"
+		}
+		GoblinGunnerMinionGuns: {
+			DisplayName: "ゴブリンガンナーミニオン・ガンズ"
+		}
+		GoblinGunnerMinion: {
+			DisplayName: "ゴブリンガンナー"
+		}
+		GoblinGunnerCounterMinion: {
+			DisplayName: "ゴブリンガンナー・カウンターミニオン"
+		}
+		GoblinGunnerBullet: {
+			DisplayName: "ゴブリンガンナー・バレット"
+		}
+		FlyingSwordMinion: {
+			DisplayName: "クラレント"
+		}
+		FishBowlMinion: {
+			DisplayName: "フライングフィッシュボウル"
+		}
+		FishBowlFish: {
+			DisplayName: "フィッシュボウル・フィッシュ"
+		}
+		ExciteSkullMinion: {
+			DisplayName: "エキサイトスカル"
+		}
+		EclipseSphere: {
+			DisplayName: "エクリプススフィア"
+		}
+		EclipseHeraldMinion: {
+			DisplayName: "エクリプスヘラルド"
+		}
+		EclipseHeraldCounterMinion: {
+			DisplayName: "エクリプスヘラルド・カウンターミニオン"
+		}
+		CrystalFistMinion: {
+			DisplayName: "クリスタルフィスト"
+		}
+		CrystalFistHeadMinion: {
+			DisplayName: "クリスタルフィスト"
+		}
+		CrimsonAltarMinion: {
+			DisplayName: "クリムゾンセル"
+		}
+		CrimsonAltarCrimera: {
+			DisplayName: "クリムゾンアルター・クリメラ"
+		}
+		CrimsonAltarCounterMinion: {
+			DisplayName: "クリムゾンアルター・カウンターミニオン"
+		}
+		CrimsonAltarBigCrimera: {
+			DisplayName: "クリムゾンアルター・ビッグクリメラ"
+		}
+		CorruptionAltarMinion: {
+			DisplayName: "コラプションセル"
+		}
+		CorruptionAltarEater: {
+			DisplayName: "コラプションアルター・イーター"
+		}
+		CorruptionAltarCounterMinion: {
+			DisplayName: "コラプションアルター・カウンターミニオン"
+		}
+		CorruptionAltarBigEater: {
+			DisplayName: "コラプションアルター・ビッグイーター"
+		}
+		ZephyrFishMinion: {
+			DisplayName: "ゼファーフィッシュミニオン"
+		}
+		TurtleMinion: {
+			DisplayName: "タートルミニオン"
+		}
+		TrufflePetGlowingMushroom: {
+			DisplayName: "トリュフペット・グローイングマッシュルーム"
+		}
+		TikiSpiritMinion: {
+			DisplayName: "ティキスピリットミニオン"
+		}
+		SnowmanPetSnowballProjectile: {
+			DisplayName: "スノーマンペット・スノーボール投射物"
+		}
+		ShadowMimicMinion: {
+			DisplayName: "シャドウミミックミニオン"
+		}
+		SaplingMinionLeafProjectile: {
+			DisplayName: "サップリングミニオン・リーフ投射物"
+		}
+		SaplingMinion: {
+			DisplayName: "サップリングミニオン"
+		}
+		PuppyMinion: {
+			DisplayName: "パピーミニオン"
+		}
+		PropellerGatoMinion: {
+			DisplayName: "プロペラガトミニオン"
+		}
+		PetLizardMinion: {
+			DisplayName: "ペットリザードミニオン"
+		}
+		PenguinPetFishProjectile: {
+			DisplayName: "ペンギンペット・フィッシュ投射物"
+		}
+		ParrotPetMinion: {
+			DisplayName: "パロットペットミニオン"
+		}
+		MiniMinotaurMinion: {
+			DisplayName: "ミニミノタウロミニオン"
+		}
+		MiniMinotaurAxeProjectile: {
+			DisplayName: "ミニミノタウロス・アックス投射物"
+		}
+		HoardagronHeadMinion: {
+			DisplayName: "ホーダグロンヘッドミニオン"
+		}
+		GlommerMinion: {
+			DisplayName: "グローマミニオン"
+		}
+		GlitteryButterflyMinion: {
+			DisplayName: "グリッタリーバタフライミニオン"
+		}
+		EyeSpringMinion: {
+			DisplayName: "アイスプリングミニオン"
+		}
+		DynamiteKittenRocket: {
+			DisplayName: "ダイナマイトキトン・ロケット"
+		}
+		DynamiteKittenMinion: {
+			DisplayName: "ダイナマイトキトンミニオン"
+		}
+		DynamiteKittenGrenade: {
+			DisplayName: "ダイナマイトキトン・グレネード"
+		}
+		DynamiteKittenBullet: {
+			DisplayName: "ダイナマイトキトン・バレット"
+		}
+		BlackCatWaterBolt: {
+			DisplayName: "ブラックキャット・ウォーターボルト"
+		}
+		BlackCatShadowBeam: {
+			DisplayName: "ブラックキャット・シャドウビーム"
+		}
+		BlackCatMinion: {
+			DisplayName: "ブラックキャットミニオン"
+		}
+		BlackCatMeowsicalNote: {
+			DisplayName: "ブラックキャット・ミャウジカルノート"
+		}
+		BabyTruffleMinion: {
+			DisplayName: "ベイビートリュフミニオン"
+		}
+		BabySnowmanMinion: {
+			DisplayName: "ベイビースノーマンミニオン"
+		}
+		BabySkeletronHeadMinion: {
+			DisplayName: "ベイビースケルトロンヘッドミニオン"
+		}
+		BabyPenguinMinion: {
+			DisplayName: "ベビーペンギンミニオン"
+		}
+		BabyHornetMinion: {
+			DisplayName: "ベビーホーネットミニオン"
+		}
+		BabyGrinchMinion: {
+			DisplayName: "ベビーグリンチミニオン"
+		}
+		BabyFaceMonsterMinion: {
+			DisplayName: "ベビーフェイスモンスターミニオン"
+		}
+		BabyEaterMinion: {
+			DisplayName: "ベビーイーターミニオン"
+		}
+		BabyDinosaurMinion: {
+			DisplayName: "ベビーダイナソーミニオン"
+		}
+		VoltBunnyMinion: {
+			DisplayName: "ボルトバニーミニオン"
+		}
+		SugarGliderMinion: {
+			DisplayName: "シュガーグライダーミニオン"
+		}
+		SquashlingPumpkinBomb: {
+			DisplayName: "スクワッシュリング・パンプキンボム"
+		}
+		SquashlingMinion: {
+			DisplayName: "スクワッシュリングミニオン"
+		}
+		PlanteroMinion: {
+			DisplayName: "プランテロミニオン"
+		}
+		EsteeMinion: {
+			DisplayName: "エスティーミニオン"
+		}
+		EsteeFallenStarProjectile: {
+			DisplayName: "エスティー・フォーリンスター投射物"
+		}
+		CursedSaplingMinion: {
+			DisplayName: "カースドサップリングミニオン"
+		}
+		CursedSaplingBranchProjectile: {
+			DisplayName: "カースドサップリング・ブランチ投射物"
+		}
+		CompanionCubeMinion: {
+			DisplayName: "コンパニオンキューブミニオン"
+		}
+		BabyRedPandaMinion: {
+			DisplayName: "ベビーレッサーパンダミニオン"
+		}
+		BabyRedPandaBambooSpikeController: {
+			DisplayName: "ベビーレッサーパンダ・バンブースパイクコントローラー"
+		}
+		BabyRedPandaBambooSpike: {
+			DisplayName: "ベビーレッサーパンダ・バンブースパイク"
+		}
+		BabyImpMinion: {
+			DisplayName: "ベビーインプミニオン"
+		}
+		BabyImpFireBall: {
+			DisplayName: "ベビーインプ・ファイアボール"
+		}
+		TinyFishronWhirlpool: {
+			DisplayName: "タイニーフィシュロン・ワールプール"
+		}
+		TinyFishronMinion: {
+			DisplayName: "タイニーフィシュロンミニオン"
+		}
+		SpiderBrainMinion: {
+			DisplayName: "スパイダーブレイン"
+		}
+		SpiderBrainEyeProjectile: {
+			DisplayName: "スパイダーブレイン・アイ投射物"
+		}
+		SpazMinion: {
+			DisplayName: "スパズミニオン"
+		}
+		SlimePrincessMinion: {
+			DisplayName: "スライムプリンセスミニオン"
+		}
+		SlimePrincessHelperSlimeMinion: {
+			DisplayName: "スライムプリンセス・ヘルパースライムミニオン"
+		}
+		SlimePrinceNinjaMinion: {
+			DisplayName: "スライムプリンス・ニンジャミニオン"
+		}
+		SkeletronJrMinion: {
+			DisplayName: "スケルトロンジュニア"
+		}
+		RezMinion: {
+			DisplayName: "レズミニオン"
+		}
+		PlanteraSeedlingThornBall: {
+			DisplayName: "プランテラシードリング・ソーンボール"
+		}
+		PlanteraSeedlingSeed: {
+			DisplayName: "プランテラシードリング・シード"
+		}
+		PlanteraSeedlingMinion: {
+			DisplayName: "プランテラシードリング"
+		}
+		PhantasmalDragonMinion: {
+			DisplayName: "ファンタズマルドラゴンミニオン"
+		}
+		MoonlingMinion: {
+			DisplayName: "ムーンリング"
+		}
+		MoonlingLaser: {
+			DisplayName: "ムーンリング・レーザー"
+		}
+		MiniPrimeMinion: {
+			DisplayName: "ミニプライム"
+		}
+		ItsyBetsyMinion: {
+			DisplayName: "イッツィーベッツィー"
+		}
+		ItsyBetsyFire: {
+			DisplayName: "イッツィーベッツィー・ファイア"
+		}
+		IceQueenMinion: {
+			DisplayName: "アイスクイーン"
+		}
+		IceQueenIcicle: {
+			DisplayName: "アイスクイーン・アイシクル"
+		}
+		HoneyPotProjectile: {
+			DisplayName: "ハニーポット・投射物"
+		}
+		HoneyBeeMinion: {
+			DisplayName: "ハニービー"
+		}
+		HoneyBeeBee: {
+			DisplayName: "ハニービー・ビー"
+		}
+		EverscreamSaplingOrnament: {
+			DisplayName: "エバースクリームサップリング・オーナメント"
+		}
+		EverscreamSaplingMinion: {
+			DisplayName: "エバースクリームサップリング"
+		}
+		DestroyerLiteProbeProjectile: {
+			DisplayName: "デストロイヤーライト・プローブ投射物"
+		}
+		DestroyerLiteMinion: {
+			DisplayName: "デストロイヤーライトミニオン"
+		}
+		DeerclopsShadowHand: {
+			DisplayName: "ディアクロップス・シャドウハンド"
+		}
+		DeerclopsMinion: {
+			DisplayName: "ディアクロップスミニオン"
+		}
+		DeerclopsIceBlock: {
+			DisplayName: "ディアクロップス・アイスブロック"
+		}
+		BabyOgreMinion: {
+			DisplayName: "ベビーオーガミニオン"
+		}
+		AncientVisionProjectile: {
+			DisplayName: "エンシェントビジョン・投射物"
+		}
+		AlienSkaterMinion: {
+			DisplayName: "エイリアンスケーターミニオン"
+		}
+		SharkPupMinion: {
+			DisplayName: "シャークパップミニオン"
+		}
+		SharkPupBubble: {
+			DisplayName: "シャークパップ・バブル"
+		}
+		PigManMinion: {
+			DisplayName: "ピッグマンミニオン"
+		}
+		LilHarpyMinion: {
+			DisplayName: "リルハーピーミニオン"
+		}
+		LilHarpyFeather: {
+			DisplayName: "リルハーピー・フェザー"
+		}
+		FennecFoxMinion: {
+			DisplayName: "フェネックフォックスミニオン"
+		}
+		BernieMinion: {
+			DisplayName: "バーニーミニオン"
+		}
+		BabyWerewolfMinion: {
+			DisplayName: "ベビーワーウルフミニオン"
+		}
+		WyvernFlyMinion: {
+			DisplayName: "ワイバーンフライミニオン"
+		}
+		WaterBeam: {
+			DisplayName: "ウォータービーム"
+		}
+		TwisterProjectile: {
+			DisplayName: "ツイスター・投射物"
+		}
+		TruffleTurtleMinion: {
+			DisplayName: "トリュフタートルミニオン"
+		}
+		SmolederMinion: {
+			DisplayName: "スモールダーミニオン"
+		}
+		PlantPupMinion: {
+			DisplayName: "プラントパップミニオン"
+		}
+		LilGatorMinion: {
+			DisplayName: "リルゲイターミニオン"
+		}
+		LeafBlade: {
+			DisplayName: "リーフブレード"
+		}
+		FlareVortexProjectile: {
+			DisplayName: "フレアボルテックス・投射物"
+		}
+		CloudPuffProjectile: {
+			DisplayName: "クラウドパフ・投射物"
+		}
+		CloudiphantMinion: {
+			DisplayName: "クラウディファントミニオン"
+		}
+		CinderHenMinion: {
+			DisplayName: "シンダーヘンミニオン"
+		}
+		AxolotlMinion: {
+			DisplayName: "アホロートルミニオン"
+		}
+		CharredChimeraMinionHead: {
+			DisplayName: "チャードキメラミニオン・ヘッド"
+		}
+		CharredChimeraMinion: {
+			DisplayName: "チャードキメラ"
+		}
+		CharredChimeraCounterMinion: {
+			DisplayName: "チャードキメラ・カウンターミニオン"
+		}
+		BoneSerpentMinion: {
+			DisplayName: "ボーンサーペント"
+		}
+		BoneSerpentCounterMinion: {
+			DisplayName: "ボーンサーペント・カウンターミニオン"
+		}
+		BombBuddyMinion: {
+			DisplayName: "ボムバディ"
+		}
+		HoneySlime: {
+			DisplayName: "ハニースライム"
+		}
+		BeeQueenMinion: {
+			DisplayName: "ビーボンバルディア"
+		}
+		BeeQueenBucket: {
+			DisplayName: "ビークイーン・バケツ"
+		}
+		BalloonMonkeyMinion: {
+			DisplayName: "バルーンモンキー"
+		}
+		BalloonMonkeyDart: {
+			DisplayName: "バルーンモンキー・ダート"
+		}
+		BalloonMonkeyBalloon: {
+			DisplayName: "バルーンモンキー・バルーン"
+		}
+		BalloonBuddyMinion: {
+			DisplayName: "バルーンバディ"
+		}
+		BalloonBuddyCounterMinion: {
+			DisplayName: "バルーンバディ・カウンターミニオン"
+		}
+		AcornMinion: {
+			DisplayName: "フライングエイコーン"
+		}
+		AcornBomb: {
+			DisplayName: "エイコーンボム"
+		}
+		RoyalCrownProjectile: {
+			DisplayName: "ロイヤルクラウン・投射物"
+		}
+		IllusionistWisp: {
+			DisplayName: "イリュージョニスト・ウィスプ"
+		}
+		ForagerMushroom: {
+			DisplayName: "フォレジャー・マッシュルーム"
+		}
+		AridTumblerProjectile: {
+			DisplayName: "アリッドタンブラー・投射物"
+		}
+		TechnoCharmProjectile: {
+			DisplayName: "テクノチャーム・投射物"
+		}
+		SquireSkullProjectile: {
+			DisplayName: "スクワイアスカル・投射物"
+		}
+	}
+	Buffs: {
+		WoFSquireMinionBuff: {
+			Description: "ウォールオブフレッシュを導くことができる！"
+			DisplayName: "ウォールオブフレッシュのスクワイア"
+		}
+		GuideVoodooSquireMinionBuff: {
+			Description: "ガイドを導くことができる！"
+			DisplayName: "ガイドのスクワイア"
+		}
+		VikingSquireMinionBuff: {
+			Description: "二刀流のバイキングのスクワイアがあなたの命令に従う！"
+			DisplayName: "バイキングのスクワイア"
+		}
+		TitaniumSquireMinionBuff: {
+			Description: "チタニウムのスクワイアがあなたの命令に従う！"
+			DisplayName: "チタニウムのスクワイア"
+		}
+		StardustSquireMinionBuff: {
+			Description: "スターダストのスクワイアがあなたの命令に従う！"
+			DisplayName: "スターダストのスクワイア"
+		}
+		SquireTagDamageBuff: {
+			Description: "召喚武器からのダメージが10%増加する"
+			DisplayName: "スクワイアのタグ"
+		}
+		SquireCooldownBuff: {
+			Description: "あなたのスクワイアのスペシャルはクールダウン中だ！"
+			DisplayName: "スクワイアスペシャルクールダウン"
+		}
+		SqueyereMinionBuff: {
+			Description: "スクアイアがあなたの命令に従う！"
+			DisplayName: "スクアイア"
+		}
+		SoulboundSwordMinionBuff: {
+			Description: "ソウルバウンドソードがあなたの命令に従う！"
+			DisplayName: "ソウルバウンドソード"
+		}
+		SoulboundBowMinionBuff: {
+			Description: "ソウルバウンドボウがあなたの命令に従う！"
+			DisplayName: "ソウルバウンドボウ"
+		}
+		SoulboundArsenalMinionBuff: {
+			Description: "ソウルバウンドの弓と剣があなたの命令に従う！"
+			DisplayName: "ソウルバウンドアーセナル"
+		}
+		SkywareSquireMinionBuff: {
+			Description: "スカイウェアセンチュリオンがあなたのために戦っている！"
+			DisplayName: "スカイウェアセンチュリオン"
+		}
+		ShadowSquireMinionBuff: {
+			Description: "影のスクワイアがあなたの命令に従う！"
+			DisplayName: "影のスクワイア"
+		}
+		SeaSquireMinionBuff: {
+			Description: "空飛ぶ魚があなたの気まぐれに従う！"
+			DisplayName: "海のスクワイア"
+		}
+		PumpkinSquireMinionBuff: {
+			Description: "カボチャのスクワイアがあなたの命令に従う！"
+			DisplayName: "カボチャのスクワイア"
+		}
+		PottedPalMinionBuff: {
+			Description: "友好的な植物があなたの命令に従う！"
+			DisplayName: "鉢植えの相棒"
+		}
+		MushroomSquireMinionBuff: {
+			Description: "キノコのスクワイアがあなたの命令に従う！"
+			DisplayName: "キノコのスクワイア"
+		}
+		GuideSquireMinionBuff: {
+			Description: "ガイドを導くことができる！"
+			DisplayName: "ガイドのスクワイア"
+		}
+		GoldenRogueSquireMinionBuff: {
+			Description: "ゴールデンローグのスクワイアがあなたの命令に従う！"
+			DisplayName: "ゴールデンローグのスクワイア"
+		}
+		EmpressSquireMinionBuff: {
+			Description: "これを見て！"
+			DisplayName: "光の女帝に戴冠されし者"
+		}
+		DemonSquireMinionBuff: {
+			Description: "悪魔のスクワイアがあなたの命令に従う！"
+			DisplayName: "悪魔のスクワイア"
+		}
+		CrimsonSquireMinionBuff: {
+			Description: "クリムゾンのスクワイアがあなたの命令に従う！"
+			DisplayName: "クリムゾンのスクワイア"
+		}
+		BoneSquireMinionBuff: {
+			Description: "骨のスクワイアがあなたの命令に従う！"
+			DisplayName: "骨のスクワイア"
+		}
+		ArmoredBoneSquireMinionBuff: {
+			Description: "アーマードボーンのスクワイアがあなたの命令に従う！"
+			DisplayName: "アーマードボーンのスクワイア"
+		}
+		AncientCobaltSquireMinionBuff: {
+			Description: "古代のコバルトのスクワイアがあなたの命令に従う！"
+			DisplayName: "古代のコバルトのスクワイア"
+		}
+		AdamantiteSquireMinionBuff: {
+			Description: "アダマンタイトのスクワイアがあなたの命令に従う！"
+			DisplayName: "アダマンタイトのスクワイア"
+		}
+		XCXCopterMinionBuff: {
+			Description: "柔軟なヘリコプターがあなたのために戦う！"
+			DisplayName: "コプターX"
+		}
+		WhackAMoleMinionBuff: {
+			Description: "魔法のモグラがあなたのために戦う！"
+			DisplayName: "ジェリービーンモール"
+		}
+		VoidKnifeMinionBuff: {
+			Description: "エーテルの短剣があなたのために戦う！"
+			DisplayName: "ヴォイドダガー"
+		}
+		TumbleSheepMinionBuff: {
+			Description: "転がる羊があなたのために戦う！"
+			DisplayName: "タンブルシープ"
+		}
+		TerrarianEntMinionBuff: {
+			Description: "強力な森の精霊があなたのために戦う！"
+			DisplayName: "森のエント"
+		}
+		StoneCloudMinionBuff: {
+			Description: "非常に高密度な雲があなたのために戦う！"
+			DisplayName: "ストーンクラウド"
+		}
+		StarSurferMinionBuff: {
+			Description: "スターサーファーがあなたのために戦う！"
+			DisplayName: "スターサーファー"
+		}
+		SpiritGunMinionBuff: {
+			Description: "知性を持つ弾丸の群れがあなたのために戦う！"
+			DisplayName: "スピリットリボルバー"
+		}
+		SlimeTrainMinionBuff: {
+			Description: "天界の列車とその乗客があなたのために戦う！"
+			DisplayName: "セレスティアルスライムトレイン"
+		}
+		SlimepireMinionBuff: {
+			Description: "ヴァンパイアスライムがあなたのために戦う！"
+			DisplayName: "スライムパイア"
+		}
+		SlimecartMinionBuff: {
+			Description: "スライムの鉱夫があなたのために戦う！"
+			DisplayName: "スライムカート"
+		}
+		RatsMinionBuff: {
+			Description: "ネズミの群れがあなたのために戦う！"
+			DisplayName: "なんてこった、ネズミだ！"
+		}
+		PricklyPearMinionBuff: {
+			Description: "ウチワサボテンの仲間があなたのために戦う！"
+			DisplayName: "ウチワサボテンのハリネズミ"
+		}
+		CopperSwordMinionBuff: {
+			Description: "魔法の剣があなたのために戦う！"
+			DisplayName: "スターリー・スカイスラッシャー"
+		}
+		PaperSurferMinionBuff: {
+			Description: "ペーパーサーファーがあなたのために戦う！"
+			DisplayName: "ペーパーサーファー"
+		}
+		NullHatchetMinionBuff: {
+			Description: "エーテルの斧があなたのために戦う！"
+			DisplayName: "ヌルハチェット"
+		}
+		NecromancerMinionBuff: {
+			Description: "ネクロマンサーとその骸骨のしもべたちがあなたのために戦う！"
+			DisplayName: "ネクロマンサー"
+		}
+		MysticPaintbrushMinionBuff: {
+			Description: "エーテルの絵の具セットがあなたのために戦う！"
+			DisplayName: "ミスティックパレット"
+		}
+		MycelialMageMinionBuff: {
+			Description: "マイセリアルメイジがあなたのために戦っている！"
+			DisplayName: "マイセリアルメイジ"
+		}
+		MeteorFistMinionBuff: {
+			Description: "メテオフィストがあなたのために戦う！"
+			DisplayName: "メテオフィスト"
+		}
+		LilEntMinionBuff: {
+			Description: "ちっちゃなエントがあなたのために戦っている！"
+			DisplayName: "ちっちゃなエント"
+		}
+		GoblinTechnomancerMinionBuff: {
+			Description: "ゴブリンテクノマンサーがあなたのために戦う！"
+			DisplayName: "ゴブリンテクノマンサー"
+		}
+		GoblinGunnerMinionBuff: {
+			Description: "ゴブリンガンナーがあなたのために戦う！"
+			DisplayName: "ゴブリンガンナー"
+		}
+		FlyingSwordMinionBuff: {
+			Description: "空飛ぶ剣があなたのために戦う！"
+			DisplayName: "クラレント"
+		}
+		FishBowlMinionBuff: {
+			Description: "空飛ぶ金魚鉢があなたのために戦う！"
+			DisplayName: "空飛ぶ金魚鉢"
+		}
+		ExciteSkullMinionBuff: {
+			Description: "骸骨のバイク乗りがあなたのために戦っている！"
+			DisplayName: "スカルバイカー"
+		}
+		EclipseHeraldMinionBuff: {
+			Description: "日食の使者があなたのために戦う！"
+			DisplayName: "エクリプスヘラルド"
+		}
+		CrystalFistMinionBuff: {
+			Description: "クリスタルフィストがあなたのために戦う！"
+			DisplayName: "クリスタルフィスト"
+		}
+		CrimsonAltarMinionBuff: {
+			Description: "クリムゾンセルがあなたのために戦う！"
+			DisplayName: "クリムゾンセル"
+		}
+		CorruptionAltarMinionBuff: {
+			Description: "コラプトセルがあなたのために戦う！"
+			DisplayName: "コラプトセル"
+		}
+		WyvernFlyMinionBuff: {
+			Description: "ワイバーンの幼体があなたの冒険に加わった！"
+			DisplayName: "ワイバーンフライ"
+		}
+		TruffleTurtleMinionBuff: {
+			Description: "キノコの甲羅を持つカメがあなたの冒険に加わった！"
+			DisplayName: "トリュフタートル"
+		}
+		SmolederMinionBuff: {
+			Description: "シャイなモグラがあなたの冒険に加わった！"
+			DisplayName: "スモールダー"
+		}
+		PlantPupMinionBuff: {
+			Description: "遊び好きな植物があなたの冒険に加わった！"
+			DisplayName: "プラントパップ"
+		}
+		LilGatorMinionBuff: {
+			Description: "サーフィン好きのワニがあなたの冒険に加わった！"
+			DisplayName: "リルゲイター"
+		}
+		FlareVortexDebuff: {
+			Description: "急速に体力を失っている"
+			DisplayName: "フレアボルテックス"
+		}
+		CloudiphantMinionBuff: {
+			Description: "エーテルの象があなたの冒険に加わった！"
+			DisplayName: "クラウディファント"
+		}
+		CinderHenMinionBuff: {
+			Description: "小さなフェニックスがあなたの冒険に加わった！"
+			DisplayName: "シンダーヘン"
+		}
+		AxolotlMinionBuff: {
+			Description: "水陸両生の友達があなたの冒険に加わった！"
+			DisplayName: "アホリトル"
+		}
+		CharredChimeraMinionBuff: {
+			Description: "チャードキメラがあなたのために戦う！"
+			DisplayName: "チャードキメラ"
+		}
+		BoneSerpentMinionBuff: {
+			Description: "骸骨のドラゴンがあなたのために戦う！"
+			DisplayName: "ボーンサーペント"
+		}
+		BombBuddyMinionBuff: {
+			Description: "ボムバディがあなたのために爆発する！"
+			DisplayName: "ボムバディ"
+		}
+		BeeQueenMinionBuff: {
+			Description: "ハチのアシスタントがあなたのために戦う！"
+			DisplayName: "バンブルボンバルディア"
+		}
+		BalloonMonkeyMinionBuff: {
+			Description: "ダーツを投げるサルたちがあなたのために戦う！"
+			DisplayName: "ダーツモンキー"
+		}
+		BalloonBuddyMinionBuff: {
+			Description: "バルーンバディがあなたのために戦う！"
+			DisplayName: "バルーンバディ"
+		}
+		AcornMinionBuff: {
+			Description: "翼の生えたドングリがあなたのために戦う！"
+			DisplayName: "ドングリ"
+		}
+		IllusionistWispBuff: {
+			Description: "イリュージョンウィスプがあなたの周りに出現している..."
+			DisplayName: "イリュージョンウィスプ"
+		}
+		MinionVarietyBuff: {
+			VarietyDamageBonus: "{0}% ミニオンバラエティダメージボーナス"
+			DisplayName: "ミニオンバラエティ！"
+		}
+	}
+	Items: {
+		GuideVoodooSquireMinionItem: {
+			SpecialDescription: "画面全体を水平にダッシュし、\nその進路上にある全てのものに命中する"
+			SpecialName: "ブルータルダッシュ"
+			Tooltip: "スクワイアを召喚する\nクリック長押しでその攻撃を誘導する\n「あなたは*本当に*ひどい人だ」"
+			DisplayName: "真のガイドのブードゥー人形"
+		}
+		VikingSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "アイシーアックス"
+			Tooltip: "スクワイアを召喚する\nバイキングのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "凍てつく北の紋章"
+		}
+		TitaniumSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "チタニウムドローン"
+			Tooltip: "スクワイアを召喚する\nチタニウムのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "チタニウムの紋章"
+		}
+		StardustSquireMinionItem: {
+			SpecialDescription: "持続する星座を召喚し、\n星を撃って敵を攻撃させる"
+			SpecialName: "スターダスト・コンステレーション"
+			Tooltip: "スクワイアを召喚する\nスターダストのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "スターダストの紋章"
+		}
+		SqueyereMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "シーイングダブル"
+			Tooltip: "スクワイアを召喚する\nスクアイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する\n「スク・アイ・ア。分かったかい？」"
+			DisplayName: "目の紋章"
+		}
+		SoulboundSwordMinionItem: {
+			SpecialDescription: "ソウルバウンドソードが一時的にあなたを助ける"
+			SpecialName: "ソウルバウンドコンパニオン"
+			Tooltip: "スクワイアを召喚する\n魔法の剣があなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "ソウルバウンドソード"
+		}
+		SoulboundBowMinionItem: {
+			SpecialDescription: "ソウルバウンドボウが一時的にあなたを助ける"
+			SpecialName: "ソウルバウンドコンパニオン"
+			Tooltip: "スクワイアを召喚する\n魔法の弓があなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "ソウルバウンドボウ"
+		}
+		SoulboundArsenalMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "ソウルバウンド・コアレッセンス"
+			Tooltip: "スクワイアを召喚する\nソウルバウンドの弓と剣があなたのために戦う！\nクリック長押しで彼らの攻撃を誘導する"
+			DisplayName: "ソウルバウンドアーセナル"
+		}
+		SkywareSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "バレッジ"
+			Tooltip: "スクワイアを召喚する\nスカイウェアセンチュリオンがあなたのために戦う\nクリック長押しでその攻撃を誘導する！"
+			DisplayName: "空の紋章"
+		}
+		ShadowSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "呪炎のフラスコ"
+			Tooltip: "スクワイアを召喚する\n影のスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "影の紋章"
+		}
+		SeaSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "シャークフォーム"
+			Tooltip: "スクワイアを召喚する\n空飛ぶ魚のスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "海の紋章"
+		}
+		PumpkinSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "ジャイアントパンプキン"
+			Tooltip: "スクワイアを召喚する\nカボチャのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "カボチャの紋章"
+		}
+		PottedPalMinionItem: {
+			SpecialDescription: "短時間だけ存在する鉢植えの相棒ジュニアを生成し、\n自動的に敵を攻撃する"
+			SpecialName: "受粉"
+			Tooltip: "スクワイアを召喚する\n友好的な植物があなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "鉢植えの相棒"
+		}
+		MushroomSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "マッシュルームトス"
+			Tooltip: "スクワイアを召喚する\nキノコのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "森の紋章"
+		}
+		GuideSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "フレイミングアロー・ボレー"
+			Tooltip: "スクワイアを召喚する\nクリック長押しでその攻撃を誘導する！\n「もしかしたら、君はそんなにひどい人間じゃないのかも...」"
+			DisplayName: "ガイドとの友情の腕輪"
+		}
+		GoldenRogueSquireMinionItem: {
+			SpecialDescription: "カーソルに最も近い敵にテレポートし、\n彼らにナイフの弾幕を投げる"
+			SpecialName: "ナイフの雲"
+			Tooltip: "スクワイアを召喚する\nゴールデンローグのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "ゴールデンローグの紋章"
+		}
+		EmpressSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "スペクトラム・スプリーム"
+			Tooltip: "スクワイアを召喚する\n光の女神官があなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "女帝の聖杯"
+		}
+		DemonSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "インプ・アシスタント"
+			Tooltip: "スクワイアを召喚する\n悪魔のスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "地底の紋章"
+		}
+		CrimsonSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "イコルのフラスコ"
+			Tooltip: "スクワイアを召喚する\nクリムゾンのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "クリムゾンの紋章"
+		}
+		BoneSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "フレイミングフレイル"
+			Tooltip: "スクワイアを召喚する\n骨のスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "骨の紋章"
+		}
+		ArmoredBoneSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "フレイルの魂"
+			Tooltip: "スクワイアを召喚する\nアーマードボーンのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "アーマードボーンの紋章"
+		}
+		AncientCobaltSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "マジックショットブラスト"
+			Tooltip: "スクワイアを召喚する\n古代のコバルトのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "古代のコバルトの紋章"
+		}
+		AdamantiteSquireMinionItem: {
+			SpecialDescription: ""
+			SpecialName: "ペガサスナイト"
+			Tooltip: "スクワイアを召喚する\nアダマンタイトのスクワイアがあなたのために戦う！\nクリック長押しでその攻撃を誘導する"
+			DisplayName: "アダマンタイトの紋章"
+		}
+		XCXCopterMinionItem: {
+			Tooltip: "柔軟なヘリコプターを召喚してあなたのために戦わせる！"
+			DisplayName: "コプターXの杖"
+		}
+		WhackAMoleMinionItem: {
+			Tooltip: "魔法のモグラの山を召喚してあなたのために戦わせる！"
+			DisplayName: "魔法のジェリービーン入りの瓶"
+		}
+		VoidKnifeMinionItem: {
+			Tooltip: "エーテルの短剣を召喚してあなたのために戦わせる！"
+			DisplayName: "ヴォイドダガー"
+		}
+		TumbleSheepMinionItem: {
+			Tooltip: "転がる羊を召喚してあなたのために戦わせる！"
+			DisplayName: "羊飼いの杖"
+		}
+		TerrarianEntMinionItem: {
+			Tooltip: "強力な森の精霊を召喚してあなたのために戦わせる！"
+			DisplayName: "聖なる若木の杖"
+		}
+		StoneCloudMinionItem: {
+			Tooltip: "非常に高密度な雲を召喚してあなたのために戦わせる！\n高いダメージを与えるが、攻撃速度は非常に遅い"
+			DisplayName: "雲入りの大岩"
+		}
+		StarSurferMinionItem: {
+			Tooltip: "スターサーファーを召喚してあなたのために戦わせる！"
+			DisplayName: "スターサーファーの杖"
+		}
+		SpiritGunMinionItem: {
+			Tooltip: "知性を持つ弾丸を召喚してあなたのために戦わせる\n「彼らが空腹にならないように注意して...」"
+			DisplayName: "スピリットリボルバー"
+		}
+		SlimeTrainMinionItem: {
+			Tooltip: "天界の列車を召喚してあなたのために戦わせる！"
+			DisplayName: "天界のスライムトレインの杖"
+		}
+		SlimepireMinionItem: {
+			Tooltip: "ヴァンパイアスライムを召喚してあなたのために戦わせる！\n敵の防御力を{0}無視する"
+			DisplayName: "スライムパイアの杖"
+		}
+		SlimecartMinionItem: {
+			Tooltip: "スライムの鉱夫を召喚してあなたのために戦わせる！"
+			DisplayName: "スライムカートの杖"
+		}
+		RatsMinionItem: {
+			Tooltip: "ネズミの大群を召喚してあなたのために戦わせる！\n各ネズミは基本ダメージの{0}/{1}を与える\n敵の防御力を{2}無視する"
+			DisplayName: "ネズミ使いのロッド"
+		}
+		PricklyPearMinionItem: {
+			Tooltip: "ウチワサボテンのハリネズミを召喚してあなたのために戦わせる！"
+			DisplayName: "ウチワサボテンの杖"
+		}
+		CopperSwordMinionItem: {
+			Tooltip: "魔法の剣を召喚してあなたのために戦わせる！"
+			DisplayName: "スターリー・スカイスラッシャー"
+		}
+		PaperSurferMinionItem: {
+			Tooltip: "ペーパーサーファーを召喚してあなたのために戦わせる！"
+			DisplayName: "ペーパーサーファーの杖"
+		}
+		NullHatchetMinionItem: {
+			Tooltip: "エーテルの斧を召喚してあなたのために戦わせる！"
+			DisplayName: "ナルハチェット"
+		}
+		NecromancerMinionItem: {
+			Tooltip: "ネクロマンサーを召喚してあなたのために戦わせる！"
+			DisplayName: "ネクロドール"
+		}
+		MysticPaintbrushMinionItem: {
+			Tooltip: "エーテルの絵の具セットを召喚してあなたのために戦わせる！"
+			DisplayName: "ミスティックパレット"
+		}
+		MycelialMageMinionItem: {
+			Tooltip: "マイセリアルメイジを召喚してあなたのために戦わせる！"
+			DisplayName: "マイセリアルの杖"
+		}
+		MeteorFistMinionItem: {
+			Tooltip: "メテオフィストを召喚してあなたのために戦わせる！"
+			DisplayName: "メテオフィスト"
+		}
+		LilEntAccessory: {
+			Tooltip: "ちっちゃなエントがあなたを助ける！"
+			DisplayName: "採集家のお守り"
+		}
+		GoblinTechnomancerMinionItem: {
+			Tooltip: "ゴブリンテクノマンサーを召喚してあなたのために戦わせる！"
+			DisplayName: "シャドウフレイム・プローブコントローラー"
+		}
+		GoblinGunnerMinionItem: {
+			Tooltip: "ゴブリンのガンシップを召喚してあなたのために戦わせる！"
+			DisplayName: "ゴブリンの無線ビーコン"
+		}
+		FlyingSwordMinionItem: {
+			Tooltip: "空飛ぶ剣を召喚してあなたのために戦わせる！"
+			DisplayName: "クラレント"
+		}
+		FishBowlMinionItem: {
+			Tooltip: "空飛ぶ金魚鉢を召喚してあなたのために戦わせる！\n飛行する敵に対して最も効果的"
+			DisplayName: "金魚鉢の杖"
+		}
+		ExciteSkullMinionItem: {
+			Tooltip: "スカルバイカーを召喚してあなたのために戦わせる！"
+			DisplayName: "スケルタルのキーチェーン"
+		}
+		EclipseHeraldMinionItem: {
+			Tooltip: "まるで皆既日食のような\nこの現実が受け入れられない\n唇が別れを告げただけで\nあなたはもういないなんて..."
+			DisplayName: "エクリプスヘラルドの杖"
+		}
+		CrystalFistMinionItem: {
+			Tooltip: "クリスタルフィストを召喚してあなたのために戦わせる！"
+			DisplayName: "クリスタルフィストの杖"
+		}
+		CrimsonAltarMinionItem: {
+			Tooltip: "クリムゾンセルを召喚してあなたのために戦わせる！"
+			DisplayName: "クリムゾンセルの杖"
+		}
+		CorruptionAltarMinionItem: {
+			Tooltip: "コラプトセルを召喚してあなたのために戦わせる！"
+			DisplayName: "コラプトセルの杖"
+		}
+		WyvernFlyMinionItem: {
+			Tooltip: "ペットのワイバーンフライを召喚する！"
+			DisplayName: "せっかちな友情の弓"
+		}
+		TruffleTurtleMinionItem: {
+			Tooltip: "ペットのトリュフタートルを召喚する！"
+			DisplayName: "タフな友情の弓"
+		}
+		SmolederMinionItem: {
+			Tooltip: "ペットのスモールダーを召喚する！"
+			DisplayName: "静かな友情の弓"
+		}
+		PlantPupMinionItem: {
+			Tooltip: "ペットのプラントパップを召喚する！"
+			DisplayName: "冷静な友情の弓"
+		}
+		LilGatorMinionItem: {
+			Tooltip: "ペットのリルゲイターを召喚する！"
+			DisplayName: "陽気な友情の弓"
+		}
+		CloudiphantMinionItem: {
+			Tooltip: "ペットのクラウディファントを召喚する！"
+			DisplayName: "のんびりな友情の弓"
+		}
+		CinderHenMinionItem: {
+			Tooltip: "ペットのシンダーヘンを召喚する！"
+			DisplayName: "大胆な友情の弓"
+		}
+		AxolotlMinionItem: {
+			Tooltip: "ペットのアホリトルを召喚する！"
+			DisplayName: "風変わりな友情の弓"
+		}
+		StardustCombatPetEmblem: {
+			DisplayName: "スターダスト・戦闘ペットエンブレム"
+		}
+		SpectreCombatPetEmblem: {
+			DisplayName: "スペクター・戦闘ペットエンブレム"
+		}
+		SoulfulCombatPetEmblem: {
+			DisplayName: "ソウルフル・戦闘ペットエンブレム"
+		}
+		SkeletalCombatPetEmblem: {
+			DisplayName: "スケルタル・戦闘ペットエンブレム"
+		}
+		PlatinumCombatPetEmblem: {
+			DisplayName: "プラチナ・戦闘ペットエンブレム"
+		}
+		HallowedCombatPetEmblem: {
+			DisplayName: "神聖・戦闘ペットエンブレム"
+		}
+		GoldenCombatPetEmblem: {
+			DisplayName: "ゴールデン・戦闘ペットエンブレム"
+		}
+		CrimsonCombatPetEmblem: {
+			DisplayName: "真紅・戦闘ペットエンブレム"
+		}
+		CorruptCombatPetEmblem: {
+			DisplayName: "不浄・戦闘ペットエンブレム"
+		}
+		CelestialCombatPetEmblem: {
+			DisplayName: "セレスティアル・戦闘ペットエンブレム"
+		}
+		CharredChimeraMinionItem: {
+			Tooltip: "チャードキメラを召喚してあなたのために戦わせる！"
+			DisplayName: "チャード・スパイナルコード"
+		}
+		BoneSerpentMinionItem: {
+			Tooltip: "骸骨のドラゴンを召喚してあなたのために戦わせる！"
+			DisplayName: "ボーンサーペントの杖"
+		}
+		BombBuddyMinionItem: {
+			Tooltip: "ボムバディを召喚してあなたのために戦わせる！"
+			DisplayName: "不安定な起爆装置"
+		}
+		BeeQueenMinionItem: {
+			Tooltip: "ハチのアシスタントを召喚してあなたのために戦わせる！"
+			DisplayName: "女王蜂の王冠"
+		}
+		BalloonMonkeyMinionItem: {
+			Tooltip: "ダーツを投げるサルを召喚してあなたのために戦わせる！"
+			DisplayName: "ダーツの杖"
+		}
+		BalloonBuddyMinionItem: {
+			Tooltip: "魔法のバルーンアニマルを召喚してあなたのために戦わせる！"
+			DisplayName: "ソルベの杖"
+		}
+		AcornMinionItem: {
+			Tooltip: "翼の生えたドングリを召喚してあなたのために戦わせる！"
+			DisplayName: "ドングリの杖"
+		}
+		WoodenWaypointRod: {
+			DisplayName: "木のミニオン誘導ロッド"
+		}
+		TrueEyeWaypointRod: {
+			DisplayName: "ミニオン誘導用クトゥルフの目"
+		}
+		HallowedWaypointRod: {
+			DisplayName: "神聖なミニオン誘導ロッド"
+		}
+		GraniteWaypointRod: {
+			DisplayName: "グラナイトのミニオン誘導ロッド"
+		}
+		CrystalWaypointRod: {
+			DisplayName: "クリスタルのミニオン誘導ロッド"
+		}
+		BoneWaypointRod: {
+			DisplayName: "スケルタルのミニオン誘導ロッド"
+		}
+		InertCombatPetFriendshipBow: {
+			Tooltip: "魔法の力を失った友情の弓\n様々なバイオームの材料と組み合わせることで復元できる"
+			DisplayName: "不活性な友情の弓"
+		}
+		GuideHair: {
+			Tooltip: "闇市場で高値で取引されることがあり、\nその他にも邪悪な目的で使われる"
+			DisplayName: "ガイドの髪の束"
+		}
+		GraniteSpark: {
+			Tooltip: "グラナイトエレメンタルのエネルギーの破片\nミニオンのAIを強化するツールを作るために使用される"
+			DisplayName: "グラナイトスパーク"
+		}
+		CombatPetTeamworkBow: {
+			FriendshipBowRequirement: "このアイテムを使用する前に友情の弓を使用する必要がある\nスポーン地点近くの木のチェストを探してみよう！"
+			Tooltip: "あなたのチームに別の特別な戦闘ペットを招待する！\n最後に参加したペットとは常に異なるペットになる"
+			DisplayName: "協調の弓"
+		}
+		CombatPetFriendshipBow: {
+			Tooltip: "あなたの性格に基づいて特別な戦闘ペットを授ける！\nあなたの環境が結果に影響を与えるかもしれない..."
+			DisplayName: "友情の弓"
+		}
+		CombatPetAncientFriendshipBow: {
+			Tooltip: "好きな特別な戦闘ペットを授ける！"
+			DisplayName: "古代の友情の弓"
+		}
+		SpookyMask: {
+			SetBonus: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する\nスクワイアを使用中、攻撃速度が{2}%上昇する\n最大ミニオン数が減少する"
+			Tooltip: "召喚ダメージが{0}%増加するが、最大ミニオン数が減少する"
+			DisplayName: "不気味な仮面"
+		}
+		TitaniumCrown: {
+			SetBonus: "敵を攻撃した後に無敵になる\n召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "チタニウムの提督兜"
+		}
+		AdamantiteBicorn: {
+			SetBonus: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "アダマンタイトの司令兜"
+		}
+		RoyalGown: {
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			DisplayName: "ロイヤルガウン"
+		}
+		RoyalCrown: {
+			SetBonus: "浮遊する王冠が戦闘であなたのスクワイアを助ける！"
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアを使用中、攻撃速度が{1}%上昇する\n「これを落としましたよ、王様」"
+			DisplayName: "ロイヤルクラウン"
+		}
+		IllusionistCrimsonRobe: {
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "奇術師のローブ"
+		}
+		IllusionistCrimsonLeggings: {
+			Tooltip: "移動速度が{0}%増加する"
+			DisplayName: "奇術師のレギンス"
+		}
+		IllusionistCrimsonHood: {
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "奇術師のフード"
+		}
+		IllusionistCorruptRobe: {
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "奇術師のローブ"
+		}
+		IllusionistCorruptLeggings: {
+			Tooltip: "移動速度が{0}%上昇する"
+			DisplayName: "奇術師のレギンス"
+		}
+		IllusionistCorruptHood: {
+			SetBonus: "最大ミニオン数が{0}増加する\nミニオンがダメージを与えるとウィスプが出現する！"
+			Tooltip: "召喚ダメージが{0}%増加する\n最大ミニオン数が{1}増加する"
+			DisplayName: "奇術師のフード"
+		}
+		GraniteMask: {
+			SetBonus: "敵を攻撃した後に無敵になる\n召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する\n最大ミニオン数が{2}増加する"
+			DisplayName: "グラナイトの仮面"
+		}
+		GraniteGreaves: {
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する\n移動速度が{2}%上昇する"
+			DisplayName: "グラナイトのすね当て"
+		}
+		GraniteChestguard: {
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアを使用中、攻撃速度が{1}%上昇する"
+			DisplayName: "グラナイトの胸当て"
+		}
+		ForagerLeggings: {
+			Tooltip: ""
+			DisplayName: "カビのレギンス"
+		}
+		ForagerHelmet: {
+			SetBonus: "ミニオンが攻撃中にダメージを与える菌類を放出する"
+			Tooltip: ""
+			DisplayName: "カビの帽子"
+		}
+		ForagerBreastplate: {
+			Tooltip: "ミニオンのノックバックを{0}増加させる"
+			DisplayName: "カビの胸当て"
+		}
+		FlinxFurHood: {
+			SetBonus: "無料のフリンクスミニオンを付与する"
+			Tooltip: ""
+			DisplayName: "フリンクスの毛皮のフード"
+		}
+		AridLeggings: {
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			DisplayName: "乾燥地帯のレギンス"
+		}
+		AridHelmet: {
+			SetBonus: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する\n怒れるタンブラーが戦闘であなたのスクワイアを助ける！"
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアの移動範囲が{1}ブロック増加する"
+			DisplayName: "乾燥地帯の兜"
+		}
+		AridBreastplate: {
+			Tooltip: "召喚ダメージが{0}%増加する\nスクワイアを使用中、攻撃速度が{1}%上昇する"
+			DisplayName: "乾燥地帯の胸当て"
+		}
+		VarietyCharm: {
+			Tooltip: "ミニオンバラエティボーナスを{0}%増加させる"
+			DisplayName: "ミニオンたちの鍵付き箱"
+		}
+		TechnoCharmAccessory: {
+			Tooltip: "スクワイアのダメージを{0}%増加させる\nスクワイアを使用中、攻撃速度が{1}%上昇する\nスクワイアの攻撃に回転するデバフを付与する機械的な頭蓋骨を召喚する"
+			DisplayName: "テクノペンダント"
+		}
+		SquireSpyglass: {
+			Tooltip: "スクワイアの移動範囲を{0}ブロック増加させる"
+			DisplayName: "スクワイアの望遠鏡"
+		}
+		SquireSkullAccessory: {
+			Tooltip: "スクワイアのダメージを{0}%増加させる\nスクワイアを使用中、攻撃速度が{1}%上昇する\nスクワイアの攻撃に回転するデバフを付与する呪われた頭蓋骨を召喚する"
+			DisplayName: "屍術のペンダント"
+		}
+		SquireScope: {
+			Tooltip: "スクワイアの視界範囲を増加させる（右クリックでズームアウト）\nスクワイアの移動範囲を{0}ブロック増加させる"
+			DisplayName: "スクワイアスコープ"
+		}
+		MinionGPS: {
+			Tooltip: "ミニオンが半径{0}ブロック内の角の向こう側を自動的に攻撃できるようになる"
+			DisplayName: "ミニオン誘導GPS"
+		}
+		MinionCompass: {
+			Tooltip: "ミニオンが半径{0}ブロック内の角の向こう側を自動的に攻撃できるようになる"
+			DisplayName: "ミニオン誘導コンパス"
+		}
+		CombatPetStylishTeamworkBow: {
+			Tooltip: "戦闘ペットの最大数を{0}増加させる"
+			DisplayName: "洗練されたチームワークの弓"
+		}
+		CombatPetSpookyTeamworkBow: {
+			Tooltip: "戦闘ペットの最大数を{0}増加させる\n戦闘ペットの移動速度を上昇させる\n召喚ダメージを増加させる"
+			DisplayName: "不気味なチームワークの弓"
+		}
+		CombatPetMightyTeamworkBow: {
+			Tooltip: "戦闘ペットの最大数を{0}増加させるが、\n非戦闘ペットミニオンの最大数を{1}減少させる\n戦闘ペットの移動速度を上昇させる\n召喚ダメージを増加させる"
+			DisplayName: "強力なチームワークの弓"
+		}
+		CombatPetCrimsonChewToy: {
+			Tooltip: "戦闘ペットの移動速度を上昇させる"
+			DisplayName: "クリムゾンのおしゃぶり"
+		}
+		CombatPetChaoticChewToy: {
+			Tooltip: "戦闘ペットの移動速度を上昇させる"
+			DisplayName: "カオスなおしゃぶり"
+		}
+		CharmOfMightyMinions: {
+			Tooltip: "召喚ダメージを大幅に増加させる\n最大ミニオン数を{0}減少させる\nミニオンバラエティボーナスを{1}%減少させる"
+			DisplayName: "強力なミニオンのお守り"
+		}
+		CharmOfManyMinions: {
+			Tooltip: "最大ミニオン数を{0}増加させる\nミニオンバラエティボーナスを{1}%増加させる\n各ミニオンの与えるダメージがわずかに減少する"
+			DisplayName: "ミニオンたちのお守り"
+		}
+		AmuletOfManyMinions: {
+			Tooltip: "最大ミニオン数を{0}増加させる\n召喚ダメージを大幅に改善する\nミニオンバラエティボーナスを{1}%増加させる"
+			DisplayName: "ミニオンたちのアミュレット"
+		}
+	}
+	SummonSpecial: {
+		DemonSquireMinionItem: "特殊能力インプのファイアボールは速度が{1}%になる"
+		CrimsonSquireMinionItem: "霊液のフラスコの霊液は{1}秒間持続する"
+		BoneSquireMinionItem: "フレイルの長さは{1}ブロック"
+		ArmoredBoneSquireMinionItem: "ウィスプを{1}%の確率で生成する"
+		AncientCobaltSquireMinionItem: "マジックショットブラストは{1}%の距離を飛ぶ"
+		AdamantiteSquireMinionItem: "馬上槍での戦闘中、アダマンタイトのスクワイアは{1}倍のダメージを与える！"
+		ImpMinionItem: "インプが爆発する火の玉でターゲットに集中攻撃するには、Mods.SummonersShine.Summon.RightclickSpecialUncompressedを押してください！\n爆発する火の玉の爆発半径は{1}ブロックです\nMods.SummonersShine.Summon.RequiresEnergy"
+		AbigailMinionItem: "召喚するごとに、アビゲイルの仲間としてモーニング・グローリーが追加されます\nモーニング・グローリーが定期的にダメージを与えるウィスプを召喚するには、Mods.SummonersShine.Summon.RightclickSpecialUncompressedを押してください！\nモーニング・グローリーは{1}ブロック内の敵をターゲットにできます\nMods.SummonersShine.Summon.RequiresEnergy"
+	}
+	SummonSpecialCompressed: {
+		ImpMinionItem: "{1}ブロック Mods.SummonersShine.Summon.RightClickSpecial 爆発半径"
+		AbigailMinionItem: "{1}ブロック Mods.SummonersShine.Summon.RightClickSpecial 攻撃範囲"
+	}
+}

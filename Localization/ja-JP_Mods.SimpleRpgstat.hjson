@@ -1,0 +1,561 @@
+Mods: {
+	SimpleRpgstat: {
+		UI: {
+			StatTitle: Character Stats
+			LevelUp: Level Up! Lv.{0} (+3 Stat Points)
+			ExpGain: +{0} EXP
+			StatPoints: Stat Points: {0}
+			DetailInfo: "[Details]"
+			CloseKey: Press [C] or [ESC] to close
+			JobBeginner: ビギナー
+			JobWarrior: ウォリアー
+			JobRanger: レンジャー
+			JobMage: メイジ
+			JobSummoner: サモナー
+			JobUnknown: Unknown
+			StatSTR: 物理
+			StatDEX: 器用さ
+			StatINT: 知力
+			StatLUK: 運
+			MeleeDamage: 近接
+			RangedDamage: 遠距離
+			MagicDamage: 魔法
+			SummonDamage: 召喚
+			WhipDamage: 鞭
+			OtherDamage: その他
+			WeaponDamage: "{0} 武器: {1}~{2}"
+			WeaponDamageNone: 武器ダメージ: None
+			DamageBonus: "{0}: +{1}% (+{2}%)"
+			CritChance: Critical Chance: {0}% (+{1}%)
+			MaxMana: Max Mana: {0} (+{1})
+			Luck: Luck: {0} (+{1})
+		}
+	}
+}
+
+Buffs: {
+	ImmortalBuff: {
+		Description: Mods.SimpleRpgstat.Buffs.ImmortalBuff.Description
+		DisplayName: 不死
+	}
+
+	CooldownBuff: {
+		DisplayName: クールダウン
+		Description: Mods.SimpleRpgstat.Buffs.CooldownBuff.Description
+	}
+
+	MeteorStackBuff: {
+		DisplayName: メテオスタック（{0}/{1}）
+		Description: 右クリックで解除
+	}
+
+	ExpDoubleBuff: {
+		DisplayName: 経験値2倍
+		Description: 経験値を2倍獲得
+	}
+
+	ImmortalCooldownBuff: {
+		DisplayName: スキルクールダウン
+		Description: 一時的にスキルを使用できない
+	}
+}
+
+NPCs: {
+	RPGStatTrainer: {
+		Census: {
+			SpawnCondition: 出現条件不明
+		}
+
+		DisplayName: ステートレーナー
+
+		TownNPCMood: {
+			Content: 満足してるよ。
+			NoHome: 家が欲しいな。
+			FarFromHome: 家から遠すぎるかも。
+			LoveSpace: この広々とした空間、最高だね！
+			DislikeCrowded: 人が多すぎるのは嫌だな。
+			HateCrowded: こんな狭いところ、大嫌い。
+			LikeBiome: ここ、気に入ってるよ。
+			DislikeBiome: ここ、好きじゃないな。
+			LoveNPC: "{NPCName}、大好きだよ。"
+			LikeNPC: "{NPCName}、いい人だね。"
+			DislikeNPC: "{NPCName}、なんか気に入らない。"
+			HateNPC: "{NPCName}、大嫌い。"
+			LikeNPC_Princess: "{NPCName}、感じ良いね。"
+			Princess_LovesNPC: "{NPCName}、いい人だよ。"
+		}
+	}
+}
+
+Keybinds: {
+	"Open Skill UI": {
+		DisplayName: スキル画面を開く
+	}
+
+	"Open Stat UI": {
+		DisplayName: ステータス画面を開く
+	}
+
+	"Skill 1 USE": {
+		DisplayName: スキル1を使用
+	}
+}
+
+Projectiles: {
+	DelayedHomingMissile: {
+		DisplayName: Delayed Homing Missile
+	}
+
+	HomingExplodingMinion: {
+		DisplayName: Homing Exploding Minion
+	}
+
+	CustomRaven: {
+		DisplayName: Custom Raven
+	}
+}
+
+UI: {
+	StatShop: ステータスショップ
+	Shop: ショップ
+	StatTitle: キャラクターステータス
+	LevelUp: "レベルアップ！ レベル{0} (+3 ステータスポイント)"
+	ExpGain: "+{0} EXP"
+	StatPoints: "ステータスポイント: {0}"
+	DetailInfo: "[詳細]"
+	CloseKey: "[C] または [ESC] で閉じる"
+	JobBeginner: ビギナー
+	JobWarrior: ウォリアー
+	JobWarrior1: バーサーカー
+	JobWarrior2: パラディン
+	JobWarrior3: クルセイダー
+	JobRanger: レンジャー
+	JobRanger1: デッド・アイ
+	JobRanger2: ハンター
+	JobRanger3: レンジャー3
+	JobMage: メイジ
+	JobMage1: アークメイジ
+	JobMage2: クレリック
+	JobMage3: メイジ3
+	JobSummoner: サモナー
+	JobSummoner1: インヴォーカー
+	JobSummoner2: ネクロマンサー
+	JobSummoner3: サモナー3
+	JobUnknown: 不明
+	StatSTR: 強さ
+	StatDEX: 器用さ
+	StatINT: 知力
+	StatLUK: 運
+	MeleeDamage: 近接
+	RangedDamage: 遠距離
+	MagicDamage: 魔法
+	SummonDamage: 召喚
+	WhipDamage: 鞭
+	OtherDamage: その他
+	WeaponDamage: "{0}武器: {1}~{2}"
+	WeaponDamageNone: 武器ダメージ: なし
+	DamageBonus: "{0}: +{1}% (+{2}%)"
+	CritChance: "クリティカル率: {0}% (+{1}%)"
+	MaxMana: "最大マナ: {0} (+{1})"
+	Luck: "運: {0} (+{1})"
+	SkillTreeTitle: "[スキルツリー]"
+	SkillPointsText: "スキルポイント: {0}"
+	SkillUICloseKey: "[K] または [ESC] で閉じる"
+	JobChangeTitle: ジョブ変更
+	JobChangeCondition1: "必要条件: レベル10以上"
+	JobChangeCondition2: 初心者スキルの全ポイント使用
+	JobChangeBonus: "ジョブ変更ボーナス: +1スキルポイント"
+	JobChangeAction: "クリックしてジョブを変更！"
+	JobChangeSuccessMsg: "おめでとう！ {0}に変更しました！"
+	JobChangeBonusMsg: ジョブ変更ボーナスとしてスキルポイント1を獲得！
+	JobChangeLevelError: "ジョブを変更するにはレベル10以上が必要です！"
+	JobChangeSkillError: "ジョブを変更するには基本スキルに最低10ポイント投資する必要があります！"
+	JobDescBeginner: すべての始まり
+	JobDescWarrior: 強力な近接戦闘の達人
+	JobDescRanger: 精密な遠距離攻撃の専門家
+	JobDescMage: 神秘的な魔法の使い手
+	JobDescSummoner: ミニオンを操る達人
+	BasicSkillsTitle: 基本スキル
+	SkillHPName: ライフブースト
+	SkillHPDesc: 最大ライフを増加させます。
+	SkillHPDetail: '''
+		最大ライフを{1}増加させます。
+
+		現在のレベル: {0}
+		体力増加: +{1} HP
+		'''
+	SkillMPName: マナブースト
+	SkillMPDesc: 最大マナを増加させます。
+	SkillMPDetail: '''
+		最大マナを{1}増加させます。
+
+		現在のレベル: {0}
+		マナ増加: +{1} MP
+		'''
+	SkillSPDName: 移動速度ブースト
+	SkillSPDDesc: 移動速度を上昇させます。
+	SkillSPDDetail: '''
+		移動速度を{1}%上昇させます。
+
+		現在のレベル: {0}
+		速度上昇: +{1}%
+		'''
+	WarriorSkill1Name: シールドディフェンス
+	WarriorSkill1Desc: 防御力を増加させます。
+	WarriorSkill1DetailDesc: '''
+		防御力を{0}増加させます。
+
+		現在のレベル: {1}
+		防御力増加: +{2}
+		'''
+	WarriorSkill2Name: パワーストライク
+	WarriorSkill2Desc: 強化された攻撃ダメージを与える確率。
+	WarriorSkill2DetailDesc: '''
+		250%の強化された攻撃ダメージを与える確率
+		パワーストライクの確率を{0}%上昇。
+
+		現在のレベル: {1}
+		パワーストライク確率: +{2}%
+		'''
+	WarriorSkill3Name: 健康体
+	WarriorSkill3Desc: 現在のライフに基づいて最大ライフと近接ダメージを増加。
+	WarriorSkill3DetailDesc: '''
+		最大ライフと近接ダメージを現在のライフに基づいて増加。
+		最大ライフ +{0}
+		ダメージ [+{1}% 現在の体力] 増加
+
+		現在のレベル: {2}
+		'''
+	RangerSkill1Name: ダブルショット
+	RangerSkill1Desc: 同時に2本の矢を放つ
+	RangerSkill1DetailDesc: '''
+		同時に2本の矢を放つ。
+		2本目の矢のダメージはレベルに応じて増加。
+
+		現在のレベル: {0}
+		2本目の矢のダメージ: {1}%
+		'''
+	RangerSkill2Name: クリティカルフォーカス
+	RangerSkill2Desc: 遠距離攻撃のクリティカル率を上昇。
+	RangerSkill2DetailDesc: '''
+		遠距離攻撃のクリティカル率を上昇。
+		レベルごとに+2%上昇
+
+		現在のレベル: {0}
+		クリティカル確率上昇: +{1}%
+		'''
+	RangerSkill3Name: アローペネトレーション
+	RangerSkill3Desc: 射撃が敵を貫通する確率。
+	RangerSkill3DetailDesc: '''
+		射撃が敵を貫通する確率
+
+		現在のレベル: {0}
+		貫通率: {1}%
+		'''
+	MageSkill1Name: マナアンプリフィケーション
+	MageSkill1Desc: 最大マナを増加。
+	MageSkill1DetailDesc: '''
+		最大マナを増加。
+
+		現在のレベル: {0}
+		最大マナ: +{1}
+		'''
+	MageSkill2Name: マジックガード
+	MageSkill2Desc: 受けるダメージの一部をマナで吸収。
+	MageSkill2DetailDesc: '''
+		受けるダメージの一部をマナで吸収。
+		現在のマナが50%以上である場合に適用。
+		現在のレベル: {0}
+		マナで吸収するダメージ: {1}%
+		'''
+	MageSkill3Name: オーバーチャージ
+	MageSkill3Desc: マナ消費量を増加させ、ダメージを増幅。
+	MageSkill3DetailDesc: '''
+		マナ消費量を増加させ、ダメージを増幅。
+
+		現在のレベル: {0}
+		マナコスト: +{1}%, 魔法ダメージ増加: +{2}%
+		'''
+	SummonerSkill1Name: デッドリーミニオン
+	SummonerSkill1Desc: サモナーの攻撃がクリティカルダメージを与える。
+	SummonerSkill1DetailDesc: '''
+		サモナーの攻撃がクリティカルダメージを与える。
+
+		現在のレベル: {0}
+		クリティカルダメージ: +{1}%
+		'''
+	SummonerSkill2Name: サモニングマスタリー
+	SummonerSkill2Desc: 最大ミニオンの数を増加。
+	SummonerSkill2DetailDesc: '''
+		5レベルごとに+1召喚スロット
+		召喚ダメージを増加
+
+		現在のレベル: {0}
+		追加スロット: +{1}, 召喚ダメージ増加: +{2}%
+		'''
+	SummonerSkill3Name: エクステンデッドストライク
+	SummonerSkill3Desc: 鞭の攻撃範囲を増加。
+	SummonerSkill3DetailDesc: '''
+		鞭の攻撃範囲を増加。
+
+		現在のレベル: {0}
+		鞭の範囲: {1}%
+		'''
+	BerserkerSkill1Name: ソードマスタリー
+	BerserkerSkill2Name: レイジ
+	BerserkerSkill3Name: 不死
+	BerserkerSkill1Desc: 近接の最小ダメージを増加。
+	BerserkerSkill2Desc: ダメージを受けた際にクリティカルヒット確率を獲得。
+	BerserkerSkill3Desc: 致命的なダメージを生き延びる確率。
+	BerserkerSkill1DetailDesc: '''
+		近接の最小ダメージを増加  
+		レベルごとに最小ダメージが増加  
+
+		現在のレベル: {0}  
+		最小ダメージボーナス: +{1}%
+		'''
+	BerserkerSkill2DetailDesc: '''
+		体力が減少するほどクリティカルヒット確率が上昇  
+		50%以下のHPで最大効果  
+
+		現在のレベル: {0}  
+		最大クリティカルヒット確率ボーナス: +{1}%
+		'''
+	BerserkerSkill3DetailDesc: '''
+		致命的なダメージを1HPで生き延びる  
+		スキルレベルに応じて不死の持続時間とクールダウンが減少  
+
+		現在のレベル: {0}  
+		イモータリティ持続時間: {1}秒  
+		クールダウン: {2}秒"
+		'''
+	PaladinSkill2Name: コンバットスタンス
+	PaladinSkill3Name: シールドディフェンス
+	PaladinSkill2Desc: 攻撃が命中すると近接ダメージバフを獲得。
+	PaladinSkill3Desc: 防御力を増加させ、防御に基づいてダメージ軽減。
+	PaladinSkill2DetailDesc: '''
+		攻撃時にダメージを増加させるバフを獲得。  
+		この効果はスタックする。
+
+		現在のレベル: {0}  
+		スタックごとのダメージ増加: +{1}%  
+		最大スタック数: {2}
+		'''
+	PaladinSkill3DetailDesc: '''
+		レベルに応じて防御力と軽減率が増加。
+
+		現在のレベル: {0}  
+		防御力ボーナス: +{1}  
+		ダメージ軽減率: {2}%
+		'''
+	DeadeyeSkill1Name: プレシジョントレーニング
+	DeadeyeSkill2Name: パワーショット
+	DeadeyeSkill3Name: シャドウステップ
+	DeadeyeSkill1Desc: 精密な照準で最小ダメージを増加。
+	DeadeyeSkill2Desc: 強化された射撃技術で最大ダメージを増加。
+	DeadeyeSkill3Desc: 回避率を増加させ、回避時に短時間の無敵を付与。
+	DeadeyeSkill1DetailDesc: '''
+		精度を高めて安定したダメージを与える。
+		レベルに応じて最小ダメージが増加。
+
+		現在のレベル: {0}
+		最小ダメージ増加: +{1}%
+		'''
+	DeadeyeSkill2DetailDesc: '''
+		ショットを強化して壊滅的なダメージを与える。
+		レベルに応じて最大ダメージが増加。
+
+		現在のレベル: {0}
+		最大ダメージ増加: +{1}%
+		'''
+	DeadeyeSkill3DetailDesc: '''
+		影の技術で回避の達人になる。
+		レベルに応じて回避率が上昇し、無敵を付与。
+
+		現在のレベル: {0}
+		回避率: +{1}%
+		無敵持続時間: 1秒
+		'''
+	HunterSkill2Name: レイヴンコンパニオン
+	HunterSkill3Name: ビーストマスタリー
+	HunterSkill2Desc: 忠実なカラスの仲間を自動的に召喚し、一緒に戦う。
+	HunterSkill3Desc: ミニオンスロットを増やし、敏捷性に基づいて召喚ダメージを強化。
+	HunterSkill2DetailDesc: '''
+		敵を自動的に攻撃する忠実なカラスを召喚。
+		スキルレベルに応じてカラスが強化され、ミニオンスロットを消費しない。
+
+		現在のレベル: {0}
+		カラスダメージ: {1}
+		'''
+	HunterSkill3DetailDesc: '''
+		戦闘で複数のクリーチャーを指揮する技術を習得。
+		ミニオンスロットを増やし、召喚ダメージを強化。
+
+		現在のレベル: {0}
+		追加ミニオンスロット: +{1}
+		敏捷性の{2}%を召喚ダメージに変換
+		'''
+	ArchMageSkill1Name: マジックマスタリー
+	ArchMageSkill1Desc: 魔法の最小ダメージを増加。
+	ArchMageSkill1DetailDesc: '''
+		魔法の熟練度を高めて安定した魔法ダメージを確保。
+		魔法攻撃の最小ダメージを増加。
+
+		現在のレベル: {0}
+		最小ダメージ増加: +{1}%
+		'''
+	ArchMageSkill2Name: マジックミサイル
+	ArchMageSkill2Desc: 魔法攻撃時に自動的にマジックミサイルを発射。
+	ArchMageSkill2DetailDesc: '''
+		魔法で敵を攻撃する際に誘導ミサイルを自動発射。
+		最大マナに応じてミサイル数が増加し、レベルに応じてクールダウンが減少。
+
+		現在のレベル: {0}
+		ミサイルダメージ: {1}
+		クールダウン: {2}秒
+		'''
+	ArchMageSkill3Name: テレポート
+	ArchMageSkill3Desc: マウスカーソルの位置に即座にテレポート。
+	ArchMageSkill3DetailDesc: '''
+		魔法の力で即座にテレポート。
+		レベルが高いほどテレポート距離が増加し、クールダウンが減少。
+
+		現在のレベル: {0}
+		最大距離: {1}ピクセル
+		クールダウン: {2}秒
+		'''
+	ClericSkill1Name: マジックマスタリー
+	ClericSkill1Desc: 魔法の最小ダメージを増加。
+	ClericSkill1DetailDesc: '''
+		魔法の熟練度を高めて安定した魔法ダメージを確保。
+		魔法攻撃の最小ダメージを増加。
+
+		現在のレベル: {0}
+		最小ダメージ増加: +{1}%
+		'''
+	ClericSkill2Name: マナアーマー
+	ClericSkill2Desc: 最大マナに基づいて防御力を増加。
+	ClericSkill2DetailDesc: '''
+		魔法の力をアーマーに変換して防御力を増加。
+		最大マナに比例して防御力が増加。
+
+		現在のレベル: {0}
+		マナごとの防御力: {1}%
+		'''
+	ClericSkill3Name: フェイズステップ
+	ClericSkill3Desc: マウスカーソルの位置に即座にテレポート。
+	ClericSkill3DetailDesc: '''
+		高度な魔法でより遠くへテレポート可能
+		アークメイジのテレポートと組み合わせるとさらに強力。
+
+		現在のレベル: {0}
+		追加距離: +{1}ピクセル
+		クールダウン減少: -{2}秒
+		'''
+	InvokerSkill1Name: サモンマスタリー
+	InvokerSkill1Desc: 召喚の最小ダメージを増加。
+	InvokerSkill1DetailDesc: '''
+		召喚の熟練度を高めて安定したミニオンダメージを確保。
+		召喚攻撃の最小ダメージを増加。
+
+		現在のレベル: {0}
+		最小ダメージ増加: +{1}%
+		'''
+	InvokerSkill2Name: ミニオンガード
+	InvokerSkill2Desc: ミニオンの数に基づいて防御力を増加。
+	InvokerSkill2DetailDesc: '''
+		ミニオンから保護を受けて防御力を増加。
+		最大ミニオン数に比例して防御力が増加。
+
+		現在のレベル: {0}
+		ミニオンごとの防御力: +{1}
+		'''
+	InvokerSkill3Name: ミニオンブースト
+	InvokerSkill3Desc: ミニオンの速度とサイズを一時的に増加。
+	InvokerSkill3DetailDesc: '''
+		ミニオンに強化魔法をかけてパフォーマンスを向上。
+		レベルが高いほどクールダウンが減少し、持続時間が増加。
+
+		現在のレベル: {0}
+		クールダウン: {1}秒
+		持続時間: {2}秒
+		'''
+	NecromancerSkill1Name: ダークマスタリー
+	NecromancerSkill1Desc: 召喚の最小ダメージを増加。
+	NecromancerSkill1DetailDesc: '''
+		暗黒召喚の熟練度を高めて安定したミニオンダメージを確保。
+		召喚攻撃の最小ダメージを増加。
+
+		現在のレベル: {0}
+		最小ダメージ増加: +{1}%
+		'''
+	NecromancerSkill2Name: サクリファイス
+	NecromancerSkill2Desc: ミニオンを爆発させて大ダメージを与える。
+	NecromancerSkill2DetailDesc: '''
+		ミニオンを順番に爆発させて敵にダメージを与える。
+		レベルが高いほどダメージが増加し、クールダウンが減少。
+
+		現在のレベル: {0}
+		爆発ダメージ: {1}
+		クールダウン: {2}秒
+		'''
+	NecromancerSkill3Name: ネクロマンシー
+	NecromancerSkill3Desc: ライフを犠牲にしてミニオンスロットを増加。
+	NecromancerSkill3DetailDesc: '''
+		生命力を犠牲にしてより多くのアンデッドクリーチャーを召喚。
+		レベルが高いほどスロットが増加するが、体力がより減少。
+
+		現在のレベル: {0}
+		追加ミニオンスロット: +{1}
+		体力減少: -{2}
+		'''
+	TeleportCooldownName: テレポートクールダウン
+	TeleportCooldownTip: "{0}秒間テレポートできません"
+	MinionBoostCooldownName: ミニオンブーストクールダウン
+	MinionBoostCooldownTip: "{0}秒間ミニオンをブーストできません"
+	ExplosionCooldownName: 爆発クールダウン
+	ExplosionCooldownTip: "{0}秒間ミニオンを爆発できません"
+	MagicMissileCooldownName: マジックミサイルクールダウン
+	MagicMissileCooldownTip: "{0}秒間マジックミサイルを詠唱できません"
+	ImmortaltyCooldownName: 不死クールダウン
+	ImmortaltyCooldownTip: "{0}秒間不死を有効にできません"
+	SkillCooldownName: スキルクールダウン
+	SkillCooldownTip: スキルがクールダウン中です
+	SkillUpgradeMsg: "{0} レベル{1}！"
+	SkillUpgradeAction: "クリックしてアップグレード！"
+	SkillMaxLevel: "最大レベルに到達！"
+	LevelText: "レベル{0}"
+	ExpText: "{0}/{1}"
+	StatPointAlert: "ステータスポイント: {0} (Cを押して開く)"
+	SecondJobChangeTitle: クラス
+}
+
+Chat: {
+	RPGStatTrainer: {
+		StandardChat1: こんにちは！ステータスの管理をお手伝いするよ。アイテムが必要なら私の店をチェックして！
+		StandardChat2: ステータスを鍛えることが強くなる鍵だよ！
+		StandardChat3: 長年戦闘技術を研究してきた。何か学びたい？
+		StandardChat4: 君の進歩は素晴らしいね！この調子で頑張って。
+		StandardChat5: バランスの取れたステータスがバランスの取れた戦闘につながるよ！
+	}
+}
+
+NPCNames: {
+	RPGStatTrainer: {
+		Marcus: エミル
+		Elena: エレナ
+		Victor: ノエル
+	}
+}
+
+Messages: {
+	TrainerArrived: ステートレーナーが到着しました！
+	TrainerSpawned: ステートレーナーが出現しました！
+}
+
+Items: {
+	ExpDoubleCoupon: {
+		DisplayName: 経験値2倍クーポン
+		Tooltip: 一定時間、経験値の獲得量が2倍になる
+	}
+}

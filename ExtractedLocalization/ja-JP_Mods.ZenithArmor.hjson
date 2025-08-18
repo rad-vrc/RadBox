@@ -1,0 +1,1209 @@
+Developer: - 開発者アイテム -
+
+Contributor: - 貢献者アイテム -
+
+Kings: - 王たちの遺産 -
+
+KingsTooltip: "{0}レベルの王たちの庇護を得る"
+
+ZenithWorldAutoTracking: {
+	on: ゼニスガーディアンがあなたを見守る
+	off: ゼニスガーディアンがあなたに従う
+}
+
+ZenithTimeStop: 「『ザ・ワールド』、時よ止まれ！」
+
+Items: {
+	BrokenHeroHelmet: {
+		DisplayName: 壊れた英雄の兜
+		Tooltip: ""
+		ArmorSet: ""
+	}
+
+	BrokenHeroGreaves: {
+		DisplayName: 壊れた英雄のすね当て
+		Tooltip: ""
+	}
+
+	BrokenHeroPlateMail: {
+		DisplayName: 壊れた英雄のプレートメイル
+		Tooltip: ""
+	}
+
+	HeroArmorBag: {
+		DisplayName: 英雄の防具袋
+		Tooltip:
+			'''
+			<right>で開く
+			「英雄の遺物」
+			'''
+	}
+
+	EnchantedDiamondChestplate: {
+		DisplayName: 王の鎧
+		Tooltip:
+			'''
+			{0}レベルの王たちの庇護を得る
+			クリティカル率が{1}%上昇
+			召喚ダメージが{2}%増加
+			'''
+	}
+
+	EnchantedDiamondHelmet: {
+		DisplayName: 王たちの王冠
+		Tooltip:
+			'''
+			{0}レベルの王たちの庇護を得る
+			ダメージが{1}%増加
+			'''
+		ArmorSet:
+			'''
+			{0}レベルの王たちの庇護を得る
+			召喚できるミニオンの数が{1}体増える
+			'''
+	}
+
+	EnchantedDiamondLeggings: {
+		DisplayName: 王のすね当て
+		Tooltip:
+			'''
+			{0}レベルの王たちの庇護を得る
+			移動速度が{1}%上昇
+			'''
+	}
+
+	EnchantedDiamondRing: {
+		DisplayName: 王の守護指輪
+		Tooltip: "{0}レベルの王たちの庇護を得る"
+	}
+
+	TrueHallowedGreaves: {
+		DisplayName: 真・神聖なすね当て
+		Tooltip:
+			'''
+			クリティカル率が8%上昇
+			移動速度が10%上昇
+			'''
+	}
+
+	TrueHallowedHelmet: {
+		DisplayName: 真・神聖な兜
+		Tooltip:
+			'''
+			遠距離ダメージが16%増加
+			遠距離クリティカル率が10%上昇
+			25%の確率で弾薬を消費しない
+			'''
+		ArmorSet: 賢者の加護を得る
+	}
+
+	TrueHallowedMask: {
+		DisplayName: 真・神聖な仮面
+		Tooltip:
+			'''
+			近接ダメージが16%増加
+			近接クリティカル率が10%上昇
+			近接攻撃速度が12%上昇
+			'''
+		ArmorSet:
+			'''
+			賢者の加護を得る
+			ダメージ軽減率が10%上昇
+			'''
+	}
+
+	TrueHallowedHeadgear: {
+		DisplayName: 真・神聖な額当て
+		Tooltip:
+			'''
+			魔法ダメージが16%増加
+			魔法クリティカル率が10%上昇
+			最大マナが100増加
+			マナ消費量が15%減少
+			'''
+		ArmorSet: 賢者の加護を得る
+	}
+
+	TrueHallowedHood: {
+		DisplayName: 真・神聖なフード
+		Tooltip:
+			'''
+			召喚ダメージが16%増加
+			鞭の攻撃速度が25%上昇
+			召喚できるミニオンの数が2体増える
+			'''
+		ArmorSet:
+			'''
+			賢者の加護を得る
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	TrueHallowedPlateMail: {
+		DisplayName: 真・神聖なプレートメイル
+		Tooltip:
+			'''
+			ダメージが8%増加
+			クリティカル率が5%上昇
+			'''
+	}
+
+	TerraMask: {
+		DisplayName: テラマスク
+		Tooltip:
+			'''
+			近接と魔法ダメージが7%増加
+			近接クリティカル率と魔法クリティカル率が5%上昇
+			'''
+		ArmorSet:
+			'''
+			近接ダメージが8%増加
+			近接クリティカル率が5%上昇
+			近接攻撃速度が12%上昇
+			ダメージ軽減率が8%上昇
+			あなたを守るテラスピリットを召喚
+			'''
+	}
+
+	TerraHeadgear: {
+		DisplayName: テラヘッドギア
+		Tooltip:
+			'''
+			遠距離ダメージと召喚ダメージが5%増加
+			遠距離クリティカル率が7%上昇
+			召喚できるミニオンの数が1体増える
+			'''
+		ArmorSet:
+			'''
+			召喚ダメージが25%増加
+			召喚できるミニオンの数が3体増える
+			あなたを守るテラスピリットを召喚
+			'''
+	}
+
+	TerraPlateMail: {
+		DisplayName: テラプレートメイル
+		Tooltip:
+			'''
+			近接攻撃と遠距離クリティカル率が11%上昇
+			近接攻撃と遠距離攻撃のノックバックを増加
+			'''
+		ArmorSet:
+			'''
+			遠距離ダメージが10%増加
+			遠距離クリティカル率が5%上昇
+			20%の確率で弾薬を消費しない
+			あなたを守るテラスピリットを召喚
+			'''
+	}
+
+	TerraBreastplate: {
+		DisplayName: テラブレストプレート
+		Tooltip:
+			'''
+			魔法クリティカル率が11%上昇
+			魔法と召喚のノックバックを増加
+			'''
+		ArmorSet:
+			'''
+			魔法ダメージが10%増加
+			魔法クリティカル率が5%上昇
+			最大マナが70増加
+			マナ消費量が25%減少
+			あなたを守るテラスピリットを召喚
+			'''
+	}
+
+	TerraGreaves: {
+		DisplayName: テラグリーヴ
+		Tooltip:
+			'''
+			ダメージが8%増加
+			移動速度が12%上昇
+			'''
+		ArmorSet:
+			'''
+			あなたを守るテラスピリットを召喚
+			テラスピリットが周囲の敵にテラスプラッシュを発射
+			'''
+	}
+
+	BluestoneBreastplate: {
+		DisplayName: ブルーストーンブレストプレート
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加
+			「多くも少なくもなく、ちょうど5」
+			'''
+	}
+
+	BluestoneGreaves: {
+		DisplayName: ブルーストーングリーヴ
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加
+			「乾きにくい」
+			'''
+	}
+
+	BluestoneMask: {
+		DisplayName: ブルーストーンマスク
+		Tooltip:
+			'''
+			遠距離ダメージが5%増加
+			「氷みたいだが、舐めるな」
+			'''
+		ArmorSet: 遠距離クリティカル率が10%上昇
+	}
+
+	NightBreastplate: {
+		DisplayName: ナイトブレストプレート
+		Tooltip:
+			'''
+			ダメージが5%増加
+			クリティカル率が6%上昇
+			'''
+	}
+
+	NightGreaves: {
+		DisplayName: ナイトグリーヴ
+		Tooltip:
+			'''
+			ダメージが5%増加
+			移動速度が5%上昇
+			'''
+	}
+
+	NightHelmet: {
+		DisplayName: ナイトヘルメット
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加
+			弾薬が20%の確率で消費されない
+			'''
+		ArmorSet: 夜の加護を得る
+	}
+
+	NightHood: {
+		DisplayName: ナイトフード
+		Tooltip:
+			'''
+			召喚ダメージが12%増加
+			召喚できるミニオンの数が1体増える
+			'''
+		ArmorSet:
+			'''
+			夜の加護を得る
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	NightMask: {
+		DisplayName: ナイトマスク
+		Tooltip:
+			'''
+			近接ダメージが12%増加
+			近接攻撃速度が25%上昇
+			'''
+		ArmorSet: 夜の加護を得る
+	}
+
+	NightCore: {
+		DisplayName: ナイトヘッドギア
+		Tooltip:
+			'''
+			魔法ダメージが11%増加
+			マナ消費量が20%減少
+			最大マナが50増加
+			'''
+		ArmorSet: 夜の加護を得る
+	}
+
+	ZenithBreastplate: {
+		DisplayName: ゼニスの胸当て
+		Tooltip:
+			'''
+			ダメージが15%増加
+			クリティカル率が20%上昇
+			攻撃速度が30%上昇
+			ダメージ軽減率が16%上昇
+			ライフ自然回復を大幅に増進
+			'''
+	}
+
+	ZenithGreaves: {
+		DisplayName: ゼニスのすね当て
+		Tooltip:
+			'''
+			ダメージが15%増加
+			クリティカル率が15%上昇
+			召喚できるセントリーの数が4体増える
+			最大マナが120増加
+			移動速度が50%上昇
+			ダメージ軽減率が12%上昇
+			落下ダメージを無効化
+			'''
+	}
+
+	ZenithHelmet: {
+		DisplayName: ゼニスの兜
+		Tooltip:
+			'''
+			ダメージが20%増加
+			召喚ダメージが20%増加
+			クリティカル率が10%上昇
+			マナ消費量が60%減少
+			召喚できるミニオンの数が6体増える
+			ダメージ軽減率が8%上昇
+			全てを表示
+			'''
+		ArmorSet:
+			'''
+			最大ライフが40%増加し、定期的に最大3層まで蓄積するシールドを獲得
+			シールドが次のダメージを吸収し、最大ライフの22%を回復、3秒間ダメージが50%増加
+			あなたを守護するゼニスガーディアンを召喚
+			「{0}」キーでゼニスガーディアンの動作モードを切り替え
+			'''
+	}
+
+	TrueNightBreastplate: {
+		DisplayName: 真・ナイトブレストプレート
+		Tooltip:
+			'''
+			ダメージが5%増加
+			クリティカル率が10%上昇
+			'''
+	}
+
+	TrueNightCore: {
+		DisplayName: 真・ナイトヘッドギア
+		Tooltip:
+			'''
+			魔法ダメージが14%増加
+			最大マナが50増加
+			マナ消費量が20%減少
+			'''
+		ArmorSet: 夜の加護を受ける
+	}
+
+	TrueNightGreaves: {
+		DisplayName: 真・ナイトグリーヴ
+		Tooltip:
+			'''
+			ダメージが5%増加
+			移動速度が10%上昇
+			'''
+	}
+
+	TrueNightHelmet: {
+		DisplayName: 真・ナイトヘルメット
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加
+			遠距離クリティカル率が6%上昇
+			23%の確率で弾薬を消費しない
+			'''
+		ArmorSet: 夜の加護を受ける
+	}
+
+	TrueNightHood: {
+		DisplayName: 真・ナイトフード
+		Tooltip:
+			'''
+			召喚ダメージが13%増加
+			召喚できるミニオンの数が2体増える
+			'''
+		ArmorSet:
+			'''
+			夜の加護を受ける
+			召喚できるミニオンの数が1体増える
+			'''
+	}
+
+	TrueNightMask: {
+		DisplayName: 真・ナイトマスク
+		Tooltip:
+			'''
+			近接ダメージが9%増加
+			近接クリティカル率が8%上昇
+			近接攻撃速度が25%上昇
+			'''
+		ArmorSet: 夜の加護を受ける
+	}
+
+	MartianGreaves: {
+		DisplayName: 火星のすね当て
+		Tooltip:
+			'''
+			遠距離クリティカル率が8%上昇
+			落下ダメージを無効化
+			'''
+	}
+
+	MartianHelmet: {
+		DisplayName: 火星の兜
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加
+			遠距離クリティカル率が10%上昇
+			25%の確率で弾薬を消費しない
+			'''
+		ArmorSet:
+			'''
+			感電に対する耐性、ノックバックに対する耐性を付与
+			「{0}」キーでバブルシールドを発動。シールドが{1}の追加シールドライフを提供し、
+			{2}防御力、{3}%被ダメージ軽減、遠距離能力の向上を得るが移動速度が大幅に低下
+			シールドは30秒後に自動的に破壊される
+			シールド破壊後、一定時間移動速度が大幅に上昇
+			'''
+	}
+
+	MartianPlateMail: {
+		DisplayName: 火星のプレートメイル
+		Tooltip:
+			'''
+			遠距離ダメージが12%増加
+			遠距離クリティカル率が12%上昇
+			'''
+	}
+
+	MartianSaucerFragments: {
+		DisplayName: マーズソーサーの断片
+		Tooltip: ""
+	}
+
+	ArmorEmblem: {
+		DisplayName: 護衛の紋章
+		Tooltip: 防御力が15%増加
+	}
+
+	ResisterEmblem: {
+		DisplayName: 抵抗者の紋章
+		Tooltip:
+			'''
+			受けるダメージを5%軽減
+			ダメージ軽減率が10%上昇
+			'''
+	}
+
+	ProtectorEmblem: {
+		DisplayName: 守護者の紋章
+		Tooltip:
+			'''
+			防御力が12%増加
+			デバフによるダメージを12%軽減
+			受けるダメージを4%軽減
+			ダメージ軽減率が8%上昇
+			1分間ごとに致命的な一撃からあなたを救う
+			'''
+	}
+
+	UnbendingEmblem: {
+		DisplayName: 不屈の紋章
+		Tooltip:
+			'''
+			致命的な一撃からあなたを救う
+			1分間のクールダウン有り
+			'''
+	}
+
+	PhilosopherEmblem: {
+		DisplayName: 哲学者の紋章
+		Tooltip: デバフによるダメージを15%軽減
+	}
+
+	GalaxyGreaves: {
+		DisplayName: 銀河のすね当て
+		Tooltip:
+			'''
+			遠距離ダメージが16%増加
+			遠距離クリティカル率が14%上昇
+			移動速度が30%上昇
+			'''
+	}
+
+	GalaxyHelmet: {
+		DisplayName: 銀河の兜
+		Tooltip:
+			'''
+			遠距離ダメージが20%増加
+			遠距離クリティカル率が16%上昇
+			'''
+		ArmorSet: 銀河の力を導く
+	}
+
+	GalaxyPlateMail: {
+		DisplayName: 銀河のプレートメイル
+		Tooltip:
+			'''
+			遠距離ダメージが25%増加
+			遠距離クリティカル率が20%上昇
+			20%の確率で弾薬を消費しない
+			'''
+	}
+
+	GalaxyCore: {
+		DisplayName: 銀河のコア
+		Tooltip: ""
+	}
+
+	TrueTerraGreaves: {
+		DisplayName: フラクタルのすね当て
+		Tooltip:
+			'''
+			近接攻撃速度が20%上昇
+			移動速度が16%上昇
+			ライフ自然回復を増進
+			ダメージ軽減率が10%上昇
+			'''
+	}
+
+	TrueTerraHelmet: {
+		DisplayName: フラクタルの兜
+		Tooltip:
+			'''
+			近接ダメージが12%増加
+			ライフ自然回復を増進
+			ダメージ軽減率が10%上昇
+			'''
+		ArmorSet:
+			'''
+			遺棄された古いもののもう一つの残骸を使用可能
+			最終的なダメージを25%軽減する
+			'''
+	}
+
+	TrueTerraPlateMail: {
+		DisplayName: フラクタルのプレートメイル
+		Tooltip:
+			'''
+			近接ダメージが12%増加
+			近接クリティカル率が20%上昇
+			ライフ自然回復を増進
+			ダメージ軽減率が10%上昇
+			'''
+	}
+
+	TerraFractal: {
+		DisplayName: テラフラクタル
+		Tooltip: 「遺棄された古いもののもう一つの残骸」
+	}
+
+	RefractionBreastplate: {
+		DisplayName: 屈折のローブ
+		Tooltip:
+			'''
+			魔法ダメージが12%増加
+			魔法クリティカル率が10%上昇
+			少量の追加マナ回復を提供
+			'''
+	}
+
+	RefractionGreaves: {
+		DisplayName: 屈折のブーツ
+		Tooltip:
+			'''
+			魔法クリティカル率が16%上昇
+			移動速度が10%上昇
+			少量の追加マナ回復を提供
+			'''
+	}
+
+	RefractionHeadgear: {
+		DisplayName: 屈折のヘッドギア
+		Tooltip:
+			'''
+			魔法ダメージが10%増加
+			最大マナが40増加
+			マナ消費量が30%減少
+			少量の追加マナ回復を提供
+			'''
+		ArmorSet:
+			'''
+			追加のマナ回復を提供
+			敵を追尾する3つのブリリアントプリズムを放つ
+			「{0}」キーを押すとブリリアントプリズムが30秒間敵に集中攻撃
+			同じ敵へのダメージが短時間で段階的に増加
+			30秒間のクールダウン有り
+			'''
+	}
+
+	RefractionWings: {
+		DisplayName: 屈折の翼
+		Tooltip: ""
+	}
+
+	UniverseGreaves: {
+		DisplayName: 天地のすね当て
+		Tooltip:
+			'''
+			召喚ダメージが18%増加
+			召喚できるミニオンの数が1体増える
+			鞭の攻撃範囲が20%増加
+			'''
+	}
+
+	UniverseHelmet: {
+		DisplayName: 天地の兜
+		Tooltip:
+			'''
+			召喚ダメージが18%増加
+			召喚できるミニオンの数が1体増える
+			召喚できるセントリーの数が3体増える
+			'''
+		ArmorSet:
+			'''
+			あなたに追従するユニバーサルワームを召喚
+			「{0}」キーを押すと融合状態に切り替わる
+			再度押すと元の状態に戻る
+			融合時に召喚されたミニオンとセントリーは消費される
+			各ミニオンはワームにそのダメージの10%を提供
+			そのダメージの1%に相当する防御力を付与
+			最大ライフの2%を追加
+			各セントリーはワームにそのダメージの5%を提供
+			そのダメージの2%に相当する防御力と被ダメージ軽減を付与
+			鞭のダメージが5%増加
+			'''
+	}
+
+	UniversePlateMail: {
+		DisplayName: 天地の胸当て
+		Tooltip:
+			'''
+			召喚ダメージが18%増加
+			召喚できるミニオンの数が1体増える
+			鞭の攻撃速度が20%上昇
+			'''
+	}
+
+	UniverseSigil: {
+		DisplayName: 天地のシジル
+		Tooltip: ""
+	}
+
+	FaradayCage: {
+		DisplayName: ファラデーのかご
+		Tooltip: 感電に対する耐性
+	}
+
+	IceBird: {
+		DisplayName: 凍った鳥
+		Tooltip: 呪炎に対する耐性
+	}
+
+	BirdInCage: {
+		DisplayName: 鳥かご
+		Tooltip: 呪炎と感電に対する耐性
+	}
+
+	SurvivorContract: {
+		DisplayName: 生存者の契約書
+		Tooltip:
+			'''
+			回復ポーションの再使用間隔が25%短縮
+			マナ酔いのダメージペナルティが50%軽減
+			ほとんどのデバフに対する耐性
+			'''
+	}
+
+	PurpleSolution: {
+		DisplayName: 希釈紫溶液
+		Tooltip: 霊液に対する耐性
+	}
+
+	LapisLazuli: {
+		DisplayName: ラピスラズリ
+		Tooltip: マナ酔いのダメージペナルティが50%軽減
+	}
+
+	Radium: {
+		DisplayName: 蛍光クリスタル
+		Tooltip:
+			'''
+			回復ポーションの再使用間隔が25%短縮
+			マナ酔いのダメージペナルティが50%軽減
+			「心配するな、あの蛍光は工場の女の子たちが塗ったものじゃない」
+			'''
+	}
+
+	AntipyreticPaste: {
+		DisplayName: 解熱ペースト
+		Tooltip: 燃えている！に対する耐性、溶岩の接触ダメージを軽減
+	}
+
+	ThermostaticCore: {
+		DisplayName: 恒温コア
+		Tooltip: 過冷却状態または過熱状態に対する耐性
+	}
+
+	PlasterOfLime: {
+		DisplayName: 石灰のばんそうこう
+		Tooltip: 酸性毒に対する耐性
+	}
+
+	MoltenShield: {
+		DisplayName: 溶岩の盾
+		Tooltip:
+			'''
+			敵に向かってダッシュ可能
+			方向キーを2回押す
+			'''
+	}
+
+	Antidote: {
+		DisplayName: 解毒剤
+		Tooltip:
+			'''
+			酸性毒に対する耐性
+			霊液に対する耐性
+			'''
+	}
+
+	Ashes: {
+		DisplayName: 灰
+		Tooltip: 致命的ダメージを受けた際、死亡を8秒間遅延
+	}
+
+	DiamondChestplate: {
+		DisplayName: ダイヤモンドの胸当て
+		Tooltip: ""
+	}
+
+	DiamondHelmet: {
+		DisplayName: ダイヤモンドの兜
+		Tooltip: ""
+	}
+
+	DiamondLeggings: {
+		DisplayName: ダイヤモンドのすね当て
+		Tooltip: ""
+	}
+
+	KingsDye: {
+		DisplayName: 王の染料
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	NightBuff: {
+		DisplayName: 夜の強化
+		Description: 攻撃時に敵にシャドウフレイムと影の腐食を付与
+	}
+
+	ZenithBuff: {
+		DisplayName: 天界の扉
+		Description: この世のものではない力があなたを守護している
+	}
+
+	TrueHolyProtection: {
+		DisplayName: 真・聖なる加護
+		Description: 追加ダメージが25%増加、次の攻撃を回避
+	}
+
+	TrueNightBuff: {
+		DisplayName: 夜の悪魔
+		Description:
+			'''
+			攻撃時に敵に呪炎と霊液を付与
+			5秒間ダメージを受けないと次の被ダメージが追加で軽減される
+			この効果は時間経過で最大50%まで段階的に増加
+			「邪悪な空間から力を汲み取る」
+			'''
+	}
+
+	NightSour: {
+		DisplayName: 影の腐食
+		Description: 防御力減少
+	}
+
+	TrueNightBuffNot: {
+		DisplayName: 影の崩壊
+		Description: 夜の悪魔の回避効果が無効化されている
+	}
+
+	MartianBuff: {
+		DisplayName: バブルシールド
+		Description: バブルシールドがあなたを保護している
+	}
+
+	MartianSpeed: {
+		DisplayName: マーズパニック
+		Description: 移動速度が大幅に上昇
+	}
+
+	TerraBuff: {
+		DisplayName: テラスピリット
+		Description:
+			'''
+			時に抗った精霊があなたを守護している
+			攻撃時に敵にテラフレイムを付与
+			'''
+	}
+
+	TerraFlameBuff: {
+		DisplayName: テラフレイム
+		Description: 防御力減少、ライフ減少
+	}
+
+	UniversalCollapseBuff: {
+		DisplayName: ユニバーサル・コラプス
+		DisplayName2: ユニバーサル・コラプス
+		Description: ユニバーサルワームがあなたを守護している
+		Description2: ユニバーサルワームがあなたを守護している
+	}
+
+	Kings: {
+		DisplayName: 王たちの庇護
+		Description:
+			'''
+			各レベルごとに以下の効果を付与：
+			最大ライフが20%減少
+			ダメージが10%増加
+			3レベルを超える各レベルごとに以下の効果を付与：
+			被ダメージを40%軽減
+			現在の所持レベル：{0}レベル
+			'''
+	}
+}
+
+Keybinds: {
+	ArmorSet: {
+		DisplayName: Armor Set
+	}
+
+	ZenithHelmetTP: {
+		DisplayName: Zenith Home
+	}
+
+	ZenithHelmetTP2: {
+		DisplayName: Zenith Sapwn
+	}
+
+	ZenithHelmetTP3: {
+		DisplayName: Zenith Ocean
+	}
+
+	ZenithHelmetTP4: {
+		DisplayName: Zenith Hell
+	}
+}
+
+Projectiles: {
+	ZenithWorld: {
+		DisplayName: Zenith World
+	}
+
+	ZenithWorldPunch: {
+		DisplayName: Zenith World Punch
+	}
+
+	ZenithWorldPunch2: {
+		DisplayName: Zenith World Punch
+	}
+
+	StarTerra: {
+		DisplayName: Terra spirit
+	}
+
+	TerraShoot: {
+		DisplayName: Terra Splash
+	}
+
+	TerraPunch: {
+		DisplayName: Terra Punch
+	}
+
+	TerraFlame: {
+		DisplayName: Terra Flame
+	}
+
+	BrilliantCrystal: {
+		DisplayName: Brilliant Crystal
+	}
+
+	UniversalCollapse_Body: {
+		DisplayName: Universal Worms
+	}
+
+	UniversalCollapse_Head: {
+		DisplayName: Universal Worms
+	}
+
+	UniversalCollapse_Tail: {
+		DisplayName: Universal Worms
+	}
+
+	UniversalCollapseBodyShootProj_Nebula: {
+		DisplayName: Nebula Laser
+	}
+
+	UniversalCollapseBodyShootProj_Solar: {
+		DisplayName: Broken Solar
+	}
+
+	UniversalCollapseBodyShootProj_Stardust: {
+		DisplayName: micro-Stardust Cell
+	}
+
+	UniversalCollapseBodyShootProj_Vortex: {
+		DisplayName: Vortex Ray
+	}
+}
+
+UI: {
+	BubbleShield: "{0} / {1}"
+}
+
+DeathMessage: {
+	Thorns: "{0}は{1}を傷つけようとした"
+	UnDead: "{0}は燃え尽きた"
+}
+
+Prefixes: {
+	LifeFix: +{0}%最大ライフ増加
+	DrFix: +{0}%被ダメージ軽減
+	DodgeFix: +{0}%回避率上昇
+	ThornsFix: +{0}ダメージ反射
+	ThornsName: 茨
+
+	Thorns: {
+		DisplayName: 茨の
+	}
+
+	Barb: {
+		DisplayName: 有刺の
+	}
+
+	Calcify: {
+		DisplayName: 石灰化した
+	}
+
+	Adaptive: {
+		DisplayName: 適応した
+	}
+
+	Crystalline: {
+		DisplayName: 結晶の
+	}
+
+	Cushioned: {
+		DisplayName: クッション性の
+	}
+
+	Heisenberg: {
+		DisplayName: ハイゼンベルクの
+	}
+
+	Phantom: {
+		DisplayName: 幻影の
+	}
+
+	Keratinisation: {
+		DisplayName: 角質化した
+	}
+
+	Refractive: {
+		DisplayName: 屈折した
+	}
+
+	Relentless: {
+		DisplayName: 無慈悲な
+	}
+
+	Resonant: {
+		DisplayName: 共鳴した
+	}
+
+	Rougher: {
+		DisplayName: より粗い
+	}
+
+	Spike: {
+		DisplayName: トゲトゲした
+	}
+
+	Toughened: {
+		DisplayName: 強靭な
+	}
+
+	Versatile: {
+		DisplayName: 多才な
+	}
+
+	DefFix: "{0}防御力増加"
+	DrFix_2: "{0}%被ダメージ軽減"
+	SpFix: "{0}%移動速度上昇"
+	LifeFix_2: "{0}%最大ライフ増加"
+	DmgFix: "{0}%ダメージ増加"
+
+	Legendary: {
+		DisplayName: 伝説の
+	}
+
+	Heavy: {
+		DisplayName: 重い
+	}
+
+	Lightweight: {
+		DisplayName: 軽量な
+	}
+
+	Cracked: {
+		DisplayName: ひび割れた
+	}
+
+	Fitting: {
+		DisplayName: 適合した
+	}
+
+	Holy: {
+		DisplayName: 聖なる
+	}
+
+	Loose: {
+		DisplayName: 緩い
+	}
+
+	Smooth: {
+		DisplayName: 滑らかな
+	}
+
+	Stiff: {
+		DisplayName: 硬直した
+	}
+
+	Confined: {
+		DisplayName: 拘束の
+	}
+}
+
+Configs: {
+	ZenithArmorConfig: {
+		DisplayName: Zenith Armorの設定
+
+		CanArmorsGetModifier: {
+			Label: 防具に修飾詞を付与可能
+			Tooltip: ""
+		}
+	}
+}
+
+RecipeGroup: {
+	LuminiteHelmet: ルミナイトの兜
+	LuminiteBreastplate: ルミナイトの胸当て
+	LuminiteLeggings: ルミナイトのすね当て
+	MoonLordHelmet: ムーンロードの兜
+	MoonLordBreastplate: ムーンロードの胸当て
+	MoonLordLeggings: ムーンロードのすね当て
+	AfterMoonLordHelmet: ムーンロード後の兜
+	AfterMoonLordBreastplate: ムーンロード後の胸当て
+	AfterMoonLordLeggings: ムーンロード後のすね当て
+	AfterMoonLordBossHelmet: ムーンロード後のボスの兜
+	AfterMoonLordBossBreastplate: ムーンロード後のボスの胸当て
+	AfterMoonLordBossLeggings: ムーンロード後のボスのすね当て
+}
+
+NPCs: {
+	Armorer: {
+		DisplayName: 防具職人
+		Reforge: 防具改造
+		ArmorShop: 防具ショップ
+		Switch: 変更
+		Help: ヘルプ
+
+		TownNPCMood: {
+			Content: なんて素晴らしい...
+			NoHome:
+				'''
+				いくつかのサービスを提供できますが、
+				まず鍛冶工房が必要です。
+				'''
+			FarFromHome:
+				'''
+				道具から遠すぎて、
+				より良いサービスを提供できません。
+				'''
+			LoveSpace:
+				'''
+				まさにこれです！快適で静かな作業環境。
+				あなたのお役に立てます。
+				'''
+			DislikeCrowded: 少し混雑していますが...まだ受け入れられます。
+			HateCrowded:
+				'''
+				うるさい隣人たち、窮屈な空間、
+				道具を適切に振ることもできない！
+				'''
+			LikeBiome:
+				'''
+				{BiomeName}の乾燥した環境が大好きです、
+				私の作業に完璧です。
+				'''
+			DislikeBiome:
+				'''
+				"{BiomeName}は好きではありません、気温が低すぎて、"
+				"私の炉が適切に燃えません。"
+				'''
+			HateBiome: "{BiomeName}では適切に作業できません。"
+			LikeNPC: "{NPCName}はとても良い人です。"
+			HateNPC:
+				'''
+				ああ、神様、
+				また{NPCName}に会うことがあったら、
+				ブーツで彼のお尻を蹴り上げてやる！
+				あの小さないたずらっ子は私の道具を
+				変な魚と交換し続けている、もううんざりだ！！！
+				'''
+			LikeNPC_Princess: はっ、我らが愛する{NPCName}陛下。
+			Princess_LovesNPC:
+				'''
+				{NPCName}の荒々しい外見に騙されてはいけません、
+				彼は実はとても器用なのです。
+				ことわざにもあるでしょう、
+				「虎の咆哮は恐ろしくとも、薔薇の香りを嗅ぐために立ち止まる」
+				'''
+		}
+
+		Chat: {
+			Defaults: {
+				1: 少し暇すぎますね...
+				2: 私に何か御用でしょうか...
+				3: いつもこんな風だったらいいのに...
+			}
+
+			Homeless: 仕事が必要だと思います...
+			Party: そうだ、パーティーが嫌いな人なんていないでしょう！！！
+			Eclipse: 日食の間に伝説的な鍛造素材を持つモンスターが現れると言われているが、誰が知っているか...
+			BloodMoon: ブラッドムーン？これは良い兆候ではないな...
+			CanNotReforge: 今はこのサービスを提供できません...
+
+			Help: {
+				0: 防具改造サービスを提供する前に、まず鍛造の達人に防具を強化してもらう必要があります。
+				1: これら強化された防具は武器とは少し異なって見えることに気づくでしょう。小さいながらも安定したボーナスを提供するようです。
+				2: 生命力を強化したり、被ダメージを減らしたり、機敏性を向上させて攻撃を回避しやすくするものもあります。
+				3: 中には、あなたの防御力に応じて攻撃者に「痛みを分け合わせる」ものもあります。
+				4: 私は、あなたの期待により合うよう防具を改造することができます。
+				5: もちろん、このサービスは無料ではありませんが、心配しないでください。直接防具を強化するより遥かに安いです。
+			}
+		}
+	}
+}
+
+Tiles: {
+	KingsArmor_Tile: {
+		MapName: 王の遺物
+	}
+}
+
+Condition: {
+	IronWorld: 鉄ワールド内
+	LeadWorld: 鉛ワールド内
+	CobaltWorld: コバルトワールド内
+	PalladiumWorld: パラジウムワールド内
+	MythrilWorld: ミスリルワールド内
+	OrichalcumWorld: オリハルコンワールド内
+	AdamantiteWorld: アダマンタイトワールド内
+	TitaniumWorld: チタニウムワールド内
+}
+

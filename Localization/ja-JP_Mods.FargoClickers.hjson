@@ -1,0 +1,238 @@
+Items: {
+	Weapons: {
+		Clicker: {
+			AcornClicker: {
+				DisplayName: どんぐりのクリッカー
+			}
+
+			BaronClicker: {
+				DisplayName: バロンクリッカー
+			}
+
+			CursedClicker: {
+				DisplayName: コフィンクリッカー
+			}
+
+			LightClicker: {
+				DisplayName: ライフライトのクリッカー
+			}
+
+			MagickaClicker: {
+				DisplayName: マギカクリッカー
+			}
+		}
+	}
+
+	GamerEssence: {
+		DisplayName: ゲーマーのエッセンス
+		Tooltip:
+			'''
+			クリックダメージが18%増加
+			クリックのクリティカル率が8%上昇
+			基本クリック範囲が10%増加
+			「これはほんの始まりに過ぎない...」
+			'''
+	}
+
+	MasterPlayerSoul: {
+		DisplayName: 競技者のソウル
+		Tooltip:
+			'''
+			クリックダメージが22%増加
+			クリックのクリティカル率が10%上昇
+			基本クリック範囲が75%増加
+			クリック効果に必要なクリック数を20%減らす
+			{0}
+			「Eスポーツに備えよ」
+			'''
+		NormalAccessories: ゲーマークレート、チョコレートミルク＆クッキー、エイムボットモジュール、王家のクリックグローブ、Ｓメダルの効果を得る
+		CalamityAccessories: デバウアー・オブ・ゲーム、血まみれのクッキーパフェ、コズミッククリックグローブ、ＳＳメダルの効果を得る
+	}
+
+	ForceOfMatrix: {
+		DisplayName: 電界のマトリックス
+		Tooltip:
+			'''
+			[i:FargoClickers/MotherboardEnchantment] クリック速度が秒間6回を超えると、超過した1cpsごとにダメージが3%増加（最大200%）
+			[i:FargoClickers/RGBEnchantment] 攻撃が75回命中するたびに、ターゲット位置にクロマティックバーストを放つ
+			[i:FargoClickers/MiceEnchantment] テレポート後1秒以内に被弾すると、以下の効果を得る
+			    [i:FargoClickers/RGBEnchantment] クロマティックバーストを放つ
+			    [i:FargoClickers/OverclockEnchantment] 攻撃速度が15秒間2倍になる
+			    [i:FargoClickers/MiceEnchantment] 3秒間無敵となり、移動速度と加速度が15秒間15%上昇
+			[i:FargoClickers/PrecursorEnchantment] マウスカーソルの後ろにダメージを与える残像を召喚する
+			マスターキーホルダー、大きな赤いボタン、底なしのクリップの箱の効果を得る
+			「この世界すべてがゲームなのか？」
+			'''
+	}
+
+	MotherboardEnchantment: {
+		DisplayName: マザーボードのエンチャント
+		Tooltip:
+			'''
+			1秒間に6回以上クリックした場合、超過したクリック数ごとに
+			与えるダメージが1%ずつ増加する（最大100%）
+			「周波数が高いほど良い」
+			'''
+	}
+
+	RGBEnchantment: {
+		DisplayName: RGBのエンチャント
+		Tooltip:
+			'''
+			攻撃時にクロマティックバーストを放つことがある
+			[i:ClickerClass/BigRedButton]大きな赤いボタンの効果を得る
+			「ゲーミングキーボードだ！」
+			'''
+	}
+
+	PrecursorEnchantment: {
+		DisplayName: 先駆者のエンチャント
+		Tooltip:
+			'''
+			カーソルに追従する5つのカーソルを召喚する
+			[i:ClickerClass/MasterKeychain]マスターキーホルダーの効果を得る
+			「この機能が現実に存在することを知っていますか？」
+			'''
+	}
+
+	OverclockEnchantment: {
+		DisplayName: オーバークロックのエンチャント
+		Tooltip:
+			'''
+			合計ダメージが10000に達すると、5秒間オーバークロックバフを得る
+			オーバークロック中は攻撃速度が1.5倍になる
+			この効果には60秒のクールダウンがある
+			[i:ClickerClass/BottomlessBoxofPaperclips]底なしのクリップの箱の効果を得る
+			「プロセッサのオーバークロック、準備はいいか？」
+			'''
+	}
+
+	MiceEnchantment: {
+		DisplayName: マウスのエンチャント
+		Tooltip:
+			'''
+			テレポートには10秒のクールダウンがある
+			テレポート直後にダメージを受けると2秒間無敵になる
+			更に移動速度、加速度、攻撃速度が10秒間10%上昇するバフを得る
+			この効果を発動した時はクールダウンは30秒に延長される
+			「正規性リロケーターのオマージュ」
+			'''
+	}
+
+	MiceBooster: {
+		DisplayName: Mice Booster
+		Tooltip: ""
+		Activate: +{0} defence
+		Deactivate: -{0} defence
+	}
+}
+
+ClickEffect: {
+	Acorn: {
+		Name: どんぐり
+		Description: 最も近くの敵に向かってどんぐりを生成する
+	}
+
+	Sandwave: {
+		Name: サンドウェーブ
+		Description: 最も近くの敵に向かって砂の波を生成する
+	}
+
+	BanishedMine: {
+		Name: バニッシュマイン
+		Description: 破片をまき散らす地雷を設置する
+	}
+
+	Lightbomb: {
+		Name: フラッシュマイン
+		Description: ダメージを与える光の爆弾を拡散させる
+	}
+
+	MagickaEnchantment: {
+		Name: マギカ・エンチャント
+		Description: 追加の当たり判定が付与される
+	}
+
+	MagickaPower: {
+		Name: マギカ・パワー
+		Description: クリックに追加の当たり判定が付与される
+	}
+}
+
+Projectiles: {
+	PrecursorProjectile: {
+		DisplayName: Precursors
+	}
+
+	Clicker: {
+		CursedClickerProjectile: {
+			DisplayName: Sandwave
+		}
+
+		LightClickerProjectile: {
+			DisplayName: Light Bomb
+		}
+
+		LightClickerProjectile2: {
+			DisplayName: Light Explosion
+		}
+
+		BaronClickerProj: {
+			DisplayName: Banished Mine
+		}
+
+		BaronClickerProj2: {
+			DisplayName: Banished Shrapnel
+		}
+	}
+}
+
+Toggler: {
+	MatrixHeader: Force of Matrix
+	MotherboardEffect: プロセッサ周波数
+	RGBEffect: クロマティックバースト
+	RGBBigRedButtonEffect: 大きな赤いボタンの効果
+	OverclockEffect: オーバークロック
+	OverclockBottomlessBoxofPaperclipsEffect: 底なしのクリップの箱の効果
+	PrecursorEffect: カーソルトレイル機能
+	PrecursorMasterKeychainEffect: マスターキーホルダーの効果
+	MiceEffect: マウステレポート
+}
+
+WizardEffect: {
+	Motherboard: 超過した1cpsごとにダメージが2%増加
+	RGB: クロマティックバースト発動に必要な回数を75に減少
+	Precursor: 残像のダメージが増加し、長さが2倍になる
+	Overclock: 攻撃速度が2倍になり、バフ時間が10秒に延長
+	Mice: 無敵時間が3秒に増加し、速度バフの効果時間が15秒に延長
+}
+
+ActiveSkills: {
+	MiceKeyEffect: {
+		DisplayName: マウステレポート
+		Tooltip:
+			'''
+			カーソルの位置にテレポートする
+			テレポート後、1秒以内に被弾するとバフを獲得する
+			'''
+	}
+}
+
+ExpandedTooltips: {
+	ClickerRadius: 基本クリック範囲が100%増加
+	ClickerEffect: クリック効果に必要なクリック数を20%減らす
+	MatrixForce: "[i:FargoClickers/ForceOfMatrix] マウステレポート後にダメージを受けると、弾幕を発生させて速度系ステータスが上昇する"
+}
+
+Buffs: {
+	MagickaClickerBuff: {
+		DisplayName: マギカ・エンチャント
+		Description: クリックに追加の当たり判定が付与される
+	}
+
+	MiceBoosterBuff: {
+		DisplayName: Mice Buff
+		Description: Increased defence
+	}
+}
+

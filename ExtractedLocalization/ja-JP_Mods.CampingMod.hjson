@@ -1,0 +1,178 @@
+Common: {
+	GearHammock: ギアハンモック
+	CampTent: キャンプ用テント
+	CampTentMakeshift: 即席テント
+	SleepingBag: 寝袋
+	CraftTent: サバイバルテント
+	LargeTent: 大型テント
+	TemporarySpawn: 臨時のリスポーンポイントを設定することができる
+	TemporarySpawnPoint: 臨時のスポーン
+	TentCrafting: 作業台が使用可能
+	LargeTentCrafting: 作業台、調合テーブル、調理鍋が利用可能
+	OutpostCrafting: 作業台、調合テーブル、調理鍋、金床、かまど、重厚な作業台、修理屋の工作台が利用可能
+	Outpost: 多機能テント
+	OutpostBank: 金庫と豚の貯金箱にアクセス可能
+	OutpostEffect: 近くにいるとライフ自然回復が増進
+	SittingLog: 丸太のベンチ
+}
+
+CampTent: {
+	SpawnSet: 臨時のスポーンポイントを設定！
+	SpawnRemove: 臨時のスポーンポイントを削除！
+	SpawnBlocked: 十分なスペースがありません。
+	SpawnRemoveBed: スポーンポイントがリセットされました！
+	SpawnMissing: 臨時のスポーンポイントが見つかりません。
+	SpawnAtTent: 臨時のスポーンポイントでリスポーンする
+	SpawnAtHome: 元のスポーンポイントでリスポーンする
+	CannotTeleportToTentBecauseNotMeetingItemRequirements: "{0}がないとテレポートできません！"
+}
+
+BuffDescription: {
+	OutpostStage1: 多機能テントの近くにいるとき、ライフ回復量が増加する
+	OutpostStage2: ライフ自然回復を増進し、%TIME 秒間ダメージを受けないでいるとデバフの持続時間が短縮される
+	OutpostStage3: ライフ自然回復を増進し、一部のデバフの効果時間が大幅に短縮される
+}
+
+WeaponOutConvertor: {
+	ConvertTent: Camping Mod: Converted WeaponOut tent to Camping tent.
+}
+
+ItemName: {
+	GearHammock: ギアハンモック
+	CampTent: キャンプ用テント
+	CampTentMakeshift: 即席テント
+	SleepingBag: 寝袋
+	CraftTent: サバイバルテント
+	LargeTent: 大型テント
+	Outpost: 多機能テント
+	SittingLog: 丸太のベンチ
+}
+
+MapObject: {
+	GearHammock: ギアハンモック
+	CampTent: キャンプ用テント
+	SleepingBag: 寝袋
+	CraftTent: サバイバルテント
+	LargeTent: 大型テント
+	Outpost: 多機能テント
+}
+
+ItemTooltip: {
+	CampTent: 臨時のリスポーンポイントを設定することができる
+	CampTentMakeshift: 臨時のリスポーンポイントを設定することができる
+	SleepingBag: 臨時のリスポーンポイントを設定することができる
+	CraftTent:
+		'''
+		臨時のリスポーンポイントを設定することができる
+		作業台が利用可能
+		'''
+	LargeTent:
+		'''
+		臨時のリスポーンポイントを設定することができる
+		作業台、調合テーブル、調理鍋が利用可能
+		'''
+	Outpost:
+		'''
+		臨時のリスポーンポイントを設定することができる
+		作業台、調合テーブル、調理鍋、金床、かまど、重厚な作業台、修理屋の工作台が利用可能
+		金庫と豚の貯金箱にアクセス可能
+		近くにいるとライフ自然回復が増進
+		'''
+}
+
+BuffName: {
+	OutpostStage1: 多機能テント
+	OutpostStage2: 多機能テント
+	OutpostStage3: 多機能テント
+}
+
+Tiles: {
+	CampTent: {
+		MapEntry: キャンプ用テント
+	}
+
+	CraftTent: {
+		MapEntry: サバイバルテント
+	}
+
+	LargeTent: {
+		MapEntry: 大型テント
+	}
+
+	Outpost: {
+		MapEntry: 多機能テント
+	}
+
+	SleepingBag: {
+		MapEntry: 寝袋
+	}
+}
+
+Buffs: {
+	OutpostStage1: {
+		DisplayName: 多機能テント
+		Description: 多機能テントの近くにいるとき、ライフ自然回復を増進
+	}
+
+	OutpostStage2: {
+		DisplayName: 多機能テント
+		Description: ライフ自然回復を増進し、%TIME 秒間ダメージを受けないでいるとデバフの持続時間が短縮される
+	}
+
+	OutpostStage3: {
+		DisplayName: 多機能テント
+		Description: ライフ自然回復を増進し、一部のデバフの効果時間が大幅に短縮される
+	}
+}
+
+Items: {
+	SittingLog: {
+		DisplayName: 丸太のベンチ
+		Tooltip: ""
+	}
+
+	CampTent: {
+		DisplayName: キャンプ用テント
+		Tooltip: 臨時のリスポーンポイントを設定することができる
+	}
+
+	CampTentMakeshift: {
+		DisplayName: キャンプ用テント
+		Tooltip: 臨時のリスポーンポイントを設定することができる
+	}
+
+	CraftTent: {
+		DisplayName: サバイバルテント
+		Tooltip:
+			'''
+			臨時のリスポーンポイントを設定することができる
+			作業台が利用可能
+			'''
+	}
+
+	LargeTent: {
+		DisplayName: 大型テント
+		Tooltip:
+			'''
+			臨時のリスポーンポイントを設定することができる
+			作業台、調合テーブル、調理鍋が利用可能
+			'''
+	}
+
+	Outpost: {
+		DisplayName: 多機能テント
+		Tooltip:
+			'''
+			臨時のリスポーンポイントを設定することができる
+			作業台、調合テーブル、調理鍋、金床、かまど、重厚な作業台、修理屋の工作台が利用可能
+			金庫と豚の貯金箱にアクセス可能
+			近くにいるとライフ自然回復が増進
+			'''
+	}
+
+	SleepingBag: {
+		DisplayName: 寝袋
+		Tooltip: 臨時のリスポーンポイントを設定することができる
+	}
+}
+

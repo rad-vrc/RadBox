@@ -1,0 +1,428 @@
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		Headers: {
+			DeepL: DeepL設定
+		}
+
+		DeepLApiKey: {
+			Label: DeepL APIキー
+			Tooltip: DeepL API auth_keyを入力してください。クライアント側にのみ保存されます。
+		}
+
+		TargetLang: {
+			Label: 対象言語
+			Tooltip: DeepLの対象言語コード例：JA, EN-US, EN-GB, ZH
+		}
+
+		UseDeepL: {
+			Label: DeepLを使用
+			Tooltip: ツールチップとアイテム名のDeepL翻訳を有効化。APIキーが必要です。
+		}
+
+		CacheDeepL: {
+			Label: DeepLキャッシュ
+			Tooltip: 翻訳済み文字列をローカルキャッシュしてDeepL要求の重複を避けます。
+		}
+
+		ShowShiftIndicator: {
+			Label: Shiftインジケータ表示
+			Tooltip: 翻訳が有効な時に小さな"[Shift-翻訳]"マーカーを表示します。
+		}
+
+		EnableNameReconstruction: {
+			Label: 名前再構成を有効化
+			Tooltip: '''"Legendary ... of ..."のようなアイテム名を自然な日本語語順に再構成'''
+		}
+
+		SkipBracketContentInNames: {
+			Label: 名前の[括弧]をスキップ
+			Tooltip: アイテム名の角括弧内コンテンツを翻訳しません（例：[ModName]）。
+		}
+
+		DeepLTimeoutMs: {
+			Label: DeepLタイムアウト(ms)
+			Tooltip: DeepLリクエスト毎のHTTPタイムアウト（ミリ秒）。
+		}
+
+		DeepLBatchIntervalMs: {
+			Label: DeepLバッチ間隔(ms)
+			Tooltip: バッチ送信前にテキストを蓄積する待機時間（ミリ秒）。
+		}
+
+		DeepLBatchMax: {
+			Label: DeepLバッチサイズ
+			Tooltip: バッチリクエスト毎の最大テキスト数。
+		}
+
+		DeepLEndpointPreference: {
+			Label: DeepLエンドポイント設定
+			Tooltip: 使用するエンドポイントを選択：auto, free, paid
+		}
+
+		DeepLRetryCount: {
+			Label: DeepL再試行回数
+			Tooltip: リクエスト失敗時の再試行回数。
+		}
+
+		DeepLRetryInitialDelayMs: {
+			Label: DeepL再試行初期遅延(ms)
+			Tooltip: 失敗したリクエストの再試行前の初期遅延（ミリ秒）。試行毎に倍増。
+		}
+
+		ProxyUrl: {
+			Label: プロキシURL
+			Tooltip: オプションのHTTPプロキシURL（例：http://127.0.0.1:8080）。空の場合無効。
+		}
+	}
+
+	BiomeDisplayClientConfig: {
+		DisplayName: バイオーム表示設定
+
+		Headers: {
+			BiomeDisplay: バイオーム表示
+		}
+
+		simpleDisplay: {
+			Label: 簡易ディスプレイ
+			Tooltip:
+				'''
+				一部のサイクル表示から余計な記号を削除します。
+				具体的には複数情報を切り替えるディスプレイの「+」記号と、
+				敵出現率/上限ディスプレイの「~」(概算記号) を取り除きます。
+				影響する対象: バイオーム / コンボ / 敵出現率・上限 ディスプレイ。
+				'''
+		}
+	}
+
+	InventoryConfig: {
+		DisplayName: Inventory Config
+
+		Headers: {
+			MainFeatures: Main Features Header
+			ExtraFeatures: Extra Features Header
+		}
+
+		LeftMouse: {
+			Label: Left Mouse
+			Tooltip: ""
+		}
+
+		RightMouse: {
+			Label: Right Mouse
+			Tooltip: ""
+		}
+
+		SplittableGrabBags: {
+			Label: Splittable Grab Bags
+			Tooltip: ""
+		}
+
+		ThrowDragging: {
+			Label: Throw Dragging
+			Tooltip: ""
+		}
+
+		DebugMessages: {
+			Label: Debug Messages
+			Tooltip: ""
+		}
+	}
+
+	LeftMouseOptions: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: Enabled
+			Tooltip: ""
+		}
+
+		ModifierOptions: {
+			Label: Modifier Options
+			Tooltip: ""
+		}
+	}
+
+	ModifierOptions: {
+		Tooltip: ""
+
+		AllowCtrl: {
+			Label: Allow Ctrl
+			Tooltip: ""
+		}
+
+		AllowShift: {
+			Label: Allow Shift
+			Tooltip: ""
+		}
+
+		AllowAlt: {
+			Label: Allow Alt
+			Tooltip: ""
+		}
+
+		AllowThrow: {
+			Label: Allow Throw
+			Tooltip: ""
+		}
+
+		RequireModifier: {
+			Label: Require Modifier
+			Tooltip: ""
+		}
+	}
+
+	RightMouseOptions: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: Enabled
+			Tooltip: ""
+		}
+
+		ModifierOptions: {
+			Label: Modifier Options
+			Tooltip: ""
+		}
+	}
+
+	SplittableGrabBags: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: Enabled
+			Tooltip: ""
+		}
+
+		ShowTooltip: {
+			Label: Show Tooltip
+			Tooltip: ""
+		}
+	}
+
+	ThrowDragging: {
+		Tooltip: ""
+
+		PlaySound: {
+			Label: Play Sound
+			Tooltip: ""
+		}
+
+		ThrowDelay: {
+			Label: Throw Delay
+			Tooltip: ""
+		}
+	}
+}
+
+Prefixes: {
+	Abusive: {
+		DisplayName: 虐待的な
+	}
+
+	Affable: {
+		DisplayName: 親しみやすい
+	}
+
+	Blessing: {
+		DisplayName: 祝福の
+	}
+
+	Brisk: {
+		DisplayName: 機敏な
+	}
+
+	Contract: {
+		DisplayName: 契約の
+	}
+
+	Devoted: {
+		DisplayName: 献身的な
+	}
+
+	Deviation: {
+		DisplayName: 逸脱した
+	}
+
+	Eager: {
+		DisplayName: 熱心な
+	}
+
+	Echo: {
+		DisplayName: 反響する
+	}
+
+	Electrified: {
+		DisplayName: 帯電した
+	}
+
+	Extended: {
+		DisplayName: 延びる
+	}
+
+	Fabled: {
+		DisplayName: 伝説の
+	}
+
+	Focused: {
+		DisplayName: 集中する
+	}
+
+	Focused_Whip: {
+		DisplayName: 集中する
+	}
+
+	Huge: {
+		DisplayName: 巨大な
+	}
+
+	Loyal: {
+		DisplayName: 忠実な
+	}
+
+	Mega: {
+		DisplayName: メガ
+	}
+
+	Oracle: {
+		DisplayName: 神託の
+	}
+
+	Overload: {
+		DisplayName: 過負荷の
+	}
+
+	Steady: {
+		DisplayName: 安定した
+	}
+
+	Vengeful: {
+		DisplayName: 復讐の
+	}
+}
+
+Keybinds: {
+	"DeepL Status": {
+		DisplayName: DeepLステータス
+	}
+}
+
+PrefixVengefulDescr: ターゲットに追加タグを付与し、ミニオンダメージがアイテムダメージの{A}%増加（{B}）
+
+PrefixExtendedDescr: 鞭の攻撃範囲+{V}%
+
+PrefixAffableDescr: ミニオンスロット使用量-{A}%（{B}）
+
+PrefixMegaDescr:
+	'''
+	ミニオンスロット使用量+100%
+	ミニオンサイズ+100%
+	ミニオンノックバック+100%
+	'''
+
+PrefixBriskDescr: ミニオン攻撃速度+{}%
+
+PrefixDeviationDescr: 召喚対象の攻撃の精度がさらに不正確になる
+
+PrefixSteadyDescr: ミニオン攻撃速度-{}%
+
+PrefixHugeDescr: ミニオンサイズ+{}%
+
+PrefixEchoDescr: ミニオンが二重に攻撃を放つチャンスがある
+
+PrefixBlessingDescr: ミニオンが近くのプレイヤーにボーナスを与える
+
+PrefixContractDescr:
+	'''
+	ミニオンがヒット時に最大HPの{A}%を回復
+	ミニオン1体あたり防御力-{B}
+	'''
+
+PrefixDevotedDescr:
+	'''
+	攻撃した敵にタグを付与
+	タグ付きの敵にダメージ+{A}%
+	そうでなければダメージ-{B}%
+	'''
+
+PrefixOverloadDescr: ミニオン攻撃速度+100%
+
+PrefixAbusiveDescr: ミニオンクリティカル率+{}%
+
+PrefixEagerDescr: ミニオン攻撃速度+{}%
+
+PrefixFocusedDescr: ミニオンスロット使用量+{A}%（{B}）
+
+PrefixLoyalDescr:
+	'''
+	ミニオンスロット使用量+{A}%（{B}）
+	ミニオンクリティカル率+{C}%
+	'''
+
+PrefixFabledDescr:
+	'''
+	ミニオンスロット使用量-{A}%（{B}）
+	ミニオンクリティカル率+{C}%
+	ミニオンノックバック+{D}%
+	'''
+
+PrefixOracleDescr:
+	'''
+	ターゲットに追加タグを付与、
+	ミニオンダメージがアイテムダメージの{A}%増加（{B}）、
+	ミニオンクリティカル率+{C}%
+	鞭の攻撃範囲+{D}%
+	'''
+
+Projectiles: {
+	ElectricLaser: {
+		DisplayName: 電気レーザー
+	}
+}
+
+PrefixElectrifiedDescr: あなたとミニオンを結ぶ雷の鎖を継続的に生成、雷ダメージは最大ライフに基づく
+
+PrefixFocused_WhipDescr: 持っている間、召喚ダメージ+{A}%、しかしミニオンスロット-{B}
+
+Biomes: {
+	Neutral: なし
+
+	Vanilla: {
+		Space: 宇宙
+		Underworld: 地下世界
+		Underground: 地下
+		Solar: ソーラーピラー
+		Vortex: ボルテックスピラー
+		Nebula: ネビュラピラー
+		Stardust: スターダストピラー
+		Meteor: 隕石
+		Dungeon: ダンジョン
+		Temple: ジャングル寺院
+		Aether: エーテル
+		Spider: クモの巣
+		Corruption: 不浄の地
+		Crimson: 真紅の地
+		Shroom: キノコ群生地
+		Jungle: ジャングル
+		Hallow: 聖域
+		Ocean: 海
+		Snow: 雪原
+		Desert: 砂漠
+		Beehive: ハチの巣
+		Granite: 御影石の洞窟
+		Marble: 大理石の洞窟
+		Graveyard: 墓地
+		Forest: 森林
+		Town: 町
+	}
+}
+
+InfoDisplays: {
+	BiomeInfoDisplay: {
+		DisplayName: 近くのバイオーム
+	}
+}
+
+GrabBagTooltip: Shift + 右クリックで分割
+

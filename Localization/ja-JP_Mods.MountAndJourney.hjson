@@ -1,0 +1,341 @@
+{
+	Buffs: {
+		AntlionSwarmerMountBuff: {
+			DisplayName: "アントリオンスウォーマー"
+			Description: "砂丘の旅に適している"
+		}
+		FinchBasketBuff: {
+			DisplayName: "フィンチの群れ"
+			Description: "鳥たちに運ばれている"
+		}
+		MAJ_ArchWyvernMountBuff: {
+			DisplayName: "アークワイバーン"
+			Description: "雄大なアークワイバーンに乗って空を駆ける"
+		}
+		MAJ_ArcticFoxTransformationBuff: {
+			DisplayName: "ホッキョクギツネ"
+			Description: "雪と一つになる"
+		}
+		MAJ_FlyingSnakeMountBuff: {
+			DisplayName: "フライングスネーク"
+			Description: "注意、噛みつくぞ"
+		}
+		MAJ_GryphonMountBuff: {
+			DisplayName: "グリフォン"
+			Description: "グリフォンに乗っている"
+		}
+		MAJ_MountainDragonMountBuff: {
+			DisplayName: "マウンテンドラゴン"
+			Description: "マウンテンドラゴンに乗っている"
+		}
+		MAJ_OvergrownFlowerBuff: {
+			DisplayName: "ロイヤルローズ"
+			Description: "恋の季節だ"
+		}
+		MAJ_RaptorBlueMountBuff: {
+			DisplayName: "ブルーラプトル"
+			Description: "ブルーラプトルに乗っている"
+		}
+		MAJ_RaptorMountBuff: {
+			DisplayName: "ホワイトラプトル"
+			Description: "ホワイトラプトルに乗っている"
+		}
+		MAJ_RaptorRedMountBuff: {
+			DisplayName: "レッドラプトル"
+			Description: "レッドラプトルに乗っている"
+		}
+		MAJ_SeahorseMountBuff: {
+			DisplayName: "タツノオトシゴ"
+			Description: "タツノオトシゴに乗っている"
+		}
+		MAJ_SeedMountBuff: {
+			DisplayName: "生い茂った植物"
+			Description: "光合成しているのを感じる"
+		}
+		MAJ_SpiderMountBuff: {
+			DisplayName: "ジャイアントスパイダー"
+			Description: "クモ恐怖症はおそらく含まれていない"
+		}
+		MAJ_SquirrelTransformationBuff: {
+			DisplayName: "リス"
+			Description: "どんぐりを溜め込みたい気分だ"
+		}
+		MeteorBoardBuff: {
+			DisplayName: "メテオボード"
+			Description: "それは知覚を持っている…"
+		}
+		MythicalMountBuff: {
+			DisplayName: "ミシカルレッド"
+			Description: "我は迫り来る嵐"
+		}
+		NebulaBeholderBuff: {
+			DisplayName: "ネビュラビホルダー"
+			Description: "目が見ているぞ"
+		}
+		SolarPhoenixBuff: {
+			DisplayName: "ソーラーフェニックス"
+			Description: "熱すぎて扱えない"
+		}
+		StarlingBuff: {
+			DisplayName: "スターリング"
+			Description: "家族全員がここにいる！"
+		}
+		VortexGunShipBuff: {
+			DisplayName: "ボルテックスガンシップ"
+			Description: "ボルテックスビーターが1つでは足りない時に"
+		}
+		WyvernMountBuff: {
+			DisplayName: "ワイバーン"
+			Description: "雄大なワイバーンに乗って空を駆ける"
+		}
+		DwarflingBuff: {
+			DisplayName: "ドワーフリング"
+			Description: "ドワーフリングが一緒に飛んでくれる"
+		}
+		MAJ_SparrowTransformationBuff: {
+			DisplayName: "スズメ"
+			Description: "あなたはスズメになった"
+		}
+		MAJ_OtterronMountBuff: {
+			DisplayName: "オタロン"
+			Description: "彼らは素晴らしいダイビング仲間だ！"
+		}
+		MAJ_WingedWyvernTransformationBuff: {
+			Description: "ワイバーンと混同しないように"
+			DisplayName: "翼のあるワイバーン"
+		}
+	}
+	Items: {
+		CloverKite: {
+			DisplayName: "クローバーカイト"
+			Tooltip: "移動速度に応じてクリティカル率が上昇する"
+		}
+		CompanionCharm: {
+			DisplayName: "コンパニオンのお守り"
+			Tooltip: "マウント騎乗中、防御力が4増加"
+		}
+		MAJ_CloudBalloonAnimal: {
+			DisplayName: "雲のバルーンアニマル"
+			Tooltip: "マウントのジャンプの高さと飛行時間が増加する"
+		}
+		MAJ_DragonFlame: {
+			DisplayName: "ドラゴンフレイム"
+			Tooltip: "'''\nマウントの素早い方向転換を可能にし、ダッシュを強化する\n「雪が暖かいエネルギーで燃えている」\n'''"
+		}
+		MAJ_MightyGoldNugget: {
+			DisplayName: "マイティゴールドナゲット"
+			Tooltip: "'''\n高速移動中、被ダメージを18%減少させる\n十分な速度でマウントが敵に体当たりできるようになる\n「重く感じるが、問題なく持ち上げられる」\n'''"
+		}
+		MAJ_SunflowerCharm: {
+			DisplayName: "ひまわりのお守り"
+			Tooltip: "'''\nマウントの速度が14%上昇\nマウント騎乗中、防御力が8増加\n'''"
+		}
+		MAJ_SunflowerGem: {
+			DisplayName: "ひまわりの宝石"
+			Tooltip: "マウントの速度が10%上昇"
+		}
+		MAJ_SunnyBalloonAnimal: {
+			DisplayName: "太陽のバルーンアニマル"
+			Tooltip: "'''\nマウントのジャンプの高さと飛行時間が増加する\nマウントの速度が14%上昇\nマウント騎乗中、防御力が8増加\n'''"
+		}
+		CallingSextant: {
+			DisplayName: "輝く六分儀"
+			Tooltip: "'''\n空から遠い星とその子供たちを呼び寄せる\n騎乗中に任意の方向を2回タップしてテレポート\n'''"
+		}
+		CosmicSigil: {
+			DisplayName: "コズミックシジル"
+			Tooltip: "'''\nコズミックウォッチャーを召喚する\n騎乗中、見つめている限り投射物を弾き返す\n'''"
+		}
+		FinchBasket: {
+			DisplayName: "小鳥の給餌器"
+			Tooltip: "小鳥の群れを引き寄せ、空中を運んでもらう"
+		}
+		IvoryFlute: {
+			DisplayName: "象牙の笛"
+			Tooltip: "雲を抜けてあなたを運ぶ偉大なスカイドラゴンを召喚する"
+		}
+		MAJ_BlueFeathers: {
+			DisplayName: "古代の青い羽根"
+			Tooltip: "ブルーラプトルのマウントを召喚する"
+		}
+		MAJ_GiantSpiderEgg: {
+			DisplayName: "ジャイアントスパイダーの卵"
+			Tooltip: "騎乗可能なスパイダーマウントを召喚する"
+		}
+		MAJ_GryphonFeather: {
+			DisplayName: "グリフォンの羽根"
+			Tooltip: "グリフォンのマウントを召喚する"
+		}
+		MAJ_LihzahrdFlute: {
+			DisplayName: "リザードの笛"
+			Tooltip: "ジャイアントフライングスネークを引き寄せる"
+		}
+		MAJ_MountainJewel: {
+			DisplayName: "山のジュエル"
+			Tooltip: "'''\nマウンテンドラゴンを引き寄せる\n強力な翼の羽ばたきで左、右、または上に推進できる！\n'''"
+		}
+		MAJ_OvergrownSeed: {
+			DisplayName: "生い茂った種の袋"
+			Tooltip: "特定のエリア内で自由に移動するための静止した花を植える"
+		}
+		MAJ_RedFeathers: {
+			DisplayName: "古代の赤い羽根"
+			Tooltip: "レッドラプトルのマウントを召喚する"
+		}
+		MAJ_RoyalBulb: {
+			DisplayName: "ロイヤルバルブ"
+			Tooltip: "'''\nロイヤルローズを引き寄せる\nツタに捕らわれたものは何でも棘で毒される\n'''"
+		}
+		MAJ_ScalyFlute: {
+			DisplayName: "鱗の笛"
+			Tooltip: "かつて時の中に失われた偉大なスカイドラゴンを召喚する"
+		}
+		MAJ_ShellHorn: {
+			DisplayName: "貝殻の角笛"
+			Tooltip: "タツノオトシゴのマウントを召喚する"
+		}
+		MAJ_SoftSnowball: {
+			DisplayName: "柔らかい雪玉"
+			Tooltip: "'''\n持ち主をホッキョクギツネに変身させる\n下キーで雪に潜る\n'''"
+		}
+		MAJ_StrangeAcorn: {
+			DisplayName: "奇妙などんぐり"
+			Tooltip: "持ち主をリスに変身させる"
+		}
+		MAJ_WeatherOrb: {
+			DisplayName: "ウェザーオーブ"
+			Tooltip: "'''\n自然の力にさらされた結果\nかつてそれが属していた存在を引き寄せたようだ\n敵にオーブをぶつけるとチャージが生成され、ミシカルレッドがそれを吸収する\n右クリックで放電！\n「我がオーブを取り戻してくれたこと、感謝するぞ、テラリアンよ」\n'''"
+		}
+		MAJ_WeatherOrbInert: {
+			DisplayName: "不活性なウェザーオーブ"
+			Tooltip: "'''\n重いが壊れやすいクリスタルのオーブ\n嵐の中で火花を散らすのを感じる 投げれば何か起こるかもしれない？\n'''"
+		}
+		MAJ_WhiteFeathers: {
+			DisplayName: "古代の白い羽根"
+			Tooltip: "ホワイトラプトルのマウントを召喚する"
+		}
+		MeteorBoard: {
+			DisplayName: "メテオボード"
+			Tooltip: "ボードは地面から少し浮上する"
+		}
+		SandyGoggles: {
+			DisplayName: "砂まじりのサングラス"
+			Tooltip: "機敏なアントリオンスウォーマーを召喚する"
+		}
+		SolarAsh: {
+			DisplayName: "太陽の灰"
+			Tooltip: "'''\n伝説の再生の鳥を召喚する\n左または右を2回タップしてダッシュできる\n何かに命中した直後に方向を入力してダッシュを連鎖させる\n'''"
+		}
+		VortexBeacon: {
+			DisplayName: "ボルテックスビーコン"
+			Tooltip: "'''\nあなたの場所にボルテックスのガンシップを呼び寄せる\n一対の大砲が付属している\n66%の確率で弾薬を消費しない\n'''"
+		}
+		WeatherOrbShardSnow: {
+			DisplayName: "雪の破片"
+			Tooltip: "何かの極寒の砕けた残骸"
+		}
+		WeatherOrbShardStorm: {
+			DisplayName: "嵐の破片"
+			Tooltip: "何かの帯電した砕けた残骸"
+		}
+		WeatherOrbShardSun: {
+			DisplayName: "太陽の破片"
+			Tooltip: "何かの輝く砕けた残骸"
+		}
+		WornFlute: {
+			DisplayName: "使い古された笛"
+			Tooltip: "何かを呼べそうだが、ほとんど音が出ない"
+		}
+		MAJ_RiceBall: {
+			DisplayName: "おにぎり"
+			Tooltip: "持ち主をスズメに変身させる"
+		}
+		MAJ_JewelSalmon: {
+			DisplayName: "ジュエルサーモン"
+			Tooltip: "騎乗可能なオッタードラゴンを引き寄せる"
+		}
+		MAJ_FieryAmulet: {
+			Tooltip: "持ち主を翼のあるワイバーンに変身させる"
+			DisplayName: "炎のアミュレット"
+		}
+		MAJ_PrismFlower: {
+			DisplayName: "プリズムフラワー"
+			Tooltip: "しばらく移動するとマウントの速度が大幅に上昇する"
+		}
+		MAJ_ShootingStar: {
+			Tooltip: "'''\nしばらく移動するとマウントの速度が大幅に上昇する\nマウントが素早く方向転換できるようになる\n'''"
+			DisplayName: "シューティングスター"
+		}
+		MAJ_ArcaneDefenseRune: {
+			DisplayName: "秘術の防護ルーン"
+			Tooltip: "'''\n防御力8\n高速で移動していない間、マウントが接触ダメージを与える\n'''"
+		}
+		MAJ_SigilOfPower: {
+			DisplayName: "力のシジル"
+			Tooltip: "'''\n防御力16\n高速で移動していない間、マウントが接触ダメージを与える\n敵に体当たりすると爆発を引き起こす\n高速移動中、被ダメージを18%減少させる\n'''"
+		}
+	}
+	Projectiles: {
+		DwarflingMinion: {
+			DisplayName: "ドワーフリングミニオン"
+		}
+		ElectricExplosion: {
+			DisplayName: "エレクトリックエクスプロージョン"
+		}
+		MAJ_DragonLightning: {
+			DisplayName: "ドラゴンライトニング"
+		}
+		MAJ_DragonLightning_Arc: {
+			DisplayName: "ドラゴンライトニングアーク"
+		}
+		MAJ_FlyingSnakeBite: {
+			DisplayName: "フライングスネークバイト"
+		}
+		MAJ_HookSpike: {
+			DisplayName: "フックスパイク"
+		}
+		MAJ_OvergrownFlowerHook: {
+			DisplayName: "フラワーフック"
+		}
+		MAJ_WeatherOrbInertProjectile: {
+			DisplayName: "不活性なウェザーオーブ（発射体）"
+		}
+		StarlingMine: {
+			DisplayName: "スターリングマイン"
+		}
+		MAJ_WyvernFireBall: {
+			DisplayName: "ワイバーン火球"
+		}
+		MAJ_WyvernFireBallExplosion: {
+			DisplayName: "ワイバーン火球爆発"
+		}
+		MAJ_StarImpact: {
+			DisplayName: "スターインパクト"
+		}
+		MAJ_MountWeatherOrb: {
+			DisplayName: "ウェザーオーブ"
+		}
+	}
+	Configs: {
+		MountAndJourneyConfig: {
+			DisplayName: "Mount And Journey 設定"
+			UseAlternateTextures: {
+				Label: "代替テクスチャを使用"
+				Tooltip: "'''\n特定のマウントが元のテクスチャを使用するように変更する、リソースパックでプレイしている場合に便利\nこの設定は一部のアニメーションを無効にすることに注意\n'''"
+			}
+			UsePillarMountGlyphs: {
+				Label: "ピラーマウントのグリフビジュアル"
+				Tooltip: "ピラーマウントの後ろに表示される輝くグリフを有効/無効にする"
+			}
+			MountDashKeybindOnly: {
+				Label: "2回タップでのマウントダッシュを無効化"
+				Tooltip: "マウントはマウントダッシュのキーバインドでのみダッシュする"
+			}
+		}
+	}
+	Keybinds: {
+		"Mount Dash": {
+			DisplayName: "マウントダッシュ"
+		}
+	}
+}

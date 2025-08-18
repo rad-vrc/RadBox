@@ -1,0 +1,423 @@
+Configs: {
+	SummonerPlusPlusModConfig: {
+		DisplayUpdateText: {
+			Tooltip: ""
+			Label: Display Update text
+		}
+
+		Headers: {
+			Misc: Misc
+		}
+
+		DisplayName: Summoner++ Mod Config
+	}
+}
+
+Projectiles: {
+	PiercerMinion: {
+		DisplayName: Piercer Minion
+	}
+
+	ExecutionerMinion: {
+		DisplayName: Executioner Minion
+	}
+
+	FairyProjectile: {
+		DisplayName: Fairy Projectile
+	}
+
+	PinkFairyProjectile: {
+		DisplayName: Pink Fairy Projectile
+	}
+
+	FairyMinion: {
+		DisplayName: Fairy Minion
+	}
+
+	BoneSawSentry: {
+		DisplayName: Bone Saw Sentry
+	}
+
+	LivingFlameMinion: {
+		DisplayName: Living Flame Minion
+	}
+
+	LeadFistMinion: {
+		DisplayName: Lead Fist Minion
+	}
+
+	IronFistMinion: {
+		DisplayName: Iron Fist Minion
+	}
+
+	QueensStingerProjectile: {
+		DisplayName: Queens Stinger Projectile
+	}
+
+	Bubble: {
+		DisplayName: Bubble
+	}
+
+	CoralReefSentry: {
+		DisplayName: Coral Reef Sentry
+	}
+
+	MiniSlashProjectile: {
+		DisplayName: Mini Slash Projectile
+	}
+
+	BloodSpillerProjectile: {
+		DisplayName: Blood Spiller Projectile
+	}
+
+	SpinningStarProjectile: {
+		DisplayName: Spinning Star Projectile
+	}
+
+	SpinningStarMinion: {
+		DisplayName: Spinning Star Minion
+	}
+
+	MagicBroomMinion: {
+		DisplayName: Magic Broom Minion
+	}
+
+	CactusMinionSpike: {
+		DisplayName: Cactus Minion Spike
+	}
+
+	CactusMinion: {
+		DisplayName: Cactus Minion
+	}
+
+	GiantHiveStaffBee: {
+		DisplayName: Giant Hive Staff Bee
+	}
+
+	HiveStaffBee: {
+		DisplayName: Hive Staff Bee
+	}
+
+	HiveSentry: {
+		DisplayName: Hive Sentry
+	}
+
+	KnifeMinion: {
+		DisplayName: Knife Minion
+	}
+}
+
+Buffs: {
+	PiercerMinionBuff: {
+		Description: The Corrupt Spear will fight for you
+		DisplayName: Corrupt Spear
+	}
+
+	ExecutionerMinionBuff: {
+		Description: The Crimson Axe will fight for you
+		DisplayName: Crimson Axe
+	}
+
+	FairyMinionBuff: {
+		Description: The Fairy will fight for you
+		DisplayName: Fairy
+	}
+
+	LivingFlameMinionBuff: {
+		Description: The Living Fireball will fight for you
+		DisplayName: Living Fireball
+	}
+
+	LeadFistMinionBuff: {
+		Description: The Lead Fist will fight for you
+		DisplayName: Lead Fist
+	}
+
+	IronFistMinionBuff: {
+		Description: The Iron Fist will fight for you
+		DisplayName: Iron Fist
+	}
+
+	QueensStingerDebuff: {
+		Description: Mods.SummonerPlusPlus.Buffs.QueensStingerDebuff.Description
+		DisplayName: Queens Stinger Debuff
+	}
+
+	MiniSlashDebuff: {
+		Description: Mods.SummonerPlusPlus.Buffs.MiniSlashDebuff.Description
+		DisplayName: Mini Slash Debuff
+	}
+
+	BloodSpillerDebuff: {
+		Description: Mods.SummonerPlusPlus.Buffs.BloodSpillerDebuff.Description
+		DisplayName: Blood Spiller Debuff
+	}
+
+	SpinningStarMinionBuff: {
+		Description: The Spinning Star will fight for you
+		DisplayName: Spinning Star
+	}
+
+	MagicBroomMinionBuff: {
+		Description: The Magic Broom will fight for you
+		DisplayName: Magic Broom
+	}
+
+	CactusMinionBuff: {
+		Description: The living cactus will fight for you
+		DisplayName: Living Cactus
+	}
+
+	KnifeMinionBuff: {
+		Description: The knife will fight for you
+		DisplayName: Knife
+	}
+}
+
+Items: {
+	MoltenGlove: {
+		Tooltip:
+			'''
+			Increases your summon tag damage by 3
+			20% increased whip range
+			12% increased whip speed
+			Enables auto swing for whips & melee weapons
+			'''
+		DisplayName: Molten Glove
+	}
+
+	WhistleOfYin: {
+		Tooltip:
+			'''
+			Increases your summon tag damage by 5
+			Decreases whip tag time to 2 seconds
+			'''
+		DisplayName: Whistle Of Yin
+	}
+
+	WhistleOfYang: {
+		Tooltip:
+			'''
+			Increases your summon tag damage by 1
+			Increases whip tag time to 6 seconds
+			'''
+		DisplayName: Whistle Of Yang
+	}
+
+	GoblinWarBanner: {
+		Tooltip: ""
+		DisplayName: Goblin War Banner
+	}
+
+	StoneOfIllusions: {
+		Tooltip:
+			'''
+			Summons clones of your minions that deal 20% of the original minion's damage
+			Clones have a 50% tag damage penalty
+			Does not work with single summon minions (abigail, spinning star, etc..)
+			'''
+		DisplayName: Stone Of Illusions
+	}
+
+	Piercer: {
+		Tooltip: Summons a Corrupt Spear to fight for you
+		DisplayName: Corrupt Impaler
+	}
+
+	Executioner: {
+		Tooltip:
+			'''
+			Summons a Crimson Axe to fight for you
+			Greatly increased speed while spinning    
+			'''
+		DisplayName: Crimson Executioner
+	}
+
+	FairyStaff: {
+		Tooltip: Summons a Fairy to fight for you
+		DisplayName: Fairy Staff
+	}
+
+	BoneSaw: {
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a Saw to fight for you         
+			'''
+		DisplayName: Bone Saw
+	}
+
+	LivingFlameStaff: {
+		Tooltip:
+			'''
+			Summons a Living Fireball to fight for you
+			The fireballs spread the hellfire debuff     
+			'''
+		DisplayName: Living Flame Staff
+	}
+
+	LeadFist: {
+		Tooltip: Summons a Lead Fist to fight for you
+		DisplayName: Lead Fist
+	}
+
+	IronFist: {
+		Tooltip: Summons an Iron Fist to fight for you
+		DisplayName: Iron Fist
+	}
+
+	BatTooth: {
+		Tooltip:
+			'''
+			Increases minion and sentry armor penetration by 5
+			Summons may confuse nearby enemies after striking them
+			'''
+		DisplayName: Bat Tooth
+	}
+
+	QueensStinger: {
+		Tooltip:
+			'''
+			Your summons will focus struck enemies
+			Strike enemies to gain the Honey! buff
+			friendly bees and hornets do 50% more damage to tagged enemies
+			'''
+		DisplayName: Queen's Stinger
+	}
+
+	CoralStaff: {
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a coral reef to fight for you         
+			'''
+		DisplayName: Coral Staff
+	}
+
+	BoneWhistle: {
+		Tooltip:
+			'''
+			Increases your summon tag damage by 1
+			Increases your summon tag critical strike chance by 5%
+			'''
+		DisplayName: Bone Whistle
+	}
+
+	DemoniteWhistle: {
+		Tooltip: Increases your summon tag damage by 2
+		DisplayName: Demonite Whistle
+	}
+
+	CrimtaneWhistle: {
+		Tooltip: Increases your summon tag damage by 2
+		DisplayName: Crimtane Whistle
+	}
+
+	MoltenCord: {
+		Tooltip: 20% increased whip range
+		DisplayName: Molten Cord
+	}
+
+	VineCord: {
+		Tooltip: 15% increased whip range
+		DisplayName: Vine Cord
+	}
+
+	FlinxFurCord: {
+		Tooltip: 8% increased whip range and whip speed
+		DisplayName: Flinx Fur Cord
+	}
+
+	TungestenWhistle: {
+		Tooltip: Increases your summon tag damage by 1
+		DisplayName: Tungesten Whistle
+	}
+
+	SilverWhistle: {
+		Tooltip: Increases your summon tag damage by 1
+		DisplayName: Silver Whistle
+	}
+
+	MoltenWhistle: {
+		Tooltip: Increases your summon tag damage by 3
+		DisplayName: Molten Whistle
+	}
+
+	MiniSlash: {
+		Tooltip:
+			'''
+			4 summon tag damage
+			Your summons will focus struck enemies
+			Repeated strikes increase the summon tag damage to a maximum of 10
+			'''
+		DisplayName: Mini-Slash
+	}
+
+	BloodSpiller: {
+		Tooltip:
+			'''
+			Your summons will focus struck enemies
+			Striken enemies take double damage next time they are hit by summons   
+			'''
+		DisplayName: Blood Spiller
+	}
+
+	RodOfRelocation: {
+		Tooltip: Recalls all of your minions to you
+		DisplayName: Rod of Relocation
+	}
+
+	SpinningStarStaff: {
+		Tooltip: Summons a Spinning Star to fight for you
+		DisplayName: Spinning Star Staff
+	}
+
+	MagicBroom: {
+		Tooltip:
+			'''
+			Summons a Magic Broom to fight for you
+			The broom does not target bosses and mini-bosses      
+			'''
+		DisplayName: Magic Broom
+	}
+
+	DesertCrown: {
+		SetBonus: Increases whip range by 15%
+		Tooltip:
+			'''
+			Increases summon damage by 5%
+			Increase your max number of sentries by 1      
+			'''
+		DisplayName: Desert Crown
+	}
+
+	CactusStaff: {
+		Tooltip:
+			'''
+			Summons a living cactus to fight for you
+			Releases spikes when the player is hit       
+			'''
+		DisplayName: Cactus Staff
+	}
+
+	HiveStaff: {
+		Tooltip:
+			'''
+			Summons a sentry
+			Summons a friendly hive that releases bees to aid you          
+			'''
+		DisplayName: Hive Staff
+	}
+
+	KnifeStaff: {
+		Tooltip:
+			'''
+			Summons a knife to fight for you
+			Ignores some of enemy defense
+			Hits quickly at the expense of 50% tag damage
+			[c/FFF014:Cannot get stronger reforges]             
+			'''
+		DisplayName: Knife Staff
+	}
+}
+

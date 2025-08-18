@@ -1,0 +1,133 @@
+Items: {
+	BoringBow: {
+		DisplayName: ボーリングボウ
+		Tooltip:
+			'''
+			放射線の矢を撃つ
+			放射線の矢は近くの敵に向かって新しい放射線の矢に分裂する
+			分裂した放射線の矢は高速だがダメージが減少する
+			'''
+	}
+
+	ETNY: {
+		DisplayName: エーテリアンジャベリン
+		Tooltip:
+			'''
+			敵に突き刺さる投げ槍を投げる
+			敵に刺さった投げ槍1本につき召喚ダメージが2増加する
+			'''
+	}
+
+	FirstFractal: {
+		DisplayName: ファーストフラクタル
+		Tooltip: ""
+	}
+
+	Icemourne: {
+		DisplayName: アイスモーン
+		Tooltip:
+			'''
+			氷霜のオーラを召喚する
+			オーラ内の敵は凍結し持続ダメージを受ける
+			'''
+	}
+
+	PhasicWarpEjector: {
+		DisplayName: 位相歪曲射出器
+		Tooltip: 位相歪曲ディスクを発射する
+	}
+
+	Scythe: {
+		DisplayName: 大鎌
+		Tooltip:
+			'''
+			高速の追跡する鎌を撃つ
+			敵に直撃すると追加の鎌を生成する
+			'''
+	}
+
+	SkullBow: {
+		DisplayName: 髑髏の弓
+		Tooltip: 木の矢を骨の矢に変換する
+	}
+
+	SoulScythe: {
+		DisplayName: 魂の大鎌
+		Tooltip:
+			'''
+			魂の鎌を撃つ
+			敵に直撃すると追加の鎌を生成する
+			'''
+	}
+}
+
+Projectiles: {
+	BoringBowp: {
+		DisplayName: 放射線の矢
+	}
+
+	ETNYp: {
+		DisplayName: エーテルの投槍
+	}
+
+	FF0: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF1: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF10: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF2: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF3: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF4: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF5: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF6: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF7: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF8: {
+		DisplayName: 第一フラクタル
+	}
+
+	FF9: {
+		DisplayName: 第一フラクタル
+	}
+
+	Icemournep: {
+		DisplayName: アイスモーン
+	}
+
+	Proj458: {
+		DisplayName: 位相歪曲ディスク
+	}
+
+	Scythep: {
+		DisplayName: 大鎌
+	}
+
+	SoulScythep: {
+		DisplayName: 魂の大鎌
+	}
+}
+

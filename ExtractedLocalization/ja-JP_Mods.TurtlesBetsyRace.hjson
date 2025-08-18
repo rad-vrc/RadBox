@@ -1,0 +1,694 @@
+Configs: {
+	BetsyConfigServer: {
+		DisplayName: Betsy Race Config - Server
+
+		dragonSpeedAffectsAccessories: {
+			Label: Betsy Speed Stat Affects Accessories
+			Tooltip:
+				'''
+				[c/FFCC44:Betsy Speed Stat Affects Accessories]
+				When enabled, Betsy's racial speed modifier
+				will also apply to accessories
+				like [i/s1:54][c/8686E5:Hermes Boots].
+				Normally, accessories that provide speed changes
+				will override your max speed, making racial adjustments do nothing.
+				[c/FF4444:It's highly suggested to leave this on.]
+				[c/888888:Default: On]
+				'''
+		}
+
+		raceMountSize: {
+			Label: Betsy Mount Size
+			Tooltip:
+				'''
+				[c/FFCC44:Betsy Mount Size]
+				The 'size' value used for the mounting system.
+				Any race with a size value smaller than this will be able
+				to mount this race.
+				Note that Betsy can never mount other races.
+				[c/888888:Default: 8]
+				'''
+		}
+
+		raceRunAccelMultiplier: {
+			Label: Acceleration Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Acceleration Modifier]
+				Modifies Betsy's acceleration
+				by the given percentage.
+				This is also multiplied by the
+				Overall Speed Modifier.
+				[c/888888:Default: 200%]
+				'''
+		}
+
+		raceRunSlowdownMultiplier: {
+			Label: Slowdown Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Slowdown Modifier]
+				Modifies how fast Betsy can slow down
+				while at high speed, by the given percentage.
+				This is NOT multiplied by the
+				Overall Speed Modifier.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		raceSpeedMultiplier: {
+			Label: Overall Speed Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Overall Speed Modifier]
+				Modifies Betsy's max speed and acceleration
+				by the given percentage.
+				This modifier also affects speed changes from
+				accessories, like [i/s1:54][c/8686E5:Hermes Boots],
+				unless that feature is disabled.
+				[c/888888:Default: 240%]
+				'''
+		}
+
+		raceHealthMultiplier: {
+			Label: Health Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Health Modifier]
+				Multiplies Betsy's final max health by the given percentage.
+				This includes boosts from [i/s1:29][c/92F892:Life Crystals] and similar items.
+				[c/888888:Default: 2500%]
+				'''
+		}
+
+		betsyHealingMultiplier: {
+			Label: Healing Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Healing Modifier]
+				Multiplies the healing given by items.
+				Betsy kinda needs this since her health pool is so large.
+				Measured as a percentage.
+				[c/888888:Default: 1500%]
+				'''
+		}
+
+		raceManaMultiplier: {
+			Label: Mana Modifier %
+			Tooltip:
+				'''
+				[c/FFCC44:Mana Modifier]
+				Multiplies Betsy's final max mana by the given percentage.
+				This includes boosts from [i/s1:109][c/92F892:Mana Crystals] and similar items.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		raceArmourBoost: {
+			Label: Armour Boost (flat)
+			Tooltip:
+				'''
+				[c/FFCC44:Armour Boost]
+				Raises Betsy's defence by a flat value.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceDamageReduction: {
+			Label: Damage Reduction %
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Reduction]
+				Reduces damage taken by a percentage.
+				Stacks additively with other similar effects.
+				[c/FF4444:Be careful setting this too high, as it can lead]
+				[c/FF4444:to being able to achieve 100% damage reduction in certain modpacks!]
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceDamageBoost: {
+			Label: Damage Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Increase]
+				Increases damage for all types by the given percentage.
+				This is additive, not multiplicative.
+				For example, if equipment provides +200% and this is set to
+				20%, then the final damage bonus will be +220%, resulting in 320% damage dealt.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceCritChance: {
+			Label: Crit Increase
+			Tooltip:
+				'''
+				[c/FFCC44:Crit Increase]
+				Increases Betsy's critical strike chance by
+				a flat amount.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceMiningDelay: {
+			Label: Mining Speed Increase %
+			Tooltip:
+				'''
+				[c/FFCC44:Mining Speed Increase]
+				Reduces Betsy's delay between hits while
+				mining by a percentage.
+				The value can be negative to make mining slower.
+				[c/888888:Default: 0%]
+				'''
+		}
+
+		raceTileXReachBoost: {
+			Label: Horizontal Reach Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Horizontal Reach Boost]
+				In tiles, how much extra horizontal reach
+				should Betsy get?
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceTileYReachBoost: {
+			Label: Vertical Reach Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Vertical Reach Boost]
+				In tiles, how much extra vertical reach
+				should Betsy get?
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceMaxMinions: {
+			Label: Max Minion Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Max Minion Boost]
+				Increases Betsy's max minion count.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceMaxSentries: {
+			Label: Max Sentry Boost
+			Tooltip:
+				'''
+				[c/FFCC44:Max Minion Boost]
+				Increases Betsy's max sentry count.
+				[c/888888:Default: 0]
+				'''
+		}
+
+		raceKnockbackImmunity: {
+			Label: Knockback Immunity
+			Tooltip:
+				'''
+				[c/FFCC44:Knockback Immunity]
+				Should Betsy be immune to knockback innately?
+				[c/888888:Default: On]
+				'''
+		}
+	}
+
+	BetsyConfigClient: {
+		DisplayName: Betsy Config - Client
+
+		betsyBlinks: {
+			Label: Eye Animation
+			Tooltip:
+				'''
+				[c/FFCC44:Eye Animation]
+				When Betsy is idle, should her eyes animate
+				like the player's normally do?
+				[c/888888:Default: On]
+				'''
+		}
+
+		betsyOpenMouthOnItemUse: {
+			Label: Item Use Animation
+			Tooltip:
+				'''
+				[c/FFCC44:Item Use Animation]
+				Should Betsy open her mouth while using an item?
+				[c/888888:Default: On]
+				'''
+		}
+	}
+
+	BetsyAbilityConfigServer: {
+		DisplayName: Betsy Ability Config - Server
+
+		betsyHasContactDamage: {
+			Label: Does Contact Damage
+			Tooltip:
+				'''
+				[c/FFCC44:Does Contact Damage]
+				Should Betsy have an active hitbox over her at all times,
+				effectively giving her contact damage?
+				[c/888888:Default: Off]
+				'''
+		}
+
+		betsyCollisionDamage: {
+			Label: Melee Damage
+			Tooltip:
+				'''
+				[c/FFCC44:Melee Damage]
+				The base damage of Betsy's melee attacks.
+				This includes her dash and spin, as well as contact damage
+				if enabled. Some original values for reference below.
+				Classic: 80
+				Expert: 104
+				Master: 156
+				[c/888888:Default: 104]
+				'''
+		}
+
+		betsyGetsHitFast: {
+			Label: Use Short Immunity Time
+			Tooltip:
+				'''
+				[c/FFCC44:Use Short Immunity Time]
+				If enabled, Betsy will use the same immunity time that
+				enemies get when they're hit, which is 10 frames.
+				[c/888888:Default: On]
+				'''
+		}
+
+		betsyBreathDamage: {
+			Label: Breath Damage
+			Tooltip:
+				'''
+				[c/FFCC44:Breath Damage]
+				The base damage of Betsy's breath attacks.
+				This includes her fire breath and fireballs.
+				Some original values for reference below.
+				Classic: 70
+				Expert: 140
+				Master: 210
+				[c/888888:Default: 104]
+				'''
+		}
+
+		dashDuration: {
+			Label: Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Duration]
+				The duration of the dash attack's movement, in frames.
+				There are 60 frames in a second.
+				[c/888888:Default: 30 (0.5s)]
+				'''
+		}
+
+		dashVelocity: {
+			Label: Velocity
+			Tooltip:
+				'''
+				[c/FFCC44:Velocity]
+				The speed of the dash attack.
+				[c/888888:Default: 2300]
+				'''
+		}
+
+		dashLagFrames: {
+			Label: Lag Frames
+			Tooltip:
+				'''
+				[c/FFCC44:Lag Frames]
+				After the dash attack ends, how many frames must Betsy
+				wait before doing anything again?
+				There are 60 frames in a second.
+				[c/888888:Default: 20 (0.33s)]
+				'''
+		}
+
+		dashInvincibility: {
+			Label: Invincible
+			Tooltip:
+				'''
+				[c/FFCC44:Duration]
+				If enabled, Betsy will be invincible during the dash attack.
+				[c/888888:Default: Off]
+				'''
+		}
+
+		dashCooldown: {
+			Label: Cooldown
+			Tooltip:
+				'''
+				[c/FFCC44:Cooldown]
+				The cooldown of the dash attack in frames.
+				This time is added on top of the ability duration.
+				There are 60 frames in a second.
+				[c/888888:Default: 30 (0.5s)]
+				'''
+		}
+
+		circleAttackDuration: {
+			Label: Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Duration]
+				The duration of the circle attack in frames.
+				There are 60 frames in a second.
+				[c/888888:Default: 60 (1s)]
+				'''
+		}
+
+		circleAttackVelocity: {
+			Label: Velocity
+			Tooltip:
+				'''
+				[c/FFCC44:Velocity]
+				The speed of the circle attack.
+				[c/888888:Default: 3200]
+				'''
+		}
+
+		circleAttackLagFrames: {
+			Label: Lag Frames
+			Tooltip:
+				'''
+				[c/FFCC44:Lag Frames]
+				After the circle attack ends, how many frames must Betsy
+				wait before doing anything again?
+				There are 60 frames in a second.
+				[c/888888:Default: 20 (0.33s)]
+				'''
+		}
+
+		circleAttackInvincibility: {
+			Label: Invincible
+			Tooltip:
+				'''
+				[c/FFCC44:Invincible]
+				If enabled, Betsy will be invincible during the spin attack.
+				[c/888888:Default: On]
+				'''
+		}
+
+		circleAttackCooldown: {
+			Label: Cooldown
+			Tooltip:
+				'''
+				[c/FFCC44:Cooldown]
+				The cooldown of the circle attack in frames.
+				This time is added on top of the ability duration.
+				There are 60 frames in a second.
+				[c/888888:Default: 180 (3s)]
+				'''
+		}
+
+		fireBreathAttackStartup: {
+			Label: Startup Time
+			Tooltip:
+				'''
+				[c/FFCC44:Startup Time]
+				The amount of frames in which Betsy will move backwards
+				and upwards before starting the attack.
+				There are 60 frames in a second.
+				[c/888888:Default: 20 (0.33s)]
+				'''
+		}
+
+		fireBreathAttackDuration: {
+			Label: Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Duration]
+				The total duration of the fire breath attack in frames.
+				This should also include the startup time, or the attack
+				will end early.
+				There are 60 frames in a second.
+				[c/888888:Default: 80 (1.33s)]
+				'''
+		}
+
+		fireBreathSpawnInterval: {
+			Label: Projectile Spawn Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Projectile Spawn Interval]
+				The amount of frames between each fire projectile being spawned.
+				There are 60 frames in a second.
+				[c/888888:Default: 2 (0.03s)]
+				'''
+		}
+
+		fireBreathAttackVelocity: {
+			Label: Velocity
+			Tooltip:
+				'''
+				[c/FFCC44:Velocity]
+				The speed Betsy moves at while using the fire breath attack.
+				[c/888888:Default: 1250)]
+				'''
+		}
+
+		fireBreathAttackLagTime: {
+			Label: Lag Frames
+			Tooltip:
+				'''
+				[c/FFCC44:Lag Frames]
+				After the fire breath attack ends, how many frames must Betsy
+				wait before doing anything again?
+				There are 60 frames in a second.
+				[c/888888:Default: 10 (0.167s)]
+				'''
+		}
+
+		fireBreathAttackCooldown: {
+			Label: Cooldown
+			Tooltip:
+				'''
+				[c/FFCC44:Cooldown]
+				The cooldown of the fire breath attack in frames.
+				This time is added on top of the ability duration.
+				There are 60 frames in a second.
+				[c/888888:Default: 120 (2s)]
+				'''
+		}
+
+		fireballAttackStartup: {
+			Label: Startup Time
+			Tooltip:
+				'''
+				[c/FFCC44:Startup Time]
+				The amount of frames in which Betsy will move backwards
+				and upwards before starting the attack.
+				There are 60 frames in a second.
+				[c/888888:Default: 20 (0.33s)]
+				'''
+		}
+
+		fireballAttackDuration: {
+			Label: Duration
+			Tooltip:
+				'''
+				[c/FFCC44:Duration]
+				The total duration of the fireball attack in frames.
+				This should also include the startup time, or the attack
+				will end early.
+				There are 60 frames in a second.
+				[c/888888:Default: 80 (1.33s)]
+				'''
+		}
+
+		fireballSpawnInterval: {
+			Label: Projectile Spawn Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Projectile Spawn Interval]
+				The amount of frames between each fireball being spawned.
+				There are 60 frames in a second.
+				[c/888888:Default: 10 (0.167s)]
+				'''
+		}
+
+		fireballAttackVelocity: {
+			Label: Velocity
+			Tooltip:
+				'''
+				[c/FFCC44:Velocity]
+				The speed Betsy moves at while using the fireball attack.
+				[c/888888:Default: 1250)]
+				'''
+		}
+
+		fireballAttackLagTime: {
+			Label: Lag Frames
+			Tooltip:
+				'''
+				[c/FFCC44:Lag Frames]
+				After the fireball attack ends, how many frames must Betsy
+				wait before doing anything again?
+				There are 60 frames in a second.
+				[c/888888:Default: 30 (0.5s)]
+				'''
+		}
+
+		fireballAttackCooldown: {
+			Label: Cooldown
+			Tooltip:
+				'''
+				[c/FFCC44:Cooldown]
+				The cooldown of the fireball attack in frames.
+				This time is added on top of the ability duration.
+				There are 60 frames in a second.
+				[c/888888:Default: 120 (2s)]
+				'''
+		}
+
+		betsyEnemyHitIntervalMelee: {
+			Label: Melee Ability Hit Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Melee Ability Hit Interval]
+				The interval, in frames, that Betsy's melee attacks can
+				hit enemies. Normally, enemies can be hit every 10 frames
+				by the same attack.
+				There are 60 frames in a second.
+				[c/888888:Default: 10]
+				'''
+		}
+
+		betsyEnemyHitIntervalBreath: {
+			Label: Breath Ability Hit Interval
+			Tooltip:
+				'''
+				[c/FFCC44:Breath Ability Hit Interval]
+				The interval, in frames, that Betsy's breath attacks can
+				hit enemies. Normally, enemies can be hit every 10 frames
+				by the same attack.
+				There are 60 frames in a second.
+				[c/888888:Default: 5]
+				'''
+		}
+
+		dashDamageMultiplier: {
+			Label: Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Multiplier]
+				The base damage of the ability's attacks will be multiplied
+				by this amount.
+				Measured as a percentage.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		circleAttackDamageMultiplier: {
+			Label: Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Multiplier]
+				The base damage of the ability's attacks will be multiplied
+				by this amount.
+				Measured as a percentage.
+				[c/888888:Default: 150%]
+				'''
+		}
+
+		fireBreathAttackDamageMultiplier: {
+			Label: Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Multiplier]
+				The base damage of the ability's attacks will be multiplied
+				by this amount.
+				Measured as a percentage.
+				[c/888888:Default: 100%]
+				'''
+		}
+
+		fireballAttackDamageMultiplier: {
+			Label: Damage Multiplier
+			Tooltip:
+				'''
+				[c/FFCC44:Damage Multiplier]
+				The base damage of the ability's attacks will be multiplied
+				by this amount.
+				Measured as a percentage.
+				[c/888888:Default: 150%]
+				'''
+		}
+	}
+}
+
+Config: {
+	Headers: {
+		Rendering: Rendering
+		General: General
+		AbilityDash: Dash Attack
+		AbilityCircleAttack: Circle Attack
+		AbilityFireBreath: Fire Breath
+		AbilityFireballs: Fireballs
+	}
+}
+
+Projectiles: {
+	DashHitBoxProjectile: {
+		DisplayName: Betsy's Dash
+	}
+
+	CollisionHitBoxProjectile: {
+		DisplayName: Betsy's Touch
+	}
+
+	BetsyFlameBreathProjectile: {
+		DisplayName: Betsy's Fire
+	}
+
+	BetsyFireballProjectile: {
+		DisplayName: Betsy's Fireball
+	}
+}
+
+Buffs: {
+	DebuffCooldownSpinAttack: {
+		DisplayName: Spin Attack Cooldown
+		Description: Dizzy...
+	}
+
+	DebuffCooldownDashAttack: {
+		DisplayName: Dash Attack Cooldown
+		Description: Can't use dash attack again yet
+	}
+
+	DebuffCooldownFireBreathAttack: {
+		DisplayName: Fire Breath Cooldown
+		Description: Can't use fire breath again yet
+	}
+
+	DebuffCooldownFireballAttack: {
+		DisplayName: Fireball Cooldown
+		Description: Can't use fireballs again yet
+	}
+}
+
+Keybinds: {
+	Screech: {
+		DisplayName: Screech
+	}
+}
+
+Items: {
+	BetsyTransformationSymbol: {
+		DisplayName: Betsy Transformation Symbol
+		Tooltip:
+			'''
+			[c/FFCC44:Betsy Item]
+			A special item that can transform you into Betsy!
+			If you use it again, it will transform you back into your old self.
+			The process might hurt a little.
+			'''
+	}
+}
+

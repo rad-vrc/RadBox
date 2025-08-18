@@ -1,0 +1,226 @@
+Items: {
+	CONFIG_ChromaticCrux: {
+		DisplayName: C O N F I G_ クロマティッククラックス
+		Tooltip: ""
+	}
+
+	CONFIG_Phylactery: {
+		DisplayName: C O N F I G_ フィラクテリー
+		Tooltip: ""
+	}
+
+	BoomerangLicense: {
+		DisplayName: ブーメランライセンス
+		Tooltip: 追加でブーメランを1つ投げる
+	}
+
+	FluorescentLicense: {
+		DisplayName: 蛍光ライセンス
+		Tooltip:
+			'''
+			追加でブーメランを1つ投げる
+			ブーメランが光り、帰還速度が上昇し、ノックバックが増加する
+			'''
+	}
+
+	GlaiveLordsGift: {
+		DisplayName: グレイブロードの贈り物
+		Tooltip:
+			'''
+			追加でブーメランを1つ投げる
+			ブーメランが光り、ノックバックが増加する
+			ブーメランの周りに一対のスペクトラルグレイブが周回する
+			'''
+	}
+
+	IlluminantCoating: {
+		DisplayName: 発光コーティング
+		Tooltip: ブーメランが光り、帰還速度が上昇し、ノックバックが増加する
+	}
+
+	SpectralAmulet: {
+		DisplayName: スペクトラルアミュレット
+		Tooltip: ブーメランの周りに一対のスペクトラルグレイブが周回する
+	}
+
+	Beemerang: {
+		DisplayName: ビーメラン
+		Tooltip: 衝突時に蜂を放つ
+	}
+
+	BloodyMachete: {
+		Tooltip0: 空中にいる間ダメージが増加する
+		Tooltip1: 「行け、犯罪をしろ」
+	}
+
+	Bonerang: {
+		DisplayName: ボーンラン
+		Tooltip: 衝突時に骨の破片に砕ける
+	}
+
+	ChromaticCrux: {
+		DisplayName: クロマティッククラックス
+		Tooltip: 敵にヒットしたときホーミングするレインボーチャクラムを残す
+	}
+
+	CombatWrench: {
+		Tooltip0: 戻ってくるときダメージが20%増加する
+	}
+
+	Flamarang: {
+		Tooltip0: 敵にヒットしたとき溶岩の火花を噴出する
+	}
+
+	FruitcakeChakram: {
+		Tooltip0: ヒット時にランダムなデバフを与える
+		Tooltip1: 「レインボー効果！」
+	}
+
+	IceBoomerang: {
+		Tooltip0: 敵にヒットしたとき氷の弾を放ち凍傷を与える
+	}
+
+	Rangaboom: {
+		DisplayName: レンガブーム
+		Tooltip: 頂点から始まってあなたに向かって飛んでくる
+	}
+
+	SawedOffShotrang: {
+		DisplayName: ソウドオフショットラン
+		Tooltip:
+			'''
+			頂点でショットガンを発射する
+			「誰がショットガンを遠距離武器だと言った？」
+			'''
+	}
+
+	ShadeChakram: {
+		DisplayName: シェイドチャクラム
+		Tooltip: 非常に高速
+	}
+
+	Shroomerang: {
+		Tooltip0: 飛行中にキノコを残す
+	}
+
+	Synapse: {
+		DisplayName: シナプス
+		Tooltip: 近くの敵を追跡する
+	}
+
+	Teslarang: {
+		DisplayName: テスララン
+		Tooltip: 敵にヒットしたとき電気の稲妻を放電する
+	}
+
+	TheChloroplast: {
+		DisplayName: 葉緑体
+		Tooltip: 頂点で毒針に爆発する
+	}
+
+	WhiteDwarf: {
+		DisplayName: 白色矮星
+		Tooltip: 星のエネルギーで敵を焼却する
+	}
+
+	YinAndRang: {
+		DisplayName: 陰陽ラン
+		Tooltip: 頂点で2つのホーミングシャードを放つ
+	}
+}
+
+Projectiles: {
+	IceBoomerangShard: {
+		DisplayName: 氷の破片
+	}
+
+	SpectralGlaiveProj: {
+		DisplayName: スペクトラルグレイブ
+	}
+
+	BeemerangProj: {
+		DisplayName: ビーメラン
+	}
+
+	BonerangProj: {
+		DisplayName: ボーンラン
+	}
+
+	BoneShardProj: {
+		DisplayName: 骨の破片
+	}
+
+	ChromaticCruxProj: {
+		DisplayName: クロマティッククラックス
+	}
+
+	ChromaticCruxRainbowProj: {
+		DisplayName: クロマティッククラックスレインボー
+	}
+
+	RangaboomPortalProj: {
+		DisplayName: レンガブームポータル
+	}
+
+	RangaboomProj: {
+		DisplayName: レンガブーム
+	}
+
+	SawedOffShotrangProj: {
+		DisplayName: ソウドオフショットラン
+	}
+
+	ShadeChakramProj: {
+		DisplayName: シェイドチャクラム
+	}
+
+	SynapseProj: {
+		DisplayName: シナプス
+	}
+
+	TeslarangProj: {
+		DisplayName: テスララン
+	}
+
+	TheChloroplastProj: {
+		DisplayName: 葉緑体
+	}
+
+	WhiteDwarfProj: {
+		DisplayName: 白色矮星
+	}
+
+	YinAndRangProj: {
+		DisplayName: 陰陽ラン
+	}
+
+	YinAndRangShardProj: {
+		DisplayName: 陰陽ランの破片
+	}
+
+	FlamarangSpark: {
+		DisplayName: フローメランの火花
+	}
+}
+
+Configs: {
+	ServerConfig: {
+		DisplayName: サーバー設定
+
+		VanillaChanges: {
+			Label: "[i:4818] バニラブーメランの変更"
+			Tooltip: ""
+		}
+
+		ModdedBoomerangs: {
+			Label: "[i:Bangarang/CONFIG_ChromaticCrux] modブーメラン"
+			Tooltip: ""
+		}
+
+		ModdedAccessory: {
+			Label: "[i:Bangarang/CONFIG_Phylactery] modアクセサリー"
+			Tooltip: ""
+		}
+	}
+}
+

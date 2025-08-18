@@ -1,0 +1,503 @@
+{
+	Configs: {
+		NPCsConfigs: {
+			Protector: {
+				Tooltip: "設定を保存すると、既存のプロテクターのインスタンスは全て削除される！"
+				Label: "プロテクター"
+			}
+			Traveler: {
+				Label: "旅人"
+				Tooltip: "設定を保存すると、既存の旅人のインスタンスは全て削除される！"
+			}
+			Pickpocket: {
+				Tooltip: "設定を保存すると、既存のスリのインスタンスは全て削除される！"
+				Label: "スリ"
+			}
+			Creeper: {
+				Label: "クリーパー"
+				Tooltip: "設定を保存すると、既存のクリーパーのインスタンスは全て削除される！"
+			}
+			Cursed: {
+				Label: "呪われし者"
+				Tooltip: "設定を保存すると、既存の呪われし者のインスタンスは全て削除される！"
+			}
+			DaughterOfSun: {
+				Label: "太陽の娘"
+				Tooltip: "設定を保存すると、既存の太陽の娘のインスタンスは全て削除される！"
+			}
+			Death: {
+				Label: "死神"
+				Tooltip: "設定を保存すると、既存の死神のインスタンスは全て削除される！"
+			}
+			FisherMan: {
+				Label: "漁師"
+				Tooltip: "設定を保存すると、既存の漁師のインスタンスは全て削除される！"
+			}
+			Gravedigger: {
+				Label: "墓掘り人"
+				Tooltip: "設定を保存すると、既存の墓掘り人のインスタンスは全て削除される！"
+			}
+			Poacher: {
+				Label: "密猟者"
+				Tooltip: "設定を保存すると、既存の密猟者のインスタンスは全て削除される！"
+			}
+			RainMan: {
+				Label: "レインマン"
+				Tooltip: "設定を保存すると、既存のレインマンのインスタンスは全て削除される！"
+			}
+			Ronin: {
+				Label: "浪人"
+				Tooltip: "設定を保存すると、既存の浪人のインスタンスは全て削除される！"
+			}
+			TVGuy: {
+				Label: "テレビ男"
+				Tooltip: "設定を保存すると、既存のテレビ男のインスタンスは全て削除される！"
+			}
+			Villager: {
+				Label: "村人"
+				Tooltip: "設定を保存すると、既存の村人のインスタンスは全て削除される！"
+			}
+			Headers: {
+				ToggleNPCs: "NPCの切り替え"
+			}
+			DisplayName: "NPC設定"
+		}
+		NPCs: {
+			Poacher: {
+				Tooltip: ""
+				Label: "密猟者"
+			}
+			Villager: {
+				Tooltip: ""
+				Label: "村人"
+			}
+			TVGuy: {
+				Tooltip: ""
+				Label: "テレビ男"
+			}
+			Ronin: {
+				Tooltip: ""
+				Label: "浪人"
+			}
+			RainMan: {
+				Tooltip: ""
+				Label: "レインマン"
+			}
+			Gravedigger: {
+				Tooltip: ""
+				Label: "墓掘り人"
+			}
+			FisherMan: {
+				Tooltip: ""
+				Label: "漁師"
+			}
+			Death: {
+				Tooltip: ""
+				Label: "死神"
+			}
+			DaughterOfSun: {
+				Tooltip: ""
+				Label: "太陽の娘"
+			}
+			TheCursed: {
+				Tooltip: ""
+				Label: "ザ・カースド"
+			}
+			Creeper: {
+				Tooltip: ""
+				Label: "クリーパー"
+			}
+			Headers: {
+				Items: "アイテムヘッダー"
+			}
+			DisplayName: "NPC"
+		}
+		BrandonBoxConfigs: {
+			WeaponWithGrowingDamageToggle: {
+				Tooltip: ""
+				Label: "成長ダメージ武器の切り替え"
+			}
+			DisplayName: "ブランドンボックス設定"
+			Headers: {
+				Items: "アイテムヘッダー"
+			}
+			ExampleWingsToggle: {
+				Label: "サンプルウィング切り替え"
+				Tooltip: ""
+			}
+		}
+	}
+	Projectiles: {
+		EyeBallCamera: {
+			DisplayName: "目玉カメラ"
+		}
+	}
+	Keybinds: {
+		PreviousCamera: {
+			DisplayName: "前のカメラ"
+		}
+		NextCamera: {
+			DisplayName: "次のカメラ"
+		}
+	}
+	Tiles: {
+		SafeZoneCertificat: {
+			MapEntry: "セーフゾーン証明書"
+		}
+	}
+	Items: {
+		SkinSouvenir: {
+			Tooltip: ""
+			DisplayName: "スキンのお土産"
+		}
+		InfiniteSandBucket: {
+			DisplayName: "無限の砂バケツ"
+			Tooltip: ""
+		}
+		LensCameraRecipe: {
+			DisplayName: "レンズカメラのレシピ"
+			Tooltip: ""
+		}
+		WallCameraRecipe: {
+			Tooltip: "カメラの作り方を学ぶため"
+			DisplayName: "ウォールカメラのレシピ"
+		}
+		EyeCameraRecipe: {
+			Tooltip: "アイカメラの作り方を学ぶため"
+			DisplayName: "アイカメラのレシピ"
+		}
+		EyeCamera: {
+			Tooltip: "下には何がある？"
+			DisplayName: "アイカメラ"
+		}
+		LensCamera: {
+			Tooltip: "'''\n町のNPCをスパイするために\n（使用には特別なキーバインドが必要）\n'''"
+			DisplayName: "レンズカメラ"
+		}
+		Recipe: {
+			Tooltip: "カメラの作り方を学ぶため"
+			DisplayName: "レシピ"
+		}
+		EyeRecipe: {
+			Tooltip: "アイカメラの作り方を学ぶため"
+			DisplayName: "アイレシピ"
+		}
+		Camera: {
+			DisplayName: "カメラ"
+			Tooltip: "'''\n壁に設置してエリアを監視する\n（使用には特別なキーバインドが必要）\n'''"
+		}
+		ZombieCure: {
+			Tooltip: "'''\nこれを使ってゾンビを治療し、村人に変える\nその後、彼/彼女はあなたの町に引っ越してくる\n'''"
+			DisplayName: "ゾンビ治療薬"
+		}
+		SkinShuffle: {
+			Tooltip: "スキンをシャッフルする"
+			DisplayName: "スキンシャッフル"
+		}
+		RainWand: {
+			Tooltip: "雨のオン/オフを切り替えられる魔法の杖"
+			DisplayName: "レインワンド"
+		}
+	}
+	NPCs: {
+		Protector: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "プロテクター"
+		}
+		Traveler: {
+			DisplayName: "旅人"
+		}
+		Pickpocket: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "スリ"
+		}
+		Cursed: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "呪われし者"
+		}
+		TheCursed: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "こんなに混雑しているのは嫌だ"
+				DislikeCrowded: "こんなに混雑しているのは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "ザ・カースド"
+		}
+		Ronin: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "浪人"
+		}
+		DaughterOfSunTrapped: {
+			DisplayName: "囚われの太陽の娘"
+		}
+		Villager0: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "村人0"
+		}
+		Villager: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "村人"
+		}
+		Gravedigger: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "墓掘り人"
+		}
+		TVGuy: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "テレビ男"
+		}
+		Poacher: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "密猟者"
+		}
+		Archeologist: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "考古学者"
+		}
+		FisherMan: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "漁師"
+		}
+		DaughterOfSun: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "太陽の娘"
+		}
+		Death: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "死神"
+		}
+		Ninja: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "忍者"
+		}
+		RainMan: {
+			DisplayName: "レインマン"
+		}
+		Levy: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "レヴィ"
+		}
+		Creeper: {
+			TownNPCMood: {
+				Princess_LovesNPC: "私は{NPCName}が好き"
+				LikeNPC_Princess: "私は{NPCName}が好き"
+				HateNPC: "私は{NPCName}が嫌いだ"
+				DislikeNPC: "私は{NPCName}が好かない"
+				LikeNPC: "私は{NPCName}が好きだ"
+				LoveNPC: "私は{NPCName}が大好きだ"
+				DislikeBiome: "私は{BiomeName}が好かない"
+				LikeBiome: "私は{BiomeName}が好きだ"
+				HateCrowded: "この人混みは嫌いだ"
+				DislikeCrowded: "この人混みは好かない"
+				LoveSpace: "こんなに広いスペースがあるのは大好きだ"
+				FarFromHome: "家から遠すぎる"
+				NoHome: "家がないのは嫌だ"
+				Content: "私は満足だ"
+			}
+			DisplayName: "クリーパー"
+		}
+		ExampleBoneMerchant: {
+			DisplayName: "サンプルボーンマーチャント"
+		}
+	}
+}

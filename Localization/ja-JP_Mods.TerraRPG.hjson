@@ -1,0 +1,302 @@
+Configs: {
+	TerraSConfig: {
+		DisplayName: TerraRPG経験値設定
+	}
+}
+
+ScopeVisionesOFF: スコープモードOFF！
+
+ScopeVisionesON: スコープモードON！
+
+AB3OUT: 第三アビリティ終了！
+AB2OUT: 第二アビリティ終了！
+AB1OUT: 第一アビリティ終了！
+
+AB3READY: 第三アビリティ準備完了！
+AB2READY: 第二アビリティ準備完了！
+AB1READY: 第一アビリティ準備完了！
+
+AB3ON: 第三アビリティ発動！
+AB2ON: 第二アビリティ発動！
+AB1ON: 第一アビリティ発動！
+
+Insta: 瞬時
+
+TSK3: スキル3:
+SSK2: スキル2:
+FSK1: スキル1:
+
+NextXP: 次のレベルまで:
+ActualXP: 現在のXP:
+
+Secs: 秒
+
+5Minute: 5分
+3Minute: 3分
+1Minute: 1分
+
+Cooldown: クールダウン:
+Duration: 持続時間:
+ClasseLevel: クラスレベル:
+
+Buffs: {
+	WarrriorConfuseEnemy: {
+		Description: Mods.TerraRPG.Buffs.WarrriorConfuseEnemy.Description
+		DisplayName: ウォリアーの敵混乱
+	}
+
+	WarrriorStopEnemy: {
+		Description: Mods.TerraRPG.Buffs.WarrriorStopEnemy.Description
+		DisplayName: ウォリアーの敵停止
+	}
+
+	WarriorHitDebuff: {
+		Description: Mods.TerraRPG.Buffs.WarriorHitDebuff.Description
+		DisplayName: ウォリアーのヒットデバフ
+	}
+
+	XPFixed: {
+		Description: 超高速
+		DisplayName: XP固定
+	}
+
+	Skil03CoolDownDeBuff: {
+		Description: 第三アビリティは使用できない
+		DisplayName: 第三アビリティクールダウンデバフ
+	}
+
+	Skil02CoolDownDeBuff: {
+		Description: 第二アビリティは使用できない
+		DisplayName: 第二アビリティクールダウンデバフ
+	}
+
+	Skil01CoolDownDeBuff: {
+		Description: 第一アビリティは使用できない
+		DisplayName: 第一アビリティクールダウンデバフ
+	}
+}
+
+Config: {
+	XPBase: {
+		Tooltip:
+			'''
+			必要となる基本XPを定義する
+			(デフォルト: 150)
+			'''
+		Label: 基本XP
+	}
+}
+
+BarbarianEmblemRPG: {
+	AB3: 失われたライフ1%ごとにダメージカットが1%増加、合計
+	AB2: 攻撃速度が上昇
+	AB11: 、落下ダメージ無効
+	AB1: ジャンプ力、落下速度、移動速度が上昇
+	-50Endu: 被ダメージが50%増加する
+	MoreHitSec: 被弾時、全てのアビリティの持続時間が0.5秒延長される
+	LifeRegen2: /秒
+	LifeRegen: ライフ自然回復が増進
+	MeleeDamage: 近接武器のダメージが増加
+	MaxLife: 最大ライフが増加
+}
+
+PaladinEmblemRPG: {
+	LifeFull: ライフが満タン
+	NoMana: マナが足りない！
+	AB3: 最大マナを全て消費して最大ライフを2倍にし、マナ回復量を5倍にする
+	AB22: を防御力に変換
+	AB2: 現在のマナを全て
+	AB11: 現在のマナに基づいて
+	AB1: ライフを瞬時に回復
+	LowManaRegen: マナ回復が遅すぎる
+	Endurance: ダメージカット率が上昇
+	DefMag: 最大マナに基づいて防御力が増加
+	Melee+Magic: 近接と魔法ダメージが増加
+	MaxMana: 最大マナが増加
+}
+
+BloodMageEmblemRPG: {
+	AB3: 最大ライフが上昇
+	AB222: マナ/秒を消費して
+	AB22: ライフを回復
+	AB2: 消費を開始
+	AB1: 敵を倒した際の回復効果が2倍になる、効果時間
+	-20Life: 最大ライフが20%減少
+	MaxMana: 最大マナが増加
+	MagicDamage: 最大ライフ10ごとに魔法ダメージが1%増加、合計+
+	BloodHeal2: %回復する
+	BloodHeal: 魔法で倒した敵の最大ライフに基づいて
+}
+
+NinjaEmblemRPG: {
+	AB3: 近接と投擲ダメージ、クリティカル率が上昇
+	AB2: 透明になり、敵がほとんど近寄らなくなる
+	AB1: 煙幕に包まれ、マウスカーソルの位置に出現する
+	DefHalf: 防御力が半減する
+	AtkCrit++: %のクリティカル率
+	AtkCrit+: 近接と投擲ダメージに+
+	Move+AtkSPeed: 移動速度と攻撃速度が上昇
+	Dash: ダッシュが可能になり、レベルが上がるとクールダウンが短縮される
+}
+
+MageEmblemRPG: {
+	AB3: 5秒ごとに次の魔法ダメージが10倍になる
+	AB22: マナ回復
+	AB2: 敵を倒すごとに+
+	AB111: ライフを回復
+	AB11: の追加マナが消費され
+	AB1: マナ消費時、+
+	-25Life: 近接を除く他の武器はダメージを与えない
+	ManaMax: 最大マナが増加
+	ManaCost: 防御力が増加
+	ManaDelay: レベルが上がるとマナ回復の遅延が減少する
+	MagicDamage: 近接ダメージが増加
+}
+
+WarriorEmblemRPG: {
+	AB3: 被弾ごとに近接ダメージ+10%、与ダメージごとに近接ダメージ+0.5%
+	AB22: 10秒ごと
+	AB2: 攻撃した敵を5秒間混乱させ、防御力を減少させる
+	AB1: 攻撃した敵が10秒間麻痺する。この効果は一度に一体にしか適用できない
+	-25Life: 最大ライフが25%減少
+	DontDamage: 近接を除く他の武器はダメージを与えない
+	Life+: 最大ライフが増加
+	Defense+: 防御力が増加
+	MeleeDamage: 近接ダメージが増加
+}
+
+SummonerEmblemRPG: {
+	AB33: のライフ/秒 回復
+	AB3: 召喚中のミニオン数に応じて+
+	AB22: 追加の一時的なミニオン
+	AB2: あなたは+
+	AB1: 武器のオートスイングが可能になり、鞭の攻撃範囲と攻撃速度が上昇
+	-25Life: 最大ライフが25%減少
+	MaxMana: 最大マナが増加
+	WhipRange: 鞭の攻撃範囲が増加
+	SummonDamage: 召喚ダメージが増加
+	MaxMinion: 最大ミニオン数が増加
+}
+
+ShooterEmblemRPG: {
+	AB33: %上昇するが、その場から動けなくなる
+	AB3: 遠距離攻撃の速度が
+	AB2: 弾薬を消費する確率が大幅に減少する
+	AB1: 1秒ごとに弾丸がターゲットを短時間凍結させる
+	-15Endurance: 被ダメージが15%増加する
+	ScopeVision: 右クリックでスコープモードになる（下3回クリックで有効化/無効化）
+	BulletDamage: 弾丸を使用する武器のダメージが増加
+	20Bullet: 20%の確率で弾薬を消費しない
+	Damage+: 遠距離ダメージが増加
+}
+
+TankEmblemRPG: {
+	AB3: 無敵になる
+	AB22: のライフ/秒
+	AB2: 回復するために50%遅くなる
+	AB1: 強力なイバラの力を得て、レベルごとにダメージが増加する
+	%MDef: %の最大防御力
+	And&: そして増加
+	Def+: 防御力が増加
+	MoveSp-50%: 移動速度が50%減少
+	DamageReduc: ダメージカット率が上昇
+	MaxHP+: 最大ライフが増加
+	KnockImu: ノックバック無効
+}
+
+Items: {
+	ADMIN_POTION: {
+		Tooltip: ""
+		DisplayName: A D M I N ポーション
+	}
+
+	FixedXPPotion2: {
+		Tooltip: ""
+		DisplayName: 固定XPポーション2
+	}
+
+	FixedXPPotion: {
+		Tooltip: ""
+		DisplayName: 固定XPポーション
+	}
+
+	StartBag: {
+		Tooltip: ""
+		DisplayName: スタートバッグ
+	}
+
+	WitchEmblemRPG: {
+		Tooltip: ""
+		DisplayName: ウィッチエンブレム
+	}
+
+	WarriorEmblemRPG: {
+		Tooltip: ""
+		DisplayName: ウォリアーエンブレム
+	}
+
+	TankEmblemRPG: {
+		Tooltip: ""
+		DisplayName: タンクエンブレム
+	}
+
+	SummonerEmblemRPG: {
+		Tooltip: ""
+		DisplayName: サモナーエンブレム
+	}
+
+	ShooterEmblemRPG: {
+		Tooltip: ""
+		DisplayName: シューターエンブレム
+	}
+
+	PapyrusStatus: {
+		Tooltip: ""
+		DisplayName: ステータスのパピルス
+	}
+
+	PaladinEmblemRPG: {
+		Tooltip: ""
+		DisplayName: パラディンエンブレム
+	}
+
+	NinjaEmblemRPG: {
+		Tooltip: ""
+		DisplayName: ニンジャエンブレム
+	}
+
+	MageEmblemRPG: {
+		Tooltip: ""
+		DisplayName: メイジエンブレム
+	}
+
+	BloodMageEmblemRPG: {
+		Tooltip: ""
+		DisplayName: ブラッドメイジエンブレム
+	}
+
+	BarbarianEmblemRPG: {
+		Tooltip: ""
+		DisplayName: バーバリアンエンブレム
+	}
+}
+
+Keybinds: {
+	"Third Ability": {
+		" Not avaiable yet": {
+			DisplayName: 第三アビリティ。
+		}
+	}
+
+	"Second Ability": {
+		" Not avaiable yet": {
+			DisplayName: 第二アビリティ。
+		}
+	}
+
+	"First Ability": {
+		" Not avaiable yet": {
+			DisplayName: 第一アビリティ。
+		}
+	}
+}

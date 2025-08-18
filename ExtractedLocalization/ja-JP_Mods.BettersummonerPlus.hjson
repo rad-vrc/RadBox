@@ -1,0 +1,648 @@
+-Items: {
+	FlinxFurTophat: {
+		DisplayName: Flinx Fur Tophat
+		Tooltip: Increases Summon Damage by 3%
+	}
+
+	EYEWhip: {
+		DisplayName: Gaze Whip
+		Tooltip:
+			'''
+			6 Summon Tag Damage
+			Your minions focus fire on tagged enemies
+			Summons Eye Servants on hit
+			"All-seeing Gaze"
+			'''
+	}
+
+	EYEW: {
+		DisplayName: Floating Eye Laser Wand
+		Tooltip:
+			'''
+			Summons a floating eye that fires laser blasts
+			Does not consume a minion slot
+			Only one eye can exist at a time
+			"Good grief, look at that eye!"
+			'''
+	}
+
+	Sling: {
+		DisplayName: Sling Whip
+		Tooltip:
+			'''
+			2 Summon Tag Damage
+			Your minions focus fire on tagged enemies
+			Does not stack with other Sling Whip tag damage
+			"Simple yet effective"
+			'''
+	}
+
+	FunnelLence: {
+		DisplayName: Plasma Funnel Prism
+		Tooltip:
+			'''
+			Summons a Plasma Cannon to fight for you!
+			Very low chance to critically strike
+			"Malfunctions may occur on first summon"
+			'''
+	}
+
+	CobwebSling: {
+		DisplayName: Cobweb Sling
+		Tooltip:
+			'''
+			2 Summon Tag Damage
+			Your minions focus fire on tagged enemies
+			Does not stack with other Sling Whip tag damage
+			"Entangled in webs!"
+			'''
+	}
+
+	SpiderHelmet: {
+		Tooltip: Increases Summon Damage by 5%
+		DisplayName: Spider Helmet
+	}
+
+	ArchDemonScythe: {
+		DisplayName: Arch Demon Scythe
+		Tooltip:
+			'''
+			Summons a Greater Demon to fight for you
+			"A powerful and malevolent soul bound within"
+			'''
+	}
+
+	SoulBoneDragonStaff: {
+		DisplayName: Soul Bone Dragon Staff
+		Tooltip:
+			'''
+			Summons a Soul Dragon to fight for you
+			"Ancient pterosaur fossil"
+			'''
+	}
+
+	PossessedMagicQuiver: {
+		DisplayName: Possessed Magic Quiver
+		Tooltip:
+			'''
+			Fires a magical arrow every 2.5 seconds dealing summon damage
+			Hidden accessory slot can pause its attacks
+			"Exported then imported"
+			'''
+	}
+
+	HallowedAmulet: {
+		DisplayName: Hallowed Amulet
+		Tooltip:
+			'''
+			+30% Whip Range
+			+12% Whip Speed
+			Enables auto-fire
+			"Never gonna give you up"
+			'''
+	}
+
+	Icew: {
+		DisplayName: Ice Spirit Wand
+		Tooltip:
+			'''
+			Summons an Ice Spirit to fight for you
+			"This one's a cold one"
+			'''
+	}
+
+	SoulofDemon: {
+		Tooltip: Essence of the Archdemon
+		DisplayName: Soul of Demon
+	}
+
+	PlatinumMagicKnife: {
+		DisplayName: Platinum Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	GlodMagicKnife: {
+		DisplayName: Gold Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	TungstenMagicKnife: {
+		DisplayName: Tungsten Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	LeadMagicKnife: {
+		DisplayName: Lead Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	TinMagicKnife: {
+		DisplayName: Tin Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	SpikedBallw: {
+		DisplayName: Spiked Ball
+		Tooltip: Summons a spiked ball to protect you
+	}
+
+	SilverMagicKnife: {
+		DisplayName: Silver Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	MechanicalNecklace: {
+		DisplayName: Mechanical Necklace
+		Tooltip:
+			'''
+			+15% Summon Damage
+			+1 Max Minion Slot
+			'''
+	}
+
+	CopperMagicKnife: {
+		DisplayName: Copper Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	IronMagicKnife: {
+		DisplayName: Iron Magic Knife
+		Tooltip: Summons magical blades to protect you
+	}
+
+	SoulofDemonBottle: {
+		DisplayName: Soul of Demon Bottle
+		Tooltip: ""
+	}
+
+	BettersummonerPlusTitleMusicBox: {
+		Tooltip: ""
+		DisplayName: Bettersummoner Plus Title Music Box
+	}
+
+	BloodMoonW: {
+		DisplayName: Blood Moon Orb
+		Tooltip:
+			'''
+			Summons the Blood Moon, providing:
+			-50% Summon Damage
+			7.5% Lifesteal for minions and sentries
+			Max 25 life stolen per second
+			"Blood rains from above"
+			'''
+	}
+
+	CompletionBook: {
+		DisplayName: Completion Book
+		Tooltip:
+			'''
+			Permanently increases the minion limit by one
+			Congratulations on completing the original Terraria
+			[c/00fbc8:"Finally Completed"]
+			'''
+	}
+}
+
+Buffs: {
+	BlandWhipBuff: {
+		DisplayName: ブランドウィップバフ
+		Description: 鞭の攻撃速度を10%上昇させる
+	}
+
+	EYEWhipDebuff: {
+		DisplayName: ゲイズウィップデバフ
+		Description: 召喚タグダメージを増加させる
+	}
+
+	EYEWhipDebuff2: {
+		DisplayName: ゲイズウィップデバフ
+		Description: 召喚タグダメージを増加させる
+	}
+
+	SlingDebuff: {
+		DisplayName: スリングウィップデバフ
+		Description: 召喚タグダメージを増加させる
+	}
+
+	FunnelBuff: {
+		DisplayName: プラズマファンネル
+		Description: プラズマキャノンがあなたのために戦う！
+	}
+
+	ArchDemonBuff: {
+		Description: 古代のグレーターデーモンがあなたを守る！
+		DisplayName: グレーターデーモン
+	}
+
+	SoulBonesDragonBuff: {
+		DisplayName: ソウルボーンドラゴン
+		Description: ソウルボーンドラゴンがあなたのために戦う！
+	}
+
+	IceBuff: {
+		DisplayName: アイススピリット
+		Description: アイススピリットがあなたのために戦う
+	}
+
+	PlatinumMagicKnifeBuff: {
+		DisplayName: プラチナのマジックブレード
+		Description: プラチナの魔法の刃があなたを囲んで守る
+	}
+
+	GlodMagicKnifeBuff: {
+		DisplayName: 金のマジックブレード
+		Description: ゴールドの魔法の刃があなたを囲んで守る
+	}
+
+	TungstenMagicKnifeBuff: {
+		DisplayName: タングステンのマジックブレード
+		Description: タングステンの魔法の刃があなたを囲んで守る
+	}
+
+	LeadMagicKnifeBuff: {
+		DisplayName: 鉛のマジックブレード
+		Description: 鉛の魔法の刃があなたを囲んで守る
+	}
+
+	TinMagicKnifeBuff: {
+		DisplayName: 錫のマジックブレード
+		Description: 錫の魔法の刃があなたを囲んで守る
+	}
+
+	SpikedBallBuff: {
+		DisplayName: スパイクボール
+		Description: スパイクボールがあなたを囲んで守る
+	}
+
+	SilverMagicKnifeBuff: {
+		DisplayName: 銀のマジックブレード
+		Description: 銀の魔法の刃があなたを囲んで守る
+	}
+
+	EYEBuff: {
+		DisplayName: 浮遊する目のレーザー
+		Description: 浮遊する目が敵を見つめ、レーザーを発射してあなたを守る
+	}
+
+	CopperMagicKnifeBuff: {
+		DisplayName: 銅のマジックブレード
+		Description: 銅の魔法の刃があなたを囲んで守る
+	}
+
+	IronMagicKnifeBuff: {
+		DisplayName: 鉄のマジックブレード
+		Description: 鉄の魔法の刃があなたを囲んで守る
+	}
+
+	BloodMoonBuff: {
+		DisplayName: ブラッドムーン
+		Description:
+			'''
+			-50% 召喚ダメージ
+			ミニオンとセントリーに7.5%のライフ吸収
+			'''
+	}
+
+	CrystalWhipDebuff: {
+		DisplayName: クリスタルウィップデバフ
+		Description: Mods.BettersummonerPlus.Buffs.CrystalWhipDebuff.Description
+	}
+}
+
+Projectiles: {
+	ArchDemon: {
+		DisplayName: グレーターデーモン
+	}
+
+	ArchDemonProjectile: {
+		DisplayName: デーモンハリケーン
+	}
+
+	CobwebSlingProjectile: {
+		DisplayName: クモの巣スリングの弾
+	}
+
+	CopperMagicKnifeMinion: {
+		DisplayName: カッパーマジックブレード
+	}
+
+	EYE: {
+		DisplayName: 浮遊する目のレーザー
+	}
+
+	EYEWhipProjectile: {
+		DisplayName: ゲイズウィップの弾
+	}
+
+	FunnelMinion: {
+		DisplayName: プラズマファンネル
+	}
+
+	FunnelProjectile: {
+		DisplayName: プラズマビーム
+	}
+
+	GlodMagicKnifeMinion: {
+		DisplayName: ゴールドマジックブレード
+	}
+
+	IceMinion: {
+		DisplayName: アイススピリット
+	}
+
+	IceProjectile: {
+		DisplayName: 氷の破片
+	}
+
+	IceProjectile2: {
+		DisplayName: 大きな氷の破片
+	}
+
+	IronMagicKnifeMinion: {
+		DisplayName: アイアンマジックブレード
+	}
+
+	LeadMagicKnifeMinion: {
+		DisplayName: リードマジックブレード
+	}
+
+	MagicBolt: {
+		DisplayName: マジックボルト
+	}
+
+	MyHomingProjectile: {
+		DisplayName: ゲイズウィップの弾 2
+	}
+
+	PlatinumMagicKnifeMinion: {
+		DisplayName: プラチナマジックブレード
+	}
+
+	SilverMagicKnifeMinion: {
+		DisplayName: シルバーマジックブレード
+	}
+
+	SlingProjectile: {
+		DisplayName: スリングウィップの弾
+	}
+
+	SoulBoneDragonMinion: {
+		DisplayName: ソウルボーンドラゴン
+	}
+
+	SoulProjectile: {
+		DisplayName: ソウルプロジェクタイル
+	}
+
+	SpikedBall: {
+		DisplayName: スパイクボール
+	}
+
+	TinMagicKnifeMinion: {
+		DisplayName: ティンマジックブレード
+	}
+
+	TungstenMagicKnifeMinion: {
+		DisplayName: タングステンマジックブレード
+	}
+
+	BloodMoon: {
+		DisplayName: ブラッドムーン
+	}
+
+	CrystalWhipProjectile: {
+		DisplayName: クリスタルウィップの弾
+	}
+}
+
+Tiles: {
+	SoulofDemonBottleTile: {
+		MapEntry: 悪魔の魂のボトルのタイル
+	}
+
+	BettersummonerPlusTitleMusicBoxTile: {
+		MapEntry: Bettersummoner Plus タイトルミュージックボックスのタイル
+	}
+}
+
+Items: {
+	FlinxFurTophat: {
+		DisplayName: フリンクスの毛皮のトップハット
+		Tooltip: 召喚ダメージを3%増加させる
+	}
+
+	EYEWhip: {
+		DisplayName: ゲイズウィップ
+		Tooltip:
+			'''
+			6 召喚タグダメージ
+			ミニオンがタグ付けされた敵を集中攻撃する
+			ヒット時にサーヴァントオブアイを召喚する
+			「すべてを見通す視線」
+			'''
+	}
+
+	EYEW: {
+		DisplayName: 浮遊する目のレーザーワンド
+		Tooltip:
+			'''
+			レーザーブラストを発射する浮遊する目を召喚する
+			ミニオンスロットを消費しない
+			一度に一体の目しか存在できない
+			「やれやれ、あの目を見てみろ！」
+			'''
+	}
+
+	Sling: {
+		DisplayName: スリングウィップ
+		Tooltip:
+			'''
+			2 召喚タグダメージ
+			ミニオンがタグ付けされた敵を集中攻撃する
+			他のスリングウィップのタグダメージとはスタックしない
+			「シンプルだが効果的」
+			'''
+	}
+
+	FunnelLence: {
+		DisplayName: プラズマファンネル・プリズム
+		Tooltip:
+			'''
+			あなたのために戦うプラズマキャノンを召喚する！
+			クリティカル率は非常に低い
+			「最初の召喚時に誤作動が起こるかもしれない」
+			'''
+	}
+
+	CobwebSling: {
+		DisplayName: クモの巣のスリング
+		Tooltip:
+			'''
+			2 召喚タグダメージ
+			ミニオンがタグ付けされた敵を集中攻撃する
+			他のスリングウィップのタグダメージとはスタックしない
+			「クモの巣に絡みついた！」
+			'''
+	}
+
+	SpiderHelmet: {
+		Tooltip: 召喚ダメージを5%増加させる
+		DisplayName: クモの兜
+	}
+
+	ArchDemonScythe: {
+		DisplayName: アークデーモンサイス
+		Tooltip:
+			'''
+			あなたのために戦うグレーターデーモンを召喚する
+			「強力で邪悪な魂が内に封じられている」
+			'''
+	}
+
+	SoulBoneDragonStaff: {
+		DisplayName: ソウルボーンドラゴンスタッフ
+		Tooltip:
+			'''
+			あなたのために戦うソウルドラゴンを召喚する
+			「古代の翼竜の化石」
+			'''
+	}
+
+	PossessedMagicQuiver: {
+		DisplayName: 憑依された魔法の矢筒
+		Tooltip:
+			'''
+			2.5秒ごとに召喚ダメージを与える魔法の矢を発射する
+			隠されたアクセサリースロットで攻撃を一時停止できる
+			「エクスポートされてからインポートされた」
+			'''
+	}
+
+	HallowedAmulet: {
+		DisplayName: 神聖なお守り
+		Tooltip:
+			'''
+			+30% 鞭の射程
+			+12% 鞭の速度
+			オートファイアを有効にする
+			「君を決して諦めない」
+			'''
+	}
+
+	Icew: {
+		DisplayName: アイススピリットの杖
+		Tooltip:
+			'''
+			あなたのために戦うアイススピリットを召喚する
+			「これは冷たいやつだ」
+			'''
+	}
+
+	SoulofDemon: {
+		Tooltip: 「アークデーモンのエッセンス」
+		DisplayName: 悪魔のソウル
+	}
+
+	PlatinumMagicKnife: {
+		DisplayName: プラチナのマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	GlodMagicKnife: {
+		DisplayName: 金のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	TungstenMagicKnife: {
+		DisplayName: タングステンのマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	LeadMagicKnife: {
+		DisplayName: 鉛のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	TinMagicKnife: {
+		DisplayName: 錫のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	SpikedBallw: {
+		DisplayName: スパイクボール
+		Tooltip: あなたを守るスパイクボールを召喚する
+	}
+
+	SilverMagicKnife: {
+		DisplayName: 銀のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	MechanicalNecklace: {
+		DisplayName: メカニカルネックレス
+		Tooltip:
+			'''
+			+15% 召喚ダメージ
+			+1 最大ミニオンスロット
+			'''
+	}
+
+	CopperMagicKnife: {
+		DisplayName: 銅のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	IronMagicKnife: {
+		DisplayName: 鉄のマジックナイフ
+		Tooltip: あなたを守る魔法の刃を召喚する
+	}
+
+	SoulofDemonBottle: {
+		DisplayName: 悪魔のソウル入りの瓶
+		Tooltip: ""
+	}
+
+	BettersummonerPlusTitleMusicBox: {
+		Tooltip: ""
+		DisplayName: Bettersummoner Plus タイトルミュージックボックス
+	}
+
+	BloodMoonW: {
+		DisplayName: ブラッドムーンオーブ
+		Tooltip:
+			'''
+			ブラッドムーンを呼び起こし、以下を提供する：
+			-50% 召喚ダメージ
+			ミニオンとセントリーに7.5%のライフ吸収
+			1秒あたりの最大ライフ吸収は25
+			「血が空から降り注ぐ」
+			'''
+	}
+
+	CompletionBook: {
+		DisplayName: コンプリートブック
+		Tooltip:
+			'''
+			ミニオンの上限を永久に1つ増やす
+			オリジナルのテラリアをクリアしたこと、おめでとう
+			[c/00fbc8:「ついにコンプリート」]
+			'''
+	}
+
+	VoidScroll: {
+		DisplayName: ヴォイドスクロール
+		Tooltip: ""
+	}
+
+	CrystalWhip: {
+		DisplayName: クリスタルウィップ
+		Tooltip:
+			'''
+			8 召喚タグダメージ
+			ミニオンがタグ付けされた敵を集中攻撃する
+			貫通時に10%のダメージ減衰
+			「戦え！」
+			'''
+	}
+}
+

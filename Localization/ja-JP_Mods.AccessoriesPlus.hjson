@@ -1,0 +1,327 @@
+Tooltips: {
+	MountStats: {
+		BoostedMinecart: ブーストされたステータスを持つ
+		FallDamageMult: "落下ダメージ {0}倍"
+		HeightBoost: "高さ {0} {^0:タイル;タイル}"
+		AutoJump: 自動ジャンプが可能
+		JumpHeight: "ジャンプの高さ {0} {^0:タイル;タイル}"
+		JumpSpeed: "ジャンプ速度 {0} mph"
+		Acceleration: "加速度 {0} mph/s"
+		SwimSpeed: "水泳速度 {0} mph"
+		RunSpeed: "走行速度 {0} mph"
+		CanHover: ホバリング可能
+		FlightTime: "飛行時間 {0} {^0:秒;秒}"
+	}
+
+	LightPetStats: {
+		ExposesEnemies: 敵を可視化
+		ExposesTreasure: 宝物を可視化
+		Controllable: 制御可能
+		BrightnessUnknown: 不明な明るさ
+		Brightness: "明るさ {0}%"
+	}
+
+	HookStats: {
+		PullSpeedUnknown: 不明な引き寄せ速度
+		PullSpeed: "引き寄せ速度 {0} mph"
+		RetreatSpeedUnknown: 不明な巻き戻し速度
+		RetreatSpeed: "巻き戻し速度 {0} mph"
+		ShootSpeedUnknown: 不明な射出速度
+		ShootSpeed: "射出速度 {0} mph"
+		LatchingUnknown: 不明なフックのかかり方
+		LatchingSimultaneous: フックの同時射出
+		LatchingIndividual: フックの個別射出
+		LatchingSingle: 単一のフック
+		NumHooksUnknown: 不明なフック数
+		NumHooks: "フック数 {0} {^0:本;本}"
+		ReachUnknown: 不明な長さ
+		Reach: "長さ {0} {^0:タイル;タイル}"
+	}
+
+	WingStats: {
+		HAccelerationMultHover: "ホバリング中の水平加速度 {0}倍"
+		MaxHSpeedHoverUnknown: ホバリング中の水平速度上限なし
+		MaxHSpeedHover: "ホバリング中の最大水平速度 {0} mph"
+		CanHover: ホバリング可能
+		HAccelerationMult: "水平加速度 {0}倍"
+		MaxHSpeedUnknown: 水平速度上限なし
+		MaxHSpeed: "最大水平速度 {0} mph"
+		FlightHeightUnknown: 不明な飛行高度
+		FlightHeight: "飛行高度 {0} {^0:タイル;タイル}"
+		FlightTime: "飛行時間 {0} {^0:秒;秒}"
+		NegatesFallDamage: 落下ダメージ無効化
+	}
+
+	Radar0: 周囲の敵や危険を検知する
+	BundleOfBalloons0: 六段ジャンプが可能
+	AnkhShield2: 敵に狙われやすくなる
+	AnkhShield1: ライフが25%以上の時にチームプレイヤーの被ダメージを25%肩代わりする
+	AnkhShield0: ライフが50%以下の際、周囲に防壁を展開してダメージを25％軽減
+	TerrasparkBoots1: 落下耐性を増加
+	TerrasparkBoots0: ジャンプ速度が上昇し、自動ジャンプが可能となる
+	HandOfCreation1: 道具の届く範囲が4増加
+	HandOfCreation0: ブロックの設置範囲が5増加
+}
+
+RecipeGroups: {
+	SharkronBalloons: シャークロンのバルーン各種
+	FartBalloons: おならの風船各種
+	Cobalt: コバルトのインゴット各種
+	Gold: 金のインゴット各種
+	Silver: 銀のインゴット各種
+	Copper: 銅のインゴット各種
+}
+
+AccessorySlots: {
+	BootSlot: {
+		VanityTooltip: 衣装 靴
+		FunctionalTooltip: 靴
+	}
+
+	ShieldSlot: {
+		VanityTooltip: 衣装 盾
+		FunctionalTooltip: 盾
+	}
+
+	WingSlot: {
+		VanityTooltip: 衣装 翼
+		FunctionalTooltip: 翼
+	}
+}
+
+InfoDisplays: {
+	GemTree: 宝石の木
+	TilesDistance: "距離 {0} {^0:タイル;タイル}"
+	FoundTreasure: "宝物発見: {0}、距離 {1} {^1:タイル;タイル}"
+	FoundRareCreature: "レアな生物発見: {0}、距離 {1} {^1:タイル;タイル}"
+}
+
+Configs: {
+	PDAConfig: {
+		NPCBlacklist: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器で特定の生物の追跡を無効にする"
+			Label: NPCブラックリスト
+		}
+
+		NPCWhitelist: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器で追加の生物を追跡できるようにする"
+			Label: NPCホワイトリスト
+		}
+
+		UseNPCBlacklist: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器のNPCブラックリストを有効にするかどうか"
+			Label: NPCブラックリストを使用
+		}
+
+		UseNPCWhitelist: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器のNPCホワイトリストを有効にするかどうか"
+			Label: NPCホワイトリストを使用
+		}
+
+		LifeformAnalyzerHighlight: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器でレアな生物をハイライト表示する"
+			Label: レアな生物をハイライト
+		}
+
+		LifeformAnalyzerArrows: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器で近くのレアな生物を指す矢印を表示する"
+			Label: レアな生物への矢印
+		}
+
+		LifeformAnalyzerDistanceInfo: {
+			Tooltip: "[i:LifeformAnalyzer]生命体分析器で距離情報を表示する"
+			Label: 距離情報
+		}
+
+		TrackHellstone: {
+			Tooltip: "[i:MetalDetector]金属探知機でヘルストーンを追跡できるようにする"
+			Label: ヘルストーンを追跡
+		}
+
+		TrackGems: {
+			Tooltip: "[i:MetalDetector]金属探知機で宝石を追跡できるようにする"
+			Label: 宝石を追跡
+		}
+
+		MetalDetectorHighlight: {
+			Tooltip: "[i:MetalDetector]金属探知機で宝箱をハイライト表示する"
+			Label: 宝箱をハイライト
+		}
+
+		MetalDetectorArrows: {
+			Tooltip: "[i:MetalDetector]金属探知機で近くの宝箱を指す矢印を表示する"
+			Label: 宝箱への矢印
+		}
+
+		MetalDetectorDistanceInfo: {
+			Tooltip: "[i:MetalDetector]金属探知機で距離情報を表示する"
+			Label: 距離情報
+		}
+
+		RadarHighlightDanger: {
+			Tooltip: "[i:Radar]レーダーで[i:TrapsightPotion]危険察知ポーションのように危険なタイルをハイライト表示する"
+			Label: 危険なタイルをハイライト
+		}
+
+		RadarHighlightEnemies: {
+			Tooltip: "[i:Radar]レーダーで[i:HunterPotion]狩人のポーションのように敵をハイライト表示する"
+			Label: 敵をハイライト
+		}
+
+		Headers: {
+			LifeformAnalyzer: "[i:LifeformAnalyzer] 生命体分析器"
+			Radar: "[i:Radar] レーダー"
+			MetalDetector: "[i:MetalDetector] 金属探知機"
+		}
+
+		Tooltip: ""
+	}
+
+	Config: {
+		ObtainabilityPresents: {
+			Tooltip:
+				'''
+				プレゼントから[i:HandWarmer]手袋と[i:Toolbox]ツールボックスを削除する
+				カイロのレシピを追加する
+				メカニックがツールボックスを販売するようになる
+				'''
+			Label: "[i:Present] プレゼントからアクセサリーを削除"
+		}
+
+		ObtainabilityTravellingMerchant: {
+			Tooltip: "旅商人がアクセサリー専用の追加スロットを必ず持つようになる"
+			Label: "[i:PeddlersHat] 旅商人のアクセサリーの一般化"
+		}
+
+		ObtainabilityNPCDrops: {
+			Tooltip: "全ての[i:AnkhCharm]聖十字のお守り系アクセサリーの基本ドロップ率を3倍にする"
+			Label: "[i:ArmorPolish] 聖十字のお守り系アクセサリーのドロップ率向上"
+		}
+
+		ObtainabilityShimmer: {
+			Tooltip:
+				'''
+				以下のアクセサリーをシマーで相互に変換できるようになる
+				[i:BrickLayer]レンガ設置器、[i:ExtendoGrip]設置範囲拡大、[i:PaintSprayer]ペイントスプレー、[i:PortableCementMixer]携帯コンクリートミキサー
+				[i:Stopwatch]ストップウォッチ、[i:LifeformAnalyzer]生命体分析器、[i:DPSMeter]DPS測定器
+				[i:ShinyRedBalloon]輝く赤い風船、[i:BalloonPufferfish]フグの風船
+				[i:PutridScent]腐臭の袋、[i:FleshKnuckles]肉のナックル
+				[i:BandofStarpower]星の腕輪、[i:PanicNecklace]パニックネックレス
+				[i:WormScarf]ワームのスカーフ、[i:BrainOfConfusion]混乱の脳みそ
+				'''
+			Label: "[i:BottomlessShimmerBucket] アクセサリーのシマー変換"
+		}
+
+		ObtainabilityRecipes: {
+			Tooltip:
+				'''
+				様々なアクセサリーのレシピを追加する
+				レシピはRecipe Browser Modで確認してください（作者が怠惰なため）
+				'''
+			Label: "[i:HermesBoots] アクセサリーのレシピ追加"
+		}
+
+		StatsMounts: {
+			Tooltip: "マウントのステータス表示を有効にする"
+			Label: "[i:DrillContainmentUnit] マウントのステータス表示"
+		}
+
+		StatsMinecarts: {
+			Tooltip: "トロッコのステータス表示を有効にする"
+			Label: "[i:MeowmereMinecart] トロッコのステータス表示"
+		}
+
+		StatsLightPets: {
+			Tooltip: "ライトペットのステータス表示を有効にする"
+			Label: "[i:SuspiciousLookingTentacle] ライトペットのステータス表示"
+		}
+
+		StatsHooks: {
+			Tooltip: "フックのステータス表示を有効にする"
+			Label: "[i:LunarHook] フックのステータス表示"
+		}
+
+		StatsWings: {
+			Tooltip: "翼のステータス表示を有効にする"
+			Label: "[i:WingsSolar] 翼のステータス"
+		}
+
+		SlotForceBoots: {
+			Tooltip: "靴を靴スロットに強制的に装備させる"
+			Label: "[i:HermesBoots] 靴スロットへの強制装備"
+		}
+
+		SlotForceShields: {
+			Tooltip: "盾を盾スロットに強制的に装備させる"
+			Label: "[i:ObsidianShield] 盾スロットへの強制装備"
+		}
+
+		SlotForceWings: {
+			Tooltip: "翼を翼スロットに強制的に装備させる"
+			Label: "[i:CreativeWings] 翼スロットへの強制装備"
+		}
+
+		SlotBoots: {
+			Tooltip: "靴専用のアクセサリーロットを有効にする"
+			Label: "[i:TerrasparkBoots] 靴スロット"
+		}
+
+		SlotShield: {
+			Tooltip: "盾専用のアクセサリースロットを有効にする"
+			Label: "[i:AnkhShield] 盾スロット"
+		}
+
+		SlotWings: {
+			Tooltip: "翼専用のアクセサリースロットを有効にする"
+			Label: "[i:WingsSolar] 翼スロット"
+		}
+
+		SlotMoonlord: {
+			Tooltip: "ムーンロード討伐後に追加のアクセサリースロットを有効にする"
+			Label: "[i:BossMaskMoonlord] ムーンロード討伐後のアクセサリースロット"
+		}
+
+		ImprovedPDA: {
+			Tooltip: ""
+			Label: "[i:PDA] PDAの改良"
+		}
+
+		ImprovedHandOfCreation: {
+			Tooltip: "建築のポーションの効果に[i:Toolbox]ツールボックスと[i:Toolbelt]ツールベルトの効果を含める"
+			Label: "[i:HandOfCreation] 建築のポーションの改良"
+		}
+
+		ImprovedHorseshoeBundle: {
+			Tooltip: "風船の束に[i:SharkronBalloon]シャークロンの風船と[i:FartInABalloon]おならの風船の効果を含める"
+			Label: "[i:HorseshoeBundle] 蹄鉄と風船の束の改良"
+		}
+
+		ImprovedAnkhShield: {
+			Tooltip:
+				'''
+				聖十字の盾に[i:HeroShield]英雄の盾と[i:FrozenShield]氷結の盾の効果を含める
+				聖十字のお守りに[i:HandWarmer]手袋の効果を含める
+				聖十字の盾の防御力を12に増加させる
+				'''
+			Label: "[i:AnkhShield] 聖十字の盾の改良"
+		}
+
+		ImprovedTerrasparkBoots: {
+			Tooltip: "テラスパークブーツに[i:AmphibianBoots]両生類のブーツの効果を含める"
+			Label: "[i:TerrasparkBoots] テラスパークブーツの改良"
+		}
+
+		Headers: {
+			Obtainability: 入手方法
+			StatTooltips: ステータスツールチップ
+			AccessorySlots: アクセサリースロット
+			ImprovedGrapplingHooks: グラップリングフックの改良
+			ImprovedPets: ペットの改良
+			ImprovedMinecarts: トロッコの改良
+			ImprovedMounts: マウントの改良
+			ImprovedAccessories: アクセサリーの改良
+		}
+
+		DisplayName: 設定
+	}
+}

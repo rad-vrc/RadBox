@@ -1,0 +1,17 @@
+Items: {
+	TerraPistol: {
+		DisplayName: テラピストル
+		Tooltip:
+			'''
+			ホーミングするテラエネルギーブラストを発射する
+			敵を貫通し、2回当たった後に爆発する
+			'''
+	}
+}
+
+Projectiles: {
+	TerraPistolProjectiles: {
+		DisplayName: テラピストル弾
+	}
+}
+

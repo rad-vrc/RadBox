@@ -1,0 +1,32 @@
+{
+	Items: {
+		FloatingConch: {
+			DisplayName: "浮遊の巻き貝"
+			Tooltip: "'''\n耳を澄ますと、鳥の歌が聞こえる\n「頭上に注意」\n'''"
+		}
+		AetherConch: {
+			DisplayName: "エーテルの巻き貝"
+			Tooltip: "'''\n耳を澄ますと、フェイリングの羽ばたきが聞こえる\n「シマーに注意」\n'''"
+		}
+		DeathMirror: {
+			DisplayName: "死の鏡"
+			Tooltip: "鏡を覗き込むと最後の死亡地点に戻る"
+		}
+		TombstonePotion: {
+			DisplayName: "墓石のポーション"
+			Tooltip: "最後の死亡地点にテレポートする"
+		}
+		ChaosMirror: {
+			DisplayName: "混沌の鏡"
+			Tooltip: "鏡を覗き込むとランダムな場所にテレポートする"
+		}
+		HoneyConch: {
+			DisplayName: "蜂蜜の巻き貝"
+			Tooltip: "'''\n耳を澄ますと、蜂蜜の音が聞こえる\n「ハチに注意」\n'''"
+		}
+		MirrorOfReturn: {
+			DisplayName: "逆行の鏡"
+			Tooltip: "'''\n鏡を覗き込むと家にテレポートし、ポータルを生成する\n用事が済んだらポータルを使って戻る\n「何度も往復するのに便利！」\n'''"
+		}
+	}
+}

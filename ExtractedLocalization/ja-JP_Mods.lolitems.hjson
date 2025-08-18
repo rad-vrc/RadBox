@@ -1,0 +1,2941 @@
+WingSlot: {
+	WingsDye: Wings Dye
+	Wings: Wings
+}
+
+Movilityslot: {
+	BootsDye: Boots Dye
+	Boots: Boots
+}
+
+NPCs: {
+	Tendera: {
+		Bestiari: {
+			Desc1: A wise yordle with a keen eye for useful gear, she offers adventurers everything from powerful blades to enchanted trinkets — all with a no-nonsense attitude.
+		}
+
+		Dialogues: {
+			RareDialogue: Don't you see what this means?! The history of this whole place... even the entire history of Runeterra could—! Ah... wait... what was I talking about? …Never mind.
+			CommonDialogue: It’s a shame to have to sell all these artifacts… but I urgently need supplies.
+			StandardDialogue4: Wanna see a trick? Wanna see a weapon? I prepared a speech... uh... wait... where did I put it?
+			StandardDialogue3: The strangest thing about pure ice is that it doesn’t melt. I put a piece in the oven and that &%$#@! stayed solid!
+			StandardDialogue2: I’m still tying up loose ends, but… I fear something terrible happened here a long time ago…
+			StandardDialogue1: If a Chlorophyte sword is already powerful... imagine what a hextech device made entirely of Chlorophyte could do!
+		}
+
+		TownNPCMood: {
+			HateBiome: I hate {BiomeName}.
+			LoveBiome: I love {BiomeName}.
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			DislikeNPC: I don’t like {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I adore {NPCName}.
+			DislikeBiome: I don't like {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: I hate having little space.
+			DislikeCrowded: I don't like having so little space.
+			LoveSpace: I love having so much space.
+			FarFromHome: I'm too far from home.
+			NoHome: I hate not having a home..
+			Content: I am content.
+		}
+
+		DisplayName: Item Vendor
+	}
+}
+
+Configs: {
+	Modconfigclient: {
+		muestrahud: {
+			Tooltip: Enables HUD display
+			Label: Enable HUD
+		}
+
+		DisplayName: League of Items config Client options
+	}
+
+	Modconfigserver: {
+		slotsextra: {
+			Tooltip: This option activates the additional accessory slots for boots and wings.
+			Label: Extra Accessory Slots
+		}
+
+		objetospotenciados: {
+			Tooltip:
+				'''
+				On: Ideal for high-difficulty experiences, PvP, or simply a sense of power (fun).
+				Off: Ideal for a more balanced experience in line with Terraria standards (including Calamity).
+				'''
+			Label: Boosted Items
+		}
+
+		DisplayName: League of Items config Server options
+	}
+}
+
+Projectiles: {
+	Descargatorm_rayo: {
+		DisplayName: Descargatorm_rayo
+	}
+
+	Descargatorm_nube: {
+		DisplayName: Descargatorm_nube
+	}
+
+	Descargatorm_explosion: {
+		DisplayName: Descargatorm_explosion
+	}
+
+	Zakzakproj: {
+		DisplayName: Zakzakproj
+	}
+
+	Voidresproj: {
+		DisplayName: Voidresproj
+	}
+
+	Randuimproj: {
+		DisplayName: Randuimproj
+	}
+
+	Guanteletehielproj: {
+		DisplayName: Guanteletehielproj
+	}
+
+	Cryptoretoproj: {
+		DisplayName: Cryptoretoproj
+	}
+
+	Desesperaproj: {
+		DisplayName: Desesperaproj
+	}
+
+	Zekeproj: {
+		DisplayName: Zekeproj
+	}
+
+	YuumiMinion: {
+		DisplayName: Yuumi Minion
+	}
+
+	Ahriproj: {
+		DisplayName: Ahriproj
+	}
+
+	Statikproj: {
+		DisplayName: Statikproj
+	}
+
+	Hydratiamaproj: {
+		DisplayName: Hydratiamaproj
+	}
+
+	Resplandorproj: {
+		DisplayName: Resplandorproj
+	}
+
+	Latigoferrproj: {
+		DisplayName: Latigoferrproj
+	}
+
+	Hydravorazproj: {
+		DisplayName: Hydravorazproj
+	}
+
+	Hydratitanproj: {
+		DisplayName: Hydratitanproj
+	}
+
+	Hydraprofaproj: {
+		DisplayName: Hydraprofaproj
+	}
+
+	Cortasendaproj: {
+		DisplayName: Cortasendaproj
+	}
+
+	Bebedordesproj: {
+		DisplayName: Bebedordesproj
+	}
+
+	Hydraprofproj: {
+		DisplayName: Hydraprofproj
+	}
+
+	Tiamatproj: {
+		DisplayName: Tiamatproj
+	}
+
+	CachorrofuegoMinion: {
+		DisplayName: Cachorrofuego Minion
+	}
+
+	CachorrodeaireMinion: {
+		DisplayName: Cachorrodeaire Minion
+	}
+
+	CachorropastoMinion: {
+		DisplayName: Cachorropasto Minion
+	}
+
+	Barreraechizos: {
+		DisplayName: Barreraechizos
+	}
+}
+
+Textodeui: {
+	Otra: Shieldt
+	Textoescudo: Shield
+}
+
+Buffs: {
+	Prometidobuff: {
+		Description: Mods.lolitems.Buffs.Prometidobuff.Description
+		DisplayName: Prometidobuff
+	}
+
+	Rompeescubuff: {
+		DisplayName: Serpent's Venom
+		Description: Your shields will be reduced and become more fragile
+	}
+
+	Ultraslowbuff: {
+		Description: Mods.lolitems.Buffs.Ultraslowbuff.Description
+		DisplayName: Ultraslowbuff
+	}
+
+	Shafowbuff: {
+		Description: Mods.lolitems.Buffs.Shafowbuff.Description
+		DisplayName: Shafowbuff
+	}
+
+	Mandatobuff: {
+		Description: Mods.lolitems.Buffs.Mandatobuff.Description
+		DisplayName: Mandatobuff
+	}
+
+	Maldicionbuff: {
+		Description: Mods.lolitems.Buffs.Maldicionbuff.Description
+		DisplayName: Maldicionbuff
+	}
+
+	Lyandribuff: {
+		Description: Mods.lolitems.Buffs.Lyandribuff.Description
+		DisplayName: Lyandribuff
+	}
+
+	Cuchillabuff: {
+		Description: Mods.lolitems.Buffs.Cuchillabuff.Description
+		DisplayName: Cuchillabuff
+	}
+
+	StasisBuff: {
+		Description: You are invulnerable and unable to move
+		DisplayName: Stasis
+	}
+
+	Iceslowbuff: {
+		Description: Mods.lolitems.Buffs.Iceslowbuff.Description
+		DisplayName: Iceslowbuff
+	}
+
+	YuumiBuff: {
+		Description: Yuumi will take care of you
+		DisplayName: Yuumi
+	}
+
+	CachorrofuegoBuff: {
+		Description: The Scorchclaw Pup will fight for you
+		DisplayName: Scorchclaw Pup
+	}
+
+	CachorrodeaireBuff: {
+		Description: The Gustwalker Hatchling will fight for you
+		DisplayName: Gustwalker Hatchling
+	}
+
+	CachorropastoBuff: {
+		Description: The Mosstomper Seedling will fight for you
+		DisplayName: Mosstomper Seedling
+	}
+}
+
+Keybinds: {
+	aunnoslot: Isn't equipped
+	sinasignar: Key Unassigned
+
+	activaslot1: {
+		DisplayName: Slot 1 trigger button
+	}
+
+	activaslot2: {
+		DisplayName: Slot 2 trigger button
+	}
+
+	activaslot3: {
+		DisplayName: Slot 3 trigger button
+	}
+
+	activaslot4: {
+		DisplayName: Slot 4 trigger button
+	}
+
+	activaslot5: {
+		DisplayName: Slot 5 trigger button
+	}
+}
+
+Hud: {
+	Pasivas: {
+		Energyz: Energy Charges
+		Lagrima: Charges of Tear of the Goddess's passive
+		Zhonya: Stasis active is on cooldown
+		Redention: Redemption active is on cooldown
+		Solari: Locket of the Iron Solari active is on cooldown
+		Fajin: Mercurial Scimitar active is on cooldown
+		Randuim: Randuin's Omen active is on cooldown
+		Mikael: Mikael's Blessing active is on cooldown
+		Salvavid: Lifeline Shield passive is on cooldown
+	}
+
+	Stats: {
+		Penmagi: Ignores {0}% of NPCs' vanilla defense or the same amount of magical resistance from the mod against players.
+		Habilcd: Reduces the use time of your magic weapons by {0}%.
+		Resmagi: Reduces magic damage taken from players or from NPC projectile damage by {0}%.
+		Danomag: Increases the flat damage of your magic and summoning weapons.
+		Penfisi: Ignores {0}% of vanilla NPC defense or the same amount of armor from the mod against players.
+		Robovid: Heals for {0}% of the damage dealt with melee or ranged weapons.
+		Armadur: Reduces physical damage taken from players or NPC contact damage by {0}%.
+		Danofis: Increases the flat damage of your melee and ranged weapons by that amount.
+	}
+}
+
+Items: {
+	Notasversion: {
+		Tooltip:
+			'''
+			Thank you very much for downloading the mod!
+			We’d appreciate your support even more with a [c/66AC4D:"Like"] and a
+			[c/FFC83D:Favorite] on the Steam page if you enjoy the content
+			.
+			— This version includes text corrections 
+			    and partial release of the mod’s wiki
+			 
+			You can visit the mod’s wiki at the following link:
+			[c/5BEAEF:https://league-of-items-official.fandom.com/]
+			or through the link available on the mod’s Steam page
+			[c/C9AA62:This item will no longer appear once you remove it]
+			 
+			                 [c/FFC83D:- Have an awesome time! -]
+			'''
+		DisplayName: League of Items!
+	}
+
+	Yuumiitem: {
+		Tooltip: Summons a Yuumi that heals you
+		DisplayName: Book of Thresholds
+	}
+
+	Espadoranu: {
+		Tooltip: ""
+	}
+
+	Espadoranmarchiu: {
+		Tooltip: ""
+	}
+
+	Espalargu: {
+		Tooltip: ""
+	}
+
+	Ahriorbe: {
+		Tooltip: Deals 40 true damage on return, scales with your AP
+		DisplayName: Orb of Deception
+	}
+
+	Aatroxespada: {
+		Aatroxespadaextra:
+			'''
+			[c/C9AA62:Heals for {0}% damage dealt]
+			[c/C9AA62:Increases 0.9% per 100 bonus health]
+			'''
+		Tooltip: ""
+		DisplayName: Aatrox
+	}
+
+	Sortijadoranmarchi: {
+		DisplayName: Withered Doran's Ring
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			'''
+	}
+
+	Espadoranmarchi: {
+		DisplayName: Withered Doran's Blade
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			'''
+	}
+
+	Escudodoranmarchi: {
+		DisplayName: Withered Doran's Shield
+		Tooltip: "[c/78C86B:+{0} maximum life]"
+	}
+
+	Dagastatik: {
+		DisplayName: Statikk Shiv
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit, fires a lightning that seeks out enemies
+			'''
+	}
+
+	Abrazodesera: {
+		DisplayName: Seraph's Embrace
+		AbrazodeseraExtra: Currently grants: {0} bonus AP
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a shield when you're low on health
+			'''
+	}
+
+	Espadaguardian: {
+		DisplayName: Guardian's Blade
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} maximum life]
+			'''
+	}
+
+	Cuernoguardian: {
+		DisplayName: Guardian's Horn
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases life regeneration when damaged
+			'''
+	}
+
+	CachorrofuegoItem: {
+		Tooltip: Summon a Scorchclaw Pup companion
+		DisplayName: Scorchclaw Pup
+	}
+
+	CachorrodeaireItem: {
+		Tooltip: Summon a Gustwalker Hatchling companion
+		DisplayName: Gustwalker Hatchling
+	}
+
+	CachorropastoItem: {
+		Tooltip: Summon a Mosstomper Seedling companion
+		DisplayName: Mosstomper Seedling
+	}
+
+	Bastonsoraka: {
+		Tooltip:
+			'''
+			Uses 40 mana + 10% life
+			heals allies
+			'''
+		DisplayName: Soraka's Staff
+	}
+
+	Abrazodemoniaco: {
+		DisplayName: Demonic Embrace
+		AbrazodemoniacoExtra:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]When you press [{0}]
+			Trade life for movement speed
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			'''
+	}
+
+	Abrecaminos: {
+		DisplayName: Trailblazer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus slow on-hit at max stacks
+			'''
+	}
+
+	Acompananteluden: {
+		DisplayName: Luden's Companion
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Creates a magical explosion (10s CD)
+			'''
+	}
+
+	Agrietador: {
+		DisplayName: Riftmaker
+		AgrietadorExtra: Currently grants: {0} bonus AP
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Damage and omnivamp increases during combat
+			'''
+	}
+
+	Alternadorhex: {
+		DisplayName: Hextech Alternator
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Your next attack inflicts extra damage (40s CD)
+			'''
+	}
+
+	Amanecerplat: {
+		DisplayName: Silvermere Dawn
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} magic resistance]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Removes disabling effects
+			'''
+	}
+
+	Amuletohada: {
+		DisplayName: Faerie Charm
+		Tooltip: "[c/78C86B:+{0}% mana regeneration]"
+	}
+
+	Angelguard: {
+		DisplayName: Guardian Angel
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Revives at 50% health on lethal damage
+			'''
+	}
+
+	Antifazembru: {
+		DisplayName: Haunting Guise
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Damage increases during combat
+			'''
+	}
+
+	Antorchaoscu: {
+		DisplayName: Blackfire Torch
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Burns enemies with a Blackfire
+			'''
+	}
+
+	Aparienciaespirit: {
+		DisplayName: Spirit Visage
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases your shields and healing
+			'''
+	}
+
+	Arcoaxio: {
+		DisplayName: Axiom Arc
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces CD of your activatable items on kill
+			'''
+	}
+
+	Arcoescudoi: {
+		DisplayName: Immortal Shieldbow
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a shield when you're low on health
+			'''
+	}
+
+	Arcorecur: {
+		DisplayName: Recurve Bow
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit, bonus damage
+			'''
+	}
+
+	Armaduralunar: {
+		DisplayName: Winged Moonplate
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% movement speed]
+			'''
+	}
+
+	Armaduratela: {
+		DisplayName: Cloth Armor
+		Tooltip: "[c/78C86B:+{0} armor]"
+	}
+
+	Arrogancia: {
+		DisplayName: Hubris
+		ArroganciaExtra: Currently grants: {0} bonus AD
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]AD granted on enemy kill
+			'''
+	}
+
+	Avanceimplacable: {
+		DisplayName: Forever Forward
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Using the Magic Mirror is faster
+			'''
+	}
+
+	Bacterio: {
+		DisplayName: Phage
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit, grants movement speed
+			'''
+	}
+
+	Baculodeagua: {
+		DisplayName: Staff of Flowing Water
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/78C86B:+{3}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Healing allies grants them temporary AP
+			'''
+	}
+
+	Baculodelvaci: {
+		DisplayName: Void Staff
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/78C86B:+{1}% magic penetration]
+			'''
+	}
+
+	Bailarinespec: {
+		DisplayName: Phantom Dancer
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]It grants you immunity to knockback from mobs
+			'''
+	}
+
+	Barrerafrondosa: {
+		DisplayName: Verdant Barrier
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Post-combat shield blocks next ability
+			'''
+	}
+
+	Bastondelarcan: {
+		DisplayName: Archangel's Staff
+		BastondelarcanExtra:
+			'''
+			Stacks mana: {0}/360
+			Currently grants: {1} bonus AP
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain extra mana when landing abilities
+			'''
+	}
+
+	Bebedordesangre: {
+		DisplayName: Goredrinker
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a wave that heals you for each enemy
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Blindadasavan: {
+		DisplayName: Armored Advance
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces damage from certain incoming sources
+			Grants a shield when taking that type of damage
+			'''
+	}
+
+	Botas: {
+		DisplayName: Boots
+		Tooltip: "[c/78C86B:+{0} movement speed]"
+	}
+
+	Botasbersek: {
+		DisplayName: Berserker's Greaves
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% attack speed]
+			[c/78C86B:+{1} movement speed]
+			'''
+	}
+
+	Botasdehechi: {
+		DisplayName: Sorcerer's Shoes
+		Tooltip:
+			'''
+			[c/78C86B:+{0} penetration magic]
+			[c/78C86B:+{1} movement speed]
+			'''
+	}
+
+	Botasdemovi: {
+		DisplayName: Mobility Boots
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Drastically reduces your mobility in combat
+			'''
+	}
+
+	Botasderapi: {
+		DisplayName: Boots of Swiftness
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants 25% reduction in slow effects
+			'''
+	}
+
+	Botasdetabis: {
+		DisplayName: Plated Steelcaps
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces damage from certain incoming sources
+			'''
+	}
+
+	Botasincro: {
+		DisplayName: Synchronized Souls
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Using the Magic Mirror is faster
+			'''
+	}
+
+	Botasjonias: {
+		DisplayName: Ionian Boots of Lucidity
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Cooldown reduction on activatable items
+			'''
+	}
+
+	Botasmercu: {
+		DisplayName: Mercury's Treads
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} movement speed]
+			[c/78C86B:+{2}% tenacity]
+			'''
+	}
+
+	Botassimbioticas: {
+		DisplayName: Symbiotic Soles
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Using the Magic Mirror is faster
+			'''
+	}
+
+	Brazalcristal: {
+		DisplayName: Crystalline Bracer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			'''
+	}
+
+	Brillo: {
+		DisplayName: Sheen
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered attack deals double damage
+			'''
+	}
+
+	Brisadeeter: {
+		DisplayName: Aether Wisp
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/78C86B:+{1}% movement speed]
+			'''
+	}
+
+	Broquelglacial: {
+		DisplayName: Glacial Buckler
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} ability haste]
+			'''
+	}
+
+	Brujularunic: {
+		DisplayName: Runic Compass
+		BrujularunicExtra: Runic Compass stacks: {0}/800
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]You gain gold over time
+			Only usable at full World Atlas stacks
+			'''
+	}
+
+	Brutalizador: {
+		DisplayName: The Brutalizer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			'''
+	}
+
+	Cadenasdeana: {
+		DisplayName: Anathema's Chains
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces incoming damage by 30%
+			'''
+	}
+
+	Cancionsangre: {
+		DisplayName: Bloodsong
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered attack deals double damage
+			Only usable at full Runic Compass stacks
+			You gain coins over time
+			'''
+	}
+
+	Canondefuegorapido: {
+		DisplayName: Rapid Firecannon
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus damage and range on-hit at max stacks
+			'''
+	}
+
+	Capadeagi: {
+		DisplayName: Cloak of Agility
+		Tooltip: "[c/78C86B:+{0}% critical strike chance]"
+	}
+
+	Capadefuegsol: {
+		DisplayName: Sunfire Aegis
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]A ring of fire burns nearby enemies
+			'''
+	}
+
+	Capadenegas: {
+		DisplayName: Negatron Cloak
+		Tooltip: "[c/78C86B:+{0} magic resistance]"
+	}
+
+	Capituloper: {
+		DisplayName: Lost Chapter
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Restores mana upon landing an ability
+			'''
+	}
+
+	Carcajdemedio: {
+		DisplayName: Noonquiver
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% critical strike chance]
+			'''
+	}
+
+	Catalizadeones: {
+		DisplayName: Catalyst of Aeons
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Life spent recovers mana; mana spent recovers life
+			'''
+	}
+
+	Cenizadebambi: {
+		DisplayName: Bami's Cinder
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Burns enemies with a ring of fire
+			'''
+	}
+
+	Cenizasprede: {
+		DisplayName: Fated Ashes
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Causes a burn on enemies
+			'''
+	}
+
+	Cetrovamp: {
+		DisplayName: Vampiric Scepter
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% life steal]
+			'''
+	}
+
+	Chalecodecadenas: {
+		DisplayName: Chain Vest
+		Tooltip: "[c/78C86B:+{0} armor]"
+	}
+
+	Chalecoespinas: {
+		DisplayName: Bramble Vest
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Deals damage when taking damage
+			'''
+	}
+
+	Chuchillaextraoscura: {
+		DisplayName: Black Cleaver
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Decreases the durability of the target
+			'''
+	}
+
+	Cimitarramerc: {
+		DisplayName: Mercurial Scimitar
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% life steal]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Gain move speed & removes disabling effects
+			'''
+	}
+
+	Cinturongigant: {
+		DisplayName: Giant's Belt
+		Tooltip: "[c/78C86B:+{0} maximum life]"
+	}
+
+	Codicediabolc: {
+		DisplayName: Fiendish Codex
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} ability power]
+			'''
+	}
+
+	Coleccionista: {
+		DisplayName: The Collector
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} lethality]
+			[c/78C86B:+{2}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Instantly kills low-life enemies
+			'''
+	}
+
+	Colmilloserp: {
+		DisplayName: Serpent's Fang
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces the target's durability
+			'''
+	}
+
+	Convergenciadelzeke: {
+		DisplayName: Zeke's Convergence
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Creates a damaging area around you
+			'''
+	}
+
+	Corazondehier: {
+		DisplayName: Heartsteel
+		CorazondehierExtra: Currently grants: {0} bonus life
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit, gain max health and deal damage
+			'''
+	}
+
+	Corazonhela: {
+		DisplayName: Frozen Heart
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Takes reduced damage from enemies
+			'''
+	}
+
+	Coronadelareina: {
+		DisplayName: Crown of the Shattered Queen
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces damage taken for a short duration
+			'''
+	}
+
+	Cortasenda: {
+		DisplayName: Stridebreaker
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Deals damage and slows enemies around you
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Cosechadornoc: {
+		DisplayName: Night Harvester
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On damage, bonus damage + move speed
+			'''
+	}
+
+	Cosmicdrive: {
+		DisplayName: Cosmic Drive
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/78C86B:+{3}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases movement speed on ability damage
+			'''
+	}
+
+	Cotadelsober: {
+		DisplayName: Overlord's Bloodmail
+		CotadelsoberExtra: Currently grants: {0} bonus AD
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants attack damage based on your life
+			'''
+	}
+
+	Cotaespinas: {
+		DisplayName: Thornmail
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Deals damage when taking damage
+			'''
+	}
+
+	Crisoldemikael: {
+		DisplayName: Mikael's Blessing
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% mana regeneration]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Removes disabling effects from an ally
+			'''
+	}
+
+	Cristalrubi: {
+		DisplayName: Ruby Crystal
+		Tooltip: "[c/78C86B:+{0} maximum life]"
+	}
+
+	Cristalzafiro: {
+		DisplayName: Sapphire Crystal
+		Tooltip: "[c/78C86B:+{0} maximum mana]"
+	}
+
+	Cronometro: {
+		DisplayName: Stopwatch
+		Tooltip: Makes you invulnerable but unable to move
+	}
+
+	Cryptoreto: {
+		DisplayName: Cryptbloom
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% magic penetration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Defeating an enemy spawns a healing zone
+			'''
+	}
+
+	Cuchillasdenavori: {
+		DisplayName: Navori Flickerblade
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit, reduces your ability use time
+			'''
+	}
+
+	Cuchilloenriat: {
+		DisplayName: Rageknife
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Converts crit damage into Attack Damage
+			'''
+	}
+
+	Daga: {
+		DisplayName: Dagger
+		Tooltip: "[c/78C86B:+{0}% attack speed]"
+	}
+
+	Danzamuert: {
+		DisplayName: Death's Dance
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Delays incoming damage for a few seconds
+			'''
+	}
+
+	Descargatorm: {
+		DisplayName: Stormsurge
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/78C86B:+{1} penetration magic]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus damage (AoE if target dies)
+			'''
+	}
+
+	Desesperacioneterna: {
+		DisplayName: Unending Despair
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Magic damage + healing in combat
+			'''
+	}
+
+	Desgarracielo: {
+		DisplayName: Sundered Sky
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a healing guaranteed crit at intervals
+			'''
+	}
+
+	Dientedenashor: {
+		DisplayName: Nashor's Tooth
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit, deals bonus damage scaling with AP
+			'''
+	}
+
+	Drakthar: {
+		DisplayName: Duskblade of Draktharr
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Become invulnerable after killing an enemy
+			'''
+	}
+
+	Eclipse: {
+		DisplayName: Eclipse
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Attack to deal extra damage and get a shield
+			'''
+	}
+
+	Ecolud: {
+		DisplayName: Luden's Echo
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/78C86B:+{3} penetration magic]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Creates a magical explosion at max stacks
+			'''
+	}
+
+	Ecosdehelia: {
+		DisplayName: Echoes of Helia
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% mana regeneration]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Attacking enemies generates charges
+			Heal allies for extra amount per charge
+			'''
+	}
+
+	Elixirdefuri: {
+		DisplayName: Elixir of Wrath
+		Tooltip: Increases your damage
+	}
+
+	Elixirdehierro: {
+		DisplayName: Elixir of Iron
+		Tooltip: Increases your maximum health
+	}
+
+	Elixirdemag: {
+		DisplayName: Elixir of Sorcery
+		Tooltip: Increases your magic damage
+	}
+
+	Escudodoran: {
+		DisplayName: Doran's Shield
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases life regeneration when damaged
+			'''
+	}
+
+	Esferaamanecer: {
+		DisplayName: Dawncore
+		EsferaamanecerExtra:
+			'''
+			Currently grants: {0}% Heal power
+			Currently grants: {1} bonus AP
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Magic damage and AP scale with mana regen
+			'''
+	}
+
+	Espadaciclovolt: {
+		DisplayName: Voltaic Cyclosword
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus damage and slow on-hit at max stacks
+			'''
+	}
+
+	Espadapenumbra: {
+		DisplayName: Umbral Glaive
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Hunter Potion buff
+			'''
+	}
+
+	Espadon: {
+		DisplayName: B. F. Sword
+		Tooltip: "[c/78C86B:+{0} attack damage]"
+	}
+
+	Espadoran: {
+		DisplayName: Doran's Blade
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% life steal]
+			'''
+	}
+
+	Espalarg: {
+		DisplayName: Long Sword
+		Tooltip: "[c/78C86B:+{0} attack damage]"
+	}
+
+	Espejodecristal: {
+		DisplayName: Bandleglass Mirror
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			'''
+	}
+
+	Fajinmerc: {
+		DisplayName: Quicksilver Sash
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Removes disabling effects
+			'''
+	}
+
+	Faucesdemalmor: {
+		DisplayName: Maw of Malmortius
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a shield when you're low on health
+			'''
+	}
+
+	Fervor: {
+		DisplayName: Zeal
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			'''
+	}
+
+	Filodelacordura: {
+		DisplayName: Wit's End
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% tenacity]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit, deals extra magic damage
+			'''
+	}
+
+	Filodelanoche: {
+		DisplayName: Edge of Night
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Post-combat shield blocks next ability
+			'''
+	}
+
+	Filoinfi: {
+		DisplayName: Infinity Edge
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases your critical hit damage by 40%
+			'''
+	}
+
+	Filorobahechi: {
+		DisplayName: Spellthief's Edge
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants coins over time
+			'''
+	}
+
+	Flechasyuntal: {
+		DisplayName: Yun Tal Wildarrows
+		FlechasyuntalExtra:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Temp attack speed & stackable crit
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			'''
+	}
+
+	Fragmentodekirch: {
+		DisplayName: Kircheis Shard
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus damage on-hit at max stacks
+			'''
+	}
+
+	Frionordextremo: {
+		DisplayName: Fimbulwinter
+		FrionordextremoExtra: Currently grants: {0} bonus life
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Using abilities to deal damage grants a shield
+			'''
+	}
+
+	Frionordico: {
+		DisplayName: Winter's Approach
+		FrionordicoExtra:
+			'''
+			Stacks mana: {0}/360
+			Currently grants: {1} bonus life
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain extra mana when landing abilities
+			'''
+	}
+
+	Fuerzadelanaturaleza: {
+		DisplayName: Force of Nature
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} magic resistance]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants MS & MR after prolonged combat
+			'''
+	}
+
+	Fuerzadelvien: {
+		DisplayName: Galeforce
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% critical strike chance]
+			[c/78C86B:+{2}% attack speed]
+			[c/78C86B:+{3}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a dash that fires projectiles on use
+			'''
+	}
+
+	Fuerzatrini: {
+		DisplayName: Trinity Force
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/78C86B:+{3}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered attack deals triple damage
+			Grants movement speed on hit
+			'''
+	}
+
+	Gargola: {
+		DisplayName: Gargoyle Stoneplate
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} magic resistance]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Grants a shield based on your max life
+			'''
+	}
+
+	Garradelmero: {
+		DisplayName: Prowler's Claw
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Moves you to the targeted enemy
+			'''
+	}
+
+	Gemaviva: {
+		DisplayName: Kindlegem
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			'''
+	}
+
+	Grevasarma: {
+		DisplayName: Gunmetal Greaves
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% attack speed]
+			[c/78C86B:+{1} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants movement speed on hit
+			'''
+	}
+
+	Guanteleteescarcha: {
+		DisplayName: Iceborn Gauntlet
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered hit creates a slowing area
+			'''
+	}
+
+	Guardabrazdelabus: {
+		DisplayName: Seeker's Armguard
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Makes you invulnerable but unable to move
+			only one use
+			'''
+	}
+
+	Guinso: {
+		DisplayName: Guinsoo's Rageblade
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit dmg + double procs every 3rd hit
+			'''
+	}
+
+	Habitoespectral: {
+		DisplayName: Spectre's Cowl
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2} magic resistance]
+			'''
+	}
+
+	Hachaextrahogarena: {
+		DisplayName: Hearthbound Axe
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			'''
+	}
+
+	Hieloeterno: {
+		DisplayName: Everfrost
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Creates a cone that freezes or slows enemies
+			'''
+	}
+
+	Horizontedesuc: {
+		DisplayName: Horizon Focus
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Hitting an enemy with an ability reveals them
+			'''
+	}
+
+	Huracanderunan: {
+		DisplayName: Runaan's Hurricane
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% critical strike chance]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Ranged attacks shoot two extra projectiles
+			'''
+	}
+
+	Hydraprofana: {
+		DisplayName: Profane Hydra
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a damaging wave around you
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Hydratitanic: {
+		DisplayName: Titanic Hydra
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a damaging wave around you
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Hydravoraz: {
+		DisplayName: Ravenous Hydra
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% life steal]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a damaging wave around you
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Idoloper: {
+		DisplayName: Forbidden Idol
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1}% heal and shield power]
+			'''
+	}
+
+	Jacho: {
+		DisplayName: Jak'Sho, The Protean
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Extra resistances during extended combat
+			'''
+	}
+
+	Lagrimadeladios: {
+		DisplayName: Tear of the Goddess
+		LagrimadeladiosExtra: Stacks mana: {0}/360
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain extra mana when landing abilities
+			'''
+	}
+
+	Lanzadesojin: {
+		DisplayName: Spear of Shojin
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases your ability damage
+			'''
+	}
+
+	Lapamaliciosa: {
+		DisplayName: Leeching Leer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% omnivamp]
+			'''
+	}
+
+	Latigoultraferreo: {
+		DisplayName: Ironspike Whip
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Deals area damage to nearby enemies
+			'''
+	}
+
+	Lentedelorac: {
+		DisplayName: Oracle Lens
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Hunter Potion buff
+			'''
+	}
+
+	Liandrymasc: {
+		DisplayName: Liandry's Torment
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Ability damage applies a burn to enemies
+			'''
+	}
+
+	Liche: {
+		DisplayName: Lich Bane
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered hit deals bonus magic damage
+			'''
+	}
+
+	Llamadodelver: {
+		DisplayName: Executioner's Calling
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy.
+			'''
+	}
+
+	Lorddominic: {
+		DisplayName: Lord Dominik's Regards
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% armor penetration]
+			[c/78C86B:+{2}% critical strike chance]
+			'''
+	}
+
+	Lucidezcarmensi: {
+		DisplayName: Crimson Lucidity
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants movement speed on dealing damage
+			'''
+	}
+
+	Maldad: {
+		DisplayName: Malignance
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Creates a damaging area at the cursor
+			'''
+	}
+
+	Maldicionvamp: {
+		DisplayName: Bloodletter's Curse
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Magic damage lowers enemy resistance
+			'''
+	}
+
+	Malditajoya: {
+		DisplayName: Blighting Jewel
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/78C86B:+{1}% magic penetration]
+			'''
+	}
+
+	Mallaguardian: {
+		DisplayName: Warden's Mail
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces the damage received by 10 points
+			'''
+	}
+
+	Manamune: {
+		DisplayName: Manamune
+		ManamuneExtra:
+			'''
+			Stacks mana: {0}/360
+			Currently grants: {1} bonus AD
+			'''
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain extra mana when landing abilities
+			'''
+	}
+
+	Mandatoimperial: {
+		DisplayName: Imperial Mandate
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Dealing damage with abilities marks the enemy
+			'''
+	}
+
+	Mantoantimagi: {
+		DisplayName: Null-Magic Mantle
+		Tooltip: "[c/78C86B:+{0} magic resistance]"
+	}
+
+	Mantodelocaso: {
+		DisplayName: Evenshroud
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Ability damage leaves enemies vulnerable
+			'''
+	}
+
+	Mapamundi: {
+		DisplayName: World Atlas
+		MapamundiExtra: World Atlas stacks: {0}/400
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]You receive coins over time
+			'''
+	}
+
+	Marcharapid: {
+		DisplayName: Swiftmarch
+		Tooltip:
+			'''
+			[c/78C86B:+{0} movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]You gain 4% movement speed
+			'''
+	}
+
+	Martilloclaufield: {
+		DisplayName: Caulfield's Warhammer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			'''
+	}
+
+	Martilloguardian: {
+		DisplayName: Guardian's Hammer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% life steal]
+			'''
+	}
+
+	Mascaraabis: {
+		DisplayName: Abyssal Mask
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} magic resistance]
+			[c/78C86B:+{2} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Enemies near you take increased AP damage
+			'''
+	}
+
+	Matakarkens: {
+		DisplayName: Kraken Slayer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Every third on-hit deals bonus damage
+			'''
+	}
+
+	Mejai: {
+		DisplayName: Mejai's Soulstealer
+		MejaiExtra: Currently grants: {0} bonus magic damage
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain bonus Ability Power on enemy kill
+			'''
+	}
+
+	Menabrillante: {
+		DisplayName: Glowing Mote
+		Tooltip: "[c/78C86B:+{0} ability haste]"
+	}
+
+	Morelonomicon: {
+		DisplayName: Morellonomicon
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy
+			'''
+	}
+
+	Munamana: {
+		DisplayName: Muramana
+		MunamanaExtra: Currently grants: {0} bonus AD
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum mana]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Mana-based AD and bonus damage
+			'''
+	}
+
+	Oportunidades: {
+		DisplayName: Opportunity
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} lethality]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Temporary lethality & movement speed on kill
+			'''
+	}
+
+	Oposicionceles: {
+		DisplayName: Celestial Opposition
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces damage taken upon entering combat
+			Only usable at full Runic Compass stacks
+			You gain coins over time
+			'''
+	}
+
+	Orbedelolvido: {
+		DisplayName: Oblivion Orb
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy
+			'''
+	}
+
+	Orbeguardian: {
+		DisplayName: Guardian's Orb
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]You gain 4 mana regeneration
+			'''
+	}
+
+	Pebeteroardi: {
+		DisplayName: Ardent Censer
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability power]
+			[c/78C86B:+{2}% movement speed]
+			[c/78C86B:+{3}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Heal boosts ally’s on-hit damage briefly
+			'''
+	}
+
+	Perladereju: {
+		DisplayName: Rejuvenation Bead
+		Tooltip: "[c/78C86B:+{0}% life regeneration]"
+	}
+
+	Picacha: {
+		DisplayName: Pickaxe
+		Tooltip: "[c/78C86B:+{0} attack damage]"
+	}
+
+	Piedraalerta: {
+		DisplayName: Vigilant Wardstone
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Shine Potion buff
+			'''
+	}
+
+	Piedraobserva: {
+		DisplayName: Watchful Wardstone
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Shine Potion buff
+			'''
+	}
+
+	Placadeltieso: {
+		DisplayName: Dead Man's Plate
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Bonus damage on-hit at max stacks
+			'''
+	}
+
+	Placahexpe: {
+		DisplayName: Experimental Hexplate
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Grants temporary attack and movement speed
+			'''
+	}
+
+	Pocioncura: {
+		DisplayName: Health Potion
+		Tooltip: Slightly increases health regeneration
+	}
+
+	Pocioreutilizable: {
+		DisplayName: Refillable Potion
+		Tooltip: Slightly increases health regeneration
+	}
+
+	Promesadelcab: {
+		DisplayName: Knight's Vow
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2} armor]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Links you to a chosen ally as their protector
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Absorbs damage on behalf of your linked ally
+			'''
+	}
+
+	Protocintu: {
+		DisplayName: Hextech Rocketbelt
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a dash that fires projectiles on use
+			'''
+	}
+
+	Prtecdelegi: {
+		DisplayName: Aegis of the Legion
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} magic resistance]
+			[c/78C86B:+{2} ability haste] 
+			'''
+	}
+
+	Punalcerra: {
+		DisplayName: Serrated Dirk
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} lethality]
+			'''
+	}
+
+	Putrificadorquin: {
+		DisplayName: Chemtech Putrifier
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy
+			'''
+	}
+
+	Quimiotanque: {
+		DisplayName: Turbo Chemtank
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Increases your movement speed temporarily
+			'''
+	}
+
+	Rabadon: {
+		DisplayName: Rabadon's Deathcap
+		RabadonExtra: Currently grants: {0} bonus AP
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Increases your ability power by 30%
+			'''
+	}
+
+	Raduim: {
+		DisplayName: Randuin's Omen
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a wave that slows nearby enemies
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Reduces incoming damage slightly
+			'''
+	}
+
+	Recompensamundial: {
+		DisplayName: Bounty of Worlds
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]You gain coins over time
+			Only usable at full Runic Compass stacks
+			'''
+	}
+
+	Recordatorio: {
+		DisplayName: Mortal Reminder
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% armor penetration]
+			[c/78C86B:+{2}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy
+			'''
+	}
+
+	Rectriz: {
+		DisplayName: Rectrix
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% movement speed]
+			'''
+	}
+
+	Redencion: {
+		DisplayName: Redemption
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% mana regeneration]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Triggers a healing zone
+			'''
+	}
+
+	Relicariosolari: {
+		DisplayName: Locket of the Iron Solari
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Grants a shield to you and your allies
+			'''
+	}
+
+	Renovadordepiedra: {
+		DisplayName: Moonstone Renewer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% mana regeneration]
+			[c/78C86B:+{2} ability haste]
+			[c/78C86B:+{3} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Healing one ally heals another as well
+			'''
+	}
+
+	Resorteraexplo: {
+		DisplayName: Scout's Slingshot
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit, deals bonus damage (40s CD)
+			'''
+	}
+
+	Resplandorvacio: {
+		DisplayName: Hollow Radiance
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3} ability haste]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Burns close enemies. They explode when killed
+			'''
+	}
+
+	Reyarruinadin: {
+		DisplayName: Blade of the Ruined King
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			[c/78C86B:+{2}% life steal]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Extra damage scales with target's health
+			'''
+	}
+
+	Rilay: {
+		DisplayName: Rylai's Crystal Scepter
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Damaging enemies with abilities slows them
+			'''
+	}
+
+	Rompehulks: {
+		DisplayName: Hullbreaker
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit, Every fifth attack deals extra damage
+			'''
+	}
+
+	Rukakokae: {
+		DisplayName: Kaenic Rookern
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2} magic resistance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Provides a shield while out of combat
+			'''
+	}
+
+	Sacrifica: {
+		DisplayName: Cull
+		SacrificaExtra: Stacks: {0}/100
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Earn coins when you eliminate enemies
+			'''
+	}
+
+	Sanguinaria: {
+		DisplayName: Bloodthirster
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% life steal]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Healing beyond max health forms a shield
+			'''
+	}
+
+	Saqueadordeesen: {
+		DisplayName: Essence Reaver
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% critical strike chance]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On hit effect, your damage restores mana
+			'''
+	}
+
+	Selloacero: {
+		DisplayName: Steel Sigil
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} attack damage]
+			'''
+	}
+
+	Sellooscu: {
+		DisplayName: Dark Seal
+		SellooscuExtra: Currently grants: {0} bonus AP
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Gain bonus Ability Power on enemy kill
+			'''
+	}
+
+	Serylda: {
+		DisplayName: Serylda's Grudge
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability haste]
+			[c/78C86B:+{1} attack damage]
+			[c/78C86B:+{2}% armor penetration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Abilities slow low-health targets
+			'''
+	}
+
+	Shadowflame: {
+		DisplayName: Shadowflame
+		Tooltip:
+			'''
+			[c/78C86B:+{0} ability power]
+			[c/78C86B:+{1} penetration magic]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Deals increased damage to low-health targets
+			'''
+	}
+
+	Shurelya: {
+		DisplayName: Shurelya's Battlesong
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% mana regeneration]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} ability power]
+			[c/78C86B:+{3}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Boosts your and your allies' speed
+			'''
+	}
+
+	Sierraespada: {
+		DisplayName: Chempunk Chainsword
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Applies grievous wounds to the enemy
+			'''
+	}
+
+	Sorbehechi: {
+		DisplayName: Hexdrinker
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a shield when you're low on health
+			'''
+	}
+
+	Sortijadoran: {
+		DisplayName: Doran's Ring
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]It grants 2 mana regeneration
+			'''
+	}
+
+	Sterak: {
+		DisplayName: Sterak's Gage
+		Tooltip:
+			'''
+			[c/78C86B:+{2} attack damage]
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% tenacity]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants a shield when you're low on health
+			'''
+	}
+
+	Surrenderdivino: {
+		DisplayName: Divine Sunderer
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} ability haste]
+			[c/78C86B:+{2} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Empowered hit, heal based on target HP
+			'''
+	}
+
+	Taladro: {
+		DisplayName: Tunneler
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} attack damage]
+			'''
+	}
+
+	Tejesuenos: {
+		DisplayName: Dream Maker
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Healing boosts ally damage and resistance
+			Only usable at full Runic Compass stacks
+			You gain coins over time
+			'''
+	}
+
+	Terminus: {
+		DisplayName: Terminus
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% attack speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]On-hit, Grants resistances and penetration
+			'''
+	}
+
+	Tiamat: {
+		DisplayName: Tiamat
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Releases a damaging wave around you
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Small damage waves on physical hit
+			'''
+	}
+
+	Tomoamp: {
+		DisplayName: Amplifying Tome
+		Tooltip: "[c/78C86B:+{0} ability power]"
+	}
+
+	Trineodelsols: {
+		DisplayName: Solstice Sleigh
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Magic damage heals you and nearby allies
+			Only usable at full Runic Compass stacks
+			You gain coins over time
+			'''
+	}
+
+	Trituradorascera: {
+		DisplayName: Chainlaced Crushers
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} movement speed]
+			[c/78C86B:+{2}% tenacity]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants shield when hit by magic or NPC shot
+			'''
+	}
+
+	Ultimosus: {
+		DisplayName: Last Whisper
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1}% armor penetration]
+			'''
+	}
+
+	Varaedad: {
+		DisplayName: Rod of Ages
+		VaraedadExtra: Bonus: +{0} max life, +{1} max mana, +{2} AP
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} maximum mana]
+			[c/78C86B:+{2} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]With every minute, this item's power grows
+			Life spent recovers mana; mana spent recovers health
+			'''
+	}
+
+	Varaexplo: {
+		DisplayName: Blasting Wand
+		Tooltip: "[c/78C86B:+{0} ability power]"
+	}
+
+	Varainnecesariagrande: {
+		DisplayName: Needlessly Large Rod
+		Tooltip: "[c/78C86B:+{0} ability power]"
+	}
+
+	Velodebanshee: {
+		DisplayName: Banshee's Veil
+		Tooltip:
+			'''
+			[c/78C86B:+{0} magic resistance]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Blocks next NPC projectile or player magic
+			'''
+	}
+
+	Virtudradiente: {
+		DisplayName: Radiant Virtue
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1} armor]
+			[c/78C86B:+{2} magic resistance]
+			[c/78C86B:+{3}% heal and shield power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Restores health to you and nearby allies
+			'''
+	}
+
+	Visionlej: {
+		DisplayName: Farsight Alteration
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Night Owl Potion buff
+			'''
+	}
+
+	Ward: {
+		DisplayName: Stealth Ward
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Shine Potion buff
+			'''
+	}
+
+	Warddecontrol: {
+		DisplayName: Control Ward
+		Tooltip:
+			'''
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants the player the Hunter Potion buff
+			'''
+	}
+
+	Warmog: {
+		DisplayName: Warmog's Armor
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Extra max life and quick regen when safe
+			Requires 2000 bonus life to activate
+			'''
+	}
+
+	Youmusespada: {
+		DisplayName: Youmuu's Ghostblade
+		Tooltip:
+			'''
+			[c/78C86B:+{0} attack damage]
+			[c/78C86B:+{1} lethality]
+			[c/78C86B:+{2}% movement speed]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Gain a temporary movement speed boost
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Grants movement speed out of combat
+			'''
+	}
+
+	Zakzaks: {
+		DisplayName: Zaz'Zak's Realmspike
+		Tooltip:
+			'''
+			[c/78C86B:+{0} maximum life]
+			[c/78C86B:+{1}% life regeneration]
+			[c/78C86B:+{2}% mana regeneration]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Special: ]Magic damage to enemies causes explosion
+			Only usable at full Runic Compass stacks
+			You gain coins over time
+			'''
+	}
+
+	Zaplanzahechi: {
+		DisplayName: Spellslinger's Shoes
+		Tooltip:
+			'''
+			[c/78C86B:+{0}% magic penetration]
+			[c/78C86B:+{1} penetration magic]
+			[c/78C86B:+{2} movement speed]
+			'''
+	}
+
+	Zhonyas: {
+		DisplayName: Zhonya's Hourglass
+		Tooltip:
+			'''
+			[c/78C86B:+{0} armor]
+			[c/78C86B:+{1} ability power]
+			[c/1B2F65:_____________________]
+			[c/C9AA62:Active: ]Makes you invulnerable but unable to move
+			'''
+	}
+}
+
+Etiquetasdano: {
+	lineactive:
+		'''
+		[c/1B2F65:_____________________]
+		[c/C9AA62:Active: ]
+		'''
+	line:
+		'''
+		[c/1B2F65:_____________________]
+		[c/C9AA62:Special: ]
+		'''
+	tena: tenacity
+	healpower: heal and shield power
+	velocidemoviplan: movement speed
+	atkspeed: attack speed
+	habilityhaste: ability haste
+	pentracionmagplan: penetration magic
+	letality: lethality
+	magicpen: magic penetration
+	armorpen: armor penetration
+	danomag: ability power
+	danofis: attack damage
+	omnivamp: omnivamp
+	robodevida: life steal
+	magicres: magic resistance
+	regendemana: mana regeneration
+	armaduralol: armor
+	vidamaxi: maximum life
+	regendevid: life regeneration
+	critico: critical strike chance
+	manamaxi: maximum mana
+}
+

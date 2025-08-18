@@ -1,0 +1,50 @@
+Items: {
+	FisherFinder: {
+		Tooltip:
+			'''
+			驚くべきことに フィッシャーファインダーは釣り人を見つける 
+			見つけた後 フィッシャーファインダーの場所へ釣り人を瞬時に移動させる
+			「釣りはこれまでになく便利に」
+			'''
+		DisplayName: フィッシャー・ファインダー
+	}
+}
+
+NPCs: {
+	Fisher: {
+		DisplayName: フィッシャー
+
+		TownNPCMood: {
+			Content: "この世界に魚さえいれば、私はとても満ち足りています"
+			NoHome: "この世界に魚さえいれば、私はとても満ち足りています"
+			LoveSpace: "私はとても満ち足りています"
+			FarFromHome: "この世界に魚さえいれば"
+			DislikeCrowded: "この世界に魚さえいれば、私はとても満ち足りています"
+			HateCrowded: "この世界に魚さえいれば、私はとても満ち足りています"
+			LikeBiome: "この世界に魚さえいれば、私はとても満ち足りています"
+			LoveBiome: "この世界に魚さえいれば、私はとても満ち足りています"
+			DislikeBiome: "この世界に魚さえいれば、私はとても満ち足りています"
+			HateBiome: "この世界に魚さえいれば、私はとても満ち足りています"
+			LikeNPC: "この世界に魚さえいれば、私はとても満ち足りています"
+			LoveNPC: "この世界に魚さえいれば、私はとても満ち足りています"
+			DislikeNPC: "この世界に魚さえいれば、私はとても満ち足りています"
+			HateNPC: "この世界に魚さえいれば、私はとても満ち足りています"
+		}
+	}
+}
+
+Configs: {
+	MobileAnglerConfig: {
+		unlimitedQuests: {
+			Tooltip: 有効にすると、釣りクエストを達成してもその日は以降の釣りクエストが制限されません。
+			Label: 無制限の釣りクエスト
+		}
+
+		DisplayName: Mobile Angler 設定
+
+		Headers: {
+			General: 一般
+		}
+	}
+}
+

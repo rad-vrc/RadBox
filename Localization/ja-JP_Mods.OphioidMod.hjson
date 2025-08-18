@@ -1,0 +1,204 @@
+Buffs: {
+	BabyOphioflyBuff: {
+		DisplayName: ベビーオフィオイド・フライ
+		Tooltip: 気味が悪いけど、なぜかかわいい
+		Description: Mods.OphioidMod.Buffs.BabyOphioflyBuff.Description
+	}
+
+	BabyOphiopedeBuff: {
+		DisplayName: 子オフィオペード
+		Tooltip: 気味が悪いけど、なぜかかわいい
+		Description: Mods.OphioidMod.Buffs.BabyOphiopedeBuff.Description
+	}
+}
+
+Items: {
+	OphiopedeMask: {
+		DisplayName: オフィオペードのマスク
+		Tooltip: ""
+	}
+
+	SporeInfestedEgg: {
+		DisplayName: 胞子に侵された卵
+		Tooltip: 「この卵はまだ孵化して私を襲ってこないみたい…」
+	}
+
+	Ophiopedetrophyitem: {
+		DisplayName: オフィオペードのトロフィー
+		Tooltip: ""
+	}
+
+	TreasureBagOphioid: {
+		DisplayName: トレジャーバッグ（オフィオイド）
+		Tooltip: 右クリックで開く
+	}
+
+	OphioidLarva: {
+		DisplayName: オフィオイドの幼生
+		Tooltip: 「小さなオフィオペード」
+	}
+
+	MusicBoxMetamorphosis: {
+		DisplayName: ミュージックボックス（オフィオペード）
+		Tooltip: Badassbunnyz - Metamorphosis
+	}
+
+	MusicBoxTheFly: {
+		DisplayName: ミュージックボックス（オフィオフライ）
+		Tooltip: Badassbunnyz - The Fly
+	}
+
+	OphiopedeRelic: {
+		DisplayName: オフィオペードのレリック
+		Tooltip: ""
+	}
+
+	OphioflyRelic: {
+		DisplayName: オフィオフライのレリック
+		Tooltip: ""
+	}
+
+	DeadFungusbug: {
+		DisplayName: 死んだファンガスバグ
+		Tooltip:
+			'''
+			「今作ったそれからは悪臭が漂っている。何かを引き寄せるかもしれない…」
+			オフィオペードを召喚する
+			'''
+	}
+
+	InfestedCompost: {
+		DisplayName: 寄生された堆肥
+		Tooltip:
+			'''
+			「有機的な穢れの集合体」
+			オフィオペードを召喚する？
+			'''
+		SummonMessage: 周囲の空気が淀んで湿っぽくなる。
+	}
+
+	LivingCarrion: {
+		DisplayName: 生きた腐肉
+		Tooltip:
+			'''
+			「今作ったそれからは悪臭が漂っている。何かを引き寄せるかもしれない…」
+			オフィオペードを召喚する
+			'''
+	}
+}
+
+NPCs: {
+	EvenMoreVileSpit: {
+		DisplayName: さらに不浄な唾
+	}
+
+	FlyMinion: {
+		DisplayName: オフィオイド・フライのミニオン
+	}
+
+	FlyMinionCacoon: {
+		DisplayName: 繭の運び屋
+	}
+
+	Ophiocoon: {
+		DisplayName: オフィオコクーン
+		DeathMessage: オフィオフライが繭から孵化した！
+	}
+
+	MetaOphiocoon: {
+		DisplayName: オフィオコクーン
+	}
+
+	Ophiofly: {
+		DisplayName: オフィオフライ
+
+		BossChecklistIntegration: {
+			EntryName: オフィオペード＆オフィオフライ
+			SpawnInfo: オフィオペード撃破後、任意の時に[i:OphioidMod/InfestedCompost]を使用する
+			DespawnMessage: オフィオイドは隠れた巣へと身をくねらせて戻っていく...
+		}
+
+		DeathMessage: "{0}の忌まわしき存在感は消え去った。オフィオイドは討伐された！"
+	}
+
+	OphiopedeHead: {
+		DisplayName: オフィオペード
+
+		BossChecklistIntegration: {
+			SpawnInfo: いつでも[i:OphioidMod/DeadFungusbug]または[i:OphioidMod/LivingCarrion]を使用する
+			DespawnMessage: オフィオペードは地中へと逃げ去った...
+			EntryName: オフィオペード
+		}
+
+		DeathMessage: 寄生された虫は倒れたが、なお{0}の忌まわしき気配を感じる。
+	}
+
+	OphiopedeBody: {
+		DisplayName: オフィオペード
+	}
+
+	OphiopedeTail: {
+		DisplayName: オフィオペード
+	}
+
+	OphiopedeHead2: {
+		DisplayName: オフィオペード
+		SummonMessage: オフィオペードが変態を始めた！
+	}
+
+	OphSporeCloud: {
+		DisplayName: オフィオイドの胞子雲
+	}
+
+	TheSeeing: {
+		DisplayName: 見る者
+	}
+}
+
+Projectiles: {
+	BabyFlyPet: {
+		DisplayName: 気味が悪いけどかわいいハエ
+	}
+
+	BabyOphiopedePet: {
+		DisplayName: 子オフィオペード
+	}
+
+	Ophiobeam: {
+		DisplayName: オフィオビーム
+	}
+
+	Ophiobeamichor: {
+		DisplayName: 霊液ビーム
+	}
+
+	PoisonCloud: {
+		DisplayName: 毒の雲
+	}
+
+	ProjectileLaserBase: {
+		DisplayName: 投射レーザーの基台
+	}
+}
+
+Tiles: {
+	BossRelics: {
+		DisplayName: ボスのレリック
+	}
+
+	MusicBoxMetamorphosis: {
+		DisplayName: ミュージックボックス
+		MapEntry: ミュージックボックス Metamorphosis
+	}
+
+	MusicBoxTheFly: {
+		DisplayName: ミュージックボックス
+		MapEntry: ミュージックボックス The Fly
+	}
+
+	OphiodBossTrophy: {
+		DisplayName: ボスのトロフィー
+		MapEntry: オフィオイドのトロフィー
+	}
+}
+
