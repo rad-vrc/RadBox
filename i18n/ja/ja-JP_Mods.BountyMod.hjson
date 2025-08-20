@@ -1,0 +1,1896 @@
+ChecklistConditions: {
+Boluder: 地底洞窟層でいつでも召喚アイテムを使用。地底で襲われる確率は極めて低い。
+Shroomitator: 光るキノコバイオームでいつでも召喚アイテムを使用。光るキノコバイオームで変装して遭遇することがある。
+Ravakar: 不浄または真紅バイオームでいつでも召喚アイテムを使用。
+}
+
+Buffs: {
+MineStars: {
+Description:
+'''
+地雷を作るたびに魔法の星を3個召喚
+地雷が星に触れると、星を回収して地雷のダメージが50%上昇
+'''
+DisplayName: 取り巻く星
+}
+
+MineCooldown: {
+Description: 地雷を設置できない
+DisplayName: 地雷クールダウン
+}
+
+StrangeSound: {
+Description: この音は何なの？どこから来ているの？？？
+DisplayName: 奇妙な音
+}
+
+ArterialFlameDebuff: {
+Description: 生命力で燃えている！
+DisplayName: 動脈の炎
+}
+
+TimidiumBossPetBuff: {
+Description: 大きな目をした空飛ぶ肉キュウリがついてくる
+DisplayName: 肉キュウリ
+}
+
+TinyCrimerasDebuff: {
+Description: お腹を空かせた小さなクリメラの群れに囲まれている
+DisplayName: 小さなクリメラの大群
+}
+}
+
+WorldGen: {
+BountyOrePassMessage: ティミジウムを注入中
+}
+
+Tiles: {
+ArterialRock: {
+MapEntry: 動脈岩
+}
+
+WorldArteryPurpleCrystal: {
+MapEntry: 充填された動脈クリスタル
+}
+
+WorldArteryCrystal: {
+MapEntry: 動脈クリスタル
+}
+
+LifeBar: {
+MapEntry: 生命のバー
+}
+
+TimidiumOre: {
+MapEntry: アボミニウム
+}
+
+SunBar: {
+MapEntry: 太陽のバー
+}
+
+SunOre: {
+MapEntry: 太陽石
+}
+}
+
+NPCs: {
+Frodle: {
+DisplayName: フロドル
+}
+
+StarFish: {
+DisplayName: スターフィッシュ
+}
+
+Boully: {
+DisplayName: ボウリー
+}
+
+Boluder: {
+DisplayName: ボルダー
+}
+
+UncannyMushroom: {
+DisplayName: 不気味なキノコ
+}
+
+BloodSucker: {
+DisplayName: ブラッドサッカー
+}
+
+Shroomitator: {
+DisplayName: シュルーミテーター
+}
+
+FlyingCreature: {
+DisplayName: 動脈バグ
+}
+
+RavakarMinion: {
+DisplayName: アボミン
+}
+
+SkySignalDrone: {
+DisplayName: スカイシグナルドローン
+}
+
+Ravakar: {
+DisplayName: ラヴァカル
+}
+
+Spirit: {
+DisplayName: スピリット
+}
+
+TheCreature: {
+DisplayName: 動脈クリーチャー
+}
+
+PureBulb: {
+DisplayName: 純粋なバルブ
+}
+
+HellDroneBossCatalyst: {
+DisplayName: ヘルドローンボス触媒
+}
+
+HellDroneBoss: {
+DisplayName: ヘルドローンボス
+}
+
+LesserCorruptionSpirit: {
+DisplayName: 小不浄スピリット
+}
+
+LesserCrimsonSpirit: {
+DisplayName: 小真紅スピリット
+}
+
+DroneBoss: {
+DisplayName: イーサン
+}
+
+DroneBig: {
+DisplayName: ランドスキャナー
+}
+
+DroneSmall: {
+DisplayName: 小型スカイオブザーバー
+}
+
+DroneBasic: {
+DisplayName: ベーシックオブザーバー
+}
+
+PieceOfFlesh: {
+DisplayName: 肉の欠片
+}
+}
+
+CustomDamageClass: {
+Coward: 臆病者ダメージ
+}
+
+BlockMapName: {
+Crystalloom: クリスタルーム
+}
+
+ItemSetBonus: {
+MoonWalkerSet:
+'''
+臆病者クリティカル率が15%上昇
+臆病者ダメージが10%増加
+ムーンウォーカーブーツがついてくる
+ムーンウォーカーブーツは一歩ごとにルナステップを残す
+ルナステップは最大HPの半分のダメージを与える
+'''
+LifefullSet:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが5%増加
+現在HPに基づいて追加の防御力を得る
+最大HP時は100の防御力、0HP時は追加防御力0
+'''
+InfernoSet:
+'''
+臆病者クリティカル率が10%上昇
+移動速度が大幅に減少
+臆病者ダメージを与えるとヒートバーが満たされる
+ヒートバーが満たされるほど移動速度増加を得る
+ヒートバーが満たされるほど防御力が減少（最大20）
+ヒートバーが満タンになると、インフェルノリングを得て臆病者ダメージが敵を炎で燃やす
+ダメージを受けるとバーのヒートが少し失われる
+'''
+UnblessedSet:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージを5回与えるたびに、敵に投げられる注射器を作る
+注射器が敵に当たると、少し回復する
+'''
+TimidosSet:
+'''
+臆病者クリティカル率が8%上昇
+ダメージを受けると、アボミニウムの嘔吐物を拡散
+'''
+AngelicSet:
+'''
+最大ライフが50減少
+近接、魔法、遠隔、召喚ダメージが追加で45%増加
+近接、魔法、遠隔、召喚クリティカル率が27%上昇
+'''
+}
+
+Projectiles: {
+CandyMineProj3: {
+DisplayName: キャンディー地雷
+}
+
+CandyMineProj2: {
+DisplayName: キャンディー地雷
+}
+
+HeartSpinnerProj: {
+DisplayName: ハートスピナー
+}
+
+TitaniumRaftHookProj: {
+DisplayName: チタニウムラフトフック
+}
+
+AdamantiteRaftHookProj: {
+DisplayName: アダマンタイトラフトフック
+}
+
+BlackAndWhiteProj2: {
+DisplayName: ブラック・アンド・ホワイト
+}
+
+BlackAndWhiteProj: {
+DisplayName: ブラック・アンド・ホワイト
+}
+
+LavaGhostProj2: {
+DisplayName: 溶岩ゴースト
+}
+
+LavaGhostProj: {
+DisplayName: 溶岩ゴースト
+}
+
+MagicSaw: {
+DisplayName: 魔法のノコギリ
+}
+
+UnsuspiciousLookingBoulderProj: {
+DisplayName: 怪しくない岩石
+}
+
+Sweat: {
+DisplayName: 汗
+}
+
+CursedCutterProj2: {
+DisplayName: 呪いのカッター
+}
+
+CursedCutterProj: {
+DisplayName: 呪いのカッター
+}
+
+BoneSpinnerProj2: {
+DisplayName: ボーンスピナー
+}
+
+BoneSpinnerProj: {
+DisplayName: ボーンスピナー
+}
+
+AntlionEyeProj: {
+DisplayName: アントリオンの目
+}
+
+SpikeStormProj2: {
+DisplayName: スパイクストーム
+}
+
+SpikeStormProj: {
+DisplayName: スパイクストーム
+}
+
+ThePull: {
+DisplayName: プル
+}
+
+ThePerfectFreezeProj2: {
+DisplayName: 完全なる氷結
+}
+
+ThePerfectFreezeProj: {
+DisplayName: 完全なる氷結
+}
+
+PigsFinProj2: {
+DisplayName: ピッグズフィン
+}
+
+PigsFinProj: {
+DisplayName: ピッグズフィン
+}
+
+FrodleNeedle: {
+DisplayName: フロドルの針
+}
+
+PetrifiedSunProj2: {
+DisplayName: 石化した太陽
+}
+
+PetrifiedSunProj: {
+DisplayName: 石化した太陽
+}
+
+BoulaceProj: {
+DisplayName: ボウレス
+}
+
+SpawnedBoulder: {
+DisplayName: 岩石
+}
+
+ShotBoulder: {
+DisplayName: 岩石
+}
+
+Boully2: {
+DisplayName: ボウリー
+}
+
+TinyBoulder: {
+DisplayName: 小石
+}
+
+LifeCrystalBoulder: {
+DisplayName: ライフクリスタルの岩石
+}
+
+CarryFairy: {
+DisplayName: 妖精
+}
+
+EnemyFairy: {
+DisplayName: 妖精
+}
+
+CutsceneFairy: {
+DisplayName: 妖精
+}
+
+TinyThrowedBoulder: {
+DisplayName: 小石
+}
+
+ThrowedBoulder: {
+DisplayName: 投げられた岩石
+}
+
+OutGroundBoulder: {
+DisplayName: 岩石
+}
+
+BloodDroplet: {
+DisplayName: 血の滴
+}
+
+ArteryScratcherProj2: {
+DisplayName: 動脈スクラッチャー
+}
+
+ArteryScratcherProj: {
+DisplayName: 動脈スクラッチャー
+}
+
+FungstProj: {
+DisplayName: ファングスト
+}
+
+MosquitoBot: {
+DisplayName: 蚊ボット
+}
+
+WindLightProj2: {
+DisplayName: ウィンドライト
+}
+
+WindLightProj: {
+DisplayName: ウィンドライト
+}
+
+PullanProj: {
+DisplayName: プラン
+}
+
+PullanProj2: {
+DisplayName: プラン
+}
+
+BlizzardFanProj3: {
+DisplayName: ブリザードファン
+}
+
+BlizzardFanProj: {
+DisplayName: ブリザードファン
+}
+
+BlizzardFanProj2: {
+DisplayName: ブリザードファン
+}
+
+BeetleFanProj: {
+DisplayName: ビートルファン
+}
+
+StingerFanProj3: {
+DisplayName: スティンガーファン
+}
+
+StingerFanProj2: {
+DisplayName: スティンガーファン
+}
+
+StingerFanProj: {
+DisplayName: スティンガーファン
+}
+
+WoodenFanProj: {
+DisplayName: 木のファン
+}
+
+EnchantedFanProj2: {
+DisplayName: エンチャントファン
+}
+
+EnchantedFanProj: {
+DisplayName: エンチャントファン
+}
+
+BloodyFanProj2: {
+DisplayName: ブラッディファン
+}
+
+BloodyFanProj: {
+DisplayName: ブラッディファン
+}
+
+DeathStarBomb3Proj: {
+DisplayName: デススター
+}
+
+DeathStarBomb2Proj: {
+DisplayName: デススター
+}
+
+DeathStarBomb1Proj: {
+DisplayName: デススター
+}
+
+DeathStarProj: {
+DisplayName: デススター
+}
+
+ChainMineProj: {
+DisplayName: 地雷
+}
+
+ExplonocactusSpikeProj: {
+DisplayName: エクスプロノカクタス
+}
+
+ExplonocactusProj: {
+DisplayName: エクスプロノカクタス
+}
+
+BoilerMineSparkleProj: {
+DisplayName: ボイラー地雷
+}
+
+BoilerMineProj: {
+DisplayName: ボイラー地雷
+}
+
+PlushieKidneyNailProj: {
+DisplayName: ぬいぐるみ腎臓の釘
+}
+
+PlushieKidneyProj: {
+DisplayName: ぬいぐるみ腎臓
+}
+
+PlushieEaterProj: {
+DisplayName: ぬいぐるみイーター
+}
+
+BuffStarProj: {
+DisplayName: 魔法の星
+}
+
+CandyMineProj: {
+DisplayName: キャンディー地雷
+}
+
+UnshroomyKnivesProj: {
+DisplayName: 不気味でないナイフ
+}
+
+TrappyShroom: {
+DisplayName: 罠キノコ
+}
+
+UncannySpore: {
+DisplayName: 不気味な胞子
+}
+
+GroundGlow: {
+DisplayName: 地面の輝き
+}
+
+ShroomMissle: {
+DisplayName: キノコミサイル
+}
+
+CoolerRaftHookProj: {
+DisplayName: 涼しいラフトフック
+}
+
+RaftHookProj: {
+DisplayName: ラフトフック
+}
+
+ShellLanceBallProj: {
+DisplayName: シェルランス
+}
+
+ShellLanceProj: {
+DisplayName: シェルランス
+}
+
+FriendlySmallRedSickle: {
+DisplayName: 赤い鎌
+}
+
+ArterialArmorShard: {
+DisplayName: 動脈アーマーの破片
+}
+
+CrystalStaffProj: {
+DisplayName: 魔法クリスタル
+}
+
+IceFireSkullProj: {
+DisplayName: 小さなインフェルノブリザード
+}
+
+LunarNote2: {
+DisplayName: ルナノート
+}
+
+LunarCardProj: {
+DisplayName: ルナカード
+}
+
+LunarNote: {
+DisplayName: ルナノート
+}
+
+MoonWalkerStep: {
+DisplayName: ルナステップ
+}
+
+MouthHitBox: {
+DisplayName: ラヴァカルの口
+}
+
+TastiestCrimsonPieceProj: {
+DisplayName: 最も美味しい真紅のかけら
+}
+
+TastiestCorruptionPieceProj: {
+DisplayName: 最も美味しい不浄のかけら
+}
+
+RedSickle: {
+DisplayName: 悪魔の鎌
+}
+
+SmallRedSickle: {
+DisplayName: 悪魔の鎌
+}
+
+ScarletSlicerProj: {
+DisplayName: スカーレットスライサー
+}
+
+JungleDragonProj: {
+DisplayName: ジャングルドラゴン
+}
+
+FireSkullProj: {
+DisplayName: 小さなインフェルノ
+}
+
+IceSkullProj: {
+DisplayName: 小さなブリザード
+}
+
+HolyStampProj: {
+DisplayName: ホーリースタンプ
+}
+
+GrimstrikeProj: {
+DisplayName: グリムストライク
+}
+
+VerdantVitalityProj: {
+DisplayName: 新緑の生命力
+}
+
+ForbiddenFruitProj: {
+DisplayName: 禁断の果実
+}
+
+LeadSawProj: {
+DisplayName: 鉛のノコギリ
+}
+
+IronSawProj: {
+DisplayName: 鉄のノコギリ
+}
+
+TrappedLightningProj: {
+DisplayName: 閉じ込められた雷
+}
+
+WaterCircleProj: {
+DisplayName: 水の輪
+}
+
+StarPatienceProj: {
+DisplayName: 星の忍耐
+}
+
+JungleAxeProj: {
+DisplayName: ジャングルの斧
+}
+
+RenaAxeProj: {
+DisplayName: 妖精の斧
+}
+
+CrystalSwordProj: {
+DisplayName: クリスタルスラッシュ
+}
+
+HellDroneBossBarierBullet: {
+DisplayName: ヘルドローンボスバリア弾
+}
+
+HellDroneBossCatalystBullet: {
+DisplayName: ヘルドローンボス触媒弾
+}
+
+HellDroneBossFollowBullet: {
+DisplayName: ヘルドローンボス追尾弾
+}
+
+HellDroneBossSpinningBullet: {
+DisplayName: ヘルドローンボス回転弾
+}
+
+HellDroneBossCircleBullet: {
+DisplayName: ヘルドローンボス円弾
+}
+
+MagicGunBullet: {
+DisplayName: 魔法銃弾
+}
+
+DroneBossBullet: {
+DisplayName: ドローンボス弾
+}
+
+DroneBossBigBullet: {
+DisplayName: ドローンボス大弾
+}
+
+DroneBossHand: {
+DisplayName: ドローンボスの手
+}
+
+ZephyriteBigBullet: {
+DisplayName: ゼファイライト大弾
+}
+
+CorruptionSpiritOrbShard: {
+DisplayName: 不浄スピリットオーブの破片
+}
+
+CSEaterOfSouls: {
+DisplayName: CSイーター・オブ・ソウル
+}
+
+CorruptionSpiritOrb: {
+DisplayName: 不浄スピリットオーブ
+}
+
+TimidiumBossPet: {
+DisplayName: 肉キュウリ
+}
+
+FriendlyTimid: {
+DisplayName: アボミニウムクリーチャー
+}
+
+Timidrop: {
+DisplayName: アボミニウムの唾液
+}
+
+Teethy: {
+DisplayName: ティーシー
+}
+
+TimidosFriendlyVomit: {
+DisplayName: アボミニウムの嘔吐物
+}
+
+TimidosVomit: {
+DisplayName: ラヴァカルの嘔吐物
+}
+
+TinyCrimerasDebuffProjectile: {
+DisplayName: 小さなクリメラのデバフ弾
+}
+
+CrimsonSpiritHeart: {
+DisplayName: 真紅スピリットの心臓
+}
+
+CorruptionSpirit: {
+DisplayName: 不浄スピリット
+}
+
+CrimsonSpirit: {
+DisplayName: 真紅スピリット
+}
+
+ForestSpirit: {
+DisplayName: 森スピリット
+}
+
+TorchSpike: {
+DisplayName: たいまつスパイク
+}
+
+WoodenSpike: {
+DisplayName: 木のスパイク
+}
+
+RottenBullet: {
+DisplayName: 腐った針
+}
+
+BloodBullet: {
+DisplayName: 血の滴
+}
+}
+
+Items: {
+StarfishFin: {
+Tooltip: ""
+DisplayName: スターフィッシュのひれ
+}
+
+HeartSpinner: {
+Tooltip:
+'''
+存在する間、最大HPを5増加（効果は重複する）
+右クリックで装着されたノコギリをすべて除去
+標準では装着可能なノコギリの上限は5つ
+'''
+DisplayName: ハートスピナー
+}
+
+TitaniumRaftHook: {
+Tooltip:
+'''
+敵を掴んで好きな位置にドラッグできる
+右クリックで敵を自分の方に引き寄せる
+ボスに25%の確率で効果がある
+'''
+DisplayName: チタニウムラフトフック
+}
+
+BlackAndWhite: {
+Tooltip:
+'''
+たくさんの鋭い刃を投げる
+刃が敵に近づくと停止し、永続的に静止する
+'''
+DisplayName: ブラック・アンド・ホワイト
+}
+
+LavaGhost: {
+Tooltip:
+'''
+使用するたびに炎のゴーストを召喚し、すでに存在するゴーストの状態を切り替える
+溶岩ゴーストは眠るか、プレイヤーに向かって飛ぶかのどちらか
+眠っているゴーストはダメージを与えない
+敵を発火させる
+'''
+DisplayName: 溶岩ゴースト
+}
+
+ParanoiaSigil: {
+Tooltip:
+'''
+装着可能なノコギリが20回ダメージを与えると、魔法のノコギリの竜巻を召喚
+魔法のノコギリはソースのノコギリのダメージの10%に相当するダメージを与える
+装着可能なノコギリのクリティカル率が10%上昇
+装着可能なノコギリの最大数が5つ増加
+ファンがダメージを与えるキノコの残像を拡散
+臆病者ダメージが25%増加
+地雷の爆発半径を2倍にする
+敵があなたを狙いやすくなる
+ダメージを受けた後の移動速度が増加
+敵に近づくと移動速度が増加（近いほど速い）
+激しく汗をかく
+敵に近づくとさらに汗をかく
+汗の雫1つにつき防御力の25%に相当するダメージを与える
+'''
+DisplayName: パラノイアシギル
+}
+
+PlushieCat: {
+Tooltip:
+'''
+地雷の爆発半径を2倍にする
+「物を爆発させるのが大好きな飼い主の架空の猫のぬいぐるみ」
+'''
+DisplayName: ぬいぐるみ猫
+}
+
+ShroomyCloth: {
+Tooltip: ファンがダメージを与えるキノコの残像を拡散
+DisplayName: キノコ布
+}
+
+SawSharpener: {
+Tooltip:
+'''
+装着可能なノコギリのクリティカル率が5%上昇
+装着可能なノコギリの最大数が5つ増加
+'''
+DisplayName: ノコギリ研磨機
+}
+
+SawBox: {
+Tooltip:
+'''
+装着可能なノコギリが20回ダメージを与えると、魔法のノコギリの竜巻を召喚
+魔法のノコギリはソースのノコギリのダメージの10%に相当するダメージを与える
+装着可能なノコギリのクリティカル率が10%上昇
+装着可能なノコギリの最大数が5つ増加
+'''
+DisplayName: ノコギリボックス
+}
+
+UnsuspiciousLookingBoulder: {
+Tooltip:
+'''
+「うん、普通に見えるね」
+非バイオーム地底洞窟層でのみ使用可能
+ボルダーを召喚
+消費されない
+'''
+DisplayName: 怪しくない岩石
+}
+
+AProbablyWrongShroom: {
+Tooltip:
+'''
+「なんと怪しげなもの！」
+光るキノコバイオームでのみ使用可能
+シュルーミテーターを召喚
+消費されない
+'''
+DisplayName: おそらく間違ったキノコ
+}
+
+StarCandy: {
+Tooltip:
+'''
+地雷を作るたびに魔法の星を召喚
+地雷が星に触れると、星を回収して地雷のダメージが50%上昇
+'''
+DisplayName: スターキャンディ
+}
+
+AttentionGrabber: {
+Tooltip:
+'''
+臆病者ダメージが20%増加
+敵があなたを狙いやすくなる
+ダメージを受けた後の移動速度が増加
+敵に近づくと移動速度が増加（近いほど速い）
+激しく汗をかく
+敵に近づくとさらに汗をかく
+汗の雫1つにつき防御力の25%に相当するダメージを与える
+'''
+DisplayName: 注意引き
+}
+
+WimpyAmulet: {
+Tooltip:
+'''
+ダメージを受けた後の移動速度が増加
+敵に近づくと移動速度が増加（近いほど速い）
+激しく汗をかく
+敵に近づくとさらに汗をかく
+汗の雫1つにつき防御力の25%に相当するダメージを与える
+'''
+DisplayName: 弱虫のお守り
+}
+
+SweatyTowel: {
+Tooltip:
+'''
+激しく汗をかく
+敵に近づくとさらに汗をかく
+汗の雫1つにつき防御力の25%に相当するダメージを与える
+'''
+DisplayName: 汗まみれタオル
+}
+
+CursedCutter: {
+Tooltip:
+'''
+定期的に自分自身のダメージを与える残像を作る
+右クリックで装着されたノコギリをすべて除去
+標準では装着可能なノコギリの上限は5つ
+'''
+DisplayName: 呪いのカッター
+}
+
+BoneSpinner: {
+Tooltip:
+'''
+定期的に近くの敵に骨を投げる
+右クリックで装着されたノコギリをすべて除去
+標準では装着可能なノコギリの上限は5つ
+'''
+DisplayName: ボーンスピナー
+}
+
+AntlionsEye: {
+Tooltip:
+'''
+右クリックで装着されたノコギリをすべて除去
+標準では装着可能なノコギリの上限は5つ
+'''
+DisplayName: アントリオンの目
+}
+
+SpikeStorm: {
+Tooltip: 使用するたびに飛ぶスパイクを投げ、同時にすでに存在するものを吹き飛ばす
+DisplayName: スパイクストーム
+}
+
+FingerPuller: {
+Tooltip:
+'''
+魔法の磁気弾を撃つ
+敵に当たると、すべての飛び道具をその中心に引き寄せる磁場を作る
+'''
+DisplayName: フィンガープラー
+}
+
+AdamantiteRaftHook: {
+Tooltip:
+'''
+敵を掴んで好きな位置にドラッグできる
+右クリックで敵を自分の方に引き寄せる
+ボスに25%の確率で効果がある
+'''
+DisplayName: アダマンタイトラフトフック
+}
+
+ThePerfectFreeze: {
+Tooltip:
+'''
+使用するたびに色とりどりの弾を拡散することと、それらを凍らせることを切り替える
+敵に凍傷を与える
+弾は凍った状態でのみ凍傷を与える
+'''
+DisplayName: 完全なる氷結
+}
+
+PigsFin: {
+Tooltip: ダメージを与える静的な泡を作る
+DisplayName: ピッグズフィン
+}
+
+PetrifiedSun: {
+Tooltip:
+'''
+時々5つの小さな岩を落とす
+右クリックで装着されたノコギリをすべて除去
+標準では装着可能なノコギリの上限は5つ
+'''
+DisplayName: 石化した太陽
+}
+
+Boulace: {
+Tooltip: ホールドで自分で転がし、リリースで引き戻す
+DisplayName: ボウレス
+}
+
+FatePlacer: {
+Tooltip:
+'''
+カーソルの位置に岩を作る
+長く持つほど、岩は大きくなり、与えるダメージも大きくなる
+'''
+DisplayName: フェイトプレイサー
+}
+
+Bowrock: {
+Tooltip: 30%の確率で追加で岩を撃ち出す
+DisplayName: ボウロック
+}
+
+RockHorn: {
+Tooltip:
+'''
+戦うための空飛ぶ岩ゴーレムを召喚
+可能な召喚数にカウントされない
+'''
+DisplayName: ロックホーン
+}
+
+BloodyNeedle: {
+Tooltip:
+'''
+各ショットで2%の確率でHP1ポイントを消費
+HPが25%未満の場合は使用不可
+'''
+DisplayName: ブラッディニードル
+}
+
+ArteryScratcher: {
+Tooltip: 命中時にダメージを与える血の滴を吐く確率がある
+DisplayName: 動脈スクラッチャー
+}
+
+Fungst: {
+Tooltip: ""
+DisplayName: ファングスト
+}
+
+BloodlustSwarmer: {
+Tooltip: カーソルに向かって飛ぶ小さなロボット蚊を撃ち出す
+DisplayName: ブラッドラストスウォーマー
+}
+
+WindLight: {
+Tooltip: 自分自身の残像を作り、その残像がまた残像を作り、その残像がまた残像を作り、その残像が…
+DisplayName: ウィンドライト
+}
+
+UnblessedMetalScrap: {
+DisplayName: 祝福されざる金属くず
+Tooltip: 奇妙な吸血ロボットの欠片
+}
+
+Pullan: {
+DisplayName: プラン
+Tooltip: ""
+}
+
+BlizzardFan: {
+DisplayName: ブリザードファン
+Tooltip:
+'''
+5回目の使用で氷の残像を作り、つららに爆発する
+敵に凍傷を与える
+'''
+}
+
+BerserkEmblem: {
+DisplayName: バーサーク紋章
+Tooltip: HPが50%以下になると、ダメージが25%上昇
+}
+
+BeetleFan: {
+DisplayName: ビートルファン
+Tooltip: ""
+}
+
+UnblessedHelmet: {
+DisplayName: 祝福されざるヘルメット
+Tooltip: 臆病者クリティカル率が3%上昇
+}
+
+UnblessedShoulderPads: {
+DisplayName: 祝福されざるショルダーパッド
+Tooltip:
+'''
+臆病者ダメージが5%増加
+臆病者クリティカル率が5%上昇
+'''
+}
+
+StingerFan: {
+Tooltip:
+'''
+小さなスティンガーの拡散弾幕と集中的な大きなスティンガーショットを切り替える
+敵を毒にする
+'''
+DisplayName: スティンガーファン
+}
+
+WoodenFan: {
+Tooltip: ""
+DisplayName: 木のファン
+}
+
+EnchantedFan: {
+Tooltip: 使用時にダメージを与える残像を出す
+DisplayName: エンチャントファン
+}
+
+BloodyFan: {
+DisplayName: ブラッディファン
+Tooltip: ""
+}
+
+StretchyVein: {
+Tooltip: 作られたすべての地雷にあなたに直接つながる追加のチェーンを持たせる
+DisplayName: 伸縮性血管
+}
+
+MarchVanityLegs: {
+Tooltip: ""
+DisplayName: マーチィーレッグ
+}
+
+MarchVanityHead: {
+Tooltip: ""
+DisplayName: マーチィーヘッド
+}
+
+MarchVanityTorso: {
+Tooltip: ""
+DisplayName: マーチィートルソ
+}
+
+MagicScissors: {
+Tooltip: 魔法で既存のすべての地雷からチェーンを瞬時に切断
+DisplayName: 魔法のハサミ
+}
+
+DeathStar: {
+DisplayName: デススター
+Tooltip: 3つの小さな追加地雷に爆発する
+}
+
+ChainMine: {
+Tooltip: 接触すると爆発
+DisplayName: チェーン地雷
+}
+
+Explonocactus: {
+Tooltip: 6つの超小さなスパイクに爆発
+DisplayName: エクスプロノカクタス
+}
+
+BoilerMine: {
+Tooltip:
+'''
+爆発時に敵を燃やす
+爆発時に敵を発火させる小さな火花を散らす
+'''
+DisplayName: ボイラー地雷
+}
+
+PlushieKidney: {
+Tooltip: 3つのダメージを与える釘に爆発
+DisplayName: ぬいぐるみ腎臓
+}
+
+PlushieEater: {
+Tooltip: 最も近い敵に向かってダッシュ
+DisplayName: ぬいぐるみイーター
+}
+
+BuffStar: {
+Tooltip: ""
+DisplayName: バフスター
+}
+
+CandyMine: {
+Tooltip:
+'''
+爆発時に2つのダメージを与える破片に分裂
+「食べたいな」
+'''
+DisplayName: キャンディー地雷
+}
+
+UnshroomyKnives: {
+Tooltip: 奇妙に壁から跳ねる
+DisplayName: 不気味でないナイフ
+}
+
+CoolerRaftHook: {
+Tooltip:
+'''
+敵を掴んで好きな位置にドラッグできる
+右クリックで敵を自分の方に引き寄せる
+今度は少し長いロープ！
+ボスは掴めない
+'''
+DisplayName: 上級サバイバーズフック
+}
+
+RaftHook: {
+Tooltip:
+'''
+敵を掴んで好きな位置にドラッグできる
+右クリックで敵を自分の方に引き寄せる
+ボスは掴めない
+'''
+DisplayName: サバイバーズフック
+}
+
+ShellLance: {
+Tooltip: 命中後、最も近い他の敵が30%の確率でこの槍のダメージの50%を受ける
+DisplayName: シェルランス
+}
+
+MoonRockFragment: {
+Tooltip: この断片から月光が放射されている
+DisplayName: 月岩の断片
+}
+
+VampireStone: {
+Tooltip: 臆病者ダメージを与えると回復する
+DisplayName: ヴァンパイアファング
+}
+
+LivingFire: {
+Tooltip:
+'''
+すべての攻撃に25%の確率で動脈の炎を与える
+ダメージを受けると5%の確率で動脈の炎で燃える
+ライフ再生が1増加
+'''
+DisplayName: 生きている炎
+}
+
+CrystalBow: {
+Tooltip: ""
+DisplayName: クリスタルボウ
+}
+
+CrystalStaff: {
+Tooltip: ブロックを通り抜けることができる魔法クリスタルを撃つ
+DisplayName: クリスタルスタッフ
+}
+
+IceFireSkull: {
+Tooltip:
+'''
+ダメージを与える氷の雪片を作る
+ダメージを与える跳ねる火の玉を作る
+'''
+DisplayName: 燃えるフロストクラニウム
+}
+
+LunarCard: {
+Tooltip: 必死に持ち主に戻ろうとする呪われたカード
+DisplayName: ルナカード
+}
+
+DarkSideOfTheMoon: {
+Tooltip:
+'''
+ランダムな方向に向かうゆっくり動くルナノートを作る
+時々追加のノートを作ることがある
+'''
+DisplayName: 月の裏側
+}
+
+MoonWalkerBreastplate: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが15%増加
+敵があなたを狙いやすくなる
+'''
+DisplayName: ムーンウォーカー胸当て
+}
+
+MoonWalkerHelmet: {
+Tooltip:
+'''
+臆病者クリティカル率が10%上昇
+臆病者ダメージが10%増加
+敵があなたを狙いやすくなる
+'''
+DisplayName: ムーンウォーカーヘルメット
+}
+
+MoonWalkerBoots: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+移動速度が20%増加
+敵があなたを狙いやすくなる
+'''
+DisplayName: ムーンウォーカーブーツ
+}
+
+CursedHand: {
+Tooltip: あなたを守るアボミニウムクリーチャーを作る
+DisplayName: 呪われた手
+}
+
+ItemArterialRock: {
+Tooltip: 光を通す
+DisplayName: 動脈岩
+}
+
+ItemWorldArteryPurpleCrystal: {
+Tooltip: 生命エネルギーに満ちたクリスタル
+DisplayName: 充填された動脈クリスタル
+}
+
+RavakarBossBag: {
+Tooltip: ""
+DisplayName: トレジャーバッグ（ラヴァカル）
+}
+
+TastiestCrimsonPiece: {
+Tooltip:
+'''
+「全然美味しくなさそう」
+真紅/不浄でのみ使用可能
+ラヴァカルを召喚
+消費されない
+'''
+DisplayName: 最も美味しい真紅のかけら
+}
+
+TastiestCorruptionPiece: {
+Tooltip:
+'''
+「全然美味しくなさそう」
+真紅/不浄でのみ使用可能
+ラヴァカルを召喚
+消費されない
+'''
+DisplayName: 最も美味しい不浄のかけら
+}
+
+ArteryCrystalChestplate: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが5%増加
+'''
+DisplayName: 動脈の服
+}
+
+ArteryCrystalArmorHead: {
+Tooltip: 臆病者クリティカル率が3%上昇
+DisplayName: 動脈のフード
+}
+
+ScarletSlicer: {
+Tooltip: 短時間後、自分で自分の位置の方向に動き始める
+DisplayName: スカーレットスライサー
+}
+
+JungleDragon: {
+Tooltip:
+'''
+炎のエネルギーで爆発する花
+あなたに向かって飛んできて逃げる。逃げるときに（またはその前に）誰かに当たると、被害者を追い始める
+'''
+DisplayName: ジャングルドラゴン
+}
+
+FireSkull: {
+Tooltip: ダメージを与える跳ねる火の玉を作る
+DisplayName: パイロクラニウム
+}
+
+IceSkull: {
+Tooltip: ダメージを与える氷の雪片を作る
+DisplayName: ブリザードソウルスカル
+}
+
+HolyStamp: {
+Tooltip: 敵と接触すると魔法で敵にダメージを与える聖印を押す
+DisplayName: ホーリースタンプ
+}
+
+Grimstrike: {
+Tooltip:
+'''
+完璧な瞬間を予期して誰かを叩き潰す暗黒魔法ハンマー
+成功した命中のたびに、被害者の防御力が永続的に3減少
+'''
+DisplayName: グリムストライク
+}
+
+VerdantVitality: {
+Tooltip:
+'''
+地面から自分の方向に跳ね返る伸縮性投げ斧
+命中時に敵を毒にする
+'''
+DisplayName: 新緑の生命力
+}
+
+ForbiddenFruit: {
+Tooltip:
+'''
+それに触れる者すべてを罰する魅惑的な呪われた果実
+命中時に敵をシャドウフレイムで燃やす
+'''
+DisplayName: 禁断の果実
+}
+
+LeadSaw: {
+Tooltip: ""
+DisplayName: 鉛のノコギリ
+}
+
+IronSaw: {
+Tooltip: ""
+DisplayName: 鉄のノコギリ
+}
+
+WaterSpiral: {
+Tooltip: ダメージを与える水の輪を作る
+DisplayName: ウォータースパイラル
+}
+
+TrappedLightning: {
+Tooltip: 混沌として震える
+DisplayName: 閉じ込められた雷
+}
+
+StarPatience: {
+Tooltip: 浮遊する星型地雷、限られた時間重力に影響されない
+DisplayName: 星の忍耐
+}
+
+JungleAxe: {
+Tooltip: 命中時に敵を毒にする
+DisplayName: ジャングルの斧
+}
+
+ItemSkyLabPlatingWall: {
+Tooltip: ""
+DisplayName: 大装甲壁
+}
+
+ItemSkyLabDarkPlatingWall: {
+Tooltip: ""
+DisplayName: 暗黒大装甲壁
+}
+
+ItemSkyLabDarkPlating: {
+Tooltip: ""
+DisplayName: 暗黒大装甲
+}
+
+ItemSkyLabPlating: {
+Tooltip: ""
+DisplayName: 大装甲
+}
+
+RenaAxe: {
+Tooltip: あなたを守る妖精を召喚
+DisplayName: 妖精の斧
+}
+
+CrystalSword: {
+Tooltip: ""
+DisplayName: クリスタルソード
+}
+
+ItemWorldArteryCrystal: {
+Tooltip: 結晶化された世界の生命エネルギー
+DisplayName: 動脈クリスタル
+}
+
+LifeShard: {
+Tooltip: ""
+DisplayName: ライフクリスタルの破片
+}
+
+ItemLifeBar: {
+Tooltip: バーに圧縮された生きているエネルギー
+DisplayName: 生命のバー
+}
+
+LifeEssence: {
+Tooltip: そこから来る生命エネルギーを感じることができる
+DisplayName: 生命のエッセンス
+}
+
+InfernoLegs: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+移動速度が10%増加
+'''
+DisplayName: インフェルノレッグ
+}
+
+InfernoHelmet: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが5%増加
+'''
+DisplayName: インフェルノヘルメット
+}
+
+InfernoChestplate: {
+Tooltip: 臆病者ダメージが10%増加
+DisplayName: インフェルノ胸当て
+}
+
+LifeChestplate: {
+Tooltip:
+'''
+臆病者クリティカル率が10%上昇
+臆病者ダメージが8%増加
+ライフ再生が1増加
+'''
+DisplayName: 生命の胸当て
+}
+
+LifeArmorLegs: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+移動速度が25%増加
+'''
+DisplayName: 生命のレッグ
+}
+
+LifeArmorHat: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが10%増加
+'''
+DisplayName: 生命の帽子
+}
+
+FallenSoul: {
+Tooltip: ""
+DisplayName: 堕ちたソウル
+}
+
+CruelSoul: {
+Tooltip: ""
+DisplayName: 残酷なソウル
+}
+
+DronebossMask: {
+Tooltip: ""
+DisplayName: イーサンのマスク
+}
+
+DroneBossNecklase: {
+Tooltip:
+'''
+ダメージを受けると、即座に2ライフポイント回復
+ハート型
+主人の情熱的なプロジェクトについて持ち主に思い出させる
+'''
+DisplayName: イーサンのネックレス
+}
+
+ZephyriteSword: {
+Tooltip: ""
+DisplayName: ブレードクラッジェル
+}
+
+ZephyriteEngine: {
+Tooltip: ""
+DisplayName: ゼファイライトエンジン
+}
+
+MagicZephyriteGun: {
+Tooltip: ""
+DisplayName: エネルギーライフル
+}
+
+DroneBossBag: {
+Tooltip: ""
+DisplayName: トレジャーバッグ（イーサン）
+}
+
+ZephyriteBigGun: {
+Tooltip: ""
+DisplayName: ヘビーランチャー
+}
+
+BadZephyriteShield: {
+Tooltip: 攻撃成功率が5%増加
+DisplayName: ゼファイライトシールド
+}
+
+ZephyriteShield: {
+Tooltip: ""
+DisplayName: 防御プロジェクト
+}
+
+ZephyriteGun: {
+Tooltip: ""
+DisplayName: ゼファイライトガン
+}
+
+DroneSmallBanner: {
+Tooltip: ""
+DisplayName: スモールドローンバナー
+}
+
+DroneBigBanner: {
+Tooltip: ""
+DisplayName: ビッグドローンバナー
+}
+
+DroneBasicBanner: {
+Tooltip: ""
+DisplayName: ベーシックドローンバナー
+}
+
+ZephyriteScrap: {
+Tooltip: ""
+DisplayName: ゼファイライトくず
+}
+
+TimidiumBossPetItem: {
+Tooltip: 肉でできたキュウリ…？
+DisplayName: 肉キュウリ
+}
+
+TimidosBossMask: {
+Tooltip: ""
+DisplayName: ラヴァカルマスク
+}
+
+ItemTimidosBossTrophy: {
+Tooltip: ""
+DisplayName: ラヴァカルトロフィー
+}
+
+ItemTimidosBossRelic: {
+Tooltip: ""
+DisplayName: ラヴァカルレリック
+}
+
+Tarrasque: {
+Tooltip:
+'''
+毎秒最大ライフの1.6%を回復
+最大ライフが20増加
+死んだモンスターの保存された心臓、持ち主の不屈の精神を支える
+'''
+DisplayName: タラスクの心臓
+}
+
+TimidiumJar: {
+Tooltip: あなたを守るアボミニウムクリーチャーを作る
+DisplayName: 呪われた手
+}
+
+TimidiumBow: {
+Tooltip:
+'''
+呪われたハローで作られた弓
+使用時に悪魔の鎌を召喚
+'''
+DisplayName: ハローボウ
+}
+
+TimidiumSword: {
+Tooltip: ダメージを与える唾液を吐く
+DisplayName: 憎悪の舌
+}
+
+TimidiumStaff: {
+Tooltip:
+'''
+小さな空飛ぶアボミニウムクリーチャーを作る
+クリーチャーが敵を傷つけると、クリーチャーが死ぬまで敵を追いかけて噛み続ける
+'''
+DisplayName: ティミッドハンガー
+}
+
+TimidiumArmorBody: {
+Tooltip: すべてのダメージが2%増加
+DisplayName: ティミジウム胸当て
+}
+
+TimidiumArmorHead: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+臆病者ダメージが5%増加
+'''
+DisplayName: ティミジウムヘルメット
+}
+
+TimidiumArmorLegs: {
+Tooltip:
+'''
+臆病者クリティカル率が5%上昇
+移動速度が10%増加
+'''
+DisplayName: ティミジウムレギンス
+}
+
+EvilBlood: {
+Tooltip: 邪悪さで脈動している！
+DisplayName: 邪悪な血
+}
+
+TimidosBossBag: {
+Tooltip: ""
+DisplayName: トレジャーバッグ（ティミドス）
+}
+
+TimidosSummonItem: {
+Tooltip: ""
+DisplayName: ティミドス召喚アイテム
+}
+
+ItemTimidium: {
+Tooltip: より大きな寄生虫に寄生する寄生虫の肉
+DisplayName: アボミニウム
+}
+
+CorruptionSpiritItem: {
+Tooltip:
+'''
+不浄のスピリットの忠誠を得る
+15秒ごとにシャドウオーブがあなたの周りに生成される（最大3個）。シャドウオーブが壊れると、その破片は消える前に10秒間（密接に）あなたの周りを回り続ける
+シャドウオーブは耐久性が終わると壊れる。シャドウオーブはそれぞれ15の「体力」を持ち、敵に触れると1減り、防御力に等しいダメージを与える。5秒ごとに1「体力」が再生される
+すべての攻撃が敵を呪いの炎で燃やす
+ダメージを受けるたびに、不浄スピリットが1匹の友好的なイーター・オブ・ソウルを解放し、死ぬまで敵を追いかけ、ダメージ（防御力の150%）を与える
+HPが最大の50%以下の場合、シャドウオーブが壊れるたびに25のブロック不可能ダメージを受ける
+最大HPが15%減少
+'''
+DisplayName: 不浄の契約
+}
+
+CrimsonSpiritItem: {
+Tooltip:
+'''
+真紅のスピリットの忠誠を得る…？
+25秒ごとに血の心臓があなたの周りに生成される（最大3個）。生きている血の心臓1つにつき10%のダメージ耐性とダメージ増加を得る
+血の心臓は敵に触れると死に、最大HPの5%に等しいダメージを与え、10回復する
+すべての攻撃が敵を霊液で覆う
+デフォルトでダメージが5%増加し、HPが低いほど強くなる（HPが5%の時最大100%）
+HPが最大の45%以下の場合、少しずつライフを失い始める
+HPが最大の20%以下の場合、契約終了
+'''
+DisplayName: 真紅の契約
+}
+
+PurestEvil: {
+Tooltip: ""
+DisplayName: 最も純粋な邪悪
+}
+
+ForestSpiritItem: {
+DisplayName: 森スピリットアイテム
+Tooltip: ""
+}
+
+ItemSunBar: {
+Tooltip: 触ると熱い
+DisplayName: 太陽石バー
+}
+
+CowardEmblem: {
+Tooltip: 臆病者ダメージが15%増加
+DisplayName: 臆病者紋章
+}
+
+TorchSpikies: {
+Tooltip: 照明にはまだ使える！
+DisplayName: たいまつスパイキー
+}
+
+ItemSunOre: {
+Tooltip:
+'''
+太陽の表面からの石
+どうやってそこに来たの？
+'''
+DisplayName: 太陽石
+}
+
+WoodenSpikies: {
+Tooltip: ""
+DisplayName: 木のスパイキー
+}
+
+ItemCrystalBench: {
+Tooltip: 特別なクリスタルクラフトに使用
+DisplayName: クリスタルーム
+}
+
+HellShard: {
+Tooltip: 悪魔的な何かで満たされている
+DisplayName: 地獄の破片
+}
+
+CosmicEssence: {
+Tooltip: 宇宙からのエネルギーで脈動
+DisplayName: コズミックエッセンス
+}
+
+AngelChestplate: {
+Tooltip: 近接、魔法、遠隔、召喚ダメージが3%増加
+DisplayName: 天使の胸当て
+}
+
+AngelPants: {
+Tooltip:
+'''
+近接、魔法、遠隔、召喚ダメージが3%増加
+移動速度が12%増加
+'''
+DisplayName: 天使のレギンス
+}
+
+AngelHelmet: {
+Tooltip: 近接、魔法、遠隔、召喚ダメージが3%増加
+DisplayName: 天使のヘルメット
+}
+
+CrimsonStaff: {
+Tooltip: 速い血の涙を撃つ
+DisplayName: 泣く目
+}
+
+CorruptionStaff: {
+Tooltip: 敵の魂そのものを傷つけることができる細い針を作る
+DisplayName: ソウルベイン
+}
+
+PureEvil: {
+Tooltip: 2つの大きな感染から素材で作られた弓
+DisplayName: 純粋な邪悪
+}
+
+BouncyClaws: {
+Tooltip: 特別なゲルで潤滑され、何でも裂く準備ができている！
+DisplayName: バウンシーバグナク
+}
+
+TutorialSword: {
+Tooltip: 特別なゲルで潤滑され、何でも裂く準備ができている！
+DisplayName: バウンシーバグナク
+}
+}
